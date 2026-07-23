@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "02 Demand Supply And Equilibrium", "url": "https://alevel.wyattau.com/economics/microeconomics/02-demand-supply-and-equilibrium"}]
-}
-</script>
 title: Demand, Supply and Equilibrium
 description: "We define as the quantity of a good or service that consumers are _willing and able_ to Purchase at each possible price during a given time period, _ceteris"
 date: 2025-06-02T16:25:28.480Z

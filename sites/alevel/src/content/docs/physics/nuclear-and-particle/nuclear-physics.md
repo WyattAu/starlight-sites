@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Nuclear And Particle", "url": "https://alevel.wyattau.com/physics/nuclear-and-particle"}, {"name": "Nuclear Physics", "url": "https://alevel.wyattau.com/physics/nuclear-and-particle/nuclear-physics"}]
-}
-</script>
 title: Nuclear Physics
 description: "In 1911, Geiger and Marsden (under Rutherford' s direction) fired alpha particles at a thin gold foil. Most passed straight through, some were deflected"
 date: 2026-04-23T00:00:00.000Z

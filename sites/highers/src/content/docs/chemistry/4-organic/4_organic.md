@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
-}
-</script>
 title: Organic Chemistry
 description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14

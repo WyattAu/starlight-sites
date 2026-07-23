@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "3_atomic_operations", "url": "https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations"}]
-}
-</script>
 title: Atomic Operations and Lock-Free Programming
 description: "This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack"
 date: 2026-04-03T00:00:00.000Z

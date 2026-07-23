@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
-}
-</script>
 title: Syllabus
 description: "This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass Comprehensive educational content coverage with definitions and practice proble"
 ---

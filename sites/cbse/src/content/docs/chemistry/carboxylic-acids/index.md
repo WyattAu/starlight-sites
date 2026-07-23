@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}, {"name": "Carboxylic Acids", "url": "https://cbse.wyattau.com/chemistry/carboxylic-acids"}, {"name": "Index", "url": "https://cbse.wyattau.com/chemistry/carboxylic-acids/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Carboxylic Acids",
-  "description": "CBSE Class 12 chemistry: Reactions, derivatives, and worked examples.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://cbse.wyattau.com"
-  },
-  "url": "https://cbse.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: "Carboxylic Acids"
 description: "CBSE Class 12 chemistry: Reactions, derivatives, and worked examples."
 ---

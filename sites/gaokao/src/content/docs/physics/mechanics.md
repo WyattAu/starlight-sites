@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Physics", "url": "https://gaokao.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://gaokao.wyattau.com/physics/mechanics"}]
-}
-</script>
 title: "Mechanics"
 description: "高考 physics: Mechanics"
 ---

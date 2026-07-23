@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Mathematics", "url": "https://cbse.wyattau.com/mathematics"}, {"name": "Matrices", "url": "https://cbse.wyattau.com/mathematics/matrices"}, {"name": "01 Matrix Operations", "url": "https://cbse.wyattau.com/mathematics/matrices/01-matrix-operations"}]
-}
-</script>
 title: "Matrix operations"
 description: "CBSE Class 12 mathematics: Matrix operations with multiplication, determinants, and inverse."
 ---

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
-}
-</script>
 title: Data Representation
 description: "This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,"
 date: 2026-04-08T00:00:00.000Z

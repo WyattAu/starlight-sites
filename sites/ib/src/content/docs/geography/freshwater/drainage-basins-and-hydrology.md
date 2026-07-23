@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Freshwater", "url": "https://ib.wyattau.com/geography/freshwater"}, {"name": "Drainage Basins And Hydrology", "url": "https://ib.wyattau.com/geography/freshwater/drainage-basins-and-hydrology"}]
-}
-</script>
 title: Drainage Basins and Hydrology
 description: "A drainage basin (catchment or watershed) is the area of land from which all precipitation flows to A common outlet, where a river enters a lake, sea, or"
 

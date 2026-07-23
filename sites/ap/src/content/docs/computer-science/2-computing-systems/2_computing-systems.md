@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "2 Computing Systems", "url": "https://ap.wyattau.com/computer-science/2-computing-systems"}, {"name": "2_computing Systems", "url": "https://ap.wyattau.com/computer-science/2-computing-systems/2_computing-systems"}]
-}
-</script>
 title: Computing Systems
 description: "| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM"
 date: 2026-04-14

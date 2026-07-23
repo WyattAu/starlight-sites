@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "06 Concurrency", "url": "https://languages.wyattau.com/java/06-concurrency"}, {"name": "01 Concurrency", "url": "https://languages.wyattau.com/java/06-concurrency/01-concurrency"}]
-}
-</script>
 title: Concurrency
 description: "Java concurrency fundamentals."
 categories: ["java"]

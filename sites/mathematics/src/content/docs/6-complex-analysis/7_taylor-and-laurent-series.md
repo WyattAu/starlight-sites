@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "7_taylor And Laurent Series", "url": "https://mathematics.wyattau.com/6-complex-analysis/7_taylor-and-laurent-series"}]
-}
-</script>
 title: Taylor and Laurent Series
 tags:
   - Mathematics

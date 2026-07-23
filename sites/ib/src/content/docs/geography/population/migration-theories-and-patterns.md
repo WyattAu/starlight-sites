@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Population", "url": "https://ib.wyattau.com/geography/population"}, {"name": "Migration Theories And Patterns", "url": "https://ib.wyattau.com/geography/population/migration-theories-and-patterns"}]
-}
-</script>
 title: Migration Theories and Patterns
 description: "Migration is the movement of people from one place to another with the intention of settling, Permanently or temporarily, in the new location. Migration can"
 

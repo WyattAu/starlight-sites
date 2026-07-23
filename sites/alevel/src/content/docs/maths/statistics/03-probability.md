@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "03 Probability", "url": "https://alevel.wyattau.com/maths/statistics/03-probability"}]
-}
-</script>
 title: Probability
 description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------- | | AQA | Paper 1, 2 | Basic probability in P1;"
 date: 2025-06-02T16:25:28.480Z

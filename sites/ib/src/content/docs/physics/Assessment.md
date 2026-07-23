@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
-}
-</script>
 title: Assessment
 description: "IB Physics (first assessment 2025) is examined through a combination of external written papers and An Internal Assessment (IA). The external component"
 ---

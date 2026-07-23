@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-differential-equations"}]
-}
-</script>
 title: "Differential Equations -- Diagnostic Tests"
 description: "A-Level Further Maths Differential Equations -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
-}
-</script>
 title: "Functions -- Diagnostic Tests"
 description: "DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false

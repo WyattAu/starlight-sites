@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
-}
-</script>
 title: ICT - Programming and Databases
 description: "A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble"
 

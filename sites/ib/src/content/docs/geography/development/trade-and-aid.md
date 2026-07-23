@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Development", "url": "https://ib.wyattau.com/geography/development"}, {"name": "Trade And Aid", "url": "https://ib.wyattau.com/geography/development/trade-and-aid"}]
-}
-</script>
 title: Trade and Aid
 description: "Global trade patterns and development aid."
 ---

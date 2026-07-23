@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "05 Standard Library", "url": "https://languages.wyattau.com/python/05-standard-library"}, {"name": "03 Cli Tools", "url": "https://languages.wyattau.com/python/05-standard-library/03-cli-tools"}]
-}
-</script>
 title: CLI Tools
 description: "decision. The standard library Gives you (bare metal) and (batteries-included), while"
 date: 2026-04-05T00:00:00.000Z

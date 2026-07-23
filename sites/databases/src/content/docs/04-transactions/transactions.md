@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "04 Transactions", "url": "https://databases.wyattau.com/04-transactions"}, {"name": "Transactions", "url": "https://databases.wyattau.com/04-transactions/transactions"}]
-}
-</script>
 title: Transactions and Concurrency
 description: "ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not"
 tags:

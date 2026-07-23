@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
-}
-</script>
 title: GCSE Biology Study Guide
 date: 2026-06-01
 description: "A complete single-page revision guide covering the full GCSE Biology specification. Each section contains key concepts, definitions, and essential facts."

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Biological", "url": "https://ib.wyattau.com/psychology/biological"}, {"name": "Brain Imaging Techniques", "url": "https://ib.wyattau.com/psychology/biological/brain-imaging-techniques"}]
-}
-</script>
 title: Brain Imaging Techniques
 description: "Brain imaging techniques allow researchers to observe the structure and function of the living human Brain without surgery. These techniques have"
 

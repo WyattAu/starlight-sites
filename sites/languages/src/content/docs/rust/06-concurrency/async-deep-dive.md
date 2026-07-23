@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "06 Concurrency", "url": "https://languages.wyattau.com/rust/06-concurrency"}, {"name": "Async Deep Dive", "url": "https://languages.wyattau.com/rust/06-concurrency/async-deep-dive"}]
-}
-</script>
 title: Async Deep Dive
 description: "Rust async programming deep dive."
 ---

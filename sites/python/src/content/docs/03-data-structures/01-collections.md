@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "03 Data Structures", "url": "https://python.wyattau.com/03-data-structures"}, {"name": "01 Collections", "url": "https://python.wyattau.com/03-data-structures/01-collections"}]
-}
-</script>
 title: Collections
 description: "Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks."
 date: 2025-06-04T12:00:00.000Z

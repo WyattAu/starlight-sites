@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Concurrency", "url": "https://go.wyattau.com/concurrency"}, {"name": "Goroutines", "url": "https://go.wyattau.com/concurrency/goroutines"}]
-}
-</script>
 title: Goroutines and Synchronization
 description: "A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to"
 date: 2026-04-18

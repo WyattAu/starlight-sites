@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
-}
-</script>
 title: Chi-Squared Tests
 description: "The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two"
 date: 2026-04-02T00:00:00.000Z

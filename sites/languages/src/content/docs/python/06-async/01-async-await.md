@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "06 Async", "url": "https://languages.wyattau.com/python/06-async"}, {"name": "01 Async Await", "url": "https://languages.wyattau.com/python/06-async/01-async-await"}]
-}
-</script>
 title: Async and Await
 description: "Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision."
 date: 2025-06-04T15:00:00.000Z

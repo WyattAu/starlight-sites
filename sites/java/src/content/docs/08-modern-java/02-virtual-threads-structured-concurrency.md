@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "08 Modern Java", "url": "https://java.wyattau.com/08-modern-java"}, {"name": "02 Virtual Threads Structured Concurrency", "url": "https://java.wyattau.com/08-modern-java/02-virtual-threads-structured-concurrency"}]
-}
-</script>
 title: Virtual Threads and Structured Concurrency
 description: "Java virtual threads and structured concurrency."
 categories: ["java"]

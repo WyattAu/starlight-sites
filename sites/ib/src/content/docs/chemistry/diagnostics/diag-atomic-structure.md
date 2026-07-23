@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
-}
-</script>
 title: "Atomic Structure and Atomic Theory -- Diagnostic Tests"
 description: "IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

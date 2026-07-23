@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "English", "url": "https://ap.wyattau.com/english"}, {"name": "1 Rhetorical Analysis", "url": "https://ap.wyattau.com/english/1-rhetorical-analysis"}, {"name": "1_rhetorical Analysis", "url": "https://ap.wyattau.com/english/1-rhetorical-analysis/1_rhetorical-analysis"}]
-}
-</script>
 title: Rhetorical Analysis
 description: "Before analysing any text, identify the context in which the text was produced."
 date: 2026-06-04T10:00:00.000Z

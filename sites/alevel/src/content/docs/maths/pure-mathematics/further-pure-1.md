@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
-}
-</script>
 title: Further Pure Mathematics 1
 description: "| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,"
 date: 2026-05-31

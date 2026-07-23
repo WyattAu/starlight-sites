@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "10 Source Analysis", "url": "https://alevel.wyattau.com/history/10-source-analysis"}, {"name": "1_source_analysis", "url": "https://alevel.wyattau.com/history/10-source-analysis/1_source_analysis"}]
-}
-</script>
 title: "A-Level Source Analysis"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 13

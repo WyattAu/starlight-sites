@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Economic Development", "url": "https://ib.wyattau.com/geography/economic-development"}]
-}
-</script>
 title: Economic Development
 description: "This section covers the IB Geography optional theme on economic development. It examines the nature of economic development at a variety of scales, the ways"
 

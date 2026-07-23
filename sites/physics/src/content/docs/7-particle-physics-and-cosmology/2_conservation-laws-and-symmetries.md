@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "2_conservation Laws And Symmetries", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries"}]
-}
-</script>
 title: Conservation Laws and Symmetries
 tags:
   - Physics

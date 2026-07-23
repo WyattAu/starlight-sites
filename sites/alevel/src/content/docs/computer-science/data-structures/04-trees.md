@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Data Structures", "url": "https://alevel.wyattau.com/computer-science/data-structures"}, {"name": "04 Trees", "url": "https://alevel.wyattau.com/computer-science/data-structures/04-trees"}]
-}
-</script>
 title: Trees
 description: "A is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data Structure consisting of nodes, where each node has at most one and"
 date: 2025-06-02T16:25:28.480Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "03 Branching And Merging", "url": "https://tools.wyattau.com/git/03-branching-and-merging"}, {"name": "03 Rebasing", "url": "https://tools.wyattau.com/git/03-branching-and-merging/03-rebasing"}]
-}
-</script>
 title: Rebasing
 description: "Rebasing is the process of a series of commits onto a new base commit. Unlike merging, which creates a new commit with two parents, rebasing rewrites"
 date: 2025-06-03T04:00:00.000Z

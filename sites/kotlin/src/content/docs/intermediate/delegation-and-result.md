@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Intermediate", "url": "https://kotlin.wyattau.com/intermediate"}, {"name": "Delegation And Result", "url": "https://kotlin.wyattau.com/intermediate/delegation-and-result"}]
-}
-</script>
 title: delegation and result
 date: 2026-05-30
 tags:

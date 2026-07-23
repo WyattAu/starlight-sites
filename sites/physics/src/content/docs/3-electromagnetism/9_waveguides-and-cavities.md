@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "9_waveguides And Cavities", "url": "https://physics.wyattau.com/3-electromagnetism/9_waveguides-and-cavities"}]
-}
-</script>
 title: Waveguides and Cavities
 tags:
   - Physics

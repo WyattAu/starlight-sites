@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
-}
-</script>
 title: "Diagnostic Test: Algorithms"
 description: "Self-assessment quiz on algorithms"
 sidebar_position: 60

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "04 Error Handling", "url": "https://languages.wyattau.com/rust/04-error-handling"}, {"name": "Error Handling Patterns", "url": "https://languages.wyattau.com/rust/04-error-handling/error-handling-patterns"}]
-}
-</script>
 title: Error Handling Patterns
 description: "Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across"
 

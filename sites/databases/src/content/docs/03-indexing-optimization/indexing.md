@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "03 Indexing Optimization", "url": "https://databases.wyattau.com/03-indexing-optimization"}, {"name": "Indexing", "url": "https://databases.wyattau.com/03-indexing-optimization/indexing"}]
-}
-</script>
 title: Indexing and Optimization
 description: "Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one"
 tags:

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Basics", "url": "https://go.wyattau.com/basics"}, {"name": "Arrays Slices Maps", "url": "https://go.wyattau.com/basics/arrays-slices-maps"}]
-}
-</script>
 title: Arrays, Slices, and Maps
 description: "Arrays are fixed-length, homogeneous sequences. The length is part of the type - Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18

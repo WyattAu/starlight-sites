@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "00 Intro", "url": "https://ruby.wyattau.com/00-intro"}, {"name": "1_ruby Intro", "url": "https://ruby.wyattau.com/00-intro/1_ruby-intro"}]
-}
-</script>
 title: Introduction to Ruby
 description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro"
 date: 2026-06-04T10:00:00.000Z

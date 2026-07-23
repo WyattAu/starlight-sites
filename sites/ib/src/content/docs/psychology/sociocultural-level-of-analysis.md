@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural Level Of Analysis", "url": "https://ib.wyattau.com/psychology/sociocultural-level-of-analysis"}]
-}
-</script>
 title: Sociocultural Level of Analysis
 description: "The sociocultural level of analysis (SCLOA) investigates how the social environment and cultural context influence behaviour. It is based on the principle"
 

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "2_algorithms_and_ranges", "url": "https://programming.wyattau.com/standard_library/2_algorithms_and_ranges"}, {"name": "5_parallel_algorithms", "url": "https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/5_parallel_algorithms"}]
-}
-</script>
 title: Parallel Algorithms
 description: "C++17 introduced execution policies that enable many standard algorithms to run in parallel across Multiple threads. This section covers the three standard"
 date: 2026-04-03T00:00:00.000Z

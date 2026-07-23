@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Advanced Topics", "url": "https://machine-learning.wyattau.com/advanced-topics"}]
-}
-</script>
 title: advanced topics
 date: 2026-05-30
 tags:

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
-}
-</script>
 title: Microorganisms and Biotechnology
 description: "Microorganisms are organisms that are too small to be seen with the naked eye. They are Found in all three domains of life and include bacteria, fungi, and"
 date: 2026-04-08T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
-}
-</script>
 title: Chemical Equilibrium
 description: "Rigorous IB chemistry notes covering Chemical Equilibrium. Includes definitions, derivations, worked examples, and exam-style problems. constants, and acid-b"
 date: 2024-01-01T00:00:00Z

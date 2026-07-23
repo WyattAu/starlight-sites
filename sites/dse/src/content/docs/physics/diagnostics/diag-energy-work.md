@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
-}
-</script>
 title: "Energy and Work -- Diagnostic Tests"
 description: "DSE Physics Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false

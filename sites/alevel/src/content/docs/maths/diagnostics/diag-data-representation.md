@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
-}
-</script>
 title: "Data Representation -- Diagnostic Tests"
 description: "A-Level Maths Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false

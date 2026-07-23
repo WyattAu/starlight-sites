@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
-}
-</script>
 title: Open Source Contribution Guide
 description: "General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 

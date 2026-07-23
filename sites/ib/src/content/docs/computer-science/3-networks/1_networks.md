@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
-}
-</script>
 title: Networks
 description: "Rigorous IB computer science notes covering Networks. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "1_algorithm_analysis", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_algorithm_analysis"}]
-}
-</script>
 title: Algorithm Analysis
 description: Methods for analyzing algorithm efficiency including asymptotic notation, amortized analysis, and space-time trade-offs.
 ---

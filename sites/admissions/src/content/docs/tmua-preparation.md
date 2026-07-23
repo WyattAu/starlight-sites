@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
-}
-</script>
 title: TMUA Preparation
 description: "University Admissions TMUA Preparation notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 date: 2026-05-05T00:00:00.000Z

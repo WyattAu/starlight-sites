@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "01 Remote Operations", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/01-remote-operations"}]
-}
-</script>
 title: Remote Operations
 description: "for any other. In practice, one"
 date: 2025-06-03T06:00:00.000Z

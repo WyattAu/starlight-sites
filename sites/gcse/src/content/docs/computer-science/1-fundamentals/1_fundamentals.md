@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "1 Fundamentals", "url": "https://gcse.wyattau.com/computer-science/1-fundamentals"}, {"name": "1_fundamentals", "url": "https://gcse.wyattau.com/computer-science/1-fundamentals/1_fundamentals"}]
-}
-</script>
 title: Data Representation
 description: "Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14

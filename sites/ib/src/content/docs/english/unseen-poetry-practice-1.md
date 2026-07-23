@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
-}
-</script>
 title: "IB Paper 1 Unseen Poetry Practice: Seamus Heaney's Digging"
 description: "Close reading analysis of Seamus Heaney's 'Digging' for IB English Paper 1. Model answer with examiner commentary, annotated rubric alignment, and structural and thematic analysis."
 sidebar_position: 10

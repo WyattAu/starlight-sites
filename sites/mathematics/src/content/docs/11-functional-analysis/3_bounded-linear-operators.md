@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "3_bounded Linear Operators", "url": "https://mathematics.wyattau.com/11-functional-analysis/3_bounded-linear-operators"}]
-}
-</script>
 title: Bounded Linear Operators
 tags:
   - Mathematics

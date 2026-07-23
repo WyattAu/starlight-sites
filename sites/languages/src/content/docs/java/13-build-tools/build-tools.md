@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "13 Build Tools", "url": "https://languages.wyattau.com/java/13-build-tools"}, {"name": "Build Tools", "url": "https://languages.wyattau.com/java/13-build-tools/build-tools"}]
-}
-</script>
 title: Build Tools and Dependency Management
 description: "Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble"
 

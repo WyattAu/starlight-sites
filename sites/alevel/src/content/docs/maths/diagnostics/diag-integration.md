@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
-}
-</script>
 title: "Integration -- Diagnostic Tests"
 description: "A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false

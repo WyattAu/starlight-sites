@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics", "url": "https://ap.wyattau.com/physics"}, {"name": "5 Rotational Motion", "url": "https://ap.wyattau.com/physics/5-rotational-motion"}, {"name": "5_rotational Motion", "url": "https://ap.wyattau.com/physics/5-rotational-motion/5_rotational-motion"}]
-}
-</script>
 title: Rotational Motion
 description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |"
 date: 2026-04-14

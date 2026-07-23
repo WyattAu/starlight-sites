@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "10 Io Nio", "url": "https://java.wyattau.com/10-io-nio"}, {"name": "02 Nio Deep Dive", "url": "https://java.wyattau.com/10-io-nio/02-nio-deep-dive"}]
-}
-</script>
 title: NIO Deep Dive
 description: "(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O"
 

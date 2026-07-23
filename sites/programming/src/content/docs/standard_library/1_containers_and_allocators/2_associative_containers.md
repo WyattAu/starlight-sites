@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "1_containers_and_allocators", "url": "https://programming.wyattau.com/standard_library/1_containers_and_allocators"}, {"name": "2_associative_containers", "url": "https://programming.wyattau.com/standard_library/1_containers_and_allocators/2_associative_containers"}]
-}
-</script>
 title: Associative and Unordered Containers
 description: "C++ provides two families of associative containers: containers () Backed by balanced binary search trees with operations, and containers () backed by hash"
 date: 2026-04-03T00:00:00.000Z

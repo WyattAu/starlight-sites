@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Index", "url": "https://leaving-cert.wyattau.com/physics/index"}]
-}
-</script>
 title: Irish LC Physics
 description: "Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills"
 date: 2026-04-14

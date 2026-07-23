@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "2_cache_coherency", "url": "https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency"}]
-}
-</script>
 title: Cache Coherency (MESI) and False Sharing
 description: "This section covers the MESI cache coherence protocol, cache line ownership and coherence traffic, False sharing, and padding/alignment techniques to"
 date: 2026-04-03T00:00:00.000Z

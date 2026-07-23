@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Tooling And Configuration", "url": "https://typescript.wyattau.com/tooling-and-configuration"}]
-}
-</script>
 title: Tooling and Configuration
 description: "Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references."
 date: 2026-04-22T00:00:00.000Z

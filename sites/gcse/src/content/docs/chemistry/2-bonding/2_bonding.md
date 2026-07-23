@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://gcse.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://gcse.wyattau.com/chemistry/2-bonding/2_bonding"}]
-}
-</script>
 title: Bonding
 description: "occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions"
 date: 2026-04-14

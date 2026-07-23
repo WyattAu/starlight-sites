@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "5 Kinetics And Equilibrium", "url": "https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium"}, {"name": "5_kinetics And Equilibrium", "url": "https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium/5_kinetics-and-equilibrium"}]
-}
-</script>
 title: Kinetics and Equilibrium
 description: "Qualifications Chemistry Kinetics and Equilibrium notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14

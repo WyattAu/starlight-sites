@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "06 Tls", "url": "https://networking.wyattau.com/06-tls"}, {"name": "Tls", "url": "https://networking.wyattau.com/06-tls/tls"}]
-}
-</script>
 title: TLS
 description: "Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure"
 tags:

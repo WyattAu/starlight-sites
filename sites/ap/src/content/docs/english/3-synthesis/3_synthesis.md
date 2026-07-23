@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "English", "url": "https://ap.wyattau.com/english"}, {"name": "3 Synthesis", "url": "https://ap.wyattau.com/english/3-synthesis"}, {"name": "3_synthesis", "url": "https://ap.wyattau.com/english/3-synthesis/3_synthesis"}]
-}
-</script>
 title: Synthesis
 description: "The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)"
 date: 2026-06-04T10:00:00.000Z

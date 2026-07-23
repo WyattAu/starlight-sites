@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
-}
-</script>
 title: "Diagnostic Test: Databases"
 description: "Self-assessment quiz on database fundamentals"
 sidebar_position: 60

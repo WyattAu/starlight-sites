@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Statistics", "url": "https://ap.wyattau.com/statistics"}, {"name": "4 Statistical Inference", "url": "https://ap.wyattau.com/statistics/4-statistical-inference"}, {"name": "4_statistical Inference", "url": "https://ap.wyattau.com/statistics/4-statistical-inference/4_statistical-inference"}]
-}
-</script>
 title: Statistical Inference
 description: "Statistical inference uses sample data to draw conclusions about a population. There are two main types: (estimating a parameter) and (testing a claim about"
 date: 2026-06-04T10:00:00.000Z

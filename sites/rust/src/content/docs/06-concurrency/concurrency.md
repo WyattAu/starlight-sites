@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "06 Concurrency", "url": "https://rust.wyattau.com/06-concurrency"}, {"name": "Concurrency", "url": "https://rust.wyattau.com/06-concurrency/concurrency"}]
-}
-</script>
 title: Concurrency
 description: "Rust' s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating"
 

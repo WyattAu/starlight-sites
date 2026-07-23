@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://dse.wyattau.com/biology/diagnostics/diagnostic-guide"}]
-}
-</script>
 title: "DSE Biology Diagnostic Tests -- Guide"
 description: "These diagnostic tests target the questions within the HKDSE Biology specification. Each test is designed to expose deep misconceptions that separate"
 tableOfContents: false

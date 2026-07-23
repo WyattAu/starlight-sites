@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "01 Fundamentals", "url": "https://languages.wyattau.com/rust/01-fundamentals"}, {"name": "Control Flow", "url": "https://languages.wyattau.com/rust/01-fundamentals/control-flow"}]
-}
-</script>
 title: Control Flow and Pattern Matching
 description: "Rust' s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression — it"
 

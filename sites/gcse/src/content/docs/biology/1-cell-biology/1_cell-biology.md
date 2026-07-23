@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://gcse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://gcse.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
-}
-</script>
 title: Cell Biology
 description: "All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow"
 date: 2026-04-14

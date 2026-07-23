@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
-}
-</script>
 title: Chemical Bonding and Structure
 description: "Rigorous IB chemistry notes covering Chemical Bonding and Structure. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z

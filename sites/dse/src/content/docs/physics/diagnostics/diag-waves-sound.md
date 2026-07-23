@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
-}
-</script>
 title: "Waves and Sound -- Diagnostic Tests"
 description: "DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false

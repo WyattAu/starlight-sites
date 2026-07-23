@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostic Test", "url": "https://alevel.wyattau.com/computer-science/diagnostic-test"}]
-}
-</script>
 title: A Level Computer Science — Diagnostic Test
 description: "This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each"
 date: 2025-06-02T16:25:28.480Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
-}
-</script>
 title: Periodicity
 description: "Rigorous IB chemistry notes covering Periodicity. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

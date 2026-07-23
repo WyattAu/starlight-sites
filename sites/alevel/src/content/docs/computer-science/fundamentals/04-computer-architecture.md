@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Fundamentals", "url": "https://alevel.wyattau.com/computer-science/fundamentals"}, {"name": "04 Computer Architecture", "url": "https://alevel.wyattau.com/computer-science/fundamentals/04-computer-architecture"}]
-}
-</script>
 title: Computer Architecture
 description: "The , proposed by John Von Neumann in 1945, is characterised by a single Unified memory space that stores both data and instructions, a single set of buses"
 date: 2025-06-02T16:25:28.480Z

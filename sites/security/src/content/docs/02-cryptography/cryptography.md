@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "02 Cryptography", "url": "https://security.wyattau.com/02-cryptography"}, {"name": "Cryptography", "url": "https://security.wyattau.com/02-cryptography/cryptography"}]
-}
-</script>
 title: Cryptography
 description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly"
 

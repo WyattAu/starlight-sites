@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
-}
-</script>
 title: Glacial Systems and Landscapes
 date: 2026-05-21
 tags: [alevel, alevel-geography]

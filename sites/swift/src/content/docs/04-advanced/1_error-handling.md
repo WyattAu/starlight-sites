@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "04 Advanced", "url": "https://swift.wyattau.com/04-advanced"}, {"name": "1_error Handling", "url": "https://swift.wyattau.com/04-advanced/1_error-handling"}]
-}
-</script>
 title: Error Handling
 description: "Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error."
 date: 2026-06-04T10:00:00.000Z

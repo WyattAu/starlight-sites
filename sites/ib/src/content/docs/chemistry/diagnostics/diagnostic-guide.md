@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/chemistry/diagnostics/diagnostic-guide"}]
-}
-</script>
 title: "IB Chemistry -- Diagnostic Guide"
 description: "IB Chemistry diagnostic tests: IB Chemistry -- Diagnostic Guide. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false

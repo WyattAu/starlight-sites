@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "00 Intro", "url": "https://haskell.wyattau.com/00-intro"}, {"name": "1_haskell Intro", "url": "https://haskell.wyattau.com/00-intro/1_haskell-intro"}]
-}
-</script>
 title: Introduction to Haskell
 description: "Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional"
 date: 2026-06-04T10:00:00.000Z

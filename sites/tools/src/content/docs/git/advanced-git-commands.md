@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
-}
-</script>
 title: Advanced Git Commands
 description: "Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice."
 date: 2026-04-07T00:00:00.000Z

@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Index", "url": "https://chemistry.wyattau.com/1-physical-chemistry/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Physical Chemistry",
-  "description": "'Topics in physical chemistry including thermodynamics, kinetics, quantum chemistry, and spectroscopy with worked examples.'",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://chemistry.wyattau.com"
-  },
-  "url": "https://chemistry.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: Physical Chemistry
 description: 'Topics in physical chemistry including thermodynamics, kinetics, quantum chemistry, and spectroscopy with worked examples.'
 ---

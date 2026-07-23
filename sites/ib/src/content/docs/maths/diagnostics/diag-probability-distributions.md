@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability Distributions", "url": "https://ib.wyattau.com/maths/diagnostics/diag-probability-distributions"}]
-}
-</script>
 title: "Probability Distributions -- Diagnostic Tests"
 description: "IB Maths Probability Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

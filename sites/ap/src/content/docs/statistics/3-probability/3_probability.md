@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Statistics", "url": "https://ap.wyattau.com/statistics"}, {"name": "3 Probability", "url": "https://ap.wyattau.com/statistics/3-probability"}, {"name": "3_probability", "url": "https://ap.wyattau.com/statistics/3-probability/3_probability"}]
-}
-</script>
 title: Probability
 description: "- : The set of all possible outcomes of an experiment - : Any subset of the sample space - : A number between 0 and 1 that measures the likelihood of an event"
 date: 2026-06-04T10:00:00.000Z

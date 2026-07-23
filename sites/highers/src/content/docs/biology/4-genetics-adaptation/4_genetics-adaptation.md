@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
-}
-</script>
 title: Genetics and Adaptation
 description: "Scottish Highers Biology Genetics and Adaptation notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14

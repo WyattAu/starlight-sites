@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "4 Plant Biology", "url": "https://leaving-cert.wyattau.com/biology/4-plant-biology"}, {"name": "4_plant Biology", "url": "https://leaving-cert.wyattau.com/biology/4-plant-biology/4_plant-biology"}]
-}
-</script>
 title: Plant Biology
 description: "This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to Stimuli. Plant biology is a core area of the Irish"
 date: 2026-04-14

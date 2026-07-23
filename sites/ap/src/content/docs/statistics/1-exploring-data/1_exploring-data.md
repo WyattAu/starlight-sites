@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Statistics", "url": "https://ap.wyattau.com/statistics"}, {"name": "1 Exploring Data", "url": "https://ap.wyattau.com/statistics/1-exploring-data"}, {"name": "1_exploring Data", "url": "https://ap.wyattau.com/statistics/1-exploring-data/1_exploring-data"}]
-}
-</script>
 title: Exploring Data
 description: "A (qualitative variable) places an individual or item into one of several groups or categories. The values are labels, not numerical quantities."
 date: 2026-06-04T10:00:00.000Z

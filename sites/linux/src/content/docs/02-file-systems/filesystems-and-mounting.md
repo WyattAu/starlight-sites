@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "02 File Systems", "url": "https://linux.wyattau.com/02-file-systems"}, {"name": "Filesystems And Mounting", "url": "https://linux.wyattau.com/02-file-systems/filesystems-and-mounting"}]
-}
-</script>
 title: File Systems and Mounting
 description: "The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And"
 

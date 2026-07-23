@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "Bgp And Routing Protocols", "url": "https://networking.wyattau.com/bgp-and-routing-protocols"}]
-}
-</script>
 title: BGP and Routing Protocols
 description: "Routing is the process of selecting a path across a network for traffic to travel from a source to a Destination. Every packet your systems send -- whether"
 date: 2026-04-07T00:00:00.000Z

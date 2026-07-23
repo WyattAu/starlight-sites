@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Index", "url": "https://gcse.wyattau.com/physics/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "GCSE Physics",
-  "description": "Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://gcse.wyattau.com"
-  },
-  "url": "https://gcse.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: GCSE Physics
 description: "Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14

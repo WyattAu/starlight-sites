@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
-}
-</script>
 title: "Mechanics -- Diagnostic Tests"
 description: "Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "7 Ecology", "url": "https://gcse.wyattau.com/biology/7-ecology"}, {"name": "7_ecology", "url": "https://gcse.wyattau.com/biology/7-ecology/7_ecology"}]
-}
-</script>
 title: Ecology
 description: "- A single organism. - All the organisms of one species in a habitat. The size of a population can change over time due to birth rate, death rate,"
 date: 2026-04-14

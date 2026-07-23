@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
-}
-</script>
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
 description: "Tests edge cases, boundary conditions, and common misconceptions for sequences."
 date: 2026-04-14
