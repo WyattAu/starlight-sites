@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "5_electromagnetic Waves", "url": "https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves"}]
+}
+</script>
 title: Electromagnetic Waves
 tags:
   - Physics

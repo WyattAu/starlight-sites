@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://dse.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: DSE Mathematics Diagnostic Guide
 description: "Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure"
 tableOfContents: false

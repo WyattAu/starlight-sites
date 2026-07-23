@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 title: Molecular Biology
 description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation."
 date: 2024-01-01T00:00:00Z

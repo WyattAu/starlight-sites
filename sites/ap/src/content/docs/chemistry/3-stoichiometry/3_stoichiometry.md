@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://ap.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://ap.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 title: Stoichiometry
 description: "Qualifications Chemistry Stoichiometry notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 date: 2026-04-14

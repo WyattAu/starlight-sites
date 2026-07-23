@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "7_small Oscillations And Normal Modes", "url": "https://physics.wyattau.com/1-classical-mechanics/7_small-oscillations-and-normal-modes"}]
+}
+</script>
 title: Small Oscillations and Normal Modes
 tags:
   - Physics

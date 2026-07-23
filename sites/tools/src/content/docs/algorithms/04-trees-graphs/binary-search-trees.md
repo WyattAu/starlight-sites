@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "04 Trees Graphs", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs"}, {"name": "Binary Search Trees", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs/binary-search-trees"}]
+}
+</script>
 title: Binary Search Trees and Balanced Trees
 description: "A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And"
 

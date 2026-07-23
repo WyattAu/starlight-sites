@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Basics", "url": "https://go.wyattau.com/basics"}, {"name": "Types And Variables", "url": "https://go.wyattau.com/basics/types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18

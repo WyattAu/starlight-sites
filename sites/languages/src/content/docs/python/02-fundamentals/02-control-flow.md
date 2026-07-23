@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "02 Fundamentals", "url": "https://languages.wyattau.com/python/02-fundamentals"}, {"name": "02 Control Flow", "url": "https://languages.wyattau.com/python/02-fundamentals/02-control-flow"}]
+}
+</script>
 title: Control Flow
 description: "Python' s conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks."
 date: 2025-06-04T11:00:00.000Z

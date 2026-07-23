@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Index", "url": "https://leaving-cert.wyattau.com/computer-science/index"}]
+}
+</script>
 title: Irish LC Computer Science
 description: "Leaving Certificate Computer Science covers hardware, programming, databases, networking, and computational thinking. The course combines theoretical"
 date: 2026-04-14

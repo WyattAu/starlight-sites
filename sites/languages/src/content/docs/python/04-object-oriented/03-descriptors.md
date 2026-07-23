@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "04 Object Oriented", "url": "https://languages.wyattau.com/python/04-object-oriented"}, {"name": "03 Descriptors", "url": "https://languages.wyattau.com/python/04-object-oriented/03-descriptors"}]
+}
+</script>
 title: Descriptors and Properties
 description: "Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or ."
 

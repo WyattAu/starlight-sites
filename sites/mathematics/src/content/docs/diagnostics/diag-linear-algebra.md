@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 title: "Diagnostic Test: Linear Algebra"
 description: "Self-assessment quiz on linear algebra"
 sidebar_position: 60

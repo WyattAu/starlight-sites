@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Object_oriented", "url": "https://cpp.wyattau.com/object_oriented"}, {"name": "2_runtime_polymorphism", "url": "https://cpp.wyattau.com/object_oriented/2_runtime_polymorphism"}, {"name": "5_deducing_this_crtp", "url": "https://cpp.wyattau.com/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp"}]
+}
+</script>
 title: Deducing This and CRTP
 description: "C++23 introduces (deducing this), which eliminates the need for the Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP"
 date: 2026-04-03T00:00:00.000Z

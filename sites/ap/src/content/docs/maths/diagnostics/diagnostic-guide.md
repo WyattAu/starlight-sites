@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ap.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: AP Calculus Diagnostic Guide
 description: "Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics"
 date: 2026-04-14

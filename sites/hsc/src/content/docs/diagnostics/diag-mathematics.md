@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 title: "Diagnostic Test: Mathematics"
 description: "Self-assessment quiz on HSC Mathematics"
 sidebar_position: 60

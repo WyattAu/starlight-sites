@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Inheritance Variation Evolution", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-inheritance-variation-evolution"}]
+}
+</script>
 title: "Inheritance, Variation and Evolution -- Diagnostic Tests"
 description: "(a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two"
 tableOfContents: false

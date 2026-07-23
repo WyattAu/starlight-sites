@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 title: Chemistry - Carbon Chemistry
 description: 'DSE Chemistry - Carbon Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 date: 2026-04-23T00:00:00.000Z

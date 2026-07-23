@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "1 Number", "url": "https://gcse.wyattau.com/maths/1-number"}, {"name": "1_number", "url": "https://gcse.wyattau.com/maths/1-number/1_number"}]
+}
+</script>
 title: Number
 description: 'Number: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-14

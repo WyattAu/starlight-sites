@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "9 Topology", "url": "https://mathematics.wyattau.com/9-topology"}, {"name": "9_introduction To Algebraic Topology", "url": "https://mathematics.wyattau.com/9-topology/9_introduction-to-algebraic-topology"}]
+}
+</script>
 title: Introduction to Algebraic Topology
 tags:
   - University Maths

@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Index", "url": "https://truenas.wyattau.com/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "TrueNAS",
+  "description": "TrueNAS storage server configuration and administration notes.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://truenas.wyattau.com"
+  },
+  "url": "https://truenas.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 template: splash
 title: TrueNAS
 description: "TrueNAS storage server configuration and administration notes."

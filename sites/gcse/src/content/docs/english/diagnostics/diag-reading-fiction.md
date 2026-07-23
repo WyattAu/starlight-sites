@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
 title: "Reading Fiction -- Diagnostic Tests"
 description: "Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

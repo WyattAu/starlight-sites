@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "1_propositional And Predicate Logic", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/1_propositional-and-predicate-logic"}]
+}
+</script>
 title: Propositional and Predicate Logic
 tags:
   - Computing

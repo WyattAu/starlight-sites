@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "4 Period 6", "url": "https://ap.wyattau.com/history/4-period-6"}, {"name": "4_period 6", "url": "https://ap.wyattau.com/history/4-period-6/4_period-6"}]
+}
+</script>
 title: Period 6 (1865-1898)
 description: "The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large"
 date: 2026-06-04T10:00:00.000Z

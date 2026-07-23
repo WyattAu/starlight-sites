@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 title: GCSE Physics Study Guide
 date: 2026-05-31
 description: "A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts."

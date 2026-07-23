@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "04 Object Oriented", "url": "https://languages.wyattau.com/python/04-object-oriented"}, {"name": "02 Metaclasses", "url": "https://languages.wyattau.com/python/04-object-oriented/02-metaclasses"}]
+}
+</script>
 title: Metaclasses and Class Creation
 description: "The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is"
 date: 2026-04-05T00:00:00.000Z

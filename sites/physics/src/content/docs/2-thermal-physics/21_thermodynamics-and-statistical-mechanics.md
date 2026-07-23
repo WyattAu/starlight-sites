@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "21_thermodynamics And Statistical Mechanics", "url": "https://physics.wyattau.com/2-thermal-physics/21_thermodynamics-and-statistical-mechanics"}]
+}
+</script>
 title: Thermodynamics and Statistical Mechanics
 description: "If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with ."
 date: 2026-04-24T00:00:00.000Z

@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "Index", "url": "https://mathematics.wyattau.com/6-complex-analysis/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Complex Analysis",
+  "description": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://mathematics.wyattau.com"
+  },
+  "url": "https://mathematics.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Complex Analysis
 tags:
   - Mathematics

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Periodicity", "url": "https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity"}, {"name": "1_atomic Structure And Periodicity", "url": "https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity"}]
+}
+</script>
 title: Atomic Structure and Periodicity
 description: "| Scientist | Contribution | | ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter"
 date: 2026-04-14

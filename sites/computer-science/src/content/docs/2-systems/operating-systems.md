@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Operating Systems", "url": "https://computer-science.wyattau.com/2-systems/operating-systems"}]
+}
+</script>
 title: Operating Systems
 description: "A is an instance of a program in execution. Each process has its own: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-31T00:00:00.000Z

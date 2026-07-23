@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "07 Binomial Expansion", "url": "https://alevel.wyattau.com/maths/pure-mathematics/07-binomial-expansion"}]
+}
+</script>
 title: Binomial Expansion
 description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------------------------------- | | AQA | Paper 1, 2 | Binomial"
 date: 2025-06-02T16:25:28.480Z

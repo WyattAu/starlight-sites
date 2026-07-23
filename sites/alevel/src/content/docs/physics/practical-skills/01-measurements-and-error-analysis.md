@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Practical Skills", "url": "https://alevel.wyattau.com/physics/practical-skills"}, {"name": "01 Measurements And Error Analysis", "url": "https://alevel.wyattau.com/physics/practical-skills/01-measurements-and-error-analysis"}]
+}
+</script>
 title: Measurements and Error Analysis
 description: "A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z

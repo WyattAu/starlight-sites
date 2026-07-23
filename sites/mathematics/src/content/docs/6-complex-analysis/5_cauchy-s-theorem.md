@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "5_cauchy S Theorem", "url": "https://mathematics.wyattau.com/6-complex-analysis/5_cauchy-s-theorem"}]
+}
+</script>
 title: Cauchy's Theorem
 tags:
   - Mathematics

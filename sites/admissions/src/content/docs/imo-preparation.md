@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 title: IMO Preparation
 description: "University Admissions IMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 date: 2026-05-05T00:00:00.000Z

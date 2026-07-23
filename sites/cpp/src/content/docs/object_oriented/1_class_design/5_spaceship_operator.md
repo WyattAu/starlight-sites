@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Object_oriented", "url": "https://cpp.wyattau.com/object_oriented"}, {"name": "1_class_design", "url": "https://cpp.wyattau.com/object_oriented/1_class_design"}, {"name": "5_spaceship_operator", "url": "https://cpp.wyattau.com/object_oriented/1_class_design/5_spaceship_operator"}]
+}
+</script>
 title: The Spaceship Operator
 description: "The three-way comparison operator <=> and how it simplifies operator overloading and default comparisons in modern C++ code."
 date: 2026-04-03T00:00:00.000Z

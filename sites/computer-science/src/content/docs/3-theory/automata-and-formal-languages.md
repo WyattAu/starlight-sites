@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Automata And Formal Languages", "url": "https://computer-science.wyattau.com/3-theory/automata-and-formal-languages"}]
+}
+</script>
 title: Automata and Formal Languages
 description: "University Computer Science Automata and Formal Languages notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-05-31T00:00:00.000Z

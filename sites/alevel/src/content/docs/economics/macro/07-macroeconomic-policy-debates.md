@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "07 Macroeconomic Policy Debates", "url": "https://alevel.wyattau.com/economics/macro/07-macroeconomic-policy-debates"}]
+}
+</script>
 title: Macroeconomic Policy Debates
 description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring"
 date: 2025-06-02T16:25:28.480Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Index", "url": "https://leaving-cert.wyattau.com/chemistry/index"}]
+}
+</script>
 title: Irish LC Chemistry
 description: "Leaving Certificate Chemistry covers atomic structure, bonding, stoichiometry, acids, bases, and organic chemistry. The course develops practical laboratory"
 date: 2026-04-14

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "1_containers_and_allocators", "url": "https://programming.wyattau.com/standard_library/1_containers_and_allocators"}, {"name": "1_sequence_containers", "url": "https://programming.wyattau.com/standard_library/1_containers_and_allocators/1_sequence_containers"}]
+}
+</script>
 title: Sequence Containers (Vector, Deque, List)
 description: "The C++ standard library provides three primary sequence containers: And . Each uses a different memory model with distinct trade-offs in terms of random"
 date: 2026-04-03T00:00:00.000Z

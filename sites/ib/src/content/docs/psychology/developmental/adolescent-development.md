@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental", "url": "https://ib.wyattau.com/psychology/developmental"}, {"name": "Adolescent Development", "url": "https://ib.wyattau.com/psychology/developmental/adolescent-development"}]
+}
+</script>
 title: Adolescent Development
 description: "Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary"
 

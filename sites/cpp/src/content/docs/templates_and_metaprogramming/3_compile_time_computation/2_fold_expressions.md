@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "3_compile_time_computation", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/3_compile_time_computation"}, {"name": "2_fold_expressions", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions"}]
+}
+</script>
 title: Fold Expressions and Pack Expansion
 description: "A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary"
 date: 2026-04-03T00:00:00.000Z

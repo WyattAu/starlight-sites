@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-hyperbolic-functions"}]
+}
+</script>
 title: "Hyperbolic Functions -- Diagnostic Tests"
 description: "A-Level Further Maths Hyperbolic Functions -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

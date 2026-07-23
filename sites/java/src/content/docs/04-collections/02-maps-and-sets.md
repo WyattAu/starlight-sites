@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "04 Collections", "url": "https://java.wyattau.com/04-collections"}, {"name": "02 Maps And Sets", "url": "https://java.wyattau.com/04-collections/02-maps-and-sets"}]
+}
+</script>
 title: Maps and Sets
 description: "maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can"
 

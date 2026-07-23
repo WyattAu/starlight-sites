@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
 title: Cooling Systems
 description: "Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems."
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 title: Integration Techniques
 description: "Rigorous IB mathematics notes covering Integration Techniques. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

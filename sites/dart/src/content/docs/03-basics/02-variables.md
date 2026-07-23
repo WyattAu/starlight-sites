@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "03 Basics", "url": "https://dart.wyattau.com/03-basics"}, {"name": "02 Variables", "url": "https://dart.wyattau.com/03-basics/02-variables"}]
+}
+</script>
 title: Variables
 description: "Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-07-13T20:44:32.129Z

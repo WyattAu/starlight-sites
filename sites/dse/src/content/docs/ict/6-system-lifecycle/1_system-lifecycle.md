@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 title: System Lifecycle
 description: "This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information"
 date: 2026-04-08T00:00:00.000Z

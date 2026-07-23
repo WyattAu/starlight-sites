@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "4_the Fundamental Theorems", "url": "https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems"}]
+}
+</script>
 title: The Fundamental Theorems
 tags:
   - Mathematics

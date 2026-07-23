@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "4 Russia 1917 1953", "url": "https://alevel.wyattau.com/history/4-russia-1917-1953"}, {"name": "1_russia Revolution", "url": "https://alevel.wyattau.com/history/4-russia-1917-1953/1_russia-revolution"}]
+}
+</script>
 title: Russia 1917-1953
 date: 2026-05-21T00:00:00.000Z
 tags:

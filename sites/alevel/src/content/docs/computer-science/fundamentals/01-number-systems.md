@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Fundamentals", "url": "https://alevel.wyattau.com/computer-science/fundamentals"}, {"name": "01 Number Systems", "url": "https://alevel.wyattau.com/computer-science/fundamentals/01-number-systems"}]
+}
+</script>
 title: Number Systems
 description: "A represents a number as a sequence of digits Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z

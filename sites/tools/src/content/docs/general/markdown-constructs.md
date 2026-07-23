@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Markdown Constructs", "url": "https://tools.wyattau.com/general/markdown-constructs"}]
+}
+</script>
 title: Markdown & MDX Constructs
 description: "Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the ."
 date: 2025-05-15T22:45:51.828Z

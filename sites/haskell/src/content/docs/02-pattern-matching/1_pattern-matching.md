@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "02 Pattern Matching", "url": "https://haskell.wyattau.com/02-pattern-matching"}, {"name": "1_pattern Matching", "url": "https://haskell.wyattau.com/02-pattern-matching/1_pattern-matching"}]
+}
+</script>
 title: Pattern Matching
 description: "Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in"
 date: 2026-06-04T10:00:00.000Z

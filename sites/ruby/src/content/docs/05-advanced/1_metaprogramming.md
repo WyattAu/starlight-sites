@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "05 Advanced", "url": "https://ruby.wyattau.com/05-advanced"}, {"name": "1_metaprogramming", "url": "https://ruby.wyattau.com/05-advanced/1_metaprogramming"}]
+}
+</script>
 title: Metaprogramming
 description: "Ruby metaprogramming techniques."
 date: 2026-06-04T10:00:00.000Z

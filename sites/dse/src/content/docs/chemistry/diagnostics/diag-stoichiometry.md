@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 title: "Stoichiometry and Mole Concept -- Diagnostic Tests"
 description: "DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

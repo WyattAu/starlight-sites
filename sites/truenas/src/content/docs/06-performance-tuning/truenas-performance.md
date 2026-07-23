@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 title: TrueNAS Performance Tuning
 description: "The Adaptive Replacement Cache (ARC) is ZFS' s primary read cache, stored in system RAM. It uses an Algorithm that maintains two lists:"
 

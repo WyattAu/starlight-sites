@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 title: "Cell Biology and Biochemistry -- Diagnostic Tests"
 description: "DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false

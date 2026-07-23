@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
 title: Biodiversity, Classification and Evolution
 description: "is the variety of life at every level of biological organisation: Genetic diversity within species, species diversity within communities, and ecosystem"
 date: 2026-04-18T00:00:00.000Z

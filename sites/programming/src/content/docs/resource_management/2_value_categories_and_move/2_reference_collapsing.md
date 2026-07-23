@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Resource_management", "url": "https://programming.wyattau.com/resource_management"}, {"name": "2_value_categories_and_move", "url": "https://programming.wyattau.com/resource_management/2_value_categories_and_move"}, {"name": "2_reference_collapsing", "url": "https://programming.wyattau.com/resource_management/2_value_categories_and_move/2_reference_collapsing"}]
+}
+</script>
 title: Reference Collapsing and Forwarding References
 description: "Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original"
 date: 2026-04-03T00:00:00.000Z

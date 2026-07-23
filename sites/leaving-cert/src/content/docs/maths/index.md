@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Index", "url": "https://leaving-cert.wyattau.com/maths/index"}]
+}
+</script>
 title: Irish LC Mathematics
 description: "Leaving Certificate Mathematics is a core subject covering algebra, calculus, geometry, probability, statistics, and number theory. The course is offered at"
 date: 2026-04-14

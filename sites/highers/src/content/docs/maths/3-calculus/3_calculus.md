@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
 title: Further Calculus
 description: "This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14

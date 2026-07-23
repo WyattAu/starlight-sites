@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "07 Best Practices", "url": "https://python.wyattau.com/07-best-practices"}, {"name": "03 Error Handling Patterns", "url": "https://python.wyattau.com/07-best-practices/03-error-handling-patterns"}]
+}
+</script>
 title: Error Handling Patterns
 description: "Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers."
 

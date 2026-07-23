@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "04 Object Oriented", "url": "https://dart.wyattau.com/04-object-oriented"}, {"name": "01 Classes And Inheritance", "url": "https://dart.wyattau.com/04-object-oriented/01-classes-and-inheritance"}]
+}
+</script>
 title: Classes and Inheritance
 description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces."
 date: 2025-07-20T10:00:00.000Z

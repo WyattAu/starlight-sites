@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "08 Advanced Topics", "url": "https://python.wyattau.com/08-advanced-topics"}, {"name": "03 Context Managers", "url": "https://python.wyattau.com/08-advanced-topics/03-context-managers"}]
+}
+</script>
 title: Context Managers and the with Statement
 description: "The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource"
 

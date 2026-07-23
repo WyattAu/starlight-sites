@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Climate", "url": "https://dse.wyattau.com/geography/diagnostics/diag-climate"}]
+}
+</script>
 title: "Diagnostic Test: Climate"
 description: "Self-assessment quiz on climate systems and Hong Kong climate"
 sidebar_position: 11

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "07 Best Practices", "url": "https://tools.wyattau.com/git/07-best-practices"}]
+}
+</script>
 title: Best Practices
 description: 'git config --global user.name "Your Name" git config --global user.email "you@ex Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-03T16:00:00.000Z

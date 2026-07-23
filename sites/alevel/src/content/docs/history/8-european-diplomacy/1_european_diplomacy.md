@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "8 European Diplomacy", "url": "https://alevel.wyattau.com/history/8-european-diplomacy"}, {"name": "1_european_diplomacy", "url": "https://alevel.wyattau.com/history/8-european-diplomacy/1_european_diplomacy"}]
+}
+</script>
 title: "European Diplomacy 1871-1914"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 11

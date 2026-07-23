@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "4 Bioenergetics", "url": "https://gcse.wyattau.com/biology/4-bioenergetics"}, {"name": "4_bioenergetics", "url": "https://gcse.wyattau.com/biology/4-bioenergetics/4_bioenergetics"}]
+}
+</script>
 title: Bioenergetics
 description: "Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen."
 date: 2026-04-14

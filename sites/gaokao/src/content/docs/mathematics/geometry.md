@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Mathematics", "url": "https://gaokao.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://gaokao.wyattau.com/mathematics/geometry"}]
+}
+</script>
 title: "Geometry"
 description: "高考 mathematics: Geometry with vectors, conic sections, and worked examples."
 ---

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 title: DSE Chemistry
 description: "DSE Chemistry revision notes covering key concepts and practice problems."
 date: 2026-04-23T00:00:00.000Z

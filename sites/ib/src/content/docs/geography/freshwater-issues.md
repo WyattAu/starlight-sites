@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Freshwater Issues", "url": "https://ib.wyattau.com/geography/freshwater-issues"}]
+}
+</script>
 title: Freshwater Issues
 description: "This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It examines the hydrological cycle, the characteristics and"
 

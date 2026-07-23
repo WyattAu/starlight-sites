@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 title: Economics - Demand, Supply, and Markets
 description: "Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being"
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattsnotes.wyattau.com"}]
+}
+</script>
 title: Cross-Site Topic Connections
 description: How topics connect across different sites and levels.
 ---

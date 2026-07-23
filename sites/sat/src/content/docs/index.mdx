@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Index", "url": "https://sat.wyattau.com/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "SAT",
+  "description": "SAT revision notes covering Mathematics, Reading and Writing, and Science.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://sat.wyattau.com"
+  },
+  "url": "https://sat.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 template: splash
 title: SAT
 description: "SAT revision notes covering Mathematics, Reading and Writing, and Science."

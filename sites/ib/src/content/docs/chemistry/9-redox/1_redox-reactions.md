@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 title: Redox Reactions
 date: 2024-01-01T00:00:00Z
 tags:

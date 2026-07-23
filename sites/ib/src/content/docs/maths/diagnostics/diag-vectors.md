@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://ib.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 title: "Vectors -- Diagnostic Tests"
 description: "IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false

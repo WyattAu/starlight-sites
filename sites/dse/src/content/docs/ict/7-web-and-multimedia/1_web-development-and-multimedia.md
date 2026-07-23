@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 title: Web Development and Multimedia
 description: "This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia"
 date: 2026-04-08T00:00:00.000Z

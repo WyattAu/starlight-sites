@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "04 Energy And Work", "url": "https://alevel.wyattau.com/maths/mechanics/04-energy-and-work"}]
+}
+</script>
 title: Energy and Work
 description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |"
 date: 2025-06-02T16:25:28.480Z

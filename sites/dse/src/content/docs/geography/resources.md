@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Resources", "url": "https://dse.wyattau.com/geography/resources"}]
+}
+</script>
 title: Resources and Sustainability
 description: "Water resource management, energy resources, land use, Country Parks, land premium system, reclamation debates, and sustainability strategies for DSE Geography."
 sidebar_position: 3

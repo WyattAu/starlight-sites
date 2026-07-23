@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "4 Networks", "url": "https://leaving-cert.wyattau.com/computer-science/4-networks"}, {"name": "4_networks", "url": "https://leaving-cert.wyattau.com/computer-science/4-networks/4_networks"}]
+}
+</script>
 title: Networking and Security
 description: "ILC Computer Science Networking and Security notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 date: 2026-04-14

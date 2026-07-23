@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "(a) Draw a labelled diagram of an animal cell and a plant cell, identifying at least 5 structures in each. (b) Create a comparison table of plant and animal"
 tableOfContents: false

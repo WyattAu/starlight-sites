@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
 title: Systems Engineering Career
 description: "General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 

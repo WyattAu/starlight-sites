@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Network Security Social Implications", "url": "https://dse.wyattau.com/ict/diagnostics/diag-network-security-social-implications"}]
+}
+</script>
 title: "Network Security and Social Implications -- Diagnostic Tests"
 description: "DSE Ict Network Security and Social Implications -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

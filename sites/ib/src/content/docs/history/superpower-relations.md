@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
 title: Cold War Superpower Relations
 description: "IB History coverage of Cold War superpower relations: origins, Berlin crises, arms race, detente, Gorbachev's reforms, end of the Cold War, and impact on international relations post-1991."
 sidebar_position: 23

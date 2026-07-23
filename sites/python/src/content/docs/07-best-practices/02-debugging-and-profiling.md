@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "07 Best Practices", "url": "https://python.wyattau.com/07-best-practices"}, {"name": "02 Debugging And Profiling", "url": "https://python.wyattau.com/07-best-practices/02-debugging-and-profiling"}]
+}
+</script>
 title: Debugging and Profiling
 description: "Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does"
 date: 2026-04-05T00:00:00.000Z

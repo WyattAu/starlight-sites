@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "02 Fundamentals", "url": "https://tools.wyattau.com/git/02-fundamentals"}, {"name": "03 References", "url": "https://tools.wyattau.com/git/02-fundamentals/03-references"}]
+}
+</script>
 title: References
 description: "Git references and naming conventions."
 date: 2025-06-03T01:00:00.000Z

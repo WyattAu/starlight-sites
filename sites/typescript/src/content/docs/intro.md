@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Intro", "url": "https://typescript.wyattau.com/intro"}]
+}
+</script>
 title: Typescript
 description: "Introduction to typescript notes."
 ---

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Chinese", "url": "https://gaokao.wyattau.com/chinese"}, {"name": "Writing", "url": "https://gaokao.wyattau.com/chinese/writing"}]
+}
+</script>
 title: "Writing"
 description: "高考 chinese: Writing"
 ---

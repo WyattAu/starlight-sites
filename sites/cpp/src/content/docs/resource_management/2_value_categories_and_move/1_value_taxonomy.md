@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Resource_management", "url": "https://cpp.wyattau.com/resource_management"}, {"name": "2_value_categories_and_move", "url": "https://cpp.wyattau.com/resource_management/2_value_categories_and_move"}, {"name": "1_value_taxonomy", "url": "https://cpp.wyattau.com/resource_management/2_value_categories_and_move/1_value_taxonomy"}]
+}
+</script>
 title: Value Taxonomy
 description: "Every C++ expression has a — a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three"
 date: 2026-04-03T00:00:00.000Z

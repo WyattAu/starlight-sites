@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "05 Advanced", "url": "https://haskell.wyattau.com/05-advanced"}, {"name": "2_concurrency", "url": "https://haskell.wyattau.com/05-advanced/2_concurrency"}]
+}
+</script>
 title: Concurrency
 description: "means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once"
 date: 2026-06-04T10:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "5 Natural Selection", "url": "https://ap.wyattau.com/biology/5-natural-selection"}, {"name": "5_natural Selection", "url": "https://ap.wyattau.com/biology/5-natural-selection/5_natural-selection"}]
+}
+</script>
 title: Natural Selection
 description: "1. Individuals in a population exhibit heritable variation. 2. Populations produce more offspring than the environment can support. 3. Individuals compete"
 date: 2026-04-14

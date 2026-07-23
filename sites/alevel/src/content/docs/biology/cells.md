@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
 title: Cells
 description: "The cell theory, developed by Schleiden and Schwann (1838--1839) and later refin Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z

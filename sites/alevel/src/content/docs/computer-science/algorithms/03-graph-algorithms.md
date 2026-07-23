@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms"}, {"name": "03 Graph Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms/03-graph-algorithms"}]
+}
+</script>
 title: Graph Algorithms
 description: "See for the full treatment. Here we Provide additional detail on the priority qu Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z

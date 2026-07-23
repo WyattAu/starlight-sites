@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 title: Genetics
 description: "Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the Single most common source of lost marks in DSE genetics"
 date: 2026-04-08T00:00:00.000Z

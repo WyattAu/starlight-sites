@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
 title: Spanish Civil War and Chinese Civil War
 tags:
   - history

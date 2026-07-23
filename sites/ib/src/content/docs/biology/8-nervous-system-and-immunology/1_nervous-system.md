@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 title: Nervous System
 description: "IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory"
 date: 2024-01-01T00:00:00Z

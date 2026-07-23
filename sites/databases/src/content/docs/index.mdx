@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Index", "url": "https://databases.wyattau.com/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Databases",
+  "description": "Database administration and SQL reference notes.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://databases.wyattau.com"
+  },
+  "url": "https://databases.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 template: splash
 title: Databases
 description: "Database administration and SQL reference notes."

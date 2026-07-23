@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "1 Literary Analysis", "url": "https://alevel.wyattau.com/english/1-literary-analysis"}, {"name": "1_literary Analysis", "url": "https://alevel.wyattau.com/english/1-literary-analysis/1_literary-analysis"}]
+}
+</script>
 title: Literary Analysis
 date: 2026-01-15T00:00:00.000Z
 tags:

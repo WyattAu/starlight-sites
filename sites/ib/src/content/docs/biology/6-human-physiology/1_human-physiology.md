@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 title: Human Physiology
 description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
 date: 2024-01-01T00:00:00Z

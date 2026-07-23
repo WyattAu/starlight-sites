@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 title: "Demand, Supply, and Equilibrium -- Diagnostic Tests"
 description: "A-Level Economics Demand, Supply, and Equilibrium -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

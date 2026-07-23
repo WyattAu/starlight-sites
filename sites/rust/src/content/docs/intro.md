@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "Intro", "url": "https://rust.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to Rust
 description: "Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery."
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Geographic Skills", "url": "https://ib.wyattau.com/geography/geographic-skills"}]
+}
+</script>
 title: Geographic Skills
 description: "Map scale expresses the relationship between distance on the map and distance on the ground."
 ---

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 title: National Income and Macroeconomic Indicators
 description: "National income and macroeconomic indicators for DSE Economics."
 date: 2026-04-08T00:00:00.000Z

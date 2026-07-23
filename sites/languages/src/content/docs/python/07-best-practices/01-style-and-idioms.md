@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "07 Best Practices", "url": "https://languages.wyattau.com/python/07-best-practices"}, {"name": "01 Style And Idioms", "url": "https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms"}]
+}
+</script>
 title: Style and Idioms
 description: "This is not merely aesthetic"
 date: 2025-06-04T16:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://dse.wyattau.com/physics/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: DSE Physics Diagnostic Guide
 description: "This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file contains 3 unit tests (single-topic, testing deep"
 tableOfContents: false

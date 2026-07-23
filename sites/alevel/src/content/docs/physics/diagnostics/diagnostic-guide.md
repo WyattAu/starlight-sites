@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/physics/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: A-Level Physics Diagnostic Guide
 description: "This diagnostic suite contains 20 topic-level tests for A-Level Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3"
 tableOfContents: false

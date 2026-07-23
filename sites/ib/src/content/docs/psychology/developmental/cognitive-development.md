@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental", "url": "https://ib.wyattau.com/psychology/developmental"}, {"name": "Cognitive Development", "url": "https://ib.wyattau.com/psychology/developmental/cognitive-development"}]
+}
+</script>
 title: Cognitive Development
 description: "Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and Understanding that occur from infancy through"
 

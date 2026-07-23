@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
 title: "Paper 3 -- Mechanics -- Full Diagnostic Exam"
 description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false

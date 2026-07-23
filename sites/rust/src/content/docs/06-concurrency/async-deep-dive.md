@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "06 Concurrency", "url": "https://rust.wyattau.com/06-concurrency"}, {"name": "Async Deep Dive", "url": "https://rust.wyattau.com/06-concurrency/async-deep-dive"}]
+}
+</script>
 title: Async Deep Dive
 description: "Rust async programming deep dive."
 ---

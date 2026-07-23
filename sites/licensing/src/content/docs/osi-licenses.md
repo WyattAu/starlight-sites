@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Osi Licenses", "url": "https://licensing.wyattau.com/osi-licenses"}]
+}
+</script>
 title: "Open Source Licenses"
 date: 2026-05-30
 tags:

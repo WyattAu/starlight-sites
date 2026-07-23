@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
 title: "Forces and Newton's Laws -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for forces an Comprehensive educational content coverage with definitions and practice proble"
 tableOfContents: false

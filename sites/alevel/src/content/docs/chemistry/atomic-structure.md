@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/atomic-structure"}]
+}
+</script>
 title: Atomic Structure & Periodicity
 description: "Atoms consist of three principal subatomic particles. Their properties are summa Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-21T00:00:00.000Z

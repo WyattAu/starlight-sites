@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
 title: Exponential Distribution and Continuous Random Variables
 description: "The exponential distribution models the time between events in a Poisson process, while the theory Of continuous random variables extends probability to"
 date: 2026-04-02T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 title: "Algorithms -- Diagnostic Tests"
 description: "QUALIFICATIONS Highers notes: Algorithms -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false

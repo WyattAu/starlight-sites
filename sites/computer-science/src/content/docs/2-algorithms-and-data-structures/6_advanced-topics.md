@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "6_advanced Topics", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_advanced-topics"}]
+}
+</script>
 title: Advanced Topics
 tags:
   - Computing

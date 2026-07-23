@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "04 Submodules", "url": "https://tools.wyattau.com/git/05-advanced-topics/04-submodules"}]
+}
+</script>
 title: Submodules
 description: "Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository — not"
 date: 2025-06-03T11:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 title: Navigation
 description: "Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way"
 date: 2026-04-05T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 title: CBSE Mathematics Study Guide
 date: 2026-05-31
 description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."

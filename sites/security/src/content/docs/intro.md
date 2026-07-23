@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Intro", "url": "https://security.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to Security
 description: "Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated"
 

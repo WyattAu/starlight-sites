@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 title: Chemistry - Atomic Structure and Bonding
 description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |"
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Maclaurin Taylor Series", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-maclaurin-taylor-series"}]
+}
+</script>
 title: "Maclaurin and Taylor Series -- Diagnostic Tests"
 description: "A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

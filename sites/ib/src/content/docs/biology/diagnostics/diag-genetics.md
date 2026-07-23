@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 title: "Genetics -- Diagnostic Tests"
 description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false

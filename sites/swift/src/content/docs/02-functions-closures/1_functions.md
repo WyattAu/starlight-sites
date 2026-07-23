@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "02 Functions Closures", "url": "https://swift.wyattau.com/02-functions-closures"}, {"name": "1_functions", "url": "https://swift.wyattau.com/02-functions-closures/1_functions"}]
+}
+</script>
 title: Functions
 description: "Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,"
 date: 2026-06-04T10:00:00.000Z

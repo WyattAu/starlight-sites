@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 title: Biology - Cell Biology and Biochemistry
 description: "1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise"
 

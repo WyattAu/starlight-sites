@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "1_containers_and_allocators", "url": "https://programming.wyattau.com/standard_library/1_containers_and_allocators"}, {"name": "3_iterators", "url": "https://programming.wyattau.com/standard_library/1_containers_and_allocators/3_iterators"}]
+}
+</script>
 title: Iterator Categories, Traversal, and Invalidation
 description: "Iterators are the glue between containers and algorithms in the C++ standard library. Understanding Iterator categories is essential for knowing which"
 date: 2026-04-03T00:00:00.000Z

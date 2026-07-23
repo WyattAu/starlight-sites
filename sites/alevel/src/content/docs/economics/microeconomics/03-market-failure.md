@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "03 Market Failure", "url": "https://alevel.wyattau.com/economics/microeconomics/03-market-failure"}]
+}
+</script>
 title: Market Failure
 description: "We define as the condition in which the free market allocation of resources is _allocatively inefficient_ — that is, the market fails to produce the"
 date: 2025-06-02T16:25:28.480Z

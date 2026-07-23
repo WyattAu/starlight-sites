@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "09 Flutter Fundamentals", "url": "https://dart.wyattau.com/09-flutter-fundamentals"}, {"name": "02 Widgets And Lifecycle", "url": "https://dart.wyattau.com/09-flutter-fundamentals/02-widgets-and-lifecycle"}]
+}
+</script>
 title: Widgets and Lifecycle
 description: "Flutter widgets and lifecycle management."
 date: 2026-04-05T00:00:00.000Z

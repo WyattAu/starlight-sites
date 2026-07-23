@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
 title: Geometry and Trigonometry
 description: 'The three primary trigonometric functions for an angle in a right-angled triangl Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "3_generators", "url": "https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io/3_generators"}]
+}
+</script>
 title: Generators (std::generator)
 description: "C++ coroutine-based generators for lazy sequence generation using co_yield, including usage patterns and performance characteristics."
 date: 2026-04-03T00:00:00.000Z

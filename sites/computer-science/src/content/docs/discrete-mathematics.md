@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Discrete Mathematics", "url": "https://computer-science.wyattau.com/discrete-mathematics"}]
+}
+</script>
 title: Discrete Mathematics
 description: "UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-23T00:00:00.000Z

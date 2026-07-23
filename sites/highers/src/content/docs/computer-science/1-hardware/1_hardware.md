@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
 title: Computer Systems
 description: "Scottish Highers Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 date: 2026-04-14

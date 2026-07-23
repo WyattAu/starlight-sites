@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostic Test", "url": "https://alevel.wyattau.com/economics/diagnostic-test"}]
+}
+</script>
 title: Economics Diagnostic Test
 description: "This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a Specific concept, requires 2–5 steps, and includes a"
 date: 2025-06-02T16:25:28.480Z

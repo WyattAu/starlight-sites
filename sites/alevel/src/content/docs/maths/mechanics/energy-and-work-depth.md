@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Energy And Work Depth", "url": "https://alevel.wyattau.com/maths/mechanics/energy-and-work-depth"}]
+}
+</script>
 title: Energy and Work (Extended)
 description: "This document provides a thorough treatment of the work-energy principle, power, conservation of Energy, and elastic potential energy with proofs and"
 date: 2026-04-23T00:00:00.000Z

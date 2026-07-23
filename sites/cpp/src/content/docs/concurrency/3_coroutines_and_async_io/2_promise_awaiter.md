@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "2_promise_awaiter", "url": "https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io/2_promise_awaiter"}]
+}
+</script>
 title: Coroutine Handle, Promise Type, and Awaiter
 description: "This section covers the three interacting components of the C++ coroutine machinery, Expression semantics, the promise type vs awaiter distinction, for"
 date: 2026-04-03T00:00:00.000Z

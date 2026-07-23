@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
 title: "Exchange and Transport -- Diagnostic Tests"
 description: "A-Level Biology Exchange and Transport -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

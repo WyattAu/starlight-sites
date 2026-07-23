@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal", "url": "https://ib.wyattau.com/psychology/abnormal"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/abnormal/_index"}]
+}
+</script>
 title: Abnormal Psychology
 description: "This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from"
 

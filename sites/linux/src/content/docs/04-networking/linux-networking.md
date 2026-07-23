@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "04 Networking", "url": "https://linux.wyattau.com/04-networking"}, {"name": "Linux Networking", "url": "https://linux.wyattau.com/04-networking/linux-networking"}]
+}
+</script>
 title: Linux Networking
 description: "The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,"
 

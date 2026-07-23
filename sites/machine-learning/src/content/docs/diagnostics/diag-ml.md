@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 title: "Diagnostic Test: Machine Learning"
 description: "Self-assessment quiz on ML fundamentals"
 sidebar_position: 60

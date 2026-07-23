@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Basics", "url": "https://kotlin.wyattau.com/basics"}, {"name": "Types And Variables", "url": "https://kotlin.wyattau.com/basics/types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "declares a read-only variable (assigned once). declares a mutable variable. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18

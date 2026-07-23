@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "A-Level Computer Science -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source Files | | ------------------------------- | ---------------------------------------------------------------------"
 tableOfContents: false
