@@ -196,6 +196,24 @@ jobs:
           - site: leaving-cert
             project: wyattsnotes-leaving-cert
             url: https://leaving-cert.wyattau.com
+          - site: driving-uk
+            project: wyattsnotes-driving-uk
+            url: https://driving-uk.wyattau.com
+          - site: driving-us
+            project: wyattsnotes-driving-us
+            url: https://driving-us.wyattau.com
+          - site: driving-eu
+            project: wyattsnotes-driving-eu
+            url: https://driving-eu.wyattau.com
+          - site: language-tests
+            project: wyattsnotes-language-tests
+            url: https://language-tests.wyattau.com
+          - site: civics-tests
+            project: wyattsnotes-civics-tests
+            url: https://civics-tests.wyattau.com
+          - site: professional-certs
+            project: wyattsnotes-professional-certs
+            url: https://professional-certs.wyattau.com
 
     steps:
       - uses: actions/checkout@v4
