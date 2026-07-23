@@ -21,12 +21,12 @@ const square = x => x ** 2;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Destructuring</h3>
-        <pre><code>const { name, age } = person;
+        <pre><code>const &#123; name, age &#125; = person;
 const [first, second] = array;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Template Literals</h3>
-        <pre><code>const msg = `Hello, ${name}!`;
+        <pre><code>const msg = `Hello, $&#123;name&#125;!`;
 const multi = `
   Line 1
   Line 2
@@ -75,19 +75,19 @@ element.removeEventListener('click', handler);</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Fetch API</h3>
-        <pre><code>async function getData() {
+        <pre><code>async function getData() &#123;
   const response = await fetch(url);
   const data = await response.json();
   return data;
-}</code></pre>
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Error Handling</h3>
-        <pre><code>try {
+        <pre><code>try &#123;
   const data = await getData();
-} catch (error) {
+&#125; catch (error) &#123;
   console.error(error);
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>

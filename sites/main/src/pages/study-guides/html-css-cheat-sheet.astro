@@ -38,31 +38,31 @@ import Layout from '../../layouts/Layout.astro'
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Container Properties</h3>
-        <pre><code>.container {
-  display: flex;
-  flex-direction: row;    /* row | column */
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}</code></pre>
+        <pre><code>.container &#123;
+  display&#58; flex;
+  flex-direction&#58; row;    /* row | column */
+  justify-content&#58; center;
+  align-items&#58; center;
+  flex-wrap&#58; wrap;
+  gap&#58; 1rem;
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Item Properties</h3>
-        <pre><code>.item {
-  flex: 1;           /* grow equally */
-  flex: 0 0 200px;   /* fixed width */
-  align-self: flex-end;
-  order: -1;         /* first */
-}
+        <pre><code>.item &#123;
+  flex&#58; 1;           /* grow equally */
+  flex&#58; 0 0 200px;   /* fixed width */
+  align-self&#58; flex-end;
+  order&#58; -1;         /* first */
+&#125;
 
 /* Center anything */
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}</code></pre>
+.center &#123;
+  display&#58; flex;
+  justify-content&#58; center;
+  align-items&#58; center;
+  min-height&#58; 100vh;
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -72,29 +72,29 @@ import Layout from '../../layouts/Layout.astro'
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Grid Layout</h3>
-        <pre><code>.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto 1fr auto;
-  gap: 1.5rem;
-}
+        <pre><code>.grid &#123;
+  display&#58; grid;
+  grid-template-columns&#58; repeat(3, 1fr);
+  grid-template-rows&#58; auto 1fr auto;
+  gap&#58; 1.5rem;
+&#125;
 
 /* Responsive grid */
-auto-grid {
-  grid-template-columns:
+auto-grid &#123;
+  grid-template-columns&#58;
     repeat(auto-fit, minmax(250px, 1fr));
-}</code></pre>
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Spanning &amp; Placement</h3>
-        <pre><code>.span-2 {
-  grid-column: span 2;
-}
+        <pre><code>.span-2 &#123;
+  grid-column&#58; span 2;
+&#125;
 
-.sidebar {
-  grid-column: 1 / 3;
-  grid-row: 1 / -1;
-}</code></pre>
+.sidebar &#123;
+  grid-column&#58; 1 / 3;
+  grid-row&#58; 1 / -1;
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -104,13 +104,13 @@ auto-grid {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Selector Types</h3>
-        <pre><code>.class { }          /* class */
-#id { }             /* id */
-div &gt; p { }        /* child */
-p ~ p { }           /* sibling */
-a:hover { }         /* pseudo-class */
-::before { }        /* pseudo-element */
-[data-type="x"] { } /* attribute */</code></pre>
+        <pre><code>.class &#123; &#125;          /* class */
+#id &#123; &#125;             /* id */
+div &gt; p &#123; &#125;        /* child */
+p ~ p &#123; &#125;           /* sibling */
+a&#58;hover &#123; &#125;         /* pseudo-class */
+&#58;&#58;before &#123; &#125;        /* pseudo-element */
+[data-type="x"] &#123; &#125; /* attribute */</code></pre>
       </div>
       <div class="formula-card">
         <h3>Specificity Hierarchy</h3>
@@ -121,7 +121,7 @@ style="..."
 #header
 
 /* Class/attr/pseudo (10) */
-.nav-item:hover
+.nav-item&#58;hover
 
 /* Element/pseudo (1) */
 div p</code></pre>
@@ -135,31 +135,31 @@ div p</code></pre>
       <div class="formula-card">
         <h3>Media Queries</h3>
         <pre><code>/* Mobile first */
-@media (min-width: 768px) {
-  .sidebar { display: block; }
-}
-@media (min-width: 1024px) {
-  .content { max-width: 900px; }
-}
+@media (min-width&#58; 768px) &#123;
+  .sidebar &#123; display&#58; block; &#125;
+&#125;
+@media (min-width&#58; 1024px) &#123;
+  .content &#123; max-width&#58; 900px; &#125;
+&#125;
 
 /* Container queries */
-@container (min-width: 500px) {
-  .card { flex-direction: row; }
-}</code></pre>
+@container (min-width&#58; 500px) &#123;
+  .card &#123; flex-direction&#58; row; &#125;
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>CSS Variables &amp; Theming</h3>
-        <pre><code>:root {
-  --color-primary: #3b82f6;
-  --spacing: 1rem;
-  --radius: 8px;
-}
+        <pre><code>&#58;root &#123;
+  --color-primary&#58; #3b82f6;
+  --spacing&#58; 1rem;
+  --radius&#58; 8px;
+&#125;
 
-.card {
-  background: var(--color-primary);
-  padding: var(--spacing);
-  border-radius: var(--radius);
-}</code></pre>
+.card &#123;
+  background&#58; var(--color-primary);
+  padding&#58; var(--spacing);
+  border-radius&#58; var(--radius);
+&#125;</code></pre>
       </div>
     </div>
   </section>

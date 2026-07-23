@@ -16,11 +16,11 @@ import Layout from '../../layouts/Layout.astro'
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Basic Types</h3>
-        <pre><code>let x: i32 = 42;
-let y: f64 = 3.14;
-let s: &str = "hello";
-let b: bool = true;
-let c: char = 'A';</code></pre>
+        <pre><code>let x&#58; i32 = 42;
+let y&#58; f64 = 3.14;
+let s&#58; &str = "hello";
+let b&#58; bool = true;
+let c&#58; char = 'A';</code></pre>
       </div>
       <div class="formula-card">
         <h3>Mutability</h3>
@@ -29,7 +29,7 @@ let mut y = 5;      // mutable
 y = 10;             // OK
 
 let x = "shadowed"; // shadowing
-let x: i32 = 42;</code></pre>
+let x&#58; i32 = 42;</code></pre>
       </div>
     </div>
   </section>
@@ -40,9 +40,9 @@ let x: i32 = 42;</code></pre>
       <div class="formula-card">
         <h3>Ownership Rules</h3>
         <pre><code>// Each value has one owner
-let s1 = String::from("hello");
+let s1 = String&#58;&#58;from("hello");
 let s2 = s1;           // s1 moved to s2
-// println!("{}", s1); // ERROR: s1 is gone
+// println!("&#123;&#125;", s1); // ERROR&#58; s1 is gone
 
 // Clone for deep copy
 let s3 = s2.clone();</code></pre>
@@ -50,14 +50,14 @@ let s3 = s2.clone();</code></pre>
       <div class="formula-card">
         <h3>Borrowing</h3>
         <pre><code>// Immutable borrow
-fn greet(name: &amp;str) {
-    println!("Hello, {name}");
-}
+fn greet(name&#58; &amp;str) &#123;
+    println!("Hello, &#123;name&#125;");
+&#125;
 
 // Mutable borrow
-fn push(s: &amp;mut String) {
+fn push(s&#58; &amp;mut String) &#123;
     s.push_str(" world");
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -67,27 +67,27 @@ fn push(s: &amp;mut String) {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Structs</h3>
-        <pre><code>struct User {
-    name: String,
-    age: u32,
-}
+        <pre><code>struct User &#123;
+    name&#58; String,
+    age&#58; u32,
+&#125;
 
-let user = User {
-    name: String::from("Alice"),
-    age: 30,
-};</code></pre>
+let user = User &#123;
+    name&#58; String&#58;&#58;from("Alice"),
+    age&#58; 30,
+&#125;;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Enums &amp; Pattern Matching</h3>
-        <pre><code>enum Shape {
+        <pre><code>enum Shape &#123;
     Circle(f64),
     Square(f64),
-}
+&#125;
 
-match shape {
-    Shape::Circle(r) => pi * r * r,
-    Shape::Square(s) => s * s,
-}</code></pre>
+match shape &#123;
+    Shape&#58;&#58;Circle(r) => pi * r * r,
+    Shape&#58;&#58;Square(s) => s * s,
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -97,21 +97,21 @@ match shape {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Option &amp; Result</h3>
-        <pre><code>// Option: value or nothing
-let maybe: Option&lt;i32&gt; = Some(42);
-let none: Option&lt;i32&gt; = None;
+        <pre><code>// Option&#58; value or nothing
+let maybe&#58; Option&lt;i32&gt; = Some(42);
+let none&#58; Option&lt;i32&gt; = None;
 
-// Result: success or error
-let res: Result&lt;i32, Error&gt;
+// Result&#58; success or error
+let res&#58; Result&lt;i32, Error&gt;
     = Ok(42);</code></pre>
       </div>
       <div class="formula-card">
         <h3>Unwrapping</h3>
         <pre><code>let val = maybe.unwrap();
 let val = maybe.unwrap_or(0);
-let val = maybe.unwrap_or_else(|| {
+let val = maybe.unwrap_or_else(|| &#123;
     expensive_default()
-});</code></pre>
+&#125;);</code></pre>
       </div>
     </div>
   </section>
@@ -121,15 +121,15 @@ let val = maybe.unwrap_or_else(|| {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Trait Definitions</h3>
-        <pre><code>trait Summary {
+        <pre><code>trait Summary &#123;
     fn summarize(&amp;self) -> String;
-}
+&#125;
 
-impl Summary for Article {
-    fn summarize(&amp;self) -> String {
-        format!("{}...", &amp;self.title)
-    }
-}</code></pre>
+impl Summary for Article &#123;
+    fn summarize(&amp;self) -> String &#123;
+        format!("&#123;&#125;...", &amp;self.title)
+    &#125;
+&#125;</code></pre>
       </div>
     </div>
   </section>

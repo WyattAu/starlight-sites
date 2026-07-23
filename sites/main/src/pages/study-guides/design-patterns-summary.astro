@@ -17,20 +17,20 @@ import Layout from '../../layouts/Layout.astro'
       <div class="formula-card">
         <h3>Singleton</h3>
         <p>Ensure a class has only one instance.</p>
-        <pre><code>class Singleton:
+        <pre><code>class Singleton&#58;
     _instance = None
-    def __new__(cls):
-        if cls._instance is None:
+    def __new__(cls)&#58;
+        if cls._instance is None&#58;
             cls._instance = super().__new__(cls)
         return cls._instance</code></pre>
       </div>
       <div class="formula-card">
         <h3>Factory Method</h3>
         <p>Create objects without specifying exact class.</p>
-        <pre><code>def create_animal(type):
-    if type == "dog":
+        <pre><code>def create_animal(type)&#58;
+    if type == "dog"&#58;
         return Dog()
-    elif type == "cat":
+    elif type == "cat"&#58;
         return Cat()</code></pre>
       </div>
       <div class="formula-card">
@@ -50,24 +50,24 @@ computer = builder.add_cpu("Intel")
       <div class="formula-card">
         <h3>Adapter</h3>
         <p>Convert interface of class into another interface.</p>
-        <pre><code>class Adapter:
-    def __init__(self, obj):
+        <pre><code>class Adapter&#58;
+    def __init__(self, obj)&#58;
         self.obj = obj
-    def adapted_method(self):
+    def adapted_method(self)&#58;
         return self.obj.original_method()</code></pre>
       </div>
       <div class="formula-card">
         <h3>Decorator</h3>
         <p>Add responsibilities to objects dynamically.</p>
         <pre><code>@decorator
-def function():
+def function()&#58;
     pass
 
 # Or class-based
-class Decorator:
-    def __init__(self, wrapped):
+class Decorator&#58;
+    def __init__(self, wrapped)&#58;
         self.wrapped = wrapped
-    def __call__(self):
+    def __call__(self)&#58;
         return self.wrapped()</code></pre>
       </div>
     </div>
@@ -79,24 +79,24 @@ class Decorator:
       <div class="formula-card">
         <h3>Observer</h3>
         <p>Define one-to-many dependency between objects.</p>
-        <pre><code>class Observer:
-    def update(self, subject):
+        <pre><code>class Observer&#58;
+    def update(self, subject)&#58;
         pass
 
-class Subject:
-    def attach(self, observer):
+class Subject&#58;
+    def attach(self, observer)&#58;
         self.observers.append(observer)
-    def notify(self):
-        for obs in self.observers:
+    def notify(self)&#58;
+        for obs in self.observers&#58;
             obs.update(self)</code></pre>
       </div>
       <div class="formula-card">
         <h3>Strategy</h3>
         <p>Define family of algorithms, encapsulate each.</p>
-        <pre><code>class Context:
-    def __init__(self, strategy):
+        <pre><code>class Context&#58;
+    def __init__(self, strategy)&#58;
         self.strategy = strategy
-    def execute(self, data):
+    def execute(self, data)&#58;
         return self.strategy.execute(data)</code></pre>
       </div>
     </div>

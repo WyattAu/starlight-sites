@@ -16,18 +16,18 @@ import Layout from '../../layouts/Layout.astro'
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Basic Types</h3>
-        <pre><code>x := 42              // int
-y := 3.14            // float64
-s := "hello"         // string
-b := true            // bool
+        <pre><code>x &#58;= 42              // int
+y &#58;= 3.14            // float64
+s &#58;= "hello"         // string
+b &#58;= true            // bool
 var z int = 10       // explicit</code></pre>
       </div>
       <div class="formula-card">
         <h3>Collections</h3>
-        <pre><code>nums := []int{1, 2, 3}
-m := map[string]int{
-    "one": 1, "two": 2,
-}
+        <pre><code>nums &#58;= []int&#123;1, 2, 3&#125;
+m &#58;= map[string]int&#123;
+    "one"&#58; 1, "two"&#58; 2,
+&#125;
 m["three"] = 3</code></pre>
       </div>
     </div>
@@ -38,27 +38,27 @@ m["three"] = 3</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Conditionals</h3>
-        <pre><code>if x > 0 {
+        <pre><code>if x > 0 &#123;
     // positive
-} else if x == 0 {
+&#125; else if x == 0 &#123;
     // zero
-} else {
+&#125; else &#123;
     // negative
-}</code></pre>
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Loops</h3>
-        <pre><code>for i := 0; i < 10; i++ {
+        <pre><code>for i &#58;= 0; i < 10; i++ &#123;
     // C-style
-}
+&#125;
 
-for _, v := range nums {
+for _, v &#58;= range nums &#123;
     // range
-}
+&#125;
 
-for x > 0 {
+for x > 0 &#123;
     // while-style
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -68,22 +68,22 @@ for x > 0 {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Basic Function</h3>
-        <pre><code>func add(a, b int) int {
+        <pre><code>func add(a, b int) int &#123;
     return a + b
-}
+&#125;
 
-func greet(name string) string {
+func greet(name string) string &#123;
     return "Hello, " + name
-}</code></pre>
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Multiple Returns</h3>
-        <pre><code>func divide(a, b float64) (float64, error) {
-    if b == 0 {
+        <pre><code>func divide(a, b float64) (float64, error) &#123;
+    if b == 0 &#123;
         return 0, errors.New("div by zero")
-    }
+    &#125;
     return a / b, nil
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -93,19 +93,19 @@ func greet(name string) string {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Structs</h3>
-        <pre><code>type User struct {
+        <pre><code>type User struct &#123;
     Name string
     Age  int
-}
+&#125;
 
-u := User{Name: "Alice", Age: 30}
+u &#58;= User&#123;Name&#58; "Alice", Age&#58; 30&#125;
 fmt.Println(u.Name)</code></pre>
       </div>
       <div class="formula-card">
         <h3>Interfaces</h3>
-        <pre><code>type Writer interface {
+        <pre><code>type Writer interface &#123;
     Write([]byte) (int, error)
-}
+&#125;
 
 // Implicit implementation
 // No "implements" keyword</code></pre>
@@ -118,26 +118,26 @@ fmt.Println(u.Name)</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Goroutines</h3>
-        <pre><code>go func() {
+        <pre><code>go func() &#123;
     fmt.Println("async")
-}()
+&#125;()
 
 // WaitGroup
 var wg sync.WaitGroup
 wg.Add(1)
-go func() {
+go func() &#123;
     defer wg.Done()
     // work
-}()</code></pre>
+&#125;()</code></pre>
       </div>
       <div class="formula-card">
         <h3>Channels</h3>
-        <pre><code>ch := make(chan int)
+        <pre><code>ch &#58;= make(chan int)
 ch <- 42          // send
-val := <-ch       // receive
+val &#58;= <-ch       // receive
 
 // Buffered
-ch := make(chan int, 10)</code></pre>
+ch &#58;= make(chan int, 10)</code></pre>
       </div>
     </div>
   </section>

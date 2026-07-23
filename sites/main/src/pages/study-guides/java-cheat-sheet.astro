@@ -25,7 +25,7 @@ float f = 2.5f;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Arrays &amp; Collections</h3>
-        <pre><code>int[] nums = {1, 2, 3};
+        <pre><code>int[] nums = &#123;1, 2, 3&#125;;
 List&lt;String&gt; list = new ArrayList&lt;&gt;();
 Map&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
 Set&lt;Integer&gt; set = new HashSet&lt;&gt;();</code></pre>
@@ -38,32 +38,32 @@ Set&lt;Integer&gt; set = new HashSet&lt;&gt;();</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Class Definition</h3>
-        <pre><code>public class User {
+        <pre><code>public class User &#123;
     private String name;
     private int age;
 
-    public User(String name, int age) {
+    public User(String name, int age) &#123;
         this.name = name;
         this.age = age;
-    }
+    &#125;
 
-    public String getName() {
+    public String getName() &#123;
         return name;
-    }
-}</code></pre>
+    &#125;
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Interfaces &amp; Records</h3>
-        <pre><code>interface Drawable {
+        <pre><code>interface Drawable &#123;
     void draw();
-    default void hide() { }
-}
+    default void hide() &#123; &#125;
+&#125;
 
-record Point(int x, int y) {}
+record Point(int x, int y) &#123;&#125;
 
 // Sealed interfaces
 sealed interface Shape
-    permits Circle, Square {}</code></pre>
+    permits Circle, Square &#123;&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -78,19 +78,19 @@ Runnable r = () -> System.out.println("hi");
 Comparator&lt;Integer&gt; c = (a, b) -> a - b;
 
 // Method references
-list.forEach(System.out::println);
-list.stream().map(String::toUpperCase);</code></pre>
+list.forEach(System.out&#58;&#58;println);
+list.stream().map(String&#58;&#58;toUpperCase);</code></pre>
       </div>
       <div class="formula-card">
         <h3>Stream API</h3>
         <pre><code>List&lt;String&gt; result = names.stream()
     .filter(n -> n.length() > 3)
-    .map(String::toUpperCase)
+    .map(String&#58;&#58;toUpperCase)
     .sorted()
     .collect(Collectors.toList());
 
 int sum = nums.stream()
-    .mapToInt(Integer::intValue)
+    .mapToInt(Integer&#58;&#58;intValue)
     .sum();</code></pre>
       </div>
     </div>
@@ -106,14 +106,14 @@ map.put("key", 42);
 int val = map.getOrDefault("missing", 0);
 
 map.computeIfAbsent("k", k -> new ArrayList&lt;&gt;());
-map.merge("key", 1, Integer::sum);</code></pre>
+map.merge("key", 1, Integer&#58;&#58;sum);</code></pre>
       </div>
       <div class="formula-card">
         <h3>Optional &amp; Null Safety</h3>
         <pre><code>Optional&lt;String&gt; opt = Optional.ofNullable(name);
 String val = opt.orElse("default");
 String mapped = opt
-    .map(String::toUpperCase)
+    .map(String&#58;&#58;toUpperCase)
     .orElse("N/A");</code></pre>
       </div>
     </div>
@@ -132,14 +132,14 @@ exec.awaitTermination(10, SECONDS);</code></pre>
       </div>
       <div class="formula-card">
         <h3>Virtual Threads (Java 21+)</h3>
-        <pre><code>Thread.startVirtualThread(() -> {
+        <pre><code>Thread.startVirtualThread(() -> &#123;
     // runs on virtual thread
-});
+&#125;);
 
 try (var exec =
-    Executors.newVirtualThreadPerTaskExecutor()) {
+    Executors.newVirtualThreadPerTaskExecutor()) &#123;
     exec.submit(() -> doWork());
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>

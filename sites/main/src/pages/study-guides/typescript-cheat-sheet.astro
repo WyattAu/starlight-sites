@@ -16,19 +16,19 @@ import Layout from '../../layouts/Layout.astro'
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Primitives</h3>
-        <pre><code>let x: number = 42;
-let s: string = "hello";
-let b: boolean = true;
-let n: null = null;
-let u: undefined = undefined;
-let sym: symbol = Symbol();
-let big: bigint = 100n;</code></pre>
+        <pre><code>let x&#58; number = 42;
+let s&#58; string = "hello";
+let b&#58; boolean = true;
+let n&#58; null = null;
+let u&#58; undefined = undefined;
+let sym&#58; symbol = Symbol();
+let big&#58; bigint = 100n;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Arrays &amp; Tuples</h3>
-        <pre><code>let nums: number[] = [1, 2, 3];
-let strs: Array&lt;string&gt; = ["a"];
-let tuple: [string, number] = ["a", 1];</code></pre>
+        <pre><code>let nums&#58; number[] = [1, 2, 3];
+let strs&#58; Array&lt;string&gt; = ["a"];
+let tuple&#58; [string, number] = ["a", 1];</code></pre>
       </div>
     </div>
   </section>
@@ -38,17 +38,17 @@ let tuple: [string, number] = ["a", 1];</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Interfaces</h3>
-        <pre><code>interface User {
-  name: string;
-  age: number;
-  email?: string;  // optional
-  readonly id: number;
-}</code></pre>
+        <pre><code>interface User &#123;
+  name&#58; string;
+  age&#58; number;
+  email?&#58; string;  // optional
+  readonly id&#58; number;
+&#125;</code></pre>
       </div>
       <div class="formula-card">
         <h3>Type Aliases</h3>
         <pre><code>type ID = string | number;
-type Point = { x: number; y: number };
+type Point = &#123; x&#58; number; y&#58; number &#125;;
 type Status = "active" | "inactive";</code></pre>
       </div>
     </div>
@@ -59,20 +59,20 @@ type Status = "active" | "inactive";</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Generic Functions</h3>
-        <pre><code>function identity&lt;T&gt;(arg: T): T {
+        <pre><code>function identity&lt;T&gt;(arg&#58; T)&#58; T &#123;
   return arg;
-}
+&#125;
 const num = identity&lt;number&gt;(42);
 const str = identity("hello");</code></pre>
       </div>
       <div class="formula-card">
         <h3>Generic Constraints</h3>
-        <pre><code>interface HasLength {
-  length: number;
-}
-function log&lt;T extends HasLength&gt;(arg: T) {
+        <pre><code>interface HasLength &#123;
+  length&#58; number;
+&#125;
+function log&lt;T extends HasLength&gt;(arg&#58; T) &#123;
   console.log(arg.length);
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -90,12 +90,12 @@ Readonly&lt;User&gt;     // immutable</code></pre>
       </div>
       <div class="formula-card">
         <h3>Type Guards</h3>
-        <pre><code>function isString(v: unknown): v is string {
+        <pre><code>function isString(v&#58; unknown)&#58; v is string &#123;
   return typeof v === "string";
-}
-if (isString(val)) {
+&#125;
+if (isString(val)) &#123;
   val.toUpperCase(); // narrowed
-}</code></pre>
+&#125;</code></pre>
       </div>
     </div>
   </section>
@@ -105,21 +105,21 @@ if (isString(val)) {
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Class Definition</h3>
-        <pre><code>class Animal {
-  constructor(public name: string) {}
-  speak(): string {
-    return `${this.name} speaks`;
-  }
-}
+        <pre><code>class Animal &#123;
+  constructor(public name&#58; string) &#123;&#125;
+  speak()&#58; string &#123;
+    return `$&#123;this.name&#125; speaks`;
+  &#125;
+&#125;
 const a = new Animal("Dog");</code></pre>
       </div>
       <div class="formula-card">
         <h3>Access Modifiers</h3>
-        <pre><code>class Example {
-  public x: number;    // everywhere
-  protected y: number; // class + subclass
-  private z: number;   // class only
-}</code></pre>
+        <pre><code>class Example &#123;
+  public x&#58; number;    // everywhere
+  protected y&#58; number; // class + subclass
+  private z&#58; number;   // class only
+&#125;</code></pre>
       </div>
     </div>
   </section>

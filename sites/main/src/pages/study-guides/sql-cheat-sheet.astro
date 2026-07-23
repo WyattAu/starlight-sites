@@ -39,12 +39,12 @@ ORDER BY created_at DESC;</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Inner &amp; Left Join</h3>
-        <pre><code>-- INNER JOIN: only matching rows
+        <pre><code>-- INNER JOIN&#58; only matching rows
 SELECT u.name, o.total
 FROM users u
 INNER JOIN orders o ON u.id = o.user_id;
 
--- LEFT JOIN: all from left table
+-- LEFT JOIN&#58; all from left table
 SELECT u.name, COALESCE(SUM(o.total), 0)
 FROM users u
 LEFT JOIN orders o ON u.id = o.user_id

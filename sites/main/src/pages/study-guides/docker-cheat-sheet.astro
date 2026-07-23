@@ -16,7 +16,7 @@ import Layout from '../../layouts/Layout.astro'
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Run &amp; Manage</h3>
-        <pre><code>docker run -d -p 8080:80 nginx
+        <pre><code>docker run -d -p 8080&#58;80 nginx
 docker ps                         # running
 docker ps -a                      # all
 docker stop container_id
@@ -25,12 +25,12 @@ docker exec -it container /bin/sh</code></pre>
       </div>
       <div class="formula-card">
         <h3>Images</h3>
-        <pre><code>docker build -t myapp:1.0 .
+        <pre><code>docker build -t myapp&#58;1.0 .
 docker images                     # list
-docker rmi myapp:1.0
-docker tag myapp:1.0 repo/myapp:latest
-docker push repo/myapp:latest
-docker pull repo/myapp:latest</code></pre>
+docker rmi myapp&#58;1.0
+docker tag myapp&#58;1.0 repo/myapp&#58;latest
+docker push repo/myapp&#58;latest
+docker pull repo/myapp&#58;latest</code></pre>
       </div>
     </div>
   </section>
@@ -40,14 +40,14 @@ docker pull repo/myapp:latest</code></pre>
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Multi-Stage Build</h3>
-        <pre><code>FROM node:20 AS builder
+        <pre><code>FROM node&#58;20 AS builder
 WORKDIR /app
 COPY package*.json .
 RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM node:20-slim
+FROM node&#58;20-slim
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
 CMD ["node", "dist/server.js"]</code></pre>
@@ -74,28 +74,28 @@ coverage</code></pre>
         <h3>Volume Commands</h3>
         <pre><code># Named volume
 docker volume create mydata
-docker run -v mydata:/app/data nginx
+docker run -v mydata&#58;/app/data nginx
 
 # Bind mount
-docker run -v $(pwd)/src:/app/src nginx
+docker run -v $(pwd)/src&#58;/app/src nginx
 
 # Read-only
-docker run -v mydata:/data:ro nginx
+docker run -v mydata&#58;/data&#58;ro nginx
 
 docker volume ls
 docker volume rm mydata</code></pre>
       </div>
       <div class="formula-card">
         <h3>Docker Compose Volumes</h3>
-        <pre><code>services:
-  db:
-    image: postgres:16
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+        <pre><code>services&#58;
+  db&#58;
+    image&#58; postgres&#58;16
+    volumes&#58;
+      - pgdata&#58;/var/lib/postgresql/data
+      - ./init.sql&#58;/docker-entrypoint-initdb.d/init.sql
 
-volumes:
-  pgdata:</code></pre>
+volumes&#58;
+  pgdata&#58;</code></pre>
       </div>
     </div>
   </section>
@@ -105,8 +105,8 @@ volumes:
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Port Mapping</h3>
-        <pre><code>docker run -p 8080:80 nginx
-docker run -p 127.0.0.1:3000:3000 app
+        <pre><code>docker run -p 8080&#58;80 nginx
+docker run -p 127.0.0.1&#58;3000&#58;3000 app
 docker run --expose 8080 app
 
 docker port container_id
@@ -130,20 +130,20 @@ docker run --network mynet db
     <div class="formula-grid">
       <div class="formula-card">
         <h3>Compose File</h3>
-        <pre><code>services:
-  web:
-    build: .
-    ports: ["3000:3000"]
-    environment:
-      - DATABASE_URL=postgres://db:5432/app
-    depends_on:
+        <pre><code>services&#58;
+  web&#58;
+    build&#58; .
+    ports&#58; ["3000&#58;3000"]
+    environment&#58;
+      - DATABASE_URL=postgres&#58;//db&#58;5432/app
+    depends_on&#58;
       - db
-  db:
-    image: postgres:16
-    environment:
-      POSTGRES_DB: app
-    volumes:
-      - pgdata:/var/lib/postgresql/data</code></pre>
+  db&#58;
+    image&#58; postgres&#58;16
+    environment&#58;
+      POSTGRES_DB&#58; app
+    volumes&#58;
+      - pgdata&#58;/var/lib/postgresql/data</code></pre>
       </div>
       <div class="formula-card">
         <h3>Compose Commands</h3>
