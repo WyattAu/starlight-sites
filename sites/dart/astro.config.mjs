@@ -60,6 +60,7 @@ export default defineConfig({
         },
         { label: 'Testing', items: [{ autogenerate: { directory: '14-testing' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -44,6 +44,7 @@ export default defineConfig({
         { label: 'Oop', items: [{ autogenerate: { directory: '04-oop' } }] },
         { label: 'Advanced', items: [{ autogenerate: { directory: '05-advanced' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

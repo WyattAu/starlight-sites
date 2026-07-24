@@ -43,6 +43,7 @@ export default defineConfig({
         { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
         { label: 'Standard Library', items: [{ autogenerate: { directory: 'standard-library' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

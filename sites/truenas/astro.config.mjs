@@ -57,6 +57,7 @@ export default defineConfig({
         },
         { label: 'Setup', items: [{ autogenerate: { directory: 'setup' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),
