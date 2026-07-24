@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Tuning</title>
+    <link>https://tuning.wyattau.com</link>
+    <description>System performance tuning and optimization notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tuning.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://tuning.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Tuning</title>
+      <link>https://tuning.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://tuning.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Tuning</title>
+      <link>https://tuning.wyattau.com/index</link>
+      <description>System performance tuning and optimization notes.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Performance Tuning Practice</title>
+      <link>https://tuning.wyattau.com/practice-performance-tuning</link>
+      <description>Practice exercises for system performance tuning</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/practice-performance-tuning</guid>
+    </item>
+    <item>
+      <title>CPU Architecture and Tuning</title>
+      <link>https://tuning.wyattau.com/cpu-tuning/cpu-fundamentals</link>
+      <description>A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/cpu-tuning/cpu-fundamentals</guid>
+    </item>
+    <item>
+      <title>Memory Tuning</title>
+      <link>https://tuning.wyattau.com/memory-tuning/memory-tuning</link>
+      <description>DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/memory-tuning/memory-tuning</guid>
+    </item>
+    <item>
+      <title>GPU Tuning</title>
+      <link>https://tuning.wyattau.com/gpu-tuning/gpu-tuning</link>
+      <description>NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/gpu-tuning/gpu-tuning</guid>
+    </item>
+    <item>
+      <title>Storage Tuning</title>
+      <link>https://tuning.wyattau.com/storage-tuning/storage-tuning</link>
+      <description>| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/storage-tuning/storage-tuning</guid>
+    </item>
+    <item>
+      <title>Cooling Systems</title>
+      <link>https://tuning.wyattau.com/cooling-systems/cooling</link>
+      <description>Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/cooling-systems/cooling</guid>
+    </item>
+    <item>
+      <title>Stress Testing and Validation</title>
+      <link>https://tuning.wyattau.com/stress-testing/stress-testing</link>
+      <description>Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/stress-testing/stress-testing</guid>
+    </item>
+    <item>
+      <title>Diagnostic Test: Performance Tuning</title>
+      <link>https://tuning.wyattau.com/diagnostics/diag-tuning</link>
+      <description>Self-assessment quiz on performance tuning</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/diagnostics/diag-tuning</guid>
+    </item>
+    <item>
+      <title>Introduction to Hardware Tuning</title>
+      <link>https://tuning.wyattau.com/intro</link>
+      <description>Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>PSU Selection and BIOS Configuration</title>
+      <link>https://tuning.wyattau.com/psu-and-bios-guide</link>
+      <description>A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/psu-and-bios-guide</guid>
+    </item>
+    <item>
+      <title>Cpu Tuning</title>
+      <link>https://tuning.wyattau.com/cpu-tuning</link>
+      <description>Study notes and resources for Cpu Tuning</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/cpu-tuning</guid>
+    </item>
+    <item>
+      <title>Memory Tuning</title>
+      <link>https://tuning.wyattau.com/memory-tuning</link>
+      <description>Study notes and resources for Memory Tuning</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/memory-tuning</guid>
+    </item>
+    <item>
+      <title>Gpu Tuning</title>
+      <link>https://tuning.wyattau.com/gpu-tuning</link>
+      <description>Study notes and resources for Gpu Tuning</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com/gpu-tuning</guid>
+    </item>
+    <item>
+      <title>Tuning — Complete Guide</title>
+      <link>https://tuning.wyattau.com</link>
+      <description>System performance tuning and optimization notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tuning.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

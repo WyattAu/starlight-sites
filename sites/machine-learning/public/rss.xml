@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Machine Learning</title>
+    <link>https://machine-learning.wyattau.com</link>
+    <description>Machine learning reference notes covering concepts and techniques.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://machine-learning.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://machine-learning.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Machine Learning</title>
+      <link>https://machine-learning.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://machine-learning.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://machine-learning.wyattau.com/index</link>
+      <description>Machine learning reference notes covering concepts and techniques.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>ML Fundamentals Practice</title>
+      <link>https://machine-learning.wyattau.com/practice-ml-fundamentals</link>
+      <description>Practice exercises for machine learning fundamentals</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/practice-ml-fundamentals</guid>
+    </item>
+    <item>
+      <title>Diagnostic Test: Machine Learning</title>
+      <link>https://machine-learning.wyattau.com/diagnostics/diag-ml</link>
+      <description>Self-assessment quiz on ML fundamentals</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/diagnostics/diag-ml</guid>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://machine-learning.wyattau.com/intro</link>
+      <description>Introduction to machine learning fundamentals, supervised and unsupervised learning, and neural networks.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Machine Learning Deep Dive</title>
+      <link>https://machine-learning.wyattau.com/machine-learning-deep-dive</link>
+      <description>Machine Learning Deep Dive study notes.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/machine-learning-deep-dive</guid>
+    </item>
+    <item>
+      <title>advanced topics</title>
+      <link>https://machine-learning.wyattau.com/advanced-topics</link>
+      <description>Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/advanced-topics</guid>
+    </item>
+    <item>
+      <title>Diagnostics</title>
+      <link>https://machine-learning.wyattau.com/diagnostics</link>
+      <description>Study notes and resources for Diagnostics</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com/diagnostics</guid>
+    </item>
+    <item>
+      <title>Machine Learning — Complete Guide</title>
+      <link>https://machine-learning.wyattau.com</link>
+      <description>Machine learning reference notes covering concepts and techniques.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://machine-learning.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

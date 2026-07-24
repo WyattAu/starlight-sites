@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Haskell</title>
+    <link>https://haskell.wyattau.com</link>
+    <description>Haskell programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://haskell.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://haskell.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Haskell</title>
+      <link>https://haskell.wyattau.com</link>
+    </image>
+    <item>
+      <title>Type Classes Practice</title>
+      <link>https://haskell.wyattau.com/practice-type-classes</link>
+      <description>Haskell type class practice exercises</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/practice-type-classes</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://haskell.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Advanced Haskell Flashcards</title>
+      <link>https://haskell.wyattau.com/flashcards-haskell-advanced</link>
+      <description>Key terms for advanced Haskell</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/flashcards-haskell-advanced</guid>
+    </item>
+    <item>
+      <title>Haskell Basics Flashcards</title>
+      <link>https://haskell.wyattau.com/flashcards-haskell-basics</link>
+      <description>Key terms for Haskell basics</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/flashcards-haskell-basics</guid>
+    </item>
+    <item>
+      <title>Haskell</title>
+      <link>https://haskell.wyattau.com/index</link>
+      <description>Haskell programming language notes.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Haskell</title>
+      <link>https://haskell.wyattau.com/intro</link>
+      <description>Introduction to Haskell notes.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Introduction to Haskell</title>
+      <link>https://haskell.wyattau.com/intro/haskell-intro</link>
+      <description>Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/intro/haskell-intro</guid>
+    </item>
+    <item>
+      <title>Types and Functions</title>
+      <link>https://haskell.wyattau.com/basics/types-and-functions</link>
+      <description>Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/basics/types-and-functions</guid>
+    </item>
+    <item>
+      <title>Pattern Matching</title>
+      <link>https://haskell.wyattau.com/pattern-matching/pattern-matching</link>
+      <description>Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/pattern-matching/pattern-matching</guid>
+    </item>
+    <item>
+      <title>Type Classes</title>
+      <link>https://haskell.wyattau.com/type-classes/type-classes</link>
+      <description>Type classes are Haskell</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/type-classes/type-classes</guid>
+    </item>
+    <item>
+      <title>Monads and Functors</title>
+      <link>https://haskell.wyattau.com/monads/monads-and-functors</link>
+      <description>A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/monads/monads-and-functors</guid>
+    </item>
+    <item>
+      <title>Advanced Types</title>
+      <link>https://haskell.wyattau.com/advanced/advanced-types</link>
+      <description>Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/advanced/advanced-types</guid>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>https://haskell.wyattau.com/advanced/concurrency</link>
+      <description>means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/advanced/concurrency</guid>
+    </item>
+    <item>
+      <title>Haskell Practice (Basics)</title>
+      <link>https://haskell.wyattau.com/practice-haskell-basics</link>
+      <description>10 auto-graded practice problems covering core Haskell concepts. Select an answe Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/practice-haskell-basics</guid>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://haskell.wyattau.com/intro</link>
+      <description>Study notes and resources for Intro</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Haskell — Complete Guide</title>
+      <link>https://haskell.wyattau.com</link>
+      <description>Haskell programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://haskell.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

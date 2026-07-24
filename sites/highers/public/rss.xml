@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Highers</title>
+    <link>https://highers.wyattau.com</link>
+    <description>Free Scottish Highers study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://highers.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://highers.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Highers</title>
+      <link>https://highers.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://highers.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Biology Practice (Interactive)</title>
+      <link>https://highers.wyattau.com/biology/practice-biology</link>
+      <description>QUALIFICATIONS Highers practice problems: Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/biology/practice-biology</guid>
+    </item>
+    <item>
+      <title>Chemistry Practice (Interactive)</title>
+      <link>https://highers.wyattau.com/chemistry/practice-chemistry</link>
+      <description>QUALIFICATIONS Highers practice problems: Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/chemistry/practice-chemistry</guid>
+    </item>
+    <item>
+      <title>Computer Science Practice (Interactive)</title>
+      <link>https://highers.wyattau.com/computer-science/practice-computer-science</link>
+      <description>QUALIFICATIONS Highers practice problems: Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/computer-science/practice-computer-science</guid>
+    </item>
+    <item>
+      <title>Scottish Highers Flashcards: Biology</title>
+      <link>https://highers.wyattau.com/flashcards-biology</link>
+      <description>20 interactive flashcards for Scottish Highers Biology. Press Space to flip, rate 1-4.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/flashcards-biology</guid>
+    </item>
+    <item>
+      <title>Scottish Highers Flashcards: Chemistry</title>
+      <link>https://highers.wyattau.com/flashcards-chemistry</link>
+      <description>20 interactive flashcards for Scottish Highers Chemistry. Press Space to flip, rate 1-4.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/flashcards-chemistry</guid>
+    </item>
+    <item>
+      <title>Scottish Highers Flashcards: Computer Science</title>
+      <link>https://highers.wyattau.com/flashcards-computer-science</link>
+      <description>20 interactive flashcards for Scottish Highers Computer Science. Press Space to flip, rate 1-4.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/flashcards-computer-science</guid>
+    </item>
+    <item>
+      <title>SQA Higher Mathematics Flashcards</title>
+      <link>https://highers.wyattau.com/flashcards-mathematics</link>
+      <description>QUALIFICATIONS Highers flashcards: SQA Higher Mathematics Flashcards. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/flashcards-mathematics</guid>
+    </item>
+    <item>
+      <title>Scottish Highers Flashcards: Physics</title>
+      <link>https://highers.wyattau.com/flashcards-physics</link>
+      <description>20 interactive flashcards for Scottish Highers Physics. Press Space to flip, rate 1-4.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/flashcards-physics</guid>
+    </item>
+    <item>
+      <title>Highers</title>
+      <link>https://highers.wyattau.com/index</link>
+      <description>Scottish Highers revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Mathematics Practice (Interactive)</title>
+      <link>https://highers.wyattau.com/maths/practice-maths</link>
+      <description>QUALIFICATIONS Highers practice problems: Mathematics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/maths/practice-maths</guid>
+    </item>
+    <item>
+      <title>Physics Practice (Interactive)</title>
+      <link>https://highers.wyattau.com/physics/practice-physics</link>
+      <description>QUALIFICATIONS Highers practice problems: Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/physics/practice-physics</guid>
+    </item>
+    <item>
+      <title>Cell Biology -- Diagnostic Tests</title>
+      <link>https://highers.wyattau.com/biology/diagnostics/diag-cell-biology</link>
+      <description>Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/biology/diagnostics/diag-cell-biology</guid>
+    </item>
+    <item>
+      <title>Chemical Reactions -- Diagnostic Tests</title>
+      <link>https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions</link>
+      <description>Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions</guid>
+    </item>
+    <item>
+      <title>3 Databases</title>
+      <link>https://highers.wyattau.com/computer-science/databases/databases</link>
+      <description>Database concepts for Scottish Highers Computer Science.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com/computer-science/databases/databases</guid>
+    </item>
+    <item>
+      <title>Highers — Complete Guide</title>
+      <link>https://highers.wyattau.com</link>
+      <description>Free Scottish Highers study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://highers.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

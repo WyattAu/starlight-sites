@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Professional Certifications</title>
+    <link>https://professional-certs.wyattau.com</link>
+    <description>Complete preparation for professional certification exams.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://professional-certs.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://professional-certs.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Professional Certifications</title>
+      <link>https://professional-certs.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://professional-certs.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://professional-certs.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>AWS Cloud Practitioner</title>
+      <link>https://professional-certs.wyattau.com/aws/cloud-practitioner</link>
+      <description>AWS Cloud Practitioner - Complete study guide and practice questions</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://professional-certs.wyattau.com/aws/cloud-practitioner</guid>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>https://professional-certs.wyattau.com/aws</link>
+      <description>Study notes and resources for Aws</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://professional-certs.wyattau.com/aws</guid>
+    </item>
+    <item>
+      <title>Professional Certifications</title>
+      <link>https://professional-certs.wyattau.com/index</link>
+      <description>Professional Certifications study notes.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://professional-certs.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Professional Certifications — Complete Guide</title>
+      <link>https://professional-certs.wyattau.com</link>
+      <description>Complete preparation for professional certification exams.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://professional-certs.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

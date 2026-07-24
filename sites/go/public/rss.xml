@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Go</title>
+    <link>https://go.wyattau.com</link>
+    <description>Go programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://go.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://go.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Go</title>
+      <link>https://go.wyattau.com</link>
+    </image>
+    <item>
+      <title>Go Basics Practice (Interactive)</title>
+      <link>https://go.wyattau.com/practice-basics</link>
+      <description>8 auto-graded practice problems covering core Go concepts. Select an answer, sub Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/practice-basics</guid>
+    </item>
+    <item>
+      <title>Concurrency Practice</title>
+      <link>https://go.wyattau.com/practice-concurrency</link>
+      <description>Go concurrency practice exercises</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/practice-concurrency</guid>
+    </item>
+    <item>
+      <title>Interface Practice</title>
+      <link>https://go.wyattau.com/practice-interfaces</link>
+      <description>Go interface design practice exercises</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/practice-interfaces</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://go.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://go.wyattau.com/index</link>
+      <description>Go programming language notes.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>https://go.wyattau.com/advanced/networking</link>
+      <description>The package provides TCP support via and : Comprehensive educational content coverage with definitions, worked examples, and practice problems.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/advanced/networking</guid>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://go.wyattau.com/advanced/testing</link>
+      <description>Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature .</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/advanced/testing</guid>
+    </item>
+    <item>
+      <title>Go Standard Library Flashcards</title>
+      <link>https://go.wyattau.com/flashcards-standard-library</link>
+      <description>15 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http, encoding/json, and os.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/flashcards-standard-library</guid>
+    </item>
+    <item>
+      <title>go project architecture</title>
+      <link>https://go.wyattau.com/advanced/architecture</link>
+      <description>Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/advanced/architecture</guid>
+    </item>
+    <item>
+      <title>race conditions</title>
+      <link>https://go.wyattau.com/concurrency/race-conditions</link>
+      <description>A data race occurs when two goroutines access the same variable concurrently, at least one of them writes, and there is no synchronization to order the</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/concurrency/race-conditions</guid>
+    </item>
+    <item>
+      <title>math, sort, and log/slog</title>
+      <link>https://go.wyattau.com/standard-library/math-sort-log</link>
+      <description>The package provides basic constants and mathematical functions for floating-poi Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/standard-library/math-sort-log</guid>
+    </item>
+    <item>
+      <title>net/http</title>
+      <link>https://go.wyattau.com/standard-library/net-http</link>
+      <description>Go</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/standard-library/net-http</guid>
+    </item>
+    <item>
+      <title>strings and time</title>
+      <link>https://go.wyattau.com/standard-library/strings-and-time</link>
+      <description>The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/standard-library/strings-and-time</guid>
+    </item>
+    <item>
+      <title>Modules and Packages</title>
+      <link>https://go.wyattau.com/advanced/modules-and-packages</link>
+      <description>Every Go file belongs to a package, declared at the top of the file. A directory contains one Package. Executables use ; libraries use any other name.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/advanced/modules-and-packages</guid>
+    </item>
+    <item>
+      <title>Pointers and Memory</title>
+      <link>https://go.wyattau.com/advanced/pointers-and-memory</link>
+      <description>Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com/advanced/pointers-and-memory</guid>
+    </item>
+    <item>
+      <title>Go — Complete Guide</title>
+      <link>https://go.wyattau.com</link>
+      <description>Go programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://go.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

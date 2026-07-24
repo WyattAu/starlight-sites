@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — GCSE</title>
+    <link>https://gcse.wyattau.com</link>
+    <description>Free GCSE study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, English, and Computer Science.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gcse.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://gcse.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — GCSE</title>
+      <link>https://gcse.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://gcse.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Complete GCSE Study Guide — All Subjects</title>
+      <link>https://gcse.wyattau.com/hub</link>
+      <description>Comprehensive GCSE study guide covering Biology, Chemistry, Computer Science, English, Maths, and Physics. Topic notes, practice questions, flashcards, and diagnostics aligned with AQA, Edexcel, and OCR exam boards.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/hub</guid>
+    </item>
+    <item>
+      <title>Biology Practice (Interactive)</title>
+      <link>https://gcse.wyattau.com/biology/practice-biology</link>
+      <description>QUALIFICATIONS Gcse practice problems: Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/biology/practice-biology</guid>
+    </item>
+    <item>
+      <title>GCSE Chemistry — Diagnostic Test</title>
+      <link>https://gcse.wyattau.com/chemistry/diagnostic-test</link>
+      <description>Count your correct answers and identify areas for revision: Comprehensive educational content coverage with definitions, worked examples, and practice problems.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/chemistry/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>Chemistry Practice (Interactive)</title>
+      <link>https://gcse.wyattau.com/chemistry/practice-chemistry</link>
+      <description>QUALIFICATIONS Gcse practice problems: Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/chemistry/practice-chemistry</guid>
+    </item>
+    <item>
+      <title>GCSE Computer Science — Diagnostic Test</title>
+      <link>https://gcse.wyattau.com/computer-science/diagnostic-test</link>
+      <description>QUALIFICATIONS Gcse diagnostic tests: GCSE Computer Science — Diagnostic Test. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/computer-science/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>Computer Science Practice (Interactive)</title>
+      <link>https://gcse.wyattau.com/computer-science/practice-computer-science</link>
+      <description>QUALIFICATIONS Gcse practice problems: Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/computer-science/practice-computer-science</guid>
+    </item>
+    <item>
+      <title>GCSE English — Diagnostic Test</title>
+      <link>https://gcse.wyattau.com/english/diagnostic-test</link>
+      <description>QUALIFICATIONS Gcse diagnostic tests: GCSE English — Diagnostic Test. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/english/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>English Practice (Interactive)</title>
+      <link>https://gcse.wyattau.com/english/practice-english</link>
+      <description>QUALIFICATIONS Gcse practice problems: English Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/english/practice-english</guid>
+    </item>
+    <item>
+      <title>GCSE Chemistry Flashcards</title>
+      <link>https://gcse.wyattau.com/flashcards-chemistry</link>
+      <description>20 interactive flashcards for GCSE Chemistry. Press Space to flip, rate 1-4.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/flashcards-chemistry</guid>
+    </item>
+    <item>
+      <title>GCSE</title>
+      <link>https://gcse.wyattau.com/index</link>
+      <description>GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Maths Practice (Interactive)</title>
+      <link>https://gcse.wyattau.com/maths/practice-maths</link>
+      <description>QUALIFICATIONS Gcse practice problems: Maths Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/maths/practice-maths</guid>
+    </item>
+    <item>
+      <title>Physics Practice (Interactive)</title>
+      <link>https://gcse.wyattau.com/physics/practice-physics</link>
+      <description>QUALIFICATIONS Gcse practice problems: Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/physics/practice-physics</guid>
+    </item>
+    <item>
+      <title>GCSE | 简体中文</title>
+      <link>https://gcse.wyattau.com/zh</link>
+      <description>GCSE 课程学习笔记。</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/zh</guid>
+    </item>
+    <item>
+      <title>Bioenergetics -- Diagnostic Tests</title>
+      <link>https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics</link>
+      <description>(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics</guid>
+    </item>
+    <item>
+      <title>GCSE — Complete Guide</title>
+      <link>https://gcse.wyattau.com</link>
+      <description>Free GCSE study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, English, and Computer Science.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

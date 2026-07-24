@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Elixir</title>
+    <link>https://elixir.wyattau.com</link>
+    <description>Elixir programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://elixir.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://elixir.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Elixir</title>
+      <link>https://elixir.wyattau.com</link>
+    </image>
+    <item>
+      <title>Phoenix Practice</title>
+      <link>https://elixir.wyattau.com/practice-phoenix</link>
+      <description>Elixir Phoenix framework practice exercises</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/practice-phoenix</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://elixir.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Elixir</title>
+      <link>https://elixir.wyattau.com/index</link>
+      <description>Elixir programming language notes.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Introduction to Elixir</title>
+      <link>https://elixir.wyattau.com/intro/elixir-intro</link>
+      <description>Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/intro/elixir-intro</guid>
+    </item>
+    <item>
+      <title>Basics and Pattern Matching</title>
+      <link>https://elixir.wyattau.com/basics/basics-and-pattern-matching</link>
+      <description>Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/basics/basics-and-pattern-matching</guid>
+    </item>
+    <item>
+      <title>Functions and Modules</title>
+      <link>https://elixir.wyattau.com/functions-modules/functions-and-modules</link>
+      <description>Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for ).</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/functions-modules/functions-and-modules</guid>
+    </item>
+    <item>
+      <title>Concurrency and OTP</title>
+      <link>https://elixir.wyattau.com/concurrency/concurrency-otp</link>
+      <description>Elixir concurrency and OTP fundamentals.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/concurrency/concurrency-otp</guid>
+    </item>
+    <item>
+      <title>Metaprogramming</title>
+      <link>https://elixir.wyattau.com/advanced/metaprogramming</link>
+      <description>Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/advanced/metaprogramming</guid>
+    </item>
+    <item>
+      <title>Testing and Deployment</title>
+      <link>https://elixir.wyattau.com/advanced/testing-and-deployment</link>
+      <description>ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/advanced/testing-and-deployment</guid>
+    </item>
+    <item>
+      <title>Elixir Flashcards (Basics)</title>
+      <link>https://elixir.wyattau.com/flashcards-elixir-basics</link>
+      <description>20 flashcards covering core Elixir concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/flashcards-elixir-basics</guid>
+    </item>
+    <item>
+      <title>Elixir Practice (Basics)</title>
+      <link>https://elixir.wyattau.com/practice-elixir-basics</link>
+      <description>10 auto-graded practice problems covering core Elixir concepts. Select an answer Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/practice-elixir-basics</guid>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://elixir.wyattau.com/intro</link>
+      <description>Study notes and resources for Intro</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>https://elixir.wyattau.com/basics</link>
+      <description>Study notes and resources for Basics</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/basics</guid>
+    </item>
+    <item>
+      <title>Functions Modules</title>
+      <link>https://elixir.wyattau.com/functions-modules</link>
+      <description>Study notes and resources for Functions Modules</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/functions-modules</guid>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>https://elixir.wyattau.com/concurrency</link>
+      <description>Study notes and resources for Concurrency</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com/concurrency</guid>
+    </item>
+    <item>
+      <title>Elixir — Complete Guide</title>
+      <link>https://elixir.wyattau.com</link>
+      <description>Elixir programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://elixir.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

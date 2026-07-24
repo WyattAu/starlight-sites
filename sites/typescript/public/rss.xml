@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — TypeScript</title>
+    <link>https://typescript.wyattau.com</link>
+    <description>TypeScript programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://typescript.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://typescript.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — TypeScript</title>
+      <link>https://typescript.wyattau.com</link>
+    </image>
+    <item>
+      <title>TypeScript Fundamentals Practice (Interactive)</title>
+      <link>https://typescript.wyattau.com/practice-typescript-basics</link>
+      <description>10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and review the explanation.</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/practice-typescript-basics</guid>
+    </item>
+    <item>
+      <title>TypeScript Fundamentals Flashcards</title>
+      <link>https://typescript.wyattau.com/flashcards-typescript-basics</link>
+      <description>20 interactive flashcards covering core TypeScript concepts from the type system to React integration. Press Space to flip, rate 1-4.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/flashcards-typescript-basics</guid>
+    </item>
+    <item>
+      <title>Generics Practice</title>
+      <link>https://typescript.wyattau.com/practice-generics</link>
+      <description>TypeScript generics practice exercises</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/practice-generics</guid>
+    </item>
+    <item>
+      <title>Design Patterns Practice</title>
+      <link>https://typescript.wyattau.com/practice-patterns</link>
+      <description>TypeScript design patterns practice exercises</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/practice-patterns</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://typescript.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Typescript</title>
+      <link>https://typescript.wyattau.com/index</link>
+      <description>Typescript programming language notes.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Typescript</title>
+      <link>https://typescript.wyattau.com/intro</link>
+      <description>Introduction to typescript notes.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>advanced types</title>
+      <link>https://typescript.wyattau.com/advanced-types</link>
+      <description>and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/advanced-types</guid>
+    </item>
+    <item>
+      <title>Advanced Patterns</title>
+      <link>https://typescript.wyattau.com/advanced-patterns</link>
+      <description>Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/advanced-patterns</guid>
+    </item>
+    <item>
+      <title>Classes</title>
+      <link>https://typescript.wyattau.com/classes</link>
+      <description>A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/classes</guid>
+    </item>
+    <item>
+      <title>Enums and Modules</title>
+      <link>https://typescript.wyattau.com/enums-and-modules</link>
+      <description>Numeric enums assign auto-incrementing integer values to their members. By default, the first member Has value And each subsequent member increments by .</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/enums-and-modules</guid>
+    </item>
+    <item>
+      <title>Error Handling</title>
+      <link>https://typescript.wyattau.com/error-handling</link>
+      <description>The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/error-handling</guid>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://typescript.wyattau.com/functions</link>
+      <description>Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/functions</guid>
+    </item>
+    <item>
+      <title>Generics</title>
+      <link>https://typescript.wyattau.com/generics</link>
+      <description>Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/generics</guid>
+    </item>
+    <item>
+      <title>Tooling and Configuration</title>
+      <link>https://typescript.wyattau.com/tooling-and-configuration</link>
+      <description>Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com/tooling-and-configuration</guid>
+    </item>
+    <item>
+      <title>TypeScript — Complete Guide</title>
+      <link>https://typescript.wyattau.com</link>
+      <description>TypeScript programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://typescript.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

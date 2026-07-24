@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Leaving Cert</title>
+    <link>https://leaving-cert.wyattau.com</link>
+    <description>Free Irish Leaving Certificate study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leaving-cert.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://leaving-cert.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Leaving Cert</title>
+      <link>https://leaving-cert.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://leaving-cert.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Biology Practice (Interactive)</title>
+      <link>https://leaving-cert.wyattau.com/biology/practice-biology</link>
+      <description>QUALIFICATIONS Ilc practice problems: Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/biology/practice-biology</guid>
+    </item>
+    <item>
+      <title>Chemistry Practice (Interactive)</title>
+      <link>https://leaving-cert.wyattau.com/chemistry/practice-chemistry</link>
+      <description>QUALIFICATIONS Ilc practice problems: Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/chemistry/practice-chemistry</guid>
+    </item>
+    <item>
+      <title>Computer Science Practice (Interactive)</title>
+      <link>https://leaving-cert.wyattau.com/computer-science/practice-computer-science</link>
+      <description>QUALIFICATIONS Ilc practice problems: Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/computer-science/practice-computer-science</guid>
+    </item>
+    <item>
+      <title>ILC Flashcards: Biology</title>
+      <link>https://leaving-cert.wyattau.com/flashcards-biology</link>
+      <description>20 interactive flashcards for ILC Biology. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/flashcards-biology</guid>
+    </item>
+    <item>
+      <title>ILC Flashcards: Chemistry</title>
+      <link>https://leaving-cert.wyattau.com/flashcards-chemistry</link>
+      <description>ILC Flashcards: Chemistry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/flashcards-chemistry</guid>
+    </item>
+    <item>
+      <title>ILC Flashcards: Computer Science</title>
+      <link>https://leaving-cert.wyattau.com/flashcards-computer-science</link>
+      <description>20 interactive flashcards for ILC Computer Science. Press Space to flip, rate 1-4.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/flashcards-computer-science</guid>
+    </item>
+    <item>
+      <title>ILC Flashcards: Maths</title>
+      <link>https://leaving-cert.wyattau.com/flashcards-maths</link>
+      <description>20 interactive flashcards for ILC Maths. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/flashcards-maths</guid>
+    </item>
+    <item>
+      <title>ILC Flashcards: Physics</title>
+      <link>https://leaving-cert.wyattau.com/flashcards-physics</link>
+      <description>20 interactive flashcards for ILC Physics. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/flashcards-physics</guid>
+    </item>
+    <item>
+      <title>Leaving Cert</title>
+      <link>https://leaving-cert.wyattau.com/index</link>
+      <description>Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Maths Practice (Interactive)</title>
+      <link>https://leaving-cert.wyattau.com/maths/practice-maths</link>
+      <description>QUALIFICATIONS Ilc practice problems: Maths Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/maths/practice-maths</guid>
+    </item>
+    <item>
+      <title>Physics Practice (Interactive)</title>
+      <link>https://leaving-cert.wyattau.com/physics/practice-physics</link>
+      <description>QUALIFICATIONS Ilc practice problems: Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/physics/practice-physics</guid>
+    </item>
+    <item>
+      <title>Cell Biology -- Diagnostic Tests</title>
+      <link>https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology</link>
+      <description>QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology</guid>
+    </item>
+    <item>
+      <title>Atomic Structure -- Diagnostic Tests</title>
+      <link>https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure</link>
+      <description>QUALIFICATIONS Ilc notes: Atomic Structure -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure</guid>
+    </item>
+    <item>
+      <title>Computer Systems -- Diagnostic Tests</title>
+      <link>https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems</link>
+      <description>Computer Systems -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems</guid>
+    </item>
+    <item>
+      <title>Leaving Cert — Complete Guide</title>
+      <link>https://leaving-cert.wyattau.com</link>
+      <description>Free Irish Leaving Certificate study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://leaving-cert.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

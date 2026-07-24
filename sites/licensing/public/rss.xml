@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Licensing</title>
+    <link>https://licensing.wyattau.com</link>
+    <description>Software licensing reference notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://licensing.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://licensing.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Licensing</title>
+      <link>https://licensing.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://licensing.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://licensing.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Licensing</title>
+      <link>https://licensing.wyattau.com/index</link>
+      <description>Software licensing reference notes.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://licensing.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Licensing</title>
+      <link>https://licensing.wyattau.com/intro</link>
+      <description>Introduction to licensing notes.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://licensing.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Open Source Licenses</title>
+      <link>https://licensing.wyattau.com/osi-licenses</link>
+      <description>Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://licensing.wyattau.com/osi-licenses</guid>
+    </item>
+    <item>
+      <title>Licensing — Complete Guide</title>
+      <link>https://licensing.wyattau.com</link>
+      <description>Software licensing reference notes.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://licensing.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

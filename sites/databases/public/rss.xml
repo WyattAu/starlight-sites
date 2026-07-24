@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Databases</title>
+    <link>https://databases.wyattau.com</link>
+    <description>Database administration and SQL reference notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://databases.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://databases.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Databases</title>
+      <link>https://databases.wyattau.com</link>
+    </image>
+    <item>
+      <title>Database Design Practice</title>
+      <link>https://databases.wyattau.com/practice-database-design</link>
+      <description>Practice exercises for relational database design</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/practice-database-design</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://databases.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Databases</title>
+      <link>https://databases.wyattau.com/index</link>
+      <description>Database administration and SQL reference notes.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Relational Theory</title>
+      <link>https://databases.wyattau.com/relational-theory/relational-theory</link>
+      <description>The relational model provides a mathematically rigorous foundation for data management.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/relational-theory/relational-theory</guid>
+    </item>
+    <item>
+      <title>Advanced SQL</title>
+      <link>https://databases.wyattau.com/sql-fundamentals/advanced-sql</link>
+      <description>Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/sql-fundamentals/advanced-sql</guid>
+    </item>
+    <item>
+      <title>SQL Fundamentals</title>
+      <link>https://databases.wyattau.com/sql-fundamentals/sql</link>
+      <description>SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/sql-fundamentals/sql</guid>
+    </item>
+    <item>
+      <title>Indexing and Optimization</title>
+      <link>https://databases.wyattau.com/indexing-optimization/indexing</link>
+      <description>Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/indexing-optimization/indexing</guid>
+    </item>
+    <item>
+      <title>Query Optimization</title>
+      <link>https://databases.wyattau.com/indexing-optimization/query-optimization</link>
+      <description>Query optimization techniques for database performance.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/indexing-optimization/query-optimization</guid>
+    </item>
+    <item>
+      <title>Locking and Deadlocks</title>
+      <link>https://databases.wyattau.com/transactions/locking-and-deadlocks</link>
+      <description>PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/transactions/locking-and-deadlocks</guid>
+    </item>
+    <item>
+      <title>Transactions and Concurrency</title>
+      <link>https://databases.wyattau.com/transactions/transactions</link>
+      <description>ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/transactions/transactions</guid>
+    </item>
+    <item>
+      <title>NoSQL Databases</title>
+      <link>https://databases.wyattau.com/nosql/nosql</link>
+      <description>NoSQL databases and the CAP theorem.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/nosql/nosql</guid>
+    </item>
+    <item>
+      <title>PostgreSQL Advanced</title>
+      <link>https://databases.wyattau.com/nosql/postgresql-advanced</link>
+      <description>PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/nosql/postgresql-advanced</guid>
+    </item>
+    <item>
+      <title>Redis Deep Dive</title>
+      <link>https://databases.wyattau.com/nosql/redis</link>
+      <description>Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/nosql/redis</guid>
+    </item>
+    <item>
+      <title>Data Modeling Patterns</title>
+      <link>https://databases.wyattau.com/database-design/data-modeling</link>
+      <description>Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/database-design/data-modeling</guid>
+    </item>
+    <item>
+      <title>Database Design</title>
+      <link>https://databases.wyattau.com/database-design/database-design</link>
+      <description>Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com/database-design/database-design</guid>
+    </item>
+    <item>
+      <title>Databases — Complete Guide</title>
+      <link>https://databases.wyattau.com</link>
+      <description>Database administration and SQL reference notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://databases.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Dart</title>
+    <link>https://dart.wyattau.com</link>
+    <description>Dart programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dart.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://dart.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Dart</title>
+      <link>https://dart.wyattau.com</link>
+    </image>
+    <item>
+      <title>Flutter Practice</title>
+      <link>https://dart.wyattau.com/practice-flutter</link>
+      <description>Dart/Flutter practice exercises</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/practice-flutter</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://dart.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Dart Flashcards: Fundamentals</title>
+      <link>https://dart.wyattau.com/flashcards-dart-basics</link>
+      <description>20 interactive flashcards covering core Dart concepts from null safety to Dart 3 features and Flutter basics. Press Space to flip, rate 1-4.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/flashcards-dart-basics</guid>
+    </item>
+    <item>
+      <title>Dart</title>
+      <link>https://dart.wyattau.com/index</link>
+      <description>Dart programming language notes.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Dart Practice (Fundamentals)</title>
+      <link>https://dart.wyattau.com/practice-dart-basics</link>
+      <description>10 auto-graded practice problems covering core Dart concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/practice-dart-basics</guid>
+    </item>
+    <item>
+      <title>Introduction to Dart &amp; Flutter</title>
+      <link>https://dart.wyattau.com/intro</link>
+      <description>This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>testing</title>
+      <link>https://dart.wyattau.com/testing</link>
+      <description>Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/testing</guid>
+    </item>
+    <item>
+      <title>FFI and Advanced Topics</title>
+      <link>https://dart.wyattau.com/ffi-and-advanced</link>
+      <description>Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/ffi-and-advanced</guid>
+    </item>
+    <item>
+      <title>Collections Deep Dive</title>
+      <link>https://dart.wyattau.com/collections/collections-deep-dive</link>
+      <description>Dart collections deep dive and hierarchy.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/collections/collections-deep-dive</guid>
+    </item>
+    <item>
+      <title>Pattern Matching</title>
+      <link>https://dart.wyattau.com/dartfeatures/pattern-matching</link>
+      <description>Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/dartfeatures/pattern-matching</guid>
+    </item>
+    <item>
+      <title>Sealed Classes</title>
+      <link>https://dart.wyattau.com/dartfeatures/sealed-classes</link>
+      <description>Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/dartfeatures/sealed-classes</guid>
+    </item>
+    <item>
+      <title>Class Modifiers</title>
+      <link>https://dart.wyattau.com/dartfeatures/class-modifiers</link>
+      <description>Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/dartfeatures/class-modifiers</guid>
+    </item>
+    <item>
+      <title>Error Handling</title>
+      <link>https://dart.wyattau.com/error-handling</link>
+      <description>Dart draws a sharp line between two families of throwable objects: and . This is not a stylistic preference -- it is a semantic contract. means something wen</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/error-handling</guid>
+    </item>
+    <item>
+      <title>Navigation</title>
+      <link>https://dart.wyattau.com/flutter-fundamentals/navigation</link>
+      <description>Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/flutter-fundamentals/navigation</guid>
+    </item>
+    <item>
+      <title>Widgets and Lifecycle</title>
+      <link>https://dart.wyattau.com/flutter-fundamentals/widgets-and-lifecycle</link>
+      <description>Flutter widgets and lifecycle management.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com/flutter-fundamentals/widgets-and-lifecycle</guid>
+    </item>
+    <item>
+      <title>Dart — Complete Guide</title>
+      <link>https://dart.wyattau.com</link>
+      <description>Dart programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dart.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Linux</title>
+    <link>https://linux.wyattau.com</link>
+    <description>Linux system administration reference notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://linux.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://linux.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Linux</title>
+      <link>https://linux.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://linux.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://linux.wyattau.com/index</link>
+      <description>Linux system administration reference notes.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Linux Administration Practice</title>
+      <link>https://linux.wyattau.com/practice-linux-admin</link>
+      <description>Practice exercises for Linux system administration</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/practice-linux-admin</guid>
+    </item>
+    <item>
+      <title>Bash Scripting</title>
+      <link>https://linux.wyattau.com/cli-fundamentals/bash-scripting</link>
+      <description>if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/cli-fundamentals/bash-scripting</guid>
+    </item>
+    <item>
+      <title>Core Utilities</title>
+      <link>https://linux.wyattau.com/cli-fundamentals/core-utilities</link>
+      <description>GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/cli-fundamentals/core-utilities</guid>
+    </item>
+    <item>
+      <title>Shell Basics</title>
+      <link>https://linux.wyattau.com/cli-fundamentals/shell-basics</link>
+      <description>A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/cli-fundamentals/shell-basics</guid>
+    </item>
+    <item>
+      <title>Text Processing</title>
+      <link>https://linux.wyattau.com/cli-fundamentals/text-processing</link>
+      <description>Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/cli-fundamentals/text-processing</guid>
+    </item>
+    <item>
+      <title>File Permissions and ACLs</title>
+      <link>https://linux.wyattau.com/file-systems/file-permissions</link>
+      <description>Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/file-systems/file-permissions</guid>
+    </item>
+    <item>
+      <title>File Systems and Mounting</title>
+      <link>https://linux.wyattau.com/file-systems/filesystems-and-mounting</link>
+      <description>The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/file-systems/filesystems-and-mounting</guid>
+    </item>
+    <item>
+      <title>Cron and Task Scheduling</title>
+      <link>https://linux.wyattau.com/process-management/cron-and-scheduling</link>
+      <description>The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/process-management/cron-and-scheduling</guid>
+    </item>
+    <item>
+      <title>I/O Redirection and Pipes</title>
+      <link>https://linux.wyattau.com/process-management/io-redirection</link>
+      <description>Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/process-management/io-redirection</guid>
+    </item>
+    <item>
+      <title>Processes and Signals</title>
+      <link>https://linux.wyattau.com/process-management/processes-and-signals</link>
+      <description>Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/process-management/processes-and-signals</guid>
+    </item>
+    <item>
+      <title>DNS and DHCP on Linux</title>
+      <link>https://linux.wyattau.com/networking/dns-and-dhcp</link>
+      <description>The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/networking/dns-and-dhcp</guid>
+    </item>
+    <item>
+      <title>Linux Firewalls</title>
+      <link>https://linux.wyattau.com/networking/firewalls</link>
+      <description>Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/networking/firewalls</guid>
+    </item>
+    <item>
+      <title>Linux Networking</title>
+      <link>https://linux.wyattau.com/networking/linux-networking</link>
+      <description>The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com/networking/linux-networking</guid>
+    </item>
+    <item>
+      <title>Linux — Complete Guide</title>
+      <link>https://linux.wyattau.com</link>
+      <description>Linux system administration reference notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

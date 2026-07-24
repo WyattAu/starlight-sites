@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — SAT</title>
+    <link>https://sat.wyattau.com</link>
+    <description>Free SAT study notes, revision guide, and exam preparation with worked examples for Mathematics, Reading and Writing, and Science.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sat.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://sat.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — SAT</title>
+      <link>https://sat.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://sat.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>SAT Math Advanced Flashcards</title>
+      <link>https://sat.wyattau.com/flashcards-math-advanced</link>
+      <description>QUALIFICATIONS Sat flashcards: SAT Math Advanced Flashcards. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/flashcards-math-advanced</guid>
+    </item>
+    <item>
+      <title>SAT Flashcards: Reading and Writing</title>
+      <link>https://sat.wyattau.com/flashcards-reading-writing</link>
+      <description>SAT Flashcards: Reading and Writing: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/flashcards-reading-writing</guid>
+    </item>
+    <item>
+      <title>SAT</title>
+      <link>https://sat.wyattau.com/index</link>
+      <description>SAT revision notes covering Mathematics, Reading and Writing, and Science.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Algebra</title>
+      <link>https://sat.wyattau.com/mathematics/algebra</link>
+      <description>SAT mathematics: Algebra</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/mathematics/algebra</guid>
+    </item>
+    <item>
+      <title>Data analysis</title>
+      <link>https://sat.wyattau.com/mathematics/data-analysis</link>
+      <description>SAT mathematics: Data analysis</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/mathematics/data-analysis</guid>
+    </item>
+    <item>
+      <title>Geometry</title>
+      <link>https://sat.wyattau.com/mathematics/geometry</link>
+      <description>SAT mathematics: Geometry</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/mathematics/geometry</guid>
+    </item>
+    <item>
+      <title>Comprehension</title>
+      <link>https://sat.wyattau.com/reading/comprehension</link>
+      <description>SAT reading: Comprehension</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/reading/comprehension</guid>
+    </item>
+    <item>
+      <title>Grammar</title>
+      <link>https://sat.wyattau.com/reading/grammar</link>
+      <description>SAT reading: Grammar</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/reading/grammar</guid>
+    </item>
+    <item>
+      <title>Essay</title>
+      <link>https://sat.wyattau.com/writing/essay</link>
+      <description>SAT writing: Essay</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/writing/essay</guid>
+    </item>
+    <item>
+      <title>Language</title>
+      <link>https://sat.wyattau.com/writing/language</link>
+      <description>SAT writing: Language</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/writing/language</guid>
+    </item>
+    <item>
+      <title>Math Flashcards</title>
+      <link>https://sat.wyattau.com/flashcards-math</link>
+      <description>QUALIFICATIONS Sat flashcards: Math Flashcards. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/flashcards-math</guid>
+    </item>
+    <item>
+      <title>Advanced Strategies</title>
+      <link>https://sat.wyattau.com/advanced-strategies</link>
+      <description>These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/advanced-strategies</guid>
+    </item>
+    <item>
+      <title>Introduction to SAT Notes</title>
+      <link>https://sat.wyattau.com/intro</link>
+      <description>The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Mathematics</title>
+      <link>https://sat.wyattau.com/mathematics</link>
+      <description>The Mathematics section of the digital SAT consists of across , split into two adaptive modules of 22 questions each (35 minutes per module). Approximately</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com/mathematics</guid>
+    </item>
+    <item>
+      <title>SAT — Complete Guide</title>
+      <link>https://sat.wyattau.com</link>
+      <description>Free SAT study notes, revision guide, and exam preparation with worked examples for Mathematics, Reading and Writing, and Science.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://sat.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

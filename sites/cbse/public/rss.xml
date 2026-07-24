@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — CBSE</title>
+    <link>https://cbse.wyattau.com</link>
+    <description>Free CBSE study notes, revision guide, and exam preparation with worked examples for Chemistry, Physics, and Mathematics.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cbse.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://cbse.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — CBSE</title>
+      <link>https://cbse.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://cbse.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>CBSE Flashcards: Chemistry Class 12</title>
+      <link>https://cbse.wyattau.com/flashcards-chemistry</link>
+      <description>CBSE Flashcards: Chemistry Class 12: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/flashcards-chemistry</guid>
+    </item>
+    <item>
+      <title>CBSE Flashcards: Mathematics Class 12</title>
+      <link>https://cbse.wyattau.com/flashcards-mathematics-class12</link>
+      <description>Comprehensive educational content notes on cbse flashcards: mathematics class 12 with precise definitions, worked examples, and common pitfalls.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/flashcards-mathematics-class12</guid>
+    </item>
+    <item>
+      <title>CBSE Flashcards: Physics Class 12</title>
+      <link>https://cbse.wyattau.com/flashcards-physics-class12</link>
+      <description>CBSE Flashcards: Physics Class 12: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/flashcards-physics-class12</guid>
+    </item>
+    <item>
+      <title>CBSE</title>
+      <link>https://cbse.wyattau.com/index</link>
+      <description>CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>CBSE Practice: Chemistry Class 12</title>
+      <link>https://cbse.wyattau.com/practice-chemistry</link>
+      <description>10 MCQ questions covering electrochemistry, chemical kinetics, solutions, p-block/d-block elements, and polymers from the NCERT syllabus. Select an option</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/practice-chemistry</guid>
+    </item>
+    <item>
+      <title>CBSE Practice: Mathematics Class 12</title>
+      <link>https://cbse.wyattau.com/practice-maths</link>
+      <description>10 MCQ questions covering calculus, matrices, probability, vectors, and relations and functions from the NCERT syllabus. Select an option to check your</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/practice-maths</guid>
+    </item>
+    <item>
+      <title>CBSE Practice: Physics Class 12</title>
+      <link>https://cbse.wyattau.com/practice-physics</link>
+      <description>10 MCQ questions covering electromagnetism, optics, wave optics, photoelectric effect, and semiconductor electronics from the NCERT syllabus. Select an</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/practice-physics</guid>
+    </item>
+    <item>
+      <title>Alcohols, Phenols, and Ethers</title>
+      <link>https://cbse.wyattau.com/chemistry/alcohols</link>
+      <description>CBSE Class 12 chemistry: Classification, reactions, and worked examples.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/alcohols</guid>
+    </item>
+    <item>
+      <title>Aldehydes, Ketones, and Carboxylic Acids</title>
+      <link>https://cbse.wyattau.com/chemistry/aldehydes</link>
+      <description>CBSE Class 12 chemistry: Nomenclature, reactions, nucleophilic addition, and worked examples.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/aldehydes</guid>
+    </item>
+    <item>
+      <title>Amines</title>
+      <link>https://cbse.wyattau.com/chemistry/amines</link>
+      <description>CBSE Class 12 chemistry: Classification, preparation, reactions, and worked examples.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/amines</guid>
+    </item>
+    <item>
+      <title>Biomolecules</title>
+      <link>https://cbse.wyattau.com/chemistry/biomolecules</link>
+      <description>CBSE Class 12 chemistry: Carbohydrates, proteins, nucleic acids, and worked examples.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/biomolecules</guid>
+    </item>
+    <item>
+      <title>Carboxylic Acids</title>
+      <link>https://cbse.wyattau.com/chemistry/carboxylic-acids</link>
+      <description>CBSE Class 12 chemistry: Reactions, derivatives, and worked examples.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/carboxylic-acids</guid>
+    </item>
+    <item>
+      <title>Chemical Kinetics</title>
+      <link>https://cbse.wyattau.com/chemistry/chemical-kinetics</link>
+      <description>CBSE Class 12 chemistry: Chemical kinetics with rate laws, order of reaction, and worked examples.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/chemical-kinetics</guid>
+    </item>
+    <item>
+      <title>Chemistry in Everyday Life</title>
+      <link>https://cbse.wyattau.com/chemistry/chemistry-in-everyday</link>
+      <description>CBSE Class 12 chemistry: Drugs, food additives, cleansing agents, and their chemistry.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com/chemistry/chemistry-in-everyday</guid>
+    </item>
+    <item>
+      <title>CBSE — Complete Guide</title>
+      <link>https://cbse.wyattau.com</link>
+      <description>Free CBSE study notes, revision guide, and exam preparation with worked examples for Chemistry, Physics, and Mathematics.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cbse.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

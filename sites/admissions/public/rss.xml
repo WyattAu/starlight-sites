@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Admissions</title>
+    <link>https://admissions.wyattau.com</link>
+    <description>University admissions test preparation notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://admissions.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://admissions.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Admissions</title>
+      <link>https://admissions.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://admissions.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>University Admissions Flashcards</title>
+      <link>https://admissions.wyattau.com/flashcards-admissions</link>
+      <description>20 interactive flashcards covering TMUA, personal statements, Oxbridge interviews, extracurriculars, references, and admissions strategy. Press Space to</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/flashcards-admissions</guid>
+    </item>
+    <item>
+      <title>Admissions</title>
+      <link>https://admissions.wyattau.com/index</link>
+      <description>University admissions test preparation notes.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Admissions Practice (Interactive)</title>
+      <link>https://admissions.wyattau.com/practice-admissions</link>
+      <description>10 auto-graded practice problems ranging from easy to hard. Select an answer, su Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/practice-admissions</guid>
+    </item>
+    <item>
+      <title>Admissions Tests</title>
+      <link>https://admissions.wyattau.com/index</link>
+      <description>Many competitive university programmes require applicants to sit specialised admissions tests as part of the selection process. These examinations assess</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Admissions</title>
+      <link>https://admissions.wyattau.com/intro</link>
+      <description>Introduction to admissions notes.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>BMO Preparation</title>
+      <link>https://admissions.wyattau.com/bmo-preparation</link>
+      <description>University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/bmo-preparation</guid>
+    </item>
+    <item>
+      <title>IMO Preparation</title>
+      <link>https://admissions.wyattau.com/imo-preparation</link>
+      <description>University Admissions IMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/imo-preparation</guid>
+    </item>
+    <item>
+      <title>MAT Preparation</title>
+      <link>https://admissions.wyattau.com/mat-preparation</link>
+      <description>University Admissions MAT Preparation notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/mat-preparation</guid>
+    </item>
+    <item>
+      <title>STEP Preparation</title>
+      <link>https://admissions.wyattau.com/step-preparation</link>
+      <description>University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/step-preparation</guid>
+    </item>
+    <item>
+      <title>TMUA Preparation</title>
+      <link>https://admissions.wyattau.com/tmua-preparation</link>
+      <description>University Admissions TMUA Preparation notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com/tmua-preparation</guid>
+    </item>
+    <item>
+      <title>Admissions — Complete Guide</title>
+      <link>https://admissions.wyattau.com</link>
+      <description>University admissions test preparation notes.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://admissions.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

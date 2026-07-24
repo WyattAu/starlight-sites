@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Gaokao</title>
+    <link>https://gaokao.wyattau.com</link>
+    <description>Free Gaokao study notes, revision guide, and exam preparation with worked examples</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gaokao.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://gaokao.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Gaokao</title>
+      <link>https://gaokao.wyattau.com</link>
+    </image>
+    <item>
+      <title>数学练习</title>
+      <link>https://gaokao.wyattau.com/practice-mathematics</link>
+      <description>高考数学练习题</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/practice-mathematics</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://gaokao.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Gaokao Flashcards: Mathematics</title>
+      <link>https://gaokao.wyattau.com/flashcards-mathematics</link>
+      <description>Gaokao Flashcards: Mathematics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/flashcards-mathematics</guid>
+    </item>
+    <item>
+      <title>Gaokao</title>
+      <link>https://gaokao.wyattau.com/index</link>
+      <description>Gaokao (China) revision notes covering Mathematics.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Inorganic</title>
+      <link>https://gaokao.wyattau.com/chemistry/inorganic</link>
+      <description>高考 chemistry: Inorganic</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/chemistry/inorganic</guid>
+    </item>
+    <item>
+      <title>Organic</title>
+      <link>https://gaokao.wyattau.com/chemistry/organic</link>
+      <description>高考 chemistry: Organic</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/chemistry/organic</guid>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://gaokao.wyattau.com/chinese/reading</link>
+      <description>高考 chinese: Reading</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/chinese/reading</guid>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://gaokao.wyattau.com/chinese/writing</link>
+      <description>高考 chinese: Writing</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/chinese/writing</guid>
+    </item>
+    <item>
+      <title>数学诊断测试</title>
+      <link>https://gaokao.wyattau.com/diagnostics/diag-mathematics</link>
+      <description>高考数学自测</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/diagnostics/diag-mathematics</guid>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://gaokao.wyattau.com/english/reading</link>
+      <description>高考 english: Reading</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/english/reading</guid>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://gaokao.wyattau.com/english/writing</link>
+      <description>高考 english: Writing</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/english/writing</guid>
+    </item>
+    <item>
+      <title>Algebra</title>
+      <link>https://gaokao.wyattau.com/mathematics/algebra</link>
+      <description>高考 mathematics: Algebra</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/mathematics/algebra</guid>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://gaokao.wyattau.com/mathematics/functions</link>
+      <description>高考 mathematics: Functions</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/mathematics/functions</guid>
+    </item>
+    <item>
+      <title>Geometry</title>
+      <link>https://gaokao.wyattau.com/mathematics/geometry</link>
+      <description>高考 mathematics: Geometry with vectors, conic sections, and worked examples.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/mathematics/geometry</guid>
+    </item>
+    <item>
+      <title>Electricity</title>
+      <link>https://gaokao.wyattau.com/physics/electricity</link>
+      <description>高考 physics: Electricity</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com/physics/electricity</guid>
+    </item>
+    <item>
+      <title>Gaokao — Complete Guide</title>
+      <link>https://gaokao.wyattau.com</link>
+      <description>Free Gaokao study notes, revision guide, and exam preparation with worked examples</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gaokao.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

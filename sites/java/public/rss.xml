@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Java</title>
+    <link>https://java.wyattau.com</link>
+    <description>Java programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://java.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://java.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Java</title>
+      <link>https://java.wyattau.com</link>
+    </image>
+    <item>
+      <title>Concurrency Practice</title>
+      <link>https://java.wyattau.com/practice-concurrency</link>
+      <description>Java concurrency practice exercises</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/practice-concurrency</guid>
+    </item>
+    <item>
+      <title>Java Fundamentals Practice (Interactive)</title>
+      <link>https://java.wyattau.com/practice-java-basics</link>
+      <description>10 auto-graded practice problems covering Java fundamentals. Select an answer, s Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/practice-java-basics</guid>
+    </item>
+    <item>
+      <title>OOP Practice</title>
+      <link>https://java.wyattau.com/practice-oop</link>
+      <description>Java object-oriented programming practice exercises</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/practice-oop</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://java.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Java Fundamentals Flashcards</title>
+      <link>https://java.wyattau.com/flashcards-java-basics</link>
+      <description>Java Fundamentals Flashcards: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/flashcards-java-basics</guid>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://java.wyattau.com/index</link>
+      <description>Java programming language notes.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Types and Variables</title>
+      <link>https://java.wyattau.com/fundamentals/types-and-variables</link>
+      <description>Java types and variables fundamentals.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/fundamentals/types-and-variables</guid>
+    </item>
+    <item>
+      <title>Control Flow</title>
+      <link>https://java.wyattau.com/fundamentals/control-flow</link>
+      <description>Java control flow fundamentals.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/fundamentals/control-flow</guid>
+    </item>
+    <item>
+      <title>Strings and Text Processing</title>
+      <link>https://java.wyattau.com/fundamentals/strings</link>
+      <description>is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/fundamentals/strings</guid>
+    </item>
+    <item>
+      <title>Classes and Inheritance</title>
+      <link>https://java.wyattau.com/object-oriented/classes</link>
+      <description>Java classes and inheritance fundamentals.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/object-oriented/classes</guid>
+    </item>
+    <item>
+      <title>Inheritance and Polymorphism</title>
+      <link>https://java.wyattau.com/object-oriented/inheritance-polymorphism</link>
+      <description>Java inheritance and polymorphism fundamentals.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/object-oriented/inheritance-polymorphism</guid>
+    </item>
+    <item>
+      <title>Collections Framework</title>
+      <link>https://java.wyattau.com/collections/collections-framework</link>
+      <description>Java Collections Framework fundamentals.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/collections/collections-framework</guid>
+    </item>
+    <item>
+      <title>Maps and Sets</title>
+      <link>https://java.wyattau.com/collections/maps-and-sets</link>
+      <description>maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/collections/maps-and-sets</guid>
+    </item>
+    <item>
+      <title>Streams API</title>
+      <link>https://java.wyattau.com/streams/streams-api</link>
+      <description>Java Streams API fundamentals.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/streams/streams-api</guid>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>https://java.wyattau.com/concurrency/concurrency</link>
+      <description>Java concurrency fundamentals.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com/concurrency/concurrency</guid>
+    </item>
+    <item>
+      <title>Java — Complete Guide</title>
+      <link>https://java.wyattau.com</link>
+      <description>Java programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://java.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — AP</title>
+    <link>https://ap.wyattau.com</link>
+    <description>Free AP study notes, revision guide, and exam preparation with worked examples for Advanced Placement Calculus, Physics, Chemistry, Biology, and more.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ap.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://ap.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — AP</title>
+      <link>https://ap.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://ap.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Complete AP Course Guide — All Subjects</title>
+      <link>https://ap.wyattau.com/hub</link>
+      <description>Comprehensive hub for every AP course: Biology, Chemistry, Computer Science, English, History, Maths, Physics, and Statistics. Study guides, exam strategies, and practice resources.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/hub</guid>
+    </item>
+    <item>
+      <title>AP Biology Diagnostic Test</title>
+      <link>https://ap.wyattau.com/biology/diagnostic-test</link>
+      <description>This diagnostic test covers the full AP Biology syllabus. There are 20 questions spanning 5 core topics. The test uses adaptive difficulty, selecting</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/biology/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>AP Biology Practice (Interactive)</title>
+      <link>https://ap.wyattau.com/biology/practice-biology</link>
+      <description>QUALIFICATIONS Ap practice problems: AP Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/biology/practice-biology</guid>
+    </item>
+    <item>
+      <title>AP Chemistry Diagnostic Test</title>
+      <link>https://ap.wyattau.com/chemistry/diagnostic-test</link>
+      <description>This diagnostic test covers the full AP Chemistry syllabus. There are 20 questions spanning 7 core topics. The test uses adaptive difficulty, selecting</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/chemistry/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>AP Chemistry Practice (Interactive)</title>
+      <link>https://ap.wyattau.com/chemistry/practice-chemistry</link>
+      <description>QUALIFICATIONS Ap practice problems: AP Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/chemistry/practice-chemistry</guid>
+    </item>
+    <item>
+      <title>AP Computer Science Principles Diagnostic Test</title>
+      <link>https://ap.wyattau.com/computer-science/diagnostic-test</link>
+      <description>This diagnostic test covers the full AP Computer Science Principles syllabus. There are 20 questions spanning 5 core topics. The test uses adaptive</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/computer-science/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>AP Computer Science Practice (Interactive)</title>
+      <link>https://ap.wyattau.com/computer-science/practice-computer-science</link>
+      <description>QUALIFICATIONS Ap practice problems: AP Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/computer-science/practice-computer-science</guid>
+    </item>
+    <item>
+      <title>AP English Language Diagnostic Test</title>
+      <link>https://ap.wyattau.com/english/diagnostic-test</link>
+      <description>This diagnostic test covers the full AP English Language and Composition syllabus. There are 20 questions spanning 4 core topics. The test uses adaptive</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/english/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>AP English Language Practice (Interactive)</title>
+      <link>https://ap.wyattau.com/english/practice-english</link>
+      <description>QUALIFICATIONS Ap practice problems: AP English Language Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/english/practice-english</guid>
+    </item>
+    <item>
+      <title>AP US History Diagnostic Test</title>
+      <link>https://ap.wyattau.com/history/diagnostic-test</link>
+      <description>This diagnostic test covers the full AP US History syllabus. There are 20 questions spanning 5 core topic areas. The test uses adaptive difficulty,</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/history/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>AP US History Practice (Interactive)</title>
+      <link>https://ap.wyattau.com/history/practice-history</link>
+      <description>QUALIFICATIONS Ap practice problems: AP US History Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/history/practice-history</guid>
+    </item>
+    <item>
+      <title>AP</title>
+      <link>https://ap.wyattau.com/index</link>
+      <description>Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>AP Physics Diagnostic Test</title>
+      <link>https://ap.wyattau.com/physics/diagnostic-test</link>
+      <description>Content notes.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/physics/diagnostic-test</guid>
+    </item>
+    <item>
+      <title>AP Calculus AB Practice</title>
+      <link>https://ap.wyattau.com/practice-calculus-ab</link>
+      <description>AP Calculus AB practice problems and solutions.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com/practice-calculus-ab</guid>
+    </item>
+    <item>
+      <title>AP — Complete Guide</title>
+      <link>https://ap.wyattau.com</link>
+      <description>Free AP study notes, revision guide, and exam preparation with worked examples for Advanced Placement Calculus, Physics, Chemistry, Biology, and more.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

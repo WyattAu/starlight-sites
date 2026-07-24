@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Programming</title>
+    <link>https://programming.wyattau.com</link>
+    <description>Deep C++ systems programming notes covering ownership, RAII, templates, concurrency, and build systems.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://programming.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://programming.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Programming</title>
+      <link>https://programming.wyattau.com</link>
+    </image>
+    <item>
+      <title>Preprocessing and AST Generation, and Object Code</title>
+      <link>https://programming.wyattau.com/compilation_model/translation/preprocessing_ast_object</link>
+      <description>Understanding the translation stages are critical for debugging compilation errors, optimizing build Times, and understanding. The pipeline processes one at</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/compilation_model/translation/preprocessing_ast_object</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://programming.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Complete C++ Programming Study Guide</title>
+      <link>https://programming.wyattau.com/hub</link>
+      <description>Comprehensive C++ programming study guide covering types, resource management, object-oriented programming, templates, standard library, concurrency, and function architecture. Modern C++ (C++20/23) with practical examples.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/hub</guid>
+    </item>
+    <item>
+      <title>C++ Flashcards: Error Handling</title>
+      <link>https://programming.wyattau.com/function_architecture/error_handling/flashcards-error-handling</link>
+      <description>PROGRAMMING 5_function_architecture flashcards: C++ Flashcards: Error Handling. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/function_architecture/error_handling/flashcards-error-handling</guid>
+    </item>
+    <item>
+      <title>C++ Error Handling Practice (Interactive)</title>
+      <link>https://programming.wyattau.com/function_architecture/error_handling/practice-error-handling</link>
+      <description>15 auto-graded MCQ questions covering exceptions, try/catch blocks, noexcept, std::error_code, custom exception hierarchies, RAII-based error handling, and</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/function_architecture/error_handling/practice-error-handling</guid>
+    </item>
+    <item>
+      <title>Programming Notes</title>
+      <link>https://programming.wyattau.com/index</link>
+      <description>C++ systems programming notes.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>C++ Flashcards: Object-Oriented Programming</title>
+      <link>https://programming.wyattau.com/object_oriented/flashcards-oop</link>
+      <description>PROGRAMMING 6_object_oriented flashcards: C++ Flashcards: Object-Oriented Programming. Comprehensive study material with definitions, examples, and assessmen</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/object_oriented/flashcards-oop</guid>
+    </item>
+    <item>
+      <title>C++ Flashcards: Memory Management</title>
+      <link>https://programming.wyattau.com/resource_management/ownership_and_raii/flashcards-memory-management</link>
+      <description>PROGRAMMING 4_resource_management flashcards: C++ Flashcards: Memory Management. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/resource_management/ownership_and_raii/flashcards-memory-management</guid>
+    </item>
+    <item>
+      <title>C++ Memory Management Practice (Interactive)</title>
+      <link>https://programming.wyattau.com/resource_management/ownership_and_raii/practice-memory-management</link>
+      <description>15 auto-graded MCQ questions covering stack vs heap allocation, pointers, references, smart pointers, RAII, memory leaks, new/delete, sizeof, and alignment.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/resource_management/ownership_and_raii/practice-memory-management</guid>
+    </item>
+    <item>
+      <title>C++ Flashcards: Templates and Metaprogramming</title>
+      <link>https://programming.wyattau.com/templates_and_metaprogramming/flashcards-templates</link>
+      <description>PROGRAMMING 7_templates_and_metaprogramming flashcards: C++ Flashcards: Templates and Metaprogramming. Comprehensive study material with definitions,</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/templates_and_metaprogramming/flashcards-templates</guid>
+    </item>
+    <item>
+      <title>C++ Flashcards: Type System</title>
+      <link>https://programming.wyattau.com/types/flashcards-type-system</link>
+      <description>20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/types/flashcards-type-system</guid>
+    </item>
+    <item>
+      <title>C++ Types and Resource Management: Practice Problems</title>
+      <link>https://programming.wyattau.com/types/practice-types-resources</link>
+      <description>17 practice problems covering fundamental C++ concepts: types, RAII, ownership, move semantics, smart pointers, and undefined behavior.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/types/practice-types-resources</guid>
+    </item>
+    <item>
+      <title>Thread Execution (std::jthread) and Hardware Mapping</title>
+      <link>https://programming.wyattau.com/concurrency/threading_and_synchronization/threads_jthread</link>
+      <description>This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/concurrency/threading_and_synchronization/threads_jthread</guid>
+    </item>
+    <item>
+      <title>Data Races and Critical Sections</title>
+      <link>https://programming.wyattau.com/concurrency/threading_and_synchronization/data_races</link>
+      <description>This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/concurrency/threading_and_synchronization/data_races</guid>
+    </item>
+    <item>
+      <title>Mutexes, Shared Locks, and Deadlock Prevention</title>
+      <link>https://programming.wyattau.com/concurrency/threading_and_synchronization/mutexes_deadlocks</link>
+      <description>This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com/concurrency/threading_and_synchronization/mutexes_deadlocks</guid>
+    </item>
+    <item>
+      <title>Programming — Complete Guide</title>
+      <link>https://programming.wyattau.com</link>
+      <description>Deep C++ systems programming notes covering ownership, RAII, templates, concurrency, and build systems.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://programming.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

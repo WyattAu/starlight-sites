@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Security</title>
+    <link>https://security.wyattau.com</link>
+    <description>Security reference notes covering hardening, monitoring, and incident response.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://security.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://security.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Security</title>
+      <link>https://security.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://security.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://security.wyattau.com/index</link>
+      <description>Security reference notes covering hardening, monitoring, and incident response.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Security Fundamentals Practice</title>
+      <link>https://security.wyattau.com/practice-security-fundamentals</link>
+      <description>Practice exercises for security fundamentals</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/practice-security-fundamentals</guid>
+    </item>
+    <item>
+      <title>Security Fundamentals</title>
+      <link>https://security.wyattau.com/security-fundamentals/security-fundamentals</link>
+      <description>The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/security-fundamentals/security-fundamentals</guid>
+    </item>
+    <item>
+      <title>Cryptography</title>
+      <link>https://security.wyattau.com/cryptography/cryptography</link>
+      <description>Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/cryptography/cryptography</guid>
+    </item>
+    <item>
+      <title>TLS in Practice</title>
+      <link>https://security.wyattau.com/cryptography/tls-in-practice</link>
+      <description>| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/cryptography/tls-in-practice</guid>
+    </item>
+    <item>
+      <title>Authentication and Authorization</title>
+      <link>https://security.wyattau.com/authentication/authentication</link>
+      <description>Authentication and authorization fundamentals.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/authentication/authentication</guid>
+    </item>
+    <item>
+      <title>OAuth 2.0 Deep Dive</title>
+      <link>https://security.wyattau.com/authentication/oauth-deep-dive</link>
+      <description>OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/authentication/oauth-deep-dive</guid>
+    </item>
+    <item>
+      <title>API Security</title>
+      <link>https://security.wyattau.com/web-security/api-security</link>
+      <description>REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/web-security/api-security</guid>
+    </item>
+    <item>
+      <title>OWASP Top 10 (2021) Detailed</title>
+      <link>https://security.wyattau.com/web-security/owasp-top-10</link>
+      <description>Broken access control is the most critical web application security risk. It occurs when users can Act outside their intended permissions.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/web-security/owasp-top-10</guid>
+    </item>
+    <item>
+      <title>Web Security</title>
+      <link>https://security.wyattau.com/web-security/web-security</link>
+      <description>The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/web-security/web-security</guid>
+    </item>
+    <item>
+      <title>Network Security</title>
+      <link>https://security.wyattau.com/network-security/network-security</link>
+      <description>A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/network-security/network-security</guid>
+    </item>
+    <item>
+      <title>VPN and Tunneling</title>
+      <link>https://security.wyattau.com/network-security/vpn-and-tunneling</link>
+      <description>VPN and network tunneling fundamentals.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/network-security/vpn-and-tunneling</guid>
+    </item>
+    <item>
+      <title>Digital Forensics Basics</title>
+      <link>https://security.wyattau.com/incident-response/forensics</link>
+      <description>The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/incident-response/forensics</guid>
+    </item>
+    <item>
+      <title>Incident Response</title>
+      <link>https://security.wyattau.com/incident-response/incident-response</link>
+      <description>NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com/incident-response/incident-response</guid>
+    </item>
+    <item>
+      <title>Security — Complete Guide</title>
+      <link>https://security.wyattau.com</link>
+      <description>Security reference notes covering hardening, monitoring, and incident response.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://security.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Tools</title>
+    <link>https://tools.wyattau.com</link>
+    <description>Algorithms, data structures, version control, licensing, and machine learning fundamentals.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tools.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://tools.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Tools</title>
+      <link>https://tools.wyattau.com</link>
+    </image>
+    <item>
+      <title>About This Site</title>
+      <link>https://tools.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Developer Tools &amp; Knowledge</title>
+      <link>https://tools.wyattau.com/index</link>
+      <description>Developer tools and engineering fundamentals.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Algorithms Practice</title>
+      <link>https://tools.wyattau.com/practice-algorithms</link>
+      <description>Practice exercises for algorithms and data structures</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/practice-algorithms</guid>
+    </item>
+    <item>
+      <title>Complexity Analysis</title>
+      <link>https://tools.wyattau.com/algorithms/complexity-analysis/complexity-analysis</link>
+      <description>A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/complexity-analysis/complexity-analysis</guid>
+    </item>
+    <item>
+      <title>Arrays and Strings</title>
+      <link>https://tools.wyattau.com/algorithms/arrays-strings/arrays-and-strings</link>
+      <description>An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/arrays-strings/arrays-and-strings</guid>
+    </item>
+    <item>
+      <title>Hashing and Hash Tables</title>
+      <link>https://tools.wyattau.com/algorithms/arrays-strings/hashing-and-hash-tables</link>
+      <description>A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/arrays-strings/hashing-and-hash-tables</guid>
+    </item>
+    <item>
+      <title>Deques and Priority Queues</title>
+      <link>https://tools.wyattau.com/algorithms/linked-lists-stacks-queues/deques-and-priority-queues</link>
+      <description>A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO).</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/linked-lists-stacks-queues/deques-and-priority-queues</guid>
+    </item>
+    <item>
+      <title>Linked Lists, Stacks, and Queues</title>
+      <link>https://tools.wyattau.com/algorithms/linked-lists-stacks-queues/linked-lists-stacks-queues</link>
+      <description>A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/linked-lists-stacks-queues/linked-lists-stacks-queues</guid>
+    </item>
+    <item>
+      <title>Binary Search Trees and Balanced Trees</title>
+      <link>https://tools.wyattau.com/algorithms/trees-graphs/binary-search-trees</link>
+      <description>A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/trees-graphs/binary-search-trees</guid>
+    </item>
+    <item>
+      <title>Trees and Graphs</title>
+      <link>https://tools.wyattau.com/algorithms/trees-graphs/trees-and-graphs</link>
+      <description>A tree is a connected, acyclic, undirected graph. In computer science, trees are Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/trees-graphs/trees-and-graphs</guid>
+    </item>
+    <item>
+      <title>Tries and String Algorithms</title>
+      <link>https://tools.wyattau.com/algorithms/trees-graphs/trie-and-pattern-matching</link>
+      <description>A trie is a tree data structure where each node represents a character of a string. The path from The root to any node spells out a prefix, and nodes marked</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/trees-graphs/trie-and-pattern-matching</guid>
+    </item>
+    <item>
+      <title>Sorting Algorithms</title>
+      <link>https://tools.wyattau.com/algorithms/sorting/sorting</link>
+      <description>Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/sorting/sorting</guid>
+    </item>
+    <item>
+      <title>Dynamic Programming Patterns</title>
+      <link>https://tools.wyattau.com/algorithms/dynamic-programming/dp-patterns</link>
+      <description>Recognising which DP pattern applies to a problem is the key skill. This section Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/dynamic-programming/dp-patterns</guid>
+    </item>
+    <item>
+      <title>Dynamic Programming</title>
+      <link>https://tools.wyattau.com/algorithms/dynamic-programming/dynamic-programming</link>
+      <description>Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/dynamic-programming/dynamic-programming</guid>
+    </item>
+    <item>
+      <title>Greedy Algorithms</title>
+      <link>https://tools.wyattau.com/algorithms/dynamic-programming/greedy-algorithms</link>
+      <description>A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com/algorithms/dynamic-programming/greedy-algorithms</guid>
+    </item>
+    <item>
+      <title>Tools — Complete Guide</title>
+      <link>https://tools.wyattau.com</link>
+      <description>Algorithms, data structures, version control, licensing, and machine learning fundamentals.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://tools.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

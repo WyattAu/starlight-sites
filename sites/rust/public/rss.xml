@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Rust</title>
+    <link>https://rust.wyattau.com</link>
+    <description>Rust programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rust.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://rust.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Rust</title>
+      <link>https://rust.wyattau.com</link>
+    </image>
+    <item>
+      <title>Async Practice</title>
+      <link>https://rust.wyattau.com/practice-async</link>
+      <description>Rust async programming practice exercises</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/practice-async</guid>
+    </item>
+    <item>
+      <title>Ownership Practice</title>
+      <link>https://rust.wyattau.com/practice-ownership</link>
+      <description>Rust ownership and borrowing practice exercises</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/practice-ownership</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://rust.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Rust Flashcards: Fundamentals</title>
+      <link>https://rust.wyattau.com/flashcards-rust-basics</link>
+      <description>20 interactive flashcards covering core Rust concepts from ownership and borrowing to macros and unsafe. Press Space to flip, rate 1-4.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/flashcards-rust-basics</guid>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://rust.wyattau.com/index</link>
+      <description>Rust programming language notes.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Control Flow and Pattern Matching</title>
+      <link>https://rust.wyattau.com/fundamentals/control-flow</link>
+      <description>Rust</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/fundamentals/control-flow</guid>
+    </item>
+    <item>
+      <title>Types and Variables</title>
+      <link>https://rust.wyattau.com/fundamentals/types-and-variables</link>
+      <description>Rust types and variables fundamentals.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/fundamentals/types-and-variables</guid>
+    </item>
+    <item>
+      <title>Interior Mutability</title>
+      <link>https://rust.wyattau.com/ownership-borrowing/interior-mutability</link>
+      <description>Rust</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/ownership-borrowing/interior-mutability</guid>
+    </item>
+    <item>
+      <title>Lifetimes</title>
+      <link>https://rust.wyattau.com/ownership-borrowing/lifetimes</link>
+      <description>Rust</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/ownership-borrowing/lifetimes</guid>
+    </item>
+    <item>
+      <title>Ownership and Borrowing</title>
+      <link>https://rust.wyattau.com/ownership-borrowing/ownership</link>
+      <description>Rust</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/ownership-borrowing/ownership</guid>
+    </item>
+    <item>
+      <title>Advanced Struct and Enum Patterns</title>
+      <link>https://rust.wyattau.com/structs-enums/advanced-patterns</link>
+      <description>Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/structs-enums/advanced-patterns</guid>
+    </item>
+    <item>
+      <title>Structs and Enums</title>
+      <link>https://rust.wyattau.com/structs-enums/structs-and-enums</link>
+      <description>Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/structs-enums/structs-and-enums</guid>
+    </item>
+    <item>
+      <title>Error Handling Patterns</title>
+      <link>https://rust.wyattau.com/error-handling/error-handling-patterns</link>
+      <description>Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/error-handling/error-handling-patterns</guid>
+    </item>
+    <item>
+      <title>Error Handling</title>
+      <link>https://rust.wyattau.com/error-handling/error-handling</link>
+      <description>Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/error-handling/error-handling</guid>
+    </item>
+    <item>
+      <title>Traits and Generics</title>
+      <link>https://rust.wyattau.com/traits-generics/traits-and-generics</link>
+      <description>Traits are Rust</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com/traits-generics/traits-and-generics</guid>
+    </item>
+    <item>
+      <title>Rust — Complete Guide</title>
+      <link>https://rust.wyattau.com</link>
+      <description>Rust programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rust.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

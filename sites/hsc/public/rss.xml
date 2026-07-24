@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — HSC</title>
+    <link>https://hsc.wyattau.com</link>
+    <description>Free HSC study notes, revision guide, and exam preparation with worked examples</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hsc.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://hsc.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — HSC</title>
+      <link>https://hsc.wyattau.com</link>
+    </image>
+    <item>
+      <title>Mathematics Practice</title>
+      <link>https://hsc.wyattau.com/practice-mathematics</link>
+      <description>HSC Mathematics practice questions</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/practice-mathematics</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://hsc.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>HSC Physics Flashcards</title>
+      <link>https://hsc.wyattau.com/flashcards-physics</link>
+      <description>QUALIFICATIONS Hsc flashcards: HSC Physics Flashcards. Comprehensive study material with definitions, examples, and assessment tools.</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/flashcards-physics</guid>
+    </item>
+    <item>
+      <title>HSC</title>
+      <link>https://hsc.wyattau.com/index</link>
+      <description>HSC (Australia) revision notes covering Physics.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Physics Practice</title>
+      <link>https://hsc.wyattau.com/practice-physics</link>
+      <description>HSC Physics practice questions</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/practice-physics</guid>
+    </item>
+    <item>
+      <title>Inorganic</title>
+      <link>https://hsc.wyattau.com/chemistry/inorganic</link>
+      <description>HSC chemistry: Inorganic</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/chemistry/inorganic</guid>
+    </item>
+    <item>
+      <title>Organic</title>
+      <link>https://hsc.wyattau.com/chemistry/organic</link>
+      <description>HSC chemistry: Organic</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/chemistry/organic</guid>
+    </item>
+    <item>
+      <title>Diagnostic Test: Mathematics</title>
+      <link>https://hsc.wyattau.com/diagnostics/diag-mathematics</link>
+      <description>Self-assessment quiz on HSC Mathematics</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/diagnostics/diag-mathematics</guid>
+    </item>
+    <item>
+      <title>Diagnostic Test: Physics</title>
+      <link>https://hsc.wyattau.com/diagnostics/diag-physics</link>
+      <description>Self-assessment quiz on HSC Physics</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/diagnostics/diag-physics</guid>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://hsc.wyattau.com/english/reading</link>
+      <description>HSC english: Reading</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/english/reading</guid>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://hsc.wyattau.com/english/writing</link>
+      <description>HSC english: Writing</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/english/writing</guid>
+    </item>
+    <item>
+      <title>Algebra</title>
+      <link>https://hsc.wyattau.com/mathematics/algebra</link>
+      <description>HSC mathematics: Algebra</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/mathematics/algebra</guid>
+    </item>
+    <item>
+      <title>Calculus</title>
+      <link>https://hsc.wyattau.com/mathematics/calculus</link>
+      <description>HSC mathematics: Calculus</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/mathematics/calculus</guid>
+    </item>
+    <item>
+      <title>Mechanics</title>
+      <link>https://hsc.wyattau.com/physics/mechanics</link>
+      <description>HSC physics: Mechanics</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/physics/mechanics</guid>
+    </item>
+    <item>
+      <title>Waves</title>
+      <link>https://hsc.wyattau.com/physics/waves</link>
+      <description>HSC physics: Waves</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com/physics/waves</guid>
+    </item>
+    <item>
+      <title>HSC — Complete Guide</title>
+      <link>https://hsc.wyattau.com</link>
+      <description>Free HSC study notes, revision guide, and exam preparation with worked examples</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://hsc.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

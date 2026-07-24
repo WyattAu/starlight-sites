@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Ruby</title>
+    <link>https://ruby.wyattau.com</link>
+    <description>Ruby programming language notes.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ruby.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://ruby.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Ruby</title>
+      <link>https://ruby.wyattau.com</link>
+    </image>
+    <item>
+      <title>Rails Practice</title>
+      <link>https://ruby.wyattau.com/practice-rails</link>
+      <description>Ruby on Rails practice exercises</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/practice-rails</guid>
+    </item>
+    <item>
+      <title>About This Site</title>
+      <link>https://ruby.wyattau.com/about</link>
+      <description>About Wyatt</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/about</guid>
+    </item>
+    <item>
+      <title>Ruby Basics Flashcards</title>
+      <link>https://ruby.wyattau.com/flashcards-ruby-basics</link>
+      <description>Key terms for Ruby basics</description>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/flashcards-ruby-basics</guid>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://ruby.wyattau.com/index</link>
+      <description>Ruby programming language notes.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/index</guid>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://ruby.wyattau.com/intro</link>
+      <description>Introduction to ruby notes.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Introduction to Ruby</title>
+      <link>https://ruby.wyattau.com/intro/ruby-intro</link>
+      <description>Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/intro/ruby-intro</guid>
+    </item>
+    <item>
+      <title>Variables and Types</title>
+      <link>https://ruby.wyattau.com/basics/variables-and-types</link>
+      <description>Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/basics/variables-and-types</guid>
+    </item>
+    <item>
+      <title>Control Flow</title>
+      <link>https://ruby.wyattau.com/control-flow/control-flow</link>
+      <description>Ruby control flow statements and syntax.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/control-flow/control-flow</guid>
+    </item>
+    <item>
+      <title>Methods and Blocks</title>
+      <link>https://ruby.wyattau.com/methods-blocks/methods-and-blocks</link>
+      <description>Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/methods-blocks/methods-and-blocks</guid>
+    </item>
+    <item>
+      <title>Object-Oriented Programming</title>
+      <link>https://ruby.wyattau.com/oop/oop</link>
+      <description>class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/oop/oop</guid>
+    </item>
+    <item>
+      <title>Metaprogramming</title>
+      <link>https://ruby.wyattau.com/advanced/metaprogramming</link>
+      <description>Ruby metaprogramming techniques.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/advanced/metaprogramming</guid>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>https://ruby.wyattau.com/advanced/concurrency</link>
+      <description>Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/advanced/concurrency</guid>
+    </item>
+    <item>
+      <title>Ruby Practice (Basics)</title>
+      <link>https://ruby.wyattau.com/practice-ruby-basics</link>
+      <description>10 auto-graded practice problems covering core Ruby concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/practice-ruby-basics</guid>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://ruby.wyattau.com/intro</link>
+      <description>Study notes and resources for Intro</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/intro</guid>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>https://ruby.wyattau.com/basics</link>
+      <description>Study notes and resources for Basics</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com/basics</guid>
+    </item>
+    <item>
+      <title>Ruby — Complete Guide</title>
+      <link>https://ruby.wyattau.com</link>
+      <description>Ruby programming language notes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ruby.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>
