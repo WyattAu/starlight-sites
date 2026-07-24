@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Mechanics -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false

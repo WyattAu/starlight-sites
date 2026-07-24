@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: TCP and UDP
 description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,"
 tags:

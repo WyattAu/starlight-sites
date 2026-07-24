@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Waves -- Diagnostic Tests"
 description: "(a) Define the terms: amplitude, wavelength, frequency, and period. State the relationship between frequency, wavelength, and wave speed. (b) A wave has a"
 tableOfContents: false

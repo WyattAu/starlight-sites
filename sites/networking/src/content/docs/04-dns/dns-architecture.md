@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: DNS Architecture and Operations
 description: "DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive"
 tags:

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Cell Biology -- Diagnostic Tests"
 description: "(a) Draw a labelled diagram of an animal cell and a plant cell, identifying at least 5 structures in each. (b) Create a comparison table of plant and animal"
 tableOfContents: false

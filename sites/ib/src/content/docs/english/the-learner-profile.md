@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "The IB Learner Profile in English"
 description: "Characteristics of an IB English learner, approaches to learning (ATL) skills for English, reflective writing, intellectual honesty, and CAS connections."
 sidebar_position: 13

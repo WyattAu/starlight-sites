@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: IB Psychology (SL/HL)
 description: "IB Psychology is a Group 3 subject (Individuals and Societies) that examines how biological, cognitive, and sociocultural factors interact to shape human"
 

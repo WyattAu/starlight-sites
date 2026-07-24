@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Processes and Signals
 description: "Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The"
 

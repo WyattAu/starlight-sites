@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Interior Mutability
 description: "Rust' s borrowing rules state that a shared reference () is immutable — you cannot modify the Data through it. This is a compile-time guarantee that prevents"
 

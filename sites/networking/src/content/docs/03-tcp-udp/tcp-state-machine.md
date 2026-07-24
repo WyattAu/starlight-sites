@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: TCP State Machine
 description: "The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of"
 tags:

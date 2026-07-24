@@ -1,4 +1,5 @@
 ---
+date: 2026-07-23T14:42:26+01:00
 title: IB Theory of Knowledge (TOK)
 description: Complete IB Theory of Knowledge guide covering knowledge questions, ways of knowing, and areas of knowledge.
 ---

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "A-Level Biology -- Diagnostic Test Guide"
 description: "These diagnostic tests target the most challenging content within the A-Level Biology specification. Each topic file contains (single-topic depth) and"
 tableOfContents: false

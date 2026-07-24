@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: UDP Deep Dive
 description: "UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees."
 tags:

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Climate Change
 description: "This section covers the IB Geography core extension on global climate -- vulnerability and resilience. It examines the physical and human dimensions of"
 

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Introduction to Security
 description: "Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated"
 

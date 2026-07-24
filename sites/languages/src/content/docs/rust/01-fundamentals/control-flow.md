@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Control Flow and Pattern Matching
 description: "Rust' s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression — it"
 

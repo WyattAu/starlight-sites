@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Economic Development
 description: "This section covers the IB Geography optional theme on economic development. It examines the nature of economic development at a variety of scales, the ways"
 

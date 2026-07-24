@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "IB Paper 1 Unseen Poetry Practice: Seamus Heaney's Digging"
 description: "Close reading analysis of Seamus Heaney's 'Digging' for IB English Paper 1. Model answer with examiner commentary, annotated rubric alignment, and structural and thematic analysis."
 sidebar_position: 10

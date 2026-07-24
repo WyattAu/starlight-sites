@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Performance Tuning"
 description: "Self-assessment quiz on performance tuning"
 sidebar_position: 60

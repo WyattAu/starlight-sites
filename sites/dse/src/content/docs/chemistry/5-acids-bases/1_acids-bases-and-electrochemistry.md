@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Chemistry - Acids, Bases, and Electrochemistry
 description: "Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls."
 

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-23T13:50:43+01:00
 title: Machine Learning Deep Dive
 description: Comprehensive machine learning guide covering algorithms, neural networks, and practical applications.
 ---

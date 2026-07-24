@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Shell Basics
 description: "A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which"
 

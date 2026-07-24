@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Introduction to Networking
 description: "Every system you operate, deploy, or debug depends on networking. A container cannot reach its Database, a service returns 502 errors, DNS resolution stalls"
 tags:

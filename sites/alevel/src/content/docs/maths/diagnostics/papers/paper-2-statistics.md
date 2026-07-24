@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
 description: "Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false

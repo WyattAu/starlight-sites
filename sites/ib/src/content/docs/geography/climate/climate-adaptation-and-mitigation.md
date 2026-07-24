@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Climate Adaptation and Mitigation
 description: "refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation"
 

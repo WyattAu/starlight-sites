@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Current Electricity"
 description: "CBSE Class 12 physics: Current electricity with Ohm's law, circuits, and worked examples."
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Probability"
 description: "CBSE Class 12 mathematics: Conditional probability, Bayes' theorem, random variables, and worked examples."
 ---

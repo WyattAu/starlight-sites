@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: TrueNAS Performance Tuning
 description: "The Adaptive Replacement Cache (ARC) is ZFS' s primary read cache, stored in system RAM. It uses an Algorithm that maintains two lists:"
 

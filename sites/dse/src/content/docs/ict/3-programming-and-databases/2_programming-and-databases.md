@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: ICT - Programming and Databases
 description: "A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble"
 

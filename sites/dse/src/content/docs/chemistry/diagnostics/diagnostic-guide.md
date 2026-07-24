@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "DSE Chemistry Diagnostic Tests -- Guide"
 description: "These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate"
 tableOfContents: false

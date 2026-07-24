@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "IB Paper 1 Unseen Poetry Practice: Derek Walcott's A Far Cry from Africa"
 description: "Close reading analysis of Derek Walcott's 'A Far Cry from Africa' for IB English Paper 1. Postcolonial themes, formal verse, cultural tension, and examiner tips for higher marks."
 sidebar_position: 12

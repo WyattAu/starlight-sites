@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Biology - Cell Biology and Biochemistry
 description: "1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise"
 

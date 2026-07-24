@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Cell Biology -- Diagnostic Tests"
 description: "IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 tableOfContents: false

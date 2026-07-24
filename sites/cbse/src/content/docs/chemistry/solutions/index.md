@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Solutions"
 description: "CBSE Class 12 chemistry: Solutions with colligative properties, Raoult's law, and worked examples."
 ---

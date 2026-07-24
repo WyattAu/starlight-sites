@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Periodicity -- Diagnostic Tests"
 description: "IB Chemistry Periodicity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false

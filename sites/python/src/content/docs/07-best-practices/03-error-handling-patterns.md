@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Error Handling Patterns
 description: "Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers."
 

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-23T14:42:26+01:00
 title: AP Computer Science Principles
 description: Comprehensive guide to AP Computer Science Principles covering computational thinking, programming, and digital information.
 ---

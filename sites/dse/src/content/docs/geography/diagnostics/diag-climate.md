@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Climate"
 description: "Self-assessment quiz on climate systems and Hong Kong climate"
 sidebar_position: 11

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Population and Migration
 description: "Demographic transition model, population pyramids, migration patterns, ageing population, fertility trends, and government policy responses for DSE Geography."
 sidebar_position: 5

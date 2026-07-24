@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Packaging and Distribution
 description: "is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata)."
 

@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Alcohols, Phenols, and Ethers"
 description: "CBSE Class 12 chemistry: Classification, reactions, and worked examples."
 ---

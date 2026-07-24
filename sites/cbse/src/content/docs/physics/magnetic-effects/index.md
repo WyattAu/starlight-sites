@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Magnetic Effects of Current and Magnetism"
 description: "CBSE Class 12 physics: Magnetic effects of current with Biot-Savart law, Ampere's law, and worked examples."
 ---

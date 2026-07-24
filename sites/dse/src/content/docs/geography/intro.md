@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: DSE Geography
 description: "Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style"
 tableOfContents: false

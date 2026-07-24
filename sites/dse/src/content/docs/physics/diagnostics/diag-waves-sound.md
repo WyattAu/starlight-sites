@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Waves and Sound -- Diagnostic Tests"
 description: "DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false

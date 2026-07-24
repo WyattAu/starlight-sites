@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Package Management
 description: "A Linux package is an archive containing compiled software, configuration files, metadata (version, Description, dependencies), and install/uninstall"
 

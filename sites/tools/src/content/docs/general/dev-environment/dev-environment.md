@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Development Environment Setup
 description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling and proper Unicode support."
 ---

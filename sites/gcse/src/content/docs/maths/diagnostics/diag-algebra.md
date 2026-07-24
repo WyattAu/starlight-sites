@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Algebra -- Diagnostic Tests"
 description: "(a) Solve . (b) Solve by factorisation. (c) Solve using the quadratic formula. (d) Solve the inequality and represent the solution on a number line."
 tableOfContents: false

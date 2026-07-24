@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "IB Paper 1 Unseen Poetry Practice: Sylvia Plath's Mirror"
 description: "Close reading analysis of Sylvia Plath's 'Mirror' for IB English Paper 1. Imagery, tone shifts, personification, comparison with Heaney's 'Digging', and self-assessment checklist."
 sidebar_position: 11

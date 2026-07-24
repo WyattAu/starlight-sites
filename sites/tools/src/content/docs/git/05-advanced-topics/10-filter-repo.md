@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Filter-Repo (History Rewriting)
 description: "is a Python-based tool for rewriting Git repository history. It is the modern, Recommended replacement for Which has been deprecated since Git 2.24"
 

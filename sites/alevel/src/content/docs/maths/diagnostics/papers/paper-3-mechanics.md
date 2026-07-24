@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Paper 3 -- Mechanics -- Full Diagnostic Exam"
 description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false

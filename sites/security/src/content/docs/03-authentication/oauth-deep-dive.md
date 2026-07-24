@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: OAuth 2.0 Deep Dive
 description: "OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user' s resources on a resource server"
 

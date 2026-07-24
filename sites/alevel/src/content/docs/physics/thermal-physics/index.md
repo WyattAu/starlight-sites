@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: Thermal Physics
 description: "A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision."
 ---

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: NoSQL Databases
 description: "NoSQL databases and the CAP theorem."
 tags:

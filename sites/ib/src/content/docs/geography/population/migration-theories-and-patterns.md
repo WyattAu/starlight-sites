@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Migration Theories and Patterns
 description: "Migration is the movement of people from one place to another with the intention of settling, Permanently or temporarily, in the new location. Migration can"
 

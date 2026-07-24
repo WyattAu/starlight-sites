@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Freshwater Issues
 description: "This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It examines the hydrological cycle, the characteristics and"
 

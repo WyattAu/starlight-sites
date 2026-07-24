@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Industrial Location and Economic Development
 description: "Economic development in East Asia, core-periphery models, globalisation, Belt and Road Initiative, and Hong Kong's economic transition for DSE Geography."
 sidebar_position: 4

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Introduction to Licensing
 description: "Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the"
 

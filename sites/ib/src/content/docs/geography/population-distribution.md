@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Population Distribution
 description: "This section covers the IB Geography core extension on population distribution -- changing population. It examines the factors that influence where people"
 

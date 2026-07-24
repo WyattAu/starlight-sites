@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: 算法导论
 description: '算法是有限条明确定义的指令序列，接受输入并产生输出。这个定义看似简单。实际上，"产生正确答案的算法"和"产生正确答案且足够快以产生实际价值的算法"之间的差距，正 Comprehensive educational content coverage with definitions and practice proble'
 ---

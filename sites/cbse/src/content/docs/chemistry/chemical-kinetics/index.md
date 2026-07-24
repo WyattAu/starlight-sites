@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Chemical Kinetics"
 description: "CBSE Class 12 chemistry: Chemical kinetics with rate laws, order of reaction, and worked examples."
 ---

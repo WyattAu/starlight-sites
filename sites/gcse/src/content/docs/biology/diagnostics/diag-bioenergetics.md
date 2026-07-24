@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Bioenergetics -- Diagnostic Tests"
 description: "(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface"
 tableOfContents: false

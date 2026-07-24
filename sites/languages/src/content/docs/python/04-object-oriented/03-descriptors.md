@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Descriptors and Properties
 description: "Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or ."
 

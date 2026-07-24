@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Cron and Task Scheduling
 description: "The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for"
 

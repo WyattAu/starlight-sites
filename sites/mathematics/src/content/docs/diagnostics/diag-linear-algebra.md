@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Linear Algebra"
 description: "Self-assessment quiz on linear algebra"
 sidebar_position: 60

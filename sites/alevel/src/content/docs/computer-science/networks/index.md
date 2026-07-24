@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: Networks
 description: 'A-Level Computer Science Networks notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
 ---

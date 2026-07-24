@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Measuring Development
 description: "Development is a multidimensional concept encompassing economic progress, social well-being, Environmental sustainability, political freedom, and quality of"
 

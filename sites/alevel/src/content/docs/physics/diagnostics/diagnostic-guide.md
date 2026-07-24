@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: A-Level Physics Diagnostic Guide
 description: "This diagnostic suite contains 20 topic-level tests for A-Level Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3"
 tableOfContents: false

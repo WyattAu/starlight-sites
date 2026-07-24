@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Demand, Supply, and Equilibrium -- Diagnostic Tests"
 description: "A-Level Economics Demand, Supply, and Equilibrium -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

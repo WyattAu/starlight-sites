@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "National Income and Macroeconomic Indicators -- Diagnostic Tests"
 description: "DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
 tableOfContents: false

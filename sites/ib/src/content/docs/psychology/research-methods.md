@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Research Methods in Psychology
 description: "Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology"
 

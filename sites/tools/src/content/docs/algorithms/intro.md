@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Introduction to Algorithms
 description: "An algorithm is a finite sequence of well-defined instructions that takes an input and produces an Output. This definition is deceptively simple. In"
 

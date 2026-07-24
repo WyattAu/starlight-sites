@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Journal and Logging
 description: "is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format."
 

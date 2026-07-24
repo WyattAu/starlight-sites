@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Dicts, Sets, and Collections Deep Dive
 description: "Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in"
 

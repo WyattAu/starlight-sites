@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Population Policies
 description: "Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target"
 

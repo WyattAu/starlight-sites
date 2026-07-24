@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Wrap Up
 description: "This page provides a summary of key concepts across all five thematic areas of IB Physics and strategies for final revision."
 ---

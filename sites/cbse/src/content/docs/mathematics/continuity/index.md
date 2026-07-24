@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Continuity and Differentiability"
 description: "CBSE Class 12 mathematics: Continuity, differentiability, chain rule, and worked examples."
 ---

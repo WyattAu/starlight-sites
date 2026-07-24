@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Maclaurin and Taylor Series -- Diagnostic Tests"
 description: "A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

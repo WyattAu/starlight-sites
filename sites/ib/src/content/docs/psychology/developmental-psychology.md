@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Developmental Psychology
 description: "Developmental psychology examines how behaviour and mental processes change across the lifespan. In the IB Psychology course, this is an applied option"
 

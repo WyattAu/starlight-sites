@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Matrices"
 description: "CBSE Class 12 mathematics: Matrices with operations, determinants, inverse, and worked examples."
 ---

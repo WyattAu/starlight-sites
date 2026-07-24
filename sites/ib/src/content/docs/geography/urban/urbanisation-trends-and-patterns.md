@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Urbanisation Trends and Patterns
 description: "Urbanisation is the increasing proportion of a national population living in urban areas. The global Urban population exceeded the rural population for the"
 

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Cognitive Development
 description: "Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and Understanding that occur from infancy through"
 

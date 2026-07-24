@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: HTTP
 description: "HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents"
 tags:

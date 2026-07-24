@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Atomic Structure and Atomic Theory -- Diagnostic Tests"
 description: "IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

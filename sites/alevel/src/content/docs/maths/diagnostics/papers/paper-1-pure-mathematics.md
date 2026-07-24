@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Paper 1 -- Pure Mathematics -- Full Diagnostic Exam"
 description: "120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 tableOfContents: false

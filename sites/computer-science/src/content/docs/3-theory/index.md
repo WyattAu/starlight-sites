@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: Theory
 description: "Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how"
 ---

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Urban Planning and Sustainability
 description: "Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their"
 

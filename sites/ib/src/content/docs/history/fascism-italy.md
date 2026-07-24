@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Fascist Italy
 description: "IB History coverage of Fascist Italy: Mussolini's rise to power, Doctrine of Fascism, corporatism, foreign policy, social policies, and comparisons with Nazi Germany and Stalinist USSR."
 sidebar_position: 22

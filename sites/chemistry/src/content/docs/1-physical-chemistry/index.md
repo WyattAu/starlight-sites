@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: Physical Chemistry
 description: 'Topics in physical chemistry including thermodynamics, kinetics, quantum chemistry, and spectroscopy with worked examples.'
 ---

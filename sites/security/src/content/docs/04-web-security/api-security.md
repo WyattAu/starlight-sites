@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: API Security
 description: "REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain"
 

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Number and Algebra -- Diagnostic Tests"
 description: "IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false

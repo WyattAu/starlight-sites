@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Electric charge"
 description: "CBSE Class 12 physics: Electric charge with Coulomb's law, superposition principle, and worked examples."
 ---

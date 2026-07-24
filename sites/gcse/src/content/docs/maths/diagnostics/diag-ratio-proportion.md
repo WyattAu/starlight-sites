@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Ratio, Proportion, and Rates of Change -- Diagnostic Tests"
 description: "(a) Divide in the ratio 2:3:7. (b) The ratio of boys to girls in a class is 5:3. If there are 15 girls, how many boys are there? (c) A recipe for 6 people"
 tableOfContents: false

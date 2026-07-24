@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Forces and Newton's Laws -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for forces an Comprehensive educational content coverage with definitions and practice proble"
 tableOfContents: false

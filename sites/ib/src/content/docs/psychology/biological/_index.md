@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Biological Level of Analysis
 description: "This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and"
 

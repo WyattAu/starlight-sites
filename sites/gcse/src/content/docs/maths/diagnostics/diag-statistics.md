@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Statistics -- Diagnostic Tests"
 description: "The grouped frequency table shows the marks of 60 students in a maths test: Comprehensive educational content coverage with definitions and practice problems."
 tableOfContents: false

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: TLS Internals
 description: "This document goes deeper into TLS internals than the TLS fundamentals document, covering the record Layer architecture, detailed handshake message formats"
 tags:

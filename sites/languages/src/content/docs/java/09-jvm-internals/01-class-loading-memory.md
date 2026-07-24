@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Class Loading and Memory Model
 description: "Java class loading and memory model."
 categories: ["java"]

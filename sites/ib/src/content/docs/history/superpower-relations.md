@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Cold War Superpower Relations
 description: "IB History coverage of Cold War superpower relations: origins, Berlin crises, arms race, detente, Gorbachev's reforms, end of the Cold War, and impact on international relations post-1991."
 sidebar_position: 23

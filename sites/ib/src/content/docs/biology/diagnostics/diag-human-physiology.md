@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Human Physiology -- Diagnostic Tests"
 description: "IB Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 tableOfContents: false

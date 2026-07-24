@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Protocols and Dunder Methods
 description: "Python' s data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not"
 

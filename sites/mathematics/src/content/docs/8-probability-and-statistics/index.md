@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: Probability Theory
 description: 'UNIVERSITY Mathematics notes: Probability Theory. Comprehensive study material with definitions, examples, and assessment tools.'
 tags:

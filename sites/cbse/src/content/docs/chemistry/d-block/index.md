@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "D-Block Elements"
 description: "CBSE Class 12 chemistry: Transition metals, properties, compounds, and worked examples."
 ---

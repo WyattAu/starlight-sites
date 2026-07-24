@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Chemistry in Everyday Life"
 description: "CBSE Class 12 chemistry: Drugs, food additives, cleansing agents, and their chemistry."
 ---

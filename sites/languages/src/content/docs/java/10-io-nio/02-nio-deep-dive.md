@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: NIO Deep Dive
 description: "(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O"
 

@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Introduction to Databases
 description: "Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts, "
 tags:

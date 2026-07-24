@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Memory Tuning
 description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error"
 

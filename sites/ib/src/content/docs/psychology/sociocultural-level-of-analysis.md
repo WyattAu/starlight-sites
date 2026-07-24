@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Sociocultural Level of Analysis
 description: "The sociocultural level of analysis (SCLOA) investigates how the social environment and cultural context influence behaviour. It is based on the principle"
 

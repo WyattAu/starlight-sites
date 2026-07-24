@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Introduction to TrueNAS
 description: "Reference for deploying and managing TrueNAS (CORE and SCALE), covering ZFS pool design, dataset Permissions, SMB/NFS sharing, snapshots, replication,"
 

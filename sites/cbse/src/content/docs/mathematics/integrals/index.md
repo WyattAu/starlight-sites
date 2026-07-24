@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Integrals"
 description: "CBSE Class 12 mathematics: Integrals with integration techniques, definite integrals, and worked examples."
 ---

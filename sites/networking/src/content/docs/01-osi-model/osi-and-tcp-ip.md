@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: OSI and TCP/IP Models
 description: "Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help"
 tags:

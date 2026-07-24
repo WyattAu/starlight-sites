@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Types of relations"
 description: "CBSE Class 12 mathematics: Types of relations with reflexive, symmetric, transitive properties and worked examples."
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Atoms and Nuclei"
 description: "CBSE Class 12 physics: Atomic models, nuclear physics, radioactivity, and worked examples."
 ---

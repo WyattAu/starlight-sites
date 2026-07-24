@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Backup and Replication
 description: "The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 

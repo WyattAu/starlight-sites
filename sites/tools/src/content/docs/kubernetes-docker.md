@@ -1,4 +1,5 @@
 ---
+date: 2026-07-23T13:50:43+01:00
 title: Kubernetes and Docker
 description: Complete guide to container orchestration with Kubernetes and Docker for modern DevOps.
 ---

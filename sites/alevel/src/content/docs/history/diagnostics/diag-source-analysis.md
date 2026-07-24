@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Source Analysis"
 description: "Self-assessment quiz on A-Level History source analysis"
 sidebar_position: 30

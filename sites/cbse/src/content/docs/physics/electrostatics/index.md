@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Electrostatics"
 description: "CBSE Class 12 physics: Electrostatics with Coulomb's law, electric fields, Gauss's law, and worked examples."
 ---

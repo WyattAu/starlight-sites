@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Style and Patterns
 description: "Java style guide and design patterns."
 categories: ["java"]

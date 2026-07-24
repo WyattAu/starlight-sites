@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Capacitance -- Diagnostic Tests"
 description: "A-Level Physics Capacitance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 tableOfContents: false

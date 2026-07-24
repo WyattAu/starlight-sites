@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Build Tools and Dependency Management
 description: "Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble"
 

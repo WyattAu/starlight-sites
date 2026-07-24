@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Chemistry - Atomic Structure and Bonding
 description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |"
 

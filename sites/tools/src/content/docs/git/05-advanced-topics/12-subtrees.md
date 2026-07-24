@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Git Subtrees
 description: "merges a repository into a subdirectory of another repository. Unlike submodules, Which maintain a reference to an external repository, subtrees embed the"
 

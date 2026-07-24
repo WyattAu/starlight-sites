@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "IB Language and Literature Course Overview"
 description: "Comprehensive overview of IB Language and Literature: Paper 1, Paper 2, HL Essay, Individual Oral, assessment weightings, key differences from English A Literature, and study strategies."
 sidebar_position: 14

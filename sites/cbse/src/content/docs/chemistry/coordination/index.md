@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Coordination Compounds"
 description: "CBSE Class 12 chemistry: Werner's theory, IUPAC naming, isomerism, and worked examples."
 ---

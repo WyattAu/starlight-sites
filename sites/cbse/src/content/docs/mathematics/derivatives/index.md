@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "Derivatives"
 description: "CBSE Class 12 mathematics: Derivatives with differentiation rules, chain rule, and worked examples."
 ---

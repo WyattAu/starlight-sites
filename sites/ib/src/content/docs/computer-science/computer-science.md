@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Computer Science
 description: "- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the"
 

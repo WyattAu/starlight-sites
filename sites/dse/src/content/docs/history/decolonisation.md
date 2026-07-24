@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Decolonisation and the Path to 1997"
 description: "Decolonisation movements post-WWII, Indian independence, Indonesian and Vietnamese decolonisation, African decolonisation, impact on Hong Kong, and the Sino-British Joint Declaration."
 sidebar_position: 5

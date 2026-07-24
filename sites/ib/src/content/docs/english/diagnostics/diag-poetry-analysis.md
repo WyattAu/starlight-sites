@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Poetry Analysis"
 description: "Self-assessment quiz on IB English poetry analysis skills"
 sidebar_position: 30

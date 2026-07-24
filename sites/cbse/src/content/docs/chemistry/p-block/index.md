@@ -1,6 +1,7 @@
 ---
 
 
+date: 2026-07-23T21:57:32+01:00
 title: "P-Block Elements"
 description: "CBSE Class 12 chemistry: Group 15, 16, 17, and 18 elements with properties and worked examples."
 ---

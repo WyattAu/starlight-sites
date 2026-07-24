@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: IB History Independent Study
 description: "Guide to the IB History Extended Essay and Internal Assessment: choosing a research question, methodology, source evaluation, historiographical analysis, essay structure, supervisor meetings, and common pitfalls."
 sidebar_position: 24

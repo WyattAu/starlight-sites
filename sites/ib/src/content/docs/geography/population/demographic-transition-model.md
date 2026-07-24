@@ -1,5 +1,6 @@
 ---
 
+date: 2026-07-23T21:57:32+01:00
 title: Demographic Transition Model
 description: "The demographic transition model (DTM) describes the shift from high birth rates and high death Rates to low birth rates and low death rates as a country"
 
