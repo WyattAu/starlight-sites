@@ -283,6 +283,30 @@ export function generateImageObjectSchema(props: ImageObjectSchemaProps) {
   }
 }
 
+export interface PersonSchemaProps {
+  name?: string
+  url?: string
+  jobTitle?: string
+  knowsAbout?: string[]
+  sameAs?: string[]
+}
+
+/**
+ * Generate Person schema.org structured data.
+ * Use for author/creator attribution (E-E-A-T).
+ */
+export function generatePersonSchema(props: PersonSchemaProps = {}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: props.name ?? 'Wyatt',
+    url: props.url ?? 'https://wyattau.com',
+    jobTitle: props.jobTitle ?? 'Educator & Content Developer',
+    knowsAbout: props.knowsAbout ?? ['Education', 'Study Methods', 'Exam Preparation'],
+    sameAs: props.sameAs ?? ['https://github.com/WyattAu'],
+  }
+}
+
 export interface SoftwareSourceCodeSchemaProps {
   name: string
   description: string

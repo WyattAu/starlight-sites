@@ -11,6 +11,7 @@ import {
   generateSoftwareSourceCodeSchema,
   generateVideoObjectSchema,
   generateWebSiteSchema,
+  generatePersonSchema,
 } from '../../utils/jsonld'
 
 const { starlightRoute } = Astro.locals;
@@ -184,6 +185,7 @@ const courseSchema = hasCourse
 const videoSchema = hasVideo ? generateVideoObjectSchema(entry.data.video) : null
 const imageSchema = hasImage ? generateImageObjectSchema(entry.data.image) : null
 const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) : null
+const personSchema = generatePersonSchema()
 ---
 
 <!-- Page speed: preconnect to external origins -->
@@ -375,6 +377,7 @@ const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) :
 {videoSchema && <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />}
 {imageSchema && <script type="application/ld+json" set:html={JSON.stringify(imageSchema)} />}
 {codeSchema && <script type="application/ld+json" set:html={JSON.stringify(codeSchema)} />}
+<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="Wyatt's Notes RSS" href="/rss.xml" />
