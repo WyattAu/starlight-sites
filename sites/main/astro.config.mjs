@@ -9,7 +9,7 @@ export default defineConfig({
   site: 'https://wyattsnotes.wyattau.com',
   output: 'static',
   integrations: [
-    mdx({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }),
+    mdx(),
     solidJs(),
     sitemap(),
     compress(),
