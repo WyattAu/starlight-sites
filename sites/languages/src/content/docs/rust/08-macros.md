@@ -1663,9 +1663,9 @@ linked above.
 
 ## Cross-References
 
-- [Rust Ownership and Borrowing](../02-ownership-borrowing) -- Ownership rules are enforced at compile time, while macros operate on the syntax tree before type checking.
-- [Rust Traits](../06-traits) -- Derive macros automatically generate trait implementations, reducing boilerplate.
-- [Rust Generics](../05-generics) -- Generic functions and trait bounds work alongside macros for type-safe code generation.
-- [Rust Error Handling](../04-error-handling) -- Procedural macros can generate error handling boilerplate for custom error types.
+- [Rust Ownership and Borrowing](02-ownership-borrowing/ownership) -- Ownership rules are enforced at compile time, while macros operate on the syntax tree before type checking.
+- [Rust Traits](../../../../../programming/src/content/docs/templates_and_metaprogramming/3_compile_time_computation/4_type_traits) -- Derive macros automatically generate trait implementations, reducing boilerplate.
+- [Rust Generics](../../../../../kotlin/src/content/docs/intermediate/generics) -- Generic functions and trait bounds work alongside macros for type-safe code generation.
+- [Rust Error Handling](../../../../../dart/src/content/docs/08-error-handling) -- Procedural macros can generate error handling boilerplate for custom error types.
 
 </aside>

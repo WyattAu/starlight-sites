@@ -1409,6 +1409,6 @@ linked above.
 ## Cross-References
 
 - [Dart State Management](../10-state-management/01-state-management) -- Navigation state must be managed alongside application state for consistent user experience.
-- [Dart Widgets](02-widgets) -- Navigation relies on the widget tree and build context to manage screen transitions.
-- [Dart Asynchronous Programming](../08-asynchronous/01-async) -- Asynchronous data loading often accompanies navigation between screens.
-- [Dart Classes and Objects](../04-classes-and-objects/01-classes) -- Route arguments and parameters are passed as objects between navigated screens.
+- [Dart Widgets](../../../../../../dart/src/content/docs/09-flutter-fundamentals/02-widgets-and-lifecycle) -- Navigation relies on the widget tree and build context to manage screen transitions.
+- [Dart Asynchronous Programming](../../../../../../dart/src/content/docs/05-async/01-async-and-futures) -- Asynchronous data loading often accompanies navigation between screens.
+- [Dart Classes and Objects](../../../../../../java/src/content/docs/03-object-oriented/01-classes) -- Route arguments and parameters are passed as objects between navigated screens.

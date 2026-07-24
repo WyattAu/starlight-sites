@@ -360,6 +360,6 @@ linked above.
 
 ## Cross-References
 
-- [IB Physics Index](/ib/physics/) provides a structured overview linking to all syllabus topics with detailed notes.
-- [Mechanics](/ib/physics/1-space-time-and-motion/1_kinematics) covers the foundational kinematics and dynamics topics in Thematic Area A.
-- [Wrap Up](/ib/physics/wrap-up) provides a summary and revision strategy aligned to this syllabus structure.
+- [IB Physics Index](physics) provides a structured overview linking to all syllabus topics with detailed notes.
+- [Mechanics](../../../../../ap/src/content/docs/physics/1-kinematics/1_kinematics) covers the foundational kinematics and dynamics topics in Thematic Area A.
+- [Wrap Up](wrap-up) provides a summary and revision strategy aligned to this syllabus structure.

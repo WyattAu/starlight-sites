@@ -82,10 +82,10 @@ identify gaps.
 
 ## Cross-References
 
-- [Mechanics](./mechanics/01-mechanics.md) — Kinematics, dynamics, and momentum form the foundation of classical mechanics.
-- [Waves](./waves/01-waves.md) — Progressive and stationary waves, interference, and diffraction describe oscillatory phenomena.
-- [Electricity](./electricity/01-electricity.md) — Current, resistance, and DC circuits are central to understanding electrical systems.
-- [Fields](./fields/06-fields.md) — Gravitational, electric, and magnetic fields unify the forces acting at a distance.
+- [Mechanics](../../../../../hsc/src/content/docs/physics/mechanics) — Kinematics, dynamics, and momentum form the foundation of classical mechanics.
+- [Waves](../../../../../hsc/src/content/docs/physics/waves) — Progressive and stationary waves, interference, and diffraction describe oscillatory phenomena.
+- [Electricity](../../../../../gaokao/src/content/docs/physics/electricity) — Current, resistance, and DC circuits are central to understanding electrical systems.
+- [Fields](diagnostics/diag-electric-fields) — Gravitational, electric, and magnetic fields unify the forces acting at a distance.
 
 ### Key Exam Board Differences
 

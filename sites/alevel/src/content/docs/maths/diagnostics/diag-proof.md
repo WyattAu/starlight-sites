@@ -463,4 +463,4 @@ The smallest counterexample is $n = 4$: $4^2 + 4 + 1 = 21$Which is not prime.
 
 - **[Pure Mathematics](../flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
 - **[Mechanics](../practice-mechanics):** Mechanics applies maths to physical problems
-- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods
+- **[Statistics](../../further-maths/flashcards-further-statistics):** Statistics develops data analysis methods

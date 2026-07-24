@@ -868,6 +868,6 @@ GenServer is like a waiter in a restaurant. Customers (callers) place orders (ca
 
 ## Cross-References
 
-- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How behaviours and protocols define the interfaces that GenServer and supervisors implement
-- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - How pattern matching handles incoming messages in receive blocks
-- [Testing and Deployment](/elixir/04-advanced/2_testing-and-deployment) - How to test GenServer processes and supervise test environments
+- [Functions and Modules](../02-functions-modules/1_functions-and-modules) - How behaviours and protocols define the interfaces that GenServer and supervisors implement
+- [Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching) - How pattern matching handles incoming messages in receive blocks
+- [Testing and Deployment](../04-advanced/2_testing-and-deployment) - How to test GenServer processes and supervise test environments

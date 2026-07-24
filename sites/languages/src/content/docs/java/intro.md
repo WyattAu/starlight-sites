@@ -158,6 +158,6 @@ Java is the language of "write once, run anywhere." It compiles to bytecode that
 
 ## Cross-References
 
-- [Types and Variables](/languages/java/02-fundamentals/01-types-and-variables)
-- [Classes](/languages/java/03-object-oriented/01-classes)
-- [Collections Framework](/languages/java/04-collections/01-collections-framework)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)
+- [Collections Framework](../../../../../java/src/content/docs/04-collections/01-collections-framework)

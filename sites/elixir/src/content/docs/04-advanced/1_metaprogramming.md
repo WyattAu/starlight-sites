@@ -758,6 +758,6 @@ Hygiene is like having name tags at a party. When a macro creates a variable cal
 
 ## Cross-References
 
-- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How the `use` macro and module attributes connect to metaprogramming
-- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How metaprogramming reduces boilerplate in GenServer and supervisor definitions
-- [Testing and Deployment](/elixir/04-advanced/2_testing-and-deployment) - How macros and DSLs are tested with ExUnit and property-based testing
+- [Functions and Modules](../02-functions-modules/1_functions-and-modules) - How the `use` macro and module attributes connect to metaprogramming
+- [Concurrency and OTP](../03-concurrency/1_concurrency-otp) - How metaprogramming reduces boilerplate in GenServer and supervisor definitions
+- [Testing and Deployment](2_testing-and-deployment) - How macros and DSLs are tested with ExUnit and property-based testing

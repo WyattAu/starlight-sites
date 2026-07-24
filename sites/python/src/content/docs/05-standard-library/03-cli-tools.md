@@ -1191,6 +1191,6 @@ Building command-line tools in Python is straightforward with `argparse` for arg
 
 ## Cross-References
 
-- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
-- [File I/O](/python/05-standard-library/02-file-io)
-- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
+- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)
+- [File I/O](../../../../../languages/src/content/docs/python/05-standard-library/02-file-io)
+- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)

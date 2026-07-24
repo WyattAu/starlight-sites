@@ -634,10 +634,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- [Database Design](/databases/06-database-design/database-design) - How migration strategies differ across schema design approaches
-- [Transactions and Concurrency](/databases/04-transactions/transactions) - Why zero-downtime migrations require careful transaction handling
-- [Locking and Deadlocks](/databases/04-transactions/locking-and-deadlocks) - How DDL locks during migrations can block concurrent operations
-- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - Concurrent index creation and its impact on migration safety
+- [Database Design](database-design) - How migration strategies differ across schema design approaches
+- [Transactions and Concurrency](../04-transactions/transactions) - Why zero-downtime migrations require careful transaction handling
+- [Locking and Deadlocks](../04-transactions/locking-and-deadlocks) - How DDL locks during migrations can block concurrent operations
+- [Indexing and Optimization](../03-indexing-optimization/indexing) - Concurrent index creation and its impact on migration safety
 
 ## Worked Examples
 

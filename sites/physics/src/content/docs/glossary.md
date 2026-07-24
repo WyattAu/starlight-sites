@@ -139,8 +139,8 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Mechanics Problems](/physics/mechanics/)
-- [Thermodynamics Examples](/physics/thermodynamics/)
-- [Electromagnetism Guide](/physics/electromagnetism/)
-- [Quantum Physics Overview](/physics/quantum/)
-- [Relativity Introduction](/physics/relativity/)
+- [Mechanics Problems](../../../../hsc/src/content/docs/physics/mechanics)
+- [Thermodynamics Examples](../../../../alevel/src/content/docs/chemistry/thermodynamics)
+- [Electromagnetism Guide](../../../../alevel/src/content/docs/physics/diagnostics/diag-electromagnetism-unification)
+- [Quantum Physics Overview](../../../../alevel/src/content/docs/physics/nuclear-physics/03-quantum-physics)
+- [Relativity Introduction](3-electromagnetism/12_special-relativity-and-electromagnetism-12)

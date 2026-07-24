@@ -408,6 +408,6 @@ linked above.
 
 ## Cross-References
 
-- **[Momentum](../maths/mechanics/05-momentum):** Momentum is a core mechanics topic
-- **[Energy and Work](../maths/mechanics/energy-and-work-depth):** Work-energy is fundamental to mechanics
-- **[Kinematics](../maths/mechanics/kinematics-depth):** Kinematics describes motion
+- **[Momentum](../../mechanics/05-momentum):** Momentum is a core mechanics topic
+- **[Energy and Work](../../mechanics/energy-and-work-depth):** Work-energy is fundamental to mechanics
+- **[Kinematics](../../mechanics/kinematics-depth):** Kinematics describes motion

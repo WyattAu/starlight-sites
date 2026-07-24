@@ -1272,10 +1272,10 @@ success in this subject.
 
 ## Cross-References
 
-- [Theory of the Firm](/economics/microeconomics/theory-of-the-firm) analyses market structures including monopoly and oligopoly, which are sources of market power failure.
-- [Fiscal Policy](/economics/macro/fiscal-policy) explains how government revenue and spending are used to correct market failures through Pigouvian taxes and subsidies.
-- [The Financial Sector](/economics/macro/the-financial-sector) examines how information asymmetry and moral hazard create market failures in banking and financial markets.
-- [Development Economics](/economics/macro/development-economics) applies market failure concepts to poverty traps, the tragedy of the commons, and institutional failures in developing countries.
+- [Theory of the Firm](04-theory-of-the-firm) analyses market structures including monopoly and oligopoly, which are sources of market power failure.
+- [Fiscal Policy](../macro/04-fiscal-policy) explains how government revenue and spending are used to correct market failures through Pigouvian taxes and subsidies.
+- [The Financial Sector](../macro/03-the-financial-sector) examines how information asymmetry and moral hazard create market failures in banking and financial markets.
+- [Development Economics](../macro/08-development-economics) applies market failure concepts to poverty traps, the tragedy of the commons, and institutional failures in developing countries.
 
 ---
 

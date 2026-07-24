@@ -137,9 +137,9 @@ superordinate goals, and recategorisation.
 
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
-| Social Identity Theory       | [View](/docs_ib/psychology/sociocultural/social-identity-theory)        |
-| Cultural Norms and Attitudes | [View](/docs_ib/psychology/sociocultural/cultural-norms-and-attritudes) |
-| Prejudice and Discrimination | [View](/docs_ib/psychology/sociocultural/prejudice-and-discrimination)  |
+| Social Identity Theory       | [View](social-identity-theory)        |
+| Cultural Norms and Attitudes | [View](cultural-norms-and-attritudes) |
+| Prejudice and Discrimination | [View](prejudice-and-discrimination)  |
 
 ## Intuition
 

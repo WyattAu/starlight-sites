@@ -858,5 +858,5 @@ Task scheduling is like a restaurant kitchen. The executor is the head chef who 
 
 ## Cross-References
 
-- [Futures, Promises](/cpp/concurrency/3_coroutines_and_async_io/5_futures_promises) - How futures and promises integrate with coroutine-based task scheduling
-- [Generators](/cpp/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines for lazy sequence generation
+- [Futures, Promises](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/5_futures_promises) - How futures and promises integrate with coroutine-based task scheduling
+- [Generators](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines for lazy sequence generation

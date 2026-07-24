@@ -1304,6 +1304,6 @@ Debugging in Python is detective work: you gather clues (print statements, loggi
 
 ## Cross-References
 
-- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)
-- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
-- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
+- [Error Handling Patterns](../../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns)
+- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)
+- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)

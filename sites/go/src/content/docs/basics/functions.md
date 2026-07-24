@@ -360,6 +360,6 @@ Functions in Go are first-class values -- you can assign them to variables, pass
 
 ## Cross-References
 
-- [Control Flow](/go/basics/control-flow) -- for loops, switch, and defer
-- [Types and Variables](/go/basics/types-and-variables) -- type system and closures
-- [Goroutines and Synchronization](/go/concurrency/goroutines) -- goroutines as lightweight threads
+- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow) -- for loops, switch, and defer
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- type system and closures
+- [Goroutines and Synchronization](../concurrency/goroutines) -- goroutines as lightweight threads

@@ -1068,5 +1068,5 @@ linked above.
 ## Cross-References
 
 - **[Types and Variables](./01-types-and-variables.md):** Primitive and reference types used in control flow expressions.
-- **[Garbage Collection](../../09-jvm-internals/03-garbage-collection.md):** JVM memory management affecting loop and object lifecycle.
-- **[Generics](../../11-generics-reflection/01-generics.md):** Type-safe iteration and switch expressions with sealed classes.
+- **[Garbage Collection](../../../../../../java/src/content/docs/09-jvm-internals/03-garbage-collection):** JVM memory management affecting loop and object lifecycle.
+- **[Generics](../../../../../../kotlin/src/content/docs/intermediate/generics):** Type-safe iteration and switch expressions with sealed classes.

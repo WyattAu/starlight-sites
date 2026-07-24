@@ -345,6 +345,6 @@ In议论文, students sometimes cite famous figures or events without explaining
 
 ## Cross-References
 
-- [Chinese Reading](/gaokao/chinese/reading) - Reading analysis skills that inform effective essay structure and argumentation
-- [English Writing](/gaokao/english/writing) - Cross-language writing techniques for narrative and argumentative essays
-- [Algebra](/gaokao/mathematics/algebra) - Logical structuring skills that apply to essay organization and argumentation
+- [Chinese Reading](reading) - Reading analysis skills that inform effective essay structure and argumentation
+- [English Writing](writing) - Cross-language writing techniques for narrative and argumentative essays
+- [Algebra](../../../../../sat/src/content/docs/mathematics/algebra) - Logical structuring skills that apply to essay organization and argumentation

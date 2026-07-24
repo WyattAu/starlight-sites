@@ -876,9 +876,9 @@ puts fetch_with_retry(99)
 
 ## Cross-References
 
-- [Variables and Types](/ruby/01-basics/1_variables-and-types) - Ruby's dynamic type system and variable scoping rules
-- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks, procs, and closures form Ruby's functional capabilities
-- [OOP](/ruby/04-oop/1_oop) - Ruby's object model where everything is an object
+- [Variables and Types](../../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) - Ruby's dynamic type system and variable scoping rules
+- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks, procs, and closures form Ruby's functional capabilities
+- [OOP](../../../../../languages/src/content/docs/ruby/04-oop/1_oop) - Ruby's object model where everything is an object
 
 ## Common Mistakes
 

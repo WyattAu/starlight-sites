@@ -1403,6 +1403,6 @@ linked above.
 ## Cross-References
 
 - [Functions, Closures, and Decorators](03-functions) -- Generators use the same closure mechanics as regular functions, with `yield` replacing `return`.
-- [List Comprehensions and Comprehension Expressions](02-data-structures) -- List comprehensions create lists eagerly, while generator expressions produce values lazily.
+- [List Comprehensions and Comprehension Expressions](../../../../../../computer-science/src/content/docs/1-algorithms/data-structures) -- List comprehensions create lists eagerly, while generator expressions produce values lazily.
 - [Advanced Type System](../08-advanced-topics/01-advanced-typing) -- Generic iterators and generator return types are expressible using `Iterator[T]` and `Generator[T]`.
-- [Context Managers](07-context-managers) -- The iterator protocol is the foundation for `with` statement resource management.
+- [Context Managers](../08-advanced-topics/03-context-managers) -- The iterator protocol is the foundation for `with` statement resource management.

@@ -209,7 +209,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Cybersecurity Fundamentals](/security/fundamentals/)
-- [Cryptography Guide](/security/cryptography/)
-- [Network Security Overview](/security/network-security/)
-- [Incident Response Planning](/security/incident-response/)
+- [Cybersecurity Fundamentals](../../../../alevel/src/content/docs/computer-science/diagnostics/diag-fundamentals)
+- [Cryptography Guide](../../../../computer-science/src/content/docs/3-theory/cryptography)
+- [Network Security Overview](../../../../alevel/src/content/docs/computer-science/networks/02-network-security)
+- [Incident Response Planning](06-incident-response/incident-response)

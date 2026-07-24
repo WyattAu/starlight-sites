@@ -918,6 +918,6 @@ Java's type system is built on two pillars: primitives for speed and objects for
 
 ## Cross-References
 
-- [Control Flow](/java/02-fundamentals/02-control-flow) -- if/else, switch, and loops
-- [Classes and Inheritance](/java/03-object-oriented/01-classes) -- object-oriented foundations
-- [Collections Framework](/java/04-collections/01-collections-framework) -- generics and type safety</aside>
+- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow) -- if/else, switch, and loops
+- [Classes and Inheritance](../03-object-oriented/01-classes) -- object-oriented foundations
+- [Collections Framework](../04-collections/01-collections-framework) -- generics and type safety</aside>

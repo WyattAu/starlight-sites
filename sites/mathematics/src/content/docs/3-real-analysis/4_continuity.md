@@ -315,6 +315,6 @@ The following table summarizes the key counterexamples in the theory of continui
 
 - **[Differentiability](5_differentiability.md)**: Differentiability implies continuity, but the converse is false; the relationship between these concepts is explored via the mean value theorem.
 - **[Riemann Integration](6_riemann-integration.md)**: Continuous functions on closed intervals are Riemann integrable, and the Heine-Cantor theorem guarantees uniform continuity on compact domains.
-- **[Sigma-Algebras and Measurable Spaces](../../10-measure-theory/1_sigma-algebras-and-measurable-spaces.md)**: Continuity is defined in terms of open sets, which generate the Borel sigma-algebra used in measure theory.
+- **[Sigma-Algebras and Measurable Spaces](../10-measure-theory/1_sigma-algebras-and-measurable-spaces)**: Continuity is defined in terms of open sets, which generate the Borel sigma-algebra used in measure theory.
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

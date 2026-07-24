@@ -1511,6 +1511,6 @@ Functions in Python are first-class objects: they can be passed as arguments, re
 
 ## Cross-References
 
-- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
-- [Control Flow](/python/02-fundamentals/02-control-flow)
-- [Object-Oriented Programming](/python/04-object-oriented/01-classes)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow)
+- [Object-Oriented Programming](../../../../../java/src/content/docs/03-object-oriented/01-classes)

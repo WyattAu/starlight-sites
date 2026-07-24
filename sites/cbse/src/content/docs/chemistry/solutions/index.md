@@ -144,9 +144,9 @@ Solutions are mixtures where solute particles disperse evenly through a solvent.
 
 ## Cross-References
 
-- [Colligative Properties](/cbse/chemistry/solutions/01-colligative-properties) -- detailed colligative property calculations
-- [Chemical Kinetics](/cbse/chemistry/chemical-kinetics) -- concentration effects on reaction rates
-- [CBSE Physics](/cbse/physics) -- kinetic theory of gases
+- [Colligative Properties](01-colligative-properties) -- detailed colligative property calculations
+- [Chemical Kinetics](../../../../../../chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics) -- concentration effects on reaction rates
+- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- kinetic theory of gases
 
 ## Common Mistakes
 

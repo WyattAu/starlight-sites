@@ -1066,6 +1066,6 @@ Python's control flow is built on the idea that code should read like prose. `if
 
 ## Cross-References
 
-- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
-- [Functions](/python/02-fundamentals/03-functions)
-- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
+- [Generators and Iterators](../../../../../languages/src/content/docs/python/02-fundamentals/04-generators-and-iterators)

@@ -983,6 +983,6 @@ Cargo is Rust's project manager, build system, and dependency registry rolled in
 
 ## Cross-References
 
-- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)
-- [Macros](/rust/08-macros)
-- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)
+- [Unsafe Rust](../../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust)
+- [Macros](../../../../../languages/src/content/docs/rust/08-macros)
+- [Traits and Generics](../../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)

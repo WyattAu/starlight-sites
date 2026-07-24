@@ -983,13 +983,13 @@ $\boxed{u \approx 25.9\,\mathrm{m\,s^{-1}}}$
 ### 11.1 Projectiles and circular motion
 
 Both topics involve resolving forces and using Newton"s second law in 2D. See
-[Circular Motion](/further-maths/further-mechanics/further-circular-motion).
+[Circular Motion](02-circular-motion).
 
 ### 11.2 Projectile equations and calculus
 
 The trajectory equation is derived by eliminating the parameter $t$ from the parametric equations, a
 Standard calculus technique. See
-[Further Calculus](/further-maths/pure-mathematics/further-calculus).
+[Further Calculus](../pure-mathematics/04-further-calculus).
 
 ### 11.3 Energy methods in projectiles
 
@@ -1305,8 +1305,8 @@ $u\sin\theta - gt = 0 \implies t = \dfrac{u\sin\theta}{g}$. $\blacksquare$
 
 ## Cross-References
 
-- [Circular Motion](/further-maths/further-mechanics/further-circular-motion) extends Newton's second law to particles moving in circular paths, using the same force resolution techniques.
-- [Centres of Mass and Elastic Collisions](/further-maths/further-mechanics/centres-of-mass-and-elastic-collisions) applies energy conservation and impulse-momentum principles to systems of particles in direct and oblique impacts.
-- [Further Calculus](/further-maths/pure-mathematics/further-calculus) provides the parametric differentiation and integration methods used to derive the trajectory equation and optimise range.
-- [Vectors in 3D](/further-maths/pure-mathematics/vectors-in-3d) supplies the vector notation and resolution techniques that generalise projectile analysis to three-dimensional motion.
+- [Circular Motion](02-circular-motion) extends Newton's second law to particles moving in circular paths, using the same force resolution techniques.
+- [Centres of Mass and Elastic Collisions](03-centres-of-mass-and-elastic-collisions) applies energy conservation and impulse-momentum principles to systems of particles in direct and oblique impacts.
+- [Further Calculus](../pure-mathematics/04-further-calculus) provides the parametric differentiation and integration methods used to derive the trajectory equation and optimise range.
+- [Vectors in 3D](../pure-mathematics/09-vectors-in-3d) supplies the vector notation and resolution techniques that generalise projectile analysis to three-dimensional motion.
 

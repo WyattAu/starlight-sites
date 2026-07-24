@@ -497,7 +497,7 @@ def countdown(n):
 </details>
 
 For revision on data structures that use recursion, see
-[Trees](/computer-science/data-structures/trees).
+[Trees](../data-structures/04-trees).
 
 <hr />
 

@@ -948,6 +948,6 @@ Async Rust is like a restaurant with a single waiter who can handle many tables.
 
 ## Cross-References
 
-- [Concurrency](/rust/06-concurrency/concurrency)
-- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing)
-- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Concurrency](../../../../../java/src/content/docs/06-concurrency/01-concurrency)
+- [Channels and Message Passing](../../../../../languages/src/content/docs/rust/06-concurrency/channels-and-message-passing)
+- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)

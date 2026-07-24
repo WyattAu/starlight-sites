@@ -1045,9 +1045,9 @@ emitter.emit(:user_created, { name: "Alice", email: "alice@example.com" })
 
 ## Cross-References
 
-- [OOP](/ruby/04-oop/1_oop) - How methods define the interface of Ruby objects and classes
-- [Metaprogramming](/ruby/05-advanced/1_metaprogramming) - How define_method and method_missing dynamically create methods
-- [Variables and Types](/ruby/01-basics/1_variables-and-types) - How closures capture variables from their enclosing scope
+- [OOP](../../../../../languages/src/content/docs/ruby/04-oop/1_oop) - How methods define the interface of Ruby objects and classes
+- [Metaprogramming](../../../../../elixir/src/content/docs/04-advanced/1_metaprogramming) - How define_method and method_missing dynamically create methods
+- [Variables and Types](../../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) - How closures capture variables from their enclosing scope
 
 ## Common Mistakes
 

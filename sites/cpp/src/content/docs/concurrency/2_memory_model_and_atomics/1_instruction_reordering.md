@@ -724,5 +724,5 @@ Instruction reordering is like a chef rearranging tasks in the kitchen. The chef
 
 ## Cross-References
 
-- [Cache Coherency](/cpp/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect memory visibility across threads
-- [Memory Orderings](/cpp/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control instruction ordering with atomic operations
+- [Cache Coherency](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect memory visibility across threads
+- [Memory Orderings](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control instruction ordering with atomic operations

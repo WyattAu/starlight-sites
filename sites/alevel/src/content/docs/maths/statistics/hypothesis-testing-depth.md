@@ -451,7 +451,7 @@ Mathematics is the study of structure, quantity, and change. Algebra provides sy
 
 ## Cross-References
 
-- [Algebra](/mathematics/algebra)
-- [Calculus](/mathematics/calculus)
-- [Statistics](/mathematics/statistics)
-- [Trigonometry](/mathematics/trigonometry)
+- [Algebra](../../../../../../sat/src/content/docs/mathematics/algebra)
+- [Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus)
+- [Statistics](../../further-maths/flashcards-further-statistics)
+- [Trigonometry](../pure-mathematics/08-trigonometry)

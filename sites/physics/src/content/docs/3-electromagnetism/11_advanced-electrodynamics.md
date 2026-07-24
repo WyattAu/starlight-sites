@@ -226,9 +226,9 @@ dipole ($D = 1.5$).
 
 ## Cross-References
 
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation, Poynting vector, and energy conservation provide the foundation for the multipole expansion and radiation analysis.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The covariant formulation of electrodynamics extends gauge invariance and the stress-energy tensor to relativistic settings.
-- [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Larmor formula and radiation resistance connect the multipole expansion to practical antenna calculations.
+- [Electromagnetic Waves](5_electromagnetic-waves) -- The wave equation, Poynting vector, and energy conservation provide the foundation for the multipole expansion and radiation analysis.
+- [Special Relativity and Electromagnetism](7_special-relativity-and-electromagnetism) -- The covariant formulation of electrodynamics extends gauge invariance and the stress-energy tensor to relativistic settings.
+- [Radiation from Accelerating Charges](10_radiation-from-accelerating-charges) -- The Larmor formula and radiation resistance connect the multipole expansion to practical antenna calculations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

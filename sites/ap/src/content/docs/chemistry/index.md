@@ -143,8 +143,8 @@ The molecular world governs our everyday experience. Chemical bonds determine ma
 
 ## Cross-References
 
-- [Atomic Structure](/ap/chemistry/atomic-structure)
-- [Bonding](/ap/chemistry/bonding)
-- [Stoichiometry](/ap/chemistry/stoichiometry)
-- [Thermodynamics](/ap/chemistry/thermodynamics)
-- **[AP Physics — Work, Energy, and Power](/ap/physics/work-energy-power):** Thermodynamics and energy conservation are shared principles — the first law of thermodynamics is a restatement of energy conservation from physics.
+- [Atomic Structure](../../../../../alevel/src/content/docs/chemistry/atomic-structure)
+- [Bonding](../../../../../alevel/src/content/docs/chemistry/bonding-and-structure)
+- [Stoichiometry](../../../../../leaving-cert/src/content/docs/chemistry/3-stoichiometry/3_stoichiometry)
+- [Thermodynamics](../../../../../alevel/src/content/docs/chemistry/thermodynamics)
+- **[AP Physics — Work, Energy, and Power](../../../../../alevel/src/content/docs/physics/mechanics/04-work-energy-power):** Thermodynamics and energy conservation are shared principles — the first law of thermodynamics is a restatement of energy conservation from physics.

@@ -193,6 +193,6 @@ tags: [glossary]
 
 ## Related Resources
 
-- [DSE Exam Overview](/dse/overview/)
+- [DSE Exam Overview](../../../../computer-science/src/content/docs/4-databases/8_nosql-overview)
 - [Subject Guides](/dse/subjects/)
-- [Exam Preparation Tips](/dse/preparation/)
+- [Exam Preparation Tips](../../../../admissions/src/content/docs/bmo-preparation)

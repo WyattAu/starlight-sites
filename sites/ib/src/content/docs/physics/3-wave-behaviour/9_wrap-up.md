@@ -617,6 +617,6 @@ linked above.
 
 ## Cross-References
 
-- [Simple Harmonic Motion](/ib/physics/3-wave-behaviour/1_simple-harmonic-motion) provides the oscillatory foundation for understanding wave behaviour and phenomena.
-- [Wave Properties](/ib/physics/3-wave-behaviour/2_wave-properties) covers the fundamental characteristics of waves including wavelength, frequency, and amplitude.
-- [Gravitational Fields](/ib/physics/4-fields/1_gravitational-fields) explains the field theory that underpins orbital mechanics problems in this wrap-up.
+- [Simple Harmonic Motion](1_simple-harmonic-motion) provides the oscillatory foundation for understanding wave behaviour and phenomena.
+- [Wave Properties](2_wave-properties) covers the fundamental characteristics of waves including wavelength, frequency, and amplitude.
+- [Gravitational Fields](../4-fields/1_gravitational-fields) explains the field theory that underpins orbital mechanics problems in this wrap-up.

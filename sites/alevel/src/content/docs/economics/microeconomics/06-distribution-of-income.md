@@ -1278,10 +1278,10 @@ success in this subject.
 
 ## Cross-References
 
-- [Market Failure](/economics/microeconomics/market-failure) explains how inequality itself can be a form of market failure and how government intervention addresses it.
-- [Labour Markets](/economics/microeconomics/labour-markets) analyses wage determination, the minimum wage, and monopsony power as drivers of income inequality.
-- [Development Economics](/economics/macro/development-economics) examines how inequality interacts with growth, poverty traps, and institutional quality in developing countries.
-- [Fiscal Policy](/economics/macro/fiscal-policy) details how progressive taxation and transfer payments are used to redistribute income.
+- [Market Failure](03-market-failure) explains how inequality itself can be a form of market failure and how government intervention addresses it.
+- [Labour Markets](05-labour-markets) analyses wage determination, the minimum wage, and monopsony power as drivers of income inequality.
+- [Development Economics](../macro/08-development-economics) examines how inequality interacts with growth, poverty traps, and institutional quality in developing countries.
+- [Fiscal Policy](../macro/04-fiscal-policy) details how progressive taxation and transfer payments are used to redistribute income.
 
 ## Intuition
 

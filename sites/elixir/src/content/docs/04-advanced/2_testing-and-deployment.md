@@ -943,9 +943,9 @@ Elixir provides a comprehensive testing and deployment story:
 
 ## Cross-References
 
-- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How supervision trees and process isolation affect test setup and teardown
-- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How behaviours enable mock-based testing with Mox
-- [Metaprogramming](/elixir/04-advanced/1_metaprogramming) - How doctests extract and run code examples from module documentation
+- [Concurrency and OTP](../03-concurrency/1_concurrency-otp) - How supervision trees and process isolation affect test setup and teardown
+- [Functions and Modules](../02-functions-modules/1_functions-and-modules) - How behaviours enable mock-based testing with Mox
+- [Metaprogramming](1_metaprogramming) - How doctests extract and run code examples from module documentation
 
 ## Intuition
 

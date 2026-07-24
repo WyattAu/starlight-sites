@@ -505,4 +505,4 @@ Both can be verified by substitution into the original equation.
 
 - **[Pure Mathematics](../flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
 - **[Mechanics](../practice-mechanics):** Mechanics applies maths to physical problems
-- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods
+- **[Statistics](../../further-maths/flashcards-further-statistics):** Statistics develops data analysis methods

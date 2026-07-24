@@ -483,7 +483,7 @@ Trinity" (trilemma).
 
 <details>
 <summary>Hint</summary>
-The impossible trinity: a country cannot simultaneously have (1) free capital mobility, (2) a fixed exchange rate, and (3) independent monetary policy. It must give up one. Fixed advantages: certainty for trade/investment, discipline on inflation, no speculative volatility. Fixed disadvantages: loss of monetary independence (must set interest rates to defend the peg, not for domestic objectives), requires large reserves, vulnerable to speculative attacks (e.g., ERM crisis 1992). Floating advantages: automatic BoP adjustment, independent monetary policy, no reserve requirement. Floating disadvantages: volatility, overshooting, competitive devaluation risk. *Revision: see [The Financial Sector](/economics/macro/the-financial-sector) for monetary policy.*
+The impossible trinity: a country cannot simultaneously have (1) free capital mobility, (2) a fixed exchange rate, and (3) independent monetary policy. It must give up one. Fixed advantages: certainty for trade/investment, discipline on inflation, no speculative volatility. Fixed disadvantages: loss of monetary independence (must set interest rates to defend the peg, not for domestic objectives), requires large reserves, vulnerable to speculative attacks (e.g., ERM crisis 1992). Floating advantages: automatic BoP adjustment, independent monetary policy, no reserve requirement. Floating disadvantages: volatility, overshooting, competitive devaluation risk. *Revision: see [The Financial Sector](03-the-financial-sector) for monetary policy.*
 </details>
 
 **Problem 5.** Evaluate the argument that globalisation has increased income inequality both within
@@ -507,7 +507,7 @@ The domestic economy. Under what conditions might a depreciation be inflationary
 
 <details>
 <summary>Hint</summary>
-AD effects: depreciation makes exports cheaper and imports dearer → net exports rise → AD shifts right → output and price level rise. SRAS effects: imported raw materials become more expensive → production costs rise → SRAS shifts left → price level rises, output falls. Net effect on output: ambiguous (AD shift right vs SRAS shift left). Net effect on prices: unambiguously inflationary (both AD and SRAS shifts push prices up). Conditions for inflationary effect: (1) High import dependence (the UK imports ~30% of consumption). (2) Inelastic demand for imports (necessities like oil, food). (3) Economy near full employment (no spare capacity to absorb demand increase). *Revision: see [Aggregate Demand and Aggregate Supply](/economics/macro/aggregate-demand-and-supply).*
+AD effects: depreciation makes exports cheaper and imports dearer → net exports rise → AD shifts right → output and price level rise. SRAS effects: imported raw materials become more expensive → production costs rise → SRAS shifts left → price level rises, output falls. Net effect on output: ambiguous (AD shift right vs SRAS shift left). Net effect on prices: unambiguously inflationary (both AD and SRAS shifts push prices up). Conditions for inflationary effect: (1) High import dependence (the UK imports ~30% of consumption). (2) Inelastic demand for imports (necessities like oil, food). (3) Economy near full employment (no spare capacity to absorb demand increase). *Revision: see [Aggregate Demand and Aggregate Supply](02-aggregate-demand-and-supply).*
 </details>
 
 **Problem 8.** Explain the Prebisch-Singer hypothesis. Why might developing countries that
@@ -532,7 +532,7 @@ Restore balance." Evaluate this policy recommendation.
 
 <details>
 <summary>Hint</summary>
-Devaluation could help: (1) Makes exports cheaper, imports dearer → improves trade balance (Marshall-Lerner condition). (2) Improves competitiveness of domestic industries. (3) Reduces the trade deficit. But: (1) J-curve effect — the CA may worsen initially. (2) Imported inflation — devaluation raises import prices, potentially causing cost-push inflation. (3) If the deficit is structural (caused by lack of competitiveness, not the exchange rate), devaluation is a temporary fix. (4) Capital flight — if markets expect further devaluation, investors sell the currency, making things worse. (5) Retaliation — trading partners may also devalue (competitive devaluation, "currency wars"). Better approach: address the root cause. If the deficit reflects low productivity → supply-side reforms. If it reflects excessive consumption → fiscal tightening. Devaluation is one tool among many, not a panacea. *Revision: see [Fiscal Policy](/economics/macro/fiscal-policy) for alternative policy approaches.*
+Devaluation could help: (1) Makes exports cheaper, imports dearer → improves trade balance (Marshall-Lerner condition). (2) Improves competitiveness of domestic industries. (3) Reduces the trade deficit. But: (1) J-curve effect — the CA may worsen initially. (2) Imported inflation — devaluation raises import prices, potentially causing cost-push inflation. (3) If the deficit is structural (caused by lack of competitiveness, not the exchange rate), devaluation is a temporary fix. (4) Capital flight — if markets expect further devaluation, investors sell the currency, making things worse. (5) Retaliation — trading partners may also devalue (competitive devaluation, "currency wars"). Better approach: address the root cause. If the deficit reflects low productivity → supply-side reforms. If it reflects excessive consumption → fiscal tightening. Devaluation is one tool among many, not a panacea. *Revision: see [Fiscal Policy](04-fiscal-policy) for alternative policy approaches.*
 </details>
 
 **Problem 11.** Compare and contrast import substitution industrialisation (ISI) with
@@ -879,10 +879,10 @@ discrepancy). The country is a net borrower from the rest of the world. If capit
 
 ## Cross-References
 
-- [Aggregate Demand and Aggregate Supply](../02-aggregate-demand-and-supply) -- Exchange rate changes shift AD through net exports, linking the international economy to domestic macroeconomic equilibrium.
-- [The Financial Sector](../03-the-financial-sector) -- Interest rate and monetary policy decisions directly affect exchange rates and capital flows discussed in this chapter.
-- [Demand, Supply and Equilibrium](../../microeconomics/02-demand-supply-and-equilibrium) -- The supply and demand framework underpins analysis of exchange rate determination and trade balances.
-- [Fiscal Policy](../04-fiscal-policy) -- Government spending and taxation decisions influence the current account through their effect on aggregate demand and national saving.
+- [Aggregate Demand and Aggregate Supply](02-aggregate-demand-and-supply) -- Exchange rate changes shift AD through net exports, linking the international economy to domestic macroeconomic equilibrium.
+- [The Financial Sector](03-the-financial-sector) -- Interest rate and monetary policy decisions directly affect exchange rates and capital flows discussed in this chapter.
+- [Demand, Supply and Equilibrium](../microeconomics/02-demand-supply-and-equilibrium) -- The supply and demand framework underpins analysis of exchange rate determination and trade balances.
+- [Fiscal Policy](04-fiscal-policy) -- Government spending and taxation decisions influence the current account through their effect on aggregate demand and national saving.
 - The required depreciation: if the current account deficit must be eliminated through exchange rate
   adjustment, and the sum of PEDs is 1.5, the required depreciation is approximately
   $\frac{90}{200 \times 1.5 - 280 \times 0.75} \times 100 \approx 20\%$ (very

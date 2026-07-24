@@ -349,5 +349,5 @@ Series diagnostics test whether you can **select the right convergence test** an
 
 ## Cross-References
 
-- **[Sequences and Series](../../5-sequences-and-series/5_sequences-and-series):** The full topic page covering convergence tests, Taylor series, and power series.
-- **[Limits and Continuity](../../1-limits-and-continuity/1_limits-and-continuity):** Convergence of sequences and series is defined using limits.
+- **[Sequences and Series](../5-sequences-and-series/5_sequences-and-series):** The full topic page covering convergence tests, Taylor series, and power series.
+- **[Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity):** Convergence of sequences and series is defined using limits.

@@ -752,9 +752,9 @@ Ruby was designed to make programmers happy, which is unusual for a programming 
 
 ## Cross-References
 
-- [Variables and Types](/languages/ruby/01-basics/1_variables-and-types) introduces Ruby's dynamic typing and variable conventions covered in this overview.
-- [Control Flow](/languages/ruby/02-control-flow/1_control-flow) implements the conditional logic and iteration described in this introduction.
-- [Object-Oriented Programming](/languages/ruby/04-oop/1_oop) extends Ruby's basic concepts into full object-oriented design.
+- [Variables and Types](../01-basics/1_variables-and-types) introduces Ruby's dynamic typing and variable conventions covered in this overview.
+- [Control Flow](../02-control-flow/1_control-flow) implements the conditional logic and iteration described in this introduction.
+- [Object-Oriented Programming](../04-oop/1_oop) extends Ruby's basic concepts into full object-oriented design.
 
 ## Common Mistakes
 

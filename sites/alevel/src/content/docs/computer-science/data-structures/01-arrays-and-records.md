@@ -417,7 +417,7 @@ value 9 and count the number of comparisons made.
 Total comparisons: 6. The value 9 is at index 5.
 
 For revision on searching, see
-[Searching Algorithms](/computer-science/algorithms/searching-algorithms).
+[Searching Algorithms](../algorithms/01-searching-algorithms).
 
 </details>
 

@@ -67,11 +67,11 @@ Kotlin's fundamentals build on Java's foundations while adding modern language f
 
 ### Topic Notes
 
-- [Variables and Types](02-fundamentals/01-variables-and-types) — val vs var, type inference, primitive types, and string templates
-- [Control Flow](02-fundamentals/02-control-flow) — if/when as expressions, for/while loops, and ranges
-- [Functions](02-fundamentals/03-functions) — default arguments, named arguments, single-expression functions, and infix notation
-- [Classes and Objects](02-fundamentals/04-classes-and-objects) — primary/secondary constructors, init blocks, companion objects
-- [Data Classes and Sealed Classes](02-fundamentals/05-data-and-sealed-classes) — copy, destructuring, and exhaustive when expressions
+- [Variables and Types](../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) — val vs var, type inference, primitive types, and string templates
+- [Control Flow](basics/control-flow) — if/when as expressions, for/while loops, and ranges
+- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — default arguments, named arguments, single-expression functions, and infix notation
+- [Classes and Objects](basics/classes-and-objects) — primary/secondary constructors, init blocks, companion objects
+- [Data Classes and Sealed Classes](../../../../dart/src/content/docs/07-dart3-features/02-sealed-classes) — copy, destructuring, and exhaustive when expressions
 
 ### Key Concepts
 
@@ -92,7 +92,7 @@ Kotlin's null safety system is one of its defining features. By distinguishing b
 - [Nullable Types](03-null-safety/01-nullable-types) — the `?` operator, safe calls, and the !! operator
 - [Safe Casts and Let](03-null-safety/02-safe-casts-and-let) — as?, let blocks, and the Elvis operator
 - [Platform Types](03-null-safety/03-platform-types) — Java interop, nullability annotations, and platform type inference
-- [Nullable Collections](03-null-safety/04-nullable-collections) — List?, List<String?>, and List<String>?
+- [Nullable Collections](intermediate/collections) — List?, List<String?>, and List<String>?
 
 ### Key Concepts
 
@@ -110,8 +110,8 @@ Kotlin treats functions as first-class citizens. You can pass functions as argum
 
 ### Topic Notes
 
-- [Lambdas and Higher-Order Functions](04-functional/01-lambdas-and-higher-order-functions) — lambda syntax, it keyword, and function types
-- [Standard Library Functions](04-functional/02-standard-library-functions) — map, filter, reduce, fold, and let/run/apply/also
+- [Lambdas and Higher-Order Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — lambda syntax, it keyword, and function types
+- [Standard Library Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — map, filter, reduce, fold, and let/run/apply/also
 - [Sequences and Lazy Evaluation](04-functional/03-sequences-and-lazy-evaluation) — sequence builder, intermediate vs terminal operations
 - [Delegated Properties](04-functional/04-delegated-properties) — lazy, observable, vetoable, and custom delegates
 
@@ -132,10 +132,10 @@ Coroutines are Kotlin's solution to asynchronous and concurrent programming. The
 ### Topic Notes
 
 - [Coroutine Basics](05-coroutines/01-coroutine-basics) — launch, async, runBlocking, and structured concurrency
-- [Suspend Functions](05-coroutines/02-suspend-functions) — suspension points, continuation, and the suspend modifier
+- [Suspend Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — suspension points, continuation, and the suspend modifier
 - [Coroutine Context and Dispatchers](05-coroutines/03-context-and-dispatchers) — Dispatchers.Main, Dispatchers.IO, and CoroutineScope
-- [Flow](05-coroutines/04-flow) — cold streams, operators, and collecting values
-- [Error Handling](05-coroutines/05-error-handling) — try/catch in coroutines, SupervisorJob, and CoroutineExceptionHandler
+- [Flow](basics/control-flow) — cold streams, operators, and collecting values
+- [Error Handling](../../../../dart/src/content/docs/08-error-handling) — try/catch in coroutines, SupervisorJob, and CoroutineExceptionHandler
 
 ### Key Concepts
 
@@ -157,7 +157,7 @@ Kotlin is the preferred language for Android development. Jetpack Compose, the m
 - [Jetpack Compose](06-android/02-jetpack-compose) — composables, state, recomposition, and material design
 - [ViewModel and State](06-android/03-viewmodel-and-state) — ViewModel, StateFlow, and state hoisting
 - [Room Database](06-android/04-room-database) — entities, DAOs, migrations, and TypeConverters
-- [Dependency Injection](06-android/05-dependency-injection) — Hilt, modules, and scoping
+- [Dependency Injection](../../../../dart/src/content/docs/12-dependency-injection) — Hilt, modules, and scoping
 
 ### Key Concepts
 
@@ -179,7 +179,7 @@ Kotlin and Spring Boot integrate seamlessly. Spring Boot provides first-class Ko
 - [REST Controllers](07-spring-boot/02-rest-controllers) — request mapping, validation, and ResponseEntity
 - [Spring Data JPA](07-spring-boot/03-spring-data-jpa) — repositories, queries, and Kotlin data classes
 - [Spring Security](07-spring-boot/04-spring-security) — authentication, authorization, and JWT
-- [Testing](07-spring-boot/05-testing) — Kotest, MockK, and WebTestClient
+- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — Kotest, MockK, and WebTestClient
 
 ### Key Concepts
 

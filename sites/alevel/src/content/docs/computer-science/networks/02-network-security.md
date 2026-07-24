@@ -128,7 +128,7 @@ Without loss of generality, let $M \equiv 0 \pmod{p}$. Then $M^{ed} \equiv 0 \eq
 For $q$: since $M \not\equiv 0 \pmod{q}$, $\gcd(M, q) = 1$. By Fermat's little theorem:
 $M^{q-1} \equiv 1 \pmod{q}$. Since $\phi(n) = (p-1)(q-1)$:
 
-$$M^{ed} = M^{1 + k(p-1)(q-1)} = M \cdot (M^{q-1})^{k(p-1)} \equiv M \cdot 1^{k(p-1)} \equiv M \pmod{q}$$
+$M^{ed} = M^{1 + k(p-1)(q-1)} = M \cdot (M^{q-1})^{k(p-1)} \equiv M \cdot 1^{k(p-1)} \equiv M \pmod{q}$
 
 ✓
 
@@ -157,12 +157,12 @@ A **digital signature** provides:
 
 ### Process
 
-**Signing:** $$S = D_{\mathrm{priv}}(H(M))$$
+**Signing:** $S = D_{\mathrm{priv}}(H(M))$
 
 Where $H$ is a hash function. The sender hashes the message and "decrypts" the hash with their
 Private key.
 
-**Verification:** $$H(M) \stackrel{?}{=} E_{\mathrm{pub}}(S)$$
+**Verification:** $H(M) \stackrel{?}{=} E_{\mathrm{pub}}(S)$
 
 The receiver encrypts the signature with the sender's public key and compares it to the hash of the
 Received message.
@@ -247,7 +247,7 @@ Traffic based on predetermined security rules.
 
 ## Problem Set
 
-**Problem 1.** Given RSA parameters $p = 5$$q = 11$$e = 3$Encrypt the message $M = 7$ and then
+**Problem 1.** Given RSA parameters $p = 5$q = 11$e = 3$Encrypt the message $M = 7$ and then
 Decrypt it. Show all steps.
 
 <details>
@@ -453,7 +453,7 @@ This always evaluates to true, granting access without valid credentials.
 </details>
 
 For revision on network fundamentals, see
-[Network Fundamentals](/computer-science/networks/network-fundamentals).
+[Network Fundamentals](01-network-fundamentals).
 
 <hr />
 

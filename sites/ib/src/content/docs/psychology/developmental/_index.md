@@ -142,8 +142,8 @@ explanation and empirical evaluation.
 
 | Topic                  | Link                                                             |
 | ---------------------- | ---------------------------------------------------------------- |
-| Attachment Theory      | [View](/docs_ib/psychology/developmental/attachment-theory)      |
-| Cognitive Development  | [View](/docs_ib/psychology/developmental/cognitive-development)  |
+| Attachment Theory      | [View](attachment-theory)      |
+| Cognitive Development  | [View](cognitive-development)  |
 | Adolescent Development | [View](/docs_ib/psychology/developmental/adolescent-development) |
 
 ## Intuition

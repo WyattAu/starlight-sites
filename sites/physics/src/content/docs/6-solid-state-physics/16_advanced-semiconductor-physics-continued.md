@@ -184,9 +184,9 @@ The quantum Hall effect reveals that in a strong magnetic field at low temperatu
 
 | Topic                           | Site        | Link                                                                                       |
 | ------------------------------- | ----------- | ------------------------------------------------------------------------------------------ |
-| Solid State Physics (Overview)  | WyattsNotes | [View](/university/physics/solid-state-physics)                                       |
-| Quantum Mechanics               | WyattsNotes | [View](/university/physics/quantum-mechanics)                                         |
-| Thermal Physics                 | WyattsNotes | [View](/university/physics/thermal-physics)                                           |
+| Solid State Physics (Overview)  | WyattsNotes | [View](17_practice-solid-state-physics)                                       |
+| Quantum Mechanics               | WyattsNotes | [View](../5-quantum-mechanics/16_flashcards-quantum-mechanics)                                         |
+| Thermal Physics                 | WyattsNotes | [View](../../../../../ib/src/content/docs/physics/flashcards-thermal-physics)                                           |
 
 These topics are closely related: quantum mechanics provides the foundation for band theory,
 thermal physics governs carrier statistics and thermoelectric performance, and solid state physics

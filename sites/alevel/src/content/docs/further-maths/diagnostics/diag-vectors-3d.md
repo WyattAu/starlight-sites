@@ -195,6 +195,6 @@ $\text{KE} = \frac{1}{2} \times 2 \times (16+4+1) = 21$ J.
 
 ## Cross-References
 
-- **[3D Vectors](../further-maths/pure-mathematics/vectors-3d):** 3D vectors extend 2D vector concepts
+- **[3D Vectors](diag-vectors-3d):** 3D vectors extend 2D vector concepts
 - **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
 - **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics

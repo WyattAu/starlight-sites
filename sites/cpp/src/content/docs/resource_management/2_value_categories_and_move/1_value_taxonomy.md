@@ -880,6 +880,6 @@ C++ value categories determine how expressions are treated: lvalues have identit
 
 ## Cross-References
 
-- [Move Constructors and RVO](/cpp/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
-- [Reference Collapsing](/cpp/resource_management/2_value_categories_and_move/2_reference_collapsing)
-- [RAII Patterns](/cpp/resource_management/1_ownership_and_raii/1_raii_patterns)
+- [Move Constructors and RVO](../../../../../../programming/src/content/docs/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
+- [Reference Collapsing](../../../../../../programming/src/content/docs/resource_management/2_value_categories_and_move/2_reference_collapsing)
+- [RAII Patterns](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/1_raii_patterns)

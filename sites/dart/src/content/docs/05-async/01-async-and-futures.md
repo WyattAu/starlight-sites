@@ -471,6 +471,6 @@ Dart's async model is built on a single-threaded event loop with Future and Stre
 
 ## Cross-References
 
-- [Entry Point](/dart/03-basics/01-entrypoint) -- main() and event loop basics
-- [Collections Deep Dive](/dart/06-collections/01-collections-deep-dive) -- Stream operations and async iteration
-- [Error Handling](/dart/08-error-handling) -- try/catch with async code
+- [Entry Point](../03-basics/01-entrypoint) -- main() and event loop basics
+- [Collections Deep Dive](../06-collections/01-collections-deep-dive) -- Stream operations and async iteration
+- [Error Handling](../08-error-handling) -- try/catch with async code

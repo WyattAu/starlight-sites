@@ -866,9 +866,9 @@ linked above.
 
 ## Cross-References
 
-- [Cryptography](/security/02-cryptography/cryptography) implements the mathematical foundations for achieving confidentiality, integrity, and availability.
-- [Authentication](/security/03-authentication/authentication) applies security principles to verify identity and control access to systems and resources.
-- [Incident Response](/security/06-incident-response/incident-response) operationalises security fundamentals into structured processes for handling security breaches.
+- [Cryptography](../../../../../computer-science/src/content/docs/3-theory/cryptography) implements the mathematical foundations for achieving confidentiality, integrity, and availability.
+- [Authentication](../03-authentication/authentication) applies security principles to verify identity and control access to systems and resources.
+- [Incident Response](../06-incident-response/incident-response) operationalises security fundamentals into structured processes for handling security breaches.
 
 ## Intuition
 

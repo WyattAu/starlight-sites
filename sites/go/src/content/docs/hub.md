@@ -67,9 +67,9 @@ Go's fundamentals are intentionally simple. The language has fewer keywords than
 
 ### Topic Notes
 
-- [Variables and Types](02-fundamentals/01-variables-and-types) — short declaration, zero values, type inference, and constants
-- [Control Flow](02-fundamentals/02-control-flow) — if/else, for loops, switch, and defer
-- [Functions and Methods](02-fundamentals/03-functions-and-methods) — multiple return values, variadic functions, and method receivers
+- [Variables and Types](../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) — short declaration, zero values, type inference, and constants
+- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow) — if/else, for loops, switch, and defer
+- [Functions and Methods](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — multiple return values, variadic functions, and method receivers
 - [Packages and Modules](02-fundamentals/04-packages-and-modules) — package organization, imports, go modules, and visibility rules
 
 ### Key Concepts
@@ -88,10 +88,10 @@ Go has a focused set of types: primitives, arrays, slices, maps, and structs. Th
 
 ### Topic Notes
 
-- [Structs](03-types/01-structs) — struct literals, embedded fields, and struct tags
-- [Slices](03-types/02-slices) — underlying arrays, length vs capacity, append, and copy
-- [Maps](03-types/03-maps) — creation, key types, zero values, and the comma-ok idiom
-- [Pointers](03-types/04-pointers) — pointer arithmetic (absent), taking addresses, and dereferencing
+- [Structs](../../../../alevel/src/content/docs/computer-science/programming/01-programming-constructs) — struct literals, embedded fields, and struct tags
+- [Slices](basics/arrays-slices-maps) — underlying arrays, length vs capacity, append, and copy
+- [Maps](basics/arrays-slices-maps) — creation, key types, zero values, and the comma-ok idiom
+- [Pointers](../../../../programming/src/content/docs/types/2_pointers_references_views/1_pointers) — pointer arithmetic (absent), taking addresses, and dereferencing
 - [String and Byte Types](03-types/05-string-and-byte-types) — string immutability, rune type, and encoding
 
 ### Key Concepts
@@ -130,11 +130,11 @@ Go's concurrency model is its most distinctive feature. Goroutines are lightweig
 
 ### Topic Notes
 
-- [Goroutines](05-concurrency/01-goroutines) — launching goroutines, WaitGroup, and the sync package
-- [Channels](05-concurrency/02-channels) — unbuffered, buffered, direction, and the select statement
-- [Concurrency Patterns](05-concurrency/03-concurrency-patterns) — fan-out/fan-in, pipelines, context cancellation, and the worker pool
+- [Goroutines](concurrency/goroutines) — launching goroutines, WaitGroup, and the sync package
+- [Channels](concurrency/channels) — unbuffered, buffered, direction, and the select statement
+- [Concurrency Patterns](../../../../java/src/content/docs/06-concurrency/01-concurrency) — fan-out/fan-in, pipelines, context cancellation, and the worker pool
 - [Sync Primitives](05-concurrency/04-sync-primitives) — Mutex, RWMutex, Once, atomic operations, and sync.Map
-- [Context](05-concurrency/05-context) — cancellation, deadlines, and passing values across goroutines
+- [Context](../../../../computer-science/src/content/docs/6-theory-of-computation/3_context-free-languages) — cancellation, deadlines, and passing values across goroutines
 
 ### Key Concepts
 
@@ -152,11 +152,11 @@ Go's standard library provides everything needed to build production web service
 
 ### Topic Notes
 
-- [HTTP Basics](06-web-services/01-http-basics) — http.ListenAndServe, handlers, and the ResponseWriter
-- [Routing](06-web-services/02-routing) — chi router, route groups, and middleware
-- [JSON and Serialization](06-web-services/03-json-and-serialization) — encoding/json, struct tags, and custom marshalers
+- [HTTP Basics](../../../../networking/src/content/docs/05-http-https/http) — http.ListenAndServe, handlers, and the ResponseWriter
+- [Routing](../../../../networking/src/content/docs/bgp-and-routing-protocols) — chi router, route groups, and middleware
+- [JSON and Serialization](../../../../languages/src/content/docs/python/05-standard-library/04-serialization) — encoding/json, struct tags, and custom marshalers
 - [Database Access](06-web-services/04-database-access) — database/sql, sqlx, and migrations
-- [Testing and Middleware](06-web-services/05-testing-and-middleware) — httptest, middleware chains, and integration tests
+- [Testing and Middleware](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — httptest, middleware chains, and integration tests
 
 ### Key Concepts
 

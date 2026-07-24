@@ -187,9 +187,9 @@ perspectives.
 
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
-| Social Identity Theory       | [View](/docs_ib/psychology/sociocultural/social-identity-theory)        |
-| Cultural Norms and Attitudes | [View](/docs_ib/psychology/sociocultural/cultural-norms-and-attritudes) |
-| Prejudice and Discrimination | [View](/docs_ib/psychology/sociocultural/prejudice-and-discrimination)  |
+| Social Identity Theory       | [View](sociocultural/social-identity-theory)        |
+| Cultural Norms and Attitudes | [View](sociocultural/cultural-norms-and-attritudes) |
+| Prejudice and Discrimination | [View](sociocultural/prejudice-and-discrimination)  |
 
 ## Intuition
 

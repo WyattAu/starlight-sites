@@ -882,6 +882,6 @@ Rust splits errors into two bins: bugs (panics) and expected failures (Results).
 
 ## Cross-References
 
-- [Error Handling Patterns](/rust/04-error-handling/error-handling-patterns)
-- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
-- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)
+- [Error Handling Patterns](../../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns)
+- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)
+- [Traits and Generics](../../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)

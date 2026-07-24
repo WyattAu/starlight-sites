@@ -163,9 +163,9 @@ Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and F
 
 ## Cross-References
 
-- [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- The Fraunhofer/Fresnel distinction and spatial filtering concepts are developed systematically in the Fourier optics chapter.
-- [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- Temporal and spatial coherence, fringe visibility, and the van Cittert-Zernike theorem are treated in detail here.
-- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Coherence length, mode structure, and the relationship between linewidth and coherence are covered in the laser chapter.
+- [Fourier Optics](19_fourier-optics-15) -- The Fraunhofer/Fresnel distinction and spatial filtering concepts are developed systematically in the Fourier optics chapter.
+- [Coherence Theory](20_coherence-theory-16) -- Temporal and spatial coherence, fringe visibility, and the van Cittert-Zernike theorem are treated in detail here.
+- [Lasers](9_lasers) -- Coherence length, mode structure, and the relationship between linewidth and coherence are covered in the laser chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -1837,11 +1837,11 @@ $\blacksquare$
 
 | Topic                             | Site        | Link                                                                                   |
 | --------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
-| Theory of Computation             | WyattsNotes | [View](/university/computing/theory-of-computation)                               |
-| Abstract Algebra                  | WyattsNotes | [View](/university/mathematics/abstract-algebra)                                  |
-| Number Theory                     | WyattsNotes | [View](/university/mathematics/number-theory)                                     |
+| Theory of Computation             | WyattsNotes | [View](theory-of-computation)                               |
+| Abstract Algebra                  | WyattsNotes | [View](../../../../mathematics/src/content/docs/abstract-algebra)                                  |
+| Number Theory                     | WyattsNotes | [View](../../../../mathematics/src/content/docs/number-theory)                                     |
 | Discrete Mathematics — MIT 6.042J | MIT OCW     | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
-| AP Calculus                       | AP          | [View](/ap/maths/) |
+| AP Calculus                       | AP          | [View](../../../../ib/src/content/docs/maths/maths) |
 
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

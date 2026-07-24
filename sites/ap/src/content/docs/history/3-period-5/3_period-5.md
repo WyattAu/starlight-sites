@@ -205,7 +205,7 @@ Period 5 (1844-1877) is the **most transformative period in American history** â
 
 ## Cross-References
 
-- [Periods 3-4 (1754-1848)](/ap/history/periods-3-4): Shows how westward expansion and the slavery debate intensified after the American Revolution and early republic.
-- [Period 6 (1865-1898)](/ap/history/period-6): Explores the consequences of the Civil War and Reconstruction, including the rise of Jim Crow laws and economic transformation.
-- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Tests your knowledge of the Civil War and Reconstruction era, highlighting areas needing review.
-- [AP US History Practice](/ap/history/practice): Provides practice questions on slavery, the Civil War, and Reconstruction.
+- [Periods 3-4 (1754-1848)](../2-periods-3-4/2_periods-3-4): Shows how westward expansion and the slavery debate intensified after the American Revolution and early republic.
+- [Period 6 (1865-1898)](../4-period-6/4_period-6): Explores the consequences of the Civil War and Reconstruction, including the rise of Jim Crow laws and economic transformation.
+- [AP US History Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Tests your knowledge of the Civil War and Reconstruction era, highlighting areas needing review.
+- [AP US History Practice](../../../../../../admissions/src/content/docs/practice-admissions): Provides practice questions on slavery, the Civil War, and Reconstruction.

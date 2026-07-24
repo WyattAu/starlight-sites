@@ -796,6 +796,6 @@ Sequence containers store elements in a linear order. `std::vector` is a dynamic
 
 ## Cross-References
 
-- [Associative Containers](/cpp/standard_library/1_containers_and_allocators/2_associative_containers)
-- [Iterators](/cpp/standard_library/1_containers_and_allocators/3_iterators)
-- [Algorithms and Ranges](/cpp/standard_library/2_algorithms_and_ranges/1_iterator_sentinel)
+- [Associative Containers](../../../../../../programming/src/content/docs/standard_library/1_containers_and_allocators/2_associative_containers)
+- [Iterators](../../../../../../programming/src/content/docs/standard_library/1_containers_and_allocators/3_iterators)
+- [Algorithms and Ranges](../../../../../../programming/src/content/docs/standard_library/2_algorithms_and_ranges/1_iterator_sentinel)

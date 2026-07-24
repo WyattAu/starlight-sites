@@ -582,6 +582,6 @@ Living systems maintain order through energy flow and information transfer. Cell
 
 ## Cross-References
 
-- [Cell Structure and Function](/ap/biology/cell-structure)
-- [Heredity](/ap/biology/heredity)
-- [Natural Selection](/ap/biology/natural-selection)
+- [Cell Structure and Function](biology/2-cell-structure-and-function/2_cell-structure-and-function)
+- [Heredity](biology/4-heredity/4_heredity)
+- [Natural Selection](biology/5-natural-selection/5_natural-selection)

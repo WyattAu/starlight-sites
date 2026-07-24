@@ -1057,6 +1057,6 @@ Layer 2 is the neighbourhood delivery service of networking. MAC addresses are l
 
 ## Cross-References
 
-- [Wireless Networking](/networking/09-wireless/wireless-networking) - How 802.11 extends Ethernet concepts to wireless media
-- [Network Tools](/networking/07-network-tools/network-tools) - Tools for monitoring and troubleshooting Layer 2 network issues
-- [Traffic Analysis](/networking/07-network-tools/traffic-analysis) - How packet capture reveals Layer 2 framing and switching behavior
+- [Wireless Networking](../09-wireless/wireless-networking) - How 802.11 extends Ethernet concepts to wireless media
+- [Network Tools](../07-network-tools/network-tools) - Tools for monitoring and troubleshooting Layer 2 network issues
+- [Traffic Analysis](../07-network-tools/traffic-analysis) - How packet capture reveals Layer 2 framing and switching behavior

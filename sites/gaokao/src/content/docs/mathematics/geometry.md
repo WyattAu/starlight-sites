@@ -322,9 +322,9 @@ Coordinate geometry is like GPS navigation. The coordinate plane is your map, an
 
 ## Cross-References
 
-- [Functions](/gaokao/mathematics/functions) - How coordinate geometry uses function concepts for curve analysis
-- [Algebra](/gaokao/mathematics/algebra) - Algebraic vector operations that form the basis of geometric proofs
-- [Organic Chemistry](/gaokao/chemistry/organic) - Molecular geometry and spatial reasoning that parallels geometric thinking
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - How coordinate geometry uses function concepts for curve analysis
+- [Algebra](../../../../../sat/src/content/docs/mathematics/algebra) - Algebraic vector operations that form the basis of geometric proofs
+- [Organic Chemistry](../../../../../hsc/src/content/docs/chemistry/organic) - Molecular geometry and spatial reasoning that parallels geometric thinking
 
 ## Common Mistakes
 

@@ -1383,7 +1383,7 @@ each approach.
 - [Supply-Side Policy](05-supply-side-policy) -- Supply-side policies aim to shift LRAS, directly affecting the potential output measured by GDP.
 - [Macroeconomic Policy Debates](07-macroeconomic-policy-debates) -- Different schools of thought interpret economic indicators through contrasting theoretical frameworks.
 - [Labour Markets](../microeconomics/05-labour-markets) -- Unemployment measurement and labour market data feed into macroeconomic performance indicators.
-- [Market Failure and Government Intervention](../microeconomics/market-failure) -- Externalities and public goods explain why GDP alone may not reflect true economic welfare.
+- [Market Failure and Government Intervention](../microeconomics/03-market-failure) -- Externalities and public goods explain why GDP alone may not reflect true economic welfare.
 
 </aside>
 

@@ -29,7 +29,7 @@ This note assumes the reader is already familiar with:
 - **Linear and quadratic functions**: slopes, intercepts, vertex form, factorisation.
 - **Simple graph transformations**: translation, reflection, and scaling of $y = f(x)$.
 
-These topics are covered in the introductory [Functions](/maths/functions/) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
+These topics are covered in the introductory [Functions](../../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
 
 This note extends the treatment of functions covered in [Functions](1_functions.mdx), focusing on
 Domain restrictions, composite and inverse functions with non-trivial domains, and graphical

@@ -170,9 +170,9 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 
 ## Cross-References
 
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation derived from Maxwell's equations is the starting point for the retarded potential solutions.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The Lorenz gauge condition $\partial_\mu A^\mu = 0$ is the covariant form of the gauge choice developed here.
-- [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Liénard-Wiechert potentials yield the radiation fields treated in the Larmor and dipole formulas.
+- [Electromagnetic Waves](5_electromagnetic-waves) -- The wave equation derived from Maxwell's equations is the starting point for the retarded potential solutions.
+- [Special Relativity and Electromagnetism](7_special-relativity-and-electromagnetism) -- The Lorenz gauge condition $\partial_\mu A^\mu = 0$ is the covariant form of the gauge choice developed here.
+- [Radiation from Accelerating Charges](10_radiation-from-accelerating-charges) -- The Liénard-Wiechert potentials yield the radiation fields treated in the Larmor and dipole formulas.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

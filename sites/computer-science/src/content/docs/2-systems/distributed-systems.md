@@ -585,9 +585,9 @@ Distributed systems face fundamental challenges: the CAP theorem states you can 
 
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
-| Databases         | [View](/university/computer-science/databases)         |
-| Networking        | [View](/university/computer-science/networking)        |
-| Operating Systems | [View](/university/computer-science/operating-systems) |
+| Databases         | [View](databases)         |
+| Networking        | [View](networking)        |
+| Operating Systems | [View](../../../../../alevel/src/content/docs/computer-science/fundamentals/05-operating-systems) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

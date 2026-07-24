@@ -348,7 +348,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 ## Cross-References
 
-- [Mechanics](/dse/physics/mechanics)
-- [Waves](/dse/physics/waves)
-- [Electricity](/dse/physics/electricity)
-- [Fields](/dse/physics/fields)
+- [Mechanics](../../../../../hsc/src/content/docs/physics/mechanics)
+- [Waves](../../../../../hsc/src/content/docs/physics/waves)
+- [Electricity](../../../../../gaokao/src/content/docs/physics/electricity)
+- [Fields](../../../../../alevel/src/content/docs/physics/diagnostics/diag-electric-fields)

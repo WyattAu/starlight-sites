@@ -1193,6 +1193,6 @@ linked above.
 
 ## Cross-References
 
-- [Network Security](/dse/ict/8-network-security/1_network-security-and-social-implications) applies security protocols to protect the networks and data communications covered here.
-- [Web Development and Multimedia](/dse/ict/7-web-and-multimedia/1_web-development-and-multimedia) uses internet infrastructure to deliver web content and multimedia services.
-- [Data Representation](/dse/ict/1-data-representation/1_data-representation) explains how data is encoded for transmission across networks.
+- [Network Security](../8-network-security/1_network-security-and-social-implications) applies security protocols to protect the networks and data communications covered here.
+- [Web Development and Multimedia](../7-web-and-multimedia/1_web-development-and-multimedia) uses internet infrastructure to deliver web content and multimedia services.
+- [Data Representation](../1-data-representation/1_data-representation) explains how data is encoded for transmission across networks.

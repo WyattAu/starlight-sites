@@ -806,10 +806,10 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 
 ## Cross-References
 
-- [Waves](../waves/01-waves.md) — The Doppler effect for light, used in cosmological redshift, is a wave phenomenon.
-- [Thermal Physics](../thermal-physics/01-thermal-physics.md) — Black body radiation and the Stefan-Boltzmann law connect stellar temperatures to thermal energy.
-- [Nuclear and Quantum Physics](../nuclear-and-quantum-physics/07-quantum-physics.md) — Nuclear fusion in stellar cores and the Chandrasekhar limit depend on quantum mechanics.
-- [Mechanics](../mechanics/01-mechanics.md) — Gravitational potential energy and orbital mechanics underpin the formation and evolution of stars.
+- [Waves](../../../../../../hsc/src/content/docs/physics/waves) — The Doppler effect for light, used in cosmological redshift, is a wave phenomenon.
+- [Thermal Physics](../../../../../../ib/src/content/docs/physics/flashcards-thermal-physics) — Black body radiation and the Stefan-Boltzmann law connect stellar temperatures to thermal energy.
+- [Nuclear and Quantum Physics](../nuclear-physics/03-quantum-physics) — Nuclear fusion in stellar cores and the Chandrasekhar limit depend on quantum mechanics.
+- [Mechanics](../../../../../../hsc/src/content/docs/physics/mechanics) — Gravitational potential energy and orbital mechanics underpin the formation and evolution of stars.
 
 ## Common Mistakes
 

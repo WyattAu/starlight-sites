@@ -346,6 +346,6 @@ Refraction is like light changing lanes on a highway. When light moves from air 
 
 ## Cross-References
 
-- [Mechanics](/gaokao/physics/mechanics) - Wave mechanics and oscillatory motion underlying the wave theory of light
-- [Electricity](/gaokao/physics/electricity) - Electromagnetic theory connecting electric and magnetic fields to light propagation
-- [Algebra](/gaokao/mathematics/algebra) - Algebraic manipulation of lens and mirror formulas for image calculations
+- [Mechanics](../../../../../hsc/src/content/docs/physics/mechanics) - Wave mechanics and oscillatory motion underlying the wave theory of light
+- [Electricity](electricity) - Electromagnetic theory connecting electric and magnetic fields to light propagation
+- [Algebra](../../../../../sat/src/content/docs/mathematics/algebra) - Algebraic manipulation of lens and mirror formulas for image calculations

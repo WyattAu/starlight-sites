@@ -872,8 +872,8 @@ DNS architecture is like a hierarchical phone directory system. The root server 
 
 ## Cross-References
 
-- [DNS](/networking/04-dns/dns) - Foundational DNS concepts including record types, resolution process, and domain hierarchy
-- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp) - Transport protocols that carry DNS queries between resolvers and authoritative servers
-- [HTTP](/networking/05-http-https/http) - Application protocol that relies on DNS for hostname resolution before establishing connections
+- [DNS](dns) - Foundational DNS concepts including record types, resolution process, and domain hierarchy
+- [TCP and UDP](../03-tcp-udp/tcp-and-udp) - Transport protocols that carry DNS queries between resolvers and authoritative servers
+- [HTTP](../05-http-https/http) - Application protocol that relies on DNS for hostname resolution before establishing connections
 
 </aside>

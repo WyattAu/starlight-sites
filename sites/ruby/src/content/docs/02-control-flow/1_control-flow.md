@@ -1168,6 +1168,6 @@ Ruby's blocks are like instructions you hand to a method. You give the method a 
 
 ## Cross-References
 
-- [Variables and Types](/ruby/01-basics/1_variables-and-types) - How Ruby's truthy/falsy values affect conditional evaluation
-- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks and procs enable functional-style control flow patterns
-- [Metaprogramming](/ruby/05-advanced/1_metaprogramming) - How method_missing and eval can create custom control structures
+- [Variables and Types](../../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) - How Ruby's truthy/falsy values affect conditional evaluation
+- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks and procs enable functional-style control flow patterns
+- [Metaprogramming](../../../../../elixir/src/content/docs/04-advanced/1_metaprogramming) - How method_missing and eval can create custom control structures

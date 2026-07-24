@@ -711,9 +711,9 @@ Pure functions in Haskell are like mathematical equations. The expression 2 + 3 
 
 ## Cross-References
 
-- [Types and Functions](/haskell/01-basics/1_types-and-functions) - Foundational type system and pure function concepts that underpin Haskell's design
-- [Type Classes](/haskell/03-type-classes/1_type-classes) - How Haskell achieves polymorphism through type class constraints
-- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - The abstraction hierarchy that structures side effects in pure functional code
+- [Types and Functions](../01-basics/1_types-and-functions) - Foundational type system and pure function concepts that underpin Haskell's design
+- [Type Classes](../03-type-classes/1_type-classes) - How Haskell achieves polymorphism through type class constraints
+- [Monads and Functors](../04-monads/1_monads-and-functors) - The abstraction hierarchy that structures side effects in pure functional code
 
 ## Common Mistakes
 

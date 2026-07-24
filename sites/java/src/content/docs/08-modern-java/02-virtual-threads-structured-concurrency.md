@@ -869,6 +869,6 @@ Virtual threads decouple Java-level threads from OS threads. When a virtual thre
 
 ## Cross-References
 
-- [Concurrency](/java/06-concurrency/01-concurrency) -- threads, synchronized, and volatile
-- [Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
-- [Streams API](/java/05-streams/01-streams-api) -- parallel streams and ForkJoinPool
+- [Concurrency](../06-concurrency/01-concurrency) -- threads, synchronized, and volatile
+- [Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
+- [Streams API](../05-streams/01-streams-api) -- parallel streams and ForkJoinPool

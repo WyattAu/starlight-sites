@@ -1147,6 +1147,6 @@ Data validation ensures that input data conforms to expected shapes and types. P
 
 ## Cross-References
 
-- [Classes](/python/04-object-oriented/01-classes)
-- [Advanced Typing](/python/08-advanced-topics/01-advanced-typing)
-- [Serialization](/python/05-standard-library/04-serialization)
+- [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)
+- [Advanced Typing](../../../../../languages/src/content/docs/python/08-advanced-topics/01-advanced-typing)
+- [Serialization](../../../../../languages/src/content/docs/python/05-standard-library/04-serialization)

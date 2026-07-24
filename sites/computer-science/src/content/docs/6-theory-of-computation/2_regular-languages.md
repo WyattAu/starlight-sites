@@ -399,7 +399,7 @@ Regular. Closure properties do not apply when one operand is non-regular.
 
 - [Context-Free Languages](./3_context-free-languages) -- Regular languages are a subset of context-free languages, forming the simplest level of the Chomsky hierarchy.
 - [Turing Machines](./4_turing-machines) -- Finite automata that recognise regular languages are the simplest computational model in the hierarchy.
-- [Propositional Logic](../../1-discrete-mathematics/1_propositional-and-predicate-logic) -- Boolean algebra underpins both propositional logic and the transition functions of finite automata.
+- [Propositional Logic](../1-discrete-mathematics/1_propositional-and-predicate-logic) -- Boolean algebra underpins both propositional logic and the transition functions of finite automata.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -67,11 +67,11 @@ Dart is an object-oriented language with C-style syntax. It supports classes, in
 
 ### Topic Notes
 
-- [Variables and Types](02-dart-fundamentals/01-variables-and-types) — var, final, const, late, and type inference
-- [Control Flow](02-dart-fundamentals/02-control-flow) — if/else, switch, for/while loops, and collections
-- [Functions](02-dart-fundamentals/03-functions) — optional parameters, named parameters, arrow functions, and closures
-- [Classes and Objects](02-dart-fundamentals/04-classes-and-objects) — constructors, inheritance, mixins, and abstract classes
-- [Collections](02-dart-fundamentals/05-collections) — List, Set, Map, and collection operators
+- [Variables and Types](../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) — var, final, const, late, and type inference
+- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow) — if/else, switch, for/while loops, and collections
+- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — optional parameters, named parameters, arrow functions, and closures
+- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects) — constructors, inheritance, mixins, and abstract classes
+- [Collections](../../../../kotlin/src/content/docs/intermediate/collections) — List, Set, Map, and collection operators
 
 ### Key Concepts
 
@@ -110,8 +110,8 @@ Dart provides built-in support for asynchronous programming with Futures, async/
 
 ### Topic Notes
 
-- [Futures](04-asynchronous/01-futures) — Future, async/await, and error handling
-- [Streams](04-asynchronous/02-streams) — Stream, StreamController, and stream operators
+- [Futures](../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/5_futures_promises) — Future, async/await, and error handling
+- [Streams](../../../../java/src/content/docs/05-streams/01-streams-api) — Stream, StreamController, and stream operators
 - [Isolates](04-asynchronous/03-isolates) — concurrent execution without shared memory
 - [Async Patterns](04-asynchronous/04-async-patterns) — parallel requests, debouncing, and throttling
 
@@ -132,10 +132,10 @@ Flutter is Google's UI toolkit for building cross-platform applications from a s
 ### Topic Notes
 
 - [Flutter Basics](05-flutter/01-flutter-basics) — MaterialApp, Scaffold, runApp, and the widget tree
-- [Navigation](05-flutter/02-navigation) — Navigator, named routes, and push/pop
-- [Platform Integration](05-flutter/03-platform-integration) — platform channels, plugins, and native code
-- [Testing](05-flutter/04-testing) — unit tests, widget tests, and integration tests
-- [Performance](05-flutter/05-performance) — DevTools, profiling, and optimization
+- [Navigation](09-flutter-fundamentals/01-navigation) — Navigator, named routes, and push/pop
+- [Platform Integration](11-networking-and-data/01-platform-integration) — platform channels, plugins, and native code
+- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — unit tests, widget tests, and integration tests
+- [Performance](../../../../alevel/src/content/docs/economics/macro/01-macroeconomic-performance) — DevTools, profiling, and optimization
 
 ### Key Concepts
 
@@ -177,7 +177,7 @@ State management is one of the most important architectural decisions in a Flutt
 
 - [Provider](07-state-management/01-provider) — ChangeNotifier, ProxyProvider, and Consumer
 - [Riverpod](07-state-management/02-riverpod) — Provider, StateProvider, and modern dependency injection
-- [BLoC](07-state-management/03-bloc) — Business Logic Component, events, and streams
+- [BLoC](../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) — Business Logic Component, events, and streams
 - [Other Approaches](07-state-management/04-other-approaches) — GetX, MobX, and Redux
 
 ### Key Concepts

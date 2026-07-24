@@ -328,5 +328,5 @@ Derivative diagnostics test whether you can handle **compositions, implicit func
 
 ## Cross-References
 
-- **[Derivatives](../../2-derivatives/2_derivatives):** The full topic page covering chain rule, implicit differentiation, and all differentiation techniques.
-- **[Integrals](../../3-integrals/3_integrals):** The FTC connects derivatives and integrals — the derivative of an integral returns the original function.
+- **[Derivatives](../2-derivatives/2_derivatives):** The full topic page covering chain rule, implicit differentiation, and all differentiation techniques.
+- **[Integrals](../3-integrals/3_integrals):** The FTC connects derivatives and integrals — the derivative of an integral returns the original function.

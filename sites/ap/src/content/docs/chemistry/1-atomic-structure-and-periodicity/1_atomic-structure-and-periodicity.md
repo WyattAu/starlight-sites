@@ -875,8 +875,8 @@ The molecular world governs our everyday experience. Chemical bonds determine ma
 
 ## Cross-References
 
-- [Atomic Structure](/ap/chemistry/atomic-structure)
-- [Bonding](/ap/chemistry/bonding)
-- [Stoichiometry](/ap/chemistry/stoichiometry)
-- [Thermodynamics](/ap/chemistry/thermodynamics)
-- **[AP Physics — Electrostatics](/ap/physics/electrostatics):** Coulomb's law governs electron-nuclear interactions that determine atomic structure and electron configurations.
+- [Atomic Structure](../../../../../../alevel/src/content/docs/chemistry/atomic-structure)
+- [Bonding](../../../../../../alevel/src/content/docs/chemistry/bonding-and-structure)
+- [Stoichiometry](../../../../../../leaving-cert/src/content/docs/chemistry/3-stoichiometry/3_stoichiometry)
+- [Thermodynamics](../../../../../../alevel/src/content/docs/chemistry/thermodynamics)
+- **[AP Physics — Electrostatics](../../physics/6-electrostatics/6_electrostatics):** Coulomb's law governs electron-nuclear interactions that determine atomic structure and electron configurations.

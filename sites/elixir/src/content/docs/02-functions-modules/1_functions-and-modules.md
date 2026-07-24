@@ -881,6 +881,6 @@ Protocols are like electrical outlets. The protocol defines the shape of the out
 
 ## Cross-References
 
-- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - How pattern matching enables multi-clause function dispatch
-- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How GenServer and supervisors use modules to structure concurrent processes
-- [Metaprogramming](/elixir/04-advanced/1_metaprogramming) - How macros extend module functionality at compile time
+- [Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching) - How pattern matching enables multi-clause function dispatch
+- [Concurrency and OTP](../03-concurrency/1_concurrency-otp) - How GenServer and supervisors use modules to structure concurrent processes
+- [Metaprogramming](../04-advanced/1_metaprogramming) - How macros extend module functionality at compile time

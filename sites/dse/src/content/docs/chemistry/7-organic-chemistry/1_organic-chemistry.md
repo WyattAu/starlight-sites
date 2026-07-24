@@ -2050,5 +2050,5 @@ $$\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%$$
 - [Human Physiology](../../biology/4-human-physiology/1_human-physiology) -- Digestion and metabolism of organic molecules connects chemistry to biological systems.
 - [Plant Biology](../../biology/5-plant-biology/1_plant-biology) -- Photosynthesis and plant metabolism involve organic reactions like carbon fixation.
 - [Genetics](../../biology/3-genetics/1_genetics) -- DNA structure and protein synthesis are fundamentally organic chemistry processes.
-- [Nuclear Physics](../5-nuclear-physics/1_nuclear-physics) -- Radioactive isotopes used in organic analysis and carbon dating connect these fields.
+- [Nuclear Physics](../../physics/5-nuclear-physics/1_nuclear-physics) -- Radioactive isotopes used in organic analysis and carbon dating connect these fields.
 

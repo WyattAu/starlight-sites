@@ -68,7 +68,7 @@ Haskell is the purest functional programming language in mainstream use. Functio
 ### Topic Notes
 
 - [Syntax Basics](02-fundamentals/01-syntax-basics) — function definitions, guards, and where clauses
-- [Higher-Order Functions](02-fundamentals/02-higher-order-functions) — map, filter, fold, and function composition
+- [Higher-Order Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — map, filter, fold, and function composition
 - [Currying and Partial Application](02-fundamentals/03-currying-and-partial-application) — all functions take one argument, function application
 - [Laziness](02-fundamentals/04-laziness) — lazy evaluation, infinite data structures, and thunks
 - [Lists and Recursion](02-fundamentals/05-lists-and-recursion) — list comprehension, pattern matching, and recursive data structures
@@ -112,9 +112,9 @@ Type classes define interfaces for groups of types. They are similar to interfac
 ### Topic Notes
 
 - [Type Class Basics](04-type-classes/01-type-class-basics) — defining type classes, deriving instances
-- [Standard Type Classes](04-type-classes/02-standard-type-classes) — Eq, Ord, Show, Read, Num, Functor, Applicative, Monad
+- [Standard Type Classes](../../../../java/src/content/docs/03-object-oriented/01-classes) — Eq, Ord, Show, Read, Num, Functor, Applicative, Monad
 - [Instance Resolution](04-type-classes/03-instance-resolution) — how the compiler finds the right instance
-- [Multi-Parameter Type Classes](04-type-classes/04-multi-parameter-type-classes) and functional dependencies
+- [Multi-Parameter Type Classes](../../../../java/src/content/docs/03-object-oriented/01-classes) and functional dependencies
 
 ### Key Concepts
 
@@ -178,7 +178,7 @@ These topics cover Haskell's deeper layers — applicatives, monoids, lenses, an
 - [Applicative Functors](07-advanced/01-applicative-functors) — pure, (<*>), and applicative style
 - [Monoids and Folds](07-advanced/02-monoids-and-folds) — Monoid type class, foldMap, and monoidal aggregation
 - [Lenses](07-advanced/03-lenses) — focusing on parts of nested data structures
-- [Property-Based Testing](07-advanced/04-property-based-testing) — QuickCheck, Arbitrary, and generative testing
+- [Property-Based Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — QuickCheck, Arbitrary, and generative testing
 
 ### Key Concepts
 

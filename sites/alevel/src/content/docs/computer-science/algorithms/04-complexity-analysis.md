@@ -175,7 +175,7 @@ Inputs).
 Compute the total cost of $n$ operations and divide by $n$.
 
 **Example: Dynamic array.** Total cost of $n$ insertions: $O(n)$ (proved in
-[Arrays and Records](/computer-science/data-structures/arrays-and-records)). Amortised
+[Arrays and Records](../data-structures/01-arrays-and-records)). Amortised
 Cost per insertion: $O(1)$.
 
 #### Accounting Method
@@ -428,7 +428,7 @@ $\square$
 **Corollary.** If $f = O(g)$Then $O(f + g) = O(g)$.
 
 For revision on specific algorithm complexities, see
-[Sorting Algorithms](/computer-science/algorithms/sorting-algorithms) and
+[Sorting Algorithms](02-sorting-algorithms) and
 [Searching Algorithms](/computer-science/algorithms/searching-algorithms).
 
 </details>

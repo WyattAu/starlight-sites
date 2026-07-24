@@ -475,7 +475,7 @@ Actors and at least five use cases.
 - Admin is associated with Manage Inventory, Generate Reports
 - Payment System is associated with Process Payment
 
-For revision on testing, see [Testing](/computer-science/software-engineering/testing).
+For revision on testing, see [Testing](02-testing).
 
 </details>
 

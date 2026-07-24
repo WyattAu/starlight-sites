@@ -32,7 +32,7 @@ understanding of chemical principles.
 
 Atomic models, electron configuration, periodic trends, and radioactivity.
 
-→ **[Full notes](../../gcse/chemistry/1-atomic-structure/1_atomic-structure.md)**
+→ **[Full notes](1-atomic-structure/1_atomic-structure)**
 
 ### Bonding
 

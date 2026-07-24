@@ -976,6 +976,6 @@ Interior mutability is like a locked diary with a special pen that can write thr
 
 ## Cross-References
 
-- [Ownership](/rust/02-ownership-borrowing/ownership) - The foundational ownership rules that interior mutability works within
-- [Lifetimes](/rust/02-ownership-borrowing/lifetimes) - How lifetime constraints interact with interior mutability types
-- [Structs and Enums](/rust/03-structs-enums/structs-and-enums) - How to design types that use interior mutability patterns
+- [Ownership](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) - The foundational ownership rules that interior mutability works within
+- [Lifetimes](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/lifetimes) - How lifetime constraints interact with interior mutability types
+- [Structs and Enums](../../../../../languages/src/content/docs/rust/03-structs-enums/structs-and-enums) - How to design types that use interior mutability patterns

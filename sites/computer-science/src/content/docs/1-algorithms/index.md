@@ -103,8 +103,8 @@ Each section includes:
 
 ## Cross-References
 
-- **[Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
-- **[Discrete Mathematics](../../mathematics/src/content/docs/1-abstract-algebra/index.md):** Graph theory and combinatorics foundations for algorithm design.
+- **[Algorithm Analysis](../2-algorithms-and-data-structures/1_algorithm-analysis):** Formal complexity analysis for the algorithms studied here.
+- **[Discrete Mathematics](../../../../../typescript/src/content/docs/index):** Graph theory and combinatorics foundations for algorithm design.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

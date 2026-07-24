@@ -954,6 +954,6 @@ Structs and enums are like Lego bricks and decision trees. Structs are labeled c
 
 ## Cross-References
 
-- [Advanced Patterns](/rust/03-structs-enums/advanced-patterns) - Design patterns that build on basic struct and enum concepts
-- [Ownership](/rust/02-ownership-borrowing/ownership) - How ownership rules affect struct field access and enum variant data
-- [Control Flow](/rust/01-fundamentals/control-flow) - Pattern matching in match expressions and if-let
+- [Advanced Patterns](../../../../../languages/src/content/docs/rust/03-structs-enums/advanced-patterns) - Design patterns that build on basic struct and enum concepts
+- [Ownership](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) - How ownership rules affect struct field access and enum variant data
+- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow) - Pattern matching in match expressions and if-let

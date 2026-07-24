@@ -896,24 +896,24 @@ This equals $-\dfrac{\pi^2}{12}$.
 
 Integration techniques (substitution, parts, partial fractions) are essential tools for solving
 Differential equations. See
-[Differential Equations](/further-maths/pure-mathematics/differential-equations).
+[Differential Equations](07-differential-equations).
 
 ### 11.2 Calculus and Maclaurin series
 
 Taylor and Maclaurin expansions provide powerful tools for evaluating integrals that cannot be found
 In closed form. See
-[Maclaurin and Taylor Series](/further-maths/pure-mathematics/maclaurin-taylor-series).
+[Maclaurin and Taylor Series](../diagnostics/diag-maclaurin-taylor-series).
 
 ### 11.3 Calculus and mechanics
 
 Arc length and area calculations are used extensively in mechanics for work-energy problems. See
-[Circular Motion](/further-maths/further-mechanics/further-circular-motion).
+[Circular Motion](../further-mechanics/02-circular-motion).
 
 ### 11.4 Calculus and hyperbolic functions
 
 The inverse hyperbolic functions arise from integration:
 $\displaystyle\int \frac{dx}{\sqrt{x^2+a^2}} = \operatorname{arsinh}(x/a) + C$. See
-[Hyperbolic Functions](/further-maths/pure-mathematics/hyperbolic-functions).
+[Hyperbolic Functions](../pure/hyperbolic-functions).
 
 ---
 

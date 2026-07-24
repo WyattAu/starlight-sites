@@ -190,7 +190,7 @@ Periods 1-2 (1491-1754) establish the **foundations of American diversity**. Bef
 
 ## Cross-References
 
-- [Periods 3-4 (1754-1848)](/ap/history/periods-3-4): Continues the narrative of colonial development into the American Revolution and early republic, building on themes of governance and colonial resistance.
-- [Period 5 (1844-1877)](/ap/history/period-5): Explores the consequences of slavery and westward expansion that began in the colonial period.
-- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Tests your knowledge of colonial American history and identifies gaps in understanding.
-- [AP US History Practice](/ap/history/practice): Provides exam-style questions to reinforce your understanding of colonial America's development.
+- [Periods 3-4 (1754-1848)](../2-periods-3-4/2_periods-3-4): Continues the narrative of colonial development into the American Revolution and early republic, building on themes of governance and colonial resistance.
+- [Period 5 (1844-1877)](../3-period-5/3_period-5): Explores the consequences of slavery and westward expansion that began in the colonial period.
+- [AP US History Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Tests your knowledge of colonial American history and identifies gaps in understanding.
+- [AP US History Practice](../../../../../../admissions/src/content/docs/practice-admissions): Provides exam-style questions to reinforce your understanding of colonial America's development.

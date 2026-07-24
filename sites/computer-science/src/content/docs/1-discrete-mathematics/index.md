@@ -112,8 +112,8 @@ Each section includes:
 
 ## Cross-References
 
-- **[Algorithms](../../1-algorithms/index.md):** Algorithm design techniques that build on discrete math foundations.
-- **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including abstract algebra and number theory.
+- **[Algorithms](../../../../../typescript/src/content/docs/index):** Algorithm design techniques that build on discrete math foundations.
+- **[Mathematics](../../../../../typescript/src/content/docs/index):** University-level mathematics including abstract algebra and number theory.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

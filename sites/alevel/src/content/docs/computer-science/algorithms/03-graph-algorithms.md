@@ -22,7 +22,7 @@ categories:
 
 ## 1. Dijkstra"s Algorithm (Revisited)
 
-See [Graphs](/computer-science/data-structures/graphs) for the full treatment. Here we
+See [Graphs](../data-structures/05-graphs) for the full treatment. Here we
 Provide additional detail on the priority queue implementation and A\* extension.
 
 ### Priority Queue Optimisation
@@ -104,7 +104,7 @@ Path — contradiction. $\square$
 
 ### Kruskal's Algorithm (Detailed)
 
-See [Graphs](/computer-science/data-structures/graphs) for the basic algorithm. Here we
+See [Graphs](../data-structures/05-graphs) for the basic algorithm. Here we
 Formalise the Union-Find data structure.
 
 #### Union-Find with Path Compression and Union by Rank
@@ -482,7 +482,7 @@ $O(k \cdot V)$ (or $O(V)$ with rolling array optimisation).
 
 For $k = V-1$This is equivalent to the Bellman-Ford algorithm.
 
-For revision on graphs, see [Graphs](/computer-science/data-structures/graphs).
+For revision on graphs, see [Graphs](../data-structures/05-graphs).
 
 </details>
 

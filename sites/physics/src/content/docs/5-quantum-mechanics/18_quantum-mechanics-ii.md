@@ -777,10 +777,10 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 
 | Topic                               | Link                                                                      |
 | ----------------------------------- | ------------------------------------------------------------------------- |
-| Quantum Mechanics I (Prerequisites) | [View](/university/physics/quantum-mechanics)                        |
-| Solid State Physics                 | [View](/university/physics/solid-state-physics)                      |
-| Particle Physics and Cosmology      | [View](/university/physics/particle-physics-and-cosmology)           |
-| Electromagnetism                    | [View](/university/physics/electromagnetism)                         |
+| Quantum Mechanics I (Prerequisites) | [View](16_flashcards-quantum-mechanics)                        |
+| Solid State Physics                 | [View](../6-solid-state-physics/17_practice-solid-state-physics)                      |
+| Particle Physics and Cosmology      | [View](../../../../../alevel/src/content/docs/physics/nuclear-and-particle/particle-physics)           |
+| Electromagnetism                    | [View](../../../../../alevel/src/content/docs/physics/diagnostics/diag-electromagnetism-unification)                         |
 | MIT 8.05 Quantum Physics II         | [View](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/)    |
 | MIT 8.06 Quantum Physics III        | [View](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/) |
 
@@ -815,5 +815,5 @@ Perturbation theory is like adding small corrections to a solution you already k
 
 | Topic               | Link                                               |
 | ------------------- | -------------------------------------------------- |
-| Quantum Mechanics I | [View](/university/physics/quantum-mechanics) |
-| Thermodynamics      | [View](/university/physics/thermodynamics)    |
+| Quantum Mechanics I | [View](16_flashcards-quantum-mechanics) |
+| Thermodynamics      | [View](../../../../../alevel/src/content/docs/chemistry/thermodynamics)    |

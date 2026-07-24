@@ -73,14 +73,14 @@ GCSE Biology covers cell biology, organisation, infection and response, bioenerg
 - [Plant Organisation](/biology/2-organisation/2_plant-organisation) — transport systems in plants, xylem, and phloem
 - [Infection and Response](/biology/3-infection-and-response/1_infection-and-response) — pathogens, immune system, and vaccination
 - [Bioenergetics](/biology/4-bioenergetics/1_bioenergetics) — photosynthesis, cellular respiration, and metabolic pathways
-- [Homeostasis](/biology/5-homeostasis/1_homeostasis) — nervous system, hormonal coordination, and feedback mechanisms
+- [Homeostasis](../../../../alevel/src/content/docs/biology/homeostasis) — nervous system, hormonal coordination, and feedback mechanisms
 - [Inheritance and Variation](/biology/6-inheritance/1_inheritance) — genetics, DNA, evolution, and genetic engineering
-- [Ecology](/biology/7-ecology/1_ecology) — ecosystems, biodiversity, and environmental change
+- [Ecology](../../../../dse/src/content/docs/biology/2-ecology/1_ecology) — ecosystems, biodiversity, and environmental change
 
 ### Practice and Review
 
-- [Flashcards: Cell Biology](/biology/flashcards-cell-biology)
-- [Practice Questions: Cell Biology](/biology/practice-cell-biology)
+- [Flashcards: Cell Biology](../../../../ib/src/content/docs/biology/flashcards-cell-biology)
+- [Practice Questions: Cell Biology](../../../../ib/src/content/docs/biology/practice-cell-biology)
 - [Diagnostic Quizzes](biology/diagnostics) — test your knowledge across all biology topics
 
 ---
@@ -91,20 +91,20 @@ GCSE Chemistry covers atomic structure and bonding, quantitative chemistry, chem
 
 ### Topic Notes
 
-- [Atomic Structure and Bonding](/chemistry/1-atomic-structure/1_atomic-structure-and-bonding) — electron configuration, ionic, covalent, and metallic bonding
-- [States of Matter](/chemistry/1-atomic-structure/2_states-of-matter) — solids, liquids, gases, and changes of state
-- [Quantitative Chemistry](/chemistry/2-quantitative-chemistry/1_quantitative-chemistry) — moles, concentration, yield, and titrations
+- [Atomic Structure and Bonding](../../../../dse/src/content/docs/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) — electron configuration, ionic, covalent, and metallic bonding
+- [States of Matter](../../../../ib/src/content/docs/chemistry/1-stoichiometry/2_states-of-matter) — solids, liquids, gases, and changes of state
+- [Quantitative Chemistry](../../../../alevel/src/content/docs/chemistry/quantitative-chemistry) — moles, concentration, yield, and titrations
 - [Chemical Changes](/chemistry/3-chemical-changes/1_chemical-changes) — acids, bases, electrolysis, and reactivity series
-- [Energy Changes](/chemistry/4-energy-changes/1_energy-changes) — exothermic and endothermic reactions, bond energies
+- [Energy Changes](physics/1-energy/1_energy) — exothermic and endothermic reactions, bond energies
 - [Rate of Reaction](/chemistry/5-rate-of-reaction/1_rate-of-reaction) — collision theory, factors affecting rate, and graphs
-- [Organic Chemistry](/chemistry/6-organic-chemistry/1_organic-chemistry) — hydrocarbons, alcohols, carboxylic acids, and polymers
+- [Organic Chemistry](../../../../dse/src/content/docs/chemistry/7-organic-chemistry/1_organic-chemistry) — hydrocarbons, alcohols, carboxylic acids, and polymers
 - [Chemical Analysis](/chemistry/7-chemical-analysis/1_chemical-analysis) — pure substances, mixtures, and chromatography
 - [The Atmosphere](/chemistry/8-the-atmosphere/1_the-atmosphere) — composition, climate change, and greenhouse gases
-- [Using Resources](/chemistry/9-using-resources/1_using-resources) — sustainability, water treatment, and life cycle assessment
+- [Using Resources](../../../../dse/src/content/docs/geography/resources) — sustainability, water treatment, and life cycle assessment
 
 ### Practice and Review
 
-- [Flashcards: Atomic Structure](/chemistry/flashcards-atomic-structure)
+- [Flashcards: Atomic Structure](../../../../ib/src/content/docs/chemistry/flashcards-atomic-structure)
 - [Practice Questions: Bonding](/chemistry/practice-bonding)
 - [Diagnostic Quizzes](chemistry/diagnostics) — assess your strengths and weaknesses across chemistry topics
 
@@ -116,20 +116,20 @@ GCSE Computer Science covers computational thinking, algorithms, programming, da
 
 ### Topic Notes
 
-- [Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking) — decomposition, abstraction, and pattern recognition
-- [Algorithms](/computer-science/1-computational-thinking/2_algorithms) — pseudocode, flowcharts, and algorithm design
-- [Data Representation](/computer-science/2-data-representation/1_data-representation) — binary, hex, ASCII, and image representation
-- [Programming Fundamentals](/computer-science/3-programming/1_programming-fundamentals) — variables, control structures, and I/O
-- [Programming Concepts](/computer-science/3-programming/2_programming-concepts) — functions, arrays, file handling, and string manipulation
-- [Computer Systems](/computer-science/4-computer-systems/1_computer-systems) — hardware, software, and the CPU
+- [Computational Thinking](../../../../ap/src/content/docs/computer-science/1-computational-thinking/1_computational-thinking) — decomposition, abstraction, and pattern recognition
+- [Algorithms](../../../../ib/src/content/docs/computer-science/4-computational-thinking/2_algorithms-and-data-structures) — pseudocode, flowcharts, and algorithm design
+- [Data Representation](../../../../dse/src/content/docs/ict/1-data-representation/1_data-representation) — binary, hex, ASCII, and image representation
+- [Programming Fundamentals](../../../../dse/src/content/docs/ict/3-programming-and-databases/1_programming-fundamentals) — variables, control structures, and I/O
+- [Programming Concepts](../../../../leaving-cert/src/content/docs/computer-science/2-programming/2_programming) — functions, arrays, file handling, and string manipulation
+- [Computer Systems](../../../../dse/src/content/docs/ict/2-computer-systems/1_computer-systems) — hardware, software, and the CPU
 - [Memory and Storage](/computer-science/4-computer-systems/2_memory-and-storage) — RAM, ROM, and secondary storage
-- [Networking](/computer-science/5-networking/1_networking) — network types, protocols, and the internet
+- [Networking](../../../../computer-science/src/content/docs/2-systems/networking) — network types, protocols, and the internet
 - [Cybersecurity](/computer-science/6-cybersecurity/1_cybersecurity) — threats, protection, and data security
 - [Ethical, Legal, Cultural, and Environmental Issues](/computer-science/7-ethics/1_ethics) — legislation, copyright, and digital citizenship
 
 ### Practice and Review
 
-- [Flashcards: Algorithms](/computer-science/flashcards-algorithms)
+- [Flashcards: Algorithms](../../../../alevel/src/content/docs/computer-science/flashcards-algorithms)
 - [Practice Questions: Programming](/computer-science/practice-programming)
 - [Diagnostic Quizzes](computer-science/diagnostics) — test across all computer science topics
 
@@ -141,19 +141,19 @@ GCSE English Language covers reading comprehension, writing skills, analysis of 
 
 ### Topic Notes
 
-- [Reading: Fiction](/english/1-reading-fiction/1_reading-fiction) — narrative techniques, character, and setting analysis
-- [Reading: Non-Fiction](/english/2-reading-non-fiction/1_reading-non-fiction) — argument, persuasion, and rhetorical analysis
-- [Writing: Fiction](/english/3-writing-fiction/1_writing-fiction) — short story, descriptive writing, and narrative craft
-- [Writing: Non-Fiction](/english/4-writing-non-fiction/1_writing-non-fiction) — transactional writing, letters, and reports
-- [Poetry](/english/5-poetry/1_poetry) — forms, techniques, and comparison of poems
-- [Prose](/english/6-prose/1_prose) — novel study, character analysis, and themes
-- [Drama](/english/7-drama/1_drama) — play study, dramatic techniques, and performance
-- [Spoken Language](/english/8-spoken-language/1_spoken-language) — presentation skills, discussion, and evaluation
+- [Reading: Fiction](../../../../gaokao/src/content/docs/chinese/reading) — narrative techniques, character, and setting analysis
+- [Reading: Non-Fiction](../../../../gaokao/src/content/docs/chinese/reading) — argument, persuasion, and rhetorical analysis
+- [Writing: Fiction](../../../../gaokao/src/content/docs/chinese/writing) — short story, descriptive writing, and narrative craft
+- [Writing: Non-Fiction](../../../../gaokao/src/content/docs/chinese/writing) — transactional writing, letters, and reports
+- [Poetry](../../../../alevel/src/content/docs/english/2-poetry/1_poetry-analysis) — forms, techniques, and comparison of poems
+- [Prose](../../../../alevel/src/content/docs/english/3-prose/1_prose-analysis) — novel study, character analysis, and themes
+- [Drama](../../../../alevel/src/content/docs/english/4-drama/1_drama-analysis) — play study, dramatic techniques, and performance
+- [Spoken Language](../../../../sat/src/content/docs/writing/language) — presentation skills, discussion, and evaluation
 
 ### Practice and Review
 
-- [Flashcards: Poetry](/english/flashcards-poetry)
-- [Practice Questions: Reading](/english/practice-reading)
+- [Flashcards: Poetry](../../../../ib/src/content/docs/english/flashcards-poetry)
+- [Practice Questions: Reading](../../../../sat/src/content/docs/practice-reading)
 - [Diagnostic Quizzes](english/diagnostics) — test across all English topics
 
 ---
@@ -165,17 +165,17 @@ GCSE Mathematics covers number, algebra, ratio and proportion, geometry and meas
 ### Topic Notes
 
 - [Number](maths/1-number/1_number) — integers, fractions, decimals, percentages, and surds
-- [Algebra](/maths/2-algebra/1_algebra) — expressions, equations, inequalities, sequences, and graphs
+- [Algebra](../../../../leaving-cert/src/content/docs/maths/1-algebra/1_algebra) — expressions, equations, inequalities, sequences, and graphs
 - [Ratio and Proportion](/maths/3-ratio/1_ratio) — ratios, percentages, compound measures, and direct/inverse proportion
-- [Geometry and Measure](/maths/4-geometry/1_geometry) — angles, polygons, circles, trigonometry, vectors, and transformations
-- [Probability](/maths/5-probability/1_probability) — single events, combined events, tree diagrams, and conditional probability
+- [Geometry and Measure](../../../../sat/src/content/docs/mathematics/geometry) — angles, polygons, circles, trigonometry, vectors, and transformations
+- [Probability](../../../../ib/src/content/docs/maths/4-statistics-and-probability/1_probability) — single events, combined events, tree diagrams, and conditional probability
 - [Statistics](/maths/6-statistics/1_statistics) — averages, spread, frequency tables, cumulative frequency, and scatter graphs
 - [Problem Solving](/maths/7-problem-solving/1_problem-solving) — multi-step problems, mathematical reasoning, and real-world applications
 
 ### Practice and Review
 
-- [Flashcards: Algebra](/maths/flashcards-algebra)
-- [Practice Questions: Geometry](/maths/practice-geometry)
+- [Flashcards: Algebra](../../../../sat/src/content/docs/mathematics/algebra)
+- [Practice Questions: Geometry](../../../../ib/src/content/docs/maths/practice-geometry-trigonometry)
 - [Diagnostic Quizzes](maths/diagnostics) — test across all maths topics
 
 ---
@@ -187,17 +187,17 @@ GCSE Physics covers energy, electricity, particle model of matter, atomic struct
 ### Topic Notes
 
 - [Energy](physics/1-energy/1_energy) — energy stores, transfers, efficiency, and power
-- [Electricity](/physics/2-electricity/1_electricity) — current, voltage, resistance, circuits, and the national grid
+- [Electricity](../../../../gaokao/src/content/docs/physics/electricity) — current, voltage, resistance, circuits, and the national grid
 - [Particle Model of Matter](/physics/3-particle-model/1_particle-model) — states of matter, density, and specific heat capacity
-- [Atomic Structure](/physics/4-atomic-structure/1_atomic-structure) — the atom, radioactive decay, and half-life
-- [Forces](/physics/5-forces/1_forces) — Newton's laws, resultant forces, momentum, and braking distance
-- [Waves](/physics/6-waves/1_waves) — transverse and longitudinal waves, reflection, refraction, and the electromagnetic spectrum
+- [Atomic Structure](../../../../leaving-cert/src/content/docs/chemistry/1-atomic-structure/1_atomic-structure) — the atom, radioactive decay, and half-life
+- [Forces](../../../../dse/src/content/docs/physics/1-mechanics/1_forces-and-motion) — Newton's laws, resultant forces, momentum, and braking distance
+- [Waves](../../../../dse/src/content/docs/physics/2-waves/1_waves-and-sound) — transverse and longitudinal waves, reflection, refraction, and the electromagnetic spectrum
 - [Magnetism and Electromagnetic Induction](/physics/7-magnetism/1_magnetism) — magnetic fields, the motor effect, and induced EMF
 
 ### Practice and Review
 
 - [Flashcards: Forces](/physics/flashcards-forces)
-- [Practice Questions: Electricity](/physics/practice-electricity)
+- [Practice Questions: Electricity](../../../../ib/src/content/docs/physics/practice-electricity)
 - [Diagnostic Quizzes](physics/diagnostics) — test across all physics topics
 
 ---

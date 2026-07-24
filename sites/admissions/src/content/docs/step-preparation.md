@@ -738,7 +738,7 @@ When working with step preparation, follow a structured approach:
 | -------------------------- | -------------------- | ------------------------------------------------------------------------------- |
 | STEP Past Papers           | Cambridge Assessment | [View](https://www.ocr.org.uk/qualifications/past-paper-finder/?step=1&qual=89) |
 | STEP Support Programme     | Cambridge            | [View](https://maths.org/step/)                                                 |
-| MAT Preparation            | WyattsNotes          | [View](/university/admissions/mat-preparation)                             |
-| TMUA Preparation           | WyattsNotes          | [View](/university/admissions/tmua-preparation)                            |
-| Calculus — Differentiation | WyattsNotes          | [View](/ib/maths/calculus/differentiation-depth)                           |
-| Calculus — Integration     | WyattsNotes          | [View](/ib/maths/calculus/integration-depth)                               |
+| MAT Preparation            | WyattsNotes          | [View](mat-preparation)                             |
+| TMUA Preparation           | WyattsNotes          | [View](tmua-preparation)                            |
+| Calculus — Differentiation | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/10-differentiation)                           |
+| Calculus — Integration     | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/11-integration)                               |

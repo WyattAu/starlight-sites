@@ -207,7 +207,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Networking Fundamentals Guide](/networking/fundamentals/)
-- [TCP/IP Deep Dive](/networking/tcp-ip/)
-- [Network Security Overview](/networking/security/)
+- [Networking Fundamentals Guide](../../../../alevel/src/content/docs/computer-science/diagnostics/diag-fundamentals)
+- [TCP/IP Deep Dive](01-osi-model/osi-and-tcp-ip)
+- [Network Security Overview](../../../../alevel/src/content/docs/computer-science/networks/02-network-security)
 - [Troubleshooting Guide](/networking/troubleshooting/)

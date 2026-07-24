@@ -880,6 +880,6 @@ Symbols in Ruby are like permanent labels. Unlike strings, which can be modified
 
 ## Cross-References
 
-- [Control Flow](/ruby/02-control-flow/1_control-flow) - How conditionals and loops use Ruby's truthy/falsy evaluation
-- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks interact with method arguments and variable scope
-- [OOP](/ruby/04-oop/1_oop) - How every value in Ruby is an object with methods and class hierarchy
+- [Control Flow](../../../../../languages/src/content/docs/ruby/02-control-flow/1_control-flow) - How conditionals and loops use Ruby's truthy/falsy evaluation
+- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks interact with method arguments and variable scope
+- [OOP](../../../../../languages/src/content/docs/ruby/04-oop/1_oop) - How every value in Ruby is an object with methods and class hierarchy

@@ -1402,6 +1402,6 @@ Generators are lazy factories: they produce values one at a time instead of buil
 
 ## Cross-References
 
-- [Control Flow](/python/02-fundamentals/02-control-flow)
-- [Data Structures](/python/03-data-structures/01-collections)
-- [Async/Await](/python/06-async/01-async-await)
+- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow)
+- [Data Structures](../../../../../kotlin/src/content/docs/intermediate/collections)
+- [Async/Await](../../../../../languages/src/content/docs/python/06-async/01-async-await)

@@ -1009,6 +1009,6 @@ Channels are Rust's answer to "share memory by communicating" instead of "commun
 
 ## Cross-References
 
-- [Concurrency](/rust/06-concurrency/concurrency)
-- [Async Deep Dive](/rust/06-concurrency/async-deep-dive)
-- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Concurrency](../../../../../java/src/content/docs/06-concurrency/01-concurrency)
+- [Async Deep Dive](../../../../../languages/src/content/docs/rust/06-concurrency/async-deep-dive)
+- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)

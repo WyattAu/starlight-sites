@@ -1189,6 +1189,6 @@ linked above.
 
 ## Cross-References
 
-- [Internet and Data Communications](/dse/ict/4-networking-and-internet/1_internet-and-data-communications) explains the network protocols that enable web technologies and multimedia delivery.
-- [Network Security](/dse/ict/8-network-security/1_network-security-and-social-implications) covers the security measures needed to protect web applications and user data.
-- [Office Automation](/dse/ict/5-office-automation/1_office-automation) provides the foundational computing skills that web development builds upon.
+- [Internet and Data Communications](../4-networking-and-internet/1_internet-and-data-communications) explains the network protocols that enable web technologies and multimedia delivery.
+- [Network Security](../8-network-security/1_network-security-and-social-implications) covers the security measures needed to protect web applications and user data.
+- [Office Automation](../5-office-automation/1_office-automation) provides the foundational computing skills that web development builds upon.

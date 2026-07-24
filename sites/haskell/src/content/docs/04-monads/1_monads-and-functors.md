@@ -876,6 +876,6 @@ combined = do
 
 ## Cross-References
 
-- [Type Classes](/haskell/03-type-classes/1_type-classes) - How Functor, Applicative, and Monad form a type class hierarchy
-- [Pattern Matching](/haskell/02-pattern-matching/1_pattern-matching) - How pattern matching on Maybe and Either enables monadic error handling
-- [Concurrency](/haskell/05-advanced/2_concurrency) - How IO monad and STM provide composable concurrency primitives
+- [Type Classes](../03-type-classes/1_type-classes) - How Functor, Applicative, and Monad form a type class hierarchy
+- [Pattern Matching](../02-pattern-matching/1_pattern-matching) - How pattern matching on Maybe and Either enables monadic error handling
+- [Concurrency](../../../../../ruby/src/content/docs/05-advanced/2_concurrency) - How IO monad and STM provide composable concurrency primitives

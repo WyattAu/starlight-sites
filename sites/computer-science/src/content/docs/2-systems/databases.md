@@ -559,9 +559,9 @@ Databases organize data for efficient retrieval and modification. The relational
 
 | Topic               | Link                                                          |
 | ------------------- | ------------------------------------------------------------- |
-| Distributed Systems | [View](/university/computer-science/distributed-systems) |
+| Distributed Systems | [View](distributed-systems) |
 | Networking          | [View](/university/computer-science/networking)          |
-| Operating Systems   | [View](/university/computer-science/operating-systems)   |
+| Operating Systems   | [View](../../../../../alevel/src/content/docs/computer-science/fundamentals/05-operating-systems)   |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

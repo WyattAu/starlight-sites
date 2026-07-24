@@ -399,5 +399,5 @@ Differential equation diagnostics test whether you can **identify the type of DE
 
 ## Cross-References
 
-- **[Differential Equations](../../4-differential-equations/4_differential-equations):** The full topic page covering separation of variables, exponential models, and Euler's method.
-- **[Integrals](../../3-integrals/3_integrals):** Integration is the essential tool for solving differential equations.
+- **[Differential Equations](../4-differential-equations/4_differential-equations):** The full topic page covering separation of variables, exponential models, and Euler's method.
+- **[Integrals](../3-integrals/3_integrals):** Integration is the essential tool for solving differential equations.

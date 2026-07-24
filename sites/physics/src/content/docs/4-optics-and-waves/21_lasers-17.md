@@ -121,9 +121,9 @@ Lasers produce coherent light through stimulated emission, where an incoming pho
 
 ## Cross-References
 
-- [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- The coherence properties of laser light (temporal and spatial) are central to interferometry and holography applications.
-- [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- Gaussian beam optics and the Abbe limit relate laser beam quality to diffraction-limited resolution.
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation and Poynting vector provide the electromagnetic foundation for laser cavity mode analysis.
+- [Coherence Theory](20_coherence-theory-16) -- The coherence properties of laser light (temporal and spatial) are central to interferometry and holography applications.
+- [Fourier Optics](19_fourier-optics-15) -- Gaussian beam optics and the Abbe limit relate laser beam quality to diffraction-limited resolution.
+- [Electromagnetic Waves](../3-electromagnetism/5_electromagnetic-waves) -- The wave equation and Poynting vector provide the electromagnetic foundation for laser cavity mode analysis.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

@@ -110,9 +110,9 @@ Complex analysis studies functions of a complex variable, where the single requi
 
 ## Cross-References
 
-- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended to complex numbers; continuity, limits, and convergence are shared concepts.
-- **[Number Theory](../../7-number-theory/index.md):** Analytic number theory using complex analysis; the Riemann zeta function is a central object.
-- **[ODEs](../../5-ordinary-differential-equations/index.md):** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
+- **[Real Analysis](../../../../../typescript/src/content/docs/index):** Foundational analysis extended to complex numbers; continuity, limits, and convergence are shared concepts.
+- **[Number Theory](../../../../../typescript/src/content/docs/index):** Analytic number theory using complex analysis; the Riemann zeta function is a central object.
+- **[ODEs](../../../../../typescript/src/content/docs/index):** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -838,6 +838,6 @@ The TCP state machine is the lifecycle of a TCP connection. Think of it as a pho
 
 ## Cross-References
 
-- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [TCP and UDP](tcp-and-udp)
 - [UDP Deep Dive](/networking/03-tcp-udp/udp-deep-dive)
-- [Network Tools](/networking/07-network-tools/network-tools)
+- [Network Tools](../07-network-tools/network-tools)

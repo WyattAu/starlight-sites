@@ -1433,7 +1433,7 @@ linked above.
 
 ## Cross-References
 
-- [Dart Null Safety](../01-dart-basics/03-null-safety) -- Null safety catches many potential bugs at compile time, complementing runtime testing.
-- [Dart Asynchronous Programming](../08-asynchronous/01-async) -- Testing async code requires understanding of futures, streams, and isolate patterns.
-- [Dart Classes and Objects](../04-classes-and-objects/01-classes) -- Dependency injection and mocking in tests rely on OOP principles and interfaces.
-- [Rust Error Handling](../rust/04-error-handling) -- Testing error conditions and edge cases is a shared concern across Dart and Rust development.
+- [Dart Null Safety](../../../../../../kotlin/src/content/docs/advanced/null-safety-deep-dive) -- Null safety catches many potential bugs at compile time, complementing runtime testing.
+- [Dart Asynchronous Programming](../../../../../../dart/src/content/docs/05-async/01-async-and-futures) -- Testing async code requires understanding of futures, streams, and isolate patterns.
+- [Dart Classes and Objects](../../../../../../java/src/content/docs/03-object-oriented/01-classes) -- Dependency injection and mocking in tests rely on OOP principles and interfaces.
+- [Rust Error Handling](../../../../../../dart/src/content/docs/08-error-handling) -- Testing error conditions and edge cases is a shared concern across Dart and Rust development.

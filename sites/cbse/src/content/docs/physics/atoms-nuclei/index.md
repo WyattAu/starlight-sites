@@ -215,6 +215,6 @@ The radioactive decay law is $N = N_0 e^{-\lambda t}$ where $\lambda = \ln 2 / t
 
 ## Cross-References
 
-- [CBSE Physics](/cbse/physics) -- modern physics and photoelectric effect
-- [CBSE Chemistry](/cbse/chemistry) -- atomic structure and electronic configuration
-- [CBSE Mathematics](/cbse/maths) -- exponential functions and logarithms
+- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- modern physics and photoelectric effect
+- [CBSE Chemistry](../../../../../../alevel/src/content/docs/chemistry/chemistry) -- atomic structure and electronic configuration
+- [CBSE Mathematics](../../../../../../ib/src/content/docs/maths/maths) -- exponential functions and logarithms

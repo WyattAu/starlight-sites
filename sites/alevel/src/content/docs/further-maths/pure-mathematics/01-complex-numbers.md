@@ -1003,17 +1003,17 @@ $y = 6$ or $y = 0$. So $z = 6i$ or $z = 0$.
 ### 11.1 Complex numbers and matrices
 
 Complex eigenvalues of 2×2 matrices correspond to rotation-scaling transformations. See
-[Matrices](/further-maths/pure-mathematics/further-matrices).
+[Matrices](02-matrices).
 
 ### 11.2 Complex numbers and hyperbolic functions
 
 $e^{ix} = \cos x + i\sin x$ connects exponential, trigonometric, and hyperbolic functions. See
-[Hyperbolic Functions](/further-maths/pure-mathematics/hyperbolic-functions).
+[Hyperbolic Functions](../pure/hyperbolic-functions).
 
 ### 11.3 Complex numbers and polar coordinates
 
 Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
-[Polar Coordinates](/further-maths/pure-mathematics/polar-coordinates).
+[Polar Coordinates](05-polar-coordinates).
 
 ---
 
@@ -1405,8 +1405,8 @@ Four sides. $\blacksquare$
 
 ## Cross-References
 
-- [Further Algebra and Functions](further-algebra-functions) -- Polynomial roots and factor theorem are extended to the complex domain in this topic.
-- [Matrices](matrices) -- Linear transformations in the complex plane can be represented using matrix multiplication.
-- [Further Calculus](further-calculus) -- Integration of complex-valued functions and residue theory build on the algebraic foundations here.
+- [Further Algebra and Functions](03-further-algebra) -- Polynomial roots and factor theorem are extended to the complex domain in this topic.
+- [Matrices](02-matrices) -- Linear transformations in the complex plane can be represented using matrix multiplication.
+- [Further Calculus](04-further-calculus) -- Integration of complex-valued functions and residue theory build on the algebraic foundations here.
 - [Mechanics](../../physics/mechanics) -- Oscillations and wave motion in physics are logically described using complex exponentials.
 

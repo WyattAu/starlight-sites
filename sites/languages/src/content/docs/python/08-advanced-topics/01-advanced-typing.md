@@ -1258,5 +1258,5 @@ $\blacksquare$
 
 - [Functions, Closures, and Decorators](../02-fundamentals/03-functions) -- Type annotations on functions use the generics and overload patterns covered here.
 - [Generators and Iterators](../02-fundamentals/04-generators-and-iterators) -- Iterator and generator types are expressible using `Iterator[T]` and `Generator[T]` generics.
-- [Protocols and Abstract Base Classes](02-protocols) -- Structural subtyping via Protocol extends the type system beyond nominal inheritance.
-- [Dataclasses and Attrs](03-dataclasses) -- `dataclass_transform` bridges type hints and dataclass-style class creation.
+- [Protocols and Abstract Base Classes](04-protocols-dunder-methods) -- Structural subtyping via Protocol extends the type system beyond nominal inheritance.
+- [Dataclasses and Attrs](../../../../../../java/src/content/docs/03-object-oriented/01-classes) -- `dataclass_transform` bridges type hints and dataclass-style class creation.

@@ -130,6 +130,6 @@ A matrix has an inverse only if its determinant is non-zero. Students sometimes 
 
 ## Cross-References
 
-- [Matrices](/cbse/mathematics/matrices) -- broader matrix theory and properties
-- [Derivatives](/cbse/mathematics/derivatives) -- calculus foundations
-- [CBSE Physics](/cbse/physics) -- vectors and coordinate transformations
+- [Matrices](../../../../../../alevel/src/content/docs/further-maths/pure-mathematics/02-matrices) -- broader matrix theory and properties
+- [Derivatives](../../../../../../ap/src/content/docs/maths/2-derivatives/2_derivatives) -- calculus foundations
+- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- vectors and coordinate transformations

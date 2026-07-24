@@ -1075,6 +1075,6 @@ Python's built-in collections are the workhorses of data manipulation. Lists are
 
 ## Cross-References
 
-- [Dicts, Sets, and Counter](/python/03-data-structures/02-dicts-sets-counter)
-- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
-- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators)
+- [Dicts, Sets, and Counter](../../../../../languages/src/content/docs/python/03-data-structures/02-dicts-sets-counter)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Generators and Iterators](../../../../../languages/src/content/docs/python/02-fundamentals/04-generators-and-iterators)

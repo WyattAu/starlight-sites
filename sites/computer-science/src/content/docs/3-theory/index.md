@@ -103,9 +103,9 @@ Each section includes:
 
 ## Cross-References
 
-- **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
-- **[Databases](../../4-databases/index.md):** Query optimisation using automata theory.
-- **[Computer Networks](../../3-computer-networks/index.md):** Protocol design based on formal languages.
+- **[Algorithms](../../../../../typescript/src/content/docs/index):** Algorithm design and complexity theory.
+- **[Databases](../../../../../typescript/src/content/docs/index):** Query optimisation using automata theory.
+- **[Computer Networks](../../../../../typescript/src/content/docs/index):** Protocol design based on formal languages.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

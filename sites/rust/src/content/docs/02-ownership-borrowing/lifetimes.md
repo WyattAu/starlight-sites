@@ -997,6 +997,6 @@ Lifetimes are like library book due dates. When you borrow a book (reference), t
 
 ## Cross-References
 
-- [Ownership](/rust/02-ownership-borrowing/ownership) - The ownership rules that lifetimes enforce at compile time
-- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability) - How interior mutability types work within lifetime constraints
-- [Structs and Enums](/rust/03-structs-enums/structs-and-enums) - How to design types with proper lifetime relationships
+- [Ownership](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) - The ownership rules that lifetimes enforce at compile time
+- [Interior Mutability](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/interior-mutability) - How interior mutability types work within lifetime constraints
+- [Structs and Enums](../../../../../languages/src/content/docs/rust/03-structs-enums/structs-and-enums) - How to design types with proper lifetime relationships

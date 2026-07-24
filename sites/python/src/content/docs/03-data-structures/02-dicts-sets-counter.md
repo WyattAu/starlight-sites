@@ -878,7 +878,7 @@ Dicts are hash tables: they map keys to values with O(1) average lookup time. Th
 
 ## Cross-References
 
-- [Collections](/python/03-data-structures/01-collections)
-- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
-- [Functions](/python/02-fundamentals/03-functions)
+- [Collections](../../../../../kotlin/src/content/docs/intermediate/collections)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
 

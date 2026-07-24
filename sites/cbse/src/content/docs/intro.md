@@ -201,13 +201,13 @@ and Vistas (Class 12) or First Flight and Footprints without Feet (Class 10).
 These notes are part of the broader Wyatt's Notes qualification revision library. You may also find
 the following useful:
 
-- **[ISC](/qualifications/isc/intro)** -- The Indian School Certificate, an alternative to CBSE
+- **[ISC](../../../../typescript/src/content/docs/intro)** -- The Indian School Certificate, an alternative to CBSE
   offered by CISCE-affiliated schools
-- **[GCSE](/qualifications/gcse/intro)** -- UK qualification covering similar subjects at a
+- **[GCSE](../../../../typescript/src/content/docs/intro)** -- UK qualification covering similar subjects at a
   comparable level
-- **[AP](/qualifications/ap/intro)** -- US Advanced Placement courses for university-level
+- **[AP](../../../../typescript/src/content/docs/intro)** -- US Advanced Placement courses for university-level
   content
-- **[SAT](/qualifications/sat/intro)** -- US standardised test for undergraduate admissions
+- **[SAT](../../../../typescript/src/content/docs/intro)** -- US standardised test for undergraduate admissions
 
 ## Content Status
 
@@ -237,6 +237,6 @@ Think of CBSE as a structured ladder for Indian students. Each class builds on t
 
 ## Cross-References
 
-- [CBSE Mathematics](/cbse/maths) -- algebra, calculus, and probability
-- [CBSE Physics](/cbse/physics) -- mechanics, thermodynamics, and electromagnetism
-- [CBSE Chemistry](/cbse/chemistry) -- physical, inorganic, and organic branches
+- [CBSE Mathematics](../../../../ib/src/content/docs/maths/maths) -- algebra, calculus, and probability
+- [CBSE Physics](../../../../ib/src/content/docs/physics/physics) -- mechanics, thermodynamics, and electromagnetism
+- [CBSE Chemistry](../../../../alevel/src/content/docs/chemistry/chemistry) -- physical, inorganic, and organic branches

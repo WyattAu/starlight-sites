@@ -716,6 +716,6 @@ Exception ABI defines how exceptions propagate across library boundaries. The It
 
 ## Cross-References
 
-- [Exception Safety](/cpp/function_architecture/2_error_handling/2_exception_safety)
-- [Noexcept](/cpp/function_architecture/2_error_handling/3_noexcept)
-- [RAII Patterns](/cpp/resource_management/1_ownership_and_raii/1_raii_patterns)
+- [Exception Safety](../../../../../../programming/src/content/docs/function_architecture/2_error_handling/2_exception_safety)
+- [Noexcept](../../../../../../programming/src/content/docs/function_architecture/2_error_handling/3_noexcept)
+- [RAII Patterns](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/1_raii_patterns)

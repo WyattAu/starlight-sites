@@ -461,6 +461,6 @@ Networking in Go is built on the net package which provides low-level TCP and UD
 
 ## Cross-References
 
-- [Functions](/go/basics/functions) -- first-class functions and closures used in middleware
-- [Goroutines and Synchronization](/go/concurrency/goroutines) -- lightweight threads for handling connections
-- [Channels and Concurrency Patterns](/go/concurrency/channels) -- fan-out, fan-in, and pipelines
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- first-class functions and closures used in middleware
+- [Goroutines and Synchronization](../concurrency/goroutines) -- lightweight threads for handling connections
+- [Channels and Concurrency Patterns](../concurrency/channels) -- fan-out, fan-in, and pipelines

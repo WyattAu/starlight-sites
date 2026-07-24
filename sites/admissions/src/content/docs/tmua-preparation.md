@@ -574,7 +574,7 @@ When working with tmua preparation, follow a structured approach:
 | -------------------- | ----------- | ---------------------------------------------------- |
 | TMUA Specification   | UAT         | [View](https://uat.ucl.ac.uk/tmua)                   |
 | TMUA Practice Papers | UAT         | [View](https://uat.ucl.ac.uk/tmua/practice-papers)   |
-| MAT Preparation      | WyattsNotes | [View](/university/admissions/mat-preparation)  |
-| STEP Preparation     | WyattsNotes | [View](/university/admissions/step-preparation) |
-| Probability          | WyattsNotes | [View](/university/mathematics/probability)     |
-| Real Analysis        | WyattsNotes | [View](/university/mathematics/real-analysis)   |
+| MAT Preparation      | WyattsNotes | [View](mat-preparation)  |
+| STEP Preparation     | WyattsNotes | [View](step-preparation) |
+| Probability          | WyattsNotes | [View](../../../../alevel/src/content/docs/maths/statistics/03-probability)     |
+| Real Analysis        | WyattsNotes | [View](../../../../mathematics/src/content/docs/real-analysis)   |

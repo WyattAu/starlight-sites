@@ -405,6 +405,6 @@ In poetry appreciation questions, students sometimes identify the technique (e.g
 
 ## Cross-References
 
-- [Chinese Writing](/gaokao/chinese/writing) - Writing techniques that complement reading comprehension skills
-- [Functions](/gaokao/mathematics/functions) - Logical thinking patterns shared between literary analysis and mathematical reasoning
-- [English Reading](/gaokao/english/reading) - Cross-language reading strategies applicable to both Chinese and English comprehension
+- [Chinese Writing](writing) - Writing techniques that complement reading comprehension skills
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - Logical thinking patterns shared between literary analysis and mathematical reasoning
+- [English Reading](reading) - Cross-language reading strategies applicable to both Chinese and English comprehension

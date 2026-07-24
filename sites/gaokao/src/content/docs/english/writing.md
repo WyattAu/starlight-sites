@@ -421,6 +421,6 @@ In persuasive and argumentative essays, the conclusion should synthesise existin
 
 ## Cross-References
 
-- [English Reading](/gaokao/english/reading) - Reading comprehension strategies that inform effective writing structure
-- [Chinese Writing](/gaokao/chinese/writing) - Cross-language essay writing techniques for narrative and argumentative styles
-- [Organic Chemistry](/gaokao/chemistry/organic) - Analytical thinking from chemistry problems that supports structured essay argumentation
+- [English Reading](../chinese/reading) - Reading comprehension strategies that inform effective writing structure
+- [Chinese Writing](../chinese/writing) - Cross-language essay writing techniques for narrative and argumentative styles
+- [Organic Chemistry](../../../../../hsc/src/content/docs/chemistry/organic) - Analytical thinking from chemistry problems that supports structured essay argumentation

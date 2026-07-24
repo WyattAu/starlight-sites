@@ -1851,9 +1851,9 @@ $\blacksquare$
 
 | Topic                          | Site           | Link                                                          |
 | ------------------------------ | -------------- | ------------------------------------------------------------- |
-| Advanced Computer Networks     | WyattsNotes    | [View](/university/computing/computer-networks-advanced) |
-| Operating Systems              | WyattsNotes    | [View](/university/computing/operating-systems)          |
-| Databases                      | WyattsNotes    | [View](/university/computing/databases)                  |
+| Advanced Computer Networks     | WyattsNotes    | [View](3-computer-networks/9_computer-networks-advanced) |
+| Operating Systems              | WyattsNotes    | [View](../../../../alevel/src/content/docs/computer-science/fundamentals/05-operating-systems)          |
+| Databases                      | WyattsNotes    | [View](2-systems/databases)                  |
 | Computer Networking — Stanford | Stanford CS144 | [View](https://cs144.github.io/)                              |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

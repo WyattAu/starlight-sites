@@ -902,9 +902,9 @@ cache.fetch("expensive") { compute_expensive_result }  # returns cached value
 
 ## Cross-References
 
-- [Variables and Types](/languages/ruby/01-basics/1_variables-and-types) defines the data types that methods accept as parameters and return as values.
-- [Control Flow](/languages/ruby/02-control-flow/1_control-flow) provides the conditional logic used within method bodies and block iterations.
-- [Object-Oriented Programming](/languages/ruby/04-oop/1_oop) shows how methods define object behaviour in Ruby's class-based system.
+- [Variables and Types](../01-basics/1_variables-and-types) defines the data types that methods accept as parameters and return as values.
+- [Control Flow](../02-control-flow/1_control-flow) provides the conditional logic used within method bodies and block iterations.
+- [Object-Oriented Programming](../04-oop/1_oop) shows how methods define object behaviour in Ruby's class-based system.
 
 ## Common Mistakes
 

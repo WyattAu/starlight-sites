@@ -168,10 +168,10 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 
 ## Cross-References
 
-- [Vector Fields and Flows](/mathematics/12-differential-geometry/3_vector-fields-and-flows) -- Integral curves, Lie brackets, and flows are foundational to the differential geometry covered in this summary.
-- [Geodesics](/mathematics/12-differential-geometry/6_geodesics) -- Geodesics, Jacobi fields, and the exponential map extend the metric geometry summarized here.
-- [Key Theorems in Functional Analysis](/mathematics/11-functional-analysis/9_summary-of-key-theorems) -- The spectral theorem and compact operator theory underpin the analytical methods used in differential geometry.
-- [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Group-theoretic structures appear in the study of Lie groups and symmetry of manifolds.
+- [Vector Fields and Flows](3_vector-fields-and-flows) -- Integral curves, Lie brackets, and flows are foundational to the differential geometry covered in this summary.
+- [Geodesics](6_geodesics) -- Geodesics, Jacobi fields, and the exponential map extend the metric geometry summarized here.
+- [Key Theorems in Functional Analysis](../11-functional-analysis/9_summary-of-key-theorems) -- The spectral theorem and compact operator theory underpin the analytical methods used in differential geometry.
+- [Lagrange's Theorem](../1-abstract-algebra/3_lagrange-s-theorem) -- Group-theoretic structures appear in the study of Lie groups and symmetry of manifolds.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

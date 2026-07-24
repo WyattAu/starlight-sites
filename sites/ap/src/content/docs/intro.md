@@ -175,7 +175,7 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 ## Cross-References
 
-- [AP Biology](/ap/biology): Covers the study of living organisms, including细胞结构, genetics, and evolution.
-- [AP Chemistry](/ap/chemistry): Explores matter and its interactions, including atomic structure, chemical reactions, and thermodynamics.
-- [AP Physics](/ap/physics): Investigates the fundamental principles of matter and energy, including mechanics, electricity, and magnetism.
-- [AP Calculus](/ap/calculus): Develops mathematical skills for analysing change and motion, essential for science and engineering.
+- [AP Biology](../../../../gcse/src/content/docs/biology): Covers the study of living organisms, including细胞结构, genetics, and evolution.
+- [AP Chemistry](../../../../alevel/src/content/docs/chemistry/chemistry): Explores matter and its interactions, including atomic structure, chemical reactions, and thermodynamics.
+- [AP Physics](../../../../ib/src/content/docs/physics/physics): Investigates the fundamental principles of matter and energy, including mechanics, electricity, and magnetism.
+- [AP Calculus](../../../../hsc/src/content/docs/mathematics/calculus): Develops mathematical skills for analysing change and motion, essential for science and engineering.

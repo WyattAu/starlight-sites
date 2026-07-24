@@ -1224,5 +1224,5 @@ linked above.
 ## Cross-References
 
 - [Types and Variables](../02-fundamentals/01-types-and-variables) -- Generics in collections use type parameters to ensure type safety.
-- [Generics](../../11-generics-reflection/01-generics) -- Advanced generic concepts including bounded types and wildcards are used extensively in the collections API.
+- [Generics](../../../../../../kotlin/src/content/docs/intermediate/generics) -- Advanced generic concepts including bounded types and wildcards are used extensively in the collections API.
 - [Concurrency](../06-concurrency/01-concurrency) -- Concurrent collections provide thread-safe operations for multi-threaded access.

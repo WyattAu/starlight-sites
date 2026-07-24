@@ -963,6 +963,6 @@ Traits are Rust's way of saying "anything that can do X." A trait is a contract:
 
 ## Cross-References
 
-- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
-- [Structs and Enums](/rust/03-structs-enums/structs-and-enums)
-- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)
+- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)
+- [Structs and Enums](../../../../../languages/src/content/docs/rust/03-structs-enums/structs-and-enums)
+- [Unsafe Rust](../../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust)

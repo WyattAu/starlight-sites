@@ -474,7 +474,7 @@ undecidable).
 ## Cross-References
 
 - [Turing Machines](./4_turing-machines) -- Complexity classes are defined in terms of Turing machine resources, connecting computational models to complexity.
-- [Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis) -- Complexity theory classifies the computational difficulty of problems that algorithms attempt to solve.
+- [Algorithm Analysis](../2-algorithms-and-data-structures/1_algorithm-analysis) -- Complexity theory classifies the computational difficulty of problems that algorithms attempt to solve.
 - [Regular Languages](./2_regular-languages) -- The Chomsky hierarchy places regular languages at the simplest level of the complexity hierarchy.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

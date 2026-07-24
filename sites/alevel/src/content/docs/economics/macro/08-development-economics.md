@@ -1224,10 +1224,10 @@ each approach.
 
 ## Cross-References
 
-- [The International Economy](/economics/macro/the-international-economy) covers comparative advantage, trade agreements, and exchange rates central to development trade strategies.
-- [The Financial Sector](/economics/macro/the-financial-sector) explains financial intermediation and monetary policy that shape savings and investment in developing economies.
-- [Market Failure](/economics/microeconomics/market-failure) provides the theoretical basis for understanding externalities, public goods, and the tragedy of the commons in development contexts.
-- [Supply-Side Policy](/economics/macro/supply-side-policy) analyses how education, training, and infrastructure investment raise productivity and promote long-run development.
+- [The International Economy](06-the-international-economy) covers comparative advantage, trade agreements, and exchange rates central to development trade strategies.
+- [The Financial Sector](03-the-financial-sector) explains financial intermediation and monetary policy that shape savings and investment in developing economies.
+- [Market Failure](../microeconomics/03-market-failure) provides the theoretical basis for understanding externalities, public goods, and the tragedy of the commons in development contexts.
+- [Supply-Side Policy](05-supply-side-policy) analyses how education, training, and infrastructure investment raise productivity and promote long-run development.
 
 ## Intuition
 

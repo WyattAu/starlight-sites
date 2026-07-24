@@ -217,6 +217,6 @@ $\Delta x \to 0$: $ds = \sqrt{1 + (dy/dx)^2}\,dx$. Integrating gives the total a
 
 ## Cross-References
 
-- **[Further Calculus](../further-maths/pure-mathematics/further-calculus):** Advanced calculus covers integration techniques
+- **[Further Calculus](../pure-mathematics/04-further-calculus):** Advanced calculus covers integration techniques
 - **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
 - **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics

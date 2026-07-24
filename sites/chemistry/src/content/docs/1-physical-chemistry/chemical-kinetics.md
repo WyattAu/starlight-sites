@@ -507,9 +507,9 @@ Chemical kinetics is the study of how fast reactions happen and what controls th
 
 | Topic                      | Site        | Link                                                                          |
 | -------------------------- | ----------- | ----------------------------------------------------------------------------- |
-| Thermodynamics             | WyattsNotes | [View](/university/chemistry/thermodynamics)                             |
-| Quantum Chemistry          | WyattsNotes | [View](/university/chemistry/quantum-chemistry)                          |
-| Statistical Mechanics      | WyattsNotes | [View](/university/chemistry/statistical-mechanics)                      |
+| Thermodynamics             | WyattsNotes | [View](../../../../../alevel/src/content/docs/chemistry/thermodynamics)                             |
+| Quantum Chemistry          | WyattsNotes | [View](quantum-chemistry)                          |
+| Statistical Mechanics      | WyattsNotes | [View](statistical-mechanics)                      |
 | Enzyme Kinetics — MIT 5.60 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

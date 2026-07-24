@@ -718,8 +718,8 @@ Operating systems manage hardware resources and provide abstractions for applica
 
 | Topic               | Link                                                          |
 | ------------------- | ------------------------------------------------------------- |
-| Databases           | [View](/university/computer-science/databases)           |
-| Distributed Systems | [View](/university/computer-science/distributed-systems) |
+| Databases           | [View](databases)           |
+| Distributed Systems | [View](distributed-systems) |
 | Networking          | [View](/university/computer-science/networking)          |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -374,6 +374,6 @@ Arrays, slices, and maps are Go's collection types. Arrays are fixed-size and va
 
 ## Cross-References
 
-- [Types and Variables](/go/basics/types-and-variables) -- zero values and type system
-- [Functions](/go/basics/functions) -- closures and variable capture
-- [Goroutines and Synchronization](/go/concurrency/goroutines) -- concurrent map access
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- zero values and type system
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- closures and variable capture
+- [Goroutines and Synchronization](../concurrency/goroutines) -- concurrent map access

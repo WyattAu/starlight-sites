@@ -71,16 +71,16 @@ revision and drill practice.
 
 - **[Coordinate Geometry](compulsory/9_coordinate-geometry.md)** -- Straight lines, circles, equations
   of curves, distance formula, midpoint formula, and locus problems
-- **[Trigonometry](../../../../../qualifications/src/content/docs/highers/maths/2-trigonometry/2_trigonometry.md)** -- Trigonometric ratios, sine and cosine rules,
+- **[Trigonometry](../../../../../highers/src/content/docs/maths/2-trigonometry/2_trigonometry)** -- Trigonometric ratios, sine and cosine rules,
   trigonometric identities, solving equations, and 3D problems
 - **[Geometries](compulsory/8_geometries.md)** -- 2D and 3D geometry, circle theorems, trigonometric
   identities, vector geometry, and coordinate ./1-number-and-algebra/3_proof-and-logics
 
 ## Probability and Statistics
 
-- **[Probability](../../../../../university/src/content/docs/mathematics/probability.md)** -- Sample spaces, events, conditional probability,
+- **[Probability](../../../../../alevel/src/content/docs/maths/statistics/03-probability)** -- Sample spaces, events, conditional probability,
   addition and multiplication rules, and probability distributions
-- **[Dispersion](../../../../../university/src/content/docs/physics/4-optics-and-waves/11_dispersion.md)** -- Range, interquartile range, variance, standard
+- **[Dispersion](../../../../../physics/src/content/docs/4-optics-and-waves/11_dispersion)** -- Range, interquartile range, variance, standard
   deviation, and box-and-whisker plots
 - **[Combinatorics](./compulsory/../compulsory/13_permutations-and-combinations)** -- Permutations,
   combinations, counting principles, binomial theorem, and probability applications

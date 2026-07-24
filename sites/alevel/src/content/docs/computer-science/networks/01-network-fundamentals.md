@@ -511,7 +511,7 @@ At Layer 3, making decisions about which network to forward packets to, enabling
 Communication.
 
 For revision on network security, see
-[Network Security](/computer-science/networks/network-fundamentals).
+[Network Security](01-network-fundamentals).
 
 </details>
 

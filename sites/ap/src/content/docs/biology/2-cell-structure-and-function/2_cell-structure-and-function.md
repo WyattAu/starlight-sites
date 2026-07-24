@@ -883,7 +883,7 @@ Behind every scientific discovery and technological innovation lies mathematics.
 
 ## Cross-References
 
-- [Algebra](/ap/mathematics/algebra)
-- [Calculus](/ap/mathematics/calculus)
-- [Statistics](/ap/mathematics/statistics)
-- [Trigonometry](/ap/mathematics/trigonometry)
+- [Algebra](../../../../../../sat/src/content/docs/mathematics/algebra)
+- [Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus)
+- [Statistics](../../../../../../alevel/src/content/docs/further-maths/flashcards-further-statistics)
+- [Trigonometry](../../../../../../alevel/src/content/docs/maths/pure-mathematics/08-trigonometry)

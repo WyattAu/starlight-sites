@@ -676,7 +676,7 @@ Object layout determines how class members are arranged in memory. The compiler 
 
 ## Cross-References
 
-- [Access Control](/cpp/object_oriented/1_class_design/2_access_control)
-- [Special Member Functions](/cpp/object_oriented/1_class_design/3_special_member_functions)
-- [VTables](/cpp/object_oriented/2_runtime_polymorphism/1_vtables)
+- [Access Control](../../../../../../programming/src/content/docs/object_oriented/1_class_design/2_access_control)
+- [Special Member Functions](../../../../../../programming/src/content/docs/object_oriented/1_class_design/3_special_member_functions)
+- [VTables](../../../../../../programming/src/content/docs/object_oriented/2_runtime_polymorphism/1_vtables)
 

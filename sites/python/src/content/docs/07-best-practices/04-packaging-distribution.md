@@ -998,6 +998,6 @@ Packaging turns your code into something others can install and use. `pyproject.
 
 ## Cross-References
 
-- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages)
-- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
-- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
+- [Modules and Packages](../../../../../go/src/content/docs/advanced/modules-and-packages)
+- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)
+- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)

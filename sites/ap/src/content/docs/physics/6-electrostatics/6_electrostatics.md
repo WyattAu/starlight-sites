@@ -585,4 +585,4 @@ linked above.
 - **[Circuits](../7-circuits/7_circuits):** Electrostatics provides the foundation for understanding how charges flow through circuits.
 - **[Magnetism](../8-magnetism/8_magnetism):** Electric and magnetic fields are unified in Maxwell's equations — electrostatics is the static limit.
 - **[Work, Energy, and Power](../3-work-energy-power/3_work-energy-power):** Electric potential energy and work done by electric fields follow the same energy principles.
-- **[AP Calculus — Integrals](../maths/3-integrals/3_integrals):** Electric potential and field from charge distributions are calculated using integrals, applying calculus to electrostatic problems.
+- **[AP Calculus — Integrals](../../maths/3-integrals/3_integrals):** Electric potential and field from charge distributions are calculated using integrals, applying calculus to electrostatic problems.

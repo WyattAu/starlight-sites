@@ -161,7 +161,7 @@ linked above.
 
 ## Cross-References
 
-- **[Error Handling](../08-error-handling.md):** Detailed exception hierarchy and try-catch patterns referenced in best practices.
-- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Object-oriented design patterns for immutable data classes.
-- **[Async and Futures](../05-async/01-async-and-futures.md):** Concurrency best practices including async/await and isolate usage.
-- **[Class Modifiers](../07-dart3-features/03-class-modifiers.md):** Dart 3 modifier patterns for API boundary enforcement.
+- **[Error Handling](../../../../../dart/src/content/docs/08-error-handling):** Detailed exception hierarchy and try-catch patterns referenced in best practices.
+- **[Classes and Inheritance](../../../../../dart/src/content/docs/04-object-oriented/01-classes-and-inheritance):** Object-oriented design patterns for immutable data classes.
+- **[Async and Futures](../../../../../dart/src/content/docs/05-async/01-async-and-futures):** Concurrency best practices including async/await and isolate usage.
+- **[Class Modifiers](../../../../../dart/src/content/docs/07-dart3-features/03-class-modifiers):** Dart 3 modifier patterns for API boundary enforcement.

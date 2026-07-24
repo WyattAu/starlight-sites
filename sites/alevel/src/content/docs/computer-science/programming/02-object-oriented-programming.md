@@ -705,7 +705,7 @@ class Library:
 </details>
 
 For revision on programming fundamentals, see
-[Programming Constructs](/computer-science/programming/programming-constructs).
+[Programming Constructs](01-programming-constructs).
 
 
 ## Common Pitfalls

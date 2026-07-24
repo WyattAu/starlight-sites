@@ -322,7 +322,7 @@ Mathematical thinking is about abstraction and pattern recognition. Numbers, sha
 
 ## Cross-References
 
-- [Algebra](/dse/mathematics/algebra)
-- [Calculus](/dse/mathematics/calculus)
-- [Statistics](/dse/mathematics/statistics)
-- [Trigonometry](/dse/mathematics/trigonometry)
+- [Algebra](../../../../../../sat/src/content/docs/mathematics/algebra)
+- [Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus)
+- [Statistics](../../../../../../alevel/src/content/docs/further-maths/flashcards-further-statistics)
+- [Trigonometry](../../../../../../alevel/src/content/docs/maths/pure-mathematics/08-trigonometry)

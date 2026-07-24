@@ -340,6 +340,6 @@ $\blacksquare$
 
 - **[Continuity](4_continuity.md)**: Differentiability implies continuity, and the mean value theorem connects local derivative behaviour to global function properties.
 - **[Riemann Integration](6_riemann-integration.md)**: The fundamental theorem of calculus links differentiation and integration, with the Riemann integral defined via limits of Riemann sums.
-- **[Lebesgue Integration](../../10-measure-theory/6_lebesgue-integration.md)**: Lebesgue integration generalises the Riemann integral and handles a broader class of functions with discontinuities.
+- **[Lebesgue Integration](../10-measure-theory/6_lebesgue-integration)**: Lebesgue integration generalises the Riemann integral and handles a broader class of functions with discontinuities.
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

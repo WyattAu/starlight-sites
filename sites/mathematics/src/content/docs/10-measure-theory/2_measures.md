@@ -173,7 +173,7 @@ A collection of sets closed under finite unions and complements is an algebra, n
 
 - **[Sigma-Algebras and Measurable Spaces](1_sigma-algebras-and-measurable-spaces.md)**: Measures are defined on sigma-algebras, which determine which subsets of a space can be measured.
 - **[Lebesgue Integration](6_lebesgue-integration.md)**: The Lebesgue integral is defined using measures and is essential for the convergence theorems of integration theory.
-- **[Riemann Integration](../../3-real-analysis/6_riemann-integration.md)**: Lebesgue's criterion characterises Riemann integrability in terms of the measure of the discontinuity set.
+- **[Riemann Integration](../3-real-analysis/6_riemann-integration)**: Lebesgue's criterion characterises Riemann integrability in terms of the measure of the discontinuity set.
 
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

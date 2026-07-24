@@ -160,9 +160,9 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 
 ## Cross-References
 
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The Poynting vector and energy conservation derived in the wave chapter are used to compute radiated power from accelerating charges.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The relativistic field transformations explain the $\gamma^4$ and $\gamma^6$ scaling of synchrotron and linear radiation.
-- [Potentials and Gauge Transformations](/physics/3-electromagnetism/6_potentials-and-gauge-transformations) -- The Liénard-Wiechert potentials are the retarded solutions to the wave equations for potentials derived in that chapter.
+- [Electromagnetic Waves](5_electromagnetic-waves) -- The Poynting vector and energy conservation derived in the wave chapter are used to compute radiated power from accelerating charges.
+- [Special Relativity and Electromagnetism](7_special-relativity-and-electromagnetism) -- The relativistic field transformations explain the $\gamma^4$ and $\gamma^6$ scaling of synchrotron and linear radiation.
+- [Potentials and Gauge Transformations](6_potentials-and-gauge-transformations) -- The Liénard-Wiechert potentials are the retarded solutions to the wave equations for potentials derived in that chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -832,6 +832,6 @@ is central to the language.
 
 ## Cross-References
 
-- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - Core data types and the pattern matching system that is central to Elixir
-- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How BEAM processes and supervision trees deliver fault tolerance
-- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How modules and protocols organize Elixir applications
+- [Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching) - Core data types and the pattern matching system that is central to Elixir
+- [Concurrency and OTP](../03-concurrency/1_concurrency-otp) - How BEAM processes and supervision trees deliver fault tolerance
+- [Functions and Modules](../02-functions-modules/1_functions-and-modules) - How modules and protocols organize Elixir applications

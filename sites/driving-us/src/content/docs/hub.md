@@ -70,7 +70,7 @@ The written knowledge test is the first step toward getting your driver's licenc
 
 - [Written Test Overview](written-test) -- test format, question types, and scoring for all 50 states
 - [Study Strategies](written-test/study-strategies) -- how to use the driver handbook effectively
-- [Practice Test Formats](written-test/formats) -- multiple-choice, true/false, and combination formats
+- [Practice Test Formats](../../../../programming/src/content/docs/compilation_model/1_translation/4_binary_formats) -- multiple-choice, true/false, and combination formats
 - [Common Test Topics](written-test/common-topics) -- the concepts that appear on every state's test
 
 ### Practice and Review
@@ -95,7 +95,7 @@ The US uses a system of road signs governed by the Manual on Uniform Traffic Con
 - [Road Signs Overview](road-signs) -- categories, MUTCD standards, and legal significance
 - [Warning Signs](road-signs/warning) -- diamond-shaped signs alerting you to hazards ahead
 - [Regulatory Signs](road-signs/regulatory) -- signs that impose legal requirements (speed limits, stop, yield)
-- [Guide and Information Signs](road-signs/guide) -- directional signs, distance markers, and services
+- [Guide and Information Signs](../../../../ib/src/content/docs/biology/diagnostics/diagnostic-guide) -- directional signs, distance markers, and services
 - [Construction and Work Zone Signs](road-signs/construction) -- orange signs for roadwork areas
 - [Pavement Markings](road-signs/markings) -- lines, arrows, crosswalks, and their meanings
 
@@ -121,7 +121,7 @@ Traffic laws vary by state but share common principles. The written test covers 
 - [DUI and Impaired Driving](traffic-laws/dui) -- blood alcohol limits, implied consent, and penalties
 - [Seatbelt and Child Restraint Laws](traffic-laws/seatbelts) -- mandatory use, age requirements, and penalties
 - [Parking Laws](traffic-laws/parking) -- legal and illegal parking, handicapped spaces, and fire hydrants
-- [Sharing the Road](traffic-laws/sharing) -- cyclists, pedestrians, school buses, and large trucks
+- [Sharing the Road](../../../../truenas/src/content/docs/02-sharing-and-permissions/sharing-and-permissions) -- cyclists, pedestrians, school buses, and large trucks
 
 ### Practice and Review
 
@@ -165,7 +165,7 @@ Each state has its own driver handbook, licence classes, graduated licensing pro
 ### Topic Notes
 
 - [Graduated Licensing](state-specific/graduated) -- learner's permit, provisional licence, and full licence stages
-- [Licence Classes](state-specific/classes) -- Class C, Class D, motorcycle endorsements, and CDL
+- [Licence Classes](../../../../java/src/content/docs/03-object-oriented/01-classes) -- Class C, Class D, motorcycle endorsements, and CDL
 - [Age Requirements](state-specific/age) -- minimum ages for permits, provisional licences, and full licences
 - [Vision Requirements](state-specific/vision) -- minimum visual acuity and correction standards
 - [State Handbooks](state-specific/handbooks) -- links to official driver handbooks for all 50 states
@@ -189,7 +189,7 @@ The practical driving test assesses your ability to safely operate a vehicle in 
 
 - [Behind-the-Wheel Overview](behind-the-wheel) -- what examiners look for and common failure points
 - [Pre-Trip Inspection](behind-the-wheel/pre-trip) -- the vehicle safety check you must perform before driving
-- [Manoeuvres](behind-the-wheel/manoeuvres) -- parallel parking, three-point turns, and lane changes
+- [Manoeuvres](../../../../driving-uk/src/content/docs/practical-test/driving-manoeuvres) -- parallel parking, three-point turns, and lane changes
 - [Road Test Routes](behind-the-wheel/routes) -- typical test routes and what to expect
 - [Common Failures](behind-the-wheel/failures) -- the mistakes that cause most test failures
 

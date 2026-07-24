@@ -375,5 +375,5 @@ Limit diagnostics test whether you understand the **rigorous foundations** of ca
 
 ## Cross-References
 
-- **[Limits and Continuity](../../1-limits-and-continuity/1_limits-and-continuity):** The full topic page covering epsilon-delta proofs, L'Hopital's rule, and continuity classification in detail.
-- **[Derivatives](../../2-derivatives/2_derivatives):** Derivatives are defined as limits of difference quotients — mastering limits is the prerequisite for all differentiation.
+- **[Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity):** The full topic page covering epsilon-delta proofs, L'Hopital's rule, and continuity classification in detail.
+- **[Derivatives](../2-derivatives/2_derivatives):** Derivatives are defined as limits of difference quotients — mastering limits is the prerequisite for all differentiation.

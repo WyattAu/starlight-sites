@@ -579,7 +579,7 @@ C++ threads are OS-level execution contexts. `std::thread` spawns a new thread, 
 
 ## Cross-References
 
-- [Mutexes and Deadlocks](/cpp/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks)
-- [Condition Variables](/cpp/concurrency/1_threading_and_synchronization/4_condition_variables)
-- [Atomic Operations](/cpp/concurrency/2_memory_model_and_atomics/3_atomic_operations)
+- [Mutexes and Deadlocks](../../../../../../programming/src/content/docs/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks)
+- [Condition Variables](../../../../../../programming/src/content/docs/concurrency/1_threading_and_synchronization/4_condition_variables)
+- [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations)
 

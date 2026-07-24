@@ -867,7 +867,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- [Cell Biology](../biology/1-cell-biology/1_cell-biology) -- Atomic structure underlies the molecular composition of cells and organelles.
+- [Cell Biology](../../../../../../ib/src/content/docs/biology/1-cell-biology/1_cell-biology) -- Atomic structure underlies the molecular composition of cells and organelles.
 - [Energy](../../physics/1-energy/1_energy) -- Electron energy levels and ionisation energy connect atomic structure to energy concepts.
 - [Algebra](../../maths/2-algebra/2_algebra) -- Chemical calculations require solving equations and rearranging formulas.
 - [Data Representation](../../computer-science/1-fundamentals/1_fundamentals) -- Isotopes and radioactive decay involve numerical data analysis.

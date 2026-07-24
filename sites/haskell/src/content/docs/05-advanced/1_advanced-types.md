@@ -671,9 +671,9 @@ GADTs are like typed constructors. Each constructor can return a different speci
 
 ## Cross-References
 
-- [Type Classes](/haskell/03-type-classes/1_type-classes) - How type families and GADTs extend the type class system
-- [Types and Functions](/haskell/01-basics/1_types-and-functions) - How kind polymorphism and type-level programming build on basic type concepts
-- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How monad transformers and indexed types compose monadic effects
+- [Type Classes](../03-type-classes/1_type-classes) - How type families and GADTs extend the type class system
+- [Types and Functions](../01-basics/1_types-and-functions) - How kind polymorphism and type-level programming build on basic type concepts
+- [Monads and Functors](../04-monads/1_monads-and-functors) - How monad transformers and indexed types compose monadic effects
 
 ## Common Mistakes
 

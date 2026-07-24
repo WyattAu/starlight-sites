@@ -1469,6 +1469,6 @@ Unfair.
 
 - [Advanced Genetics](../../biology/genetics-advanced) -- The chi-squared test is used to analyse genetic ratios and test for linkage in dihybrid crosses.
 - [Biodiversity, Classification and Evolution](../../biology/biodiversity-classification-evolution) -- Statistical analysis of species diversity and distribution data uses chi-squared tests.
-- [Data Analysis](../data-analysis/01-regression) -- Regression analysis and correlation complement the categorical data analysis provided by chi-squared tests.
-- [Further Probability](further-probability) -- Probability distributions underpin the expected frequencies used in chi-squared calculations.
+- [Data Analysis](../../maths/diagnostics/diag-correlation-and-regression) -- Regression analysis and correlation complement the categorical data analysis provided by chi-squared tests.
+- [Further Probability](../../maths/statistics/03-probability) -- Probability distributions underpin the expected frequencies used in chi-squared calculations.
 

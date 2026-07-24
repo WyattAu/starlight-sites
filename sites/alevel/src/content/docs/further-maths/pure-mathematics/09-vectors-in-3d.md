@@ -796,18 +796,18 @@ Taking square roots gives the result.
 ### 12.1 Vectors and matrices
 
 The cross product $\mathbf{a}\times\mathbf{b}$ can be computed as a $3 \times 3$ determinant. See
-[Matrices](/further-maths/pure-mathematics/further-matrices).
+[Matrices](02-matrices).
 
 ### 12.2 Vectors and mechanics
 
 Vector methods are essential in mechanics for resolving forces, moments, and angular momentum. The
 Moment of a force $\mathbf{F}$ about point $O$ is $\mathbf{r}\times\mathbf{F}$. See
-[Projectile Motion](/further-maths/further-mechanics/projectile-motion).
+[Projectile Motion](../further-mechanics/01-projectile-motion).
 
 ### 12.3 Planes and coordinate geometry
 
 The equation of a plane and the distance formula connect vectors to 3D coordinate geometry. See
-[Polar Coordinates](/further-maths/pure-mathematics/polar-coordinates).
+[Polar Coordinates](05-polar-coordinates).
 
 ---
 
@@ -949,18 +949,18 @@ Two swaps return to the original sign. $\blacksquare$
 ### 14.1 Vectors and matrices
 
 The cross product and scalar triple product can be expressed as determinants. See
-[Matrices](/further-maths/pure-mathematics/further-matrices).
+[Matrices](02-matrices).
 
 ### 14.2 Vectors and mechanics
 
 Vector methods are essential for resolving forces, computing moments
 ($\mathbf{M} = \mathbf{r} \times \mathbf{F}$), and angular momentum. See
-[Projectile Motion](/further-maths/further-mechanics/projectile-motion).
+[Projectile Motion](../further-mechanics/01-projectile-motion).
 
 ### 14.3 Planes and coordinate geometry
 
 The equation of a plane connects vectors to 3D geometry. See
-[Polar Coordinates](/further-maths/pure-mathematics/polar-coordinates) for parametric
+[Polar Coordinates](05-polar-coordinates) for parametric
 Representations of curves.
 
 ---
@@ -1285,7 +1285,7 @@ The lines intersect at $\boxed{(1,0,0)}$.
 
 ## Cross-References
 
-- [Matrices](/further-maths/pure-mathematics/further-matrices) provides the determinant and linear transformation methods used to compute cross products and scalar triple products.
-- [Projectile Motion](/further-maths/further-mechanics/projectile-motion) applies vector resolution techniques to analyse motion under gravity in two and three dimensions.
-- [Polar Coordinates](/further-maths/pure-mathematics/polar-coordinates) connects vector geometry to parametric representations of curves and surfaces in different coordinate systems.
-- [Further Calculus](/further-maths/pure-mathematics/further-calculus) supplies the integration and differentiation methods used in deriving volume formulas from the scalar triple product.
+- [Matrices](02-matrices) provides the determinant and linear transformation methods used to compute cross products and scalar triple products.
+- [Projectile Motion](../further-mechanics/01-projectile-motion) applies vector resolution techniques to analyse motion under gravity in two and three dimensions.
+- [Polar Coordinates](05-polar-coordinates) connects vector geometry to parametric representations of curves and surfaces in different coordinate systems.
+- [Further Calculus](04-further-calculus) supplies the integration and differentiation methods used in deriving volume formulas from the scalar triple product.

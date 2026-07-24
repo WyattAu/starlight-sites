@@ -1311,8 +1311,8 @@ Routing is like a GPS navigation system for internet packets. Static routes are 
 
 ## Cross-References
 
-- [IP Addressing](/networking/02-ip-addressing/ip-addressing) - The address space that routing protocols distribute across autonomous systems
-- [OSI and TCP/IP](/networking/01-osi-model/osi-and-tcp-ip) - Reference models that place routing at the network layer
-- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp) - Transport protocols that routing decisions affect end-to-end
+- [IP Addressing](02-ip-addressing/ip-addressing) - The address space that routing protocols distribute across autonomous systems
+- [OSI and TCP/IP](01-osi-model/osi-and-tcp-ip) - Reference models that place routing at the network layer
+- [TCP and UDP](03-tcp-udp/tcp-and-udp) - Transport protocols that routing decisions affect end-to-end
 
 </aside>

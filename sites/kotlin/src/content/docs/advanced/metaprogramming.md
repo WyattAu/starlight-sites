@@ -405,6 +405,6 @@ Reflection lets you inspect and manipulate types at runtime when compile-time in
 
 ## Cross-References
 
-- [Classes and Objects](/kotlin/basics/classes-and-objects) -- data classes and sealed classes
-- [Functions](/kotlin/basics/functions) -- extension functions and higher-order functions
-- [Coroutines](/kotlin/intermediate/coroutines) -- suspend functions and structured concurrency
+- [Classes and Objects](../basics/classes-and-objects) -- data classes and sealed classes
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- extension functions and higher-order functions
+- [Coroutines](../intermediate/coroutines) -- suspend functions and structured concurrency

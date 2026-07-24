@@ -918,7 +918,7 @@ Overload resolution is the compiler's process of choosing which function to call
 
 ## Cross-References
 
-- [Calling Conventions](/cpp/function_architecture/1_function_mechanics/2_calling_conventions)
-- [Lambdas](/cpp/function_architecture/1_function_mechanics/3_lambdas)
-- [Type Erasure](/cpp/function_architecture/1_function_mechanics/4_type_erasure)
+- [Calling Conventions](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/2_calling_conventions)
+- [Lambdas](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/3_lambdas)
+- [Type Erasure](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/4_type_erasure)
 

@@ -1376,6 +1376,6 @@ each approach.
 - [Macroeconomic Performance](../macro/01-macroeconomic-performance) -- Employment and unemployment statistics are key macroeconomic indicators derived from labour market data.
 - [Macroeconomic Policy Debates](../macro/07-macroeconomic-policy-debates) -- Keynesian and monetarist views on unemployment policy directly relate to labour market theory.
 - [Supply-Side Policy](../macro/05-supply-side-policy) -- Labour market reforms are a central supply-side policy for reducing structural unemployment.
-- [Market Failure and Government Intervention](market-failure) -- Minimum wages and trade unions represent government intervention in labour markets to address monopsony power.
+- [Market Failure and Government Intervention](03-market-failure) -- Minimum wages and trade unions represent government intervention in labour markets to address monopsony power.
 
 </aside>

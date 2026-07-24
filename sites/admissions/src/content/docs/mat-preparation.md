@@ -694,7 +694,7 @@ When working with mat preparation, follow a structured approach:
 | Topic            | Site         | Link                                                                                    |
 | ---------------- | ------------ | --------------------------------------------------------------------------------------- |
 | MAT Past Papers  | Oxford Maths | [View](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test) |
-| TMUA Preparation | WyattsNotes  | [View](/university/admissions/tmua-preparation)                                    |
-| STEP Preparation | WyattsNotes  | [View](/university/admissions/step-preparation)                                    |
-| Real Analysis    | WyattsNotes  | [View](/university/mathematics/real-analysis)                                      |
-| Probability      | WyattsNotes  | [View](/university/mathematics/probability)                                        |
+| TMUA Preparation | WyattsNotes  | [View](tmua-preparation)                                    |
+| STEP Preparation | WyattsNotes  | [View](step-preparation)                                    |
+| Real Analysis    | WyattsNotes  | [View](../../../../mathematics/src/content/docs/real-analysis)                                      |
+| Probability      | WyattsNotes  | [View](../../../../alevel/src/content/docs/maths/statistics/03-probability)                                        |

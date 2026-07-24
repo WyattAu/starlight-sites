@@ -598,6 +598,6 @@ Futures and promises are like a restaurant order ticket system. When you place a
 
 ## Cross-References
 
-- [Task Scheduling](/cpp/concurrency/3_coroutines_and_async_io/4_task_scheduling) - How executors schedule coroutine-based tasks
-- [Promise, Awaiter](/cpp/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How coroutine promise types differ from std::promise
+- [Task Scheduling](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/4_task_scheduling) - How executors schedule coroutine-based tasks
+- [Promise, Awaiter](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How coroutine promise types differ from std::promise
 

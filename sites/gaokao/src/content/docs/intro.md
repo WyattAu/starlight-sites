@@ -275,6 +275,6 @@ each approach.
 
 ## Cross-References
 
-- [Algebra](/gaokao/mathematics/algebra) - Core algebraic concepts including sets, logic, and inequalities tested in gaokao
-- [Functions](/gaokao/mathematics/functions) - Fundamental function types and transformations that underpin many exam problems
-- [Inorganic Chemistry](/gaokao/chemistry/inorganic) - Essential inorganic chemistry topics including equilibrium and electrochemistry
+- [Algebra](../../../../sat/src/content/docs/mathematics/algebra) - Core algebraic concepts including sets, logic, and inequalities tested in gaokao
+- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - Fundamental function types and transformations that underpin many exam problems
+- [Inorganic Chemistry](../../../../hsc/src/content/docs/chemistry/inorganic) - Essential inorganic chemistry topics including equilibrium and electrochemistry

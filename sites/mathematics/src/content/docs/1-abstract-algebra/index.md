@@ -114,9 +114,9 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 
 ## Cross-References
 
-- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces and linear transformations; vector spaces are modules over fields.
-- **[Number Theory](../../7-number-theory/index.md):** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
-- **[Topology](../../9-topology/index.md):** Topological groups and algebraic topology; group theory underpins homology groups.
+- **[Linear Algebra](../../../../../typescript/src/content/docs/index):** Vector spaces and linear transformations; vector spaces are modules over fields.
+- **[Number Theory](../../../../../typescript/src/content/docs/index):** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
+- **[Topology](../../../../../typescript/src/content/docs/index):** Topological groups and algebraic topology; group theory underpins homology groups.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

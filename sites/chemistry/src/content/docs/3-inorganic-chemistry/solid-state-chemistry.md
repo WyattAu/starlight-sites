@@ -453,10 +453,10 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
-| Atomic Structure         | WyattsNotes | [View](/university/chemistry/atomic-structure-and-periodicity)    |
-| Coordination Chemistry   | WyattsNotes | [View](/university/chemistry/coordination-chemistry)             |
-| Statistical Mechanics    | WyattsNotes | [View](/university/chemistry/statistical-mechanics)              |
-| Solid-State Physics      | WyattsNotes | [View](/university/physics/solid-state-physics)                  |
+| Atomic Structure         | WyattsNotes | [View](atomic-structure-and-periodicity)    |
+| Coordination Chemistry   | WyattsNotes | [View](coordination-chemistry)             |
+| Statistical Mechanics    | WyattsNotes | [View](../1-physical-chemistry/statistical-mechanics)              |
+| Solid-State Physics      | WyattsNotes | [View](../../../../../physics/src/content/docs/6-solid-state-physics/17_practice-solid-state-physics)                  |
 | Solid-State Chemistry — MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

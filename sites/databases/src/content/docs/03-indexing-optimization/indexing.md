@@ -913,10 +913,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- [Query Optimization](/databases/03-indexing-optimization/query-optimization) - How the cost-based optimizer selects between different index strategies
-- [Transactions and Concurrency](/databases/04-transactions/transactions) - How MVCC visibility checks affect index-only scan performance
-- [Locking and Deadlocks](/databases/04-transactions/locking-and-deadlocks) - How index scans interact with row-level locks and deadlock prevention
-- [Schema Migrations](/databases/06-database-design/migrations) - Safe strategies for adding and removing indexes without downtime
+- [Query Optimization](query-optimization) - How the cost-based optimizer selects between different index strategies
+- [Transactions and Concurrency](../04-transactions/transactions) - How MVCC visibility checks affect index-only scan performance
+- [Locking and Deadlocks](../04-transactions/locking-and-deadlocks) - How index scans interact with row-level locks and deadlock prevention
+- [Schema Migrations](../06-database-design/migrations) - Safe strategies for adding and removing indexes without downtime
 
 ## Worked Examples
 

@@ -172,6 +172,6 @@ Networking is the postal system of the digital world. Data is broken into packet
 
 ## Cross-References
 
-- [OSI and TCP/IP Models](/networking/01-osi-model/osi-and-tcp-ip)
+- [OSI and TCP/IP Models](01-osi-model/osi-and-tcp-ip)
 - [IP Addressing](/networking/02-ip-addressing/ip-addressing)
-- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [TCP and UDP](03-tcp-udp/tcp-and-udp)

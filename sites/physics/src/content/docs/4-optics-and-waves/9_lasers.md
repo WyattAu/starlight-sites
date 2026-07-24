@@ -180,9 +180,9 @@ The spontaneous emission factor $\beta$ distributes a small fraction of spontane
 
 ## Cross-References
 
-- [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- Laser coherence length and linewidth are determined by the cavity finesse and spontaneous emission processes described here.
-- [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- Gaussian beam propagation and spatial filtering of laser output are applications of the Fourier optics framework.
-- [Nonlinear Optics](/physics/4-optics-and-waves/22_nonlinear-optics) -- High peak powers from mode-locked and Q-switched lasers drive the nonlinear optical effects treated in that chapter.
+- [Coherence Theory](20_coherence-theory-16) -- Laser coherence length and linewidth are determined by the cavity finesse and spontaneous emission processes described here.
+- [Fourier Optics](19_fourier-optics-15) -- Gaussian beam propagation and spatial filtering of laser output are applications of the Fourier optics framework.
+- [Nonlinear Optics](22_nonlinear-optics) -- High peak powers from mode-locked and Q-switched lasers drive the nonlinear optical effects treated in that chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

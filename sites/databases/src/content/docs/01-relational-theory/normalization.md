@@ -1693,9 +1693,9 @@ linked above.
 
 ## Cross-References
 
-- [Relational Theory](/databases/01-relational-theory/relational-theory) - The formal model of relations, tuples, and attributes that normalization builds upon
-- [Database Design](/databases/06-database-design/database-design) - How normalized schemas translate into practical database designs
-- [SQL](/databases/02-sql-fundamentals/sql) - How SQL implements the relational operations that normalization assumes
-- [Migrations](/databases/06-database-design/migrations) - Strategies for applying normalization changes to existing databases
+- [Relational Theory](relational-theory) - The formal model of relations, tuples, and attributes that normalization builds upon
+- [Database Design](../06-database-design/database-design) - How normalized schemas translate into practical database designs
+- [SQL](../02-sql-fundamentals/sql) - How SQL implements the relational operations that normalization assumes
+- [Migrations](../06-database-design/migrations) - Strategies for applying normalization changes to existing databases
 
 </aside>

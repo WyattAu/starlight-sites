@@ -196,6 +196,6 @@ This page includes:
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 ## Cross-References
 
-- [Biology](/dse/biology)
-- [Chemistry](/dse/chemistry)
-- [Economics](/dse/economics)
+- [Biology](../../../../../gcse/src/content/docs/biology)
+- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
+- [Economics](../../../../../alevel/src/content/docs/economics/economics)

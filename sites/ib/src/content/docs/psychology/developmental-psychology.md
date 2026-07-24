@@ -200,9 +200,9 @@ populations.
 
 | Topic                           | Link                                                            |
 | ------------------------------- | --------------------------------------------------------------- |
-| Attachment Theory               | [View](/docs_ib/psychology/developmental/attachment-theory)     |
-| Cognitive Development           | [View](/docs_ib/psychology/developmental/cognitive-development) |
-| Sociocultural Level of Analysis | [View](/docs_ib/psychology/sociocultural-level-of-analysis)     |
+| Attachment Theory               | [View](developmental/attachment-theory)     |
+| Cognitive Development           | [View](developmental/cognitive-development) |
+| Sociocultural Level of Analysis | [View](sociocultural-level-of-analysis)     |
 
 ## Intuition
 

@@ -889,6 +889,6 @@ Traffic analysis is like wiretapping a phone system to understand what conversat
 
 ## Cross-References
 
-- [Network Tools](/networking/07-network-tools/network-tools) - Complementary diagnostic tools for network troubleshooting
-- [HTTP](/networking/05-http-https/http) - How HTTP traffic analysis reveals web application behavior
-- [TLS](/networking/06-tls/tls) - How encrypted traffic limits what can be observed in packet captures
+- [Network Tools](network-tools) - Complementary diagnostic tools for network troubleshooting
+- [HTTP](../05-http-https/http) - How HTTP traffic analysis reveals web application behavior
+- [TLS](../06-tls/tls) - How encrypted traffic limits what can be observed in packet captures

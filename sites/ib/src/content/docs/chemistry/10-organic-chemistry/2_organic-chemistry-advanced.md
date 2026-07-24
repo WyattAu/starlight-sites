@@ -874,7 +874,7 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 - **Electron configurations and orbital theory** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
 - **Stoichiometry of polymer reactions** → Review
-  [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md)
+  [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](../../../../../../gcse/src/content/docs/chemistry/8-organic-chemistry/8_organic-chemistry)
 
 ## Summary
 

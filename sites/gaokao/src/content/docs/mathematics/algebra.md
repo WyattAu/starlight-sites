@@ -342,9 +342,9 @@ Functions are like machines in a factory. You put raw materials in (input), the 
 
 ## Cross-References
 
-- [Functions](/gaokao/mathematics/functions) - How algebraic manipulation underpins function analysis and equation solving
-- [Geometry](/gaokao/mathematics/geometry) - Coordinate geometry that connects algebraic and geometric reasoning
-- [Chinese Reading](/gaokao/chinese/reading) - Logical reasoning skills that support mathematical proof writing
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - How algebraic manipulation underpins function analysis and equation solving
+- [Geometry](../../../../../sat/src/content/docs/mathematics/geometry) - Coordinate geometry that connects algebraic and geometric reasoning
+- [Chinese Reading](../chinese/reading) - Logical reasoning skills that support mathematical proof writing
 
 ## Common Mistakes
 

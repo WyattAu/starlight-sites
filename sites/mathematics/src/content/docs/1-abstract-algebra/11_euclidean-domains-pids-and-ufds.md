@@ -150,9 +150,9 @@ only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not princ
 
 ## Cross-References
 
-- [Polynomial Rings](/mathematics/1-abstract-algebra/10_polynomial-rings) -- The polynomial ring $F[x]$ is a key example of a Euclidean domain; irreducibility in $F[x]$ connects to the UFD structure here.
-- [Worked Examples](/mathematics/1-abstract-algebra/15_worked-examples) -- The worked examples use Euclidean division and factorisation arguments that depend on the ring classifications in this chapter.
-- [Common Pitfalls](/mathematics/1-abstract-algebra/17_common-pitfalls) -- The pitfalls section warns against confusing irreducibility with primality and assuming PIDs are always Euclidean.
+- [Polynomial Rings](10_polynomial-rings) -- The polynomial ring $F[x]$ is a key example of a Euclidean domain; irreducibility in $F[x]$ connects to the UFD structure here.
+- [Worked Examples](15_worked-examples) -- The worked examples use Euclidean division and factorisation arguments that depend on the ring classifications in this chapter.
+- [Common Pitfalls](17_common-pitfalls) -- The pitfalls section warns against confusing irreducibility with primality and assuming PIDs are always Euclidean.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

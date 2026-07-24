@@ -1040,6 +1040,6 @@ The pin operator is like pointing at a value instead of replacing it. Without th
 
 ## Cross-References
 
-- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How pattern matching integrates with multi-clause function definitions
-- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro) - The BEAM virtual machine that underlies Elixir's type system and process model
-- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How immutable data and pattern matching enable safe concurrent message passing
+- [Functions and Modules](../02-functions-modules/1_functions-and-modules) - How pattern matching integrates with multi-clause function definitions
+- [Introduction to Elixir](../00-intro/1_elixir-intro) - The BEAM virtual machine that underlies Elixir's type system and process model
+- [Concurrency and OTP](../03-concurrency/1_concurrency-otp) - How immutable data and pattern matching enable safe concurrent message passing

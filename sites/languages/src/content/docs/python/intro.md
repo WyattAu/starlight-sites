@@ -168,6 +168,6 @@ Python is the language of readability: code that looks like English pseudocode a
 
 ## Cross-References
 
-- [Types and Variables](/languages/python/02-fundamentals/01-types-and-variables)
-- [Data Structures](/languages/python/03-data-structures/01-collections)
-- [Object-Oriented Programming](/languages/python/04-object-oriented/01-classes)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Data Structures](../../../../../kotlin/src/content/docs/intermediate/collections)
+- [Object-Oriented Programming](../../../../../java/src/content/docs/03-object-oriented/01-classes)

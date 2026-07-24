@@ -902,8 +902,8 @@ linked above.
 
 ## Cross-References
 
-- [Normalization](/databases/01-relational-theory/normalization) - How normal forms apply relational theory to eliminate redundancy
-- [SQL](/databases/02-sql-fundamentals/sql) - The query language that implements relational algebra and relational calculus
-- [Data Modeling](/databases/06-database-design/data-modeling) - How conceptual models map to the relational structures described here
+- [Normalization](normalization) - How normal forms apply relational theory to eliminate redundancy
+- [SQL](../02-sql-fundamentals/sql) - The query language that implements relational algebra and relational calculus
+- [Data Modeling](../06-database-design/data-modeling) - How conceptual models map to the relational structures described here
 
 </aside>

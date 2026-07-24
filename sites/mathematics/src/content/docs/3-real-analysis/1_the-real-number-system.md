@@ -258,8 +258,8 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 </aside>## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
-- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
-- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Linear Algebra](../linear-algebra):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../real-analysis):** Rigorous treatment of real numbers and calculus.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

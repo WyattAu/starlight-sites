@@ -396,9 +396,9 @@ Main-group chemistry encompasses the s-block and p-block elements, which togethe
 
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
-| Atomic Structure         | WyattsNotes | [View](/university/chemistry/atomic-structure-and-periodicity)    |
-| Coordination Chemistry   | WyattsNotes | [View](/university/chemistry/coordination-chemistry)             |
-| Solid-State Chemistry    | WyattsNotes | [View](/university/chemistry/solid-state-chemistry)              |
+| Atomic Structure         | WyattsNotes | [View](atomic-structure-and-periodicity)    |
+| Coordination Chemistry   | WyattsNotes | [View](coordination-chemistry)             |
+| Solid-State Chemistry    | WyattsNotes | [View](solid-state-chemistry)              |
 | Main-Group Chemistry — MIT 5.04 | MIT OCW | [View](https://ocw.mit.edu/courses/5-04-principles-of-inorganic-chemistry-ii-fall-2008/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

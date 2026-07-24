@@ -115,9 +115,9 @@ Each section includes:
 
 ## Cross-References
 
-- **[Systems](../../2-systems/index.md):** Computer architecture and hardware systems.
-- **[Databases](../../4-databases/index.md):** Transaction management and concurrency control.
-- **[Computer Networks](../../3-computer-networks/index.md):** Network I/O and protocol handling.
+- **[Systems](../../../../../typescript/src/content/docs/index):** Computer architecture and hardware systems.
+- **[Databases](../../../../../typescript/src/content/docs/index):** Transaction management and concurrency control.
+- **[Computer Networks](../../../../../typescript/src/content/docs/index):** Network I/O and protocol handling.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

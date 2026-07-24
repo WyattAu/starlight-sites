@@ -150,9 +150,9 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 
 ## Cross-References
 
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation and dispersion relation for free-space propagation provide the starting point for waveguide mode analysis.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The phase velocity exceeding $c$ in waveguides is consistent with special relativity because only the group velocity carries information.
-- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
+- [Electromagnetic Waves](5_electromagnetic-waves) -- The wave equation and dispersion relation for free-space propagation provide the starting point for waveguide mode analysis.
+- [Special Relativity and Electromagnetism](7_special-relativity-and-electromagnetism) -- The phase velocity exceeding $c$ in waveguides is consistent with special relativity because only the group velocity carries information.
+- [Lasers](../4-optics-and-waves/9_lasers) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -904,10 +904,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- [Locking and Deadlocks](/databases/04-transactions/locking-and-deadlocks) - How PostgreSQL's lock types enforce transaction isolation at different granularities
-- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How index scans and MVCC visibility interact during concurrent transactions
-- [Data Modeling Patterns](/databases/06-database-design/data-modeling) - Why ACID guarantees influence normalization and denormalization choices
-- [NoSQL Databases](/databases/05-nosql/nosql) - How CAP and PACELC theorems contrast with traditional ACID guarantees
+- [Locking and Deadlocks](locking-and-deadlocks) - How PostgreSQL's lock types enforce transaction isolation at different granularities
+- [Indexing and Optimization](../03-indexing-optimization/indexing) - How index scans and MVCC visibility interact during concurrent transactions
+- [Data Modeling Patterns](../06-database-design/data-modeling) - Why ACID guarantees influence normalization and denormalization choices
+- [NoSQL Databases](../05-nosql/nosql) - How CAP and PACELC theorems contrast with traditional ACID guarantees
 
 ## Worked Examples
 

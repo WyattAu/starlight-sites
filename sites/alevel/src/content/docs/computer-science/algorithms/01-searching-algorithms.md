@@ -388,7 +388,7 @@ Correct form is `mid = low + (high - low) / 2`Which cannot overflow since `high 
 Non-negative and less than `INT_MAX`.
 
 For revision on sorting, see
-[Sorting Algorithms](/computer-science/algorithms/sorting-algorithms).
+[Sorting Algorithms](02-sorting-algorithms).
 
 </details>
 

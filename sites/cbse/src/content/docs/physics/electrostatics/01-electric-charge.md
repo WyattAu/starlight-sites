@@ -87,8 +87,8 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 - **[Electric Field (02-electric-field.md)](02-electric-field.md):** Charges create electric fields, which exert forces on other charges — connecting charge to the field concept.
 - **[Current Electricity](../current-electricity/index.md):** Electric current is the flow of charge — understanding charge is the first step to understanding circuits.
-- **[Electrostatics](../index.md):** The broader topic that uses Coulomb's law to calculate fields, potentials, and forces from charge distributions.
-- **[Atoms and Nuclei (Physics)](../../atoms-nuclei/index.md):** Atomic structure depends on the electrostatic attraction between the positively charged nucleus and negatively charged electrons.
+- **[Electrostatics](../../../../../../typescript/src/content/docs/index):** The broader topic that uses Coulomb's law to calculate fields, potentials, and forces from charge distributions.
+- **[Atoms and Nuclei (Physics)](../../../../../../typescript/src/content/docs/index):** Atomic structure depends on the electrostatic attraction between the positively charged nucleus and negatively charged electrons.
 
 ## Practice Problems
 

@@ -19,7 +19,7 @@ description: "This document builds on the coroutine fundamentals covered in . It
 </script>
 
 This document builds on the coroutine fundamentals covered in
-[coroutines](/languages/kotlin/intermediate/coroutines). It assumes familiarity with suspend
+[coroutines](../../../../../../kotlin/src/content/docs/intermediate/coroutines). It assumes familiarity with suspend
 functions, coroutine builders, dispatchers, structured concurrency, and basic Flow usage.
 
 ## Flow Error Handling
@@ -577,7 +577,7 @@ asynchronous systems with Kotlin coroutines.
 
 ## Cross-References
 
-- [Coroutines](/languages/kotlin/intermediate/coroutines.md) — This advanced guide builds on the coroutine fundamentals: suspend functions, dispatchers, and structured concurrency.
-- [Collections](/languages/kotlin/intermediate/collections.md) — Flow transformations (map, filter, flatMap) mirror collection operations; sequences share the lazy evaluation model.
-- [Generics](/languages/kotlin/intermediate/generics.md) — Flow<T>, StateFlow<T>, and SharedFlow<T> use generic type parameters and variance annotations.
-- [Delegation and Result](/languages/kotlin/intermediate/delegation-and-result.md) — StateFlow integrates with property delegation patterns for reactive state management in ViewModels.
+- [Coroutines](../../../../../../kotlin/src/content/docs/intermediate/coroutines) — This advanced guide builds on the coroutine fundamentals: suspend functions, dispatchers, and structured concurrency.
+- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections) — Flow transformations (map, filter, flatMap) mirror collection operations; sequences share the lazy evaluation model.
+- [Generics](../../../../../../kotlin/src/content/docs/intermediate/generics) — Flow<T>, StateFlow<T>, and SharedFlow<T> use generic type parameters and variance annotations.
+- [Delegation and Result](../../../../../../kotlin/src/content/docs/intermediate/delegation-and-result) — StateFlow integrates with property delegation patterns for reactive state management in ViewModels.

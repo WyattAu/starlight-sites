@@ -145,7 +145,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- **[AP Physics](/ap/physics):** Calculus is essential for Physics C — kinematics, work, and circuits all require derivatives and integrals.
-- **[AP Statistics](/ap/statistics):** Probability and distributions in statistics use concepts from calculus.
-- **[AP Computer Science](/ap/computer-science):** Algorithm analysis uses limits and series to describe time complexity.
+- **[AP Physics](../../../../../ib/src/content/docs/physics/physics):** Calculus is essential for Physics C — kinematics, work, and circuits all require derivatives and integrals.
+- **[AP Statistics](../../../../../alevel/src/content/docs/further-maths/flashcards-further-statistics):** Probability and distributions in statistics use concepts from calculus.
+- **[AP Computer Science](../../../../../ib/src/content/docs/computer-science/computer-science):** Algorithm analysis uses limits and series to describe time complexity.
 - **[Computer Science — Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Asymptotic analysis of algorithms relies on the same limit and series concepts used in calculus — Big-O notation is formalised using limits.

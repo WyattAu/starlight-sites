@@ -279,6 +279,6 @@ the second derivative test.
 
 ## Cross-References
 
-- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
-- **[Functions](../maths/2-functions/functions):** Functions are central
-- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic
+- **[Number and Algebra](../1-number-and-algebra/1_number-and-algebra):** Algebra is foundational
+- **[Functions](../../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions):** Functions are central
+- **[Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus):** Calculus is a major topic

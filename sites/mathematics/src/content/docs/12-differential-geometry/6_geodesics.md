@@ -200,10 +200,10 @@ Geodesics are the straightest possible paths on a curved surface. On a flat plan
 
 ## Cross-References
 
-- [Vector Fields and Flows](/mathematics/12-differential-geometry/3_vector-fields-and-flows) -- Geodesics are integral curves of the geodesic spray vector field on the tangent bundle, linking flow theory to metric geometry.
-- [Differential Geometry Summary](/mathematics/12-differential-geometry/10_summary) -- The summary table of Christoffel symbols and curvature tensors provides the computational tools used throughout this chapter.
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces as a rule relativity.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.
+- [Vector Fields and Flows](3_vector-fields-and-flows) -- Geodesics are integral curves of the geodesic spray vector field on the tangent bundle, linking flow theory to metric geometry.
+- [Differential Geometry Summary](10_summary) -- The summary table of Christoffel symbols and curvature tensors provides the computational tools used throughout this chapter.
+- [Electromagnetic Waves](../../../../../physics/src/content/docs/3-electromagnetism/5_electromagnetic-waves) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces as a rule relativity.
+- [Special Relativity and Electromagnetism](../../../../../physics/src/content/docs/3-electromagnetism/7_special-relativity-and-electromagnetism) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -1666,6 +1666,6 @@ Macros are Rust's compile-time code generators. Think of them as copy-paste with
 
 ## Cross-References
 
-- [Cargo and Ecosystem](/rust/07-cargo-ecosystem/cargo-and-ecosystem)
-- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)
-- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)
+- [Cargo and Ecosystem](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/cargo-and-ecosystem)
+- [Traits and Generics](../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)
+- [Unsafe Rust](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust)

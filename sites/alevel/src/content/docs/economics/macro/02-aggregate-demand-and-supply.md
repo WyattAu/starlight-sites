@@ -1183,10 +1183,10 @@ each approach.
 
 ## Cross-References
 
-- [The Financial Sector](../03-the-financial-sector) -- Interest rate changes shift AD through investment, connecting the AD/AS model to monetary policy analysis.
-- [Fiscal Policy](../04-fiscal-policy) -- Government spending and taxation directly shift the AD curve, making fiscal policy a key application of this framework.
-- [Demand, Supply and Equilibrium](../../microeconomics/02-demand-supply-and-equilibrium) -- The microeconomic supply and demand model provides the foundation for understanding the aggregate curves.
-- [Unemployment and Inflation](../01-macroeconomic-performance) -- The AD/AS model explains how output gaps relate to unemployment and how price level changes constitute inflation.
+- [The Financial Sector](03-the-financial-sector) -- Interest rate changes shift AD through investment, connecting the AD/AS model to monetary policy analysis.
+- [Fiscal Policy](04-fiscal-policy) -- Government spending and taxation directly shift the AD curve, making fiscal policy a key application of this framework.
+- [Demand, Supply and Equilibrium](../microeconomics/02-demand-supply-and-equilibrium) -- The microeconomic supply and demand model provides the foundation for understanding the aggregate curves.
+- [Unemployment and Inflation](01-macroeconomic-performance) -- The AD/AS model explains how output gaps relate to unemployment and how price level changes constitute inflation.
 
 ---
 

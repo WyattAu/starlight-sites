@@ -542,6 +542,6 @@ Generators are like vending machines that dispense items one at a time. Instead 
 
 ## Cross-References
 
-- [Stackless Coroutine Frames](/cpp/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames enable generator implementation
-- [Promise, Awaiter](/cpp/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types control generator behavior
+- [Stackless Coroutine Frames](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames enable generator implementation
+- [Promise, Awaiter](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types control generator behavior
 

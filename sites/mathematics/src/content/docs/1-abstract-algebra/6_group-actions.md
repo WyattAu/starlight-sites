@@ -146,8 +146,8 @@ Group actions describe how symmetry groups interact with sets. A group acts on a
 
 ## Cross-References
 
-- [The Sylow Theorems](/mathematics/1-abstract-algebra/7_the-sylow-theorems) -- Sylow's theorems use group actions on coset spaces and conjugacy classes to count subgroups.
-- [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- The orbit-stabilizer theorem is a generalisation of Lagrange's theorem applied to group actions.
-- [Classification of Groups of Small Order](/mathematics/1-abstract-algebra/16_classification-of-groups-of-small-order) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
-- [Worked Examples](/mathematics/1-abstract-algebra/15_worked-examples) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
+- [The Sylow Theorems](7_the-sylow-theorems) -- Sylow's theorems use group actions on coset spaces and conjugacy classes to count subgroups.
+- [Lagrange's Theorem](3_lagrange-s-theorem) -- The orbit-stabilizer theorem is a generalisation of Lagrange's theorem applied to group actions.
+- [Classification of Groups of Small Order](16_classification-of-groups-of-small-order) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
+- [Worked Examples](15_worked-examples) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
 

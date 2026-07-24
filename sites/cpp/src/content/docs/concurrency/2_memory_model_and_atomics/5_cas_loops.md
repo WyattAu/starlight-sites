@@ -736,6 +736,6 @@ CAS loops are like trying to update a shared whiteboard. You read the current va
 
 ## Cross-References
 
-- [Atomic Operations](/cpp/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations form the basis of CAS loops
-- [Memory Orderings](/cpp/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to choose the right memory ordering for CAS operations
+- [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations form the basis of CAS loops
+- [Memory Orderings](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to choose the right memory ordering for CAS operations
 

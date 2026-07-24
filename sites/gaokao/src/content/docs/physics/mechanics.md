@@ -333,6 +333,6 @@ Motion is like a story with chapters. Velocity tells you how fast the story is m
 
 ## Cross-References
 
-- [Electricity](/gaokao/physics/electricity) - Electromagnetic forces and circuits that extend classical mechanics into electrical domains
-- [Optics](/gaokao/physics/optics) - Wave optics and geometric optics that apply mechanical principles to light propagation
-- [Functions](/gaokao/mathematics/functions) - Mathematical functions used to model motion, energy, and force relationships
+- [Electricity](electricity) - Electromagnetic forces and circuits that extend classical mechanics into electrical domains
+- [Optics](optics) - Wave optics and geometric optics that apply mechanical principles to light propagation
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - Mathematical functions used to model motion, energy, and force relationships

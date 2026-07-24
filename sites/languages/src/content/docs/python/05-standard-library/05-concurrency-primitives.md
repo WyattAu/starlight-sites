@@ -938,6 +938,6 @@ linked above.
 ## Cross-References
 
 - [Serialization](./04-serialization): Shows how to serialize and deserialize data for inter-process communication in multiprocessing scenarios.
-- [Async/Await](/python/async): Explores the asyncio event loop and coroutines as an alternative concurrency model to threads and processes.
-- [File I/O](/python/file-io): Demonstrates thread-safe file operations and how concurrency primitives protect shared file resources.
-- [Error Handling](/python/error-handling): Explains how to handle exceptions in concurrent code, including thread-safe error logging and recovery.
+- [Async/Await](../../../../../../dart/src/content/docs/05-async/01-async-and-futures): Explores the asyncio event loop and coroutines as an alternative concurrency model to threads and processes.
+- [File I/O](02-file-io): Demonstrates thread-safe file operations and how concurrency primitives protect shared file resources.
+- [Error Handling](../../../../../../dart/src/content/docs/08-error-handling): Explains how to handle exceptions in concurrent code, including thread-safe error logging and recovery.

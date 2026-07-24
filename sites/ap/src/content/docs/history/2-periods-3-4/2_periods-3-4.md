@@ -207,6 +207,6 @@ Periods 3-4 (1754-1848) cover the **creation of the American republic** — from
 ## Cross-References
 
 - [Periods 1-2 (1491-1754)](/ap/history/periods-1-2): Provides the colonial background that led to the revolutionary movement and the creation of the United States.
-- [Period 5 (1844-1877)](/ap/history/period-5): Examines how the tensions between states' rights and federal authority, which began in this period, ultimately led to the Civil War.
-- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Assesses your understanding of the American Revolution and early republic, identifying areas for improvement.
-- [AP US History Practice](/ap/history/practice): Offers practice questions on revolutionary era topics and early American governance.
+- [Period 5 (1844-1877)](../3-period-5/3_period-5): Examines how the tensions between states' rights and federal authority, which began in this period, ultimately led to the Civil War.
+- [AP US History Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Assesses your understanding of the American Revolution and early republic, identifying areas for improvement.
+- [AP US History Practice](../../../../../../admissions/src/content/docs/practice-admissions): Offers practice questions on revolutionary era topics and early American governance.

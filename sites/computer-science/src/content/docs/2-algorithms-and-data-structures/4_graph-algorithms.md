@@ -503,7 +503,7 @@ $\\{A, B, C, D, E\\}$. Cost: 14.
 
 - [Algorithm Analysis](./1_algorithm-analysis) -- Graph algorithm complexity is analysed using the same Big-O framework as other algorithms.
 - [Data Structures](./2_fundamental-data-structures) -- Adjacency lists and matrices are the data structures that represent graphs for algorithmic processing.
-- [Discrete Mathematics](../../1-discrete-mathematics/5_graph-theory) -- Graph theory provides the mathematical foundations for graph algorithms including connectivity and paths.
+- [Discrete Mathematics](../1-discrete-mathematics/5_graph-theory) -- Graph theory provides the mathematical foundations for graph algorithms including connectivity and paths.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

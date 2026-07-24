@@ -873,6 +873,6 @@ Error handling in Python is about being specific and recoverable. `try`/`except`
 
 ## Cross-References
 
-- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling)
-- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
-- [Functions](/python/02-fundamentals/03-functions)
+- [Debugging and Profiling](../../../../../languages/src/content/docs/python/07-best-practices/02-debugging-and-profiling)
+- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)

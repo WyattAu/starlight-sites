@@ -659,13 +659,13 @@ Events follows the exponential distribution $\mathrm{Exp}(\lambda)$. See
 
 The probability generating function $G_X(t) = \dfrac{pt}{1-qt}$ of the geometric distribution
 Connects to the summation of geometric series. See
-[Further Algebra](/further-maths/pure-mathematics/further-algebra).
+[Further Algebra](../pure-mathematics/03-further-algebra).
 
 ### 8.3 Poisson and hypothesis testing
 
 Goodness-of-fit tests using the chi-squared statistic compare observed and expected (Poisson)
 Frequencies. See
-[Chi-Squared Tests](/further-maths/further-statistics/chi-squared-tests).
+[Chi-Squared Tests](03-chi-squared-tests).
 
 ---
 
@@ -988,7 +988,7 @@ $\lambda = np$.
 
 The chi-squared goodness-of-fit test is used to test whether data follows a Poisson or geometric
 Distribution. See
-[Chi-Squared Tests](/further-maths/further-statistics/chi-squared-tests).
+[Chi-Squared Tests](03-chi-squared-tests).
 
 ---
 

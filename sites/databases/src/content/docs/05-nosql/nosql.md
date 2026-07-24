@@ -856,10 +856,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- [Transactions and Concurrency](/databases/04-transactions/transactions) - How ACID guarantees differ across relational and NoSQL systems
-- [Redis Deep Dive](/databases/05-nosql/redis) - Detailed implementation of key-value store data structures and persistence
-- [PostgreSQL Advanced](/databases/05-nosql/postgresql-advanced) - PostgreSQL extensions that bridge relational and document store patterns
-- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How indexing strategies differ between B-tree, GIN, and NoSQL index types
+- [Transactions and Concurrency](../04-transactions/transactions) - How ACID guarantees differ across relational and NoSQL systems
+- [Redis Deep Dive](redis) - Detailed implementation of key-value store data structures and persistence
+- [PostgreSQL Advanced](postgresql-advanced) - PostgreSQL extensions that bridge relational and document store patterns
+- [Indexing and Optimization](../03-indexing-optimization/indexing) - How indexing strategies differ between B-tree, GIN, and NoSQL index types
 
 ## Worked Examples
 

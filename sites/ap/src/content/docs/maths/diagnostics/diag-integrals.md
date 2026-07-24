@@ -383,5 +383,5 @@ Integral diagnostics test whether you can **set up integrals correctly** and dis
 
 ## Cross-References
 
-- **[Integrals](../../3-integrals/3_integrals):** The full topic page covering FTC, Riemann sums, and all integration techniques.
-- **[Differential Equations](../../4-differential-equations/4_differential-equations):** Separable differential equations are solved by integrating both sides.
+- **[Integrals](../3-integrals/3_integrals):** The full topic page covering FTC, Riemann sums, and all integration techniques.
+- **[Differential Equations](../4-differential-equations/4_differential-equations):** Separable differential equations are solved by integrating both sides.

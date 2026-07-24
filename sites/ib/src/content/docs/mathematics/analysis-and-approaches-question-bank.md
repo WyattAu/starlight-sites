@@ -592,6 +592,6 @@ A question bank serves as a diagnostic tool. Each question tests a specific skil
 
 ## Cross-References
 
-- **[Calculus](../maths/5-calculus/calculus):** Analysis covers calculus
-- **[Functions](../maths/2-functions/functions):** Functions are central to analysis
-- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra underpins analysis
+- **[Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Analysis covers calculus
+- **[Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions):** Functions are central to analysis
+- **[Number and Algebra](../maths/1-number-and-algebra/1_number-and-algebra):** Algebra underpins analysis

@@ -32,7 +32,7 @@ design skills.
 
 Processor architecture, memory, input/output, operating systems, and system performance.
 
-→ **[Full notes](../../ilc/computer-science/1-hardware/1_hardware.md)**
+→ **[Full notes](../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware)**
 
 ### Software Design & Development
 
@@ -44,7 +44,7 @@ Programming constructs, software development lifecycle, testing, and modular des
 
 Relational databases, SQL, normalisation, entity-relationship modelling, and data integrity.
 
-→ **[Full notes](../../ilc/computer-science/3-databases/3_databases.md)**
+→ **[Full notes](../../../../../leaving-cert/src/content/docs/computer-science/3-databases/3_databases)**
 
 ### Algorithms & Data Structures
 

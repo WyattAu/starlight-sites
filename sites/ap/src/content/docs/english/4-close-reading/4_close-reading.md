@@ -245,7 +245,7 @@ Close reading is about **what the text actually says and how it says it** — no
 
 ## Cross-References
 
-- [Rhetorical Analysis](/ap/english/rhetorical-analysis): Builds directly on close reading skills to analyze how authors use language to achieve specific purposes and effects.
-- [Argument Essay](/ap/english/argument): Applies close reading techniques to evaluate the strength and effectiveness of arguments in written texts.
-- [Synthesis Essay](/ap/english/synthesis): Uses close reading to evaluate and integrate multiple sources into a coherent argument.
-- [AP English Diagnostic Test](/ap/english/diagnostic-test): Assesses your close reading abilities and provides practice with exam-style questions requiring careful textual analysis.
+- [Rhetorical Analysis](../1-rhetorical-analysis/1_rhetorical-analysis): Builds directly on close reading skills to analyze how authors use language to achieve specific purposes and effects.
+- [Argument Essay](../2-argument/2_argument): Applies close reading techniques to evaluate the strength and effectiveness of arguments in written texts.
+- [Synthesis Essay](../../../../../../chemistry/src/content/docs/2-organic-chemistry/synthesis): Uses close reading to evaluate and integrate multiple sources into a coherent argument.
+- [AP English Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Assesses your close reading abilities and provides practice with exam-style questions requiring careful textual analysis.

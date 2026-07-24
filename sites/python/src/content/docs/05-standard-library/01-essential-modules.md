@@ -1152,6 +1152,6 @@ Python's standard library is "batteries included": it ships with modules for alm
 
 ## Cross-References
 
-- [File I/O](/python/05-standard-library/02-file-io)
-- [CLI Tools](/python/05-standard-library/03-cli-tools)
-- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages)
+- [File I/O](../../../../../languages/src/content/docs/python/05-standard-library/02-file-io)
+- [CLI Tools](../../../../../languages/src/content/docs/python/05-standard-library/03-cli-tools)
+- [Modules and Packages](../../../../../go/src/content/docs/advanced/modules-and-packages)

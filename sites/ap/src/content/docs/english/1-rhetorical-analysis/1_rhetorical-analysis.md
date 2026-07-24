@@ -223,5 +223,5 @@ Reading and writing are fundamental to intellectual development. Literature expo
 
 ## Cross-References
 
-- [Argument](/ap/english/argument)
-- [Literary Analysis](/ap/english/literary-analysis)
+- [Argument](../2-argument/2_argument)
+- [Literary Analysis](../../../../../../alevel/src/content/docs/english/1-literary-analysis/1_literary-analysis)

@@ -995,5 +995,5 @@ linked above.
 - [Derivatives](../2-derivatives/2_derivatives) -- The derivative is defined as a limit of a difference quotient, making limits the foundation of differential calculus.
 - [Integrals](../3-integrals/3_integrals) -- The definite integral is defined as a limit of Riemann sums, connecting limits to the accumulation of quantities.
 - [Sequences and Series](../5-sequences-and-series/5_sequences-and-series) -- Convergence of sequences and series relies on the same limit concepts that underpin continuity.
-- **[AP Physics — Kinematics](../physics/1-kinematics/1_kinematics):** Instantaneous velocity and acceleration are defined as limits of average velocity and acceleration over shrinking time intervals.
-- **[AP Physics — Work, Energy, and Power](../physics/3-work-energy-power/3_work-energy-power):** The work integral is defined as a limit of Riemann sums, directly applying limit concepts to physical quantities.
+- **[AP Physics — Kinematics](../../physics/1-kinematics/1_kinematics):** Instantaneous velocity and acceleration are defined as limits of average velocity and acceleration over shrinking time intervals.
+- **[AP Physics — Work, Energy, and Power](../../physics/3-work-energy-power/3_work-energy-power):** The work integral is defined as a limit of Riemann sums, directly applying limit concepts to physical quantities.

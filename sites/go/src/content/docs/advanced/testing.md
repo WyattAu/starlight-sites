@@ -76,7 +76,7 @@ func TestStack(t *testing.T) {
 `t.Helper()` marks a function as a test helper. Failures report the calling line, not the helper:
 
 ```go
-func assertEqual[T comparable](t *testing.T, got, want T) {
+func assertEqual[T comparable](../../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) {
     t.Helper()
     if got != want {
         t.Errorf("got %v, want %v", got, want)
@@ -404,6 +404,6 @@ Go's testing framework is built into the toolchain -- test files are just regula
 
 ## Cross-References
 
-- [Functions](/go/basics/functions) -- first-class functions and closures
-- [Modules and Packages](/go/advanced/modules-and-packages) -- dependency management
-- [Goroutines and Synchronization](/go/concurrency/goroutines) -- testing concurrent code
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- first-class functions and closures
+- [Modules and Packages](modules-and-packages) -- dependency management
+- [Goroutines and Synchronization](../concurrency/goroutines) -- testing concurrent code

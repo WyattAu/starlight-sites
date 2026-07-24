@@ -189,7 +189,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Organic Chemistry Guide](/chemistry/organic/)
-- [Physical Chemistry Concepts](/chemistry/physical/)
-- [Inorganic Chemistry Overview](/chemistry/inorganic/)
-- [Biochemistry Introduction](/chemistry/biochemistry/)
+- [Organic Chemistry Guide](../../../../hsc/src/content/docs/chemistry/organic)
+- [Physical Chemistry Concepts](../../../../alevel/src/content/docs/chemistry/flashcards-physical-chemistry)
+- [Inorganic Chemistry Overview](../../../../hsc/src/content/docs/chemistry/inorganic)
+- [Biochemistry Introduction](../../../../dse/src/content/docs/biology/1-cell-biology/1_cell-biology-and-biochemistry)

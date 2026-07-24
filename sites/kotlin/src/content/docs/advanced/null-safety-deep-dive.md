@@ -360,6 +360,6 @@ Kotlin's null safety is a compile-time guarantee that eliminates most NullPointe
 
 ## Cross-References
 
-- [Types and Variables](/kotlin/basics/types-and-variables) -- nullable type declarations
-- [Classes and Objects](/kotlin/basics/classes-and-objects) -- data classes and sealed classes
-- [Coroutines](/kotlin/intermediate/coroutines) -- null safety in suspend functions
+- [Types and Variables](../basics/types-and-variables) -- nullable type declarations
+- [Classes and Objects](../basics/classes-and-objects) -- data classes and sealed classes
+- [Coroutines](../intermediate/coroutines) -- null safety in suspend functions

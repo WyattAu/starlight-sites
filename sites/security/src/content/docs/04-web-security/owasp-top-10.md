@@ -717,6 +717,6 @@ linked above.
 
 ## Cross-References
 
-- [Web Security](/security/04-web-security/web-security) provides the broader web application security context within which the OWASP Top 10 vulnerabilities sit.
-- [Authentication](/security/03-authentication/authentication) covers credential management and session security that prevent several OWASP categories.
-- [Security Fundamentals](/security/01-security-fundamentals/security-fundamentals) defines the core security principles (confidentiality, integrity, availability) that the OWASP list addresses.
+- [Web Security](web-security) provides the broader web application security context within which the OWASP Top 10 vulnerabilities sit.
+- [Authentication](../03-authentication/authentication) covers credential management and session security that prevent several OWASP categories.
+- [Security Fundamentals](../01-security-fundamentals/security-fundamentals) defines the core security principles (confidentiality, integrity, availability) that the OWASP list addresses.

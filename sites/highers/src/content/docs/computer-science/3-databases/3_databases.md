@@ -796,9 +796,9 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- [Software](/highers/computer-science/2-software/2_software) covers the software engineering principles used to design and implement database systems.
-- [Hardware](/highers/computer-science/1-hardware/1_hardware) explains the storage and processing architecture that determines database performance characteristics.
-- [Algorithms](/highers/computer-science/4-algorithms/4_algorithms) provides the sorting, searching, and graph algorithms used in database query optimisation.
+- [Software](../2-software/2_software) covers the software engineering principles used to design and implement database systems.
+- [Hardware](../../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware) explains the storage and processing architecture that determines database performance characteristics.
+- [Algorithms](../4-algorithms/4_algorithms) provides the sorting, searching, and graph algorithms used in database query optimisation.
 ## Intuition
 
 A database is like a library with a very strict librarian -- every book has a unique call number (primary key), is filed in a specific section (tables), and the librarian knows exactly where everything is (indexing). Normalisation is the process of organising the library so that each fact is stored in exactly one place -- you do not want the same address written on ten different forms. SQL is the language you use to ask the librarian for information, and joins are how you combine information from different sections to answer complex questions. The trade-off is between normalised design (clean, consistent) and denormalised design (fast, redundant).

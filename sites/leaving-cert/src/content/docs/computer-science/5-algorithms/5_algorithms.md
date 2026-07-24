@@ -860,6 +860,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Hardware](/leaving-cert/computer-science/1-hardware/1_hardware) explains the processor architecture that determines how efficiently algorithms execute.
-- [Programming](/leaving-cert/computer-science/2-programming/2_programming) covers the coding techniques used to implement algorithms in practical software systems.
-- [Databases](/leaving-cert/computer-science/3-databases/3_databases) applies algorithmic concepts to database indexing, sorting, and query optimisation.
+- [Hardware](../1-hardware/1_hardware) explains the processor architecture that determines how efficiently algorithms execute.
+- [Programming](../2-programming/2_programming) covers the coding techniques used to implement algorithms in practical software systems.
+- [Databases](../3-databases/3_databases) applies algorithmic concepts to database indexing, sorting, and query optimisation.

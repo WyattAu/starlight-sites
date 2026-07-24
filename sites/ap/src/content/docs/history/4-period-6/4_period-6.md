@@ -230,7 +230,7 @@ Period 6 (1865-1898) covers the **Gilded Age** — a period of massive economic 
 
 ## Cross-References
 
-- [Period 5 (1844-1877)](/ap/history/period-5): Shows the post-Civil War context that set the stage for industrialisation and westward expansion in the Gilded Age.
-- [Period 7 (1890-1945)](/ap/history/period-7): Explores the Progressive Era and world wars that emerged as responses to the problems of industrialisation.
-- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Assesses your understanding of industrialisation and its consequences, identifying gaps in knowledge.
-- [AP US History Practice](/ap/history/practice): Offers practice questions on Gilded Age politics, immigration, and economic growth.
+- [Period 5 (1844-1877)](../3-period-5/3_period-5): Shows the post-Civil War context that set the stage for industrialisation and westward expansion in the Gilded Age.
+- [Period 7 (1890-1945)](../5-period-7/5_period-7): Explores the Progressive Era and world wars that emerged as responses to the problems of industrialisation.
+- [AP US History Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Assesses your understanding of industrialisation and its consequences, identifying gaps in knowledge.
+- [AP US History Practice](../../../../../../admissions/src/content/docs/practice-admissions): Offers practice questions on Gilded Age politics, immigration, and economic growth.

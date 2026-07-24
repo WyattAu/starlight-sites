@@ -196,6 +196,6 @@ History is not a collection of dates to memorize but a conversation between the 
 
 ## Cross-References
 
-- [Biology](/dse/biology)
-- [Chemistry](/dse/chemistry)
-- [Economics](/dse/economics)
+- [Biology](../../../../../gcse/src/content/docs/biology)
+- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
+- [Economics](../../../../../alevel/src/content/docs/economics/economics)

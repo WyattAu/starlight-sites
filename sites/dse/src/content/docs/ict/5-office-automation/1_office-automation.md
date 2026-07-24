@@ -965,6 +965,6 @@ linked above.
 
 ## Cross-References
 
-- [System Lifecycle](/dse/ict/6-system-lifecycle/1_system-lifecycle) explains the planning and implementation processes used to deploy office automation systems.
-- [Web Development and Multimedia](/dse/ict/7-web-and-multimedia/1_web-development-and-multimedia) covers more advanced computing applications that build on office automation skills.
-- [Data Representation](/dse/ict/1-data-representation/1_data-representation) provides the foundational data concepts that office automation software processes and stores.
+- [System Lifecycle](../6-system-lifecycle/1_system-lifecycle) explains the planning and implementation processes used to deploy office automation systems.
+- [Web Development and Multimedia](../7-web-and-multimedia/1_web-development-and-multimedia) covers more advanced computing applications that build on office automation skills.
+- [Data Representation](../1-data-representation/1_data-representation) provides the foundational data concepts that office automation software processes and stores.

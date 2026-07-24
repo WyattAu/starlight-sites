@@ -175,6 +175,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 ## Cross-References
 
-- [Relational Theory](/databases/01-relational-theory/relational-theory) - The formal foundations of the relational model used throughout this course
-- [SQL Fundamentals](/databases/02-sql-fundamentals/sql) - Core SQL syntax and query construction techniques
-- [Indexing](/databases/03-indexing-optimization/indexing) - How indexes improve query performance on relational databases
+- [Relational Theory](01-relational-theory/relational-theory) - The formal foundations of the relational model used throughout this course
+- [SQL Fundamentals](02-sql-fundamentals/sql) - Core SQL syntax and query construction techniques
+- [Indexing](03-indexing-optimization/indexing) - How indexes improve query performance on relational databases

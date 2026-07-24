@@ -266,7 +266,7 @@ about $B$.
 
 - **[Turing Machines](./4_turing-machines.md):** Turing machine formalism and computability.
 - **[Theory of Computation Flashcards](./8_flashcards-theory-of-computation.mdx):** Interactive flashcards covering complexity classes.
-- **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
+- **[Algorithms](../../../../../typescript/src/content/docs/index):** Algorithm design and complexity theory.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

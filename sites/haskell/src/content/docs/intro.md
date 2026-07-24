@@ -40,7 +40,7 @@ Start with the basics: pure functions, pattern matching, and list operations. Th
 
 ## Cross-References
 
-- **[Abstract Algebra](/university/mathematics/abstract-algebra)**: Groups, rings, and fields — the algebraic structures that inspire Haskell's type class hierarchy.
+- **[Abstract Algebra](../../../../mathematics/src/content/docs/abstract-algebra)**: Groups, rings, and fields — the algebraic structures that inspire Haskell's type class hierarchy.
 - **[Category Theory](/university/mathematics/category-theory)**: Functors, natural transformations, and monads have their mathematical foundations here.
 
 Browse the content using the sidebar navigation on the left.

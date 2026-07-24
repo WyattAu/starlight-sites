@@ -76,7 +76,7 @@ func TestStack(t *testing.T) {
 `t.Helper()` marks a function as a test helper. Failures report the calling line, not the helper:
 
 ```go
-func assertEqual[T comparable](t *testing.T, got, want T) {
+func assertEqual[T comparable](../../../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) {
     t.Helper()
     if got != want {
         t.Errorf("got %v, want %v", got, want)

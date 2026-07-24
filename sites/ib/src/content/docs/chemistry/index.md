@@ -178,6 +178,6 @@ Each page in this section includes:
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 ## Cross-References
 
-- [Biology](/ib/biology)
-- [Chemistry](/ib/chemistry)
-- [Computer Science](/ib/computer-science)
+- [Biology](../../../../../gcse/src/content/docs/biology)
+- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
+- [Computer Science](../computer-science/computer-science)

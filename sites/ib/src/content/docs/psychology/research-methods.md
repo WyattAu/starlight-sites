@@ -457,9 +457,9 @@ linked above.
 
 ## Cross-References
 
-- [Thinking and Decision Making](/ib/psychology/cognitive/thinking-and-decision-making) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
-- [Nervous System](/ib/biology/8-nervous-system-and-immunology/1_nervous-system) provides the biological basis for understanding behaviour, which is the primary subject of psychological research.
-- [Cell Biology](/ib/biology/1-cell-biology/1_cell-biology) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.
+- [Thinking and Decision Making](cognitive/thinking-and-decision-making) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
+- [Nervous System](../../../../../dse/src/content/docs/biology/7-nervous-system-and-immunology/1_nervous-system) provides the biological basis for understanding behaviour, which is the primary subject of psychological research.
+- [Cell Biology](../biology/1-cell-biology/1_cell-biology) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.
 
 ---
 

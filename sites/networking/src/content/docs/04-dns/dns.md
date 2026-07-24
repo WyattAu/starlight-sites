@@ -853,6 +853,6 @@ DNS is the internet's phone book: it translates human-readable names (google.com
 
 ## Cross-References
 
-- [DNS Architecture](/networking/04-dns/dns-architecture)
+- [DNS Architecture](dns-architecture)
 - [HTTP](/networking/05-http-https/http)
-- [IP Addressing](/networking/02-ip-addressing/ip-addressing)
+- [IP Addressing](../02-ip-addressing/ip-addressing)

@@ -359,6 +359,6 @@ Kotlin functions are first-class values that can be passed as parameters, return
 
 ## Cross-References
 
-- [Types and Variables](/kotlin/basics/types-and-variables) -- function types and nullable functions
-- [Control Flow](/kotlin/basics/control-flow) -- lambdas in for-each and labeled returns
-- [Coroutines](/kotlin/intermediate/coroutines) -- suspend functions as coroutines
+- [Types and Variables](types-and-variables) -- function types and nullable functions
+- [Control Flow](control-flow) -- lambdas in for-each and labeled returns
+- [Coroutines](../intermediate/coroutines) -- suspend functions as coroutines

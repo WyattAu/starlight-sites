@@ -2297,12 +2297,12 @@ $\blacksquare$
 
 | Topic                    | Site        | Link                                                                            |
 | ------------------------ | ----------- | ------------------------------------------------------------------------------- |
-| Advanced Algorithms      | WyattsNotes | [View](/university/computing/algorithms-advanced)                          |
-| Advanced Data Structures | WyattsNotes | [View](/university/computing/data-structures-advanced)                     |
-| Discrete Mathematics     | WyattsNotes | [View](/university/computing/discrete-mathematics)                         |
-| Theory of Computation    | WyattsNotes | [View](/university/computing/theory-of-computation)                        |
+| Advanced Algorithms      | WyattsNotes | [View](2-algorithms-and-data-structures/9_algorithms-advanced)                          |
+| Advanced Data Structures | WyattsNotes | [View](2-algorithms-and-data-structures/8_data-structures-advanced)                     |
+| Discrete Mathematics     | WyattsNotes | [View](discrete-mathematics)                         |
+| Theory of Computation    | WyattsNotes | [View](theory-of-computation)                        |
 | Algorithms — MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
-| AP Calculus              | AP          | [View](/ap/maths/)                                                             |
+| AP Calculus              | AP          | [View](../../../../ib/src/content/docs/maths/maths)                                                             |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

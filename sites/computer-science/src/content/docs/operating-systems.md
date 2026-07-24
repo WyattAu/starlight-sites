@@ -2226,9 +2226,9 @@ $\blacksquare$
 
 | Topic                          | Site        | Link                                                          |
 | ------------------------------ | ----------- | ------------------------------------------------------------- |
-| Advanced Operating Systems     | WyattsNotes | [View](/university/computing/operating-systems-advanced) |
-| Computer Networks              | WyattsNotes | [View](/university/computing/computer-networks)          |
-| Databases                      | WyattsNotes | [View](/university/computing/databases)                  |
+| Advanced Operating Systems     | WyattsNotes | [View](5-operating-systems/11_operating-systems-advanced) |
+| Computer Networks              | WyattsNotes | [View](computer-networks)          |
+| Databases                      | WyattsNotes | [View](2-systems/databases)                  |
 | Operating Systems — MIT 6.S081 | MIT         | [View](https://pdos.csail.mit.edu/6.828/2021/schedule.html)   |
 
 

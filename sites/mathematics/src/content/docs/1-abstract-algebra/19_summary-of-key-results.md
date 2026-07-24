@@ -115,9 +115,9 @@ $\blacksquare$
 
 | Topic                          | Site        | Link                                                      |
 | ------------------------------ | ----------- | --------------------------------------------------------- |
-| Abstract Algebra (Overview)    | WyattsNotes | [View](/university/mathematics/abstract-algebra)     |
-| Number Theory                  | WyattsNotes | [View](/university/mathematics/number-theory)        |
-| Linear Algebra                 | WyattsNotes | [View](/university/mathematics/linear-algebra)       |
+| Abstract Algebra (Overview)    | WyattsNotes | [View](../abstract-algebra)     |
+| Number Theory                  | WyattsNotes | [View](../number-theory)        |
+| Linear Algebra                 | WyattsNotes | [View](../linear-algebra)       |
 | Abstract Algebra — Harvard 122 | Harvard     | [View](https://people.math.harvard.edu/~elkies/M122.html) |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

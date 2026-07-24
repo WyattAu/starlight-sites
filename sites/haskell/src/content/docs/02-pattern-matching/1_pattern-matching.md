@@ -909,6 +909,6 @@ json = JObj
 
 ## Cross-References
 
-- [Types and Functions](/haskell/01-basics/1_types-and-functions) - How algebraic data types define the patterns that can be matched
-- [Type Classes](/haskell/03-type-classes/1_type-classes) - How type class instances interact with pattern matching dispatch
-- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How pattern matching on monadic values enables do-notation desugaring
+- [Types and Functions](../01-basics/1_types-and-functions) - How algebraic data types define the patterns that can be matched
+- [Type Classes](../03-type-classes/1_type-classes) - How type class instances interact with pattern matching dispatch
+- [Monads and Functors](../04-monads/1_monads-and-functors) - How pattern matching on monadic values enables do-notation desugaring

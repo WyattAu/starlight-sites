@@ -545,6 +545,6 @@ Memory orderings are like traffic rules for data. Relaxed ordering is like a cou
 
 ## Cross-References
 
-- [Instruction Reordering](/cpp/concurrency/2_memory_model_and_atomics/1_instruction_reordering) - How compiler and CPU reordering motivate memory orderings
-- [Atomic Operations](/cpp/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations use memory orderings
+- [Instruction Reordering](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/1_instruction_reordering) - How compiler and CPU reordering motivate memory orderings
+- [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations use memory orderings
 

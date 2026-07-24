@@ -820,6 +820,6 @@ TCP and UDP are the two main transport protocols. TCP is the reliable courier: i
 
 ## Cross-References
 
-- [TCP State Machine](/networking/03-tcp-udp/tcp-state-machine)
+- [TCP State Machine](tcp-state-machine)
 - [UDP Deep Dive](/networking/03-tcp-udp/udp-deep-dive)
-- [HTTP](/networking/05-http-https/http)
+- [HTTP](../05-http-https/http)

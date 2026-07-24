@@ -290,10 +290,10 @@ The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the 
 
 ## Cross-References
 
-- [Potentials and Gauge Transformations](/physics/3-electromagnetism/6_potentials-and-gauge-transformations) -- The scalar and vector potentials simplify the derivation of radiation fields from accelerated charges.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The relativistic invariance of Maxwell's equations shows that EM waves propagate at $c$ in all frames.
-- [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Larmor formula and dipole radiation patterns extend the plane-wave analysis to realistic sources.
-- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser cavity modes are solutions of the wave equation with boundary conditions, connecting EM wave theory to laser physics.
+- [Potentials and Gauge Transformations](6_potentials-and-gauge-transformations) -- The scalar and vector potentials simplify the derivation of radiation fields from accelerated charges.
+- [Special Relativity and Electromagnetism](7_special-relativity-and-electromagnetism) -- The relativistic invariance of Maxwell's equations shows that EM waves propagate at $c$ in all frames.
+- [Radiation from Accelerating Charges](10_radiation-from-accelerating-charges) -- The Larmor formula and dipole radiation patterns extend the plane-wave analysis to realistic sources.
+- [Lasers](../4-optics-and-waves/9_lasers) -- Laser cavity modes are solutions of the wave equation with boundary conditions, connecting EM wave theory to laser physics.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

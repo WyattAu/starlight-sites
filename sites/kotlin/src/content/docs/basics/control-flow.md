@@ -341,6 +341,6 @@ Control flow in Kotlin is expression-oriented -- if, when, try/catch, and even l
 
 ## Cross-References
 
-- [Types and Variables](/kotlin/basics/types-and-variables) -- nullable types and smart casts
-- [Functions](/kotlin/basics/functions) -- lambdas and higher-order functions
-- [Classes and Objects](/kotlin/basics/classes-and-objects) -- sealed classes and exhaustive when
+- [Types and Variables](types-and-variables) -- nullable types and smart casts
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- lambdas and higher-order functions
+- [Classes and Objects](classes-and-objects) -- sealed classes and exhaustive when

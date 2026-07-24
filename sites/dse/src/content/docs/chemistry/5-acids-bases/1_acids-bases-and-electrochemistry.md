@@ -1350,5 +1350,5 @@ $$
 ## Cross-References
 
 - **[Atomic Structure](../atomic-structure-and-bonding):** Atomic structure determines bonding
-- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is a core topic
-- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry covers carbon compounds
+- **[Equilibrium](../../../../../../alevel/src/content/docs/chemistry/equilibrium):** Equilibrium is a core topic
+- **[Organic Chemistry](../../../../../../alevel/src/content/docs/chemistry/organic-chemistry):** Organic chemistry covers carbon compounds

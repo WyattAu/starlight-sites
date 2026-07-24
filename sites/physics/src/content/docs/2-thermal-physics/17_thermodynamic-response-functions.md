@@ -321,9 +321,9 @@ Thermodynamic response functions measure how a system reacts to small changes in
 
 ## Cross-References
 
-- [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- The susceptibility divergence and specific heat jump near $T_c$ are concrete examples of the response functions analysed here.
-- [Irreversible Thermodynamics and Fluctuations](/physics/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations) -- The fluctuation-dissipation theorem connects spontaneous fluctuations to the response functions derived in this chapter.
-- [The Debye Model of Solids](/physics/2-thermal-physics/16_the-debye-model-of-solids) -- The Debye $T^3$ law for heat capacity is a specific example of the general heat capacity theory developed here.
+- [Ising Model and Mean-Field Theory](12_ising-model-and-mean-field-theory) -- The susceptibility divergence and specific heat jump near $T_c$ are concrete examples of the response functions analysed here.
+- [Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations) -- The fluctuation-dissipation theorem connects spontaneous fluctuations to the response functions derived in this chapter.
+- [The Debye Model of Solids](16_the-debye-model-of-solids) -- The Debye $T^3$ law for heat capacity is a specific example of the general heat capacity theory developed here.
 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

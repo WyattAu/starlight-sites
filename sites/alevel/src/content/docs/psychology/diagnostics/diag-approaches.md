@@ -168,7 +168,7 @@ sidebar_position: 40
 
 - **[Memory](../flashcards-memory):** Approaches explain cognitive processes
 - **[Social Influence](../practice-social-influence):** Social influence theories use approaches
-- **[Research Methods](../psychology/1-research-methods/research-methods):** Each approach uses specific methods
+- **[Research Methods](../../../../../../ib/src/content/docs/psychology/research-methods):** Each approach uses specific methods
 
 ## Intuition
 

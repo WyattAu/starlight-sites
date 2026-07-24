@@ -198,10 +198,10 @@ operators (Spectral).
 
 ## Cross-References
 
-- [Historical Context of Functional Analysis](/mathematics/11-functional-analysis/8_historical-context) -- The historical development of Hilbert spaces and operator theory provides context for the theorems summarised here.
-- [Differential Geometry Summary](/mathematics/12-differential-geometry/10_summary) -- The Hodge star operator and de Rham cohomology use the inner-product structure of Hilbert spaces.
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
-- [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
+- [Historical Context of Functional Analysis](8_historical-context) -- The historical development of Hilbert spaces and operator theory provides context for the theorems summarised here.
+- [Differential Geometry Summary](../12-differential-geometry/10_summary) -- The Hodge star operator and de Rham cohomology use the inner-product structure of Hilbert spaces.
+- [Electromagnetic Waves](../../../../../physics/src/content/docs/3-electromagnetism/5_electromagnetic-waves) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
+- [Ising Model and Mean-Field Theory](../../../../../physics/src/content/docs/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

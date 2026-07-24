@@ -876,7 +876,7 @@ Chemistry studies how atoms combine and react to form everything around us. The 
 
 ## Cross-References
 
-- [Atomic Structure](/ap/chemistry/atomic-structure)
-- [Bonding](/ap/chemistry/bonding)
-- [Stoichiometry](/ap/chemistry/stoichiometry)
-- [Thermodynamics](/ap/chemistry/thermodynamics)
+- [Atomic Structure](../../../../../../alevel/src/content/docs/chemistry/atomic-structure)
+- [Bonding](../../../../../../alevel/src/content/docs/chemistry/bonding-and-structure)
+- [Stoichiometry](../../../../../../leaving-cert/src/content/docs/chemistry/3-stoichiometry/3_stoichiometry)
+- [Thermodynamics](../../../../../../alevel/src/content/docs/chemistry/thermodynamics)

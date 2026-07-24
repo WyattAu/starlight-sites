@@ -232,7 +232,7 @@ Synthesis is about **weaving multiple sources into a coherent argument** — not
 
 ## Cross-References
 
-- [Rhetorical Analysis](/ap/english/rhetorical-analysis): Develops skills in analyzing how authors use language strategies, which enhances your ability to evaluate source credibility and argumentation in synthesis essays.
-- [Argument Essay](/ap/english/argument): Builds on the thesis development and evidence integration techniques central to synthesis writing.
-- [Close Reading](/ap/english/close-reading): Strengthens your ability to analyze texts carefully, a skill essential for understanding and evaluating the sources provided in synthesis prompts.
-- [AP English Diagnostic Test](/ap/english/diagnostic-test): Tests your understanding of synthesis concepts and identifies areas for improvement in source integration and argumentation.
+- [Rhetorical Analysis](../1-rhetorical-analysis/1_rhetorical-analysis): Develops skills in analyzing how authors use language strategies, which enhances your ability to evaluate source credibility and argumentation in synthesis essays.
+- [Argument Essay](../2-argument/2_argument): Builds on the thesis development and evidence integration techniques central to synthesis writing.
+- [Close Reading](../4-close-reading/4_close-reading): Strengthens your ability to analyze texts carefully, a skill essential for understanding and evaluating the sources provided in synthesis prompts.
+- [AP English Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Tests your understanding of synthesis concepts and identifies areas for improvement in source integration and argumentation.

@@ -67,11 +67,11 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 
 ### Topic Notes
 
-- [Basics](02-fundamentals/01-basics) — variables, atoms, tuples, lists, and maps
-- [Pattern Matching](02-fundamentals/02-pattern-matching) — the match operator, pin operator, and destructuring
-- [Functions](02-fundamentals/03-functions) — named functions, anonymous functions, guards, and clauses
+- [Basics](../../../../dart/src/content/docs/flashcards-dart-basics) — variables, atoms, tuples, lists, and maps
+- [Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching) — the match operator, pin operator, and destructuring
+- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — named functions, anonymous functions, guards, and clauses
 - [Modules and Attributes](02-fundamentals/04-modules-and-attributes) — module definitions, module attributes, and documentation
-- [Control Flow](02-fundamentals/05-control-flow) — case, cond, with, and do blocks
+- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow) — case, cond, with, and do blocks
 
 ### Key Concepts
 
@@ -89,10 +89,10 @@ Elixir is a functional language — functions are first-class citizens, data is 
 
 ### Topic Notes
 
-- [Higher-Order Functions](03-functional/01-higher-order-functions) — Enum.map, Enum.filter, Enum.reduce, and pipe operator
+- [Higher-Order Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — Enum.map, Enum.filter, Enum.reduce, and pipe operator
 - [Pipelines](03-functional/02-pipelines) — the |> operator for chaining functions
 - [Recursion](03-functional/03-recursion) — tail call optimization and recursive patterns
-- [Protocols](03-functional/04-protocols) — polymorphism through protocol dispatch
+- [Protocols](../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods) — polymorphism through protocol dispatch
 
 ### Key Concepts
 
@@ -133,7 +133,7 @@ OTP (Open Telecom Platform) is a set of libraries and behaviours for building fa
 ### Topic Notes
 
 - [OTP Overview](05-otp/01-otp-overview) — what OTP provides and why it matters
-- [Application](05-otp/02-application) — application lifecycle, configuration, and the supervision tree
+- [Application](../../../../computer-science/src/content/docs/3-computer-networks/6_application-layer) — application lifecycle, configuration, and the supervision tree
 - [GenStateMachine](05-otp/03-gen-state-machine) — state machines with OTP
 - [ETS and Mnesia](05-otp/04-ets-and-mnesia) — in-memory storage and distributed database
 
@@ -155,9 +155,9 @@ Phoenix is Elixir's web framework. It follows the MVC pattern, provides real-tim
 
 - [Phoenix Basics](06-phoenix/01-phoenix-basics) — router, controllers, views, and templates
 - [Ecto and Changesets](06-phoenix/02-ecto-and-changesets) — database access, schemas, and data validation
-- [Channels](06-phoenix/03-channels) — WebSocket connections, real-time updates, and presence
+- [Channels](../../../../go/src/content/docs/concurrency/channels) — WebSocket connections, real-time updates, and presence
 - [LiveView](06-phoenix/04-liveview) — server-rendered real-time UI without JavaScript
-- [Testing](06-phoenix/05-testing) — controller tests, channel tests, and LiveView tests
+- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — controller tests, channel tests, and LiveView tests
 
 ### Key Concepts
 
@@ -178,7 +178,7 @@ Elixir has excellent testing support built into the language. ExUnit is the stan
 - [ExUnit Basics](07-testing/01-exunit-basics) — test modules, assertions, and test helpers
 - [Fixtures and Setup](07-testing/02-fixtures-and-setup) — ExUnit.Case, setup blocks, and shared fixtures
 - [Mocking and Stubs](07-testing/03-mocking-and-stubs) — Mox and behaviour-based mocking
-- [Property-Based Testing](07-testing/04-property-based-testing) — StreamData and generative testing
+- [Property-Based Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — StreamData and generative testing
 
 ### Key Concepts
 

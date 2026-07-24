@@ -809,6 +809,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Software](/highers/computer-science/2-software/2_software) covers the operating systems and applications that run on the hardware foundations described here.
-- [Algorithms](/highers/computer-science/4-algorithms/4_algorithms) explains the computational methods that hardware executes through its instruction set architecture.
-- [Networks](/highers/computer-science/5-networks/5_networks) extends hardware concepts to the communication infrastructure connecting distributed systems.
+- [Software](../2-software/2_software) covers the operating systems and applications that run on the hardware foundations described here.
+- [Algorithms](../4-algorithms/4_algorithms) explains the computational methods that hardware executes through its instruction set architecture.
+- [Networks](../5-networks/5_networks) extends hardware concepts to the communication infrastructure connecting distributed systems.

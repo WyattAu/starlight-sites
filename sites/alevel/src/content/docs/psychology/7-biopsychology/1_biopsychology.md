@@ -551,5 +551,5 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](/psychology/research-methods)
-- [Approaches in Psychology](/psychology/approaches)
+- [Research Methods](../../../../../../ib/src/content/docs/psychology/research-methods)
+- [Approaches in Psychology](../6-approaches/1_approaches-in-psychology)

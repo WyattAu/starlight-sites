@@ -283,5 +283,5 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45
 ## Cross-References
 
 - **[Cell Biology](../biology/cell-biology):** Cell biology is foundational
-- **[Genetics](../biology/3-genetics/genetics):** Genetics studies heredity
-- **[Ecology](../biology/2-ecology/ecology):** Ecology studies environments
+- **[Genetics](../../../../../alevel/src/content/docs/biology/diagnostics/diag-genetics-dna):** Genetics studies heredity
+- **[Ecology](../../../../../alevel/src/content/docs/biology/ecology):** Ecology studies environments

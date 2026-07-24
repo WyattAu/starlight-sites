@@ -939,9 +939,9 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- **[Equilibrium](../chemistry/7-equilibrium/equilibrium):** Acid-base equilibria involve dynamic balance
-- **[Redox](../chemistry/9-redox/redox):** Acid-base reactions can involve redox
-- **[Energetics](../chemistry/5-energetics/energetics):** Neutralisation releases enthalpy
+- **[Equilibrium](../../../../../../alevel/src/content/docs/chemistry/equilibrium):** Acid-base equilibria involve dynamic balance
+- **[Redox](../../../../../../dse/src/content/docs/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry):** Acid-base reactions can involve redox
+- **[Energetics](../../../../../../ap/src/content/docs/biology/3-cellular-energetics/3_cellular-energetics):** Neutralisation releases enthalpy
 
 ---
 

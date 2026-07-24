@@ -940,6 +940,6 @@ Rust's concurrency model is like a traffic system with strict rules. Each thread
 
 ## Cross-References
 
-- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing)
-- [Async Deep Dive](/rust/06-concurrency/async-deep-dive)
-- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Channels and Message Passing](../../../../../languages/src/content/docs/rust/06-concurrency/channels-and-message-passing)
+- [Async Deep Dive](../../../../../languages/src/content/docs/rust/06-concurrency/async-deep-dive)
+- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)

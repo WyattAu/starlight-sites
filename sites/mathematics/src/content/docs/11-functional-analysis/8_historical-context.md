@@ -154,10 +154,10 @@ Functional analysis developed from concrete problems in integral equations, quan
 
 ## Cross-References
 
-- [Summary of Key Theorems](/mathematics/11-functional-analysis/9_summary-of-key-theorems) -- The Hahn-Banach, open mapping, and spectral theorems formalised the foundational results discussed in this historical overview.
-- [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Group-theoretic foundations underpin the representation theory that functional analysis later extended to infinite dimensions.
-- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Quantum optics and laser physics rely on Hilbert space formalism and spectral theory developed by von Neumann and others discussed here.
-- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The Lorentz group and its representations are studied using the functional-analytic framework described in this chapter.
+- [Summary of Key Theorems](9_summary-of-key-theorems) -- The Hahn-Banach, open mapping, and spectral theorems formalised the foundational results discussed in this historical overview.
+- [Lagrange's Theorem](../1-abstract-algebra/3_lagrange-s-theorem) -- Group-theoretic foundations underpin the representation theory that functional analysis later extended to infinite dimensions.
+- [Lasers](../../../../../physics/src/content/docs/4-optics-and-waves/9_lasers) -- Quantum optics and laser physics rely on Hilbert space formalism and spectral theory developed by von Neumann and others discussed here.
+- [Special Relativity and Electromagnetism](../../../../../physics/src/content/docs/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The Lorentz group and its representations are studied using the functional-analytic framework described in this chapter.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

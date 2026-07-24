@@ -683,6 +683,6 @@ Atomic operations are like using a public restroom with an "occupied" sign. When
 
 ## Cross-References
 
-- [Cache Coherency](/cpp/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect atomic operation performance
-- [Memory Orderings](/cpp/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control ordering guarantees for atomic operations
+- [Cache Coherency](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect atomic operation performance
+- [Memory Orderings](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control ordering guarantees for atomic operations
 

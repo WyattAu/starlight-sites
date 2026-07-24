@@ -901,6 +901,6 @@ Explicit locks like ReentrantLock extend synchronized with fairness control, tim
 
 ## Cross-References
 
-- [Concurrency](/java/06-concurrency/01-concurrency) -- threads, synchronized, and volatile
-- [Virtual Threads and Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency) -- modern concurrency
-- [Streams API](/java/05-streams/01-streams-api) -- parallel streams and ForkJoinPool
+- [Concurrency](01-concurrency) -- threads, synchronized, and volatile
+- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency) -- modern concurrency
+- [Streams API](../05-streams/01-streams-api) -- parallel streams and ForkJoinPool

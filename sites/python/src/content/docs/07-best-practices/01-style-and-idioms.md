@@ -1339,6 +1339,6 @@ Pythonic code is code that looks and feels like Python. PEP 8 is the style guide
 
 ## Cross-References
 
-- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling)
-- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)
-- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
+- [Debugging and Profiling](../../../../../languages/src/content/docs/python/07-best-practices/02-debugging-and-profiling)
+- [Error Handling Patterns](../../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns)
+- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)

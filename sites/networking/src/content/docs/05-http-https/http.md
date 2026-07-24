@@ -941,6 +941,6 @@ HTTP is the request-response protocol that powers the web. A client sends a requ
 
 ## Cross-References
 
-- [HTTP/2 and HTTP/3](/networking/05-http-https/http-2-and-3) - Evolution of HTTP with multiplexing, header compression, and QUIC
-- [TLS](/networking/06-tls/tls) - How HTTPS adds transport-layer encryption to HTTP
-- [WebSockets](/networking/05-http-https/websockets) - How WebSockets upgrade from HTTP for full-duplex communication
+- [HTTP/2 and HTTP/3](http-2-and-3) - Evolution of HTTP with multiplexing, header compression, and QUIC
+- [TLS](../06-tls/tls) - How HTTPS adds transport-layer encryption to HTTP
+- [WebSockets](websockets) - How WebSockets upgrade from HTTP for full-duplex communication

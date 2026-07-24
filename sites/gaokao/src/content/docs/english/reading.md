@@ -413,9 +413,9 @@ Vocabulary in context is like deciphering a code. The word itself may have multi
 
 ## Cross-References
 
-- [English Writing](/gaokao/english/writing) - Writing skills that reinforce reading comprehension through active vocabulary use
-- [Chinese Reading](/gaokao/chinese/reading) - Shared analytical reading strategies across languages
-- [Algebra](/gaokao/mathematics/algebra) - Logical reasoning skills that support inference and deduction in reading passages
+- [English Writing](../chinese/writing) - Writing skills that reinforce reading comprehension through active vocabulary use
+- [Chinese Reading](../chinese/reading) - Shared analytical reading strategies across languages
+- [Algebra](../../../../../sat/src/content/docs/mathematics/algebra) - Logical reasoning skills that support inference and deduction in reading passages
 
 ## Common Mistakes
 

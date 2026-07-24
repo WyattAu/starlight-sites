@@ -560,7 +560,7 @@ RAII (Resource Acquisition Is Initialization) is C++'s most important idiom: tie
 
 ## Cross-References
 
-- [Unique Ptr](/cpp/resource_management/1_ownership_and_raii/2_unique_ptr)
-- [Shared Ptr](/cpp/resource_management/1_ownership_and_raii/3_shared_ptr)
-- [Move Constructors and RVO](/cpp/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
+- [Unique Ptr](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/2_unique_ptr)
+- [Shared Ptr](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/3_shared_ptr)
+- [Move Constructors and RVO](../../../../../../programming/src/content/docs/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
 

@@ -938,6 +938,6 @@ Python's concurrency primitives address the GIL limitation. `threading` works fo
 
 ## Cross-References
 
-- [Async/Await](/python/06-async/01-async-await)
-- [Python Internals](/python/02-fundamentals/05-python-internals)
-- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling)
+- [Async/Await](../../../../../languages/src/content/docs/python/06-async/01-async-await)
+- [Python Internals](../../../../../languages/src/content/docs/python/02-fundamentals/05-python-internals)
+- [Debugging and Profiling](../../../../../languages/src/content/docs/python/07-best-practices/02-debugging-and-profiling)

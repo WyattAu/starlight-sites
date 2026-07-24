@@ -113,9 +113,9 @@ Each section includes:
 
 ## Cross-References
 
-- **[Systems](../../2-systems/index.md):** Computer architecture and operating systems that networking relies on.
+- **[Systems](../../../../../typescript/src/content/docs/index):** Computer architecture and operating systems that networking relies on.
 - **[Network Security](./7_network-security.md):** TLS, encryption, and authentication protocols.
-- **[Databases](../../4-databases/index.md):** Distributed databases that depend on network communication.
+- **[Databases](../../../../../typescript/src/content/docs/index):** Distributed databases that depend on network communication.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

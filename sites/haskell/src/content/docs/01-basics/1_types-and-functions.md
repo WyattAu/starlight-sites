@@ -875,6 +875,6 @@ Currying in Haskell is like a assembly line. A function that takes two arguments
 
 ## Cross-References
 
-- [Pattern Matching](/haskell/02-pattern-matching/1_pattern-matching) - How pattern matching works with algebraic data types and function definitions
-- [Type Classes](/haskell/03-type-classes/1_type-classes) - How type classes provide ad-hoc polymorphism over built-in types
-- [Introduction to Haskell](/haskell/00-intro/1_haskell-intro) - The broader context of why Haskell's type system is designed this way
+- [Pattern Matching](../02-pattern-matching/1_pattern-matching) - How pattern matching works with algebraic data types and function definitions
+- [Type Classes](../03-type-classes/1_type-classes) - How type classes provide ad-hoc polymorphism over built-in types
+- [Introduction to Haskell](../00-intro/1_haskell-intro) - The broader context of why Haskell's type system is designed this way

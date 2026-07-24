@@ -834,6 +834,6 @@ linked above.
 
 ## Cross-References
 
-- [Authentication](/security/03-authentication/authentication) applies cryptographic primitives to verify user identity through password hashing and token generation.
-- [Security Fundamentals](/security/01-security-fundamentals/security-fundamentals) defines the confidentiality and integrity goals that cryptographic algorithms are designed to achieve.
-- [Web Security](/security/04-web-security/web-security) uses cryptography to protect web communications through TLS and encrypted data storage.
+- [Authentication](../03-authentication/authentication) applies cryptographic primitives to verify user identity through password hashing and token generation.
+- [Security Fundamentals](../01-security-fundamentals/security-fundamentals) defines the confidentiality and integrity goals that cryptographic algorithms are designed to achieve.
+- [Web Security](../04-web-security/web-security) uses cryptography to protect web communications through TLS and encrypted data storage.

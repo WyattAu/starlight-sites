@@ -206,6 +206,6 @@ $V_0/R$.
 
 ## Cross-References
 
-- **[Differential Equations](../further-maths/pure-mathematics/differential-equations):** Differential equations require calculus techniques
+- **[Differential Equations](../pure-mathematics/07-differential-equations):** Differential equations require calculus techniques
 - **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
 - **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics

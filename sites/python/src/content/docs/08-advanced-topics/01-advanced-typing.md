@@ -1256,6 +1256,6 @@ Advanced typing in Python adds compile-time safety to a dynamically typed langua
 
 ## Cross-References
 
-- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods)
-- [Data Validation](/python/08-advanced-topics/02-data-validation)
-- [Classes](/python/04-object-oriented/01-classes)
+- [Protocols and Dunder Methods](../../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods)
+- [Data Validation](../../../../../languages/src/content/docs/python/08-advanced-topics/02-data-validation)
+- [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)

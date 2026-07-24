@@ -194,6 +194,6 @@ Kotlin is the language that modernised the JVM. It runs on the JVM but adds null
 
 ## Cross-References
 
-- [Types and Variables](/languages/kotlin/basics/types-and-variables)
-- [Classes and Objects](/languages/kotlin/basics/classes-and-objects)
-- [Coroutines](/languages/kotlin/intermediate/coroutines)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Classes and Objects](../../../../../kotlin/src/content/docs/basics/classes-and-objects)
+- [Coroutines](../../../../../kotlin/src/content/docs/intermediate/coroutines)

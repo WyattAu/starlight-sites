@@ -1218,6 +1218,6 @@ Concurrency is about managing multiple tasks that may execute interleaved on a s
 
 ## Cross-References
 
-- [Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
-- [Virtual Threads and Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency) -- Project Loom
-- [Collections Framework](/java/04-collections/01-collections-framework) -- ConcurrentHashMap and thread-safe collections</aside>
+- [Concurrency Deep Dive](02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
+- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency) -- Project Loom
+- [Collections Framework](../04-collections/01-collections-framework) -- ConcurrentHashMap and thread-safe collections</aside>

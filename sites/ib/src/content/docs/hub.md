@@ -126,7 +126,7 @@ IB Chemistry spans stoichiometry, atomic structure, periodicity, chemical bondin
 - [Flashcards: Kinetics and Equilibrium](chemistry/flashcards-kinetics-equilibrium)
 - [Flashcards: Acids and Bases](chemistry/flashcards-chemical-bonding)
 - [Flashcards: Redox and Electrochemistry](chemistry/flashcards-redox-electrochemistry)
-- [Flashcards: Organic Chemistry](/physics/flashcards-organic-chemistry)
+- [Flashcards: Organic Chemistry](chemistry/flashcards-organic-chemistry)
 - [Flashcards: Measurement](chemistry/flashcards-measurement-data)
 - [Flashcards: Quantitative Chemistry](chemistry/flashcards-quantitative-chemistry)
 - [Flashcards: Periodicity](chemistry/flashcards-periodicity)

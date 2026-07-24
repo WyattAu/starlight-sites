@@ -1205,8 +1205,8 @@ each approach.
 
 ## Cross-References
 
-- [Macroeconomic Performance](/economics/macro/macroeconomic-performance) defines GDP, inflation, and unemployment metrics that monetary policy aims to stabilise.
-- [Fiscal Policy](/economics/macro/fiscal-policy) explains how government borrowing, taxation, and spending interact with financial markets and interest rates.
-- [Aggregate Demand and Supply](/economics/macro/aggregate-demand-and-supply) shows how changes in the money supply and interest rates shift AD through the monetary policy transmission mechanism.
-- [Market Failure](/economics/microeconomics/market-failure) provides the theoretical framework for understanding information asymmetry, adverse selection, and moral hazard in banking.
+- [Macroeconomic Performance](01-macroeconomic-performance) defines GDP, inflation, and unemployment metrics that monetary policy aims to stabilise.
+- [Fiscal Policy](04-fiscal-policy) explains how government borrowing, taxation, and spending interact with financial markets and interest rates.
+- [Aggregate Demand and Supply](02-aggregate-demand-and-supply) shows how changes in the money supply and interest rates shift AD through the monetary policy transmission mechanism.
+- [Market Failure](../microeconomics/03-market-failure) provides the theoretical framework for understanding information asymmetry, adverse selection, and moral hazard in banking.
 </aside>

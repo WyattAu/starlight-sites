@@ -127,9 +127,9 @@ Setting $\nabla f = \mathbf{0}$ is necessary but not sufficient. The Hessian mat
 
 ## Cross-References
 
-- **[Linear Algebra](../../2-linear-algebra/index.md):** Jacobians and Hessians as matrices.
-- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis for multivariable calculus.
-- **[Ordinary Differential Equations](../../5-ordinary-differential-equations/index.md):** Systems of ODEs using multivariable calculus.
+- **[Linear Algebra](../../../../../typescript/src/content/docs/index):** Jacobians and Hessians as matrices.
+- **[Real Analysis](../../../../../typescript/src/content/docs/index):** Foundational analysis for multivariable calculus.
+- **[Ordinary Differential Equations](../../../../../typescript/src/content/docs/index):** Systems of ODEs using multivariable calculus.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -907,5 +907,5 @@ linked above.
 - [Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity) -- Convergence of sequences and series is defined using the same limit concepts as continuity.
 - [Derivatives](../2-derivatives/2_derivatives) -- Taylor and Maclaurin series express functions as infinite sums of derivative-based terms.
 - [Integrals](../3-integrals/3_integrals) -- Term-by-term integration of power series connects series convergence to integral calculus.
-- **[AP Physics — Work, Energy, and Power](../physics/3-work-energy-power/3_work-energy-power):** Series expansions approximate work and energy calculations when closed-form integrals are unavailable.
-- **[AP Physics — Kinematics](../physics/1-kinematics/1_kinematics):** Taylor series approximate position and velocity functions, enabling linearisation of complex motions near a point.
+- **[AP Physics — Work, Energy, and Power](../../physics/3-work-energy-power/3_work-energy-power):** Series expansions approximate work and energy calculations when closed-form integrals are unavailable.
+- **[AP Physics — Kinematics](../../physics/1-kinematics/1_kinematics):** Taylor series approximate position and velocity functions, enabling linearisation of complex motions near a point.

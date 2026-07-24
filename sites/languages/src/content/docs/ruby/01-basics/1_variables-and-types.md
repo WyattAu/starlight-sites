@@ -881,9 +881,9 @@ Integer("abc")     # => ArgumentError
 
 ## Cross-References
 
-- [Control Flow](/languages/ruby/02-control-flow/1_control-flow) uses variable values and type checks in conditional branching and loop constructs.
-- [Methods and Blocks](/languages/ruby/03-methods-blocks/1_methods-and-blocks) demonstrates how variables are passed to methods and blocks as parameters.
-- [Ruby Introduction](/languages/ruby/00-intro/1_ruby-intro) provides the overview of Ruby's dynamic typing system that governs how these types behave.
+- [Control Flow](../02-control-flow/1_control-flow) uses variable values and type checks in conditional branching and loop constructs.
+- [Methods and Blocks](../03-methods-blocks/1_methods-and-blocks) demonstrates how variables are passed to methods and blocks as parameters.
+- [Ruby Introduction](../00-intro/1_ruby-intro) provides the overview of Ruby's dynamic typing system that governs how these types behave.
 
 ## Common Mistakes
 

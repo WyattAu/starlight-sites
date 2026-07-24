@@ -283,6 +283,6 @@ tags: [glossary]
 
 ## Related Resources
 
-- [GCSE Exam Overview](/gcse/overview/)
+- [GCSE Exam Overview](../../../../computer-science/src/content/docs/4-databases/8_nosql-overview)
 - [Subject Revision Guides](/gcse/subjects/)
-- [Exam Preparation Tips](/gcse/preparation/)
+- [Exam Preparation Tips](../../../../admissions/src/content/docs/bmo-preparation)

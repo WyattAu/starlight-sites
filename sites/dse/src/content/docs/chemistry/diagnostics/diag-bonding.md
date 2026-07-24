@@ -432,5 +432,5 @@ additional **lone pair-bond pair repulsion** that weakens the $F-F$ bond.
 ## Cross-References
 
 - **[Atomic Structure](../atomic-structure-and-bonding):** Atomic structure is foundational
-- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
-- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area
+- **[Equilibrium](../../../../../../alevel/src/content/docs/chemistry/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../../../../../../alevel/src/content/docs/chemistry/organic-chemistry):** Organic chemistry is a major area

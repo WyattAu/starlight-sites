@@ -785,5 +785,5 @@ Coroutine frames are like paused video games. When you suspend a coroutine, it i
 
 ## Cross-References
 
-- [Promise, Awaiter](/cpp/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types and awaiters control coroutine behavior
-- [Generators](/cpp/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines to produce lazy sequences
+- [Promise, Awaiter](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types and awaiters control coroutine behavior
+- [Generators](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines to produce lazy sequences

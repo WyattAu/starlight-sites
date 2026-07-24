@@ -1063,6 +1063,6 @@ Control flow in Java is deliberately strict to prevent bugs. The if statement re
 
 ## Cross-References
 
-- [Types and Variables](/java/02-fundamentals/01-types-and-variables) -- primitive and reference types
-- [Strings and Text Processing](/java/02-fundamentals/03-strings) -- string manipulation
-- [Records, Sealed Classes, and Pattern Matching](/java/08-modern-java/01-records-sealed-patterns) -- modern switch patterns
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- primitive and reference types
+- [Strings and Text Processing](03-strings) -- string manipulation
+- [Records, Sealed Classes, and Pattern Matching](../08-modern-java/01-records-sealed-patterns) -- modern switch patterns

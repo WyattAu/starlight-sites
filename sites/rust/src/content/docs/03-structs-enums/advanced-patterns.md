@@ -1107,6 +1107,6 @@ Advanced patterns are like specialized tools in a workshop. The newtype pattern 
 
 ## Cross-References
 
-- [Structs and Enums](/rust/03-structs-enums/structs-and-enums) - The basic building blocks that these patterns extend
-- [Ownership](/rust/02-ownership-borrowing/ownership) - How ownership rules affect pattern design and implementation
-- [Control Flow](/rust/01-fundamentals/control-flow) - Pattern matching in match expressions and if-let
+- [Structs and Enums](../../../../../languages/src/content/docs/rust/03-structs-enums/structs-and-enums) - The basic building blocks that these patterns extend
+- [Ownership](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) - How ownership rules affect pattern design and implementation
+- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow) - Pattern matching in match expressions and if-let

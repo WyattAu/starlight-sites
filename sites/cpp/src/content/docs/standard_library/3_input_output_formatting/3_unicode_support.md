@@ -611,6 +611,6 @@ linked above.
 
 ## Cross-References
 
-- **[Stream Buffers](../1_stream_buffers.md):** Low-level stream buffer concepts used in Unicode I/O.
-- **[Type-Safe Formatting](../2_type_safe_formatting.md):** Modern formatting utilities that handle Unicode strings.
+- **[Stream Buffers](../../../../../../programming/src/content/docs/standard_library/3_input_output_formatting/1_stream_buffers):** Low-level stream buffer concepts used in Unicode I/O.
+- **[Type-Safe Formatting](../../../../../../programming/src/content/docs/standard_library/3_input_output_formatting/2_type_safe_formatting):** Modern formatting utilities that handle Unicode strings.
 - **[Types](../../types/):** Type system concepts including character types and string representations.

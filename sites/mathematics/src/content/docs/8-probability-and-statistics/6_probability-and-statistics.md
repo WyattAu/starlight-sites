@@ -2156,9 +2156,9 @@ $\blacksquare$
 
 | Topic                                 | Site        | Link                                                            |
 | ------------------------------------- | ----------- | --------------------------------------------------------------- |
-| Probability and Statistics (Overview) | WyattsNotes | [View](/university/mathematics/probability-and-statistics) |
-| Probability                           | WyattsNotes | [View](/university/mathematics/probability)                |
-| Real Analysis                         | WyattsNotes | [View](/university/mathematics/real-analysis)              |
+| Probability and Statistics (Overview) | WyattsNotes | [View](../probability-and-statistics) |
+| Probability                           | WyattsNotes | [View](../../../../../alevel/src/content/docs/maths/statistics/03-probability)                |
+| Real Analysis                         | WyattsNotes | [View](../real-analysis)              |
 | Probability — Harvard Stat 110        | Harvard     | [View](https://stat110.com/)                                    |
 
 

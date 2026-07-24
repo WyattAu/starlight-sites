@@ -794,5 +794,5 @@ The coroutine machinery is like a theater production. The promise type is the sc
 
 ## Cross-References
 
-- [Stackless Coroutine Frames](/cpp/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames are allocated and managed
-- [Generators](/cpp/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines to produce lazy sequences
+- [Stackless Coroutine Frames](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames are allocated and managed
+- [Generators](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines to produce lazy sequences

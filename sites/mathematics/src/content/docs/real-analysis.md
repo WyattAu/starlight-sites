@@ -2158,9 +2158,9 @@ Real analysis is the art of making calculus rigorous. The central idea is that l
 
 | Topic                      | Site        | Link                                                                 |
 | -------------------------- | ----------- | -------------------------------------------------------------------- |
-| Complex Analysis           | WyattsNotes | [View](/university/mathematics/complex-analysis)                |
-| Linear Algebra             | WyattsNotes | [View](/university/mathematics/linear-algebra)                  |
-| Multivariable Calculus     | WyattsNotes | [View](/university/mathematics/multivariable-calculus)          |
+| Complex Analysis           | WyattsNotes | [View](complex-analysis)                |
+| Linear Algebra             | WyattsNotes | [View](linear-algebra)                  |
+| Multivariable Calculus     | WyattsNotes | [View](multivariable-calculus)          |
 | Real Analysis — MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 
 </aside>

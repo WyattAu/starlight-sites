@@ -68,10 +68,10 @@ Ownership is Rust's most distinctive feature. Every value has exactly one owner.
 
 ### Topic Notes
 
-- [Ownership Basics](02-ownership/01-ownership-basics) — move semantics, Copy trait, and Clone trait
-- [References and Borrowing](02-ownership/02-references-and-borrowing) — shared references, mutable references, and the borrow checker
-- [Ownership Transfer](02-ownership/03-ownership-transfer) — function parameters, return values, and move vs copy
-- [Slice References](02-ownership/04-slice-references) — string slices, array slices, and the &str type
+- [Ownership Basics](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) — move semantics, Copy trait, and Clone trait
+- [References and Borrowing](../../../../tools/src/content/docs/git/02-fundamentals/03-references) — shared references, mutable references, and the borrow checker
+- [Ownership Transfer](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) — function parameters, return values, and move vs copy
+- [Slice References](../../../../tools/src/content/docs/git/02-fundamentals/03-references) — string slices, array slices, and the &str type
 
 ### Key Concepts
 
@@ -90,7 +90,7 @@ Lifetimes are Rust's way of tracking reference validity. Every reference has a l
 ### Topic Notes
 
 - [Lifetime Basics](03-lifetimes/01-lifetime-basics) — lifetime elision rules, function signatures, and the 'static lifetime
-- [Struct Lifetimes](03-lifetimes/02-struct-lifetimes) — storing references in structs and the need for lifetime annotations
+- [Struct Lifetimes](../../../../languages/src/content/docs/rust/02-ownership-borrowing/lifetimes) — storing references in structs and the need for lifetime annotations
 - [Lifetime Bounds and Traits](03-lifetimes/03-lifetime-bounds-and-traits) — where clauses, lifetime bounds, and the relationship between lifetimes and generics
 
 ### Key Concepts
@@ -109,9 +109,9 @@ Rust has a rich type system with structs, enums, tuples, arrays, vectors, and ha
 
 ### Topic Notes
 
-- [Structs](04-types/01-structs) — field initialization, methods, associated functions, and tuple structs
-- [Enums and Pattern Matching](04-types/02-enums-and-pattern-matching) — enum variants, match expressions, and destructuring
-- [Collections](04-types/03-collections) — Vec, HashMap, HashSet, and BTreeMap
+- [Structs](../../../../alevel/src/content/docs/computer-science/programming/01-programming-constructs) — field initialization, methods, associated functions, and tuple structs
+- [Enums and Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching) — enum variants, match expressions, and destructuring
+- [Collections](../../../../kotlin/src/content/docs/intermediate/collections) — Vec, HashMap, HashSet, and BTreeMap
 - [String Types](04-types/04-string-types) — String vs &str, UTF-8, and string manipulation
 
 ### Key Concepts
@@ -132,7 +132,7 @@ Traits define shared behavior. A trait is a set of methods that a type can imple
 
 - [Trait Basics](05-traits/01-trait-basics) — defining traits, implementing traits, and the trait bound syntax
 - [Trait Objects](05-traits/02-trait-objects) — dynamic dispatch, the dyn keyword, and object safety
-- [Generics](05-traits/03-generics) — generic functions, structs, enums, and monomorphization
+- [Generics](../../../../kotlin/src/content/docs/intermediate/generics) — generic functions, structs, enums, and monomorphization
 - [Trait Features](05-traits/04-trait-features) — default methods, associated types, and operator overloading
 - [Common Traits](05-traits/05-common-traits) — Display, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash
 
@@ -155,7 +155,7 @@ Rust handles errors with `Result<T, E>` and `Option<T>` — no exceptions. `Resu
 - [Result and Option](06-errors/01-result-and-option) — creating, pattern matching, and unwrapping
 - [The ? Operator](06-errors/02-question-mark-operator) — error propagation, the From trait, and ergonomic error handling
 - [Custom Error Types](06-errors/03-custom-error-types) — defining error types, the thiserror and anyhow crates
-- [Error Handling Patterns](06-errors/04-error-handling-patterns) — when to use unwrap, expect, and how to design error types
+- [Error Handling Patterns](../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns) — when to use unwrap, expect, and how to design error types
 
 ### Key Concepts
 
@@ -176,7 +176,7 @@ Rust's async/await provides asynchronous programming with zero-cost abstractions
 - [Async Basics](07-async/01-async-basics) — async fn, .await, and the Future trait
 - [Async Runtime](07-async/02-async-runtime) — Tokio, async-std, and the executor model
 - [Streams and Async Traits](07-async/03-streams-and-async-traits) — Stream trait, async streams, and async in traits
-- [Concurrency Patterns](07-async/04-concurrency-patterns) — tokio::spawn, join!, select!, and channels
+- [Concurrency Patterns](../../../../java/src/content/docs/06-concurrency/01-concurrency) — tokio::spawn, join!, select!, and channels
 
 ### Key Concepts
 
@@ -194,7 +194,7 @@ Rust is designed for systems programming — operating systems, device drivers, 
 
 ### Topic Notes
 
-- [Unsafe Rust](08-systems/01-unsafe-rust) — unsafe blocks, raw pointers, and when to use unsafe
+- [Unsafe Rust](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust) — unsafe blocks, raw pointers, and when to use unsafe
 - [FFI and Interop](08-systems/02-ffi-and-interop) — extern "C", bindgen, and calling C from Rust
 - [Memory Layout](08-systems/03-memory-layout) — repr, alignment, padding, and size
 - [Embedded and No-std](08-systems/04-embedded-and-no-std) — no_std, embedded Rust, and bare-metal programming

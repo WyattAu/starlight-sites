@@ -204,7 +204,7 @@ $$
 \ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
 $$
 
-This is analogous to the Arrhenius equation (see [Chemical Kinetics](../../../../../university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md)).
+This is analogous to the Arrhenius equation (see [Chemical Kinetics](../../../../../chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics)).
 
 **Worked Example.** For the reaction
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$$\Delta H^\circ = +58.0\,\mathrm{kJ/mol}$

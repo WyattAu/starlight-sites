@@ -903,6 +903,6 @@ Python internals are the machinery beneath the syntax. CPython compiles source t
 
 ## Cross-References
 
-- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
-- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives)
-- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Concurrency Primitives](../../../../../languages/src/content/docs/python/05-standard-library/05-concurrency-primitives)
+- [Modules and Packages](../../../../../go/src/content/docs/advanced/modules-and-packages)

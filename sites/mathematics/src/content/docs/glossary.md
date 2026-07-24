@@ -181,7 +181,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Algebra Tutorials](/mathematics/algebra/)
-- [Calculus Guide](/mathematics/calculus/)
-- [Linear Algebra Course](/mathematics/linear-algebra/)
+- [Algebra Tutorials](../../../../sat/src/content/docs/mathematics/algebra)
+- [Calculus Guide](../../../../hsc/src/content/docs/mathematics/calculus)
+- [Linear Algebra Course](linear-algebra)
 - [Probability Problems](/mathematics/probability/)

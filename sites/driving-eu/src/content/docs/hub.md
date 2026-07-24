@@ -70,7 +70,7 @@ The European Union has established common standards for driving licences through
 
 - [EU Driving Law Overview](eu-regulations) -- the legal framework governing driving across Europe
 - [Licence Categories](eu-regulations/categories) -- AM, A1, A2, A, B, BE, C1, C, D1, D, and their restrictions
-- [Minimum Age Requirements](eu-regulations/ages) -- minimum ages for each licence category across EU states
+- [Minimum Age Requirements](../../../../computer-science/src/content/docs/3-theory/automata-and-formal-languages) -- minimum ages for each licence category across EU states
 - [Medical Fitness](eu-regulations/medical) -- eyesight standards, fitness to drive, and medical declarations
 - [Licence Points Systems](eu-regulations/points) -- how different EU countries manage penalty points
 - [Mutual Recognition](eu-regulations/recognition) -- how an EU licence works across borders
@@ -96,7 +96,7 @@ European road signs follow the Vienna Convention system, creating a broadly reco
 - [Warning Signs](road-signs/warning) -- triangular signs with red borders alerting to hazards
 - [Prohibitory Signs](road-signs/prohibitory) -- circular signs with red borders indicating restrictions
 - [Mandatory Signs](road-signs/mandatory) -- blue circular signs giving positive instructions
-- [Information and Direction Signs](road-signs/information) -- rectangular signs for guidance and services
+- [Information and Direction Signs](../../../../physics/src/content/docs/2-thermal-physics/20_thermodynamics-of-information-processing) -- rectangular signs for guidance and services
 - [Country-Specific Signs](road-signs/country-specific) -- signs unique to individual EU nations
 - [Motorway Signs](road-signs/motorway) -- the blue or green motorway sign system and on-ramp markings
 
@@ -119,7 +119,7 @@ While the EU harmonises many regulations, the rules of the road vary between cou
 
 - [Speed Limits by Country](rules/speed-limits) -- urban, rural, and motorway limits across all EU states
 - [Right of Way](rules/right-of-way) -- priority rules, roundabouts, and unmarked junctions
-- [Drunk Driving Limits](rules/alcohol) -- BAC limits across Europe (0.0% in some countries, 0.5% in most)
+- [Drunk Driving Limits](../../../../alevel/src/content/docs/chemistry/diagnostics/diag-halogenoalkanes-alcohols) -- BAC limits across Europe (0.0% in some countries, 0.5% in most)
 - [Mandatory Equipment](rules/equipment) -- warning triangles, high-visibility vests, first-aid kits, and breathalysers
 - [Winter Tyres and Chains](rules/winter) -- when winter tyres are required and snow chain regulations
 - [Headlight Rules](rules/headlights) -- daytime running lights, dipped beam requirements, and country variations
@@ -142,10 +142,10 @@ Each EU member state has its own driving test system. The theory test format, nu
 
 ### Topic Notes
 
-- [Germany](country-systems/germany) -- the driving school (Fahrschule) system, theory test, and practical exam
+- [Germany](../../../../alevel/src/content/docs/history/3-weimar-and-nazi-germany/1_weimar-nazi-germany) -- the driving school (Fahrschule) system, theory test, and practical exam
 - [France](country-systems/france) -- the CODE de la Route theory test and the French practical test
 - [Spain](country-systems/spain) -- the permiso de conducir test system and the DGT examination
-- [Italy](country-systems/italy) -- the patente di guida theory test and practical exam
+- [Italy](../../../../ib/src/content/docs/history/fascism-italy) -- the patente di guida theory test and practical exam
 - [Netherlands](country-systems/netherlands) -- the CBR theory and practical test system
 - [Poland](country-systems/poland) -- the Wojewodzki Osrodek Ruchu Drogowego test
 - [Ireland](https://leaving-cert.wyattau.com) -- for Irish driving test information (see the Leaving Cert site)

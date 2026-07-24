@@ -938,6 +938,6 @@ Template instantiation is the compiler generating code for each concrete type us
 
 ## Cross-References
 
-- [Argument Deduction](/cpp/templates_and_metaprogramming/1_generic_programming/2_argument_deduction)
-- [Specialization](/cpp/templates_and_metaprogramming/1_generic_programming/3_specialization)
-- [Defining Concepts](/cpp/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts)
+- [Argument Deduction](../../../../../../programming/src/content/docs/templates_and_metaprogramming/1_generic_programming/2_argument_deduction)
+- [Specialization](../../../../../../programming/src/content/docs/templates_and_metaprogramming/1_generic_programming/3_specialization)
+- [Defining Concepts](../../../../../../programming/src/content/docs/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts)

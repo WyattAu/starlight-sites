@@ -269,6 +269,6 @@ Go is the language of simplicity at scale. It was designed at Google to solve th
 
 ## Cross-References
 
-- [Types and Variables](/languages/go/basics/types-and-variables)
-- [Goroutines](/languages/go/concurrency/goroutines)
-- [Channels](/languages/go/concurrency/channels)
+- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
+- [Goroutines](../../../../../go/src/content/docs/concurrency/goroutines)
+- [Channels](../../../../../go/src/content/docs/concurrency/channels)

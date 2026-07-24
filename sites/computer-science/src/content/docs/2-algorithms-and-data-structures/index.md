@@ -122,7 +122,7 @@ Each section includes:
 
 - **[Algorithm Analysis](./1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
 - **[Dynamic Programming](./5_dynamic-programming.md):** Memoisation and tabulation patterns for optimisation problems.
-- **[Systems](../../2-systems/index.md):** Hardware systems that affect real-world algorithm performance.
+- **[Systems](../../../../../typescript/src/content/docs/index):** Hardware systems that affect real-world algorithm performance.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

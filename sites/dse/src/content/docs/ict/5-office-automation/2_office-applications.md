@@ -1175,6 +1175,6 @@ linked above.
 
 ## Cross-References
 
-- [Office Automation](/dse/ict/5-office-automation/1_office-automation) provides the overview of office automation tools and their deployment in workplace settings.
-- [System Lifecycle](/dse/ict/6-system-lifecycle/1_system-lifecycle) covers how office applications are selected, implemented, and maintained within an organisation.
-- [Data Representation](/dse/ict/1-data-representation/1_data-representation) explains how office applications store and process different data formats.
+- [Office Automation](1_office-automation) provides the overview of office automation tools and their deployment in workplace settings.
+- [System Lifecycle](../6-system-lifecycle/1_system-lifecycle) covers how office applications are selected, implemented, and maintained within an organisation.
+- [Data Representation](../1-data-representation/1_data-representation) explains how office applications store and process different data formats.

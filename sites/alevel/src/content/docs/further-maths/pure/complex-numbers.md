@@ -724,24 +724,24 @@ $\text{Area} = \dfrac{1}{2}|-14| = 7$.
 The matrix representation of complex numbers:
 $a + bi \longleftrightarrow \begin{pmatrix}a & -b \\ b & a\end{pmatrix}$. Multiplication of complex
 Numbers corresponds to matrix multiplication. See
-[Matrices and Transformations](/further-maths/pure/matrices-and-transformations-extended).
+[Matrices and Transformations](matrices-and-transformations).
 
 ### 10.2 Complex numbers and polar coordinates
 
 Modulus-argument form is equivalent to polar coordinates. The polar area formula applies to curves
 Described by $|z - z_0| = r(\theta)$. See
-[Polar Coordinates](/further-maths/pure-mathematics/polar-coordinates).
+[Polar Coordinates](../pure-mathematics/05-polar-coordinates).
 
 ### 10.3 Euler's formula and Maclaurin series
 
 Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ is proved using Maclaurin series. See
-[Maclaurin and Taylor Series](/further-maths/pure-mathematics/maclaurin-taylor-series).
+[Maclaurin and Taylor Series](../diagnostics/diag-maclaurin-taylor-series).
 
 ### 10.4 Roots of unity and algebra
 
 The $n$-th roots of unity form a cyclic group under multiplication. The factorisation
 $z^n - 1 = \prod_{k=0}^{n-1}(z - \omega^k)$ connects to polynomial theory. See
-[Further Algebra](/further-maths/pure-mathematics/further-algebra).
+[Further Algebra](../pure-mathematics/03-further-algebra).
 
 ---
 

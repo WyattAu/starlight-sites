@@ -439,6 +439,6 @@ linked above.
 
 ## Cross-References
 
-- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Diagnostics assess core skills
-- **[Functions](../maths/2-functions/functions):** Functions are tested
-- **[Calculus](../maths/5-calculus/calculus):** Calculus diagnostics cover differentiation
+- **[Number and Algebra](../1-number-and-algebra/1_number-and-algebra):** Diagnostics assess core skills
+- **[Functions](../../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions):** Functions are tested
+- **[Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus):** Calculus diagnostics cover differentiation

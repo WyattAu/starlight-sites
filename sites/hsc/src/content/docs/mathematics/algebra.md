@@ -248,7 +248,7 @@ Step 4: Verify: $AX = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatri
 
 ## Cross-References
 
-- [Calculus](../physics/calculus) -- Differentiation and integration build on the algebraic foundations of functions and equations covered here.
+- [Calculus](calculus) -- Differentiation and integration build on the algebraic foundations of functions and equations covered here.
 - [Waves](../physics/waves) -- Wave equations use logarithmic and trigonometric functions that extend the algebraic techniques in this topic.
 - [Mechanics](../physics/mechanics) -- Kinematic equations and force calculations apply algebraic manipulation to physical systems.
 - [Inorganic](../chemistry/inorganic) -- Electrochemistry and thermochemistry calculations use the logarithmic and matrix skills developed in this topic.

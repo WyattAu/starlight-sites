@@ -1479,7 +1479,7 @@ linked above.
 ## Cross-References
 
 - [Java Classes and Inheritance](03-object-oriented/01-classes) -- Object-oriented design is fundamental to both standard JVM and GraalVM applications.
-- [Java Concurrency](02-concurrency) -- Thread management and memory models are relevant to understanding GraalVM's runtime behaviour.
+- [Java Concurrency](../../../../../java/src/content/docs/06-concurrency/01-concurrency) -- Thread management and memory models are relevant to understanding GraalVM's runtime behaviour.
 - [Rust Ownership](../rust/02-ownership-borrowing) -- Rust's memory safety model offers an alternative to garbage collection for native interop.
 - [Dart FFI](../dart/09-ffi-and-advanced) -- Both GraalVM and Dart FFI address the challenge of native code interoperability.
 

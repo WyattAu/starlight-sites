@@ -32,7 +32,7 @@ science degrees.
 
 Kinematics, forces, energy, power, projectiles, and Newton"s laws of motion.
 
-→ **[Full notes](../../ilc/physics/1-mechanics/1_mechanics.mdx)**
+→ **[Full notes](../../../../../leaving-cert/src/content/docs/physics/1-mechanics/1_mechanics)**
 
 ### Dynamics & Space
 
@@ -44,7 +44,7 @@ Momentum, impulse, collisions, gravitation, orbital mechanics, and space physics
 
 Circuit analysis, Ohm's law, power, internal resistance, AC circuits, and semiconductor behaviour.
 
-→ **[Full notes](../../ilc/physics/3-electricity/3_electricity.mdx)**
+→ **[Full notes](../../../../../leaving-cert/src/content/docs/physics/3-electricity/3_electricity)**
 
 ### Particles & Waves
 

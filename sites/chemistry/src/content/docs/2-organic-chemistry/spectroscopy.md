@@ -383,9 +383,9 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
-| Structure and Bonding    | WyattsNotes | [View](/university/chemistry/structure-and-bonding)              |
-| Reaction Mechanisms      | WyattsNotes | [View](/university/chemistry/reaction-mechanisms)                |
-| Quantum Chemistry        | WyattsNotes | [View](/university/chemistry/quantum-chemistry)                  |
+| Structure and Bonding    | WyattsNotes | [View](structure-and-bonding)              |
+| Reaction Mechanisms      | WyattsNotes | [View](reaction-mechanisms)                |
+| Quantum Chemistry        | WyattsNotes | [View](../1-physical-chemistry/quantum-chemistry)                  |
 | Organic Spectroscopy — MIT 5.33 | MIT OCW | [View](https://ocw.mit.edu/courses/5-33-advanced-chemical-experimentation-fall-2003/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

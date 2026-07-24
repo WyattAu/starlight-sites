@@ -992,6 +992,6 @@ TLS is the security guard of the internet. When you connect to a website, the TL
 
 ## Cross-References
 
-- [TLS Internals](/networking/06-tls/tls-internals) - Deep dive into handshake mechanics and cryptographic primitives
-- [HTTP](/networking/05-http-https/http) - How HTTP/2 and HTTP/3 leverage TLS for transport security
-- [Email and Application Protocols](/networking/10-email-and-app-protocols/email-and-application-protocols) - How TLS secures SMTP, IMAP, and other application protocols
+- [TLS Internals](tls-internals) - Deep dive into handshake mechanics and cryptographic primitives
+- [HTTP](../05-http-https/http) - How HTTP/2 and HTTP/3 leverage TLS for transport security
+- [Email and Application Protocols](../10-email-and-app-protocols/email-and-application-protocols) - How TLS secures SMTP, IMAP, and other application protocols

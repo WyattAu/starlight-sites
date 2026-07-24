@@ -1128,6 +1128,6 @@ Modules are Python's way of organising code into reusable files. Think of a modu
 
 ## Cross-References
 
-- [Functions](/python/02-fundamentals/03-functions)
-- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution)
-- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
+- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
+- [Packaging and Distribution](../../../../../languages/src/content/docs/python/07-best-practices/04-packaging-distribution)
+- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)

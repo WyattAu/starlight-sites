@@ -941,19 +941,19 @@ $\boxed{\sqrt{1.02} \approx 1.009950}$
 ### 11.1 Further algebra and complex numbers
 
 The roots of unity and De Moivre's theorem connect algebra to complex numbers. See
-[Complex Numbers](/further-maths/pure-mathematics/further-complex-numbers).
+[Complex Numbers](../pure/complex-numbers).
 
 ### 11.2 Algebra and matrices
 
 Vieta's formulae are closely related to the characteristic equation of a matrix: the sum of
 Eigenvalues equals the trace, and the product equals the determinant. See
-[Matrices](/further-maths/pure-mathematics/further-matrices).
+[Matrices](02-matrices).
 
 ### 11.3 Series and calculus
 
 The binomial expansion and Maclaurin series are both infinite series representations of functions,
 Used extensively in integration and differentiation. See
-[Maclaurin and Taylor Series](/further-maths/pure-mathematics/maclaurin-taylor-series).
+[Maclaurin and Taylor Series](../diagnostics/diag-maclaurin-taylor-series).
 
 ---
 

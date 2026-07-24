@@ -309,9 +309,9 @@ The graph of a function is like a footprint. It shows you where the function has
 
 ## Cross-References
 
-- [Algebra](/gaokao/mathematics/algebra) - Algebraic foundations that enable function composition and equation solving
-- [Geometry](/gaokao/mathematics/geometry) - Geometric interpretation of function graphs and transformations
-- [Inorganic Chemistry](/gaokao/chemistry/inorganic) - How equilibrium and rate functions apply to chemical reaction modeling
+- [Algebra](../../../../../sat/src/content/docs/mathematics/algebra) - Algebraic foundations that enable function composition and equation solving
+- [Geometry](../../../../../sat/src/content/docs/mathematics/geometry) - Geometric interpretation of function graphs and transformations
+- [Inorganic Chemistry](../../../../../hsc/src/content/docs/chemistry/inorganic) - How equilibrium and rate functions apply to chemical reaction modeling
 
 ## Common Mistakes
 

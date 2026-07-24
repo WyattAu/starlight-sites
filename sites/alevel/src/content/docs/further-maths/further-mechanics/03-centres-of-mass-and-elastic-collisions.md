@@ -743,18 +743,18 @@ $90^\circ - \arctan(3/4) = \arctan(4/3) \approx 53.1^\circ$.
 
 Finding centres of mass by integration requires the same techniques as volumes of revolution:
 Substitution, integration by parts, and definite integrals. See
-[Further Calculus](/further-maths/pure-mathematics/further-calculus).
+[Further Calculus](../pure-mathematics/04-further-calculus).
 
 ### 10.2 Collisions and energy
 
 The kinetic energy loss formula $\Delta KE = \frac{1}{2}\mu(u_1 - u_2)^2(1-e^2)$ connects to the
 Work-energy principle and conservation of momentum. See
-[Projectile Motion](/further-maths/further-mechanics/projectile-motion).
+[Projectile Motion](01-projectile-motion).
 
 ### 10.3 Oblique impacts and vectors
 
 Resolving velocities in oblique collisions requires vector decomposition and dot products. See
-[Vectors in 3D](/further-maths/pure-mathematics/further-vectors).
+[Vectors in 3D](../../maths/pure-mathematics/12-vectors).
 
 ---
 
@@ -1077,18 +1077,18 @@ Excluding $u = v_1$ (no collision): $v_1 = \dfrac{(m_1-m_2)u}{m_1+m_2}$. $\black
 ### 11.1 Elastic collisions and energy conservation
 
 Elastic collisions conserve both momentum and kinetic energy, connecting to the work-energy theorem.
-See [Projectile Motion](/further-maths/further-mechanics/projectile-motion).
+See [Projectile Motion](01-projectile-motion).
 
 ### 11.2 Centre of mass and integration
 
 Finding centres of mass of continuous bodies requires integration techniques. See
-[Further Calculus](/further-maths/pure-mathematics/further-calculus).
+[Further Calculus](../pure-mathematics/04-further-calculus).
 
 ### 11.3 Moments and vectors
 
 The moment of a force about a point uses the cross product:
 $\mathbf{M} = \mathbf{r} \times \mathbf{F}$. See
-[Vectors in 3D](/further-maths/pure-mathematics/further-vectors).
+[Vectors in 3D](../../maths/pure-mathematics/12-vectors).
 
 ---
 
@@ -1369,7 +1369,7 @@ The centroid travels a distance $2\pi\bar{x}$So $V = 2\pi\bar{x}\cdot A$. $\blac
 
 ## Cross-References
 
-- [Projectile Motion](/further-maths/further-mechanics/projectile-motion) uses energy conservation and impulse-momentum principles that underpin the analysis of elastic collisions.
-- [Circular Motion](/further-maths/further-mechanics/further-circular-motion) applies centripetal force analysis to particles on circular paths, complementing the linear collision analysis here.
-- [Further Calculus](/further-maths/pure-mathematics/further-calculus) provides the integration techniques used to find centres of mass of laminas and solids by continuous integration.
-- [Vectors in 3D](/further-maths/pure-mathematics/vectors-in-3d) supplies the vector resolution methods needed to analyse oblique impacts where velocities have components in multiple directions.
+- [Projectile Motion](01-projectile-motion) uses energy conservation and impulse-momentum principles that underpin the analysis of elastic collisions.
+- [Circular Motion](02-circular-motion) applies centripetal force analysis to particles on circular paths, complementing the linear collision analysis here.
+- [Further Calculus](../pure-mathematics/04-further-calculus) provides the integration techniques used to find centres of mass of laminas and solids by continuous integration.
+- [Vectors in 3D](../pure-mathematics/09-vectors-in-3d) supplies the vector resolution methods needed to analyse oblique impacts where velocities have components in multiple directions.
