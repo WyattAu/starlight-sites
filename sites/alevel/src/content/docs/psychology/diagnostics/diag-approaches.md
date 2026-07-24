@@ -166,8 +166,8 @@ sidebar_position: 40
 
 ## Cross-References
 
-- **[Memory](../psychology/flashcards-memory):** Approaches explain cognitive processes
-- **[Social Influence](../psychology/practice-social-influence):** Social influence theories use approaches
+- **[Memory](../flashcards-memory):** Approaches explain cognitive processes
+- **[Social Influence](../practice-social-influence):** Social influence theories use approaches
 - **[Research Methods](../psychology/1-research-methods/research-methods):** Each approach uses specific methods
 
 ## Intuition

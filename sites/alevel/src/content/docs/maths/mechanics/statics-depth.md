@@ -506,6 +506,6 @@ $
 
 ## Cross-References
 
-- **[Momentum](../maths/mechanics/05-momentum):** Statics applies Newton's laws
-- **[Energy and Work](../maths/mechanics/energy-and-work-depth):** Equilibrium involves force balance
-- **[Kinematics](../maths/mechanics/kinematics-depth):** Statics deals with bodies at rest
+- **[Momentum](05-momentum):** Statics applies Newton's laws
+- **[Energy and Work](energy-and-work-depth):** Equilibrium involves force balance
+- **[Kinematics](kinematics-depth):** Statics deals with bodies at rest

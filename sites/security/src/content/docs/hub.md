@@ -71,8 +71,8 @@ Security fundamentals establish the principles and concepts that underpin all cy
 
 ### Topic Notes
 
-- [Security Fundamentals Overview](/01-security-fundamentals) — core principles, threat models, and risk management
-- [Security Fundamentals](/01-security-fundamentals/security-fundamentals) — CIA triad, least privilege, defence in depth, and threat modelling
+- [Security Fundamentals Overview](01-security-fundamentals) — core principles, threat models, and risk management
+- [Security Fundamentals](01-security-fundamentals/security-fundamentals) — CIA triad, least privilege, defence in depth, and threat modelling
 
 ### Key Concepts
 
@@ -96,9 +96,9 @@ Cryptography is the science of securing communication through encoding messages 
 
 ### Topic Notes
 
-- [Cryptography Overview](/02-cryptography) — symmetric and asymmetric encryption, hash functions, and digital signatures
-- [Cryptography](/02-cryptography/cryptography) — AES, RSA, ECC, SHA, and key exchange
-- [TLS in Practice](/02-cryptography/tls-in-practice) — how cryptography is applied in real-world protocols
+- [Cryptography Overview](02-cryptography) — symmetric and asymmetric encryption, hash functions, and digital signatures
+- [Cryptography](02-cryptography/cryptography) — AES, RSA, ECC, SHA, and key exchange
+- [TLS in Practice](02-cryptography/tls-in-practice) — how cryptography is applied in real-world protocols
 
 ### Key Concepts
 
@@ -120,9 +120,9 @@ Authentication verifies the identity of users, devices, and systems. It is the g
 
 ### Topic Notes
 
-- [Authentication Overview](/03-authentication) — authentication factors, protocols, and best practices
-- [Authentication](/03-authentication/authentication) — passwords, MFA, biometrics, and token-based auth
-- [OAuth Deep Dive](/03-authentication/oauth-deep-dive) — OAuth 2.0, OpenID Connect, and token flows
+- [Authentication Overview](03-authentication) — authentication factors, protocols, and best practices
+- [Authentication](03-authentication/authentication) — passwords, MFA, biometrics, and token-based auth
+- [OAuth Deep Dive](03-authentication/oauth-deep-dive) — OAuth 2.0, OpenID Connect, and token flows
 
 ### Key Concepts
 
@@ -142,10 +142,10 @@ Web security protects web applications from attacks that exploit vulnerabilities
 
 ### Topic Notes
 
-- [Web Security Overview](/04-web-security) — common vulnerabilities and defence strategies
-- [OWASP Top 10](/04-web-security/owasp-top-10) — the most critical web application security risks
-- [Web Security](/04-web-security/web-security) — injection, XSS, CSRF, and security headers
-- [API Security](/04-web-security/api-security) — authentication, authorisation, and rate limiting for APIs
+- [Web Security Overview](04-web-security) — common vulnerabilities and defence strategies
+- [OWASP Top 10](04-web-security/owasp-top-10) — the most critical web application security risks
+- [Web Security](04-web-security/web-security) — injection, XSS, CSRF, and security headers
+- [API Security](04-web-security/api-security) — authentication, authorisation, and rate limiting for APIs
 
 ### Key Concepts
 
@@ -165,9 +165,9 @@ Network security protects data in transit and the infrastructure that carries it
 
 ### Topic Notes
 
-- [Network Security Overview](/05-network-security) — perimeter defence, monitoring, and access control
-- [Network Security](/05-network-security/network-security) — firewalls, IDS/IPS, and network segmentation
-- [VPN and Tunneling](/05-network-security/vpn-and-tunneling) — IPsec, WireGuard, and encrypted tunnels
+- [Network Security Overview](05-network-security) — perimeter defence, monitoring, and access control
+- [Network Security](05-network-security/network-security) — firewalls, IDS/IPS, and network segmentation
+- [VPN and Tunneling](05-network-security/vpn-and-tunneling) — IPsec, WireGuard, and encrypted tunnels
 
 ### Key Concepts
 
@@ -185,9 +185,9 @@ Incident response is the process of detecting, containing, eradicating, and reco
 
 ### Topic Notes
 
-- [Incident Response Overview](/06-incident-response) — preparation, detection, containment, and recovery
-- [Incident Response](/06-incident-response/incident-response) — the incident response lifecycle and playbooks
-- [Forensics](/06-incident-response/forensics) — digital forensics, evidence collection, and chain of custody
+- [Incident Response Overview](06-incident-response) — preparation, detection, containment, and recovery
+- [Incident Response](06-incident-response/incident-response) — the incident response lifecycle and playbooks
+- [Forensics](06-incident-response/forensics) — digital forensics, evidence collection, and chain of custody
 
 ### Key Concepts
 
@@ -205,8 +205,8 @@ Cloud security protects data, applications, and infrastructure in cloud environm
 
 ### Topic Notes
 
-- [Cloud Security Overview](/07-cloud-security) — shared responsibility, identity, and data protection
-- [Cloud Security](/07-cloud-security/cloud-security) — IAM, encryption, and configuration management
+- [Cloud Security Overview](07-cloud-security) — shared responsibility, identity, and data protection
+- [Cloud Security](07-cloud-security/cloud-security) — IAM, encryption, and configuration management
 
 ### Key Concepts
 
@@ -224,8 +224,8 @@ Operating system security protects the system from unauthorised access, malware,
 
 ### Topic Notes
 
-- [OS Security Overview](/08-os-security) — hardening, access control, and monitoring
-- [OS Security](/08-os-security/os-security) — Linux and Windows security configuration and best practices
+- [OS Security Overview](08-os-security) — hardening, access control, and monitoring
+- [OS Security](08-os-security/os-security) — Linux and Windows security configuration and best practices
 
 ### Key Concepts
 
@@ -243,8 +243,8 @@ Malware analysis examines malicious software to understand its behaviour, capabi
 
 ### Topic Notes
 
-- [Malware Analysis Overview](/09-malware-analysis) — types of malware, analysis techniques, and tools
-- [Malware Analysis](/09-malware-analysis/malware-analysis) — static analysis, dynamic analysis, and reverse engineering
+- [Malware Analysis Overview](09-malware-analysis) — types of malware, analysis techniques, and tools
+- [Malware Analysis](09-malware-analysis/malware-analysis) — static analysis, dynamic analysis, and reverse engineering
 
 ### Key Concepts
 
@@ -262,8 +262,8 @@ Penetration testing simulates real-world attacks to identify vulnerabilities bef
 
 ### Topic Notes
 
-- [Penetration Testing Overview](/pentesting-and-attacks) — methodology, tools, and reporting
-- [Penetration Testing](/pentesting-and-attacks) — reconnaissance, scanning, exploitation, and post-exploitation
+- [Penetration Testing Overview](pentesting-and-attacks) — methodology, tools, and reporting
+- [Penetration Testing](pentesting-and-attacks) — reconnaissance, scanning, exploitation, and post-exploitation
 
 ### Key Concepts
 

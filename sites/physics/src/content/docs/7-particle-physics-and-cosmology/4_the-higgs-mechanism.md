@@ -183,10 +183,10 @@ The Higgs mechanism in particle physics is a relativistic generalisation of the 
 
 ## Cross-References
 
-- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: The Higgs mechanism explains how the W and Z bosons acquire mass within the electroweak sector of the Standard Model.
-- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Spontaneous symmetry breaking preserves the underlying gauge invariance while breaking the symmetry of the vacuum state.
-- **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: The Higgs doublet transforms under SU(2) x U(1), and the Goldstone bosons correspond to broken generators of the gauge group.
-- **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: Extensions to the Higgs sector, such as supersymmetry and two-Higgs-doublet models, address the hierarchy problem.
+- **[The Standard Model](1_the-standard-model)**: The Higgs mechanism explains how the W and Z bosons acquire mass within the electroweak sector of the Standard Model.
+- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)**: Spontaneous symmetry breaking preserves the underlying gauge invariance while breaking the symmetry of the vacuum state.
+- **[Group Theory in Particle Physics](5_group-theory-in-particle-physics)**: The Higgs doublet transforms under SU(2) x U(1), and the Goldstone bosons correspond to broken generators of the gauge group.
+- **[Beyond the Standard Model](9_beyond-the-standard-model)**: Extensions to the Higgs sector, such as supersymmetry and two-Higgs-doublet models, address the hierarchy problem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

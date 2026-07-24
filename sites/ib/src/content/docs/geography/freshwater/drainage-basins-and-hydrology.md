@@ -284,6 +284,6 @@ linked above.
 
 ## Cross-References
 
-- **[Climate Change](../geography/climate-change):** Climate affects water systems
-- **[Population](../geography/population-distribution):** Water affects population distribution
-- **[Economic Development](../geography/economic-development):** Water is essential for development
+- **[Climate Change](../climate-change):** Climate affects water systems
+- **[Population](../population-distribution):** Water affects population distribution
+- **[Economic Development](../economic-development):** Water is essential for development

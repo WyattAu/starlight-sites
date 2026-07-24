@@ -267,10 +267,10 @@ Phonons are confined to the Brillouin zone and have frequencies bounded by the m
 
 ## Cross-References
 
-- **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: The lattice geometry determines the phonon dispersion relations and the number of phonon branches.
-- **[Reciprocal Lattice](6-solid-state-physics/2_reciprocal-lattice.md)**: Phonon wavevectors are defined in the Brillouin zone of the reciprocal lattice.
-- **[Diffraction](6-solid-state-physics/3_diffraction.md)**: Inelastic neutron scattering measures phonon dispersion relations using the same diffraction framework.
-- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Phonon scattering limits carrier mobility and affects thermal conductivity in semiconductor materials.
+- **[Crystal Structures](1_crystal-structures)**: The lattice geometry determines the phonon dispersion relations and the number of phonon branches.
+- **[Reciprocal Lattice](2_reciprocal-lattice)**: Phonon wavevectors are defined in the Brillouin zone of the reciprocal lattice.
+- **[Diffraction](3_diffraction)**: Inelastic neutron scattering measures phonon dispersion relations using the same diffraction framework.
+- **[Semiconductors](6_semiconductors)**: Phonon scattering limits carrier mobility and affects thermal conductivity in semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

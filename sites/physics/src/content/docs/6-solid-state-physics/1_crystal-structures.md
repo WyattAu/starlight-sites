@@ -251,9 +251,9 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 
 ## Cross-References
 
-- **[Reciprocal Lattice](6-solid-state-physics/2_reciprocal-lattice.md)**: The reciprocal lattice is constructed from the real-space lattice vectors and is essential for understanding diffraction and electronic band structure.
-- **[Diffraction](6-solid-state-physics/3_diffraction.md)**: X-ray and electron diffraction probe crystal structure through Bragg's law and the Laue condition.
-- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
-- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: The crystal structure determines the band structure and electronic properties of semiconductors.
+- **[Reciprocal Lattice](2_reciprocal-lattice)**: The reciprocal lattice is constructed from the real-space lattice vectors and is essential for understanding diffraction and electronic band structure.
+- **[Diffraction](3_diffraction)**: X-ray and electron diffraction probe crystal structure through Bragg's law and the Laue condition.
+- **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
+- **[Semiconductors](6_semiconductors)**: The crystal structure determines the band structure and electronic properties of semiconductors.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -1235,6 +1235,6 @@ $= \frac{9}{2}\!\left(\operatorname{arsinh}\!\frac{4}{3} + \frac{20}{9}\right) =
 
 ## Cross-References
 
-- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Hyperbolic functions use calculus
-- **[Pure Mathematics](../further-maths/further-maths):** Hyperbolic functions are a pure maths topic
-- **[Complex Numbers](../further-maths/diagnostics/diag-complex-numbers):** Hyperbolic functions relate to complex exponentials
+- **[Further Calculus](../pure-mathematics/04-further-calculus):** Hyperbolic functions use calculus
+- **[Pure Mathematics](../further-maths):** Hyperbolic functions are a pure maths topic
+- **[Complex Numbers](../diagnostics/diag-complex-numbers):** Hyperbolic functions relate to complex exponentials

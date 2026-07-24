@@ -161,10 +161,10 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 
 ## Cross-References
 
-- **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: Problems on lattice types, Miller indices, and packing fractions draw directly on the crystal structure classification.
-- **[Reciprocal Lattice](6-solid-state-physics/2_reciprocal-lattice.md)**: Diffraction problems require computing reciprocal lattice vectors and Brillouin zones.
-- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Problems on specific heat, phonon dispersion, and thermal conductivity use the phonon framework.
-- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
+- **[Crystal Structures](1_crystal-structures)**: Problems on lattice types, Miller indices, and packing fractions draw directly on the crystal structure classification.
+- **[Reciprocal Lattice](2_reciprocal-lattice)**: Diffraction problems require computing reciprocal lattice vectors and Brillouin zones.
+- **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: Problems on specific heat, phonon dispersion, and thermal conductivity use the phonon framework.
+- **[Semiconductors](6_semiconductors)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

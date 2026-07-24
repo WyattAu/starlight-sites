@@ -71,8 +71,8 @@ The OSI (Open Systems Interconnection) model and the TCP/IP model are the concep
 
 ### Topic Notes
 
-- [OSI and TCP/IP Overview](/01-osi-model) — the seven-layer OSI model and the four-layer TCP/IP model
-- [OSI and TCP/IP](/01-osi-model/osi-and-tcp-ip) — layer functions, protocol mapping, and encapsulation
+- [OSI and TCP/IP Overview](01-osi-model) — the seven-layer OSI model and the four-layer TCP/IP model
+- [OSI and TCP/IP](01-osi-model/osi-and-tcp-ip) — layer functions, protocol mapping, and encapsulation
 
 ### Key Concepts
 
@@ -98,9 +98,9 @@ IP addressing is the mechanism that allows packets to be routed from source to d
 
 ### Topic Notes
 
-- [IP Addressing Overview](/02-ip-addressing) — IP addresses, subnets, and routing
-- [IP Addressing](/02-ip-addressing/ip-addressing) — IPv4, IPv6, subnetting, and CIDR notation
-- [Subnetting Workshop](/02-ip-addressing/subnetting-workshop) — hands-on subnet calculation practice
+- [IP Addressing Overview](02-ip-addressing) — IP addresses, subnets, and routing
+- [IP Addressing](02-ip-addressing/ip-addressing) — IPv4, IPv6, subnetting, and CIDR notation
+- [Subnetting Workshop](02-ip-addressing/subnetting-workshop) — hands-on subnet calculation practice
 
 ### Key Concepts
 
@@ -120,10 +120,10 @@ TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two
 
 ### Topic Notes
 
-- [TCP and UDP Overview](/03-tcp-udp) — transport layer protocols and their trade-offs
-- [TCP and UDP](/03-tcp-udp/tcp-and-udp) — connection management, flow control, and error handling
-- [TCP State Machine](/03-tcp-udp/tcp-state-machine) — connection states, SYN, FIN, and TIME_WAIT
-- [UDP Deep Dive](/03-tcp-udp/udp-deep-dive) — datagram structure, reliability, and usage patterns
+- [TCP and UDP Overview](03-tcp-udp) — transport layer protocols and their trade-offs
+- [TCP and UDP](03-tcp-udp/tcp-and-udp) — connection management, flow control, and error handling
+- [TCP State Machine](03-tcp-udp/tcp-state-machine) — connection states, SYN, FIN, and TIME_WAIT
+- [UDP Deep Dive](03-tcp-udp/udp-deep-dive) — datagram structure, reliability, and usage patterns
 
 ### Key Concepts
 
@@ -143,9 +143,9 @@ DNS (Domain Name System) translates human-readable domain names into IP addresse
 
 ### Topic Notes
 
-- [DNS Overview](/04-dns) — domain hierarchy, resolution process, and record types
-- [DNS Architecture](/04-dns/dns-architecture) — recursive resolvers, root servers, and caching
-- [DNS](/04-dns/dns) — record types (A, AAAA, CNAME, MX, TXT), TTL, and troubleshooting
+- [DNS Overview](04-dns) — domain hierarchy, resolution process, and record types
+- [DNS Architecture](04-dns/dns-architecture) — recursive resolvers, root servers, and caching
+- [DNS](04-dns/dns) — record types (A, AAAA, CNAME, MX, TXT), TTL, and troubleshooting
 
 ### Key Concepts
 
@@ -168,10 +168,10 @@ HTTP (HyperText Transfer Protocol) is the foundation of the World Wide Web. HTTP
 
 ### Topic Notes
 
-- [HTTP Overview](/05-http-https) — request/response model, methods, and status codes
-- [HTTP](/05-http-https/http) — headers, cookies, caching, and connection management
-- [HTTP/2 and HTTP/3](/05-http-https/http-2-and-3) — multiplexing, server push, and QUIC
-- [WebSockets](/05-http-https/websockets) — bidirectional communication for real-time applications
+- [HTTP Overview](05-http-https) — request/response model, methods, and status codes
+- [HTTP](05-http-https/http) — headers, cookies, caching, and connection management
+- [HTTP/2 and HTTP/3](05-http-https/http-2-and-3) — multiplexing, server push, and QUIC
+- [WebSockets](05-http-https/websockets) — bidirectional communication for real-time applications
 
 ### Key Concepts
 
@@ -189,9 +189,9 @@ TLS (Transport Layer Security) provides encryption, authentication, and integrit
 
 ### Topic Notes
 
-- [TLS Overview](/06-tls) — encryption, certificates, and the handshake process
-- [TLS](/06-tls/tls) — symmetric and asymmetric encryption, certificate chains, and trust
-- [TLS Internals](/06-tls/tls-internals) — cipher suites, key exchange, and protocol versions
+- [TLS Overview](06-tls) — encryption, certificates, and the handshake process
+- [TLS](06-tls/tls) — symmetric and asymmetric encryption, certificate chains, and trust
+- [TLS Internals](06-tls/tls-internals) — cipher suites, key exchange, and protocol versions
 
 ### Key Concepts
 
@@ -209,9 +209,9 @@ Network tools are essential for diagnosing, debugging, and understanding network
 
 ### Topic Notes
 
-- [Network Tools Overview](/07-network-tools) — diagnostic tools and their usage
-- [Network Tools](/07-network-tools/network-tools) — ping, traceroute, netstat, ss, and tcpdump
-- [Traffic Analysis](/07-network-tools/traffic-analysis) — packet captures, Wireshark, and protocol analysis
+- [Network Tools Overview](07-network-tools) — diagnostic tools and their usage
+- [Network Tools](07-network-tools/network-tools) — ping, traceroute, netstat, ss, and tcpdump
+- [Traffic Analysis](07-network-tools/traffic-analysis) — packet captures, Wireshark, and protocol analysis
 
 ### Key Concepts
 
@@ -229,8 +229,8 @@ Layer 2 handles communication within a single network segment. Ethernet is the d
 
 ### Topic Notes
 
-- [Layer 2 Overview](/08-layer2) — Ethernet, MAC addresses, and switching
-- [Layer 2 and Ethernet](/08-layer2/layer2-and-ethernet) — frame structure, VLANs, and Spanning Tree Protocol
+- [Layer 2 Overview](08-layer2) — Ethernet, MAC addresses, and switching
+- [Layer 2 and Ethernet](08-layer2/layer2-and-ethernet) — frame structure, VLANs, and Spanning Tree Protocol
 
 ### Key Concepts
 
@@ -246,8 +246,8 @@ Wireless networking uses radio waves to provide network connectivity without phy
 
 ### Topic Notes
 
-- [Wireless Overview](/09-wireless) — Wi-Fi standards, security, and configuration
-- [Wireless Networking](/09-wireless/wireless-networking) — 802.11 standards, WPA3, and channel management
+- [Wireless Overview](09-wireless) — Wi-Fi standards, security, and configuration
+- [Wireless Networking](09-wireless/wireless-networking) — 802.11 standards, WPA3, and channel management
 
 ### Key Concepts
 
@@ -263,8 +263,8 @@ Email and application protocols provide specific services over the network. Unde
 
 ### Topic Notes
 
-- [Email and Application Protocols Overview](/10-email-and-app-protocols) — email, SSH, FTP, and other protocols
-- [Email and Application Protocols](/10-email-and-app-protocols/email-and-application-protocols) — SMTP, IMAP, POP3, SSH, and their security
+- [Email and Application Protocols Overview](10-email-and-app-protocols) — email, SSH, FTP, and other protocols
+- [Email and Application Protocols](10-email-and-app-protocols/email-and-application-protocols) — SMTP, IMAP, POP3, SSH, and their security
 
 ### Key Concepts
 

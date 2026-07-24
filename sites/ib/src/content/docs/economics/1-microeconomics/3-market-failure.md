@@ -699,6 +699,6 @@ from using the light (non-excludable). Government provision is necessary because
 
 ## Cross-References
 
-- **[National Income](../economics/2-macroeconomics/1-national-income):** Market failure affects national income
-- **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Government corrects failures
-- **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Trade failures affect exchange rates
+- **[National Income](../2-macroeconomics/1-national-income):** Market failure affects national income
+- **[Fiscal Policy](../2-macroeconomics/2-fiscal-policy):** Government corrects failures
+- **[Exchange Rates](../3-international-economics/2-exchange-rates):** Trade failures affect exchange rates

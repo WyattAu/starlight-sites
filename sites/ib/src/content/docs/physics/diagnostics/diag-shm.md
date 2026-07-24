@@ -402,6 +402,6 @@ This confirms: $x_{\max} = 2x_0 = x_0 + A = 0.1962 + 0.1962 = 0.3924\,\text{m}$.
 
 ## Cross-References
 
-- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
-- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
-- **[Waves](../physics/flashcards-waves):** Waves transfer energy
+- **[Kinematics](../flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../flashcards-waves):** Waves transfer energy

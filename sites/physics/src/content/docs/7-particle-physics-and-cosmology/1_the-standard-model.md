@@ -235,10 +235,10 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 
 ## Cross-References
 
-- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: The gauge symmetry structure of the Standard Model determines which quantum numbers are exactly conserved.
-- **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: The SU(3) x SU(2) x U(1) gauge group structure is explained using group representations and Clebsch-Gordan decomposition.
-- **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: The Higgs mechanism breaks the electroweak symmetry, giving mass to the W and Z bosons while preserving gauge invariance.
-- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
+- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)**: The gauge symmetry structure of the Standard Model determines which quantum numbers are exactly conserved.
+- **[Group Theory in Particle Physics](5_group-theory-in-particle-physics)**: The SU(3) x SU(2) x U(1) gauge group structure is explained using group representations and Clebsch-Gordan decomposition.
+- **[The Higgs Mechanism](4_the-higgs-mechanism)**: The Higgs mechanism breaks the electroweak symmetry, giving mass to the W and Z bosons while preserving gauge invariance.
+- **[Running Coupling Constants](6_running-coupling-constants)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

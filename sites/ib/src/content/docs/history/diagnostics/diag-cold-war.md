@@ -115,6 +115,6 @@ Answer each question. Check your answers against the key at the end.
 
 ## Cross-References
 
-- **[Cold War](../history/cold-war):** Cold War diagnostics test core knowledge
-- **[Authoritarian States](../history/authoritarian-states):** Authoritarian regimes are examined
-- **[Causes and Effects](../history/causes-and-effects-of-wars):** Proxy wars are studied
+- **[Cold War](../cold-war):** Cold War diagnostics test core knowledge
+- **[Authoritarian States](../authoritarian-states):** Authoritarian regimes are examined
+- **[Causes and Effects](../causes-and-effects-of-wars):** Proxy wars are studied

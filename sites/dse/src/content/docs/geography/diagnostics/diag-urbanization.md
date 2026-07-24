@@ -114,6 +114,6 @@ Answer each question. Check your answers against the key at the end.
 
 ## Cross-References
 
-- **[Population](../geography/population):** Population dynamics are studied
-- **[Urbanization](../geography/urbanization):** Urbanisation is a major topic
-- **[Agriculture](../geography/agriculture):** Agriculture is linked to population
+- **[Population](../population):** Population dynamics are studied
+- **[Urbanization](../urbanization):** Urbanisation is a major topic
+- **[Agriculture](../agriculture):** Agriculture is linked to population

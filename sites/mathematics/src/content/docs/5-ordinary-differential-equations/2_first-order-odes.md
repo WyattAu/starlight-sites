@@ -367,9 +367,9 @@ $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal.
 
 ## Cross-References
 
-- **[Introduction and Classification](5-ordinary-differential-equations/1_introduction-and-classification.md)**: First-order ODEs are classified as separable, linear, exact, or Bernoulli as part of the broader ODE taxonomy.
-- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: Reduction of order converts certain second-order equations to first-order, linking these two chapters.
-- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform provides an alternative algebraic method for solving linear first-order ODEs with initial conditions.
-- **[Stability and Phase Plane Analysis](5-ordinary-differential-equations/9_stability-and-phase-plane-analysis.md)**: Equilibria and their stability for first-order autonomous ODEs form the foundation for phase plane analysis.
+- **[Introduction and Classification](1_introduction-and-classification)**: First-order ODEs are classified as separable, linear, exact, or Bernoulli as part of the broader ODE taxonomy.
+- **[Second-Order Linear ODEs](3_second-order-linear-odes)**: Reduction of order converts certain second-order equations to first-order, linking these two chapters.
+- **[Laplace Transforms](5_laplace-transforms)**: The Laplace transform provides an alternative algebraic method for solving linear first-order ODEs with initial conditions.
+- **[Stability and Phase Plane Analysis](9_stability-and-phase-plane-analysis)**: Equilibria and their stability for first-order autonomous ODEs form the foundation for phase plane analysis.
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

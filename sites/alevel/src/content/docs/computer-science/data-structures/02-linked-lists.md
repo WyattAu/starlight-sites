@@ -885,6 +885,6 @@ linked above.
 
 ## Cross-References
 
-- **[Stacks and Queues](../computer-science/data-structures/03-stacks-and-queues):** Stacks and queues are specialised linear structures
-- **[Graphs](../computer-science/data-structures/05-graphs):** Graphs can be represented using linked lists
-- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Memory addressing uses binary number systems
+- **[Stacks and Queues](03-stacks-and-queues):** Stacks and queues are specialised linear structures
+- **[Graphs](05-graphs):** Graphs can be represented using linked lists
+- **[Number Systems](../fundamentals/01-number-systems):** Memory addressing uses binary number systems

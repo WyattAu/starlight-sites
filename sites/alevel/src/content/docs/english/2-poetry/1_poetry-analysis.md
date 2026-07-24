@@ -305,6 +305,6 @@ hubris.
 
 ## Cross-References
 
-- **[Literary Terms](../english/flashcards-literary-terms):** Poetry uses many literary devices
-- **[Twentieth Century](../english/10-twentieth-century/1_twentieth_century):** Modern poetry spans twentieth-century movements
-- **[Practice](../english/practice-literary-analysis.mdx):** Poetry analysis practice develops close reading
+- **[Literary Terms](../flashcards-literary-terms):** Poetry uses many literary devices
+- **[Twentieth Century](../10-twentieth-century/1_twentieth_century):** Modern poetry spans twentieth-century movements
+- **[Practice](../practice-literary-analysis):** Poetry analysis practice develops close reading

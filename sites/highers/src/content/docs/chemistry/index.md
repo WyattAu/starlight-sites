@@ -193,7 +193,7 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 
 ## Cross-References
 
-- [1 Structure Bonding](chemistry/1-structure-bonding/1_structure-bonding)
-- [2 Heat Matter](chemistry/2-heat-matter/2_heat-matter)
+- [1 Structure Bonding](1-structure-bonding/1_structure-bonding)
+- [2 Heat Matter](2-heat-matter/2_heat-matter)
 - [1 Cell Biology](biology/1-cell-biology/1_cell-biology)
 - [2 Metabolism](biology/2-metabolism/2_metabolism)

@@ -525,6 +525,6 @@ Quays area?
 
 ## Cross-References
 
-- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
-- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
-- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study
+- **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](1_fieldwork-methodology):** Fieldwork methods apply to geographic study

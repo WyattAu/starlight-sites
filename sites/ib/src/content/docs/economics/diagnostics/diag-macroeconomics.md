@@ -181,6 +181,6 @@ sidebar_position: 40
 
 ## Cross-References
 
-- **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Macroeconomics covers fiscal policy
-- **[National Income](../economics/2-macroeconomics/1-national-income):** GDP is a macro indicator
-- **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Exchange rates are macro variables
+- **[Fiscal Policy](../2-macroeconomics/2-fiscal-policy):** Macroeconomics covers fiscal policy
+- **[National Income](../2-macroeconomics/1-national-income):** GDP is a macro indicator
+- **[Exchange Rates](../3-international-economics/2-exchange-rates):** Exchange rates are macro variables

@@ -852,9 +852,9 @@ structural transformation.
 
 ## Cross-References
 
-- **[National Income](../economics/2-macroeconomics/1-national-income):** Barriers limit income growth
-- **[Market Failure](../economics/1-microeconomics/3-market-failure):** Failures contribute to underdevelopment
-- **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Exchange instability affects growth
+- **[National Income](../2-macroeconomics/1-national-income):** Barriers limit income growth
+- **[Market Failure](../1-microeconomics/3-market-failure):** Failures contribute to underdevelopment
+- **[Exchange Rates](../3-international-economics/2-exchange-rates):** Exchange instability affects growth
 
 ---
 

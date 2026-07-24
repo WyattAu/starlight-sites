@@ -512,6 +512,6 @@ $0.185\,\mathrm{dm}^3$The efficiency would be $88.5\%$ (1 mark).
 
 ## Cross-References
 
-- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
-- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity
+- **[Organic Chemistry](../organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

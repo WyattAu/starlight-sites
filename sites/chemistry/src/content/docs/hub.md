@@ -64,7 +64,7 @@ Statistical mechanics bridges the microscopic world of atoms and molecules with 
 
 Electrochemistry deals with the relationship between electrical energy and chemical change. Topics include galvanic cells, electrolysis, the Nernst equation, and electrochemical kinetics. You will learn to calculate cell potentials, predict the direction of electron flow, and understand the principles behind batteries and fuel cells.
 
-Read the full guide: [Physical Chemistry Study Guide](/1-physical-chemistry).
+Read the full guide: [Physical Chemistry Study Guide](1-physical-chemistry).
 
 ## Organic Chemistry
 
@@ -104,7 +104,7 @@ Stereochemistry examines the three-dimensional arrangement of atoms in molecules
 
 Organic synthesis combines all areas of organic chemistry to construct target molecules from simpler starting materials. You will practise retrosynthetic analysis, planning multi-step syntheses, and selecting reagents for specific transformations.
 
-Read the full guide: [Organic Chemistry Study Guide](/2-organic-chemistry).
+Read the full guide: [Organic Chemistry Study Guide](2-organic-chemistry).
 
 ## Inorganic Chemistry
 
@@ -134,7 +134,7 @@ Organometallic chemistry studies compounds containing metal-carbon bonds. These 
 
 Bioinorganic chemistry explores the role of metal ions in biological systems. Topics include oxygen transport, electron transfer, and metalloenzyme catalysis. Understanding these systems bridges chemistry and biology.
 
-Read the full guide: [Inorganic Chemistry Study Guide](/3-inorganic-chemistry).
+Read the full guide: [Inorganic Chemistry Study Guide](3-inorganic-chemistry).
 
 ## Laboratory Skills
 

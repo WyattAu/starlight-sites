@@ -369,6 +369,6 @@ kinetic energy is converted to heat, sound, and deformation in the collision.
 
 ## Cross-References
 
-- **[Mechanics](../physics/flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy
-- **[Waves](../physics/flashcards-mechanics-waves):** Waves transfer energy through oscillations
-- **[Electricity](../physics/flashcards-electricity-fields):** Electricity covers circuits and fields
+- **[Mechanics](../flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy
+- **[Waves](../flashcards-mechanics-waves):** Waves transfer energy through oscillations
+- **[Electricity](../flashcards-electricity-fields):** Electricity covers circuits and fields

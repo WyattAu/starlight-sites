@@ -267,6 +267,6 @@ potential that is essential for action potential generation.
 
 ## Cross-References
 
-- **[Cell Biology](../biology/flashcards-cell-biology):** Cells are the basic units of life
-- **[Genetics](../biology/flashcards-genetics):** Genetics studies heredity and variation
-- **[Ecology](../biology/diagnostics/diag-ecology):** Ecology studies organism-environment interactions
+- **[Cell Biology](../flashcards-cell-biology):** Cells are the basic units of life
+- **[Genetics](../flashcards-genetics):** Genetics studies heredity and variation
+- **[Ecology](diag-ecology):** Ecology studies organism-environment interactions

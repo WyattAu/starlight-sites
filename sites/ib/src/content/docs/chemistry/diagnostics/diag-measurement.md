@@ -277,6 +277,6 @@ experimental result **agrees** with the literature value at the 95% confidence l
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
-- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
-- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic
+- **[Atomic Structure](../flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../flashcards-kinetics-equilibrium):** Equilibrium is a core topic

@@ -949,6 +949,6 @@ linked above.
 
 ## Cross-References
 
-- **[Energy and Work](../maths/mechanics/energy-and-work-depth):** Momentum and energy are conserved
-- **[Kinematics](../maths/mechanics/kinematics-depth):** Momentum involves mass and velocity
-- **[Forces](../maths/mechanics/statics-depth):** Newton's laws underpin momentum
+- **[Energy and Work](energy-and-work-depth):** Momentum and energy are conserved
+- **[Kinematics](kinematics-depth):** Momentum involves mass and velocity
+- **[Forces](statics-depth):** Newton's laws underpin momentum

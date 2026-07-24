@@ -442,5 +442,5 @@ driven by the concentration gradient between blood and the cell cytoplasm.
 
 ## Cross-References
 
-- **[Cell Biology](../biology/flashcards-cell-biology):** Explores the cellular structures that biological molecules build and maintain
-- **[Ecology](../biology/diagnostics/diag-ecology):** Biological molecules are the foundation of all living organisms in ecosystems
+- **[Cell Biology](../flashcards-cell-biology):** Explores the cellular structures that biological molecules build and maintain
+- **[Ecology](diag-ecology):** Biological molecules are the foundation of all living organisms in ecosystems

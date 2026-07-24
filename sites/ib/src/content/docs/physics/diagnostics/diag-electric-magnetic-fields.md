@@ -406,6 +406,6 @@ $$E = \frac{1}{2}LI_{\max}^2 = \frac{1}{2} \times 0.50 \times 0.12^2 = \frac{1}{
 
 ## Cross-References
 
-- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
-- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
-- **[Waves](../physics/flashcards-waves):** Waves transfer energy
+- **[Kinematics](../flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../flashcards-waves):** Waves transfer energy

@@ -987,6 +987,6 @@ linked above.
 
 ## Cross-References
 
-- **[Linked Lists](../computer-science/data-structures/02-linked-lists):** Stacks can be implemented using linked lists
-- **[Graphs](../computer-science/data-structures/05-graphs):** BFS and DFS use queue and stack structures
-- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Stack frames use memory addresses
+- **[Linked Lists](02-linked-lists):** Stacks can be implemented using linked lists
+- **[Graphs](05-graphs):** BFS and DFS use queue and stack structures
+- **[Number Systems](../fundamentals/01-number-systems):** Stack frames use memory addresses

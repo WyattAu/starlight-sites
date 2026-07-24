@@ -71,24 +71,24 @@ IB Biology covers cell biology, molecular biology, genetics, ecology, evolution,
 
 ### Topic Notes
 
-- [Cell Biology](/biology/1-cell-biology/1_cell-biology) — cell structure, membrane transport, and cell division
-- [Metabolism](/biology/1-cell-biology/2_metabolism) — enzyme kinetics, cellular respiration, and photosynthesis
-- [Molecular Biology](/biology/2-molecular-biology/1_molecular-biology) — DNA replication, transcription, and translation
-- [Genetics](/biology/3-genetics/1_genetics) — Mendelian inheritance, chi-squared tests, and genetic engineering
-- [Genetics Advanced](/biology/3-genetics/2_genetics-advanced) — linkage, epistasis, and polygenic inheritance
-- [Ecology](/biology/4-ecology/1_ecology) — ecosystems, energy transfer, and succession
-- [Evolution and Biodiversity](/biology/5-evolution-and-biodiversity/1_evolution) — speciation, classification, and evidence for evolution
-- [Human Physiology](/biology/6-human-physiology/1_human-physiology) — digestion, gas exchange, and circulation
-- [Plant Biology](/biology/7-plant-biology/1_plant-biology) — photosynthesis, transpiration, and plant responses
-- [Nervous System](/biology/8-nervous-system-and-immunology/1_nervous-system) — neurons, synapses, and the brain
-- [Immunology](/biology/8-nervous-system-and-immunology/2_immunology) — immune response and disease
+- [Cell Biology](biology/1-cell-biology/1_cell-biology) — cell structure, membrane transport, and cell division
+- [Metabolism](biology/1-cell-biology/2_metabolism) — enzyme kinetics, cellular respiration, and photosynthesis
+- [Molecular Biology](biology/2-molecular-biology/1_molecular-biology) — DNA replication, transcription, and translation
+- [Genetics](biology/3-genetics/1_genetics) — Mendelian inheritance, chi-squared tests, and genetic engineering
+- [Genetics Advanced](biology/3-genetics/2_genetics-advanced) — linkage, epistasis, and polygenic inheritance
+- [Ecology](biology/4-ecology/1_ecology) — ecosystems, energy transfer, and succession
+- [Evolution and Biodiversity](biology/5-evolution-and-biodiversity/1_evolution) — speciation, classification, and evidence for evolution
+- [Human Physiology](biology/6-human-physiology/1_human-physiology) — digestion, gas exchange, and circulation
+- [Plant Biology](biology/7-plant-biology/1_plant-biology) — photosynthesis, transpiration, and plant responses
+- [Nervous System](biology/8-nervous-system-and-immunology/1_nervous-system) — neurons, synapses, and the brain
+- [Immunology](biology/8-nervous-system-and-immunology/2_immunology) — immune response and disease
 
 ### Practice and Review
 
-- [Flashcards: Cell Biology](/biology/flashcards-cell-biology)
-- [Flashcards: Genetics](/biology/flashcards-genetics)
-- [Practice Questions: Cell Biology](/biology/practice-cell-biology)
-- [Diagnostic Quizzes](/biology/diagnostics) — assess your knowledge across all biology topics
+- [Flashcards: Cell Biology](biology/flashcards-cell-biology)
+- [Flashcards: Genetics](biology/flashcards-genetics)
+- [Practice Questions: Cell Biology](biology/practice-cell-biology)
+- [Diagnostic Quizzes](biology/diagnostics) — assess your knowledge across all biology topics
 
 ---
 
@@ -98,40 +98,40 @@ IB Chemistry spans stoichiometry, atomic structure, periodicity, chemical bondin
 
 ### Topic Notes
 
-- [Stoichiometric Relationships](/chemistry/1-stoichiometry/1_stoichiometric-relationships) — mole concept, Avogadro's number, and empirical formulae
-- [States of Matter](/chemistry/1-stoichiometry/2_states-of-matter) — ideal gas law and kinetic molecular theory
-- [Atomic Theory](/chemistry/2-atomic-structure/1_atomic-theory) — subatomic particles, isotopes, and electron configuration
-- [Atomic Structure and Periodicity](/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity) — periodic trends and ionisation energy
-- [Periodicity](/chemistry/3-periodicity/1_periodicity) — group trends and properties of elements
-- [Chemical Bonding](/chemistry/4-chemical-bonding/1_chemical-bonding) — ionic, covalent, and metallic bonding
-- [Chemical Bonding Advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced) — VSEPR, hybridisation, and intermolecular forces
-- [Thermochemistry](/chemistry/5-energetics/1_thermochemistry) — enthalpy changes and Hess's law
-- [Chemical Kinetics](/chemistry/6-kinetics/1_chemical-kinetics) — rate laws, activation energy, and catalysts
-- [Equilibrium](/chemistry/7-equilibrium/1_equilibrium) — Le Chatelier's principle and equilibrium constants
-- [Acids and Bases](/chemistry/8-acids-and-bases/1_acids-and-bases) — pH, titrations, and buffer solutions
-- [Acids and Bases Advanced](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced) — Lewis acids and Henderson-Hasselbalch
-- [Redox Reactions](/chemistry/9-redox/1_redox-reactions) — oxidation states and balancing equations
-- [Redox Advanced](/chemistry/9-redox/2_redox-advanced) — electrochemical cells and electrolysis
-- [Electrochemistry](/chemistry/9-redox/3_electrochemistry)
-- [Organic Chemistry](/chemistry/10-organic-chemistry/1_organic-chemistry) — nomenclature, isomerism, and functional groups
-- [Organic Chemistry Advanced](/chemistry/10-organic-chemistry/2_organic-chemistry-advanced) — reaction mechanisms and synthesis
-- [Measurement and Data Processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing) — uncertainty, sig figs, and graphical analysis
+- [Stoichiometric Relationships](chemistry/1-stoichiometry/1_stoichiometric-relationships) — mole concept, Avogadro's number, and empirical formulae
+- [States of Matter](chemistry/1-stoichiometry/2_states-of-matter) — ideal gas law and kinetic molecular theory
+- [Atomic Theory](chemistry/2-atomic-structure/1_atomic-theory) — subatomic particles, isotopes, and electron configuration
+- [Atomic Structure and Periodicity](chemistry/2-atomic-structure/2_atomic-structure-and-periodicity) — periodic trends and ionisation energy
+- [Periodicity](chemistry/3-periodicity/1_periodicity) — group trends and properties of elements
+- [Chemical Bonding](chemistry/4-chemical-bonding/1_chemical-bonding) — ionic, covalent, and metallic bonding
+- [Chemical Bonding Advanced](chemistry/4-chemical-bonding/2_chemical-bonding-advanced) — VSEPR, hybridisation, and intermolecular forces
+- [Thermochemistry](chemistry/5-energetics/1_thermochemistry) — enthalpy changes and Hess's law
+- [Chemical Kinetics](chemistry/6-kinetics/1_chemical-kinetics) — rate laws, activation energy, and catalysts
+- [Equilibrium](chemistry/7-equilibrium/1_equilibrium) — Le Chatelier's principle and equilibrium constants
+- [Acids and Bases](chemistry/8-acids-and-bases/1_acids-and-bases) — pH, titrations, and buffer solutions
+- [Acids and Bases Advanced](chemistry/8-acids-and-bases/2_acids-and-bases-advanced) — Lewis acids and Henderson-Hasselbalch
+- [Redox Reactions](chemistry/9-redox/1_redox-reactions) — oxidation states and balancing equations
+- [Redox Advanced](chemistry/9-redox/2_redox-advanced) — electrochemical cells and electrolysis
+- [Electrochemistry](chemistry/9-redox/3_electrochemistry)
+- [Organic Chemistry](chemistry/10-organic-chemistry/1_organic-chemistry) — nomenclature, isomerism, and functional groups
+- [Organic Chemistry Advanced](chemistry/10-organic-chemistry/2_organic-chemistry-advanced) — reaction mechanisms and synthesis
+- [Measurement and Data Processing](chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing) — uncertainty, sig figs, and graphical analysis
 
 ### Practice and Review
 
-- [Flashcards: Stoichiometry](/chemistry/flashcards-stoichiometry)
-- [Flashcards: Atomic Structure](/chemistry/flashcards-atomic-structure)
-- [Flashcards: Chemical Bonding](/chemistry/flashcards-chemical-bonding)
-- [Flashcards: Energetics](/chemistry/flashcards-energetics)
-- [Flashcards: Kinetics and Equilibrium](/chemistry/flashcards-kinetics-equilibrium)
-- [Flashcards: Acids and Bases](/chemistry/flashcards-chemical-bonding)
-- [Flashcards: Redox and Electrochemistry](/chemistry/flashcards-redox-electrochemistry)
+- [Flashcards: Stoichiometry](chemistry/flashcards-stoichiometry)
+- [Flashcards: Atomic Structure](chemistry/flashcards-atomic-structure)
+- [Flashcards: Chemical Bonding](chemistry/flashcards-chemical-bonding)
+- [Flashcards: Energetics](chemistry/flashcards-energetics)
+- [Flashcards: Kinetics and Equilibrium](chemistry/flashcards-kinetics-equilibrium)
+- [Flashcards: Acids and Bases](chemistry/flashcards-chemical-bonding)
+- [Flashcards: Redox and Electrochemistry](chemistry/flashcards-redox-electrochemistry)
 - [Flashcards: Organic Chemistry](/physics/flashcards-organic-chemistry)
-- [Flashcards: Measurement](/chemistry/flashcards-measurement-data)
-- [Flashcards: Quantitative Chemistry](/chemistry/flashcards-quantitative-chemistry)
-- [Flashcards: Periodicity](/chemistry/flashcards-periodicity)
-- [Practice Questions](/chemistry/practice-stoichiometry) — practice sets for each chemistry topic
-- [Diagnostic Quizzes](/chemistry/diagnostics)
+- [Flashcards: Measurement](chemistry/flashcards-measurement-data)
+- [Flashcards: Quantitative Chemistry](chemistry/flashcards-quantitative-chemistry)
+- [Flashcards: Periodicity](chemistry/flashcards-periodicity)
+- [Practice Questions](chemistry/practice-stoichiometry) — practice sets for each chemistry topic
+- [Diagnostic Quizzes](chemistry/diagnostics)
 
 ---
 
@@ -141,30 +141,30 @@ IB Physics covers space, time and motion; the particulate nature of matter; wave
 
 ### Topic Notes
 
-- [Space, Time and Motion](/physics/1-space-time-and-motion/index) — kinematics, dynamics, energy, and momentum
-- [Forces and Momentum](/physics/1-space-time-and-motion/5_forces-and-momentum)
-- [Rotational Motion](/physics/1-space-time-and-motion/4_rotational-motion) — torque, angular momentum, and rotational energy
-- [Particulate Nature of Matter](/physics/2-particulate-nature-of-matter/index) — thermal physics and ideal gases
-- [Wave Behaviour](/physics/3-wave-behaviour/index) — wave properties, interference, and diffraction
-- [Fields](/physics/4-fields/index) — gravitational, electric, and magnetic fields
-- [Motion in Electromagnetic Fields](/physics/4-fields/3_motion-in-electromagnetic-fields)
-- [Nuclear and Quantum Physics](/physics/5-nuclear-and-quantum-physics/index) — photoelectric effect, atomic models, and nuclear reactions
+- [Space, Time and Motion](physics/1-space-time-and-motion/index) — kinematics, dynamics, energy, and momentum
+- [Forces and Momentum](physics/1-space-time-and-motion/5_forces-and-momentum)
+- [Rotational Motion](physics/1-space-time-and-motion/4_rotational-motion) — torque, angular momentum, and rotational energy
+- [Particulate Nature of Matter](physics/2-particulate-nature-of-matter/index) — thermal physics and ideal gases
+- [Wave Behaviour](physics/3-wave-behaviour/index) — wave properties, interference, and diffraction
+- [Fields](physics/4-fields/index) — gravitational, electric, and magnetic fields
+- [Motion in Electromagnetic Fields](physics/4-fields/3_motion-in-electromagnetic-fields)
+- [Nuclear and Quantum Physics](physics/5-nuclear-and-quantum-physics/index) — photoelectric effect, atomic models, and nuclear reactions
 
 ### Practice and Review
 
-- [Flashcards: Kinematics](/physics/flashcards-kinematics)
-- [Flashcards: Mechanics](/physics/flashcards-mechanics)
-- [Flashcards: Waves](/physics/flashcards-waves)
-- [Flashcards: Electricity](/physics/flashcards-electricity)
-- [Flashcards: Thermal Physics](/physics/flashcards-thermal-physics)
-- [Flashcards: Nuclear and Quantum](/physics/flashcards-nuclear-quantum)
-- [Practice Questions: Kinematics](/physics/practice-kinematics)
-- [Practice Questions: Mechanics](/physics/practice-mechanics)
-- [Practice Questions: Waves](/physics/practice-waves)
-- [Practice Questions: Electricity](/physics/practice-electricity)
-- [Practice Questions: Thermal Physics](/physics/practice-thermal-physics)
-- [Practice Questions: Nuclear and Quantum](/physics/practice-nuclear-quantum)
-- [Diagnostic Quizzes](/physics/diagnostics)
+- [Flashcards: Kinematics](physics/flashcards-kinematics)
+- [Flashcards: Mechanics](physics/flashcards-mechanics)
+- [Flashcards: Waves](physics/flashcards-waves)
+- [Flashcards: Electricity](physics/flashcards-electricity)
+- [Flashcards: Thermal Physics](physics/flashcards-thermal-physics)
+- [Flashcards: Nuclear and Quantum](physics/flashcards-nuclear-quantum)
+- [Practice Questions: Kinematics](physics/practice-kinematics)
+- [Practice Questions: Mechanics](physics/practice-mechanics)
+- [Practice Questions: Waves](physics/practice-waves)
+- [Practice Questions: Electricity](physics/practice-electricity)
+- [Practice Questions: Thermal Physics](physics/practice-thermal-physics)
+- [Practice Questions: Nuclear and Quantum](physics/practice-nuclear-quantum)
+- [Diagnostic Quizzes](physics/diagnostics)
 
 ---
 
@@ -174,27 +174,27 @@ IB Mathematics covers number and algebra, functions, geometry and trigonometry, 
 
 ### Topic Notes
 
-- [Number and Algebra](/maths/1-number-and-algebra/index)
-- [Functions](/maths/2-functions/index)
-- [Geometry and Trigonometry](/maths/3-geometry-and-trigonometry/index)
-- [Statistics and Probability](/maths/4-statistics-and-probability/index)
-- [Calculus](/maths/5-calculus/index)
-- [Discrete Mathematics](/maths/6-discrete-mathematics/index)
-- [Analysis and Approaches Question Bank](/mathematics/analysis-and-approaches-question-bank)
+- [Number and Algebra](maths/1-number-and-algebra/index)
+- [Functions](maths/2-functions/index)
+- [Geometry and Trigonometry](maths/3-geometry-and-trigonometry/index)
+- [Statistics and Probability](maths/4-statistics-and-probability/index)
+- [Calculus](maths/5-calculus/index)
+- [Discrete Mathematics](maths/6-discrete-mathematics/index)
+- [Analysis and Approaches Question Bank](mathematics/analysis-and-approaches-question-bank)
 
 ### Practice and Review
 
-- [Flashcards: Calculus](/maths/flashcards-calculus)
-- [Flashcards: Statistics](/maths/flashcards-statistics)
-- [Flashcards: Geometry and Vectors](/maths/flashcards-geometry-vectors)
-- [Practice Questions: Number and Algebra](/maths/practice-number-algebra)
-- [Practice Questions: Functions](/maths/practice-functions-and-algebra)
-- [Practice Questions: Geometry and Trigonometry](/maths/practice-geometry-trigonometry)
-- [Practice Questions: Statistics and Probability](/maths/practice-statistics-probability)
-- [Practice Questions: Calculus](/maths/practice-calculus)
-- [Practice Questions: Discrete Mathematics](/maths/practice-discrete-mathematics)
-- [Diagnostic Quizzes](/maths/diagnostics)
-- [Interactive Practice](/mathematics/practice-interactive)
+- [Flashcards: Calculus](maths/flashcards-calculus)
+- [Flashcards: Statistics](maths/flashcards-statistics)
+- [Flashcards: Geometry and Vectors](maths/flashcards-geometry-vectors)
+- [Practice Questions: Number and Algebra](maths/practice-number-algebra)
+- [Practice Questions: Functions](maths/practice-functions-and-algebra)
+- [Practice Questions: Geometry and Trigonometry](maths/practice-geometry-trigonometry)
+- [Practice Questions: Statistics and Probability](maths/practice-statistics-probability)
+- [Practice Questions: Calculus](maths/practice-calculus)
+- [Practice Questions: Discrete Mathematics](maths/practice-discrete-mathematics)
+- [Diagnostic Quizzes](maths/diagnostics)
+- [Interactive Practice](mathematics/practice-interactive)
 
 ---
 
@@ -204,23 +204,23 @@ IB Computer Science covers system fundamentals, computer organisation, networks,
 
 ### Topic Notes
 
-- [System Fundamentals](/computer-science/1-system-fundamentals/1_system-design) — system design and organisation
-- [Computer Organisation](/computer-science/2-computer-organization/1_computer-organization) — hardware architecture and data representation
-- [Networks](/computer-science/3-networks/1_networks) — network types, protocols, and security
-- [Boolean Logic](/computer-science/4-computational-thinking/1_boolean-logic) — logic gates and Boolean algebra
-- [Algorithms and Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures) — sorting, searching, and complexity
-- [Abstraction and Data Management](/computer-science/5-abstract-data-structures/1_abstraction-and-data-management) — ADTs and data modelling
-- [Databases](/computer-science/6-resource-management/1_databases) — relational databases and SQL
-- [Programming Fundamentals](/computer-science/7-control/1_programming-fundamentals) — variables, loops, and functions
-- [Object-Oriented Programming](/computer-science/8-object-oriented-programming/1_object-oriented-programming) — classes, inheritance, and polymorphism
+- [System Fundamentals](computer-science/1-system-fundamentals/1_system-design) — system design and organisation
+- [Computer Organisation](computer-science/2-computer-organization/1_computer-organization) — hardware architecture and data representation
+- [Networks](computer-science/3-networks/1_networks) — network types, protocols, and security
+- [Boolean Logic](computer-science/4-computational-thinking/1_boolean-logic) — logic gates and Boolean algebra
+- [Algorithms and Data Structures](computer-science/4-computational-thinking/2_algorithms-and-data-structures) — sorting, searching, and complexity
+- [Abstraction and Data Management](computer-science/5-abstract-data-structures/1_abstraction-and-data-management) — ADTs and data modelling
+- [Databases](computer-science/6-resource-management/1_databases) — relational databases and SQL
+- [Programming Fundamentals](computer-science/7-control/1_programming-fundamentals) — variables, loops, and functions
+- [Object-Oriented Programming](computer-science/8-object-oriented-programming/1_object-oriented-programming) — classes, inheritance, and polymorphism
 
 ### Practice and Review
 
-- [Flashcards: System Fundamentals](/computer-science/flashcards-system-fundamentals)
-- [Flashcards: Algorithms and Data Structures](/computer-science/flashcards-algorithms-data-structures)
-- [Flashcards: Networks and Databases](/computer-science/flashcards-networks-databases)
-- [Flashcards: Programming and OOP](/computer-science/flashcards-programming-oop)
-- [Practice Questions: Computer Science](/computer-science/practice-computer-science)
+- [Flashcards: System Fundamentals](computer-science/flashcards-system-fundamentals)
+- [Flashcards: Algorithms and Data Structures](computer-science/flashcards-algorithms-data-structures)
+- [Flashcards: Networks and Databases](computer-science/flashcards-networks-databases)
+- [Flashcards: Programming and OOP](computer-science/flashcards-programming-oop)
+- [Practice Questions: Computer Science](computer-science/practice-computer-science)
 
 ---
 
@@ -230,20 +230,20 @@ IB Economics covers microeconomics, macroeconomics, international economics, dev
 
 ### Topic Notes
 
-- [Microeconomics](/economics/1-microeconomics/1_supply-and-demand) — supply and demand, elasticity, market failure, and theory of the firm
-- [Macroeconomics](/economics/2-macroeconomics/1-national-income) — national income, fiscal policy, monetary policy, and supply-side policy
-- [International Economics](/economics/3-international-economics/1-trade) — trade theory, exchange rates, and balance of payments
-- [Development Economics](/economics/4-development-economics/1-measuring-development) — measuring development, barriers to growth, and trade and aid
-- [Quantitative Economics](/economics/5-quantitative-economics/1-descriptive-statistics) — statistics and index numbers
-- [Game Theory and Behavioural Economics](/economics/6-game-theory/1_game-theory-and-behavioural)
+- [Microeconomics](economics/1-microeconomics/1_supply-and-demand) — supply and demand, elasticity, market failure, and theory of the firm
+- [Macroeconomics](economics/2-macroeconomics/1-national-income) — national income, fiscal policy, monetary policy, and supply-side policy
+- [International Economics](economics/3-international-economics/1-trade) — trade theory, exchange rates, and balance of payments
+- [Development Economics](economics/4-development-economics/1-measuring-development) — measuring development, barriers to growth, and trade and aid
+- [Quantitative Economics](economics/5-quantitative-economics/1-descriptive-statistics) — statistics and index numbers
+- [Game Theory and Behavioural Economics](economics/6-game-theory/1_game-theory-and-behavioural)
 
 ### Practice and Review
 
-- [Flashcards: Microeconomics](/economics/flashcards-microeconomics)
-- [Flashcards: Macroeconomics](/economics/flashcards-macroeconomics)
-- [Practice Questions: Microeconomics](/economics/practice-microeconomics)
-- [Practice Questions: Macroeconomics](/economics/practice-macroeconomics)
-- [Diagnostic Quizzes](/economics/diagnostics)
+- [Flashcards: Microeconomics](economics/flashcards-microeconomics)
+- [Flashcards: Macroeconomics](economics/flashcards-macroeconomics)
+- [Practice Questions: Microeconomics](economics/practice-microeconomics)
+- [Practice Questions: Macroeconomics](economics/practice-macroeconomics)
+- [Diagnostic Quizzes](economics/diagnostics)
 
 ---
 
@@ -253,24 +253,24 @@ IB Geography covers climate change and hazards, freshwater issues, population di
 
 ### Topic Notes
 
-- [Climate Change and Hazards](/geography/climate/index) — climate systems, global warming, and natural hazards
-- [Freshwater Issues](/geography/freshwater/index) — water resources, drainage basins, and water management
-- [Population Distribution](/geography/population/index) — demographics, migration, and population policies
-- [Urban Environments](/geography/urban/index) — urbanisation, land use, and sustainable cities
-- [Economic Development](/geography/development/index) — development indicators, industrialisation, and inequality
+- [Climate Change and Hazards](geography/climate/index) — climate systems, global warming, and natural hazards
+- [Freshwater Issues](geography/freshwater/index) — water resources, drainage basins, and water management
+- [Population Distribution](geography/population/index) — demographics, migration, and population policies
+- [Urban Environments](geography/urban/index) — urbanisation, land use, and sustainable cities
+- [Economic Development](geography/development/index) — development indicators, industrialisation, and inequality
 
 ### Practice and Review
 
-- [Flashcards: Climate Change](/geography/flashcards-climate-change)
-- [Flashcards: Freshwater](/geography/flashcards-freshwater-issues)
-- [Flashcards: Population](/geography/flashcards-population-distribution)
-- [Flashcards: Urban Environments](/geography/flashcards-urban-environments)
-- [Flashcards: Economic Development](/geography/flashcards-economic-development)
-- [Practice Questions: Climate Change](/geography/practice-climate-change)
-- [Practice Questions: Freshwater](/geography/practice-freshwater)
-- [Practice Questions: Population](/geography/practice-population)
-- [Practice Questions: Urban Environments](/geography/practice-urban-environments)
-- [Practice Questions: Economic Development](/geography/practice-economic-development)
+- [Flashcards: Climate Change](geography/flashcards-climate-change)
+- [Flashcards: Freshwater](geography/flashcards-freshwater-issues)
+- [Flashcards: Population](geography/flashcards-population-distribution)
+- [Flashcards: Urban Environments](geography/flashcards-urban-environments)
+- [Flashcards: Economic Development](geography/flashcards-economic-development)
+- [Practice Questions: Climate Change](geography/practice-climate-change)
+- [Practice Questions: Freshwater](geography/practice-freshwater)
+- [Practice Questions: Population](geography/practice-population)
+- [Practice Questions: Urban Environments](geography/practice-urban-environments)
+- [Practice Questions: Economic Development](geography/practice-economic-development)
 
 ---
 
@@ -280,12 +280,12 @@ IB History examines the Cold War, authoritarian states, and comparative studies.
 
 ### Topic Notes
 
-- [Comparative Studies](/history/comparitives/index) — comparing regimes, movements, and events
-- [Diagnostics](/history/diagnostics)
+- [Comparative Studies](history/comparitives/index) — comparing regimes, movements, and events
+- [Diagnostics](history/diagnostics)
 
 ### Practice and Review
 
-- [Practice Questions: History](/history/practice-history)
+- [Practice Questions: History](history/practice-history)
 
 ---
 
@@ -295,13 +295,13 @@ IB English covers language and literature analysis, including poetry, prose, and
 
 ### Topic Notes
 
-- [Comparative Studies](/english/comparitives/index) — comparative analysis of texts
-- [Diagnostics](/english/diagnostics)
+- [Comparative Studies](english/comparitives/index) — comparative analysis of texts
+- [Diagnostics](english/diagnostics)
 
 ### Practice and Review
 
-- [Flashcards: Poetry](/english/flashcards-poetry)
-- [Practice Questions: English](/english/practice-english)
+- [Flashcards: Poetry](english/flashcards-poetry)
+- [Practice Questions: English](english/practice-english)
 
 ---
 
@@ -311,23 +311,23 @@ IB Psychology covers biological, cognitive, developmental, social, and abnormal 
 
 ### Topic Notes
 
-- [Biological Psychology](/psychology/biological/index) — neuroscience, genetics, and behaviour
-- [Cognitive Psychology](/psychology/cognitive/index) — memory, thinking, and decision-making
-- [Developmental Psychology](/psychology/developmental/index) — attachment, Piaget, and Vygotsky
-- [Social Psychology](/psychology/sociocultural/index) — conformity, obedience, and group behaviour
-- [Abnormal Psychology](/psychology/abnormal/index) — psychological disorders and treatment
+- [Biological Psychology](psychology/biological/index) — neuroscience, genetics, and behaviour
+- [Cognitive Psychology](psychology/cognitive/index) — memory, thinking, and decision-making
+- [Developmental Psychology](psychology/developmental/index) — attachment, Piaget, and Vygotsky
+- [Social Psychology](psychology/sociocultural/index) — conformity, obedience, and group behaviour
+- [Abnormal Psychology](psychology/abnormal/index) — psychological disorders and treatment
 
 ### Practice and Review
 
-- [Flashcards: Biological Psychology](/psychology/flashcards-biological)
-- [Flashcards: Cognitive Psychology](/psychology/flashcards-cognitive)
-- [Flashcards: Developmental Psychology](/psychology/flashcards-developmental)
-- [Flashcards: Social Psychology](/psychology/flashcards-sociocultural)
-- [Flashcards: Abnormal Psychology](/psychology/flashcards-abnormal)
-- [Practice Questions: Biological](/psychology/practice-biological)
-- [Practice Questions: Cognitive](/psychology/practice-cognitive)
-- [Practice Questions: Abnormal](/psychology/practice-abnormal)
-- [Practice Questions: Sociocultural](/psychology/practice-sociocultural)
+- [Flashcards: Biological Psychology](psychology/flashcards-biological)
+- [Flashcards: Cognitive Psychology](psychology/flashcards-cognitive)
+- [Flashcards: Developmental Psychology](psychology/flashcards-developmental)
+- [Flashcards: Social Psychology](psychology/flashcards-sociocultural)
+- [Flashcards: Abnormal Psychology](psychology/flashcards-abnormal)
+- [Practice Questions: Biological](psychology/practice-biological)
+- [Practice Questions: Cognitive](psychology/practice-cognitive)
+- [Practice Questions: Abnormal](psychology/practice-abnormal)
+- [Practice Questions: Sociocultural](psychology/practice-sociocultural)
 
 ---
 
@@ -335,7 +335,7 @@ IB Psychology covers biological, cognitive, developmental, social, and abnormal 
 
 TOK is a core component of the IB Diploma. It explores how knowledge is constructed, validated, and contested across disciplines.
 
-- [Complete TOK Guide](/ib-theory-of-knowledge) — knowledge questions, ways of knowing, areas of knowledge, the Exhibition, and the Essay
+- [Complete TOK Guide](ib-theory-of-knowledge) — knowledge questions, ways of knowing, areas of knowledge, the Exhibition, and the Essay
 
 ---
 

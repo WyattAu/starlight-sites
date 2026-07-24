@@ -907,6 +907,6 @@ linked above.
 
 ## Cross-References
 
-- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Hash functions convert keys to array indices
-- **[Graphs](../computer-science/data-structures/05-graphs):** Hash tables enable efficient graph vertex lookup
-- **[Linked Lists](../computer-science/data-structures/02-linked-lists):** Hash collisions are resolved using linked lists
+- **[Number Systems](../fundamentals/01-number-systems):** Hash functions convert keys to array indices
+- **[Graphs](05-graphs):** Hash tables enable efficient graph vertex lookup
+- **[Linked Lists](02-linked-lists):** Hash collisions are resolved using linked lists

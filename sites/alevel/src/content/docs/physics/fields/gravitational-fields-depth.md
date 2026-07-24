@@ -559,13 +559,13 @@ From Newton's apple to quantum particles, physics explains how the world works t
 
 ## Cross-References
 
-- [Mechanics](/physics/mechanics)
-- [Waves](/physics/waves)
-- [Electricity](/physics/electricity)
-- [Fields](/physics/fields)
+- [Mechanics](../mechanics)
+- [Waves](../waves)
+- [Electricity](../electricity)
+- [Fields](../fields)
 
 ## Cross-References
 
-- [Physics](/physics)
-- [Mechanics](/physics/mechanics)
-- [Fields](/physics/fields)
+- [Physics](../../physics)
+- [Mechanics](../mechanics)
+- [Fields](../fields)

@@ -667,6 +667,6 @@ automatic stabilisers than a European welfare state.
 
 ## Cross-References
 
-- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market failure analysis is key
-- **[Fiscal Policy](../economics/diagnostics/diag-fiscal-monetary-policy):** Policy addresses economic issues
-- **[Macroeconomics](../economics/flashcards-macroeconomics):** Macroeconomics covers indicators
+- **[Market Failure](diag-market-failure):** Market failure analysis is key
+- **[Fiscal Policy](diag-fiscal-monetary-policy):** Policy addresses economic issues
+- **[Macroeconomics](../flashcards-macroeconomics):** Macroeconomics covers indicators

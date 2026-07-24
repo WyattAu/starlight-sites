@@ -340,10 +340,10 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
 
 ## Cross-References
 
-- **[Multiple Integrals](4-multivariable-calculus/2_multiple-integrals.md)**: Partial derivatives and multiple integrals are linked by the fundamental theorem of calculus in higher dimensions.
-- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: The gradient, divergence, and curl are built from partial derivatives and form the core operators of vector calculus.
-- **[Optimization](4-multivariable-calculus/4_optimization.md)**: Critical points are found by setting partial derivatives to zero, and the Hessian matrix of second partials determines their nature.
-- **[Curves and Surfaces](4-multivariable-calculus/5_curves-and-surfaces.md)**: Tangent vectors and normal vectors to surfaces are computed using partial derivatives of parametrisations.
+- **[Multiple Integrals](2_multiple-integrals)**: Partial derivatives and multiple integrals are linked by the fundamental theorem of calculus in higher dimensions.
+- **[Vector Calculus](3_vector-calculus)**: The gradient, divergence, and curl are built from partial derivatives and form the core operators of vector calculus.
+- **[Optimization](4_optimization)**: Critical points are found by setting partial derivatives to zero, and the Hessian matrix of second partials determines their nature.
+- **[Curves and Surfaces](5_curves-and-surfaces)**: Tangent vectors and normal vectors to surfaces are computed using partial derivatives of parametrisations.
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

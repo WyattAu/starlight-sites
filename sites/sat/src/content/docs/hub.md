@@ -65,17 +65,17 @@ The test is divided into four content areas: Algebra, Advanced Math, Problem Sol
 
 ### Topic Notes
 
-- [Mathematics Overview](/mathematics) — section structure, scoring, and adaptive testing
-- [Algebra](/mathematics/algebra) — linear equations, inequalities, systems, and functions
-- [Data Analysis](/mathematics/data-analysis) — statistics, probability, and data interpretation
-- [Geometry](/mathematics/geometry) — angles, triangles, circles, area, volume, and coordinate geometry
+- [Mathematics Overview](mathematics) — section structure, scoring, and adaptive testing
+- [Algebra](mathematics/algebra) — linear equations, inequalities, systems, and functions
+- [Data Analysis](mathematics/data-analysis) — statistics, probability, and data interpretation
+- [Geometry](mathematics/geometry) — angles, triangles, circles, area, volume, and coordinate geometry
 
 ### Practice and Review
 
-- [Flashcards: Mathematics](/flashcards-math)
-- [Flashcards: Mathematics Advanced](/flashcards-math-advanced)
-- [Practice Questions: Mathematics](/practice-math)
-- [Diagnostic Quizzes](/mathematics) — test your strengths and weaknesses across all math topics
+- [Flashcards: Mathematics](flashcards-math)
+- [Flashcards: Mathematics Advanced](flashcards-math-advanced)
+- [Practice Questions: Mathematics](practice-math)
+- [Diagnostic Quizzes](mathematics) — test your strengths and weaknesses across all math topics
 
 ### Key Topics to Master
 
@@ -97,16 +97,16 @@ Questions are organised by passage — each passage (or pair of passages) is acc
 
 ### Topic Notes
 
-- [Reading and Writing Overview](/reading-and-writing) — section structure, question types, and scoring
-- [Reading Comprehension](/reading/comprehension) — passage analysis, inference, and evidence-based reasoning
-- [Grammar](/reading/grammar) — sentence structure, punctuation, and agreement
-- [Writing Language](/writing/language) — tone, style, and rhetorical effectiveness
-- [Writing Essay](/writing/essay) — optional essay strategies and structure
+- [Reading and Writing Overview](reading-and-writing) — section structure, question types, and scoring
+- [Reading Comprehension](reading/comprehension) — passage analysis, inference, and evidence-based reasoning
+- [Grammar](reading/grammar) — sentence structure, punctuation, and agreement
+- [Writing Language](writing/language) — tone, style, and rhetorical effectiveness
+- [Writing Essay](writing/essay) — optional essay strategies and structure
 
 ### Practice and Review
 
-- [Flashcards: Reading and Writing](/flashcards-reading-writing)
-- [Practice Questions: Reading](/practice-reading)
+- [Flashcards: Reading and Writing](flashcards-reading-writing)
+- [Practice Questions: Reading](practice-reading)
 
 ### Key Topics to Master
 

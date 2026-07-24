@@ -334,6 +334,6 @@ Maximum propagation delay: $44\text{ ns}$.
 
 ## Cross-References
 
-- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
-- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
-- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Algorithm design is central to computer science
+- **[Number Systems](../fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
+- **[Boolean Algebra](../fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
+- **[Graph Algorithms](../algorithms/03-graph-algorithms):** Algorithm design is central to computer science

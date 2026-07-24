@@ -290,8 +290,8 @@ $\limsup = 0$.
 
 ## Cross-References
 
-- **[Series](3-real-analysis/3_series.md)**: The convergence of series is defined through partial sums, making sequence convergence the foundation for all series theory.
-- **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: Pointwise and uniform convergence of function sequences extend the real-number convergence concepts to function spaces.
+- **[Series](3_series)**: The convergence of series is defined through partial sums, making sequence convergence the foundation for all series theory.
+- **[Sequences and Series of Functions](7_sequences-and-series-of-functions)**: Pointwise and uniform convergence of function sequences extend the real-number convergence concepts to function spaces.
 - **[Metric Spaces](9-topology/7_metric-spaces.md)**: The epsilon-N definition of convergence generalises to metric spaces, where completeness and compactness play analogous roles.
 - **[Probability Spaces](8-probability-and-statistics/1_probability-spaces.md)**: Convergence of random variables (almost surely, in probability, in distribution) builds on the sequence convergence framework.
 

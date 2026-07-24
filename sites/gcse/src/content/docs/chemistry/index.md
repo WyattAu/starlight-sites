@@ -166,6 +166,6 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 ## Cross-References
 
 - [Chemistry](chemistry)
-- [2 Bonding](chemistry/2-bonding/2_bonding)
+- [2 Bonding](2-bonding/2_bonding)
 - [Biology](biology)
 - [2 Organisation](biology/2-organisation/2_organisation)

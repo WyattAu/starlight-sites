@@ -1181,6 +1181,6 @@ This is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
 
 ## Cross-References
 
-- **[Pure Mathematics](../further-maths/pure-mathematics/04-further-calculus):** Continuous distributions use calculus
-- **[Further Mechanics](../further-maths/further-maths):** Exponential distributions model time between events
-- **[Pure](../further-maths/further-maths):** Further stats builds on pure maths foundations
+- **[Pure Mathematics](../pure-mathematics/04-further-calculus):** Continuous distributions use calculus
+- **[Further Mechanics](../further-maths):** Exponential distributions model time between events
+- **[Pure](../further-maths):** Further stats builds on pure maths foundations

@@ -1207,6 +1207,6 @@ Therefore $F$ is increasing and bounded above by $\pi/2$. $\blacksquare$
 
 ## Cross-References
 
-- **[Pure Mathematics](../further-maths/further-maths):** Further calculus is a core pure topic
-- **[Hyperbolic Functions](../further-maths/pure/hyperbolic-functions):** Integration covers hyperbolic functions
-- **[Differential Equations](../further-maths/diagnostics/diag-differential-equations):** Calculus solves differential equations
+- **[Pure Mathematics](../further-maths):** Further calculus is a core pure topic
+- **[Hyperbolic Functions](../pure/hyperbolic-functions):** Integration covers hyperbolic functions
+- **[Differential Equations](../diagnostics/diag-differential-equations):** Calculus solves differential equations

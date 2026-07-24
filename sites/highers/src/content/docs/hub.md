@@ -66,18 +66,18 @@ Higher Biology covers cell biology, metabolism, multicellular organisms, genetic
 
 ### Topic Notes
 
-- [Biology Overview](/biology) — course structure and assessment format
-- [Cell Biology](/biology/1-cell-biology) — cell structure, organelles, and membrane transport
-- [Metabolism](/biology/2-metabolism) — enzymes, respiration, and photosynthesis
-- [Multicellular Organisms](/biology/3-multicellular) — tissues, organ systems, and homeostasis
-- [Genetics and Adaptation](/biology/4-genetics-adaptation) — inheritance, DNA, and natural selection
-- [Evolution](/biology/5-evolution) — evidence for evolution, speciation, and classification
+- [Biology Overview](biology) — course structure and assessment format
+- [Cell Biology](biology/1-cell-biology) — cell structure, organelles, and membrane transport
+- [Metabolism](biology/2-metabolism) — enzymes, respiration, and photosynthesis
+- [Multicellular Organisms](biology/3-multicellular) — tissues, organ systems, and homeostasis
+- [Genetics and Adaptation](biology/4-genetics-adaptation) — inheritance, DNA, and natural selection
+- [Evolution](biology/5-evolution) — evidence for evolution, speciation, and classification
 
 ### Practice and Review
 
-- [Flashcards: Biology](/flashcards-biology)
-- [Practice Questions: Biology](/biology/practice-biology)
-- [Diagnostic Quizzes](/biology/diagnostics) — test across all biology topics
+- [Flashcards: Biology](flashcards-biology)
+- [Practice Questions: Biology](biology/practice-biology)
+- [Diagnostic Quizzes](biology/diagnostics) — test across all biology topics
 
 ### Key Exam Focus
 
@@ -91,18 +91,18 @@ Higher Chemistry covers structure and bonding, heat and matter, acids and bases,
 
 ### Topic Notes
 
-- [Chemistry Overview](/chemistry) — course structure and assessment format
-- [Structure and Bonding](/chemistry/1-structure-bonding) — ionic, covalent, and metallic bonding, and intermolecular forces
-- [Heat and Matter](/chemistry/2-heat-matter) — energetics, kinetics, and equilibrium
-- [Acids and Bases](/chemistry/3-acids-bases) — pH, titrations, and neutralisation reactions
-- [Organic Chemistry](/chemistry/4-organic) — hydrocarbons, alcohols, carboxylic acids, and functional groups
-- [Analytical Techniques](/chemistry/5-analytical) — chromatography, spectroscopy, and mass spectrometry
+- [Chemistry Overview](chemistry) — course structure and assessment format
+- [Structure and Bonding](chemistry/1-structure-bonding) — ionic, covalent, and metallic bonding, and intermolecular forces
+- [Heat and Matter](chemistry/2-heat-matter) — energetics, kinetics, and equilibrium
+- [Acids and Bases](chemistry/3-acids-bases) — pH, titrations, and neutralisation reactions
+- [Organic Chemistry](chemistry/4-organic) — hydrocarbons, alcohols, carboxylic acids, and functional groups
+- [Analytical Techniques](chemistry/5-analytical) — chromatography, spectroscopy, and mass spectrometry
 
 ### Practice and Review
 
-- [Flashcards: Chemistry](/flashcards-chemistry)
-- [Practice Questions: Chemistry](/chemistry/practice-chemistry)
-- [Diagnostic Quizzes](/chemistry/diagnostics) — test across all chemistry topics
+- [Flashcards: Chemistry](flashcards-chemistry)
+- [Practice Questions: Chemistry](chemistry/practice-chemistry)
+- [Diagnostic Quizzes](chemistry/diagnostics) — test across all chemistry topics
 
 ### Key Exam Focus
 
@@ -116,18 +116,18 @@ Higher Computer Science covers hardware, software, databases, algorithms, and ne
 
 ### Topic Notes
 
-- [Computer Science Overview](/computer-science) — course structure and assessment format
-- [Hardware](/computer-science/1-hardware) — computer architecture, processors, and memory
-- [Software](/computer-science/2-software) — operating systems, utilities, and application software
-- [Databases](/computer-science/3-databases) — relational databases, SQL, and data modelling
-- [Algorithms](/computer-science/4-algorithms) — searching, sorting, complexity, and pseudocode
-- [Networks](/computer-science/5-networks) — network types, protocols, and security
+- [Computer Science Overview](computer-science) — course structure and assessment format
+- [Hardware](computer-science/1-hardware) — computer architecture, processors, and memory
+- [Software](computer-science/2-software) — operating systems, utilities, and application software
+- [Databases](computer-science/3-databases) — relational databases, SQL, and data modelling
+- [Algorithms](computer-science/4-algorithms) — searching, sorting, complexity, and pseudocode
+- [Networks](computer-science/5-networks) — network types, protocols, and security
 
 ### Practice and Review
 
-- [Flashcards: Computer Science](/flashcards-computer-science)
-- [Practice Questions: Computer Science](/computer-science/practice-computer-science)
-- [Diagnostic Quizzes](/computer-science/diagnostics) — test across all computer science topics
+- [Flashcards: Computer Science](flashcards-computer-science)
+- [Practice Questions: Computer Science](computer-science/practice-computer-science)
+- [Diagnostic Quizzes](computer-science/diagnostics) — test across all computer science topics
 
 ### Key Exam Focus
 
@@ -141,18 +141,18 @@ Higher Mathematics covers algebra, trigonometry, calculus, vectors, and statisti
 
 ### Topic Notes
 
-- [Mathematics Overview](/maths) — course structure and assessment format
-- [Algebra and Functions](/maths/1-algebra-functions) — polynomials, surds, indices, and functions
-- [Trigonometry](/maths/2-trigonometry) — trigonometric identities, equations, and the sine/cosine rules
-- [Calculus](/maths/3-calculus) — differentiation, integration, and applications
-- [Vectors](/maths/4-vectors) — vector operations, scalar product, and equations of lines
-- [Statistics](/maths/5-statistics) — data analysis, probability, and normal distribution
+- [Mathematics Overview](maths) — course structure and assessment format
+- [Algebra and Functions](maths/1-algebra-functions) — polynomials, surds, indices, and functions
+- [Trigonometry](maths/2-trigonometry) — trigonometric identities, equations, and the sine/cosine rules
+- [Calculus](maths/3-calculus) — differentiation, integration, and applications
+- [Vectors](maths/4-vectors) — vector operations, scalar product, and equations of lines
+- [Statistics](maths/5-statistics) — data analysis, probability, and normal distribution
 
 ### Practice and Review
 
-- [Flashcards: Mathematics](/flashcards-mathematics)
-- [Practice Questions: Mathematics](/maths/practice-maths)
-- [Diagnostic Quizzes](/maths/diagnostics) — test across all maths topics
+- [Flashcards: Mathematics](flashcards-mathematics)
+- [Practice Questions: Mathematics](maths/practice-maths)
+- [Diagnostic Quizzes](maths/diagnostics) — test across all maths topics
 
 ### Key Exam Focus
 
@@ -166,18 +166,18 @@ Higher Physics covers mechanics, dynamics and space, electricity, particles and 
 
 ### Topic Notes
 
-- [Physics Overview](/physics) — course structure and assessment format
-- [Mechanics](/physics/1-mechanics) — motion, forces, and energy
-- [Dynamics and Space](/physics/2-dynamics-space) — Newton's laws, gravitation, and orbital motion
-- [Electricity](/physics/3-electricity) — circuits, voltage, current, and resistance
-- [Particles and Waves](/physics/4-particles-waves) — quantum phenomena, wave properties, and diffraction
-- [Waves and Radiation](/physics/5-waves-radiation) — electromagnetic spectrum, nuclear physics, and radioactivity
+- [Physics Overview](physics) — course structure and assessment format
+- [Mechanics](physics/1-mechanics) — motion, forces, and energy
+- [Dynamics and Space](physics/2-dynamics-space) — Newton's laws, gravitation, and orbital motion
+- [Electricity](physics/3-electricity) — circuits, voltage, current, and resistance
+- [Particles and Waves](physics/4-particles-waves) — quantum phenomena, wave properties, and diffraction
+- [Waves and Radiation](physics/5-waves-radiation) — electromagnetic spectrum, nuclear physics, and radioactivity
 
 ### Practice and Review
 
-- [Flashcards: Physics](/flashcards-physics)
-- [Practice Questions: Physics](/physics/practice-physics)
-- [Diagnostic Quizzes](/physics/diagnostics) — test across all physics topics
+- [Flashcards: Physics](flashcards-physics)
+- [Practice Questions: Physics](physics/practice-physics)
+- [Diagnostic Quizzes](physics/diagnostics) — test across all physics topics
 
 ### Key Exam Focus
 

@@ -186,10 +186,10 @@ String theory is one approach to quantum gravity, but there are other approaches
 
 ## Cross-References
 
-- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: The hierarchy problem and gauge coupling unification are motivations for extending the Standard Model.
-- **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: Supersymmetry solves the hierarchy problem by cancelling quadratic divergences in the Higgs mass.
-- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: Gauge coupling unification requires new physics beyond the Standard Model, such as supersymmetry.
-- **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Dark matter candidates and inflation models are extensions to the cosmological framework motivated by BSM physics.
+- **[The Standard Model](1_the-standard-model)**: The hierarchy problem and gauge coupling unification are motivations for extending the Standard Model.
+- **[The Higgs Mechanism](4_the-higgs-mechanism)**: Supersymmetry solves the hierarchy problem by cancelling quadratic divergences in the Higgs mass.
+- **[Running Coupling Constants](6_running-coupling-constants)**: Gauge coupling unification requires new physics beyond the Standard Model, such as supersymmetry.
+- **[Big Bang Cosmology](7_big-bang-cosmology)**: Dark matter candidates and inflation models are extensions to the cosmological framework motivated by BSM physics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -388,6 +388,6 @@ trade balance (after the J-curve adjustment period).
 
 ## Cross-References
 
-- **[National Income](../economics/2-macroeconomics/1-national-income):** Exchange rates affect income
-- **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Policy influences exchange rates
-- **[Barriers to Growth](../economics/4-development-economics/2-barriers-to-growth):** Volatility hinders development
+- **[National Income](../2-macroeconomics/1-national-income):** Exchange rates affect income
+- **[Fiscal Policy](../2-macroeconomics/2-fiscal-policy):** Policy influences exchange rates
+- **[Barriers to Growth](../4-development-economics/2-barriers-to-growth):** Volatility hinders development

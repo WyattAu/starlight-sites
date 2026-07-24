@@ -710,6 +710,6 @@ given. If we assume $n \geq 3$ (needed for $x^3$ term to exist), all four are va
 
 ## Cross-References
 
-- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
-- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
-- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental
+- **[Functions](diag-functions):** Functions are central
+- **[Quadratics](diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](diag-trigonometry):** Trigonometry is fundamental

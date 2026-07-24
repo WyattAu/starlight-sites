@@ -1510,6 +1510,6 @@ linked above.
 
 ## Cross-References
 
-- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market failure is a key topic
-- **[Fiscal Policy](../economics/diagnostics/diag-fiscal-monetary-policy):** Government policy addresses failures
-- **[Macroeconomics](../economics/flashcards-macroeconomics):** Macroeconomics covers policy
+- **[Market Failure](../diagnostics/diag-market-failure):** Market failure is a key topic
+- **[Fiscal Policy](../diagnostics/diag-fiscal-monetary-policy):** Government policy addresses failures
+- **[Macroeconomics](../flashcards-macroeconomics):** Macroeconomics covers policy

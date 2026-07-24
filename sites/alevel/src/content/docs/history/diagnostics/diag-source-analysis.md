@@ -113,6 +113,6 @@ Answer each question. Check your answers against the key at the end.
 
 ## Cross-References
 
-- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Source analysis supports essay writing
-- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor sources illustrate bias and propaganda
-- **[Reformation](../history/9-reformation/1_reformation):** Religious sources require careful interpretation
+- **[Essay Techniques](../11-essay-techniques/1_essay_techniques):** Source analysis supports essay writing
+- **[Tudor England](../2-tudor-england/1_tudor-england):** Tudor sources illustrate bias and propaganda
+- **[Reformation](../9-reformation/1_reformation):** Religious sources require careful interpretation

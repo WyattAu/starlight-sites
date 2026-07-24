@@ -152,4 +152,4 @@ linked above.
 
 - **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Maths encompasses pure, applied, and stats
 - **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physics
-- **[Statistics](../maths/statistics/statistics):** Statistics develops data methods
+- **[Statistics](statistics):** Statistics develops data methods

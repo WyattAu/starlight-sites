@@ -228,5 +228,5 @@ $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 ## Cross-References
 
 - **[Matrices](../further-maths/pure-mathematics/matrices):** Matrix algebra is core to further maths
-- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
-- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics
+- **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics

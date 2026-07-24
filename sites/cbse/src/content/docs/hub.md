@@ -65,21 +65,21 @@ CBSE Physics covers mechanics, electrostatics, current electricity, magnetic eff
 
 ### Topic Notes
 
-- [Mechanics](/physics/mechanics) — Newton's laws, work-energy-power, rotational motion, and gravitation
-- [Electrostatics](/physics/electrostatics) — Coulomb's law, electric fields, potential, and capacitance
-- [Current Electricity](/physics/current-electricity) — Ohm's law, Kirchhoff's laws, and electrical circuits
-- [Magnetic Effects of Current](/physics/magnetic-effects) — magnetic fields, force on moving charges, and solenoids
-- [Electromagnetic Induction](/physics/magnetic-effects) — Faraday's law, Lenz's law, and self-inductance
-- [Optics](/physics/optics) — ray optics, wave optics, reflection, refraction, and interference
-- [Dual Nature of Matter](/physics/dual-nature) — photoelectric effect, de Broglie wavelength, and matter waves
-- [Atoms and Nuclei](/physics/atoms-nuclei) — atomic models, nuclear binding energy, and radioactivity
-- [Semiconductor Devices](/physics/semiconductor) — p-n junctions, diodes, transistors, and logic gates
+- [Mechanics](physics/mechanics) — Newton's laws, work-energy-power, rotational motion, and gravitation
+- [Electrostatics](physics/electrostatics) — Coulomb's law, electric fields, potential, and capacitance
+- [Current Electricity](physics/current-electricity) — Ohm's law, Kirchhoff's laws, and electrical circuits
+- [Magnetic Effects of Current](physics/magnetic-effects) — magnetic fields, force on moving charges, and solenoids
+- [Electromagnetic Induction](physics/magnetic-effects) — Faraday's law, Lenz's law, and self-inductance
+- [Optics](physics/optics) — ray optics, wave optics, reflection, refraction, and interference
+- [Dual Nature of Matter](physics/dual-nature) — photoelectric effect, de Broglie wavelength, and matter waves
+- [Atoms and Nuclei](physics/atoms-nuclei) — atomic models, nuclear binding energy, and radioactivity
+- [Semiconductor Devices](physics/semiconductor) — p-n junctions, diodes, transistors, and logic gates
 
 ### Practice and Review
 
-- [Flashcards: Physics Class 12](/flashcards-physics-class12)
-- [Practice Questions: Physics](/practice-physics)
-- [Diagnostic Quizzes](/physics) — test across all physics topics
+- [Flashcards: Physics Class 12](flashcards-physics-class12)
+- [Practice Questions: Physics](practice-physics)
+- [Diagnostic Quizzes](physics) — test across all physics topics
 
 ### Key Exam Focus
 
@@ -93,28 +93,28 @@ CBSE Chemistry is divided into physical chemistry, organic chemistry, and inorga
 
 ### Topic Notes
 
-- [Solid State](/chemistry/solid-state) — crystal structures, unit cells, and packing efficiency
-- [Solutions](/chemistry/solutions) — colligative properties, Raoult's law, and solubility
-- [Chemical Kinetics](/chemistry/chemical-kinetics) — rate laws, activation energy, and Arrhenius equation
-- [Electrochemistry](/chemistry/electrochemistry) — galvanic cells, Nernst equation, and electrolysis
-- [Surface Chemistry](/chemistry/surface-chemistry) — adsorption, colloids, and catalysis
-- [p-Block Elements](/chemistry/p-block) — Group 13–18 elements and their compounds
-- [d-Block Elements](/chemistry/d-block) — transition metals, complexes, and their properties
-- [f-Block Elements](/chemistry/f-block) — lanthanides and actinides
-- [Coordination Compounds](/chemistry/coordination) — Werner's theory, IUPAC nomenclature, and isomerism
-- [Haloalkanes and Haloarenes](/chemistry/haloalkanes) — nucleophilic substitution and elimination reactions
-- [Alcohols, Phenols, and Ethers](/chemistry/alcohols) — preparation, reactions, and properties
-- [Aldehydes, Ketones, and Carboxylic Acids](/chemistry/aldehydes) — nomenclature, reactions, and mechanisms
-- [Amines](/chemistry/amines) — classification, basicity, and diazonium salts
-- [Biomolecules](/chemistry/biomolecules) — carbohydrates, proteins, and nucleic acids
-- [Polymers](/chemistry/polymers) — classification, polymerisation, and biodegradable polymers
-- [Chemistry in Everyday Life](/chemistry/chemistry-in-everyday) — drugs, food additives, and cleansing agents
+- [Solid State](chemistry/solid-state) — crystal structures, unit cells, and packing efficiency
+- [Solutions](chemistry/solutions) — colligative properties, Raoult's law, and solubility
+- [Chemical Kinetics](chemistry/chemical-kinetics) — rate laws, activation energy, and Arrhenius equation
+- [Electrochemistry](chemistry/electrochemistry) — galvanic cells, Nernst equation, and electrolysis
+- [Surface Chemistry](chemistry/surface-chemistry) — adsorption, colloids, and catalysis
+- [p-Block Elements](chemistry/p-block) — Group 13–18 elements and their compounds
+- [d-Block Elements](chemistry/d-block) — transition metals, complexes, and their properties
+- [f-Block Elements](chemistry/f-block) — lanthanides and actinides
+- [Coordination Compounds](chemistry/coordination) — Werner's theory, IUPAC nomenclature, and isomerism
+- [Haloalkanes and Haloarenes](chemistry/haloalkanes) — nucleophilic substitution and elimination reactions
+- [Alcohols, Phenols, and Ethers](chemistry/alcohols) — preparation, reactions, and properties
+- [Aldehydes, Ketones, and Carboxylic Acids](chemistry/aldehydes) — nomenclature, reactions, and mechanisms
+- [Amines](chemistry/amines) — classification, basicity, and diazonium salts
+- [Biomolecules](chemistry/biomolecules) — carbohydrates, proteins, and nucleic acids
+- [Polymers](chemistry/polymers) — classification, polymerisation, and biodegradable polymers
+- [Chemistry in Everyday Life](chemistry/chemistry-in-everyday) — drugs, food additives, and cleansing agents
 
 ### Practice and Review
 
-- [Flashcards: Chemistry](/flashcards-chemistry)
-- [Practice Questions: Chemistry](/practice-chemistry)
-- [Diagnostic Quizzes](/chemistry) — test across all chemistry topics
+- [Flashcards: Chemistry](flashcards-chemistry)
+- [Practice Questions: Chemistry](practice-chemistry)
+- [Diagnostic Quizzes](chemistry) — test across all chemistry topics
 
 ### Key Exam Focus
 
@@ -128,22 +128,22 @@ CBSE Mathematics covers algebra, calculus, vectors, three-dimensional geometry, 
 
 ### Topic Notes
 
-- [Relations and Functions](/mathematics/relations-functions) — types of relations, types of functions, and binary operations
-- [Inverse Trigonometric Functions](/mathematics/-inverse-trig) — domain, range, and properties
-- [Matrices](/mathematics/matrices) — types, operations, transpose, and inverse
-- [Determinants](/mathematics/determinants) — properties, adjoint, and applications to solving systems
-- [Continuity and Differentiability](/mathematics/continuity) — limits, continuity, and differentiability
-- [Derivatives](/mathematics/derivatives) — rules, chain rule, and applications
-- [Integrals](/mathematics/integrals) — indefinite and definite integrals, and applications
-- [Differential Equations](/mathematics/differential-equations) — order, degree, and solution methods
-- [Probability](/mathematics/probability) — conditional probability, Bayes' theorem, and distributions
-- [Linear Programming](/mathematics/linear-programming) — graphical method and optimisation problems
+- [Relations and Functions](mathematics/relations-functions) — types of relations, types of functions, and binary operations
+- [Inverse Trigonometric Functions](mathematics/-inverse-trig) — domain, range, and properties
+- [Matrices](mathematics/matrices) — types, operations, transpose, and inverse
+- [Determinants](mathematics/determinants) — properties, adjoint, and applications to solving systems
+- [Continuity and Differentiability](mathematics/continuity) — limits, continuity, and differentiability
+- [Derivatives](mathematics/derivatives) — rules, chain rule, and applications
+- [Integrals](mathematics/integrals) — indefinite and definite integrals, and applications
+- [Differential Equations](mathematics/differential-equations) — order, degree, and solution methods
+- [Probability](mathematics/probability) — conditional probability, Bayes' theorem, and distributions
+- [Linear Programming](mathematics/linear-programming) — graphical method and optimisation problems
 
 ### Practice and Review
 
-- [Flashcards: Mathematics Class 12](/flashcards-mathematics-class12)
-- [Practice Questions: Mathematics](/practice-maths)
-- [Diagnostic Quizzes](/mathematics) — test across all maths topics
+- [Flashcards: Mathematics Class 12](flashcards-mathematics-class12)
+- [Practice Questions: Mathematics](practice-maths)
+- [Diagnostic Quizzes](mathematics) — test across all maths topics
 
 ### Key Exam Focus
 

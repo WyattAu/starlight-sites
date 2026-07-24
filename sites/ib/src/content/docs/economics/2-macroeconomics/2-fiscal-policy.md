@@ -368,6 +368,6 @@ $200$ billion, full crowding out has occurred and the fiscal policy is ineffecti
 
 ## Cross-References
 
-- **[National Income](../economics/2-macroeconomics/1-national-income):** Fiscal policy affects national income
-- **[Market Failure](../economics/1-microeconomics/3-market-failure):** Spending addresses failures
-- **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Policy influences exchange rates
+- **[National Income](1-national-income):** Fiscal policy affects national income
+- **[Market Failure](../1-microeconomics/3-market-failure):** Spending addresses failures
+- **[Exchange Rates](../3-international-economics/2-exchange-rates):** Policy influences exchange rates

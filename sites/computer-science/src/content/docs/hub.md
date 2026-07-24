@@ -60,7 +60,7 @@ Greedy algorithms make locally optimal choices at each step. They work when the 
 
 Understanding algorithm efficiency requires knowledge of complexity theory. You will analyse time and space complexity using Big-O, Big-Omega, and Big-Theta notation, and prove lower bounds for comparison-based algorithms.
 
-Read the full guide: [Algorithms Study Guide](/1-algorithms).
+Read the full guide: [Algorithms Study Guide](1-algorithms).
 
 ## Data Structures
 
@@ -97,7 +97,7 @@ Hash tables provide O(1) average-case lookup, insertion, and deletion through ha
 
 Graphs can be represented as adjacency matrices or adjacency lists, each with different space and time trade-offs. Understanding these representations is essential for implementing graph algorithms efficiently.
 
-Read the full guide: [Data Structures Study Guide](/2-algorithms-and-data-structures).
+Read the full guide: [Data Structures Study Guide](2-algorithms-and-data-structures).
 
 ## Theory of Computation
 
@@ -135,7 +135,7 @@ Computational complexity classifies problems by the resources required to solve 
 
 The P vs NP problem, one of the Millennium Prize Problems, asks whether every problem whose solution can be quickly verified can also be quickly solved.
 
-Read the full guide: [Theory of Computation Study Guide](/6-theory-of-computation).
+Read the full guide: [Theory of Computation Study Guide](6-theory-of-computation).
 
 ## Databases
 
@@ -173,7 +173,7 @@ NoSQL databases address limitations of the relational model for certain workload
 
 Transaction management ensures data integrity in concurrent and failure-prone environments. Topics include concurrency control (two-phase locking, timestamp ordering), recovery (write-ahead logging, checkpoints), and distributed transactions.
 
-Read the full guide: [Databases Study Guide](/4-databases).
+Read the full guide: [Databases Study Guide](4-databases).
 
 ## Operating Systems
 
@@ -209,7 +209,7 @@ Operating systems manage hardware resources and provide abstractions that make s
 - **Buffering** and caching strategies
 - **DMA** (Direct Memory Access) for efficient data transfer
 
-Read the full guide: [Operating Systems Study Guide](/5-operating-systems).
+Read the full guide: [Operating Systems Study Guide](5-operating-systems).
 
 ## Computer Networks
 
@@ -245,7 +245,7 @@ Computer networks enable communication between devices across distances. Underst
 - **Replication** and fault tolerance
 - **RPC** and service-oriented architecture
 
-Read the full guide: [Computer Networks Study Guide](/3-computer-networks).
+Read the full guide: [Computer Networks Study Guide](3-computer-networks).
 
 ## Cross-Disciplinary Connections
 

@@ -764,6 +764,6 @@ $$\angle AEF = \arccos\left(\frac{\sqrt{10}}{10}\right) \approx 71.6°$$
 
 ## Cross-References
 
-- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
-- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
-- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental
+- **[Functions](diag-functions):** Functions are central
+- **[Quadratics](diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](diag-trigonometry):** Trigonometry is fundamental

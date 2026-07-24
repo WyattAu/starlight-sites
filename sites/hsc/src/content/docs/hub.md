@@ -62,14 +62,14 @@ HSC Physics covers mechanics, electricity and magnetism, waves and light, the un
 
 ### Topic Notes
 
-- [Physics Overview](/physics) — course structure, syllabus topics, and assessment format
-- [Mechanics](/physics/mechanics) — motion, forces, energy, momentum, and circular motion
-- [Waves](/physics/waves) — wave properties, sound, electromagnetic waves, and diffraction
+- [Physics Overview](physics) — course structure, syllabus topics, and assessment format
+- [Mechanics](physics/mechanics) — motion, forces, energy, momentum, and circular motion
+- [Waves](physics/waves) — wave properties, sound, electromagnetic waves, and diffraction
 
 ### Practice and Review
 
-- [Flashcards: Physics](/flashcards-physics)
-- [Practice Questions: Physics](/practice-physics)
+- [Flashcards: Physics](flashcards-physics)
+- [Practice Questions: Physics](practice-physics)
 
 ### Key Exam Focus
 
@@ -97,14 +97,14 @@ HSC Mathematics is available in three levels: General Mathematics, Mathematics (
 
 ### Topic Notes
 
-- [Mathematics Overview](/mathematics) — course structure, syllabus topics, and assessment format
-- [Algebra](/mathematics/algebra) — algebraic manipulation, functions, and equations
-- [Calculus](/mathematics/calculus) — differentiation, integration, and applications
+- [Mathematics Overview](mathematics) — course structure, syllabus topics, and assessment format
+- [Algebra](mathematics/algebra) — algebraic manipulation, functions, and equations
+- [Calculus](mathematics/calculus) — differentiation, integration, and applications
 
 ### Practice and Review
 
-- [Practice Questions: Mathematics](/practice-mathematics)
-- [Diagnostic Quizzes](/mathematics) — test across all maths topics
+- [Practice Questions: Mathematics](practice-mathematics)
+- [Diagnostic Quizzes](mathematics) — test across all maths topics
 
 ### Key Exam Focus
 

@@ -614,7 +614,7 @@ necessary but not Sufficient for malignancy.
 | Function               | Growth, repair, asexual reproduction | Production of gametes for sexual reproduction |
 
 For a detailed treatment of meiosis with genetic cross analysis, see
-[Genetics and DNA](/biology/genetics-and-dna).
+[Genetics and DNA](genetics-and-dna).
 
 ### 11.2 The Significance of Meiosis
 
@@ -832,7 +832,7 @@ released when two Phosphate groups are cleaved from each dNTP provides the energ
 phosphodiester bond.
 
 <b>If you get this wrong, revise:</b> [Cell Membranes](#5-cell-membranes) and
-[DNA Replication](/biology/genetics-and-dna)
+[DNA Replication](genetics-and-dna)
 
 </details>
 
@@ -2028,6 +2028,6 @@ linked above.
 
 ## Cross-References
 
-- [Biology](/biology)
-- [Cells](/biology/cells)
-- [Genetics and DNA](/biology/genetics-and-dna)
+- [Biology](../biology)
+- [Cells](cells)
+- [Genetics and DNA](genetics-and-dna)

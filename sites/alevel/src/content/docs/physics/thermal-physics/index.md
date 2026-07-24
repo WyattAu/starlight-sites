@@ -154,7 +154,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 ## Cross-References
 
-- [Mechanics](/physics/mechanics)
-- [Waves](/physics/waves)
-- [Electricity](/physics/electricity)
-- [Fields](/physics/fields)
+- [Mechanics](../mechanics)
+- [Waves](../waves)
+- [Electricity](../electricity)
+- [Fields](../fields)

@@ -148,10 +148,10 @@ Differential equations describe how things change. An ODE relates a function to 
 
 ## Cross-References
 
-- **[First-Order ODEs](5-ordinary-differential-equations/2_first-order-odes.md)**: First-order equations are the building blocks for understanding higher-order ODEs and their classification.
-- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The harmonic oscillator and other second-order examples illustrate the classification scheme introduced here.
-- **[Introduction to Partial Differential Equations](5-ordinary-differential-equations/8_introduction-to-partial-differential-equations.md)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
-- **[Stability and Phase Plane Analysis](5-ordinary-differential-equations/9_stability-and-phase-plane-analysis.md)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
+- **[First-Order ODEs](2_first-order-odes)**: First-order equations are the building blocks for understanding higher-order ODEs and their classification.
+- **[Second-Order Linear ODEs](3_second-order-linear-odes)**: The harmonic oscillator and other second-order examples illustrate the classification scheme introduced here.
+- **[Introduction to Partial Differential Equations](8_introduction-to-partial-differential-equations)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
+- **[Stability and Phase Plane Analysis](9_stability-and-phase-plane-analysis)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
 
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

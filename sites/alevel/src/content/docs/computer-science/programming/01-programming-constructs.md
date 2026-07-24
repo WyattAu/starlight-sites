@@ -959,6 +959,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- **[OOP](../computer-science/programming/02-object-oriented-programming):** OOP extends procedural constructs
-- **[Data Structures](../computer-science/data-structures/05-graphs):** Programming manipulates data structures
-- **[Algorithms](../computer-science/algorithms/03-graph-algorithms):** Programming implements algorithms
+- **[OOP](02-object-oriented-programming):** OOP extends procedural constructs
+- **[Data Structures](../data-structures/05-graphs):** Programming manipulates data structures
+- **[Algorithms](../algorithms/03-graph-algorithms):** Programming implements algorithms

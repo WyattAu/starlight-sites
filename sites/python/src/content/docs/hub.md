@@ -68,18 +68,18 @@ Python fundamentals cover the syntax, data types, control flow, and functions th
 
 ### Topic Notes
 
-- [Types and Variables](/02-fundamentals/01-types-and-variables) — dynamic typing, type hints, mutability, and variable scope
-- [Control Flow](/02-fundamentals/02-control-flow) — if/elif/else, for/while loops, comprehensions, and match statements
-- [Functions](/02-fundamentals/03-functions) — parameters, return types, decorators, and closures
-- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators) — yield, iterator protocol, and lazy evaluation
-- [Python Internals](/02-fundamentals/05-python-internals) — the GIL, bytecode compilation, and the CPython runtime
-- [Modules and Packages](/02-fundamentals/06-modules-and-packages) — imports, packages, virtual environments, and dependency management
+- [Types and Variables](02-fundamentals/01-types-and-variables) — dynamic typing, type hints, mutability, and variable scope
+- [Control Flow](02-fundamentals/02-control-flow) — if/elif/else, for/while loops, comprehensions, and match statements
+- [Functions](02-fundamentals/03-functions) — parameters, return types, decorators, and closures
+- [Generators and Iterators](02-fundamentals/04-generators-and-iterators) — yield, iterator protocol, and lazy evaluation
+- [Python Internals](02-fundamentals/05-python-internals) — the GIL, bytecode compilation, and the CPython runtime
+- [Modules and Packages](02-fundamentals/06-modules-and-packages) — imports, packages, virtual environments, and dependency management
 
 ### Practice and Review
 
-- [Flashcards: Python Basics](/flashcards-python-basics)
-- [Practice Questions: Python Basics](/practice-python-basics)
-- [Interactive Practice](/practice-interactive)
+- [Flashcards: Python Basics](flashcards-python-basics)
+- [Practice Questions: Python Basics](practice-python-basics)
+- [Interactive Practice](practice-interactive)
 
 ### Key Concepts
 
@@ -97,12 +97,12 @@ Python's standard library provides powerful built-in data structures. Understand
 
 ### Topic Notes
 
-- [Collections](/03-data-structures/01-collections) — lists, tuples, deques, and named tuples
-- [Dictionaries, Sets, and Counter](/03-data-structures/02-dicts-sets-counter) — hash tables, set operations, and counting patterns
+- [Collections](03-data-structures/01-collections) — lists, tuples, deques, and named tuples
+- [Dictionaries, Sets, and Counter](03-data-structures/02-dicts-sets-counter) — hash tables, set operations, and counting patterns
 
 ### Practice and Review
 
-- [Practice Questions: Data Structures](/practice-data-structures)
+- [Practice Questions: Data Structures](practice-data-structures)
 
 ### Key Concepts
 
@@ -122,9 +122,9 @@ Python supports object-oriented programming through classes, inheritance, and pr
 
 ### Topic Notes
 
-- [Classes](/04-object-oriented/01-classes) — class definition, __init__, __str__, __repr__, and special methods
-- [Metaclasses](/04-object-oriented/02-metaclasses) — type, class creation, and custom metaclasses
-- [Descriptors](/04-object-oriented/03-descriptors) — __get__, __set__, __delete__, and how attributes work under the hood
+- [Classes](04-object-oriented/01-classes) — class definition, __init__, __str__, __repr__, and special methods
+- [Metaclasses](04-object-oriented/02-metaclasses) — type, class creation, and custom metaclasses
+- [Descriptors](04-object-oriented/03-descriptors) — __get__, __set__, __delete__, and how attributes work under the hood
 
 ### Key Concepts
 
@@ -142,11 +142,11 @@ Python's standard library is one of its greatest strengths. It provides modules 
 
 ### Topic Notes
 
-- [Essential Modules](/05-standard-library/01-essential-modules) — os, sys, pathlib, collections, itertools, functools
-- [File I/O](/05-standard-library/02-file-io) — open, io, csv, json, and file system operations
-- [CLI Tools](/05-standard-library/03-cli-tools) — argparse, sys.argv, and command-line interfaces
-- [Serialisation](/05-standard-library/04-serialization) — json, pickle, csv, and data exchange formats
-- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives) — threading, multiprocessing, subprocess, and queue
+- [Essential Modules](05-standard-library/01-essential-modules) — os, sys, pathlib, collections, itertools, functools
+- [File I/O](05-standard-library/02-file-io) — open, io, csv, json, and file system operations
+- [CLI Tools](05-standard-library/03-cli-tools) — argparse, sys.argv, and command-line interfaces
+- [Serialisation](05-standard-library/04-serialization) — json, pickle, csv, and data exchange formats
+- [Concurrency Primitives](05-standard-library/05-concurrency-primitives) — threading, multiprocessing, subprocess, and queue
 
 ### Key Concepts
 
@@ -164,7 +164,7 @@ Python's async/await syntax enables cooperative multitasking for I/O-bound workl
 
 ### Topic Notes
 
-- [Async/Await](/06-async/01-async-await) — coroutines, event loops, asyncio, and async patterns
+- [Async/Await](06-async/01-async-await) — coroutines, event loops, asyncio, and async patterns
 
 ### Key Concepts
 
@@ -182,10 +182,10 @@ Writing correct Python code is not enough — you must write code that is readab
 
 ### Topic Notes
 
-- [Style and Idioms](/07-best-practices/01-style-and-idioms) — PEP 8, Pythonic patterns, and idiomatic code
-- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling) — pdb, logging, cProfile, and performance analysis
-- [Error Handling Patterns](/07-best-practices/03-error-handling-patterns) — exceptions, custom errors, and graceful degradation
-- [Packaging and Distribution](/07-best-practices/04-packaging-distribution) — pyproject.toml, setuptools, and publishing packages
+- [Style and Idioms](07-best-practices/01-style-and-idioms) — PEP 8, Pythonic patterns, and idiomatic code
+- [Debugging and Profiling](07-best-practices/02-debugging-and-profiling) — pdb, logging, cProfile, and performance analysis
+- [Error Handling Patterns](07-best-practices/03-error-handling-patterns) — exceptions, custom errors, and graceful degradation
+- [Packaging and Distribution](07-best-practices/04-packaging-distribution) — pyproject.toml, setuptools, and publishing packages
 
 ### Key Concepts
 
@@ -203,10 +203,10 @@ These topics cover Python's deeper layers — type systems, data validation, con
 
 ### Topic Notes
 
-- [Advanced Typing](/08-advanced-topics/01-advanced-typing) — generics, protocols, TypeVar, and runtime type checking
-- [Data Validation](/08-advanced-topics/02-data-validation) — Pydantic, dataclasses, and schema validation
-- [Context Managers](/08-advanced-topics/03-context-managers) — with statement, __enter__/__exit__, and contextlib
-- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods) — structural subtyping and Python's data model
+- [Advanced Typing](08-advanced-topics/01-advanced-typing) — generics, protocols, TypeVar, and runtime type checking
+- [Data Validation](08-advanced-topics/02-data-validation) — Pydantic, dataclasses, and schema validation
+- [Context Managers](08-advanced-topics/03-context-managers) — with statement, __enter__/__exit__, and contextlib
+- [Protocols and Dunder Methods](08-advanced-topics/04-protocols-dunder-methods) — structural subtyping and Python's data model
 
 ### Key Concepts
 

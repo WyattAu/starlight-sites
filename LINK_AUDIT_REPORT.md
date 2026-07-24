@@ -7,47 +7,47 @@ Generated: 2026-07-24
 | Metric | Count |
 |--------|-------|
 | Sites scanned | 46 |
-| Total pages | 3256 |
-| Total internal links | 13339 |
+| Total pages | 3266 |
+| Total internal links | 13694 |
 | Orphan pages (0 links) | 498 |
 | Thin-linked pages (<3 links) | 645 |
-| Cross-site links | 1796 |
-| Broken links | 6534 |
+| Cross-site links | 1853 |
+| Broken links | 5812 |
 
 ## Per-Site Breakdown
 
 | Site | Pages | Links | Orphans | Thin | Broken |
 |------|-------|-------|---------|------|--------|
-| alevel | 443 | 1706 | 82 | 54 | 946 |
-| ib | 392 | 1870 | 76 | 42 | 382 |
+| alevel | 443 | 1706 | 82 | 54 | 652 |
+| ib | 392 | 1870 | 76 | 42 | 286 |
 | languages | 270 | 778 | 65 | 55 | 400 |
-| dse | 227 | 914 | 45 | 37 | 318 |
-| mathematics | 168 | 1249 | 7 | 6 | 631 |
+| dse | 227 | 914 | 45 | 37 | 181 |
+| mathematics | 168 | 1249 | 7 | 6 | 556 |
+| cpp | 161 | 828 | 17 | 20 | 609 |
 | programming | 161 | 1086 | 19 | 22 | 561 |
-| cpp | 160 | 788 | 17 | 20 | 609 |
-| physics | 144 | 1057 | 10 | 15 | 524 |
+| physics | 144 | 1057 | 10 | 15 | 444 |
 | ap | 124 | 410 | 3 | 54 | 191 |
 | computer-science | 119 | 459 | 36 | 13 | 259 |
-| gcse | 118 | 366 | 21 | 46 | 191 |
-| tools | 96 | 285 | 12 | 31 | 184 |
-| highers | 79 | 208 | 7 | 30 | 114 |
-| leaving-cert | 78 | 198 | 8 | 30 | 153 |
-| cbse | 56 | 202 | 3 | 0 | 146 |
+| gcse | 118 | 366 | 21 | 46 | 180 |
+| tools | 96 | 285 | 12 | 31 | 181 |
+| highers | 80 | 259 | 7 | 30 | 109 |
+| leaving-cert | 79 | 249 | 8 | 30 | 149 |
+| cbse | 57 | 251 | 3 | 0 | 146 |
 | java | 44 | 138 | 6 | 11 | 88 |
-| python | 40 | 136 | 1 | 7 | 89 |
-| dart | 37 | 101 | 3 | 12 | 46 |
+| python | 41 | 171 | 1 | 7 | 89 |
+| dart | 37 | 101 | 3 | 12 | 40 |
 | chemistry | 34 | 151 | 8 | 0 | 63 |
-| networking | 33 | 84 | 2 | 9 | 61 |
+| networking | 34 | 118 | 2 | 9 | 61 |
 | go | 32 | 117 | 2 | 0 | 77 |
-| linux | 31 | 94 | 1 | 16 | 28 |
-| security | 31 | 71 | 3 | 19 | 49 |
+| security | 32 | 103 | 3 | 19 | 47 |
+| linux | 31 | 94 | 1 | 16 | 25 |
 | rust | 30 | 95 | 1 | 9 | 58 |
-| databases | 26 | 80 | 1 | 8 | 58 |
+| databases | 27 | 108 | 1 | 8 | 58 |
 | gaokao | 24 | 65 | 1 | 7 | 43 |
 | kotlin | 24 | 69 | 3 | 7 | 38 |
+| sat | 23 | 90 | 3 | 3 | 8 |
 | truenas | 23 | 51 | 2 | 10 | 4 |
-| sat | 22 | 70 | 3 | 3 | 14 |
-| hsc | 21 | 63 | 1 | 10 | 7 |
+| hsc | 22 | 78 | 1 | 10 | 7 |
 | haskell | 20 | 47 | 4 | 8 | 27 |
 | tuning | 20 | 42 | 2 | 9 | 29 |
 | ruby | 19 | 51 | 1 | 10 | 28 |
@@ -1246,8 +1246,13 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | ap | physics | 1 |
 | ap | sat | 2 |
 | ap | wyattsnotes | 1 |
+| cbse | chemistry | 1 |
+| cbse | computer-science | 1 |
 | cbse | dse | 1 |
 | cbse | gaokao | 1 |
+| cbse | mathematics | 1 |
+| cbse | null | 1 |
+| cbse | physics | 1 |
 | cbse | sat | 1 |
 | cbse | wyattsnotes | 1 |
 | chemistry | ap | 1 |
@@ -1271,17 +1276,27 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | computer-science | programming | 74 |
 | computer-science | tools | 1 |
 | computer-science | wyattsnotes | 1 |
-| cpp | computer-science | 1 |
+| cpp | computer-science | 2 |
+| cpp | databases | 1 |
 | cpp | languages | 3 |
+| cpp | mathematics | 1 |
+| cpp | networking | 1 |
+| cpp | null | 1 |
 | cpp | programming | 4 |
+| cpp | python | 1 |
 | cpp | rust | 1 |
 | cpp | wyattsnotes | 1 |
 | dart | kotlin | 1 |
 | dart | programming | 1 |
 | dart | swift | 1 |
 | dart | wyattsnotes | 1 |
-| databases | computer-science | 1 |
+| databases | computer-science | 2 |
+| databases | cpp | 1 |
+| databases | networking | 1 |
+| databases | null | 1 |
 | databases | programming | 1 |
+| databases | python | 1 |
+| databases | security | 1 |
 | databases | tools | 1 |
 | databases | wyattsnotes | 1 |
 | driving-eu | driving-uk | 1 |
@@ -1328,13 +1343,18 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | haskell | elixir | 1 |
 | haskell | programming | 1 |
 | haskell | wyattsnotes | 1 |
-| highers | alevel | 1 |
-| highers | gcse | 1 |
-| highers | ib | 1 |
+| highers | alevel | 2 |
+| highers | gcse | 2 |
+| highers | ib | 2 |
+| highers | mathematics | 1 |
+| highers | null | 1 |
+| highers | physics | 1 |
 | highers | wyattsnotes | 1 |
-| hsc | ap | 1 |
-| hsc | ib | 1 |
-| hsc | physics | 1 |
+| hsc | ap | 2 |
+| hsc | ib | 2 |
+| hsc | mathematics | 1 |
+| hsc | null | 1 |
+| hsc | physics | 2 |
 | hsc | wyattsnotes | 1 |
 | ib | alevel | 37 |
 | ib | dse | 56 |
@@ -1372,9 +1392,12 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | languages | swift | 1 |
 | languages | typescript | 1 |
 | languages | wyattsnotes | 1 |
-| leaving-cert | alevel | 1 |
-| leaving-cert | gcse | 1 |
-| leaving-cert | ib | 1 |
+| leaving-cert | alevel | 2 |
+| leaving-cert | gcse | 2 |
+| leaving-cert | ib | 2 |
+| leaving-cert | mathematics | 1 |
+| leaving-cert | null | 1 |
+| leaving-cert | physics | 1 |
 | leaving-cert | wyattsnotes | 1 |
 | licensing | computer-science | 1 |
 | licensing | programming | 1 |
@@ -1396,8 +1419,13 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | mathematics | physics | 347 |
 | mathematics | programming | 1 |
 | mathematics | wyattsnotes | 1 |
+| networking | computer-science | 1 |
+| networking | cpp | 1 |
+| networking | databases | 1 |
 | networking | linux | 1 |
-| networking | security | 1 |
+| networking | null | 1 |
+| networking | python | 1 |
+| networking | security | 2 |
 | networking | tools | 1 |
 | networking | wyattsnotes | 1 |
 | physics | chemistry | 1 |
@@ -1424,9 +1452,13 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | programming | physics | 1 |
 | programming | programming | 3 |
 | programming | wyattsnotes | 1 |
-| python | computer-science | 2 |
-| python | databases | 1 |
+| python | computer-science | 3 |
+| python | cpp | 1 |
+| python | databases | 2 |
+| python | languages | 1 |
 | python | machine-learning | 1 |
+| python | networking | 1 |
+| python | null | 1 |
 | python | programming | 1 |
 | python | wyattsnotes | 1 |
 | ruby | databases | 1 |
@@ -1438,11 +1470,20 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | rust | programming | 3 |
 | rust | wyattsnotes | 1 |
 | sat | admissions | 1 |
-| sat | ap | 1 |
+| sat | ap | 2 |
+| sat | gcse | 1 |
 | sat | language-tests | 1 |
+| sat | languages | 1 |
+| sat | mathematics | 1 |
+| sat | null | 1 |
 | sat | wyattsnotes | 1 |
+| security | computer-science | 1 |
+| security | cpp | 1 |
+| security | databases | 1 |
 | security | linux | 1 |
-| security | networking | 1 |
+| security | networking | 2 |
+| security | null | 1 |
+| security | python | 1 |
 | security | tools | 1 |
 | security | wyattsnotes | 1 |
 | swift | dart | 1 |
@@ -1498,6 +1539,11 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | `cbse/src/content/docs/about.md:36` | https://gaokao.wyattau.com | 36 |
 | `cbse/src/content/docs/about.md:37` | https://sat.wyattau.com | 37 |
 | `cbse/src/content/docs/about.md:43` | https://wyattsnotes.wyattau.com | 43 |
+| `cbse/src/content/docs/hub.md:215` | https://physics.wyattau.com/hub | 215 |
+| `cbse/src/content/docs/hub.md:216` | https://mathematics.wyattau.com/hub | 216 |
+| `cbse/src/content/docs/hub.md:217` | https://chemistry.wyattau.com/hub | 217 |
+| `cbse/src/content/docs/hub.md:218` | https://computer-science.wyattau.com/hub | 218 |
+| `cbse/src/content/docs/hub.md:252` | https://wyattau.com | 252 |
 | `chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics.md:515` | https://physics.wyattau.com/docs/thermodynamics | 515 |
 | `chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics.md:516` | https://mathematics.wyattau.com/docs/calculus | 516 |
 | `chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics.md:517` | https://physics.wyattau.com/docs/quantum-mechanics | 517 |
@@ -1565,13 +1611,8 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | `chemistry/src/content/docs/intro.md:67` | https://physics.wyattau.com/docs/thermodynamics | 67 |
 | `chemistry/src/content/docs/intro.md:68` | https://mathematics.wyattau.com/docs/calculus | 68 |
 | `chemistry/src/content/docs/intro.md:69` | https://physics.wyattau.com/docs/quantum-mechanics | 69 |
-| `chemistry/src/content/docs/intro.md:70` | https://mathematics.wyattau.com/docs/linear-algebra | 70 |
-| `civics-tests/src/content/docs/about.md:36` | https://driving-us.wyattau.com | 36 |
-| `civics-tests/src/content/docs/about.md:37` | https://language-tests.wyattau.com | 37 |
-| `civics-tests/src/content/docs/about.md:38` | https://admissions.wyattau.com | 38 |
-| `civics-tests/src/content/docs/about.md:44` | https://wyattsnotes.wyattau.com | 44 |
 
-_... and 1696 more cross-site links._
+_... and 1753 more cross-site links._
 
 ## Broken Links
 
@@ -1602,82 +1643,82 @@ These relative/absolute links do not resolve to an existing content file.
 | admissions | `admissions/src/content/docs/tmua-preparation.md:578` | 578 | `/docs/university/admissions/step-preparation` | `sites/admissions/src/content/docs/docs/university/admissions/step-preparation` |
 | admissions | `admissions/src/content/docs/tmua-preparation.md:579` | 579 | `/docs/university/mathematics/probability` | `sites/admissions/src/content/docs/docs/university/mathematics/probability` |
 | admissions | `admissions/src/content/docs/tmua-preparation.md:580` | 580 | `/docs/university/mathematics/real-analysis` | `sites/admissions/src/content/docs/docs/university/mathematics/real-analysis` |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-biological-molecules.md:445` | 445 | `../biology/flashcards-cell-biology` | `sites/alevel/src/content/docs/biology/biology/flashcards-cell-biology` |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-biological-molecules.md:446` | 446 | `../biology/diagnostics/diag-ecology` | `sites/alevel/src/content/docs/biology/biology/diagnostics/diag-ecology` |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-ecology.md:643` | 643 | `../biology/diagnostics/diag-biological-molecules` | `sites/alevel/src/content/docs/biology/biology/diagnostics/diag-biological-molecules` |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-ecology.md:644` | 644 | `../biology/flashcards-cell-biology` | `sites/alevel/src/content/docs/biology/biology/flashcards-cell-biology` |
 | alevel | `alevel/src/content/docs/chemistry/chemistry.md:60` | 60 | `../../../../../university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md` | `sites/university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md` |
 | alevel | `alevel/src/content/docs/chemistry/chemistry.md:62` | 62 | `../../../../../dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium.md` | `sites/dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium.md` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-acids-bases.md:481` | 481 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-acids-bases.md:482` | 482 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-acids-bases.md:483` | 483 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-electrochemistry.md:515` | 515 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-electrochemistry.md:516` | 516 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-electrochemistry.md:517` | 517 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-equilibrium.md:535` | 535 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-equilibrium.md:536` | 536 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-equilibrium.md:537` | 537 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-halogenoalkanes-alcohols.md:530` | 530 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-halogenoalkanes-alcohols.md:531` | 531 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-halogenoalkanes-alcohols.md:532` | 532 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-kinetics.md:504` | 504 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-kinetics.md:505` | 505 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-kinetics.md:506` | 506 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-organic-introduction.md:468` | 468 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-organic-introduction.md:469` | 469 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-organic-introduction.md:470` | 470 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-quantitative-chemistry.md:437` | 437 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-quantitative-chemistry.md:438` | 438 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-quantitative-chemistry.md:439` | 439 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-thermodynamics.md:463` | 463 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-thermodynamics.md:464` | 464 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-thermodynamics.md:465` | 465 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-transition-metals.md:437` | 437 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-transition-metals.md:438` | 438 | `../chemistry/flashcards-physical-chemistry` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-physical-chemistry` |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-transition-metals.md:439` | 439 | `../chemistry/flashcards-atomic-structure` | `sites/alevel/src/content/docs/chemistry/chemistry/flashcards-atomic-structure` |
 | alevel | `alevel/src/content/docs/chemistry/equilibrium.md:207` | 207 | `../../../../../university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md` | `sites/university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alcohols.md:908` | 908 | `../chemistry/organic-chemistry/alkanes` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alkanes` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alcohols.md:909` | 909 | `../chemistry/organic-chemistry/alkenes` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alkenes` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alcohols.md:910` | 910 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkanes.md:968` | 968 | `../chemistry/organic-chemistry/alkenes` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alkenes` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkanes.md:969` | 969 | `../chemistry/organic-chemistry/alcohols` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alcohols` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkanes.md:970` | 970 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
 | alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkenes.md:39` | 39 | `../organic-chemistry.md` | `sites/alevel/src/content/docs/chemistry/organic-chemistry.md` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkenes.md:880` | 880 | `../chemistry/organic-chemistry/alcohols` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alcohols` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkenes.md:881` | 881 | `../chemistry/organic-chemistry/alkanes` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alkanes` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/alkenes.md:882` | 882 | `../chemistry/organic-chemistry/introduction` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/introduction` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/introduction.md:1091` | 1091 | `../chemistry/organic-chemistry/alkanes` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alkanes` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/introduction.md:1092` | 1092 | `../chemistry/organic-chemistry/alkenes` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alkenes` |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/introduction.md:1093` | 1093 | `../chemistry/organic-chemistry/alcohols` | `sites/alevel/src/content/docs/chemistry/chemistry/organic-chemistry/alcohols` |
-| alevel | `alevel/src/content/docs/chemistry/physical-chemistry-extra/entropy-and-gibbs.md:867` | 867 | `../chemistry/diagnostics/diag-equilibrium` | `sites/alevel/src/content/docs/chemistry/chemistry/diagnostics/diag-equilibrium` |
-| alevel | `alevel/src/content/docs/chemistry/physical-chemistry-extra/entropy-and-gibbs.md:868` | 868 | `../chemistry/diagnostics/diag-kinetics` | `sites/alevel/src/content/docs/chemistry/chemistry/diagnostics/diag-kinetics` |
-| alevel | `alevel/src/content/docs/chemistry/physical-chemistry-extra/entropy-and-gibbs.md:869` | 869 | `../chemistry/diagnostics/diag-thermodynamics` | `sites/alevel/src/content/docs/chemistry/chemistry/diagnostics/diag-thermodynamics` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/01-searching-algorithms.md:391` | 391 | `/computer-science/algorithms/sorting-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/sorting-algorithms` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/02-sorting-algorithms.md:554` | 554 | `/computer-science/data-structures/trees` | `sites/alevel/src/content/docs/computer-science/data-structures/trees` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/02-sorting-algorithms.md:555` | 555 | `/computer-science/data-structures/linked-lists` | `sites/alevel/src/content/docs/computer-science/data-structures/linked-lists` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms.md:25` | 25 | `/computer-science/data-structures/graphs` | `sites/alevel/src/content/docs/computer-science/data-structures/graphs` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms.md:107` | 107 | `/computer-science/data-structures/graphs` | `sites/alevel/src/content/docs/computer-science/data-structures/graphs` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms.md:485` | 485 | `/computer-science/data-structures/graphs` | `sites/alevel/src/content/docs/computer-science/data-structures/graphs` |
-| alevel | `alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms.md:930` | 930 | `../computer-science/data-structures/05-graphs` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/05-graphs` |
-| alevel | `alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms.md:931` | 931 | `../computer-science/fundamentals/01-number-systems` | `sites/alevel/src/content/docs/computer-science/computer-science/fundamentals/01-number-systems` |
-| alevel | `alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms.md:932` | 932 | `../computer-science/data-structures/06-hash-tables` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/06-hash-tables` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/04-complexity-analysis.md:178` | 178 | `/computer-science/data-structures/arrays-and-records` | `sites/alevel/src/content/docs/computer-science/data-structures/arrays-and-records` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/04-complexity-analysis.md:431` | 431 | `/computer-science/algorithms/sorting-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/sorting-algorithms` |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/04-complexity-analysis.md:432` | 432 | `/computer-science/algorithms/searching-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/searching-algorithms` |
 | alevel | `alevel/src/content/docs/computer-science/data-structures/01-arrays-and-records.md:420` | 420 | `/computer-science/algorithms/searching-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/searching-algorithms` |
 | alevel | `alevel/src/content/docs/computer-science/data-structures/02-linked-lists.md:501` | 501 | `/computer-science/data-structures/stacks-and-queues` | `sites/alevel/src/content/docs/computer-science/data-structures/stacks-and-queues` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/02-linked-lists.md:888` | 888 | `../computer-science/data-structures/03-stacks-and-queues` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/03-stacks-and-queues` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/02-linked-lists.md:889` | 889 | `../computer-science/data-structures/05-graphs` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/05-graphs` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/02-linked-lists.md:890` | 890 | `../computer-science/fundamentals/01-number-systems` | `sites/alevel/src/content/docs/computer-science/computer-science/fundamentals/01-number-systems` |
 | alevel | `alevel/src/content/docs/computer-science/data-structures/03-stacks-and-queues.md:342` | 342 | `/computer-science/data-structures/graphs` | `sites/alevel/src/content/docs/computer-science/data-structures/graphs` |
 | alevel | `alevel/src/content/docs/computer-science/data-structures/03-stacks-and-queues.md:607` | 607 | `/computer-science/algorithms/complexity-analysis` | `sites/alevel/src/content/docs/computer-science/algorithms/complexity-analysis` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/03-stacks-and-queues.md:990` | 990 | `../computer-science/data-structures/02-linked-lists` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/02-linked-lists` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/03-stacks-and-queues.md:991` | 991 | `../computer-science/data-structures/05-graphs` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/05-graphs` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/03-stacks-and-queues.md:992` | 992 | `../computer-science/fundamentals/01-number-systems` | `sites/alevel/src/content/docs/computer-science/computer-science/fundamentals/01-number-systems` |
 | alevel | `alevel/src/content/docs/computer-science/data-structures/04-trees.md:587` | 587 | `/computer-science/algorithms/sorting-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/sorting-algorithms` |
 | alevel | `alevel/src/content/docs/computer-science/data-structures/05-graphs.md:655` | 655 | `/computer-science/algorithms/graph-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/graph-algorithms` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/05-graphs.md:692` | 692 | `../computer-science/algorithms/03-graph-algorithms` | `sites/alevel/src/content/docs/computer-science/computer-science/algorithms/03-graph-algorithms` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/05-graphs.md:693` | 693 | `../computer-science/data-structures/02-linked-lists` | `sites/alevel/src/content/docs/computer-science/computer-science/data-structures/02-linked-lists` |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/05-graphs.md:694` | 694 | `../computer-science/fundamentals/01-number-systems` | `sites/alevel/src/content/docs/computer-science/computer-science/fundamentals/01-number-systems` |
+| alevel | `alevel/src/content/docs/computer-science/data-structures/06-hash-tables.md:458` | 458 | `/computer-science/algorithms/complexity-analysis` | `sites/alevel/src/content/docs/computer-science/algorithms/complexity-analysis` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:42` | 42 | `/computer-science/fundamentals/number-systems` | `sites/alevel/src/content/docs/computer-science/fundamentals/number-systems` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:53` | 53 | `/computer-science/fundamentals/number-systems` | `sites/alevel/src/content/docs/computer-science/fundamentals/number-systems` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:64` | 64 | `/computer-science/fundamentals/number-systems` | `sites/alevel/src/content/docs/computer-science/fundamentals/number-systems` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:75` | 75 | `/computer-science/fundamentals/boolean-algebra` | `sites/alevel/src/content/docs/computer-science/fundamentals/boolean-algebra` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:88` | 88 | `/computer-science/fundamentals/computer-architecture` | `sites/alevel/src/content/docs/computer-science/fundamentals/computer-architecture` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:104` | 104 | `/computer-science/data-structures/arrays-and-records` | `sites/alevel/src/content/docs/computer-science/data-structures/arrays-and-records` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:117` | 117 | `/computer-science/data-structures/linked-lists` | `sites/alevel/src/content/docs/computer-science/data-structures/linked-lists` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:130` | 130 | `/computer-science/data-structures/stacks-and-queues` | `sites/alevel/src/content/docs/computer-science/data-structures/stacks-and-queues` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:141` | 141 | `/computer-science/data-structures/trees` | `sites/alevel/src/content/docs/computer-science/data-structures/trees` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:153` | 153 | `/computer-science/data-structures/graphs` | `sites/alevel/src/content/docs/computer-science/data-structures/graphs` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:164` | 164 | `/computer-science/data-structures/hash-tables` | `sites/alevel/src/content/docs/computer-science/data-structures/hash-tables` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:179` | 179 | `/computer-science/algorithms/searching-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/searching-algorithms` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:191` | 191 | `/computer-science/algorithms/sorting-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/sorting-algorithms` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:203` | 203 | `/computer-science/algorithms/sorting-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/sorting-algorithms` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:215` | 215 | `/computer-science/algorithms/graph-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/graph-algorithms` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:226` | 226 | `/computer-science/algorithms/graph-algorithms` | `sites/alevel/src/content/docs/computer-science/algorithms/graph-algorithms` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:238` | 238 | `/computer-science/algorithms/complexity-analysis` | `sites/alevel/src/content/docs/computer-science/algorithms/complexity-analysis` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:254` | 254 | `/computer-science/programming/programming-constructs` | `sites/alevel/src/content/docs/computer-science/programming/programming-constructs` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:267` | 267 | `/computer-science/programming/programming-constructs` | `sites/alevel/src/content/docs/computer-science/programming/programming-constructs` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:279` | 279 | `/computer-science/programming/programming-constructs` | `sites/alevel/src/content/docs/computer-science/programming/programming-constructs` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:291` | 291 | `/computer-science/programming/object-oriented-programming` | `sites/alevel/src/content/docs/computer-science/programming/object-oriented-programming` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:303` | 303 | `/computer-science/programming/object-oriented-programming` | `sites/alevel/src/content/docs/computer-science/programming/object-oriented-programming` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:316` | 316 | `/computer-science/programming/data-representation-in-programming` | `sites/alevel/src/content/docs/computer-science/programming/data-representation-in-programming` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:333` | 333 | `/computer-science/software-engineering/software-development-lifecycle` | `sites/alevel/src/content/docs/computer-science/software-engineering/software-development-lifecycle` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:346` | 346 | `/computer-science/software-engineering/software-development-lifecycle` | `sites/alevel/src/content/docs/computer-science/software-engineering/software-development-lifecycle` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:358` | 358 | `/computer-science/software-engineering/testing` | `sites/alevel/src/content/docs/computer-science/software-engineering/testing` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:371` | 371 | `/computer-science/software-engineering/testing` | `sites/alevel/src/content/docs/computer-science/software-engineering/testing` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:384` | 384 | `/computer-science/software-engineering/testing` | `sites/alevel/src/content/docs/computer-science/software-engineering/testing` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:399` | 399 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:412` | 412 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:424` | 424 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:436` | 436 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:449` | 449 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:463` | 463 | `/computer-science/networks/network-security` | `sites/alevel/src/content/docs/computer-science/networks/network-security` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:475` | 475 | `/computer-science/networks/network-security` | `sites/alevel/src/content/docs/computer-science/networks/network-security` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:491` | 491 | `/computer-science/databases/relational-databases` | `sites/alevel/src/content/docs/computer-science/databases/relational-databases` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:507` | 507 | `/computer-science/databases/relational-databases` | `sites/alevel/src/content/docs/computer-science/databases/relational-databases` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:518` | 518 | `/computer-science/databases/relational-databases` | `sites/alevel/src/content/docs/computer-science/databases/relational-databases` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:529` | 529 | `/computer-science/databases/relational-databases` | `sites/alevel/src/content/docs/computer-science/databases/relational-databases` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:540` | 540 | `/computer-science/databases/relational-databases` | `sites/alevel/src/content/docs/computer-science/databases/relational-databases` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:558` | 558 | `/computer-science/theory-of-computation/automata-and-computability` | `sites/alevel/src/content/docs/computer-science/theory-of-computation/automata-and-computability` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:572` | 572 | `/computer-science/theory-of-computation/automata-and-computability` | `sites/alevel/src/content/docs/computer-science/theory-of-computation/automata-and-computability` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:586` | 586 | `/computer-science/theory-of-computation/automata-and-computability` | `sites/alevel/src/content/docs/computer-science/theory-of-computation/automata-and-computability` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:599` | 599 | `/computer-science/theory-of-computation/automata-and-computability` | `sites/alevel/src/content/docs/computer-science/theory-of-computation/automata-and-computability` |
+| alevel | `alevel/src/content/docs/computer-science/diagnostic-test.md:612` | 612 | `/computer-science/theory-of-computation/automata-and-computability` | `sites/alevel/src/content/docs/computer-science/theory-of-computation/automata-and-computability` |
+| alevel | `alevel/src/content/docs/computer-science/fundamentals/06-legal-ethical-moral.md:1457` | 1457 | `../data/data-representation` | `sites/alevel/src/content/docs/computer-science/data/data-representation` |
+| alevel | `alevel/src/content/docs/computer-science/fundamentals/06-legal-ethical-moral.md:1458` | 1458 | `../networks/communication-networking` | `sites/alevel/src/content/docs/computer-science/networks/communication-networking` |
+| alevel | `alevel/src/content/docs/computer-science/fundamentals/06-legal-ethical-moral.md:1459` | 1459 | `../programming/programming-paradigms` | `sites/alevel/src/content/docs/computer-science/programming/programming-paradigms` |
+| alevel | `alevel/src/content/docs/computer-science/fundamentals/06-legal-ethical-moral.md:1460` | 1460 | `../data/data-types-structures` | `sites/alevel/src/content/docs/computer-science/data/data-types-structures` |
+| alevel | `alevel/src/content/docs/computer-science/networks/01-network-fundamentals.md:514` | 514 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/networks/02-network-security.md:456` | 456 | `/computer-science/networks/network-fundamentals` | `sites/alevel/src/content/docs/computer-science/networks/network-fundamentals` |
+| alevel | `alevel/src/content/docs/computer-science/programming/01-programming-constructs.md:500` | 500 | `/computer-science/data-structures/trees` | `sites/alevel/src/content/docs/computer-science/data-structures/trees` |
+| alevel | `alevel/src/content/docs/computer-science/programming/02-object-oriented-programming.md:708` | 708 | `/computer-science/programming/programming-constructs` | `sites/alevel/src/content/docs/computer-science/programming/programming-constructs` |
+| alevel | `alevel/src/content/docs/computer-science/programming/03-data-representation-in-programming.md:537` | 537 | `/computer-science/fundamentals/number-systems` | `sites/alevel/src/content/docs/computer-science/fundamentals/number-systems` |
+| alevel | `alevel/src/content/docs/computer-science/programming/03-data-representation-in-programming.md:538` | 538 | `/computer-science/fundamentals/floating-point` | `sites/alevel/src/content/docs/computer-science/fundamentals/floating-point` |
+| alevel | `alevel/src/content/docs/computer-science/software-engineering/01-software-development-lifecycle.md:478` | 478 | `/computer-science/software-engineering/testing` | `sites/alevel/src/content/docs/computer-science/software-engineering/testing` |
+| alevel | `alevel/src/content/docs/computer-science/software-engineering/02-testing.md:478` | 478 | `/computer-science/software-engineering/software-development-lifecycle` | `sites/alevel/src/content/docs/computer-science/software-engineering/software-development-lifecycle` |
 
-_... and 6434 more broken links._
+_... and 5712 more broken links._

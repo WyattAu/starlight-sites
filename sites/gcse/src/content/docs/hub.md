@@ -67,7 +67,7 @@ GCSE Biology covers cell biology, organisation, infection and response, bioenerg
 
 ### Topic Notes
 
-- [Cell Biology](/biology/1-cell-biology/1_cell-biology) — cell structure, organelles, and microscopy
+- [Cell Biology](biology/1-cell-biology/1_cell-biology) — cell structure, organelles, and microscopy
 - [Cell Division](/biology/1-cell-biology/2_cell-division) — mitosis, meiosis, and the cell cycle
 - [Organisation](/biology/2-organisation/1_organisation) — levels of organisation, specialised cells, and organ systems
 - [Plant Organisation](/biology/2-organisation/2_plant-organisation) — transport systems in plants, xylem, and phloem
@@ -81,7 +81,7 @@ GCSE Biology covers cell biology, organisation, infection and response, bioenerg
 
 - [Flashcards: Cell Biology](/biology/flashcards-cell-biology)
 - [Practice Questions: Cell Biology](/biology/practice-cell-biology)
-- [Diagnostic Quizzes](/biology/diagnostics) — test your knowledge across all biology topics
+- [Diagnostic Quizzes](biology/diagnostics) — test your knowledge across all biology topics
 
 ---
 
@@ -106,7 +106,7 @@ GCSE Chemistry covers atomic structure and bonding, quantitative chemistry, chem
 
 - [Flashcards: Atomic Structure](/chemistry/flashcards-atomic-structure)
 - [Practice Questions: Bonding](/chemistry/practice-bonding)
-- [Diagnostic Quizzes](/chemistry/diagnostics) — assess your strengths and weaknesses across chemistry topics
+- [Diagnostic Quizzes](chemistry/diagnostics) — assess your strengths and weaknesses across chemistry topics
 
 ---
 
@@ -131,7 +131,7 @@ GCSE Computer Science covers computational thinking, algorithms, programming, da
 
 - [Flashcards: Algorithms](/computer-science/flashcards-algorithms)
 - [Practice Questions: Programming](/computer-science/practice-programming)
-- [Diagnostic Quizzes](/computer-science/diagnostics) — test across all computer science topics
+- [Diagnostic Quizzes](computer-science/diagnostics) — test across all computer science topics
 
 ---
 
@@ -154,7 +154,7 @@ GCSE English Language covers reading comprehension, writing skills, analysis of 
 
 - [Flashcards: Poetry](/english/flashcards-poetry)
 - [Practice Questions: Reading](/english/practice-reading)
-- [Diagnostic Quizzes](/english/diagnostics) — test across all English topics
+- [Diagnostic Quizzes](english/diagnostics) — test across all English topics
 
 ---
 
@@ -164,7 +164,7 @@ GCSE Mathematics covers number, algebra, ratio and proportion, geometry and meas
 
 ### Topic Notes
 
-- [Number](/maths/1-number/1_number) — integers, fractions, decimals, percentages, and surds
+- [Number](maths/1-number/1_number) — integers, fractions, decimals, percentages, and surds
 - [Algebra](/maths/2-algebra/1_algebra) — expressions, equations, inequalities, sequences, and graphs
 - [Ratio and Proportion](/maths/3-ratio/1_ratio) — ratios, percentages, compound measures, and direct/inverse proportion
 - [Geometry and Measure](/maths/4-geometry/1_geometry) — angles, polygons, circles, trigonometry, vectors, and transformations
@@ -176,7 +176,7 @@ GCSE Mathematics covers number, algebra, ratio and proportion, geometry and meas
 
 - [Flashcards: Algebra](/maths/flashcards-algebra)
 - [Practice Questions: Geometry](/maths/practice-geometry)
-- [Diagnostic Quizzes](/maths/diagnostics) — test across all maths topics
+- [Diagnostic Quizzes](maths/diagnostics) — test across all maths topics
 
 ---
 
@@ -186,7 +186,7 @@ GCSE Physics covers energy, electricity, particle model of matter, atomic struct
 
 ### Topic Notes
 
-- [Energy](/physics/1-energy/1_energy) — energy stores, transfers, efficiency, and power
+- [Energy](physics/1-energy/1_energy) — energy stores, transfers, efficiency, and power
 - [Electricity](/physics/2-electricity/1_electricity) — current, voltage, resistance, circuits, and the national grid
 - [Particle Model of Matter](/physics/3-particle-model/1_particle-model) — states of matter, density, and specific heat capacity
 - [Atomic Structure](/physics/4-atomic-structure/1_atomic-structure) — the atom, radioactive decay, and half-life
@@ -198,7 +198,7 @@ GCSE Physics covers energy, electricity, particle model of matter, atomic struct
 
 - [Flashcards: Forces](/physics/flashcards-forces)
 - [Practice Questions: Electricity](/physics/practice-electricity)
-- [Diagnostic Quizzes](/physics/diagnostics) — test across all physics topics
+- [Diagnostic Quizzes](physics/diagnostics) — test across all physics topics
 
 ---
 

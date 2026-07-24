@@ -163,10 +163,10 @@ The pitfalls in topology arise from a single source: intuition from Euclidean sp
 
 ## Cross-References
 
-- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Many pitfalls involve metric-specific properties like completeness and the Heine-Borel theorem that fail as a rule topological spaces.
-- **[Separation Axioms](9-topology/8_separation-axioms.md)**: Confusion between separation levels (T1 vs T2 vs T3) generates common errors about compactness and continuity.
-- **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: Several pitfalls involve misunderstanding the relationship between open, closed, and clopen sets.
-- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: The distinction between homotopy equivalence and homeomorphism is a frequent source of confusion.
+- **[Metric Spaces](7_metric-spaces)**: Many pitfalls involve metric-specific properties like completeness and the Heine-Borel theorem that fail as a rule topological spaces.
+- **[Separation Axioms](8_separation-axioms)**: Confusion between separation levels (T1 vs T2 vs T3) generates common errors about compactness and continuity.
+- **[Closed Sets, Closure, Interior, and Boundary](3_closed-sets-closure-interior-and-boundary)**: Several pitfalls involve misunderstanding the relationship between open, closed, and clopen sets.
+- **[Introduction to Algebraic Topology](9_introduction-to-algebraic-topology)**: The distinction between homotopy equivalence and homeomorphism is a frequent source of confusion.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

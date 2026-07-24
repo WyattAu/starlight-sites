@@ -759,6 +759,6 @@ $1 < x \leq -1 + 2\sqrt{3}$I.e. $x \in (1,\; -1 + 2\sqrt{3}]$.
 
 ## Cross-References
 
-- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
-- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
-- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental
+- **[Functions](diag-functions):** Functions are central
+- **[Quadratics](diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](diag-trigonometry):** Trigonometry is fundamental

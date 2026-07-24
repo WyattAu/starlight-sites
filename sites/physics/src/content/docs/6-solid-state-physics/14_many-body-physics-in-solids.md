@@ -152,10 +152,10 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 Many-body physics studies how enormous numbers of interacting particles produce emergent phenomena. In a metal, electrons interact via Coulomb forces, but the collective behavior is described by quasiparticles with modified mass and lifetime. The electron gas behaves like a nearly free Fermi liquid, with interactions creating a sea of virtual excitations. Phonons are collective vibrations that behave as particles, mediating interactions between electrons. This framework explains superconductivity, magnetism, and the metal-insulator transition. The key insight is that complex many-body problems can often be mapped to simpler single-particle problems with renormalized parameters.
 ## Cross-References
 
-- **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: The lattice geometry and crystal symmetry determine the electronic band structure and the validity of the tight-binding model.
-- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Electron-phonon coupling leads to Cooper pairing in conventional superconductors and affects quasiparticle properties.
-- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: The Fermi liquid concept and quasiparticle picture build on the semiconductor band structure framework.
-- **[Magnetism in Solids](6-solid-state-physics/10_magnetism-in-solids.md)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
+- **[Crystal Structures](1_crystal-structures)**: The lattice geometry and crystal symmetry determine the electronic band structure and the validity of the tight-binding model.
+- **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: Electron-phonon coupling leads to Cooper pairing in conventional superconductors and affects quasiparticle properties.
+- **[Semiconductors](6_semiconductors)**: The Fermi liquid concept and quasiparticle picture build on the semiconductor band structure framework.
+- **[Magnetism in Solids](10_magnetism-in-solids)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

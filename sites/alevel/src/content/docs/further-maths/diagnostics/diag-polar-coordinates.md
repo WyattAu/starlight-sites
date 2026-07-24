@@ -252,5 +252,5 @@ cardioid, inside circle $= 9\pi/4 - \pi = 5\pi/4$.
 ## Cross-References
 
 - **[Polar Coordinates](../further-maths/pure-mathematics/polar-coordinates):** Polar coordinates extend coordinate geometry
-- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
-- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics
+- **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics

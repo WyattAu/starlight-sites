@@ -540,6 +540,6 @@ Kinematics is the language of motion stripped bare of its causes. Imagine filmin
 
 ## Cross-References
 
-- **[Momentum](../maths/mechanics/05-momentum):** Kinematics describes motion
-- **[Energy and Work](../maths/mechanics/energy-and-work-depth):** Kinematic equations relate to energy
-- **[Forces](../maths/mechanics/statics-depth):** Forces cause acceleration
+- **[Momentum](05-momentum):** Kinematics describes motion
+- **[Energy and Work](energy-and-work-depth):** Kinematic equations relate to energy
+- **[Forces](statics-depth):** Forces cause acceleration

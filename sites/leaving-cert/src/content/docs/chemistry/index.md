@@ -192,7 +192,7 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 
 ## Cross-References
 
-- [1 Atomic Structure](chemistry/1-atomic-structure/1_atomic-structure)
-- [2 Bonding](chemistry/2-bonding/2_bonding)
+- [1 Atomic Structure](1-atomic-structure/1_atomic-structure)
+- [2 Bonding](2-bonding/2_bonding)
 - [1 Cell](biology/1-cell/1_cell)
 - [2 Ecology](biology/2-ecology/2_ecology)

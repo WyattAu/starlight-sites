@@ -532,7 +532,7 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 
 ## Cross-References
 
-- [Mechanics](/physics/mechanics)
-- [Waves](/physics/waves)
-- [Electricity](/physics/electricity)
-- [Fields](/physics/fields)
+- [Mechanics](../mechanics)
+- [Waves](../waves)
+- [Electricity](../electricity)
+- [Fields](../fields)

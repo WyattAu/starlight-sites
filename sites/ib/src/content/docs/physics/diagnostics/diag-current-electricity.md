@@ -484,6 +484,6 @@ changes, which is why it is used in strain gauges and precision measurement appl
 
 ## Cross-References
 
-- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
-- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
-- **[Waves](../physics/flashcards-waves):** Waves transfer energy
+- **[Kinematics](../flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../flashcards-waves):** Waves transfer energy

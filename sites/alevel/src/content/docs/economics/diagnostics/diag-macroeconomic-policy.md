@@ -497,6 +497,6 @@ offset by other factors (e.g., falling inflation boosts real incomes).
 
 ## Cross-References
 
-- **[Fiscal Policy](../economics/macro/04-fiscal-policy):** Macroeconomic policy includes fiscal decisions
-- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Aggregate demand and supply are macro concepts
-- **[Market Failure](../economics/diagnostics/diag-market-failure):** Policy addresses market failures
+- **[Fiscal Policy](../macro/04-fiscal-policy):** Macroeconomic policy includes fiscal decisions
+- **[Demand and Supply](diag-demand-supply):** Aggregate demand and supply are macro concepts
+- **[Market Failure](diag-market-failure):** Policy addresses market failures

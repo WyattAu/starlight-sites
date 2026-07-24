@@ -923,6 +923,6 @@ linked above.
 
 ## Cross-References
 
-- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** System organisation builds on fundamentals
-- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Hardware affects algorithm execution
-- **[Networking](../computer-science/flashcards-networks-databases):** Systems include network interfaces
+- **[System Fundamentals](../flashcards-system-fundamentals):** System organisation builds on fundamentals
+- **[Algorithms](../flashcards-algorithms-data-structures):** Hardware affects algorithm execution
+- **[Networking](../flashcards-networks-databases):** Systems include network interfaces

@@ -864,6 +864,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
-- **[Equilibrium](../chemistry/diagnostics/diag-equilibrium):** Gibbs energy determines equilibrium position
-- **[Kinetics](../chemistry/diagnostics/diag-kinetics):** Thermodynamics and kinetics together determine reaction outcomes
-- **[Thermodynamics](../chemistry/diagnostics/diag-thermodynamics):** Entropy and Gibbs energy are core thermodynamic concepts
+- **[Equilibrium](../diagnostics/diag-equilibrium):** Gibbs energy determines equilibrium position
+- **[Kinetics](../diagnostics/diag-kinetics):** Thermodynamics and kinetics together determine reaction outcomes
+- **[Thermodynamics](../diagnostics/diag-thermodynamics):** Entropy and Gibbs energy are core thermodynamic concepts

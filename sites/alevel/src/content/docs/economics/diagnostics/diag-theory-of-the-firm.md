@@ -551,6 +551,6 @@ programmes create switching costs.
 
 ## Cross-References
 
-- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Firm behaviour is influenced by demand
-- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market structures affect efficiency
-- **[Macroeconomic Policy](../economics/diagnostics/diag-macroeconomic-policy):** Firms operate within macroeconomic conditions
+- **[Demand and Supply](diag-demand-supply):** Firm behaviour is influenced by demand
+- **[Market Failure](diag-market-failure):** Market structures affect efficiency
+- **[Macroeconomic Policy](diag-macroeconomic-policy):** Firms operate within macroeconomic conditions

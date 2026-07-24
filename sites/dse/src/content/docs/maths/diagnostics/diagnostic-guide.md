@@ -286,6 +286,6 @@ linked above.
 
 ## Cross-References
 
-- **[Functions](../maths/diagnostics/diag-functions):** Diagnostics assess core skills
-- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are tested
-- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is assessed
+- **[Functions](diag-functions):** Diagnostics assess core skills
+- **[Quadratics](diag-quadratics):** Quadratics are tested
+- **[Trigonometry](diag-trigonometry):** Trigonometry is assessed

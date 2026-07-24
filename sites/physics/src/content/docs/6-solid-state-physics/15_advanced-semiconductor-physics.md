@@ -264,10 +264,10 @@ Advanced semiconductor physics goes beyond the simple pn junction to describe ho
 
 ## Cross-References
 
-- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: The basic semiconductor physics of carrier concentration, Fermi level, and band structure provides the foundation for understanding MOSFETs and heterostructures.
-- **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: The crystal structure and lattice constant determine the band structure and effective masses used in semiconductor device physics.
-- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Phonon scattering limits carrier mobility in semiconductors and affects device performance at high temperatures.
-- **[Magnetism in Solids](6-solid-state-physics/10_magnetism-in-solids.md)**: The quantum Hall effect involves Landau levels formed by electrons in magnetic fields, connecting to the magnetic properties of solids.
+- **[Semiconductors](6_semiconductors)**: The basic semiconductor physics of carrier concentration, Fermi level, and band structure provides the foundation for understanding MOSFETs and heterostructures.
+- **[Crystal Structures](1_crystal-structures)**: The crystal structure and lattice constant determine the band structure and effective masses used in semiconductor device physics.
+- **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: Phonon scattering limits carrier mobility in semiconductors and affects device performance at high temperatures.
+- **[Magnetism in Solids](10_magnetism-in-solids)**: The quantum Hall effect involves Landau levels formed by electrons in magnetic fields, connecting to the magnetic properties of solids.
 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

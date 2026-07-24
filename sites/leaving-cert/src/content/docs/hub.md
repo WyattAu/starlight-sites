@@ -65,18 +65,18 @@ Leaving Cert Biology covers cell biology, ecology, genetics, plant biology, and 
 
 ### Topic Notes
 
-- [Biology Overview](/biology) — course structure and assessment format
-- [Cell Biology](/biology/1-cell) — cell structure, organelles, and cell division
-- [Ecology](/biology/2-ecology) — ecosystems, energy flow, and nutrient cycling
-- [Genetics](/biology/3-genetics) — inheritance, DNA, and gene expression
-- [Plant Biology](/biology/4-plant-biology) — photosynthesis, transpiration, and plant responses
-- [Human Body](/biology/5-human-body) — organ systems, homeostasis, and disease
+- [Biology Overview](biology) — course structure and assessment format
+- [Cell Biology](biology/1-cell) — cell structure, organelles, and cell division
+- [Ecology](biology/2-ecology) — ecosystems, energy flow, and nutrient cycling
+- [Genetics](biology/3-genetics) — inheritance, DNA, and gene expression
+- [Plant Biology](biology/4-plant-biology) — photosynthesis, transpiration, and plant responses
+- [Human Body](biology/5-human-body) — organ systems, homeostasis, and disease
 
 ### Practice and Review
 
-- [Flashcards: Biology](/flashcards-biology)
-- [Practice Questions: Biology](/biology/practice-biology)
-- [Diagnostic Quizzes](/biology/diagnostics) — test across all biology topics
+- [Flashcards: Biology](flashcards-biology)
+- [Practice Questions: Biology](biology/practice-biology)
+- [Diagnostic Quizzes](biology/diagnostics) — test across all biology topics
 
 ### Key Exam Focus
 
@@ -90,18 +90,18 @@ Leaving Cert Chemistry covers atomic structure, bonding, stoichiometry, acids an
 
 ### Topic Notes
 
-- [Chemistry Overview](/chemistry) — course structure and assessment format
-- [Atomic Structure](/chemistry/1-atomic-structure) — electron configuration, periodic trends, and isotopes
-- [Bonding](/chemistry/2-bonding) — ionic, covalent, and metallic bonding
-- [Stoichiometry](/chemistry/3-stoichiometry) — mole concept, balancing equations, and yield calculations
-- [Acids and Bases](/chemistry/4-acids-bases) — pH, titrations, and neutralisation
-- [Organic Chemistry](/chemistry/5-organic) — hydrocarbons, functional groups, and reactions
+- [Chemistry Overview](chemistry) — course structure and assessment format
+- [Atomic Structure](chemistry/1-atomic-structure) — electron configuration, periodic trends, and isotopes
+- [Bonding](chemistry/2-bonding) — ionic, covalent, and metallic bonding
+- [Stoichiometry](chemistry/3-stoichiometry) — mole concept, balancing equations, and yield calculations
+- [Acids and Bases](chemistry/4-acids-bases) — pH, titrations, and neutralisation
+- [Organic Chemistry](chemistry/5-organic) — hydrocarbons, functional groups, and reactions
 
 ### Practice and Review
 
-- [Flashcards: Chemistry](/flashcards-chemistry)
-- [Practice Questions: Chemistry](/chemistry/practice-chemistry)
-- [Diagnostic Quizzes](/chemistry/diagnostics) — test across all chemistry topics
+- [Flashcards: Chemistry](flashcards-chemistry)
+- [Practice Questions: Chemistry](chemistry/practice-chemistry)
+- [Diagnostic Quizzes](chemistry/diagnostics) — test across all chemistry topics
 
 ### Key Exam Focus
 
@@ -115,18 +115,18 @@ Leaving Cert Computer Science covers hardware, programming, databases, networks,
 
 ### Topic Notes
 
-- [Computer Science Overview](/computer-science) — course structure and assessment format
-- [Hardware](/computer-science/1-hardware) — computer architecture, processors, and memory
-- [Programming](/computer-science/2-programming) — variables, control structures, and functions
-- [Databases](/computer-science/3-databases) — relational databases, SQL, and normalisation
-- [Networks](/computer-science/4-networks) — network types, protocols, and security
-- [Algorithms](/computer-science/5-algorithms) — searching, sorting, and complexity analysis
+- [Computer Science Overview](computer-science) — course structure and assessment format
+- [Hardware](computer-science/1-hardware) — computer architecture, processors, and memory
+- [Programming](computer-science/2-programming) — variables, control structures, and functions
+- [Databases](computer-science/3-databases) — relational databases, SQL, and normalisation
+- [Networks](computer-science/4-networks) — network types, protocols, and security
+- [Algorithms](computer-science/5-algorithms) — searching, sorting, and complexity analysis
 
 ### Practice and Review
 
-- [Flashcards: Computer Science](/flashcards-computer-science)
-- [Practice Questions: Computer Science](/computer-science/practice-computer-science)
-- [Diagnostic Quizzes](/computer-science/diagnostics) — test across all computer science topics
+- [Flashcards: Computer Science](flashcards-computer-science)
+- [Practice Questions: Computer Science](computer-science/practice-computer-science)
+- [Diagnostic Quizzes](computer-science/diagnostics) — test across all computer science topics
 
 ### Key Exam Focus
 
@@ -140,18 +140,18 @@ Leaving Cert Mathematics covers algebra, calculus, geometry and trigonometry, pr
 
 ### Topic Notes
 
-- [Mathematics Overview](/maths) — course structure and assessment format
-- [Algebra](/maths/1-algebra) — equations, inequalities, and polynomial manipulation
-- [Calculus](/maths/2-calculus) — differentiation, integration, and applications
-- [Geometry and Trigonometry](/maths/3-geometry-trig) — triangles, circles, coordinate geometry, and trigonometric identities
-- [Probability and Statistics](/maths/4-probability-statistics) — probability rules, distributions, and data analysis
-- [Number Sequences](/maths/5-number-sequences) — arithmetic and geometric sequences and series
+- [Mathematics Overview](maths) — course structure and assessment format
+- [Algebra](maths/1-algebra) — equations, inequalities, and polynomial manipulation
+- [Calculus](maths/2-calculus) — differentiation, integration, and applications
+- [Geometry and Trigonometry](maths/3-geometry-trig) — triangles, circles, coordinate geometry, and trigonometric identities
+- [Probability and Statistics](maths/4-probability-statistics) — probability rules, distributions, and data analysis
+- [Number Sequences](maths/5-number-sequences) — arithmetic and geometric sequences and series
 
 ### Practice and Review
 
-- [Flashcards: Mathematics](/flashcards-maths)
-- [Practice Questions: Mathematics](/maths/practice-maths)
-- [Diagnostic Quizzes](/maths/diagnostics) — test across all maths topics
+- [Flashcards: Mathematics](flashcards-maths)
+- [Practice Questions: Mathematics](maths/practice-maths)
+- [Diagnostic Quizzes](maths/diagnostics) — test across all maths topics
 
 ### Key Exam Focus
 
@@ -165,18 +165,18 @@ Leaving Cert Physics covers mechanics, waves, electricity, heat, and modern phys
 
 ### Topic Notes
 
-- [Physics Overview](/physics) — course structure and assessment format
-- [Mechanics](/physics/1-mechanics) — motion, forces, and Newton's laws
-- [Waves](/physics/2-waves) — wave properties, sound, light, and diffraction
-- [Electricity](/physics/3-electricity) — circuits, voltage, current, resistance, and power
-- [Heat](/physics/4-heat) — thermal energy, specific heat capacity, and specific latent heat
-- [Modern Physics](/physics/5-modern-physics) — radioactivity, nuclear reactions, and the photoelectric effect
+- [Physics Overview](physics) — course structure and assessment format
+- [Mechanics](physics/1-mechanics) — motion, forces, and Newton's laws
+- [Waves](physics/2-waves) — wave properties, sound, light, and diffraction
+- [Electricity](physics/3-electricity) — circuits, voltage, current, resistance, and power
+- [Heat](physics/4-heat) — thermal energy, specific heat capacity, and specific latent heat
+- [Modern Physics](physics/5-modern-physics) — radioactivity, nuclear reactions, and the photoelectric effect
 
 ### Practice and Review
 
-- [Flashcards: Physics](/flashcards-physics)
-- [Practice Questions: Physics](/physics/practice-physics)
-- [Diagnostic Quizzes](/physics/diagnostics) — test across all physics topics
+- [Flashcards: Physics](flashcards-physics)
+- [Practice Questions: Physics](physics/practice-physics)
+- [Diagnostic Quizzes](physics/diagnostics) — test across all physics topics
 
 ### Key Exam Focus
 

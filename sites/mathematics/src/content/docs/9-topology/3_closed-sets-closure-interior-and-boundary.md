@@ -148,10 +148,10 @@ In the language of closure: the closure of the polynomials in the sup-norm topol
 Think of a set as a region of space with fuzzy edges. The interior is the core where you can move freely in any direction. The closure adds back all the limit points that were arbitrarily close. The boundary is the fuzzy edge itself, where every neighborhood contains both points inside and outside the set. Dense sets are like scattered dust that gets arbitrarily close to every point, even though the dust itself has no interior. These operations form a dual pair: closure and interior are negations of each other when applied to complements, reflecting the fundamental symmetry between open and closed sets.
 ## Cross-References
 
-- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Closure, interior, and boundary can be characterised using sequences and limits in metric spaces.
-- **[Separation Axioms](9-topology/8_separation-axioms.md)**: Dense sets and closure properties are used to prove Urysohn's lemma and the Tietze extension theorem.
-- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: The boundary operator in algebraic topology generalises the topological boundary concept to higher dimensions.
-- **[Common Pitfalls](9-topology/10_common-pitfalls.md)**: Confusing open with closed and misunderstanding closure under infinite operations are frequent errors.
+- **[Metric Spaces](7_metric-spaces)**: Closure, interior, and boundary can be characterised using sequences and limits in metric spaces.
+- **[Separation Axioms](8_separation-axioms)**: Dense sets and closure properties are used to prove Urysohn's lemma and the Tietze extension theorem.
+- **[Introduction to Algebraic Topology](9_introduction-to-algebraic-topology)**: The boundary operator in algebraic topology generalises the topological boundary concept to higher dimensions.
+- **[Common Pitfalls](10_common-pitfalls)**: Confusing open with closed and misunderstanding closure under infinite operations are frequent errors.
 
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

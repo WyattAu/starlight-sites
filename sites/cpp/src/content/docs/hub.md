@@ -69,15 +69,15 @@ C++ has one of the most expressive type systems in any programming language. Und
 
 ### Topic Notes
 
-- [Type System Overview](/types) — type categories, cv-qualifiers, and type deduction
-- [Data Layout](/types/1_data_layout) — size, alignment, padding, and memory representation
-- [Pointers, References, and Views](/types/2_pointers_references_views) — raw pointers, smart pointers, references, and std::string_view
-- [Initialization and Lifetime](/types/3_initialization_and_lifetime) — construction, destruction, lifetime rules, and undefined behaviour
+- [Type System Overview](types) — type categories, cv-qualifiers, and type deduction
+- [Data Layout](types/1_data_layout) — size, alignment, padding, and memory representation
+- [Pointers, References, and Views](types/2_pointers_references_views) — raw pointers, smart pointers, references, and std::string_view
+- [Initialization and Lifetime](types/3_initialization_and_lifetime) — construction, destruction, lifetime rules, and undefined behaviour
 
 ### Practice and Review
 
-- [Flashcards: Type System](/types/flashcards-type-system)
-- [Practice Questions: Types and Resources](/types/practice-types-resources)
+- [Flashcards: Type System](types/flashcards-type-system)
+- [Practice Questions: Types and Resources](types/practice-types-resources)
 
 ### Key Concepts
 
@@ -95,9 +95,9 @@ C++ uses RAII (Resource Acquisition Is Initialization) as its primary resource m
 
 ### Topic Notes
 
-- [Resource Management Overview](/resource_management) — RAII principles and ownership semantics
-- [Ownership and RAII](/resource_management/1_ownership_and_raii) — ownership transfer, move semantics, and lifetime guarantees
-- [Value Categories and Move Semantics](/resource_management/2_value_categories_and_move) — lvalues, rvalues, move constructors, and move assignment
+- [Resource Management Overview](resource_management) — RAII principles and ownership semantics
+- [Ownership and RAII](resource_management/1_ownership_and_raii) — ownership transfer, move semantics, and lifetime guarantees
+- [Value Categories and Move Semantics](resource_management/2_value_categories_and_move) — lvalues, rvalues, move constructors, and move assignment
 
 ### Key Concepts
 
@@ -115,13 +115,13 @@ C++ supports object-oriented programming through classes, inheritance, and polym
 
 ### Topic Notes
 
-- [Object-Oriented Programming Overview](/object_oriented) — classes, inheritance, and polymorphism
-- [Class Design](/object_oriented/1_class_design) — constructors, destructors, copy/move semantics, and rule of zero/five
-- [Runtime Polymorphism](/object_oriented/2_runtime_polymorphism) — virtual functions, vtables, and dynamic dispatch
+- [Object-Oriented Programming Overview](object_oriented) — classes, inheritance, and polymorphism
+- [Class Design](object_oriented/1_class_design) — constructors, destructors, copy/move semantics, and rule of zero/five
+- [Runtime Polymorphism](object_oriented/2_runtime_polymorphism) — virtual functions, vtables, and dynamic dispatch
 
 ### Practice and Review
 
-- [Flashcards: OOP](/object_oriented/flashcards-oop)
+- [Flashcards: OOP](object_oriented/flashcards-oop)
 
 ### Key Concepts
 
@@ -139,14 +139,14 @@ Templates are C++'s mechanism for generic programming and compile-time computati
 
 ### Topic Notes
 
-- [Templates Overview](/templates_and_metaprogramming) — generic programming and compile-time computation
-- [Generic Programming](/templates_and_metaprogramming/1_generic_programming) — function templates, class templates, and template argument deduction
-- [Concepts and Constraints](/templates_and_metaprogramming/2_concepts_and_constraints) — C++20 concepts, requires clauses, and constrained templates
-- [Compile-Time Computation](/templates_and_metaprogramming/3_compile_time_computation) — constexpr, consteval, and template metaprogramming
+- [Templates Overview](templates_and_metaprogramming) — generic programming and compile-time computation
+- [Generic Programming](templates_and_metaprogramming/1_generic_programming) — function templates, class templates, and template argument deduction
+- [Concepts and Constraints](templates_and_metaprogramming/2_concepts_and_constraints) — C++20 concepts, requires clauses, and constrained templates
+- [Compile-Time Computation](templates_and_metaprogramming/3_compile_time_computation) — constexpr, consteval, and template metaprogramming
 
 ### Practice and Review
 
-- [Flashcards: Templates](/templates_and_metaprogramming/flashcards-templates)
+- [Flashcards: Templates](templates_and_metaprogramming/flashcards-templates)
 
 ### Key Concepts
 
@@ -164,10 +164,10 @@ The C++ Standard Library provides containers, algorithms, iterators, and utiliti
 
 ### Topic Notes
 
-- [Containers and Allocators](/standard_library/1_containers_and_allocators) — vector, map, set, unordered_map, and memory management
-- [Algorithms and Ranges](/standard_library/2_algorithms_and_ranges) — sorting, searching, transformations, and C++20 ranges
-- [Input, Output, and Formatting](/standard_library/3_input_output_formatting) — streams, formatted output, and file I/O
-- [System Utilities](/standard_library/4_system_utilities) — smart pointers, filesystem, and threading primitives
+- [Containers and Allocators](standard_library/1_containers_and_allocators) — vector, map, set, unordered_map, and memory management
+- [Algorithms and Ranges](standard_library/2_algorithms_and_ranges) — sorting, searching, transformations, and C++20 ranges
+- [Input, Output, and Formatting](standard_library/3_input_output_formatting) — streams, formatted output, and file I/O
+- [System Utilities](standard_library/4_system_utilities) — smart pointers, filesystem, and threading primitives
 
 ### Key Concepts
 
@@ -185,9 +185,9 @@ C++ supports multithreading through the standard library. Concurrency allows you
 
 ### Topic Notes
 
-- [Threading and Synchronization](/concurrency/1_threading_and_synchronization) — std::thread, mutexes, condition variables, and locks
-- [Memory Model and Atomics](/concurrency/2_memory_model_and_atomics) — memory ordering, atomic operations, and the happens-before relationship
-- [Coroutines and Async I/O](/concurrency/3_coroutines_and_async_io) — C++20 coroutines, async/await patterns, and cooperative multitasking
+- [Threading and Synchronization](concurrency/1_threading_and_synchronization) — std::thread, mutexes, condition variables, and locks
+- [Memory Model and Atomics](concurrency/2_memory_model_and_atomics) — memory ordering, atomic operations, and the happens-before relationship
+- [Coroutines and Async I/O](concurrency/3_coroutines_and_async_io) — C++20 coroutines, async/await patterns, and cooperative multitasking
 
 ### Key Concepts
 
@@ -205,9 +205,9 @@ Functions are the building blocks of C++ programs. Understanding function design
 
 ### Topic Notes
 
-- [Function Architecture Overview](/function_architecture) — function design principles and patterns
-- [Parameter passing](/function_architecture) — by value, by reference, by const reference, and by rvalue reference
-- [Lambda expressions](/function_architecture) — anonymous functions, captures, and generic lambdas
+- [Function Architecture Overview](function_architecture) — function design principles and patterns
+- [Parameter passing](function_architecture) — by value, by reference, by const reference, and by rvalue reference
+- [Lambda expressions](function_architecture) — anonymous functions, captures, and generic lambdas
 
 ### Key Concepts
 
@@ -223,9 +223,9 @@ C++ uses a compilation model based on translation units, headers, and object fil
 
 ### Topic Notes
 
-- [Compilation Model Overview](/compilation_model) — translation units, linkage, and the build process
-- [Header files and inclusion](/compilation_model) — include guards, forward declarations, and the preprocessor
-- [Linkage](/compilation_model) — internal and external linkage, anonymous namespaces, and ODR
+- [Compilation Model Overview](compilation_model) — translation units, linkage, and the build process
+- [Header files and inclusion](compilation_model) — include guards, forward declarations, and the preprocessor
+- [Linkage](compilation_model) — internal and external linkage, anonymous namespaces, and ODR
 
 ---
 
@@ -235,9 +235,9 @@ A productive C++ development environment requires knowledge of compilers, build 
 
 ### Topic Notes
 
-- [Environment and Toolchain Overview](/enviroment_and_toolchain) — compilers, build systems, and development tools
-- [Compiler selection](/enviroment_and_toolchain) — GCC, Clang, MSVC, and their differences
-- [Build systems](/enviroment_and_toolchain) — CMake, Make, and modern build configuration
+- [Environment and Toolchain Overview](enviroment_and_toolchain) — compilers, build systems, and development tools
+- [Compiler selection](enviroment_and_toolchain) — GCC, Clang, MSVC, and their differences
+- [Build systems](enviroment_and_toolchain) — CMake, Make, and modern build configuration
 
 ---
 

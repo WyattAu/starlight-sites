@@ -32,7 +32,7 @@ multiple scales.
 
 Cell structure, membrane transport, cell division, DNA replication, and protein synthesis.
 
-→ **[Full notes](../../../../../../ib/src/content/docs/biology/1-cell-biology/1_cell-biology.md)**
+→ **[Full notes](../../../../../ib/src/content/docs/biology/1-cell-biology/1_cell-biology)**
 
 ### Metabolism & Survival
 
@@ -193,7 +193,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 
 ## Cross-References
 
-- [1 Cell Biology](biology/1-cell-biology/1_cell-biology)
-- [2 Metabolism](biology/2-metabolism/2_metabolism)
+- [1 Cell Biology](1-cell-biology/1_cell-biology)
+- [2 Metabolism](2-metabolism/2_metabolism)
 - [1 Structure Bonding](chemistry/1-structure-bonding/1_structure-bonding)
 - [2 Heat Matter](chemistry/2-heat-matter/2_heat-matter)

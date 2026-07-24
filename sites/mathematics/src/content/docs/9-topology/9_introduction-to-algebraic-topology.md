@@ -144,9 +144,9 @@ number.
 Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is directly connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
 ## Cross-References
 
-- **[Metric Spaces](9-topology/7_metric-spaces.md)**: The metric space structure provides the foundation for topological concepts like continuity and convergence used throughout algebraic topology.
-- **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: Understanding open and closed sets is essential for defining covering spaces and CW-complexes.
-- **[Separation Axioms](9-topology/8_separation-axioms.md)**: The separation axioms determine which topological spaces have well-behaved fundamental groups and classification results.
+- **[Metric Spaces](7_metric-spaces)**: The metric space structure provides the foundation for topological concepts like continuity and convergence used throughout algebraic topology.
+- **[Closed Sets, Closure, Interior, and Boundary](3_closed-sets-closure-interior-and-boundary)**: Understanding open and closed sets is essential for defining covering spaces and CW-complexes.
+- **[Separation Axioms](8_separation-axioms)**: The separation axioms determine which topological spaces have well-behaved fundamental groups and classification results.
 - **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The notion of convergence underpins the definition of homotopy and the fundamental group.
 
 

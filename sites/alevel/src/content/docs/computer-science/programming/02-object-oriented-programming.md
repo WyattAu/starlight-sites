@@ -740,6 +740,6 @@ linked above.
 
 ## Cross-References
 
-- **[Programming Constructs](../computer-science/programming/01-programming-constructs):** OOP builds on fundamental constructs
-- **[Data Structures](../computer-science/data-structures/05-graphs):** OOP designs data structure implementations
-- **[Software Engineering](../computer-science/software-engineering/01-software-development-lifecycle):** OOP supports software engineering
+- **[Programming Constructs](01-programming-constructs):** OOP builds on fundamental constructs
+- **[Data Structures](../data-structures/05-graphs):** OOP designs data structure implementations
+- **[Software Engineering](../software-engineering/01-software-development-lifecycle):** OOP supports software engineering

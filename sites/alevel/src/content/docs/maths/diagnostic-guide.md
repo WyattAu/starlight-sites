@@ -550,4 +550,4 @@ $\blacksquare$
 
 - **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Diagnostics assess pure maths skills
 - **[Mechanics](../maths/practice-mechanics):** Mechanics diagnostics test physics applications
-- **[Statistics](../maths/statistics/statistics):** Statistics diagnostics test data analysis
+- **[Statistics](statistics):** Statistics diagnostics test data analysis

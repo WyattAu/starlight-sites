@@ -1041,9 +1041,9 @@ each approach.
 
 ## Cross-References
 
-- **[Macroeconomic Policy](../economics/diagnostics/diag-macroeconomic-policy):** Fiscal policy is part of macroeconomic management
-- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Fiscal policy affects aggregate demand
-- **[Theory of the Firm](../economics/diagnostics/diag-theory-of-the-firm):** Taxation affects firm behaviour
+- **[Macroeconomic Policy](../diagnostics/diag-macroeconomic-policy):** Fiscal policy is part of macroeconomic management
+- **[Demand and Supply](../diagnostics/diag-demand-supply):** Fiscal policy affects aggregate demand
+- **[Theory of the Firm](../diagnostics/diag-theory-of-the-firm):** Taxation affects firm behaviour
 
 ## Intuition
 

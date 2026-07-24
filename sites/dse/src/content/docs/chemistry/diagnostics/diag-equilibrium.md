@@ -477,6 +477,6 @@ concentrations to reactant concentrations at equilibrium remains constant.
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Atomic Structure](../atomic-structure-and-bonding):** Atomic structure is foundational
 - **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
 - **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

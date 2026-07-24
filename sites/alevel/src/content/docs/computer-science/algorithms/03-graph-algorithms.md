@@ -927,6 +927,6 @@ linked above.
 
 ## Cross-References
 
-- **[Data Structures: Graphs](../computer-science/data-structures/05-graphs):** Graph algorithms operate on graph data structures
-- **[Big O Notation](../computer-science/fundamentals/01-number-systems):** Algorithm analysis requires understanding complexity
-- **[Hash Tables](../computer-science/data-structures/06-hash-tables):** Hash tables enable efficient graph lookups
+- **[Data Structures: Graphs](../data-structures/05-graphs):** Graph algorithms operate on graph data structures
+- **[Big O Notation](../fundamentals/01-number-systems):** Algorithm analysis requires understanding complexity
+- **[Hash Tables](../data-structures/06-hash-tables):** Hash tables enable efficient graph lookups

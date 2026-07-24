@@ -422,6 +422,6 @@ conversion of mass to energy is the most efficient energy release possible.
 
 ## Cross-References
 
-- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
-- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
-- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits
+- **[Mechanics](diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](diag-waves-sound):** Waves transfer energy
+- **[Electricity](diag-electrical-circuits):** Electricity covers circuits

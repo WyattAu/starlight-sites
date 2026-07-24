@@ -114,6 +114,6 @@ Answer each question. Check your answers against the key at the end.
 
 ## Cross-References
 
-- **[Cold War](../history/diagnostics/diag-cold-war):** Cold War history is studied
-- **[Modern China](../history/diagnostics/diag-modern-china):** Modern China is a key topic
-- **[WWII](../history/diagnostics/diag-wwii):** WWII is a major topic
+- **[Cold War](diag-cold-war):** Cold War history is studied
+- **[Modern China](diag-modern-china):** Modern China is a key topic
+- **[WWII](diag-wwii):** WWII is a major topic

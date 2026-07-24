@@ -252,6 +252,6 @@ designed to be collision-resistant.
 
 ## Cross-References
 
-- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is fundamental to ICT
-- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems process data
-- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming manipulates data
+- **[Data Representation](../1-data-representation/1_data-representation):** Data is fundamental to ICT
+- **[Computer Systems](diag-computer-systems):** Systems process data
+- **[Programming](diag-programming-databases):** Programming manipulates data

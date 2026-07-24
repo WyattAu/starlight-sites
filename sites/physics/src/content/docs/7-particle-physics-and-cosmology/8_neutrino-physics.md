@@ -145,10 +145,10 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 Neutrinos are the most mysterious particles in the Standard Model: nearly massless, electrically neutral, and interacting only through the weak force. They come in three flavors, and neutrino oscillations proved they have mass by showing flavors transform into each other during flight. This discovery shattered the Standard Model as originally formulated. Neutrino masses are so tiny that their origin may differ from other particles, possibly involving heavy right-handed neutrinos at energy scales far beyond accelerator reach. Understanding neutrino masses and mixing could explain why the universe contains more matter than antimatter.
 ## Cross-References
 
-- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Neutrinos are fundamental fermions in the Standard Model, and their masses require extensions beyond the minimal framework.
-- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Lepton family number conservation and its possible violation are central to understanding neutrino oscillations and Majorana mass.
-- **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: The seesaw mechanism and neutrino mass generation are key motivations for physics beyond the Standard Model.
-- **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Neutrino decoupling and the effective number of relativistic species affect Big Bang nucleosynthesis and the CMB.
+- **[The Standard Model](1_the-standard-model)**: Neutrinos are fundamental fermions in the Standard Model, and their masses require extensions beyond the minimal framework.
+- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)**: Lepton family number conservation and its possible violation are central to understanding neutrino oscillations and Majorana mass.
+- **[Beyond the Standard Model](9_beyond-the-standard-model)**: The seesaw mechanism and neutrino mass generation are key motivations for physics beyond the Standard Model.
+- **[Big Bang Cosmology](7_big-bang-cosmology)**: Neutrino decoupling and the effective number of relativistic species affect Big Bang nucleosynthesis and the CMB.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

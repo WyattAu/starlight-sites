@@ -640,5 +640,5 @@ waterways.
 
 ## Cross-References
 
-- **[Biological Molecules](../biology/diagnostics/diag-biological-molecules):** Energy flow in ecosystems depends on biological molecules
-- **[Cell Biology](../biology/flashcards-cell-biology):** Ecological interactions occur between organisms at the cellular level
+- **[Biological Molecules](diag-biological-molecules):** Energy flow in ecosystems depends on biological molecules
+- **[Cell Biology](../flashcards-cell-biology):** Ecological interactions occur between organisms at the cellular level

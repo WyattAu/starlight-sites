@@ -851,9 +851,9 @@ linked above.
 
 ## Cross-References
 
-- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Boolean algebra operates on binary values
-- **[Operating Systems](../computer-science/fundamentals/05-operating-systems):** OS uses Boolean logic for decisions
-- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Logic underpins algorithm design
+- **[Number Systems](01-number-systems):** Boolean algebra operates on binary values
+- **[Operating Systems](05-operating-systems):** OS uses Boolean logic for decisions
+- **[Graph Algorithms](../algorithms/03-graph-algorithms):** Logic underpins algorithm design
 
 ## Intuition
 

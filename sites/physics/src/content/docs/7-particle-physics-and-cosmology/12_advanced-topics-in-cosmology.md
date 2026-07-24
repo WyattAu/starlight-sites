@@ -277,10 +277,10 @@ The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out
 
 ## Cross-References
 
-- **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: The Friedmann equations and CMB physics provide the framework for understanding the Sachs-Wolfe effect and primordial nucleosynthesis.
-- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Topological defects from symmetry breaking and the neutrino sector connect particle physics to cosmological observations.
-- **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: Dark matter candidates and inflation models are motivated by questions beyond the Standard Model.
-- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: The matter-antimatter asymmetry requires CP violation beyond the Standard Model, connecting to Sakharov conditions.
+- **[Big Bang Cosmology](7_big-bang-cosmology)**: The Friedmann equations and CMB physics provide the framework for understanding the Sachs-Wolfe effect and primordial nucleosynthesis.
+- **[The Standard Model](1_the-standard-model)**: Topological defects from symmetry breaking and the neutrino sector connect particle physics to cosmological observations.
+- **[Beyond the Standard Model](9_beyond-the-standard-model)**: Dark matter candidates and inflation models are motivated by questions beyond the Standard Model.
+- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)**: The matter-antimatter asymmetry requires CP violation beyond the Standard Model, connecting to Sakharov conditions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

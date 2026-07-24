@@ -892,5 +892,5 @@ Processes are programs in execution, each with its own memory space and priority
 
 ## Cross-References
 
-- [Package Management](07-package-management/package-management)
+- [Package Management](package-management)
 - [Linux Security](06-security/linux-security)

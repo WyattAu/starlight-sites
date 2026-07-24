@@ -477,6 +477,6 @@ unintended consequences that make the original problem worse.
 
 ## Cross-References
 
-- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Market failure occurs when allocation is inefficient
-- **[Theory of the Firm](../economics/diagnostics/diag-theory-of-the-firm):** Firm behaviour relates to market structure
-- **[Fiscal Policy](../economics/macro/04-fiscal-policy):** Government intervention corrects failures
+- **[Demand and Supply](diag-demand-supply):** Market failure occurs when allocation is inefficient
+- **[Theory of the Firm](diag-theory-of-the-firm):** Firm behaviour relates to market structure
+- **[Fiscal Policy](../macro/04-fiscal-policy):** Government intervention corrects failures

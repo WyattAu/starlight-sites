@@ -290,9 +290,9 @@ Superposition applies to linear PDEs but not to nonlinear PDEs. Do not assume th
 Partial differential equations extend ODEs to functions of multiple variables, describing phenomena that spread through space and time. While an ODE tracks a single particle's trajectory, a PDE tracks an entire field, like temperature分布 across a metal plate. The three canonical types have distinct personalities: elliptic equations like Laplace's describe steady states, parabolic equations like the heat equation describe diffusion toward equilibrium, and hyperbolic equations like the wave equation describe propagation without dissipation. The method of separation of variables works by decomposing complex behavior into simpler modes, like breaking a musical chord into individual notes.
 ## Cross-References
 
-- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Fourier series provide the eigenfunction expansions needed to solve PDEs by separation of variables.
-- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The spatial ODEs arising from separation of variables are second-order linear equations with boundary conditions.
-- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
+- **[Fourier Series](7_fourier-series)**: Fourier series provide the eigenfunction expansions needed to solve PDEs by separation of variables.
+- **[Second-Order Linear ODEs](3_second-order-linear-odes)**: The spatial ODEs arising from separation of variables are second-order linear equations with boundary conditions.
+- **[Laplace Transforms](5_laplace-transforms)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
 - **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

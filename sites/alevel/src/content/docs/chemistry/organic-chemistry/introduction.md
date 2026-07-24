@@ -1088,9 +1088,9 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 ## Cross-References
 
-- **[Alkanes](../chemistry/organic-chemistry/alkanes):** Alkanes are the foundation of organic chemistry
-- **[Alkenes](../chemistry/organic-chemistry/alkenes):** Alkenes introduce C=C double bonds
-- **[Alcohols](../chemistry/organic-chemistry/alcohols):** Alcohols contain hydroxyl groups
+- **[Alkanes](alkanes):** Alkanes are the foundation of organic chemistry
+- **[Alkenes](alkenes):** Alkenes introduce C=C double bonds
+- **[Alcohols](alcohols):** Alcohols contain hydroxyl groups
 
 ## Intuition
 

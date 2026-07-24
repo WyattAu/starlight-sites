@@ -877,6 +877,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- **[Alcohols](../chemistry/organic-chemistry/alcohols):** Alkenes undergo hydration to form alcohols
-- **[Alkanes](../chemistry/organic-chemistry/alkanes):** Alkenes are produced by cracking alkanes
-- **[Organic Introduction](../chemistry/organic-chemistry/introduction):** Alkenes contain C=C double bonds and undergo addition reactions
+- **[Alcohols](alcohols):** Alkenes undergo hydration to form alcohols
+- **[Alkanes](alkanes):** Alkenes are produced by cracking alkanes
+- **[Organic Introduction](introduction):** Alkenes contain C=C double bonds and undergo addition reactions

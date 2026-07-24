@@ -2041,6 +2041,6 @@ linked above.
 
 ## Cross-References
 
-- [Biology](/biology)
-- [Cells](/biology/cells)
-- [Genetics and DNA](/biology/genetics-and-dna)
+- [Biology](../biology)
+- [Cells](cells)
+- [Genetics and DNA](genetics-and-dna)

@@ -1468,6 +1468,6 @@ linked above.
 
 ## Cross-References
 
-- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Data representation is fundamental
-- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming uses data
-- **[Networking](../ict/diagnostics/diag-data-representation):** Networks transmit data
+- **[Computer Systems](../diagnostics/diag-computer-systems):** Data representation is fundamental
+- **[Programming](../diagnostics/diag-programming-databases):** Programming uses data
+- **[Networking](../diagnostics/diag-data-representation):** Networks transmit data

@@ -22,7 +22,7 @@ AP Biology explores the living world at every scale, from molecular processes to
 
 Key topics include the chemistry of life, enzyme kinetics, cellular respiration and photosynthesis, Mendelian and molecular genetics, population genetics, and biological systems. The exam tests both conceptual understanding and data analysis, so practise interpreting graphs, designing experiments, and applying the scientific method.
 
-Read the full guide: [AP Biology Study Guide](/biology).
+Read the full guide: [AP Biology Study Guide](biology).
 
 ## AP Chemistry
 
@@ -30,7 +30,7 @@ AP Chemistry gives you a deep understanding of matter and its interactions. The 
 
 You will work with Lewis structures, VSEPR theory, ideal gas laws, and equilibrium calculations. The exam rewards both conceptual clarity and quantitative problem-solving. Practise balancing half-reactions, constructing Born-Haber cycles, and interpreting titration curves.
 
-Read the full guide: [AP Chemistry Study Guide](/chemistry).
+Read the full guide: [AP Chemistry Study Guide](chemistry).
 
 ## AP Computer Science A
 
@@ -38,7 +38,7 @@ AP Computer Science A teaches object-oriented programming in Java. Core topics i
 
 You will practise designing classes, implementing methods, tracing code execution, and analysing time complexity. The exam tests your ability to write correct Java code and reason about program behaviour.
 
-Read the full guide: [AP Computer Science A Study Guide](/ap-computer-science-a).
+Read the full guide: [AP Computer Science A Study Guide](ap-computer-science-a).
 
 ## AP Computer Science Principles
 
@@ -46,7 +46,7 @@ AP Computer Science Principles introduces the foundational ideas of computing wi
 
 The course builds computational thinking through creative problem-solving and the exploration of real-world computing applications. You will complete a Create Performance Task as part of the course.
 
-Read the full guide: [AP Computer Science Principles Study Guide](/ap-computer-science-principles).
+Read the full guide: [AP Computer Science Principles Study Guide](ap-computer-science-principles).
 
 ## AP English Language and Composition
 
@@ -68,7 +68,7 @@ The AP History programme includes three distinct courses, each with its own them
 
 AP US History covers American history from 1491 to the present. Topics include colonial societies, the American Revolution, the Constitution, westward expansion, the Civil War and Reconstruction, industrialisation, the Progressive Era, the World Wars, the Cold War, and contemporary America. You will practise document-based questions (DBQs), long essay questions, and short answer questions.
 
-Read the full guide: [AP History Study Guide](/history).
+Read the full guide: [AP History Study Guide](history).
 
 ### AP European History
 
@@ -84,21 +84,21 @@ AP World History covers global history from 1200 CE to the present. The course e
 
 AP Calculus AB covers differential and integral calculus. Topics include limits, continuity, derivatives, applications of derivatives, integrals, the Fundamental Theorem of Calculus, and applications of integration. The course emphasises conceptual understanding and the ability to solve problems analytically, graphically, and numerically.
 
-Read the full guide: [AP Calculus AB Study Guide](/calculus-ab).
+Read the full guide: [AP Calculus AB Study Guide](calculus-ab).
 
-Practice materials: [AP Calculus AB Practice](/practice-calculus-ab).
+Practice materials: [AP Calculus AB Practice](practice-calculus-ab).
 
 ### AP Calculus BC
 
 AP Calculus BC includes all of the Calculus AB content plus additional topics: sequences, series, parametric equations, polar coordinates, and the Taylor and Maclaurin series. The course provides a more rigorous treatment of integration techniques and infinite processes.
 
-Practice materials: [AP Calculus BC Practice](/practice-calculus).
+Practice materials: [AP Calculus BC Practice](practice-calculus).
 
 ### AP Statistics
 
 AP Statistics introduces statistical reasoning and data analysis. Topics include exploratory data analysis, sampling and experimental design, probability distributions, sampling distributions, confidence intervals, hypothesis tests, and regression. You will practise interpreting real data sets, constructing statistical arguments, and using technology for calculations.
 
-Read the full guide: [AP Statistics Study Guide](/statistics).
+Read the full guide: [AP Statistics Study Guide](statistics).
 
 ## AP Physics
 
@@ -108,9 +108,9 @@ AP Physics offers several levels of study:
 
 AP Physics 1 covers Newtonian mechanics, work, energy, power, mechanical waves, sound, and introductory circuits. The course uses algebra and trigonometry rather than calculus. You will analyse physical systems, design experiments, and make predictions based on physical laws.
 
-Read the full guide: [AP Physics 1 Study Guide](/physics-1).
+Read the full guide: [AP Physics 1 Study Guide](physics-1).
 
-Practice materials: [AP Physics Mechanics Practice](/practice-physics-mechanics).
+Practice materials: [AP Physics Mechanics Practice](practice-physics-mechanics).
 
 ### AP Physics 2: Algebra-Based
 
@@ -124,7 +124,7 @@ AP Physics C: Mechanics is a calculus-based course covering kinematics, Newton's
 
 AP Physics C: E&M covers electrostatics, conductors and capacitors, electric circuits, magnetic fields, and electromagnetism. The course uses calculus to derive and apply physical laws.
 
-Read the full guide: [AP Physics Study Guide](/physics).
+Read the full guide: [AP Physics Study Guide](physics).
 
 ## AP Exam Strategy Tips
 

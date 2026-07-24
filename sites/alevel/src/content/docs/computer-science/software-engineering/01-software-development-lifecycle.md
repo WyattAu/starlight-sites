@@ -741,6 +741,6 @@ linked above.
 
 ## Cross-References
 
-- **[OOP](../computer-science/programming/02-object-oriented-programming):** OOP supports modular software design
-- **[Programming Constructs](../computer-science/programming/01-programming-constructs):** SDLC requires programming skills
-- **[Data Structures](../computer-science/data-structures/05-graphs):** Software engineering uses data structures
+- **[OOP](../programming/02-object-oriented-programming):** OOP supports modular software design
+- **[Programming Constructs](../programming/01-programming-constructs):** SDLC requires programming skills
+- **[Data Structures](../data-structures/05-graphs):** Software engineering uses data structures

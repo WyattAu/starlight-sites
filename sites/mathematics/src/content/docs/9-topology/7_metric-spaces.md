@@ -163,10 +163,10 @@ The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for
 
 ## Cross-References
 
-- **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.
-- **[Separation Axioms](9-topology/8_separation-axioms.md)**: Every metric space is Hausdorff and normal, placing it high in the separation axiom hierarchy.
+- **[Closed Sets, Closure, Interior, and Boundary](3_closed-sets-closure-interior-and-boundary)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.
+- **[Separation Axioms](8_separation-axioms)**: Every metric space is Hausdorff and normal, placing it high in the separation axiom hierarchy.
 - **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
-- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.
+- **[Introduction to Algebraic Topology](9_introduction-to-algebraic-topology)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

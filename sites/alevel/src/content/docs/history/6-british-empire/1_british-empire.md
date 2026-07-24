@@ -358,6 +358,6 @@ documents.
 
 ## Cross-References
 
-- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
-- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
-- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material
+- **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

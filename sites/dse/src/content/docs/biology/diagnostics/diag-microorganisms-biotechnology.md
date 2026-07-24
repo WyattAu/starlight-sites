@@ -454,6 +454,6 @@ corporate control of living resources.)
 
 ## Cross-References
 
-- **[Cell Biology](../biology/cell-biology):** Cell biology supports physiology
+- **[Cell Biology](../cell-biology):** Cell biology supports physiology
 - **[Genetics](../biology/3-genetics/genetics):** Genetics underpins biotechnology
 - **[Ecology](../biology/2-ecology/ecology):** Ecology studies organism interactions
