@@ -37,6 +37,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Theory Test', items: [{ autogenerate: { directory: 'theory-test' } }] },
         { label: 'Practical Test', items: [{ autogenerate: { directory: 'practical-test' } }] },
         { label: 'Mock Tests', items: [{ autogenerate: { directory: 'mock-tests' } }] },

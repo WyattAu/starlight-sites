@@ -36,6 +36,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'US Citizenship', items: [{ autogenerate: { directory: 'us-citizenship' } }] },
         { label: 'UK Citizenship', items: [{ autogenerate: { directory: 'uk-citizenship' } }] },
         {

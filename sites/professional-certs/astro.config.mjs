@@ -36,6 +36,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'AWS Certifications', items: [{ autogenerate: { directory: 'aws' } }] },
         { label: 'Azure Certifications', items: [{ autogenerate: { directory: 'azure' } }] },
         { label: 'Google Cloud', items: [{ autogenerate: { directory: 'gcp' } }] },

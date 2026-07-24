@@ -37,6 +37,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Written Test', items: [{ autogenerate: { directory: 'written-test' } }] },
         { label: 'Road Test', items: [{ autogenerate: { directory: 'road-test' } }] },
         { label: 'State Guides', items: [{ autogenerate: { directory: 'state-guides' } }] },

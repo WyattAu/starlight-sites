@@ -36,6 +36,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'CEFR Levels', items: [{ autogenerate: { directory: 'cefr-levels' } }] },
         { label: 'IELTS', items: [{ autogenerate: { directory: 'ielts' } }] },
         { label: 'TOEFL', items: [{ autogenerate: { directory: 'toefl' } }] },
