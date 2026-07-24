@@ -230,20 +230,20 @@ Create a file named `test.cpp`:
 #include <vector>
 #include <numeric>
 
-int main() {
+int main() \{
     // Test C++20/23 feature: Designated Initializers and Ranges
-    struct Config { int id; float value; };
-    Config cfg{ .id = 1, .value = 3.14f };
+    struct Config \{ int id; float value; \};
+    Config cfg\{ .id = 1, .value = 3.14f \};
 
-    std::vector<int> data = {1, 2, 3, 4, 5};
+    std::vector<int> data = \{1, 2, 3, 4, 5\};
 
     // Verify Output
-    if (cfg.value > 3.0f) {
+    if (cfg.value > 3.0f) \{
         std::cout << "Environment Verified. Standard: " << __cplusplus << "\n";
         return 0;
-    }
+    \}
     return 1;
-}
+\}
 ```
 
 ### Compilation Test
@@ -301,7 +301,7 @@ Unless you pass `/Zc:__cplusplus`. This is a long-standing bug acknowledged by M
 ```cpp
 #include <iostream>
 
-int main() {
+int main() \{
 #if defined(__clang__)
     std::cout << "Clang " << __clang_major__ << "." << __clang_minor__ << "\n";
 #elif defined(__GNUC__)
@@ -321,7 +321,7 @@ int main() {
 #endif
 
     return 0;
-}
+\}
 ```
 
 ## GCC vs Clang vs MSVC: Feature Comparison
@@ -524,13 +524,13 @@ Different memory layouts:
 #include <iostream>
 #include <string>
 
-int main() {
+int main() \{
     std::cout << "sizeof(std::string) = " << sizeof(std::string) << "\n";
     // libstdc++ (GCC/Clang default on Linux, 64-bit): 32
     // libc++ (Clang -stdlib=libc++, 64-bit): 24
     // MSVC STL (64-bit): 32
     return 0;
-}
+\}
 ```
 
 Mixing object files compiled with different `-stdlib=` values in the same binary produces undefined
@@ -726,7 +726,7 @@ otool -L ./infra_test
 #include <version>
 #include <iostream>
 
-int main() {
+int main() \{
     std::cout << "__cplusplus = " << __cplusplus << "\n";
 
 #if __has_cpp_attribute(nodiscard) >= 201907L
@@ -746,7 +746,7 @@ int main() {
 #endif
 
     return 0;
-}
+\}
 ```
 
 ### Cross-Compiler ABI Validation Script
@@ -757,14 +757,14 @@ Compilers produce correct output for the same input:
 ```cmake
 # abi_validation.cmake
 function(validate_compiler compiler_id compiler_cxx)
-    set(bin_dir ${CMAKE_BINARY_DIR}/validate_${compiler_id})
-    file(MAKE_DIRECTORY ${bin_dir})
+    set(bin_dir ${CMAKE_BINARY_DIR}/validate_$\{compiler_id\})
+    file(MAKE_DIRECTORY $\{bin_dir\})
 
     execute_process(
-        COMMAND ${CMAKE_COMMAND}
-            -S ${CMAKE_SOURCE_DIR}/tests/abi_check
-            -B ${bin_dir}
-            -DCMAKE_CXX_COMPILER=${compiler_cxx}
+        COMMAND $\{CMAKE_COMMAND\}
+            -S $\{CMAKE_SOURCE_DIR\}/tests/abi_check
+            -B $\{bin_dir\}
+            -DCMAKE_CXX_COMPILER=$\{compiler_cxx\}
             -DCMAKE_CXX_STANDARD=23
         OUTPUT_QUIET
         ERROR_VARIABLE err
@@ -772,18 +772,18 @@ function(validate_compiler compiler_id compiler_cxx)
     )
 
     if (NOT rc EQUAL 0)
-        message(WARNING "ABI validation failed for ${compiler_id}: ${err}")
+        message(WARNING "ABI validation failed for ${compiler_id}: $\{err\}")
     endif()
 
     execute_process(
-        COMMAND ${CMAKE_COMMAND} --build ${bin_dir}
+        COMMAND ${CMAKE_COMMAND} --build $\{bin_dir\}
         OUTPUT_QUIET
         ERROR_VARIABLE err
         RESULT_VARIABLE rc
     )
 
     if (NOT rc EQUAL 0)
-        message(WARNING "ABI validation build failed for ${compiler_id}: ${err}")
+        message(WARNING "ABI validation build failed for ${compiler_id}: $\{err\}")
     endif()
 endfunction()
 

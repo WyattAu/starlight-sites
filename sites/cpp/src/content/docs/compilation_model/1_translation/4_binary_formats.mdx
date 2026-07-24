@@ -124,7 +124,7 @@ Despite the differences in file headers, all three formats organize C++ content 
 - **C++ Mapping:** Constructors of global/static objects.
 
   ```cpp
-  struct System { System() { /* ... */ } };
+  struct System \{ System() \{ /* ... */ \} \};
   System sys; // The constructor call is registered here
   ```
 
@@ -345,10 +345,10 @@ int derived_value = config_value * 2; // UB if a.cpp is linked before config's T
 inline constinit int config_value = 42; // constant initialization, no .init_array entry
 // GOOD: use "construct on first use" idiom
 // header.h
-int& get_config() {
+int& get_config() \{
     static int config_value = 42; // thread-safe since C++11, no ordering issue
     return config_value;
-}
+\}
 ```
 ### Symbol Tables: `.symtab` vs `.dynsym`
 ELF binaries contain two symbol tables with distinct purposes:
@@ -550,7 +550,7 @@ size -A ./app
 # Per-symbol size (requires debug info)
 nm -S --size-sort ./app
 # Largest sections
-readelf -S ./app | awk '{print $6, $2}' | sort -rn | head -20
+readelf -S ./app | awk '\{print $6, $2\}' | sort -rn | head -20
 # Identify the largest functions (requires debug info)
 bloaty --sorted_by=vmss ./app
 ```

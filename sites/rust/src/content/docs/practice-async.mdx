@@ -19,38 +19,38 @@ Define a trait with async methods using the `async-trait` crate and implement it
 use async_trait::async_trait;
 
 #[async_trait]
-trait DataStore {
+trait DataStore \{
     async fn get(&self, key: &str) -> Option<String>;
     async fn set(&mut self, key: &str, value: String);
     async fn keys(&self) -> Vec<String>;
-}
+\}
 
-struct InMemoryStore {
+struct InMemoryStore \{
     data: std::collections::HashMap<String, String>,
-}
+\}
 
-impl InMemoryStore {
-    fn new() -> Self {
-        InMemoryStore {
+impl InMemoryStore \{
+    fn new() -> Self \{
+        InMemoryStore \{
             data: std::collections::HashMap::new(),
-        }
-    }
-}
+        \}
+    \}
+\}
 
 #[async_trait]
-impl DataStore for InMemoryStore {
-    async fn get(&self, key: &str) -> Option<String> {
+impl DataStore for InMemoryStore \{
+    async fn get(&self, key: &str) -> Option<String> \{
         self.data.get(key).cloned()
-    }
+    \}
 
-    async fn set(&mut self, key: &str, value: String) {
+    async fn set(&mut self, key: &str, value: String) \{
         self.data.insert(key.to_string(), value);
-    }
+    \}
 
-    async fn keys(&self) -> Vec<String> {
+    async fn keys(&self) -> Vec<String> \{
         self.data.keys().cloned().collect()
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -67,31 +67,31 @@ Use `tokio_stream` to create a stream, filter, map, and collect results.
 use tokio_stream::StreamExt;
 use tokio_stream::wrappers::ReceiverStream;
 
-async fn process_stream() -> Vec<i32> {
+async fn process_stream() -> Vec<i32> \{
     let (tx, rx) = tokio::sync::mpsc::channel(32);
 
-    tokio::spawn(async move {
-        for i in 0..10 {
+    tokio::spawn(async move \{
+        for i in 0..10 \{
             tx.send(i).await.unwrap();
-        }
-    });
+        \}
+    \});
 
     let stream = ReceiverStream::new(rx);
 
     let results: Vec<i32> = stream
-        .filter_map(|x| async move {
+        .filter_map(|x| async move \{
             let val = x;
-            if val % 2 == 0 {
+            if val % 2 == 0 \{
                 Some(val * 10)
-            } else {
+            \} else \{
                 None
-            }
-        })
+            \}
+        \})
         .collect()
         .await;
 
     results
-}
+\}
 ```
 
 ---
@@ -105,46 +105,46 @@ Implement a message-passing system using `tokio::sync::mpsc` and `tokio::sync::b
 **Hint:** `mpsc` is multi-producer single-consumer; `broadcast` is multi-producer multi-consumer.
 
 ```rust
-use tokio::sync::{mpsc, broadcast};
+use tokio::sync::\{mpsc, broadcast\};
 
-async fn mpsc_example() {
+async fn mpsc_example() \{
     let (tx, mut rx) = mpsc::channel(32);
 
     let tx2 = tx.clone();
 
-    tokio::spawn(async move {
+    tokio::spawn(async move \{
         tx.send("hello from task 1").await.unwrap();
-    });
+    \});
 
-    tokio::spawn(async move {
+    tokio::spawn(async move \{
         tx2.send("hello from task 2").await.unwrap();
-    });
+    \});
 
-    while let Some(msg) = rx.recv().await {
-        println!("received: {}", msg);
-    }
-}
+    while let Some(msg) = rx.recv().await \{
+        println!("received: \{\}", msg);
+    \}
+\}
 
-async fn broadcast_example() {
+async fn broadcast_example() \{
     let (tx, _) = broadcast::channel(16);
 
     let mut rx1 = tx.subscribe();
     let mut rx2 = tx.subscribe();
 
-    tokio::spawn(async move {
+    tokio::spawn(async move \{
         tx.send("broadcast message").unwrap();
-    });
+    \});
 
-    tokio::spawn(async move {
+    tokio::spawn(async move \{
         let msg = rx1.recv().await.unwrap();
-        println!("rx1: {}", msg);
-    });
+        println!("rx1: \{\}", msg);
+    \});
 
-    tokio::spawn(async move {
+    tokio::spawn(async move \{
         let msg = rx2.recv().await.unwrap();
-        println!("rx2: {}", msg);
-    });
-}
+        println!("rx2: \{\}", msg);
+    \});
+\}
 ```
 
 ---
@@ -158,34 +158,34 @@ Chain async operations using `futures::future::join_all` and `futures::future::s
 **Hint:** Use `join_all` to run multiple futures concurrently and `select` to race two futures.
 
 ```rust
-use futures::future::{join_all, select, Either};
+use futures::future::\{join_all, select, Either\};
 use std::future::Future;
 
-async fn fetch_data(id: u32) -> String {
-    format!("data-{}", id)
-}
+async fn fetch_data(id: u32) -> String \{
+    format!("data-\{\}", id)
+\}
 
-async fn fetch_all() -> Vec<String> {
+async fn fetch_all() -> Vec<String> \{
     let futures: Vec<_> = (1..=5).map(|id| fetch_data(id)).collect();
     join_all(futures).await
-}
+\}
 
-async fn race_tasks() -> String {
-    let slow = async {
+async fn race_tasks() -> String \{
+    let slow = async \{
         tokio::time::sleep(std::time::Duration::from_secs(10)).await;
         "slow".to_string()
-    };
+    \};
 
-    let fast = async {
+    let fast = async \{
         tokio::time::sleep(std::time::Duration::from_millis(10)).await;
         "fast".to_string()
-    };
+    \};
 
-    match select(Box::pin(slow), Box::pin(fast)).await {
+    match select(Box::pin(slow), Box::pin(fast)).await \{
         Either::Left((val, _)) => val,
         Either::Right((val, _)) => val,
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -202,51 +202,51 @@ Implement proper error handling in async code using `tokio::try_join!` and custo
 use std::fmt;
 
 #[derive(Debug)]
-enum AppError {
+enum AppError \{
     Io(std::io::Error),
     Parse(std::num::ParseIntError),
     Custom(String),
-}
+\}
 
-impl fmt::Display for AppError {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        match self {
-            AppError::Io(e) => write!(f, "IO error: {}", e),
-            AppError::Parse(e) => write!(f, "parse error: {}", e),
-            AppError::Custom(msg) => write!(f, "{}", msg),
-        }
-    }
-}
+impl fmt::Display for AppError \{
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result \{
+        match self \{
+            AppError::Io(e) => write!(f, "IO error: \{\}", e),
+            AppError::Parse(e) => write!(f, "parse error: \{\}", e),
+            AppError::Custom(msg) => write!(f, "\{\}", msg),
+        \}
+    \}
+\}
 
-impl From<std::io::Error> for AppError {
-    fn from(e: std::io::Error) -> Self {
+impl From<std::io::Error> for AppError \{
+    fn from(e: std::io::Error) -> Self \{
         AppError::Io(e)
-    }
-}
+    \}
+\}
 
-impl From<std::num::ParseIntError> for AppError {
-    fn from(e: std::num::ParseIntError) -> Self {
+impl From<std::num::ParseIntError> for AppError \{
+    fn from(e: std::num::ParseIntError) -> Self \{
         AppError::Parse(e)
-    }
-}
+    \}
+\}
 
-async fn read_config(path: &str) -> Result<String, AppError> {
+async fn read_config(path: &str) -> Result<String, AppError> \{
     tokio::fs::read_to_string(path)
         .await
         .map_err(AppError::from)
-}
+\}
 
-async fn parse_value(input: &str) -> Result<i32, AppError> {
+async fn parse_value(input: &str) -> Result<i32, AppError> \{
     input.trim().parse::<i32>().map_err(AppError::from)
-}
+\}
 
-async fn combined_operation() -> Result<(String, i32), AppError> {
+async fn combined_operation() -> Result<(String, i32), AppError> \{
     let (config, parsed) = tokio::try_join!(
         read_config("config.txt"),
         parse_value("42")
     )?;
     Ok((config, parsed))
-}
+\}
 ```
 
 ## Intuition

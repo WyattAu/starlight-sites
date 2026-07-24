@@ -41,7 +41,7 @@ TypeScript adds a compile-time type layer on top of JavaScript — the types exi
 ## Advanced Topics
 
 - **Conditional types:** `T extends U ? X : Y` enables type-level programming. Used for extracting return types, parameter types, and building type-safe APIs.
-- **Template literal types:** `` `${A}-${B}` `` creates string types from combinations. Useful for type-safe route parameters and SQL queries.
+- **Template literal types:** `` `${A}-$\{B\}` `` creates string types from combinations. Useful for type-safe route parameters and SQL queries.
 - **Type inference with `infer`:** The `infer` keyword extracts types from complex structures. Used in utility types like `ReturnType<T>` and `Parameters<T>`.
 
 ---

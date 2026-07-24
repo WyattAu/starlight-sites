@@ -125,9 +125,9 @@ Consider two translation units compiled with different ABIs. Unit A uses `libstd
 #include <string>
 #include <cstddef>
 
-extern "C" std::size_t get_string_size_libstdcxx(std::string s) {
+extern "C" std::size_t get_string_size_libstdcxx(std::string s) \{
     return s.size();
-}
+\}
 ```
 
 ```cpp
@@ -138,7 +138,7 @@ extern "C" std::size_t get_string_size_libstdcxx(std::string s) {
 
 extern "C" std::size_t get_string_size_libstdcxx(std::string s);
 
-int main() {
+int main() \{
     std::string msg = "hello";
     // The caller (libc++) constructs a std::string with sizeof=24 (libc++ SSO buffer is 22 bytes)
     // The callee (libstdc++) expects sizeof=32 (libstdc++ SSO buffer is 15 bytes)
@@ -146,7 +146,7 @@ int main() {
     // This reads 8 bytes of stack garbage, causing undefined behavior.
     std::cout << get_string_size_libstdcxx(msg) << "\n";
     return 0;
-}
+\}
 ```
 
 This compiles and links without error because `extern "C"` suppresses name mangling. However, at
@@ -222,7 +222,7 @@ Inspection code.
 #include <iostream>
 #include <vector>
 
-int main() {
+int main() \{
     std::cout << "Compiler and ABI Inspection:\n";
 
     // 1. Check Standard Version
@@ -245,7 +245,7 @@ int main() {
 #endif
 
     return 0;
-}
+\}
 ```
 
 ### CMake Integration
@@ -399,17 +399,17 @@ The following table catalogs known ABI-breaking changes introduced by various C+
 
 ```cpp
 // v1 of library (libfoo.so):
-struct Config {
+struct Config \{
     int timeout = 30;
     bool verbose = false;
-};
+\};
 
 // v2 of library (libfoo.so):
-struct Config {
+struct Config \{
     int timeout = 30;
     bool verbose = false;
     int retries = 3;  // NEW FIELD — changes sizeof(Config)
-};
+\};
 
 // Application compiled against v1, linked against v2:
 // - If application passes Config by value, the callee reads past the allocated memory
@@ -480,12 +480,12 @@ MSVC uses a different C++ ABI from the Itanium ABI used by GCC/Clang. Key differ
 ```cpp
 #include <iostream>
 
-int main() {
+int main() \{
     std::cout << "sizeof(long): " << sizeof(long) << "\n";
     std::cout << "sizeof(pointer): " << sizeof(void*) << "\n";
     // On Windows (MSVC): sizeof(long) = 4, sizeof(pointer) = 8
     // On Linux x86-64 (GCC/Clang): sizeof(long) = 8, sizeof(pointer) = 8
-}
+\}
 ```
 
 The `sizeof(long)` difference is a consequence of the different data models: Windows uses the LLP64
@@ -536,12 +536,12 @@ Providing ABI versioning without API changes:
 ```cpp
 #include <iostream>
 
-int main() {
+int main() \{
     // User code sees std::string
     // But the mangled symbol is std::__cxx11::basic_string<char, ...>
     std::string s = "hello";
     std::cout << s << "\n";
-}
+\}
 ```
 
 The `_GLIBCXX_USE_CXX11_ABI` macro controls whether the old ABI namespace or the new ABI namespace
@@ -568,13 +568,13 @@ Consider the following simplified representation of how `libstdc++` implements t
 
 ```cpp
 // Inside <string> (simplified):
-namespace std {
+namespace std \{
     // Legacy ABI (inline namespace removed, so symbols mangle as std::basic_string)
-    inline namespace __cxx11 {
+    inline namespace __cxx11 \{
         template&lt;typename CharT, ...&gt;
-        class basic_string { /* SSO implementation */ };
-    }
-}
+        class basic_string \{ /* SSO implementation */ \};
+    \}
+\}
 ```
 
 When `_GLIBCXX_USE_CXX11_ABI=1``basic_string` is defined inside `std::__cxx11`. The mangled name For

@@ -25,7 +25,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main() \{
     // Go infers int from the literal
     var x = 42
     fmt.Printf("Type of x: %T, Value: %v\n", x, x)
@@ -41,7 +41,7 @@ func main() {
     // Multiple declarations
     a, b, c := 1, 2.0, "three"
     fmt.Printf("a=%T, b=%T, c=%T\n", a, b, c)
-}
+\}
 ```
 
 **Output:**
@@ -68,39 +68,39 @@ import (
 )
 
 // Variadic function that accepts any number of integers
-func sum(nums ...int) int {
+func sum(nums ...int) int \{
     total := 0
-    for _, n := range nums {
+    for _, n := range nums \{
         total += n
-    }
+    \}
     return total
-}
+\}
 
 // Function returning multiple values with error
-func divide(a, b float64) (float64, error) {
-    if b == 0 {
+func divide(a, b float64) (float64, error) \{
+    if b == 0 \{
         return 0, errors.New("division by zero")
-    }
+    \}
     return a / b, nil
-}
+\}
 
-func main() {
+func main() \{
     // Calling variadic function
     result := sum(1, 2, 3, 4, 5)
     fmt.Printf("Sum: %d\n", result)
 
     // Error handling pattern
-    if quotient, err := divide(10, 3); err != nil {
+    if quotient, err := divide(10, 3); err != nil \{
         fmt.Printf("Error: %v\n", err)
-    } else {
+    \} else \{
         fmt.Printf("10 / 3 = %.4f\n", quotient)
-    }
+    \}
 
     // Error case
-    if _, err := divide(10, 0); err != nil {
+    if _, err := divide(10, 0); err != nil \{
         fmt.Printf("Error: %v\n", err)
-    }
-}
+    \}
+\}
 ```
 
 **Output:**
@@ -123,32 +123,32 @@ package main
 import "fmt"
 
 // Define an interface
-type Stringer interface {
+type Stringer interface \{
     String() string
-}
+\}
 
 // Define a type
 type MyInt int
 
 // Implement the interface (no explicit "implements" keyword)
-func (m MyInt) String() string {
+func (m MyInt) String() string \{
     return fmt.Sprintf("MyInt(%d)", int(m))
-}
+\}
 
 // Function accepting an interface
-func printTwice(s Stringer) {
+func printTwice(s Stringer) \{
     fmt.Println(s.String())
     fmt.Println(s.String())
-}
+\}
 
-func main() {
+func main() \{
     x := MyInt(42)
     printTwice(x)
 
     // MyInt satisfies Stringer implicitly
     var s Stringer = x
     fmt.Printf("Interface value: %s\n", s.String())
-}
+\}
 ```
 
 **Output:**
@@ -173,26 +173,26 @@ import (
     "sync"
 )
 
-func worker(id int, wg *sync.WaitGroup) {
+func worker(id int, wg *sync.WaitGroup) \{
     defer wg.Done()
     fmt.Printf("Worker %d starting\n", id)
     // Simulate work
     fmt.Printf("Worker %d done\n", id)
-}
+\}
 
-func main() {
+func main() \{
     var wg sync.WaitGroup
 
     // Launch 3 goroutines
-    for i := 1; i <= 3; i++ {
+    for i := 1; i <= 3; i++ \{
         wg.Add(1)
         go worker(i, &wg)
-    }
+    \}
 
     // Wait for all goroutines to complete
     wg.Wait()
     fmt.Println("All workers finished")
-}
+\}
 ```
 
 **Output (order may vary):**

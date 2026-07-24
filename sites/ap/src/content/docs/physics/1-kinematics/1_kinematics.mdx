@@ -33,21 +33,21 @@ Kinematics describes the motion of objects without considering the forces that c
 For position $\vec{r}(t)$:
 
 $$
-\vec{v}(t) = \frac{d\vec{r}}{dt}
+\vec\{v\}(t) = \frac\{d\vec\{r\}\}\{dt\}
 $$
 
 $$
-\vec{a}(t) = \frac{d\vec{v}}{dt} = \frac{d^2\vec{r}}{dt^2}
+\vec\{a\}(t) = \frac\{d\vec\{v\}\}\{dt\} = \frac\{d^2\vec\{r\}\}\{dt^2\}
 $$
 
 Conversely, by integration:
 
 $$
-\vec{v}(t) = \vec{v}_0 + \int_0^t \vec{a}(t')\, dt'
+\vec\{v\}(t) = \vec\{v\}_0 + \int_0^t \vec\{a\}(t')\, dt'
 $$
 
 $$
-\vec{r}(t) = \vec{r}_0 + \int_0^t \vec{v}(t')\, dt'
+\vec\{r\}(t) = \vec\{r\}_0 + \int_0^t \vec\{v\}(t')\, dt'
 $$
 
 ### Why Calculus Is the Natural Language of Kinematics
@@ -73,7 +73,7 @@ V(t) = v_0 + at
 $$
 
 $$
-X(t) = x_0 + v_0 t + \frac{1}{2}at^2
+X(t) = x_0 + v_0 t + \frac\{1\}\{2\}at^2
 $$
 
 $$
@@ -81,7 +81,7 @@ V^2 = v_0^2 + 2a(x - x_0)
 $$
 
 $$
-X - x_0 = \frac{v_0 + v}{2} t
+X - x_0 = \frac\{v_0 + v\}\{2\} t
 $$
 
 ### Derivation from Calculus
@@ -89,13 +89,13 @@ $$
 Starting from $a = \frac{dv}{dt} = \mathrm{const$:
 
 $$
-\int_{v_0}^{v} dv' = \int_0^t a\, dt' \implies v - v_0 = at \implies v = v_0 + at
+\int_\{v_0\}^\{v\} dv' = \int_0^t a\, dt' \implies v - v_0 = at \implies v = v_0 + at
 $$
 
 Then $v = \frac{dx}{dt}$:
 
 $$
-\int_{x_0}^{x} dx' = \int_0^t (v_0 + at')\, dt' \implies x - x_0 = v_0 t + \frac{1}{2}at^2
+\int_\{x_0\}^\{x\} dx' = \int_0^t (v_0 + at')\, dt' \implies x - x_0 = v_0 t + \frac\{1\}\{2\}at^2
 $$
 
 ### Eliminating Time: The $v^2$ Equation
@@ -104,11 +104,11 @@ To eliminate $t$ from the first two equations, substitute $t = (v - v_0)/a$ into
 Equation:
 
 $$
-X - x_0 = v_0 \frac{v - v_0}{a} + \frac{1}{2}a\left(\frac{v - v_0}{a}\right)^2
+X - x_0 = v_0 \frac\{v - v_0\}\{a\} + \frac\{1\}\{2\}a\left(\frac\{v - v_0\}\{a\}\right)^2
 $$
 
 $$
-X - x_0 = \frac{v_0 v - v_0^2}{a} + \frac{v^2 - 2v_0 v + v_0^2}{2a}
+X - x_0 = \frac\{v_0 v - v_0^2\}\{a\} + \frac\{v^2 - 2v_0 v + v_0^2\}\{2a\}
 $$
 
 $$
@@ -126,7 +126,7 @@ This equation is useful because it relates velocity and displacement without req
 A car accelerates uniformly from rest at $3.0 \mathrm{ m/s^2$ for 5.0 s. Find the distance traveled.
 
 $$
-X = 0 + 0 \cdot 5.0 + \frac{1}{2}(3.0)(5.0)^2 = \frac{1}{2}(3.0)(25) = 37.5 \mathrm{ m
+X = 0 + 0 \cdot 5.0 + \frac\{1\}\{2\}(3.0)(5.0)^2 = \frac\{1\}\{2\}(3.0)(25) = 37.5 \mathrm\{ m
 $$
 
 
@@ -150,7 +150,7 @@ The variable that does _not_ appear in each equation tells you when to use it.
 Near Earth\'s surface, the acceleration due to gravity is approximately:
 
 $$
-G \approx 9.8 \mathrm{ m/s^2 \approx 32 \mathrm{ ft/s^2
+G \approx 9.8 \mathrm\{ m/s^2 \approx 32 \mathrm\{ ft/s^2
 $$
 
 Directed downward. In the standard coordinate system (upward positive), $a = -g$.
@@ -162,7 +162,7 @@ V = v_0 - gt
 $$
 
 $$
-Y = y_0 + v_0 t - \frac{1}{2}gt^2
+Y = y_0 + v_0 t - \frac\{1\}\{2\}gt^2
 $$
 
 $$
@@ -186,13 +186,13 @@ Height and the total time in the air.
 **Maximum height:** At the peak, $v = 0$.
 
 $$
-V^2 = v_0^2 - 2g(y - y_0) \implies 0 = (20)^2 - 2(9.8)y \implies y = \frac{400}{19.6} \approx 20.4 \mathrm{ m
+V^2 = v_0^2 - 2g(y - y_0) \implies 0 = (20)^2 - 2(9.8)y \implies y = \frac\{400\}\{19.6\} \approx 20.4 \mathrm\{ m
 $$
 
 **Time in air:** The ball returns to $y = 0$:
 
 $$
-0 = 20t - \frac{1}{2}(9.8)t^2 \implies t(20 - 4.9t) = 0 \implies t = \frac{20}{4.9} \approx 4.08 \mathrm{ s
+0 = 20t - \frac\{1\}\{2\}(9.8)t^2 \implies t(20 - 4.9t) = 0 \implies t = \frac\{20\}\{4.9\} \approx 4.08 \mathrm\{ s
 $$
 
 
@@ -211,17 +211,17 @@ Kinematic equations.
 ### Horizontal Motion (constant velocity, no acceleration)
 
 $$
-X(t) = x_0 + v_{0x} t = x_0 + (v_0 \cos\theta) t
+X(t) = x_0 + v_\{0x\} t = x_0 + (v_0 \cos\theta) t
 $$
 
 $$
-V_x(t) = v_0 \cos\theta \quad \mathrm{(constant)
+V_x(t) = v_0 \cos\theta \quad \mathrm\{(constant)
 $$
 
 ### Vertical Motion (free fall)
 
 $$
-Y(t) = y_0 + v_{0y} t - \frac{1}{2}gt^2 = y_0 + (v_0 \sin\theta) t - \frac{1}{2}gt^2
+Y(t) = y_0 + v_\{0y\} t - \frac\{1\}\{2\}gt^2 = y_0 + (v_0 \sin\theta) t - \frac\{1\}\{2\}gt^2
 $$
 
 $$
@@ -241,13 +241,13 @@ $$
 The projectile lands when $y = 0$:
 
 $$
-0 = (v_0 \sin\theta) T - \frac{1}{2}gT^2 \implies T = \frac{2v_0 \sin\theta}{g}
+0 = (v_0 \sin\theta) T - \frac\{1\}\{2\}gT^2 \implies T = \frac\{2v_0 \sin\theta\}\{g\}
 $$
 
 The horizontal distance at time $T$:
 
 $$
-R = (v_0 \cos\theta) T = (v_0 \cos\theta) \cdot \frac{2v_0 \sin\theta}{g} = \frac{v_0^2 \cdot 2\sin\theta \cos\theta}{g} = \frac{v_0^2 \sin 2\theta}{g}
+R = (v_0 \cos\theta) T = (v_0 \cos\theta) \cdot \frac\{2v_0 \sin\theta\}\{g\} = \frac\{v_0^2 \cdot 2\sin\theta \cos\theta\}\{g\} = \frac\{v_0^2 \sin 2\theta\}\{g\}
 $$
 
 Using the double-angle identity $\sin 2\theta = 2\sin\theta \cos\theta$.
@@ -265,11 +265,11 @@ Launch goes higher and stays in the air longer.
 Eliminating $t$ from the horizontal and vertical equations:
 
 $$
-T = \frac{x}{v_0 \cos\theta}
+T = \frac\{x\}\{v_0 \cos\theta\}
 $$
 
 $$
-Y = x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta}
+Y = x\tan\theta - \frac\{gx^2\}\{2v_0^2\cos^2\theta\}
 $$
 
 This is a quadratic in $x$So the trajectory is a parabola. The negative coefficient of $x^2$
@@ -286,13 +286,13 @@ $\cos 37^\circ \approx 0.8$, $\sin 37^\circ \approx 0.6$.
 **Range:**
 
 $$
-R = \frac{(50)^2 \sin 74^\circ}{9.8} = \frac{2500 \times 0.9613}{9.8} \approx 245.2 \mathrm{ m
+R = \frac\{(50)^2 \sin 74^\circ\}\{9.8\} = \frac\{2500 \times 0.9613\}\{9.8\} \approx 245.2 \mathrm\{ m
 $$
 
 **Maximum height:**
 
 $$
-H = \frac{(50 \times 0.6)^2}{2 \times 9.8} = \frac{900}{19.6} \approx 45.9 \mathrm{ m
+H = \frac\{(50 \times 0.6)^2\}\{2 \times 9.8\} = \frac\{900\}\{19.6\} \approx 45.9 \mathrm\{ m
 $$
 
 
@@ -338,11 +338,11 @@ An object moving in a circle of radius $r$ at constant speed $v$ has:
 ### Angular Quantities
 
 $$
-\omega = \frac{d\theta}{dt} = \frac{v}{r}
+\omega = \frac\{d\theta\}\{dt\} = \frac\{v\}\{r\}
 $$
 
 $$
-A_c = \omega^2 r = \frac{v^2}{r}
+A_c = \omega^2 r = \frac\{v^2\}\{r\}
 $$
 
 ### Derivation of Centripetal Acceleration
@@ -354,19 +354,19 @@ Magnitude $v$.
 The change in velocity $\Delta\vec{v}$ is perpendicular to $\vec{v}$ and has magnitude:
 
 $$
-|\Delta\vec{v}| = v \cdot \Delta\theta
+|\Delta\vec\{v\}| = v \cdot \Delta\theta
 $$
 
 Since $\Delta\theta = \frac{v \Delta t}{r}$:
 
 $$
-|\Delta\vec{v}| = v \cdot \frac{v \Delta t}{r} = \frac{v^2 \Delta t}{r}
+|\Delta\vec\{v\}| = v \cdot \frac\{v \Delta t\}\{r\} = \frac\{v^2 \Delta t\}\{r\}
 $$
 
 The centripetal acceleration is:
 
 $$
-A_c = \lim_{\Delta t \to 0} \frac{|\Delta\vec{v}|}{\Delta t} = \frac{v^2}{r}
+A_c = \lim_\{\Delta t \to 0\} \frac\{|\Delta\vec\{v\}|\}\{\Delta t\} = \frac\{v^2\}\{r\}
 $$
 
 ### Why Centripetal Acceleration Does Not Change Speed
@@ -383,7 +383,7 @@ toward the center, never along the velocity.
 A car rounds a curve of radius 50 m at $15 \mathrm{ m/s$. What is its centripetal acceleration?
 
 $$
-A_c = \frac{v^2}{r} = \frac{(15)^2}{50} = \frac{225}{50} = 4.5 \mathrm{ m/s^2
+A_c = \frac\{v^2\}\{r\} = \frac\{(15)^2\}\{50\} = \frac\{225\}\{50\} = 4.5 \mathrm\{ m/s^2
 $$
 
 
@@ -418,13 +418,13 @@ $t = 0$ To $t = 3$ s and the acceleration at $t = 2$ s.
 **Displacement:**
 
 $$
-\Delta x = \int_0^3 v(t)\, dt = \int_0^3 (3t^2 - 6t + 2)\, dt = \left[t^3 - 3t^2 + 2t\right]_0^3 = 27 - 27 + 6 = 6 \mathrm{ m
+\Delta x = \int_0^3 v(t)\, dt = \int_0^3 (3t^2 - 6t + 2)\, dt = \left[t^3 - 3t^2 + 2t\right]_0^3 = 27 - 27 + 6 = 6 \mathrm\{ m
 $$
 
 **Acceleration:**
 
 $$
-A(t) = \frac{dv}{dt} = 6t - 6 \implies a(2) = 6(2) - 6 = 6 \mathrm{ m/s^2
+A(t) = \frac\{dv\}\{dt\} = 6t - 6 \implies a(2) = 6(2) - 6 = 6 \mathrm\{ m/s^2
 $$
 
 
@@ -447,7 +447,7 @@ In one dimension with two reference frames $S$ and $S'$Where $S'$ moves with vel
 Relative to $S$:
 
 $$
-\vec{v}_{P/S} = \vec{v}_{P/S'} + \vec{v}_{S'/S}
+\vec\{v\}_\{P/S\} = \vec\{v\}_\{P/S'\} + \vec\{v\}_\{S'/S\}
 $$
 
 This is the **Galilean velocity addition** formula.
@@ -457,11 +457,11 @@ This is the **Galilean velocity addition** formula.
 In two dimensions, the velocity addition is done component by component:
 
 $$
-V_{P/x} = v_{P/S'}\cos\alpha + v_{S'/S}\cos\beta
+V_\{P/x\} = v_\{P/S'\}\cos\alpha + v_\{S'/S\}\cos\beta
 $$
 
 $$
-V_{P/y} = v_{P/S'}\sin\alpha + v_{S'/S}\sin\beta
+V_\{P/y\} = v_\{P/S'\}\sin\alpha + v_\{S'/S\}\sin\beta
 $$
 
 Where $\alpha$ is the angle of the particle\'s velocity in frame $S'$ and $\beta$ is the angle of
@@ -476,7 +476,7 @@ Flows at $3 \mathrm{ m/s$. How far downstream does the boat land?
 The boat\'s velocity relative to the shore has two components:
 
 $$
-V_x = 3 \mathrm{ m/s \quad \mathrm{(downstream), \qquad v_y = 4 \mathrm{ m/s \quad \mathrm{(across)
+V_x = 3 \mathrm\{ m/s \quad \mathrm\{(downstream), \qquad v_y = 4 \mathrm\{ m/s \quad \mathrm\{(across)
 $$
 
 Time to cross: $\displaystyle t = \frac{100}{4} = 25 \mathrm{ s$.
@@ -491,7 +491,7 @@ Its velocity relative to the water cancels the river current. If the boat has sp
 River flows at $v_r$:
 
 $$
-\sin\theta = \frac{v_r}{v_b}
+\sin\theta = \frac\{v_r\}\{v_b\}
 $$
 
 Where $\theta$ is the angle upstream from the perpendicular. This requires $v_b \gt v_r$; otherwise,

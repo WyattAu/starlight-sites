@@ -58,7 +58,7 @@ Seems to be broken at the moment, the following does not seem to work:
 Using remark math with rehype Katex, equations written in LaTeX can be rendered, however LaTeX
 Packages cannot be included.
 $$
-\frac{\partial \rho}{\partial t} + \frac{\partial(\rho u_{i})}{\partial x_{i}} = 0
+\frac\{\partial \rho\}\{\partial t\} + \frac\{\partial(\rho u_\{i\})\}\{\partial x_\{i\}\} = 0
 $$
 ### Admonitions
 Docusaurus supports admonition callouts using triple-colon syntax:
@@ -96,7 +96,7 @@ Docusaurus renders Mermaid diagrams inside fenced code blocks tagged with `merma
 ````md
 ```mermaid
 graph TD
-    A[Start] --> B{Decision}
+    A[Start] --> B\{Decision\}
     B -->|Yes| C[Action A]
     B -->|No| D[Action B]
 ```

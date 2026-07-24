@@ -183,28 +183,28 @@ Understanding when to use stack vs heap allocation is critical for performance a
 #include <vector>
 #include <chrono>
 
-void stack_vs_heap_benchmark() {
+void stack_vs_heap_benchmark() \{
     constexpr int N = 1000000;
 
     // Stack allocation: deterministic, fast
     auto start = std::chrono::high_resolution_clock::now();
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i) \{
         int data[64];  // Stack-allocated array
         data[0] = i;   // Prevent optimization
-    }
+    \}
     auto end = std::chrono::high_resolution_clock::now();
     std::cout << "stack: " << std::chrono::duration_cast<std::chrono::microseconds>(end - start).count() << " us\n";
 
     // Heap allocation: slower, non-deterministic
     start = std::chrono::high_resolution_clock::now();
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i) \{
         auto* data = new int[64];
         data[0] = i;
         delete[] data;
-    }
+    \}
     end = std::chrono::high_resolution_clock::now();
     std::cout << "heap:  " << std::chrono::duration_cast<std::chrono::microseconds>(end - start).count() << " us\n";
-}
+\}
 ```
 
 ## 7. Arena Allocation Pattern
@@ -219,30 +219,30 @@ This eliminates fragmentation and provides near-stack allocation speed for dynam
 #include <vector>
 #include <iostream>
 
-class Arena {
+class Arena \{
     std::vector<std::byte> buffer_;
     std::size_t offset_ = 0;
 
 public:
-    explicit Arena(std::size_t capacity) : buffer_(capacity) {}
+    explicit Arena(std::size_t capacity) : buffer_(capacity) \{\}
 
-    void* allocate(std::size_t size, std::size_t alignment = alignof(std::max_align_t)) {
+    void* allocate(std::size_t size, std::size_t alignment = alignof(std::max_align_t)) \{
         std::size_t aligned_offset = (offset_ + alignment - 1) & ~(alignment - 1);
-        if (aligned_offset + size > buffer_.size()) {
+        if (aligned_offset + size > buffer_.size()) \{
             return nullptr;  // Out of memory
-        }
+        \}
         void* ptr = buffer_.data() + aligned_offset;
         offset_ = aligned_offset + size;
         return ptr;
-    }
+    \}
 
-    void reset() { offset_ = 0; }  // Free everything at once
+    void reset() \{ offset_ = 0; \}  // Free everything at once
 
-    std::size_t used() const { return offset_; }
-    std::size_t capacity() const { return buffer_.size(); }
-};
+    std::size_t used() const \{ return offset_; \}
+    std::size_t capacity() const \{ return buffer_.size(); \}
+\};
 
-void arena_demo() {
+void arena_demo() \{
     Arena arena(4096);
 
     int* a = static_cast<int*>(arena.allocate(sizeof(int)));
@@ -255,7 +255,7 @@ void arena_demo() {
 
     arena.reset();  // All allocations freed at once
     std::cout << "after reset, used: " << arena.used() << "\n";  // 0
-}
+\}
 ```
 
 **Benefits:** $O(1)$ allocation, zero fragmentation, no per-allocation overhead. Used in game
@@ -275,45 +275,45 @@ Eliminates external fragmentation for objects of a known size and provides $O(1)
 #include <cassert>
 
 template <std::size_t BlockSize, std::size_t BlockCount>
-class PoolAllocator {
-    struct Block {
+class PoolAllocator \{
+    struct Block \{
         alignas(std::max_align_t) std::byte storage[BlockSize];
         Block* next_free = nullptr;
-    };
+    \};
 
     std::vector<Block> blocks_;
     Block* free_list_ = nullptr;
 
 public:
-    PoolAllocator() : blocks_(BlockCount) {
-        for (std::size_t i = 0; i < BlockCount; ++i) {
+    PoolAllocator() : blocks_(BlockCount) \{
+        for (std::size_t i = 0; i < BlockCount; ++i) \{
             blocks_[i].next_free = (i + 1 < BlockCount) ? &blocks_[i + 1] : nullptr;
-        }
+        \}
         free_list_ = &blocks_[0];
-    }
+    \}
 
-    void* allocate() {
+    void* allocate() \{
         if (!free_list_) return nullptr;
         Block* block = free_list_;
         free_list_ = block->next_free;
         return static_cast<void*>(block->storage);
-    }
+    \}
 
-    void deallocate(void* ptr) {
+    void deallocate(void* ptr) \{
         auto* block = reinterpret_cast<Block*>(
             static_cast<std::byte*>(ptr) - offsetof(Block, storage));
         block->next_free = free_list_;
         free_list_ = block;
-    }
+    \}
 
-    std::size_t available() const {
+    std::size_t available() const \{
         std::size_t count = 0;
         for (auto* p = free_list_; p; p = p->next_free) ++count;
         return count;
-    }
-};
+    \}
+\};
 
-void pool_demo() {
+void pool_demo() \{
     PoolAllocator<64, 1000> pool;
 
     void* a = pool.allocate();
@@ -324,7 +324,7 @@ void pool_demo() {
 
     pool.deallocate(b);
     std::cout << "Freed 1 block, available: " << pool.available() << "\n";
-}
+\}
 ```
 
 ## 9. The C++ Allocator Interface [N4950 S9.4]
@@ -377,31 +377,31 @@ The following member types and functions, with the specified semantics [N4950 §
 #include <iostream>
 
 template <typename T>
-class TrackingAllocator {
+class TrackingAllocator \{
 public:
     using value_type = T;
 
     TrackingAllocator() = default;
 
     template <typename U>
-    TrackingAllocator(const TrackingAllocator<U>&) noexcept {}
+    TrackingAllocator(const TrackingAllocator<U>&) noexcept \{\}
 
-    T* allocate(std::size_t n) {
+    T* allocate(std::size_t n) \{
         std::cout << "  Allocating " << n * sizeof(T) << " bytes\n";
         auto* p = static_cast<T*>(::operator new(n * sizeof(T)));
         return p;
-    }
+    \}
 
-    void deallocate(T* p, std::size_t) noexcept {
+    void deallocate(T* p, std::size_t) noexcept \{
         std::cout << "  Deallocating\n";
         ::operator delete(p);
-    }
+    \}
 
     template <typename U>
-    bool operator==(const TrackingAllocator<U>&) const noexcept { return true; }
-};
+    bool operator==(const TrackingAllocator<U>&) const noexcept \{ return true; \}
+\};
 
-void tracking_demo() {
+void tracking_demo() \{
     std::vector<int, TrackingAllocator<int>> v;
 
     std::cout << "push_back 1:\n";
@@ -414,7 +414,7 @@ void tracking_demo() {
     v.reserve(100);
 
     std::cout << "Vector size=" << v.size() << " capacity=" << v.capacity() << "\n";
-}
+\}
 ```
 
 ### Comparison of Allocation Strategies
@@ -455,7 +455,7 @@ Create `heap_test.cpp`:
 #include <vector>
 #include <iostream>
 
-int main() {
+int main() \{
     // 1. Small allocation (likely sbrk/heap reuse)
     auto* p = new int[10];
 
@@ -463,7 +463,7 @@ int main() {
     // 1024 * 1024 * 128 bytes = 128 MB
     std::vector<char> huge_buffer(128 * 1024 * 1024);
     return 0;
-}
+\}
 ```
 
 <Tabs>
@@ -543,7 +543,7 @@ g++ -fsanitize=address -g -O1 my_app.cpp -o my_app
 ```cpp
 #include <cstdlib>
 
-void asan_examples() {
+void asan_examples() \{
     // 1. Heap buffer overflow
     int* p = static_cast<int*>(std::malloc(4 * sizeof(int)));
     p[4] = 42;  // ASan: heap-buffer-overflow
@@ -554,7 +554,7 @@ void asan_examples() {
 
     // 3. Double free
     std::free(p);  // ASan: attempting free on address which was not malloc()-ed
-}
+\}
 ```
 
 ### Alignment Requirements and `alignas`
@@ -568,22 +568,22 @@ X86_64):
 #include <cstdint>
 #include <iostream>
 
-struct alignas(32) SimdVec {
+struct alignas(32) SimdVec \{
     float data[8];  // 32 bytes, aligned to 32-byte boundary
-};
+\};
 
-int main() {
+int main() \{
     std::cout << "alignof(SimdVec) = " << alignof(SimdVec) << "\n";
     std::cout << "alignof(std::max_align_t) = " << alignof(std::max_align_t) << "\n";
 
     // Default new may NOT satisfy alignof(SimdVec) == 32
     // Use aligned new (C++17) for over-aligned types [N4950 §6.6.3]:
-    SimdVec* p = static_cast<SimdVec*>(::operator new(sizeof(SimdVec), std::align_val_t{32}));
+    SimdVec* p = static_cast<SimdVec*>(::operator new(sizeof(SimdVec), std::align_val_t\{32\}));
     std::cout << "p is 32-byte aligned: "
               << (reinterpret_cast<uintptr_t>(p) % 32 == 0) << "\n";
 
-    ::operator delete(p, std::align_val_t{32});
-}
+    ::operator delete(p, std::align_val_t\{32\});
+\}
 ```
 
 ## 14. C++23 Optimization: `std::pmr`
@@ -656,7 +656,7 @@ For very large datasets (gigabytes), memory-mapped files provide an alternative 
 #include <iostream>
 #include <cstdint>
 
-void mmap_demo(const char* path) {
+void mmap_demo(const char* path) \{
     int fd = open(path, O_RDONLY);
     if (fd < 0) return;
 
@@ -665,7 +665,7 @@ void mmap_demo(const char* path) {
 
     void* addr = mmap(nullptr, static_cast<std::size_t>(sb.st_size),
                        PROT_READ, MAP_PRIVATE, fd, 0);
-    if (addr == MAP_FAILED) { close(fd); return; }
+    if (addr == MAP_FAILED) \{ close(fd); return; \}
 
     // Access file contents as memory — no explicit read() needed
     auto* data = static_cast<const std::byte*>(addr);
@@ -674,7 +674,7 @@ void mmap_demo(const char* path) {
     // The OS pages in data on demand; pages not accessed consume no physical RAM
     munmap(addr, static_cast<std::size_t>(sb.st_size));
     close(fd);
-}
+\}
 ```
 
 Advantages: no copy from kernel space to user space, on-demand paging, shared between processes.

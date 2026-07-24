@@ -20,22 +20,22 @@ sidebar_position: 50
 ```dart
 import 'package:flutter/material.dart';
 
-class ProductCard extends StatelessWidget {
+class ProductCard extends StatelessWidget \{
   final String title;
   final double price;
   final String imageUrl;
   final VoidCallback onAddToCart;
 
-  const ProductCard({
+  const ProductCard(\{
     super.key,
     required this.title,
     required this.price,
     required this.imageUrl,
     required this.onAddToCart,
-  });
+  \});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return Card(
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -56,7 +56,7 @@ class ProductCard extends StatelessWidget {
                 Text(title, style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: 4),
                 Text(
-                  '\$${price.toStringAsFixed(2)}',
+                  '\$$\{price.toStringAsFixed(2)\}',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: Colors.green,
                     fontWeight: FontWeight.bold,
@@ -76,8 +76,8 @@ class ProductCard extends StatelessWidget {
         ],
       ),
     );
-  }
-}
+  \}
+\}
 ```
 
 **Solution:** The widget uses `const` constructor with `required` named parameters for all external data. `Column` and `Expanded` create a flex layout. `ClipRRect` rounds the image corners. `FilledButton` triggers the callback. The widget is stateless and purely declarative.
@@ -92,92 +92,92 @@ class ProductCard extends StatelessWidget {
 ```dart
 import 'package:flutter/material.dart';
 
-class CartItem {
+class CartItem \{
   final String name;
   final double price;
   final int quantity;
 
-  const CartItem({
+  const CartItem(\{
     required this.name,
     required this.price,
     this.quantity = 1,
-  });
+  \});
 
-  CartItem copyWith({int? quantity}) {
+  CartItem copyWith(\{int? quantity\}) \{
     return CartItem(name: name, price: price, quantity: quantity ?? this.quantity);
-  }
+  \}
 
   double get total => price * quantity;
-}
+\}
 
-class ShoppingCart extends ChangeNotifier {
+class ShoppingCart extends ChangeNotifier \{
   final List<CartItem> _items = [];
 
   List<CartItem> get items => List.unmodifiable(_items);
   int get itemCount => _items.fold(0, (sum, item) => sum + item.quantity);
   double get totalPrice => _items.fold(0, (sum, item) => sum + item.total);
 
-  void addItem(String name, double price) {
+  void addItem(String name, double price) \{
     final index = _items.indexWhere((item) => item.name == name);
-    if (index >= 0) {
+    if (index >= 0) \{
       _items[index] = _items[index].copyWith(quantity: _items[index].quantity + 1);
-    } else {
+    \} else \{
       _items.add(CartItem(name: name, price: price));
-    }
+    \}
     notifyListeners();
-  }
+  \}
 
-  void removeItem(String name) {
+  void removeItem(String name) \{
     _items.removeWhere((item) => item.name == name);
     notifyListeners();
-  }
+  \}
 
-  void clear() {
+  void clear() \{
     _items.clear();
     notifyListeners();
-  }
-}
+  \}
+\}
 
-class CartPage extends StatefulWidget {
-  const CartPage({super.key});
+class CartPage extends StatefulWidget \{
+  const CartPage(\{super.key\});
 
   @override
   State<CartPage> createState() => _CartPageState();
-}
+\}
 
-class _CartPageState extends State<CartPage> {
+class _CartPageState extends State<CartPage> \{
   final cart = ShoppingCart();
 
   @override
-  void dispose() {
+  void dispose() \{
     cart.dispose();
     super.dispose();
-  }
+  \}
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return Scaffold(
       appBar: AppBar(title: const Text('Shopping Cart')),
       body: ListenableBuilder(
         listenable: cart,
-        builder: (context, _) {
+        builder: (context, _) \{
           return Column(
             children: [
               Expanded(
                 child: ListView.builder(
                   itemCount: cart.items.length,
-                  itemBuilder: (context, index) {
+                  itemBuilder: (context, index) \{
                     final item = cart.items[index];
                     return ListTile(
                       title: Text(item.name),
-                      subtitle: Text('\$${item.price.toStringAsFixed(2)} x ${item.quantity}'),
-                      trailing: Text('\$${item.total.toStringAsFixed(2)}'),
+                      subtitle: Text('\$${item.price.toStringAsFixed(2)} x $\{item.quantity\}'),
+                      trailing: Text('\$$\{item.total.toStringAsFixed(2)\}'),
                       trailing: IconButton(
                         icon: const Icon(Icons.delete),
                         onPressed: () => cart.removeItem(item.name),
                       ),
                     );
-                  },
+                  \},
                 ),
               ),
               const Divider(),
@@ -188,7 +188,7 @@ class _CartPageState extends State<CartPage> {
                   children: [
                     Text('Total:', style: Theme.of(context).textTheme.titleLarge),
                     Text(
-                      '\$${cart.totalPrice.toStringAsFixed(2)}',
+                      '\$$\{cart.totalPrice.toStringAsFixed(2)\}',
                       style: Theme.of(context).textTheme.titleLarge?.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
@@ -198,15 +198,15 @@ class _CartPageState extends State<CartPage> {
               ),
             ],
           );
-        },
+        \},
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => cart.addItem('Widget ${cart.itemCount + 1}', 9.99),
+        onPressed: () => cart.addItem('Widget $\{cart.itemCount + 1\}', 9.99),
         child: const Icon(Icons.add),
       ),
     );
-  }
-}
+  \}
+\}
 ```
 
 **Solution:** `ShoppingCart` extends `ChangeNotifier` and manages the cart state. `notifyListeners()` triggers rebuilds. `ListenableBuilder` subscribes to the notifier and rebuilds only its child. The `copyWith` pattern creates modified copies of `CartItem`. `dispose()` cleans up the notifier.
@@ -223,82 +223,82 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-class UserProfile {
+class UserProfile \{
   final String name;
   final String email;
   final String avatarUrl;
 
-  const UserProfile({
+  const UserProfile(\{
     required this.name,
     required this.email,
     required this.avatarUrl,
-  });
+  \});
 
-  factory UserProfile.fromJson(Map<String, dynamic> json) {
+  factory UserProfile.fromJson(Map<String, dynamic> json) \{
     return UserProfile(
       name: json['name'] as String,
       email: json['email'] as String,
       avatarUrl: json['avatar_url'] as String,
     );
-  }
-}
+  \}
+\}
 
-Future<UserProfile> fetchUser(int id) async {
+Future<UserProfile> fetchUser(int id) async \{
   final response = await http.get(
     Uri.parse('https://jsonplaceholder.typicode.com/users/$id'),
   );
-  if (response.statusCode == 200) {
+  if (response.statusCode == 200) \{
     final data = json.decode(response.body);
     return UserProfile(
       name: data['name'],
       email: data['email'],
       avatarUrl: 'https://i.pravatar.cc/150?u=$id',
     );
-  }
+  \}
   throw Exception('Failed to load user');
-}
+\}
 
-class UserPage extends StatefulWidget {
-  const UserPage({super.key});
+class UserPage extends StatefulWidget \{
+  const UserPage(\{super.key\});
 
   @override
   State<UserPage> createState() => _UserPageState();
-}
+\}
 
-class _UserPageState extends State<UserPage> {
+class _UserPageState extends State<UserPage> \{
   late Future<UserProfile> _futureUser;
   int _userId = 1;
 
   @override
-  void initState() {
+  void initState() \{
     super.initState();
     _futureUser = fetchUser(_userId);
-  }
+  \}
 
-  void _retry() {
-    setState(() {
+  void _retry() \{
+    setState(() \{
       _futureUser = fetchUser(_userId);
-    });
-  }
+    \});
+  \}
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return Scaffold(
       appBar: AppBar(title: const Text('User Profile')),
       body: FutureBuilder<UserProfile>(
         future: _futureUser,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
+        builder: (context, snapshot) \{
+          if (snapshot.connectionState == ConnectionState.waiting) \{
             return const Center(child: CircularProgressIndicator());
-          }
-          if (snapshot.hasError) {
+          \}
+          if (snapshot.hasError) \{
             return Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Icon(Icons.error_outline, size: 48, color: Colors.red),
                   const SizedBox(height: 16),
-                  Text('Error: ${snapshot.error}'),
+                  Text('Error: $\{snapshot.error\}'),
                   const SizedBox(height: 16),
                   FilledButton.icon(
                     onPressed: _retry,
@@ -308,7 +308,7 @@ class _UserPageState extends State<UserPage> {
                 ],
               ),
             );
-          }
+          \}
           final user = snapshot.data!;
           return Center(
             child: Column(
@@ -324,11 +324,11 @@ class _UserPageState extends State<UserPage> {
               ],
             ),
           );
-        },
+        \},
       ),
     );
-  }
-}
+  \}
+\}
 ```
 
 **Solution:** `FutureBuilder` listens to the `Future<UserProfile>` and rebuilds based on `snapshot.connectionState` and `snapshot.hasError`. `_retry()` triggers a `setState` which creates a new `Future`. The three states (waiting, error, data) are handled with distinct UI branches.
@@ -343,27 +343,27 @@ class _UserPageState extends State<UserPage> {
 ```dart
 import 'package:flutter/material.dart';
 
-class AnimatedBox extends StatefulWidget {
-  const AnimatedBox({super.key});
+class AnimatedBox extends StatefulWidget \{
+  const AnimatedBox(\{super.key\});
 
   @override
   State<AnimatedBox> createState() => _AnimatedBoxState();
-}
+\}
 
 class _AnimatedBoxState extends State<AnimatedBox>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin \{
   bool _expanded = false;
   double _rotation = 0;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return GestureDetector(
-      onTap: () {
-        setState(() {
+      onTap: () \{
+        setState(() \{
           _expanded = !_expanded;
           _rotation += 0.5;
-        });
-      },
+        \});
+      \},
       child: Center(
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 400),
@@ -393,20 +393,20 @@ class _AnimatedBoxState extends State<AnimatedBox>
         ),
       ),
     );
-  }
-}
+  \}
+\}
 
-class AnimationDemoPage extends StatelessWidget {
-  const AnimationDemoPage({super.key});
+class AnimationDemoPage extends StatelessWidget \{
+  const AnimationDemoPage(\{super.key\});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return Scaffold(
       appBar: AppBar(title: const Text('Animation Demo')),
       body: const AnimatedBox(),
     );
-  }
-}
+  \}
+\}
 ```
 
 **Solution:** `AnimatedContainer` implicitly animates changes to `width`, `height`, `color`, and `borderRadius` over 400ms with `Curves.easeInOut`. `GestureDetector.onTap` toggles `_expanded` via `setState`. `Transform.rotate` adds a rotation effect. The `SingleTickerProviderStateMixin` is included for potential explicit animation extensions.
@@ -423,57 +423,57 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyApp extends StatelessWidget \{
+  const MyApp(\{super.key\});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return MaterialApp(
       title: 'Navigation Demo',
       initialRoute: '/',
-      routes: {
+      routes: \{
         '/': (context) => const HomePage(),
         '/detail': (context) => const DetailPage(),
         '/settings': (context) => const SettingsPage(),
-      },
+      \},
     );
-  }
-}
+  \}
+\}
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomePage extends StatelessWidget \{
+  const HomePage(\{super.key\});
 
   static const items = ['Flutter', 'Dart', 'Widgets', 'State Management'];
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return Scaffold(
       appBar: AppBar(title: const Text('Home')),
       body: ListView.builder(
         itemCount: items.length,
-        itemBuilder: (context, index) {
+        itemBuilder: (context, index) \{
           return ListTile(
             title: Text(items[index]),
             trailing: const Icon(Icons.chevron_right),
-            onTap: () {
+            onTap: () \{
               Navigator.pushNamed(
                 context,
                 '/detail',
                 arguments: items[index],
               );
-            },
+            \},
           );
-        },
+        \},
       ),
     );
-  }
-}
+  \}
+\}
 
-class DetailPage extends StatelessWidget {
-  const DetailPage({super.key});
+class DetailPage extends StatelessWidget \{
+  const DetailPage(\{super.key\});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     final item = ModalRoute.of(context)!.settings.arguments as String;
 
     return Scaffold(
@@ -485,23 +485,23 @@ class DetailPage extends StatelessWidget {
             Text(item, style: Theme.of(context).textTheme.headlineMedium),
             const SizedBox(height: 24),
             FilledButton(
-              onPressed: () {
+              onPressed: () \{
                 Navigator.pushNamed(context, '/settings');
-              },
+              \},
               child: const Text('Open Settings'),
             ),
           ],
         ),
       ),
     );
-  }
-}
+  \}
+\}
 
-class SettingsPage extends StatelessWidget {
-  const SettingsPage({super.key});
+class SettingsPage extends StatelessWidget \{
+  const SettingsPage(\{super.key\});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) \{
     return Scaffold(
       appBar: AppBar(title: const Text('Settings')),
       body: ListView(
@@ -509,22 +509,22 @@ class SettingsPage extends StatelessWidget {
           SwitchListTile(
             title: const Text('Dark Mode'),
             value: false,
-            onChanged: (_) {},
+            onChanged: (_) \{\},
           ),
           SwitchListTile(
             title: const Text('Notifications'),
             value: true,
-            onChanged: (_) {},
+            onChanged: (_) \{\},
           ),
           ListTile(
             title: const Text('About'),
-            onTap: () {},
+            onTap: () \{\},
           ),
         ],
       ),
     );
-  }
-}
+  \}
+\}
 ```
 
 **Solution:** `MaterialApp.routes` defines named routes as a `Map<String, WidgetBuilder>`. `Navigator.pushNamed` navigates by route name. `arguments` passes data to the destination. `ModalRoute.of(context)!.settings.arguments` retrieves the passed data. This pattern decouples navigation from direct widget references.

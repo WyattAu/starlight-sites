@@ -48,25 +48,25 @@ import sys
 
 # List comprehension: creates entire list in memory
 squares_list = [x**2 for x in range(1000000)]
-print(f"List size: {sys.getsizeof(squares_list)} bytes")
+print(f"List size: \{sys.getsizeof(squares_list)\} bytes")
 
 # Generator expression: yields one item at a time
 squares_gen = (x**2 for x in range(1000000))
-print(f"Generator size: {sys.getsizeof(squares_gen)} bytes")
+print(f"Generator size: \{sys.getsizeof(squares_gen)\} bytes")
 
 # Filtering with conditions
 evens = [x for x in range(20) if x % 2 == 0]
-print(f"Evens: {evens}")
+print(f"Evens: \{evens\}")
 
 # Nested comprehension
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flat = [num for row in matrix for num in row]
-print(f"Flattened: {flat}")
+print(f"Flattened: \{flat\}")
 
 # Dict comprehension
 word = "hello"
-char_count = {c: word.count(c) for c in set(word)}
-print(f"Char count: {char_count}")
+char_count = \{c: word.count(c) for c in set(word)\}
+print(f"Char count: \{char_count\}")
 ```
 
 **Output:**
@@ -75,7 +75,7 @@ List size: 8000056 bytes
 Generator size: 208 bytes
 Evens: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 Flattened: [1, 2, 3, 4, 5, 6, 7, 8, 9]
-Char count: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+Char count: \{'h': 1, 'e': 1, 'l': 2, 'o': 1\}
 ```
 
 **Key insight:** List comprehensions create complete lists in memory. Generator expressions are lazy and memory-efficient for large sequences. Choose based on whether you need all values at once or can process them one at a time.
@@ -96,7 +96,7 @@ def timer(func):
         start = time.perf_counter()
         result = func(*args, **kwargs)
         elapsed = time.perf_counter() - start
-        print(f"{func.__name__} took {elapsed:.4f}s")
+        print(f"\{func.__name__\} took \{elapsed:.4f\}s")
         return result
     return wrapper
 
@@ -109,10 +109,10 @@ def retry(max_attempts=3, delay=1):
                 try:
                     return func(*args, **kwargs)
                 except Exception as e:
-                    print(f"Attempt {attempt} failed: {e}")
+                    print(f"Attempt \{attempt\} failed: \{e\}")
                     if attempt < max_attempts:
                         time.sleep(delay)
-            raise Exception(f"All {max_attempts} attempts failed")
+            raise Exception(f"All \{max_attempts\} attempts failed")
         return wrapper
     return decorator
 
@@ -130,13 +130,13 @@ def unreliable_function():
     return "success"
 
 result = slow_function()
-print(f"Result: {result}")
+print(f"Result: \{result\}")
 
 try:
     result = unreliable_function()
-    print(f"Result: {result}")
+    print(f"Result: \{result\}")
 except Exception as e:
-    print(f"Final error: {e}")
+    print(f"Final error: \{e\}")
 ```
 
 **Output:**
@@ -190,7 +190,7 @@ with FileManager("test.txt", "w") as f:
     f.write("Hello, context managers!")
 
 with temp_directory() as tmpdir:
-    print(f"Working in: {tmpdir}")
+    print(f"Working in: \{tmpdir\}")
     # Temporary directory is automatically cleaned up
 ```
 

@@ -78,11 +78,11 @@ A mangled name generally follows this pattern: `_Z` + `[N for Nested]` + `[Name 
 Consider the function:
 
 ```cpp
-namespace net {
-    class Socket {
+namespace net \{
+    class Socket \{
         void connect(int port, bool ssl);
-    };
-}
+    \};
+\}
 ```
 
 **Mangled Output:** `_ZN3net6Socket7connectEib`
@@ -187,7 +187,7 @@ Can exceed 1000 characters.
 
 ```bash
 ## View the longest mangled names in a binary
-nm -C ./app | awk '{ print length, $0 }' | sort -rn | head -20
+nm -C ./app | awk '\{ print length, $0 \}' | sort -rn | head -20
 ```
 
 <aside class="starlight-aside starlight-aside--note">
@@ -209,11 +209,11 @@ The pattern generally begins with `?` and relies on special characters (`@``$`) 
 Consider the same function:
 
 ```cpp
-namespace net {
-    class Socket {
+namespace net \{
+    class Socket \{
         void connect(int port, bool ssl);
-    };
-}
+    \};
+\}
 ```
 
 **Mangled Output (Approximate):** `?connect@Socket@net@@QEAAXH_N@Z`
@@ -272,14 +272,14 @@ When designing a shared library (`.dll`/`.so`) for general consumption, wrap the
 
 ```cpp
 #ifdef __cplusplus
-extern "C" {
+extern "C" \{
 #endif
 
     MYLIB_API void initialize_system();
     MYLIB_API int process_data(void* ptr);
 
 #ifdef __cplusplus
-}
+\}
 #endif
 ```
 
@@ -293,11 +293,11 @@ APIs that require callbacks:
 extern "C" typedef void (*CallbackFunc)(int);
 
 // C++ function with C linkage for the callback
-extern "C" void my_callback(int value) {
+extern "C" void my_callback(int value) \{
     // Can use C++ features inside
     std::vector<int> v;
     v.push_back(value);
-}
+\}
 
 // Register with C API
 c_library_register_callback(my_callback);
@@ -454,11 +454,11 @@ Member function returns a **compiler-specific, mangled representation** of the t
 #include <iostream>
 #include <typeinfo>
 
-int main() {
+int main() \{
     std::cout << typeid(int).name() << "\n";           // "i" (GCC/Clang)
     std::cout << typeid(std::string).name() << "\n";   // "NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
     return 0;
-}
+\}
 ```
 
 **Important:** The output of `name()` is not guaranteed to be human-readable or portable. For a
@@ -470,19 +470,19 @@ Demangled name, use `abi::__cxa_demangle` (GCC/Clang) or `typeid(T).name()` with
 #include <cxxabi.h>
 #include <cstdlib>
 
-std::string demangle(const char* mangled) {
+std::string demangle(const char* mangled) \{
     int status = 0;
     char* demangled = abi::__cxa_demangle(mangled, nullptr, nullptr, &status);
     std::string result(demangled ? demangled : mangled);
     std::free(demangled);
     return result;
-}
+\}
 
-int main() {
+int main() \{
     std::cout << demangle(typeid(std::string).name()) << "\n";
     // Output: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >
     return 0;
-}
+\}
 ```
 
 ### Mangling in Debug Builds
@@ -495,10 +495,10 @@ Some compilers emit a `__func__` or `__PRETTY_FUNCTION__` string literal that co
 Signature. This is independent of the mangling scheme and is available even in release builds:
 
 ```cpp
-void foo(int x) {
+void foo(int x) \{
     std::cout << __PRETTY_FUNCTION__ << "\n";
     // Output: "void foo(int)"
-}
+\}
 ```
 
 ## 8. Architectural Implications
@@ -572,11 +572,11 @@ Inline namespaces [N4950 S9.8.2] affect mangling because they contribute to the 
 Inline namespace is encoded as part of the nested name:
 
 ```cpp
-namespace V1 {
-    inline namespace Detail {
-        struct Config { int value; };
-    }
-}
+namespace V1 \{
+    inline namespace Detail \{
+        struct Config \{ int value; \};
+    \}
+\}
 ```
 
 The mangled name for `V1::Config` is `_ZN2V16ConfigE` (the inline namespace `Detail` does not appear
@@ -587,12 +587,12 @@ Resolves through the inline namespace or directly.
 Inline namespaces are commonly used for versioning ABI-compatible changes in library headers:
 
 ```cpp
-namespace lib {
-    inline namespace v2 {
+namespace lib \{
+    inline namespace v2 \{
         void process(int x);
-    }
+    \}
     // v1::process(int) still accessible as lib::process(int) for backward compatibility
-}
+\}
 ```
 
 ## 10. Mangling and Lambdas
@@ -601,7 +601,7 @@ Lambda closures produce unnamed types with compiler-generated names. These names
 Uniquely using a counter based on the lexical scope:
 
 ```cpp
-auto f = [](int x) { return x * 2; };
+auto f = [](int x) \{ return x * 2; \};
 ```
 
 The closure type is mangled as something like `_ZZ1fvENK3$_0clEi` (lambda in function `f`0th Lambda,

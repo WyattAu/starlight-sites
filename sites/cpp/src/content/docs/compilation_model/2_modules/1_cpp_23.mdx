@@ -41,17 +41,17 @@ import std;
 
 // Exported Symbol: Visible to importers
 export namespace Engine {
-    class Context {
+    class Context \{
     public:
         void initialize();
-    };
+    \};
 
     export int version = 1;
-}
+\}
 
 // Non-Exported Symbol: Visible only within this module's units
 // (Internal Linkage logic applies differently in modules, termed "Module Linkage")
-void internal_helper() {}
+void internal_helper() \{\}
 ```
 
 ### File Extensions
@@ -82,11 +82,11 @@ module Engine; // Declares this file belongs to the 'Engine' module
 // Implicitly imports the Primary Interface of 'Engine'.
 // We can see 'Context' definition without importing anything.
 
-namespace Engine {
-    void Context::initialize() {
+namespace Engine \{
+    void Context::initialize() \{
         // Implementation logic
-    }
-}
+    \}
+\}
 ```
 
 - **Constraint:** Implementation Units cannot export anything. Their sole purpose is to define
@@ -112,10 +112,10 @@ Primary Interface.
 export module Engine:Graphics; // Colon denotes partition
 
 export namespace Engine {
-    struct Renderer {
+    struct Renderer \{
         void draw();
-    };
-}
+    \};
+\}
 ```
 
 **File:** `src/engine_physics.cppm`
@@ -124,10 +124,10 @@ export namespace Engine {
 export module Engine:Physics;
 
 export namespace Engine {
-    struct Collider {
+    struct Collider \{
         bool check();
-    };
-}
+    \};
+\}
 ```
 
 **File:** `src/engine.cppm` (Primary Interface)
@@ -153,10 +153,10 @@ By consumers.
 ```cpp
 module Engine:Internals; // Note: No 'export' keyword before 'module'
 
-namespace Engine::Detail {
+namespace Engine::Detail \{
     // Shared internal logic
-    void low_level_alloc() { ... }
-}
+    void low_level_alloc() \{ ... \}
+\}
 ```
 
 **File:** `src/engine.cpp` (Implementation Unit)
@@ -165,9 +165,9 @@ namespace Engine::Detail {
 module Engine;
 import :Internals; // Import the internal partition
 
-void use_allocator() {
+void use_allocator() \{
     Engine::Detail::low_level_alloc();
-}
+\}
 ```
 
 ## 4. The Global Module Fragment (GMF)
@@ -192,10 +192,10 @@ import std;
 
 export namespace Network {
     // We can use types from sys/socket.h here
-    void connect(sockaddr_in* addr) {
+    void connect(sockaddr_in* addr) \{
         // ...
-    }
-}
+    \}
+\}
 ```
 
 **Architecture Rule:** Never `#include` a header inside the module body (after `export module`).
@@ -247,12 +247,12 @@ import <vector>;    // Instead of #include <vector>
 import <string>;    // Instead of #include <string>
 import <print>;     // Instead of #include <print>
 
-int main() {
-    std::vector<std::string> v = {"hello", "world"};
-    for (const auto& s : v) {
-        std::println("{}", s);
-    }
-}
+int main() \{
+    std::vector<std::string> v = \{"hello", "world"\};
+    for (const auto& s : v) \{
+        std::println("\{\}", s);
+    \}
+\}
 ```
 
 ### User Header Units
@@ -266,18 +266,18 @@ All their own dependencies).
 #include <string>
 #include <cstdint>
 
-namespace Utils {
+namespace Utils \{
     std::string to_hex(uint32_t value);
-}
+\}
 ```
 
 ```cpp
 // File: src/main.cpp
 import "src/utils.h";  // Header unit import
 
-int main() {
+int main() \{
     auto s = Utils::to_hex(0xDEADBEEF);
-}
+\}
 ```
 
 ### Header Unit vs. Module
@@ -308,9 +308,9 @@ Same module but invisible outside it.
 export module Example;
 
 // 1. Internal Linkage: Visible only in this TU (same as non-module C++)
-namespace {
+namespace \{
     int local_counter = 0;  // internal linkage
-}
+\}
 
 // 2. Module Linkage: Visible to all TUs of 'Example' module
 int module_counter = 0;     // module linkage (not exported, not anonymous)
@@ -327,9 +327,9 @@ Module linkage is what enables implementation partitions to share internal state
 // File: engine_state.cppm (Implementation Partition)
 module Engine:State;
 
-namespace Engine::Detail {
+namespace Engine::Detail \{
     int frame_count = 0;  // module linkage: shared across Engine's TUs
-}
+\}
 ```
 
 ```cpp
@@ -337,9 +337,9 @@ namespace Engine::Detail {
 module Engine;
 import :State;
 
-void Engine::render() {
+void Engine::render() \{
     Engine::Detail::frame_count++;  // Accessible because same module
-}
+\}
 ```
 
 ### The `export` Keyword Granularity
@@ -353,7 +353,7 @@ export module Engine;
 export namespace Config {
     int timeout = 30;
     int retries = 3;
-}
+\}
 
 // 2. Export individual declarations
 export void initialize();
@@ -362,7 +362,7 @@ export void initialize();
 export {
     void shutdown();
     int get_status();
-}
+\}
 ```
 
 The export block syntax (`export { ... }`) is particularly useful for selectively exporting a subset
@@ -469,7 +469,7 @@ add_library(Engine)
 target_sources(Engine
     PUBLIC
         FILE_SET cxx_modules TYPE CXX_MODULES
-        BASE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/src
+        BASE_DIRS $\{CMAKE_CURRENT_SOURCE_DIR\}/src
         FILES
             src/engine.cppm          # Primary Interface
             src/engine_graphics.cppm  # Interface Partition

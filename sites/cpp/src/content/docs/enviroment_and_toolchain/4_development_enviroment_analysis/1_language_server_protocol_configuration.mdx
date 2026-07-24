@@ -90,16 +90,16 @@ CMake can automatically generate this JSON file during the configuration phase.
 Generates it by default.
 
 ```json
-{
+\{
   "configurePresets": [
-    {
+    \{
       "name": "base",
-      "cacheVariables": {
+      "cacheVariables": \{
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
-      }
-    }
+      \}
+    \}
   ]
-}
+\}
 ```
 
 This generates `compile_commands.json` inside the build directory (e.g.,
@@ -189,7 +189,7 @@ Create a `.clangd` file in your project root to enforce consistent tooling behav
 # Modify the flags from compile_commands.json before parsing.
 CompileFlags:
   # Add the build directory to search path for generated headers
-  Add: [-I${PROJECT_ROOT}/build/generated/include]
+  Add: [-I$\{PROJECT_ROOT\}/build/generated/include]
   # Remove flags that clangd might not understand (e.g., specific GCC/MSVC flags)
   Remove: [-Wforward-class-redefinition]
   # Force the compiler driver (useful if compile_commands uses g++)
@@ -255,9 +255,9 @@ Modern Neovim (0.9+) includes a native LSP client. The standard configuration us
 -- init.lua
 local lspconfig = require('lspconfig')
 
-lspconfig.clangd.setup {
+lspconfig.clangd.setup \{
   -- Command to launch clangd
-  cmd = {
+  cmd = \{
     "clangd",
     "--background-index",
     "--clang-tidy",
@@ -265,14 +265,14 @@ lspconfig.clangd.setup {
     "--completion-style=detailed",
     "--function-arg-placeholders",
     "--fallback-style=llvm",
-  },
+  \},
   -- Root detection (looks for .clangd, compile_commands.json, or .git)
   root_dir = lspconfig.util.root_pattern(
     '.clangd',
     'compile_commands.json',
     '.git'
   ),
-}
+\}
 ```
 
 ## 5. Architectural Deep Dive: IWYU and Header Mapping
@@ -414,18 +414,18 @@ File is compiled. Understanding its structure is essential for debugging LSP iss
 
 ```json
 [
-  {
+  \{
     "directory": "/home/user/project/build",
     "command": "/usr/bin/c++ -I/home/user/project/include -std=c++20 -Wall -c /home/user/project/src/main.cpp -o main.o",
     "file": "/home/user/project/src/main.cpp",
     "output": "/home/user/project/build/main.o"
-  },
-  {
+  \},
+  \{
     "directory": "/home/user/project/build",
     "command": "/usr/bin/c++ -I/home/user/project/include -std=c++20 -Wall -c /home/user/project/src/util.cpp -o util.o",
     "file": "/home/user/project/src/util.cpp",
     "output": "/home/user/project/build/util.o"
-  }
+  \}
 ]
 ```
 
@@ -676,23 +676,23 @@ Clangd can apply clang-tidy fixes on save or on demand. In VS Code, this is conf
 Extension settings:
 
 ```json
-{
+\{
   "clangd.fallbackFlags": ["--header-insertion=iwyu"],
   "clangd.onChangesActivated": true,
   "clangd.checkUpdates": false
-}
+\}
 ```
 
 In Neovim, use the `code_action` LSP method to apply fixes:
 
 ```lua
 vim.keymap.set('n', '<leader>ca', function()
-  vim.lsp.buf.code_action({
+  vim.lsp.buf.code_action(\{
     filter = function(action)
       return action.kind == 'quickfix'
     end,
     apply = true
-  })
+  \})
 end)
 ```
 

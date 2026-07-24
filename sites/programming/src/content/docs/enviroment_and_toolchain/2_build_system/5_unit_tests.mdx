@@ -196,21 +196,21 @@ ctest --output-on-failure
 Define a **Test Preset** in `CMakePresets.json` to standardize execution arguments.
 
 ```json
-{
+\{
   "testPresets": [
-    {
+    \{
       "name": "default",
       "configurePreset": "linux-clang-debug",
-      "output": {
+      "output": \{
         "outputOnFailure": true
-      },
-      "execution": {
+      \},
+      "execution": \{
         "jobs": 8,
         "noTestsAction": "error"
-      }
-    }
+      \}
+    \}
   ]
-}
+\}
 ```
 
 **Execution:**
@@ -230,32 +230,32 @@ This eliminates code duplication when tests require identical preconditions.
 #include <gtest/gtest.h>
 #include <vector>
 
-class VectorTest : public ::testing::Test {
+class VectorTest : public ::testing::Test \{
 protected:
-    void SetUp() override {
-        data = {1, 2, 3, 4, 5};
+    void SetUp() override \{
+        data = \{1, 2, 3, 4, 5\};
         data.reserve(100);
-    }
+    \}
 
-    void TearDown() override {
+    void TearDown() override \{
         // Called after each test. Useful for cleanup.
         data.clear();
-    }
+    \}
 
     std::vector<int> data;
-};
+\};
 
-TEST_F(VectorTest, SizeIsCorrect) {
+TEST_F(VectorTest, SizeIsCorrect) \{
     EXPECT_EQ(data.size(), 5u);
-}
+\}
 
-TEST_F(VectorTest, FrontIsOne) {
+TEST_F(VectorTest, FrontIsOne) \{
     EXPECT_EQ(data.front(), 1);
-}
+\}
 
-TEST_F(VectorTest, CapacityPreserved) {
+TEST_F(VectorTest, CapacityPreserved) \{
     EXPECT_GE(data.capacity(), 100u);
-}
+\}
 ```
 
 The `TEST_F` macro registers each test as a method of the `VectorTest` class. `SetUp()` runs before
@@ -267,26 +267,26 @@ Each test, and `TearDown()` runs after each test. Each test gets a fresh instanc
 #include <catch2/catch_test_macros.hpp>
 #include <vector>
 
-struct VectorFixture {
+struct VectorFixture \{
     std::vector<int> data;
 
-    VectorFixture() {
-        data = {1, 2, 3, 4, 5};
+    VectorFixture() \{
+        data = \{1, 2, 3, 4, 5\};
         data.reserve(100);
-    }
+    \}
 
-    ~VectorFixture() {
+    ~VectorFixture() \{
         data.clear();
-    }
-};
+    \}
+\};
 
-TEST_CASE_METHOD(VectorFixture, "Vector size is correct") {
+TEST_CASE_METHOD(VectorFixture, "Vector size is correct") \{
     REQUIRE(data.size() == 5);
-}
+\}
 
-TEST_CASE_METHOD(VectorFixture, "Vector front is one") {
+TEST_CASE_METHOD(VectorFixture, "Vector front is one") \{
     REQUIRE(data.front() == 1);
-}
+\}
 ```
 
 ## Parameterized Tests
@@ -300,31 +300,31 @@ Of test cases that differ only in their input values.
 #include <gtest/gtest.h>
 #include <cstdint>
 
-struct PrimeTestParam {
+struct PrimeTestParam \{
     uint32_t input;
     bool expected;
-};
+\};
 
-class PrimeTest : public ::testing::TestWithParam<PrimeTestParam> {};
+class PrimeTest : public ::testing::TestWithParam<PrimeTestParam> \{\};
 
-TEST_P(PrimeTest, ReturnsCorrectResult) {
+TEST_P(PrimeTest, ReturnsCorrectResult) \{
     auto [input, expected] = GetParam();
     // Implementation of is_prime omitted for brevity
     bool result = is_prime(input);
     EXPECT_EQ(result, expected);
-}
+\}
 
 INSTANTIATE_TEST_SUITE_P(
     PrimeNumbers,
     PrimeTest,
     ::testing::Values(
-        PrimeTestParam{2, true},
-        PrimeTestParam{3, true},
-        PrimeTestParam{4, false},
-        PrimeTestParam{5, true},
-        PrimeTestParam{9, false},
-        PrimeTestParam{17, true},
-        PrimeTestParam{25, false}
+        PrimeTestParam\{2, true\},
+        PrimeTestParam\{3, true\},
+        PrimeTestParam\{4, false\},
+        PrimeTestParam\{5, true\},
+        PrimeTestParam\{9, false\},
+        PrimeTestParam\{17, true\},
+        PrimeTestParam\{25, false\}
     )
 );
 ```
@@ -442,36 +442,36 @@ Substitute the real dependency with a **mock** that records calls and returns pr
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 
-class Database {
+class Database \{
 public:
     virtual ~Database() = default;
     virtual bool insert(const std::string& key, const std::string& value) = 0;
     virtual std::optional<std::string> get(const std::string& key) = 0;
-};
+\};
 
-class MockDatabase : public Database {
+class MockDatabase : public Database \{
 public:
     MOCK_METHOD(bool, insert, (const std::string& key, const std::string& value), (override));
     MOCK_METHOD(std::optional<std::string>, get, (const std::string& key), (override));
-};
+\};
 
-class Cache {
+class Cache \{
 public:
-    Cache(Database& db) : db_(db) {}
+    Cache(Database& db) : db_(db) \{\}
 
-    bool put(const std::string& key, const std::string& value) {
+    bool put(const std::string& key, const std::string& value) \{
         return db_.insert(key, value);
-    }
+    \}
 
-    std::optional<std::string> find(const std::string& key) {
+    std::optional<std::string> find(const std::string& key) \{
         return db_.get(key);
-    }
+    \}
 
 private:
     Database& db_;
-};
+\};
 
-TEST(CacheTest, PutDelegatesToDatabase) {
+TEST(CacheTest, PutDelegatesToDatabase) \{
     MockDatabase mock_db;
     Cache cache(mock_db);
 
@@ -479,9 +479,9 @@ TEST(CacheTest, PutDelegatesToDatabase) {
         .WillOnce(::testing::Return(true));
 
     EXPECT_TRUE(cache.put("user:1", "Alice"));
-}
+\}
 
-TEST(CacheTest, FindReturnsValue) {
+TEST(CacheTest, FindReturnsValue) \{
     MockDatabase mock_db;
     Cache cache(mock_db);
 
@@ -491,7 +491,7 @@ TEST(CacheTest, FindReturnsValue) {
     auto result = cache.find("user:1");
     ASSERT_TRUE(result.has_value());
     EXPECT_EQ(*result, "Alice");
-}
+\}
 ```
 
 ## CI/CD Integration Patterns
@@ -527,18 +527,18 @@ jobs:
 
 ```cmake
 # In CMakePresets.json: sanitizer preset
-{
+\{
   "configurePresets": [
-    {
+    \{
       "name": "asan",
       "inherits": "base",
-      "cacheVariables": {
+      "cacheVariables": \{
         "CMAKE_CXX_FLAGS": "-fsanitize=address -fno-omit-frame-pointer",
         "CMAKE_EXE_LINKER_FLAGS": "-fsanitize=address"
-      }
-    }
+      \}
+    \}
   ]
-}
+\}
 ```
 
 ## Architectural Considerations

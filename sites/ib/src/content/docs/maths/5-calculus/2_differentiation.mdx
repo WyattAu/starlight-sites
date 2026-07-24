@@ -18,7 +18,7 @@ The limit of a function $f(x)$ as $x$ approaches $a$ is the value that $f(x)$ ap
 Of whether $f(a)$ is defined:
 
 $$
-\lim_{x \to a} f(x) = L
+\lim_\{x \to a\} f(x) = L
 $$
 
 This means that as $x$ gets arbitrarily close to $a$, $f(x)$ gets arbitrarily close to $L$.
@@ -28,7 +28,7 @@ This means that as $x$ gets arbitrarily close to $a$, $f(x)$ gets arbitrarily cl
 A two-sided limit exists if and only if both one-sided limits exist and are equal:
 
 $$
-\lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L
+\lim_\{x \to a\} f(x) = L \iff \lim_\{x \to a^-\} f(x) = \lim_\{x \to a^+\} f(x) = L
 $$
 
 <aside class="starlight-aside starlight-aside--note">
@@ -36,11 +36,11 @@ $$
 Find $\displaystyle\lim_{x \to 0} \frac{|x|}{x}$.
 
 $$
-\lim_{x \to 0^-} \frac{|x|}{x} = \lim_{x \to 0^-} \frac{-x}{x} = -1
+\lim_\{x \to 0^-\} \frac\{|x|\}\{x\} = \lim_\{x \to 0^-\} \frac\{-x\}\{x\} = -1
 $$
 
 $$
-\lim_{x \to 0^+} \frac{|x|}{x} = \lim_{x \to 0^+} \frac{x}{x} = 1
+\lim_\{x \to 0^+\} \frac\{|x|\}\{x\} = \lim_\{x \to 0^+\} \frac\{x\}\{x\} = 1
 $$
 
 Since the one-sided limits are not equal, the limit does not exist.
@@ -60,7 +60,7 @@ Since the one-sided limits are not equal, the limit does not exist.
 If $g(x) \le f(x) \le h(x)$ for all $x$ near $a$ (except possibly at $a$), and:
 
 $$
-\lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L
+\lim_\{x \to a\} g(x) = \lim_\{x \to a\} h(x) = L
 $$
 
 Then $\displaystyle\lim_{x \to a} f(x) = L$.
@@ -103,7 +103,7 @@ Left-hand limit, right-hand limit, and function value all agree.
 The derivative of $f$ at $x = a$ is defined as:
 
 $$
-F'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
+F'(a) = \lim_\{h \to 0\} \frac\{f(a+h) - f(a)\}\{h\}
 $$
 
 This limit, when it exists, gives the instantaneous rate of change of $f$ at $x = a$And equals the
@@ -112,7 +112,7 @@ Gradient of the tangent line to the curve $y = f(x)$ at that point.
 ### Alternative Form
 
 $$
-F'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
+F'(x) = \lim_\{\Delta x \to 0\} \frac\{f(x + \Delta x) - f(x)\}\{\Delta x\}
 $$
 
 ### Differentiability Implies Continuity
@@ -127,10 +127,10 @@ Differentiate $f(x) = x^2$ from first principles.
 
 $$
 \begin`\{aligned}`
-F'(x) &= \lim_{h \to 0} \frac{(x+h)^2 - x^2}{h} \\[6pt]
-&= \lim_{h \to 0} \frac{x^2 + 2xh + h^2 - x^2}{h} \\[6pt]
-&= \lim_{h \to 0} \frac{2xh + h^2}{h} \\[6pt]
-&= \lim_{h \to 0}(2x + h) \\[6pt]
+F'(x) &= \lim_\{h \to 0\} \frac\{(x+h)^2 - x^2\}\{h\} \\[6pt]
+&= \lim_\{h \to 0\} \frac\{x^2 + 2xh + h^2 - x^2\}\{h\} \\[6pt]
+&= \lim_\{h \to 0\} \frac\{2xh + h^2\}\{h\} \\[6pt]
+&= \lim_\{h \to 0\}(2x + h) \\[6pt]
 &= 2x
 \end`\{aligned}`
 $$
@@ -155,19 +155,19 @@ Several notations are equivalent:
 For $n \in \mathbb{R}$:
 
 $$
-\frac{d}`\{dx}`[x^n] = nx^{n-1}
+\frac\{d\}`\{dx}`[x^n] = nx^\{n-1\}
 $$
 
 ### Constant Multiple Rule
 
 $$
-\frac{d}`\{dx}`[cf(x)] = c \cdot f'(x)
+\frac\{d\}`\{dx}`[cf(x)] = c \cdot f'(x)
 $$
 
 ### Sum and Difference Rule
 
 $$
-\frac{d}`\{dx}`[f(x) \pm g(x)] = f'(x) \pm g'(x)
+\frac\{d\}`\{dx}`[f(x) \pm g(x)] = f'(x) \pm g'(x)
 $$
 
 ### The Product Rule
@@ -175,7 +175,7 @@ $$
 If $u = f(x)$ and $v = g(x)$Then:
 
 $$
-\frac{d}`\{dx}`[uv] = u\frac`\{dv}``\{dx}` + v\frac`\{du}``\{dx}`
+\frac\{d\}`\{dx}`[uv] = u\frac`\{dv}``\{dx}` + v\frac`\{du}``\{dx}`
 $$
 
 </aside>
@@ -191,7 +191,7 @@ $$
 ### The Quotient Rule
 
 $$
-\frac{d}`\{dx}`\left[\frac{u}{v}\right] = \frac{v\frac`\{du}``\{dx}` - u\frac`\{dv}``\{dx}`}{v^2}
+\frac\{d\}`\{dx}`\left[\frac\{u\}\{v\}\right] = \frac\{v\frac`\{du}``\{dx}` - u\frac`\{dv}``\{dx}`\}\{v^2\}
 $$
 
 </aside>
@@ -210,9 +210,9 @@ Let $u = x^2 + 1$ and $v = x - 3$. Then $u' = 2x$ and $v' = 1$.
 
 $$
 \begin`\{aligned}`
-F'(x) &= \frac{(x-3)(2x) - (x^2+1)(1)}{(x-3)^2} \\[6pt]
-&= \frac{2x^2 - 6x - x^2 - 1}{(x-3)^2} \\[6pt]
-&= \frac{x^2 - 6x - 1}{(x-3)^2}
+F'(x) &= \frac\{(x-3)(2x) - (x^2+1)(1)\}\{(x-3)^2\} \\[6pt]
+&= \frac\{2x^2 - 6x - x^2 - 1\}\{(x-3)^2\} \\[6pt]
+&= \frac\{x^2 - 6x - 1\}\{(x-3)^2\}
 \end`\{aligned}`
 $$
 
@@ -298,7 +298,7 @@ Differentiate both sides with respect to $x$ and solve for $\dfrac{dy}{dx}$.
 When differentiating a term involving $y$ with respect to $x$Use the chain rule:
 
 $$
-\frac{d}`\{dx}`[y^n] = ny^{n-1}\frac`\{dy}``\{dx}`
+\frac\{d\}`\{dx}`[y^n] = ny^\{n-1\}\frac`\{dy}``\{dx}`
 $$
 
 </aside>
@@ -313,7 +313,7 @@ $$
 $$
 
 $$
-\frac`\{dy}``\{dx}` = -\frac{x}{y}
+\frac`\{dy}``\{dx}` = -\frac\{x\}\{y\}
 $$
 
 At the point $(3, 4)$: $\dfrac{dy}{dx} = -\dfrac{3}{4}$.
@@ -337,7 +337,7 @@ $$
 $$
 
 $$
-\frac`\{dy}``\{dx}` = \frac{6y - 3x^2}{3y^2 - 6x} = \frac{2y - x^2}{y^2 - 2x}
+\frac`\{dy}``\{dx}` = \frac\{6y - 3x^2\}\{3y^2 - 6x\} = \frac\{2y - x^2\}\{y^2 - 2x\}
 $$
 
 
@@ -356,13 +356,13 @@ We have $\dfrac{dy}{dx} = -\dfrac{x}{y}$.
 Differentiate with respect to $x$:
 
 $$
-\frac{d^2y}{dx^2} = -\frac{y \cdot 1 - x \cdot \frac`\{dy}``\{dx}`}{y^2}
+\frac\{d^2y\}\{dx^2\} = -\frac\{y \cdot 1 - x \cdot \frac`\{dy}``\{dx}`\}\{y^2\}
 $$
 
 Substitute $\dfrac{dy}{dx} = -\dfrac{x}{y}$:
 
 $$
-\frac{d^2y}{dx^2} = -\frac{y - x\left(-\frac{x}{y}\right)}{y^2} = -\frac{y + \frac{x^2}{y}}{y^2} = -\frac{y^2 + x^2}{y^3} = -\frac{25}{y^3}
+\frac\{d^2y\}\{dx^2\} = -\frac\{y - x\left(-\frac\{x\}\{y\}\right)\}\{y^2\} = -\frac\{y + \frac\{x^2\}\{y\}\}\{y^2\} = -\frac\{y^2 + x^2\}\{y^3\} = -\frac\{25\}\{y^3\}
 $$
 
 
@@ -401,7 +401,7 @@ $$
 $$
 
 $$
-\frac`\{dr}``\{dt}` = \frac{10}{100\pi} = \frac{1}{10\pi} \approx 0.0318 \mathrm{ cm/s}
+\frac`\{dr}``\{dt}` = \frac\{10\}\{100\pi\} = \frac\{1\}\{10\pi\} \approx 0.0318 \mathrm\{ cm/s\}
 $$
 
 
@@ -422,7 +422,7 @@ $$
 $$
 
 $$
-\frac`\{dy}``\{dt}` = -\frac{12}{16} = -0.75 \mathrm{ m/s}
+\frac`\{dy}``\{dt}` = -\frac\{12\}\{16\} = -0.75 \mathrm\{ m/s\}
 $$
 
 The negative sign means the top is sliding down.
@@ -436,11 +436,11 @@ The negative sign means the top is sliding down.
 ### Notation
 
 $$
-F''(x) = \frac{d^2y}{dx^2} = \frac{d}`\{dx}`\left(\frac`\{dy}``\{dx}`\right)
+F''(x) = \frac\{d^2y\}\{dx^2\} = \frac\{d\}`\{dx}`\left(\frac`\{dy}``\{dx}`\right)
 $$
 
 $$
-F'''(x) = \frac{d^3y}{dx^3} = \frac{d}`\{dx}`\left(\frac{d^2y}{dx^2}\right)
+F'''(x) = \frac\{d^3y\}\{dx^3\} = \frac\{d\}`\{dx}`\left(\frac\{d^2y\}\{dx^2\}\right)
 $$
 
 </aside>
@@ -478,7 +478,7 @@ The **normal** is perpendicular to the tangent, so its gradient is $-\dfrac{1}{f
 $f'(a) \neq 0$):
 
 $$
-Y - f(a) = -\frac{1}{f'(a)}(x - a)
+Y - f(a) = -\frac\{1\}\{f'(a)\}(x - a)
 $$
 
 </aside>
@@ -538,7 +538,7 @@ At $x = 3$: $f''(3) = 6 \gt 0$So local minimum. $f(3) = 27 - 54 + 27 + 1 = 1$. P
 
 ### Concavity and Points of Inflection
 
-{/* prettier-ignore */}
+\{/* prettier-ignore */\}
 <DesmosGraph client:only="solid-js" title="Stationary Points and Concavity" expressions={["f(x)=x^3-3x+1", "\frac{d}`\{dx}`F(x)"]} width={800} height={500}  />
 
 Use the sliders to adjust coefficients of a polynomial and observe how $f'(x)$ and $f''(x)$
@@ -611,7 +611,7 @@ $$
 $$
 
 $$
-\frac{d^2A}{dx^2} = -2 \lt 0 \implies \mathrm{maximum}
+\frac\{d^2A\}\{dx^2\} = -2 \lt 0 \implies \mathrm\{maximum\}
 $$
 
 So $x = 25\mathrm{ cm}$$y = 25\mathrm{ cm}$. The rectangle is a square with area
@@ -629,19 +629,19 @@ Volume: $V = \pi r^2 h = 500$So $h = \dfrac{500}{\pi r^2}$.
 Surface area (no top): $A = \pi r^2 + 2\pi r h = \pi r^2 + \dfrac{1000}{r}$.
 
 $$
-\frac`\{dA}``\{dr}` = 2\pi r - \frac{1000}{r^2} = 0
+\frac`\{dA}``\{dr}` = 2\pi r - \frac\{1000\}\{r^2\} = 0
 $$
 
 $$
-2\pi r = \frac{1000}{r^2} \implies 2\pi r^3 = 1000 \implies r^3 = \frac{500}{\pi}
+2\pi r = \frac\{1000\}\{r^2\} \implies 2\pi r^3 = 1000 \implies r^3 = \frac\{500\}\{\pi\}
 $$
 
 $$
-R = \left(\frac{500}{\pi}\right)^{1/3} \approx 5.42 \mathrm{ cm}
+R = \left(\frac\{500\}\{\pi\}\right)^\{1/3\} \approx 5.42 \mathrm\{ cm\}
 $$
 
 $$
-H = \frac{500}{\pi \cdot \left(\frac{500}{\pi}\right)^{2/3}} = \left(\frac{500}{\pi}\right)^{1/3} \approx 5.42 \mathrm{ cm}
+H = \frac\{500\}\{\pi \cdot \left(\frac\{500\}\{\pi\}\right)^\{2/3\}\} = \left(\frac\{500\}\{\pi\}\right)^\{1/3\} \approx 5.42 \mathrm\{ cm\}
 $$
 
 The optimal open-top can has $h = r$I.e., height equals radius.
@@ -656,7 +656,7 @@ If $\displaystyle\lim_{x \to a}\frac{f(x)}{g(x)}$ gives an indeterminate form $\
 $\dfrac{\pm\infty}{\pm\infty}$Then:
 
 $$
-\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f'(x)}{g'(x)}
+\lim_\{x \to a\}\frac\{f(x)\}\{g(x)\} = \lim_\{x \to a\}\frac\{f'(x)\}\{g'(x)\}
 $$
 
 Provided the limit on the right exists.
@@ -669,13 +669,13 @@ Evaluate $\displaystyle\lim_{x \to 0}\frac{e^x - 1 - x}{x^2}$.
 Direct substitution gives $\dfrac{0}{0}$So apply L'Hopital\'s rule:
 
 $$
-\lim_{x \to 0}\frac{e^x - 1}{2x}
+\lim_\{x \to 0\}\frac\{e^x - 1\}\{2x\}
 $$
 
 Still $\dfrac{0}{0}$Apply again:
 
 $$
-\lim_{x \to 0}\frac{e^x}{2} = \frac{1}{2}
+\lim_\{x \to 0\}\frac\{e^x\}\{2\} = \frac\{1\}\{2\}
 $$
 
 
@@ -729,14 +729,14 @@ Available.
 **(a)** If the side parallel to the house has length $x\mathrm{ m}$Show that the area is:
 
 $$
-A = x\left(30 - \frac{x}{2}\right) = 30x - \frac{x^2}{2}
+A = x\left(30 - \frac\{x\}\{2\}\right) = 30x - \frac\{x^2\}\{2\}
 $$
 
 The two perpendicular sides have total length $60 - x$So each is
 $\dfrac{60-x}{2} = 30 - \dfrac{x}{2}$.
 
 $$
-A = x\left(30 - \frac{x}{2}\right)
+A = x\left(30 - \frac\{x\}\{2\}\right)
 $$
 
 **(b)** Find the value of $x$ that maximises the area.
@@ -746,7 +746,7 @@ $$
 $$
 
 $$
-\frac{d^2A}{dx^2} = -1 \lt 0 \implies \mathrm{maximum}
+\frac\{d^2A\}\{dx^2\} = -1 \lt 0 \implies \mathrm\{maximum\}
 $$
 
 Maximum area $= 30 \times 15 = 450\mathrm{ m}^2$.
@@ -766,7 +766,7 @@ $$
 $$
 
 $$
-\frac`\{dy}``\{dx}` = -\frac{2x+y}{x+2y}
+\frac`\{dy}``\{dx}` = -\frac\{2x+y\}\{x+2y\}
 $$
 
 **(b)** Verify that the point $(1, 2)$ lies on the curve and find the gradient at that point.
@@ -774,7 +774,7 @@ $$
 $1 + 2 + 4 = 7$. Yes.
 
 $$
-\frac`\{dy}``\{dx}`\bigg|_{(1,2)} = -\frac{2+2}{1+4} = -\frac{4}{5}
+\frac`\{dy}``\{dx}`\bigg|_\{(1,2)\} = -\frac\{2+2\}\{1+4\} = -\frac\{4\}\{5\}
 $$
 
 ### Question 4 (Paper 2 style)
@@ -786,7 +786,7 @@ The curve $C$ has equation $y = x e^{-x}$.
 Using the product rule with $u = x$ and $v = e^{-x}$:
 
 $$
-\frac`\{dy}``\{dx}` = 1 \cdot e^{-x} + x \cdot (-e^{-x}) = e^{-x}(1 - x)
+\frac`\{dy}``\{dx}` = 1 \cdot e^\{-x\} + x \cdot (-e^\{-x\}) = e^\{-x\}(1 - x)
 $$
 
 **(b)** Find the coordinates of the stationary point and determine its nature.
@@ -827,7 +827,7 @@ A = \pi r^2
 $$
 
 $$
-\frac`\{dA}``\{dt}` = 2\pi r \frac`\{dr}``\{dt}` = 2\pi(4)(0.5) = 4\pi \mathrm{ cm}^2\mathrm{/s}
+\frac`\{dA}``\{dt}` = 2\pi r \frac`\{dr}``\{dt}` = 2\pi(4)(0.5) = 4\pi \mathrm\{ cm\}^2\mathrm\{/s\}
 $$
 
 ### Question 6 (Paper 2 style)
@@ -839,7 +839,7 @@ Let $f(x) = \dfrac{x}{x^2 + 1}$.
 Using the quotient rule with $u = x$$v = x^2 + 1$:
 
 $$
-F'(x) = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2} = \frac{1 - x^2}{(x^2+1)^2}
+F'(x) = \frac\{(x^2+1)(1) - x(2x)\}\{(x^2+1)^2\} = \frac\{1 - x^2\}\{(x^2+1)^2\}
 $$
 
 **(b)** Find the range of values of $x$ for which $f$ is increasing.

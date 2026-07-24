@@ -39,7 +39,7 @@ The underlying type.
 Given a pointer `T* ptr`The operation `ptr + N` resolves to:
 
 $$
-\mathrm{Address_{new} = \mathrm{Address_{old} + (N \times \mathrm{sizeof(T))
+\mathrm\{Address_\{new\} = \mathrm\{Address_\{old\} + (N \times \mathrm\{sizeof(T))
 $$
 
 ### Architectural Implications
@@ -57,12 +57,12 @@ $$
    of type `std::ptrdiff_t`Representing the number of elements (not bytes) between them.
 
 ```cpp
-struct Block {
+struct Block \{
     uint64_t header;
     uint64_t payload;
-}; // sizeof(Block) == 16
+\}; // sizeof(Block) == 16
 
-void arithmetic_demo() {
+void arithmetic_demo() \{
     Block* base = reinterpret_cast<Block*>(0x1000);
 
     // 0x1000 + (1 * 16) = 0x1010
@@ -70,7 +70,7 @@ void arithmetic_demo() {
 
     // (0x1010 - 0x1000) / 16 = 1
     std::ptrdiff_t diff = next - base;
-}
+\}
 ```
 
 ### Concrete Byte-Offset Examples
@@ -80,26 +80,26 @@ void arithmetic_demo() {
 #include <cstdint>
 #include <iostream>
 
-void byte_offset_examples() {
+void byte_offset_examples() \{
     // char is 1 byte
-    char chars[5] = {'a', 'b', 'c', 'd', 'e'};
+    char chars[5] = \{'a', 'b', 'c', 'd', 'e'\};
     char* pc = chars;
     // pc + 3 points to 'd' at address base + 3
 
     // int is 4 bytes (typical)
-    int ints[5] = {10, 20, 30, 40, 50};
+    int ints[5] = \{10, 20, 30, 40, 50\};
     int* pi = ints;
     // pi + 3 points to 40 at address base + 12 (3 * sizeof(int) = 12)
 
     // double is 8 bytes
-    double doubles[4] = {1.0, 2.0, 3.0, 4.0};
+    double doubles[4] = \{1.0, 2.0, 3.0, 4.0\};
     double* pd = doubles;
     // pd + 2 points to 3.0 at address base + 16 (2 * sizeof(double) = 16)
 
     // Pointer difference returns element count, not byte count
     std::ptrdiff_t diff = (pi + 3) - pi;  // 3 (elements), not 12 (bytes)
     std::cout << "diff: " << diff << "\n";  // 3
-}
+\}
 ```
 
 ### The Commutativity of Indexing
@@ -119,7 +119,7 @@ One-past-the-end or before the beginning of the array is undefined behavior, eve
 Not dereferenced:
 
 ```cpp
-int arr[5] = {};
+int arr[5] = \{\};
 int* p = arr + 5;    // OK: one past the end (cannot dereference)
 int* q = arr + 6;    // UB: beyond one past the end
 int* r = arr - 1;    // UB: before the beginning
@@ -198,7 +198,7 @@ Pointers to functions. The syntax requires parentheses around the pointer name:
 void (*func_ptr)(int);        // pointer to function taking int, returning void
 int  (*math_op)(int, int);    // pointer to function taking two ints, returning int
 
-int add(int a, int b) { return a + b; }
+int add(int a, int b) \{ return a + b; \}
 func_ptr = nullptr;
 math_op = add;  // function name decays to function pointer
 
@@ -212,16 +212,16 @@ Class layout, not a memory address. It cannot be dereferenced without an object 
 §7.6.5]:
 
 ```cpp
-struct Widget {
+struct Widget \{
     int x;
     double y;
-    void print() const { /* ... */ }
-};
+    void print() const \{ /* ... */ \}
+\};
 
 int Widget::* pm = &Widget::x;  // pointer-to-data-member
 void (Widget::* pmf)() const = &Widget::print;  // pointer-to-member-function
 
-Widget w{42, 3.14};
+Widget w\{42, 3.14\};
 
 // Dereferencing requires an object:
 int val = w.*pm;       // val = 42
@@ -239,18 +239,18 @@ Single-inheritance layouts, this is a simple integer. For multiple inheritance, 
 Adjustment when the object pointer is cast to a base class:
 
 ```cpp
-struct Base {
+struct Base \{
     int a;
-};
+\};
 
-struct Derived : Base {
+struct Derived : Base \{
     int b;
-};
+\};
 
 int Derived::* pb = &Derived::b;
 
 // pb is in standard practice the offset of 'b' within Derived, which is sizeof(int) = 4
-Derived d{1, 2};
+Derived d\{1, 2\};
 int val = d.*pb;  // accesses d.b
 ```
 
@@ -310,15 +310,15 @@ This is a legacy C behavior that causes the loss of bounds information (the valu
 Decay occurs whenever an array is passed by value to a function or assigned to a pointer variable.
 
 ```cpp
-void process_data(int* ptr) {
+void process_data(int* ptr) \{
     // Size information is LOST.
     // sizeof(ptr) is 8 (on 64-bit systems), not 400.
-}
+\}
 
-void caller() {
+void caller() \{
     int buffer[100]; // sizeof(buffer) is 400 bytes
     process_data(buffer); // Implicit Decay: int[100] -> int*
-}
+\}
 ```
 
 ### When Decay Does NOT Occur
@@ -332,12 +332,12 @@ Array decay does not occur in the following contexts [N4950 §7.3.3]:
 5. When initializing a reference — `int (&ref)[10] = arr`.
 
 ```cpp
-int arr[5] = {1, 2, 3, 4, 5};
+int arr[5] = \{1, 2, 3, 4, 5\};
 
 std::cout << sizeof(arr) << "\n";     // 20 (5 * sizeof(int)) — no decay
 std::cout << sizeof(arr + 0) << "\n"; // 8 (pointer size) — decayed
 
-decltype(arr) another = {6, 7, 8, 9, 10};  // another is int[5] — no decay
+decltype(arr) another = \{6, 7, 8, 9, 10\};  // another is int[5] — no decay
 ```
 
 ### Multi-Dimensional Array Decay
@@ -349,28 +349,28 @@ To an array of `N` elements. The inner dimension is preserved:
 #include <iostream>
 
 // The first dimension decays, but the second is preserved
-void print_2d(int matrix[][3], int rows) {
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < 3; ++j) {
+void print_2d(int matrix[][3], int rows) \{
+    for (int i = 0; i < rows; ++i) \{
+        for (int j = 0; j < 3; ++j) \{
             std::cout << matrix[i][j] << " ";
-        }
+        \}
         std::cout << "\n";
-    }
-}
+    \}
+\}
 
 // Equivalent explicit syntax:
-void print_2d_explicit(int (*matrix)[3], int rows) {
+void print_2d_explicit(int (*matrix)[3], int rows) \{
     // matrix is a pointer to an array of 3 ints
     // matrix[i] is the i-th row (an array of 3 ints)
-}
+\}
 
-int main() {
-    int m[2][3] = {{1, 2, 3}, {4, 5, 6}};
+int main() \{
+    int m[2][3] = \{\{1, 2, 3\}, \{4, 5, 6\}\};
     print_2d(m, 2);
     // Output:
     // 1 2 3
     // 4 5 6
-}
+\}
 ```
 
 **Key insight:** The compiler needs the inner dimension size to compute pointer arithmetic. When the
@@ -387,10 +387,10 @@ Accepting a reference to an array prevents decay and preserves dimensions.
 
 ```cpp
 template<size_t N>
-void process_safe(int (&arr)[N]) {
+void process_safe(int (&arr)[N]) \{
     // N is known at compile time.
     // sizeof(arr) is correct.
-}
+\}
 ```
 
 #### B. `std::array` (The Object Wrapper)
@@ -406,15 +406,15 @@ Automatically constructs from C-arrays and `std::array` without decay logic losi
 ```cpp
 #include <span>
 
-void process_modern(std::span<int> s) {
+void process_modern(std::span<int> s) \{
     // s.size() is 100
     // s.data() is the pointer
-}
+\}
 
-void caller() {
+void caller() \{
     int buffer[100];
     process_modern(buffer); // Automatically deduces size
-}
+\}
 ```
 
 ## 4. Nullability and `std::nullptr_t`
@@ -477,16 +477,16 @@ To assume the pointer is not null for the rest of the execution path, potentiall
 Subsequent null checks.
 
 ```cpp
-void dangerous(int* ptr) {
+void dangerous(int* ptr) \{
     int x = *ptr; // If ptr is null, this is UB.
 
     // Compiler Optimization:
     // Since *ptr was accessed above, the compiler assumes ptr CANNOT be null.
     // This check may be removed as dead code.
-    if (!ptr) {
+    if (!ptr) \{
         return;
-    }
-}
+    \}
+\}
 ```
 
 ### Architectural Best Practice: The Non-Owning Pointer
@@ -512,11 +512,11 @@ In performance-critical code where a pointer is guaranteed to be non-null by inv
 To the compiler, C++23 provides `[[assume(...)]]` to assist the optimizer.
 
 ```cpp
-void fast_path(int* ptr) {
+void fast_path(int* ptr) \{
     [[assume(ptr != nullptr)]];
     // Compiler can remove null checks and generate direct loads
     int val = *ptr;
-}
+\}
 ```
 
 ## 5. Pointer Types Safety Hierarchy
@@ -528,7 +528,7 @@ C++ provides a layered hierarchy of pointer types with increasing safety guarant
 #include <memory>
 #include <vector>
 
-void safety_hierarchy() {
+void safety_hierarchy() \{
     // Level 0: Raw pointer — no lifetime management, no null safety
     int* raw = new int(42);
     delete raw;  // Must manually manage
@@ -546,9 +546,9 @@ void safety_hierarchy() {
     std::weak_ptr<int> weak = shared;   // Safe observer — checks lifetime
 
     // Level 4: std::span (C++20) — bounded view
-    std::vector<int> v = {1, 2, 3, 4, 5};
+    std::vector<int> v = \{1, 2, 3, 4, 5\};
     std::span<int> s = v;  // Bounds-checked in debug builds (MSVC, with sanitizer)
-}
+\}
 ```
 
 ### Why Raw Pointers Are Still Needed
@@ -583,10 +583,10 @@ Similar to one of the following [N4950 §6.8.4.4]:
 ```cpp
 #include <iostream>
 
-float pun_to_int(float f) {
+float pun_to_int(float f) \{
     int* ip = reinterpret_cast<int*>(&f);  // UB: violates strict aliasing
     return static_cast<float>(*ip);
-}
+\}
 ```
 
 The compiler may assume that a write through `float*` does not affect a read through `int*` at the
@@ -599,11 +599,11 @@ Same address, and may reorder or eliminate either operation.
 #include <cstring>
 #include <bit>
 
-float safe_pun(float f) {
+float safe_pun(float f) \{
     int result;
     std::memcpy(&result, &f, sizeof(result));  // OK: memcpy accesses through char type
     return std::bit_cast<float>(result);       // C++20: guaranteed type punning
-}
+\}
 ```
 
 By [N4950 §6.8.4.4], `memcpy` is exempt from strict aliasing because it accesses objects through
@@ -639,19 +639,19 @@ Aligned types), use `std::aligned_alloc`:
 #include <cstdint>
 #include <new>
 
-void* allocate_aligned(size_t size, size_t alignment) {
+void* allocate_aligned(size_t size, size_t alignment) \{
     // alignment must be a power of two supported by the implementation
     void* ptr = std::aligned_alloc(alignment, size);
-    if (!ptr) {
+    if (!ptr) \{
         throw std::bad_alloc();
-    }
+    \}
     return ptr;
-}
+\}
 
 // C++17: use operator new with alignment
-void* ptr = ::operator new(256, std::align_val_t{32});
+void* ptr = ::operator new(256, std::align_val_t\{32\});
 // Frees with aligned deallocation
-::operator delete(ptr, std::align_val_t{32});
+::operator delete(ptr, std::align_val_t\{32\});
 ```
 
 ### `alignas` for Stack Alignment
@@ -659,10 +659,10 @@ void* ptr = ::operator new(256, std::align_val_t{32});
 ```cpp
 #include <immintrin.h>
 
-void simd_function() {
+void simd_function() \{
     alignas(32) float data[8];  // guaranteed 32-byte aligned for AVX
     __m256 vec = _mm256_load_ps(data);  // requires 32-byte alignment
-}
+\}
 ```
 
 ## 8. Common Pitfalls
@@ -674,16 +674,16 @@ A dangling pointer points to memory that has been freed or gone out of scope:
 ```cpp
 #include <iostream>
 
-int* dangling_demo() {
+int* dangling_demo() \{
     int local = 42;
     return &local;  // WARNING: returns dangling pointer
-}  // local is destroyed here
+\}  // local is destroyed here
 
-void dangling_usage() {
+void dangling_usage() \{
     int* p = dangling_demo();
     // p is a dangling pointer — reading *p is UB
     // The memory may be reused by subsequent allocations
-}
+\}
 ```
 
 ### Buffer Overflows
@@ -693,12 +693,12 @@ Pointer arithmetic without bounds checking can read or write beyond the allocate
 ```cpp
 #include <iostream>
 
-void buffer_overflow() {
-    int arr[5] = {1, 2, 3, 4, 5};
+void buffer_overflow() \{
+    int arr[5] = \{1, 2, 3, 4, 5\};
     int* p = arr;
     p[10] = 99;  // UB: writes 40 bytes past the end of arr
     // May corrupt stack data, return addresses, or other variables
-}
+\}
 ```
 
 **Mitigation:** Use `std::span` (C++20) with bounds checking, or compile with AddressSanitizer
@@ -713,8 +713,8 @@ Is undefined behavior on some architectures (notably ARM) and a performance pena
 #include <iostream>
 #include <cstdint>
 
-void misaligned_access() {
-    char buffer[10] = {};
+void misaligned_access() \{
+    char buffer[10] = \{\};
     // buffer may be at any address
 
     // UB on strict-alignment architectures if buffer is not 4-byte aligned
@@ -725,7 +725,7 @@ void misaligned_access() {
     alignas(int) char aligned_buf[sizeof(int)];
     int* safe_pi = reinterpret_cast<int*>(aligned_buf);
     *safe_pi = 42;  // OK: guaranteed aligned
-}
+\}
 ```
 
 ### Double Free and Use-After-Free
@@ -734,19 +734,19 @@ void misaligned_access() {
 #include <cstdlib>
 #include <iostream>
 
-void double_free() {
+void double_free() \{
     int* p = static_cast<int*>(std::malloc(sizeof(int)));
     *p = 42;
     std::free(p);
     std::free(p);  // UB: double free — may corrupt heap metadata
-}
+\}
 
-void use_after_free() {
+void use_after_free() \{
     int* p = static_cast<int*>(std::malloc(sizeof(int)));
     *p = 42;
     std::free(p);
     std::cout << *p << "\n";  // UB: use-after-free
-}
+\}
 ```
 
 **Mitigation:** Always use smart pointers. `std::unique_ptr` and `std::shared_ptr` eliminate these
@@ -762,13 +762,13 @@ Well-defined:
 int a[5];
 int b[5];
 
-if (&a[0] < &b[0]) {  // UB: different arrays
+if (&a[0] < &b[0]) \{  // UB: different arrays
     // ...
-}
+\}
 
-if (&a[0] == &b[0]) {  // OK: always well-defined (false here)
+if (&a[0] == &b[0]) \{  // OK: always well-defined (false here)
     // ...
-}
+\}
 ```
 
 ### Null Pointer Arithmetic

@@ -67,7 +67,7 @@ Definition" linker error.
 int config_value = 42;
 
 // Strong: function
-void process() { }
+void process() \{ \}
 ```
 
 **Weak symbols:** Uninitialized globals (tentative definitions), or symbols explicitly annotated
@@ -80,7 +80,7 @@ int tentative_value;
 
 // Weak: explicit annotation (GCC/Clang)
 __attribute__((weak))
-void optional_hook() { }
+void optional_hook() \{ \}
 ```
 
 **Common symbols:** These are a special case of tentative definitions. When GCC encounters an
@@ -416,17 +416,17 @@ Development.
 ENTRY(_start)
 
 SECTIONS
-{
+\{
     . = 0x100000;          /* Base address: 1 MB */
-    .text : { *(.text) }   /* All .text sections concatenated */
-    .rodata : { *(.rodata) }
-    .data : { *(.data) }
-    .bss : {
+    .text : \{ *(.text) \}   /* All .text sections concatenated */
+    .rodata : \{ *(.rodata) \}
+    .data : \{ *(.data) \}
+    .bss : \{
         __bss_start = .;
         *(.bss)
         __bss_end = .;
-    }
-}
+    \}
+\}
 ```
 
 Key directives:
@@ -596,18 +596,18 @@ Versioning. This is critical for maintaining backward compatibility when evolvin
 
 ```ld
 /* libfoo.ver */
-VERS_1.0 {
+VERS_1.0 \{
     global:
         foo;
         bar;
     local:
         *;
-};
+\};
 
-VERS_2.0 {
+VERS_2.0 \{
     global:
         baz;
-} VERS_1.0;
+\} VERS_1.0;
 ```
 
 Usage:
@@ -633,12 +633,12 @@ Version scripts are an alternative to `-fvisibility=hidden` for controlling whic
 Exported:
 
 ```ld
-{
+\{
     global:
         public_api_*;
     local:
         *;
-};
+\};
 ```
 
 This exports only symbols matching `public_api_*` and hides everything else, without requiring
@@ -737,10 +737,10 @@ clang++ -Wl,--wrap=malloc app.o -o app
 
 ```cpp
 // In the application or a test harness:
-extern "C" void* __wrap_malloc(size_t size) {
+extern "C" void* __wrap_malloc(size_t size) \{
     // Custom implementation (logging, tracking, etc.)
     return __real_malloc(size);
-}
+\}
 
 extern "C" void* __real_malloc(size_t size);
 ```

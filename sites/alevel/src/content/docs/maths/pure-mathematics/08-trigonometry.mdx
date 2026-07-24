@@ -145,10 +145,10 @@ $$\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$$
 _Proof._
 
 $$
-\begin{aligned}
-\tan(A + B) &= \frac{\sin(A + B)}{\cos(A + B)} \\
-&= \frac{\sin A \cos B + \cos A \sin B}{\cos A \cos B - \sin A \sin B}
-\end{aligned}
+\begin\{aligned\}
+\tan(A + B) &= \frac\{\sin(A + B)\}\{\cos(A + B)\} \\
+&= \frac\{\sin A \cos B + \cos A \sin B\}\{\cos A \cos B - \sin A \sin B\}
+\end\{aligned\}
 $$
 
 Divide numerator and denominator by $\cos A \cos B$:
@@ -160,11 +160,11 @@ $$= \frac{\tan A + \tan B}{1 - \tan A \tan B} \quad \blacksquare$$
 **Theorem.**
 
 $$
-\begin{aligned}
+\begin\{aligned\}
 \sin(A - B) &= \sin A \cos B - \cos A \sin B \\
 \cos(A - B) &= \cos A \cos B + \sin A \sin B \\
-\tan(A - B) &= \frac{\tan A - \tan B}{1 + \tan A \tan B}
-\end{aligned}
+\tan(A - B) &= \frac\{\tan A - \tan B\}\{1 + \tan A \tan B\}
+\end\{aligned\}
 $$
 
 _Proof._ Replace $B$ with $-B$ in the sum formulas, using $\sin(-B) = -\sin B$ and
@@ -177,11 +177,11 @@ $\cos(-B) = \cos B$. $\blacksquare$
 Setting $A = B$ in the compound angle formulas:
 
 $$
-\begin{aligned}
+\begin\{aligned\}
 \sin 2A &= 2\sin A \cos A \\
 \cos 2A &= \cos^2 A - \sin^2 A \\
-\tan 2A &= \frac{2\tan A}{1 - \tan^2 A}
-\end{aligned}
+\tan 2A &= \frac\{2\tan A\}\{1 - \tan^2 A\}
+\end\{aligned\}
 $$
 
 **Theorem.** Three equivalent forms of $\cos 2A$:
@@ -213,11 +213,11 @@ Integration.
 ### 5.2 Key Solutions
 
 $$
-\begin{aligned}
-\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm{ or } \pi - \arcsin(a) + 2n\pi \\
+\begin\{aligned\}
+\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm\{ or \} \pi - \arcsin(a) + 2n\pi \\
 \cos\theta = a &\implies \theta = \pm\arccos(a) + 2n\pi \\
 \tan\theta = a &\implies \theta = \arctan(a) + n\pi
-\end{aligned}
+\end\{aligned\}
 $$
 
 <details>
@@ -250,11 +250,11 @@ Solutions: $\theta = 0, \frac{\pi}{3}, \frac{5\pi}{3}$.
 **Theorem.** For small $\theta$ (in radians):
 
 $$
-\begin{aligned}
-\sin\theta &\approx \theta - \frac{\theta^3}{6} \\
-\cos\theta &\approx 1 - \frac{\theta^2}{2} \\
-\tan\theta &\approx \theta + \frac{\theta^3}{3}
-\end{aligned}
+\begin\{aligned\}
+\sin\theta &\approx \theta - \frac\{\theta^3\}\{6\} \\
+\cos\theta &\approx 1 - \frac\{\theta^2\}\{2\} \\
+\tan\theta &\approx \theta + \frac\{\theta^3\}\{3\}
+\end\{aligned\}
 $$
 
 These follow from the Maclaurin series expansions (see [Differentiation](10-differentiation.mdx)).
@@ -466,12 +466,12 @@ Bottom by the conjugate $a \mp b$ to produce a difference of squares.
 Prove that $\cot A + \tan A = \dfrac{2}{\sin 2A}$.
 
 $$
-\begin{aligned}
-\cot A + \tan A &= \frac{\cos A}{\sin A} + \frac{\sin A}{\cos A} \\
-&= \frac{\cos^2 A + \sin^2 A}{\sin A \cos A} \\
-&= \frac{1}{\sin A \cos A} \\
-&= \frac{2}{2\sin A \cos A} = \frac{2}{\sin 2A} \quad \blacksquare
-\end{aligned}
+\begin\{aligned\}
+\cot A + \tan A &= \frac\{\cos A\}\{\sin A\} + \frac\{\sin A\}\{\cos A\} \\
+&= \frac\{\cos^2 A + \sin^2 A\}\{\sin A \cos A\} \\
+&= \frac\{1\}\{\sin A \cos A\} \\
+&= \frac\{2\}\{2\sin A \cos A\} = \frac\{2\}\{\sin 2A\} \quad \blacksquare
+\end\{aligned\}
 $$
 
 </details>
@@ -481,14 +481,14 @@ $$
 Prove that $\sin 3A = 3\sin A - 4\sin^3 A$.
 
 $$
-\begin{aligned}
+\begin\{aligned\}
 \sin 3A &= \sin(2A + A) \\
 &= \sin 2A \cos A + \cos 2A \sin A \\
 &= 2\sin A \cos^2 A + (1 - 2\sin^2 A)\sin A \\
 &= 2\sin A(1 - \sin^2 A) + \sin A - 2\sin^3 A \\
 &= 2\sin A - 2\sin^3 A + \sin A - 2\sin^3 A \\
 &= 3\sin A - 4\sin^3 A \quad \blacksquare
-\end{aligned}
+\end\{aligned\}
 $$
 
 </details>
@@ -500,13 +500,13 @@ Prove that $\dfrac{1}{\sec A + \tan A} = \sec A - \tan A$.
 Multiply numerator and denominator by $\sec A - \tan A$:
 
 $$
-\begin{aligned}
-\frac{1}{\sec A + \tan A} \cdot \frac{\sec A - \tan A}{\sec A - \tan A}
-&= \frac{\sec A - \tan A}{\sec^2 A - \tan^2 A} \\
-&= \frac{\sec A - \tan A}{1 + \tan^2 A - \tan^2 A} \\
-&= \frac{\sec A - \tan A}{1} \\
+\begin\{aligned\}
+\frac\{1\}\{\sec A + \tan A\} \cdot \frac\{\sec A - \tan A\}\{\sec A - \tan A\}
+&= \frac\{\sec A - \tan A\}\{\sec^2 A - \tan^2 A\} \\
+&= \frac\{\sec A - \tan A\}\{1 + \tan^2 A - \tan^2 A\} \\
+&= \frac\{\sec A - \tan A\}\{1\} \\
 &= \sec A - \tan A \quad \blacksquare
-\end{aligned}
+\end\{aligned\}
 $$
 
 Where we used $\sec^2 A = 1 + \tan^2 A$ so that $\sec^2 A - \tan^2 A = 1$.
@@ -520,13 +520,13 @@ Prove that $\dfrac{\cos 2A}{1 + \sin 2A} = \dfrac{\cos A - \sin A}{\cos A + \sin
 Working from the LHS:
 
 $$
-\begin{aligned}
-\frac{\cos 2A}{1 + \sin 2A}
-&= \frac{\cos^2 A - \sin^2 A}{1 + 2\sin A \cos A} \\
-&= \frac{(\cos A - \sin A)(\cos A + \sin A)}{\cos^2 A + 2\sin A\cos A + \sin^2 A} \\
-&= \frac{(\cos A - \sin A)(\cos A + \sin A)}{(\cos A + \sin A)^2} \\
-&= \frac{\cos A - \sin A}{\cos A + \sin A} \quad \blacksquare
-\end{aligned}
+\begin\{aligned\}
+\frac\{\cos 2A\}\{1 + \sin 2A\}
+&= \frac\{\cos^2 A - \sin^2 A\}\{1 + 2\sin A \cos A\} \\
+&= \frac\{(\cos A - \sin A)(\cos A + \sin A)\}\{\cos^2 A + 2\sin A\cos A + \sin^2 A\} \\
+&= \frac\{(\cos A - \sin A)(\cos A + \sin A)\}\{(\cos A + \sin A)^2\} \\
+&= \frac\{\cos A - \sin A\}\{\cos A + \sin A\} \quad \blacksquare
+\end\{aligned\}
 $$
 
 </details>
@@ -586,11 +586,11 @@ $y = 2\sin\!\left(-\frac{\pi}{3}\right) = -\sqrt{3} \approx -1.73$. </details> <
 <details>
 <summary>Solution</summary>
 $$
-\begin{aligned}
-\frac{\sin 2\theta}{1 + \cos 2\theta} &= \frac{2\sin\theta\cos\theta}{1 + (2\cos^2\theta - 1)} \\
-&= \frac{2\sin\theta\cos\theta}{2\cos^2\theta} \\
-&= \frac{\sin\theta}{\cos\theta} = \tan\theta \quad \blacksquare
-\end{aligned}
+\begin\{aligned\}
+\frac\{\sin 2\theta\}\{1 + \cos 2\theta\} &= \frac\{2\sin\theta\cos\theta\}\{1 + (2\cos^2\theta - 1)\} \\
+&= \frac\{2\sin\theta\cos\theta\}\{2\cos^2\theta\} \\
+&= \frac\{\sin\theta\}\{\cos\theta\} = \tan\theta \quad \blacksquare
+\end\{aligned\}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
@@ -654,11 +654,11 @@ $$= \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac
 <details>
 <summary>Solution</summary>
 $$
-\begin{aligned}
-\frac{1 - \cos 2\theta}{\sin 2\theta} &= \frac{1 - (1 - 2\sin^2\theta)}{2\sin\theta\cos\theta} \\
-&= \frac{2\sin^2\theta}{2\sin\theta\cos\theta} \\
-&= \frac{\sin\theta}{\cos\theta} = \tan\theta \quad \blacksquare
-\end{aligned}
+\begin\{aligned\}
+\frac\{1 - \cos 2\theta\}\{\sin 2\theta\} &= \frac\{1 - (1 - 2\sin^2\theta)\}\{2\sin\theta\cos\theta\} \\
+&= \frac\{2\sin^2\theta\}\{2\sin\theta\cos\theta\} \\
+&= \frac\{\sin\theta\}\{\cos\theta\} = \tan\theta \quad \blacksquare
+\end\{aligned\}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
@@ -731,13 +731,13 @@ $\dfrac{1 + \sin 2A}{\cos 2A} = \tan\!\left(A + \dfrac{\pi}{4}\right)$.
 Working from the LHS:
 
 $$
-\begin{aligned}
-\frac{1 + \sin 2A}{\cos 2A}
-&= \frac{1 + 2\sin A \cos A}{\cos^2 A - \sin^2 A} \\
-&= \frac{\sin^2 A + 2\sin A \cos A + \cos^2 A}{(\cos A - \sin A)(\cos A + \sin A)} \\
-&= \frac{(\sin A + \cos A)^2}{(\cos A - \sin A)(\cos A + \sin A)} \\
-&= \frac{\sin A + \cos A}{\cos A - \sin A}
-\end{aligned}
+\begin\{aligned\}
+\frac\{1 + \sin 2A\}\{\cos 2A\}
+&= \frac\{1 + 2\sin A \cos A\}\{\cos^2 A - \sin^2 A\} \\
+&= \frac\{\sin^2 A + 2\sin A \cos A + \cos^2 A\}\{(\cos A - \sin A)(\cos A + \sin A)\} \\
+&= \frac\{(\sin A + \cos A)^2\}\{(\cos A - \sin A)(\cos A + \sin A)\} \\
+&= \frac\{\sin A + \cos A\}\{\cos A - \sin A\}
+\end\{aligned\}
 $$
 
 Dividing numerator and denominator by $\cos A$:
@@ -780,12 +780,12 @@ Since $0 \lt \frac{\pi}{12} \lt \frac{\pi}{2}$ (first quadrant),
 $\cos\frac{\pi}{12} > 0$.
 
 $$
-\begin{aligned}
-\cos\frac{\pi}{12} &= \sqrt{\frac{1 + \cos\frac{\pi}{6}}{2}} \\
-&= \sqrt{\frac{1 + \frac{\sqrt{3}}{2}}{2}} \\
-&= \sqrt{\frac{2 + \sqrt{3}}{4}} \\
-&= \frac{\sqrt{2 + \sqrt{3}}}{2}
-\end{aligned}
+\begin\{aligned\}
+\cos\frac\{\pi\}\{12\} &= \sqrt\{\frac\{1 + \cos\frac\{\pi\}\{6\}\}\{2\}\} \\
+&= \sqrt\{\frac\{1 + \frac\{\sqrt\{3\}\}\{2\}\}\{2\}\} \\
+&= \sqrt\{\frac\{2 + \sqrt\{3\}\}\{4\}\} \\
+&= \frac\{\sqrt\{2 + \sqrt\{3\}\}\}\{2\}
+\end\{aligned\}
 $$
 
 This can also be verified using the compound angle formula:
@@ -829,14 +829,14 @@ $\dfrac{\sin 3A}{\sin A} - \dfrac{\cos 3A}{\cos A} = 2$.
 <details>
 <summary>Solution</summary>
 $$
-\begin{aligned}
-\frac{\sin 3A}{\sin A} - \frac{\cos 3A}{\cos A}
-&= \frac{\sin 3A \cos A - \cos 3A \sin A}{\sin A \cos A} \\
-&= \frac{\sin(3A - A)}{\sin A \cos A} \\
-&= \frac{\sin 2A}{\sin A \cos A} \\
-&= \frac{2\sin A \cos A}{\sin A \cos A} \\
+\begin\{aligned\}
+\frac\{\sin 3A\}\{\sin A\} - \frac\{\cos 3A\}\{\cos A\}
+&= \frac\{\sin 3A \cos A - \cos 3A \sin A\}\{\sin A \cos A\} \\
+&= \frac\{\sin(3A - A)\}\{\sin A \cos A\} \\
+&= \frac\{\sin 2A\}\{\sin A \cos A\} \\
+&= \frac\{2\sin A \cos A\}\{\sin A \cos A\} \\
 &= 2 \quad \blacksquare
-\end{aligned}
+\end\{aligned\}
 $$
 
 </details>
@@ -880,15 +880,15 @@ Solutions: $\theta = \frac{\pi}{2}$ or $\theta = \frac{11\pi}{6}$.
 Using $\sec^2 A = 1 + \tan^2 A$:
 
 $$
-\begin{aligned}
-\frac{1 - \tan^2 A}{1 + \tan^2 A}
-&= \frac{1 - \tan^2 A}{\sec^2 A} \\
+\begin\{aligned\}
+\frac\{1 - \tan^2 A\}\{1 + \tan^2 A\}
+&= \frac\{1 - \tan^2 A\}\{\sec^2 A\} \\
 &= (1 - \tan^2 A)\cos^2 A \\
 &= \cos^2 A - \tan^2 A \cos^2 A \\
-&= \cos^2 A - \frac{\sin^2 A}{\cos^2 A} \cdot \cos^2 A \\
+&= \cos^2 A - \frac\{\sin^2 A\}\{\cos^2 A\} \cdot \cos^2 A \\
 &= \cos^2 A - \sin^2 A \\
 &= \cos 2A \quad \blacksquare
-\end{aligned}
+\end\{aligned\}
 $$
 
 </details>

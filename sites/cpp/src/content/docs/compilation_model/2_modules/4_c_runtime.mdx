@@ -206,10 +206,10 @@ Linker input and cause a previously correct program to crash during startup.
 
 ```cpp
 // Thread-safe in C++11+ (Magic Statics) [N4950 S6.8]
-int& get_global() {
+int& get_global() \{
     static int x = 42; // Initialized only when get_global() is first called
     return x;
-}
+\}
 ```
 
 The "magic statics" guarantee [N4950 S6.8 p8] ensures that the initialization of function-local
@@ -225,10 +225,10 @@ Section via a linker attribute:
 ```cpp
 // What the compiler emits (conceptually)
 __attribute__((constructor))
-static void _GLOBAL__sub_I_file_cpp() {
+static void _GLOBAL__sub_I_file_cpp() \{
     // Call constructors for all global objects in this TU
     global_obj.~T(); // actually constructor call
-}
+\}
 ```
 
 The linker collects all `_GLOBAL__sub_I_*` functions from all object files and places their
@@ -253,23 +253,23 @@ Time.
 ```cpp
 #include <cstdlib>
 
-struct Logger {
-    ~Logger() { /* flush logs */ }
-};
+struct Logger \{
+    ~Logger() \{ /* flush logs */ \}
+\};
 
 Logger global_logger;  // Destructor registered as atexit callback during startup
 
-void on_exit() {
+void on_exit() \{
     // Also registered as atexit callback
-}
+\}
 
-int main() {
+int main() \{
     std::atexit(on_exit);
     return 0;
     // atexit callbacks run in reverse order:
     // 1. on_exit
     // 2. ~Logger (global_logger destructor)
-}
+\}
 ```
 
 ## CRT on Different Platforms
@@ -374,15 +374,15 @@ In a freestanding environment, you provide your own entry point:
 
 ```cpp
 // kernel_entry.cpp (freestanding)
-extern "C" void _start() {
+extern "C" void _start() \{
     // Custom initialization
     // No CRT, no global constructors, no atexit
 
     // Must call exit syscall manually (or loop forever for a kernel)
-    while (true) {
+    while (true) \{
         __asm__ volatile("hlt");
-    }
-}
+    \}
+\}
 
 // Link without CRT
 // clang++ -ffreestanding -nostdlib -fuse-ld=lld -T linker.ld kernel_entry.cpp -o kernel.elf
@@ -397,20 +397,20 @@ entry point or via a linker script:
 ```ld
 /* linker.ld */
 SECTIONS
-{
+\{
     . = 0x80000;
-    .text : { *(.text) }
-    .rodata : { *(.rodata) }
-    .data : { *(.data) }
-    .bss : {
+    .text : \{ *(.text) \}
+    .rodata : \{ *(.rodata) \}
+    .data : \{ *(.data) \}
+    .bss : \{
         __bss_start = .;
         *(.bss)
         __bss_end = .;
-    }
+    \}
     . = ALIGN(16);
     . = . + 0x4000;  /* 16 KB stack */
     __stack_top = .;
-}
+\}
 ```
 
 ```cpp
@@ -557,9 +557,9 @@ thread_local int tls_zero = 0;
 
 thread_local std::string tls_dynamic = "hello";
 
-void thread_entry() {
+void thread_entry() \{
     std::cout << tls_dynamic << "\n";
-}
+\}
 ```
 
 On glibc, `__cxa_thread_atexit` registers per-thread destructors that run when the thread exits,
@@ -606,8 +606,8 @@ Library depends on symbols from the main executable, those symbols may not yet b
 The C++ standard specifies two valid signatures for `main` [N4950 S6.6.1]:
 
 ```cpp
-int main() { }
-int main(int argc, char* argv[]) { }
+int main() \{ \}
+int main(int argc, char* argv[]) \{ \}
 ```
 
 The return type of `main` must be `int`. If `main` terminates without a `return` statement, the CRT
@@ -672,15 +672,15 @@ Default implementation, but it can be replaced by defining a custom `operator ne
 #include <cstdlib>
 #include <new>
 
-void* operator new(std::size_t size) {
+void* operator new(std::size_t size) \{
     void* ptr = std::malloc(size);
     if (!ptr) throw std::bad_alloc();
     return ptr;
-}
+\}
 
-void operator delete(void* ptr) noexcept {
+void operator delete(void* ptr) noexcept \{
     std::free(ptr);
-}
+\}
 ```
 
 Per [N4950 S17.7.3], replacing the global `operator new` is allowed but must be done consistently
@@ -711,12 +711,12 @@ Platforms) or via `std::getenv()`:
 ```cpp
 #include <cstdlib>
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) \{
     const char* path = std::getenv("PATH");
-    if (path) {
+    if (path) \{
         // PATH is available
-    }
-}
+    \}
+\}
 ```
 
 On Linux, the environment variables are located on the stack above `argv` (see the stack layout

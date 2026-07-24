@@ -20,13 +20,13 @@ sidebar_position: 50
 ```swift
 import SwiftUI
 
-struct ProfileCard: View {
+struct ProfileCard: View \{
     let name: String
     let bio: String
     let imageName: String
 
-    var body: some View {
-        VStack(spacing: 12) {
+    var body: some View \{
+        VStack(spacing: 12) \{
             Image(imageName)
                 .resizable()
                 .scaledToFill()
@@ -42,22 +42,22 @@ struct ProfileCard: View {
                 .font(.body)
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)
-        }
+        \}
         .padding()
         .background(RoundedRectangle(cornerRadius: 12).fill(Color(.systemBackground)))
         .shadow(radius: 4)
-    }
-}
+    \}
+\}
 
-struct ProfileCardPreview: View {
-    var body: some View {
+struct ProfileCardPreview: View \{
+    var body: some View \{
         ProfileCard(
             name: "Jane Smith",
             bio: "SwiftUI developer and design enthusiast.",
             imageName: "person.circle.fill"
         )
-    }
-}
+    \}
+\}
 ```
 
 **Solution:** The `ProfileCard` is a pure, stateless view that receives data via initializer parameters. `VStack` arranges content vertically with spacing. `clipShape(Circle())` and the overlay create a circular avatar with a border. The shadow and background provide visual depth.
@@ -72,16 +72,16 @@ struct ProfileCardPreview: View {
 ```swift
 import SwiftUI
 
-struct TemperatureConverter: View {
+struct TemperatureConverter: View \{
     @State private var celsius: Double = 20.0
     @Binding var displayUnit: String
 
-    var fahrenheit: Double {
+    var fahrenheit: Double \{
         celsius * 9 / 5 + 32
-    }
+    \}
 
-    var body: some View {
-        VStack(spacing: 20) {
+    var body: some View \{
+        VStack(spacing: 20) \{
             Text("Temperature Converter")
                 .font(.largeTitle)
 
@@ -89,37 +89,37 @@ struct TemperatureConverter: View {
                 value: $celsius,
                 in: -40...100,
                 step: 1
-            ) {
+            ) \{
                 Text("\(Int(celsius))°C")
-            }
+            \}
 
             Divider()
 
-            HStack {
+            HStack \{
                 Text("Fahrenheit:")
                     .font(.headline)
                 Text("\(fahrenheit, specifier: "%.1f")°F")
                     .font(.title)
                     .foregroundColor(.blue)
-            }
+            \}
 
-            Picker("Display Unit", selection: $displayUnit) {
+            Picker("Display Unit", selection: $displayUnit) \{
                 Text("Celsius").tag("C")
                 Text("Fahrenheit").tag("F")
-            }
+            \}
             .pickerStyle(.segmented)
-        }
+        \}
         .padding()
-    }
-}
+    \}
+\}
 
-struct ConverterContainer: View {
+struct ConverterContainer: View \{
     @State private var unit: String = "C"
 
-    var body: some View {
+    var body: some View \{
         TemperatureConverter(displayUnit: $unit)
-    }
-}
+    \}
+\}
 ```
 
 **Solution:** `@State` manages the local Celsius value within `TemperatureConverter`. `@Binding var displayUnit` connects to a parent-owned state. The computed property `fahrenheit` derives the converted value. The `Stepper` modifies `$celsius` directly through the binding.
@@ -134,12 +134,12 @@ struct ConverterContainer: View {
 ```swift
 import SwiftUI
 
-struct DraggableView: View {
+struct DraggableView: View \{
     @State private var offset = CGSize.zero
     @State private var isEditing = false
 
-    var body: some View {
-        VStack {
+    var body: some View \{
+        VStack \{
             Text(isEditing ? "Editing Mode" : "View Mode")
                 .font(.headline)
                 .foregroundColor(isEditing ? .red : .primary)
@@ -150,31 +150,31 @@ struct DraggableView: View {
                 .offset(offset)
                 .gesture(
                     DragGesture()
-                        .onChanged { value in
+                        .onChanged \{ value in
                             offset = value.translation
-                        }
-                        .onEnded { _ in
-                            withAnimation(.spring()) {
+                        \}
+                        .onEnded \{ _ in
+                            withAnimation(.spring()) \{
                                 offset = .zero
-                            }
-                        }
+                            \}
+                        \}
                 )
                 .gesture(
                     LongPressGesture(minimumDuration: 0.5)
-                        .onEnded { _ in
-                            withAnimation {
+                        .onEnded \{ _ in
+                            withAnimation \{
                                 isEditing.toggle()
-                            }
-                        }
+                            \}
+                        \}
                 )
 
             Text("Position: (\(Int(offset.width)), \(Int(offset.height)))")
                 .font(.caption)
                 .foregroundColor(.secondary)
-        }
+        \}
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
-}
+    \}
+\}
 ```
 
 **Solution:** Two gestures are composed on the same view. `DragGesture` tracks translation and updates `offset` on change, resetting with animation on release. `LongPressGesture` toggles `isEditing` after 0.5 seconds. The circle's fill color and position reflect the current state.
@@ -189,11 +189,11 @@ struct DraggableView: View {
 ```swift
 import SwiftUI
 
-struct CardModifier: ViewModifier {
+struct CardModifier: ViewModifier \{
     var cornerRadius: CGFloat
     var shadowRadius: CGFloat
 
-    func body(content: Content) -> some View {
+    func body(content: Content) -> some View \{
         content
             .padding()
             .background(
@@ -205,24 +205,24 @@ struct CardModifier: ViewModifier {
                     .stroke(Color.gray.opacity(0.2), lineWidth: 1)
             )
             .shadow(radius: shadowRadius)
-    }
-}
+    \}
+\}
 
-extension View {
+extension View \{
     func cardStyle(
         cornerRadius: CGFloat = 12,
         shadowRadius: CGFloat = 4
-    ) -> some View {
+    ) -> some View \{
         modifier(CardModifier(
             cornerRadius: cornerRadius,
             shadowRadius: shadowRadius
         ))
-    }
-}
+    \}
+\}
 
-struct ModifierDemo: View {
-    var body: some View {
-        VStack(spacing: 16) {
+struct ModifierDemo: View \{
+    var body: some View \{
+        VStack(spacing: 16) \{
             Text("Basic Card")
                 .cardStyle()
 
@@ -231,10 +231,10 @@ struct ModifierDemo: View {
 
             Text("No Shadow")
                 .cardStyle(shadowRadius: 0)
-        }
+        \}
         .padding()
-    }
-}
+    \}
+\}
 ```
 
 **Solution:** `CardModifier` encapsulates the card styling logic in a reusable `ViewModifier`. The `extension View` method provides a fluent API. Different configurations are achieved by passing parameters to the convenience method, keeping the modifier flexible and composable.
@@ -249,13 +249,13 @@ struct ModifierDemo: View {
 ```swift
 import SwiftUI
 
-struct Item: Identifiable {
+struct Item: Identifiable \{
     let id = UUID()
     let title: String
     let description: String
-}
+\}
 
-struct ItemListView: View {
+struct ItemListView: View \{
     @State private var items: [Item] = [
         Item(title: "Architecture", description: "MVVM and clean architecture patterns"),
         Item(title: "Networking", description: "URLSession and async/await"),
@@ -266,63 +266,63 @@ struct ItemListView: View {
     @State private var searchText = ""
     @State private var showingSheet = false
 
-    var filteredItems: [Item] {
-        if searchText.isEmpty { return items }
-        return items.filter {
+    var filteredItems: [Item] \{
+        if searchText.isEmpty \{ return items \}
+        return items.filter \{
             $0.title.localizedCaseInsensitiveContains(searchText) ||
             $0.description.localizedCaseInsensitiveContains(searchText)
-        }
-    }
+        \}
+    \}
 
-    var body: some View {
-        NavigationStack {
-            List(filteredItems) { item in
-                NavigationLink(item.title) {
+    var body: some View \{
+        NavigationStack \{
+            List(filteredItems) \{ item in
+                NavigationLink(item.title) \{
                     ItemDetailView(item: item)
-                }
-            }
+                \}
+            \}
             .navigationTitle("Topics")
             .searchable(text: $searchText, prompt: "Search topics")
-            .toolbar {
-                Button(action: { showingSheet = true }) {
+            .toolbar \{
+                Button(action: \{ showingSheet = true \}) \{
                     Image(systemName: "info.circle")
-                }
-            }
-            .sheet(isPresented: $showingSheet) {
+                \}
+            \}
+            .sheet(isPresented: $showingSheet) \{
                 InfoSheet()
-            }
-        }
-    }
-}
+            \}
+        \}
+    \}
+\}
 
-struct ItemDetailView: View {
+struct ItemDetailView: View \{
     let item: Item
 
-    var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+    var body: some View \{
+        VStack(alignment: .leading, spacing: 16) \{
             Text(item.title)
                 .font(.largeTitle)
             Text(item.description)
                 .font(.body)
                 .foregroundColor(.secondary)
-        }
+        \}
         .padding()
-    }
-}
+    \}
+\}
 
-struct InfoSheet: View {
+struct InfoSheet: View \{
     @Environment(\.dismiss) var dismiss
 
-    var body: some View {
-        NavigationStack {
+    var body: some View \{
+        NavigationStack \{
             Text("Navigation patterns demo.")
                 .navigationTitle("Info")
-                .toolbar {
-                    Button("Done") { dismiss() }
-                }
-        }
-    }
-}
+                .toolbar \{
+                    Button("Done") \{ dismiss() \}
+                \}
+        \}
+    \}
+\}
 ```
 
 **Solution:** `NavigationStack` manages the navigation path. `NavigationLink` pushes detail views. `.searchable` adds a built-in search bar that filters the list. `.sheet` presents a modal. `@Environment(\.dismiss)` dismisses the sheet. The `filteredItems` computed property handles search filtering.

@@ -24,13 +24,13 @@ width={800} height={500} />
 Adjust the parameters in the graph above to explore the relationships between variables.
 
 $$
-F'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
+F'(a) = \lim_\{h \to 0\} \frac\{f(a+h) - f(a)\}\{h\}
 $$
 
 Equivalently, using an alternate form:
 
 $$
-F'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}
+F'(a) = \lim_\{x \to a\} \frac\{f(x) - f(a)\}\{x - a\}
 $$
 
 If this limit exists, $f$ is said to be **differentiable** at $a$.
@@ -53,11 +53,11 @@ $f$ at the point $(a, f(a))$.
 Find $f'(2)$ for $f(x) = x^2 - 3x + 1$ using the limit definition.
 
 $$
-F'(2) = \lim_{h \to 0} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0} \frac{(2+h)^2 - 3(2+h) + 1 - (-1)}{h}
+F'(2) = \lim_\{h \to 0\} \frac\{f(2+h) - f(2)\}\{h\} = \lim_\{h \to 0\} \frac\{(2+h)^2 - 3(2+h) + 1 - (-1)\}\{h\}
 $$
 
 $$
-= \lim_{h \to 0} \frac{4 + 4h + h^2 - 6 - 3h + 1 + 1}{h} = \lim_{h \to 0} \frac{h^2 + h}{h} = \lim_{h \to 0}(h + 1) = 1
+= \lim_\{h \to 0\} \frac\{4 + 4h + h^2 - 6 - 3h + 1 + 1\}\{h\} = \lim_\{h \to 0\} \frac\{h^2 + h\}\{h\} = \lim_\{h \to 0\}(h + 1) = 1
 $$
 
 
@@ -67,7 +67,7 @@ $$
 Find $f'(x)$ for $f(x) = \frac{1}{x}$ using the limit definition.
 
 $$
-F'(x) = \lim_{h \to 0} \frac{\frac{1}{x+h} - \frac{1}{x}}{h} = \lim_{h \to 0} \frac{x - (x+h)}{h \cdot x(x+h)} = \lim_{h \to 0} \frac{-h}{h \cdot x(x+h)} = \lim_{h \to 0} \frac{-1}{x(x+h)} = -\frac{1}{x^2}
+F'(x) = \lim_\{h \to 0\} \frac\{\frac\{1\}\{x+h\} - \frac\{1\}\{x\}\}\{h\} = \lim_\{h \to 0\} \frac\{x - (x+h)\}\{h \cdot x(x+h)\} = \lim_\{h \to 0\} \frac\{-h\}\{h \cdot x(x+h)\} = \lim_\{h \to 0\} \frac\{-1\}\{x(x+h)\} = -\frac\{1\}\{x^2\}
 $$
 
 
@@ -77,13 +77,13 @@ $$
 Find $f'(x)$ for $f(x) = \sqrt{x}$ using the limit definition.
 
 $$
-F'(x) = \lim_{h \to 0} \frac{\sqrt{x+h} - \sqrt{x}}{h}
+F'(x) = \lim_\{h \to 0\} \frac\{\sqrt\{x+h\} - \sqrt\{x\}\}\{h\}
 $$
 
 Multiply numerator and denominator by $\sqrt{x+h} + \sqrt{x}$:
 
 $$
-= \lim_{h \to 0} \frac{x + h - x}{h(\sqrt{x+h} + \sqrt{x})} = \lim_{h \to 0} \frac{1}{\sqrt{x+h} + \sqrt{x}} = \frac{1}{2\sqrt{x}}
+= \lim_\{h \to 0\} \frac\{x + h - x\}\{h(\sqrt\{x+h\} + \sqrt\{x\})\} = \lim_\{h \to 0\} \frac\{1\}\{\sqrt\{x+h\} + \sqrt\{x\}\} = \frac\{1\}\{2\sqrt\{x\}\}
 $$
 
 This confirms the power rule for $n = \frac{1}{2}$:
@@ -97,7 +97,7 @@ $\frac{d}{dx}[x^{1/2}] = \frac{1}{2}x^{-1/2} = \frac{1}{2\sqrt{x}}$. $\blacksqua
 **Proof.** We need to show $\displaystyle\lim_{x \to a} f(x) = f(a)$. Consider:
 
 $$
-\lim_{x \to a} [f(x) - f(a)] = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} \cdot (x - a) = f'(a) \cdot 0 = 0
+\lim_\{x \to a\} [f(x) - f(a)] = \lim_\{x \to a\} \frac\{f(x) - f(a)\}\{x - a\} \cdot (x - a) = f'(a) \cdot 0 = 0
 $$
 
 Therefore, $\displaystyle\lim_{x \to a} f(x) = f(a)$So $f$ is continuous at $a$. $\blacksquare$
@@ -127,7 +127,7 @@ Since $-1 \neq 1$The derivative does not exist. $\blacksquare$
 **Proof that $f(x) = x^{2/3}$ has a cusp at $x = 0$.**
 
 $$
-F'(x) = \frac{2}{3}x^{-1/3} = \frac{2}{3\sqrt[3]{x}}
+F'(x) = \frac\{2\}\{3\}x^\{-1/3\} = \frac\{2\}\{3\sqrt[3]\{x\}\}
 $$
 
 As $x \to 0^+$$f'(x) \to +\infty$. As $x \to 0^-$$f'(x) \to -\infty$.
@@ -149,14 +149,14 @@ Let $c$ be a constant and $n$ a real number:
 ### Product Rule
 
 $$
-\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)
+\frac\{d\}\{dx\}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)
 $$
 
 **Proof sketch.** Write $F(x) = f(x)g(x)$ and expand the difference quotient
 $\frac{F(x+h) - F(x)}{h}$ by adding and subtracting $f(x+h)g(x)$:
 
 $$
-\frac{f(x+h)g(x+h) - f(x)g(x)}{h} = f(x+h)\frac{g(x+h) - g(x)}{h} + g(x)\frac{f(x+h) - f(x)}{h}
+\frac\{f(x+h)g(x+h) - f(x)g(x)\}\{h\} = f(x+h)\frac\{g(x+h) - g(x)\}\{h\} + g(x)\frac\{f(x+h) - f(x)\}\{h\}
 $$
 
 Taking limits as $h \to 0$ gives the result. $\blacksquare$
@@ -164,7 +164,7 @@ Taking limits as $h \to 0$ gives the result. $\blacksquare$
 ### Quotient Rule
 
 $$
-\frac{d}{dx}\!\left[\frac{f(x)}{g(x)}\right] = \frac{g(x)f'(x) - f(x)g'(x)}{[g(x)]^2}
+\frac\{d\}\{dx\}\!\left[\frac\{f(x)\}\{g(x)\}\right] = \frac\{g(x)f'(x) - f(x)g'(x)\}\{[g(x)]^2\}
 $$
 
 **Proof.** Let $F(x) = \frac{f(x)}{g(x)}$So $f(x) = F(x)g(x)$. Differentiating using the product
@@ -175,11 +175,11 @@ F'(x) = F'(x)g(x) + F(x)g'(x)
 $$
 
 $$
-F'(x)g(x) = f'(x) - F(x)g'(x) = f'(x) - \frac{f(x)}{g(x)}g'(x)
+F'(x)g(x) = f'(x) - F(x)g'(x) = f'(x) - \frac\{f(x)\}\{g(x)\}g'(x)
 $$
 
 $$
-F'(x) = \frac{f'(x)}{g(x)} - \frac{f(x)g'(x)}{[g(x)]^2} = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}
+F'(x) = \frac\{f'(x)\}\{g(x)\} - \frac\{f(x)g'(x)\}\{[g(x)]^2\} = \frac\{f'(x)g(x) - f(x)g'(x)\}\{[g(x)]^2\}
 $$
 
 $\blacksquare$
@@ -189,7 +189,7 @@ $\blacksquare$
 ### Chain Rule
 
 $$
-\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)
+\frac\{d\}\{dx\}[f(g(x))] = f'(g(x)) \cdot g'(x)
 $$
 
 **Why the chain rule works.** If $y = f(u)$ and $u = g(x)$Then
@@ -199,7 +199,7 @@ $\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$. This is a cancellation of t
 **Proof of the chain rule.** Let $u = g(x)$ and define:
 
 $$
-K(h) = \frac{f(u + h) - f(u)}{h} - f'(u) \quad \mathrm{when  h \ne 0, \quad k(0) = 0
+K(h) = \frac\{f(u + h) - f(u)\}\{h\} - f'(u) \quad \mathrm\{when  h \ne 0, \quad k(0) = 0
 $$
 
 Then $\displaystyle\lim_{h \to 0} k(h) = 0$ and $f(u+h) - f(u) = [f'(u) + k(h)] \cdot h$ for all
@@ -208,7 +208,7 @@ $h$.
 Let $\Delta u = g(x+h) - g(x)$. Then:
 
 $$
-\frac{f(g(x+h)) - f(g(x))}{h} = \frac{f(u + \Delta u) - f(u)}{h} = [f'(u) + k(\Delta u)] \cdot \frac{\Delta u}{h}
+\frac\{f(g(x+h)) - f(g(x))\}\{h\} = \frac\{f(u + \Delta u) - f(u)\}\{h\} = [f'(u) + k(\Delta u)] \cdot \frac\{\Delta u\}\{h\}
 $$
 
 Taking $h \to 0$: $\Delta u \to 0$ (since $g$ is differentiable, hence continuous), so
@@ -228,7 +228,7 @@ Find $\displaystyle\frac{d}{dx}\left[(3x^2 + 1)^5\right]$.
 Let $u = 3x^2 + 1$So $y = u^5$.
 
 $$
-\frac{dy}{dx} = 5u^4 \cdot \frac{du}{dx} = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4
+\frac\{dy\}\{dx\} = 5u^4 \cdot \frac\{du\}\{dx\} = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4
 $$
 
 
@@ -240,7 +240,7 @@ Find $\displaystyle\frac{d}{dx}\left[\sin^3(2x)\right]$.
 Apply the chain rule twice:
 
 $$
-\frac{d}{dx}\left[\sin^3(2x)\right] = 3\sin^2(2x) \cdot \cos(2x) \cdot 2 = 6\sin^2(2x)\cos(2x)
+\frac\{d\}\{dx\}\left[\sin^3(2x)\right] = 3\sin^2(2x) \cdot \cos(2x) \cdot 2 = 6\sin^2(2x)\cos(2x)
 $$
 
 
@@ -252,7 +252,7 @@ Find $\displaystyle\frac{d}{dx}\left[\ln(\sin x)\right]$.
 Let $u = \sin x$So $y = \ln u$.
 
 $$
-\frac{dy}{dx} = \frac{1}{\sin x} \cdot \cos x = \cot x
+\frac\{dy\}\{dx\} = \frac\{1\}\{\sin x\} \cdot \cos x = \cot x
 $$
 
 
@@ -264,38 +264,38 @@ Find $\displaystyle\frac{d}{dx}\left[e^{\sqrt{3x+1}}\right]$.
 Apply the chain rule twice:
 
 $$
-\frac{d}{dx}\left[e^{\sqrt{3x+1}}\right] = e^{\sqrt{3x+1}} \cdot \frac{d}{dx}\!\left[(3x+1)^{1/2}\right] = e^{\sqrt{3x+1}} \cdot \frac{1}{2}(3x+1)^{-1/2} \cdot 3 = \frac{3e^{\sqrt{3x+1}}}{2\sqrt{3x+1}}
+\frac\{d\}\{dx\}\left[e^\{\sqrt\{3x+1\}\}\right] = e^\{\sqrt\{3x+1\}\} \cdot \frac\{d\}\{dx\}\!\left[(3x+1)^\{1/2\}\right] = e^\{\sqrt\{3x+1\}\} \cdot \frac\{1\}\{2\}(3x+1)^\{-1/2\} \cdot 3 = \frac\{3e^\{\sqrt\{3x+1\}\}\}\{2\sqrt\{3x+1\}\}
 $$
 
 
 ## Derivatives of Trigonometric Functions
 
 $$
-\frac{d}{dx}[\sin x] = \cos x \qquad \frac{d}{dx}[\cos x] = -\sin x
+\frac\{d\}\{dx\}[\sin x] = \cos x \qquad \frac\{d\}\{dx\}[\cos x] = -\sin x
 $$
 
 $$
-\frac{d}{dx}[\tan x] = \sec^2 x \qquad \frac{d}{dx}[\cot x] = -\csc^2 x
+\frac\{d\}\{dx\}[\tan x] = \sec^2 x \qquad \frac\{d\}\{dx\}[\cot x] = -\csc^2 x
 $$
 
 $$
-\frac{d}{dx}[\sec x] = \sec x \tan x \qquad \frac{d}{dx}[\csc x] = -\csc x \cot x
+\frac\{d\}\{dx\}[\sec x] = \sec x \tan x \qquad \frac\{d\}\{dx\}[\csc x] = -\csc x \cot x
 $$
 
 ### Proof that $\displaystyle\frac{d}{dx}[\sin x] = \cos x$
 
 $$
-\frac{d}{dx}[\sin x] = \lim_{h \to 0} \frac{\sin(x+h) - \sin x}{h} = \lim_{h \to 0} \frac{\sin x \cos h + \cos x \sin h - \sin x}{h}
+\frac\{d\}\{dx\}[\sin x] = \lim_\{h \to 0\} \frac\{\sin(x+h) - \sin x\}\{h\} = \lim_\{h \to 0\} \frac\{\sin x \cos h + \cos x \sin h - \sin x\}\{h\}
 $$
 
 $$
-= \lim_{h \to 0}\!\left[\sin x \cdot \frac{\cos h - 1}{h} + \cos x \cdot \frac{\sin h}{h}\right] = \sin x \cdot 0 + \cos x \cdot 1 = \cos x
+= \lim_\{h \to 0\}\!\left[\sin x \cdot \frac\{\cos h - 1\}\{h\} + \cos x \cdot \frac\{\sin h\}\{h\}\right] = \sin x \cdot 0 + \cos x \cdot 1 = \cos x
 $$
 
 ### Proof that $\displaystyle\frac{d}{dx}[\tan x] = \sec^2 x$
 
 $$
-\frac{d}{dx}[\tan x] = \frac{d}{dx}\!\left[\frac{\sin x}{\cos x}\right] = \frac{\cos x \cdot \cos x - \sin x \cdot (-\sin x)}{\cos^2 x} = \frac{\cos^2 x + \sin^2 x}{\cos^2 x} = \frac{1}{\cos^2 x} = \sec^2 x
+\frac\{d\}\{dx\}[\tan x] = \frac\{d\}\{dx\}\!\left[\frac\{\sin x\}\{\cos x\}\right] = \frac\{\cos x \cdot \cos x - \sin x \cdot (-\sin x)\}\{\cos^2 x\} = \frac\{\cos^2 x + \sin^2 x\}\{\cos^2 x\} = \frac\{1\}\{\cos^2 x\} = \sec^2 x
 $$
 
 $\blacksquare$
@@ -303,17 +303,17 @@ $\blacksquare$
 ## Derivatives of Exponential and Logarithmic Functions
 
 $$
-\frac{d}{dx}[e^x] = e^x \qquad \frac{d}{dx}[a^x] = a^x \ln a
+\frac\{d\}\{dx\}[e^x] = e^x \qquad \frac\{d\}\{dx\}[a^x] = a^x \ln a
 $$
 
 $$
-\frac{d}{dx}[\ln x] = \frac{1}{x} \qquad \frac{d}{dx}[\log_a x] = \frac{1}{x \ln a}
+\frac\{d\}\{dx\}[\ln x] = \frac\{1\}\{x\} \qquad \frac\{d\}\{dx\}[\log_a x] = \frac\{1\}\{x \ln a\}
 $$
 
 ### Proof that $\displaystyle\frac{d}{dx}[e^x] = e^x$
 
 $$
-\frac{d}{dx}[e^x] = \lim_{h \to 0} \frac{e^{x+h} - e^x}{h} = e^x \lim_{h \to 0} \frac{e^h - 1}{h} = e^x \cdot 1 = e^x
+\frac\{d\}\{dx\}[e^x] = \lim_\{h \to 0\} \frac\{e^\{x+h\} - e^x\}\{h\} = e^x \lim_\{h \to 0\} \frac\{e^h - 1\}\{h\} = e^x \cdot 1 = e^x
 $$
 
 Where we used $\displaystyle\lim_{h \to 0} \frac{e^h - 1}{h} = 1$.
@@ -328,7 +328,7 @@ $\frac{dy}{dx} = \frac{1}{e^y} = \frac{1}{x}$. $\blacksquare$
 Write $a^x = e^{x \ln a}$. Then:
 
 $$
-\frac{d}{dx}[a^x] = \frac{d}{dx}[e^{x \ln a}] = e^{x \ln a} \cdot \ln a = a^x \ln a
+\frac\{d\}\{dx\}[a^x] = \frac\{d\}\{dx\}[e^\{x \ln a\}] = e^\{x \ln a\} \cdot \ln a = a^x \ln a
 $$
 
 $\blacksquare$
@@ -336,18 +336,18 @@ $\blacksquare$
 ## Inverse Trigonometric Derivatives
 
 $$
-\frac{d}{dx}[\arcsin x] = \frac{1}{\sqrt{1 - x^2}} \qquad \frac{d}{dx}[\arccos x] = \frac{-1}{\sqrt{1 - x^2}}
+\frac\{d\}\{dx\}[\arcsin x] = \frac\{1\}\{\sqrt\{1 - x^2\}\} \qquad \frac\{d\}\{dx\}[\arccos x] = \frac\{-1\}\{\sqrt\{1 - x^2\}\}
 $$
 
 $$
-\frac{d}{dx}[\arctan x] = \frac{1}{1 + x^2}
+\frac\{d\}\{dx\}[\arctan x] = \frac\{1\}\{1 + x^2\}
 $$
 
 **Derivation of $\arcsin x$.** Let $y = \arcsin x$So $x = \sin y$. Differentiating:
 $1 = \cos y \cdot
-\frac{dy}{dx}$, so
-$\frac{dy}{dx} = \frac{1}{\cos y} = \frac{1}{\sqrt{1 - \sin^2 y}} =
-\frac{1}{\sqrt{1 - x^2}}$.
+\frac\{dy\}\{dx\}$, so
+$\frac\{dy\}\{dx\} = \frac\{1\}\{\cos y\} = \frac\{1\}\{\sqrt\{1 - \sin^2 y\}\} =
+\frac\{1\}\{\sqrt\{1 - x^2\}\}$.
 
 **Derivation of $\arctan x$.** Let $y = \arctan x$So $x = \tan y$. Differentiating:
 $1 = \sec^2 y \cdot \frac{dy}{dx}$So $\frac{dy}{dx} = \frac{1}{\sec^2 y} = \cos^2 y$.
@@ -368,7 +368,7 @@ Find $\displaystyle\frac{dy}{dx}$ for $x^2 + y^2 = 25$.
 Differentiate both sides with respect to $x$:
 
 $$
-2x + 2y\frac{dy}{dx} = 0 \implies \frac{dy}{dx} = -\frac{x}{y}
+2x + 2y\frac\{dy\}\{dx\} = 0 \implies \frac\{dy\}\{dx\} = -\frac\{x\}\{y\}
 $$
 
 
@@ -380,7 +380,7 @@ Find the equation of the tangent line to $x^2 + y^2 = 25$ at the point $(3, 4)$.
 From the previous example, $\displaystyle\frac{dy}{dx} = -\frac{x}{y}$. At $(3, 4)$:
 
 $$
-\left.\frac{dy}{dx}\right|_{(3,4)} = -\frac{3}{4}
+\left.\frac\{dy\}\{dx\}\right|_\{(3,4)\} = -\frac\{3\}\{4\}
 $$
 
 The tangent line is $y - 4 = -\frac{3}{4}(x - 3)$Or $3x + 4y = 25$.
@@ -394,19 +394,19 @@ Find $\displaystyle\frac{dy}{dx}$ for $x^3 + y^3 = 6xy$.
 Differentiate implicitly:
 
 $$
-3x^2 + 3y^2\frac{dy}{dx} = 6y + 6x\frac{dy}{dx}
+3x^2 + 3y^2\frac\{dy\}\{dx\} = 6y + 6x\frac\{dy\}\{dx\}
 $$
 
 $$
-3y^2\frac{dy}{dx} - 6x\frac{dy}{dx} = 6y - 3x^2
+3y^2\frac\{dy\}\{dx\} - 6x\frac\{dy\}\{dx\} = 6y - 3x^2
 $$
 
 $$
-\frac{dy}{dx}(3y^2 - 6x) = 6y - 3x^2
+\frac\{dy\}\{dx\}(3y^2 - 6x) = 6y - 3x^2
 $$
 
 $$
-\frac{dy}{dx} = \frac{6y - 3x^2}{3y^2 - 6x} = \frac{2y - x^2}{y^2 - 2x}
+\frac\{dy\}\{dx\} = \frac\{6y - 3x^2\}\{3y^2 - 6x\} = \frac\{2y - x^2\}\{y^2 - 2x\}
 $$
 
 
@@ -420,7 +420,7 @@ We have $\frac{dy}{dx} = -\frac{x}{y}$.
 Differentiating again:
 
 $$
-\frac{d^2y}{dx^2} = \frac{d}{dx}\!\left(-\frac{x}{y}\right) = -\frac{y - x\frac{dy}{dx}}{y^2} = -\frac{y - x(-x/y)}{y^2} = -\frac{y^2 + x^2}{y^3} = -\frac{25}{y^3}
+\frac\{d^2y\}\{dx^2\} = \frac\{d\}\{dx\}\!\left(-\frac\{x\}\{y\}\right) = -\frac\{y - x\frac\{dy\}\{dx\}\}\{y^2\} = -\frac\{y - x(-x/y)\}\{y^2\} = -\frac\{y^2 + x^2\}\{y^3\} = -\frac\{25\}\{y^3\}
 $$
 
 
@@ -432,19 +432,19 @@ Find $\displaystyle\frac{dy}{dx}$ for $e^{xy} + y = x^2$.
 Differentiate implicitly with respect to $x$:
 
 $$
-E^{xy}\!\left(y + x\frac{dy}{dx}\right) + \frac{dy}{dx} = 2x
+E^\{xy\}\!\left(y + x\frac\{dy\}\{dx\}\right) + \frac\{dy\}\{dx\} = 2x
 $$
 
 $$
-E^{xy} \cdot y + e^{xy} \cdot x \frac{dy}{dx} + \frac{dy}{dx} = 2x
+E^\{xy\} \cdot y + e^\{xy\} \cdot x \frac\{dy\}\{dx\} + \frac\{dy\}\{dx\} = 2x
 $$
 
 $$
-\frac{dy}{dx}(xe^{xy} + 1) = 2x - ye^{xy}
+\frac\{dy\}\{dx\}(xe^\{xy\} + 1) = 2x - ye^\{xy\}
 $$
 
 $$
-\frac{dy}{dx} = \frac{2x - ye^{xy}}{xe^{xy} + 1}
+\frac\{dy\}\{dx\} = \frac\{2x - ye^\{xy\}\}\{xe^\{xy\} + 1\}
 $$
 
 
@@ -453,7 +453,7 @@ $$
 The second derivative is the derivative of the first derivative:
 
 $$
-F''(x) = \frac{d}{dx}[f'(x)] = \frac{d^2y}{dx^2}
+F''(x) = \frac\{d\}\{dx\}[f'(x)] = \frac\{d^2y\}\{dx^2\}
 $$
 
 Similarly, $f'''(x)$$f^{(4)}(x)$Etc. Denote higher-order derivatives.
@@ -494,13 +494,13 @@ Let $x$ = distance from wall to bottom, $y$ = height of top on wall. Then $x^2 +
 Differentiate with respect to $t$:
 
 $$
-2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 0
+2x\frac\{dx\}\{dt\} + 2y\frac\{dy\}\{dt\} = 0
 $$
 
 When $x = 6$: $y = \sqrt{100 - 36} = 8$. Given $\frac{dx}{dt} = 1$:
 
 $$
-2(6)(1) + 2(8)\frac{dy}{dt} = 0 \implies \frac{dy}{dt} = -\frac{12}{16} = -\frac{3}{4} \mathrm{ ft/s
+2(6)(1) + 2(8)\frac\{dy\}\{dt\} = 0 \implies \frac\{dy\}\{dt\} = -\frac\{12\}\{16\} = -\frac\{3\}\{4\} \mathrm\{ ft/s
 $$
 
 The negative sign confirms the top is sliding down.
@@ -513,11 +513,11 @@ A spherical balloon is inflated at a rate of $10 \mathrm{ cm^3/\mathrm{s$. How f
 Increasing when the radius is 5 cm? ($V = \frac{4}{3}\pi r^3$)
 
 $$
-\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt}
+\frac\{dV\}\{dt\} = 4\pi r^2 \frac\{dr\}\{dt\}
 $$
 
 $$
-10 = 4\pi(25)\frac{dr}{dt} \implies \frac{dr}{dt} = \frac{10}{100\pi} = \frac{1}{10\pi} \mathrm{ cm/s
+10 = 4\pi(25)\frac\{dr\}\{dt\} \implies \frac\{dr\}\{dt\} = \frac\{10\}\{100\pi\} = \frac\{1\}\{10\pi\} \mathrm\{ cm/s
 $$
 
 
@@ -533,17 +533,17 @@ $x = 15\cos\theta$.
 Differentiating with respect to $t$:
 
 $$
-\frac{dx}{dt} = -15\sin\theta \frac{d\theta}{dt}
+\frac\{dx\}\{dt\} = -15\sin\theta \frac\{d\theta\}\{dt\}
 $$
 
 When $x = 9$: $\cos\theta = \frac{9}{15} = \frac{3}{5}$So $\sin\theta = \frac{4}{5}$.
 
 $$
-2 = -15 \cdot \frac{4}{5} \cdot \frac{d\theta}{dt} = -12 \frac{d\theta}{dt}
+2 = -15 \cdot \frac\{4\}\{5\} \cdot \frac\{d\theta\}\{dt\} = -12 \frac\{d\theta\}\{dt\}
 $$
 
 $$
-\frac{d\theta}{dt} = -\frac{2}{12} = -\frac{1}{6} \mathrm{ rad/s
+\frac\{d\theta\}\{dt\} = -\frac\{2\}\{12\} = -\frac\{1\}\{6\} \mathrm\{ rad/s
 $$
 
 The angle is decreasing at $\frac{1}{6}$ rad/s.
@@ -567,11 +567,11 @@ Use linear approximation to estimate $\sqrt{4.1}$.
 Let $f(x) = \sqrt{x}$$a = 4$.
 
 $$
-F'(x) = \frac{1}{2\sqrt{x}} \implies f(4) = 2, \quad f'(4) = \frac{1}{4}
+F'(x) = \frac\{1\}\{2\sqrt\{x\}\} \implies f(4) = 2, \quad f'(4) = \frac\{1\}\{4\}
 $$
 
 $$
-\sqrt{4.1} \approx 2 + \frac{1}{4}(4.1 - 4) = 2 + 0.025 = 2.025
+\sqrt\{4.1\} \approx 2 + \frac\{1\}\{4\}(4.1 - 4) = 2 + 0.025 = 2.025
 $$
 
 (The actual value is approximately 2.02485.)
@@ -589,7 +589,7 @@ F'(x) = 10x^9 \implies f(1) = 1, \quad f'(1) = 10
 $$
 
 $$
-(1.02)^{10} \approx 1 + 10(0.02) = 1.20
+(1.02)^\{10\} \approx 1 + 10(0.02) = 1.20
 $$
 
 (The actual value is approximately 1.21899, showing that linear approximation is less accurate when
@@ -602,7 +602,7 @@ If $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$Then there exists
 $c \in (a, b)$ such that:
 
 $$
-F'(c) = \frac{f(b) - f(a)}{b - a}
+F'(c) = \frac\{f(b) - f(a)\}\{b - a\}
 $$
 
 This means the instantaneous rate of change equals the average rate of change at some interior
@@ -701,11 +701,11 @@ A = xy = x(100 - x) = 100x - x^2
 $$
 
 $$
-\frac{dA}{dx} = 100 - 2x = 0 \implies x = 50
+\frac\{dA\}\{dx\} = 100 - 2x = 0 \implies x = 50
 $$
 
 $$
-\frac{d^2A}{dx^2} = -2 \lt 0 \quad \mathrm{(confirms maximum)
+\frac\{d^2A\}\{dx^2\} = -2 \lt 0 \quad \mathrm\{(confirms maximum)
 $$
 
 So $x = 50$$y = 50$And the maximum area is $2500 \mathrm{ ft^2$.
@@ -717,7 +717,7 @@ So $x = 50$$y = 50$And the maximum area is $2500 \mathrm{ ft^2$.
 Find the minimum value of $f(x) = x + \frac{4}{x}$ for $x \gt 0$.
 
 $$
-F'(x) = 1 - \frac{4}{x^2} = 0 \implies x^2 = 4 \implies x = 2 \mathrm{ (since  x \gt 0)
+F'(x) = 1 - \frac\{4\}\{x^2\} = 0 \implies x^2 = 4 \implies x = 2 \mathrm\{ (since  x \gt 0)
 $$
 
 $$
@@ -725,7 +725,7 @@ F(2) = 2 + 2 = 4
 $$
 
 $$
-F''(2) = \frac{8}{8} = 1 \gt 0 \quad \mathrm{(confirms minimum)
+F''(2) = \frac\{8\}\{8\} = 1 \gt 0 \quad \mathrm\{(confirms minimum)
 $$
 
 The minimum value is $4$ at $x = 2$.
@@ -746,15 +746,15 @@ Cost:
 $C = 2c \cdot x^2 + 4c \cdot xh = 2cx^2 + 4cx \cdot \frac{500}{x^2} = 2cx^2 + \frac{2000c}{x}$.
 
 $$
-\frac{dC}{dx} = 4cx - \frac{2000c}{x^2} = 0
+\frac\{dC\}\{dx\} = 4cx - \frac\{2000c\}\{x^2\} = 0
 $$
 
 $$
-4x^3 = 2000 \implies x^3 = 500 \implies x = \sqrt[3]{500} \approx 7.937 \mathrm{ cm
+4x^3 = 2000 \implies x^3 = 500 \implies x = \sqrt[3]\{500\} \approx 7.937 \mathrm\{ cm
 $$
 
 $$
-H = \frac{500}{500^{2/3}} = 500^{1/3} = \sqrt[3]{500} \approx 7.937 \mathrm{ cm
+H = \frac\{500\}\{500^\{2/3\}\} = 500^\{1/3\} = \sqrt[3]\{500\} \approx 7.937 \mathrm\{ cm
 $$
 
 The cost is minimised when the box is a cube. $\frac{d^2C}{dx^2} = 4c + \frac{4000c}{x^3} \gt 0$
@@ -778,7 +778,7 @@ Points **or** at endpoints.
 Find the absolute maximum and minimum of $f(x) = x^3 - 3x^2 + 4$ on $[-1, 4]$.
 
 $$
-F'(x) = 3x^2 - 6x = 3x(x - 2) = 0 \implies x = 0 \mathrm{ or  x = 2
+F'(x) = 3x^2 - 6x = 3x(x - 2) = 0 \implies x = 0 \mathrm\{ or  x = 2
 $$
 
 $f(-1) = -1 - 3 + 4 = 0$$f(0) = 4$$f(2) = 8 - 12 + 4 = 0$$f(4) = 64 - 48 + 4 = 20$.

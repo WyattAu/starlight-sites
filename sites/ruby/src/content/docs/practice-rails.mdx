@@ -92,15 +92,15 @@ class Article < ApplicationRecord
   has_many :article_tags, dependent: :destroy
   has_many :tags, through: :article_tags
 
-  validates :title, presence: true, length: { maximum: 200 }
+  validates :title, presence: true, length: \{ maximum: 200 \}
   validates :body, presence: true
 
-  scope :published, -> { where.not(published_at: nil).where("published_at <= ?", Time.current) }
-  scope :with_comment_counts, -> {
+  scope :published, -> \{ where.not(published_at: nil).where("published_at <= ?", Time.current) \}
+  scope :with_comment_counts, -> \{
     left_joins(:comments)
       .select("articles.*, COUNT(comments.id) AS comments_count")
       .group("articles.id")
-  }
+  \}
 
   def draft?
     published_at.nil?
@@ -111,7 +111,7 @@ class Comment < ApplicationRecord
   belongs_to :user
   belongs_to :article
 
-  validates :body, presence: true, length: { minimum: 5 }
+  validates :body, presence: true, length: \{ minimum: 5 \}
 end
 
 class Tag < ApplicationRecord
@@ -125,7 +125,7 @@ class ArticleTag < ApplicationRecord
   belongs_to :article
   belongs_to :tag
 
-  validates :article_id, uniqueness: { scope: :tag_id }
+  validates :article_id, uniqueness: \{ scope: :tag_id \}
 end
 ```
 
@@ -288,11 +288,11 @@ class CsvImportJob < ApplicationJob
 
       invalid.each do |record|
         failed += 1
-        errors << { row: record.attributes, errors: record.errors.full_messages }
+        errors << \{ row: record.attributes, errors: record.errors.full_messages \}
       end
 
       Rails.logger.info(
-        "CSV Import: #{imported + failed}/#{total} processed"
+        "CSV Import: #\{imported + failed\}/#\{total\} processed"
       )
     end
 
@@ -311,7 +311,7 @@ class CsvImportJob < ApplicationJob
 
     File.delete(csv_path) if File.exist?(csv_path)
   rescue StandardError => e
-    Rails.logger.error("CSV Import failed: #{e.message}")
+    Rails.logger.error("CSV Import failed: #\{e.message\}")
     raise
   end
 end

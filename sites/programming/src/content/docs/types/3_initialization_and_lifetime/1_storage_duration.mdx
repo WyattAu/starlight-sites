@@ -34,14 +34,14 @@ Automatic storage duration is the default for local variables declared at block 
 `static` or `thread_local`.
 
 ```cpp
-void example() {
+void example() \{
     int x;              // automatic storage duration, indeterminate value
     int y = 42;         // automatic storage duration, initialized to 42
     int z[100];         // automatic storage duration, all elements indeterminate
 
     static int s = 1;   // static storage duration (NOT automatic)
     thread_local int t; // thread storage duration (NOT automatic)
-}
+\}
 ```
 
 ### Stack Behavior
@@ -50,16 +50,16 @@ Automatic storage is allocated on the call stack. The compiler generates prologu
 adjusts the stack pointer:
 
 ```cpp
-struct Widget {
+struct Widget \{
     int a, b, c;
-    Widget() : a(1), b(2), c(3) {}
-};
+    Widget() : a(1), b(2), c(3) \{\}
+\};
 
-void process() {
+void process() \{
     Widget w;  // stack pointer decremented by sizeof(Widget)
                 // constructor runs
     // ... use w ...
-}  // destructor runs
+\}  // destructor runs
    // stack pointer incremented (storage reclaimed)
 ```
 
@@ -77,13 +77,13 @@ Temporary objects (prvalues) also have automatic storage duration. Their lifetim
 Full-expression in which they are created:
 
 ```cpp
-std::string get_name() {
+std::string get_name() \{
     return std::string("hello");  // temporary, destroyed at end of full-expression
-}
+\}
 
-void use() {
+void use() \{
     const auto& ref = std::string("hello");  // lifetime extended to scope of ref
-}
+\}
 ```
 
 See [Reference Lifetime](../2_pointers_references_views/2_reference_lifetime.mdx) for details on
@@ -125,21 +125,21 @@ Unspecified**.
 
 ```cpp
 // file: config.cpp
-struct Config {
+struct Config \{
     int timeout = 30;
-};
-Config& get_config() {
+\};
+Config& get_config() \{
     static Config instance;  // Construct On First Use (safe)
     return instance;
-}
+\}
 
 // file: logger.cpp
-struct Logger {
-    Logger() {
+struct Logger \{
+    Logger() \{
         int t = get_config().timeout;  // BOOM if Config not yet constructed
         // ...
-    }
-};
+    \}
+\};
 Logger global_logger;  // dynamic initialization
 ```
 
@@ -152,16 +152,16 @@ The canonical solution uses a function-local `static` variable. Function-local s
 Initialized on first call, and the initialization is thread-safe as of C++11 [N4950 §6.7.6]:
 
 ```cpp
-struct Database {
-    Database(const std::string& conn_str) : connection(conn_str) {}
+struct Database \{
+    Database(const std::string& conn_str) : connection(conn_str) \{\}
     std::string connection;
-};
+\};
 
 // Safe across all translation units:
-Database& get_database() {
+Database& get_database() \{
     static Database instance("postgresql://localhost/mydb");
     return instance;
-}
+\}
 ```
 
 The compiler generates a guard variable (e.g., `_ZGV15get_databaseE9instance`) and uses
@@ -172,11 +172,11 @@ The compiler generates a guard variable (e.g., `_ZGV15get_databaseE9instance`) a
 If the object can be `constexpr`It is initialized at compile time and sidesteps the fiasco Entirely:
 
 ```cpp
-struct Flags {
+struct Flags \{
     int max_connections = 100;
     int timeout_ms = 5000;
-};
-constexpr Flags g_flags{};  // in binary, no dynamic init
+\};
+constexpr Flags g_flags\{\};  // in binary, no dynamic init
 ```
 
 ## Thread-Local Storage Duration
@@ -186,12 +186,12 @@ Thread gets its own independent copy [N4950 §6.7.3].
 
 ```cpp
 thread_local int thread_id = 0;
-thread_local std::mt19937 rng{std::random_device{}()};
+thread_local std::mt19937 rng\{std::random_device\{\}()\};
 
-void worker(int id) {
+void worker(int id) \{
     thread_id = id;  // each thread has its own copy
     std::cout << std::this_thread::get_id() << ": " << thread_id << "\n";
-}
+\}
 ```
 
 ### TLS Mechanics
@@ -213,13 +213,13 @@ Thread first accesses the variable (or at thread start for eagerly-initialized T
 ```cpp
 thread_local std::string thread_name = "unnamed";  // dynamic init on first use
 
-void set_thread_name(const std::string& name) {
+void set_thread_name(const std::string& name) \{
     thread_name = name;
-}
+\}
 
-std::string get_thread_name() {
+std::string get_thread_name() \{
     return thread_name;
-}
+\}
 ```
 
 ### Performance Considerations
@@ -257,13 +257,13 @@ Placement `new` constructs an object at a specific memory address without alloca
 
 alignas(std::max_align_t) unsigned char buffer[sizeof(std::string)];
 
-void example() {
+void example() \{
     std::string* s = new (buffer) std::string("hello");
     // s points into buffer, no heap allocation occurred
 
     s->~std::string();  // must manually call destructor
     // No delete -- no memory was allocated
-}
+\}
 ```
 
 Placement `new` is the foundation of custom allocators, memory pools, and the standard library
@@ -278,14 +278,14 @@ Containers.
 
 alignas(std::string) unsigned char buffer[sizeof(std::string)];
 
-void example() {
+void example() \{
     std::string* s = std::construct_at(
         reinterpret_cast<std::string*>(buffer),
         "hello"
     );
 
     std::destroy_at(s);  // modern counterpart to manual destructor call
-}
+\}
 ```
 
 `std::construct_at` and `std::destroy_at` are preferred over placement new and manual destructor
@@ -294,21 +294,21 @@ Calls because they handle `const` and reference types correctly and are more rea
 ### Overloading `operator new` and `operator delete`
 
 ```cpp
-class PoolAllocator {
+class PoolAllocator \{
     void* pool_;
 public:
-    PoolAllocator(size_t size) {
+    PoolAllocator(size_t size) \{
         pool_ = std::malloc(size);
-    }
+    \}
 
-    static void* operator new(size_t sz) {
+    static void* operator new(size_t sz) \{
         return get_pool().allocate(sz);
-    }
+    \}
 
-    static void operator delete(void* p, size_t sz) noexcept {
+    static void operator delete(void* p, size_t sz) noexcept \{
         get_pool().deallocate(p, sz);
-    }
-};
+    \}
+\};
 ```
 
 The overloaded `operator new` handles allocation; the constructor is still called by the compiler.
@@ -327,14 +327,14 @@ Similarly, `operator delete` handles deallocation, and the destructor runs befor
 ## Storage Duration Summary Table
 
 ```cpp
-void demonstrate_all_durations() {
+void demonstrate_all_durations() \{
     int auto_var = 1;                    // automatic: block scope
     static int static_var = 2;           // static: persists across calls
     thread_local int tls_var = 3;        // thread: per-thread copy
     int* dyn_var = new int(4);           // dynamic: heap, manual lifetime
     // ...
     delete dyn_var;
-}
+\}
 ```
 
 ### Alignment in Dynamic Storage
@@ -343,9 +343,9 @@ void demonstrate_all_durations() {
 x86_64). For over-aligned types, C++17 provides `operator new(size_t, align_val_t)`:
 
 ```cpp
-struct alignas(64) CacheLine {
+struct alignas(64) CacheLine \{
     std::atomic<int> data[16];
-};
+\};
 
 CacheLine* cl = new CacheLine;  // C++17: uses aligned operator new automatically
 ```
@@ -353,13 +353,13 @@ CacheLine* cl = new CacheLine;  // C++17: uses aligned operator new automaticall
 For custom allocators, alignment must be handled explicitly:
 
 ```cpp
-void* aligned_alloc(size_t alignment, size_t size) {
+void* aligned_alloc(size_t alignment, size_t size) \{
     void* p = nullptr;
-    if (posix_memalign(&p, alignment, size) != 0) {
+    if (posix_memalign(&p, alignment, size) != 0) \{
         throw std::bad_alloc();
-    }
+    \}
     return p;
-}
+\}
 ```
 
 ### Array new and delete
@@ -381,19 +381,19 @@ data). This is why `new[]`/`delete[]` must be matched.
 The most common bug with dynamic storage duration is forgetting to `delete`:
 
 ```cpp
-void leak() {
-    Widget* w = new Widget{};
+void leak() \{
+    Widget* w = new Widget\{\};
     // ... exception thrown, w is never deleted
-}
+\}
 ```
 
 This is why **smart pointers** and RAII are essential. See **Module 10 (Ownership and RAII)**.
 
 ```cpp
-void no_leak() {
+void no_leak() \{
     auto w = std::make_unique<Widget>();
     // ... exception thrown, unique_ptr destructor calls delete
-}
+\}
 ```
 
 ## Storage Duration and `const`
@@ -404,13 +404,13 @@ The `const` qualifier interacts differently with each storage duration:
 const int global = 42;              // static storage, internal linkage
 extern const int shared = 42;       // static storage, external linkage
 
-void func() {
+void func() \{
     const int local = 42;            // automatic storage, value cannot change
     static const int persistent = 42; // static storage, persists across calls
 
     const int* p = new const int(42); // dynamic storage, must delete with const pointer
     delete p;
-}
+\}
 ```
 
 ### `constexpr` and Storage Duration
@@ -419,7 +419,7 @@ void func() {
 Binary's read-only segment:
 
 ```cpp
-constexpr int table[] = {1, 2, 3, 4, 5};
+constexpr int table[] = \{1, 2, 3, 4, 5\};
 // Placed in .rodata, no runtime initialization needed
 ```
 
@@ -431,27 +431,27 @@ In embedded firmware, dynamic storage is often avoided entirely due to heap frag
 
 ```cpp
 // Embedded pattern: pool allocator with static storage
-class ObjectPool {
+class ObjectPool \{
     static constexpr size_t POOL_SIZE = 32;
     alignas(max_align_t) unsigned char buffer_[POOL_SIZE * sizeof(Widget)];
-    bool used_[POOL_SIZE] = {};
+    bool used_[POOL_SIZE] = \{\};
 public:
-    Widget* allocate() {
-        for (size_t i = 0; i < POOL_SIZE; ++i) {
-            if (!used_[i]) {
+    Widget* allocate() \{
+        for (size_t i = 0; i < POOL_SIZE; ++i) \{
+            if (!used_[i]) \{
                 used_[i] = true;
                 return std::construct_at(reinterpret_cast<Widget*>(buffer_ + i * sizeof(Widget)));
-            }
-        }
+            \}
+        \}
         return nullptr;
-    }
+    \}
 
-    void deallocate(Widget* p) {
+    void deallocate(Widget* p) \{
         size_t idx = reinterpret_cast<unsigned char*>(p) - buffer_;
         std::destroy_at(p);
         used_[idx / sizeof(Widget)] = false;
-    }
-};
+    \}
+\};
 ```
 
 ### Thread Safety and Storage Duration
@@ -471,15 +471,15 @@ Different TUs may reference each other during destruction, leading to use-after-
 
 ```cpp
 // TU1: Logger constructed first (by chance)
-struct Logger {
-    ~Logger() { std::cout << "Logger destroyed\n"; }
-};
+struct Logger \{
+    ~Logger() \{ std::cout << "Logger destroyed\n"; \}
+\};
 Logger global_logger;
 
 // TU2: Config constructed second
-struct Config {
-    ~Config() { std::cout << "Config destroyed\n"; }
-};
+struct Config \{
+    ~Config() \{ std::cout << "Config destroyed\n"; \}
+\};
 Config global_config;
 
 // Destruction order: Config first, then Logger
@@ -494,10 +494,10 @@ Are destroyed in reverse order of their **first access**, not their declaration.
 ### 1. Returning References to Automatic Variables
 
 ```cpp
-const int& bad() {
+const int& bad() \{
     int local = 42;
     return local;  // dangling reference: local is destroyed at function exit
-}
+\}
 ```
 
 The returned reference binds to storage that no longer exists. Undefined behavior.
@@ -522,11 +522,11 @@ operator delete(buf);  // destructor never ran -- resource leak
 ### 4. Thread-Local Initialization with Dependencies
 
 ```cpp
-thread_local Logger& get_logger() {
+thread_local Logger& get_logger() \{
     // Safe: function-local static, initialized on first call per thread
     static Logger instance;
     return instance;
-}
+\}
 
 thread_local Logger logger;  // Dangerous: init order across TUs unspecified
 ```
@@ -535,9 +535,9 @@ thread_local Logger logger;  // Dangerous: init order across TUs unspecified
 
 ```cpp
 int* p = new (std::nothrow) int(42);
-if (!p) {
+if (!p) \{
     // handle allocation failure without throwing
-}
+\}
 ```
 
 Use the `nothrow` variant when exceptions are undesirable.

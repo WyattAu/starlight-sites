@@ -67,13 +67,13 @@ The linker sees the symbol but marks it as local.
 ```cpp
 // Legacy Style (Deprecated for C++ code)
 static int helper_val = 42;
-static void helper_func() {}
+static void helper_func() \{\}
 
 // Modern Style (Anonymous Namespace)
-namespace {
+namespace \{
     int helper_val = 42;
-    void helper_func() {}
-}
+    void helper_func() \{\}
+\}
 ```
 
 **Best Practice:** Always give helper functions and local constants Internal Linkage. This reduces
@@ -106,7 +106,7 @@ If `header.h` contains a function definition:
 
 ```cpp
 // header.h
-void log(const char* msg) { ... } // Violation if included in multiple .cpp files
+void log(const char* msg) \{ ... \} // Violation if included in multiple .cpp files
 ```
 
 If included in `A.cpp` and `B.cpp`The linker sees two symbols named `log`.
@@ -119,10 +119,10 @@ If included in `A.cpp` and `B.cpp`The linker sees two symbols named `log`.
 A `.cpp` file. C++17 allows `inline` variables, enabling header-only static members.
 
 ```cpp
-struct Configuration {
+struct Configuration \{
     // Defined and initialized purely in the header
     static inline int timeout_ms = 5000;
-};
+\};
 ```
 
 ## Symbol Visibility (Shared Libraries / DLLs)
@@ -159,8 +159,8 @@ Reduces binary size, improves load times, and prevents symbol collisions.
 #endif
 
 // Usage
-class MYLIB_API PublicWidget { ... }; // Exported
-class InternalHelper { ... };         // Hidden (Internal Linkage equivalent for DSO)
+class MYLIB_API PublicWidget \{ ... \}; // Exported
+class InternalHelper \{ ... \};         // Hidden (Internal Linkage equivalent for DSO)
 ```
 
 **3. CMake Configuration:**
@@ -238,15 +238,15 @@ This has important consequences:
 3. **Symbol table size is reduced:** The dynamic linker processes fewer symbols at startup.
 ```cpp
 // a.cpp
-namespace {
-    int compute(int x) { return x * x; }  // Internal linkage
-}
-int a_func(int x) { return compute(x); }
+namespace \{
+    int compute(int x) \{ return x * x; \}  // Internal linkage
+\}
+int a_func(int x) \{ return compute(x); \}
 // b.cpp
-namespace {
-    int compute(int x) { return x + x; }  // Different function, same name — no conflict
-}
-int b_func(int x) { return compute(x); }
+namespace \{
+    int compute(int x) \{ return x + x; \}  // Different function, same name — no conflict
+\}
+int b_func(int x) \{ return compute(x); \}
 ```
 Both TUs compile and link successfully. Each TU has its own private `compute` function.
 ### Anonymous Namespaces vs `static`
@@ -254,12 +254,12 @@ In C++, anonymous namespaces and `static` are functionally equivalent for functi
 But anonymous namespaces have advantages for types:
 ```cpp
 // Option A: static (works for functions and variables only)
-static struct Helper { void run() {} } helper;  // Clang/GCC accept with warning
+static struct Helper \{ void run() \{\} \} helper;  // Clang/GCC accept with warning
 // Option B: anonymous namespace (works for everything)
-namespace {
-    struct Helper { void run() {} };  // Clean: type is hidden
+namespace \{
+    struct Helper \{ void run() \{\} \};  // Clean: type is hidden
     Helper helper;
-}
+\}
 ```
 The anonymous namespace is the preferred modern approach because:
 - It works for class/struct/enum definitions (unlike `static`).
@@ -286,11 +286,11 @@ C++17 extended `inline` from functions to variables. An `inline` variable can be
 And included in multiple TUs without violating the ODR:
 ```cpp
 // config.h (included in multiple TUs)
-struct Config {
+struct Config \{
     static inline int timeout_ms = 5000;  // OK: inline variable, one definition rule relaxed
     static inline const char* name = "default";
-    static inline std::array<int, 3> defaults = {1, 2, 3};
-};
+    static inline std::array<int, 3> defaults = \{1, 2, 3\};
+\};
 ```
 The compiler and linker cooperate: each TU emits a definition, and the linker picks one (they must
 All be identical). The `inline` keyword tells the linker "multiple definitions are expected; merge
@@ -323,16 +323,16 @@ Visibility can be set per-function or per-variable using attributes:
 ```cpp
 // This function is exported (visible in the DSO's dynamic symbol table)
 __attribute__((visibility("default")))
-void public_api() {}
+void public_api() \{\}
 // This function is hidden (not exported, even if -fvisibility is not set)
 __attribute__((visibility("hidden")))
-void internal_helper() {}
+void internal_helper() \{\}
 // Class-level: all members inherit the class visibility
-class __attribute__((visibility("default"))) PublicWidget {
+class __attribute__((visibility("default"))) PublicWidget \{
 public:
     void method1();  // exported
     void method2();  // exported
-};
+\};
 ```
 ### Inlines and Visibility
 By default, `inline` functions defined in headers are **not** exported from DSOs, even with
@@ -387,7 +387,7 @@ The canonical pattern for portable library visibility:
     #endif
 #endif
 // Classes and functions to export
-class MYLIB_EXPORT Engine { /* ... */ };
+class MYLIB_EXPORT Engine \{ /* ... */ \};
 MYLIB_EXPORT void startup();
 ```
 In CMake, define `MYLIB_BUILDING` when compiling the library:
@@ -417,13 +417,13 @@ The old symbols. This is how `glibc` maintains compatibility across decades.
 ODR violations are particularly insidious because the linker often does not detect them. Consider:
 ```cpp
 // a.h (included by a.cpp)
-struct Point {
+struct Point \{
     double x, y;
-};
+\};
 // b.h (included by b.cpp) — different layout, same name
-struct Point {
+struct Point \{
     double y, x;  // Swapped!
-};
+\};
 ```
 If `a.cpp` and `b.cpp` are linked together and share a `Point` object through external linkage, one
 TU treats the first 8 bytes as `x` and the second 8 bytes as `y`While the other TU interprets them

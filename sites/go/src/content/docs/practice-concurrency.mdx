@@ -23,28 +23,28 @@ import (
 	"sync"
 )
 
-func worker(id int, jobs <-chan int, wg *sync.WaitGroup) {
+func worker(id int, jobs <-chan int, wg *sync.WaitGroup) \{
 	defer wg.Done()
-	for job := range jobs {
+	for job := range jobs \{
 		fmt.Printf("Worker %d processed job %d\n", id, job)
-	}
-}
+	\}
+\}
 
-func RunWorkerPool(numWorkers, numJobs int) {
+func RunWorkerPool(numWorkers, numJobs int) \{
 	jobs := make(chan int, numJobs)
 	var wg sync.WaitGroup
 
-	for i := 1; i <= numWorkers; i++ {
+	for i := 1; i <= numWorkers; i++ \{
 		wg.Add(1)
 		go worker(i, jobs, &wg)
-	}
+	\}
 
-	for j := 1; j <= numJobs; j++ {
+	for j := 1; j <= numJobs; j++ \{
 		jobs <- j
-	}
+	\}
 	close(jobs)
 	wg.Wait()
-}
+\}
 ```
 
 ---
@@ -60,35 +60,35 @@ Build a pipeline that generates numbers, squares them, and collects results usin
 ```go
 package main
 
-func generator(nums ...int) <-chan int {
+func generator(nums ...int) <-chan int \{
 	out := make(chan int)
-	go func() {
-		for _, n := range nums {
+	go func() \{
+		for _, n := range nums \{
 			out <- n
-		}
+		\}
 		close(out)
-	}()
+	\}()
 	return out
-}
+\}
 
-func square(in <-chan int) <-chan int {
+func square(in <-chan int) <-chan int \{
 	out := make(chan int)
-	go func() {
-		for n := range in {
+	go func() \{
+		for n := range in \{
 			out <- n * n
-		}
+		\}
 		close(out)
-	}()
+	\}()
 	return out
-}
+\}
 
-func collect(in <-chan int) []int {
+func collect(in <-chan int) []int \{
 	var results []int
-	for n := range in {
+	for n := range in \{
 		results = append(results, n)
-	}
+	\}
 	return results
-}
+\}
 ```
 
 ---
@@ -106,46 +106,46 @@ package main
 
 import "sync"
 
-func fanOut(input <-chan int, numWorkers int) []<-chan int {
+func fanOut(input <-chan int, numWorkers int) []<-chan int \{
 	outputs := make([]<-chan int, numWorkers)
-	for i := 0; i < numWorkers; i++ {
+	for i := 0; i < numWorkers; i++ \{
 		outputs[i] = process(input)
-	}
+	\}
 	return outputs
-}
+\}
 
-func process(input <-chan int) <-chan int {
+func process(input <-chan int) <-chan int \{
 	out := make(chan int)
-	go func() {
-		for n := range input {
+	go func() \{
+		for n := range input \{
 			out <- n * 2
-		}
+		\}
 		close(out)
-	}()
+	\}()
 	return out
-}
+\}
 
-func fanIn(channels ...<-chan int) <-chan int {
+func fanIn(channels ...<-chan int) <-chan int \{
 	var wg sync.WaitGroup
 	merged := make(chan int)
 
-	for _, ch := range channels {
+	for _, ch := range channels \{
 		wg.Add(1)
-		go func(c <-chan int) {
+		go func(c <-chan int) \{
 			defer wg.Done()
-			for v := range c {
+			for v := range c \{
 				merged <- v
-			}
-		}(ch)
-	}
+			\}
+		\}(ch)
+	\}
 
-	go func() {
+	go func() \{
 		wg.Wait()
 		close(merged)
-	}()
+	\}()
 
 	return merged
-}
+\}
 ```
 
 ---
@@ -167,31 +167,31 @@ import (
 	"time"
 )
 
-func longTask(ctx context.Context) <-chan string {
+func longTask(ctx context.Context) <-chan string \{
 	result := make(chan string)
-	go func() {
+	go func() \{
 		defer close(result)
-		for i := 0; ; i++ {
-			select {
+		for i := 0; ; i++ \{
+			select \{
 			case <-ctx.Done():
 				return
 			case result <- fmt.Sprintf("step %d", i):
 				time.Sleep(100 * time.Millisecond)
-			}
-		}
-	}()
+			\}
+		\}
+	\}()
 	return result
-}
+\}
 
-func RunWithContext(timeout time.Duration) {
+func RunWithContext(timeout time.Duration) \{
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
 
-	for msg := range longTask(ctx) {
+	for msg := range longTask(ctx) \{
 		fmt.Println(msg)
-	}
+	\}
 	fmt.Println("cancelled")
-}
+\}
 ```
 
 ---
@@ -209,30 +209,30 @@ package main
 
 import "sync"
 
-type ConcurrentCache struct {
+type ConcurrentCache struct \{
 	items sync.Map
-}
+\}
 
-func NewCache() *ConcurrentCache {
-	return &ConcurrentCache{}
-}
+func NewCache() *ConcurrentCache \{
+	return &ConcurrentCache\{\}
+\}
 
-func (c *ConcurrentCache) Set(key string, value interface{}) {
+func (c *ConcurrentCache) Set(key string, value interface\{\}) \{
 	c.items.Store(key, value)
-}
+\}
 
-func (c *ConcurrentCache) Get(key string) (interface{}, bool) {
+func (c *ConcurrentCache) Get(key string) (interface\{\}, bool) \{
 	return c.items.Load(key)
-}
+\}
 
-func (c *ConcurrentCache) GetOrSet(key string, value interface{}) interface{} {
+func (c *ConcurrentCache) GetOrSet(key string, value interface\{\}) interface\{\} \{
 	actual, _ := c.items.LoadOrStore(key, value)
 	return actual
-}
+\}
 
-func (c *ConcurrentCache) Delete(key string) {
+func (c *ConcurrentCache) Delete(key string) \{
 	c.items.Delete(key)
-}
+\}
 ```
 
 ## Intuition

@@ -18,7 +18,7 @@ sidebar_position: 50
 **Problem:** Define a `Describable` type class with a `describe` method. Implement it for three types: `Color`, `Shape`, and `Priority`. Then write a function that takes any `Describable` value and returns a formatted description string.
 
 ```haskell
-{-# LANGUAGE DeriveGeneric #-}
+\{-# LANGUAGE DeriveGeneric #-\}
 
 class Describable a where
   describe :: a -> String
@@ -99,9 +99,9 @@ validateEmail email
   | otherwise         = Success email
 
 data UserForm = UserForm
-  { ufAge   :: Int
+  \{ ufAge   :: Int
   , ufEmail :: String
-  } deriving (Show)
+  \} deriving (Show)
 
 validateUserForm :: Int -> String -> Validation [String] UserForm
 validateUserForm age email =
@@ -123,10 +123,10 @@ import Control.Monad.Reader
 import Control.Monad.IO.Class
 
 data Config = Config
-  { cfgDatabaseUrl :: String
+  \{ cfgDatabaseUrl :: String
   , cfgMaxRetries  :: Int
   , cfgDebug       :: Bool
-  } deriving (Show)
+  \} deriving (Show)
 
 data AppError
   = ConfigError String
@@ -171,10 +171,10 @@ runApp cfg app = runExceptT $ runReaderT app cfg
 main :: IO ()
 main = do
   let config = Config
-        { cfgDatabaseUrl = "postgres://localhost/mydb"
+        \{ cfgDatabaseUrl = "postgres://localhost/mydb"
         , cfgMaxRetries  = 3
         , cfgDebug       = True
-        }
+        \}
 
   result <- runApp config $ do
     cfg <- getConfig
@@ -197,7 +197,7 @@ main = do
 **Problem:** Define a type family `Element` that maps a container type to its element type. Implement it for `List`, `Maybe`, and a custom `Pair` type. Write a generic function that works with any container that has an `Element` type family instance.
 
 ```haskell
-{-# LANGUAGE TypeFamilies #-}
+\{-# LANGUAGE TypeFamilies #-\}
 
 class Container c where
   type Element c
@@ -249,8 +249,8 @@ filterContainer pred c =
 **Problem:** Define a GADT `Expr a` that represents a simple expression language. Each constructor returns a different type, allowing the type checker to enforce that only valid operations are performed on expressions.
 
 ```haskell
-{-# LANGUAGE GADTs #-}
-{-# LANGUAGE DataKinds #-}
+\{-# LANGUAGE GADTs #-\}
+\{-# LANGUAGE DataKinds #-\}
 
 data Expr a where
   LitInt  :: Int -> Expr Int

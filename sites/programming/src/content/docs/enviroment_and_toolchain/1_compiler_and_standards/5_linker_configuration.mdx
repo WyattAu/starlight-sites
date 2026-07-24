@@ -132,7 +132,7 @@ check_ipo_supported(RESULT result OUTPUT output)
 if(result)
     set_property(TARGET app PROPERTY INTERPROCEDURAL_OPTIMIZATION TRUE)
 else()
-    message(WARNING "IPO is not supported: ${output}")
+    message(WARNING "IPO is not supported: $\{output\}")
 endif()
 ```
 ### ThinLTO (Clang/LLVM)
@@ -164,7 +164,7 @@ For release builds, removing debug symbols reduces binary size significantly.
 The `strip` utility removes symbols.
 ```cmake
 if (UNIX AND NOT APPLE)
-    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -s")
+    set(CMAKE_CXX_FLAGS_RELEASE "$\{CMAKE_CXX_FLAGS_RELEASE\} -s")
 endif()
 ```
 ### Windows (MSVC)
@@ -235,7 +235,7 @@ Consider this C++ code compiled to x86_64:
 ```cpp
 // a.cpp
 extern int counter;
-int* get_counter() { return &counter; }
+int* get_counter() \{ return &counter; \}
 ```
 The compiler emits a call to `get_counter` that returns a placeholder address. The linker must:
 1. Determine the final virtual address of `counter` (defined in some other object file).
@@ -302,17 +302,17 @@ Define:
 /* minimal.ld -- Place .text at 0x10000, .data after it */
 ENTRY(_start)
 SECTIONS
-{
+\{
     . = 0x10000;
-    .text : { *(.text*) }
-    .rodata : { *(.rodata*) }
-    .data : { *(.data*) }
-    .bss : { *(.bss*) *(COMMON) }
-}
+    .text : \{ *(.text*) \}
+    .rodata : \{ *(.rodata*) \}
+    .data : \{ *(.data*) \}
+    .bss : \{ *(.bss*) *(COMMON) \}
+\}
 ```
 ```cmake
 # Use a custom linker script
-target_link_options(firmware PRIVATE -T${CMAKE_SOURCE_DIR}/minimal.ld)
+target_link_options(firmware PRIVATE -T$\{CMAKE_SOURCE_DIR\}/minimal.ld)
 ```
 ### Section Merging: Proof of Ordering
 The linker processes input sections from all object files and merges them into output sections
@@ -335,73 +335,73 @@ Linker scripts can define symbols that mark the boundaries of custom sections. T
 Compile-time registration patterns:
 ```ld
 SECTIONS
-{
+\{
     . = 0x8000;
-    .text : { *(.text*) }
+    .text : \{ *(.text*) \}
     /* Custom section for init functions */
-    .init_array : {
+    .init_array : \{
         __init_array_start = .;
         KEEP(*(.init_array*))
         __init_array_end = .;
-    }
-}
+    \}
+\}
 ```
 ```cpp
 // Source code references the linker-defined symbols
-extern "C" {
+extern "C" \{
     extern void (*__init_array_start[])();
     extern void (*__init_array_end[])();
-}
+\}
 // Call all init functions at startup
-for (auto* fn = __init_array_start; fn != __init_array_end; ++fn) {
+for (auto* fn = __init_array_start; fn != __init_array_end; ++fn) \{
     (*fn)();
-}
+\}
 ```
 ### Linker Script for Embedded (STM32)
 A realistic embedded linker script defines memory regions and places sections within them:
 ```ld
 /* stm32f407.ld */
 MEMORY
-{
+\{
     FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 1024K
     RAM (rwx)  : ORIGIN = 0x20000000, LENGTH = 128K
-}
+\}
 ENTRY(Reset_Handler)
 SECTIONS
-{
+\{
     .isr_vector :
-    {
+    \{
         . = ALIGN(4);
         KEEP(*(.isr_vector))
         . = ALIGN(4);
-    } > FLASH
+    \} > FLASH
     .text :
-    {
+    \{
         . = ALIGN(4);
         *(.text*)
         *(.rodata*)
         . = ALIGN(4);
         _etext = .;
-    } > FLASH
+    \} > FLASH
     _sidata = LOADADDR(.data);
     .data :
-    {
+    \{
         . = ALIGN(4);
         _sdata = .;
         *(.data*)
         . = ALIGN(4);
         _edata = .;
-    } > RAM AT > FLASH
+    \} > RAM AT > FLASH
     .bss :
-    {
+    \{
         . = ALIGN(4);
         _sbss = .;
         *(.bss*)
         *(COMMON)
         . = ALIGN(4);
         _ebss = .;
-    } > RAM
-}
+    \} > RAM
+\}
 ```
 Linker scripts are essential for bare-metal and embedded development where you control the entire
 Memory layout. On hosted platforms, they are occasionally used to:
@@ -418,8 +418,8 @@ Changes but its signature does not.
 #include <stdio.h>
 __asm__(".symver old_printf,printf@GLIBC_2.2.5");
 __asm__(".symver new_printf,printf@@GLIBC_2.17");
-void old_printf(const char* s) { puts("[legacy]"); puts(s); }
-void new_printf(const char* s) { puts("[modern]"); puts(s); }
+void old_printf(const char* s) \{ puts("[legacy]"); puts(s); \}
+void new_printf(const char* s) \{ puts("[modern]"); puts(s); \}
 ```
 The `@@` (double at-sign) denotes the default version. The `@` (single at-sign) denotes a
 Non-default version. Binaries compiled against older glibc versions will resolve to the
@@ -458,7 +458,7 @@ In CMake, use `target_link_options` to pass these flags:
 ```cmake
 target_link_options(app PRIVATE
     "LINKER:-z,relro" "LINKER:-z,now"
-    "LINKER:-T,${CMAKE_SOURCE_DIR}/memory.ld"
+    "LINKER:-T,$\{CMAKE_SOURCE_DIR\}/memory.ld"
     "LINKER:--gc-sections"
 )
 ```
@@ -474,9 +474,9 @@ The linker could not find a definition for the referenced symbol. Common causes:
 4. Name mangling mismatch (linking C++ code against a C library without `extern "C"`).
 ```cpp
 // Correct: tells the compiler to use C linkage (no mangling)
-extern "C" {
+extern "C" \{
     void c_library_function(int arg);
-}
+\}
 ```
 ### "multiple definition of `symbol`"
 Two or more translation units define the same symbol with external linkage. Common causes:
@@ -525,11 +525,11 @@ Linker scripts can define memory regions with specific attributes. This is used 
 Where different memory types (flash, RAM, registers) have different access permissions:
 ```ld
 MEMORY
-{
+\{
     FLASH (rx)  : ORIGIN = 0x08000000, LENGTH = 1024K
     RAM   (rwx) : ORIGIN = 0x20000000, LENGTH = 128K
     CCM   (rw)  : ORIGIN = 0x10000000, LENGTH = 64K
-}
+\}
 ```
 The attributes in parentheses control what can be placed in each region:
 - `r` -- readable
@@ -540,14 +540,14 @@ By default, the linker's garbage collector (`--gc-sections`) removes unreference
 `KEEP()` directive prevents specific sections from being collected:
 ```ld
 SECTIONS
-{
+\{
     .isr_vector :
-    {
+    \{
         . = ALIGN(4);
         KEEP(*(.isr_vector))
         KEEP(*(.isr_vector.*))
-    } > FLASH
-}
+    \} > FLASH
+\}
 ```
 ### PROVIDE and ASSERT
 `PROVIDE` defines a symbol only if it is not already defined by the application:
@@ -564,33 +564,33 @@ For ELF binaries, the linker script can control which sections are mapped into w
 Segments (PT_LOAD, PT_NOTE, etc.):
 ```ld
 PHDRS
-{
+\{
     text PT_LOAD FLAGS(7);   /* Read + Write + Execute (for self-modifying code) */
     rodata PT_LOAD FLAGS(4); /* Read only */
     data PT_LOAD FLAGS(6);   /* Read + Write */
-}
+\}
 SECTIONS
-{
-    .text : { *(.text*) } :text
-    .rodata : { *(.rodata*) } :rodata
-    .data : { *(.data*) } :data
-    .bss : { *(.bss*) *(COMMON) } :data
-}
+\{
+    .text : \{ *(.text*) \} :text
+    .rodata : \{ *(.rodata*) \} :rodata
+    .data : \{ *(.data*) \} :data
+    .bss : \{ *(.bss*) *(COMMON) \} :data
+\}
 ```
 ### Output Section Types
 The linker supports several output section types beyond the default loadable section:
 ```ld
 SECTIONS
-{
-    /DISCARD/ : {
+\{
+    /DISCARD/ : \{
         *(.comment)
         *(.note*)
         *(.eh_frame*)
-    }
-    .noinit (NOLOAD) : {
+    \}
+    .noinit (NOLOAD) : \{
         *(.noinit)
-    }
-}
+    \}
+\}
 ```
 - `/DISCARD/`: Sections listed here are not included in the output binary.
 - `NOLOAD`: The section is allocated space but not loaded into memory at runtime. Useful for
@@ -621,7 +621,7 @@ target_link_options(app PRIVATE
     "LINKER:--gc-sections"
     "LINKER:--as-needed"
     "LINKER:-rpath,$ORIGIN/../lib"
-    "LINKER:-Map,${CMAKE_BINARY_DIR}/app.map"
+    "LINKER:-Map,$\{CMAKE_BINARY_DIR\}/app.map"
 )
 ```
 ## Summary

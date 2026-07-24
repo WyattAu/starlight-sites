@@ -20,33 +20,33 @@ sidebar_position: 50
 ```kotlin
 import kotlinx.coroutines.*
 
-suspend fun fetchUserData(): String {
+suspend fun fetchUserData(): String \{
     delay(100)
     return "UserData"
-}
+\}
 
-suspend fun fetchUserPosts(): List<String> {
+suspend fun fetchUserPosts(): List<String> \{
     delay(150)
     return listOf("Post1", "Post2")
-}
+\}
 
-suspend fun fetchUserFriends(): List<String> {
+suspend fun fetchUserFriends(): List<String> \{
     delay(200)
     return listOf("Friend1", "Friend2", "Friend3")
-}
+\}
 
 suspend fun loadDashboard(): Triple<String, List<String>, List<String>> =
-    coroutineScope {
-        val userData = async { fetchUserData() }
-        val userPosts = async { fetchUserPosts() }
-        val userFriends = async { fetchUserFriends() }
+    coroutineScope \{
+        val userData = async \{ fetchUserData() \}
+        val userPosts = async \{ fetchUserPosts() \}
+        val userFriends = async \{ fetchUserFriends() \}
         Triple(userData.await(), userPosts.await(), userFriends.await())
-    }
+    \}
 
-suspend fun main() {
+suspend fun main() \{
     val result = loadDashboard()
     println(result)
-}
+\}
 ```
 
 **Solution:** `coroutineScope` creates a structured concurrency boundary. All three `async` coroutines run concurrently, and `await()` retrieves each result. If any coroutine fails, the scope cancels all others.
@@ -62,26 +62,26 @@ suspend fun main() {
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
 
-suspend fun producer(channel: Channel<Int>) {
-    for (i in 1..10) {
+suspend fun producer(channel: Channel<Int>) \{
+    for (i in 1..10) \{
         channel.send(i)
         println("Produced: $i")
-    }
+    \}
     channel.close()
-}
+\}
 
-suspend fun consumer(id: Int, channel: Channel<Int>) {
-    for (item in channel) {
+suspend fun consumer(id: Int, channel: Channel<Int>) \{
+    for (item in channel) \{
         println("Consumer $id received: $item")
         delay(100)
-    }
-}
+    \}
+\}
 
-suspend fun main(): Unit = coroutineScope {
+suspend fun main(): Unit = coroutineScope \{
     val channel = Channel<Int>(Channel.BUFFERED)
-    launch { producer(channel) }
-    repeat(3) { launch { consumer(it + 1, channel) } }
-}
+    launch \{ producer(channel) \}
+    repeat(3) \{ launch \{ consumer(it + 1, channel) \} \}
+\}
 ```
 
 **Solution:** `Channel.BUFFERED` provides a default buffer. The producer sends values then closes the channel. Three consumers iterate over the channel using the `for (item in channel)` idiom, which terminates when the channel is closed and empty.
@@ -96,14 +96,14 @@ suspend fun main(): Unit = coroutineScope {
 ```kotlin
 import kotlinx.coroutines.flow.*
 
-suspend fun main() {
+suspend fun main() \{
     val result = (1..20).asFlow()
-        .filter { it % 2 == 0 }
-        .map { it * it }
+        .filter \{ it % 2 == 0 \}
+        .map \{ it * it \}
         .take(5)
         .toList()
     println(result)
-}
+\}
 ```
 
 **Solution:** `asFlow()` converts the range to a cold Flow. `filter` keeps even numbers (2, 4, 6, ...). `map` squares each (4, 16, 36, ...). `take(5)` limits to the first 5 emissions. `toList()` collects into a list: `[4, 16, 36, 64, 100]`.
@@ -118,33 +118,33 @@ suspend fun main() {
 ```kotlin
 import kotlinx.coroutines.*
 
-suspend fun main(): Unit = coroutineScope {
+suspend fun main(): Unit = coroutineScope \{
     val supervisor = SupervisorJob()
     val scope = CoroutineScope(supervisor + Dispatchers.Default)
 
-    scope.launch {
+    scope.launch \{
         delay(100)
         println("Child 1: working")
         throw RuntimeException("Child 1 failed")
-    }
+    \}
 
-    scope.launch {
+    scope.launch \{
         delay(200)
         println("Child 2: working")
         delay(200)
         println("Child 2: completed")
-    }
+    \}
 
-    scope.launch {
+    scope.launch \{
         delay(300)
         println("Child 3: working")
         delay(200)
         println("Child 3: completed")
-    }
+    \}
 
     delay(1000)
     supervisor.cancel()
-}
+\}
 ```
 
 **Solution:** `SupervisorJob` prevents child failures from propagating to the parent and siblings. Child 1 fails at 200ms, but children 2 and 3 continue independently. Without `SupervisorJob`, the failure of child 1 would cancel the entire scope.
@@ -159,38 +159,38 @@ suspend fun main(): Unit = coroutineScope {
 ```kotlin
 import kotlinx.coroutines.*
 
-suspend fun processData(): String = withContext(Dispatchers.Default) {
-    println("Step 1 - CPU work on: ${Thread.currentThread().name}")
+suspend fun processData(): String = withContext(Dispatchers.Default) \{
+    println("Step 1 - CPU work on: $\{Thread.currentThread().name\}")
     val data = computeOnDefault()
 
-    val result = withContext(Dispatchers.IO) {
-        println("Step 2 - IO work on: ${Thread.currentThread().name}")
+    val result = withContext(Dispatchers.IO) \{
+        println("Step 2 - IO work on: $\{Thread.currentThread().name\}")
         simulateNetworkCall(data)
-    }
+    \}
 
-    withContext(Dispatchers.Default) {
-        println("Step 3 - Process on: ${Thread.currentThread().name}")
+    withContext(Dispatchers.Default) \{
+        println("Step 3 - Process on: $\{Thread.currentThread().name\}")
         processResult(result)
-    }
-}
+    \}
+\}
 
-fun computeOnDefault(): String {
+fun computeOnDefault(): String \{
     var sum = 0L
     for (i in 1..1_000_000) sum += i
     return "computed:$sum"
-}
+\}
 
-suspend fun simulateNetworkCall(data: String): String {
+suspend fun simulateNetworkCall(data: String): String \{
     delay(500)
     return "response for $data"
-}
+\}
 
 fun processResult(result: String): String = "processed: $result"
 
-suspend fun main() {
+suspend fun main() \{
     val output = processData()
     println(output)
-}
+\}
 ```
 
 **Solution:** `withContext` switches the coroutine's dispatcher for a specific block while maintaining structured concurrency. The thread name changes between steps, demonstrating the context switch. The coroutine resumes on the original context after `withContext` completes.

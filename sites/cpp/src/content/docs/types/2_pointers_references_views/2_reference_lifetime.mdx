@@ -31,13 +31,13 @@ Implements a reference almost identically to a constant pointer.
 Consider two functions, one taking a pointer and one taking a reference.
 
 ```cpp
-void by_pointer(int* p) {
+void by_pointer(int* p) \{
     *p = 10;
-}
+\}
 
-void by_reference(int& r) {
+void by_reference(int& r) \{
     r = 10;
-}
+\}
 ```
 
 <div className="godbolt-container">
@@ -59,13 +59,13 @@ Pointer. The caller passes the memory address of the object in the register `RDI
 If a class contains a reference member, it occupies storage.
 
 ```cpp
-struct RefWrapper {
+struct RefWrapper \{
     int& r;
-};
+\};
 
-struct PtrWrapper {
+struct PtrWrapper \{
     int* p;
-};
+\};
 ```
 
 - `sizeof(RefWrapper)` == `sizeof(int*)` (8 bytes on 64-bit systems).
@@ -92,7 +92,7 @@ While the syntax prevents null references, pointer arithmetic and casting can ma
 Is **Undefined Behavior**.
 
 ```cpp
-void fast_path(int* ptr) {
+void fast_path(int* ptr) \{
     // If ptr is nullptr, this creates a null reference.
     // This is UB. The process may crash immediately,
     // OR it may continue in a corrupted state.
@@ -102,10 +102,10 @@ void fast_path(int* ptr) {
     // The compiler knows "ref' cannot be null (by standard definition).
     // Therefore, it assumes 'ptr' was not null.
     // It may optimize away subsequent null checks on 'ptr'.
-    if (!ptr) {
+    if (!ptr) \{
         // Dead Code: Compiler removes this block.
-    }
-}
+    \}
+\}
 ```
 
 **Optimization Impact:** In the example above, if `ptr` is actually null, the check `if (!ptr)` is
@@ -125,16 +125,16 @@ Pointers. Since the compiler can assume a reference is always valid, it can:
 ```cpp
 #include <iostream>
 
-int transform(int& ref) {
+int transform(int& ref) \{
     // Compiler assumes ref is valid — no null check needed
     return ref * 2;
-}
+\}
 
-int transform_ptr(int* ptr) {
+int transform_ptr(int* ptr) \{
     // Compiler must consider ptr == nullptr
     // May generate a null check or rely on UB if null
     return ptr ? (*ptr * 2) : 0;
-}
+\}
 ```
 
 ## 3. Temporary Lifetime Extension
@@ -155,11 +155,11 @@ Match the lifetime of the reference.
 ### Mechanism
 
 ```cpp
-struct Logger {
-    ~Logger() { puts("Destroyed"); }
-};
+struct Logger \{
+    ~Logger() \{ puts("Destroyed"); \}
+\};
 
-void run() {
+void run() \{
     // 1. Normal Temporary
     Logger(); // Constructed, then immediately Destroyed
     puts("---");
@@ -170,7 +170,7 @@ void run() {
     const Logger& ref = Logger();
 
     puts("Work");
-} // 'ref' goes out of scope -> Temporary Logger is destroyed here.
+\} // 'ref' goes out of scope -> Temporary Logger is destroyed here.
 ```
 
 **Compiler Implementation:** The compiler treats the temporary bound to `ref` effectively as a
@@ -183,24 +183,24 @@ Rvalue references (`T&&`) also extend temporary lifetime:
 ```cpp
 #include <iostream>
 
-struct S {
+struct S \{
     int value;
-    ~S() { std::cout << "Destroyed S(" << value << ")\n"; }
-};
+    ~S() \{ std::cout << "Destroyed S(" << value << ")\n"; \}
+\};
 
-int main() {
+int main() \{
     // const lvalue reference extends lifetime
-    const S& ref1 = S{1};
+    const S& ref1 = S\{1\};
     std::cout << "ref1.value = " << ref1.value << "\n";
 
     // rvalue reference also extends lifetime
-    S&& ref2 = S{2};
+    S&& ref2 = S\{2\};
     std::cout << "ref2.value = " << ref2.value << "\n";
 
     std::cout << "End of main\n";
     // S(2) destroyed, then S(1) destroyed (reverse order of construction)
     return 0;
-}
+\}
 ```
 
 ### Lifetime Extension in Member Initialization
@@ -210,13 +210,13 @@ Lifetime extension applies when binding to reference members during aggregate in
 ```cpp
 #include <iostream>
 
-struct Holder {
+struct Holder \{
     const int& ref;
-    ~Holder() { std::cout << "Holder destroyed\n"; }
-};
+    ~Holder() \{ std::cout << "Holder destroyed\n"; \}
+\};
 
-int main() {
-    Holder h{42};  // Temporary int(42) lifetime extended to match h
+int main() \{
+    Holder h\{42\};  // Temporary int(42) lifetime extended to match h
     std::cout << h.ref << "\n";
     std::cout << "End of main\n";
     return 0;
@@ -225,7 +225,7 @@ int main() {
     //   End of main
     //   Holder destroyed
     //   (Temporary int destroyed along with Holder)
-}
+\}
 ```
 
 ### The Transitivity Trap (Broken Extension)
@@ -235,22 +235,22 @@ Lifetime extension is **not transitive**. It only applies when binding directly 
 **Scenario:** Returning a reference to a member of a temporary.
 
 ```cpp
-struct Wrapper {
+struct Wrapper \{
     int val;
-};
+\};
 
-const int& get_val_broken() {
-    Wrapper w{42};
+const int& get_val_broken() \{
+    Wrapper w\{42\};
     return w.val; // ERROR: Returns reference to local 'w' which dies.
-}
+\}
 
-void scope_trap() {
+void scope_trap() \{
     // Wrapper() is a temporary.
     // We bind to .val, NOT the Wrapper itself.
     // The Wrapper temporary dies at the semicolon.
     // 'ref' becomes a dangling reference to stack garbage.
-    const int& ref = Wrapper{42}.val;
-}
+    const int& ref = Wrapper\{42\}.val;
+\}
 ```
 
 In `scope_trap`The C++ Standard dictates that the temporary `Wrapper` is destroyed at the end of The
@@ -264,16 +264,16 @@ Binding a returned reference to a temporary extends the temporary's lifetime:
 ```cpp
 #include <iostream>
 
-struct Widget {
+struct Widget \{
     int id;
-    ~Widget() { std::cout << "Widget " << id << " destroyed\n"; }
-};
+    ~Widget() \{ std::cout << "Widget " << id << " destroyed\n"; \}
+\};
 
-const Widget& make_widget(int id) {
-    return Widget{id};  // Temporary created, returned by const ref
-}
+const Widget& make_widget(int id) \{
+    return Widget\{id\};  // Temporary created, returned by const ref
+\}
 
-int main() {
+int main() \{
     // Lifetime extension: the temporary Widget lives as long as ref
     const Widget& ref = make_widget(42);
     std::cout << "Widget " << ref.id << " alive\n";
@@ -283,7 +283,7 @@ int main() {
     //   Widget 42 alive
     //   End of main
     //   Widget 42 destroyed
-}
+\}
 ```
 
 This works because the prvalue materialization happens at the call site, and the reference binding
@@ -308,7 +308,7 @@ mimics `T&`.
 #include <functional>
 #include <iostream>
 
-void usage() {
+void usage() \{
     int a = 10;
     int b = 20;
 
@@ -323,7 +323,7 @@ void usage() {
 
     // Reseating (assigning the wrapper changes the pointer, not the value)
     vec[0] = b; // vec[0] now points to 'b'
-}
+\}
 ```
 
 ### Conversion Operators
@@ -340,11 +340,11 @@ The factory functions `std::ref` and `std::cref` create `std::reference_wrapper`
 #include <iostream>
 #include <thread>
 
-void worker(int& counter) {
+void worker(int& counter) \{
     ++counter;
-}
+\}
 
-int main() {
+int main() \{
     int count = 0;
 
     // std::ref wraps count in a reference_wrapper
@@ -354,7 +354,7 @@ int main() {
 
     std::cout << "count = " << count << "\n";  // 1
     return 0;
-}
+\}
 ```
 
 ## 5. Architectural Decision Matrix
@@ -382,22 +382,22 @@ Reference. This is critical for perfect forwarding:
 
 // T&& is a forwarding reference when T is deduced
 template <typename T>
-void forward_me(T&& arg) {
+void forward_me(T&& arg) \{
     std::cout << "Received ";
     // Use std::forward to preserve value category
     process(std::forward<T>(arg));
-}
+\}
 
-void process(int& lval) { std::cout << "lvalue\n"; }
-void process(int&& rval) { std::cout << "rvalue\n"; }
+void process(int& lval) \{ std::cout << "lvalue\n"; \}
+void process(int&& rval) \{ std::cout << "rvalue\n"; \}
 
-int main() {
+int main() \{
     int x = 42;
     forward_me(x);      // T = int&, binds to lvalue -> prints "lvalue"
     forward_me(42);     // T = int, binds to rvalue -> prints "rvalue"
     forward_me(std::move(x));  // T = int, binds to rvalue -> prints "rvalue"
     return 0;
-}
+\}
 ```
 
 ## 6. Reference Collapsing and Perfect Forwarding
@@ -424,12 +424,12 @@ Stack variables and detects Use-After-Scope errors.
 
 ```cpp
 
-struct A { int x; };
+struct A \{ int x; \};
 
-int main() {
-    const int& r = A{42}.x; // ASan will flag this usage
+int main() \{
+    const int& r = A\{42\}.x; // ASan will flag this usage
     return r;
-}
+\}
 
 ```
 
@@ -472,22 +472,22 @@ This is the classic dangling reference bug. The compiler can detect the simplest
 ```cpp
 #include <iostream>
 
-int& dangling() {
+int& dangling() \{
     int local = 42;
     return local;  // Warning: reference to local variable returned
-}
+\}
 
-int& dangling_hidden() {
+int& dangling_hidden() \{
     int local = 42;
     int& ref = local;
     return ref;  // Compiler may not warn — the reference masks the local
-}
+\}
 
-int main() {
+int main() \{
     int& r = dangling();  // Dangling reference
     std::cout << r << "\n";  // UB — may print 42, may crash, may print garbage
     return 0;
-}
+\}
 ```
 
 ### Pitfall 2: Storing References to Function Parameters
@@ -500,27 +500,27 @@ Outlives the stored reference:
 #include <functional>
 #include <iostream>
 
-class Observer {
+class Observer \{
     const std::string& name_;
 public:
-    explicit Observer(const std::string& name) : name_(name) {}
+    explicit Observer(const std::string& name) : name_(name) \{\}
 
-    void report() const {
+    void report() const \{
         std::cout << "Observer: " << name_ << "\n";
-    }
-};
+    \}
+\};
 
-int main() {
+int main() \{
     Observer* obs = nullptr;
-    {
+    \{
         std::string temp = "temporary";
         obs = new Observer(temp);
         // temp goes out of scope here — obs->name_ is dangling
-    }
+    \}
     obs->report();  // UB
     delete obs;
     return 0;
-}
+\}
 ```
 
 ### Pitfall 3: Range-Based For and Temporary Containers
@@ -532,24 +532,24 @@ Temporaries:
 #include <iostream>
 #include <vector>
 
-std::vector<int> make_range() {
-    return {1, 2, 3};
-}
+std::vector<int> make_range() \{
+    return \{1, 2, 3\};
+\}
 
-int main() {
+int main() \{
     // SAFE: the temporary vector's lifetime is extended for the loop duration
-    for (const auto& x : make_range()) {
+    for (const auto& x : make_range()) \{
         std::cout << x << " ";
-    }
+    \}
     std::cout << "\n";
 
     // SAFE: same mechanism
-    for (const auto& x : std::vector<int>{4, 5, 6}) {
+    for (const auto& x : std::vector<int>\{4, 5, 6\}) \{
         std::cout << x << " ";
-    }
+    \}
     std::cout << "\n";
     return 0;
-}
+\}
 ```
 
 This works because the range-based for loop is specified to bind the range expression to a
@@ -565,20 +565,20 @@ Fixed in C++20):
 #include <iostream>
 #include <utility>
 
-struct Pair {
+struct Pair \{
     int first;
     int second;
-};
+\};
 
-Pair make_pair() { return {1, 2}; }
+Pair make_pair() \{ return \{1, 2\}; \}
 
-int main() {
+int main() \{
     // C++17: dangling! The temporary Pair is destroyed after the full expression.
     // C++20: lifetime is extended.
     const auto& [a, b] = make_pair();
     std::cout << a << ", " << b << "\n";
     return 0;
-}
+\}
 ```
 
 ### Pitfall 5: References and `std::move`
@@ -590,7 +590,7 @@ A named variable does not destroy the original:
 #include <iostream>
 #include <utility>
 
-int main() {
+int main() \{
     int x = 42;
     int&& ref = std::move(x);
     // x is still alive and valid
@@ -601,7 +601,7 @@ int main() {
     ref = 100;
     std::cout << x << "\n";  // 100
     return 0;
-}
+\}
 ```
 
 ## Summary

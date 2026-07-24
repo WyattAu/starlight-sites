@@ -109,11 +109,11 @@ export module Network; // END GMF
 import std;
 
 export namespace Network {
-    void init_socket() {
+    void init_socket() \{
         // We can use sockaddr_in from sys/socket.h
-        sockaddr_in addr{};
-    }
-}
+        sockaddr_in addr\{\};
+    \}
+\}
 ```
 
 ### Formal Basis
@@ -163,9 +163,9 @@ Instead of `#include "header.h"`The syntax is `import "header.h";` (or `import &
 import <vector>;  // Header Unit import
 import "my_lib.h";
 
-int main() {
+int main() \{
     std::vector<int> v; // Works
-}
+\}
 ```
 
 ### Key Differences from `#include`
@@ -212,10 +212,10 @@ Cached independently.
 Consider a header `widget.h` containing:
 
 ```cpp
-struct Widget {
+struct Widget \{
     int x;
     double y;
-};
+\};
 ```
 
 With `#include`If TU-A includes `widget.h` with `#define EXTRA_FIELD` before the include, and TU-B
@@ -614,19 +614,19 @@ Build systems that support header units must discover header unit imports during
 Scanning phase. The P1689R5 protocol defines how scanners report header unit dependencies:
 
 ```json
-{
+\{
   "version": 1,
   "rules": [
-    {
+    \{
       "primary-output": "CMakeFiles/App.dir/main.cpp.o",
       "depends": [
-        { "type": "module", "name": "Engine" },
-        { "type": "header-unit", "unique-on-source-path": true, "path": "utils/helpers.h" },
-        { "type": "header-unit", "unique-on-source-path": true, "path": "<vector>" }
+        \{ "type": "module", "name": "Engine" \},
+        \{ "type": "header-unit", "unique-on-source-path": true, "path": "utils/helpers.h" \},
+        \{ "type": "header-unit", "unique-on-source-path": true, "path": "<vector>" \}
       ]
-    }
+    \}
   ]
-}
+\}
 ```
 
 The scanner distinguishes between named module imports (`type: "module"`) and header unit imports

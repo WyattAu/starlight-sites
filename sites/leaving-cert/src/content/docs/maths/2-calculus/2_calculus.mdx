@@ -22,7 +22,7 @@ Both levels.
 
 ## Differentiation
 
-{/* prettier-ignore */}
+\{/* prettier-ignore */\}
 <DesmosGraph client:only="solid-js" title="Differentiation: Tangent Lines" expressions={["f(x)=x^3-3x^2+2", "f'(x)=3x^2-6x"]} width={800} height={500}  />
 
 Adjust the parameters in the graph above to explore the relationships between variables.
@@ -39,7 +39,7 @@ Geometrically, $f'(a)$ is the gradient of the tangent to the curve $y = f(x)$ at
 The derivative is defined as:
 
 $$
-F'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
+F'(x) = \lim_\{h \to 0\} \frac\{f(x + h) - f(x)\}\{h\}
 $$
 
 This limit, when it exists, gives the slope of the secant line through $(x, f(x))$ and
@@ -48,7 +48,7 @@ $(x+h, f(x+h))$ as the two points converge.
 **Example (HL):** Prove from first principles that $\frac{d}{dx}[x^2] = 2x$.
 
 $$
-F'(x) = \lim_{h \to 0} \frac{(x+h)^2 - x^2}{h} = \lim_{h \to 0} \frac{x^2 + 2xh + h^2 - x^2}{h} = \lim_{h \to 0} \frac{2xh + h^2}{h} = \lim_{h \to 0}(2x + h) = 2x
+F'(x) = \lim_\{h \to 0\} \frac\{(x+h)^2 - x^2\}\{h\} = \lim_\{h \to 0\} \frac\{x^2 + 2xh + h^2 - x^2\}\{h\} = \lim_\{h \to 0\} \frac\{2xh + h^2\}\{h\} = \lim_\{h \to 0\}(2x + h) = 2x
 $$
 
 **Example (HL):** Prove from first principles that $\frac{d}{dx}[\cos x] = -\sin x$.
@@ -56,11 +56,11 @@ $$
 Using the compound angle formula $\cos(A+B) = \cos A \cos B - \sin A \sin B$:
 
 $$
-F'(x) = \lim_{h \to 0} \frac{\cos(x+h) - \cos x}{h} = \lim_{h \to 0} \frac{\cos x \cos h - \sin x \sin h - \cos x}{h}
+F'(x) = \lim_\{h \to 0\} \frac\{\cos(x+h) - \cos x\}\{h\} = \lim_\{h \to 0\} \frac\{\cos x \cos h - \sin x \sin h - \cos x\}\{h\}
 $$
 
 $$
-= \cos x \cdot \lim_{h \to 0}\frac{\cos h - 1}{h} - \sin x \cdot \lim_{h \to 0}\frac{\sin h}{h}
+= \cos x \cdot \lim_\{h \to 0\}\frac\{\cos h - 1\}\{h\} - \sin x \cdot \lim_\{h \to 0\}\frac\{\sin h\}\{h\}
 $$
 
 Using the standard limits $\lim_{h \to 0}\frac{\sin h}{h} = 1$ and
@@ -74,13 +74,13 @@ $$
 For $x > 0$.
 
 $$
-F'(x) = \lim_{h \to 0} \frac{\sqrt{x+h} - \sqrt{x}}{h}
+F'(x) = \lim_\{h \to 0\} \frac\{\sqrt\{x+h\} - \sqrt\{x\}\}\{h\}
 $$
 
 Rationalise the numerator by multiplying top and bottom by $\sqrt{x+h} + \sqrt{x}$:
 
 $$
-= \lim_{h \to 0} \frac{(x+h) - x}{h(\sqrt{x+h} + \sqrt{x})} = \lim_{h \to 0} \frac{h}{h(\sqrt{x+h} + \sqrt{x})} = \lim_{h \to 0} \frac{1}{\sqrt{x+h} + \sqrt{x}} = \frac{1}{2\sqrt{x}}
+= \lim_\{h \to 0\} \frac\{(x+h) - x\}\{h(\sqrt\{x+h\} + \sqrt\{x\})\} = \lim_\{h \to 0\} \frac\{h\}\{h(\sqrt\{x+h\} + \sqrt\{x\})\} = \lim_\{h \to 0\} \frac\{1\}\{\sqrt\{x+h\} + \sqrt\{x\}\} = \frac\{1\}\{2\sqrt\{x\}\}
 $$
 
 ### Proof of the Product Rule (HL)
@@ -90,17 +90,17 @@ We wish to prove $\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$.
 Let $h(x) = f(x)g(x)$. Then:
 
 $$
-H'(x) = \lim_{h \to 0} \frac{f(x+h)g(x+h) - f(x)g(x)}{h}
+H'(x) = \lim_\{h \to 0\} \frac\{f(x+h)g(x+h) - f(x)g(x)\}\{h\}
 $$
 
 The trick is to add and subtract $f(x+h)g(x)$:
 
 $$
-= \lim_{h \to 0} \frac{f(x+h)g(x+h) - f(x+h)g(x) + f(x+h)g(x) - f(x)g(x)}{h}
+= \lim_\{h \to 0\} \frac\{f(x+h)g(x+h) - f(x+h)g(x) + f(x+h)g(x) - f(x)g(x)\}\{h\}
 $$
 
 $$
-= \lim_{h \to 0} \left[ f(x+h) \cdot \frac{g(x+h) - g(x)}{h} + g(x) \cdot \frac{f(x+h) - f(x)}{h} \right]
+= \lim_\{h \to 0\} \left[ f(x+h) \cdot \frac\{g(x+h) - g(x)\}\{h\} + g(x) \cdot \frac\{f(x+h) - f(x)\}\{h\} \right]
 $$
 
 Since $f$ is differentiable (and hence continuous), $\lim_{h \to 0} f(x+h) = f(x)$Giving:
@@ -114,7 +114,7 @@ $$
 For $n \in \mathbb{R}$:
 
 $$
-\frac{d}{dx}[x^n] = nx^{n-1}
+\frac\{d\}\{dx\}[x^n] = nx^\{n-1\}
 $$
 
 | Function $f(x)$ | Derivative $f'(x)$ |
@@ -132,67 +132,67 @@ $$
 **Sum/Difference Rule:**
 
 $$
-\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
+\frac\{d\}\{dx\}[f(x) \pm g(x)] = f'(x) \pm g'(x)
 $$
 
 **Constant Multiple Rule:**
 
 $$
-\frac{d}{dx}[cf(x)] = cf'(x)
+\frac\{d\}\{dx\}[cf(x)] = cf'(x)
 $$
 
 **Product Rule (HL):**
 
 $$
-\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)
+\frac\{d\}\{dx\}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)
 $$
 
 **Example (HL):** Differentiate $x^2 e^x$.
 
 $$
-\frac{d}{dx}[x^2 e^x] = 2x \cdot e^x + x^2 \cdot e^x = e^x(x^2 + 2x)
+\frac\{d\}\{dx\}[x^2 e^x] = 2x \cdot e^x + x^2 \cdot e^x = e^x(x^2 + 2x)
 $$
 
 **Chain Rule (HL):**
 
 $$
-\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)
+\frac\{d\}\{dx\}[f(g(x))] = f'(g(x)) \cdot g'(x)
 $$
 
 **Example (HL):** Differentiate $(3x + 1)^5$.
 
 $$
-\frac{d}{dx}[(3x+1)^5] = 5(3x+1)^4 \cdot 3 = 15(3x+1)^4
+\frac\{d\}\{dx\}[(3x+1)^5] = 5(3x+1)^4 \cdot 3 = 15(3x+1)^4
 $$
 
 **Example (HL):** Differentiate $e^{\sin x}$.
 
 $$
-\frac{d}{dx}[e^{\sin x}] = e^{\sin x} \cdot \cos x
+\frac\{d\}\{dx\}[e^\{\sin x\}] = e^\{\sin x\} \cdot \cos x
 $$
 
 **Example (HL):** Differentiate $\ln(x^2 + 1)$.
 
 $$
-\frac{d}{dx}[\ln(x^2 + 1)] = \frac{1}{x^2 + 1} \cdot 2x = \frac{2x}{x^2 + 1}
+\frac\{d\}\{dx\}[\ln(x^2 + 1)] = \frac\{1\}\{x^2 + 1\} \cdot 2x = \frac\{2x\}\{x^2 + 1\}
 $$
 
 **Quotient Rule (HL):**
 
 $$
-\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}
+\frac\{d\}\{dx\}\left[\frac\{f(x)\}\{g(x)\}\right] = \frac\{f'(x)g(x) - f(x)g'(x)\}\{[g(x)]^2\}
 $$
 
 **Example (HL):** Differentiate $\frac{x}{x + 1}$.
 
 $$
-\frac{d}{dx}\left[\frac{x}{x+1}\right] = \frac{1 \cdot (x+1) - x \cdot 1}{(x+1)^2} = \frac{1}{(x+1)^2}
+\frac\{d\}\{dx\}\left[\frac\{x\}\{x+1\}\right] = \frac\{1 \cdot (x+1) - x \cdot 1\}\{(x+1)^2\} = \frac\{1\}\{(x+1)^2\}
 $$
 
 **Example (HL):** Differentiate $\frac{\sin x}{x}$.
 
 $$
-\frac{d}{dx}\left[\frac{\sin x}{x}\right] = \frac{x\cos x - \sin x}{x^2}
+\frac\{d\}\{dx\}\left[\frac\{\sin x\}\{x\}\right] = \frac\{x\cos x - \sin x\}\{x^2\}
 $$
 
 ### Derivative of $\tan x$ (HL)
@@ -200,7 +200,7 @@ $$
 We can derive $\frac{d}{dx}[\tan x] = \sec^2 x$ from the quotient rule:
 
 $$
-\frac{d}{dx}\left[\frac{\sin x}{\cos x}\right] = \frac{\cos x \cdot \cos x - \sin x \cdot (-\sin x)}{\cos^2 x} = \frac{\cos^2 x + \sin^2 x}{\cos^2 x} = \frac{1}{\cos^2 x} = \sec^2 x
+\frac\{d\}\{dx\}\left[\frac\{\sin x\}\{\cos x\}\right] = \frac\{\cos x \cdot \cos x - \sin x \cdot (-\sin x)\}\{\cos^2 x\} = \frac\{\cos^2 x + \sin^2 x\}\{\cos^2 x\} = \frac\{1\}\{\cos^2 x\} = \sec^2 x
 $$
 
 ### Derivative of $a^x$ (HL)
@@ -208,7 +208,7 @@ $$
 For $a > 0$Write $a^x = e^{x \ln a}$. Then:
 
 $$
-\frac{d}{dx}[a^x] = e^{x \ln a} \cdot \ln a = a^x \ln a
+\frac\{d\}\{dx\}[a^x] = e^\{x \ln a\} \cdot \ln a = a^x \ln a
 $$
 
 ### Implicit Differentiation (HL)
@@ -221,21 +221,21 @@ Treating $y$ as a function of $x$.
 Differentiating both sides: $2x + 2y\frac{dy}{dx} = 0$
 
 $$
-\frac{dy}{dx} = -\frac{x}{y}
+\frac\{dy\}\{dx\} = -\frac\{x\}\{y\}
 $$
 
 **Example (HL):** Find $\frac{dy}{dx}$ when $x^3 + y^3 = 6xy$ (folium of Descartes).
 
 $$
-3x^2 + 3y^2\frac{dy}{dx} = 6y + 6x\frac{dy}{dx}
+3x^2 + 3y^2\frac\{dy\}\{dx\} = 6y + 6x\frac\{dy\}\{dx\}
 $$
 
 $$
-\frac{dy}{dx}(3y^2 - 6x) = 6y - 3x^2
+\frac\{dy\}\{dx\}(3y^2 - 6x) = 6y - 3x^2
 $$
 
 $$
-\frac{dy}{dx} = \frac{2y - x^2}{y^2 - 2x}
+\frac\{dy\}\{dx\} = \frac\{2y - x^2\}\{y^2 - 2x\}
 $$
 
 **Example (HL):** Find $\frac{dy}{dx}$ when $e^{xy} + y = x^2$.
@@ -243,19 +243,19 @@ $$
 Differentiate both sides with respect to $x$:
 
 $$
-E^{xy}\left(y + x\frac{dy}{dx}\right) + \frac{dy}{dx} = 2x
+E^\{xy\}\left(y + x\frac\{dy\}\{dx\}\right) + \frac\{dy\}\{dx\} = 2x
 $$
 
 $$
-E^{xy} \cdot y + e^{xy} \cdot x \frac{dy}{dx} + \frac{dy}{dx} = 2x
+E^\{xy\} \cdot y + e^\{xy\} \cdot x \frac\{dy\}\{dx\} + \frac\{dy\}\{dx\} = 2x
 $$
 
 $$
-\frac{dy}{dx}(xe^{xy} + 1) = 2x - ye^{xy}
+\frac\{dy\}\{dx\}(xe^\{xy\} + 1) = 2x - ye^\{xy\}
 $$
 
 $$
-\frac{dy}{dx} = \frac{2x - ye^{xy}}{xe^{xy} + 1}
+\frac\{dy\}\{dx\} = \frac\{2x - ye^\{xy\}\}\{xe^\{xy\} + 1\}
 $$
 
 ### Higher Derivatives (HL)
@@ -268,13 +268,13 @@ Are defined recursively.
 First derivative (product rule):
 
 $$
-F'(x) = 3x^2 \ln x + x^3 \cdot \frac{1}{x} = 3x^2 \ln x + x^2
+F'(x) = 3x^2 \ln x + x^3 \cdot \frac\{1\}\{x\} = 3x^2 \ln x + x^2
 $$
 
 Second derivative:
 
 $$
-F''(x) = 6x \ln x + 3x^2 \cdot \frac{1}{x} + 2x = 6x \ln x + 3x + 2x = 6x \ln x + 5x
+F''(x) = 6x \ln x + 3x^2 \cdot \frac\{1\}\{x\} + 2x = 6x \ln x + 3x + 2x = 6x \ln x + 5x
 $$
 
 ## Applications of Differentiation
@@ -338,7 +338,7 @@ If $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$Then there exists
 that:
 
 $$
-F'(c) = \frac{f(b) - f(a)}{b - a}
+F'(c) = \frac\{f(b) - f(a)\}\{b - a\}
 $$
 
 **Intuition:** The MVT guarantees that at some point in the interval, the instantaneous rate of
@@ -350,7 +350,7 @@ This justifies the $+C$ in indefinite integration.
 **Example (HL):** Verify the MVT for $f(x) = x^2$ on $[1, 3]$.
 
 $$
-\frac{f(3) - f(1)}{3 - 1} = \frac{9 - 1}{2} = 4
+\frac\{f(3) - f(1)\}\{3 - 1\} = \frac\{9 - 1\}\{2\} = 4
 $$
 
 We need $f'(c) = 2c = 4$So $c = 2$. Since $1 < 2 < 3$The MVT is verified.
@@ -361,7 +361,7 @@ We need $f'(c) = 2c = 4$So $c = 2$. Since $1 < 2 < 3$The MVT is verified.
 increase Of the area when $r = 5\mathrm{ cm$.
 
 $$
-A = \pi r^2 \implies \frac{dA}{dt} = 2\pi r \frac{dr}{dt} = 2\pi(5)(3) = 30\pi \mathrm{ cm^2/\mathrm{s
+A = \pi r^2 \implies \frac\{dA\}\{dt\} = 2\pi r \frac\{dr\}\{dt\} = 2\pi(5)(3) = 30\pi \mathrm\{ cm^2/\mathrm\{s
 $$
 
 **Example (HL):** A conical tank with height 10 m and base radius 5 m is being filled with water at
@@ -371,15 +371,15 @@ deep?
 The tank has similar cross-sections, so $\frac{r}{h} = \frac{5}{10} = \frac{1}{2}$Giving $r = h/2$.
 
 $$
-V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi\left(\frac{h}{2}\right)^2 h = \frac{\pi h^3}{12}
+V = \frac\{1\}\{3\}\pi r^2 h = \frac\{1\}\{3\}\pi\left(\frac\{h\}\{2\}\right)^2 h = \frac\{\pi h^3\}\{12\}
 $$
 
 $$
-\frac{dV}{dt} = \frac{\pi h^2}{4} \cdot \frac{dh}{dt}
+\frac\{dV\}\{dt\} = \frac\{\pi h^2\}\{4\} \cdot \frac\{dh\}\{dt\}
 $$
 
 $$
-3 = \frac{\pi(16)}{4} \cdot \frac{dh}{dt} \implies \frac{dh}{dt} = \frac{3}{4\pi} \approx 0.239 \mathrm{ m/min
+3 = \frac\{\pi(16)\}\{4\} \cdot \frac\{dh\}\{dt\} \implies \frac\{dh\}\{dt\} = \frac\{3\}\{4\pi\} \approx 0.239 \mathrm\{ m/min
 $$
 
 ### Tangents and Normals (OL/HL)
@@ -420,17 +420,17 @@ Volume:
 $V = x^2 h = x^2 \cdot \frac{150 - x^2}{4x} = \frac{x(150 - x^2)}{4} = \frac{150x - x^3}{4}$.
 
 $$
-\frac{dV}{dx} = \frac{150 - 3x^2}{4} = 0 \implies x^2 = 50 \implies x = \sqrt{50} = 5\sqrt{2}
+\frac\{dV\}\{dx\} = \frac\{150 - 3x^2\}\{4\} = 0 \implies x^2 = 50 \implies x = \sqrt\{50\} = 5\sqrt\{2\}
 $$
 
 $$
-\frac{d^2V}{dx^2} = \frac{-6x}{4} = \frac{-3x}{2}
+\frac\{d^2V\}\{dx^2\} = \frac\{-6x\}\{4\} = \frac\{-3x\}\{2\}
 $$
 
 At $x = 5\sqrt{2}$: $\frac{d^2V}{dx^2} = \frac{-15\sqrt{2}}{2} < 0$Confirming a maximum.
 
 $$
-H = \frac{150 - 50}{4 \cdot 5\sqrt{2}} = \frac{100}{20\sqrt{2}} = \frac{5}{\sqrt{2}} = \frac{5\sqrt{2}}{2}
+H = \frac\{150 - 50\}\{4 \cdot 5\sqrt\{2\}\} = \frac\{100\}\{20\sqrt\{2\}\} = \frac\{5\}\{\sqrt\{2\}\} = \frac\{5\sqrt\{2\}\}\{2\}
 $$
 
 The optimal box has base $5\sqrt{2} \times 5\sqrt{2}$ and height $\frac{5\sqrt{2}}{2}$.
@@ -440,7 +440,7 @@ The optimal box has base $5\sqrt{2} \times 5\sqrt{2}$ and height $\frac{5\sqrt{2
 ### Indefinite Integration (Anti-differentiation)
 
 $$
-\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1
+\int x^n \, dx = \frac\{x^\{n+1\}\}\{n+1\} + C, \quad n \neq -1
 $$
 
 ### Standard Integrals (OL/HL)
@@ -491,7 +491,7 @@ Absolute value of each part. The integral itself gives the signed area.
 **Example (OL):** Find the area enclosed by $y = x^2$The $x$-axis, $x = 0$And $x = 3$.
 
 $$
-A = \int_0^3 x^2 \, dx = \left[\frac{x^3}{3}\right]_0^3 = \frac{27}{3} = 9 \mathrm{ square units
+A = \int_0^3 x^2 \, dx = \left[\frac\{x^3\}\{3\}\right]_0^3 = \frac\{27\}\{3\} = 9 \mathrm\{ square units
 $$
 
 **Example (OL):** Find the total area between $y = x^2 - 4$ and the $x$-axis.
@@ -499,7 +499,7 @@ $$
 The curve crosses the $x$-axis when $x^2 = 4$I.e. $x = -2$ and $x = 2$.
 
 $$
-A = \int_{-2}^{2} |x^2 - 4| \, dx = \int_{-2}^{2} (4 - x^2) \, dx = \left[4x - \frac{x^3}{3}\right]_{-2}^{2} = \left(8 - \frac{8}{3}\right) - \left(-8 + \frac{8}{3}\right) = \frac{32}{3}
+A = \int_\{-2\}^\{2\} |x^2 - 4| \, dx = \int_\{-2\}^\{2\} (4 - x^2) \, dx = \left[4x - \frac\{x^3\}\{3\}\right]_\{-2\}^\{2\} = \left(8 - \frac\{8\}\{3\}\right) - \left(-8 + \frac\{8\}\{3\}\right) = \frac\{32\}\{3\}
 $$
 
 ### Area Between Two Curves (HL)
@@ -515,7 +515,7 @@ $$
 Intersection: $x^2 = 2x \implies x = 0, 2$.
 
 $$
-A = \int_0^2 (2x - x^2) \, dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}
+A = \int_0^2 (2x - x^2) \, dx = \left[x^2 - \frac\{x^3\}\{3\}\right]_0^2 = 4 - \frac\{8\}\{3\} = \frac\{4\}\{3\}
 $$
 
 **Example (HL):** Find the area between $y = \sin x$ and $y = \cos x$ from $x = 0$ to $x = \pi/2$.
@@ -525,25 +525,25 @@ Intersection: $\sin x = \cos x \implies x = \pi/4$.
 On $[0, \pi/4]$: $\cos x \geq \sin x$. On $[\pi/4, \pi/2]$: $\sin x \geq \cos x$.
 
 $$
-A = \int_0^{\pi/4} (\cos x - \sin x)\,dx + \int_{\pi/4}^{\pi/2} (\sin x - \cos x)\,dx
+A = \int_0^\{\pi/4\} (\cos x - \sin x)\,dx + \int_\{\pi/4\}^\{\pi/2\} (\sin x - \cos x)\,dx
 $$
 
 $$
-= \left[\sin x + \cos x\right]_0^{\pi/4} + \left[-\cos x - \sin x\right]_{\pi/4}^{\pi/2}
+= \left[\sin x + \cos x\right]_0^\{\pi/4\} + \left[-\cos x - \sin x\right]_\{\pi/4\}^\{\pi/2\}
 $$
 
 $$
-= \left(\frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} - 0 - 1\right) + \left(0 - 1 + \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}\right)
+= \left(\frac\{\sqrt\{2\}\}\{2\} + \frac\{\sqrt\{2\}\}\{2\} - 0 - 1\right) + \left(0 - 1 + \frac\{\sqrt\{2\}\}\{2\} + \frac\{\sqrt\{2\}\}\{2\}\right)
 $$
 
 $$
-= (\sqrt{2} - 1) + (\sqrt{2} - 1) = 2\sqrt{2} - 2
+= (\sqrt\{2\} - 1) + (\sqrt\{2\} - 1) = 2\sqrt\{2\} - 2
 $$
 
 ### Integration by Substitution (HL)
 
 $$
-\int f(g(x))g'(x) \, dx = \int f(u) \, du \quad \mathrm{where  u = g(x)
+\int f(g(x))g'(x) \, dx = \int f(u) \, du \quad \mathrm\{where  u = g(x)
 $$
 
 **Example:** Evaluate $\int 2x\sqrt{x^2 + 1} \, dx$.
@@ -551,7 +551,7 @@ $$
 Let $u = x^2 + 1$Then $du = 2x \, dx$.
 
 $$
-\int \sqrt{u} \, du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2 + 1)^{3/2} + C
+\int \sqrt\{u\} \, du = \frac\{2\}\{3\}u^\{3/2\} + C = \frac\{2\}\{3\}(x^2 + 1)^\{3/2\} + C
 $$
 
 **Example (HL):** Evaluate $\int_0^1 \frac{x}{x^2 + 1} \, dx$.
@@ -561,7 +561,7 @@ Let $u = x^2 + 1$Then $du = 2x\,dx$So $x\,dx = \frac{du}{2}$.
 When $x = 0$: $u = 1$. When $x = 1$: $u = 2$.
 
 $$
-\int_0^1 \frac{x}{x^2 + 1} \, dx = \int_1^2 \frac{1}{2u} \, du = \frac{1}{2}\left[\ln u\right]_1^2 = \frac{1}{2}\ln 2
+\int_0^1 \frac\{x\}\{x^2 + 1\} \, dx = \int_1^2 \frac\{1\}\{2u\} \, du = \frac\{1\}\{2\}\left[\ln u\right]_1^2 = \frac\{1\}\{2\}\ln 2
 $$
 
 **Key point:** When using substitution with definite integrals, either change the limits of
@@ -631,7 +631,7 @@ $$
 $$
 
 $$
-I = \frac{e^x(\sin x - \cos x)}{2} + C
+I = \frac\{e^x(\sin x - \cos x)\}\{2\} + C
 $$
 
 ### Integration of Trigonometric Functions (HL)
@@ -652,7 +652,7 @@ $$
 $du = -\sin x\,dx$:
 
 $$
-\int \tan x\,dx = \int \frac{\sin x}{\cos x}\,dx = -\int \frac{du}{u} = -\ln|u| + C = -\ln|\cos x| + C
+\int \tan x\,dx = \int \frac\{\sin x\}\{\cos x\}\,dx = -\int \frac\{du\}\{u\} = -\ln|u| + C = -\ln|\cos x| + C
 $$
 
 **Example (HL):** Evaluate $\int \sin^2 x\,dx$.
@@ -660,7 +660,7 @@ $$
 Using the identity $\sin^2 x = \frac{1 - \cos 2x}{2}$:
 
 $$
-\int \sin^2 x\,dx = \int \frac{1 - \cos 2x}{2}\,dx = \frac{x}{2} - \frac{\sin 2x}{4} + C
+\int \sin^2 x\,dx = \int \frac\{1 - \cos 2x\}\{2\}\,dx = \frac\{x\}\{2\} - \frac\{\sin 2x\}\{4\} + C
 $$
 
 ### Volume of Revolution (HL)
@@ -675,14 +675,14 @@ $$
 $x = 4$.
 
 $$
-V = \pi \int_0^4 x \, dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi
+V = \pi \int_0^4 x \, dx = \pi\left[\frac\{x^2\}\{2\}\right]_0^4 = 8\pi
 $$
 
 **Example (HL):** Find the volume generated by rotating $y = \sin x$ about the $x$-axis from $x = 0$
 To $x = \pi$.
 
 $$
-V = \pi \int_0^\pi \sin^2 x\,dx = \pi\left[\frac{x}{2} - \frac{\sin 2x}{4}\right]_0^\pi = \pi\left(\frac{\pi}{2} - 0\right) = \frac{\pi^2}{2}
+V = \pi \int_0^\pi \sin^2 x\,dx = \pi\left[\frac\{x\}\{2\} - \frac\{\sin 2x\}\{4\}\right]_0^\pi = \pi\left(\frac\{\pi\}\{2\} - 0\right) = \frac\{\pi^2\}\{2\}
 $$
 
 ## Differential Equations (HL)
@@ -692,19 +692,19 @@ $$
 An equation of the form $\frac{dy}{dx} = f(x)g(y)$ can be solved by separating variables:
 
 $$
-\frac{1}{g(y)} \, dy = f(x) \, dx
+\frac\{1\}\{g(y)\} \, dy = f(x) \, dx
 $$
 
 **Example:** Solve $\frac{dy}{dx} = \frac{x}{y}$Given $y = 2$ when $x = 0$.
 
 $$
-Y \, dy = x \, dx \implies \frac{y^2}{2} = \frac{x^2}{2} + C
+Y \, dy = x \, dx \implies \frac\{y^2\}\{2\} = \frac\{x^2\}\{2\} + C
 $$
 
 Using $y = 2, x = 0$: $2 = C$.
 
 $$
-Y^2 = x^2 + 4 \implies y = \sqrt{x^2 + 4}
+Y^2 = x^2 + 4 \implies y = \sqrt\{x^2 + 4\}
 $$
 
 (We take the positive root since $y = 2 > 0$ when $x = 0$.)
@@ -714,19 +714,19 @@ $$
 Separate: $\frac{1}{y}\,dy = x\,dx$.
 
 $$
-\ln|y| = \frac{x^2}{2} + C
+\ln|y| = \frac\{x^2\}\{2\} + C
 $$
 
 Using $y = 1, x = 0$: $\ln 1 = 0 = C$.
 
 $$
-\ln|y| = \frac{x^2}{2} \implies y = e^{x^2/2}
+\ln|y| = \frac\{x^2\}\{2\} \implies y = e^\{x^2/2\}
 $$
 
 ### Exponential Growth and Decay (HL)
 
 $$
-\frac{dy}{dt} = ky \implies y = y_0 e^{kt}
+\frac\{dy\}\{dt\} = ky \implies y = y_0 e^\{kt\}
 $$
 
 **Example:** A bacteria culture doubles every 3 hours. If initially there are 1000 bacteria, when
@@ -750,7 +750,7 @@ Remaining. If $V = 100$ litres initially and the rate is $2$ L/min initially, fi
 Minutes.
 
 $$
-\frac{dV}{dt} = -k\sqrt{V}
+\frac\{dV\}\{dt\} = -k\sqrt\{V\}
 $$
 
 At $t = 0$: $-2 = -k\sqrt{100} = -10k$So $k = 0.2$.
@@ -758,17 +758,17 @@ At $t = 0$: $-2 = -k\sqrt{100} = -10k$So $k = 0.2$.
 Separate: $\frac{dV}{\sqrt{V}} = -0.2\, dt$
 
 $$
-2\sqrt{V} = -0.2t + C
+2\sqrt\{V\} = -0.2t + C
 $$
 
 At $t = 0$: $2\sqrt{100} = C = 20$.
 
 $$
-2\sqrt{V} = -0.2t + 20
+2\sqrt\{V\} = -0.2t + 20
 $$
 
 $$
-\sqrt{V} = 10 - 0.1t
+\sqrt\{V\} = 10 - 0.1t
 $$
 
 $$

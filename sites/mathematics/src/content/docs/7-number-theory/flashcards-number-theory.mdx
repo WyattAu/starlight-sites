@@ -18,9 +18,9 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 - **Euclidean Algorithm**: repeatedly apply division with remainder: a = bq + r, then replace (a,b) with (b,r) until r = 0. The last non-zero remainder is gcd(a,b). Extended version finds integers x,y such that ax + by = gcd(a,b), enabling modular inverse computation.
 
-- **Fundamental Theorem of Arithmetic**: every integer n > 1 factors uniquely into primes: n = p₁^{a₁} × p₂^{a₂} × ... × pₖ^{aₖ} (up to ordering). This is the foundation of number theory — primes are the "atoms" of arithmetic.
+- **Fundamental Theorem of Arithmetic**: every integer n > 1 factors uniquely into primes: n = p₁^\{a₁\} × p₂^\{a₂\} × ... × pₖ^\{aₖ\} (up to ordering). This is the foundation of number theory — primes are the "atoms" of arithmetic.
 
-- **Euler's Theorem**: if gcd(a,n) = 1, then a^{φ(n)} ≡ 1 (mod n), where φ(n) is Euler's totient function counting integers ≤ n coprime to n. Fermat's Little Theorem is the special case n = p prime: a^{p-1} ≡ 1 (mod p).
+- **Euler's Theorem**: if gcd(a,n) = 1, then a^\{φ(n)\} ≡ 1 (mod n), where φ(n) is Euler's totient function counting integers ≤ n coprime to n. Fermat's Little Theorem is the special case n = p prime: a^\{p-1\} ≡ 1 (mod p).
 
 - **Quadratic Residues**: a is a quadratic residue mod p if there exists x with x² ≡ a (mod p). The Legendre symbol (a/p) = 1 if a is a residue, -1 if not, 0 if p|a. Quadratic Reciprocity relates (p/q) to (q/p) for odd primes p,q.
 

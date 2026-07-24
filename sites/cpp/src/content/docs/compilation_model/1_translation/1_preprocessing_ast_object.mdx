@@ -263,44 +263,44 @@ Causes a category of bugs that no other C++ feature can produce.
 ```cpp
 #include <cstdio>
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
-int main() {
+int main() \{
     int x = 1;
     int y = MAX(x++, x++);  // UB: x++ is evaluated twice
     std::printf("y = %d, x = %d\n", y, x);
     // Possible output: y = 3, x = 4 (x incremented twice in one expression)
-}
+\}
 ```
 **Problem 2: Operator precedence.**
 ```cpp
 #include <cstdio>
 #define SQUARE(x) x * x
-int main() {
+int main() \{
     int result = SQUARE(1 + 2);  // Expands to: 1 + 2 * 1 + 2 = 5, not 9
     std::printf("result = %d\n", result);  // Prints 5
-}
+\}
 ```
 Fixing with extra parentheses (`#define SQUARE(x) ((x) * (x))`) helps but doesn't solve the
 Side-effect problem. The modern C++ solution is to use `constexpr` functions or `inline` functions
 Instead:
 ```cpp
-constexpr int square(int x) { return x * x; }  // Safe: evaluates argument once
+constexpr int square(int x) \{ return x * x; \}  // Safe: evaluates argument once
 ```
 **Problem 3: Name shadowing.**
 ```cpp
 #include <vector>
 #define VALUE 42
-int main() {
+int main() \{
     // If any header or code defines a variable or macro named VALUE,
     // the preprocessor silently replaces it everywhere
     int VALUE = 10;  // Expands to: int 42 = 10; — compile error
-}
+\}
 ```
 ### Predefined Macros
 Compilers define a set of macros that identify the platform, compiler version, and C++ standard.
 These are essential for writing portable code.
 ```cpp
 #include <iostream>
-int main() {
+int main() \{
     std::cout << "Compiler: "
 #ifdef __clang__
               << "Clang " << __clang_major__ << "." << __clang_minor__
@@ -321,7 +321,7 @@ int main() {
               << "macOS"
 #endif
               << "\n";
-}
+\}
 ```
 **Important:** Never use `__cplusplus` alone to detect compiler features. Use feature-test macros
 Defined by the standard (e.g., `__cpp_constexpr``__cpp_concepts`):
@@ -329,7 +329,7 @@ Defined by the standard (e.g., `__cpp_constexpr``__cpp_concepts`):
 #if __cpp_concepts >= 201907L
     // Concepts are available
     template<typename T>
-    concept Addable = requires(T a, T b) { a + b; };
+    concept Addable = requires(T a, T b) \{ a + b; \};
 #endif
 ```
 ### Include Guards vs `#pragma once`
@@ -381,10 +381,10 @@ Called the **mangled name**. This is what appears in the object file's symbol ta
 Is necessary because the linker only sees flat strings, not C++ scope.
 ```cpp
 // code.cpp
-namespace math {
-    int add(int a, int b) { return a + b; }
-    double add(double a, double b) { return a + b; }
-}
+namespace math \{
+    int add(int a, int b) \{ return a + b; \}
+    double add(double a, double b) \{ return a + b; \}
+\}
 ```
 ```bash
 nm -C code.o
@@ -410,12 +410,12 @@ LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly
 To a register (`%0``%1`Etc.). This makes dataflow analysis trivial for the optimizer.
 ```cpp
 // sum.cpp
-int sum(int n) {
+int sum(int n) \{
     int total = 0;
     for (int i = 0; i < n; ++i)
         total += i;
     return total;
-}
+\}
 ```
 ```bash
 clang++ -S -emit-llvm -O2 sum.cpp -o sum.ll
@@ -431,14 +431,14 @@ Key IR concepts visible in the output:
 At `-O2`The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
 of a loop:
 ```llvm
-define i32 @sum(i32 %n) {
+define i32 @sum(i32 %n) \{
 entry:
   %cmp = icmp sgt i32 %n, 0
   %nminus1 = select i1 %cmp, i32 %n, i32 0
   %mul = mul i32 %nminus1, %n
   %div = lshr i32 %mul, 1
   ret i32 %div
-}
+\}
 ```
 The loop has been replaced with `n*(n-1)/2` — a textbook example of loop optimization. This is why
 Reading the optimized IR is critical: it confirms that your high-level abstractions compiled away to

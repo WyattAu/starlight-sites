@@ -18,7 +18,7 @@ import DesmosGraph from "@components/DesmosGraph";
 
 An **antiderivative** of $f$ is a function $F$ such that $F' = f$. The **indefinite integral** is:
 
-{/* prettier-ignore */}
+\{/* prettier-ignore */\}
 <DesmosGraph client:only="solid-js" title="Definite Integral as Area Under a Curve" expressions={["\\int_{a}^{b} f(x) \\, dx"]} width={800} height={500} />
 Adjust the parameters in the graph above to explore the relationships between variables.
 
@@ -47,7 +47,7 @@ Where $C$ is the constant of integration.
 ### The Power Rule for Integration
 
 $$
-\int x^n\, dx = \frac{x^{n+1}}{n+1} + C, \quad n \ne -1
+\int x^n\, dx = \frac\{x^\{n+1\}\}\{n+1\} + C, \quad n \ne -1
 $$
 
 **Why the power rule excludes $n = -1$.** Substituting $n = -1$ gives $\frac{x^0}{0}$Which is
@@ -63,7 +63,7 @@ Antiderivative of $\frac{1}{x}$ on any interval not containing $0$ is $\ln|x| + 
 Evaluate $\displaystyle\int (3x^4 - 2x^2 + 5x - 1)\, dx$.
 
 $$
-\int (3x^4 - 2x^2 + 5x - 1)\, dx = \frac{3x^5}{5} - \frac{2x^3}{3} + \frac{5x^2}{2} - x + C
+\int (3x^4 - 2x^2 + 5x - 1)\, dx = \frac\{3x^5\}\{5\} - \frac\{2x^3\}\{3\} + \frac\{5x^2\}\{2\} - x + C
 $$
 
 
@@ -91,7 +91,7 @@ $\displaystyle\int (2x^{5/2} - x^{1/2} + 4x^{-1/2})\, dx = \frac{4x^{7/2}}{7} - 
 A **Riemann sum** approximates the area under a curve by dividing the region into rectangles:
 
 $$
-\sum_{i=1}^{n} f(x_i^*) \Delta x
+\sum_\{i=1\}^\{n\} f(x_i^*) \Delta x
 $$
 
 Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$Th subinterval.
@@ -114,7 +114,7 @@ Regardless of the choice of sample points $x_i^*$.
 The **definite integral** of $f$ from $a$ to $b$ is:
 
 $$
-\int_a^b f(x)\, dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x
+\int_a^b f(x)\, dx = \lim_\{n \to \infty\} \sum_\{i=1\}^\{n\} f(x_i^*) \Delta x
 $$
 
 Provided this limit exists. When it does, $f$ is said to be **integrable** on $[a, b]$.
@@ -148,7 +148,7 @@ If $f$ changes sign, the integral gives the **net** (signed) area.
 The total area between $f$ and the $x$-axis on $[a, b]$ is:
 
 $$
-\mathrm{Total Area = \int_a^b |f(x)|\, dx
+\mathrm\{Total Area = \int_a^b |f(x)|\, dx
 $$
 
 </aside>
@@ -159,15 +159,15 @@ Find the total area between $f(x) = x^2 - 4$ and the $x$-axis on $[-3, 3]$.
 Find the zeros: $x^2 - 4 = 0 \implies x = \pm 2$.
 
 $$
-\mathrm{Total Area = \int_{-3}^{-2} (x^2 - 4)\, dx + \int_{-2}^{2} (4 - x^2)\, dx + \int_{2}^{3} (x^2 - 4)\, dx
+\mathrm\{Total Area = \int_\{-3\}^\{-2\} (x^2 - 4)\, dx + \int_\{-2\}^\{2\} (4 - x^2)\, dx + \int_\{2\}^\{3\} (x^2 - 4)\, dx
 $$
 
 $$
-= \left[\frac{x^3}{3} - 4x\right]_{-3}^{-2} + \left[4x - \frac{x^3}{3}\right]_{-2}^{2} + \left[\frac{x^3}{3} - 4x\right]_{2}^{3}
+= \left[\frac\{x^3\}\{3\} - 4x\right]_\{-3\}^\{-2\} + \left[4x - \frac\{x^3\}\{3\}\right]_\{-2\}^\{2\} + \left[\frac\{x^3\}\{3\} - 4x\right]_\{2\}^\{3\}
 $$
 
 $$
-= \frac{-8 - (-27)}{3} - \frac{-8}{3} + \frac{8 - (-8)}{3} + \frac{27 - 8}{3} = \frac{19}{3} + \frac{16}{3} + \frac{19}{3} = \frac{54}{3} = 18
+= \frac\{-8 - (-27)\}\{3\} - \frac\{-8\}\{3\} + \frac\{8 - (-8)\}\{3\} + \frac\{27 - 8\}\{3\} = \frac\{19\}\{3\} + \frac\{16\}\{3\} + \frac\{19\}\{3\} = \frac\{54\}\{3\} = 18
 $$
 
 
@@ -190,7 +190,7 @@ $$
 More generally, by the chain rule:
 
 $$
-\frac{d}{dx}\!\left[\int_a^{u(x)} f(t)\, dt\right] = f(u(x)) \cdot u'(x)
+\frac\{d\}\{dx\}\!\left[\int_a^\{u(x)\} f(t)\, dt\right] = f(u(x)) \cdot u'(x)
 $$
 
 **Intuition.** FTC Part 1 says: the rate at which the accumulated area changes is just the height of
@@ -205,7 +205,7 @@ Find $\displaystyle\frac{d}{dx}\!\left[\int_1^{x^2} \sin(t^2)\, dt\right]$.
 By FTC Part 1 and the chain rule:
 
 $$
-\frac{d}{dx}\!\left[\int_1^{x^2} \sin(t^2)\, dt\right] = \sin\!\left((x^2)^2\right) \cdot 2x = 2x \sin(x^4)
+\frac\{d\}\{dx\}\!\left[\int_1^\{x^2\} \sin(t^2)\, dt\right] = \sin\!\left((x^2)^2\right) \cdot 2x = 2x \sin(x^4)
 $$
 
 
@@ -215,7 +215,7 @@ $$
 Find $\displaystyle\frac{d}{dx}\!\left[\int_0^{\sqrt{x}} e^{t^2}\, dt\right]$.
 
 $$
-\frac{d}{dx}\!\left[\int_0^{\sqrt{x}} e^{t^2}\, dt\right] = e^{(\sqrt{x})^2} \cdot \frac{1}{2\sqrt{x}} = \frac{e^x}{2\sqrt{x}}
+\frac\{d\}\{dx\}\!\left[\int_0^\{\sqrt\{x\}\} e^\{t^2\}\, dt\right] = e^\{(\sqrt\{x\})^2\} \cdot \frac\{1\}\{2\sqrt\{x\}\} = \frac\{e^x\}\{2\sqrt\{x\}\}
 $$
 
 
@@ -227,13 +227,13 @@ Find $\displaystyle\frac{d}{dx}\!\left[\int_x^{x^2} \frac{1}{1+t^2}\, dt\right]$
 Split the integral at a constant (say $0$):
 
 $$
-\int_x^{x^2} \frac{1}{1+t^2}\, dt = \int_0^{x^2} \frac{1}{1+t^2}\, dt - \int_0^x \frac{1}{1+t^2}\, dt
+\int_x^\{x^2\} \frac\{1\}\{1+t^2\}\, dt = \int_0^\{x^2\} \frac\{1\}\{1+t^2\}\, dt - \int_0^x \frac\{1\}\{1+t^2\}\, dt
 $$
 
 Differentiating:
 
 $$
-\frac{1}{1+x^4} \cdot 2x - \frac{1}{1+x^2} = \frac{2x}{1+x^4} - \frac{1}{1+x^2}
+\frac\{1\}\{1+x^4\} \cdot 2x - \frac\{1\}\{1+x^2\} = \frac\{2x\}\{1+x^4\} - \frac\{1\}\{1+x^2\}
 $$
 
 
@@ -253,7 +253,7 @@ This is the evaluation theorem. We write $F(x)\Big|_a^b$ to denote $F(b) - F(a)$
 Evaluate $\displaystyle\int_1^3 \left(x^2 + \frac{1}{x}\right) dx$.
 
 $$
-\int_1^3 \left(x^2 + \frac{1}{x}\right) dx = \left[\frac{x^3}{3} + \ln x\right]_1^3 = \left(\frac{27}{3} + \ln 3\right) - \left(\frac{1}{3} + 0\right) = \frac{26}{3} + \ln 3
+\int_1^3 \left(x^2 + \frac\{1\}\{x\}\right) dx = \left[\frac\{x^3\}\{3\} + \ln x\right]_1^3 = \left(\frac\{27\}\{3\} + \ln 3\right) - \left(\frac\{1\}\{3\} + 0\right) = \frac\{26\}\{3\} + \ln 3
 $$
 
 
@@ -294,7 +294,7 @@ Evaluate $\displaystyle\int 2x e^{x^2}\, dx$.
 Let $u = x^2$, $du = 2x\, dx$:
 
 $$
-\int 2x e^{x^2}\, dx = \int e^u\, du = e^u + C = e^{x^2} + C
+\int 2x e^\{x^2\}\, dx = \int e^u\, du = e^u + C = e^\{x^2\} + C
 $$
 
 
@@ -306,7 +306,7 @@ Evaluate $\displaystyle\int \frac{x}{x^2 + 1}\, dx$.
 Let $u = x^2 + 1$, $du = 2x\, dx$Giving $\frac{1}{2}du = x\, dx$:
 
 $$
-\int \frac{x}{x^2 + 1}\, dx = \frac{1}{2}\int \frac{1}{u}\, du = \frac{1}{2}\ln|u| + C = \frac{1}{2}\ln(x^2 + 1) + C
+\int \frac\{x\}\{x^2 + 1\}\, dx = \frac\{1\}\{2\}\int \frac\{1\}\{u\}\, du = \frac\{1\}\{2\}\ln|u| + C = \frac\{1\}\{2\}\ln(x^2 + 1) + C
 $$
 
 
@@ -318,7 +318,7 @@ Evaluate $\displaystyle\int \frac{\ln x}{x}\, dx$.
 Let $u = \ln x$, $du = \frac{1}{x}\, dx$:
 
 $$
-\int \frac{\ln x}{x}\, dx = \int u\, du = \frac{u^2}{2} + C = \frac{(\ln x)^2}{2} + C
+\int \frac\{\ln x\}\{x\}\, dx = \int u\, du = \frac\{u^2\}\{2\} + C = \frac\{(\ln x)^2\}\{2\} + C
 $$
 
 
@@ -327,7 +327,7 @@ $$
 When using $u$-substitution for definite integrals, change the limits of integration:
 
 $$
-\int_a^b f(g(x))g'(x)\, dx = \int_{g(a)}^{g(b)} f(u)\, du
+\int_a^b f(g(x))g'(x)\, dx = \int_\{g(a)\}^\{g(b)\} f(u)\, du
 $$
 
 </aside>
@@ -338,7 +338,7 @@ Evaluate $\displaystyle\int_0^1 x\sqrt{1 + x^2}\, dx$.
 Let $u = 1 + x^2$$du = 2x\, dx$. When $x = 0$$u = 1$. When $x = 1, u = 2$.
 
 $$
-\int_0^1 x\sqrt{1 + x^2}\, dx = \frac{1}{2}\int_1^2 \sqrt{u}\, du = \frac{1}{2}\left[\frac{2u^{3/2}}{3}\right]_1^2 = \frac{1}{3}(2\sqrt{2} - 1)
+\int_0^1 x\sqrt\{1 + x^2\}\, dx = \frac\{1\}\{2\}\int_1^2 \sqrt\{u\}\, du = \frac\{1\}\{2\}\left[\frac\{2u^\{3/2\}\}\{3\}\right]_1^2 = \frac\{1\}\{3\}(2\sqrt\{2\} - 1)
 $$
 
 
@@ -350,7 +350,7 @@ Evaluate $\displaystyle\int_0^1 \frac{2x}{\sqrt{1 + x^2}}\, dx$.
 Let $u = 1 + x^2$$du = 2x\, dx$. When $x = 0$$u = 1$. When $x = 1$$u = 2$.
 
 $$
-\int_0^1 \frac{2x}{\sqrt{1 + x^2}}\, dx = \int_1^2 u^{-1/2}\, du = \left[2\sqrt{u}\right]_1^2 = 2\sqrt{2} - 2
+\int_0^1 \frac\{2x\}\{\sqrt\{1 + x^2\}\}\, dx = \int_1^2 u^\{-1/2\}\, du = \left[2\sqrt\{u\}\right]_1^2 = 2\sqrt\{2\} - 2
 $$
 
 
@@ -426,7 +426,7 @@ Evaluate $\displaystyle\int \ln x\, dx$.
 Let $u = \ln x$$dv = dx$. Then $du = \frac{1}{x}dx$$v = x$.
 
 $$
-\int \ln x\, dx = x\ln x - \int x \cdot \frac{1}{x}\, dx = x\ln x - x + C
+\int \ln x\, dx = x\ln x - \int x \cdot \frac\{1\}\{x\}\, dx = x\ln x - x + C
 $$
 
 
@@ -438,7 +438,7 @@ Evaluate $\displaystyle\int_0^{\pi/2} x\sin x\, dx$.
 Let $u = x$$dv = \sin x\, dx$$du = dx$$v = -\cos x$.
 
 $$
-= [-x\cos x]_0^{\pi/2} - \int_0^{\pi/2} (-\cos x)\, dx = \left(0 + \frac{\pi}{2}\cos 0\right) - [-\sin x]_0^{\pi/2} = \frac{\pi}{2} - 1
+= [-x\cos x]_0^\{\pi/2\} - \int_0^\{\pi/2\} (-\cos x)\, dx = \left(0 + \frac\{\pi\}\{2\}\cos 0\right) - [-\sin x]_0^\{\pi/2\} = \frac\{\pi\}\{2\} - 1
 $$
 
 
@@ -454,7 +454,7 @@ Evaluate $\displaystyle\int \frac{1}{x^2 - 1}\, dx$.
 Factor: $x^2 - 1 = (x-1)(x+1)$.
 
 $$
-\frac{1}{(x-1)(x+1)} = \frac{A}{x-1} + \frac{B}{x+1}
+\frac\{1\}\{(x-1)(x+1)\} = \frac\{A\}\{x-1\} + \frac\{B\}\{x+1\}
 $$
 
 $$
@@ -464,7 +464,7 @@ $$
 At $x = 1$: $1 = 2A \implies A = \frac{1}{2}$. At $x = -1$: $1 = -2B \implies B = -\frac{1}{2}$.
 
 $$
-\int \frac{1}{x^2 - 1}\, dx = \frac{1}{2}\int \frac{1}{x-1}\, dx - \frac{1}{2}\int \frac{1}{x+1}\, dx = \frac{1}{2}\ln|x-1| - \frac{1}{2}\ln|x+1| + C = \frac{1}{2}\ln\!\left|\frac{x-1}{x+1}\right| + C
+\int \frac\{1\}\{x^2 - 1\}\, dx = \frac\{1\}\{2\}\int \frac\{1\}\{x-1\}\, dx - \frac\{1\}\{2\}\int \frac\{1\}\{x+1\}\, dx = \frac\{1\}\{2\}\ln|x-1| - \frac\{1\}\{2\}\ln|x+1| + C = \frac\{1\}\{2\}\ln\!\left|\frac\{x-1\}\{x+1\}\right| + C
 $$
 
 
@@ -476,13 +476,13 @@ In the interval.
 **Type 1: Infinite interval:**
 
 $$
-\int_a^{\infty} f(x)\, dx = \lim_{b \to \infty} \int_a^b f(x)\, dx
+\int_a^\{\infty\} f(x)\, dx = \lim_\{b \to \infty\} \int_a^b f(x)\, dx
 $$
 
 **Type 2: Infinite discontinuity at $a$:**
 
 $$
-\int_a^b f(x)\, dx = \lim_{t \to a^+} \int_t^b f(x)\, dx
+\int_a^b f(x)\, dx = \lim_\{t \to a^+\} \int_t^b f(x)\, dx
 $$
 
 </aside>
@@ -493,7 +493,7 @@ Determine whether $\displaystyle\int_1^{\infty} \frac{1}{x^p}\, dx$ converges fo
 If $p \ne 1$:
 
 $$
-= \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty} \frac{b^{1-p} - 1}{1-p}
+= \lim_\{b \to \infty\} \left[\frac\{x^\{1-p\}\}\{1-p\}\right]_1^b = \lim_\{b \to \infty\} \frac\{b^\{1-p\} - 1\}\{1-p\}
 $$
 
 This converges to $\frac{1}{p-1}$ when $p \gt 1$ and diverges when $p \lt 1$.
@@ -501,7 +501,7 @@ This converges to $\frac{1}{p-1}$ when $p \gt 1$ and diverges when $p \lt 1$.
 If $p = 1$:
 
 $$
-\lim_{b \to \infty} [\ln x]_1^b = \lim_{b \to \infty} \ln b = \infty \quad \mathrm{(diverges)
+\lim_\{b \to \infty\} [\ln x]_1^b = \lim_\{b \to \infty\} \ln b = \infty \quad \mathrm\{(diverges)
 $$
 
 
@@ -513,7 +513,7 @@ Evaluate $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx$.
 Let $u = x^2$$du = 2x\, dx$:
 
 $$
-\int_0^{\infty} xe^{-x^2}\, dx = \frac{1}{2}\int_0^{\infty} e^{-u}\, du = \frac{1}{2}\left[-e^{-u}\right]_0^{\infty} = \frac{1}{2}(0 + 1) = \frac{1}{2}
+\int_0^\{\infty\} xe^\{-x^2\}\, dx = \frac\{1\}\{2\}\int_0^\{\infty\} e^\{-u\}\, du = \frac\{1\}\{2\}\left[-e^\{-u\}\right]_0^\{\infty\} = \frac\{1\}\{2\}(0 + 1) = \frac\{1\}\{2\}
 $$
 
 
@@ -532,7 +532,7 @@ $\displaystyle\int_0^{\infty} e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2}$.
 Evaluate $\displaystyle\int_0^{\infty} e^{-x}\, dx$.
 
 $$
-\lim_{b \to \infty} \left[-e^{-x}\right]_0^b = \lim_{b \to \infty}(-e^{-b} + 1) = 1
+\lim_\{b \to \infty\} \left[-e^\{-x\}\right]_0^b = \lim_\{b \to \infty\}(-e^\{-b\} + 1) = 1
 $$
 
 The integral converges to $1$.
@@ -560,7 +560,7 @@ Find intersections: $x^2 = 2x$So $x^2 - 2x = 0$Giving $x = 0$ and $x = 2$.
 Between $x = 0$ and $x = 2$$2x \ge x^2$.
 
 $$
-A = \int_0^2 (2x - x^2)\, dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}
+A = \int_0^2 (2x - x^2)\, dx = \left[x^2 - \frac\{x^3\}\{3\}\right]_0^2 = 4 - \frac\{8\}\{3\} = \frac\{4\}\{3\}
 $$
 
 
@@ -595,7 +595,7 @@ Find the volume of the solid obtained by rotating $y = \sqrt{x}$$y = 0$$x = 4$ a
 Using the disk method:
 
 $$
-V = \pi \int_0^4 (\sqrt{x})^2\, dx = \pi \int_0^4 x\, dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi
+V = \pi \int_0^4 (\sqrt\{x\})^2\, dx = \pi \int_0^4 x\, dx = \pi\left[\frac\{x^2\}\{2\}\right]_0^4 = 8\pi
 $$
 
 
@@ -608,7 +608,7 @@ The $y$-axis.
 The curves intersect at $x = 0$ and $x = 1$. Using the shell method:
 
 $$
-V = 2\pi \int_0^1 x(x - x^2)\, dx = 2\pi \int_0^1 (x^2 - x^3)\, dx = 2\pi\left[\frac{x^3}{3} - \frac{x^4}{4}\right]_0^1 = 2\pi\left(\frac{1}{3} - \frac{1}{4}\right) = 2\pi \cdot \frac{1}{12} = \frac{\pi}{6}
+V = 2\pi \int_0^1 x(x - x^2)\, dx = 2\pi \int_0^1 (x^2 - x^3)\, dx = 2\pi\left[\frac\{x^3\}\{3\} - \frac\{x^4\}\{4\}\right]_0^1 = 2\pi\left(\frac\{1\}\{3\} - \frac\{1\}\{4\}\right) = 2\pi \cdot \frac\{1\}\{12\} = \frac\{\pi\}\{6\}
 $$
 
 
@@ -621,7 +621,7 @@ $x = 0$$x = 1$ about the $x$-axis.
 Using the disk method:
 
 $$
-V = \pi \int_0^1 (e^{-x})^2\, dx = \pi \int_0^1 e^{-2x}\, dx = \pi\left[-\frac{e^{-2x}}{2}\right]_0^1 = \pi\left(-\frac{e^{-2}}{2} + \frac{1}{2}\right) = \frac{\pi}{2}\!\left(1 - \frac{1}{e^2}\right)
+V = \pi \int_0^1 (e^\{-x\})^2\, dx = \pi \int_0^1 e^\{-2x\}\, dx = \pi\left[-\frac\{e^\{-2x\}\}\{2\}\right]_0^1 = \pi\left(-\frac\{e^\{-2\}\}\{2\} + \frac\{1\}\{2\}\right) = \frac\{\pi\}\{2\}\!\left(1 - \frac\{1\}\{e^2\}\right)
 $$
 
 
@@ -630,7 +630,7 @@ $$
 The average value of $f$ on $[a, b]$ is:
 
 $$
-F_{\mathrm{avg} = \frac{1}{b - a}\int_a^b f(x)\, dx
+F_\{\mathrm\{avg\} = \frac\{1\}\{b - a\}\int_a^b f(x)\, dx
 $$
 
 By the MVT for integrals, there exists $c \in [a, b]$ such that $f(c) = f_{\mathrm{avg}$.
@@ -641,7 +641,7 @@ By the MVT for integrals, there exists $c \in [a, b]$ such that $f(c) = f_{\math
 Find the average value of $f(x) = \sin x$ on $[0, \pi]$.
 
 $$
-F_{\mathrm{avg} = \frac{1}{\pi}\int_0^{\pi} \sin x\, dx = \frac{1}{\pi}[-\cos x]_0^{\pi} = \frac{1}{\pi}(1 - (-1)) = \frac{2}{\pi}
+F_\{\mathrm\{avg\} = \frac\{1\}\{\pi\}\int_0^\{\pi\} \sin x\, dx = \frac\{1\}\{\pi\}[-\cos x]_0^\{\pi\} = \frac\{1\}\{\pi\}(1 - (-1)) = \frac\{2\}\{\pi\}
 $$
 
 
@@ -650,7 +650,7 @@ $$
 The arc length of $y = f(x)$ from $x = a$ to $x = b$ is:
 
 $$
-L = \int_a^b \sqrt{1 + [f'(x)]^2}\, dx
+L = \int_a^b \sqrt\{1 + [f'(x)]^2\}\, dx
 $$
 
 </aside>
@@ -661,13 +661,13 @@ Find the arc length of $y = \frac{2}{3}x^{3/2}$ from $x = 0$ to $x = 3$.
 $f'(x) = x^{1/2} = \sqrt{x}$.
 
 $$
-L = \int_0^3 \sqrt{1 + x}\, dx
+L = \int_0^3 \sqrt\{1 + x\}\, dx
 $$
 
 Let $u = 1 + x$$du = dx$:
 
 $$
-L = \int_1^4 \sqrt{u}\, du = \left[\frac{2u^{3/2}}{3}\right]_1^4 = \frac{2}{3}(8 - 1) = \frac{14}{3}
+L = \int_1^4 \sqrt\{u\}\, du = \left[\frac\{2u^\{3/2\}\}\{3\}\right]_1^4 = \frac\{2\}\{3\}(8 - 1) = \frac\{14\}\{3\}
 $$
 
 </aside>

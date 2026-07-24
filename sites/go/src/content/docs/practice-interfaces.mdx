@@ -20,40 +20,40 @@ package main
 
 import "io"
 
-type BytesReader struct {
+type BytesReader struct \{
 	data []byte
 	pos  int
-}
+\}
 
-func NewBytesReader(data []byte) *BytesReader {
-	return &BytesReader{data: data}
-}
+func NewBytesReader(data []byte) *BytesReader \{
+	return &BytesReader\{data: data\}
+\}
 
-func (r *BytesReader) Read(p []byte) (int, error) {
-	if r.pos >= len(r.data) {
+func (r *BytesReader) Read(p []byte) (int, error) \{
+	if r.pos >= len(r.data) \{
 		return 0, io.EOF
-	}
+	\}
 	n := copy(p, r.data[r.pos:])
 	r.pos += n
 	return n, nil
-}
+\}
 
-type StringWriter struct {
+type StringWriter struct \{
 	builder []byte
-}
+\}
 
-func NewStringWriter() *StringWriter {
-	return &StringWriter{}
-}
+func NewStringWriter() *StringWriter \{
+	return &StringWriter\{\}
+\}
 
-func (w *StringWriter) Write(p []byte) (int, error) {
+func (w *StringWriter) Write(p []byte) (int, error) \{
 	w.builder = append(w.builder, p...)
 	return len(p), nil
-}
+\}
 
-func (w *StringWriter) String() string {
+func (w *StringWriter) String() string \{
 	return string(w.builder)
-}
+\}
 ```
 
 ---
@@ -76,24 +76,24 @@ import (
 
 var ErrNotFound = errors.New("not found")
 
-type ValidationError struct {
+type ValidationError struct \{
 	Field   string
 	Message string
-}
+\}
 
-func (e *ValidationError) Error() string {
+func (e *ValidationError) Error() string \{
 	return fmt.Sprintf("validation error on field %q: %s", e.Field, e.Message)
-}
+\}
 
-func ValidateAge(age int) error {
-	if age < 0 {
-		return &ValidationError{Field: "age", Message: "must be non-negative"}
-	}
-	if age > 150 {
+func ValidateAge(age int) error \{
+	if age < 0 \{
+		return &ValidationError\{Field: "age", Message: "must be non-negative"\}
+	\}
+	if age > 150 \{
 		return fmt.Errorf("%w: age %d unreasonable", ErrNotFound, age)
-	}
+	\}
 	return nil
-}
+\}
 ```
 
 ---
@@ -111,26 +111,26 @@ package main
 
 import "fmt"
 
-func DescribeValue(val interface{}) string {
-	switch v := val.(type) {
+func DescribeValue(val interface\{\}) string \{
+	switch v := val.(type) \{
 	case string:
 		return "string: " + v
 	case int:
 		return fmt.Sprintf("int: %d", v)
 	case bool:
-		if v {
+		if v \{
 			return "bool: true"
-		}
+		\}
 		return "bool: false"
 	default:
 		return fmt.Sprintf("unknown type %T", v)
-	}
-}
+	\}
+\}
 
-func SafeAssert(val interface{}) (string, bool) {
+func SafeAssert(val interface\{\}) (string, bool) \{
 	s, ok := val.(string)
 	return s, ok
-}
+\}
 ```
 
 ---
@@ -148,41 +148,41 @@ package main
 
 import "io"
 
-type Reader interface {
+type Reader interface \{
 	Read(p []byte) (n int, err error)
-}
+\}
 
-type Closer interface {
+type Closer interface \{
 	Close() error
-}
+\}
 
-type ReadCloser interface {
+type ReadCloser interface \{
 	Reader
 	Closer
-}
+\}
 
-type NetworkConn struct {
+type NetworkConn struct \{
 	data   []byte
 	pos    int
 	closed bool
-}
+\}
 
-func (c *NetworkConn) Read(p []byte) (int, error) {
-	if c.closed {
+func (c *NetworkConn) Read(p []byte) (int, error) \{
+	if c.closed \{
 		return 0, io.ErrClosedPipe
-	}
-	if c.pos >= len(c.data) {
+	\}
+	if c.pos >= len(c.data) \{
 		return 0, io.EOF
-	}
+	\}
 	n := copy(p, c.data[c.pos:])
 	c.pos += n
 	return n, nil
-}
+\}
 
-func (c *NetworkConn) Close() error {
+func (c *NetworkConn) Close() error \{
 	c.closed = true
 	return nil
-}
+\}
 ```
 
 ---
@@ -200,34 +200,34 @@ package main
 
 import "fmt"
 
-type Logger interface {
+type Logger interface \{
 	Info(msg string)
 	Error(msg string)
-}
+\}
 
-type ConsoleLogger struct{}
+type ConsoleLogger struct\{\}
 
-func (l *ConsoleLogger) Info(msg string)  { fmt.Println("INFO:", msg) }
-func (l *ConsoleLogger) Error(msg string) { fmt.Println("ERROR:", msg) }
+func (l *ConsoleLogger) Info(msg string)  \{ fmt.Println("INFO:", msg) \}
+func (l *ConsoleLogger) Error(msg string) \{ fmt.Println("ERROR:", msg) \}
 
-type FileLogger struct {
+type FileLogger struct \{
 	entries []string
-}
+\}
 
-func (l *FileLogger) Info(msg string)  { l.entries = append(l.entries, "INFO: "+msg) }
-func (l *FileLogger) Error(msg string) { l.entries = append(l.entries, "ERROR: "+msg) }
+func (l *FileLogger) Info(msg string)  \{ l.entries = append(l.entries, "INFO: "+msg) \}
+func (l *FileLogger) Error(msg string) \{ l.entries = append(l.entries, "ERROR: "+msg) \}
 
-type UserService struct {
+type UserService struct \{
 	logger Logger
-}
+\}
 
-func NewUserService(logger Logger) *UserService {
-	return &UserService{logger: logger}
-}
+func NewUserService(logger Logger) *UserService \{
+	return &UserService\{logger: logger\}
+\}
 
-func (s *UserService) CreateUser(name string) {
+func (s *UserService) CreateUser(name string) \{
 	s.logger.Info("creating user: " + name)
-}
+\}
 ```
 
 ## Intuition

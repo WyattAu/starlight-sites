@@ -33,13 +33,13 @@ Every `std::string` that exceeds the SSO threshold triggers a call to the alloca
 (parsing, tokenization, logging), this is a significant source of latency and memory fragmentation.
 
 ```cpp
-void log_message(std::string msg) {
+void log_message(std::string msg) \{
     // 'msg' is a COPY of the caller's string.
     // If the caller passed a literal, this triggers:
     //   1. Construction of a temporary std::string from the literal (heap alloc)
     //   2. Copy into 'msg' (heap alloc or SSO copy)
     // Total: 2 allocations for a read-only operation.
-}
+\}
 
 log_message("Error: " + std::to_string(code));
 ```
@@ -145,7 +145,7 @@ The current string length.
 #include <string>
 #include <iostream>
 
-int main() {
+int main() \{
     std::string s;  // default-constructed
     std::cout << "default capacity: " << s.capacity() << "\n";  // 15 (libstdc++)
 
@@ -160,7 +160,7 @@ int main() {
 
     s.shrink_to_fit();  // Non-binding: may or may not release heap allocation
     std::cout << "after shrink_to_fit capacity: " << s.capacity() << "\n";
-}
+\}
 ```
 
 ## 3. `std::string_view`: Non-owning Reference [N4950 S22.3]
@@ -172,10 +172,10 @@ Characters. It is to `std::string` what `std::span` is to `std::vector`.
 
 ```cpp
 template<class CharT, class Traits = std::char_traits<CharT>>
-class basic_string_view {
+class basic_string_view \{
     const CharT* _data;
     size_t       _size;
-};
+\};
 
 using string_view = basic_string_view<char>;
 ```
@@ -192,12 +192,12 @@ Size: 16 bytes on 64-bit systems (pointer + `size_t`). No heap allocation. No ow
 - Any container providing `data()` and `size()` with the correct value type
 
 ```cpp
-void process(std::string_view sv) {
+void process(std::string_view sv) \{
     // Zero-copy. No allocation. No copy.
     std::cout << sv << "\n";
-}
+\}
 
-void caller() {
+void caller() \{
     std::string s = "hello";
     const char* cstr = "world";
     char arr[] = "array";
@@ -206,7 +206,7 @@ void caller() {
     process(cstr);   // implicit conversion (calls strlen)
     process(arr);    // implicit conversion
     process("literal"); // implicit conversion
-}
+\}
 ```
 
 ### Substring Extraction
@@ -256,38 +256,38 @@ Responsibility to ensure the source outlives all views into it. QED.
 ### The Classic Bug
 
 ```cpp
-std::string_view dangerous() {
+std::string_view dangerous() \{
     std::string s = "temporary";
     return s; // s is destroyed. string_view dangles.
-}
+\}
 
-std::string_view also_dangerous() {
+std::string_view also_dangerous() \{
     return std::string("temporary") + " appended";
     // The temporary std::string is destroyed at the semicolon.
     // The returned string_view dangles.
-}
+\}
 ```
 
 ### Less Obvious Dangling
 
 ```cpp
-std::string_view get_prefix(std::string s) {
+std::string_view get_prefix(std::string s) \{
     return s.substr(0, 4); // Dangles: "s'' is a local copy, destroyed on return.
-}
+\}
 
 std::vector<std::string_view> tokens;
 
-void tokenize(std::string input) {
+void tokenize(std::string input) \{
     // Tokens hold views into "input', which is destroyed when this returns.
     // All tokens dangle after the function exits.
     size_t start = 0;
-    for (size_t i = 0; i <= input.size(); ++i) {
-        if (i == input.size() || input[i] == ' ') {
+    for (size_t i = 0; i <= input.size(); ++i) \{
+        if (i == input.size() || input[i] == ' ') \{
             tokens.push_back(input.substr(start, i - start));
             start = i + 1;
-        }
-    }
-}
+        \}
+    \}
+\}
 ```
 
 ### Reallocation-Induced Dangling
@@ -300,7 +300,7 @@ When the string is resized beyond its capacity:
 #include <string_view>
 #include <iostream>
 
-int main() {
+int main() \{
     std::string s = "hello world";
     std::string_view sv = s;
 
@@ -312,7 +312,7 @@ int main() {
 
     // sv may now dangle! The pointer inside sv may point to freed memory.
     // std::cout << sv << "\n";  // UB: potentially dangling
-}
+\}
 ```
 
 ### The Null Terminator Trap
@@ -358,14 +358,14 @@ Termination or are storing the reference long-term.
 
 ```cpp
 // Modern: accepts all string-like types, zero-copy
-bool starts_with(std::string_view str, std::string_view prefix) {
+bool starts_with(std::string_view str, std::string_view prefix) \{
     return str.substr(0, prefix.size()) == prefix;
-}
+\}
 
 // Legacy: forces allocation when called with const char*
-bool starts_with_legacy(const std::string& str, const std::string& prefix) {
+bool starts_with_legacy(const std::string& str, const std::string& prefix) \{
     return str.compare(0, prefix.size(), prefix) == 0;
-}
+\}
 ```
 
 ### When to Prefer `const std::string&`
@@ -381,42 +381,42 @@ bool starts_with_legacy(const std::string& str, const std::string& prefix) {
 ### Safe: Returning a View Into a Longer-Lived Object
 
 ```cpp
-struct Config {
+struct Config \{
     std::string name;
     std::string value;
 
-    std::string_view get_name() const { return name; }
+    std::string_view get_name() const \{ return name; \}
     // Safe: "name'' is owned by the Config object
-};
+\};
 ```
 
 ### Safe: Returning a View Into Static Storage
 
 ```cpp
-std::string_view weekday_name(int day) {
-    static const char* names[] = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
+std::string_view weekday_name(int day) \{
+    static const char* names[] = \{"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"\};
     if (day >= 0 && day < 7) return names[day];
     return "Unknown";
-}
+\}
 ```
 
 ### Unsafe: Returning a View Into a Parameter
 
 ```cpp
-std::string_view truncate(std::string s, size_t max_len) {
+std::string_view truncate(std::string s, size_t max_len) \{
     return s.substr(0, max_len);
     // DANGLES: "s' is a local copy, destroyed on return.
-}
+\}
 ```
 
 Fix: take `std::string_view` as the parameter, but the caller must ensure the source outlives the
 Returned view.
 
 ```cpp
-std::string_view truncate(std::string_view sv, size_t max_len) {
+std::string_view truncate(std::string_view sv, size_t max_len) \{
     return sv.substr(0, max_len);
     // The returned view is only valid as long as sv's source is alive.
-}
+\}
 ```
 
 ### Accept-and-Store Pattern
@@ -429,21 +429,21 @@ When a function needs to store a string for later use, accept `std::string_view`
 #include <string_view>
 #include <vector>
 
-class Logger {
+class Logger \{
     std::vector<std::string> messages_;
 
 public:
-    void log(std::string_view msg) {
+    void log(std::string_view msg) \{
         // Convert to owning string at the boundary
         messages_.emplace_back(msg);
-    }
+    \}
 
-    void flush() {
-        for (const auto& m : messages_) {
+    void flush() \{
+        for (const auto& m : messages_) \{
             // safe to use m later
-        }
-    }
-};
+        \}
+    \}
+\};
 ```
 
 ## 7. Performance Implications
@@ -453,14 +453,14 @@ public:
 `std::string_view` enables pipeline-style string processing without intermediate allocations:
 
 ```cpp
-std::string_view extract_domain(std::string_view email) {
+std::string_view extract_domain(std::string_view email) \{
     auto at = email.find('@');
-    if (at == std::string_view::npos) return {};
+    if (at == std::string_view::npos) return \{\};
     auto domain = email.substr(at + 1);
     auto dot = domain.rfind('.');
     if (dot == std::string_view::npos) return domain;
     return domain.substr(dot + 1);
-}
+\}
 ```
 
 No allocations occur. Each `substr` returns a 16-byte view.
@@ -488,19 +488,19 @@ Modified or freed.
 #include <iostream>
 #include <chrono>
 
-size_t count_chars_string(const std::string& s, char c) {
+size_t count_chars_string(const std::string& s, char c) \{
     size_t n = 0;
     for (char ch : s) if (ch == c) ++n;
     return n;
-}
+\}
 
-size_t count_chars_view(std::string_view sv, char c) {
+size_t count_chars_view(std::string_view sv, char c) \{
     size_t n = 0;
     for (char ch : sv) if (ch == c) ++n;
     return n;
-}
+\}
 
-int main() {
+int main() \{
     const char* literal = "the quick brown fox jumps over the lazy dog";
     constexpr int N = 10'000'000;
 
@@ -523,7 +523,7 @@ int main() {
     // string_view is in standard practice 3-10x faster for literal arguments
     (void)r1;
     (void)r2;
-}
+\}
 ```
 
 ## 8. `std::string_view` vs `std::span<const char>`
@@ -586,14 +586,14 @@ Overload that takes `std::string` by value for ownership transfer.
 
 ```cpp
 std::string_view sv;
-if (sv == nullptr) { } // Compiles, but misleading
+if (sv == nullptr) \{ \} // Compiles, but misleading
 ```
 
 A default-constructed `string_view` has `data() == nullptr` and `size() == 0`. Comparing with
 `nullptr` checks the data pointer, not the emptiness. Prefer:
 
 ```cpp
-if (sv.empty()) { } // Checks size == 0
+if (sv.empty()) \{ \} // Checks size == 0
 ```
 
 ### Pitfall 4: Passing `string_view` to C APIs
@@ -638,12 +638,12 @@ Destroyed before the view is used:
 #include <string_view>
 
 // DANGEROUS: the temporary string is destroyed, view dangles
-std::string_view extract(std::string_view sv) {
+std::string_view extract(std::string_view sv) \{
     auto pos = sv.find(' ');
     if (pos == std::string_view::npos) return sv;
     // This is safe IF the caller's source outlives the returned view
     return sv.substr(0, pos);
-}
+\}
 
 // Safe usage:
 std::string input = "hello world";
@@ -677,7 +677,7 @@ Is modified or destroyed:
 #include <string>
 #include <string_view>
 
-void danger() {
+void danger() \{
     std::string s = "hello world";
 
     // This creates a view into s's buffer, NOT a copy
@@ -685,7 +685,7 @@ void danger() {
 
     s += " and more";  // may reallocate, invalidating sv
     // sv is now potentially dangling
-}
+\}
 ```
 
 ### Pitfall 9: `string_view` Comparison Semantics
@@ -697,7 +697,7 @@ Case folding, normalization, locale-dependent ordering):
 ```cpp
 #include <string_view>
 
-int main() {
+int main() \{
     // These are NOT equal as string_views, despite being visually similar
     // in some Unicode contexts:
     std::string_view a = "caf\u00e9";       // e with acute accent (U+00E9)
@@ -705,7 +705,7 @@ int main() {
 
     // a != b at the byte level (different UTF-8 encodings)
     // For Unicode-aware comparison, use a library like ICU
-}
+\}
 ```
 
 ## See Also

@@ -19,26 +19,26 @@ Use `Rc<T>` to share ownership of a value across multiple structures.
 use std::rc::Rc;
 
 #[derive(Debug)]
-struct Node {
+struct Node \{
     value: i32,
     next: Option<Rc<Node>>,
-}
+\}
 
-fn shared_list() -> (Rc<Node>, Rc<Node>) {
-    let tail = Rc::new(Node {
+fn shared_list() -> (Rc<Node>, Rc<Node>) \{
+    let tail = Rc::new(Node \{
         value: 3,
         next: None,
-    });
-    let head = Rc::new(Node {
+    \});
+    let head = Rc::new(Node \{
         value: 1,
         next: Some(Rc::clone(&tail)),
-    });
+    \});
     (head, tail)
-}
+\}
 
-fn count_references(node: &Rc<Node>) -> usize {
+fn count_references(node: &Rc<Node>) -> usize \{
     Rc::strong_count(node)
-}
+\}
 ```
 
 ---
@@ -52,32 +52,32 @@ Write a function that returns the longer of two string slices, using explicit li
 **Hint:** The returned slice borrows from one of the inputs; the lifetime must outlive both.
 
 ```rust
-fn longer<'a>(s1: &'a str, s2: &'a str) -> &'a str {
-    if s1.len() >= s2.len() {
+fn longer<'a>(s1: &'a str, s2: &'a str) -> &'a str \{
+    if s1.len() >= s2.len() \{
         s1
-    } else {
+    \} else \{
         s2
-    }
-}
+    \}
+\}
 
-struct Excerpt<'a> {
+struct Excerpt<'a> \{
     text: &'a str,
-}
+\}
 
-impl<'a> Excerpt<'a> {
-    fn new(text: &'a str) -> Self {
-        Excerpt { text }
-    }
+impl<'a> Excerpt<'a> \{
+    fn new(text: &'a str) -> Self \{
+        Excerpt \{ text \}
+    \}
 
-    fn level(&self) -> i32 {
+    fn level(&self) -> i32 \{
         3
-    }
+    \}
 
-    fn announce(&self, announcement: &str) -> &str {
-        println!("Attention: {}", announcement);
+    fn announce(&self, announcement: &str) -> &str \{
+        println!("Attention: \{\}", announcement);
         self.text
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -91,47 +91,47 @@ Store heterogeneous objects behind a `Box<dyn Trait>` in a collection.
 **Hint:** `Box<dyn Trait>` is a fat pointer; each element can be a different concrete type.
 
 ```rust
-trait Shape {
+trait Shape \{
     fn area(&self) -> f64;
     fn describe(&self) -> String;
-}
+\}
 
-struct Circle {
+struct Circle \{
     radius: f64,
-}
+\}
 
-impl Shape for Circle {
-    fn area(&self) -> f64 {
+impl Shape for Circle \{
+    fn area(&self) -> f64 \{
         std::f64::consts::PI * self.radius * self.radius
-    }
-    fn describe(&self) -> String {
-        format!("Circle with radius {}", self.radius)
-    }
-}
+    \}
+    fn describe(&self) -> String \{
+        format!("Circle with radius \{\}", self.radius)
+    \}
+\}
 
-struct Rectangle {
+struct Rectangle \{
     width: f64,
     height: f64,
-}
+\}
 
-impl Shape for Rectangle {
-    fn area(&self) -> f64 {
+impl Shape for Rectangle \{
+    fn area(&self) -> f64 \{
         self.width * self.height
-    }
-    fn describe(&self) -> String {
-        format!("Rectangle {}x{}", self.width, self.height)
-    }
-}
+    \}
+    fn describe(&self) -> String \{
+        format!("Rectangle \{\}x\{\}", self.width, self.height)
+    \}
+\}
 
-fn create_shapes() -> Vec<Box<dyn Shape>> {
+fn create_shapes() -> Vec<Box<dyn Shape>> \{
     vec![
-        Box::new(Circle { radius: 5.0 }),
-        Box::new(Rectangle {
+        Box::new(Circle \{ radius: 5.0 \}),
+        Box::new(Rectangle \{
             width: 4.0,
             height: 6.0,
-        }),
+        \}),
     ]
-}
+\}
 ```
 
 ---
@@ -148,31 +148,31 @@ Use the `ouroboros` crate or manual unsafe code to build a self-referential stru
 use ouroboros::self_referencing;
 
 #[self_referencing]
-struct TextBuffer {
+struct TextBuffer \{
     data: String,
     #[borrows(data)]
     #[covariant]
     lines: Vec<&'this str>,
-}
+\}
 
-impl TextBuffer {
-    fn new(text: String) -> Self {
-        TextBufferBuilder {
+impl TextBuffer \{
+    fn new(text: String) -> Self \{
+        TextBufferBuilder \{
             data: text,
             lines_builder: |data: &str| data.lines().collect(),
-        }
+        \}
         .build()
-    }
+    \}
 
-    fn lines(&self) -> Vec<&str> {
+    fn lines(&self) -> Vec<&str> \{
         self.borrow_lines().clone()
-    }
-}
+    \}
+\}
 
-fn process_text(input: String) -> Vec<String> {
+fn process_text(input: String) -> Vec<String> \{
     let buffer = TextBuffer::new(input);
     buffer.lines().iter().map(|s| s.to_uppercase()).collect()
-}
+\}
 ```
 
 ---
@@ -186,46 +186,46 @@ Implement a fixed-size array wrapper that provides safe indexing with bounds che
 **Hint:** Use `unsafe` to access raw pointers but validate bounds before dereferencing.
 
 ```rust
-struct SafeArray<T, const N: usize> {
+struct SafeArray<T, const N: usize> \{
     data: [std::mem::MaybeUninit<T>; N],
     len: usize,
-}
+\}
 
-impl<T, const N: usize> SafeArray<T, N> {
-    fn new() -> Self {
-        SafeArray {
-            data: unsafe { std::mem::MaybeUninit::uninit().assume_init() },
+impl<T, const N: usize> SafeArray<T, N> \{
+    fn new() -> Self \{
+        SafeArray \{
+            data: unsafe \{ std::mem::MaybeUninit::uninit().assume_init() \},
             len: 0,
-        }
-    }
+        \}
+    \}
 
-    fn push(&mut self, value: T) -> Result<(), &'static str> {
-        if self.len >= N {
+    fn push(&mut self, value: T) -> Result<(), &'static str> \{
+        if self.len >= N \{
             return Err("array is full");
-        }
+        \}
         self.data[self.len] = std::mem::MaybeUninit::new(value);
         self.len += 1;
         Ok(())
-    }
+    \}
 
-    fn get(&self, index: usize) -> Option<&T> {
-        if index < self.len {
-            Some(unsafe { self.data[index].assume_init_ref() })
-        } else {
+    fn get(&self, index: usize) -> Option<&T> \{
+        if index < self.len \{
+            Some(unsafe \{ self.data[index].assume_init_ref() \})
+        \} else \{
             None
-        }
-    }
-}
+        \}
+    \}
+\}
 
-impl<T, const N: usize> Drop for SafeArray<T, N> {
-    fn drop(&mut self) {
-        for i in 0..self.len {
-            unsafe {
+impl<T, const N: usize> Drop for SafeArray<T, N> \{
+    fn drop(&mut self) \{
+        for i in 0..self.len \{
+            unsafe \{
                 self.data[i].assume_init_drop();
-            }
-        }
-    }
-}
+            \}
+        \}
+    \}
+\}
 ```
 
 ## Intuition

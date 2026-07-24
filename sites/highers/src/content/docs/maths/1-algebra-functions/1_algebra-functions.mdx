@@ -18,7 +18,7 @@ import DesmosGraph from "@components/DesmosGraph";
 
 ## Higher Algebra
 
-{/* prettier-ignore */}
+\{/* prettier-ignore */\}
 <DesmosGraph client:only="solid-js" title="Graph Transformations: y = af(x + b) + c" expressions={["af(x+b)+c", "f(x)=x^2"]} width={800} height={500}  />
 
 Adjust the parameters in the graph above to explore the relationships between variables.
@@ -98,7 +98,7 @@ Where the vertex is at $(p, q)$. The axis of symmetry is the vertical line $x = 
 **Derivation.** Starting from $ax^2 + bx + c$:
 
 $$
-Ax^2 + bx + c = a\!\left(x^2 + \frac{b}{a}x\right) + c = a\!\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a} + c
+Ax^2 + bx + c = a\!\left(x^2 + \frac\{b\}\{a\}x\right) + c = a\!\left(x + \frac\{b\}\{2a\}\right)^2 - \frac\{b^2\}\{4a\} + c
 $$
 
 So $p = -\frac{b}{2a}$ and $q = c - \frac{b^2}{4a}$.
@@ -155,7 +155,7 @@ $$\log_a a = 1, \quad \log_a 1 = 0$$
 **Change of Base:**
 
 $$
-\log_a b = \frac{\log_c b}{\log_c a}
+\log_a b = \frac\{\log_c b\}\{\log_c a\}
 $$
 
 **Proof of change of base.** Let $y = \log_a b$So $a^y = b$. Taking $\log_c$ of both sides:
@@ -168,7 +168,7 @@ $$2x - 1 = \log_3 7 = \frac{\ln 7}{\ln 3}$$
 $$2x = 1 + \frac{\ln 7}{\ln 3}$$
 
 $$
-X = \frac{1}{2}\left(1 + \frac{\ln 7}{\ln 3}\right) \approx 1.389
+X = \frac\{1\}\{2\}\left(1 + \frac\{\ln 7\}\{\ln 3\}\right) \approx 1.389
 $$
 
 **Example:** Solve $\log_2(x + 3) + \log_2(x - 1) = 4$.
@@ -194,17 +194,17 @@ Where $N_0$ is the initial quantity and $k$ is the growth ($k > 0$) or decay ($k
 **Half-life:** For decay with half-life $t_{1/2}$:
 
 $$
-T_{1/2} = \frac{\ln 2}{|k|}
+T_\{1/2\} = \frac\{\ln 2\}\{|k|\}
 $$
 
 **Proof of the half-life formula.** Set $N(t_{1/2}) = \frac{N_0}{2}$:
 
 $$
-\frac{N_0}{2} = N_0 e^{kt_{1/2}} \implies \frac{1}{2} = e^{kt_{1/2}} \implies \ln\!\left(\frac{1}{2}\right) = kt_{1/2}
+\frac\{N_0\}\{2\} = N_0 e^\{kt_\{1/2\}\} \implies \frac\{1\}\{2\} = e^\{kt_\{1/2\}\} \implies \ln\!\left(\frac\{1\}\{2\}\right) = kt_\{1/2\}
 $$
 
 $$
--\ln 2 = kt_{1/2} \implies t_{1/2} = \frac{-\ln 2}{k} = \frac{\ln 2}{|k|}
+-\ln 2 = kt_\{1/2\} \implies t_\{1/2\} = \frac\{-\ln 2\}\{k\} = \frac\{\ln 2\}\{|k|\}
 $$
 
 $\blacksquare$
@@ -213,11 +213,11 @@ $\blacksquare$
 G, how much remains after 25 days?
 
 $$
-K = \frac{\ln 2}{8} \approx 0.0866
+K = \frac\{\ln 2\}\{8\} \approx 0.0866
 $$
 
 $$
-N(25) = 200e^{-0.0866 \times 25} = 200e^{-2.165} \approx 200 \times 0.1147 \approx 22.9 \mathrm{ g
+N(25) = 200e^\{-0.0866 \times 25\} = 200e^\{-2.165\} \approx 200 \times 0.1147 \approx 22.9 \mathrm\{ g
 $$
 
 ### Polynomials
@@ -225,7 +225,7 @@ $$
 A polynomial of degree $n$ has the form:
 
 $$
-P(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0
+P(x) = a_n x^n + a_\{n-1\} x^\{n-1\} + \cdots + a_1 x + a_0
 $$
 
 **Factor Theorem:**
@@ -313,7 +313,7 @@ The **derivative** of $f(x)$ measures the instantaneous rate of change of $f$ wi
 Geometrically, it gives the gradient of the tangent to the curve $y = f(x)$.
 
 $$
-F'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
+F'(x) = \lim_\{h \to 0\} \frac\{f(x + h) - f(x)\}\{h\}
 $$
 
 **Standard Derivatives:**
@@ -339,17 +339,17 @@ Chain Rule: If $y = f(g(x))$Then $\dfrac{dy}{dx} = f'(g(x)) \cdot g'(x)$
 **Proof of the product rule.** Define $u(x) = f(x)g(x)$. Then:
 
 $$
-U'(x) = \lim_{h \to 0} \frac{f(x+h)g(x+h) - f(x)g(x)}{h}
+U'(x) = \lim_\{h \to 0\} \frac\{f(x+h)g(x+h) - f(x)g(x)\}\{h\}
 $$
 
 Add and subtract $f(x)g(x+h)$ in the numerator:
 
 $$
-= \lim_{h \to 0} \frac{f(x+h)g(x+h) - f(x)g(x+h) + f(x)g(x+h) - f(x)g(x)}{h}
+= \lim_\{h \to 0\} \frac\{f(x+h)g(x+h) - f(x)g(x+h) + f(x)g(x+h) - f(x)g(x)\}\{h\}
 $$
 
 $$
-= \lim_{h \to 0} \left[g(x+h) \cdot \frac{f(x+h) - f(x)}{h} + f(x) \cdot \frac{g(x+h) - g(x)}{h}\right]
+= \lim_\{h \to 0\} \left[g(x+h) \cdot \frac\{f(x+h) - f(x)\}\{h\} + f(x) \cdot \frac\{g(x+h) - g(x)\}\{h\}\right]
 $$
 
 $$
@@ -377,7 +377,7 @@ Let $u = e^{2x}$, $v = x + 1$.
 $u' = 2e^{2x}$, $v' = 1$.
 
 $$
-F'(x) = \frac{2e^{2x}(x + 1) - e^{2x}}{(x + 1)^2} = \frac{e^{2x}(2x + 2 - 1)}{(x + 1)^2} = \frac{e^{2x}(2x + 1)}{(x + 1)^2}
+F'(x) = \frac\{2e^\{2x\}(x + 1) - e^\{2x\}\}\{(x + 1)^2\} = \frac\{e^\{2x\}(2x + 2 - 1)\}\{(x + 1)^2\} = \frac\{e^\{2x\}(2x + 1)\}\{(x + 1)^2\}
 $$
 
 **Example:** Differentiate $f(x) = \dfrac{x^2 + 1}{e^{3x}}$.
@@ -387,7 +387,7 @@ Let $u = x^2 + 1$, $v = e^{3x}$.
 $u' = 2x$, $v' = 3e^{3x}$.
 
 $$
-F'(x) = \frac{2x \cdot e^{3x} - (x^2 + 1) \cdot 3e^{3x}}{e^{6x}} = \frac{e^{3x}(2x - 3x^2 - 3)}{e^{6x}} = \frac{2x - 3x^2 - 3}{e^{3x}}
+F'(x) = \frac\{2x \cdot e^\{3x\} - (x^2 + 1) \cdot 3e^\{3x\}\}\{e^\{6x\}\} = \frac\{e^\{3x\}(2x - 3x^2 - 3)\}\{e^\{6x\}\} = \frac\{2x - 3x^2 - 3\}\{e^\{3x\}\}
 $$
 
 Setting $f'(x) = 0$: $2x - 3x^2 - 3 = 0$I.e., $3x^2 - 2x + 3 = 0$. Since
@@ -466,13 +466,13 @@ Volume: $x^2 h = 128$So $h = \dfrac{128}{x^2}$.
 Cost: $C = 5x^2 + 4 \times 3xh = 5x^2 + 12x \cdot \dfrac{128}{x^2} = 5x^2 + \dfrac{1536}{x}$.
 
 $$
-\frac{dC}{dx} = 10x - \frac{1536}{x^2}
+\frac\{dC\}\{dx\} = 10x - \frac\{1536\}\{x^2\}
 $$
 
 Setting $\dfrac{dC}{dx} = 0$:
 
 $$
-10x = \frac{1536}{x^2}
+10x = \frac\{1536\}\{x^2\}
 $$
 
 $$
@@ -484,11 +484,11 @@ X^3 = 153.6
 $$
 
 $$
-X = \sqrt[3]{153.6} \approx 5.35 \mathrm{ cm
+X = \sqrt[3]\{153.6\} \approx 5.35 \mathrm\{ cm
 $$
 
 $$
-H = \frac{128}{5.35^2} \approx 4.47 \mathrm{ cm
+H = \frac\{128\}\{5.35^2\} \approx 4.47 \mathrm\{ cm
 $$
 
 **Verification:** $\frac{d^2C}{dx^2} = 10 + \frac{3072}{x^3} > 0$ for all $x > 0$Confirming a
@@ -504,15 +504,15 @@ Volume: $\pi r^2 h = 500$So $h = \dfrac{500}{\pi r^2}$.
 Surface area: $S = 2\pi r^2 + 2\pi rh = 2\pi r^2 + \frac{1000}{r}$.
 
 $$
-\frac{dS}{dr} = 4\pi r - \frac{1000}{r^2} = 0
+\frac\{dS\}\{dr\} = 4\pi r - \frac\{1000\}\{r^2\} = 0
 $$
 
 $$
-4\pi r^3 = 1000 \implies r^3 = \frac{250}{\pi} \implies r = \sqrt[3]{\frac{250}{\pi}} \approx 4.30 \mathrm{ cm
+4\pi r^3 = 1000 \implies r^3 = \frac\{250\}\{\pi\} \implies r = \sqrt[3]\{\frac\{250\}\{\pi\}\} \approx 4.30 \mathrm\{ cm
 $$
 
 $$
-H = \frac{500}{\pi \times 4.30^2} \approx 8.60 \mathrm{ cm
+H = \frac\{500\}\{\pi \times 4.30^2\} \approx 8.60 \mathrm\{ cm
 $$
 
 Note that $h = 2r$So the optimal can has height equal to diameter.
@@ -523,11 +523,11 @@ $\frac{d^2S}{dr^2} = 4\pi + \frac{2000}{r^3} > 0$Confirming a minimum.
 Integration is the reverse of differentiation.
 
 $$
-\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)
+\int x^n \, dx = \frac\{x^\{n+1\}\}\{n+1\} + C \quad (n \neq -1)
 $$
 
 $$
-\int e^{kx} \, dx = \frac{e^{kx}}{k} + C
+\int e^\{kx\} \, dx = \frac\{e^\{kx\}\}\{k\} + C
 $$
 
 **Definite Integration:**
@@ -566,15 +566,15 @@ A = \int_1^3 |x^2 - 4x + 3| \, dx = \int_1^3 (4x - x^2 - 3) \, dx
 $$
 
 $$
-= \left[2x^2 - \frac{x^3}{3} - 3x\right]_1^3
+= \left[2x^2 - \frac\{x^3\}\{3\} - 3x\right]_1^3
 $$
 
 $$
-= \left(18 - 9 - 9\right) - \left(2 - \frac{1}{3} - 3\right)
+= \left(18 - 9 - 9\right) - \left(2 - \frac\{1\}\{3\} - 3\right)
 $$
 
 $$
-= 0 - \left(-\frac{4}{3}\right) = \frac{4}{3}
+= 0 - \left(-\frac\{4\}\{3\}\right) = \frac\{4\}\{3\}
 $$
 
 ### Area Between Curves
@@ -592,7 +592,7 @@ Find intersections: $x^2 = 2x$So $x^2 - 2x = 0$Giving $x = 0$ and $x = 2$.
 Between $x = 0$ and $x = 2$, $2x > x^2$.
 
 $$
-A = \int_0^2 (2x - x^2) \, dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}
+A = \int_0^2 (2x - x^2) \, dx = \left[x^2 - \frac\{x^3\}\{3\}\right]_0^2 = 4 - \frac\{8\}\{3\} = \frac\{4\}\{3\}
 $$
 
 **Example:** Find the area enclosed by the curves $y = x^3$ and $y = x$.
@@ -605,13 +605,13 @@ And $x = 1$: $x^3 \ge x$.
 By symmetry of the two regions:
 
 $$
-A = 2\int_0^1 (x^3 - x)\, dx = 2\left[\frac{x^4}{4} - \frac{x^2}{2}\right]_0^1 = 2\!\left(\frac{1}{4} - \frac{1}{2}\right) = 2\!\left(-\frac{1}{4}\right) = \frac{1}{2}
+A = 2\int_0^1 (x^3 - x)\, dx = 2\left[\frac\{x^4\}\{4\} - \frac\{x^2\}\{2\}\right]_0^1 = 2\!\left(\frac\{1\}\{4\} - \frac\{1\}\{2\}\right) = 2\!\left(-\frac\{1\}\{4\}\right) = \frac\{1\}\{2\}
 $$
 
 ### Integration by Substitution (Advanced Higher)
 
 $$
-\int f(g(x))g'(x) \, dx = \int f(u) \, du \quad \mathrm{where  u = g(x)
+\int f(g(x))g'(x) \, dx = \int f(u) \, du \quad \mathrm\{where  u = g(x)
 $$
 
 **Example:** Evaluate $\int 2x\sqrt{x^2 + 1} \, dx$.
@@ -619,7 +619,7 @@ $$
 Let $u = x^2 + 1$So $du = 2x\,dx$.
 
 $$
-\int \sqrt{u}\, du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2 + 1)^{3/2} + C
+\int \sqrt\{u\}\, du = \frac\{2\}\{3\}u^\{3/2\} + C = \frac\{2\}\{3\}(x^2 + 1)^\{3/2\} + C
 $$
 
 **Example:** Evaluate $\int_0^2 \frac{x}{x^2 + 1}\,dx$.
@@ -627,7 +627,7 @@ $$
 Let $u = x^2 + 1$$du = 2x\,dx$. When $x = 0$$u = 1$. When $x = 2$$u = 5$.
 
 $$
-\int_0^2 \frac{x}{x^2 + 1}\,dx = \frac{1}{2}\int_1^5 \frac{1}{u}\,du = \frac{1}{2}\left[\ln u\right]_1^5 = \frac{1}{2}\ln 5
+\int_0^2 \frac\{x\}\{x^2 + 1\}\,dx = \frac\{1\}\{2\}\int_1^5 \frac\{1\}\{u\}\,du = \frac\{1\}\{2\}\left[\ln u\right]_1^5 = \frac\{1\}\{2\}\ln 5
 $$
 
 ### Integration by Parts (Advanced Higher)
@@ -653,7 +653,7 @@ A first-order differential equation relates a function to its first derivative.
 **Separable equations.** If $\dfrac{dy}{dx} = f(x)g(y)$Separate the variables:
 
 $$
-\frac{1}{g(y)}\,dy = f(x)\,dx
+\frac\{1\}\{g(y)\}\,dy = f(x)\,dx
 $$
 
 Integrate both sides.

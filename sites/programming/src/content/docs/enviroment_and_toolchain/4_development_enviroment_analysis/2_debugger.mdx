@@ -232,11 +232,11 @@ Ships with pretty printers for standard containers:
 ```bash
 # Without pretty printers:
 (gdb) print vec
-$1 = {<std::vector<int, std::allocator<int> >> = {_M_start = 0x55..., _M_finish = 0x55..., _M_end_of_storage = 0x55...}, <No data fields>}
+$1 = \{<std::vector<int, std::allocator<int> >> = \{_M_start = 0x55..., _M_finish = 0x55..., _M_end_of_storage = 0x55...\}, <No data fields>\}
 
 # With pretty printers (enabled by default in modern GDB):
 (gdb) print vec
-$1 = std::vector of length 3, capacity 4 = {10, 20, 30}
+$1 = std::vector of length 3, capacity 4 = \{10, 20, 30\}
 ```
 
 To enable pretty printers for custom types, create a Python script and load it:
@@ -250,7 +250,7 @@ class MyStructPrinter:
         self.val = val
 
     def to_string(self):
-        return f"MyStruct(x={self.val['x_']}, y={self.val['y_']})"
+        return f"MyStruct(x=\{self.val['x_']\}, y=\{self.val['y_']\})"
 
 def my_lookup(val):
     typename = str(val.type.strip_typedefs())
@@ -350,28 +350,28 @@ This file resides in `.vscode/launch.json`. It supports two request types:
 Recommended for Linux/macOS and MinGW-Clang.
 
 ```json
-{
+\{
   "version": "0.2.0",
   "configurations": [
-    {
+    \{
       "name": "Launch (LLDB)",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/build/app",
+      "program": "$\{workspaceFolder\}/build/app",
       "args": [],
-      "cwd": "${workspaceFolder}",
-      "sourceMap": {
-        "/build/agent/work": "${workspaceFolder}"
-      }
-    },
-    {
+      "cwd": "$\{workspaceFolder\}",
+      "sourceMap": \{
+        "/build/agent/work": "$\{workspaceFolder\}"
+      \}
+    \},
+    \{
       "name": "Attach (LLDB)",
       "type": "lldb",
       "request": "attach",
-      "pid": "${command:pickProcess}"
-    }
+      "pid": "$\{command:pickProcess\}"
+    \}
   ]
-}
+\}
 ```
 
 ### Configuration: MSVC (via C/C++ Extension)
@@ -379,18 +379,18 @@ Recommended for Linux/macOS and MinGW-Clang.
 Recommended for Windows MSVC builds.
 
 ```json
-{
+\{
   "version": "0.2.0",
   "configurations": [
-    {
+    \{
       "name": "Launch (MSVC)",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/Debug/app.exe",
-      "symbolSearchPath": "C:\\Symbols;${workspaceFolder}\\build\\Debug"
-    }
+      "program": "$\{workspaceFolder\}/build/Debug/app.exe",
+      "symbolSearchPath": "C:\\Symbols;$\{workspaceFolder\}\\build\\Debug"
+    \}
   ]
-}
+\}
 ```
 
 ## Post-Mortem Debugging with Core Dumps

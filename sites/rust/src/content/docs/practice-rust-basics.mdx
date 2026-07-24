@@ -23,23 +23,23 @@ an answer, submit, and review the explanation.
 ### Example 1: Ownership and Move Semantics
 
 ```rust
-fn main() {
+fn main() \{
     // String is heap-allocated, ownership moves
     let s1 = String::from("hello");
     let s2 = s1;  // s1 is moved to s2
-    // println!("{}", s1);  // ERROR: value used here after move
-    println!("{}", s2);  // OK: s2 owns the string
+    // println!("\{\}", s1);  // ERROR: value used here after move
+    println!("\{\}", s2);  // OK: s2 owns the string
 
     // Clone creates a deep copy
     let s3 = String::from("world");
     let s4 = s3.clone();  // s3 is not moved, both valid
-    println!("s3={}, s4={}", s3, s4);
+    println!("s3=\{\}, s4=\{\}", s3, s4);
 
     // i32 implements Copy, so it's copied, not moved
     let x = 42;
     let y = x;  // x is copied, not moved
-    println!("x={}, y={}", x, y);  // Both valid
-}
+    println!("x=\{\}, y=\{\}", x, y);  // Both valid
+\}
 ```
 
 **Output:**
@@ -58,37 +58,37 @@ x=42, y=42
 
 ```rust
 // Immutable references: many allowed
-fn calculate_length(s: &String) -> usize {
+fn calculate_length(s: &String) -> usize \{
     s.len()
-}
+\}
 
 // Mutable reference: only one at a time
-fn append_world(s: &mut String) {
+fn append_world(s: &mut String) \{
     s.push_str(" world");
-}
+\}
 
-fn main() {
+fn main() \{
     let mut s = String::from("hello");
 
     // Multiple immutable references are fine
     let len1 = calculate_length(&s);
     let len2 = calculate_length(&s);
-    println!("Length: {}, {}", len1, len2);
+    println!("Length: \{\}, \{\}", len1, len2);
 
     // One mutable reference
     append_world(&mut s);
-    println!("Modified: {}", s);
+    println!("Modified: \{\}", s);
 
     // Cannot have both immutable and mutable at the same time
     let r1 = &s;
     let r2 = &s;
     // let r3 = &mut s;  // ERROR: cannot borrow as mutable
-    println!("r1={}, r2={}", r1, r2);
+    println!("r1=\{\}, r2=\{\}", r1, r2);
     // r1 and r2 are no longer used after this point
     let r3 = &mut s;  // OK: r1 and r2 are not used
     r3.push_str("!");
-    println!("Final: {}", s);
-}
+    println!("Final: \{\}", s);
+\}
 ```
 
 **Output:**
@@ -107,47 +107,47 @@ Final: hello world!
 ### Example 3: Option and Pattern Matching
 
 ```rust
-fn find_user(id: u32) -> Option<String> {
-    match id {
+fn find_user(id: u32) -> Option<String> \{
+    match id \{
         1 => Some(String::from("Alice")),
         2 => Some(String::from("Bob")),
         _ => None,
-    }
-}
+    \}
+\}
 
-fn main() {
+fn main() \{
     // Pattern matching with if let
-    if let Some(name) = find_user(1) {
-        println!("Found user: {}", name);
-    }
+    if let Some(name) = find_user(1) \{
+        println!("Found user: \{\}", name);
+    \}
 
     // match expression
-    match find_user(42) {
-        Some(name) => println!("User: {}", name),
+    match find_user(42) \{
+        Some(name) => println!("User: \{\}", name),
         None => println!("User not found"),
-    }
+    \}
 
     // unwrap_or for default values
     let name = find_user(99).unwrap_or(String::from("Anonymous"));
-    println!("Name: {}", name);
+    println!("Name: \{\}", name);
 
     // map and and_then combinators
     let greeting = find_user(1)
-        .map(|name| format!("Hello, {}!", name))
+        .map(|name| format!("Hello, \{\}!", name))
         .unwrap_or(String::from("Hello, stranger!"));
-    println!("{}", greeting);
+    println!("\{\}", greeting);
 
     // The ? operator in functions returning Option
-    fn get_first_char(s: &str) -> Option<char> {
+    fn get_first_char(s: &str) -> Option<char> \{
         let first = find_user(1)?;  // Returns None if find_user returns None
         Some(first.chars().next()?)
-    }
+    \}
 
-    match get_first_char("test") {
-        Some(c) => println!("First char: {}", c),
+    match get_first_char("test") \{
+        Some(c) => println!("First char: \{\}", c),
         None => println!("No character"),
-    }
-}
+    \}
+\}
 ```
 
 **Output:**
@@ -167,52 +167,52 @@ First char: A
 ### Example 4: Traits and Generics
 
 ```rust
-use std::fmt::{Display, Debug};
+use std::fmt::\{Display, Debug\};
 
 // Define a trait
-trait Summary {
+trait Summary \{
     fn summarize(&self) -> String;
 
     // Default implementation
-    fn preview(&self) -> String {
-        format!("{}...", &self.summarize()[..20])
-    }
-}
+    fn preview(&self) -> String \{
+        format!("\{\}...", &self.summarize()[..20])
+    \}
+\}
 
 // Implement trait for a struct
-struct Article {
+struct Article \{
     title: String,
     content: String,
-}
+\}
 
-impl Summary for Article {
-    fn summarize(&self) -> String {
-        format!("{}: {}", self.title, self.content)
-    }
-}
+impl Summary for Article \{
+    fn summarize(&self) -> String \{
+        format!("\{\}: \{\}", self.title, self.content)
+    \}
+\}
 
 // Generic function with trait bounds
-fn notify(item: &impl Summary) {
-    println!("Breaking news: {}", item.summarize());
-}
+fn notify(item: &impl Summary) \{
+    println!("Breaking news: \{\}", item.summarize());
+\}
 
 // Multiple trait bounds
-fn display_and_summarize(item: &(impl Summary + Display)) {
-    println!("Display: {}", item);
-    println!("Summary: {}", item.summarize());
-}
+fn display_and_summarize(item: &(impl Summary + Display)) \{
+    println!("Display: \{\}", item);
+    println!("Summary: \{\}", item.summarize());
+\}
 
-fn main() {
-    let article = Article {
+fn main() \{
+    let article = Article \{
         title: String::from("Rust Ownership"),
         content: String::from("Ownership prevents memory leaks..."),
-    };
+    \};
 
     notify(&article);
 
     // Use the default implementation
-    println!("Preview: {}", article.preview());
-}
+    println!("Preview: \{\}", article.preview());
+\}
 ```
 
 **Output:**

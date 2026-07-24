@@ -98,10 +98,10 @@ $$\frac{d}{dx}(uv) = u\frac{dv}{dx} + v\frac{du}{dx}$$
 Let $F(x) = f(x)g(x)$. Then:
 
 $$
-\begin{aligned}
-F'(x) &= \lim_{h\to 0}\frac{F(x+h)-F(x)}{h} \\
-&= \lim_{h\to 0}\frac{f(x+h)g(x+h) - f(x)g(x)}{h}
-\end{aligned}
+\begin\{aligned\}
+F'(x) &= \lim_\{h\to 0\}\frac\{F(x+h)-F(x)\}\{h\} \\
+&= \lim_\{h\to 0\}\frac\{f(x+h)g(x+h) - f(x)g(x)\}\{h\}
+\end\{aligned\}
 $$
 
 We add and subtract $f(x+h)g(x)$:
@@ -177,11 +177,11 @@ two gear ratios.
 $\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$:
 
 $$
-\begin{aligned}
-\frac{d}{dx}\sin x &= \lim_{h\to 0}\frac{\sin(x+h) - \sin x}{h} \\
-&= \lim_{h\to 0}\frac{\sin x\cos h + \cos x\sin h - \sin x}{h} \\
-&= \lim_{h\to 0}\left[\sin x \cdot \frac{\cos h - 1}{h} + \cos x \cdot \frac{\sin h}{h}\right]
-\end{aligned}
+\begin\{aligned\}
+\frac\{d\}\{dx\}\sin x &= \lim_\{h\to 0\}\frac\{\sin(x+h) - \sin x\}\{h\} \\
+&= \lim_\{h\to 0\}\frac\{\sin x\cos h + \cos x\sin h - \sin x\}\{h\} \\
+&= \lim_\{h\to 0\}\left[\sin x \cdot \frac\{\cos h - 1\}\{h\} + \cos x \cdot \frac\{\sin h\}\{h\}\right]
+\end\{aligned\}
 $$
 
 Using the standard limits $\displaystyle\lim_{h\to 0}\frac{\sin h}{h} = 1$ and
@@ -264,7 +264,7 @@ $$f(x) - f(a) \approx \frac{f''(a)}{2}(x-a)^2$$
 
 (checking the sign Of $f'$ on either side) if the second derivative test is inconclusive.
 </aside>
-{/* prettier-ignore */}
+\{/* prettier-ignore */\}
 <DesmosGraph client:only="solid-js" title="Function, Derivative, and Tangent Line" expressions={["f(x)=x^3-6x^2+9x+1", "f'(x)=3x^2-12x+9"]} width={800} height={500} /> Observe how the Derivative relates to the gradient
 of the tangent line. Move the point along the curve to see how The tangent changes slope, and note
 where the derivative is zero at stationary points. <hr />

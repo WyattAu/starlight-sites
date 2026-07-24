@@ -15,7 +15,7 @@ sidebar_position: 50
 
 ### Normalization
 
-**Question 1.** A relation R(A, B, C) has functional dependencies {A -> B, B -> C}. Which normal form does R violate?
+**Question 1.** A relation R(A, B, C) has functional dependencies \{A -> B, B -> C\}. Which normal form does R violate?
 
 (A) 1NF
 (B) 2NF
@@ -24,7 +24,7 @@ sidebar_position: 50
 
 **Correct Answer:** (C)
 
-**Explanation:** The candidate key is A (since A+ = {A, B, C}). The dependency B -> C is a transitive dependency (A -> B -> C) where B is not a superkey. This violates 3NF, which prohibits transitive dependencies of non-prime attributes on candidate keys. R is in 2NF because there are no partial dependencies (the only candidate key is a single attribute).
+**Explanation:** The candidate key is A (since A+ = \{A, B, C\}). The dependency B -> C is a transitive dependency (A -> B -> C) where B is not a superkey. This violates 3NF, which prohibits transitive dependencies of non-prime attributes on candidate keys. R is in 2NF because there are no partial dependencies (the only candidate key is a single attribute).
 
 ---
 
@@ -43,7 +43,7 @@ sidebar_position: 50
 ---
 
 
-**Question 3.** Consider R(A, B, C, D) with functional dependencies {AB -> C, C -> D}. What is the candidate key?
+**Question 3.** Consider R(A, B, C, D) with functional dependencies \{AB -> C, C -> D\}. What is the candidate key?
 
 (A) AB
 (B) AC
@@ -52,7 +52,7 @@ sidebar_position: 50
 
 **Correct Answer:** (A)
 
-**Explanation:** AB+ = {A, B, C, D} since AB -> C (so C is included) and C -> D (so D is included). No proper subset of AB determines all attributes: A+ = {A}, B+ = {B}. Since AB determines all attributes and no proper subset does, AB is the only candidate key.
+**Explanation:** AB+ = \{A, B, C, D\} since AB -> C (so C is included) and C -> D (so D is included). No proper subset of AB determines all attributes: A+ = \{A\}, B+ = \{B\}. Since AB determines all attributes and no proper subset does, AB is the only candidate key.
 
 ---
 

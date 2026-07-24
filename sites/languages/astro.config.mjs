@@ -112,7 +112,7 @@ export default defineConfig({
       ],
       customCss: ['./src/styles/custom.css'],
     }),
-    mdx(),
+    mdx({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }),
     solidJs(),
     sitemap(),
     compress(),

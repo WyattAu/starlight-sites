@@ -16,30 +16,30 @@ Implement a thread-safe singleton in TypeScript using a private constructor and 
 **Hint:** Use a static `getInstance` method and a private constructor.
 
 ```typescript
-class Database {
+class Database \{
   private static instance: Database;
   private connected: boolean = false;
 
-  private constructor() {}
+  private constructor() \{\}
 
-  static getInstance(): Database {
-    if (!Database.instance) {
+  static getInstance(): Database \{
+    if (!Database.instance) \{
       Database.instance = new Database();
-    }
+    \}
     return Database.instance;
-  }
+  \}
 
-  connect(): void {
-    if (!this.connected) {
+  connect(): void \{
+    if (!this.connected) \{
       this.connected = true;
       console.log("database connected");
-    }
-  }
+    \}
+  \}
 
-  isConnected(): boolean {
+  isConnected(): boolean \{
     return this.connected;
-  }
-}
+  \}
+\}
 
 const db1 = Database.getInstance();
 const db2 = Database.getInstance();
@@ -59,39 +59,39 @@ Implement an Observer pattern with typed subscriptions and notification.
 ```typescript
 type Listener<T> = (data: T) => void;
 
-class EventBus<Events extends Record<string, unknown>> {
-  private listeners: {
+class EventBus<Events extends Record<string, unknown>> \{
+  private listeners: \{
     [K in keyof Events]?: Set<Listener<Events[K]>>;
-  } = {};
+  \} = \{\};
 
-  on<K extends keyof Events>(event: K, listener: Listener<Events[K]>): () => void {
-    if (!this.listeners[event]) {
+  on<K extends keyof Events>(event: K, listener: Listener<Events[K]>): () => void \{
+    if (!this.listeners[event]) \{
       this.listeners[event] = new Set();
-    }
+    \}
     this.listeners[event]!.add(listener);
 
-    return () => {
+    return () => \{
       this.listeners[event]?.delete(listener);
-    };
-  }
+    \};
+  \}
 
-  emit<K extends keyof Events>(event: K, data: Events[K]): void {
+  emit<K extends keyof Events>(event: K, data: Events[K]): void \{
     this.listeners[event]?.forEach((fn) => fn(data));
-  }
-}
+  \}
+\}
 
-interface SystemEvents {
-  userCreated: { id: string; name: string };
-  userDeleted: { id: string };
-}
+interface SystemEvents \{
+  userCreated: \{ id: string; name: string \};
+  userDeleted: \{ id: string \};
+\}
 
 const bus = new EventBus<SystemEvents>();
 
-const unsub = bus.on("userCreated", (data) => {
+const unsub = bus.on("userCreated", (data) => \{
   console.log(`created user ${data.id}`);
-});
+\});
 
-bus.emit("userCreated", { id: "1", name: "Alice" });
+bus.emit("userCreated", \{ id: "1", name: "Alice" \});
 unsub();
 ```
 
@@ -106,49 +106,49 @@ Implement a Strategy pattern where sorting algorithms can be swapped at runtime.
 **Hint:** Define a strategy interface and inject the algorithm into the context.
 
 ```typescript
-interface SortStrategy<T> {
+interface SortStrategy<T> \{
   sort(data: T[]): T[];
-}
+\}
 
-class BubbleSort<T> implements SortStrategy<T> {
-  sort(data: T[]): T[] {
+class BubbleSort<T> implements SortStrategy<T> \{
+  sort(data: T[]): T[] \{
     const arr = [...data];
-    for (let i = 0; i < arr.length; i++) {
-      for (let j = 0; j < arr.length - i - 1; j++) {
-        if (arr[j] > arr[j + 1]) {
+    for (let i = 0; i < arr.length; i++) \{
+      for (let j = 0; j < arr.length - i - 1; j++) \{
+        if (arr[j] > arr[j + 1]) \{
           [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
-        }
-      }
-    }
+        \}
+      \}
+    \}
     return arr;
-  }
-}
+  \}
+\}
 
-class QuickSort<T> implements SortStrategy<T> {
-  sort(data: T[]): T[] {
+class QuickSort<T> implements SortStrategy<T> \{
+  sort(data: T[]): T[] \{
     if (data.length <= 1) return [...data];
     const pivot = data[0];
     const left = data.slice(1).filter((x) => x <= pivot);
     const right = data.slice(1).filter((x) => x > pivot);
     return [...this.sort(left), pivot, ...this.sort(right)];
-  }
-}
+  \}
+\}
 
-class Sorter<T> {
+class Sorter<T> \{
   private strategy: SortStrategy<T>;
 
-  constructor(strategy: SortStrategy<T>) {
+  constructor(strategy: SortStrategy<T>) \{
     this.strategy = strategy;
-  }
+  \}
 
-  setStrategy(strategy: SortStrategy<T>): void {
+  setStrategy(strategy: SortStrategy<T>): void \{
     this.strategy = strategy;
-  }
+  \}
 
-  sort(data: T[]): T[] {
+  sort(data: T[]): T[] \{
     return this.strategy.sort(data);
-  }
-}
+  \}
+\}
 ```
 
 ---
@@ -162,37 +162,37 @@ Implement function decorators for logging and timing in TypeScript.
 **Hint:** Use higher-order functions that wrap the original function.
 
 ```typescript
-function logged<T extends (...args: any[]) => any>(fn: T): T {
-  return ((...args: any[]) => {
+function logged<T extends (...args: any[]) => any>(fn: T): T \{
+  return ((...args: any[]) => \{
     console.log(`calling ${fn.name} with`, args);
     const result = fn(...args);
     console.log(`${fn.name} returned`, result);
     return result;
-  }) as T;
-}
+  \}) as T;
+\}
 
-function timed<T extends (...args: any[]) => any>(fn: T): T {
-  return ((...args: any[]) => {
+function timed<T extends (...args: any[]) => any>(fn: T): T \{
+  return ((...args: any[]) => \{
     const start = performance.now();
     const result = fn(...args);
     const duration = performance.now() - start;
     console.log(`${fn.name} took ${duration.toFixed(2)}ms`);
     return result;
-  }) as T;
-}
+  \}) as T;
+\}
 
-function memoize<T extends (...args: any[]) => any>(fn: T): T {
+function memoize<T extends (...args: any[]) => any>(fn: T): T \{
   const cache = new Map<string, any>();
-  return ((...args: any[]) => {
+  return ((...args: any[]) => \{
     const key = JSON.stringify(args);
-    if (cache.has(key)) {
+    if (cache.has(key)) \{
       return cache.get(key);
-    }
+    \}
     const result = fn(...args);
     cache.set(key, result);
     return result;
-  }) as T;
-}
+  \}) as T;
+\}
 
 const add = logged(
   timed((a: number, b: number) => a + b)
@@ -215,55 +215,55 @@ Implement a Factory pattern that creates different notification senders based on
 **Hint:** Define a common interface and a factory that returns the correct implementation.
 
 ```typescript
-interface NotificationSender {
+interface NotificationSender \{
   send(to: string, message: string): Promise<boolean>;
-}
+\}
 
-class EmailSender implements NotificationSender {
-  async send(to: string, message: string): Promise<boolean> {
+class EmailSender implements NotificationSender \{
+  async send(to: string, message: string): Promise<boolean> \{
     console.log(`email to ${to}: ${message}`);
     return true;
-  }
-}
+  \}
+\}
 
-class SmsSender implements NotificationSender {
-  async send(to: string, message: string): Promise<boolean> {
+class SmsSender implements NotificationSender \{
+  async send(to: string, message: string): Promise<boolean> \{
     console.log(`sms to ${to}: ${message}`);
     return true;
-  }
-}
+  \}
+\}
 
-class PushSender implements NotificationSender {
-  async send(to: string, message: string): Promise<boolean> {
+class PushSender implements NotificationSender \{
+  async send(to: string, message: string): Promise<boolean> \{
     console.log(`push to ${to}: ${message}`);
     return true;
-  }
-}
+  \}
+\}
 
 type SenderType = "email" | "sms" | "push";
 
-class NotificationFactory {
-  private static senders: Record<SenderType, () => NotificationSender> = {
+class NotificationFactory \{
+  private static senders: Record<SenderType, () => NotificationSender> = \{
     email: () => new EmailSender(),
     sms: () => new SmsSender(),
     push: () => new PushSender(),
-  };
+  \};
 
-  static create(type: SenderType): NotificationSender {
+  static create(type: SenderType): NotificationSender \{
     const factory = this.senders[type];
-    if (!factory) {
+    if (!factory) \{
       throw new Error(`unknown sender type: ${type}`);
-    }
+    \}
     return factory();
-  }
-}
+  \}
+\}
 
-class NotificationService {
-  async notify(type: SenderType, to: string, message: string): Promise<boolean> {
+class NotificationService \{
+  async notify(type: SenderType, to: string, message: string): Promise<boolean> \{
     const sender = NotificationFactory.create(type);
     return sender.send(to, message);
-  }
-}
+  \}
+\}
 ```
 
 ## Intuition

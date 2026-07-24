@@ -19,46 +19,46 @@ Implement the Observer pattern where subjects notify observers of state changes.
 import java.util.ArrayList;
 import java.util.List;
 
-interface Observer {
+interface Observer \{
     void update(String message);
-}
+\}
 
-class NewsAgency {
+class NewsAgency \{
     private final List<Observer> observers = new ArrayList<>();
     private String news;
 
-    public void addObserver(Observer observer) {
+    public void addObserver(Observer observer) \{
         observers.add(observer);
-    }
+    \}
 
-    public void removeObserver(Observer observer) {
+    public void removeObserver(Observer observer) \{
         observers.remove(observer);
-    }
+    \}
 
-    public void setNews(String news) {
+    public void setNews(String news) \{
         this.news = news;
         notifyObservers();
-    }
+    \}
 
-    private void notifyObservers() {
-        for (Observer observer : observers) {
+    private void notifyObservers() \{
+        for (Observer observer : observers) \{
             observer.update(news);
-        }
-    }
-}
+        \}
+    \}
+\}
 
-class NewsChannel implements Observer {
+class NewsChannel implements Observer \{
     private final String name;
 
-    public NewsChannel(String name) {
+    public NewsChannel(String name) \{
         this.name = name;
-    }
+    \}
 
     @Override
-    public void update(String message) {
+    public void update(String message) \{
         System.out.println(name + " received: " + message);
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -72,58 +72,58 @@ Implement a Factory pattern that creates different shapes based on input.
 **Hint:** Define a common interface, implement concrete classes, and a factory method to instantiate them.
 
 ```java
-interface Shape {
+interface Shape \{
     double area();
     String getType();
-}
+\}
 
-class Circle implements Shape {
+class Circle implements Shape \{
     private final double radius;
 
-    public Circle(double radius) {
+    public Circle(double radius) \{
         this.radius = radius;
-    }
+    \}
 
     @Override
-    public double area() {
+    public double area() \{
         return Math.PI * radius * radius;
-    }
+    \}
 
     @Override
-    public String getType() {
+    public String getType() \{
         return "Circle";
-    }
-}
+    \}
+\}
 
-class Rectangle implements Shape {
+class Rectangle implements Shape \{
     private final double width;
     private final double height;
 
-    public Rectangle(double width, double height) {
+    public Rectangle(double width, double height) \{
         this.width = width;
         this.height = height;
-    }
+    \}
 
     @Override
-    public double area() {
+    public double area() \{
         return width * height;
-    }
+    \}
 
     @Override
-    public String getType() {
+    public String getType() \{
         return "Rectangle";
-    }
-}
+    \}
+\}
 
-class ShapeFactory {
-    public static Shape create(String type, double... dimensions) {
-        return switch (type.toLowerCase()) {
+class ShapeFactory \{
+    public static Shape create(String type, double... dimensions) \{
+        return switch (type.toLowerCase()) \{
             case "circle" -> new Circle(dimensions[0]);
             case "rectangle" -> new Rectangle(dimensions[0], dimensions[1]);
             default -> throw new IllegalArgumentException("Unknown shape: " + type);
-        };
-    }
-}
+        \};
+    \}
+\}
 ```
 
 ---
@@ -137,49 +137,49 @@ Design an animal hierarchy where `Animal` is the base class, with `Dog` and `Cat
 **Hint:** Use `extends` and `@Override` annotations.
 
 ```java
-abstract class Animal {
+abstract class Animal \{
     protected final String name;
 
-    public Animal(String name) {
+    public Animal(String name) \{
         this.name = name;
-    }
+    \}
 
     public abstract String sound();
 
-    public String describe() {
+    public String describe() \{
         return name + " says " + sound();
-    }
-}
+    \}
+\}
 
-class Dog extends Animal {
-    public Dog(String name) {
+class Dog extends Animal \{
+    public Dog(String name) \{
         super(name);
-    }
+    \}
 
     @Override
-    public String sound() {
+    public String sound() \{
         return "Woof";
-    }
+    \}
 
-    public String fetch(String item) {
+    public String fetch(String item) \{
         return name + " fetches the " + item;
-    }
-}
+    \}
+\}
 
-class Cat extends Animal {
-    public Cat(String name) {
+class Cat extends Animal \{
+    public Cat(String name) \{
         super(name);
-    }
+    \}
 
     @Override
-    public String sound() {
+    public String sound() \{
         return "Meow";
-    }
+    \}
 
-    public String scratch() {
+    public String scratch() \{
         return name + " scratches the furniture";
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -193,50 +193,50 @@ Define a `Payable` interface and implement it in `Employee` and `Invoice` classe
 **Hint:** Interfaces define a contract; each implementing class provides its own logic for `getAmount`.
 
 ```java
-interface Payable {
+interface Payable \{
     double getAmount();
     String getDescription();
-}
+\}
 
-class Employee implements Payable {
+class Employee implements Payable \{
     private final String name;
     private final double salary;
 
-    public Employee(String name, double salary) {
+    public Employee(String name, double salary) \{
         this.name = name;
         this.salary = salary;
-    }
+    \}
 
     @Override
-    public double getAmount() {
+    public double getAmount() \{
         return salary;
-    }
+    \}
 
     @Override
-    public String getDescription() {
+    public String getDescription() \{
         return "Salary for " + name;
-    }
-}
+    \}
+\}
 
-class Invoice implements Payable {
+class Invoice implements Payable \{
     private final String invoiceNumber;
     private final double amount;
 
-    public Invoice(String invoiceNumber, double amount) {
+    public Invoice(String invoiceNumber, double amount) \{
         this.invoiceNumber = invoiceNumber;
         this.amount = amount;
-    }
+    \}
 
     @Override
-    public double getAmount() {
+    public double getAmount() \{
         return amount;
-    }
+    \}
 
     @Override
-    public String getDescription() {
+    public String getDescription() \{
         return "Invoice " + invoiceNumber;
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -250,48 +250,48 @@ Implement a generic `Pair<T, U>` class that holds two values and a generic `Box<
 **Hint:** Use type parameters with appropriate bounds where needed.
 
 ```java
-class Pair<T, U> {
+class Pair<T, U> \{
     private final T first;
     private final U second;
 
-    public Pair(T first, U second) {
+    public Pair(T first, U second) \{
         this.first = first;
         this.second = second;
-    }
+    \}
 
-    public T getFirst() {
+    public T getFirst() \{
         return first;
-    }
+    \}
 
-    public U getSecond() {
+    public U getSecond() \{
         return second;
-    }
+    \}
 
     @Override
-    public String toString() {
+    public String toString() \{
         return "(" + first + ", " + second + ")";
-    }
-}
+    \}
+\}
 
-class Box<T> {
+class Box<T> \{
     private T value;
 
-    public Box(T value) {
+    public Box(T value) \{
         this.value = value;
-    }
+    \}
 
-    public T getValue() {
+    public T getValue() \{
         return value;
-    }
+    \}
 
-    public void setValue(T value) {
+    public void setValue(T value) \{
         this.value = value;
-    }
+    \}
 
-    public <U> Box<U> map(java.util.function.Function<T, U> mapper) {
+    public <U> Box<U> map(java.util.function.Function<T, U> mapper) \{
         return new Box<>(mapper.apply(value));
-    }
-}
+    \}
+\}
 ```
 
 ## Intuition

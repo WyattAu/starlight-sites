@@ -16,29 +16,29 @@ Implement a generic `Stack<T>` class with `push`, `pop`, `peek`, and `isEmpty` m
 **Hint:** Use a type parameter `T` so the stack works with any type.
 
 ```typescript
-class Stack<T> {
+class Stack<T> \{
   private items: T[] = [];
 
-  push(item: T): void {
+  push(item: T): void \{
     this.items.push(item);
-  }
+  \}
 
-  pop(): T | undefined {
+  pop(): T | undefined \{
     return this.items.pop();
-  }
+  \}
 
-  peek(): T | undefined {
+  peek(): T | undefined \{
     return this.items[this.items.length - 1];
-  }
+  \}
 
-  isEmpty(): boolean {
+  isEmpty(): boolean \{
     return this.items.length === 0;
-  }
+  \}
 
-  size(): number {
+  size(): number \{
     return this.items.length;
-  }
-}
+  \}
+\}
 
 const numStack = new Stack<number>();
 numStack.push(1);
@@ -84,27 +84,27 @@ Implement a `Readonly<T>` type manually and create a `DeepReadonly<T>` that work
 **Hint:** Use `{ readonly [K in keyof T]: T[K] }` for shallow and a conditional mapped type for deep.
 
 ```typescript
-type MyReadonly<T> = {
+type MyReadonly<T> = \{
   readonly [K in keyof T]: T[K];
-};
+\};
 
-type DeepReadonly<T> = {
+type DeepReadonly<T> = \{
   readonly [K in keyof T]: T[K] extends object
     ? T[K] extends Function
       ? T[K]
       : DeepReadonly<T[K]>
     : T[K];
-};
+\};
 
-interface Config {
-  database: {
+interface Config \{
+  database: \{
     host: string;
     port: number;
-  };
-  cache: {
+  \};
+  cache: \{
     ttl: number;
-  };
-}
+  \};
+\}
 
 type ReadonlyConfig = DeepReadonly<Config>;
 // All properties at all levels are readonly
@@ -118,7 +118,7 @@ type ReadonlyConfig = DeepReadonly<Config>;
 **Problem:**
 Create template literal types for CSS event names (`onClick`, `onFocus`) and route parameter extraction.
 
-**Hint:** Use template literal patterns like `` `on${Capitalize<E>}` `` and string inference.
+**Hint:** Use template literal patterns like `` `on$\{Capitalize<E>\}` `` and string inference.
 
 ```typescript
 type EventName<E extends string> = `on${Capitalize<E>}`;
@@ -128,16 +128,16 @@ type FocusEvent = EventName<"focus">; // "onFocus"
 
 type ExtractParams<T extends string> =
   T extends `${string}:${infer Param}/${infer Rest}`
-    ? { [K in Param | keyof ExtractParams<Rest>]: string }
+    ? \{ [K in Param | keyof ExtractParams<Rest>]: string \}
     : T extends `${string}:${infer Param}`
-      ? { [K in Param]: string }
-      : {};
+      ? \{ [K in Param]: string \}
+      : \{\};
 
 type UserRoute = ExtractParams<"/users/:id">;
-// { id: string }
+// \{ id: string \}
 
 type PostRoute = ExtractParams<"/users/:userId/posts/:postId">;
-// { userId: string; postId: string }
+// \{ userId: string; postId: string \}
 ```
 
 ---
@@ -153,47 +153,47 @@ Implement a type-safe event emitter where event names and payload types are cons
 ```typescript
 type EventMap = Record<string, unknown[]>;
 
-class TypedEmitter<Events extends EventMap> {
-  private listeners: {
+class TypedEmitter<Events extends EventMap> \{
+  private listeners: \{
     [K in keyof Events]?: Array<(...args: Events[K]) => void>;
-  } = {};
+  \} = \{\};
 
   on<K extends keyof Events>(
     event: K,
     listener: (...args: Events[K]) => void
-  ): void {
-    if (!this.listeners[event]) {
+  ): void \{
+    if (!this.listeners[event]) \{
       this.listeners[event] = [];
-    }
+    \}
     this.listeners[event]!.push(listener);
-  }
+  \}
 
-  emit<K extends keyof Events>(event: K, ...args: Events[K]): void {
+  emit<K extends keyof Events>(event: K, ...args: Events[K]): void \{
     this.listeners[event]?.forEach((fn) => fn(...args));
-  }
+  \}
 
   off<K extends keyof Events>(
     event: K,
     listener: (...args: Events[K]) => void
-  ): void {
+  ): void \{
     const list = this.listeners[event];
-    if (list) {
+    if (list) \{
       this.listeners[event] = list.filter((fn) => fn !== listener) as any;
-    }
-  }
-}
+    \}
+  \}
+\}
 
-interface AppEvents {
+interface AppEvents \{
   login: [userId: string];
   logout: [userId: string, reason: string];
   purchase: [amount: number, itemId: string];
-}
+\}
 
 const emitter = new TypedEmitter<AppEvents>();
 
-emitter.on("login", (userId) => {
+emitter.on("login", (userId) => \{
   console.log(`User ${userId} logged in`);
-});
+\});
 
 emitter.emit("login", "user-42");
 emitter.emit("purchase", 29.99, "item-7");

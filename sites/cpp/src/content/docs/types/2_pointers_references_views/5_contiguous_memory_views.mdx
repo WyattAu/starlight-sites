@@ -25,10 +25,10 @@ If `std::string_view` is the non-owning view for character sequences, `std::span
 
 ```cpp
 template<class T, size_t Extent = dynamic_extent>
-class span {
+class span \{
     T*      _data;   // Pointer to first element
     size_t  _size;   // Number of elements
-};
+\};
 ```
 
 On 64-bit systems:
@@ -58,14 +58,14 @@ The `Extent` template parameter determines whether the size is known at compile 
 ### Dynamic Extent (Default)
 
 ```cpp
-void process(std::span<int> data) {
+void process(std::span<int> data) \{
     // data.size() is a runtime value
-    for (auto& x : data) {
+    for (auto& x : data) \{
         x *= 2;
-    }
-}
+    \}
+\}
 
-int arr[] = {1, 2, 3, 4, 5};
+int arr[] = \{1, 2, 3, 4, 5\};
 process(arr); // deduces std::span<int>, size = 5
 ```
 
@@ -74,15 +74,15 @@ process(arr); // deduces std::span<int>, size = 5
 When the size is known at compile time, the `Extent` is encoded in the type:
 
 ```cpp
-void process_exact4(std::span<int, 4> data) {
+void process_exact4(std::span<int, 4> data) \{
     // data.size() is a constexpr equal to 4
     // If caller passes wrong size, compile error
-}
+\}
 
-int arr4[4] = {1, 2, 3, 4};
+int arr4[4] = \{1, 2, 3, 4\};
 process_exact4(arr4); // OK
 
-int arr5[5] = {1, 2, 3, 4, 5};
+int arr5[5] = \{1, 2, 3, 4, 5\};
 process_exact4(arr5); // ERROR: size mismatch, will not compile
 ```
 
@@ -105,19 +105,19 @@ static_assert(std::span<int, 8>::extent == 8);
 #include <vector>
 #include <array>
 
-void analyze(std::span<const double> samples) {
+void analyze(std::span<const double> samples) \{
     // Accepts any contiguous double sequence, read-only
-}
+\}
 
-void caller() {
-    double c_arr[] = {1.0, 2.0, 3.0};
-    std::vector<double> vec = {4.0, 5.0, 6.0};
-    std::array<double, 3> arr = {7.0, 8.0, 9.0};
+void caller() \{
+    double c_arr[] = \{1.0, 2.0, 3.0\};
+    std::vector<double> vec = \{4.0, 5.0, 6.0\};
+    std::array<double, 3> arr = \{7.0, 8.0, 9.0\};
 
     analyze(c_arr);  // C array -> span (no decay!)
     analyze(vec);    // vector -> span
     analyze(arr);    // std::array -> span
-}
+\}
 ```
 
 **Critical advantage over raw pointers:** Array decay is eliminated. The size information is
@@ -129,7 +129,7 @@ Preserved through the span interface.
 These operations return new `span` objects and are **O(1)** — no data is copied.
 
 ```cpp
-void parse_header(std::span<const uint8_t> packet) {
+void parse_header(std::span<const uint8_t> packet) \{
     if (packet.size() < 4) return;
 
     auto header  = packet.first(4);
@@ -137,17 +137,17 @@ void parse_header(std::span<const uint8_t> packet) {
 
     // header.size() == 4
     // payload.size() == packet.size() - 4
-}
+\}
 ```
 
 ### Splitting at a Boundary
 
 ```cpp
-std::span<const char> split_at(std::span<const char> text, char delimiter) {
+std::span<const char> split_at(std::span<const char> text, char delimiter) \{
     auto pos = text.find(delimiter);
     if (pos == std::span<const char>::npos) return text;
     return text.first(pos);
-}
+\}
 ```
 
 ### Converting to Static Extent
@@ -158,10 +158,10 @@ Span:
 ```cpp
 std::span<int> dynamic_view = /* ... */;
 
-if (dynamic_view.size() >= 4) {
+if (dynamic_view.size() >= 4) \{
     std::span<int, 4> first4 = dynamic_view.first<4>();
     // first4 has static extent, enabling further compile-time checks
-}
+\}
 ```
 
 ## 6. Byte-Level Access
@@ -172,44 +172,44 @@ if (dynamic_view.size() >= 4) {
 ```cpp
 #include <span>
 
-struct PacketHeader {
+struct PacketHeader \{
     uint32_t magic;
     uint16_t type;
     uint16_t flags;
-};
+\};
 
-void serialize(const PacketHeader& header, std::span<std::byte> out) {
-    auto bytes = std::as_bytes(std::span{&header, 1});
-    if (out.size() >= bytes.size()) {
+void serialize(const PacketHeader& header, std::span<std::byte> out) \{
+    auto bytes = std::as_bytes(std::span\{&header, 1\});
+    if (out.size() >= bytes.size()) \{
         std::copy(bytes.begin(), bytes.end(), out.begin());
-    }
-}
+    \}
+\}
 ```
 
 ### Use Case: Network I/O
 
 ```cpp
-void send_packet(int fd, std::span<const std::byte> data) {
+void send_packet(int fd, std::span<const std::byte> data) \{
     write(fd, data.data(), data.size());
-}
+\}
 
-PacketHeader hdr{.magic = 0xDEADBEEF, .type = 1, .flags = 0};
-send_packet(fd, std::as_bytes(std::span{&hdr, 1}));
+PacketHeader hdr\{.magic = 0xDEADBEEF, .type = 1, .flags = 0\};
+send_packet(fd, std::as_bytes(std::span\{&hdr, 1\}));
 ```
 
 ### Use Case: Checksum Computation
 
 ```cpp
-uint32_t crc32(std::span<const std::byte> data) {
+uint32_t crc32(std::span<const std::byte> data) \{
     uint32_t crc = 0xFFFFFFFF;
-    for (auto byte : data) {
+    for (auto byte : data) \{
         crc ^= static_cast<uint32_t>(byte);
-        for (int i = 0; i < 8; ++i) {
+        for (int i = 0; i < 8; ++i) \{
             crc = (crc >> 1) ^ (0xEDB88320 & (-(crc & 1)));
-        }
-    }
+        \}
+    \}
     return ~crc;
-}
+\}
 ```
 
 ## 7. `span` vs C Arrays vs `std::array`
@@ -239,9 +239,9 @@ modern_process(buffer);      // Size automatically captured (128)
 ssize_t read(int fd, void* buf, size_t count);
 
 // Modern C++ wrapper
-ssize_t read_into(int fd, std::span<std::byte> buf) {
+ssize_t read_into(int fd, std::span<std::byte> buf) \{
     return read(fd, buf.data(), buf.size());
-}
+\}
 ```
 
 ### Comparison Table
@@ -261,21 +261,21 @@ ssize_t read_into(int fd, std::span<std::byte> buf) {
 Loops:
 
 ```cpp
-void print_all(std::span<const std::string_view> items) {
-    for (const auto& item : items) {
+void print_all(std::span<const std::string_view> items) \{
+    for (const auto& item : items) \{
         std::cout << item << "\n";
-    }
-}
+    \}
+\}
 ```
 
 ### Reverse Iteration
 
 ```cpp
-void reverse_print(std::span<const int> data) {
-    for (auto it = data.rbegin(); it != data.rend(); ++it) {
+void reverse_print(std::span<const int> data) \{
+    for (auto it = data.rbegin(); it != data.rend(); ++it) \{
         std::cout << *it << " ";
-    }
-}
+    \}
+\}
 ```
 
 ### Algorithm Integration
@@ -286,19 +286,19 @@ Since `std::span` provides standard iterators, it works with all `<algorithm>` f
 #include <algorithm>
 #include <numeric>
 
-double compute_mean(std::span<const double> samples) {
+double compute_mean(std::span<const double> samples) \{
     if (samples.empty()) return 0.0;
     auto sum = std::accumulate(samples.begin(), samples.end(), 0.0);
     return sum / static_cast<double>(samples.size());
-}
+\}
 
-void clamp_range(std::span<double> values, double min, double max) {
+void clamp_range(std::span<double> values, double min, double max) \{
     std::clamp(values.begin(), values.end(), min, max);
     // C++17: std::clamp is per-element, not range-based
-    for (auto& v : values) {
+    for (auto& v : values) \{
         v = std::clamp(v, min, max);
-    }
-}
+    \}
+\}
 ```
 
 ## 9. `span` as Function Parameter: The Modern Pattern
@@ -324,9 +324,9 @@ Before `std::span`The common approach was:
 
 ```cpp
 template<typename Container>
-void legacy_analyze(const Container& data) {
-    for (const auto& x : data) { /* ... */ }
-}
+void legacy_analyze(const Container& data) \{
+    for (const auto& x : data) \{ /* ... */ \}
+\}
 ```
 
 Problems with the template approach:
@@ -346,10 +346,10 @@ Guarantees contiguity, and error messages are concise.
 modification through the span:
 
 ```cpp
-void inspect(std::span<const int> data) {
+void inspect(std::span<const int> data) \{
     data[0] = 42; // ERROR: cannot modify const element
     int x = data[0]; // OK: read access
-}
+\}
 ```
 
 This is the analog of `const int*` with bounds. It should be the default for any function that only
@@ -357,9 +357,9 @@ Needs to read the data.
 
 ```cpp
 // Correct: read-only, non-owning, bounded
-size_t count_zeros(std::span<const int> data) {
+size_t count_zeros(std::span<const int> data) \{
     return std::count(data.begin(), data.end(), 0);
-}
+\}
 ```
 
 ### `std::span<T>` for Mutable Access
@@ -367,13 +367,13 @@ size_t count_zeros(std::span<const int> data) {
 Use `std::span<T>` (without `const`) only when the function needs to modify the elements:
 
 ```cpp
-void normalize(std::span<double> samples) {
+void normalize(std::span<double> samples) \{
     double max_val = *std::max_element(samples.begin(), samples.end());
     if (max_val == 0.0) return;
-    for (auto& s : samples) {
+    for (auto& s : samples) \{
         s /= max_val;
-    }
-}
+    \}
+\}
 ```
 
 ## 10. Use Cases
@@ -381,82 +381,82 @@ void normalize(std::span<double> samples) {
 ### Buffer Interfaces
 
 ```cpp
-class AudioBuffer {
+class AudioBuffer \{
 public:
     explicit AudioBuffer(size_t frame_count)
-        : data_(frame_count * 2) {} // stereo
+        : data_(frame_count * 2) \{\} // stereo
 
-    std::span<float> mutable_samples() { return data_; }
-    std::span<const float> samples() const { return data_; }
+    std::span<float> mutable_samples() \{ return data_; \}
+    std::span<const float> samples() const \{ return data_; \}
 
 private:
     std::vector<float> data_;
-};
+\};
 ```
 
 ### Image Processing
 
 ```cpp
-struct Image {
+struct Image \{
     uint32_t width;
     uint32_t height;
     std::vector<uint8_t> pixels; // RGBA
 
-    std::span<uint8_t> row(uint32_t y) {
+    std::span<uint8_t> row(uint32_t y) \{
         auto stride = width * 4;
         return std::span<uint8_t>(pixels.data() + y * stride, stride);
-    }
+    \}
 
-    std::span<const uint8_t> row(uint32_t y) const {
+    std::span<const uint8_t> row(uint32_t y) const \{
         auto stride = width * 4;
         return std::span<const uint8_t>(pixels.data() + y * stride, stride);
-    }
-};
+    \}
+\};
 
-void invert_row(std::span<uint8_t> row) {
-    for (auto& byte : row) {
+void invert_row(std::span<uint8_t> row) \{
+    for (auto& byte : row) \{
         byte = 255 - byte;
-    }
-}
+    \}
+\}
 ```
 
 ### Serialization
 
 ```cpp
-class BinaryWriter {
+class BinaryWriter \{
 public:
     explicit BinaryWriter(std::span<std::byte> buffer)
-        : buffer_(buffer), pos_(0) {}
+        : buffer_(buffer), pos_(0) \{\}
 
-    bool write(std::span<const std::byte> data) {
+    bool write(std::span<const std::byte> data) \{
         if (pos_ + data.size() > buffer_.size()) return false;
         std::copy(data.begin(), data.end(), buffer_.begin() + pos_);
         pos_ += data.size();
         return true;
-    }
+    \}
 
-    std::span<const std::byte> written() const {
+    std::span<const std::byte> written() const \{
         return buffer_.first(pos_);
-    }
+    \}
 
 private:
     std::span<std::byte> buffer_;
     size_t pos_;
-};
+\};
 ```
 
 ### Network I/O
 
 ```cpp
-ssize_t recv_exact(int fd, std::span<std::byte> buffer) {
+ssize_t recv_exact(int fd, std::span<std::byte> buffer) \{
     size_t total = 0;
-    while (total < buffer.size()) {
+    while (total < buffer.size()) \{
         ssize_t n = read(fd, buffer.data() + total, buffer.size() - total);
         if (n <= 0) return n;
         total += static_cast<size_t>(n);
-    }
+    \}
     return static_cast<ssize_t>(total);
-}
+\}
 ```
 
 ## 11. Common Pitfalls
@@ -464,22 +464,22 @@ ssize_t recv_exact(int fd, std::span<std::byte> buffer) {
 ### Pitfall 1: Dangling Span (Same as `string_view`)
 
 ```cpp
-std::span<int> dangerous() {
-    std::vector<int> v = {1, 2, 3};
+std::span<int> dangerous() \{
+    std::vector<int> v = \{1, 2, 3\};
     return v; // implicit conversion to span, but 'v' is destroyed
     // Returned span dangles.
-}
+\}
 ```
 
 ### Pitfall 2: Storing Span Across Scope Boundaries
 
 ```cpp
-class Processor {
+class Processor \{
     std::span<const uint8_t> data_; // Dangling risk
 public:
-    void set_data(std::span<const uint8_t> d) { data_ = d; }
+    void set_data(std::span<const uint8_t> d) \{ data_ = d; \}
     // If the source of 'd' is destroyed, data_ dangles.
-};
+\};
 ```
 
 **Rule:** If a span must be stored, ensure the source's lifetime is explicitly managed and outlives
@@ -488,14 +488,14 @@ The span.
 ### Pitfall 3: Passing to Thread Without Lifetime Guarantee
 
 ```cpp
-void launch_worker(std::span<const int> data) {
-    std::thread t([data] {
+void launch_worker(std::span<const int> data) \{
+    std::thread t([data] \{
         // 'data' may dangle if the source is destroyed
         // before this thread processes it.
         process(data);
-    });
+    \});
     t.detach();
-}
+\}
 ```
 
 Fix: either copy the data into the thread (e.g., capture a `std::vector` by value) or use a shared
@@ -507,7 +507,7 @@ Prior to C++26, `std::span::operator[]` is **unchecked**. It performs no bounds 
 Identical to raw pointer indexing.
 
 ```cpp
-std::span<int> s = {some_ptr, 10};
+std::span<int> s = \{some_ptr, 10\};
 int x = s[100]; // UB: out of bounds, no diagnostic
 ```
 
@@ -521,20 +521,20 @@ Manually:
 
 ```cpp
 // 2D matrix stored row-major
-class Matrix {
+class Matrix \{
 public:
     Matrix(size_t rows, size_t cols)
-        : rows_(rows), cols_(cols), data_(rows * cols) {}
+        : rows_(rows), cols_(cols), data_(rows * cols) \{\}
 
-    std::span<double> operator[](size_t row) {
+    std::span<double> operator[](size_t row) \{
         return std::span<double>(
             data_.data() + row * cols_, cols_);
-    }
+    \}
 
 private:
     size_t rows_, cols_;
     std::vector<double> data_;
-};
+\};
 ```
 
 `std::mdspan` (C++23) provides proper multi-dimensional span support with compile-time layout

@@ -23,8 +23,8 @@ the explanation.
 ### Example 1: Type Promotion and Casting
 
 ```java
-public class TypePromotion {
-    public static void main(String[] args) {
+public class TypePromotion \{
+    public static void main(String[] args) \{
         // Byte arithmetic promotes to int
         byte b = 10;
         // b = b + 1;  // ERROR: int cannot be assigned to byte
@@ -46,8 +46,8 @@ public class TypePromotion {
         int max = Integer.MAX_VALUE;
         int overflow = max + 1;  // Wraps to Integer.MIN_VALUE
         System.out.println("overflow = " + overflow);  // -2147483648
-    }
-}
+    \}
+\}
 ```
 
 **Output:**
@@ -69,8 +69,8 @@ overflow = -2147483648
 import java.util.*;
 import java.util.stream.*;
 
-public class StreamExample {
-    public static void main(String[] args) {
+public class StreamExample \{
+    public static void main(String[] args) \{
         List<String> names = List.of("Alice", "Bob", "Charlie", "David", "Eve");
 
         // Filter and collect
@@ -103,8 +103,8 @@ public class StreamExample {
             .filter(name -> name.length() > 3)
             .count();
         System.out.println("Long names: " + count);  // 3
-    }
-}
+    \}
+\}
 ```
 
 **Output:**
@@ -112,7 +112,7 @@ public class StreamExample {
 Short names: [Bob, Eve]
 Total length: 19
 Result: CHARLIE, DAVID
-By length: {3=[Bob, Eve], 5=[Alice], 7=[Charlie, David]}
+By length: \{3=[Bob, Eve], 5=[Alice], 7=[Charlie, David]\}
 Long names: 3
 ```
 
@@ -126,35 +126,35 @@ Long names: 3
 ```java
 import java.util.*;
 
-public class GenericsExample {
+public class GenericsExample \{
     // Bounded type parameter
-    public static <T extends Comparable<T>> T findMax(List<T> list) {
+    public static <T extends Comparable<T>> T findMax(List<T> list) \{
         T max = list.get(0);
-        for (T item : list) {
-            if (item.compareTo(max) > 0) {
+        for (T item : list) \{
+            if (item.compareTo(max) > 0) \{
                 max = item;
-            }
-        }
+            \}
+        \}
         return max;
-    }
+    \}
 
     // Upper bounded wildcard (read-only)
-    public static double sum(List<? extends Number> list) {
+    public static double sum(List<? extends Number> list) \{
         double total = 0;
-        for (Number num : list) {
+        for (Number num : list) \{
             total += num.doubleValue();
-        }
+        \}
         return total;
-    }
+    \}
 
     // Lower bounded wildcard (write-only)
-    public static void addNumbers(List<? super Integer> list) {
-        for (int i = 1; i <= 5; i++) {
+    public static void addNumbers(List<? super Integer> list) \{
+        for (int i = 1; i <= 5; i++) \{
             list.add(i);
-        }
-    }
+        \}
+    \}
 
-    public static void main(String[] args) {
+    public static void main(String[] args) \{
         List<Integer> ints = List.of(3, 1, 4, 1, 5, 9);
         System.out.println("Max: " + findMax(ints));  // 9
 
@@ -164,8 +164,8 @@ public class GenericsExample {
         List<Number> numbers = new ArrayList<>();
         addNumbers(numbers);
         System.out.println("Numbers: " + numbers);  // [1, 2, 3, 4, 5]
-    }
-}
+    \}
+\}
 ```
 
 **Output:**
@@ -186,25 +186,25 @@ Numbers: [1, 2, 3, 4, 5]
 import java.util.concurrent.*;
 import java.util.*;
 
-public class ConcurrencyExample {
-    public static void main(String[] args) throws Exception {
+public class ConcurrencyExample \{
+    public static void main(String[] args) throws Exception \{
         // Create a thread pool
         ExecutorService executor = Executors.newFixedThreadPool(3);
 
         // Submit tasks
         List<Future<String>> futures = new ArrayList<>();
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) \{
             final int taskId = i;
-            futures.add(executor.submit(() -> {
+            futures.add(executor.submit(() -> \{
                 Thread.sleep(100 * taskId);
                 return "Task " + taskId + " completed";
-            }));
-        }
+            \}));
+        \}
 
         // Collect results
-        for (Future<String> future : futures) {
+        for (Future<String> future : futures) \{
             System.out.println(future.get());  // Blocks until result is ready
-        }
+        \}
 
         // Shutdown executor
         executor.shutdown();
@@ -216,8 +216,8 @@ public class ConcurrencyExample {
 
         CompletableFuture<String> combined = future1.thenCombine(future2, (a, b) -> a + " " + b);
         System.out.println(combined.get());  // Hello World
-    }
-}
+    \}
+\}
 ```
 
 **Output:**

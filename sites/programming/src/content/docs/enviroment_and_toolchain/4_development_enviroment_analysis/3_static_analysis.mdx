@@ -63,9 +63,9 @@ False positives are inevitable. Suppressions must be explicit and granular.
 ```cpp
 // NOLINTNEXTLINE(cppcoreguidelines-pro-type-reinterpret-cast)
 auto* raw_data = reinterpret_cast<const byte*>(ptr);
-void func() {
+void func() \{
     int x = 0; // NOLINT(misc-const-correctness) - modified in legacy macro
-}
+\}
 ```
 ### Per-Line vs Block Suppression
 For legacy files that trigger many warnings, block suppression is available since clang-tidy 14:
@@ -91,11 +91,11 @@ Assignments, function calls, and control flow merges.
 **Example:** Detecting use of an uninitialized variable:
 ```cpp
 int x;
-if (condition) {
+if (condition) \{
     x = 42;
-}
+\}
 // At this point, data flow analysis knows x may be uninitialized
-// (fact: x is {uninitialized, 42} on the two paths)
+// (fact: x is \{uninitialized, 42\} on the two paths)
 return x;  // bugprone: possible use of uninitialized variable
 ```
 ### 2.3 Path-Sensitive Analysis
@@ -104,11 +104,11 @@ At join points. This is more precise but exponentially more expensive.
 **Example:** Distinguishing two paths where a pointer is null vs non-null:
 ```cpp
 int* p = get_pointer();
-if (p == nullptr) {
+if (p == nullptr) \{
     // Path 1: p is definitely null
     log_error("null pointer");
     return -1;
-}
+\}
 // Path 2: p is definitely non-null (the null path returned above)
 // Path-sensitive analysis knows p != nullptr here
 return *p;  // no warning
@@ -122,15 +122,15 @@ Congruences). The analysis is sound: if the analysis does not report a bug, the 
 (within the precision of the abstract domain).
 **Example:** Interval analysis for integer overflow:
 ```cpp
-int f(int x) {
+int f(int x) \{
     // Abstract domain: x ∈ [-2^31, 2^31 - 1]
     // After the check: x ∈ [1, 2^31 - 1]
-    if (x > 0) {
+    if (x > 0) \{
         // x + 1 ∈ [2, 2^31] — may overflow!
         return x + 1;
-    }
+    \}
     return 0;
-}
+\}
 ```
 ### 2.5 Taint Analysis
 Taint analysis tracks how untrusted data (user input, network data, file content) flows through the
@@ -138,12 +138,12 @@ Program. If tainted data reaches a security-sensitive operation (SQL query, shel
 Allocation size), the analyzer reports a vulnerability.
 **Example:** SQL injection detection:
 ```cpp
-void handle_request(const std::string& user_input) {
+void handle_request(const std::string& user_input) \{
     // user_input is a taint source
     std::string query = "SELECT * FROM users WHERE name = '" + user_input + "'";
     // query is now tainted
     db.execute(query);  // taint sink — potential SQL injection
-}
+\}
 ```
 Clang-tidy does not have built-in taint analysis. PVS-Studio and SonarQube provide taint analysis
 Capabilities for C++.
@@ -190,7 +190,7 @@ if(ENABLE_STATIC_ANALYSIS)
     # 2. Configure Clang-Tidy
     if(CLANG_TIDY_PATH)
         # set CXX_CLANG_TIDY property on all targets created after this line
-        set(CMAKE_CXX_CLANG_TIDY "${CLANG_TIDY_PATH}")
+        set(CMAKE_CXX_CLANG_TIDY "$\{CLANG_TIDY_PATH\}")
     else()
         message(WARNING "clang-tidy not found")
     endif()
@@ -199,7 +199,7 @@ if(ENABLE_STATIC_ANALYSIS)
         # --enable=all: Enable all checks
         # --suppress=missingIncludeSystem: Don't fail if system headers are missing
         set(CMAKE_CXX_CPPCHECK
-            "${CPPCHECK_PATH};--enable=all;--suppress=missingIncludeSystem;--error-exitcode=1")
+            "$\{CPPCHECK_PATH\};--enable=all;--suppress=missingIncludeSystem;--error-exitcode=1")
     else()
         message(WARNING "cppcheck not found")
     endif()
@@ -261,7 +261,7 @@ jobs:
       - name: Run clang-tidy on changed files
         run: |
           git diff --name-only origin/main | grep -E '\.(cpp|hpp|h)$' | \
-            xargs -I{} clang-tidy -p build --warnings-as-errors='*' {}
+            xargs -I\{\} clang-tidy -p build --warnings-as-errors='*' \{\}
 ```
 ## 7. Clang-Tidy Check Categories
 Clang-Tidy organizes its checks into named modules. Understanding these modules helps you adopt
@@ -420,10 +420,10 @@ Them prevents the suppression mechanism from becoming a liability:
    `// NOLINTBEGIN` / `// NOLINTEND` blocks.
 ```cpp
 // NOLINTBEGIN(cert-err58-cpp): legacy C API, exceptions not propagated across boundary
-extern "C" int legacy_callback(void* ctx, int status) {
+extern "C" int legacy_callback(void* ctx, int status) \{
     // ...
     return status;
-}
+\}
 // NOLINTEND(cert-err58-cpp)
 ```
 ### Tracking Suppressions
@@ -495,23 +495,23 @@ Clang-tidy checks in C++. This requires linking against the clang-tidy library:
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang-tidy/ClangTidyCheck.h"
 using namespace clang::ast_matchers;
-class MyCustomCheck : public clang::tidy::ClangTidyCheck {
+class MyCustomCheck : public clang::tidy::ClangTidyCheck \{
 public:
     MyCustomCheck(llvm::StringRef Name, clang::tidy::ClangTidyContext* Context)
-        : ClangTidyCheck(Name, Context) {}
-    void registerMatchers(clang::ast_matchers::MatchFinder* Finder) override {
+        : ClangTidyCheck(Name, Context) \{\}
+    void registerMatchers(clang::ast_matchers::MatchFinder* Finder) override \{
         // Example: find all functions named 'process' that take more than 5 parameters
         Finder->addMatcher(
             functionDecl(hasName("process"), parameterCount(isGreaterThan(5)))
                 .bind("process_func"),
             this);
-    }
-    void check(const clang::ast_matchers::MatchFinder::MatchResult& Result) override {
+    \}
+    void check(const clang::ast_matchers::MatchFinder::MatchResult& Result) override \{
         const auto* Func = Result.Nodes.getNodeAs<clang::FunctionDecl>("process_func");
         diag(Func->getLocation(), "function 'process' has too many parameters; consider a struct")
             << FixItHint::CreateInsertion(Func->getLocation(), "// TODO: refactor\n");
-    }
-};
+    \}
+\};
 ```
 Custom checks are compiled as shared libraries and loaded via the `--checks` flag or by adding them
 To the `.clang-tidy` configuration. This is an advanced topic and requires familiarity with the

@@ -88,11 +88,11 @@ Fundamental security flaw of the von Neumann architecture.
 Consider this unsafe C++ code using a legacy C function:
 
 ```cpp
-void vulnerable_function(const char* user_input) {
+void vulnerable_function(const char* user_input) \{
     char buffer[16]; // Allocated on stack
     // DANGER: strcpy does not check bounds
     strcpy(buffer, user_input);
-}
+\}
 ```
 
 If `user_input` is 32 bytes long:
@@ -158,9 +158,9 @@ Raw arrays (`int buf[10]`) decay to pointers and lack bounds information.
 **Bad:**
 
 ```cpp
-void process(int* ptr) {
+void process(int* ptr) \{
     ptr[15] = 0; // Did we overrun? Who knows.
-}
+\}
 ```
 
 ### Use `std::span` (C++20) and `std::array`
@@ -174,19 +174,19 @@ Non-owning view with size information.
 #include <span>
 #include <array>
 
-void process(std::span<int> s) {
+void process(std::span<int> s) \{
     // In Release mode, operator[] is in most cases unchecked for speed.
     // In Debug/Hardened modes, it traps.
     // C++23's std::print creates safer patterns logically.
-    if (s.size() > 15) {
+    if (s.size() > 15) \{
         s[15] = 0;
-    }
-}
+    \}
+\}
 
-void caller() {
+void caller() \{
     std::array<int, 10> buf;
     process(buf); // Implicit conversion to span, size is carried along.
-}
+\}
 ```
 
 ### Automatic Variable Initialization
@@ -255,17 +255,17 @@ Exception (Windows). These are fatal signals — there is no recovery.
 #include <cstdint>
 
 // Recursion until stack overflow
-void infinite_recurse(uint64_t depth = 0) {
+void infinite_recurse(uint64_t depth = 0) \{
     char buffer[4096];  // 4 KB per frame
     std::printf("depth = %lu, stack near %p\n", depth, (void*)&buffer);
     infinite_recurse(depth + 1);
-}
+\}
 
-int main() {
+int main() \{
     infinite_recurse();
     // On Linux: Segmentation fault (core dumped)
     // On Windows: Stack overflow exception
-}
+\}
 ```
 
 ### Configuring Stack Size at Link Time (Windows)
@@ -281,12 +281,12 @@ target_link_options(App PRIVATE /STACK:4194304,4096)
 #include <pthread.h>
 #include <cstdio>
 
-void* thread_func(void*) {
+void* thread_func(void*) \{
     // This thread has a 2 MB stack instead of the default 8 MB
     return nullptr;
-}
+\}
 
-int main() {
+int main() \{
     pthread_t tid;
     pthread_attr_t attr;
     pthread_attr_init(&attr);
@@ -294,7 +294,7 @@ int main() {
     pthread_create(&tid, &attr, thread_func, nullptr);
     pthread_join(tid, nullptr);
     pthread_attr_destroy(&attr);
-}
+\}
 ```
 
 ## 7. The Red Zone (System V ABI)
@@ -337,10 +337,10 @@ Locals.
 ```cpp
 // Compiled with -O2: this function uses the Red Zone for 'local'
 __attribute__((noinline))
-int leaf_function(int x) {
+int leaf_function(int x) \{
     int local = x * 2;  // Stored in the Red Zone, no sub rsp needed
     return local + 1;
-}
+\}
 ```
 
 ## 8. Stack Alignment Requirements
@@ -359,14 +359,14 @@ Accesses cause `SIGBUS` on some architectures or severe performance degradation 
 #include <immintrin.h>
 #include <cstdio>
 
-void aligned_stack_example() {
+void aligned_stack_example() \{
     // __m256 requires 32-byte alignment
     // The compiler automatically aligns the stack frame
     __m256 vec = _mm256_set1_ps(1.0f);
     float result[8];
     _mm256_store_ps(result, vec);  // Requires 32-byte aligned address
     std::printf("result[0] = %f\n", result[0]);
-}
+\}
 ```
 
 The compiler inserts padding in the stack frame to satisfy alignment requirements. If you inspect
@@ -381,14 +381,14 @@ You can request specific alignment for stack variables using `alignas`:
 #include <cstdint>
 #include <cstdio>
 
-void manual_align() {
+void manual_align() \{
     // Force 64-byte alignment (cache line size)
     alignas(64) int64_t cache_aligned[8];
 
     std::printf("address = %p\n", (void*)cache_aligned);
     std::printf("aligned to 64? %s\n",
         (reinterpret_cast<uintptr_t>(cache_aligned) % 64 == 0) ? "yes" : "no");
-}
+\}
 ```
 
 ## 9. Tail Call Optimization (TCO)
@@ -401,24 +401,24 @@ Recursion into iteration at the machine code level, eliminating stack growth.
 #include <cstdio>
 
 // NOT tail-recursive: addition happens after the recursive call
-int factorial_naive(int n) {
+int factorial_naive(int n) \{
     if (n <= 1) return 1;
     return n * factorial_naive(n - 1);  // Must preserve stack frame for the multiplication
-}
+\}
 
 // Tail-recursive: the recursive call IS the last operation
-int factorial_tail(int n, int acc = 1) {
+int factorial_tail(int n, int acc = 1) \{
     if (n <= 1) return acc;
     return factorial_tail(n - 1, n * acc);  // Compiler can reuse this frame
-}
+\}
 
-int main() {
+int main() \{
     std::printf("factorial_naive(20) = %d\n", factorial_naive(20));
     std::printf("factorial_tail(20)  = %d\n", factorial_tail(20));
 
     // factorial_tail can compute arbitrarily large values without stack overflow
     // factorial_naive will overflow the stack for large N
-}
+\}
 ```
 
 ### When TCO Does Not Apply
@@ -458,34 +458,34 @@ Library (`libstdc++` / `libc++` / `libcpmt`) reads these tables to perform the u
 ```cpp
 #include <cstdio>
 
-struct Logger {
+struct Logger \{
     const char* name;
-    Logger(const char* n) : name(n) { std::printf("  enter %s\n", name); }
-    ~Logger() { std::printf("  exit  %s\n", name); }
-};
+    Logger(const char* n) : name(n) \{ std::printf("  enter %s\n", name); \}
+    ~Logger() \{ std::printf("  exit  %s\n", name); \}
+\};
 
-void inner() {
+void inner() \{
     Logger l3("inner");
     throw 42;  // Stack unwinding begins here
-}
+\}
 
-void middle() {
+void middle() \{
     Logger l2("middle");
     inner();
-}
+\}
 
-void outer() {
+void outer() \{
     Logger l1("outer");
     middle();
-}
+\}
 
-int main() {
-    try {
+int main() \{
+    try \{
         outer();
-    } catch (int e) {
+    \} catch (int e) \{
         std::printf("caught: %d\n", e);
-    }
-}
+    \}
+\}
 // Output:
 //   enter outer
 //   enter middle
@@ -513,25 +513,25 @@ Scope exit or during stack unwinding:
 #include <exception>
 #include <cstdio>
 
-struct SafeDestructor {
+struct SafeDestructor \{
     bool committed = false;
 
-    ~SafeDestructor() {
-        if (std::uncaught_exceptions() > 0) {
+    ~SafeDestructor() \{
+        if (std::uncaught_exceptions() > 0) \{
             std::printf("WARNING: unwinding, transaction not committed\n");
-        } else {
+        \} else \{
             std::printf("Normal destruction, transaction committed\n");
-        }
-    }
-};
+        \}
+    \}
+\};
 
-void may_throw(bool should_throw) {
+void may_throw(bool should_throw) \{
     SafeDestructor sd;
-    if (!should_throw) {
+    if (!should_throw) \{
         sd.committed = true;
-    }
+    \}
     // If should_throw is true, ~SafeDestructor detects unwinding
-}
+\}
 ```
 
 ## 11. Thread Stacks
@@ -563,7 +563,7 @@ threads, due to ASLR). A guard page (unmapped page) at the bottom of the stack d
 #include <pthread.h>
 #include <cstdint>
 
-void* stack_size_example(void*) {
+void* stack_size_example(void*) \{
     // Query the actual stack size
     pthread_attr_t attr;
     pthread_attr_init(&attr);
@@ -576,7 +576,7 @@ void* stack_size_example(void*) {
 
     // stack_size is the actual usable stack size
     return nullptr;
-}
+\}
 ```
 
 ## Intuition
@@ -594,10 +594,10 @@ void* stack_size_example(void*) {
 Allocating large arrays on the stack can cause stack overflow even without recursion:
 
 ```cpp
-void bad_function() {
+void bad_function() \{
     double matrix[1000][1000];  // 8 MB — exceeds default 8 MB stack
     // Stack overflow immediately on entry
-}
+\}
 ```
 
 For large allocations, use the heap (`std::vector`) or static storage.
@@ -608,11 +608,11 @@ The most classic C++ bug. A reference or pointer to a stack variable becomes dan
 Function returns:
 
 ```cpp
-const int& dangling() {
+const int& dangling() \{
     int local = 42;
     return local;  // WARNING: dangling reference
     // The stack frame is deallocated, local is destroyed
-}
+\}
 
 // Undefined Behavior: using the returned reference
 int x = dangling();  // Reads from deallocated stack memory

@@ -142,7 +142,7 @@ In preprocessor mode, ccache runs the full preprocessor and hashes the resulting
 Compiler flags. The hash input is:
 
 $$
-\mathrm{hash = H(\mathrm{preprocessed source, \mathrm{compiler path, \mathrm{flags, \mathrm{include paths)
+\mathrm\{hash = H(\mathrm\{preprocessed source, \mathrm\{compiler path, \mathrm\{flags, \mathrm\{include paths)
 $$
 
 This is robust but slow: preprocessing can take 30-50% of total compilation time for heavily
@@ -155,7 +155,7 @@ Headers using their file content (not preprocessor output). It falls back to pre
 Detects macros that might affect the output (e.g., `#define` in the including file).
 
 $$
-\mathrm{hash = H(\mathrm{source, \{H(\mathrm{header_1), H(\mathrm{header_2), \ldots\}, \mathrm{flags)
+\mathrm\{hash = H(\mathrm\{source, \\{H(\mathrm\{header_1), H(\mathrm\{header_2), \ldots\\}, \mathrm\{flags)
 $$
 
 Direct mode is significantly faster but can produce false positives (cache hits when the output
@@ -201,18 +201,18 @@ During configuration. This ensures developers who lack caching tools can still b
 **Using CMake Presets (`CMakePresets.json`):**
 
 ```json
-{
+\{
   "configurePresets": [
-    {
+    \{
       "name": "linux-clang-ccache",
       "inherits": "base",
-      "cacheVariables": {
+      "cacheVariables": \{
         "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
         "CMAKE_C_COMPILER_LAUNCHER": "ccache"
-      }
-    }
+      \}
+    \}
   ]
-}
+\}
 ```
 
 **Using Command Line:**
@@ -228,8 +228,8 @@ If using a toolchain file, you can enforce caching for the specific environment.
 ```cmake
 find_program(CCACHE_PROGRAM ccache)
 if(CCACHE_PROGRAM)
-    set(CMAKE_CXX_COMPILER_LAUNCHER "${CCACHE_PROGRAM}")
-    set(CMAKE_C_COMPILER_LAUNCHER "${CCACHE_PROGRAM}")
+    set(CMAKE_CXX_COMPILER_LAUNCHER "$\{CCACHE_PROGRAM\}")
+    set(CMAKE_C_COMPILER_LAUNCHER "$\{CCACHE_PROGRAM\}")
 endif()
 ```
 
@@ -243,7 +243,7 @@ All, while stable dependency targets benefit enormously. You can selectively ena
 if(NOT PROJECT_IS_TOP_LEVEL)
     find_program(CCACHE_PROGRAM ccache)
     if(CCACHE_PROGRAM)
-        set(CMAKE_CXX_COMPILER_LAUNCHER "${CCACHE_PROGRAM}")
+        set(CMAKE_CXX_COMPILER_LAUNCHER "$\{CCACHE_PROGRAM\}")
     endif()
 endif()
 ```
@@ -264,13 +264,13 @@ To use Sccache with MSVC effectively:
 ```cmake
 if(MSVC)
     # 1. Use /Z7 instead of /Zi to allow caching
-    string(REPLACE "/Zi" "/Z7" CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG}")
-    string(REPLACE "/Zi" "/Z7" CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELWITHDEBINFO}")
+    string(REPLACE "/Zi" "/Z7" CMAKE_CXX_FLAGS_DEBUG "$\{CMAKE_CXX_FLAGS_DEBUG\}")
+    string(REPLACE "/Zi" "/Z7" CMAKE_CXX_FLAGS_RELWITHDEBINFO "$\{CMAKE_CXX_FLAGS_RELWITHDEBINFO\}")
 
     # 2. Set Launcher
     find_program(SCCACHE_PROGRAM sccache)
     if(SCCACHE_PROGRAM)
-        set(CMAKE_CXX_COMPILER_LAUNCHER "${SCCACHE_PROGRAM}")
+        set(CMAKE_CXX_COMPILER_LAUNCHER "$\{SCCACHE_PROGRAM\}")
     endif()
 endif()
 ```
@@ -301,9 +301,9 @@ Most CI systems allow saving/restoring directories based on a key.
   with:
     path: ~/.ccache
     # Key includes OS and Compiler Version to prevent ABI mismatches
-    key: ccache-${{ runner.os }}-${{ matrix.compiler }}-${{ github.sha }}
+    key: ccache-${{ runner.os }}-$\{\{ matrix.compiler \}\}-$\{\{ github.sha \}\}
     restore-keys: |
-      ccache-${{ runner.os }}-${{ matrix.compiler }}-
+      ccache-${{ runner.os }}-$\{\{ matrix.compiler \}\}-
 ```
 
 ### 6.2 Remote Backend (Sccache)
@@ -455,8 +455,8 @@ Every time. Reproducibility is a prerequisite for effective caching:
 
 ```bash
 # Ensure reproducible builds
-cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=${PWD}=." \
-      -DCMAKE_C_FLAGS="-fdebug-prefix-map=${PWD}=." \
+cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=$\{PWD\}=." \
+      -DCMAKE_C_FLAGS="-fdebug-prefix-map=$\{PWD\}=." \
       -B build
 ```
 
@@ -503,7 +503,7 @@ Debug symbols often contain absolute paths. Use `-fdebug-prefix-map` (GCC/Clang)
 To generic ones to improve cache sharing across different users.
 
 ```bash
-cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=${PWD}=." -B build
+cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=$\{PWD\}=." -B build
 ```
 
 ### 4. Random or Non-Deterministic Code
@@ -517,7 +517,7 @@ The `__FILE__` macro expands to the source file path, which varies between build
 `-fmacro-prefix-map` to normalize:
 
 ```bash
-cmake -DCMAKE_CXX_FLAGS="-fmacro-prefix-map=${PWD}=src" -B build
+cmake -DCMAKE_CXX_FLAGS="-fmacro-prefix-map=$\{PWD\}=src" -B build
 ```
 
 ### 6. Non-Reproducible Builds
@@ -737,8 +737,8 @@ cmake --build build1
 cp -r build1 build2
 rm -rf build2/**/*.o
 cmake --build build2
-diff <(find build1 -name '*.o' -exec md5sum {} \; | sort) \
-     <(find build2 -name '*.o' -exec md5sum {} \; | sort)
+diff <(find build1 -name '*.o' -exec md5sum \{\} \; | sort) \
+     <(find build2 -name '*.o' -exec md5sum \{\} \; | sort)
 ```
 
 If the diff is empty, the builds are reproducible. Any difference indicates a source of

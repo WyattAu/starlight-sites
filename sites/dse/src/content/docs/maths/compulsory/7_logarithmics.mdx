@@ -55,25 +55,25 @@ logarithm is only defined for positive arguments.
 Several special values follow immediately from the definition:
 
 $$
-\log_a 1 = 0 \quad \mathrm{since } a^0 = 1
+\log_a 1 = 0 \quad \mathrm\{since \} a^0 = 1
 $$
 
 $$
-\log_a a = 1 \quad \mathrm{since } a^1 = a
+\log_a a = 1 \quad \mathrm\{since \} a^1 = a
 $$
 
 $$
-\log_a a^k = k \quad \mathrm{since } a^k = a^k
+\log_a a^k = k \quad \mathrm\{since \} a^k = a^k
 $$
 
 Additionally, for any base $a \gt 0$ with $a \neq 1$:
 
 $$
-A^{\log_a x} = x \quad (x \gt 0)
+A^\{\log_a x\} = x \quad (x \gt 0)
 $$
 
 $$
-\log_a(a^y) = y \quad (y \in \mathbb{R})
+\log_a(a^y) = y \quad (y \in \mathbb\{R\})
 $$
 
 These two identities express the fact that the logarithmic and exponential functions are
@@ -107,7 +107,7 @@ $$
 **Derivation.** Let $m = \log_a x$ and $n = \log_a y$So that $a^m = x$ and $a^n = y$. Then:
 
 $$
-Xy = a^m \cdot a^n = a^{m+n}
+Xy = a^m \cdot a^n = a^\{m+n\}
 $$
 
 By the definition of logarithms, $\log_a(xy) = m + n = \log_a x + \log_a y$.
@@ -115,13 +115,13 @@ By the definition of logarithms, $\log_a(xy) = m + n = \log_a x + \log_a y$.
 ### Quotient Rule
 
 $$
-\log_a \frac{x}{y} = \log_a x - \log_a y
+\log_a \frac\{x\}\{y\} = \log_a x - \log_a y
 $$
 
 **Derivation.** Similarly, let $m = \log_a x$ and $n = \log_a y$:
 
 $$
-\frac{x}{y} = \frac{a^m}{a^n} = a^{m-n}
+\frac\{x\}\{y\} = \frac\{a^m\}\{a^n\} = a^\{m-n\}
 $$
 
 Therefore $\log_a \dfrac{x}{y} = m - n = \log_a x - \log_a y$.
@@ -135,7 +135,7 @@ $$
 **Derivation.** Let $m = \log_a x$So that $a^m = x$. Then:
 
 $$
-X^n = (a^m)^n = a^{mn}
+X^n = (a^m)^n = a^\{mn\}
 $$
 
 Therefore $\log_a(x^n) = mn = n \log_a x$.
@@ -145,7 +145,7 @@ Therefore $\log_a(x^n) = mn = n \log_a x$.
 For any positive $c \neq 1$:
 
 $$
-\log_a b = \frac{\log_c b}{\log_c a}
+\log_a b = \frac\{\log_c b\}\{\log_c a\}
 $$
 
 **Derivation.** Let $y = \log_a b$So that $a^y = b$. Taking logarithms base $c$ of both sides:
@@ -157,13 +157,13 @@ $$
 By the power rule, $y \log_c a = \log_c b$Hence:
 
 $$
-Y = \frac{\log_c b}{\log_c a}
+Y = \frac\{\log_c b\}\{\log_c a\}
 $$
 
 A commonly used special case is the change to base 10:
 
 $$
-\log_a b = \frac{\log_{10} b}{\log_{10} a}
+\log_a b = \frac\{\log_\{10\} b\}\{\log_\{10\} a\}
 $$
 
 <details>
@@ -207,7 +207,7 @@ The **natural logarithm** of $x$Written $\ln x = \log_e x$Uses the base $e \appr
 Number $e$ is defined as:
 
 $$
-E = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n
+E = \lim_\{n \to \infty\} \left(1 + \frac\{1\}\{n\}\right)^n
 $$
 
 The natural logarithm arises in calculus and in continuous growth models. Its importance Stems from
@@ -349,7 +349,7 @@ Change of base formula to bring all logarithms to a common base.
 The pH of a solution is defined as:
 
 $$
-\mathrm{pH} = -\log_{10}[\mathrm H^+]
+\mathrm\{pH\} = -\log_\{10\}[\mathrm H^+]
 $$
 
 Where $[\mathrm H^+]$ is the concentration of hydrogen ions (in mol/L). A lower pH means a higher
@@ -366,7 +366,7 @@ Concentration of hydrogen ions and therefore a more acidic solution.
 A solution has $[\mathrm H^+] = 2.5 \times 10^{-4}$ mol/L. Find its pH.
 
 $$
-\mathrm{pH} = -\log(2.5 \times 10^{-4}) = -\left(\log 2.5 + \log 10^{-4}\right) = -(\log 2.5 - 4) = 4 - \log 2.5 \approx 3.60
+\mathrm\{pH\} = -\log(2.5 \times 10^\{-4\}) = -\left(\log 2.5 + \log 10^\{-4\}\right) = -(\log 2.5 - 4) = 4 - \log 2.5 \approx 3.60
 $$
 
 </details>
@@ -376,7 +376,7 @@ $$
 The Richter magnitude $M$ of an earthquake is defined as:
 
 $$
-M = \log_{10} \frac{I}{I_0}
+M = \log_\{10\} \frac\{I\}\{I_0\}
 $$
 
 Where $I$ is the amplitude of seismic waves and $I_0$ is a reference amplitude (the amplitude of a
@@ -391,7 +391,7 @@ Than one of magnitude 5, and one hundred times more powerful than one of magnitu
 An earthquake has amplitude $5000$ times the reference. Its magnitude is:
 
 $$
-M = \log_{10} 5000 = \log_{10}(5 \times 10^3) = 3 + \log_{10} 5 \approx 3.70
+M = \log_\{10\} 5000 = \log_\{10\}(5 \times 10^3) = 3 + \log_\{10\} 5 \approx 3.70
 $$
 
 </details>
@@ -403,17 +403,17 @@ The compound interest formula is closely related to logarithms and
 compounded $n$ times per year for $t$ years, the accumulated amount $A$ is:
 
 $$
-A = P\left(1 + \frac{r}{100n}\right)^{nt}
+A = P\left(1 + \frac\{r\}\{100n\}\right)^\{nt\}
 $$
 
 To find the time $t$ required to reach a target amount $A$Take logarithms of both sides:
 
 $$
-\begin{aligned}
-A &= P\left(1 + \frac{r}{100n}\right)^{nt} \\
-\log A &= \log P + nt \cdot \log\left(1 + \frac{r}{100n}\right) \\
-T &= \frac{\log A - \log P}{n \cdot \log\left(1 + \frac{r}{100n}\right)}
-\end{aligned}
+\begin\{aligned\}
+A &= P\left(1 + \frac\{r\}\{100n\}\right)^\{nt\} \\
+\log A &= \log P + nt \cdot \log\left(1 + \frac\{r\}\{100n\}\right) \\
+T &= \frac\{\log A - \log P\}\{n \cdot \log\left(1 + \frac\{r\}\{100n\}\right)\}
+\end\{aligned\}
 $$
 
 <details>
@@ -440,13 +440,13 @@ The **half-life** $T$ of a decaying quantity is the time for the quantity to red
 Initial value. For $N(t) = N_0 \cdot a^t$:
 
 $$
-\frac{1}{2} = a^T \implies T = \frac{\log(1/2)}{\log a} = -\frac{\log 2}{\log a}
+\frac\{1\}\{2\} = a^T \implies T = \frac\{\log(1/2)\}\{\log a\} = -\frac\{\log 2\}\{\log a\}
 $$
 
 For continuous decay with rate $k$: $N(t) = N_0 e^{-kt}$And the half-life is:
 
 $$
-T = \frac{\ln 2}{k}
+T = \frac\{\ln 2\}\{k\}
 $$
 
 <details>
@@ -481,7 +481,7 @@ $$
 When $0 < a < 1$$\log_a x$ is strictly decreasing, so the inequality sign is **reversed**:
 
 $$
-\log_a x \gt{} \log_a y \iff x \lt{} y
+\log_a x \gt\{\} \log_a y \iff x \lt\{\} y
 $$
 
 <details>

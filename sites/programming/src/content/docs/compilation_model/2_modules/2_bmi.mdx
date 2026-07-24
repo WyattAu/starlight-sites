@@ -128,7 +128,7 @@ import :Graphics;  // import partition Graphics
 
 export namespace Engine {
     void run();  // re-exported from :Core
-}
+\}
 ```
 
 ```cpp
@@ -149,7 +149,7 @@ export void render() { /* ... */ }
 // engine_graphics_impl.cpp (module partition implementation unit)
 module Engine:Graphics;  // NOTE: no 'export' -- this is an implementation unit
 
-void internal_render_detail() { /* ... */ }
+void internal_render_detail() \{ /* ... */ \}
 ```
 
 **Key rules:**
@@ -192,9 +192,9 @@ Module but is not part of the module's interface:
 // math_utils_impl.cpp (module implementation unit)
 module MathUtils;  // no 'export' -- implementation unit
 
-int factorial_impl(int n) {
+int factorial_impl(int n) \{
     return n &lt;= 1 ? 1 : n * factorial_impl(n - 1);
-}
+\}
 ```
 
 Implementation units do **not** produce BMIs. They are compiled directly to object files. They can
@@ -241,9 +241,9 @@ Risking ODR violations with other modules:
 
 ```cpp
 export module Math;
-namespace detail {
-    int helper(int x) { return x * 2; }  // module linkage
-}
+namespace detail \{
+    int helper(int x) \{ return x * 2; \}  // module linkage
+\}
 export int compute(int x) { return detail::helper(x); }
 ```
 
@@ -677,11 +677,11 @@ export void shutdown();
 
 // engine_render.cpp (implementation partition, no BMI)
 module Engine:API;
-void run() { /* ... */ }
+void run() \{ /* ... */ \}
 
 // engine_audio.cpp (implementation partition, no BMI)
 module Engine:API;
-void shutdown() { /* ... */ }
+void shutdown() \{ /* ... */ \}
 ```
 
 ## 14. BMI and the Export Macro Problem
@@ -696,7 +696,7 @@ C++ codebases commonly use export macros for DLL/shared library symbol visibilit
   #define ENGINE_API __declspec(dllimport)
 #endif
 
-class ENGINE_API Engine { /* ... */ };
+class ENGINE_API Engine \{ /* ... */ \};
 ```
 
 In the module model, `dllexport`/`dllimport` attributes do not apply to module-exported entities.

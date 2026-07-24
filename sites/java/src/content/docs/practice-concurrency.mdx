@@ -19,52 +19,52 @@ Implement a producer-consumer pattern using a shared bounded buffer with threads
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-class Producer implements Runnable {
+class Producer implements Runnable \{
     private final BlockingQueue<Integer> buffer;
     private final int itemsToProduce;
 
-    public Producer(BlockingQueue<Integer> buffer, int itemsToProduce) {
+    public Producer(BlockingQueue<Integer> buffer, int itemsToProduce) \{
         this.buffer = buffer;
         this.itemsToProduce = itemsToProduce;
-    }
+    \}
 
     @Override
-    public void run() {
-        try {
-            for (int i = 0; i < itemsToProduce; i++) {
+    public void run() \{
+        try \{
+            for (int i = 0; i < itemsToProduce; i++) \{
                 buffer.put(i);
                 System.out.println("Produced: " + i);
-            }
-        } catch (InterruptedException e) {
+            \}
+        \} catch (InterruptedException e) \{
             Thread.currentThread().interrupt();
-        }
-    }
-}
+        \}
+    \}
+\}
 
-class Consumer implements Runnable {
+class Consumer implements Runnable \{
     private final BlockingQueue<Integer> buffer;
     private final int itemsToConsume;
 
-    public Consumer(BlockingQueue<Integer> buffer, int itemsToConsume) {
+    public Consumer(BlockingQueue<Integer> buffer, int itemsToConsume) \{
         this.buffer = buffer;
         this.itemsToConsume = itemsToConsume;
-    }
+    \}
 
     @Override
-    public void run() {
-        try {
-            for (int i = 0; i < itemsToConsume; i++) {
+    public void run() \{
+        try \{
+            for (int i = 0; i < itemsToConsume; i++) \{
                 int item = buffer.take();
                 System.out.println("Consumed: " + item);
-            }
-        } catch (InterruptedException e) {
+            \}
+        \} catch (InterruptedException e) \{
             Thread.currentThread().interrupt();
-        }
-    }
-}
+        \}
+    \}
+\}
 
-class ProducerConsumerDemo {
-    public static void main(String[] args) throws InterruptedException {
+class ProducerConsumerDemo \{
+    public static void main(String[] args) throws InterruptedException \{
         BlockingQueue<Integer> buffer = new ArrayBlockingQueue<>(5);
         Thread producer = new Thread(new Producer(buffer, 10));
         Thread consumer = new Thread(new Consumer(buffer, 10));
@@ -72,8 +72,8 @@ class ProducerConsumerDemo {
         consumer.start();
         producer.join();
         consumer.join();
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -87,34 +87,34 @@ Implement a thread-safe singleton using double-checked locking and a Bill Pugh h
 **Hint:** Use `volatile` field with `synchronized` block, or a static inner class holder.
 
 ```java
-class DCLSingleton {
+class DCLSingleton \{
     private static volatile DCLSingleton instance;
 
-    private DCLSingleton() {}
+    private DCLSingleton() \{\}
 
-    public static DCLSingleton getInstance() {
-        if (instance == null) {
-            synchronized (DCLSingleton.class) {
-                if (instance == null) {
+    public static DCLSingleton getInstance() \{
+        if (instance == null) \{
+            synchronized (DCLSingleton.class) \{
+                if (instance == null) \{
                     instance = new DCLSingleton();
-                }
-            }
-        }
+                \}
+            \}
+        \}
         return instance;
-    }
-}
+    \}
+\}
 
-class HolderSingleton {
-    private HolderSingleton() {}
+class HolderSingleton \{
+    private HolderSingleton() \{\}
 
-    private static class Holder {
+    private static class Holder \{
         private static final HolderSingleton INSTANCE = new HolderSingleton();
-    }
+    \}
 
-    public static HolderSingleton getInstance() {
+    public static HolderSingleton getInstance() \{
         return Holder.INSTANCE;
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -133,37 +133,37 @@ import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-class ThreadSafeCache<K, V> {
+class ThreadSafeCache<K, V> \{
     private final Map<K, V> map = new HashMap<>();
     private final ReadWriteLock lock = new ReentrantReadWriteLock();
 
-    public V get(K key) {
+    public V get(K key) \{
         lock.readLock().lock();
-        try {
+        try \{
             return map.get(key);
-        } finally {
+        \} finally \{
             lock.readLock().unlock();
-        }
-    }
+        \}
+    \}
 
-    public void put(K key, V value) {
+    public void put(K key, V value) \{
         lock.writeLock().lock();
-        try {
+        try \{
             map.put(key, value);
-        } finally {
+        \} finally \{
             lock.writeLock().unlock();
-        }
-    }
+        \}
+    \}
 
-    public V getOrDefault(K key, V defaultValue) {
+    public V getOrDefault(K key, V defaultValue) \{
         lock.readLock().lock();
-        try {
+        try \{
             return map.getOrDefault(key, defaultValue);
-        } finally {
+        \} finally \{
             lock.readLock().unlock();
-        }
-    }
-}
+        \}
+    \}
+\}
 ```
 
 ---
@@ -180,27 +180,27 @@ Use the `ForkJoinPool` to parallelize a recursive sum of an integer array.
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
-class ParallelSum extends RecursiveTask<Integer> {
+class ParallelSum extends RecursiveTask<Integer> \{
     private static final int THRESHOLD = 1000;
     private final int[] array;
     private final int start;
     private final int end;
 
-    public ParallelSum(int[] array, int start, int end) {
+    public ParallelSum(int[] array, int start, int end) \{
         this.array = array;
         this.start = start;
         this.end = end;
-    }
+    \}
 
     @Override
-    protected Integer compute() {
-        if (end - start <= THRESHOLD) {
+    protected Integer compute() \{
+        if (end - start <= THRESHOLD) \{
             int sum = 0;
-            for (int i = start; i < end; i++) {
+            for (int i = start; i < end; i++) \{
                 sum += array[i];
-            }
+            \}
             return sum;
-        }
+        \}
 
         int mid = (start + end) / 2;
         ParallelSum left = new ParallelSum(array, start, mid);
@@ -209,15 +209,15 @@ class ParallelSum extends RecursiveTask<Integer> {
         int rightResult = right.compute();
         int leftResult = left.join();
         return leftResult + rightResult;
-    }
-}
+    \}
+\}
 
-class ForkJoinDemo {
-    public static int parallelSum(int[] array) {
+class ForkJoinDemo \{
+    public static int parallelSum(int[] array) \{
         ForkJoinPool pool = new ForkJoinPool();
         return pool.invoke(new ParallelSum(array, 0, array.length));
-    }
-}
+    \}
+\}
 ```
 
 ---
@@ -233,20 +233,20 @@ Chain asynchronous operations using `CompletableFuture` to fetch, transform, and
 ```java
 import java.util.concurrent.CompletableFuture;
 
-class AsyncPatterns {
-    public static CompletableFuture<String> fetchUserId() {
+class AsyncPatterns \{
+    public static CompletableFuture<String> fetchUserId() \{
         return CompletableFuture.supplyAsync(() -> "user-123");
-    }
+    \}
 
-    public static CompletableFuture<String> fetchUserName(String userId) {
+    public static CompletableFuture<String> fetchUserName(String userId) \{
         return CompletableFuture.supplyAsync(() -> "User " + userId);
-    }
+    \}
 
-    public static CompletableFuture<Integer> fetchUserScore(String userId) {
+    public static CompletableFuture<Integer> fetchUserScore(String userId) \{
         return CompletableFuture.supplyAsync(() -> 95);
-    }
+    \}
 
-    public static CompletableFuture<String> buildUserProfile() {
+    public static CompletableFuture<String> buildUserProfile() \{
         return fetchUserId()
             .thenCompose(userId ->
                 fetchUserName(userId).thenCombine(
@@ -254,8 +254,8 @@ class AsyncPatterns {
                     (name, score) -> name + " - Score: " + score
                 )
             );
-    }
-}
+    \}
+\}
 ```
 
 ## Intuition

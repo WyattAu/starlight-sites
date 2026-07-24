@@ -81,8 +81,8 @@ function(enable_sanitizers project_name)
         else()
             list(APPEND SANITIZERS "address")
             # Improves stack traces
-            target_compile_options(${project_name} INTERFACE -fno-omit-frame-pointer)
-            target_link_options(${project_name} INTERFACE -fno-omit-frame-pointer)
+            target_compile_options($\{project_name\} INTERFACE -fno-omit-frame-pointer)
+            target_link_options($\{project_name\} INTERFACE -fno-omit-frame-pointer)
         endif()
     endif()
 
@@ -109,23 +109,23 @@ function(enable_sanitizers project_name)
     if(ENABLE_MSAN)
         if(CMAKE_CXX_COMPILER_ID MATCHES "Clang" AND CMAKE_SYSTEM_NAME MATCHES "Linux")
             list(APPEND SANITIZERS "memory")
-            target_compile_options(${project_name} INTERFACE -fsanitize-memory-track-origins)
+            target_compile_options($\{project_name\} INTERFACE -fsanitize-memory-track-origins)
         else()
             message(WARNING "MSan requires Clang on Linux.")
         endif()
     endif()
 
     # Apply Flags
-    if(NOT "${SANITIZERS}" STREQUAL "")
-        string(REPLACE ";" "," SANITIZERS_STR "${SANITIZERS}")
+    if(NOT "$\{SANITIZERS\}" STREQUAL "")
+        string(REPLACE ";" "," SANITIZERS_STR "$\{SANITIZERS\}")
 
         if(MSVC)
             # MSVC Syntax: /fsanitize=address
-            target_compile_options(${project_name} INTERFACE /fsanitize=${SANITIZERS_STR})
+            target_compile_options(${project_name} INTERFACE /fsanitize=$\{SANITIZERS_STR\})
         else()
             # GCC/Clang Syntax: -fsanitize=address,undefined
-            target_compile_options(${project_name} INTERFACE -fsanitize=${SANITIZERS_STR})
-            target_link_options(${project_name} INTERFACE -fsanitize=${SANITIZERS_STR})
+            target_compile_options(${project_name} INTERFACE -fsanitize=$\{SANITIZERS_STR\})
+            target_link_options(${project_name} INTERFACE -fsanitize=$\{SANITIZERS_STR\})
         endif()
     endif()
 endfunction()
@@ -203,14 +203,14 @@ To verify integration, intentionally introduce a bug protected by a preprocessor
 #include <vector>
 #include <iostream>
 
-int main() {
-    std::vector<int> v = {1, 2, 3};
+int main() \{
+    std::vector<int> v = \{1, 2, 3\};
 #ifdef TRIGGER_ASAN
     // Heap Buffer Overflow
     std::cout << v[3] << "\n";
 #endif
     return 0;
-}
+\}
 ```
 
 **Build and Run:**
@@ -276,11 +276,11 @@ int x = *ptr;
 
 // Instrumented:
 int shadow = *(int8_t*)((uintptr_t)ptr >> 3 + kShadowOffset);
-if (shadow != 0) {
-    if ((intptr_t)ptr & 7 + shadow > 8) {
+if (shadow != 0) \{
+    if ((intptr_t)ptr & 7 + shadow > 8) \{
         __asan_report_load4(ptr);  // report and abort
-    }
-}
+    \}
+\}
 int x = *ptr;
 ```
 
@@ -292,16 +292,16 @@ Buffer overflows and use-after-scope bugs:
 ```cpp
 #include <iostream>
 
-void stack_overflow_demo() {
+void stack_overflow_demo() \{
     int a[4];
     int b[4];
     // ASan inserts redzones between a and b
     // Layout in memory:
     //   [redzone][a[0..3]][redzone][b[0..3]][redzone]
-    for (int i = 0; i &lt; 8; ++i) {
+    for (int i = 0; i &lt; 8; ++i) \{
         a[i] = i;  // ASan catches a[4]..a[7] as stack-buffer-overflow
-    }
-}
+    \}
+\}
 ```
 
 ### Leak Detection (LSan)
@@ -316,12 +316,12 @@ Unreachable allocations. It distinguishes between:
 ```cpp
 #include <cstdlib>
 
-void leak_demo() {
+void leak_demo() \{
     // Direct leak: pointer goes out of scope
     int* p = (int*)malloc(sizeof(int) * 10);
     *p = 42;
     // p is never freed
-}
+\}
 ```
 
 ## Deep Dive: ThreadSanitizer
@@ -344,27 +344,27 @@ Operations, thread creation/join) to maintain the vector clock state.
 
 int shared_counter = 0;
 
-void increment_bad(int count) {
-    for (int i = 0; i &lt; count; ++i) {
+void increment_bad(int count) \{
+    for (int i = 0; i &lt; count; ++i) \{
         shared_counter++;  // TSan: data race (non-atomic write)
-    }
-}
+    \}
+\}
 
-void increment_good(int count) {
-    for (int i = 0; i &lt; count; ++i) {
+void increment_good(int count) \{
+    for (int i = 0; i &lt; count; ++i) \{
         // Still a race — this is NOT atomic
         shared_counter++;
-    }
-}
+    \}
+\}
 
-int main() {
+int main() \{
     // TSan detects the race between these two threads
     std::thread t1(increment_bad, 100000);
     std::thread t2(increment_bad, 100000);
     t1.join();
     t2.join();
     std::cout << "counter (likely wrong): " << shared_counter << "\n";
-}
+\}
 ```
 
 Typical TSan output:
@@ -392,22 +392,22 @@ TSan correctly handles `std::atomic` operations — it recognizes that `load``st
 #include <atomic>
 #include <iostream>
 
-std::atomic&lt;int&gt; atomic_counter{0};
+std::atomic&lt;int&gt; atomic_counter\{0\};
 
-void atomic_increment(int count) {
-    for (int i = 0; i &lt; count; ++i) {
+void atomic_increment(int count) \{
+    for (int i = 0; i &lt; count; ++i) \{
         atomic_counter.fetch_add(1, std::memory_order_relaxed);
-    }
-}
+    \}
+\}
 
-int main() {
+int main() \{
     std::thread t1(atomic_increment, 100000);
     std::thread t2(atomic_increment, 100000);
     t1.join();
     t2.join();
     std::cout << "atomic counter (correct): " << atomic_counter.load() << "\n";
     // TSan: no warning — atomic operations are properly synchronized
-}
+\}
 ```
 
 ## Deep Dive: UBSan Checks
@@ -444,7 +444,7 @@ UBSan can detect a wide range of undefined behavior. Key checks include:
 #include <iostream>
 #include <climits>
 
-int main() {
+int main() \{
     int x = INT_MAX;
     // UBSan catches: signed integer overflow
     int y = x + 1;
@@ -459,7 +459,7 @@ int main() {
     // *p = 42;
 
     std::cout << "UBSan checks active\n";
-}
+\}
 ```
 
 ## Suppression Files
@@ -535,32 +535,32 @@ Track the allocation boundaries. You must either:
 #include <cstdlib>
 #include <cstdint>
 
-extern "C" {
+extern "C" \{
     void __asan_poison_memory_region(const void* addr, size_t size);
     void __asan_unpoison_memory_region(const void* addr, size_t size);
-}
+\}
 
-class PoolAllocator {
+class PoolAllocator \{
     char* pool_;
     size_t offset_ = 0;
     size_t capacity_;
 public:
     explicit PoolAllocator(size_t capacity)
-        : pool_(new char[capacity]), capacity_(capacity) {}
+        : pool_(new char[capacity]), capacity_(capacity) \{\}
 
-    void* allocate(size_t size) {
+    void* allocate(size_t size) \{
         void* ptr = pool_ + offset_;
         offset_ += size;
         __asan_unpoison_memory_region(ptr, size);
         return ptr;
-    }
+    \}
 
-    void deallocate(void* ptr, size_t size) {
+    void deallocate(void* ptr, size_t size) \{
         __asan_poison_memory_region(ptr, size);
-    }
+    \}
 
-    ~PoolAllocator() { delete[] pool_; }
-};
+    ~PoolAllocator() \{ delete[] pool_; \}
+\};
 ```
 
 ### 4. Sanitizer Overhead in Performance-Critical Code
