@@ -41,3 +41,9 @@ Wyatt develops resources across multiple UK and international qualification syst
 Select your subject to find unit-by-topic breakdowns. Each section builds from core concepts to exam-level understanding. Use the practice materials to consolidate your knowledge before the exam.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Highers](./)
+- [Scottish Highers Flashcards: Biology](./flashcards-biology)
+- [Scottish Highers Flashcards: Chemistry](./flashcards-chemistry)

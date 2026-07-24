@@ -935,3 +935,9 @@ Advanced patterns combine TypeScript's type-level features to create sophisticat
 - [[typescript/advanced-types]] - Type-level arithmetic and template literals
 - [[typescript/classes]] - Structural versus nominal typing trade-offs
 - [[typescript/error-handling]] - Result patterns and exhaustive switch statements
+
+## See Also
+
+- [Typescript](./)
+- [advanced types](./advanced-types)
+- [Classes](./classes)

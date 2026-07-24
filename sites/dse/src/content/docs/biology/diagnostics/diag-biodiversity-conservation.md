@@ -440,3 +440,9 @@ fishing quotas.)
 **Forgetting that Simpson's Diversity Index ranges from 0 to 1 where higher means more diverse:** Students often assume a higher D value means less diversity. Remember: D = 0 means no diversity (one species dominates entirely), while D = 1 means maximum diversity.
 
 **Mixing up in situ and ex situ conservation:** In situ means "on site" (protecting species in their natural habitat), while ex situ means "off site" (zoos, seed banks). Don't confuse which preserves the entire ecosystem versus just individual species.
+
+## See Also
+
+- [Diagnostics](./)
+- [Evolution and Ecology -- Diagnostic Tests](./diag-evolution-ecology)
+- [Genetics -- Diagnostic Tests](./diag-genetics)

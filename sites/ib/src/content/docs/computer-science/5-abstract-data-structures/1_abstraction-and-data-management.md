@@ -1687,3 +1687,9 @@ Data management is about organising information efficiently. A database stores d
 4. **Assuming abstract data types are the same as their implementations.** An ADT specifies behaviour (operations and their semantics), not implementation. A stack can be implemented with an array or a linked list — the ADT is the same. Testing only one implementation does not guarantee the ADT's contract is satisfied across all implementations.
 
 5. **Ignoring the cost of abstraction.** Every layer of abstraction adds overhead. A high-level language is easier to write but slower than assembly. A database view simplifies queries but may hide performance issues. Always consider whether the abstraction's benefits outweigh its costs for the specific use case.
+
+## See Also
+
+- [Abstract Data Structures](./)
+- [IB Computer Science](..)
+- [Measurement and Data Processing](../../chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing)

@@ -193,3 +193,8 @@ This excerpt integrates close reading (language analysis), context (narrative th
 **Treating secondary criticism as decoration rather than engagement:** Dropping in a critic's name without engaging with their argument does not demonstrate critical awareness. You must explain what the critic argues, evaluate their interpretation, and use it to develop your own reading. Disagreement with a critic is just as valid as agreement.
 
 **Neglecting structure at the essay level:** A coursework essay needs an argumentative structure, not just a sequence of paragraph topics. Each section should build on the previous one, and the conclusion should synthesise rather than merely summarise. Plan the essay as an argument, not a list.
+
+## See Also
+
+- [Coursework](./)
+- [A-Level English](..)

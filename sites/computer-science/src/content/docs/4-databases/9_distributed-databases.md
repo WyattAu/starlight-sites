@@ -184,3 +184,8 @@ A distributed database is like a library with multiple branches — each branch 
 
 **Forgetting that distributed transactions are expensive:** Two-phase commit across nodes has significant overhead. Consider eventual consistency for performance-critical applications.
 
+## See Also
+
+- [Database Systems](./)
+- [Database Systems (Advanced)](./12_databases-advanced)
+- [University Computing Flashcards: Databases](./13_flashcards-databases)

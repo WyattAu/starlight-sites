@@ -438,3 +438,9 @@ wavelengths of visible light are absorbed.
 **Confusing electrophilic addition with electrophilic substitution:** Alkenes undergo electrophilic addition (the double bond breaks and atoms add across it). Arenes undergo electrophilic substitution (a hydrogen is replaced while the aromatic ring is preserved). Getting the mechanism type wrong loses marks even if the individual steps are correct.
 
 **Forgetting that diazonium salts must be kept cold:** Diazonium salts are thermally unstable. Above about $5\,^\circ\text{C}$, they decompose to release N$_2$ gas and form a carbocation that reacts with water, giving a mixture of unwanted products. Always state the $0$--$5\,^\circ\text{C}$ condition when preparing diazonium salts.
+
+## See Also
+
+- [Diagnostics](./)
+- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
+- [Alkanes and Alkenes -- Diagnostic Tests](./diag-alkanes-alkenes)

@@ -108,3 +108,9 @@ Answer each question. Check your answers against the key at the end.
 **Using literary terminology without understanding it:** Terms like "unreliable narrator," "pathetic fallacy," and "free indirect discourse" have specific meanings. Using them incorrectly (e.g., calling any first-person narrator "unreliable" without evidence) weakens your analysis. Only use terminology you can define and apply precisely.
 
 **Accumulating quotations instead of building an argument:** A string of quotations with brief comments is not analysis. Each quotation should serve a specific point in a sustained argument. Plan your essay as a series of claims, each supported by close reading of specific evidence. Quality of engagement matters more than quantity of quotations.
+
+## See Also
+
+- [Diagnostics](./)
+- [A-Level English](..)
+- [Literary Analysis](../1-literary-analysis/1_literary-analysis)

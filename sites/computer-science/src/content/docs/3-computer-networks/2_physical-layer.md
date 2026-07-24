@@ -205,3 +205,9 @@ Transitions for clock recovery, preventing long runs of identical bits.
 **Forgetting that noise limits channel capacity:** Shannon's theorem shows that even with perfect encoding, noise limits the maximum reliable bit rate. Don't assume infinite capacity is possible.
 
 **Mixing up guided with unguided media:** Guided media use physical cables (twisted pair, fibre). Unguided media use wireless (radio, microwave). Don't confuse the two categories.
+
+## See Also
+
+- [Computer Networks](./)
+- [Network Layer](./4_network-layer)
+- [Transport Layer](./5_transport-layer)

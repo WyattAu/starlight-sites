@@ -42,3 +42,9 @@ Wyatt develops resources across mathematics, physics, and computer science, enab
 Start with linear algebra and calculus to build core mathematical maturity. Each topic progresses from definitions through proofs to applications. Use the practice problems to develop your proof-writing and problem-solving skills.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Mathematics](./)
+- [Mathematics](./)
+- [abstract algebra](./abstract-algebra)

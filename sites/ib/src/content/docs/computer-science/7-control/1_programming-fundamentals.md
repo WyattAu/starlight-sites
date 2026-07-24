@@ -1830,3 +1830,9 @@ The three basic control structures — sequence, selection, and iteration — ar
 4. **Not handling edge cases in functions.** Functions should handle empty inputs, single-element inputs, and boundary values. A function that sorts an array but fails on an empty array or a single-element array is incomplete. Always consider: what happens when the input is at its minimum or maximum size?
 
 5. **Confusing pass-by-value with pass-by-reference.** When passing variables to functions, some languages pass by value (a copy is made) and others by reference (the original is modified). Modifying a parameter inside a function may or may not affect the original variable depending on the language's passing convention. Know which your language uses.
+
+## See Also
+
+- [Control](./)
+- [IB Computer Science](..)
+- [JETS](../8-object-oriented-programming/1_object-oriented-programming)

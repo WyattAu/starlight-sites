@@ -41,3 +41,8 @@ Wyatt develops resources across driving tests internationally, providing compara
 Start with EU regulations to build foundational driving knowledge. Each topic progresses from rules to practical application. Use the practice tests to assess your readiness for the actual driving theory test.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [EU Driving Test](./)
+- [Theory Test](./theory-test)

@@ -41,3 +41,9 @@ Wyatt develops resources across multiple qualification systems, enabling a compa
 Select your subject and class level to find structured topic breakdowns. Each section builds from NCERT fundamentals to exam-level application. Use the practice problems to master the step-by-step approach CBSE examiners expect.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [CBSE](./)
+- [CBSE Chemistry Study Guide](./chemistry)
+- [CBSE Flashcards: Chemistry Class 12](./flashcards-chemistry)

@@ -81,3 +81,8 @@ The personal statement is your one direct line of communication with the people 
 
 Interviews at places like Oxford and Cambridge are not about what you've memorised — they're about how you think when confronted with unfamiliar problems. The interviewer will give you a problem you haven't seen before and watch how you approach it: do you ask clarifying questions, break it into parts, consider special cases, and communicate your reasoning evidently? The ability to think out loud, admit uncertainty, and follow a logical chain of reasoning under pressure is exactly what's needed for tutorials and supervisions. Preparing for interviews means practising this kind of thinking, not rehearsing answers.
 
+## See Also
+
+- [Admissions Tests](./)
+- [Admissions](./)
+- [About This Site](./about)

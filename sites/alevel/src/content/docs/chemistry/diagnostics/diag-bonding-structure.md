@@ -444,3 +444,9 @@ molecules (1 mark).
 **Assuming polar bonds always make a molecule polar:** A molecule can have polar bonds but be non-polar if the bond dipoles cancel due to symmetry. CO$_2$ has two polar C=O bonds but is linear and symmetric, so the dipoles cancel. CCl$_4$ has four polar C-Cl bonds but tetrahedral symmetry cancels them. Check the molecular geometry, not just the bond polarity.
 
 **Thinking intermolecular forces and intramolecular bonds are the same thing:** Melting and boiling involve overcoming intermolecular forces (hydrogen bonds, dipole-dipole, van der Waals), not breaking covalent or ionic bonds within molecules. SiO$_2$ has a high melting point because you must break covalent bonds in the giant covalent network, but CO$_2$ sublimes at low temperature because only weak van der Waals forces between molecules need to be overcome.
+
+## See Also
+
+- [Diagnostics](./)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](./diag-atomic-structure)
+- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)

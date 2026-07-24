@@ -444,3 +444,9 @@ Confirmed.
 **Applying the Fundamental Theorem of Calculus across a singularity:** If the integrand has a discontinuity within the interval of integration (e.g., $\frac{1}{x}$ at $x = 0$), you must split the integral and treat it as a limit. Writing $[\ln|x|]_{-1}^{1} = 0$ is incorrect because the integral diverges at $x = 0$.
 
 **Confusing displacement with distance travelled:** Displacement is $\int \mathbf{v}\,dt$ (can be positive or negative). Distance is $\int |\mathbf{v}|\,dt$ (always positive). Students often compute displacement when the question asks for distance, or vice versa. When the velocity changes sign, you must split the integral at the point where $v = 0$.
+
+## See Also
+
+- [Diagnostics](./)
+- [Differentiation -- Diagnostic Tests](./diag-differentiation)
+- [Functions -- Diagnostic Tests](./diag-functions)

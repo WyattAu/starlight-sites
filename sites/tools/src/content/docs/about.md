@@ -42,3 +42,9 @@ Wyatt develops resources across development tools, programming, and systems admi
 Start with Git to build essential version control skills. Each topic progresses from basic usage to advanced workflows. Use the practice problems to develop your toolchain proficiency through hands-on exercises.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Developer Tools & Knowledge](./)
+- [Kubernetes and Docker](./kubernetes-docker)
+- [Algorithms Practice](./practice-algorithms)

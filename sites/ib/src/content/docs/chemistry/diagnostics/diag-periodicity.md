@@ -210,3 +210,9 @@ weak acid and HCl is a strong acid.
 **Confusing atomic radius trend with ionic radius trend:** Atomic radius decreases across a period. Ionic radius depends on whether the ion is a cation (smaller than parent) or anion (larger than parent).
 
 **Mixing up electronegativity with electron affinity:** Electronegativity is the ability to attract bonding electrons. Electron affinity is the energy change when gaining an electron. They're related but different concepts.
+
+## See Also
+
+- [Diagnostics](./)
+- [Measurement and Data Processing -- Diagnostic Tests](./diag-measurement)
+- [Redox Reactions -- Diagnostic Tests](./diag-redox)

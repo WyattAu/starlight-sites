@@ -105,3 +105,8 @@ Write a cover letter for a job application:
 4. **Have conversations** - Find a language partner
 5. **Use linking words** - Makes your writing more connected
 
+## See Also
+
+- [Cefr Levels](./)
+- [B2 Upper Intermediate Level](./b2-upper-intermediate)
+- [A1 Beginner](./a1-beginner)

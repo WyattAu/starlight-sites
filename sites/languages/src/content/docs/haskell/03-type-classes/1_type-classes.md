@@ -721,3 +721,9 @@ class Hashable a where
 **Confusing `Foldable` with `Traversable`:** `Foldable` only consumes elements; `Traversable` applies an effectful function and preserves structure. Using `foldMap` when you need `traverse` loses the container shape.
 
 **Ignoring the monad laws:** Breaking left identity, right identity, or associativity laws makes monadic code behave unpredictably. Relying on a monad that violates these laws leads to subtle bugs during refactoring.
+
+## See Also
+
+- [Type Classes](./)
+- [Haskell](..)
+- [Sealed Classes](../../dart/07-dart3-features/02-sealed-classes)

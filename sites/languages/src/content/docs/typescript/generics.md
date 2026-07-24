@@ -748,3 +748,9 @@ Generics are TypeScript's way of writing code that works with any type while pre
 - [[typescript/advanced-types]] - Recursive types, variadic tuples, and branded types
 - [[typescript/classes]] - Generic classes and interface implementation
 - [[typescript/functions]] - Generic function signatures and overload patterns
+
+## See Also
+
+- [Typescript](./)
+- [Advanced Patterns](./advanced-patterns)
+- [advanced types](./advanced-types)

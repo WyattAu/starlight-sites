@@ -42,3 +42,9 @@ Wyatt develops individual language resources across 15+ programming languages, p
 Browse by paradigm or language to find the comparisons relevant to your needs. Each comparison highlights trade-offs and provides guidance on when to choose each approach.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Programming Languages](./)
+- [Programming Language Comparison Guide](./hub)
+- [Setup](./dart/02-setup)

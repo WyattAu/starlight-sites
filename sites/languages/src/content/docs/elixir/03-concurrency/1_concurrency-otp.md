@@ -866,3 +866,9 @@ framework:
 - **Using `:one_for_all` when `:one_for_one` suffices:** `:one_for_all` restarts every child when one crashes, which is wasteful if children are independent. Only use `:one_for_all` when children depend on each other's state.
 - **Ignoring process linking and monitoring:** `spawn` creates an unlinked process whose death is silently ignored. Use `spawn_link` or `spawn_monitor` so the parent knows when a child crashes, enabling proper supervision.
 - **Calling `GenServer.call` from inside a GenServer callback:** This can cause deadlocks if the target GenServer is also calling back. Use `GenServer.cast` or schedule the call with `send` to avoid circular dependencies.
+
+## See Also
+
+- [Concurrency](./)
+- [Elixir](..)
+- [Concurrency](../../haskell/05-advanced/2_concurrency)

@@ -657,3 +657,9 @@ exclusive. The student has confused two fundamentally different concepts.
 **Forgetting the complement rule for "at least one":** $P(\text{at least one}) = 1 - P(\text{none})$ is one of the most useful identities in probability. Students often try to calculate $P(\text{at least one})$ directly by adding up $P(\text{exactly 1}) + P(\text{exactly 2}) + \cdots$, which is tedious and error-prone. The complement approach is almost always simpler.
 
 **Confusing $P(A|B)$ with $P(B|A)$:** $P(A|B)$ is the probability of $A$ given $B$ has occurred. $P(B|A)$ is the probability of $B$ given $A$ has occurred. These are generally not equal. Bayes' theorem relates them: $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$. Swapping the conditioning event gives a completely different probability.
+
+## See Also
+
+- [Diagnostics](./)
+- [Differentiation -- Diagnostic Tests](./diag-differentiation)
+- [Functions -- Diagnostic Tests](./diag-functions)

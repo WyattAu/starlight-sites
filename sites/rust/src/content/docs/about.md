@@ -42,3 +42,9 @@ Wyatt develops resources across Rust, C++, and systems programming, providing th
 Start with ownership and borrowing to understand Rust's foundation. Each topic progresses from basic concepts to advanced patterns. Use the practice problems to internalise the ownership model through hands-on coding.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Rust](./)
+- [Macros](./08-macros)
+- [Rust Flashcards: Fundamentals](./flashcards-rust-basics)

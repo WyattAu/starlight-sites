@@ -458,3 +458,9 @@ xylem sap as amino acids.
 **Forgetting that transpiration is driven by evaporation, not by the plant "pumping" water:** Water moves up the xylem through cohesion-tension — evaporation at the leaf surface creates tension that pulls the entire water column upward. There is no active pumping.
 
 **Mixing up xylem and phloem transport direction:** Xylem transports water and minerals one-way (upward only). Phloem transports sugars two-way (both up and down) depending on source-to-sink direction.
+
+## See Also
+
+- [Diagnostics](./)
+- [Cell Biology and Biochemistry -- Diagnostic Tests](./diag-cell-biology-biochemistry)
+- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)

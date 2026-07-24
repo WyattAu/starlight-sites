@@ -1245,3 +1245,9 @@ linked above.
 
 
 </aside>
+
+## See Also
+
+- [Kinetics](./)
+- [IB Chemistry](..)
+- [Chemical Bonding and Structure](../4-chemical-bonding/1_chemical-bonding)

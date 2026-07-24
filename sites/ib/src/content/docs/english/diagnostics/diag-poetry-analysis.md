@@ -112,3 +112,9 @@ Answer each question. Check your answers against the key at the end.
 **Assuming form and content are separate:** In poetry, how something is said (form) shapes what is said (content). Always connect technical analysis to meaning.
 
 **Forgetting to consider multiple interpretations:** Poetry is often ambiguous. Consider different readings and explain which you find most convincing and why.
+
+## See Also
+
+- [Diagnostics](./)
+- [English](..)
+- [Poetry Analysis Guide for IB English](../poetry-analysis-guide)

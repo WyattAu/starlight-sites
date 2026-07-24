@@ -851,3 +851,9 @@ TypeScript and React form a powerful combination where types serve as live docum
 - [[typescript/classes]] - Component lifecycle and class components
 - [[typescript/generics]] - Generic hooks and polymorphic components
 - [[typescript/functions]] - Callback typing and event handler patterns
+
+## See Also
+
+- [Typescript](./)
+- [TypeScript Fundamentals Flashcards](./flashcards-typescript-basics)
+- [TypeScript Fundamentals Practice (Interactive)](./practice-typescript-basics)

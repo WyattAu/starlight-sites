@@ -794,3 +794,9 @@ Error handling in TypeScript centers on the never type (the bottom type with no 
 - [[typescript/functions]] - Function return types and assertion signatures
 - [[typescript/generics]] - Generic Result type with type parameters
 - [[typescript/classes]] - Custom error class hierarchies
+
+## See Also
+
+- [Typescript](./)
+- [Advanced Patterns](./advanced-patterns)
+- [advanced types](./advanced-types)

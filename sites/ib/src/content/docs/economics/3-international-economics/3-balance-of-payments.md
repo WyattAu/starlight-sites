@@ -572,3 +572,9 @@ Empirical estimates of $\beta$ are mixed:
 - **Multinational corporations** can bring technology transfer and employment but may also exploit
   labour and repatriate profits
 - Key calculations: current account balance, trade balance, net factor income
+
+## See Also
+
+- [International Economics](./)
+- [International Trade](./1-trade)
+- [Exchange Rates](./2-exchange-rates)

@@ -454,3 +454,9 @@ contamination of the product.)
 **Assuming all cells with no cell wall must be animal cells:** Protozoa like Amoeba are eukaryotic but lack cell walls. The absence of a cell wall alone doesn't prove a cell is from an animal.
 
 **Confusing competitive and non-competitive inhibition effects on Vmax and Km:** Competitive inhibitors increase Km (lower apparent affinity) but don't change Vmax. Non-competitive inhibitors decrease Vmax but don't change Km. Mixing these up is a common exam error.
+
+## See Also
+
+- [Diagnostics](./)
+- [Plant Biology -- Diagnostic Tests](./diag-plant-biology)
+- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)

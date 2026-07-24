@@ -372,3 +372,9 @@ The naive calculation overestimates by a factor of 1.5 because the stress is not
 wire -- it varies linearly from zero at the bottom to a maximum at the top. The naive formula
 assumes the entire wire experiences the maximum stress (full weight divided by area), whereas the
 correct integral accounts for the linear variation.
+
+## See Also
+
+- [Diagnostics](./)
+- [Wave Properties -- Diagnostic Tests](./diag-wave-properties)
+- [Capacitance -- Diagnostic Tests](./diag-capacitance)

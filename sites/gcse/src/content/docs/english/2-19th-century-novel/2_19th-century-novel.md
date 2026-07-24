@@ -624,3 +624,8 @@ Developing a precise analytical vocabulary and practising close reading are esse
 performance in this area.
 
 </aside>
+
+## See Also
+
+- [19th Century Novel](./)
+- [GCSE English Literature](..)

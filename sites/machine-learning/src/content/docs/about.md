@@ -42,3 +42,9 @@ Wyatt develops resources across machine learning, mathematics, and programming, 
 Start with the mathematical foundations to build the understanding ML requires. Each topic progresses from theory to practical implementation. Use the practice problems to develop your ML skills through hands-on projects.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Machine Learning](./)
+- [advanced topics](./advanced-topics)
+- [Machine Learning](./intro)

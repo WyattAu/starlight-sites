@@ -1096,3 +1096,9 @@ The IB course is structured around this thinking process. You start with the fun
 4. **Confusing local and wide area networks.** A LAN connects devices in a small area (school, office) with high speed and low cost. A WAN connects LANs over large distances with higher cost and lower speed. The Internet is a WAN, not a LAN. Misidentifying the network type leads to incorrect analysis of costs, speeds, and use cases.
 
 5. **Neglecting the role of protocols in networking.** Protocols are standardised rules that enable communication between different systems. Without understanding TCP/IP, HTTP, and other protocols, you cannot explain how data moves across networks. Focus on *why* protocols exist (interoperability, reliability, error correction) not just *what* they are.
+
+## See Also
+
+- [IB Computer Science](./)
+- [IB Computer Science Practice (Interactive)](./practice-computer-science)
+- [Assessment](./assessment)

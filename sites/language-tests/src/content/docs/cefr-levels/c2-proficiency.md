@@ -87,3 +87,8 @@ Prepare and deliver a 20-minute presentation on an academic topic.
 4. **Engage in discussions** - Debate complex topics
 5. **Study etymology** - Deepens word understanding
 
+## See Also
+
+- [Cefr Levels](./)
+- [A1 Beginner](./a1-beginner)
+- [A2 Elementary Level](./a2-elementary)

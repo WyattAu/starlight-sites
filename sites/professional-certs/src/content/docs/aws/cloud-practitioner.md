@@ -158,3 +158,7 @@ D) You need to maintain hardware
 4. **Practice with AWS Free Tier** - Get hands-on experience
 5. **Review AWS Well-Architected Framework** - Best practices for cloud architecture
 
+## See Also
+
+- [Aws](./)
+- [Professional Certifications](..)

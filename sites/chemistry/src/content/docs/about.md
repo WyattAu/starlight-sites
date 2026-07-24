@@ -41,3 +41,9 @@ Wyatt develops resources across chemistry, physics, and biology, enabling interd
 Begin with physical chemistry to build the thermodynamic and quantum foundations. Each topic progresses from fundamental principles to advanced applications. Use the practice problems to develop the analytical skills chemistry demands.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Chemistry](./)
+- [Chemistry](./)
+- [Complete University Chemistry Study Guide](./hub)

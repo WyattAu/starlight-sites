@@ -656,3 +656,9 @@ CMake presets define reusable build configurations (debug, release, sanitizer bu
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
+## See Also
+
+- [2_build_system](./)
+- [CMake Targets Properties and Generator Expressions](./1_cmake_targets_properties_generator)
+- [Ninja Build System and Parrallelism](./2_ninja_and_parallelism)

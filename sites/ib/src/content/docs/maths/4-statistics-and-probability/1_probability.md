@@ -1048,3 +1048,9 @@ Think of probability as measuring the "size" of the favorable outcomes relative 
 4. **Double-counting outcomes in sample spaces.** When listing outcomes, ensure each is equally likely before dividing by the total. If outcomes are not equally likely, use weighted probabilities instead of simple fractions.
 
 5. **Assuming the addition rule applies to all events.** $P(A \cup B) = P(A) + P(B)$ is only valid for mutually exclusive events. For overlapping events, you must subtract the intersection: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
+
+## See Also
+
+- [Statistics And Probability](./)
+- [Probability Distributions](./3_probability-distributions)
+- [Statistics](./2_statistics)

@@ -564,3 +564,9 @@ survive.
 > **Sources**: AQA Geography (7037) specification; FAO, _The State of Food Security and Nutrition in
 > the World_ (2023); IEA, _World Energy Outlook_ (2023); World Bank data; UN Population Division;
 > WHO health statistics; Global Footprint Network.
+
+## See Also
+
+- [Human Geography](./)
+- [Changing Places](./1_changing-places)
+- [Global Systems and Governance](./2_global-systems)

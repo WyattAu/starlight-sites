@@ -717,3 +717,9 @@ Swift functions are first-class values that can be assigned to variables, passed
 **Capturing `self` strongly in escaping closures:** Escaping closures that capture `self` without `[weak self]` create retain cycles. Always use a capture list in closures stored beyond the function's lifetime.
 
 **Using `map` when `compactMap` is needed:** `map` preserves optionals in the result array, leading to `[T?]` instead of `[T]`. Use `compactMap` to filter out `nil` values automatically.
+
+## See Also
+
+- [Functions Closures](./)
+- [Swift](..)
+- [Functions](../../go/basics/functions)

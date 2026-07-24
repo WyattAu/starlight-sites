@@ -243,3 +243,9 @@ $50\%$ only at the mean ($730\,\mathrm{g}$), not at $750\,\mathrm{g}$.
 **Mixing up discrete and continuous distributions:** Discrete distributions (binomial, Poisson) use exact values. Continuous distributions (normal) use intervals. Don't apply continuity correction to discrete distributions.
 
 ## Cross-References
+
+## See Also
+
+- [Diagnostics](./)
+- [Probability -- Diagnostic Tests](./diag-probability)
+- [Complex Numbers -- Diagnostic Tests](./diag-complex-numbers)

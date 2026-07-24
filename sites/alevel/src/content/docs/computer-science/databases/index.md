@@ -196,3 +196,9 @@ Databases exist to solve a fundamental problem: how do you store, retrieve, and 
 The relational model, introduced by Edgar Codd, revolutionised how we think about data by treating it as collections of tuples (rows) in relations (tables), rather than as hierarchical file structures. The key insight is that relationships between data are expressed through matching values, not through physical pointers or nested structures. This abstraction makes it far easier to write queries, modify the schema, and reason about data integrity. When you write a SQL JOIN, you are telling the database to find matching rows across tables — the engine handles the mechanical work of locating those matches efficiently.
 
 Transactions and ACID properties ensure that even when things go wrong — power failures, software crashes, concurrent edits — the database remains in a consistent state. Think of a bank transfer: money must leave one account and arrive in another. If the system crashes halfway through, a transaction ensures either both operations complete or neither does, preventing money from vanishing into thin air. This reliability, combined with the flexibility of SQL and the efficiency of indexing, is why relational databases have been the backbone of information systems for decades.
+
+## See Also
+
+- [Computer Science](..)
+- [Relational Databases](./01-relational-databases)
+- [Diagnostics](../../biology/diagnostics)

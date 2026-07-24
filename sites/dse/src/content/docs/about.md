@@ -41,3 +41,9 @@ Wyatt holds qualifications across multiple educational frameworks and develops r
 Start with the subject pages to find the topics you need. Each section is structured for quick navigation and focused revision. Use the flashcards and practice problems to test your understanding before exam day.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [DSE Notes](./)
+- [Complete DSE Study Guide — Everything You Need to Pass](./hub)
+- [Cell Biology](./biology/1-cell-biology)

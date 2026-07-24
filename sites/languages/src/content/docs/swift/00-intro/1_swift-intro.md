@@ -520,3 +520,9 @@ Swift is Apple's answer to the question: can we have C++ performance with Python
 - **Force-unwrapping optionals carelessly:** Using `!` on an optional crashes at runtime if the value is `nil`. Always use `if let`, `guard let`, or the nil-coalescing operator `??` to safely unwrap optionals.
 - **Ignoring ARC and creating retain cycles:** Strong reference cycles between classes (e.g., parent-child relationships) cause memory leaks. Use `weak` or `unowned` references to break cycles, especially in closures and delegate patterns.
 - **Using `var` where `let` should be used:** Swift encourages immutability. Declaring variables with `var` when they are never mutated makes code harder to reason about and prevents compiler optimisations. Default to `let` and switch to `var` only when reassignment is needed.
+
+## See Also
+
+- [Intro](./)
+- [Swift](..)
+- [Introduction to Dart & Flutter](../../dart/01-intro)

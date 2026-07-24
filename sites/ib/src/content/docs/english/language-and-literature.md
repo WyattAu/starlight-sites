@@ -347,3 +347,9 @@ After reviewing this overview, assess your readiness for each component:
 10. Are you engaging in regular reflective practice to track your progress?
 
 If you answered "no" to any of these questions, refer to the relevant section above and develop a specific plan for improvement. The Language and Literature course rewards students who combine broad knowledge of text types with precise analytical skill and disciplined self-assessment.
+
+## See Also
+
+- [English](./)
+- [A Streetcar Named Desire](./a-street-car-named-desire)
+- [Chronicle of a Death Foretold — Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)

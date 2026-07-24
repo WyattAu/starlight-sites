@@ -46,3 +46,9 @@ Complete UK driving test preparation covering theory test, hazard perception, an
 **Ignoring weak areas:** Focus extra time on topics you find difficult rather than reviewing what you already know.
 
 **Rushing through content:** Take time to understand concepts thoroughly rather than memorizing answers.
+
+## See Also
+
+- [Practical Test](./practical-test)
+- [Theory Test](./theory-test)
+- [About This Site](./about)

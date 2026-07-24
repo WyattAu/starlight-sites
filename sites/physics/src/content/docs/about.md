@@ -42,3 +42,9 @@ Wyatt develops resources across physics, mathematics, and computer science, enab
 Begin with classical mechanics to build foundational understanding. Each topic progresses from first principles to advanced applications. Use the practice problems to develop the problem-solving skills essential for physics.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Physics](./)
+- [Physics](./)
+- [Classical Mechanics Flashcards](./classical-mechanics-flashcards)

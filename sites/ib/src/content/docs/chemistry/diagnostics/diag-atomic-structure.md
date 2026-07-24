@@ -210,3 +210,9 @@ extremely energetically unfavourable to form $\text{Na}^{2+}$.
 **Forgetting that successive ionisation energies increase:** Each subsequent electron is harder to remove because it comes from an increasingly positive ion. The jump between shells is much larger than within a shell.
 
 ## Cross-References
+
+## See Also
+
+- [Diagnostics](./)
+- [Acids and Bases -- Diagnostic Tests](./diag-acids-bases)
+- [Chemical Bonding -- Diagnostic Tests](./diag-chemical-bonding)

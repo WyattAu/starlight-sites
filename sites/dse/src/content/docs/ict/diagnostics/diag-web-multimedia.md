@@ -347,3 +347,9 @@ external domains. (3) Loading resources (images, styles, fonts) from untrusted s
 **Forgetting that responsive design requires viewport meta tag:** Without `<meta name="viewport" content="width=device-width, initial-scale=1">`, mobile devices render pages at desktop width and zoom out.
 
 **Mixing up lossy and lossless image formats:** JPEG is lossy (compression degrades quality). PNG is lossless (preserves all data). Use JPEG for photos, PNG for graphics requiring transparency or sharp edges.
+
+## See Also
+
+- [Diagnostics](./)
+- [Computer Systems -- Diagnostic Tests](./diag-computer-systems)
+- [Data Representation -- Diagnostic Tests](./diag-data-representation)

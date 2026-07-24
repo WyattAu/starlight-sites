@@ -588,3 +588,9 @@ $\frac{5}{36}$). Setting this to zero:
 $$-1 + k \cdot \frac{5}{36} = 0 \implies k = \frac{36}{5} = 7.2$$
 
 Both approaches give the same answer, confirming the result.
+
+## See Also
+
+- [Diagnostics](./)
+- [Algebraic Expressions -- Diagnostic Tests](./diag-algebraic-expressions)
+- [Binomial Expansion -- Diagnostic Tests](./diag-binomial-expansion)

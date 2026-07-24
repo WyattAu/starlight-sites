@@ -1633,3 +1633,9 @@ Think of the production possibility frontier (PPF) as a visual representation of
 - **Assuming the PPF is a straight line:** A straight-line PPF implies constant opportunity cost, which is rare. Most PPFs are bowed outward (concave), reflecting increasing opportunity cost as resources are not perfectly adaptable between goods.
 - **Treating sunk costs as relevant to future decisions:** Sunk costs are irrecoverable and should not influence decisions. "I've already spent £500 on this project" is not a reason to continue if the marginal benefit no longer exceeds the marginal cost.
 - **Confusing positive and normative economics:** Positive statements are testable ("unemployment fell to 4%"); normative statements are value judgements ("the government should reduce unemployment"). Exams often ask you to distinguish between the two.
+
+## See Also
+
+- [Basic Economic Concepts](./)
+- [DSE Economics](..)
+- [Basic Economic Concepts -- Diagnostic Tests](../diagnostics/diag-basic-economic-concepts)

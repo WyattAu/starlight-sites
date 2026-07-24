@@ -585,3 +585,9 @@ english literature, including key terminology, approaches, and critical perspect
 
 Developing a precise analytical vocabulary and practising close reading are essential for strong
 performance in this area.
+
+## See Also
+
+- [Essay Writing](./)
+- [GCSE English Literature](..)
+- [Creative Writing -- Diagnostic Tests](../diagnostics/diag-creative-writing)

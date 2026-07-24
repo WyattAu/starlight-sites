@@ -202,3 +202,9 @@ $\blacksquare$
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## See Also
+
+- [Theory of Computation](./)
+- [Introduction](./1_introduction)
+- [Regular Languages](./2_regular-languages)

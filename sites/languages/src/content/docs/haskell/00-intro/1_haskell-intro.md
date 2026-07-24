@@ -713,3 +713,9 @@ systems where correctness is critical and where concurrent operations are the no
 - **Confusing laziness with inefficiency:** Laziness does not mean slow. GHC optimises lazy evaluation aggressively, and strict evaluation can actually be slower if it forces unnecessary computation. Profile before assuming laziness is the problem.
 - **Treating the type system as an obstacle:** Haskell's type system catches bugs at compile time that other languages discover at runtime. Fight the compiler less — read type errors carefully, as they often point directly to the problem.
 - **Trying to use `IO` for everything:** The IO monad is for real-world side effects, not general computation. Keep pure functions separate from IO, and push IO to the edges of your program. This makes testing and reasoning much easier.
+
+## See Also
+
+- [Intro](./)
+- [Haskell](..)
+- [Introduction to Dart & Flutter](../../dart/01-intro)

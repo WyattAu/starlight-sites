@@ -42,3 +42,9 @@ Wyatt develops resources across TypeScript, web development, and programming, pr
 Start with the type fundamentals to build a solid TypeScript foundation. Each topic progresses from basic annotations to advanced type-level programming. Use the practice problems to develop your TypeScript skills through hands-on coding.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Typescript](./)
+- [Advanced Patterns](./advanced-patterns)
+- [advanced types](./advanced-types)

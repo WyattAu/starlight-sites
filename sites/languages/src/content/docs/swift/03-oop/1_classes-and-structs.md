@@ -783,3 +783,9 @@ Swift's choice between structs and classes is a fundamental design decision. Str
 **Confusing `weak` and `unowned`:** `weak` becomes nil when the referenced object is deallocated; `unowned` crashes. Use `weak` when the referenced object may outlive the reference, and `unowned` only when lifetimes are guaranteed to be equal.
 
 **Forgetting `mutating` on struct methods:** Struct methods that modify properties must be marked `mutating`. Without it, the compiler prevents any property changes. This is a common error when transitioning from classes to structs.
+
+## See Also
+
+- [Oop](./)
+- [Swift](..)
+- [Classes and Inheritance](../../dart/04-object-oriented/01-classes-and-inheritance)

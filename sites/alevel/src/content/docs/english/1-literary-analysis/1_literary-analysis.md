@@ -308,3 +308,9 @@ silence.
 - Strong analytical paragraphs move from point to evidence to analysis to effect to context
 - Avoid the major pitfalls: retelling the story, feature-spotting, and bolting on context
 - Practise close reading regularly on unseen passages to develop your analytical instincts
+
+## See Also
+
+- [Literary Analysis](./)
+- [A-Level English](..)
+- [Complexity Analysis](../../computer-science/algorithms/04-complexity-analysis)

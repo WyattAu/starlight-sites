@@ -1805,3 +1805,9 @@ Think of standard electrode potentials as a "tendency to gain electrons." A more
 4. **Assuming a positive $E^\circ_{\text{cell}}$ means the reaction is fast.** Standard electrode potentials predict thermodynamic spontaneity, not kinetic rate. A reaction can have a large positive $E^\circ_{\text{cell}}$ but be extremely slow due to high activation energy (e.g., the rusting of iron is spontaneous but slow without a catalyst).
 
 5. **Forgetting to balance charge when combining half-equations.** When adding two half-equations to get the overall cell reaction, the number of electrons lost must equal the number gained. Multiply half-equations by integers to equalise electrons before adding, and cancel electrons from both sides.
+
+## See Also
+
+- [Redox](./)
+- [Redox Reactions](./1_redox-reactions)
+- [Redox Reactions (Advanced)](./2_redox-advanced)

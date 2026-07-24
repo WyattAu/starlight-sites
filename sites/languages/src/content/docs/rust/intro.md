@@ -161,3 +161,9 @@ Key changes in Rust 2024:
 
 - [Resource Management in C++](https://programming.wyattau.com/resource-management/) — C++ ownership and RAII compared to Rust's borrow checker.
 - [C++ Basics](https://programming.wyattau.com/1_enviroment_and_toolchain/1_cpp_basics/) — Fundamentals of C++ for readers transitioning from systems programming.
+
+## See Also
+
+- [Rust](./)
+- [Macros](./08-macros)
+- [Rust Flashcards: Fundamentals](./flashcards-rust-basics)

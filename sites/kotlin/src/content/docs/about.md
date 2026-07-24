@@ -43,3 +43,9 @@ Wyatt develops resources across Kotlin, Java, and mobile development, providing 
 Start with the basics to build a solid Kotlin foundation. Each topic progresses from syntax to advanced patterns. Use the practice problems to develop your Kotlin skills through hands-on coding.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Kotlin](./)
+- [Kotlin Basics Flashcards](./flashcards-kotlin-basics)
+- [Introduction to Kotlin](./intro)

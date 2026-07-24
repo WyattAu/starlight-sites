@@ -630,3 +630,9 @@ Functions in TypeScript are first-class values with precise type signatures. Par
 - [[typescript/generics]] - Generic function patterns and constraints
 - [[typescript/classes]] - Method signatures and this typing
 - [[typescript/error-handling]] - Result types and assertion functions
+
+## See Also
+
+- [Typescript](./)
+- [Advanced Patterns](./advanced-patterns)
+- [advanced types](./advanced-types)

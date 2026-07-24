@@ -291,3 +291,9 @@ public awareness with the organisation's ability to protect its users.
 **Assuming HTTPS alone is sufficient security:** HTTPS encrypts data in transit but doesn't protect against all attacks. Phishing, malware, and social engineering can still compromise security even with HTTPS.
 
 **Mixing up authentication with encryption:** Authentication verifies identity (who you are). Encryption protects data confidentiality (what you send). They serve different purposes and both are needed for security.
+
+## See Also
+
+- [Diagnostics](./)
+- [Computer Systems -- Diagnostic Tests](./diag-computer-systems)
+- [Data Representation -- Diagnostic Tests](./diag-data-representation)

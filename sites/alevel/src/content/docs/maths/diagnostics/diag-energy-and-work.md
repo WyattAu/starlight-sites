@@ -451,3 +451,9 @@ Initial KE $= 360$ J.
 $$\text{Percentage dissipated} = \frac{217.7}{360} \times 100\% \approx 60.5\%$$
 
 Over 60% of the initial kinetic energy is lost to friction during the complete journey.
+
+## See Also
+
+- [Diagnostics](./)
+- [Coordinates and Geometry -- Diagnostic Tests](./diag-coordinates-and-geometry)
+- [Correlation and Regression -- Diagnostic Tests](./diag-correlation-and-regression)

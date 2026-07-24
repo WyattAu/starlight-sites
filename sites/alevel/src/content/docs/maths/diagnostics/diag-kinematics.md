@@ -512,3 +512,9 @@ the particle is **speeding up** at $t = 5$.
 Note: the question asks about the rate of change of **speed** (a scalar), not velocity. Speed
 increases when $v$ and $a$ have the same sign, and decreases when they have opposite signs. At
 $t = 5$Both are positive, so the particle is speeding up.
+
+## See Also
+
+- [Diagnostics](./)
+- [Differentiation -- Diagnostic Tests](./diag-differentiation)
+- [Functions -- Diagnostic Tests](./diag-functions)

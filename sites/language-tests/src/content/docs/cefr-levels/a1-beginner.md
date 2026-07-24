@@ -101,3 +101,8 @@ Practice giving simple directions:
 4. **Listen to simple audio** - Children's shows, basic podcasts
 5. **Write daily** - Keep a simple journal
 
+## See Also
+
+- [Cefr Levels](./)
+- [A2 Elementary Level](./a2-elementary)
+- [B1 Intermediate Level](./b1-intermediate)

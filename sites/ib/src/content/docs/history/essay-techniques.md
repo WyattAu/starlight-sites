@@ -303,3 +303,9 @@ IB History is assessed against the following criteria:
 ## Intuition
 
 Essay writing in history is like building a legal case: you need a clear thesis (your verdict), specific evidence (exhibits), analysis of that evidence (your argument), and a structure that leads the examiner step by step to your conclusion. The PEEL structure is your courtroom procedure -- Point, Evidence, Explanation, Link. The most common mistake is presenting evidence without argument -- that is like a lawyer showing the jury a document without explaining what it proves. Strong essays weigh factors against each other like a judge weighing testimony, always asking 'compared to what?' and 'how significant is this relative to other factors?'
+
+## See Also
+
+- [History](./)
+- [20th Century China](./20th-century-china)
+- [Authoritarian States](./authoritarian-states)

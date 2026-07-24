@@ -1020,3 +1020,9 @@ Error handling patterns in Rust build on Result and Option to create robust appl
 - [[rust/02-ownership-borrowing/ownership]] - Ownership semantics in error chains
 - [[rust/05-traits-generics/traits-and-generics]] - Trait-based error conversion
 - [[rust/03-structs-enums/advanced-patterns]] - Pattern matching on error variants
+
+## See Also
+
+- [Error Handling](./)
+- [Error Handling](./error-handling)
+- [Rust](..)

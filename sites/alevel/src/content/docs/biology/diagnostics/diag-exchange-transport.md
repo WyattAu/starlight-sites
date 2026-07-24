@@ -510,3 +510,9 @@ vessels**, which are more resistant to cavitation (the formation of air bubbles 
 too great) because the narrower bore produces a greater capillary action that helps maintain the
 water column. Some xerophytes also have **tracheids** (narrower, tapered xylem cells with pits)
 instead of or in addition to wide vessels, as tracheids are more resistant to cavitation.
+
+## See Also
+
+- [Diagnostics](./)
+- [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)
+- [Cells -- Diagnostic Tests](./diag-cells)

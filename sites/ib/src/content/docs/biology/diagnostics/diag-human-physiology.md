@@ -333,3 +333,9 @@ blood cell production (polycythaemia).
 **Mixing up the roles of the liver and kidneys:** The liver detoxifies chemicals and metabolises drugs. The kidneys filter blood and remove waste. They're both excretory but do different jobs.
 
 ## Cross-References
+
+## See Also
+
+- [Diagnostics](./)
+- [Cell Biology -- Diagnostic Tests](./diag-cell-biology)
+- [Ecology -- Diagnostic Tests](./diag-ecology)

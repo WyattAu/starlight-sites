@@ -42,3 +42,9 @@ Wyatt develops resources across C++, systems programming, and computer science t
 Start with the fundamentals to build a solid C++ foundation. Each topic progresses from basic syntax to advanced idioms. Use the practice problems to develop the deep language understanding that expert C++ programming requires.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Programming Notes](./)
+- [Complete C++ Programming Study Guide](./hub)
+- [1_translation](./compilation_model/1_translation)

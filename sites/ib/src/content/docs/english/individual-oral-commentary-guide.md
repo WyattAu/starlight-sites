@@ -940,3 +940,9 @@ acknowledges the extract's complexity and explores multiple possible interpretat
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## See Also
+
+- [English](./)
+- [A Streetcar Named Desire](./a-street-car-named-desire)
+- [Chronicle of a Death Foretold — Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)

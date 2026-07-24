@@ -261,3 +261,9 @@ The relational model organizes data into tables with rows and columns, like a sp
 **Forgetting that NULL is not a value:** NULL represents missing or unknown data. Comparisons with NULL (e.g., = NULL) always return NULL, not true or false. Use IS NULL instead.
 
 **Mixing up cardinality with selectivity:** Cardinality is the number of rows in a relation. Selectivity is the fraction of rows selected by a query. Don't use them interchangeably.
+
+## See Also
+
+- [Database Systems](./)
+- [Introduction to Database Systems](./1_introduction-to-database-systems)
+- [Problem Set](./10_problem-set)

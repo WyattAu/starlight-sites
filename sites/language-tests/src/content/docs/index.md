@@ -102,3 +102,8 @@ Complete preparation for language proficiency tests from A1 to C2 levels.
 **Ignoring weak areas:** Focus extra time on topics you find difficult rather than reviewing what you already know.
 
 **Rushing through content:** Take time to understand concepts thoroughly rather than memorizing answers.
+
+## See Also
+
+- [Cefr Levels](./cefr-levels)
+- [About This Site](./about)

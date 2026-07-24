@@ -960,3 +960,9 @@ Structs group related data under named fields, while enums represent variants wh
 - [[rust/04-error-handling/error-handling]] - Result and Option enums
 - [[rust/05-traits-generics/traits-and-generics]] - Trait implementations for custom types
 - [[rust/03-structs-enums/advanced-patterns]] - Pattern matching and destructuring
+
+## See Also
+
+- [Structs Enums](./)
+- [Advanced Struct and Enum Patterns](./advanced-patterns)
+- [Rust](..)

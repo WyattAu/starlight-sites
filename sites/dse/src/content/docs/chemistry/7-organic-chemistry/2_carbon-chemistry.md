@@ -823,3 +823,9 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/carbon-chemistry.md
+
+## See Also
+
+- [Organic Chemistry](./)
+- [Organic Chemistry](./1_organic-chemistry)
+- [DSE Chemistry](..)

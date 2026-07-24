@@ -64,3 +64,9 @@ import { practiceQuestions } from '@/data/flashcards/cpp/practice-types-resource
 **Using unique_ptr when shared ownership is needed:** `std::unique_ptr` enforces exclusive ownership and cannot be copied. If two parts of your code need to own the same resource, `std::unique_ptr` will cause compilation errors or forced `std::move` transfers that leave the original null. Use `std::shared_ptr` for shared ownership or redesign ownership boundaries.
 
 **Ignoring alignment when casting between pointer types:** Casting a `char*` to an `int*` may violate alignment requirements. On some architectures, accessing an int at an unaligned address causes a hardware fault. Use `std::aligned_storage`, `alignas`, or `memcpy` for type-punning instead of raw pointer casts.
+
+## See Also
+
+- [Types](./)
+- [C++ Flashcards: Type System](./flashcards-type-system)
+- [Programming Notes](..)

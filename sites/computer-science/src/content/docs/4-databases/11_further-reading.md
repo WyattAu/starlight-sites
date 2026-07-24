@@ -169,3 +169,9 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
   analysis, and schema design for performance.
 - **NoSQL:** Sadalage, Fowler: _NoSQL Distilled_ — overview of when to use document, graph, column,
   and key-value stores over relational databases.
+
+## See Also
+
+- [Database Systems](./)
+- [Introduction to Database Systems](./1_introduction-to-database-systems)
+- [Problem Set](./10_problem-set)

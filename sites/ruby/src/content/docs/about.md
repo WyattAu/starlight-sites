@@ -42,3 +42,9 @@ Wyatt develops resources across Ruby, web development, and programming, providin
 Start with the language fundamentals to build a solid Ruby foundation. Each topic progresses from syntax to metaprogramming techniques. Use the practice problems to develop your Ruby skills through hands-on coding.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Ruby](./)
+- [Ruby Basics Flashcards](./flashcards-ruby-basics)
+- [Ruby](./intro)

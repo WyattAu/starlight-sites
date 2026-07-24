@@ -42,3 +42,8 @@ Wyatt develops resources across language testing and international qualification
 Start with your target test to find structured preparation materials. Each section progresses from test overview to section-specific strategies. Use the practice tests to build familiarity and confidence.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Language Proficiency Tests](./)
+- [Cefr Levels](./cefr-levels)

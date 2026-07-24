@@ -874,3 +874,8 @@ linked above.
 <strong>Research Connections</strong>
 Complexity theory connects to the most important open problem in mathematics: P vs NP (Clay Millennium Prize, $1M). If P = NP, many "hard" problems in cryptography, scheduling, and protein folding become efficiently solvable. If P ≠ NP, certain cryptographic schemes (RSA, AES) are provably secure. Current research directions include: fine-grained complexity (parameterised complexity, ETH), quantum complexity (BQP vs BPP), and circuit complexity (lower bounds for AC0, TC0). The field also intersects with machine learning: can neural networks efficiently approximate NP-hard problems?
 </aside>
+
+## See Also
+
+- [Complexity Analysis](./)
+- [Algorithms](..)

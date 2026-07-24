@@ -117,3 +117,8 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 **Conflating Gatsby's dream with the American Dream uncritically:** Gatsby's personal obsession with Daisy mirrors the broader American Dream, but the novel also critiques both. Gatsby's dream is built on criminal wealth and self-invention; the American Dream promises merit-based success. The parallel invites critique, not identification. Consider how Fitzgerald uses Gatsby to expose the hollowness of the Dream.
 
 **Forgetting that Nick is an unreliable narrator:** Nick claims to be "one of the few honest people" he has ever known, yet his account is full of contradictions, omissions, and self-justifications. His judgement of other characters reflects his own values and blind spots. Always question what Nick tells you — the novel's meaning often lies in the gap between his account and the truth.
+
+## See Also
+
+- [Great Gatsby](./)
+- [A-Level English](..)

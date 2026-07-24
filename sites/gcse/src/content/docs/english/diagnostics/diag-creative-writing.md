@@ -421,3 +421,9 @@ linked above.
   verbs.
 - In narrative writing, creating characters who lack depth or motivation, leading to a story that
   feels unconvincing.
+
+## See Also
+
+- [Diagnostics](./)
+- [Reading Fiction -- Diagnostic Tests](./diag-reading-fiction)
+- [Reading Non-Fiction -- Diagnostic Tests](./diag-reading-nonfiction)

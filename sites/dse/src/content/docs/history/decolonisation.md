@@ -139,3 +139,9 @@ Decolonisation was the process of empires dismantling themselves, sometimes volu
 **Confusing the Joint Declaration with the Basic Law:** The Joint Declaration (1984) was the Sino-British agreement on Hong Kong's future. The Basic Law (1990) is Hong Kong's post-handover constitution. They serve different functions.
 
 **Assuming Hong Kong's handover was unique:** While special in its details, decolonisation of Hong Kong followed broader patterns of empire retreat. What made it unusual was the接手 by another Chinese sovereign power rather than independence.
+
+## See Also
+
+- [History](./)
+- [The Chinese Revolution](./chinese-revolution)
+- [The Cold War](./cold-war)

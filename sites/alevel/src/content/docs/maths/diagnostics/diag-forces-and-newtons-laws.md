@@ -498,3 +498,9 @@ $$\mathbf{v} = \mathbf{u} + \mathbf{a}t = \begin{pmatrix} 0 \\ 0 \end{pmatrix} +
 Speed
 $= \sqrt{(20/3)^2 + (8/3)^2} = \sqrt{\frac{400 + 64}{9}} = \sqrt{\frac{464}{9}} = \frac{2\sqrt{116}}{3} \approx 7.18$
 m/s.
+
+## See Also
+
+- [Diagnostics](./)
+- [Coordinates and Geometry -- Diagnostic Tests](./diag-coordinates-and-geometry)
+- [Correlation and Regression -- Diagnostic Tests](./diag-correlation-and-regression)

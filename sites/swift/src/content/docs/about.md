@@ -42,3 +42,9 @@ Wyatt develops resources across Swift, mobile development, and programming, prov
 Start with the fundamentals to build a solid Swift foundation. Each topic progresses from syntax to advanced patterns. Use the practice problems to develop your Swift skills through hands-on coding.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Swift](./)
+- [Swift Basics Flashcards](./flashcards-swift-basics)
+- [Swift](./intro)

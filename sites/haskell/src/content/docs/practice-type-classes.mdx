@@ -310,3 +310,9 @@ example3 = eval (If (Equal (LitInt 5) (LitInt 5)) (LitInt 10) (LitInt 20))
 **Overlapping orphan instances:** An orphan instance is defined in a module that neither defines the type class nor the type. This can cause conflicts when two modules define different instances for the same type-class-type pair. Always define instances in the same module as the type or class.
 
 **Assuming all type classes require lawfulness:** `Eq` and `Ord` have laws (reflexivity, transitivity), but Haskell cannot enforce them. A type can have an `Eq` instance where `x /= x` returns `True`. Write tests to verify lawfulness, not just compile-time checks.
+
+## See Also
+
+- [Haskell](./)
+- [Haskell Practice (Basics)](./practice-haskell-basics)
+- [About This Site](./about)

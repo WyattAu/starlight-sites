@@ -234,3 +234,9 @@ submit, and review the explanation.
 **Catching by value instead of by reference:** Writing `catch (std::runtime_error e)` copies the exception object, potentially slicing derived classes and losing information. Always catch by const reference: `catch (const std::runtime_error& e)`. This preserves the full exception hierarchy and avoids unnecessary copies.
 
 **Using catch(...) as the first handler:** The ellipsis catch `catch(...)` matches any exception type. Placing it before typed handlers makes those handlers unreachable dead code. Always put `catch(...)` last as a catch-all fallback, and consider rethrowing or logging within it.
+
+## See Also
+
+- [2_error_handling](./)
+- [C++ Flashcards: Error Handling](./flashcards-error-handling)
+- [The Itanium Exception ABI](./1_exception_abi)

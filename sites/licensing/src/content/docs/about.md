@@ -42,3 +42,9 @@ Wyatt develops resources across software engineering, legal compliance, and open
 Start with licence categories to build foundational understanding. Each topic progresses from definitions to practical compliance. Use the examples to develop your licensing judgement for real-world projects.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Licensing](./)
+- [Licensing](./intro)
+- [Open Source Licenses](./osi-licenses)

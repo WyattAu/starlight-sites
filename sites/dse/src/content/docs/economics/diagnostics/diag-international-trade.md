@@ -538,3 +538,9 @@ reserves.
    also includes primary income (investment income, compensation of employees) and secondary income
    (transfers such as remittances and foreign aid). For financial centres like Hong Kong, investment
    income flows can be larger than trade flows.
+
+## See Also
+
+- [Diagnostics](./)
+- [Market Failure and Government Intervention -- Diagnostic Tests](./diag-market-failure)
+- [Market Structure and Theory of the Firm -- Diagnostic Tests](./diag-market-structure)

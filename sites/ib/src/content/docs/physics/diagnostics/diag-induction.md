@@ -366,3 +366,9 @@ current. There is no resonance in a purely RL circuit.
 **Mixing up self-inductance with mutual inductance:** Self-inductance is a coil's opposition to changes in its own current. Mutual inductance is how one coil affects another. They're related but different concepts.
 
 ## Cross-References
+
+## See Also
+
+- [Diagnostics](./)
+- [Dynamics -- Diagnostic Tests](./diag-dynamics)
+- [Energy and Conservation -- Diagnostic Tests](./diag-energy)

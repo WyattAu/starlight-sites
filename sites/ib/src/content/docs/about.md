@@ -41,3 +41,9 @@ Wyatt develops resources across multiple international curricula, enabling compa
 Begin with your chosen subject to find SL and HL topic breakdowns. Each section builds from foundational concepts to exam-level application. Use the practice problems and flashcards to consolidate your learning.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the complete network of study resources.
+
+## See Also
+
+- [IB Notes](./)
+- [Complete IB Study Guide — All Subjects & Papers](./hub)
+- [IB Theory of Knowledge (TOK)](./ib-theory-of-knowledge)

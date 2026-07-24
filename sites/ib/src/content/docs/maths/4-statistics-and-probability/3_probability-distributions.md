@@ -1508,3 +1508,8 @@ $$= 1 + 10(2x) + 45(4x^2) = 1 + 20x + 180x^2$$
 | [Statistical Distributions] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/04-statistical-distributions) |
 | [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/3_probability-distributions)      |
 
+## See Also
+
+- [Statistics And Probability](./)
+- [Probability](./1_probability)
+- [Statistics](./2_statistics)

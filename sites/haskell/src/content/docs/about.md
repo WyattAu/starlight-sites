@@ -42,3 +42,9 @@ Wyatt develops resources across Haskell, programming theory, and computer scienc
 Start with the fundamentals to build a solid Haskell foundation. Each topic progresses from basic syntax to advanced type-level programming. Use the practice problems to develop your functional programming skills.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Haskell](./)
+- [Advanced Haskell Flashcards](./flashcards-haskell-advanced)
+- [Haskell Basics Flashcards](./flashcards-haskell-basics)

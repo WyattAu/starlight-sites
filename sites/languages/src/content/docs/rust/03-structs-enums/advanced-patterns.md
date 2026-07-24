@@ -1113,3 +1113,9 @@ Advanced Rust patterns leverage the type system for compile-time safety. Builder
 - [[rust/02-ownership-borrowing/ownership]] - Ownership in complex data structures
 - [[rust/05-traits-generics/traits-and-generics]] - Trait objects and dynamic dispatch
 - [[rust/04-error-handling/error-handling-patterns]] - Error handling pattern combinations
+
+## See Also
+
+- [Structs Enums](./)
+- [Structs and Enums](./structs-and-enums)
+- [Rust](..)

@@ -42,3 +42,9 @@ Wyatt develops resources across Java, programming, and software engineering, pro
 Start with the fundamentals to build a solid Java foundation. Each topic progresses from basic syntax to advanced patterns. Use the practice problems to develop your OOP and design pattern skills.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Java](./)
+- [Java Fundamentals Flashcards](./flashcards-java-basics)
+- [GraalVM and Modern JVM](./graalvm-and-modern-jvm)

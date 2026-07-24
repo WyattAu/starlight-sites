@@ -48,3 +48,8 @@ Complete EU driving test preparation covering theory and practical tests across 
 **Ignoring weak areas:** Focus extra time on topics you find difficult rather than reviewing what you already know.
 
 **Rushing through content:** Take time to understand concepts thoroughly rather than memorizing answers.
+
+## See Also
+
+- [Theory Test](./theory-test)
+- [About This Site](./about)

@@ -320,3 +320,9 @@ Use this audit to identify areas for growth and to set goals for the remainder o
 **Forgetting to connect technique to meaning:** Always explain why a poet chose a particular technique and what effect it creates. Don't just identify techniques without explaining their significance.
 
 **Assuming there's one correct interpretation:** Poetry often supports multiple valid readings. Consider different perspectives and explain which you find most convincing.
+
+## See Also
+
+- [English](./)
+- [A Streetcar Named Desire](./a-street-car-named-desire)
+- [Chronicle of a Death Foretold — Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)

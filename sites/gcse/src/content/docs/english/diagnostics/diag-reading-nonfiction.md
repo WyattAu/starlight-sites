@@ -386,3 +386,9 @@ linked above.
   explaining the effect on the reader.
 - Failing to address the specific wording of the question, particularly the "how" and "why"
   elements.
+
+## See Also
+
+- [Diagnostics](./)
+- [Reading Fiction -- Diagnostic Tests](./diag-reading-fiction)
+- [Creative Writing -- Diagnostic Tests](./diag-creative-writing)

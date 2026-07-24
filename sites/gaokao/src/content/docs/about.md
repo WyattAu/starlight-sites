@@ -41,3 +41,9 @@ Wyatt develops resources across multiple national and international qualificatio
 Select your subject to find topic-by-topic breakdowns. Each section builds from foundational concepts to Gaokao-level application. Use the practice problems to develop the speed and accuracy the exam requires.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Gaokao](./)
+- [Gaokao Flashcards: Mathematics](./flashcards-mathematics)
+- [Introduction to Gaokao Notes](./intro)

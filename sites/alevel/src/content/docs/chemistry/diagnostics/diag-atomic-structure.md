@@ -415,3 +415,9 @@ ionisation energy (1 mark).
 **Assuming the ionisation energy always increases steadily across a period:** The trend generally increases, but there are two dips: between Mg and Al (the 3p electron in Al is higher energy and more shielded than the 3s electrons in Mg) and between P and S (the fourth 3p electron in S pairs up, introducing electron-electron repulsion). These exceptions are frequently tested.
 
 **Confusing electron configuration of Cr and Cu with the expected filling order:** Chromium is $[\text{Ar}]\,3d^5\,4s^1$ (not $3d^4\,4s^2$) and copper is $[\text{Ar}]\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$). The half-filled and fully-filled d subshells have extra stability from exchange energy. These are the two most commonly tested exceptions.
+
+## See Also
+
+- [Diagnostics](./)
+- [Bonding and Structure -- Diagnostic Tests](./diag-bonding-structure)
+- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)

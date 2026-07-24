@@ -65,3 +65,8 @@ Complete preparation for professional certification exams.
 **Ignoring weak areas:** Focus extra time on topics you find difficult rather than reviewing what you already know.
 
 **Rushing through content:** Take time to understand concepts thoroughly rather than memorizing answers.
+
+## See Also
+
+- [Aws](./aws)
+- [About This Site](./about)

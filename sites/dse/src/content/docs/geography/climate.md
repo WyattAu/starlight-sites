@@ -227,3 +227,9 @@ Climate is the personality of a place — it determines what grows, what people 
 **Assuming tropical cyclones form at the equator:** They need the Coriolis effect to rotate, which is zero at the equator. Most form between 5° and 20° latitude where there's sufficient Coriolis force.
 
 **Mixing up Hadley, Ferrel, and Polar cells:** Hadley cells are at the equator (0-30°), Ferrel cells at mid-latitudes (30-60°), Polar cells at high latitudes (60-90°). Each produces different wind patterns and pressure zones.
+
+## See Also
+
+- [Geography](./)
+- [Agricultural Systems and Food Security](./agriculture)
+- [Industrial Location and Economic Development](./economic-development)

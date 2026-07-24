@@ -265,3 +265,9 @@ Theory of Knowledge (TOK) is a core component of the IB Diploma Programme. It ex
 3. **Discuss with others** - Share ideas and get feedback
 4. **Review past papers** - Familiarize with question types
 5. **Use TOK vocabulary** - Demonstrate understanding
+
+## See Also
+
+- [IB Notes](./)
+- [About This Site](./about)
+- [Complete IB Study Guide — All Subjects & Papers](./hub)

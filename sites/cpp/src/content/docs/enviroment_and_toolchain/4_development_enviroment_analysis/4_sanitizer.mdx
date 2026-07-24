@@ -592,3 +592,9 @@ Sanitizers are like **x-ray machines for your code** — they instrument your pr
 The trade-off is performance and memory. ASan roughly doubles memory usage and CPU time because every memory access goes through a shadow memory check. TSan is even more expensive — 5–15x CPU overhead — because it must track synchronisation events across all threads. This is why you should never run sanitizers in production or benchmarks: they are development-time tools that catch bugs early. The recommended approach is to run ASan/UBSan in one CI job and TSan in a separate job, since they cannot run simultaneously (they instrument memory accesses in incompatible ways).
 
 Think of sanitizers as **cheap insurance** against the most dangerous classes of bugs: buffer overflows, use-after-free, data races, and undefined behaviour. These bugs are notoriously hard to reproduce and debug because they may not manifest on every run, on every platform, or under every compiler. Sanitizers make them deterministic and loud — they crash immediately with a clear error message and stack trace, telling you exactly where the bug is. The investment of a slower CI run is trivially worth the cost of finding these bugs before your users do.
+
+## See Also
+
+- [4_development_enviroment_analysis](./)
+- [Language Server Protocol Configuration](./1_language_server_protocol_configuration)
+- [Debugger](./2_debugger)

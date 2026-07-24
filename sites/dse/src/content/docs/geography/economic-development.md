@@ -243,3 +243,9 @@ Economic development is the process of climbing a ladder — each rung represent
 **Confusing FDI with portfolio investment:** FDI involves direct control of production facilities in another country (building a factory). Portfolio investment is just buying stocks or bonds without management control.
 
 **Mixing up core-periphery with developed-developing:** Core regions aren't always countries — they can be regions within countries (e.g., Shanghai is a core within China). Periphery isn't always poor — it's about the economic relationship, not absolute wealth.
+
+## See Also
+
+- [Geography](./)
+- [Agricultural Systems and Food Security](./agriculture)
+- [Weather and Climate](./climate)

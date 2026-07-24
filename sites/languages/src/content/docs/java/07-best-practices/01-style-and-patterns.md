@@ -1379,3 +1379,9 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## See Also
+
+- [Best Practices](./)
+- [Java](..)
+- [Style and Idioms](../../python/07-best-practices/01-style-and-idioms)

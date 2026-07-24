@@ -483,3 +483,9 @@ The mixture is **ethene** ($\mathrm{C}_2\mathrm{H}_4$) and **butane**
 **Drawing the bromonium ion as a carbocation intermediate:** When an alkene reacts with bromine, a cyclic bromonium ion forms — not an open carbocation. The bromonium ion explains why bromine adds anti (from opposite sides). Drawing a carbocation would predict a mixture of syn and anti addition, which is incorrect.
 
 **Forgetting that cracking is done at low pressure to avoid side reactions:** Le Chatelier's principle suggests low pressure favours cracking (more moles of gas on the product side), but the real reason for low pressure is to prevent polymerisation of the alkene products. High pressure would cause the ethene produced to polymerise, reducing the yield of the desired product.
+
+## See Also
+
+- [Diagnostics](./)
+- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](./diag-atomic-structure)

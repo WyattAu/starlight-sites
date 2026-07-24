@@ -705,3 +705,9 @@ Swift's type system enforces safety at compile time. Let creates immutable const
 **Confusing `sort` and `sorted`:** `sort()` mutates the array in place (requires `var`), while `sorted()` returns a new array. Using the wrong one causes unexpected mutations or compiler errors.
 
 **Assuming `String.Index` is an integer:** You cannot use integer subscripts on strings. Use `str.index(str.startIndex, offsetBy: n)` for safe character access. Integer indexing causes compile errors.
+
+## See Also
+
+- [Basics](./)
+- [Swift](..)
+- [Types and Variables](../../go/basics/types-and-variables)

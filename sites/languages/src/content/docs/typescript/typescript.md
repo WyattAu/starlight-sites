@@ -154,3 +154,9 @@ TypeScript is like giving JavaScript a safety net. Think of types as labels that
 - [[typescript/generics]] - Parametric polymorphism and type-level programming
 - [[typescript/functions]] - Function typing and overload resolution
 - [[typescript/classes]] - Object-oriented programming with TypeScript
+
+## See Also
+
+- [Typescript](./)
+- [TypeScript Fundamentals Flashcards](./flashcards-typescript-basics)
+- [TypeScript Fundamentals Practice (Interactive)](./practice-typescript-basics)

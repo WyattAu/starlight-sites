@@ -604,3 +604,9 @@ power.
    Monopoly achieves neither. Monopolistic competition achieves neither (but is close to productive
    efficiency). Natural monopoly with average cost pricing achieves productive efficiency but not
    allocative efficiency.
+
+## See Also
+
+- [Diagnostics](./)
+- [Market Failure and Government Intervention -- Diagnostic Tests](./diag-market-failure)
+- [International Trade and Finance -- Diagnostic Tests](./diag-international-trade)

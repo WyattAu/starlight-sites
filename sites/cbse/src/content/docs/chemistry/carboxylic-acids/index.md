@@ -138,3 +138,9 @@ Carboxylic acids are found in vinegar (acetic acid), citrus fruits (citric acid)
 **Writing the ester linkage incorrectly.** The ester functional group is -COO-, not -O-. In ethyl ethanoate, the structure is CH3COOCH2CH3, where the carbonyl carbon connects to both the oxygen and the ethyl group. Students often write CH3OCH2CH3, which is an ether, not an ester.
 
 **Forgetting that the HVZ reaction targets the alpha-carbon.** The Hell-Volhard-Zelinsky reaction specifically brominates the carbon adjacent to the carboxyl group. Students sometimes brominate the beta-carbon or the aromatic ring, but the enolisation mechanism ensures only the alpha-position is reactive.
+
+## See Also
+
+- [Alcohols, Phenols, and Ethers](../alcohols)
+- [Aldehydes, Ketones, and Carboxylic Acids](../aldehydes)
+- [Amines](../amines)

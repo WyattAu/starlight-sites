@@ -269,3 +269,8 @@ evaluation of provenance, content, and context. Essay writing demands sustained 
 by precise evidence. Historiographical awareness demonstrates sophistication. Avoid description,
 engage with interpretation, and always link evidence to argument. These skills transfer across every
 topic in the specification.
+
+## See Also
+
+- [Historical Skills](./)
+- [A-Level History](..)

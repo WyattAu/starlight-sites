@@ -204,3 +204,9 @@ Algorithms are, at their heart, recipes for solving problems. Just as a recipe t
 The framework for comparing algorithms is called complexity analysis. Big O notation captures how an algorithm's running time or memory usage grows as the input size increases. The intuition is straightforward: if you double the input size and the running time quadruples, you are looking at O(n^2) behaviour. If doubling the input only adds a constant amount of extra time, you have O(log n) — incredibly efficient. This abstraction lets you compare algorithms without worrying about hardware details or implementation specifics; you are measuring the growth rate, which is an intrinsic property of the algorithm itself.
 
 Different problem types call for different algorithmic strategies. Divide and conquer splits a problem into smaller subproblems, solves them recursively, and combines the results — merge sort and binary search are classic examples. Greedy algorithms make the locally optimal choice at each step, hoping to reach a global optimum — they work well for problems like finding minimum spanning trees. Dynamic programming breaks problems into overlapping subproblems and stores their solutions to avoid redundant work. Understanding which strategy fits a given problem is the essence of algorithm design, and it is a skill that applies far beyond examinations — it is the foundation of efficient software.
+
+## See Also
+
+- [Computer Science](..)
+- [Searching Algorithms](./01-searching-algorithms)
+- [Sorting Algorithms](./02-sorting-algorithms)

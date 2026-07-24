@@ -257,3 +257,9 @@ customers and how to mitigate each.
 **Forgetting that OSI layers add headers at each level:** Each layer encapsulates data by adding its own header. Don't assume data remains unchanged as it moves through the stack.
 
 **Mixing up routers and switches:** Switches connect devices on the same network (Layer 2). Routers connect different networks (Layer 3). Don't use them interchangeably.
+
+## See Also
+
+- [Diagnostics](./)
+- [Data Representation -- Diagnostic Tests](./diag-data-representation)
+- [Computer Systems -- Diagnostic Tests](./diag-computer-systems)

@@ -472,3 +472,9 @@ co-transporter can be partially overcome by increasing substrate concentration.
 **Forgetting that TEM specimens must be dead:** Transmission electron microscopy requires a vacuum, so specimens must be fixed, dehydrated, and sectioned. You cannot observe living cells or dynamic processes with TEM. If a question asks you to observe a live process, suggest light microscopy or fluorescent labelling instead.
 
 **Mixing up the isolation buffer requirements:** The homogenisation buffer must be cold (reduces enzyme activity that damages organelles), isotonic (prevents osmotic lysis or shrinkage), and buffered (maintains constant pH). Omitting any one of these three will damage the organelles you are trying to isolate.
+
+## See Also
+
+- [Diagnostics](./)
+- [Ecology -- Diagnostic Tests](./diag-ecology)
+- [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)

@@ -966,3 +966,9 @@ Traits define shared behavior as interfaces, while generics enable code that wor
 - [[rust/04-error-handling/error-handling]] - Result with generic error types
 - [[rust/06-concurrency/concurrency]] - Send and Sync trait bounds
 - [[rust/07-cargo-ecosystem/cargo-and-ecosystem]] - Crate ecosystem and trait conventions
+
+## See Also
+
+- [Traits Generics](./)
+- [Rust](..)
+- [Classes and Inheritance](../../dart/04-object-oriented/01-classes-and-inheritance)

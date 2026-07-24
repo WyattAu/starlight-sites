@@ -1061,3 +1061,8 @@ When working with systems engineering career, follow a structured approach:
 2. Apply the appropriate methods, equations, or frameworks
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
+
+## See Also
+
+- [Career](./)
+- [General](..)

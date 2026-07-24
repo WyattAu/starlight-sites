@@ -735,3 +735,9 @@ Regular practice with a variety of question types is essential to build fluency 
 applying these mathematical techniques.
 
 </aside>
+
+## See Also
+
+- [Algebra](./)
+- [Irish LC Mathematics](..)
+- [Algebra -- Diagnostic Tests](../diagnostics/diag-algebra)

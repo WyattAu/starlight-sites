@@ -880,3 +880,9 @@ Functions and modules are the organizational backbone of Elixir:
 **Forgetting `@enforce_keys` in structs:** Without `@enforce_keys`, struct fields default to `nil` silently. Always enforce required fields to catch missing data at compile time.
 
 **Using exceptions for control flow:** Elixir favors `{:ok, result}` / `{:error, reason}` tuples over `raise`/`rescue`. Exceptions are for truly exceptional cases, not expected error paths.
+
+## See Also
+
+- [Functions Modules](./)
+- [Elixir](..)
+- [Modules and Packages](../../go/advanced/modules-and-packages)

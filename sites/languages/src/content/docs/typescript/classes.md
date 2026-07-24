@@ -801,3 +801,9 @@ TypeScript classes combine JavaScript's class syntax with compile-time type chec
 - [[typescript/generics]] - Generic classes and factory patterns
 - [[typescript/functions]] - Method signatures and this parameter typing
 - [[typescript/enums-and-modules]] - Module patterns for organizing class hierarchies
+
+## See Also
+
+- [Typescript](./)
+- [Advanced Patterns](./advanced-patterns)
+- [advanced types](./advanced-types)

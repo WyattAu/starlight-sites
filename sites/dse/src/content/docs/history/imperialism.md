@@ -136,3 +136,9 @@ European imperialism in Asia was like a game of Monopoly where one player keeps 
 **Confusing spheres of influence with colonies:** In a sphere of influence, foreign powers had economic control but didn't govern directly. Colonies were directly administered. China maintained formal sovereignty while losing practical control in sphere-of-influence regions.
 
 **Assuming all Chinese responded to imperialism the same way:** Responses ranged from conservative resistance (Boxer Rebellion) to moderate reform (Self-Strengthening Movement) to radical revolution (1911 Revolution). Different groups had different analyses of China's weakness.
+
+## See Also
+
+- [History](./)
+- [The Chinese Revolution](./chinese-revolution)
+- [The Cold War](./cold-war)

@@ -639,3 +639,9 @@ A more principled approach:
 - If the outlier is genuine, consider using robust methods (e.g., Spearman's rank) or report results
   both with and without the outlier.
 - Use domain knowledge to determine whether the value is plausible.
+
+## See Also
+
+- [Diagnostics](./)
+- [Coordinates and Geometry -- Diagnostic Tests](./diag-coordinates-and-geometry)
+- [Energy and Work -- Diagnostic Tests](./diag-energy-and-work)

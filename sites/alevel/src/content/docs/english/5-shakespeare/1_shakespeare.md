@@ -325,3 +325,8 @@ controls narrative and whose version of events survives.
 - Never translate Shakespeare into modern English; analyse his specific word choices
 - Practise close reading of key speeches, attending to meter, imagery, rhetoric, and performance
   potential
+
+## See Also
+
+- [Shakespeare](./)
+- [A-Level English](..)

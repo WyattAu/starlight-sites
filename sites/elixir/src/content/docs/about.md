@@ -42,3 +42,9 @@ Wyatt develops resources across Elixir, distributed systems, and programming, pr
 Start with the language fundamentals to build a solid Elixir foundation. Each topic progresses from syntax to distributed system patterns. Use the practice problems to develop your concurrent programming skills.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Elixir](./)
+- [Elixir Flashcards (Basics)](./flashcards-elixir-basics)
+- [Elixir Practice (Basics)](./practice-elixir-basics)

@@ -173,3 +173,9 @@ Apply these techniques to a timed response. Choose one of the following and writ
 1. **AQA**: "How does Fitzgerald present the relationship between past and present in _The Great Gatsby_? Explore how language and narrative structure create meaning."
 2. **Edexcel**: "Compare the ways in which [two poets from the anthology] present the human relationship with nature. In your answer, consider language, form, and structure."
 3. **OCR**: "Starting with this passage from _The Handmaid's Tale_, explore how Atwood uses Offred's narrative voice to present ideas about control and resistance."
+
+## See Also
+
+- [Exam Techniques](./)
+- [A-Level English](..)
+- [Analytical Techniques](../../chemistry/organic-chemistry/analytical-techniques)

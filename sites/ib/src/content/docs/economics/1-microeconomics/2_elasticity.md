@@ -174,3 +174,9 @@ Instant noodles are an inferior good ($YED < 0$).
 - PED and total revenue are linked: when demand is inelastic, a price rise increases total revenue;
   when elastic, a price rise decreases total revenue
 - Key formula: $\text{PED} = \frac{\%\Delta Q_d}{\%\Delta P}$
+
+## See Also
+
+- [Microeconomics](./)
+- [Supply and Demand](./1_supply-and-demand)
+- [Market Failure](./3-market-failure)

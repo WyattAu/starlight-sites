@@ -241,3 +241,9 @@ If you answered "no" to any of these questions, revise your response to address 
 **Forgetting to connect technique to meaning:** Always explain why a poet chose a particular technique and what effect it creates. Don't just identify techniques without explaining their significance.
 
 **Assuming there's one correct interpretation:** Poetry often supports multiple valid readings. Consider different perspectives and explain which you find most convincing.
+
+## See Also
+
+- [English](./)
+- [Paper 1 Unseen Practice](./paper-1-unseen-practice)
+- [Poetry Terms Flashcards](./flashcards-poetry)

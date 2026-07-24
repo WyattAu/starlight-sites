@@ -392,3 +392,9 @@ linked above.
   narratives.
 - Failing to evaluate -- going beyond description to make a judgment about effectiveness or
   significance.
+
+## See Also
+
+- [Diagnostics](./)
+- [Reading Non-Fiction -- Diagnostic Tests](./diag-reading-nonfiction)
+- [Creative Writing -- Diagnostic Tests](./diag-creative-writing)

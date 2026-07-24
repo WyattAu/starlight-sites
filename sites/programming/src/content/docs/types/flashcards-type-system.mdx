@@ -42,3 +42,9 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 3. **Assuming `sizeof(int) == 4` everywhere:** The size of `int` is platform-dependent. On most modern platforms it's 4 bytes, but on some embedded systems it can be 2 bytes. Use `<cstdint>` types (`int32_t`, `uint64_t`) when you need specific sizes.
 
 4. **Ignoring strict aliasing:** The strict aliasing rule says you cannot access an object through a pointer of an incompatible type. Violating this is undefined behavior and can cause subtle bugs that only appear with optimization enabled. Use `std::memcpy` for type punning, or `std::bit_cast` (C++20) for value conversions.
+
+## See Also
+
+- [Types](./)
+- [C++ Types and Resource Management: Practice Problems](./practice-types-resources)
+- [Programming Notes](..)

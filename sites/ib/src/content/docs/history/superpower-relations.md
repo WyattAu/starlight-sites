@@ -289,3 +289,9 @@ Cold War superpower relations operated like two magnets held close together -- t
 **Confusing détente with the end of the Cold War:** Détente (1970s) reduced tensions but didn't end the rivalry. The Cold War ended in 1989-1991 with Soviet collapse.
 
 **Forgetting to consider multiple historiographical perspectives:** Orthodox, revisionist, and post-revisionist interpretations assign different responsibility. Engage with all three in essays.
+
+## See Also
+
+- [History](./)
+- [20th Century China](./20th-century-china)
+- [Authoritarian States](./authoritarian-states)

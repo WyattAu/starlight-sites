@@ -108,3 +108,9 @@ The Chinese Revolution was a decades-long upheaval that transformed one of the w
 **Confusing the Long March with a military victory:** It was a strategic retreat that nearly destroyed the CCP. Its significance is mythological (demonstrating resilience) rather than military. Only 8,000 of 80,000 survived.
 
 **Assuming the Chinese Civil War ended in 1949:** Fighting continued in remote areas into the early 1950s. The PRC was proclaimed in October 1949, but consolidation of control took years.
+
+## See Also
+
+- [History](./)
+- [The Cold War](./cold-war)
+- [Decolonisation and the Path to 1997](./decolonisation)

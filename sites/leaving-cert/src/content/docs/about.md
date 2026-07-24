@@ -41,3 +41,9 @@ Wyatt develops resources across multiple international qualification systems, pr
 Choose your subject to find topic-by-topic breakdowns. Each section progresses from foundational concepts to exam-level application. Use the practice problems to test your understanding thoroughly.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Leaving Cert](./)
+- [ILC Flashcards: Biology](./flashcards-biology)
+- [ILC Flashcards: Chemistry](./flashcards-chemistry)

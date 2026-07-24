@@ -571,3 +571,9 @@ $\frac{1}{2}$. If it asks for the probability among all children, the answer is 
 **Forgetting that males need only one copy of X-linked recessive alleles:** Males are hemizygous (XY), so a single recessive allele on their X chromosome will be expressed. Females need two copies (homozygous recessive) to show the condition.
 
 **Mixing up DNA helicase and DNA polymerase functions:** Helicase unwinds the double helix by breaking hydrogen bonds; polymerase synthesises the new strand by forming phosphodiester bonds. Don't swap their roles.
+
+## See Also
+
+- [Diagnostics](./)
+- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)
+- [Evolution and Ecology -- Diagnostic Tests](./diag-evolution-ecology)

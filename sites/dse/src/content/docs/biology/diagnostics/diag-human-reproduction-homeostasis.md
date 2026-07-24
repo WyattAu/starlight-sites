@@ -465,3 +465,9 @@ Adrenaline stimulates **glycogenolysis** (breakdown of glycogen to glucose) in t
 muscles. The adrenaline also causes widespread effects including increased heart rate, sweating, and
 **involuntary muscle contractions (trembling/shaking)** as the body attempts to generate heat and
 mobilise energy reserves rapidly.
+
+## See Also
+
+- [Diagnostics](./)
+- [Human Physiology -- Diagnostic Tests](./diag-human-physiology)
+- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)

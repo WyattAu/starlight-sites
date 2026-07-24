@@ -42,3 +42,9 @@ Wyatt develops resources across databases, programming, and computer science, pr
 Start with relational theory to build the foundation for good database design. Each topic progresses from theory to practical SQL and administration. Use the practice problems to develop your query writing and design skills.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Databases](./)
+- [Complete Database Design Study Guide](./hub)
+- [Introduction to Databases](./intro)

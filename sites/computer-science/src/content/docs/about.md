@@ -42,3 +42,9 @@ Wyatt develops resources across computer science, mathematics, and programming, 
 Start with algorithms and data structures to build core CS theory. Each topic progresses from definitions through proofs to applications. Use the practice problems to develop your algorithmic thinking.
 
 Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Computing](./)
+- [Computing](./)
+- [Algorithms and Data Structures](./algorithms-and-data-structures)

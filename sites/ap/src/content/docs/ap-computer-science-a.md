@@ -497,3 +497,9 @@ A) O(n)  B) O(log n)  C) O(n²)  D) O(1)
 3. **Null pointer exceptions** - Check for null before using objects
 4. **Forgetting return statements** - Methods with return type must return
 5. **Confusing == with .equals()** - Use .equals() for object comparison
+
+## See Also
+
+- [AP](./)
+- [AP Computer Science Principles](./ap-computer-science-principles)
+- [About This Site](./about)

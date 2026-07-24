@@ -145,3 +145,8 @@ Since $S > 0.8$, the system is diffraction-limited. This meets the Marechal crit
 
 $\blacksquare$
 
+## See Also
+
+- [Optics and Wave Physics](./)
+- [The Wave Equation](./1_the-wave-equation)
+- [Fresnel Equations](./10_fresnel-equations)
