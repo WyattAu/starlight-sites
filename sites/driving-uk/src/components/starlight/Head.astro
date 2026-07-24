@@ -35,6 +35,56 @@ const urlParts = new URL(pageUrl).hostname.split('.');
 const subdomain = urlParts.length > 2 ? urlParts[0] : 'www';
 const siteName = subdomain === 'www' || subdomain === 'wyattsnotes' ? "Wyatt's Notes" : `${subdomain.charAt(0).toUpperCase() + subdomain.slice(1)} | Wyatt's Notes`;
 
+// Cross-site canonical: related sites that share content topics
+const relatedSiteGroups: Record<string, string[]> = {
+  'exam-boards': ['dse', 'ib', 'alevel', 'gcse', 'ap', 'highers', 'leaving-cert', 'cbse', 'gaokao', 'hsc', 'sat'],
+  'programming': ['cpp', 'python', 'java', 'rust', 'go', 'kotlin', 'swift', 'typescript', 'dart', 'ruby', 'haskell', 'elixir'],
+  'cs-infrastructure': ['databases', 'networking', 'linux', 'security', 'tools', 'truenas', 'tuning', 'licensing'],
+  'sciences': ['physics', 'chemistry', 'mathematics', 'computer-science', 'machine-learning'],
+};
+
+// Shared topics across exam board sites (top-level paths that exist on multiple boards)
+const sharedExamTopics = [
+  'physics', 'chemistry', 'maths', 'mathematics', 'biology', 'computer-science',
+  'economics', 'english', 'geography', 'history', 'ict',
+];
+// Shared topics across programming sites
+const sharedProgrammingTopics = [
+  'fundamentals', 'concurrency', 'object-oriented', 'standard-library',
+  'data-structures', 'error-handling', 'best-practices', 'async',
+];
+// Shared topics across CS infrastructure sites
+const sharedInfraTopics = ['about'];
+// Shared topics across science sites
+const sharedScienceTopics = ['about'];
+
+// Determine which group this site belongs to and what path segments to cross-link
+function getRelatedSites(subdomain: string, pathSegments: string[]): string[] {
+  const topPath = pathSegments[0] || '';
+
+  for (const [, sites] of Object.entries(relatedSiteGroups)) {
+    if (!sites.includes(subdomain)) continue;
+
+    const peers = sites.filter(s => s !== subdomain);
+    // Link to the top-level subject page on related sites if the path
+    // starts with a topic that's shared across the group
+    const sharedTopics =
+      sites === relatedSiteGroups['exam-boards'] ? sharedExamTopics :
+      sites === relatedSiteGroups['programming'] ? sharedProgrammingTopics :
+      sites === relatedSiteGroups['cs-infrastructure'] ? sharedInfraTopics :
+      sharedScienceTopics;
+
+    if (topPath && sharedTopics.includes(topPath)) {
+      return peers;
+    }
+  }
+  return [];
+}
+
+const pagePathSegments = id.split('/').filter(Boolean);
+const relatedSites = getRelatedSites(subdomain, pagePathSegments);
+const canonicalBase = pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com');
+
 // Build breadcrumb trail from the page id (the slug) - matches PageTitle.astro logic
 function buildBreadcrumbs(id: string, siteTitle: string) {
   const parts = id.split('/').filter(Boolean);
@@ -188,11 +238,18 @@ const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) :
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="googlebot" content="index, follow" />
 <!-- Canonical URL: always point to wyattau.com to avoid duplicate content -->
-<link rel="canonical" href={pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com')} />
+<link rel="canonical" href={canonicalBase} />
 
 <!-- Hreflang for i18n -->
-<link rel="alternate" hreflang="en" href={pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com')} />
-<link rel="alternate" hreflang="x-default" href={pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com')} />
+<link rel="alternate" hreflang="en" href={canonicalBase} />
+<link rel="alternate" hreflang="x-default" href={canonicalBase} />
+
+<!-- Cross-site alternate links for related sites (SEO: signals content relationship) -->
+{relatedSites.map(relatedSub => {
+  const relatedPath = `/${pagePathSegments.join('/')}`;
+  const relatedUrl = `https://${relatedSub}.wyattau.com${relatedPath === '/' ? '/' : relatedPath + '/'}`;
+  return <link rel="alternate" hreflang="en" href={relatedUrl} data-related-site={relatedSub} />;
+})}
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="article" />
