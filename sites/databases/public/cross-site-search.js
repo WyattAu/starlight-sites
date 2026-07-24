@@ -1,7 +1,7 @@
 // Cross-site search component for Wyatt's Notes
 // Injected into all Starlight site headers
 
-var SEARCH_API = SEARCH_API || 'https://search.wyattau.com/api'
+const SEARCH_API = 'https://search.wyattau.com/api'
 
 function initCrossSiteSearch() {
   // Wait for DOM
@@ -11,8 +11,7 @@ function initCrossSiteSearch() {
   }
 
   // Check if search already exists
-  if (document.getElementById('cross-site-search') || document.getElementById('custom-search'))
-    return
+  if (document.getElementById('cross-site-search')) return
 
   // Find the top navigation bar container.
   // Strategy: look for Starlight's header -> site-title wrapper -> insert after it
@@ -23,15 +22,25 @@ function initCrossSiteSearch() {
   if (!topBar) return
 
   // Inside the header, find the title wrapper or the first flex row
-  // Insert search into the header's right-group area (next to theme toggle)
-  var rightGroup = topBar.querySelector('.right-group')
-  if (!rightGroup) return
+  var titleWrapper = topBar.querySelector('.title-wrapper') || topBar.querySelector('.sl-flex')
+  if (!titleWrapper) return
 
+  // Create our search container positioned at the right side of the header
   var searchContainer = document.createElement('div')
   searchContainer.id = 'cross-site-search-container'
-  searchContainer.style.cssText = 'display:flex;align-items:center;'
+  searchContainer.style.cssText =
+    'position:absolute;right:0.5rem;top:0;height:100%;display:flex;align-items:center;z-index:10;'
 
-  rightGroup.parentNode.insertBefore(searchContainer, rightGroup)
+  // Make the header position:relative so absolute positioning works
+  if (
+    topBar.style.position !== 'relative' &&
+    window.getComputedStyle(topBar).position === 'static'
+  ) {
+    topBar.style.position = 'relative'
+  }
+
+  // Append to header (absolute positioning keeps it in the right place)
+  topBar.appendChild(searchContainer)
 
   // Create search component
   const wrapper = document.createElement('div')
@@ -40,22 +49,9 @@ function initCrossSiteSearch() {
     <style>
       #cross-site-search {
         position: relative;
-        display: flex;
-        align-items: center;
-      }
-      #cross-site-search .search-icon {
-        position: absolute;
-        left: 0.5rem;
-        color: var(--wn-text-muted, #8888a0);
-        pointer-events: none;
-        width: 14px;
-        height: 14px;
-        z-index: 1;
-        top: 50%;
-        transform: translateY(-50%);
       }
       #cross-site-search input {
-        width: 160px;
+        width: 180px;
         padding: 0.25rem 0.5rem 0.25rem 1.75rem;
         font-size: 0.8rem;
         height: 28px;
@@ -73,6 +69,16 @@ function initCrossSiteSearch() {
       #cross-site-search input:focus {
         width: 240px;
         border-color: var(--sl-color-accent, #ff6b35);
+      }
+      #cross-site-search .search-icon {
+        position: absolute;
+        left: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--wn-text-muted, #8888a0);
+        pointer-events: none;
+        width: 14px;
+        height: 14px;
       }
       #cross-site-search .search-results {
         position: absolute;
