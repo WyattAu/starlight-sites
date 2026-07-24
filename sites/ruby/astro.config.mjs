@@ -42,6 +42,7 @@ export default defineConfig({
         { label: 'Methods Blocks', items: [{ autogenerate: { directory: '03-methods-blocks' } }] },
         { label: 'Oop', items: [{ autogenerate: { directory: '04-oop' } }] },
         { label: 'Advanced', items: [{ autogenerate: { directory: '05-advanced' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

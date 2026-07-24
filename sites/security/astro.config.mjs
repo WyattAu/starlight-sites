@@ -55,6 +55,7 @@ export default defineConfig({
           label: 'Malware Analysis',
           items: [{ autogenerate: { directory: '09-malware-analysis' } }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

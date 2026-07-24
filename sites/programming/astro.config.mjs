@@ -90,6 +90,7 @@ export default defineConfig({
             { label: 'TypeScript', link: 'https://languages.wyattau.com/typescript/' },
           ],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

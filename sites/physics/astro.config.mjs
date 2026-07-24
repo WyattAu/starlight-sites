@@ -60,6 +60,7 @@ export default defineConfig({
           label: 'Particle Physics And Cosmology',
           items: [{ autogenerate: { directory: '7-particle-physics-and-cosmology' } }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -37,6 +37,7 @@ export default defineConfig({
           label: 'Machine Learning',
           items: [{ label: 'advanced topics', slug: 'advanced-topics' }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

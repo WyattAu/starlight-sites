@@ -41,6 +41,7 @@ export default defineConfig({
         { label: 'Concurrency', items: [{ autogenerate: { directory: 'concurrency' } }] },
         { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
         { label: 'Standard Library', items: [{ autogenerate: { directory: 'standard-library' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

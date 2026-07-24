@@ -44,6 +44,7 @@ export default defineConfig({
         { label: 'Git', items: [{ autogenerate: { directory: 'git' } }] },
         { label: 'Licensing', items: [{ autogenerate: { directory: 'licensing' } }] },
         { label: 'Probabilisticml', items: [{ autogenerate: { directory: 'probabilisticml' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

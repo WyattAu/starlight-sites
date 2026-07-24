@@ -55,6 +55,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '06-performance-tuning' } }],
         },
         { label: 'Setup', items: [{ autogenerate: { directory: 'setup' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

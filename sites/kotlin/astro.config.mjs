@@ -39,6 +39,7 @@ export default defineConfig({
         { label: 'Advanced', items: [{ autogenerate: { directory: 'advanced' } }] },
         { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }] },
         { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

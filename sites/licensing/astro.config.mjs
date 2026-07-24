@@ -37,6 +37,7 @@ export default defineConfig({
           label: 'Licensing',
           items: [{ label: 'Open Source Licenses', slug: 'osi-licenses' }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

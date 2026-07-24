@@ -40,6 +40,7 @@ export default defineConfig({
         { label: 'Written Test', items: [{ autogenerate: { directory: 'written-test' } }] },
         { label: 'Road Test', items: [{ autogenerate: { directory: 'road-test' } }] },
         { label: 'State Guides', items: [{ autogenerate: { directory: 'state-guides' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

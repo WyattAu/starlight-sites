@@ -42,6 +42,7 @@ export default defineConfig({
         { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
         { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
         { label: 'Statistics', items: [{ autogenerate: { directory: 'statistics' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

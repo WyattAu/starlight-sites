@@ -57,6 +57,7 @@ export default defineConfig({
           label: 'Theory Of Computation',
           items: [{ autogenerate: { directory: '6-theory-of-computation' } }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

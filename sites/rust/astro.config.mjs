@@ -52,6 +52,7 @@ export default defineConfig({
           label: 'Cargo Ecosystem',
           items: [{ autogenerate: { directory: '07-cargo-ecosystem' } }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

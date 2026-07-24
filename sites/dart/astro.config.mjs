@@ -58,6 +58,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '11-networking-and-data' } }],
         },
         { label: 'Testing', items: [{ autogenerate: { directory: '14-testing' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

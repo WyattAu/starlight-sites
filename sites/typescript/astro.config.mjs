@@ -57,6 +57,7 @@ export default defineConfig({
             { label: 'TypeScript -- Course Overview', slug: 'typescript' },
           ],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

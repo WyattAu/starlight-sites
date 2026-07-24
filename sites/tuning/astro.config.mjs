@@ -42,6 +42,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '05-cooling-systems' } }],
         },
         { label: 'Stress Testing', items: [{ autogenerate: { directory: '06-stress-testing' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -42,6 +42,7 @@ export default defineConfig({
         { label: 'CompTIA', items: [{ autogenerate: { directory: 'comptia' } }] },
         { label: 'Cisco', items: [{ autogenerate: { directory: 'cisco' } }] },
         { label: 'PMP', items: [{ autogenerate: { directory: 'pmp' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

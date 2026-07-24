@@ -51,6 +51,7 @@ export default defineConfig({
           label: 'Database Design',
           items: [{ autogenerate: { directory: '06-database-design' } }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -45,6 +45,7 @@ export default defineConfig({
         { label: 'Type Classes', items: [{ autogenerate: { directory: '03-type-classes' } }] },
         { label: 'Monads', items: [{ autogenerate: { directory: '04-monads' } }] },
         { label: 'Advanced', items: [{ autogenerate: { directory: '05-advanced' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

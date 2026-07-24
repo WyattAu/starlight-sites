@@ -49,6 +49,7 @@ export default defineConfig({
           label: 'Package Management',
           items: [{ autogenerate: { directory: '07-package-management' } }],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

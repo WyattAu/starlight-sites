@@ -50,6 +50,7 @@ export default defineConfig({
         { label: 'Rust', items: [{ autogenerate: { directory: 'rust' } }] },
         { label: 'Swift', items: [{ autogenerate: { directory: 'swift' } }] },
         { label: 'Typescript', items: [{ autogenerate: { directory: 'typescript' } }] },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

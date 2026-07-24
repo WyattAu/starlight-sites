@@ -46,6 +46,7 @@ export default defineConfig({
             { label: 'TMUA Preparation', slug: 'tmua-preparation' },
           ],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),

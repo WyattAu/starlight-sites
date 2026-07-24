@@ -84,6 +84,7 @@ export default defineConfig({
             },
           ],
         },
+        { label: 'About', slug: 'about' },
       ],
       head: [
         ...cloudflareAnalytics(),
