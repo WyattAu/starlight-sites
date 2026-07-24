@@ -794,6 +794,6 @@ ORDER BY average_score DESC;
 
 ## Cross-References
 
-- [Hardware](/docs/leaving-cert/computer-science/1-hardware/1_hardware) covers the network interface hardware and communication protocols that enable network connectivity.
-- [Databases](/docs/leaving-cert/computer-science/3-databases/3_databases) explains how databases can be distributed across networked systems using client-server architecture.
-- [Algorithms](/docs/leaving-cert/computer-science/5-algorithms/5_algorithms) provides the routing and graph algorithms that underpin network path finding and optimisation.
+- [Hardware](/leaving-cert/computer-science/1-hardware/1_hardware) covers the network interface hardware and communication protocols that enable network connectivity.
+- [Databases](/leaving-cert/computer-science/3-databases/3_databases) explains how databases can be distributed across networked systems using client-server architecture.
+- [Algorithms](/leaving-cert/computer-science/5-algorithms/5_algorithms) provides the routing and graph algorithms that underpin network path finding and optimisation.

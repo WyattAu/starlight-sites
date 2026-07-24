@@ -467,8 +467,8 @@ Setting up Dart involves choosing between the standalone Dart SDK (for server-si
 
 ## Cross-References
 
-- [Development Environment](/docs/dart/02-setup/02-dev-enviroment) -- IDE setup and debugging
-- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- first Dart program
-- [Introduction to Dart](/docs/dart/01-intro) -- language overview and compilation targets
+- [Development Environment](/dart/02-setup/02-dev-enviroment) -- IDE setup and debugging
+- [Entry Point](/dart/03-basics/01-entrypoint) -- first Dart program
+- [Introduction to Dart](/dart/01-intro) -- language overview and compilation targets
 
 </aside>

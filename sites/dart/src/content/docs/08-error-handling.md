@@ -1106,6 +1106,6 @@ Dart distinguishes between Exception (recoverable runtime conditions) and Error 
 
 ## Cross-References
 
-- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- error handling in async code
-- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive switch
-- [Classes and Inheritance](/docs/dart/04-object-oriented/01-classes-and-inheritance) -- custom exception classes
+- [Async and Futures](/dart/05-async/01-async-and-futures) -- error handling in async code
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive switch
+- [Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance) -- custom exception classes

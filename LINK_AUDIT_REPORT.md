@@ -7,62 +7,62 @@ Generated: 2026-07-24
 | Metric | Count |
 |--------|-------|
 | Sites scanned | 46 |
-| Total pages | 3266 |
-| Total internal links | 13694 |
-| Orphan pages (0 links) | 498 |
-| Thin-linked pages (<3 links) | 645 |
-| Cross-site links | 1853 |
-| Broken links | 5812 |
+| Total pages | 3284 |
+| Total internal links | 15520 |
+| Orphan pages (0 links) | 24 |
+| Thin-linked pages (<3 links) | 677 |
+| Cross-site links | 1974 |
+| Broken links | 6078 |
 
 ## Per-Site Breakdown
 
 | Site | Pages | Links | Orphans | Thin | Broken |
 |------|-------|-------|---------|------|--------|
-| alevel | 443 | 1706 | 82 | 54 | 652 |
-| ib | 392 | 1870 | 76 | 42 | 286 |
-| languages | 270 | 778 | 65 | 55 | 400 |
-| dse | 227 | 914 | 45 | 37 | 181 |
-| mathematics | 168 | 1249 | 7 | 6 | 556 |
-| cpp | 161 | 828 | 17 | 20 | 609 |
-| programming | 161 | 1086 | 19 | 22 | 561 |
-| physics | 144 | 1057 | 10 | 15 | 444 |
-| ap | 124 | 410 | 3 | 54 | 191 |
-| computer-science | 119 | 459 | 36 | 13 | 259 |
-| gcse | 118 | 366 | 21 | 46 | 180 |
-| tools | 96 | 285 | 12 | 31 | 181 |
-| highers | 80 | 259 | 7 | 30 | 109 |
-| leaving-cert | 79 | 249 | 8 | 30 | 149 |
-| cbse | 57 | 251 | 3 | 0 | 146 |
-| java | 44 | 138 | 6 | 11 | 88 |
-| python | 41 | 171 | 1 | 7 | 89 |
-| dart | 37 | 101 | 3 | 12 | 40 |
-| chemistry | 34 | 151 | 8 | 0 | 63 |
-| networking | 34 | 118 | 2 | 9 | 61 |
-| go | 32 | 117 | 2 | 0 | 77 |
-| security | 32 | 103 | 3 | 19 | 47 |
-| linux | 31 | 94 | 1 | 16 | 25 |
-| rust | 30 | 95 | 1 | 9 | 58 |
-| databases | 27 | 108 | 1 | 8 | 58 |
-| gaokao | 24 | 65 | 1 | 7 | 43 |
-| kotlin | 24 | 69 | 3 | 7 | 38 |
-| sat | 23 | 90 | 3 | 3 | 8 |
-| truenas | 23 | 51 | 2 | 10 | 4 |
-| hsc | 22 | 78 | 1 | 10 | 7 |
-| haskell | 20 | 47 | 4 | 8 | 27 |
-| tuning | 20 | 42 | 2 | 9 | 29 |
-| ruby | 19 | 51 | 1 | 10 | 28 |
-| typescript | 18 | 63 | 1 | 5 | 42 |
-| swift | 17 | 42 | 3 | 7 | 23 |
-| elixir | 16 | 44 | 1 | 8 | 24 |
-| admissions | 11 | 30 | 3 | 3 | 23 |
-| driving-uk | 9 | 8 | 7 | 1 | 0 |
-| language-tests | 9 | 10 | 8 | 0 | 0 |
-| machine-learning | 8 | 11 | 4 | 4 | 3 |
-| civics-tests | 5 | 6 | 4 | 1 | 0 |
-| driving-eu | 4 | 4 | 3 | 1 | 0 |
-| driving-us | 4 | 5 | 3 | 1 | 0 |
-| licensing | 4 | 10 | 1 | 3 | 3 |
-| professional-certs | 4 | 5 | 3 | 1 | 0 |
+| alevel | 443 | 1948 | 0 | 58 | 652 |
+| ib | 392 | 2095 | 0 | 44 | 286 |
+| languages | 270 | 972 | 0 | 56 | 400 |
+| dse | 227 | 1049 | 0 | 37 | 181 |
+| mathematics | 168 | 1267 | 1 | 6 | 556 |
+| cpp | 161 | 873 | 2 | 20 | 609 |
+| programming | 161 | 1125 | 6 | 22 | 561 |
+| physics | 144 | 1084 | 1 | 15 | 444 |
+| ap | 124 | 419 | 0 | 54 | 191 |
+| computer-science | 119 | 549 | 6 | 13 | 259 |
+| gcse | 118 | 428 | 0 | 47 | 180 |
+| tools | 97 | 330 | 0 | 34 | 182 |
+| highers | 80 | 279 | 0 | 31 | 109 |
+| leaving-cert | 79 | 269 | 0 | 34 | 149 |
+| cbse | 57 | 260 | 0 | 0 | 146 |
+| java | 45 | 186 | 0 | 13 | 111 |
+| python | 41 | 174 | 0 | 7 | 89 |
+| dart | 38 | 143 | 0 | 12 | 67 |
+| chemistry | 34 | 172 | 1 | 0 | 63 |
+| networking | 34 | 124 | 0 | 9 | 61 |
+| go | 33 | 155 | 0 | 0 | 102 |
+| linux | 32 | 104 | 1 | 16 | 25 |
+| security | 32 | 112 | 0 | 19 | 47 |
+| rust | 31 | 132 | 0 | 9 | 86 |
+| databases | 27 | 111 | 0 | 8 | 58 |
+| gaokao | 25 | 102 | 0 | 7 | 43 |
+| kotlin | 25 | 112 | 0 | 7 | 66 |
+| truenas | 24 | 64 | 1 | 10 | 4 |
+| sat | 23 | 99 | 0 | 3 | 8 |
+| hsc | 22 | 81 | 0 | 10 | 7 |
+| haskell | 21 | 91 | 0 | 8 | 54 |
+| tuning | 21 | 55 | 1 | 9 | 29 |
+| ruby | 20 | 87 | 0 | 10 | 55 |
+| typescript | 19 | 98 | 0 | 5 | 68 |
+| swift | 18 | 84 | 0 | 7 | 50 |
+| elixir | 17 | 81 | 0 | 8 | 51 |
+| admissions | 12 | 45 | 1 | 3 | 23 |
+| driving-uk | 9 | 28 | 0 | 2 | 0 |
+| language-tests | 9 | 32 | 0 | 2 | 0 |
+| machine-learning | 9 | 33 | 1 | 4 | 3 |
+| civics-tests | 5 | 16 | 0 | 3 | 0 |
+| licensing | 5 | 20 | 1 | 3 | 3 |
+| driving-eu | 4 | 10 | 0 | 4 | 0 |
+| driving-us | 4 | 11 | 0 | 4 | 0 |
+| professional-certs | 4 | 11 | 0 | 4 | 0 |
 | main | 1 | 0 | 1 | 0 | 0 |
 
 ## Orphan Pages (Zero Internal Links)
@@ -71,504 +71,30 @@ These pages have no outgoing internal links to other pages within their site.
 
 | Site | Page | Title |
 |------|------|-------|
-| admissions | `admissions/src/content/docs/about.md` | About This Site |
-| admissions | `admissions/src/content/docs/intro.md` | Admissions |
-| admissions | `admissions/src/content/docs/practice-admissions.mdx` | Admissions Practice (Interactive) |
-| alevel | `alevel/src/content/docs/about.md` | About This Site |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-biodiversity-classification-evolution.md` | Biodiversity, Classification and Evolution -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-cells.md` | Cells -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-exchange-transport.md` | Exchange and Transport -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diag-genetics-dna.md` | Genetics and DNA -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/biology/diagnostics/diagnostic-guide.md` | A-Level Biology -- Diagnostic Test Guide |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-alkanes-alkenes.md` | Alkanes and Alkenes -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-atomic-structure.md` | Atomic Structure and Periodicity -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-bonding-structure.md` | Bonding and Structure -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diag-carbonyl-arenes-amines.md` | Carbonyl Compounds, Arenes, Amines -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/chemistry/diagnostics/diagnostic-guide.md` | A-Level Chemistry Diagnostic Guide |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/amines.md` | Amines |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/analytical-techniques.md` | Analytical Techniques |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/arenes.md` | Arenes |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/carbonyl-compounds.md` | Carbonyl Compounds |
-| alevel | `alevel/src/content/docs/chemistry/organic-chemistry/halogenoalkanes.md` | Halogenoalkanes |
-| alevel | `alevel/src/content/docs/chemistry/physical-chemistry-extra/born-haber-cycles.md` | Born-Haber Cycles |
-| alevel | `alevel/src/content/docs/chemistry/physical-chemistry.md` | Physical Chemistry |
-| alevel | `alevel/src/content/docs/chemistry/thermodynamics.md` | Thermodynamics & Energetics |
-| alevel | `alevel/src/content/docs/computer-science/algorithms/index.md` | Algorithms |
-| alevel | `alevel/src/content/docs/computer-science/data-structures/index.md` | Data Structures |
-| alevel | `alevel/src/content/docs/computer-science/databases/index.md` | Databases |
-| alevel | `alevel/src/content/docs/computer-science/diagnostics/diag-algorithms.md` | Algorithms -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/computer-science/diagnostics/diagnostic-guide.md` | A-Level Computer Science -- Diagnostic Guide |
-| alevel | `alevel/src/content/docs/computer-science/flashcards-networks.mdx` | A-Level CS Flashcards: Networks |
-| alevel | `alevel/src/content/docs/computer-science/fundamentals/02-floating-point.md` | Floating Point Representation |
-| alevel | `alevel/src/content/docs/computer-science/fundamentals/04-computer-architecture.md` | Computer Architecture |
-| alevel | `alevel/src/content/docs/computer-science/fundamentals/index.md` | Fundamentals |
-| alevel | `alevel/src/content/docs/computer-science/networks/index.md` | Networks |
-| alevel | `alevel/src/content/docs/computer-science/programming/index.md` | Programming |
-| alevel | `alevel/src/content/docs/computer-science/software-engineering/index.md` | Software Engineering |
-| alevel | `alevel/src/content/docs/computer-science/theory-of-computation/index.md` | Theory of Computation |
-| alevel | `alevel/src/content/docs/economics/diagnostics/diagnostic-guide.md` | A-Level Economics -- Diagnostic Guide |
-| alevel | `alevel/src/content/docs/economics/macro/index.md` | Macroeconomics |
-| alevel | `alevel/src/content/docs/economics/microeconomics/01-the-economic-problem.md` | The Economic Problem |
-| alevel | `alevel/src/content/docs/economics/microeconomics/index.md` | Microeconomics |
-| alevel | `alevel/src/content/docs/english/1-literary-analysis/1_literary-analysis.md` | Literary Analysis |
-| alevel | `alevel/src/content/docs/english/11-exam-techniques/1_exam_techniques.md` | Exam Techniques |
-| alevel | `alevel/src/content/docs/english/12-coursework/1_coursework.md` | Coursework Guide |
-| alevel | `alevel/src/content/docs/english/3-prose/1_prose-analysis.md` | Prose Analysis |
-| alevel | `alevel/src/content/docs/english/4-drama/1_drama-analysis.md` | Drama Analysis |
-| alevel | `alevel/src/content/docs/english/5-shakespeare/1_shakespeare.md` | Shakespeare |
-| alevel | `alevel/src/content/docs/english/6-comparative-analysis/1_comparative-analysis.md` | Comparative Analysis |
-| alevel | `alevel/src/content/docs/english/7-unseen-texts/1_unseen-text-analysis.md` | Unseen Text Analysis |
-| alevel | `alevel/src/content/docs/english/8-great-gatsby/1_great-gatsby.md` | The Great Gatsby |
-| alevel | `alevel/src/content/docs/english/9-pre-1900-poetry/1_pre1900_poetry.md` | Pre-1900 Poetry |
-| alevel | `alevel/src/content/docs/english/diagnostics/diag-literary-analysis.md` | Diagnostic Test: Literary Analysis |
-| alevel | `alevel/src/content/docs/further-maths/diagnostics/diagnostic-guide.md` | A-Level Further Maths -- Diagnostic Guide |
-| alevel | `alevel/src/content/docs/further-maths/further-mechanics/index.md` | Further Mechanics |
-| alevel | `alevel/src/content/docs/further-maths/further-statistics/index.md` | Further Statistics |
-| alevel | `alevel/src/content/docs/further-maths/practice-further-statistics.mdx` | A-Level Further Maths: Further Statistics Practice |
-| alevel | `alevel/src/content/docs/further-maths/pure-mathematics/index.md` | Pure Mathematics |
-| alevel | `alevel/src/content/docs/geography/2-human-geography/3_contemporary-urban-environments.md` | Contemporary Urban Environments |
-| alevel | `alevel/src/content/docs/geography/2-human-geography/4_population-and-environment.md` | Population and the Environment |
-| alevel | `alevel/src/content/docs/history/1-historical-skills/1_historical-skills.md` | Historical Skills |
-| alevel | `alevel/src/content/docs/history/10-source-analysis/1_source_analysis.md` | A-Level Source Analysis |
-| alevel | `alevel/src/content/docs/history/index.md` | A-Level History |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-binomial-expansion.md` | Binomial Expansion -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-correlation-and-regression.md` | Correlation and Regression -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-data-representation.md` | Data Representation -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-energy-and-work.md` | Energy and Work -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-forces-and-newtons-laws.md` | diag-forces-and-newtons-laws |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-integration.md` | Integration -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-kinematics.md` | Kinematics -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-numerical-methods.md` | Numerical Methods -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-probability.md` | Probability -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-statistical-distributions.md` | Statistical Distributions -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/diag-trigonometry.md` | Trigonometry -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/maths/diagnostics/papers/paper-1-pure-mathematics.md` | Paper 1 -- Pure Mathematics -- Full Diagnostic Exam |
-| alevel | `alevel/src/content/docs/maths/diagnostics/papers/paper-2-statistics.md` | Paper 2 -- Statistics -- Full Diagnostic Exam |
-| alevel | `alevel/src/content/docs/maths/mechanics/04-energy-and-work.md` | Energy and Work |
-| alevel | `alevel/src/content/docs/maths/mechanics/index.md` | Mechanics |
-| alevel | `alevel/src/content/docs/maths/practice-statistics.mdx` | A-Level Maths: Statistics Practice |
-| alevel | `alevel/src/content/docs/physics/diagnostics/diag-dynamics.md` | Dynamics -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/physics/diagnostics/diag-nuclear-energy.md` | Nuclear Energy -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/physics/diagnostics/diag-properties-of-materials.md` | Properties of Materials -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/physics/diagnostics/diag-quantities-units.md` | Quantities and Units -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/physics/diagnostics/diag-superposition-interference.md` | Superposition and Interference -- Diagnostic Tests |
-| alevel | `alevel/src/content/docs/physics/diagnostics/diagnostic-guide.md` | A-Level Physics Diagnostic Guide |
-| alevel | `alevel/src/content/docs/physics/nuclear-physics/04-particle-physics.md` | Particle Physics |
-| alevel | `alevel/src/content/docs/physics/practice-nuclear-astrophysics.mdx` | A-Level Physics: Nuclear and Astrophysics Practice |
-| alevel | `alevel/src/content/docs/psychology/practice-psychopathology.mdx` | Psychopathology Practice |
-| ap | `ap/src/content/docs/about.md` | About This Site |
-| ap | `ap/src/content/docs/ap-computer-science-a.md` | AP Computer Science A |
-| ap | `ap/src/content/docs/ap-computer-science-principles.md` | AP Computer Science Principles |
-| cbse | `cbse/src/content/docs/about.md` | About This Site |
-| cbse | `cbse/src/content/docs/chemistry/amines/index.md` | Amines |
-| cbse | `cbse/src/content/docs/chemistry/carboxylic-acids/index.md` | Carboxylic Acids |
-| chemistry | `chemistry/src/content/docs/1-physical-chemistry/practice-thermodynamics.mdx` | Thermodynamics -- Practice Problems |
-| chemistry | `chemistry/src/content/docs/2-organic-chemistry/practice-organic-chemistry.mdx` | Organic Chemistry -- Practice Problems |
-| chemistry | `chemistry/src/content/docs/2-organic-chemistry/practice-structure-and-bonding.mdx` | Structure and Bonding -- Practice Problems |
-| chemistry | `chemistry/src/content/docs/3-inorganic-chemistry/practice-coordination-chemistry.mdx` | Coordination Chemistry -- Practice Problems |
-| chemistry | `chemistry/src/content/docs/3-inorganic-chemistry/practice-inorganic-chemistry.mdx` | Inorganic Chemistry -- Practice Problems |
-| chemistry | `chemistry/src/content/docs/3-inorganic-chemistry/practice-main-group-solid-state.mdx` | Main-Group and Solid-State Chemistry -- Practice Problems |
-| chemistry | `chemistry/src/content/docs/about.md` | About This Site |
+| admissions | `admissions/src/content/docs/hub.md` | University Admissions Guide — Applications, Essays, Interviews |
 | chemistry | `chemistry/src/content/docs/intro.md` | Chemistry |
-| civics-tests | `civics-tests/src/content/docs/about.md` | About This Site |
-| civics-tests | `civics-tests/src/content/docs/index.md` | Civics and Citizenship Tests |
-| civics-tests | `civics-tests/src/content/docs/us-citizenship/civics-questions.md` | US Civics Questions |
-| civics-tests | `civics-tests/src/content/docs/us-citizenship/english-test.md` | US Citizenship English Test |
-| computer-science | `computer-science/src/content/docs/1-algorithms/practice-algorithm-design.mdx` | Algorithm Design -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/1-algorithms/practice-algorithms.mdx` | University CS Practice: Algorithms |
-| computer-science | `computer-science/src/content/docs/1-algorithms/practice-complexity-theory.mdx` | Complexity Theory -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/1-algorithms/practice-data-structures.mdx` | Data Structures -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/1-discrete-mathematics/1_propositional-and-predicate-logic.md` | Propositional and Predicate Logic |
-| computer-science | `computer-science/src/content/docs/1-discrete-mathematics/2_sets-relations-and-functions.md` | Sets, Relations, and Functions |
-| computer-science | `computer-science/src/content/docs/1-discrete-mathematics/3_proof-techniques.md` | Proof Techniques |
-| computer-science | `computer-science/src/content/docs/1-discrete-mathematics/4_combinatorics.md` | Combinatorics |
-| computer-science | `computer-science/src/content/docs/1-discrete-mathematics/5_graph-theory.md` | Graph Theory |
-| computer-science | `computer-science/src/content/docs/1-discrete-mathematics/6_recurrence-relations.md` | Recurrence Relations |
-| computer-science | `computer-science/src/content/docs/2-algorithms-and-data-structures/12_practice-algorithms-data-structures.mdx` | Algorithms and Data Structures -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/2-algorithms-and-data-structures/2_fundamental-data-structures.md` | Fundamental Data Structures |
-| computer-science | `computer-science/src/content/docs/2-algorithms-and-data-structures/7_problem-set.md` | Problem Set |
-| computer-science | `computer-science/src/content/docs/2-algorithms-and-data-structures/8_data-structures-advanced.md` | Data Structures (Advanced) |
-| computer-science | `computer-science/src/content/docs/2-systems/practice-distributed-systems.mdx` | Distributed Systems -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/3-computer-networks/2_physical-layer.md` | Physical Layer |
-| computer-science | `computer-science/src/content/docs/3-computer-networks/8_problem-set.md` | Problem Set |
-| computer-science | `computer-science/src/content/docs/3-theory/practice-automata.mdx` | Automata and Formal Languages -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/3-theory/practice-cryptography.mdx` | Cryptography -- Practice Problems |
-| computer-science | `computer-science/src/content/docs/4-databases/11_further-reading.md` | Further Reading |
-| computer-science | `computer-science/src/content/docs/4-databases/2_relational-model.md` | Relational Model |
-| computer-science | `computer-science/src/content/docs/4-databases/6_transaction-management.md` | Transaction Management |
 | computer-science | `computer-science/src/content/docs/4-databases/8_nosql-overview.md` | NoSQL Overview |
-| computer-science | `computer-science/src/content/docs/4-databases/9_distributed-databases.md` | Distributed Databases |
-| computer-science | `computer-science/src/content/docs/5-operating-systems/10_problem-set.md` | Problem Set |
-| computer-science | `computer-science/src/content/docs/5-operating-systems/13_practice-operating-systems.mdx` | Operating Systems Practice (Interactive) |
 | computer-science | `computer-science/src/content/docs/5-operating-systems/2_process-management.md` | Process Management |
-| computer-science | `computer-science/src/content/docs/5-operating-systems/6_file-systems.md` | File Systems |
 | computer-science | `computer-science/src/content/docs/5-operating-systems/8_virtualization.md` | Virtualization |
 | computer-science | `computer-science/src/content/docs/6-theory-of-computation/3_context-free-languages.md` | Context-Free Languages |
-| computer-science | `computer-science/src/content/docs/6-theory-of-computation/7_problem-set.md` | Problem Set |
-| computer-science | `computer-science/src/content/docs/6-theory-of-computation/9_practice-theory-of-computation.mdx` | Theory of Computation Practice (Interactive) |
-| computer-science | `computer-science/src/content/docs/about.md` | About This Site |
 | computer-science | `computer-science/src/content/docs/index.md` | Computing |
 | computer-science | `computer-science/src/content/docs/intro.md` | Computer science |
-| computer-science | `computer-science/src/content/docs/practice-discrete-math.mdx` | Discrete Mathematics: Practice Problems |
-| cpp | `cpp/src/content/docs/about.md` | About This Site |
-| cpp | `cpp/src/content/docs/compilation_model/1_translation/2_symbol_visibility.mdx` | Symbol Visibility |
-| cpp | `cpp/src/content/docs/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks.md` | Mutexes, Shared Locks, and Deadlock Prevention |
-| cpp | `cpp/src/content/docs/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator.md` | CMake Targets Properties and Generator Expressions |
-| cpp | `cpp/src/content/docs/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files.md` | CMake Presets and Toolchain Files |
-| cpp | `cpp/src/content/docs/enviroment_and_toolchain/2_build_system/5_unit_tests.mdx` | Unit Testing |
-| cpp | `cpp/src/content/docs/enviroment_and_toolchain/4_development_enviroment_analysis/2_debugger.mdx` | Debugger |
-| cpp | `cpp/src/content/docs/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer.mdx` | Sanitizer |
-| cpp | `cpp/src/content/docs/function_architecture/2_error_handling/practice-error-handling.mdx` | C++ Error Handling Practice (Interactive) |
-| cpp | `cpp/src/content/docs/resource_management/0_intro.md` | Resource Management and Move Semantics |
-| cpp | `cpp/src/content/docs/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption.md` | Constraint Subsumption and Overload Resolution |
-| cpp | `cpp/src/content/docs/types/1_data_layout/1_fundamental_types.mdx` | Fundamental Types |
-| cpp | `cpp/src/content/docs/types/1_data_layout/2_layout.mdx` | Alignment and Layout |
-| cpp | `cpp/src/content/docs/types/2_pointers_references_views/2_reference_lifetime.mdx` | Reference And Lifetime |
 | cpp | `cpp/src/content/docs/types/3_initialization_and_lifetime/3_aggregate_initialization.mdx` | Aggregate Initialization |
 | cpp | `cpp/src/content/docs/types/3_initialization_and_lifetime/5_deterministic_destruction.mdx` | Deterministic Destruction |
-| cpp | `cpp/src/content/docs/types/practice-types-resources.mdx` | C++ Types and Resource Management: Practice Problems |
-| dart | `dart/src/content/docs/about.md` | About This Site |
-| dart | `dart/src/content/docs/practice-flutter.mdx` | Flutter Practice |
-| dart | `dart/src/content/docs/testing.md` | testing |
-| databases | `databases/src/content/docs/about.md` | About This Site |
-| driving-eu | `driving-eu/src/content/docs/about.md` | About This Site |
-| driving-eu | `driving-eu/src/content/docs/index.md` | EU Driving Test |
-| driving-eu | `driving-eu/src/content/docs/theory-test/traffic-signs.md` | EU Traffic Signs |
-| driving-uk | `driving-uk/src/content/docs/about.md` | About This Site |
-| driving-uk | `driving-uk/src/content/docs/index.md` | UK Driving Test |
-| driving-uk | `driving-uk/src/content/docs/practical-test/driving-manoeuvres.md` | Driving Manoeuvres |
-| driving-uk | `driving-uk/src/content/docs/theory-test/hazard-perception.md` | Hazard Perception |
-| driving-uk | `driving-uk/src/content/docs/theory-test/multiple-choice.md` | Multiple Choice Questions |
-| driving-uk | `driving-uk/src/content/docs/theory-test/road-rules.md` | Road Rules |
-| driving-uk | `driving-uk/src/content/docs/theory-test/traffic-signs.md` | Traffic Signs |
-| driving-us | `driving-us/src/content/docs/about.md` | About This Site |
-| driving-us | `driving-us/src/content/docs/index.md` | US Driving Test |
-| driving-us | `driving-us/src/content/docs/written-test/traffic-signs.md` | US Traffic Signs |
-| dse | `dse/src/content/docs/about.md` | About This Site |
-| dse | `dse/src/content/docs/biology/1-cell-biology/1_cell-biology-and-biochemistry.md` | Biology - Cell Biology and Biochemistry |
-| dse | `dse/src/content/docs/biology/2-ecology/1_ecology.md` | Evolution and Ecology |
-| dse | `dse/src/content/docs/biology/2-ecology/2_biodiversity-and-conservation.md` | Biodiversity and Conservation |
-| dse | `dse/src/content/docs/biology/4-human-physiology/3_homeostasis.md` | Homeostasis |
-| dse | `dse/src/content/docs/biology/6-evolution/1_evolution.md` | Evolution |
-| dse | `dse/src/content/docs/biology/7-nervous-system-and-immunology/1_nervous-system.md` | Nervous System |
-| dse | `dse/src/content/docs/biology/diagnostics/diag-biodiversity-conservation.md` | Biodiversity and Conservation -- Diagnostic Tests |
-| dse | `dse/src/content/docs/biology/diagnostics/diag-cell-biology-biochemistry.md` | Cell Biology and Biochemistry -- Diagnostic Tests |
-| dse | `dse/src/content/docs/biology/diagnostics/diag-evolution-ecology.md` | Evolution and Ecology -- Diagnostic Tests |
-| dse | `dse/src/content/docs/biology/diagnostics/diag-genetics.md` | Genetics -- Diagnostic Tests |
-| dse | `dse/src/content/docs/biology/diagnostics/diag-human-reproduction-homeostasis.md` | Human Reproduction and Homeostasis -- Diagnostic Tests |
-| dse | `dse/src/content/docs/biology/diagnostics/diag-plant-biology.md` | Plant Biology -- Diagnostic Tests |
-| dse | `dse/src/content/docs/biology/diagnostics/diagnostic-guide.md` | DSE Biology Diagnostic Tests -- Guide |
-| dse | `dse/src/content/docs/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding.md` | Chemistry - Atomic Structure and Bonding |
-| dse | `dse/src/content/docs/chemistry/3-chemical-kinetics-and-energetics/2_energetics.md` | Chemistry - Energetics / Thermochemistry |
-| dse | `dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium.md` | Chemistry - Chemical Equilibrium |
-| dse | `dse/src/content/docs/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry.md` | Chemistry - Redox and Electrochemistry |
-| dse | `dse/src/content/docs/chemistry/7-organic-chemistry/2_carbon-chemistry.md` | Chemistry - Carbon Chemistry |
-| dse | `dse/src/content/docs/chemistry/diagnostics/diagnostic-guide.md` | DSE Chemistry Diagnostic Tests -- Guide |
-| dse | `dse/src/content/docs/economics/1-basic-economic-concepts/1_basic-economic-concepts.md` | Basic Economic Concepts |
-| dse | `dse/src/content/docs/economics/2-demand-supply-markets/1_demand-supply-and-markets.md` | Economics - Demand, Supply, and Markets |
-| dse | `dse/src/content/docs/economics/diagnostics/diag-basic-economic-concepts.md` | Basic Economic Concepts -- Diagnostic Tests |
-| dse | `dse/src/content/docs/economics/diagnostics/diag-demand-supply-markets.md` | Demand, Supply, and Markets -- Diagnostic Tests |
-| dse | `dse/src/content/docs/economics/diagnostics/diag-international-trade.md` | International Trade and Finance -- Diagnostic Tests |
-| dse | `dse/src/content/docs/economics/diagnostics/diag-market-structure.md` | Market Structure and Theory of the Firm -- Diagnostic Tests |
-| dse | `dse/src/content/docs/economics/diagnostics/diag-national-income.md` | National Income and Macroeconomic Indicators -- Diagnostic Tests |
-| dse | `dse/src/content/docs/economics/diagnostics/diagnostic-guide.md` | DSE Economics -- Diagnostic Guide |
-| dse | `dse/src/content/docs/geography/climate.md` | Weather and Climate |
-| dse | `dse/src/content/docs/geography/economic-development.md` | Industrial Location and Economic Development |
-| dse | `dse/src/content/docs/history/chinese-revolution.md` | The Chinese Revolution |
-| dse | `dse/src/content/docs/history/cold-war.md` | The Cold War |
-| dse | `dse/src/content/docs/history/decolonisation.md` | Decolonisation and the Path to 1997 |
-| dse | `dse/src/content/docs/history/imperialism.md` | European Imperialism in Asia |
-| dse | `dse/src/content/docs/ict/2-computer-systems/1_computer-systems.md` | Fundamentals of Computer Systems |
-| dse | `dse/src/content/docs/ict/3-programming-and-databases/2_programming-and-databases.md` | ICT - Programming and Databases |
-| dse | `dse/src/content/docs/ict/diagnostics/diag-internet-data-communications.md` | Internet and Data Communications -- Diagnostic Tests |
-| dse | `dse/src/content/docs/ict/diagnostics/diag-network-security-social-implications.md` | Network Security and Social Implications -- Diagnostic Tests |
-| dse | `dse/src/content/docs/ict/diagnostics/diag-web-multimedia.md` | Web Development and Multimedia -- Diagnostic Tests |
-| dse | `dse/src/content/docs/ict/diagnostics/diagnostic-guide.md` | DSE ICT -- Diagnostic Guide |
-| dse | `dse/src/content/docs/physics/1-mechanics/1_forces-and-motion.mdx` | Forces and Motion |
-| dse | `dse/src/content/docs/physics/1-mechanics/3_energy-and-work.mdx` | Energy and Work |
-| dse | `dse/src/content/docs/physics/2-waves/1_waves-and-sound.mdx` | Waves and Sound |
-| dse | `dse/src/content/docs/physics/3-electricity-and-magnetism/1_electrical-circuits.mdx` | Electrical Circuits |
-| dse | `dse/src/content/docs/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism.mdx` | Magnetism and Electromagnetism |
-| elixir | `elixir/src/content/docs/about.md` | About This Site |
-| gaokao | `gaokao/src/content/docs/about.md` | About This Site |
-| gcse | `gcse/src/content/docs/about.md` | About This Site |
-| gcse | `gcse/src/content/docs/biology/diagnostics/diag-ecology.md` | Ecology -- Diagnostic Tests |
-| gcse | `gcse/src/content/docs/biology/diagnostics/diagnostic-guide.md` | GCSE Biology -- Diagnostic Guide |
-| gcse | `gcse/src/content/docs/biology/practice-biology.mdx` | Biology Practice (Interactive) |
-| gcse | `gcse/src/content/docs/chemistry/diagnostic-test.mdx` | GCSE Chemistry — Diagnostic Test |
-| gcse | `gcse/src/content/docs/computer-science/4-algorithms/4_algorithms.md` | Algorithms |
-| gcse | `gcse/src/content/docs/computer-science/diagnostic-test.mdx` | GCSE Computer Science — Diagnostic Test |
-| gcse | `gcse/src/content/docs/computer-science/practice-computer-science.mdx` | Computer Science Practice (Interactive) |
-| gcse | `gcse/src/content/docs/english/2-19th-century-novel/2_19th-century-novel.md` | The 19th-Century Novel |
-| gcse | `gcse/src/content/docs/english/4-essay-writing/4_essay-writing.md` | Essay Writing for GCSE English Literature |
-| gcse | `gcse/src/content/docs/english/diagnostic-test.mdx` | GCSE English — Diagnostic Test |
-| gcse | `gcse/src/content/docs/english/diagnostics/diag-creative-writing.md` | Creative Writing -- Diagnostic Tests |
-| gcse | `gcse/src/content/docs/english/diagnostics/diag-reading-fiction.md` | Reading Fiction -- Diagnostic Tests |
-| gcse | `gcse/src/content/docs/english/diagnostics/diag-reading-nonfiction.md` | Reading Non-Fiction -- Diagnostic Tests |
-| gcse | `gcse/src/content/docs/maths-practice-interactive.mdx` | Maths Practice (Interactive) |
-| gcse | `gcse/src/content/docs/maths/1-number/1_number.md` | Number |
-| gcse | `gcse/src/content/docs/maths/4-geometry/4_geometry.md` | Geometry |
-| gcse | `gcse/src/content/docs/maths/6-statistics/6_statistics.md` | Statistics |
-| gcse | `gcse/src/content/docs/maths/diagnostics/diagnostic-guide.md` | GCSE Maths -- Diagnostic Guide |
-| gcse | `gcse/src/content/docs/physics/diagnostics/diag-waves.md` | Waves -- Diagnostic Tests |
-| gcse | `gcse/src/content/docs/physics/diagnostics/diagnostic-guide.md` | GCSE Physics -- Diagnostic Guide |
-| go | `go/src/content/docs/about.md` | About This Site |
-| go | `go/src/content/docs/standard-library/math-sort-log.md` | math, sort, and log/slog |
-| haskell | `haskell/src/content/docs/about.md` | About This Site |
-| haskell | `haskell/src/content/docs/flashcards-haskell-advanced.mdx` | Advanced Haskell Flashcards |
-| haskell | `haskell/src/content/docs/practice-haskell-basics.mdx` | Haskell Practice (Basics) |
-| haskell | `haskell/src/content/docs/practice-type-classes.mdx` | Type Classes Practice |
-| highers | `highers/src/content/docs/about.md` | About This Site |
-| highers | `highers/src/content/docs/chemistry/diagnostics/diag-chemical-reactions.md` | Chemical Reactions -- Diagnostic Tests |
-| highers | `highers/src/content/docs/chemistry/practice-chemistry.mdx` | Chemistry Practice (Interactive) |
-| highers | `highers/src/content/docs/computer-science/practice-computer-science.mdx` | Computer Science Practice (Interactive) |
-| highers | `highers/src/content/docs/flashcards-mathematics.mdx` | SQA Higher Mathematics Flashcards |
-| highers | `highers/src/content/docs/intro.md` | Scottish Highers |
-| highers | `highers/src/content/docs/maths/3-calculus/3_calculus.md` | Further Calculus |
-| hsc | `hsc/src/content/docs/about.md` | About This Site |
-| ib | `ib/src/content/docs/about.md` | About This Site |
-| ib | `ib/src/content/docs/biology/diagnostics/diag-human-physiology.md` | Human Physiology -- Diagnostic Tests |
-| ib | `ib/src/content/docs/biology/diagnostics/diagnostic-guide.md` | IB Biology -- Diagnostic Guide |
-| ib | `ib/src/content/docs/chemistry/1-stoichiometry/1_stoichiometric-relationships.md` | Stoichiometry |
-| ib | `ib/src/content/docs/chemistry/10-organic-chemistry/1_organic-chemistry.md` | Organic Chemistry |
-| ib | `ib/src/content/docs/chemistry/4-chemical-bonding/1_chemical-bonding.md` | Chemical Bonding and Structure |
-| ib | `ib/src/content/docs/chemistry/5-energetics/1_thermochemistry.md` | Thermochemistry |
-| ib | `ib/src/content/docs/chemistry/6-kinetics/1_chemical-kinetics.md` | Chemical Kinetics |
-| ib | `ib/src/content/docs/chemistry/7-equilibrium/1_equilibrium.md` | Chemical Equilibrium |
-| ib | `ib/src/content/docs/chemistry/8-acids-and-bases/1_acids-and-bases.md` | Acids and Bases |
-| ib | `ib/src/content/docs/chemistry/9-redox/1_redox-reactions.md` | Redox Reactions |
-| ib | `ib/src/content/docs/chemistry/9-redox/3_electrochemistry.md` | Electrochemistry |
-| ib | `ib/src/content/docs/chemistry/diagnostics/diag-atomic-structure.md` | Atomic Structure and Atomic Theory -- Diagnostic Tests |
-| ib | `ib/src/content/docs/chemistry/diagnostics/diag-periodicity.md` | Periodicity -- Diagnostic Tests |
-| ib | `ib/src/content/docs/chemistry/diagnostics/diagnostic-guide.md` | IB Chemistry -- Diagnostic Guide |
-| ib | `ib/src/content/docs/chemistry/practice-chemical-bonding.mdx` | Chemical Bonding Practice (Interactive) |
-| ib | `ib/src/content/docs/computer-science/1-system-fundamentals/1_system-design.md` | System Design |
-| ib | `ib/src/content/docs/computer-science/2-computer-organization/1_computer-organization.md` | Computer Organizations |
-| ib | `ib/src/content/docs/computer-science/3-networks/1_networks.md` | Networks |
-| ib | `ib/src/content/docs/computer-science/4-computational-thinking/1_boolean-logic.md` | Boolean Logic |
-| ib | `ib/src/content/docs/computer-science/4-computational-thinking/2_algorithms-and-data-structures.md` | Algorithms and Data Structures |
-| ib | `ib/src/content/docs/computer-science/5-abstract-data-structures/1_abstraction-and-data-management.md` | Abstraction and Data Management |
-| ib | `ib/src/content/docs/computer-science/6-resource-management/1_databases.md` | Databases |
-| ib | `ib/src/content/docs/computer-science/7-control/1_programming-fundamentals.md` | Programming Fundamentals |
-| ib | `ib/src/content/docs/computer-science/8-object-oriented-programming/1_object-oriented-programming.md` | JETS |
-| ib | `ib/src/content/docs/computer-science/assessment.md` | Assessment |
-| ib | `ib/src/content/docs/computer-science/computer-science.md` | Computer Science |
-| ib | `ib/src/content/docs/economics/1-microeconomics/1_supply-and-demand.md` | Supply and Demand |
-| ib | `ib/src/content/docs/economics/1-microeconomics/2_elasticity.md` | Elasticity |
-| ib | `ib/src/content/docs/economics/2-macroeconomics/3-monetary-policy.md` | Monetary Policy |
-| ib | `ib/src/content/docs/economics/3-international-economics/3-balance-of-payments.md` | Balance of Payments |
-| ib | `ib/src/content/docs/economics/4-development-economics/1-measuring-development.md` | Measuring Development |
-| ib | `ib/src/content/docs/economics/4-development-economics/3-trade-and-aid.md` | Trade and Aid |
-| ib | `ib/src/content/docs/economics/5-quantitative-economics/2-index-numbers.md` | Index Numbers |
-| ib | `ib/src/content/docs/english/diagnostics/diag-poetry-analysis.md` | Diagnostic Test: Poetry Analysis |
-| ib | `ib/src/content/docs/english/individual-oral-commentary-guide.md` | Individual Oral Commentary Guide |
-| ib | `ib/src/content/docs/english/language-and-literature.md` | IB Language and Literature Course Overview |
-| ib | `ib/src/content/docs/english/the-learner-profile.md` | The IB Learner Profile in English |
-| ib | `ib/src/content/docs/english/unseen-poetry-practice-1.md` | unseen-poetry-practice-1 |
-| ib | `ib/src/content/docs/history/essay-techniques.md` | IB History Essay Techniques |
-| ib | `ib/src/content/docs/history/rights-and-protest.md` | rights and protest |
-| ib | `ib/src/content/docs/history/superpower-relations.md` | Cold War Superpower Relations |
-| ib | `ib/src/content/docs/i18n/zh/intro.md` | IB笔记简介 |
-| ib | `ib/src/content/docs/ib-theory-of-knowledge.md` | IB Theory of Knowledge (TOK) |
-| ib | `ib/src/content/docs/maths/1-number-and-algebra/1_number-and-algebra.md` | Number and Algebra |
-| ib | `ib/src/content/docs/maths/1-number-and-algebra/2_complex-numbers.mdx` | Complex Numbers |
-| ib | `ib/src/content/docs/maths/1-number-and-algebra/3_proof-and-logic.md` | Proof and Logic |
-| ib | `ib/src/content/docs/maths/2-functions/1_functions.mdx` | Functions and Equations |
-| ib | `ib/src/content/docs/maths/2-functions/2_sequences-and-series.mdx` | Sequences and Series |
-| ib | `ib/src/content/docs/maths/3-geometry-and-trigonometry/1_trigonometry.mdx` | Trigonometry |
-| ib | `ib/src/content/docs/maths/3-geometry-and-trigonometry/2_vectors.md` | Vectors |
-| ib | `ib/src/content/docs/maths/3-geometry-and-trigonometry/3_matrices-and-transformations.md` | Matrices and Transformations |
-| ib | `ib/src/content/docs/maths/4-statistics-and-probability/1_probability.md` | Probability |
-| ib | `ib/src/content/docs/maths/4-statistics-and-probability/2_statistics.md` | Statistics |
-| ib | `ib/src/content/docs/maths/4-statistics-and-probability/3_probability-distributions.md` | Probability Distributions |
-| ib | `ib/src/content/docs/maths/5-calculus/2_differentiation.mdx` | Differentiation |
-| ib | `ib/src/content/docs/maths/diagnostics/diag-probability-distributions.md` | Probability Distributions -- Diagnostic Tests |
-| ib | `ib/src/content/docs/maths/diagnostics/diag-probability.md` | Probability -- Diagnostic Tests |
-| ib | `ib/src/content/docs/maths/diagnostics/diag-sequences-series.md` | Sequences and Series -- Diagnostic Tests |
-| ib | `ib/src/content/docs/maths/diagnostics/diag-statistics.md` | Statistics -- Diagnostic Tests |
-| ib | `ib/src/content/docs/physics/1-space-time-and-motion/1_kinematics.mdx` | Kinematics |
-| ib | `ib/src/content/docs/physics/1-space-time-and-motion/2_dynamics.mdx` | 2_dynamics |
-| ib | `ib/src/content/docs/physics/1-space-time-and-motion/3_energy.mdx` | Energy and Conservation |
-| ib | `ib/src/content/docs/physics/1-space-time-and-motion/4_rotational-motion.md` | Rotational Motion |
-| ib | `ib/src/content/docs/physics/1-space-time-and-motion/5_forces-and-momentum.md` | Forces and Momentums |
-| ib | `ib/src/content/docs/physics/2-particulate-nature-of-matter/1_thermodynamics.mdx` | Thermodynamics |
-| ib | `ib/src/content/docs/physics/2-particulate-nature-of-matter/6_current-electricity.mdx` | Current Electricity |
-| ib | `ib/src/content/docs/physics/3-wave-behaviour/1_simple-harmonic-motion.mdx` | Simple Harmonic Motion |
-| ib | `ib/src/content/docs/physics/3-wave-behaviour/2_wave-properties.mdx` | Wave Properties |
-| ib | `ib/src/content/docs/physics/3-wave-behaviour/4_wave-phenomena.mdx` | Wave Phenomena |
-| ib | `ib/src/content/docs/physics/4-fields/2_electric-and-magnetic-fields.mdx` | Electric and Magnetic Fields |
-| ib | `ib/src/content/docs/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics.md` | Quantum and Nuclear Physics |
-| ib | `ib/src/content/docs/physics/diagnostics/diag-induction.md` | Induction -- Diagnostic Tests |
-| ib | `ib/src/content/docs/physics/diagnostics/diag-rotational-motion.md` | Rotational Motion -- Diagnostic Tests |
-| ib | `ib/src/content/docs/physics/diagnostics/diag-thermodynamics.md` | Thermodynamics -- Diagnostic Tests |
-| ib | `ib/src/content/docs/physics/diagnostics/diagnostic-guide.md` | IB Physics Diagnostic Guide |
-| java | `java/src/content/docs/07-best-practices/01-style-and-patterns.md` | Style and Patterns |
-| java | `java/src/content/docs/12-exceptions/01-exceptions.md` | Exception Handling |
-| java | `java/src/content/docs/13-build-tools/build-tools.md` | Build Tools and Dependency Management |
-| java | `java/src/content/docs/about.md` | About This Site |
-| java | `java/src/content/docs/intro.md` | Introduction to Java |
-| java | `java/src/content/docs/practice-oop.mdx` | OOP Practice |
-| kotlin | `kotlin/src/content/docs/about.md` | About This Site |
-| kotlin | `kotlin/src/content/docs/flashcards-kotlin-basics.mdx` | Kotlin Basics Flashcards |
-| kotlin | `kotlin/src/content/docs/intermediate/scope-functions.md` | scope functions |
-| language-tests | `language-tests/src/content/docs/about.md` | About This Site |
-| language-tests | `language-tests/src/content/docs/cefr-levels/a1-beginner.md` | A1 Beginner |
-| language-tests | `language-tests/src/content/docs/cefr-levels/a2-elementary.md` | A2 Elementary Level |
-| language-tests | `language-tests/src/content/docs/cefr-levels/b1-intermediate.md` | B1 Intermediate Level |
-| language-tests | `language-tests/src/content/docs/cefr-levels/b2-upper-intermediate.md` | B2 Upper Intermediate Level |
-| language-tests | `language-tests/src/content/docs/cefr-levels/c1-advanced.md` | C1 Advanced Level |
-| language-tests | `language-tests/src/content/docs/cefr-levels/c2-proficiency.md` | C2 Proficiency Level |
-| language-tests | `language-tests/src/content/docs/index.md` | Language Proficiency Tests |
-| languages | `languages/src/content/docs/about.md` | About This Site |
-| languages | `languages/src/content/docs/dart/02-setup/02-dev-enviroment.md` | Development Enviroment |
-| languages | `languages/src/content/docs/dart/06-collections/01-collections-deep-dive.md` | Collections Deep Dive |
-| languages | `languages/src/content/docs/dart/07-dart3-features/02-sealed-classes.md` | Sealed Classes |
-| languages | `languages/src/content/docs/dart/09-flutter-fundamentals/02-widgets-and-lifecycle.md` | Widgets and Lifecycle |
-| languages | `languages/src/content/docs/dart/13-code-generation.md` | Code Generation |
-| languages | `languages/src/content/docs/dart/testing.md` | testing |
-| languages | `languages/src/content/docs/elixir/02-functions-modules/1_functions-and-modules.md` | Functions and Modules |
-| languages | `languages/src/content/docs/elixir/03-concurrency/1_concurrency-otp.md` | Concurrency and OTP |
-| languages | `languages/src/content/docs/elixir/04-advanced/2_testing-and-deployment.md` | Testing and Deployment |
-| languages | `languages/src/content/docs/go/advanced/architecture.md` | go project architecture |
-| languages | `languages/src/content/docs/go/advanced/modules-and-packages.md` | Modules and Packages |
-| languages | `languages/src/content/docs/go/basics/control-flow.md` | Control Flow |
-| languages | `languages/src/content/docs/go/basics/functions.md` | Functions |
-| languages | `languages/src/content/docs/go/concurrency/goroutines.md` | Goroutines and Synchronization |
-| languages | `languages/src/content/docs/go/standard-library/math-sort-log.md` | math, sort, and log/slog |
-| languages | `languages/src/content/docs/haskell/00-intro/1_haskell-intro.md` | Introduction to Haskell |
-| languages | `languages/src/content/docs/haskell/03-type-classes/1_type-classes.md` | Type Classes |
-| languages | `languages/src/content/docs/haskell/practice-haskell-basics.mdx` | Haskell Practice (Basics) |
-| languages | `languages/src/content/docs/hub.md` | Programming Language Comparison Guide |
-| languages | `languages/src/content/docs/java/02-fundamentals/03-strings.md` | Strings and Text Processing |
-| languages | `languages/src/content/docs/java/03-object-oriented/02-inheritance-polymorphism.md` | Inheritance and Polymorphism |
-| languages | `languages/src/content/docs/java/04-collections/02-maps-and-sets.md` | Maps and Sets |
-| languages | `languages/src/content/docs/java/07-best-practices/01-style-and-patterns.md` | Style and Patterns |
-| languages | `languages/src/content/docs/java/12-exceptions/01-exceptions.md` | Exception Handling |
-| languages | `languages/src/content/docs/java/13-build-tools/build-tools.md` | Build Tools and Dependency Management |
-| languages | `languages/src/content/docs/kotlin/advanced/interoperability.md` | Java Interoperability |
-| languages | `languages/src/content/docs/kotlin/advanced/testing.md` | Testing |
-| languages | `languages/src/content/docs/kotlin/basics/classes-and-objects.md` | Classes and Objects |
-| languages | `languages/src/content/docs/kotlin/basics/functions.md` | Functions |
-| languages | `languages/src/content/docs/kotlin/intermediate/scope-functions.md` | scope functions |
-| languages | `languages/src/content/docs/python/07-best-practices/01-style-and-idioms.md` | Style and Idioms |
-| languages | `languages/src/content/docs/python/07-best-practices/02-debugging-and-profiling.md` | Debugging and Profiling |
-| languages | `languages/src/content/docs/python/07-best-practices/03-error-handling-patterns.md` | Error Handling Patterns |
-| languages | `languages/src/content/docs/rust/02-ownership-borrowing/interior-mutability.md` | Interior Mutability |
-| languages | `languages/src/content/docs/rust/02-ownership-borrowing/lifetimes.md` | Lifetimes |
-| languages | `languages/src/content/docs/rust/02-ownership-borrowing/ownership.md` | Ownership and Borrowing |
-| languages | `languages/src/content/docs/rust/03-structs-enums/advanced-patterns.md` | Advanced Struct and Enum Patterns |
-| languages | `languages/src/content/docs/rust/03-structs-enums/structs-and-enums.md` | Structs and Enums |
-| languages | `languages/src/content/docs/rust/04-error-handling/error-handling-patterns.md` | Error Handling Patterns |
-| languages | `languages/src/content/docs/rust/04-error-handling/error-handling.md` | Error Handling |
-| languages | `languages/src/content/docs/rust/05-traits-generics/traits-and-generics.md` | Traits and Generics |
-| languages | `languages/src/content/docs/rust/06-concurrency/async-deep-dive.md` | Async Deep Dive |
-| languages | `languages/src/content/docs/rust/06-concurrency/channels-and-message-passing.md` | Channels and Message Passing |
-| languages | `languages/src/content/docs/rust/06-concurrency/concurrency.md` | Concurrency |
-| languages | `languages/src/content/docs/rust/07-cargo-ecosystem/cargo-and-ecosystem.md` | Cargo and Ecosystem |
-| languages | `languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust.md` | Unsafe Rust |
-| languages | `languages/src/content/docs/rust/intro.md` | Introduction to Rust |
-| languages | `languages/src/content/docs/swift/00-intro/1_swift-intro.md` | Introduction to Swift |
-| languages | `languages/src/content/docs/swift/01-basics/1_variables-and-types.md` | Variables and Types |
-| languages | `languages/src/content/docs/swift/02-functions-closures/1_functions.md` | Functions |
-| languages | `languages/src/content/docs/swift/03-oop/1_classes-and-structs.md` | Classes and Structs |
-| languages | `languages/src/content/docs/swift/04-advanced/1_error-handling.md` | Error Handling |
-| languages | `languages/src/content/docs/swift/04-advanced/2_concurrency.md` | Concurrency |
-| languages | `languages/src/content/docs/typescript/advanced-patterns.md` | Advanced Patterns |
-| languages | `languages/src/content/docs/typescript/advanced-types.md` | advanced types |
-| languages | `languages/src/content/docs/typescript/classes.md` | Classes |
-| languages | `languages/src/content/docs/typescript/enums-and-modules.mdx` | Enums and Modules |
-| languages | `languages/src/content/docs/typescript/error-handling.md` | Error Handling |
-| languages | `languages/src/content/docs/typescript/functions.md` | Functions |
-| languages | `languages/src/content/docs/typescript/generics.md` | Generics |
-| languages | `languages/src/content/docs/typescript/tooling-and-configuration.md` | Tooling and Configuration |
-| languages | `languages/src/content/docs/typescript/types-and-annotations.md` | Types and Annotations |
-| languages | `languages/src/content/docs/typescript/typescript-with-react.md` | TypeScript with React |
-| languages | `languages/src/content/docs/typescript/typescript.md` | TypeScript -- Course Overview |
-| leaving-cert | `leaving-cert/src/content/docs/about.md` | About This Site |
-| leaving-cert | `leaving-cert/src/content/docs/chemistry/practice-chemistry.mdx` | Chemistry Practice (Interactive) |
-| leaving-cert | `leaving-cert/src/content/docs/computer-science/practice-computer-science.mdx` | Computer Science Practice (Interactive) |
-| leaving-cert | `leaving-cert/src/content/docs/maths/1-algebra/1_algebra.md` | Algebra |
-| leaving-cert | `leaving-cert/src/content/docs/maths/2-calculus/2_calculus.mdx` | Calculus |
-| leaving-cert | `leaving-cert/src/content/docs/maths/3-geometry-trig/3_geometry-trig.md` | Geometry and Trigonometry |
-| leaving-cert | `leaving-cert/src/content/docs/maths/4-probability-statistics/4_probability-statistics.md` | Probability and Statistics |
-| leaving-cert | `leaving-cert/src/content/docs/maths/5-number-sequences/5_number-sequences.md` | Number Sets and Sequences |
-| licensing | `licensing/src/content/docs/about.md` | About This Site |
-| linux | `linux/src/content/docs/about.md` | About This Site |
-| machine-learning | `machine-learning/src/content/docs/about.md` | About This Site |
-| machine-learning | `machine-learning/src/content/docs/advanced-topics.md` | advanced topics |
-| machine-learning | `machine-learning/src/content/docs/machine-learning-deep-dive.md` | Machine Learning Deep Dive |
-| machine-learning | `machine-learning/src/content/docs/practice-ml-fundamentals.mdx` | ML Fundamentals Practice |
+| licensing | `licensing/src/content/docs/hub.md` | Software Licensing Guide — GPL, MIT, Apache, BSD |
+| linux | `linux/src/content/docs/hub.md` | Linux Administration Study Guide |
+| machine-learning | `machine-learning/src/content/docs/hub.md` | Machine Learning Fundamentals Study Guide |
 | main | `main/src/content/docs/cross-references.md` | Cross-Site Topic Connections |
-| mathematics | `mathematics/src/content/docs/1-abstract-algebra/21_practice-abstract-algebra.mdx` | Abstract Algebra Practice (Interactive) |
-| mathematics | `mathematics/src/content/docs/10-measure-theory/12_practice-measure-theory.mdx` | Measure Theory Practice (Interactive) |
-| mathematics | `mathematics/src/content/docs/5-ordinary-differential-equations/11_problem-set.md` | Problem Set |
-| mathematics | `mathematics/src/content/docs/6-complex-analysis/15_problem-set.md` | Problem Set |
-| mathematics | `mathematics/src/content/docs/8-probability-and-statistics/5_transformations-and-convolutions.md` | Transformations and Convolutions |
-| mathematics | `mathematics/src/content/docs/about.md` | About This Site |
 | mathematics | `mathematics/src/content/docs/index.md` | Mathematics |
-| networking | `networking/src/content/docs/about.md` | About This Site |
-| networking | `networking/src/content/docs/practice-networking.mdx` | Networking: Practice Problems |
-| physics | `physics/src/content/docs/2-thermal-physics/20_thermodynamics-of-information-processing.md` | Thermodynamics of Information Processing |
-| physics | `physics/src/content/docs/2-thermal-physics/21_thermodynamics-and-statistical-mechanics.md` | Thermodynamics and Statistical Mechanics |
-| physics | `physics/src/content/docs/3-electromagnetism/13_plasma-physics-brief-overview.md` | Plasma Physics: Brief Overview |
-| physics | `physics/src/content/docs/3-electromagnetism/15_practice-electromagnetism.mdx` | Electromagnetism Practice (Interactive) |
-| physics | `physics/src/content/docs/4-optics-and-waves/23_computational-imaging-and-adaptive-optics.md` | Computational Imaging and Adaptive Optics |
-| physics | `physics/src/content/docs/5-quantum-mechanics/17_practice-quantum-mechanics.mdx` | Quantum Mechanics Practice (Interactive) |
-| physics | `physics/src/content/docs/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model.md` | Precision Tests of the Standard Model |
-| physics | `physics/src/content/docs/about.md` | About This Site |
-| physics | `physics/src/content/docs/classical-mechanics-flashcards.mdx` | Classical Mechanics Flashcards |
 | physics | `physics/src/content/docs/index.md` | Physics |
-| professional-certs | `professional-certs/src/content/docs/about.md` | About This Site |
-| professional-certs | `professional-certs/src/content/docs/aws/cloud-practitioner.md` | AWS Cloud Practitioner |
-| professional-certs | `professional-certs/src/content/docs/index.md` | Professional Certifications |
-| programming | `programming/src/content/docs/about.md` | About This Site |
-| programming | `programming/src/content/docs/compilation_model/1_translation/2_symbol_visibility.mdx` | Symbol Visibility |
 | programming | `programming/src/content/docs/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks.md` | Mutexes, Shared Locks, and Deadlock Prevention |
 | programming | `programming/src/content/docs/concurrency/2_memory_model_and_atomics/5_cas_loops.md` | Compare-and-Swap (CAS) Loops |
-| programming | `programming/src/content/docs/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator.md` | CMake Targets Properties and Generator Expressions |
-| programming | `programming/src/content/docs/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files.md` | CMake Presets and Toolchain Files |
-| programming | `programming/src/content/docs/enviroment_and_toolchain/2_build_system/5_unit_tests.mdx` | Unit Testing |
-| programming | `programming/src/content/docs/enviroment_and_toolchain/4_development_enviroment_analysis/2_debugger.mdx` | Debugger |
-| programming | `programming/src/content/docs/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer.mdx` | Sanitizer |
-| programming | `programming/src/content/docs/function_architecture/2_error_handling/practice-error-handling.mdx` | C++ Error Handling Practice (Interactive) |
 | programming | `programming/src/content/docs/object_oriented/1_class_design/1_object_layout_vptr.md` | Object Layout, vptr, and the this Pointer |
 | programming | `programming/src/content/docs/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption.md` | Constraint Subsumption and Overload Resolution |
-| programming | `programming/src/content/docs/types/1_data_layout/1_fundamental_types.mdx` | Fundamental Types |
-| programming | `programming/src/content/docs/types/1_data_layout/2_layout.mdx` | Alignment and Layout |
-| programming | `programming/src/content/docs/types/2_pointers_references_views/2_reference_lifetime.mdx` | Reference And Lifetime |
 | programming | `programming/src/content/docs/types/3_initialization_and_lifetime/3_aggregate_initialization.mdx` | Aggregate Initialization |
 | programming | `programming/src/content/docs/types/3_initialization_and_lifetime/5_deterministic_destruction.mdx` | Deterministic Destruction |
-| programming | `programming/src/content/docs/types/flashcards-type-system.mdx` | C++ Flashcards: Type System |
-| programming | `programming/src/content/docs/types/practice-types-resources.mdx` | C++ Types and Resource Management: Practice Problems |
-| python | `python/src/content/docs/about.md` | About This Site |
-| ruby | `ruby/src/content/docs/about.md` | About This Site |
-| rust | `rust/src/content/docs/about.md` | About This Site |
-| sat | `sat/src/content/docs/about.md` | About This Site |
-| sat | `sat/src/content/docs/practice-math.md` | mathematics practice |
-| sat | `sat/src/content/docs/practice-reading.md` | reading and writing practice |
-| security | `security/src/content/docs/02-cryptography/tls-in-practice.md` | TLS in Practice |
-| security | `security/src/content/docs/about.md` | About This Site |
-| security | `security/src/content/docs/practice-security-fundamentals.mdx` | Security Fundamentals Practice |
-| swift | `swift/src/content/docs/about.md` | About This Site |
-| swift | `swift/src/content/docs/practice-swift-basics.mdx` | Swift Practice (Basics) |
-| swift | `swift/src/content/docs/practice-swiftui.mdx` | SwiftUI Practice |
-| tools | `tools/src/content/docs/about.md` | About This Site |
-| tools | `tools/src/content/docs/algorithms/01-complexity-analysis/complexity-analysis.md` | Complexity Analysis |
-| tools | `tools/src/content/docs/algorithms/02-arrays-strings/arrays-and-strings.md` | Arrays and Strings |
-| tools | `tools/src/content/docs/algorithms/04-trees-graphs/trees-and-graphs.md` | Trees and Graphs |
-| tools | `tools/src/content/docs/general/career/career.md` | Systems Engineering Career |
-| tools | `tools/src/content/docs/general/intro.md` | Introduction to General Notes |
-| tools | `tools/src/content/docs/general/open-source/open-source.md` | Open Source Contribution Guide |
-| tools | `tools/src/content/docs/general/testing/iframe-integration.md` | Iframe Integration |
-| tools | `tools/src/content/docs/git/07-best-practices.md` | Best Practices |
-| tools | `tools/src/content/docs/git/advanced-git-commands.md` | Advanced Git Commands |
-| tools | `tools/src/content/docs/kubernetes-docker.md` | Kubernetes and Docker |
-| tools | `tools/src/content/docs/zh/algorithms/intro.md` | 算法导论 |
-| truenas | `truenas/src/content/docs/about.md` | About This Site |
-| truenas | `truenas/src/content/docs/setup/traefik.md` | Setup Traefik |
-| tuning | `tuning/src/content/docs/about.md` | About This Site |
-| tuning | `tuning/src/content/docs/practice-performance-tuning.mdx` | Performance Tuning Practice |
-| typescript | `typescript/src/content/docs/about.md` | About This Site |
+| truenas | `truenas/src/content/docs/hub.md` | Complete TrueNAS Administration Guide |
+| tuning | `tuning/src/content/docs/hub.md` | Performance Tuning and Optimization Guide |
 
 ## Thin-Linked Pages (<3 Internal Links)
 
@@ -629,6 +155,10 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | alevel | `alevel/src/content/docs/biology/practice-biological-molecules.mdx` | 2 | A-Level Biology Practice: Biological Molecules |
 | alevel | `alevel/src/content/docs/chemistry/physical-chemistry-extra/index.md` | 2 | Physical Chemistry Extra |
 | alevel | `alevel/src/content/docs/computer-science/algorithms/02-sorting-algorithms.md` | 2 | Sorting Algorithms |
+| alevel | `alevel/src/content/docs/english/12-coursework/1_coursework.md` | 2 | Coursework Guide |
+| alevel | `alevel/src/content/docs/english/5-shakespeare/1_shakespeare.md` | 2 | Shakespeare |
+| alevel | `alevel/src/content/docs/english/8-great-gatsby/1_great-gatsby.md` | 2 | The Great Gatsby |
+| alevel | `alevel/src/content/docs/history/1-historical-skills/1_historical-skills.md` | 2 | Historical Skills |
 | alevel | `alevel/src/content/docs/physics/nuclear-and-particle/index.md` | 2 | Nuclear And Particle |
 | alevel | `alevel/src/content/docs/psychology/1-research-methods/1_research-methods.md` | 2 | Research Methods |
 | alevel | `alevel/src/content/docs/psychology/6-approaches/1_approaches-in-psychology.md` | 2 | Approaches in Psychology |
@@ -687,7 +217,9 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | ap | `ap/src/content/docs/maths/diagnostics/diag-limits-continuity.md` | 2 | Limits and Continuity -- Diagnostic Tests |
 | ap | `ap/src/content/docs/maths/diagnostics/diag-sequences-series.md` | 2 | Sequences and Series -- Diagnostic Tests [BC Only] |
 | ap | `ap/src/content/docs/physics-1.md` | 2 | AP Physics 1 Study Guide |
+| civics-tests | `civics-tests/src/content/docs/index.md` | 2 | Civics and Citizenship Tests |
 | civics-tests | `civics-tests/src/content/docs/us-citizenship/index.md` | 2 | Us Citizenship |
+| civics-tests | `civics-tests/src/content/docs/about.md` | 6 | About This Site |
 | computer-science | `computer-science/src/content/docs/2-systems/practice-databases.mdx` | 2 | Databases -- Practice Problems |
 | computer-science | `computer-science/src/content/docs/2-systems/practice-networking.mdx` | 2 | Networking -- Practice Problems |
 | computer-science | `computer-science/src/content/docs/2-systems/practice-operating-systems.mdx` | 2 | Operating Systems -- Practice Problems |
@@ -742,8 +274,15 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | databases | `databases/src/content/docs/index.mdx` | 2 | Databases |
 | databases | `databases/src/content/docs/practice-database-design.mdx` | 2 | Database Design Practice |
 | driving-eu | `driving-eu/src/content/docs/theory-test/index.md` | 1 | Theory Test |
+| driving-eu | `driving-eu/src/content/docs/index.md` | 2 | EU Driving Test |
+| driving-eu | `driving-eu/src/content/docs/theory-test/traffic-signs.md` | 2 | EU Traffic Signs |
+| driving-eu | `driving-eu/src/content/docs/about.md` | 5 | About This Site |
 | driving-uk | `driving-uk/src/content/docs/practical-test/index.md` | 1 | Practical Test |
+| driving-uk | `driving-uk/src/content/docs/practical-test/driving-manoeuvres.md` | 2 | Driving Manoeuvres |
 | driving-us | `driving-us/src/content/docs/written-test/index.md` | 1 | Written Test |
+| driving-us | `driving-us/src/content/docs/index.md` | 2 | US Driving Test |
+| driving-us | `driving-us/src/content/docs/written-test/traffic-signs.md` | 2 | US Traffic Signs |
+| driving-us | `driving-us/src/content/docs/about.md` | 6 | About This Site |
 | dse | `dse/src/content/docs/biology/1-cell-biology/index.md` | 1 | Cell Biology |
 | dse | `dse/src/content/docs/biology/3-genetics/index.md` | 1 | Genetics |
 | dse | `dse/src/content/docs/biology/6-evolution/index.md` | 1 | Evolution |
@@ -833,6 +372,7 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | gcse | `gcse/src/content/docs/biology/diagnostics/diag-organisation.md` | 2 | Organisation -- Diagnostic Tests |
 | gcse | `gcse/src/content/docs/chemistry/diagnostics/index.md` | 2 | Diagnostics |
 | gcse | `gcse/src/content/docs/computer-science/diagnostics/index.md` | 2 | Diagnostics |
+| gcse | `gcse/src/content/docs/english/2-19th-century-novel/2_19th-century-novel.md` | 2 | The 19th-Century Novel |
 | gcse | `gcse/src/content/docs/maths/diagnostics/diag-algebra.md` | 2 | Algebra -- Diagnostic Tests |
 | gcse | `gcse/src/content/docs/maths/diagnostics/diag-geometry.md` | 2 | Geometry -- Diagnostic Tests |
 | gcse | `gcse/src/content/docs/maths/diagnostics/diag-number.md` | 2 | Number -- Diagnostic Tests |
@@ -880,6 +420,7 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | highers | `highers/src/content/docs/physics/5-waves-radiation/index.md` | 1 | Waves Radiation |
 | highers | `highers/src/content/docs/physics/diagnostics/index.md` | 1 | Diagnostics |
 | highers | `highers/src/content/docs/computer-science/3-databases/index.md` | 2 | Databases |
+| highers | `highers/src/content/docs/maths/3-calculus/3_calculus.md` | 2 | Further Calculus |
 | hsc | `hsc/src/content/docs/chemistry/index.md` | 2 | Chemistry |
 | hsc | `hsc/src/content/docs/diagnostics/diag-mathematics.md` | 2 | Diagnostic Test: Mathematics |
 | hsc | `hsc/src/content/docs/diagnostics/diag-physics.md` | 2 | Diagnostic Test: Physics |
@@ -914,6 +455,7 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | ib | `ib/src/content/docs/history/diagnostics/index.md` | 1 | Diagnostics |
 | ib | `ib/src/content/docs/history/historical-investigation-and-methodology.md` | 1 | Historical Investigation and Methodology |
 | ib | `ib/src/content/docs/i18n/zh/index.md` | 1 | Zh |
+| ib | `ib/src/content/docs/i18n/zh/intro.md` | 1 | IB笔记简介 |
 | ib | `ib/src/content/docs/maths/6-discrete-mathematics/index.md` | 1 | Discrete Mathematics |
 | ib | `ib/src/content/docs/biology/3-genetics/index.md` | 2 | Genetics |
 | ib | `ib/src/content/docs/biology/8-nervous-system-and-immunology/index.md` | 2 | Nervous System And Immunology |
@@ -931,6 +473,7 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | ib | `ib/src/content/docs/maths/2-functions/index.md` | 2 | Functions |
 | ib | `ib/src/content/docs/physics/5-nuclear-and-quantum-physics/index.md` | 2 | Nuclear And Quantum Physics |
 | ib | `ib/src/content/docs/physics/4-fields/4_induction.mdx` | 3 | Induction |
+| ib | `ib/src/content/docs/chemistry/5-energetics/1_thermochemistry.md` | 5 | Thermochemistry |
 | ib | `ib/src/content/docs/maths/5-calculus/5_differential-equations.md` | 5 | Differential Equations |
 | java | `java/src/content/docs/05-streams/index.md` | 1 | Streams |
 | java | `java/src/content/docs/07-best-practices/index.md` | 1 | Best Practices |
@@ -943,6 +486,8 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | java | `java/src/content/docs/08-modern-java/index.md` | 2 | Modern Java |
 | java | `java/src/content/docs/10-io-nio/index.md` | 2 | Io Nio |
 | java | `java/src/content/docs/11-generics-reflection/index.md` | 2 | Generics Reflection |
+| java | `java/src/content/docs/12-exceptions/01-exceptions.md` | 2 | Exception Handling |
+| java | `java/src/content/docs/13-build-tools/build-tools.md` | 2 | Build Tools and Dependency Management |
 | kotlin | `kotlin/src/content/docs/intermediate/coroutines-advanced.md` | 1 | coroutines advanced |
 | kotlin | `kotlin/src/content/docs/intermediate/delegation-and-result.md` | 2 | delegation and result |
 | kotlin | `kotlin/src/content/docs/intermediate/generics.md` | 2 | Generics |
@@ -950,6 +495,8 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | kotlin | `kotlin/src/content/docs/practice-coroutines.mdx` | 2 | Coroutines Practice |
 | kotlin | `kotlin/src/content/docs/practice-kotlin-basics.mdx` | 2 | Kotlin Fundamentals Practice (Interactive) |
 | kotlin | `kotlin/src/content/docs/practice-null-safety.mdx` | 2 | Kotlin Null Safety Practice (Interactive) |
+| language-tests | `language-tests/src/content/docs/index.md` | 2 | Language Proficiency Tests |
+| language-tests | `language-tests/src/content/docs/about.md` | 6 | About This Site |
 | languages | `languages/src/content/docs/dart/04-object-oriented/index.md` | 1 | Object Oriented |
 | languages | `languages/src/content/docs/dart/05-async/index.md` | 1 | Async |
 | languages | `languages/src/content/docs/dart/06-collections/index.md` | 1 | Collections |
@@ -995,6 +542,7 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | languages | `languages/src/content/docs/java/08-modern-java/index.md` | 2 | Modern Java |
 | languages | `languages/src/content/docs/java/10-io-nio/index.md` | 2 | Io Nio |
 | languages | `languages/src/content/docs/java/11-generics-reflection/index.md` | 2 | Generics Reflection |
+| languages | `languages/src/content/docs/java/12-exceptions/01-exceptions.md` | 2 | Exception Handling |
 | languages | `languages/src/content/docs/python/03-data-structures/index.md` | 2 | Data Structures |
 | languages | `languages/src/content/docs/ruby/05-advanced/index.md` | 2 | Advanced |
 | languages | `languages/src/content/docs/ruby/index.md` | 2 | Ruby |
@@ -1035,6 +583,10 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | leaving-cert | `leaving-cert/src/content/docs/physics/4-heat/index.md` | 1 | Heat |
 | leaving-cert | `leaving-cert/src/content/docs/physics/5-modern-physics/index.md` | 1 | Modern Physics |
 | leaving-cert | `leaving-cert/src/content/docs/physics/diagnostics/index.md` | 1 | Diagnostics |
+| leaving-cert | `leaving-cert/src/content/docs/maths/2-calculus/2_calculus.mdx` | 2 | Calculus |
+| leaving-cert | `leaving-cert/src/content/docs/maths/3-geometry-trig/3_geometry-trig.md` | 2 | Geometry and Trigonometry |
+| leaving-cert | `leaving-cert/src/content/docs/maths/4-probability-statistics/4_probability-statistics.md` | 2 | Probability and Statistics |
+| leaving-cert | `leaving-cert/src/content/docs/maths/5-number-sequences/5_number-sequences.md` | 2 | Number Sets and Sequences |
 | licensing | `licensing/src/content/docs/index.mdx` | 2 | Licensing |
 | licensing | `licensing/src/content/docs/intro.md` | 2 | Licensing |
 | licensing | `licensing/src/content/docs/osi-licenses.md` | 2 | Open Source Licenses |
@@ -1089,6 +641,9 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | physics | `physics/src/content/docs/diagnostics/diag-mechanics.md` | 5 | Diagnostic Test: Mechanics |
 | physics | `physics/src/content/docs/5-quantum-mechanics/15_density-functional-theory-conceptual-overview.md` | 6 | Density Functional Theory: Conceptual Overview |
 | professional-certs | `professional-certs/src/content/docs/aws/index.md` | 1 | Aws |
+| professional-certs | `professional-certs/src/content/docs/aws/cloud-practitioner.md` | 2 | AWS Cloud Practitioner |
+| professional-certs | `professional-certs/src/content/docs/index.md` | 2 | Professional Certifications |
+| professional-certs | `professional-certs/src/content/docs/about.md` | 6 | About This Site |
 | programming | `programming/src/content/docs/object_oriented/index.md` | 1 | Object_oriented |
 | programming | `programming/src/content/docs/resource_management/index.md` | 1 | Resource_management |
 | programming | `programming/src/content/docs/templates_and_metaprogramming/index.md` | 1 | Templates_and_metaprogramming |
@@ -1177,11 +732,14 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | tools | `tools/src/content/docs/licensing/software-licensing.md` | 1 | Software Licensing |
 | tools | `tools/src/content/docs/probabilisticml/index.md` | 1 | Probabilisticml |
 | tools | `tools/src/content/docs/zh/algorithms/index.md` | 1 | Algorithms |
+| tools | `tools/src/content/docs/algorithms/01-complexity-analysis/complexity-analysis.md` | 2 | Complexity Analysis |
 | tools | `tools/src/content/docs/algorithms/02-arrays-strings/index.md` | 2 | Arrays Strings |
 | tools | `tools/src/content/docs/algorithms/03-linked-lists-stacks-queues/index.md` | 2 | Linked Lists Stacks Queues |
+| tools | `tools/src/content/docs/general/career/career.md` | 2 | Systems Engineering Career |
 | tools | `tools/src/content/docs/general/dev-environment/dev-environment.md` | 2 | Development Environment Setup |
 | tools | `tools/src/content/docs/general/examples/index.md` | 2 | Examples |
 | tools | `tools/src/content/docs/general/index.md` | 2 | General |
+| tools | `tools/src/content/docs/general/open-source/open-source.md` | 2 | Open Source Contribution Guide |
 | tools | `tools/src/content/docs/general/testing/index.md` | 2 | Testing |
 | tools | `tools/src/content/docs/git/05-advanced-topics/01-reflog.md` | 2 | Reflog |
 | tools | `tools/src/content/docs/git/05-advanced-topics/02-stash.md` | 2 | Stash |
@@ -1228,9 +786,13 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 
 | From Site | To Site | Link Count |
 |-----------|---------|------------|
-| admissions | ib | 1 |
+| admissions | dse | 1 |
+| admissions | gaokao | 1 |
+| admissions | ib | 2 |
 | admissions | language-tests | 1 |
-| admissions | sat | 1 |
+| admissions | mathematics | 1 |
+| admissions | null | 1 |
+| admissions | sat | 2 |
 | admissions | wyattsnotes | 1 |
 | alevel | alevel | 1 |
 | alevel | ap | 1 |
@@ -1286,9 +848,13 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | cpp | python | 1 |
 | cpp | rust | 1 |
 | cpp | wyattsnotes | 1 |
-| dart | kotlin | 1 |
+| dart | computer-science | 1 |
+| dart | databases | 1 |
+| dart | kotlin | 2 |
+| dart | null | 1 |
 | dart | programming | 1 |
-| dart | swift | 1 |
+| dart | swift | 2 |
+| dart | typescript | 1 |
 | dart | wyattsnotes | 1 |
 | databases | computer-science | 2 |
 | databases | cpp | 1 |
@@ -1319,13 +885,22 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | dse | physics | 1 |
 | dse | programming | 1 |
 | dse | wyattsnotes | 1 |
-| elixir | go | 1 |
-| elixir | haskell | 1 |
+| elixir | computer-science | 1 |
+| elixir | databases | 1 |
+| elixir | go | 2 |
+| elixir | haskell | 2 |
+| elixir | networking | 1 |
+| elixir | null | 1 |
 | elixir | programming | 1 |
+| elixir | ruby | 1 |
 | elixir | wyattsnotes | 1 |
+| gaokao | admissions | 1 |
 | gaokao | cbse | 1 |
-| gaokao | mathematics | 1 |
-| gaokao | sat | 1 |
+| gaokao | ib | 1 |
+| gaokao | mathematics | 2 |
+| gaokao | null | 1 |
+| gaokao | physics | 1 |
+| gaokao | sat | 2 |
 | gaokao | wyattsnotes | 1 |
 | gcse | alevel | 2 |
 | gcse | dse | 2 |
@@ -1335,13 +910,22 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | gcse | physics | 1 |
 | gcse | programming | 1 |
 | gcse | wyattsnotes | 1 |
-| go | networking | 1 |
+| go | computer-science | 1 |
+| go | cpp | 1 |
+| go | databases | 1 |
+| go | networking | 2 |
+| go | null | 1 |
 | go | programming | 1 |
-| go | rust | 1 |
+| go | python | 1 |
+| go | rust | 2 |
 | go | wyattsnotes | 1 |
-| haskell | computer-science | 1 |
+| haskell | computer-science | 2 |
 | haskell | elixir | 1 |
+| haskell | mathematics | 1 |
+| haskell | null | 1 |
 | haskell | programming | 1 |
+| haskell | python | 1 |
+| haskell | rust | 1 |
 | haskell | wyattsnotes | 1 |
 | highers | alevel | 2 |
 | highers | gcse | 2 |
@@ -1365,12 +949,22 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | ib | programming | 1 |
 | ib | sat | 1 |
 | ib | wyattsnotes | 1 |
-| java | computer-science | 1 |
-| java | kotlin | 1 |
+| java | computer-science | 2 |
+| java | cpp | 1 |
+| java | databases | 1 |
+| java | kotlin | 2 |
+| java | networking | 1 |
+| java | null | 1 |
 | java | programming | 1 |
+| java | python | 1 |
 | java | wyattsnotes | 1 |
+| kotlin | computer-science | 1 |
+| kotlin | cpp | 1 |
 | kotlin | dart | 1 |
-| kotlin | java | 1 |
+| kotlin | databases | 1 |
+| kotlin | java | 2 |
+| kotlin | networking | 1 |
+| kotlin | null | 1 |
 | kotlin | programming | 1 |
 | kotlin | wyattsnotes | 1 |
 | language-tests | admissions | 1 |
@@ -1400,16 +994,28 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | leaving-cert | physics | 1 |
 | leaving-cert | wyattsnotes | 1 |
 | licensing | computer-science | 1 |
-| licensing | programming | 1 |
-| licensing | tools | 1 |
+| licensing | go | 1 |
+| licensing | linux | 1 |
+| licensing | null | 1 |
+| licensing | programming | 2 |
+| licensing | python | 1 |
+| licensing | rust | 1 |
+| licensing | tools | 2 |
 | licensing | wyattsnotes | 1 |
-| linux | networking | 1 |
-| linux | security | 1 |
-| linux | truenas | 1 |
+| linux | networking | 2 |
+| linux | null | 1 |
+| linux | security | 2 |
+| linux | tools | 2 |
+| linux | truenas | 2 |
+| linux | tuning | 1 |
 | linux | wyattsnotes | 1 |
-| machine-learning | mathematics | 1 |
-| machine-learning | physics | 1 |
-| machine-learning | python | 1 |
+| machine-learning | databases | 1 |
+| machine-learning | linux | 1 |
+| machine-learning | mathematics | 3 |
+| machine-learning | null | 1 |
+| machine-learning | physics | 2 |
+| machine-learning | python | 3 |
+| machine-learning | tools | 2 |
 | machine-learning | wyattsnotes | 1 |
 | mathematics | computer-science | 90 |
 | mathematics | dse | 2 |
@@ -1461,13 +1067,22 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | python | null | 1 |
 | python | programming | 1 |
 | python | wyattsnotes | 1 |
-| ruby | databases | 1 |
+| ruby | computer-science | 1 |
+| ruby | databases | 2 |
+| ruby | java | 1 |
+| ruby | networking | 1 |
+| ruby | null | 1 |
 | ruby | programming | 1 |
+| ruby | python | 1 |
 | ruby | tools | 1 |
 | ruby | wyattsnotes | 1 |
-| rust | cpp | 1 |
-| rust | go | 1 |
+| rust | computer-science | 1 |
+| rust | cpp | 2 |
+| rust | go | 2 |
+| rust | networking | 1 |
+| rust | null | 1 |
 | rust | programming | 3 |
+| rust | python | 1 |
 | rust | wyattsnotes | 1 |
 | sat | admissions | 1 |
 | sat | ap | 2 |
@@ -1486,24 +1101,49 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | security | python | 1 |
 | security | tools | 1 |
 | security | wyattsnotes | 1 |
-| swift | dart | 1 |
-| swift | kotlin | 1 |
+| swift | computer-science | 1 |
+| swift | dart | 2 |
+| swift | databases | 1 |
+| swift | kotlin | 2 |
+| swift | null | 1 |
 | swift | programming | 1 |
+| swift | typescript | 1 |
 | swift | wyattsnotes | 1 |
-| tools | databases | 1 |
+| tools | databases | 2 |
+| tools | go | 1 |
 | tools | linux | 1 |
-| tools | programming | 1 |
+| tools | networking | 1 |
+| tools | null | 1 |
+| tools | programming | 2 |
+| tools | rust | 1 |
+| tools | security | 1 |
+| tools | tuning | 1 |
+| tools | typescript | 1 |
 | tools | wyattsnotes | 1 |
-| truenas | linux | 1 |
-| truenas | networking | 1 |
-| truenas | tools | 1 |
+| truenas | databases | 1 |
+| truenas | linux | 2 |
+| truenas | networking | 2 |
+| truenas | null | 1 |
+| truenas | security | 1 |
+| truenas | tools | 2 |
+| truenas | tuning | 1 |
 | truenas | wyattsnotes | 1 |
 | tuning | cpp | 1 |
 | tuning | databases | 1 |
-| tuning | linux | 1 |
+| tuning | linux | 2 |
+| tuning | networking | 1 |
+| tuning | null | 1 |
+| tuning | programming | 1 |
+| tuning | security | 1 |
+| tuning | tools | 1 |
+| tuning | truenas | 1 |
 | tuning | wyattsnotes | 1 |
-| typescript | databases | 1 |
-| typescript | programming | 1 |
+| typescript | computer-science | 1 |
+| typescript | dart | 1 |
+| typescript | databases | 2 |
+| typescript | null | 1 |
+| typescript | programming | 2 |
+| typescript | python | 1 |
 | typescript | tools | 1 |
 | typescript | wyattsnotes | 1 |
 
@@ -1515,6 +1155,12 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | `admissions/src/content/docs/about.md:37` | https://language-tests.wyattau.com | 37 |
 | `admissions/src/content/docs/about.md:38` | https://ib.wyattau.com | 38 |
 | `admissions/src/content/docs/about.md:44` | https://wyattsnotes.wyattau.com | 44 |
+| `admissions/src/content/docs/hub.md:382` | https://sat.wyattau.com/hub | 382 |
+| `admissions/src/content/docs/hub.md:383` | https://ib.wyattau.com/maths | 383 |
+| `admissions/src/content/docs/hub.md:384` | https://mathematics.wyattau.com/hub | 384 |
+| `admissions/src/content/docs/hub.md:385` | https://gaokao.wyattau.com/hub | 385 |
+| `admissions/src/content/docs/hub.md:386` | https://dse.wyattau.com/maths | 386 |
+| `admissions/src/content/docs/hub.md:420` | https://wyattau.com | 420 |
 | `alevel/src/content/docs/about.md:35` | https://gcse.wyattau.com | 35 |
 | `alevel/src/content/docs/about.md:36` | https://ib.wyattau.com | 36 |
 | `alevel/src/content/docs/about.md:37` | https://ap.wyattau.com | 37 |
@@ -1605,14 +1251,8 @@ These pages have 1-2 outgoing internal links. Consider adding more cross-referen
 | `chemistry/src/content/docs/hub.md:188` | https://ib.wyattau.com | 188 |
 | `chemistry/src/content/docs/hub.md:189` | https://ap.wyattau.com | 189 |
 | `chemistry/src/content/docs/index.md:118` | https://physics.wyattau.com/docs/thermodynamics | 118 |
-| `chemistry/src/content/docs/index.md:119` | https://mathematics.wyattau.com/docs/calculus | 119 |
-| `chemistry/src/content/docs/index.md:120` | https://physics.wyattau.com/docs/quantum-mechanics | 120 |
-| `chemistry/src/content/docs/index.md:121` | https://mathematics.wyattau.com/docs/linear-algebra | 121 |
-| `chemistry/src/content/docs/intro.md:67` | https://physics.wyattau.com/docs/thermodynamics | 67 |
-| `chemistry/src/content/docs/intro.md:68` | https://mathematics.wyattau.com/docs/calculus | 68 |
-| `chemistry/src/content/docs/intro.md:69` | https://physics.wyattau.com/docs/quantum-mechanics | 69 |
 
-_... and 1753 more cross-site links._
+_... and 1874 more cross-site links._
 
 ## Broken Links
 
@@ -1721,4 +1361,4 @@ These relative/absolute links do not resolve to an existing content file.
 | alevel | `alevel/src/content/docs/computer-science/software-engineering/01-software-development-lifecycle.md:478` | 478 | `/computer-science/software-engineering/testing` | `sites/alevel/src/content/docs/computer-science/software-engineering/testing` |
 | alevel | `alevel/src/content/docs/computer-science/software-engineering/02-testing.md:478` | 478 | `/computer-science/software-engineering/software-development-lifecycle` | `sites/alevel/src/content/docs/computer-science/software-engineering/software-development-lifecycle` |
 
-_... and 5712 more broken links._
+_... and 5978 more broken links._

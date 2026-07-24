@@ -894,6 +894,6 @@ Chemical reactions are the engine of change in the universe. Atoms rearrange to 
 
 ## Cross-References
 
-- [Atomic Structure](/docs/ap/chemistry/atomic-structure)
-- [Bonding](/docs/ap/chemistry/bonding)
-- [Thermodynamics](/docs/ap/chemistry/thermodynamics)
+- [Atomic Structure](/ap/chemistry/atomic-structure)
+- [Bonding](/ap/chemistry/bonding)
+- [Thermodynamics](/ap/chemistry/thermodynamics)

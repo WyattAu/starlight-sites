@@ -155,9 +155,9 @@ Classical field theory extends mechanics from particles to continuous media. A f
 
 | Topic                          | Site        | Link                                                                      |
 | ------------------------------ | ----------- | ------------------------------------------------------------------------- |
-| Classical Mechanics (Overview) | WyattsNotes | [View](/docs/university/physics/classical-mechanics)                      |
-| Electromagnetism               | WyattsNotes | [View](/docs/university/physics/electromagnetism)                         |
-| Quantum Mechanics              | WyattsNotes | [View](/docs/university/physics/quantum-mechanics)                        |
+| Classical Mechanics (Overview) | WyattsNotes | [View](/university/physics/classical-mechanics)                      |
+| Electromagnetism               | WyattsNotes | [View](/university/physics/electromagnetism)                         |
+| Quantum Mechanics              | WyattsNotes | [View](/university/physics/quantum-mechanics)                        |
 | Classical Mechanics — MIT 8.01 | MIT OCW     | [View](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) |
 
 

@@ -544,6 +544,6 @@ Dart's variable specifiers control mutability and initialization timing. var inf
 
 ## Cross-References
 
-- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- basic types and main()
-- [Classes and Inheritance](/docs/dart/04-object-oriented/01-classes-and-inheritance) -- final fields and constructors
-- [Collections Deep Dive](/docs/dart/06-collections/01-collections-deep-dive) -- List, Set, and Map
+- [Entry Point](/dart/03-basics/01-entrypoint) -- basic types and main()
+- [Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance) -- final fields and constructors
+- [Collections Deep Dive](/dart/06-collections/01-collections-deep-dive) -- List, Set, and Map

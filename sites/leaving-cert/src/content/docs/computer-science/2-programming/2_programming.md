@@ -792,6 +792,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Hardware](/docs/leaving-cert/computer-science/1-hardware/1_hardware) provides the physical platform that programs execute on, including CPU and memory architecture.
-- [Databases](/docs/leaving-cert/computer-science/3-databases/3_databases) covers data persistence and retrieval that programs interact with through database queries.
-- [Algorithms](/docs/leaving-cert/computer-science/5-algorithms/5_algorithms) defines the computational procedures that programming implementations must follow.
+- [Hardware](/leaving-cert/computer-science/1-hardware/1_hardware) provides the physical platform that programs execute on, including CPU and memory architecture.
+- [Databases](/leaving-cert/computer-science/3-databases/3_databases) covers data persistence and retrieval that programs interact with through database queries.
+- [Algorithms](/leaving-cert/computer-science/5-algorithms/5_algorithms) defines the computational procedures that programming implementations must follow.

@@ -771,7 +771,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 ## Cross-References
 
-- [Mechanics](/docs/dse/physics/mechanics)
-- [Waves](/docs/dse/physics/waves)
-- [Electricity](/docs/dse/physics/electricity)
-- [Fields](/docs/dse/physics/fields)
+- [Mechanics](/dse/physics/mechanics)
+- [Waves](/dse/physics/waves)
+- [Electricity](/dse/physics/electricity)
+- [Fields](/dse/physics/fields)

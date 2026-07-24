@@ -198,6 +198,6 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- [Syllabus](/docs/ib/physics/Syllabus) provides the complete IB Physics syllabus outline with key understanding statements and equations.
-- [Wrap Up](/docs/ib/physics/wrap-up) offers a revision summary across all five thematic areas with exam-focused strategies.
-- [Kinematics](/docs/ib/physics/1-space-time-and-motion/1_kinematics) is the starting point for Thematic Area A covering motion, velocity, and acceleration.
+- [Syllabus](/ib/physics/Syllabus) provides the complete IB Physics syllabus outline with key understanding statements and equations.
+- [Wrap Up](/ib/physics/wrap-up) offers a revision summary across all five thematic areas with exam-focused strategies.
+- [Kinematics](/ib/physics/1-space-time-and-motion/1_kinematics) is the starting point for Thematic Area A covering motion, velocity, and acceleration.

@@ -429,7 +429,7 @@ linked above.
 
 ## Cross-References
 
-- [Coroutines](/docs/languages/kotlin/intermediate/coroutines.md) — StateFlow and MutableStateFlow use property delegation for reactive state management in coroutine-based architectures.
-- [Coroutines Advanced](/docs/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow update patterns and ViewModel lifecycle management build on the delegation concepts here.
-- [Generics](/docs/languages/kotlin/intermediate/generics.md) — Generic type parameters with variance constraints apply to delegate classes and Result type transformations.
-- [Collections](/docs/languages/kotlin/intermediate/collections.md) — Lazy collection initialization and observable wrappers use the same delegation patterns covered in this topic.
+- [Coroutines](/languages/kotlin/intermediate/coroutines.md) — StateFlow and MutableStateFlow use property delegation for reactive state management in coroutine-based architectures.
+- [Coroutines Advanced](/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow update patterns and ViewModel lifecycle management build on the delegation concepts here.
+- [Generics](/languages/kotlin/intermediate/generics.md) — Generic type parameters with variance constraints apply to delegate classes and Result type transformations.
+- [Collections](/languages/kotlin/intermediate/collections.md) — Lazy collection initialization and observable wrappers use the same delegation patterns covered in this topic.

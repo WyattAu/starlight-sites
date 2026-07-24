@@ -304,6 +304,6 @@ Reflection lets you inspect and manipulate types at runtime when static typing i
 
 ## Cross-References
 
-- [Types and Variables](/docs/go/basics/types-and-variables) -- type system and conversions
-- [Functions](/docs/go/basics/functions) -- first-class values and closures
-- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- concurrency primitives
+- [Types and Variables](/go/basics/types-and-variables) -- type system and conversions
+- [Functions](/go/basics/functions) -- first-class values and closures
+- [Goroutines and Synchronization](/go/concurrency/goroutines) -- concurrency primitives

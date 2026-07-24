@@ -493,9 +493,9 @@ $\blacksquare$
 
 | Topic                      | Site        | Link                                                                  |
 | -------------------------- | ----------- | --------------------------------------------------------------------- |
-| Linear Algebra (Overview)  | WyattsNotes | [View](/docs/university/mathematics/linear-algebra)                   |
-| Abstract Algebra           | WyattsNotes | [View](/docs/university/mathematics/abstract-algebra)                 |
-| Multivariable Calculus     | WyattsNotes | [View](/docs/university/mathematics/multivariable-calculus)           |
+| Linear Algebra (Overview)  | WyattsNotes | [View](/university/mathematics/linear-algebra)                   |
+| Abstract Algebra           | WyattsNotes | [View](/university/mathematics/abstract-algebra)                 |
+| Multivariable Calculus     | WyattsNotes | [View](/university/mathematics/multivariable-calculus)           |
 | Linear Algebra — MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
 

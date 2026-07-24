@@ -177,6 +177,6 @@ linked above.
 
 ## Cross-References
 
-- [Filter Repo](/docs/tools/git/05-advanced-topics/10-filter-repo) is the modern recommended tool for the history rewriting operations this guide covers.
-- [Git Objects](/docs/tools/git/02-fundamentals/02-git-objects) explains the object model that must be reconstructed when commit history is removed.
-- [Reflog](/docs/tools/git/05-advanced-topics/01-reflog) shows how to recover from accidental history rewrites using the reference log.
+- [Filter Repo](/tools/git/05-advanced-topics/10-filter-repo) is the modern recommended tool for the history rewriting operations this guide covers.
+- [Git Objects](/tools/git/02-fundamentals/02-git-objects) explains the object model that must be reconstructed when commit history is removed.
+- [Reflog](/tools/git/05-advanced-topics/01-reflog) shows how to recover from accidental history rewrites using the reference log.

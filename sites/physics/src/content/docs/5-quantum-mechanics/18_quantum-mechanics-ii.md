@@ -777,10 +777,10 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 
 | Topic                               | Link                                                                      |
 | ----------------------------------- | ------------------------------------------------------------------------- |
-| Quantum Mechanics I (Prerequisites) | [View](/docs/university/physics/quantum-mechanics)                        |
-| Solid State Physics                 | [View](/docs/university/physics/solid-state-physics)                      |
-| Particle Physics and Cosmology      | [View](/docs/university/physics/particle-physics-and-cosmology)           |
-| Electromagnetism                    | [View](/docs/university/physics/electromagnetism)                         |
+| Quantum Mechanics I (Prerequisites) | [View](/university/physics/quantum-mechanics)                        |
+| Solid State Physics                 | [View](/university/physics/solid-state-physics)                      |
+| Particle Physics and Cosmology      | [View](/university/physics/particle-physics-and-cosmology)           |
+| Electromagnetism                    | [View](/university/physics/electromagnetism)                         |
 | MIT 8.05 Quantum Physics II         | [View](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/)    |
 | MIT 8.06 Quantum Physics III        | [View](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/) |
 
@@ -815,5 +815,5 @@ Perturbation theory is like adding small corrections to a solution you already k
 
 | Topic               | Link                                               |
 | ------------------- | -------------------------------------------------- |
-| Quantum Mechanics I | [View](/docs/university/physics/quantum-mechanics) |
-| Thermodynamics      | [View](/docs/university/physics/thermodynamics)    |
+| Quantum Mechanics I | [View](/university/physics/quantum-mechanics) |
+| Thermodynamics      | [View](/university/physics/thermodynamics)    |

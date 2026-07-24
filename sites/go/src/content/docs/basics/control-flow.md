@@ -423,6 +423,6 @@ Go's control flow is deliberately simple. There is only one loop construct (for)
 
 ## Cross-References
 
-- [Functions](/docs/go/basics/functions) -- closures and deferred calls
-- [Types and Variables](/docs/go/basics/types-and-variables) -- zero values and scope
-- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- concurrent execution
+- [Functions](/go/basics/functions) -- closures and deferred calls
+- [Types and Variables](/go/basics/types-and-variables) -- zero values and scope
+- [Goroutines and Synchronization](/go/concurrency/goroutines) -- concurrent execution

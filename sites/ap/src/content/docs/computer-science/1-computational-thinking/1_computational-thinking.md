@@ -1070,5 +1070,5 @@ Computer science is about solving problems efficiently. Algorithms are like reci
 
 ## Cross-References
 
-- [Data Analysis](/docs/ap/computer.?science/data-analysis)
-- [Algorithms](/docs/ap/computer.?science/algorithms)
+- [Data Analysis](/ap/computer.?science/data-analysis)
+- [Algorithms](/ap/computer.?science/algorithms)

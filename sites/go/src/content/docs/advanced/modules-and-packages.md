@@ -310,6 +310,6 @@ Go modules are dependency management made simple. The go.mod file is a manifest 
 
 ## Cross-References
 
-- [Project Architecture](/docs/go/advanced/architecture) -- directory layout and patterns
-- [Arrays, Slices, and Maps](/docs/go/basics/arrays-slices-maps) -- core data structures
-- [Types and Variables](/docs/go/basics/types-and-variables) -- Go's type system
+- [Project Architecture](/go/advanced/architecture) -- directory layout and patterns
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps) -- core data structures
+- [Types and Variables](/go/basics/types-and-variables) -- Go's type system

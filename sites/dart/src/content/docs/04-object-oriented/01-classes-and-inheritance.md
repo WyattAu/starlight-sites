@@ -408,6 +408,6 @@ Dart classes are blueprints for objects, with single inheritance and implicit in
 
 ## Cross-References
 
-- [Variables](/docs/dart/03-basics/02-variables) -- final fields and type system
-- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- async factory constructors
-- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive matching
+- [Variables](/dart/03-basics/02-variables) -- final fields and type system
+- [Async and Futures](/dart/05-async/01-async-and-futures) -- async factory constructors
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive matching

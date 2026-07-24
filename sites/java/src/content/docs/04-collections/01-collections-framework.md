@@ -1218,6 +1218,6 @@ The Collections Framework provides a hierarchy of interfaces (List, Set, Queue, 
 
 ## Cross-References
 
-- [Maps and Sets](/docs/java/04-collections/02-maps-and-sets) -- HashMap, TreeMap, and Set implementations
-- [Streams API](/docs/java/05-streams/01-streams-api) -- stream operations on collections
-- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- ConcurrentHashMap and thread-safe collections
+- [Maps and Sets](/java/04-collections/02-maps-and-sets) -- HashMap, TreeMap, and Set implementations
+- [Streams API](/java/05-streams/01-streams-api) -- stream operations on collections
+- [Concurrency](/java/06-concurrency/01-concurrency) -- ConcurrentHashMap and thread-safe collections

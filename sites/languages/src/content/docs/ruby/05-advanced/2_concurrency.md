@@ -906,9 +906,9 @@ promise.execute
 
 ## Cross-References
 
-- [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) defines the objects and state that concurrent threads access and modify.
-- [Metaprogramming](/docs/languages/ruby/05-advanced/1_metaprogramming) can introduce race conditions when dynamically modifying class definitions across threads.
-- [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) shows how method calls and blocks interact with Ruby's thread scheduler.
+- [Object-Oriented Programming](/languages/ruby/04-oop/1_oop) defines the objects and state that concurrent threads access and modify.
+- [Metaprogramming](/languages/ruby/05-advanced/1_metaprogramming) can introduce race conditions when dynamically modifying class definitions across threads.
+- [Methods and Blocks](/languages/ruby/03-methods-blocks/1_methods-and-blocks) shows how method calls and blocks interact with Ruby's thread scheduler.
 
 ## Common Mistakes
 

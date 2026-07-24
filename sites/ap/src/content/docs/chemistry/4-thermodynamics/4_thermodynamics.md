@@ -887,8 +887,8 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 
 ## Cross-References
 
-- [Mechanics](/docs/ap/physics/mechanics)
-- [Waves](/docs/ap/physics/waves)
-- [Electricity](/docs/ap/physics/electricity)
-- [Fields](/docs/ap/physics/fields)
-- **[AP Physics — Work, Energy, and Power](/docs/ap/physics/work-energy-power):** The work-energy theorem from physics underpins enthalpy and internal energy calculations in thermodynamics.
+- [Mechanics](/ap/physics/mechanics)
+- [Waves](/ap/physics/waves)
+- [Electricity](/ap/physics/electricity)
+- [Fields](/ap/physics/fields)
+- **[AP Physics — Work, Energy, and Power](/ap/physics/work-energy-power):** The work-energy theorem from physics underpins enthalpy and internal energy calculations in thermodynamics.

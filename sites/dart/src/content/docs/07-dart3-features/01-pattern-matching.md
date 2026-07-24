@@ -1197,6 +1197,6 @@ Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspe
 
 ## Cross-References
 
-- [Classes and Inheritance](/docs/dart/04-object-oriented/01-classes-and-inheritance) -- sealed classes and class hierarchies
-- [Variables](/docs/dart/03-basics/02-variables) -- records and destructuring
-- [Error Handling](/docs/dart/08-error-handling) -- sealed exception hierarchies and pattern matching
+- [Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance) -- sealed classes and class hierarchies
+- [Variables](/dart/03-basics/02-variables) -- records and destructuring
+- [Error Handling](/dart/08-error-handling) -- sealed exception hierarchies and pattern matching

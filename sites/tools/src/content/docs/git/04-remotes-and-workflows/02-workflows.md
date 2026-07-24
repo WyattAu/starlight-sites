@@ -385,6 +385,6 @@ linked above.
 
 ## Cross-References
 
-- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) provides the fundamental fetch, pull, and push commands that workflows are built upon.
-- [Pull Requests](/docs/tools/git/04-remotes-and-workflows/03-pull-requests) implements the collaborative review process that many workflows centre around.
-- [Branching](/docs/tools/git/03-branching-and-merging/01-branching) defines the branching strategies (Git flow, GitHub flow) that structure team workflows.
+- [Remote Operations](/tools/git/04-remotes-and-workflows/01-remote-operations) provides the fundamental fetch, pull, and push commands that workflows are built upon.
+- [Pull Requests](/tools/git/04-remotes-and-workflows/03-pull-requests) implements the collaborative review process that many workflows centre around.
+- [Branching](/tools/git/03-branching-and-merging/01-branching) defines the branching strategies (Git flow, GitHub flow) that structure team workflows.

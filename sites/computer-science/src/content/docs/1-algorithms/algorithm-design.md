@@ -551,9 +551,9 @@ Algorithm design is the art of solving problems efficiently. Divide and conquer 
 
 | Topic | Link |
 |-------|------|
-| Data Structures | [View](/docs/university/computer-science/data-structures) |
+| Data Structures | [View](/university/computer-science/data-structures) |
 | Algorithms Overview | [View](/docs_infrastructure/cs/algorithms-overview) |
-| Complexity Theory | [View](/docs/university/computer-science/complexity-theory) |
+| Complexity Theory | [View](/university/computer-science/complexity-theory) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

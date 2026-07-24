@@ -42,9 +42,9 @@ Physics describes the fundamental laws governing the universe — from the motio
 
 ## Cross-References
 
-- **[Classical Mechanics](/docs/university/physics/classical-mechanics)**: Newtonian and Lagrangian mechanics describe motion of macroscopic objects.
-- **[Electromagnetism](/docs/university/physics/electromagnetism)**: Maxwell's equations unify electricity, magnetism, and light.
-- **[Quantum Mechanics](/docs/university/physics/quantum-mechanics)**: Quantum theory governs behaviour at atomic and subatomic scales.
+- **[Classical Mechanics](/university/physics/classical-mechanics)**: Newtonian and Lagrangian mechanics describe motion of macroscopic objects.
+- **[Electromagnetism](/university/physics/electromagnetism)**: Maxwell's equations unify electricity, magnetism, and light.
+- **[Quantum Mechanics](/university/physics/quantum-mechanics)**: Quantum theory governs behaviour at atomic and subatomic scales.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

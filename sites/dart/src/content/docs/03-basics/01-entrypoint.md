@@ -474,6 +474,6 @@ Every Dart program starts at the main() function, which is the entry point the V
 
 ## Cross-References
 
-- [Variables](/docs/dart/03-basics/02-variables) -- var, final, const, and late
-- [Introduction to Dart](/docs/dart/01-intro) -- type system and sound null safety
-- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- async main and Future handling
+- [Variables](/dart/03-basics/02-variables) -- var, final, const, and late
+- [Introduction to Dart](/dart/01-intro) -- type system and sound null safety
+- [Async and Futures](/dart/05-async/01-async-and-futures) -- async main and Future handling

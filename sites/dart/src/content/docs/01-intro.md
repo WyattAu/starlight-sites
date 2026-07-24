@@ -401,8 +401,8 @@ Dart is a language designed for building user interfaces, particularly with Flut
 
 ## Cross-References
 
-- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- main() and basic types
-- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- Future, Stream, and async/await
-- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- Dart 3 pattern matching
+- [Entry Point](/dart/03-basics/01-entrypoint) -- main() and basic types
+- [Async and Futures](/dart/05-async/01-async-and-futures) -- Future, Stream, and async/await
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching) -- Dart 3 pattern matching
 
 </aside>

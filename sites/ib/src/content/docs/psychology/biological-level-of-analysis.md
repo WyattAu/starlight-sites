@@ -181,6 +181,6 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 
 ## Cross-References
 
-- [Research Methods](/docs/ib/psychology/research-methods)
-- [Approaches in Psychology](/docs/ib/psychology/approaches)
-- [Biopsychology](/docs/ib/psychology/biopsychology)
+- [Research Methods](/ib/psychology/research-methods)
+- [Approaches in Psychology](/ib/psychology/approaches)
+- [Biopsychology](/ib/psychology/biopsychology)

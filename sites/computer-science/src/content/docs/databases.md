@@ -1921,9 +1921,9 @@ $\blacksquare$
 
 | Topic                          | Site        | Link                                                                    |
 | ------------------------------ | ----------- | ----------------------------------------------------------------------- |
-| Advanced Databases             | WyattsNotes | [View](/docs/university/computing/databases-advanced)                   |
-| Advanced SQL                   | WyattsNotes | [View](/docs/infrastructure/databases/02-sql-fundamentals/advanced-sql) |
-| Algorithms and Data Structures | WyattsNotes | [View](/docs/university/computing/algorithms-and-data-structures)       |
+| Advanced Databases             | WyattsNotes | [View](/university/computing/databases-advanced)                   |
+| Advanced SQL                   | WyattsNotes | [View](/infrastructure/databases/02-sql-fundamentals/advanced-sql) |
+| Algorithms and Data Structures | WyattsNotes | [View](/university/computing/algorithms-and-data-structures)       |
 | Database Systems — CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

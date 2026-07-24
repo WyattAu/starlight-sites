@@ -607,10 +607,10 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 
 | Topic                          | Link                                                                        |
 | ------------------------------ | --------------------------------------------------------------------------- |
-| Classical Mechanics            | [View](/docs/university/physics/classical-mechanics)                        |
-| Quantum Mechanics I            | [View](/docs/university/physics/quantum-mechanics)                          |
-| Solid State Physics            | [View](/docs/university/physics/solid-state-physics)                        |
-| Electromagnetism               | [View](/docs/university/physics/electromagnetism)                           |
+| Classical Mechanics            | [View](/university/physics/classical-mechanics)                        |
+| Quantum Mechanics I            | [View](/university/physics/quantum-mechanics)                          |
+| Solid State Physics            | [View](/university/physics/solid-state-physics)                        |
+| Electromagnetism               | [View](/university/physics/electromagnetism)                           |
 | MIT 5.60 Thermodynamics        | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-fall-2008/) |
 | Stanford Statistical Mechanics | [View](https://web.stanford.edu/~peastwood/statmech/)                       |
 
@@ -639,5 +639,5 @@ mol^-1. The entropy increases because the solid (ordered) becomes liquid (more d
 
 | Topic                | Link                                                  |
 | -------------------- | ----------------------------------------------------- |
-| Quantum Mechanics II | [View](/docs/university/physics/quantum-mechanics-ii) |
-| Kinetic Theory       | [View](/docs/university/physics/kinetic-theory)       |
+| Quantum Mechanics II | [View](/university/physics/quantum-mechanics-ii) |
+| Kinetic Theory       | [View](/university/physics/kinetic-theory)       |

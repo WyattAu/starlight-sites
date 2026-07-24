@@ -481,6 +481,6 @@ linked above.
 
 ## Cross-References
 
-- [Branching](/docs/tools/git/03-branching-and-merging/01-branching) covers the local branching operations that determine what gets pushed to remotes.
-- [Workflows](/docs/tools/git/04-remotes-and-workflows/02-workflows) defines the team conventions for how remote operations are structured and coordinated.
-- [Pull Requests](/docs/tools/git/04-remotes-and-workflows/03-pull-requests) extends remote operations into code review and collaborative merge processes.
+- [Branching](/tools/git/03-branching-and-merging/01-branching) covers the local branching operations that determine what gets pushed to remotes.
+- [Workflows](/tools/git/04-remotes-and-workflows/02-workflows) defines the team conventions for how remote operations are structured and coordinated.
+- [Pull Requests](/tools/git/04-remotes-and-workflows/03-pull-requests) extends remote operations into code review and collaborative merge processes.

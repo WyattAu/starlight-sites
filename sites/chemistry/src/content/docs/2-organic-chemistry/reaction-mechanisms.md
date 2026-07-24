@@ -421,9 +421,9 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 
 | Topic                        | Site        | Link                                                                    |
 | ---------------------------- | ----------- | ----------------------------------------------------------------------- |
-| Structure and Bonding        | WyattsNotes | [View](/docs/university/chemistry/structure-and-bonding)                |
-| Synthesis                    | WyattsNotes | [View](/docs/university/chemistry/synthesis)                            |
-| Spectroscopy                 | WyattsNotes | [View](/docs/university/chemistry/spectroscopy)                         |
+| Structure and Bonding        | WyattsNotes | [View](/university/chemistry/structure-and-bonding)                |
+| Synthesis                    | WyattsNotes | [View](/university/chemistry/synthesis)                            |
+| Spectroscopy                 | WyattsNotes | [View](/university/chemistry/spectroscopy)                         |
 | Organic Chemistry — MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

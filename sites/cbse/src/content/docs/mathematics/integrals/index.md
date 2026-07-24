@@ -160,9 +160,9 @@ Integration is the reverse of differentiation -- if a derivative gives you the r
 
 ## Cross-References
 
-- [Derivatives](/docs/cbse/mathematics/derivatives) -- differentiation rules and chain rule
-- [Matrices](/docs/cbse/mathematics/matrices) -- linear algebra and systems
-- [CBSE Physics](/docs/cbse/physics) -- work as integral of force, and area under curves
+- [Derivatives](/cbse/mathematics/derivatives) -- differentiation rules and chain rule
+- [Matrices](/cbse/mathematics/matrices) -- linear algebra and systems
+- [CBSE Physics](/cbse/physics) -- work as integral of force, and area under curves
 
 ## Common Mistakes
 

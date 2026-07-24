@@ -855,6 +855,6 @@ linked above.
 
 ## Cross-References
 
-- [OAuth Deep Dive](/docs/security/03-authentication/oauth-deep-dive) extends authentication concepts to modern delegated authorisation protocols used by major platforms.
-- [Cryptography](/docs/security/02-cryptography/cryptography) provides the hashing and encryption primitives that secure passwords and authentication tokens.
-- [Security Fundamentals](/docs/security/01-security-fundamentals/security-fundamentals) establishes the confidentiality and access control principles that authentication enforces.
+- [OAuth Deep Dive](/security/03-authentication/oauth-deep-dive) extends authentication concepts to modern delegated authorisation protocols used by major platforms.
+- [Cryptography](/security/02-cryptography/cryptography) provides the hashing and encryption primitives that secure passwords and authentication tokens.
+- [Security Fundamentals](/security/01-security-fundamentals/security-fundamentals) establishes the confidentiality and access control principles that authentication enforces.

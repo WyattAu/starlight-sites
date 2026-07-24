@@ -395,6 +395,6 @@ Channels are typed message pipes that connect goroutines. An unbuffered channel 
 
 ## Cross-References
 
-- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- lightweight threads and mutexes
-- [Functions](/docs/go/basics/functions) -- first-class functions used in goroutines
-- [Networking](/docs/go/advanced/networking) -- context propagation in HTTP handlers
+- [Goroutines and Synchronization](/go/concurrency/goroutines) -- lightweight threads and mutexes
+- [Functions](/go/basics/functions) -- first-class functions used in goroutines
+- [Networking](/go/advanced/networking) -- context propagation in HTTP handlers

@@ -307,6 +307,6 @@ Kotlin's type system is built on three pillars: immutability by default (val ove
 
 ## Cross-References
 
-- [Functions](/docs/kotlin/basics/functions) -- extension functions and function types
-- [Classes and Objects](/docs/kotlin/basics/classes-and-objects) -- data classes and sealed classes
-- [Null Safety Deep Dive](/docs/kotlin/advanced/null-safety-deep-dive) -- advanced null handling patterns
+- [Functions](/kotlin/basics/functions) -- extension functions and function types
+- [Classes and Objects](/kotlin/basics/classes-and-objects) -- data classes and sealed classes
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive) -- advanced null handling patterns

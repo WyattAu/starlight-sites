@@ -912,6 +912,6 @@ Inheritance establishes an is-a relationship where a subclass inherits fields an
 
 ## Cross-References
 
-- [Classes and Inheritance](/docs/java/03-object-oriented/01-classes) -- class declarations and access modifiers
-- [Streams API](/docs/java/05-streams/01-streams-api) -- functional interfaces and lambdas
-- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- thread safety and synchronization</aside>
+- [Classes and Inheritance](/java/03-object-oriented/01-classes) -- class declarations and access modifiers
+- [Streams API](/java/05-streams/01-streams-api) -- functional interfaces and lambdas
+- [Concurrency](/java/06-concurrency/01-concurrency) -- thread safety and synchronization</aside>

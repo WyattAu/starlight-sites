@@ -2025,9 +2025,9 @@ Complex analysis studies functions of a complex variable that are differentiable
 
 | Topic                        | Site        | Link                                                                                     |
 | ---------------------------- | ----------- | ---------------------------------------------------------------------------------------- |
-| Real Analysis                | WyattsNotes | [View](/docs/university/mathematics/real-analysis)                                       |
-| Multivariable Calculus       | WyattsNotes | [View](/docs/university/mathematics/multivariable-calculus)                              |
-| Differential Equations       | WyattsNotes | [View](/docs/university/mathematics/differential-equations)                              |
+| Real Analysis                | WyattsNotes | [View](/university/mathematics/real-analysis)                                       |
+| Multivariable Calculus       | WyattsNotes | [View](/university/mathematics/multivariable-calculus)                              |
+| Differential Equations       | WyattsNotes | [View](/university/mathematics/differential-equations)                              |
 | Complex Analysis — MIT 18.04 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-fall-2003/) |
 
 

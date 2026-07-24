@@ -546,6 +546,6 @@ Physics describes how the universe works through forces, energy, and fields. For
 
 ## Cross-References
 
-- [Atoms and Nuclei](/docs/cbse/physics/atoms-nuclei) -- atomic models and nuclear physics
-- [CBSE Chemistry](/docs/cbse/chemistry) -- thermodynamics and electrochemistry overlap
-- [CBSE Mathematics](/docs/cbse/maths) -- calculus and vectors used in physics
+- [Atoms and Nuclei](/cbse/physics/atoms-nuclei) -- atomic models and nuclear physics
+- [CBSE Chemistry](/cbse/chemistry) -- thermodynamics and electrochemistry overlap
+- [CBSE Mathematics](/cbse/maths) -- calculus and vectors used in physics

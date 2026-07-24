@@ -2168,9 +2168,9 @@ $\blacksquare$
 
 | Topic                       | Site        | Link                                                        |
 | --------------------------- | ----------- | ----------------------------------------------------------- |
-| Probability                 | WyattsNotes | [View](/docs/university/mathematics/probability)            |
-| Real Analysis               | WyattsNotes | [View](/docs/university/mathematics/real-analysis)          |
-| Differential Equations      | WyattsNotes | [View](/docs/university/mathematics/differential-equations) |
+| Probability                 | WyattsNotes | [View](/university/mathematics/probability)            |
+| Real Analysis               | WyattsNotes | [View](/university/mathematics/real-analysis)          |
+| Differential Equations      | WyattsNotes | [View](/university/mathematics/differential-equations) |
 | Statistics — Stanford CS229 | Stanford    | [View](https://cs229.stanford.edu/)                         |
 
 

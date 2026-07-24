@@ -553,7 +553,7 @@ Mathematics is generalized arithmetic with patterns that repeat across problems.
 
 ## Cross-References
 
-- [Derivatives](/docs/cbse/mathematics/derivatives) -- differentiation rules and chain rule
-- [Integrals](/docs/cbse/mathematics/integrals) -- integration techniques and definite integrals
-- [Matrices](/docs/cbse/mathematics/matrices) -- operations, determinants, and inverse
-- [Types of Relations](/docs/cbse/mathematics/relations-functions/types-of-relations) -- equivalence and properties
+- [Derivatives](/cbse/mathematics/derivatives) -- differentiation rules and chain rule
+- [Integrals](/cbse/mathematics/integrals) -- integration techniques and definite integrals
+- [Matrices](/cbse/mathematics/matrices) -- operations, determinants, and inverse
+- [Types of Relations](/cbse/mathematics/relations-functions/types-of-relations) -- equivalence and properties

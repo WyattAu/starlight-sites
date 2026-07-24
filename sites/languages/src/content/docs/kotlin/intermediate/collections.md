@@ -337,7 +337,7 @@ linked above.
 
 ## Cross-References
 
-- [Coroutines](/docs/languages/kotlin/intermediate/coroutines.md) — Flow operators on collections parallel coroutine-based async processing; both use functional transformation patterns.
-- [Generics](/docs/languages/kotlin/intermediate/generics.md) — Collection type parameters and variance annotations (in/out) are governed by the generic type system.
-- [Delegation and Result](/docs/languages/kotlin/intermediate/delegation-and-result.md) — Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
-- [Coroutines Advanced](/docs/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow and SharedFlow build on collection concepts to provide reactive state management.
+- [Coroutines](/languages/kotlin/intermediate/coroutines.md) — Flow operators on collections parallel coroutine-based async processing; both use functional transformation patterns.
+- [Generics](/languages/kotlin/intermediate/generics.md) — Collection type parameters and variance annotations (in/out) are governed by the generic type system.
+- [Delegation and Result](/languages/kotlin/intermediate/delegation-and-result.md) — Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
+- [Coroutines Advanced](/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow and SharedFlow build on collection concepts to provide reactive state management.

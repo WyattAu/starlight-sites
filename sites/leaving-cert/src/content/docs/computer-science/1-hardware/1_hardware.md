@@ -869,6 +869,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Programming](/docs/leaving-cert/computer-science/2-programming/2_programming) covers the software that runs on the hardware architectures described here.
-- [Databases](/docs/leaving-cert/computer-science/3-databases/3_databases) explains data storage systems that rely on the hardware's memory and processing capabilities.
-- [Algorithms](/docs/leaving-cert/computer-science/5-algorithms/5_algorithms) defines the computational methods that hardware executes through instruction sets.
+- [Programming](/leaving-cert/computer-science/2-programming/2_programming) covers the software that runs on the hardware architectures described here.
+- [Databases](/leaving-cert/computer-science/3-databases/3_databases) explains data storage systems that rely on the hardware's memory and processing capabilities.
+- [Algorithms](/leaving-cert/computer-science/5-algorithms/5_algorithms) defines the computational methods that hardware executes through instruction sets.

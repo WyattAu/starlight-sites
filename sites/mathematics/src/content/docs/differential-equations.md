@@ -2561,10 +2561,10 @@ $$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \
 
 | Topic                              | Site        | Link                                                                          |
 | ---------------------------------- | ----------- | ----------------------------------------------------------------------------- |
-| Real Analysis                      | WyattsNotes | [View](/docs/university/mathematics/real-analysis)                            |
-| Linear Algebra                     | WyattsNotes | [View](/docs/university/mathematics/linear-algebra)                           |
-| Multivariable Calculus             | WyattsNotes | [View](/docs/university/mathematics/multivariable-calculus)                   |
-| Complex Analysis                   | WyattsNotes | [View](/docs/university/mathematics/complex-analysis)                         |
+| Real Analysis                      | WyattsNotes | [View](/university/mathematics/real-analysis)                            |
+| Linear Algebra                     | WyattsNotes | [View](/university/mathematics/linear-algebra)                           |
+| Multivariable Calculus             | WyattsNotes | [View](/university/mathematics/multivariable-calculus)                   |
+| Complex Analysis                   | WyattsNotes | [View](/university/mathematics/complex-analysis)                         |
 | Differential Equations — MIT 18.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) |
 
 </aside>

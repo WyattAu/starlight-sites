@@ -735,6 +735,6 @@ Records are concise data carriers where the compiler generates the constructor, 
 
 ## Cross-References
 
-- [Classes and Inheritance](/docs/java/03-object-oriented/01-classes) -- class declarations and Object methods
-- [Inheritance and Polymorphism](/docs/java/03-object-oriented/02-inheritance-polymorphism) -- abstract classes and interfaces
-- [Control Flow](/docs/java/02-fundamentals/02-control-flow) -- switch expressions and pattern matching
+- [Classes and Inheritance](/java/03-object-oriented/01-classes) -- class declarations and Object methods
+- [Inheritance and Polymorphism](/java/03-object-oriented/02-inheritance-polymorphism) -- abstract classes and interfaces
+- [Control Flow](/java/02-fundamentals/02-control-flow) -- switch expressions and pattern matching

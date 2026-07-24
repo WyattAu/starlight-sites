@@ -239,6 +239,6 @@ linked above.
 
 ## Cross-References
 
-- [Syllabus](/docs/ib/physics/Syllabus) details the complete IB Physics content requirements that this wrap-up consolidates.
-- [Mechanics](/docs/ib/physics/1-space-time-and-motion/1_kinematics) covers Thematic Area A on space, time, and motion.
-- [Fields](/docs/ib/physics/4-fields/1_gravitational-fields) covers Thematic Area D on gravitational, electric, and magnetic fields.
+- [Syllabus](/ib/physics/Syllabus) details the complete IB Physics content requirements that this wrap-up consolidates.
+- [Mechanics](/ib/physics/1-space-time-and-motion/1_kinematics) covers Thematic Area A on space, time, and motion.
+- [Fields](/ib/physics/4-fields/1_gravitational-fields) covers Thematic Area D on gravitational, electric, and magnetic fields.

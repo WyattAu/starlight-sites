@@ -1179,6 +1179,6 @@ linked above.
 
 ## Cross-References
 
-- [Differential Calculus](/docs/ib/maths/5-calculus/1_differential-calculus) covers differentiation techniques that integration reverses, forming the fundamental theorem of calculus.
-- [Integral Calculus](/docs/ib/maths/5-calculus/2_integral-calculus) applies these integration techniques to calculate areas, volumes, and accumulated quantities.
-- [Series and Differential Equations](/docs/ib/maths/6-discrete-mathematics/2_series) connects integration methods to infinite series and solutions of differential equations.
+- [Differential Calculus](/ib/maths/5-calculus/1_differential-calculus) covers differentiation techniques that integration reverses, forming the fundamental theorem of calculus.
+- [Integral Calculus](/ib/maths/5-calculus/2_integral-calculus) applies these integration techniques to calculate areas, volumes, and accumulated quantities.
+- [Series and Differential Equations](/ib/maths/6-discrete-mathematics/2_series) connects integration methods to infinite series and solutions of differential equations.

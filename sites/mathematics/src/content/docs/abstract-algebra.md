@@ -694,7 +694,7 @@ length 2. Order = lcm(3, 2) = 6. The element (1 2 3)(4 5)^6 = identity.
 
 | Topic    | Link                                          |
 | -------- | --------------------------------------------- |
-| Topology | [View](/docs/university/mathematics/topology) |
+| Topology | [View](/university/mathematics/topology) |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

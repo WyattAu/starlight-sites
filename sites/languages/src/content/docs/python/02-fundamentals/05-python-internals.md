@@ -903,7 +903,7 @@ linked above.
 
 ## Cross-References
 
-- [Types and Variables](/docs/languages/python/02-fundamentals/01-types-and-variables.md) — The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.
-- [Collections](/docs/languages/python/03-data-structures/01-collections.md) — List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
-- [Control Flow](/docs/languages/python/02-fundamentals/02-control-flow.md) — Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
-- [Dicts, Sets, and Collections Deep Dive](/docs/languages/python/03-data-structures/02-dicts-sets-counter.md) — Compact dict design, hash randomisation, and the __slots__ mechanism are implementation details of the object model.
+- [Types and Variables](/languages/python/02-fundamentals/01-types-and-variables.md) — The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.
+- [Collections](/languages/python/03-data-structures/01-collections.md) — List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
+- [Control Flow](/languages/python/02-fundamentals/02-control-flow.md) — Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
+- [Dicts, Sets, and Collections Deep Dive](/languages/python/03-data-structures/02-dicts-sets-counter.md) — Compact dict design, hash randomisation, and the __slots__ mechanism are implementation details of the object model.

@@ -299,6 +299,6 @@ Pointers in Go hold memory addresses instead of values. When you pass a pointer 
 
 ## Cross-References
 
-- [Types and Variables](/docs/go/basics/types-and-variables) -- zero values and type conversions
-- [Arrays, Slices, and Maps](/docs/go/basics/arrays-slices-maps) -- value vs reference semantics
-- [Functions](/docs/go/basics/functions) -- value vs pointer receivers
+- [Types and Variables](/go/basics/types-and-variables) -- zero values and type conversions
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps) -- value vs reference semantics
+- [Functions](/go/basics/functions) -- value vs pointer receivers

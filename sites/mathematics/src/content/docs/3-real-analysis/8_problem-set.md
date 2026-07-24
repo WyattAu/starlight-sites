@@ -515,10 +515,10 @@ $\blacksquare$
 
 | Topic                      | Site        | Link                                                                 |
 | -------------------------- | ----------- | -------------------------------------------------------------------- |
-| Real Analysis (Overview)   | WyattsNotes | [View](/docs/university/mathematics/real-analysis)                   |
-| Complex Analysis           | WyattsNotes | [View](/docs/university/mathematics/complex-analysis)                |
-| Multivariable Calculus     | WyattsNotes | [View](/docs/university/mathematics/multivariable-calculus)          |
-| Differential Equations     | WyattsNotes | [View](/docs/university/mathematics/differential-equations)          |
+| Real Analysis (Overview)   | WyattsNotes | [View](/university/mathematics/real-analysis)                   |
+| Complex Analysis           | WyattsNotes | [View](/university/mathematics/complex-analysis)                |
+| Multivariable Calculus     | WyattsNotes | [View](/university/mathematics/multivariable-calculus)          |
+| Differential Equations     | WyattsNotes | [View](/university/mathematics/differential-equations)          |
 | Real Analysis — MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 
 

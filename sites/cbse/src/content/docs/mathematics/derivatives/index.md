@@ -226,9 +226,9 @@ A derivative measures how fast something changes at a single instant. Think of i
 
 ## Cross-References
 
-- [Integrals](/docs/cbse/mathematics/integrals) -- the reverse of differentiation
-- [Matrices](/docs/cbse/mathematics/matrices) -- linear algebra foundations
-- [CBSE Physics](/docs/cbse/physics) -- applications of derivatives in mechanics
+- [Integrals](/cbse/mathematics/integrals) -- the reverse of differentiation
+- [Matrices](/cbse/mathematics/matrices) -- linear algebra foundations
+- [CBSE Physics](/cbse/physics) -- applications of derivatives in mechanics
 
 ## Common Mistakes
 

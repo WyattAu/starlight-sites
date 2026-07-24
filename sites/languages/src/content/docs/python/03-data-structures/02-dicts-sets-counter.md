@@ -878,7 +878,7 @@ linked above.
 
 ## Cross-References
 
-- [Collections](/docs/languages/python/03-data-structures/01-collections.md) — Lists and tuples are the ordered sequences that complement the mapping and set types covered here.
-- [Types and Variables](/docs/languages/python/02-fundamentals/01-types-and-variables.md) — Hashability requirements for dict keys and set members depend on the immutability and type system concepts from fundamentals.
-- [Control Flow](/docs/languages/python/02-fundamentals/02-control-flow.md) — Dict and set comprehensions extend the comprehension syntax introduced in the control flow chapter.
-- [Python Internals](/docs/languages/python/02-fundamentals/05-python-internals.md) — Hash table internals, string interning, and the compact dict design are implementation details of CPython's memory model.
+- [Collections](/languages/python/03-data-structures/01-collections.md) — Lists and tuples are the ordered sequences that complement the mapping and set types covered here.
+- [Types and Variables](/languages/python/02-fundamentals/01-types-and-variables.md) — Hashability requirements for dict keys and set members depend on the immutability and type system concepts from fundamentals.
+- [Control Flow](/languages/python/02-fundamentals/02-control-flow.md) — Dict and set comprehensions extend the comprehension syntax introduced in the control flow chapter.
+- [Python Internals](/languages/python/02-fundamentals/05-python-internals.md) — Hash table internals, string interning, and the compact dict design are implementation details of CPython's memory model.

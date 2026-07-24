@@ -150,9 +150,9 @@ Relations are rules that connect elements from one set to another. A relation on
 
 ## Cross-References
 
-- [Matrices](/docs/cbse/mathematics/matrices) -- matrices as representations of relations
-- [CBSE Mathematics](/docs/cbse/maths) -- sets, functions, and algebra
-- [CBSE Physics](/docs/cbse/physics) -- symmetry and conservation laws
+- [Matrices](/cbse/mathematics/matrices) -- matrices as representations of relations
+- [CBSE Mathematics](/cbse/maths) -- sets, functions, and algebra
+- [CBSE Physics](/cbse/physics) -- symmetry and conservation laws
 
 ## Common Mistakes
 

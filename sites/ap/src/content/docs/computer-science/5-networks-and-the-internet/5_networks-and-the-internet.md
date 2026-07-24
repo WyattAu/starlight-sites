@@ -934,6 +934,6 @@ Computer science combines mathematical logic with engineering实践. Algorithms 
 
 ## Cross-References
 
-- [Computational Thinking](/docs/ap/computer.?science/computational-thinking)
-- [Data Analysis](/docs/ap/computer.?science/data-analysis)
-- [Algorithms](/docs/ap/computer.?science/algorithms)
+- [Computational Thinking](/ap/computer.?science/computational-thinking)
+- [Data Analysis](/ap/computer.?science/data-analysis)
+- [Algorithms](/ap/computer.?science/algorithms)

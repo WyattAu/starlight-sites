@@ -19,7 +19,7 @@ description: "This document builds on the coroutine fundamentals covered in . It
 </script>
 
 This document builds on the coroutine fundamentals covered in
-[coroutines](/docs/languages/kotlin/intermediate/coroutines). It assumes familiarity with suspend
+[coroutines](/languages/kotlin/intermediate/coroutines). It assumes familiarity with suspend
 functions, coroutine builders, dispatchers, structured concurrency, and basic Flow usage.
 
 ## Flow Error Handling

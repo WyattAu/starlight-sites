@@ -510,9 +510,9 @@ Probability quantifies uncertainty. The expected value is not a value you expect
 
 | Topic                          | Site        | Link                                                            |
 | ------------------------------ | ----------- | --------------------------------------------------------------- |
-| Probability and Statistics     | WyattsNotes | [View](/docs/university/mathematics/probability-and-statistics) |
-| Real Analysis                  | WyattsNotes | [View](/docs/university/mathematics/real-analysis)              |
-| Differential Equations         | WyattsNotes | [View](/docs/university/mathematics/differential-equations)     |
+| Probability and Statistics     | WyattsNotes | [View](/university/mathematics/probability-and-statistics) |
+| Real Analysis                  | WyattsNotes | [View](/university/mathematics/real-analysis)              |
+| Differential Equations         | WyattsNotes | [View](/university/mathematics/differential-equations)     |
 | Probability — Harvard Stat 110 | Harvard     | [View](https://stat110.com/)                                    |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

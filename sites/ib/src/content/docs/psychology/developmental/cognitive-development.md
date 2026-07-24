@@ -318,6 +318,6 @@ The mind works like an information processing system. Perception filters raw sen
 
 ## Cross-References
 
-- [Research Methods](/docs/ib/psychology/research-methods)
-- [Approaches in Psychology](/docs/ib/psychology/approaches)
-- [Biopsychology](/docs/ib/psychology/biopsychology)
+- [Research Methods](/ib/psychology/research-methods)
+- [Approaches in Psychology](/ib/psychology/approaches)
+- [Biopsychology](/ib/psychology/biopsychology)

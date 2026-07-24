@@ -184,6 +184,6 @@ The density formula $\rho = ZM / (N_A a^3)$ requires consistent units. If the ed
 
 ## Cross-References
 
-- [Solutions](/docs/cbse/chemistry/solutions) -- how solutes interact with crystal lattices
-- [CBSE Physics](/docs/cbse/physics) -- solid-state physics and material properties
-- [CBSE Mathematics](/docs/cbse/maths) -- geometry and 3D coordinate systems
+- [Solutions](/cbse/chemistry/solutions) -- how solutes interact with crystal lattices
+- [CBSE Physics](/cbse/physics) -- solid-state physics and material properties
+- [CBSE Mathematics](/cbse/maths) -- geometry and 3D coordinate systems

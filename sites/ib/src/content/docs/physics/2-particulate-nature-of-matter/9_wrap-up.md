@@ -562,6 +562,6 @@ linked above.
 
 ## Cross-References
 
-- [Thermodynamics](/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics) provides the thermal energy concepts tested in these wrap-up problems.
-- [Atomic Physics](/docs/ib/physics/2-particulate-nature-of-matter/2_atomic-physics) covers the atomic structure knowledge required for nuclear and thermal calculations.
-- [Current Electricity](/docs/ib/physics/2-particulate-nature-of-matter/3_current-electricity) explains the electrical concepts that complement thermal energy transfer problems.
+- [Thermodynamics](/ib/physics/2-particulate-nature-of-matter/1_thermodynamics) provides the thermal energy concepts tested in these wrap-up problems.
+- [Atomic Physics](/ib/physics/2-particulate-nature-of-matter/2_atomic-physics) covers the atomic structure knowledge required for nuclear and thermal calculations.
+- [Current Electricity](/ib/physics/2-particulate-nature-of-matter/3_current-electricity) explains the electrical concepts that complement thermal energy transfer problems.

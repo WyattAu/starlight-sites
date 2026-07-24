@@ -649,7 +649,7 @@ When working with bmo preparation, follow a structured approach:
 | -------------------------------- | ----------- | ----------------------------------------------------------- |
 | UKMT BMO Past Papers             | UKMT        | [View](https://ukmt.org.uk/competition/bmo)                 |
 | Art of Problem Solving BMO Forum | AoPS        | [View](https://artofproblemsolving.com/community/c3240_bmo) |
-| STEP Preparation Guide           | WyattsNotes | [View](/docs/university/admissions/step-preparation)        |
-| MAT Preparation Guide            | WyattsNotes | [View](/docs/university/admissions/mat-preparation)         |
-| Number Theory                    | WyattsNotes | [View](/docs/university/mathematics/number-theory)          |
-| Abstract Algebra                 | WyattsNotes | [View](/docs/university/mathematics/abstract-algebra)       |
+| STEP Preparation Guide           | WyattsNotes | [View](/university/admissions/step-preparation)        |
+| MAT Preparation Guide            | WyattsNotes | [View](/university/admissions/mat-preparation)         |
+| Number Theory                    | WyattsNotes | [View](/university/mathematics/number-theory)          |
+| Abstract Algebra                 | WyattsNotes | [View](/university/mathematics/abstract-algebra)       |

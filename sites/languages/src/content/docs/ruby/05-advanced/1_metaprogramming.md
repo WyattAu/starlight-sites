@@ -950,9 +950,9 @@ emp.job_title  # => "Engineer"
 
 ## Cross-References
 
-- [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) provides the class and object foundation that metaprogramming dynamically modifies at runtime.
-- [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) covers the method resolution order and block semantics that metaprogramming hooks into.
-- [Concurrency](/docs/languages/ruby/05-advanced/2_concurrency) addresses thread safety concerns that arise when metaprogramming modifies shared state.
+- [Object-Oriented Programming](/languages/ruby/04-oop/1_oop) provides the class and object foundation that metaprogramming dynamically modifies at runtime.
+- [Methods and Blocks](/languages/ruby/03-methods-blocks/1_methods-and-blocks) covers the method resolution order and block semantics that metaprogramming hooks into.
+- [Concurrency](/languages/ruby/05-advanced/2_concurrency) addresses thread safety concerns that arise when metaprogramming modifies shared state.
 
 ## Common Mistakes
 

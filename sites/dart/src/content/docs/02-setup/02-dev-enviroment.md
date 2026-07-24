@@ -376,6 +376,6 @@ The development environment is where your code comes alive. VS Code with Dart an
 
 ## Cross-References
 
-- [Installation](/docs/dart/02-setup/01-installation) -- SDK and Flutter setup
-- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- running Dart programs
-- [Error Handling](/docs/dart/08-error-handling) -- debugging and error reporting
+- [Installation](/dart/02-setup/01-installation) -- SDK and Flutter setup
+- [Entry Point](/dart/03-basics/01-entrypoint) -- running Dart programs
+- [Error Handling](/dart/08-error-handling) -- debugging and error reporting

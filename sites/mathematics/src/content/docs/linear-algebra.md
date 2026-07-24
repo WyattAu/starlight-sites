@@ -2449,9 +2449,9 @@ $\blacksquare$
 
 | Topic                      | Site        | Link                                                                  |
 | -------------------------- | ----------- | --------------------------------------------------------------------- |
-| Abstract Algebra           | WyattsNotes | [View](/docs/university/mathematics/abstract-algebra)                 |
-| Multivariable Calculus     | WyattsNotes | [View](/docs/university/mathematics/multivariable-calculus)           |
-| Real Analysis              | WyattsNotes | [View](/docs/university/mathematics/real-analysis)                    |
+| Abstract Algebra           | WyattsNotes | [View](/university/mathematics/abstract-algebra)                 |
+| Multivariable Calculus     | WyattsNotes | [View](/university/mathematics/multivariable-calculus)           |
+| Real Analysis              | WyattsNotes | [View](/university/mathematics/real-analysis)                    |
 | Linear Algebra — MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
 

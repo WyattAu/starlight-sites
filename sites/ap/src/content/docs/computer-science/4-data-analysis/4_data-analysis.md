@@ -965,5 +965,5 @@ The digital world runs on algorithms and data. From search engines to social med
 
 ## Cross-References
 
-- [Computational Thinking](/docs/ap/computer.?science/computational-thinking)
-- [Algorithms](/docs/ap/computer.?science/algorithms)
+- [Computational Thinking](/ap/computer.?science/computational-thinking)
+- [Algorithms](/ap/computer.?science/algorithms)

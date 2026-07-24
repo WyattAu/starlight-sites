@@ -477,7 +477,7 @@ Mathematics provides the language for describing patterns, relationships, and ch
 
 ## Cross-References
 
-- [Algebra](/docs/ap/mathematics/algebra)
-- [Calculus](/docs/ap/mathematics/calculus)
-- [Statistics](/docs/ap/mathematics/statistics)
-- [Trigonometry](/docs/ap/mathematics/trigonometry)
+- [Algebra](/ap/mathematics/algebra)
+- [Calculus](/ap/mathematics/calculus)
+- [Statistics](/ap/mathematics/statistics)
+- [Trigonometry](/ap/mathematics/trigonometry)

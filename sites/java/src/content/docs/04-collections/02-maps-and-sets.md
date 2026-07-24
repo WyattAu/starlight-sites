@@ -969,6 +969,6 @@ Maps associate keys with values, and Sets enforce uniqueness -- both rely on equ
 
 ## Cross-References
 
-- [Collections Framework](/docs/java/04-collections/01-collections-framework) -- List, Queue, and collection hierarchy
-- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- ConcurrentHashMap and concurrent collections
-- [Streams API](/docs/java/05-streams/01-streams-api) -- stream operations on maps and sets
+- [Collections Framework](/java/04-collections/01-collections-framework) -- List, Queue, and collection hierarchy
+- [Concurrency](/java/06-concurrency/01-concurrency) -- ConcurrentHashMap and concurrent collections
+- [Streams API](/java/05-streams/01-streams-api) -- stream operations on maps and sets

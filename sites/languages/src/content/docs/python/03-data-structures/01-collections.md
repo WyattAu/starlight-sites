@@ -1072,10 +1072,10 @@ linked above.
 
 ## Cross-References
 
-- [Dicts, Sets, and Collections Deep Dive](/docs/languages/python/03-data-structures/02-dicts-sets-counter.md) — Dictionaries and sets share the same hash table internals as the collections covered here.
-- [Types and Variables](/docs/languages/python/02-fundamentals/01-types-and-variables.md) — Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
-- [Control Flow](/docs/languages/python/02-fundamentals/02-control-flow.md) — List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
-- [Python Internals](/docs/languages/python/02-fundamentals/05-python-internals.md) — CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
+- [Dicts, Sets, and Collections Deep Dive](/languages/python/03-data-structures/02-dicts-sets-counter.md) — Dictionaries and sets share the same hash table internals as the collections covered here.
+- [Types and Variables](/languages/python/02-fundamentals/01-types-and-variables.md) — Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
+- [Control Flow](/languages/python/02-fundamentals/02-control-flow.md) — List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
+- [Python Internals](/languages/python/02-fundamentals/05-python-internals.md) — CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
 
 
 </aside>

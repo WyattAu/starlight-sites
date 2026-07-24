@@ -414,6 +414,6 @@ Kotlin classes are blueprints for objects, final by default to prevent accidenta
 
 ## Cross-References
 
-- [Types and Variables](/docs/kotlin/basics/types-and-variables) -- val vs var and nullable types
-- [Functions](/docs/kotlin/basics/functions) -- extension functions and higher-order functions
-- [Coroutines](/docs/kotlin/intermediate/coroutines) -- object declarations as coroutine scopes
+- [Types and Variables](/kotlin/basics/types-and-variables) -- val vs var and nullable types
+- [Functions](/kotlin/basics/functions) -- extension functions and higher-order functions
+- [Coroutines](/kotlin/intermediate/coroutines) -- object declarations as coroutine scopes

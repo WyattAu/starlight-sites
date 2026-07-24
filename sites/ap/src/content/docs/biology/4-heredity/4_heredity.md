@@ -923,5 +923,5 @@ Biology explores how living things work, interact, and evolve. Cells are the bas
 
 ## Cross-References
 
-- [Cell Structure and Function](/docs/ap/biology/cell-structure)
-- [Natural Selection](/docs/ap/biology/natural-selection)
+- [Cell Structure and Function](/ap/biology/cell-structure)
+- [Natural Selection](/ap/biology/natural-selection)

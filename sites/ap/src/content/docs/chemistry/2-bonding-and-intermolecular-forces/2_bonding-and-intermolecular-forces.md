@@ -876,7 +876,7 @@ Chemistry studies how atoms combine and react to form everything around us. The 
 
 ## Cross-References
 
-- [Atomic Structure](/docs/ap/chemistry/atomic-structure)
-- [Bonding](/docs/ap/chemistry/bonding)
-- [Stoichiometry](/docs/ap/chemistry/stoichiometry)
-- [Thermodynamics](/docs/ap/chemistry/thermodynamics)
+- [Atomic Structure](/ap/chemistry/atomic-structure)
+- [Bonding](/ap/chemistry/bonding)
+- [Stoichiometry](/ap/chemistry/stoichiometry)
+- [Thermodynamics](/ap/chemistry/thermodynamics)

@@ -404,6 +404,6 @@ Go's testing framework is built into the toolchain -- test files are just regula
 
 ## Cross-References
 
-- [Functions](/docs/go/basics/functions) -- first-class functions and closures
-- [Modules and Packages](/docs/go/advanced/modules-and-packages) -- dependency management
-- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- testing concurrent code
+- [Functions](/go/basics/functions) -- first-class functions and closures
+- [Modules and Packages](/go/advanced/modules-and-packages) -- dependency management
+- [Goroutines and Synchronization](/go/concurrency/goroutines) -- testing concurrent code

@@ -1475,6 +1475,6 @@ Classes are blueprints for creating objects. A class defines fields (state) and 
 
 ## Cross-References
 
-- [Inheritance and Polymorphism](/docs/java/03-object-oriented/02-inheritance-polymorphism) -- extending classes and overriding methods
-- [Collections Framework](/docs/java/04-collections/01-collections-framework) -- equals/hashCode in practice
-- [Records, Sealed Classes, and Pattern Matching](/docs/java/08-modern-java/01-records-sealed-patterns) -- records as data carriers</aside>
+- [Inheritance and Polymorphism](/java/03-object-oriented/02-inheritance-polymorphism) -- extending classes and overriding methods
+- [Collections Framework](/java/04-collections/01-collections-framework) -- equals/hashCode in practice
+- [Records, Sealed Classes, and Pattern Matching](/java/08-modern-java/01-records-sealed-patterns) -- records as data carriers</aside>
