@@ -36,6 +36,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Advanced', items: [{ autogenerate: { directory: 'advanced' } }] },
         { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }] },
         { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
