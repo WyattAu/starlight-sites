@@ -33,6 +33,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Algorithms', items: [{ autogenerate: { directory: '1-algorithms' } }] },
         {
           label: 'Discrete Mathematics',

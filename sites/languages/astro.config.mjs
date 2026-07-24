@@ -39,6 +39,7 @@ export default defineConfig({
         zh: { label: '简体中文', lang: 'zh' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Dart', items: [{ autogenerate: { directory: 'dart' } }] },
         { label: 'Elixir', items: [{ autogenerate: { directory: 'elixir' } }] },
         { label: 'Go', items: [{ autogenerate: { directory: 'go' } }] },

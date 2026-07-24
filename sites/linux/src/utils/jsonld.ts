@@ -307,6 +307,26 @@ export function generatePersonSchema(props: PersonSchemaProps = {}) {
   }
 }
 
+export interface SpeakableSchemaProps {
+  url: string
+}
+
+/**
+ * Generate Speakable schema.org structured data.
+ * Use for voice search optimization — tells Google which parts of the page are best for text-to-speech.
+ */
+export function generateSpeakableSchema(props: SpeakableSchemaProps) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${props.url}#webpage`,
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['.markdown-content', 'h1'],
+    },
+  }
+}
+
 export interface SoftwareSourceCodeSchemaProps {
   name: string
   description: string
