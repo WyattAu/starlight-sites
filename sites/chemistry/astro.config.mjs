@@ -49,6 +49,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '3-inorganic-chemistry' } }],
         },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

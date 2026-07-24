@@ -49,6 +49,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '10-email-and-app-protocols' } }],
         },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

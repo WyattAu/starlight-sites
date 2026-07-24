@@ -71,6 +71,7 @@ export default defineConfig({
         { label: 'Topology', items: [{ autogenerate: { directory: '9-topology' } }] },
         { label: 'Demos', items: [{ autogenerate: { directory: 'demos' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),
