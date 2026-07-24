@@ -66,7 +66,7 @@ Exam-board pages should NOT canonical to the general site. They are different co
 
 Never do this:
 ```
-dse.wyattau.com/physics/  → canonical to ib.wyattau.com/physics/  ✗ WRONG
+dse.wyattau.com/physics/  → canonical to ib.wyattau.com/physics/  [FAIL] WRONG
 ```
 
 Each board's content is distinct. Canonicals should only be used for true duplicates (same content, different URLs).
@@ -144,8 +144,8 @@ When two exam boards cover the same topic deeply, cross-link them:
 
 Always use absolute URLs:
 ```markdown
-[IB Physics](https://ib.wyattau.com/physics/)  ✓
-[IB Physics](/physics/)  ✗ (resolves to current domain)
+[IB Physics](https://ib.wyattau.com/physics/)  [PASS]
+[IB Physics](/physics/)  [FAIL] (resolves to current domain)
 ```
 
 ---
