@@ -35,6 +35,7 @@ export default defineConfig({
         zh: { label: '简体中文', lang: 'zh' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         {
           label: 'Abstract Algebra',
           items: [{ autogenerate: { directory: '1-abstract-algebra' } }],

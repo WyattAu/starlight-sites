@@ -35,6 +35,7 @@ export default defineConfig({
         zh: { label: '简体中文', lang: 'zh' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
         { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
         { label: 'Economics', items: [{ autogenerate: { directory: 'economics' } }] },
