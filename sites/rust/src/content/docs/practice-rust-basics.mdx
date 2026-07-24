@@ -269,7 +269,7 @@ Preview: Rust Ownership: Owner...
 
 **Why it matters:** Rust's memory safety guarantees make it ideal for systems programming, embedded devices, and performance-critical applications.
 
-**The key insight:** Option<T> and Result<T, E> replace null and exceptions with explicit types that force you to handle absence and error cases.
+**The key insight:** `Option<T>` and `Result<T, E>` replace null and exceptions with explicit types that force you to handle absence and error cases.
 
 ## Common Mistakes
 
@@ -277,7 +277,7 @@ Preview: Rust Ownership: Owner...
 
 **Forgetting that match must be exhaustive:** Rust requires match to handle all possible cases. A missing arm causes a compilation error. Use _ as a catch-all when you dont need to handle all cases explicitly.
 
-**Not using `Result` for error handling:** Rust prefers Result<T, E> over panics for recoverable errors. Functions that can fail return Result, and callers must handle the error with match, ?, or .unwrap(). Panicking should be reserved for truly unrecoverable situations.
+**Not using `Result` for error handling:** Rust prefers `Result<T, E>` over panics for recoverable errors. Functions that can fail return `Result`, and callers must handle the error with match, ?, or .unwrap(). Panicking should be reserved for truly unrecoverable situations.
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for rust notes.

@@ -142,7 +142,7 @@ sidebar_position: 50
 
 **Correct Answer:** (B)
 
-**Explanation:** Hash indexes provide O(1) average-case lookup for equality conditions (=, IN) by mapping keys to hash buckets. They cannot support range queries (>, <, BETWEEN) because hash values do not preserve ordering. B+ tree indexes are better for range queries. Bitmap indexes are optimal for low-cardinality columns with Boolean operations.
+**Explanation:** Hash indexes provide O(1) average-case lookup for equality conditions (=, IN) by mapping keys to hash buckets. They cannot support range queries (`>`, `<`, `BETWEEN`) because hash values do not preserve ordering. B+ tree indexes are better for range queries. Bitmap indexes are optimal for low-cardinality columns with Boolean operations.
 
 ---
 
