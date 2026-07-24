@@ -33,6 +33,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         {
           label: 'Cli Fundamentals',
           items: [{ autogenerate: { directory: '01-cli-fundamentals' } }],

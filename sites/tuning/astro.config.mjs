@@ -33,6 +33,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Cpu Tuning', items: [{ autogenerate: { directory: '01-cpu-tuning' } }] },
         { label: 'Memory Tuning', items: [{ autogenerate: { directory: '02-memory-tuning' } }] },
         { label: 'Gpu Tuning', items: [{ autogenerate: { directory: '03-gpu-tuning' } }] },

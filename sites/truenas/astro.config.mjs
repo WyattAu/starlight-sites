@@ -33,6 +33,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Zfs', items: [{ autogenerate: { directory: '01-zfs' } }] },
         {
           label: 'Sharing And Permissions',
