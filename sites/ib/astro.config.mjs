@@ -42,6 +42,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
         { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
         { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },

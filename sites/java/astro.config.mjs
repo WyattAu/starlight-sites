@@ -57,6 +57,7 @@ export default defineConfig({
         { label: 'Build Tools', items: [{ autogenerate: { directory: '13-build-tools' } }] },
         { label: 'Testing', items: [{ autogenerate: { directory: '14-testing' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

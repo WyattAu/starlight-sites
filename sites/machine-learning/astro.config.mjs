@@ -39,6 +39,7 @@ export default defineConfig({
           items: [{ label: 'advanced topics', slug: 'advanced-topics' }],
         },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

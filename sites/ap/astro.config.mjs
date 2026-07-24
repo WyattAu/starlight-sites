@@ -35,6 +35,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
         { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
         { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
@@ -44,6 +45,7 @@ export default defineConfig({
         { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
         { label: 'Statistics', items: [{ autogenerate: { directory: 'statistics' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -36,6 +36,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
+        { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
         { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
         { label: 'English', items: [{ autogenerate: { directory: 'english' } }] },

@@ -57,6 +57,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '08-advanced-topics' } }],
         },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

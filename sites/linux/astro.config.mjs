@@ -51,6 +51,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '07-package-management' } }],
         },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),
