@@ -33,6 +33,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         {
           label: 'Relational Theory',
           items: [{ autogenerate: { directory: '01-relational-theory' } }],

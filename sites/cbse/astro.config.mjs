@@ -34,6 +34,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         {
           label: 'Physics',
           items: [

@@ -34,6 +34,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
+        { label: 'Study Hub', slug: 'hub' },
         { label: 'Osi Model', items: [{ autogenerate: { directory: '01-osi-model' } }] },
         { label: 'Ip Addressing', items: [{ autogenerate: { directory: '02-ip-addressing' } }] },
         { label: 'Tcp Udp', items: [{ autogenerate: { directory: '03-tcp-udp' } }] },
