@@ -93,7 +93,7 @@
   "dependencies": {
     "@felte/core": "^1.4.4",
     "@felte/validator-zod": "^1.0.18",
-    "@formkit/auto-animate": "^0.9.0",
+    "@formkit/auto-animate": "^0.10.0",
     "@iconify-json/lucide": "^1.2.113",
     "@kobalte/core": "^0.13.11",
     "@solid-primitives/i18n": "^2.2.1",
