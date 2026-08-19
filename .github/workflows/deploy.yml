@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: oven-sh/setup-bun@v2
         with:
@@ -103,7 +103,7 @@ jobs:
         include: ${{ fromJson(needs.resolve-sites.outputs.canary) }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: oven-sh/setup-bun@v2
         with:
@@ -351,7 +351,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: oven-sh/setup-bun@v2
         with:
@@ -394,7 +394,7 @@ jobs:
     timeout-minutes: 10
     if: success()
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: oven-sh/setup-bun@v2
         with:
