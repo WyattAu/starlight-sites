@@ -154,7 +154,6 @@ Authentication tag can be forged and confidentiality of both messages is comprom
 Random nonce (the probability of collision with $2^{32}$ messages is approximately $2^{-32}$Which Is
 acceptable) or a deterministic nonce construction (NIST SP 800-38D).
 
-
 ### ChaCha20-Poly1305
 
 ChaCha20-Poly1305 is an AEAD construction that is competitive with AES-GCM but does not require
@@ -252,7 +251,6 @@ The most commonly used curves:
 <aside class="starlight-aside starlight-aside--note">
 Generation that was not fully transparent (though no backdoor has been found), and
 Curve25519/Ed25519 have simpler, faster implementations with fewer side-channel risks.
-
 
 ### Diffie-Hellman Key Exchange
 
@@ -445,7 +443,6 @@ mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 Vulnerable to timing attacks — it returns as soon as it finds a mismatch, leaking information about
 How many bytes of the MAC are correct.
 
-
 ### Poly1305
 
 Poly1305 is a fast MAC that is paired with ChaCha20 (ChaCha20-Poly1305 AEAD). It produces A 128-bit
@@ -560,7 +557,6 @@ key = hashlib.pbkdf2_hmac(
 <aside class="starlight-aside starlight-aside--caution">
 Argon2id or scrypt. Use PBKDF2 only for compatibility with existing systems. For new systems, use
 Argon2id.
-
 
 ## Public Key Infrastructure (PKI)
 
@@ -711,7 +707,6 @@ Predictable values (often timestamps). Use platform CSPRNGs: `/dev/urandom` on U
 `CryptGenRandom` on Windows, or language-specific secure random APIs (`secrets` in Python,
 `crypto.randomBytes` in Node.js, `java.security.SecureRandom` in Java).
 
-
 ## Post-Quantum Cryptography
 
 ### The Threat
@@ -746,7 +741,6 @@ NIST has standardized the following post-quantum algorithms:
 <aside aria-label="The "harvest now, decrypt later" threat is real. Attackers may be recording encrypted traffic today" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The "harvest now, decrypt later" threat is real. Attackers may be recording encrypted traffic today</p>
 To decrypt it when quantum computers become available. Organizations with long-term confidentiality
 Requirements (government, healthcare, financial) should begin PQC migration planning now.
-
 
 ## Common Pitfalls
 
@@ -818,7 +812,6 @@ Cryptography is the science of securing information through mathematical transfo
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---

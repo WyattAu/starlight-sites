@@ -174,7 +174,6 @@ void main(){
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
 Should be avoided.
 
-
 ## Data Types
 
 ### Built-in Data Types
@@ -297,7 +296,6 @@ var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
 Cannot be extended.
 
-
 #### Functions
 
 Functions in Dart are first-class objects — they can be assigned to variables, passed as arguments,
@@ -345,7 +343,6 @@ print(counter()); // 2
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 Order-independent, which reduces call-site errors and makes refactoring easier.
-
 
 #### Lists
 
@@ -406,7 +403,6 @@ var doubled = numbers.map((n) => n * 2).toList();
 
 This is a deliberate design choice — lazy iterables avoid creating intermediate collections, which
 Is critical for large data pipelines.
-
 
 #### Sets
 
@@ -488,7 +484,6 @@ var doubled = ages.map((k, v) => MapEntry(k, v * 2));
 Classes for structured data. When you must use `Map<String, dynamic>` (e.g., JSON deserialization),
 Validate the types at runtime.
 
-
 #### Symbols
 
 A `Symbol` represents an operator or identifier declared in a Dart program. Symbols are rarely used
@@ -552,6 +547,5 @@ linked above.
 - **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** How variables work as class fields with `final` and `const` specifiers.
 - **[Async and Futures](../05-async/01-async-and-futures.md):** Nullable and late variables in asynchronous contexts.
 - **[Best Practices](../04-best-practices.md):** Recommended variable specifier ordering and typing conventions.
-
 
 </aside>

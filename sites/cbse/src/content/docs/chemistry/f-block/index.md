@@ -98,6 +98,7 @@ Uranium (Z = 92): $[\text{Rn}] 5f^3 6d^1 7s^2$
 In +6 state: remove all 6 outer electrons (3 from 5f, 1 from 6d, 2 from 7s), leaving the configuration $[\text{Rn}]$.
 
 The +6 state is possible because:
+
 1. Actinoids have accessible 5f, 6d, and 7s orbitals for bonding
 2. The energy difference between 5f and 6d is small (unlike lanthanoids where 4f is much lower)
 3. High oxidation states are stabilized by electronegative ligands (F, O)

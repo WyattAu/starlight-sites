@@ -86,7 +86,6 @@ Classification by hand is only Feasible for small orders. For prime-squared orde
 classification is straightforward, But non-abelian cases require careful analysis of possible
 semidirect products.
 
-
 </aside>
 ## Intuition
 
@@ -124,6 +123,7 @@ Classifying small groups is like cataloguing all possible symmetries of objects 
 ### Further Orders
 
 Beyond order 12, the classification continues to grow in complexity:
+
 - **Order 14:** Only two groups: $\mathbb{Z}/14\mathbb{Z}$ and $D_7$ (since $2 \mid (7-1)$, a non-abelian semidirect product exists).
 - **Order 15:** Only one group: $\mathbb{Z}/15\mathbb{Z}$ (cyclic, since $3 \nmid (5-1)$ and $5 \nmid (3-1)$).
 - **Order 18:** Five groups: two abelian ($\mathbb{Z}/18\mathbb{Z}$, $\mathbb{Z}/6\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}$) and three non-abelian ($D_9$, $S_3 \times \mathbb{Z}/3\mathbb{Z}$, $(\mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}) \rtimes \mathbb{Z}/2\mathbb{Z}$).

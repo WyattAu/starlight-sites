@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -512,8 +511,6 @@ the tree height (recursion stack depth).
 **Forgetting to close files or database connections:** Failing to close resources leads to memory leaks and file locking issues. In Python, use `with open(...) as f:` to automatically close files. In database programming, always close cursors and connections, or use context managers.
 
 **Confusing = (assignment) with == (comparison):** In most languages, `=` assigns a value while `==` tests for equality. Writing `if (x = 5)` instead of `if (x == 5)` is a common bug that may not produce a syntax error in some languages but will assign rather than compare.
-
-
 
 ## Cross-References
 

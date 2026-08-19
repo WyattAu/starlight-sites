@@ -414,7 +414,8 @@ $$
 
 Solution: $\left(-\infty, \dfrac{22}{5}\right]$.
 
-2. **Question:** Solve $x^2 - 6x + 9 \geq 0$.
+1. **Question:** Solve $x^2 - 6x + 9 \geq 0$.
+
 <details>
 <summary>Answer</summary>
 Factorize: $(x - 3)^2 \geq 0$.
@@ -424,7 +425,8 @@ Real numbers.
 
 Solution: $\mathbb{R}$.
 
-3. **Question:** Find the range of $x$ for which $x^2 - 3x - 10 < 0$ and $2x + 1 > 0$ both hold.
+1. **Question:** Find the range of $x$ for which $x^2 - 3x - 10 < 0$ and $2x + 1 > 0$ both hold.
+
 </details>
 <summary>Answer</summary>
 From $x^2 - 3x - 10 < 0$: $(x - 5)(x + 2) < 0 \implies -2 < x < 5$.
@@ -433,7 +435,8 @@ From $2x + 1 > 0$: $x > -\dfrac{1}{2}$.
 
 Intersection: $-\dfrac{1}{2} < x < 5$I.e., $\left(-\dfrac{1}{2}, 5\right)$.
 
-4. **Question:** Solve $|3x - 5| < 7$.
+1. **Question:** Solve $|3x - 5| < 7$.
+
 <details>
 <summary>Answer</summary>
 $$
@@ -450,7 +453,8 @@ $$
 
 Solution: $\left(-\dfrac{2}{3}, 4\right)$.
 
-5. **Question:** Solve $|2x + 3| \geq x^2 + 2$.
+1. **Question:** Solve $|2x + 3| \geq x^2 + 2$.
+
 </details>
 <summary>Answer</summary>
 This inequality combines absolute value and quadratic expressions. Consider two cases.
@@ -482,8 +486,9 @@ Solution in this case.
 
 Solution: $[1 - \sqrt{2},\; 1 + \sqrt{2}]$.
 
-6. **Question:** For what values of $k$ does the quadratic equation $x^2 + 2kx + k + 6 = 0$ have two
+1. **Question:** For what values of $k$ does the quadratic equation $x^2 + 2kx + k + 6 = 0$ have two
 Distinct real roots?
+
 <details>
 <summary>Answer</summary>
 For two distinct real roots, the [discriminant](1_functions.mdx#discriminant) must satisfy $\Delta > 0$:
@@ -502,8 +507,9 @@ Since $a = 1 > 0$The parabola opens upward. The expression is positive outside t
 
 Solution: $k < -2$ or $k > 3$I.e., $(-\infty, -2) \cup (3, \infty)$.
 
-7. **Question:** Solve the system of inequalities $x^2 - 5x + 4 \leq 0$, $|x - 2| \leq 3$And
+1. **Question:** Solve the system of inequalities $x^2 - 5x + 4 \leq 0$, $|x - 2| \leq 3$And
 $x > 0$.
+
 </details>
 <summary>Answer</summary>
 From $x^2 - 5x + 4 \leq 0$: $(x-1)(x-4) \leq 0 \implies 1 \leq x \leq 4$.
@@ -522,9 +528,10 @@ Combined: $[1, 4]$.
 
 Solution: $[1, 4]$.
 
-8. **Question:** A ball is thrown upward from a height of $2$ m with an initial velocity of $20$
+1. **Question:** A ball is thrown upward from a height of $2$ m with an initial velocity of $20$
 M/s. The height $h$ (in metres) after $t$ seconds is given by $h(t) = -5t^2 + 20t + 2$. During what
 Time interval is the ball at a height greater than $17$ m?
+
 <details>
 <summary>Answer</summary>
 We need $h(t) > 17$:
@@ -547,7 +554,8 @@ Factorize: $(t - 1)(t - 3) < 0 \implies 1 < t < 3$.
 
 The ball is above $17$ m during the interval $(1, 3)$ seconds.
 
-9. **Question:** Solve $\dfrac{x^2 - 4}{x - 1} \geq 0$.
+1. **Question:** Solve $\dfrac{x^2 - 4}{x - 1} \geq 0$.
+
 </details>
 <summary>Answer</summary>
 First note that $x \neq 1$ (the denominator cannot be zero).
@@ -915,7 +923,7 @@ $\blacksquare$
 ======= 3. Misreading the question, particularly with "hence' vs 'hence or otherwise' — the former
 requires using previous work.
 
-4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
+1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/inequalities.md
 

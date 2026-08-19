@@ -269,10 +269,10 @@ Also called the C3 pathway. Three phases:
 - It can also catalyze photorespiration (RuBP + $\mathrm{O_2$ $\to$ 3-PGA + 2-phosphoglycolate),
   which wastes energy.
 
-2. **Reduction:** 3-PGA + ATP + NADPH $\to$ G3P. For every 3 $\mathrm{CO_2$ fixed, 6 G3P are
+1. **Reduction:** 3-PGA + ATP + NADPH $\to$ G3P. For every 3 $\mathrm{CO_2$ fixed, 6 G3P are
    produced (5 are recycled, 1 is net gain).
 
-3. **Regeneration of RuBP:** 5 G3P (15C) + 3 ATP $\to$ 3 RuBP (15C).
+2. **Regeneration of RuBP:** 5 G3P (15C) + 3 ATP $\to$ 3 RuBP (15C).
 
 **Net:** 3 $\mathrm{CO_2$ + 9 ATP + 6 NADPH $\to$ 1 G3P + 9 ADP + 8 $\mathrm{P_i$ + 6
 $\mathrm{NADP^+$
@@ -885,7 +885,6 @@ Describe the roles of photosystems I and II in the light-dependent reactions of 
 ## Intuition
 
 Living organisms are remarkably organised systems. Cells function as factories with specialised departments, genetics stores the blueprint library, and ecology maps the web of interconnected relationships. Life maintains itself through intricate feedback mechanisms, from molecular pathways within cells to population dynamics across ecosystems. Understanding biology reveals how structure determines function at every level.
-
 
 ## Cross-References
 

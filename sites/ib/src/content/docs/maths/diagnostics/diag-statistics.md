@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Statistical inference lets us draw conclusions about entire populations from carefully chosen samples, bridging observation and generalization
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for statistics.

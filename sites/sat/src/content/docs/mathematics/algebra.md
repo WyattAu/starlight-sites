@@ -30,7 +30,7 @@ SAT mathematics study notes - Algebra
 ## Key Formulas
 
 | Topic | Formula | When to Use |
-|-------|---------|-------------|
+| ------- | --------- | ------------- |
 | Slope | $m = \frac{y_2 - y_1}{x_2 - x_1}$ | Finding rate of change between two points |
 | Quadratic Formula | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ | Solving $ax^2 + bx + c = 0$ when factoring fails |
 | Discriminant | $\Delta = b^2 - 4ac$ | Positive: 2 real roots; Zero: 1 repeated root; Negative: no real roots |

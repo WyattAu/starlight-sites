@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Persistent imbalances in the balance of payments can signal economic vulnerabilities or strengths
 
-
 ## Balance of Payments
 
 The balance of payments is a record of all economic transactions between residents of a country and

@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Ecosystems are dynamic systems where energy flows and nutrients cycle through interconnected communities
 
-
 ## Unit Tests
 
 ### UT-1: Energy Flow and Ecological Efficiency

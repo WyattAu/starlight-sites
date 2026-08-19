@@ -39,7 +39,6 @@ description: 'A-Level Further Maths Further Statistics notes covering key defini
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**

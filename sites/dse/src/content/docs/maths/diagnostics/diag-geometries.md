@@ -780,8 +780,6 @@ Equation: $y - (-2) = -1(x - 5) \implies y + 2 = -x + 5 \implies x + y - 3 = 0$.
 
 $T = (3, 0)$.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

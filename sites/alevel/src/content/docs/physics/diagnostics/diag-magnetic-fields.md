@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Magnetic fields are like invisible dancers that exert forces on moving charges, creating elegant patterns.**
@@ -345,8 +344,6 @@ mechanical work done in pulling the loop is entirely converted to thermal energy
 **Forgetting Ohm's law applies only to ohmic conductors:**  = IR$ is valid only when resistance is constant (ohmic conductors at constant temperature). For non-ohmic devices (diodes, thermistors, filament lamps), resistance changes with voltage or temperature, so  = IR$ gives the resistance at that point, not a constant.
 
 **Confusing the conventions for electron flow and conventional current:** Conventional current flows from positive to negative (the direction a positive charge would move). Electron flow is from negative to positive (the actual movement of electrons). Most circuit analysis uses conventional current. Using electron flow when conventional current is expected gives reversed directions.
-
-
 
 ## Cross-References
 

@@ -519,7 +519,6 @@ involved.
 | 9.2 Gyr        | $\sim 5$ K     | Solar system forms                    |
 | 13.8 Gyr       | 2.725 K        | Present day                           |
 
-
 </aside>
 
 ## Intuition
@@ -542,6 +541,7 @@ The critical density $\rho_c = 3H^2/(8\pi G)$ is the density at which the univer
 
 **Mistake 5: Assuming that the宇宙 has no boundary implies it is infinite.**
 A universe with no boundary can be finite or infinite. For example, a closed universe (positive curvature) is finite but has no boundary. Do not assume that a boundaryless universe is infinite.
+
 ## Cross-References
 
 - **[The Standard Model](1_the-standard-model)**: Particle physics determines the conditions during Big Bang nucleosynthesis and the electroweak phase transition.

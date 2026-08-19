@@ -915,6 +915,7 @@ empirical evidence.
 all other factors (savings, investment, education, innovation). However, it is not the ONLY
 determinant, and institutional reform alone cannot compensate for geographic disadvantages or a lack
 of capital.
+
 </details>
 
 ## 11. Extended Worked Examples

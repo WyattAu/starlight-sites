@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Integration and differentiation are inverse operations — the fundamental theorem of calculus connects accumulation with instantaneous change
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for integration.
@@ -270,8 +269,6 @@ evaluation.]
 $$V = \pi\int_0^3 \left(\frac{1}{\sqrt{x+1}}\right)^2 dx = \pi\int_0^3 \frac{1}{x + 1}\,dx$$
 
 $$= \pi\Big[\ln(x + 1)\Big]_0^3 = \pi(\ln 4 - \ln 1) = \pi \ln 4 = 2\pi \ln 2$$
-
-
 
 ## Cross-References
 

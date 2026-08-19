@@ -865,7 +865,7 @@ If you get this wrong, revise: Speciation -- Allopatric Speciation; Reproductive
 - **Temporal isolation:** Different breeding seasons
 - **Mechanical isolation:** Differences in reproductive structures
 
-5. **Complete speciation:** Even if the lava flow cools and becomes passable, accumulated
+1. **Complete speciation:** Even if the lava flow cools and becomes passable, accumulated
    differences prevent successful interbreeding. The two populations are now separate species.
 
 </details>

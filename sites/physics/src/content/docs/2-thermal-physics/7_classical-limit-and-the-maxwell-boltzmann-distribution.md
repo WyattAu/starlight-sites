@@ -166,6 +166,7 @@ $\blacksquare$
 ### 7.9 Limitations of the Classical Limit
 
 The Maxwell-Boltzmann distribution fails when quantum effects become significant:
+
 - **Degenerate Fermi gases** (high density, low temperature): Fermi-Dirac statistics must be used; the Pauli exclusion principle prevents multiple occupancy of quantum states.
 - **Bose-Einstein condensation** occurs when $n\lambda_{\mathrm{th}}^3 \gtrsim 2.612$; the classical approximation breaks down as bosons accumulate in the ground state.
 - **Equipartition failure** at low temperatures: rotational and vibrational degrees of freedom freeze out when $k_B T \ll \hbar\omega$, violating the classical prediction.
@@ -201,7 +202,6 @@ The Maxwell-Boltzmann distribution is what quantum statistics looks like when pa
 - **[Quantum Statistics in Detail](15_quantum-statistics-in-detail.md)**: The Maxwell-Boltzmann distribution is the high-temperature limit of the Fermi-Dirac and Bose-Einstein distributions derived in this chapter.
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: The partition function approach to statistical mechanics reduces to the classical result when the thermal wavelength is small.
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The classical limit simplifies the grand partition function to recover the Maxwell-Boltzmann ideal gas.
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -56,6 +56,7 @@ For every action, there is an equal and opposite reaction.
 **Problem:** A book of mass 2 kg rests on a table. Identify all forces acting on the book and their reactions.
 
 **Solution:**
+
 - Weight: $mg = 2 \times 9.8 = 19.6$ N downward
 - Normal reaction: 19.6 N upward (by table on book)
 - Reaction to weight: 19.6 N upward (by book on Earth)
@@ -147,9 +148,9 @@ $$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
 
 ### Additional Practice Problems
 
-4. A 20 kg block is pushed with 100 N force on a surface with $\mu_k = 0.4$. Find the acceleration. ($g = 9.8 \, \text{m/s}^2$)
-5. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
-6. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
+1. A 20 kg block is pushed with 100 N force on a surface with $\mu_k = 0.4$. Find the acceleration. ($g = 9.8 \, \text{m/s}^2$)
+2. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
+3. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
 
 ## Intuition
 

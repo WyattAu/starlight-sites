@@ -159,8 +159,6 @@ $$p_\phi = \frac{\partial L}{\partial \dot{\phi}} = mr^2\sin^2\theta\,\dot{\phi}
 This is the $z$-component of angular momentum. By Noether's theorem, the full angular momentum
 vector Is conserved for any central potential. $\blacksquare$
 
-
-
 ## Common Mistakes
 
 **Mistake 1: Assuming every symmetry implies a conservation law without checking continuity**

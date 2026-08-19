@@ -23,6 +23,7 @@ categories:
 ## Ecology
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Ecosystems
 
 ### 1.1 Definitions
@@ -195,18 +196,18 @@ Atmosphere, atmospheric $\mathrm{N_2}$ is unreactive and cannot be used directly
 - **Lightning**: high energy converts $\mathrm{N_2}$ to $\mathrm{NO_x}$Which dissolves in rain as
   $\mathrm{NO_3^-}$.
 
-2. **Nitrification**: conversion of $\mathrm{NH_4^+}$ to nitrite ($\mathrm{NO_2^-}$) by
+1. **Nitrification**: conversion of $\mathrm{NH_4^+}$ to nitrite ($\mathrm{NO_2^-}$) by
    _Nitrosomonas_ bacteria, then to nitrate ($\mathrm{NO_3^-}$) by _Nitrobacter_ bacteria. Nitrates
    are the form most readily absorbed by plants.
 
-3. **Assimilation**: plants absorb $\mathrm{NO_3^-}$ and $\mathrm{NH_4^+}$ through their roots and
+2. **Assimilation**: plants absorb $\mathrm{NO_3^-}$ and $\mathrm{NH_4^+}$ through their roots and
    incorporate nitrogen into amino acids, proteins, and nucleic acids. Animals obtain nitrogen by
    eating plants or other animals.
 
-4. **Ammonification**: decomposers break down proteins and urea in dead organisms and waste,
+3. **Ammonification**: decomposers break down proteins and urea in dead organisms and waste,
    releasing $\mathrm{NH_3}$ (which forms $\mathrm{NH_4^+}$ in solution).
 
-5. **Denitrification**: conversion of $\mathrm{NO_3^-}$ back to $\mathrm{N_2}$ and $\mathrm{N_2O}$
+4. **Denitrification**: conversion of $\mathrm{NO_3^-}$ back to $\mathrm{N_2}$ and $\mathrm{N_2O}$
    by denitrifying bacteria (e.g., _Pseudomonas_) in anaerobic conditions (waterlogged soil). This
    returns nitrogen to the atmosphere, completing the cycle.
 
@@ -2026,7 +2027,6 @@ impossible to address with traditional field methods alone.
    'phospholipid bilayer' not 'membrane').
 
 4. Failing to link structure to function when describing biological molecules, cells, or organs.
-
 
 ## Intuition
 

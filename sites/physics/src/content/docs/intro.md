@@ -54,7 +54,7 @@ Physics describes the fundamental laws governing the universe — from the motio
 ## Core Concepts
 
 | Domain | Core Principle | Key Equations | Connection to Other Branches |
-|--------|---------------|---------------|------------------------------|
+| -------- | --------------- | --------------- | ------------------------------ |
 | Classical Mechanics | Force causes acceleration | $\mathbf{F} = m\mathbf{a}$, $L = T - V$ | Foundation for all other domains |
 | Electromagnetism | Changing fields produce each other | $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ | Explains light, chemistry, electronics |
 | Quantum Mechanics | Measurements yield discrete values | $\hat{H}\psi = E\psi$ | Governs atoms, molecules, semiconductors |

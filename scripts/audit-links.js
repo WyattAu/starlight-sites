@@ -175,12 +175,12 @@ function walkContent(dir) {
  */
 function stripSyntax(text) {
   return text
-    .replace(/<[^>]+>/g, '')           // HTML tags
+    .replace(/<[^>]+>/g, '') // HTML tags
     .replace(/!\[[^\]]*\]\([^)]*\)/g, '') // images
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1') // links -> text
-    .replace(/[*_`~]+/g, '')           // bold/italic/code markers
-    .replace(/^#+\s*/, '')             // headings
-    .replace(/^\s*[-*>]\s*/, '')       // list/blockquote markers
+    .replace(/[*_`~]+/g, '') // bold/italic/code markers
+    .replace(/^#+\s*/, '') // headings
+    .replace(/^\s*[-*>]\s*/, '') // list/blockquote markers
     .trim()
 }
 
@@ -199,12 +199,12 @@ function audit() {
   const results = {
     totalFiles: 0,
     totalLinks: 0,
-    orphanPages: [],       // files with zero internal links
-    thinPages: [],         // files with 1-2 internal links
-    crossSiteLinks: [],    // links to other subdomains
-    brokenLinks: [],       // relative/absolute links that don't resolve
-    siteStats: {},         // per-site statistics
-    allPages: [],          // all scanned pages with their link counts
+    orphanPages: [], // files with zero internal links
+    thinPages: [], // files with 1-2 internal links
+    crossSiteLinks: [], // links to other subdomains
+    brokenLinks: [], // relative/absolute links that don't resolve
+    siteStats: {}, // per-site statistics
+    allPages: [], // all scanned pages with their link counts
   }
 
   // Collect all content files
@@ -256,7 +256,9 @@ function audit() {
           if (parts.length >= 3) {
             targetSite = parts[0]
           }
-        } catch { /* ignore */ }
+        } catch {
+          /* ignore */
+        }
 
         results.crossSiteLinks.push({
           from: relPath,
@@ -281,7 +283,10 @@ function audit() {
         results.siteStats[siteId].broken++
       } else {
         // Track what this page links to
-        const targetRel = path.relative(path.join(SITES_DIR, siteId, 'src', 'content', 'docs'), targetPath)
+        const targetRel = path.relative(
+          path.join(SITES_DIR, siteId, 'src', 'content', 'docs'),
+          targetPath,
+        )
         pageCount.internalLinks.push(targetRel)
       }
     }
@@ -337,7 +342,9 @@ function generateReport(results) {
   lines.push(`|------|-------|-------|---------|------|--------|`)
   const sortedSites = Object.entries(results.siteStats).sort((a, b) => b[1].files - a[1].files)
   for (const [site, stats] of sortedSites) {
-    lines.push(`| ${site} | ${stats.files} | ${stats.links} | ${stats.orphans} | ${stats.thin} | ${stats.broken} |`)
+    lines.push(
+      `| ${site} | ${stats.files} | ${stats.links} | ${stats.orphans} | ${stats.thin} | ${stats.broken} |`,
+    )
   }
   lines.push('')
 
@@ -351,7 +358,9 @@ function generateReport(results) {
     lines.push('')
     lines.push(`| Site | Page | Title |`)
     lines.push(`|------|------|-------|`)
-    const sortedOrphans = results.orphanPages.sort((a, b) => a.site.localeCompare(b.site) || a.file.localeCompare(b.file))
+    const sortedOrphans = results.orphanPages.sort(
+      (a, b) => a.site.localeCompare(b.site) || a.file.localeCompare(b.file),
+    )
     for (const page of sortedOrphans) {
       const shortPath = page.file.replace(/sites\//, '')
       lines.push(`| ${page.site} | \`${shortPath}\` | ${page.title} |`)
@@ -365,11 +374,15 @@ function generateReport(results) {
   if (results.thinPages.length === 0) {
     lines.push('No thin-linked pages found.')
   } else {
-    lines.push('These pages have 1-2 outgoing internal links. Consider adding more cross-references.')
+    lines.push(
+      'These pages have 1-2 outgoing internal links. Consider adding more cross-references.',
+    )
     lines.push('')
     lines.push(`| Site | Page | Links | Title |`)
     lines.push(`|------|------|-------|-------|`)
-    const sortedThin = results.thinPages.sort((a, b) => a.site.localeCompare(b.site) || a.links - b.links)
+    const sortedThin = results.thinPages.sort(
+      (a, b) => a.site.localeCompare(b.site) || a.links - b.links,
+    )
     for (const page of sortedThin) {
       const shortPath = page.file.replace(/sites\//, '')
       lines.push(`| ${page.site} | \`${shortPath}\` | ${page.links} | ${page.title} |`)
@@ -395,8 +408,7 @@ function generateReport(results) {
     lines.push('')
     lines.push(`| From Site | To Site | Link Count |`)
     lines.push(`|-----------|---------|------------|`)
-    const sortedAdj = Object.entries(adjacency)
-      .sort((a, b) => a[0].localeCompare(b[0]))
+    const sortedAdj = Object.entries(adjacency).sort((a, b) => a[0].localeCompare(b[0]))
     for (const [from, targets] of sortedAdj) {
       const sortedTargets = Object.entries(targets).sort((a, b) => a[0].localeCompare(b[0]))
       for (const [to, count] of sortedTargets) {
@@ -412,7 +424,7 @@ function generateReport(results) {
     const sortedLinks = results.crossSiteLinks.sort((a, b) => a.from.localeCompare(b.from))
     for (const link of sortedLinks.slice(0, 100)) {
       const shortFrom = link.from.replace(/sites\//, '')
-      const shortTo = link.to.length > 60 ? link.to.slice(0, 57) + '...' : link.to
+      const shortTo = link.to.length > 60 ? `${link.to.slice(0, 57)}...` : link.to
       lines.push(`| \`${shortFrom}:${link.line}\` | ${shortTo} | ${link.line} |`)
     }
     if (results.crossSiteLinks.length > 100) {
@@ -432,10 +444,14 @@ function generateReport(results) {
     lines.push('')
     lines.push(`| Site | Page | Line | Broken Link | Resolved Path |`)
     lines.push(`|------|------|------|-------------|----------------|`)
-    const sortedBroken = results.brokenLinks.sort((a, b) => a.site.localeCompare(b.site) || a.file.localeCompare(b.file))
+    const sortedBroken = results.brokenLinks.sort(
+      (a, b) => a.site.localeCompare(b.site) || a.file.localeCompare(b.file),
+    )
     for (const link of sortedBroken.slice(0, 100)) {
       const shortFrom = link.file.replace(/sites\//, '')
-      lines.push(`| ${link.site} | \`${shortFrom}:${link.line}\` | ${link.line} | \`${link.link}\` | \`${link.resolved}\` |`)
+      lines.push(
+        `| ${link.site} | \`${shortFrom}:${link.line}\` | ${link.line} | \`${link.link}\` | \`${link.resolved}\` |`,
+      )
     }
     if (results.brokenLinks.length > 100) {
       lines.push('')

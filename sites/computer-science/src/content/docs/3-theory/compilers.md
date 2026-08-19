@@ -709,8 +709,8 @@ with FIRST(E'), entries for FOLLOW symbols map to the epsilon production.
 
 ### Example 2: Three-Address Code Generation
 
-**Problem:** Generate three-address code for: x = (a + b) _ (c - d). **Solution:** t1 = a + b; t2 =
-c - d; t3 = t1 _ t2; x = t3. The three-address code uses temporary variables t1, t2, t3. Each
+**Problem:** Generate three-address code for: x = (a + b) _(c - d). **Solution:** t1 = a + b; t2 =
+c - d; t3 = t1_ t2; x = t3. The three-address code uses temporary variables t1, t2, t3. Each
 instruction has at most one operator on the right side. A basic block contains these four
 instructions in sequence.
 

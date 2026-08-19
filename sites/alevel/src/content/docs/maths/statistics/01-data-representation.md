@@ -791,7 +791,6 @@ Quartiles, which are less affected by that extreme value.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -831,4 +830,3 @@ building a personal test matrix.
 - [Correlation and Regression](../statistics/02-correlation-and-regression.md) — The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
 - [Probability](../statistics/03-probability.md) — Probability distributions provide the theoretical basis for understanding data variation.
 - [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Summary statistics from this topic feed directly into significance tests and confidence intervals.
-

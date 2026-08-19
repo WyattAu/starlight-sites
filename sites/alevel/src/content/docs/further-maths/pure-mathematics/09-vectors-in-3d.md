@@ -207,7 +207,7 @@ $\mathbf{r}_2 = \mathbf{a}_2 + \mu\mathbf{d}_2$:
 - If consistent: the lines **intersect**.
 - If inconsistent: the lines are **skew** (not parallel, not intersecting).
 
-4. If $\mathbf{d}_1 \times \mathbf{d}_2 = \mathbf{0}$: the lines are **parallel**.
+1. If $\mathbf{d}_1 \times \mathbf{d}_2 = \mathbf{0}$: the lines are **parallel**.
 
 **Example.** Find the intersection of
 $\mathbf{r}_1 = \begin{pmatrix}1\\2\\0\end{pmatrix} + \lambda\begin{pmatrix}1\\-1\\2\end{pmatrix}$

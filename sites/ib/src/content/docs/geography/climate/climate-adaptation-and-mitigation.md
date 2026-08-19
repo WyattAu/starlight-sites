@@ -25,7 +25,6 @@ description: "refers to actions that reduce the sources or enhance the sinks of 
 
 **The key insight:** Climate action requires both mitigation (reducing emissions) and adaptation (preparing for impacts) — neither alone is sufficient
 
-
 ## Distinguishing Adaptation and Mitigation
 
 **Mitigation** refers to actions that reduce the sources or enhance the sinks of greenhouse gases,

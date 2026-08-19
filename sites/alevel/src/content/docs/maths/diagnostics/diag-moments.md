@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -550,8 +549,6 @@ inconsistent.
 **Note:** This question is designed to test whether the student recognises inconsistent data, a
 critical diagnostic skill. The student should state that no valid solution exists with the given
 numbers.
-
-
 
 ## Cross-References
 

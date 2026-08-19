@@ -886,4 +886,3 @@ Protocols are Python's structural subtyping system: if an object has the right m
 - [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)
 - [Descriptors](../../../../../languages/src/content/docs/python/04-object-oriented/03-descriptors)
 - [Advanced Typing](../../../../../languages/src/content/docs/python/08-advanced-topics/01-advanced-typing)
-

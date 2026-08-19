@@ -317,7 +317,7 @@ Perpendicular slope: $m_\perp = -2/3$.
 
 $$y - 4 = -\frac{2}{3}(x - 4) \implies 3(y - 4) = -2(x - 4) \implies 3y - 12 = -2x + 8 \implies 2x + 3y - 20 = 0$$
 
-2. **Question:** Find the equation of the circle passing through $(1, 2)$, $(3, 4)$And $(5, 2)$.
+1. **Question:** Find the equation of the circle passing through $(1, 2)$, $(3, 4)$And $(5, 2)$.
 
 General form: $x^2 + y^2 + Dx + Ey + F = 0$.
 
@@ -339,7 +339,7 @@ Equation: $x^2 + y^2 - 6x - 4y + 9 = 0$I.e., $(x - 3)^2 + (y - 2)^2 = 4$.
 
 Centre: $(3, 2)$Radius: $2$.
 
-3. **Question:** Show that the line $y = x + 1$ is a tangent to the circle $x^2 + y^2 = 2$ and find
+1. **Question:** Show that the line $y = x + 1$ is a tangent to the circle $x^2 + y^2 = 2$ and find
    the point of contact.
 
 Substitute $y = x + 1$:
@@ -356,13 +356,13 @@ For $x^2 + y^2 = 1/2$:
 $x^2 + (x+1)^2 = 1/2 \implies 2x^2 + 2x + 1/2 = 0 \implies \Delta = 4 - 4 = 0$. Tangent. Point of
 Contact: $x = -1/2$, $y = 1/2$. Point: $(-1/2, 1/2)$.
 
-4. **Question:** Find the distance between the parallel lines $3x + 4y - 5 = 0$ and
+1. **Question:** Find the distance between the parallel lines $3x + 4y - 5 = 0$ and
    $3x + 4y + 11 = 0$.
 
 Distance
 $= \dfrac{|C_2 - C_1|}{\sqrt{A^2 + B^2}} = \dfrac{|11 - (-5)|}{\sqrt{9 + 16}} = \dfrac{16}{5} = 3.2$.
 
-5. **Question:** The points $A(-1, 3)$, $B(2, k)$And $C(5, -1)$ are collinear. Find $k$.
+1. **Question:** The points $A(-1, 3)$, $B(2, k)$And $C(5, -1)$ are collinear. Find $k$.
 
 For collinearity, the slope of $AB$ equals the slope of $BC$:
 
@@ -370,7 +370,7 @@ $$\frac{k - 3}{2 - (-1)} = \frac{-1 - k}{5 - 2} \implies \frac{k - 3}{3} = \frac
 
 $$k - 3 = -1 - k \implies 2k = 2 \implies k = 1$$
 
-6. **Question:** Find the area of the quadrilateral with vertices $(0, 0)$$(4, 0)$$(5, 3)$And
+1. **Question:** Find the area of the quadrilateral with vertices $(0, 0)$$(4, 0)$$(5, 3)$And
    $(1, 4)$.
 
 Using the shoelace formula with vertices in order:
@@ -379,14 +379,14 @@ $\mathrm{Area} = \frac{1}{2}|(0 \cdot 0 - 4 \cdot 0) + (4 \cdot 3 - 5 \cdot 0) +
 
 $= \frac{1}{2}|0 + 12 + 17 + 0| = \frac{1}{2}(29) = 14.5$
 
-7. **Question:** A circle has centre $(2, -1)$ and passes through the point $(5, 3)$. Find its
+1. **Question:** A circle has centre $(2, -1)$ and passes through the point $(5, 3)$. Find its
    equation.
 
 $r = \sqrt{(5 - 2)^2 + (3 - (-1))^2} = \sqrt{9 + 16} = 5$.
 
 Equation: $(x - 2)^2 + (y + 1)^2 = 25$.
 
-8. **Question:** Find the angle between the lines $y = 2x + 1$ and $y = -3x + 4$.
+1. **Question:** Find the angle between the lines $y = 2x + 1$ and $y = -3x + 4$.
 
 $\tan\theta = \left|\dfrac{m_2 - m_1}{1 + m_1 m_2}\right| = \left|\dfrac{-3 - 2}{1 + (-6)}\right| = \left|\dfrac{-5}{-5}\right| = 1$
 

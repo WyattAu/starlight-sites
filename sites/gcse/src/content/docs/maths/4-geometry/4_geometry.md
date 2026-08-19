@@ -31,6 +31,7 @@ Geometry is the mathematics of **shape, size, and space**. The key insight is th
 ## Geometry
 
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR Paper 2 & 3 | WJEC Unit 2
+>
 ## 1. Angle Properties
 
 ### 1.1 Basic Angle Facts
@@ -714,22 +715,22 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
 
 ### Extended Practice (Higher Tier)
 
-24. A cylinder and a cone have the same base radius and the same height. Prove that the volume of
+1. A cylinder and a cone have the same base radius and the same height. Prove that the volume of
     the cylinder is three times the volume of the cone.
 
-25. Triangle $\triangle ABC$ has vertices at $(2, 3)$$(8, 7)$And $(6, 1)$. Find: (a) the length of
+2. Triangle $\triangle ABC$ has vertices at $(2, 3)$$(8, 7)$And $(6, 1)$. Find: (a) the length of
     side $AB$(b) the area of the triangle, (c) the equation of the line through $C$ perpendicular to
     $AB$.
 
-26. A sector of a circle has radius 12 cm and angle $75^\circ$. Find its perimeter and area.
+3. A sector of a circle has radius 12 cm and angle $75^\circ$. Find its perimeter and area.
 
-27. Prove that if two chords of a circle are equal in length, they are equidistant from the centre.
+4. Prove that if two chords of a circle are equal in length, they are equidistant from the centre.
 
-28. The points $A(1, 2)$$B(5, 6)$And $C(3, k)$ are collinear. Find $k$.
+5. The points $A(1, 2)$$B(5, 6)$And $C(3, k)$ are collinear. Find $k$.
 
-29. A sphere has surface area $144\pi$ cm$^2$. Find its volume.
+6. A sphere has surface area $144\pi$ cm$^2$. Find its volume.
 
-30. In $\triangle ABC$$AB = 8$ cm, $BC = 6$ cm, and $\angle ABC = 120^\circ$. Find the area of the
+7. In $\triangle ABC$$AB = 8$ cm, $BC = 6$ cm, and $\angle ABC = 120^\circ$. Find the area of the
     triangle.
 
 ## Worked Examples

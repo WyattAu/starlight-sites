@@ -386,4 +386,3 @@ $\blacksquare$
 - [Probability](03-probability.md) — The probability axioms and conditional probability theory underpin all distributions covered here.
 - [Hypothesis Testing](05-hypothesis-testing.md) — Binomial and normal distributions are the test statistics used in hypothesis testing.
 - [Data Representation](01-data-representation.md) — Frequency tables and grouped data are approximated by these theoretical distributions.
-

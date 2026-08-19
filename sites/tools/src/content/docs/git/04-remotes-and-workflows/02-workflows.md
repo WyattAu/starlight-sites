@@ -89,7 +89,6 @@ gitGraph
 <aside class="starlight-aside starlight-aside--note">
 Well with proper tooling (Bazel for builds, automated canary deployments).
 
-
 ## GitHub Flow
 
 ### Concept
@@ -246,7 +245,6 @@ $ git branch -d hotfix/fix-crash
 Development is simpler and more effective. Only adopt Git Flow if you genuinely need release
 Branches and hotfix workflows.
 
-
 ## Forking Workflow
 
 ### Concept
@@ -369,7 +367,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---

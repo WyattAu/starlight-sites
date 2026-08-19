@@ -332,7 +332,6 @@ ORDER BY shortest_path;
 (`hops &lt; N`) and a visited set to prevent infinite loops. For very large graphs, consider
 Dedicated graph databases like Neo4j.
 
-
 ## LATERAL Joins
 
 `LATERAL` allows a subquery in a `FROM` or `JOIN` clause to reference columns from tables that
@@ -398,7 +397,6 @@ CROSS JOIN LATERAL jsonb_each_text(e.attributes) AS kv;
 <aside class="starlight-aside starlight-aside--note">
 `FROM generate_series(1, 10)`). You only need the explicit keyword when the subquery references
 Outer columns.
-
 
 ## Full-Text Search
 
@@ -537,7 +535,6 @@ REFRESH MATERIALIZED VIEW CONCURRENTLY mv_daily_sales_summary;
 <aside class="starlight-aside starlight-aside--caution">
 `UNIQUE` index. Without a unique index, only non-concurrent refresh is available, which acquires an
 `ACCESS EXCLUSIVE` lock for the duration of the refresh.
-
 
 ### Refresh Strategies
 
@@ -961,7 +958,6 @@ SELECT * FROM large_table GROUP BY category;
 Appropriate indexes, or rewrite the query. Hints become stale when data distributions change and can
 Degrade performance over time.
 
-
 ## Declarative Partitioning
 
 ### Range Partitioning
@@ -1091,7 +1087,6 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 <aside class="starlight-aside starlight-aside--note">
 The SQL standard but not yet implemented. Other databases like MySQL and SQL Server support both.
 
-
 ## Domains and Custom Types
 
 ### Domains
@@ -1144,7 +1139,6 @@ SELECT * FROM orders WHERE status >= 'shipped';
 `ALTER TYPE ... ADD VALUE`Which cannot run inside a transaction in PostgreSQL 12+. Renaming or
 Removing values is not straightforward. For rapidly changing sets of states, use a lookup table with
 A foreign key constraint instead.
-
 
 ### Composite Types
 

@@ -25,6 +25,7 @@ HSC english study notes - Reading
 **Annotation:** Mark key ideas, vocabulary, and literary devices while reading.
 
 **SQ3R Method:**
+
 - Survey: Skim the text for structure and main ideas
 - Question: Form questions about the content
 - Read: Read actively to answer your questions
@@ -182,10 +183,10 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 
 ## Additional Exam Tips
 
-7. When analysing poetry, consider the interplay between form and content
-8. In essays, use topic sentences that evidently link to your thesis
-9. For creative responses, engage with the prompt from multiple angles
-10. Practice writing under timed conditions to build speed and fluency
+1. When analysing poetry, consider the interplay between form and content
+2. In essays, use topic sentences that evidently link to your thesis
+3. For creative responses, engage with the prompt from multiple angles
+4. Practice writing under timed conditions to build speed and fluency
 
 ## Cross-References
 

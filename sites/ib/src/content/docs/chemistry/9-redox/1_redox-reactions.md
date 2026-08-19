@@ -26,7 +26,6 @@ description: "1. The oxidation state of an element in its standard state is (e.g
 
 **The key insight:** Assigning oxidation states tracks electron transfer, revealing the oxidizing and reducing agents in any reaction
 
-
 ## Oxidation States
 
 ### Rules for Assigning Oxidation States
@@ -101,9 +100,9 @@ This is a mixed oxidation state compound (Fe$_2$O$_3$ $\cdot$ FeO, with Fe(III) 
 
 Follow steps 1--5 for acidic medium, then:
 
-6. Add the same number of OH$^-$ to both sides as the number of H$^+$ present.
-7. On the side with both H$^+$ and OH$^-$Combine them to form H$_2$O.
-8. Cancel any H$_2$O that appears on both sides.
+1. Add the same number of OH$^-$ to both sides as the number of H$^+$ present.
+2. On the side with both H$^+$ and OH$^-$Combine them to form H$_2$O.
+3. Cancel any H$_2$O that appears on both sides.
 
 <details>
 <summary>Worked Example 2: Balancing in Acidic Medium</summary>

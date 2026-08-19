@@ -1,0 +1,99 @@
+name: Search SLO Alert
+
+on:
+  schedule:
+    # Every 30 minutes. /api/health exposes the search-quality metrics
+    # (zero-result rate, latency) that this workflow enforces.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: slo-alert
+  cancel-in-progress: false
+
+env:
+  # SLO targets (mirrored from worker /api/health slo block and
+  # CODE_QUALITY_MATRIX.md G5). Alert thresholds are deliberately looser
+  # than the targets to avoid paging on brief boundary jitter.
+  HEALTH_URL: https://search.wyattau.com/api/health
+  MAX_ZERO_RESULT_RATE: "10" # percent
+  MAX_AVG_LATENCY_MS: "500"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe /api/health and evaluate SLOs
+        id: slo
+        run: |
+          set -u
+          curl -s --max-time 20 "$HEALTH_URL" -o /tmp/health.json
+          EVAL=$(node -e '
+            const fs = require("fs")
+            const h = JSON.parse(fs.readFileSync("/tmp/health.json", "utf8"))
+            const rate = parseFloat(h.search.zeroResultRate)
+            const latency = h.search.avgLatencyMs
+            const violations = []
+            if (!Number.isNaN(rate) && rate > Number(process.env.MAX_ZERO_RESULT_RATE))
+              violations.push(`zero-result rate ${rate}% > ${process.env.MAX_ZERO_RESULT_RATE}%`)
+            if (latency !== null && latency > Number(process.env.MAX_AVG_LATENCY_MS))
+              violations.push(`avg latency ${latency}ms > ${process.env.MAX_AVG_LATENCY_MS}ms`)
+            console.log(JSON.stringify({ violations, rate, latency, searches: h.search.totalSearches }))
+          ')
+          echo "eval=$EVAL" >> "$GITHUB_OUTPUT"
+          echo "$EVAL"
+          if [ "$(node -e "console.log(JSON.parse(process.argv[1]).violations.length)" "$EVAL")" -gt 0 ]; then
+            echo "violations=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "violations=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create issue on SLO violation
+        if: steps.slo.outputs.violations == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const evalData = JSON.parse(${{ toJSON(steps.slo.outputs.eval) }});
+            const title = `SLO Alert: Search quality degraded (${new Date().toISOString().split('T')[0]})`;
+            const body = [
+              '## Search SLO Violation',
+              '',
+              ...evalData.violations.map(v => `- ${v}`),
+              '',
+              `Metrics at probe time: zero-result rate **${evalData.rate}%**, avg latency **${evalData.latency} ms**, total searches **${evalData.searches}**.`,
+              '',
+              `Targets (CODE_QUALITY_MATRIX.md): zero-result rate < 5%, avg latency < 200 ms.`,
+              `Alert thresholds: < ${{ env.MAX_ZERO_RESULT_RATE }}% / < ${{ env.MAX_AVG_LATENCY_MS }} ms.`,
+              '',
+              `Dashboard: https://search.wyattau.com/dashboard`,
+              `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ].join('\n');
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'alert,slo'
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['alert', 'slo']
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues.data[0].number,
+                body
+              });
+            }

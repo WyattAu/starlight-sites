@@ -92,7 +92,6 @@ class DynamicArray:
 More conservative than the textbook factor of 2, trading slightly more frequent reallocations for
 Lower peak memory usage. C++ `std::vector` uses factor 2.
 
-
 ## String Representation
 
 ### ASCII and Unicode
@@ -273,7 +272,6 @@ def longest_substring_without_repeats(s):
 <aside class="starlight-aside starlight-aside--note">
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
 And removed from the window at most once.
-
 
 ## Prefix Sums
 
@@ -908,7 +906,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

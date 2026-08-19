@@ -184,7 +184,6 @@ Future<void> parallelNamed() async {
 <aside class="starlight-aside starlight-aside--tip">
 For dependent operations where the result of one is needed by the next.
 
-
 ## Streams
 
 A `Stream<T>` is a sequence of asynchronous events. While a `Future<T>` delivers a single value, a
@@ -350,7 +349,6 @@ final result = await compute(expensiveFunction, inputData);
 <aside class="starlight-aside starlight-aside--caution">
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership
 Instead of copying.
-
 
 ## Event Loop Priority
 

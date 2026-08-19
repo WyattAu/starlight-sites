@@ -25,6 +25,7 @@ HSC mathematics study notes - Calculus
 **First Principles:** $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
 
 **Common Rules:**
+
 - Power rule: $\frac{d}{dx}[x^n] = nx^{n-1}$
 - Chain rule: $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
 - Product rule: $\frac{d}{dx}[fg] = f'g + fg'$
@@ -42,6 +43,7 @@ $$\int e^x \, dx = e^x + C$$
 ### Applications
 
 **Stationary points:** Set $f'(x) = 0$ and use the second derivative test:
+
 - $f''(x) > 0$: local minimum
 - $f''(x) < 0$: local maximum
 
@@ -165,10 +167,10 @@ Calculus is the mathematical study of continuous change. Differentiation and int
 
 ## Additional Exam Tips
 
-5. For optimisation problems, always check the second derivative or boundary values
-6. The chain rule is the most commonly tested rule — practise identifying inner and outer functions
-7. When finding areas between curves, always sketch the graph first
-8. Remember: $\int_a^b f(x) \, dx = F(b) - F(a)$, not $F(a) - F(b)$
+1. For optimisation problems, always check the second derivative or boundary values
+2. The chain rule is the most commonly tested rule — practise identifying inner and outer functions
+3. When finding areas between curves, always sketch the graph first
+4. Remember: $\int_a^b f(x) \, dx = F(b) - F(a)$, not $F(a) - F(b)$
 
 ## More Worked Examples
 
@@ -225,6 +227,7 @@ $$3t^2 - 12t + 9 = 0 \implies t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0$$
 $$t = 1 \text{ or } t = 3$$
 
 Step 2: Check the sign of $v(t)$ in each interval:
+
 - $[0, 1]$: $v(0.5) = 3(0.25) - 12(0.5) + 9 = 0.75 - 6 + 9 = 3.75 > 0$ (moving forward)
 - $[1, 3]$: $v(2) = 3(4) - 12(2) + 9 = 12 - 24 + 9 = -3 < 0$ (moving backward)
 - $[3, 4]$: $v(3.5) = 3(12.25) - 12(3.5) + 9 = 36.75 - 42 + 9 = 3.75 > 0$ (moving forward)

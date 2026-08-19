@@ -405,13 +405,13 @@ $$2\mathrm{SO}_{2(g)} + \mathrm{O}_{2(g)} \rightleftharpoons 2\mathrm{SO}_{3(g)}
 
 $$\mathrm{S}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{SO}_{2(g)}$$
 
-2. **Purification:** $\mathrm{SO}_2$ is purified to remove impurities that could poison the
+1. **Purification:** $\mathrm{SO}_2$ is purified to remove impurities that could poison the
    catalyst.
 
-3. **Catalytic oxidation:** $\mathrm{SO}_2$ is oxidised to $\mathrm{SO}_3$ over a
+2. **Catalytic oxidation:** $\mathrm{SO}_2$ is oxidised to $\mathrm{SO}_3$ over a
    $\mathrm{V}_2\mathrm{O}_5$ catalyst.
 
-4. **Absorption:** $\mathrm{SO}_3$ is dissolved in concentrated $\mathrm{H}_2\mathrm{SO}_4$ to form
+3. **Absorption:** $\mathrm{SO}_3$ is dissolved in concentrated $\mathrm{H}_2\mathrm{SO}_4$ to form
    oleum ($\mathrm{H}_2\mathrm{S}_2\mathrm{O}_7$), which is then diluted to give
    $\mathrm{H}_2\mathrm{SO}_4$.
 

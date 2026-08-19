@@ -179,19 +179,19 @@ Sum all 10 topic scores (max 240):
 
 ## Study Strategy
 
-### For students scoring Band A or B on a topic:
+### For students scoring Band A or B on a topic
 
 - Attempt the integration tests in other topics that reference this topic
 - Try to create your own multi-topic problems
 - Time yourself under exam conditions (approximately 12 minutes per question for DSE)
 
-### For students scoring Band C or D on a topic:
+### For students scoring Band C or D on a topic
 
 - Return to the main topic notes and review systematically
 - Work through textbook examples before retrying diagnostic questions
 - Focus on understanding WHY each step works, not just memorising procedures
 
-### For students scoring Band U on a topic:
+### For students scoring Band U on a topic
 
 - Start with the prerequisite topics in the chain above
 - Build up from basic definitions and concepts
@@ -207,8 +207,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

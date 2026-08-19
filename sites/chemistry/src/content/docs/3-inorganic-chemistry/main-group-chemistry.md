@@ -24,6 +24,7 @@ categories:
 ### 1.1 Properties and Trends
 
 **Theorem 1 (Group 1 Trends):**
+
 - Melting and boiling points decrease down the group (weaker metallic bonding).
 - Atomic and ionic radii increase.
 - Ionization energy decreases: $\text{Li} > \text{Na} > \text{K} > \text{Rb} > \text{Cs}$.
@@ -33,6 +34,7 @@ categories:
 ### 1.2 Key Compounds
 
 **Oxides:**
+
 - $\text{Li}_2\text{O}$ (normal oxide), $\text{Na}_2\text{O}_2$ (peroxide), $\text{KO}_2$ (superoxide).
 - Stability of peroxide and superoxide increases down the group (larger cation stabilizes larger
   anion by lattice energy).
@@ -48,6 +50,7 @@ $$\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2$
 ### 1.3 Lithium"s Anomalous Behavior
 
 Lithium differs from other Group 1 elements due to its small size and high charge density:
+
 - $\text{Li}_2\text{O}$ (not $\text{Li}_2\text{O}_2$).
 - $\text{Li}_3\text{N}$ forms readily; other alkali metals do not.
 - $\text{LiCl}$ is soluble in organic solvents (covalent character).
@@ -58,6 +61,7 @@ Lithium differs from other Group 1 elements due to its small size and high charg
 ### 2.1 Properties and Trends
 
 **Theorem 2 (Group 2 Trends):**
+
 - Harder, higher melting points than Group 1 (divalent metallic bonding).
 - Be is amphoteric; Mg and heavier are basic.
 - $\text{IE}_1$ and $\text{IE}_2$ both decrease down the group, but $\text{IE}_2 \gg \text{IE}_1$.
@@ -124,11 +128,13 @@ $$\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}$$
 ### 4.1 Carbon
 
 **Allotropes:**
+
 - **Diamond:** $sp^3$, tetrahedral network, hardest known material.
 - **Graphite:** $sp^2$, layered sheets, excellent lubricant and conductor (within sheets).
 - **Fullerenes:** C$_{60}$ (buckminsterfullerene), $sp^2$ with pentagonal rings.
 
 **Oxides:**
+
 - $\text{CO}_2$: Linear, nonpolar, greenhouses gas.
 - $\text{CO}$: Toxic, strong ligand ($\sigma$ donor + $\pi$ acceptor).
 
@@ -143,6 +149,7 @@ $$\text{Tl}^+ \text{ is more stable than } \text{Tl}^{3+}$$
 ### 4.3 Tin and Lead
 
 **Theorem 4:** Inert pair effect pronounced:
+
 - $\text{Sn}^{2+}$ (reducing agent, stannous) and $\text{Sn}^{4+}$ (stannic).
 - $\text{Pb}^{2+}$ (more stable) and $\text{Pb}^{4+}$ (oxidizing agent).
 
@@ -161,10 +168,12 @@ Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 **Oxides:** N$_2$O (laughing gas), NO, N$_2$O$_3$, NO$_2$/N$_2$O$_4$, N$_2$O$_5$.
 
 **Oxides of nitrogen:**
+
 - NO: Radical (odd electron); biological signaling molecule.
 - NO$_2$: Brown gas, odd electron.
 
 **Acids:**
+
 - $\text{HNO}_3$: Strong oxidizing acid; nitrates are soluble.
 - $\text{HNO}_2$: Weak acid, unstable; nitrites.
 
@@ -175,6 +184,7 @@ Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 **Oxides:** $\text{P}_4\text{O}_{10}$ (phosphorus pentoxide) is a powerful dehydrating agent.
 
 **Oxoacids:**
+
 - $\text{H}_3\text{PO}_4$ (phosphoric): Triprotic, pK$_a$ values: 2.15, 7.20, 12.35.
 - $\text{H}_3\text{PO}_3$ (phosphorous): Diprotic (one H directly bonded to P).
 - $\text{H}_3\text{PO}_2$ (hypophosphorous): Monoprotic.
@@ -190,6 +200,7 @@ Haber-Bosch process: High $T$, high $P$, Fe catalyst.
 ### 6.1 Oxygen
 
 **Theorem 6:** Most electronegative element after fluorine. Key compounds:
+
 - $\text{H}_2\text{O}$: Anomalous (high boiling point, hydrogen bonding).
 - $\text{H}_2\text{O}_2$: Peroxide; oxidizing and reducing agent.
 - Ozone ($\text{O}_3$): Bent, resonance-stabilized, strong oxidant.
@@ -207,6 +218,7 @@ $$\text{O}_3 \xrightarrow{h\nu} \text{O} + \text{O}_2$$
 **Oxides:** $\text{SO}_2$ (bent, 119°), $\text{SO}_3$ (trigonal planar).
 
 **Oxoacids:**
+
 - $\text{H}_2\text{SO}_4$: Strong acid, strong dehydrating agent.
 - $\text{H}_2\text{SO}_3$: Weak acid, sulfurous acid.
 
@@ -223,6 +235,7 @@ $$\text{O}_3 \xrightarrow{h\nu} \text{O} + \text{O}_2$$
 ### 7.1 Properties and Trends
 
 **Theorem 8 (Halogens Trends):**
+
 - Diatomic molecules (F$_2$, Cl$_2$, Br$_2$, I$_2$).
 - State: gas (F$_2$, Cl$_2$) → liquid (Br$_2$) → solid (I$_2$).
 - Electronegativity: F (3.98) > Cl (3.16) > Br (2.96) > I (2.66).
@@ -247,6 +260,7 @@ The central atom is always the less electronegative halogen with the higher oxid
 ### 7.4 Halogen Oxides and Oxoacids
 
 **Oxoacids of chlorine:**
+
 - $\text{HOCl}$ (hypochlorous): Weak acid, oxidizing agent (bleach).
 - $\text{HClO}_2$ (chlorous): Weak acid.
 - $\text{HClO}_3$ (chloric): Strong acid, strong oxidizer.
@@ -290,15 +304,15 @@ $\text{PF}_5$, $\text{SF}_6$, $\text{ClF}_3$, $\text{XeF}_4$.
 
 ### 9.2 VSEPR for Hypervalent Compounds
 
-| Steric Number | Geometry            | Example    |
+| Steric Number | Geometry | Example |
 | ------------- | ------------------- | ---------- |
-| 5             | Trigonal bipyramidal| $\text{PF}_5$ |
-| 5 (1 lone pair) | Seesaw            | $\text{SF}_4$ |
-| 5 (2 lone pairs) | T-shaped          | $\text{ClF}_3$ |
-| 5 (3 lone pairs) | Linear           | $\text{XeF}_2$ |
-| 6             | Octahedral          | $\text{SF}_6$ |
-| 6 (1 lone pair) | Square pyramidal  | $\text{IF}_5$ |
-| 6 (2 lone pairs) | Square planar    | $\text{XeF}_4$ |
+| 5 | Trigonal bipyramidal | $\text{PF}_5$ |
+| 5 (1 lone pair) | Seesaw | $\text{SF}_4$ |
+| 5 (2 lone pairs) | T-shaped | $\text{ClF}_3$ |
+| 5 (3 lone pairs) | Linear | $\text{XeF}_2$ |
+| 6 | Octahedral | $\text{SF}_6$ |
+| 6 (1 lone pair) | Square pyramidal | $\text{IF}_5$ |
+| 6 (2 lone pairs) | Square planar | $\text{XeF}_4$ |
 
 ### 9.3 3-Center-4-Electron Bonding Model
 
@@ -371,10 +385,12 @@ S (S$_8$/polymeric), Se (gray/red/black).
 ## Worked Examples
 
 ### Example 1: Predicting Acid-Base Behaviour of Oxides
+
 **Problem:** Classify the following oxides as acidic, basic, or amphoteric: Na2O, Al2O3, P4O10, SO3, MgO.
 **Solution:** Na2O: basic (Group 1 metal oxide, forms NaOH in water). Al2O3: amphoteric (Group 13, reacts with both acids and bases). P4O10: acidic (non-metal oxide of a high-oxidation-state element, forms H3PO4). SO3: acidic (non-metal oxide, forms H2SO4). MgO: basic (Group 2 metal oxide, forms Mg(OH)2). The trend across a period is from basic (left) to acidic (right).
 
 ### Example 2: Silicon vs Carbon Chemistry
+
 **Problem:** Explain why silicon does not form stable double bonds with oxygen (analogous to carbon dioxide), and why SiO2 forms a giant covalent lattice rather than discrete molecules.
 **Solution:** The Si=O pi bond is weaker than the C=O pi bond because silicon's 3p orbitals have poor overlap with oxygen's 2p orbitals (size mismatch and reduced p-p overlap). Instead, Si forms four single Si-O bonds, each of which is strong (partial d-p pi bonding provides additional stabilisation). This leads to a 3D network of SiO4 tetrahedra (quartz) rather than discrete SiO2 molecules. This is why silicon carbonyl analogues do not exist and why silica has a very high melting point.
 

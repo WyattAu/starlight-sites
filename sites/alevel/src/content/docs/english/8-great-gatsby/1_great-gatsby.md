@@ -20,7 +20,6 @@ description: "A-Level English revision notes on F. Scott Fitzgerald's The Great 
 }
 </script>
 
-
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**
@@ -88,7 +87,7 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 ## Key Quotations
 
 | Quotation | Significance |
-|-----------|-------------|
+| ----------- | ------------- |
 | "So we beat on, boats against the current, borne back ceaselessly into the past" | Final line: universalises the futility of the American Dream |
 | "I hope she'll be a fool—that's the best thing a girl can be in this world, a beautiful little fool" | Daisy's cynicism about women's roles; patriarchal society |
 | "He had come a long way to this blue lawn, and his dream must have seemed so close that he could hardly fail to grasp it" | Gatsby's proximity to and distance from his dream |

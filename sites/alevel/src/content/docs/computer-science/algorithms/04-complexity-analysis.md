@@ -410,6 +410,7 @@ $$\log^2 n < n^{0.5} < n = 2^{\log n} < n \log n < n^3 < 2^n < n!$$
 - $n^{0.5} = o(n)$: $\lim \frac{\sqrt{n}}{n} = 0$ ✓
 - $n = o(n \log n)$: $\lim \frac{n}{n \log n} = 0$ ✓
 - $n^3 = o(2^n)$: $\lim \frac{n^3}{2^n} = 0$ ✓
+
 </details>
 
 **Problem 10.** Prove that $O(f) + O(g) = O(\max(f, g))$.
@@ -845,4 +846,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

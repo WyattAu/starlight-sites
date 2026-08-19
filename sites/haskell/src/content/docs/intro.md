@@ -32,7 +32,7 @@ Haskell's approach to programming — purity, immutability, and referential tran
 
 ## How to Get Started
 
-Install GHCup (https://www.haskell.org/ghcup/) to get GHC (the compiler), Cabal, and Stack. Start GHCi (`ghc`) and experiment with basic functions, pattern matching, and list comprehensions. The "Learn You a Haskell" tutorial (free online) is an excellent first resource. Work through exercises — reading Haskell without writing it does not build intuition.
+Install GHCup (<https://www.haskell.org/ghcup/>) to get GHC (the compiler), Cabal, and Stack. Start GHCi (`ghc`) and experiment with basic functions, pattern matching, and list comprehensions. The "Learn You a Haskell" tutorial (free online) is an excellent first resource. Work through exercises — reading Haskell without writing it does not build intuition.
 
 ## Study Approach
 

@@ -46,10 +46,10 @@ Eliminating redundant compilation.
 - **Remote:** Proxies to public registries (ConanCenter) with caching.
 - **Virtual:** An aggregation of Local and Remote for a single access point.
 
-2. **Sonatype Nexus:** A strong alternative supporting similar repository formats (Conan, Raw,
+1. **Sonatype Nexus:** A strong alternative supporting similar repository formats (Conan, Raw,
    NuGet).
 
-3. **Cloud Storage (S3/GCS/Azure):** For source-based managers like vcpkg, a raw blob storage bucket
+2. **Cloud Storage (S3/GCS/Azure):** For source-based managers like vcpkg, a raw blob storage bucket
    is often sufficient and more cost-effective than a dedicated artifact server.
 
 ## 1. Vcpkg Binary Caching
@@ -153,9 +153,9 @@ Jobs.
 - **Frequency:** Runs nightly or when `vcpkg.json` / `conanfile.py` changes.
 - **Operation:**
 
-1.  Clean environment.
-2.  Build all dependencies from source with `readwrite` access to the Artifact Registry.
-3.  Uploads artifacts.
+1. Clean environment.
+2. Build all dependencies from source with `readwrite` access to the Artifact Registry.
+3. Uploads artifacts.
 
 ### The Consumer (Pull Requests)
 
@@ -163,9 +163,9 @@ Jobs.
 - **Frequency:** Runs on every commit.
 - **Operation:**
 
-1.  Configured with `read-only` access to the Artifact Registry.
-2.  Downloads pre-compiled dependencies.
-3.  Compiles _only_ the project source code.
+1. Configured with `read-only` access to the Artifact Registry.
+2. Downloads pre-compiled dependencies.
+3. Compiles _only_ the project source code.
 
 This topology ensures that a developer changing `main.cpp` never waits for `Qt6` to compile.
 

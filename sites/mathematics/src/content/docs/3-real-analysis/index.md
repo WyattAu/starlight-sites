@@ -97,16 +97,17 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
-
 ## Intuition
 
 Real analysis provides the rigorous foundation for calculus, replacing intuition with precise definitions. The key idea is the epsilon-delta definition of limits, which captures convergence without relying on infinitesimals. Sequences and series are the discrete scaffolding: convergence means the terms eventually settle down, and absolute convergence means they settle down regardless of order. The real numbers themselves are constructed to fill gaps in the rationals, ensuring every Cauchy sequence converges. This completeness is what makes analysis work, distinguishing the real line from the rationals and enabling continuous functions to have intermediate value and extreme value properties.
+
 ## Study Tips
 
 1. **Master the definitions**: Real analysis requires precise understanding of limits and continuity

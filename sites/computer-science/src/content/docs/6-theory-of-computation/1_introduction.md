@@ -128,7 +128,7 @@ string. Then $D$ is not in the list — contradiction. This technique reappears 
 ### 1.6 Hierarchy Summary Table
 
 | Class | Machine | Decidable? | Recognisable? | Closure (complement) |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Regular | Finite automaton | Yes | Yes | Closed |
 | Context-free | Pushdown automaton | Yes | Yes | Not closed |
 | Decidable (REC) | Turing machine (halts always) | Yes | Yes | Closed |
@@ -150,7 +150,6 @@ Theory of computation asks: what can computers do, and how efficiently? The hier
 - [Regular Languages](2_regular-languages)
 - [Context-Free Languages](/computer-science/6-theory-of-computation/3_context-free-languages)
 - [Turing Machines](4_turing-machines)
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

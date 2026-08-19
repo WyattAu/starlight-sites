@@ -51,6 +51,28 @@ export default defineConfig({
       head: [
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },
+        { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'preload',
+            href: '/fonts/Inter-latin.woff2',
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: true,
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'preload',
+            href: '/fonts/JetBrainsMono-latin.woff2',
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: true,
+          },
+        },
         { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
         {
           tag: 'link',

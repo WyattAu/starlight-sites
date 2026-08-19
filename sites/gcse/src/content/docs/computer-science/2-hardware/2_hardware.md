@@ -23,6 +23,7 @@ categories:
 ## Computer Systems
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
+>
 ## 1. CPU Architecture
 
 ### 1.1 Components of the CPU

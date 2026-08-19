@@ -87,7 +87,7 @@ $\blacksquare$
 A systematic reference for standard Jones matrices:
 
 | Element | Jones Matrix |
-|---------|-------------|
+| --------- | ------------- |
 | Linear polariser ($x$-axis) | $\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}$ |
 | Linear polariser ($y$-axis) | $\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}$ |
 | Quarter-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}$ |
@@ -161,7 +161,6 @@ The Stokes parameters describe the polarisation state including partially polari
 
 **Mistake 3: Forgetting that the Poincare sphere represents polarisation states, not field amplitudes**
 The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_3/S_0)$ as coordinates. Points on the sphere surface represent fully polarised states, while interior points represent partially polarised light. Students sometimes confuse the Poincare sphere with a representation of the electric field vector in real space.
-
 
 ## Cross-References
 

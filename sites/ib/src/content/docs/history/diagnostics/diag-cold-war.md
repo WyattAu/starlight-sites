@@ -27,7 +27,6 @@ Answer each question. Check your answers against the key at the end.
 
 **The key insight:** The Cold War's ideological struggle between capitalism and communism shaped global politics, technology, and culture for nearly half a century
 
-
 ## Questions
 
 **1.** Which ideological difference most fundamentally divided the United States and the Soviet Union after 1945?
@@ -93,7 +92,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | The Cold War was fundamentally a conflict between American capitalism and Soviet communism, shaping global alignments. |
 | 2 | (B) | Massive retaliation threatened overwhelming nuclear response to deter Soviet conventional aggression, embodying Eisenhower's New Look. |
 | 3 | (B) | The Cuban Missile Crisis brought the superpowers closest to nuclear war, resolved through diplomatic negotiation. |

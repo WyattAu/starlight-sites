@@ -220,7 +220,6 @@ Key properties:
 Attacks, and mobile network interception. Use TOTP or FIDO2 instead. If SMS must be used, implement
 Rate limiting, anomaly detection, and do not use it as the sole second factor.
 
-
 ## OAuth 2.0
 
 OAuth 2.0 (RFC 6749) is an authorization framework that allows applications to obtain limited access
@@ -466,7 +465,6 @@ RSASHA256(
 From `RS256` to `HS256`. If the server uses the RSA public key as the HMAC secret (which some
 Libraries do by default), the attacker can forge tokens. Always explicitly specify the expected
 Algorithm when validating JWTs, and never accept `none`.
-
 
 ### JWT Best Practices
 
@@ -839,7 +837,6 @@ Authentication answers the question "who are you?" while authorization answers "
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---

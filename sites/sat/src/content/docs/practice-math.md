@@ -1159,7 +1159,7 @@ the square.
 
 ## Intuition
 
-**SAT math tests problem-solving, not just computation:** The math section emphasizes reasoning, pattern recognition, and applying concepts to unfamiliar situations. Understanding *why* a method works is more valuable than memorising procedures.
+**SAT math tests problem-solving, not just computation:** The math section emphasizes reasoning, pattern recognition, and applying concepts to unfamiliar situations. Understanding _why_ a method works is more valuable than memorising procedures.
 
 **Why it matters:** SAT math scores significantly affect college admissions and scholarship eligibility.
 

@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -208,8 +207,6 @@ $\{0, 1, -1\}$.
 **Forgetting that $\det(AB) = \det(A)\det(B)$ but $\det(A+B) \neq \det(A) + \det(B)$:** The determinant of a product is the product of determinants, but the determinant of a sum has no simple relationship. Students often try to distribute the determinant over addition, which is incorrect. Always compute $A + B$ first, then take the determinant.
 
 **Assuming invertibility from a non-zero determinant alone:** A matrix is invertible if and only if $\det(A) \neq 0$. But when working over restricted domains (e.g., integer entries), having $\det(A) = \pm 1$ does not guarantee that $A^{-1}$ also has integer entries. Check whether the adjugate matrix divided by the determinant produces integer entries.
-
-
 
 ## Cross-References
 

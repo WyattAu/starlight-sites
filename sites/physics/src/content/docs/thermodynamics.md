@@ -625,8 +625,8 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 
 **Problem:** A Carnot engine operates between a hot reservoir at 600 K and a cold reservoir at 300
 K. If the engine absorbs 1000 J of heat per cycle, how much work is done and how much heat is
-rejected? **Solution:** Efficiency eta = 1 - T_c/T_h = 1 - 300/600 = 0.50 (50%). Work = eta _ Q_h =
-0.50 _ 1000 = 500 J. Q_c = Q_h - W = 1000 - 500 = 500 J. The engine rejects 500 J of heat to the
+rejected? **Solution:** Efficiency eta = 1 - T_c/T_h = 1 - 300/600 = 0.50 (50%). Work = eta _Q_h =
+0.50 _1000 = 500 J. Q_c = Q_h - W = 1000 - 500 = 500 J. The engine rejects 500 J of heat to the
 cold reservoir per cycle.
 
 ### Example 2: Entropy Change of Phase Transition

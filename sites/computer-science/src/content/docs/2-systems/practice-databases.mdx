@@ -25,7 +25,6 @@ strategies, and query optimization. Select an option to check your answer and vi
 
 ---
 
-
 ## SQL and Normalization
 
 <PracticeProblem client:only="solid-js" question={"Which SQL clause filters aggregated results after grouping, as opposed to filtering individual rows before grouping?&quot; options={[ 'HAVING filters after GROUP BY; WHERE filters before GROUP BY', 'WHERE filters after GROUP BY; HAVING filters before GROUP BY', 'Both WHERE and HAVING filter before GROUP BY', 'Neither filters aggregated results; you must use a subquery', ]} correctAnswer={0} explanation=&quot;WHERE applies to individual rows before aggregation (filtering input to GROUP BY). HAVING applies to groups after aggregation (filtering the result of GROUP BY). Example: SELECT dept, AVG(salary) FROM emp GROUP BY dept HAVING COUNT(*) > 5 filters departments with more than 5 employees."} difficulty="easy"  />
@@ -58,5 +57,6 @@ strategies, and query optimization. Select an option to check your answer and vi
 **Mixing up cursor-based with cursor-free pagination:** Cursor-based uses a pointer for efficient pagination. Cursor-free (OFFSET) skips rows, which gets slower with large offsets. Don't assume OFFSET is efficient for deep pagination.
 
 ## Cross-References
+
 - **[Databases](../../../../../typescript/src/content/docs/index):** Relational model, normalisation, and query optimisation.
 - **[Databases Practice](../4-databases/14_practice-databases):** Auto-graded problems testing database concepts.

@@ -693,7 +693,6 @@ Has been lacking. International evidence (Germany's federal system, Spain's auto
 Suggests that fiscal devolution may be necessary but not sufficient.
 </details>
 
-
 <aside class="starlight-aside starlight-aside--danger">
 - **Assuming supply-side policies work quickly:** Most supply-side policies have very long
   implementation lags. Education reforms take 10-20 years to affect productivity. Infrastructure
@@ -952,6 +951,7 @@ sustained economic growth." Evaluate this statement.
   gains more from education spending than one with already high human capital.
 - Conclusion: the statement is a false dichotomy. Both are necessary, but supply-side policy is more
 important for sustained LONG-RUN growth.
+
 </details>
 
 **Question 2 (12 marks).** Using the Laffer curve, explain why a cut in the top rate of income tax
@@ -1008,6 +1008,7 @@ GBP 10.42 to GBP 12.00 per hour on employment, productivity, and income distribu
   rise (firms pass on higher costs), the real value of the wage increase is eroded.
 - Net effect: most studies find a net reduction in inequality, particularly at the bottom of the
 distribution.
+
 </details>
 
 ## 11. Extended Worked Examples
@@ -1283,7 +1284,6 @@ imbalances were addressed.
    decrease (shift) of the demand curve.
 
 4. Failing to evaluate both strengths and weaknesses of economic models, not just listing them.
-
 
 ## Intuition
 

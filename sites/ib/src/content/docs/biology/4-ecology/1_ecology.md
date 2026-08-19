@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Energy flows through ecosystems while nutrients cycle, creating interdependencies that sustain life
 
-
 ## 1. Species, Communities, and Ecosystems
 
 ### Species and Populations
@@ -810,7 +809,7 @@ and explain your reasoning.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Cell biology and microscopy** --> Review
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)

@@ -30,7 +30,7 @@ Information security from principles to practice: threat modelling, secure codin
 ## Essential Security Checklist
 
 | Area | Action | Priority |
-|------|--------|----------|
+| ------ | -------- | ---------- |
 | Authentication | Use bcrypt/scrypt/Argon2 for password hashing | Critical |
 | Secrets | Never commit API keys or passwords to source control | Critical |
 | Updates | Apply security patches within 24-48 hours of release | High |
@@ -54,6 +54,7 @@ Information security from principles to practice: threat modelling, secure codin
 **Using MD5 or SHA-1 for password hashing:** MD5 and SHA-1 are cryptographically broken. Never use them for password storage. Use bcrypt, scrypt, or Argon2 — these are slow by design to resist brute-force attacks.
 
 **Hardcoding secrets in source code:** API keys, passwords, and certificates in source code are exposed in version control. Use environment variables, secret managers (Vault, AWS Secrets Manager), or encrypted configuration files. Never commit secrets.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for security notes.

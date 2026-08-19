@@ -153,7 +153,6 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
 
-
 ## Cross-References
 
 - [Mechanics](../mechanics)

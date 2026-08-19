@@ -132,14 +132,15 @@ $$a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}$$
 
 For motion with **constant acceleration** (also called the **suvat equations**):
 
-| Equation        | Variables                          | When to Use                              |
+| Equation | Variables | When to Use |
 | -------------- | ---------------------------------- | ---------------------------------------- |
-| $v = u + at$   | Uses $u, a, t$ to find $v$         | No displacement involved                 |
-| $s = ut + \frac{1}{2}at^2$ | Uses $u, a, t$ to find $s$    | Displacement from initial velocity       |
-| $s = \frac{(u+v)}{2}t$ | Uses $u, v, t$ to find $s$   | When acceleration is unknown             |
-| $v^2 = u^2 + 2as$ | Uses $u, v, a$ to find $s$       | When time is unknown                     |
+| $v = u + at$ | Uses $u, a, t$ to find $v$ | No displacement involved |
+| $s = ut + \frac{1}{2}at^2$ | Uses $u, a, t$ to find $s$ | Displacement from initial velocity |
+| $s = \frac{(u+v)}{2}t$ | Uses $u, v, t$ to find $s$ | When acceleration is unknown |
+| $v^2 = u^2 + 2as$ | Uses $u, v, a$ to find $s$ | When time is unknown |
 
 Where:
+
 - $s$ = displacement (m)
 - $u$ = initial velocity ($\mathrm{m\,s^{-1}}$)
 - $v$ = final velocity ($\mathrm{m\,s^{-1}}$)
@@ -180,6 +181,7 @@ $$g \approx 9.81\ \mathrm{m\,s^{-2}}$$
 ### Experiments to Determine $g$
 
 **Method 1: Electromagnet and trapdoor**
+
 - Electromagnet holds a steel ball; switch releases it
 - Timer starts when ball released; stops when it hits trapdoor
 - Repeat for various heights $h$
@@ -189,6 +191,7 @@ $$h = \frac{1}{2}gt^2 \implies g = \frac{2h}{t^2}$$
 Plot $h$ vs $t^2$; gradient = $\frac{g}{2}$
 
 **Method 2: Light gates**
+
 - Measure time for card to pass through two light gates at known separation
 - Gives velocity at each gate; use $v^2 = u^2 + 2as$ to find $g$
 
@@ -318,6 +321,7 @@ Note how braking distance increases much more than thinking distance as speed in
 ## Worked Examples
 
 ### Example 1: Solving a Projectile Motion Problem
+
 **Problem:** A ball is thrown from ground level with initial velocity $15\ \mathrm{m\,s^{-1}}$ at an angle of $30°$ above the horizontal. Find the maximum height and the horizontal range.
 **Solution:** Resolve: $v_x = 15\cos 30° = 13.0\ \mathrm{m\,s^{-1}}$, $v_y = 15\sin 30° = 7.5\ \mathrm{m\,s^{-1}}$.
 Maximum height: $H = \dfrac{v_y^2}{2g} = \dfrac{7.5^2}{2 \times 9.81} = 2.87\ \text{m}$.
@@ -325,6 +329,7 @@ Time of flight: $t = \dfrac{2v_y}{g} = \dfrac{2 \times 7.5}{9.81} = 1.53\ \text{
 Range: $R = v_x \times t = 13.0 \times 1.53 = 19.9\ \text{m}$.
 
 ### Example 2: Stopping Distance Calculation
+
 **Problem:** A car travelling at $20\ \mathrm{m\,s^{-1}}$ (approximately 45 mph) has a reaction time of 0.6 s. Braking deceleration is $6.0\ \mathrm{m\,s^{-2}}$. Calculate the total stopping distance.
 **Solution:** Thinking distance $= v \times t_{\text{reaction}} = 20 \times 0.6 = 12\ \text{m}$.
 For braking: $v^2 = u^2 + 2as$ with $v = 0$, $u = 20$, $a = -6.0$.
@@ -344,7 +349,6 @@ Kinematics covers the distinction between scalars and vectors, the equations of 
 ## Intuition
 
 Physics reveals that nature follows mathematical laws at every scale. Matter is made of atoms, forces arise from field interactions, and energy is conserved in every transformation. The power of physics lies in its predictive ability - from calculating projectile trajectories to designing particle accelerators. Understanding these principles helps us technology, predict natural phenomena, and appreciate the universe's underlying order.
-
 
 ## Cross-References
 

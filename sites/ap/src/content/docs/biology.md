@@ -579,7 +579,6 @@ linked above.
 
 Living systems maintain order through energy flow and information transfer. Cells convert nutrients into usable energy, genes encode the instructions for building proteins, and organisms interact through predator-prey relationships, competition, and cooperation. Understanding biology reveals the elegant solutions evolution has produced for the challenges of survival and reproduction.
 
-
 ## Cross-References
 
 - [Cell Structure and Function](biology/2-cell-structure-and-function/2_cell-structure-and-function)

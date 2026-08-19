@@ -76,21 +76,21 @@ Start here. These topics form the basis of every C++ program you will write.
 
 Learn to build abstractions that hide complexity and express intent.
 
-3. **Object-Oriented Programming** — class design, polymorphism, and vtables
-4. **Function Architecture** — overload resolution, lambdas, and error handling
+1. **Object-Oriented Programming** — class design, polymorphism, and vtables
+2. **Function Architecture** — overload resolution, lambdas, and error handling
 
 ### Phase 3: Generic Programming (Weeks 9–12)
 
 Write code that works across types while remaining type-safe.
 
-5. **Templates and Metaprogramming** — generic programming, concepts, and compile-time computation
-6. **Standard Library** — containers, algorithms, ranges, and I/O
+1. **Templates and Metaprogramming** — generic programming, concepts, and compile-time computation
+2. **Standard Library** — containers, algorithms, ranges, and I/O
 
 ### Phase 4: Advanced (Weeks 13–16)
 
 Master the topics that distinguish professional C++ developers.
 
-7. **Concurrency** — threads, atomics, coroutines, and the memory model
+1. **Concurrency** — threads, atomics, coroutines, and the memory model
 
 ### Dependency Diagram
 
@@ -123,7 +123,7 @@ Every C++ bug ultimately traces back to incorrect type usage or violated lifetim
 ### Key Concepts
 
 | Concept | What It Means | Common Mistake |
-|---------|---------------|----------------|
+| --------- | --------------- | ---------------- |
 | Alignment | Objects must start at addresses that are multiples of their alignment | Assuming `sizeof(struct)` is the sum of member sizes |
 | Padding | Compilers insert bytes to satisfy alignment requirements | Ignoring padding when calculating memory usage |
 | Value initialization | `T{}` zero-initialises; `T()` default-initialises | Assuming `T x;` is the same as `T x{};` |
@@ -194,7 +194,7 @@ C++ supports multiple inheritance, virtual dispatch, and RTTI — powerful featu
 ### Design Guidelines
 
 | Principle | Rule | Example |
-|-----------|------|---------|
+| ----------- | ------ | --------- |
 | Rule of Five | If you define any of destructor, copy/move constructor, or copy/move assignment, define all five | RAII classes with raw pointers |
 | Rule of Zero | If possible, let the compiler generate all special member functions | Use `std::string`, `std::vector` instead of raw arrays |
 | Prefer composition | Use inheritance only for "is-a" relationships | A `Dog` is-an `Animal`; a `Car` has-an `Engine` |

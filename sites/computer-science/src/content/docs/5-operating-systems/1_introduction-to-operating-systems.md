@@ -134,6 +134,7 @@ $\blacksquare$
 ### 1.9 Deadlocks
 
 A **deadlock** occurs when two or more processes are each waiting for resources held by the other. Four necessary conditions (Coffman conditions):
+
 1. **Mutual exclusion:** Resources cannot be shared.
 2. **Hold and wait:** Processes hold resources while waiting for others.
 3. **No preemption:** Resources cannot be forcibly taken.
@@ -158,7 +159,6 @@ An operating system is the government of a computer: it manages resources (CPU t
 - [Process Management](2_process-management)
 - [Memory Management](/computer-science/5-operating-systems/5_memory-management)
 - [File Systems](6_file-systems)
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

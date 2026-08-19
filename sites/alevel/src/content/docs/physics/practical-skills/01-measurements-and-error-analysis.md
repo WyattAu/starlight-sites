@@ -23,6 +23,7 @@ categories:
 ## Measurements and Error Analysis
 
 > **Info:** Board Coverage AQA Paper 3 | Edexcel CP1, CP6 | OCR (A) Paper 3 | CIE P5
+>
 ## 1. Systematic and Random Errors
 
 ### Systematic Errors
@@ -152,7 +153,7 @@ $$\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}$$
 
 Multiply fractional uncertainty by the power.
 
-#### General formula (for reference):
+#### General formula (for reference)
 
 $$\Delta z = \sqrt{\sum_{i}\left(\frac{\partial z}{\partial x_i}\Delta x_i\right)^2}$$
 
@@ -671,7 +672,6 @@ linked above.
 ## Intuition
 
 The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
-
 
 ## Cross-References
 

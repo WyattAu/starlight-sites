@@ -92,7 +92,7 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 ### Key Relationships
 
 | Concept | Formula | Significance |
-|---------|---------|--------------|
+| --------- | --------- | -------------- |
 | Landauer bound | $E_{\min} = k_B T \ln 2$ | Minimum heat per erased bit |
 | Shannon entropy | $H = -\sum_i p_i \log_2 p_i$ | Information content in bits |
 | Free energy change | $\Delta F = \Delta U - T\Delta S$ | Reversible work available |
@@ -109,7 +109,7 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 ### Summary Table
 
 | Process | Information Change | Minimum Heat Dissipation |
-|---------|-------------------|-------------------------|
+| --------- | ------------------- | ------------------------- |
 | Bit erasure (reset) | $1$ bit $\to$ $0$ (known) | $k_B T \ln 2$ |
 | Bit copy (fanout) | $1$ bit $\to$ $2$ copies | $0$ (reversible) |
 | Measurement | Unknown $\to$ known | $\geq k_B T \ln 2$ (for resetting meter) |
@@ -148,7 +148,6 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 | [Thermal Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)             |
 | [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/4-thermal-physics/1_heat-and-gases)                        |
 | [Thermal Physics] | University | [View](https://university.wyattau.com/docs/physics/2-thermal-physics/1_thermal-physics)                    |
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

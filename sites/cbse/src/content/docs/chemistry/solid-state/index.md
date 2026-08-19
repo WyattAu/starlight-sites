@@ -138,6 +138,7 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 **Confusing Schottky and Frenkel defects.** Schottky defects involve missing pairs of ions (cation and anion), reducing density. Frenkel defects involve an ion displaced to an interstitial site, keeping density unchanged. Students often mix up which defect reduces density.
 
 **Forgetting that coordination number depends on crystal structure.** In BCC, each atom has 8 nearest neighbours. In FCC, each atom has 12 nearest neighbours. In HCP, each atom also has 12 nearest neighbours. Students sometimes assume all close-packed structures have the same coordination number.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for CBSE notes.

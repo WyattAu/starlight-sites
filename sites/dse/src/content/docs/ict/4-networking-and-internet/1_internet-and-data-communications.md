@@ -1179,7 +1179,6 @@ The internet is a network of networks, like a postal system where every neighbor
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

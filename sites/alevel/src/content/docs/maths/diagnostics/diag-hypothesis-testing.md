@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -744,8 +743,6 @@ correlation.
 This demonstrates that **statistical significance depends on both the strength of the effect
 (correlation) and the sample size**. A large sample can detect even a weak but real correlation,
 while a small sample may fail to detect even a strong correlation.
-
-
 
 ## Cross-References
 

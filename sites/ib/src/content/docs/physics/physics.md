@@ -1176,7 +1176,7 @@ Upward/downward motion (Theme A.1).
 
 </details>
 
-2. A hockey puck of mass $0.170$ kg slides at $4.00$ m/s and is struck by a stick, receiving an
+1. A hockey puck of mass $0.170$ kg slides at $4.00$ m/s and is struck by a stick, receiving an
    impulse of $2.50$ N s in the direction of travel. Find its final speed.
 
 <details>
@@ -1191,7 +1191,7 @@ If you get this wrong, revise: Impulse and momentum, the impulse-momentum theore
 
 </details>
 
-3. A roller coaster car of mass $500$ kg starts from rest at point A, $20.0$ m above the ground. It
+1. A roller coaster car of mass $500$ kg starts from rest at point A, $20.0$ m above the ground. It
    descends to point B at ground level and then rises to point C at $12.0$ m. A constant friction
    force of $200$ N acts over the total track length of $80.0$ m. Find the speed at point C.
 
@@ -1211,7 +1211,7 @@ If you get this wrong, revise: Conservation of energy with non-conservative forc
 
 ### Thermal Physics and Gases
 
-4. An electric heater supplies $2.50$ kW of power to $0.800$ kg of water initially at $20.0$ degrees
+1. An electric heater supplies $2.50$ kW of power to $0.800$ kg of water initially at $20.0$ degrees
    Celsius. How long does it take to bring the water to boiling point? ($c_{\mathrm{water}} = 4180$
    J/(kg K), ignore heat losses.)
 
@@ -1225,7 +1225,7 @@ If you get this wrong, revise: Specific heat capacity and power (Theme B.1).
 
 </details>
 
-5. A gas cylinder of volume $0.100$ m$^3$ contains gas at $300$ kPa and $300$ K. If the temperature
+1. A gas cylinder of volume $0.100$ m$^3$ contains gas at $300$ kPa and $300$ K. If the temperature
    is raised to $450$ K at constant volume, what is the new pressure?
 
 <details>
@@ -1240,7 +1240,7 @@ If you get this wrong, revise: Gas laws and the ideal gas law (Theme B.3).
 
 ### Waves
 
-6. A standing wave on a string of length $0.75$ m has a fundamental frequency of $220$ Hz. Find (a)
+1. A standing wave on a string of length $0.75$ m has a fundamental frequency of $220$ Hz. Find (a)
    the wave speed, and (b) the frequency of the second harmonic.
 
 <details>
@@ -1254,7 +1254,7 @@ If you get this wrong, revise: Standing waves and harmonics on strings (Theme C.
 
 </details>
 
-7. Light passes from air into a material with refractive index $1.60$ at an angle of incidence of
+1. Light passes from air into a material with refractive index $1.60$ at an angle of incidence of
    $40.0$ degrees. Calculate the angle of refraction.
 
 <details>
@@ -1271,7 +1271,7 @@ If you get this wrong, revise: Snell's law and refraction (Theme C.3).
 
 ### Electricity and Circuits
 
-8. A $6.0$ V battery with internal resistance $0.50$ ohms is connected to an external resistor of
+1. A $6.0$ V battery with internal resistance $0.50$ ohms is connected to an external resistor of
    $11.5$ ohms. Calculate (a) the current, and (b) the terminal PD.
 
 <details>
@@ -1288,7 +1288,7 @@ If you get this wrong, revise: Internal resistance and terminal PD (Theme B.4).
 
 ### Fields
 
-9. Two point charges, $q_1 = +3.0$ $\mu$C and $q_2 = -5.0$ $\mu$C, are placed $0.20$ m apart in
+1. Two point charges, $q_1 = +3.0$ $\mu$C and $q_2 = -5.0$ $\mu$C, are placed $0.20$ m apart in
    vacuum. Calculate the force between them and state its nature.
 
 <details>
@@ -1303,7 +1303,7 @@ If you get this wrong, revise: Coulomb's law and electric forces (Theme D.2).
 
 </details>
 
-10. A satellite orbits Earth at a height of $500$ km above the surface. Calculate its orbital speed.
+1. A satellite orbits Earth at a height of $500$ km above the surface. Calculate its orbital speed.
     Given: $M_{\mathrm{Earth}} = 5.97 \times 10^{24}$ kg, $R_{\mathrm{Earth}} = 6.37 \times 10^6$ m.
 
 <details>
@@ -1321,7 +1321,7 @@ If you get this wrong, revise: Circular motion and gravitation, orbital mechanic
 
 ### Nuclear and Quantum Physics
 
-11. The photoelectric effect is observed from a metal surface using light of frequency
+1. The photoelectric effect is observed from a metal surface using light of frequency
     $8.0 \times 10^{14}$ Hz. The maximum kinetic energy of the emitted electrons is
     $1.2 \times 10^{-19}$ J. Calculate the work function of the metal in eV.
 
@@ -1338,7 +1338,7 @@ E.2).
 
 </details>
 
-12. A radioactive isotope has a half-life of $5.27$ years. A sample initially contains
+1. A radioactive isotope has a half-life of $5.27$ years. A sample initially contains
     $4.00 \times 10^{20}$ nuclei. How many nuclei remain after $15.81$ years?
 
 <details>
@@ -1352,7 +1352,7 @@ If you get this wrong, revise: Exponential decay and half-life calculations (The
 
 </details>
 
-13. An electron is accelerated from rest through a potential difference of $250$ V. Calculate the de
+1. An electron is accelerated from rest through a potential difference of $250$ V. Calculate the de
     Broglie wavelength of the electron. ($m_e = 9.11 \times 10^{-31}$ kg, $e = 1.60 \times 10^{-19}$
     C, $h = 6.63 \times 10^{-34}$ J s.)
 
@@ -1374,7 +1374,7 @@ If you get this wrong, revise: de Broglie wavelength and wave-particle duality (
 
 </details>
 
-14. A conducting rod of length $0.40$ m moves perpendicular to a uniform magnetic field of flux
+1. A conducting rod of length $0.40$ m moves perpendicular to a uniform magnetic field of flux
     density $0.25$ T at a speed of $8.0$ m/s. The rod is part of a closed circuit with total
     resistance $5.0$ ohms. Calculate the induced emf and the current in the circuit.
 
@@ -1390,7 +1390,7 @@ If you get this wrong, revise: Faraday's law, motional emf, and Lenz's law (Them
 
 </details>
 
-15. A monatomic ideal gas expands isobarically from $2.0 \times 10^{-3}$ m$^3$ to
+1. A monatomic ideal gas expands isobarically from $2.0 \times 10^{-3}$ m$^3$ to
     $5.0 \times 10^{-3}$ m$^3$ at a constant pressure of $1.5 \times 10^5$ Pa. During the process
     $600$ J of heat is supplied to the gas. Calculate the work done by the gas and the change in
     internal energy.

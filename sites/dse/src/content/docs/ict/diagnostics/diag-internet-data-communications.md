@@ -146,27 +146,27 @@ encapsulated and transmitted. Include DNS resolution, TCP handshake, and HTTP re
 - Server responds with SYN-ACK (acknowledges client's SYN, sends its own SYN).
 - Client sends ACK (acknowledges server's SYN). Connection established.
 
-4. **Transport Layer (HTTP):** The browser sends an HTTP GET request, encapsulated in a TCP segment
+1. **Transport Layer (HTTP):** The browser sends an HTTP GET request, encapsulated in a TCP segment
    with source port (e.g., 50000) and destination port (80).
 
-5. **Network Layer (IP):** The TCP segment is encapsulated in an IP packet with the client's source
+2. **Network Layer (IP):** The TCP segment is encapsulated in an IP packet with the client's source
    IP and server's destination IP. The client's routing table determines the next hop (default
    gateway).
 
-6. **Data Link Layer (Ethernet):** The IP packet is encapsulated in an Ethernet frame with the
+3. **Data Link Layer (Ethernet):** The IP packet is encapsulated in an Ethernet frame with the
    source MAC (client's NIC) and destination MAC (router's interface). ARP may be used to resolve
    the router's MAC from its IP.
 
-7. **Physical Layer:** The frame is converted to electrical/optical signals and transmitted over the
+4. **Physical Layer:** The frame is converted to electrical/optical signals and transmitted over the
    network cable or Wi-Fi.
 
-8. Each router along the path decapsulates to Layer 3 (IP), reads the destination IP,
+5. Each router along the path decapsulates to Layer 3 (IP), reads the destination IP,
    re-encapsulates with new Layer 2 headers, and forwards.
 
-9. The server receives the frame, decapsulates through all layers, and the HTTP server processes the
+6. The server receives the frame, decapsulates through all layers, and the HTTP server processes the
    GET request, sends back the HTML content following the same encapsulation process in reverse.
 
-10. The browser receives the response, decapsulates, and renders the HTML page.
+7. The browser receives the response, decapsulates, and renders the HTML page.
 
 ### IT-2: Network Design and Error Detection (with Data Representation)
 

@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The imaginary unit i (where i² = -1) isn't imaginary at all — it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for complex numbers.

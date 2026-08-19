@@ -11,7 +11,6 @@ description: "UNIVERSITY Mathematics practice problems: Differential Geometry Pr
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Geometry of curved spaces:** Differential geometry studies the geometry of surfaces and curves using calculus — it describes how space curves, bends, and twists. It is the mathematics of general relativity (spacetime curvature) and computer graphics (surface rendering).
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Smooth Manifolds and Tangent Spaces
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is NOT required for a topological space $M$ to be a topological manifold?&quot; options={[ '$M$ must be compact', '$M$ must be Hausdorff', '$M$ must be second countable', '$M$ must be locally Euclidean', ]} correctAnswer={0} explanation=&quot;A topological manifold must be (1) Hausdorff, (2) second countable, and (3) locally Euclidean. Compactness is NOT required. Many important manifolds are non-compact, including $\mathbb{R}^n$ itself, any open subset of $\mathbb{R}^n$, and the cotangent bundle of any compact manifold."} difficulty="easy"  />
@@ -40,7 +38,6 @@ the explanation.
 
 ---
 
-
 ### Differential Forms
 
 <PracticeProblem client:only="solid-js" question={"If $\\omega$ is a $k$-form on an $n$-manifold $M$, what is the largest possible degree of $d\\omega$?&quot; options={['$n$', '$n + 1$', '$k + 1$', '$2k$']} correctAnswer={0} explanation=&quot;$d\omega$ is a $(k+1)$-form, but on an $n$-dimensional manifold, all $(n+1)$-forms are identically zero (since the tangent space has dimension $n$, there are no nonzero alternating $(n+1)$-linear functionals). So the largest non-trivial exterior derivative produces an $n$-form. The space of $k$-forms is trivial for $k > n$."} difficulty="medium"  />
@@ -50,7 +47,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a directly connected manifold $M$, what can you conclude?&quot; options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation=&quot;By the Poincare lemma (or de Rham cohomology), on a directly connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
 
 ---
-
 
 ### Riemannian Geometry and Curvature
 
@@ -67,6 +63,7 @@ the explanation.
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 
 <PracticeProblem client:only="solid-js" question={"By the Gauss-Bonnet theorem, what is the total Gaussian curvature $\\int_M K\\, dA$ of a torus $T^2$?&quot; options={['$4\\pi$', '$0$', '$-4\\pi$', '$2\\pi$']} correctAnswer={0} explanation=&quot;The Gauss-Bonnet theorem states $\int_M K\, dA = 2\pi \chi(M)$. The torus has Euler characteristic $\chi(T^2) = 0$ (genus 1: $\chi = 2 - 2g = 0$). Therefore the total Gaussian curvature is $2\pi \cdot 0 = 0$. A flat torus (the quotient of $\mathbb{R}^2$ by a lattice) has $K = 0$ everywhere, consistent with this result."} difficulty="hard"  />
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.

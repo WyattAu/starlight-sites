@@ -489,11 +489,11 @@ Blood consists of:
 - Cell fragments (no nucleus) produced in bone marrow
 - Involved in blood clotting:
 
-1.  Platelets accumulate at the wound site
-2.  Thromboplastin is released
-3.  Thromboplastin converts prothrombin to thrombin (with calcium ions)
-4.  Thrombin converts soluble fibrinogen to insoluble fibrin
-5.  Fibrin forms a mesh that traps red blood cells, forming a clot
+1. Platelets accumulate at the wound site
+2. Thromboplastin is released
+3. Thromboplastin converts prothrombin to thrombin (with calcium ions)
+4. Thrombin converts soluble fibrinogen to insoluble fibrin
+5. Fibrin forms a mesh that traps red blood cells, forming a clot
 
 ### Blood Groups
 
@@ -1011,7 +1011,7 @@ Blood glucose concentration is normally maintained at approximately **90 mg/100 
 - Conversion of glucose to glycogen (glycogenesis) in liver and muscles
 - Increased rate of glucose respiration in cells
 
-4. Blood glucose level decreases back to normal
+1. Blood glucose level decreases back to normal
 
 **If blood glucose falls (e.g., between meals or during exercise):**
 
@@ -1022,7 +1022,7 @@ Blood glucose concentration is normally maintained at approximately **90 mg/100 
 - Conversion of glycogen to glucose (glycogenolysis) in the liver
 - Conversion of amino acids and fats to glucose (gluconeogenesis) in the liver
 
-4. Blood glucose level increases back to normal
+1. Blood glucose level increases back to normal
 
 This is an example of **negative feedback**.
 

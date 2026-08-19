@@ -535,6 +535,7 @@ Do the binary addition first. Then interpret based on the encoding scheme.
 
 - **Unsigned:** $00100001_2 = 33_{10}$. Check: $182 + 107 = 289$. But $289 \bmod 256 = 33$. ✓
 - **Two's complement:** $00100001_2 = 33_{10}$. Check: $-74 + 107 = 33$. ✓
+
 </details>
 
 **Problem 5.** A fixed-point system uses 12 bits: 8 for the integer part and 4 for the fractional
@@ -683,7 +684,6 @@ Both inputs are negative and the result is negative, so no overflow.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
@@ -696,7 +696,6 @@ Both inputs are negative and the result is negative, so no overflow.
    data).
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
-
 
 ## Intuition
 
@@ -712,8 +711,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

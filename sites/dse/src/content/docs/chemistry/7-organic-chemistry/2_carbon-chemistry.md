@@ -800,7 +800,6 @@ $\mathrm{C_3H_8O} = 60
 
 ## Worked Examples
 
-
 Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$).
 
 **Solution:**

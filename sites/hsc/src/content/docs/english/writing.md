@@ -135,10 +135,10 @@ Writing is a transferable skill essential for academic success, professional com
 
 ## Additional Exam Tips
 
-7. In creative writing, use sensory details (sight, sound, smell, touch, taste) to create atmosphere
-8. In analytical writing, always use the present tense when discussing texts
-9. Vary sentence length for effect — short sentences for emphasis, longer for complexity
-10. Leave time to proofread — errors in spelling and grammar cost marks
+1. In creative writing, use sensory details (sight, sound, smell, touch, taste) to create atmosphere
+2. In analytical writing, always use the present tense when discussing texts
+3. Vary sentence length for effect — short sentences for emphasis, longer for complexity
+4. Leave time to proofread — errors in spelling and grammar cost marks
 
 ## More Worked Examples
 

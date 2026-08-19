@@ -139,17 +139,17 @@ Success on AP exams requires more than content knowledge. Here are proven strate
 
 ### During the Exam
 
-5. **Read every question carefully.** Many mistakes come from misreading what the question is asking. Underline key terms and identify the specific skill being tested.
-6. **Manage your time.** Allocate time proportionally to the number of points each question is worth. If you get stuck, move on and return later.
-7. **Show your work.** On free-response questions, partial credit is awarded for correct reasoning even if the final answer is wrong. Write down every step.
-8. **Use process of elimination.** On multiple-choice questions, eliminate obviously wrong answers before guessing. This increases your probability of selecting the correct option.
-9. **Answer every question.** There is no penalty for wrong answers on AP exams. Never leave a question blank.
+1. **Read every question carefully.** Many mistakes come from misreading what the question is asking. Underline key terms and identify the specific skill being tested.
+2. **Manage your time.** Allocate time proportionally to the number of points each question is worth. If you get stuck, move on and return later.
+3. **Show your work.** On free-response questions, partial credit is awarded for correct reasoning even if the final answer is wrong. Write down every step.
+4. **Use process of elimination.** On multiple-choice questions, eliminate obviously wrong answers before guessing. This increases your probability of selecting the correct option.
+5. **Answer every question.** There is no penalty for wrong answers on AP exams. Never leave a question blank.
 
 ### After the Exam
 
-10. **Review your performance.** If you have access to your score report, identify weak areas and use them to guide future study.
-11. **Consider score reports for universities.** Send your AP scores to universities that grant credit. A score of 4 or 5 typically earns credit, though policies vary.
-12. **Build on your AP foundation.** AP courses prepare you for university-level work. Continue building on the skills and knowledge you have developed.
+1. **Review your performance.** If you have access to your score report, identify weak areas and use them to guide future study.
+2. **Consider score reports for universities.** Send your AP scores to universities that grant credit. A score of 4 or 5 typically earns credit, though policies vary.
+3. **Build on your AP foundation.** AP courses prepare you for university-level work. Continue building on the skills and knowledge you have developed.
 
 ## Cross-Curricular Connections
 

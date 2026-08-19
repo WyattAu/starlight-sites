@@ -127,7 +127,7 @@ across days (spaced practice) is more effective than cramming.
 ## Key Terminology
 
 | Term | Definition |
-|------|------------|
+| ------ | ------------ |
 | Algorithm | A finite, well-defined sequence of steps that solves a problem. |
 | Complexity class | A set of problems sharing a resource bound (e.g. time or space). |
 | Abstraction | A mechanism for hiding implementation details behind a clean interface. |
@@ -136,6 +136,7 @@ across days (spaced practice) is more effective than cramming.
 | Invariant | A property that holds throughout execution and is maintained by each operation. |
 
 ## See Also
+
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 

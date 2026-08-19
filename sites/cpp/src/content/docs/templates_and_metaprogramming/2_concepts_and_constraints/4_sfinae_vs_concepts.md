@@ -562,7 +562,6 @@ int main() {
 - [Standard Library Concepts](./3_standard_concepts.md)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
 
-
 ## Summary
 
 This topic covers the core concepts of sfinae vs concepts, including underlying theory, practical
@@ -604,4 +603,3 @@ The practical takeaway: if you're writing new code, prefer concepts. They commun
 evidently, produce better error messages, and enable more precise overload resolution. SFINAE still
 exists in legacy codebases and occasionally in library internals, but it should no longer be your
 first choice for constraining templates.
-

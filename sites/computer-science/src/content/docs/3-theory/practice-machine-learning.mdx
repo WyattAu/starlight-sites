@@ -25,7 +25,6 @@ your answer.
 
 ---
 
-
 ## Supervised Learning and Model Fundamentals
 
 <PracticeProblem client:only="solid-js" question={"In linear regression with ordinary least squares, the closed-form solution is $\\mathbf{w}^* = (X^T X)^{-1} X^T \\mathbf{y}$. What assumption must hold for this solution to be valid?&quot; options={[ '$X^T X$ must be invertible (features must not be linearly dependent)', 'The number of features must equal the number of samples', 'All features must be binary', 'The target variable must be categorical', ]} correctAnswer={0} explanation=&quot;The closed-form solution requires $(X^T X)^{-1}$ to exist, meaning $X^T X$ is full rank. This fails when features are linearly dependent (multicollinearity) or when $n < d$ (more features than samples). In these cases, use gradient descent, regularized regression (ridge: adds $\\lambda I$ to $X^T X$), or dimensionality reduction."} difficulty="easy"  />

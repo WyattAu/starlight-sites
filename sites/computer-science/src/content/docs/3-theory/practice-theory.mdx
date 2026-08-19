@@ -25,7 +25,6 @@ fundamentals. Select an option to check your answer and view the explanation.
 
 ---
 
-
 ## Worked Examples
 
 ### Example 1: DFA Construction
@@ -34,23 +33,25 @@ fundamentals. Select an option to check your answer and view the explanation.
 
 **Solution:**
 Step 1: Define states based on parity of 1s seen so far
+
 - $q_0$: even number of 1s (start and accept state)
 - $q_1$: odd number of 1s
 
 Step 2: Define transitions
+
 - From $q_0$: on 0 stay in $q_0$, on 1 go to $q_1$
 - From $q_1$: on 0 stay in $q_1$, on 1 go to $q_0$
 
 Step 3: Accept state: $q_0$ (even number of 1s)
 
 Step 4: Verify with examples:
+
 - "0101": $q_0 \xrightarrow{0} q_0 \xrightarrow{1} q_1 \xrightarrow{0} q_1 \xrightarrow{1} q_0$ ✓ (accepted)
 - "011": $q_0 \xrightarrow{0} q_0 \xrightarrow{1} q_1 \xrightarrow{1} q_0$ ✓ (accepted)
 
 **Key insight:** DFAs need only 2 states for this problem because we only need to track parity (even/odd), which requires finite memory.
 
 ---
-
 
 ### Example 2: RSA Key Generation
 
@@ -76,7 +77,6 @@ So $m = 18$
 
 ---
 
-
 ### Example 3: Compiler Pipeline
 
 **Problem:** Trace the compilation of `x = a + b * 2` through each compiler phase.
@@ -86,6 +86,7 @@ Step 1 (Lexical Analysis): Tokenise into:
 `[ID:x] [ASSIGN:=] [ID:a] [PLUS:+] [ID:b] [STAR:*] [NUM:2]`
 
 Step 2 (Syntax Analysis): Build AST:
+
 ```
       =
      / \
@@ -97,11 +98,13 @@ Step 2 (Syntax Analysis): Build AST:
 ```
 
 Step 3 (Semantic Analysis): Type-check and annotate:
+
 - `b * 2`: integer multiplication ✓
 - `a + (b * 2)`: integer addition ✓
 - `x = ...`: assignment ✓
 
 Step 4 (Code Generation): Three-address code:
+
 ```
 t1 = b * 2
 t2 = a + t1
@@ -113,7 +116,6 @@ Step 5 (Optimisation): Constant fold if `b` or `2` are known, or strength reduct
 **Key insight:** Each phase transforms the representation while preserving semantics. The AST makes operator precedence explicit (multiplication before addition).
 
 ---
-
 
 ## Automata Theory and Formal Languages
 

@@ -96,7 +96,6 @@ Add 1: $11010110$.
 
 **Verification:** $11010110 = -128 + 64 + 0 + 16 + 0 + 4 + 2 + 0 = -128 + 86 = -42$. Correct.
 
-
 **Worked Example.** Represent $-100$ in 8-bit two's complement.
 
 $100 = 01100100$.
@@ -277,7 +276,6 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 | 0   | 1   | 1         | 0         | 0                 | 1                 | 1            |
 | 1   | 0   | 0         | 1         | 1                 | 0                 | 1            |
 | 1   | 1   | 0         | 0         | 0                 | 0                 | 0            |
-
 
 ### Half Adder and Full Adder
 
@@ -557,32 +555,32 @@ It can actually reduce their lifespan.
 
 ## Practice Questions
 
-19. Convert the decimal number $200$ to 8-bit binary.
+1. Convert the decimal number $200$ to 8-bit binary.
 
-20. Explain the difference between paging and segmentation in memory management.
+2. Explain the difference between paging and segmentation in memory management.
 
-21. A computer has a 32-bit address bus and runs at 3.2 GHz. Calculate the maximum addressable
+3. A computer has a 32-bit address bus and runs at 3.2 GHz. Calculate the maximum addressable
     memory and the maximum data transfer rate if the data bus is 64 bits wide.
 
-22. Explain three differences between BIOS and UEFI.
+4. Explain three differences between BIOS and UEFI.
 
-23. Design a truth table for the Boolean expression $(A \cdot B) + (ar{A} \cdot C)$.
+5. Design a truth table for the Boolean expression $(A \cdot B) + (ar{A} \cdot C)$.
 
-24. Explain the difference between contiguous and linked file allocation methods.
+6. Explain the difference between contiguous and linked file allocation methods.
 
-25. A program needs 20 KB of memory but the OS uses 4 KB pages. How many page table entries are
+7. A program needs 20 KB of memory but the OS uses 4 KB pages. How many page table entries are
     needed?
 
-26. Explain what a device driver is and why it is necessary. Give an example.
+8. Explain what a device driver is and why it is necessary. Give an example.
 
-27. Calculate the result of $1101_2 + 1011_2$. Show all carries.
+9. Calculate the result of $1101_2 + 1011_2$. Show all carries.
 
-28. Explain the principle of least privilege in the context of operating system security.
+10. Explain the principle of least privilege in the context of operating system security.
 
-29. A system has three processes: P1 (8 MB), P2 (16 MB), P3 (4 MB). The system has 32 MB of RAM.
+11. A system has three processes: P1 (8 MB), P2 (16 MB), P3 (4 MB). The system has 32 MB of RAM.
     Explain how virtual memory allows all three processes to run simultaneously.
 
-30. Explain the role of the kernel in an operating system. What is the difference between user mode
+12. Explain the role of the kernel in an operating system. What is the difference between user mode
     and kernel mode?
 
 ## Additional Number System Practice
@@ -672,26 +670,26 @@ Control integration.
 
 ## Additional Practice Questions
 
-31. Draw a truth table for the expression $\overline{A \cdot B} + A \cdot C$. Simplify using De
+1. Draw a truth table for the expression $\overline{A \cdot B} + A \cdot C$. Simplify using De
     Morgan's Laws.
 
-32. Explain the difference between a full adder and a half adder. Why is a full adder needed for
+2. Explain the difference between a full adder and a half adder. Why is a full adder needed for
     multi-bit addition?
 
-33. A computer uses 4 KB pages. A process requires 50 KB of memory. How many pages does it need?
+3. A computer uses 4 KB pages. A process requires 50 KB of memory. How many pages does it need?
     What happens if the system only has 10 free pages?
 
-34. Explain what a firewall does and give three examples of rules a firewall might enforce.
+4. Explain what a firewall does and give three examples of rules a firewall might enforce.
 
-35. Compare the three types of testing (unit, integration, system) with examples for each.
+5. Compare the three types of testing (unit, integration, system) with examples for each.
 
-36. Explain why an SSD has no moving parts and why this makes it more suitable for laptops than an
+6. Explain why an SSD has no moving parts and why this makes it more suitable for laptops than an
     HDD.
 
-37. A binary number has 12 bits. What is the maximum unsigned value it can represent? What is the
+7. A binary number has 12 bits. What is the maximum unsigned value it can represent? What is the
     range if it uses two's complement?
 
-38. Explain the purpose of each DNS record type (A, AAAA, CNAME, MX, NS) with examples.
+8. Explain the purpose of each DNS record type (A, AAAA, CNAME, MX, NS) with examples.
 
 ## Intuition
 
@@ -945,7 +943,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Cross-References

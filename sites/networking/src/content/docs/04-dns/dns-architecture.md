@@ -121,7 +121,6 @@ Serial number formats:
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
 Than the current value on all slaves.
 
-
 ### Zone Transfers
 
 **AXFR (Full Zone Transfer, RFC 5936):** The slave downloads the entire zone. Used for initial
@@ -313,7 +312,6 @@ Because the names are hashed. NSEC3 is recommended for zones that want to preven
 <aside class="starlight-aside starlight-aside--note">
 Brute-force the hashes for common names. NSEC3 with opt-out (unsigned delegations are not covered)
 Provides weaker security but better performance for large zones.
-
 
 ## Anycast DNS
 
@@ -650,7 +648,6 @@ Mitigations:
 Randomization was widely deployed, an attacker could poison any resolver within seconds. All modern
 Resolvers implement source port randomization and DNSSEC validation.
 
-
 ## Common Pitfalls
 
 ### 1. Not Monitoring DNS
@@ -745,7 +742,6 @@ kdig @https://dns.google example.com +https
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
 `dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
 Enterprises block DoH at the firewall to maintain control.
-
 
 ## DNS Performance Tuning
 

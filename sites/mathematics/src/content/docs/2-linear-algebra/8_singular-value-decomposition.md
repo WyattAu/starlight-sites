@@ -313,6 +313,5 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 - **[Inner Product Spaces](7_inner-product-spaces.md)**: The SVD uses orthonormal bases derived from inner products on the column and row spaces of a matrix.
 - **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: The pseudoinverse derived from the SVD provides minimum-norm least squares solutions to inconsistent linear systems.
 
-
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -84,16 +84,17 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
 - Common pitfalls and how to avoid them
 - Connections to other areas of physical chemistry
 
-
 ## Intuition
 
 Physical chemistry applies physics to chemical systems, asking why reactions happen and how fast. Thermodynamics determines spontaneity and equilibrium through energy and entropy, while kinetics measures reaction rates through activation energies and transition states. Quantum chemistry calculates molecular properties from first principles by solving the Schrodinger equation for electrons. Statistical mechanics bridges microscopic and macroscopic properties, connecting molecular energies to temperature and pressure. Spectroscopy probes molecular structure through light absorption, with different techniques revealing electronic, vibrational, and rotational energy levels. These tools let us predict and control chemical behavior from atomic-scale understanding.
+
 ## Study Tips
 
 1. **Build a strong foundation**: Ensure you understand the basic concepts before moving to advanced topics

@@ -31,7 +31,6 @@ addressing challenges related to housing, transport, pollution, inequality, and 
 
 **The key insight:** Urbanization concentrates both opportunities and challenges, creating complex systems that require careful planning and management
 
-
 ## Contents
 
 - [Urbanisation Trends and Patterns](./urban/urbanisation-trends-and-patterns) -- global

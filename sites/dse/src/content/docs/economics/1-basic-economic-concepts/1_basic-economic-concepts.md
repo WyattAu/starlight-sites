@@ -1050,20 +1050,20 @@ Loss of economic welfare.
 - Positive externalities (e.g., education, vaccination): Social benefit > Private benefit;
   under-production
 
-2. **Public goods:** Goods that are non-excludable (cannot prevent non-payers from consuming) and
+1. **Public goods:** Goods that are non-excludable (cannot prevent non-payers from consuming) and
    non-rivalrous (one person's consumption does not reduce availability for others). The free rider
    problem leads to under-provision.
 
-3. **Information asymmetry:** When one party has more information than the other (e.g., sellers know
+2. **Information asymmetry:** When one party has more information than the other (e.g., sellers know
    more about product quality than buyers). Leads to adverse selection and moral hazard.
 
-4. **Monopoly power:** A single seller can restrict output and raise prices above the competitive
+3. **Monopoly power:** A single seller can restrict output and raise prices above the competitive
    level, causing deadweight loss.
 
-5. **Factor immobility:** Resources (especially labour) may not move between industries or regions,
+4. **Factor immobility:** Resources (especially labour) may not move between industries or regions,
    causing structural unemployment.
 
-6. **Inequality:** The market may result in an unacceptable distribution of income and wealth.
+5. **Inequality:** The market may result in an unacceptable distribution of income and wealth.
 
 ### Government Intervention to Correct Market Failure
 

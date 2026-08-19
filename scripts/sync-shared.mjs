@@ -9,16 +9,19 @@
  * site and reports drift. Paired with the integrity test
  * (tests/unit/shared-sync.test.js) it makes drift impossible to merge.
  *
+ * The site list is derived from the sites/ directory via scripts/lib/sites.cjs
+ * (ADR-011) -- never hand-maintained here.
+ *
  * Canonical sources:
- *   shared/components/  -> sites/<site>/src/components/   (9 Astro sites)
- *   shared/utils/       -> sites/<site>/src/utils/        (9 Astro sites)
- *   shared/styles/      -> sites/<site>/src/styles/       (9 Astro sites)
+ *   shared/components/  -> sites/<site>/src/components/   (all Astro sites)
+ *   shared/utils/       -> sites/<site>/src/utils/        (all Astro sites)
+ *   shared/styles/      -> sites/<site>/src/styles/       (all Astro sites)
  *   search-api/page-search.js       -> sites/<site>/public/page-search.js
  *   search-api/cross-site-search.js -> sites/<site>/public/cross-site-search.js
  *
- * Sites receiving component/style copies: the 9 Astro sites (excludes main,
- * which is a static HTML landing page and has no src/components).
- * Sites receiving public/ scripts: all 10 (9 Astro sites + main).
+ * Sites receiving component/style copies: all Astro sites (excludes main,
+ * which is the landing page and has no src/components).
+ * Sites receiving public/ scripts: all sites (Astro sites + main).
  *
  * Usage:
  *   node scripts/sync-shared.mjs            # sync everything
@@ -31,59 +34,15 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync
 import { dirname, join, relative, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
+import sitesLib from './lib/sites.cjs'
+
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
 
-const ASTRO_SITES = [
-  'admissions',
-  'alevel',
-  'ap',
-  'cbse',
-  'chemistry',
-  'computer-science',
-  'civics-tests',
-  'cpp',
-  'dart',
-  'databases',
-  'driving-eu',
-  'driving-uk',
-  'driving-us',
-  'dse',
-  'elixir',
-  'gaokao',
-  'gcse',
-  'go',
-  'haskell',
-  'highers',
-  'hsc',
-  'ib',
-  'java',
-  'kotlin',
-  'language-tests',
-  'languages',
-  'leaving-cert',
-  'licensing',
-  'linux',
-  'machine-learning',
-  'mathematics',
-  'networking',
-  'physics',
-  'professional-certs',
-  'programming',
-  'python',
-  'ruby',
-  'rust',
-  'sat',
-  'security',
-  'swift',
-  'tools',
-  'truenas',
-  'tuning',
-  'typescript',
-]
-const ALL_SITES = [...ASTRO_SITES, 'main']
+const ASTRO_SITES = sitesLib.astroSites()
+const ALL_SITES = sitesLib.allSites()
 
-// (sourceDir, destSubpath) pairs that are recursively synced for the 9 Astro sites.
+// (sourceDir, destSubpath) pairs that are recursively synced for all Astro sites.
 const SHARED_DIRS = [
   ['shared/components', 'src/components'],
   ['shared/utils', 'src/utils'],

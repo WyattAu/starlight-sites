@@ -140,7 +140,6 @@ A **Josephson junction** consists of two superconductors separated by a thin ins
 
 The Josephson effects are the basis for SQUIDs, voltage standards, and superconducting qubits used in quantum computing.
 
-
 ## Cross-References
 
 - **[Electronic Band Structure](./5_electronic-band-structure.md)**: The density of states at the Fermi level determines the superconducting gap and critical temperature via the BCS formula.

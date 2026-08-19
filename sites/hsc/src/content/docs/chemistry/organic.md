@@ -23,7 +23,7 @@ HSC chemistry study notes - Organic
 ### Functional Groups
 
 | Functional Group | Formula | Suffix |
-|-----------------|---------|--------|
+| ----------------- | --------- | -------- |
 | Alkane | C-C | -ane |
 | Alkene | C=C | -ene |
 | Alcohol | -OH | -ol |
@@ -53,6 +53,7 @@ HSC chemistry study notes - Organic
 **Structural isomers:** Same molecular formula, different structural formula
 
 **Stereoisomers:** Same structural formula, different spatial arrangement
+
 - Geometric (cis-trans) isomerism
 - Optical isomerism
 
@@ -79,6 +80,7 @@ Step 3: Name: butan-2-ol
 **Solution:**
 
 Step 1: Identify the reactants:
+
 - Ethanoic acid: CH₃COOH
 - Ethanol: CH₃CH₂OH
 
@@ -98,6 +100,7 @@ Step 3: The product is an ester: ethyl ethanoate
 Step 1: Calculate degree of unsaturation: $\frac{2(4) + 2 - 10}{2} = 0$ (saturated)
 
 Step 2: Draw possible structures:
+
 - Straight chain: CH₃CH₂CH₂CH₃ (butane)
 - Branched: (CH₃)₃CH (2-methylpropane, isobutane)
 
@@ -172,10 +175,10 @@ Organic chemistry is the basis of pharmaceuticals, plastics, food science, and b
 
 ## Additional Exam Tips
 
-5. When naming compounds, always identify the longest chain containing the functional group
-6. Degree of unsaturation = $\frac{2C + 2 - H}{2}$ helps determine if rings or double bonds are present
-7. Esterification is reversible — use excess reagent or remove water to drive equilibrium
-8. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon
+1. When naming compounds, always identify the longest chain containing the functional group
+2. Degree of unsaturation = $\frac{2C + 2 - H}{2}$ helps determine if rings or double bonds are present
+3. Esterification is reversible — use excess reagent or remove water to drive equilibrium
+4. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon
 
 ## More Worked Examples
 
@@ -189,6 +192,7 @@ Step 1: Draw the structure:
 $$\text{CH}_3-\text{CH(OH)}-\text{CHO}$$
 
 Step 2: Identify functional groups:
+
 - $-\text{OH}$: hydroxyl group (alcohol)
 - $-\text{CHO}$: aldehyde group
 

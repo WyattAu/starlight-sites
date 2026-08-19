@@ -41,9 +41,9 @@ the splitting field of a separable polynomial over $F$.
 - $K \mapsto \mathrm{Gal}(E/K)$.
 - $H \mapsto E^H = \{x \in E : \sigma(x) = x\ \mathrm{for\ all\ }\sigma \in H\}$.
 
-2. $[E : K] = |\mathrm{Gal}(E/K)|$ and $[K : F] = [\mathrm{Gal}(E/F) : \mathrm{Gal}(E/K)]$.
+1. $[E : K] = |\mathrm{Gal}(E/K)|$ and $[K : F] = [\mathrm{Gal}(E/F) : \mathrm{Gal}(E/K)]$.
 
-3. $K/F$ is Galois if and only if $\mathrm{Gal}(E/K) \trianglelefteq \mathrm{Gal}(E/F)$In which case
+2. $K/F$ is Galois if and only if $\mathrm{Gal}(E/K) \trianglelefteq \mathrm{Gal}(E/F)$In which case
    $\mathrm{Gal}(K/F) \cong \mathrm{Gal}(E/F) / \mathrm{Gal}(E/K)$.
 
 ### 13.3 Worked Example
@@ -146,4 +146,3 @@ Galois theory reveals the deep connection between field extensions and group the
 ## Common Pitfalls
 
 - **Splitting field degree vs.\ polynomial degree.** The degree $[E:\mathbb{Q}]$ of a splitting field is not always equal to the degree of the polynomial; it equals the order of the Galois group, which can be larger (e.g.\ $x^3-2$ has degree 3 but $[E:\mathbb{Q}]=6$).
-

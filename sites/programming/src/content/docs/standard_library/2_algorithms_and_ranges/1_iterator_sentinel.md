@@ -615,7 +615,6 @@ Range is infinite (or at least large enough). If the range is shorter than the a
 You get buffer overread — and unlike with bounds-checked iterators, there is no diagnostic. Use this
 Only when you have proven the bounds at a higher level.
 
-
 ## Summary
 
 This topic covers the core concepts of iterator-sentinel model, including underlying theory,
@@ -633,6 +632,7 @@ Understanding these concepts thoroughly is essential for both examinations and p
 programming, and requires both theoretical knowledge and hands-on practice.
 
 ## See Also
+
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -641,4 +641,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

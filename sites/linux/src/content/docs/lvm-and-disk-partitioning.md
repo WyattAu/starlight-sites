@@ -100,7 +100,6 @@ GPT disk layout:
 <aside class="starlight-aside starlight-aside--note">
 disks, and GPT"s backup table provides redundancy against corruption at the start of the Disk.
 
-
 ### Sector Size
 
 | Sector Size | Common On              | Notes                                                |
@@ -178,7 +177,6 @@ PARTUUID=12345678-1234-1234-1234-123456789abc  /mnt/data  ext4  defaults  0  2
 Table itself (not the filesystem), so it survives filesystem recreation and works on raw partitions.
 Modern distributions use PARTUUID in their default fstab entries.
 
-
 ## Partitioning Tools
 
 ### fdisk
@@ -238,7 +236,6 @@ parted /dev/sdb --script align-check optimal 1
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 `blockdev --rereadpt` after running parted scripts, or reboot.
-
 
 ### sgdisk
 
@@ -461,7 +458,6 @@ tune2fs -i 0 /dev/sda1       # ext4: set interval to 0 (disable)
 A live mounted filesystem will cause corruption. The only exception is `/` (root), which can be
 Checked at boot time by setting the `pass` field in `/etc/fstab` to 1.
 
-
 ### ext4-specific Maintenance
 
 ```bash
@@ -549,7 +545,6 @@ Used for databases requiring absolute data integrity guarantees. `writeback` mod
 Faster but can leave stale data in files after a crash (zero-length files can appear to have old
 Content).
 
-
 ## LVM Architecture
 
 **Definition.** The Logical Volume Manager (LVM) is a storage management framework that abstracts
@@ -633,7 +628,6 @@ A typical production layout:
 <aside class="starlight-aside starlight-aside--note">
 Provides a layer of protection — if LVM metadata is corrupted, partition boundaries remain visible
 To non-LVM tools for recovery.
-
 
 ## LVM Operations
 
@@ -777,7 +771,6 @@ lvextend -r -L +50G /dev/vg_data/lv_mysql             # -r = --resizefs
 <aside class="starlight-aside starlight-aside--caution">
 Common source of errors. The `lvextend -r` shortcut does not work with XFS.
 
-
 ### Shrinking Filesystems (Offline)
 
 Shrinking is **not supported online** for most filesystems. The filesystem must be unmounted first.
@@ -808,7 +801,6 @@ mount /dev/vg_data/lv_logs /mnt/logs
 <aside class="starlight-aside starlight-aside--caution">
 Shrinking. XFS and Btrfs **cannot** be shrunk at all. Always have a backup before shrinking any
 Filesystem.
-
 
 ### Adding a PV to a VG (Adding Storage to an Existing Pool)
 
@@ -882,7 +874,6 @@ Back. Monitor `snap_percent` closely. Overestimate the CoW size — unused CoW s
 Safe; CoW space that is too small is catastrophic. A good rule of thumb is 10-20% of the origin LV
 Size for low-write volumes, or up to 50% for high-write volumes.
 
-
 ### Using Snapshots for Backups
 
 ```bash
@@ -919,7 +910,6 @@ lvs -a -o+origin,merge_failed
 <aside class="starlight-aside starlight-aside--caution">
 Was created. All changes since the snapshot are lost. The snapshot itself is deleted after a
 Successful merge.
-
 
 ### Snapshot Limitations
 
@@ -1085,7 +1075,6 @@ Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
 On it as your only protection.
 
-
 ## mdadm Software RAID
 
 ### RAID Levels
@@ -1223,7 +1212,6 @@ mdadm --create /dev/md0 --level=1 --raid-devices=2 \
 Places metadata at the 4 KiB offset, avoiding conflicts with partition tables and making it easy to
 Use whole disks as array members.
 
-
 ## Swap Management
 
 ### Swap Partitions
@@ -1285,7 +1273,6 @@ And the file must not be copy-on-write. Use `chattr +C` on the containing direct
 The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
 Files may not work at all — use a swap partition or swap file on a loop device instead.
 
-
 ### Swappiness
 
 The `vm.swappiness` kernel parameter controls how aggressively the kernel swaps anonymous memory
@@ -1344,7 +1331,6 @@ zramctl
 <aside class="starlight-aside starlight-aside--note">
 Systems with ample RAM, zram adds CPU overhead for compression/decompression with little benefit.
 Use disk swap (or no swap) on systems with 16+ GiB of RAM.
-
 
 ## Disk Monitoring
 
@@ -1893,10 +1879,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 LVM is like having a storage system with rubber walls -- you can resize, move, and rearrange partitions without unplugging drives or losing data. Physical volumes are the raw drives, volume groups are pools of storage assembled from multiple drives, and logical volumes are the partitions you actually use. The key advantage over traditional partitioning is flexibility: if you run out of space on one volume, you can add a new drive to the pool and extend the volume without downtime. Snapshots in LVM are like taking a photograph of your storage at a point in time -- useful for backups and testing. Think of LVM as the difference between carved-in-stone partitions and adjustable shelves.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

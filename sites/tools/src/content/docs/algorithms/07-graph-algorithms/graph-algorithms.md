@@ -191,7 +191,6 @@ def floyd_warshall(n, edges):
 For sparse graphs with large $V$Run Dijkstra from each vertex: $O(V(V+E)\log V)$ which is
 $O(V^2 \log V)$ for sparse graphs, much better than $O(V^3)$.
 
-
 ### A\* Search
 
 A\* extends Dijkstra with a heuristic function $h(v)$ that estimates the cost from vertex $v$ to the
@@ -246,7 +245,7 @@ $h(v) \le \mathrm{actual distance from  v
 | Euclidean space      | Euclidean distance                   | Yes            |
 | Road networks        | Euclidean or precomputed lower bound | If well-chosen |
 
-A* with an admissible heuristic is optimal. If the heuristic is not admissible, A* may find a
+A*with an admissible heuristic is optimal. If the heuristic is not admissible, A* may find a
 Suboptimal path but will be faster. If $h(v) = 0$ for all $v$A\* degrades to Dijkstra.
 
 ## Minimum Spanning Trees
@@ -350,7 +349,6 @@ def prim(n, graph):
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
-
 
 ## Strong Connectivity
 

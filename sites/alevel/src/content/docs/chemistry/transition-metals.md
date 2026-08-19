@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**

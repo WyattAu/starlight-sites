@@ -32,7 +32,6 @@ Students to present OOP concepts
 
 **The key insight:** Encapsulation, inheritance, and polymorphism allow programmers to model real-world entities and relationships in code
 
-
 ## Conventions
 
 ### Styles

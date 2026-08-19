@@ -599,33 +599,33 @@ The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$
 
 ## Additional Practice Questions
 
-5. Write a Python function that implements a queue using only a list (no `collections.deque`). What
+1. Write a Python function that implements a queue using only a list (no `collections.deque`). What
    is the time complexity of enqueue and dequeue?
 
-6. Design an FSM for a digital lock that accepts a 3-digit PIN. The lock unlocks only when the
+2. Design an FSM for a digital lock that accepts a 3-digit PIN. The lock unlocks only when the
    correct sequence is entered.
 
-7. Write a regex that validates Irish car registration plates in the format XX-CC-XXXXXX (2 letters,
+3. Write a regex that validates Irish car registration plates in the format XX-CC-XXXXXX (2 letters,
    2 digits, 1-6 digits).
 
-8. Explain the difference between backtracking and divide and conquer. Give an example of each.
+4. Explain the difference between backtracking and divide and conquer. Give an example of each.
 
-9. Write a Python function that implements the activity selection greedy algorithm. Trace it on the
+5. Write a Python function that implements the activity selection greedy algorithm. Trace it on the
    activities [(1,3), (2,5), (4,7), (6,9), (8,10)].
 
-10. Explain why the greedy coin change algorithm fails for coin denominations {1, 3, 4} with amount
-11. Show the greedy result and the optimal result.
+6. Explain why the greedy coin change algorithm fails for coin denominations {1, 3, 4} with amount
+7. Show the greedy result and the optimal result.
 
-12. Design a finite state machine for a microwave oven. States: Idle, Cooking, Paused, DoorOpen.
+8. Design a finite state machine for a microwave oven. States: Idle, Cooking, Paused, DoorOpen.
 
-13. Write a regex that matches UK phone numbers in the format 0XXXX XXXXXX or +44 XXXX XXXXXX.
+9. Write a regex that matches UK phone numbers in the format 0XXXX XXXXXX or +44 XXXX XXXXXX.
 
-14. Explain the concept of an invariant in the context of algorithm correctness. Give an example
+10. Explain the concept of an invariant in the context of algorithm correctness. Give an example
     from bubble sort.
 
-15. Write a Python function that solves the N-Queens problem for N=8. How many solutions are there?
+11. Write a Python function that solves the N-Queens problem for N=8. How many solutions are there?
 
-16. Compare the time complexity of bubble sort, insertion sort, merge sort, and quick sort. When
+12. Compare the time complexity of bubble sort, insertion sort, merge sort, and quick sort. When
     would you use each?
 
 ## Abstract Data Types in Practice (HL)
@@ -750,10 +750,10 @@ def coin_change_dp(amount, coins):
 
 ## Additional Practice Questions
 
-9. Write a Python function that implements a priority queue. Items should be dequeued in order of
+1. Write a Python function that implements a priority queue. Items should be dequeued in order of
    priority (highest first).
 
-10. Prove that the following procedure correctly finds the minimum value in an array:
+2. Prove that the following procedure correctly finds the minimum value in an array:
 
 ```
 PROCEDURE findMin(list)
@@ -764,25 +764,25 @@ PROCEDURE findMin(list)
     RETURN min
 ```
 
-11. Design an FSM for a combination lock that requires the sequence 3-5-1 to open. The lock should
+1. Design an FSM for a combination lock that requires the sequence 3-5-1 to open. The lock should
     reset if an incorrect digit is entered.
 
-12. Write a regex that matches valid email addresses. Requirements: one or more characters before @,
+2. Write a regex that matches valid email addresses. Requirements: one or more characters before @,
     one or more characters after @, a dot, and a domain of 2-4 characters.
 
-13. Explain the difference between the greedy and dynamic programming approaches to the coin change
+3. Explain the difference between the greedy and dynamic programming approaches to the coin change
     problem. Give a specific example where the greedy approach fails.
 
-14. Write a Python function that checks whether two strings are anagrams. What is the time
+4. Write a Python function that checks whether two strings are anagrams. What is the time
     complexity of your solution?
 
-15. Design an FSM for a vending machine that accepts 10p, 20p, and 50p coins and dispenses items
+5. Design an FSM for a vending machine that accepts 10p, 20p, and 50p coins and dispenses items
     costing 60p. Include change-returning functionality.
-
 
 ## Intuition
 
 Computational thinking is like being a detective -- you break down complex crimes (problems) into smaller clues (decomposition), look for patterns (pattern recognition), focus on what matters (abstraction), and design a step-by-step investigation (algorithms). Finite state machines are like traffic lights: they have a fixed set of states and specific rules for transitioning between them. Regular expressions are like search warrants: they define exactly what you are looking for in a sea of text. The key insight is that computational thinking is not about computers -- it is a problem-solving methodology that applies to any complex system.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -811,7 +811,7 @@ while x > 0:
     x = x - 2
 ```
 
-4. What is abstraction? Give an example from everyday life.
+1. What is abstraction? Give an example from everyday life.
 
 ### Higher Level
 

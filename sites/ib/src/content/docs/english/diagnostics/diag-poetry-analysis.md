@@ -27,7 +27,6 @@ Answer each question. Check your answers against the key at the end.
 
 **The key insight:** Effective poetry analysis connects technical elements (form, sound, imagery) to thematic meaning and emotional impact
 
-
 ## Questions
 
 **1.** What is the primary function of enjambment in poetry?
@@ -93,7 +92,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | Enjambment runs a sentence over a line break without punctuation, creating momentum and urgency or blurring syntactic boundaries. |
 | 2 | (B) | Personification gives human characteristics to non-human things, enabling poets to explore abstract concepts or emotional states. |
 | 3 | (B) | Unseen poetry in Paper 1 requires students to analyse unfamiliar poems using skills developed through class study. |

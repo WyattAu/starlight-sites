@@ -652,7 +652,6 @@ Inflationary, not growth-promoting. (3) Second-round effects: higher import pric
 Demands, creating a wage-price spiral.
 </details>
 
-
 <aside class="starlight-aside starlight-aside--danger">
 - **Confusing shifts with movements along AD/SRAS:** An increase in the price level does NOT shift
   the AD curve -- it causes a movement along it. Only changes in the components of AD (C, I, G, X-M)
@@ -811,6 +810,7 @@ promoting long-run economic growth." Evaluate this statement using the AD/AS fra
   demand-side and supply-side policy).
 - Conclusion: the statement is largely correct for long-run growth, but ignores the essential role
 of demand management.
+
 </details>
 
 **Question 2 (12 marks).** An economy has AD: $Y = 900 - 3P$ and SRAS: $Y = 4P - 300$. (a) Find the

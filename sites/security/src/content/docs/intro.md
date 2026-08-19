@@ -117,7 +117,6 @@ Cybersecurity is the practice of protecting systems, networks, and data from dig
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
 ## Overview
 
 This introduction provides comprehensive coverage of Security content for the Infrastructure qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -166,6 +165,7 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
+
 </aside>
 ---
 

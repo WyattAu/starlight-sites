@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The electrochemical series ranks elements by their tendency to lose or gain electrons, predicting reaction direction
 
-
 ## 1. Electrochemical Cells
 
 ### Galvanic (Voltaic) Cells
@@ -98,7 +97,6 @@ Cathode (reduction): $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu} \qquad E^\circ = +
 $$
 E_{\mathrm{cell}}^\circ = 0.34 - (-0.76) = +1.10\mathrm{ V}
 $$
-
 
 ### Predicting Spontaneity
 
@@ -180,7 +178,6 @@ $$
 
 The extremely large $K$ confirms that the reaction proceeds essentially to completion.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -236,7 +233,6 @@ $$
 M = \frac{3600 \times 63.55}{2 \times 96485} = \frac{228780}{192970} = 1.19\mathrm{ g}
 $$
 
-
 ### Electrolysis of Aqueous Solutions
 
 When electrolysing aqueous solutions, water can also be oxidized or reduced:
@@ -276,7 +272,6 @@ Water is oxidised instead)
 
 The solution becomes acidic as $\mathrm{H}^+$ accumulates at the anode.
 
-
 ### Electrolysis of Molten Salts
 
 No water present, so only the ions from the salt are discharged.
@@ -289,7 +284,6 @@ Cathode: $\mathrm{Na}^+ + e^- \to \mathrm{Na}(l)$
 Anode: $2\mathrm{Cl}^- \to \mathrm{Cl}_2(g) + 2e^-$
 
 This is the Downs process for industrial sodium production.
-
 
 ### Common Pitfalls
 
@@ -1007,7 +1001,7 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$And calculate the voltage efficiency
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Oxidation numbers and balancing redox equations** → Review
   [..../9-redox/1_redox-reactions](../9-redox/1_redox-reactions)
@@ -1035,6 +1029,5 @@ underlying theories, and practical applications.
 
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
-
 
 </aside>

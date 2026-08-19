@@ -399,7 +399,7 @@ export module Config;
 export constexpr int DEBUG_FLAG = 1;  // Type-safe, exported, works with modules
 ```
 
-2. **Global Module Fragment** (for legacy macros that cannot be converted):
+1. **Global Module Fragment** (for legacy macros that cannot be converted):
 
 ```cpp
 module;
@@ -408,7 +408,7 @@ module;
 export module WinWrapper;
 ```
 
-3. **Predefined macros** (compiler-defined macros like `__FILE__``__LINE__``NDEBUG`) are always
+1. **Predefined macros** (compiler-defined macros like `__FILE__``__LINE__``NDEBUG`) are always
    available regardless of modules. These are not affected by the module boundary because they are
    injected by the compiler, not the preprocessor in the traditional sense.
 

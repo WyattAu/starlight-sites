@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -453,8 +452,6 @@ At $m = 1$: $x = -\ln 1 = 0$And the tangent at the origin has gradient $e^0(1-0)
 Confirmed.
 
 The only solution is $m = 1$.
-
-
 
 ## Cross-References
 

@@ -78,6 +78,7 @@ With $\text{NaOH}$ (strong nucleophile) in ethanol, SN2 is favoured. With water 
 $$\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{CH}_3\text{CH}_2\text{CH}=\text{CH}_2$$
 
 By Saytzeff's rule, the more substituted alkene (2-butene) is the major product:
+
 - Major product: 2-butene (disubstituted)
 - Minor product: 1-butene (monosubstituted)
 

@@ -88,6 +88,7 @@ Unpaired electrons: 1
 **Cu$^{2+}$:** Configuration $3d^9$. Nine d electrons with one vacancy. The d-d transition absorbs in the red-orange region, so the transmitted light appears blue.
 
 The color depends on:
+
 1. The number of d electrons (determines which transitions are possible)
 2. The ligand field strength (affects the energy gap $\Delta$)
 3. The geometry (octahedral, tetrahedral)

@@ -22,19 +22,21 @@ deploy normally; only the search index does not refresh.
 
 1. Add domain property: `wyattau.com` (covers all subdomains)
 2. Verify via DNS TXT record
-3. Submit sitemaps:
+3. Submit sitemaps (all Astro sites; full derived list via
+   `node scripts/list-sites.js --urls`):
 
 | Site | Sitemap URL |
 |------|-------------|
 | DSE | https://dse.wyattau.com/sitemap-index.xml |
 | IB | https://ib.wyattau.com/sitemap-index.xml |
 | A-Level | https://alevel.wyattau.com/sitemap-index.xml |
-| University | https://university.wyattau.com/sitemap-index.xml |
-| Qualifications | https://qualifications.wyattau.com/sitemap-index.xml |
 | Programming | https://programming.wyattau.com/sitemap-index.xml |
-| Infrastructure | https://infrastructure.wyattau.com/sitemap-index.xml |
 | Languages | https://languages.wyattau.com/sitemap-index.xml |
 | Tools | https://tools.wyattau.com/sitemap-index.xml |
+
+(The university/qualifications/infrastructure subdomains were decommissioned
+when those sites were split into the subject sites -- see ADR-011. Their
+sitemap entries are removed; GSC properties can be archived.)
 
 ## Cloudflare Web Analytics
 

@@ -536,8 +536,6 @@ Kinematics is the language of motion stripped bare of its causes. Imagine filmin
 
 </aside>
 
-
-
 ## Cross-References
 
 - **[Momentum](05-momentum):** Kinematics describes motion

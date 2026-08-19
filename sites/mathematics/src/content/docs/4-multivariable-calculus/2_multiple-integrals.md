@@ -312,7 +312,6 @@ The key to setting up multiple integrals is describing the region correctly. Typ
 - **Region description.** When swapping integration order, carefully redraw the region and re-derive
   the bounds. The new bounds may require splitting the integral into multiple pieces.
 
-
 </aside>
 
 ## Cross-References

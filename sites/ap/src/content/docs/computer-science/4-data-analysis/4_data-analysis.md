@@ -125,7 +125,6 @@ public static int[] rowSums(int[][] grid) {
 }
 ```
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Transpose a Matrix</strong>
@@ -144,7 +143,6 @@ public static int[][] transpose(int[][] matrix) {
 ```
 
 Time complexity: $O(r \times c)$ where $r$ is rows and $c$ is columns.
-
 
 ## Lists in AP CSP
 
@@ -474,6 +472,7 @@ double d = (double) 5 / 2;  // 2.5
 ```
 
 > **Caution:** Always cast to `double` before division when you need a decimal result.
+>
 ## Practice Questions
 
 1. Write a Java method that finds and returns the mode (most frequent element) in an array of
@@ -961,7 +960,6 @@ linked above.
 ## Intuition
 
 The digital world runs on algorithms and data. From search engines to social media, software systems process information through carefully designed procedures. Computer science teaches us to think systematically about problems, design efficient solutions, and understand the technologies that shape modern life. These skills are essential for innovation in every field.
-
 
 ## Cross-References
 

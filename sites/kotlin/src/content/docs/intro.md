@@ -195,6 +195,7 @@ kotlin {
   different concurrency model, different performance profile.
 - \*\* Using `kotlinc` directly for production builds. Always use Gradle or Maven for dependency
   management, incremental compilation, and reproducible builds.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for kotlin notes.

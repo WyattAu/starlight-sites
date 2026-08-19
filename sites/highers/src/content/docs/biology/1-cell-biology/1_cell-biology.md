@@ -452,8 +452,8 @@ Functions can be studied.
 - Isotonic: to prevent organelles from bursting or shrinking due to osmotic effects.
 - Buffered: to maintain a constant pH, as enzyme activity is pH-dependent.
 
-2. The homogenate is filtered to remove unbroken cells and debris.
-3. The filtrate is subjected to differential centrifugation:
+1. The homogenate is filtered to remove unbroken cells and debris.
+2. The filtrate is subjected to differential centrifugation:
 
 - Low speed: heavy organelles (nuclei) pellet first.
 - Higher speed: mitochondria, chloroplasts, lysosomes pellet next.

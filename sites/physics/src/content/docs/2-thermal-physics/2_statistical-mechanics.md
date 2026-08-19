@@ -247,7 +247,6 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble extends the canonical formalism to systems that exchange particles with a reservoir.
 - **[The Ising Model](6_the-ising-model.md)**: The Ising model is a foundational statistical mechanics model for studying phase transitions and magnetic ordering.
 
-
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

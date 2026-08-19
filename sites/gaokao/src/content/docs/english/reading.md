@@ -25,6 +25,7 @@ description: "高考 english: Reading"
 **主旨大意题：** 考查对文章主旨和中心思想的理解。
 
 常见提问方式：
+
 - What is the main idea of the passage?
 - What is the best title for the passage?
 - The passage is mainly about...
@@ -32,6 +33,7 @@ description: "高考 english: Reading"
 **细节理解题：** 考查对文中具体信息的理解和记忆。
 
 常见提问方式：
+
 - According to the passage...
 - Which of the following is TRUE?
 - What does the author say about...?
@@ -39,6 +41,7 @@ description: "高考 english: Reading"
 **推理判断题：** 考查根据文中信息进行推理判断的能力。
 
 常见提问方式：
+
 - It can be inferred from the passage that...
 - The author implies that...
 - What will the author most likely discuss next?
@@ -46,6 +49,7 @@ description: "高考 english: Reading"
 **词义猜测题：** 考查根据上下文推测词义的能力。
 
 常见提问方式：
+
 - The underlined word "..." probably means...
 - What does "..." refer to in paragraph X?
 

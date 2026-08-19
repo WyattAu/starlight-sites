@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -518,8 +517,6 @@ m$^2$/\pounds).
 **Confusing the vertex form with the standard form:** The vertex form $y = a(x-h)^2 + k$ has its vertex at $(h, k)$, not $(-h, k)$. The sign inside the bracket is opposite to the $x$-coordinate of the vertex. Students often write the vertex as $(h, k)$ when it should be $(-h, k)$ if the form is $y = a(x+h)^2 + k$.
 
 **Misapplying Vieta's formulas:** For $ax^2 + bx + c = 0$ with roots $\alpha$ and $\beta$: $\alpha + \beta = -b/a$ (note the minus sign) and $\alpha\beta = c/a$. Students often forget the minus sign in the sum of roots, writing $\alpha + \beta = b/a$ instead.
-
-
 
 ## Cross-References
 

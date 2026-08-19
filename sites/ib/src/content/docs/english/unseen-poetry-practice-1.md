@@ -37,7 +37,7 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 ### 1.1 Key Contextual Information
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Poet | Seamus Heaney (1939--2013) |
 | Collection | *Death of a Naturalist* (1966) |
 | Form | Free verse, eight stanzas of varying length |
@@ -72,7 +72,6 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 
 **The key insight:** Success with unseen poems comes from identifying key techniques, tracking emotional shifts, and connecting details to themes
 
-
 ## 2. Close Reading: Stanza-by-Stanza Analysis
 
 ### Stanza 1: The Present Moment
@@ -103,7 +102,7 @@ The hyperbole here is significant: the father is measured against other men, and
 
 The detail of the "corked sloppily with paper" is a masterclass in the IB principle of specific detail. The sloppiness of the cork suggests the child's imperfect effort, the eagerness or carelessness of youth. It also evokes a particular social and economic context -- this is not a household with proper bottle stoppers. The tenderness of the gesture (carrying milk to a working father) is conveyed entirely through concrete detail, never through sentimentality.
 
-**Examiner Commentary**: The sloppily corked bottle is the kind of detail that distinguishes a sophisticated response. Candidates who can explain _how_ a single detail encodes multiple layers of meaning -- class, affection, youth, imperfection -- demonstrate the analytical depth required for the highest marks.
+**Examiner Commentary**: The sloppily corked bottle is the kind of detail that distinguishes a sophisticated response. Candidates who can explain *how* a single detail encodes multiple layers of meaning -- class, affection, youth, imperfection -- demonstrate the analytical depth required for the highest marks.
 
 ### Stanzas 6--7: The Grandfather
 
@@ -191,7 +190,7 @@ The circular structure is crucial to the poem's meaning. When the speaker return
 ### 5.1 Assessment Objectives
 
 | Objective | How This Response Addresses It |
-|-----------|-------------------------------|
+| ----------- | ------------------------------- |
 | AO1: Understanding | Demonstrates thorough comprehension of the poem's literal and figurative levels |
 | AO2: Analysis | Explains how specific techniques (simile, sensory imagery, circular structure) produce meaning |
 | AO3: Evaluation | Assesses the significance of structural choices and their effect on the reader |
@@ -202,7 +201,7 @@ The circular structure is crucial to the poem's meaning. When the speaker return
 The model response above aligns with the following criteria for a top-band Paper 1 answer:
 
 - **Knowledge, understanding, and interpretation**: The response demonstrates a precise understanding of the poem's content, context, and figurative language. Quotations are accurately deployed and interpreted.
-- **Analysis and evaluation**: The response explains _how_ the poem's techniques produce meaning, not merely _what_ those techniques are. The analysis of the circular structure and the "snug as a gun" simile exemplifies this.
+- **Analysis and evaluation**: The response explains *how* the poem's techniques produce meaning, not merely *what* those techniques are. The analysis of the circular structure and the "snug as a gun" simile exemplifies this.
 - **Focus and organisation**: The response is structured around a clear argument (the metaphor of digging as creative labour) and moves logically from opening image through development to conclusion.
 - **Language**: The response uses precise literary terminology (simile, enjambment, circular structure, extended metaphor) and maintains a formal, analytical register throughout.
 
@@ -223,7 +222,7 @@ After completing your own analysis of "Digging," review your response against th
 
 1. Did you identify the poem's central metaphor and explain how it develops across the stanzas?
 2. Did you analyse at least three specific techniques with embedded quotations?
-3. Did you explain _how_ each technique produces meaning, not merely _what_ the technique is?
+3. Did you explain *how* each technique produces meaning, not merely *what* the technique is?
 4. Did you address the poem's structure and explain how it contributes to meaning?
 5. Did you consider the significance of the circular structure (beginning and ending with the pen)?
 6. Did you use precise literary terminology throughout?

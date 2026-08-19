@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function
 
-
 ## Unit Tests
 
 ### UT-1: DNA Replication — Leading and Lagging Strand
@@ -287,8 +286,6 @@ The combined effect: at lower pH and higher $\text{CO}_2$ (as found in actively 
 the oxygen dissociation curve shifts to the right. At any given partial pressure of
 $\text{O}_2$Haemoglobin releases more $\text{O}_2$. This ensures that oxygen delivery is matched to
 metabolic demand -- tissues that are respiring most actively receive the most oxygen.
-
-
 
 ## Cross-References
 

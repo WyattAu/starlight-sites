@@ -576,37 +576,37 @@ def validate_password(password):
 
 ## Additional Practice Questions
 
-19. Explain the difference between high cohesion and low coupling. Why are both desirable?
+1. Explain the difference between high cohesion and low coupling. Why are both desirable?
 
-20. Design a sequence diagram for a user logging into a system. Include the user, the web server,
+2. Design a sequence diagram for a user logging into a system. Include the user, the web server,
     the database, and the authentication service.
 
-21. Write a Haskell function that takes a list of integers and returns a new list containing only
+3. Write a Haskell function that takes a list of integers and returns a new list containing only
     the positive even numbers.
 
-22. Explain the SOLID principles. Give an example of violating the Single Responsibility Principle
+4. Explain the SOLID principles. Give an example of violating the Single Responsibility Principle
     and show how to fix it.
 
-23. Write a Python class `BankAccount` with methods for deposit, withdraw, and get_balance. Include
+5. Write a Python class `BankAccount` with methods for deposit, withdraw, and get_balance. Include
     validation (no negative deposits, no overdrafts).
 
-24. Explain the difference between a state transition diagram and a sequence diagram. When would you
+6. Explain the difference between a state transition diagram and a sequence diagram. When would you
     use each?
 
-25. Write pseudocode for a function that validates an email address. Check for the presence of @ and
+7. Write pseudocode for a function that validates an email address. Check for the presence of @ and
     at least one . After the @.
 
-26. Explain why functional programming is becoming more popular. Give two advantages and two
+8. Explain why functional programming is becoming more popular. Give two advantages and two
     disadvantages compared to imperative programming.
 
-27. Design a class diagram for an online shopping system with classes for User, Product, Order, and
+9. Design a class diagram for an online shopping system with classes for User, Product, Order, and
     OrderItem. Show relationships and key attributes.
 
-28. Write a Python function that implements merge sort. Include comments explaining each step.
+10. Write a Python function that implements merge sort. Include comments explaining each step.
 
-29. Explain what test-driven development (TDD) is. Describe the red-green-refactor cycle.
+11. Explain what test-driven development (TDD) is. Describe the red-green-refactor cycle.
 
-30. A function `calculateDiscount(price, customerType)` applies discounts: students get 10%, staff
+12. A function `calculateDiscount(price, customerType)` applies discounts: students get 10%, staff
     get 20%, everyone else gets 5% on orders over 100 pounds. Using boundary value analysis,
     identify all test cases.
 
@@ -674,26 +674,26 @@ def add(a, b):
 
 ## Additional Practice Questions
 
-31. Write a Python function that implements a linked list with append, delete, and search methods.
+1. Write a Python function that implements a linked list with append, delete, and search methods.
     What is the time complexity of each?
 
-32. Explain the difference between a syntax error, a logic error, and a runtime error. Give a Python
+2. Explain the difference between a syntax error, a logic error, and a runtime error. Give a Python
     example of each.
 
-33. Design a test plan for a vending machine program. Include test cases for normal operation,
+3. Design a test plan for a vending machine program. Include test cases for normal operation,
     boundary conditions, and error handling.
 
-34. Explain three advantages of test-driven development. Give a scenario where TDD would be
+4. Explain three advantages of test-driven development. Give a scenario where TDD would be
     particularly beneficial.
 
-35. Write a Python decorator that measures the execution time of a function.
+5. Write a Python decorator that measures the execution time of a function.
 
-36. Compare the waterfall and agile methodologies. For each, give a type of project where it is the
+6. Compare the waterfall and agile methodologies. For each, give a type of project where it is the
     better choice.
 
-37. Explain what cyclomatic complexity is and why keeping it low is important.
+7. Explain what cyclomatic complexity is and why keeping it low is important.
 
-38. Write a Python function that implements binary search on a sorted list. Include unit tests that
+8. Write a Python function that implements binary search on a sorted list. Include unit tests that
     cover normal, boundary, and error cases.
 
 ---
@@ -707,10 +707,10 @@ def add(a, b):
 }
 </script>
 
-
 ## Intuition
 
 Software development is like building a house -- you need a blueprint (design), raw materials (code), and a construction process (testing). The waterfall model is like building in strict sequence: foundation, walls, roof, then interior. Agile is like building room by room, getting feedback after each one. Object-oriented programming is like building with prefabricated modules: each class is a room with a defined interface (doors and windows) and hidden internals (furniture and wiring). The key insight is that good software design is about managing complexity -- the bigger the project, the more important the architecture.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

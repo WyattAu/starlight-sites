@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** Relational databases use keys and relationships to minimize redundancy and maintain data integrity
 
-
 ## Database Fundamentals
 
 ### Flat File vs Relational Database
@@ -390,8 +389,8 @@ In the Course table above:
 
 | courseID | courseTitle | teacherName | teacherEmail     |
 | -------- | ----------- | ----------- | ---------------- |
-| 101      | Math        | Mr. Smith   | smith@school.edu |
-| 102      | Physics     | Ms. Jones   | jones@school.edu |
+| 101      | Math        | Mr. Smith   | <smith@school.edu> |
+| 102      | Physics     | Ms. Jones   | <jones@school.edu> |
 
 Primary key: courseID
 
@@ -414,8 +413,8 @@ Email (deletion anomaly).
 
 | teacherID | teacherName | teacherEmail     |
 | --------- | ----------- | ---------------- |
-| T1        | Mr. Smith   | smith@school.edu |
-| T2        | Ms. Jones   | jones@school.edu |
+| T1        | Mr. Smith   | <smith@school.edu> |
+| T2        | Ms. Jones   | <jones@school.edu> |
 
 ### Summary of Normal Forms
 
@@ -480,9 +479,9 @@ Normalize the following unnormalized table to 3NF:
 
 | rentalID | customerName | customerEmail   | movieTitle | genre  | dailyRate | rentalDate | returnDate |
 | -------- | ------------ | --------------- | ---------- | ------ | --------- | ---------- | ---------- |
-| R001     | Alice        | alice@email.com | Inception  | Sci-Fi | 3.50      | 2025-03-01 | 2025-03-05 |
-| R002     | Alice        | alice@email.com | Titanic    | Drama  | 2.50      | 2025-03-10 | 2025-03-12 |
-| R003     | Bob          | bob@email.com   | Inception  | Sci-Fi | 3.50      | 2025-03-02 | NULL       |
+| R001     | Alice        | <alice@email.com> | Inception  | Sci-Fi | 3.50      | 2025-03-01 | 2025-03-05 |
+| R002     | Alice        | <alice@email.com> | Titanic    | Drama  | 2.50      | 2025-03-10 | 2025-03-12 |
+| R003     | Bob          | <bob@email.com>   | Inception  | Sci-Fi | 3.50      | 2025-03-02 | NULL       |
 
 <details>
 <summary>Solution</summary>
@@ -506,8 +505,8 @@ Single attribute, not composite), there cannot be partial dependencies. The tabl
 
 | customerID | customerName | customerEmail   |
 | ---------- | ------------ | --------------- |
-| C001       | Alice        | alice@email.com |
-| C002       | Bob          | bob@email.com   |
+| C001       | Alice        | <alice@email.com> |
+| C002       | Bob          | <bob@email.com>   |
 
 **Movie** (PK: movieID):
 

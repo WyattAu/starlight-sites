@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -201,8 +200,6 @@ $V_0/R$.
 **Confusing the homogeneous and particular solutions:** The homogeneous solution solves $\frac{dy}{dx} + Py = 0$ and gives the transient behaviour (decays to zero). The particular solution solves the full equation with the forcing term and gives the steady-state behaviour. The general solution is the sum of both. Students often write only one and forget the other.
 
 **Mixing up the integrating factor method:** For equations of the form $\frac{dy}{dx} + Py = Q$, the integrating factor is $\mu = e^{\int P\,dx}$. Multiply both sides by $\mu$, then recognise the left side as $\frac{d}{dx}(\mu y)$. A common error is to forget to multiply the right-hand side $Q$ by the integrating factor.
-
-
 
 ## Cross-References
 

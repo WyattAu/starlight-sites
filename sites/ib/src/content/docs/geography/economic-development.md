@@ -31,7 +31,6 @@ critically and use quantitative indicators alongside qualitative evidence.
 
 **The key insight:** Development is not just about wealth — it encompasses health, education, governance, and quality of life
 
-
 ## Contents
 
 - [Measuring Development](./development/measuring-development) -- development indicators, composite
@@ -183,8 +182,6 @@ Economic development in IB Geography examines how development is measured (indic
 the theoretical frameworks explaining disparities (Rostow, dependency theory), and the roles of
 trade, aid, TNCs, and international organisations. Students must critically evaluate development
 strategies using quantitative data and qualitative case study evidence from contrasting countries.
-
-
 
 ## Cross-References
 

@@ -99,6 +99,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -132,4 +133,3 @@ Waves are one of the most pervasive phenomena in physics — sound, light, water
 Diffraction — the bending of waves around obstacles — is not a curiosity but a fundamental limitation. Any wave passing through an aperture of size comparable to its wavelength will spread out, which is why optical microscopes cannot resolve features smaller than about half the wavelength of light. This isn't a technological limitation; it's a physical law. The Fourier transform provides the mathematical bridge between the spatial pattern of an aperture and the far-field diffraction pattern: the diffraction pattern is the Fourier transform of the aperture function. This connection between spatial structure and frequency content is why Fourier optics is so powerful — it lets you analyse complex optical systems using the same tools used in signal processing.
 
 Polarisation reveals that light is not just a scalar wave but a vector wave — the electric field oscillates in a specific direction. Malus's law, birefringence, and wave plates all follow from the vector nature of electromagnetic radiation. Understanding polarisation connects optics to electromagnetism: light is an electromagnetic wave, and its polarisation is determined by the direction of the electric field. This understanding is essential for technologies from LCD screens to 3D cinema to fibre-optic communications, where controlling polarisation is as important as controlling intensity and frequency.
-

@@ -162,7 +162,6 @@ print(b.tags)  # ['x'] -- surprise
 
 Fix: assign the mutable in `__init__`.
 
-
 ## Method Types
 
 Python has three kinds of methods, distinguished by the decorators that wrap them.
@@ -235,7 +234,6 @@ Not need either, making it static is a signal to readers and static analysis too
 <aside class="starlight-aside starlight-aside--note">
 Be overridden in a subclass and dispatch to the correct class via `cls`. A static method cannot --
 It is a plain function that happens to live in a class namespace.
-
 
 ## Properties: `@property`Getters, and Setters
 
@@ -495,7 +493,6 @@ Class does not account for cooperative initialization. If you use mixins with `_
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
 Arguments it does not need.
 
-
 ## Abstract Base Classes
 
 The `abc` (Abstract Base Classes) module provides a way to define interfaces that enforce a contract
@@ -630,7 +627,6 @@ Fallback.
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
 Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
 Data corruption in sets and dicts.
-
 
 ### Container Protocol
 
@@ -1063,7 +1059,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Cross-References

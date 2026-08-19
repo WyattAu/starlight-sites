@@ -20,6 +20,7 @@ categories: [Physics]
 ## Electric Fields
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
+>
 ## 1. Coulomb"s Law
 
 **Coulomb's Law.** The electrostatic force between two point charges $q_1$ and $q_2$ separated by
@@ -509,7 +510,6 @@ $\blacksquare$
 ## Intuition
 
 The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
-
 
 ## Cross-References
 

@@ -12,7 +12,6 @@ categories:
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills — they help you apply knowledge and identify areas that need more study.
@@ -28,17 +27,15 @@ the explanation.
 
 ---
 
-
 ### Null Safety and Types
 
 <PracticeProblem client:only="solid-js" question={"What happens when you declare `String name;` in a Dart file with null safety enabled?&quot; options={[ 'Compilation error: non-nullable variable must be initialized', 'name is set to null', 'name is set to an empty string', 'It compiles successfully', ]} correctAnswer={0} explanation=&quot;With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`)."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"What is the type of `List<int>? numbers = [1, 2, 3]; `?&quot; options={[ 'The variable is of type `List<int>?` and currently holds a non-null `List<int>`', 'It is of type `List<int>` (the ? is ignored)', 'Compilation error: cannot assign List<int> to List<int>?', 'It is of type `dynamic`', ]} correctAnswer={0} explanation=&quot;`List<int>?` is a nullable list type. The variable `numbers` can hold either a `List<int>` or `null`. The initializer `[1, 2, 3]` is a valid `List<int>`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the type of `List<int>? numbers = [1, 2, 3];`?&quot; options={[ 'The variable is of type `List<int>?` and currently holds a non-null `List<int>`', 'It is of type `List<int>` (the ? is ignored)', 'Compilation error: cannot assign List<int> to List<int>?', 'It is of type `dynamic`', ]} correctAnswer={0} explanation=&quot;`List<int>?` is a nullable list type. The variable `numbers` can hold either a `List<int>` or `null`. The initializer `[1, 2, 3]` is a valid `List<int>`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"Which Dart collection type guarantees uniqueness of elements?&quot; options={['Set', 'List', 'Map', 'Queue']} correctAnswer={0} explanation=&quot;A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `{'a', 'b', 'a'}` becomes `{'a', 'b'}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`)."} difficulty="easy"  />
 
 ---
-
 
 ### Async and Streams
 
@@ -48,7 +45,6 @@ the explanation.
 
 ---
 
-
 ### Dart 3 Features
 
 <PracticeProblem client:only="solid-js" question={"Given `sealed class Result {} class Success extends Result {} class Failure extends Result {}`, which switch expression is exhaustive without a default case?&quot; options={[ 'switch (r) { case Success(): ... case Failure(): ... }', 'switch (r) { case Success(): ... }', 'switch (r) { default: ... }', 'switch (r) { case Result(): ... }', ]} correctAnswer={0} explanation=&quot;Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching."} difficulty="medium"  />
@@ -57,15 +53,13 @@ the explanation.
 
 ---
 
-
 ### OOP and Extensions
 
 <PracticeProblem client:only="solid-js" question={"Given `mixin Walker { void walk() => print('walking'); }` and `class Person extends Animal with Walker {}`, what is the result of calling `walk()` on a `Person` instance?&quot; options={[ &quot;Prints 'walking' -- Walker\'s method is mixed into Person&quot;, 'Throws NoSuchMethodError', &quot;Calls Animal\'s walk method instead&quot;, 'Compilation error: Walker cannot be used with Person', ]} correctAnswer={0} explanation=&quot;Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin\'s linearization order determines which wins -- mixins applied later have higher priority."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={`Given \`extension on String { String get reversed => split('').reversed.join(); }\`, what does \`"hello".reversed\` return?`} options={['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']} correctAnswer={0} explanation="Extension methods add members to existing types. This extension adds a `reversed` getter to `String`. `split('')` creates `['h','e','l','l','o']`, `.reversed` produces `['o','l','l','e','h']`, and `.join()` yields `'olleh'`. Extensions are resolved at compile time -- if `String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`Given \`extension on String { String get reversed => split('').reversed.join(); }\`, what does \`"hello".reversed\` return?`} options={['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']} correctAnswer={0} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
 
 ---
-
 
 ### Flutter and Advanced
 

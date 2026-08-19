@@ -311,7 +311,6 @@ When presented with economic data in an exam:
 
 4. Confusing equity (fairness) with efficiency in welfare economics discussions.
 
-
 ## Intuition
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
@@ -326,8 +325,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

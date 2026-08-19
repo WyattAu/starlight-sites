@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Bond type (ionic, covalent, metallic) determines physical properties like melting point, conductivity, and solubility
 
-
 ## Unit Tests
 
 ### UT-1: VSEPR and Molecular Geometry

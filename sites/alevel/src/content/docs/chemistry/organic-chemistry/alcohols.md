@@ -157,9 +157,9 @@ $$
 \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}_2^+
 $$
 
-2. Loss of water to form a carbocation (E1 mechanism for tertiary alcohols; E2 for primary).
+1. Loss of water to form a carbocation (E1 mechanism for tertiary alcohols; E2 for primary).
 
-3. Loss of a proton ($\mathrm{H}^+$) from an adjacent carbon, forming the C=C double bond.
+2. Loss of a proton ($\mathrm{H}^+$) from an adjacent carbon, forming the C=C double bond.
 
 When multiple alkenes are possible, Zaitsev"s rule applies: the more substituted alkene
 Predominates.
@@ -429,17 +429,17 @@ ethanol (100\%) requires further drying with molecular sieves or calcium oxide.
 | Biodegradable                                                                   | Engine modifications may be needed for high blends |
 | Reduces dependence on fossil fuels                                              | Fermentation is slow; limited production capacity  |
 
-2. **Oxidation of tertiary alcohols.** Tertiary alcohols are not oxidised by
+1. **Oxidation of tertiary alcohols.** Tertiary alcohols are not oxidised by
    $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7 / \mathrm{H}^+$. The absence of a colour change is the key
    diagnostic.
 
-3. **Using $-\mathrm{OH}$ as a leaving group in nucleophilic substitution.** $-\mathrm{OH}$ is a
+2. **Using $-\mathrm{OH}$ as a leaving group in nucleophilic substitution.** $-\mathrm{OH}$ is a
    poor leaving group. Always protonate first (acidic conditions) or convert to a halide.
 
-4. **Forgetting that esterification is an equilibrium.** Unless you remove water or use excess
+3. **Forgetting that esterification is an equilibrium.** Unless you remove water or use excess
    reagent, the yield is limited by the equilibrium position.
 
-5. **Ignoring Zaitsev's rule in dehydration.** For unsymmetrical secondary and tertiary alcohols,
+4. **Ignoring Zaitsev's rule in dehydration.** For unsymmetrical secondary and tertiary alcohols,
    the major elimination product is the more substituted alkene.
 
 ## Practice Problems
@@ -878,7 +878,6 @@ with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
@@ -900,8 +899,6 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 </aside>
-
-
 
 ## Cross-References
 

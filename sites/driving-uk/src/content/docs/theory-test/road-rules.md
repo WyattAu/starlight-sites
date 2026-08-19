@@ -12,12 +12,14 @@ tags:
 ## The Highway Code
 
 ### Priority Rules
+
 1. **Give way to traffic on the right** at roundabouts
 2. **Give way to pedestrians** at zebra crossings
 3. **Give way to emergency vehicles** when they approach
 4. **Give way to traffic on the major road** at junctions
 
 ### Speed Limits
+
 - **20 mph**: Residential areas, near schools
 - **30 mph**: Urban roads with street lighting
 - **50 mph**: Single carriageway roads
@@ -25,6 +27,7 @@ tags:
 - **70 mph**: Motorways
 
 ### Lane Discipline
+
 - **Keep left** unless overtaking
 - **Use correct lane** for your destination
 - **Signal before changing lanes**
@@ -33,11 +36,13 @@ tags:
 ## Road Markings
 
 ### White Lines
+
 - **Solid white line**: Do not cross
 - **Broken white line**: May cross if safe
 - **Double broken white line**: Lane separation
 
 ### Yellow Lines
+
 - **Single yellow line**: Restrictions apply at certain times
 - **Double yellow line**: No waiting at any time
 - **Yellow zig-zags**: No stopping (near schools, crossings)
@@ -60,7 +65,9 @@ tags:
 ## Practice Questions
 
 ### Question 1
+
 What is the speed limit on a single carriageway road?
+
 - 30 mph
 - 50 mph
 - 60 mph
@@ -69,7 +76,9 @@ What is the speed limit on a single carriageway road?
 **Correct Answer:** 60 mph
 
 ### Question 2
+
 When must you give way to traffic on the right?
+
 - At roundabouts
 - At traffic lights
 - On motorways

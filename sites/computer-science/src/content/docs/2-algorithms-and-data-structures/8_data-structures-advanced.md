@@ -1857,7 +1857,6 @@ $\blacksquare$
 | [Data Structures] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/5-abstract-data-structures/1_abstraction-and-data-management) |
 | [Data Structures] | University | [View](https://university.wyattau.com/docs/computing/2-algorithms-and-data-structures/2_data-structures-advanced)    |
 
-
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 

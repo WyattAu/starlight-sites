@@ -271,7 +271,6 @@ for (int i = 0; i < n; i++) {
 
 Total: $O(n) \times O(n) = O(n^2)$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example 2</strong>
@@ -285,7 +284,6 @@ for (int j = 0; j < n; j++) {
 ```
 
 Total: $O(n) + O(n) = O(n)$.
-
 
 ## Recursion (AP CS A)
 
@@ -656,44 +654,44 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
-6. Compare the number of comparisons made by linear search and binary search for an array of
+1. Compare the number of comparisons made by linear search and binary search for an array of
    1,048,576 elements when searching for an element that is not in the array.
 
-7. Write pseudocode for insertion sort and trace it on the list `[4, 2, 7, 1, 3]`.
+2. Write pseudocode for insertion sort and trace it on the list `[4, 2, 7, 1, 3]`.
 
-8. Explain why merge sort is preferred over selection sort for sorting large datasets.
+3. Explain why merge sort is preferred over selection sort for sorting large datasets.
 
-9. Write a recursive Java method `gcd(int a, int b)` that computes the greatest common divisor using
+4. Write a recursive Java method `gcd(int a, int b)` that computes the greatest common divisor using
    Euclid's algorithm.
 
-10. Explain the loop invariant for binary search and use it to prove correctness.
+5. Explain the loop invariant for binary search and use it to prove correctness.
 
-11. Write a Java method `isSorted(int[] arr)` that returns true if the array is sorted in ascending
+6. Write a Java method `isSorted(int[] arr)` that returns true if the array is sorted in ascending
     order. What is the time complexity?
 
-12. Prove that insertion sort's best-case time complexity is $O(n)$ when the input is already
+7. Prove that insertion sort's best-case time complexity is $O(n)$ when the input is already
     sorted.
 
-13. Write a recursive method `power(int base, int exp)` that computes `base^exp` in $O(\log n)$ time
+8. Write a recursive method `power(int base, int exp)` that computes `base^exp` in $O(\log n)$ time
     using the identity $b^n = (b^{n/2})^2$.
 
-14. Explain what makes an algorithm "stable" in the context of sorting. Give an example where
+9. Explain what makes an algorithm "stable" in the context of sorting. Give an example where
     stability matters.
 
-15. Write pseudocode for a procedure that merges two sorted lists into one sorted list. What is the
+10. Write pseudocode for a procedure that merges two sorted lists into one sorted list. What is the
     time complexity?
 
-16. Analyze the space complexity of merge sort. Why does it use $O(n)$ extra space?
+11. Analyze the space complexity of merge sort. Why does it use $O(n)$ extra space?
 
-17. Write a Java method to find the kth smallest element in an unsorted array. What is the time
+12. Write a Java method to find the kth smallest element in an unsorted array. What is the time
     complexity of a simple approach vs. An optimal approach?
 
-18. Explain the concept of divide and conquer using merge sort as an example. What are the three
+13. Explain the concept of divide and conquer using merge sort as an example. What are the three
     steps, and what is the recurrence relation?
 
-19. Trace quick sort on the array [10, 80, 30, 90, 40, 50, 70]. Use the last element as the pivot.
+14. Trace quick sort on the array [10, 80, 30, 90, 40, 50, 70]. Use the last element as the pivot.
 
-20. Write a Java method that checks whether a sorted array contains two elements that sum to a given
+15. Write a Java method that checks whether a sorted array contains two elements that sum to a given
     target. Your solution should be $O(n)$.
 
 ## Intuition
@@ -737,39 +735,39 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
-6. Compare the number of comparisons made by linear search and binary search for an array of
+1. Compare the number of comparisons made by linear search and binary search for an array of
    1,048,576 elements when searching for an element that is not in the array.
 
-7. Write pseudocode for insertion sort and trace it on the list `[4, 2, 7, 1, 3]`.
+2. Write pseudocode for insertion sort and trace it on the list `[4, 2, 7, 1, 3]`.
 
-8. Explain why merge sort is preferred over selection sort for sorting large datasets.
+3. Explain why merge sort is preferred over selection sort for sorting large datasets.
 
-9. Write a recursive Java method `gcd(int a, int b)` that computes the greatest common divisor using
+4. Write a recursive Java method `gcd(int a, int b)` that computes the greatest common divisor using
    Euclid's algorithm.
 
-10. Explain the loop invariant for binary search and use it to prove correctness.
+5. Explain the loop invariant for binary search and use it to prove correctness.
 
-11. Write a Java method `isSorted(int[] arr)` that returns true if the array is sorted in ascending
+6. Write a Java method `isSorted(int[] arr)` that returns true if the array is sorted in ascending
     order. What is the time complexity?
 
-12. Prove that insertion sort's best-case time complexity is $O(n)$ when the input is already
+7. Prove that insertion sort's best-case time complexity is $O(n)$ when the input is already
     sorted.
 
-13. Write a recursive method `power(int base, int exp)` that computes `base^exp` in $O(\log n)$ time
+8. Write a recursive method `power(int base, int exp)` that computes `base^exp` in $O(\log n)$ time
     using the identity $b^n = (b^{n/2})^2$.
 
-14. Explain what makes an algorithm "stable" in the context of sorting. Give an example where
+9. Explain what makes an algorithm "stable" in the context of sorting. Give an example where
     stability matters.
 
-15. Write pseudocode for a procedure that merges two sorted lists into one sorted list. What is the
+10. Write pseudocode for a procedure that merges two sorted lists into one sorted list. What is the
     time complexity?
 
-16. Analyze the space complexity of merge sort. Why does it use $O(n)$ extra space?
+11. Analyze the space complexity of merge sort. Why does it use $O(n)$ extra space?
 
-17. Write a Java method to find the kth smallest element in an unsorted array. What is the time
+12. Write a Java method to find the kth smallest element in an unsorted array. What is the time
     complexity of a simple approach vs. An optimal approach?
 
-18. Explain the concept of divide and conquer using merge sort as an example. What are the three
+13. Explain the concept of divide and conquer using merge sort as an example. What are the three
     steps, and what is the recurrence relation?
 
 ## Practice Problems
@@ -887,7 +885,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Cross-References

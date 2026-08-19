@@ -231,7 +231,7 @@ Preparing for the US driving test is a focused process. Most candidates can prep
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Flashcards: 15 minutes of signs and rules |
 | Afternoon | Topic study: read one section of the driver handbook |
 | Evening | Practice: one practice test or 20 practice questions |

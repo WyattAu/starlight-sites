@@ -58,6 +58,7 @@ Highest and lowest scores.
   extreme).
 - **Abstraction:** A "score" is a number. We do not need the student's name or subject.
 - **Algorithm Design:**
+
   ```
   PROCEDURE trimmedAverage(scores)
   {
@@ -151,6 +152,7 @@ public class Rectangle {
         return 2 * (width + height);
     }
 }
+
 ```
 
 The caller uses `getArea()` and `getPerimeter()` without knowing that `width` and `height` are
@@ -302,7 +304,6 @@ Examined so far." Initially, max = list[1], the largest of the first element. Wh
 compared, if it is larger, max is updated; otherwise, max remains the largest. By induction, After
 all elements are examined, max is the largest in the entire list. $\blacksquare$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Finding the Second Largest</strong>
@@ -341,7 +342,6 @@ PROCEDURE findSecondLargest(list)
 
 **Time complexity:** $O(n)$ -- single pass through the list.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Linear Search (AP CSP)</strong>
@@ -361,7 +361,6 @@ PROCEDURE linearSearch(list, target)
 
 Note: AP CSP pseudocode returns 0 (not -1) to indicate "not found", because index 0 is not a valid
 Position in 1-based indexing.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -397,7 +396,6 @@ PROCEDURE binarySearch(list, target)
 **Complexity analysis.** Each iteration halves the search space, so the maximum number of iterations
 Is $\lceil \log_2 n \rceil$. Time complexity: $O(\log n)$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Counting Occurrences</strong>
@@ -417,7 +415,6 @@ PROCEDURE countOccurrences(list, value)
 ```
 
 **Time complexity:** $O(n)$ -- examines each element once.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -1060,13 +1057,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 </aside>
 
 ## Intuition
 
 Computer science is about solving problems efficiently. Algorithms are like recipes - step-by-step procedures for accomplishing tasks. Data structures are containers that organise information for efficient access and modification. The art of computer science lies in choosing the right algorithm and data structure for each problem, balancing speed, memory, and complexity.
-
 
 ## Cross-References
 

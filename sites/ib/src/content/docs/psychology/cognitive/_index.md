@@ -131,7 +131,6 @@ processes influence behaviour and evaluate models using empirical evidence.
 
 Our minds are prediction machines, constantly building models of the world to guide behaviour. Psychology studies how these mental models form, how they influence perception, and why they sometimes lead us astray. From memory biases to social stereotypes, understanding mental shortcuts explains both their efficiency and their limitations. This knowledge is essential for critical thinking and personal development.
 
-
 ## Cross-References
 
 - [Research Methods](../research-methods)

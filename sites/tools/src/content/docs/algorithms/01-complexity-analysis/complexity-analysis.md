@@ -76,7 +76,6 @@ $$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge 
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
 $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
-
 ### Little-o and Little-omega
 
 $f(n) = o(g(n))$ means $f(n)$ grows strictly slower than $g(n)$:
@@ -151,7 +150,6 @@ Core). In reality:
 <aside class="starlight-aside starlight-aside--caution">
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
 With favourable cache behaviour. Always benchmark.
-
 
 ## Formal Manipulation Rules
 
@@ -288,7 +286,6 @@ In systems engineering, worst-case guarantees matter because:
 <aside class="starlight-aside starlight-aside--note">
 Requests with keys that all hash to the same bucket, turning $O(1)$ lookups into $O(n)$ lookups and
 Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use hash randomisation.
-
 
 ## Amortised Analysis
 
@@ -700,7 +697,6 @@ Non-negative and is $O(n \log n)$ for an $n$-node tree.
 Caches, and database buffer pools, a small set of hot items dominates access. Splay trees
 Automatically adapt to this pattern without any tuning parameters.
 
-
 ## Solving Recurrences: A Systematic Approach
 
 When you encounter a recurrence that does not fit the Master Theorem, follow this systematic
@@ -846,7 +842,6 @@ def benchmark_sorts():
 On the actual production workload due to access patterns, data distribution, and interaction with
 Other system components. Always benchmark with realistic data and in a realistic environment.
 
-
 ## Summary
 
 This topic covers the core concepts of complexity analysis, including underlying theory, practical
@@ -867,7 +862,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">

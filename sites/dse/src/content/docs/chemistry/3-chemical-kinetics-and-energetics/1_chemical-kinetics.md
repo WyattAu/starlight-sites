@@ -300,11 +300,11 @@ Catalytic converters reduce the emission of toxic gases from car exhausts.
 
 $$2\mathrm{CO} + \mathrm{O}_2 \xrightarrow{\mathrm{Pt, Pd}} 2\mathrm{CO}_2$$
 
-2. **Oxidation of unburnt hydrocarbons (e.g., octane):**
+1. **Oxidation of unburnt hydrocarbons (e.g., octane):**
 
 $$2\mathrm{C}_8\mathrm{H}_{18} + 25\mathrm{O}_2 \xrightarrow{\mathrm{Pt, Pd}} 16\mathrm{CO}_2 + 18\mathrm{H}_2\mathrm{O}$$
 
-3. **Reduction of nitrogen oxides:**
+1. **Reduction of nitrogen oxides:**
 
 $$2\mathrm{NO} \xrightarrow{\mathrm{Rh}} \mathrm{N}_2 + \mathrm{O}_2$$
 
@@ -399,6 +399,7 @@ Where:
 - Overall order = $m + n$
 
 > **Caution:** Warning The stoichiometric coefficients $a$ and $b$.
+>
 ### Order of Reaction
 
 **Zero order:** Rate is independent of concentration.
@@ -1109,8 +1110,6 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 $$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/chemical-kinetics.md
-
-
 
 ## Cross-References
 

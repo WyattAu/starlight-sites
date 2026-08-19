@@ -10,28 +10,33 @@ tags:
 # Theory Test: Multiple Choice
 
 ## Overview
+
 The UK theory test consists of 50 multiple choice questions. You need to score 43 out of 50 (86%) to pass.
 
 ## Question Types
 
 ### Road Signs
+
 - Regulatory signs (prohibitions, requirements)
 - Warning signs (hazards ahead)
 - Information signs (directions, services)
 
 ### Rules of the Road
+
 - Speed limits
 - Right of way
 - Overtaking rules
 - Parking regulations
 
 ### Vehicle Safety
+
 - Tyre conditions
 - Lights and signals
 - Mirrors and visibility
 - Emergency equipment
 
 ### Environment
+
 - Eco-driving techniques
 - Pollutant emissions
 - Noise reduction

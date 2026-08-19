@@ -200,8 +200,8 @@ TrueNAS Cloud Sync supports:
 - **Sync:** One-way mirror from local to cloud.
 - **Move:** Transfer to cloud and delete local copies.
 
-5. Set the schedule (real-time, hourly, daily).
-6. Configure snapshot retention on the cloud side.
+1. Set the schedule (real-time, hourly, daily).
+2. Configure snapshot retention on the cloud side.
 
 ### Cloud Sync Considerations
 
@@ -1155,7 +1155,6 @@ Backup is the practice of keeping copies of your data in case the original is lo
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

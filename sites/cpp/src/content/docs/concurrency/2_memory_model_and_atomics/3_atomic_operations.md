@@ -34,7 +34,7 @@ Threads.
 The standard specifies which types `T` may be [N4950 §31.7.1]:
 
 - **Scalar types**: `bool``char``int``float``pointer types`Etc.
-- ** copyable types**: Any copyable type (C++17 and later), though not all operations may be
+- **copyable types**: Any copyable type (C++17 and later), though not all operations may be
   available.
 
 ```cpp
@@ -655,7 +655,6 @@ tag Alongside the pointer, or use hazard pointers.
    the other, even if they are logically independent. Pad atomics to cache line boundaries to
    prevent this.
 
-
 ## Summary
 
 This topic covers the core concepts of atomic operations and lock-free programming, including
@@ -685,4 +684,3 @@ Atomic operations are like using a public restroom with an "occupied" sign. When
 
 - [Cache Coherency](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect atomic operation performance
 - [Memory Orderings](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control ordering guarantees for atomic operations
-

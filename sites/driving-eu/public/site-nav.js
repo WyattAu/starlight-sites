@@ -101,28 +101,33 @@
     overlay.setAttribute('aria-hidden', 'true')
     overlay.innerHTML =
       '<div class="site-nav-backdrop"></div><div class="site-nav-panel" role="dialog" aria-label="Site navigator">' +
-      '<div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close"> <
-      svg
-    width = '14'
-    height = '14'
-    viewBox = '0 0 24 24'
-    fill = 'none'
-    stroke = 'currentColor'
-    stroke-width = '2' > <path d="M18 6 6 18" /> < path
-    d="m6 6 12 12"/>
-    </svg>
-    </button></div>' +
+      '<div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>' +
       '<div class="site-nav-body">' +
-      Object.keys(SITES).map(
-    function (cat) {
-        return '<div class="site-nav-category"><div class="site-nav-cat-header">' + (CATEGORY_ICONS[cat] || '') +
-          '<span>' + html(cat) + '</span></div><div class="site-nav-grid">' +
-          SITES[cat].map((s) => '<a href="' + html(s.url) + '" class="site-nav-card" target="_blank" rel="noopener">' +
-              '<strong>' + html(s.name) + '</strong>' +
-              '<span class="site-nav-tags">' + html(s.tags) + '</span></a>').join('') +
-          '</div></div>'
-      }
-    ).join('') +
+      Object.keys(SITES)
+        .map(
+          cat =>
+            '<div class="site-nav-category"><div class="site-nav-cat-header">' +
+            (CATEGORY_ICONS[cat] || '') +
+            '<span>' +
+            html(cat) +
+            '</span></div><div class="site-nav-grid">' +
+            SITES[cat]
+              .map(
+                s =>
+                  '<a href="' +
+                  html(s.url) +
+                  '" class="site-nav-card" target="_blank" rel="noopener">' +
+                  '<strong>' +
+                  html(s.name) +
+                  '</strong>' +
+                  '<span class="site-nav-tags">' +
+                  html(s.tags) +
+                  '</span></a>',
+              )
+              .join('') +
+            '</div></div>',
+        )
+        .join('') +
       '</div></div>'
     document.body.appendChild(overlay)
     return overlay

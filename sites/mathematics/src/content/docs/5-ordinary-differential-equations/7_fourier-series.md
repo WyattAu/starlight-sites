@@ -154,10 +154,10 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 ### 7.11 Key Results Summary
 
 | Result | Formula / Statement |
-|---|---|
+| --- | --- |
 | Fourier coefficients | $a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\,dx$ |
 | Convergence (Dirichlet) | Converges to $f(x)$ where continuous, average at jumps |
-| Parseval's identity | $\frac{1}{\pi}\int_{-\pi}^{\pi}|f(x)|^2\,dx = \frac{a_0^2}{2} + \sum(a_n^2+b_n^2)$ |
+| Parseval's identity | $\frac{1}{\pi}\int_{-\pi}^{\pi} | f(x) | ^2\,dx = \frac{a_0^2}{2} + \sum(a_n^2+b_n^2)$ |
 | Complex form | $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\,dx$ |
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |

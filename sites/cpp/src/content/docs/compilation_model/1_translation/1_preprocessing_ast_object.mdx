@@ -230,9 +230,11 @@ Yet. Resolving these symbols is the job of the **Linker**.
 ---
 
 ## Translation Phases Defined by the Standard
+
 The C++ standard [N4950 §5.1.1] defines the translation of a source file into an executable as a
 Sequence of **translation phases** (also called "phases of translation"). These are numbered 1
 Through 9:
+
 | Phase | Description                                                                                                  |
 | :---- | :----------------------------------------------------------------------------------------------------------- |
 | 1     | Physical source file characters are mapped to the source character set                                       |
@@ -241,15 +243,18 @@ Through 9:
 | 4     | Preprocessing directives are executed, macros expanded, `#include` files recursively included                |
 | 5     | Each source character set member that cannot be represented is mapped to an implementation-defined character |
 | 6     | Adjacent string literal tokens are concatenated                                                              |
-| 7     | Whitespace and comment removal (except within ` preprocessing` directives), token conversion                 |
+| 7     | Whitespace and comment removal (except within `preprocessing` directives), token conversion                 |
 | 8     | Each preprocessing token is converted to a regular token (the compiler proper begins)                        |
 | 9     | Linkage: all external references are resolved, program image is generated                                    |
 Phases 1-4 constitute preprocessing. Phase 8 is where the compiler frontend performs semantic
 Analysis and builds the AST. Phase 9 is linking.
+
 ---
 
 ## The Preprocessor in Depth
+
 ### Translation Units and Header Units
+
 A **Translation Unit (TU)** [N4950 §5.1.1] is the output of phases 1-7: a single preprocessed source
 File. The compiler processes one TU at a time, which is why the C++ model is called "separate
 Compilation."
@@ -257,10 +262,13 @@ The boundary between TUs is at the `.cpp` file level. When you compile `a.cpp` a
 Separately, each is an independent TU. The compiler knows nothing about `b.cpp` when compiling
 `a.cpp`. This is why declarations (in headers) must be consistent across TUs — the linker cannot
 Detect type mismatches.
+
 ### Macro Pitfalls
+
 Macros are textual substitution with no understanding of C++ scope, types, or namespaces. This
 Causes a category of bugs that no other C++ feature can produce.
 **Problem 1: Argument evaluation side effects.**
+
 ```cpp
 #include <cstdio>
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
@@ -271,7 +279,9 @@ int main() \{
     // Possible output: y = 3, x = 4 (x incremented twice in one expression)
 \}
 ```
+
 **Problem 2: Operator precedence.**
+
 ```cpp
 #include <cstdio>
 #define SQUARE(x) x * x
@@ -280,13 +290,17 @@ int main() \{
     std::printf("result = %d\n", result);  // Prints 5
 \}
 ```
+
 Fixing with extra parentheses (`#define SQUARE(x) ((x) * (x))`) helps but doesn't solve the
 Side-effect problem. The modern C++ solution is to use `constexpr` functions or `inline` functions
 Instead:
+
 ```cpp
 constexpr int square(int x) \{ return x * x; \}  // Safe: evaluates argument once
 ```
+
 **Problem 3: Name shadowing.**
+
 ```cpp
 #include <vector>
 #define VALUE 42
@@ -296,9 +310,12 @@ int main() \{
     int VALUE = 10;  // Expands to: int 42 = 10; — compile error
 \}
 ```
+
 ### Predefined Macros
+
 Compilers define a set of macros that identify the platform, compiler version, and C++ standard.
 These are essential for writing portable code.
+
 ```cpp
 #include <iostream>
 int main() \{
@@ -324,8 +341,10 @@ int main() \{
               << "\n";
 \}
 ```
+
 **Important:** Never use `__cplusplus` alone to detect compiler features. Use feature-test macros
 Defined by the standard (e.g., `__cpp_constexpr``__cpp_concepts`):
+
 ```cpp
 #if __cpp_concepts >= 201907L
     // Concepts are available
@@ -333,8 +352,11 @@ Defined by the standard (e.g., `__cpp_constexpr``__cpp_concepts`):
     concept Addable = requires(T a, T b) \{ a + b; \};
 #endif
 ```
+
 ### Include Guards vs `#pragma once`
+
 Traditional include guards use preprocessor conditionals to prevent multiple inclusion:
+
 ```cpp
 // my_header.h
 #ifndef MY_HEADER_H
@@ -342,44 +364,57 @@ Traditional include guards use preprocessor conditionals to prevent multiple inc
 // ... header contents ...
 #endif // MY_HEADER_H
 ```
+
 `#pragma once` is a non-standard but universally supported directive that achieves the same result
 More concisely:
+
 ```cpp
 // my_header.h
 #pragma once
 // ... header contents ...
 ```
+
 Both approaches prevent the same header from being included multiple times in a TU. `#pragma once`
 Is faster (the preprocessor can short-circuit based on the file's inode rather than tokenizing to
 Find the guard), but it is not part of the C++ standard. Every major compiler supports it, and C++20
-Modules will eventually eliminate the need for both approaches.
+Modules will eventually eliminate the need for both approaches
 ---
 
 ## The AST in Depth
+
 ### How the Compiler Represents C++ Constructs
+
 The AST is a tree where each node represents a language construct. Understanding the AST structure
 Helps debug surprising compiler behavior.
+
 ```cpp
 // input.cpp
 const int* p = nullptr;
 ```
+
 ```bash
 clang++ -Xclang -ast-dump -fsyntax-only input.cpp
 ```
+
 The AST for this declaration includes:
+
 ```
 VarDecl 0x... <line:1:1, col:20> col:15 p 'const int *' cinit
 |-ValueStmt 0x...
 | `-ImplicitCastExpr 0x... 'const int *' <NullToPointer>
 |   `-CXXNullPtrLiteralExpr 0x... 'std::nullptr_t'
 ```
+
 Note: the type is `const int *` (pointer to const int), not `const int*` (const pointer to int). The
 AST makes the actual type binding unambiguous, even though the human-readable syntax can be
 Confusing.
+
 ### Name Mangling
+
 The compiler encodes function signatures, namespaces, and template arguments into a single string
 Called the **mangled name**. This is what appears in the object file's symbol table. Name mangling
 Is necessary because the linker only sees flat strings, not C++ scope.
+
 ```cpp
 // code.cpp
 namespace math \{
@@ -387,28 +422,36 @@ namespace math \{
     double add(double a, double b) \{ return a + b; \}
 \}
 ```
+
 ```bash
 nm -C code.o
 # _ZN4math3addEdd  →  math::add(double, double)
 # _ZN4math3addEii  →  math::add(int, int)
 ```
+
 The mangling scheme is compiler-specific (Itanium ABI for GCC/Clang, MSVC ABI for MSVC). Use `nm -C`
 (demangle) or `c++filt` to decode mangled names.
 The Itanium ABI mangling encodes:
+
 - `_Z` prefix
 - `N` for nested names
 - Length-prefixed identifiers (`4math` = "math", `3add` = "add")
 - Type encodings (`i` = int, `d` = double, `St` = std::)
+
 ```bash
 c++filt _ZN4math3addEii
 # Output: math::add(int, int)
 ```
+
 ---
 
 ## Intermediate Representation in Depth
+
 ### LLVM IR Structure
+
 LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly once and assigned
 To a register (`%0``%1`Etc.). This makes dataflow analysis trivial for the optimizer.
+
 ```cpp
 // sum.cpp
 int sum(int n) \{
@@ -418,10 +461,13 @@ int sum(int n) \{
     return total;
 \}
 ```
+
 ```bash
 clang++ -S -emit-llvm -O2 sum.cpp -o sum.ll
 ```
+
 Key IR concepts visible in the output:
+
 | Concept      | IR Representation                                     |
 | :----------- | :---------------------------------------------------- |
 | Function     | `define i32 @sum(i32 %n)`                             |
@@ -431,6 +477,7 @@ Key IR concepts visible in the output:
 | Branch       | `br i1 %cmp, label %for.body, label %for.end`         |
 At `-O2`The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
 of a loop:
+
 ```llvm
 define i32 @sum(i32 %n) \{
 entry:
@@ -441,35 +488,47 @@ entry:
   ret i32 %div
 \}
 ```
+
 The loop has been replaced with `n*(n-1)/2` — a textbook example of loop optimization. This is why
 Reading the optimized IR is critical: it confirms that your high-level abstractions compiled away to
 Efficient code.
+
 ### GCC GIMPLE
+
 GCC uses a different IR called GIMPLE. It is a simplified form of C where every statement is an
 Assignment, a function call, or a branch — no complex expressions.
+
 ```bash
 g++ -fdump-tree-optimized sum.cpp
 ```
-The output shows the same optimization (loop elimination) in GCC's representation.
+
+The output shows the same optimization (loop elimination) in GCC's representation
 ---
 
 ## Object Files in Depth
+
 ### Relocation Entries
+
 When the compiler generates an object file, it cannot know the final addresses of symbols defined in
 Other translation units. It emits **relocation entries** — instructions to the linker saying "patch
 This offset with the final address of symbol X."
+
 ```bash
 # View relocations in an object file
 readelf -r main.o
 ```
+
 Each relocation entry specifies:
+
 - **Offset:** Where in the section to patch.
 - **Type:** How to apply the patch (absolute, PC-relative, GOT-relative, etc.).
 - **Symbol:** Which symbol's address to use.
 - **Addend:** An optional constant offset.
 The linker resolves these relocations by computing the final virtual address of each symbol and
 Writing it into the appropriate location in the machine code.
+
 ### Common Object File Pitfalls
+
 - **Debug builds without `-g` produce useless backtraces.** The compiler emits DWARF debug info
   (`.debug_info``.debug_line`) only when `-g` is specified. Without it, `gdb` and `addr2line` cannot
   map addresses to source lines.
@@ -480,6 +539,7 @@ Writing it into the appropriate location in the machine code.
 - **Stripping before creating a debug link.** Always run `objcopy --only-keep-debug` before `strip`
   and use `objcopy --add-gnu-debuglink` to associate the debug file with the stripped binary.
   Otherwise, you lose the ability to debug crashes in production.
+
 ## Intuition
 
 **Code transformation:** The compilation process is like a factory assembly line — preprocessing, parsing, optimization, and code generation transform source code into executable instructions.
@@ -489,6 +549,7 @@ Writing it into the appropriate location in the machine code.
 **The key insight:** Preprocessor macros are text substitutions — they don't understand C++ syntax, which is why constexpr is preferred.
 
 ## Common Pitfalls
+
 1. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 2. Focusing only on content knowledge without developing exam technique and question-answering
@@ -496,11 +557,15 @@ Writing it into the appropriate location in the machine code.
 3. Ignoring feedback from marked work and failing to address recurring weaknesses.
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
+
 ## Summary
+
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
+
 ## Worked Examples
+
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 

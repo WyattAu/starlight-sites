@@ -614,7 +614,7 @@ Tags become dangling references. `git-filter-repo` rewrites tags automatically, 
 Force-push them:
 
 ```bash
-$ git push --force --tags origin
+git push --force --tags origin
 ```
 
 ### Signed Commits Become Invalid
@@ -674,7 +674,7 @@ $ git filter-repo --path secret.key --invert-paths
 If you must run on an existing clone, use `--force`But understand the risks:
 
 ```bash
-$ git filter-repo --path secret.key --invert-paths --force
+git filter-repo --path secret.key --invert-paths --force
 ```
 
 ### Forgetting to Remove the Expressions File

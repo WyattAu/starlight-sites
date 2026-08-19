@@ -84,8 +84,8 @@ Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done
 
 ### Additional Practice Problems
 
-4. Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about a tangent axis.
-5. A merry-go-round of moment of inertia $200 \, \text{kg}\cdot\text{m}^2$ rotates at $2 \, \text{rad/s}$. A 25 kg child runs radially inward from 3 m to 1 m from the center. Find the new angular speed.
+1. Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about a tangent axis.
+2. A merry-go-round of moment of inertia $200 \, \text{kg}\cdot\text{m}^2$ rotates at $2 \, \text{rad/s}$. A 25 kg child runs radially inward from 3 m to 1 m from the center. Find the new angular speed.
 
 ## Worked Example 5 — Rolling Motion Without Slipping
 
@@ -167,6 +167,7 @@ Rotational kinetic energy is $K_{rot} = \frac{1}{2}I\omega^2$, not $\frac{1}{2}m
 ### Mistake 3: Applying conservation of angular momentum when external torques exist
 
 Angular momentum is conserved only when the net external torque is zero. Students often apply $I_1\omega_1 = I_2\omega_2$ to situations where an external torque acts (such as a spinning top precessing under gravity). Always check whether external torques are present before applying conservation.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for CBSE notes.

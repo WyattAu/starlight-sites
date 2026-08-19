@@ -694,10 +694,10 @@ $$
 }
 </script>
 
-
 ## Intuition
 
 Calculus is the mathematics of change -- differentiation finds the instantaneous rate of change (how fast something is happening right now), and integration finds the accumulation of change (how much has happened over time). The Fundamental Theorem of Calculus is the bridge between these two operations: they are inverses of each other, just as multiplication and division are inverses. Implicit differentiation is like working backwards from a recipe to find the ingredients: you know the result (the equation) and you work out how each variable contributes. The key insight is that calculus gives you exact answers about quantities that are constantly changing.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -779,7 +779,6 @@ key theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
 
 </aside>
 

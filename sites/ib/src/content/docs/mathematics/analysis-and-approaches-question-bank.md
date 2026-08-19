@@ -588,8 +588,6 @@ A question bank serves as a diagnostic tool. Each question tests a specific skil
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
-
 ## Cross-References
 
 - **[Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Analysis covers calculus

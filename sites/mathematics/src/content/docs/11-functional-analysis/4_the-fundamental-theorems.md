@@ -134,6 +134,7 @@ operator $T$.
 
 **Theorem 4.10 (Closed Range Theorem).** If $T : X \to Y$ is a bounded linear operator between
 Banach spaces, then the following are equivalent:
+
 1. The range $R(T)$ is closed in $Y$.
 2. The range $R(T^*)$ is closed in $X^*$.
 3. $T$ is **relatively open**: there exists $c > 0$ such that for every $y \in R(T)$, there

@@ -274,4 +274,3 @@ Thermal physics connects the microscopic world of individual particles to the ma
 **Confusing specific heat at constant volume vs pressure:** C_V = (∂U/∂T)_V; C_P = (∂H/∂T)_P. For ideal gases C_P = C_V + nR, but this relation fails for real gases and solids.
 
 **Forgetting the density of states in Fermi energy calculations:** The Fermi energy depends on the number density n through E_F = (ℏ²/2m)(3π²n)^(2/3). Omitting the density of states factor gives incorrect degeneracy temperatures.
-

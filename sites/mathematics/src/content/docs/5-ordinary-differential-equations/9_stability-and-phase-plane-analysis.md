@@ -187,7 +187,6 @@ The phase plane is the coordinate space $(x, y)$, while the phase portrait is th
 - **[First-Order ODEs](2_first-order-odes)**: Phase plane methods reduce systems to qualitative analysis when first-order methods like separation of variables are unavailable.
 - **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: The Jacobian matrix and its eigenvalues, computed using partial derivatives, determine local stability.
 
-
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

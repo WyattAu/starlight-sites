@@ -515,7 +515,7 @@ stack haddock
 
 ### Hackage
 
-Hackage is Haskell"s central package repository at https://hackage.haskell.org. It hosts thousands
+Hackage is Haskell"s central package repository at <https://hackage.haskell.org>. It hosts thousands
 of open-source packages. Key resources:
 
 - **Package search**: Find libraries for specific tasks

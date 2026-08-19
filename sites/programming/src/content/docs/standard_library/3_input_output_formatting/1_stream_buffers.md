@@ -611,7 +611,6 @@ void stream_state_demo() {
    to the same `std::ostream` from different threads are safe. The behavior is undefined. Use
    `std::mutex` to serialize access to shared streams, or give each thread its own stream.
 
-
 ## Common Pitfalls
 
 1. Ignoring feedback from marked work and failing to address recurring weaknesses.
@@ -642,4 +641,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

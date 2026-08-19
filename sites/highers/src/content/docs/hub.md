@@ -214,7 +214,7 @@ Preparing for Scottish Highers requires sustained effort across multiple subject
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Active recall — flashcards for 20 minutes |
 | Afternoon | Topic study — read notes on one new topic |
 | Evening | Practice — complete 5–10 practice questions |

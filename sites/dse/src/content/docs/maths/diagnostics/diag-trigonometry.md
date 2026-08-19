@@ -760,8 +760,6 @@ $$\cos \angle AEF = \frac{AE^2 + EF^2 - AF^2}{2 \cdot AE \cdot EF} = \frac{40 + 
 
 $$\angle AEF = \arccos\left(\frac{\sqrt{10}}{10}\right) \approx 71.6°$$
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

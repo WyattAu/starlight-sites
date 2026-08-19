@@ -538,36 +538,36 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 
 ### Higher Level (Additional)
 
-11. Light of wavelength $620 \mathrm{ nm$ passes through a single slit of width $0.03 \mathrm{ mm$.
+1. Light of wavelength $620 \mathrm{ nm$ passes through a single slit of width $0.03 \mathrm{ mm$.
     Calculate the angular positions of the first and second minima.
 
-12. A diffraction grating has 600 lines/mm. Light of wavelength $550 \mathrm{ nm$ is incident
+2. A diffraction grating has 600 lines/mm. Light of wavelength $550 \mathrm{ nm$ is incident
     normally. Calculate the maximum number of orders visible and the total angular width of the
     second-order spectrum.
 
-13. Two sound sources produce intensity levels of $72 \mathrm{ dB$ and $72 \mathrm{ dB$ at a point.
+3. Two sound sources produce intensity levels of $72 \mathrm{ dB$ and $72 \mathrm{ dB$ at a point.
     Find the total intensity level.
 
-14. A light ray enters a semicircular glass block of refractive index $1.6$ at an angle of
+4. A light ray enters a semicircular glass block of refractive index $1.6$ at an angle of
     $50^{\circ}$ to the normal at the flat surface. Describe what happens at the curved surface.
 
-15. An ambulance siren at $700 \mathrm{ Hz$ approaches a stationary observer at $20 \mathrm{ m/s$
+5. An ambulance siren at $700 \mathrm{ Hz$ approaches a stationary observer at $20 \mathrm{ m/s$
     and then recedes at $20 \mathrm{ m/s$. Calculate the frequency heard by the observer in both
     cases.
 
-16. Explain why total internal reflection only occurs when light travels from a denser medium to a
+6. Explain why total internal reflection only occurs when light travels from a denser medium to a
     less dense medium, with reference to Snell's law.
 
-17. A sound intensity level of $90 \mathrm{ dB$ is measured at $1 \mathrm{ m$ from a point source.
+7. A sound intensity level of $90 \mathrm{ dB$ is measured at $1 \mathrm{ m$ from a point source.
     At what distance is the level $60 \mathrm{ dB$?
 
-18. Describe Young's double slit experiment and explain how it provides evidence for the wave nature
+8. Describe Young's double slit experiment and explain how it provides evidence for the wave nature
     of light.
 
-19. An optical fibre has a core refractive index of $1.48$ and cladding refractive index of $1.42$.
+9. An optical fibre has a core refractive index of $1.48$ and cladding refractive index of $1.42$.
     Calculate the critical angle and explain why this fibre can transmit signals around bends.
 
-20. Explain the difference between coherent and incoherent sources. Why are two independent light
+10. Explain the difference between coherent and incoherent sources. Why are two independent light
     bulbs unable to produce a stable interference pattern?
 
 ## Extended Worked Examples
@@ -704,22 +704,22 @@ Different densities.
 
 ## Additional Practice Problems
 
-21. A convex lens has a focal length of $15 \mathrm{ cm$. An object $3 \mathrm{ cm$ tall is placed
+1. A convex lens has a focal length of $15 \mathrm{ cm$. An object $3 \mathrm{ cm$ tall is placed
     $25 \mathrm{ cm$ from the lens. Calculate the image position, height, magnification, and nature
     (real/virtual, upright/inverted). Draw a ray diagram.
 
-22. Monochromatic light of wavelength $550 \mathrm{ nm$ is incident on a diffraction grating with
+2. Monochromatic light of wavelength $550 \mathrm{ nm$ is incident on a diffraction grating with
     $400 \mathrm{ lines/mm$. Calculate the angles of the first and second order maxima and the total
     number of orders visible.
 
-23. A concave mirror has a focal length of $20 \mathrm{ cm$. An object is placed $30 \mathrm{ cm$
+3. A concave mirror has a focal length of $20 \mathrm{ cm$. An object is placed $30 \mathrm{ cm$
     from the mirror. Calculate the image position and magnification. Is the image real or virtual?
 
-24. The wavelength of light in a certain liquid is $450 \mathrm{ nm$. If the wavelength in air is
+4. The wavelength of light in a certain liquid is $450 \mathrm{ nm$. If the wavelength in air is
     $600 \mathrm{ nm$Calculate the refractive index of the liquid and the speed of light in the
     liquid.
 
-25. Explain how fibre optic cables use total internal reflection to transmit data. Include a
+5. Explain how fibre optic cables use total internal reflection to transmit data. Include a
     calculation showing why a fibre with core refractive index $1.50$ and cladding index $1.45$ is
      suitable for this purpose.
 

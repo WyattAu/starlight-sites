@@ -11,7 +11,6 @@ description: "IB Chemistry practice problems: Stoichiometry Practice (Interactiv
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Stoichiometry practice is like chemical accounting — balancing equations and calculating yields requires meticulous attention:** Stoichiometry connects atomic-scale reactions to measurable quantities through the mole concept
@@ -20,14 +19,12 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **The key insight:** Stoichiometry connects atomic-scale reactions to measurable quantities through the mole concept
 
-
 ## IB Chemistry — Stoichiometry Practice
 
 16 auto-graded practice problems from easy to hard difficulty, aligned to the IB Chemistry syllabus
 (SL/HL). Select an answer, submit, and review the explanation.
 
 ---
-
 
 ### Mole Concept and Molar Mass
 
@@ -49,7 +46,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Balancing Equations and Limiting Reactants
 
 <PracticeProblem client:only="solid-js" question={"In the reaction: N₂(g) + 3H₂(g) → 2NH₃(g), if 2.00 mol of N₂ and 7.00 mol of H₂ are allowed to react, which is the limiting reactant?&quot; options={['H₂', 'N₂', 'Neither; they are in stoichiometric ratio.', 'NH₃']} correctAnswer={0} explanation=&quot;The stoichiometric ratio of H₂:N₂ is 3:1. With 2.00 mol N₂, the required H₂ = 3 × 2.00 = 6.00 mol. Since only 7.00 mol of H₂ is available (which is more than 6.00 mol), N₂ is in excess and H₂ is the limiting reactant. Alternatively: from 7.00 mol H₂, the required N₂ = 7.00/3 = 2.33 mol, but only 2.00 mol N₂ is available. Either approach confirms H₂ is limiting. Excess N₂ remaining = 2.00 - 7.00/3 = 2.00 - 2.33 = -0.33, confirming H₂ is used up first."} difficulty="easy"  />
@@ -66,7 +62,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Gas Laws and Solutions
 
 <PracticeProblem client:only="solid-js" question={"What volume does 0.500 mol of an ideal gas occupy at STP (0 °C and 101.3 kPa)?&quot; options={['11.2 dm³', '22.4 dm³', '5.60 dm³', '44.8 dm³']} correctAnswer={0} explanation=&quot;At STP, one mole of an ideal gas occupies 22.4 dm³. Volume = n × Vₘ = 0.500 × 22.4 = 11.2 dm³. Note: the IB data booklet defines standard conditions as 100 kPa and 273 K (molar volume = 22.7 dm³), while traditional STP uses 101.3 kPa (molar volume = 22.4 dm³). Using 22.7 dm³: V = 0.500 × 22.7 = 11.35 dm³ ≈ 11.2 dm³ (the difference is within rounding). The question specifies STP, so 22.4 dm³ is correct."} difficulty="easy"  />
@@ -78,8 +73,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A gas occupies 5.00 dm³ at 25 °C and 101 kPa. What volume will it occupy at 100 °C and 202 kPa?&quot; options={['3.01 dm³', '2.50 dm³', '10.0 dm³', '8.31 dm³']} correctAnswer={0} explanation=&quot;Using the combined gas law: P₁V₁/T₁ = P₂V₂/T₂. T must be in Kelvin: T₁ = 25 + 273 = 298 K, T₂ = 100 + 273 = 373 K. V₂ = P₁V₁T₂/(P₂T₁) = (101 × 5.00 × 373)/(202 × 298) = 188,365/60,196 = 3.13 dm³. Using rounded values: V₂ = (101/202) × (373/298) × 5.00 = 0.500 × 1.252 × 5.00 = 3.13 dm³. The closest answer is 3.01 dm³. More precisely: (101 × 5.00 × 373) / (202 × 298) = 3.13 dm³. The increase in pressure halves the volume, but the increase in temperature increases it by factor 373/298 ≈ 1.252. Net effect: 5.00 × 0.5 × 1.252 = 3.13 dm³."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"In a titration, 20.0 cm³ of 0.100 mol dm⁻³ HCl exactly neutralises 25.0 cm³ of NaOH solution. What is the concentration of the NaOH solution?&quot; options={['0.0800 mol dm⁻³', '0.100 mol dm⁻³', '0.125 mol dm⁻³', '0.200 mol dm⁻³']} correctAnswer={0} explanation=&quot;Reaction: HCl + NaOH → NaCl + H₂O (1:1 stoichiometry). Moles of HCl = c × V = 0.100 × 0.0200 = 0.00200 mol. Since 1 mol HCl reacts with 1 mol NaOH, moles of NaOH = 0.00200 mol. Concentration of NaOH = n/V = 0.00200/0.0250 = 0.0800 mol dm⁻³. The key is the 1:1 mole ratio and converting cm³ to dm³ (divide by 1000). This is a straightforward titration calculation using c₁V₁ = c₂V₂ for a 1:1 reaction."} difficulty="hard"  />
-
-
 
 ## Cross-References
 

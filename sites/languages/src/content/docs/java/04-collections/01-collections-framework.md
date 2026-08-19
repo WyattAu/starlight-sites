@@ -635,6 +635,7 @@ System.out.println(range);  // {5=Bob, 10=Charlie}
 // subMap returns a VIEW, not a copy -- changes to the view are reflected in the backing map
 range.put(7, "Eve");
 System.out.println(scores);  // {1=Alice, 5=Bob, 7=Eve, 10=Charlie, 15=Diana}
+
 ```
 
 ### LinkedHashMap
@@ -1219,7 +1220,6 @@ System.out.println(nullSafeTree);  // [null, Alice]
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

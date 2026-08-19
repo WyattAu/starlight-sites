@@ -408,9 +408,9 @@ def factorial(n):
 print(factorial(5))  # 120
 ```
 
-**Trace:** factorial(5) = 5 _ factorial(4) = 5 _ 4 _ factorial(3) = 5 _ 4 _ 3 _ factorial(2) = 5
+**Trace:** factorial(5) = 5 _factorial(4) = 5_ 4 _factorial(3) = 5_ 4 _3_ factorial(2) = 5
 
-- 4 _ 3 _ 2 _ factorial(1) = 5 _ 4 _ 3 _ 2 _ 1 _ factorial(0) = 5 _ 4 _ 3 _ 2 _ 1 \* 1 = 120.
+- 4 _3_ 2 _factorial(1) = 5_ 4 _3_ 2 _1_ factorial(0) = 5 _4_ 3 _2_ 1 \* 1 = 120.
 
 **The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`The
 Stack grows to 6 frames before the base case is reached. Then the frames are unwound as each call

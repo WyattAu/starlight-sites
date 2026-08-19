@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Chemical bonds are like握手 — atoms sharing or transferring electrons to become more stable.**

@@ -100,13 +100,13 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.3 Key Relationships
 
-| Parameter          | Value (best fit)       | Experiment                      | Role                                    |
+| Parameter | Value (best fit) | Experiment | Role |
 | ------------------ | ---------------------- | ------------------------------- | --------------------------------------- |
-| $\Delta m^2_{21}$  | $7.5 \times 10^{-5}$ eV$^2$ | Solar (SNO, Borexino)     | Drives solar $\nu_e \to \nu_{\mu,\tau}$ |
-| $\Delta m^2_{32}$  | $2.5 \times 10^{-3}$ eV$^2$ | Atmospheric (Super-K)     | Drives $\nu_\mu \to \nu_\tau$ oscillations |
-| $\sin^2(2\theta_{12})$ | 0.86                   | Solar (SNO)                     | Solar mixing angle                       |
-| $\sin^2(2\theta_{23})$ | 1.0 (maximal)           | Atmospheric (Super-K)           | Atmospheric mixing angle                 |
-| $\sin^2(2\theta_{13})$ | 0.092                  | Reactor (Daya Bay, RENO, Double Chooz) | Non-zero, enables CP violation          |
+| $\Delta m^2_{21}$ | $7.5 \times 10^{-5}$ eV$^2$ | Solar (SNO, Borexino) | Drives solar $\nu_e \to \nu_{\mu,\tau}$ |
+| $\Delta m^2_{32}$ | $2.5 \times 10^{-3}$ eV$^2$ | Atmospheric (Super-K) | Drives $\nu_\mu \to \nu_\tau$ oscillations |
+| $\sin^2(2\theta_{12})$ | 0.86 | Solar (SNO) | Solar mixing angle |
+| $\sin^2(2\theta_{23})$ | 1.0 (maximal) | Atmospheric (Super-K) | Atmospheric mixing angle |
+| $\sin^2(2\theta_{13})$ | 0.092 | Reactor (Daya Bay, RENO, Double Chooz) | Non-zero, enables CP violation |
 
 ### 8.4 Common Pitfalls
 
@@ -139,10 +139,10 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 - **Dirac vs. Majorana nature:** Are neutrinos their own antiparticles? Neutrinoless double-beta decay ($0\nu\beta\beta$) experiments search for this; a positive signal would prove the Majorana nature and fix the absolute mass scale.
 - **Absolute mass scale:** Oscillations only measure mass-squared differences. KATRIN measures the electron neutrino mass via tritium beta decay, currently constraining $m_{\nu_e} < 0.8$ eV.
 
-
 ## Intuition
 
 Neutrinos are the most mysterious particles in the Standard Model: nearly massless, electrically neutral, and interacting only through the weak force. They come in three flavors, and neutrino oscillations proved they have mass by showing flavors transform into each other during flight. This discovery shattered the Standard Model as originally formulated. Neutrino masses are so tiny that their origin may differ from other particles, possibly involving heavy right-handed neutrinos at energy scales far beyond accelerator reach. Understanding neutrino masses and mixing could explain why the universe contains more matter than antimatter.
+
 ## Cross-References
 
 - **[The Standard Model](1_the-standard-model)**: Neutrinos are fundamental fermions in the Standard Model, and their masses require extensions beyond the minimal framework.

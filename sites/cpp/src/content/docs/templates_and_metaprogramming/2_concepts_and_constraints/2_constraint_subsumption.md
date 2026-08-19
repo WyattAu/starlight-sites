@@ -119,8 +119,8 @@ Representation is unique (up to reordering) for a given constraint expression.
 
 - $(A \land B) \lor C \to (A \lor C) \land (B \lor C)$
 
-3. Collect atomic constraints within each conjunction.
-4. Remove duplicate atomic constraints within each conjunction.
+1. Collect atomic constraints within each conjunction.
+2. Remove duplicate atomic constraints within each conjunction.
 
 **Example:**
 

@@ -23,6 +23,7 @@ description: "高考 english: Writing"
 ### 应用文写作
 
 **书信类：**
+
 - 感谢信（Thank-you letter）
 - 道歉信（Apology letter）
 - 申请信（Application letter）
@@ -31,6 +32,7 @@ description: "高考 english: Writing"
 - 通知（Notice）
 
 **书信格式：**
+
 ```
 Dear ...,
 
@@ -45,12 +47,14 @@ Yours sincerely/faithfully,
 ### 读后续写
 
 **续写要求：**
+
 - 与所给段落开头语衔接
 - 内容合理，情节完整
 - 使用5个以上短文中标有下划线的关键词语
 - 词数150左右
 
 **续写技巧：**
+
 - 推理合理，情节连贯
 - 保持原文的写作风格
 - 适当使用心理描写和环境描写
@@ -59,16 +63,19 @@ Yours sincerely/faithfully,
 ### 常用句型
 
 **开头句型：**
+
 - I am writing to...
 - I am glad/happy to...
 - I would like to express my...
 
 **过渡句型：**
+
 - First of all / Moreover / Furthermore
 - In addition / Besides / What's more
 - On the other hand / However
 
 **结尾句型：**
+
 - I am looking forward to hearing from you.
 - Thank you for your time and consideration.
 - I would appreciate it if you could...

@@ -18,7 +18,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 <FlashcardDeck client:only="solid-js"   deckId="cpp-memory-management"
   title="C++ Memory Management Flashcards"
   description="Interactive flashcards on RAII, smart pointers, move semantics, Rule of Five, memory leaks, dangling pointers, stack vs heap, and exception safety."
@@ -42,6 +41,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 3. **Using `std::shared_ptr` when `std::unique_ptr` suffices:** `shared_ptr` has overhead (atomic reference counting, heap-allocated control block). If you don't need shared ownership, use `unique_ptr` — it has zero overhead compared to raw pointers.
 
 4. **Returning `std::unique_ptr` from functions:** `unique_ptr` is move-only — you can't copy it, but you can move it. Return `unique_ptr` from factory functions to transfer ownership to the caller. The compiler will apply NRVO or move the pointer automatically.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Programming notes.

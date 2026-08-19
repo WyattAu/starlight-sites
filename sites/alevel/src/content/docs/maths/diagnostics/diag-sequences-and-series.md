@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -439,8 +438,6 @@ $$\sum_{r=1}^{n} r^2\binom{n}{r} = n(n+1) \cdot 2^{n-2}$$
 
 **Verification for $n = 3$:** LHS $= 1 \cdot 3 + 4 \cdot 3 + 9 \cdot 1 = 3 + 12 + 9 = 24$. RHS
 $= 3 \cdot 4 \cdot 2 = 24$. Confirmed.
-
-
 
 ## Cross-References
 

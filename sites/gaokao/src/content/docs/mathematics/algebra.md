@@ -28,6 +28,7 @@ description: "高考 mathematics: Algebra"
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 **判别式 $\Delta = b^2 - 4ac$：**
+
 - $\Delta > 0$：两个不相等的实数根
 - $\Delta = 0$：两个相等的实数根（重根）
 - $\Delta < 0$：无实数根（两个共轭复数根）
@@ -40,6 +41,7 @@ $$x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}$$
 集合的三种表示方法：列举法、描述法、图示法（Venn图）。
 
 **集合运算：**
+
 - 交集：$A \cap B = \{x \mid x \in A \text{ 且 } x \in B\}$
 - 并集：$A \cup B = \{x \mid x \in A \text{ 或 } x \in B\}$
 - 补集：$\complement_U A = \{x \mid x \in U \text{ 且 } x \notin A\}$
@@ -188,12 +190,14 @@ $$f(k) < 0$$
 ### 数列的综合应用
 
 等差数列和等比数列的综合问题通常涉及：
+
 - 利用通项公式建立方程组
 - 利用求和公式计算部分和
 - 判断数列的单调性和有界性
 - 与不等式结合的最值问题
 
 **关键公式：**
+
 - 等差数列：$a_n = a_1 + (n-1)d$，$S_n = \frac{n(a_1 + a_n)}{2} = na_1 + \frac{n(n-1)}{2}d$
 - 等比数列：$a_n = a_1 q^{n-1}$，$S_n = \frac{a_1(1-q^n)}{1-q}$（$q \neq 1$）
 

@@ -819,7 +819,6 @@ The adjacent sides are not perpendicular, so $ABCD$ is **not** a rectangle.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -874,4 +873,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

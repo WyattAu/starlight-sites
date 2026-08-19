@@ -455,8 +455,6 @@ pushing farmers onto marginal land (slopes, forests), which accelerates environm
 They must be combined with effective governance, international cooperation, and adaptation to
 climate change to meaningfully resolve the tension between population growth and resource scarcity.
 
-
-
 ## Cross-References
 
 - **[Population](../population):** Population dynamics are studied

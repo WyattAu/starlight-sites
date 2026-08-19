@@ -521,8 +521,6 @@ Quays area?
 > Geography_ (2017); Harris and Jenner, _Geographical Skills and Fieldwork_ (2016); Environment
 > Agency data services; OS mapping guidelines.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

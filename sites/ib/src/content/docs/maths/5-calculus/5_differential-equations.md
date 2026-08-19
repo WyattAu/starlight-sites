@@ -744,4 +744,3 @@ applying these mathematical techniques. | [Differential Equations] | A-Level |
 Equations] | University |
 [View](https://university.wyattau.com/docs/mathematics/4-ordinary-differential-equations/1_differential-equations)
 |
-

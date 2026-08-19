@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Phase transitions occur when thermal energy overcomes intermolecular forces, changing how particles interact
 
-
 ## Unit Tests
 
 ### UT-1: Ideal Gas Law and Unit Conversion
@@ -217,8 +216,6 @@ it has an extremely high melting point ($1713\ ^\circ\text{C}$). Any "triple poi
 extremely high temperatures and pressures far beyond normal laboratory conditions. The covalent
 bonds throughout the network must be broken (rather than merely overcome, as with intermolecular
 forces) to change state, making all phase transitions require enormous energy input.
-
-
 
 ## Cross-References
 

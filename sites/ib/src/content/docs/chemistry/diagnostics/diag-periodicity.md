@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Periodic trends in atomic radius, ionization energy, and electronegability arise from electron configuration patterns
 
-
 ## Unit Tests
 
 ### UT-1: Ionisation Energy Trend Explanation

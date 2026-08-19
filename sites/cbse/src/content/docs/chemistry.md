@@ -346,7 +346,7 @@ NH$_3$ derivatives). Aldol condensation, Cannizzaro reaction, Clemmensen reducti
 lone pair on N. Order of basicity in gas phase: $3° > 2° > 1° > \text{NH}_3$. In aqueous solution:
 $2° > 3° > 1° > \text{NH}_3$ (steric + solvation effects). Carbylamine reaction (isocyanide test) for $1°$ amines.
 
-** Diazonium salts:** $\text{ArN}_2^+\text{Cl}^-$ formed by nitrous acid with aromatic $1°$ amines. Used for
+**Diazonium salts:** $\text{ArN}_2^+\text{Cl}^-$ formed by nitrous acid with aromatic $1°$ amines. Used for
 Sandmeyer reactions to introduce $-$Cl, $-$Br, $-$CN, $-$OH groups on the aromatic ring.
 
 ### 3.6 Polymers
@@ -467,14 +467,17 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 ## Worked Examples
 
 ### Example 1: Calculating pH and Buffer Capacity
+
 **Problem:** A buffer solution is prepared by mixing 0.1 mol CH3COOH (pKa = 4.74) and 0.1 mol CH3COONa in 1 L of solution. Calculate the pH. Then find the pH after adding 0.01 mol HCl.
 **Solution:** Using Henderson-Hasselbalch: pH = pKa + log([A-]/[HA]) = 4.74 + log(0.1/0.1) = 4.74. After adding 0.01 mol HCl, it reacts with CH3COO-: new [A-] = 0.09, new [HA] = 0.11. pH = 4.74 + log(0.09/0.11) = 4.74 + log(0.818) = 4.74 - 0.087 = 4.65.
 
 ### Example 2: Determining Oxidation States in Redox
+
 **Problem:** Balance the redox reaction: Cr2O7^2- + Fe^2+ + H+ -> Cr^3+ + Fe^3+ + H2O.
 **Solution:** Cr goes from +6 to +3 (gain 3e- per Cr atom, 2 Cr atoms = 6e- gained). Fe goes from +2 to +3 (lose 1e- per Fe). LCM of electrons: 6. Multiply Fe^2+ by 6. Balancing atoms: Cr2O7^2- + 6Fe^2+ + 14H+ -> 2Cr^3+ + 6Fe^3+ + 7H2O. Check: charge: left = -2 + 12 + 14 = +24, right = 6 + 18 = +24. Balanced.
 
 ### Example 3: First-Order Kinetics Half-Life
+
 **Problem:** A first-order reaction has a rate constant k = 0.0693 min^-1. What fraction of the reactant remains after 20 minutes?
 **Solution:** t_1/2 = 0.693/0.0693 = 10 min. In 20 minutes, that is 2 half-lives. Fraction remaining = (1/2)^2 = 0.25, or 25%. Alternatively: [A] = [A]_0 e^{-kt} = [A]_0 e^{-0.0693 x 20} = [A]_0 e^{-1.386} = [A]_0 x 0.250.
 

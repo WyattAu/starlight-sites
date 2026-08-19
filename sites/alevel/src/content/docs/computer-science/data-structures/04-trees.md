@@ -1001,7 +1001,6 @@ Longest root-to-leaf path: 38 → 33 → 15 → 10 = 3 edges, OR 38 → 43 → 5
 
 Height of the tree = **3**.
 
-
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
@@ -1015,7 +1014,6 @@ Height of the tree = **3**.
 
 4. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted
    data).
-
 
 ## Intuition
 
@@ -1031,4 +1029,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

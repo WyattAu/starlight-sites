@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Vectors are like arrows with both direction and magnitude — they point where you need to go and tell you how far.**
@@ -485,8 +484,6 @@ half its length. This is the midpoint theorem.
 **Forgetting that two vectors are parallel if one is a scalar multiple of the other:** $\mathbf{a} \parallel \mathbf{b}$ if and only if $\mathbf{a} = k\mathbf{b}$ for some scalar $k$. Students often try to use the dot product to test for parallelism (which actually tests perpendicularity). For parallelism, check that the ratios of corresponding components are equal.
 
 **Misidentifying the direction vector of a line of intersection:** The line where two planes intersect has direction vector $\mathbf{n}_1 \times \mathbf{n}_2$ (the cross product of the normals). Students sometimes use the dot product instead, which gives a scalar, not a direction vector.
-
-
 
 ## Cross-References
 

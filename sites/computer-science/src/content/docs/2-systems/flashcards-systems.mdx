@@ -11,10 +11,10 @@ import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/2-systems/flashcards-systems-data.js';
 
 ## Computer Science -- Systems Flashcards
+
 20 interactive flashcards for university-level Computer Systems. Press Space to flip, rate 1-4.
 
 ---
-
 
 ### Additional Flashcard Topics
 
@@ -36,11 +36,10 @@ Computer systems are about **how hardware and software cooperate** to execute pr
 
 ---
 
-
 ## Key Concepts
 
 | Concept | Why It Matters |
-|---------|---------------|
+| --------- | --------------- |
 | **Cache hierarchy** | L1/L2/L3 caches bridge the CPU-memory speed gap using locality principles |
 | **Virtual memory** | Isolates processes, enables memory overcommitment, simplifies programming |
 | **Context switching** | OS saves/restores process state to multiplex the CPU across processes |
@@ -48,7 +47,6 @@ Computer systems are about **how hardware and software cooperate** to execute pr
 | **CAP theorem** | Distributed systems can guarantee at most 2 of: Consistency, Availability, Partition tolerance |
 
 ---
-
 
 ## Common Pitfalls
 
@@ -63,7 +61,6 @@ Computer systems are about **how hardware and software cooperate** to execute pr
 **Forgetting that context switches are expensive.** A context switch involves saving and restoring CPU state, flushing TLBs, and potentially swapping cache contents. Frequent context switches degrade performance significantly.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-systems" title="University CS -- Systems" description="Architecture, memory hierarchy, deadlock, scheduling, file systems, CAP theorem" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 

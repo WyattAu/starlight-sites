@@ -105,7 +105,6 @@ single mechanism is Insufficient. A determined attacker who can read memory can 
 format string Vulnerability can leak canary values; and JIT compilers require
 writable-and-executable pages.
 
-
 </aside>
 ### 9.4 Privilege Separation in Practice
 
@@ -158,6 +157,7 @@ Operating system security is the bouncer, the lock, and the surveillance camera 
 **Assuming encryption alone ensures security:** Encryption protects data confidentiality but doesn't prevent all attacks (e.g., denial of service, social engineering). Defence in depth is needed.
 
 **Forgetting that security is a process, not a product:** No single mechanism provides complete security. Regular updates, monitoring, and user education are essential components.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for computer-science notes.

@@ -394,14 +394,14 @@ Functions execute.
 
 Fix: pass as an argument `go func(val int) { ... }(v)`.
 
-3. **Using `defer` in a loop.** Each `defer` in a loop accumulates until the function returns. For
+1. **Using `defer` in a loop.** Each `defer` in a loop accumulates until the function returns. For
    large loops, this can exhaust memory. Use an immediately-invoked function or call the cleanup
    directly.
 
-4. **Range over `nil` map/slice is safe.** `for range nil` does nothing -- it does not panic. This
+2. **Range over `nil` map/slice is safe.** `for range nil` does nothing -- it does not panic. This
    is by design.
 
-5. **Range copies values.** Modifying the range variable does not modify the original element. Use
+3. **Range copies values.** Modifying the range variable does not modify the original element. Use
    index-based access for mutations.
 
 ## Summary

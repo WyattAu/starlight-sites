@@ -24,7 +24,6 @@ description: "UN Sustainable Development Goals for IB Geography."
 
 **The key insight:** Sustainable development requires balancing present needs with future possibilities — meeting today's goals without compromising tomorrow's
 
-
 ## The SDG Framework
 
 ### Origins and Structure

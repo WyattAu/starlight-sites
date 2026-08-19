@@ -579,7 +579,6 @@ The relationship between `char``char8_t`And the execution encoding is subtle and
    values, not on Unicode code points. The `std::ctype<char>::toupper` function cannot handle
    multi-byte characters. For Unicode-aware locale operations, use ICU.
 
-
 ## Common Pitfalls
 
 1. Not making connections between different topics within the subject to build a coherent

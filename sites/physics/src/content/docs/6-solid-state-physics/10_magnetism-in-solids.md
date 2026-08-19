@@ -203,7 +203,6 @@ far too small to Explain Curie temperatures of $\sim 10^3$ K ($\sim 0.1$ eV). Th
 interaction is a Consequence of the Coulomb repulsion combined with the antisymmetry of the electron
 wave function (Pauli principle), and is $10$--$100$ meV.
 
-
 </aside>
 
 ## Intuition

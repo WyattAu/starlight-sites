@@ -144,7 +144,6 @@ class Rectangle {
 More efficient — they initialize fields directly, while the constructor body runs after all fields
 Have been initialized (to their default values first).
 
-
 ## Inheritance
 
 Dart supports **single inheritance** with the `extends` keyword. Multiple inheritance of
@@ -308,7 +307,6 @@ mixin Persistable on Serializable {
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
 
-
 ## Operator Overloading
 
 Dart allows overloading operators by defining methods with the operator name:
@@ -341,7 +339,6 @@ print(a.dot(b));   // 11.0
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
-
 
 ## Extension Methods
 
@@ -376,7 +373,6 @@ extension ListX<T> on List<T> {
 <aside class="starlight-aside starlight-aside--note">
 Syntactic sugar for static function calls. This means they cannot be used polymorphically (a
 `dynamic` variable won't have access to extension methods).
-
 
 ## Common Pitfalls
 

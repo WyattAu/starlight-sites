@@ -335,7 +335,6 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
   assumes $\lVert \mathbf{u} \rVert = 1$. If the direction is given by a non-unit vector
   $\mathbf{v}$Divide by $\lVert \mathbf{v} \rVert$ first.
 
-
 </aside>
 
 ## Cross-References

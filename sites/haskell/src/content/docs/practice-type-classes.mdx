@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### Exercise 1: Custom Type Classes
 
 **Problem:** Define a `Describable` type class with a `describe` method. Implement it for three types: `Color`, `Shape`, and `Priority`. Then write a function that takes any `Describable` value and returns a formatted description string.
@@ -60,7 +59,6 @@ formatDescription x =
 **Solution:** The `Describable` class defines two methods: `describe` (required) and `category` (with a default implementation). Each instance provides type-specific behavior. `formatDescription` is polymorphic over any `Describable` type. The `Generic` derive is included for potential future use with serialization.
 
 ---
-
 
 ### Exercise 2: Functor, Applicative, Monad
 
@@ -112,7 +110,6 @@ validateUserForm age email =
 **Solution:** `Functor` maps over the `Success` case. `Applicative` combines failures using `<>` (the `Semigroup` constraint), accumulating all errors. `Monad` is the same as `Either` (short-circuiting on `Failure`), which demonstrates a known limitation: `Monad` cannot accumulate errors. Use `Applicative` for validation to get error accumulation. `validateUserForm` combines two validations.
 
 ---
-
 
 ### Exercise 3: Monad Transformers
 
@@ -192,7 +189,6 @@ main = do
 
 ---
 
-
 ### Exercise 4: Type Families
 
 **Problem:** Define a type family `Element` that maps a container type to its element type. Implement it for `List`, `Maybe`, and a custom `Pair` type. Write a generic function that works with any container that has an `Element` type family instance.
@@ -243,7 +239,6 @@ filterContainer pred c =
 **Solution:** The `Element` type family associates each container type with its element type. `Container` provides a uniform interface: `empty`, `insert`, `toList`. `sumContainer` works with any `Container` whose elements are `Num`. `filterContainer` preserves the container type while filtering elements. Type families enable more expressive type-level programming than simple type classes.
 
 ---
-
 
 ### Exercise 5: GADTs
 

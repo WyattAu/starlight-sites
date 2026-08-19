@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Quantum mechanics shows that at the smallest scales, nature operates in discrete chunks rather than continuously, fundamentally changing how we understand matter and energy
 
-
 ## Unit Tests
 
 ### UT-1: Bohr Model — Limitations and Quantisation

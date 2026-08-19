@@ -89,8 +89,8 @@ So $x = 1$, $y = 2$.
 
 ### Additional Practice Problems
 
-4. If $A = \begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 0 \\ 2 & 0 & 1 \end{pmatrix}$, find $\det(A)$ and determine whether $A^{-1}$ exists.
-5. Show that if $A$ and $B$ are invertible matrices, then $(AB)^{-1} = B^{-1}A^{-1}$ using $A = \begin{pmatrix} 1 & 2 \\ 3 & 5 \end{pmatrix}$ and $B = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
+1. If $A = \begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 0 \\ 2 & 0 & 1 \end{pmatrix}$, find $\det(A)$ and determine whether $A^{-1}$ exists.
+2. Show that if $A$ and $B$ are invertible matrices, then $(AB)^{-1} = B^{-1}A^{-1}$ using $A = \begin{pmatrix} 1 & 2 \\ 3 & 5 \end{pmatrix}$ and $B = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$.
 
 ## Common Exam Patterns
 

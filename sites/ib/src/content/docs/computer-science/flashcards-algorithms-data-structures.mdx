@@ -19,7 +19,6 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ---
 
-
 ### Key Concepts
 
 **Boolean Logic**: AND, OR, NOT, XOR gates form the foundation of digital circuits. De Morgan's laws connect them: NOT(A AND B) = (NOT A) OR (NOT B), and NOT(A OR B) = (NOT A) AND (NOT B). These are used in circuit design and logical expressions in programming. Truth tables show all possible input-output combinations for each gate. NAND and NOR gates are "universal" -- any Boolean expression can be built using only NAND or only NOR gates.
@@ -32,11 +31,9 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ---
 
-
 <FlashcardDeck client:only="solid-js" deckId="ib-cs-algorithms-data-structures" title="IB CS -- Algorithms and Data Structures" description="Boolean logic, algorithms, data structures, searching, and sorting" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
 
 ---
-
 
 ## Intuition
 
@@ -46,7 +43,6 @@ Think of data structures as different types of containers. An array is like a ro
 
 ---
 
-
 ## Common Pitfalls
 
 - Confusing time complexities. O(n²) is much worse than O(n log n) for large n. For n = 1,000,000: O(n²) = 10¹² operations; O(n log n) ≈ 2 × 10⁷ operations. The difference is enormous. Always compare algorithms using their Big O notation.
@@ -55,7 +51,6 @@ Think of data structures as different types of containers. An array is like a ro
 - Confusing stacks and queues. Stack = LIFO (like a pile of plates); Queue = FIFO (like a queue at a shop). Using the wrong one for the problem gives incorrect results.
 
 ---
-
 
 ## Cross-References
 

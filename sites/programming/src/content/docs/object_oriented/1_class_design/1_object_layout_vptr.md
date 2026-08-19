@@ -656,7 +656,6 @@ struct Combined : EmptyBase<struct A>, EmptyBase<struct B> {
 static_assert(sizeof(Combined) == sizeof(int));  // EBO applies for both
 ```
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to object layout, vptr, and the this
@@ -674,10 +673,10 @@ A thorough understanding of these concepts, combined with regular practice and r
 for mastery of this topic.
 
 ## See Also
+
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

@@ -118,7 +118,7 @@ do {
 }
 ```
 
-### try? and try!
+### try? and try
 
 ```swift
 // try? -- returns nil on error (discards error information)

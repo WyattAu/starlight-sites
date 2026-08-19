@@ -789,8 +789,6 @@ After removing $\mu$: $\sum x_i^2 = n(\sigma^2 + \mu^2) - \mu^2 = n\sigma^2 + (n
 
 New variance $= \dfrac{n\sigma^2 + (n-1)\mu^2}{n-1} - \mu^2 = \dfrac{n\sigma^2}{n-1}$.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

@@ -74,7 +74,6 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 That if you stop writing, the system will converge. In practice, convergence time depends on the
 System, the network, and the write volume. In a partition, convergence may be indefinite.
 
-
 ## NoSQL Categories
 
 NoSQL is not a single technology -- it is a category of databases that provide alternatives to the
@@ -271,7 +270,6 @@ Atomically update `user:123:profile` and `user:123:settings`They must have the s
 (`{user:123}`). Operations like `MGET` on keys with different hash tags will fail with a `CROSSSLOT`
 error.
 
-
 ### Memcached
 
 Memcached is a simpler, multi-threaded, in-memory key-value cache with no persistence and no
@@ -375,7 +373,6 @@ Databases where you model entities and then write queries to access them, in Cas
 Queries and denormalise data to support each query pattern. A common rule: one table per query
 Pattern.
 
-
 ### ScyllaDB
 
 ScyllaDB is a C++ rewrite of Cassandra that is compatible with the Cassandra protocol and CQL. It
@@ -454,7 +451,6 @@ RETURN p
 <aside class="starlight-aside starlight-aside--tip">
 Relational database for transactional data and a graph database for relationship-heavy queries. This
 Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
-
 
 ## Time Series Databases
 
@@ -567,7 +563,6 @@ Replication configuration, monitoring, upgrade path, and failure modes. Before i
 Database technology, ensure your team has the expertise to operate it in production. The cost of
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
 Your use cases adequately.
-
 
 ## Intuition
 
@@ -718,7 +713,6 @@ SSTable Level N (disk)  ← oldest, largest
 Tree implementation. It is configurable: you can tune compaction strategy, bloom filter size,
 Compression, block cache, and write buffer size to optimise for specific workloads.
 
-
 ### DynamoDB Deep Dive
 
 Amazon DynamoDB is a fully managed, serverless key-value and document store that implements a
@@ -803,7 +797,6 @@ GET /products/_search
 A search engine, not a primary data store. Use it as a secondary index alongside a relational
 Database, not as a replacement for one.
 
-
 ## Benchmarking NoSQL Systems
 
 When evaluating NoSQL databases, benchmark with your actual workload, not synthetic benchmarks:
@@ -837,7 +830,6 @@ Being benchmarked. Always run your own benchmarks with your own data and access 
 Performance difference between systems is often smaller than the difference between a well-tuned and
 Poorly-tuned deployment of the same system.
 
-
 ## Summary
 
 This topic covers the essential chemistry of nosql databases, including key reactions, underlying
@@ -865,6 +857,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>

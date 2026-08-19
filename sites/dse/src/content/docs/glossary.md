@@ -29,7 +29,7 @@ tags: [glossary]
 
 ## Chinese Language
 
-** Classical Chinese (文言文)**: Literary Chinese used in classical texts. Requires understanding of classical grammar, vocabulary, and allusions.
+**Classical Chinese (文言文)**: Literary Chinese used in classical texts. Requires understanding of classical grammar, vocabulary, and allusions.
 
 **Chinese Literature (中國文學)**: An elective exploring Chinese literary works including poetry, prose, fiction, and drama across different periods.
 

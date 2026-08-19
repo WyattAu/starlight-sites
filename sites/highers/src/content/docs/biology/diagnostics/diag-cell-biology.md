@@ -391,6 +391,7 @@ linked above.
   active site; non-competitive inhibitors bind to the allosteric site.
 - Describing the fluid mosaic model without explaining both terms: "fluid" (lateral movement of
   phospholipids) and "mosaic" (scattered arrangement of proteins).
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Higher notes.

@@ -136,6 +136,7 @@ Mechanics forms the foundation of all physics. Understanding Newton's laws, ener
 - Energy methods are often simpler than force methods for problems involving speed and height
 - Rotational problems require identifying the correct moment of inertia for the geometry
 - Gravitational potential energy is negative and approaches zero at infinity
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for CBSE notes.

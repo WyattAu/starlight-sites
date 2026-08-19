@@ -417,10 +417,10 @@ Casts through virtual bases, the cost is $O(d)$ where $d$ is the depth of the DA
 
 | Cast Type    | Source and Target           | Cost                          | Mechanism                               |
 | ------------ | --------------------------- | ----------------------------- | --------------------------------------- |
-| Down-cast    | Base* to Derived*           | $O(1)$ (single inheritance)   | `type_info` pointer comparison          |
-| Down-cast    | Base* to Derived*           | $O(b)$ (multiple inheritance) | Walk base class list                    |
-| Cross-cast   | Base1* to Base2* (siblings) | $O(b)$                        | Find most-derived, walk to target base  |
-| Up-cast      | Derived* to Base*           | $O(1)$                        | Compile-time offset (use `static_cast`) |
+| Down-cast    | Base*to Derived*           | $O(1)$ (single inheritance)   | `type_info` pointer comparison          |
+| Down-cast    | Base*to Derived*           | $O(b)$ (multiple inheritance) | Walk base class list                    |
+| Cross-cast   | Base1*to Base2* (siblings) | $O(b)$                        | Find most-derived, walk to target base  |
+| Up-cast      | Derived*to Base*           | $O(1)$                        | Compile-time offset (use `static_cast`) |
 | `void*` cast | Base* to `void*`            | $O(1)$                        | Offset to most-derived object           |
 
 ## 4.7 `dynamic_cast` to `void*`: The Most-Derived Type
@@ -809,4 +809,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

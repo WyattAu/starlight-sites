@@ -95,6 +95,7 @@ Uniform convexity implies reflexivity for $1 < p < \infty$ and guarantees the ex
 ### 7.8 Density Results
 
 **Proposition 7.8 (Density of Simple Functions).** Simple functions are dense in $L^p(\mu)$ for $1 \leq p < \infty$. For the Lebesgue measure on $\mathbb{R}^n$, the following are also dense:
+
 1. Step functions (finite linear combinations of characteristic functions of rectangles)
 2. Continuous functions with compact support $C_c(\mathbb{R}^n)$
 3. Smooth functions with compact support $C_c^\infty(\mathbb{R}^n)$
@@ -192,4 +193,3 @@ Conversely, $\|f\|_p \leq M\,\mu(X)^{1/p}$, so $\limsup_{p\to\infty} \|f\|_p \le
 $\blacksquare$
 
 </details>
-

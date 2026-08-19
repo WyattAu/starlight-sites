@@ -95,13 +95,13 @@ Several constraints on this grammar are important:
 - A `requires`-expression
 - A concept name with arguments
 
-3. A concept is implicitly `constexpr` --- the compiler evaluates it at compile time. You cannot
+1. A concept is implicitly `constexpr` --- the compiler evaluates it at compile time. You cannot
    declare a concept that depends on runtime values.
 
-4. A concept cannot be `virtual``explicit``friend`Or have storage class specifiers. It is a purely
+2. A concept cannot be `virtual``explicit``friend`Or have storage class specifiers. It is a purely
    compile-time entity.
 
-5. A concept is not a type. You cannot use it as a type argument, return type, or variable type. It
+3. A concept is not a type. You cannot use it as a type argument, return type, or variable type. It
    can only appear in constrained contexts: template parameter lists, `requires` clauses, and
    `static_assert` declarations.
 

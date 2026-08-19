@@ -194,7 +194,7 @@ END;
 $$ LANGUAGE plpgsql;
 ```
 
-2. **Short transactions**: Minimize the time locks are held.
+1. **Short transactions**: Minimize the time locks are held.
 
 ```sql
 -- BAD: long transaction holding locks
@@ -212,7 +212,7 @@ UPDATE orders SET status = 'processing' WHERE customer_id = 42;
 COMMIT;
 ```
 
-3. **SKIP LOCKED**: Non-blocking queue pattern for concurrent workers.
+1. **SKIP LOCKED**: Non-blocking queue pattern for concurrent workers.
 
 ```sql
 -- Worker picks up next available task without blocking
@@ -223,7 +223,7 @@ LIMIT 1
 FOR UPDATE SKIP LOCKED;
 ```
 
-4. **Retry logic**: Always handle deadlocks with retry at the application level.
+1. **Retry logic**: Always handle deadlocks with retry at the application level.
 
 ```python
 import time
@@ -290,7 +290,6 @@ SELECT pg_advisory_xact_lock_shared(12345);
 <aside class="starlight-aside starlight-aside--note">
 Advisory locks on the same bigint value from different sessions conflict, regardless of which
 Application or connection acquired them.
-
 
 ## Lock Monitoring
 
@@ -665,7 +664,6 @@ COMMIT;
 Advisory locks. Advisory locks are always held until the transaction ends or explicitly released,
 Regardless of savepoints.
 
-
 ### Implicit Locks from DDL
 
 DDL statements acquire table-level locks that may conflict with concurrent operations:
@@ -975,6 +973,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>

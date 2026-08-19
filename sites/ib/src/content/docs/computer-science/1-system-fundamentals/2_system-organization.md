@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** Modular design, clear interfaces, and separation of concerns are the principles that make complex systems manageable
 
-
 ## Planning and System Installation
 
 ### Computer System
@@ -303,9 +302,9 @@ The ETL (Extract-Transform-Load) pipeline is the standard approach for data migr
 - Lookups and enrichment (e.g., mapping legacy department codes to new codes)
 - Filtering out records that do not meet quality thresholds
 
-3. **Load**: Insert the transformed data into the target system. Loading may be done in batches to
+1. **Load**: Insert the transformed data into the target system. Loading may be done in batches to
    manage performance and allow rollback if errors are detected.
-4. **Validate**: After loading, run validation queries to confirm record counts match, referential
+2. **Validate**: After loading, run validation queries to confirm record counts match, referential
    integrity is maintained, and no data was truncated or corrupted.
 
 ### System Deployment Models
@@ -566,13 +565,13 @@ Catastrophic event. Key components include:
 - RTO (Recovery Time Objective): the maximum acceptable downtime before systems must be restored. An
   RTO of 4 hours means the system must be back online within 4 hours.
 
-2. **Roles and responsibilities**: specify who is responsible for executing each step of the
+1. **Roles and responsibilities**: specify who is responsible for executing each step of the
    recovery.
-3. **Inventory of critical systems**: prioritise which systems must be restored first based on
+2. **Inventory of critical systems**: prioritise which systems must be restored first based on
    business impact.
-4. **Communication plan**: how to notify staff, customers, and regulators during and after the
+3. **Communication plan**: how to notify staff, customers, and regulators during and after the
    disaster.
-5. **Testing schedule**: regular drills to verify the plan works, at least annually.
+4. **Testing schedule**: regular drills to verify the plan works, at least annually.
 
 ### Hot, Warm, and Cold Standby
 
@@ -918,8 +917,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

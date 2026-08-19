@@ -1493,10 +1493,10 @@ $$\delta \geq \frac{1}{n}$$
 Where $n$ is the number of firms. More firms make cooperation harder (the discount factor must Be
 higher). With 2 firms, $\delta \geq 0.5$; with 10 firms, $\delta \geq 0.9$.
 
-2. **International trade agreements:** WTO rules can be understood as a repeated game. Countries
+1. **International trade agreements:** WTO rules can be understood as a repeated game. Countries
    comply with trade rules because the long-run benefit of open trade exceeds the short-run gain
    from protectionism
-3. **Environmental agreements:** the tragedy of the commons can be overcome through repeated
+2. **Environmental agreements:** the tragedy of the commons can be overcome through repeated
    interaction. Communities that interact repeatedly can sustain cooperative resource management
 
 ## Auction Theory (HL Extension)
@@ -1753,8 +1753,8 @@ $$\frac{dx_i}{dt} = x_i \left[ f_i(\mathbf{x}) - \bar{f}(\mathbf{x}) \right]$$
 Where:
 
 - $x_i$ = frequency of strategy $i$ in the population
-- $f_i(\mathbf{{'}x{}'})$ = fitness (expected payoff) of strategy $i$
-- $\bar{f}(\mathbf{{'}x{}'})$ = average fitness of the population
+- $f_i(\mathbf{x})$ = fitness (expected payoff) of strategy $i$
+- $\bar{f}(\mathbf{x})$ = average fitness of the population
 
 Strategies with above-average fitness grow; those with below-average fitness shrink.
 

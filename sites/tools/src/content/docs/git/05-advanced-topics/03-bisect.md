@@ -204,7 +204,7 @@ $ git blame -L 42,42 src/auth.c
 Then examine the full commit:
 
 ```bash
-$ git show a3f2b1c0
+git show a3f2b1c0
 ```
 
 ## Common Pitfalls

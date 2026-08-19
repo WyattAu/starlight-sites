@@ -92,7 +92,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | Burgess's concentric zone model (1925) describes cities developing in rings around the CBD based on land rent and accessibility. |
 | 2 | (B) | New towns such as Sha Tin and Tuen Mun were developed from the 1970s to decentralise population from overcrowded urban cores. |
 | 3 | (B) | The CBD features the highest land values, tallest buildings, and concentration of commercial and retail functions with limited residential use. |

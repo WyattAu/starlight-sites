@@ -90,8 +90,6 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 - Use specific evidence including dates, casualty figures, and policy details to support your arguments. Avoid vague generalisations about "suffering" or "hardship."
 - When evaluating the significance of the Battle of Hong Kong, consider both its military outcome and its broader implications for British prestige in Asia.
 
-
-
 ## Cross-References
 
 - **[Cold War](../history/diagnostics/diag-cold-war):** WWII led to the Cold War

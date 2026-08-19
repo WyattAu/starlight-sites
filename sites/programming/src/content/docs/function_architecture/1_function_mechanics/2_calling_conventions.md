@@ -245,6 +245,7 @@ extern "C" int64_t non_leaf_fn(int64_t a, int64_t b) {
     return sink + 1;
     // The call to write the volatile forces a stack frame adjustment
 }
+
 ```
 
 ### Red Zone Formal Specification
@@ -773,4 +774,3 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

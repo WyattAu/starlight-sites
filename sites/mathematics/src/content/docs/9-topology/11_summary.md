@@ -117,7 +117,7 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 ### Summary of Key Properties by Space
 
 | Property | $\mathbb{R}^n$ | Metric space | General topological space |
-|----------|---------------|--------------|--------------------------|
+| ---------- | --------------- | -------------- | -------------------------- |
 | Compact $\Leftrightarrow$ closed + bounded | Yes (Heine-Borel) | No | No |
 | Sequentially compact $\Leftrightarrow$ compact | Yes | Yes (if metric) | No |
 | Connected $\Leftrightarrow$ path-connected | Yes (open sets) | No | No |
@@ -128,7 +128,7 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 ### Quick Reference: Separation Axioms
 
 | Axiom | Name | Condition | Example |
-|-------|------|-----------|---------|
+| ------- | ------ | ----------- | --------- |
 | $T_0$ | Kolmogorov | For distinct points, one has neighbourhood not containing the other | $\mathbb{R}$ with cofinite |
 | $T_1$ | Fréchet | Singletons are closed | $\mathbb{R}$ with cofinite |
 | $T_2$ | Hausdorff | Distinct points have disjoint neighbourhoods | $\mathbb{R}$ standard |
@@ -154,7 +154,7 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 ### Key Counterexamples Reference
 
 | Claim | Counterexample | Explanation |
-|-------|---------------|-------------|
+| ------- | --------------- | ------------- |
 | Compact $\Rightarrow$ sequentially compact | $[0,\omega_1)$ in order topology | Compact but sequence $\alpha_n$ has no convergent subsequence |
 | Sequentially compact $\Rightarrow$ compact | $[0,\omega_1)$ with order topology | Every sequence converges (to $\sup$) but open cover has no finite subcover |
 | Closure of interior = interior of closure | $\mathbb{Q} \cap (0,1)$ in $\mathbb{R}$ | One side gives $(0,1)$, other gives $\emptyset$ |
@@ -163,24 +163,24 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 
 ### Further Practice Problems
 
-9. Determine whether the following subsets of $\mathbb{R}$ are compact, connected, both, or neither:
+1. Determine whether the following subsets of $\mathbb{R}$ are compact, connected, both, or neither:
    (a) $[0,1] \cup \{2\}$ (b) $\mathbb{Q} \cap [0,1]$ (c) Cantor set (d) $\{1/n : n \in \mathbb{N}\} \cup \{0\}$.
 
-10. Prove that every compact subset of a Hausdorff space is closed. Why does this fail in
+2. Prove that every compact subset of a Hausdorff space is closed. Why does this fail in
     non-Hausdorff spaces? Give a counterexample using the cofinite topology.
 
-11. Show that the fundamental group of the figure-eight space $S^1 \vee S^1$ is the free group
+3. Show that the fundamental group of the figure-eight space $S^1 \vee S^1$ is the free group
     on two generators $F_2$.
 
-12. Prove that any continuous function $f : S^1 \to \mathbb{R}$ attains its maximum and minimum.
+4. Prove that any continuous function $f : S^1 \to \mathbb{R}$ attains its maximum and minimum.
 
-13. Determine whether $[0,1]^\omega$ (the countable product of $[0,1]$ with the product topology)
+5. Determine whether $[0,1]^\omega$ (the countable product of $[0,1]$ with the product topology)
     is compact. Justify using Tychonoff's theorem.
 
-14. Show that $\mathbb{R}^n$ is not homeomorphic to $\mathbb{R}^m$ for $n \neq m$ (hint: remove a
+6. Show that $\mathbb{R}^n$ is not homeomorphic to $\mathbb{R}^m$ for $n \neq m$ (hint: remove a
     point and compare fundamental groups or homology groups).
 
-15. Prove that the Sorgenfrey line (lower-limit topology on $\mathbb{R}$) is separable but not
+7. Prove that the Sorgenfrey line (lower-limit topology on $\mathbb{R}$) is separable but not
     second countable. Show that it is completely regular but not normal, and that its square
     (the Sorgenfrey plane) is not normal.
 
@@ -189,7 +189,6 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 | Topic            | Link                                                  |
 | ---------------- | ----------------------------------------------------- |
 | Abstract Algebra | [View](../abstract-algebra) |
-
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

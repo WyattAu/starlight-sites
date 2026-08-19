@@ -35,7 +35,7 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 ## Core Concepts
 
 | Area | Central Object | Key Result | Application |
-|------|---------------|------------|-------------|
+| ------ | --------------- | ------------ | ------------- |
 | Abstract Algebra | Group $(G, \cdot)$ | Lagrange's Theorem | Symmetry, cryptography |
 | Real Analysis | $\varepsilon$-$\delta$ limit | Bolzano-Weierstrass | Rigorous calculus |
 | Linear Algebra | Vector space $V$ | Spectral Theorem | Data science, quantum |
@@ -46,7 +46,7 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 ## Proof Techniques
 
 | Technique | When to Use | Example |
-|-----------|-------------|---------|
+| ----------- | ------------- | --------- |
 | Direct proof | Implication $P \Rightarrow Q$ | "If $n$ is even, then $n^2$ is even" |
 | Contrapositive | Easier to prove $\neg Q \Rightarrow \neg P$ | "If $n^2$ is odd, then $n$ is odd" |
 | Contradiction | Assume $\neg P$, derive contradiction | Irrationality of $\sqrt{2}$ |
@@ -56,6 +56,7 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 ## How to Use These Notes
 
 Start with the introductory pages for each topic. Each section includes:
+
 - Detailed definitions and theorems
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -91,4 +92,3 @@ Mathematics is not about memorising formulas or computing answers — it's about
 The interconnectedness of mathematical subjects is not a coincidence — it reflects deep structural parallels. Groups describe symmetry, vector spaces describe linear structure, topological spaces describe continuity, and measure spaces describe size. These aren't separate topics; they're different lenses on the same fundamental questions about mathematical objects and their relationships. Understanding why the spectral theorem matters in linear algebra, why compactness matters in analysis, and why the isomorphism theorems matter in algebra — and how they all connect — is what transforms computation into mathematical maturity.
 
 The proof techniques themselves are not arbitrary logical exercises. Direct proof builds a chain from assumptions to conclusion. Proof by contradiction exploits the fact that if a statement isn't true, assuming it's true must create a logical impossibility. Induction captures the idea that if something holds for a base case and each step preserves it, it holds for all natural numbers. Each technique is a tool for attacking a different kind of problem, and learning to recognise which technique to reach for is the core skill of mathematical reasoning.
-

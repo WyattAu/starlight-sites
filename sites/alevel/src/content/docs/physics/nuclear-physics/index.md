@@ -159,6 +159,7 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
 ## Common Mistakes
 
 1. **Confusing mass number with atomic number.** Mass number (A) = protons + neutrons. Atomic number (Z) = protons only. Students often write the wrong number at the top or bottom of nuclide notation ${}_Z^A X$.

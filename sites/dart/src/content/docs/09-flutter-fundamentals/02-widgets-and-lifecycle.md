@@ -841,11 +841,11 @@ class _MyState extends State<MyWidget> {
 }
 ```
 
-2. **Missing const constructors**: Without `const`Every rebuild creates new widget instances,
+1. **Missing const constructors**: Without `const`Every rebuild creates new widget instances,
    forcing the framework to do full reconciliation. With `const`The framework can skip
    reconciliation via pointer identity.
 
-3. **Over-depending on InheritedWidgets**: If a widget calls `Theme.of(context)` inside `build()`
+2. **Over-depending on InheritedWidgets**: If a widget calls `Theme.of(context)` inside `build()`
    but does not actually use theme data in its output, it still registers as a dependent and
    rebuilds whenever the theme changes. Extract the theme lookup to a parent widget if possible.
 

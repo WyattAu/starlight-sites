@@ -148,7 +148,7 @@ Certification preparation for language proficiency and professional IT qualifica
 ## All Sites at a Glance
 
 | # | Site | Domain | Focus |
-|---|------|--------|-------|
+| --- | ------ | -------- | ------- |
 | 1 | Main | wyattsnotes.wyattau.com | Network hub and navigation |
 | 2 | Python | python.wyattau.com | Python programming |
 | 3 | Java | java.wyattau.com | Java programming |

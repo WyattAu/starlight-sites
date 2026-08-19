@@ -489,7 +489,6 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 | 20–27 | C     | Gaps exist. Prioritise weak sections.                   |
 | < 20  | D/U   | Significant revision required. Start with fundamentals. |
 
-
 ## Common Pitfalls
 
 1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
@@ -502,7 +501,6 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
-
 
 ## Intuition
 
@@ -518,8 +516,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

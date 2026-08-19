@@ -786,7 +786,6 @@ High minimum wages through sectoral bargaining with strong unions) supports this
 Approach.
 </details>
 
-
 <aside class="starlight-aside starlight-aside--danger">
 - **Assuming minimum wages always cause unemployment:** This is only true in perfectly competitive
   labour markets. Under monopsony (a single dominant employer), a minimum wage set between the
@@ -866,14 +865,14 @@ $$w - w_a \geq \frac{e}{q}$$
 Where $w$ is the wage, $w_a$ is the alternative wage, $e$ is the cost of effort, and $q$ is the
 probability of being caught shirking.
 
-3. **Turnover model:** Higher wages reduce worker turnover. The firm saves on recruitment and
+1. **Turnover model:** Higher wages reduce worker turnover. The firm saves on recruitment and
    training costs, making the higher wage profitable even if it exceeds the market-clearing level.
 
-4. **Gift exchange / fairness (Akerlof, 1982):** Workers reciprocate higher wages with greater
+2. **Gift exchange / fairness (Akerlof, 1982):** Workers reciprocate higher wages with greater
    effort due to social norms of fairness. If workers feel they are being paid fairly, they work
    harder.
 
-5. **Selection (adverse selection):** Higher wages attract higher-quality applicants, reducing the
+3. **Selection (adverse selection):** Higher wages attract higher-quality applicants, reducing the
    risk of hiring low-productivity workers (Weiss, 1980).
 
 **Implications:**
@@ -950,6 +949,7 @@ this statement supported by economic theory and evidence?
   minimal employment effects, while large, arbitrary increases would cause job losses.
 - Distributional effects: even if some jobs are lost, the workers who retain their jobs are better
 off. The net effect on low-paid workers as a group may still be positive.
+
 </details>
 
 **Question 2 (12 marks).** Explain how a trade union can increase both wages and employment in a
@@ -978,6 +978,7 @@ monopsonistic labour market. Use a diagram in your answer.
   wages alongside low unemployment.
 - UK evidence: unionised workplaces in the public sector (NHS, education) have higher wages than
 comparable non-unionised private sector workers.
+
 </details>
 
 **Question 3 (25 marks).** "The gender pay gap in the UK is primarily caused by discrimination
@@ -1021,6 +1022,7 @@ against women." Evaluate this statement.
   with investment in childcare, education, and measures to reduce occupational segregation.
 - Conclusion: discrimination explains a significant but minority share of the gender pay gap. The
 gap is multifaceted, requiring a comprehensive policy response.
+
 </details>
 
 ## 10. Extended Worked Examples

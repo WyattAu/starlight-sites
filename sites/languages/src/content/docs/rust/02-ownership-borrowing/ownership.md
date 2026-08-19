@@ -345,7 +345,6 @@ Cannot infer a shorter lifetime, but adding `'static` constraints reduces the fu
 Flexibility. A function taking `&'static str` cannot accept locally-owned `String` references, only
 String literals and values explicitly annotated with `'static`.
 
-
 ### Lifetime Variance
 
 Lifetimes are covariant in their position. Given `'a: "b` (a outlives b), `&''a T` is a subtype of
@@ -408,7 +407,6 @@ borrow3.push(4);
 <aside class="starlight-aside starlight-aside--caution">
 Immutable borrow is active will panic. This trades compile-time safety for runtime flexibility. Use
 `try_borrow()` and `try_borrow_mut()` to get `Result` instead of panicking.
-
 
 ### `RefCell` Use Cases
 
@@ -998,7 +996,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

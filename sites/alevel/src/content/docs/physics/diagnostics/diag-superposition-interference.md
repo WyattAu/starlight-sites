@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**

@@ -19,7 +19,6 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ---
 
-
 ### Key Concepts
 
 **Number Systems**: Binary (base 2), denary (base 10), hexadecimal (base 16). Conversion between systems is essential. Hexadecimal is used as a compact representation of binary (1 hex digit = 4 binary digits). Two's complement represents negative binary numbers: to negate, invert all bits and add 1. Floating point representation uses a sign bit, exponent, and mantissa to represent real numbers. The IB exam tests conversions between bases and representation of negative numbers.
@@ -32,11 +31,9 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ---
 
-
 <FlashcardDeck client:only="solid-js" deckId="ib-cs-system-fundamentals" title="IB CS -- System Fundamentals" description="System design, organization, and the system life cycle" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
 
 ---
-
 
 ## Intuition
 
@@ -46,7 +43,6 @@ Think of a computer as a layered onion. The outermost layer is the software you 
 
 ---
 
-
 ## Common Pitfalls
 
 - Forgetting two's complement rules. To negate a binary number: invert all bits and add 1. A common error is inverting without adding 1, or adding 1 without inverting first. Practice with examples: 5 = 0101, −5 = 1011.
@@ -55,7 +51,6 @@ Think of a computer as a layered onion. The outermost layer is the software you 
 - Forgetting that cache is faster than RAM, which is faster than hard disk. The memory hierarchy (registers > cache > RAM > disk) balances speed and cost. Understanding this explains why program performance depends on memory access patterns.
 
 ---
-
 
 ## Cross-References
 

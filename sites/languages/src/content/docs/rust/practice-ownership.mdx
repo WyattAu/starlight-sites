@@ -10,7 +10,6 @@ description: "8 auto-graded practice problems covering Rust ownership, lifetimes
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills — they help you apply knowledge and identify areas that need more study.
@@ -25,7 +24,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Ownership
 
 <PracticeProblem client:only="solid-js" question='What happens when you write `let x = String::from("hello"); let y = x; println!("{}", x);`?' options={[ 'Compilation error: value borrowed after move', 'It prints \"hello\"', 'It prints \"hello\" twice', 'Runtime panic', ]} correctAnswer={0} explanation='String is a heap-allocated type. Assigning `x` to `y` moves ownership of the string data to `y`, invalidating `x`. Attempting to use `x` after the move causes a compilation error: "value borrowed here after move".' difficulty="easy"  />
@@ -33,7 +31,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"Which of the following will compile without errors?&quot; options={[ 'let x = 5; let y = x; println!(\&quot;{}\&quot;, x);', 'let x = String::from(\&quot;hi\&quot;); let y = x; println!(\&quot;{}\&quot;, x);', 'let x = vec![1]; let y = x; x.push(2);', 'let r1 = &mut s; let r2 = &mut s;', ]} correctAnswer={0} explanation=&quot;Integer types like `i32` implement the `Copy` trait, so `let y = x` copies the value rather than moving it. `x` remains valid and can still be used. `String` and `Vec` do not implement `Copy`, so the other options fail."} difficulty="medium"  />
 
 ---
-
 
 ### Lifetimes
 
@@ -43,7 +40,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### References
 
 <PracticeProblem client:only="solid-js" question={"Can you have both a mutable reference and an immutable reference to the same data at the same time?&quot; options={[ 'No — mutable references are exclusive', 'Yes, as long as the immutable reference was created first', 'Yes, but only in unsafe blocks', 'Yes, Rust automatically handles conflicts', ]} correctAnswer={0} explanation=&quot;Rust\'s borrowing rules state that you can have any number of immutable references OR exactly one mutable reference, but not both simultaneously. This prevents data races at compile time."} difficulty="easy"  />
@@ -51,7 +47,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is reborrowing in Rust?&quot; options={[ 'Creating a new reference from an existing reference without transferring the original borrow', 'Moving a reference to a new variable', 'Dereferencing a pointer to get the underlying value', 'Casting a mutable reference to an immutable one', ]} correctAnswer={0} explanation=&quot;Reborrowing occurs when you create a new reference from an existing reference (e.g., `&*x` or passing `&x` where `x` is already `&mut T`). The original borrow remains valid and will be valid again after the reborrow ends."} difficulty="hard"  />
 
 ---
-
 
 ### Smart Pointers
 
@@ -61,13 +56,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Borrowing
 
 <PracticeProblem client:only="solid-js" question={"Why does the following code fail to compile? `let mut v = vec![1,2,3]; let first = &v[0]; v.push(4);`&quot; options={[ 'push may reallocate, invalidating the immutable reference `first`', 'Cannot push to a vector after borrowing', 'first is a copy, not a reference', 'push requires exclusive access but v is not mutable', ]} correctAnswer={0} explanation=&quot;push may cause reallocation of the vector's backing buffer if capacity is exceeded. This would invalidate the pointer `first` points to. Rust prevents this by refusing to allow a mutable borrow (via push) while an immutable reference (first) is still live."} difficulty="hard"  />
 
 ---
-
 
 ### Lifetimes
 
@@ -75,13 +68,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Trait Objects
 
-<PracticeProblem client:only="solid-js" question={"What is the size of a `Box<dyn Display>` compared to a `Box<i32>`?&quot; options={[ 'Box<dyn Display> is larger (fat pointer with vtable); Box<i32> is a single pointer', 'They are the same size', 'Box<dyn Display> is smaller', 'dyn Display is unsized, so Box cannot hold it', ]} correctAnswer={0} explanation=&quot;Box<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 * usize). Box<i32> is a thin pointer to a single i32 on the heap (1 * usize). The fat pointer enables dynamic dispatch at runtime."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the size of a `Box<dyn Display>` compared to a `Box<i32>`?&quot; options={[ 'Box<dyn Display> is larger (fat pointer with vtable); Box<i32> is a single pointer', 'They are the same size', 'Box<dyn Display> is smaller', 'dyn Display is unsized, so Box cannot hold it', ]} correctAnswer={0} explanation=&quot;Box<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box<i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime."} difficulty="medium"  />
 
 ---
-
 
 ### Smart Pointers
 
@@ -89,13 +80,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Move Semantics
 
 <PracticeProblem client:only="solid-js" question={"What happens when you move a `String` into a function and then try to use it after the call?&quot; options={[ 'Compilation error: value moved and no longer usable', 'The string is copied automatically', 'The string is still valid but empty', 'Runtime error: use after free', ]} correctAnswer={0} explanation=&quot;String does not implement Copy, so moving it into a function transfers ownership. After the move, the original variable is invalid. To use it after the call, you must clone it first, take a reference, or return the value from the function."} difficulty="easy"  />
 
 ---
-
 
 ### Trait Objects and Generics
 
@@ -104,7 +93,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"Why does `fn first_word(s: &str) -> &str` compile without lifetime annotations?&quot; options={[ 'Lifetime elision rules infer the lifetime automatically', 'Rust does not check lifetimes for &str', 'It returns a static lifetime', 'The compiler guesses the lifetime', ]} correctAnswer={0} explanation=&quot;Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word<'a>(s: &'a str) -> &'a str is automatically inferred."} difficulty="easy"  />
 
 ---
-
 
 ### Enums and Pattern Matching
 
@@ -119,7 +107,6 @@ import PracticeProblem from "@components/PracticeProblem";
 **Forgetting that `push` may reallocate:** Calling `push` on a `Vec` while holding an immutable reference to its contents invalidates the reference. Rust prevents this at compile time to avoid dangling pointers.
 
 ---
-
 
 ## Cross-References
 

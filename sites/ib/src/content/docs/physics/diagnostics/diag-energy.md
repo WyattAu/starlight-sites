@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The conservation of energy is the most powerful tool in physics — it lets us solve problems without knowing all the details of what happens in between
 
-
 ## Unit Tests
 
 ### UT-1: Work Done Against Friction is Path-Dependent
@@ -399,8 +398,6 @@ $P = Fv$. As speed increases:
 The cyclist reaches a terminal velocity where the power output equals the rate of energy dissipation
 against resistance. The quadratic nature of the air resistance term ensures this equilibrium always
 exists at finite speed.
-
-
 
 ## Cross-References
 

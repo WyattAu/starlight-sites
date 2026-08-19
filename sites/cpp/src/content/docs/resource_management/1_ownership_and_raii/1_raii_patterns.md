@@ -532,7 +532,6 @@ public:
 - [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr.md)
 - [Common Pitfalls](5_custom_deleters.md)
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to raii patterns, including key
@@ -563,4 +562,3 @@ RAII (Resource Acquisition Is Initialization) is C++'s most important idiom: tie
 - [Unique Ptr](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/2_unique_ptr)
 - [Shared Ptr](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/3_shared_ptr)
 - [Move Constructors and RVO](../../../../../../programming/src/content/docs/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
-

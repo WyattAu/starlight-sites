@@ -221,7 +221,8 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   const handleRate = (rating: Rating) => {
     if (getCurrentIndex() >= getDueQueue().length) return
-    const cardId = getDueQueue()[getCurrentIndex()]!
+    const cardId = getDueQueue()[getCurrentIndex()]
+    if (cardId === undefined) return
     const prevState = cardStates()[cardId] ?? createDefaultState()
     const newState = applySM2(prevState, rating, Date.now())
     const entry = { cardId, rating, timestamp: Date.now() }

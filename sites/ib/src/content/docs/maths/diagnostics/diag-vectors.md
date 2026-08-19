@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Vectors provide a coordinate-free way to describe physical quantities that have direction, making physics equations independent of the coordinate system chosen
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for vectors.

@@ -317,7 +317,6 @@ GROUP BY u.name;
 Pushed down. Use `EXPLAIN (VERBOSE)` to verify what is pushed down and what is executed locally. For
 Large datasets, consider materializing the data instead.
 
-
 ### file_fdw
 
 ```sql
@@ -415,7 +414,6 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-07-01';
 <aside class="starlight-aside starlight-aside--caution">
 Constraint across all partitions is not supported. Instead, use `UNIQUE(order_id, created_at)` or
 Enforce uniqueness at the application level.
-
 
 ## Generated Columns
 
@@ -797,7 +795,6 @@ SELECT cron.unschedule('nightly-vacuum');
 <aside class="starlight-aside starlight-aside--note">
 Context of the database where pg_cron is installed. Cross-database scheduling is not supported.
 
-
 ### pg_background
 
 Pg_background runs commands in the background, returning control to the client immediately:
@@ -931,7 +928,6 @@ SELECT slot_name, plugin, slot_type,
 FROM pg_replication_slots
 WHERE slot_type = 'logical';
 ```
-
 
 ## Table Sampling
 
@@ -1113,6 +1109,5 @@ $\blacksquare$
 - `pg_trgm` enables trigram-based fuzzy matching with `%` operator and `similarity()` function.
 - JSONB operators (`->>`, `#>>`, `@>`, `?`) and GIN indexing enable semi-structured queries without
   a fixed schema.
-
 
 </aside>

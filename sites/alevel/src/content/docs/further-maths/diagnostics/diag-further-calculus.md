@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -212,8 +211,6 @@ $\Delta x \to 0$: $ds = \sqrt{1 + (dy/dx)^2}\,dx$. Integrating gives the total a
 **Forgetting the $2\pi$ in surface of revolution formulas:** When rotating a curve about the $x$-axis, the surface area formula is $2\pi\int y\sqrt{1+(dy/dx)^2}\,dx$. Students often write $\pi\int y\sqrt{1+(dy/dx)^2}\,dx$ (confusing it with the volume formula $\pi\int y^2\,dx$). The $2\pi$ comes from the circumference of the circle traced by each point.
 
 **Misidentifying the limits of integration for parametric curves:** When given a curve parametrically, convert the limits to the parameter values, not the Cartesian coordinates. If $x = 2\cos\theta$ and the Cartesian limits are $x = 0$ to $x = 2$, the parameter limits are $\theta = \pi/2$ to $\theta = 0$ (not the other way around without justification).
-
-
 
 ## Cross-References
 

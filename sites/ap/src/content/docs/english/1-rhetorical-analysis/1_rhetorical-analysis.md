@@ -220,7 +220,6 @@ Authors structure their arguments using recognisable organisational patterns:
 
 Reading and writing are fundamental to intellectual development. Literature exposes us to diverse perspectives, develops empathy, and hones critical thinking. Analysing texts teaches us to identify arguments, evaluate evidence, and construct coherent interpretations. These skills are essential for academic success, professional communication, and informed citizenship in a complex world.
 
-
 ## Cross-References
 
 - [Argument](../2-argument/2_argument)

@@ -517,6 +517,7 @@ Prevention:
 2. **Explicitly tag the native VLAN:** `switchport trunk native vlan tag` (Cisco IOS 15.2+).
 3. **Prune unnecessary VLANs from trunks:** `switchport trunk allowed vlan 10,20,30`.
 4. **Disable unused ports and place them in a dead VLAN:**
+
    ```
    interface range Gi0/1-23
      shutdown

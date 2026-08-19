@@ -380,6 +380,7 @@ and $C \to a$.
 </details>
 
 ## See Also
+
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
@@ -394,4 +395,3 @@ and $C \to a$.
 4. **Treating ambiguity as a mere inconvenience.** An ambiguous grammar can generate the same string via two different parse trees, leading to different interpretations. This is not just a cosmetic problem — it means the grammar does not uniquely determine the structure of inputs, which causes real issues in parsers and compilers.
 
 5. **Forgetting that CFLs cannot express "matching" across three or more positions.** A CFL can match pairs (e.g., $\{a^n b^n\}$) but not triples (e.g., $\{a^n b^n c^n\}$). This limitation arises because pushdown automata have only one stack, which can track one counter but not two independent counters simultaneously.
-

@@ -79,16 +79,17 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
 - Common pitfalls and how to avoid them
 - Connections to other areas of inorganic chemistry
 
-
 ## Intuition
 
 Inorganic chemistry covers the vast majority of the periodic table beyond carbon compounds. Coordination chemistry studies metal complexes where ligands donate electron pairs to a central metal ion, creating geometric arrangements that determine color, magnetism, and reactivity. Crystal field theory explains how the splitting of d-orbital energies in a ligand field produces characteristic colors and magnetic properties. Bioinorganic chemistry explores how metal centers in enzymes catalyze reactions, from oxygen transport by iron in hemoglobin to electron transfer by copper in cytochrome c oxidase. Inorganic materials include semiconductors, superconductors, and catalysts.
+
 ## Study Tips
 
 1. **Build a strong foundation**: Ensure you understand the basic concepts before moving to advanced topics

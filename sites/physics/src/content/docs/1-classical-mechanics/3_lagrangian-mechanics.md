@@ -325,7 +325,6 @@ The Lagrangian formulation is like giving nature a GPS route planner. Instead of
 (rheonomic constraint), $h$ is Conserved but $h \neq T + V$. Always check whether the system is
 natural before identifying $h$ With the total energy.
 
-
 </aside>
 
 ## Cross-References

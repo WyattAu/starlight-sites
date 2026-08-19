@@ -675,30 +675,30 @@ $$m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g$$
 
 ## Practice Questions (Extended)
 
-5. A compound contains 69.9% iron and 30.1% oxygen by mass. Find its empirical formula.
-6. Balance: $\mathrm{Al + \mathrm{O_2 \to \mathrm{Al_2\mathrm{O_3$.
-7. Find the molar mass of $\mathrm{H_2\mathrm{SO_4$.
-8. $2.5 \mathrm{ g$ of $\mathrm{CaCO_3$ is heated until completely decomposed. Calculate the volume
+1. A compound contains 69.9% iron and 30.1% oxygen by mass. Find its empirical formula.
+2. Balance: $\mathrm{Al + \mathrm{O_2 \to \mathrm{Al_2\mathrm{O_3$.
+3. Find the molar mass of $\mathrm{H_2\mathrm{SO_4$.
+4. $2.5 \mathrm{ g$ of $\mathrm{CaCO_3$ is heated until completely decomposed. Calculate the volume
    of $\mathrm{CO_2$ produced at RTP.
-9. A mixture of $\mathrm{NaCl$ and $\mathrm{Na_2\mathrm{CO_3$ weighing $5.00 \mathrm{ g$ requires
+5. A mixture of $\mathrm{NaCl$ and $\mathrm{Na_2\mathrm{CO_3$ weighing $5.00 \mathrm{ g$ requires
    $50.0 \mathrm{ cm^3$ of $0.500 \mathrm{ M$ $\mathrm{HCl$ for complete reaction. Calculate the
    percentage of each compound in the mixture.
-10. In a back titration, $2.00 \mathrm{ g$ of limestone ($\mathrm{CaCO_3$) is reacted with
+6. In a back titration, $2.00 \mathrm{ g$ of limestone ($\mathrm{CaCO_3$) is reacted with
     $50.0 \mathrm{ mL$ of $1.00 \mathrm{ M$ $\mathrm{HCl$ (excess). The remaining acid requires
     $30.0 \mathrm{ mL$ of $0.500 \mathrm{ M$ $\mathrm{NaOH$ to neutralise. Calculate the percentage
     purity of the limestone.
-11. $6.30 \mathrm{ g$ of hydrated $\mathrm{Na_2\mathrm{CO_3 \cdot x\mathrm{H_2\mathrm{O$ gives
+7. $6.30 \mathrm{ g$ of hydrated $\mathrm{Na_2\mathrm{CO_3 \cdot x\mathrm{H_2\mathrm{O$ gives
     $2.33 \mathrm{ g$ of anhydrous $\mathrm{Na_2\mathrm{CO_3$ on heating. Find $x$.
-12. A student performs a titration and obtains the following results: $25.0 \mathrm{ cm^3$ of acid
+8. A student performs a titration and obtains the following results: $25.0 \mathrm{ cm^3$ of acid
     is titrated with $0.100 \mathrm{ M$ $\mathrm{NaOH$. Titre values:
     $24.80, 24.90, 24.85 \mathrm{ cm^3$. Calculate the concentration of the acid, assuming it is
     monoprotic.
-13. What mass of $\mathrm{AgCl$ precipitate would be formed when excess $\mathrm{AgNO_3$ is added to
+9. What mass of $\mathrm{AgCl$ precipitate would be formed when excess $\mathrm{AgNO_3$ is added to
     $25.0 \mathrm{ cm^3$ of $0.150 \mathrm{ M$ $\mathrm{MgCl_2$?
-14. A gas mixture at $100 \mathrm{ kPa$ and $298 \mathrm{ K$ contains $\mathrm{N_2$, $\mathrm{O_2$And
+10. A gas mixture at $100 \mathrm{ kPa$ and $298 \mathrm{ K$ contains $\mathrm{N_2$, $\mathrm{O_2$And
     $\mathrm{CO_2$ with partial pressures of 78, 21, and 1 kPa respectively. Calculate the mole
     fraction and number of moles of each gas if the total volume is $10.0 \mathrm{ L$.
-15. Find the empirical formula of a compound that contains 37.5% C, 12.5% H, and 50.0% O by mass.
+11. Find the empirical formula of a compound that contains 37.5% C, 12.5% H, and 50.0% O by mass.
 
 ---
 

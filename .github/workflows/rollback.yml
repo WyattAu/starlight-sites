@@ -1,0 +1,156 @@
+name: Rollback Deploy
+
+# ADR-014: redeploy the last known-good commit. Triggered automatically by
+# deploy.yml's rollback-on-failure job when a deploy wave fails after sites
+# have changed, or manually via workflow_dispatch (optionally pinned to a
+# specific ref).
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Commit/tag to roll back to (default: last-good-deploy)'
+        required: false
+        default: 'last-good-deploy'
+
+permissions:
+  contents: read
+
+concurrency:
+  # Never stack rollbacks; and a rollback must not be cancelled by an
+  # in-flight deploy to the same environment -- it uses a distinct group.
+  group: rollback
+  cancel-in-progress: false
+
+env:
+  BUN_VERSION: "1.3"
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      ref: ${{ steps.pick.outputs.ref }}
+      matrix: ${{ steps.sites.outputs.matrix }}
+    steps:
+      - name: Resolve rollback ref
+        id: pick
+        env:
+          INPUT_REF: ${{ github.event.inputs.ref || 'last-good-deploy' }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          REPO="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --tags "$REPO" "refs/tags/${INPUT_REF}" >/dev/null 2>&1; then
+            echo "ref=${INPUT_REF}" >> "$GITHUB_OUTPUT"
+            echo "Rolling back to tag ${INPUT_REF}"
+          elif git ls-remote --exit-code "$REPO" "refs/heads/${INPUT_REF}" >/dev/null 2>&1; then
+            echo "ref=${INPUT_REF}" >> "$GITHUB_OUTPUT"
+            echo "Rolling back to branch ${INPUT_REF}"
+          else
+            echo "::error::Ref ${INPUT_REF} is neither a tag nor a branch; aborting rollback."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - name: Derive full deploy matrix (all Astro sites)
+        id: sites
+        run: echo "matrix=$(node scripts/list-sites.js --ci-matrix)" >> "$GITHUB_OUTPUT"
+
+  rollback:
+    needs: resolve
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(needs.resolve.outputs.matrix) }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.resolve.outputs.ref }}
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Cache bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles(format('{0}/bun.lock', needs.resolve.outputs.ref)) }}
+          restore-keys: bun-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build site (last-good commit)
+        working-directory: sites/${{ matrix.site }}
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: bun run build
+
+      - name: Deploy to Cloudflare Pages
+        working-directory: sites/${{ matrix.site }}
+        run: bunx wrangler pages deploy dist --project-name ${{ matrix.project }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Verify deployment (poll up to 5 minutes)
+        run: |
+          url="${{ matrix.url }}/"
+          deadline=$(( $(date +%s) + 300 ))
+          status="000"
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 -L "$url" 2>/dev/null || echo "000")
+            if [ "$status" = "200" ]; then
+              echo "Rolled back: $url -> $status"
+              exit 0
+            fi
+            echo "Probe: $url -> $status (retrying in 15s)"
+            sleep 15
+          done
+          echo "::warning::$url did not return 200 within 5 minutes (last: $status)"
+          exit 1
+
+  rollback-landing:
+    needs: resolve
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.resolve.outputs.ref }}
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build and deploy landing page
+        working-directory: sites/main
+        run: |
+          bun run build
+          cp ../../search-api/cross-site-search.js dist/cross-site-search.js
+          bunx wrangler pages deploy dist --project-name wyattsnotes
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+  notify:
+    needs: [rollback, rollback-landing]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rollback summary
+        run: |
+          echo "## Rollback Result" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUM
+          echo "| Component | Status |" >> $GITHUB_STEP_SUM
+          echo "|-----------|--------|" >> $GITHUB_STEP_SUM
+          echo "| Sites | ${{ needs.rollback.result }} |" >> $GITHUB_STEP_SUM
+          echo "| Landing | ${{ needs.rollback-landing.result }} |" >> $GITHUB_STEP_SUM

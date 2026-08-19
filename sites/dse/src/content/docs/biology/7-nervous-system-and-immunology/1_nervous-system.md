@@ -754,7 +754,6 @@ Accommodation is the process by which the eye changes focus to see objects at di
 | Sweat glands (eccrine)          | Coiled tubular glands in the dermis that produce sweat                                                                            | Thermoregulation: sweat evaporates from the skin surface, removing heat                               |
 | Hair erector muscles            | Small muscles attached to hair follicles                                                                                          | Contract in cold conditions (causing goosebumps), trapping a layer of insulating air next to the skin |
 
-
 ## Drugs and the Nervous System
 
 ### How Drugs Affect Synaptic Transmission
@@ -1038,7 +1037,7 @@ self-marking and building a personal test matrix.
 - Tolerance develops with repeated use: the brain adapts by reducing the number of GABA receptors
   and increasing glutamate receptors, requiring more alcohol for the same effect
 
-### Caffeine:
+### Caffeine
 
 - Binds to adenosine receptors (without activating them), blocking the inhibitory effect of
   adenosine
@@ -1179,7 +1178,7 @@ LTP is the cellular basis of learning and memory:
 - Activates gene transcription in the postsynaptic neuron (synthesis of new proteins)
 - Strengthens the synaptic connection between the two neurons
 
-6. The strengthened connection means that future stimulation of the presynaptic neuron produces a
+1. The strengthened connection means that future stimulation of the presynaptic neuron produces a
    larger response in the postsynaptic neuron
 
 ### Brain Imaging Techniques

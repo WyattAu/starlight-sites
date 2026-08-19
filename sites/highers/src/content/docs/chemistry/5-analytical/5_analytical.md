@@ -691,19 +691,19 @@ Precision of the measurements used.
 
 ## Practice Questions (Extended)
 
-13. A compound $\mathrm{C_5\mathrm{H_{12}\mathrm{O$ has $^1\mathrm{H$ NMR signals: $\delta = 0.9$
+1. A compound $\mathrm{C_5\mathrm{H_{12}\mathrm{O$ has $^1\mathrm{H$ NMR signals: $\delta = 0.9$
     (t, 6H), $\delta = 1.5$ (m, 4H), $\delta = 3.4$ (t, 1H, exchanges with $\mathrm{D_2\mathrm{O$),
     $\delta = 1.6$ (m, 1H). Identify the compound and explain your reasoning.
 
-14. Explain how you would use TLC to determine whether a reaction has gone to completion.
+2. Explain how you would use TLC to determine whether a reaction has gone to completion.
 
-15. The molecular ion peak in the mass spectrum of a compound has $m/z = 92$. The base peak is at
+3. The molecular ion peak in the mass spectrum of a compound has $m/z = 92$. The base peak is at
     $m/z = 91$. Suggest what the compound might be and explain the fragmentation.
 
-16. Describe the principles of HPLC and explain why it is preferred over GC for the analysis of
+4. Describe the principles of HPLC and explain why it is preferred over GC for the analysis of
     pharmaceutical compounds.
 
-17. A compound with molecular formula $\mathrm{C_8\mathrm{H_8\mathrm{O$ has the following
+5. A compound with molecular formula $\mathrm{C_8\mathrm{H_8\mathrm{O$ has the following
     spectroscopic data:
 
 - IR: 1700 cm$^{-1}$ (strong), 1600, 1500 cm$^{-1}$ (medium)
@@ -712,7 +712,7 @@ Precision of the measurements used.
 
 Identify the compound and assign all spectral features.
 
-18. Explain the difference between flame emission spectroscopy and atomic absorption spectroscopy,
+1. Explain the difference between flame emission spectroscopy and atomic absorption spectroscopy,
     including the principle behind each technique.
 
 ---
@@ -848,7 +848,6 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 **Solution:**
 
 $$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
-
 
 </aside>
 

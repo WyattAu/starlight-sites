@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### File Permissions
 
 **Question 1.** The command `chmod 754 file.txt` sets which permissions?
@@ -29,7 +28,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 2.** What is the effect of the sticky bit on a directory?
 
 (A) Only the directory owner can create files in it
@@ -42,7 +40,6 @@ sidebar_position: 50
 **Explanation:** The sticky bit (set via `chmod +t`) on a directory means that only the file owner, the directory owner, or root can delete or rename files within that directory. This is commonly used on shared directories like /tmp to prevent users from deleting each other's files.
 
 ---
-
 
 ### Process Management
 
@@ -59,7 +56,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 4.** The `ps aux` command displays:
 
 (A) Only processes owned by the current user
@@ -72,7 +68,6 @@ sidebar_position: 50
 **Explanation:** The `a` flag shows processes for all users, `u` displays user-oriented format (including %CPU, %MEM), and `x` includes processes not attached to a terminal. Together, `ps aux` provides a snapshot of all running processes with detailed resource usage. For a tree view, use `ps auxf` or `pstree`.
 
 ---
-
 
 ### Networking
 
@@ -89,7 +84,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 6.** To permanently set a static IP address on a Linux system using systemd-networkd, you configure:
 
 (A) /etc/resolv.conf
@@ -102,7 +96,6 @@ sidebar_position: 50
 **Explanation:** systemd-networkd uses .network files in /etc/systemd/network/ to configure network interfaces, including static IP addresses, gateways, and DNS servers. /etc/resolv.conf configures DNS resolution only. /etc/hosts maps hostnames to IP addresses locally. /etc/hostname sets the system hostname.
 
 ---
-
 
 ### Systemd
 
@@ -119,7 +112,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 8.** The `journalctl -u nginx -f` command:
 
 (A) Shows all log entries for the nginx service and exits
@@ -132,7 +124,6 @@ sidebar_position: 50
 **Explanation:** The `-u` flag filters logs for the specified unit (nginx), and `-f` follows the log output, similar to `tail -f`. This is useful for monitoring a service in real time. Without `-f`, `journalctl -u nginx` would display all historical log entries and exit.
 
 ---
-
 
 ### Shell Scripting
 
@@ -149,7 +140,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 10.** What is the purpose of `set -e` at the top of a bash script?
 
 (A) Enables verbose output for debugging
@@ -162,7 +152,6 @@ sidebar_position: 50
 **Explanation:** `set -e` (errexit) causes a script to abort if any command returns a non-zero exit code. This prevents the script from continuing after an error, which can cause cascading failures. It is a common best practice for production scripts. Combine with `set -u` (treat unset variables as errors) and `set -o pipefail` for robust error handling.
 
 ---
-
 
 ### Storage
 
@@ -179,7 +168,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 12.** Which command creates an ext4 filesystem on a partition?
 
 (A) `mkfs.ext4 /dev/sda1`
@@ -192,7 +180,6 @@ sidebar_position: 50
 **Explanation:** `mkfs.ext4` creates an ext4 filesystem on the specified device. `fdisk` is used for partitioning (creating/modifying partition tables). `mount` attaches a filesystem to a directory. `df -h` displays disk space usage. Always ensure you are targeting the correct partition, as `mkfs` destroys existing data.
 
 ---
-
 
 ### Security
 
@@ -209,7 +196,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 14.** What does the `/etc/shadow` file store?
 
 (A) User home directory paths
@@ -222,7 +208,6 @@ sidebar_position: 50
 **Explanation:** /etc/shadow stores hashed (encrypted) passwords along with password aging policies such as last change date, minimum/maximum age, warning period, and account expiration. It is readable only by root for security. /etc/passwd contains user account information (username, UID, GID, home directory, shell) but no password hashes on modern systems.
 
 ---
-
 
 **Question 15.** Which command is used to audit file system changes by comparing current state against a known baseline?
 
@@ -250,6 +235,7 @@ sidebar_position: 50
 **Not checking disk space before operations:** Large operations (package installation, log rotation) can fill disk space. A full root partition can crash the system. Check with `df -h` before major operations.
 
 **Ignoring log files for troubleshooting:** System logs (/var/log/syslog, journalctl) contain diagnostic information. When something fails, check the logs first. The error message in most cases tells you exactly what went wrong.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for linux notes.

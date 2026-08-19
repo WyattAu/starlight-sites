@@ -150,7 +150,6 @@ Where $m$ is the word length, $k$ is the number of results, and $L$ is the avera
 Prefixes), this is $\sum |word_i| + 1$. The space can be reduced using a radix tree (compressed
 Trie) which merges chains of single-child nodes.
 
-
 ## Compressed Trie (Radix Tree / Patricia Trie)
 
 A compressed trie merges chains of nodes with only one child into single edges labelled with
@@ -513,7 +512,6 @@ def suffix_array_search(s, sa, pattern):
 <aside class="starlight-aside starlight-aside--tip">
 Memory (an array of integers vs a tree of objects) and are easier to implement. The LCP array
 Enables efficient computation of longest common substrings and other string problems.
-
 
 ## Aho-Corasick Algorithm
 

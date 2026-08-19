@@ -46,6 +46,7 @@ $$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible No
 **Cross-validation:** k-fold CV partitions data into k subsets, training on k-1 and validating on the remaining fold. Reduces variance of performance estimates.
 
 **Metrics:**
+
 - Classification: accuracy, precision, recall, F1-score, AUC-ROC
 - Regression: MSE, MAE, $R^2$
 
@@ -97,6 +98,7 @@ Common kernels: polynomial, RBF (Gaussian), sigmoid.
 ### K-Means Clustering
 
 Partitions data into k clusters by iteratively:
+
 1. Assigning each point to the nearest centroid
 2. Recomputing centroids as cluster means
 
@@ -275,6 +277,7 @@ print(f"New centroids: {new_centroids}")
 ```
 
 **Solution:**
+
 - Cluster 0 (nearest to [1,2]): points [1,2], [1.5,1.8], [1,0.6] -> centroid becomes [1.17, 1.47]
 - Cluster 1 (nearest to [8,8]): points [5,8], [8,8], [9,11] -> centroid becomes [7.33, 9.0]
 
@@ -320,13 +323,15 @@ print(f"F1 Score:  {f1:.2f}")
 ```
 
 **Solution:**
+
 - TP=3, FP=1, TN=4, FN=2
 - Accuracy = 7/10 = 0.70
 - Precision = 3/4 = 0.75
 - Recall = 3/5 = 0.60
-- F1 = 2 * 0.75 * 0.60 / (0.75 + 0.60) = 0.67
+- F1 = 2 *0.75* 0.60 / (0.75 + 0.60) = 0.67
 
 **Explanation:** Accuracy measures overall correctness but is misleading for imbalanced datasets. Precision measures how many predicted positives are actually positive. Recall measures how many actual positives are detected. F1 is the harmonic mean of precision and recall, balancing both concerns. For imbalanced datasets, F1 is more informative than accuracy.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for machine-learning notes.

@@ -59,6 +59,7 @@ export default function ReviewQueue(props: ReviewQueueProps) {
     if (idx >= queue().length) return
 
     const item = queue()[idx]
+    if (item === undefined) return
     const prevData = loadDeck(item.deckId)
     const prevState = prevData?.cardStates[item.card.id] ?? createDefaultState()
     const newState = applySM2(prevState, rating, Date.now())

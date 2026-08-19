@@ -544,8 +544,6 @@ $\blacksquare$
   while maintaining stronger ones.
 - Re-test regularly to measure progress and adjust the study plan accordingly.
 
-
-
 ## Cross-References
 
 - **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Diagnostics assess pure maths skills

@@ -525,8 +525,8 @@ Git will not run a hook that is not executable. This is the single most common r
 Fail:
 
 ```bash
-$ chmod +x .git/hooks/pre-commit
-$ chmod +x .githooks/pre-commit
+chmod +x .git/hooks/pre-commit
+chmod +x .githooks/pre-commit
 ```
 
 ### Hook Environment Variables
@@ -596,8 +596,8 @@ Husky is an npm package that manages Git hooks through the `core.hooksPath` mech
 Thin `.husky/` directory and patches the `prepare` npm lifecycle script to set up hooks:
 
 ```bash
-$ npm install husky --save-dev
-$ npx husky init
+npm install husky --save-dev
+npx husky init
 ```
 
 This creates `.husky/` and sets `core.hooksPath` to `.husky/`. Individual hooks are files in that
@@ -917,7 +917,7 @@ On Windows, Git may create hook files with CRLF line endings. The shebang line
 Configure Git to use LF line endings for hooks:
 
 ```bash
-$ git config core.autocrlf input
+git config core.autocrlf input
 ```
 
 Or configure your text editor to save files in `.githooks/` with LF line endings.

@@ -345,8 +345,8 @@ Host *
 The socket directory must exist:
 
 ```bash
-$ mkdir -p ~/.ssh/sockets
-$ chmod 700 ~/.ssh/sockets
+mkdir -p ~/.ssh/sockets
+chmod 700 ~/.ssh/sockets
 ```
 
 After configuration, the first SSH connection creates a socket. Subsequent connections within the
@@ -640,8 +640,8 @@ Enables new features like partial clone.
 ```bash
 # Check which protocol Git uses (v2 is the default for modern Git)
 $ GIT_PROTOCOL_FROM_USER=0 git ls-remote --symref origin HEAD
-ref: refs/heads/main	HEAD
-abc1234def5678...	refs/heads/main
+ref: refs/heads/main HEAD
+abc1234def5678... refs/heads/main
 
 # Force protocol v2 explicitly
 $ GIT_CURL_VERBOSE=1 git ls-remote origin 2>&1 | grep "Git-Protocol"
@@ -716,33 +716,33 @@ debug1: Server accepts key: pkalg ssh-ed25519 blen 256
    offering. Verify:
 
 ```bash
-$ ssh-add -l                          # List keys in agent
-$ ls -la ~/.ssh/id_*                  # List key files on disk
-$ ssh-keygen -l -f ~/.ssh/id_ed25519  # Fingerprint of a specific key
+ssh-add -l                          # List keys in agent
+ls -la ~/.ssh/id_*                  # List key files on disk
+ssh-keygen -l -f ~/.ssh/id_ed25519  # Fingerprint of a specific key
 ```
 
-2. **Key not loaded into agent**: If the key is passphrase-protected and `ssh-agent` is not running
+1. **Key not loaded into agent**: If the key is passphrase-protected and `ssh-agent` is not running
    (or the key was not added), SSH cannot use it.
 
 ```bash
-$ eval "$(ssh-agent -s)"
-$ ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
 ```
 
-3. **Wrong public key on the server**: The public key registered on GitHub/GitLab does not match
+1. **Wrong public key on the server**: The public key registered on GitHub/GitLab does not match
    your private key. Re-copy the `.pub` file contents to the hosting platform.
 
-4. **File permissions are too open**: SSH refuses to use private keys that are readable by other
+2. **File permissions are too open**: SSH refuses to use private keys that are readable by other
    users.
 
 ```bash
-$ chmod 700 ~/.ssh
-$ chmod 600 ~/.ssh/id_ed25519
-$ chmod 644 ~/.ssh/id_ed25519.pub
-$ chmod 644 ~/.ssh/config
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/id_ed25519
+chmod 644 ~/.ssh/id_ed25519.pub
+chmod 644 ~/.ssh/config
 ```
 
-5. **`IdentitiesOnly` pointing to wrong file**: Check your `~/.ssh/config` to ensure the
+1. **`IdentitiesOnly` pointing to wrong file**: Check your `~/.ssh/config` to ensure the
    `IdentityFile` path is correct.
 
 ### "fatal: Could not read from remote repository"

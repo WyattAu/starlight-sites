@@ -99,7 +99,7 @@ It is the bookmark that `git subtree pull` uses to find the starting point for t
 ### With Full History
 
 ```bash
-$ git subtree add --prefix=vendor/lib https://github.com/org/library.git main
+git subtree add --prefix=vendor/lib https://github.com/org/library.git main
 ```
 
 Without `--squash`Every upstream commit is replayed as a separate commit in the parent repository.
@@ -116,7 +116,7 @@ b2c3d4e Initial commit for library
 ### From a Local Repository
 
 ```bash
-$ git subtree add --prefix=vendor/lib ../shared-library main
+git subtree add --prefix=vendor/lib ../shared-library main
 ```
 
 Local paths work identically to remote URLs. The repository is fetched via the local Git protocol.
@@ -124,8 +124,8 @@ Local paths work identically to remote URLs. The repository is fetched via the l
 ### With a Specific Tag or Commit
 
 ```bash
-$ git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git v2.1.0
-$ git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git a3f2b1c
+git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git v2.1.0
+git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git a3f2b1c
 ```
 
 ### What Happens Internally
@@ -153,7 +153,7 @@ git subtree pull \
 ### Pulling with Squashed History
 
 ```bash
-$ git subtree pull --prefix=vendor/lib --squash https://github.com/org/library.git main
+git subtree pull --prefix=vendor/lib --squash https://github.com/org/library.git main
 ```
 
 The framework finds the last upstream SHA from the previous squash commit message, fetches the
@@ -169,7 +169,7 @@ d4e5f6g Squashed 'vendor/lib/' content from commit a3f2b1c
 ### Pulling with Full History
 
 ```bash
-$ git subtree pull --prefix=vendor/lib https://github.com/org/library.git main
+git subtree pull --prefix=vendor/lib https://github.com/org/library.git main
 ```
 
 New upstream commits are replayed on top of the existing history. The parent's log now shows the new
@@ -190,9 +190,9 @@ Automatic squash merge failed; fix conflicts and then commit the result.
 Resolve the conflicts, stage the files, and complete the merge:
 
 ```bash
-$ # Edit vendor/lib/lib.c to resolve conflicts
-$ git add vendor/lib/lib.c
-$ git commit
+# Edit vendor/lib/lib.c to resolve conflicts
+git add vendor/lib/lib.c
+git commit
 ```
 
 ### Tracking the Upstream
@@ -201,8 +201,8 @@ There is no automatic tracking. You must provide the same `<repository-url>` and
 `subtree pull`. If you want Git to remember the upstream, add a remote:
 
 ```bash
-$ git remote add lib-upstream https://github.com/org/library.git
-$ git subtree pull --prefix=vendor/lib --squash lib-upstream main
+git remote add lib-upstream https://github.com/org/library.git
+git subtree pull --prefix=vendor/lib --squash lib-upstream main
 ```
 
 This is the recommended approach. Name the remote descriptively so it is clear which subtree it
@@ -222,7 +222,7 @@ git subtree push \
 ### Pushing Local Changes Upstream
 
 ```bash
-$ git subtree push --prefix=vendor/lib lib-upstream main
+git subtree push --prefix=vendor/lib lib-upstream main
 ```
 
 This command extracts all changes in the `vendor/lib/` prefix that have been made locally, creates a
@@ -358,8 +358,8 @@ If a split produces unexpected results (wrong files, missing commits), delete th
 And try again:
 
 ```bash
-$ git branch -D lib-only
-$ git subtree split --prefix=vendor/lib -b lib-only
+git branch -D lib-only
+git subtree split --prefix=vendor/lib -b lib-only
 ```
 
 ## Removing a Subtree

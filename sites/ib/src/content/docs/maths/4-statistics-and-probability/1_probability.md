@@ -83,7 +83,6 @@ $$
 P(F \cup B) = P(F) + P(B) - P(F \cap B) = \frac{25}{40} + \frac{18}{40} - \frac{8}{40} = \frac{35}{40} = \frac{7}{8}
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -126,7 +125,6 @@ Independence is NOT the same as mutual exclusivity. In fact, if two events are b
 Exclusive and both have non-zero probability, they CANNOT be independent (since
 $P(A \cap B) = 0 \neq P(A) \cdot P(B)$).
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -166,7 +164,6 @@ $$
 P(\mathrm{both red}) = P(\mathrm{first red}) \cdot P(\mathrm{second red} | \mathrm{first red}) = \frac{5}{8} \cdot \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
 $$
 
-
 ### Tree Diagrams
 
 Tree diagrams are useful for multi-stage experiments. Multiply along branches, add between branches.
@@ -185,7 +182,6 @@ Paths giving exactly one defective:
 $$
 P(\mathrm{exactly one defective}) = \frac{24}{90} + \frac{24}{90} = \frac{48}{90} = \frac{8}{15}
 $$
-
 
 ---
 
@@ -234,7 +230,6 @@ $$
 P(B|\mathrm{defective}) = \frac{0.3 \times 0.03}{0.021} = \frac{0.009}{0.021} = \frac{3}{7}
 $$
 
-
 ### Medical Testing Example
 
 A disease affects 1% of a population. A test has 99% sensitivity
@@ -255,7 +250,6 @@ $$
 <strong>Exam Tip</strong>
 This result (approximately 16.7%) is counterintuitively low. Always work through Bayes' theorem
 Carefully rather than relying on intuition for conditional probability questions.
-
 
 ---
 
@@ -347,7 +341,6 @@ $$
 \sigma = \sqrt{0.84} \approx 0.917
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -403,7 +396,6 @@ $$
 P(X = 6) = \binom{10}{6}(0.5)^6(0.5)^4 = 210 \times (0.5)^{10} = \frac{210}{1024} \approx 0.205
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -418,7 +410,6 @@ $$
 
 This is best computed using a GDC (calculator). The result is approximately $0.00026$.
 
-
 ### Cumulative Binomial Probabilities
 
 $$
@@ -432,7 +423,6 @@ Most questions require using the cumulative binomial function on a GDC.
 <strong>Exam Tip</strong>
 For binomial probability questions, always state the distribution : "$X \sim B(n, p)$ Where...". Use
 your GDC for calculations involving large $n$ or cumulative probabilities.
-
 
 ---
 
@@ -484,7 +474,6 @@ $$
 = \Phi(1.25) - \Phi(-1.25) = 0.8944 - 0.1056 = 0.7888
 $$
 
-
 ### Inverse Normal
 
 Given a probability, find the corresponding value of $X$:
@@ -509,7 +498,6 @@ $$
 $$
 X = 170 + 1.282 \times 8 = 170 + 10.26 = 180.26 \mathrm{ cm}
 $$
-
 
 ### Combining Normal Variables
 
@@ -541,7 +529,6 @@ $$
 $$
 P(X + Y \gt 2.5) = P\!\left(Z \gt \frac{2.5 - 2.3}{\sqrt{0.05}}\right) = P(Z \gt 0.894) = 1 - 0.814 = 0.186
 $$
-
 
 ---
 
@@ -619,7 +606,6 @@ Find the median:
 $$
 \int_0^m 2x\,dx = 0.5 \implies m^2 = 0.5 \implies m = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}
 $$
-
 
 ---
 
@@ -769,7 +755,6 @@ Always define your random variable at the start of probability questions. For no
 problems, draw a sketch of the bell curve and shade the relevant area. For binomial Problems, verify
 the four conditions before applying the formula.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -807,7 +792,6 @@ $$
 P(X = 6) = \frac{e^{-4} \cdot 4^6}{6!} = \frac{e^{-4} \cdot 4096}{720} = \frac{4096}{720 \times 54.60} \approx 0.104
 $$
 
-
 ### Geometric Distribution
 
 Models the number of trials until the first success.
@@ -830,7 +814,6 @@ A die is rolled until a 6 appears. Find the probability that it takes exactly 4 
 $$
 P(X = 4) = \left(\frac{5}{6}\right)^3 \times \frac{1}{6} = \frac{125}{1296} \approx 0.0965
 $$
-
 
 ---
 

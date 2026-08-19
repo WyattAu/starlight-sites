@@ -120,7 +120,6 @@ $$
 Always check if a function is odd or even before integrating over a symmetric interval. This can
 Save significant computation time.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -131,7 +130,6 @@ Since $x^3\cos(x^2)$ is odd (odd $\times$ even $=$ odd):
 $$
 \int_{-2}^{2} x^3\cos(x^2)\,dx = 0
 $$
-
 
 ---
 
@@ -174,7 +172,6 @@ $$
 \int \sqrt{u}\,du = \int u^{1/2}\,du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2+1)^{3/2} + C
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -187,7 +184,6 @@ When $x = 0$: $u = 0$. When $x = 1$: $u = 1$.
 $$
 \int_0^1 xe^{x^2}\,dx = \frac{1}{2}\int_0^1 e^u\,du = \frac{1}{2}\big[e^u\big]_0^1 = \frac{1}{2}(e - 1)
 $$
-
 
 ### Trigonometric Substitutions
 
@@ -211,7 +207,6 @@ Alternatively, let $x = 2\sin\theta$So $dx = 2\cos\theta\,d\theta$:
 $$
 \int \frac{2\cos\theta}{2\cos\theta}\,d\theta = \int 1\,d\theta = \theta + C = \arcsin\!\left(\frac{x}{2}\right) + C
 $$
-
 
 ---
 
@@ -255,7 +250,6 @@ $$
 \int x e^x\,dx = xe^x - \int e^x\,dx = xe^x - e^x + C = e^x(x - 1) + C
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -268,7 +262,6 @@ Then $du = dx$ and $v = -\cos x$.
 $$
 \int x\sin x\,dx = -x\cos x - \int (-\cos x)\,dx = -x\cos x + \sin x + C
 $$
-
 
 ### Repeated Integration by Parts
 
@@ -297,7 +290,6 @@ Combining:
 $$
 \int x^2 e^x\,dx = x^2 e^x - 2xe^x + 2e^x + C = e^x(x^2 - 2x + 2) + C
 $$
-
 
 ### Cyclic Integration by Parts
 
@@ -334,7 +326,6 @@ $$
 $$
 I = \frac{e^x(\sin x - \cos x)}{2} + C
 $$
-
 
 ---
 
@@ -381,7 +372,6 @@ $$
 \int \frac{5x+1}{(x+1)(x-2)}\,dx = \frac{4}{3}\ln\|x+1\| + \frac{11}{3}\ln\|x-2\| + C
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -427,7 +417,6 @@ $$
 \mathrm{Area} = \int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -438,7 +427,6 @@ Zeros: $x^2 - 4 = 0 \implies x = \pm 2$.
 $$
 \mathrm{Area} = \int_{-2}^{2} |x^2 - 4|\,dx = 2\int_0^2 (4 - x^2)\,dx = 2\left[4x - \frac{x^3}{3}\right]_0^2 = 2\left(8 - \frac{8}{3}\right) = \frac{32}{3}
 $$
-
 
 ---
 
@@ -485,7 +473,6 @@ $$
 V = \pi\int_0^4 (\sqrt{x})^2\,dx = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -499,7 +486,6 @@ $x = \sqrt{y}$From $y = 0$ to $y = 1$.
 $$
 V = \pi\int_0^1 (\sqrt{y})^2\,dy = \pi\int_0^1 y\,dy = \pi\left[\frac{y^2}{2}\right]_0^1 = \frac{\pi}{2}
 $$
-
 
 ### Volume between two curves
 
@@ -519,7 +505,6 @@ Intersection: $x = x^2 \implies x = 0$ or $x = 1$.
 $$
 V = \pi\int_0^1 \left(x^2 - x^4\right)\,dx = \pi\left[\frac{x^3}{3} - \frac{x^5}{5}\right]_0^1 = \pi\left(\frac{1}{3} - \frac{1}{5}\right) = \frac{2\pi}{15}
 $$
-
 
 ---
 
@@ -580,7 +565,6 @@ $$
 = \frac{4}{3} + \left|-\frac{4}{3}\right| + \frac{20}{3} = \frac{4}{3} + \frac{4}{3} + \frac{20}{3} = \frac{28}{3}\mathrm{ m}
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -619,7 +603,6 @@ $$
 
 The integral converges to $1$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -630,7 +613,6 @@ $$
 $$
 
 The integral diverges.
-
 
 ---
 
@@ -795,7 +777,6 @@ When facing an integral, first check if it is a standard form. If not, consider 
 (especially if you see a function and its derivative). If it is a product of different function
 Types, use integration by parts. If it is a rational function, consider partial fractions.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -833,7 +814,6 @@ $$
 = -\int (1 - u^2)\,du = -u + \frac{u^3}{3} + C = -\cos x + \frac{\cos^3 x}{3} + C
 $$
 
-
 **Even powers of sine or cosine**: Use the half-angle formulas.
 
 $$
@@ -856,7 +836,6 @@ $$
 $$
 \int \cos^4 x\,dx = \frac{3x}{8} + \frac{\sin 2x}{4} + \frac{\sin 4x}{32} + C
 $$
-
 
 #### Products of Sine and Cosine
 
@@ -887,7 +866,6 @@ $$
 \int \sin 3x \cos 5x\,dx = \frac{1}{2}\left(-\frac{\cos 8x}{8} + \frac{\cos 2x}{2}\right) + C
 $$
 
-
 ### Integrals of the Form $\displaystyle\int \frac{1}{a^2 + x^2}\,dx$ and Related
 
 $$
@@ -914,7 +892,6 @@ Let $u = 3x$$du = 3\,dx$:
 $$
 = \frac{1}{3}\int \frac{1}{4 + u^2}\,du = \frac{1}{3} \cdot \frac{1}{2}\arctan\frac{u}{2} + C = \frac{1}{6}\arctan\frac{3x}{2} + C
 $$
-
 
 ### Integrals Involving $e^x$ and $\ln x$
 
@@ -944,7 +921,6 @@ $$
 $$
 = \frac{x^3}{3}\ln x - \frac{x^3}{9} + C
 $$
-
 
 ---
 
@@ -995,7 +971,6 @@ $$
 $$
 = \left(\frac{27}{6} - \frac{1}{6}\right) - \left(\frac{1}{6} - \frac{1}{2}\right) = \frac{26}{6} + \frac{1}{3} = \frac{14}{3}
 $$
-
 
 ---
 

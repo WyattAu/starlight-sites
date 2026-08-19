@@ -174,4 +174,3 @@ A Fermi gas at finite temperature is like a theatre filling up with picky patron
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "4_fermi Gas At Finite Temperature", "url": "https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature"}]
 }
 </script>
-

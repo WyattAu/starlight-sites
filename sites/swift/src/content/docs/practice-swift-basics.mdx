@@ -12,14 +12,12 @@ categories:
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Swift -- Interactive Practice
 
 10 auto-graded practice problems covering core Swift concepts. Select an answer, submit, and review
 the explanation.
 
 ---
-
 
 ### Types and Variables
 
@@ -29,7 +27,6 @@ the explanation.
 
 ---
 
-
 ### Optionals
 
 <PracticeProblem client:only="solid-js" question={"What is the value of `let result: Int? = nil ?? 42`?&quot; options={['nil', '42', 'Compile error', 'Runtime crash']} correctAnswer={1} explanation=&quot;The nil coalescing operator `??` unwraps the left side. Since it is `nil`, the default value `42` is used. The result type is `Int` (not optional)."} difficulty="medium"  />
@@ -37,7 +34,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question='Which statement correctly safely unwraps an optional `let name: String? = "Alice"`?' options={['let n = name!', 'if let n = name { }', 'let n: String = name', 'name.bind { n in }']} correctAnswer={1} explanation="`if let` (optional binding) safely unwraps without crashing. `!` force-unwraps and crashes if nil. Direct assignment from optional to non-optional is a compile error." difficulty="easy"  />
 
 ---
-
 
 ### Collections
 
@@ -47,7 +43,6 @@ the explanation.
 
 ---
 
-
 ### Closures
 
 <PracticeProblem client:only="solid-js" question={"What does `[3, 1, 4, 1, 5].sorted(by: >)` return?&quot; options={['[5, 4, 3, 1, 1]', '[1, 1, 3, 4, 5]', '[3, 1, 4, 1, 5]', 'Compile error']} correctAnswer={0} explanation=&quot;`sorted(by: >)` sorts in descending order. The `>` operator function is a valid closure for comparison."} difficulty="easy"  />
@@ -55,7 +50,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"When is `@escaping` required on a closure parameter?&quot; options={[ 'When the closure is called synchronously', 'When the closure is stored or called after the function returns', 'When the closure captures external variables', 'When the closure returns a value', ]} correctAnswer={1} explanation=&quot;Non-escaping closures (the default) execute before the function returns. If the closure outlives the function -- stored as a property, passed to another async function, or called later -- `@escaping` is required."} difficulty="medium"  />
 
 ---
-
 
 ### OOP and Error Handling
 

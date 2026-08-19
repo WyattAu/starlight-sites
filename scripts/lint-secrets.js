@@ -31,6 +31,13 @@ const HIGH_CONFIDENCE = [
   { re: /eyJ[a-zA-Z0-9_-]{10,}\.[a-zA-Z0-9_-]{10,}/, label: 'JWT Token (raw)' },
 ]
 
+// Known documentation placeholders that match high-confidence patterns but
+// are published examples, not credentials (AWS docs canonical example key).
+const ALLOWED_LITERALS = new Set([
+  'AKIAIOSFODNN7EXAMPLE',
+  'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+])
+
 // Medium-confidence patterns: may be false positives in config examples or docs.
 const MEDIUM_CONFIDENCE = [
   { re: /(?:password|passwd|pwd)\s*[:=]\s*['"][^'"]{4,}/, label: 'Hardcoded Password' },
@@ -87,6 +94,8 @@ function scanFile(filePath) {
 
     for (const { re, label } of HIGH_CONFIDENCE) {
       if (re.test(line)) {
+        const hit = line.match(re)
+        if (hit && ALLOWED_LITERALS.has(hit[0])) continue
         findings.push({ file: filePath, line: i + 1, label, confidence: 'high' })
       }
     }

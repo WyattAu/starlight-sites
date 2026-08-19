@@ -255,7 +255,6 @@ Every subnet has a broadcast address: the last address in the subnet (all host b
 <aside class="starlight-aside starlight-aside--caution">
 `net.ipv4.icmp_echo_ignore_broadcasts=1`. Do not rely on ping to test broadcast reachability.
 
-
 ## Multicast
 
 ### Overview
@@ -429,7 +428,6 @@ ip route get 8.8.8.8
 Fails, the sender never learns the correct MTU and silently drops packets. This is one of the most
 Insidious networking problems because the connection appears to work for small packets but fails for
 Large ones. Use TCP MSS clamping or UDP packet size limits as a workaround.
-
 
 ## UDP and NAT
 

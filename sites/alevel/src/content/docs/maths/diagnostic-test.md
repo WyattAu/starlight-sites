@@ -237,7 +237,7 @@ Suppose $\sqrt{5} = a/b$ in lowest terms. $5b^2 = a^2$So $5 \mid a^2 \implies 5 
 <details>
 <summary>Q20. Prove by induction that $\displaystyle\sum_{r=1}^{n} r^2 = \dfrac{n(n+1)(2n+1)}{6}$.</summary>
 *Base ($n=1$):* $1 = 1(2)(3)/6 = 1$. ✓
-*Step:* $\dfrac{k(k+1)(2k+1)}{6} + (k+1)^2 = \dfrac{(k+1)[k(2k+1)+6(k+1)]}{6} = \dfrac{(k+1)(2k^2+7k+6)}{6} = \dfrac{(k+1)(k+2)(2k+3)}{6}$. ✓
+*Step:* $\dfrac{k(k+1)(2k+1)}{6} + (k+1)^2 = \dfrac{[k+1](k(2k+1)+6(k+1))}{6} = \dfrac{(k+1)(2k^2+7k+6)}{6} = \dfrac{(k+1)(k+2)(2k+3)}{6}$. ✓
 
 **If you get this wrong, revise:** [Proof](pure-mathematics/13-proof)
 
@@ -527,7 +527,6 @@ Use the revision links under each question to jump directly to the relevant topi
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -542,8 +541,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

@@ -870,7 +870,7 @@ Write SQL queries for the following:
 SELECT Name FROM Student WHERE Class = '5A';
 ```
 
-2. Count the number of students in each class:
+1. Count the number of students in each class:
 
 ```sql
 SELECT Class, COUNT(*) AS NumberOfStudents
@@ -878,7 +878,7 @@ FROM Student
 GROUP BY Class;
 ```
 
-3. Find all students who scored `A` in `CS101`:
+1. Find all students who scored `A` in `CS101`:
 
 ```sql
 SELECT Student.Name
@@ -887,7 +887,7 @@ JOIN Enrolment ON Student.StudentID = Enrolment.StudentID
 WHERE Enrolment.CourseCode = 'CS101' AND Enrolment.Grade = 'A';
 ```
 
-4. Find the average grade for each course:
+1. Find the average grade for each course:
 
 ```sql
 SELECT Course.CourseName, AVG(Enrolment.Grade) AS AvgGrade
@@ -1407,7 +1407,6 @@ This program reads scores into an array while accumulating the total. It then co
 iterates through the array again to count scores above average, and outputs both results.
 
 </details>
-
 
 <aside class="starlight-aside starlight-aside--danger">
 - **Confusing SQL WHERE and HAVING clauses:** WHERE filters individual ROWS before grouping. HAVING

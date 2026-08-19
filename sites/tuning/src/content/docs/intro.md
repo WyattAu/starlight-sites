@@ -181,10 +181,10 @@ Zero risk of data corruption during instability. Always save your work before st
 - Removing the CMOS battery for 60 seconds, or
 - Shorting the JBAT1 header with a screwdriver for 5 seconds
 
-7. **Save your work before stress testing.** Instability can cause system freezes, BSODs, or
+1. **Save your work before stress testing.** Instability can cause system freezes, BSODs, or
    spontaneous reboots. Any unsaved work will be lost.
 
-8. **Do not tune on a mission-critical machine.** Use a test system or be prepared to restore from
+2. **Do not tune on a mission-critical machine.** Use a test system or be prepared to restore from
    backup. Tuning should be done on systems where you can tolerate downtime.
 
 ## When NOT to Tune

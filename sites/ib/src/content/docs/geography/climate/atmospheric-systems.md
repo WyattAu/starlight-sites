@@ -24,7 +24,6 @@ description: "Global atmospheric circulation and climate systems."
 
 **The key insight:** Atmospheric systems operate through complex feedback loops where temperature, pressure, and moisture interact to create weather patterns
 
-
 ## Global Atmospheric Circulation
 
 ### The Three-Cell Model

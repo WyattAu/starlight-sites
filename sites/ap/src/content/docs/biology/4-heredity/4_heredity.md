@@ -920,7 +920,6 @@ Phenotypic ratio: **1 tall : 1 dwarf** (or 50% tall, 50% dwarf)
 
 Biology explores how living things work, interact, and evolve. Cells are the basic units of life, each containing molecular machines that carry out specialised functions. Genetics encodes the instructions for building organisms, while ecology examines how species coexist in complex communities. These levels of organisation - from molecules to ecosystems - are interconnected through evolution and natural selection.
 
-
 ## Cross-References
 
 - [Cell Structure and Function](../2-cell-structure-and-function/2_cell-structure-and-function)

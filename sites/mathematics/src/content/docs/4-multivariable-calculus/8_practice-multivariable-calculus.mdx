@@ -11,7 +11,6 @@ description: "UNIVERSITY Mathematics practice problems: Multivariable Calculus P
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Calculus in higher dimensions:** Multivariable calculus extends single-variable calculus to functions of several variables — surfaces instead of curves, volumes instead of areas. It is the mathematics of fields (temperature, gravity, electromagnetic) that vary across space.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Partial Derivatives and Chain Rule
 
 <PracticeProblem client:only="solid-js" question={"If $f(x, y) = x^2 y + \sin(xy)$, what is $\frac{\partial f}{\partial x}$?&quot; options={['$2xy + y \cos(xy)$', '$x^2 + \cos(xy)$', '$2xy + x \cos(xy)$', '$y^2 + y \cos(xy)$']} correctAnswer={0} explanation=&quot;Differentiate with respect to $x$ treating $y$ as constant: $\frac{\partial}{\partial x}[x^2 y] = 2xy$ and $\frac{\partial}{\partial x}[\sin(xy)] = \cos(xy) \cdot \frac{\partial}{\partial x}(xy) = y \cos(xy)$. So $\frac{\partial f}{\partial x} = 2xy + y \cos(xy)$."} difficulty="easy"  />
@@ -38,7 +36,6 @@ the explanation.
 
 ---
 
-
 ### Multiple Integrals
 
 <PracticeProblem client:only="solid-js" question={"Evaluate the double integral $\iint_R x\,dA$ where $R$ is the region $0 \leq x \leq 1$, $0 \leq y \leq 2$.&quot; options={['$1$', '$2$', '$1/2$', '$4$']} correctAnswer={0} explanation=&quot;$\iint_R x\,dA = \int_0^1 \int_0^2 x\,dy\,dx = \int_0^1 [xy]_{y=0}^{y=2}\,dx = \int_0^1 2x\,dx = [x^2]_0^1 = 1$. Alternatively, reversing order: $\int_0^2 \int_0^1 x\,dx\,dy = \int_0^2 [x^2/2]_0^1\,dy = \int_0^2 (1/2)\,dy = 1$."} difficulty="easy"  />
@@ -48,7 +45,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"Compute $\iiint_E z\,dV$ where $E$ is the unit cube $[0,1] \times [0,1] \times [0,1]$.&quot; options={['$1/2$', '$1$', '$1/4$', '$3/2$']} correctAnswer={0} explanation=&quot;$\iiint_E z\,dV = \int_0^1 \int_0^1 \int_0^1 z\,dx\,dy\,dz = \int_0^1 \int_0^1 [xz]_{x=0}^{x=1}\,dy\,dz = \int_0^1 \int_0^1 z\,dy\,dz = \int_0^1 [yz]_{y=0}^{y=1}\,dz = \int_0^1 z\,dz = [z^2/2]_0^1 = 1/2$."} difficulty="medium"  />
 
 ---
-
 
 ### Vector Calculus
 
@@ -67,6 +63,7 @@ the explanation.
 **Confusing the gradient with the directional derivative:** The gradient $\nabla f$ is a vector, while the directional derivative $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$ is a scalar. The gradient points in the direction of steepest ascent and its magnitude is the maximum directional derivative. Do not confuse $\nabla f$ with $D_{\mathbf{u}} f$ — they are different objects.
 
 **Misapplying Lagrange multipliers by forgetting the constraint:** The method finds extrema of $f$ subject to $g = c$ by solving $\nabla f = \lambda \nabla g$ together with $g = c$. A common error is solving $\nabla f = 0$ (unconstrained critical points) instead of including the constraint equation. Always verify your solutions satisfy $g(x,y) = c$.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.

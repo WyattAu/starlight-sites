@@ -99,7 +99,7 @@ Linear Algebra ←────────────────────�
 ### Recommended Starting Points
 
 | Your Background | Start Here |
-|----------------|------------|
+| ---------------- | ------------ |
 | Just finished high school | [Linear Algebra](2-linear-algebra) — the most broadly applicable subject |
 | Comfortable with proofs | [Real Analysis](3-real-analysis) — the foundation of rigorous mathematics |
 | Interested in algebra | [Abstract Algebra](1-abstract-algebra) — groups, rings, and fields |
@@ -374,7 +374,7 @@ Mathematics provides the foundations for physics and applied fields:
 Proof-based mathematics requires mastery of several proof strategies. Knowing which technique to reach for is the core skill of mathematical reasoning.
 
 | Technique | When to Use | Example |
-|-----------|-------------|---------|
+| ----------- | ------------- | --------- |
 | Direct proof | Implication P ⇒ Q | "If n is even, then n² is even" |
 | Contrapositive | Easier to prove ¬Q ⇒ ¬P | "If n² is odd, then n is odd" |
 | Contradiction | Assume ¬P, derive contradiction | Irrationality of √2 |

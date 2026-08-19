@@ -218,7 +218,6 @@ $$
 
 The 4s electrons fill first but are written after 3d by convention.
 
-
 ### Electron Configuration of Ions
 
 When forming cations, **remove $4s$ electrons before $3d$ electrons**, even though $4s$ fills first.
@@ -329,7 +328,6 @@ The energy of the photon:
 $$
 E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{4.86 \times 10^{-7}} = 4.09 \times 10^{-19} \mathrm{ J = 2.56 \mathrm{ eV
 $$
-
 
 ### Atomic Spectra as Evidence for Quantized Energy Levels
 
@@ -865,13 +863,11 @@ HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
 $$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
 
-
 </aside>
 
 ## Intuition
 
 The molecular world governs our everyday experience. Chemical bonds determine material properties, reactions drive metabolism, and equilibrium governs biological processes. Understanding chemistry means understanding how matter transforms - from cooking food to manufacturing pharmaceuticals. These principles are essential for medicine, environmental science, and materials engineering.
-
 
 ## Cross-References
 

@@ -39,7 +39,6 @@ description: 'A-Level Macroeconomics notes covering key definitions, core concep
 }
 </script>
 
-
 ## Intuition
 
 **Macroeconomics is like looking at the big picture — inflation, growth, and unemployment affecting entire nations.**

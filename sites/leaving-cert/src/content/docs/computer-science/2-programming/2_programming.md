@@ -573,31 +573,31 @@ class LinkedList:
 
 ## Additional Practice Questions
 
-5. Write a Python function that checks whether a string is a palindrome. What is the time
+1. Write a Python function that checks whether a string is a palindrome. What is the time
    complexity?
 
-6. Explain why merge sort has $O(n \log n)$ time complexity in all cases.
+2. Explain why merge sort has $O(n \log n)$ time complexity in all cases.
 
-7. Write pseudocode for a procedure that removes duplicates from a sorted array in-place.
+3. Write pseudocode for a procedure that removes duplicates from a sorted array in-place.
 
-8. Prove that bubble sort correctly sorts an array by showing that after $k$ passes, the $k$ largest
+4. Prove that bubble sort correctly sorts an array by showing that after $k$ passes, the $k$ largest
    elements are in their final positions.
 
-9. Write a Python function that implements a linked list with append, delete, and search methods.
+5. Write a Python function that implements a linked list with append, delete, and search methods.
    What is the time complexity of each?
 
-10. Explain the difference between recursion and iteration. Give an example where recursion is more
+6. Explain the difference between recursion and iteration. Give an example where recursion is more
     natural.
 
-11. Write a Python function that finds all pairs in an array that sum to a given target.
+7. Write a Python function that finds all pairs in an array that sum to a given target.
 
-12. Trace quick sort on the array [10, 80, 30, 90, 40, 50, 70]. Use the middle element as the pivot.
+8. Trace quick sort on the array [10, 80, 30, 90, 40, 50, 70]. Use the middle element as the pivot.
 
-13. Explain the concept of algorithmic efficiency. Why is Big O notation useful?
+9. Explain the concept of algorithmic efficiency. Why is Big O notation useful?
 
-14. Write a Python function that checks if a binary tree is a valid binary search tree.
+10. Write a Python function that checks if a binary tree is a valid binary search tree.
 
-15. Explain the difference between a stack and a queue. Give a real-world application of each.
+11. Explain the difference between a stack and a queue. Give a real-world application of each.
 
 ## Algorithm Design Patterns
 
@@ -697,15 +697,15 @@ def rotate_90(matrix):
 
 ## Additional Practice Questions
 
-11. Write a Python function that implements a binary search on a sorted list of strings.
+1. Write a Python function that implements a binary search on a sorted list of strings.
 
-12. Write a Python function that removes all even numbers from a list in-place.
+2. Write a Python function that removes all even numbers from a list in-place.
 
-13. Trace insertion sort on the array [8, 3, 5, 1, 7, 2, 6, 4]. Show the array after each step.
+3. Trace insertion sort on the array [8, 3, 5, 1, 7, 2, 6, 4]. Show the array after each step.
 
-14. Write a Python function that rotates a matrix 90 degrees clockwise. What is the time complexity?
+4. Write a Python function that rotates a matrix 90 degrees clockwise. What is the time complexity?
 
-15. Explain why the following code has $O(n^2)$ time complexity:
+5. Explain why the following code has $O(n^2)$ time complexity:
 
 ```python
 for i in range(n):
@@ -713,16 +713,16 @@ for i in range(n):
         print(i, j)
 ```
 
-16. Write a Python function that finds the longest word in a string. What is the time complexity?
+1. Write a Python function that finds the longest word in a string. What is the time complexity?
 
-17. Write a recursive Python function that computes the sum of digits of a positive integer.
+2. Write a recursive Python function that computes the sum of digits of a positive integer.
 
-18. Write a Python function that checks whether two strings are anagrams of each other.
-
+3. Write a Python function that checks whether two strings are anagrams of each other.
 
 ## Intuition
 
 Programming is like writing a recipe for a very literal chef -- every instruction must be precise, every condition must be explicit, and every loop must have a clear termination. Algorithms are the recipes, and data structures are the containers that hold the ingredients. Searching is finding an ingredient in the cupboard; sorting is arranging them in order. The key insight is that the same problem can be solved in many ways, and the choice of algorithm determines not just speed but also readability, maintainability, and correctness. Good code is like a good recipe: clear, efficient, and easy to follow.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

@@ -15,7 +15,6 @@ sidebar_position: 30
 }
 </script>
 
-
 ## Intuition
 
 **History is like a vast library of human experience — learning from the past to understand the present.**
@@ -89,7 +88,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | OPVL stands for Origin, Purpose, Value, and Limitation; "P" is Purpose, asking why the source was created. |
 | 2 | (B) | Provenance concerns the source's origins, including author identity, circumstances of creation, and potential biases. |
 | 3 | (B) | A primary source is created contemporaneously with events or by someone with direct experience of them. |
@@ -108,8 +107,6 @@ Answer each question. Check your answers against the key at the end.
 **Confusing corroboration with agreement:** Corroboration means checking a source's claims against other independent sources to test reliability. It does not mean finding sources that say the same thing. If three sources agree because they all copied from the same original, they are not independently corroborated. True corroboration uses independent evidence.
 
 **Treating historical interpretations as fixed facts:** Interpretations change as new evidence emerges, methodologies evolve, and perspectives shift. The Cold War was once explained primarily through ideological conflict; revisionist historians later emphasised economic motives. Understanding why interpretations change is part of historical thinking, not a sign that history is "wrong."
-
-
 
 ## Cross-References
 

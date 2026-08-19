@@ -27,7 +27,6 @@ description: "Analysis of A Streetcar Named Desire by Tennessee Williams."
 
 **The key insight:** Williams layers symbolism throughout — the streetcar named Desire, the Bow and Arrow label, the blue piano — to create meaning beyond dialogue
 
-
 ## 1. Context: American Drama and Tennessee Williams
 
 ### Williams's Place in American Theater

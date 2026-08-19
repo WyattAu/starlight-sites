@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** All digital computation reduces to Boolean operations — from simple calculators to complex AI systems
 
-
 ## Boolean Algebra Fundamentals
 
 Boolean algebra is a branch of mathematics that operates on binary values: 1 (true) and 0 (false).

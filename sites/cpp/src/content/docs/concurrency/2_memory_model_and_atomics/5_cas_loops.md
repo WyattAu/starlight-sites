@@ -711,7 +711,6 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
   cycles and bus bandwidth. Use `__builtin_ia32_pause()` on x86, `yield()` on ARM, or
   `std::this_thread::yield()` to reduce contention.
 
-
 ## Worked Examples
 
 **Example 1: Stack operations**
@@ -738,4 +737,3 @@ CAS loops are like trying to update a shared whiteboard. You read the current va
 
 - [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations form the basis of CAS loops
 - [Memory Orderings](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to choose the right memory ordering for CAS operations
-

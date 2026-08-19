@@ -971,4 +971,3 @@ building a personal test matrix.
 - [Quadratics](02-quadratics.mdx) — Quadratic inequalities and the discriminant extend the quadratic equations covered there.
 - [Coordinates and Geometry](04-coordinates-and-geometry.md) — Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
 - [Proof](13-proof.md) — The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.
-

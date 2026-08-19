@@ -1170,7 +1170,6 @@ $= \dfrac{1}{3}\begin{pmatrix}3125&32\\3125&-64\end{pmatrix}\begin{pmatrix}2&1\\
 
 </details>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**

@@ -31,6 +31,7 @@ Chemistry starts with atoms — **the smallest units of an element that retain i
 ## Atomic Structure
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C1 | WJEC C1
+>
 ## 1. The Atom
 
 ### 1.1 Subatomic Particles

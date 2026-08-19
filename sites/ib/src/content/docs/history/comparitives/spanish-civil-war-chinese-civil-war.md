@@ -190,11 +190,11 @@ Chinese Civil War.
 
 - Mao's **"On Protracted War"** (1938) articulated a three-phase guerrilla strategy:
 
-1.  **Strategic defensive**: Avoid large battles; retreat to rural areas; build support among
+1. **Strategic defensive**: Avoid large battles; retreat to rural areas; build support among
     peasants.
-2.  **Strategic stalemate**: Expand controlled territory; harass enemy supply lines; wear down the
+2. **Strategic stalemate**: Expand controlled territory; harass enemy supply lines; wear down the
     enemy.
-3.  **Strategic offensive**: Launch conventional attacks when the balance of forces shifts in your
+3. **Strategic offensive**: Launch conventional attacks when the balance of forces shifts in your
     favor.
 
 - The CCP's success in mobilizing the peasantry through **land reform** and **mass campaigns** was
@@ -280,7 +280,7 @@ When writing a comparative essay on these two civil wars, use the following stru
 - Key turning points
 - Outcomes
 
-3. **Conclusion**: Synthesize your comparison. Which similarities are most significant? What do the
+1. **Conclusion**: Synthesize your comparison. Which similarities are most significant? What do the
    differences reveal about the nature of civil war in the 20th century?
 
 > **Exam tip**: IB examiners reward essays that make _sustained comparisons_ throughout, rather than
@@ -670,8 +670,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

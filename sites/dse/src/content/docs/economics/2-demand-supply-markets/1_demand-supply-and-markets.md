@@ -121,6 +121,7 @@ Incentivising producers to supply more.
 | Expectation of future price increase       | Supply shifts left (withhold stock) |
 
 > **Caution:** Warning "increase in supply" (shift). Be precise with terminology.
+>
 ### Market Supply
 
 Market supply is the horizontal sum of all individual firm supplies:
@@ -679,6 +680,7 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 - MC passes below ATC when ATC is falling, and above ATC when ATC is rising
 
 > **Info:** Info Because when MC \lt ATC, it pulls ATC down; when MC \gt ATC, it pulls ATC up.
+>
 ### Revenue
 
 | Revenue               | Definition                         | Formula                         |
@@ -1426,7 +1428,7 @@ If you get this wrong, revise: [Price Controls and Welfare](#price-controls-and-
 
 along) or a decrease (shift) of the demand curve.
 
-4. Forgetting to distinguish between short-run and long-run effects in macroeconomic analysis.
+1. Forgetting to distinguish between short-run and long-run effects in macroeconomic analysis.
    > > > > > > > Stashed changes:docs/docs_dse/Economics/demand-supply-markets.md
 
 ## Worked Examples

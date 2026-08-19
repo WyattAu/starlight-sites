@@ -55,7 +55,6 @@ Application (writing correct transaction logic).
 "the database satisfies all defined constraints." CAP consistency means "every read returns the most
 Recent write." They are different guarantees.
 
-
 ### Isolation
 
 Concurrent transactions should not interfere with each other. The isolation level determines the
@@ -194,7 +193,6 @@ T1: UPDATE accounts SET balance = balance - 100 WHERE id = 1;
 Another committed transaction will fail with a serialization error. Your application must catch this
 Error and retry the transaction. This is by design -- it is the price of snapshot isolation.
 
-
 ### SERIALIZABLE
 
 ```sql
@@ -301,7 +299,6 @@ SELECT pg_advisory_unlock(12345);    -- releases the lock
 Workers can safely `SELECT ... FOR UPDATE SKIP LOCKED` from the same table without deadlocking. Each
 Worker gets a different row, and rows that are already being processed are skipped.
 
-
 ## Multi-Version Concurrency Control (MVCC)
 
 MVCC is the concurrency control mechanism used by PostgreSQL, MySQL (InnoDB), Oracle, and SQLite.
@@ -316,13 +313,13 @@ Specific point in time. Readers do not block writers, and writers do not block r
 - `xmax`: the transaction ID of the transaction that deleted or updated this version (0 if not
   deleted)
 
-2. Each transaction has a snapshot that defines which transactions are visible:
+1. Each transaction has a snapshot that defines which transactions are visible:
 
 - Transactions with xid &lt; snapshot's `xmin` are committed and visible
 - Transactions with xid >= snapshot's `xmax` are not yet started and invisible
 - Between `xmin` and `xmax`: visible if committed, invisible if aborted
 
-3. When a transaction reads a row:
+1. When a transaction reads a row:
 
 - If `xmin` is committed and `xmax` is 0 or aborted, the row is visible
 - If `xmax` is committed, the row has been deleted/updated; not visible
@@ -476,7 +473,6 @@ COMMIT;
 Tight loops (e.g., one savepoint per row in a batch). Instead, batch your operations and use a
 Single savepoint for the entire batch.
 
-
 ## Distributed Transactions
 
 When a transaction spans multiple databases or services, coordination becomes significantly more
@@ -548,7 +544,6 @@ Systems prefer:
 <aside class="starlight-aside starlight-aside--tip">
 Network round-trips, coordinator overhead, blocking on failure) and operational complexity (recovery
 Procedures, heuristic outcomes) make it a last resort. Prefer sagas for most distributed workflows.
-
 
 ## Optimistic vs Pessimistic Concurrency Control
 
@@ -861,7 +856,6 @@ COMMIT;
 Generated, so the planner does not know the effective row count. This can lead to suboptimal plans.
 Use `SET LOCAL` within a transaction to scope the security context correctly.
 
-
 ## Isolation Level Implementation Details
 
 ### PostgreSQL vs MySQL (InnoDB)
@@ -913,6 +907,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>

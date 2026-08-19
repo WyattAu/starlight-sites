@@ -702,7 +702,6 @@ The OWASP Top 10 represents the most critical web application security risks. Th
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 </aside>
 ---
 

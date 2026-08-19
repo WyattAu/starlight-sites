@@ -499,8 +499,6 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
 > (Hodder, 2016); IPCC AR6 WG1 (2021); INPE deforestation data; Gatti et al. (2021), _Nature_;
 > Environment Agency flood data for Cumbria 2015.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

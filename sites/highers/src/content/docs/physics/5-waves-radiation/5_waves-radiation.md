@@ -505,39 +505,39 @@ Source of equal intensity adds 3 dB.
 
 ## 16. Practice Questions (Additional)
 
-11. Light of wavelength $480 \mathrm{ nm$ passes through a double slit with slit separation
+1. Light of wavelength $480 \mathrm{ nm$ passes through a double slit with slit separation
     $0.15 \mathrm{ mm$. The screen is $2.5 \mathrm{ m$ away. Calculate the fringe spacing and the
     distance from the central maximum to the third-order bright fringe.
 
-12. A sample of radon-222 has an initial activity of $8000 \mathrm{ Bq$. After 11.4 days, the
+2. A sample of radon-222 has an initial activity of $8000 \mathrm{ Bq$. After 11.4 days, the
     activity is $2000 \mathrm{ Bq$. Calculate the half-life of radon-222.
 
-13. Two speakers emit sound at $440 \mathrm{ Hz$ and are $3 \mathrm{ m$ apart. A listener walks
+3. Two speakers emit sound at $440 \mathrm{ Hz$ and are $3 \mathrm{ m$ apart. A listener walks
     along a line perpendicular to the line joining the speakers, starting from the midpoint. At what
     distance from the midpoint does the listener first hear a minimum in intensity? (Speed of sound
     $= 343 \mathrm{ m/s$.)
 
-14. Calculate the binding energy per nucleon of carbon-12. Given: mass of carbon-12 =
+4. Calculate the binding energy per nucleon of carbon-12. Given: mass of carbon-12 =
     $12.000 \mathrm{ u$Mass of proton $= 1.00728 \mathrm{ u$Mass of neutron $= 1.00867 \mathrm{ u$
     $1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
-15. A diffraction grating produces a first-order maximum at $22.0^{\circ}$ for light of wavelength
+5. A diffraction grating produces a first-order maximum at $22.0^{\circ}$ for light of wavelength
     $589 \mathrm{ nm$. Calculate the number of lines per mm on the grating and the maximum number of
     orders visible.
 
-16. Explain why gamma rays are more penetrating than alpha particles, even though alpha particles
+6. Explain why gamma rays are more penetrating than alpha particles, even though alpha particles
     carry more energy per particle.
 
-17. A sound source produces an intensity level of $85 \mathrm{ dB$ at $5 \mathrm{ m$. At what
+7. A sound source produces an intensity level of $85 \mathrm{ dB$ at $5 \mathrm{ m$. At what
     distance is the intensity level $60 \mathrm{ dB$?
 
-18. Write balanced nuclear equations for: (a) alpha decay of polonium-210, (b) beta-minus decay of
+8. Write balanced nuclear equations for: (a) alpha decay of polonium-210, (b) beta-minus decay of
     strontium-90.
 
-19. Explain the process of nuclear fission. Why does it release energy? Reference the binding energy
+9. Explain the process of nuclear fission. Why does it release energy? Reference the binding energy
     per nucleon curve in your answer.
 
-20. Describe an experiment to demonstrate two-source interference with sound waves. Include a
+10. Describe an experiment to demonstrate two-source interference with sound waves. Include a
     diagram description and explain how you would measure the wavelength.
 
 ## Extended Worked Examples
@@ -641,24 +641,24 @@ Gamma rays have no charge or mass, so they pass through matter (low ionisation, 
 
 ## Additional Practice Problems
 
-21. A diffraction grating has $500 \mathrm{ lines/mm$. Light of wavelength $620 \mathrm{ nm$ is
+1. A diffraction grating has $500 \mathrm{ lines/mm$. Light of wavelength $620 \mathrm{ nm$ is
     incident normally. Calculate the angular position of the third-order maximum and the total
     number of orders visible.
 
-22. A sample of radon-222 (half-life $3.82 \mathrm{ days$) has an initial activity of
+2. A sample of radon-222 (half-life $3.82 \mathrm{ days$) has an initial activity of
     $8000 \mathrm{ Bq$. Calculate the activity after 15 days and the time for the activity to fall
     to $500 \mathrm{ Bq$.
 
-23. Two speakers are $3 \mathrm{ m$ apart and emit sound at $685 \mathrm{ Hz$. A listener walks
+3. Two speakers are $3 \mathrm{ m$ apart and emit sound at $685 \mathrm{ Hz$. A listener walks
     along a line parallel to the speakers, $8 \mathrm{ m$ away. Calculate the positions of the first
     three points of constructive interference along this line. (Speed of sound
     $= 343 \mathrm{ m/s$.)
 
-24. Calculate the energy released when $1 \mathrm{ kg$ of uranium-235 undergoes fission, assuming
+4. Calculate the energy released when $1 \mathrm{ kg$ of uranium-235 undergoes fission, assuming
     each fission releases $200 \mathrm{ MeV$ and Avogadro's number $= 6.02 \times 10^{23}$. Compare
     this to the energy released by burning $1 \mathrm{ kg$ of coal ($3 \times 10^7 \mathrm{ J$).
 
-25. Explain why ultrasound is preferred to X-rays for imaging foetuses. Refer to the types of
+5. Explain why ultrasound is preferred to X-rays for imaging foetuses. Refer to the types of
     radiation, their ionising power, and the energy of typical photons in each case.
 
 ## Further Worked Examples
@@ -756,24 +756,24 @@ Where $\tau$ is the dead time.
 
 ## Additional Practice Problems
 
-26. A diffraction grating has $600 \mathrm{ lines/mm$ and is illuminated with light of wavelength
+1. A diffraction grating has $600 \mathrm{ lines/mm$ and is illuminated with light of wavelength
     $550 \mathrm{ nm$. Calculate the angular positions of the first three orders and determine the
     maximum number of orders visible.
 
-27. A sample of cobalt-60 has a half-life of $5.27 \mathrm{ years$ and an initial activity of
+2. A sample of cobalt-60 has a half-life of $5.27 \mathrm{ years$ and an initial activity of
     $20000 \mathrm{ Bq$. Calculate the activity after 10 years, the number of cobalt-60 atoms
     remaining, and the mass of cobalt-60 remaining.
 
-28. Two loudspeakers are connected to the same signal generator and placed $2 \mathrm{ m$ apart.
+3. Two loudspeakers are connected to the same signal generator and placed $2 \mathrm{ m$ apart.
     They emit a tone of $440 \mathrm{ Hz$. A microphone is moved along a line $5 \mathrm{ m$ from
     and parallel to the line joining the speakers. Calculate the positions of the first three
     minima. (Speed of sound $= 343 \mathrm{ m/s$.)
 
-29. Calculate the energy released when two deuterium nuclei fuse to form helium-3 and a neutron.
+4. Calculate the energy released when two deuterium nuclei fuse to form helium-3 and a neutron.
     Mass of deuterium $= 2.013553 \mathrm{ u$Mass of helium-3 $= 3.016029 \mathrm{ u$Mass of neutron
     $= 1.008665 \mathrm{ u$.
 
-30. Explain the principles of a gamma camera used in medical imaging. Describe how the collimator,
+5. Explain the principles of a gamma camera used in medical imaging. Describe how the collimator,
     scintillator crystal, photomultiplier tubes, and computer work together to produce an image.
 
 </aside>

@@ -23,6 +23,7 @@ categories:
 ## Respiration (In Depth)
 
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 4
+>
 ## 1. Overview of Cellular Respiration
 
 ### 1.1 Definition and Significance
@@ -307,9 +308,9 @@ $$\mathrm{PMF} = \Delta\Psi - \frac{2.303RT}{F}\Delta\mathrm{pH}$$
 Where $\Delta\Psi$ is the membrane potential (approximately $150$--$180\ \mathrm{mV}$) and
 $\Delta\mathrm{pH}$ is the pH difference across the membrane (approximately 0.5--1.0 unit).
 
-4. Protons can only return to the matrix through **ATP synthase** (Complex V), a transmembrane
+1. Protons can only return to the matrix through **ATP synthase** (Complex V), a transmembrane
    protein complex that acts as a molecular motor.
-5. As protons flow through ATP synthase, the flow drives the rotation of a rotor, which induces
+2. As protons flow through ATP synthase, the flow drives the rotation of a rotor, which induces
    conformational changes in the catalytic domains that synthesise ATP from ADP and $P_i$:
 
 $$\mathrm{ADP + P_i \to ATP}$$
@@ -1495,7 +1496,6 @@ post-exercise oxygen consumption, EPOC**).
 | Oligomycin                | ATP synthase (Complex V)          | Blocks the proton channel in ATP synthase, preventing ATP synthesis                                                                                                                           | Antibiotic                                                                             |
 | DNP (2,4-dinitrophenol)   | Uncouples ETC from ATP synthesis  | Carries protons across the inner mitochondrial membrane, dissipating the proton gradient as heat. ETC continues (even faster than normal) but no ATP is produced. Energy is released as heat. | Historically used as a weight-loss drug (dangerous: hyperthermia, death)               |
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 inhibitor (e.g., cyanide) stops the ETC entirely, so no ATP is produced and $\mathrm{O_2}$
@@ -1827,7 +1827,6 @@ The Cori cycle describes the recycling of lactate between muscles and the liver:
 - Liver spends: 6 ATP per glucose (gluconeogenesis).
 - **Net: 4 ATP consumed per glucose recycled** -- this is the metabolic cost of the Cori cycle.
 
-
 <aside class="starlight-aside starlight-aside--caution">
 making glucose than the muscles gain from breaking it down. The benefit is that it prevents
 dangerous lactate accumulation in the blood and recycles carbon skeletons.
@@ -2121,7 +2120,6 @@ The products of one process are the reactants of the other. This is a cyclical r
 - 8 NADH (2 link reaction + 6 Krebs) $\times$ 2.5 = 20 ATP
 - 2 $\mathrm{FADH_2}$ (Krebs cycle) $\times$ 1.5 = 3 ATP
 - **Total = 5 + 20 + 3 = 28 ATP**
-
 
 <aside class="starlight-aside starlight-aside--caution">
 at Complex II (bypassing Complex I). This means fewer protons are pumped per $\mathrm{FADH_2}$

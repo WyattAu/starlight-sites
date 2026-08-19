@@ -293,7 +293,6 @@ The client indicates which PSK modes it supports in the `psk_key_exchange_modes`
 Secrecy even for resumed sessions. If the PSK is compromised, past traffic remains secure because
 The (EC)DHE exchange was ephemeral.
 
-
 ## Cipher Suites Breakdown
 
 ### AEAD Ciphers
@@ -517,7 +516,6 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 <aside class="starlight-aside starlight-aside--caution">
 Alone or in combination with PSK. Static RSA key exchange is not available in TLS 1.3.
 
-
 ## Common Implementation Pitfalls
 
 ### BEAST (Browser Exploit Against SSL/TLS)
@@ -732,7 +730,7 @@ DELETE, financial transactions.
 
 ### Mozilla SSL Configuration Generator
 
-Mozilla provides a configuration generator (https://ssl-config.mozilla.org/) with three profiles:
+Mozilla provides a configuration generator (<https://ssl-config.mozilla.org/>) with three profiles:
 
 | Profile      | Clients Supported           | Cipher Suites                      |
 | ------------ | --------------------------- | ---------------------------------- |
@@ -897,7 +895,6 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

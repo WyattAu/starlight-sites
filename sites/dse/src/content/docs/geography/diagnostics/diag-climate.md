@@ -92,7 +92,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | The subtropical high-pressure belt around 30 degrees latitude drives trade winds toward the equator as part of the Hadley cell circulation. |
 | 2 | (B) | The summer monsoon brings warm, moist air from the Pacific, producing Hong Kong's wet season from May to September. |
 | 3 | (C) | Category 3 hurricanes (typhoons) on the Saffir-Simpson scale have sustained winds of 178-208 km/h, causing extensive damage. |

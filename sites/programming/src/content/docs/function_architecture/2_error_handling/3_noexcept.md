@@ -566,7 +566,6 @@ int main() {
 - [Exception Safety Guarantees](2_exception_safety.md)
 - [The Itanium Exception ABI](1_exception_abi.md)
 
-
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
@@ -589,4 +588,3 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

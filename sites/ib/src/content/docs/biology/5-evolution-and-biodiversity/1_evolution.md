@@ -1022,7 +1022,7 @@ same region, construct the most parsimonious phylogenetic tree and identify the 
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Genetics and inheritance** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
 - **Molecular biology and DNA** --> Review
@@ -1465,14 +1465,14 @@ or Post-zygotic and providing a specific example for each type.
 
 **Post-zygotic barriers** (reduce fitness of hybrid offspring):
 
-6. **Hybrid inviability**: the zygote does not develop properly or the offspring die early. Example:
+1. **Hybrid inviability**: the zygote does not develop properly or the offspring die early. Example:
    developmental abnormalities in hybrid embryos due to incompatible gene regulatory networks.
 
-7. **Hybrid sterility**: hybrids survive but are sterile. Example: mules (horse $\times$ donkey) are
+2. **Hybrid sterility**: hybrids survive but are sterile. Example: mules (horse $\times$ donkey) are
    viable but sterile because chromosomes cannot pair properly during meiosis. In salamanders,
    triploid hybrids would be sterile.
 
-8. **Hybrid breakdown**: first-generation hybrids are viable and fertile, but subsequent generations
+3. **Hybrid breakdown**: first-generation hybrids are viable and fertile, but subsequent generations
    show reduced fitness. Example: F2 hybrids have lower survival or fertility than F1 hybrids.
 
 The mountain range could initially cause **allopatric speciation** by creating geographic isolation.
@@ -1697,11 +1697,11 @@ Timescales of evolutionary analysis:
 - DNA repair efficiency.
 - Functional constraints (conserved genes evolve more slowly than non-functional sequences).
 
-2. **Neutral theory**: the clock works best for neutral mutations (not subject to natural
+1. **Neutral theory**: the clock works best for neutral mutations (not subject to natural
    selection). Positively selected sites evolve faster (adaptive evolution); negatively selected
    (purifying selection) sites evolve more slowly.
 
-3. **Saturation**: at large evolutionary distances, multiple substitutions at the same site can
+2. **Saturation**: at large evolutionary distances, multiple substitutions at the same site can
    obscure the true number of changes (multiple hits). This leads to underestimation of divergence.
 
 ### Phylogenetic Tree Construction Methods

@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Reaction kinetics is like watching a race — some reactions sprint to completion, while others stroll leisurely.**
@@ -496,8 +495,6 @@ The first mechanism is correct.
 **Confusing the order of reaction with the stoichiometric coefficient:** The order of a reactant in the rate equation does not necessarily match its coefficient in the balanced equation. A reactant with coefficient 2 might be first order, zero order, or second order — the answer varies based on on the mechanism. The order only matches the coefficient if that reactant appears in the rate-determining step.
 
 **Forgetting to include units for the rate constant:** The units of $k$ depend on the overall order of reaction. For a first-order reaction, $k$ has units s$^{-1}$. For second order overall, $k$ has units mol$^{-1}$ dm$^3$ s$^{-1}$. For third order, mol$^{-2}$ dm$^6$ s$^{-1}$. Always work out the units from the rate equation.
-
-
 
 ## Cross-References
 

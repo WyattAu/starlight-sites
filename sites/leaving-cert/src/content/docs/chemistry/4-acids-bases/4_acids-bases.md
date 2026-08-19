@@ -230,24 +230,24 @@ $$
 \mathrm{Zn + \mathrm{H_2\mathrm{SO_4 \to \mathrm{ZnSO_4 + \mathrm{H_2
 $$
 
-2. **Acid + Base (neutralisation):**
+1. **Acid + Base (neutralisation):**
 
 $$
 \mathrm{HCl + \mathrm{NaOH \to \mathrm{NaCl + \mathrm{H_2\mathrm{O
 $$
 
-3. **Acid + Carbonate:**
+1. **Acid + Carbonate:**
 
 $$
 \mathrm{HCl + \mathrm{CaCO_3 \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
 $$
 
-4. **Acid + Insoluble Base (titration method):**
+1. **Acid + Insoluble Base (titration method):**
 
 Add the acid to the insoluble base (e.g., $\mathrm{CuO$) until no more dissolves. Filter and
 Evaporate.
 
-5. **Precipitation (mixing two solutions):**
+1. **Precipitation (mixing two solutions):**
 
 $$
 \mathrm{AgNO_3 + \mathrm{NaCl \to \mathrm{AgCl + \mathrm{NaNO_3
@@ -538,24 +538,24 @@ $$\mathrm{pOH = 5.28, \quad \mathrm{pH = 8.72$$
 
 ## Practice Questions (Extended)
 
-5. Write the balanced equation for the reaction between $\mathrm{HNO_3$ and $\mathrm{KOH$.
-6. Describe how to prepare a sample of $\mathrm{ZnSO_4$ crystals from zinc and dilute sulfuric acid.
-7. Calculate the pH of a $0.25 \mathrm{ M$ solution of $\mathrm{CH_3\mathrm{COOH$
+1. Write the balanced equation for the reaction between $\mathrm{HNO_3$ and $\mathrm{KOH$.
+2. Describe how to prepare a sample of $\mathrm{ZnSO_4$ crystals from zinc and dilute sulfuric acid.
+3. Calculate the pH of a $0.25 \mathrm{ M$ solution of $\mathrm{CH_3\mathrm{COOH$
    ($K_a = 1.8 \times 10^{-5}$) and the percentage dissociation.
-8. A buffer contains $0.15 \mathrm{ M$ $\mathrm{HCOOH$ ($pK_a = 3.75$) and $0.20 \mathrm{ M$
+4. A buffer contains $0.15 \mathrm{ M$ $\mathrm{HCOOH$ ($pK_a = 3.75$) and $0.20 \mathrm{ M$
    $\mathrm{HCOONa$. Calculate the pH and the pH after adding $0.01 \mathrm{ mol$ of $\mathrm{NaOH$
    to $1 \mathrm{ L$ of the buffer.
-9. Explain why $\mathrm{Na_2\mathrm{CO_3$ solution is alkaline.
-10. Sketch the pH titration curve for $25 \mathrm{ mL$ of $0.10 \mathrm{ M$ $\mathrm{NH_3$ titrated
+5. Explain why $\mathrm{Na_2\mathrm{CO_3$ solution is alkaline.
+6. Sketch the pH titration curve for $25 \mathrm{ mL$ of $0.10 \mathrm{ M$ $\mathrm{NH_3$ titrated
     with $0.10 \mathrm{ M$ $\mathrm{HCl$. Label the equivalence point, buffer region, and the
     half-equivalence point.
-11. Calculate $K_a$ for a $0.050 \mathrm{ M$ weak acid solution with pH 2.80.
-12. Explain the difference between the Arrhenius, Bronsted-Lowry, and Lewis definitions of acids and
+7. Calculate $K_a$ for a $0.050 \mathrm{ M$ weak acid solution with pH 2.80.
+8. Explain the difference between the Arrhenius, Bronsted-Lowry, and Lewis definitions of acids and
     bases, giving an example of a reaction that illustrates each definition.
-13. A student prepares a buffer by mixing $100 \mathrm{ mL$ of $0.20 \mathrm{ M$
+9. A student prepares a buffer by mixing $100 \mathrm{ mL$ of $0.20 \mathrm{ M$
     $\mathrm{CH_3\mathrm{COOH$ with $50 \mathrm{ mL$ of $0.20 \mathrm{ M$ $\mathrm{NaOH$. Calculate
     the pH of the resulting buffer.
-14. Describe the method of salt preparation by precipitation, giving an example.
+10. Describe the method of salt preparation by precipitation, giving an example.
 
 ---
 
@@ -747,19 +747,19 @@ Partially dissociated.
 
 ## Practice Questions (Further Extended)
 
-15. Define acid and base using the Arrhenius definition.
-16. Find the pH of a $0.001 \mathrm{ M$ solution of $\mathrm{NaOH$.
-17. Explain why $\mathrm{NH_4\mathrm{Cl$ solution has a pH less than 7.
-18. Calculate the mass of $\mathrm{AgNO_3$ required to prepare $250 \mathrm{ mL$ of
+1. Define acid and base using the Arrhenius definition.
+2. Find the pH of a $0.001 \mathrm{ M$ solution of $\mathrm{NaOH$.
+3. Explain why $\mathrm{NH_4\mathrm{Cl$ solution has a pH less than 7.
+4. Calculate the mass of $\mathrm{AgNO_3$ required to prepare $250 \mathrm{ mL$ of
     $0.10 \mathrm{ M$ solution.
-19. Describe how you would prepare a pure, dry sample of lead(II) sulfate.
-20. Explain why $\mathrm{HCl$ is a strong acid but $\mathrm{HF$ is a weak acid, despite fluorine
+5. Describe how you would prepare a pure, dry sample of lead(II) sulfate.
+6. Explain why $\mathrm{HCl$ is a strong acid but $\mathrm{HF$ is a weak acid, despite fluorine
     being more electronegative than chlorine.
-21. Calculate the pH at the half-equivalence point when $25 \mathrm{ mL$ of $0.10 \mathrm{ M$
+7. Calculate the pH at the half-equivalence point when $25 \mathrm{ mL$ of $0.10 \mathrm{ M$
     $\mathrm{CH_3\mathrm{COOH$ is titrated with $\mathrm{NaOH$.
-22. A solution of $\mathrm{H_2\mathrm{SO_4$ has pH 1.30. Calculate the concentration of the acid,
+8. A solution of $\mathrm{H_2\mathrm{SO_4$ has pH 1.30. Calculate the concentration of the acid,
     assuming the first proton dissociates completely and the second is negligible.
-23. Explain, with equations, how a buffer containing $\mathrm{CH_3\mathrm{COOH$ and
+9. Explain, with equations, how a buffer containing $\mathrm{CH_3\mathrm{COOH$ and
     $\mathrm{CH_3\mathrm{COONa$ resists pH change when (a) a small amount of $\mathrm{HCl$ is added,
     and (b) a small amount of $\mathrm{NaOH$ is added.
 

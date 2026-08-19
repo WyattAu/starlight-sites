@@ -127,7 +127,7 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 ### Topic-Specific Recommendations
 
 | Topic | Best Book | Best Online Resource |
-|-------|-----------|---------------------|
+| ------- | ----------- | --------------------- |
 | Relational theory | Date: _SQL and Relational Theory_ | Stanford DB course (Widom/Ullman) |
 | Query optimisation | Garcia-Molina _et al._: Ch. 15-16 | CMU 15-721 lecture notes |
 | Transaction processing | Weikum & Vossen | MIT 6.830 notes |

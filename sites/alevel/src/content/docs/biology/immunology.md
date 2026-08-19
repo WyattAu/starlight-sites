@@ -23,6 +23,7 @@ categories:
 ## Immunology
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Overview of the Immune System
 
 ### 1.1 Types of Immunity
@@ -1218,7 +1219,7 @@ Type I hypersensitivity involves IgE antibodies and mast cells:
 - **Heparin**: anticoagulant.
 - **Proteases**: tissue damage.
 
-4. **Symptoms**: range from mild (hay fever: sneezing, itchy eyes, runny nose) to severe
+1. **Symptoms**: range from mild (hay fever: sneezing, itchy eyes, runny nose) to severe
    (anaphylaxis: life-threatening swelling of the airway, drop in blood pressure, cardiovascular
    collapse).
 
@@ -2309,6 +2310,7 @@ inactive form.
 </script>
 
 > **Tip:** Diagnostic Test
+>
 ## Common Pitfalls
 
 1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
@@ -2320,7 +2322,6 @@ inactive form.
 3. Confusing correlation with causation when evaluating experimental data and drawing conclusions.
 
 4. Forgetting to include control variables in experimental design, leading to invalid conclusions.
-
 
 ## Intuition
 
@@ -2336,7 +2337,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

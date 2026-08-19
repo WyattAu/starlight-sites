@@ -152,6 +152,7 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
 ## Intuition
 
 Java is the language of "write once, run anywhere." It compiles to bytecode that runs on the JVM, providing platform independence. Everything is an object (except primitives), and inheritance is the primary code reuse mechanism. The JVM handles memory management through garbage collection, so you do not free memory manually. Java's strength is its mature ecosystem: millions of libraries, frameworks (Spring, Hibernate), and tools. The language evolves steadily, adding records, sealed classes, and pattern matching while maintaining backward compatibility.

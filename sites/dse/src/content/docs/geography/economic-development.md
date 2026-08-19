@@ -91,6 +91,7 @@ production occur in different countries, each selected for specific advantages:
 - **Marketing and distribution:** Centred in consumer markets or major financial centres.
 
 This fragmentation of production is driven by:
+
 - Reduction of trade barriers through World Trade Organisation (WTO) agreements and free trade
   agreements
 - Improvements in information and communication technology enabling coordination across distances

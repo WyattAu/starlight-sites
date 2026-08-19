@@ -298,7 +298,6 @@ $\blacksquare$
 }
 </script>
 
-
 ### Intuition
 
 A vector space is any collection of objects that can be added together and scaled by numbers in the same way that arrows in space can. The power of the abstraction is that it applies far beyond geometry. Polynomials behave like vectors: you can add two polynomials and multiply one by a scalar. Functions behave like vectors: you can add two functions pointwise and multiply one by a constant. Even sequences of numbers form vector spaces. The axioms are directly the rules that make "linear combinations" meaningful -- they guarantee that scaling and adding behave the way your geometric intuition expects.

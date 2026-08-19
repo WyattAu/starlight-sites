@@ -587,7 +587,6 @@ int main() {
 - [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction.md)
 - [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation.md)
 
-
 ## Summary
 
 This topic covers the core concepts of parameter packs and variadic templates, including underlying
@@ -608,4 +607,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

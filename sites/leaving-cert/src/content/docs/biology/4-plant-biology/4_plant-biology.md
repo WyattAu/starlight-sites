@@ -362,12 +362,12 @@ Develops if fertilisation has occurred, avoiding waste of resources.
 - Proteins $\to$ amino acids
 - Lipids $\to$ fatty acids + glycerol
 
-3. The soluble products are transported to the embryo.
-4. The radicle emerges first, growing downwards (positive geotropism) to anchor the plant and absorb
+1. The soluble products are transported to the embryo.
+2. The radicle emerges first, growing downwards (positive geotropism) to anchor the plant and absorb
    water.
-5. The plumule emerges, growing upwards (negative geotropism, positive phototropism) towards light.
-6. Photosynthesis begins once the plumule reaches light and the first leaves expand.
-7. The seedling becomes nutritionally independent once its own photosynthesis exceeds its reserves.
+3. The plumule emerges, growing upwards (negative geotropism, positive phototropism) towards light.
+4. Photosynthesis begins once the plumule reaches light and the first leaves expand.
+5. The seedling becomes nutritionally independent once its own photosynthesis exceeds its reserves.
 
 ### Asexual Reproduction (Vegetative Propagation) (HL)
 

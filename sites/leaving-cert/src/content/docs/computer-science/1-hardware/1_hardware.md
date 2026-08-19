@@ -63,11 +63,11 @@ write). The CIR/IR holds the **instruction** (what to do).
 - The PC is incremented to point to the next instruction.
 - The instruction is copied from the MDR to the IR.
 
-2. **Decode:**
+1. **Decode:**
 
 - The control unit decodes the instruction in the IR.
 
-3. **Execute:**
+1. **Execute:**
 
 - The instruction is executed (e.g., perform calculation, store result).
 
@@ -780,10 +780,10 @@ original 8 bytes).
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 
-
 ## Intuition
 
 Computer hardware follows the Von Neumann architecture like a factory follows an assembly line: instructions and data flow through the same channels, processed sequentially by the CPU. The memory hierarchy is a series of trade-offs: registers are fast but tiny, cache is faster than RAM but smaller, and secondary storage is vast but slow. The fetch-decode-execute cycle is the factory's heartbeat, and understanding it explains why some operations are fast (in cache) and others are slow (requiring disk access). The key is to think of hardware not as a black box but as a system of constrained resources competing for speed, space, and power.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

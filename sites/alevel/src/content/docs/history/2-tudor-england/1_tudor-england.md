@@ -292,8 +292,6 @@ through compromise. Key debates centre on whether the Reformation was popular or
 of Elizabeth's settlement, and the effectiveness of Tudor governance. Source analysis requires
 attention to religious bias, propaganda, and the political purposes behind all types of evidence.
 
-
-
 ## Cross-References
 
 - **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study

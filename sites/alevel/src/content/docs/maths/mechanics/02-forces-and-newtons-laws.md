@@ -138,6 +138,7 @@ $$F_{\max} = \mu R$$
 In A Level, we assume $\mu_s = \mu_k = \mu$.
 
 > **Caution:** Warning Maximum $\mu R$. Only use $F = \mu R$ when the body is sliding or about to slide.
+>
 ### 4.3 Angle of friction
 
 The angle of friction $\lambda$ satisfies $\tan\lambda = \mu$. This is the steepest angle at which a
@@ -252,6 +253,7 @@ $$F = \mu R$$
 The word "limiting" is the signal to set $F = \mu R$ rather than $F \lt \mu R$.
 
 > **Tip:** Tip Equilibrium" all mean the same thing: set $F = \mu R$.
+>
 ### 8.2 Friction on a horizontal surface -- full analysis
 
 A block of mass $m$ rests on a rough horizontal surface with coefficient of friction $\mu$. A force
@@ -1066,4 +1068,3 @@ linked above.
 - [Dynamics (Extended)](dynamics-depth.md) -- The extended dynamics treatment provides deeper analysis of connected particles, pulleys, and friction on inclined planes.
 - [Moments](03-moments.md) -- Moments extend Newton's laws to rotational equilibrium, complementing the translational equilibrium covered here.
 - [Energy and Work](04-energy-and-work.md) -- The work-energy principle provides an alternative formulation of Newton's second law in terms of energy.
-

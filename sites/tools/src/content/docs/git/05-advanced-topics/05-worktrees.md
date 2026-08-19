@@ -228,8 +228,8 @@ $ git worktree add ../repo-auth main
 A bare repository (no working directory) cannot have a main worktree. All worktrees are linked:
 
 ```bash
-$ git init --bare project.git
-$ git worktree add project-main main
+git init --bare project.git
+git worktree add project-main main
 ```
 
 ### Submodule Interaction

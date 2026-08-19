@@ -75,6 +75,7 @@ By definition, $\Delta H_f^\circ$ of any element in its standard state = 0.
 $$\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta H_f^\circ(\mathrm{H}_{2(g)}) = 0$$
 
 > **Caution:** Warning Involves formation FROM elements, not the other way around.
+>
 ### Standard Enthalpy of Combustion ($\Delta H_c^\circ$)
 
 The enthalpy change when 1 mole of a substance is completely burned in excess oxygen under standard

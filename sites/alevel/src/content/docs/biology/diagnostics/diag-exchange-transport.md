@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**

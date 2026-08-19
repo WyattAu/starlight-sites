@@ -171,7 +171,7 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 ### 14.9 Summary of Key Formulas
 
 | Quantity | Expression |
-|----------|-----------|
+| ---------- | ----------- |
 | Microcanonical partition function | $\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} d^{3N}q\,d^{3N}p / (N! h^{3N})$ |
 | Boltzmann entropy | $S = k_B \ln \Omega$ |
 | Temperature | $1/T = \partial S/\partial E$ |
@@ -199,7 +199,6 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: The canonical ensemble is the fixed-temperature counterpart to the microcanonical ensemble, with equivalent predictions in the thermodynamic limit.
 - **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The microcanonical entropy $S = k_B \ln \Omega$ provides the microscopic foundation for the second law of thermodynamics.
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

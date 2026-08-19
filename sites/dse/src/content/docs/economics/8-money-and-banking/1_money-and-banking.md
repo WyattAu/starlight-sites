@@ -626,8 +626,8 @@ The process by which monetary policy affects the economy:
 - **Asset prices:** Higher rates reduce asset prices (bonds, stocks, property)
 - **Expectations:** Policy signals affect consumer and business confidence
 
-4. These changes affect aggregate demand (AD)
-5. Changes in AD affect output, employment, and ultimately inflation
+1. These changes affect aggregate demand (AD)
+2. Changes in AD affect output, employment, and ultimately inflation
 
 ---
 
@@ -708,31 +708,31 @@ Per bank.
 
 If rrr = 0.2, then $m = 5$Not 0.2.
 
-2. **Stating that banks create money by printing notes:** Banks create money through LENDING, not by
+1. **Stating that banks create money by printing notes:** Banks create money through LENDING, not by
    printing currency. When a bank makes a loan, it creates a new deposit in the borrower's account.
    This new deposit is new money.
 
-3. **Confusing M1 and M2:** M1 is narrow money (cash + demand deposits only). M2 is broad money
+2. **Confusing M1 and M2:** M1 is narrow money (cash + demand deposits only). M2 is broad money
    (M1 + savings + time deposits). M2 is always larger than M1.
 
-4. **Forgetting the assumptions of the money multiplier:** The theoretical maximum money multiplier
+3. **Forgetting the assumptions of the money multiplier:** The theoretical maximum money multiplier
    assumes no cash leakages, no excess reserves, and willing borrowers. In practice, the actual
    money created is less than the theoretical maximum.
 
-5. **Confusing expansionary and contractionary open market operations:** When the central bank BUYS
+4. **Confusing expansionary and contractionary open market operations:** When the central bank BUYS
    bonds, it is expansionary (increases money supply). When it SELLS bonds, it is contractionary
    (decreases money supply). Think: buying puts money INTO the banking system; selling takes money
    OUT.
 
-6. **Stating that Hong Kong has an independent monetary policy:** Under the Linked Exchange Rate
+5. **Stating that Hong Kong has an independent monetary policy:** Under the Linked Exchange Rate
    System, Hong Kong's monetary policy is tied to that of the United States. The HKMA cannot
    independently set interest rates.
 
-7. **Confusing real and nominal interest rates:** The nominal rate is what is stated; the real rate
+6. **Confusing real and nominal interest rates:** The nominal rate is what is stated; the real rate
    adjusts for inflation. A 10% nominal rate with 8% inflation gives only a 2% real rate. Always use
    real rates for economic decision-making.
 
-8. **Thinking the reserve ratio is the same as the cash ratio:** The reserve ratio is set by the
+7. **Thinking the reserve ratio is the same as the cash ratio:** The reserve ratio is set by the
    central bank (required reserves). The cash ratio (currency ratio) is the proportion of deposits
    the public holds as cash rather than in bank accounts. Both affect the money multiplier, but they
    are different concepts.

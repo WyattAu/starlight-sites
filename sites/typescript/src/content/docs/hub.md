@@ -161,7 +161,7 @@ These patterns enable sophisticated type-level programming. They are essential f
 
 **Mapped types** — `{ [K in keyof T]: NewType }` iterates over the keys of T and transforms each property. This is how Partial, Required, and Readonly are implemented. Mapped types enable type-level iteration.
 
-**Template literal types** — TypeScript can manipulate strings at the type level. `type EventName = `${"click" | "hover"}_${"start" | "end"}`` produces a union of four string literal types. Template literal types enable type-safe event systems and API routes.
+**Template literal types** — TypeScript can manipulate strings at the type level. `type EventName =`${"click" | "hover"}_${"start" | "end"}`` produces a union of four string literal types. Template literal types enable type-safe event systems and API routes.
 
 **Branded types** — TypeScript's structural type system treats all objects with the same shape as compatible. Branded types add a phantom property to distinguish types: `type UserId = string & { readonly __brand: unique symbol }`. This prevents mixing UserId with other strings.
 

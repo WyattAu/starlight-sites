@@ -54,7 +54,6 @@ pitfalls, and exam-style problems.
 
 **The key insight:** Chemistry bridges physics and biology, explaining the molecular basis of phenomena from drug action to material properties
 
-
 ## Core Topics
 
 ### Atomic Structure and Periodicity
@@ -176,6 +175,7 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
 ## Cross-References
 
 - [Biology](../../../../../gcse/src/content/docs/biology)

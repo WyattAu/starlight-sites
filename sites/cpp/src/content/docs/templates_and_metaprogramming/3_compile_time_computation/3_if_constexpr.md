@@ -607,7 +607,6 @@ key: "key'', value: "value'
 - [Fold Expressions and Pack Expansion](./2_fold_expressions.md)
 - [Type Traits and Static Reflection Patterns](./4_type_traits.md)
 
-
 ## Common Pitfalls
 
 1. Losing marks by not showing sufficient working. Always write out each step, especially in proof
@@ -636,4 +635,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

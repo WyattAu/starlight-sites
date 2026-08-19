@@ -760,7 +760,6 @@ Then B," you must undo B first, then undo A.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -134,7 +134,7 @@ The final column is all $T$Confirming the tautology.
 
 **Natural deduction** is a .../1-number-and-algebra/3*proof-and-logic system that mirrors ordinary
 mathematical reasoning. Each connective Has **introduction rules** (how to \_derive* a formula with
-that connective) and **elimination rules** (how to _use_ a formula with that connective).
+that connective) and **elimination rules** (how to *use* a formula with that connective).
 
 **Rules of inference:**
 
@@ -333,7 +333,6 @@ AI planning. Modern solvers routinely handle instances with millions of variable
 <aside class="starlight-aside starlight-aside--caution">
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
-
 
 </aside>
 ## Intuition

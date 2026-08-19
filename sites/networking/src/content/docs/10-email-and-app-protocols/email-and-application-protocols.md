@@ -766,7 +766,7 @@ Shared secret without transmitting it. The server presents its host key (RSA, EC
 Prove its identity. The client verifies the host key against a known-hosts file
 (`~/.ssh/known_hosts`). On first connection, the user is prompted to accept and store the host
 Fingerprint. The key exchange produces session encryption keys and MAC keys. SSH supports key
-Exchange algorithms with "curve25519-sha256@libssh.org" and "sntrup761x25519-sha512@openssh.com"
+Exchange algorithms with "<curve25519-sha256@libssh.org>" and "<sntrup761x25519-sha512@openssh.com>"
 (post-quantum hybrid) as modern choices.
 
 **Authentication**

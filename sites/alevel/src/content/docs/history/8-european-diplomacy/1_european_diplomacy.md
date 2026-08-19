@@ -182,6 +182,7 @@ Think of European diplomacy 1871-1914 as a game of Jenga. Bismarck carefully bal
 ## Worked Examples
 
 ### Essay Plan — "The alliance system was the most significant cause of the First World War."
+
 How far do you agree?
 
 **Introduction**: The alliance system created the framework for a regional crisis to become a
@@ -214,8 +215,6 @@ division into the Triple Alliance and Triple Entente. The assassination of Franz
 triggered a crisis that the alliance system, combined with miscalculation and rigid military
 planning, transformed into general war within a week. Key historiographical debates concern war
 guilt attribution and whether war was structurally inevitable or contingent on specific decisions.
-
-
 
 ## Cross-References
 

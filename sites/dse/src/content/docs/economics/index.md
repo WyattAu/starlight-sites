@@ -97,7 +97,6 @@ Each topic page contains:
 - **Data-response practice** problems in `<details>` format for self-testing
 - **Real-world Hong Kong examples** connecting theory to the local economy
 
-
   recommendations
   cost, PPC, economic systems
   surplus, price controls
@@ -168,6 +167,7 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
 ## Cross-References
 
 - [Biology](../../../../../gcse/src/content/docs/biology)

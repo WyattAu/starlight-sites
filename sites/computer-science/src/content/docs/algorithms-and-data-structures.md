@@ -2315,5 +2315,4 @@ The fundamental insight behind data structure design is that the right represent
 
 Algorithm design paradigms — divide-and-conquer, greedy, dynamic programming — are strategies for breaking hard problems into manageable pieces. Divide-and-conquer works when a problem can be split into independent subproblems (merge sort, binary search). Greedy works when making the locally optimal choice leads to the globally optimal solution (Huffman coding, activity selection). Dynamic programming works when a problem has optimal substructure and overlapping subproblems — when the optimal solution to a large problem contains optimal solutions to smaller subproblems, and those smaller subproblems are reused (shortest paths, sequence alignment, knapsack). Recognising which paradigm applies to a new problem is the core skill of algorithm design.
 
-
 </aside>

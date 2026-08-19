@@ -23,6 +23,7 @@ categories:
 ## 1. What is an Operating System?
 
 > **Info:** Board-specific AQA Paper 1 | Edexcel P1 | OCR (A) Paper 1 | CIE Paper 1
+>
 ### Definition
 
 **Definition.** An **operating system** (OS) is a system software that manages hardware resources,
@@ -626,6 +627,7 @@ Steps taken by the OS:
 6. The OS updates the page table entry for the new page (sets the frame number and present bit)
 7. The OS invalidates any TLB entry for the faulting page
 8. The faulting instruction is restarted, and this time the translation succeeds
+
 </details>
 
 **Problem 8.** Compare and contrast the three file allocation methods: contiguous, linked, and
@@ -661,6 +663,7 @@ Consider access speed, fragmentation, and the ability to grow files.
 - No external fragmentation of data blocks; supports file growth (within index limits)
 - Index block overhead; multi-level indexing needed for very large files
 - Best for: general-purpose file systems (used by UNIX, ext4, NTFS)
+
 </details>
 
 **Problem 9.** Explain how DMA improves system performance compared to programmed I/O (where the CPU
@@ -716,13 +719,12 @@ When a user process calls `open("report.pdf", WRITE)`:
 - If no group entry matches, the OS checks the "others" entry
 - If no entry grants the requested permission, access is denied and an error is returned
 
-4. If access is granted, the OS creates an open file descriptor for the process and returns it
+1. If access is granted, the OS creates an open file descriptor for the process and returns it
 
 This mechanism allows fine-grained control: different users can have different levels of access to
 The same file, and the owner can modify the ACL to add or revoke permissions at any time.
 
 </details>
-
 
 ## Common Pitfalls
 
@@ -736,7 +738,6 @@ The same file, and the owner can modify the ACL to add or revoke permissions at 
    sorted input.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
-
 
 ## Intuition
 
@@ -752,8 +753,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

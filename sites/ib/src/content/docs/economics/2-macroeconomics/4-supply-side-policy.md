@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Supply-side reforms can boost long-term growth but often take years to show results and may increase inequality
 
-
 ## Aggregate Demand and Aggregate Supply
 
 ### Aggregate Demand (AD)
@@ -1484,7 +1483,7 @@ The output loss from unemployment exceeds the proportional increase in unemploym
    unemployment rate even as output falls
 3. **Productivity procyclicality:** labour productivity rises during booms (high-capacity
    utilisation, capital deepening) and falls during recessions
-4. ** labour force growth:** the labour force continues to grow during recessions, increasing the
+4. **labour force growth:** the labour force continues to grow during recessions, increasing the
    gap between actual and potential output
 
 ### Numerical Example: Output Gap Estimation

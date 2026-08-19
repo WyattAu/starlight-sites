@@ -719,8 +719,8 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
   cycles and bus bandwidth. Use `__builtin_ia32_pause()` on x86, `yield()` on ARM, or
   `std::this_thread::yield()` to reduce contention.
 
-
 ## See Also
+
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -743,4 +743,3 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               | —      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
-

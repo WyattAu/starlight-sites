@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
@@ -522,8 +521,6 @@ rate of elimination increases more than the rate of substitution as temperature 
 **Forgetting that tertiary alcohols cannot be oxidised:** Oxidation of an alcohol requires a hydrogen atom on the carbon bearing the OH group. Tertiary alcohols have no such hydrogen, so they resist oxidation by acidified potassium dichromate. Students often assume all alcohols give a positive result with this test.
 
 **Mixing up SN1 and SN2 mechanisms:** SN1 proceeds via a carbocation intermediate (unimolecular, rate depends only on substrate concentration, racemisation, favoured by tertiary substrates and polar protic solvents). SN2 is a single-step backside attack (bimolecular, rate depends on both substrate and nucleophile, inversion of configuration, favoured by primary substrates and polar aprotic solvents). Getting the conditions wrong leads to incorrect predictions.
-
-
 
 ## Cross-References
 

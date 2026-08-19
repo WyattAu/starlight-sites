@@ -847,7 +847,7 @@ When working with imo preparation, follow a structured approach:
 | Topic                             | Site        | Link                                                      |
 | --------------------------------- | ----------- | --------------------------------------------------------- |
 | IMO Official Problems & Solutions | IMO         | [View](https://www.imo-official.org/problems.aspx)        |
-| AoPS IMO Forum                    | AoPS        | [View](https://artofproblemsolving.com/community/c6h IMO) |
+| AoPS IMO Forum                    | AoPS        | [View](<https://artofproblemsolving.com/community/c6h> IMO) |
 | BMO Preparation                   | WyattsNotes | [View](bmo-preparation)       |
 | STEP Preparation                  | WyattsNotes | [View](step-preparation)      |
 | Abstract Algebra                  | WyattsNotes | [View](../../../../mathematics/src/content/docs/abstract-algebra)     |

@@ -842,7 +842,7 @@ You do not need a senior title to demonstrate senior-level skills. Evidence incl
 - **Identifying and fixing systemic issues** (e.g., "every deploy breaks staging because...")
 - **Mentoring teammates** through code reviews and pair programming.
 - **Improving team processes** (e.g., setting up CI, writing runbooks, creating onboarding docs).
-- **Communicating trade-offs ** in discussions with product and management.
+- **Communicating trade-offs** in discussions with product and management.
 
 ## Interview Preparation Deep Dive
 

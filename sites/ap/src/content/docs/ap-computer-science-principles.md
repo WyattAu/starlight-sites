@@ -11,6 +11,7 @@ description: Comprehensive guide to AP Computer Science Principles covering comp
 AP Computer Science Principles introduces students to the foundational concepts of computer science and computational thinking. The course emphasizes creativity, collaboration, and problem-solving.
 
 ### Exam Format
+
 - **Duration**: 2 hours 45 minutes
 - **Sections**:
   - Section I: 74 multiple-choice questions (1 hour 30 minutes)
@@ -20,7 +21,7 @@ AP Computer Science Principles introduces students to the foundational concepts 
 ### Big Ideas
 
 | Big Idea | Weight | Description |
-|----------|--------|-------------|
+| ---------- | -------- | ------------- |
 | Creative Development | 10-15% | Collaboration, program design, abstraction |
 | Data | 15-20% | Binary data, data compression, using data |
 | Algorithms | 20-25% | Algorithm development, efficiency, correctness |
@@ -62,6 +63,7 @@ print(binary_to_decimal("101010"))  # 42
 ### Data Compression
 
 #### Lossless Compression
+
 - **Run-Length Encoding (RLE)**: Replace consecutive identical values with count
 - **Huffman Coding**: Variable-length codes based on frequency
 
@@ -84,6 +86,7 @@ print(rle_compress(data))  # [('A', 3), ('B', 3), ('C', 2), ('D', 5)]
 ```
 
 #### Lossy Compression
+
 - **JPEG**: Image compression using DCT
 - **MP3**: Audio compression using psychoacoustic models
 - **Video compression**: Frame differencing, motion estimation
@@ -95,6 +98,7 @@ print(rle_compress(data))  # [('A', 3), ('B', 3), ('C', 2), ('D', 5)]
 ### Internet Protocols
 
 #### TCP/IP Model
+
 ```
 Layer 4: Application (HTTP, FTP, SMTP, DNS)
 Layer 3: Transport (TCP, UDP)
@@ -103,6 +107,7 @@ Layer 1: Network Access (Ethernet, Wi-Fi)
 ```
 
 #### HTTP Request/Response
+
 ```
 GET /index.html HTTP/1.1
 Host: www.example.com
@@ -121,6 +126,7 @@ Content-Length: 1234
 ### Cybersecurity
 
 #### Common Threats
+
 1. **Malware**: Viruses, worms, trojans, ransomware
 2. **Phishing**: Fake emails/sites to steal credentials
 3. **DDoS**: Overwhelm servers with traffic
@@ -128,6 +134,7 @@ Content-Length: 1234
 5. **XSS**: Inject malicious scripts into web pages
 
 #### Security Measures
+
 1. **Encryption**: SSL/TLS, AES, RSA
 2. **Authentication**: Passwords, biometrics, 2FA
 3. **Authorization**: Access control, permissions
@@ -243,6 +250,7 @@ def sum_list(numbers):
 ### Algorithm Efficiency
 
 #### Time Complexity
+
 ```python
 # O(1) - Constant Time
 def get_first(items):
@@ -267,6 +275,7 @@ def bubble_sort(items):
 ```
 
 #### Space Complexity
+
 - **O(1)**: Fixed extra space
 - **O(n)**: Space proportional to input
 - **O(n²)**: Space for 2D structures
@@ -278,11 +287,13 @@ def bubble_sort(items):
 ### Big Data
 
 #### 3 V's of Big Data
+
 1. **Volume**: Large amounts of data (terabytes, petabytes)
 2. **Velocity**: Fast generation and processing
 3. **Variety**: Different formats (structured, unstructured)
 
 #### Data Processing
+
 ```python
 # Data Analysis with Python
 import pandas as pd
@@ -303,11 +314,13 @@ average_by_group = df.groupby("group")["score"].mean()
 ### Machine Learning
 
 #### Types of Learning
+
 1. **Supervised Learning**: Labeled training data
 2. **Unsupervised Learning**: Find patterns in unlabeled data
 3. **Reinforcement Learning**: Learn from rewards/punishments
 
 #### Simple Example
+
 ```python
 # Linear Regression (simplified)
 def predict(x, slope, intercept):
@@ -337,6 +350,7 @@ print(f"Slope: {slope:.2f}, Intercept: {intercept:.2f}")
 ## Impact of Computing
 
 ### Beneficial Effects
+
 - **Communication**: Email, social media, video calls
 - **Education**: Online learning, educational apps
 - **Healthcare**: Medical records, telemedicine
@@ -344,6 +358,7 @@ print(f"Slope: {slope:.2f}, Intercept: {intercept:.2f}")
 - **Entertainment**: Streaming, gaming, virtual reality
 
 ### Harmful Effects
+
 - **Privacy**: Data collection, surveillance
 - **Security**: Hacking, identity theft
 - **Employment**: Automation, job displacement
@@ -351,6 +366,7 @@ print(f"Slope: {slope:.2f}, Intercept: {intercept:.2f}")
 - **Environment**: E-waste, energy consumption
 
 ### Digital Divide
+
 - **Access**: Not everyone has internet or devices
 - **Skills**: Not everyone knows how to use technology
 - **Affordability**: Technology can be expensive
@@ -361,12 +377,14 @@ print(f"Slope: {slope:.2f}, Intercept: {intercept:.2f}")
 ## Performance Task
 
 ### Requirements
+
 1. **Program Design**: Document your program's purpose and design
 2. **Development Process**: Show iterative development
 3. **Program Functionality**: Program must be complete and functional
 4. **Video**: 1-minute video demonstrating your program
 
 ### Tips for Success
+
 1. **Choose a meaningful project** - Solve a real problem
 2. **Document your process** - Show iterations and improvements
 3. **Test thoroughly** - Demonstrate all functionality
@@ -394,6 +412,7 @@ A) O(n)  B) O(log n)  C) O(n²)  D) O(1)
 **Answer**: B) O(log n)
 
 ### Study Strategies
+
 1. **Understand concepts** - Don't just memorize
 2. **Practice coding** - Build real programs
 3. **Review big ideas** - Focus on major themes

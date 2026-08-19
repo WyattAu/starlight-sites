@@ -243,6 +243,7 @@ tableOfContents: false
 **Sign errors in trigonometry:** The CAST diagram (All, Sin, Tan, Cos) determines which quadrants give positive values. Forgetting the sign in specific quadrants leads to wrong angle solutions. Always check the quadrant before finalising an answer.
 
 **Misapplying the cosine rule:** The cosine rule $c^2 = a^2 + b^2 - 2ab\cos C$ requires the angle to be between sides $a$ and $b$. Using the wrong angle gives incorrect side lengths. Identify the included angle before applying the rule.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for hsc notes.

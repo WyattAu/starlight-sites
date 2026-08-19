@@ -80,7 +80,6 @@ Key elements:
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
 And back to the session timezone on retrieval.
 
-
 ### ALTER TABLE
 
 ```sql
@@ -108,7 +107,6 @@ ALTER TABLE employees DROP CONSTRAINT chk_salary_range;
 To the table for the duration of the operation. On large tables, adding a column with a default
 Value or changing a column type can take hours. Use `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL`
 (which is metadata-only in PostgreSQL 11+) or pg_partman for zero-downtime migrations.
-
 
 ### DROP TABLE
 
@@ -184,7 +182,6 @@ WHERE e.emp_id = 42;
 <aside class="starlight-aside starlight-aside--caution">
 Same `WHERE` clause first to verify which rows will be affected. Consider wrapping destructive
 Updates in a transaction with a `SAVEPOINT` so you can roll back if the results are wrong.
-
 
 ### DELETE
 
@@ -284,7 +281,6 @@ WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 `NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
 is the single greatest source of SQL bugs.
 
-
 ### ORDER BY
 
 ```sql
@@ -315,7 +311,6 @@ LIMIT 20;
 Offsets (e.g., `OFFSET 100000`), this is slow because the database still processes 100,000 rows. Use
 Keyset pagination (also called seek pagination) instead:
 `WHERE id &gt; last_seen_id ORDER BY id LIMIT 20`.
-
 
 ## Joins
 
@@ -442,7 +437,6 @@ JOIN (
 WHERE e.salary > d.avg_salary;
 ```
 
-
 ### EXISTS and NOT EXISTS
 
 Tests whether a subquery returns any rows. The most efficient form of subquery.
@@ -483,7 +477,6 @@ WHERE department_id NOT IN (SELECT dept_id FROM departments);
 <aside class="starlight-aside starlight-aside--caution">
 Evaluates to `x != 1 AND x != 2 AND x != NULL`And `x != NULL` is `NULL` (not `TRUE`). Always use
 `NOT EXISTS` instead of `NOT IN` when the subquery might return NULL values.
-
 
 ### ANY and ALL
 
@@ -542,7 +535,6 @@ MAX(column)       -- maximum non-NULL value
 <aside class="starlight-aside starlight-aside--note">
 Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
 NULL means "unknown," not "zero."
-
 
 ### GROUP BY
 
@@ -681,7 +673,6 @@ FROM employees;
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
 All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
 
-
 ## Common Table Expressions (CTEs)
 
 CTEs (the `WITH` clause) create named temporary result sets that exist for the duration of a single
@@ -758,7 +749,6 @@ graph TD
 Or the process runs out of memory). Always include a depth counter or a visited set. MySQL limits
 Recursion depth to 100 by default (`cte_max_recursion_depth`). PostgreSQL has no recursion depth
 Limit, so an unbounded recursive CTE will run until it OOMs.
-
 
 ## CASE Expressions
 

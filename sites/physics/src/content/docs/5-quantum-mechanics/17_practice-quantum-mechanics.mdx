@@ -11,7 +11,6 @@ description: "UNIVERSITY Physics practice problems: Quantum Mechanics Practice (
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Reality at the smallest scale:** Quantum mechanics reveals that at the atomic scale, particles behave like waves, exist in superpositions of states, and can be entangled across space. It is counterintuitive but incredibly accurate — every electronic device depends on it.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Wave-Particle Duality
 
 <PracticeProblem client:only="solid-js" question={"An electron is accelerated through a potential difference of 100 V. What is its de Broglie wavelength? (m_e = 9.109 x 10^-31 kg, e = 1.602 x 10^-19 C, h = 6.626 x 10^-34 J·s)&quot; options={['1.23 Angstroms', '2.46 Angstroms', '0.62 Angstroms', '3.88 Angstroms']} correctAnswer={0} explanation=&quot;Kinetic energy: KE = eV = 1.602 x 10^-19 x 100 = 1.602 x 10^-17 J. Momentum: p = sqrt(2m_e·KE) = sqrt(2 x 9.109 x 10^-31 x 1.602 x 10^-17) = sqrt(2.918 x 10^-47) = 5.402 x 10^-24 kg·m/s. de Broglie wavelength: lambda = h/p = 6.626 x 10^-34 / 5.402 x 10^-24 = 1.227 x 10^-10 m = 1.23 Angstroms."} difficulty="medium"  />
@@ -37,7 +35,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"In the Davisson-Germer experiment, electrons accelerated through 54 V produce a peak in scattering intensity at an angle of 50 degrees. What crystal plane spacing d does this confirm? (lambda = h/sqrt(2m_e·eV) for the electron wavelength)&quot; options={['d = 0.91 Angstroms', 'd = 1.65 Angstroms', 'd = 0.45 Angstroms', 'd = 2.10 Angstroms']} correctAnswer={0} explanation=&quot;For V = 54 V: lambda = h/sqrt(2m_e*eV) = 6.626 x 10^-34 / sqrt(2 x 9.109 x 10^-31 x 1.602 x 10^-19 x 54) = 6.626 x 10^-34 / sqrt(1.569 x 10^-47) = 6.626 x 10^-34/3.961 x 10^-24 = 1.67 x 10^-10 m = 1.67 Angstroms. The Bragg condition: 2d*sin(phi) = n*lambda, where phi is the angle between the beam and the crystal planes (not the scattering angle). The scattering angle is 50 degrees, so phi = 90 - 50/2 = 65 degrees. For n = 1: d = lambda/(2*sin65) = 1.67/(2 x 0.906) = 0.92 Angstroms. This matches the known spacing of nickel crystal planes, confirming de Broglie\'s hypothesis that electrons behave as waves."} difficulty="hard"  />
 
 ---
-
 
 ### Schrodinger Equation and Quantum Operators
 
@@ -50,7 +47,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"If operators A and B do not commute, [A, B] = i*hbar, what is the commutator of the exponential operators e^(i*a*A/hbar) and e^(i*b*B/hbar) for numbers a, b?&quot; options={[ '[e^(i*a*A/hbar), e^(i*b*B/hbar)] = e^(i*a*A/hbar)·e^(i*b*B/hbar)·(e^(i*a*b/hbar) - 1)', '[e^(i*a*A/hbar), e^(i*b*B/hbar)] = i*hbar·a·b', '[e^(i*a*A/hbar), e^(i*b*B/hbar)] = 0', '[e^(i*a*A/hbar), e^(i*b*B/hbar)] = e^(i*(a*A + b*B)/hbar)', ]} correctAnswer={0} explanation=&quot;By the Baker-Campbell-Hausdorff formula for the Heisenberg algebra [A,B] = i*hbar: e^(aA)·e^(bB) = e^(bB)·e^(aA)·e^(-ab[A,B]) = e^(bB)·e^(aA)·e^(ab·i*hbar). For the exponential commutator: [e^(i*a*A/hbar), e^(i*b*B/hbar)] = e^(i*a*A/hbar)·e^(i*b*B/hbar) - e^(i*b*B/hbar)·e^(i*a*A/hbar) = e^(i*a*A/hbar)·e^(i*b*B/hbar)·(1 - e^(-i*a*b)) = e^(i*a*A/hbar)·e^(i*b*B/hbar)·(e^(i*a*b) - 1). This result underlies the Weyl form of the canonical commutation relations."} difficulty="hard"  />
 
 ---
-
 
 ### Angular Momentum and Quantum Statistics
 

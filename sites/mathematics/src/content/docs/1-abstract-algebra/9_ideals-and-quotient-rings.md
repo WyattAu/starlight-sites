@@ -139,7 +139,7 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 ### 9.6 Key Relationships
 
 | Concept | Ring | Condition | Quotient |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Prime ideal | Commutative $R$ | $ab \in I \Rightarrow a \in I$ or $b \in I$ | $R/I$ is an integral domain |
 | Maximal ideal | Commutative $R$ | No ideal strictly between $I$ and $R$ | $R/I$ is a field |
 | Kernel of hom. | Any ring $R$ | $\ker(\phi) = \phi^{-1}(0)$ | $R/\ker(\phi) \cong \operatorname{im}(\phi)$ |
@@ -156,7 +156,6 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 - **[Rings](8_rings.md)**: Rings provide the ambient structure in which ideals and quotient rings are defined.
 - **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: The kernel of a ring homomorphism is always an ideal, enabling the ring isomorphism theorem.
 - **[Field Theory](12_field-theory.md)**: Quotienting a polynomial ring by an irreducible ideal produces a field extension.
-
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

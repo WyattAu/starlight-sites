@@ -95,7 +95,7 @@ Encryption operates, what keys are used, and where keys are stored.
 | ---------------- | ------------------------------------------------------------------------------ | ------- | --------------------- | ------------------------------------------- |
 | `encryption`     | on, off, aes-256-gcm, aes-128-gcm, aes-256-ccm, chacha20-poly1305, aes-256-xts | off     | Dataset creation only | Encryption algorithm or on/off toggle       |
 | `keyformat`      | none, passphrase, hex, raw                                                     | none    | Dataset creation only | Format of the encryption key                |
-| `keylocation`    | prompt, file:///path, https://server/path                                      | prompt  | Dataset creation only | Where to read the encryption key from       |
+| `keylocation`    | prompt, file:///path, <https://server/path>                                      | prompt  | Dataset creation only | Where to read the encryption key from       |
 | `pbkdf2iters`    | Integer (iterations)                                                           | 350000  | Dataset creation only | PBKDF2 iterations for passphrase stretching |
 | `encryptionroot` | Read-only (dataset path)                                                       | -       | Inherited             | The root dataset that holds the master key  |
 | `keystatus`      | Read-only (available, unavailable, none)                                       | -       | Read-only             | Whether the encryption key is loaded        |
@@ -1215,7 +1215,7 @@ TrueNAS SCALE provides a graphical interface for creating and managing encrypted
 - **Key Location:** For passphrase, leave as `Prompt`. For hex/raw, provide the file path.
 - **PBKDF2 Iterations:** Leave at default (350000) or increase for stronger passphrases.
 
-4. Click **Save**.
+1. Click **Save**.
 
 ### Key Management in TrueNAS
 
@@ -1518,7 +1518,6 @@ ZFS encryption protects your data at rest, ensuring that even if someone steals 
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

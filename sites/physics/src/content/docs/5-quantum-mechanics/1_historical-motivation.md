@@ -235,8 +235,6 @@ The Compton wavelength $\lambda_C = h/(m_e c)$ characterises the wavelength shif
 
 Quantum mechanics emerged because classical physics kept hitting walls. Imagine predicting that a toaster should emit infinite energy or that an electron should spiral into the nucleus in a fraction of a second. These were not small errors but fundamental breakdowns. The key insight was that nature is granular at the smallest scales. Light comes in packets called photons, each carrying a fixed amount of energy proportional to its frequency, like musical notes rather than a continuous slide whistle. The photoelectric effect showed that light behaves like a stream of tiny bullets when it hits electrons. Compton scattering proved these bullets carry momentum. And the Davisson-Germer experiment revealed that electrons, the quintessential particles, also create diffraction patterns like waves. Nature does not choose between wave and particle: it is both, depending on how you look.
 
-
-
 ## Cross-References
 
 - **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates provide the mathematical framework for understanding the wave-particle duality discovered experimentally.

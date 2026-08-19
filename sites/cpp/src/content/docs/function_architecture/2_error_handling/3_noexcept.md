@@ -562,7 +562,6 @@ int main() {
 - [Exception Safety Guarantees](2_exception_safety.md)
 - [The Itanium Exception ABI](1_exception_abi.md)
 
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to the noexcept specifier,
@@ -583,4 +582,3 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

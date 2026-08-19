@@ -16,7 +16,6 @@ import { flashcardData } from '@/data/flashcards/swift/flashcards-swift-basics-d
 
 ---
 
-
 ## Intuition
 
 Swift is designed for safety and performance — optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and ARC manages memory without a garbage collector. Protocols define capabilities that types adopt, and protocol-oriented programming favours composition over inheritance. Enums in Swift are algebraic data types that can carry associated values, making them far more powerful than C-style enums.
@@ -34,7 +33,7 @@ Swift is designed for safety and performance — optionals force you to handle n
 - **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program — prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
 - **Reference cycle with closures**: Capturing `self` strongly in a closure creates a retain cycle — use `[weak self]` or `[unowned self]` capture lists.
 - **Value vs reference semantics**: Structs are value types (copied on assignment), classes are reference types (shared) — confusion here leads to unexpected mutations.
-- **String indexing pitfalls**: Swift strings are not randomly accessible by integer index — use `String.Index` methods or ` enumerated()` for iteration.
+- **String indexing pitfalls**: Swift strings are not randomly accessible by integer index — use `String.Index` methods or `enumerated()` for iteration.
 - **Actor re-entrancy**: Actors protect shared mutable state but are re-entrant — multiple tasks can interleave at `await` boundaries. Use `@Sendable` closures and careful state management to avoid race conditions.
 
 ## Study Tips
@@ -46,7 +45,6 @@ Swift is designed for safety and performance — optionals force you to handle n
 - **Study ARC behaviour:** Understand strong, weak, and unowned references by creating retain cycles and fixing them. This builds intuition for memory management.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="swift-basics" title="Swift -- Basics" description="15 interactive flashcards covering let, var, optionals, protocols, extensions, generics, enums, structs, classes, ARC, closures, computed properties, property observers, result builders, async/await." cards={flashcardData} />
 ## Cross-References

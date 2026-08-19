@@ -10,7 +10,6 @@ description: "15 auto-graded MCQ questions covering stack vs heap allocation, po
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills — they help you apply knowledge and identify areas that need more study.
@@ -26,7 +25,6 @@ pointers, RAII, memory leaks, new/delete, sizeof, and alignment. Select an answe
 review the explanation.
 
 ---
-
 
 ### Stack vs Heap
 
@@ -56,13 +54,12 @@ review the explanation.
 
 ---
 
-
 ### Pointers and References
 
 <PracticeProblem client:only="solid-js"   question="What is printed by `int a = 10; int* p = &amp;a; *p = 20; std::cout &lt;&lt; a;`?"
   options={['10', '20', 'A memory address', 'Undefined behaviour']}
   correctAnswer={1}
-  explanation="p is a pointer that stores the address of a. Dereferencing p with *p accesses the value at that address, which is a itself. Assigning 20 to *p modifies a. Therefore a becomes 20 and the output is 20."
+  explanation="p is a pointer that stores the address of a. Dereferencing p with *p accesses the value at that address, which is a itself. Assigning 20 to*p modifies a. Therefore a becomes 20 and the output is 20."
   difficulty="easy"
  />
 
@@ -92,7 +89,6 @@ review the explanation.
 
 ---
 
-
 ### new and delete
 
 <PracticeProblem client:only="solid-js"   question="Why should you never use delete[] on memory allocated with new (without brackets), and vice versa?"
@@ -120,7 +116,6 @@ review the explanation.
  />
 
 ---
-
 
 ### Smart Pointers
 
@@ -162,7 +157,6 @@ review the explanation.
 
 ---
 
-
 ### RAII
 
 <PracticeProblem client:only="solid-js"   question="What does RAII stand for and how does it prevent resource leaks?"
@@ -191,7 +185,6 @@ review the explanation.
 
 ---
 
-
 ### sizeof and Alignment
 
 <PracticeProblem client:only="solid-js"   question="What does sizeof(int) return on a typical 64-bit system, and is the result a compile-time constant?"
@@ -219,7 +212,6 @@ review the explanation.
  />
 
 ---
-
 
 ### Memory Leaks
 

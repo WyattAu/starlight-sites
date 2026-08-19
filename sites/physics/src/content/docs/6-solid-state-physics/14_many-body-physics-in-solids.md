@@ -131,7 +131,7 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 ### 14.5 Key Relationships
 
 | Quantity | Expression | Physical Meaning |
-|---|---|---|
+| --- | --- | --- |
 | Thomas-Fermi wavevector | $q_{\text{TF}}^2 = e^2 g(\varepsilon_F)/\varepsilon_0$ | Inverse screening length |
 | Screened potential | $V_{\text{scr}}(r) = (e^2/4\pi\varepsilon_0 r)e^{-q_{\text{TF}} r}$ | Exponentially decaying Coulomb interaction |
 | Kondo temperature | $k_B T_K \sim D\,e^{-1/(N(E_F)J)}$ | Energy scale for impurity spin screening |
@@ -146,10 +146,10 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 - Neglecting that the Kondo effect requires a magnetic impurity in a non-magnetic host; in a magnetic host the physics is different.
 - Confusing the Mott insulator (driven by electron correlations) with a band insulator (driven by filled bands and a band gap).
 
-
 ## Intuition
 
 Many-body physics studies how enormous numbers of interacting particles produce emergent phenomena. In a metal, electrons interact via Coulomb forces, but the collective behavior is described by quasiparticles with modified mass and lifetime. The electron gas behaves like a nearly free Fermi liquid, with interactions creating a sea of virtual excitations. Phonons are collective vibrations that behave as particles, mediating interactions between electrons. This framework explains superconductivity, magnetism, and the metal-insulator transition. The key insight is that complex many-body problems can often be mapped to simpler single-particle problems with renormalized parameters.
+
 ## Cross-References
 
 - **[Crystal Structures](1_crystal-structures)**: The lattice geometry and crystal symmetry determine the electronic band structure and the validity of the tight-binding model.

@@ -141,7 +141,7 @@ $\theta_s = 1.22\lambda/d$.
 ### 8.9 Coherence of Laser Light vs Thermal Light
 
 | Property | Laser | Thermal source |
-|----------|-------|----------------|
+| ---------- | ------- | ---------------- |
 | Spectral width $\Delta\nu$ | $\sim 1$ MHz or less | $\sim 10^{14}$ Hz |
 | Coherence time $\tau_c$ | $\sim 1\ \mu$s or more | $\sim 10^{-14}$ s |
 | Coherence length $L_c$ | $\sim 300$ m or more | $\sim 1\ \mu$m |
@@ -189,4 +189,3 @@ The coherence time $\tau_c \approx 1/\Delta\nu$ characterises how long the field
 The van Cittert-Zernike theorem shows that even an extended incoherent source produces spatially coherent light over a finite area $A_c \approx \lambda^2/\Omega$. The coherence area increases as the source becomes more compact. Students sometimes think only lasers or point sources produce spatially coherent light, when in fact any source produces some degree of spatial coherence over sufficiently small transverse distances.
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
-

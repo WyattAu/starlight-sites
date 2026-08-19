@@ -112,7 +112,6 @@ Action and collective responsibility.
 
 **The key insight:** García Márquez uses circular narrative to show how community complicity and cultural codes lead to inevitable tragedy
 
-
 ## 2. Narrative Structure and Technique
 
 ### The Circular Narrative
@@ -1109,8 +1108,6 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
-
-
 
 ## Cross-References
 

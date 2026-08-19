@@ -45,7 +45,7 @@ $$
 - _GCC/Clang Extension:_ These compilers treat `sizeof(void)` as 1 to allow arithmetic.
 - _Best Practice:_ Disable this extension via `-Wpointer-arith` to ensure portability.
 
-3. **Difference (`ptrdiff_t`):** Subtracting two pointers (`ptrB - ptrA`) returns a signed integer
+1. **Difference (`ptrdiff_t`):** Subtracting two pointers (`ptrB - ptrA`) returns a signed integer
    of type `std::ptrdiff_t`Representing the number of elements (not bytes) between them.
 
 ```cpp

@@ -12,11 +12,13 @@ tags:
 ## Regulatory Signs
 
 ### Speed Limit Signs
+
 - **Speed Limit**: Maximum speed allowed (white rectangle with black text)
 - **Minimum Speed**: Minimum speed required (white rectangle with black text)
 - **Speed Zone**: Speed limit zone ahead
 
 ### Prohibition Signs
+
 - **No Entry**: Vehicles not permitted (red circle with white horizontal line)
 - **No Right Turn**: Right turn prohibited (red circle with arrow)
 - **No Left Turn**: Left turn prohibited (red circle with arrow)
@@ -24,6 +26,7 @@ tags:
 - **No Overtaking**: Overtaking prohibited (red circle with two cars)
 
 ### Mandatory Signs
+
 - **Turn Left**: Must turn left (blue circle with arrow)
 - **Turn Right**: Must turn right (blue circle with arrow)
 - **Go Straight Only**: Must continue straight (blue circle with arrow)
@@ -31,12 +34,14 @@ tags:
 ## Warning Signs
 
 ### Road Layout
+
 - **Sharp Bend**: Road curves sharply (yellow diamond with curved arrow)
 - **Narrow Road**: Road becomes narrow (yellow diamond with road narrowing)
 - **Traffic Lights**: Traffic signals ahead (yellow diamond with traffic light)
 - **Pedestrian Crossing**: Crossing ahead (yellow diamond with pedestrian)
 
 ### Hazards
+
 - **Slippery Road**: Road surface may be slippery (yellow diamond with car and wavy lines)
 - **Road Works**: Construction ahead (yellow diamond with worker)
 - **School Zone**: School zone ahead (yellow diamond with children)
@@ -45,11 +50,13 @@ tags:
 ## Information Signs
 
 ### Direction Signs
+
 - **Interstate Signs**: Blue and red shields
 - **US Highway Signs**: White shields
 - **State Highway Signs**: Varies by state
 
 ### Service Signs
+
 - **Hospital**: Blue square with H
 - **Gas Station**: Blue square with gas pump
 - **Food**: Blue square with fork and knife
@@ -72,7 +79,9 @@ tags:
 ## Practice Questions
 
 ### Question 1
+
 What does this sign mean? (Speed Limit 55)
+
 - Maximum speed of 55 mph
 - Minimum speed of 55 mph
 - Average speed of 55 mph
@@ -81,7 +90,9 @@ What does this sign mean? (Speed Limit 55)
 **Correct Answer:** Maximum speed of 55 mph
 
 ### Question 2
+
 What does this sign mean? (Stop Sign)
+
 - Slow down
 - Stop completely
 - Yield to traffic

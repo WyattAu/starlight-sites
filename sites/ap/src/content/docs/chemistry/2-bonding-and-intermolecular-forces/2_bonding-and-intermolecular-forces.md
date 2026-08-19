@@ -138,7 +138,6 @@ Double-bonded O: $6 - 4 - 4/2 = 0$. For single-bonded O: $6 - 6 - 2/2 = -1$.
 
 Total: $0 + 0 + 0 + (-1) + (-1) = -2$. This is better because the formal charges are smaller.
 
-
 **Worked Example.** Draw the Lewis structure for $\mathrm{NO_3^-$.
 
 Total valence electrons: $5 + 3(6) + 1 = 24$.
@@ -171,7 +170,6 @@ $$
 
 The actual O--O bonds are identical, with bond order $1.5$. The bond length is intermediate between
 A single and a double bond, and the bond energy is also intermediate.
-
 
 Resonance stabilises a molecule: the more resonance structures, the lower the energy. Benzene
 ($\mathrm{C_6\mathrm{H_6$) is a classic example, with six equivalent resonance structures giving It
@@ -307,7 +305,6 @@ Explain the boiling point trend: $\mathrm{CH_4$ ($-161^\circ\mathrm{C$) $\lt$ $\
 All are nonpolar (tetrahedral), so only LDFs are present. As molar mass increases, electron clouds
 Become more polarizable, LDFs strengthen, and boiling point increases.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -317,7 +314,6 @@ $\mathrm{H_2\mathrm{S$ ($-60^\circ\mathrm{C$) despite having a lower molar mass.
 $\mathrm{H_2\mathrm{O$ has hydrogen bonding (O is highly electronegative), while
 $\mathrm{H_2\mathrm{S$ has only dipole-dipole forces and LDFs (S is not electronegative enough for
 H-bonding). Hydrogen bonding is much stronger than the other IMFs.
-
 
 ### Worked Example: Comparing IMF Strengths
 
@@ -866,13 +862,11 @@ $$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\te
 
 $$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
 
-
 </aside>
 
 ## Intuition
 
 Chemistry studies how atoms combine and react to form everything around us. The periodic table organises elements by their properties, chemical bonds hold molecules together, and reactions transform one substance into another. From the air we breathe to the food we eat, chemistry explains the material basis of life and the principles behind countless technologies.
-
 
 ## Cross-References
 

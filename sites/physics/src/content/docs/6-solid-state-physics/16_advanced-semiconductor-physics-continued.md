@@ -166,7 +166,7 @@ understanding electronic, photonic, and energy-harvesting technologies.
 ## Applications
 
 | Application | Principle | Key Material |
-|---|---|---|
+| --- | --- | --- |
 | Solar cells | Photons with $E > E_g$ create electron-hole pairs | Si ($E_g = 1.1$ eV), GaAs ($1.4$ eV) |
 | LEDs | Electron-hole recombination emits photons | GaN (blue), InGaAsP (telecom IR) |
 | Transistors | Gate voltage controls channel conductivity | Si MOSFET, GaAs HEMT |
@@ -192,7 +192,6 @@ These topics are closely related: quantum mechanics provides the foundation for 
 thermal physics governs carrier statistics and thermoelectric performance, and solid state physics
 provides the crystal structure context.
 | Solid State Physics — MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

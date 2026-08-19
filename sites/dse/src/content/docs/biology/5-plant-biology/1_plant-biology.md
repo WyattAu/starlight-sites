@@ -83,20 +83,20 @@ $$2\mathrm{H}_2\mathrm{O} \to 4\mathrm{H}^+ + 4e^- + \mathrm{O}_2$$
 
 The $\mathrm{O}_2$ is released as a by-product. This is the source of atmospheric oxygen.
 
-3. **Electron transport chain (ETC):** The high-energy electron passes through a series of electron
+1. **Electron transport chain (ETC):** The high-energy electron passes through a series of electron
    carriers embedded in the thylakoid membrane (plastoquinone, cytochrome b6f complex,
    plastocyanin). As electrons move through the chain, energy is released and used to pump
    $\mathrm{H}^+$ ions from the stroma into the thylakoid lumen, creating a proton gradient.
 
-4. **Chemiosmosis:** $\mathrm{H}^+$ ions accumulate in the thylakoid lumen, creating a proton
+2. **Chemiosmosis:** $\mathrm{H}^+$ ions accumulate in the thylakoid lumen, creating a proton
    gradient (electrochemical gradient). $\mathrm{H}^+$ ions flow back into the stroma through ATP
    synthase, driving the synthesis of ATP from ADP and $\mathrm{P}_i$. This is called
    **photophosphorylation**.
 
-5. **Photoexcitation of Photosystem I (PSI):** Light energy excites another electron in PSI (P700).
+3. **Photoexcitation of Photosystem I (PSI):** Light energy excites another electron in PSI (P700).
    The electron from PSII replaces the electron lost by P700.
 
-6. **NADP$^+$ reduction:** The excited electron from PSI, along with a proton from the stroma,
+4. **NADP$^+$ reduction:** The excited electron from PSI, along with a proton from the stroma,
    reduces $\mathrm{NADP}^+$ to NADPH via the enzyme ferredoxin-NADP$^+$ reductase (FNR).
 
 **Summary equation for light-dependent reactions:**
@@ -121,12 +121,12 @@ Organic compounds.
 
 $$\mathrm{CO}_2 + \mathrm{RuBP (5C)} \to \mathrm{Unstable 6C intermediate} \to 2 \times \mathrm{GP (glycerate-3-phosphate, 3C)}$$
 
-2. **Reduction:** GP is reduced to triose phosphate (TP, also called G3P) using ATP and NADPH from
+1. **Reduction:** GP is reduced to triose phosphate (TP, also called G3P) using ATP and NADPH from
    the light-dependent reactions:
 
 $$\mathrm{GP} + \mathrm{ATP} + \mathrm{NADPH} \to \mathrm{TP} + \mathrm{NADP}^+ + \mathrm{ADP} + \mathrm{P}_i$$
 
-3. **Regeneration of RuBP:** For every 6 $\mathrm{CO}_2$ molecules fixed, 12 molecules of TP are
+1. **Regeneration of RuBP:** For every 6 $\mathrm{CO}_2$ molecules fixed, 12 molecules of TP are
    produced. Of these, 10 molecules of TP (total 30 carbons) are used to regenerate 6 molecules of
    RuBP (total 30 carbons), consuming 6 ATP. The remaining 2 molecules of TP (total 6 carbons) are
    the net product and can be used to make one molecule of glucose (6C):
@@ -691,7 +691,7 @@ NAA (naphthaleneacetic acid).
 - The cell wall becomes more flexible and stretches as water enters the cell by osmosis
 - The cell elongates
 
-2. **Apical dominance:** Auxin produced in the apical bud inhibits the growth of lateral buds.
+1. **Apical dominance:** Auxin produced in the apical bud inhibits the growth of lateral buds.
    Removing the apical bud (decapitation) releases lateral buds from inhibition, causing the plant
    to become bushier. This is because:
 
@@ -699,7 +699,7 @@ NAA (naphthaleneacetic acid).
 - Auxin is transported downwards and indirectly inhibits lateral bud growth (possibly by promoting
   cytokinin synthesis inhibition or by diverting nutrients away from lateral buds)
 
-3. **Root initiation:** Auxins applied to cut stems promote the formation of adventitious roots.
+1. **Root initiation:** Auxins applied to cut stems promote the formation of adventitious roots.
    This is used commercially in rooting powders.
 
 ### Gibberellins
@@ -1231,11 +1231,11 @@ When a seed absorbs water (imbibition), the following metabolic changes occur:
 - Proteins $\xrightarrow{\text{proteases}}$ amino acids
 - Lipids $\xrightarrow{\text{lipases}}$ glycerol + fatty acids
 
-4. **Transport to growing regions:** Soluble products are transported from the cotyledons (or
+1. **Transport to growing regions:** Soluble products are transported from the cotyledons (or
    endosperm) to the growing embryo (radicle and plumule)
-5. **Cell division and elongation:** The radicle emerges first, growing downwards into the soil; the
+2. **Cell division and elongation:** The radicle emerges first, growing downwards into the soil; the
    plumule grows upwards towards light
-6. **Photosynthesis begins:** Once the plumule emerges above ground and develops leaves, the
+3. **Photosynthesis begins:** Once the plumule emerges above ground and develops leaves, the
    seedling transitions to autotrophic nutrition
 
 ### The Role of Gibberellins in Germination
@@ -1953,7 +1953,7 @@ in shortest supply (the **limiting factor**).
 - The other male gamete fuses with two polar nuclei to form the triploid endosperm (3n), which
   provides nutrients for the developing embryo
 
-6. The zygote develops into the embryo; the ovule develops into the seed; the ovary develops into
+1. The zygote develops into the embryo; the ovule develops into the seed; the ovary develops into
    the fruit
 
 ### Seed Structure

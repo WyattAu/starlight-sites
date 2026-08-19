@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Externalities, public goods, and information asymmetries cause markets to produce inefficient outcomes
 
-
 ## Market Failure
 
 Market failure occurs when the free market fails to allocate resources efficiently, resulting in a
@@ -694,8 +693,6 @@ from using the light (non-excludable). Government provision is necessary because
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-
 
 ## Cross-References
 

@@ -1141,6 +1141,7 @@ The Data Protection Act 2018 / UK GDPR.
    consent), is unfair (customers are unaware), and is not transparent (customers are not informed).
 2. **Purpose limitation:** Data was collected for the company's own purposes but is being used for
 An incompatible purpose (selling to advertisers).
+
 </details>
 
 (c) Explain the role of the ICO in this scenario. (3 marks)
@@ -1157,6 +1158,7 @@ Protection. In this scenario, the ICO would:
 3. The ICO can impose an administrative fine of up to 17.5 million GBP or 4% of annual global
    turnover (whichever is greater) for the most serious infringements
 4. The ICO can require the company to take specific remedial actions to come into compliance
+
 </details>
 
 ### Question 2 (OCR-style, 10 marks)
@@ -1197,6 +1199,7 @@ Discuss the legal, ethical, and professional implications of this situation.
 - The Public Interest Disclosure Act 1998 protects the developer if she whistleblows to a prescribed
 Regulator (e.g., the ICO) because the failure to secure personal data likely constitutes a failure
 To comply with a legal obligation.
+
 </details>
 
 ### Question 3 (Edexcel-style, 15 marks)
@@ -1374,6 +1377,7 @@ Any four of:
 7. Commercial interests (where disclosure would prejudice the commercial interests of any person)
 8. Communications with the Royal Family
 9. Health and safety (where disclosure would endanger physical or mental health)
+
 </details>
 
 ### Question 7 (Extended response, 10 marks)
@@ -1435,7 +1439,6 @@ Continuous integration, responsible disclosure of vulnerabilities).
 
 4. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
-
 
 ## Intuition
 

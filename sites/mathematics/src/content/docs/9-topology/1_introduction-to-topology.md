@@ -113,11 +113,13 @@ For a subset $A \subseteq X$ of a topological space:
 - The **boundary** $\partial A = \overline{A} \setminus \mathrm{int}(A)$.
 
 **Proposition 1.3 (Properties).**
+
 - $A \subseteq \overline{A}$, and $\overline{A} = A$ iff $A$ is closed.
 - $\mathrm{int}(A) \subseteq A$, and $\mathrm{int}(A) = A$ iff $A$ is open.
 - $\overline{\overline{A}} = \overline{A}$, $\mathrm{int}(\mathrm{int}(A)) = \mathrm{int}(A)$.
 
 **Example 1.7.** In $\mathbb{R}$ with the standard topology:
+
 - $\overline{(0, 1)} = [0, 1]$, $\mathrm{int}([0, 1]) = (0, 1)$.
 - $\overline{\mathbb{Q}} = \mathbb{R}$ (the rationals are dense), $\mathrm{int}(\mathbb{Q}) = \varnothing$.
 - $\partial((0, 1]) = \{0, 1\}$.

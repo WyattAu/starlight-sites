@@ -162,6 +162,7 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
 ## Intuition
 
 Python is the language of readability: code that looks like English pseudocode actually runs. Lists are dynamic arrays that grow as you add items, dicts are hash tables that let you look up values by key in constant time, and generators are lazy iterators that produce values one at a time instead of building entire lists in memory. The Zen of Python summarises the philosophy: explicit is better than implicit, simple is better than complex. Python's "batteries included" standard library means you rarely need external packages for common tasks.

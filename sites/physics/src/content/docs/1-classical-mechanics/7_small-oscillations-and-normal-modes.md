@@ -154,14 +154,12 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 ### 7.8 Key Results Summary
 
 | Result | Statement |
-|---|---|
+| --- | --- |
 | Secular equation | $\det(\mathbf{V} - \omega^2\mathbf{T}) = 0$ gives normal mode frequencies |
 | Orthogonality | $\mathbf{a}^{(\alpha)T}\mathbf{T}\mathbf{a}^{(\beta)} = T_\alpha\delta_{\alpha\beta}$ |
 | Stability condition | $T$ and $V$ positive definite $\implies$ all $\omega_\alpha^2 > 0$ |
 | Beat phenomenon | Two pendulums with close frequencies exchange energy periodically |
 | Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
-
-
 
 ## Cross-References
 

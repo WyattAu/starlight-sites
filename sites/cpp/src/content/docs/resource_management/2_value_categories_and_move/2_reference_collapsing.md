@@ -680,7 +680,6 @@ void move_vs_forward() {
    temporary. If `T` is a non-reference type, you return an rvalue reference to a local — which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
 
-
 ## Summary
 
 This topic covers the core concepts of reference collapsing and forwarding references, including
@@ -724,4 +723,3 @@ deduction. Without it, perfect forwarding couldn't work, and you'd be forced to 
 overloads for lvalue and rvalue arguments everywhere. The rules are mechanical and deterministic —
 once you internalize them, forwarding references and `std::forward` become straightforward rather
 than magical.
-

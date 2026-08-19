@@ -150,7 +150,6 @@ cargo metadata --format-version 1  # machine-readable workspace metadata
 <aside class="starlight-aside starlight-aside--note">
 The same versions of shared dependencies, avoiding the diamond dependency problem.
 
-
 ## Feature Flags
 
 Features are optional dependencies or conditional compilation flags:
@@ -912,7 +911,6 @@ Before adding a dependency, evaluate it:
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with
 `cargo audit`. For security-critical projects, consider `cargo-vet` (supply chain verification).
 
-
 ## Common Pitfalls
 
 1. **Not committing `Cargo.lock` for binaries.** Without `Cargo.lock`Different builds may resolve
@@ -973,7 +971,6 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

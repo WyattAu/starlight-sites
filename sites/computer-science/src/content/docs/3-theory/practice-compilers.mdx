@@ -24,7 +24,6 @@ representations, optimization, and code generation. Select an option to check yo
 
 ---
 
-
 ## Lexical Analysis and Parsing
 
 <PracticeProblem client:only="solid-js" question={"In lexical analysis, the 'maximal munch' rule resolves ambiguity by always:&quot; options={[ 'Matching the longest possible token from the current position', 'Matching the first valid token type in the grammar', 'Matching the shortest possible token to save memory', 'Preferting keywords over identifiers regardless of length', ]} correctAnswer={0} explanation=&quot;Maximal munch: the lexer always matches the longest valid prefix as a single token. For example, '123abc' is tokenized as '123' (integer) then 'abc' (identifier), not '1', '2', '3', 'abc'. This is implemented by running the DFA and backtracking to the last accepting state when no further transitions are valid."} difficulty="easy"  />
@@ -51,7 +50,6 @@ representations, optimization, and code generation. Select an option to check yo
 
 ---
 
-
 ## Additional Compiler Questions
 
 <PracticeProblem client:only="solid-js" question={"What is the purpose of the construct lookahead (LL) parsing table conflict check, and what does a conflict indicate?&quot; options={[ 'It verifies that for each (nonterminal, lookahead) pair there is at most one production; a conflict indicates the grammar is not LL(1)', 'It checks for unreachable nonterminals in the grammar', 'It counts the total number of productions in the grammar', 'It verifies that all terminals appear in at least one production', ]} correctAnswer={0} explanation=&quot;An LL(1) parsing table is built by computing FIRST and FOLLOW sets. For each nonterminal $A$ and lookahead terminal $a$, the table should contain at most one production. If FIRST sets of two alternatives for $A$ overlap, or if $\\epsilon$ is in FIRST and FOLLOW sets overlap, a conflict arises. This means no single-token lookahead deterministic parser exists for the grammar."} difficulty="medium"  />
@@ -72,5 +70,6 @@ representations, optimization, and code generation. Select an option to check yo
 **Forgetting that compiler optimisations must preserve program semantics:** Optimisations can change HOW the program runs but not WHAT it computes. Don't assume all transformations are valid.
 
 ## Cross-References
+
 - **[Theory of Computation](../../../../../typescript/src/content/docs/index):** Automata and formal languages underlying compiler design.
 - **[Algorithms](../../../../../typescript/src/content/docs/index):** Graph colouring algorithms used in register allocation.

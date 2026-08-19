@@ -58,8 +58,8 @@ When `Caller()` invokes `Callee()`:
 - Sets `RBP = RSP`.
 - Subtracts from `RSP` to allocate space for local variables.
 
-4. **Body:** Execution of the function logic.
-5. **Epilogue:**
+1. **Body:** Execution of the function logic.
+2. **Epilogue:**
 
 - `mov rsp, rbp` (Deallocate locals).
 - `pop rbp` (Restore caller's base pointer).
@@ -651,6 +651,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Programming notes.

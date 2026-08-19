@@ -599,7 +599,6 @@ The six approaches in psychology offer different perspectives on human behaviour
 
 The mind works like an information processing system. Perception filters raw sensory data, memory stores and retrieves experiences, and thinking organises knowledge into decisions. Understanding these mental processes helps explain why people behave differently in similar situations. The key insight is that internal mental states, though invisible, can be studied scientifically through careful observation and experimentation.
 
-
 ## Cross-References
 
 - [Research Methods](../../../../../../ib/src/content/docs/psychology/research-methods)

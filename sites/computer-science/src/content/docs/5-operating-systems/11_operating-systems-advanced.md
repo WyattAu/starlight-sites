@@ -105,12 +105,12 @@ P0
 - Advantage: True parallelism on multi-core; blocking system calls block only the calling thread.
 - Disadvantage: Thread creation is expensive (kernel involvement); limited by kernel resources.
 
-2. **N:1 (user-level):** All user threads map to one kernel thread. Examples: GNU Pth (historical).
+1. **N:1 (user-level):** All user threads map to one kernel thread. Examples: GNU Pth (historical).
 
 - Advantage: Fast creation and switching (no kernel involvement); unlimited threads (within memory).
 - Disadvantage: Cannot exploit multi-core; blocking system call blocks all threads.
 
-3. **M:N (hybrid):** $M$ user threads map to $N$ kernel threads ($M \geq N$). Examples: Solaris
+1. **M:N (hybrid):** $M$ user threads map to $N$ kernel threads ($M \geq N$). Examples: Solaris
    threads (historical), Go goroutines (with M:N scheduling).
 
 - Advantage: Combines benefits of both; scheduler can adapt.
@@ -840,6 +840,7 @@ use **POSIX message queues**.
 - Pipe: ~500 MB/s
 - Message queue: ~200 MB/s
 - Shared memory: ~10 GB/s (limited by memory bandwidth)
+
 </details>
 
 ## 11. Advanced Scheduling
@@ -1380,7 +1381,6 @@ $\blacksquare$
 - Memory management: paging, segmentation, virtual memory, page replacement (LRU, FIFO, optimal).
 - File systems: directory structure, allocation methods (contiguous, linked, indexed).
 - Synchronisation: semaphores, monitors, critical sections; Peterson's algorithm for two processes.
-
 
 </aside>
 ## Cross-References

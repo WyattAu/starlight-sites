@@ -175,7 +175,6 @@ Implement their own keepalive and NAT traversal mechanisms (e.g., STUN/TURN for 
 Keepalive). UDP NAT mappings have shorter timeouts than TCP (30-60 seconds vs hours), so long-lived
 UDP flows without keepalives will lose their NAT mappings.
 
-
 ## TCP (Transmission Control Protocol)
 
 TCP (RFC 793) provides reliable, ordered, error-checked, byte-stream delivery between two endpoints.
@@ -250,7 +249,6 @@ Connections in TIME-WAIT on the client side. If the client exhausts its ephemera
 Connections fail with "address already in use." Solutions include `SO_REUSEADDR`/`SO_REUSEPORT`
 Socket options, the `tcp_tw_reuse` kernel parameter (Linux), or using connection pooling. The
 Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
-
 
 ### TCP Segment Structure
 
@@ -810,7 +808,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

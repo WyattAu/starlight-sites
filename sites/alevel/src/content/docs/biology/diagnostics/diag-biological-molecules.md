@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
@@ -437,8 +436,6 @@ driven by the concentration gradient between blood and the cell cytoplasm.
 **Thinking DNA replication is conservative after one generation:** In the Meselson-Stahl experiment, after one generation all DNA is of intermediate density, which is consistent with both semi-conservative and dispersive replication. Only after two generations does the appearance of a light band rule out dispersive replication. Do not conclude semi-conservative from one generation alone.
 
 **Assuming cellulose is indigestible because it is "inert":** Cellulose is not chemically inert — it is a polysaccharide with strong beta-1,4-glycosidic bonds. Humans lack cellulase, the enzyme needed to hydrolyse these bonds. The issue is enzyme specificity, not the chemical stability of the molecule itself.
-
-
 
 ## Cross-References
 

@@ -100,7 +100,6 @@ $m \times n$ matrix.
 <aside class="starlight-aside starlight-aside--caution">
 Transformations, applying $A$ then $B$ corresponds to the product $BA$ (right-to-left reading).
 
-
 ### Special Matrices
 
 **Identity matrix.** The $n \times n$ identity matrix $I_n$ has $1$ on the main diagonal and $0$
@@ -963,7 +962,6 @@ Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}
 <aside class="starlight-aside starlight-aside--caution">
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and
 Frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
-
 
 ### Hill Cipher
 

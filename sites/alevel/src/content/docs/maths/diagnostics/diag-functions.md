@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -478,8 +477,6 @@ $\sqrt{3}$ decrease towards it, and terms below $\sqrt{3}$ increase towards it).
 convergence theorem, the sequence converges, and the only possible limit is $\sqrt{3}$.
 
 This function is the Babylonian method (Newton's method) for computing $\sqrt{3}$.
-
-
 
 ## Cross-References
 

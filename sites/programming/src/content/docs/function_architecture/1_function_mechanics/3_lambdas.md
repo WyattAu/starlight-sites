@@ -683,7 +683,6 @@ struct Handler {
 };
 ```
 
-
 ## Summary
 
 This topic covers the fundamental principles of lambda expressions — capture layouts and closure

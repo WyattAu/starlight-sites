@@ -222,7 +222,6 @@ Network attack, but often delivered over HTTP. Defences: parameterised queries, 
 The server's connection table. Defences: SYN cookies (encode state in the initial sequence number),
 Rate limiting, connection throttling.
 
-
 </aside>
 
 ## Intuition

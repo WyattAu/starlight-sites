@@ -162,8 +162,6 @@ sidebar_position: 40
 
 **10. (C)** The cognitive approach (Beck) explains depression in terms of negative cognitive schemas, distorted thinking patterns, and maladaptive automatic thoughts. These cognitive distortions maintain depressive symptoms and are the target of cognitive therapy.
 
-
-
 ## Cross-References
 
 - **[Memory](../flashcards-memory):** Approaches explain cognitive processes

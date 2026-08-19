@@ -152,6 +152,5 @@ By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficien
 - [Worked Examples](15_worked-examples) -- Several worked examples apply irreducibility criteria and division algorithms developed in this chapter.
 - [Common Pitfalls](17_common-pitfalls) -- The common pitfalls section addresses frequent errors in applying Eisenstein's criterion and checking irreducibility.
 
-
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

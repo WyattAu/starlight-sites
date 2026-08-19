@@ -145,6 +145,7 @@ Remainders when divided by 3: $1 \equiv 1$, $2 \equiv 2$, $3 \equiv 0$, $4 \equi
 **Transitive:** If $a$ and $b$ leave the same remainder, and $b$ and $c$ leave the same remainder, then $a$ and $c$ leave the same remainder. Yes.
 
 Equivalence classes:
+
 - Remainder 0: $\{3, 6\}$
 - Remainder 1: $\{1, 4\}$
 - Remainder 2: $\{2, 5\}$

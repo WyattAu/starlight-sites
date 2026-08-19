@@ -455,8 +455,6 @@ the effector muscle. [5 marks]
 5. **Effector**: The motor neurone stimulates a muscle (effector) in the arm via a neuromuscular
    junction, causing the muscle to contract. The arm is pulled away from the hot object.
 
-
-
 ## Cross-References
 
 - **[Cell Biology](../cell-biology):** Cell biology supports physiology

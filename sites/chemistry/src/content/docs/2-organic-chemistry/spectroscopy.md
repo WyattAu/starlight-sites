@@ -193,6 +193,7 @@ arise:
 ### 3.6 $^{13}\text{C}$ NMR
 
 **Definition 3 ($^{13}$C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
+
 - Broadband proton decoupling: all $^1$H–$^{13}$C couplings removed; one signal per unique carbon.
 - DEPT (Distortionless Enhancement by Polarization Transfer): distinguishes CH, CH$_2$, CH$_3$, and
   quaternary carbons.
@@ -234,6 +235,7 @@ The mass spectrum plots intensity vs $m/z$. The **molecular ion peak** ($\text{M
 gives the molecular weight.
 
 **Isotopic patterns:** The natural abundance of isotopes creates characteristic patterns:
+
 - $^{13}\text{C}$: 1.1% → $\text{M} + 1$ peak is $\sim 1.1\%$ of M per carbon.
 - $^{35}\text{Cl}/^{37}\text{Cl}$: 3:1 ratio → $\text{M} + 2$ peak is $\sim 1/3$ of M for one Cl.
 - $^{79}\text{Br}/^{81}\text{Br}$: 1:1 ratio → $\text{M} + 2$ peak is $\sim$ equal to M for one Br.
@@ -287,6 +289,7 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 ### 5.1 Strategy
 
 **Theorem 5 (Structure Elucidation Workflow):**
+
 1. **Molecular formula** from HRMS (exact mass) or elemental analysis. Calculate degree of
    unsaturation.
 2. **IR** for functional groups (O–H, C=O, C≡N, C=C, etc.).
@@ -358,10 +361,12 @@ $\blacksquare$
 ## Worked Examples
 
 ### Example 1: Interpreting an IR Spectrum
+
 **Problem:** A compound with molecular formula C4H8O shows a strong IR absorption at 1715 cm^-1 and no absorption above 3000 cm^-1 except at 2850-2950 cm^-1. What functional group is present?
 **Solution:** The absorption at 1715 cm^-1 indicates a carbonyl (C=O) stretch. The absence of broad O-H absorption above 3000 cm^-1 rules out a carboxylic acid. The absence of N-H stretch rules out an amide. The sharp, moderate-wavenumber carbonyl is consistent with an aldehyde (no O-H, but C-H stretch around 2720 cm^-1 should be checked). Given C4H8O and one C=O: likely butanal (CH3CH2CH2CHO) or butanone (CH3CH2COCH3).
 
 ### Example 2: Degree of Unsaturation Calculation
+
 **Problem:** A compound with molecular formula C6H6O has the following spectroscopic data: IR: 3300 (broad), 1600, 1500 cm^-1. 1H NMR: 7.2 (5H, multiplet), 4.5 (1H, singlet), 2.0 (1H, singlet, exchanges with D2O). Identify the compound.
 **Solution:** DoU = 2C + 2 + N - H/2 - X/2 = 12 + 2 - 3 = 4. IR at 3300 (broad) indicates O-H (phenol or alcohol). 1600, 1500 cm^-1: aromatic ring (DoU >= 4). 1H NMR: 5H multiplet at 7.2 ppm = monosubstituted benzene. 1H singlet at 4.5 ppm = CH attached to O. 1H singlet at 2.0 ppm exchanging with D2O = OH. Compound: phenol (C6H5OH).
 

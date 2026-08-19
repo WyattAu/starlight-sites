@@ -934,7 +934,6 @@ Introspected).
 - [Compile-Time Branching and Constexpr Functions](./3_if_constexpr.md)
 - [SFINAE vs Concepts](../2_concepts_and_constraints/4_sfinae_vs_concepts.md)
 
-
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -970,4 +969,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

@@ -92,7 +92,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | The Japanese attack on Pearl Harbor on 7 December 1941 brought the United States into the war and triggered the Pacific conflict. |
 | 2 | (C) | The Battle of Hong Kong lasted from 8 to 25 December 1941, ending with the British surrender to Japan. |
 | 3 | (A) | Japan occupied Hong Kong from December 1941 until August 1945, a period of approximately three years and eight months. |

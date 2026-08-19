@@ -31,7 +31,7 @@ Every piece of software has a license — even if you did not choose one. Withou
 ## Common License Families
 
 | License | Type | Key Requirement |
-|---------|------|-----------------|
+| --------- | ------ | ----------------- |
 | MIT | Permissive | Include copyright notice |
 | BSD 2-Clause | Permissive | Include copyright notice |
 | Apache 2.0 | Permissive | Include notice, state changes, patent grant |
@@ -75,6 +75,7 @@ Choosing the wrong license can have lasting consequences for your project. A GPL
 **Using GPL code in proprietary software:** GPL requires derivative works to also be GPL. If you incorporate GPL-licensed code into your project, your entire project must be GPL-compatible. Use MIT or Apache 2.0 for permissive licensing if you want proprietary compatibility.
 
 **Ignoring license compatibility:** Not all licenses can be combined. GPL and Apache 2.0 have compatibility issues. BSD and MIT are broadly compatible. Before combining code from different sources, verify their licenses allow the combination.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for licensing notes.

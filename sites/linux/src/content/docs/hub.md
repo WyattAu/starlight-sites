@@ -111,7 +111,7 @@ Linux distributions package the Linux kernel with system libraries, package mana
 ### Choosing a Distribution
 
 | Use Case | Recommended Distribution |
-|----------|------------------------|
+| ---------- | ------------------------ |
 | Enterprise servers | RHEL, AlmaLinux, Rocky Linux |
 | Cloud deployments | Ubuntu, Amazon Linux |
 | Desktop use | Ubuntu, Fedora, Linux Mint |
@@ -181,7 +181,7 @@ chown -R user:group dir # Recursive ownership change
 **Permission meanings:**
 
 | Number | Permission | Symbol |
-|--------|------------|--------|
+| -------- | ------------ | -------- |
 | 4 | Read | r |
 | 2 | Write | w |
 | 1 | Execute | x |
@@ -236,7 +236,7 @@ Understanding Linux file systems is essential for managing storage, permissions,
 ### File System Types
 
 | Type | Description | Use Case |
-|------|-------------|----------|
+| ------ | ------------- | ---------- |
 | ext4 | Default Linux file system | General purpose |
 | XFS | High-performance; large files | Databases, media |
 | Btrfs | Copy-on-write; snapshots | Desktops, backup targets |
@@ -301,7 +301,7 @@ jobs                    # List background jobs
 ### Process States
 
 | State | Description |
-|-------|-------------|
+| ------- | ------------- |
 | R | Running or runnable |
 | S | Sleeping (interruptible) |
 | D | Uninterruptible sleep (usually I/O) |

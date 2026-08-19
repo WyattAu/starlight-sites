@@ -102,37 +102,37 @@ _Hint:_ Total data = 630 KB = 5.04 Mb. Transmission time = 5.04 / 10 = 0.504 s.
   504 ms = 1 $\times$ 50 + 16 $\times$ 50 + 504 = 1354 ms.
 - HTTP/2: 1 RTT for handshake, all requests multiplexed. 1 $\times$ 50 + 504 = 554 ms.
 
-19. **Firewall rules.** A company has a web server at `203.0.113.10`A mail server at
+1. **Firewall rules.** A company has a web server at `203.0.113.10`A mail server at
     `203.0.113.20`And an internal network `10.0.0.0/24`. Write a set of packet filtering rules that:
     (a) allows external HTTP/HTTPS to the web server, (b) allows external SMTP to the mail server,
     (c) allows internal users to access any external service, (d) blocks all other inbound traffic.
 
-20. **RSA encryption.** Given primes $p = 5$, $q = 11$And public exponent $e = 3$: (a) Compute $n$,
+2. **RSA encryption.** Given primes $p = 5$, $q = 11$And public exponent $e = 3$: (a) Compute $n$,
     $\phi(n)$And the private key $d$. (b) Encrypt the message $m = 7$. (c) Decrypt the ciphertext to
     verify.
 
-21. **TCP throughput bound.** A TCP connection over a satellite link has RTT = 600 ms and bandwidth
+3. **TCP throughput bound.** A TCP connection over a satellite link has RTT = 600 ms and bandwidth
     = 50 Mbps. The receiver advertises `rwnd` = 1 MB. If `cwnd` grows to 2 MB during slow start,
     what is the maximum achievable throughput? What is the BDP, and is the window large enough to
     fill the pipe?
 
-22. **CDMA orthogonality.** Four stations share a channel using CDMA with chip codes:
+4. **CDMA orthogonality.** Four stations share a channel using CDMA with chip codes:
     $C_1 = (+1, -1, +1, +1)$, $C_2 = (+1, +1, -1, +1)$, $C_3 = (+1, +1, +1, -1)$
     $C_4 = (-1, +1, +1, +1)$. Station 1 sends bit 1, station 2 sends bit 0, station 3 sends bit 1,
     station 4 is silent. Compute the combined signal and show that each receiver correctly recovers
     its station's bit.
 
-23. **Wireless LAN efficiency.** An 802.11 WLAN operates at 54 Mbps with 1500-byte frames. The DCF
+5. **Wireless LAN efficiency.** An 802.11 WLAN operates at 54 Mbps with 1500-byte frames. The DCF
     inter-frame spacing is DIFS = 50 μs, slot time = 20 μs, SIFS = 10 μs, and propagation delay =
     1 μs. Assuming no collisions, compute the maximum achievable throughput. How does it compare
     with the physical layer data rate? What overhead factors contribute to the difference?
 
-24. **VPN tunnelling.** A company uses IPsec in tunnel mode between two gateways. An employee at
+6. **VPN tunnelling.** A company uses IPsec in tunnel mode between two gateways. An employee at
     site A sends a packet to a server at site B. Describe the encapsulation steps: (a) original
     packet format, (b) how the gateway adds the ESP header/trailer and new IP header, and (c) how
     the receiving gateway decapsulates. What fields in the new IP header differ from the original?
 
-25. **Software-defined networking.** In OpenFlow, a switch receives a packet with destination MAC
+7. **Software-defined networking.** In OpenFlow, a switch receives a packet with destination MAC
     00:11:22:33:44:55 and destination IP 10.0.0.5. The switch has no matching flow entry. Describe
     the sequence of events: (a) what the switch sends to the controller, (b) what the controller
     decides, (c) how a new flow entry is installed, and (d) how subsequent packets are handled.
@@ -191,7 +191,6 @@ $\blacksquare$
 | [Networks] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/3-networks/1_networks)                             |
 | [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
 | [Networks] | University | [View](https://university.wyattau.com/docs/computing/3-computer-networks/1_computer-networks)             |
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Significant figures, error analysis, and data processing techniques ensure reliable and reproducible results
 
-
 ## 1. Uncertainty and Error
 
 ### Random and Systematic Errors
@@ -64,7 +63,6 @@ A burette reading of $24.50\mathrm{ cm}^3$ with smallest division $0.1\mathrm{ c
 $$
 \Delta V = 0.05\mathrm{ cm}^3, \quad \%u = \frac{0.05}{24.50} \times 100\% = 0.20\%
 $$
-
 
 ### Uncertainty in Addition and Subtraction
 
@@ -108,7 +106,6 @@ $$
 $$
 \%\mathrm{u}(\rho) = \%\mathrm{u}(m) + 3 \times \%\mathrm{u}(r) = 0.20\% + 3.00\% = 3.20\%
 $$
-
 
 ### Common Pitfalls
 
@@ -170,7 +167,6 @@ $$
 $$
 \log(2.0 \times 10^3) = 3.30 \quad \mathrm{(two decimal places)}
 $$
-
 
 ---
 
@@ -291,7 +287,6 @@ Used to confirm identity by comparison with a reference spectrum.
 An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$Sharp absorption at
 $1700\mathrm{ cm}^{-1}$And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
 Carboxylic acid.
-
 
 ---
 
@@ -945,7 +940,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Atomic theory and electron configurations** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
@@ -978,6 +973,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | --------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Measurement and Data Processing] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)                              |
 | [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing) |
-
 
 </aside>

@@ -375,16 +375,16 @@ This element is chromium.
 
 ### Extended Questions
 
-5. Explain why the first ionisation energy of neon is much higher than that of sodium.
-6. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$Explaining why
+1. Explain why the first ionisation energy of neon is much higher than that of sodium.
+2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$Explaining why
    $\mathrm{Fe^{3+}$ is more stable.
-7. Calculate the energy of a photon with wavelength $121.6\mathrm{ nm$ and identify the hydrogen
+3. Calculate the energy of a photon with wavelength $121.6\mathrm{ nm$ and identify the hydrogen
    transition that produces it.
-8. Explain why the second ionisation energy of sodium ($4562 \mathrm{ kJ/mol$) is much higher than
+4. Explain why the second ionisation energy of sodium ($4562 \mathrm{ kJ/mol$) is much higher than
    the first ($496 \mathrm{ kJ/mol$).
-9. The mass spectrum of silicon shows three peaks at $m/z = 28$29, 30 with relative abundances
+5. The mass spectrum of silicon shows three peaks at $m/z = 28$29, 30 with relative abundances
    92.2%, 4.7%, and 3.1%. Calculate the relative atomic mass of silicon.
-10. Explain the significance of the line spectrum of hydrogen in the development of atomic theory,
+6. Explain the significance of the line spectrum of hydrogen in the development of atomic theory,
     referencing the Bohr model.
 
 ---
@@ -742,29 +742,29 @@ And scanning electron microscopy (SEM) are two common types.
 
 ## Practice Questions (Extended)
 
-11. The successive ionisation energies of an element are:
+1. The successive ionisation energies of an element are:
     $578, 1817, 2745, 11578, 14842, 18379 \mathrm{ kJ/mol$. Identify the element and explain the
     pattern.
 
-12. Calculate the de Broglie wavelength of an electron travelling at $2.0 \times 10^6 \mathrm{ m/s$.
+2. Calculate the de Broglie wavelength of an electron travelling at $2.0 \times 10^6 \mathrm{ m/s$.
     (Mass of electron $= 9.11 \times 10^{-31} \mathrm{ kg$,
     $h = 6.63 \times 10^{-34} \mathrm{ J s$.)
 
-13. Explain why potassium ($Z = 19$) is placed after argon ($Z = 18$) in the periodic table, despite
+3. Explain why potassium ($Z = 19$) is placed after argon ($Z = 18$) in the periodic table, despite
     argon having a filled $3p$ subshell and potassium having an electron in the $4s$ subshell.
 
-14. Calculate $Z_{\mathrm{eff}$ for a valence electron in sodium and in potassium. Use your results
+4. Calculate $Z_{\mathrm{eff}$ for a valence electron in sodium and in potassium. Use your results
     to explain why potassium is more reactive than sodium.
 
-15. The first four ionisation energies of an element X are:
+5. The first four ionisation energies of an element X are:
     $1090, 2350, 4620, 6220 \mathrm{ kJ/mol$. To which group does X belong? Explain your reasoning.
 
-16. Draw the shape of a $2p_z$ orbital and a $3d_{xy}$ orbital, labelling the axes.
+6. Draw the shape of a $2p_z$ orbital and a $3d_{xy}$ orbital, labelling the axes.
 
-17. Explain the difference between a continuous spectrum and a line spectrum. Why do hot gases
+7. Explain the difference between a continuous spectrum and a line spectrum. Why do hot gases
     produce line spectra but hot solids produce continuous spectra?
 
-18. Calculate the wavelength of light emitted when an electron in a hydrogen atom transitions from
+8. Calculate the wavelength of light emitted when an electron in a hydrogen atom transitions from
     $n = 5$ to $n = 2$. In which spectral series does this line appear?
 
 ---

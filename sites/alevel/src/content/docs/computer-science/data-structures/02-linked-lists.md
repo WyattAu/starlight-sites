@@ -851,7 +851,6 @@ Operation in a busy A&E department.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Writing pseudocode that is too language-specific rather than using standard algorithmic
@@ -864,7 +863,6 @@ Operation in a busy A&E department.
 
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
-
 
 ## Intuition
 
@@ -880,8 +878,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

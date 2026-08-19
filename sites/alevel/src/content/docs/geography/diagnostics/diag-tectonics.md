@@ -16,7 +16,6 @@ sidebar_position: 40
 }
 </script>
 
-
 ## Intuition
 
 **Plate tectonics is like a giant jigsaw puzzle — Earth’s crust is broken into pieces that move, collide, and reshape the planet.**
@@ -174,8 +173,6 @@ sidebar_position: 40
 **Confusing destructive and constructive plate boundaries:** Constructive (divergent) boundaries create new crust as plates move apart (e.g., Mid-Atlantic Ridge). Destructive (convergent) boundaries destroy crust as one plate subducts beneath another (e.g., Pacific Plate under the Philippine Plate). The terminology refers to what happens to the crust, not whether the boundary is "good" or "bad."
 
 **Assuming all volcanoes at plate boundaries are the same type:** Volcanic type depends on the plate boundary and magma composition. Subduction zones produce explosive stratovolcanoes (viscous silica-rich magma). Divergent boundaries produce effusive shield basalt flows (low-viscosity magma). Hotspots in ocean basins also produce shield volcanoes. Match the volcano type to the tectonic setting.
-
-
 
 ## Cross-References
 

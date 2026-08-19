@@ -39,7 +39,6 @@ description: "A-Level Microeconomics notes covering key definitions, core concep
 }
 </script>
 
-
 ## Intuition
 
 **Microeconomics is like observing a single market — buyers and sellers interacting to set prices.**

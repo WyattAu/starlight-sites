@@ -202,7 +202,6 @@ ss -tan state fin-wait-2 | wc -l
 Side of the connection. This is a client application bug (not calling `close()` or `shutdown()`) or
 a firewall silently dropping the peer's FIN.
 
-
 ## Simultaneous Open
 
 Both sides can send SYN simultaneously. This is rare but valid. Both endpoints transition from
@@ -305,7 +304,6 @@ sysctl -w net.ipv4.tcp_tw_recycle=1
 Loss for clients behind NAT because it relied on timestamps to track per-host connection state, and
 NAT multiplexed many clients onto the same source IP. Do NOT use it.
 
-
 **Option 3: Use SO_LINGER with timeout 0.**
 
 Setting `SO_LINGER` with `l_onoff=1` and `l_linger=0` causes `close()` to send a RST instead of
@@ -323,7 +321,6 @@ setsockopt(fd, SOL_SOCKET, SO_LINGER, &ling, sizeof(ling));
 "Connection reset by peer" instead of a clean EOF. Use this only for connections where you are
 Certain the peer handles RST correctly, and never for connections where data integrity matters
 (databases, file transfers).
-
 
 **Option 4: Connection pooling.**
 
@@ -541,7 +538,6 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 <aside class="starlight-aside starlight-aside--tip">
 Keepalone alone is too slow for most server applications. A 2-hour dead connection detection is
 Unacceptable for a database connection pool.
-
 
 ## Connection Draining and Graceful Shutdown
 
@@ -828,7 +824,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

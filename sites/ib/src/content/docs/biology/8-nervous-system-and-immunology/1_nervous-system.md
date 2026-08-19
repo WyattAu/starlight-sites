@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The balance between excitation and inhibition in neural networks determines all thought, movement, and sensation
 
-
 ## 1. Neuron Structure and Function
 
 ### Types of Neurons
@@ -279,7 +278,7 @@ In myelinated axons, the action potential "jumps" between nodes of Ranvier:
 - **Inhibitory postsynaptic potential (IPSP)**: $\mathrm{Cl}^-$ influx and/or $\mathrm{K}^+$ efflux
   hyperpolarises the membrane (e.g., GABA, glycine in the CNS).
 
-7. The neurotransmitter is rapidly removed from the synaptic cleft by:
+1. The neurotransmitter is rapidly removed from the synaptic cleft by:
 
 - **Enzymatic degradation**: e.g., acetylcholinesterase (AChE) hydrolyses acetylcholine into acetate
   and choline.
@@ -1077,7 +1076,7 @@ lead to involuntary movements (dyskinesias).
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Cell membrane structure and transport** --> Review
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)

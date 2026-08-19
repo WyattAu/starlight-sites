@@ -573,7 +573,6 @@ Manual `stop_token` integration as shown above is the recommended approach.
 - [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
 
-
 ## Common Pitfalls
 
 1. Memorising content without understanding the underlying principles. This leads to poor
@@ -600,4 +599,3 @@ Futures and promises are like a restaurant order ticket system. When you place a
 
 - [Task Scheduling](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/4_task_scheduling) - How executors schedule coroutine-based tasks
 - [Promise, Awaiter](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How coroutine promise types differ from std::promise
-

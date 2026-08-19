@@ -70,8 +70,8 @@ The search algorithm [N4950 §14.2] proceeds as follows:
 - A pointer or reference conversion to `const`.
 - An ellipsis (`catch (...)`) matches everything.
 
-4. The **first** matching clause in the innermost scope wins.
-5. If no frame contains a matching handler, `std::terminate()` is called [N4950 §14.7].
+1. The **first** matching clause in the innermost scope wins.
+2. If no frame contains a matching handler, `std::terminate()` is called [N4950 §14.7].
 
 The match is performed using `std::type_info::operator==` or the RTTI comparison function. On
 Itanium ABI systems, the `__gxx_personality_v0` personality function performs this comparison by

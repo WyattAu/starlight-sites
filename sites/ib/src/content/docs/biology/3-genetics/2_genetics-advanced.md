@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Most traits involve multiple genes interacting with each other and the environment, creating continuous variation
 
-
 ## 1. DNA Replication in Detail
 
 ### The Replication Fork
@@ -250,23 +249,23 @@ Ribosomes consist of a **large subunit** and a **small subunit**, composed of rR
 
 **Elongation:**
 
-5. **Aminoacyl-tRNA delivery**: an aminoacyl-tRNA matching the next codon enters the A site,
+1. **Aminoacyl-tRNA delivery**: an aminoacyl-tRNA matching the next codon enters the A site,
    escorted by **elongation factor Tu (EF-Tu)** in prokaryotes (eEF1$\alpha$ in eukaryotes), which
    hydrolyses GTP.
-6. **Peptide bond formation**: **peptidyl transferase** (an rRNA ribozyme in the large subunit)
+2. **Peptide bond formation**: **peptidyl transferase** (an rRNA ribozyme in the large subunit)
    catalyses the formation of a peptide bond between the amino acid in the P site and the amino acid
    in the A site.
-7. **Translocation**: **elongation factor G (EF-G)** in prokaryotes (eEF2 in eukaryotes), using GTP,
+3. **Translocation**: **elongation factor G (EF-G)** in prokaryotes (eEF2 in eukaryotes), using GTP,
    moves the ribosome by one codon: the empty tRNA moves to the E site and exits; the peptidyl-tRNA
    moves from the A site to the P site; the next codon is positioned in the A site.
 
 **Termination:**
 
-8. When a **stop codon** (UAA, UAG, UGA) enters the A site, there is no corresponding tRNA.
-9. **Release factors** (RF1, RF2 in prokaryotes; eRF1 in eukaryotes) bind to the stop codon.
-10. Peptidyl transferase hydrolyses the bond between the polypeptide and the tRNA, releasing the
+1. When a **stop codon** (UAA, UAG, UGA) enters the A site, there is no corresponding tRNA.
+2. **Release factors** (RF1, RF2 in prokaryotes; eRF1 in eukaryotes) bind to the stop codon.
+3. Peptidyl transferase hydrolyses the bond between the polypeptide and the tRNA, releasing the
     polypeptide.
-11. The ribosome dissociates into its subunits. Release factor RF3 (GTPase) facilitates this.
+4. The ribosome dissociates into its subunits. Release factor RF3 (GTPase) facilitates this.
 
 ### Post-Translational Modifications
 
@@ -884,7 +883,7 @@ $25$. How does this affect the probability for a random mating?
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Molecular biology -- DNA and proteins** --> Review
   [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
@@ -1690,7 +1689,7 @@ Pharmacogenomics studies how genetic variation affects drug response. Examples:
 
 | Gene         | Variant                         | Drug affected                    | Effect                                                        |
 | ------------ | ------------------------------- | -------------------------------- | ------------------------------------------------------------- |
-| CYP2C19      | Poor metaboliser (*2, *3)       | Clopidogrel (antiplatelet)       | Reduced activation of prodrug; higher cardiovascular events   |
+| CYP2C19      | Poor metaboliser (*2,*3)       | Clopidogrel (antiplatelet)       | Reduced activation of prodrug; higher cardiovascular events   |
 | CYP2D6       | Ultra-rapid metaboliser (\*1xN) | Codeine                          | Faster conversion to morphine; risk of respiratory depression |
 | VKORC1       | -1639 G>A                       | Warfarin (anticoagulant)         | Reduced VKORC1 expression; lower warfarin dose needed         |
 | HLA-B\*57:01 | Present                         | Abacavir (HIV drug)              | High risk of severe hypersensitivity reaction                 |

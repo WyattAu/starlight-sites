@@ -23,12 +23,12 @@ categories:
 
 ### 1.1 Cryptographic Goals
 
-| Goal              | Threat Addressed                      |
+| Goal | Threat Addressed |
 | ----------------- | ------------------------------------- |
-| **Confidentiality** | Eavesdropping                      |
-| **Integrity**      | Tampering with messages             |
-| **Authentication** | Impersonation                       |
-| **Non-repudiation** | Denying having sent a message      |
+| **Confidentiality** | Eavesdropping |
+| **Integrity** | Tampering with messages |
+| **Authentication** | Impersonation |
+| **Non-repudiation** | Denying having sent a message |
 
 ### 1.2 Kerckhoffs" Principle
 
@@ -305,13 +305,13 @@ $$W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \s
 
 ### 4.4 Hash Function Comparison
 
-| Function | Output (bits) | Block (bits) | Rounds | Status              |
+| Function | Output (bits) | Block (bits) | Rounds | Status |
 | --------- | ------------- | ------------ | ------ | ------------------- |
-| MD5       | 128           | 512          | 64     | Broken              |
-| SHA-1     | 160           | 512          | 80     | Broken (collision)  |
-| SHA-256   | 256           | 512          | 64     | Secure              |
-| SHA-3     | 256           | 1088         | 24     | Secure (Keccak)     |
-| BLAKE2    | 256/512       | 128          | 10-14  | Secure, very fast   |
+| MD5 | 128 | 512 | 64 | Broken |
+| SHA-1 | 160 | 512 | 80 | Broken (collision) |
+| SHA-256 | 256 | 512 | 64 | Secure |
+| SHA-3 | 256 | 1088 | 24 | Secure (Keccak) |
+| BLAKE2 | 256/512 | 128 | 10-14 | Secure, very fast |
 
 ## 5. Digital Signatures
 
@@ -536,10 +536,12 @@ ML-KEM_DECAP(sk, c):
 ## Worked Examples
 
 ### Example 1: RSA Encryption and Decryption
+
 **Problem:** Alice chooses primes p=11, q=13. Her public key is (e=7, n). Bob wants to send the message M=5. Compute the ciphertext and show that decryption recovers M.
 **Solution:** n = 11*13 = 143. phi(n) = (11-1)(13-1) = 120. e=7. d = e^-1 mod phi(n). Extended Euclidean: 7*17 = 119 = 120 - 1, so d = 17. Ciphertext C = 5^7 mod 143 = 78125 mod 143 = 47. Decryption: M = 47^17 mod 143. Compute: 47^2 mod 143 = 2209 mod 143 = 86. 47^4 mod 143 = 86^2 mod 143 = 7396 mod 143 = 20. 47^8 mod 143 = 20^2 mod 143 = 400 mod 143 = 14. 47^16 mod 143 = 14^2 mod 143 = 196 mod 143 = 53. 47^17 = 53*47 mod 143 = 2491 mod 143 = 5. M = 5 recovered.
 
 ### Example 2: Diffie-Hellman Key Exchange
+
 **Problem:** Alice and Bob agree on prime p=23 and generator g=5. Alice chooses private a=6, Bob chooses private b=15. Calculate their shared secret.
 **Solution:** Alice sends A = g^a mod p = 5^6 mod 23 = 15625 mod 23 = 8. Bob sends B = g^b mod p = 5^15 mod 23. 5^2=2, 5^4=4, 5^8=16, 5^15=16*4*2*5 mod 23 = 640 mod 23 = 19. Shared secret (Alice): B^a mod p = 19^6 mod 23 = 47045881 mod 23 = 2. Shared secret (Bob): A^b mod p = 8^15 mod 23 = 2. Both compute the same shared secret: 2.
 
@@ -566,7 +568,7 @@ Cryptography is the science of keeping secrets. Symmetric encryption (AES) is li
 ## Cross-References
 
 | Topic | Link |
-|-------|------|
+| ------- | ------ |
 | Algorithms Overview | [View](/docs_infrastructure/cs/algorithms-overview) |
 | Network Security | [View](../2-systems/networking) |
 | Distributed Systems | [View](../2-systems/distributed-systems) |

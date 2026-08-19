@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Logic provides the grammar of mathematics — it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for proof and logic.
@@ -253,8 +252,6 @@ then $p^2 = 6q^2$So $p$ is even, $p = 2r$$4r^2 = 6q^2$$2r^2 = 3q^2$So $q$ is eve
 lowest terms).
 
 This contradiction means our assumption is false. Therefore $\sqrt{2} + \sqrt{3}$ is irrational.
-
-
 
 ## Cross-References
 

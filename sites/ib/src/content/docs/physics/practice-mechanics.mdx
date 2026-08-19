@@ -11,7 +11,6 @@ description: "8 auto-graded practice problems at medium to hard difficulty, alig
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Physics practice is like learning a musical instrument — you must play (solve problems) to develop fluency, not just read sheet music (study formulas):** The key to mechanics problems is translating physical scenarios into mathematical equations, then solving and interpreting the results
@@ -20,13 +19,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **The key insight:** The key to mechanics problems is translating physical scenarios into mathematical equations, then solving and interpreting the results
 
-
 ## IB Physics — Mechanics Practice
 
 8 auto-graded practice problems at medium to hard difficulty, aligned to the IB Physics syllabus (SL/HL). Select an answer, submit, and review the explanation.
 
 ---
-
 
 ## Worked Examples
 
@@ -49,7 +46,6 @@ Step 5: $a = \frac{F_{net}}{m} = \frac{7.24}{2.0} = 3.62$ m/s²
 
 ---
 
-
 ### Example 2: Work-Energy Theorem
 
 **Problem:** A 5.0 kg object slides across a rough surface with $\mu_k = 0.30$. If it starts at 10 m/s, how far does it slide before stopping?
@@ -68,7 +64,6 @@ Step 5: $d = \frac{250}{14.715} = 17.0$ m
 **Key insight:** Work-energy problems are often easier than using $F = ma$ because you don't need to find time or acceleration first.
 
 ---
-
 
 ### Example 3: Projectile from Height
 
@@ -92,7 +87,6 @@ Step 6: $t = \frac{35.92}{9.81} = 3.66$ s (reject negative root)
 
 ---
 
-
 ### Kinematics
 
 <PracticeProblem client:only="solid-js" question={"A car accelerates uniformly from 12 m s⁻¹ to 28 m s⁻¹ over a distance of 200 m. Calculate the acceleration.&quot; options={['1.36 m s⁻²', '1.52 m s⁻²', '2.00 m s⁻²', '0.80 m s⁻²']} correctAnswer={1} explanation=&quot;Using v² = u² + 2as: 28² = 12² + 2(a)(200). 784 = 144 + 400a. 640 = 400a. a = 1.6 m s⁻² ≈ 1.52 m s⁻² after precise calculation. Actually a = 640/400 = 1.6 m s⁻² — the closest answer is 1.52 m s⁻², but more precisely: a = 1.6 m s⁻²."} difficulty="medium"  />
@@ -100,7 +94,6 @@ Step 6: $t = \frac{35.92}{9.81} = 3.66$ s (reject negative root)
 <PracticeProblem client:only="solid-js" question={"A projectile is launched at 35 m s⁻¹ at an angle of 40° above the horizontal from a cliff 60 m high. What is the horizontal range (to the nearest metre)? (g = 9.81 m s⁻²)&quot; options={['136 m', '152 m', '168 m', '124 m']} correctAnswer={0} explanation=&quot;Vertical: u_y = 35 sin40° = 22.5 m s⁻¹. Time to reach ground: −60 = 22.5t − ½(9.81)t². Solving 4.905t² − 22.5t − 60 = 0 gives t ≈ 5.36 s. Horizontal: u_x = 35 cos40° = 26.8 m s⁻¹. Range = 26.8 × 5.36 ≈ 136 m."} difficulty="hard"  />
 
 ---
-
 
 ### Dynamics
 
@@ -110,7 +103,6 @@ Step 6: $t = \frac{35.92}{9.81} = 3.66$ s (reject negative root)
 
 ---
 
-
 ### Energy
 
 <PracticeProblem client:only="solid-js" question={"A roller coaster car (800 kg) starts from rest at point A, 25 m above the ground. It descends to point B, 5.0 m above the ground. If 15% of the initial energy is lost to friction, what is its speed at B? (g = 9.81 m s⁻²)&quot; options={['18.3 m s⁻¹', '19.8 m s⁻¹', '20.6 m s⁻¹', '17.1 m s s⁻¹']} correctAnswer={0} explanation=&quot;Initial PE = mgh = 800 × 9.81 × 25 = 196 200 J. Energy at B = 0.85 × 196 200 = 166 770 J. PE at B = 800 × 9.81 × 5 = 39 240 J. KE at B = 166 770 − 39 240 = 127 530 J. v = √(2KE/m) = √(2 × 127 530/800) = √318.8 ≈ 17.9 m s⁻¹. Closest is 18.3 m s⁻¹."} difficulty="hard"  />
@@ -118,7 +110,6 @@ Step 6: $t = \frac{35.92}{9.81} = 3.66$ s (reject negative root)
 <PracticeProblem client:only="solid-js" question={"A 0.50 kg ball is thrown upward with an initial speed of 20 m s⁻¹. Using the work-energy theorem, determine the maximum height reached. (g = 9.81 m s⁻²)&quot; options={['20.4 m', '18.2 m', '15.6 m', '22.0 m']} correctAnswer={0} explanation=&quot;By the work-energy theorem: W_net = ΔKE. At max height, v = 0, so KE_final = 0. Work done by gravity = −mgΔh. −mgΔh = 0 − ½mv². Δh = v²/(2g) = 400/(2 × 9.81) = 20.4 m."} difficulty="medium"  />
 
 ---
-
 
 ### Momentum
 

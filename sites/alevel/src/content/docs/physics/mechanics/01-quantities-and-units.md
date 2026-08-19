@@ -23,6 +23,7 @@ categories:
 ## Quantities and Units
 
 > **Info:** Board Coverage AQA Paper 1 & 3 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
+>
 ## 1. Physical Quantities and the SI System
 
 We begin with the most fundamental question in physics: **how do we measure things?**
@@ -48,6 +49,7 @@ Varieties:
 | Luminous intensity  | $I_v$  | candela  | cd          |
 
 > **Info:** Note The candela is rarely encountered in A Level Physics. Focus on the first six.
+>
 ### Derived Units
 
 A derived unit is obtained by combining base units according to the physical relationship. We denote
@@ -808,7 +810,6 @@ and past paper questions, is essential for success in examinations.
 ## Intuition
 
 The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
-
 
 ## Cross-References
 

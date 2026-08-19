@@ -10,7 +10,6 @@ description: "8 auto-graded practice problems covering Java OOP concepts. Select
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills — they help you apply knowledge and identify areas that need more study.
@@ -25,7 +24,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Classes
 
 <PracticeProblem client:only="solid-js" question='Given `class Animal { void speak() { System.out.println("..."); } }` and `class Dog extends Animal { void speak() { System.out.println("Woof"); } }`, what does `((Animal) new Dog()).speak()` print?' options={['\"Woof\"', '\"...\"', 'Compilation error', 'ClassCastException']} correctAnswer={0} explanation='Java uses dynamic dispatch for instance methods. Even though the reference type is `Animal`, the actual object is a `Dog`. At runtime, Java calls `Dog`&apos;s overridden `speak()` method, printing "Woof". This is polymorphism in action.' difficulty="easy"  />
@@ -33,7 +31,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the output of `System.out.println(new int[]{1,2,3}.length)`?&quot; options={['3', 'Compilation error', 'length() not defined', 'undefined']} correctAnswer={0} explanation=&quot;Arrays in Java have a `length` property (not a method — no parentheses). For `int[]{1,2,3}`, the length is 3. Note: this is different from `String.length()` which is a method."} difficulty="easy"  />
 
 ---
-
 
 ### Interfaces
 
@@ -43,7 +40,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Generics
 
 <PracticeProblem client:only="solid-js" question={"What does `<T extends Number>` mean in a generic class declaration?&quot; options={[ 'T must be Number or a subclass of Number', 'T must be exactly Number', 'T can be any type that Number extends', 'T must implement the Number interface', ]} correctAnswer={0} explanation=&quot;The `extends` keyword in generics specifies an upper bound. `<T extends Number>` means T can be `Number` or any subclass (`Integer`, `Double`, etc.). This allows the generic code to call methods defined in `Number` like `intValue()` or `doubleValue()`."} difficulty="medium"  />
@@ -51,7 +47,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the difference between `List<?>` and `List<Object>`?&quot; options={[ 'List<?> can hold any type; List<Object> can only hold Object references', 'They are identical', 'List<?> cannot hold any elements', 'List<Object> is more permissive than List<?>', ]} correctAnswer={0} explanation=&quot;`List<?>` is a wildcard type that can reference a list of any specific type but you cannot add elements (except null). `List<Object>` specifically means a list that can hold any Object. You can add any Object to `List<Object>` but not to `List<?>`. They are not the same."} difficulty="hard"  />
 
 ---
-
 
 ### Collections
 
@@ -61,7 +56,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Interfaces and Abstract Classes
 
 <PracticeProblem client:only="solid-js" question={"Given `interface Describable { default String describe() { return \"default\"; } }` and `class Widget implements Describable { }`, what does `new Widget().describe()` return?&quot; options={['\"default\"', 'Compilation error', 'null', 'Empty string']} correctAnswer={0} explanation=&quot;Since Widget does not override describe(), it inherits the default method from the Describable interface. The default method returns \"default\"."} difficulty="easy"  />
@@ -70,13 +64,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Enums
 
 <PracticeProblem client:only="solid-js" question={"What is the key difference between a basic enum and an enum with fields and methods in Java?&quot; options={[ 'Basic enums are simple constants; enums with fields can carry data and override methods per constant', 'There is no difference', 'Enums with fields cannot be used in switch statements', 'Basic enums support generics', ]} correctAnswer={0} explanation=&quot;Basic enums like `enum Color { RED, GREEN, BLUE }` are simple constants. Enums with fields like `enum Planet { MERCURY(3.303e+23, 2.4397e6) }` can store per-constant data and provide methods. Both can override methods, but enums with fields carry additional state."} difficulty="medium"  />
 
 ---
-
 
 ### Records and Sealed Classes
 
@@ -86,7 +78,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ### Enums and Records
 
 <PracticeProblem client:only="solid-js" question={"What does `enum Planet { MERCURY(3.303e+23, 2.4397e6), VENUS(4.869e+24, 6.0518e6); final double mass; final double radius; Planet(double mass, double radius) { this.mass = mass; this.radius = radius; } }` allow you to do?&quot; options={[ 'Access Planet.MERCURY.mass directly without getters', 'Iterate planets with Planet.values()', 'Both A and B', 'Neither A nor B', ]} correctAnswer={2} explanation=&quot;Enums with fields let you access per-constant data directly (Planet.MERCURY.mass). Planet.values() returns an array of all enum constants. Enhanced enums can also have methods and implement interfaces."} difficulty="medium"  />
@@ -94,7 +85,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the key difference between a record and a regular class with final fields?&quot; options={[ 'Records auto-generate equals/hashCode/toString; regular classes do not', 'Records can have instance methods; regular classes cannot', 'Records are mutable; regular classes are immutable', 'There is no difference', ]} correctAnswer={0} explanation=&quot;Records generate equals(), hashCode(), toString(), and accessor methods automatically. A regular class with final fields requires manually implementing these methods. Records also provide a canonical constructor and can only have data fields (no additional instance fields)."} difficulty="easy"  />
 
 ---
-
 
 ### Inheritance and Polymorphism
 

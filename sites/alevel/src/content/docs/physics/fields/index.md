@@ -192,7 +192,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
 
-
 ## Cross-References
 
 - [Mechanics](../mechanics)

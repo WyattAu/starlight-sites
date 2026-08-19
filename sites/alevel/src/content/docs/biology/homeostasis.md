@@ -23,6 +23,7 @@ categories:
 ## Homeostasis
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Principles of Homeostasis
 
 ### 1.1 Definition
@@ -129,8 +130,8 @@ Langerhans**, which contain two types of cell:
 - Increased glycolysis: increased respiration of glucose.
 - Decreased gluconeogenesis: reduced synthesis of glucose from amino acids and glycerol.
 
-7. Blood glucose concentration decreases towards the set point.
-8. As glucose returns to normal, $\beta$ cells reduce insulin secretion (negative feedback).
+1. Blood glucose concentration decreases towards the set point.
+2. As glucose returns to normal, $\beta$ cells reduce insulin secretion (negative feedback).
 
 ### 2.4 Mechanism: Blood Glucose Too Low (After Fasting or Exercise)
 
@@ -145,8 +146,8 @@ Langerhans**, which contain two types of cell:
   glycerol).
 - The release of glucose from liver cells into the blood.
 
-6. Blood glucose concentration increases towards the set point.
-7. As glucose returns to normal, $\alpha$ cells reduce glucagon secretion (negative feedback).
+1. Blood glucose concentration increases towards the set point.
+2. As glucose returns to normal, $\alpha$ cells reduce glucagon secretion (negative feedback).
 
 **Adrenaline** (from the adrenal medulla) also raises blood glucose during the fight-or-flight
 response by stimulating glycogenolysis in the liver and muscles.
@@ -1291,7 +1292,6 @@ $50\ \mu\mathrm{mol\ L^{-1}}$). Causes:
 }
 </script>
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 ## 17. Thermoregulation in Ectotherms
@@ -2317,7 +2317,6 @@ responses (drought, cold, salinity) and seed dormancy.
 
 4. Confusing correlation with causation when evaluating experimental data and drawing conclusions.
 
-
 ## Intuition
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
@@ -2332,7 +2331,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

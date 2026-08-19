@@ -56,7 +56,7 @@ The Korean War (1950-1953) and the United Nations trade embargo against China di
 **Key milestones:**
 
 | Period | Development |
-|--------|-------------|
+| -------- | ------------- |
 | 1950s | Textile industry dominance; establishment of major factories |
 | 1960s | Diversification into electronics, toys, and watches |
 | 1970s | Financial sector development; emergence of the stock market |
@@ -136,8 +136,6 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 - In essay questions, avoid presenting Hong Kong's development as a simple narrative of economic success. Analyse the social costs of industrialisation, the political limitations of colonial governance, and the tensions inherent in the One Country, Two Systems framework.
 - Use specific evidence including dates, statistics, policy details, and personal accounts to support arguments about Hong Kong's development.
 - When evaluating the significance of the 1997 Handover, consider both the immediate reactions and the longer-term implications for Hong Kong's political, economic, and social development.
-
-
 
 ## Cross-References
 

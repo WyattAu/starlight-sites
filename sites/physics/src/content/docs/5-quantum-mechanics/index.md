@@ -91,6 +91,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -131,4 +132,3 @@ Quantum mechanics is the theory of what happens when you look very closely at ve
 The mathematical framework is surprisingly clean once you accept its premises. States are vectors in an abstract Hilbert space. Observables are Hermitian operators on that space. Measurement gives eigenvalues with probabilities determined by the state. Time evolution follows the Schrödinger equation, which is deterministic — the wavefunction evolves smoothly and predictably. The weirdness enters only when you measure, and even that has precise rules. The uncertainty principle isn't about measurement limitations; it's a mathematical consequence of the fact that position and momentum operators don't commute. You can know both precisely in principle — but not simultaneously, because the wavefunctions that are sharply peaked in position are necessarily spread out in momentum.
 
 The power of quantum mechanics is that it unifies an enormous range of phenomena under one framework. The periodic table, chemical bonding, semiconductor behaviour, laser operation, nuclear structure, particle interactions — all are consequences of the same postulates. When you understand why the hydrogen atom has discrete energy levels, you understand the same physics that makes neon signs glow and fibre-optic cables carry data. The approximation methods — perturbation theory, variational methods, WKB — are what make quantum mechanics practical for real systems where exact solutions don't exist. Learning quantum mechanics isn't just learning a subject; it's learning the language in which nature writes at its most fundamental level.
-

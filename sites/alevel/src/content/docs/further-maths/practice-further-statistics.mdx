@@ -13,7 +13,6 @@ tags:
 import PracticeProblem from "@components/PracticeProblem";
 import { practiceQuestions } from '@/data/flashcards/further-maths/practice-further-statistics-data.js';
 
-
 ## A-Level Further Maths -- Further Statistics Practice
 
 16 MCQ practice problems. Select an answer, submit, and review the explanation.
@@ -33,7 +32,6 @@ These problems test your ability to work with probability distributions, calcula
 
 ---
 
-
 ### Approach Strategy
 
 1. **Check that probabilities sum to 1.** Before doing any calculation, verify that $\sum P(X = x) = 1$ (discrete) or $\int f(x)\,dx = 1$ (continuous). If they don't, re-read the question.
@@ -42,7 +40,6 @@ These problems test your ability to work with probability distributions, calcula
 4. **Check degrees of freedom carefully.** For $\chi^{2}$ goodness of fit: $df = k - 1 - m$ where $k$ is the number of categories and $m$ is the number of estimated parameters. For contingency tables: $df = (r-1)(c-1)$.
 
 ---
-
 
 ### Intuition
 
@@ -54,7 +51,6 @@ The $\chi^{2}$ test measures the "distance" between what you observed and what y
 
 ---
 
-
 ### Common Mistakes
 
 1. **Forgetting to check that expected frequencies are large enough.** For $\chi^{2}$ tests, all expected frequencies should be at least 5. If some are smaller, categories must be combined.
@@ -63,8 +59,6 @@ The $\chi^{2}$ test measures the "distance" between what you observed and what y
 4. **Misinterpreting "not significant."** Failing to reject $H_{0}$ does not mean $H_{0}$ is true. It means there is insufficient evidence to reject it. The distinction is important.
 
 ---
-
-
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />
 

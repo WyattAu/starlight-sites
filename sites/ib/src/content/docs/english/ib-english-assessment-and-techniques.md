@@ -192,7 +192,6 @@ Author's purpose, the text's relationship to its context, or the larger themes i
 
 **The key insight:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts
 
-
 ## 2. Paper 2: Comparative Essay
 
 ### 2.1 Structure and Expectations

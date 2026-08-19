@@ -2,15 +2,16 @@
   "ci": {
     "collect": {
       "url": [
+        "https://wyattsnotes.wyattau.com/",
         "https://dse.wyattau.com/",
         "https://ib.wyattau.com/",
         "https://alevel.wyattau.com/",
-        "https://university.wyattau.com/",
-        "https://qualifications.wyattau.com/",
         "https://programming.wyattau.com/",
-        "https://infrastructure.wyattau.com/",
         "https://languages.wyattau.com/",
-        "https://tools.wyattau.com/"
+        "https://tools.wyattau.com/",
+        "https://python.wyattau.com/",
+        "https://machine-learning.wyattau.com/",
+        "https://sat.wyattau.com/"
       ],
       "numberOfRuns": 1,
       "settings": {

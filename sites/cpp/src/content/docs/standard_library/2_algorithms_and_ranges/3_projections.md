@@ -568,7 +568,6 @@ int main() {
 - [Range Materialization](./4_range_materialization.md)
 - [Parallel Algorithms](./5_parallel_algorithms.md)
 
-
 ## Summary
 
 This topic covers the core concepts of projections and callable objects, including underlying
@@ -593,4 +592,3 @@ Projections are the "key extractor" in sorting and searching algorithms, telling
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

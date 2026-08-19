@@ -292,14 +292,14 @@ $\mathrm{dom}(g) = \mathbb{R}$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$So
 $2x - 3 \neq 1 \implies x \neq 2$. Also $2x - 4 \neq 0 \implies x \neq 2$.
 $\mathrm{dom}(f \circ g) = \mathbb{R} \setminus \{2\}$.
 
-2. **Question:** Find $f^{-1}$ for $f(x) = \dfrac{3x + 1}{x - 2}$ ($x \neq 2$).
+1. **Question:** Find $f^{-1}$ for $f(x) = \dfrac{3x + 1}{x - 2}$ ($x \neq 2$).
 
 Set $y = \dfrac{3x + 1}{x - 2}$. Then
 $y(x - 2) = 3x + 1 \implies yx - 2y = 3x + 1 \implies x(y - 3) = 2y + 1$.
 
 $f^{-1}(x) = \dfrac{2x + 1}{x - 3}$$\mathrm{dom}(f^{-1}) = \mathbb{R} \setminus \{3\}$.
 
-3. **Question:** Let $f(x) = x^2 - 4x + 3$ with domain $[1, \infty)$. Find $f^{-1}(0)$.
+1. **Question:** Let $f(x) = x^2 - 4x + 3$ with domain $[1, \infty)$. Find $f^{-1}(0)$.
 
 First find $f^{-1}$. Set $y = (x - 2)^2 - 1$. Since domain is $[1, \infty)$Range is $[-1, \infty)$.
 
@@ -311,14 +311,14 @@ $f^{-1}(0) = 2 + \sqrt{0 + 1} = 2 + 1 = 3$.
 
 Verification: $f(3) = 9 - 12 + 3 = 0$. Confirmed.
 
-4. **Question:** The graph of $y = f(x)$ has a minimum at $(1, -2)$ and passes through $(0, 3)$.
+1. **Question:** The graph of $y = f(x)$ has a minimum at $(1, -2)$ and passes through $(0, 3)$.
    Find the corresponding points on $y = 3f(2x) + 1$.
 
 $(1, -2) \to$ set $2x = 1 \implies x = 0.5$$y = 3(-2) + 1 = -5$. Point: $(0.5, -5)$.
 
 $(0, 3) \to$ set $2x = 0 \implies x = 0$$y = 3(3) + 1 = 10$. Point: $(0, 10)$.
 
-5. **Question:** A function $f$ is defined by $f(x) = 2 - x^2$ for $x \leqslant 0$. State the range
+1. **Question:** A function $f$ is defined by $f(x) = 2 - x^2$ for $x \leqslant 0$. State the range
    of $f$ and find $f^{-1}$.
 
 Since $x \leqslant 0$: $x^2 \geqslant 0$So $f(x) = 2 - x^2 \leqslant 2$. As $x \to -\infty$
@@ -329,7 +329,7 @@ $x \leqslant 0$).
 
 $f^{-1}(x) = -\sqrt{2 - x}$$\mathrm{dom}(f^{-1}) = (-\infty, 2]$.
 
-6. **Question:** Given $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + x + 1$Find $\mathrm{dom}(g \circ f)$.
+1. **Question:** Given $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + x + 1$Find $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(f) = [1, \infty)$$\mathrm{dom}(g) = \mathbb{R}$.
 
@@ -337,13 +337,13 @@ $(g \circ f)(x) = g(\sqrt{x - 1}) = (\sqrt{x - 1})^2 + \sqrt{x - 1} + 1 = x - 1 
 
 Since $g$ has no domain restriction, $\mathrm{dom}(g \circ f) = \mathrm{dom}(f) = [1, \infty)$.
 
-7. **Question:** Find the domain and range of $f(x) = \dfrac{1}{x^2 + 1}$.
+1. **Question:** Find the domain and range of $f(x) = \dfrac{1}{x^2 + 1}$.
 
 Domain: $x^2 + 1 \neq 0$ for all real $x$ (since $x^2 \geqslant 0$). $\mathrm{dom}(f) = \mathbb{R}$.
 
 Range: $x^2 + 1 \geqslant 1$So $0 \lt \dfrac{1}{x^2 + 1} \leqslant 1$. $\mathrm{range}(f) = (0, 1]$.
 
-8. **Question:** Let $f(x) = |x - 3| + |x + 1|$. Express $f$ as a piecewise function and find its
+1. **Question:** Let $f(x) = |x - 3| + |x + 1|$. Express $f$ as a piecewise function and find its
    minimum value.
 
 Critical points at $x = 3$ and $x = -1$:

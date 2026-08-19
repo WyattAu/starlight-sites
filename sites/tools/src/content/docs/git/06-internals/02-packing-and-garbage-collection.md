@@ -169,7 +169,7 @@ Git runs auto-gc in certain operations (`git commit``git merge``git rebase`) whe
 count exceeds `gc.auto`. You can disable auto-gc:
 
 ```bash
-$ git config gc.auto 0
+git config gc.auto 0
 ```
 
 ### Aggressive GC

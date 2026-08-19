@@ -282,6 +282,7 @@ Applied force: $F = 20\,\mathrm{N}$
 Fictitious force: $-ma = -5 \times 2 = -10\,\mathrm{N}$ (horizontal component, since the elevator accelerates vertically, the fictitious force is purely vertical)
 
 Wait -- the fictitious force is vertical, not horizontal. In the elevator frame, the block experiences:
+
 - Gravity: $mg$ downward
 - Normal force: $N$ upward
 - Fictitious force: $ma$ downward (since elevator accelerates upward)
@@ -336,7 +337,6 @@ the One that **minimises** (or more precisely, makes stationary) the **action**.
 (centrifugal, Coriolis) that Are artifacts of the coordinate choice. The Lagrangian formulation
 automatically accounts for these Through the coordinate transformation of the kinetic energy,
 without any ad-hoc force terms.
-
 
 </aside>
 

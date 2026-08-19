@@ -800,7 +800,6 @@ $w\,\Delta t = u^2\sin^2\theta / (2g)$ for some $\Delta t \gt 0$.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -855,4 +854,3 @@ linked above.
 - [Dynamics (Extended)](dynamics-depth.md) -- The extended dynamics treatment applies Newton's laws to connected particles, friction, and inclined planes.
 - [Energy and Work](04-energy-and-work.md) -- The work-energy theorem relates forces and displacement to changes in kinetic energy, linking dynamics to kinematics.
 - [Differentiation](../pure-mathematics/10-differentiation.mdx) -- Velocity is the derivative of displacement and acceleration is the derivative of velocity, connecting calculus to motion.
-

@@ -83,6 +83,7 @@ $$\text{C}_6\text{H}_5\text{COOH} + \text{C}_2\text{H}_5\text{OH} \xrightlefthar
 Benzoic acid + ethanol $\rightleftharpoons$ ethyl benzoate + water
 
 The reaction is reversible. To drive it forward:
+
 1. Use excess alcohol or acid
 2. Remove water (using Dean-Stark trap or molecular sieves)
 3. Use concentrated H$_2$SO$_4$ as catalyst (absorbs water)

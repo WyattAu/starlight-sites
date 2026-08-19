@@ -19,7 +19,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 ### Additional Flashcard Topics
 
 - **Process Scheduling**: FCFS, SJF, Round Robin, Priority, MLFQ. Scheduling algorithms balance throughput, response time, and fairness. Preemptive vs non-preemptive scheduling affects system responsiveness.
@@ -46,11 +45,10 @@ An operating system is **the layer between hardware and applications** — it ma
 
 ---
 
-
 ## Key Concepts
 
 | Concept | Why It Matters |
-|---------|---------------|
+| --------- | --------------- |
 | **Process scheduling** | Determines which process runs when; affects throughput and responsiveness |
 | **Virtual memory** | Provides process isolation and enables programs larger than physical memory |
 | **Page replacement** | LRU, FIFO, Optimal algorithms decide which pages to evict when memory is full |
@@ -58,7 +56,6 @@ An operating system is **the layer between hardware and applications** — it ma
 | **File system** | Organises storage hierarchically; journals ensure consistency after crashes |
 
 ---
-
 
 ## Common Pitfalls
 
@@ -73,7 +70,6 @@ An operating system is **the layer between hardware and applications** — it ma
 **Forgetting that context switches are expensive.** A context switch involves saving and restoring CPU state, flushing TLBs, and potentially swapping cache contents. Frequent context switches degrade performance significantly.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-operating-systems" title="University Computing -- Operating Systems" description="Flashcards covering process management, memory management, file systems, synchronization, I/O, and security." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 

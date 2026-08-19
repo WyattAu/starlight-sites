@@ -225,7 +225,6 @@ $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 
 </details>
 
-
 </aside>
 
 ## Intuition

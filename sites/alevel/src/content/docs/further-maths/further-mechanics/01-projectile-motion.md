@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -1309,4 +1308,3 @@ $u\sin\theta - gt = 0 \implies t = \dfrac{u\sin\theta}{g}$. $\blacksquare$
 - [Centres of Mass and Elastic Collisions](03-centres-of-mass-and-elastic-collisions) applies energy conservation and impulse-momentum principles to systems of particles in direct and oblique impacts.
 - [Further Calculus](../pure-mathematics/04-further-calculus) provides the parametric differentiation and integration methods used to derive the trajectory equation and optimise range.
 - [Vectors in 3D](../pure-mathematics/09-vectors-in-3d) supplies the vector notation and resolution techniques that generalise projectile analysis to three-dimensional motion.
-

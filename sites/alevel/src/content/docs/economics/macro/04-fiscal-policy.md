@@ -572,7 +572,6 @@ Out." Evaluate this statement.
 Partially false. Crowding out was limited during 2008–09 because: (1) The economy was in deep recession with large output gap → idle resources available. (2) Interest rates were cut to near zero (the zero lower bound) → central bank accommodated fiscal expansion by keeping $r$ low. (3) Private investment was already depressed ( pessimism) → crowding out was minimal. However: (1) The UK's high MPM (~0.3) reduced the multiplier. (2) Some financial crowding out occurred as government borrowing increased. (3) Confidence effects may have amplified or dampened the policy. The effectiveness of fiscal policy was moderate — sufficient to prevent a deeper recession but not enough to deliver a rapid recovery. *Revision: see [Macroeconomic Performance](01-macroeconomic-performance) for data on UK GDP and unemployment post-2008.*
 </details>
 
-
 <aside class="starlight-aside starlight-aside--danger">
 - **Including transfer payments as part of G in the AD equation:** Transfer payments (benefits,
   pensions) are NOT part of government spending G in AD = C + I + G + (X-M). They affect AD
@@ -764,6 +763,7 @@ $\Delta R = 0.50 \times (200 -
 - Conclusion: a modest revenue increase is likely, but the Laffer curve suggests the UK is
 approaching the revenue-maximising rate for top income tax. The equity-efficiency trade-off is the
 key consideration.
+
 </details>
 
 **Question 3 (25 marks).** "Expansionary fiscal policy is always more effective than expansionary
@@ -811,6 +811,7 @@ monetary policy in reducing unemployment during a recession." Evaluate this stat
 - Conclusion: neither policy is universally superior. The optimal approach depends on the nature and
 severity of the recession, the state of public finances, and the position of interest rates relative
 to the zero lower bound.
+
 </details>
 
 ## Common Mistakes
@@ -1036,8 +1037,6 @@ the definitions, applying the formulas or frameworks, and evaluating strengths a
 each approach.
 
 </aside>
-
-
 
 ## Cross-References
 

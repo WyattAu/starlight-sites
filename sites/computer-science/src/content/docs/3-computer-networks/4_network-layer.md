@@ -371,7 +371,6 @@ ICMP "Fragmentation Needed" and the sender reduces packet size. Preferred over f
 addresses and is valid for Point-to-point links with no network or broadcast address. A `/32` is a
 single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes of `/30` or shorter.
 
-
 </aside>
 
 ## Common Mistakes

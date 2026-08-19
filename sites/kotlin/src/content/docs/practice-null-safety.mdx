@@ -10,14 +10,12 @@ description: "8 auto-graded practice problems covering Kotlin null safety, scope
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Kotlin — Null Safety Practice
 
 8 auto-graded practice problems covering Kotlin null safety, scope functions, sealed classes, and
 coroutines. Select an answer, submit, and review the explanation.
 
 ---
-
 
 ### Null Safety
 
@@ -27,7 +25,6 @@ coroutines. Select an answer, submit, and review the explanation.
 
 ---
 
-
 ### Scope Functions
 
 <PracticeProblem client:only="solid-js" question='What does `val x = "hello".let { it.uppercase() }` return?' options={['\"HELLO\"', '\"hello\"', 'Unit', 'Compilation error']} correctAnswer={0} explanation='`let` executes the lambda with the receiver as `it`, and returns the lambda&apos;s result. `"hello".let { it.uppercase() }` calls `uppercase()` on "hello", returning "HELLO".' difficulty="easy"  />
@@ -36,7 +33,6 @@ coroutines. Select an answer, submit, and review the explanation.
 
 ---
 
-
 ### Sealed Classes
 
 <PracticeProblem client:only="solid-js" question={"What advantage does a `sealed class` provide over an `open class` for modelling a restricted hierarchy?&quot; options={[ 'The compiler ensures all subclasses are known and handles exhaustiveness in `when` expressions', 'Sealed classes are faster at runtime', 'Sealed classes cannot have properties', 'Sealed classes can only have one subclass', ]} correctAnswer={0} explanation=&quot;Sealed classes restrict inheritance to a known set of subclasses defined in the same file/package. This enables the compiler to verify that all cases are handled in `when` expressions (exhaustive checking), making the code safer. In Kotlin 1.5+, subclasses can be in the same package."} difficulty="medium"  />
@@ -44,7 +40,6 @@ coroutines. Select an answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"Given `sealed class Result { data class Success(val data: String) : Result(); data class Error(val message: String) : Result() }`, which `when` expression is exhaustive?&quot; options={[ 'when (r) { is Result.Success -> ...; is Result.Error -> ... }', 'when (r) { is Result.Success -> ... }', 'when (r) { }', 'when (r) { else -> ... }', ]} correctAnswer={0} explanation=&quot;Since `Result` is a sealed class with exactly two subclasses (`Success` and `Error`), a `when` expression covering both `is Result.Success` and `is Result.Error` branches is exhaustive — no `else` branch needed. The compiler verifies all sealed subclasses are handled."} difficulty="easy"  />
 
 ---
-
 
 ### Coroutines
 
@@ -67,6 +62,7 @@ coroutines. Select an answer, submit, and review the explanation.
 **Forgetting that smart casts dont work with mutable properties:** If a variable is declared `var` and could be modified between the null check and usage, Kotlin cannot smart-cast it. Use a local val or explicit cast to work around this.
 
 **Confusing `let` with `apply` for null handling:** `?.let { ... }` executes the block only if the receiver is non-null and provides the non-null value as `it`. `?.apply { ... }` executes only if non-null but provides the receiver as `this`.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for kotlin notes.

@@ -77,7 +77,6 @@ Position (given a pointer to the preceding node). The critical disadvantage is $
 And poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
 
-
 ### Reversal
 
 ```python
@@ -305,7 +304,6 @@ Kernel (for process address space management). They are preferred over balanced 
 Contexts because they are simpler to implement correctly in concurrent settings — insertion and
 Deletion only need to lock the nodes being modified, not the entire structure.
 
-
 ## Stacks
 
 A stack is a LIFO (Last In, First Out) data structure with two primary operations: `push` (add to
@@ -480,7 +478,6 @@ class CircularQueue:
 Queues, audio playback buffers, log rotation, producer-consumer patterns, and pipe implementations.
 The key advantage is that enqueue and dequeue never require memory allocation or copying — they just
 Advance indices modulo the capacity.
-
 
 ## Deques
 
@@ -674,7 +671,6 @@ Maximum of any future window that includes the current element. Removing them fr
 Maintains the invariant that the deque contains a decreasing sequence of values, and the maximum is
 Always at the front.
 
-
 ## Union-Find (Disjoint Set Union)
 
 Union-Find is a data structure that tracks a partition of elements into disjoint sets, supporting
@@ -829,7 +825,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

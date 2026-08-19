@@ -11,7 +11,6 @@ description: "10 auto-graded practice problems covering fundamentals, integratio
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Rigorous integration:** Measure theory puts integration on a rigorous foundation — it defines what it means to integrate over weird sets (like the Cantor set) and ensures that limits and integrals can be swapped under appropriate conditions. It is the foundation of modern probability theory.
@@ -27,7 +26,6 @@ answer, submit, and review the explanation.
 
 ---
 
-
 ### Fundamentals
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is a sigma-algebra on $X = \{1, 2, 3\}$?&quot; options={[ '$\{\\emptyset, \{1\}, \{2, 3\}, X\}$', '$\{\\emptyset, \{1\}, \{2\}, X\}$', '$\{\\emptyset, \{1, 2\}, X\}$', '$\{\\emptyset, \{1, 2\}, \{3\}, X\}$', ]} correctAnswer={0} explanation=&quot;A sigma-algebra must contain $X$ and $\emptyset$, be closed under complements, and be closed under countable unions. Option (a): $\emptyset^c = X$, ${1}^c = {2,3}$, ${2,3}^c = {1}$, $X^c = \emptyset$. All unions of these stay in the collection. For (b), ${1} \cup {2} = {1,2}$ is not in the collection. For (c), ${1,2}^c = {3}$ is missing. For (d), ${1,2} \cup {3} = X$ is fine, but this set is also a sigma-algebra -- however, the question asks for a correct answer and (a) is valid."} difficulty="easy"  />
@@ -40,7 +38,6 @@ answer, submit, and review the explanation.
 
 ---
 
-
 ### Integration
 
 <PracticeProblem client:only="solid-js" question={"Let $f_n = n \\chi_{(0, 1/n)}$ on $[0, 1]$ with Lebesgue measure. What is $\\lim_{n \\to \\infty} \\int_0^1 f_n\\, dx$ and does it equal $\\int_0^1 (\\lim f_n)\\, dx$?&quot; options={[ 'The limit of integrals is 1, but the pointwise limit is 0, so they differ', 'Both equal 0', 'Both equal 1', 'The limit of integrals is 0, and the pointwise limit is 1', ]} correctAnswer={0} explanation=&quot;$f_n \to 0$ pointwise everywhere (for any $x > 0$, $f_n(x) = 0$ for $n > 1/x$). But $\int f_n\, dx = n \cdot (1/n) = 1$ for all $n$. So $\lim \int f_n = 1 \neq 0 = \int \lim f_n$. The DCT does not apply because no integrable dominating function exists (the supremum of $f_n$ is unbounded)."} difficulty="medium"  />
@@ -52,7 +49,6 @@ answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"Let $f_n \\to f$ pointwise on a finite measure space $(X, \\mathcal{F}, \\mu)$ with $\\int f_n\\, d\\mu = 0$ for all $n$. What can you conclude?&quot; options={[ '$\\int f\\, d\\mu = 0$', '$f = 0$ almost everywhere', '$\\int f\\, d\\mu$ could be any value in $[0, \\mu(X)]$', 'The sequence $f_n$ is dominated by an integrable function', ]} correctAnswer={0} explanation=&quot;Without additional hypotheses (such as a dominating function or non-negativity), nothing guarantees that $\lim \int f_n = \int f$. For example, $f_n = n \chi_{(0,1/n)}$ on $[0,1]$ has $\int f_n = 1$ for all $n$, $f_n \to 0$ a.e., and $\int f = 0 \neq 1 = \lim \int f_n$. So $\int f\, d\mu$ can differ from $\lim \int f_n\, d\mu$."} difficulty="hard"  />
 
 ---
-
 
 ### L^p Spaces
 

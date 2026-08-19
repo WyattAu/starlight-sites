@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -446,8 +445,6 @@ Due to the complexity, the exact vertices are:
 intervals. Given the complexity of the vertices, the area is computed by splitting $R$ into
 sub-regions bounded by pairs of curves and summing the definite integrals. The computation is
 extensive but follows standard techniques of integration between curves.
-
-
 
 ## Cross-References
 

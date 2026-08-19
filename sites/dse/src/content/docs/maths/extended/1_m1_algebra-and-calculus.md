@@ -319,7 +319,6 @@ $$y^2 = x^2 + 3$$
 
 Mathematical thinking is about abstraction and pattern recognition. Numbers, shapes, and equations are tools for modelling reality - from calculating interest to predicting weather. The beauty of mathematics is that once a pattern is discovered, it can be applied universally. This connects algebra, geometry, and calculus into a coherent framework for understanding quantity, space, and change.
 
-
 ## Cross-References
 
 - [Algebra](../../../../../../sat/src/content/docs/mathematics/algebra)

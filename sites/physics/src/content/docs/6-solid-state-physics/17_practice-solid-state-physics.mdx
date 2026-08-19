@@ -11,7 +11,6 @@ description: "UNIVERSITY Physics practice problems: Solid State Physics Practice
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **How atoms become materials:** Solid state physics explains how individual atoms combine to form materials with specific properties — why copper conducts electricity, why silicon is a semiconductor, and why diamond is transparent and hard. It bridges atomic physics and materials science.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Crystal Structures and Reciprocal Lattice
 
 <PracticeProblem client:only="solid-js" question={"How many atoms per unit cell does the face-centred cubic (FCC) structure contain, and what is its packing fraction?&quot; options={[ '4 atoms per unit cell; packing fraction = pi/(3*sqrt(2)) approx 0.74', '4 atoms per unit cell; packing fraction = pi/6 approx 0.52', '2 atoms per unit cell; packing fraction = pi/sqrt(18) approx 0.68', '6 atoms per unit cell; packing fraction = pi/(2*sqrt(2)) approx 0.74', ]} correctAnswer={0} explanation=&quot;FCC has 8 corner atoms (1/8 each) + 6 face atoms (1/2 each) = 8 x (1/8) + 6 x (1/2) = 1 + 3 = 4 atoms per unit cell. The atoms touch along face diagonals: sqrt(2)*a = 4R, so R = sqrt(2)*a/4. Packing fraction = (4 x (4/3)*pi*R^3)/a^3 = (16*pi/3)(sqrt(2)*a/4)^3/a^3 = (16*pi/3)(2*sqrt(2)*a^3/64)/a^3 = pi*sqrt(2)/6 = pi/(3*sqrt(2)) approx 0.7405. This is the highest packing fraction for equal spheres in 3D."} difficulty="easy"  />
@@ -37,7 +35,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"For a BCC lattice with conventional cube side a, what is the magnitude of the shortest reciprocal lattice vector G?&quot; options={[ '|G_min| = 2*pi*sqrt(3)/a', '|G_min| = 2*pi/a', '|G_min| = 4*pi/(a*sqrt(3))', '|G_min| = 4*pi/a', ]} correctAnswer={0} explanation=&quot;The BCC lattice has primitive vectors a_1 = (a/2)(x+y-z), a_2 = (a/2)(-x+y+z), a_3 = (a/2)(x-y+z). The reciprocal lattice primitive vectors are b_1 = (2*pi/a)(y+z), b_2 = (2*pi/a)(z+x), b_3 = (2*pi/a)(x+y). The reciprocal lattice of BCC is FCC. The shortest G vectors are of type {111} in the FCC reciprocal lattice: G = (2*pi/a)(x+y+z), with |G| = (2*pi/a)*sqrt(1+1+1) = 2*pi*sqrt(3)/a. These correspond to the first Brillouin zone boundaries of the BCC direct lattice, where the first diffraction peaks appear."} difficulty="hard"  />
 
 ---
-
 
 ### Electronic Band Theory and Semiconductors
 
@@ -50,7 +47,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"A semiconductor carries a current of 10 mA with a magnetic field of 0.5 T applied perpendicular to the current. The Hall voltage measured is 2.5 mV for a sample of thickness d = 1 mm. What is the carrier concentration? (n = IB/(eV_H·d))&quot; options={[ 'n = 1.25 x 10^22 m^-3', 'n = 6.25 x 10^18 m^-3', 'n = 3.12 x 10^22 m^-3', 'n = 8.0 x 10^19 m^-3', ]} correctAnswer={0} explanation=&quot;Hall coefficient: R_H = V_H*d/(I*B). Carrier concentration: n = 1/(e*R_H) = I*B/(e*V_H*d). Substituting: n = (10 x 10^-3)(0.5)/((1.602 x 10^-19)(2.5 x 10^-3)(1 x 10^-3)) = 5.0 x 10^-3/(4.005 x 10^-25) = 1.248 x 10^22 m^-3. The sign of V_H determines carrier type: negative V_H for electrons (n-type), positive for holes (p-type). This Hall carrier density is typical for moderately doped semiconductors."} difficulty="medium"  />
 
 ---
-
 
 ### Phonons and Superconductivity
 
@@ -67,6 +63,7 @@ the explanation.
 **Forgetting the BCS gap equation's universal ratio:** The factor 1.764 comes from π/e^γ, not from material properties. It applies to all conventional BCS superconductors.
 
 **Confusing Type-I and Type-II superconductors:** Type-I has a single critical field H_c; Type-II has H_c1 and H_c2 with a vortex state in between. The Ginzburg-Landau parameter κ determines the type: κ < 1/√2 is Type-I, κ > 1/√2 is Type-II.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for physics notes.

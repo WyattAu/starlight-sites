@@ -517,7 +517,6 @@ Issues like lost updates. A `seq_cst` `fetch_add` is still needed for atomic inc
 // counter.fetch_add(1, memory_order_seq_cst);
 ```
 
-
 ## Summary
 
 This topic covers the core concepts of memory orderings, including underlying theory, practical
@@ -547,4 +546,3 @@ Memory orderings are like traffic rules for data. Relaxed ordering is like a cou
 
 - [Instruction Reordering](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/1_instruction_reordering) - How compiler and CPU reordering motivate memory orderings
 - [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations use memory orderings
-

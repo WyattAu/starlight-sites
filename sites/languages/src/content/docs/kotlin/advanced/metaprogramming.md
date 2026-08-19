@@ -394,10 +394,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Reflection is like having X-ray vision for your code -- it lets you inspect the internal structure of classes, methods, and properties at runtime. Annotations are like labels you stick on your code, and reflection is the ability to read those labels and act on them. This is how frameworks like Spring and Hibernate work: they scan your classes for annotations and automatically wire up dependency injection or ORM mapping. The trade-off is performance: reflection is slower than direct access because the JVM must look up metadata dynamically. Use it for framework code where flexibility matters, and direct calls for performance-critical paths.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

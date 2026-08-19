@@ -65,6 +65,7 @@ $$\psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \
 where $n = 1, 2, 3, \ldots$
 
 Key features:
+
 - Quantized energy levels; $E_n \propto n^2$.
 - Zero-point energy: $E_1 = h^2/(8mL^2) \neq 0$.
 - Number of nodes $= n - 1$.
@@ -225,6 +226,7 @@ Consequence: Each orbital can hold at most 2 electrons (one with $m_s = +1/2$, o
 $1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, \ldots$
 
 **Definition 4 (Hund"s Rules):** For degenerate orbitals:
+
 1. Maximize total spin $S$ (parallel spins first).
 2. For a given $S$, maximize $L$.
 3. For atoms less than half-filled: minimize $J$; more than half-filled: maximize $J$.
@@ -285,6 +287,7 @@ energy surface (PES)**.
 ### 8.2 Potential Energy Surface
 
 The PES defines:
+
 - **Equilibrium geometry:** Minimum on the PES.
 - **Transition state:** Saddle point (first-order saddle point, one imaginary frequency).
 - **Vibrational frequencies:** Second derivatives of the PES at the minimum.
@@ -303,6 +306,7 @@ $$\psi_i = \sum_\mu c_{\mu i}\,\phi_\mu$$
 unoccupied molecular orbital (LUMO)** are frontier orbitals.
 
 The HOMO-LUMO gap $\Delta E = \varepsilon_{\text{LUMO}} - \varepsilon_{\text{HOMO}}$ correlates with:
+
 - Chemical reactivity (smaller gap = more reactive).
 - Electronic absorption spectra.
 - Electrical conductivity in extended systems.
@@ -345,6 +349,7 @@ linear combinations (SALCs) of atomic orbitals are constructed using group theor
 ### 10.1 Approximations
 
 Huckel theory makes three approximations for $\pi$-electron systems:
+
 1. Only $\pi$ electrons are considered explicitly.
 2. $\langle \phi_\mu | \hat{H} | \phi_\mu \rangle = \alpha$ (Coulomb integral, same for all $p$ orbitals).
 3. $\langle \phi_\mu | \hat{H} | \phi_\nu \rangle = \beta$ (resonance integral, nonzero only for bonded neighbors).
@@ -463,10 +468,12 @@ where $E_0$ is the true ground state energy. This underpins the Hartree-Fock and
 ## Worked Examples
 
 ### Example 1: Calculating the Energy of a Hydrogen Atom
+
 **Problem:** Calculate the energy of the n=3 level of a hydrogen atom and the wavelength of the photon emitted in the transition n=3 to n=2.
 **Solution:** E_n = -13.6/n^2 eV. E_3 = -13.6/9 = -1.51 eV. E_2 = -13.6/4 = -3.40 eV. Delta E = E_3 - E_2 = -1.51 - (-3.40) = 1.89 eV. lambda = hc/Delta E = 1240 eV nm / 1.89 eV = 656 nm (in the visible range, H-alpha line).
 
 ### Example 2: HOMO-LUMO Gap and MO Diagram
+
 **Problem:** For O2, the molecular orbital ordering has pi_2p below sigma_2p. What is the bond order, and is O2 paramagnetic?
 **Solution:** Electron configuration of O2 (12 electrons): sigma_2s^2 sigma_2s*^2 sigma_2p_z^2 pi_2p_x^2 pi_2p_y^2 pi_2p_x*^1 pi_2p_y*^1. Bond order = (1/2)(bonding - antibonding) = (1/2)(8 - 4) = 2. Since there are two unpaired electrons in the pi_2p* orbitals, O2 is paramagnetic.
 

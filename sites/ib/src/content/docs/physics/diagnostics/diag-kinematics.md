@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The equations of motion connect position, velocity, acceleration, and time in a mathematical framework that works from thrown balls to orbiting planets
 
-
 ## Unit Tests
 
 ### UT-1: Projectile That Never Reaches Its Target
@@ -414,8 +413,6 @@ New braking distance:
 $s = \frac{0.5 \times 1200 \times 400}{7500} = \frac{240000}{7500} = 32.0\,\text{m}$
 
 New total stopping distance $= 14.0 + 32.0 = 46.0\,\text{m}$
-
-
 
 ## Cross-References
 

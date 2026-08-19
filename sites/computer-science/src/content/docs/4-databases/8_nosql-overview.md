@@ -121,23 +121,23 @@ databases now support SQL-like Query languages (e.g., Cassandra CQL). The choice
 and NoSQL depends on the Workload, not on a blanket preference. Relational databases remain the best
 choice for strongly Structured data with complex queries and transactional requirements.
 
-
 </aside>
 ### 8.7 Key Relationships
 
-| Feature           | Document Store | Key-Value | Graph    | Column-Family |
+| Feature | Document Store | Key-Value | Graph | Column-Family |
 | ----------------- | -------------- | --------- | -------- | ------------- |
-| Schema flexibility | High           | N/A       | Medium   | Medium        |
-| Query complexity   | Medium         | None      | High     | Low           |
-| Horizontal scaling | Good           | Excellent | Moderate | Excellent     |
-| Join support       | None           | None      | Native   | None          |
-| Best for           | Content mgmt   | Caching   | Relations| Time-series   |
+| Schema flexibility | High | N/A | Medium | Medium |
+| Query complexity | Medium | None | High | Low |
+| Horizontal scaling | Good | Excellent | Moderate | Excellent |
+| Join support | None | None | Native | None |
+| Best for | Content mgmt | Caching | Relations | Time-series |
 
 ## Intuition
 
 NoSQL databases are like different types of filing cabinets. Document stores are folders with loose papers — each document can have a different structure. Key-value stores are like coat check tickets — you give a key and get back whatever you stored. Column-family stores are like spreadsheets where each row can have different columns. Graph databases are like mind maps, where relationships are first-class citizens. The CAP theorem is the law of physics for distributed systems — you can only pick two out of three: Consistency (everyone sees the same data), Availability (everyone can always read and write), and Partition tolerance (the system survives network failures). Since network partitions are unavoidable, you must choose between consistency and availability during a partition.
 
 ## See Also
+
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 

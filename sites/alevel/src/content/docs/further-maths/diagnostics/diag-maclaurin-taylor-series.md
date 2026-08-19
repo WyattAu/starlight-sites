@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -191,8 +190,6 @@ oscillation decreasing.
 **Forgetting to check the radius of convergence:** A series may converge for some values of $x$ but not others. Always determine the radius of convergence before using a series. For $\ln(1+x)$, the series converges for $|x| < 1$ (and at $x = 1$). Substituting $x = 2$ into the $\ln(1+x)$ series gives a divergent sum — a common error.
 
 **Confusing the Maclaurin and Taylor series:** A Maclaurin series is a Taylor series centred at $x = 0$. When a question asks for a series about $x = a$ where $a \neq 0$, you must compute $f^{(n)}(a)$, not $f^{(n)}(0)$. The formula is $\sum f^{(n)}(a)(x-a)^n/n!$.
-
-
 
 ## Cross-References
 

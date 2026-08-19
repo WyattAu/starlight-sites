@@ -93,7 +93,6 @@ $$
 
 The total force on the semicircular wire is $2IRB$The same as on a straight wire of length $2R$.
 
-
 ## Torque on a Current Loop
 
 A rectangular loop of area $A$ carrying current $I$ in a uniform field $\vec{B}$ experiences torque:
@@ -226,7 +225,6 @@ $$
 B = \frac{\mu_0 I}{2\pi r}
 $$
 
-
 ## Faraday's Law
 
 Faraday's law states that a changing magnetic flux induces an EMF:
@@ -282,7 +280,6 @@ $$
 
 Where $\mathcal{E}_0 = NBA\omega$ is the peak EMF. This is the principle behind AC generators.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Induced EMF in a changing field</strong>
@@ -303,7 +300,6 @@ $$
 
 By Lenz's law, the current flows counterclockwise (viewed along $\vec{B}$) to oppose the increasing
 flux.
-
 
 ## Inductance
 
@@ -445,7 +441,6 @@ $$
 Q = \sqrt{2CU_C} = \sqrt{2(10^{-4})(9.375 \times 10^{-6})} = \sqrt{1.875 \times 10^{-9}} = 43.3\,\mu\text{C
 $$
 
-
 ## Maxwell's Equations (Integral Form)
 
 The four Maxwell's equations unify electricity and magnetism:
@@ -499,7 +494,6 @@ B = \frac{\mu_0 I r}{2\pi R^2}
 $$
 
 This is the same as the field inside a wire of radius $R$ carrying current $I$.
-
 
 ## Intuition
 
@@ -729,7 +723,6 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

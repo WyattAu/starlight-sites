@@ -135,7 +135,6 @@ Maclaurin Series
 5. Practise writing proofs with clear logical steps.
 6. Pay special attention to convergence conditions for series and Maclaurin expansions.
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**

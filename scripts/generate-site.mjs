@@ -43,15 +43,18 @@ const packageJson = {
     preview: 'astro preview',
   },
   dependencies: {
-    '@astrojs/mdx': '^4.3.14',
+    // Pinned to the current monorepo versions (mirror sites/python). The
+    // previous stale pins scaffolded new sites on Astro 5/Starlight 0.32
+    // while every existing site was on Astro 6/0.40.
+    '@astrojs/mdx': '^6.0.3',
     '@astrojs/sitemap': '^3.7.3',
-    '@astrojs/solid-js': '^5.0.1',
-    '@astrojs/starlight': '^0.32.2',
-    astro: '^5.5.4',
+    '@astrojs/solid-js': '^6.0.1',
+    '@astrojs/starlight': '^0.40.0',
+    astro: '^6.4.8',
     dompurify: '^3.2.4',
     'rehype-katex': '^7.0.1',
     'remark-math': '^6.0.0',
-    'solid-js': '^1.9.7',
+    'solid-js': '^1.9.13',
   },
   devDependencies: {
     typescript: '^5.8.2',

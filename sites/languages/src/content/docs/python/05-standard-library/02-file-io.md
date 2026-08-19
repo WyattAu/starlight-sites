@@ -896,7 +896,7 @@ for dirpath, dirnames, filenames in os.walk("/my/project"):
     # This prunes .git, __pycache__, node_modules, etc.
 ```
 
-2. Setting `topdown=False` changes to bottom-up traversal. In bottom-up mode, you cannot prune
+1. Setting `topdown=False` changes to bottom-up traversal. In bottom-up mode, you cannot prune
    directories (because they have already been visited), but you can safely delete directories after
    processing their contents:
 
@@ -908,7 +908,7 @@ for dirpath, dirnames, filenames in os.walk("/my/cleanup", topdown=False):
         os.rmdir(dirpath)
 ```
 
-3. `os.walk()` uses `os.scandir()` internally (since Python 3.5), which is significantly faster than
+1. `os.walk()` uses `os.scandir()` internally (since Python 3.5), which is significantly faster than
    the older `os.listdir()` approach because `scandir()` returns entries with cached `stat`
    information, avoiding extra system calls.
 
@@ -1040,11 +1040,11 @@ with open("large_file.bin", "r+b") as f:
   copy-on-write, not visible to others). Windows has `ACCESS_WRITE` (shared) and `ACCESS_COPY`
   (private).
 
-4. **Concurrency.** For read-write shared mappings, you need external synchronization (mutexes,
+1. **Concurrency.** For read-write shared mappings, you need external synchronization (mutexes,
    semaphores, file locks) to prevent data races between processes. `mmap` itself provides no
    synchronization.
 
-5. **Cannot use with text mode.** `mmap` operates on raw bytes. If you need text processing, you
+2. **Cannot use with text mode.** `mmap` operates on raw bytes. If you need text processing, you
    must decode the bytes yourself. `io.TextIOWrapper` cannot wrap an `mmap` object.
 
 ## Common Pitfalls

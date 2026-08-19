@@ -228,13 +228,13 @@ Paths into the build system. This process decouples the package manager from the
 - `-pr:b`: Build profile (Build Agent).
 - `--build=missing`: Build from source if binary is not found.
 
-2. **Configure CMake:** Pass the generated toolchain to CMake.
+1. **Configure CMake:** Pass the generated toolchain to CMake.
 
    ```bash
    cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=build/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
    ```
 
-3. **Build:**
+2. **Build:**
 
    ```bash
    cmake --build build
@@ -280,7 +280,7 @@ conan user -p <password> -r internal-artifacts <username>
 - `conan create .` (Builds the package locally).
 - `conan upload <package> -r internal-artifacts`.
 
-2. **Consumer Job:**
+1. **Consumer Job:**
 
 - `conan install . -r internal-artifacts`.
 - Conan detects the pre-built binary in Artifactory matching the CI profile.
@@ -512,7 +512,8 @@ Resolution strategies:
 The lock file records exact versions and package IDs for every transitive dependency, ensuring
 reproducible builds across machines and time.
 
-3. **Override** a specific dependency version:
+1. **Override** a specific dependency version:
+
    ```bash
    conan install . --build=missing -o 'other_lib/*:fmt_version=10.1.1'
    ```

@@ -643,7 +643,7 @@ is moving, according to critics
 
 ## Intuition
 
-**SAT reading tests comprehension and evidence-based reasoning:** Questions ask you to identify what the passage *actually says* — not what you think it means. Evidence-based questions require finding specific support in the text.
+**SAT reading tests comprehension and evidence-based reasoning:** Questions ask you to identify what the passage _actually says_ — not what you think it means. Evidence-based questions require finding specific support in the text.
 
 **Why it matters:** Strong reading comprehension is essential for college success across all disciplines.
 

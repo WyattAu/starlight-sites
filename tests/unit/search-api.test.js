@@ -204,8 +204,14 @@ describe('Snippet Generation', () => {
 })
 
 describe('Site Configuration', () => {
-  it('has exactly nine sites', () => {
-    assert.strictEqual(Object.keys(api.SITES).length, 9)
+  it('catalogue matches sites.meta.json (derived, ADR-011)', () => {
+    const { astroSites } = require('../../scripts/lib/sites.cjs')
+    const expected = astroSites().sort()
+    assert.deepStrictEqual(Object.keys(api.SITES).sort(), expected)
+    // The ghost trio must never return.
+    for (const ghost of ['university', 'qualifications', 'infrastructure']) {
+      assert.ok(!api.SITES[ghost], `${ghost} was removed and must stay removed`)
+    }
   })
   it('every site has required fields', () => {
     for (const [id, site] of Object.entries(api.SITES)) {

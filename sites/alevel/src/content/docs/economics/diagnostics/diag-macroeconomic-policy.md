@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Economic policy is like tuning an engine — adjusting levers to keep the economy running smoothly.**
@@ -492,8 +491,6 @@ $\Delta Y = -100 - 24 = -\pounds 124\text{bn}$.
 If GDP was $\pounds 2000$Bn, this is a contraction of 6.2%. This is a large effect, illustrating the
 power of monetary policy. In practice, the effects are spread over 2-3 years and may be partially
 offset by other factors (e.g., falling inflation boosts real incomes).
-
-
 
 ## Cross-References
 

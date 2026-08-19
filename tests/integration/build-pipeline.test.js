@@ -12,48 +12,9 @@ const path = require('node:path')
 const ROOT = path.join(__dirname, '..', '..')
 const SITES_DIR = path.join(ROOT, 'sites')
 
-const EXPECTED_SITES = [
-  'alevel',
-  'admissions',
-  'alevel',
-  'ap',
-  'cbse',
-  'chemistry',
-  'computer-science',
-  'cpp',
-  'dart',
-  'databases',
-  'dse',
-  'elixir',
-  'gaokao',
-  'gcse',
-  'go',
-  'haskell',
-  'highers',
-  'hsc',
-  'ib',
-  'java',
-  'kotlin',
-  'languages',
-  'leaving-cert',
-  'licensing',
-  'linux',
-  'machine-learning',
-  'mathematics',
-  'networking',
-  'physics',
-  'programming',
-  'python',
-  'ruby',
-  'rust',
-  'sat',
-  'security',
-  'swift',
-  'tools',
-  'truenas',
-  'tuning',
-  'typescript',
-]
+// Derived from sites/ via the SSOT module (ADR-011) -- never hand-copied.
+const { astroSites } = require('../../scripts/lib/sites.cjs')
+const EXPECTED_SITES = astroSites()
 
 const SITES_WITH_MERMAID = ['ib', 'languages', 'programming', 'tools']
 
@@ -215,11 +176,20 @@ describe('CI/CD Configuration', () => {
     assert.ok(ci.includes('lint:'))
   })
 
-  it('ci.yml should have build matrix for all sites', () => {
+  it('ci.yml should build every site via the derived matrix', () => {
     const ci = fs.readFileSync(path.join(ROOT, '.github', 'workflows', 'ci.yml'), 'utf8')
-    for (const site of EXPECTED_SITES) {
-      assert.ok(ci.includes(`- ${site}`), `ci.yml should include ${site} in build matrix`)
-    }
+    // ADR-011: the build matrix is derived from sites/ at resolve time --
+    // never hand-listed in YAML. Assert the derivation wiring rather than
+    // individual slugs (a static list is exactly what drifted before).
+    assert.ok(
+      ci.includes('list-sites.js'),
+      'ci.yml must derive the site matrix via scripts/list-sites.js',
+    )
+    assert.ok(ci.includes('fromJson('), 'ci.yml must consume the matrix via fromJson()')
+    // And the derivation must itself be correct (belt and braces).
+    const ciYaml = fs.readFileSync(path.join(ROOT, '.github', 'workflows', 'ci.yml'), 'utf8')
+    const resolveStep = /node scripts\/list-sites\.js --slugs/.test(ciYaml)
+    assert.ok(resolveStep, 'ci.yml resolve job must run "list-sites.js --slugs"')
   })
 
   it('deploy.yml should have Cloudflare deployment', () => {

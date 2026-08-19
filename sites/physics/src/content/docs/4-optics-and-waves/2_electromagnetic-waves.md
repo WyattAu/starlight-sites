@@ -268,7 +268,6 @@ m$^{-1}$.
 
 </details>
 
-
 ## Cross-References
 
 - **[Diffraction](./4_diffraction.md)**: Applies the wave nature of electromagnetic radiation to explain bending through apertures, building on the plane wave solutions derived here.

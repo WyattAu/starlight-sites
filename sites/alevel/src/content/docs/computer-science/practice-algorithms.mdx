@@ -12,7 +12,6 @@ tags:
 import PracticeProblem from "@components/PracticeProblem";
 import { practiceQuestions } from '@/data/flashcards/computer-science/practice-algorithms-data.js';
 
-
 ## A-Level Computer Science Practice -- Algorithms
 
 18 MCQ practice problems on algorithms. Select an answer, submit, and review the explanation.
@@ -33,7 +32,6 @@ These problems test your ability to trace algorithms, determine time complexity,
 
 ---
 
-
 ### Approach Strategy
 
 1. **Trace with a table.** For sorting and searching algorithms, create a table tracking the state of the data after each step. This prevents errors and makes your working clear.
@@ -43,7 +41,6 @@ These problems test your ability to trace algorithms, determine time complexity,
 
 ---
 
-
 ### Intuition
 
 When comparing algorithms, think about how the work grows as the input size doubles. If doubling $n$ doubles the work, it is $O(n)$. If doubling $n$ adds one more step, it is $O(\log n)$. If doubling $n$ quadruples the work, it is $O(n^{2})$.
@@ -51,7 +48,6 @@ When comparing algorithms, think about how the work grows as the input size doub
 For graph algorithms, Dijkstra's is like exploring a city: you always visit the nearest unvisited intersection first. Prim's is like laying cables: you always extend the network to the nearest unconnected point.
 
 ---
-
 
 ### Common Mistakes
 
@@ -62,11 +58,7 @@ For graph algorithms, Dijkstra's is like exploring a city: you always visit the 
 
 ---
 
-
-
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />
-
-
 
 ## Cross-References
 

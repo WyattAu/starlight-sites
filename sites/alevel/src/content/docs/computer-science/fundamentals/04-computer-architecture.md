@@ -138,7 +138,7 @@ The CPU continuously cycles through three phases:
 
 #### Decode
 
-5. The CU examines the **opcode** portion of CIR to determine:
+1. The CU examines the **opcode** portion of CIR to determine:
 
 - What operation to perform
 - What operands are needed
@@ -148,7 +148,7 @@ The CU then generates the appropriate control signals.
 
 #### Execute
 
-6. The CU sends control signals to execute the instruction. For example:
+1. The CU sends control signals to execute the instruction. For example:
 
 - **Add:** ACC ← ACC + operand
 - **Load:** ACC ← Memory[address]
@@ -175,12 +175,12 @@ Instruction.
 - CIR ← MDR: CIR = 0010 00000101
 - PC ← PC + 1: PC = 0x1001
 
-2. **Decode:**
+1. **Decode:**
 
 - CU reads opcode 0010 → identifies ADD immediate
 - CU reads operand 00000101 → value 5
 
-3. **Execute:**
+1. **Execute:**
 
 - ACC ← ACC + 5
 - Set flags in status register (zero, negative, carry, overflow)
@@ -432,6 +432,7 @@ Four steps: MAR ← PC, read from memory, CIR ← MDR, PC ← PC + 1.
 3. The contents of the MDR are copied to the Current Instruction Register (CIR).
 4. The Program Counter is incremented by 1 (or by the instruction length, for variable-length ISAs)
 To point to the next instruction.
+
 </details>
 
 **Problem 3.** Explain how temporal and spatial locality contribute to cache effectiveness.
@@ -551,6 +552,7 @@ Neumann) because:
 1. Main memory must be flexible. Programs need to load data and instructions dynamically
 2. Unified memory simplifies the memory management unit (MMU) design
 3. The cost of duplicate main memory buses is not justified given cache hit rates
+
 </details>
 
 **Problem 8.** A direct-mapped cache has 64 lines, each holding 16 bytes. Main memory has 65,536
@@ -621,7 +623,6 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
@@ -634,7 +635,6 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
-
 
 ## Intuition
 

@@ -80,7 +80,6 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
 ## Overview
 
 This content page provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.

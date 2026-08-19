@@ -707,7 +707,6 @@ class Library:
 For revision on programming fundamentals, see
 [Programming Constructs](01-programming-constructs).
 
-
 ## Common Pitfalls
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
@@ -719,7 +718,6 @@ For revision on programming fundamentals, see
 
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
-
 
 ## Intuition
 
@@ -735,8 +733,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

@@ -78,7 +78,7 @@ If you get this wrong, revise: Section 2.1.
 
 </details>
 
-**Problem 5.** Show that the relation $R$ on $\mathbb{{"}Z{}'}$ defined by $a\,R\,b$ iff $a - b$ is
+**Problem 5.** Show that the relation $R$ on $\mathbb{Z}$ defined by $a\,R\,b$ iff $a - b$ is
 even Is an equivalence relation. How many equivalence classes are there?
 
 <details>
@@ -94,8 +94,8 @@ If you get this wrong, revise: Section 2.2.
 
 </details>
 
-**Problem 6.** Let $f : \mathbb{{'}R{}'} \to \mathbb{{'}R{}'}$ be $f(x) = 2x + 1$ and
-$g : \mathbb{{'}R{}'} \to \mathbb{{'}R{}'}$ Be $g(x) = x^2$. Find $g \circ f$ and $f \circ g$. Is
+**Problem 6.** Let $f : \mathbb{R} \to \mathbb{R}$ be $f(x) = 2x + 1$ and
+$g : \mathbb{R} \to \mathbb{R}$ Be $g(x) = x^2$. Find $g \circ f$ and $f \circ g$. Is
 $g \circ f$ injective?
 
 <details>
@@ -374,4 +374,3 @@ Practice problems consolidate theoretical understanding. Work through problems s
 | Abstract Algebra                | WyattsNotes | [View](../../../../../mathematics/src/content/docs/abstract-algebra)                                  |
 | Number Theory                   | WyattsNotes | [View](../../../../../mathematics/src/content/docs/number-theory)                                     |
 | Discrete Mathematics — MIT OCW  | MIT         | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
-

@@ -395,14 +395,14 @@ struct Particles {
 Use SoA when you process one field at a time (e.g., updating all positions). Use AoS when you access
 All fields of individual entities (e.g., collision detection).
 
-2. **Compact data types:** Use `float` instead of `double` when precision allows. Use `int32_t`
+1. **Compact data types:** Use `float` instead of `double` when precision allows. Use `int32_t`
    instead of `int64_t`. Smaller types mean more elements per cache line.
 
-3. **Avoid pointer chasing:** Linked lists, trees with heap-allocated nodes, and `std::map` cause
+2. **Avoid pointer chasing:** Linked lists, trees with heap-allocated nodes, and `std::map` cause
    cache misses on every traversal. Prefer contiguous containers (`std::vector``std::deque`) and
    flat data structures.
 
-4. **Hot/cold splitting:** Separate frequently accessed fields from rarely accessed fields:
+3. **Hot/cold splitting:** Separate frequently accessed fields from rarely accessed fields:
 
 ```cpp
 struct NodeHot {
@@ -868,4 +868,3 @@ Cache coherency is like a shared document editing system. When one person edits 
 
 - [Instruction Reordering](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/1_instruction_reordering) - How compiler and CPU reordering affect memory visibility
 - [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations interact with cache coherency
-

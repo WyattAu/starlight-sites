@@ -126,7 +126,7 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 ### 1.8 Summary Table: ODE Classification
 
 | Equation | Order | Linear? | Homogeneous? | Type |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | $y' + 3y = 0$ | 1 | Yes | Yes | Linear, constant coeff. |
 | $y'' + y = \sin t$ | 2 | Yes | No | Linear, constant coeff. |
 | $y' = y^2$ | 1 | No | — | Nonlinear |
@@ -152,7 +152,6 @@ Differential equations describe how things change. An ODE relates a function to 
 - **[Second-Order Linear ODEs](3_second-order-linear-odes)**: The harmonic oscillator and other second-order examples illustrate the classification scheme introduced here.
 - **[Introduction to Partial Differential Equations](8_introduction-to-partial-differential-equations)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
 - **[Stability and Phase Plane Analysis](9_stability-and-phase-plane-analysis)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
-
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

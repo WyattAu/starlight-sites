@@ -146,8 +146,6 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
-
 ## Cross-References
 
 - **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Maths encompasses pure, applied, and stats

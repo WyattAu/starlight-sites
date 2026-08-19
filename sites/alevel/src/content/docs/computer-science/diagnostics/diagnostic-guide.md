@@ -112,7 +112,6 @@ Networks (TCP/IP, addressing, security)
 6. Pay special attention to: binary arithmetic accuracy, Big O notation, SQL syntax, and FSM design
    -- these are frequently tested and easy to lose marks on through small errors.
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**

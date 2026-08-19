@@ -276,7 +276,7 @@ Permissive licenses grant broad freedoms with minimal restrictions. Users can do
 ### Choosing Between Them
 
 | Priority | Recommended License Type |
-|----------|------------------------|
+| ---------- | ------------------------ |
 | Maximum adoption | Permissive (MIT, Apache 2.0) |
 | Keep derivative works open | Copyleft (GPL, AGPL) |
 | Enterprise use | Permissive (Apache 2.0) |

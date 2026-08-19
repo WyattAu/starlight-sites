@@ -47,7 +47,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## Additional Algorithms and Data Structures Questions
 
 <PracticeProblem client:only="solid-js" question={"What is the time complexity of finding the median of two sorted arrays of sizes $m$ and $n$ respectively?&quot; options={[ '$O(\\log(\\min(m, n)))$ using binary search on the smaller array', '$O(m + n)$ by merging both arrays', '$O(n)$ assuming $m \\ll n$', '$O(\\log(m + n))$ by binary searching both arrays', ]} correctAnswer={0} explanation=&quot;The optimal algorithm performs binary search on the smaller array. It partitions both arrays such that the left half contains exactly $(m+n+1)/2$ elements. The partition in the smaller array determines the partition in the larger. At each step, the search space halves, giving $O(\\log(\\min(m, n)))$ time and $O(1)$ space. This avoids the $O(m+n)$ cost of merging."} difficulty="hard"  />

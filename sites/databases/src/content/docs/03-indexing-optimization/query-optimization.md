@@ -314,7 +314,6 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
 You risk OOM.
 
-
 ## Covering Indexes
 
 A covering index contains all columns needed by the query, enabling an **index-only scan** that
@@ -356,7 +355,6 @@ GROUP BY region, order_date;
 PostgreSQL's visibility information is stored in the heap. To maximize index-only scan efficiency,
 Keep indexed columns NOT NULL where possible, or run `VACUUM` regularly to keep visibility map
 Accurate.
-
 
 ## Partial Indexes and Conditional Indexes
 
@@ -417,7 +415,6 @@ SELECT * FROM orders WHERE DATE_TRUNC('month', order_date) = '2024-01-01';
 <aside class="starlight-aside starlight-aside--caution">
 `WHERE lower(email) = 'alice@example.com'` uses the index, but
 `WHERE email ILIKE 'alice@example.com'` does not. Use functional indexes consistently.
-
 
 ## BRIN Indexes for Append-Only Data
 
@@ -524,7 +521,6 @@ server_idle_timeout = 600
 For transaction-scoped settings, or use `search_path` in `pgbouncer.ini` with
 `extra_float_digits = 3`.
 
-
 ### Connection overhead
 
 Each PostgreSQL connection consumes approximately 10MB of RAM for process overhead (shared memory
@@ -565,7 +561,6 @@ SET plan_cache_mode = auto;
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
-
 
 ## Auto-Vacuum Tuning
 
@@ -860,7 +855,6 @@ CLUSTER orders USING idx_orders_customer_date;
 Performance for that index but degrades it for other indexes. Use `CLUSTER` on the index that
 Corresponds to the most common access pattern.
 
-
 ## GiST vs GIN for Full-Text Search
 
 ### pg_trgm with GIN
@@ -997,6 +991,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>

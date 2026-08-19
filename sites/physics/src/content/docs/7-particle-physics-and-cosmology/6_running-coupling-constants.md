@@ -153,10 +153,10 @@ The coupling decreases from 0.118 to 0.114, consistent with asymptotic freedom. 
 
 </details>
 
-
 ## Intuition
 
 Coupling constants are not truly constant: they change with energy scale through a process called renormalization group running. At low energies, the electromagnetic force appears weak, but at high energies, it strengthens. Meanwhile, the strong force weakens at high energies, a phenomenon called asymptotic freedom. This means that at extremely high energies, all three gauge forces may converge toward similar strengths, suggesting a unified origin. The running is logarithmic, so changes are gradual, but over the vast energy range from atomic to GUT scales, the effect is dramatic. This running is one of the strongest pieces of evidence for grand unification.
+
 ## Cross-References
 
 - **[The Standard Model](1_the-standard-model)**: The three gauge couplings of the Standard Model run with energy according to the renormalisation group equations.

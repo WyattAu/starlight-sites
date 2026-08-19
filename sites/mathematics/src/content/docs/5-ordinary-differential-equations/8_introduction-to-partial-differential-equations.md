@@ -284,10 +284,10 @@ The heat equation $u_t = \alpha^2 u_{xx}$ describes diffusion and has solutions 
 **Mistake 5: Assuming that superposition always applies.**
 Superposition applies to linear PDEs but not to nonlinear PDEs. Do not assume that you can add solutions of a nonlinear PDE to get another solution; superposition only works for linear equations.
 
-
 ## Intuition
 
 Partial differential equations extend ODEs to functions of multiple variables, describing phenomena that spread through space and time. While an ODE tracks a single particle's trajectory, a PDE tracks an entire field, like temperature分布 across a metal plate. The three canonical types have distinct personalities: elliptic equations like Laplace's describe steady states, parabolic equations like the heat equation describe diffusion toward equilibrium, and hyperbolic equations like the wave equation describe propagation without dissipation. The method of separation of variables works by decomposing complex behavior into simpler modes, like breaking a musical chord into individual notes.
+
 ## Cross-References
 
 - **[Fourier Series](7_fourier-series)**: Fourier series provide the eigenfunction expansions needed to solve PDEs by separation of variables.

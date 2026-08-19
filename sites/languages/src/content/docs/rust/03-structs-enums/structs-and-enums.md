@@ -154,7 +154,6 @@ struct Aligned {
 Fields through references requires `unsafe` because the compiler cannot guarantee alignment for
 Dereferences. Use `#[repr(packed(2))]` or similar to specify minimum alignment.
 
-
 ### Visibility
 
 By default, all struct fields are private (visible only within the module where the struct is
@@ -677,7 +676,6 @@ Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` fi
 Because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
 `ordered-float` crate's `OrderedFloat` type instead.
 
-
 ### Custom Derive
 
 You can implement custom derive macros. The `derive` crate ecosystem includes `serde::Serialize`
@@ -947,7 +945,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

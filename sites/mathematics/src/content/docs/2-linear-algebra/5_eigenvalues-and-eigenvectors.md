@@ -223,6 +223,7 @@ The change-of-basis matrix $P$ handles the translation between the standard basi
 eigenbasis.
 
 **Physical examples:**
+
 - In mechanics, the eigenvectors of the inertia tensor are the principal axes of rotation.
 - In vibration analysis, the eigenvectors of the stiffness matrix are the normal modes, and the
   eigenvalues are the squared natural frequencies.

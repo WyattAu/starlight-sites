@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -222,8 +221,6 @@ $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 **Confusing eigenvalues with eigenvectors:** An eigenvalue $\lambda$ is a scalar satisfying $\det(A - \lambda I) = 0$. An eigenvector $\mathbf{v}$ satisfies $A\mathbf{v} = \lambda\mathbf{v}$. Students often compute the characteristic equation correctly but then substitute the eigenvalue back into $A - \lambda I$ instead of solving $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for the eigenvector.
 
 **Forgetting to normalise or verify eigenvectors:** After finding an eigenvector, always verify by computing $A\mathbf{v}$ and checking it equals $\lambda\mathbf{v}$. A common error is a sign mistake in the eigenvector components that goes undetected. Also, any scalar multiple of an eigenvector is still an eigenvector — you can scale to simplify.
-
-
 
 ## Cross-References
 

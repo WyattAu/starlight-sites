@@ -23,6 +23,7 @@ categories:
 ## Nervous System
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Neuron Structure
 
 ### 1.1 Types of Neurone
@@ -223,9 +224,9 @@ Key structures:
 - If $\mathrm{Cl^-}$ channels open: $\mathrm{Cl^-}$ enters (or $\mathrm{K^+}$ exits), causing
   hyperpolarisation (inhibitory postsynaptic potential, IPSP).
 
-7. If the combined EPSPs reach threshold ($-55\ \mathrm{mV}$), an action potential is triggered in
+1. If the combined EPSPs reach threshold ($-55\ \mathrm{mV}$), an action potential is triggered in
    the postsynaptic neurone.
-8. The neurotransmitter is rapidly removed from the synaptic cleft by: enzymatic breakdown (e.g.,
+2. The neurotransmitter is rapidly removed from the synaptic cleft by: enzymatic breakdown (e.g.,
    acetylcholinesterase breaks down acetylcholine); reuptake into the presynaptic neurone; diffusion
    away from the synapse.
 
@@ -1758,8 +1759,8 @@ When the hand touches a hot object:
   after the reflex has occurred).
 - A motor neurone (which transmits impulses to the biceps muscle in the upper arm).
 
-4. The biceps muscle contracts (flexor), pulling the hand away from the hot object.
-5. Simultaneously, a relay neurone synapses with an inhibitory interneurone that inhibits the motor
+1. The biceps muscle contracts (flexor), pulling the hand away from the hot object.
+2. Simultaneously, a relay neurone synapses with an inhibitory interneurone that inhibits the motor
    neurone to the triceps (extensor). This is **reciprocal inhibition**: the antagonist muscle is
    inhibited to prevent conflicting movements.
 

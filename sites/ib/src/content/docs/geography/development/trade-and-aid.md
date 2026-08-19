@@ -24,7 +24,6 @@ description: "Global trade patterns and development aid."
 
 **The key insight:** Trade and aid are powerful tools for development, but their effectiveness depends on fair terms, good governance, and local capacity building
 
-
 ## Trade Patterns and Globalisation
 
 ### The Structure of Global Trade

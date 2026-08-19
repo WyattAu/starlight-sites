@@ -322,7 +322,7 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 
 $\binom{12}{4} = \dfrac{12!}{4!\, 8!} = \dfrac{12 \times 11 \times 10 \times 9}{4 \times 3 \times 2 \times 1} = \dfrac{11880}{24} = 495$.
 
-2. **Question:** How many 3-digit even numbers can be formed from the digits $\{1, 2, 3, 4, 5, 6\}$
+1. **Question:** How many 3-digit even numbers can be formed from the digits $\{1, 2, 3, 4, 5, 6\}$
    if each digit can be used at most once?
 
 Last digit (units) must be even: choose from $\{2, 4, 6\}$ -- 3 ways.
@@ -335,7 +335,7 @@ Middle digit: 4 remaining digits.
 Total: $3 \times 5 \times 4 = 60$. Wait -- first digit: 5 choices (all except the chosen last
 Digit). Middle digit: 4 choices (remaining). Total: $3 \times 5 \times 4 = 60$.
 
-3. **Question:** In how many ways can 4 boys and 3 girls be arranged in a row if no two girls sit
+1. **Question:** In how many ways can 4 boys and 3 girls be arranged in a row if no two girls sit
    together?
 
 First arrange the 4 boys: $4! = 24$ ways. This creates 5 gaps (including ends):
@@ -347,7 +347,7 @@ Ways.
 
 Total: $24 \times 10 \times 6 = 1440$.
 
-4. **Question:** A committee of 5 is chosen from 4 men and 6 women. How many committees have more
+1. **Question:** A committee of 5 is chosen from 4 men and 6 women. How many committees have more
    women than men?
 
 | Women | Men | Ways                                           |
@@ -358,24 +358,24 @@ Total: $24 \times 10 \times 6 = 1440$.
 
 Total: $120 + 60 + 6 = 186$.
 
-5. **Question:** Find the coefficient of $x^4$ in $(2 - 3x)^8$.
+1. **Question:** Find the coefficient of $x^4$ in $(2 - 3x)^8$.
 
 Coefficient: $\binom{8}{4}(2)^4(-3)^4 = 70 \times 16 \times 81 = 90720$.
 
-6. **Question:** How many distinct arrangements of the letters in "MISSISSIPPI"?
+1. **Question:** How many distinct arrangements of the letters in "MISSISSIPPI"?
 
 Letters: M(1), I(4), S(4), P(2). Total: 11.
 
 $$\frac{11!}{4!\, 4!\, 2!\, 1!} = \frac{39916800}{24 \times 24 \times 2} = \frac{39916800}{1152} = 34650$$
 
-7. **Question:** Prove that $\binom{n}{r} + \binom{n}{r - 1} = \binom{n + 1}{r}$.
+1. **Question:** Prove that $\binom{n}{r} + \binom{n}{r - 1} = \binom{n + 1}{r}$.
 
 $\binom{n}{r} + \binom{n}{r - 1} = \frac{n!}{r!(n-r)!} + \frac{n!}{(r-1)!(n-r+1)!}$
 
 $= \frac{n!(n - r + 1) + n! \cdot r}{r!(n - r + 1)!} = \frac{n!(n + 1)}{r!(n + 1 - r)!} = \frac{(n+1)!}{r!(n+1-r)!} = \binom{n+1}{r}$.
 $\qed$
 
-8. **Question:** A box contains 6 red, 4 blue, and 5 green balls. In how many ways can 4 balls be
+1. **Question:** A box contains 6 red, 4 blue, and 5 green balls. In how many ways can 4 balls be
    chosen so that at least 2 are red?
 
 Total: $\binom{15}{4} = 1365$.
@@ -384,13 +384,13 @@ With 0 or 1 red: $\binom{9}{4} + \binom{6}{1}\binom{9}{3} = 126 + 6 \times 84 = 
 
 At least 2 red: $1365 - 630 = 735$.
 
-9. **Question:** How many ways can 8 people be divided into 4 pairs?
+1. **Question:** How many ways can 8 people be divided into 4 pairs?
 
 Number of ways to split $2n$ people into $n$ unordered pairs:
 
 $$\frac{(2n)!}{2^n \cdot n!} = \frac{8!}{2^4 \cdot 4!} = \frac{40320}{16 \times 24} = \frac{40320}{384} = 105$$
 
-10. **Question:** From 7 men and 5 women, how many committees of 6 can be formed with at least 3 men
+1. **Question:** From 7 men and 5 women, how many committees of 6 can be formed with at least 3 men
     and at least 2 women?
 
 Possible compositions: (4M, 2W), (3M, 3W).

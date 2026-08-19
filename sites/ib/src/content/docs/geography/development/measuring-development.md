@@ -25,7 +25,6 @@ description: "Development is a multidimensional concept encompassing economic pr
 
 **The key insight:** Development is multidimensional — no single indicator captures the full picture of a country's progress and well-being
 
-
 ## The Challenge of Measurement
 
 Development is a multidimensional concept encompassing economic progress, social well-being,

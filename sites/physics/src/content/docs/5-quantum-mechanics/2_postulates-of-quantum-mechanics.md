@@ -155,4 +155,3 @@ The expectation value $\langle \hat{A} \rangle = \sum_n a_n P(a_n)$ is the avera
 
 **Mistake 3: Forgetting that measurement collapses the state**
 After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rangle$, not to some other state. This collapse is irreversible in the sense that information about the original superposition is lost. Subsequent measurements of $\hat{A}$ will yield $a_n$ with certainty until the system evolves or is disturbed.
-

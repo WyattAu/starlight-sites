@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Trigonometry is like a bridge between angles and lengths — sine, cosine, and tangent are the tools that connect them.**

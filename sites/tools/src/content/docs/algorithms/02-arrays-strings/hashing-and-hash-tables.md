@@ -132,7 +132,6 @@ def polynomial_hash(s, p=31, mod=(1 << 64)):
 This is adequate for hash tables but unsuitable for cryptographic purposes. The choice of 31 is
 Historical and largely arbitrary — any odd prime works reasonably well.
 
-
 ### FNV-1a
 
 Fowler-Noll-Vo is a non-cryptographic hash popular in systems programming. FNV-1a XORs the input
@@ -250,7 +249,6 @@ The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ 
 <aside class="starlight-aside starlight-aside--caution">
 $\alpha \le 0.75$ (the default for Java `HashMap` and Python `dict`). When $\alpha$ exceeds the
 Threshold, resize the table and rehash all elements.
-
 
 ### Using Dynamic Arrays Instead of Linked Lists
 
@@ -607,7 +605,6 @@ $k \cdot (1 - 1/(n+1)) \approx k$ keys when going from $n$ to $n+1$ nodes.
 Databases. The standard number of virtual nodes is 150, which gives less than 10% imbalance with
 High probability.
 
-
 ## Bloom Filters
 
 A bloom filter is a space-efficient probabilistic data structure for membership testing. It can tell
@@ -680,7 +677,6 @@ $$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
 <aside class="starlight-aside starlight-aside--caution">
 Affecting other elements. If you need deletion, use a counting bloom filter (each position stores a
 Counter instead of a single bit) or a cuckoo filter.
-
 
 ### Applications
 
@@ -966,7 +962,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

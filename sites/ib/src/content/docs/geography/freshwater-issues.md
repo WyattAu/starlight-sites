@@ -32,7 +32,6 @@ relevance.
 
 **The key insight:** Water scarcity is not just about quantity — it's about distribution, quality, and management of this essential resource
 
-
 ## Contents
 
 - [Drainage Basins and Hydrology](./freshwater/drainage-basins-and-hydrology) -- the hydrological

@@ -51,7 +51,7 @@ Commercial agriculture is conducted primarily for sale and profit, using higher 
 fertilisers, and irrigation, producing larger quantities for domestic and export markets.
 
 | Feature | Subsistence | Commercial |
-|---------|------------|------------|
+| --------- | ------------ | ------------ |
 | Purpose | Feed the farmer and family | Sale and profit |
 | Farm size | Small (often less than 2 hectares) | Large (hundreds or thousands of hectares) |
 | Mechanisation | Minimal; manual labour dominant | High; tractors, harvesters, irrigation |

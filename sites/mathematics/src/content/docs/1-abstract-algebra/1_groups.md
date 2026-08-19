@@ -180,13 +180,13 @@ a symmetry (identity), and every symmetry can be undone (inverse).
 group $D_3 \cong S_3$. The group multiplication table (Cayley table) is:
 
 | $\cdot$ | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
-|---------|-----|-----|-------|-----|------|--------|
-| $e$     | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
-| $r$     | $r$ | $r^2$ | $e$ | $rs$ | $r^2s$ | $s$ |
-| $r^2$   | $r^2$ | $e$ | $r$ | $r^2s$ | $s$ | $rs$ |
-| $s$     | $s$ | $r^2s$ | $rs$ | $e$ | $r^2$ | $r$ |
-| $rs$    | $rs$ | $s$ | $r^2s$ | $r$ | $e$ | $r^2$ |
-| $r^2s$  | $r^2s$ | $rs$ | $s$ | $r^2$ | $r$ | $e$ |
+| --------- | ----- | ----- | ------- | ----- | ------ | -------- |
+| $e$ | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
+| $r$ | $r$ | $r^2$ | $e$ | $rs$ | $r^2s$ | $s$ |
+| $r^2$ | $r^2$ | $e$ | $r$ | $r^2s$ | $s$ | $rs$ |
+| $s$ | $s$ | $r^2s$ | $rs$ | $e$ | $r^2$ | $r$ |
+| $rs$ | $rs$ | $s$ | $r^2s$ | $r$ | $e$ | $r^2$ |
+| $r^2s$ | $r^2s$ | $rs$ | $s$ | $r^2$ | $r$ | $e$ |
 
 **Reading the table:** The entry in row $a$, column $b$ is $a \cdot b$. For example, $r \cdot s = rs$
 and $s \cdot r = r^2s$. Since $rs \neq r^2s$, the group is non-abelian.
@@ -235,7 +235,6 @@ $1$ generates the entire group: $\langle 1 \rangle = \{0, 1, 2, 3\} = \mathbb{Z}
 $d$ of $n$. The converse of Lagrange's theorem is false. For example, $A_4$ has order $12$ but no
 subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ has order dividing
 $n$And for each divisor There is exactly one such subgroup.
-
 
 </aside>
 

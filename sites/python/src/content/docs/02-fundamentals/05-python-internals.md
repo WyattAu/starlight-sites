@@ -692,7 +692,7 @@ c = Child()
 c.y = 10  # Works -- __dict__ exists from Base
 ```
 
-2. **Slots are not inherited in the usual sense.** A child class's `__slots__` only declares the new
+1. **Slots are not inherited in the usual sense.** A child class's `__slots__` only declares the new
    slots for that class. The parent's slots are already part of the instance layout.
 
 ```python
@@ -708,7 +708,7 @@ c.b = 2  # OK (from Child's slots)
 c.c = 3  # AttributeError
 ```
 
-3. **`__slots__` is a class variable, not an instance variable.** It is a tuple of strings stored on
+1. **`__slots__` is a class variable, not an instance variable.** It is a tuple of strings stored on
    the class, and it is read by the metaclass when the class is created to configure the instance's
    memory layout. You cannot set `__slots__` on an instance.
 

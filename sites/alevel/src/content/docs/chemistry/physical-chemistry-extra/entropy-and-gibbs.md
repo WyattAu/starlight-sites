@@ -836,7 +836,6 @@ lattice and have greater freedom of movement (1 mark).
 
 </details>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
@@ -859,8 +858,6 @@ $$
 
 $$
 and past paper questions, is essential for success in examinations.
-
-
 
 ## Cross-References
 

@@ -650,10 +650,10 @@ Solution: $x < -2$ or $x > 1$I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 Note that $x = -1$ is not a solution (the product equals zero, not positive). And $x = 1$ is not a
 Solution despite being a root, because the factor is squared.
 
-
 ## Intuition
 
 Algebra is the mathematics of the unknown -- it lets you solve for x when you do not know what x is, which is the foundation of all quantitative reasoning. Equations are balance scales: whatever you do to one side, you must do to the other. Inequalities are like equations with a range of solutions rather than a single answer. Complex numbers extend the number line into a plane, opening up solutions to equations that have no real answers. Matrices are grids of numbers that represent transformations -- they can rotate, scale, and shear shapes in ways that are essential for computer graphics and physics simulations.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -705,17 +705,17 @@ See the examples integrated throughout the sections above.
 
 ### Extended Practice
 
-16. Given $z = 2 + 3i$ and $w = 1 - 4i$Find $z\bar{w}$ and $|z/w|$.
-17. Solve the simultaneous equations $x + iy + iz = 0$ and $x - 2y + iz = 1 + i$ for real $x$ and
+1. Given $z = 2 + 3i$ and $w = 1 - 4i$Find $z\bar{w}$ and $|z/w|$.
+2. Solve the simultaneous equations $x + iy + iz = 0$ and $x - 2y + iz = 1 + i$ for real $x$ and
     $y$.
-18. Prove by induction that
+3. Prove by induction that
     $\frac{1}{1 \times 2} + \frac{1}{2 \times 3} + \cdots + \frac{1}{n(n+1)} = \frac{n}{n+1}$.
-19. Find the matrix $A$ such that
+4. Find the matrix $A$ such that
     $A\begin{pmatrix} 1 \\ 2 \end{pmatrix} = \begin{pmatrix} 5 \\ 3 \end{pmatrix}$ and
     $A\begin{pmatrix} 3 \\ 1 \end{pmatrix} = \begin{pmatrix} 7 \\ 7 \end{pmatrix}$.
-20. Express $\frac{3x^2 - x + 2}{(x-1)(x^2 + 1)}$ in partial fractions.
-21. Find all complex numbers $z$ satisfying $|z - 2i| = |z + 2|$ and interpret geometrically.
-22. Prove that if a quadratic equation with rational coefficients has one irrational root
+5. Express $\frac{3x^2 - x + 2}{(x-1)(x^2 + 1)}$ in partial fractions.
+6. Find all complex numbers $z$ satisfying $|z - 2i| = |z + 2|$ and interpret geometrically.
+7. Prove that if a quadratic equation with rational coefficients has one irrational root
     $a + b\sqrt{c}$ (where $b \neq 0$), then $a - b\sqrt{c}$ is also a root.
 
 ## Summary

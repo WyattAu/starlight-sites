@@ -2,7 +2,7 @@
   "name": "starlight-sites",
   "version": "1.0.0",
   "private": true,
-  "description": "Wyatt's Notes -- Starlight monorepo (9 sub-sites, cross-site search API)",
+  "description": "Wyatt's Notes -- Starlight monorepo (45 sites + landing, cross-site search API); site list derived from sites/ (ADR-011)",
   "scripts": {
     "format": "biome format --write .",
     "format:check": "biome format .",
@@ -16,9 +16,10 @@
     "lint:descriptions": "node scripts/lint-descriptions.js",
     "lint:depth": "node scripts/lint-depth.js",
     "lint:forward-refs": "node scripts/lint-forward-refs.js",
+    "lint:latex": "node scripts/lint-latex.js",
     "lint:spelling": "cspell \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\" \"shared/**/*.ts\" \"shared/**/*.tsx\"",
     "lint:markdown": "markdownlint \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\"",
-    "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-no-emoji.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js && node scripts/lint-secrets.js",
+    "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-config-parity.js && node scripts/lint-no-emoji.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js && node scripts/lint-latex.js && node scripts/lint-secrets.js",
     "lint:secrets": "node scripts/lint-secrets.js",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "sync": "node scripts/sync-shared.mjs",
@@ -38,18 +39,7 @@
     "generate": "node scripts/generate-site.mjs"
   },
   "workspaces": [
-    "sites/*",
-    "sites/dart",
-    "sites/elixir",
-    "sites/go",
-    "sites/haskell",
-    "sites/java",
-    "sites/kotlin",
-    "sites/python",
-    "sites/ruby",
-    "sites/rust",
-    "sites/swift",
-    "sites/typescript"
+    "sites/*"
   ],
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",
@@ -80,7 +70,8 @@
     "*.{md,mdx}": [
       "node scripts/lint-content.js",
       "node scripts/lint-handwaves.js",
-      "node scripts/lint-descriptions.js"
+      "node scripts/lint-descriptions.js",
+      "node scripts/lint-latex.js"
     ],
     "sites/*/astro.config.mjs": "node scripts/lint-config.js",
     "*.{js,mjs,ts,tsx,astro,yml,yaml,json,toml,html}": [
@@ -91,15 +82,12 @@
   },
   "prepare": "husky",
   "dependencies": {
-    "@felte/core": "^1.4.4",
-    "@felte/validator-zod": "^1.0.18",
     "@formkit/auto-animate": "^0.9.0",
     "@iconify-json/lucide": "^1.2.113",
     "@kobalte/core": "^0.13.11",
     "@solid-primitives/i18n": "^2.2.1",
     "solid-js": "^1.9.13",
     "solid-sonner": "^0.3.1",
-    "unplugin-icons": "^23.0.1",
-    "zod": "^4.4.3"
+    "unplugin-icons": "^23.0.1"
   }
 }

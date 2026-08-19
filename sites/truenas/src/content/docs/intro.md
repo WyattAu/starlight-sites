@@ -153,6 +153,7 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
+
 ## Cross-References
 
 - [Home Server Setup](./setup/home-server-setup) -- The installation guide walks through initial configuration after understanding TrueNAS concepts.

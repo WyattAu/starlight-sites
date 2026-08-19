@@ -787,8 +787,6 @@ Maximum at $(0, 4)$.
 units. New maximum at $(0, -4 + 2) = (0, -2)$. New $x$-intercepts at $(-2, 2)$ and $(2, 2)$ (which
 are not on the $x$-axis anymore).
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

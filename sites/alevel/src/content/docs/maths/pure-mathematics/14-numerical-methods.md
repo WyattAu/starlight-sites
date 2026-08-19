@@ -177,6 +177,7 @@ Newton-Raphson fails when:
 - The starting point is not close enough to the root.
 
 > **Caution:** Warning A different starting point.
+>
 ### 3.4 Horizontal tangent failure
 
 When $f'(x_n) = 0$ at some iterate, the Newton-Raphson formula requires division by zero and the
@@ -196,6 +197,7 @@ iterate $x_2$ will be pulled back, but convergence is erratic compared to a well
 point.
 
 > **Caution:** Warning Tangent is not close to horizontal near your starting point.
+>
 ### 3.5 Slow convergence near inflection points
 
 The quadratic convergence proof in Section 3.2 requires $f'(\alpha) \neq 0$. When the root coincides
@@ -827,7 +829,6 @@ Section 3.4.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -855,6 +856,7 @@ building a personal test matrix.
 - [Integration](11-integration.mdx) -- The trapezium rule and Simpson's rule are numerical approximations of definite integrals.
 - [Exponentials and Logarithms](09-exponentials-and-logarithms.mdx) -- Many root-finding problems involve exponential equations solved iteratively.
 - [Proof](13-proof.md) -- Convergence proofs use logical deduction techniques such as contradiction and induction.
+
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
@@ -879,4 +881,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

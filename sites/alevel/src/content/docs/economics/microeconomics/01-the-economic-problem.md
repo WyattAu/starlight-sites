@@ -357,6 +357,7 @@ Classify each statement:
 3. "A carbon tax reduces emissions by 5% per £10 of tax.". **Positive** (testable)
 4. "The government should introduce a carbon tax.". **Normative** (value judgement)
 5. "If interest rates rise, investment falls.". **Positive** (testable)
+
 </details>
 
 #### Evaluation of the Positive-Normative Distinction
@@ -636,7 +637,6 @@ This question requires evaluating the assumptions of rational choice theory agai
 - **Conclusion**: Rational decision making is a simplification, but it remains the foundation of economic analysis. Its limitations are well-documented, and behavioural economics provides valuable corrections. For A Level purposes, acknowledge both the predictive power and the empirical limitations.
 </details>
 
-
 <aside class="starlight-aside starlight-aside--danger">
 - **Defining opportunity cost as "everything you give up":** Opportunity cost is the value of the
   NEXT-BEST alternative only, not the sum of all alternatives. If you spend £10 on a book when your
@@ -659,7 +659,7 @@ This question requires evaluating the assumptions of rational choice theory agai
 </aside>
 ## Common Mistakes
 
-1. **Defining opportunity cost as "everything you give up."** Opportunity cost is the value of the *next-best* alternative only, not the sum of all alternatives. If you spend £10 on a book when your next-best option is a £10 film ticket, the opportunity cost is the film ticket alone — not the film ticket plus a coffee.
+1. **Defining opportunity cost as "everything you give up."** Opportunity cost is the value of the _next-best_ alternative only, not the sum of all alternatives. If you spend £10 on a book when your next-best option is a £10 film ticket, the opportunity cost is the film ticket alone — not the film ticket plus a coffee.
 
 2. **Confusing positive and normative statements.** A positive statement is testable ("inflation is 3.2%") while a normative statement involves value judgements ("inflation is too high"). Look for trigger words like "should," "ought," "fair," and "too much" to identify normative statements.
 
@@ -935,6 +935,7 @@ statement using the theory of comparative advantage and real-world evidence.
   up (e.g., car manufacturing in many developing countries).
 - Conclusion: free trade is generally beneficial but requires complementary policies to address
 inequality and market failures.
+
 </details>
 
 **Question 2 (12 marks).** An economy produces capital goods ($K$) and consumer goods ($C$)

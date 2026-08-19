@@ -143,11 +143,10 @@ for typical parameters ($V_0 = 10$ eV, $a = 2$ Å, $m = m_e$) gives $\beta_{\tex
 and $E \approx -6.2$ eV, compared to the exact value $-7.0$ eV. The Gaussian trial function cannot
 capture the exponential decay outside the well, leading to a 12% error. $\blacksquare$
 
-
-
 ## Intuition
 
 The variational principle states that any trial wavefunction gives an energy estimate that is always greater than or equal to the true ground state energy. This transforms finding the ground state into an optimization problem: minimize the energy over a family of trial functions. The better the trial function, the closer the estimate. This method is exact in the limit of a complete basis set, but even simple trial functions give remarkably accurate results. It is the foundation of quantum chemistry calculations, where clever choices of trial wavefunctions and basis sets balance accuracy against computational cost.
+
 ## Cross-References
 
 - **[Approximation Methods](8_approximation-methods.md)**: The variational principle is one of the key approximation methods in quantum mechanics.

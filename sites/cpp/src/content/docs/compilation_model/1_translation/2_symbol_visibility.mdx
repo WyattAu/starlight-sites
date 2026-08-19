@@ -226,16 +226,20 @@ endif()
 ---
 
 ## Linkage in Detail
+
 ### Internal Linkage Mechanics
+
 When the compiler assigns internal linkage to a symbol, it emits that symbol with the `STB_LOCAL`
 Binding in the ELF symbol table. The linker treats local symbols as invisible to other object files.
 This has important consequences:
+
 1. **Name collisions are impossible:** Two TUs can each define a `static` function called `helper()`
    without conflict.
 2. **The compiler can optimize more aggressively:** Since the symbol cannot be referenced from
    outside the TU, the compiler knows all call sites and can inline, dead-code eliminate, or
    specialize the function.
 3. **Symbol table size is reduced:** The dynamic linker processes fewer symbols at startup.
+
 ```cpp
 // a.cpp
 namespace \{
@@ -248,10 +252,14 @@ namespace \{
 \}
 int b_func(int x) \{ return compute(x); \}
 ```
+
 Both TUs compile and link successfully. Each TU has its own private `compute` function.
+
 ### Anonymous Namespaces vs `static`
+
 In C++, anonymous namespaces and `static` are functionally equivalent for functions and variables,
 But anonymous namespaces have advantages for types:
+
 ```cpp
 // Option A: static (works for functions and variables only)
 static struct Helper \{ void run() \{\} \} helper;  // Clang/GCC accept with warning
@@ -261,29 +269,40 @@ namespace \{
     Helper helper;
 \}
 ```
+
 The anonymous namespace is the preferred modern approach because:
+
 - It works for class/struct/enum definitions (unlike `static`).
 - It is idiomatically C++ (rather than inherited C).
 - It guarantees unique naming even across nested scopes.
+
 ### `extern` and Tentative Definitions
+
 The `extern` keyword declares a variable without defining it. The definition must exist in exactly
 One TU:
+
 ```cpp
 // header.h
 extern int global_counter;  // Declaration (no storage allocated)
 // counter.cpp
 int global_counter = 0;     // Definition (storage allocated here)
 ```
+
 A **tentative definition** is a declaration without an initializer at file scope:
+
 ```cpp
 int tentative_var;  // Tentative definition: may become a definition
 int tentative_var;  // OK in C (tentative definitions can repeat), ill-formed in C++ if already defined
 ```
+
 In C++, multiple tentative definitions in the same TU are ill-formed [N4950 §6.6.2]. Use `extern`
 Declarations in headers and exactly one definition in a `.cpp` file.
+
 ### `inline` Variables and Linkage (C++17)
+
 C++17 extended `inline` from functions to variables. An `inline` variable can be defined in a header
 And included in multiple TUs without violating the ODR:
+
 ```cpp
 // config.h (included in multiple TUs)
 struct Config \{
@@ -292,17 +311,21 @@ struct Config \{
     static inline std::array<int, 3> defaults = \{1, 2, 3\};
 \};
 ```
+
 The compiler and linker cooperate: each TU emits a definition, and the linker picks one (they must
 All be identical). The `inline` keyword tells the linker "multiple definitions are expected; merge
 Them."
 Without `inline`A static member defined in a header would cause "multiple definition" errors when
 Included in multiple TUs (unless it was `const` or `constexpr`Which already had special ODR
-Exemptions).
+Exemptions)
 ---
 
 ## Visibility in Depth
+
 ### ELF Symbol Visibility Levels
+
 The ELF specification defines four visibility levels:
+
 | Visibility  | ELF Constant    | Behavior                                                      |
 | :---------- | :-------------- | :------------------------------------------------------------ |
 | `default`   | `STV_DEFAULT`   | Visible to all DSOs and the executable                        |
@@ -318,8 +341,11 @@ Which is slightly faster.
 **`STV_PROTECTED`** is rarely used. It means the symbol is visible outside the DSO but cannot be
 Preempted (replaced by a definition in another DSO or via `LD_PRELOAD`). This is useful for
 Performance when you want to export a symbol but avoid the overhead of PLT/GOT indirection.
+
 ### Function-Level Visibility
+
 Visibility can be set per-function or per-variable using attributes:
+
 ```cpp
 // This function is exported (visible in the DSO's dynamic symbol table)
 __attribute__((visibility("default")))
@@ -334,32 +360,40 @@ public:
     void method2();  // exported
 \};
 ```
+
 ### Inlines and Visibility
+
 By default, `inline` functions defined in headers are **not** exported from DSOs, even with
 `default` visibility. They are compiled into each TU that includes the header. However, if a
 `-fvisibility=hidden` compilation is in effect, inlines in a shared library are still available to
 Consumers through the header — they are compiled into the consumer's TU.
 The CMake property `VISIBILITY_INLINES_HIDDEN YES` explicitly hides inline functions from the DSO's
 Export table, reducing symbol table size:
+
 ```cmake
 set_target_properties(MyLib PROPERTIES
     CXX_VISIBILITY_PRESET hidden
     VISIBILITY_INLINES_HIDDEN YES
 )
 ```
+
 ### Windows DLL Export/Import Model
+
 Windows uses a different mechanism: `__declspec(dllexport)` and `__declspec(dllimport)`:
+
 ```cpp
 // When BUILDING the DLL:
 #define MYLIB_API __declspec(dllexport)
 // When CONSUMING the DLL:
 #define MYLIB_API __declspec(dllimport)
 ```
+
 The `dllexport` attribute places the symbol in the DLL's export table (analogous to the ELF dynamic
 Symbol table). The `dllimport` attribute tells the compiler that the symbol is defined in a DLL,
 Enabling it to generate an indirect call through the IAT (Import Address Table).
 CMake's `DEFINE_SYMBOL` property automatically defines the build symbol when compiling the library's
 Own sources:
+
 ```cmake
 add_library(MyLib SHARED src/lib.cpp)
 set_target_properties(MyLib PROPERTIES
@@ -368,8 +402,11 @@ set_target_properties(MyLib PROPERTIES
 ## When compiling MyLib's sources, CMake adds -DMYLIB_EXPORT_BUILD
 ## The header's #if defined(MYLIB_EXPORT_BUILD) selects __declspec(dllexport)
 ```
+
 ### Cross-Platform Visibility Macro Pattern
+
 The canonical pattern for portable library visibility:
+
 ```cpp
 // mylib_export.h
 #pragma once
@@ -390,31 +427,42 @@ The canonical pattern for portable library visibility:
 class MYLIB_EXPORT Engine \{ /* ... */ \};
 MYLIB_EXPORT void startup();
 ```
+
 In CMake, define `MYLIB_BUILDING` when compiling the library:
+
 ```cmake
 add_library(MyLib SHARED src/lib.cpp)
 target_compile_definitions(MyLib PRIVATE MYLIB_BUILDING)
 ```
+
 ---
 
 ## The ODR and ABI Stability
+
 ### ABI Stability and Symbol Versioning
+
 When a shared library is updated, its exported symbols may change signature or layout. ELF supports
 **symbol versioning** to maintain backward compatibility:
+
 ```bash
 # View symbol versions
 readelf -V ./libmylib.so
 ```
+
 ```
 Version definition section:
   0x0000: Rev: 1  Index: 1  Name: libmylib.so
   0x0010: Rev: 1  Index: 2  Name: MYLIB_1.0
   0x0020: Rev: 1  Index: 3  Name: MYLIB_2.0
 ```
+
 A consumer compiled against `MYLIB_1.0` can still use `MYLIB_2.0` if the version script preserves
 The old symbols. This is how `glibc` maintains compatibility across decades.
+
 ### ODR Violations in Practice
+
 ODR violations are particularly insidious because the linker often does not detect them. Consider:
+
 ```cpp
 // a.h (included by a.cpp)
 struct Point \{
@@ -425,15 +473,18 @@ struct Point \{
     double y, x;  // Swapped!
 \};
 ```
+
 If `a.cpp` and `b.cpp` are linked together and share a `Point` object through external linkage, one
 TU treats the first 8 bytes as `x` and the second 8 bytes as `y`While the other TU interprets them
 In reverse order. The linker sees a single symbol `Point` and sees no error. This is **undefined
 Behavior** and manifests as corrupted floating-point values or subtle numerical errors.
 **Mitigation strategies:**
+
 1. Never copy-paste struct definitions. Always include the same header.
 2. Use `-Wodr` (GCC/Clang) to detect ODR violations at link time (limited effectiveness).
 3. Use C++20 Modules, which enforce a single definition point per module interface.
 4. Use `-fvisibility=hidden` to minimize the symbol surface and reduce collision risk.
+
 ---
 
 ## Intuition
@@ -445,6 +496,7 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 **The key insight:** Hidden visibility is the default in many modern build systems — explicitly marking symbols as visible improves build performance.
 
 ## Common Pitfalls
+
 - **Using `static` for constants in headers instead of `inline`.** In C++17 and later, prefer
   `static inline` or `inline` for header-only constants. `static` creates a separate copy in every
   TU, increasing binary size and potentially causing identity comparison failures (`&a != &b` when
@@ -462,10 +514,13 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 - **Not checking symbol tables after refactoring.** After removing a function or renaming a class,
   check `nm -C libmylib.so` to verify that stale symbols are not being exported. Stale exports
   increase binary size and can confuse consumers who accidentally use deprecated symbols.
+
 ## Summary
+
 This topic covers the essential concepts and techniques related to symbol visibility, including key
 principles and practical applications.
 **Key concepts include:**
+
 - core concepts and definitions
 - key principles and frameworks
 - practical applications
@@ -473,7 +528,9 @@ principles and practical applications.
 - evaluation and critical analysis
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
+
 ## Worked Examples
+
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 

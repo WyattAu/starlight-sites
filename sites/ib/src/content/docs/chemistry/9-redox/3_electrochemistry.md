@@ -145,7 +145,6 @@ $$
 When the question specifies acidic or basic conditions, you MUST show the balanced half-equations
 Separately before combining them. Showing working is essential for full marks.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -235,7 +234,6 @@ Reduction potential is paired with a species with a more negative reduction pote
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
 When calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
 Electrons transferred.
-
 
 ---
 
@@ -354,7 +352,6 @@ Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In 
 Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
 Of the external power supply).
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>IB Exam Tip</strong>
@@ -364,7 +361,6 @@ When asked to predict whether a reaction is spontaneous, always:
 2. Assign cathode (more positive $E^\circ$) and anode (more negative $E^\circ$).
 3. Calculate $E^\circ_{\mathrm{cell}}$.
 4. If $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
-
 
 ---
 
@@ -468,7 +464,6 @@ For IB exams, use the simplified rules:
 - At the anode: if halide ions are present (except fluoride), the halogen is produced; otherwise,
   oxygen gas from water oxidation is produced.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -570,7 +565,6 @@ Comparison of chlor-alkali cell types:
 <strong>IB Exam Tip</strong>
 The membrane cell is the preferred method for the chlor-alkali process. Know the half-equations at
 Each electrode and the purpose of the membrane.
-
 
 ---
 
@@ -682,7 +676,6 @@ Constant $K$Meaning the reaction proceeds further to completion. For
 $E^\circ_{\mathrm{cell}} \gt 0.3\mathrm{ V}$ (approximately), $K \gt 1$And the reaction can be
 Considered to go essentially to completion.
 
-
 ### Nernst Equation for Half-Cells
 
 The Nernst equation can be applied to individual half-cells:
@@ -704,7 +697,6 @@ If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$Then $E \lt E^\circ$ (less tendenc
 <strong>Common Mistake</strong>
 When applying the Nernst equation to a half-cell, ensure the reduced form is in the numerator and
 The oxidized form is in the denominator. Reversing this will give the wrong answer.
-
 
 ---
 
@@ -803,7 +795,6 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
 Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
 $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$Then $n = 2$Not $n = 1$.
-
 
 ---
 
@@ -928,7 +919,6 @@ Volume conditions (STP, RTP, or specific T and P). The IB data booklet uses
 $22.7\mathrm{ dm}^3\mathrm{/mol}$ at STP ($273\mathrm{ K}$$100\mathrm{ kPa}$) and
 $24.0\mathrm{ dm}^3\mathrm{/mol}$ at RTP ($298\mathrm{ K}$$100\mathrm{ kPa}$).
 
-
 ### Current Efficiency
 
 In practice, not all the current is used for the desired reaction. **Current efficiency** is defined
@@ -1027,7 +1017,6 @@ Transport limitations, $40\mathrm{-}60\%$.
 When comparing fuel cells to combustion engines, emphasize that fuel cells are more efficient
 Because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
 As combustion of hydrogen, but the energy conversion pathway is different.
-
 
 ---
 
@@ -1147,7 +1136,6 @@ When explaining why zinc protects iron in galvanizing, reference the electrochem
 Has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
 Principle as sacrificial anodes.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1254,7 +1242,6 @@ Key features:
 Know the half-reactions for the lead-acid battery. The key insight is that during discharge, both
 Electrodes are converted to $\mathrm{PbSO}_4$And during charging, the reaction is reversed. This
 Reversibility is what makes the battery rechargeable.
-
 
 ---
 

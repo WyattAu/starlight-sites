@@ -691,10 +691,10 @@ $Q$ is outside the perpendicular from the centre, so $Q$ must be outside the cir
 Outside the circle, the line through $P$ and $Q$ (the tangent) must cross the circle at $P$ and some
 Other point, contradicting that it is a tangent. Hence the tangent is perpendicular to the radius.
 
-
 ## Intuition
 
 Coordinate geometry is like a map with a mathematical grid -- every point has an address (x, y), every line has an equation, and every shape can be described algebraically. Trigonometry connects angles to distances: the sine, cosine, and tangent ratios let you calculate the height of a building from its shadow or the distance across a river from the opposite bank. The unit circle is the master key that unlocks trigonometric functions for any angle, revealing their periodic, wave-like nature. Geometric proofs are like legal arguments: you start with what you know (axioms and theorems) and build step by step to what you want to prove.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

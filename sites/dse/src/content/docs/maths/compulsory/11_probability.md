@@ -745,8 +745,9 @@ $$
 \end{aligned}
 $$
 
-2. **Question:** In a group of 50 students, 30 play basketball, 25 play football, and 10 play
+1. **Question:** In a group of 50 students, 30 play basketball, 25 play football, and 10 play
 Neither. A student is chosen at random. Find the probability that the student plays both sports.
+
 </details>
 <summary>Answer</summary>
 
@@ -764,8 +765,9 @@ $$
 \end{aligned}
 $$
 
-3. **Question:** A bag contains 4 white and 6 black balls. Two balls are drawn at random without
+1. **Question:** A bag contains 4 white and 6 black balls. Two balls are drawn at random without
 Replacement. Find the probability that they are of different colours.
+
 <details>
 <summary>Answer</summary>
 
@@ -790,8 +792,9 @@ $$
 \end{aligned}
 $$
 
-4. **Question:** Events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.5$And $P(A \mid B) = 0.4$.
+1. **Question:** Events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.5$And $P(A \mid B) = 0.4$.
 Find $P(A \cup B)$.
+
 </details>
 <summary>Answer</summary>
 
@@ -811,8 +814,9 @@ $$
 \end{aligned}
 $$
 
-5. **Question:** A and B are independent events with $P(A) = 0.3$ and $P(B) = 0.5$. Find
+1. **Question:** A and B are independent events with $P(A) = 0.3$ and $P(B) = 0.5$. Find
 $P(A' \cap B')$.
+
 <details>
 <summary>Answer</summary>
 
@@ -834,8 +838,9 @@ $$
 \end{aligned}
 $$
 
-6. **Question:** Two events $A$ and $B$ satisfy $P(A) = \frac{1}{3}$$P(B) = \frac{1}{4}$And
+1. **Question:** Two events $A$ and $B$ satisfy $P(A) = \frac{1}{3}$$P(B) = \frac{1}{4}$And
 $P(A \cup B) = \frac{5}{12}$. Determine whether $A$ and $B$ are independent.
+
 </details>
 <summary>Answer</summary>
 
@@ -853,8 +858,9 @@ $P(A) \cdot P(B) = \frac{1}{3} \times \frac{1}{4} = \frac{1}{12} \neq \frac{1}{6
 
 Since $P(A \cap B) \neq P(A) \cdot P(B)$The events are **not** independent.
 
-7. **Question:** A box contains 5 red, 3 green, and 2 blue marbles. Three marbles are drawn without
+1. **Question:** A box contains 5 red, 3 green, and 2 blue marbles. Three marbles are drawn without
 Replacement. Find the probability that all three are the same colour.
+
 <details>
 <summary>Answer</summary>
 
@@ -874,9 +880,10 @@ $$
 \end{aligned}
 $$
 
-8. **Question:** In a certain school, 60% of students take Mathematics, 40% take Physics, and 30%
+1. **Question:** In a certain school, 60% of students take Mathematics, 40% take Physics, and 30%
 Take both. A student is selected at random. Given that the student takes Mathematics, what is the
 Probability that they also take Physics?
+
 </details>
 <summary>Answer</summary>
 
@@ -888,9 +895,10 @@ $$
 
 Half of Mathematics students also take Physics.
 
-9. **Question:** A factory produces items using Machine $X$ (60% of output) and Machine $Y$ (40% of
+1. **Question:** A factory produces items using Machine $X$ (60% of output) and Machine $Y$ (40% of
 Output). The defect rates are 3% for $X$ and 7% for $Y$. An item is found to be defective. Use
 Bayes' theorem to find the probability it was produced by Machine $X$.
+
 <details>
 <summary>Answer</summary>
 
@@ -907,8 +915,9 @@ $$
 Despite producing 60% of items, Machine $X$ accounts for only about 39.1% of defective items because
 Its defect rate is lower.
 
-10. **Question:** A fair die is rolled twice. Find the probability that the sum of the two results
+1. **Question:** A fair die is rolled twice. Find the probability that the sum of the two results
 Is 8, given that the first result is at least 3.
+
 </details>
 <summary>Answer</summary>
 
@@ -931,9 +940,10 @@ For comparison, the unconditional probability: $P(A) = \frac{5}{36}$ (pairs
 $(2,6), (3,5), (4,4), (5,3), (6,2)$). Conditioning on the first die being $\geq$ 3 eliminates
 $(2,6)$Reducing the count from 5 to 4.
 
-11. **Question:** $A$$B$And $C$ are three events with $P(A) = P(B) = P(C) = \frac{1}{3}$
+1. **Question:** $A$$B$And $C$ are three events with $P(A) = P(B) = P(C) = \frac{1}{3}$
 $P(A \cap B) = P(A \cap C) = P(B \cap C) = \frac{1}{6}$And $P(A \cap B \cap C) = \frac{1}{12}$. Find
 $P(A \cup B \cup C)$.
+
 <details>
 <summary>Answer</summary>
 
@@ -948,9 +958,10 @@ $$
 \end{aligned}
 $$
 
-12. **Question:** A test for a condition has a sensitivity of 90% and a specificity of 95%. The
+1. **Question:** A test for a condition has a sensitivity of 90% and a specificity of 95%. The
 Condition prevalence in the population is 1%. Find the positive predictive value
 $P(\mathrm{condition} \mid \mathrm{positive})$.
+
 </details>
 <summary>Answer</summary>
 
@@ -1050,7 +1061,7 @@ $\blacksquare$
 ======= 3. Confusing the domain and range of functions, or not considering restrictions (e.g.,
 denominator cannot be zero).
 
-4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
 
 ## Summary

@@ -30,9 +30,9 @@ $t_1[X] = t_2[X]$ implies $t_1[Y] = t_2[Y]$.
 
 **Derived rules:**
 
-4. **Union:** If $X \to Y$ and $X \to Z$Then $X \to YZ$.
-5. **Decomposition:** If $X \to YZ$Then $X \to Y$ and $X \to Z$.
-6. **Pseudotransitivity:** If $X \to Y$ and $YW \to Z$Then $XW \to Z$.
+1. **Union:** If $X \to Y$ and $X \to Z$Then $X \to YZ$.
+2. **Decomposition:** If $X \to YZ$Then $X \to Y$ and $X \to Z$.
+3. **Pseudotransitivity:** If $X \to Y$ and $YW \to Z$Then $XW \to Z$.
 
 **Attribute closure.** $X^+$ is the set of all attributes functionally determined by $X$. Computed
 By starting with $X$ and repeatedly applying Armstrong's axioms until no new attributes can be
@@ -274,7 +274,6 @@ $\mathrm{Course}$ is not a superkey. Violates 4NF.
 Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 
 </details>
-
 
 </aside>
 

@@ -226,8 +226,6 @@ Scattering theory extracts information about forces by firing particles at targe
 
 </details>
 
-
-
 ## Cross-References
 
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for scattering theory and partial wave analysis.

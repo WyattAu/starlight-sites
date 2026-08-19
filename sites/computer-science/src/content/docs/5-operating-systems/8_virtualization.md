@@ -18,6 +18,7 @@ description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Co
 </script>
 
 ## See Also
+
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 

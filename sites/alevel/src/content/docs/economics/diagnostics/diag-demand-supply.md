@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
@@ -463,8 +462,6 @@ New DWL with subsidy: $MSC_{42.5} = 20 + 1.1(42.5) = 66.75$. $MSB_{42.5} = 57.5$
 $= \frac{1}{2}(66.75 - 57.5)(42.5 - 38.10) = \frac{1}{2}(9.25)(4.40) = 20.35$. The DWL has increased
 from 3.81 to 20.35 -- a more than five-fold increase. The subsidy has significantly worsened the
 market failure.
-
-
 
 ## Cross-References
 

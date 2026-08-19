@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Algebra is like a puzzle where letters represent unknown numbers — solving for x is finding the missing piece.**
@@ -498,8 +497,6 @@ and bottom by $2-\sqrt{3}$:
 $$\frac{1}{2+\sqrt{3}} = 2 - \sqrt{3}, \quad \frac{2-\sqrt{3}}{2+\sqrt{3}} = (2-\sqrt{3})^2 = 7 - 4\sqrt{3}$$
 
 Both can be verified by substitution into the original equation.
-
-
 
 ## Cross-References
 

@@ -496,8 +496,7 @@ $\\{A, B, C, D, E\\}$. Cost: 14.
 
 **Confusing BFS shortest paths with DFS.** BFS finds shortest paths in unweighted graphs (fewest edges), but DFS does not. Students often use DFS when they need shortest paths, or assume BFS works for weighted graphs. For weighted shortest paths, use Dijkstra's (non-negative weights) or Bellman-Ford (negative weights).
 
-**Misunderstanding the cut property for MSTs.** The cut property states that for any cut, the minimum-weight edge crossing the cut belongs to some MST. Students sometimes forget that this guarantees the edge is in *some* MST, not necessarily *every* MST. Multiple MSTs can exist when edges have equal weights.
-
+**Misunderstanding the cut property for MSTs.** The cut property states that for any cut, the minimum-weight edge crossing the cut belongs to some MST. Students sometimes forget that this guarantees the edge is in _some_ MST, not necessarily _every_ MST. Multiple MSTs can exist when edges have equal weights.
 
 ## Cross-References
 

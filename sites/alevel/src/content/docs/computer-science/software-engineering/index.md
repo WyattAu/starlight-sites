@@ -39,7 +39,6 @@ description: "A-Level Computer Science Software Engineering notes covering key d
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**

@@ -526,7 +526,6 @@ int main() {
 - **Range adaptor eager materialization.** Some range adaptors (like `std::views::reverse`) may need
   to buffer elements, defeating the lazy evaluation benefit of generators.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to generators (std::generator),
@@ -547,4 +546,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

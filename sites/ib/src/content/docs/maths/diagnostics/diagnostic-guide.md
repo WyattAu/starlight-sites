@@ -435,8 +435,6 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
-
 ## Cross-References
 
 - **[Number and Algebra](../1-number-and-algebra/1_number-and-algebra):** Diagnostics assess core skills

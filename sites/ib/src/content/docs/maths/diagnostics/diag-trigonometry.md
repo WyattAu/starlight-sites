@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The unit circle unifies all trigonometric functions, revealing periodic patterns that model waves, oscillations, and circular motion
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for trigonometry.
@@ -226,8 +225,6 @@ This is an elliptic integral and does not have an elementary closed form. The co
 $\frac{\pi}{16}$ comes from the double-angle identity approach, not from this substitution. The
 student's error was applying two substitutions simultaneously without accounting for both $\cos x$
 factors.
-
-
 
 ## Cross-References
 

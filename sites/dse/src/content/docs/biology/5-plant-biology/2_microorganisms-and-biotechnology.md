@@ -171,14 +171,14 @@ Electron microscopy is required to visualise viruses.
 - **Microorganism:** _Lactobacillus bulgaricus_ and _Streptococcus thermophilus_
 - **Process:**
 
-1.  Milk is pasteurised (heated to ~72 degrees C for 15 seconds) to kill harmful bacteria
-2.  Milk is cooled to ~40-45 degrees C (optimal for the bacteria)
-3.  Starter culture (Lactobacillus) is added
-4.  Bacteria ferment lactose (milk sugar) to lactic acid:
+1. Milk is pasteurised (heated to ~72 degrees C for 15 seconds) to kill harmful bacteria
+2. Milk is cooled to ~40-45 degrees C (optimal for the bacteria)
+3. Starter culture (Lactobacillus) is added
+4. Bacteria ferment lactose (milk sugar) to lactic acid:
     $$\mathrm{C}_{12}\mathrm{H}_{22}\mathrm{O}_{11} \mathrm{ (lactose)} + \mathrm{H}_2\mathrm{O} \to 4\mathrm{C}_3\mathrm{H}_6\mathrm{O}_3 \mathrm{ (lactic acid)}$$
-5.  Lactic acid lowers the pH, causing milk proteins (casein) to coagulate, giving yoghurt its thick
+5. Lactic acid lowers the pH, causing milk proteins (casein) to coagulate, giving yoghurt its thick
     texture
-6.  Yoghurt is refrigerated to slow further fermentation
+6. Yoghurt is refrigerated to slow further fermentation
 
 **Cheese:**
 
@@ -186,44 +186,44 @@ Electron microscopy is required to visualise viruses.
   microbial source) + various moulds (e.g., _Penicillium roqueforti_ for blue cheese)
 - **Process:**
 
-1.  Milk is pasteurised
-2.  Starter bacteria convert lactose to lactic acid
-3.  Rennet is added to coagulate casein (curds form)
-4.  Curds are cut, drained, and pressed to remove whey
-5.  Curds are ripened (aged) -- bacteria and moulds break down proteins and fats, developing flavour
+1. Milk is pasteurised
+2. Starter bacteria convert lactose to lactic acid
+3. Rennet is added to coagulate casein (curds form)
+4. Curds are cut, drained, and pressed to remove whey
+5. Curds are ripened (aged) -- bacteria and moulds break down proteins and fats, developing flavour
 
 **Bread:**
 
 - **Microorganism:** _Saccharomyces cerevisiae_ (baker's yeast)
 - **Process:**
 
-1.  Yeast is mixed with flour, water, and sugar
-2.  Yeast carries out **anaerobic respiration** (fermentation):
+1. Yeast is mixed with flour, water, and sugar
+2. Yeast carries out **anaerobic respiration** (fermentation):
     $$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 \xrightarrow{\mathrm{yeast}} 2\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 2\mathrm{CO}_2$$
-3.  CO$_2$ gas produced causes the dough to rise
-4.  The dough is baked -- alcohol evaporates, CO$_2$ expands further, setting the bread structure
+3. CO$_2$ gas produced causes the dough to rise
+4. The dough is baked -- alcohol evaporates, CO$_2$ expands further, setting the bread structure
 
 **Alcohol (Beer and Wine):**
 
 - **Microorganism:** _Saccharomyces cerevisiae_ (brewer's yeast)
 - **Process:**
 
-1.  Sugars (from malted barley for beer, or grape juice for wine) are fermented by yeast
-2.  Yeast carries out anaerobic respiration:
+1. Sugars (from malted barley for beer, or grape juice for wine) are fermented by yeast
+2. Yeast carries out anaerobic respiration:
     $$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 \xrightarrow{\mathrm{yeast}} 2\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 2\mathrm{CO}_2$$
-3.  The ethanol produced is the alcohol in the beverage
-4.  Fermentation is carried out in anaerobic conditions (absence of oxygen)
+3. The ethanol produced is the alcohol in the beverage
+4. Fermentation is carried out in anaerobic conditions (absence of oxygen)
 
 **Biogas:**
 
 - **Microorganism:** Methanogenic bacteria (_Methanobacterium_)
 - **Process:**
 
-1.  Organic waste (manure, plant material) is placed in an anaerobic digester
-2.  Bacteria break down the organic matter in the absence of oxygen
-3.  Methane (CH$_4$) is produced as the main component of biogas
-4.  Biogas can be used as fuel for cooking, heating, or electricity generation
-5.  The remaining slurry can be used as fertiliser
+1. Organic waste (manure, plant material) is placed in an anaerobic digester
+2. Bacteria break down the organic matter in the absence of oxygen
+3. Methane (CH$_4$) is produced as the main component of biogas
+4. Biogas can be used as fuel for cooking, heating, or electricity generation
+5. The remaining slurry can be used as fertiliser
 
 ### Antibiotics
 
@@ -395,10 +395,10 @@ Bacteria, fungi, and viruses.
 
 - **Phagocytosis:** Phagocytes (neutrophils, macrophages) engulf and digest pathogens
 
-1.  Phagocyte recognises the pathogen (non-self)
-2.  Phagocyte engulfs the pathogen by surrounding it with its membrane (forming a phagosome)
-3.  Lysosomes fuse with the phagosome, releasing digestive enzymes (lysozymes, proteases)
-4.  The pathogen is digested and destroyed
+1. Phagocyte recognises the pathogen (non-self)
+2. Phagocyte engulfs the pathogen by surrounding it with its membrane (forming a phagosome)
+3. Lysosomes fuse with the phagosome, releasing digestive enzymes (lysozymes, proteases)
+4. The pathogen is digested and destroyed
 
 - **Inflammation:** Tissue damage triggers release of histamine, causing vasodilation and increased
   capillary permeability. More phagocytes and plasma proteins arrive at the site.
@@ -479,11 +479,11 @@ To produce desired characteristics.
 - Heat shock (briefly heating cells in the presence of calcium chloride)
 - Electroporation (electric pulse creates temporary pores in the cell membrane)
 
-6. **Selection and culture:** Transformed cells are identified using marker genes (e.g., antibiotic
+1. **Selection and culture:** Transformed cells are identified using marker genes (e.g., antibiotic
    resistance). Only cells that have taken up the plasmid survive on antibiotic-containing media.
    Successfully transformed cells are cultured to produce the desired product.
 
-7. **Expression:** The host cell's machinery (ribosomes, enzymes) transcribes and translates the
+2. **Expression:** The host cell's machinery (ribosomes, enzymes) transcribes and translates the
    inserted gene, producing the desired protein.
 
 ### Example: Production of Human Insulin by Genetic Engineering
@@ -1535,6 +1535,7 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
   protein from the inserted bacterial gene. When an insect eats the plant tissue, the toxin is
   activated in the insect's alkaline gut and kills the insect by forming pores in its gut lining**
   <aside class="starlight-aside starlight-aside--tip">
+
 <strong>Diagnostic Test</strong>
 :::tip Tip Ready to test your understanding of **Microorganisms and Biotechnology\*\*? The contains the
   hardest questions within the DSE specification for this topic, each with a full worked solution.
@@ -1557,6 +1558,7 @@ self-marking and building a personal test matrix.
 </script>
 
 ## Industrial Biotechnology Applications
+
 </aside>
 
 ### Bioremediation
@@ -1727,8 +1729,6 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
-
-
 
 ## Cross-References
 

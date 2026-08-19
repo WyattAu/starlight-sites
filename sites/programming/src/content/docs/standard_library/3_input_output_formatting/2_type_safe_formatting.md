@@ -125,7 +125,7 @@ void alignment_demo() {
 | :-------- | :------------------------------------------------------------------------- |
 | `+`       | Always show sign for signed types (`+42``-7`)                              |
 | `-`       | Only show sign for negative values (default)                               |
-| (space)   | Show space for positive, minus for negative (` 42``-7`)                    |
+| (space)   | Show space for positive, minus for negative (`42``-7`)                    |
 | `#`       | Alternate form: `0x` prefix for hex, `0b` for binary, `0` prefix for octal |
 | `0`       | Pad with zeros instead of spaces                                           |
 
@@ -745,4 +745,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

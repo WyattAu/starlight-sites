@@ -20,6 +20,7 @@ categories: [Physics]
 ## Magnetic Fields
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
+>
 ## 1. Magnetic Flux Density
 
 **Definition.** The magnetic flux density $B$ (also called the magnetic field strength in the
@@ -496,7 +497,6 @@ $
 ## Intuition
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
-
 
 ## Cross-References
 

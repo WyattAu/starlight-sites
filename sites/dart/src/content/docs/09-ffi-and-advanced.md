@@ -129,7 +129,6 @@ String first = external.first!;  // Crashes if first element is null
 Promote the type via flow analysis, remove the `!`. If it cannot, prefer a guard or default value.
 The `!` operator is a code smell in production code — it means you are bypassing the safety system.
 
-
 ### Late Initialization
 
 The `late` keyword tells the compiler: "this variable will be initialized before it is used, but not
@@ -201,12 +200,10 @@ class Service {
 Initialization, always use `late final`. A bare `late` field is mutable and can be reassigned
 Arbitrarily after its first initialization.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 Initialization paths and one path forgets to initialize the `late` field, you get a
 `LateInitializationError` at runtime with no compile-time warning.
-
 
 ### Null-Aware Operators
 
@@ -409,7 +406,6 @@ String? getName() => 'Dart';
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
 Will not promote it inside the closure.
 
-
 ### Migration Patterns
 
 When migrating legacy Dart code to null safety:
@@ -542,7 +538,6 @@ Types:
 VM. When passing an `Int8` value, the Dart `int` is truncated to 8 bits. When reading an `Int8`
 Value, it is sign-extended to 64 bits. Always be aware of the C type's range when working with FFI.
 
-
 ### Pointers
 
 **Definition.** `Pointer<T>` represents a memory address pointing to a value of type `T`. It is the
@@ -599,7 +594,6 @@ final bytePtr = ptr.cast<Uint8>();  // reinterpret as byte array
 Collector. Every `malloc` must have a corresponding `malloc.free`Or you leak native memory. Unlike
 Dart objects, there is no finalizer that automatically frees native memory. Use `using` from
 `package:ffi` or Dart's `NativeFinalizer` to ensure cleanup.
-
 
 #### Scoped Allocation with `using`
 
@@ -728,7 +722,6 @@ callback.close();
 <aside class="starlight-aside starlight-aside--caution">
 Leaks native resources. The callable is valid only while the `NativeCallable` object is alive.
 
-
 #### Legacy Pointer.fromFunction
 
 ```dart
@@ -747,7 +740,6 @@ nativeSetCallback(callbackPointer);
 <aside class="starlight-aside starlight-aside--caution">
 Code calls the callback from a different thread, the behavior is undefined and may crash. Use
 `NativeCallable.listener` for cross-thread callbacks.
-
 
 ### Strings
 
@@ -806,7 +798,6 @@ final dartResult = result.toDartString();
 <aside class="starlight-aside starlight-aside--caution">
 Method allocates a new Dart `String` object — it does not take ownership of the C memory. If C
 Allocated the string, you must free it with C's deallocator, not Dart's `malloc.free`.
-
 
 ### Arrays
 
@@ -876,7 +867,6 @@ external void nativeFree(Pointer<Void> ptr);
 Than `DynamicLibrary.lookup` and produces cleaner code. It requires Dart 3.3+ and native platforms
 (AOT or JIT).
 
-
 ### Async FFI
 
 Native C functions are synchronous and block the calling thread. In Dart's single-threaded event
@@ -907,7 +897,6 @@ void main() async {
 <aside class="starlight-aside starlight-aside--caution">
 Remain responsive. Always offload potentially long-running native calls to a compute isolate via
 `Isolate.run`.
-
 
 ## Isolates and Concurrency Deep Dive
 
@@ -1075,7 +1064,6 @@ class _Request {
 <aside class="starlight-aside starlight-aside--caution">
 Receive them in that order. However, messages sent from different isolates to the same port may be
 Interleaved — there is no global ordering guarantee across multiple senders.
-
 
 ### Event Loop Model
 
@@ -1723,10 +1711,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Dart FFI is like having a universal translator between Dart and C -- it lets you speak directly to native libraries without an interpreter. Pointers are raw memory addresses, like street addresses in a city where there are no zip codes or house numbers. Structs are like blueprints that map Dart objects to C memory layouts. The critical difference from Dart's garbage-collected world is that native memory must be freed manually -- there is no automatic cleanup crew. Isolates are like separate houses on the same street: they share the road (message passing) but not the furniture (memory), preventing the data races that plague thread-based concurrency.
+
 ## Worked Examples
 
 ### Example 1: FFI Binding to C strlen
@@ -1800,7 +1788,6 @@ $\blacksquare$
   spawning.
 - `dart:ffi` requires manual memory management: always `free` allocated native memory in a `finally`
   block.
-
 
 </aside>
 ## Cross-References

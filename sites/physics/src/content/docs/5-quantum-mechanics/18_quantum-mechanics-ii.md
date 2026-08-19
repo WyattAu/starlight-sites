@@ -803,8 +803,8 @@ r = 0, r = a_0. The most probable radius is r = a_0 = 0.529 Angstrom, which is t
 **Problem:** Calculate the spin-orbit coupling energy for a single valence electron in the 2p state
 of hydrogen-like sodium (Z*eff = 11). **Solution:** The spin-orbit coupling energy is Delta E =
 (Z_eff^4 * alpha^2 * E_n) / (n * l * (l + 1/2) \* (l + 1)), where alpha = 1/137. For n=2, l=1: the
-2p level splits into 2p*{3/2} and 2p\_{1/2}. The splitting is Delta E proportional to Z_eff^4 _
-alpha^2 _ E_n / n^3, which gives the D-line splitting observed in the sodium spectrum (589.0 nm and
+2p level splits into 2p*{3/2} and 2p\_{1/2}. The splitting is Delta E proportional to Z_eff^4_
+alpha^2 _E_n / n^3, which gives the D-line splitting observed in the sodium spectrum (589.0 nm and
 589.6 nm).
 
 ## Intuition

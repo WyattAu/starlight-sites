@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** Good system design anticipates change, manages complexity, and balances competing requirements
 
-
 ## Design
 
 ### Prototype
@@ -425,9 +424,9 @@ Must depend directly on the primary key, not through another non-key attribute.
 
 | LoanID | MemberName | MemberEmail      | BookTitle | Author  | Genre    |
 | ------ | ---------- | ---------------- | --------- | ------- | -------- |
-| 1      | Alice      | alice@school.com | 1984      | Orwell  | Fiction  |
-| 2      | Alice      | alice@school.com | Dune      | Herbert | Fiction  |
-| 3      | Bob        | bob@school.com   | Calculus  | Stewart | Textbook |
+| 1      | Alice      | <alice@school.com> | 1984      | Orwell  | Fiction  |
+| 2      | Alice      | <alice@school.com> | Dune      | Herbert | Fiction  |
+| 3      | Bob        | <bob@school.com>   | Calculus  | Stewart | Textbook |
 
 This is in 1NF but not 3NF. MemberEmail depends on MemberName (not LoanID), and Author/Genre depend
 On BookTitle. These are transitive dependencies. Resolution — split into three tables:
@@ -436,8 +435,8 @@ On BookTitle. These are transitive dependencies. Resolution — split into three
 
 | MemberID | MemberName | MemberEmail      |
 | -------- | ---------- | ---------------- |
-| 1        | Alice      | alice@school.com |
-| 2        | Bob        | bob@school.com   |
+| 1        | Alice      | <alice@school.com> |
+| 2        | Bob        | <bob@school.com>   |
 
 **Books table** (PK: BookID):
 

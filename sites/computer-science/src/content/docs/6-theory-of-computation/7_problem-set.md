@@ -199,7 +199,6 @@ $\blacksquare$
 | [Theory of Computation] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/theory-of-computation/01-automata-and-computability) |
 | [Theory of Computation] | University | [View](https://university.wyattau.com/docs/computing/6-theory-of-computation/1_theory-of-computation)                        |
 
-
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 

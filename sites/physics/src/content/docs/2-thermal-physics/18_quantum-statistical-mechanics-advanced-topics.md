@@ -248,7 +248,6 @@ $C/A = (2\pi^2 k_B^4)/(15\hbar^3 c^2)\,T^3 \propto T^3$ (Debye $T^3$ in 2D).
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical density matrix generalises the results here to systems with particle exchange.
 - **[The Debye Model of Solids](16_the-debye-model-of-solids.md)**: Phonon quantisation in the Debye model uses the same Bose-Einstein occupation statistics developed in this chapter.
 
-
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

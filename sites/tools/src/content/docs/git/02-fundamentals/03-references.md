@@ -146,7 +146,6 @@ $ git branch recover-feature  # Creates a branch pointing to F
 However, **new work done in detached HEAD is at risk of being lost** if you switch away without
 Saving the commit hash.
 
-
 ### Tags
 
 Tags are references stored at `.git/refs/tags/<tag-name>`. Unlike branches, tags **do not move**
@@ -247,7 +246,6 @@ $ git push origin +main:main
 <aside class="starlight-aside starlight-aside--caution">
 Based work on the old commits, they will encounter conflicts. Only force push to branches that you
 Exclusively own (feature branches, personal forks). Never force push `main` in a shared repository.
-
 
 ## The Reflog
 
@@ -373,7 +371,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

@@ -314,7 +314,6 @@ ending with the "lone and level sands" that stretch "far away."
 Together, the poems offer complementary perspectives: Blake shows what power does to its victims;
 Shelley shows what time does to power itself.
 
-
 ## Intuition
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**

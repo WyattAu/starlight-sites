@@ -211,7 +211,7 @@ the only commit message for the entire change.
 ### After a Merge Commit
 
 ```bash
-$ git revert -m 1 <merge-commit-hash>
+git revert -m 1 <merge-commit-hash>
 ```
 
 The `-m 1` flag tells Git to keep the first parent (the branch you merged into), effectively undoing
@@ -220,7 +220,7 @@ the entire feature.
 ### After a Squash and Merge
 
 ```bash
-$ git revert <squash-commit-hash>
+git revert <squash-commit-hash>
 ```
 
 Single commit — straightforward revert.
@@ -251,7 +251,6 @@ Single commit — straightforward revert.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---

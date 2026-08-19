@@ -38,6 +38,7 @@ Removing commit history is a destructive operation that creates a fresh reposito
 - Force-push current branch to GitHub
 - `git push -f origin main`
 - Delete all other branches and tags if needed
+
   ```bash
   git tag | xargs git tag -d  # Delete local tags
   git push origin --delete --tags  # Delete remote tags
@@ -115,18 +116,22 @@ If commits are lost after a force-push, several recovery paths exist:
 
 1. **From local reflog**: If the original commits still exist locally, `git reflog` lists previous
    HEAD positions. Reset to the desired entry and re-push:
+
    ```bash
    git reflog
    git reset --hard HEAD@{1}
    git push --force
    ```
+
 2. **From a collaborator's clone**: Another contributor who has not rebased can push the original
    history back:
+
    ```bash
    git fetch https://github.com/collaborator/repo.git main
    git reset --hard FETCH_HEAD
    git push --force
    ```
+
 3. **From GitHub dangling refs**: GitHub retains unreachable objects for approximately 30 days. The
    GitHub API or the `git fsck --unreachable` command on a fresh clone can sometimes recover lost
    commits.

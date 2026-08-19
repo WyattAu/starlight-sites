@@ -259,9 +259,9 @@ Increases memory bandwidth, which benefits workloads that are memory-bandwidth b
 - 3DMark Time Spy (for gaming workloads)
 - AIDA64 GPGPU benchmark (for compute workloads)
 
-3. Watch for visual artifacts. Colored squares, flashing textures, or screen corruption.
-4. When artifacts appear, reduce the offset by 100 MHz.
-5. Run a 30-minute stability test at the final setting.
+1. Watch for visual artifacts. Colored squares, flashing textures, or screen corruption.
+2. When artifacts appear, reduce the offset by 100 MHz.
+3. Run a 30-minute stability test at the final setting.
 
 ### Typical Memory Overclocks
 

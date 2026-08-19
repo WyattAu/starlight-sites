@@ -172,6 +172,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 ## Key Equations to Remember
 
 ### Energy
+
 - Kinetic energy: $E_k = \frac{1}{2}mv^2$
 - Gravitational potential energy: $E_p = mgh$
 - Elastic potential energy: $E_e = \frac{1}{2}ke^2$
@@ -179,12 +180,14 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - Power: $P = \frac{W}{t} = Fv$
 
 ### Electricity
+
 - Ohm's law: $V = IR$
 - Power: $P = IV = I^2R = \frac{V^2}{R}$
 - Series resistance: $R_{total} = R_1 + R_2 + ...$
 - Parallel resistance: $\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$
 
 ### Forces
+
 - Newton's second law: $F = ma$
 - Weight: $W = mg$
 - Work done: $W = Fd\cos\theta$
@@ -192,6 +195,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - Impulse: $F\Delta t = \Delta p$
 
 ### Waves
+
 - Wave speed: $v = f\lambda$
 - Period: $T = \frac{1}{f}$
 

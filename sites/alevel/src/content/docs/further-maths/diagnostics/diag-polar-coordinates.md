@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -246,8 +245,6 @@ cardioid, inside circle $= 9\pi/4 - \pi = 5\pi/4$.
 **Mixing up the conversion between polar and Cartesian:** $x = r\cos\theta$, $y = r\sin\theta$, $r^2 = x^2 + y^2$, $\tan\theta = y/x$. Students sometimes write $r = x\cos\theta + y\sin\theta$ or confuse which functions go with which variable. Always derive from the right-angled triangle.
 
 **Using the wrong limits for polar integration:** The limits must be angles $\theta$, not distances $r$. When finding the area between two curves, identify the intersection angles by setting $r_1(\theta) = r_2(\theta)$ and solving for $\theta$. Do not use Cartesian $x$ or $y$ limits for polar integrals.
-
-
 
 ## Cross-References
 

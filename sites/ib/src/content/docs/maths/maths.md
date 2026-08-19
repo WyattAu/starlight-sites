@@ -744,7 +744,7 @@ If you get this wrong, revise: Arithmetic sequence formulas $u_n = u_1 + (n-1)d$
 
 </details>
 
-2. Find the sum of all integers from 1 to 200 that are divisible by 3.
+1. Find the sum of all integers from 1 to 200 that are divisible by 3.
 
 <details>
 <summary>Solution</summary>
@@ -759,7 +759,7 @@ If you get this wrong, revise: Arithmetic series formula $S_n = n(u_1 + u_n)/2$ 
 
 ### Functions
 
-3. Find the range of $f(x) = \dfrac{2x + 1}{x - 3}$.
+1. Find the range of $f(x) = \dfrac{2x + 1}{x - 3}$.
 
 <details>
 <summary>Solution</summary>
@@ -772,7 +772,7 @@ If you get this wrong, revise: Finding range of rational functions by rearrangin
 
 </details>
 
-4. The function $f(x) = x^3 - 3x^2 + 4$ has a stationary point at $x = 2$. Determine its nature and
+1. The function $f(x) = x^3 - 3x^2 + 4$ has a stationary point at $x = 2$. Determine its nature and
    find the other stationary point.
 
 <details>
@@ -790,7 +790,7 @@ If you get this wrong, revise: First and second derivative tests for stationary 
 
 ### Trigonometry
 
-5. Solve $2\cos^2 x - \cos x - 1 = 0$ for $0 \le x \le 2\pi$.
+1. Solve $2\cos^2 x - \cos x - 1 = 0$ for $0 \le x \le 2\pi$.
 
 <details>
 <summary>Solution</summary>
@@ -805,7 +805,7 @@ If you get this wrong, revise: Solving trigonometric equations by substitution (
 
 </details>
 
-6. In triangle $ABC$$a = 7$$b = 10$$C = 120$ degrees. Find the length of side $c$.
+1. In triangle $ABC$$a = 7$$b = 10$$C = 120$ degrees. Find the length of side $c$.
 
 <details>
 <summary>Solution</summary>
@@ -820,7 +820,7 @@ If you get this wrong, revise: Cosine rule for finding a side (Topic 3).
 
 ### Probability and Statistics
 
-7. Two events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.4$And $P(A \mid B) = 0.5$. Find
+1. Two events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.4$And $P(A \mid B) = 0.5$. Find
    $P(A \cap B)$ and determine whether $A$ and $B$ are independent.
 
 <details>
@@ -834,7 +834,7 @@ If you get this wrong, revise: Conditional probability and independence (Topic 4
 
 </details>
 
-8. A random variable $X \sim N(\mu, 9)$. Given $P(X \lt 22) = 0.8413$Find $\mu$.
+1. A random variable $X \sim N(\mu, 9)$. Given $P(X \lt 22) = 0.8413$Find $\mu$.
 
 <details>
 <summary>Solution</summary>
@@ -849,7 +849,7 @@ If you get this wrong, revise: Standardisation $Z = (X - \mu)/\sigma$ and invers
 
 ### Calculus
 
-9. Find $\displaystyle\int_0^1 x\sqrt{1 + x^2}\,dx$.
+1. Find $\displaystyle\int_0^1 x\sqrt{1 + x^2}\,dx$.
 
 <details>
 <summary>Solution</summary>
@@ -862,7 +862,7 @@ If you get this wrong, revise: Integration by substitution, changing limits (Top
 
 </details>
 
-10. A curve is defined implicitly by $x^2 + y^2 + 3xy = 10$. Find $\dfrac{dy}{dx}$ at the point
+1. A curve is defined implicitly by $x^2 + y^2 + 3xy = 10$. Find $\dfrac{dy}{dx}$ at the point
     $(1, 2)$.
 
 <details>
@@ -877,7 +877,7 @@ If you get this wrong, revise: Implicit differentiation (HL, Topic 5).
 
 </details>
 
-11. Find the area enclosed between the curves $y = x^2$ and $y = 2x$.
+1. Find the area enclosed between the curves $y = x^2$ and $y = 2x$.
 
 <details>
 <summary>Solution</summary>
@@ -892,7 +892,7 @@ If you get this wrong, revise: Area between two curves (Topic 5).
 
 </details>
 
-12. A population grows at a rate proportional to its size. If the population doubles in 5 hours,
+1. A population grows at a rate proportional to its size. If the population doubles in 5 hours,
     find the continuous growth rate $k$ and the time it takes for the population to triple.
 
 <details>

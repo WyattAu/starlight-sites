@@ -1767,21 +1767,21 @@ _Hint:_ Total data = 630 KB = 5.04 Mb. Transmission time = 5.04 / 10 = 0.504 s.
   504 ms = 1 $\times$ 50 + 16 $\times$ 50 + 504 = 1354 ms.
 - HTTP/2: 1 RTT for handshake, all requests multiplexed. 1 $\times$ 50 + 504 = 554 ms.
 
-19. **Firewall rules.** A company has a web server at `203.0.113.10`A mail server at
+1. **Firewall rules.** A company has a web server at `203.0.113.10`A mail server at
     `203.0.113.20`And an internal network `10.0.0.0/24`. Write a set of packet filtering rules that:
     (a) allows external HTTP/HTTPS to the web server, (b) allows external SMTP to the mail server,
     (c) allows internal users to access any external service, (d) blocks all other inbound traffic.
 
-20. **RSA encryption.** Given primes $p = 5$, $q = 11$And public exponent $e = 3$: (a) Compute $n$,
+2. **RSA encryption.** Given primes $p = 5$, $q = 11$And public exponent $e = 3$: (a) Compute $n$,
     $\phi(n)$And the private key $d$. (b) Encrypt the message $m = 7$. (c) Decrypt the ciphertext to
     verify.
 
-21. **TCP throughput bound.** A TCP connection over a satellite link has RTT = 600 ms and bandwidth
+3. **TCP throughput bound.** A TCP connection over a satellite link has RTT = 600 ms and bandwidth
     = 50 Mbps. The receiver advertises `rwnd` = 1 MB. If `cwnd` grows to 2 MB during slow start,
     what is the maximum achievable throughput? What is the BDP, and is the window large enough to
     fill the pipe?
 
-22. **CDMA orthogonality.** Four stations share a channel using CDMA with chip codes:
+4. **CDMA orthogonality.** Four stations share a channel using CDMA with chip codes:
     $C_1 = (+1, -1, +1, +1)$, $C_2 = (+1, +1, -1, +1)$, $C_3 = (+1, +1, +1, -1)$
     $C_4 = (-1, +1, +1, +1)$. Station 1 sends bit 1, station 2 sends bit 0, station 3 sends bit 1,
     station 4 is silent. Compute the combined signal and show that each receiver correctly recovers
@@ -1866,6 +1866,5 @@ Computer networking is the engineering discipline of getting data from point A t
 The genius of packet switching over circuit switching is that it makes efficient use of shared resources. Instead of dedicating a path for each conversation (wasteful for bursty traffic), packets are independently routed and reassembled at the destination. TCP's genius is making this unreliable infrastructure appear reliable: sequence numbers, acknowledgements, and retransmission timers turn an unreliable best-effort network into a reliable byte stream. The sliding window mechanism balances throughput against congestion — sending too much data overwhelms buffers and causes packet loss, while sending too little wastes bandwidth. TCP's congestion control algorithm (slow start, congestion avoidance, fast retransmit) is one of the most elegant feedback control systems ever designed.
 
 The internet works because of a carefully negotiated balance between decentralisation and coordination. BGP lets autonomous systems (ISPs, universities, companies) independently choose their routing policies while collectively maintaining global reachability. DNS provides a distributed, hierarchical naming system that scales to billions of devices. NAT extends the IPv4 address space by allowing many private devices to share a single public address. Every protocol is a negotiation between competing interests — performance vs reliability, security vs convenience, local control vs global interoperability — and understanding these trade-offs is the essence of networking.
-
 
 </aside>

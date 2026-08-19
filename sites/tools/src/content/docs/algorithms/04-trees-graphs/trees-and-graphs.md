@@ -309,7 +309,6 @@ Insufficient — the BST property requires that **all** values in the left subtr
 `node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
 
-
 ## AVL Trees
 
 An AVL tree is a self-balancing BST where the heights of the two child subtrees of any node differ
@@ -399,7 +398,6 @@ Red-black trees are used in the Linux kernel (for `CFS` scheduler, `mm` memory m
 <aside class="starlight-aside starlight-aside--note">
 Insertions and deletions are frequent (schedulers, event queues). In practice, the difference is
 Small for most workloads.
-
 
 ## B-Trees
 
@@ -958,7 +956,6 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

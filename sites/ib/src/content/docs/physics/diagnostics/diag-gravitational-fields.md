@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Every mass attracts every other mass with a force proportional to both masses and inversely proportional to the square of the distance between them
 
-
 ## Unit Tests
 
 ### UT-1: Gravitational Field Strength Inside a Uniform Sphere

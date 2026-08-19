@@ -26,6 +26,7 @@ Measures $\mu$ and $\nu$ are **mutually singular** (written $\mu \perp \nu$) if 
 $A \in \mathcal{F}$ such that $\mu(A) = 0$ and $\nu(A^c) = 0$.
 
 **Proposition 9.1 (Basic Properties).** Let $\mu, \nu, \lambda$ be measures on $(X, \mathcal{F})$.
+
 - If $\nu \ll \mu$ and $\mu \ll \lambda$, then $\nu \ll \lambda$.
 - If $\nu \ll \mu$ and $\nu \perp \mu$, then $\nu = 0$.
 - If $\nu \ll \mu$ and $\mu$ is $\sigma$-finite, then $\nu$ is $\sigma$-finite.

@@ -75,7 +75,6 @@ $$
 \%\mathrm{O = \frac{16.00}{18.02} \times 100 = 88.81\%
 $$
 
-
 Percent composition is useful for verifying empirical formulas and for determining the formula of an
 Unknown compound from experimental data.
 
@@ -132,7 +131,6 @@ N = \frac{180}{30.03} \approx 6
 $$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ (glucose).
-
 
 ### Combustion Analysis
 
@@ -239,7 +237,6 @@ $$
 \mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O
 $$
 
-
 ### Worked Example: Balancing Complex Equations
 
 Balance the reaction:
@@ -327,7 +324,6 @@ $$
 \%\mathrm{ Yield = \frac{24.0}{30.0} \times 100 = 80.0\%
 $$
 
-
 ### Derivation: Why the Limiting Reactant Method Works
 
 The limiting reactant method divides moles by the stoichiometric coefficient because the coefficient
@@ -382,7 +378,6 @@ $$
 $$
 V_{\mathrm{HCl} = \frac{0.00500}{0.500} = 0.0100 \mathrm{ L = 10.0 \mathrm{ mL
 $$
-
 
 ### Gravimetric Analysis
 
@@ -490,7 +485,6 @@ V = \frac{nRT}{P} = \frac{(0.0612)(0.08206)(273.15)}{1.00} = 1.37 \mathrm{ L
 $$
 
 Or using molar volume at STP: $V = 0.0612 \times 22.4 = 1.37 \mathrm{ L$.
-
 
 ### Derivation: The Ideal Gas Law from Empirical Laws
 
@@ -884,13 +878,11 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
-
 </aside>
 
 ## Intuition
 
 Chemical reactions are the engine of change in the universe. Atoms rearrange to form new substances, releasing or absorbing energy in the process. Understanding bonding, reaction kinetics, and thermodynamics allows us to design medicines, create materials, and predict how substances will behave under different conditions. Chemistry connects the微观 world of atoms to the宏观 world of materials and life.
-
 
 ## Cross-References
 

@@ -38,7 +38,7 @@ brew tap dart-lang/dart
 brew install dart
 ```
 
-Or download the archive directly from https://dart.dev/get-dart
+Or download the archive directly from <https://dart.dev/get-dart>
 
 ```bash
 curl -O https://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-macos-x64-release.zip
@@ -65,7 +65,7 @@ sudo apt install dart
 
 ### Windows
 
-Download the installer from https://dart.dev/get-dart. Run the `.exe` — it adds `dart` to your PATH
+Download the installer from <https://dart.dev/get-dart>. Run the `.exe` — it adds `dart` to your PATH
 automatically. Verify with:
 
 ```bash
@@ -197,7 +197,7 @@ Key VS Code shortcuts for Dart:
 Android Studio includes the Dart and Flutter plugins by default when you install the Flutter SDK
 Through its installer:
 
-1. Download Android Studio from https://developer.android.com/studio
+1. Download Android Studio from <https://developer.android.com/studio>
 2. Install the Flutter and Dart plugins: **Settings &gt; Plugins &gt; Marketplace &gt; "Flutter"**
 3. Configure the SDK path: **Settings &gt; Languages &amp; Frameworks &gt; Flutter &gt; Flutter SDK
    path**
@@ -251,7 +251,7 @@ flutter run
 This creates a full Flutter project with platform-specific directories (`android/``ios/``web/`
 `macos/``linux/``windows/`).
 
-### Project structure after `dart create -t console`:
+### Project structure after `dart create -t console`
 
 ```
 my_cli/
@@ -286,7 +286,7 @@ Android Studio.
 
 ### Installing Android Studio
 
-1. Download from https://developer.android.com/studio
+1. Download from <https://developer.android.com/studio>
 2. Run the installer (it bundles Android SDK, SDK Platform-Tools, and Android Emulator)
 3. Launch Android Studio and complete the setup wizard. It downloads the latest SDK and system
    images
@@ -363,7 +363,7 @@ For Windows desktop development (UWP/Win32 Flutter apps):
 - **Desktop development with C++**
 - **Universal Windows Platform development** (optional, for UWP)
 
-2. Ensure the Windows 10/11 SDK is installed
+1. Ensure the Windows 10/11 SDK is installed
 
 ```bash
 flutter doctor

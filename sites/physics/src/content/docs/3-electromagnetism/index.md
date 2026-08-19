@@ -89,6 +89,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -129,4 +130,3 @@ Electromagnetism is the force that holds atoms together, makes chemistry possibl
 The deepest insight of electromagnetism is that electricity and magnetism are not separate forces — they are two aspects of a single electromagnetic force, unified by special relativity. A stationary charge produces only an electric field. But move that charge, and it produces both electric and magnetic fields. The magnetic field is what you see when you look at an electric field from a different reference frame. Maxwell's equations are logically relativistic: they don't need to be modified to account for Einstein's special relativity, unlike Newton's laws. This was one of the first clues that relativity was correct.
 
 Electromagnetic waves — light, radio, X-rays — are self-propagating disturbances: a changing electric field creates a magnetic field, which creates an electric field, and so on, travelling at the speed of light. This prediction, derived purely from Maxwell's equations, unified optics with electromagnetism and revealed that visible light is just a narrow slice of the electromagnetic spectrum. The quantum version of electromagnetism — quantum electrodynamics (QED) — is the most precisely tested theory in physics, predicting the electron's magnetic moment to twelve decimal places. Understanding classical electromagnetism is the essential foundation for everything from antenna design to particle accelerators to quantum computing.
-

@@ -1,7 +1,7 @@
 ---
 
 title: Introduction to Probabilistic ML
-description: "Introduction to probabilistic machine learning concepts and methods."
+description: "Probabilistic ML treats uncertainty as a first-class object: posteriors, calibration, and Bayesian updating for predictive modelling."
 date: 2026-01-07T07:50:21.312Z
 tags:
   - ML
@@ -64,7 +64,7 @@ predictions and parameters. This distinction has several practical consequences:
 | --------------- | ------------------------------------- | ----------------------------------------------------- |
 | Output          | Point estimate $\hat{y}$              | Distribution $p(y \mid x, \mathcal{D})$               |
 | Parameters      | Single optimal $\hat{\theta}$         | Posterior $p(\theta \mid \mathcal{D})$                |
-| Uncertainty     | Not quantified (unless via bootstrap) | Logically quantified via variance, credible intervals |
+| Uncertainty     | Not quantified (unless via bootstrap) | Naturally quantified via variance, credible intervals |
 | Regularization  | Explicit (L1/L2 penalties, dropout)   | Implicit (through priors)                             |
 | Model selection | Cross-validation, AIC/BIC             | Marginal likelihood, Bayes factors                    |
 | Small data      | Prone to overfitting                  | Priors stabilize estimates                            |
@@ -201,7 +201,20 @@ linked above.
 
 ## Intuition
 
-Probabilistic machine learning is like being a detective who deals in probabilities instead of certainties. Instead of saying "the suspect is guilty," you say "there is an 80% chance the suspect is guilty." Traditional ML gives you a single answer; probabilistic ML gives you a distribution of possible answers with confidence levels. This matters because in the real world, uncertainty is everywhere - medical diagnoses, self-driving cars, financial predictions. The key insight is that knowing how uncertain you are is often more valuable than the prediction itself. A model that says "I am 99% sure this is benign" is very different from one that says "I am 51% sure this is benign" - even though both predict the same thing.
+Probabilistic machine learning treats uncertainty as a first-class mathematical object rather than
+a nuisance. A deterministic model commits to a single answer $\hat{y}$; a probabilistic model
+maintains a full posterior $p(\theta \mid \mathcal{D})$ over explanations of the data and
+propagates it through prediction to produce $p(y \mid x, \mathcal{D})$. The practical force of
+this is calibration: a model that says "I am 99% sure this lesion is benign" and is right 99
+times out of 100 is trustworthy, while one with the same stated confidence that is right only
+half the time is not. Both can issue identical point predictions, so only the distributional
+view separates them. Probability theory further distinguishes the two sources of uncertainty:
+aleatoric (irreducible noise in the data-generating process) and epistemic (ignorance about
+$\theta$ that more data could shrink). Bayes' theorem is then the complete consistency rule for
+updating beliefs, and decision theory converts posteriors into actions with quantified risk.
+That chain, posterior to prediction to decision, is what enables active learning, exploration
+under uncertainty, and safety cases for deployment in medicine, autonomous systems, and
+finance.
 
 ## Cross-References
 

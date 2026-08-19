@@ -483,7 +483,6 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 }
 </script>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**

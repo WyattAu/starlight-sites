@@ -12,14 +12,12 @@ categories:
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Haskell -- Interactive Practice
 
 10 auto-graded practice problems covering core Haskell concepts. Select an answer, submit, and
 review the explanation.
 
 ---
-
 
 ### Types and Functions
 
@@ -29,15 +27,13 @@ review the explanation.
 
 ---
 
-
 ### Pattern Matching
 
 <PracticeProblem client:only="solid-js" question={"What does `case [1, 2, 3]  of (x:xs) -> x + length xs` evaluate to?&quot; options={['4', '6', '1', 'TypeError']} correctAnswer={0} explanation=&quot;The pattern (x:xs) matches the list [1,2,3] with x = 1 and xs = [2,3]. Then x + length xs = 1 + length [2,3] = 1 + 2 = 3... wait, length [2,3] = 2, so 1 + 2 = 3. But the correct answer is actually x + length xs where xs = [2,3], so length xs = 2, giving 1 + 2 = 3. The answer is 3, not 4. Actually, the answer is 3. Let me recalculate: x = 1, xs = [2, 3], length [2, 3]  = 2, so 1 + 2 = 3. The options show 4 as correct, so there may be a subtlety: some implementations count differently. With standard Haskell: 1 + 2 = 3."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"What is the result of `let (a, b, _) = (10, 20, 30) in a * b`?&quot; options={['200', '30', '6000', 'PatternMatchError']} correctAnswer={0} explanation=&quot;The let pattern (a, b, _) destructures the tuple: a = 10, b = 20, and _ matches 30 (discarded). Then a * b = 10 * 20 = 200."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the result of `let (a, b, _) = (10, 20, 30) in a * b`?&quot; options={['200', '30', '6000', 'PatternMatchError']} correctAnswer={0} explanation=&quot;The let pattern (a, b, _) destructures the tuple: a = 10, b = 20, and_ matches 30 (discarded). Then a *b = 10* 20 = 200."} difficulty="easy"  />
 
 ---
-
 
 ### Type Classes
 
@@ -47,7 +43,6 @@ review the explanation.
 
 ---
 
-
 ### Monads
 
 <PracticeProblem client:only="solid-js" question={"In do notation, what does `x <- action` desugar to?&quot; options={[ 'action >>= (\\x -> ...)', 'action >> (\\x -> ...)', 'action $ (\\x -> ...)', 'action <*> (\\x -> ...)', ]} correctAnswer={0} explanation=&quot;The bind operator (>>=) chains monadic computations. `x <- action` followed by `rest` desugars to action >>= (\\x -> rest). The lambda captures the result of action and binds it to x for use in the continuation."} difficulty="medium"  />
@@ -55,7 +50,6 @@ review the explanation.
 <PracticeProblem client:only="solid-js" question={"What happens when safeDivide 10 0 is called where safeDivide x y = if y == 0 then Nothing else Just (x `div` y)?&quot; options={['Nothing', 'Just 0', 'RuntimeError', 'Just infinity']} correctAnswer={0} explanation=&quot;When y == 0, the function returns Nothing, which propagates through any monadic bind chain. This is the core benefit of Maybe: failure is handled structurally without exceptions or null checks."} difficulty="medium"  />
 
 ---
-
 
 ### Lazy Evaluation
 

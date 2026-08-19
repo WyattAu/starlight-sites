@@ -20,7 +20,6 @@ description: "A-Level English revision notes on Pre-1900 poetry: Romantic, Victo
 }
 </script>
 
-
 ## Intuition
 
 **Poetry is like a musical composition — rhythm, imagery, and emotion woven into a few carefully chosen words.**

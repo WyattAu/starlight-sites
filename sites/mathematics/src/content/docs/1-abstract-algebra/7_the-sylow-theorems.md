@@ -164,7 +164,6 @@ The conditions $n_p \equiv 1 \pmod{p}$ and $n_p \mid m$ are necessary but not su
 $p$-subgroups, But they are all conjugate. A common mistake is to assume $n_p = 1$ without checking
 the Sylow Conditions. Always verify that $n_p \equiv 1 \pmod{p}$ and $n_p$ divides $m$.
 
-
 </aside>
 
 ## Cross-References

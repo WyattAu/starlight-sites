@@ -23,6 +23,7 @@ categories:
 ## Photosynthesis (In Depth)
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 4
+>
 ## 1. Overview
 
 ### 1.1 Definition
@@ -425,16 +426,16 @@ maximising photosynthetic efficiency at high temperatures.
 
 $$\mathrm{PEP + CO_2 \to oxaloacetate}$$
 
-2. Oxaloacetate is converted to malate (or aspartate, another 4-carbon acid).
+1. Oxaloacetate is converted to malate (or aspartate, another 4-carbon acid).
 
-3. Malate is transported to **bundle sheath cells** (which surround the vascular bundles), where it
+2. Malate is transported to **bundle sheath cells** (which surround the vascular bundles), where it
    is decarboxylated, releasing $\mathrm{CO_2}$ at high concentration.
 
-4. The released $\mathrm{CO_2}$ enters the Calvin cycle (via Rubisco) in the bundle sheath cells.
+3. The released $\mathrm{CO_2}$ enters the Calvin cycle (via Rubisco) in the bundle sheath cells.
    The high $\mathrm{CO_2}$ concentration suppresses photorespiration by outcompeting $\mathrm{O_2}$
    for Rubisco's active site.
 
-5. The 3-carbon product (pyruvate) is transported back to the mesophyll cells and converted back to
+4. The 3-carbon product (pyruvate) is transported back to the mesophyll cells and converted back to
    PEP using ATP (the $\mathrm{C_4}$ cycle costs 2 extra ATP per $\mathrm{CO_2}$ fixed, but this is
    offset by the reduced photorespiration).
 
@@ -989,7 +990,7 @@ Chromatography separates mixtures based on differential partitioning between a *
 - **Solubility** in the mobile phase (more soluble = travels further).
 - **Affinity** for the stationary phase (greater affinity = travels less far).
 
-6. Calculate the **retention factor ($R_f$)** for each pigment:
+1. Calculate the **retention factor ($R_f$)** for each pigment:
 
 $$R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}$$
 
@@ -1456,7 +1457,6 @@ TP produced in the Calvin cycle has several fates:
 6. **Converted to amino acids** by combining with nitrogen (from $\mathrm{NO_3^-}$ or
    $\mathrm{NH_4^+}$) in a process called nitrogen assimilation.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 fact, the Calvin cycle produces TP (a 3-carbon compound), which must then be converted to glucose
@@ -1699,9 +1699,9 @@ initial $\mathrm{CO_2}$ fixation and the Calvin cycle in time rather than in spa
 
 $$2\mathrm{H_2O \to 4H^+ + 4e^- + O_2}$$
 
-4. The electron passes through the PSII electron transport chain: pheophytin $\to$ plastoquinone
+1. The electron passes through the PSII electron transport chain: pheophytin $\to$ plastoquinone
    (PQ) $\to$ cytochrome $b_6f$ complex.
-5. As electrons pass through cytochrome $b_6f$$\mathrm{H^+}$ ions are pumped from the stroma into
+2. As electrons pass through cytochrome $b_6f$$\mathrm{H^+}$ ions are pumped from the stroma into
    the thylakoid lumen (contributing to the proton gradient).
 
 ### 28.2 Photosystem I (PSI)
@@ -2389,7 +2389,6 @@ Ratio: $\frac{I_{30}}{I_{10}} = \frac{100}{900} = \frac{1}{9}$.
 Predicted rate at $30\ \mathrm{cm}$: $42 \times \frac{1}{9} \approx 4.7\ \mathrm{mm^3\ min^{-1}}$.
 
 $\blacksquare$
-
 
 ## Intuition
 

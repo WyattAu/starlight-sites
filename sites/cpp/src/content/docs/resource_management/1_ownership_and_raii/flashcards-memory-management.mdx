@@ -18,7 +18,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 ## Intuition
 
 RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime — when an object is constructed it acquires a resource (memory, file handle, mutex lock), and when it goes out of scope its destructor releases it automatically. Smart pointers (`std::unique_ptr`, `std::shared_ptr`) extend this to heap memory: `unique_ptr` is exclusive ownership (like a single key to a safe), while `shared_ptr` is shared ownership with reference counting (like a library book with multiple borrowers).
@@ -30,7 +29,6 @@ RAII (Resource Acquisition Is Initialization) ties resource lifetime to object l
 - **Dangling pointers**: Holding a raw pointer or reference to an object that has been destroyed — prefer smart pointers and avoid raw pointer ownership.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js"   deckId="cpp-memory-management"
   title="C++ Memory Management Flashcards"

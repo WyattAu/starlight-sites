@@ -507,7 +507,6 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 - [Associative and Unordered Containers](./2_associative_containers.md)
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 
-
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -543,4 +542,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

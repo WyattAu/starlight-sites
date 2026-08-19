@@ -111,7 +111,6 @@ $$
 \mathrm{Var}(X) = 3.4 - 1.6^2 = 3.4 - 2.56 = 0.84, \quad \sigma = \sqrt{0.84} \approx 0.917
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Finding an unknown parameter</strong>
@@ -120,7 +119,6 @@ $P(X = x) = kx$ for $x = 1, 2, 3, 4$. Find $k$ and $E(X)$.
 $k(1 + 2 + 3 + 4) = 1 \implies 10k = 1 \implies k = 0.1$
 
 $E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0$
-
 
 <details>
 <summary>Worked Example: E(X) and Var(X) from a Table</summary>
@@ -244,7 +242,6 @@ $P(X \ge 3) = 1 - P(X \le 2) \approx 1 - 0.8802 - 0.0988 = 0.0210$
 
 $E(X) = 20(0.03) = 0.6$, $\sigma = \sqrt{20(0.03)(0.97)} = \sqrt{0.582} \approx 0.763$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: IB Paper 2 style</strong>
@@ -259,7 +256,6 @@ $P(X \ge 8) = 1 - P(X \le 7) \approx 0.0042$
 To set a pass mark so that guessing gives at most 1% chance of passing:
 
 $P(X \ge 7) \approx 0.0181$ and $P(X \ge 8) \approx 0.0042$So the minimum pass mark is 8 correct.
-
 
 <details>
 <summary>Worked Example: Binomial Probability with Normal Approximation</summary>
@@ -363,7 +359,6 @@ $P(X \le 2) = e^{-3.5}\!\left(1 + 3.5 + \dfrac{12.25}{2}\right) = 10.625 \, e^{-
 
 Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.4013$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Poisson approximation to Binomial</strong>
@@ -380,7 +375,6 @@ Using exact binomial:
 $P(X \le 2) = (499/500)^{2000} + 2000(1/500)(499/500)^{1999} + \binom{2000}{2}(1/500)^2(499/500)^{1998}$
 
 This is computationally intensive but gives a result extremely close to 0.2381.
-
 
 <details>
 <summary>Worked Example: Poisson Distribution</summary>
@@ -499,7 +493,6 @@ $P(X \lt 970) = P(Z \lt -2) = 0.0228$So about 2.28% are rejected.
 
 For the mass exceeded by only 5%: $P(X \le x) = 0.95$, $x = 1000 + 1.645(15) = 1024.67$ g.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Unknown parameters</strong>
@@ -508,7 +501,6 @@ Test scores are normal. 15% score above 80, 10% score below 45. Find $\mu$ and $
 $\dfrac{80 - \mu}{\sigma} = 1.036$ and $\dfrac{45 - \mu}{\sigma} = -1.282$.
 
 Subtracting: $35 = 2.318\sigma$So $\sigma \approx 15.1$ and $\mu = 80 - 1.036(15.1) \approx 64.4$.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -523,7 +515,6 @@ $P(X \le 30) \approx P\!\left(Z \le \dfrac{30.5 - 32}{4.382}\right) = P(Z \le -0
 $\approx 0.3665$
 
 Exact binomial: $P(X \le 30) \approx 0.3642$. The approximation is very close.
-
 
 <details>
 <summary>Worked Example: Normal Distribution with Unknown Parameters</summary>
@@ -606,7 +597,6 @@ $E(X) = 7.5$ minutes, $\sigma = \dfrac{15}{2\sqrt{3}} = \dfrac{5\sqrt{3}}{2} \ap
 Given 5 minutes already waited, the remaining wait is $U(0, 10)$:
 $P(\mathrm{wait} \ge 8) = 2/10 = 1/5$.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -673,7 +663,6 @@ $P(X = 3) = (0.28)^2(0.72) = 0.0784 \times 0.72 \approx 0.05645$
 $P(X \gt 5) = (0.28)^5 \approx 0.00172$
 
 $E(X) = 1/0.72 \approx 1.389$ attempts.
-
 
 <details>
 <summary>Worked Example: Geometric Distribution</summary>
@@ -743,7 +732,6 @@ $P(X = 7) = \dbinom{6}{2}(0.4)^3(0.6)^4 = 15 \times 0.064 \times 0.1296 \approx 
 
 $E(X) = 3/0.4 = 7.5$, $\mathrm{Var}(X) = 3(0.6)/0.16 = 11.25$ $\sigma = \sqrt{11.25} \approx 3.354$.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -788,7 +776,6 @@ Apple masses: mean 150 g, $\sigma = 20$ g. Sample of 36. Find $P(\bar{X} \gt 155
 
 $\bar{X} \sim N(150, 400/36)$. $P\!\left(Z \gt \dfrac{5}{20/6}\right) = P(Z \gt 1.5) = 0.0668$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Sum of uniform variables</strong>
@@ -797,7 +784,6 @@ $X \sim U(2, 10)$. Sample of 50 observations. Find $P(\mathrm{sum} \gt 310)$.
 $\mu = 6$, $\sigma^2 = 64/12 = 16/3$. Sum has mean $300$ and variance $50(16/3) = 800/3$.
 
 $P\!\left(Z \gt \dfrac{10}{\sqrt{800/3}}\right) = P(Z \gt 0.612) \approx 0.2704$.
-
 
 ---
 
@@ -852,7 +838,6 @@ Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498
 
 For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$Round up to 97.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -904,7 +889,6 @@ Where $\mathrm{Cov}(X, Y) = E(XY) - E(X)E(Y) = 0$ when $X$ and $Y$ are independe
 Linearity of expectation always holds. The simple variance formula
 $\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ requires independence.
 
-
 ### Independent Copies
 
 If $X_1, \ldots, X_n$ are iid with mean $\mu$ and variance $\sigma^2$:
@@ -938,7 +922,6 @@ $\mathrm{Var}(X + Y) = 10(0.3)(0.7) + 15(0.4)(0.6) = 2.1 + 3.6 = 5.7$
 
 $\mathrm{Var}(2X - 3Y) = 4(2.1) + 9(3.6) = 8.4 + 32.4 = 40.8$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Normal combinations</strong>
@@ -950,7 +933,6 @@ Machine A produces rods: $X \sim N(50.0, 0.04)$. Machine B: $Y \sim N(50.2, 0.09
 
 $X - Y \sim N(-0.2, 0.13)$.
 $P(X - Y \gt 0) = P\!\left(Z \gt \dfrac{0.2}{\sqrt{0.13}}\right) = P(Z \gt 0.555) \approx 0.2894$.
-
 
 <details>
 <summary>Worked Example: Combining Random Variables</summary>

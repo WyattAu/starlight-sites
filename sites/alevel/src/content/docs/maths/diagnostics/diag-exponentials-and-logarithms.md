@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -416,8 +415,6 @@ Domain of $g^{-1}$: $\mathbb{R}$ (since $e^x + 1 \gt 0$ for all $x$). Range of $
 $(1, \infty)$.
 
 Verification: $g(g^{-1}(x)) = \ln(e^x + 1 - 1) = \ln(e^x) = x$. Confirmed.
-
-
 
 ## Cross-References
 

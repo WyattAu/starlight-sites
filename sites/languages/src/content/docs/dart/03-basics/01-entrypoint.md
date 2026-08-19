@@ -483,5 +483,4 @@ linked above.
 - **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Object-oriented patterns used within `main()` function bodies.
 - **[Error Handling](../08-error-handling.md):** Try-catch patterns for handling failures in the entry point.
 
-
 </aside>

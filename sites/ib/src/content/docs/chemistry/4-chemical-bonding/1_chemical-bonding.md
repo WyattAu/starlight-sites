@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** Bond strength and type determine physical properties — from diamond's hardness to salt's conductivity
 
-
 ## Introduction
 
 ### Why Atoms Bond
@@ -144,7 +143,6 @@ Term. The most common error is confusing $\Delta H_{\mathrm{at}}^\circ$ (atomisa
 Element) with $\Delta H_{\mathrm{sub}}$ (sublimation) -- for metals they are the same quantity, but
 The terminology matters.
 
-
 ### Physical Properties of Ionic Compounds
 
 | Property                                   | Explanation                                                                              |
@@ -200,7 +198,6 @@ Rules for drawing Lewis structures:
 <strong>Common Mistake</strong>
 Hydrogen only needs 2 electrons (duet rule). Beryllium can be stable with 4 electrons, and boron
 With 6. Do not force an octet on these atoms.
-
 
 ### Exceptions to the Octet Rule
 
@@ -269,7 +266,6 @@ The threshold of 1.7 is a guideline, not an absolute boundary. For example, H-Cl
 $\Delta\mathrm{EN} = 0.9$ (polar covalent), but Al-Cl has $\Delta\mathrm{EN} = 1.55$ (still
 Considered covalent in AlCl$_3$A molecular compound). Always consider the compound's actual
 Properties.
-
 
 ### Dipole Moments
 
@@ -424,7 +420,6 @@ Water has an anomalously high boiling point compared to H$_2$S, H$_2$Se, and H$_
 Trend (boiling point increases down the group due to increasing electrons) is overridden by hydrogen
 Bonding in water. This is a classic IB exam question.
 
-
 ### Ion-Dipole Forces
 
 When an ionic compound dissolves in a polar solvent like water, the ions interact with the molecular
@@ -524,7 +519,6 @@ The base geometries depend on the total number of electron domains ($n + m$):
 Students often forget that lone pairs repel more strongly, so AX$_2$E has a bond angle less than
 120$\degree$Not exactly 120$\degree$. SO$_2$ has a bond angle of approximately 119.5$\degree$.
 
-
 #### 4 Electron Domains
 
 | Notation    | Shape              | Bond Angle         | Example        |
@@ -590,7 +584,6 @@ A common exam question asks whether a molecule like CHCl$_3$ or CH$_2$Cl$_2$ is 
 C-H and C-Cl bonds have different polarities, the key is whether the vector sum of all bond dipoles
 Equals zero. CHCl$_3$ is polar (no symmetry), but CCl$_4$ is non-polar (perfect tetrahedral
 Symmetry). CH$_2$Cl$_2$ is polar because the two C-Cl dipoles and two C-H dipoles do not cancel.
-
 
 ---
 
@@ -709,7 +702,6 @@ Expected from three isolated C=C bonds (-360 kJ/mol). The difference (152 kJ/mol
 Energy** (or delocalisation energy), which is a direct measure of the extra stability gained from
 Electron delocalisation.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -778,7 +770,6 @@ The two single-bonded oxygens: $\mathrm{FC} = 6 - 1 - 6 = -1$
 
 Total charge: $0 + 0 + 2(-1) = -2$. This is the preferred structure.
 
-
 ### sp$^3$D and sp$^3$D$^2$ Hybridization (HL)
 
 These hybridizations involve d-orbitals and are used for expanded octet species:
@@ -846,7 +837,6 @@ $$
 MO theory explains why O$_2$ is paramagnetic (has unpaired electrons in the $\pi^*$ orbitals). Lewis
 Structures cannot predict this. This is a classic HL exam question.
 
-
 #### Paramagnetism vs Diamagnetism
 
 - **Paramagnetic:** Contains unpaired electrons. Attracted to a magnetic field. Examples: O$_2$
@@ -892,7 +882,6 @@ Temperature as more electrons are promoted across the band gap.
 The "n" in n-type stands for "negative" (electron carriers), not the element nitrogen. The "p" in
 P-type stands for "positive" (hole carriers). Doping does not make the material charged -- the
 Overall crystal remains electrically neutral.
-
 
 ---
 
@@ -1412,7 +1401,6 @@ For the A-Level treatment of this topic, see
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

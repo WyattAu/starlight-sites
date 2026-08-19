@@ -272,7 +272,7 @@ The squeeze theorem extends this intuition: if a function is trapped between two
 The following table summarizes the key counterexamples in the theory of continuity:
 
 | Function | Domain | Continuous? | Uniformly Continuous? | Lesson |
-|----------|--------|-------------|----------------------|--------|
+| ---------- | -------- | ------------- | ---------------------- | -------- |
 | $f(x) = 1/x$ | $(0, 1)$ | Yes | No | Unbounded slope near boundary |
 | $f(x) = x^2$ | $\mathbb{R}$ | Yes | No | Unbounded slope at infinity |
 | $f(x) = \sqrt{x}$ | $[0, \infty)$ | Yes | Yes | Slope $\to 0$ at infinity saves uniform continuity |

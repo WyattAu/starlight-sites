@@ -20,7 +20,6 @@ description: "A-Level English revision notes on twentieth-century literature: mo
 }
 </script>
 
-
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**
@@ -131,8 +130,6 @@ Postcolonial literature examines the cultural, psychological, and political lega
 **Using context as a list of facts rather than integrated analysis:** Dropping in historical dates or biographical details without connecting them to the text's language and form earns minimal marks. Context should illuminate your analysis of how meaning is created, not replace it. For example, mentioning post-war disillusionment is only useful if you show how it shapes specific word choices or structural decisions.
 
 **Writing about what the text says instead of how it says it:** Describing plot events ("Gatsby is revealed to be a criminal") is retelling, not analysis. Focus on how Fitzgerald's narrative choices — point of view, symbolism, sentence structure — create that meaning. Ask "how does the text produce this effect?" not "what happens?"
-
-
 
 ## Cross-References
 

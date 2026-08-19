@@ -122,7 +122,6 @@ sidebar_position: 40
 
 **The key insight:** Macroeconomic variables are interconnected — policies affecting one often have ripple effects across the economy
 
-
 ## Answer Key
 
 | Question | Answer | Topic                    |

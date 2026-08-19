@@ -83,6 +83,7 @@ $\chi = V - E + F$, we get $\int_M K\, dA = 2\pi \chi(M)$. $\blacksquare$
 ### 8.4 Geometric Implications
 
 **Corollary 8.4 (Curvature Sign and Topology).**
+
 - If $K > 0$ everywhere, then $\chi(M) > 0$, so $M$ is homeomorphic to $S^2$.
 - If $K = 0$ everywhere, then $\chi(M) = 0$, so $M$ is homeomorphic to a torus $T^2$.
 - If $K < 0$ everywhere, then $\chi(M) < 0$, so $M$ has genus $g \geq 2$.

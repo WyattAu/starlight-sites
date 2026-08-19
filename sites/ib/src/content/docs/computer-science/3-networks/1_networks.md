@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** The Internet's layered protocol architecture allows different technologies to work together seamlessly
 
-
 ## Computer Network
 
 A computer network is a set of two or more computer systems that is able to exchange data by a

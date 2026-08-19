@@ -243,6 +243,7 @@ tableOfContents: false
 **Over-optimising without measuring:** Micro-optimisations add complexity. Measure whether the optimisation actually helps before adding it. Profiling tools show where time is actually spent.
 
 **Ignoring caching opportunities:** Repeated expensive computations, database queries, or API calls are prime candidates for caching. But caching introduces complexity (invalidation, stale data). Cache strategically.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for tuning notes.

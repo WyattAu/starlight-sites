@@ -553,13 +553,13 @@ Nephrons.
   Impermeable to water. The medulla becomes increasingly concentrated from cortex to papilla
   (approximately 300 mOsm at the cortex to 1200 mOsm at the papilla).
 
-4. **Distal convoluted tubule:** Fine-tuning of water and ion balance under hormonal control:
+1. **Distal convoluted tubule:** Fine-tuning of water and ion balance under hormonal control:
 
 - **ADH:** Makes the collecting duct more permeable to water.
 - **Aldosterone:** Increases $\mathrm{Na^+$ reabsorption and $\mathrm{K^+$ secretion in the DCT and
   collecting duct.
 
-5. **Collecting duct:** Water reabsorption is controlled by ADH. In the presence of ADH, aquaporin
+1. **Collecting duct:** Water reabsorption is controlled by ADH. In the presence of ADH, aquaporin
    channels are inserted into the membrane, and water is reabsorbed into the concentrated medulla.
    The maximum urine concentration in humans is approximately 1200 mOsm (four times more
    concentrated than blood).
@@ -746,7 +746,6 @@ Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
   chain; anaerobic respiration uses organic molecules as the final electron acceptor.
 - Aerobic respiration occurs in the mitochondria (in eukaryotes); anaerobic respiration occurs in
   the cytoplasm.
-
 
 </aside>
 

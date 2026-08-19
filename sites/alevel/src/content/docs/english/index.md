@@ -45,7 +45,6 @@ description: "A-Level English notes covering key definitions, core concepts, wor
 }
 </script>
 
-
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**
@@ -142,7 +141,7 @@ Follow this structure for effective literary essays:
 Essential terms for A-Level English:
 
 | Term | Definition | Example |
-|------|------------|---------|
+| ------ | ------------ | --------- |
 | Metaphor | Direct comparison without using 'like' or 'as' | "All the world's a stage" |
 | Simile | Comparison using 'like' or 'as' | "My love is like a red, red rose" |
 | Personification | Giving human qualities to non-human things | "The wind whispered" |
@@ -159,8 +158,6 @@ Check your exam board's specification for the exact set texts. Common set texts 
 - **Post-1900**: An Inspector Calls, A Streetcar Named Desire, Never Let Me Go
 - **Poetry Anthology**: Specific poems from the exam board's anthology
 - **Unseen Poetry**: Unknown poems requiring timed analysis
-
-
 
 ## Cross-References
 

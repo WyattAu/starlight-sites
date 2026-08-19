@@ -180,7 +180,6 @@ fetch('https://api.example.com/transfer', {
 <aside class="starlight-aside starlight-aside--note">
 Because the browser does not automatically attach custom headers to cross-origin requests.
 
-
 ## SQL Injection
 
 SQL injection occurs when user input is concatenated into SQL queries without parameterization,
@@ -369,7 +368,6 @@ const nonce = crypto.randomBytes(16).toString('base64');
 Protection. Use nonces or hashes for inline scripts, and move JavaScript to external files.
 `'unsafe-eval'` is equally dangerous and should also be avoided.
 
-
 ## Clickjacking
 
 Clickjacking tricks a user into clicking on a hidden element by loading the target site in a
@@ -494,7 +492,6 @@ def is_safe_url(url):
 <aside class="starlight-aside starlight-aside--caution">
 (`http://%31%32%37%2e%30%2e%30%2e%31/`), DNS rebinding (resolves to internal IP on second lookup),
 And redirect chains. Validate after DNS resolution, not before.
-
 
 ## Prototype Pollution
 
@@ -804,7 +801,6 @@ curl -sI https://example.com | grep -iE \
 Level 3 (W3C Recommendation), CORS (W3C Recommendation), RFC 6265 (HTTP Cookies), RFC 7231 (HTTP/1.1
 Semantics), RFC 9110 (HTTP Semantics).
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to web security, including key
@@ -829,7 +825,6 @@ Web security is the practice of protecting web applications from attacks that ex
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---

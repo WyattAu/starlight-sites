@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Electricity and magnetism are two manifestations of the same fundamental force, unified through Maxwell's equations
 
-
 ## Unit Tests
 
 ### UT-1: Superposition of Electric Fields from Multiple Charges

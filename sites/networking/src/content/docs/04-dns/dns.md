@@ -168,7 +168,6 @@ cdn.example.com.    300    IN    CNAME    cdn.cloudflare.com.
 `www.example.com`) because the apex also needs SOA and NS records. DNS providers solve this with
 ALIAS or ANAME records (proprietary), or by using CNAME Flattening (Cloudflare).
 
-
 **MX (Mail Exchange, RFC 1035):** Identifies mail servers for the domain. The priority value
 Determines the order -- lower priority is preferred. If two servers have the same priority, the
 Client should try both.
@@ -328,7 +327,6 @@ Non-existent names from hammering authoritative servers.
 <aside class="starlight-aside starlight-aside--caution">
 SOA minimum to 86400 (1 day) and delete a subdomain, resolvers will cache the `NXDOMAIN` for up to 1
 Day. Reduce the SOA minimum TTL before making changes, then increase it after propagation.
-
 
 ## DNS over HTTPS (DoH) and DNS over TLS (DoT)
 
@@ -843,7 +841,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

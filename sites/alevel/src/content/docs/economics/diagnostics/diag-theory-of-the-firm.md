@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
@@ -546,8 +545,6 @@ programmes create switching costs.
 **Mixing up the shutdown condition with the break-even condition:** A firm shuts down in the short run if $P < AVC$ (it cannot even cover its variable costs). It exits in the long run if $P < ATC$ (it cannot cover all costs). Students often say a firm shuts down when $P < ATC$, but that is the exit condition, not the shutdown condition.
 
 **Assuming monopolies always earn supernormal profits:** A monopoly earns supernormal profit only if $P > ATC$ at the profit-maximising output. If demand is low or costs are high, a monopoly can make a loss. The key difference from perfect competition is that barriers to entry prevent new firms from entering and eroding any profits that do exist.
-
-
 
 ## Cross-References
 

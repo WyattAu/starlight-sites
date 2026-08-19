@@ -366,7 +366,6 @@ re.findall(r'^\w+', text, re.MULTILINE | re.IGNORECASE)
 Unicode case folding is complex. If you are matching ASCII-only identifiers, use `re.ASCII` (or
 `re.A`) alongside `re.IGNORECASE` to constrain `\w``\b``\d`And `\s` to ASCII ranges.
 
-
 ### `re.sub()` with a Callable
 
 ```python
@@ -845,7 +844,6 @@ print(Role.ADMIN == "admin")  # True
 Single process, using `is` for comparison is a fragile pattern that does not work correctly across
 Pickling, multiprocess serialization, or when the enum is re-imported.
 
-
 ## `logging`: Structured Diagnostics
 
 ### Why `logging` Over `print`
@@ -884,7 +882,6 @@ Formatting until it determines that the message will actually be emitted. With f
 Is always constructed even if the log level is filtered out.
 `logger.debug("Expensive: %r", compute_value())` does not call `compute_value()` if DEBUG is not
 Enabled. `logger.debug(f"Expensive: {compute_value()}")` always calls it.
-
 
 ### Configuration
 
@@ -1042,7 +1039,6 @@ Timestamps that will be stored, transmitted, or compared across systems. Naive d
 Acceptable only for purely local display or when the timezone context is obvious and unambiguous
 (e.g., "schedule this for 9 AM in the user's local time").
 
-
 ### Parsing and Formatting
 
 ```python
@@ -1142,7 +1138,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

@@ -170,7 +170,7 @@ does not hold. Construct a counterexample.
 ## Common Mistakes
 
 **Mistake 1: Assuming convergence in measure implies pointwise convergence**
-Convergence in measure only guarantees an a.e.\ convergent *subsequence*, not that the original sequence converges pointwise. The typewriter sequence (moving indicator functions) converges in measure to $0$ on $[0,1]$ but diverges pointwise everywhere. Students often conflate these two modes of convergence.
+Convergence in measure only guarantees an a.e.\ convergent _subsequence_, not that the original sequence converges pointwise. The typewriter sequence (moving indicator functions) converges in measure to $0$ on $[0,1]$ but diverges pointwise everywhere. Students often conflate these two modes of convergence.
 
 **Mistake 2: Forgetting that Egorov's theorem requires a finite measure space**
 Egorov's theorem states that pointwise a.e.\ convergence implies uniform convergence outside a set of small measure, but this requires $\mu(X) < \infty$. On $\mathbb{R}$ with Lebesgue measure, $f_n = \chi_{[n, n+1]}$ converges pointwise to $0$ but Egorov's theorem fails because the measure space is infinite.

@@ -36,7 +36,6 @@ Shaped Git"s architecture.
 <aside class="starlight-aside starlight-aside--note">
 Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
 
-
 ## Design Philosophy
 
 Git's design is the product of several deliberate trade-offs, each motivated by the Linux kernel
@@ -113,7 +112,6 @@ Contributors on dial-up connections needed to work efficiently.
 <aside class="starlight-aside starlight-aside--tip">
 [Git LFS](https://git-lfs.github.com/) or [Git Annex](https://git-annex.branchable.com/). Vanilla
 Git is optimized for text files.
-
 
 ## Installation and Initial Configuration
 
@@ -242,7 +240,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

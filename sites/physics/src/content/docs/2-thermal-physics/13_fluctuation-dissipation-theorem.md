@@ -106,7 +106,7 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 ### Key Relationships
 
 | Quantity | Expression | Physical Content |
-|----------|------------|------------------|
+| ---------- | ------------ | ------------------ |
 | Response function | $\chi_{AA}(t) = \frac{i}{\hbar}\theta(t)\langle[A(t), A(0)]\rangle_0$ | Causal linear response |
 | Classical FDT | $S(\omega) = \frac{2k_B T}{\omega}\chi''(\omega)$ | Fluctuations $\leftrightarrow$ dissipation |
 | Johnson--Nyquist | $\langle V^2 \rangle = 4k_B T R \Delta f$ | Voltage noise in resistor |
@@ -138,7 +138,7 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 ### Summary Table: FDT in Different Contexts
 
 | System | Fluctuation | Dissipation | FDT Relation |
-|--------|-------------|-------------|--------------|
+| -------- | ------------- | ------------- | -------------- |
 | Resistor | Voltage noise $\langle V^2 \rangle$ | Resistance $R$ | $\langle V^2 \rangle = 4k_B T R \Delta f$ |
 | Brownian particle | Position fluctuations $\langle x^2 \rangle$ | Drag coefficient $\gamma$ | $D = k_B T / \gamma$ |
 | Harmonic oscillator | Amplitude fluctuations | Damping rate $\Gamma$ | $S_x(\omega) = \frac{2k_B T}{\omega}\,\chi''(\omega)$ |
@@ -160,7 +160,6 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: The fluctuation-dissipation theorem connects equilibrium statistical mechanics to transport coefficients measured in non-equilibrium settings.
 - **[Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations.md)**: Linear response theory is extended to irreversible processes and entropy production in this chapter.
 - **[Common Pitfalls](8_common-pitfalls.md)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

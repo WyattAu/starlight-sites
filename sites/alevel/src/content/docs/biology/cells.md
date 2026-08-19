@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ## Intuition
 
 **Cells are like tiny factories — each with specialized departments working together to keep the organism alive.**
@@ -28,6 +27,7 @@ categories:
 ## Cells
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
+>
 ## 1. Cell Theory and Microscopy
 
 ### 1.1 Cell Theory
@@ -1013,7 +1013,7 @@ cell death that triggers inflammation).
 - Degrade cytoskeletal proteins.
 - Cause membrane blebbing.
 
-5. The cell breaks into **apoptotic bodies**, which are phagocytosed by macrophages.
+1. The cell breaks into **apoptotic bodies**, which are phagocytosed by macrophages.
 
 **External signals**: death ligands (e.g., FasL on cytotoxic T cells) bind to death receptors (e.g.,
 Fas) on the target cell, activating caspase-8 directly (extrinsic pathway).
@@ -1261,9 +1261,9 @@ Apoptosis is a tightly regulated process of programmed cell death that:
 - Cytoskeletal proteins (cell shrinks and rounds up).
 - PARP (prevents DNA repair).
 
-3. **Cell dismantling**: the cell breaks into apoptotic bodies (membrane-bound fragments containing
+1. **Cell dismantling**: the cell breaks into apoptotic bodies (membrane-bound fragments containing
    intact organelles and DNA fragments).
-4. **Phagocytosis**: apoptotic bodies are phagocytosed by macrophages (they display "eat me" signals
+2. **Phagocytosis**: apoptotic bodies are phagocytosed by macrophages (they display "eat me" signals
    such as phosphatidylserine on the outer leaflet of the plasma membrane).
 
 ## 19. Prokaryotic Cells: Detailed Structure
@@ -2007,7 +2007,6 @@ differential centrifugation.
 }
 </script>
 
-
 ## Common Pitfalls
 
 1. Confusing correlation with causation when evaluating experimental data and drawing conclusions.
@@ -2024,7 +2023,6 @@ differential centrifugation.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

@@ -177,7 +177,6 @@ chown --reference=ref.txt target.txt
 <aside class="starlight-aside starlight-aside--note">
 Member of. This is enforced by the kernel: the `chown(2)` system call checks `capable(CAP_CHOWN)`.
 
-
 ## umask
 
 The umask (user file creation mask) determines the default permissions for newly created files and
@@ -211,7 +210,6 @@ echo 'umask 0027' >> ~/.profile
 Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits — it
 Never adds execute permission to files, which is why `touch newfile` creates files with 0666 &
 ~umask (e.g., 0644), never with execute bits set.
-
 
 ## Special Bits
 
@@ -316,7 +314,6 @@ chmod u-s /path/to/binary
 <aside class="starlight-aside starlight-aside--danger">
 Itself would need setuid. Instead, use a compiled wrapper or sudo. A setuid shell script is a
 Privilege escalation vulnerability.
-
 
 ## Access Control Lists (ACLs)
 
@@ -569,7 +566,6 @@ Management. Ansible, Puppet, and similar tools may fail silently when trying to 
 Files. Always ensure configuration management systems can remove the immutable bit before making
 Changes.
 
-
 ### Extended Attributes (xattr)
 
 Extended attributes are name-value pairs associated with files, beyond the standard inode metadata.
@@ -641,7 +637,6 @@ flowchart TD
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
 For all named users, named groups, and the owning group.
-
 
 ### Permission Check Summary
 
@@ -719,7 +714,6 @@ find / -perm -4000 -type f ! -perm -u+s -writable 2>/dev/null
 <aside class="starlight-aside starlight-aside--danger">
 Malicious code, and it will execute with the file owner's privileges. Regularly audit setuid and
 Setgid binaries, and remove the setuid/setgid bit from any binary that does not strictly require it.
-
 
 ## Common Pitfalls
 
@@ -825,10 +819,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 File permissions are like the security system of a building -- the owner has the master key (full access), the group has a shared keycard (limited access), and everyone else gets whatever the building manager allows. The permission bits (rwx for owner, group, others) are like three sets of switches: read lets you look, write lets you change, and execute lets you use. chmod is the tool that flips these switches, and chown changes who holds the master key. The principle of least privilege means giving each user only the permissions they need -- like giving the janitor access to the maintenance closet but not the CEO's office.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

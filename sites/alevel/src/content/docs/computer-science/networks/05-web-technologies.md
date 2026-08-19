@@ -572,6 +572,7 @@ Displayed.
 5. **HTTP request:** `GET /page HTTP/1.1` with headers sent over encrypted connection.
 6. **HTTP response:** Server returns `200 OK` with HTML, CSS, JS, images.
 7. **Rendering:** Browser parses HTML, builds DOM, executes JavaScript, paints the page.
+
 </details>
 
 **Problem 6.** Explain the three types of XSS and how to prevent each.
@@ -666,7 +667,6 @@ Boundary.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
@@ -679,7 +679,6 @@ Boundary.
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
-
 
 ## Intuition
 
@@ -695,4 +694,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

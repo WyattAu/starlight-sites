@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Elasticity determines who bears the burden of taxes, how firms set prices, and how consumers respond to price changes
 
-
 ## Elasticity
 
 ### Price Elasticity of Demand (PED)

@@ -92,6 +92,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -132,4 +133,3 @@ Solid state physics answers a deceptively simple question: why do some materials
 The beauty of band theory is that it explains the behaviour of trillions of electrons using the mathematics of a single electron in a periodic potential — Bloch's theorem guarantees that electron wavefunctions in a crystal are plane waves modulated by a periodic function. This means we can analyse the entire crystal by studying just one unit cell. The reciprocal lattice and Bloch waves are not abstract mathematical conveniences; they're the natural language for describing how periodicity constrains electron motion. When you understand why a silicon crystal with a few phosphorus atoms becomes an n-type semiconductor, you understand why modern electronics works.
 
 Phonons — quantised lattice vibrations — are the other half of the story. Just as photons describe the quantum behaviour of light, phonons describe how atoms jiggle in a crystal. They carry heat, determine specific heat, and scatter electrons (resistivity). The Debye model explains why specific heat drops to zero at low temperatures: fewer phonon modes are accessible as thermal energy decreases. Superconductivity is the dramatic endpoint — when electrons pair up via phonon-mediated interactions, they flow without any resistance at all, expelling magnetic fields in the Meissner effect.
-

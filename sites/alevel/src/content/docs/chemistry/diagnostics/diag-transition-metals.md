@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
@@ -429,8 +428,6 @@ $\text{O}_2$ without these protective factors.
 **Confusing ligand exchange with redox reactions:** When a ligand is replaced in a complex ion (e.g., $[\text{Cu}(\text{H}_2\text{O})_6]^{2+}$ becoming $[\text{CuCl}_4]^{2-}$), the oxidation state of the metal does not change — this is a ligand substitution, not a redox reaction. Redox involves a change in oxidation state (e.g., Fe$^{3+}$ being reduced to Fe$^{2+}$).
 
 **Forgetting that colour in transition metal complexes arises from d-d transitions:** The colour comes from electrons absorbing visible light and jumping between split d-orbitals. If the d subshell is empty (d$^0$) or full (d$^{10}$), no d-d transitions are possible and the compound is colourless (e.g., Sc$^{3+}$, Zn$^{2+}$, Cu$^+$). Students often assume all transition metal compounds must be coloured.
-
-
 
 ## Cross-References
 

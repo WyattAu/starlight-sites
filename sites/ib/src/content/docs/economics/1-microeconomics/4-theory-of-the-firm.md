@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Firms balance revenue maximization with cost constraints, operating differently in perfect competition versus monopoly
 
-
 ## Market Structures
 
 ### Classification Criteria

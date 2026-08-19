@@ -140,19 +140,17 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 ### Summary Table: Transition Types
 
 | Transition | Selection Rules | Rate | Typical Timescale |
-|------------|----------------|------|-------------------|
+| ------------ | ---------------- | ------ | ------------------- |
 | Electric dipole (E1) | $\Delta l = \pm 1$, $\Delta m = 0,\pm 1$ | $A \sim 10^7$--$10^9$ s$^{-1}$ | ns |
 | Magnetic dipole (M1) | $\Delta l = 0$, $\Delta s = \pm 1$ (spin-flip) | $A \sim 10^3$ s$^{-1}$ | $\mu$s--ms |
 | Electric quadrupole (E2) | $\Delta l = 0, \pm 2$ | $A \sim 10^{-3}$--$10$ s$^{-1}$ | ms--s |
 | Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
 | Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
 
-
-
-
 ## Intuition
 
 Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
+
 ## Cross-References
 
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: Time-dependent perturbation theory builds on the Schrodinger equation for time evolution.

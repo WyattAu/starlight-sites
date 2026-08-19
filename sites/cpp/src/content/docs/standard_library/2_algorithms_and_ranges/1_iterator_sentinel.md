@@ -607,7 +607,6 @@ Range is infinite (or at least large enough). If the range is shorter than the a
 You get buffer overread — and unlike with bounds-checked iterators, there is no diagnostic. Use this
 Only when you have proven the bounds at a higher level.
 
-
 ## Summary
 
 This topic covers the core concepts of iterator-sentinel model, including underlying theory,
@@ -632,4 +631,3 @@ Iterators are the reading heads of a tape player: they point to one element at a
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

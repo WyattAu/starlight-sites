@@ -389,6 +389,7 @@ int main() {
 ```
 
 > **Tip:** Tip Code, prefer `++it` over `it++` for iterators and counters.
+>
 ## 4.7 Stream Insertion and Extraction Operators
 
 The stream operators `operator&lt;&lt;` and `operator&gt;&gt;` must be implemented as **non-member

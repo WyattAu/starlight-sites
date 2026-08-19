@@ -557,34 +557,34 @@ Writes and additional storage.
 
 ## Practice Questions
 
-19. Write SQL using a CTE to find the top 5 students by average grade across all their courses.
+1. Write SQL using a CTE to find the top 5 students by average grade across all their courses.
 
-20. Explain what a stored procedure is and give two advantages of using them.
+2. Explain what a stored procedure is and give two advantages of using them.
 
-21. A table has the following functional dependencies: A -> B, B -> C, C -> D. Is this table in 3NF?
+3. A table has the following functional dependencies: A -> B, B -> C, C -> D. Is this table in 3NF?
     If not, normalise it.
 
-22. Write SQL to create a stored procedure that transfers a student from one course to another.
+4. Write SQL to create a stored procedure that transfers a student from one course to another.
 
-23. Explain how a B-tree index works. Why is it more efficient than a sequential scan for large
+5. Explain how a B-tree index works. Why is it more efficient than a sequential scan for large
     tables?
 
-24. Write SQL that uses a window function to rank students by grade within each subject.
+6. Write SQL that uses a window function to rank students by grade within each subject.
 
-25. Explain three methods of preventing SQL injection. For each, explain how it works.
+7. Explain three methods of preventing SQL injection. For each, explain how it works.
 
-26. A company database has tables for Departments, Employees, and Projects. Design the schema with
+8. A company database has tables for Departments, Employees, and Projects. Design the schema with
     appropriate relationships and write the CREATE TABLE statements.
 
-27. Explain the difference between ROW_NUMBER, RANK, and DENSE_RANK with an example showing how they
+9. Explain the difference between ROW_NUMBER, RANK, and DENSE_RANK with an example showing how they
     differ when there are ties.
 
-28. Write SQL to find all students who scored above the average in every course they are enrolled
+10. Write SQL to find all students who scored above the average in every course they are enrolled
     in.
 
-29. Explain the concept of a database deadlock. How can deadlocks be prevented?
+11. Explain the concept of a database deadlock. How can deadlocks be prevented?
 
-30. Compare the performance of an inner join vs a subquery for finding matching records. When would
+12. Compare the performance of an inner join vs a subquery for finding matching records. When would
     each be more appropriate?
 
 ## Database Security
@@ -656,26 +656,26 @@ Example: Sales fact table surrounded by Date, Product, Store, and Customer dimen
 
 ## Additional Practice Questions
 
-31. Explain the difference between a full backup, a differential backup, and an incremental backup.
+1. Explain the difference between a full backup, a differential backup, and an incremental backup.
     When would you use each?
 
-32. Write SQL GRANT and REVOKE statements for the following scenario: a sales clerk can only INSERT
+2. Write SQL GRANT and REVOKE statements for the following scenario: a sales clerk can only INSERT
     and SELECT from the Orders table, while the manager has full privileges.
 
-33. Explain what a deadlock is and describe two strategies for preventing deadlocks.
+3. Explain what a deadlock is and describe two strategies for preventing deadlocks.
 
-34. Explain the difference between the four transaction isolation levels. Which is the safest and
+4. Explain the difference between the four transaction isolation levels. Which is the safest and
     which is the most performant?
 
-35. Describe the star schema used in data warehousing. What is a fact table and what is a dimension
+5. Describe the star schema used in data warehousing. What is a fact table and what is a dimension
     table?
 
-36. Write SQL to create a trigger that logs all INSERT operations on the Students table to an
+6. Write SQL to create a trigger that logs all INSERT operations on the Students table to an
     AuditLog table.
 
-37. Explain the concept of database replication. Why is it used and what are the challenges?
+7. Explain the concept of database replication. Why is it used and what are the challenges?
 
-38. A company needs to store 5 years of transaction data for analysis. Explain why a data warehouse
+8. A company needs to store 5 years of transaction data for analysis. Explain why a data warehouse
     is more suitable than an operational database for this purpose.
 
 ## Worked Examples
@@ -726,45 +726,45 @@ See the examples integrated throughout the sections above.
 | 1001      | J. Brown     | 5 High St       | P02         | Pencil      | 20       | 1.50  |
 | 1002      | M. Wilson    | 12 Main Rd      | P01         | Pen         | 5        | 2.00  |
 
-2. Write SQL to create the tables for your normalised schema from question 1, including primary and
+1. Write SQL to create the tables for your normalised schema from question 1, including primary and
    foreign keys.
 
-3. Write SQL queries to: (a) Find all customers who live on 'High St' (b) Calculate the total value
+2. Write SQL queries to: (a) Find all customers who live on 'High St' (b) Calculate the total value
    of each invoice (c) Find the most expensive product
 
-4. Explain the difference between 2NF and 3NF with an example.
+3. Explain the difference between 2NF and 3NF with an example.
 
-5. Write SQL to create a view showing all products that are low in stock (quantity less than 10).
+4. Write SQL to create a view showing all products that are low in stock (quantity less than 10).
 
-6. Explain the ACID properties of transactions with an example.
+5. Explain the ACID properties of transactions with an example.
 
-7. Write SQL to add a new column 'Category' to the Product table and update all existing records.
+6. Write SQL to add a new column 'Category' to the Product table and update all existing records.
 
-8. Explain when you would use a LEFT JOIN instead of an INNER JOIN.
+7. Explain when you would use a LEFT JOIN instead of an INNER JOIN.
 
-9. Write SQL to find the student with the highest average grade across all their courses.
+8. Write SQL to find the student with the highest average grade across all their courses.
 
-10. Explain the difference between DELETE and DROP in SQL. When would you use each?
+9. Explain the difference between DELETE and DROP in SQL. When would you use each?
 
-11. Write SQL to find all pairs of students who are enrolled in the same course.
+10. Write SQL to find all pairs of students who are enrolled in the same course.
 
-12. A database has tables Author (AuthorID, Name, Nationality) and Book (ISBN, Title, AuthorID,
+11. A database has tables Author (AuthorID, Name, Nationality) and Book (ISBN, Title, AuthorID,
     Price). Write SQL to find the total value of books by each nationality.
 
-13. Explain why an index on a frequently updated column might slow down the database overall.
+12. Explain why an index on a frequently updated column might slow down the database overall.
 
-14. Write SQL that uses a subquery to find students who are NOT enrolled in any course.
+13. Write SQL that uses a subquery to find students who are NOT enrolled in any course.
 
-15. Explain the difference between a candidate key and a primary key. Can a table have more than one
+14. Explain the difference between a candidate key and a primary key. Can a table have more than one
     candidate key?
 
-16. A hospital database needs tables for Patient, Doctor, and Appointment. Design the schema with
+15. A hospital database needs tables for Patient, Doctor, and Appointment. Design the schema with
     appropriate primary and foreign keys. Write the CREATE TABLE statements.
 
-17. Explain the three types of anomalies that can occur in an unnormalised database. Give a specific
+16. Explain the three types of anomalies that can occur in an unnormalised database. Give a specific
     example of each.
 
-18. Write SQL to create a transaction that transfers a student from one course to another, ensuring
+17. Write SQL to create a transaction that transfers a student from one course to another, ensuring
     the enrolment records are updated atomically.
 
 ## Summary
@@ -799,6 +799,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - [Software](../2-software/2_software) covers the software engineering principles used to design and implement database systems.
 - [Hardware](../../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware) explains the storage and processing architecture that determines database performance characteristics.
 - [Algorithms](../4-algorithms/4_algorithms) provides the sorting, searching, and graph algorithms used in database query optimisation.
+
 ## Intuition
 
 A database is like a library with a very strict librarian -- every book has a unique call number (primary key), is filed in a specific section (tables), and the librarian knows exactly where everything is (indexing). Normalisation is the process of organising the library so that each fact is stored in exactly one place -- you do not want the same address written on ten different forms. SQL is the language you use to ask the librarian for information, and joins are how you combine information from different sections to answer complex questions. The trade-off is between normalised design (clean, consistent) and denormalised design (fast, redundant).

@@ -341,6 +341,7 @@ Choose Kruskal's when:
 1. The graph is **sparse** ($E \ll V^2$): Kruskal's with sorting is $O(E \log V)$
 2. You want to find only certain edges of the MST (stop early)
 3. The edges are already sorted or can be streamed
+
 </details>
 
 **Problem 4.** Explain what happens to Dijkstra's algorithm if there is a negative edge in the
@@ -458,7 +459,7 @@ Undefined. $\square$
 | Space       | $O(V)$             | $O(V)$ (often less in practice)            |
 | Requirement | None               | Heuristic function needed                  |
 
-A* dominates Dijkstra: whenever $h(v) = 0$ for all $v$A* reduces to Dijkstra. With a good Heuristic,
+A*dominates Dijkstra: whenever $h(v) = 0$ for all $v$A* reduces to Dijkstra. With a good Heuristic,
 A\* explores significantly fewer nodes.
 
 </details>
@@ -739,6 +740,7 @@ Priority queue compared to BFS's FIFO queue.
   same shortest paths as Dijkstra without the overhead of a priority queue.
 - Dijkstra's algorithm is overkill when all weights are equal — the priority queue adds unnecessary
 Logarithmic overhead.
+
 </details>
 
 **Problem 8.** Explain why running Dijkstra's algorithm on an unweighted graph produces the same
@@ -893,7 +895,6 @@ which may differ from the MST. These are different optimisation problems with di
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
@@ -906,7 +907,6 @@ which may differ from the MST. These are different optimisation problems with di
 
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
-
 
 ## Intuition
 
@@ -922,8 +922,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

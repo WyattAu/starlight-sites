@@ -259,7 +259,6 @@ and cannot sort arbitrary objects.
 | Counting Sort | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$  | Yes    |
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
 
-
 </aside>
 
 ## Intuition

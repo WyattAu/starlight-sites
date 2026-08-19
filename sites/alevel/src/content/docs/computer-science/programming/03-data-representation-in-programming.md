@@ -537,7 +537,6 @@ For revision on number representation, see
 [Number Systems](../fundamentals/01-number-systems) and
 [Floating Point](/computer-science/fundamentals/floating-point).
 
-
 ## Common Pitfalls
 
 1. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted
@@ -551,7 +550,6 @@ For revision on number representation, see
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
-
 
 ## Intuition
 
@@ -567,8 +565,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

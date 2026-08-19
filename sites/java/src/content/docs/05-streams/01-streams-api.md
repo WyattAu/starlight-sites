@@ -1168,4 +1168,5 @@ Streams are pipelines that describe computations over data without modifying the
 - [Collections Framework](../04-collections/01-collections-framework) -- creating streams from collections
 - [Concurrency](../06-concurrency/01-concurrency) -- parallel streams and ForkJoinPool
 - [Classes and Inheritance](../03-object-oriented/01-classes) -- functional interfaces and lambdas
+
 </aside>

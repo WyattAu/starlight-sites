@@ -104,8 +104,8 @@ The force is in the same direction as the field (to the right) because the charg
 
 ### Additional Practice Problems
 
-4. An electric dipole with moment $p = 4 \times 10^{-9} \, \text{C}\cdot\text{m}$ is placed in a uniform electric field of $2 \times 10^5 \, \text{N/C}$ at $30^\circ$ to the field. Find the torque.
-5. Find the electric field at the centre of a uniformly charged circular arc of radius 0.2 m carrying $2 \, \mu\text{C}$ over an angle of $90^\circ$.
+1. An electric dipole with moment $p = 4 \times 10^{-9} \, \text{C}\cdot\text{m}$ is placed in a uniform electric field of $2 \times 10^5 \, \text{N/C}$ at $30^\circ$ to the field. Find the torque.
+2. Find the electric field at the centre of a uniformly charged circular arc of radius 0.2 m carrying $2 \, \mu\text{C}$ over an angle of $90^\circ$.
 
 ## Key Formulas
 

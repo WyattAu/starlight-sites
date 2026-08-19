@@ -244,4 +244,3 @@ Optics problems revolve around a central theme: light behaves as a wave when the
 **Confusing path difference with optical path difference:** Optical path difference includes refractive index: Δ = n·d. Using geometric path length instead of optical path gives wrong interference patterns in layered media.
 
 **Using the small-angle approximation when it doesn't apply:** sin θ ≈ θ works for small angles, but fails for wide slits or large diffraction orders. Always check the angle range before approximating.
-

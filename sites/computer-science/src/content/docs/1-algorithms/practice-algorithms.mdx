@@ -26,7 +26,6 @@ answer and view the explanation.
 
 ---
 
-
 ## Worked Examples
 
 ### Example 1: Master Theorem — Solving Recurrences
@@ -49,7 +48,6 @@ $$T(n) = \Theta(n^2 \log n)$$
 
 ---
 
-
 ### Example 2: Dynamic Programming — 0/1 Knapsack
 
 **Problem:** Given items with weights $[2, 3, 4, 5]$ and values $[3, 4, 5, 6]$, capacity $W = 8$, find the maximum value.
@@ -59,7 +57,7 @@ $$T(n) = \Theta(n^2 \log n)$$
 **DP Table Construction:**
 
 | | $w=0$ | $w=1$ | $w=2$ | $w=3$ | $w=4$ | $w=5$ | $w=6$ | $w=7$ | $w=8$ |
-|---|---|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 items | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Item 1 (w=2, v=3) | 0 | 0 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
 | Item 2 (w=3, v=4) | 0 | 0 | 3 | 4 | 4 | 7 | 7 | 7 | 7 |
@@ -74,7 +72,6 @@ $$T(n) = \Theta(n^2 \log n)$$
 
 ---
 
-
 ### Example 3: Greedy — Activity Selection
 
 **Problem:** Given activities with start and finish times: $[(1,4), (3,5), (0,6), (5,7), (3,9), (5,9), (6,10), (8,11), (8,12), (2,14), (12,16)]$, find the maximum number of non-overlapping activities.
@@ -84,7 +81,7 @@ $$T(n) = \Theta(n^2 \log n)$$
 **Greedy strategy:** Sort by finish time, then select activities that don't overlap with the last selected.
 
 | Activity | Start | Finish | Selected? |
-|----------|-------|--------|-----------|
+| ---------- | ------- | -------- | ----------- |
 | (1,4) | 1 | 4 | ✓ |
 | (3,5) | 3 | 5 | ✗ (overlaps with (1,4)) |
 | (0,6) | 0 | 6 | ✗ (overlaps with (1,4)) |
@@ -102,7 +99,6 @@ $$T(n) = \Theta(n^2 \log n)$$
 **Key insight:** The greedy choice (earliest finish time) leaves maximum room for remaining activities. This is provably optimal by exchange argument.
 
 ---
-
 
 ## Algorithm Design Paradigms and Complexity
 

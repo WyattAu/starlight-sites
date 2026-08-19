@@ -89,6 +89,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -129,4 +130,3 @@ Classical mechanics is the physics of how things move — from cannonballs to pl
 The Hamiltonian reformulation takes this further by recasting mechanics in terms of positions and momenta rather than positions and velocities. Phase space — the space of all possible positions and momenta — becomes the natural arena for dynamics. Every point in phase space represents a complete state of the system, and the Hamiltonian equations describe how the system flows through phase space over time. This viewpoint is the direct ancestor of quantum mechanics, where the Hamiltonian operator determines time evolution, and statistical mechanics, where the structure of phase space determines thermodynamic properties.
 
 Noether's theorem is perhaps the deepest insight in classical mechanics: every continuous symmetry of a physical system corresponds to a conserved quantity. Translational symmetry gives conservation of momentum. Rotational symmetry gives conservation of angular momentum. Time-translation symmetry gives conservation of energy. This isn't just a mathematical curiosity — it's the organising principle of all physics. When you understand why angular momentum is conserved, you understand why gyroscopes work, why planets orbit in ellipses, and why quantum spin is quantised. Classical mechanics isn't just the starting point for physics; it's the framework that all subsequent theories must reduce to in the appropriate limit.
-

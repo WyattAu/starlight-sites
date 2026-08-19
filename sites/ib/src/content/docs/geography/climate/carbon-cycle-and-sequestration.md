@@ -24,7 +24,6 @@ description: "The carbon cycle and carbon sequestration processes."
 
 **The key insight:** Human activities have disrupted the carbon cycle by releasing stored carbon faster than natural processes can absorb it
 
-
 ## The Carbon Cycle
 
 ### Overview

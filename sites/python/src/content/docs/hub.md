@@ -122,9 +122,9 @@ Python supports object-oriented programming through classes, inheritance, and pr
 
 ### Topic Notes
 
-- [Classes](04-object-oriented/01-classes) — class definition, __init__, __str__, __repr__, and special methods
+- [Classes](04-object-oriented/01-classes) — class definition, **init**, **str**, **repr**, and special methods
 - [Metaclasses](04-object-oriented/02-metaclasses) — type, class creation, and custom metaclasses
-- [Descriptors](04-object-oriented/03-descriptors) — __get__, __set__, __delete__, and how attributes work under the hood
+- [Descriptors](04-object-oriented/03-descriptors) — **get**, **set**, **delete**, and how attributes work under the hood
 
 ### Key Concepts
 
@@ -205,7 +205,7 @@ These topics cover Python's deeper layers — type systems, data validation, con
 
 - [Advanced Typing](08-advanced-topics/01-advanced-typing) — generics, protocols, TypeVar, and runtime type checking
 - [Data Validation](08-advanced-topics/02-data-validation) — Pydantic, dataclasses, and schema validation
-- [Context Managers](08-advanced-topics/03-context-managers) — with statement, __enter__/__exit__, and contextlib
+- [Context Managers](08-advanced-topics/03-context-managers) — with statement, **enter**/**exit**, and contextlib
 - [Protocols and Dunder Methods](08-advanced-topics/04-protocols-dunder-methods) — structural subtyping and Python's data model
 
 ### Key Concepts

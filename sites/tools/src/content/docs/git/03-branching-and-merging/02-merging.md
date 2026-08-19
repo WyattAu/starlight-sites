@@ -32,8 +32,8 @@ A merge takes two (or more) commit pointers — branch tips — and produces a n
 has both as parents:
 
 ```bash
-$ git switch main
-$ git merge feature-auth
+git switch main
+git merge feature-auth
 ```
 
 ```mermaid
@@ -146,7 +146,7 @@ Sometimes you want a merge commit even when a fast-forward is possible — to pr
 Merge event:
 
 ```bash
-$ git merge --no-ff feature-auth
+git merge --no-ff feature-auth
 ```
 
 ```mermaid
@@ -166,7 +166,6 @@ identified in the history.
 <aside class="starlight-aside starlight-aside--tip">
 It easy to see when a feature was merged, revert the entire feature with one command
 (`git revert -m 1 <merge-commit>`), and understand the project history.
-
 
 ## Merge Strategies
 
@@ -288,7 +287,6 @@ $ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 Popular options: `meld` (Linux), `vscode` (cross-platform), `kdiff3` (cross-platform), `opendiff`
 (macOS).
 
-
 ## Merge vs Rebase
 
 The fundamental trade-off between merge and rebase is **history topology**:
@@ -328,14 +326,14 @@ The longer you wait between merges, the more likely conflicts become, and the ha
 Resolve. A good practice is to merge `main` into your feature branch daily:
 
 ```bash
-$ git switch feature-auth
-$ git merge main
+git switch feature-auth
+git merge main
 ```
 
 Or use rebase (see [Rebasing](./03-rebasing.md)):
 
 ```bash
-$ git rebase main
+git rebase main
 ```
 
 ### 2. Keep Feature Branches Short-Lived
@@ -346,7 +344,7 @@ Few days. If a feature is large, break it into smaller, independently mergeable 
 ### 3. Use `--no-ff` for Feature Merges
 
 ```bash
-$ git merge --no-ff feature-auth
+git merge --no-ff feature-auth
 ```
 
 This creates a merge commit even when a fast-forward is possible, preserving the branch topology and
@@ -357,9 +355,9 @@ Making the feature's scope visible in the history.
 Run your test suite before and after merging:
 
 ```bash
-$ git merge --no-commit feature-auth  # Stage the merge without committing
-$ npm test                            # Run tests
-$ git commit                          # Commit only if tests pass
+git merge --no-commit feature-auth  # Stage the merge without committing
+npm test                            # Run tests
+git commit                          # Commit only if tests pass
 ```
 
 ### 5. Write Meaningful Merge Messages
@@ -399,7 +397,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

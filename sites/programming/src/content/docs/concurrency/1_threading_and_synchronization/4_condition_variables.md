@@ -646,7 +646,6 @@ auto worker_safe = [&b](int id) {
 };
 ```
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to condition variables, latches, and
@@ -664,6 +663,7 @@ A thorough understanding of these concepts, combined with regular practice and r
 for mastery of this topic.
 
 ## See Also
+
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
@@ -671,4 +671,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

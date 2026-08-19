@@ -20,6 +20,7 @@ categories: [Physics]
 ## Gravitational Fields
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
+>
 ## 1. Newton"s Law of Universal Gravitation
 
 **Newton's Law.** Every point mass attracts every other point mass with a force directed along the
@@ -555,7 +556,6 @@ $\blacksquare$
 ## Intuition
 
 From Newton's apple to quantum particles, physics explains how the world works through measurable quantities and testable laws. Forces cause acceleration, energy transforms between forms but is never lost, and waves carry information across vast distances. These concepts form the foundation for engineering, astronomy, and our understanding of reality itself.
-
 
 ## Cross-References
 

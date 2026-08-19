@@ -325,7 +325,6 @@ Thermodynamic response functions measure how a system reacts to small changes in
 - [Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations) -- The fluctuation-dissipation theorem connects spontaneous fluctuations to the response functions derived in this chapter.
 - [The Debye Model of Solids](16_the-debye-model-of-solids) -- The Debye $T^3$ law for heat capacity is a specific example of the general heat capacity theory developed here.
 
-
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

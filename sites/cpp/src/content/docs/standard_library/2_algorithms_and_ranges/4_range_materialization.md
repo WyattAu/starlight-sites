@@ -820,4 +820,3 @@ Range materialization is the moment when a lazy computation becomes a concrete c
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

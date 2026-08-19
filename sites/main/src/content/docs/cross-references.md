@@ -17,7 +17,7 @@ description: How topics connect across different sites and levels.
 ## Mathematics Chain
 
 | Topic | Prerequisite | Next Level | Site |
-|-------|-------------|------------|------|
+| ------- | ------------- | ------------ | ------ |
 | Algebra | Basic algebra | Linear algebra | mathematics |
 | Linear algebra | Algebra + calculus | Quantum mechanics | physics |
 | Calculus | Pre-calculus | Differential equations | mathematics |
@@ -34,7 +34,7 @@ description: How topics connect across different sites and levels.
 ## Physics Chain
 
 | Topic | Prerequisite | Next Level | Site |
-|-------|-------------|------------|------|
+| ------- | ------------- | ------------ | ------ |
 | Kinematics | Algebra | Newton's laws | physics |
 | Newton's laws | Kinematics + vectors | Energy methods | physics |
 | Energy methods | Newton's laws | Lagrangian mechanics | physics |
@@ -51,7 +51,7 @@ description: How topics connect across different sites and levels.
 ## Programming Chain
 
 | Topic | Prerequisite | Next Level | Site |
-|-------|-------------|------------|------|
+| ------- | ------------- | ------------ | ------ |
 | Variables | None | Control flow | programming |
 | Control flow | Variables | Functions | programming |
 | Functions | Control flow | OOP | programming |
@@ -66,7 +66,7 @@ description: How topics connect across different sites and levels.
 ## Language Chains
 
 | From | To | Connection |
-|------|----|------------|
+| ------ | ---- | ------------ |
 | C++ | Rust | Memory safety comparison |
 | Python | Go | Concurrency patterns |
 | Haskell | Rust | Type system comparison |
@@ -81,7 +81,7 @@ description: How topics connect across different sites and levels.
 ## Cross-Site Connections
 
 | From Site | To Site | Shared Topic |
-|-----------|---------|--------------|
+| ----------- | --------- | -------------- |
 | mathematics | physics | Linear algebra (vectors, matrices, eigenvalues) |
 | mathematics | physics | Calculus (derivatives, integrals, differential equations) |
 | mathematics | physics | Probability and statistics |

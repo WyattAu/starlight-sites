@@ -184,4 +184,3 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 ## Intuition
 
 Electrical conductivity is like traffic flow: electrons are cars, the electric field is the slope of the road, and scattering events are red lights. The Drude model treats electrons as a classical gas bouncing off ions, which explains Ohm's law but fails at low temperatures where quantum effects matter. The mean free path is how far an electron travels between collisions. Matthiessen's rule says different scattering mechanisms add independently, like different types of road obstacles. The Hall coefficient reveals whether charge carriers are positive or negative, which the simple model cannot predict.
-

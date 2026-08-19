@@ -542,6 +542,7 @@ class LogList(UserList):
 ll = LogList([1, 2, 3])
 ll.append(4)   # Appending: 4
 ll.pop()       # Popped: 4
+
 ```
 
 ## namedtuple vs dataclass vs TypedDict
@@ -881,4 +882,3 @@ Dicts are hash tables: they map keys to values with O(1) average lookup time. Th
 - [Collections](../../../../../kotlin/src/content/docs/intermediate/collections)
 - [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
 - [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
-

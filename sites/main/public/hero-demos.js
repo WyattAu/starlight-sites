@@ -4,7 +4,7 @@
   if (fCanvas) {
     var fCtx = fCanvas.getContext('2d')
     var fTerms = 10
-    function drawFourier() {
+    var drawFourier = function () {
       var w = fCanvas.width,
         h = fCanvas.height
       var cx = w / 2,
@@ -80,7 +80,7 @@
     var lCtx = lCanvas.getContext('2d')
     var aVal = 3,
       bVal = 2
-    function drawLissajous() {
+    var drawLissajous = function () {
       var w = lCanvas.width,
         h = lCanvas.height,
         cx = w / 2,

@@ -729,25 +729,25 @@ Dissolution).
 
 ## Practice Questions (Extended)
 
-13. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$Given that
+1. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$Given that
     $K_a(\mathrm{Al^{3+}) = 1.0 \times 10^{-5}$. (Hint: $\mathrm{Al^{3+}$ acts as a weak acid.)
 
-14. A buffer is prepared by mixing $0.20 \mathrm{ mol$ of $\mathrm{CH_3\mathrm{COOH$ and
+2. A buffer is prepared by mixing $0.20 \mathrm{ mol$ of $\mathrm{CH_3\mathrm{COOH$ and
     $0.10 \mathrm{ mol$ of $\mathrm{NaOH$ in $1.0 \mathrm{ L$ of solution. Calculate the pH of this
     buffer.
 
-15. Explain qualitatively how the shape of the pH titration curve for a weak acid-strong base
+3. Explain qualitatively how the shape of the pH titration curve for a weak acid-strong base
     titration differs from that of a strong acid-strong base titration. Include a discussion of the
     buffer region and the half-equivalence point.
 
-16. Calculate the pH at each of the following points in the titration of $25.0 \mathrm{ mL$ of
+4. Calculate the pH at each of the following points in the titration of $25.0 \mathrm{ mL$ of
     $0.10 \mathrm{ M$ $\mathrm{HCl$ with $0.10 \mathrm{ M$ $\mathrm{NaOH$: (a) 0 mL, (b) 12.5 mL,
     (c) 24.9 mL, (d) 25.0 mL, (e) 25.1 mL, (f) 30.0 mL.
 
-17. Explain why $\mathrm{Na_2\mathrm{CO_3$ solution is alkaline, writing the relevant hydrolysis
+5. Explain why $\mathrm{Na_2\mathrm{CO_3$ solution is alkaline, writing the relevant hydrolysis
     equations.
 
-18. A student is asked to prepare a buffer at pH 7.40 (physiological pH) using
+6. A student is asked to prepare a buffer at pH 7.40 (physiological pH) using
     $\mathrm{H_2\mathrm{PO_4^-$/$\mathrm{HPO_4^{2-}$ ($pK_{a2} = 7.21$). Calculate the required
     ratio $[\mathrm{HPO_4^{2-}]/[\mathrm{H_2\mathrm{PO_4^-]$ and suggest why this buffer system is
     used in biological systems.

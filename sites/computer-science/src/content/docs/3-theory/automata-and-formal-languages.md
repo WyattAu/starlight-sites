@@ -134,16 +134,17 @@ Regular expressions over alphabet $\Sigma$:
 
 ### 2.2 RE to NFA Conversion (Thompson's Construction)
 
-| RE Form | Construction                          |
+| RE Form | Construction |
 | -------- | ------------------------------------- |
-| $\emptyset$ | Single non-accepting state          |
-| $\epsilon$ | Start = accept (single state)        |
-| $a$       | Start → $a$ → accept                 |
+| $\emptyset$ | Single non-accepting state |
+| $\epsilon$ | Start = accept (single state) |
+| $a$ | Start → $a$ → accept |
 | $R_1 \cup R_2$ | New start with $\epsilon$ to starts of $R_1$ and $R_2$; accepts merge via $\epsilon$ |
 | $R_1 \cdot R_2$ | Connect accept of $R_1$ to start of $R_2$ via $\epsilon$ |
-| $R^*$     | New start/accept with $\epsilon$ loops through $R$ |
+| $R^*$ | New start/accept with $\epsilon$ loops through $R$ |
 
 **Properties:**
+
 - RE has at most $O(|R|)$ states in the NFA.
 - NFA may have $\epsilon$-transitions but no more than 2 outgoing transitions per state.
 
@@ -208,13 +209,13 @@ Choose $s = 0^p 1 1^p 0^p$. Pumping $y$ (within first $p$ symbols) breaks the pa
 
 ### 3.3 Common Non-Regular Languages
 
-| Language                                        | Not Regular Because      |
+| Language | Not Regular Because |
 | ----------------------------------------------- | ----------------------- |
-| $\{a^n b^n : n \geq 0\}$                       | Need to count $a$'s vs $b$'s |
-| $\{a^n b^n c^n : n \geq 0\}$                   | Need to match three counts |
-| $\{ww : w \in \Sigma^*\}$                      | Need unbounded memory   |
-| $\{a^p : p \text{ is prime}\}$                 | Primes are non-regular  |
-| $\{w \in \{a,b\}^* : \#_a(w) = \#_b(w)\}$    | Need to count           |
+| $\{a^n b^n : n \geq 0\}$ | Need to count $a$'s vs $b$'s |
+| $\{a^n b^n c^n : n \geq 0\}$ | Need to match three counts |
+| $\{ww : w \in \Sigma^*\}$ | Need unbounded memory |
+| $\{a^p : p \text{ is prime}\}$ | Primes are non-regular |
+| $\{w \in \{a,b\}^* : \#_a(w) = \#_b(w)\}$ | Need to count |
 
 ## 4. Context-Free Grammars
 
@@ -430,10 +431,10 @@ This is a **thesis** (not a theorem) — it cannot be proven because "algorithmi
 
 ### 9.1 Decidable Languages
 
-| Language                                      | Decidable? | Algorithm                             |
+| Language | Decidable? | Algorithm |
 | --------------------------------------------- | ---------- | ------------------------------------- |
 | $A_{\text{DFA}} = \{(B, w) : B \text{ accepts } w\}$ | Yes | Simulate DFA on $w$ |
-| $A_{\text{CFG}} = \{(G, w) : G \text{ generates } w\}$ | Yes | CYK algorithm, $O(n^3|G|)$ |
+| $A_{\text{CFG}} = \{(G, w) : G \text{ generates } w\}$ | Yes | CYK algorithm, $O(n^3 | G | )$ |
 | $E_{\text{DFA}} = \{A : L(A) = \emptyset\}$ | Yes | Check reachable accepting states |
 | $EQ_{\text{DFA}} = \{A, B : L(A) = L(B)\}$ | Yes | Check $\overline{L(A \Delta B)}$ for non-emptiness |
 | $A_{\text{TM}} = \{(M, w) : M \text{ accepts } w\}$ | **No** | Diagonalization proof |
@@ -461,12 +462,12 @@ To prove $L$ is undecidable, reduce a known undecidable language to $L$.
 
 **Common undecidable problems:**
 
-| Problem                                        | Reduction From    |
+| Problem | Reduction From |
 | ---------------------------------------------- | ----------------- |
-| $E_{\text{TM}} = \{M : L(M) = \emptyset\}$     | $A_{\text{TM}}$  |
+| $E_{\text{TM}} = \{M : L(M) = \emptyset\}$ | $A_{\text{TM}}$ |
 | $REG_{\text{TM}} = \{M : L(M) \text{ is regular}\}$ | $A_{\text{TM}}$ |
 | $EQ_{\text{TM}} = \{M_1, M_2 : L(M_1) = L(M_2)\}$ | $E_{\text{TM}}$ |
-| PCP (Post Correspondence Problem)             | $A_{\text{TM}}$  |
+| PCP (Post Correspondence Problem) | $A_{\text{TM}}$ |
 | Hilbert's 10th Problem (Diophantine equations) | $A_{\text{TM}}$ |
 
 ### 9.4 Rice's Theorem
@@ -476,6 +477,7 @@ To prove $L$ is undecidable, reduce a known undecidable language to $L$.
 A property is **non-trivial** if it holds for some TMs and not for others.
 
 **Examples of undecidable properties (by Rice's theorem):**
+
 - Does $M$ accept any string?
 - Is $L(M)$ finite?
 - Is $L(M)$ regular?
@@ -502,10 +504,12 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 ## Worked Examples
 
 ### Example 1: Designing a Finite Automaton
+
 **Problem:** Design a DFA over {0, 1} that accepts strings containing the substring "010".
 **Solution:** States: q0 (start, scanning for first 0), q1 (saw 0, waiting for 1), q2 (saw 01, waiting for 0), q3 (accepting, saw 010). Transitions: q0 on 0 -> q1, q0 on 1 -> q0. q1 on 1 -> q2, q1 on 0 -> q1. q2 on 0 -> q3, q2 on 1 -> q0. q3 on 0 -> q3, q3 on 1 -> q3. The DFA has 4 states and transitions back to earlier states when partial matches are broken.
 
 ### Example 2: Context-Free Grammar for a Language
+
 **Problem:** Write a CFG that generates the language L = {a^n b^n c^n : n >= 1}.
 **Solution:** S -> aBC. B -> aBB (this ensures more a's push B’s onto the middle). C -> cD. D -> cDD (this ensures more c's match). B -> b (terminal). D -> d (terminal). Wait -- this generates a^n b^n c^m which is wrong. The language a^n b^n c^n is not context-free (proven by the pumping lemma for CFLs). No CFG exists for this language. This is a common exam trick question.
 
@@ -528,7 +532,7 @@ Automata theory studies abstract computing models. Finite automata recognize reg
 ## Cross-References
 
 | Topic | Link |
-|-------|------|
+| ------- | ------ |
 | Compilers | [View](compilers) |
 | Complexity Theory | [View](/university/computer-science/complexity-theory) |
 | Algorithm Design | [View](../1-algorithms/algorithm-design) |

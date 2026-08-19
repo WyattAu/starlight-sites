@@ -244,9 +244,9 @@ A special member function is **trivial** if it is not user-provided, its class h
 Functions or virtual base classes, and all base classes and members have trivial versions of the
 Same SMF [N4950 §11.4.5.3]. Trivial SMFs have important implications:
 
-- ** copyable types** can be copied with `memcpy` — this is the foundation of
+- **copyable types** can be copied with `memcpy` — this is the foundation of
   `std::is_trivially_copyable` [N4950 §20.15.4.3].
-- ** destructible types** do not require destructor calls during stack unwinding.
+- **destructible types** do not require destructor calls during stack unwinding.
 - **Trivial default constructors** allow zero-initialization and static storage duration objects to
   be placed in `.bss` (zero-initialized memory segment).
 
@@ -670,7 +670,6 @@ int main() {
 - [Access Control and Friendship](./2_access_control.md)
 - [Operator Overloading](./4_operator_overloading.md)
 
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to special member function
@@ -691,4 +690,3 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

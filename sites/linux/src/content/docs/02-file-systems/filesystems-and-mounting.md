@@ -329,7 +329,6 @@ xfs_fsr /mount/point/path/to/file
 <aside class="starlight-aside starlight-aside--caution">
 Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
-
 ## Btrfs
 
 Btrfs (B-tree file system, pronounced "butter-fs") is a copy-on-write (COW) file system with
@@ -432,7 +431,6 @@ btrfs scrub status /mnt/btrfs
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 Btrfs documentation recommends against using RAID 5/6 in production. Use RAID 1 or RAID 10 instead.
-
 
 ### When to Use Btrfs
 
@@ -786,10 +784,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 File systems are like different filing systems in an office -- ext4 is the reliable, well-organised filing cabinet; XFS is the high-performance system for large files; Btrfs is the modern system with snapshots and compression. The VFS layer is the universal filing interface that lets you use any filing system without changing how you access files. Mounting is like opening a filing cabinet: you attach a storage device to a directory so its contents become accessible. The mount point is the door through which you access the files. Unmounting is like closing the cabinet -- you must finish using it before you can safely disconnect it.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

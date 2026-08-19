@@ -1104,10 +1104,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Sealed classes are like a locked menu at a restaurant -- you know exactly what dishes are available, and the waiter (compiler) will not let you order something that is not on the list. This is the power of exhaustive pattern matching: when you add a new dish (subtype), every waiter who handles the menu must update their notes (switch statements). The sealed class enforces this at compile time, not runtime, catching missing cases before they reach production. Think of it as the difference between a restaurant with a fixed menu (sealed) and a buffet where anything can appear (abstract class).
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

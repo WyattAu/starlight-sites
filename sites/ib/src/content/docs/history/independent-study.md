@@ -293,8 +293,6 @@ Well-suited topics for IB History independent research include:
 - To what extent was the Cold War a conflict between two equally aggressive powers, rather than a primarily American-driven phenomenon?
 - To what extent did the Second Sino-Japanese War (1937–1945) determine the outcome of the Chinese Civil War (1946–1949)?
 
-
-
 ## Cross-References
 
 - **[Cold War](../history/cold-war):** Cold War geopolitics shaped the 20th century

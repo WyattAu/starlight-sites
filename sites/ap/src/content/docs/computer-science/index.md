@@ -140,7 +140,6 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 The digital world runs on algorithms and data. From search engines to social media, software systems process information through carefully designed procedures. Computer science teaches us to think systematically about problems, design efficient solutions, and understand the technologies that shape modern life. These skills are essential for innovation in every field.
 
-
 ## Cross-References
 
 - [Computational Thinking](1-computational-thinking/1_computational-thinking)

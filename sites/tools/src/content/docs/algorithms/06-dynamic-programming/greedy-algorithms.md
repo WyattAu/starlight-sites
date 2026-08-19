@@ -88,7 +88,6 @@ $o_2$). The new solution has the same size as $O$ and starts with $g_1$. By indu
 Start time and shortest duration do NOT work. The key insight is that picking the activity that
 Finishes earliest leaves the maximum remaining time for other activities.
 
-
 ## Huffman Coding
 
 Huffman coding constructs an optimal prefix-free code for a set of symbols with given frequencies.
@@ -386,7 +385,6 @@ def dijkstra(n, graph, source):
 <aside class="starlight-aside starlight-aside--caution">
 Unprocessed vertex may exist. Use Bellman-Ford ($O(VE)$) for graphs with negative weights but no
 Negative cycles.
-
 
 ## Matroid Theory
 

@@ -568,6 +568,7 @@ Most escape sequences work the same inside text blocks as in regular strings. Th
 - **No need to escape `"` inside a text block** -- a single `"` or `""` does not terminate the text
   block. Only `"""` terminates it.
 - **`\` at end of line** prevents a line break, joining the lines:
+
   ```java
   String query = """
       SELECT id, name, email
@@ -576,6 +577,7 @@ Most escape sequences work the same inside text blocks as in regular strings. Th
       ORDER BY \s
       name""";
   ```
+
 - **`\s`** translates to a single ASCII space, useful for preserving trailing whitespace that would
   otherwise be stripped.
 

@@ -11,7 +11,6 @@ description: "UNIVERSITY Mathematics practice problems: Real Analysis Practice (
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Rigorous calculus:** Real analysis puts calculus on a rigorous foundation — it defines limits, continuity, and derivatives with epsilon-delta precision, removing the hand-waving of introductory calculus. It is where you learn to think like a mathematician.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Sequences and Convergence
 
 <PracticeProblem client:only="solid-js" question={"Which of the following defines a Cauchy sequence in $\mathbb{R}$?&quot; options={[ 'For every $\epsilon > 0$, there exists $N$ such that for all $m, n > N$: $|a_m - a_n| < \epsilon$', 'There exists $\epsilon > 0$ such that for all $N$, there exist $m, n > N$: $|a_m - a_n| < \epsilon$', 'For every $N$, there exists $\epsilon > 0$ such that $|a_{N+1} - a_N| < \epsilon$', 'For every $\epsilon > 0$, there exists $N$ such that $|a_n - L| < \epsilon$ for all $n > N$', ]} correctAnswer={0} explanation=&quot;The Cauchy criterion states: for every $\epsilon > 0$, there exists $N \in \mathbb{N}$ such that for all $m, n \geq N$, $|a_m - a_n| < \epsilon$. The last option is the definition of convergence (not Cauchy). In $\mathbb{R}$, a sequence is Cauchy if and only if it converges (completeness of $\mathbb{R}$)."} difficulty="easy"  />
@@ -40,7 +38,6 @@ the explanation.
 
 ---
 
-
 ### Limits, Continuity, and Differentiation
 
 <PracticeProblem client:only="solid-js" question={"Using the $\epsilon$-$\delta$ definition, what does it mean for $\lim_{x \to a} f(x) = L$?&quot; options={[ 'For every $\epsilon > 0$, there exists $\delta > 0$ such that $0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$', 'There exists $\epsilon > 0$ such that for every $\delta > 0$: $|x - a| < \delta \implies |f(x) - L| < \epsilon$', 'For every $\delta > 0$, there exists $\epsilon > 0$ such that $|f(x) - L| < \epsilon \implies |x - a| < \delta$', 'For every $\epsilon > 0$ and $\delta > 0$: $|x - a| < \delta \implies |f(x) - L| < \epsilon$', ]} correctAnswer={0} explanation=&quot;The formal definition: $\lim_{x \to a} f(x) = L$ means for every $\epsilon > 0$, there exists $\delta > 0$ such that if $0 < |x - a| < \delta$, then $|f(x) - L| < \epsilon$. The quantifier order is crucial: $\epsilon$ is given first (arbitrarily), then $\delta$ is chosen in response."} difficulty="medium"  />
@@ -50,7 +47,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"By the Mean Value Theorem, if $f(1) = 3$ and $f(3) = 7$ and $f$ is differentiable on $(1, 3)$, what is guaranteed?&quot; options={[ `There exists $c \\in (1, 3)$ with $f'(c) = 2$`, `$f'(x) = 2$ for all $x \\in (1, 3)$`, `There exists $c \\in (1, 3)$ with $f'(c) = 4$`, `$f$ is increasing on $(1, 3)$`, ]} correctAnswer={0} explanation={`The MVT gives $\\frac{f(b) - f(a)}{b - a} = f'(c)$ for some $c \\in (a, b)$. Here: $\\frac{f(3) - f(1)}{3 - 1} = \\frac{7 - 3}{2} = 2 = f'(c)$ for some $c \\in (1, 3)$. This means the instantaneous rate of change equals the average rate of change at some interior point. It does not mean $f'(x) = 2$ everywhere, only at some point.`} difficulty=&quot;medium"}  />
 
 ---
-
 
 ### Integration
 
@@ -67,7 +63,6 @@ the explanation.
 **Assuming continuity implies differentiability:** The function $f(x) = |x|$ is continuous everywhere but not differentiable at $x = 0$. Continuity is necessary but not sufficient for differentiability. The intermediate value theorem applies to continuous functions, but the mean value theorem requires differentiability on the open interval.
 
 **Confusing conditional and absolute convergence:** A series like $\sum (-1)^n / n$ converges conditionally but not absolutely. Rearranging the terms of a conditionally convergent series can change its sum (Riemann's rearrangement theorem). Always test $\sum |a_n|$ separately when determining convergence properties.
-
 
 ## Cross-References
 

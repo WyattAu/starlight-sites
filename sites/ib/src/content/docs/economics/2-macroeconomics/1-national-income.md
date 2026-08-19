@@ -34,11 +34,11 @@ Goods are excluded because their value is already embedded in the final product.
   unemployment benefits, which are not payments for current production)
 - $X - M$ = net exports (exports minus imports)
 
-2. **Income method**: sums all factor incomes earned by residents:
+1. **Income method**: sums all factor incomes earned by residents:
    $$GDP = W + R + I + P + (\text{Mixed income}) + (\text{Taxes on production} - \text{Subsidies})$$
    Where $W$ = wages, $R$ = rent, $I$ = interest, $P$ = profit.
 
-3. **Output (value-added) method**: sums the value added at each stage of production:
+2. **Output (value-added) method**: sums the value added at each stage of production:
    $$\text{Value added} = \text{Value of output} - \text{Value of intermediate inputs}$$ This avoids
    double counting. Summing value added across all firms yields GDP.
 
@@ -427,12 +427,12 @@ have risen by 25% since the base year.
 - **GDP per capita (PPP)** allows cross-country comparisons but has significant limitations
 - **GDP as a welfare measure** fails to capture income distribution, non-market activity,
   environmental costs, and quality of life
+
 $$
 
 $$
+
 - Key calculations: nominal-to-real conversion, GDP deflator, per capita adjustments
-
-
 
 ## Cross-References
 

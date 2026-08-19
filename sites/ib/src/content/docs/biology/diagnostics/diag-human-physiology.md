@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Homeostasis — the body's ability to maintain stable internal conditions — is the central concept connecting all organ systems
 
-
 ## Unit Tests
 
 ### UT-1: Action Potential and Nerve Impulse Propagation

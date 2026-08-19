@@ -266,7 +266,7 @@ Atom with quantum ideas from Planck and Einstein.
 
 where $E_n \gt E_m$ for emission and $E_n \lt E_m$ for absorption.
 
-3. **Quantised angular momentum.** The angular momentum of the electron is quantised in units of
+1. **Quantised angular momentum.** The angular momentum of the electron is quantised in units of
    $h/(2\pi)$:
 
    $$

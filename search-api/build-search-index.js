@@ -3,21 +3,20 @@
 // build-search-index.js (fast version)
 // Fetches sitemaps + minimal page data for search index
 // Optimized for CI: parallel fetches, minimal downloads
+//
+// ADR-011: the site list is derived from sites/ via scripts/lib/sites.cjs.
+// The previous hand-copied 9-site list (3 of them defunct) silently limited
+// cross-site search to 6 live sites for months.
 
 const fs = require('node:fs')
 const path = require('node:path')
 
-const SITES = [
-  { id: 'dse', url: 'https://dse.wyattau.com', name: 'DSE' },
-  { id: 'ib', url: 'https://ib.wyattau.com', name: 'IB' },
-  { id: 'alevel', url: 'https://alevel.wyattau.com', name: 'A-Level' },
-  { id: 'university', url: 'https://university.wyattau.com', name: 'University' },
-  { id: 'qualifications', url: 'https://qualifications.wyattau.com', name: 'Qualifications' },
-  { id: 'programming', url: 'https://programming.wyattau.com', name: 'Programming' },
-  { id: 'infrastructure', url: 'https://infrastructure.wyattau.com', name: 'Infrastructure' },
-  { id: 'languages', url: 'https://languages.wyattau.com', name: 'Languages' },
-  { id: 'tools', url: 'https://tools.wyattau.com', name: 'Tools' },
-]
+const { astroSites, siteMeta } = require('../scripts/lib/sites.cjs')
+
+const SITES = astroSites().map(slug => {
+  const meta = siteMeta()[slug]
+  return { id: slug, url: meta.url, name: meta.name }
+})
 
 async function fetchWithTimeout(url, timeout = 10000) {
   const controller = new AbortController()

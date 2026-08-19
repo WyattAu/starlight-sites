@@ -97,7 +97,7 @@ DNS translates human-readable domain names (e.g., `example.com`) to IP addresses
 - **TLD name server:** Returns the authoritative name server.
 - **Authoritative name server:** Returns the IP address for the domain.
 
-5. The result is cached at each level for future queries.
+1. The result is cached at each level for future queries.
 
 **Why caching matters.** Without caching, every DNS lookup would require multiple queries across the
 Internet. Caching at the browser, OS, and resolver levels means most lookups are resolved locally in
@@ -489,34 +489,34 @@ Public IP to serve many private devices, conserving the address space.
 
 ## Practice Questions
 
-19. Explain how a CDN works and why it improves web performance for users in different geographic
+1. Explain how a CDN works and why it improves web performance for users in different geographic
     locations.
 
-20. A company has the network 192.168.0.0/24. They need to create 4 subnets. What subnet mask should
+2. A company has the network 192.168.0.0/24. They need to create 4 subnets. What subnet mask should
     they use, and how many hosts can each subnet support?
 
-21. Explain the difference between WPA2 and WPA3. Why should a home user upgrade to WPA3?
+3. Explain the difference between WPA2 and WPA3. Why should a home user upgrade to WPA3?
 
-22. Describe the steps a computer takes when it connects to a Wi-Fi network using WPA2.
+4. Describe the steps a computer takes when it connects to a Wi-Fi network using WPA2.
 
-23. Explain what QoS is and why it is important for real-time applications like VoIP.
+5. Explain what QoS is and why it is important for real-time applications like VoIP.
 
-24. A user reports that they can access some websites but not others. Explain how you would use
+6. A user reports that they can access some websites but not others. Explain how you would use
     diagnostic tools to troubleshoot the problem.
 
-25. Explain how NAT works. Why is it necessary for home networks?
+7. Explain how NAT works. Why is it necessary for home networks?
 
-26. Describe the DHCP lease process. What happens when a lease expires?
+8. Describe the DHCP lease process. What happens when a lease expires?
 
-27. Explain the difference between a DNS A record and a CNAME record. When would you use each?
+9. Explain the difference between a DNS A record and a CNAME record. When would you use each?
 
-28. A network administrator wants to block all traffic to a specific port. Where should this rule be
+10. A network administrator wants to block all traffic to a specific port. Where should this rule be
     configured, and what device would enforce it?
 
-29. Compare IPv4 and IPv6 addressing in terms of address space, header complexity, and built-in
+11. Compare IPv4 and IPv6 addressing in terms of address space, header complexity, and built-in
     security features.
 
-30. Explain the role of each layer in the TCP/IP model when sending an email using SMTP. Include the
+12. Explain the role of each layer in the TCP/IP model when sending an email using SMTP. Include the
     specific protocols used at each layer.
 
 ## HTTP in Detail
@@ -550,7 +550,7 @@ HTTP headers provide additional information about the request or response.
 
 | Header        | Purpose                    | Example          |
 | ------------- | -------------------------- | ---------------- |
-| Host          | Target host                | www.example.com  |
+| Host          | Target host                | <www.example.com>  |
 | User-Agent    | Browser/client software    | Mozilla/5.0      |
 | Accept        | Expected response format   | text/html        |
 | Content-Type  | Body format                | application/json |
@@ -700,24 +700,24 @@ Grade databases.
 
 ## Practice Questions
 
-31. Explain the difference between IaaS, PaaS, and SaaS with examples of each.
+1. Explain the difference between IaaS, PaaS, and SaaS with examples of each.
 
-32. A company has 200 employees across 4 departments. Explain how VLANs can be used to improve
+2. A company has 200 employees across 4 departments. Explain how VLANs can be used to improve
     network security and performance.
 
-33. Explain how the KRACK attack works against WPA2 and why upgrading to WPA3 prevents it.
+3. Explain how the KRACK attack works against WPA2 and why upgrading to WPA3 prevents it.
 
-34. Describe the role of SNMP in network management. What are managed devices, agents, and the NMS?
+4. Describe the role of SNMP in network management. What are managed devices, agents, and the NMS?
 
-35. Explain the difference between public, private, and hybrid cloud deployment models. Give an
+5. Explain the difference between public, private, and hybrid cloud deployment models. Give an
     example of when each would be appropriate.
 
-36. A network has a bandwidth of 1 Gbps. Due to protocol overhead, only 95% is available for data.
+6. A network has a bandwidth of 1 Gbps. Due to protocol overhead, only 95% is available for data.
     Calculate the effective throughput in Mbps.
 
-37. Explain the concept of network segmentation. Why is it important for security compliance?
+7. Explain the concept of network segmentation. Why is it important for security compliance?
 
-38. Compare three wireless security protocols (WEP, WPA2, WPA3) in terms of encryption strength and
+8. Compare three wireless security protocols (WEP, WPA2, WPA3) in terms of encryption strength and
     known vulnerabilities.
 
 ## Common Pitfalls
@@ -930,7 +930,6 @@ linked above.
 ## Intuition
 
 Computer science combines mathematical logic with engineering实践. Algorithms are the blueprints for solving problems, data structures are the building blocks for organising information, and programming is the construction process. Understanding these concepts allows us to create software systems that are efficient, reliable, and scalable.
-
 
 ## Cross-References
 

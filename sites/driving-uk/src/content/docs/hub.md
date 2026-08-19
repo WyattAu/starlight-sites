@@ -236,7 +236,7 @@ Preparing for the theory test is a focused, short-term commitment. Most candidat
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Flashcards — 15 minutes of signs and rules |
 | Afternoon | Topic study — read one section of the Highway Code |
 | Evening | Practice — one mock test or 15 hazard perception clips |

@@ -1250,10 +1250,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-
 ## Intuition
 
 The road to World War II is like watching a series of dominoes fall in slow motion -- each concession to aggression (Rhineland, Anschluss, Munich) emboldened the next, while the League of Nations proved to be a paper tiger whose bark was worse than its bite. The key pattern is that economic crisis (the Great Depression) created the political conditions (extremism, nationalism) that made aggressive foreign policy popular. Appeasement was not directly cowardice -- it was a rational calculation by leaders who remembered the slaughter of 1914-1918 and desperately wanted to avoid repeating it. The tragedy is that their reasonable fears produced catastrophically wrong conclusions.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

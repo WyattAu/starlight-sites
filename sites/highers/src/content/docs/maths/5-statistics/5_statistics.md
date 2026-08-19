@@ -747,43 +747,43 @@ See the examples integrated throughout the sections above.
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 2   | 5   | 6   | 9   | 11  |
 
-5. In a group of 100 students, 55 study Maths, 40 study Chemistry, and 20 study both. A student is
+1. In a group of 100 students, 55 study Maths, 40 study Chemistry, and 20 study both. A student is
    selected at random. Find the probability that they study neither subject.
 
-6. A die is rolled until a 6 appears. Find the probability that more than 4 rolls are needed.
+2. A die is rolled until a 6 appears. Find the probability that more than 4 rolls are needed.
 
-7. For the data in question 4, find the equation of the least squares regression line of $y$ on $x$
+3. For the data in question 4, find the equation of the least squares regression line of $y$ on $x$
    and use it to predict $y$ when $x = 6$.
 
-8. A survey of 300 people classified by age group and voting preference gives $\chi^2 = 12.4$ with 4
+4. A survey of 300 people classified by age group and voting preference gives $\chi^2 = 12.4$ with 4
    degrees of freedom. Test at the 5% significance level whether there is an association between age
    and voting preference.
 
-9. A machine produces bolts with mean length 10 cm and standard deviation 0.1 cm. Find the
+5. A machine produces bolts with mean length 10 cm and standard deviation 0.1 cm. Find the
    probability that a randomly selected bolt is between 9.85 cm and 10.15 cm.
 
-10. $X \sim B(50, 0.4)$. Use the normal approximation with continuity correction to estimate
+6. $X \sim B(50, 0.4)$. Use the normal approximation with continuity correction to estimate
     $P(X > 20)$.
 
-11. A medical test has a 95% true positive rate and a 2% false positive rate. If 1% of the
+7. A medical test has a 95% true positive rate and a 2% false positive rate. If 1% of the
     population has the condition, find the probability that a person who tests positive actually has
     the condition.
 
-12. Explain the difference between a Type I error and a Type II error in the context of a hypothesis
+8. Explain the difference between a Type I error and a Type II error in the context of a hypothesis
     test.
 
-13. Find $E(X)$ and $\mathrm{Var(X)$ for the probability distribution:
+9. Find $E(X)$ and $\mathrm{Var(X)$ for the probability distribution:
 
 | $x$      | 0   | 1   | 2   | 3   |
 | -------- | --- | --- | --- | --- |
 | $P(X=x)$ | 0.1 | 0.3 | 0.4 | 0.2 |
 
-14. Two dice are rolled. Let $X$ be the sum. Find $E(X)$ and $\mathrm{Var(X)$.
+1. Two dice are rolled. Let $X$ be the sum. Find $E(X)$ and $\mathrm{Var(X)$.
 
-15. A bag contains 4 red and 6 blue balls. Three balls are drawn without replacement. Find the
+2. A bag contains 4 red and 6 blue balls. Three balls are drawn without replacement. Find the
     probability that exactly two are red.
 
-16. Heights are normally distributed with mean 170 cm and standard deviation 10 cm. Find the height
+3. Heights are normally distributed with mean 170 cm and standard deviation 10 cm. Find the height
     that only 5% of people exceed.
 
 ## Summary

@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -151,7 +150,7 @@ with their own secret key. Since only the user needs to encrypt and decrypt (sam
 no key distribution problem, and symmetric encryption is much faster for bulk data.
 
 **Digital certificates and PKI:** A digital certificate binds a public key to an identity (e.g.,
-"this public key belongs to colleague@example.com"). It is issued by a Certificate Authority (CA)
+"this public key belongs to <colleague@example.com>"). It is issued by a Certificate Authority (CA)
 who verifies the identity. The certificate is signed with the CA's private key. When the user
 receives the colleague's public key embedded in a certificate, they verify the certificate using the
 CA's public key (which is pre-installed in their browser/OS as a trusted root). This prevents
@@ -237,7 +236,7 @@ positions 3, 5, 6, 7.
 
 Data: d1 $= 1$ (pos 3), d2 $= 0$ (pos 5), d3 $= 1$ (pos 6), d4 $= 1$ (pos 7).
 
-Layout: P1 _ P2 d1 _ d2 d3 d4 = P1 _ P2 1 _ 0 1 1
+Layout: P1 _P2 d1_ d2 d3 d4 = P1 _P2 1_ 0 1 1
 
 Positions: 1 2 3 4 5 6 7
 
@@ -332,8 +331,6 @@ exists for oversized responses).
 **Mixing up the OSI and TCP/IP layer models:** The OSI model has 7 layers (Physical, Data Link, Network, Transport, Session, Presentation, Application). The TCP/IP model has 4 layers (Network Access, Internet, Transport, Application). Students often confuse which protocol belongs to which layer — IP is Network/Internet layer, TCP/UDP is Transport layer, HTTP is Application layer.
 
 **Forgetting that MAC addresses are used for local delivery and IP addresses for routing:** When a packet travels across networks, the source and destination MAC addresses change at each hop (router), but the source and destination IP addresses remain the same throughout the journey. MAC addresses are for the local network; IP addresses are for end-to-end routing.
-
-
 
 ## Cross-References
 

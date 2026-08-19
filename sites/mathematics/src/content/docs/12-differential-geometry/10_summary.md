@@ -86,7 +86,7 @@ Every compact, connected, oriented 2-manifold is homeomorphic to a sphere with $
 $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 
 | Surface | Genus $g$ | Euler characteristic $\chi$ | Total curvature |
-|---------|-----------|---------------------------|-----------------|
+| --------- | ----------- | --------------------------- | ----------------- |
 | Sphere $S^2$ | 0 | 2 | $4\pi$ |
 | Torus $T^2$ | 1 | 0 | 0 |
 | Double torus | 2 | $-2$ | $-4\pi$ |
@@ -155,7 +155,7 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 ### Key Applications
 
 | Application | Manifold | Key Result |
-|------------|----------|------------|
+| ------------ | ---------- | ------------ |
 | General relativity | Spacetime $(M,g)$ | Einstein equations: $R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} = 8\pi G T_{\mu\nu}$ |
 | Gauge theory | Principal bundle $P \to M$ | Yang-Mills equations: $d_A \star F_A = 0$ |
 | String theory | Calabi-Yau 3-fold | Ricci-flat Kähler metric moduli |

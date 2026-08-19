@@ -551,7 +551,6 @@ void constructor_variants() {
    is called. Use `std::promise` to transport exceptions to the joining thread, or catch all
    exceptions inside the thread function and store them.
 
-
 ## Summary
 
 This topic covers the key events, causes, and consequences related to thread execution
@@ -582,4 +581,3 @@ C++ threads are OS-level execution contexts. `std::thread` spawns a new thread, 
 - [Mutexes and Deadlocks](../../../../../../programming/src/content/docs/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks)
 - [Condition Variables](../../../../../../programming/src/content/docs/concurrency/1_threading_and_synchronization/4_condition_variables)
 - [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations)
-

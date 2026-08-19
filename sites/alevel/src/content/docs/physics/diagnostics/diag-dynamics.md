@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
@@ -345,7 +344,7 @@ $$\omega_{\max}^2 = \frac{0.40 \times 9.81 \times 0.9848}{0.15(0.9848 + 0.40 \ti
 
 $$\omega_{\max} = 4.94\,\text{rad}\,\text{s}^{-1}$$
 
-Since $4.94 \lt 5.11$The block slides **more ** when the turntable is tilted. The tilt reduces the
+Since $4.94 \lt 5.11$The block slides **more** when the turntable is tilted. The tilt reduces the
 effective normal reaction and the friction must also counteract the tendency to slide down the
 slope.
 

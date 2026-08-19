@@ -120,7 +120,6 @@ theorem, $\mathbb{C}^* / S^1 \cong \mathbb{R}^+$. $\blacksquare$
 
 </details>
 
-
 <aside class="starlight-aside starlight-aside--tip">
 <strong>Research Connections</strong>
 The classification of finite simple groups (completed 2004, ~10,000 pages across ~100 papers) is one of the great achievements of 20th-century mathematics. It states that every finite simple group is either cyclic, alternating, a Lie-type group, or one of 26 sporadic groups. The largest sporadic group, the Monster, has order ~8×10^53 and connects to string theory (Monstrous Moonshine, Conway-Norton 1979). Current research includes: finding new sporadic-like objects, computational group theory, and applications to coding theory and cryptography.
@@ -141,7 +140,7 @@ The quotient group $G/N$ collapses all elements of $N$ to the identity, creating
 ### 4.6 Key Relationships
 
 | Concept | Condition | Consequence |
-|---|---|---|
+| --- | --- | --- |
 | $N \trianglelefteq G$ | $gNg^{-1} = N$ for all $g$ | $G/N$ is a group |
 | $[G:N] = 2$ | Index 2 subgroup | $N$ is automatically normal |
 | First Isomorphism Theorem | $\phi : G \to H$ homomorphism | $G/\ker(\phi) \cong \operatorname{im}(\phi)$ |

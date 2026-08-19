@@ -166,4 +166,3 @@ $$\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx = \int_0^\pi 0\, dx = 0$$
 We can verify directly: $\int_0^\pi \sin(nx)\, dx = [-\cos(nx)/n]_0^\pi = (1 - (-1)^n)/n$, so the integral is $0$ for even $n$ and $2/n^2$ for odd $n$, both vanishing as $n\to\infty$.
 
 $\blacksquare$
-

@@ -220,9 +220,9 @@ Group of one amino acid and the amino group of another.
 - $\alpha$-helix: right-handed coiled structure.
 - $\beta$-pleated sheet: extended, zigzag structure.
 
-3. **Tertiary:** Overall 3D shape of a single polypeptide. Stabilized by hydrogen bonds, disulfide
+1. **Tertiary:** Overall 3D shape of a single polypeptide. Stabilized by hydrogen bonds, disulfide
    bridges, ionic interactions, and hydrophobic interactions.
-4. **Quaternary:** Assembly of multiple polypeptide subunits (e.g., hemoglobin has 4 subunits).
+2. **Quaternary:** Assembly of multiple polypeptide subunits (e.g., hemoglobin has 4 subunits).
 
 **Denaturation:** Loss of protein structure (secondary, tertiary, quaternary) due to heat, pH
 Change, or chemical disruption. The primary structure remains intact.
@@ -911,7 +911,6 @@ linked above.
 ## Intuition
 
 Biology explores how living things work, interact, and evolve. Cells are the basic units of life, each containing molecular machines that carry out specialised functions. Genetics encodes the instructions for building organisms, while ecology examines how species coexist in complex communities. These levels of organisation - from molecules to ecosystems - are interconnected through evolution and natural selection.
-
 
 ## Cross-References
 

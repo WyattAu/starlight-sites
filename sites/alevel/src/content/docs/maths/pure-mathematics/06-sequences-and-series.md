@@ -825,6 +825,7 @@ Verification:
 - $n = 1$: $u_1 = 2 \cdot 1 - 1 = 1$ ✓
 - $n = 2$: $u_2 = 2 \cdot 3 - 1 = 5$. Check: $3(1) + 2 = 5$ ✓
 - $n = 3$: $u_3 = 2 \cdot 9 - 1 = 17$. Check: $3(5) + 2 = 17$ ✓
+
 </details>
 <b>If you get this wrong, revise:</b> [Recurrence relations](#5-recurrence-relations)
 

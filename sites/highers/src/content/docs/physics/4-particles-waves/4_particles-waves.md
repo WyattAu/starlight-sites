@@ -530,34 +530,34 @@ Antinodes at: $0.3 \mathrm{ m, 0.9 \mathrm{ m$ (2 antinodes)
 
 ## 17. Practice Questions (Additional)
 
-11. The work function of caesium is $2.14 \mathrm{ eV$. Calculate the threshold wavelength and the
+1. The work function of caesium is $2.14 \mathrm{ eV$. Calculate the threshold wavelength and the
     maximum KE of photoelectrons when illuminated with $550 \mathrm{ nm$ light.
 
-12. Calculate the de Broglie wavelength of a neutron moving at $2200 \mathrm{ m/s$ (thermal neutrons
+2. Calculate the de Broglie wavelength of a neutron moving at $2200 \mathrm{ m/s$ (thermal neutrons
     in a nuclear reactor). (Mass of neutron $= 1.675 \times 10^{-27} \mathrm{ kg$.)
 
-13. A hydrogen atom is in the $n = 4$ state. Calculate the wavelengths of all possible photons
+3. A hydrogen atom is in the $n = 4$ state. Calculate the wavelengths of all possible photons
     emitted as it decays to the ground state.
 
-14. Verify conservation of charge, baryon number, and lepton number for the reaction:
+4. Verify conservation of charge, baryon number, and lepton number for the reaction:
     $\pi^+ + p \to K^+ + \Sigma^+$
 
-15. A stationary wave is set up on a string of length $0.6 \mathrm{ m$ with a fundamental frequency
+5. A stationary wave is set up on a string of length $0.6 \mathrm{ m$ with a fundamental frequency
     of $250 \mathrm{ Hz$. Calculate the wave speed and the frequency of the fifth harmonic.
 
-16. A source emitting $600 \mathrm{ Hz$ moves towards a stationary observer at $40 \mathrm{ m/s$.
+6. A source emitting $600 \mathrm{ Hz$ moves towards a stationary observer at $40 \mathrm{ m/s$.
     Speed of sound $= 343 \mathrm{ m/s$. Calculate the observed frequency and the wavelength of the
     observed sound.
 
-17. Explain how electron diffraction experiments provide evidence for the wave nature of matter.
+7. Explain how electron diffraction experiments provide evidence for the wave nature of matter.
 
-18. Calculate the energy of a photon in the Lyman series corresponding to a transition from $n = 5$
+8. Calculate the energy of a photon in the Lyman series corresponding to a transition from $n = 5$
     to $n = 1$ in hydrogen.
 
-19. An electron is confined to a region of width $0.5 \mathrm{ nm$. Estimate the minimum uncertainty
+9. An electron is confined to a region of width $0.5 \mathrm{ nm$. Estimate the minimum uncertainty
     in its velocity.
 
-20. Explain why the strong nuclear force must be a short-range force. Reference colour confinement
+10. Explain why the strong nuclear force must be a short-range force. Reference colour confinement
     and the fact that quarks are never observed in isolation.
 
 ## Extended Worked Examples
@@ -675,23 +675,23 @@ Tension changes, etc.
 
 ## Additional Practice Problems
 
-21. Calculate the wavelength of (a) a $100 \mathrm{ eV$ electron and (b) a $100 \mathrm{ eV$ proton.
+1. Calculate the wavelength of (a) a $100 \mathrm{ eV$ electron and (b) a $100 \mathrm{ eV$ proton.
     Comment on why electron microscopes have much better resolution than optical microscopes.
 
-22. A hydrogen atom is in the $n = 4$ state. Calculate the energies and wavelengths of all possible
+2. A hydrogen atom is in the $n = 4$ state. Calculate the energies and wavelengths of all possible
     photons that could be emitted as the atom returns to the ground state. Identify which are in the
     visible spectrum.
 
-23. In a Young's double slit experiment using laser light of wavelength $633 \mathrm{ nm$The slits
+3. In a Young's double slit experiment using laser light of wavelength $633 \mathrm{ nm$The slits
     are $0.5 \mathrm{ mm$ apart and the screen is $2 \mathrm{ m$ away. Calculate (a) the fringe
     spacing, (b) the distance from the central maximum to the third bright fringe, and (c) what
     happens to the fringe spacing if the wavelength is changed to $450 \mathrm{ nm$.
 
-24. An X-ray tube operates at $50 \mathrm{ kV$. Calculate (a) the minimum wavelength of X-rays
+4. An X-ray tube operates at $50 \mathrm{ kV$. Calculate (a) the minimum wavelength of X-rays
     produced, (b) the maximum energy of the X-ray photons in eV, and (c) the momentum of these
     photons.
 
-25. Explain how the Heisenberg uncertainty principle implies that electrons cannot exist in
+5. Explain how the Heisenberg uncertainty principle implies that electrons cannot exist in
     stationary orbits (as in the Bohr model) and must be described by probability clouds. Reference
     the uncertainty in both position and momentum.
 
@@ -810,22 +810,21 @@ In every particle interaction, the following must be conserved:
 
 ## Additional Practice Problems
 
-26. Calculate the energy of a photon with wavelength $0.02 \mathrm{ nm$ (hard X-ray region). Can
+1. Calculate the energy of a photon with wavelength $0.02 \mathrm{ nm$ (hard X-ray region). Can
     this photon produce pair production? Justify your answer.
 
-27. An electron in a hydrogen atom is in the $n = 5$ state. List all possible transitions that emit
+2. An electron in a hydrogen atom is in the $n = 5$ state. List all possible transitions that emit
     photons in the visible spectrum and calculate their wavelengths.
 
-28. A string under tension $T$ has fundamental frequency $f_1$. By what factor must the tension
+3. A string under tension $T$ has fundamental frequency $f_1$. By what factor must the tension
     change to double the fundamental frequency? By what factor must the length change?
 
-29. A positron with kinetic energy $2 \mathrm{ MeV$ collides with an electron at rest, producing two
+4. A positron with kinetic energy $2 \mathrm{ MeV$ collides with an electron at rest, producing two
     gamma ray photons. Calculate the wavelength of each photon (assume they have equal energy).
 
-30. Compare and contrast the properties of alpha, beta, and gamma radiation in a table. Include:
+5. Compare and contrast the properties of alpha, beta, and gamma radiation in a table. Include:
     nature, charge, mass, speed, penetrating power, ionising power, and deflection in magnetic
     fields.
-
 
 ## Cross-References
 

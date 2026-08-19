@@ -730,10 +730,10 @@ $$
 }
 </script>
 
-
 ## Intuition
 
 Trigonometry is the mathematics of triangles and circles -- it connects the angles of a triangle to the lengths of its sides through the sine, cosine, and tangent ratios. The unit circle is the master key: it extends trigonometric functions beyond right-angled triangles to any angle, revealing the periodic, wave-like nature of sine and cosine. Trigonometric identities are like algebraic simplifications -- they let you rewrite complex expressions in simpler forms. The practical applications are everywhere: GPS uses trigonometry to calculate positions, audio engineers use it to analyse sound waves, and architects use it to design structures.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

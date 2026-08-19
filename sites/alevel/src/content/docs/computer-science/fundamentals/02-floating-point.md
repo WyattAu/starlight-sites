@@ -391,6 +391,7 @@ Assuming hidden bit convention:
 - Largest: $(2 - 2^{-6}) \times 2^{15} = 1.984375 \times 32768 \approx 65024$
 - Smallest normalised: $1.0 \times 2^{-14} \approx 6.1 \times 10^{-5}$
 - Precision: $6 + 1 = 7$ bits $\approx 2.1$ decimal digits
+
 </details>
 
 **Problem 7.** Explain the difference between normalised and denormalised numbers in IEEE 754. Why
@@ -767,7 +768,6 @@ Enough mantissa bits to represent the difference. For example, $1.0 + 2^{-24} = 
 Precision.
 
 </details>
-
 
 ## Intuition
 

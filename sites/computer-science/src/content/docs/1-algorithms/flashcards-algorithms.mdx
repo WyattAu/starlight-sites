@@ -11,10 +11,10 @@ import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/1-algorithms/flashcards-algorithms-data.js';
 
 ## Computer Science -- Algorithms Flashcards
+
 20 interactive flashcards for university-level Algorithms. Press Space to flip, rate 1-4.
 
 ---
-
 
 ## Intuition
 
@@ -28,11 +28,10 @@ Algorithms are **step-by-step procedures for solving problems**. The key insight
 
 ---
 
-
 ## Key Concepts
 
 | Concept | Why It Matters |
-|---------|---------------|
+| --------- | --------------- |
 | **Asymptotic analysis** | Compares algorithms independent of hardware by describing growth rates |
 | **Divide and conquer** | Breaks problems into subproblems; solves each independently; combines results |
 | **Greedy algorithms** | Make locally optimal choices hoping for global optimum; fast but not always correct |
@@ -40,7 +39,6 @@ Algorithms are **step-by-step procedures for solving problems**. The key insight
 | **Backtracking** | Explores all possibilities but prunes branches that cannot lead to a solution |
 
 ---
-
 
 ## Common Pitfalls
 
@@ -51,7 +49,6 @@ Algorithms are **step-by-step procedures for solving problems**. The key insight
 **Forgetting that space complexity matters too.** An algorithm using O(n) extra space may be unacceptable for embedded systems with limited memory, even if its time complexity is optimal.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-algorithms" title="University CS -- Algorithms" description="Complexity, dynamic programming, NP-completeness, graph algorithms, string matching" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 

@@ -1,7 +1,7 @@
 import * as RadioGroup from '@kobalte/core/radio-group'
 import * as Slider from '@kobalte/core/slider'
 import * as Switch from '@kobalte/core/switch'
-import { createEffect, createSignal, type JSX } from 'solid-js'
+import { createEffect, createSignal, onCleanup, type JSX } from 'solid-js'
 import { t } from '../i18n/config'
 import BaseDialog from './BaseDialog'
 
@@ -87,7 +87,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
     html.style.setProperty('--wn-font-size-scale', String(fs))
     html.style.setProperty('--wn-line-height', lh)
     html.style.setProperty('--wn-content-width', cw)
-    html.style.setProperty('--wn-font-body', FONT_FAMILY_MAP[ff] ?? FONT_FAMILY_MAP.sans)
+    html.style.setProperty('--wn-font-body', FONT_FAMILY_MAP[ff] ?? FONT_FAMILY_MAP.sans ?? 'sans-serif')
     html.setAttribute('data-justify', String(j))
     html.setAttribute('data-reduce-motion', String(rm))
     html.style.setProperty('--wn-font-weight', fw)
@@ -126,10 +126,13 @@ export default function SettingsDialog(props: SettingsDialogProps) {
         lastScrollY = currentY
       }
       window.addEventListener('scroll', onScroll, { passive: true })
-      return () => {
+      // Solid's createEffect ignores returned functions (that is a React
+      // idiom) -- cleanup must be registered via onCleanup. Returning the
+      // remover leaked a scroll listener on every dialog unmount.
+      onCleanup(() => {
         window.removeEventListener('scroll', onScroll)
         document.body.classList.remove('wn-nav-hidden')
-      }
+      })
     } else {
       document.body.classList.remove('wn-nav-hidden')
     }
@@ -183,14 +186,15 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Font Size */}
           <div class="space-y-2">
             <div class="flex items-center justify-between">
-              <label class="font-medium text-sm" for="font-size-slider">
-                {t('settings.font_size')}
-              </label>
+              <span class="font-medium text-sm">{t('settings.font_size')}</span>
               <span class="text-emphasis-500 text-sm">{Math.round(fontSize() * 100)}%</span>
             </div>
             <Slider.Root
               value={[fontSize()]}
-              onChange={v => setFontSize(v[0]!)}
+              onChange={v => {
+                const next = v[0]
+                if (next !== undefined) setFontSize(next)
+              }}
               minValue={0.8}
               maxValue={1.5}
               step={0.05}
@@ -206,12 +210,15 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Line Height */}
           <div class="space-y-2">
             <div class="flex items-center justify-between">
-              <label class="font-medium text-sm">{t('settings.line_height')}</label>
+              <span class="font-medium text-sm">{t('settings.line_height')}</span>
               <span class="text-emphasis-500 text-sm">{lineHeight()}</span>
             </div>
             <Slider.Root
               value={[parseFloat(lineHeight())]}
-              onChange={v => setLineHeight(String(v[0]!))}
+              onChange={v => {
+                const next = v[0]
+                if (next !== undefined) setLineHeight(String(next))
+              }}
               minValue={1.0}
               maxValue={2.5}
               step={0.1}
@@ -289,12 +296,15 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Font Weight */}
           <div class="space-y-2">
             <div class="flex items-center justify-between">
-              <label class="font-medium text-sm">{t('settings.font_weight')}</label>
+              <span class="font-medium text-sm">{t('settings.font_weight')}</span>
               <span class="text-emphasis-500 text-sm">{fontWeight()}</span>
             </div>
             <Slider.Root
               value={[parseInt(fontWeight(), 10)]}
-              onChange={v => setFontWeight(String(v[0]!))}
+              onChange={v => {
+                const next = v[0]
+                if (next !== undefined) setFontWeight(String(next))
+              }}
               minValue={300}
               maxValue={900}
               step={100}
@@ -310,12 +320,15 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Letter Spacing */}
           <div class="space-y-2">
             <div class="flex items-center justify-between">
-              <label class="font-medium text-sm">{t('settings.letter_spacing')}</label>
+              <span class="font-medium text-sm">{t('settings.letter_spacing')}</span>
               <span class="text-emphasis-500 text-sm">{letterSpacing()}px</span>
             </div>
             <Slider.Root
               value={[letterSpacing()]}
-              onChange={v => setLetterSpacing(v[0]!)}
+              onChange={v => {
+                const next = v[0]
+                if (next !== undefined) setLetterSpacing(next)
+              }}
               minValue={-0.5}
               maxValue={2}
               step={0.25}
@@ -331,12 +344,15 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Paragraph Gap */}
           <div class="space-y-2">
             <div class="flex items-center justify-between">
-              <label class="font-medium text-sm">{t('settings.paragraph_gap')}</label>
+              <span class="font-medium text-sm">{t('settings.paragraph_gap')}</span>
               <span class="text-emphasis-500 text-sm">{paraGap()}x</span>
             </div>
             <Slider.Root
               value={[parseFloat(paraGap())]}
-              onChange={v => setParaGap(String(v[0]!))}
+              onChange={v => {
+                const next = v[0]
+                if (next !== undefined) setParaGap(String(next))
+              }}
               minValue={0.5}
               maxValue={3.0}
               step={0.25}

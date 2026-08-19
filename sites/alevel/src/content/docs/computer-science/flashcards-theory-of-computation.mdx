@@ -13,7 +13,6 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/flashcards-theory-of-computation-data.js';
 
-
 ## Computer Science -- Theory of Computation Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
@@ -35,7 +34,6 @@ These flashcards test your understanding of the theoretical foundations of compu
 
 ---
 
-
 ### Intuition
 
 Think of computation as a hierarchy of power. Finite state machines are the weakest -- they can recognise patterns but cannot count. Pushdown automata add a stack, so they can count (e.g. matching parentheses). Turing machines add an infinite tape, so they can do anything computable -- but even they cannot solve the halting problem.
@@ -46,7 +44,6 @@ The halting problem is a fundamental limit: some questions about programs cannot
 
 ---
 
-
 ### Common Pitfalls
 
 1. **Confusing DFA and NFA.** A DFA has exactly one transition per input from each state. An NFA can have zero, one, or multiple transitions. Both accept the same languages, but NFAs are often easier to construct.
@@ -56,11 +53,7 @@ The halting problem is a fundamental limit: some questions about programs cannot
 
 ---
 
-
-
 <FlashcardDeck client:only="solid-js" deckId="alevel-cs-theory-of-computation" title="A-Level CS -- Theory of Computation" description="Regular languages, FSMs, Turing machines, computability and decidability" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]} />
-
-
 
 ## Cross-References
 

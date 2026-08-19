@@ -59,15 +59,18 @@ A relation that is reflexive, symmetric, and transitive is called an **equivalen
 **Solution:**
 
 **Reflexive:** Check that $(a,a) \in R$ for all $a \in A$.
+
 - $(1,1) \in R$, $(2,2) \in R$, $(3,3) \in R$, $(4,4) \in R$.
 - All present. $R$ is reflexive.
 
 **Symmetric:** Check that whenever $(a,b) \in R$, then $(b,a) \in R$.
+
 - $(1,2) \in R$ and $(2,1) \in R$. OK.
 - All diagonal pairs are symmetric by definition.
 - $R$ is symmetric.
 
 **Transitive:** Check that whenever $(a,b) \in R$ and $(b,c) \in R$, then $(a,c) \in R$.
+
 - $(1,2) \in R$ and $(2,1) \in R$. Need $(1,1) \in R$. Present.
 - $(2,1) \in R$ and $(1,2) \in R$. Need $(2,2) \in R$. Present.
 - No other non-diagonal chains exist.
@@ -92,6 +95,7 @@ $$a - c = (a - b) + (b - c) = 3k + 3m = 3(k + m)$$
 So $3 \mid (a - c)$, giving $aRc$.
 
 **Equivalence classes:**
+
 - $[0] = \{\ldots, -6, -3, 0, 3, 6, \ldots\}$ (multiples of 3)
 - $[1] = \{\ldots, -5, -2, 1, 4, 7, \ldots\}$ (numbers with remainder 1)
 - $[2] = \{\ldots, -4, -1, 2, 5, 8, \ldots\}$ (numbers with remainder 2)

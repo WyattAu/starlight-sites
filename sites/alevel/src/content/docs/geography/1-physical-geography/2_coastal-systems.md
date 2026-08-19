@@ -475,8 +475,6 @@ Holderness Coast is a well-known example, extending approximately 5.5 km across 
 > Processes and Geomorphology_ (2003); East Riding of Yorkshire Council coastal erosion data; IPCC
 > AR6; Government of Maldives climate reports.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

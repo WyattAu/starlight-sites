@@ -40,7 +40,6 @@ $$
 \mathrm{pH} = -\log(0.100) = 1.00
 $$
 
-
 ### Weak Acids
 
 For a weak acid $\mathrm{HA}$ with acid dissociation constant $K_a$:
@@ -93,7 +92,6 @@ Valid.
 $$
 \mathrm{pH} = -\log(4.24 \times 10^{-4}) = 3.37
 $$
-
 
 ### Polyprotic Acids
 
@@ -169,7 +167,6 @@ $$
 
 Mix ethanoic acid and sodium ethanoate in a molar ratio of $1 : 1.74$ (or approximately $1 : 1.7$).
 
-
 ### Calculating pH Changes in a Buffer
 
 When acid is added:
@@ -213,7 +210,6 @@ $$
 
 The $\mathrm{pH}$ changed by only $0.09$ units. Without the buffer, $0.01\mathrm{ M}$ $\mathrm{HCl}$
 Would give $\mathrm{pH} = 2.00$.
-
 
 ### Common Pitfalls
 
@@ -310,7 +306,7 @@ $$
 \mathrm{SO}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{H}_2\mathrm{SO}_4
 $$
 
-2. Nitrogen oxides from high-temperature combustion:
+1. Nitrogen oxides from high-temperature combustion:
 
 $$
 \mathrm{N}_2 + \mathrm{O}_2 \to 2\mathrm{NO}
@@ -403,7 +399,6 @@ $$
 \mathrm{Solubility} = 1.3 \times 10^{-5} \times 143.32 = 1.9 \times 10^{-3}\mathrm{ g/L}
 $$
 
-
 ### Common Ion Effect
 
 Adding a common ion **decreases** the solubility of a sparingly soluble salt.
@@ -423,7 +418,6 @@ $$
 
 Compared to pure water ($1.3 \times 10^{-5}\mathrm{ mol/L}$), the solubility decreased by a factor
 Of about $7000$.
-
 
 ### Precipitation
 
@@ -905,7 +899,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Equilibrium principles (Le Chatelier, $K$ expressions)** → Review
   [..../7-equilibrium/1_equilibrium](../7-equilibrium/1_equilibrium)
@@ -932,10 +926,7 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
-
 </aside>
-
-
 
 ## Cross-References
 

@@ -32,7 +32,6 @@ def binary_search(arr: list[int], target: int) -> int:
 
 ---
 
-
 ## Exercise 2: Merge Sort
 
 **Problem:**
@@ -69,7 +68,6 @@ def merge(left: list[int], right: list[int]) -> list[int]:
 
 ---
 
-
 ## Exercise 3: Graph BFS
 
 **Problem:**
@@ -98,7 +96,6 @@ def bfs(graph: dict[int, list[int]], start: int) -> list[int]:
 
 ---
 
-
 ## Exercise 4: Dynamic Programming - Knapsack
 
 **Problem:**
@@ -122,7 +119,6 @@ def knapsack(weights: list[int], values: list[int], capacity: int) -> int:
 ```
 
 ---
-
 
 ## Exercise 5: String Pattern Matching (KMP)
 
@@ -173,6 +169,7 @@ def kmp_search(text: str, pattern: str) -> list[int]:
 **Using the wrong data structure:** A list has O(n) lookup; a set has O(1) lookup. If you need frequent membership checks, use a set, not a list. Choosing the wrong data structure can turn an O(n) algorithm into O(n^2).
 
 **Forgetting that Python integers have arbitrary precision:** Unlike C or Java, Python integers can be arbitrarily large. This means hash table performance may vary for very large integers, and some algorithms that depend on fixed-width integer overflow behave differently.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for python notes.

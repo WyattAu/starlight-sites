@@ -350,7 +350,7 @@ The IB requires simultaneous preparation across six subjects, plus TOK, the Exte
 **Weekly schedule framework:**
 
 | Day | Focus | Time |
-|-----|-------|------|
+| ----- | ------- | ------ |
 | Monday | HL Subject 1 + SL Subject 1 | 2–3 hours |
 | Tuesday | HL Subject 2 + SL Subject 2 | 2–3 hours |
 | Wednesday | HL Subject 3 + SL Subject 3 | 2–3 hours |

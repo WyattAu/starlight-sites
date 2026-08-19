@@ -380,7 +380,7 @@ $\beta(t) = R(t - T)^+$ with $R > \rho$:
 
 ### 4.1 DNS Resolution in Detail
 
-**DNS resolution process for www.example.com:**
+**DNS resolution process for <www.example.com>:**
 
 1. **Browser cache:** Check local cache.
 2. **OS resolver cache:** Check `/etc/hosts` and OS DNS cache.
@@ -934,7 +934,7 @@ A user reports that a web application is slow. Investigation steps:
 
 1. **ping server:** RTT = 2 ms. Network latency is fine.
 2. **traceroute server:** No unexpected hops. Path is direct.
-3. **curl -o /dev/null -w "%{`time_total`}" http://server/page:** 5 seconds. Slow!
+3. **curl -o /dev/null -w "%{`time_total`}" <http://server/page>:** 5 seconds. Slow!
 4. **tcpdump -i eth0 host server and port 80:** Observe TCP retransmissions. Many packets
    retransmitted after ~200 ms.
 5. **ethtool eth0:** Check for errors. `rx_errors: 0, tx_errors: 0, collisions: 0`. No physical
@@ -943,7 +943,7 @@ A user reports that a web application is slow. Investigation steps:
 
 Observation: 4800 established connections. Server may be overloaded.
 
-7. **Check server load:** `top` shows high CPU usage by the application, not idle.
+1. **Check server load:** `top` shows high CPU usage by the application, not idle.
 
 Root cause: Application is CPU-bound, not network-bound. Each request takes 5 ms of CPU time, and
 with 4800 concurrent connections, the response time is dominated by CPU scheduling, not network
@@ -1213,7 +1213,7 @@ the server can mitigate it for a banking application.
 
 ### 7.3 Application and Security (Problems 9--12)
 
-**Problem 9.** Trace the complete DNS resolution process for the URL https://mail.google.com,
+**Problem 9.** Trace the complete DNS resolution process for the URL <https://mail.google.com>,
 assuming no cache entries exist. Show all queries and responses at each step.
 
 **Problem 10.** Design a firewall rule set for a small office with the following requirements: (1)
@@ -1353,7 +1353,6 @@ $\blacksquare$
   AIMD).
 - IP addressing and subnetting: CIDR notation, variable-length subnet masking.
 - Routing: distance vector (RIP), link state (OSPF), path vector (BGP).
-
 
 </aside>
 ## Cross-References

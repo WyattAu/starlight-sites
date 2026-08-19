@@ -64,6 +64,7 @@ Coordination compounds contain a central metal atom/ion bonded to ligands throug
 Step 1: Identify the complex ion: $[\text{Co(NH}_3)_4\text{Cl}_2]^+$
 
 Step 2: Ligands (alphabetical order):
+
 - 4 NH$_3$: tetraammine
 - 2 Cl: dichloro
 
@@ -105,6 +106,7 @@ The complex is paramagnetic (has unpaired electrons).
 **Solution:**
 
 This complex shows **linkage isomerism**. The NO$_2^-$ ligand can bond through:
+
 - N (nitro): $-\text{NO}_2$ (nitro complex, yellow)
 - O (nitrito): $-\text{ONO}$ (nitrito complex, red)
 

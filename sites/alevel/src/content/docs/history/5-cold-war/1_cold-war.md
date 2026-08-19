@@ -359,8 +359,6 @@ structural failures of the Soviet system and popular movements in Eastern Europe
 essential. Historiographical debates focus on responsibility for origins, the nature of détente, and
 why the Cold War ended when it did.
 
-
-
 ## Cross-References
 
 - **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study

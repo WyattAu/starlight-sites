@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** OIL RIG — Oxidation Is Loss, Reduction Is Gain — electrons flow from the reducing agent to the oxidizing agent
 
-
 ## Unit Tests
 
 ### UT-1: Oxidation Number Assignment

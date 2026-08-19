@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Genes control traits through protein synthesis, and genetic variation creates the diversity of life
 
-
 ## 1. Meiosis and Genetic Variation
 
 ### Recombination
@@ -865,7 +864,7 @@ Student could modify the experiment to increase confidence in their conclusion.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **DNA structure and replication** --> Review
   [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)

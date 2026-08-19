@@ -157,7 +157,7 @@ to the boundary (no penetration condition). $\blacksquare$
 | Property | Statement |
 | -------- | --------- |
 | Angle preservation | Conformal maps preserve angles between intersecting curves |
-| Local linearisation | Near $z_0$, $f$ acts as rotation by $\arg f'(z_0)$ and scaling by $|f'(z_0)|$ |
+| Local linearisation | Near $z_0$, $f$ acts as rotation by $\arg f'(z_0)$ and scaling by $ | f'(z_0) | $ |
 | Circle preservation | Möbius transformations map circles and lines to circles and lines |
 | Cross-ratio invariance | $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$ for any Möbius $T$ |
 | Riemann mapping | Any directly connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
@@ -191,7 +191,6 @@ The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformation
 - **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analytic functions with non-zero derivatives provide the foundation for conformal mappings.
 - **[Applications of Contour Integration](9_applications-of-contour-integration.md)**: Conformal mappings transform difficult integrals into simpler ones that are easier to evaluate.
 - **[Argument Principle and Rouché's Theorem](12_argument-principle-and-rouch-s-theorem.md)**: The argument principle counts zeros and poles using the change in argument along contours.
-
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

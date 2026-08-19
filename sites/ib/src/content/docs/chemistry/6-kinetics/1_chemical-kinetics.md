@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The Arrhenius equation connects temperature to reaction rate, explaining why heating speeds up chemical processes
 
-
 ## Rate of Reaction
 
 ### Definition
@@ -279,7 +278,6 @@ $$
 K = 20\mathrm{ L}^2/(\mathrm{mol}^2\cdot\mathrm{s})
 $$
 
-
 ### Graphical Method
 
 | Plot                     | Straight Line Indicates |
@@ -361,7 +359,6 @@ $$
 E_a = \frac{1.545 \times 8.314}{0.000476} = 26965\mathrm{ J/mol} = 27.0\mathrm{ kJ/mol}
 $$
 
-
 ### Temperature Rule of Thumb
 
 As an approximation, the rate of many reactions roughly doubles for every $10\degree\mathrm{C}$
@@ -421,7 +418,6 @@ $$
 $$
 
 The overall order is 2 (first order in NO$_2$First order in F$_2$).
-
 
 ---
 
@@ -603,7 +599,6 @@ Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechani
 Rate equation is determined by the slow step — check if intermediates need to be substituted using
 Equilibrium approximations.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -668,7 +663,6 @@ $$
 $$
 T_{1/2} = \frac{0.693}{0.025} = 27.7\mathrm{ min}
 $$
-
 
 ### Experimental Techniques for Rate Determination
 
@@ -899,7 +893,6 @@ Alternatively, note that $[\mathrm{A}]$ halves every 10 minutes: $t_{1/2} = 10\m
 $$
 K = \frac{0.693}{10} = 0.0693\mathrm{ min}^{-1}
 $$
-
 
 ### Effect of a Change in Temperature on the Rate Constant
 
@@ -1242,7 +1235,6 @@ $$k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

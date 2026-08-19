@@ -20,7 +20,6 @@ unsafe. Press Space to flip, rate 1-4.
 
 ---
 
-
 ### Additional Flashcard Topics
 
 - **Ownership Rules**: each value has one owner; when the owner goes out of scope, the value is dropped. Moving a value transfers ownership; the previous binding is invalidated.
@@ -48,7 +47,6 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 - **String vs &str**: `String` is owned and heap-allocated; `&str` is a borrowed string slice. Use `String` for owned data, `&str` for references.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="rust-basics" title="Rust -- Fundamentals" description="30 interactive flashcards covering ownership, borrowing, lifetimes, traits, generics, error handling, concurrency, macros, and unsafe." cards={flashcardData}  />
 

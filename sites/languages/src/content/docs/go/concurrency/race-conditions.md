@@ -423,11 +423,11 @@ g.Go(func() error {
 })
 ```
 
-6. **CAS without retry.** `CompareAndSwap` can fail if another goroutine modified the value between
+1. **CAS without retry.** `CompareAndSwap` can fail if another goroutine modified the value between
    the load and the swap. Always retry in a loop, or use `Add` when the operation is directly an
    increment.
 
-7. **Leaking goroutines with errgroup.** If `g.Go` panics, `g.Wait` re-panics. Always recover or
+2. **Leaking goroutines with errgroup.** If `g.Go` panics, `g.Wait` re-panics. Always recover or
    return errors from goroutines rather than panicking.
 
 ## Summary

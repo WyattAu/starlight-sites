@@ -172,7 +172,7 @@ $2^{16} - 2
 
 ### DNS (Domain Name System) (OL/HL)
 
-Translates domain names (e.g., www.example.com) to IP addresses.
+Translates domain names (e.g., <www.example.com>) to IP addresses.
 
 Hierarchical structure: root $\to$ top-level domain (.com, .org) $\to$ second-level domain (example)
 $\to$ subdomain (www).
@@ -521,31 +521,31 @@ A simulated attack on a system to identify vulnerabilities before malicious atta
 
 ## Additional Practice Questions
 
-11. Explain the difference between bandwidth and throughput. Why is throughput always less than or
+1. Explain the difference between bandwidth and throughput. Why is throughput always less than or
     equal to bandwidth?
 
-12. Describe how a digital signature provides both authentication and integrity.
+2. Describe how a digital signature provides both authentication and integrity.
 
-13. Explain the purpose of each field in a data packet (data, source address, destination address,
+3. Explain the purpose of each field in a data packet (data, source address, destination address,
     sequence number, error checking).
 
-14. A company has 200 devices on a LAN with subnet mask 255.255.255.0. What is the network address
+4. A company has 200 devices on a LAN with subnet mask 255.255.255.0. What is the network address
     and how many host addresses are available?
 
-15. Explain the four phases of penetration testing.
+5. Explain the four phases of penetration testing.
 
-16. Compare packet-filtering firewalls with stateful firewalls. Give an advantage of each.
+6. Compare packet-filtering firewalls with stateful firewalls. Give an advantage of each.
 
-17. A user reports slow network performance. Explain how you would diagnose the problem using
+7. A user reports slow network performance. Explain how you would diagnose the problem using
     network tools.
 
-18. Explain the difference between single-mode and multi-mode fibre optic cable. When would you use
+8. Explain the difference between single-mode and multi-mode fibre optic cable. When would you use
     each?
 
-19. Describe the DHCP lease process. What happens when a lease expires and the client does not
+9. Describe the DHCP lease process. What happens when a lease expires and the client does not
     renew?
 
-20. Explain how a proxy firewall works and why it provides better security than a packet-filtering
+10. Explain how a proxy firewall works and why it provides better security than a packet-filtering
     firewall.
 
 ## Network Configuration
@@ -637,26 +637,26 @@ CA, which signs the intermediate, which signs the server certificate.
 
 ## Additional Practice Questions
 
-16. Explain the difference between AES and DES. Why is DES no longer considered secure?
+1. Explain the difference between AES and DES. Why is DES no longer considered secure?
 
-17. Write the steps to create a digital certificate for a web server. What is the role of the
+2. Write the steps to create a digital certificate for a web server. What is the role of the
     certificate authority?
 
-18. A network administrator needs to create 5 subnets from the network 10.0.0.0/24. Is this
+3. A network administrator needs to create 5 subnets from the network 10.0.0.0/24. Is this
     possible? Explain your answer.
 
-19. Explain the certificate chain and why browsers trust web server certificates.
+4. Explain the certificate chain and why browsers trust web server certificates.
 
-20. Describe the seven-step troubleshooting methodology used in network diagnostics.
+5. Describe the seven-step troubleshooting methodology used in network diagnostics.
 
-21. A user cannot access example.com but can access other websites. Explain the likely cause and the
+6. A user cannot access example.com but can access other websites. Explain the likely cause and the
     steps to diagnose and fix the problem.
 
-22. Compare AES-128 and AES-256. In what scenarios would AES-256 be preferred?
+7. Compare AES-128 and AES-256. In what scenarios would AES-256 be preferred?
 
-23. Explain what a man-in-the-middle attack is and how HTTPS prevents it.
+8. Explain what a man-in-the-middle attack is and how HTTPS prevents it.
 
-24. Write a step-by-step guide for configuring a VLAN on a managed switch to separate student and
+9. Write a step-by-step guide for configuring a VLAN on a managed switch to separate student and
     staff networks.
 
 ## Network Protocols Summary Table (HL)
@@ -704,17 +704,17 @@ When 192.168.1.2 sends a request to a web server:
 
 ## Additional Practice Questions
 
-25. Explain the role of each protocol in the table above. Why does DNS use UDP instead of TCP?
+1. Explain the role of each protocol in the table above. Why does DNS use UDP instead of TCP?
 
-26. Explain how NAT works in a home network with 5 devices. Why is NAT necessary?
+2. Explain how NAT works in a home network with 5 devices. Why is NAT necessary?
 
-27. Write the full form of the IPv6 address `fe80::1%eth0`.
+3. Write the full form of the IPv6 address `fe80::1%eth0`.
 
-28. Explain why DNS uses UDP for queries but can fall back to TCP for large responses.
+4. Explain why DNS uses UDP for queries but can fall back to TCP for large responses.
 
-29. Compare POP3 and IMAP. Which is better for accessing email from multiple devices?
+5. Compare POP3 and IMAP. Which is better for accessing email from multiple devices?
 
-30. A school has 3 computer labs with 30 computers each. Design a network addressing scheme using
+6. A school has 3 computer labs with 30 computers each. Design a network addressing scheme using
     private IP addresses. Specify the network address, subnet mask, and range of usable IPs.
 
 ## Common Pitfalls
@@ -761,10 +761,10 @@ When 192.168.1.2 sends a request to a web server:
 14. A company has 200 devices on a LAN with subnet mask 255.255.255.0. What is the network address
     and how many host addresses are available?
 
-
 ## Intuition
 
 Networking is like a postal system with superpowers -- messages are broken into packets, routed through multiple paths, and reassembled at the destination. The OSI model is the set of rules at each layer: physical (the road), data link (the postal service), network (the address system), transport (the delivery guarantee), session (the conversation manager), presentation (the translator), and application (the letter itself). TCP/IP is the practical implementation of this model. Firewalls are the security checkpoints, encryption is the sealed envelope, and DNS is the address book that converts names to numbers.
+
 ## Worked Examples
 
 **Example 1: SQL query**

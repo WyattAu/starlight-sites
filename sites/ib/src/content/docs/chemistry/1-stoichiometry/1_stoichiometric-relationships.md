@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The mole concept connects atomic-scale reactions to measurable quantities, enabling precise chemical calculations
 
-
 ## The Mole Concept
 
 ### Definition
@@ -78,7 +77,6 @@ $$
 $$
 N = 0.278 \times 6.022 \times 10^{23} = 1.67 \times 10^{23}\mathrm{ molecules}
 $$
-
 
 ---
 
@@ -137,7 +135,6 @@ $$
 
 Molecular formula: C$_6$H$_{12}$O$_6$ (glucose).
 
-
 ### Hydrated Salts
 
 A hydrated salt contains water of crystallisation. The formula is written as, for example, CuSO$_4$,
@@ -171,7 +168,6 @@ X = \frac{0.250}{0.0501} = 4.99 \approx 5
 $$
 
 Formula: CuSO$_4$, $\cdot$5H$\_2$O.
-
 
 ---
 
@@ -215,7 +211,6 @@ Balance O: C$_3$H$_8$ + 5O$_2$ $\to$ 3CO$_2$ + 4H$_2$O
 
 Check: 3C, 8H, 10O on each side. Balanced.
 
-
 ### Ionic Equations
 
 Spectator ions (ions that appear unchanged on both sides) can be removed to give a **net ionic
@@ -229,7 +224,6 @@ AgNO$_3$(aq) + NaCl(aq) $\to$ AgCl(s) + NaNO$_3$(aq)
 Full ionic: Ag$^+$(aq) + NO$_3^-$ + Na$^+$ + Cl$^-$ $\to$ AgCl(s) + Na$^+$ + NO$_3^-$
 
 Net ionic: Ag$^+$(aq) + Cl$^-$ $\to$ AgCl(s)
-
 
 ---
 
@@ -278,7 +272,6 @@ $$
 M(\mathrm{FeS}) = 0.0895 \times 87.91 = 7.87\mathrm{ g}
 $$
 
-
 ### Percentage Yield
 
 $$
@@ -293,7 +286,6 @@ If $6.5\mathrm{ g}$ of FeS was actually produced in the previous example:
 $$
 \mathrm{Percentage yield} = \frac{6.5}{7.87} \times 100\% = 82.6\%
 $$
-
 
 ---
 
@@ -381,7 +373,6 @@ $$
 V = \frac`\{nRT}`{P} = \frac{2.5 \times 8.314 \times 298}{121590} = \frac{6194.2}{121590} = 0.0509\mathrm{ m}^3 = 50.9\mathrm{ L}
 $$
 
-
 ### Real Gas Deviations
 
 Real gases deviate from ideal behaviour at:
@@ -463,7 +454,6 @@ $$
 C = \frac{0.171}{0.250} = 0.684\mathrm{ mol/L}
 $$
 
-
 ### Dilution
 
 $$
@@ -478,7 +468,6 @@ What volume of $6.0\mathrm{ M}$ HCl is needed to make $500\mathrm{ mL}$ of $0.50
 $$
 V_1 = \frac{c_2 V_2}{c_1} = \frac{0.50 \times 500}{6.0} = 41.7\mathrm{ mL}
 $$
-
 
 ### Standard Solutions
 
@@ -514,7 +503,6 @@ Stoichiometry 1:1, so $n(\mathrm{NaOH}) = 0.00200\mathrm{ mol}$.
 $$
 C(\mathrm{NaOH}) = \frac{0.00200}{0.0250} = 0.0800\mathrm{ M}
 $$
-
 
 ---
 
@@ -638,7 +626,6 @@ Always show your working with units. For gas calculations, ensure temperature is
 Titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
 volume at STP is 22.7 L/mol and at RTP is 24.8 L/mol.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -688,7 +675,6 @@ $$
 
 Helium diffuses about 2.83 times faster than oxygen.
 
-
 ### Ideal Gas Law Applications
 
 #### Molar Mass of a Gas
@@ -713,7 +699,6 @@ M = \frac{\rho RT}{P} = \frac{1.43 \times 8.314 \times 273}{101325} = \frac{3247
 $$
 
 The gas is likely O$_2$.
-
 
 ---
 
@@ -797,7 +782,6 @@ X = \frac{0.355}{0.0507} = 7.0
 $$
 
 Formula: MgSO$_4$, $\cdot$7H$\_2$O (Epsom salt).
-
 
 ---
 
@@ -931,7 +915,6 @@ $$
 M = 0.00350 \times 100.09 = 0.350\mathrm{ g}
 $$
 
-
 ### Gravimetric Analysis
 
 Gravimetric analysis determines the amount of an analyte by measuring mass.
@@ -958,7 +941,6 @@ Since 1 mol BaSO$_4$ contains 1 mol SO$_4^{2-}$:
 $$
 M(\mathrm{SO}_4^{2-}) = 0.00249 \times 96.06 = 0.239\mathrm{ g}
 $$
-
 
 ### Gas Collection Methods
 
@@ -1203,7 +1185,6 @@ $$
 
 $$
 linked above.
-
 
 </aside>
 

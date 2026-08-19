@@ -65,6 +65,7 @@ for solving such equations. The Fredholm alternative for compact operators gener
 finite-dimensional linear system theory.
 
 Hilbert's theory of integral equations led to:
+
 - The concept of compact (completely continuous) operators.
 - Spectral theory for self-adjoint operators.
 - The theory of quadratic forms in infinitely many variables.
@@ -92,6 +93,7 @@ Schwartz (1945) formalized this into **distribution theory**, where distribution
 linear functionals on the space of test functions $\mathcal{D}(\mathbb{R}^n)$.
 
 Distributions and their connection to functional analysis:
+
 - The space $\mathcal{D}'$ of distributions is the dual of $\mathcal{D}$.
 - Sobolev spaces $W^{k,p}$ are Banach spaces of functions with weak derivatives in $L^p$.
 - The theory of PDEs uses weak solutions defined via distributional derivatives.
@@ -121,7 +123,7 @@ Distributions and their connection to functional analysis:
 ### Key Publications Timeline
 
 | Year | Author | Contribution |
-|------|--------|-------------|
+| ------ | -------- | ------------- |
 | 1906 | Frechet | Metric spaces |
 | 1906 | Hilbert | Spectral theory of integral equations |
 | 1929 | von Neumann | Abstract Hilbert space, spectral theorem |

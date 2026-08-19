@@ -919,7 +919,7 @@ Type I hypersensitivity (immediate hypersensitivity) is the mechanism underlying
 - **Heparin:** Prevents blood clotting at the site of inflammation
 - **Serotonin (5-HT):** Contributes to inflammation and smooth muscle contraction
 
-6. **Late-phase response:** Hours later, newly synthesised mediators are released (leukotrienes,
+1. **Late-phase response:** Hours later, newly synthesised mediators are released (leukotrienes,
    prostaglandins, cytokines), causing sustained inflammation
 
 ### Allergic Symptoms and Treatments
@@ -1268,7 +1268,7 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 
 which process is being described.
 
-4. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
+1. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
    > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
@@ -1283,10 +1283,7 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 </aside>
-
-
 
 ## Cross-References
 

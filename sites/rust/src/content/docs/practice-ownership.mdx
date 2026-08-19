@@ -44,7 +44,6 @@ fn count_references(node: &Rc<Node>) -> usize \{
 
 ---
 
-
 ## Exercise 2: Lifetime Annotations
 
 **Problem:**
@@ -82,7 +81,6 @@ impl<'a> Excerpt<'a> \{
 ```
 
 ---
-
 
 ## Exercise 3: Trait Objects with Ownership
 
@@ -137,7 +135,6 @@ fn create_shapes() -> Vec<Box<dyn Shape>> \{
 
 ---
 
-
 ## Exercise 4: Self-Referential Structs
 
 **Problem:**
@@ -177,7 +174,6 @@ fn process_text(input: String) -> Vec<String> \{
 ```
 
 ---
-
 
 ## Exercise 5: Unsafe Rust Patterns
 
@@ -244,6 +240,7 @@ impl<T, const N: usize> Drop for SafeArray<T, N> \{
 **Confusing `Copy` and `Clone`:** Copy is implicit bitwise copying (stack-only types like i32, bool). Clone is explicit deep copying (can be expensive). Types that implement Copy are automatically cloned when moved. Dont assume all types can be Copy.
 
 **Ignoring lifetime annotations:** Lifetimes tell the compiler how long references are valid. When a function returns a reference, the lifetime annotation indicates which input the output is tied to. Omitting annotations when required causes compilation errors.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for rust notes.

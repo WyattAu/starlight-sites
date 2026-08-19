@@ -85,7 +85,6 @@ assert_eq!(len, 1);
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
 Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
-
 ### Unit Conversion with Newtypes
 
 ```rust
@@ -463,7 +462,6 @@ println!("{}", p1.x);  // ERROR: x was moved into p2
 <aside class="starlight-aside starlight-aside--caution">
 Heap-allocated types, those are moved (not copied) into the new struct. After the spread, the
 Original struct is no longer usable in its entirety.
-
 
 ## Destructuring
 
@@ -1100,7 +1098,6 @@ $\blacksquare$
 - `#[non_exhaustive]` prevents downstream crates from exhaustively matching on enums or struct
   fields.
 - Type-state pattern moves validation to compile time by encoding state in generic type parameters.
-
 
 </aside>
 ## Intuition

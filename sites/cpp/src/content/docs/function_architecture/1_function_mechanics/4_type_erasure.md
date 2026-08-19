@@ -721,7 +721,6 @@ Standard containers require copyable elements (unless you use move-only containe
 `std::vector<std::unique_ptr<std::move_only_function<...>>>`). Plan your data structures accordingly
 When using move-only callables.
 
-
 ## Summary
 
 This topic covers the fundamental principles of type erasure — function pointers, std::function,
@@ -743,7 +742,6 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

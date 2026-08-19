@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** The pH scale provides a logarithmic measure of hydrogen ion concentration, governing chemical and biological processes
 
-
 ## Bronsted-Lowry Theory
 
 ### Definitions

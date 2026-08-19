@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** The von Neumann architecture — stored programs and sequential execution — remains the foundation of modern computing
 
-
 ## Computer Architecture
 
 ### CPU architecture

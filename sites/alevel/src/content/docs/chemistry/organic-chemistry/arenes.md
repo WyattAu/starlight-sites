@@ -375,10 +375,10 @@ $$
 \mathrm{HNO}_3 + 2\mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{H}_3\mathrm{O}^+ + 2\mathrm{HSO}_4^-
 $$
 
-2. Electrophilic attack: the $\mathrm{NO}_2^+$ ion attacks the benzene ring, forming a sigma
+1. Electrophilic attack: the $\mathrm{NO}_2^+$ ion attacks the benzene ring, forming a sigma
    complex.
 
-3. Deprotonation: $\mathrm{HSO}_4^-$ removes $\mathrm{H}^+$ from the sigma complex, restoring
+2. Deprotonation: $\mathrm{HSO}_4^-$ removes $\mathrm{H}^+$ from the sigma complex, restoring
    aromaticity and forming nitrobenzene.
 
 ### Sulphonation Mechanism
@@ -926,7 +926,6 @@ other chemistry topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-
 
 ## Intuition
 

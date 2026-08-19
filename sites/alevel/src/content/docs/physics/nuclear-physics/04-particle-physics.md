@@ -20,6 +20,7 @@ categories: [Physics]
 ## Particle Physics
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
+>
 ## 1. The Standard Model
 
 The Standard Model classifies all known fundamental particles and their interactions. It describes:

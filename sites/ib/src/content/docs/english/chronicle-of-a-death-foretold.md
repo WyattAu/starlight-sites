@@ -24,7 +24,6 @@ description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism
 
 **The key insight:** The novel's structure mimics the way communities construct narratives about traumatic events
 
-
 ## Author Context
 
 Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for
@@ -654,7 +653,7 @@ A Paper 2 essay on Chronicle should follow this structure:
 - **Analysis:** Explain how the technique produces meaning. Use literary terminology.
 - **Link:** Connect the paragraph's argument back to the thesis.
 
-3. **Conclusion (3--4 sentences):** Restate the thesis in light of the evidence discussed. Identify
+1. **Conclusion (3--4 sentences):** Restate the thesis in light of the evidence discussed. Identify
    the broader significance of the argument. Do not introduce new evidence.
 
 ### Integrating Quotes
@@ -889,8 +888,6 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
-
-
 
 ## Cross-References
 

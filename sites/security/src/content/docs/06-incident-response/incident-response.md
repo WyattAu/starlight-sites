@@ -322,7 +322,6 @@ Actions that allow business to continue while the investigation proceeds:
 <aside class="starlight-aside starlight-aside--caution">
 System is rebooted or powered off, volatile data is permanently lost.
 
-
 **Order of volatility** (what to collect first):
 
 | Priority | Evidence Type         | Collection Method                           |
@@ -405,7 +404,6 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 <aside class="starlight-aside starlight-aside--caution">
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
 From known-good images rather than attempting in-place cleanup.
-
 
 ## Recovery
 
@@ -640,7 +638,6 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 Notify within the required timeframe can result in significant fines on top of the incident's direct
 Costs. GDPR fines for late notification can reach 10 million EUR or 2% of global annual revenue.
 
-
 ## Common Pitfalls
 
 ### Pitfall 1: No Incident Response Plan
@@ -845,7 +842,6 @@ Malware Incident Prevention and Handling), RFC 3227 (Guidelines for Evidence Col
 Archiving), MITRE ATT&CK Framework, ISO/IEC 27035 (Information Security Incident Management), NIST
 Cybersecurity Framework (CSF), SANS Incident Handler's Handbook.
 
-
 ## Summary
 
 This topic covers the core concepts of incident response, including underlying theory, practical
@@ -866,7 +862,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

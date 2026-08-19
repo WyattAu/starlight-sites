@@ -1270,6 +1270,7 @@ Preserved.
 9. Find $\gcd(372, 84)$ using the Euclidean algorithm, and express it as a linear combination.
 
 10. Prove that if $a \equiv b \pmod{m}$ and $n \mid m$Then $a \equiv b \pmod{n}$.
+
 </details>
 
 <details>

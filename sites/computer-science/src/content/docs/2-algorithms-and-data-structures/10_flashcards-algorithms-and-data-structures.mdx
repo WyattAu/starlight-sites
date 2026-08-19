@@ -19,7 +19,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 ### Additional Flashcard Topics
 
 - **Sorting Algorithms**: bubble sort O(n²), merge sort O(n log n), quicksort O(n log n) average, heapsort O(n log n). Stable sorts preserve relative order of equal elements. In-place sorts use O(1) extra space.
@@ -46,11 +45,10 @@ Data structures are **organised ways to store and access data**. The choice of d
 
 ---
 
-
 ## Key Concepts
 
 | Concept | Why It Matters |
-|---------|---------------|
+| --------- | --------------- |
 | **Asymptotic analysis** | Describes how runtime scales with input size; the basis for algorithm comparison |
 | **Amortised analysis** | Averages cost over a sequence; explains why dynamic array append is O(1) on average |
 | **Balanced trees** | Guarantee O(log n) by maintaining height invariants through rotations |
@@ -58,7 +56,6 @@ Data structures are **organised ways to store and access data**. The choice of d
 | **Priority queues** | Enables efficient access to min/max element; heaps implement this in O(log n) |
 
 ---
-
 
 ## Common Pitfalls
 
@@ -73,7 +70,6 @@ Data structures are **organised ways to store and access data**. The choice of d
 **Confusing BFS with DFS.** BFS explores level-by-level (queue); DFS explores depth-first (stack). BFS finds shortest paths in unweighted graphs; DFS is useful for cycle detection and topological sorting.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-algorithms-and-data-structures" title="University Computing -- Algorithms and Data Structures" description="20 interactive flashcards covering complexity analysis, sorting, searching, data structures, dynamic programming, and graph algorithms." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 

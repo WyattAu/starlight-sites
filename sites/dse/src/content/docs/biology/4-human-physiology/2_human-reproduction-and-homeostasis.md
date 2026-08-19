@@ -353,7 +353,7 @@ Fertilisation is the fusion of a sperm nucleus with an ovum nucleus, forming a d
 - **Trophoblast:** Outer layer of cells (will form the placenta)
 - **Inner cell mass:** Group of cells at one end (will form the embryo)
 
-4. **Implantation:** The blastocyst implants into the thickened, vascularised endometrium
+1. **Implantation:** The blastocyst implants into the thickened, vascularised endometrium
    (approximately day 6-7 after fertilisation). The trophoblast cells secrete enzymes that digest
    the endometrium, allowing the blastocyst to embed.
 
@@ -919,7 +919,7 @@ $$\mathrm{Amino acid} \to \mathrm{Keto acid} + \mathrm{NH}_3$$
 
 $$2\mathrm{NH}_3 + \mathrm{CO}_2 \to \mathrm{CO(NH}_2)_2 + \mathrm{H}_2\mathrm{O}$$
 
-2. **Detoxification:** The liver converts harmful substances into less harmful ones:
+1. **Detoxification:** The liver converts harmful substances into less harmful ones:
 
 - Alcohol (ethanol) is oxidised to ethanal (by alcohol dehydrogenase), then to ethanoic acid, then
   to acetyl CoA
@@ -1196,16 +1196,16 @@ of the diploid zygote. Explain why the cortical reaction is essential.
 - Remove the ZP3 receptors, preventing any additional sperm from binding.
 - These changes make the zona pellucida impermeable to other sperm.
 
-5. **Why the cortical reaction is essential:** It prevents **polyspermy** -- fertilisation by more
+1. **Why the cortical reaction is essential:** It prevents **polyspermy** -- fertilisation by more
    than one sperm. If polyspermy occurred, the zygote would have more than 46 chromosomes (triploidy
    or polyploidy), which is lethal. The cortical reaction is a fast block (chemical) to polyspermy,
    complementing the initial electrical block caused by depolarisation of the oocyte membrane upon
    sperm entry.
 
-6. **Completion of meiosis II:** The calcium wave also triggers the secondary oocyte to complete
+2. **Completion of meiosis II:** The calcium wave also triggers the secondary oocyte to complete
    meiosis II, producing the ovum (with the maternal haploid nucleus) and the second polar body.
 
-7. **Nuclear fusion:** The sperm nucleus and ovum nucleus migrate towards each other, their nuclear
+3. **Nuclear fusion:** The sperm nucleus and ovum nucleus migrate towards each other, their nuclear
    envelopes break down, and the chromosomes intermingle. The diploid zygote (2n = 46) is formed,
    containing genetic material from both parents.
 
@@ -1362,18 +1362,18 @@ dangerous.
 - Glycogenesis does not occur (glucose is not converted to glycogen for storage).
 - Cells continue to break down fat and protein for energy instead of using glucose.
 
-3. **Hyperglycaemia:** Blood glucose concentration continues to rise, potentially reaching dangerous
+1. **Hyperglycaemia:** Blood glucose concentration continues to rise, potentially reaching dangerous
    levels (well above the renal threshold of 180 mg/100 cm cubed).
 
-4. **Glycosuria and polyuria:** The kidneys cannot reabsorb all the glucose. Excess glucose appears
+2. **Glycosuria and polyuria:** The kidneys cannot reabsorb all the glucose. Excess glucose appears
    in the urine (glycosuria). Glucose in the filtrate lowers the water potential of the tubular
    fluid, reducing water reabsorption by osmosis. Large volumes of dilute urine are produced
    (polyuria).
 
-5. **Dehydration and polydipsia:** Excessive water loss through polyuria leads to dehydration,
+3. **Dehydration and polydipsia:** Excessive water loss through polyuria leads to dehydration,
    triggering excessive thirst (polydipsia).
 
-6. **Ketoacidosis (dangerous complication):** As cells cannot use glucose, the body breaks down fat
+4. **Ketoacidosis (dangerous complication):** As cells cannot use glucose, the body breaks down fat
    for energy (lipolysis). Fat breakdown produces fatty acids, which are converted in the liver to
    ketones (e.g., acetoacetic acid, acetone). Ketones are acidic and accumulate in the blood,
    lowering blood pH below the normal range of 7.35--7.45. This condition is called diabetic
@@ -1382,7 +1382,7 @@ dangerous.
    breath), nausea, vomiting, abdominal pain, and dehydration. Severe ketoacidosis can lead to coma
    and death if untreated.
 
-7. **Long-term complications of repeated hyperglycaemia:** Even if acute ketoacidosis does not
+5. **Long-term complications of repeated hyperglycaemia:** Even if acute ketoacidosis does not
    occur, chronically elevated blood glucose damages blood vessels (causing atherosclerosis,
    increasing the risk of heart attack and stroke), damages small blood vessels in the retina
    (diabetic retinopathy, leading to blindness), damages the glomeruli in the kidneys (diabetic
@@ -1432,20 +1432,20 @@ kidney. Then explain how this gradient is used by ADH to regulate water reabsorp
 
 **How ADH uses this gradient:**
 
-5. When ADH is present (high blood concentration/low water potential), it binds to receptors on the
+1. When ADH is present (high blood concentration/low water potential), it binds to receptors on the
    collecting duct cells and triggers a second messenger (cAMP) cascade, leading to the insertion of
    aquaporin (water channel) proteins into the luminal membrane of the collecting duct cells.
 
-6. As filtrate flows down the collecting duct through the medulla, water moves out by osmosis into
+2. As filtrate flows down the collecting duct through the medulla, water moves out by osmosis into
    the concentrated medullary tissue fluid (down the water potential gradient created by the Loop of
    Henle). The water enters the vasa recta (capillaries surrounding the nephron) and is returned to
    the bloodstream.
 
-7. The steeper the medullary gradient (more concentrated medulla), the more water can be reabsorbed
+3. The steeper the medullary gradient (more concentrated medulla), the more water can be reabsorbed
    from the collecting duct, producing more concentrated urine. Without a medullary gradient, ADH
    would have no effect -- there would be no osmotic gradient to drive water reabsorption.
 
-8. Without ADH, the collecting duct remains impermeable to water (aquaporins are removed from the
+4. Without ADH, the collecting duct remains impermeable to water (aquaporins are removed from the
    membrane and stored in vesicles inside the cells), and dilute urine is produced regardless of the
    medullary gradient. The gradient is maintained regardless of ADH because the Loop of Henle
    operates continuously.

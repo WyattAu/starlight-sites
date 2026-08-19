@@ -401,6 +401,7 @@ Adjacency list:
 - B: [A, C]
 - C: [A, B, D]
 - D: [C, A]
+
 </details>
 
 **Problem 2.** Trace BFS starting from vertex A on the graph from Problem 1. List the order in which
@@ -654,7 +655,6 @@ For undirected graphs, we additionally check that the back edge doesn't go to th
 For revision on algorithms, see
 [Graph Algorithms](../algorithms/03-graph-algorithms).
 
-
 ## Common Pitfalls
 
 1. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
@@ -668,7 +668,6 @@ For revision on algorithms, see
 
 4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
-
 
 ## Intuition
 
@@ -684,8 +683,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

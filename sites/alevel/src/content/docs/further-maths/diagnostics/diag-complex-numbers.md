@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -207,8 +206,6 @@ This is a straight line: the perpendicular bisector of the segment joining $(1, 
 **Forgetting that $i^2 = -1$ when expanding powers:** When calculating $(a + bi)^2$ or higher powers, students frequently make sign errors by forgetting that $i^2 = -1$, $i^3 = -i$, and $i^4 = 1$. Write out each power of $i$ explicitly until the pattern is automatic.
 
 **Confusing the complex conjugate with the negative:** The conjugate of $z = a + bi$ is $\bar{z} = a - bi$ (flip the sign of the imaginary part). The negative is $-z = -a - bi$ (flip both parts). Students sometimes compute $-z$ when asked for $\bar{z}$, or vice versa. These are different operations.
-
-
 
 ## Cross-References
 

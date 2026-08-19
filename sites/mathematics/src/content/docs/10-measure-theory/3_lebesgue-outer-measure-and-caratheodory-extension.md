@@ -246,7 +246,6 @@ The Lebesgue outer measure and Caratheodory extension theorem provide the founda
 - **[$L^p$ Spaces](./7_l-p-spaces.md)**: Defines Banach spaces of measurable functions with finite $p$-norm, relying on Lebesgue measure constructed via the Caratheodory extension.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](./9_radon-nikodym-derivative-and-lebesgue-decomposition.md)**: Uses absolute continuity and decomposition concepts that depend on the measure theory developed here.
 
-
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

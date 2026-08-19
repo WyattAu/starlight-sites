@@ -607,7 +607,6 @@ key: "key'', value: "value'
 - [Fold Expressions and Pack Expansion](./2_fold_expressions.md)
 - [Type Traits and Static Reflection Patterns](./4_type_traits.md)
 
-
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -645,4 +644,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

@@ -505,8 +505,6 @@ conflict and opened economic opportunities, but it did not bring comprehensive s
 Old conflicts persisted or evolved into new forms, and the emergence of China as a great power has
 created new strategic tensions that shape the region today.
 
-
-
 ## Cross-References
 
 - **[Cold War](diag-cold-war):** Cold War history is studied

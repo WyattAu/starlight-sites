@@ -258,7 +258,7 @@ Preparing for the civics test is a focused process. Most candidates can prepare 
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Flashcards: 20 minutes of civics questions |
 | Afternoon | Topic study: review one category of questions |
 | Evening | Practice: one simulated test (10 random questions) |

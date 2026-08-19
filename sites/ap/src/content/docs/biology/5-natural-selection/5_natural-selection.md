@@ -44,10 +44,10 @@ categories:
 - **Vestigial structures:** Remnants of structures that had a function in ancestors (e.g., human
   appendix, whale pelvis).
 
-3. **Comparative embryology:** Early embryonic stages of vertebrates are remarkably similar.
-4. **Molecular biology:** DNA and protein sequences show relationships; more similar sequences
+1. **Comparative embryology:** Early embryonic stages of vertebrates are remarkably similar.
+2. **Molecular biology:** DNA and protein sequences show relationships; more similar sequences
    indicate closer evolutionary relationships.
-5. **Biogeography:** Geographic distribution of species reflects evolutionary history (e.g., island
+3. **Biogeography:** Geographic distribution of species reflects evolutionary history (e.g., island
    species resemble mainland species).
 
 ## Hardy-Weinberg Equilibrium (CED Unit 7)
@@ -109,7 +109,6 @@ $$
 
 Check: $360 + 480 + 160 = 1000$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Worked Example 2</strong>
@@ -124,7 +123,6 @@ Number of heterozygous individuals: $0.42 \times 5000 = 2100$.
 
 Number showing the recessive phenotype: $q^2 \times 5000 = 0.09 \times 5000 = 450$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Worked Example 3</strong>
@@ -133,7 +131,6 @@ Number showing the recessive phenotype: $q^2 \times 5000 = 0.09 \times 5000 = 45
 $q^2 = 0.16$So $q = 0.4$, $p = 0.6$.
 
 $2pq = 2(0.6)(0.4) = 0.48 = 48\%$.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -154,7 +151,6 @@ Observed: $p^2 = 0.42$$2pq = 0.36$$q^2 = 0.22$.
 The observed and expected frequencies differ, so the population is not in Hardy-Weinberg
 Equilibrium. The excess of homozygotes (AA and aa) suggests non-random mating (possibly inbreeding
 Or assortative mating).
-
 
 ## Mechanisms of Evolution
 
@@ -907,13 +903,11 @@ $$
 
 $$
 
-
 </aside>
 
 ## Intuition
 
 Biology explores how living things work, interact, and evolve. Cells are the basic units of life, each containing molecular machines that carry out specialised functions. Genetics encodes the instructions for building organisms, while ecology examines how species coexist in complex communities. These levels of organisation - from molecules to ecosystems - are interconnected through evolution and natural selection.
-
 
 ## Cross-References
 

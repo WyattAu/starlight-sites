@@ -502,8 +502,6 @@ $\blacksquare$
 - Choose the pivot wisely to simplify the moment equation by eliminating unknown forces.
 $
 
-
-
 ## Cross-References
 
 - **[Momentum](05-momentum):** Statics applies Newton's laws

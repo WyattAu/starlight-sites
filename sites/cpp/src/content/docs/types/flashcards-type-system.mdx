@@ -18,7 +18,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 ## Intuition
 
 C++'s type system determines what operations are valid on every expression — it's the set of rules the compiler uses to decide whether your code makes sense. Value categories (lvalue, rvalue, prvalue) describe where an expression can appear and whether it has an identity. `const` and `constexpr` add constraints: `const` means "this won't change after initialization," while `constexpr` means "this can be evaluated at compile time." Type traits let you query type properties at compile time, enabling template specialisation decisions.
@@ -30,7 +29,6 @@ C++'s type system determines what operations are valid on every expression — i
 - **Const casting away constness**: Removing `const` with `const_cast` and then modifying the object is undefined behaviour if the original object was declared `const`.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js"   deckId="cpp-type-system"
   title="C++ Type System Flashcards"

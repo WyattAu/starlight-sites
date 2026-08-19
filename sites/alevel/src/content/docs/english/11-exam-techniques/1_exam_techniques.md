@@ -20,7 +20,6 @@ description: "A-Level English exam techniques: essay planning, PEE/PEEL structur
 }
 </script>
 
-
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**
@@ -36,7 +35,7 @@ A-Level English examinations reward precise analytical writing under timed condi
 Understanding how marks are distributed across the four assessment objectives is essential for targeting your revision and essay writing.
 
 | AO | Description | Weighting | What Examiners Look For |
-|----|-------------|-----------|------------------------|
+| ---- | ------------- | ----------- | ------------------------ |
 | AO1 | Articulate informed, personal, and creative responses using concepts and terminology | 20% | Precision of literary terminology; range of vocabulary; confident, independent voice |
 | AO2 | Analyse ways in which meanings are shaped in literary texts | 20% | Close analysis of language, form, and structure; identification of effects; analytical verbs rather than evaluative generalisations |
 | AO3 | Demonstrate understanding of the significance of contexts | 20% | Integration of historical, social, and biographical context; recognition that context is not a bolt-on but shapes meaning |
@@ -138,7 +137,7 @@ Effective time management depends on understanding mark allocation and planning 
 ### Recommended Timing
 
 | Task | Time | Notes |
-|------|------|-------|
+| ------ | ------ | ------- |
 | Read and plan | 5-10 minutes | Read the question carefully; identify key terms; plan structure |
 | Write | 45-50 minutes | 3-4 well-developed paragraphs; introduction and conclusion |
 | Review | 5 minutes | Check for accuracy, clarity, and completeness |

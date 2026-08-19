@@ -1014,7 +1014,7 @@ When a ligand binds to a cell-surface receptor, it triggers a cascade of intrace
 - **Second messengers:** Small molecules that amplify the signal (e.g., cAMP, $\mathrm{Ca}^{2+}$)
 - **Enzyme cascades:** Kinase cascades that phosphorylate target proteins
 
-3. **Cellular response:** The cell changes its activity (e.g., gene expression, metabolism,
+1. **Cellular response:** The cell changes its activity (e.g., gene expression, metabolism,
    secretion)
 
 <aside class="starlight-aside starlight-aside--note">
@@ -1938,7 +1938,7 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
   plate is random. With 23 pairs of chromosomes in humans, this gives $2^{23}$ ($\approx$ 8.4
   million) possible combinations of chromosomes in the gametes
 
-3. **Prevents chromosome doubling:** Without meiosis, the chromosome number would double with each
+1. **Prevents chromosome doubling:** Without meiosis, the chromosome number would double with each
    generation (2n $\rightarrow$ 4n $\rightarrow$ 8n...)
 
 ---
@@ -2204,7 +2204,6 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Biology/cell-biology-and-biochemistry.md
-
 
 </aside>
 

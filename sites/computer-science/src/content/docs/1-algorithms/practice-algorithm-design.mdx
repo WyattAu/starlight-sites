@@ -24,7 +24,6 @@ and the Master theorem. Select an option to check your answer and view the expla
 
 ---
 
-
 ## Divide and Conquer and the Master Theorem
 
 <PracticeProblem client:only="solid-js" question={"What is the time complexity of Strassen\'s matrix multiplication for multiplying two $n \\times n$ matrices?&quot; options={[ '$O(n^{\\log_2 7}) \\approx O(n^{2.807})$', '$O(n^3)$', '$O(n^2)$', '$O(n^{\\log_2 8}) = O(n^3)$', ]} correctAnswer={0} explanation=&quot;Strassen\'s algorithm divides each matrix into four $n/2 \\times n/2$ blocks and computes 7 products (instead of the naive 8). The recurrence is $T(n) = 7T(n/2) + O(n^2)$. By the Master theorem with $a=7$, $b=2$, $n^{\\log_2 7} \\approx n^{2.807}$ dominates $f(n) = O(n^2)$, giving $T(n) = O(n^{\\log_2 7})$."} difficulty="easy"  />
@@ -50,7 +49,6 @@ and the Master theorem. Select an option to check your answer and view the expla
 <PracticeProblem client:only="solid-js" question={"In the N-Queens problem solved by backtracking, what is the worst-case time complexity and what does backtracking prune compared to brute force?&quot; options={[ '$O(n!)$ worst case; backtracking prunes partial placements that lead to mutual attacks', '$O(2^n)$ worst case; backtracking only prunes diagonal conflicts', '$O(n^n)$ worst case; no pruning occurs', '$O(n^2)$ worst case; backtracking finds the solution in polynomial time', ]} correctAnswer={0} explanation=&quot;Brute force generates all $n^n$ possible board configurations. Backtracking incrementally places queens row by row and prunes whenever a queen conflicts with already-placed queens (column, diagonal checks). In the worst case, this is still $O(n!)$ (placing one queen per row), but in practice the pruning eliminates most invalid branches early."} difficulty="hard"  />
 
 ---
-
 
 ## Additional Algorithm Design Questions
 

@@ -11,7 +11,6 @@ description: "Interactive university classical mechanics practice with auto-grad
 
 import PracticeProblem from '@components/PracticeProblem';
 
-
 ## Intuition
 
 **The language of motion:** Classical mechanics provides the mathematical framework for describing and predicting motion — from simple projectile motion to complex orbital mechanics. It is the physics you can see and touch, and it is the foundation for everything else.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Newton\'s Laws
 
 <PracticeProblem client:only="solid-js" question={"Two blocks of mass m₁ = 4 kg and m₂ = 6 kg are connected by a string over a frictionless pulley (Atwood machine). What is the acceleration of the system? (g = 9.8 m/s²)&quot; options={['1.96 m/s²', '2.94 m/s²', '4.90 m/s²', '0.98 m/s²']} correctAnswer={0} explanation=&quot;For an Atwood machine: a = (m₂ − m₁)g / (m₁ + m₂) = (6 − 4)(9.8) / (4 + 6) = 2(9.8)/10 = 19.6/10 = 1.96 m/s². The heavier mass accelerates downward, the lighter one upward."} difficulty="medium"  />
@@ -35,7 +33,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"A 5 kg block sits on a surface with coefficient of static friction μₛ = 0.4 and kinetic friction μₖ = 0.3. A horizontal force of 15 N is applied. What is the friction force acting on the block? (g = 9.8 m/s²)&quot; options={[ '15 N — static friction matches the applied force since it is below maximum', '19.6 N', '14.7 N', '4.5 N', ]} correctAnswer={0} explanation=&quot;Maximum static friction: fₛ(max) = μₛ · N = 0.4 × 5 × 9.8 = 19.6 N. Since applied force (15 N) < fₛ(max), the block does not move and static friction equals the applied force: fₛ = 15 N."} difficulty="medium"  />
 
 ---
-
 
 ### Energy
 
@@ -45,7 +42,6 @@ the explanation.
 
 ---
 
-
 ### Oscillations
 
 <PracticeProblem client:only="solid-js" question={"A mass of 0.5 kg on a spring with constant k = 200 N/m is displaced 0.05 m and released. What is the maximum velocity during the motion?&quot; options={['1.0 m/s', '0.5 m/s', '2.0 m/s', '0.71 m/s']} correctAnswer={0} explanation=&quot;Angular frequency ω = √(k/m) = √(200/0.5) = √400 = 20 rad/s. Maximum velocity v_max = Aω = 0.05 × 20 = 1.0 m/s. This occurs as the mass passes through the equilibrium position."} difficulty="medium"  />
@@ -54,7 +50,6 @@ the explanation.
 
 ---
 
-
 ### Central Forces
 
 <PracticeProblem client:only="solid-js" question={"A satellite orbits Earth at radius r with speed v. If the orbital radius is doubled while keeping the same central body, what is the new orbital speed in terms of v?&quot; options={['v/√2', 'v/2', 'v√2', '2v']} correctAnswer={0} explanation=&quot;Circular orbit: mv²/r = GMm/r² → v = √(GM/r). If r → 2r: v_new = √(GM/2r) = √(GM/r) · 1/√2 = v/√2. The orbital speed decreases as radius increases."} difficulty="easy"  />
@@ -62,7 +57,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"For a central force problem with potential V(r) = −k/r, what is the effective potential V_eff(r)?&quot; options={[ 'V_eff(r) = L²/(2mr²) − k/r', 'V_eff(r) = −k/r', 'V_eff(r) = L²/(2mr²) + k/r', 'V_eff(r) = ½mv² − k/r', ]} correctAnswer={0} explanation=&quot;In polar coordinates with angular momentum L conserved: V_eff(r) = L²/(2mr²) + V(r) = L²/(2mr²) − k/r. The L²/(2mr²) term is the centrifugal barrier. The effective potential has a minimum at r₀ = L²/(mk), giving stable circular orbits."} difficulty="hard"  />
 
 ---
-
 
 ### Lagrangian Mechanics
 
@@ -77,6 +71,7 @@ the explanation.
 **Forgetting that Lagrangian L = T − V, not T + V:** The sign convention is critical. L = T − V, not T + V. Using the wrong sign flips the equations of motion.
 
 **Neglecting the centrifugal term in central force problems:** The effective potential V_eff = L²/(2mr²) + V(r) includes the centrifugal barrier. Forgetting this term misses the minimum that gives stable circular orbits.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for physics notes.

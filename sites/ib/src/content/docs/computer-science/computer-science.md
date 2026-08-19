@@ -1083,7 +1083,7 @@ linked above.
 
 Computer Science is the study of problem-solving with machines. It's not just about programming — it's about thinking systematically. Computational thinking is the core skill: breaking a big problem into smaller pieces (decomposition), recognising patterns (pattern recognition), abstracting away irrelevant details (abstraction), and designing step-by-step solutions (algorithms).
 
-The IB course is structured around this thinking process. You start with the fundamentals (how computers work, how to think logically), then move to algorithms (how to solve problems efficiently), then to data (how to store and retrieve information), and finally to networks and ethics (how computing connects to the real world). The HL extension dives deeper into the technical details — memory management, advanced data structures, and how programs control hardware. Throughout, the emphasis is on understanding *why* things work, not just *how* to use them.
+The IB course is structured around this thinking process. You start with the fundamentals (how computers work, how to think logically), then move to algorithms (how to solve problems efficiently), then to data (how to store and retrieve information), and finally to networks and ethics (how computing connects to the real world). The HL extension dives deeper into the technical details — memory management, advanced data structures, and how programs control hardware. Throughout, the emphasis is on understanding _why_ things work, not just _how_ to use them.
 
 ## Common Mistakes
 
@@ -1095,7 +1095,7 @@ The IB course is structured around this thinking process. You start with the fun
 
 4. **Confusing local and wide area networks.** A LAN connects devices in a small area (school, office) with high speed and low cost. A WAN connects LANs over large distances with higher cost and lower speed. The Internet is a WAN, not a LAN. Misidentifying the network type leads to incorrect analysis of costs, speeds, and use cases.
 
-5. **Neglecting the role of protocols in networking.** Protocols are standardised rules that enable communication between different systems. Without understanding TCP/IP, HTTP, and other protocols, you cannot explain how data moves across networks. Focus on *why* protocols exist (interoperability, reliability, error correction) not just *what* they are.
+5. **Neglecting the role of protocols in networking.** Protocols are standardised rules that enable communication between different systems. Without understanding TCP/IP, HTTP, and other protocols, you cannot explain how data moves across networks. Focus on _why_ protocols exist (interoperability, reliability, error correction) not just _what_ they are.
 
 ## See Also
 

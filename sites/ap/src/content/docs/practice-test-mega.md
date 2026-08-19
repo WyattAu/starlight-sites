@@ -686,7 +686,7 @@ What is the derivative of f(x) = x^3 * e^x?
 
 **Correct: C** (index 2)
 
-Using the product rule: f'(x) = (x^3)' * e^x + x^3 * (e^x)' = 3x^2 * e^x + x^3 * e^x = e^x(x^3 + 3x^2).
+Using the product rule: f'(x) = (x^3)' *e^x + x^3* (e^x)' = 3x^2 *e^x + x^3* e^x = e^x(x^3 + 3x^2).
 
 `easy` — 1 mark
 
@@ -706,7 +706,7 @@ If f(x) = sin(3x^2), what is f'(x)?
 
 **Correct: B** (index 1)
 
-By the chain rule: f'(x) = cos(3x^2) * d/dx(3x^2) = cos(3x^2) * 6x = 6x * cos(3x^2).
+By the chain rule: f'(x) = cos(3x^2) *d/dx(3x^2) = cos(3x^2)* 6x = 6x * cos(3x^2).
 
 `medium` — 1 mark
 
@@ -806,7 +806,7 @@ The volume of the solid obtained by rotating the region under y = x from x = 0 t
 
 **Correct: A** (index 0)
 
-V = pi * integral from 0 to 1 of (x)^2 dx = pi * [x^3/3] from 0 to 1 = pi * (1/3 - 0) = pi/3.
+V = pi *integral from 0 to 1 of (x)^2 dx = pi* [x^3/3] from 0 to 1 = pi * (1/3 - 0) = pi/3.
 
 `medium` — 1 mark
 
@@ -888,7 +888,7 @@ Two independent events A and B have P(A) = 0.3 and P(B) = 0.4. What is P(A and B
 
 **Correct: A** (index 0)
 
-For independent events: P(A and B) = P(A) * P(B) = 0.3 * 0.4 = 0.12.
+For independent events: P(A and B) = P(A) *P(B) = 0.3* 0.4 = 0.12.
 
 `easy` — 1 mark
 

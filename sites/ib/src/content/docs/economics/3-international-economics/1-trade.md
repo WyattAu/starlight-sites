@@ -2137,7 +2137,7 @@ B gains more (3 hours vs. 1.33 hours).
 
 The Heckscher-Ohlin (H-O) model explains comparative advantage through factor endowments:
 
-** theorem:** a country exports goods that intensively use its abundant factor and imports Goods
+**theorem:** a country exports goods that intensively use its abundant factor and imports Goods
 that intensively use its scarce factor.
 
 **Stolper-Samuelson theorem:** trade increases the real return to the abundant factor and Reduces
@@ -2290,7 +2290,7 @@ sufficient consumer surplus gains to offset it.
 
 ## Intuition
 
-Comparative advantage is the most counterintuitive idea in economics. It says that even if one country is better at producing everything (absolute advantage), both countries can still benefit from trade. The key is opportunity cost — what you give up to produce something. Country A might be better at producing both wine and cloth, but if it's *much* better at wine, it should specialise in wine and buy cloth from Country B, even if B is less efficient at cloth. This is because A's opportunity cost of producing cloth (in terms of wine forgone) is higher than B's.
+Comparative advantage is the most counterintuitive idea in economics. It says that even if one country is better at producing everything (absolute advantage), both countries can still benefit from trade. The key is opportunity cost — what you give up to produce something. Country A might be better at producing both wine and cloth, but if it's _much_ better at wine, it should specialise in wine and buy cloth from Country B, even if B is less efficient at cloth. This is because A's opportunity cost of producing cloth (in terms of wine forgone) is higher than B's.
 
 Think of trade as a positive-sum game, not zero-sum. When countries specialise according to comparative advantage and trade, the total output increases — both countries can consume more than they could in isolation. Tariffs and quotas disrupt this by raising prices and reducing trade volume, creating deadweight loss (welfare that directly disappears). The WTO exists to keep trade barriers low and resolve disputes.
 

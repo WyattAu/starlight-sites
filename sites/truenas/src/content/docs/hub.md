@@ -89,7 +89,7 @@ TrueNAS is available in two main variants:
 ### Which Should You Choose?
 
 | Factor | Choose CORE | Choose SCALE |
-|--------|-------------|--------------|
+| -------- | ------------- | -------------- |
 | Existing CORE deployment | Keep it | Migrate when ready |
 | New deployment | Only if you need specific CORE features | Recommended |
 | Docker/Kubernetes apps | Not supported | Native support |
@@ -126,7 +126,7 @@ Stripe of Mirrors  — mirrors striped together; excellent performance and redun
 ### Recommended Layouts
 
 | Use Case | Recommended Layout | Reasoning |
-|----------|-------------------|-----------|
+| ---------- | ------------------- | ----------- |
 | Home media server | RAIDZ2 | Good balance of capacity and redundancy |
 | Small business file server | Mirror (2-way) | Best performance; easy expansion |
 | Backup target | RAIDZ2 | Data integrity is paramount |
@@ -228,7 +228,7 @@ NFS is the standard for Linux and Unix file sharing.
 
 WebDAV provides file access over HTTP/HTTPS, useful for remote access without VPN.
 
-###AFP (Apple Filing Protocol)
+### AFP (Apple Filing Protocol)
 
 Legacy Apple file sharing. SMB is now preferred for macOS.
 

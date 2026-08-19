@@ -11,7 +11,6 @@ description: "UNIVERSITY Mathematics practice problems: Probability and Statisti
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Quantifying uncertainty:** Probability is the mathematics of uncertainty — it gives you precise tools to reason about things you cannot predict, from coin flips to stock prices to weather. Statistics turns data into understanding by quantifying how confident you should be in your conclusions.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Probability Spaces and Random Variables
 
 <PracticeProblem client:only="solid-js" question={"A bag contains 3 red and 5 blue balls. Two balls are drawn without replacement. What is the probability that both balls are red?&quot; options={['$\\dfrac{3}{28}$', '$\\dfrac{9}{64}$', '$\\dfrac{3}{8}$', '$\\dfrac{1}{4}$']} correctAnswer={0} explanation=&quot;The probability of drawing a red ball first is $3/8$. Given the first ball is red, there are 2 red balls remaining out of 7 total. The probability of the second ball being red is $2/7$. By the multiplication rule: $P(\\text{both red}) = \\frac{3}{8} \\cdot \\frac{2}{7} = \\frac{6}{56} = \\frac{3}{28}$."} difficulty="easy"  />
@@ -40,7 +38,6 @@ the explanation.
 
 ---
 
-
 ### Limit Theorems and Estimation
 
 <PracticeProblem client:only="solid-js" question={"A fair die is rolled 120 times. Use the central limit theorem to approximate the probability that the sum of rolls exceeds 460.&quot; options={['$\\approx 0.016$', '$\\approx 0.1587$', '$\\approx 0.4772$', '$\\approx 0.9772$']} correctAnswer={0} explanation=&quot;Each roll has $\\mu = 7/2$ and $\\sigma^2 = 35/12$. For $n = 120$ rolls: $E[S] = 120 \\cdot 7/2 = 420$ and $\\operatorname{Var}(S) = 120 \\cdot 35/12 = 350$, so $\\sigma_S = \\sqrt{350} \\approx 18.71$. Standardize: $P(S > 460) \\approx P\\left(Z > \\frac{460 - 420}{18.71}\\right) = P(Z > 2.14) \\approx 0.016$."} difficulty="hard"  />
@@ -52,7 +49,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"In a hypothesis test with $H_0: \\mu = 50$ vs $H_1: \\mu \\neq 50$, a sample of size 16 from a normal distribution with unknown variance yields $\\bar{x} = 53.4$ and $s = 6$. What is the test statistic?&quot; options={['$t = 2.267$', '$t = 3.4$', '$z = 2.267$', '$t = 1.8$']} correctAnswer={0} explanation=&quot;Since $\\sigma$ is unknown, use the t-test: $t = \\frac{\\bar{x} - \\mu_0}{s/\\sqrt{n}} = \\frac{53.4 - 50}{6/\\sqrt{16}} = \\frac{3.4}{6/4} = \\frac{3.4}{1.5} = 2.267$. This follows a $t$-distribution with $n - 1 = 15$ degrees of freedom."} difficulty="medium"  />
 
 ---
-
 
 ### Hypothesis Testing and Applications
 
@@ -67,6 +63,7 @@ the explanation.
 **Forgetting the finite population correction factor:** When sampling without replacement from a finite population, the standard error of the mean is $\sigma/\sqrt{n} \cdot \sqrt{(N-n)/(N-1)}$, not just $\sigma/\sqrt{n}$. Ignoring this correction inflates the variance estimate, especially when the sample size $n$ is a significant fraction of the population $N$.
 
 **Confusing the parameter with the estimator:** The population mean $\mu$ is a fixed (unknown) constant, while the sample mean $\bar{X}$ is a random variable. A confidence interval estimates $\mu$, not $\bar{X}$. Saying "there is a 95% probability that $\mu$ is in the interval" is incorrect — $\mu$ is either in the fixed interval or it is not. The 95% refers to the long-run coverage rate of the procedure.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.

@@ -587,7 +587,6 @@ PRNG.
    produces values in $[0.0, 1.0)$ — the upper bound is exclusive. If you need a closed interval
    $[0.0, 1.0]$Use `std::uniform_real_distribution&lt;double>(0.0, std::nextafter(1.0, 2.0))`.
 
-
 ## Common Pitfalls
 
 1. Not practising with past papers or exercises under timed conditions.
@@ -618,4 +617,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

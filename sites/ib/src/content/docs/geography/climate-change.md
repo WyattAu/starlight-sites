@@ -32,7 +32,6 @@ geographic skills to climate data.
 
 **The key insight:** The greenhouse effect is natural and necessary, but human activities have amplified it to dangerous levels
 
-
 ## Contents
 
 - [Atmospheric Systems](./climate/atmospheric-systems) -- global atmospheric circulation, energy
@@ -188,8 +187,6 @@ strategies (carbon trading, renewable energy transition, afforestation) and adap
 (coastal management, drought-resistant crops) using case studies from contrasting locations.
 Vulnerability and resilience are influenced by economic development, governance, and geographic
 location.
-
-
 
 ## Cross-References
 

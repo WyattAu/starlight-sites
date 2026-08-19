@@ -34,7 +34,7 @@ Threads.
 The standard specifies which types `T` may be [N4950 §31.7.1]:
 
 - **Scalar types**: `bool``char``int``float``pointer types`Etc.
-- ** copyable types**: Any copyable type (C++17 and later), though not all operations may be
+- **copyable types**: Any copyable type (C++17 and later), though not all operations may be
   available.
 
 ```cpp
@@ -668,7 +668,6 @@ tag Alongside the pointer, or use hazard pointers.
    the other, even if they are logically independent. Pad atomics to cache line boundaries to
    prevent this.
 
-
 ## Summary
 
 This topic covers the core concepts of atomic operations and lock-free programming, including
@@ -689,4 +688,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

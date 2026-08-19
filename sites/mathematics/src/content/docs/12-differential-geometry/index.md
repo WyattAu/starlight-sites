@@ -92,6 +92,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -114,6 +115,7 @@ When writing $X = X^i \partial/\partial x^i$, the components $X^i$ depend on the
 The pushforward $df_p : T_pM \to T_{f(p)}N$ maps between tangent spaces of *different* manifolds when $f : M \to N$. A common error is writing $df_p : T_pM \to T_pM$, which only makes sense when $f$ is a self-map and even then is misleading.
 
 ## See Also
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

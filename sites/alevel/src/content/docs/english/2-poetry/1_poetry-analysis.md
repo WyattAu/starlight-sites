@@ -286,7 +286,6 @@ the subject's empire crumbles. A Marxist reading might note the poem's insistenc
 power is temporary, while a postcolonial reading might see Ozymandias as a figure of imperial
 hubris.
 
-
 ## Intuition
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
@@ -300,8 +299,6 @@ hubris.
 - For anthology study, group poems by theme and practise comparative plans
 - Learn to spot the volta: the turn that reveals the poem's true argument
 - Practise close reading on unseen poems to develop analytical speed and confidence
-
-
 
 ## Cross-References
 

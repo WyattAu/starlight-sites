@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Ohm's law (V = IR) captures the fundamental relationship between electrical pressure, flow, and opposition in a circuit
 
-
 ## Unit Tests
 
 ### UT-1: I-V Characteristics and Non-Ohmic Components

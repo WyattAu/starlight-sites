@@ -323,11 +323,11 @@ Subsystems.
 - **Adaptive Voltage:** Set an offset or target voltage with a negative offset. More power efficient
   but harder to stabilize.
 
-4. Set LLC to Level 4–5.
-5. Save, boot, and stress test with Prime95 Small FFTs.
-6. If stable for 30 minutes, try increasing the multiplier by 1.
-7. If unstable, increase Vcore by 0.01–0.02 V.
-8. Repeat until you reach your temperature or voltage limit.
+1. Set LLC to Level 4–5.
+2. Save, boot, and stress test with Prime95 Small FFTs.
+3. If stable for 30 minutes, try increasing the multiplier by 1.
+4. If unstable, increase Vcore by 0.01–0.02 V.
+5. Repeat until you reach your temperature or voltage limit.
 
 **Target temperatures:** Stay below 90 °C under Prime95 Small FFTs. If you exceed 90 °C, you have
 Hit your thermal limit and should stop increasing frequency.

@@ -194,7 +194,7 @@ When comparing Mao and Hitler, structure your essay thematically:
 - Social policies and their impact
 - Foreign policy objectives and outcomes
 
-3. **Conclusion**: Evaluate which leader was more effective in maintaining control, and assess the
+1. **Conclusion**: Evaluate which leader was more effective in maintaining control, and assess the
    relative importance of ideology vs. Pragmatism in their rule.
 
 ### Key comparative points for essays
@@ -618,8 +618,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

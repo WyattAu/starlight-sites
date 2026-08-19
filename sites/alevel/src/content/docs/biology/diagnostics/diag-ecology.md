@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Ecology is like a web of relationships — every organism depends on others in a delicate balance.**
@@ -635,8 +634,6 @@ waterways.
    nutrient available for leaching at any one time.
 4. **Precision farming**: use GPS-guided equipment and soil testing to apply fertiliser only where
    needed and at the correct rate, avoiding over-application.
-
-
 
 ## Cross-References
 

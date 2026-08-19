@@ -156,4 +156,3 @@ These are the only two possibilities, so there are exactly two groups of order $
 - [The Sylow Theorems](7_the-sylow-theorems) -- Sylow theory is the primary tool for the group classification arguments in several worked examples.
 - [Polynomial Rings](10_polynomial-rings) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
 - [Euclidean Domains, PIDs, and UFDs](11_euclidean-domains-pids-and-ufds) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
-

@@ -252,7 +252,6 @@ Per second. $\blacksquare$
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
 
-
 </aside>
 
 ## Intuition

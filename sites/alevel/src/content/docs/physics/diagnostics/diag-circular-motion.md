@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
@@ -398,8 +397,6 @@ slow), indicating the onset of instability.
 **Forgetting that centripetal acceleration is $v^2/r$, not $v^2r$:** The centripetal acceleration is $a = v^2/r = \omega^2 r$. Students sometimes write $v^2r$ instead of $v^2/r$. A larger radius means less acceleration for the same speed, which makes physical sense — a gentle curve requires less force than a tight one.
 
 **Confusing angular velocity with linear velocity:** $\omega$ (rad/s) is angular velocity; $v$ (m/s) is linear velocity. They are related by $v = \omega r$. Students often use $\omega$ when the question asks for $v$, or forget to multiply by $r$ when converting between them.
-
-
 
 ## Cross-References
 

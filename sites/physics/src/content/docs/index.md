@@ -90,6 +90,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -112,6 +113,7 @@ Each section includes:
 - **Treating physics as a collection of isolated topics:** Classical mechanics, electromagnetism, and quantum mechanics are deeply connected. Understanding these connections (e.g., the classical limit $\hbar \to 0$, or how Maxwell's equations lead to special relativity) is what separates deep understanding from rote learning.
 
 ## See Also
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

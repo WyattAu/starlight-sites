@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The derivative captures the slope of a curve at any point, revealing how fast one quantity changes relative to another
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for differentiation.
@@ -274,8 +273,6 @@ $$f''\!\left(\frac{1}{e}\right) = \left(\frac{1}{e}\right)^{1/e}\!\left[0 + e\ri
 
 Since $f''\!\left(\frac{1}{e}\right) \gt 0$The stationary point is confirmed as a local minimum by
 the second derivative test.
-
-
 
 ## Cross-References
 

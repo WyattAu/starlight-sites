@@ -64,7 +64,6 @@ impl Counter {
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
 The aliasing invariant. Violating this is undefined behavior.
 
-
 ### Why `UnsafeCell` Exists
 
 The compiler assumes that `&T` never allows mutation. `UnsafeCell` is the escape hatch that tells
@@ -807,7 +806,6 @@ assert_eq!(counter.get(), 2);
 <aside class="starlight-aside starlight-aside--caution">
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
 interior mutability — `get` copies the value out and `set` replaces it in a single Operation.
-
 
 ### `Arc<RefCell<T>>` — Not Thread-Safe
 

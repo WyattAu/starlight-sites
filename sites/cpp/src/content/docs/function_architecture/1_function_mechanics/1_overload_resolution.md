@@ -921,4 +921,3 @@ Overload resolution is the compiler's process of choosing which function to call
 - [Calling Conventions](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/2_calling_conventions)
 - [Lambdas](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/3_lambdas)
 - [Type Erasure](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/4_type_erasure)
-

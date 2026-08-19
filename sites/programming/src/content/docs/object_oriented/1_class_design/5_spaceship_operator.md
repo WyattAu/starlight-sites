@@ -547,7 +547,6 @@ int main() {
   `std::partial_ordering` are defined in `<compare>`. Forgetting to include it causes compilation
   errors.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to the spaceship operator, including
@@ -568,4 +567,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

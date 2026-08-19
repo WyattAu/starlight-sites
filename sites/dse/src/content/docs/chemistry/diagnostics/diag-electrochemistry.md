@@ -422,8 +422,6 @@ $E = E^{\circ} + \frac{0.0592}{n}\log\frac{[\text{oxidised}]}{[\text{reduced}]}$
 half-cell separately. The conclusion is the same: increasing $[Sn^{2+}]$ makes the tin half-cell
 potential more positive, reducing the overall cell potential.
 
-
-
 ## Cross-References
 
 - **[Atomic Structure](../atomic-structure-and-bonding):** Atomic structure is foundational

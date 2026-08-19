@@ -47,9 +47,9 @@ categories:
 - $T^4 = \frac{144}{1.02\times 10^{-8}} = 1.41 \times 10^{10}$ K⁴ $\implies T = 344.6$ K (or
   71.6°C).
 - **b) Total Energy for Ice/Water:**
-- 1.  Heat ice from -15°C to 0°C: $Q_1 = mc_{\mathrm{ice}}\Delta T = (0.50)(2100)(15) = 15,750$ J.
-- 2.  Melt ice at 0°C: $Q_2 = mL_f = (0.50)(3.3\times 10^5) = 165,000$ J.
-- 3.  Heat water from 0°C to 20°C: $Q_3 = mc_{\mathrm{water}}\Delta T = (0.50)(4200)(20) = 42,000$
+- 1. Heat ice from -15°C to 0°C: $Q_1 = mc_{\mathrm{ice}}\Delta T = (0.50)(2100)(15) = 15,750$ J.
+- 1. Melt ice at 0°C: $Q_2 = mL_f = (0.50)(3.3\times 10^5) = 165,000$ J.
+- 1. Heat water from 0°C to 20°C: $Q_3 = mc_{\mathrm{water}}\Delta T = (0.50)(4200)(20) = 42,000$
       J.
 - Total Energy: $Q_{\mathrm{total}} = Q_1 + Q_2 + Q_3 = 15750 + 165000 + 42000 = 222,750$ J.
 - **c) Time to Transfer Energy:**
@@ -62,7 +62,7 @@ categories:
 Radiation, breaking down a phase change problem into its distinct heating and melting stages, and
 Understanding the relationship between power and energy transfer over time ($P=E/t$).
 
-2. **Question:** A sealed vertical cylinder with a frictionless piston contains 0.10 moles of a
+1. **Question:** A sealed vertical cylinder with a frictionless piston contains 0.10 moles of a
    monatomic ideal gas. The piston has a mass of 5.0 kg and an area of 0.010 m². The system is in a
    room at 293 K and atmospheric pressure is $1.01 \times 10^5$ Pa. A) Calculate the initial volume
    of the gas. B) The gas is slowly heated, causing it to expand isobarically until its volume
@@ -96,7 +96,7 @@ Understanding the relationship between power and energy transfer over time ($P=E
 Correctly applying the Ideal Gas Law, and using the First Law of Thermodynamics for a specific
 Process (isobaric), remembering to calculate both the change in internal energy and the work done.
 
-3. **Question (HL Only):** A Carnot engine operates between a hot reservoir at 600 K and a cold
+1. **Question (HL Only):** A Carnot engine operates between a hot reservoir at 600 K and a cold
    reservoir at 300 K. In one cycle, it absorbs 2000 J of heat from the hot reservoir. The work
    output from this Carnot engine is used to drive a Carnot refrigerator operating between the same
    two reservoirs. A) What is the efficiency of the Carnot engine and how much work does it produce
@@ -127,7 +127,7 @@ Process (isobaric), remembering to calculate both the change in internal energy 
 Refrigerator, the correct formulas for Carnot efficiency and Carnot COP, and how the work output of
 An engine serves as the work input for another device.
 
-4. **Question (HL Only):** 1.0 mole of a monatomic ideal gas is initially at state A (300 K,
+1. **Question (HL Only):** 1.0 mole of a monatomic ideal gas is initially at state A (300 K,
    $1.0 \times 10^5$ Pa). It is adiabatically compressed to half its original volume, reaching state
    B. It is then cooled at constant volume back to its original temperature, reaching state C. A)
    Calculate the temperature and pressure at state B. B) Calculate the change in entropy of the gas
@@ -166,7 +166,7 @@ Process ($PV^\gamma=\mathrm{const.}$, $TV^{\gamma-1}=\mathrm{const.}$). Also, th
 Calculating entropy change during a process with a changing temperature, which requires integration
 Or the logarithmic form.
 
-5. **Question:** A circuit is constructed with a 12.0 V battery with an internal resistance of 0.50
+1. **Question:** A circuit is constructed with a 12.0 V battery with an internal resistance of 0.50
    Ω. It is connected to a 2.0 Ω resistor in series with a parallel combination of a 3.0 Ω resistor
    and a 6.0 Ω resistor. A) Calculate the total equivalent resistance of the external circuit. B)
    Calculate the total current flowing from the battery. C) What is the terminal potential

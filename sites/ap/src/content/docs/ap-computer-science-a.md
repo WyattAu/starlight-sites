@@ -11,15 +11,17 @@ description: Complete guide to AP Computer Science A covering Java programming, 
 AP Computer Science A is a college-level course that introduces students to computer science through Java programming. The course covers fundamental programming concepts, object-oriented programming, data structures, and algorithms.
 
 ### Exam Format
+
 - **Duration**: 3 hours
-- **Sections**: 
+- **Sections**:
   - Section I: 40 multiple-choice questions (1 hour 30 minutes)
   - Section II: 4 free-response questions (1 hour 30 minutes)
 - **Score**: 1-5 (3+ typically earns college credit)
 
 ### Topics Covered
+
 | Topic | Weight | Questions |
-|-------|--------|-----------|
+| ------- | -------- | ----------- |
 | Primitive Types | 2.5-5% | 1-2 |
 | Using Objects | 5-7.5% | 2-3 |
 | Control Flow | 15-17.5% | 6-7 |
@@ -463,11 +465,13 @@ public static int fibonacci(int n) {
 ### Practice Questions
 
 **Question 1**: What is the output of the following code?
+
 ```java
 int x = 5;
 int y = x++;
 System.out.println(y);
 ```
+
 A) 4  B) 5  C) 6  D) Error
 
 **Answer**: B) 5 (post-increment returns original value)

@@ -87,7 +87,6 @@ mention them.
 <aside class="starlight-aside starlight-aside--caution">
 to `.gitignore` will have no effect. You must first untrack it with `git rm --cached <file>`.
 
-
 ## The Index
 
 The index is perhaps the most misunderstood part of Git. It is **not** a diff or a list of changes —
@@ -130,7 +129,6 @@ The staging area is a deliberate design decision that enables several workflows:
 <aside class="starlight-aside starlight-aside--tip">
 tracked modified files) or `git commit --amend --no-edit` (adds all staged changes to the previous
 commit). Some developers prefer `git add -A && git commit` as a single workflow step.
-
 
 ## The Repository
 
@@ -220,7 +218,6 @@ flowchart TB
 <aside class="starlight-aside starlight-aside--caution">
 with `git status` and `git stash` if you want to preserve your work.
 
-
 ## The "Dirty" State Space
 
 The relationship between the three trees defines the repository's state:
@@ -296,7 +293,6 @@ git update-ref refs/heads/main $COMMIT
 and enables scripting. When a porcelain command does something unexpected, breaking it down into
 plumbing steps reveals exactly what happened.
 
-
 ## Common Pitfalls
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
@@ -319,7 +315,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

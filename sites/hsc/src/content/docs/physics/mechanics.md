@@ -175,10 +175,10 @@ Mechanics is the foundation of physics and engineering. From designing bridges a
 
 ## Additional Exam Tips
 
-5. For problems involving height, always define a coordinate system and be consistent with signs
-6. Kinetic energy is always positive; work can be positive or negative
-7. In elastic collisions, both momentum and kinetic energy are conserved
-8. Use energy methods when speed and height are involved — they are often simpler than force methods
+1. For problems involving height, always define a coordinate system and be consistent with signs
+2. Kinetic energy is always positive; work can be positive or negative
+3. In elastic collisions, both momentum and kinetic energy are conserved
+4. Use energy methods when speed and height are involved — they are often simpler than force methods
 
 ## More Worked Examples
 

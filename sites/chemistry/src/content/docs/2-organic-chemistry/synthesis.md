@@ -53,12 +53,14 @@ $\blacksquare$
 ### 1.3 Strategic Bonds
 
 **Theorem 1 (Prioritization of Disconnections):**
+
 1. Disconnections corresponding to the most reliable, high-yielding reactions.
 2. Disconnections that give the simplest (most available) precursors.
 3. Disconnections that remove functional groups or introduce symmetry.
 4. Disconnections that form rings (if cyclic TM).
 
 **Guiding principles:**
+
 - Look for C–C bonds adjacent to functional groups (functionalized disconnections).
 - Break rings at the bond that gives the most linear precursor.
 - Maximize convergence (multiple fragments assembled in the final step).
@@ -118,6 +120,7 @@ $$\text{Nitrile} \xrightarrow{\text{LiAlH}_4} \text{Primary amine}$$
 its participation in a reaction, removable under conditions that do not affect other groups.
 
 **Theorem 3 (Protecting Group Criteria):**
+
 1. Easy to introduce under mild conditions.
 2. Stable to the reaction conditions it must survive.
 3. Easy to remove selectively without affecting other groups.
@@ -197,6 +200,7 @@ $$\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}
 $$\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\text{CHO} \xrightarrow{\text{CH}_3\text{CHO}} \text{CH}_3\text{CH(OH)}\text{CH}_2\text{CHO}$$
 
 **Features:**
+
 - Forms a $\beta$-hydroxy carbonyl compound.
 - Can dehydrate to give an $\alpha,\beta$-unsaturated carbonyl.
 - Crossed aldol: one component must not have $\alpha$-H (or use LDA for regioselective enolate
@@ -226,6 +230,7 @@ $$\text{CH}_3\text{COCH}_2\text{COOEt} \xrightarrow{\text{1. OEt}^- \text{ 2. R�
 $$\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}$$
 
 **Synthetic advantages:**
+
 - Forms 2 C–C bonds and one ring in one step.
 - Highly stereospecific (cis/trans preserved).
 - Regio- and stereoselective (endo rule).
@@ -350,6 +355,7 @@ Prediction rule: "The allylic alcohol is drawn with the OH at bottom right. If L
 ### 6.5 Biocatalysis
 
 Enzymes provide extremely high enantioselectivity under mild conditions:
+
 - **Lipases:** Ester hydrolysis/synthesis with kinetic resolution.
 - **Ketoreductases:** Asymmetric reduction of ketones.
 - **Transaminases:** Asymmetric amination.
@@ -394,10 +400,12 @@ Enzymes provide extremely high enantioselectivity under mild conditions:
 ## Worked Examples
 
 ### Example 1: Retrosynthetic Analysis of an Alcohol
+
 **Problem:** Propose a synthesis of 2-pentanol (CH3CH2CH2CH(OH)CH3) from starting materials of three or fewer carbons.
 **Solution:** Retrosynthesis: 2-pentanol -> Grignard addition to butanal: CH3CH2CH2CHO + CH3MgBr -> 2-pentanol. Butanal can be made from oxidation of 1-butanol or from a Wittig reaction. The Grignard reagent CH3MgBr is made from methyl bromide and Mg. Route: CH3CH2CH2CH2OH (oxidise with PCC) -> CH3CH2CH2CHO + CH3MgBr (dry ether) -> 2-pentanol. All starting materials are within 4 carbons; butanal can alternatively be prepared via hydroboration-oxidation of 1-butene.
 
 ### Example 2: Protecting Group Strategy
+
 **Problem:** Convert 4-hydroxybutanal to 4-(2-hydroxyethyl)phenyl ketone via a Grignard reaction with PhMgBr.
 **Solution:** The hydroxyl group interferes with the Grignard reagent. Protect as a TBS ether: 4-hydroxybutanal + TBSCl, imidazole -> 4-(TBSO)butanal. React with PhMgBr (adds to the aldehyde) -> TBS-protected alcohol. Deprotect with TBAF in THF to give the target. Alternatively, protect as an acetal using ethylene glycol and TsOH, then deprotect with aqueous acid after the Grignard addition.
 

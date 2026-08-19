@@ -578,6 +578,7 @@ nix develop  # Enter the development shell
   inside WSL2 for better performance.
 - **GPU passthrough:** WSL2 supports CUDA GPU passthrough for ML workloads.
 - **Systemd:** Modern WSL2 supports systemd. Enable in `/etc/wsl.conf`:
+
   ```ini
   [boot]
   systemd=true

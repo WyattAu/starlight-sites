@@ -696,16 +696,16 @@ The area under a frequency polygon equals the total frequency (just like a histo
 
 ### Extended Practice (Higher Tier)
 
-21. The probability that it rains on any given day is 0.3. Find the probability that it rains on
+1. The probability that it rains on any given day is 0.3. Find the probability that it rains on
     exactly 2 out of the next 5 days.
 
-22. Two events $A$ and $B$ are mutually exclusive. If $P(A) = 0.35$ and $P(A \cup B) = 0.65$Find
+2. Two events $A$ and $B$ are mutually exclusive. If $P(A) = 0.35$ and $P(A \cup B) = 0.65$Find
     $P(B)$ and $P(A \cap B)$.
 
-23. A set of data has a mean of 50 and a standard deviation of 8. After applying the coding
+3. A set of data has a mean of 50 and a standard deviation of 8. After applying the coding
     $y = \frac{x - 50}{8}$Find the new mean and standard deviation.
 
-24. The table below shows the distribution of exam scores for a class of 40 students:
+4. The table below shows the distribution of exam scores for a class of 40 students:
 
 | Score range        | Frequency |
 | ------------------ | --------- |
@@ -717,21 +717,21 @@ The area under a frequency polygon equals the total frequency (just like a histo
 
 Draw a cumulative frequency curve and estimate the median and interquartile range.
 
-25. A bag contains 3 red, 5 blue, and 2 green marbles. Three marbles are drawn at random without
+1. A bag contains 3 red, 5 blue, and 2 green marbles. Three marbles are drawn at random without
     replacement. Find the probability that exactly two are the same colour.
 
-26. Explain why the mean is affected by outliers but the median is not. Use the data set
+2. Explain why the mean is affected by outliers but the median is not. Use the data set
     $2, 3, 4, 5, 100$ to illustrate your answer.
 
-27. A fair spinner has the numbers 1, 2, 3, 4. It is spun twice. Find the probability that the
+3. A fair spinner has the numbers 1, 2, 3, 4. It is spun twice. Find the probability that the
     product of the two numbers is even.
 
-28. The standard deviation of a data set is zero. What does this tell you about the data?
+4. The standard deviation of a data set is zero. What does this tell you about the data?
 
-29. Two classes sit the same exam. Class A has 20 students with mean 65 and standard deviation 8.
+5. Two classes sit the same exam. Class A has 20 students with mean 65 and standard deviation 8.
     Class B has 30 students with mean 70 and standard deviation 10. Find the overall mean.
 
-30. A card is drawn from a standard deck of 52 cards. Find the probability that it is a heart or a
+6. A card is drawn from a standard deck of 52 cards. Find the probability that it is a heart or a
     face card (or both).
 
 ## Worked Examples

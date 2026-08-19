@@ -279,6 +279,6 @@ about $B$.
 
 3. **Confusing recognisability with decidability for co-RE languages.** A language $L$ is decidable iff both $L$ and its complement $\overline{L}$ are recognisable. The halting problem is recognisable but its complement is not, so it is not decidable. Knowing only that $L$ is recognisable tells you nothing about $\overline{L}$.
 
-4. **Using Rice's theorem incorrectly.** Rice's theorem applies to non-trivial properties of the *language* recognised by a TM, not properties of the TM itself. "Does this TM have 5 states?" is not a property of the language and is therefore decidable. "Does this TM accept a regular language?" is a property of the language and is undecidable by Rice's theorem.
+4. **Using Rice's theorem incorrectly.** Rice's theorem applies to non-trivial properties of the _language_ recognised by a TM, not properties of the TM itself. "Does this TM have 5 states?" is not a property of the language and is therefore decidable. "Does this TM accept a regular language?" is a property of the language and is undecidable by Rice's theorem.
 
-5. **Assuming oracles resolve undecidability.** An oracle for the halting problem lets a TM decide the halting problem, but it cannot decide the halting problem *relative to itself* (the Turing jump). Oracles create a strict hierarchy — each level of oracle makes some problems decidable but introduces new undecidable problems at a higher level.
+5. **Assuming oracles resolve undecidability.** An oracle for the halting problem lets a TM decide the halting problem, but it cannot decide the halting problem _relative to itself_ (the Turing jump). Oracles create a strict hierarchy — each level of oracle makes some problems decidable but introduces new undecidable problems at a higher level.

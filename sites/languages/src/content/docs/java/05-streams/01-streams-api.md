@@ -1159,7 +1159,6 @@ List<String> cities = List.of(user)
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 </aside>
 ## Cross-References
 

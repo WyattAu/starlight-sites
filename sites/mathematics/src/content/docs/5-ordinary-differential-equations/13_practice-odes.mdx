@@ -11,7 +11,6 @@ description: "UNIVERSITY Mathematics practice problems: Ordinary Differential Eq
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **Equations that describe change:** ODEs describe how things change — the speed of a falling object, the growth of a population, the oscillation of a spring. They are the language of physics, engineering, and biology.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### First-Order ODEs
 
 <PracticeProblem client:only="solid-js" question={"What is the general solution of the separable ODE $y' = 2xy$?&quot; options={['$y = Ce^{x^2}$', '$y = Ce^{2x}$', '$y = Ce^{x}$', '$y = Cx^2$']} correctAnswer={0} explanation=&quot;Separate variables: $\frac{dy}{y} = 2x\,dx$. Integrate both sides: $\ln|y| = x^2 + C_1$. Exponentiate: $|y| = e^{C_1} e^{x^2}$, so $y = \pm e^{C_1} \cdot e^{x^2}$. Let $C = \pm e^{C_1}$ (where $C \neq 0$), giving $y = Ce^{x^2}$. The zero function $y = 0$ is also a solution (corresponding to $C = 0$)."} difficulty="easy"  />
@@ -37,7 +35,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"Which of the following is an exact differential equation?&quot; options={[ '$(2x + y)\,dx + (x + 2y)\,dy = 0$', '$(x)\,dx + (y)\,dy = 0$ where the test fails', '$y\,dx - x\,dy = 0$', '$(2xy)\,dx + (x^2)\,dy = 0$', ]} correctAnswer={0} explanation=&quot;For $M\,dx + N\,dy = 0$ to be exact, we need $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$. For $(2x+y)\,dx + (x+2y)\,dy = 0$: $\frac{\partial M}{\partial y} = 1$ and $\frac{\partial N}{\partial x} = 1$. The test passes. The potential function is $\psi(x,y) = x^2 + xy + y^2 = C$. The second option is also exact ($M_y = 0 = N_x$), but the third has $M_y = 1 \neq N_x = -1$ and the fourth has $M_y = 2x \neq N_x = 2x$ — wait, the fourth IS exact. Both the first and fourth options are exact. Among the given choices, the first answer is correct since it passes the exactness test."} difficulty="medium"  />
 
 ---
-
 
 ### Second-Order Linear ODEs
 
@@ -50,7 +47,6 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"Using undetermined coefficients, what is a particular solution of $y'' + y = 3\cos(x)$?&quot; options={[ '$y_p = \frac{3}{2}x \sin(x)$', '$y_p = 3\cos(x)$', '$y_p = \frac{3}{2}\sin(x)$', '$y_p = \frac{3}{2}x \cos(x)$', ]} correctAnswer={0} explanation=&quot;The complementary solution is $y_c = C_1 \cos(x) + C_2 \sin(x)$. Since $\cos(x)$ appears in $y_c$, the standard guess $A\cos(x) + B\sin(x)$ would fail. We multiply by $x$: try $y_p = x(A\cos(x) + B\sin(x))$. Then $y_p' = A\cos(x) + B\sin(x) + x(-A\sin(x) + B\cos(x))$ and $y_p'' = -2A\sin(x) + 2B\cos(x) - x(A\cos(x) + B\sin(x))$. Substituting: $y_p'' + y_p = -2A\sin(x) + 2B\cos(x) = 3\cos(x)$. So $A = 0, B = 3/2$, giving $y_p = \frac{3}{2}x\sin(x)$."} difficulty="hard"  />
 
 ---
-
 
 ### Systems, Laplace Transforms, and Series Solutions
 
@@ -67,6 +63,7 @@ the explanation.
 **Confusing the integrating factor formula for first-order linear ODEs:** For $y' + P(x)y = Q(x)$, the integrating factor is $\mu(x) = e^{\int P(x)\,dx}$, not $e^{\int Q(x)\,dx}$. The factor multiplies the entire equation to make the left side an exact derivative. Applying it to the wrong term gives an incorrect equation that cannot be integrated directly.
 
 **Forgetting the domain of validity for Laplace transforms:** The Laplace transform $\mathcal{L}\{e^{at}\} = 1/(s-a)$ is only valid for $s > a$. When solving initial value problems, you must track the region of convergence to ensure the inverse transform is well-defined. Ignoring this can lead to incorrect solutions or missing terms.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.

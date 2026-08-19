@@ -84,6 +84,7 @@ $$\|f\| = \sup_{\|x\| \leq 1} |f(x)|$$
 complete.
 
 **Examples of dual spaces:**
+
 - $(\ell^p)^* \cong \ell^q$ where $1/p + 1/q = 1$ for $1 \leq p < \infty$.
 - $(c_0)^* \cong \ell^1$, where $c_0$ is the space of sequences converging to $0$.
 - $(L^p(\mu))^* \cong L^q(\mu)$ for $1 \leq p < \infty$ and $1/p + 1/q = 1$.
@@ -141,7 +142,7 @@ A normed space $X$ carries the **weak topology** $\sigma(X, X^*)$, the coarsest 
 all $f \in X^*$ continuous. A sequence converges weakly ($x_n \rightharpoonup x$) if
 $f(x_n) \to f(x)$ for every $f \in X^*$.
 
-The dual space $X^*$ carries the **weak-* topology** $\sigma(X^*, X)$, the coarsest topology
+The dual space $X^*$ carries the __weak-_ topology_* $\sigma(X^*, X)$, the coarsest topology
 making all evaluation maps $x \mapsto f(x)$ continuous.
 
 **Theorem 1.14 (Banach-Alaoglu).** The closed unit ball of $X^*$ is compact in the weak-*

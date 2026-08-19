@@ -173,6 +173,7 @@ Framework:
 2. Show the shift on a diagram
 3. State the new equilibrium price and quantity
 4. Evaluate: what if both curves shift simultaneously?
+
 </aside>
 ### 3.2 Price Mechanism (The Invisible Hand)
 
@@ -757,6 +758,7 @@ in a market economy." Evaluate this statement.
   government intervention to correct market failures and address equity concerns.
 - Conclusion: the statement is too absolute. The price mechanism is the most effective method for
 ALLOCATIVE EFFICIENCY but not for EQUITY or the provision of public goods.
+
 </details>
 
 **Question 3 (12 marks).** A government is considering imposing a maximum price (price ceiling) of
@@ -802,6 +804,7 @@ TOTAL consumer welfare is ambiguous.
 - DWL: $\frac{1}{2}(10 - 7)(20 - 8) = \frac{1}{2}(3)(12) = 18$.
 - Conclusion: the price ceiling benefits some consumers but harms others and creates a net welfare
 loss. The statement that it "benefits consumers" is misleading without qualification.
+
 </details>
 
 ## Common Mistakes
@@ -810,7 +813,7 @@ loss. The statement that it "benefits consumers" is misleading without qualifica
 
 2. **Applying the midpoint formula when point elasticity is asked for.** The midpoint (arc elasticity) formula gives elasticity at the midpoint of a change, not at either endpoint. For precise analysis, use point elasticity. Always check which formula your exam board expects.
 
-3. **Assuming elastic demand always means less revenue.** The relationship between PED and revenue depends on the *direction* of the price change. A price *decrease* with elastic demand *increases* revenue; a price *increase* with elastic demand *decreases* revenue.
+3. **Assuming elastic demand always means less revenue.** The relationship between PED and revenue depends on the _direction_ of the price change. A price _decrease_ with elastic demand _increases_ revenue; a price _increase_ with elastic demand _decreases_ revenue.
 
 4. **Misapplying tax incidence.** The legal incidence (who writes the cheque to the government) does not determine the economic incidence (who bears the burden). The burden depends on relative elasticities: the more inelastic side bears a greater share.
 

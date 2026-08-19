@@ -195,7 +195,6 @@ Verification:
 <aside class="starlight-aside starlight-aside--note">
 On modern hardware, this is negligible even at high throughput.
 
-
 ## Opcodes
 
 | Opcode | Meaning          | Description                          |
@@ -221,7 +220,6 @@ Application:
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 Binary frames (which are for non-text data). If you are sending JSON, use text frames.
-
 
 ## Control Frames
 
@@ -272,7 +270,6 @@ And should be closed.
 <aside class="starlight-aside starlight-aside--caution">
 Frequent pings add overhead without meaningful benefit. Some servers limit the rate of control
 Frames and will close the connection if pings are too frequent.
-
 
 ## Subprotocols
 
@@ -333,7 +330,6 @@ Parameters:
 100 bytes), the compression overhead may exceed the savings. Benchmark with your actual message
 Sizes before enabling. For high-frequency, small-message applications (gaming, financial tickers),
 Compression may not be worthwhile.
-
 
 ## WebSocket API in JavaScript
 
@@ -832,7 +828,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

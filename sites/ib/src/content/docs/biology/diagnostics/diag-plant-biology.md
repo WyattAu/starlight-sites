@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Plant structure (roots, stems, leaves) is optimized for resource capture — water, minerals, light, and CO₂
 
-
 ## Unit Tests
 
 ### UT-1: Photosynthesis Light-Dependent Reactions

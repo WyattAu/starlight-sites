@@ -11,7 +11,6 @@ description: "10 auto-graded practice problems at medium to hard difficulty. Sel
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## University Computing — Discrete Mathematics Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### Propositional Logic and Set Theory
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is logically equivalent to the negation of `p AND (q OR r)`?&quot; options={[ '(NOT p) OR ((NOT q) AND (NOT r))', '(NOT p) AND (NOT q) AND (NOT r)', '(NOT p) OR (NOT q) OR (NOT r)', '(NOT p) AND ((NOT q) OR (NOT r))', ]} correctAnswer={0} explanation=&quot;Apply De Morgan\'s laws twice. Start with NOT(p AND (q OR r)). The first law gives: NOT p OR NOT(q OR r). Then apply De Morgan\'s to NOT(q OR r): (NOT q) AND (NOT r). Final result: (NOT p) OR ((NOT q) AND (NOT r)). De Morgan\'s laws state NOT(A AND B) = (NOT A) OR (NOT B) and NOT(A OR B) = (NOT A) AND (NOT B)."} difficulty="easy"  />
@@ -42,7 +40,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"A relation R on the set {1, 2, 3, 4, 5, 6} is defined by x R y if x is congruent to y (mod 3). How many equivalence classes does R partition the set into?&quot; options={['3', '2', '4', '6']} correctAnswer={0} explanation=&quot;Equivalence classes are determined by remainder mod 3. Class [0]: {3, 6}. Class [1]: {1, 4}. Class [2]: {2, 5}. This gives exactly 3 equivalence classes. Each element belongs to exactly one class, and the classes are disjoint and their union is the full set."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"What is the coefficient of x^3 in the expansion of (2x + 1)^5?&quot; options={['80', '40', '10', '160']} correctAnswer={0} explanation=&quot;By the binomial theorem, (2x+1)^5 = sum from k=0 to 5 of C(5,k) * (2x)^k * 1^(5-k). The x^3 term occurs when k=3: C(5,3) * (2x)^3 * 1^2. C(5,3) = 5!/(3!2!) = 10. (2x)^3 = 8x^3. Coefficient = 10 * 8 = 80."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the coefficient of x^3 in the expansion of (2x + 1)^5?&quot; options={['80', '40', '10', '160']} correctAnswer={0} explanation=&quot;By the binomial theorem, (2x+1)^5 = sum from k=0 to 5 of C(5,k) *(2x)^k* 1^(5-k). The x^3 term occurs when k=3: C(5,3) *(2x)^3* 1^2. C(5,3) = 5!/(3!2!) = 10. (2x)^3 = 8x^3. Coefficient = 10 * 8 = 80."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"From 10 people, how many committees of 5 can be formed if two specific people refuse to serve together?&quot; options={['196', '252', '210', '56']} correctAnswer={0} explanation=&quot;Total committees without restriction: C(10,5) = 252. Subtract committees where both specific people (call them A and B) are included. If A and B are both on the committee, choose the remaining 3 from the other 8 people: C(8,3) = 56. Valid committees: 252 - 56 = 196."} difficulty="hard"  />
 
@@ -51,7 +49,7 @@ the explanation.
 ### Graph Theory
 
 <PracticeProblem client:only="solid-js" question={"Which condition is necessary for a connected graph to have an Euler circuit?&quot; options={[ 'Every vertex has even degree', 'The graph has exactly two vertices of odd degree', 'The graph is a tree', 'The graph has no cycles', ]} correctAnswer={0} explanation=&quot;Euler\'s theorem: a connected graph has an Euler circuit (closed walk using every edge exactly once) if and only if every vertex has even degree. If exactly two vertices have odd degree, the graph has an Euler trail but not a circuit. Trees have no cycles so they cannot have Euler circuits, since a circuit requires returning to the start via edges."} difficulty="medium"  />
-<PracticeProblem client:only="solid-js" question={"A connected planar graph has 6 vertices, each of degree 4. How many edges does it have, and does it have an Euler circuit?&quot; options={[ '12 edges, yes (all degrees are even)', '12 edges, no (degrees are odd)', '24 edges, yes', '6 edges, no', ]} correctAnswer={0} explanation=&quot;By the handshaking lemma: sum of all degrees = 2 * |E|. Sum = 6 * 4 = 24, so |E| = 24/2 = 12 edges. Since every vertex has degree 4 (even), and the graph is connected, it satisfies Euler's condition. The graph has an Euler circuit because all vertices have even degree and the graph is connected."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"A connected planar graph has 6 vertices, each of degree 4. How many edges does it have, and does it have an Euler circuit?&quot; options={[ '12 edges, yes (all degrees are even)', '12 edges, no (degrees are odd)', '24 edges, yes', '6 edges, no', ]} correctAnswer={0} explanation=&quot;By the handshaking lemma: sum of all degrees = 2 *|E|. Sum = 6* 4 = 24, so |E| = 24/2 = 12 edges. Since every vertex has degree 4 (even), and the graph is connected, it satisfies Euler's condition. The graph has an Euler circuit because all vertices have even degree and the graph is connected."} difficulty="hard"  />
 
 ## Common Mistakes
 
@@ -62,6 +60,7 @@ the explanation.
 **Mixing up planar with planar-embedded:** A planar graph can be drawn without edge crossings. A planar embedding is a specific drawing. Don't assume all drawings of a planar graph are planar embeddings.
 
 ## Cross-References
+
 - **[Discrete Mathematics Flashcards](8_flashcards-discrete-mathematics):** Interactive flashcards covering the same discrete math concepts.
 - **[Algorithms](../../../../../typescript/src/content/docs/index):** Algorithm design techniques that apply graph theory from discrete math.
 - **[Mathematics](../../../../../typescript/src/content/docs/index):** University-level mathematics including graph theory and combinatorics.

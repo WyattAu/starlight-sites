@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Development is multidimensional — no single indicator captures the full picture of human progress
 
-
 ## Measuring Development
 
 ### Single Indicators
@@ -134,6 +133,7 @@ Implications for development:
 - Country B may face greater challenges in achieving universal education and health outcomes.
 - However, some inequality may reflect returns to investment in human capital and innovation. The
 Key question is whether inequality is the result of opportunity or structural barriers.
+
 </details>
 
 <details>
@@ -229,6 +229,7 @@ Implications for policy:
 - Country Y should focus on redistributive policies and public investment in health and education.
 - Country X demonstrates that effective social policy can achieve high human development even at
 moderate income levels.
+
 </details>
 
 ## Measuring Development: Advanced (HL Extension)

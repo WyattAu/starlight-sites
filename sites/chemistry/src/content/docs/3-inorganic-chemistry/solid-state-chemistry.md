@@ -30,12 +30,14 @@ orthorhombic, 2 tetragonal, 1 rhombohedral, 1 hexagonal, 3 cubic.
 ### 1.2 Cubic Crystal Systems
 
 **Simple Cubic (SC):**
+
 - Atoms at the 8 corners of a cube.
 - Coordination number (CN) = 6.
 - Atoms per unit cell: $\frac{8 \times 1}{8} = 1$.
 - Packing fraction: $\frac{\pi}{6} \approx 52.4\%$.
 
 **Body-Centered Cubic (BCC):**
+
 - Atoms at 8 corners + 1 at the center.
 - CN = 8.
 - Atoms per unit cell: $\frac{8 \times 1}{8} + 1 = 2$.
@@ -43,6 +45,7 @@ orthorhombic, 2 tetragonal, 1 rhombohedral, 1 hexagonal, 3 cubic.
 - Examples: Fe ($\alpha$), Cr, W, Mo.
 
 **Face-Centered Cubic (FCC / Cubic Close-Packed, CCP):**
+
 - Atoms at 8 corners + 1 at the center of each face.
 - CN = 12.
 - Atoms per unit cell: $\frac{8 \times 1}{8} + \frac{6 \times 1}{2} = 4$.
@@ -134,6 +137,7 @@ $$\Delta U(\text{NaCl}) = \Delta_f H^\circ(\text{NaCl}) - \Delta H_{\text{sub}}(
 $$\Delta U = -\frac{N_A M z^+ z^- e^2}{4\pi\varepsilon_0 r_0}\left(1 - \frac{1}{n}\right)$$
 
 where:
+
 - $M$ is the Madelung constant (depends on structure: NaCl = 1.748, CsCl = 1.763, ZnS = 1.638).
 - $z^+$, $z^-$ are ionic charges.
 - $r_0$ is the distance of closest approach.
@@ -177,10 +181,12 @@ where $n_e$ is the electron concentration, $n_h$ is the hole concentration, and 
 the effective density of states.
 
 **Extrinsic semiconductors:**
+
 - **n-type:** Doped with donors (Group 15 in Si, e.g., P, As) — extra electrons in the conduction band.
 - **p-type:** Doped with acceptors (Group 13 in Si, e.g., B, Al) — holes in the valence band.
 
 **Theorem 5 (pn Junction):** At the interface of p-type and n-type material:
+
 - Depletion region forms (no free carriers).
 - Forward bias: Current flows; reverse bias: Current blocked.
 - Basis of diodes, transistors, and solar cells.
@@ -215,11 +221,13 @@ where $N_i$ is the number of interstitial sites.
 ### 5.2 Non-Stoichiometric Defects
 
 **Metal excess defects:**
+
 - Anion vacancies with trapped electrons (F-centers, color centers). Examples: NaCl heated in Na vapor
   turns yellow (F-centers absorb blue light).
 - Interstitial cations.
 
 **Metal deficiency defects:**
+
 - Cation vacancies with compensating charge (e.g., Fe$_{1-x}$O, where some Fe$^{2+}$ is replaced
   by Fe$^{3+}$ and vacancies maintain charge balance).
 
@@ -286,6 +294,7 @@ cell (glide planes, screw axes, centering).
 **Definition 8 (Polymorphism):** The ability of a solid to exist in more than one crystal structure.
 
 Examples:
+
 - Carbon: diamond (cubic), graphite (hexagonal).
 - Iron: $\alpha$-Fe (BCC, ferromagnetic) → $\gamma$-Fe (FCC, paramagnetic) at 912°C → $\delta$-Fe (BCC).
 - Ti: $\alpha$-Ti (HCP) → $\beta$-Ti (BCC) at 882°C.
@@ -293,6 +302,7 @@ Examples:
 ### 7.2 Alloy Phase Diagrams
 
 **Solid solution:** Atoms of different elements share the same lattice.
+
 - **Substitutional:** Similar-sized atoms (e.g., Cu–Ni).
 - **Interstitial:** Small atoms in the voids of a metal lattice (e.g., C in Fe → steel).
 
@@ -314,6 +324,7 @@ where $R$ is the particle radius.
 $$\frac{A}{V} = \frac{3}{R}$$
 
 As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
+
 - Enhanced reactivity.
 - Lower melting points ($T_m \propto 1/R$ for very small particles).
 - Different mechanical properties.
@@ -370,6 +381,7 @@ where $\Delta$ is the superconducting energy gap.
 ### 10.2 High-Temperature Superconductors
 
 Cuprate superconductors (e.g., YBa$_2$Cu$_3$O$_7$, $T_c = 92$ K):
+
 - Layered perovskite structures with CuO$_2$ planes.
 - $T_c$ depends on oxygen stoichiometry.
 - Iron-based superconductors (e.g., LaFeAsO, $T_c \sim 26$ K).
@@ -389,6 +401,7 @@ Fe$_{1-x}$O: Some Fe$^{2+}$ is oxidized to Fe$^{3+}$, with vacancies maintaining
 mobile ions in a rigid framework.
 
 Examples:
+
 - $\beta$-alumina (Na$^+$ conductivity).
 - AgI above 147°C (Ag$^+$ mobility).
 - Yttria-stabilized zirconia (YSZ, O$^{2-}$ conductivity — used in solid oxide fuel cells).
@@ -428,10 +441,12 @@ Examples:
 ## Worked Examples
 
 ### Example 1: Calculating Density from Unit Cell Parameters
+
 **Problem:** Sodium chloride crystallises in a face-centred cubic structure with a = 564 pm. Calculate the density of NaCl. (M_Na = 23.0, M_Cl = 35.5 g/mol, N_A = 6.022 x 10^23).
 **Solution:** NaCl unit cell contains 4 Na+ and 4 Cl- ions (FCC arrangement). Molar mass of NaCl = 58.5 g/mol. Mass of unit cell = (4 x 58.5) / (6.022 x 10^23) = 3.886 x 10^-22 g. Volume = a^3 = (564 x 10^-10 cm)^3 = 1.795 x 10^-22 cm^3. Density = 3.886 x 10^-22 / 1.795 x 10^-22 = 2.17 g/cm^3. Literature value: 2.16 g/cm^3.
 
 ### Example 2: Predicting Stoichiometry from Radius Ratio
+
 **Problem:** NaCl has r(Na+) = 102 pm and r(Cl-) = 181 pm. Determine the expected coordination geometry using the radius ratio rule.
 **Solution:** Radius ratio = r+/r- = 102/181 = 0.564. For 0.414 < r+/r- < 0.732, the predicted coordination number is 6 (octahedral), matching the observed NaCl (rock salt) structure. If the ratio were below 0.414, tetrahedral (ZnS) coordination would be expected. If above 0.732, cubic (CsCl) coordination.
 

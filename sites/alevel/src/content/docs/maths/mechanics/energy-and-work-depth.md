@@ -565,8 +565,6 @@ Work and energy are two ways of describing the same thing: a force pushing an ob
 
 </aside>
 
-
-
 ## Cross-References
 
 - **[Momentum](05-momentum):** Energy and momentum are conserved

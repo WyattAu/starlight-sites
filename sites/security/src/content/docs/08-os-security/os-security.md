@@ -323,6 +323,7 @@ Common remediation strategies:
    ```
 
 4. **Write a custom policy module:**
+
    ```bash
    audit2allow -M my_custom_policy
    semodule -i my_custom_policy.pp

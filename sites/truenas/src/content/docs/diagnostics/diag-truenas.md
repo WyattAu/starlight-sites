@@ -243,6 +243,7 @@ tableOfContents: false
 **Not monitoring ZFS pool health:** ZFS scrubs should run regularly (monthly). Without scrubs, silent data corruption goes undetected. Configure automatic scrubs and monitor pool status.
 
 **Ignoring network bottlenecks:** TrueNAS performance depends on network speed. 1 Gbps Ethernet limits throughput to ~120 MB/s. For large file transfers, use 10 Gbps Ethernet or link aggregation.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for truenas notes.

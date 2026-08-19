@@ -348,13 +348,13 @@ Check with your teacher).
 - Buying bonds $\Rightarrow$ pays money to sellers $\Rightarrow$ money supply $\uparrow$
 - Selling bonds $\Rightarrow$ takes money from buyers $\Rightarrow$ money supply $\downarrow$
 
-3. **Quantitative easing (QE)**: large-scale asset purchases (government bonds, corporate bonds) by
+1. **Quantitative easing (QE)**: large-scale asset purchases (government bonds, corporate bonds) by
    the central bank to increase the money supply and lower long-term interest rates when the policy
    rate is at or near zero.
 
-4. **Reserve requirements**: changing the minimum reserve ratio (rarely used in the UK).
+2. **Reserve requirements**: changing the minimum reserve ratio (rarely used in the UK).
 
-5. **Forward guidance**: communicating future policy intentions to influence expectations.
+3. **Forward guidance**: communicating future policy intentions to influence expectations.
 
 ### 4.3 Quantitative Easing
 
@@ -659,7 +659,6 @@ Purchase to achieve its target.
 The effective multiplier accounts for excess reserves and cash leakages. Let $rr = 0.05$ (required), $re = 0.03$ (excess), and $c = 0.10$ (cash ratio). Total reserves held per unit of deposits $= rr + re = 0.08$. Each round, only $(1 - c)$ of loans are redeposited. The money multiplier becomes: $m = \frac{1 + c}{rr + re + c} = \frac{1.10}{0.08 + 0.10} = \frac{1.10}{0.18} \approx 6.11$. (a) The effective multiplier is approximately 6.11 (compared to the simple multiplier of $1/0.05 = 20$). (b) Required reserve injection $= \mathrm{target increase} / m = 200 / 6.11 \approx$ GBP 32.7 billion. The central bank must purchase approximately GBP 32.7 billion of bonds. This is much larger than under the simple model (which would suggest only GBP 10 billion needed), illustrating the importance of accounting for cash leakages and excess reserves.
 </details>
 
-
 <aside class="starlight-aside starlight-aside--danger">
 - **Confusing bond prices and bond yields:** Bond prices and interest rates (yields) move in
   OPPOSITE directions. When interest rates rise, existing bonds with lower coupon rates become less
@@ -820,6 +819,7 @@ crisis and the COVID-19 recession." Evaluate this statement.
   ZLB is binding.
 - Conclusion: QE was effective at preventing worse outcomes but was not a panacea. Its limitations
 -- particularly distributional effects and the risk of asset bubbles -- must be acknowledged.
+
 </details>
 
 **Question 2 (12 marks).** Using the liquidity preference theory, explain the impact of an increase
@@ -1192,7 +1192,6 @@ largest component of household wealth.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-
 ## Intuition
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
@@ -1209,4 +1208,5 @@ each approach.
 - [Fiscal Policy](04-fiscal-policy) explains how government borrowing, taxation, and spending interact with financial markets and interest rates.
 - [Aggregate Demand and Supply](02-aggregate-demand-and-supply) shows how changes in the money supply and interest rates shift AD through the monetary policy transmission mechanism.
 - [Market Failure](../microeconomics/03-market-failure) provides the theoretical framework for understanding information asymmetry, adverse selection, and moral hazard in banking.
+
 </aside>

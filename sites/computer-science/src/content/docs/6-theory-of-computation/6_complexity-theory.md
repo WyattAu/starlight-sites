@@ -35,7 +35,7 @@ $M$ **runs in time $t(n)$** if for every input $w$ of length $n$, $M$ halts with
 **Theorem 6.1.** Let $t(n)$ be a function with $t(n) \geq n$. Every TM that runs in time $t(n)$ has
 An equivalent single-tape TM that runs in time $O(t^2(n))$.
 
-_Proof._ A $k$-tape TM running in time $t(n)$ uses at most $t(n)$ tape cells on each tape.
+*Proof.* A $k$-tape TM running in time $t(n)$ uses at most $t(n)$ tape cells on each tape.
 Simulating One step of the $k$-tape machine requires scanning the single-tape simulation from left
 to right To read all $k$ heads, then left to right again to update them. This costs $O(t(n))$ per
 simulated Step. Over $t(n)$ steps, the total is $O(t(n)^2)$. $\blacksquare$
@@ -43,7 +43,7 @@ simulated Step. Over $t(n)$ steps, the total is $O(t(n)^2)$. $\blacksquare$
 **Theorem 6.1a (Time Hierarchy Theorem).** If $t_1, t_2$ are time-constructible functions with
 $t_1(n) \log t_1(n) = o(t_2(n))$Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
 
-_Proof (idea)._ Use diagonalisation. Construct a TM $D$ that on input $x$ of length $n$:
+*Proof (idea).* Use diagonalisation. Construct a TM $D$ that on input $x$ of length $n$:
 
 1. Compute $t_2(n)$ (possible since $t_2$ is time-constructible).
 2. Simulate all TMs $M_1, M_2, \ldots$ in parallel for $t_1(n)$ steps on input $x$.
@@ -98,12 +98,12 @@ The string $c$ is called a **certificate** (or witness).
 
 **Theorem 6.2.** $\mathrm{P \subseteq \mathrm{NP$.
 
-_Proof._ Every deterministic polynomial-time algorithm is a special case of a nondeterministic one
+*Proof.* Every deterministic polynomial-time algorithm is a special case of a nondeterministic one
 (with exactly one choice at each step). Alternatively, the certificate can be empty. $\blacksquare$
 
 **Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$Then $A \in \mathrm{NP$.
 
-_Proof._ Let $V_B$ be the polynomial-time verifier for $B$ and $f$ be the polynomial-time reduction.
+*Proof.* Let $V_B$ be the polynomial-time verifier for $B$ and $f$ be the polynomial-time reduction.
 Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksquare$
 
 **Open question:** $\mathrm{P = \mathrm{NP$? This is the most important open problem in computer
@@ -127,7 +127,7 @@ A language is **NP-hard** if condition (2) holds (it need not be in NP).
 
 **Theorem 6.3 (Cook-Levin, 1971).** $\mathrm{SAT$ is NP-complete.
 
-_Proof (detailed sketch)._
+*Proof (detailed sketch).*
 
 1. $\mathrm{SAT \in \mathrm{NP$: a satisfying assignment is a polynomial-size certificate that can
    be verified in polynomial time.
@@ -179,7 +179,7 @@ accepting computation.
 
 **Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$Then $A \in \mathrm{P$.
 
-_Proof._ To decide $A$ on input $w$: compute $f(w)$ in polynomial time (the reduction), then decide
+*Proof.* To decide $A$ on input $w$: compute $f(w)$ in polynomial time (the reduction), then decide
 $B$ on $f(w)$ in polynomial time. Total: polynomial time. $\blacksquare$
 
 ### 6.5 Classic NP-Complete Problems
@@ -191,7 +191,7 @@ Equivalent clauses with exactly 3 literals using auxiliary variables.
 
 **Theorem 6.5a.** SAT $\leq_p$ 3-SAT.
 
-_Proof._ Given a CNF formula $\phi$Convert each clause to exactly 3 literals:
+*Proof.* Given a CNF formula $\phi$Convert each clause to exactly 3 literals:
 
 - Clause $(l_1)$ (1 literal): replace with
   $(l_1 \lor a \lor b) \land (l_1 \lor a \lor \bar{b}) \land (l_1 \lor \bar{a} \lor b) \land (l_1 \lor \bar{a} \lor \bar{b})$
@@ -211,7 +211,7 @@ $\leq k$?
 
 **Theorem 6.5b.** 3-SAT $\leq_p$ Vertex Cover.
 
-_Proof (sketch)._ Given a 3-CNF formula $\phi$ with $k$ clauses and $n$ variables, construct a graph
+*Proof (sketch).* Given a 3-CNF formula $\phi$ with $k$ clauses and $n$ variables, construct a graph
 $G$:
 
 1. For each variable $x_i$Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
@@ -232,7 +232,7 @@ Has at most one vertex already excluded. $\blacksquare$
 **Reduction:** Vertex Cover $\leq_p$ Clique. $G = (V, E)$ has a vertex cover of size $k$ iff
 $\overline{G} = (V, \overline{E})$ has a clique of size $|V| - k$.
 
-_Proof._ If $C \subseteq V$ is a vertex cover of size $k$ in $G$Then every edge of $G$ has at Least
+*Proof.* If $C \subseteq V$ is a vertex cover of size $k$ in $G$Then every edge of $G$ has at Least
 one endpoint in $C$. So $V \setminus C$ is an independent set in $G$Meaning every pair in
 $V \setminus C$ is an edge in $\overline{G}$. Hence $\overline{G}$ has a clique of size $|V| - k$.
 The converse is analogous. $\blacksquare$
@@ -242,7 +242,7 @@ Once?
 
 **Theorem 6.5c.** Vertex Cover $\leq_p$ Hamiltonian Path (via Hamiltonian Cycle).
 
-_Proof (sketch)._ Given $(G, k)$ for Vertex Cover, construct a graph $G'$ such that $G$ has a Vertex
+*Proof (sketch).* Given $(G, k)$ for Vertex Cover, construct a graph $G'$ such that $G$ has a Vertex
 cover of size $k$ iff $G'$ has a Hamiltonian cycle. The construction uses selection gadgets That
 choose $k$ vertices (the cover), verification gadgets that check every edge is covered, and
 Connecting gadgets that string the selections together into a single cycle. The construction is
@@ -253,7 +253,7 @@ $T$?
 
 **Theorem 6.5d.** 3-SAT $\leq_p$ Subset Sum.
 
-_Proof (sketch)._ Given a 3-CNF formula with variables $x_1, \ldots, x_n$ and clauses
+*Proof (sketch).* Given a 3-CNF formula with variables $x_1, \ldots, x_n$ and clauses
 $C_1, \ldots, C_k$Construct a set of numbers $S$ and target $T$ in decimal.
 
 For each variable $x_i$Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
@@ -308,7 +308,7 @@ Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))$ is the nondeterministic analo
 **Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)$ For
 $s(n) \geq \log n$.
 
-_Proof (sketch)._ To decide whether an NTM using space $s(n)$ accepts, we check reachability in the
+*Proof (sketch).* To decide whether an NTM using space $s(n)$ accepts, we check reachability in the
 Configuration graph. The graph has at most $N = |\Gamma|^{s(n)} \cdot s(n) \cdot |Q|$ nodes, where
 $|\Gamma|$ is the tape alphabet size and $|Q|$ the number of states. A deterministic TM can decide
 Reachability using the recursive algorithm $\mathrm{REACH(u, v, d)$ (can $u$ reach $v$ in at most
@@ -317,7 +317,7 @@ $O(s(n) \cdot \log N) = O(s(n)^2)$. $\blacksquare$
 
 **Corollary 6.7.** $\mathrm{PSPACE = \mathrm{NPSPACE$.
 
-_Proof._
+*Proof.*
 $\mathrm{NPSPACE \subseteq \bigcup_k \mathrm{NSPACE(n^k) \subseteq \bigcup_k \mathrm{SPACE(n^{2k}) = \mathrm{PSPACE$
 by Savitch's theorem. $\blacksquare$
 
@@ -339,11 +339,11 @@ Reduces to it. Key PSPACE-complete problems:
 
 **Theorem 6.9.** TQBF is PSPACE-complete.
 
-_Proof (membership)._ Evaluate the quantifiers recursively. For $\exists x_i \phi$Try both values Of
+*Proof (membership).* Evaluate the quantifiers recursively. For $\exists x_i \phi$Try both values Of
 $x_i$ and recurse. For $\forall x_i \phi$Similarly. At depth $n$Evaluate $\psi$. Each level Uses
 $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 
-_Proof (hardness)._ Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
+*Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
 Computation of a PSPACE TM on input $w$ of length $n$ uses at most $p(n)$ cells for some Polynomial
 $p$. The number of distinct configurations is at most $N = |\Gamma|^{p(n)} \cdot p(n) \cdot |Q|$
 Which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
@@ -397,7 +397,7 @@ $$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subs
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
 
-_Proof._ If $\Sigma_k^P = \Sigma_{k+1}^P = \mathrm{NP}^{\Sigma_k^P}$Then the $\Sigma_k^P$ oracle
+*Proof.* If $\Sigma_k^P = \Sigma_{k+1}^P = \mathrm{NP}^{\Sigma_k^P}$Then the $\Sigma_k^P$ oracle
 Provides no additional power. By induction, $\Sigma_{k+i}^P = \Sigma_k^P$ for all $i \geq 0$ So
 $\mathrm{PH} = \Sigma_k^P$. $\blacksquare$
 
@@ -415,7 +415,7 @@ Instance has a polynomial-time verifiable certificate.
 
 **Theorem 6.11.** If $\mathrm{NP} \neq \mathrm{coNP}$Then $\mathrm{P} \neq \mathrm{NP}$.
 
-_Proof._ If $\mathrm{P} = \mathrm{NP}$Then $\mathrm{P} = \mathrm{coNP}$ (since $\mathrm{P}$ Is
+*Proof.* If $\mathrm{P} = \mathrm{NP}$Then $\mathrm{P} = \mathrm{coNP}$ (since $\mathrm{P}$ Is
 closed under complement), so $\mathrm{NP} = \mathrm{coNP}$. The contrapositive gives the Result.
 $\blacksquare$
 
@@ -468,7 +468,6 @@ polynomial time; whether all Such problems are solvable in polynomial time is th
 A common error is confusing "NP-hard" with "NP-complete": NP-hard means at least as hard as all NP
 problems, but the problem Itself might not be in NP (e.g., the halting problem is NP-hard but
 undecidable).
-
 
 </aside>
 ## Cross-References

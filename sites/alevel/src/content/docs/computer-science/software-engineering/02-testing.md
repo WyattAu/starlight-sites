@@ -331,6 +331,7 @@ However, for 100% **path** coverage, we need 4 test cases (one per quadrant):
 2. (-1, 1) → Q2
 3. (-1, -1) → Q3
 4. (1, -1) → Q4
+
 </details>
 
 **Problem 4.** Write unit tests for a stack's push, pop, and peek operations. Include edge cases.
@@ -403,6 +404,7 @@ Test:
 - Negative items (different branch)
 - Empty list (edge case)
 - Zero (boundary)
+
 </details>
 
 **Problem 6.** Describe the difference between top-down and bottom-up integration testing. What are
@@ -426,6 +428,7 @@ The advantages of each?
 - Advantages: Low-level modules are thoroughly tested; drivers are simpler than stubs
 - Disadvantages: The complete system is not visible until late; interface defects between high-level
 Modules may be found late
+
 </details>
 
 **Problem 7.** Create a decision table for a login system where a user can be:
@@ -816,20 +819,19 @@ Which tests to run.
 - **Regression tests (30 minutes):** Tests for previously-fixed bugs. Run after each commit.
 - **Full suite (2 hours):** Run nightly or before release.
 
-3. **Historical failure rate:** Prioritise tests that have failed most frequently in the past. Tests
+1. **Historical failure rate:** Prioritise tests that have failed most frequently in the past. Tests
    that always pass are less likely to catch new bugs.
 
-4. **Code change proximity:** Tests for code that is "close" (in the call graph) to the changed code
+2. **Code change proximity:** Tests for code that is "close" (in the call graph) to the changed code
    are more likely to fail than tests for unrelated modules.
 
-5. **Risk-based selection:** If the change is to authentication code, prioritise all
+3. **Risk-based selection:** If the change is to authentication code, prioritise all
    security-related tests. If the change is to the UI, prioritise UI tests.
 
 The most practical approach: run smoke tests on every commit, run affected module tests on every
 Pull request, and run the full suite nightly.
 
 </details>
-
 
 ## Common Mistakes
 
@@ -866,4 +868,3 @@ Testing is fundamentally about building confidence in code by systematically che
 The real insight behind testing strategies like white-box and black-box is about perspective. White-box testing lets you peer inside the code and design tests that exercise every path, catching hidden bugs in logic you might otherwise miss. Black-box testing pretends you cannot see the implementation at all and asks: does the system do what the specification says? Both perspectives are essential because they catch different classes of errors. A function might pass every specification test yet still contain an unused code path with a latent bug, or conversely, every line of code might be tested but the specification itself might be wrong.
 
 Test coverage metrics give you a numerical sense of how thoroughly your tests exercise the code, but they are a guide, not a guarantee. Achieving 100% line coverage means every line was executed at least once — but it does not mean every combination of inputs was tried. The practical takeaway is to write tests early, test incrementally, and prioritise the most critical and complex parts of the system. Automated testing turns what would be an impossibly tedious manual task into something that runs in seconds, letting you refactor and extend code with confidence.
-

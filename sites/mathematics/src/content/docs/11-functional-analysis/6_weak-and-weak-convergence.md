@@ -49,6 +49,7 @@ $\|e_n\| = 1$ for all $n$, but $\langle e_n, y\rangle = y_n \to 0$ for every $y 
 ### 6.4 Relationships Between Convergence Types
 
 **Proposition 6.6 (Weak vs. Weak\*).** In a normed space $X$:
+
 - If $X$ is reflexive, then weak and weak\* convergence on $X^*$ coincide.
 - For non-reflexive spaces, weak convergence on $X^*$ implies weak\* convergence, but the converse fails.
 

@@ -434,7 +434,6 @@ Authoritative name server.
 Logging, filtering, or manipulating queries. Choose a resolver you trust (e.g., your own), and
 Understand the privacy policy of any third-party resolver.
 
-
 ## Email Security
 
 ### SPF, DKIM, and DMARC
@@ -820,7 +819,6 @@ Architecture), RFC 6014 (DNSSEC Operational Practices), RFC 7208 (SPF), RFC 6376
 (DMARC), RFC 8446 (TLS 1.3), RFC 8484 (DNS over HTTPS), IEEE 802.1X (Port-Based Network Access
 Control), MITRE ATT&CK (Tactic: Lateral Movement).
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to network security, including key
@@ -841,7 +839,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

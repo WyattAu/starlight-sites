@@ -30,7 +30,7 @@ SAT reading study notes - Grammar
 ## Quick Reference: Punctuation Rules
 
 | Punctuation | Use | Example |
-|------------|-----|---------|
+| ------------ | ----- | --------- |
 | Comma | List items | "apples, bananas, and cherries" |
 | Comma | Introductory clause | "After the meeting, we left" |
 | Comma + conjunction | Join independent clauses | "It was late, so we left" |

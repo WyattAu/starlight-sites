@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The immune system distinguishes self from non-self through antigen recognition, enabling targeted defense without harming the body
 
-
 ## 1. Overview of the Immune System
 
 The immune system is a network of cells, tissues, and organs that defends the body against pathogens
@@ -85,13 +84,13 @@ Phagocytes (neutrophils, macrophages, and dendritic cells) engulf and destroy pa
 - **Indirect binding** via opsonins (antibodies or complement $\mathrm{C3b}$) coating the pathogen
   surface.
 
-3. **Engulfment**: pseudopodia extend around the pathogen, enclosing it in a membrane-bound vesicle
+1. **Engulfment**: pseudopodia extend around the pathogen, enclosing it in a membrane-bound vesicle
    called a **phagosome**.
-4. **Digestion**: the phagosome fuses with a **lysosome**, forming a **phagolysosome**. Hydrolytic
+2. **Digestion**: the phagosome fuses with a **lysosome**, forming a **phagolysosome**. Hydrolytic
    enzymes (proteases, lipases, nucleases, lysozyme) and reactive oxygen species
    ($\mathrm{H}_2\mathrm{O}_2$Superoxide radicals) degrade the pathogen.
-5. **Exocytosis**: indigestible material is expelled from the cell.
-6. **Antigen presentation**: peptide fragments of the digested pathogen are displayed on MHC
+3. **Exocytosis**: indigestible material is expelled from the cell.
+4. **Antigen presentation**: peptide fragments of the digested pathogen are displayed on MHC
    molecules on the phagocyte surface, initiating the adaptive immune response (see Section 4).
 
 **Neutrophils** are short-lived (circulate for $6$--$10$ hours), abundant, and are the first
@@ -773,15 +772,15 @@ Allergies are exaggerated IgE-mediated immune responses to harmless environmenta
 
 **Challenge (subsequent exposure):**
 
-4. The allergen cross-links IgE molecules on the surface of sensitised mast cells.
-5. Mast cells **degranulate**, releasing:
+1. The allergen cross-links IgE molecules on the surface of sensitised mast cells.
+2. Mast cells **degranulate**, releasing:
 
 - **Histamine**: vasodilation, increased capillary permeability, bronchoconstriction, mucus
   production.
 - **Heparin**: anticoagulant.
 - **Proteases**: tissue damage.
 
-6. **Late-phase reaction** ($4$--$12$ hours): cytokines (IL-4, IL-5, IL-13) recruit eosinophils,
+1. **Late-phase reaction** ($4$--$12$ hours): cytokines (IL-4, IL-5, IL-13) recruit eosinophils,
    which release inflammatory mediators, causing sustained inflammation.
 
 ### Symptoms
@@ -1295,7 +1294,7 @@ Antibiotic treatment of streptococcal pharyngitis reduces the risk of developing
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Cell biology and phagocytosis** --> Review
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)

@@ -239,7 +239,6 @@ $\blacksquare$
 
 </details>
 
-
 </aside>
 
 ## Common Mistakes

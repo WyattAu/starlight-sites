@@ -496,8 +496,6 @@ Mayo, Ireland.
 > GLAMOS Swiss Glacier Monitoring; Evans, _Glacial Geomorphology_ (2013); Lake District National
 > Park data; IPCC AR6.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

@@ -23,6 +23,7 @@ categories:
 ## Exchange and Transport
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
+>
 ## 1. Surface Area to Volume Ratio
 
 ### 1.1 The Fundamental Constraint
@@ -1144,9 +1145,9 @@ The remaining 10% of tissue fluid is returned to the circulation via the **lymph
 - Pressure changes during breathing.
 - Valves in the lymphatic vessels preventing backflow.
 
-3. Lymph passes through **lymph nodes**, where lymphocytes and macrophages filter out pathogens and
+1. Lymph passes through **lymph nodes**, where lymphocytes and macrophages filter out pathogens and
    debris.
-4. Lymph is returned to the blood via the thoracic duct (left) and right lymphatic duct, which empty
+2. Lymph is returned to the blood via the thoracic duct (left) and right lymphatic duct, which empty
    into the subclavian veins near the heart.
 
 ### 16.3 Oedema
@@ -2022,7 +2023,6 @@ For oxygen diffusing across the alveolar membrane:
 4. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
 
-
 ## Intuition
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
@@ -2037,7 +2037,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

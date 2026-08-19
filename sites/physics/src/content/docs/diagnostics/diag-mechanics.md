@@ -243,6 +243,7 @@ tableOfContents: false
 **Forgetting that acceleration is the second derivative of position:** Many students use v = at for non-constant acceleration. Only valid for constant acceleration; otherwise use calculus.
 
 **Neglecting that momentum is conserved only when net external force is zero:** Internal forces cancel by Newton's third law, but external forces change total momentum. Always check the system boundary.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for physics notes.

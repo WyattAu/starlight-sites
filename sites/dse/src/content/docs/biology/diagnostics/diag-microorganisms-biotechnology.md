@@ -450,8 +450,6 @@ populations; playing God -- some people have religious or moral objections to mo
 code of organisms; patenting of life -- companies patenting GM organisms raises concerns about
 corporate control of living resources.)
 
-
-
 ## Cross-References
 
 - **[Cell Biology](../cell-biology):** Cell biology supports physiology

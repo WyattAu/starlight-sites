@@ -556,8 +556,6 @@ South Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool H
 > earthquake data; NOAA National Hurricane Center; Haitian government reports; Japanese
 > Meteorological Agency; IPCC AR6.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

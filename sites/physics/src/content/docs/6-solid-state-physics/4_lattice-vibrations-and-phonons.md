@@ -241,7 +241,6 @@ measurement of The full phonon dispersion relation $\omega(\mathbf{q})$.
 Time-of-flight and triple-axis spectrometers are the primary instruments used. Neutron scattering
 Has provided definitive measurements of phonon dispersions in virtually all important crystals.
 
-
 </aside>
 
 ## Intuition

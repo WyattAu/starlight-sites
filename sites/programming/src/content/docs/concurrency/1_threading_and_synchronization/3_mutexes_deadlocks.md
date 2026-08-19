@@ -714,7 +714,6 @@ int main() {
 `get_expensive()` concurrently. Internally, it uses a combination of atomic flags and a mutex, but
 The fast path (already initialized) is a single atomic load.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to mutexes, shared locks, and
@@ -732,6 +731,7 @@ A thorough understanding of these concepts, combined with regular practice and r
 for mastery of this topic.
 
 ## See Also
+
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -741,4 +741,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

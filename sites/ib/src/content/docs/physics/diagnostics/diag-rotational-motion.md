@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Rotational dynamics extends Newton's laws to spinning objects, where the distribution of mass matters as much as the total mass
 
-
 ## Unit Tests
 
 ### UT-1: Torque Calculation with Perpendicular Distance Trap

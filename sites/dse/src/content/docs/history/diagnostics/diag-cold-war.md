@@ -92,7 +92,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | Kennan's containment policy argued for preventing Soviet expansion through economic, political, and military measures. |
 | 2 | (B) | The Truman Doctrine pledged American support for nations resisting communist subversion or aggression. |
 | 3 | (B) | North Korea's invasion of South Korea on 25 June 1950 triggered the Korean War. |

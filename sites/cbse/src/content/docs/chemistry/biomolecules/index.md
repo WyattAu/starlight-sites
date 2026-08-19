@@ -98,7 +98,7 @@ Product: glycylalanine (Gly-Ala)
 **Solution:**
 
 | Feature | DNA | RNA |
-|---------|-----|-----|
+| --------- | ----- | ----- |
 | Sugar | Deoxyribose | Ribose |
 | Strands | Double helix | In most cases single strand |
 | Bases | A, T, G, C | A, U, G, C |

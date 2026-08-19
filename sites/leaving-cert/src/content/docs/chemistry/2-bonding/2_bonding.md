@@ -358,20 +358,20 @@ See the examples integrated throughout the sections above.
 
 ### Extended Questions
 
-5. Draw dot-and-cross diagrams for (a) $\mathrm{MgO$ and (b) $\mathrm{H_2\mathrm{S$.
-6. Explain why graphite conducts electricity but diamond does not, in terms of bonding and
+1. Draw dot-and-cross diagrams for (a) $\mathrm{MgO$ and (b) $\mathrm{H_2\mathrm{S$.
+2. Explain why graphite conducts electricity but diamond does not, in terms of bonding and
    structure.
-7. Use VSEPR theory to predict the shapes of $\mathrm{XeF_4$ and $\mathrm{BrF_5$.
-8. Explain why the boiling point increases in the order
+3. Use VSEPR theory to predict the shapes of $\mathrm{XeF_4$ and $\mathrm{BrF_5$.
+4. Explain why the boiling point increases in the order
    $\mathrm{CH_4 \lt \mathrm{SiH_4 \lt
  \mathrm{GeH_4 \lt \mathrm{SnH_4$ but
    $\mathrm{NH_3 \gt \mathrm{PH_3$.
-9. Compare and contrast the properties of ionic, covalent, and metallic bonding in a table.
-10. Explain the term "hybridisation" and describe how it accounts for the shapes of $\mathrm{CH_4$
+5. Compare and contrast the properties of ionic, covalent, and metallic bonding in a table.
+6. Explain the term "hybridisation" and describe how it accounts for the shapes of $\mathrm{CH_4$
     $\mathrm{C_2\mathrm{H_4$And $\mathrm{C_2\mathrm{H_2$.
-11. Describe the structure and bonding in sodium chloride, including a description of the ionic
+7. Describe the structure and bonding in sodium chloride, including a description of the ionic
     lattice.
-12. Explain why $\mathrm{BeCl_2$ is covalent while $\mathrm{CaCl_2$ is ionic, referring to the
+8. Explain why $\mathrm{BeCl_2$ is covalent while $\mathrm{CaCl_2$ is ionic, referring to the
     concept of polarising power.
 
 ---
@@ -621,18 +621,18 @@ The reaction is exothermic, consistent with combustion.
 
 ## Practice Questions (Extended)
 
-13. Explain why the bond length of C=C is shorter than C-C, and why C≡C is shorter than C=C.
-14. Draw all the resonance structures of the nitrate ion ($\mathrm{NO_3^-$) and explain the
+1. Explain why the bond length of C=C is shorter than C-C, and why C≡C is shorter than C=C.
+2. Draw all the resonance structures of the nitrate ion ($\mathrm{NO_3^-$) and explain the
     experimental evidence for resonance.
-15. Use MO theory to explain why $\mathrm{O_2$ is paramagnetic but $\mathrm{N_2$ is diamagnetic.
-16. Calculate the bond order of $\mathrm{He_2$ using MO theory and explain why $\mathrm{He_2$ does
+3. Use MO theory to explain why $\mathrm{O_2$ is paramagnetic but $\mathrm{N_2$ is diamagnetic.
+4. Calculate the bond order of $\mathrm{He_2$ using MO theory and explain why $\mathrm{He_2$ does
     not exist as a stable molecule.
-17. Explain why $\mathrm{AlCl_3$ sublimes at a relatively low temperature and forms dimer molecules
+5. Explain why $\mathrm{AlCl_3$ sublimes at a relatively low temperature and forms dimer molecules
     $\mathrm{Al_2\mathrm{Cl_6$ in the gas phase.
-18. Describe the structure and bonding in diamond and explain why diamond is used as an abrasive.
-19. Explain why the melting point of $\mathrm{NaF$ ($993°C$) is higher than that of $\mathrm{NaCl$
+6. Describe the structure and bonding in diamond and explain why diamond is used as an abrasive.
+7. Explain why the melting point of $\mathrm{NaF$ ($993°C$) is higher than that of $\mathrm{NaCl$
     ($801°C$), despite $\mathrm{F^-$ being smaller than $\mathrm{Cl^-$.
-20. Using bond enthalpy data, estimate $\Delta H$ for the reaction:
+8. Using bond enthalpy data, estimate $\Delta H$ for the reaction:
     $\mathrm{N_2 + 3\mathrm{H_2 \to 2\mathrm{NH_3$.
 
 ---
@@ -841,19 +841,19 @@ In reality, all four S-O bonds are equivalent due to resonance.
 
 ## Practice Questions (Further Extended)
 
-21. Draw Lewis structures for the following molecules/ions and assign formal charges: (a)
+1. Draw Lewis structures for the following molecules/ions and assign formal charges: (a)
     $\mathrm{CO_3^{2-}$(b) $\mathrm{SO_3$(c) $\mathrm{NO_2^-$(d) $\mathrm{XeO_4$.
 
-22. Explain the trend in boiling points for the noble gases and relate this to intermolecular
+2. Explain the trend in boiling points for the noble gases and relate this to intermolecular
     forces.
 
-23. Use MO theory to determine the bond order of $\mathrm{F_2$$\mathrm{O_2$And $\mathrm{N_2$. How
+3. Use MO theory to determine the bond order of $\mathrm{F_2$$\mathrm{O_2$And $\mathrm{N_2$. How
     does bond order relate to bond length and bond strength?
 
-24. Describe how the properties of graphite make it useful as a lubricant and as an electrode
+4. Describe how the properties of graphite make it useful as a lubricant and as an electrode
     material.
 
-25. Explain why ice is less dense than liquid water, referring to hydrogen bonding and the structure
+5. Explain why ice is less dense than liquid water, referring to hydrogen bonding and the structure
     of the ice lattice.
 
 ## Summary

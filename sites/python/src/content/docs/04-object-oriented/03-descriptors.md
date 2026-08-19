@@ -923,4 +923,3 @@ Descriptors are objects that define `__get__`, `__set__`, or `__delete__` method
 - [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)
 - [Metaclasses](../../../../../languages/src/content/docs/python/04-object-oriented/02-metaclasses)
 - [Protocols and Dunder Methods](../../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods)
-

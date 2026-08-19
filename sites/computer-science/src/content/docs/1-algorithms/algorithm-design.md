@@ -123,12 +123,12 @@ Compare $f(n)$ with $n^{\log_b a}$:
 
 **Examples:**
 
-| Recurrence                          | $a$ | $b$ | $n^{\log_b a}$ | $f(n)$    | Case | Result             |
+| Recurrence | $a$ | $b$ | $n^{\log_b a}$ | $f(n)$ | Case | Result |
 | ----------------------------------- | --- | --- | -------------- | --------- | ---- | ------------------ |
-| $T(n) = 2T(n/2) + n$               | 2   | 2   | $n$            | $n$       | 2    | $\Theta(n \log n)$ |
-| $T(n) = 4T(n/2) + n$               | 4   | 2   | $n^2$          | $n$       | 1    | $\Theta(n^2)$     |
-| $T(n) = 4T(n/2) + n^2 \log n$      | 4   | 2   | $n^2$          | $n^2 \log n$ | 2 (k=1) | $\Theta(n^2 \log^2 n)$ |
-| $T(n) = 2T(n/2) + n^2$             | 2   | 2   | $n$            | $n^2$     | 3    | $\Theta(n^2)$     |
+| $T(n) = 2T(n/2) + n$ | 2 | 2 | $n$ | $n$ | 2 | $\Theta(n \log n)$ |
+| $T(n) = 4T(n/2) + n$ | 4 | 2 | $n^2$ | $n$ | 1 | $\Theta(n^2)$ |
+| $T(n) = 4T(n/2) + n^2 \log n$ | 4 | 2 | $n^2$ | $n^2 \log n$ | 2 (k=1) | $\Theta(n^2 \log^2 n)$ |
+| $T(n) = 2T(n/2) + n^2$ | 2 | 2 | $n$ | $n^2$ | 3 | $\Theta(n^2)$ |
 
 ## 2. Greedy Algorithms
 
@@ -269,6 +269,7 @@ FIB(n):
 ```
 
 **When to use which:**
+
 - Memoization: When not all subproblems are needed.
 - Tabulation: When all subproblems are needed (often more space-efficient with table optimization).
 
@@ -528,10 +529,12 @@ TSP_RECURSE(cost, path, visited, curr, curr_cost, best):
 ## Worked Examples
 
 ### Example 1: Applying the Master Theorem
+
 **Problem:** Solve the recurrence T(n) = 4T(n/2) + n^2 log n.
 **Solution:** a=4, b=2, f(n)=n^2 log n. n^{log_b a} = n^{log_2 4} = n^2. f(n) = n^2 log n = n^{log_b a} * log n. This fits Case 2 of the Master theorem (polylogarithmic factor). T(n) = Theta(n^2 log^2 n).
 
 ### Example 2: Greedy vs Dynamic Programming
+
 **Problem:** Given a set of coin denominations {1, 3, 4} and a target amount of 6, find the minimum number of coins. Does the greedy approach work?
 **Solution:** Greedy: take largest coin first: 4 + 1 + 1 = 3 coins. Optimal: 3 + 3 = 2 coins. Greedy fails here because the coin denominations are not canonical. Dynamic programming: dp[0]=0, dp[1]=1, dp[2]=2, dp[3]=1, dp[4]=1, dp[5]=2, dp[6]=2. Optimal solution: 2 coins (two 3s).
 
@@ -550,7 +553,7 @@ Algorithm design is the art of solving problems efficiently. Divide and conquer 
 ## Cross-References
 
 | Topic | Link |
-|-------|------|
+| ------- | ------ |
 | Data Structures | [View](data-structures) |
 | Algorithms Overview | [View](/docs_infrastructure/cs/algorithms-overview) |
 | Complexity Theory | [View](complexity-theory) |

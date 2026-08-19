@@ -152,6 +152,7 @@ DNS (Domain Name System) translates human-readable domain names into IP addresse
 **DNS resolution** is the process of translating a domain name to an IP address. Your device queries a recursive resolver, which queries root servers, TLD servers, and authoritative servers in sequence. The result is cached at each level to reduce future lookups.
 
 **DNS record types** serve different purposes:
+
 - **A** maps a domain to an IPv4 address
 - **AAAA** maps a domain to an IPv6 address
 - **CNAME** creates an alias from one domain to another

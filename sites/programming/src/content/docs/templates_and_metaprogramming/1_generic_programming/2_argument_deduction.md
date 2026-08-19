@@ -214,6 +214,7 @@ Following are **not** forwarding references:
   parameter)
 - `T&amp;&amp;` in a class template member function where T is the class template parameter
 - `const T&amp;&amp;` (the `const` prevents the forwarding reference interpretation)
+
 </aside>
 ### Array-to-Pointer and Function-to-Pointer Decay
 
@@ -894,4 +895,3 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

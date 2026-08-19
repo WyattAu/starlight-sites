@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### Complexity Analysis
 
 **Question 1.** What is the time complexity of binary search on a sorted array of n elements?
@@ -29,7 +28,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 2.** Which of the following operations has O(1) average-case complexity in a hash table?
 
 (A) Searching for an element
@@ -42,7 +40,6 @@ sidebar_position: 50
 **Explanation:** Hash table lookup (insert, delete, search) has O(1) average-case complexity under the assumption of a good hash function and reasonable load factor. Finding the minimum requires scanning all buckets, which is O(n). Iterating in sorted order is not supported by hash tables. Removing all elements is O(n) regardless.
 
 ---
-
 
 ### Sorting
 
@@ -59,7 +56,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 4.** Which sorting algorithm is most efficient for nearly sorted data?
 
 (A) HeapSort
@@ -73,7 +69,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 5.** What is the space complexity of MergeSort?
 
 (A) O(1)
@@ -86,7 +81,6 @@ sidebar_position: 50
 **Explanation:** MergeSort requires O(n) auxiliary space for the temporary arrays used during the merge step. The recursion depth is O(log n), but the dominant space requirement is the O(n) temporary storage for merging. In-place merge algorithms exist but are complex and not used in standard implementations.
 
 ---
-
 
 ### Searching
 
@@ -103,7 +97,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 7.** Which data structure provides O(1) worst-case lookup, insertion, and deletion?
 
 (A) Balanced binary search tree
@@ -116,7 +109,6 @@ sidebar_position: 50
 **Explanation:** Direct addressing uses an array where each index corresponds to a key, providing O(1) worst-case operations. A standard hash table provides O(1) average but O(n) worst case due to collisions. Balanced BSTs provide O(log n). Skip lists provide O(log n) expected. Heaps provide O(1) for min/max but O(log n) for insertion and deletion.
 
 ---
-
 
 ### Graph Algorithms
 
@@ -133,7 +125,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 9.** Dijkstra's algorithm finds shortest paths in a graph with:
 
 (A) Negative edge weights only
@@ -147,7 +138,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 10.** Topological sorting is applicable to:
 
 (A) Undirected graphs
@@ -160,7 +150,6 @@ sidebar_position: 50
 **Explanation:** Topological sorting produces a linear ordering of vertices in a directed acyclic graph such that for every directed edge (u, v), vertex u comes before vertex v. Cycles make topological ordering impossible because no valid linear ordering can satisfy all edge constraints. Topological sort is used in task scheduling, build systems, and course prerequisite ordering.
 
 ---
-
 
 ### Dynamic Programming
 
@@ -177,7 +166,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 12.** What is the time complexity of computing the nth Fibonacci number using dynamic programming (bottom-up)?
 
 (A) O(2^n)
@@ -191,7 +179,6 @@ sidebar_position: 50
 
 ---
 
-
 **Question 13.** The knapsack problem is solvable in pseudo-polynomial time using dynamic programming because:
 
 (A) The solution depends only on the number of items
@@ -204,7 +191,6 @@ sidebar_position: 50
 **Explanation:** The 0/1 knapsack dynamic programming solution builds a table of size n x W where n is the number of items and W is the capacity. The time complexity is O(nW), which is polynomial in n and W but exponential in the bit-length of W (since W can be represented in log W bits). This makes it pseudo-polynomial, not truly polynomial. The knapsack problem is NP-complete as a rule.
 
 ---
-
 
 ### Advanced Topics
 
@@ -220,7 +206,6 @@ sidebar_position: 50
 **Explanation:** The Master Theorem solves recurrences of the form T(n) = aT(n/b) + f(n) for divide-and-conquer algorithms. The condition a >= 1 means at least one subproblem is solved, b > 1 means the problem size decreases, and f(n) represents the cost of dividing and combining. The theorem provides three cases based on the relationship between f(n) and n^(log_b(a)).
 
 ---
-
 
 **Question 15.** A hash table with a good hash function and load factor less than 0.75 provides which performance guarantee?
 

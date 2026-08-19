@@ -210,7 +210,7 @@ $$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \time
 
 | Quantity | Formula | Unit |
 | --- | --- | --- |
-| Coulomb's law | $F = k\frac{|q_1 q_2|}{r^2}$ | N |
+| Coulomb's law | $F = k\frac{ | q_1 q_2 | }{r^2}$ | N |
 | Electric field (point charge) | $E = k\frac{q}{r^2}$ | N/C or V/m |
 | Electric potential (point charge) | $V = k\frac{q}{r}$ | V |
 | Capacitance (parallel plate) | $C = \frac{\varepsilon_0 A}{d}$ | F |
@@ -221,11 +221,11 @@ $$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \time
 
 ## Additional Exam Tips
 
-11. For conductors in electrostatic equilibrium, the electric field just outside the surface is $E = \sigma/\varepsilon_0$, where $\sigma$ is the surface charge density.
-12. The potential inside a uniformly charged spherical shell is constant and equals the potential at the surface.
-13. For a system of charges, the total potential energy is the sum over all pairs: $U = \sum_{i<j} \frac{kq_i q_j}{r_{ij}}$.
-14. When a dielectric is inserted into a capacitor connected to a battery, the voltage remains constant but the charge increases by a factor of $K$.
-15. When a dielectric is inserted into an isolated capacitor (battery disconnected), the charge remains constant but the voltage decreases by a factor of $K$.
+1. For conductors in electrostatic equilibrium, the electric field just outside the surface is $E = \sigma/\varepsilon_0$, where $\sigma$ is the surface charge density.
+2. The potential inside a uniformly charged spherical shell is constant and equals the potential at the surface.
+3. For a system of charges, the total potential energy is the sum over all pairs: $U = \sum_{i<j} \frac{kq_i q_j}{r_{ij}}$.
+4. When a dielectric is inserted into a capacitor connected to a battery, the voltage remains constant but the charge increases by a factor of $K$.
+5. When a dielectric is inserted into an isolated capacitor (battery disconnected), the charge remains constant but the voltage decreases by a factor of $K$.
 
 ## Common Mistakes
 

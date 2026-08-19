@@ -78,7 +78,6 @@ $$
 
 (We take the positive root since $y(0) = 2 \gt 0$.)
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -93,7 +92,6 @@ Apply the initial condition: $\ln 3 = 0 + C \implies C = \ln 3$.
 $$
 \ln|y| = x^2 + \ln 3 \implies |y| = e^{x^2 + \ln 3} = 3e^{x^2} \implies y = 3e^{x^2}
 $$
-
 
 ### Worked Example: Separation with Partial Fractions
 
@@ -208,7 +206,6 @@ $$
 
 (Equivalently, $25\% = \frac{1}{4} = 2^{-2}$So $t = 2 \times 5730 = 11460$ years.)
 
-
 ### Doubling Time
 
 For exponential growth with doubling time $T_d$:
@@ -304,7 +301,6 @@ $$
 
 So approximately 559 bacteria.
 
-
 ## Slope Fields
 
 A **slope field** (or direction field) is a graphical representation of a first-order DE
@@ -337,7 +333,6 @@ For $\displaystyle\frac{dy}{dx} = x + y$:
 
 The slopes increase as you move to the upper-right and decrease as you move to the lower-left.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -347,7 +342,6 @@ When $y \gt 0$: slopes have the same sign as $x$. When $y \lt 0$: slopes have th
 $x$. When $y = 0$: slopes are undefined (vertical line segments).
 
 The solution curves are hyperbolas $y^2 - x^2 = C$Consistent with our earlier analytic solution.
-
 
 ## Euler's Method (CED Unit 7.6)
 
@@ -396,7 +390,6 @@ So $y(2) \approx 1.5$.
 
 (The exact solution is $y = e^{x-1} - x - 1$Giving $y(2) = e - 3 \approx -0.282$. The Approximation
 is poor due to the large step size. With $\Delta x = 0.1$The result is much closer.)
-
 
 ### Worked Example: More Steps
 
@@ -459,7 +452,6 @@ $$
 T = \frac{\ln(14/3)}{k} = \frac{10\ln(14/3)}{\ln(7/4)} \approx \frac{10 \times 1.540}{0.5596} \approx 27.5 \mathrm{ minutes
 $$
 
-
 ### Mixing Problems
 
 A tank contains $V$ liters of water with $Q_0$ kg of dissolved substance. Solution with
@@ -502,7 +494,6 @@ $$
 $$
 Q(20) = 50(1 - e^{-1}) \approx 50(1 - 0.368) \approx 31.6 \mathrm{ kg
 $$
-
 
 ### Worked Example: Mixing with Variable Volume
 
@@ -603,7 +594,6 @@ Equilibria: $y = 0$, $y = 2$, $y = 5$.
 - $y = 0$: arrows point away -- **unstable**
 - $y = 2$: arrows point inward -- **stable**
 - $y = 5$: arrows point away -- **unstable**
-
 
 ## Bifurcation Analysis (CED Unit 7.9)
 
@@ -932,7 +922,6 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Intuition
 

@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Functional groups are the reactive parts of organic molecules — understanding them allows prediction of chemical behavior
 
-
 ## Unit Tests
 
 ### UT-1: $S_N1$ vs $S_N2$ Mechanism Prediction

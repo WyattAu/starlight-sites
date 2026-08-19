@@ -96,10 +96,10 @@ $ git stash push --keep-index
 This is useful when you want to test only your staged changes:
 
 ```bash
-$ git add .
-$ git stash push --keep-index -m "Test staged changes"
-$ npm test  # Test only the staged changes
-$ git stash pop  # Restore everything
+git add .
+git stash push --keep-index -m "Test staged changes"
+npm test  # Test only the staged changes
+git stash pop  # Restore everything
 ```
 
 ### List Stashes

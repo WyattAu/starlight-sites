@@ -467,7 +467,7 @@ public:
 };
 ```
 
-2. **Returning a function parameter (by value):** When a function takes a parameter by value and
+1. **Returning a function parameter (by value):** When a function takes a parameter by value and
    returns it, the implicit move rule applies to the parameter. However, some older compilers may
    not implement this correctly. Using `std::move` is defensive but not necessary on conforming
    C++11+ compilers.
@@ -482,7 +482,7 @@ std::string transform(std::string s) {
 }
 ```
 
-3. **Returning through a wrapper that does not support NRVO:** When the return expression goes
+1. **Returning through a wrapper that does not support NRVO:** When the return expression goes
    through a helper function or a type cast that obscures the named variable, NRVO cannot apply.
 
 ```cpp
@@ -985,4 +985,3 @@ C++. Don't avoid returning objects because you're worried about copies — the c
 in standard practice elide them entirely. But do ensure your move constructors are correct, because NRVO is
 not guaranteed and the compiler may fall back to moving. Write simple, single-return-point
 functions to maximize the compiler's ability to apply NRVO.
-

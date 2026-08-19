@@ -247,7 +247,7 @@ Under time pressure, you must be selective. Omit:
 
 ### Time Management
 
-#### For a 45-minute unseen essay:
+#### For a 45-minute unseen essay
 
 | Activity      | Time          |
 | ------------- | ------------- |
@@ -257,7 +257,7 @@ Under time pressure, you must be selective. Omit:
 | Writing       | 30-32 minutes |
 | Checking      | 2-3 minutes   |
 
-#### For a 60-minute comparative unseen essay:
+#### For a 60-minute comparative unseen essay
 
 | Activity           | Time          |
 | ------------------ | ------------- |
@@ -369,7 +369,6 @@ nature at its most vast and uncontrollable. This olfactory detail grounds the pa
 experience while also suggesting the presence of something beyond the narrator's comprehension. The
 sea, associated throughout the novel with Rebecca's death, functions as a foreshadowing detail that
 the first-time reader cannot yet fully interpret.
-
 
 ## Intuition
 

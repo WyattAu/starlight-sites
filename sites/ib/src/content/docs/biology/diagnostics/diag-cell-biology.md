@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Cell structure is inseparable from function — each organelle's design enables its specific role
 
-
 ## Unit Tests
 
 ### UT-1: Prokaryotic vs Eukaryotic Cell Comparison

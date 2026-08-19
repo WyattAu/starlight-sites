@@ -140,6 +140,7 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 **Assuming Tollens' test works for all carbonyl compounds.** Only aldehydes (and alpha-hydroxy ketones) reduce Tollens' reagent to give a silver mirror. Ketones like acetone do not react because they lack the hydrogen atom on the carbonyl carbon needed for oxidation. This is a key distinction between aldehydes and ketones.
 
 **Confusing the Cannizzaro reaction with the aldol reaction.** The Cannizzaro reaction requires aldehydes that have no alpha-hydrogen atoms (such as benzaldehyde or formaldehyde). These undergo disproportionation in concentrated base, not self-addition. Only aldehydes with at least one alpha-hydrogen can undergo aldol condensation.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for CBSE notes.

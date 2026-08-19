@@ -219,6 +219,7 @@ each approach.
 步骤1：总取法数为 $\binom{6}{2} = 15$ 种。
 
 步骤2：$a + b$ 为偶数当且仅当 $a$ 和 $b$ 同奇或同偶。
+
 - 奇数集合：$\{1, 3, 5\}$，取法数 $\binom{3}{2} = 3$
 - 偶数集合：$\{2, 4, 6\}$，取法数 $\binom{3}{2} = 3$
 
@@ -239,6 +240,7 @@ each approach.
 步骤2：令 $f'(x) = 0$，得 $x = 0$ 或 $x = 2$，均为区间内的驻点。
 
 步骤3：计算端点值和驻点值：
+
 - $f(-1) = (-1)^3 - 3(-1)^2 + 1 = -3$
 - $f(0) = 0 - 0 + 1 = 1$
 - $f(2) = 8 - 12 + 1 = -3$
@@ -255,10 +257,12 @@ each approach.
 **解答：**
 
 步骤1：计算物质的量：
+
 - $n(\text{CO}_2) = \dfrac{2.24}{22.4} = 0.1\,\text{mol}$
 - $n(\text{NaOH}) = 0.1 \times 1 = 0.1\,\text{mol}$
 
 步骤2：分析反应：
+
 - $\text{CO}_2 + 2\text{NaOH} \rightarrow \text{Na}_2\text{CO}_3 + \text{H}_2\text{O}$（需 $n(\text{NaOH}) = 0.2\,\text{mol}$）
 - $\text{CO}_2 + \text{NaOH} \rightarrow \text{NaHCO}_3$（需 $n(\text{NaOH}) = 0.1\,\text{mol}$）
 

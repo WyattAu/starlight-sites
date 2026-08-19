@@ -45,7 +45,6 @@ Recommended version for all new deployments.
 <aside class="starlight-aside starlight-aside--note">
 Browsers and cloud providers have already removed support for TLS 1.0 and 1.1.
 
-
 ## TLS 1.2 Handshake
 
 TLS 1.2 uses a two-round-trip (2-RTT) handshake:
@@ -145,8 +144,7 @@ Replay it to the server. Do not use 0-RTT for non-idempotent requests (POST, PUT
 Server should only accept 0-RTT data for idempotent operations (GET) and must implement replay
 Detection.
 
-
-3. **Removed insecure algorithms:** TLS 1.3 removes:
+1. **Removed insecure algorithms:** TLS 1.3 removes:
 
 - RSA key exchange (static RSA encryption)
 - All non-AEAD ciphers (CBC mode)
@@ -156,11 +154,11 @@ Detection.
 - Renegotiation (for security reasons)
 - Custom cipher suites
 
-4. **Encrypted handshake:** In TLS 1.3, the server's certificate and extensions are encrypted. In
+1. **Encrypted handshake:** In TLS 1.3, the server's certificate and extensions are encrypted. In
    TLS 1.2, the certificate was sent in plaintext, allowing passive observers to see the server's
    identity.
 
-5. **Simplified cipher suite format:** TLS 1.3 cipher suites only specify the AEAD algorithm and
+2. **Simplified cipher suite format:** TLS 1.3 cipher suites only specify the AEAD algorithm and
    hash function, since all key exchange is ephemeral DH:
 
 ```
@@ -342,7 +340,6 @@ openssl s_client -connect example.com:443 -servername example.com
 
 Look for `Verify return code: 0 (ok)`. Any other return code indicates a chain problem.
 
-
 ## Certificate Authorities (CAs)
 
 CAs are trusted entities that issue certificates. The CA ecosystem is governed by the CA/Browser
@@ -520,7 +517,6 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 <aside class="starlight-aside starlight-aside--caution">
 Forward secrecy. If you are still using TLS 1.2, ensure you use ECDHE cipher suites (`TLS_ECDHE_*`).
 
-
 ## Session Resumption
 
 Session resumption allows a client to resume a previous TLS session without performing the full
@@ -590,14 +586,14 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 
 Without HSTS, the first HTTP request to a site is vulnerable to downgrade attacks.
 
-6. **Mixed content.** HTTPS pages that load HTTP subresources (images, scripts, stylesheets) are
+1. **Mixed content.** HTTPS pages that load HTTP subresources (images, scripts, stylesheets) are
    vulnerable to injection. Browsers block mixed content by default.
 
-7. **SNI missing.** Server Name Indication (SNI) is required for virtual hosting with TLS. Without
+2. **SNI missing.** Server Name Indication (SNI) is required for virtual hosting with TLS. Without
    SNI, the server cannot determine which certificate to present. All modern browsers send SNI, but
    some legacy clients (e.g., Windows XP, Java 6) do not.
 
-8. **Certificate name mismatch.** The certificate must match the hostname the client connects to.
+3. **Certificate name mismatch.** The certificate must match the hostname the client connects to.
    Wildcard certificates (`*.example.com`) only match one level of subdomains (`sub.example.com` not
    `a.b.example.com`).
 
@@ -983,7 +979,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

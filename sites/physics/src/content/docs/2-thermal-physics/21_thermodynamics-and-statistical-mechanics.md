@@ -2414,7 +2414,7 @@ points correspond to scale-invariant theories (critical points).
   dimensions, giving non-mean-field exponents.
 - **IR-stable fixed point:** Controls the low-energy (long-wavelength) physics.
 
-** epsilon expansion:** Expand in $\epsilon = 4 - d$. At one loop:
+**epsilon expansion:** Expand in $\epsilon = 4 - d$. At one loop:
 
 $$\beta_u = \epsilon u - \frac{3}{16\pi^2}u^2 + \cdots$$
 
@@ -2528,7 +2528,6 @@ Thermodynamics is the universe's accounting system. The first law is a balance s
 | [Thermodynamics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/02-thermodynamics)           |
 | [Thermodynamics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)                   |
 | [Thermodynamics] | University | [View](https://university.wyattau.com/docs/physics/2-thermal-physics/2_thermodynamics-and-statistical-mechanics) |
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

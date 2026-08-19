@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** Electron shell filling follows the Aufbau principle, explaining why the periodic table has its characteristic shape
 
-
 ## 1. Atomic Structure
 
 ### Subatomic Particles
@@ -93,7 +92,6 @@ $\mathrm{Cl}$-37 ($24.23\%$Mass $\approx 36.97\mathrm{ u}$).
 $$
 A_r = (34.97 \times 0.7577) + (36.97 \times 0.2423) = 26.50 + 8.96 = 35.46
 $$
-
 
 ### The Nucleus
 
@@ -176,7 +174,6 @@ For the $3p$ subshell: $n = 3$, $l = 1$$m_l = -1, 0, +1$$m_s = \pm\frac{1}{2}$
 This gives three $p$-orbitals ($p_x$$p_y$$p_z$), each holding two electrons, for a total of six $3p$
 electrons.
 
-
 ### Electron Configuration Principles
 
 Three rules govern how electrons fill orbitals:
@@ -215,7 +212,6 @@ $$
 <aside class="starlight-aside starlight-aside--caution">
 $3d^6\, 4s^2$). When writing configurations for ions, remove electrons from the highest $n$ value
 First: $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
-
 
 ### Exceptions to the Aufbau Principle
 
@@ -353,7 +349,6 @@ $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \ma
 All have the neon configuration ($1s^2\, 2s^2\, 2p^6$$10$ electrons). The nuclear charge increases
 From $Z = 8$ to $Z = 13$So the radius decreases.
 
-
 ### Ionization Energy
 
 **Definition.** The **first ionization energy** ($IE_1$) is the minimum energy required to remove
@@ -398,7 +393,6 @@ For aluminium ($1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$):
 - $IE_4 = 11577\mathrm{ kJ/mol}$ (removes $2p$ electron — large jump!)
 
 The jump from $IE_3$ to $IE_4$ confirms that aluminium has three valence electrons.
-
 
 ### Electron Affinity
 
@@ -820,7 +814,6 @@ $[\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{4+}$ has $d^0$), or (b) it has a full 
 $\mathrm{Zn}^{2+}$$[\mathrm{Cu}(\mathrm{NH}_3)_4]^+$ has $d^{10}$). In both cases, there are no
 $d$-$d$ transitions possible.
 
-
 ### Catalytic Properties
 
 Transition metals are effective catalysts because they can adopt variable oxidation states and form
@@ -992,7 +985,6 @@ $$
 A_r = (10 \times 0.199) + (11 \times 0.801) = 1.99 + 8.81 = 10.81
 $$
 
-
 #### Molecular Ion
 
 The **molecular ion peak** ($\mathrm{M}^+$) corresponds to the intact molecule with one electron
@@ -1037,7 +1029,6 @@ Chlorobenzene ($\mathrm{C}_6\mathrm{H}_5\mathrm{Cl}$) shows:
 - $\mathrm{M}+2$ at $m/z = 114$ ($\mathrm{C}_6\mathrm{H}_5^{37}\mathrm{Cl}$)
 - Ratio of peak heights: approximately $3:1$
 
-
 ### High-Resolution Mass Spectrometry
 
 High-resolution MS can determine exact masses to several decimal places, distinguishing between
@@ -1080,12 +1071,12 @@ Many-electron atom.
   electron contributes $0.30$)
 - For $nd$ or $nf$ electrons: each other electron contributes $0.35$
 
-4. Electrons in the **$n-1$ shell** contribute:
+1. Electrons in the **$n-1$ shell** contribute:
 
 - $0.85$ each (for $s$ and $p$ electrons in the $n$ shell)
 - $1.00$ each (for $d$ and $f$ electrons in the $n$ shell)
 
-5. Electrons in shells **$n-2$ or lower** contribute $1.00$ each.
+1. Electrons in shells **$n-2$ or lower** contribute $1.00$ each.
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -1101,7 +1092,6 @@ For a $3p$ electron:
 $$ S = 2.10 + 6.80 + 2.00 = 10.90 $$
 
 $$ Z\_{\mathrm{eff}} = 17 - 10.90 = 6.10 $$
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -1121,7 +1111,6 @@ $$ Z\_{\mathrm{eff}} = 21 - 18.00 = 3.00 $$
 
 The low $Z_{\mathrm{eff}}$ on the $3d$ electron explains why the $4s$ orbital fills before $3d$ —
 The $4s$ electron experiences a higher effective nuclear charge.
-
 
 ### Successive Ionization Energy Graphs and Electron Configuration
 
@@ -1178,7 +1167,6 @@ $$
 $$
 
 This corresponds to the red line in the Balmer series (H$\alpha$).
-
 
 #### Energy of a Photon
 
@@ -1500,14 +1488,12 @@ When answering "explain" questions about periodic trends, always reference **eff
 Charge** and **shielding**. The marking scheme expects these terms. A two-mark explanation requires
 The trend statement AND the reasoning.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 <strong>Common Mistake</strong>
 When writing electron configurations for transition metal ions, always remove electrons from the
 $ns$ orbital first (highest principal quantum number), NOT from the $(n-1)d$ orbital. So
 $\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
@@ -1516,7 +1502,6 @@ Do not confuse atomic radius trends with ionic radius trends. When comparing ion
 Isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,
 $\mathrm{Na}^+$ is smaller than $\mathrm{F}^-$ even though $\mathrm{Na}$ has a larger atomic radius
 Than $\mathrm{F}$.
-
 
 <aside class="starlight-aside starlight-aside--danger">
 - **Confusing first ionisation energy with electronegativity:** First ionisation energy is the
@@ -1687,4 +1672,3 @@ linked above.
 - [Chemical Bonding](../4-chemical-bonding/1_chemical-bonding) -- Electron configuration determines bonding behaviour, linking atomic structure to chemical properties.
 - [Periodicity](../3-periodicity/1_periodicity) -- Trends in ionisation energy and electronegativity arise directly from the atomic structure covered here.
 - [Thermochemistry](../5-energetics/1_thermochemistry) -- Enthalpy changes in reactions depend on bond energies derived from atomic and molecular structure.
-

@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** The equilibrium price emerges from the interaction of consumer willingness to pay and producer costs
 
-
 ## Scarcity, Choice, and Opportunity Cost
 
 ### The Fundamental Economic Problem

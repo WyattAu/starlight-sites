@@ -24,7 +24,7 @@ With different capabilities and syntax.
 
 | Flavor | Engine          | Activator          | Metacharacters Require Escape | Lookaround |
 | ------ | --------------- | ------------------ | ----------------------------- | ---------- | --- |
-| BRE    | POSIX `grep`    | Default            | `+`?`{``                      | `(`)`      | No  |
+| BRE    | POSIX `grep`    | Default            | `+`?`{``                      |`(`)`      | No  |
 | ERE    | POSIX `grep -E` | `grep -E``egrep`   | None                          | No         |
 | PCRE   | Perl-compatible | `grep -P``ripgrep` | None                          | Yes        |
 
@@ -236,7 +236,6 @@ sed -i 's/192.168.1.100/10.0.0.1/g' /etc/hosts /etc/resolv.conf
 <aside class="starlight-aside starlight-aside--caution">
 The original file was a symlink, the link is destroyed. Always use `sed -i.bak` in production
 Scripts to preserve recoverability.
-
 
 ## awk — Pattern-Scanning Language
 
@@ -865,7 +864,6 @@ awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
 <aside class="starlight-aside starlight-aside--note">
 Large files. Use `awk` when you need conditional logic, field manipulation, or aggregation.
 
-
 ## paste and join
 
 ### paste — Merge Lines
@@ -1059,10 +1057,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Text processing in Linux is like having a team of specialised editors -- grep finds lines matching a pattern, sed makes find-and-replace changes, awk processes structured data, and sort/order/uniq organise the results. Regular expressions are the pattern language that these tools share: they let you describe what you are looking for with precision. The Unix philosophy of small, composable tools means you can chain them together like building blocks: cat file | grep error | sort | uniq -c finds all error lines, sorts them, and counts duplicates. This pipeline approach turns complex text transformations into simple, readable commands.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -52,6 +52,7 @@ Consider:
 - **Hand-written parsers:** for simple patterns (e.g., email validation, URL parsing), a
   hand-written parser is often faster and more readable.
 - **RE2:** Google's regex library with guaranteed linear-time matching.
+
 </aside>
 ### `std::regex_match` and `std::regex_search`
 
@@ -560,7 +561,6 @@ Index `-1`.
 - [Chrono Library](./2_chrono.md)
 - [Random Number Generation](./3_random_numbers.md)
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to regular expressions, including
@@ -581,4 +581,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

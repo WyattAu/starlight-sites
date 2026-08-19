@@ -514,7 +514,7 @@ Gene is homozygous recessive, the trait is not expressed.
 
 **Example:** Flower colour in sweet peas.
 
-- Gene C and gene P: both C* and P* are required for purple flowers
+- Gene C and gene P: both C*and P* are required for purple flowers
 - cc or pp results in white flowers
 
 Cross: CcPp x CcPp yields 9 purple (C*P*) : 7 white (3 C*pp + 3 ccP* + 1 ccpp).
@@ -526,7 +526,7 @@ Alternate phenotype.
 
 **Example:** Seed shape in shepherd's purse.
 
-- Both A* and B* produce triangular seeds; aabb produces oval seeds
+- Both A*and B* produce triangular seeds; aabb produces oval seeds
 
 Cross: AaBb x AaBb yields 15 triangular : 1 oval.
 
@@ -1588,12 +1588,12 @@ self-marking and building a personal test matrix.
   or XY)
 - Karyotyping is performed by:
 
-1.  Collecting cells (e.g., from blood, amniotic fluid, or chorionic villus sampling)
-2.  Stimulating the cells to divide
-3.  Arresting cell division in metaphase (using colchicine) -- when chromosomes are most condensed
+1. Collecting cells (e.g., from blood, amniotic fluid, or chorionic villus sampling)
+2. Stimulating the cells to divide
+3. Arresting cell division in metaphase (using colchicine) -- when chromosomes are most condensed
     and visible
-4.  Staining the chromosomes (Giemsa stain produces characteristic banding patterns)
-5.  Photographing and arranging the chromosomes in homologous pairs
+4. Staining the chromosomes (Giemsa stain produces characteristic banding patterns)
+5. Photographing and arranging the chromosomes in homologous pairs
 
 ### Chromosomal Abnormalities
 

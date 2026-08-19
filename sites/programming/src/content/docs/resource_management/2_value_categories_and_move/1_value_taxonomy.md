@@ -209,7 +209,7 @@ Simultaneously.
 - **Yes** $\to$ It is a **glvalue**. Continue to step 2.
 - **No** $\to$ It is a **prvalue** (the expression is a pure value or initializer).
 
-2. Is the glvalue move-eligible (can its resources be reused)?
+1. Is the glvalue move-eligible (can its resources be reused)?
 
 - **Yes** $\to$ It is an **xvalue** (expiring value).
 - **No** $\to$ It is an **lvalue**.

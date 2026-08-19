@@ -27,12 +27,14 @@ Python is a dynamically typed, interpreted language with a focus on readability 
 **Type system:** Dynamic, strong typing
 
 **Key strengths:**
+
 - Readable, concise syntax with significant whitespace
 - Massive ecosystem of third-party libraries (NumPy, pandas, Django, Flask)
 - Excellent for scripting, prototyping, and rapid development
 - First-class support for data science and machine learning
 
 **Key weaknesses:**
+
 - Slower execution speed compared to compiled languages
 - Global Interpreter Lock (GIL) limits true multithreading
 - Dynamic typing can lead to runtime errors that static languages catch at compile time
@@ -50,12 +52,14 @@ Java is a statically typed, compiled language designed for portability ("write o
 **Type system:** Static, strong typing
 
 **Key strengths:**
+
 - Platform independence through the JVM
 - Mature ecosystem with extensive frameworks (Spring, Hibernate, Maven)
 - Strong tooling support (IntelliJ IDEA, Eclipse)
 - Robust memory management and garbage collection
 
 **Key weaknesses:**
+
 - Verbose syntax compared to modern languages
 - Slower startup time due to JVM warm-up
 - Less suitable for scripting or rapid prototyping
@@ -73,12 +77,14 @@ C++ is a statically typed, compiled language that provides low-level memory acce
 **Type system:** Static, strong typing
 
 **Key strengths:**
+
 - Direct memory manipulation and zero-cost abstractions
 - Unmatched performance for systems programming
 - Templates enable powerful generic programming
 - Mature and battle-tested in performance-critical domains
 
 **Key weaknesses:**
+
 - Complex syntax and steep learning curve
 - Manual memory management can lead to bugs (though RAII and smart pointers mitigate this)
 - Long compilation times for large projects
@@ -97,12 +103,14 @@ Rust is a statically typed, compiled language focused on memory safety without g
 **Type system:** Static, strong typing with ownership and borrowing
 
 **Key strengths:**
+
 - Memory safety guaranteed by the compiler (no null, no dangling pointers, no data races)
 - Zero-cost abstractions with performance matching C++
 - Excellent concurrency model with fearless concurrency
 - Growing ecosystem with Cargo package manager
 
 **Key weaknesses:**
+
 - Steep learning curve, especially ownership and borrowing
 - Smaller ecosystem compared to C++ or Java
 - Compile times can be long
@@ -121,12 +129,14 @@ Go (Golang) is a statically typed, compiled language designed at Google for simp
 **Type system:** Static, strong typing
 
 **Key strengths:**
+
 - Simple, clean syntax with a small language specification
 - Built-in concurrency with goroutines and channels
 - Fast compilation and efficient execution
 - Excellent standard library for networking and web services
 
 **Key weaknesses:**
+
 - Limited expressiveness compared to more feature-rich languages
 - No generics (added in Go 1.18, but still limited compared to Rust or C++)
 - Error handling can be verbose
@@ -145,12 +155,14 @@ TypeScript is a statically typed superset of JavaScript that adds optional type 
 **Type system:** Static, structural typing (optional at first, then enforced)
 
 **Key strengths:**
+
 - Type safety without leaving the JavaScript ecosystem
 - Excellent tooling with editor support and autocompletion
 - Catches errors at compile time that JavaScript catches at runtime
 - Gradual adoption — add types incrementally to existing JS codebases
 
 **Key weaknesses:**
+
 - Adds complexity on top of JavaScript's already complex ecosystem
 - Type system can be challenging for complex cases
 - Requires a compilation step
@@ -169,6 +181,7 @@ Kotlin is a statically typed, modern language that runs on the JVM. It is Google
 **Type system:** Static, strong typing with smart casts and type inference
 
 **Key strengths:**
+
 - Concise syntax that reduces boilerplate compared to Java
 - Null safety built into the type system
 - Full interoperability with Java
@@ -176,6 +189,7 @@ Kotlin is a statically typed, modern language that runs on the JVM. It is Google
 - Multiplatform capabilities (Android, iOS, web, server)
 
 **Key weaknesses:**
+
 - Smaller community than Java
 - Slower compilation than Java in some cases
 - Some Android-specific features may not apply to other platforms
@@ -193,12 +207,14 @@ Swift is a statically typed, compiled language designed by Apple for iOS, macOS,
 **Type system:** Static, strong typing with type inference
 
 **Key strengths:**
+
 - Modern syntax with safety features (optionals, type inference)
 - Memory safety through Automatic Reference Counting (ARC)
 - Excellent performance close to C++
 - Strong integration with Apple's frameworks and tooling (Xcode)
 
 **Key weaknesses:**
+
 - Primarily limited to Apple's ecosystem
 - ABI stability only achieved recently
 - Smaller community outside Apple development
@@ -217,12 +233,14 @@ Dart is a statically typed, compiled language developed by Google. It is the pri
 **Type system:** Static, strong typing with sound null safety
 
 **Key strengths:**
+
 - Hot reload for rapid UI development with Flutter
 - Single codebase for mobile, web, and desktop
 - Predictable performance with AOT and JIT compilation
 - Growing ecosystem with Flutter's pub.dev package repository
 
 **Key weaknesses:**
+
 - Tightly coupled to Flutter (less compelling without it)
 - Smaller community compared to established languages
 - Fewer third-party libraries outside the Flutter ecosystem
@@ -241,12 +259,14 @@ Ruby is a dynamically typed, interpreted language optimised for programmer happi
 **Type system:** Dynamic, strong typing
 
 **Key strengths:**
+
 - Beautiful, expressive syntax that reads like natural English
 - Ruby on Rails remains a powerful framework for web applications
 - Excellent metaprogramming capabilities
 - Large, welcoming community
 
 **Key weaknesses:**
+
 - Slower performance compared to compiled languages
 - Runtime errors that static languages catch at compile time
 - Memory consumption can be high
@@ -265,12 +285,14 @@ Haskell is a statically typed, purely functional programming language with lazy 
 **Type system:** Static, strong, Hindley-Milner type inference with type classes
 
 **Key strengths:**
+
 - Purity eliminates entire classes of bugs (no side effects by default)
 - Powerful type system catches errors at compile time
 - Lazy evaluation enables elegant handling of infinite data structures
 - Strong theoretical foundations that influence other languages
 
 **Key weaknesses:**
+
 - Steep learning curve for developers from imperative backgrounds
 - Lazy evaluation can cause unpredictable memory usage
 - Smaller ecosystem and job market
@@ -289,6 +311,7 @@ Elixir is a dynamically typed, functional language built on the Erlang VM (BEAM)
 **Type system:** Dynamic, strong typing
 
 **Key strengths:**
+
 - Actor-based concurrency model with lightweight processes
 - Fault tolerance through "let it crash" philosophy and supervision trees
 - Hot code swapping without downtime
@@ -296,6 +319,7 @@ Elixir is a dynamically typed, functional language built on the Erlang VM (BEAM)
 - Excellent for distributed systems and microservices
 
 **Key weaknesses:**
+
 - Smaller ecosystem compared to mainstream languages
 - Dynamic typing can lead to runtime errors
 - Less suitable for CPU-intensive computations
@@ -308,7 +332,7 @@ Read more: [Elixir Study Guide](https://elixir.wyattau.com).
 ## Language Comparison Matrix
 
 | Language | Typing | Compilation | Concurrency | Memory Management | Primary Use |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Python | Dynamic | Interpreted | GIL (asyncio) | Garbage collection | Data science, scripting |
 | Java | Static | JVM | Threads, virtual threads | Garbage collection | Enterprise, Android |
 | C++ | Static | Native | Threads, async | Manual / RAII | Systems, performance |
@@ -329,64 +353,83 @@ Use this decision tree to narrow down which language matches your goals and inte
 ### Step 1: What is your primary goal?
 
 **Web development (frontend)** → TypeScript
+
 - TypeScript is the standard for modern frontend development. It adds type safety to JavaScript and works with React, Vue, and Angular.
 
 **Web development (backend)** → Python, Go, Java, or Elixir
+
 - Python for rapid development with Django/Flask. Go for high-performance microservices. Java for enterprise systems. Elixir for real-time, distributed backends.
 
 **Mobile development (Android)** → Kotlin
+
 - Kotlin is Google's preferred language for Android. It is concise, safe, and fully interoperable with Java.
 
 **Mobile development (iOS)** → Swift
+
 - Swift is Apple's language for iOS, macOS, and beyond. It is modern, safe, and performant.
 
 **Cross-platform mobile** → Dart (Flutter)
+
 - Flutter with Dart lets you build iOS, Android, web, and desktop from a single codebase.
 
 **Systems programming** → C++ or Rust
+
 - C++ for maximum control and ecosystem maturity. Rust for memory safety without sacrificing performance.
 
 **Data science and machine learning** → Python
+
 - Python's ecosystem (NumPy, pandas, scikit-learn, TensorFlow, PyTorch) is unmatched for data work.
 
 **Game development** → C++
+
 - C++ dominates game engines (Unreal Engine, Unity native). Rust and GDScript (Godot) are emerging alternatives.
 
 **DevOps and cloud infrastructure** → Go or Python
+
 - Go for building infrastructure tools (Docker, Kubernetes, Terraform are written in Go). Python for scripting and automation.
 
 **Academic or research** → Haskell
+
 - Haskell's purity and type system make it ideal for formal methods, compiler construction, and research.
 
 **Distributed systems** → Elixir
+
 - Elixir's actor model and fault tolerance are purpose-built for systems that must never go down.
 
 ### Step 2: What is your experience level?
 
 **Complete beginner** → Python
+
 - Python's clean syntax and gentle learning curve make it the ideal first language. You can focus on problem-solving without fighting syntax.
 
 **Some programming experience** → Python, JavaScript/TypeScript, or Go
+
 - If you already know basic programming, JavaScript/TypeScript opens up web development. Go offers a clean introduction to compiled languages. Python remains excellent for broad applicability.
 
 **Experienced developer learning a new paradigm** → Haskell (functional), Rust (ownership), C++ (systems)
+
 - Each of these languages will fundamentally change how you think about programming.
 
 ### Step 3: What matters most to you?
 
 **Job market and employability** → Java, Python, JavaScript/TypeScript
+
 - These languages have the largest job markets and most established career paths.
 
 **Cutting-edge technology and safety** → Rust
+
 - Rust is rapidly growing in adoption and represents the future of systems programming.
 
 **Simplicity and elegance** → Go or Ruby
+
 - Go is deliberately simple. Ruby values developer happiness and expressiveness.
 
 **Maximum performance** → C++ or Rust
+
 - Both compile to native code with zero-cost abstractions. C++ has more mature optimisations; Rust offers safety guarantees.
 
 **Concurrent and distributed systems** → Elixir or Go
+
 - Elixir's actor model and Go's goroutines are both excellent for concurrency, with different trade-offs.
 
 ### Step 4: Consider the ecosystem

@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Plant structure and function are optimized for photosynthesis, water transport, and reproduction
 
-
 ## 1. Plant Structure and Tissues
 
 ### Meristems
@@ -818,7 +817,7 @@ the Resulting zygote and endosperm after fertilisation.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Cell structure and membrane transport** --> Review
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)

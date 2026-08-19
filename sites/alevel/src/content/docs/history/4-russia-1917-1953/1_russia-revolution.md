@@ -343,8 +343,6 @@ victory over Nazi Germany came at a price of approximately 27 million Soviet dea
 historiographical debates concern the continuity between Lenin and Stalin, whether October was a
 coup or a popular rising, and whether Stalin's brutal methods were necessary for modernisation.
 
-
-
 ## Cross-References
 
 - **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study

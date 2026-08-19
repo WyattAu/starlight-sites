@@ -200,7 +200,7 @@ Standard deviation: $\sigma = \sqrt{1.92} \approx 1.386$
 
 **Confusing conditional probability P(A|B) with joint probability P(A and B).** P(A|B) = P(A and B) / P(B). Students often use P(A) * P(B) instead, which only works for independent events. Conditional probability requires dividing by the condition's probability.
 
-**Forgetting that Bayes' theorem requires the total probability in the denominator.** The formula is P(Ai|B) = P(B|Ai) * P(Ai) / sum(P(B|Aj) * P(Aj)). Students sometimes omit the summation, using only one term in the denominator. The denominator must account for all possible ways B can occur.
+**Forgetting that Bayes' theorem requires the total probability in the denominator.** The formula is P(Ai|B) = P(B|Ai) *P(Ai) / sum(P(B|Aj)* P(Aj)). Students sometimes omit the summation, using only one term in the denominator. The denominator must account for all possible ways B can occur.
 
 **Confusing the mean and variance formulas for binomial distribution.** For binomial(n, p), the mean is np and the variance is npq where q = 1 - p. Students often write variance as np instead of npq, forgetting to multiply by the probability of failure. The variance is always less than the mean for binomial distributions.
 

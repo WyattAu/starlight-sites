@@ -527,15 +527,15 @@ try {
 }
 ```
 
-3. **Encapsulation violation**. A checked exception exposes an implementation detail. If
+1. **Encapsulation violation**. A checked exception exposes an implementation detail. If
    `UserService` initially uses file-based storage and declares `throws IOException`Switching to a
    database implementation requires changing the method signature, breaking all callers.
 
-4. **Interaction with lambdas and functional interfaces**. Checked exceptions are particularly
+2. **Interaction with lambdas and functional interfaces**. Checked exceptions are particularly
    painful with lambdas because functional interfaces in `java.util.function` do not declare checked
    exceptions. This creates friction when using checked-exception-throwing code in streams.
 
-5. **Empirical evidence of poor handling**. Studies of large Java codebases found that the majority
+3. **Empirical evidence of poor handling**. Studies of large Java codebases found that the majority
    of checked exceptions are either caught and wrapped in unchecked exceptions, logged and
    swallowed, or declared in signatures without meaningful handling at any level of the call stack.
 
@@ -600,6 +600,7 @@ try {
         // log but don't throw -- preserve the original exception
     }
 }
+
 ```
 
 ### try-with-resources (AutoCloseable, Java 7+)
@@ -941,6 +942,7 @@ List<String> list = asList("hello", 42);  // compiles with warning, ClassCastExc
 static <T> List<T> safeAsList(T... items) {
     return new ArrayList<>(Arrays.asList(items));  // defensive copy, safe
 }
+
 ```
 
 ## Text Blocks (Java 13+)

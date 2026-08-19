@@ -249,7 +249,6 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 - **Non-normalised constraint gradients.** Ensure the constraint functions are written in the form
   $g = 0$; multiplying $g$ by a constant changes $\lambda$ but not the critical points.
 
-
 </aside>
 
 ## Cross-References

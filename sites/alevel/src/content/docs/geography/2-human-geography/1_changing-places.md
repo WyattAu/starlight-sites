@@ -511,8 +511,6 @@ community pride.
 > _Topophilia_ (1974); Detroit Future City framework; Barcelona City Council data; ONS and US Census
 > Bureau data.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

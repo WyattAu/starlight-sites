@@ -562,31 +562,31 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 - $\mathrm{CS_2\mathrm{(l) + 3\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{SO_2\mathrm{(g)$
   $\Delta H = -1075 \mathrm{ kJ/mol$
 
-2. Explain the effect of increasing pressure on the equilibrium
+1. Explain the effect of increasing pressure on the equilibrium
    $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
-3. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
    $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples,
    by what factor does the rate change?
 
-4. The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate constant at
+3. The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate constant at
    $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
    $350 \mathrm{ K$.
 
-5. $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$ container. At equilibrium,
+4. $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$ container. At equilibrium,
    $0.3 \mathrm{ mol$ has dissociated:
    $\mathrm{PCl_5 \rightleftharpoons \mathrm{PCl_3 + \mathrm{Cl_2$. Find $K_c$.
 
-6. Explain why a catalyst increases the rate of a reaction without being consumed.
+5. Explain why a catalyst increases the rate of a reaction without being consumed.
 
-7. In a calorimetry experiment, $0.80 \mathrm{ g$ of ethanol ($M_r = 46$) raised the temperature of
+6. In a calorimetry experiment, $0.80 \mathrm{ g$ of ethanol ($M_r = 46$) raised the temperature of
    $150 \mathrm{ g$ of water by $10.5°C$. Calculate $\Delta H_c$ and suggest why this value differs
    from the literature value of $-1367 \mathrm{ kJ/mol$.
 
-8. Given $\Delta G^\circ = -RT\ln K$Calculate $K$ at $298 \mathrm{ K$ for a reaction with
+7. Given $\Delta G^\circ = -RT\ln K$Calculate $K$ at $298 \mathrm{ K$ for a reaction with
    $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
 
-9. Using the following data, determine the rate equation and the value of $k$:
+8. Using the following data, determine the rate equation and the value of $k$:
 
 | Experiment | $[\mathrm{P]$ (M) | $[\mathrm{Q]$ (M) | Initial rate (M/s)   |
 | ---------- | ----------------- | ----------------- | -------------------- |
@@ -595,15 +595,15 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 | 3          | 0.20              | 0.20              | $4.0 \times 10^{-4}$ |
 | 4          | 0.40              | 0.20              | $8.0 \times 10^{-4}$ |
 
-10. Sketch an energy profile diagram for an endothermic reaction, showing the effect of adding a
+1. Sketch an energy profile diagram for an endothermic reaction, showing the effect of adding a
     catalyst. Label the activation energies, $\Delta H$And the transition state.
 
-11. For the equilibrium
+2. For the equilibrium
     $\mathrm{CO(g) + \mathrm{H_2\mathrm{O(g) \rightleftharpoons \mathrm{CO_2\mathrm{(g) + \mathrm{H_2\mathrm{(g)$
     $\Delta H = -41 \mathrm{ kJ/mol$Explain how increasing temperature affects the yield of
     $\mathrm{CO_2$ and the value of $K_c$.
 
-12. Calculate the enthalpy of neutralisation when $30.0 \mathrm{ cm^3$ of $0.50 \mathrm{ M$ HCl is
+3. Calculate the enthalpy of neutralisation when $30.0 \mathrm{ cm^3$ of $0.50 \mathrm{ M$ HCl is
     mixed with $30.0 \mathrm{ cm^3$ of $0.50 \mathrm{ M$ NaOH, producing a temperature rise of
     $3.2°C$.
 
@@ -754,24 +754,24 @@ Rate order cannot be predicted from the stoichiometry.
 
 ## Practice Questions (Extended)
 
-13. Using Hess's Law, calculate $\Delta H_r^\circ$ for:
+1. Using Hess's Law, calculate $\Delta H_r^\circ$ for:
     $\mathrm{3C(s) + 4\mathrm{H_2\mathrm{(g) \to \mathrm{C_3\mathrm{H_8\mathrm{(g)$ given
     $\Delta H_c^\circ(\mathrm{C_3\mathrm{H_8) = -2220 \mathrm{ kJ/mol$
     $\Delta H_c^\circ(\mathrm{C) = -393.5 \mathrm{ kJ/mol$
     $\Delta H_c^\circ(\mathrm{H_2) = -285.8 \mathrm{ kJ/mol$.
 
-14. Explain why the enthalpy of neutralisation for strong acid-strong base reactions is
+2. Explain why the enthalpy of neutralisation for strong acid-strong base reactions is
     approximately constant (~-57 kJ/mol), but for weak acid-strong base reactions it is less
     exothermic.
 
-15. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$Explain qualitatively how $K_c$
+3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$Explain qualitatively how $K_c$
     changes as temperature increases. Would the equilibrium yield of products increase or decrease?
 
-16. In a bomb calorimeter, $1.00 \mathrm{ g$ of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is
+4. In a bomb calorimeter, $1.00 \mathrm{ g$ of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is
     burned. The temperature of $500 \mathrm{ g$ of water rises by $7.48°C$. The calorimeter heat
     capacity is $620 \mathrm{ J/K$. Calculate the enthalpy of combustion per mole of glucose.
 
-17. The following data were obtained for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ at 25°C:
+5. The following data were obtained for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ at 25°C:
 
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial rate (M/s)   |
 | ----------------- | ----------------- | -------------------- |
@@ -781,7 +781,7 @@ Rate order cannot be predicted from the stoichiometry.
 
 Determine the rate equation, the value of $k$ with units, and the overall order.
 
-18. Draw and label a fully annotated Maxwell-Boltzmann distribution curve at two different
+1. Draw and label a fully annotated Maxwell-Boltzmann distribution curve at two different
     temperatures, showing the activation energy and explaining why a small temperature increase has
     a large effect on the reaction rate.
 

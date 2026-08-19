@@ -596,7 +596,6 @@ void atomic_write(const fs::path& target, std::string_view content) {
    `fs::permissions` on Windows can only reliably set/clear the read-only attribute. Do not rely on
    group/other permissions on Windows.
 
-
 ## Common Pitfalls
 
 1. Memorising content without understanding the underlying principles. This leads to poor
@@ -627,4 +626,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

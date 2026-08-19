@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Chemical equilibrium is like a busy restaurant — dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
@@ -527,8 +526,6 @@ $$
 
 $$
 (1 mark).
-
-
 
 ## Cross-References
 

@@ -104,7 +104,6 @@ The SHA-1 of this byte sequence is `ce013625030ba8dba906f756967f9e9ca394464a`.
 `echo -n "Hello, World"` produces `Hello, World` (12 bytes). These produce different blob hashes.
 This is a common source of confusion when scripting Git operations.
 
-
 ### Deduplication
 
 Because blob identity is based purely on content, Git automatically deduplicates identical files
@@ -189,7 +188,6 @@ must always produce the same tree hash.
 <aside class="starlight-aside starlight-aside--caution">
 means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters
 if you are manually constructing tree objects.
-
 
 ## Commits
 
@@ -422,7 +420,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

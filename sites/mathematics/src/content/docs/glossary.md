@@ -125,7 +125,7 @@ tags: [glossary]
 
 **Domain**: The set of inputs for which a function is defined.
 
-** Extreme Value Theorem**: A continuous function on a closed interval [a,b] attains both a maximum and minimum value.
+**Extreme Value Theorem**: A continuous function on a closed interval [a,b] attains both a maximum and minimum value.
 
 **Intermediate Value Theorem**: If f is continuous on [a,b] and k is between f(a) and f(b), there exists c ∈ [a,b] such that f(c) = k.
 

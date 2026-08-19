@@ -932,7 +932,6 @@ Now each call that omits `target` gets a fresh empty list.
 
 </details>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -954,8 +953,6 @@ Understanding these concepts thoroughly is essential for both examinations and p
 programming, and requires both theoretical knowledge and hands-on practice.
 
 </aside>
-
-
 
 ## Cross-References
 

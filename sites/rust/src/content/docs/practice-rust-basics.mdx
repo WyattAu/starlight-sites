@@ -12,7 +12,6 @@ categories:
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Rust -- Interactive Practice
 
 10 auto-graded practice problems covering core Rust concepts from ownership to concurrency. Select
@@ -43,6 +42,7 @@ fn main() \{
 ```
 
 **Output:**
+
 ```
 hello
 s3=world, s4=world
@@ -52,7 +52,6 @@ x=42, y=42
 **Key insight:** Types that implement `Copy` (like `i32`, `f64`, `bool`) are copied, not moved. Types like `String` and `Vec` that own heap data are moved to prevent double-free.
 
 ---
-
 
 ### Example 2: Borrowing and References
 
@@ -92,6 +91,7 @@ fn main() \{
 ```
 
 **Output:**
+
 ```
 Length: 5, 5
 Modified: hello world
@@ -102,7 +102,6 @@ Final: hello world!
 **Key insight:** Rust's borrow checker ensures you can have either many immutable references OR one mutable reference, never both simultaneously. This prevents data races at compile time.
 
 ---
-
 
 ### Example 3: Option and Pattern Matching
 
@@ -151,6 +150,7 @@ fn main() \{
 ```
 
 **Output:**
+
 ```
 Found user: Alice
 User not found
@@ -162,7 +162,6 @@ First char: A
 **Key insight:** `Option<T>` replaces null with a type-safe enum. Use `match`, `if let`, `map`, `and_then`, and `?` to handle optional values without panicking.
 
 ---
-
 
 ### Example 4: Traits and Generics
 
@@ -216,6 +215,7 @@ fn main() \{
 ```
 
 **Output:**
+
 ```
 Breaking news: Rust Ownership: Ownership prevents memory leaks...
 Preview: Rust Ownership: Owner...
@@ -224,7 +224,6 @@ Preview: Rust Ownership: Owner...
 **Key insight:** Traits define shared behavior. Generic functions with trait bounds (`impl Trait` or `T: Trait`) work with any type that implements the required traits, enabling zero-cost polymorphism.
 
 ---
-
 
 ### Ownership and Mutability
 
@@ -236,7 +235,6 @@ Preview: Rust Ownership: Owner...
 
 ---
 
-
 ### Lifetimes and Trait Bounds
 
 <PracticeProblem client:only="solid-js" question={`Why does this function compile without explicit lifetime annotations?\n\`fn first_word(s: &str) -> &str { ... }\``} options={[ 'Lifetime elision rule 2 applies: with one input lifetime, it is assigned to all output references', 'Lifetimes are optional for all functions in Rust', 'The compiler infers a static lifetime for the return value', 'It would not compile -- explicit annotations are always required', ]} correctAnswer={0} explanation="Rust has three lifetime elision rules for function signatures. Rule 2 states: if there is exactly one input lifetime parameter, that lifetime is assigned to all output lifetime parameters. Since first_word has one reference parameter (s: &str), the output &str automatically gets the same lifetime. The function is equivalent to fn first_word<'a>(s: &'a str) -> &'a str." difficulty="medium"  />
@@ -247,7 +245,6 @@ Preview: Rust Ownership: Owner...
 
 ---
 
-
 ### Traits and Generics
 
 <PracticeProblem client:only="solid-js" question={"What is the key difference between impl Trait and dyn Trait in function signatures?&quot; options={[ 'impl Trait uses static dispatch (monomorphization, zero overhead); dyn Trait uses dynamic dispatch (vtable, runtime cost)', 'impl Trait only works with structs; dyn Trait only works with enums', 'impl Trait is for trait definitions; dyn Trait is for trait implementations', 'There is no difference -- they are interchangeable syntaxes', ]} correctAnswer={0} explanation=&quot;impl Trait (e.g., fn process(item: impl Display)) causes the compiler to monomorphize the function for each concrete type, producing specialized machine code. This has zero runtime overhead and enables inlining. dyn Trait (e.g., fn process(item: &dyn Display)) uses a fat pointer with a vtable for dynamic dispatch, adding a small indirection cost but allowing heterogeneous collections. Choose impl Trait for performance, dyn Trait for flexibility."} difficulty="medium"  />
@@ -255,7 +252,6 @@ Preview: Rust Ownership: Owner...
 <PracticeProblem client:only="solid-js" question={"When should you use an associated type versus a generic type parameter in a trait?&quot; options={[ 'Use an associated type when there is exactly one type per implementing type; use a generic when callers choose the type', 'Use an associated type for all traits; generics are only for functions', 'Use a generic when there is one type per implementation; use an associated type for multiple types', 'They are functionally identical -- always prefer generics', ]} correctAnswer={0} explanation=&quot;Associated types (type Item;) allow each implementing type to choose exactly one concrete type. Iterator has type Item because each iterator yields one specific type. You cannot implement Iterator<T> multiple times for the same struct with different Items. Generic parameters (trait Foo<T>) allow callers to specify the type, enabling multiple implementations. Use generics when the caller decides the type, associated types when the implementor decides."} difficulty="medium"  />
 
 ---
-
 
 ### Concurrency and Unsafe
 
@@ -278,6 +274,7 @@ Preview: Rust Ownership: Owner...
 **Forgetting that match must be exhaustive:** Rust requires match to handle all possible cases. A missing arm causes a compilation error. Use _ as a catch-all when you dont need to handle all cases explicitly.
 
 **Not using `Result` for error handling:** Rust prefers `Result<T, E>` over panics for recoverable errors. Functions that can fail return `Result`, and callers must handle the error with match, ?, or .unwrap(). Panicking should be reserved for truly unrecoverable situations.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for rust notes.

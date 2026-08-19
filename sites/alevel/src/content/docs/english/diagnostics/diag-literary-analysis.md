@@ -15,7 +15,6 @@ sidebar_position: 30
 }
 </script>
 
-
 ## Intuition
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
@@ -89,7 +88,7 @@ Answer each question. Check your answers against the key at the end.
 ## Answer Key
 
 | Q | Answer | Explanation |
-|---|--------|-------------|
+| --- | -------- | ------------- |
 | 1 | (B) | Focalisation concerns whose perspective filters the narrative, distinguishing between who sees and who speaks. |
 | 2 | (B) | Pathetic fallacy attributes human emotions to nature or weather, often reflecting a character's internal state. |
 | 3 | (B) | Diegesis encompasses the story world, including events, settings, and narrative content as opposed to mimesis (showing). |

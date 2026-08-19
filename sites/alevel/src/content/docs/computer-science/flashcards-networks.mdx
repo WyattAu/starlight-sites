@@ -13,7 +13,6 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/flashcards-networks-data.js';
 
-
 ## Computer Science -- Networks Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
@@ -35,7 +34,6 @@ These flashcards test your understanding of how computers communicate over netwo
 
 ---
 
-
 ### Intuition
 
 Think of a network like a postal system. Your letter (data) is put in an envelope (packet) with a destination address (IP address). The post office (router) reads the address and forwards it to the next post office until it arrives. TCP is like registered post -- it confirms delivery and re-sends if lost. UDP is like regular post -- fast but no guarantee of delivery.
@@ -43,7 +41,6 @@ Think of a network like a postal system. Your letter (data) is put in an envelop
 DNS is like a phone book for the internet. You type "google.com" (the name), and DNS looks up the IP address (the number) so your computer can connect.
 
 ---
-
 
 ### Common Pitfalls
 
@@ -53,8 +50,6 @@ DNS is like a phone book for the internet. You type "google.com" (the name), and
 4. **Mixing up symmetric and asymmetric encryption.** Symmetric uses one shared key (fast, but key distribution is a problem). Asymmetric uses a public/private key pair (slower, but solves key distribution). In practice, both are combined (asymmetric to exchange a symmetric key, then symmetric for the data).
 
 ---
-
-
 
 <FlashcardDeck client:only="solid-js" deckId="alevel-cs-networks" title="A-Level CS -- Networks" description="TCP/IP, topologies, protocols, security and web technologies" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]} />
 

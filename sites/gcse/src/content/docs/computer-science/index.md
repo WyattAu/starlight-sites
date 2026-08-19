@@ -110,10 +110,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-
 ## Intuition
 
 Computer science is like learning the rules of a game where the pieces are logic gates and the board is silicon. Binary is the language of the machine -- everything is ultimately 1s and 0s, and understanding this is the foundation. The CPU's fetch-decode-execute cycle is the heartbeat of computation: it reads an instruction, figures out what to do, does it, and repeats billions of times per second. Algorithms are the recipes, and their efficiency determines whether your program finishes in seconds or hours. The key is to think computationally: break problems into steps, identify patterns, and choose the right tool for the job.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

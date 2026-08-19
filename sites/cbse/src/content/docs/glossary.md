@@ -89,7 +89,7 @@ tags: [glossary]
 
 **Cutoff Score**: The minimum score required to qualify for JEE Advanced or specific college admissions.
 
-** counselling**: The process of selecting and confirming college seats based on JEE rank.
+**counselling**: The process of selecting and confirming college seats based on JEE rank.
 
 **JoSAA (Joint Seat Allocation Authority)**: The body managing seat allocation for IITs, NITs, and other institutions.
 

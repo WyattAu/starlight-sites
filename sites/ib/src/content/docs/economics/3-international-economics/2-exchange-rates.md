@@ -384,8 +384,6 @@ trade balance (after the J-curve adjustment period).
   independence (impossible trinity)
 - Key diagrams: exchange rate determination, J-curve, effects of appreciation/depreciation on trade
 
-
-
 ## Cross-References
 
 - **[National Income](../2-macroeconomics/1-national-income):** Exchange rates affect income

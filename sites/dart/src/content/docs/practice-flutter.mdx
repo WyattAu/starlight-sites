@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### Exercise 1: Widget Composition
 
 **Problem:** Build a product card widget that composes an image, title, price, and an add-to-cart button. The card should be reusable and accept all data as constructor parameters.
@@ -84,7 +83,6 @@ class ProductCard extends StatelessWidget \{
 **Solution:** The widget uses `const` constructor with `required` named parameters for all external data. `Column` and `Expanded` create a flex layout. `ClipRRect` rounds the image corners. `FilledButton` triggers the callback. The widget is stateless and purely declarative.
 
 ---
-
 
 ### Exercise 2: State Management with ChangeNotifier
 
@@ -214,7 +212,6 @@ class _CartPageState extends State<CartPage> \{
 
 ---
 
-
 ### Exercise 3: Async Data Loading with FutureBuilder
 
 **Problem:** Create a view that fetches user data from an API using `FutureBuilder`. Display a loading spinner, the data on success, and an error message with a retry button on failure.
@@ -336,7 +333,6 @@ class _UserPageState extends State<UserPage> \{
 
 ---
 
-
 ### Exercise 4: Custom Animations with AnimatedContainer
 
 **Problem:** Build an interactive box that animates its size, color, and border radius when tapped. Use `AnimatedContainer` for implicit animations and `GestureDetector` to detect taps.
@@ -413,7 +409,6 @@ class AnimationDemoPage extends StatelessWidget \{
 **Solution:** `AnimatedContainer` implicitly animates changes to `width`, `height`, `color`, and `borderRadius` over 400ms with `Curves.easeInOut`. `GestureDetector.onTap` toggles `_expanded` via `setState`. `Transform.rotate` adds a rotation effect. The `SingleTickerProviderStateMixin` is included for potential explicit animation extensions.
 
 ---
-
 
 ### Exercise 5: Navigation with Named Routes
 

@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Algebraic manipulation follows strict logical rules that preserve equality, allowing us to isolate unknowns and prove relationships
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for number and algebra.
@@ -351,8 +350,6 @@ Arrangements of the 5 items: $5! = 120$.
 Within the ABC group: $3! = 6$ arrangements. Within the DE group: $2! = 2$ arrangements.
 
 Total: $5! \times 3! \times 2! = 120 \times 6 \times 2 = 1440$.
-
-
 
 ## Cross-References
 

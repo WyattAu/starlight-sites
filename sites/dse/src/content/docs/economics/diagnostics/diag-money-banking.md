@@ -584,8 +584,6 @@ South African rand, which immediately stabilised prices.
    business confidence and reducing uncertainty about future inflation. This is the "expectations
    channel" of monetary policy.
 
-
-
 ## Cross-References
 
 - **[Market Failure](diag-market-failure):** Market failure analysis is key

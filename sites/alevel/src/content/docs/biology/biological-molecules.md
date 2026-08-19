@@ -372,7 +372,6 @@ but do **not** change the $\Delta H$ or equilibrium position.
 }
 </script>
 
-
 ## Intuition
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**

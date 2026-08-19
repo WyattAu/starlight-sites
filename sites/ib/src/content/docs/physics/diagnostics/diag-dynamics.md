@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Newton's second law (F = ma) is the bridge between causes (forces) and effects (acceleration), forming the foundation of classical mechanics
 
-
 ## Unit Tests
 
 ### UT-1: Newton"s Third Law Pair Identification
@@ -513,8 +512,6 @@ parachute drag $F_d = 500v$ is speed-dependent, so the landing speed depends on 
 At terminal velocity $v_t = 13.1\,\text{m}\,\text{s}^{-1}$ (downward), the helicopter hits the
 ground at approximately $13.1\,\text{m}\,\text{s}^{-1}$Which is above the
 $6.0\,\text{m}\,\text{s}^{-1}$ safety threshold. The helicopter does **not** land safely.
-
-
 
 ## Cross-References
 

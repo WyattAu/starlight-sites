@@ -663,9 +663,11 @@ When encountering an obscure linker error involving a mangled name, follow this 
 
 1. **Copy the mangled name** from the linker error output.
 2. **Demangle it** using `c++filt` or `llvm-cxxfilt`:
+
    ```bash
    echo '_ZNK5Utils8parseArgERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE' | c++filt
    ```
+
 3. **Identify the namespace, class, and function** from the demangled name.
 4. **Search the source code** for the function declaration. Check:
 
@@ -674,11 +676,12 @@ When encountering an obscure linker error involving a mangled name, follow this 
 - Are the parameter types an exact match (including `const``&``&&`)?
 - Is the `noexcept` specification consistent?
 
-5. **Check the library/object file** that should provide the symbol:
+1. **Check the library/object file** that should provide the symbol:
+
    ```bash
    nm -C libutils.a | grep "Utils::parseArg"
    ```
-6. **If the symbol exists but the linker cannot find it**, check link order (libraries after object
+2. **If the symbol exists but the linker cannot find it**, check link order (libraries after object
    files) and visibility (`-fvisibility=hidden`).
 
 ## 14. Mangling Reference: Complete Type Encoding Table

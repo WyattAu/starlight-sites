@@ -90,8 +90,8 @@ $$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \appro
 
 ### Additional Practice Problems
 
-4. A metal has a BCC structure with density $6.8 \, \text{g/cm}^3$ and atomic radius $1.25 \, \text{\AA}$. Find the molar mass.
-5. Compare the number of atoms per unit cell and packing efficiency for SC, BCC, and FCC structures.
+1. A metal has a BCC structure with density $6.8 \, \text{g/cm}^3$ and atomic radius $1.25 \, \text{\AA}$. Find the molar mass.
+2. Compare the number of atoms per unit cell and packing efficiency for SC, BCC, and FCC structures.
 
 ## Key Formulas
 
@@ -152,10 +152,12 @@ $$r_{void} = 0.225 \times 1.25 = 0.281 \, \text{\AA}$$
 **Solution:**
 
 Step 1: Analyse the unit cell parameters:
+
 - $a = b \neq c$: two axes are equal, one is different
 - $\alpha = \beta = \gamma = 90°$: all angles are right angles
 
 Step 2: Match with crystal systems:
+
 - Cubic: $a = b = c$, $\alpha = \beta = \gamma = 90°$ (no)
 - Tetragonal: $a = b \neq c$, $\alpha = \beta = \gamma = 90°$ (yes)
 - Orthorhombic: $a \neq b \neq c$, $\alpha = \beta = \gamma = 90°$ (no)

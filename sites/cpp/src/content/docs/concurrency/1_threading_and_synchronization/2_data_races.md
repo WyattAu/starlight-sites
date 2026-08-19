@@ -111,6 +111,7 @@ int main() {
     std::cout << "Actual:   " << counter << "\n";
     return 0;
 }
+
 ```
 
 The expected result is $10 \times 100\,000 = 1\,000\,000$But the actual result will Be less because
@@ -510,7 +511,6 @@ public:
 - [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks.md)
 - [Atomic Operations and Lock-Free Programming](../2_memory_model_and_atomics/3_atomic_operations.md)
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to data races and critical sections,
@@ -531,4 +531,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

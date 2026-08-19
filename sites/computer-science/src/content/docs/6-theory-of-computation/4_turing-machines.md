@@ -221,7 +221,7 @@ verifies one pair. If any pair mismatches, the string is not of the form $w\#w^R
 
 1. **Assuming non-deterministic TMs are more powerful than deterministic TMs.** NTMs and DTMs recognise exactly the same class of languages (the recursively enumerable languages). An NTM can be simulated by a deterministic TM using breadth-first search over all computation paths, though at an exponential cost in time.
 
-2. **Confusing the halting problem with the acceptance problem.** The halting problem asks whether a TM halts on a given input. The acceptance problem asks whether a TM *accepts* a given input. The acceptance problem is semi-decidable (recognisable) but not decidable, while the halting problem is not even semi-decidable.
+2. **Confusing the halting problem with the acceptance problem.** The halting problem asks whether a TM halts on a given input. The acceptance problem asks whether a TM _accepts_ a given input. The acceptance problem is semi-decidable (recognisable) but not decidable, while the halting problem is not even semi-decidable.
 
 3. **Assuming a TM can "look ahead" on the input tape.** A standard TM reads one symbol at a time and moves its head one cell left or right. It cannot skip ahead or read multiple symbols simultaneously. Multi-tape TMs are equivalent in power but require simulation overhead on a single-tape machine.
 

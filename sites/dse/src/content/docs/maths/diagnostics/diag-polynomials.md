@@ -785,8 +785,6 @@ $a = 1$$b = -7$$c = -1$$d = 6$.
 
 $P'(1) = 4 + 3 - 14 - 1 = -8$.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

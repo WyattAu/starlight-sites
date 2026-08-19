@@ -23,6 +23,7 @@ categories:
 ## Astrophysics
 
 > **Info:** Board Coverage AQA Paper 2 (Option 9) | Edexcel CP5 (Option 9) | OCR (A) Paper 2 (Option D)
+>
 ## 1. Astronomical Distances and Measurements
 
 ### Astronomical Units of Distance
@@ -228,7 +229,7 @@ Two fusion processes convert hydrogen to helium:
 
 Energy released per reaction: $\sim 26.7$ MeV.
 
-2. **CNO cycle** --- dominant in stars with $T \gt 1.5 \times 10^7$ K (more massive stars). Uses
+1. **CNO cycle** --- dominant in stars with $T \gt 1.5 \times 10^7$ K (more massive stars). Uses
    carbon, nitrogen, and oxygen as catalysts. This process is more temperature-sensitive than the pp
    chain, leading to convective cores in massive stars.
 
@@ -802,7 +803,6 @@ $$d = 4.99 \times 10^{24}\;\mathrm{m}$$
 Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$ Mpc.
 
 </details>
-
 
 ## Cross-References
 

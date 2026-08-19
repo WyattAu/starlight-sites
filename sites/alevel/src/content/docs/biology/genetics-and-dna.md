@@ -23,6 +23,7 @@ categories:
 ## Genetics and DNA
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. DNA Structure and Replication
 
 ### 1.1 The Structure of DNA
@@ -124,7 +125,7 @@ Ribosomes have two subunits: the **small subunit** (40S in eukaryotes) binds to 
 - The ribosome translocates one codon along the mRNA: the empty tRNA moves to the E site and exits,
   the tRNA carrying the growing polypeptide moves from A to P, and a new tRNA enters A.
 
-3. **Termination**: the ribosome reaches a stop codon (UAA, UAG, or UGA). There is no tRNA for stop
+1. **Termination**: the ribosome reaches a stop codon (UAA, UAG, or UGA). There is no tRNA for stop
    codons. A **release factor** binds, causing the polypeptide to be released and the ribosome to
    dissociate.
 
@@ -2074,7 +2075,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

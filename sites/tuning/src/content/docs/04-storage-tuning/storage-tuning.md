@@ -547,7 +547,7 @@ NVMe has two command categories:
 - Firmware Commit (update controller firmware)
 - Format NVM (secure erase)
 
-2. **I/O Commands:** Sent via I/O Submission Queues. Used for data transfer:
+1. **I/O Commands:** Sent via I/O Submission Queues. Used for data transfer:
 
 - Read, Write (standard data commands)
 - Compare (read and compare with host buffer)

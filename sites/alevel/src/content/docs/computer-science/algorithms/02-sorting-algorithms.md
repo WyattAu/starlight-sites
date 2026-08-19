@@ -554,7 +554,6 @@ For revision on data structures used in sorting, see
 [Trees](../data-structures/04-trees) (heap sort) and
 [Linked Lists](../data-structures/02-linked-lists) (merge sort).
 
-
 ## Common Pitfalls
 
 1. Confusing the best-case, average-case, and worst-case complexities of sorting algorithms.
@@ -573,7 +572,6 @@ For revision on data structures used in sorting, see
 6. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -588,4 +586,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

@@ -313,4 +313,3 @@ The first isomorphism theorem requires $\ker(\phi) \trianglelefteq G$, which is 
 - **[Groups](1_groups.md)**: Groups are the structures that homomorphisms map between while preserving the group operation.
 - **[Normal Subgroups and Quotient Groups](4_normal-subgroups-and-quotient-groups.md)**: The kernel of every homomorphism is a normal subgroup, enabling quotient constructions.
 - **[Rings](8_rings.md)**: Ring homomorphisms extend the concept of structure-preserving maps to rings.
-

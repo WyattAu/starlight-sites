@@ -18,7 +18,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 ## Intuition
 
 Error handling is about graceful recovery when things go wrong. Exceptions let you separate the "happy path" from error recovery — throw when something fails, catch where you can recover. Think of stack unwinding as a domino effect: when an exception is thrown, each local object's destructor runs as the call stack collapses, cleaning up resources automatically. Modern C++ also offers `std::optional` for "may not have a value" and `std::expected` (C++23) for "may have an error."
@@ -30,7 +29,6 @@ Error handling is about graceful recovery when things go wrong. Exceptions let y
 - **Catching by value**: Catching exceptions by value causes slicing — always catch by reference (`catch (const std::exception& e)`).
 
 ---
-
 
 <FlashcardDeck client:only="solid-js"   deckId="cpp-error-handling"
   title="C++ Error Handling Flashcards"

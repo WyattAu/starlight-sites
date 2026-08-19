@@ -368,7 +368,6 @@ KEY on `order_id` alone if the table is partitioned by `created_at` -- the prima
 Both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
 Partitioning.
 
-
 ## Sharding
 
 Sharding distributes data across multiple independent database instances (shards). Unlike
@@ -409,7 +408,6 @@ $$\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}$$
 <aside class="starlight-aside starlight-aside--tip">
 Connection pooling can handle millions of queries per hour. Only shard when you have exhausted
 Vertical scaling and single-node optimisations.
-
 
 ## Connection Pooling
 
@@ -509,7 +507,7 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 - Deploy application code that reads from the new column
 - Remove the old column
 
-2. **PostgreSQL-specific:**
+1. **PostgreSQL-specific:**
 
 - `CREATE INDEX CONCURRENTLY` (no lock)
 - `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL` (metadata-only in PG 11+)
@@ -519,7 +517,6 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 <aside class="starlight-aside starlight-aside--caution">
 Microservice architectures, check all services, not just the one you are deploying. A column used by
 A reporting service or a data pipeline can cause silent failures if dropped.
-
 
 ### Migration Tools
 
@@ -660,7 +657,6 @@ recovery_target_action = 'promote'
 <aside class="starlight-aside starlight-aside--caution">
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
 That the backup is corrupted or incomplete when you need it most.
-
 
 ## Replication
 
@@ -939,6 +935,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>

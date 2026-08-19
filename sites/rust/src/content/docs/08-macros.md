@@ -208,7 +208,6 @@ Will produce the error "recursion limit reached while expanding ...". Use
 `#![recursion_limit = "256"]` at the crate root to increase the limit if needed. For truly complex
 Processing, use a procedural macro instead.
 
-
 ### Token Pasting and `stringify!`
 
 The `stringify!` macro converts a token sequence to a string literal at compile time. This is useful
@@ -357,7 +356,6 @@ macro_rules! my_assert {
 Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
 That has no prospect of changing.
-
 
 ### Scoping Rules
 
@@ -1630,7 +1628,7 @@ Names that include parts of the input.
 | `derive_more`           | Additional derives (From, Into, Constructor, etc.)         |
 | `paste`                 | Identifier pasting in macros                               |
 | `proc-macro-error`      | Better error handling in proc macros                       |
-| ` darling`              | Attribute parsing helpers for proc macros                  |
+| `darling`              | Attribute parsing helpers for proc macros                  |
 | `macro_rules_attribute` | Apply `macro_rules!` as attributes                         |
 | `cargo-expand`          | Tool to view macro expansions                              |
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
@@ -1656,7 +1654,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

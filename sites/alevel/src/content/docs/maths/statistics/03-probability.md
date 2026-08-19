@@ -505,7 +505,7 @@ Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
 <details>
 <summary>Solution 3</summary>
 $P(A \cap B') = P(A) - P(A \cap B) = P(A) - P(A)P(B)$ (by independence)
-$= P(A)[1 - P(B)] = P(A)P(B')$. $\blacksquare$
+$= P[A](1 - P(B)) = P(A)P(B')$. $\blacksquare$
 
 **If you get this wrong, revise:** [Independence](#5-independence) — Section 5.
 
@@ -875,4 +875,3 @@ building a personal test matrix.
 - [Correlation and Regression](../statistics/02-correlation-and-regression.md) — Conditional probability underpins the interpretation of regression and correlation analysis.
 - [Statistical Distributions](04-statistical-distributions.md) — The binomial and Poisson distributions extend probability theory to counting and rare events.
 - [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Probability theory provides the p-values and significance levels used in hypothesis testing.
-

@@ -152,6 +152,7 @@ case 3 applies if the regularity condition $3(n/4)\log(n/4) \le c n\log n$ holds
 This holds for $c = 3/4$ and sufficiently large $n$. Thus $T(n) = \Theta(n\log n)$.
 
 **Problem 4.** Insert into AVL tree: 15, 5, 20, 10, 25, 3, 7, 30.
+
 - Insert 15: root.
 - Insert 5: left child of 15.
 - Insert 20: right child of 15.
@@ -178,7 +179,6 @@ TSP cost (since optimal TSP minus one edge is a spanning tree).
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
 | [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures)       |
 | [Algorithms and Data Structures (Advanced)] | University | [View](https://university.wyattau.com/docs/computing/2-algorithms-and-data-structures/1_algorithms-and-data-structures) |
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

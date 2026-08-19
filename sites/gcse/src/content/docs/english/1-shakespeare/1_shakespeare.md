@@ -584,10 +584,10 @@ Question requires an extract-based response linked to the whole play.
 3. **Insufficient working**. In calculation or analysis questions, marks are awarded for method.
    Show every intermediate step.
 
-
 ## Intuition
 
 Shakespeare is like a time machine that still runs -- his plays were written four hundred years ago, but the emotions, power dynamics, and moral dilemmas they explore are immediate. The Globe Theatre was intimate and loud, which is why soliloquies work: a character alone on stage, speaking directly to the audience, creating a conspiracy of shared knowledge. Iambic pentameter is the heartbeat of the verse -- when it breaks, something is wrong with the character. Understanding context (the Divine Right of Kings, the Great Chain of Being) is not about memorising facts; it is about understanding what would have made the audience gasp.
+
 ## Worked Examples
 
 **Example 1:**

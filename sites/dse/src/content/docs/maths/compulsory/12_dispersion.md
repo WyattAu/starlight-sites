@@ -420,15 +420,16 @@ While not computed algebraically in the compulsory syllabus, students should rec
 - Median (position $4$ of $7$): $65$.
 - Mode: none (all values are distinct).
 
-2. **Question:** A dataset has mean $20$ and variance $36$. Find the mean and variance of the
+1. **Question:** A dataset has mean $20$ and variance $36$. Find the mean and variance of the
 Transformed dataset $Y = \dfrac{X - 20}{6}$.
+
 </details>
 <summary>Answer</summary>
 
 - $\bar{y} = \frac{1}{6}(20) - \frac{20}{6} = \frac{20-20}{6} = 0$.
 - $\mathrm{Var}(Y) = \left(\frac{1}{6}\right)^2 \times 36 = \frac{1}{36} \times 36 = 1$.
 
-3. **Question:** For the grouped frequency distribution below, find the mean and standard deviation
+1. **Question:** For the grouped frequency distribution below, find the mean and standard deviation
    using the coding method.
 
 | Class    | Frequency |
@@ -449,9 +450,10 @@ Transformed dataset $Y = \dfrac{X - 20}{6}$.
 - $\sigma_d^2 = \frac{62}{50} - \left(\frac{-2}{50}\right)^2 = 1.24 - 0.0016 = 1.2384$.
 - $\sigma^2 = 1.2384 \times 10^2 = 123.84$. So $\sigma = \sqrt{123.84} \approx 11.13$.
 
-4. **Question:** Two classes sat the same test. Class A ($n_1 = 30$$\bar{x}_1 = 72$ $\sigma_1 = 8$).
+1. **Question:** Two classes sat the same test. Class A ($n_1 = 30$$\bar{x}_1 = 72$ $\sigma_1 = 8$).
 Class B ($n_2 = 20$$\bar{x}_2 = 80$$\sigma_2 = 6$). Find the combined mean and Combined standard
 deviation.
+
 </details>
 <summary>Answer</summary>
 
@@ -469,9 +471,10 @@ deviation.
   $
 - Combined standard deviation: $\sigma_c = \sqrt{68.16} \approx 8.26$.
 
-5. **Question:** The following are the lifetimes (in hours) of $10$ light bulbs:
+1. **Question:** The following are the lifetimes (in hours) of $10$ light bulbs:
 $820, 790, 810, 780, 830, 800, 795, 815, 805, 855$. Determine the range, IQR, and identify any
 Outliers.
+
 <details>
 <summary>Answer</summary>
 
@@ -484,9 +487,10 @@ Outliers.
 - Lower fence: $795 - 1.5(25) = 757.5$. Upper fence: $820 + 1.5(25) = 857.5$.
 - No outliers (all values lie within $[757.5, 857.5]$).
 
-6. **Question:** A farmer records the yields (in kg) of two varieties of wheat over several seasons.
+1. **Question:** A farmer records the yields (in kg) of two varieties of wheat over several seasons.
 Variety A: mean $= 45$Standard deviation $= 5$. Variety B: mean $= 60$Standard deviation $= 9$.
 Which variety has more consistent yield?
+
 </details>
 <summary>Answer</summary>
 
@@ -494,8 +498,9 @@ Which variety has more consistent yield?
 - CV$_B = \frac{9}{60} \times 100\% = 15.0\%$.
 - Since CV$_A <$ CV$_B$Variety A has more consistent (less variable) yield relative to its mean.
 
-7. **Question:** Given the dataset $\{a, b, c\}$ with mean $10$ and variance $8$Find the value of
+1. **Question:** Given the dataset $\{a, b, c\}$ with mean $10$ and variance $8$Find the value of
 $a^2 + b^2 + c^2$.
+
 <details>
 <summary>Answer</summary>
 
@@ -503,8 +508,9 @@ $a^2 + b^2 + c^2$.
 - $\sigma^2 = \frac{a^2+b^2+c^2}{3} - \bar{x}^2 = 8$.
 - $\frac{a^2+b^2+c^2}{3} - 100 = 8 \implies a^2+b^2+c^2 = 324$.
 
-8. **Question:** A set of $20$ numbers has mean $15$ and standard deviation $3$. If each number is
+1. **Question:** A set of $20$ numbers has mean $15$ and standard deviation $3$. If each number is
 Multiplied by $2$ and then $5$ is added, find the new mean and new standard deviation.
+
 </details>
 <summary>Answer</summary>
 
@@ -512,7 +518,7 @@ Multiplied by $2$ and then $5$ is added, find the new mean and new standard devi
 - New variance: $2^2 \times 3^2 = 36$.
 - New standard deviation: $\sqrt{36} = 6$.
 
-9. **Question:** The histogram below (described verbally) shows the distribution of weights of $50$
+1. **Question:** The histogram below (described verbally) shows the distribution of weights of $50$
    apples. The class intervals and frequencies are:
 
 | Weight (g) | Frequency |
@@ -541,9 +547,10 @@ Estimate the median weight from the cumulative frequency distribution.
   $,
   $
 
-10. **Question:** For the dataset $\{3, 7, 7, 2, 9, 5, 1, 8, 6, 4\}$Find $\sum x_i$$\sum x_i^2$ The
+1. **Question:** For the dataset $\{3, 7, 7, 2, 9, 5, 1, 8, 6, 4\}$Find $\sum x_i$$\sum x_i^2$ The
 mean, and the population variance. Verify your variance using both the definition formula and The
 computational formula.
+
 </details>
 <summary>Answer</summary>
 
@@ -565,10 +572,11 @@ computational formula.
   \end{aligned}
   $$
 
-11. **Question:** The weekly wages (in dollars) of $8$ workers in a small factory are
+1. **Question:** The weekly wages (in dollars) of $8$ workers in a small factory are
 $3200, 3500, 3800, 4200, 4500, 4800, 5200, 12000$. The factory owner claims the average wage is
 `USD 5150`. Is this claim misleading? Explain using an appropriate measure of central tendency and
 Dispersion.
+
 <details>
 <summary>Answer</summary>
 
@@ -581,9 +589,10 @@ Dispersion.
 - The range ($12000 - 3200 = 8800$) and the large gap between the mean and median both indicate
   Significant skewness, confirming the mean is a poor choice of summary statistic.
 
-12. **Question:** A set of data has variance $25$ and mean $0$. A new set is formed by removing the
+1. **Question:** A set of data has variance $25$ and mean $0$. A new set is formed by removing the
 Value $10$ from the original set. If the original set had $n = 6$ values, find the new mean and new
 Variance.
+
 </details>
 <summary>Answer</summary>
 

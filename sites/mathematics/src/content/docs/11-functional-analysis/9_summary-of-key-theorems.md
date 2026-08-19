@@ -160,7 +160,7 @@ operators (Spectral).
 ### Additional Theorems
 
 | Theorem | Statement | Application |
-|---------|-----------|-------------|
+| --------- | ----------- | ------------- |
 | Lax-Milgram | Bounded coercive bilinear form on Hilbert space has unique solution | Elliptic PDEs |
 | Hille-Yosida | Maximal accretive operators generate contraction semigroups | Evolution equations |
 | Krein-Milman | Compact convex set in locally convex space is closed hull of extreme points | Optimisation |
@@ -170,7 +170,7 @@ operators (Spectral).
 ### Dual Space Reference
 
 | Space $X$ | Dual $X^*$ | Norm on $X^*$ |
-|-----------|------------|----------------|
+| ----------- | ------------ | ---------------- |
 | $L^p(\mu)$, $1 < p < \infty$ | $L^q(\mu)$, $1/p + 1/q = 1$ | $\|g\|_q$ |
 | $L^1(\mu)$ | $L^\infty(\mu)$ (if $\sigma$-finite) | $\|g\|_\infty$ |
 | $C(K)$, $K$ compact Hausdorff | Space of Radon measures $\mathcal{M}(K)$ | Total variation |
@@ -181,16 +181,16 @@ operators (Spectral).
 ### Operator Topologies
 
 | Topology | Convergence condition | Use case |
-|----------|---------------------|----------|
+| ---------- | --------------------- | ---------- |
 | Norm | $\|T_n - T\| \to 0$ | Strongest; uniform approximation |
 | Strong (SOT) | $\|T_n x - Tx\| \to 0$ for each $x$ | Pointwise convergence |
-| Weak (WOT) | $|\langle (T_n - T)x, y \rangle| \to 0$ for all $x, y$ | Weakest useful topology |
-| Weak\* | $|x^*(T_n - T)| \to 0$ for $x^* \in X^*$ | Banach-Alaoglu compactness |
+| Weak (WOT) | $ | \langle (T_n - T)x, y \rangle | \to 0$ for all $x, y$ | Weakest useful topology |
+| Weak\* | $ | x^*(T_n - T) | \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
 
 ### Spectral Theory Reference
 
 | Operator type | Spectrum | Properties |
-|--------------|----------|------------|
+| -------------- | ---------- | ------------ |
 | Compact self-adjoint | Point spectrum only, $\lambda_n \to 0$ | Orthonormal eigenbasis |
 | Unitary | $\sigma \subseteq S^1$ (unit circle) | $\|U\| = 1$, $U^* = U^{-1}$ |
 | Normal | $\|T\| = r(T)$ (spectral radius) | Spectral theorem applies |

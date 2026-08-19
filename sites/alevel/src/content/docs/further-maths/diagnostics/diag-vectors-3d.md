@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -190,8 +189,6 @@ $\text{KE} = \frac{1}{2} \times 2 \times (16+4+1) = 21$ J.
 **Forgetting to use unit direction vectors for lines:** The equation of a line through point $\mathbf{a}$ in direction $\mathbf{d}$ is $\mathbf{r} = \mathbf{a} + t\mathbf{d}$ where $\mathbf{d}$ should be a direction vector (not necessarily a unit vector). However, when finding the perpendicular distance from a point to a line, you need the component of $\mathbf{AP}$ perpendicular to $\mathbf{d}$, which requires the unit vector $\hat{\mathbf{d}} = \mathbf{d}/|\mathbf{d}|$.
 
 **Mixing up the angle between two vectors with the angle between a vector and a plane:** The angle between two vectors uses $\cos\theta = \frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}||\mathbf{b}|}$. The angle between a vector and a plane uses $\sin\theta = \frac{\mathbf{a} \cdot \mathbf{n}}{|\mathbf{a}||\mathbf{n}|}$ where $\mathbf{n}$ is the normal to the plane. Using cosine for the plane angle gives the complement of the correct answer.
-
-
 
 ## Cross-References
 

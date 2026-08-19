@@ -507,7 +507,6 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 - [Associative and Unordered Containers](./2_associative_containers.md)
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 
-
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
@@ -534,4 +533,3 @@ Polymorphic memory resources are like choosing between buying furniture (global 
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

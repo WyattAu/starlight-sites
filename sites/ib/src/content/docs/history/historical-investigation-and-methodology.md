@@ -741,7 +741,7 @@ Range.
 
 Example:
 
-2. John Lewis Gaddis, "The Emerging Post-Revisionist Synthesis on the Origins of the Cold War,"
+1. John Lewis Gaddis, "The Emerging Post-Revisionist Synthesis on the Origins of the Cold War,"
    _Diplomatic History_ 7, no. 3 (1983): 171--190.
 
 #### Footnote Format for a Primary Source
@@ -753,15 +753,15 @@ Page number.
 
 Example:
 
-3. E.L. Woodward and Rohan Butler, eds., _Documents on British Foreign Policy, 1919--1939_, Series
+1. E.L. Woodward and Rohan Butler, eds., _Documents on British Foreign Policy, 1919--1939_, Series
    1, Vol. 7 (London: HMSO, 1949), 112.
 
 #### Footnote Format for Subsequent References
 
 After the first full citation, use a shortened form:
 
-4. Kershaw, _Hitler 1889--1936_, 248.
-5. Gaddis, "Emerging Post-Revisionist Synthesis," 175.
+1. Kershaw, _Hitler 1889--1936_, 248.
+2. Gaddis, "Emerging Post-Revisionist Synthesis," 175.
 
 #### Bibliography Format
 
@@ -822,10 +822,10 @@ methodology, including historical interpretations and evidence.
 The ability to construct well-supported, analytical arguments using a range of evidence is key to
 success in history.
 
-
 ## Intuition
 
 Historical methodology is like being a detective at a crime scene: every source is a witness, and every witness has a perspective, a motive, and gaps in their testimony. The OPVL framework forces you to think like a lawyer -- who wrote this, why, and what were they trying to prove? The real skill is not identifying bias (everything has bias) but calibrating how much weight to give a source given its context. A propaganda poster is not 'wrong' -- it reveals what the regime wanted people to believe, which is itself valuable evidence. The historian's craft is assembling a mosaic from fragments, each distorted by its own angle of reflection.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

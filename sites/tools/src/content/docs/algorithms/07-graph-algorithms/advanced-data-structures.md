@@ -407,7 +407,6 @@ Segment trees are more flexible: they support range min/max/gcd queries and rang
 Propagation, which Fenwick trees cannot do (or do with more complexity). Choose based on your query
 Type.
 
-
 ## Sparse Table
 
 A sparse table answers range minimum queries (RMQ) in $O(1)$ time after $O(n \log n)$ preprocessing.
@@ -956,7 +955,6 @@ def mos_algorithm(arr, queries):
 Blocks, compared to the standard $O((n+q)\sqrt{n})$. The Hilbert curve maps 2D coordinates to 1D in
 A way that preserves locality better than block-based sorting.
 
-
 ## Comparison Table
 
 | Data Structure          | Build         | Query                   | Update         | Notes                                         |
@@ -1093,7 +1091,6 @@ $\blacksquare$
   lower constant factors than segment trees.
 - Trie supports $O(L)$ insertion and lookup for strings of length $L$; used in autocomplete and IP
   routing.
-
 
 </aside>
 

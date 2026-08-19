@@ -312,8 +312,6 @@ from the start, and the extent of popular support for the Nazi regime. Source an
 for propaganda, the purposes behind official documentation, and the distortions of post-war
 testimony.
 
-
-
 ## Cross-References
 
 - **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study

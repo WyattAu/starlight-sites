@@ -105,6 +105,7 @@ and $N$ is null. This is the **Borel approximability** property.
 $m(A + x) = m(A)$ for all measurable $A$ and $x \in \mathbb{R}^n$.
 
 **Proposition 4.11 (Continuity from Above/Below).** If $\{A_k\}$ is a sequence of measurable sets:
+
 - If $A_k \uparrow A$ (i.e., $A_1 \subseteq A_2 \subseteq \cdots$ and $\bigcup A_k = A$), then
   $m(A) = \lim_{k\to\infty} m(A_k)$.
 - If $A_k \downarrow A$ (i.e., $A_1 \supseteq A_2 \supseteq \cdots$ and $\bigcap A_k = A$) and

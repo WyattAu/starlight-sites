@@ -114,7 +114,7 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 ### Key Relationships
 
 | Quantity | Expression | Physical Meaning |
-|----------|------------|------------------|
+| ---------- | ------------ | ------------------ |
 | Critical temperature | $T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ | Onset of macroscopic occupation |
 | Condensate fraction | $\frac{N_0}{N} = 1 - (T/T_c)^{3/2}$ | Order parameter below $T_c$ |
 | Energy below $T_c$ | $U \propto Nk_B T_c (T/T_c)^{5/2}$ | Deviates from equipartition |
@@ -145,7 +145,7 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 ### Summary Table: Ideal Bose Gas vs Ideal Fermi Gas
 
 | Property | Bose Gas | Fermi Gas |
-|----------|----------|-----------|
+| ---------- | ---------- | ----------- |
 | Statistics | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} - 1)^{-1}$ | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} + 1)^{-1}$ |
 | $\mu$ constraint | $\mu \leq \epsilon_0$ | $\mu$ unrestricted (can be positive at $T=0$) |
 | $T=0$ state | All particles in ground state | Filled up to $\epsilon_F$ |
@@ -162,7 +162,6 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: Bose-Einstein statistics are derived from the grand canonical ensemble for particles with integer spin.
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble is the natural framework for deriving Bose-Einstein and Fermi-Dirac distributions.
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The contrast between Bose and Fermi statistics leads to fundamentally different low-temperature behaviours.
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

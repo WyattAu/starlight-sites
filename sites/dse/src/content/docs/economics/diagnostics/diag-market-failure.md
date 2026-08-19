@@ -478,8 +478,6 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
    and excludable) that are publicly provided for equity reasons. They are not public goods in the
    economic sense.
 
-
-
 ## Cross-References
 
 - **[Market Failure](diag-market-failure):** Market failure analysis is key

@@ -312,8 +312,6 @@ $\blacksquare$
 }
 </script>
 
-
-
 ### Intuition
 
 Gaussian elimination is the systematic process of untangling a web of simultaneous constraints. Each equation in a linear system defines a hyperplane in some high-dimensional space, and a solution is a point where all hyperplanes intersect. Row reduction is the algebraic equivalent of rotating and sliding these hyperplanes until they reveal their intersection evidently. When you swap rows, you are re-ordering which constraint you address first. When you multiply a row by a scalar, you are rescaling a constraint without changing the solution set. When you add a multiple of one row to another, you are using one equation to eliminate a variable from another -- the same logic as solving two equations with two unknowns by substitution.
@@ -336,7 +334,6 @@ The deeper insight is that row reduction preserves the solution space while simp
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "4_systems Of Linear Equations", "url": "https://mathematics.wyattau.com/2-linear-algebra/4_systems-of-linear-equations"}]
 }
 </script>
-
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

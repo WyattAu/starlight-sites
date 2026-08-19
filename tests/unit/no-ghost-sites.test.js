@@ -1,0 +1,92 @@
+#!/usr/bin/env node
+/**
+ * No-ghost-sites test (Defence-CM gate).
+ *
+ * After the university/qualifications/infrastructure sites were split and
+ * renamed, their slugs survived in seven config/test/workflow locations for
+ * months (preview.yml was actively broken; the search index covered only 6
+ * live sites). This test extracts every "<slug>.wyattau.com" reference from
+ * configuration surfaces and asserts the slug actually exists under sites/.
+ *
+ * A site removal that leaves any reference behind now fails CI immediately.
+ *
+ * Run: node --test tests/unit/no-ghost-sites.test.js
+ */
+
+const { describe, it } = require('node:test')
+const assert = require('node:assert')
+const fs = require('node:fs')
+const path = require('node:path')
+const { astroSites, previewSites } = require('../../scripts/lib/sites.cjs')
+
+const ROOT = path.join(__dirname, '..', '..')
+
+// Domains that are not site slugs.
+const DOMAIN_ALLOWLIST = new Set(['wyattsnotes', 'search', 'www', 'lhci'])
+
+// Configuration surfaces where site references must never drift. Content
+// pages and historical planning documents (.md) are out of scope: they
+// describe the past, not the deployed configuration.
+const SCAN_FILES = [
+  '.github/workflows/ci.yml',
+  '.github/workflows/deploy.yml',
+  '.github/workflows/preview.yml',
+  '.github/workflows/e2e.yml',
+  '.github/workflows/slo-alert.yml',
+  '.github/workflows/uptime.yml',
+  'lighthouserc.json',
+  'tests/e2e/playwright.config.ts',
+  'scripts/uptime-check.sh',
+  'search-api/worker.js',
+  'search-api/config.js',
+  'search-api/dashboard.js',
+  'search-api/build-search-index.js',
+  'search-api/page-search.js',
+  'search-api/cross-site-search.js',
+  'search-api/sw.js',
+]
+
+const DOMAIN_RE = /([a-z0-9-]+)\.wyattau\.com/g
+
+describe('no ghost sites (configuration references)', () => {
+  it('every <slug>.wyattau.com reference in config surfaces matches a real site', () => {
+    const real = new Set([...astroSites(), 'main'])
+    const ghosts = []
+
+    for (const rel of SCAN_FILES) {
+      const full = path.join(ROOT, rel)
+      if (!fs.existsSync(full)) continue // not all workflows exist yet
+      const content = fs.readFileSync(full, 'utf8')
+      for (const m of content.matchAll(DOMAIN_RE)) {
+        const slug = m[1]
+        if (DOMAIN_ALLOWLIST.has(slug) || real.has(slug)) continue
+        ghosts.push(`${rel}: ${slug}.wyattau.com (no sites/${slug} directory)`)
+      }
+    }
+
+    assert.deepStrictEqual(
+      ghosts,
+      [],
+      `Ghost site references found:\n  ${ghosts.join('\n  ')}\n` +
+        'Remove or update them; the site list is derived via scripts/lib/sites.cjs (ADR-011).',
+    )
+  })
+
+  it('sites.meta.json is in lockstep with the sites/ directory', () => {
+    // siteMeta() throws on drift in either direction.
+    const { siteMeta } = require('../../scripts/lib/sites.cjs')
+    const meta = siteMeta()
+    assert.deepStrictEqual(
+      Object.keys(meta).sort(),
+      astroSites().sort(),
+      'sites.meta.json keys must exactly match sites/ (see scripts/lib/sites.cjs)',
+    )
+  })
+
+  it('preview subset members all exist', () => {
+    const real = new Set(astroSites())
+    for (const site of previewSites()) {
+      assert.ok(real.has(site), `preview site ${site} does not exist under sites/`)
+    }
+  })
+})

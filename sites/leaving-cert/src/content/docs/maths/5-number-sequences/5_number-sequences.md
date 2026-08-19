@@ -703,20 +703,20 @@ See the examples integrated throughout the sections above.
 
 ### Extended Practice
 
-21. Express $0.1\dot{6}$ (recurring) as a fraction.
-22. Find the sum to infinity of the series
+1. Express $0.1\dot{6}$ (recurring) as a fraction.
+2. Find the sum to infinity of the series
     $\frac{2}{3} + \frac{1}{3} + \frac{1}{6} + \frac{1}{12} + \cdots$
-23. Evaluate $\sum_{r=1}^{n} (r+1)(r+2)$.
-24. Prove by induction that $n^2 + n$ is even for all positive integers $n$.
-25. Solve $T_1 = 5$$T_{n+1} = \frac{1}{2}T_n + 3$ and find $\lim_{n \to \infty} T_n$.
-26. A geometric sequence has first term 3 and common ratio $\frac{2}{3}$. Find the smallest value of
+3. Evaluate $\sum_{r=1}^{n} (r+1)(r+2)$.
+4. Prove by induction that $n^2 + n$ is even for all positive integers $n$.
+5. Solve $T_1 = 5$$T_{n+1} = \frac{1}{2}T_n + 3$ and find $\lim_{n \to \infty} T_n$.
+6. A geometric sequence has first term 3 and common ratio $\frac{2}{3}$. Find the smallest value of
     $n$ such that $T_n < 0.1$.
-27. Prove that there are infinitely many prime numbers (Euclid's proof).
-28. EUR 10000 is invested at $r\%$ per annum compounded annually. After 10 years it is worth
+7. Prove that there are infinitely many prime numbers (Euclid's proof).
+8. EUR 10000 is invested at $r\%$ per annum compounded annually. After 10 years it is worth
     EUR 18000. Find $r$.
-29. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$Th
+9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$Th
     term $T_n$ and the common difference.
-30. Prove that $\frac{1}{\sqrt{2}}$ is irrational.
+10. Prove that $\frac{1}{\sqrt{2}}$ is irrational.
 
 ### Extended Content
 

@@ -73,6 +73,7 @@ The first step in any admissions journey is understanding which system you are a
 US university admissions is holistic — no single factor determines your outcome. Admissions officers evaluate your academic record (GPA, course rigour, standardised test scores), personal essays, extracurricular activities, recommendation letters, and interviews. The process is decentralised: each university sets its own requirements and deadlines.
 
 Key platforms:
+
 - **Common Application** — used by over 900 universities worldwide
 - **Coalition Application** — a smaller platform with a different essay prompt structure
 - **Direct institutional applications** — some universities (MIT, Georgetown, etc.) use their own portals
@@ -131,7 +132,7 @@ Most selective universities require additional essays. Common types include:
 ### Application Timeline
 
 | Month | Action |
-|-------|--------|
+| ------- | -------- |
 | Summer before senior year | Draft personal essay, build activities list, research universities |
 | September–October | Finalise personal essay, complete supplements, request recommendation letters |
 | November | Early Decision/Early Action deadlines (typically November 1–15) |

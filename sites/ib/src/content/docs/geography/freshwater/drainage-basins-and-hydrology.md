@@ -280,8 +280,6 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
-
 ## Cross-References
 
 - **[Climate Change](../climate-change):** Climate affects water systems

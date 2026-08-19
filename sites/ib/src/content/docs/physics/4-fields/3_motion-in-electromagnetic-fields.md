@@ -369,16 +369,16 @@ $$
 QV = \frac{1}{2}mv^2
 $$
 
-3. **Velocity selection:** Ions pass through a velocity selector, so all entering the deflection
+1. **Velocity selection:** Ions pass through a velocity selector, so all entering the deflection
    region have the same velocity $v = E/B$.
-4. **Magnetic deflection:** Ions enter a region of uniform magnetic field $\bm{B}$ (perpendicular to
+2. **Magnetic deflection:** Ions enter a region of uniform magnetic field $\bm{B}$ (perpendicular to
    their velocity) and follow a semicircular path. The radius of the path depends on the mass:
 
 $$
 R = \frac`\{mv}``\{qB}`
 $$
 
-5. **Detection:** Ions of different masses hit the detector at different positions. Since $v$ is the
+1. **Detection:** Ions of different masses hit the detector at different positions. Since $v$ is the
    same for all ions, the radius is proportional to mass:
 
 $$
@@ -858,7 +858,6 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
 ## Intuition
 
 Physics reveals that nature follows mathematical laws at every scale. Matter is made of atoms, forces arise from field interactions, and energy is conserved in every transformation. The power of physics lies in its predictive ability - from calculating projectile trajectories to designing particle accelerators. Understanding these principles helps us technology, predict natural phenomena, and appreciate the universe's underlying order.
-
 
 ## Cross-References
 

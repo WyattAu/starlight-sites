@@ -643,27 +643,25 @@ automatic stabilisers than a European welfare state.
 
 ## Additional Common Pitfalls
 
-6. **Confusing the budget deficit with the national debt:** The budget deficit is a _flow_ (the
+1. **Confusing the budget deficit with the national debt:** The budget deficit is a _flow_ (the
    annual shortfall of revenue over spending). The national debt is a _stock_ (the accumulated total
    of all past deficits minus surpluses). A country can have a large debt but a small deficit (or
    even a surplus), and vice versa. In DSE questions, read carefully whether the question asks about
    the deficit or the debt.
 
-7. **Applying the multiplier formula without checking the conditions:** The simple multiplier
+2. **Applying the multiplier formula without checking the conditions:** The simple multiplier
    $\frac{1}{1-MPC}$ assumes: (i) no taxation, (ii) no imports, (iii) no capacity constraints (the
    economy has spare resources), (iv) constant prices. If any of these conditions fail, the actual
    multiplier is smaller. In an economy at full employment, the multiplier is approximately zero
    because output cannot increase; the only effect is higher prices.
 
-8. **Assuming monetary policy is equally effective across exchange rate regimes:** Under a fixed
+3. **Assuming monetary policy is equally effective across exchange rate regimes:** Under a fixed
    exchange rate (like Hong Kong's Currency Board), monetary policy is not independent. Under a
    floating exchange rate, monetary policy affects the economy through the interest rate channel,
    the exchange rate channel, and the asset price channel. The relative importance of these channels
    depends on the economy's openness (the Mundell-Fleming model). For a small open economy with a
    floating exchange rate, the exchange rate channel may dominate, potentially weakening the
    domestic effect of monetary policy.
-
-
 
 ## Cross-References
 

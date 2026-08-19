@@ -19,7 +19,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 ### Additional Flashcard Topics
 
 - **Relational Model**: tables (relations) with rows (tuples) and columns (attributes). Primary keys uniquely identify rows; foreign keys reference other tables. The relational algebra provides operations (select, project, join, union).
@@ -46,11 +45,10 @@ Databases are about **organising, storing, and retrieving data efficiently and r
 
 ---
 
-
 ## Key Concepts
 
 | Concept | Why It Matters |
-|---------|---------------|
+| --------- | --------------- |
 | **ACID properties** | Guarantee reliable transactions even with concurrent access and failures |
 | **Normalisation** | Eliminates redundancy and prevents update anomalies through decomposition |
 | **B-tree index** | Maintains sorted order for O(log n) lookups; supports efficient range queries |
@@ -58,7 +56,6 @@ Databases are about **organising, storing, and retrieving data efficiently and r
 | **Query optimisation** | The query planner chooses the best execution plan; understanding this helps write efficient queries |
 
 ---
-
 
 ## Common Pitfalls
 
@@ -73,7 +70,6 @@ Databases are about **organising, storing, and retrieving data efficiently and r
 **Assuming that normalisation is always beneficial.** While normalisation eliminates redundancy, it can hurt read performance due to joins. Analytical (OLAP) workloads often benefit from denormalisation.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-databases" title="University Computing -- Databases" description="Flashcards covering relational model, SQL, normalization, transactions, indexing, and NoSQL concepts." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 

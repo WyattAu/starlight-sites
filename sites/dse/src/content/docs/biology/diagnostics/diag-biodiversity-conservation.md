@@ -141,7 +141,7 @@ removed from their natural environment and cared for in a controlled setting. Ex
    processes (e.g. Nutrient cycling, pollination). Ex situ conservation only protects individual
    species.
 
-2. **Species continue to evolve **: In their natural habitat, species continue to undergo natural
+2. **Species continue to evolve**: In their natural habitat, species continue to undergo natural
    selection and evolution in response to their environment, maintaining their genetic diversity and
    adaptability. In ex situ conservation, species are removed from their natural selection
    pressures.

@@ -73,15 +73,15 @@ Physics is deeply cumulative. The following order reflects the mathematical and 
 
 ### Tier 2 — Core Theory
 
-3. **Electromagnetism** — builds directly on mechanics and vector calculus
-4. **Thermal Physics** — requires probability theory; connects to statistical mechanics
-5. **Quantum Mechanics** — requires linear algebra, differential equations, and classical mechanics
+1. **Electromagnetism** — builds directly on mechanics and vector calculus
+2. **Thermal Physics** — requires probability theory; connects to statistical mechanics
+3. **Quantum Mechanics** — requires linear algebra, differential equations, and classical mechanics
 
 ### Tier 3 — Applications and Specialisations
 
-6. **Optics and Waves** — applications of electromagnetism and wave theory
-7. **Solid State Physics** — applies quantum mechanics to crystalline systems
-8. **Particle Physics and Cosmology** — synthesises quantum mechanics, electromagnetism, and relativity
+1. **Optics and Waves** — applications of electromagnetism and wave theory
+2. **Solid State Physics** — applies quantum mechanics to crystalline systems
+3. **Particle Physics and Cosmology** — synthesises quantum mechanics, electromagnetism, and relativity
 
 ### Prerequisite Map
 

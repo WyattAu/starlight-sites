@@ -127,8 +127,8 @@ and glucagon.
 - Increased lipogenesis (conversion of glucose to fat for long-term storage)
 - Decreased gluconeogenesis (inhibition of new glucose synthesis)
 
-5. Blood glucose concentration decreases back to the set point
-6. As blood glucose falls, $\beta$ cells detect this and reduce insulin secretion (**negative
+1. Blood glucose concentration decreases back to the set point
+2. As blood glucose falls, $\beta$ cells detect this and reduce insulin secretion (**negative
    feedback**)
 
 **Between meals or during exercise (blood glucose falls):**
@@ -142,8 +142,8 @@ and glucagon.
 - Increased gluconeogenesis (conversion of amino acids and glycerol to glucose in the liver)
 - Increased lipolysis (breakdown of fat into fatty acids and glycerol)
 
-5. Blood glucose concentration increases back to the set point
-6. As blood glucose rises, $\alpha$ cells reduce glucagon secretion (**negative feedback**)
+1. Blood glucose concentration increases back to the set point
+2. As blood glucose rises, $\alpha$ cells reduce glucagon secretion (**negative feedback**)
 
 ### The Role of the Liver in Blood Glucose Regulation
 
@@ -1002,7 +1002,7 @@ medulla:
 - Skeletal muscles (via motor neurons)
 - Adrenal medulla (triggers adrenaline release for metabolic effects)
 
-4. **Negative feedback:** When the corrective response brings body temperature back to normal, the
+1. **Negative feedback:** When the corrective response brings body temperature back to normal, the
    thermoreceptors detect this change and the hypothalamus reduces the corrective signals
 
 ---
@@ -1029,7 +1029,7 @@ medulla:
   volume); less ADH = more dilute urine (more volume)
 - **Sweating cools the body through EVAPORATION, not through the production of sweat itself.** If
   sweat drips off the skin without evaporating, it does not cool the body. This is why fans help
-  with cooling (they increase evaporation rate)** :::tip Tip Ready to test your understanding of
+  with cooling (they increase evaporation rate)**:::tip Tip Ready to test your understanding of
   **Homeostasis\*\*? Review the
   which covers homeostatic topics within the DSE specification.
 
@@ -1130,18 +1130,18 @@ and death.
 - High salt intake (increases blood osmolarity)
 - Diarrhoea or vomiting (water loss)
 
-2. **Detection:** Osmoreceptors in the **hypothalamus** detect the decrease in blood water
+1. **Detection:** Osmoreceptors in the **hypothalamus** detect the decrease in blood water
    potential. Osmoreceptors are specialised neurons that shrink when the surrounding fluid becomes
    more concentrated, triggering nerve impulses.
 
-3. **Coordination:**
+2. **Coordination:**
 
 - The hypothalamus sends nerve impulses to the **posterior pituitary gland**, stimulating it to
   release **antidiuretic hormone (ADH, vasopressin)** into the blood
 - Simultaneously, the hypothalamus stimulates the **thirst centre** in the brain, creating the
   sensation of thirst and motivating water-drinking behaviour
 
-4. **Effector response (kidneys):**
+1. **Effector response (kidneys):**
 
 - ADH binds to receptors on the cells of the **collecting ducts** and **distal convoluted tubules**
   in the nephrons
@@ -1152,7 +1152,7 @@ and death.
 - More concentrated urine is produced (small volume, high urea concentration)
 - Blood water potential returns to normal
 
-5. **Negative feedback:** As blood water potential returns to normal, osmoreceptors in the
+1. **Negative feedback:** As blood water potential returns to normal, osmoreceptors in the
    hypothalamus detect the change and reduce ADH secretion. Aquaporin channels are removed from the
    collecting duct membranes, reducing water reabsorption.
 

@@ -46,7 +46,7 @@ sources (banks, colleagues, services) to trick recipients into revealing sensiti
 (passwords, credit card numbers) or clicking malicious links.
 
 Two indicators: (1) The sender's email address does not match the claimed organisation (e.g.,
-support@bank-security-update.com instead of support@bank.com). (2) The email creates urgency ("Your
+<support@bank-security-update.com> instead of <support@bank.com>). (2) The email creates urgency ("Your
 account will be suspended in 24 hours") and contains links to suspicious URLs (hover to check before
 clicking).
 

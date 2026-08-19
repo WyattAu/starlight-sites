@@ -215,7 +215,7 @@ Presets support inheritance to keep configurations Don't-Repeat-Yourself (DRY).
 
 _This creates the `build/linux-clang-debug` directory._
 
-3. **Build (Compile):**
+1. **Build (Compile):**
 
    ```bash
    cmake --build --preset debug
@@ -498,7 +498,7 @@ Top level. Included presets are merged into the including file's namespace.
 - _Bad CI:_ `run: cmake . -DCMAKE_BUILD_TYPE=Release`
 - _Good CI:_ `run: cmake --preset ci-release`
 
-3. **Sanitizers as Presets:** Create dedicated presets for Address Sanitizer (ASan) and Thread
+1. **Sanitizers as Presets:** Create dedicated presets for Address Sanitizer (ASan) and Thread
    Sanitizer (TSan). This makes running a sanitized build as easy as `cmake --preset asan`.
 
 ## Intuition

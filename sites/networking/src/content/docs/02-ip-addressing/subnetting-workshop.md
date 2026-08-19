@@ -112,7 +112,6 @@ Host bits = $32 - 26 = 6$. Total addresses = $2^6 = 64$. Usable = $64 - 2 = 62$.
 `/31` (RFC 3021, point-to-point links, 2 usable) and `/32` (single host, 1 usable). Modern practice
 Also uses `/31` for network equipment links per RFC 6164.
 
-
 ### Verifying with a Shortcut
 
 For the octet where the boundary falls, the "magic number" is $256 - \mathrm{mask\_octet$. For
@@ -183,7 +182,6 @@ Subnet size.
 <aside class="starlight-aside starlight-aside--caution">
 Then try to allocate `172.16.1.32/27`That overlaps because `.32` falls inside the `/26` range.
 Always allocate from the next available address after the previous allocation ends.
-
 
 ### Address Planning Best Practices
 
@@ -379,7 +377,6 @@ Entry with the longest matching prefix. If there are multiple entries with the s
 The one with the lowest administrative distance wins. If there is still a tie, ECMP (Equal-Cost
 Multi-Path) load balancing is used.
 
-
 ### When Summarization Fails
 
 Summarization only works when the networks being summarized are contiguous and aligned to the
@@ -438,7 +435,6 @@ access-list 10 deny 192.168.0.0 0.0.254.255
 <aside class="starlight-aside starlight-aside--caution">
 Errors. Always double-check by verifying: `subnet_mask + wildcard_mask = 255.255.255.255` for each
 Octet.
-
 
 ### Host Bits in Wildcard Masks
 
@@ -531,7 +527,6 @@ Within the datacenter `/60`:
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (simplicity, privacy).
-
 
 ### IPv6 Subnetting Rules
 
@@ -654,7 +649,6 @@ Routes or accept the over-summarization.
 <aside class="starlight-aside starlight-aside--caution">
 A single prefix without including `10.0``10.5``10.6`And `10.7`. If the question requires an Exact
 summary, the answer is: it cannot be done with a single prefix.
-
 
 ### Problem 4
 
@@ -787,7 +781,6 @@ For loopbacks and specific host routes.
 <aside class="starlight-aside starlight-aside--tip">
 After you have mastered the fundamentals.
 
-
 ## Subnetting for Container and Cloud Environments
 
 ### Docker Networking
@@ -844,7 +837,6 @@ Accordingly.
 <aside class="starlight-aside starlight-aside--caution">
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to subnetting workshop, including
@@ -860,7 +852,6 @@ key principles and practical applications.
 
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
-
 
 </aside>
 

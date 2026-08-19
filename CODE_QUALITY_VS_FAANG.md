@@ -1,5 +1,11 @@
 # Code Quality Comparison: FAANG / HFT vs. Wyatt's Notes
 
+> **SUPERSEDED (2026-08-19):** This FAANG/HFT comparison has been extended and
+> replaced by `CODE_QUALITY_MATRIX.md`, which adds Defence (safety-critical CM)
+> and ECN (mission-critical exchange) lenses, a principles matrix (SOLID/DRY/
+> KISS/YAGNI), the 2026-08 content-pipeline integrity case study, and a
+> re-prioritised P0-P3 roadmap. Kept for historical reference.
+
 Date: 2026-06-21
 Scope: Honest comparison of this project's code quality practices against
 industry leaders, with a gap-closing roadmap. The project is a 2000-page

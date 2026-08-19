@@ -243,6 +243,7 @@ tableOfContents: false
 **Ignoring the principle of least privilege:** Give users and services only the permissions they need. Overly permissive access increases the blast radius of a breach. Audit permissions regularly.
 
 **Not updating dependencies:** Outdated libraries contain known vulnerabilities. Use npm audit, pip-audit, or similar tools to check for known CVEs. Automate dependency updates where possible.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for security notes.

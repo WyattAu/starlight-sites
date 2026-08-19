@@ -253,12 +253,12 @@ This is the fundamental cycle by which the CPU processes every instruction.
 - PC is incremented to point to the next instruction.
 - Instruction in MDR is copied to IR.
 
-2. **Decode:**
+1. **Decode:**
 
 - CU decodes the instruction in IR.
 - The CU determines which operation to perform and which operands are needed.
 
-3. **Execute:**
+1. **Execute:**
 
 - The instruction is executed (ALU performs calculations, data is moved, etc.).
 - Results are stored in the accumulator or written back to memory.

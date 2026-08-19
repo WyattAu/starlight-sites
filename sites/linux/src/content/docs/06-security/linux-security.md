@@ -71,7 +71,6 @@ chage -E 2025-12-31 username  # account expires
 **replaces** all existing group memberships. This is one of the most common mistakes in Linux
 Administration.
 
-
 ### Special UIDs
 
 | UID   | Name         | Description                                      |
@@ -261,7 +260,6 @@ NoNewPrivileges=yes
 <aside class="starlight-aside starlight-aside--tip">
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
 Whenever possible.
-
 
 ## SELinux
 
@@ -829,7 +827,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

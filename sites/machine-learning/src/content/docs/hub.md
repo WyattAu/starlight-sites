@@ -96,7 +96,7 @@ Machine learning is the study of algorithms that improve through experience. A m
 ### Types of Machine Learning
 
 | Type | Description | Examples |
-|------|-------------|----------|
+| ------ | ------------- | ---------- |
 | Supervised Learning | Learn from labelled data | Classification, regression |
 | Unsupervised Learning | Find structure in unlabelled data | Clustering, dimensionality reduction |
 | Semi-Supervised Learning | Learn from partially labelled data | Self-training, co-training |
@@ -281,7 +281,7 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 **Classification metrics:**
 
 | Metric | Description | When to Use |
-|--------|-------------|-------------|
+| -------- | ------------- | ------------- |
 | Accuracy | Fraction of correct predictions | Balanced classes |
 | Precision | True positives / (true + false positives) | Cost of false positives is high |
 | Recall | True positives / (true + false negatives) | Cost of false negatives is high |
@@ -292,7 +292,7 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 **Regression metrics:**
 
 | Metric | Description |
-|--------|-------------|
+| -------- | ------------- |
 | MSE | Mean squared error; penalises large errors |
 | RMSE | Root mean squared error; same units as target |
 | MAE | Mean absolute error; robust to outliers |
@@ -368,7 +368,7 @@ Computer vision enables machines to interpret visual information.
 ### ML Frameworks
 
 | Framework | Language | Strengths |
-|-----------|----------|-----------|
+| ----------- | ---------- | ----------- |
 | PyTorch | Python | Dynamic computation graph, research-friendly |
 | TensorFlow | Python | Production deployment, TFX ecosystem |
 | JAX | Python | High-performance numerical computing |

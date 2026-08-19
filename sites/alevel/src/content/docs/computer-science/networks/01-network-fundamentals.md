@@ -348,24 +348,25 @@ Occur before the web page is displayed, including DNS resolution and the TCP han
 - Authoritative server returns: `www.cam.ac.uk → 128.232.0.31`
 - Result cached at each level
 
-2. **TCP Handshake:**
+1. **TCP Handshake:**
 
 - Client sends SYN to `128.232.0.31:443`
 - Server responds with SYN-ACK
 - Client sends ACK
 - Connection established
 
-3. **TLS Handshake:** (for HTTPS)
+1. **TLS Handshake:** (for HTTPS)
 
 - Client and server negotiate encryption parameters
 - Server presents SSL certificate
 - Secure connection established
 
-4. **HTTP Request:** Client sends `GET / HTTP/1.1` over the encrypted connection
+1. **HTTP Request:** Client sends `GET / HTTP/1.1` over the encrypted connection
 
-5. **HTTP Response:** Server returns HTML, CSS, JS, images
+2. **HTTP Response:** Server returns HTML, CSS, JS, images
 
-6. **Rendering:** Browser parses and displays the page
+3. **Rendering:** Browser parses and displays the page
+
 </details>
 
 **Problem 4.** Compare star and mesh topologies in terms of cost, reliability, and scalability.
@@ -413,6 +414,7 @@ Connections.
 - UDP delivers packets as fast as possible without waiting for retransmission
 - Occasional packet loss manifests as brief glitches (acceptable)
 - TCP would buffer delayed packets, causing increasing lag
+
 </details>
 
 **Problem 6.** Calculate the number of usable host addresses in a `/28` subnet.
@@ -721,6 +723,7 @@ Passive mode is preferred because:
 1. The client initiates all connections, avoiding firewall issues on the client side
 2. NAT/routers on the client side block incoming connections
 3. It works through corporate firewalls that only allow outbound connections
+
 </details>
 
 **Problem 5.** A computer has IP address `192.168.1.100`Subnet mask `255.255.255.0`And default
@@ -754,8 +757,6 @@ And sends the frame there.
 
 </details>
 
-
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -775,4 +776,3 @@ implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-

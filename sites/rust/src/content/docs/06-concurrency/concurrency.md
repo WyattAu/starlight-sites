@@ -116,7 +116,6 @@ For `'static` bounds.
 <aside class="starlight-aside starlight-aside--note">
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
 
-
 ## Message Passing
 
 Rust's channel implementation is based on the actor model — threads communicate by sending messages,
@@ -368,7 +367,6 @@ fn reader() {
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
 Correct visibility semantics. Use `SeqCst` when you are unsure — it is the safest but slowest
 Option.
-
 
 ### Available Atomic Types
 
@@ -670,7 +668,6 @@ async fn main() {
 Restructure your code to recreate the futures. This is a common source of confusion for developers
 Coming from JavaScript's `Promise.race`.
 
-
 ## Race Conditions
 
 ### Data Races vs Race Conditions
@@ -830,7 +827,6 @@ Blocks the entire OS thread, preventing other async tasks from running. Use `tok
 Async contexts. However, if the critical section is short and does not contain any `.await`A
 `std::sync::Mutex` is acceptable and has lower overhead.
 
-
 ## `Send` and `Sync` in Depth
 
 ### Auto-Implementation Rules
@@ -930,7 +926,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

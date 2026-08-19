@@ -1,7 +1,7 @@
 ---
 
 title: Supervised Learning
-description: "Supervised learning is the field of training models to act as a mapping between a set of inputs to a Set of output. To conduct supervised learning, a"
+description: "Supervised learning as function approximation under loss: ERM, generalisation, and the probabilistic view via likelihood and posteriors."
 date: 2026-01-07T08:38:26.907Z
 tags:
   - ML
@@ -214,7 +214,18 @@ linked above.
 
 ## Intuition
 
-Supervised learning is like learning with a teacher. The teacher shows you examples (training data) and tells you the correct answers (labels). You study these examples and learn patterns - like learning to recognize cats by seeing many cat photos labeled "cat." Classification is like sorting mail into categories (spam or not spam), while regression is like predicting house prices based on features (size, location, age). The loss function is like a scorecard that tells you how wrong your predictions are - your goal is to minimize this score. Overfitting is like memorizing the answers instead of understanding the concepts - you ace the practice test but fail the real exam. Regularization is like a coach who penalizes overly complex strategies, pushing you toward simpler, more general solutions.
+Supervised learning formalises learning from examples as function approximation: fix a
+hypothesis class $\mathcal{H}$ and search for $f \in \mathcal{H}$ with small expected loss
+$\mathbb{E}[\ell(f(x), y)]$. Three ideas carry the weight. First, the loss encodes what "wrong"
+means: 0-1 loss for classification, squared error for regression, and, in the probabilistic
+view, negative log-likelihood, which makes maximum likelihood a special case of empirical risk
+minimisation. Second, training error is not the target; generalisation error is, and the gap
+between the two is governed by the complexity of $\mathcal{H}$ (via VC dimension or Rademacher
+complexity) relative to the amount of data. Overfitting is memorising the sample, underfitting
+is a class too small to contain the truth, and validation curves are the instrument that
+separates them. Third, the probabilistic treatment replaces the single best fit with a
+posterior over fits, so predictions carry uncertainty and regularisation arises from priors
+rather than penalty terms.
 
 ## Cross-References
 

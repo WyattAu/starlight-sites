@@ -80,7 +80,6 @@ remote's branch pointer, but the remote's working directory and index will not b
 inconsistencies. If you need a server-side repo with a working tree, use a **post-receive hook** to
 check out the files.
 
-
 ## Configuring Remotes
 
 ### Adding Remotes
@@ -129,7 +128,6 @@ $ git remote set-url origin git@github.com:user/repo.git
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 to inject tokens as environment variables). GitHub recommends HTTPS for all new repositories.
-
 
 ## Fetch
 
@@ -226,7 +224,6 @@ gitGraph
 those commits to a shared branch. If you have, see the
 [Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing.md#the-golden-rule-of-rebasing).
 
-
 ## Push
 
 `git push` uploads local commits to a remote repository and updates the remote's branch pointer.
@@ -307,7 +304,6 @@ Never force push `main` or any shared branch. The consequences are:
 3. They must `git pull --rebase` or reset their branches, potentially losing their own unpushed
    commits.
 
-
 ## Clone
 
 `git clone` creates a local copy of a remote repository:
@@ -334,17 +330,17 @@ $ git sparse-checkout set src/docs
 ### What Clone Creates
 
 ```bash
-$ git clone https://github.com/user/repo.git
+git clone https://github.com/user/repo.git
 ```
 
 This is equivalent to:
 
 ```bash
-$ mkdir repo && cd repo
-$ git init
-$ git remote add origin https://github.com/user/repo.git
-$ git fetch origin
-$ git checkout -b main origin/main  # or whatever the default branch is
+mkdir repo && cd repo
+git init
+git remote add origin https://github.com/user/repo.git
+git fetch origin
+git checkout -b main origin/main  # or whatever the default branch is
 ```
 
 The clone creates:
@@ -465,7 +461,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---

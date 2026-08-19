@@ -19,91 +19,14 @@ const crypto = require('node:crypto')
 
 const ROOT = path.join(__dirname, '..', '..')
 
-const EXPECTED_SITES = [
-  'alevel',
-  'admissions',
-  'alevel',
-  'ap',
-  'cbse',
-  'chemistry',
-  'computer-science',
-  'cpp',
-  'dart',
-  'databases',
-  'dse',
-  'elixir',
-  'gaokao',
-  'gcse',
-  'go',
-  'haskell',
-  'highers',
-  'hsc',
-  'ib',
-  'java',
-  'kotlin',
-  'languages',
-  'leaving-cert',
-  'licensing',
-  'linux',
-  'machine-learning',
-  'mathematics',
-  'networking',
-  'physics',
-  'programming',
-  'python',
-  'ruby',
-  'rust',
-  'sat',
-  'security',
-  'swift',
-  'tools',
-  'truenas',
-  'tuning',
-  'typescript',
-]
+// Site lists are derived from sites/ via the SSOT module (ADR-011); a
+// hand-copied list here previously drifted (missing 7 sites, duplicate
+// 'alevel') and silently under-covered this test.
+const { astroSites, allSites } = require('../../scripts/lib/sites.cjs')
 
-const ASTRO_SITES = [
-  'admissions',
-  'alevel',
-  'ap',
-  'cbse',
-  'chemistry',
-  'computer-science',
-  'cpp',
-  'dart',
-  'databases',
-  'dse',
-  'elixir',
-  'gaokao',
-  'gcse',
-  'go',
-  'haskell',
-  'highers',
-  'hsc',
-  'ib',
-  'java',
-  'kotlin',
-  'languages',
-  'leaving-cert',
-  'licensing',
-  'linux',
-  'machine-learning',
-  'mathematics',
-  'networking',
-  'physics',
-  'programming',
-  'python',
-  'ruby',
-  'rust',
-  'sat',
-  'security',
-  'swift',
-  'tools',
-  'truenas',
-  'tuning',
-  'typescript',
-]
-const ALL_SITES = [...ASTRO_SITES, 'main']
+const ASTRO_SITES = astroSites()
+const EXPECTED_SITES = ASTRO_SITES
+const ALL_SITES = allSites()
 
 function sha256(filePath) {
   return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex')

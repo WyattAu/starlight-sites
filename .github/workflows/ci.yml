@@ -20,6 +20,20 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # ADR-011: the site list is derived from sites/ (scripts/list-sites.js)
+  # so the build matrix can never drift from reality.
+  resolve-sites:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      sites: ${{ steps.sites.outputs.sites }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Derive site list from sites/ directory
+        id: sites
+        run: echo "sites=$(node scripts/list-sites.js --slugs)" >> "$GITHUB_OUTPUT"
+
   lint:
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -49,8 +63,14 @@ jobs:
       - name: Content validation
         run: node scripts/lint-content.js
 
+      - name: LaTeX corruption detection
+        run: node scripts/lint-latex.js
+
       - name: Config validation
         run: node scripts/lint-config.js
+
+      - name: Config parity validation (ADR-013)
+        run: node scripts/lint-config-parity.js
 
       - name: Shared-asset integrity (sites must match canonical shared/ source)
         run: node scripts/sync-shared.mjs --check
@@ -71,10 +91,15 @@ jobs:
         run: node scripts/lint-forward-refs.js
 
       - name: Spell checking (cspell)
+        # Advisory: 38k findings across 2,741 files (2026-08-19 census).
+        # Promoting to blocking requires a dedicated dictionary/content
+        # hygiene pass first -- a blocking gate nobody can pass would just
+        # train people to skip CI.
         run: bun run lint:spelling
         continue-on-error: true
 
       - name: Markdown structure (markdownlint)
+        # Advisory: 17.9k findings (2026-08-19 census); same rationale as cspell.
         run: bun run lint:markdown
         continue-on-error: true
 
@@ -88,13 +113,10 @@ jobs:
           fail: false
 
       - name: Dependency vulnerability audit (bun audit)
-        # Non-blocking: the dependency tree currently carries Astro 5.x CVEs
-        # (SSRF, XSS) that are only patched in Astro 6.x, which is itself
-        # blocked by the Kobalte SSR incompatibility (see GUI_FRONTEND_REFACTOR.md
-        # R4). Promote to blocking once the Astro 6 upgrade lands. The weekly
-        # audit workflow (.github/workflows/audit.yml) opens issues for new CVEs.
-        run: bun audit || true
-        continue-on-error: true
+        # Blocking since the Astro 6 upgrade resolved the accepted Astro 5.x
+        # CVEs (ADR-006, superseded). New vulnerabilities now fail CI; the
+        # weekly audit.yml workflow still files triage issues for context.
+        run: bun audit
 
       - name: TypeScript typecheck (shared/)
         run: bun run typecheck
@@ -125,56 +147,19 @@ jobs:
       - name: Run integration tests
         run: node --test tests/integration/*.test.js
 
-      - name: Run Vitest component tests
-        run: npx vitest run
+      - name: Run Vitest component tests (with coverage ratchet)
+        # Thresholds live in vitest.config.ts (shared/utils >= 90/90,
+        # shared/components >= 65/50) -- a breach fails this step.
+        run: npx vitest run --coverage
 
   build:
-    needs: [lint, test]
+    needs: [lint, test, resolve-sites]
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
-        site:
-          - admissions
-          - alevel
-          - ap
-          - cbse
-          - chemistry
-          - computer-science
-          - cpp
-          - dart
-          - databases
-          - dse
-          - elixir
-          - gaokao
-          - gcse
-          - go
-          - haskell
-          - highers
-          - hsc
-          - ib
-          - java
-          - kotlin
-          - languages
-          - leaving-cert
-          - licensing
-          - linux
-          - machine-learning
-          - mathematics
-          - networking
-          - physics
-          - programming
-          - python
-          - ruby
-          - rust
-          - sat
-          - security
-          - swift
-          - tools
-          - truenas
-          - tuning
-          - typescript
+        site: ${{ fromJson(needs.resolve-sites.outputs.sites) }}
 
     steps:
       - uses: actions/checkout@v4
@@ -249,5 +234,5 @@ jobs:
           echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
           echo "| Lint (content + config + no-emoji + sync + links) | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Test (unit + integration + Vitest) | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Build (9 sites) | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Build (all Astro sites, derived) | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Lighthouse (performance) | ${{ needs.lighthouse.result }} |" >> $GITHUB_STEP_SUMMARY

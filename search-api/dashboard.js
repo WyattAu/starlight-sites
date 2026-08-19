@@ -1,8 +1,21 @@
 /**
- * Analytics dashboard HTML (static). Extracted from worker.js to shrink the
+ * Analytics dashboard HTML. Extracted from worker.js to shrink the
  * god-file and to localise the XSS-hardened client script (esc()).
+ *
+ * renderDashboard(sites) injects the site name/color maps from config.js
+ * (single source: sites.meta.json) instead of embedding a hand-copied list
+ * that previously drifted from the real site catalogue.
  */
-export const DASHBOARD_HTML = `<!DOCTYPE html>
+export function renderDashboard(siteConfig) {
+  const names = Object.fromEntries(
+    Object.entries(siteConfig).map(([slug, info]) => [slug, info.name]),
+  )
+  const colors = Object.fromEntries(
+    Object.entries(siteConfig).map(([slug, info]) => [slug, info.color]),
+  )
+  const SITES_JSON = JSON.stringify(names)
+  const COLORS_JSON = JSON.stringify(colors)
+  return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -83,8 +96,8 @@ export const DASHBOARD_HTML = `<!DOCTYPE html>
 
   <script>
     const A='https://search.wyattau.com/api';
-    const SITES={dse:'DSE',ib:'IB',alevel:'A-Level',university:'University',qualifications:'Qualifications',programming:'Programming',infrastructure:'Infrastructure',languages:'Languages',tools:'Tools'};
-    const COLORS={dse:'#ff6b35',ib:'#0077b6',alevel:'#2a9d8f',university:'#9b5de5',qualifications:'#f4a261',programming:'#06d6a0',infrastructure:'#ef476f',languages:'#118ab2',tools:'#073b4c'};
+    const SITES=${SITES_JSON};
+    const COLORS=${COLORS_JSON};
 
     // Escape untrusted strings before interpolating into innerHTML. The
     // analytics data (notably q.query) is user-controlled; without this a
@@ -136,3 +149,4 @@ export const DASHBOARD_HTML = `<!DOCTYPE html>
   </script>
 </body>
 </html>`
+}

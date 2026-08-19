@@ -54,7 +54,6 @@ common pitfalls, and exam-style problems.
 
 **The key insight:** Computational thinking — abstraction, decomposition, and algorithmic thinking — applies to problems far beyond programming
 
-
 ## Core Topics
 
 ### System Fundamentals
@@ -195,6 +194,7 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
 ## Cross-References
 
 - [Biology](../../../../../gcse/src/content/docs/biology)

@@ -80,6 +80,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -99,6 +100,7 @@ Probability Theory is the mathematics of uncertainty. Imagine you have a coin th
 5. **Connect to applications**: Relate probability theory to statistics, finance, and physics
 
 ## See Also
+
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)

@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Periodic trends (atomic radius, ionization energy, electronegativity) follow predictable patterns across the table
 
-
 ## 1. Periodic Trends Recap
 
 ### Effective Nuclear Charge
@@ -974,7 +973,7 @@ of aluminium from bauxite ore via the Bayer process.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Electron configurations and ionization energy** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)

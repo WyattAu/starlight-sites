@@ -54,6 +54,7 @@ $$h(k) = k \bmod m$$
 A **prime** not close to a power of 2.
 
 > **Caution:** Warning The hash function will map many keys to the same bucket.
+>
 #### Multiplication Method
 
 $$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
@@ -867,7 +868,6 @@ Available for insertion.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Confusing hash tables with hash maps. The distinction relates to handling of key-value pairs vs
@@ -887,7 +887,6 @@ Available for insertion.
 6. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted
    data).
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -902,8 +901,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

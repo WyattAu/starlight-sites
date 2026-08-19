@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Significant figures, units, and error analysis are the foundations of reliable chemical data
 
-
 ## Unit Tests
 
 ### UT-1: Uncertainty Propagation

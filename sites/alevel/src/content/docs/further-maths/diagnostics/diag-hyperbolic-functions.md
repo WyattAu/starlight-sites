@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -169,8 +168,6 @@ the weight of the chain below each point.
 **Forgetting the signs in hyperbolic inverse definitions:** $\text{arsinh}(x) = \ln(x + \sqrt{x^2 + 1})$, $\text{arcosh}(x) = \ln(x + \sqrt{x^2 - 1})$ for $x \ge 1$, $\text{artanh}(x) = \frac{1}{2}\ln\frac{1+x}{1-x}$ for $|x| < 1$. The domains and signs differ between the three — applying the wrong formula gives incorrect results.
 
 **Confusing $\sinh$ and $\text{arsinh}$ behaviour:** $\sinh(x)$ is an odd function that grows exponentially. $\text{arsinh}(x)$ is the inverse, which grows logarithmically. When solving equations like $\sinh(x) = 5$, apply $\text{arsinh}$ to both sides — do not try to use trigonometric inverses.
-
-
 
 ## Cross-References
 

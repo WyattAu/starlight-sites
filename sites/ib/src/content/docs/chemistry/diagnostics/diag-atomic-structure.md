@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Electron configuration determines chemical behavior — the outermost electrons dictate how atoms bond and react
 
-
 ## Unit Tests
 
 ### UT-1: Electron Configuration Exceptions

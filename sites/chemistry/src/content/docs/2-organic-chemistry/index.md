@@ -83,16 +83,17 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
 - Common pitfalls and how to avoid them
 - Connections to other areas of organic chemistry
 
-
 ## Intuition
 
 Organic chemistry is the chemistry of carbon compounds, which dominate because carbon forms four stable bonds and chains, rings, and complex architectures. Functional groups are the reactive centers that determine chemical behavior, while the carbon skeleton provides the framework. Reaction mechanisms describe how bonds break and form step by step, involving intermediates like carbocations and carbanions. Stereochemistry adds three-dimensional structure, where molecules with identical formulas can have different shapes and biological activities. Organic synthesis chains reactions together to build complex molecules from simple starting materials, enabling pharmaceuticals, polymers, and natural product synthesis.
+
 ## Study Tips
 
 1. **Build a strong foundation**: Ensure you understand the basic concepts before moving to advanced topics

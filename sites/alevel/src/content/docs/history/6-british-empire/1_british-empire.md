@@ -354,8 +354,6 @@ to interpret the Company's expansion in India. Source analysis must account for 
 both colonisers and colonised peoples, and the ideological assumptions embedded in imperial
 documents.
 
-
-
 ## Cross-References
 
 - **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study

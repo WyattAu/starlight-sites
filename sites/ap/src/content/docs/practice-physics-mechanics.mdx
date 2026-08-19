@@ -13,23 +13,21 @@ tags:
 import PracticeProblem from "@components/PracticeProblem";
 import { practiceQuestions } from '@/data/flashcards/ap/practice-physics-mechanics-data.js';
 
-
 ## AP Physics C -- Mechanics Practice
 
 16 MCQ practice problems. Select an answer, submit, and review the explanation.
 
 ---
 
-
 ### Kinematics
 
 **Intuition:** Kinematics is the geometry of motion. It describes *how* objects move (trajectory, velocity, acceleration) without worrying about *why* they move (forces).
 
 **Common Mistakes:**
+
 - Confusing displacement (vector) with distance (scalar)
 - Using kinematic equations for non-constant acceleration
 - Forgetting that velocity and acceleration can have opposite signs
-
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />
 
@@ -55,11 +53,13 @@ $$m\frac{dv_x}{dt} = -bv_x \implies \frac{dv_x}{dt} = -\frac{b}{m}v_x$$
 $$m\frac{dv_y}{dt} = -mg - bv_y \implies \frac{dv_y}{dt} = -g - \frac{b}{m}v_y$$
 
 **(b)** Without air resistance:
+
 - Time of flight: $T = \frac{2v_0\sin\theta}{g}$
 - Maximum height: $H = \frac{v_0^2\sin^2\theta}{2g}$
 - Range: $R = \frac{v_0^2\sin 2\theta}{g}$
 
 **(c)** Air resistance:
+
 - Reduces time of flight (projectile decelerates faster)
 - Reduces maximum height (energy is lost to drag)
 - Reduces range (both horizontal and vertical motion are affected)
@@ -67,13 +67,13 @@ $$m\frac{dv_y}{dt} = -mg - bv_y \implies \frac{dv_y}{dt} = -g - \frac{b}{m}v_y$$
 **(d)** Perturbation theory: expand the solution in powers of $b/m$ and solve order by order.
 
 **Scoring rubric:**
+
 - Part (a): 2 points for each correct differential equation
 - Part (b): 2 points each for correct expressions
 - Part (c): 1 point for each correct qualitative effect
 - Part (d): 2 points for mentioning perturbation theory
 
 ---
-
 
 ### Problem 2: Rotational Dynamics (15 points)
 
@@ -115,13 +115,13 @@ $$\frac{Mg\sin\theta}{3} \leq \mu_s Mg\cos\theta \implies \tan\theta \leq 3\mu_s
 $$\theta_{\text{min}} = \tan^{-1}(3\mu_s)$$
 
 **Scoring rubric:**
+
 - Part (a): 1 point for each correct force and direction
 - Part (b): 1 point for each correct equation
 - Part (c): 2 points for correct moment of inertia, 2 points for deriving the condition
 - Part (d): 2 points for the final expression
 
 ---
-
 
 ## Common Mistakes in AP Physics C Mechanics
 

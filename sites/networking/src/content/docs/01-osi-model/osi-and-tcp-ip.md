@@ -658,22 +658,22 @@ When a user clicks a link in their browser, data flows through the stack as foll
 
 **Network transit:**
 
-5. Routers at each hop strip the Ethernet header, examine the IP destination, consult their routing
+1. Routers at each hop strip the Ethernet header, examine the IP destination, consult their routing
    table, and re-encapsulate with new Ethernet headers for the next hop
-6. The IP source and destination addresses remain unchanged throughout transit; only the link-layer
+2. The IP source and destination addresses remain unchanged throughout transit; only the link-layer
    addresses change at each hop
-7. The TTL is decremented by 1 at each router. If TTL reaches 0, the router sends an ICMP Time
+3. The TTL is decremented by 1 at each router. If TTL reaches 0, the router sends an ICMP Time
    Exceeded message back to the source
 
 **Receiving side:**
 
-8. **Link layer:** NIC receives the frame, verifies the FCS, strips the Ethernet header, and passes
+1. **Link layer:** NIC receives the frame, verifies the FCS, strips the Ethernet header, and passes
    the IP packet to the network layer
-9. **Internet layer:** IP verifies the header checksum, checks the destination address matches a
+2. **Internet layer:** IP verifies the header checksum, checks the destination address matches a
    local address, strips the IP header, and passes the TCP segment to the transport layer
-10. **Transport layer:** TCP reassembles segments in order, acknowledges receipt, delivers data to
+3. **Transport layer:** TCP reassembles segments in order, acknowledges receipt, delivers data to
     the application socket identified by the destination port
-11. **Application layer:** Web server receives the HTTP request on the listening socket and
+4. **Application layer:** Web server receives the HTTP request on the listening socket and
     constructs a response (200 OK with HTML content)
 
 ## Practical Implications
@@ -848,7 +848,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

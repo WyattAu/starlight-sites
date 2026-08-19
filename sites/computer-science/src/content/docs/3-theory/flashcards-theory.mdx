@@ -11,10 +11,10 @@ import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/3-theory/flashcards-theory-data.js';
 
 ## Computer Science -- Theory of Computation Flashcards
+
 20 interactive flashcards for university-level Theory of Computation. Press Space to flip, rate 1-4.
 
 ---
-
 
 ### Additional Flashcard Topics
 
@@ -42,11 +42,10 @@ The theory of computation asks: **what can and cannot be computed, and how effic
 
 ---
 
-
 ## Key Concepts
 
 | Concept | Why It Matters |
-|---------|---------------|
+| --------- | --------------- |
 | **Chomsky hierarchy** | Regular ⊂ Context-free ⊂ Decidable ⊂ TM-recognisable |
 | **Reduction** | If A reduces to B and B is easy, then A is easy; if A is hard, then B is hard |
 | **Diagonalisation** | Proves existence of problems no algorithm can solve (halting problem) |
@@ -54,7 +53,6 @@ The theory of computation asks: **what can and cannot be computed, and how effic
 | **Kolmogorov complexity** | Measures the shortest program that produces a given string; connects to randomness |
 
 ---
-
 
 ## Common Pitfalls
 
@@ -69,7 +67,6 @@ The theory of computation asks: **what can and cannot be computed, and how effic
 **Assuming that exponential algorithms are useless.** For small inputs, exponential algorithms may be faster than polynomial ones. The crossover point depends on constants and input size.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-theory" title="University CS -- Theory of Computation" description="Automata, formal languages, Turing machines, decidability, complexity classes" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 

@@ -226,7 +226,6 @@ exit 0
 share hooks across a team, use a tool like [husky](https://typicode.github.io/husky/) (which stores
 hooks in the repository) or a symlink to a tracked scripts directory.
 
-
 ## The Refs Directory (`.git/refs/`)
 
 See [References](../02-fundamentals/03-references.md) for the full treatment. In summary:
@@ -259,7 +258,6 @@ $ git gc --prune=now
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 (`git gc --prune=now`) are irreversible.
-
 
 ## Common Pitfalls
 

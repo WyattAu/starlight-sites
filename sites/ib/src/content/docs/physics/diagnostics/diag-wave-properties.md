@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Waves exhibit both particle-like and wave-like behavior, and their interference patterns reveal the fundamental nature of reality
 
-
 ## Unit Tests
 
 ### UT-1: Intensity and Amplitude Squared Relationship

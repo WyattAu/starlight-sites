@@ -30,7 +30,7 @@ SAT reading study notes - Comprehension
 ## Question Type Strategy
 
 | Question Type | Signal Words | Strategy |
-|---------------|-------------|----------|
+| --------------- | ------------- | ---------- |
 | Main idea | "primary purpose", "central claim" | Find the thesis; check first/last paragraph |
 | Detail | "according to the passage", "the author states" | Locate specific text; match exactly |
 | Inference | "implies", "suggests", "most likely" | Go one step beyond the text; no leaps |

@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ## Intuition
 
 **Atomic structure is like a solar system — electrons orbit the nucleus, but with quantum rules instead of gravity.**
@@ -96,7 +95,7 @@ $$
 
 Lighter ions (lower $m/z$) are deflected more. The detector records the abundance at each $m/z$.
 
-5. **Detection** -- ions strike the detector, generating a current proportional to their abundance.
+1. **Detection** -- ions strike the detector, generating a current proportional to their abundance.
 
 ### Interpreting Mass Spectra
 

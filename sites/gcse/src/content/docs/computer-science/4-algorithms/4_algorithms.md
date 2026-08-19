@@ -31,6 +31,7 @@ An algorithm is a **step-by-step procedure for solving a problem**. The key insi
 ## Algorithms
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 2
+>
 ## 1. What Is an Algorithm?
 
 An **algorithm** is a finite set of precise, step-by-step instructions for solving a problem. A good

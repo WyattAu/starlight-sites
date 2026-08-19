@@ -84,6 +84,22 @@ export default defineConfig({
           },
         },
         { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
+        {
+          tag: 'script',
+          attrs: { type: 'application/ld+json' },
+          content: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Driving (EU)',
+            description: 'EU driving theory and revision materials',
+            url: 'https://driving-eu.wyattau.com',
+            publisher: {
+              '@type': 'Organization',
+              name: "Wyatt's Notes",
+              url: 'https://wyattsnotes.wyattau.com',
+            },
+          }),
+        },
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
       customCss: ['./src/styles/custom.css'],

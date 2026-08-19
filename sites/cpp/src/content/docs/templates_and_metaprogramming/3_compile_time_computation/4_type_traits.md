@@ -934,7 +934,6 @@ Introspected).
 - [Compile-Time Branching and Constexpr Functions](./3_if_constexpr.md)
 - [SFINAE vs Concepts](../2_concepts_and_constraints/4_sfinae_vs_concepts.md)
 
-
 ## Intuition
 
 Type traits are the eyes of the compiler — they let the template machinery ask questions about types at compile time. `std::is_same` checks if two types are identical, like asking "are these twins?" `std::is_base_of` checks inheritance relationships, like asking "is this person a descendant of that one?" Conditional types are compile-time if-else statements that select different types based on traits. SFINAE is the compiler's way of gracefully saying "I cannot do this" without halting compilation — like a restaurant that silently removes dishes from the menu when ingredients run out, rather than refusing to serve you entirely. Concepts are the modern, readable version of SFINAE constraints.
@@ -962,4 +961,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

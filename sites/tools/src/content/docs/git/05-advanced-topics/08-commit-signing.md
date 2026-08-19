@@ -450,7 +450,7 @@ WARNING: This key is not certified with a trusted signature!
 There is no indication that the signature belongs to the author.
 ```
 
-3. **Commit hash integrity**: The commit's SHA-1 (or SHA-256) hash matches the content. This is
+1. **Commit hash integrity**: The commit's SHA-1 (or SHA-256) hash matches the content. This is
    always true for any well-formed Git object — it is not specific to signed commits. But combined
    with the signature, it means the commit cannot be tampered with.
 
@@ -503,7 +503,7 @@ ssb   ed25519/3333333333333333 2025-01-15 [A]   # Authentication subkey
 For Git signing, you use the signing subkey. Configure Git to use it:
 
 ```bash
-$ git config --global user.signingkey 1111111111111111
+git config --global user.signingkey 1111111111111111
 ```
 
 ### Key Expiration
@@ -713,7 +713,7 @@ If GitHub shows "Unverified" for your SSH-signed commits:
 $ git config --global user.email "123456789+username@users.noreply.github.com"
 ```
 
-3. **Wrong key in config**: Ensure `user.signingkey` points to the `.pub` file, not the private key:
+1. **Wrong key in config**: Ensure `user.signingkey` points to the `.pub` file, not the private key:
 
 ```bash
 # Correct
@@ -723,11 +723,11 @@ $ git config --global user.signingkey ~/.ssh/git-signing-key.pub
 $ git config --global user.signingkey ~/.ssh/git-signing-key
 ```
 
-4. **`gpg.format` not set**: If you configured `user.signingkey` to an SSH key but didn't set
+1. **`gpg.format` not set**: If you configured `user.signingkey` to an SSH key but didn't set
    `gpg.format = ssh`Git still tries to use GPG:
 
 ```bash
-$ git config --global gpg.format ssh
+git config --global gpg.format ssh
 ```
 
 ### GPG in CI/CD
@@ -840,8 +840,8 @@ If you change your GPG passphrase but `gpg-agent` still has the old one cached, 
 With "bad passphrase." Kill and restart the agent:
 
 ```bash
-$ gpgconf --kill gpg-agent
-$ gpgconf --launch gpg-agent
+gpgconf --kill gpg-agent
+gpgconf --launch gpg-agent
 ```
 
 ### Not Generating a Revocation Certificate

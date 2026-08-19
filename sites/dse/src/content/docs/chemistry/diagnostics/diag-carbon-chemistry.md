@@ -68,12 +68,12 @@ addition reaction.
 - $CH_{3}-CH=CH-CH_{3}$ (cis-but-2-ene)
 - $CH_{3}-CH=CH-CH_{3}$ (trans-but-2-ene)
 
-3. **2-Methylprop-1-ene**: $CH_{2}=C(CH_{3})_{2}$
+1. **2-Methylprop-1-ene**: $CH_{2}=C(CH_{3})_{2}$
 
-4. **Cyclobutane** (cyclic, not an alkene but satisfies $C_{4}H_{8}$ and does NOT decolourise
+2. **Cyclobutane** (cyclic, not an alkene but satisfies $C_{4}H_{8}$ and does NOT decolourise
    bromine water -- exclude if bromine water test is specified)
 
-5. **Methylcyclopropane** (cyclic, also does not decolourise bromine water -- exclude)
+3. **Methylcyclopropane** (cyclic, also does not decolourise bromine water -- exclude)
 
 Since the question states $C$ decolourises bromine water, only the **alkene** isomers count:
 

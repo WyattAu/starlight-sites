@@ -191,6 +191,7 @@ The Industrial Revolution is like a dam breaking. For centuries, agricultural im
 ## Worked Examples
 
 ### Essay Plan — "The Industrial Revolution was primarily driven by technological innovation."
+
 How far do you agree?
 
 **Introduction**: Technological innovation was essential but insufficient. Capital, labour supply,
@@ -223,8 +224,6 @@ technological innovation drove the process; urbanisation and poor working condit
 dislocation; and Reform Acts and factory legislation responded to popular demands. Key
 historiographical debates concern whether the revolution improved or worsened living standards,
 whether it was truly revolutionary, and the role of slavery in funding industrialisation.
-
-
 
 ## Cross-References
 

@@ -296,10 +296,10 @@ Returning all rows.
 cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input,))
 ```
 
-2. **Input validation:** Reject or sanitise input that does not match expected patterns (e.g., email
+1. **Input validation:** Reject or sanitise input that does not match expected patterns (e.g., email
    format, numeric ID).
-3. **Least privilege:** Application accounts should have only the permissions they need.
-4. **ORM frameworks:** Use an ORM (e.g., SQLAlchemy, Django ORM) that generates parameterised
+2. **Least privilege:** Application accounts should have only the permissions they need.
+3. **ORM frameworks:** Use an ORM (e.g., SQLAlchemy, Django ORM) that generates parameterised
    queries by default.
 
 <aside class="starlight-aside starlight-aside--caution">
@@ -377,7 +377,6 @@ With these indexes, the optimiser can use an index scan on `Course(Dept)` to fin
 Use nested-loop index joins to find matching enrolments and students, avoiding full table scans.
 
 </details>
-
 
 </aside>
 

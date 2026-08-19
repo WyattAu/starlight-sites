@@ -221,14 +221,14 @@ Eukaryotic cells.
 - **Cell-surface receptors:** Ligand binds to the extracellular domain (e.g., GPCRs, receptor
   tyrosine kinases, ligand-gated ion channels).
 
-2. **Transduction:** The signal is relayed and amplified through a signal transduction pathway.
+1. **Transduction:** The signal is relayed and amplified through a signal transduction pathway.
 
 - Often involves **second messengers** (cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$DAG).
 - **Protein kinases** phosphorylate target proteins, activating or deactivating them.
 - **Protein phosphatases** remove phosphate groups, reversing kinase action.
 - **Cascades** amplify the signal (one activated kinase activates many downstream targets).
 
-3. **Response:** The signal triggers a cellular response (gene expression, enzyme activation,
+1. **Response:** The signal triggers a cellular response (gene expression, enzyme activation,
    cytoskeletal rearrangement).
 
 ### G-Protein Coupled Receptors (GPCRs)
@@ -879,7 +879,6 @@ genetic variation.
 ## Intuition
 
 Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate evidently - skills that are valuable far beyond the classroom.
-
 
 ## Cross-References
 

@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Probability theory provides a rigorous framework for reasoning about uncertainty, turning vague intuition into precise calculation
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and misconceptions for probability.

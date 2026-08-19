@@ -132,7 +132,7 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 **Frameworks by language:**
 
 | Language | Framework | Assertion Library |
-|----------|-----------|-------------------|
+| ---------- | ----------- | ------------------- |
 | JavaScript/TypeScript | Jest, Vitest, Mocha | Jest assertions, Chai |
 | Python | pytest | pytest assertions |
 | Java | JUnit 5 | AssertJ, Hamcrest |
@@ -210,7 +210,7 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 ### Common Bug Categories
 
 | Category | Symptoms | Tools |
-|----------|----------|-------|
+| ---------- | ---------- | ------- |
 | Logic errors | Wrong output, no crash | Debugger, unit tests |
 | Runtime errors | Crashes, exceptions | Stack traces, debugger |
 | Performance issues | Slowness, timeouts | Profilers, APM tools |
@@ -291,7 +291,7 @@ Code quality tools enforce standards, catch bugs early, and maintain consistency
 Linters analyse code for errors, style violations, and potential bugs.
 
 | Language | Linter | Configuration |
-|----------|--------|---------------|
+| ---------- | -------- | --------------- |
 | JavaScript/TypeScript | ESLint | .eslintrc.json |
 | Python | Ruff, Flake8 | pyproject.toml, .flake8 |
 | Go | golangci-lint | .golangci.yml |

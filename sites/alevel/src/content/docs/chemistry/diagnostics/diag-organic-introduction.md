@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Organic chemistry is like a vast city of carbon-based molecules — each with unique structures and personalities.**
@@ -460,8 +459,6 @@ stereospecific synthesis with amines.
 **Forgetting that 2,4-DNP tests for carbonyl groups, not specifically aldehydes:** 2,4-DNP reacts with both aldehydes and ketones to give an orange precipitate. To distinguish between them, you need a further test — Tollens' reagent (silver mirror test) or Fehling's solution. A positive 2,4-DNP test only tells you a carbonyl is present.
 
 **Using the wrong reagent for elimination vs substitution:** Hot, concentrated, ethanolic KOH favours elimination (OH$^-$ acts as a base, abstracting a $\beta$-hydrogen). Dilute, aqueous KOH favours substitution (OH$^-$ acts as a nucleophile). Students often forget to specify the solvent, which is the key factor in determining the reaction type.
-
-
 
 ## Cross-References
 

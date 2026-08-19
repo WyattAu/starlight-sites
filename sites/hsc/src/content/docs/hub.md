@@ -164,7 +164,7 @@ Preparing for the HSC requires sustained effort across your subject selections. 
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Active recall — flashcards and formula review for 20 minutes |
 | Afternoon | Topic study — read notes on one new topic |
 | Evening | Practice — complete 5–10 practice questions |

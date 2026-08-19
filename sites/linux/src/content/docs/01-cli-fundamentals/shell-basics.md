@@ -60,7 +60,6 @@ flowchart TD
 Interactive shells load the same configuration. However, scripts executed by cron or systemd do not
 Source `~/.bashrc` — this is a frequent source of bugs.
 
-
 ### POSIX Shell vs Bash
 
 POSIX specifies a shell standard (IEEE 1003.1, also known as the Single UNIX Specification). Bash is
@@ -111,7 +110,6 @@ The shell performs the following steps before executing a command:
 <aside class="starlight-aside starlight-aside--caution">
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
 Are no matching files, the shell behavior depends on the `nullglob` option.
-
 
 ## I/O Redirection
 
@@ -189,7 +187,6 @@ command 2>&1 1>&3 | process_stderr 3>&1 1>&2 | process_stdout
 <aside class="starlight-aside starlight-aside--note">
 Via `/proc/sys/fs/pipe-max-size`). When the buffer is full, the writing process blocks until the
 Reader consumes data. For high-throughput pipelines, this can be a bottleneck.
-
 
 ### Process Substitution (Bash)
 
@@ -279,7 +276,6 @@ ls *.TXT  # matches file.txt, FILE.TXT, etc.
 <aside class="starlight-aside starlight-aside--caution">
 The original Unix glob behavior — you must explicitly use `.*` or enable `dotglob` with
 `shopt -s dotglob`.
-
 
 ### Extended Globbing (Bash)
 
@@ -872,10 +868,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 The shell is like a translator between you and the operating system -- you speak human (commands), the kernel speaks machine (syscalls), and the shell bridges the gap. Bash is the most common translator, but zsh and dash are alternatives with different strengths. The shell's prompt (PS1) is like a conversation indicator -- it tells you who you are, where you are, and what the shell is ready to do. Environment variables are like the shell's memory -- they store settings (PATH, HOME) that affect how commands run. Understanding the shell means understanding how Linux works at the most fundamental level.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

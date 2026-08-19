@@ -20,7 +20,7 @@ Polar coordinates $(r, \theta)$ provide an alternative to Cartesian coordinates 
 Describing points in the plane. Many curves that are complicated in Cartesian form have simple and
 Elegant polar equations, making polar coordinates essential for advanced geometry and calculus.
 
-\{/* prettier-ignore */\}
+\{/*prettier-ignore*/\}
 <DesmosGraph client:only="solid-js" title="Polar Coordinate Curves" expressions={["r=a\cos(\theta)", "r=a\sin(\theta)", "r=a(1+\cos(\theta))"]} width={800} height={500} />
 Adjust the parameters in the graph above to explore the relationships between variables.
 
@@ -160,13 +160,13 @@ The radius and the tangent is constant.
   equation.
 - Symmetric about the pole if replacing $r$ with $-r$ gives the same equation.
 
-2. **Find key values:** Evaluate $r$ at $\theta = 0, \pi/6, \pi/4, \pi/3, \pi/2, \pi, 3\pi/2, 2\pi$.
+1. **Find key values:** Evaluate $r$ at $\theta = 0, \pi/6, \pi/4, \pi/3, \pi/2, \pi, 3\pi/2, 2\pi$.
 
-3. **Find where $r = 0$:** These are points where the curve passes through the pole.
+2. **Find where $r = 0$:** These are points where the curve passes through the pole.
 
-4. **Find maximum $|r|$:** Differentiate $r$ with respect to $\theta$ and set $dr/d\theta = 0$.
+3. **Find maximum $|r|$:** Differentiate $r$ with respect to $\theta$ and set $dr/d\theta = 0$.
 
-5. **Trace the curve:** As $\theta$ increases, plot the corresponding $(r, \theta)$ points and join
+4. **Trace the curve:** As $\theta$ increases, plot the corresponding $(r, \theta)$ points and join
    them smoothly.
 
 **Example.** Sketch $r = 2 + \cos\theta$ for $0 \leq \theta \leq 2\pi$.
@@ -184,6 +184,7 @@ The radius and the tangent is constant.
 - Inner loop: $b > a$
 - Dimpled: $a < 2b$ (with $b < a$)
 - Convex: $a \geq 2b$
+
 </aside>
 - Cardioid: $a = b$ (boundary between inner loop and dimpled)
 
@@ -537,7 +538,6 @@ $= \dfrac{1}{2}\left[2\pi - 3\sqrt{3}\right] = \pi - \dfrac{3\sqrt{3}}{2}$.
 
 ---
 
-
 ## 7. Advanced Worked Examples
 
 ### Example 7.1: Area between two curves with careful intersection analysis
@@ -633,7 +633,6 @@ $$= 2\pi\left(\frac{64}{5} - \frac{64}{6}\right) = 2\pi\cdot\frac{64(6-5)}{30} =
 
 ---
 
-
 ## 8. Connections to Other Topics
 
 ### 8.1 Polar coordinates and complex numbers
@@ -656,7 +655,6 @@ For $dx/d\theta$ and $dy/d\theta$ use the product rule. See
 [Further Calculus](04-further-calculus).
 
 ---
-
 
 ## 9. Additional Exam-Style Questions
 
@@ -765,7 +763,6 @@ The maximum distance is $\boxed{5}$.
 
 ---
 
-
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Area enclosed by a limacon
@@ -861,7 +858,6 @@ $$s = 2a\!\left[\int_0^{\pi} \cos(\theta/2)\,d\theta + \int_{\pi}^{2\pi} (-\cos(
 
 ---
 
-
 ## 9. Common Pitfalls
 
 | Pitfall                                                         | Correct Approach                                                                                          |
@@ -872,7 +868,6 @@ $$s = 2a\!\left[\int_0^{\pi} \cos(\theta/2)\,d\theta + \int_{\pi}^{2\pi} (-\cos(
 | Using the wrong limits for symmetric curves                     | Exploit symmetry: if the curve is symmetric about $\theta = 0$Integrate from $0$ to $\pi$ and double      |
 
 ---
-
 
 ## 10. Additional Exam-Style Questions
 
@@ -928,7 +923,6 @@ This is a circle with centre $(a, b)$ and radius $\sqrt{a^2+b^2}$.
 
 ---
 
-
 ## 11. Connections to Other Topics
 
 ### 11.1 Polar coordinates and complex numbers
@@ -948,7 +942,6 @@ $y = r(\theta)\sin\theta$.
 
 ---
 
-
 ## 12. Key Results Summary
 
 | Quantity             | Formula                                                                                           |
@@ -961,7 +954,6 @@ $y = r(\theta)\sin\theta$.
 | Tangent to $x$-axis  | $\dfrac{dy}{dx} = \dfrac{r'\sin\theta + r\cos\theta}{r'\cos\theta - r\sin\theta}$     |
 
 ---
-
 
 ## 13. Further Exam-Style Questions
 
@@ -994,7 +986,6 @@ This is a circle with centre $(a,0)$ and radius $a$. $\blacksquare$
 </details>
 
 ---
-
 
 ## 14. Advanced Topics
 
@@ -1030,7 +1021,6 @@ $r = a + b\cos\theta$:
 - $a < b$: limacon with inner loop
 
 ---
-
 
 ## 15. Further Exam-Style Questions
 
@@ -1074,7 +1064,6 @@ $\blacksquare$
 
 ---
 
-
 ## 16. Further Advanced Topics
 
 ### 16.1 Polar form of conics
@@ -1109,7 +1098,6 @@ Many parametric curves can be simplified in polar form. The cardioid, limacon, a
 Most expressed in polar coordinates.
 
 ---
-
 
 ## 17. Further Exam-Style Questions
 
@@ -1157,4 +1145,3 @@ Polar coordinates describe points by distance and direction rather than horizont
 - [Further Calculus](./04-further-calculus) -- The polar area formula and tangent gradients are direct applications of integration and differentiation techniques.
 - [Matrices](./02-matrices) -- Polar representations of rotation matrices connect coordinate transformations to trigonometric parameterisation.
 - [Further Algebra](./03-further-algebra) -- De Moivre's theorem uses polar form to derive multiple angles and roots of complex numbers.
-

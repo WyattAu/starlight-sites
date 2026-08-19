@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Matrices encode linear transformations — they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for matrices.

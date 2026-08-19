@@ -162,7 +162,7 @@ zpool status tank
 - From address
 - To addresses (comma-separated)
 
-3. Send a test email to verify the configuration.
+1. Send a test email to verify the configuration.
 
 ### Alert Levels
 
@@ -211,7 +211,7 @@ NUT provides UPS monitoring and automated shutdown for TrueNAS:
 - Port (e.g., `auto`)
 - Shutdown mode (UPS goes to battery, or low battery)
 
-4. Configure the shutdown behavior:
+1. Configure the shutdown behavior:
 
 - Minutes on battery before shutdown (e.g., 5 minutes)
 - Load percentage threshold (e.g., shut down at 50% battery)

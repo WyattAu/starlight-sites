@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### Exercise 1: Structured Concurrency
 
 **Problem:** Write a function that launches three concurrent tasks using structured concurrency. Each task simulates work by delaying for a random duration. The function should wait for all three to complete and return their combined results.
@@ -54,7 +53,6 @@ suspend fun main() \{
 
 ---
 
-
 ### Exercise 2: Channel Communication
 
 **Problem:** Implement a producer-consumer pattern using Kotlin channels. The producer sends numbers 1 through 10 into a channel, and three consumers compete to receive items. Print each consumed item with its consumer ID.
@@ -89,7 +87,6 @@ suspend fun main(): Unit = coroutineScope \{
 
 ---
 
-
 ### Exercise 3: Flow Operators
 
 **Problem:** Create a Flow that emits integers from 1 to 20. Apply operators to filter only even numbers, map them to their squares, take only the first 5, and collect the results.
@@ -110,7 +107,6 @@ suspend fun main() \{
 **Solution:** `asFlow()` converts the range to a cold Flow. `filter` keeps even numbers (2, 4, 6, ...). `map` squares each (4, 16, 36, ...). `take(5)` limits to the first 5 emissions. `toList()` collects into a list: `[4, 16, 36, 64, 100]`.
 
 ---
-
 
 ### Exercise 4: Exception Handling in Coroutines
 
@@ -151,7 +147,6 @@ suspend fun main(): Unit = coroutineScope \{
 **Solution:** `SupervisorJob` prevents child failures from propagating to the parent and siblings. Child 1 fails at 200ms, but children 2 and 3 continue independently. Without `SupervisorJob`, the failure of child 1 would cancel the entire scope.
 
 ---
-
 
 ### Exercise 5: Context Switching with `withContext`
 
@@ -211,6 +206,7 @@ suspend fun main() \{
 **Confusing `launch` with `async`:** `launch` returns a Job (no result). `async` returns a Deferred (awaitable result). Use `launch` for fire-and-forget work. Use `async` when you need the result. Mixing them up leads to either missing results or unnecessary waiting.
 
 **Forgetting to handle coroutine exceptions:** Uncaught exceptions in coroutines propagate to the CoroutineScope and cancel all sibling coroutines. Always use `CoroutineExceptionHandler` or try-catch inside the coroutine to handle errors gracefully.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for kotlin notes.

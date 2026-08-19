@@ -1084,8 +1084,6 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 </aside>
 
-
-
 ## Cross-References
 
 - **[Alkanes](alkanes):** Alkanes are the foundation of organic chemistry

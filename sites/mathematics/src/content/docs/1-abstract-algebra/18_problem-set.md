@@ -570,4 +570,3 @@ Groups of order $p^2$ (for prime $p$) are always abelian, but groups of order $p
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
 ### Challenge Problems
-

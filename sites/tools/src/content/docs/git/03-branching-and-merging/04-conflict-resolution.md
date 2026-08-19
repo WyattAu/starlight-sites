@@ -116,8 +116,8 @@ int authenticate(User *user) {
 Then stage and commit:
 
 ```bash
-$ git add src/auth.c
-$ git commit  # (or git merge --continue / git rebase --continue)
+git add src/auth.c
+git commit  # (or git merge --continue / git rebase --continue)
 ```
 
 <aside class="starlight-aside starlight-aside--tip">
@@ -361,7 +361,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

@@ -67,6 +67,7 @@ $$\left[-\text{NH}-(\text{CH}_2)_6-\text{NH}-\text{CO}-(\text{CH}_2)_4-\text{CO}
 This is nylon-6,6 (a polyamide formed by condensation).
 
 The amide linkage is $-\text{NH}-\text{CO}-$. Breaking at the amide bonds gives:
+
 - Diamine: $\text{NH}_2-(\text{CH}_2)_6-\text{NH}_2$ (hexamethylenediamine)
 - Dicarboxylic acid: $\text{HOOC}-(\text{CH}_2)_4-\text{COOH}$ (adipic acid)
 
@@ -101,6 +102,7 @@ PHBV (polyhydroxybutyrate-co-valerate) is a copolymer of 3-hydroxybutanoic acid 
 $$\left[-\text{O}-\text{CH}(\text{CH}_3)-\text{CH}_2-\text{CO}-\right]_x \left[-\text{O}-\text{CH}(\text{C}_2\text{H}_5)-\text{CH}_2-\text{CO}-\right]_y$$
 
 It is biodegradable because:
+
 1. The ester linkages $-\text{COO}-$ in the backbone are susceptible to hydrolysis by microorganisms
 2. It breaks down into non-toxic products (CO$_2$ and H$_2$O) under anaerobic conditions
 3. The presence of the ester group makes it susceptible to bacterial degradation

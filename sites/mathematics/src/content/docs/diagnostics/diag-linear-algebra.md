@@ -87,8 +87,8 @@ tableOfContents: false
 
 **Question 4.** If A and B are invertible n x n matrices, then (AB)^(-1) equals:
 
-(A) A^(-1) * B^(-1)
-(B) B^(-1) * A^(-1)
+(A) A^(-1) *B^(-1)
+(B) B^(-1)* A^(-1)
 (C) A * B
 (D) (A + B)^(-1)
 

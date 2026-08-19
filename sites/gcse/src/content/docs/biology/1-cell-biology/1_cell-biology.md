@@ -31,6 +31,7 @@ Cell biology is the study of **the fundamental unit of life**. The key insight i
 ## Cell Biology
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B1 | WJEC B1
+>
 ## 1. Cell Structure
 
 ### 1.1 Plant and Animal Cells
@@ -265,7 +266,7 @@ Questions test whether you know that DNA replication occurs during interphase, n
 - **G2 (Gap 2):** Cell prepares for division; organelles are replicated, proteins for spindle fibres
   are synthesised, and the cell checks that DNA replication was completed accurately.
 
-2. **Mitosis:** The cell divides. The stages are:
+1. **Mitosis:** The cell divides. The stages are:
 
 - **Prophase:** Chromosomes condense and become visible as distinct structures (under a microscope,
   they appear as X-shaped because each chromosome consists of two chromatids). The nuclear membrane
@@ -278,7 +279,7 @@ Questions test whether you know that DNA replication occurs during interphase, n
 - **Telophase:** New nuclear membranes form around each set of chromosomes. Chromosomes decondense
   (become thin and thread-like again). The spindle fibres break down.
 
-3. **Cytokinesis:** The cytoplasm divides, producing two daughter cells. In animal cells, the cell
+1. **Cytokinesis:** The cytoplasm divides, producing two daughter cells. In animal cells, the cell
    membrane pinches inwards (cleavage furrow) to divide the cell. In plant cells, a cell plate forms
    down the middle, which develops into a new cell wall.
 
@@ -493,7 +494,7 @@ Concentrated sugar solution.
 
 $$\mathrm{Percentage change = \frac{\mathrm{final mass - \mathrm{initial mass}{\mathrm{initial mass} \times 100\%$$
 
-8. Plot a graph of percentage change in mass against sugar concentration.
+1. Plot a graph of percentage change in mass against sugar concentration.
 
 **Expected results:**
 

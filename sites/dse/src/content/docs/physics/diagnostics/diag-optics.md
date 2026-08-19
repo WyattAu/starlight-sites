@@ -364,8 +364,6 @@ Frequency NEVER changes when light enters a different medium -- only the wavelen
 change. The colour we perceive is determined by frequency (or equivalently, vacuum wavelength), not
 the wavelength inside the medium.
 
-
-
 ## Cross-References
 
 - **[Mechanics](diag-mechanics):** Mechanics covers forces and motion

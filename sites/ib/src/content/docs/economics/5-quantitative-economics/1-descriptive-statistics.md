@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Statistics summarize complex data into digestible forms, but always consider what the numbers leave out
 
-
 ## Real vs. Nominal Calculations
 
 ### Distinguishing Real and Nominal Values

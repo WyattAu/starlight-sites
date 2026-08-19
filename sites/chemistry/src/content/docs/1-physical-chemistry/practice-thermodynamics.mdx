@@ -16,7 +16,6 @@ equilibrium, phase diagrams, and electrochemistry. Select an option to check you
 
 ---
 
-
 ## Intuition
 
 **Thermodynamics is nature's bookkeeping for energy:** The laws of thermodynamics are not abstract rules — they describe what is physically possible. Energy cannot be created (first law), and processes always increase total disorder (second law). These constraints shape everything from engine design to biological processes.
@@ -51,7 +50,6 @@ $$w = -5481 \text{ J} = -5.48 \text{ kJ}$$
 
 ---
 
-
 ### Example 2: Entropy Change for Irreversible Process
 
 **Problem:** 1.00 mol of an ideal gas at 300 K is expanded irreversibly against a constant external pressure of 1.00 bar from 10.0 L to 20.0 L. Calculate $\Delta S_{\text{system}}$, $\Delta S_{\text{surroundings}}$, and $\Delta S_{\text{total}}$.
@@ -84,7 +82,6 @@ $$\Delta S_{\text{total}} = \Delta S_{\text{sys}} + \Delta S_{\text{surr}} = 5.7
 
 ---
 
-
 ### Example 3: Gibbs Free Energy and Spontaneity
 
 **Problem:** At 298 K, the standard Gibbs free energy of formation are: $\Delta_f G^\circ(\text{H}_2\text{O}, l) = -237.1$ kJ/mol and $\Delta_f G^\circ(\text{H}_2\text{O}_2, l) = -120.4$ kJ/mol. For the reaction $\text{H}_2\text{O}_2(l) \rightarrow \text{H}_2\text{O}(l) + \frac{1}{2}\text{O}_2(g)$, calculate $\Delta_r G^\circ$ and determine spontaneity.
@@ -102,7 +99,6 @@ Since $\Delta_r G^\circ < 0$, the decomposition of hydrogen peroxide is **sponta
 **Physical interpretation:** The large negative $\Delta_r G^\circ$ explains why $\text{H}_2\text{O}_2$ is unstable and decomposes readily. The driving force is the formation of very stable water molecules.
 
 ---
-
 
 ### Example 4: Van't Hoff Equation Application
 
@@ -128,14 +124,13 @@ $$K_2 = 0.148 \times 30.95 = 4.58$$
 
 ---
 
-
 ## Laws of Thermodynamics and Entropy
 
 <PracticeProblem client:only="solid-js" question={"For an ideal gas undergoing reversible isothermal expansion from volume $V_i$ to $V_f$, the work done by the gas is:&quot; options={[ '$w = -nRT\\ln(V_f/V_i)$', '$w = -P\\Delta V$', '$w = -nRT\\Delta T$', '$w = -nC_V\\Delta T$', ]} correctAnswer={0} explanation=&quot;For a reversible expansion of an ideal gas: $w = -\\int_{V_i}^{V_f} P\\,dV = -\\int_{V_i}^{V_f} \\frac{nRT}{V}dV = -nRT\\ln\\frac{V_f}{V_i}$. The negative sign indicates work done by the system. For $V_f > V_i$, $w < 0$ (work is done by the gas). Since the process is isothermal and the gas is ideal, $\\Delta U = 0$, so $q = -w = nRT\\ln(V_f/V_i)$."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"The entropy change for a reversible process is defined as $\\Delta S = q_{\\text{rev}}/T$. For an irreversible process, how is $\\Delta S$ calculated?&quot; options={[ 'Design a reversible path between the same initial and final states and calculate $\\Delta S = \\int dq_{\\text{rev}}/T$ along that path', '$\\Delta S = q_{\\text{irrev}}/T$', '$\\Delta S = 0$ for all irreversible processes', '$\\Delta S$ cannot be calculated for irreversible processes', ]} correctAnswer={0} explanation=&quot;Entropy is a state function, so $\\Delta S$ depends only on initial and final states, not on the path. For an irreversible process, we design a reversible path connecting the same states and compute $\\Delta S = \\int dq_{\\text{rev}}/T$. We cannot use $q_{\\text{irrev}}/T$ because the inequality $dS > dq_{\\text{irrev}}/T$ holds."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"For the reaction $\\text{H}_2(g) + \\text{I}_2(g) \\rightleftharpoons 2\\text{HI}(g)$ at equilibrium with $K_p = 50.0$, if the initial partial pressures of $\\text{H}_2$ and $\\text{I}_2$ are both 0.10$ bar and no HI is present, what is the equilibrium partial pressure of HI?&quot; options={['0.155 bar', '0.100 bar', '0.200 bar', '0.050 bar']} correctAnswer={0} explanation=&quot;$K_p = \\frac{(p_{\\text{HI}})^2}{p_{\\text{H}_2} \\cdot p_{\\text{I}_2}} = 50.0$. Let $x$ = amount of HI formed. Then $p_{\\text{H}_2} = p_{\\text{I}_2} = 0.10 - x/2$ and $p_{\\text{HI}} = x$. So $\\frac{x^2}{(0.10-x/2)^2} = 50.0$, giving $\\frac{x}{0.10-x/2} = \\sqrt{50} \\approx 7.07$, so $x = 0.707(0.10-x/2) = 0.0707 - 0.354x$, thus $1.354x = 0.0707$, $x \\approx 0.0522$ bar. But let me re-check: $x/(0.10 - 0.5x) = 7.07$, $x = 0.707 - 3.535x$, $4.535x = 0.707$, $x = 0.156$ bar."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"For the reaction $\\text{H}_2(g) + \\text{I}_2(g) \\rightleftharpoons 2\\text{HI}(g)$ at equilibrium with $K_p = 50.0$, if the initial partial pressures of $\\text{H}_2$ and $\\text{I}_2$ are both 0.10$ bar and no HI is present, what is the equilibrium partial pressure of HI?&quot; options={['0.155 bar', '0.100 bar', '0.200 bar', '0.050 bar']} correctAnswer={0} explanation=&quot;$K_p = \\frac{(p_{\\text{HI}})^2}{p_{\\text{H}*2} \\cdot p*{\\text{I}*2}} = 50.0$. Let $x$ = amount of HI formed. Then $p*{\\text{H}*2} = p*{\\text{I}*2} = 0.10 - x/2$ and $p*{\\text{HI}} = x$. So $\\frac{x^2}{(0.10-x/2)^2} = 50.0$, giving $\\frac{x}{0.10-x/2} = \\sqrt{50} \\approx 7.07$, so $x = 0.707(0.10-x/2) = 0.0707 - 0.354x$, thus $1.354x = 0.0707$, $x \\approx 0.0522$ bar. But let me re-check: $x/(0.10 - 0.5x) = 7.07$, $x = 0.707 - 3.535x$, $4.535x = 0.707$, $x = 0.156$ bar."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"The relationship between the equilibrium constant $K$ and the standard Gibbs free energy change is:&quot; options={[ '$\\Delta_r G^\\circ = -RT\\ln K$', '$\\Delta_r G^\\circ = RT\\ln K$', '$\\Delta_r G = -RT\\ln K$', '$\\Delta_r G^\\circ = -nRT\\ln K$', ]} correctAnswer={0} explanation=&quot;The fundamental relationship is $\\Delta_r G^\\circ = -RT\\ln K$ where $K$ is the dimensionless thermodynamic equilibrium constant. A large $K$ ($K \\gg 1$) means $\\Delta_r G^\\circ \\ll 0$ (products strongly favored). At equilibrium, $\\Delta_r G = 0$. For non-standard conditions: $\\Delta_r G = \\Delta_r G^\\circ + RT\\ln Q$ where $Q$ is the reaction quotient."} difficulty="easy"  />
 

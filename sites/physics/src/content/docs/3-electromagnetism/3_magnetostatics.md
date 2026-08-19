@@ -232,7 +232,6 @@ is an auxiliary field Convenient for problems with free currents. The names "mag
 associates with Which name. In this document, $\mathbf{B}$ is the magnetic field and $\mathbf{H}$ is
 the Auxiliary H field.
 
-
 </aside>
 
 ### 3.9 Common Mistakes

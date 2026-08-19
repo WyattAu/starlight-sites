@@ -136,7 +136,7 @@ $$
 \sum_{k=0}^{n} \binom{n}{k} = 2^n
 $$
 
-4. **Alternating sum**: Setting $a = 1, b = -1$
+1. **Alternating sum**: Setting $a = 1, b = -1$
 
 $$
 \sum_{k=0}^{n} (-1)^k \binom{n}{k} = 0
@@ -508,7 +508,8 @@ $$
 
 The full expansion is $1 + 12x + 60x^2 + 160x^3 + 240x^4 + 192x^5 + 64x^6$.
 
-2. **Question:** Find the constant term in the expansion of $\left(x^2 + \dfrac{1}{x}\right)^9$.
+1. **Question:** Find the constant term in the expansion of $\left(x^2 + \dfrac{1}{x}\right)^9$.
+
 </details>
 <summary>Answer</summary>
 The general term is $T_{r+1} = \binom{9}{r} (x^2)^{9-r} \cdot \left(\dfrac{1}{x}\right)^r = \binom{9}{r} x^{18 - 3r}$.
@@ -521,8 +522,9 @@ $$
 
 The constant term is $84$.
 
-3. **Question:** When $f(x) = 2x^3 + ax^2 + bx - 6$ is divided by $(x-1)$The remainder is $-4$. When
+1. **Question:** When $f(x) = 2x^3 + ax^2 + bx - 6$ is divided by $(x-1)$The remainder is $-4$. When
 divided by $(x+2)$The remainder is $30$. Find $a$ and $b$.
+
 <details>
 <summary>Answer</summary>
 By the Remainder Theorem:
@@ -534,8 +536,9 @@ Adding (i) and (ii): $3a = 26 \implies a = \dfrac{26}{3}$.
 
 From (i): $b = -\dfrac{26}{3}$.
 
-4. **Question:** Given that $(x - 3)$ and $(x + 1)$ are factors of $f(x) = x^3 + ax^2 + bx + c$ Find
+1. **Question:** Given that $(x - 3)$ and $(x + 1)$ are factors of $f(x) = x^3 + ax^2 + bx + c$ Find
 $a$, $b$And $c$. Hence factorize $f(x)$ completely.
+
 </details>
 <summary>Answer</summary>
 By the Factor Theorem:
@@ -600,7 +603,8 @@ $d$ is the third root. Since no further condition is given, the general answer i
 
 $a = -(d+2)$$b = 2d - 3$$c = 3d$And $f(x) = (x-3)(x+1)(x-d)$ for any real $d$.
 
-5. **Question:** Factorize $x^4 - 5x^2 + 4$ completely.
+1. **Question:** Factorize $x^4 - 5x^2 + 4$ completely.
+
 <details>
 <summary>Answer</summary>
 Let $u = x^2$:
@@ -609,8 +613,9 @@ $$
 U^2 - 5u + 4 = (u-1)(u-4) = (x^2 - 1)(x^2 - 4) = (x-1)(x+1)(x-2)(x+2)
 $$
 
-6. **Question:** If $\alpha$ and $\beta$ are roots of $3x^2 - 8x + 2 = 0$Find the value of
+1. **Question:** If $\alpha$ and $\beta$ are roots of $3x^2 - 8x + 2 = 0$Find the value of
 $\alpha^3 + \beta^3$ without solving the equation.
+
 </details>
 <summary>Answer</summary>
 From Vieta: $\alpha + \beta = \dfrac{8}{3}$$\alpha\beta = \dfrac{2}{3}$.
@@ -623,8 +628,9 @@ $$
 = \frac{512}{27} - \frac{48}{9} = \frac{512}{27} - \frac{144}{27} = \frac{368}{27}
 $$
 
-7. **Question:** Expand $(1 - 3x)^5$ in ascending powers of $x$ up to and including the term in
+1. **Question:** Expand $(1 - 3x)^5$ in ascending powers of $x$ up to and including the term in
 $x^3$. Use the expansion to find an approximate value of $(0.97)^5$.
+
 <details>
 <summary>Answer</summary>
 $$
@@ -641,8 +647,9 @@ $$
 (0.97)^5 \approx 1 - 15(0.01) + 90(0.0001) - 270(0.000001) = 1 - 0.15 + 0.009 - 0.00027 = 0.85873
 $$
 
-8. **Question:** The remainder when $f(x) = x^3 + px^2 + qx + 6$ is divided by $(x-1)$ is $12$. The
+1. **Question:** The remainder when $f(x) = x^3 + px^2 + qx + 6$ is divided by $(x-1)$ is $12$. The
 Remainder when $f(x)$ is divided by $(x+1)$ is $18$. Find $p$ and $q$.
+
 </details>
 <summary>Answer</summary>
 
@@ -653,15 +660,17 @@ Adding: $2p = 18 \implies p = 9$.
 
 From (i): $q = -4$.
 
-9. **Question:** Prove that $\binom{n}{r} = \binom{n}{n-r}$ using the definition of binomial
+1. **Question:** Prove that $\binom{n}{r} = \binom{n}{n-r}$ using the definition of binomial
 Coefficients.
+
 <details>
 <summary>Answer</summary>
 $$
 \binom{n}{n-r} = \frac{n!}{(n-r)!\,[n-(n-r)]!} = \frac{n!}{(n-r)!\,r!} = \binom{n}{r}
 $$
 
-10. **Question:** Find the coefficient of $x^5$ in the expansion of $(1 + x)^8(1 - x)^6$.
+1. **Question:** Find the coefficient of $x^5$ in the expansion of $(1 + x)^8(1 - x)^6$.
+
 </details>
 <summary>Answer</summary>
 Expand each factor using the binomial theorem and collect the $x^5$ terms.
@@ -688,8 +697,9 @@ Sum: $-6 + 120 - 560 + 840 - 420 + 56 = 30$.
 
 The coefficient of $x^5$ is $30$.
 
-11. **Question:** Let $\alpha$ and $\beta$ be the roots of $x^2 - 7x + 3 = 0$. Form a quadratic
+1. **Question:** Let $\alpha$ and $\beta$ be the roots of $x^2 - 7x + 3 = 0$. Form a quadratic
 Equation whose roots are $\dfrac{1}{\alpha}$ and $\dfrac{1}{\beta}$.
+
 <details>
 <summary>Answer</summary>
 From Vieta: $\alpha + \beta = 7$$\alpha\beta = 3$.
@@ -701,7 +711,8 @@ Product of new roots: $\dfrac{1}{\alpha} \cdot \dfrac{1}{\beta} = \dfrac{1}{3}$.
 
 The equation is $x^2 - \dfrac{7}{3}x + \dfrac{1}{3} = 0$Or $3x^2 - 7x + 1 = 0$.
 
-12. **Question:** Factorize $f(x) = x^3 - 3x^2 + 4$ completely.
+1. **Question:** Factorize $f(x) = x^3 - 3x^2 + 4$ completely.
+
 </details>
 <summary>Answer</summary>
 Test integer factors of $4$: try $x = -1$.
@@ -1053,10 +1064,10 @@ $$2(1)^3 + p(1)^2 - 5(1) + 3 = 4 \implies 2 + p - 5 + 3 = 4 \implies p = 4$$
 
 # $\blacksquare$
 
-3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
+1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
+2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/polynomials.md
 
 ## Summary
@@ -1070,7 +1081,6 @@ each approach.
 ## Intuition
 
 Mathematics is the study of structure, quantity, and change. Algebra provides symbols for unknown quantities, geometry describes spatial relationships, and calculus captures motion and growth. Together, these branches form a powerful toolkit for solving problems that range from calculating areas to predicting population dynamics. Mathematical literacy is essential for science, technology, and informed citizenship.
-
 
 ## Cross-References
 

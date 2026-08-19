@@ -89,8 +89,8 @@ $$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8
 
 ### Additional Practice Problems
 
-4. A body of mass 3 kg is lifted vertically by 10 m at constant speed. Find the work done against gravity.
-5. Two blocks of masses 2 kg and 3 kg are connected by a spring on a frictionless surface. The 2 kg block is pulled and released, compressing the spring. If the spring constant is $k = 200 \, \text{N/m}$, find the maximum compression.
+1. A body of mass 3 kg is lifted vertically by 10 m at constant speed. Find the work done against gravity.
+2. Two blocks of masses 2 kg and 3 kg are connected by a spring on a frictionless surface. The 2 kg block is pulled and released, compressing the spring. If the spring constant is $k = 200 \, \text{N/m}$, find the maximum compression.
 
 ## Worked Example 6 — Work Done by Gravity on a Curved Path
 

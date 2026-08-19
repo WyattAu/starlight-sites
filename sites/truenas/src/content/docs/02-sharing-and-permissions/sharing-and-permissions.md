@@ -77,7 +77,7 @@ TrueNAS offers two approaches to SMB permissions:
 - `BUILTIN_ADMINISTRATORS` — Windows admin group gets full access
 - `BUILTIN_USERS` — Windows users group gets read access
 
-2. **ACL Management (advanced):** Use Windows-style ACLs via the TrueNAS ACL editor. This provides
+1. **ACL Management (advanced):** Use Windows-style ACLs via the TrueNAS ACL editor. This provides
    fine-grained control over user and group permissions, including inheritance.
 
 ### SMB Share Configuration Options
@@ -1073,7 +1073,6 @@ File sharing and permissions are the access control system for your data. Permis
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

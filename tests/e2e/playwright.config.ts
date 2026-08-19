@@ -5,6 +5,10 @@ import { defineConfig, devices } from '@playwright/test'
  * Tests run in parallel; each test validates a critical user flow against the
  * live deployment (not a local build).
  *
+ * The site selection mirrors the preview subset policy (ADR-011): one
+ * representative site per structural variant, all validated to exist by
+ * tests/unit/no-ghost-sites.test.js.
+ *
  * Usage:
  *   npx playwright test                              # all sites
  *   npx playwright test --project=dse                # one site
@@ -13,12 +17,9 @@ import { defineConfig, devices } from '@playwright/test'
 const SITES: Record<string, string> = {
   dse: 'https://dse.wyattau.com',
   ib: 'https://ib.wyattau.com',
-  alevel: 'https://alevel.wyattau.com',
-  university: 'https://university.wyattau.com',
-  qualifications: 'https://qualifications.wyattau.com',
-  programming: 'https://programming.wyattau.com',
-  infrastructure: 'https://infrastructure.wyattau.com',
-  languages: 'https://languages.wyattau.com',
+  python: 'https://python.wyattau.com',
+  sat: 'https://sat.wyattau.com',
+  machineLearning: 'https://machine-learning.wyattau.com',
   tools: 'https://tools.wyattau.com',
 }
 

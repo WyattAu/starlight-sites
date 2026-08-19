@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -456,8 +455,6 @@ Divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for all $n 
 | 4   | 21            | No ($21 = 3 \times 7$) |
 
 The smallest counterexample is $n = 4$: $4^2 + 4 + 1 = 21$Which is not prime.
-
-
 
 ## Cross-References
 

@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Le Chatelier's principle predicts how systems respond to stress — they shift to relieve the applied change
 
-
 ## Dynamic Equilibrium
 
 ### Reversible Reactions
@@ -111,7 +110,6 @@ $$
 K_p = K_c(RT)^{-2} = \frac{K_c}{(RT)^2}
 $$
 
-
 ### The Reaction Quotient ($Q$)
 
 The reaction quotient has the same form as $K_c$ but uses **current** (non-equilibrium)
@@ -178,7 +176,6 @@ Le Chatelier's principle does NOT apply to the equilibrium constant. The equilib
 Changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
 $K$.
 
-
 ### Effect of a Catalyst
 
 - A catalyst increases the rate of both forward and reverse reactions equally.
@@ -235,7 +232,6 @@ $$
 $$
 
 Equilibrium concentrations: [H$_2$] = [I$_2$] = $0.219\mathrm{ mol/L}$[HI] = $1.562\mathrm{ mol/L}$.
-
 
 ### Calculating $K$ from Given Data
 
@@ -398,7 +394,6 @@ $$
 \mathrm{pH} = -\log(1.34 \times 10^{-3}) = 2.87
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -452,7 +447,6 @@ CH$_3$COONa. Calculate the pH.
 $$
 \mathrm{pH} = 4.76 + \log\!\left(\frac{0.30}{0.20}\right) = 4.76 + \log(1.5) = 4.76 + 0.18 = 4.94
 $$
-
 
 ---
 
@@ -569,7 +563,6 @@ $$
 
 The solubility is much lower due to the common ion effect.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -675,7 +668,6 @@ About what changes and what stays the same (only $K$ changes with temperature). 
 Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$Check the
 Stoichiometry carefully.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -723,7 +715,6 @@ K_2 = 3.54
 $$
 
 As expected for an endothermic reaction, $K$ increases with temperature.
-
 
 ### Quantitative Le Chatelier Calculations
 
@@ -782,7 +773,6 @@ Since $x \le 0.0650$: $x = 0.0294$.
 New equilibrium: [PCl$_5$] $= 0.229\mathrm{ M}$[PCl$_3$] $= 0.0356\mathrm{ M}$[Cl$_2$]
 $= 0.136\mathrm{ M}$.
 
-
 ### Acid-Base Extended: Polyprotic Acids
 
 Polyprotic acids can donate more than one proton.
@@ -825,7 +815,6 @@ $$
 $$
 
 The solution is basic, as expected for the salt of a weak acid and strong base.
-
 
 ---
 
@@ -1119,7 +1108,6 @@ $$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

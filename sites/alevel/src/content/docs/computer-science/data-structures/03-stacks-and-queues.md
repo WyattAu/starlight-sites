@@ -234,7 +234,7 @@ Examples: `3 4 +` (= 7), `5 1 2 + 4 * + 3 -` (= 14)
 - If $t$ is an operand: `push(t)`
 - If $t$ is an operator $\oplus$: pop $b$Pop $a$Compute $a \oplus b$`push(result)`
 
-3. The result is the single value remaining on the stack
+1. The result is the single value remaining on the stack
 
 ```python
 def evaluate_rpn(tokens):
@@ -312,7 +312,7 @@ Verification: $5 + ((1 + 2) \times 4) - 3 = 5 + 12 - 3 = 14$ ✓
 - If $t$ is an operator $\oplus$: while stack is non-empty and top of stack is an operator $\psi$
   with precedence($\psi$) $\geq$ precedence($\oplus$), pop $\psi$ to output. Then push $\oplus$.
 
-3. Pop all remaining operators to output
+1. Pop all remaining operators to output
 
 <details>
 <summary>Example: Convert `(3 + 4) * 5` to RPN</summary>
@@ -546,14 +546,14 @@ Array contents) after each operation: `enqueue(1)``enqueue(2)``dequeue()``enqueu
 
 | Operation  | front | rear | size | Array contents (indices 0-4) |
 | ---------- | ----- | ---- | ---- | ---------------------------- |
-| Initial    | 0     | 0    | 0    | [_, _, _, _, _]              |
-| enqueue(1) | 0     | 1    | 1    | [1, _, _, _, _]              |
-| enqueue(2) | 0     | 2    | 2    | [1, 2, _, _, _]              |
-| dequeue()  | 1     | 2    | 1    | [_, 2, _, _, _]              |
-| enqueue(3) | 1     | 3    | 2    | [_, 2, 3, _, _]              |
-| enqueue(4) | 1     | 4    | 3    | [_, 2, 3, 4, _]              |
+| Initial    | 0     | 0    | 0    | [_,_, _,_, _]              |
+| enqueue(1) | 0     | 1    | 1    | [1, _,_, _,_]              |
+| enqueue(2) | 0     | 2    | 2    | [1, 2, _,_, _]              |
+| dequeue()  | 1     | 2    | 1    | [_, 2,_, _,_]              |
+| enqueue(3) | 1     | 3    | 2    | [_, 2, 3,_, _]              |
+| enqueue(4) | 1     | 4    | 3    | [_, 2, 3, 4,_]              |
 | enqueue(5) | 1     | 0    | 4    | [5, 2, 3, 4, _]              |
-| dequeue()  | 2     | 0    | 3    | [5, _, 3, 4, _]              |
+| dequeue()  | 2     | 0    | 3    | [5, _, 3, 4,_]              |
 | enqueue(6) | 2     | 1    | 4    | [5, 6, 3, 4, _]              |
 
 Note: rear wraps around using `(rear + 1) % capacity`.
@@ -717,12 +717,12 @@ When `size == capacity`.
 
 | Operation  | front | rear | size | Array [0, 1, 2, 3] |
 | ---------- | ----- | ---- | ---- | ------------------ |
-| enqueue(7) | 0     | 1    | 1    | [7, _, _, _]       |
-| enqueue(3) | 0     | 2    | 2    | [7, 3, _, _]       |
+| enqueue(7) | 0     | 1    | 1    | [7, _,_, _]       |
+| enqueue(3) | 0     | 2    | 2    | [7, 3, _,_]       |
 | enqueue(9) | 0     | 3    | 3    | [7, 3, 9, _]       |
-| dequeue()  | 1     | 3    | 2    | [_, 3, 9, _]       |
-| dequeue()  | 2     | 3    | 1    | [_, _, 9, _]       |
-| enqueue(5) | 2     | 0    | 2    | [5, _, 9, _]       |
+| dequeue()  | 1     | 3    | 2    | [_, 3, 9,_]       |
+| dequeue()  | 2     | 3    | 1    | [_,_, 9, _]       |
+| enqueue(5) | 2     | 0    | 2    | [5, _, 9,_]       |
 | enqueue(1) | 2     | 1    | 3    | [5, 1, 9, _]       |
 | enqueue(8) | 2     | 2    | 4    | [5, 1, 9, 8]       |
 
@@ -901,6 +901,7 @@ ENDFUNCTION
 - Setting `_data[_front] = NULL` is optional but helps with debugging
 - `_size` is decremented to reflect the removal
 - Time complexity: $O(1)$ — constant number of operations regardless of queue size
+
 </details>
 
 **Problem 10.** (Exam-style) A software company is building two features: (A) a web browser's
@@ -952,7 +953,6 @@ Handled — unfair and violating the FIFO service guarantee.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Writing pseudocode that is too language-specific rather than using standard algorithmic
@@ -966,7 +966,6 @@ Handled — unfair and violating the FIFO service guarantee.
 
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
-
 
 ## Intuition
 
@@ -982,8 +981,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

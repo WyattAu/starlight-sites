@@ -23,6 +23,7 @@ categories:
 ## Organic Chemistry
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway C5 & C6 | WJEC C4
+>
 ## 1. Introduction to Organic Chemistry
 
 ### 1.1 What Is Organic Chemistry?
@@ -690,30 +691,30 @@ With fewer hydrogen atoms relative to their carbon atoms.
 
 ## 12. Additional Practice Questions
 
-21. Calculate the theoretical yield of CO$_2$ when 25 g of CaCO$_3$ reacts with excess HCl.
+1. Calculate the theoretical yield of CO$_2$ when 25 g of CaCO$_3$ reacts with excess HCl.
 
-22. What mass of NaCl is produced when 11.7 g of sodium reacts with excess chlorine gas?
+2. What mass of NaCl is produced when 11.7 g of sodium reacts with excess chlorine gas?
 
-23. A student performs a titration and obtains the following results: 24.8, 24.6, 24.7 cm$^3$. What
+3. A student performs a titration and obtains the following results: 24.8, 24.6, 24.7 cm$^3$. What
     average titre should they use?
 
-24. Calculate the atom economy for the reaction:
+4. Calculate the atom economy for the reaction:
     $2\mathrm{Na{} + \mathrm{Cl{}_2 \to 2\mathrm{NaCl{}$.
 
-25. What is the percentage yield if 5.0 g of CaCO$_3$ produces only 2.0 g of CO$_2$?
+5. What is the percentage yield if 5.0 g of CaCO$_3$ produces only 2.0 g of CO$_2$?
 
-26. Calculate the mass of water of crystallisation in 12.5 g of MgSO$_4 \cdot 7$H$_2$O.
+6. Calculate the mass of water of crystallisation in 12.5 g of MgSO$_4 \cdot 7$H$_2$O.
 
-27. What volume of gas is produced at RTP when 0.200 mol of Zn reacts with excess H$_2$SO$_4$?
+7. What volume of gas is produced at RTP when 0.200 mol of Zn reacts with excess H$_2$SO$_4$?
 
-28. A solution contains 20 g of NaOH in 500 cm$^3$. What is the molar concentration?
+8. A solution contains 20 g of NaOH in 500 cm$^3$. What is the molar concentration?
 
-29. Calculate the atom economy for the Haber process:
+9. Calculate the atom economy for the Haber process:
     $\mathrm{N{}_2 + 3\mathrm{H{}_2 \rightleftharpoons
  2\mathrm{NH{}_3$, where ammonia is the
     desired product.
 
-30. 5.0 g of a mixture of Mg and Zn reacts with excess acid to produce 2.4 dm$^3$ of H$_2$ at RTP.
+10. 5.0 g of a mixture of Mg and Zn reacts with excess acid to produce 2.4 dm$^3$ of H$_2$ at RTP.
     Calculate the percentage of Mg in the mixture if the Zn is in excess. (Hint: assume only Mg
     reacts.)
 

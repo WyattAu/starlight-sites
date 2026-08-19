@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Cell structure is inseparable from function — each organelle's design enables its specific role in cellular life
 
-
 ## 1. Cell Theory
 
 ### Postulates of Cell Theory
@@ -794,7 +793,7 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Mitosis and meiosis phases** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
 - **DNA replication and chromosome structure** --> Review
@@ -1323,7 +1322,7 @@ $0.1$--$0.2\;\mathrm{nm}$ Which is sufficient to resolve individual atoms in cry
 - Light microscope: resolution $= 240\;\mathrm{nm}$. $25 < 240$So the ribosome is **smaller than the
   resolution limit**. It cannot be resolved (individual ribosomes are invisible under light
   microscopy).
-- TEM: resolution $= 0.153\;\mathrm{nm}$. $25 > 0.153$So the ribosome is ** resolved**. TEM can
+- TEM: resolution $= 0.153\;\mathrm{nm}$. $25 > 0.153$So the ribosome is **resolved**. TEM can
   visualise ribosomes and their subunits.
 
 (d) **TEM**: a beam of electrons passes through an ultra-thin specimen ($<100\;\mathrm{nm}$ thick).

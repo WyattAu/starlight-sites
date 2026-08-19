@@ -675,7 +675,6 @@ std::unique_ptr<int> make_value_alt() {
 - [Weak References (std::weak_ptr)](4_weak_ptr.md)
 - [Common Pitfalls](5_custom_deleters.md)
 
-
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
@@ -700,4 +699,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

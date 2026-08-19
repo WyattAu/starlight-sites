@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Acids and bases are like opposite personalities — one gives protons, the other accepts them, creating balance.**
@@ -473,8 +472,6 @@ character predominates and the solution is **slightly basic**, pH $\approx 8.3$ 
 **Forgetting that dilution does not change buffer pH:** When a buffer is diluted, both the acid and conjugate base concentrations decrease by the same factor, so their ratio stays the same. The Henderson-Hasselbalch equation shows pH depends only on the ratio $[\text{A}^-]/[\text{HA}]$, not on the absolute concentrations. Students often calculate a new pH after dilution when there should be none.
 
 **Confusing which species reacts when acid or base is added to a buffer:** When strong acid (HCl) is added, it reacts with the conjugate base component ($\text{A}^-$), not the weak acid. When strong base (NaOH) is added, it reacts with the weak acid component (HA). Getting this backwards leads to the wrong direction of pH change.
-
-
 
 ## Cross-References
 

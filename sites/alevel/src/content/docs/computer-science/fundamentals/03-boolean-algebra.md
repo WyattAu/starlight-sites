@@ -450,7 +450,7 @@ D-type flip-flops are the fundamental building blocks of:
 - Boolean algebra laws, or
 - Karnaugh maps (preferred for up to 4 variables)
 
-4. Draw the circuit from the simplified expression
+1. Draw the circuit from the simplified expression
 
 <aside class="starlight-aside starlight-aside--tip">
 Larger group, and 0 otherwise. This minimises the expression.
@@ -809,7 +809,6 @@ Covered. ✓
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Rounding too early in multi-step calculations. Carry full precision through and round only the
@@ -834,8 +833,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Common Mistakes
 

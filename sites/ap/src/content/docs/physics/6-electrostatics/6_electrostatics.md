@@ -82,7 +82,6 @@ $$
 F = \frac{q\lambda}{4\pi\epsilon_0} \int_{L+a}^{a} \frac{-du}{u^2} = \frac{q\lambda}{4\pi\epsilon_0} \left[\frac{1}{u}\right]_a^{L+a} = \frac{q\lambda}{4\pi\epsilon_0}\left(\frac{1}{a} - \frac{1}{L+a}\right) = \frac{qQ}{4\pi\epsilon_0\, a(L+a)}
 $$
 
-
 ## Electric Field
 
 The electric field at a point is the force per unit charge:
@@ -117,7 +116,6 @@ $$
 
 At the center ($x = 0$): $E = 0$As expected by symmetry.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example: Electric field of an infinite line of charge</strong>
@@ -133,7 +131,6 @@ Integrating from $z = -\infty$ to $\infty$:
 $$
 E = \frac{\lambda r}{4\pi\epsilon_0} \int_{-\infty}^{\infty} \frac{dz}{(z^2 + r^2)^{3/2}} = \frac{\lambda r}{4\pi\epsilon_0} \cdot \frac{2}{r^2} = \frac{\lambda}{2\pi\epsilon_0 r}
 $$
-
 
 ### Electric Field Lines
 
@@ -222,7 +219,6 @@ $$
 E = \frac{\pi\rho_0 R^3}{12\epsilon_0 r^2}
 $$
 
-
 ## Electric Potential
 
 The electric potential difference between two points is the work done per unit charge:
@@ -270,7 +266,6 @@ $$
 V = \frac{\sigma}{2\epsilon_0}\left(\sqrt{R^2 + x^2} - |x|\right)
 $$
 
-
 ### Electric Potential Energy
 
 For a system of point charges, the total potential energy is:
@@ -297,7 +292,6 @@ There are $\binom{4}{2} = 6$ pairs. Four pairs are side-by-side (distance $a$), 
 $$
 U = \frac{4 q^2}{4\pi\epsilon_0 a} + \frac{2 q^2}{4\pi\epsilon_0 a\sqrt{2}} = \frac{q^2}{4\pi\epsilon_0 a}\left(4 + \sqrt{2}\right)
 $$
-
 
 ## Capacitance
 
@@ -576,7 +570,6 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

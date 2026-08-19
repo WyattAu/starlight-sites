@@ -756,8 +756,6 @@ This does not simplify to a nice equation. The problem likely expects integer an
 the numbers may differ. The method is correct; the specific numbers may need adjustment for a clean
 result.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

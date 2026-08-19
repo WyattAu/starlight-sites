@@ -376,7 +376,7 @@ antibiotic, only bacteria with the plasmid (which carries the resistance gene) w
   (because the tetracycline resistance gene was disrupted).
 - Bacteria with the non-recombinant plasmid: resistant to both ampicillin and tetracycline.
 
-4. Using replica plating or testing on tetracycline plates, colonies resistant to ampicillin but
+1. Using replica plating or testing on tetracycline plates, colonies resistant to ampicillin but
    sensitive to tetracycline are identified as containing the recombinant plasmid.
 
 ---

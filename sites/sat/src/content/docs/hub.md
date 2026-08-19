@@ -129,6 +129,7 @@ The digital SAT rewards both knowledge and strategy. Here are the approaches tha
 Each module is timed, and the clock runs continuously. You have roughly 71 seconds per Math question and 71 seconds per Reading and Writing question. This is enough time to work carefully, but not enough to agonise over every problem.
 
 **The two-pass strategy:**
+
 1. First pass — answer every question you can solve confidently in under 60 seconds
 2. Second pass — return to flagged questions and work through them with the remaining time
 
@@ -149,6 +150,7 @@ For Math grid-in questions, work backwards from the answer choices or test speci
 ### Reading Strategies
 
 For Reading and Writing passages:
+
 - Read the passage first, actively noting the author's main argument and tone
 - Do not bring outside knowledge — the answer is always in the passage
 - For "best evidence" questions, find the specific lines that directly support the claim
@@ -189,7 +191,7 @@ Preparing for the SAT is a structured process. Here is a phased approach that bu
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Flashcards — 15 minutes of vocabulary and formulas |
 | Afternoon | Topic study — read notes on one content area |
 | Evening | Practice — complete 10–15 practice questions |

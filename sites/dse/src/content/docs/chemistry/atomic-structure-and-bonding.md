@@ -317,8 +317,6 @@ sharing, simple and giant structures), metallic (delocalised electron sea), and 
 forces (London, dipole-dipole, hydrogen bonding). The type of bonding determines physical properties
 including melting point, conductivity, and solubility.
 
-
-
 ## Cross-References
 
 - **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure determines bonding

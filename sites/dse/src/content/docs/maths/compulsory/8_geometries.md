@@ -551,8 +551,9 @@ $$
 - Gradient of perpendicular bisector: $m = -\frac{2}{3}$.
 - Equation: $y - 2 = -\frac{2}{3}(x - 5)$I.e., $2x + 3y - 16 = 0$.
 
-2. **Question:** Find the equation of the circle passing through the three points $A(0, 0)$
+1. **Question:** Find the equation of the circle passing through the three points $A(0, 0)$
 $B(4, 0)$And $C(0, 3)$.
+
 <details>
 <summary>Answer</summary>
 
@@ -564,8 +565,9 @@ $B(4, 0)$And $C(0, 3)$.
   $(x-2)^2 + \left(y - \frac{3}{2}\right)^2 = \frac{25}{4}$.
 - Centre $\left(2, \frac{3}{2}\right)$Radius $\frac{5}{2}$.
 
-3. **Question:** The line $y = 2x + k$ is tangent to the circle $x^2 + y^2 - 4x - 2y + 1 = 0$. Find
+1. **Question:** The line $y = 2x + k$ is tangent to the circle $x^2 + y^2 - 4x - 2y + 1 = 0$. Find
 The value(s) of $k$.
+
 </details>
 <summary>Answer</summary>
 
@@ -578,9 +580,10 @@ The value(s) of $k$.
 - $-4k^2 - 24k + 44 = 0 \implies k^2 + 6k - 11 = 0$.
 - $k = \frac{-6 \pm \sqrt{36 + 44}}{2} = -3 \pm \sqrt{14}$.
 
-4. **Question:** A sector of a circle of radius $12\mathrm{ cm}$ has an arc length of
+1. **Question:** A sector of a circle of radius $12\mathrm{ cm}$ has an arc length of
 $16\pi\mathrm{ cm}$. Find the area of the sector and the area of the corresponding segment if the
 Chord length is $20\mathrm{ cm}$.
+
 <details>
 <summary>Answer</summary>
 
@@ -594,8 +597,9 @@ Chord length is $20\mathrm{ cm}$.
   Triangle area $= \frac{1}{2} \times 20 \times 2\sqrt{11} = 20\sqrt{11}$.
 - Area of segment $= 96\pi - 20\sqrt{11} \approx 247.3 \mathrm{ cm}^2$.
 
-5. **Question:** Find the angle between the line joining $A(1, 2, 3)$ and $B(4, 5, 6)$ and the plane
+1. **Question:** Find the angle between the line joining $A(1, 2, 3)$ and $B(4, 5, 6)$ and the plane
 $x + y + z = 1$.
+
 </details>
 <summary>Answer</summary>
 
@@ -607,9 +611,10 @@ $x + y + z = 1$.
   $\phi = 90^\circ - 0^\circ = 90^\circ$.
 - The line is parallel to the plane (perpendicular to the normal).
 
-6. **Question:** Points $A(1, 2)$$B(4, 6)$And $C(7, 4)$ are vertices of a triangle. Find the
+1. **Question:** Points $A(1, 2)$$B(4, 6)$And $C(7, 4)$ are vertices of a triangle. Find the
 Equation of the altitude from $A$ to $BC$The area of triangle $ABC$And the length of the Altitude
 from $A$.
+
 <details>
 <summary>Answer</summary>
 
@@ -623,8 +628,9 @@ from $A$.
 - Altitude from $A$:
   $\frac{2 \times \mathrm{Area}}{BC} = \frac{18}{\sqrt{13}} = \frac{18\sqrt{13}}{13}$.
 
-7. **Question:** Find the equation of the circle which touches the $x$-axis at $(3, 0)$ and passes
+1. **Question:** Find the equation of the circle which touches the $x$-axis at $(3, 0)$ and passes
 Through $(1, 4)$.
+
 </details>
 <summary>Answer</summary>
 
@@ -637,9 +643,10 @@ Through $(1, 4)$.
 - Equation: $(x-3)^2 + \left(y - \frac{5}{2}\right)^2 = \frac{25}{4}$I.e.,
   $x^2 + y^2 - 6x - 5y + 9 = 0$.
 
-8. **Question:** The vertices of a triangle are $A(2, 1, -1)$$B(0, 3, -4)$And $C(5, 0, 2)$. Find (a)
+1. **Question:** The vertices of a triangle are $A(2, 1, -1)$$B(0, 3, -4)$And $C(5, 0, 2)$. Find (a)
 the length of each side, (b) the area of the triangle, and (c) the equation of the plane Containing
 the triangle.
+
 <details>
 <summary>Answer</summary>
 
@@ -655,9 +662,10 @@ the triangle.
 - (c) The normal vector is $(3, -3, -4)$. Using point $A(2, 1, -1)$: $3(x-2) - 3(y-1) - 4(z+1) = 0$
   I.e., $3x - 3y - 4z - 8 = 0$.
 
-9. **Question:** Two circles $C_1: x^2 + y^2 - 4x + 2y - 4 = 0$ and
+1. **Question:** Two circles $C_1: x^2 + y^2 - 4x + 2y - 4 = 0$ and
 $C_2: x^2 + y^2 + 2x - 6y + 6 = 0$ intersect at points $A$ and $B$. Find the equation of the common
 Chord $AB$ and the coordinates of $A$ and $B$.
+
 </details>
 <summary>Answer</summary>
 
@@ -674,8 +682,9 @@ Chord $AB$ and the coordinates of $A$ and $B$.
 - $x = \frac{10}{50} = \frac{1}{5}$$y = \frac{3(1/5) + 5}{4} = \frac{28}{20} = \frac{7}{5}$.
 - The circles touch at $\left(\frac{1}{5}, \frac{7}{5}\right)$.
 
-10. **Question:** A rectangle $ABCD$ has vertices $A(1, 1)$$B(5, 1)$And $C(5, 4)$. Find the
+1. **Question:** A rectangle $ABCD$ has vertices $A(1, 1)$$B(5, 1)$And $C(5, 4)$. Find the
 Coordinates of $D$ and the area of the rectangle.
+
 <details>
 <summary>Answer</summary>
 
@@ -686,9 +695,10 @@ Coordinates of $D$ and the area of the rectangle.
   $D = (2M_x - C_x, 2M_y - C_y) = (6 - 5, 5 - 4) = (1, 4)$.
 - Area $= AB \times BC = 4 \times 3 = 12$ square units.
 
-11. **Question:** A solid metal cone has base radius $6\mathrm{ cm}$ and slant height
+1. **Question:** A solid metal cone has base radius $6\mathrm{ cm}$ and slant height
 $10\mathrm{ cm}$. A sector is cut from a circular sheet of metal to form the curved surface. Find
 (a) the angle of the sector, (b) the radius of the circular sheet, and (c) the area of the sector.
+
 </details>
 <summary>Answer</summary>
 
@@ -699,8 +709,9 @@ $10\mathrm{ cm}$. A sector is cut from a circular sheet of metal to form the cur
 - (c) Area of sector:
   $A = \frac{1}{2}r^2\theta = \frac{1}{2}(100)\left(\frac{6\pi}{5}\right) = 60\pi \mathrm{ cm}^2$.
 
-12. **Question:** Prove that the points $A(-2, 0)$$B(0, 4)$$C(6, 2)$And $D(4, -2)$ are the Vertices
+1. **Question:** Prove that the points $A(-2, 0)$$B(0, 4)$$C(6, 2)$And $D(4, -2)$ are the Vertices
 of a rectangle. Find the equation of the circle passing through all four vertices.
+
 <details>
 <summary>Answer</summary>
 
@@ -714,6 +725,7 @@ of a rectangle. Find the equation of the circle passing through all four vertice
 - The circle through all four vertices (circumcircle) has centre at the intersection of the
   diagonals $(2, 1)$ and radius $= \frac{1}{2}AC = \sqrt{17}$.
 - Equation: $(x-2)^2 + (y-1)^2 = 17$I.e., $x^2 + y^2 - 4x - 2y - 12 = 0$.
+
 </details>
 
 ---
@@ -1105,10 +1117,10 @@ right-angled at $A$.
 
 # $\blacksquare$
 
-3. Forgetting to check that solutions satisfy the original equation (especially with squaring both
+1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/geometries.md
 
@@ -1123,7 +1135,6 @@ each approach.
 ## Intuition
 
 Mathematical thinking is about abstraction and pattern recognition. Numbers, shapes, and equations are tools for modelling reality - from calculating interest to predicting weather. The beauty of mathematics is that once a pattern is discovered, it can be applied universally. This connects algebra, geometry, and calculus into a coherent framework for understanding quantity, space, and change.
-
 
 ## Cross-References
 

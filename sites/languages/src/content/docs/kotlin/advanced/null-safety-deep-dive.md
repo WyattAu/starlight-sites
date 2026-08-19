@@ -349,10 +349,10 @@ prove it covers the null case.
   `List<String>?`.
 - Sealed classes guarantee exhaustive `when`; handle `null` branches explicitly when nullable.
 
-
 ## Intuition
 
 Kotlin's null safety is like a building's fire code -- it prevents disasters by catching dangerous situations at the blueprint stage rather than after the building is occupied. The safe call operator (?.) is like a circuit breaker that stops the chain of operations if any link is null. The Elvis operator (?:) is the emergency generator that kicks in when the primary power fails. The !! operator is the red button you should rarely press -- it bypasses all safety checks and will crash the program if the value is actually null. Contracts are the fine print that tells the compiler exactly when it is safe to trust a non-null assertion.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

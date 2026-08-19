@@ -670,7 +670,6 @@ Verification: $(x-1)(x-2)(x-3) = x^3 - 6x^2 + 11x - 6$. ✓
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1157,4 +1156,3 @@ $\dfrac{1}{2}\!\left(\dfrac{1}{2} - \dfrac{1}{(n+1)(n+2)}\right) = \dfrac{(n+1)(
 $\blacksquare$
 
 </details>
-

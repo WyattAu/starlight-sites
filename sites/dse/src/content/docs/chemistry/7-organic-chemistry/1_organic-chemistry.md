@@ -1502,6 +1502,7 @@ Alternatives include:
    monomers for repolymerisation)
 3. **Reducing usage** through reusable bags and containers
 4. **Using biopolymers** derived from renewable resources (e.g., starch-based polymers, cellulose)
+
 </details>
 
 ---
@@ -2051,4 +2052,3 @@ $$\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%$$
 - [Plant Biology](../../biology/5-plant-biology/1_plant-biology) -- Photosynthesis and plant metabolism involve organic reactions like carbon fixation.
 - [Genetics](../../biology/3-genetics/1_genetics) -- DNA structure and protein synthesis are fundamentally organic chemistry processes.
 - [Nuclear Physics](../../physics/5-nuclear-physics/1_nuclear-physics) -- Radioactive isotopes used in organic analysis and carbon dating connect these fields.
-

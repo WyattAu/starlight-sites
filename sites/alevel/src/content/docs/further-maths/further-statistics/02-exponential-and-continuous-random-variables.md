@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -764,7 +763,6 @@ $P(1 \lt X \lt 2) = F(2) - F(1) = \dfrac{4}{9} - \dfrac{1}{9} = \dfrac{1}{3}$.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1176,8 +1174,6 @@ $= 1 - e^{-\lambda y}$ for $y \geq 0$.
 This is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
 
 </details>
-
-
 
 ## Cross-References
 

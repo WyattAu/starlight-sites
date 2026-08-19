@@ -267,13 +267,13 @@ Integer maybeNull = null;
 int value = maybeNull;  // NullPointerException — no visible dereference
 ```
 
-2. **Identity confusion**: `==` compares identity for reference types but value for primitives.
+1. **Identity confusion**: `==` compares identity for reference types but value for primitives.
    Autoboxing silently changes the semantics of `==`.
 
-3. **Hidden performance costs**: Every autobox operation allocates a heap object (outside the cache
+2. **Hidden performance costs**: Every autobox operation allocates a heap object (outside the cache
    range). In tight loops or performance-critical code, this creates significant GC pressure.
 
-4. **Ambiguous overloading**: Method resolution behaves differently than expected when both
+3. **Ambiguous overloading**: Method resolution behaves differently than expected when both
    primitive and wrapper overloads exist.
 
 ```java

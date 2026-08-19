@@ -164,7 +164,6 @@ Differential equations are the language of change. Every pitfall in this file re
 - **[Stability and Phase Plane Analysis](9_stability-and-phase-plane-analysis)**: Non-hyperbolic critical points and incorrect linearisation are common mistakes in stability analysis.
 - **[Series Solutions](6_series-solutions)**: Confusing ordinary and regular singular points leads to incorrect application of the Frobenius method.
 
-
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

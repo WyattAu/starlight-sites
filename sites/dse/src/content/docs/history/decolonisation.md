@@ -98,7 +98,7 @@ The Sino-British Joint Declaration, signed on 19 December 1984, established the 
 **Key Provisions:**
 
 | Provision | Details |
-|-----------|---------|
+| ----------- | --------- |
 | Sovereignty transfer | China to resume sovereignty over Hong Kong on 1 July 1997 |
 | One Country, Two Systems | Hong Kong to maintain its capitalist system and way of life for fifty years |
 | Legal system | Hong Kong's common law legal system to be preserved |

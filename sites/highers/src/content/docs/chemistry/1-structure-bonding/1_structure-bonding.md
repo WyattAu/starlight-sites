@@ -647,7 +647,7 @@ polar.
 
 ## Practice Questions (Extended)
 
-13. Using a Born-Haber cycle, calculate the lattice energy of $\mathrm{MgO$ given:
+1. Using a Born-Haber cycle, calculate the lattice energy of $\mathrm{MgO$ given:
 
 - $\Delta H_{\mathrm{at}(\mathrm{Mg) = +148 \mathrm{ kJ/mol$
 - $\Delta H_{\mathrm{at}(\mathrm{O) = +248 \mathrm{ kJ/mol$
@@ -656,23 +656,23 @@ polar.
 - $\mathrm{EA_1(\mathrm{O) = -141 \mathrm{ kJ/mol$, $\mathrm{EA_2(\mathrm{O) = +798 \mathrm{ kJ/mol$
 - $\Delta H_f(\mathrm{MgO) = -602 \mathrm{ kJ/mol$
 
-14. Explain why $\mathrm{BeCl_2$ is covalent while $\mathrm{CaCl_2$ is ionic, using Fajans' Rules.
+1. Explain why $\mathrm{BeCl_2$ is covalent while $\mathrm{CaCl_2$ is ionic, using Fajans' Rules.
 
-15. Using bond enthalpies, explain why the Haber process is exothermic:
+2. Using bond enthalpies, explain why the Haber process is exothermic:
     $\mathrm{N_2 + 3\mathrm{H_2 \to 2\mathrm{NH_3$.
 
-16. Predict and explain the trend in boiling points for the hydrogen halides $\mathrm{HF$
+3. Predict and explain the trend in boiling points for the hydrogen halides $\mathrm{HF$
     $\mathrm{HCl$$\mathrm{HBr$$\mathrm{HI$.
 
-17. Balance the following redox equation in basic solution:
+4. Balance the following redox equation in basic solution:
     $\mathrm{MnO_4^- + \mathrm{Br^- \to \mathrm{MnO_2 + \mathrm{BrO_3^-$.
 
-18. Explain how the properties of steel differ from those of pure iron, in terms of metallic bonding
+5. Explain how the properties of steel differ from those of pure iron, in terms of metallic bonding
     structure.
 
-19. A student states that "all Group 1 chlorides have ionic bonding." Evaluate this statement.
+6. A student states that "all Group 1 chlorides have ionic bonding." Evaluate this statement.
 
-20. Draw the dot-and-cross diagram for $\mathrm{CO_2$ and explain why it is a linear molecule.
+7. Draw the dot-and-cross diagram for $\mathrm{CO_2$ and explain why it is a linear molecule.
 
 ---
 

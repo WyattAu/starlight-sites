@@ -773,6 +773,7 @@ building a personal test matrix.
 - [Exponentials and Logarithms](09-exponentials-and-logarithms.mdx) -- The exponential and logarithmic functions are inverses of each other, a key example of function inversion.
 - [Integration](11-integration.mdx) -- Integration finds areas under function curves and reverses the process of differentiation.
 - [Sequences and Series](06-sequences-and-series.md) -- Sequences are functions defined on the natural numbers, linking function behaviour to series convergence.
+
 ## Common Pitfalls
 
 1. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
@@ -797,4 +798,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

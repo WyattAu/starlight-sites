@@ -61,7 +61,6 @@ $$
 V = r\omega = 0.05 \times 20.9 = 1.05\mathrm{ m/s}
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -101,7 +100,6 @@ Always directed toward the centre of the circular path (radially inward).
 Centripetal force is NOT a new force — it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
 Separate force on a free-body diagram.
-
 
 ---
 
@@ -215,7 +213,6 @@ $$
 T = \frac`\{mg}`{\cos\theta} = \frac{0.5 \times 9.81}{0.642} = 7.64\mathrm{ N}
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -277,7 +274,6 @@ The minimum speed at the bottom for the ball to complete the circle.
 $$
 V_{\mathrm{bottom}} = \sqrt{5gr} = \sqrt{5(9.81)(0.8)} = \sqrt{39.24} = 6.26\mathrm{ m/s}
 $$
-
 
 ---
 
@@ -395,7 +391,6 @@ $$
 R_{\mathrm{left}} = 294.3 - 98.1 = 196.2\mathrm{ N}
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -507,7 +502,6 @@ $$
 
 Her angular velocity triples.
 
-
 ### Angular Impulse
 
 $$
@@ -573,7 +567,6 @@ Incline from the same height.
 
 The solid sphere is fastest, followed by the solid cylinder, then the hollow sphere. Objects with
 More mass concentrated near the centre (smaller $I$) roll faster.
-
 
 ---
 
@@ -763,7 +756,6 @@ Rotational motion is linear motion wearing a disguise. Every linear equation has
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
 The centripetal force. For vertical circle problems, use energy conservation to relate speeds at
 Different points. For torque problems, identify the pivot and calculate the moment arm.
-
 
 ---
 

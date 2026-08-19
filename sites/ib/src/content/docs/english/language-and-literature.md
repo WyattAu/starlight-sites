@@ -69,13 +69,12 @@ Students study a body of literary works connected by a specific theme, genre, or
 
 **The key insight:** Understanding how language shapes meaning is essential for analyzing texts and crafting effective communication
 
-
 ## 2. Assessment Components
 
 ### 2.1 Paper 1: Textual Analysis
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Duration | SL: 75 minutes; HL: 135 minutes |
 | Texts | SL: one unseen text; HL: two unseen texts (comparative) |
 | Weighting | 25% of final grade |
@@ -88,7 +87,7 @@ Paper 1 presents students with unseen texts -- literary or non-literary -- and r
 The following text types may appear on Paper 1:
 
 | Category | Examples |
-|----------|----------|
+| ---------- | ---------- |
 | Literary | Poetry, prose fiction, drama excerpts |
 | Non-literary | Speeches, editorials, advertisements, letters, blogs |
 | Visual | Photographs, posters, infographics, advertisements |
@@ -96,7 +95,7 @@ The following text types may appear on Paper 1:
 #### Guiding Question Types
 
 | Type | Example |
-|------|---------|
+| ------ | --------- |
 | Authorial choices | "How does the author use language to convey the speaker's attitude?" |
 | Structural analysis | "Analyse the ways in which the structure of this passage shapes its meaning." |
 | Audience and purpose | "Explore how this text positions its intended reader." |
@@ -112,7 +111,7 @@ The following text types may appear on Paper 1:
 ### 2.2 Paper 2: Comparative Essay
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Duration | SL: 75 minutes; HL: 90 minutes |
 | Texts | One question from a choice, relating to the works studied in the course |
 | Weighting | 35% of final grade |
@@ -130,7 +129,7 @@ Paper 2 requires students to write a comparative essay on two or more works stud
 ### 2.3 HL Essay
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Length | 1,200--1,500 words |
 | Weighting | 20% of final grade (HL only) |
 | Marking criteria | Focus and organisation; Knowledge, understanding, and interpretation; Analysis and evaluation; Language |
@@ -147,7 +146,7 @@ The HL Essay is an independent, formal essay on a question or statement of the s
 ### 2.4 Individual Oral (IOC)
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Duration | SL: 15 minutes (10-minute preparation, 5-minute oral); HL: 20 minutes (20-minute preparation, 10-minute oral) |
 | Text | One passage from a literary work studied in Part 3 or 4 |
 | Weighting | SL: 30% of final grade; HL: 20% of final grade |
@@ -165,7 +164,7 @@ The IOC is a prepared oral commentary on a passage from a literary text studied 
 ### 2.5 Assessment Weightings Summary
 
 | Component | SL Weighting | HL Weighting |
-|-----------|-------------|-------------|
+| ----------- | ------------- | ------------- |
 | Paper 1 | 25% | 25% |
 | Paper 2 | 35% | 35% |
 | HL Essay | -- | 20% |
@@ -187,7 +186,7 @@ The IOC is a prepared oral commentary on a passage from a literary text studied 
 Students choosing between Language and Literature and Literature should understand the fundamental differences between the two courses:
 
 | Feature | Language and Literature | Literature |
-|---------|------------------------|------------|
+| --------- | ------------------------ | ------------ |
 | Text types | Literary and non-literary | Literary only |
 | Part 1 focus | Language in cultural context | Works in translation |
 | Part 2 focus | Language and mass communication | Detailed study |
@@ -305,7 +304,7 @@ The most significant difference is the scope of text types. Language and Literat
 ## 6. Glossary of Key Terms
 
 | Term | Definition |
-|------|-----------|
+| ------ | ----------- |
 | **Anaphora** | The repetition of a word or phrase at the beginning of successive clauses or lines |
 | **Audience** | The intended readers, viewers, or listeners of a text |
 | **Connotation** | The associative or emotional meaning of a word, beyond its dictionary definition |

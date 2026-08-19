@@ -129,8 +129,8 @@ $ git rebase --abort
 After resolving a conflict:
 
 ```bash
-$ git add <resolved-file>
-$ git rebase --continue
+git add <resolved-file>
+git rebase --continue
 ```
 
 ### Skip a Commit
@@ -138,7 +138,7 @@ $ git rebase --continue
 If a commit's changes are no longer relevant (e.g., a fix that was already applied upstream):
 
 ```bash
-$ git rebase --skip
+git rebase --skip
 ```
 
 ## Interactive Rebase
@@ -433,7 +433,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

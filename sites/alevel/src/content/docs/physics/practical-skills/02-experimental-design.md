@@ -23,6 +23,7 @@ categories:
 ## Experimental Design
 
 > **Info:** Board Coverage AQA Paper 3 | Edexcel CP6 | OCR (A) Paper 3 | CIE P5
+>
 ## 1. Key Principles of Experimental Design
 
 ### Independent, Dependent, and Control Variables
@@ -93,7 +94,6 @@ Paper 5 Q1 (Planning)
   must be explicitly listed.
 - **CIE** Paper 5 explicitly marks the "control of variables" section, and examiners look for
   _methods_ of control, not just listing the variable name.
-
 
 ### Reliability, Validity, and Accuracy
 
@@ -170,12 +170,12 @@ Validity has two aspects that examiners distinguish:
    aluminium wire.
 
 > **Info:** Board Coverage AQA Paper 3 | Edexcel CP6 | OCR (A) Paper 3 | CIE P5
+
 - **AQA** emphasises the distinction between validity and reliability in 6-mark practical questions.
 - **Edexcel** Core Practicals require students to comment on the validity of their conclusions.
 - **OCR (A)** PAG reports ask students to evaluate the validity of their method and results.
 - **CIE** Paper 5 marks validity through the "justification of the method" requirement — students
   must explain _why_ their approach is valid, not just state that it is.
-
 
 ### Accuracy in Depth
 
@@ -261,6 +261,7 @@ Is critical:
   reliability of the mean.
 
 > **Info:** Board Coverage AQA Paper 3 Section A | Edexcel CP6 | OCR (A) PAG | CIE P5
+
 - **AQA** often provides a method and asks students to identify improvements — focus on range,
   intervals, and repeats.
 - **Edexcel** Core Practicals have prescribed ranges; students should justify why the chosen range
@@ -268,7 +269,6 @@ Is critical:
 - **OCR (A)** PAG reports require a detailed method with explicit ranges and intervals.
 - **CIE** Paper 5 Q1 requires students to specify a range with at least 5 values and justify the
   choice of measuring instruments.
-
 
 ## 3. Common Apparatus and Techniques
 
@@ -353,12 +353,13 @@ A risk assessment follows four steps:
 
 When asked to write a risk assessment, structure your answer as follows:
 
-1. **State the hazard **. "The mains electricity supply poses a risk of electric shock."
+1. **State the hazard**. "The mains electricity supply poses a risk of electric shock."
 2. **State the severity**. "This could cause serious injury or death."
 3. **Describe the control measure**. "Use a low-voltage (e.g., 12 V) power supply instead of mains,
    and ensure all connections are insulated."
 
 > **Info:** Board Coverage AQA Paper 3 | Edexcel CP1–CP12 | OCR (A) PAG (all) | CIE P5
+
 - **AQA** requires a risk assessment as part of the 12 required practicals. Risk assessments are
   assessed in written papers.
 - **Edexcel** Core Practicals include risk assessment in the student lab book. Exams may ask
@@ -367,7 +368,6 @@ When asked to write a risk assessment, structure your answer as follows:
   realistic and control measures are specific.
 - **CIE** Paper 5 Q1 includes a "safety" sub-question worth 1–2 marks. Students must name a specific
   hazard _and_ a corresponding precaution.
-
 
 <aside aria-label="Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious</p>
 Hazards exist. Examiners award marks for identifying the _most significant_ hazards and providing
@@ -449,6 +449,7 @@ When a graph is plotted, check:
 - Largest uncertainty: measuring wavelength from a frozen ripple pattern
 
 > **Info:** Board Coverage AQA Paper 3 | Edexcel CP6, CP9 | OCR (A) PAG 2, PAG 3 | CIE P5
+
 - **AQA** Required Practical 5 uses a falling object to determine `g`; Required Practical 8 uses a
   potentiometer or voltmeter/ammeter method for internal resistance.
 - **Edexcel** Core Practical 6 uses a pendulum for `g`; Core Practical 9 investigates waves on a
@@ -457,7 +458,6 @@ When a graph is plotted, check:
   experiments.
 - **CIE** Paper 5 Q2 often asks students to analyse data from a provided experiment — knowing common
   experimental contexts helps you spot the relationship between variables quickly.
-
 
 <aside aria-label="Exam Technique When asked "how could you improve this experiment?", always be specific." class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When asked "how could you improve this experiment?", always be specific.</p>
 Instead of "use a more accurate instrument", say "use a micrometer instead of a ruler to measure the
@@ -741,7 +741,6 @@ linked above.
 ## Intuition
 
 From Newton's apple to quantum particles, physics explains how the world works through measurable quantities and testable laws. Forces cause acceleration, energy transforms between forms but is never lost, and waves carry information across vast distances. These concepts form the foundation for engineering, astronomy, and our understanding of reality itself.
-
 
 ## Cross-References
 

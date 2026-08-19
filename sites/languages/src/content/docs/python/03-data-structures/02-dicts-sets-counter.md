@@ -542,6 +542,7 @@ class LogList(UserList):
 ll = LogList([1, 2, 3])
 ll.append(4)   # Appending: 4
 ll.pop()       # Popped: 4
+
 ```
 
 ## namedtuple vs dataclass vs TypedDict

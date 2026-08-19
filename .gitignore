@@ -16,3 +16,4 @@ playwright-report/
 !sites/main/src/
 
 crawlkit-results-*/
+__pycache__/

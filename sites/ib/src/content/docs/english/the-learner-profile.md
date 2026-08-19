@@ -113,7 +113,6 @@ Reflective students thoughtfully consider the world and their own ideas and expe
 
 **The key insight:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become
 
-
 ## 2. Approaches to Learning (ATL) Skills for English
 
 The ATL framework identifies five categories of skills that IB students are expected to develop across all subjects. In English, these skills have specific applications.
@@ -121,7 +120,7 @@ The ATL framework identifies five categories of skills that IB students are expe
 ### 2.1 Communication Skills
 
 | Skill | Application in English |
-|-------|----------------------|
+| ------- | ---------------------- |
 | Listening | Active listening during class discussions; attending to the oral qualities of poetry and drama |
 | Speaking | Articulating interpretations in class discussion and oral presentations |
 | Reading | Close reading, critical reading, contextual reading |
@@ -130,7 +129,7 @@ The ATL framework identifies five categories of skills that IB students are expe
 ### 2.2 Social Skills
 
 | Skill | Application in English |
-|-------|----------------------|
+| ------- | ---------------------- |
 | Cooperation | Collaborative interpretation in group work; peer review of written work |
 | Conflict resolution | Navigating disagreements about textual interpretation with respect |
 | Group decision-making | Developing shared interpretations in literature circles |
@@ -138,7 +137,7 @@ The ATL framework identifies five categories of skills that IB students are expe
 ### 2.3 Self-Management Skills
 
 | Skill | Application in English |
-|-------|----------------------|
+| ------- | ---------------------- |
 | Organisation | Managing reading schedules, essay drafts, and revision timelines |
 | Affective skills | Recognising and managing one's emotional responses to challenging texts |
 | Reflection | Regular self-assessment of reading and writing practice |
@@ -146,7 +145,7 @@ The ATL framework identifies five categories of skills that IB students are expe
 ### 2.4 Research Skills
 
 | Skill | Application in English |
-|-------|----------------------|
+| ------- | ---------------------- |
 | Information literacy | Evaluating the reliability and relevance of secondary sources |
 | Media literacy | Analysing how media texts construct meaning and position audiences |
 | Ethics | Proper attribution, avoidance of plagiarism, honest representation of sources |
@@ -154,7 +153,7 @@ The ATL framework identifies five categories of skills that IB students are expe
 ### 2.5 Thinking Skills
 
 | Skill | Application in English |
-|-------|----------------------|
+| ------- | ---------------------- |
 | Critical thinking | Evaluating arguments, identifying assumptions, assessing evidence |
 | Creative thinking | Generating original interpretations, exploring multiple possibilities |
 | Transfer | Applying analytical skills learned in one text to new and unfamiliar texts |
@@ -299,7 +298,7 @@ Students should document their English-related CAS activities in their CAS portf
 Review the following statements and rate your development honestly:
 
 | Attribute | Developing | Competent | Exemplary |
-|-----------|------------|-----------|-----------|
+| ----------- | ------------ | ----------- | ----------- |
 | Inquirer | I read texts for plot rather than for meaning | I ask questions about how texts produce their effects | I generate original interpretive questions that lead to deeper analysis |
 | Knowledgeable | I can summarise what a text is about | I can situate a text within its historical and cultural context | I can connect a text to broader literary and intellectual traditions |
 | Thinker | I accept interpretations presented to me | I evaluate interpretations against textual evidence | I construct and defend original interpretations |

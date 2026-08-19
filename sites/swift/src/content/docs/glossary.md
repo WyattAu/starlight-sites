@@ -94,7 +94,7 @@ protocol Drawable {
 
 **Associated Type**: A placeholder type within a protocol, specified by the conforming type.
 
-** existential (any Protocol)**: A box that holds any type conforming to a protocol.
+**existential (any Protocol)**: A box that holds any type conforming to a protocol.
 
 **Some (Opaque Return Type)**: Hides the concrete return type while guaranteeing conformance to a protocol.
 

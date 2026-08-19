@@ -121,8 +121,8 @@ Set a static IP on the TrueNAS web UI:
 - Gateway: `192.168.1.1`
 - DNS: `1.1.1.1, 9.9.9.9`
 
-3. Click **Save**
-4. If you have multiple NICs, consider bonding (LACP) for redundancy and throughput
+1. Click **Save**
+2. If you have multiple NICs, consider bonding (LACP) for redundancy and throughput
 
 Check connectivity from a terminal:
 
@@ -143,8 +143,8 @@ ssh truenas_admin@192.168.1.10
   simultaneously.
 - **Stripe** (single drive or multiple with no redundancy): Only for temporary/cache data.
 
-4. Add your drives and select the data VDEV type
-5. Click **Create Pool**
+1. Add your drives and select the data VDEV type
+2. Click **Create Pool**
 
 Important ZFS pool design rules:
 
@@ -202,8 +202,8 @@ zfs list -o name,used,avail,refer,mountpoint
 - `media_user` — read-only access to media shares
 - `admin_user` — read-write access to everything
 
-3. Navigate to **Credentials > Local Groups** and create groups as needed
-4. Assign users to groups
+1. Navigate to **Credentials > Local Groups** and create groups as needed
+2. Assign users to groups
 
 From the CLI:
 
@@ -237,7 +237,7 @@ midclt call user.create '{
 - Enable **SMB Multichannel** if you have multiple NICs
 - Set **AIO** (Asynchronous I/O) to enabled for better performance
 
-4. Under **ACL**, set permissions. For a simple homelab:
+1. Under **ACL**, set permissions. For a simple homelab:
 
 - `truenas_admin`: Full Control
 - `media_user`: Read
@@ -401,7 +401,7 @@ Import community dashboards for ZFS pool health, drive temperatures, and network
 - **Mode**: `Master` if this is the only NUT server, `Netserver` for network clients
 - **Shutdown**: Set to `UPS reaches low battery`
 
-4. Add connected devices that should also shut down
+1. Add connected devices that should also shut down
 
 Test the UPS connection:
 
@@ -478,6 +478,7 @@ ZFS ACLs and POSIX permissions can conflict. If Windows clients cannot write to 
 1. Check the dataset ACL under **Storage > Pools > Dataset > Edit Permissions**
 2. Ensure the SMB user is the owner or has an explicit ACL entry
 3. Avoid mixing NFS and SMB on the same dataset. Use separate datasets if possible
+
 </details>
 
 <details>

@@ -428,7 +428,7 @@ public class CStringOperations {
 
 ### Passing Structs
 
-C structs are modeled using ` GroupLayout`:
+C structs are modeled using `GroupLayout`:
 
 ```java
 import java.lang.foreign.*;

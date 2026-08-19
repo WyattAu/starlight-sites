@@ -127,7 +127,6 @@ assert_eq!(arr, [20, 40, 60, 80, 100]);
 The resulting pointer is not dereferenced. `ptr.add(len)` is UB if the pointer does not point to an
 Allocation of at least `len` elements.
 
-
 ## Unsafe Functions and Blocks
 
 ### Unsafe Functions
@@ -217,7 +216,6 @@ unsafe impl Sync for MyType {}
 <aside class="starlight-aside starlight-aside--danger">
 Only do this when you can rigorously prove thread safety. This requires that the raw Pointer is only
 accessed through a synchronization mechanism (mutex, atomic, etc.) that the compiler Cannot see.
-
 
 ### Global Allocator
 
@@ -470,7 +468,6 @@ impl<'a> Interner<'a> {
 A lifetime tied to the arena, which is correct as long as the arena outlives all interned
 References. If the arena is dropped while interned references exist, they become dangling.
 
-
 ## Undefined Behavior in Rust
 
 Undefined behavior (UB) means the compiler is free to assume the undefined operation never happens
@@ -668,7 +665,6 @@ impl Buffer {
 <aside class="starlight-aside starlight-aside--danger">
 Byte of the `MaybeUninit` has been written to before calling `assume_init()`. Use `write_bytes`
 Individual `write()` calls, or `ptr::copy_nonoverlapping` to initialize the memory.
-
 
 ### `MaybeUninit` for Arrays
 
@@ -947,7 +943,6 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

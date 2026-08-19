@@ -562,7 +562,6 @@ int main() {
 }
 ```
 
-
 ## Summary
 
 This topic covers the core concepts of iterator categories, traversal, and invalidation, including
@@ -587,4 +586,3 @@ Iterators are the universal remote controls of the C++ standard library. Each co
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The evolution of atomic theory shows how scientific understanding progresses through experimentation and revised models
 
-
 ## 1. Historical Development of Atomic Theory
 
 ### Dalton"s Atomic Theory (1803)
@@ -270,7 +269,6 @@ For the $3p$ orbital ($n = 3$$l = 1$):
 - Angular nodes $= 1$ (the nodal plane through the nucleus)
 - Radial nodes $= 3 - 1 - 1 = 1$
 
-
 ### Penetration and Shielding
 
 **Penetration** describes the ability of an electron in an outer orbital to approach the nucleus.
@@ -317,7 +315,6 @@ $$
 $$
 Z_{\mathrm{eff}} = 19 - 16.80 = 2.20
 $$
-
 
 ---
 
@@ -818,7 +815,7 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Chemical bonding and VSEPR geometry** → Review
   [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
@@ -852,6 +849,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | [Atomic Structure] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/atomic-structure)                               |
 | [Atomic Structure] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/2-atomic-structure/1_atomic-theory)                              |
 | [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
-
 
 </aside>

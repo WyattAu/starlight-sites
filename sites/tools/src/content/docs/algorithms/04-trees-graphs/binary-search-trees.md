@@ -414,7 +414,6 @@ $F_k \approx \phi^k / \sqrt{5}$We get $h \le c \log_\phi(n)$ for some constant $
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
 Along the path to the root.
 
-
 ## Red-Black Trees
 
 A red-black tree is a self-balancing BST where each node has a colour (red or black) and satisfies
@@ -576,7 +575,6 @@ class RBTree:
 <aside class="starlight-aside starlight-aside--tip">
 And deletions are frequent (scheduler, event queues). In practice, the performance difference is
 Small for most workloads.
-
 
 ## B-Trees
 
@@ -758,7 +756,6 @@ def bplus_range_query(tree, low, high):
 <aside class="starlight-aside starlight-aside--note">
 Oracle). PostgreSQL uses B+ trees as the default index type. MySQL InnoDB uses a variant where the
 Leaf pages form a doubly-linked list, enabling both forward and backward scans.
-
 
 ## Splay Trees
 
@@ -948,7 +945,6 @@ class Treap:
 <aside class="starlight-aside starlight-aside--note">
 Equivalent to a randomly built BST. The expected depth of any node is at most
 $2 \ln n \approx 1.39 \log_2 n$. Treaps are simpler to implement than AVL or red-black trees.
-
 
 ## Skip Lists
 

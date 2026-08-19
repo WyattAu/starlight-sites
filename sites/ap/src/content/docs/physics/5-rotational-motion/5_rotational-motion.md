@@ -89,7 +89,6 @@ $$
 V = r\omega = (0.3)(10) = 3.0 \mathrm{ m/s
 $$
 
-
 ## Moment of Inertia (CED Unit 7)
 
 The moment of inertia is the rotational analog of mass. It measures an object"s resistance to
@@ -174,7 +173,6 @@ $$
 I = I_{\mathrm{cm} + Md^2 = \frac{2}{5}MR^2 + MR^2 = \frac{7}{5}MR^2
 $$
 
-
 ## Torque (CED Unit 7)
 
 Torque is the rotational analog of force:
@@ -222,7 +220,6 @@ $$
 $$
 \alpha = \frac{\tau}{I} = \frac{6.0}{0.225} = 26.7 \mathrm{ rad/s^2
 $$
-
 
 ## Rotational Energy (CED Unit 7)
 
@@ -281,7 +278,6 @@ $$
 Note: the answer is independent of both the mass and the radius. For a hollow sphere, the factor
 Would be $\frac{5}{6}$ instead of $\frac{7}{10}$So the solid sphere is always faster.
 
-
 ## Angular Momentum (CED Unit 7)
 
 The angular momentum of a particle:
@@ -324,7 +320,6 @@ $$
 $$
 (4.0)(3.0) = (1.5)\omega_2 \implies \omega_2 = \frac{12.0}{1.5} = 8.0 \mathrm{ rad/s
 $$
-
 
 ### Why Angular Momentum Is a Vector
 
@@ -391,7 +386,7 @@ $$
 
 Rotational motion is the **mirror image of linear motion** — every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence — it reflects the fact that rotation is one-dimensional motion in the angular coordinate.
 
-**Moment of inertia intuition:** Just as mass resists linear acceleration, moment of inertia ($I$) resists angular acceleration. But unlike mass, $I$ depends on *how the mass is distributed relative to the axis*. A hollow cylinder has more $I$ than a solid one of the same mass because its mass is farther from the axis. This is why a figure skater spins faster when pulling in her arms — she reduces $I$, and angular momentum conservation forces $\omega$ to increase.
+**Moment of inertia intuition:** Just as mass resists linear acceleration, moment of inertia ($I$) resists angular acceleration. But unlike mass, $I$ depends on _how the mass is distributed relative to the axis_. A hollow cylinder has more $I$ than a solid one of the same mass because its mass is farther from the axis. This is why a figure skater spins faster when pulling in her arms — she reduces $I$, and angular momentum conservation forces $\omega$ to increase.
 
 **Rolling intuition:** When a ball rolls without slipping, its kinetic energy splits between translation ($\frac{1}{2}mv^2$) and rotation ($\frac{1}{2}I\omega^2$). Objects with more mass near the rim (hollow cylinder) put more energy into rotation and less into translation, so they roll slower down an incline than solid objects.
 
@@ -606,24 +601,24 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$The ladder does not sl
 
 ## 16. Practice Questions (Additional)
 
-11. A uniform rod of mass $4 \mathrm{ kg$ and length $2 \mathrm{ m$ is pivoted at one end and held
+1. A uniform rod of mass $4 \mathrm{ kg$ and length $2 \mathrm{ m$ is pivoted at one end and held
     horizontally. It is released from rest. Find (a) the initial angular acceleration, (b) the
     angular speed as it passes through the vertical, and (c) the angular speed when it makes an
     angle of $45^{\circ}$ with the vertical.
 
-12. A solid cylinder of mass $10 \mathrm{ kg$ and radius $0.2 \mathrm{ m$ rolls without slipping
+2. A solid cylinder of mass $10 \mathrm{ kg$ and radius $0.2 \mathrm{ m$ rolls without slipping
     down an incline of $30^{\circ}$ from a height of $2 \mathrm{ m$. Find the linear speed at the
     bottom and the time taken.
 
-13. A disk of moment of inertia $0.5 \mathrm{ kg\cdot\mathrm{m^2$ rotating at $20 \mathrm{ rad/s$
+3. A disk of moment of inertia $0.5 \mathrm{ kg\cdot\mathrm{m^2$ rotating at $20 \mathrm{ rad/s$
     has a braking torque of $0.2 \mathrm{ N\cdot\mathrm{m$ applied. Find (a) the angular
     deceleration, (b) the time to stop, and (c) the number of revolutions made while stopping.
 
-14. A $3 \mathrm{ m$ uniform beam of mass $40 \mathrm{ kg$ is hinged at a wall and supported by a
+4. A $3 \mathrm{ m$ uniform beam of mass $40 \mathrm{ kg$ is hinged at a wall and supported by a
     cable at $30^{\circ}$ to the beam at the far end. A $100 \mathrm{ kg$ mass hangs $1 \mathrm{ m$
     from the hinge. Find the tension in the cable and the force at the hinge.
 
-15. Calculate the moment of inertia of a hollow cylinder (thin-walled) of mass $M$ and radius $R$
+5. Calculate the moment of inertia of a hollow cylinder (thin-walled) of mass $M$ and radius $R$
     about its central axis by integration. Verify the result using the parallel axis theorem if
     necessary.
 
@@ -775,25 +770,25 @@ Always convert to SI units before calculating.
 
 ## Additional Practice Problems
 
-16. A solid sphere of mass $4 \mathrm{ kg$ and radius $0.1 \mathrm{ m$ rolls without slipping up a
+1. A solid sphere of mass $4 \mathrm{ kg$ and radius $0.1 \mathrm{ m$ rolls without slipping up a
     $20^\circ$ incline at $5 \mathrm{ m/s$. Calculate how far up the incline it travels before
     stopping and rolling back.
 
-17. A figure skater with arms extended has moment of inertia $4.5 \mathrm{ kg\cdot\mathrm{m^2$ and
+2. A figure skater with arms extended has moment of inertia $4.5 \mathrm{ kg\cdot\mathrm{m^2$ and
     rotates at $2 \mathrm{ rad/s$. She pulls her arms in, reducing her moment of inertia to
     $1.5 \mathrm{ kg\cdot\mathrm{m^2$. Calculate her new angular velocity and the ratio of final to
     initial rotational KE.
 
-18. A uniform rod of mass $8 \mathrm{ kg$ and length $3 \mathrm{ m$ is hinged at one end and held
+3. A uniform rod of mass $8 \mathrm{ kg$ and length $3 \mathrm{ m$ is hinged at one end and held
     horizontally. It is released from rest. Calculate the angular acceleration just after release,
     the angular velocity as it passes through the vertical, and the force at the hinge at that
     instant.
 
-19. A $500 \mathrm{ g$ ball of radius $5 \mathrm{ cm$ rolls without slipping along a horizontal
+4. A $500 \mathrm{ g$ ball of radius $5 \mathrm{ cm$ rolls without slipping along a horizontal
     surface at $4 \mathrm{ m/s$. It encounters a ramp of height $0.5 \mathrm{ m$. Does it reach the
     top? If so, what is its speed at the top?
 
-20. Two flywheels ($I_1 = 2 \mathrm{ kg\cdot\mathrm{m^2$ spinning at $300 \mathrm{ rpm$
+5. Two flywheels ($I_1 = 2 \mathrm{ kg\cdot\mathrm{m^2$ spinning at $300 \mathrm{ rpm$
     $I_2 = 5 \mathrm{ kg\cdot\mathrm{m^2$ at rest) are coupled together. Calculate the final angular
     velocity and the energy lost in the coupling process.
 
@@ -922,7 +917,6 @@ $I_f = I_{\mathrm{disk} + mr^2 = 0.24 + 1(0.3)^2 = 0.24 + 0.09 = 0.33 \mathrm{ k
 Conservation: $L_f = L_i$$I_f\omega_f = 2.4$$\omega_f = 2.4/0.33 = 7.27 \mathrm{ rad/s$.
 
 </details>
-
 
 ## Cross-References
 

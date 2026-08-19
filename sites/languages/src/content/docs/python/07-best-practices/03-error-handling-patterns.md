@@ -211,17 +211,21 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 import os
 
 # WRONG — race condition
+
 if os.path.exists("config.json"):
     with open("config.json") as f:
         data = f.read()
+
 # File could be deleted between exists() and open()
 
 # CORRECT — EAFP
+
 try:
     with open("config.json") as f:
         data = f.read()
 except FileNotFoundError:
     data = default_config()
+
 ```
 
 </aside>

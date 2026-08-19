@@ -129,7 +129,7 @@ extract the gradient:
 3. The gradient m gives the constant of proportionality.
 4. The y-intercept c should be consistent with the physical scenario (often zero).
 
-Example: For T = 2*pi*sqrt(L/g), square both sides to get T^2 = (4*pi^2/g) * L. Plot T^2 (y-axis)
+Example: For T = 2*pi*sqrt(L/g), square both sides to get T^2 = (4*pi^2/g)* L. Plot T^2 (y-axis)
 against L (x-axis). The gradient is 4\*pi^2/g, from which g can be determined.
 
 ## Data Booklet Usage

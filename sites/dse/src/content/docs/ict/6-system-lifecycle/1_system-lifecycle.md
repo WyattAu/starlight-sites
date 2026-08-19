@@ -523,7 +523,7 @@ on The critical path delays the entire project.
 | **Gantt chart** | Visual timeline of tasks                                     | Scheduling and monitoring |
 | **PERT chart**  | Network diagram showing task dependencies                    | Critical path analysis    |
 | **CPM**         | Critical Path Method -- identifies the longest task sequence | Project duration planning |
-| ** milestones** | Key dates or deliverables marked on the timeline             | Progress tracking         |
+| **milestones** | Key dates or deliverables marked on the timeline             | Progress tracking         |
 
 ### Stakeholder Engagement
 

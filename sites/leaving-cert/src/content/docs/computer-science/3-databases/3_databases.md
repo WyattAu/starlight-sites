@@ -523,26 +523,26 @@ Original can be perfectly reconstructed.
 
 ## Additional Practice Questions
 
-9. A bitmap image has resolution 1600 x 900 and file size 3 MB. Calculate the colour depth.
+1. A bitmap image has resolution 1600 x 900 and file size 3 MB. Calculate the colour depth.
 
-10. Write SQL that uses a subquery to find students who are NOT enrolled in any course.
+2. Write SQL that uses a subquery to find students who are NOT enrolled in any course.
 
-11. Write SQL using a CTE to find the subject with the highest average mark.
+3. Write SQL using a CTE to find the subject with the highest average mark.
 
-12. Explain the difference between DELETE, DROP, and TRUNCATE in SQL.
+4. Explain the difference between DELETE, DROP, and TRUNCATE in SQL.
 
-13. A school database needs tables for Teacher, Subject, and Classroom. Design the schema with
+5. A school database needs tables for Teacher, Subject, and Classroom. Design the schema with
     appropriate primary and foreign keys.
 
-14. Write SQL to find all students whose marks are above the class average in every subject.
+6. Write SQL to find all students whose marks are above the class average in every subject.
 
-15. Explain why UTF-8 is the most widely used character encoding on the web.
+7. Explain why UTF-8 is the most widely used character encoding on the web.
 
-16. Write SQL to create a view that shows each teacher and the number of subjects they teach.
+8. Write SQL to create a view that shows each teacher and the number of subjects they teach.
 
-17. Explain three types of SQL injection attacks and how to prevent each.
+9. Explain three types of SQL injection attacks and how to prevent each.
 
-18. A music streaming service stores songs as MP3 files at 128 kbps. A 4-minute song at CD quality
+10. A music streaming service stores songs as MP3 files at 128 kbps. A 4-minute song at CD quality
     (44,100 Hz, 16-bit, stereo) would be approximately 30 MB. Estimate the MP3 file size and explain
     the compression ratio.
 
@@ -640,24 +640,24 @@ Original: 19 characters x 8 bits = 152 bits. Compressed: (6x2) + (4x2) + (4x2) +
 
 ## Additional Practice Questions
 
-11. Write SQL to find all students who scored above 80 in at least 3 different subjects.
+1. Write SQL to find all students who scored above 80 in at least 3 different subjects.
 
-12. Write SQL using a CASE expression to convert numerical marks to letter grades: A (90-100), B
+2. Write SQL using a CASE expression to convert numerical marks to letter grades: A (90-100), B
     (80-89), C (70-79), D (60-69), F (below 60).
 
-13. Explain how Huffman coding achieves compression. Why is it lossless?
+3. Explain how Huffman coding achieves compression. Why is it lossless?
 
-14. Write SQL to create a view that shows each student's name, their average mark, and a count of
+4. Write SQL to create a view that shows each student's name, their average mark, and a count of
     how many subjects they are enrolled in.
 
-15. Compress the string "MMMMMMNNNOOOOOPP" using RLE. Calculate the compression ratio.
+5. Compress the string "MMMMMMNNNOOOOOPP" using RLE. Calculate the compression ratio.
 
-16. Write SQL using NOT EXISTS to find products that have never been ordered.
+6. Write SQL using NOT EXISTS to find products that have never been ordered.
 
-17. Explain the difference between COUNT(\*) and COUNT(column). Give an example where they produce
+7. Explain the difference between COUNT(\*) and COUNT(column). Give an example where they produce
     different results.
 
-18. Write SQL to find the top 3 students by total marks across all subjects, using a CTE.
+8. Write SQL to find the top 3 students by total marks across all subjects, using a CTE.
 
 ## Ethical Considerations in Database Design (HL)
 
@@ -695,21 +695,21 @@ Small re-identification risk.
 
 ## Additional Practice Questions
 
-19. Explain the difference between anonymisation and pseudonymisation. When might each be used?
+1. Explain the difference between anonymisation and pseudonymisation. When might each be used?
 
-20. Write SQL to implement the "right to be forgotten" for a specific student, ensuring all related
+2. Write SQL to implement the "right to be forgotten" for a specific student, ensuring all related
     records are deleted across all tables.
 
-21. Explain why data minimisation is important in database design. Give an example of collecting
+3. Explain why data minimisation is important in database design. Give an example of collecting
     unnecessary data.
 
-22. A company stores customer data including names, addresses, purchase history, and payment
+4. A company stores customer data including names, addresses, purchase history, and payment
     details. Explain which data protection principles apply and how they should be implemented.
-
 
 ## Intuition
 
 A database is like a filing system with superpowers -- it stores data efficiently, enforces consistency, and lets you query it in powerful ways. SQL is the language of questions: SELECT is asking, WHERE is filtering, JOIN is combining, and GROUP BY is summarising. Normalisation is the art of eliminating redundancy -- like making sure every fact is stored in exactly one place so that updating it once updates it everywhere. The trade-off is between clean design (normalised) and fast queries (denormalised). Understanding this trade-off is the key to practical database design.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

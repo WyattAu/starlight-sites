@@ -23,6 +23,7 @@ categories:
 ## Networks
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR J277 Paper 2 | WJEC Unit 2
+>
 ## 1. Types of Networks
 
 ### 1.1 LAN and WAN
@@ -450,7 +451,7 @@ Include email (SMTP), file transfer (FTP), and VoIP.
 
 ### 7.2 How the Web Works
 
-1. A user enters a URL (e.g. Https://www.example.com) in a browser
+1. A user enters a URL (e.g. <Https://www.example.com>) in a browser
 2. The **DNS (Domain Name System)** translates the domain name into an IP address
 3. The browser sends an **HTTP request** to the web server at that IP address
 4. The server processes the request and sends back **HTML, CSS, and JavaScript** files
@@ -681,23 +682,23 @@ Communicating with the genuine server and not an impostor. This prevents man-in-
 
 ## Additional Practice Questions
 
-19. Explain the difference between a bridge and a repeater. When would you use each?
+1. Explain the difference between a bridge and a repeater. When would you use each?
 
-20. A company has a LAN with 100 devices connected to switches. Explain why replacing the switches
+2. A company has a LAN with 100 devices connected to switches. Explain why replacing the switches
     with hubs would degrade network performance.
 
-21. Explain what a MAC address is, how it is assigned, and why it is needed.
+3. Explain what a MAC address is, how it is assigned, and why it is needed.
 
-22. Calculate the parity bit for the byte 01101011 using even parity. If bit 3 (from the left) is
+4. Calculate the parity bit for the byte 01101011 using even parity. If bit 3 (from the left) is
     flipped during transmission, will the parity check detect the error?
 
-23. Explain why fibre optic cable is preferred over copper cable for connecting buildings that are
+5. Explain why fibre optic cable is preferred over copper cable for connecting buildings that are
     far apart.
 
-24. A packet with the following structure is sent: [Source IP: 192.168.1.5] [Dest IP: 10.0.0.1]
+6. A packet with the following structure is sent: [Source IP: 192.168.1.5] [Dest IP: 10.0.0.1]
     [Seq: 42] [Data: "Hello"] [Checksum: 0xAB]. Explain the purpose of each field.
 
-25. Explain what NAT is and why it is necessary for a home network to access the Internet.
+7. Explain what NAT is and why it is necessary for a home network to access the Internet.
 
 ## Common Pitfalls
 

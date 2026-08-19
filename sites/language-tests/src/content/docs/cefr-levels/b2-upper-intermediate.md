@@ -10,27 +10,32 @@ tags:
 # B2 Upper Intermediate Level
 
 ## Overview
+
 The B2 level is the fourth level of CEFR. At this level, you can interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible.
 
 ## What You Can Do
 
 ### Listening
+
 - Understand extended speech and lectures
 - Follow even complex lines of argument provided the topic is reasonably familiar
 - Understand most TV news, current affairs programmes, and films
 
 ### Reading
+
 - Read articles and reports concerned with contemporary problems
 - Understand contemporary literary prose
 - Recognise the line of argument in the treatment of the issue presented
 
 ### Speaking
+
 - Interact with native speakers with a degree of fluency and spontaneity
 - Present clear, detailed descriptions on a wide range of subjects
 - Explain a viewpoint on a topical issue giving the advantages and disadvantages
 - Develop an argument systematically with appropriate highlighting of significant points
 
 ### Writing
+
 - Write clear, detailed text on a wide range of subjects
 - Write an essay or report, passing on information or giving reasons in support of or against a particular point of view
 - Write letters highlighting the personal significance of events and experiences
@@ -38,21 +43,25 @@ The B2 level is the fourth level of CEFR. At this level, you can interact with a
 ## Vocabulary Topics
 
 ### Academic Language
+
 - Abstract concepts
 - Technical terminology
 - Formal register
 
 ### Professional Communication
+
 - Meetings and negotiations
 - Presentations
 - Written reports
 
 ### Current Affairs
+
 - Social issues
 - Environmental concerns
 - Economic topics
 
 ### Cultural Literature
+
 - Literary references
 - Idiomatic expressions
 - Collocations
@@ -60,21 +69,25 @@ The B2 level is the fourth level of CEFR. At this level, you can interact with a
 ## Grammar Points
 
 ### Advanced Conditionals
+
 - Third conditional (past hypothetical)
 - Mixed conditionals
 - Inversion for emphasis
 
 ### Advanced Tenses
+
 - Perfect continuous tenses
 - Future perfect
 - Narrative tenses
 
 ### Modality
+
 - Deduction and speculation
 - Obligation and necessity
 - Past modals
 
 ### Discourse Markers
+
 - Formal connectors
 - Hedging language
 - Emphasis structures
@@ -82,13 +95,17 @@ The B2 level is the fourth level of CEFR. At this level, you can interact with a
 ## Practice Exercises
 
 ### Exercise 1: Essay Writing
+
 Write a 250-word essay on: "The impact of technology on education"
 
 ### Exercise 2: Debate Preparation
+
 Prepare arguments for and against: "University education should be free"
 
 ### Exercise 3: Report Writing
+
 Write a report on a workplace issue, including:
+
 - Problem description
 - Analysis of causes
 - Recommended solutions

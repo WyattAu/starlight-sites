@@ -121,13 +121,13 @@ assert!(!nan.is_nan());        // false — use is_nan() for the check
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
 You need a total ordering for sorting.
 
-
 ```rust
 let values = [f64::NAN, 1.0, 2.0, f64::INFINITY];
 let mut sorted = values;
 sorted.sort_by(|a, b| a.total_cmp(b));
 // [1.0, 2.0, inf, NaN]
 ```
+
 </aside>
 ## Boolean Type
 
@@ -851,6 +851,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 ## Cross-References
 
 - [Control Flow and Pattern Matching](./control-flow): Shows how to use variables and types in conditional expressions and pattern matching constructs.

@@ -174,6 +174,7 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
 ## Common Mistakes
 
 - **Re-reading notes passively instead of testing yourself:** Passive re-reading gives the illusion of understanding without actual retention. Use active recall (flashcards, practice questions, self-quizzing) to force your brain to retrieve information, which strengthens long-term memory.

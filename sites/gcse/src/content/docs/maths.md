@@ -122,6 +122,7 @@ If a length is given as $8.3 \text{ cm}$ to the nearest $0.1 \text{ cm}$:
 - Lower bound = $8.25 \text{ cm}$
 
 For calculated values, combine bounds appropriately:
+
 - Maximum area: use upper bounds for all lengths
 - Minimum area: use lower bounds for all lengths
 
@@ -249,6 +250,7 @@ A function maps each input to exactly one output. $f(x) = 2x + 3$ means $f(4) = 
 ### 3.1 Angles
 
 **Parallel lines:**
+
 - Corresponding angles are equal (F-shape)
 - Alternate angles are equal (Z-shape)
 - Co-interior (allied) angles sum to $180°$ (U-shape)
@@ -302,7 +304,7 @@ $$\text{Area} = \frac{1}{2}ab \sin C$$
 ### 3.5 Transformations
 
 | Transformation | Description |
-|---|---|
+| --- | --- |
 | **Translation** | Movement by a vector $\begin{pmatrix} x \\ y \end{pmatrix}$ |
 | **Rotation** | Turn about a centre by a given angle and direction |
 | **Reflection** | Mirror image across a given line of symmetry |
@@ -339,7 +341,7 @@ $\mathbf{AB} = \mathbf{OB} - \mathbf{OA}$.
 ### 4.1 Averages
 
 | Measure | Definition |
-|---|---|
+| --- | --- |
 | **Mean** | $\bar{x} = \frac{\text{sum of values}}{\text{number of values}}$ |
 | **Median** | The middle value when data is arranged in order |
 | **Mode** | The most common value |
@@ -390,6 +392,7 @@ Compare distributions by commenting on the median, IQR (spread), and overall ran
 $$P(\text{event}) = \frac{\text{number of favourable outcomes}}{\text{total number of outcomes}}$$
 
 **Rules:**
+
 - $0 \leq P(E) \leq 1$
 - $P(\text{not }E) = 1 - P(E)$
 - $P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B)$ for mutually exclusive events: $P(A \text{ or } B) = P(A) + P(B)$
@@ -417,7 +420,7 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 ### Geometry
 
 | Formula | Value |
-|---|---|
+| --- | --- |
 | Circumference | $C = \pi d = 2\pi r$ |
 | Area of a circle | $A = \pi r^2$ |
 | Pythagoras' theorem | $a^2 + b^2 = c^2$ |
@@ -436,7 +439,7 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 ### Algebra
 
 | Formula | Value |
-|---|---|
+| --- | --- |
 | Quadratic formula | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ |
 | Discriminant | $\Delta = b^2 - 4ac$ |
 | Compound interest | $A = P\left(1 \pm \frac{r}{100}\right)^n$ |
@@ -444,7 +447,7 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 ### Number
 
 | Formula | Value |
-|---|---|
+| --- | --- |
 | Density | $\rho = \frac{m}{V}$ |
 | Speed | $s = \frac{d}{t}$ |
 | Pressure | $p = \frac{F}{A}$ |
@@ -497,21 +500,24 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 6. **Using the wrong trigonometric ratio.** Always label the triangle first, then apply SOH CAH TOA systematically.
 7. **Forgetting units in the final answer.** Always include correct units.
 
-
 ## Intuition
 
 GCSE Maths is like learning a musical instrument -- you need both theory (formulas, rules) and practice (working through problems). The formulas are your scales: you must know them fluently so that when you see a problem, you reach for the right tool automatically. Estimation is your ear for music: it tells you whether your answer sounds right before you check the details. The discriminant is like a weather forecast for quadratic equations: positive means two solutions, zero means one, negative means none. Showing your working is like playing with sheet music visible -- the examiner awards method marks even when the final note is wrong.
+
 ## Worked Examples
 
 ### Example 1: Solving a Quadratic by Factorising
+
 **Problem:** Solve x^2 - 5x + 6 = 0.
 **Solution:** Find two numbers that multiply to 6 and add to -5: -2 and -3. Factorise: (x - 2)(x - 3) = 0. Therefore x = 2 or x = 3.
 
 ### Example 2: Using the Sine Rule
+
 **Problem:** In triangle ABC, angle A = 42 degrees, angle B = 67 degrees, side a = 8 cm. Find side b.
 **Solution:** Angle C = 180 - 42 - 67 = 71 degrees. By the sine rule: b/sin(67) = 8/sin(42). b = 8 x sin(67) / sin(42) = 8 x 0.921 / 0.669 = 11.0 cm (to 3 s.f.).
 
 ### Example 3: Tree Diagram Probability
+
 **Problem:** A bag contains 3 red and 2 blue counters. Two counters are drawn without replacement. Find the probability that both are red.
 **Solution:** P(first red) = 3/5. P(second red | first red) = 2/4 = 1/2. P(both red) = 3/5 x 1/2 = 3/10.
 

@@ -80,6 +80,7 @@ Understanding the structure of the Gaokao is the first step to preparing effecti
 | Comprehensive Liberal Arts or Science | 150 minutes | 300 |
 
 The comprehensive section varies by track:
+
 - **Liberal Arts (文科)**: Politics, History, Geography
 - **Science (理科)**: Physics, Chemistry, Biology
 
@@ -111,6 +112,7 @@ Mathematics is the most heavily weighted single subject in the Gaokao. It tests 
 ### Problem Types
 
 The Gaokao mathematics section typically includes:
+
 - 12 multiple-choice questions (each 5 points, total 60)
 - 4 fill-in-the-blank questions (each 5 points, total 20)
 - 6 free-response questions (total 70)
@@ -231,7 +233,7 @@ The essay (作文) is worth 60 points and can make or break your score.
 ### One-Year Plan (Year 12 / Grade 12)
 
 | Period | Focus |
-|--------|-------|
+| -------- | ------- |
 | September–November | Complete curriculum coverage; build foundational understanding |
 | December–January | Begin past paper practice; identify weak areas |
 | February–March | Targeted revision of weak areas; intensive practice |

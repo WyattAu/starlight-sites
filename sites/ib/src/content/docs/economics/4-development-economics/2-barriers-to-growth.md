@@ -161,9 +161,9 @@ Low-productivity traditional sector to a high-productivity modern sector.
 - **Modern sector** (industry): characterised by profit-maximising firms, higher productivity, and
   wages above the subsistence level
 
-2. The modern sector wage is a fixed premium above the subsistence wage (e.g., 30% higher)
-3. Profits in the modern sector are reinvested, expanding the capital stock
-4. The supply of labour from the traditional sector is perfectly elastic at the subsistence wage (as
+1. The modern sector wage is a fixed premium above the subsistence wage (e.g., 30% higher)
+2. Profits in the modern sector are reinvested, expanding the capital stock
+3. The supply of labour from the traditional sector is perfectly elastic at the subsistence wage (as
    long as surplus labour exists)
 
 **The development process:**
@@ -847,8 +847,6 @@ structural transformation.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-
 
 ## Cross-References
 

@@ -251,7 +251,6 @@ derivatives_ (not the original Sequence) is required, as stated in Theorem 7.4. 
 Weierstrass M-Test applies only to series Of functions, not sequences; for sequences, one must
 verify the uniform Cauchy criterion directly.
 
-
 </aside>
 
 ## Common Mistakes
@@ -260,7 +259,7 @@ verify the uniform Cauchy criterion directly.
 Students often assume that if a sequence of continuous functions converges pointwise, the limit must be continuous. The classic counterexample is $f_n(x) = x^n$ on $[0,1]$, which converges pointwise to a discontinuous function. Only uniform convergence guarantees that the limit of continuous functions is continuous.
 
 **Mistake 2: Confusing uniform convergence of $f_n$ with uniform convergence of $f_n'$**
-The Weierstrass M-test or direct estimation shows that $f_n \to f$ uniformly, but students incorrectly conclude $f_n' \to f'$ uniformly. Theorem 7.4 requires uniform convergence of the *derivatives* $f_n'$, not the functions $f_n$ themselves, to interchange differentiation and limits.
+The Weierstrass M-test or direct estimation shows that $f_n \to f$ uniformly, but students incorrectly conclude $f_n' \to f'$ uniformly. Theorem 7.4 requires uniform convergence of the _derivatives_ $f_n'$, not the functions $f_n$ themselves, to interchange differentiation and limits.
 
 **Mistake 3: Forgetting to check endpoints when computing radius of convergence**
 When applying the ratio or root test, students find $R$ but assume the series converges for $|x-a| = R$. The boundary behaviour must be checked separately -- a series may converge at one endpoint, both, or neither. For example, $\sum x^n/n$ has $R=1$ but converges only at $x=-1$ on the boundary.

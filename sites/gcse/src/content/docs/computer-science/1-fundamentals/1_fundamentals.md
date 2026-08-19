@@ -31,6 +31,7 @@ Computers store everything as **binary (base 2)** — sequences of 0s and 1s. Th
 ## Data Representation
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
+>
 ## 1. Binary
 
 ### 1.1 The Binary Number System

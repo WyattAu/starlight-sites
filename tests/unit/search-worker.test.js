@@ -305,22 +305,14 @@ describe('Search Worker (mocked KV)', () => {
   })
 
   describe('GET /api/sites', () => {
-    it('returns the nine configured sites', async () => {
+    it('returns the full derived site catalogue (no ghosts)', async () => {
+      const { astroSites } = require('../../scripts/lib/sites.cjs')
       const { status, body } = await callWorker(worker, '/api/sites', { env: freshEnv() })
       assert.strictEqual(status, 200)
-      assert.strictEqual(body.sites.length, 9)
-      const ids = body.sites.map(s => s.id).sort()
-      assert.deepStrictEqual(ids, [
-        'alevel',
-        'dse',
-        'ib',
-        'infrastructure',
-        'languages',
-        'programming',
-        'qualifications',
-        'tools',
-        'university',
-      ])
+      assert.deepStrictEqual(
+        body.sites.map(s => s.id).sort(),
+        [...astroSites()].sort(),
+      )
     })
   })
 

@@ -12,7 +12,6 @@ categories:
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Worked Examples
 
 ### Example 1: List Comprehensions and Filtering
@@ -50,7 +49,6 @@ print(f"Unique lengths: \{unique_lengths\}")
 
 ---
 
-
 ### Example 2: Dictionary Methods and Operations
 
 ```python
@@ -87,6 +85,7 @@ except (KeyError, TypeError) as e:
 ```
 
 **Output:**
+
 ```
 Name: Alice, Email: no-email@example.com
 Merged: \{'color': 'red', 'size': 'medium', 'weight': 10\}
@@ -97,7 +96,6 @@ Name: Bob
 **Key insight:** Use `dict.get()` for safe access with defaults. The `|` operator (Python 3.9+) merges dictionaries. Dictionary comprehensions filter and transform efficiently.
 
 ---
-
 
 ### Example 3: Lambda Functions and Higher-Order Functions
 
@@ -135,6 +133,7 @@ print(f"Product (alt): \{product_alt\}")
 ```
 
 **Output:**
+
 ```
 Doubled: [2, 4, 6, 8, 10]
 Evens: [2, 4]
@@ -147,7 +146,6 @@ Product (alt): 120
 **Key insight:** `map`, `filter`, and `reduce` are functional programming tools. For simple operations, list comprehensions are often more readable. Use `operator` module for named operations.
 
 ---
-
 
 ### Example 4: String Methods and Formatting
 
@@ -180,6 +178,7 @@ print(t.substitute(name="Bob", age=25))
 ```
 
 **Output:**
+
 ```
 Original: '  Hello, World!  '
 Stripped: 'Hello, World!'
@@ -200,13 +199,11 @@ Hello, Bob! You are 25 years old.
 
 ---
 
-
 ## Python — Interactive Practice
 
 8 auto-graded practice problems covering core Python concepts. Select an answer, submit, and review the explanation.
 
 ---
-
 
 ### Data Structures
 
@@ -218,7 +215,6 @@ Hello, Bob! You are 25 years old.
 
 ---
 
-
 ### Functions and Scope
 
 <PracticeProblem client:only="solid-js" question={"What is printed by `print([x for x in range(10) if x % 3 == 0])`?&quot; options={['[0, 3, 6, 9]', '[3, 6, 9]', '[1, 2, 3, 4, 5, 6]', '[0, 1, 2, 3]']} correctAnswer={0} explanation=&quot;The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9."} difficulty="easy"  />
@@ -226,7 +222,6 @@ Hello, Bob! You are 25 years old.
 <PracticeProblem client:only="solid-js" question={"What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?&quot; options={['[1], [2]', '[1, 2]', '[1, 2], [1, 2]', 'TypeError']} correctAnswer={1} explanation=&quot;Mutable default arguments are shared across calls. After f(1), b = [1]. After f(2), b = [1, 2]. This is a common Python gotcha."} difficulty="hard"  />
 
 ---
-
 
 ### Core Language Features
 
@@ -251,6 +246,7 @@ Hello, Bob! You are 25 years old.
 **Using `is` for value comparison:** `is` checks identity (same object in memory), not equality. `a is b` may be False even if `a == b` is True. Use `==` for value comparison. Reserve `is` for checking None, True, False, or singletons.
 
 **Forgetting that Python uses 0-based indexing:** Lists, strings, and arrays are indexed from 0. `s[0]` is the first character. Using 1-based indexing from other languages causes off-by-one errors, especially in slicing.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for python notes.

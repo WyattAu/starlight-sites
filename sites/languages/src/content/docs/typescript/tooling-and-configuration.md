@@ -312,7 +312,7 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 | `@typescript-eslint/explicit-function-return-type` | Require explicit return types    |
 | `@typescript-eslint/no-floating-promises`          | Require promises to be handled   |
 | `@typescript-eslint/strict-boolean-expressions`    | Restrict boolean expressions     |
-| `@typescript-eslint/prefer-nullish-coalescing`     | Prefer `??` over `               |     | `   |
+| `@typescript-eslint/prefer-nullish-coalescing`     | Prefer `??` over ` |     | `   |
 | `@typescript-eslint/prefer-optional-chain`         | Prefer `?.` over manual checks   |
 | `@typescript-eslint/no-non-null-assertion`         | Disallow `!` non-null assertions |
 

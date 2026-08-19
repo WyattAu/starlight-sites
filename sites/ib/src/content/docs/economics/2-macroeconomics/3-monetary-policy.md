@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Central banks balance inflation control with growth promotion, using tools like interest rates and quantitative easing
 
-
 ## Inflation
 
 ### Measuring Inflation

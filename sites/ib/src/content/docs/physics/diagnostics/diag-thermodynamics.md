@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The second law of thermodynamics introduces entropy — the universe tends toward disorder, setting the arrow of time and limiting what engines can achieve
 
-
 ## Unit Tests
 
 ### UT-1: Ideal Gas Law vs Real Gas Behaviour

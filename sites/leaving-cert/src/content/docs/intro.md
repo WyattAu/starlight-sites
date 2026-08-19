@@ -132,10 +132,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-
 ## Intuition
 
 The Irish Leaving Certificate is like the final exam of a two-year apprenticeship in learning itself -- it tests not just what you know but how well you can think under pressure. The SEC system values precision (in maths and science) and expression (in English and history) equally. Understanding the marking schemes is as important as understanding the content: knowing what the examiner rewards (showing working, using specific evidence, addressing the question) can mean the difference between grades. The most successful students treat the Leaving Cert as a skill to be practised, not just knowledge to be memorised.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -152,4 +152,3 @@ linked above.
 - **[Maths](maths/):** Algebra, calculus, geometry, trigonometry, probability, and statistics notes.
 - **[Physics](physics/):** Mechanics, waves, electricity, heat, and modern physics notes.
 - **[Chemistry](chemistry/):** Atomic structure, bonding, stoichiometry, and organic chemistry notes.
-

@@ -50,7 +50,6 @@ Benchmark:
 <aside class="starlight-aside starlight-aside--note">
 Through arbitrary views, especially those involving joins, aggregations, or DISTINCT.
 
-
 ## Relations, Tuples, Attributes, and Domains
 
 The relational model uses precise terminology that SQL conflates:
@@ -93,7 +92,6 @@ CREATE DOMAIN email_domain AS VARCHAR(255)
 <aside class="starlight-aside starlight-aside--tip">
 Attach `CHECK` constraints directly to columns. Using domains centralises validation logic and
 Prevents inconsistency across tables.
-
 
 ## Keys
 
@@ -208,7 +206,6 @@ SELECT * FROM Employee CROSS JOIN Department;
 With millions of rows, an accidental Cartesian product (missing JOIN condition) will produce
 Trillions of rows and exhaust memory.
 
-
 ### Join
 
 A join combines related tuples from two relations based on a join condition. The most common is the
@@ -321,9 +318,9 @@ Dependencies from a given set:
 
 Derived rules (provable from the three axioms above):
 
-4. **Union:** If $X \rightarrow Y$ and $X \rightarrow Z$Then $X \rightarrow YZ$
-5. **Decomposition:** If $X \rightarrow YZ$Then $X \rightarrow Y$ and $X \rightarrow Z$
-6. **Pseudotransitivity:** If $X \rightarrow Y$ and $YW \rightarrow Z$Then $XW \rightarrow Z$
+1. **Union:** If $X \rightarrow Y$ and $X \rightarrow Z$Then $X \rightarrow YZ$
+2. **Decomposition:** If $X \rightarrow YZ$Then $X \rightarrow Y$ and $X \rightarrow Z$
+3. **Pseudotransitivity:** If $X \rightarrow Y$ and $YW \rightarrow Z$Then $XW \rightarrow Z$
 
 ### Attribute Closure
 
@@ -402,7 +399,6 @@ Satisfies 1NF:
 To query individual elements or enforce referential integrity on array elements, model them as
 Separate rows.
 
-
 ### Second Normal Form (2NF)
 
 A relation is in 2NF if it is in 1NF and no non-prime attribute is partially dependent on any
@@ -469,7 +465,6 @@ Fix: split into:
 <aside class="starlight-aside starlight-aside--caution">
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is
 The practical compromise.
-
 
 ### Fourth Normal Form (4NF)
 
@@ -542,7 +537,6 @@ Denormalised:
 <aside class="starlight-aside starlight-aside--tip">
 Denormalise specific bottlenecks. Premature denormalisation creates maintenance burden that is far
 More expensive than the joins it eliminates.
-
 
 ## ER Diagrams
 

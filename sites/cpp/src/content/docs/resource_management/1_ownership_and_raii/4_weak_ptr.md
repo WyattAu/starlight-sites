@@ -817,7 +817,7 @@ Game engines, and database connection pools.
   `shared_ptr`), but the `weak_ptr` itself does not increment `strong_count`.
 - `weak_ptr::reset()`: decrements `weak_count` only.
 
-3. Since `weak_ptr` never increments `strong_count`And `strong_count` is the sole determinant of
+1. Since `weak_ptr` never increments `strong_count`And `strong_count` is the sole determinant of
    object lifetime, `weak_ptr` cannot extend the object's lifetime.
 
 **Formal restatement:** For any sequence of operations on `shared_ptr` and `weak_ptr` instances
@@ -949,4 +949,3 @@ need to reference an object without owning it. The pattern is always the same: c
 if the resulting `shared_ptr` is valid, and then use the object within that scope. If the object
 was destroyed between your check and your use, the `shared_ptr` will be null — fail gracefully
 rather than dereferencing a dangling pointer.
-

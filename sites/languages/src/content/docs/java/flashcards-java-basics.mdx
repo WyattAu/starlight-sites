@@ -16,7 +16,6 @@ import { flashcardData } from '@/data/flashcards/java/flashcards-java-basics-dat
 
 ---
 
-
 ### Additional Flashcard Topics
 
 - **JVM Memory Model**: heap (objects), stack (local variables), method area (class data). Garbage collection reclaims heap memory. Young/Old generation generational collection. The JVM uses mark-and-sweep algorithms to identify unreachable objects.
@@ -44,7 +43,6 @@ Java is a class-based, object-oriented language that runs on the JVM — code co
 - **Null vs Optional**: Java has both `null` and `Optional<T>`. `Optional` is not serializable and should not be used as fields — use it only for return types to indicate possible absence.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="java-basics" title="Java Fundamentals" description="Core Java from JVM internals to modern features" cards={flashcardData}  />
 

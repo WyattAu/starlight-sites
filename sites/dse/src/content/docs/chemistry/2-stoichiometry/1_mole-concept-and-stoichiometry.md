@@ -1015,8 +1015,6 @@ linked above.
 
 </aside>
 
-
-
 ## Cross-References
 
 - **[Atomic Structure](../atomic-structure-and-bonding):** Atomic structure determines bonding

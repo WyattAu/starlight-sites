@@ -37,7 +37,7 @@ categories:
 - **HTTPS**: Secure version using TLS/SSL encryption
 - Request methods: GET (retrieve data), POST (submit data), PUT (update data), DELETE (remove data)
 
-**DNS (Domain Name System):** Translates domain names (e.g., www.example.com) to IP addresses (e.g.,
+**DNS (Domain Name System):** Translates domain names (e.g., <www.example.com>) to IP addresses (e.g.,
 93.184.216.34).
 
 **DNS resolution steps:**
@@ -625,35 +625,35 @@ Another.
 
 ## Practice Questions
 
-19. Write a responsive CSS Grid layout for a page with a header, navigation sidebar (collapsible on
+1. Write a responsive CSS Grid layout for a page with a header, navigation sidebar (collapsible on
     mobile), main content area, and footer.
 
-20. Explain the Same-Origin Policy and give an example of when it prevents a security issue.
+2. Explain the Same-Origin Policy and give an example of when it prevents a security issue.
 
-21. Write JavaScript that uses event delegation to handle clicks on a list of items, showing an
+3. Write JavaScript that uses event delegation to handle clicks on a list of items, showing an
     alert with the item's text.
 
-22. Explain what CORS is and why it is necessary. How does a server enable CORS?
+4. Explain what CORS is and why it is necessary. How does a server enable CORS?
 
-23. Write CSS that uses CSS custom properties (variables) for a consistent colour theme.
+5. Write CSS that uses CSS custom properties (variables) for a consistent colour theme.
 
-24. Explain three frontend and three backend performance optimisation techniques.
+6. Explain three frontend and three backend performance optimisation techniques.
 
-25. Write HTML that includes form validation using HTML5 attributes (required, pattern, min, max).
+7. Write HTML that includes form validation using HTML5 attributes (required, pattern, min, max).
 
-26. Explain the difference between `localStorage` and `sessionStorage`. Give an appropriate use case
+8. Explain the difference between `localStorage` and `sessionStorage`. Give an appropriate use case
     for each.
 
-27. Write a Content Security Policy header that only allows scripts from the same origin and images
+9. Write a Content Security Policy header that only allows scripts from the same origin and images
     from a specific CDN.
 
-28. Explain what event delegation is and why it is more efficient than adding individual event
+10. Explain what event delegation is and why it is more efficient than adding individual event
     listeners.
 
-29. Write JavaScript that implements an image carousel with previous/next buttons and automatic
+11. Write JavaScript that implements an image carousel with previous/next buttons and automatic
     advancement every 5 seconds.
 
-30. Explain the difference between graceful degradation and progressive enhancement in web
+12. Explain the difference between graceful degradation and progressive enhancement in web
     development.
 
 ---
@@ -667,10 +667,10 @@ Another.
 }
 </script>
 
-
 ## Intuition
 
 The internet is like a postal system for data -- your message is broken into packets, each packet is addressed and routed through a series of post offices (routers), and reassembled at the destination. The TCP/IP model is the set of rules that governs this process: IP handles addressing, TCP handles reliable delivery, and HTTP is the language the messages are written in. DNS is the phonebook that converts human-readable names (google.com) into machine-readable addresses (142.250.80.46). Firewalls are the security guards who check every package entering or leaving the building.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

@@ -944,10 +944,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Class modifiers are like traffic signs on a highway -- they tell other drivers (external libraries) whether they can enter your lane (extend), merge into your lane (implement), or drive alongside you (mixin). The 'base' modifier says 'you must follow my lead' -- only extends is allowed, preserving your invariants. The 'interface' modifier says 'you must build your own car' -- only implements is allowed, forcing callers to provide their own implementation. The 'final' modifier says 'this lane is closed' -- no one can follow you. These modifiers are the library author's way of communicating the inheritance contract before a single line of code is written.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

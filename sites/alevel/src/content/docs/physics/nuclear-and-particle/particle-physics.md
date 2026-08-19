@@ -20,6 +20,7 @@ categories: [Physics]
 ## Particle Physics
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
+>
 ## 1. The Standard Model
 
 The Standard Model classifies all known fundamental particles and their interactions. It describes:
@@ -528,7 +529,6 @@ linked above.
 ## Intuition
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
-
 
 ## Cross-References
 

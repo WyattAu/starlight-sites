@@ -187,7 +187,6 @@ $\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The v
 - **[Joint Distributions and Independence](3_joint-distributions-and-independence.md)**: Joint distributions describe the behavior of multiple random variables simultaneously.
 - **[Limit Theorems](4_limit-theorems.md)**: The central limit theorem shows that sums of random variables converge to normal distributions.
 
-
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

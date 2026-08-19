@@ -339,8 +339,6 @@ penetrates deeply (typical window glass has much lower absorption in the visible
 
 **Confusing the conventions for electron flow and conventional current:** Conventional current flows from positive to negative (the direction a positive charge would move). Electron flow is from negative to positive (the actual movement of electrons). Most circuit analysis uses conventional current. Using electron flow when conventional current is expected gives reversed directions.
 
-
-
 ## Cross-References
 
 - **[Mechanics](../flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy

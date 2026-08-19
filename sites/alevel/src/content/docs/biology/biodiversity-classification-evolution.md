@@ -23,6 +23,7 @@ categories:
 ## Biodiversity, Classification and Evolution
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Biodiversity
 
 ### 1.1 Defining Biodiversity
@@ -261,7 +262,7 @@ Isolation -- the prevention of gene flow between populations.
   the metaphase plate is random. For $n$ chromosome pairs, $2^n$ possible combinations of
   chromosomes in gametes.
 
-3. **Random fertilisation**: any sperm can fuse with any egg, further multiplying the genetic
+1. **Random fertilisation**: any sperm can fuse with any egg, further multiplying the genetic
    combinations.
 
 The total number of possible genotypic combinations from meiosis and random fertilisation in humans
@@ -2062,7 +2063,6 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 4. Forgetting to include control variables in experimental design, leading to invalid conclusions.
 
-
 ## Intuition
 
 **Evolution is like a family tree that stretches back millions of years — branching, adapting, and sometimes going extinct.**
@@ -2084,4 +2084,3 @@ linked above.
 - [Advanced Genetics](genetics-advanced) -- Population genetics and Hardy-Weinberg equilibrium provide the mathematical framework for understanding allele frequency changes.
 - [Ecology](ecology) -- Community ecology and ecosystem interactions directly relate to species diversity and ecosystem diversity.
 - [Biotechnology](biotechnology) -- Conservation genetics and DNA barcoding use biotechnology tools to measure and protect biodiversity.
-

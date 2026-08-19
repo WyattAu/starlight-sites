@@ -634,33 +634,33 @@ $3 \times 1.15 = 3.45$ euros. Net: $575 - 3.45 = 571.55$ euros.
 
 ### Extended Practice (Higher Tier)
 
-16. The ratio of the interior angles of a triangle is $2 : 3 : 4$. Find the size of each angle.
+1. The ratio of the interior angles of a triangle is $2 : 3 : 4$. Find the size of each angle.
 
-17. $y$ is directly proportional to $\sqrt{x}$. When $x = 9$$y = 18$. Find $y$ when $x = 25$.
+2. $y$ is directly proportional to $\sqrt{x}$. When $x = 9$$y = 18$. Find $y$ when $x = 25$.
 
-18. A train travels at 120 km/h for 45 minutes, then at 80 km/h for 1 hour 15 minutes. Calculate the
+3. A train travels at 120 km/h for 45 minutes, then at 80 km/h for 1 hour 15 minutes. Calculate the
     average speed for the entire journey.
 
-19. Three friends share a pizza in the ratio of their ages. If their ages are 12, 15, and 18, what
+4. Three friends share a pizza in the ratio of their ages. If their ages are 12, 15, and 18, what
     fraction of the pizza does the oldest friend receive?
 
-20. The population of a town was 80000 in 2020 and 88000 in 2025. Assuming exponential growth, find
+5. The population of a town was 80000 in 2020 and 88000 in 2025. Assuming exponential growth, find
     the annual growth rate as a percentage.
 
-21. Water flows into a tank at 12 litres per minute and out at 5 litres per minute. If the tank
+6. Water flows into a tank at 12 litres per minute and out at 5 litres per minute. If the tank
     initially contains 200 litres, how long until it contains 500 litres?
 
-22. A rectangular field has dimensions in the ratio $3 : 5$. If the perimeter is 320 m, find the
+7. A rectangular field has dimensions in the ratio $3 : 5$. If the perimeter is 320 m, find the
     area of the field.
 
-23. On a journey, a cyclist accelerates from rest to 8 m/s over 10 seconds, maintains this speed for
+8. On a journey, a cyclist accelerates from rest to 8 m/s over 10 seconds, maintains this speed for
     2 minutes, then decelerates to rest over 5 seconds. Draw the speed-time graph and find the total
     distance.
 
-24. The cost of petrol increases by 8% one year and then by 5% the next year. What is the overall
+9. The cost of petrol increases by 8% one year and then by 5% the next year. What is the overall
     percentage increase over the two years?
 
-25. A map has a scale of $1 : 25000$. Two towns are 8 cm apart on the map. Find the actual distance
+10. A map has a scale of $1 : 25000$. Two towns are 8 cm apart on the map. Find the actual distance
     between them in kilometres.
 
 ### Extended Content

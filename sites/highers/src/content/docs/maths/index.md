@@ -114,7 +114,6 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
 ## Overview
 
 This section provides comprehensive Qualifications Highers content, covering all specification points with detailed explanations, worked examples, and practice questions.

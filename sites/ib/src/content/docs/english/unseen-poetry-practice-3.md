@@ -37,7 +37,7 @@ The poem addresses the violence of the Mau Mau Uprising, in which the Kikuyu peo
 ### 1.1 Key Contextual Information
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Poet | Derek Walcott (1930--2017) |
 | Collection | *In a Green Night* (1962) |
 | Form | Iambic pentameter, ABAB rhyme scheme (with variations) |
@@ -109,7 +109,7 @@ The repetition of "I who" creates an anaphoric pattern that emphasises the speak
 
 The poem's final two questions are its most important moment. They are not rhetorical -- the speaker genuinely does not know the answer. The first question addresses the moral dimension: how can anyone remain detached in the face of violence? The second addresses the personal dimension: how can the speaker abandon the continent that is part of his identity? The repetition of "How can I" creates a rhythmic insistence that underscores the speaker's desperation. The poem ends without resolution, and this irresolution is its most powerful statement: the postcolonial condition is one of permanent, unresolvable tension.
 
-**Examiner Commentary**: The final questions are the element that most distinguishes a top-band response. Candidates who note that the poem "ends with a question" produce an inadequate answer. The strength of the ending lies in its refusal to provide an answer -- it enacts the dilemma rather than describing it. A strong response explains _why_ irresolution is more powerful than resolution in this context.
+**Examiner Commentary**: The final questions are the element that most distinguishes a top-band response. Candidates who note that the poem "ends with a question" produce an inadequate answer. The strength of the ending lies in its refusal to provide an answer -- it enacts the dilemma rather than describing it. A strong response explains *why* irresolution is more powerful than resolution in this context.
 
 ---
 
@@ -188,7 +188,7 @@ The most common mistake candidates make with Walcott is to reduce the poem to au
 
 ### 5.2 Address the Ending
 
-The poem's final questions are its most important moment. Many candidates summarise the ending without analysing it. The difference between a competent and an excellent response is the ability to explain _why_ irresolution is more powerful than resolution. The poem does not fail to find an answer; it demonstrates that no answer is possible. This is a deliberate artistic choice, and the candidate must explain its significance.
+The poem's final questions are its most important moment. Many candidates summarise the ending without analysing it. The difference between a competent and an excellent response is the ability to explain *why* irresolution is more powerful than resolution. The poem does not fail to find an answer; it demonstrates that no answer is possible. This is a deliberate artistic choice, and the candidate must explain its significance.
 
 ### 5.3 Analyse the Tension Between Form and Content
 
@@ -225,7 +225,7 @@ The poem resists simple interpretation. It does not take a clear political posit
 ### 6.1 Assessment Objectives
 
 | Objective | How This Response Addresses It |
-|-----------|-------------------------------|
+| ----------- | ------------------------------- |
 | AO1: Understanding | Demonstrates comprehension of the poem's historical context, its speaker's divided identity, and its formal strategies |
 | AO2: Analysis | Explains how imagery, irony, and form produce meaning and emotional effect |
 | AO3: Evaluation | Assesses the significance of the poem's unresolved ending and its refusal to moralise |
@@ -234,7 +234,7 @@ The poem resists simple interpretation. It does not take a clear political posit
 ### 6.2 Paper 1 Marking Criteria Alignment
 
 - **Knowledge, understanding, and interpretation**: The response must demonstrate that the candidate understands the poem's historical and literary context, as well as its formal and figurative strategies. The analysis of the "flies" simile as colonial rhetoric being reproduced critically exemplifies this.
-- **Analysis and evaluation**: The response must explain _how_ the poem's techniques produce meaning. The analysis of the tension between iambic pentameter and violent content demonstrates this.
+- **Analysis and evaluation**: The response must explain *how* the poem's techniques produce meaning. The analysis of the tension between iambic pentameter and violent content demonstrates this.
 - **Focus and organisation**: The argument must be sustained throughout, with each paragraph contributing to a developing thesis about the poem's treatment of divided identity and irresolvable tension.
 - **Language**: The response must use literary terminology accurately and maintain a formal register throughout.
 
@@ -255,7 +255,7 @@ After completing your own analysis of "A Far Cry from Africa," review your respo
 
 1. Did you identify the poem's central tension (divided identity, cultural inheritance) and explain how it is developed?
 2. Did you analyse at least three specific techniques (e.g., the "flies" simile, the irony of "upright man," the anaphora of "I who") with embedded quotations?
-3. Did you explain _how_ each technique produces meaning, not merely _what_ the technique is?
+3. Did you explain *how* each technique produces meaning, not merely *what* the technique is?
 4. Did you address the poem's form (iambic pentameter, rhyme scheme) and explain how it contributes to meaning?
 5. Did you recognise the tension between formal regularity and violent content?
 6. Did you address the poem's ending and explain why irresolution is more powerful than resolution?
@@ -264,9 +264,7 @@ After completing your own analysis of "A Far Cry from Africa," review your respo
 9. Did you maintain a formal, analytical register without personal opinion or summary?
 10. Did your introduction state a clear argument, and did your conclusion return to it?
 
-If you answered "no" to any of these questions, revise your response to address the gap. The IB rewards responses that demonstrate both technical precision and interpretive depth -- the ability to identify _what_ a poem does and to explain _why_ it matters.
-
-
+If you answered "no" to any of these questions, revise your response to address the gap. The IB rewards responses that demonstrate both technical precision and interpretive depth -- the ability to identify *what* a poem does and to explain *why* it matters.
 
 ## Cross-References
 

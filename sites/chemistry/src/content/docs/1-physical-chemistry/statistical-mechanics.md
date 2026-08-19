@@ -265,6 +265,7 @@ $$\frac{K_H}{K_D} \approx e^{-(\Theta_{\text{vib},H} - \Theta_{\text{vib},D})/T}
 
 **Theorem 12:** Quantum mechanically, identical particles are indistinguishable. The wavefunction
 must be:
+
 - **Symmetric** under exchange for **bosons** (integer spin): $\Psi(1,2) = +\Psi(2,1)$
 - **Antisymmetric** under exchange for **fermions** (half-integer spin): $\Psi(1,2) = -\Psi(2,1)$
 
@@ -277,6 +278,7 @@ $$\langle n_i \rangle = \frac{1}{e^{(\varepsilon_i - \mu)/k_BT} - 1}$$
 where $\langle n_i \rangle$ is the mean occupation number of state $i$ and $\mu \leq \varepsilon_0$.
 
 Applications:
+
 - **Bose-Einstein condensation:** Below a critical temperature, a macroscopic number of particles
   occupies the ground state.
 - **Blackbody radiation:** Planck distribution (photons are bosons).
@@ -313,6 +315,7 @@ at ordinary conditions.
 **Definition 7 (Electron Gas):** In metals, conduction electrons are treated as a Fermi gas.
 
 The Fermi-Dirac distribution gives:
+
 - At $T = 0$: All states below $\varepsilon_F$ are filled.
 - At finite $T$: Electrons near $\varepsilon_F$ are thermally excited; the distribution smears over
   $\sim k_BT$.
@@ -446,10 +449,12 @@ leading to critical opalescence.
 ## Worked Examples
 
 ### Example 1: Calculating Entropy of an Ideal Gas
+
 **Problem:** Calculate the molar entropy of neon (Ne, monatomic, M = 20.18 g/mol) at 298 K and 1 atm using the Sackur-Tetrode equation.
-**Solution:** S = R[ln((2pi m k_B T/h^2)^(3/2) * (k_B T/P) * e^(5/2))]. With standard values, m = 20.18 x 10^-3 / 6.022e23 = 3.35 x 10^-26 kg. After substitution: S_m = 146.2 J K^-1 mol^-1 (literature value: 146.3 J K^-1 mol^-1).
+**Solution:** S = R[ln((2pi m k_B T/h^2)^(3/2) *(k_B T/P)* e^(5/2))]. With standard values, m = 20.18 x 10^-3 / 6.022e23 = 3.35 x 10^-26 kg. After substitution: S_m = 146.2 J K^-1 mol^-1 (literature value: 146.3 J K^-1 mol^-1).
 
 ### Example 2: Boltzmann Distribution for a Two-Level System
+
 **Problem:** A molecule has two energy levels: epsilon_0 = 0 and epsilon_1 = 5.0 x 10^-21 J. At T = 300 K, calculate the fraction of molecules in the excited state.
 **Solution:** Boltzmann factor = exp(-epsilon_1/k_B T) = exp(-5.0e-21/(1.38e-23 x 300)) = exp(-1.208) = 0.299. Fraction in excited state = 0.299/(1 + 0.299) = 0.230 or 23.0%.
 

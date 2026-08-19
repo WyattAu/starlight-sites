@@ -1543,7 +1543,7 @@ $d(B,E) = 8$, $d(C,D) = 3$, $d(C,E) = 6$, $d(D,E) = 5$. Compute the MST, the Eul
 shortcut tour.
 
 **Problem 15.** Apply the greedy set cover algorithm to: $U = \{1, 2, 3, 4, 5, 6\}$,
-$\mathcal{{'}S{}'} = \{S_1 = \{1, 2, 3\}, S_2 = \{2, 4\}, S_3 = \{3, 5, 6\}, S_4 = \{1, 4, 5\}, S_5 = \{4, 6\}\}$.
+$\mathcal{S} = \{S_1 = \{1, 2, 3\}, S_2 = \{2, 4\}, S_3 = \{3, 5, 6\}, S_4 = \{1, 4, 5\}, S_5 = \{4, 6\}\}$.
 Compare with the optimal cover.
 
 <details>
@@ -1679,7 +1679,6 @@ $\blacksquare$
 - Searching: linear $O(n)$, binary $O(\log n)$, hash $O(1)$ average.
 - Data structures: arrays, linked lists, stacks, queues, trees, hash tables, heaps, graphs.
 - Amortised analysis: dynamic arrays $O(1)$ amortised append; splay trees $O(\log n)$ amortised.
-
 
 </aside>
 ## Cross-References

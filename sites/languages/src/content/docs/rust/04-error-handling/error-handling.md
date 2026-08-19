@@ -79,7 +79,6 @@ assert!(result.is_err());
 Across FFI boundaries (panics through C callbacks are undefined behavior). It is also not a
 Substitute for proper error handling — use it sparingly, for plugin systems or process Isolation.
 
-
 ## `unwrap` and `expect`
 
 ```rust
@@ -95,7 +94,6 @@ result.expect("parse should succeed"); // 10 — panics with message on Err
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 Value should exist and makes debugging easier when the panic occurs.
-
 
 ### When `unwrap` Is Acceptable
 
@@ -872,7 +870,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

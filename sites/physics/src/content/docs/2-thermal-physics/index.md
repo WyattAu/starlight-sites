@@ -96,6 +96,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -129,4 +130,3 @@ Thermal physics bridges two seemingly disconnected descriptions of the same syst
 Statistical mechanics explains *why* the thermodynamic laws hold by counting微观 states. The key insight is that entropy is a measure of how many microscopic configurations are consistent with the macroscopic state you observe. A gas fills the whole room because there are overwhelmingly more arrangements where molecules are spread out than arrangements where they're clustered in a corner. The partition function — a single mathematical object — encodes all thermodynamic information about a system. From it you can derive temperature, pressure, heat capacity, magnetization, and everything else. The three ensembles (microcanonical, canonical, grand canonical) correspond to different physical situations: isolated systems, systems in thermal contact, and systems that exchange particles.
 
 Phase transitions are where thermal physics becomes most dramatic. Water boiling, magnets losing their magnetism, superconductors appearing — these are all phase transitions where the macroscopic properties of a system change abruptly. Landau theory explains this through symmetry breaking: below the critical temperature, the system "chooses" a preferred state from among many equally valid options. Mean-field theory approximates the complex interactions between particles with an average effect, giving qualitatively correct phase diagrams. The fluctuation-dissipation theorem connects equilibrium fluctuations to response functions, bridging the gap between microscopic noise and macroscopic behaviour.
-

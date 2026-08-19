@@ -212,8 +212,6 @@ The Heisenberg uncertainty principle $\sigma_x \sigma_p \geq \hbar/2$ is a prope
 
 Quantum operators are the machinery that extracts measurable information from a quantum state. Each observable, like position or momentum, has an associated operator whose eigenvalues are the possible measurement outcomes. The expectation value of an operator gives the average result over many identical measurements. Commuting operators share eigenstates, meaning both observables can be known simultaneously. Non-commuting operators, like position and momentum, obey an uncertainty relation: measuring one precisely forces the other to become uncertain. This is not a limitation of instruments but a fundamental feature of quantum reality. Spin-half systems illustrate this vividly: measuring spin along one axis gives random results for the orthogonal axis.
 
-
-
 ## Cross-References
 
 - **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates establish that observables are represented by Hermitian operators.

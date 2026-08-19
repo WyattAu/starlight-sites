@@ -23,6 +23,7 @@ categories:
 ## Biotechnology
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Recombinant DNA Technology
 
 ### 1.1 Overview
@@ -76,9 +77,9 @@ and blunt-end fragments.
   permeable to DNA.
 - **Electroporation**: an electric field creates temporary pores in the membrane.
 
-5. **Selection**: cells are grown on agar plates containing an antibiotic. Only cells that have
+1. **Selection**: cells are grown on agar plates containing an antibiotic. Only cells that have
    taken up the plasmid (with the antibiotic resistance gene) survive.
-6. **Identification**: further screening identifies cells with the recombinant plasmid (containing
+2. **Identification**: further screening identifies cells with the recombinant plasmid (containing
    the target gene inserted into the lacZ gene, disrupting it). White colonies (non-functional lacZ)
    indicate successful insertion; blue colonies (functional lacZ) indicate the plasmid without
    insertion.
@@ -669,11 +670,11 @@ property of **totipotency**: the ability of any plant cell to develop into a com
 - **Gelling agent**: agar.
 - The medium is solidified with agar and sterilised by autoclaving.
 
-3. **Stage 2: Multiplication.** Callus or shoot tips are subcultured onto fresh medium to produce
+1. **Stage 2: Multiplication.** Callus or shoot tips are subcultured onto fresh medium to produce
    multiple shoots. Each shoot can be further divided, allowing exponential multiplication.
-4. **Stage 3: Rooting.** Individual shoots are transferred to a rooting medium (high auxin) to
+2. **Stage 3: Rooting.** Individual shoots are transferred to a rooting medium (high auxin) to
    induce root formation, producing complete plantlets.
-5. **Stage 4: Acclimatisation (hardening off).** Plantlets are transferred from the sterile,
+3. **Stage 4: Acclimatisation (hardening off).** Plantlets are transferred from the sterile,
    high-humidity culture vessel to soil. This is the most critical stage because the plantlets must
    transition from heterotrophic growth (using sucrose from the medium) to autotrophic growth
    (photosynthesis) and develop a functional cuticle to prevent water loss.
@@ -1208,7 +1209,6 @@ When evaluating a biotechnology application, consider:
 }
 </script>
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 ## 22. CRISPR-Cas9: Mechanism and Applications in Detail
@@ -1307,11 +1307,11 @@ Mitigation strategies:
   membrane to become transiently permeable).
 - **Electroporation**: an electric pulse creates temporary pores in the cell membrane.
 
-5. **Select**: transformed bacteria are grown on agar plates containing an antibiotic (e.g.,
+1. **Select**: transformed bacteria are grown on agar plates containing an antibiotic (e.g.,
    ampicillin). Only bacteria that have taken up the plasmid (which carries an ampicillin resistance
    gene) survive.
 
-6. **Screen**: to confirm that the plasmid contains the insulin gene (not just religated plasmid
+2. **Screen**: to confirm that the plasmid contains the insulin gene (not just religated plasmid
    without the insert), colonies are screened by:
 
 - **Blue-white screening** (if using a plasmid with lacZ gene): colonies with the insert are white;
@@ -1321,10 +1321,10 @@ Mitigation strategies:
 - **Restriction digest analysis**: isolating plasmid DNA and cutting with restriction enzymes to
   check for the correct insert size.
 
-7. **Culture and harvest**: confirmed recombinant bacteria are grown in large fermenters. The
+1. **Culture and harvest**: confirmed recombinant bacteria are grown in large fermenters. The
    bacteria express the insulin gene, producing proinsulin (or the A and B chains separately).
 
-8. **Purify**: the insulin protein is extracted from the bacteria and purified by chromatography.
+2. **Purify**: the insulin protein is extracted from the bacteria and purified by chromatography.
 
 ### 23.2 Advantages of Recombinant Human Insulin over Animal Insulin
 
@@ -2322,7 +2322,6 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 }
 </script>
 
-
 ## Common Pitfalls
 
 1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
@@ -2335,7 +2334,6 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
    incorrectly.
 
 4. Confusing correlation with causation when evaluating experimental data and drawing conclusions.
-
 
 ## Intuition
 

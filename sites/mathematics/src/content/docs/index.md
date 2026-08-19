@@ -86,6 +86,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -105,6 +106,7 @@ Each section includes:
 Mathematics is the art of precise abstraction. Each subject in this collection strips away the inessential to reveal underlying structure: analysis formalises limits and continuity, algebra captures symmetry and arithmetic, and geometry studies shape and curvature. The power of mathematics lies in its cumulative nature: theorems proven once are true forever, and each result becomes a tool for the next. Learning mathematics is less about memorising formulas and more about internalising ways of thinking: decomposing problems, identifying invariants, and translating between different representations of the same structure.
 
 ## See Also
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

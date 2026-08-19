@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -427,8 +426,6 @@ producing a string not in the language -- proving it is not regular.
 **Assuming NP means "not solvable in polynomial time":** NP stands for "nondeterministic polynomial time." It means the solution can be verified in polynomial time, not that it cannot be solved in polynomial time. All P problems are also in NP (if you can solve it quickly, you can certainly verify it quickly).
 
 **Confusing regular languages with context-free languages:** Regular languages can be recognised by finite automata (DFA/NFA) and described by regular expressions. Context-free languages require a pushdown automaton (with a stack). The language $a^n b^n$ is context-free but not regular because counting requires unbounded memory, which a finite automaton cannot provide.
-
-
 
 ## Cross-References
 

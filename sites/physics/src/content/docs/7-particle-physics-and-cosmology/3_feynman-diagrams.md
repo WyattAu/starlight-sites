@@ -203,7 +203,6 @@ divergences) with **renormalization** (the physical procedure of redefining para
 Regularisation is a Temporary scaffold; renormalization is the essential step that yields finite,
 physical predictions.
 
-
 </aside>
 
 ## Intuition

@@ -23,6 +23,7 @@ categories:
 ## Quantitative Chemistry
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C3 | WJEC C3
+>
 ## 1. Relative Formula Mass
 
 ### 1.1 Calculating Relative Formula Mass

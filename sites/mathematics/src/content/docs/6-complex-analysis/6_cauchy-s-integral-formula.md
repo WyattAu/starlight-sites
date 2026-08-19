@@ -151,10 +151,10 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
 - Confusing the orientation: the contour must be positively oriented (counterclockwise).
 - Neglecting to check that $f$ is analytic **on and inside** $\gamma$, not just on $\gamma$.
 
-
 ## Intuition
 
 Cauchy's integral formula says the value of an analytic function inside a contour is completely determined by its values on the contour itself. This is extraordinary: the interior is enslaved to the boundary. Imagine knowing the temperature along the edge of a drum skin and being able to compute the temperature at any interior point. The formula works because analytic functions cannot have local extrema, so information propagates inward from the boundary. The derivative formula extends this: not just the function but all its derivatives are recoverable from boundary data, making complex analysis a boundary theory.
+
 ## Cross-References
 
 - **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem provides the foundation for the integral formula by establishing path independence.

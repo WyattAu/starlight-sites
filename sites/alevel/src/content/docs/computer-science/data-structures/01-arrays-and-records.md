@@ -596,6 +596,7 @@ Implications for performance and memory efficiency.
    copy (or pick a larger size upfront, wasting memory).
 2. **Stack overflow risk:** Large static arrays stored on the stack can cause stack overflow. The
 Stack is limited (e.g., 1–8 MB), while the heap is much larger.
+
 </details>
 
 **Problem 7.** Given the 2D array `M[3][4]` initialised as follows:
@@ -676,6 +677,7 @@ Verification of all addresses:
 - `A[0][0]` at 1000 (value 2), `A[0][1]` at 1008 (value 5), `A[0][2]` at 1016 (value 1)
 - `A[1][0]` at 1024 (value 3), `A[1][1]` at 1032 (value 8), `A[1][2]` at 1040 (value 4)
 - `A[2][0]` at 1048 (value 7), `A[2][1]` at 1056 (value 6), `A[2][2]` at 1064 (value 9)
+
 </details>
 
 **Problem 9.** Write pseudocode to insert the value 25 at index 2 of the array
@@ -761,7 +763,6 @@ The optimal choice.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
@@ -775,7 +776,6 @@ The optimal choice.
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
-
 
 ## Intuition
 
@@ -791,4 +791,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

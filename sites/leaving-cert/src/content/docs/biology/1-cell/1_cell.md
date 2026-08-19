@@ -198,7 +198,7 @@ For sexual reproduction.
 - Anaphase I: homologous chromosomes separate.
 - Telophase I: two cells form.
 
-2. **Meiosis II:** sister chromatids separate (similar to mitosis).
+1. **Meiosis II:** sister chromatids separate (similar to mitosis).
 
 **Sources of genetic variation:**
 
@@ -527,11 +527,11 @@ It does not require oxygen.
 
 **Energy payoff phase (produces 4 ATP and 2 NADH):**
 
-5. Each G3P is oxidised and phosphorylated to produce 1,3-bisphosphoglycerate, reducing NAD$^+$ to
+1. Each G3P is oxidised and phosphorylated to produce 1,3-bisphosphoglycerate, reducing NAD$^+$ to
    NADH.
-6. 1,3-bisphosphoglycerate transfers a phosphate group to ADP, producing ATP and 3-phosphoglycerate
+2. 1,3-bisphosphoglycerate transfers a phosphate group to ADP, producing ATP and 3-phosphoglycerate
    (substrate-level phosphorylation).
-7. 3-phosphoglycerate is converted to pyruvate through several steps, producing one more ATP per
+3. 3-phosphoglycerate is converted to pyruvate through several steps, producing one more ATP per
    G3P.
 
 **Net yield per glucose:** 2 ATP, 2 NADH, 2 pyruvate.

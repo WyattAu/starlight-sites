@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Homeostasis — the maintenance of stable internal conditions — connects all physiological processes
 
-
 ## 1. Digestion
 
 ### Overview
@@ -904,7 +903,7 @@ In a person who has been drinking large volumes of water versus a person who is 
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Cell membrane and transport mechanisms** --> Review
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
@@ -962,10 +961,10 @@ nephrons.
   multiplier** mechanism concentrates the medullary interstitium to $\approx 1200\;\mathrm{mOsm/kg}$
   (four times plasma osmolarity).
 
-5. **Distal convoluted tubule (DCT)**: fine-tunes ion balance. Reabsorbs $\mathrm{Na}^+$
+1. **Distal convoluted tubule (DCT)**: fine-tunes ion balance. Reabsorbs $\mathrm{Na}^+$
    $\mathrm{Ca}^{2+}$And $\mathrm{HCO}_3^-$ under the control of aldosterone. Secretes
    $\mathrm{K}^+$ and $\mathrm{H}^+$.
-6. **Collecting duct**: permeable to water under the control of ADH. Water exits by osmosis into the
+2. **Collecting duct**: permeable to water under the control of ADH. Water exits by osmosis into the
    concentrated medulla, producing concentrated urine.
 
 ### Ultrafiltration

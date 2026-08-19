@@ -111,6 +111,7 @@ $$\chi^2_{\mathrm{Yates}} = \sum\frac{(|O_i - E_i| - 0.5)^2}{E_i}$$
 This correction makes the test more conservative (less likely to reject $H_0$).
 
 > **Caution:** warning categories if expected frequencies are too small.
+>
 ### 2.6 Worked example: Poisson goodness of fit
 
 **Example.** Over 100 days, the number of accidents per day at a factory was recorded:
@@ -440,11 +441,11 @@ State three conditions that must be satisfied before carrying out a chi-squared 
 <summary>Solution 9</summary>
 1. **Expected frequencies $\geq 5$:** Violating this makes the $\chi^2$ approximation to the true distribution inaccurate, increasing the risk of Type I errors. Remedy: merge adjacent categories.
 
-2. **Independence of observations:** Violating this means the test assumes a multinomial model that
+1. **Independence of observations:** Violating this means the test assumes a multinomial model that
    does not apply, invalidating the result. Remedy: ensure the sampling method produces independent
    observations.
 
-3. **Sufficiently large sample:** With very small total samples, even large relative discrepancies
+2. **Sufficiently large sample:** With very small total samples, even large relative discrepancies
    can produce non-significant results. The test has low power. Remedy: increase sample size.
 
 **If you get this wrong, revise:** [Conditions](#24-conditions) — Section 2.4.
@@ -1471,4 +1472,3 @@ Unfair.
 - [Biodiversity, Classification and Evolution](../../biology/biodiversity-classification-evolution) -- Statistical analysis of species diversity and distribution data uses chi-squared tests.
 - [Data Analysis](../../maths/diagnostics/diag-correlation-and-regression) -- Regression analysis and correlation complement the categorical data analysis provided by chi-squared tests.
 - [Further Probability](../../maths/statistics/03-probability) -- Probability distributions underpin the expected frequencies used in chi-squared calculations.
-

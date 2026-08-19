@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Genes control traits through protein synthesis, and variations in genes create the diversity of life
 
-
 ## Unit Tests
 
 ### UT-1: Dihybrid Cross and Independent Assortment

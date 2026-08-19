@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Reaction mechanisms show electron flow through curved arrows, revealing why reactions occur and how to control them
 
-
 ## 1. Reaction Mechanisms
 
 ### SN1 Mechanism (Unimolecular Nucleophilic Substitution)
@@ -297,7 +296,6 @@ $$
 
 Uses: fibres (clothing), bottles, food containers.
 
-
 ### Polyamides (Nylons)
 
 Formed from a diamine and a dicarboxylic acid:
@@ -316,7 +314,6 @@ N\mathrm{H_2N(CH_2)_6NH_2} + n\mathrm{HOOC(CH_2)_4COOH} \to \mathrm{Nylon-6,6} +
 $$
 
 Uses: textiles, ropes, parachutes, engineering plastics.
-
 
 ### Kevlar
 
@@ -362,13 +359,13 @@ $$
 
 (For each halogen, add 1 to H. For each oxygen, ignore.)
 
-2. **IR spectroscopy**: identify functional groups from characteristic absorptions.
+1. **IR spectroscopy**: identify functional groups from characteristic absorptions.
 
-3. **$\mathrm{^1H}$ NMR**: determine proton environments, integration, and splitting.
+2. **$\mathrm{^1H}$ NMR**: determine proton environments, integration, and splitting.
 
-4. **Mass spectrometry**: determine molecular mass and fragmentation pattern.
+3. **Mass spectrometry**: determine molecular mass and fragmentation pattern.
 
-5. **Assemble** all fragments into a consistent structure.
+4. **Assemble** all fragments into a consistent structure.
 
 ### Degree of Unsaturation Examples
 
@@ -865,7 +862,7 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **VSEPR geometry and molecular shapes** → Review
   [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
@@ -898,6 +895,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | ---------------------------- | ---- | -------------------------------------------------------------------------------------------------- |
 | [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/2_organic-chemistry-advanced) |
 | [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/2_carbon-chemistry)          |
-
 
 </aside>

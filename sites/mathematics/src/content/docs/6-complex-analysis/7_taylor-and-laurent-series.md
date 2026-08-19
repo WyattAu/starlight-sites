@@ -164,16 +164,15 @@ $\int_{|z|=R} f\, dz = 2\pi i \sum_{\mathrm{finite} \mathrm{Res}(f, z_k)}$.
 But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$So the sum is zero.
 $\blacksquare$
 
-
 ## Intuition
 
 Every analytic function can be expanded as a power series, like a polynomial of infinite degree. This is possible because analyticity is so restrictive that the function is completely determined by its behavior at a single point. Taylor series capture the function near a point of analyticity. Laurent series extend this to functions with singularities, adding negative powers that encode the residue. The residue is like a local fingerprint of the singularity: it measures how much the function winds around that point, connecting local algebraic data to global topological information about contours.
+
 ## Cross-References
 
 - **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula provides the coefficients for Taylor and Laurent series expansions.
 - **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: Laurent series reveal the structure of singularities and enable residue computation.
 - **[Analytic Continuation](13_analytic-continuation.md)**: Laurent series can extend functions beyond their original domain through analytic continuation.
-
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -235,7 +235,7 @@ Preparing for an EU driving test requires understanding both the general Europea
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Flashcards: 15 minutes of signs and regulations |
 | Afternoon | Topic study: read one section of your country's driving rules |
 | Evening | Practice: one practice test or 20 practice questions |

@@ -130,7 +130,6 @@ When finished, attempt the.
 - "Introduction to Algorithms" (CLRS) for rigorous algorithm analysis
 - "Structure and Interpretation of Computer Programs" for programming depth
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -145,8 +144,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

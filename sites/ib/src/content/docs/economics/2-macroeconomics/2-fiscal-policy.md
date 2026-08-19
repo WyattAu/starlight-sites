@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Fiscal policy can stabilize economies in recession or cool overheating, but requires careful timing and political will
 
-
 ## Fiscal Policy
 
 Fiscal policy involves government decisions about taxation and spending to influence the economy.
@@ -363,8 +362,6 @@ $200$ billion, full crowding out has occurred and the fiscal policy is ineffecti
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-
 
 ## Cross-References
 

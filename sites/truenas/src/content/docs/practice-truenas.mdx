@@ -17,7 +17,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## ZFS Concepts
 
 <PracticeProblem client:only="solid-js" question={"What is the fundamental write model used by ZFS?"} options={['Copy-on-write (CoW)', 'Journaling', 'Log-structured', 'Direct overwrite']} correctAnswer={0} explanation="ZFS uses copy-on-write: every write creates a new block, and only after the new block is written and verified does ZFS update the metadata. This eliminates the write hole and makes snapshots instantaneous." difficulty="easy"  />
@@ -27,7 +26,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"Which checksum algorithm is the default and recommended for modern ZFS pools?"} options={'SHA-256', 'Fletcher4', 'CRC32', 'BLAKE2'} correctAnswer={0} explanation="SHA-256 is the default checksum algorithm on modern ZFS pools. It provides strong collision resistance and is recommended for data integrity verification." difficulty="medium"  />
 
 ---
-
 
 ## Pool Management
 
@@ -39,7 +37,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## Datasets and Properties
 
 <PracticeProblem client:only="solid-js" question={"Which compression algorithm provides the best balance of speed and ratio for most TrueNAS workloads?"} options={'lz4', 'gzip-9', 'zstd-10', 'none'} correctAnswer={0} explanation="lz4 provides fast compression (3-5 GB/s per core) with good ratios for most data types. It is the default on TrueNAS and has negligible CPU overhead on modern hardware." difficulty="easy"  />
@@ -50,7 +47,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## Snapshots and Replication
 
 <PracticeProblem client:only="solid-js" question={"How is space consumed by a ZFS snapshot?"} options={'Only when blocks referenced by the snapshot are modified or deleted in the live filesystem', 'Immediately upon creation', 'Proportional to the total dataset size', 'Only during replication'} correctAnswer={0} explanation="Creating a snapshot is instantaneous and consumes no space initially. Space is consumed only when blocks referenced by the snapshot are modified or deleted in the live filesystem." difficulty="medium"  />
@@ -60,7 +56,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the difference between a snapshot and a clone in ZFS?"} options={'Snapshots are read-only point-in-time markers; clones are writable copies of snapshots', 'There is no difference', 'Clones are read-only; snapshots are writable', 'Snapshots consume more space than clones'} correctAnswer={0} explanation="A snapshot is a read-only point-in-time marker. A clone is a writable copy of a snapshot that can be mounted and modified. Clones can be promoted to become independent of the original snapshot." difficulty="easy"  />
 
 ---
-
 
 ## Networking and Shares
 
@@ -85,6 +80,7 @@ import PracticeProblem from "@components/PracticeProblem";
 **Using TrueNAS for VM storage without understanding IOPS:** ZFS volumes for VMs need sufficient IOPS. Small random reads/writes perform differently than sequential transfers. Use SSDs for VM storage and configure appropriate record sizes.
 
 **Not configuring email alerts:** TrueNAS can email you about pool degradation, temperature warnings, and SMART alerts. Without email configuration, hardware failures may go unnoticed until its too late.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for truenas notes.

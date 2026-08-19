@@ -124,7 +124,6 @@ $|H||K| = |HK| \cdot |H \cap K|$. $\blacksquare$
 subgroup when $H$ or $K$ is normal. In that case, $|HK| = |H||K|/|H \cap K|$ also divides $|G|$ by
 Lagrange.
 
-
 </aside>
 ### 3.6 Common Pitfalls
 
@@ -190,7 +189,7 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 ### 3.9 Key Relationships Table
 
 | Statement | Hypothesis | Conclusion |
-|---|---|---|
+| --- | --- | --- |
 | Lagrange's Theorem | $H \leq G$, $G$ finite | $\|H\|$ divides $\|G\|$ |
 | Corollary 3.4 | $g \in G$ | $\|g\|$ divides $\|G\|$ |
 | Fermat's Little Theorem | $p$ prime, $\gcd(a,p)=1$ | $a^{p-1} \equiv 1 \pmod{p}$ |

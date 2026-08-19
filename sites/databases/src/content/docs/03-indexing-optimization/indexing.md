@@ -113,7 +113,6 @@ Likely with the buffer pool, 4 cache lookups.
 Reused by future inserts, but the pages themselves are not returned to the OS until `VACUUM FULL` or
 `pg_repack`. This is why B-tree indexes can become bloated after heavy UPDATE/DELETE workloads.
 
-
 ## Hash Indexes
 
 Hash indexes use a hash function to map keys directly to bucket locations, providing $O(1)$ average
@@ -236,7 +235,6 @@ CREATE INDEX idx_transactions_large ON transactions (account_id, created_at)
 Filter on a condition (e.g., `status = 'active'`), a partial index can be 10-100x smaller than a
 Full index while providing the same query performance. The key insight: **do not index data your
 Queries never look for.**
-
 
 ## Expression Indexes
 
@@ -606,7 +604,6 @@ Client connections to share a small pool of server connections ( 25-100). The ca
 statements that are scoped to a server connection may not work as expected, because a Subsequent
 transaction might use a different server connection.
 
-
 ## Intuition
 
 An index is like the index at the back of a textbook. Without it, finding a specific topic means reading the entire book. With it, you jump to the page and start reading from there. The cost of maintaining the index is that every time you add or change content, you must also update the index. This is why over-indexing slows down writes: too many indexes means too many updates for every change.
@@ -698,7 +695,6 @@ REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 <aside class="starlight-aside starlight-aside--note">
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
 But does not block concurrent reads.
-
 
 ### Subquery Flattening
 
@@ -922,6 +918,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>

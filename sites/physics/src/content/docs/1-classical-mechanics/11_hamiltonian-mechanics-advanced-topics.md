@@ -210,8 +210,6 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 
 </details>
 
-
-
 ## Cross-References
 
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Basic Hamiltonian mechanics provides the foundation for understanding canonical transformations and action-angle variables.

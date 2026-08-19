@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
@@ -530,8 +529,6 @@ momentum, confirming the impulse-momentum theorem.
 **Forgetting that momentum is a vector:** When solving 2D collision problems, you must resolve momentum into components and conserve each component separately. The direction matters — a particle moving at $-5$ m/s has negative momentum. Getting the sign wrong leads to incorrect answers.
 
 **Confusing the coefficient of restitution with energy conservation:** $e = 1$ means perfectly elastic (no KE lost). $e = 0$ means perfectly inelastic (maximum KE lost, particles stick together). The coefficient of restitution applies along the line of centres only, not to the total speed. Students often apply $e$ to the full velocity vector instead of just the component along the line of impact.
-
-
 
 ## Cross-References
 

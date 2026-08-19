@@ -589,10 +589,10 @@ Doing and how it does it. Every paragraph should develop this argument.
 3. **Insufficient working**. In calculation or analysis questions, marks are awarded for method.
    Show every intermediate step.
 
-
 ## Intuition
 
 The 19th-century novel is like a Victorian photograph -- it captures the detail of ordinary life with painstaking precision, but the photographer's choices (what to frame, what to leave out) reveal as much as the subject. Realism is the dominant mode, but it is never pure: Gothic shadows creep into the edges of Dickens's fog, and the supernatural intrudes into Stevenson's London. The key is to see setting as character: Thornfield Hall in Jane Eyre is not just a house but a Gothic manifestation of Rochester's secrets. Class is the invisible architecture that shapes every character's possibilities and limits.
+
 ## Worked Examples
 
 **Example 1:**

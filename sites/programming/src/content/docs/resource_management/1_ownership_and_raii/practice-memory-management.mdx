@@ -10,7 +10,6 @@ description: "15 auto-graded MCQ questions covering stack vs heap allocation, po
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## C++ -- Memory Management Practice
 
 15 auto-graded MCQ questions covering stack vs heap allocation, pointers, references, smart
@@ -18,7 +17,6 @@ pointers, RAII, memory leaks, new/delete, sizeof, and alignment. Select an answe
 review the explanation.
 
 ---
-
 
 ### Stack vs Heap
 
@@ -48,13 +46,12 @@ review the explanation.
 
 ---
 
-
 ### Pointers and References
 
 <PracticeProblem client:only="solid-js"   question="What is printed by `int a = 10; int* p = &amp;a; *p = 20; std::cout &lt;&lt; a;`?"
   options={['10', '20', 'A memory address', 'Undefined behaviour']}
   correctAnswer={1}
-  explanation="p is a pointer that stores the address of a. Dereferencing p with *p accesses the value at that address, which is a itself. Assigning 20 to *p modifies a. Therefore a becomes 20 and the output is 20."
+  explanation="p is a pointer that stores the address of a. Dereferencing p with *p accesses the value at that address, which is a itself. Assigning 20 to*p modifies a. Therefore a becomes 20 and the output is 20."
   difficulty="easy"
  />
 
@@ -84,7 +81,6 @@ review the explanation.
 
 ---
 
-
 ### new and delete
 
 <PracticeProblem client:only="solid-js"   question="Why should you never use delete[] on memory allocated with new (without brackets), and vice versa?"
@@ -112,7 +108,6 @@ review the explanation.
  />
 
 ---
-
 
 ### Smart Pointers
 
@@ -154,7 +149,6 @@ review the explanation.
 
 ---
 
-
 ### RAII
 
 <PracticeProblem client:only="solid-js"   question="What does RAII stand for and how does it prevent resource leaks?"
@@ -182,7 +176,6 @@ review the explanation.
  />
 
 ---
-
 
 ### sizeof and Alignment
 
@@ -212,7 +205,6 @@ review the explanation.
 
 ---
 
-
 ### Memory Leaks
 
 <PracticeProblem client:only="solid-js"   question="Which of the following scenarios most reliably causes a memory leak in C++?"
@@ -234,6 +226,7 @@ review the explanation.
 **Returning a reference to a local variable:** A function that returns `int&` to a stack-local variable creates a dangling reference — the local is destroyed when the function returns, and the reference points to invalid memory. This is undefined behaviour that may appear to work in debug builds but crash in release. Return by value or use heap allocation with smart pointers.
 
 **Forgetting that shared_ptr copies share the same control block:** Two shared_ptr instances pointing to the same object share a reference count. Resetting one does not free the object if the other still exists. This is correct behaviour but can be confusing — if you need exclusive ownership, use unique_ptr instead.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Programming notes.

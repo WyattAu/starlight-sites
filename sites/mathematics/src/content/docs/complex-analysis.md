@@ -684,7 +684,7 @@ By the Cauchy-Riemann equations. $\blacksquare$
 
 ### 5.2 Connected Domains
 
-A domain $D \subseteq \mathbb{C}$ is ** connected** if every simple closed contour in $D$ can Be
+A domain $D \subseteq \mathbb{C}$ is **connected** if every simple closed contour in $D$ can Be
 continuously shrunk to a point within $D$.
 
 **Cauchy's theorem may fail on multiply connected domains.** For example,
@@ -2029,7 +2029,6 @@ Complex analysis studies functions of a complex variable that are differentiable
 | Multivariable Calculus       | WyattsNotes | [View](multivariable-calculus)                              |
 | Differential Equations       | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)                              |
 | Complex Analysis — MIT 18.04 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-fall-2003/) |
-
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

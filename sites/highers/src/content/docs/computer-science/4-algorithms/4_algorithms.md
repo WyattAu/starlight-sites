@@ -720,10 +720,10 @@ area (Triangle a b c) = let s = (a + b + c) / 2
 }
 </script>
 
-
 ## Intuition
 
 Algorithms are like recipes -- the same ingredients (data) can produce very different dishes depending on the order and method of preparation. Big O notation is the time estimate on the recipe: O(n) means the time grows linearly with the number of ingredients, O(n log n) means it grows slightly faster, and O(n^2) means it grows quadratically -- fine for 10 ingredients but disastrous for 10,000. Sorting is like organising a bookshelf: bubble sort is like comparing every adjacent pair repeatedly, while merge sort divides the shelf in half, sorts each half, and merges them. The choice of algorithm determines whether your program finishes in seconds or hours.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -792,7 +792,6 @@ practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-
 
 </aside>## Cross-References
 

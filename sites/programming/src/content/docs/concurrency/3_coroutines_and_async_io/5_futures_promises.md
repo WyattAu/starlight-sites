@@ -581,7 +581,6 @@ Manual `stop_token` integration as shown above is the recommended approach.
 - [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
 
-
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
@@ -602,4 +601,3 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

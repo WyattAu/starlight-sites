@@ -66,7 +66,6 @@ Find the mean, median, and mode of: $3, 5, 5, 7, 8, 9, 12, 15, 45$.
 
 The mean (12.1) is significantly higher than the median (8) due to the outlier $45$.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -144,14 +143,12 @@ $$
 S \approx 2.438
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 <strong>Exam Tip</strong>
 Know whether to use the population formula ($\div N$) or the sample formula ($\div (n-1)$). In IB
 Exams, when data is from a sample, use $s^2$ (dividing by $n-1$). Your GDC uses the sample Formula
 by default.
-
 
 ---
 
@@ -212,7 +209,6 @@ Median is in the $40 \le m \lt 60$ class ($F = 17$, $f = 18$).
 $$
 \mathrm{Median} \approx 40 + \left(\frac{25 - 17}{18}\right) \times 20 = 40 + \frac{8}{18} \times 20 = 40 + 8.89 = 48.89 \mathrm{ g}
 $$
-
 
 ---
 
@@ -293,7 +289,6 @@ $$
 Q_1 \approx 20 + \frac{12.5 - 5}{17 - 5} \times 20 = 20 + 12.5 = 32.5 \mathrm{ g}
 $$
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -348,7 +343,6 @@ $$
 <strong>Exam Tip</strong>
 Correlation does NOT imply causation. Two variables may be strongly correlated without one causing
 The other (they may both be influenced by a third variable).
-
 
 ---
 
@@ -437,7 +431,6 @@ $$
 
 Regression line: $y = 0.05 + 1.99x$.
 
-
 ### Extrapolation and Interpolation
 
 - **Interpolation**: predicting within the range of data (generally reliable).
@@ -448,7 +441,6 @@ Regression line: $y = 0.05 + 1.99x$.
 <strong>Exam Tip</strong>
 Never extrapolate beyond the data range without acknowledging the uncertainty. IB exam questions
 Often ask you to comment on the reliability of a prediction.
-
 
 ---
 
@@ -525,7 +517,6 @@ Since $r = 0.85 \gt 0.497$We reject $H_0$.
 There is sufficient evidence at the 5% level to conclude a positive correlation between hours
 Studied and exam score.
 
-
 ### Chi-Squared Test for Independence
 
 Used to determine whether two categorical variables are independent.
@@ -586,13 +577,11 @@ Critical value at $\alpha = 0.05$ with $\nu = 2$: $5.99$.
 
 Since $13.33 \gt 5.99$We reject $H_0$. Gender and favourite subject are not independent.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 <strong>Exam Tip</strong>
 For the chi-squared test, always check that all expected frequencies are at least 5. If any
 $E_i \lt 5$Combine categories or note the limitation.
-
 
 ---
 
@@ -715,7 +704,6 @@ State hypotheses for Hypothesis tests. When using your GDC, note what function y
 inputs. Interpret results In context — never leave a numerical answer without explaining what it
 means.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -760,7 +748,6 @@ Z = \frac{81 - 65}{8} = 2.0
 $$
 
 The student scored 2 standard deviations above the mean.
-
 
 ---
 
@@ -813,7 +800,6 @@ $$
 $$
 Y \approx 5.01x^{1.5}
 $$
-
 
 ---
 

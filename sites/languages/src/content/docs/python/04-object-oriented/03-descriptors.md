@@ -918,10 +918,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 ## Cross-References
 
 - [Classes](./01-classes): Shows how descriptors are used in class design, including properties, class methods, and static methods.
 - [Metaclasses](./02-metaclasses): Explores how metaclasses can manipulate descriptors during class creation.
-- [Protocols and Dunder Methods](../08-advanced-topics/04-protocols-dunder-methods): Explains the __get__, __set__, and __delete__ dunder methods that define the descriptor protocol.
+- [Protocols and Dunder Methods](../08-advanced-topics/04-protocols-dunder-methods): Explains the **get**, **set**, and **delete** dunder methods that define the descriptor protocol.
 - [Data Validation](../08-advanced-topics/02-data-validation): Demonstrates how to use descriptors to enforce validation rules on object attributes.

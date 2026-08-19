@@ -42,6 +42,7 @@ $$(F^*\omega)_p(v_1, \ldots, v_k) = \omega_{F(p)}(dF_p(v_1), \ldots, dF_p(v_k))$
 for $v_i \in T_p M$.
 
 **Proposition 4.1.** The pullback satisfies:
+
 1. $F^*(\alpha \wedge \beta) = F^*\alpha \wedge F^*\beta$
 2. $F^*(d\omega) = d(F^*\omega)$
 3. $(G \circ F)^* = F^* \circ G^*$
@@ -162,6 +163,7 @@ Differential forms unify the classical vector calculus operators in $\mathbb{R}^
 - $3$-forms $\leftrightarrow$ scalar functions (via $f\, dx\wedge dy\wedge dz \leftrightarrow f$)
 
 Under these identifications:
+
 - $df \leftrightarrow \nabla f$ (gradient)
 - $d\omega \leftrightarrow \nabla \times \mathbf{F}$ (curl) for a $1$-form $\omega$
 - $d\omega \leftrightarrow \nabla \cdot \mathbf{F}$ (divergence) for a $2$-form $\omega$
@@ -173,7 +175,6 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 - **[Smooth Manifolds](1_smooth-manifolds.md)**: Differential forms are defined on smooth manifolds and require the smooth structure for their construction.
 - **[Riemannian Geometry](5_riemannian-geometry.md)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
 - **[Curvature](7_curvature.md)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
-
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

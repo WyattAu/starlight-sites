@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Thermodynamics is like a bank account for energy — you can’t create or destroy it, only transfer or transform it.**
@@ -455,8 +454,6 @@ lattice (1 mark).
 **Forgetting the sign convention in Hess's law cycles:** When reversing an equation, reverse the sign of $\Delta H$. When adding equations, add their $\Delta H$ values. A common error is forgetting to reverse the sign when reversing an arrow in the cycle, leading to incorrect enthalpy changes.
 
 **Confusing standard enthalpy of formation with standard enthalpy of combustion:** $\Delta H_f^\circ$ is the enthalpy change when 1 mol of a compound is formed from its elements in their standard states. $\Delta H_c^\circ$ is the enthalpy change when 1 mol of a substance is completely burned in excess oxygen. Using the wrong one in a Hess's law calculation gives the wrong answer.
-
-
 
 ## Cross-References
 

@@ -97,10 +97,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-
 ## Intuition
 
 Scottish Highers are like the foundation course of a university degree compressed into two years -- they test not just knowledge but the ability to think independently, manage your own learning, and perform under examination pressure. The SQA system values both breadth (across subjects) and depth (within each subject). Understanding the assessment structure -- what is examined, how it is weighted, and what the examiner is looking for -- is as important as understanding the content itself. The most successful students treat revision as a systematic process, not a last-minute panic.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -110,7 +110,6 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
 
 ## Overview
 

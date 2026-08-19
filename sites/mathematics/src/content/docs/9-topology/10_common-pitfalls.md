@@ -42,38 +42,38 @@ description: "1. False. Only finite intersections are guaranteed. Counterexample
 
 ### More Topology Pitfalls
 
-8. **"A compact subset of a Hausdorff space is closed."** This is true. But the converse requires
+1. **"A compact subset of a Hausdorff space is closed."** This is true. But the converse requires
    the space to be compact: a closed subset of a compact space is compact. These are dual
    statements that are frequently confused.
 
-9. **"Every continuous function is uniformly continuous on a compact set."** True for metric spaces,
+2. **"Every continuous function is uniformly continuous on a compact set."** True for metric spaces,
    but the concept of uniform continuity requires a metric. In a general topological space, uniform
    continuity is not defined. The correct statement: a continuous function on a compact metric space
    is uniformly continuous (Heine-Cantor theorem).
 
-10. **"Product of connected sets is connected."** True for finite products. For infinite products,
+3. **"Product of connected sets is connected."** True for finite products. For infinite products,
     the product of connected spaces is connected in the product topology (true), but this requires
     the product topology, not the box topology. The box product of connected spaces can be
     disconnected.
 
-11. **"Quotient maps are open."** False. The quotient map $q : X \to X/{\sim}$ is not necessarily
+4. **"Quotient maps are open."** False. The quotient map $q : X \to X/{\sim}$ is not necessarily
     open. For example, collapsing the boundary of a disk to a point yields a sphere, but the image
     of a small open set at the boundary may not be open.
 
-12. **"A subspace of a compact space is compact."** False. Only closed subspaces of compact spaces
+5. **"A subspace of a compact space is compact."** False. Only closed subspaces of compact spaces
     are compact. The open interval $(0,1)$ is not compact as a subspace of the compact space $[0,1]$.
 
-13. **"Every limit point is a boundary point."** False. Interior points can also be limit points.
+6. **"Every limit point is a boundary point."** False. Interior points can also be limit points.
     In $\mathbb{R}$, $0$ is a limit point of $(-1, 1)$ but is not a boundary point
     ($\partial(-1,1) = \{-1, 1\}$).
 
-14. **"If a space is separable, it is second countable."** False. $\mathbb{R}$ with the lower-limit
+7. **"If a space is separable, it is second countable."** False. $\mathbb{R}$ with the lower-limit
     topology (Sorgenfrey line) is separable ($\mathbb{Q}$ is dense) but not second countable.
 
 ### Counterexamples by Property
 
 | Claim | Counterexample | Why it fails |
-|-------|---------------|--------------|
+| ------- | --------------- | -------------- |
 | Compact $\Rightarrow$ closed in any space | Cofinite topology on $\mathbb{N}$ | Every subset is compact, but only finite sets are closed |
 | Closed and bounded $\Rightarrow$ compact | $\mathbb{Q} \cap [0,1]$ | Closed and bounded in $\mathbb{Q}$ but not compact (not complete) |
 | Connected $\Rightarrow$ path-connected | Topologist's sine curve | Connected but no path between $(0,0)$ and $(1,\sin 1)$ |
@@ -127,32 +127,32 @@ infinitely often, contradicting continuity. $\blacksquare$
 
 ### Additional Pitfalls
 
-15. **"The product of Hausdorff spaces is Hausdorff."** This is true for the product topology but
+1. **"The product of Hausdorff spaces is Hausdorff."** This is true for the product topology but
     false for the box topology on an infinite product. In the box topology, the product of
     Hausdorff spaces may fail to be Hausdorff because the basis elements are too restrictive.
 
-16. **"Every continuous function on a compact set attains its maximum."** True for functions into
+2. **"Every continuous function on a compact set attains its maximum."** True for functions into
     $\mathbb{R}$ (extreme value theorem), but the codomain matters. A continuous function from a
     compact space into an arbitrary topological space need not attain a "maximum" — the concept
     of maximum requires an order structure.
 
-17. **"A subspace of a connected space is connected."** False. The interval $(0,1) \cup (2,3)$ is a
+3. **"A subspace of a connected space is connected."** False. The interval $(0,1) \cup (2,3)$ is a
     subspace of the connected space $\mathbb{R}$ but is disconnected. Connectedness is not
     hereditary; only open connected subspaces inherit connectedness (closed subspaces may not).
 
-18. **"All open covers of a compact space have a finite subcover."** This is the definition of
+4. **"All open covers of a compact space have a finite subcover."** This is the definition of
     compactness, so it is true by definition. However, a common mistake is thinking that "every
     open cover has a finite subcover" is a property to be proven rather than the definition. The
     difficulty lies in finding the finite subcover, not in stating the definition.
 
-19. **"If $X$ is compact and $f : X \to Y$ is continuous, then $f$ is a homeomorphism onto its
+5. **"If $X$ is compact and $f : X \to Y$ is continuous, then $f$ is a homeomorphism onto its
     image if $f$ is injective."** This requires $Y$ to be Hausdorff. Counterexample: the identity
     map from $[0,1]$ with the discrete topology to $[0,1]$ with the standard topology is
     continuous and bijective but not a homeomorphism (the domain is not compact in the discrete
     topology). For a correct statement: a continuous bijection from a compact space to a
     Hausdorff space is a homeomorphism.
 
-20. **"The one-point compactification of a space is always Hausdorff."** False. The one-point
+6. **"The one-point compactification of a space is always Hausdorff."** False. The one-point
     compactification $X^* = X \cup \{\infty\}$ is Hausdorff if and only if $X$ is locally compact
     and Hausdorff. For example, the one-point compactification of $\mathbb{Q}$ is not Hausdorff
     because $\mathbb{Q}$ is not locally compact.

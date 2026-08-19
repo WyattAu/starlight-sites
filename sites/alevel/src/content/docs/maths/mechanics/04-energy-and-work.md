@@ -622,7 +622,6 @@ Section 5.4.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

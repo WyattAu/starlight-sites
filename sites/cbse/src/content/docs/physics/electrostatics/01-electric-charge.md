@@ -98,8 +98,8 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 ### Additional Practice Problems
 
-4. Three equal charges of $+2 \, \mu\text{C}$ are placed at the vertices of an equilateral triangle of side 0.1 m. Find the net force on any one charge.
-5. A charge $q_1 = +1 \, \mu\text{C}$ is at the origin and $q_2 = +4 \, \mu\text{C}$ is at $x = 6$ m. A third charge is placed at $x = 2$ m. Find the net force on the third charge.
+1. Three equal charges of $+2 \, \mu\text{C}$ are placed at the vertices of an equilateral triangle of side 0.1 m. Find the net force on any one charge.
+2. A charge $q_1 = +1 \, \mu\text{C}$ is at the origin and $q_2 = +4 \, \mu\text{C}$ is at $x = 6$ m. A third charge is placed at $x = 2$ m. Find the net force on the third charge.
 
 ## Intuition
 

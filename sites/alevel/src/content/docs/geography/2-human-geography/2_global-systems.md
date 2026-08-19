@@ -523,8 +523,6 @@ affecting households and national accounts.
 > data; World Bank remittance data; Apple Inc. annual reports; WTO statistics; IMF and World Bank
 > publications.
 
-
-
 ## Cross-References
 
 - **[Physical Geography](../flashcards-physical-geography):** Physical geography studies natural Earth processes

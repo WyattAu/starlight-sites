@@ -45,7 +45,6 @@ $$
 
 Since the one-sided limits are not equal, the limit does not exist.
 
-
 | Limit                                                             | Value |
 | ----------------------------------------------------------------- | ----- |
 | $\displaystyle\lim_{x \to 0} \frac{\sin x}{x}$                    | $1$   |
@@ -77,7 +76,6 @@ Both $\displaystyle\lim_{x \to 0}(-x^2) = 0$ and $\displaystyle\lim_{x \to 0} x^
 
 By the squeeze theorem, $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
-
 ### Continuity
 
 A function $f$ is **continuous** at $x = a$ if all three conditions hold:
@@ -92,9 +90,7 @@ A function $f$ is **continuous** at $x = a$ if all three conditions hold:
 When asked whether a piecewise function is continuous at a boundary point, always check that the
 Left-hand limit, right-hand limit, and function value all agree.
 
-
 ---
-
 
 ## The Derivative
 
@@ -135,7 +131,6 @@ F'(x) &= \lim_\{h \to 0\} \frac\{(x+h)^2 - x^2\}\{h\} \\[6pt]
 \end`\{aligned}`
 $$
 
-
 ### Notation for Derivatives
 
 Several notations are equivalent:
@@ -146,7 +141,6 @@ Several notations are equivalent:
 - $\dot{y}$ — Newton notation (time derivatives in physics)
 
 ---
-
 
 ## Differentiation Rules
 
@@ -187,7 +181,6 @@ $$
 F'(x) = 3x^2 \sin x + x^3 \cos x
 $$
 
-
 ### The Quotient Rule
 
 $$
@@ -199,7 +192,6 @@ $$
 <strong>Exam Tip</strong>
 A useful mnemonic for the quotient rule: "low d-high minus high d-low, over the square of what\'s
 Below."
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -215,7 +207,6 @@ F'(x) &= \frac\{(x-3)(2x) - (x^2+1)(1)\}\{(x-3)^2\} \\[6pt]
 &= \frac\{x^2 - 6x - 1\}\{(x-3)^2\}
 \end`\{aligned}`
 $$
-
 
 ### The Chain Rule
 
@@ -242,7 +233,6 @@ $$
 \frac`\{dy}``\{dx}` = 5u^4 \cdot 6x = 30x(3x^2+1)^4
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -254,9 +244,7 @@ $$
 \frac`\{dy}``\{dx}` = \cos u \cdot 4x = 4x\cos(2x^2+1)
 $$
 
-
 ---
-
 
 ## Derivatives of Standard Functions
 
@@ -284,9 +272,7 @@ The IB formula booklet provides the derivatives of $\sin x$$\cos x$$\tan x$$e^x$
 Memorise the derivatives of the reciprocal trig functions and inverse trig functions as they may not
 Be in all booklets.
 
-
 ---
-
 
 ## Implicit Differentiation
 
@@ -318,7 +304,6 @@ $$
 
 At the point $(3, 4)$: $\dfrac{dy}{dx} = -\dfrac{3}{4}$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -339,7 +324,6 @@ $$
 $$
 \frac`\{dy}``\{dx}` = \frac\{6y - 3x^2\}\{3y^2 - 6x\} = \frac\{2y - x^2\}\{y^2 - 2x\}
 $$
-
 
 ### Second Derivatives Implicitly
 
@@ -365,9 +349,7 @@ $$
 \frac\{d^2y\}\{dx^2\} = -\frac\{y - x\left(-\frac\{x\}\{y\}\right)\}\{y^2\} = -\frac\{y + \frac\{x^2\}\{y\}\}\{y^2\} = -\frac\{y^2 + x^2\}\{y^3\} = -\frac\{25\}\{y^3\}
 $$
 
-
 ---
-
 
 ## Related Rates
 
@@ -404,7 +386,6 @@ $$
 \frac`\{dr}``\{dt}` = \frac\{10\}\{100\pi\} = \frac\{1\}\{10\pi\} \approx 0.0318 \mathrm\{ cm/s\}
 $$
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -427,9 +408,7 @@ $$
 
 The negative sign means the top is sliding down.
 
-
 ---
-
 
 ## Second Derivatives and Higher Derivatives
 
@@ -460,9 +439,7 @@ $$
 F'''(x) = 24x - 18
 $$
 
-
 ---
-
 
 ## Applications of Differentiation
 
@@ -492,7 +469,6 @@ Since $y' = 0$The tangent is horizontal: $y = 0$.
 
 The normal is vertical: $x = 1$.
 
-
 ### Increasing and Decreasing Functions
 
 - $f$ is **increasing** on an interval if $f'(x) \gt 0$ for all $x$ in that interval.
@@ -515,7 +491,6 @@ A **stationary point** occurs where $f'(x) = 0$. There are three types:
 When $f''(x) = 0$ at a stationary point, the second derivative test is inconclusive. You must use
 The first derivative test or check the sign of $f'$ on either side.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -535,10 +510,9 @@ At $x = 1$: $f''(1) = -6 \lt 0$So local maximum. $f(1) = 1 - 6 + 9 + 1 = 5$. Poi
 
 At $x = 3$: $f''(3) = 6 \gt 0$So local minimum. $f(3) = 27 - 54 + 27 + 1 = 1$. Point: $(3, 1)$.
 
-
 ### Concavity and Points of Inflection
 
-\{/* prettier-ignore */\}
+\{/*prettier-ignore*/\}
 <DesmosGraph client:only="solid-js" title="Stationary Points and Concavity" expressions={["f(x)=x^3-3x+1", "\frac{d}`{dx}`F(x)"]} width={800} height={500}  />
 
 Use the sliders to adjust coefficients of a polynomial and observe how $f'(x)$ and $f''(x)$
@@ -553,7 +527,6 @@ Determine stationary points and concavity.
 <strong>Exam Tip</strong>
 Not every point where $f''(x) = 0$ is a point of inflection. The concavity must actually change.
 Always verify by checking the sign of $f''(x)$ on either side.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -581,7 +554,6 @@ Concavity changes at both $x = 0$ and $x = 2$So both are points of inflection.
 At $x = 0$: $f(0) = 0$. Point: $(0, 0)$.
 
 At $x = 2$: $f(2) = 16 - 32 = -16$. Point: $(2, -16)$.
-
 
 ### Optimization
 
@@ -617,7 +589,6 @@ $$
 So $x = 25\mathrm{ cm}$$y = 25\mathrm{ cm}$. The rectangle is a square with area
 $625\mathrm{ cm}^2$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -646,9 +617,7 @@ $$
 
 The optimal open-top can has $h = r$I.e., height equals radius.
 
-
 ---
-
 
 ## L'Hopital\'s Rule
 
@@ -678,9 +647,7 @@ $$
 \lim_\{x \to 0\}\frac\{e^x\}\{2\} = \frac\{1\}\{2\}
 $$
 
-
 ---
-
 
 ## IB Exam-Style Questions
 
@@ -866,7 +833,6 @@ The denominator $x^2 + 1 \neq 0$ for all real $x$So there are no vertical asympt
 
 ---
 
-
 ## Summary of Key Results
 
 | Concept                | Formula                                                     |
@@ -890,13 +856,11 @@ For Paper 2 differentiation questions, always show your working . State which ru
 (product, quotient, chain) and lay out the substitution. Examiners award method marks for Correct
 application of rules even if arithmetic errors occur later.
 
-
 For the A-Level treatment of this topic, see
 [Differentiation](https://alevel.wyattau.com/docs/maths/pure-mathematics/differentiation).
 
 </aside>
 ---
-
 
 <aside class="starlight-aside starlight-aside--tip">
 <strong>Diagnostic Test Ready to test your understanding of **Differentiation**? The contains the hardest questions</strong>

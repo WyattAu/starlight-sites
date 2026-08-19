@@ -67,12 +67,14 @@ For $x + y = 4$: intercepts at $(4, 0)$ and $(0, 4)$.
 For $x + 2y = 6$: intercepts at $(6, 0)$ and $(0, 3)$.
 
 Step 2: Find the corner points of the feasible region:
+
 - $(0, 0)$: origin
 - $(4, 0)$: intersection of $x + y = 4$ with $x$-axis
 - $(0, 3)$: intersection of $x + 2y = 6$ with $y$-axis
 - $(2, 2)$: intersection of $x + y = 4$ and $x + 2y = 6$
 
 Step 3: Evaluate $Z$ at each corner point:
+
 - $Z(0, 0) = 0$
 - $Z(4, 0) = 12$
 - $Z(0, 3) = 6$
@@ -94,11 +96,13 @@ $$x, y \geq 0$$
 Step 1: Graph the constraints. The feasible region is unbounded (extends to infinity).
 
 Step 2: Find corner points:
+
 - $(0, 5)$: intersection of $x + 3y = 15$ with $y$-axis
 - $(15, 0)$: intersection of $2x + y = 10$ with $x$-axis
 - $(3, 4)$: intersection of $2x + y = 10$ and $x + 3y = 15$
 
 Step 3: Evaluate $Z$:
+
 - $Z(0, 5) = 15$
 - $Z(15, 0) = 75$
 - $Z(3, 4) = 5(3) + 3(4) = 27$
@@ -123,6 +127,7 @@ $$x + 3y \leq 9 \quad \text{(Machine II)}$$
 $$x, y \geq 0$$
 
 Corner points:
+
 - $(0, 0)$: $Z = 0$
 - $(4, 0)$: $Z = 1600$
 - $(0, 3)$: $Z = 1500$

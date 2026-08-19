@@ -46,7 +46,6 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
 Them only for internal services where you control the trust store.
 
-
 ## ACME Protocol
 
 The ACME (Automated Certificate Management Environment) protocol, defined in RFC 8555, automates
@@ -301,7 +300,6 @@ openssl rsa -in server-encrypted.key -out server.key
 Manager, Azure Key Vault) or a provisioning tool (Ansible Vault, SOPS) to manage private keys.
 Automated certificate management with certbot or a cloud provider reduces the risk of manual key
 Handling errors.
-
 
 ## TLS Configuration
 
@@ -654,7 +652,6 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

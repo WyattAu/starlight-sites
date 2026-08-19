@@ -176,7 +176,7 @@ frequency-voltage relation is used to maintain the volt standard worldwide.
 ### 12.6 Applications
 
 | Application | Principle | Key Parameters |
-|---|---|---|
+| --- | --- | --- |
 | MRI magnets | Persistent supercurrents in Type II Nb-Ti coils | $B \approx 1.5$--$7$ T; $\lambda \approx 90$ nm |
 | SQUID magnetometers | Flux quantisation in a superconducting loop with Josephson junctions | Sensitivity $\sim 10^{-15}$ T |
 | Josephson voltage standard | AC Josephson effect: $\nu = 2eV/h$ | Accuracy $\sim 10^{-10}$ |
@@ -204,7 +204,7 @@ Superconductivity is the complete disappearance of electrical resistance below a
 ### 12.7 Key Relationships Summary
 
 | Quantity | Expression | Notes |
-|---|---|---|
+| --- | --- | --- |
 | Coherence length | $\xi(T) = \xi_0/\sqrt{1 - T/T_c}$ | Diverges at $T_c$ |
 | Penetration depth | $\lambda(T) = \lambda_0/\sqrt{1 - T/T_c}$ | Diverges at $T_c$ |
 | GL parameter | $\kappa = \lambda/\xi$ | $< 1/\sqrt{2}$: Type I; $> 1/\sqrt{2}$: Type II |
@@ -213,4 +213,3 @@ Superconductivity is the complete disappearance of electrical resistance below a
 | Lower critical field | $B_{c1} = (\Phi_0/4\pi\lambda^2)\ln\kappa$ | GL result |
 | DC Josephson | $I = I_c \sin\delta$ | Phase-dependent supercurrent |
 | AC Josephson | $\nu = 2eV/h$ | Frequency-voltage relation |
-

@@ -214,11 +214,11 @@ $$f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} =
 
 ## Additional Exam Tips
 
-6. For logarithmic differentiation, take $\ln$ of both sides first, then differentiate implicitly. This is useful for functions of the form $f(x)^{g(x)}$.
-7. The derivative of $\ln|f(x)|$ is $\frac{f'(x)}{f(x)}$ — remember the absolute value for the domain.
-8. When differentiating inverse trigonometric functions, always apply the chain rule: $\frac{d}{dx}[\tan^{-1}(u)] = \frac{u'}{1 + u^2}$.
-9. For piecewise functions, check differentiability at the boundary by verifying that the left and right derivatives are equal.
-10. In CBSE exams, questions often combine multiple rules (product + chain, quotient + chain). Practice identifying which rules to apply in which order.
+1. For logarithmic differentiation, take $\ln$ of both sides first, then differentiate implicitly. This is useful for functions of the form $f(x)^{g(x)}$.
+2. The derivative of $\ln|f(x)|$ is $\frac{f'(x)}{f(x)}$ — remember the absolute value for the domain.
+3. When differentiating inverse trigonometric functions, always apply the chain rule: $\frac{d}{dx}[\tan^{-1}(u)] = \frac{u'}{1 + u^2}$.
+4. For piecewise functions, check differentiability at the boundary by verifying that the left and right derivatives are equal.
+5. In CBSE exams, questions often combine multiple rules (product + chain, quotient + chain). Practice identifying which rules to apply in which order.
 
 ## Intuition
 

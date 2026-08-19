@@ -907,7 +907,6 @@ $$\Delta H_\mathrm{lat,diss}^\circ = -83 + 1650 + 762 = +2329\,\mathrm{kJ/mol}$$
 
 </details>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**

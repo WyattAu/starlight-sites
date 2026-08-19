@@ -20,7 +20,6 @@ encoding/json, and os.
 
 ---
 
-
 ## Intuition
 
 Go's standard library is deliberately comprehensive — the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader`, `Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
@@ -44,7 +43,6 @@ Go's standard library is deliberately comprehensive — the language philosophy 
 - **Study the context package:** Context controls cancellation, timeouts, and request-scoped values in Go programs. Understanding context is essential for writing production-grade Go services.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="go-standard-library" title="Go: Standard Library" description="Key functions and interfaces from Go's most commonly used packages." cards={flashcardData}  />
 

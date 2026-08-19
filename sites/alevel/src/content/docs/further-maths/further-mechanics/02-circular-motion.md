@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -841,7 +840,6 @@ Banking the curve dramatically reduces the required friction coefficient from 0.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1368,4 +1366,3 @@ $T = \dfrac{2\pi}{\omega} = \boxed{2\pi\sqrt{l/g}}$. $\blacksquare$
 - [Centres of Mass and Elastic Collisions](03-centres-of-mass-and-elastic-collisions) extends particle dynamics to systems of particles, using momentum conservation alongside force analysis.
 - [Further Calculus](../pure-mathematics/04-further-calculus) provides the differentiation and integration methods required for angular velocity, angular acceleration, and energy derivations in circular motion.
 - [Vectors in 3D](../pure-mathematics/09-vectors-in-3d) supplies the vector notation and resolution techniques used to analyse forces in vertical and horizontal circles.
-

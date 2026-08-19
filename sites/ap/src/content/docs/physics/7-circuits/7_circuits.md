@@ -170,7 +170,6 @@ $$
 I_2 = \frac{6 + 3(2.516)}{5} = \frac{13.548}{5} = 2.710\,\text{A
 $$
 
-
 ## RC Circuits
 
 An RC circuit contains a resistor and a capacitor. The behavior is governed by a first-order ODE and
@@ -288,7 +287,6 @@ $Q(1) = C\mathcal{E}(1 - e^{-1}) = (5 \times 10^{-6})(12)(1 - 0.368) = 60 \times
 (c) $I(1) = \frac{\mathcal{E}}{R}e^{-1} = \frac{12}{200000} \times 0.368 = 22.1\,\mu\text{A$
 
 (d) $0.95 = 1 - e^{-t}$So $e^{-t} = 0.05$, $t = -\ln(0.05) = 3.0\,\text{s = 3\tau$.
-
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">
@@ -477,7 +475,6 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

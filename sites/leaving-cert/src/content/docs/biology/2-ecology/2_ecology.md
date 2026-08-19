@@ -126,21 +126,21 @@ Carbon is stored in:
 - By nitrogen-fixing bacteria (e.g., Rhizobium in root nodules of legumes).
 - By industrial process (Haber process).
 
-2. **Nitrification:** conversion of ammonia to nitrites ($\mathrm{NO_2^-$) and then nitrates
+1. **Nitrification:** conversion of ammonia to nitrites ($\mathrm{NO_2^-$) and then nitrates
    ($\mathrm{NO_3^-$).
 
 - By nitrifying bacteria (Nitrosomonas, Nitrobacter).
 
-3. **Absorption:** plants absorb nitrates through their roots.
+1. **Absorption:** plants absorb nitrates through their roots.
 
-4. **Assimilation:** plants use nitrates to make amino acids and proteins.
+2. **Assimilation:** plants use nitrates to make amino acids and proteins.
 
-5. **Feeding:** animals obtain nitrogen by eating plants or other animals.
+3. **Feeding:** animals obtain nitrogen by eating plants or other animals.
 
-6. **Decomposition:** decomposers break down dead organisms and waste, returning ammonia to the
+4. **Decomposition:** decomposers break down dead organisms and waste, returning ammonia to the
    soil.
 
-7. **Denitrification:** conversion of nitrates back to $\mathrm{N_2$ gas.
+5. **Denitrification:** conversion of nitrates back to $\mathrm{N_2$ gas.
 
 - By denitrifying bacteria (in waterlogged, anaerobic soil).
 
@@ -634,7 +634,7 @@ When it is impractical to count every individual in a population, biologists use
 where $N$ = estimated population size, $M$ = number marked in first sample, $C$ = total captured in
 second sample, $R$ = number of marked individuals recaptured.
 
-3. **Transect sampling:** A line or belt transect is laid across a habitat, and organisms touching
+1. **Transect sampling:** A line or belt transect is laid across a habitat, and organisms touching
    the line (or within the belt) are recorded. This is useful for studying how species distribution
    changes across an environmental gradient (e.g., from low tide to high tide on a rocky shore).
 

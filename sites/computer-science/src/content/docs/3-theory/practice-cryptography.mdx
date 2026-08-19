@@ -24,7 +24,6 @@ signatures, key exchange, and post-quantum cryptography. Select an option to che
 
 ---
 
-
 ## Symmetric Encryption and Block Cipher Modes
 
 <PracticeProblem client:only="solid-js" question={"Which block cipher mode should never be used for messages longer than one block, and why?&quot; options={[ 'ECB (Electronic Codebook): identical plaintext blocks produce identical ciphertext blocks, revealing patterns', 'CBC (Cipher Block Chaining): it does not propagate errors', 'CTR (Counter): it is not parallelizable', 'GCM (Galois/Counter): it does not provide authentication', ]} correctAnswer={0} explanation=&quot;ECB encrypts each block independently with the same key, so identical plaintext blocks produce identical ciphertext blocks. This reveals patterns (e.g., the 'ECB penguin' image). CBC chains blocks ($C_i = E_K(P_i \\oplus C_{i-1})$), CTR turns a block cipher into a stream cipher, and GCM adds authentication. Never use ECB for multi-block messages."} difficulty="easy"  />
@@ -50,7 +49,6 @@ signatures, key exchange, and post-quantum cryptography. Select an option to che
 <PracticeProblem client:only="solid-js" question={"What does forward secrecy in a key exchange protocol guarantee?&quot; options={[ 'If long-term keys are compromised, past session keys remain secure', 'Future sessions are protected against quantum attacks', 'The protocol never needs to exchange new keys', 'All messages are encrypted with the same key indefinitely', ]} correctAnswer={0} explanation=&quot;Forward secrecy (perfect forward secrecy) means that compromising a long-term private key does not allow decryption of past session communications. This is achieved by using ephemeral key exchange (DHE or ECDHE) where each session generates fresh key pairs that are discarded afterward. Static DH does not provide forward secrecy."} difficulty="easy"  />
 
 ---
-
 
 ## Additional Cryptography Questions
 

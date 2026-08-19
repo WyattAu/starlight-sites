@@ -1672,7 +1672,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 
-Abstraction is hiding complexity behind simplicity. When you drive a car, you use the steering wheel and pedals without thinking about the engine's combustion cycle. In computing, abstraction means presenting a simplified view of a system while hiding the implementation details. A conceptual model describes *what* the system does (the problem); a physical model describes *how* it's implemented (the solution).
+Abstraction is hiding complexity behind simplicity. When you drive a car, you use the steering wheel and pedals without thinking about the engine's combustion cycle. In computing, abstraction means presenting a simplified view of a system while hiding the implementation details. A conceptual model describes _what_ the system does (the problem); a physical model describes _how_ it's implemented (the solution).
 
 Data management is about organising information efficiently. A database stores data in tables with rows (records) and columns (fields). Relationships between tables are managed through primary keys (unique identifiers) and foreign keys (links to other tables). The ER model helps you design the database logically before worrying about the specific database software. Normalisation eliminates redundancy — you don't want to store the same student's name in 50 different places.
 

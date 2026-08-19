@@ -271,6 +271,7 @@ Damage). Demand: $P = 100 - Q$.
 - Optimal tax: $t^* = MEC(36) = 18$
 - With tax, firm faces: $MPC + t = 10 + Q + 18 = 28 + Q$. Equilibrium:
 $100 - Q = 28 + Q \Rightarrow Q = 36$ ✓
+
 </details>
 
 ### 4.2 Subsidies
@@ -884,6 +885,7 @@ road pricing rather than investment in public transport." Evaluate this statemen
 - Analysis (6 marks): chains of reasoning showing how each policy affects the market.
 - Evaluation (7 marks): balanced judgement considering effectiveness, equity, political feasibility,
 and complementarity.
+
 </details>
 
 **Question 2 (25 marks).** "Government intervention to correct market failure always improves
@@ -927,6 +929,7 @@ economic welfare." To what extent do you agree?
 - Application (6 marks): real-world examples of both successful and unsuccessful intervention.
 - Analysis (6 marks): chains of reasoning showing how intervention works and how it can fail.
 - Evaluation (7 marks): balanced judgement with clear conclusion supported by evidence.
+
 </details>
 
 **Question 3 (12 marks).** Using the data below, calculate the deadweight loss of the free market

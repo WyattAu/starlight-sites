@@ -462,16 +462,16 @@ When a service is not reachable through Traefik:
 docker logs traefik --tail 100
 ```
 
-2. **Verify labels are applied**:
+1. **Verify labels are applied**:
 
 ```bash
 docker inspect jellyfin | jq '.[0].Config.Labels'
 ```
 
-3. **Check the dashboard**. All routers should show a green status. Red or yellow means a
+1. **Check the dashboard**. All routers should show a green status. Red or yellow means a
    configuration error.
 
-4. **Common issues**:
+2. **Common issues**:
 
 - Container not on the `proxy-network` → Traefik cannot reach it
 - `traefik.enable=true` label missing or misspelled
@@ -480,7 +480,7 @@ docker inspect jellyfin | jq '.[0].Config.Labels'
 - Certificate pending: Let's Encrypt has rate limits. Check `acme.json` for error messages
 - `exposedbydefault=false` means you must explicitly enable each service with labels
 
-5. **Increase log level** temporarily:
+1. **Increase log level** temporarily:
 
 ```yaml
 command:

@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Arithmetic and geometric sequences model different types of growth — constant addition versus constant multiplication — capturing patterns from savings accounts to population dynamics
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for sequences and series.

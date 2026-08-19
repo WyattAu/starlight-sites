@@ -20,7 +20,6 @@ description: "A-Level English coursework guide: NEA requirements, independent re
 }
 </script>
 
-
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**
@@ -73,7 +72,7 @@ Select texts that:
 ### Recommended Pairings
 
 | Text A | Text B | Connection |
-|--------|--------|------------|
+| -------- | -------- | ------------ |
 | _Jane Eyre_ (Brontë) | _Wide Sargasso Sea_ (Rhys) | Colonialism, gender, Gothic |
 | _The Great Gatsby_ (Fitzgerald) | _An American Tragedy_ (Dreiser) | American Dream, class |
 | _Heart of Darkness_ (Conrad) | _Things Fall Apart_ (Achebe) | Postcolonial critique |
@@ -107,10 +106,12 @@ You must demonstrate engagement with critical perspectives. This does not mean s
 Effective essay titles are specific, arguable, and analytical. They should not be broad topics but focused arguments.
 
 **Weak titles**:
+
 - "Comparison of _Jane Eyre_ and _Wide Sargasso Sea_"
 - "The theme of gender in two novels"
 
 **Strong titles**:
+
 - "How do Brontë and Rhys use first-person narration to explore the tension between female autonomy and patriarchal constraint?"
 - "In what ways do _Heart of Darkness_ and _Things Fall Apart_ challenge and reinforce each other's representations of colonial encounter?"
 - "Compare the ways in which Shelley and Ishiguro use scientific creation as a lens for examining ethical responsibility and human identity."

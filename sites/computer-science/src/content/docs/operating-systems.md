@@ -893,6 +893,7 @@ Translate logical address (segment = 1, offset = 1500):
 Translate (segment = 2, offset = 2500):
 
 1. Check: offset $2500 \lt$ limit $2048$. **Invalid**. Segmentation fault.
+
 </details>
 
 ### 5.4 Segmented Paging
@@ -2161,6 +2162,7 @@ gaining control of execution when the function returns.
   address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
+
 </details>
 
 ## Common Pitfalls
@@ -2230,7 +2232,6 @@ $\blacksquare$
 | Computer Networks              | WyattsNotes | [View](computer-networks)          |
 | Databases                      | WyattsNotes | [View](2-systems/databases)                  |
 | Operating Systems — MIT 6.S081 | MIT         | [View](https://pdos.csail.mit.edu/6.828/2021/schedule.html)   |
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

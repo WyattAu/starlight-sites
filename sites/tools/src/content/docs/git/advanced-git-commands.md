@@ -121,7 +121,6 @@ git replace --graft <commit> <parent1> <parent2>
 `refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
 And could not be pushed or shared.
 
-
 ### Editing an Object for Replacement
 
 ```bash
@@ -194,7 +193,6 @@ git filter-repo --replace-refs delete-no-add
 <aside class="starlight-aside starlight-aside--caution">
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
 Your team before pushing replacement refs.
-
 
 ### Comparison Table
 
@@ -443,7 +441,6 @@ to O(n log n) by using a balanced BST. Benchmarked on 10M records:
 Access to `refs/notes/commits` can modify notes. Do not rely on notes for security-critical
 Metadata.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -618,7 +615,6 @@ v2.3.1-5-ga3f2b1c
 Design choice: annotated tags carry metadata (tagger, date, message) that makes them suitable for
 Release identification.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -746,7 +742,6 @@ The `text` attribute controls CRLF/LF conversion:
 (not binary). Using `* text=auto eol=lf` in the root `.gitattributes` is the recommended practice
 For cross-platform projects. It normalizes committed files to LF while letting Windows developers
 Check out with CRLF if their `core.autocrlf` is set.
-
 
 ### Binary Detection
 
@@ -924,7 +919,6 @@ $ git add --renormalize .
 $ git commit -m "Normalize line endings per .gitattributes"
 ```
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1000,7 +994,6 @@ git submodule update --remote libs/repo
 <aside class="starlight-aside starlight-aside--note">
 Branch name. The tracking branch tells `git submodule update --remote` which branch to fetch From.
 
-
 ### Shallow Submodules
 
 ```bash
@@ -1031,7 +1024,6 @@ git commit -m "Remove libs/repo submodule"
 <aside class="starlight-aside starlight-aside--caution">
 configuration in `.gitmodules` and `.git/modules/`. This causes errors for anyone cloning the
 Repository. Always follow the full removal procedure.
-
 
 ### Common Pitfalls
 
@@ -1191,7 +1183,6 @@ $ git bundle verify build-1234.bundle
 <aside class="starlight-aside starlight-aside--caution">
 And tags, always use `--all`. If you need to include unreachable objects (e.g., dangling commits),
 Use `git bundle create repo.bundle --all --reflog`.
-
 
 ---
 
@@ -1377,7 +1368,6 @@ $ make -C ../build-v2.4 release
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
 Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1515,7 +1505,6 @@ $ git reflog expire --expire=2026-01-01 --all
 Collection from reclaiming objects referenced only by the reflog. Over time, this can significantly
 Increase repository size. For large repositories, consider a reasonable expiry period (e.g., 365
 Days) instead.
-
 
 ### Reflog and `git gc`
 
@@ -1667,7 +1656,6 @@ $ git update-ref -d refs/heads/broken-branch
 Methodically: identify, back up, then repair. If the `.git` directory itself is corrupted (e.g.,
 From disk failure), restore from backup before attempting Git-level repairs.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1794,7 +1782,6 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 <aside class="starlight-aside starlight-aside--note">
 Conflict context changes even slightly, `rerere` will not match and you will need to resolve
 Manually. The resolution is then recorded for future use.
-
 
 ---
 
@@ -1984,7 +1971,6 @@ $ git am --abort
 Information (not author) will be different. If you need to preserve exact commit hashes, use
 `git cherry-pick` or `git merge` instead.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -2131,7 +2117,6 @@ $ git send-email --to maintainer@project.org \
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
 Patch content before sending.
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -2175,7 +2160,6 @@ $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous with
 <aside class="starlight-aside starlight-aside--caution">
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
 From.
-
 
 ### Ambiguous Argument Errors
 
@@ -2226,11 +2210,10 @@ Explicitly run `git submodule update --init --recursive` after pulling. Configur
 `submodule.recurse` to automate this:
 
 ```bash
-$ git config submodule.recurse true
+git config submodule.recurse true
 ```
 
 This makes `git pull``git checkout`And `git switch` also update submodules recursively.
-
 
 ### Worktree and Branch Conflicts
 
@@ -2441,7 +2424,6 @@ $\blacksquare$
 - `git replace` substitutes one object for another without rewriting history; useful for grafting.
 - `git bisect` uses binary search to find the commit that introduced a bug; $O(\log n)$ steps.
 - `git stash` temporarily shelves working directory changes; `git stash pop` restores them.
-
 
 </aside>
 

@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Markets are like ecosystems — supply and demand are the predators and prey that keep them in balance.**
@@ -472,8 +471,6 @@ unintended consequences that make the original problem worse.
 **Assuming public goods are always provided by the government:** Public goods are characterised by non-excludability and non-rivalry, leading to the free-rider problem. While governments often provide public goods, private firms can sometimes provide club goods (excludable but non-rival) or use technology to make previously non-excludable goods excludable (e.g., encryption for digital content).
 
 **Confusing allocative and productive efficiency:** Allocative efficiency occurs when $P = MC$ (resources produce what society values most). Productive efficiency occurs at the minimum of the ATC curve (goods are produced at lowest cost). A firm can be productively efficient but allocatively inefficient (e.g., a monopoly producing at minimum ATC but above MC).
-
-
 
 ## Cross-References
 

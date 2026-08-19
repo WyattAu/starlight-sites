@@ -191,7 +191,6 @@ ps -eo pid,stat,comm
 is waiting for disk I/O that will never complete (e.g., NFS server down, failed disk). The Only way
 to clear it is to fix the underlying I/O or reboot.
 
-
 ## Signals
 
 Signals are asynchronous notifications delivered to processes. They are the kernel's primary
@@ -487,7 +486,6 @@ chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 <aside class="starlight-aside starlight-aside--caution">
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
 Only for well-understood, bounded workloads (audio processing, industrial control).
-
 
 ## cgroups
 
@@ -803,10 +801,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Processes are like workers in a factory -- each has a task (program), a workspace (memory), and a status (running, sleeping, stopped). Fork is like cloning a worker: the child gets a copy of the parent's workspace. Exec is like giving the clone a new task -- same worker, different job. Wait is the parent checking in on the child. Signals are like alarm bells: SIGTERM asks a process to shut down politely, SIGKILL forces it to stop immediately, and SIGHUP tells it to re-read its configuration. The key insight is that process management is about resource allocation: the kernel decides which worker gets the CPU, how much memory they can use, and when they get休息.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

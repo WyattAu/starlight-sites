@@ -6,8 +6,8 @@
  * Usage: node generate-rss.mjs
  */
 
-import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'node:fs'
-import { join, basename, relative, extname } from 'node:path'
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { basename, extname, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
@@ -49,11 +49,11 @@ function getAllPages(contentDir, baseUrl) {
       } else if (/\.(md|mdx)$/.test(entry.name)) {
         const relPath = relative(contentDir, fullPath)
         // Convert file path to URL slug
-        let slug = relPath
+        const slug = relPath
           .replace(/\.(md|mdx)$/, '')
           .replace(/\/index$/, '')
-          .replace(/^\d+[-_]?/, '')  // Remove leading number prefix
-          .replace(/\d+[-_]/g, '')   // Remove other number prefixes in path segments
+          .replace(/^\d+[-_]?/, '') // Remove leading number prefix
+          .replace(/\d+[-_]/g, '') // Remove other number prefixes in path segments
 
         // Build URL
         const url = `${baseUrl}/${slug}`
@@ -104,7 +104,20 @@ function getAllPages(contentDir, baseUrl) {
 
 function formatDateRFC822(date) {
   const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  const months = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ]
   return `${days[date.getUTCDay()]}, ${String(date.getUTCDate()).padStart(2, '0')} ${months[date.getUTCMonth()]} ${date.getUTCFullYear()} ${String(date.getUTCHours()).padStart(2, '0')}:${String(date.getUTCMinutes()).padStart(2, '0')}:${String(date.getUTCSeconds()).padStart(2, '0')} +0000`
 }
 
@@ -122,17 +135,19 @@ function generateRSS(config, pages, baseUrl) {
   // Take up to 15 pages (matching existing RSS feeds)
   const items = sortedPages.slice(0, 15)
 
-  const itemsXml = items.map((page, i) => {
-    const pubDate = new Date(today)
-    pubDate.setUTCDate(pubDate.getUTCDate() - i)
-    return `    <item>
+  const itemsXml = items
+    .map((page, i) => {
+      const pubDate = new Date(today)
+      pubDate.setUTCDate(pubDate.getUTCDate() - i)
+      return `    <item>
       <title>${escapeXml(page.title)}</title>
       <link>${page.url}</link>
       <description>${escapeXml(page.description)}</description>
       <pubDate>${formatDateRFC822(pubDate)}</pubDate>
       <guid>${page.url}</guid>
     </item>`
-  }).join('\n')
+    })
+    .join('\n')
 
   // Add homepage as last item
   const homeDate = new Date(today)

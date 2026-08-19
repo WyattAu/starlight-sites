@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
@@ -429,8 +428,6 @@ calculation (1 mark).
 **Forgetting to convert between units in gas calculations:** The ideal gas equation $pV = nRT$ requires consistent SI units: pressure in Pa (not kPa or atm), volume in m$^3$ (not dm$^3$ or cm$^3$). A common error is using $p = 100$ when it should be $p = 100\,000$ Pa, or forgetting that $1\,\text{m}^3 = 1000\,\text{dm}^3$.
 
 **Confusing atom economy with percentage yield:** Atom economy measures how many atoms from the reactants end up in the desired product (a measure of waste). Percentage yield measures how much product you actually get compared to the theoretical maximum. A reaction can have 100% atom economy but a low yield, or vice versa.
-
-
 
 ## Cross-References
 

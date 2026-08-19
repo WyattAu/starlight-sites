@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Evolution is like a family tree that stretches back millions of years — branching, adapting, and sometimes going extinct.**

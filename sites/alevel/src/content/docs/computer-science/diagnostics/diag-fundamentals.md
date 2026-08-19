@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -329,8 +328,6 @@ Maximum propagation delay: $44\text{ ns}$.
 **Forgetting that processors fetch-execute in a cycle:** The fetch-decode-execute cycle repeats for every instruction. Students sometimes describe it as a one-time process. Each instruction goes through: fetch from memory, decode the opcode, execute the operation, store the result, then increment the program counter and fetch the next instruction.
 
 **Confusing volatile and non-volatile memory:** Volatile memory (RAM) loses its contents when power is off. Non-volatile memory (ROM, SSD, HDD) retains data without power. Cache is volatile. This distinction matters when discussing boot processes, data persistence, and memory hierarchy.
-
-
 
 ## Cross-References
 

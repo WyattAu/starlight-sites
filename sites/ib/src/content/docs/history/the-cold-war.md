@@ -1185,10 +1185,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-
 ## Intuition
 
 The Cold War was like two chess grandmasters locked in a game where neither could afford to lose -- Mutually Assured Destruction turned the nuclear arsenal into the world's most expensive peacekeeping force. The paradox is that the weapons designed to destroy civilisation prevented the war that would have destroyed it. Understanding the Cold War requires thinking in systems: the arms race was not a series of independent decisions but a feedback loop where each side's actions provoked reactions that both sides had anticipated but could not prevent. Détente emerged when both players recognised that the game itself was becoming unwinnable.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -1200,4 +1200,3 @@ linked above.
 - [Supply-Side Policy](../economics/2-macroeconomics/4-supply-side-policy) -- Economic competition between superpowers involved supply-side policies and central planning.
 - [Game Theory and Behavioural Economics](../economics/6-game-theory/1_game-theory-and-behavioural) -- Nuclear deterrence strategy is a real-world application of game-theoretic models.
 - [Descriptive Statistics](../economics/5-quantitative-economics/1-descriptive-statistics) -- Comparing economic performance of the US and USSR requires the quantitative skills covered in this topic.
-

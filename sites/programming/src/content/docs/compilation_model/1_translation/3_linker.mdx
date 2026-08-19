@@ -53,6 +53,7 @@ Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` mus
 
 - Correct: `clang++ main.o -lA -lB`
 - Incorrect: `clang++ main.o -lB -lA` (Linker fails: Symbols in A are undefined).
+
 </aside>
 ### Weak vs. Strong vs. Common Symbols
 

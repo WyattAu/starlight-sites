@@ -119,8 +119,8 @@ Representation is unique (up to reordering) for a given constraint expression.
 
 - $(A \land B) \lor C \to (A \lor C) \land (B \lor C)$
 
-3. Collect atomic constraints within each conjunction.
-4. Remove duplicate atomic constraints within each conjunction.
+1. Collect atomic constraints within each conjunction.
+2. Remove duplicate atomic constraints within each conjunction.
 
 **Example:**
 
@@ -976,6 +976,7 @@ Understanding these concepts thoroughly is essential for both examinations and p
 programming, and requires both theoretical knowledge and hands-on practice.
 
 ## See Also
+
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)

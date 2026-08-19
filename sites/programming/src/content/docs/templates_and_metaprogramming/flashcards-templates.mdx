@@ -18,7 +18,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-
 <FlashcardDeck client:only="solid-js"   deckId="cpp-templates"
   title="C++ Templates and Metaprogramming Flashcards"
   description="Interactive flashcards on C++ templates, SFINAE, concepts, variadic templates, fold expressions, type traits, CRTP, and compile-time computation."
@@ -42,6 +41,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 3. **Forgetting that templates are instantiated per type:** Each unique combination of template arguments generates a new class or function. This can lead to code bloat — `vector<int>` and `vector<double>` are completely separate classes. Use explicit instantiation to reduce compile times and code size.
 
 4. **CRTP is compile-time polymorphism, not runtime:** The Curiously Recurring Template Pattern (CRTP) gives you static polymorphism — the derived class is known at compile time. If you need runtime polymorphism, use virtual functions. CRTP is for when you know the types at compile time and want zero overhead.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Programming notes.

@@ -113,7 +113,7 @@ is a key signature of a Fermi liquid. $\blacksquare$
 ### Summary of Key Thermodynamic Potentials
 
 | Potential | Symbol | Natural Variables | Differential |
-|-----------|--------|-------------------|--------------|
+| ----------- | -------- | ------------------- | -------------- |
 | Internal energy | $U$ | $S, V, N$ | $dU = TdS - PdV + \mu dN$ |
 | Enthalpy | $H$ | $S, P, N$ | $dH = TdS + VdP + \mu dN$ |
 | Helmholtz free energy | $F$ | $T, V, N$ | $dF = -SdT - PdV + \mu dN$ |

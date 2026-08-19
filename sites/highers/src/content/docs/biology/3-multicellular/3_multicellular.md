@@ -196,7 +196,7 @@ Bloodstream.
 - Increased glucose uptake by cells
 - Increased respiration
 
-4. Blood glucose falls to normal
+1. Blood glucose falls to normal
 
 **Between meals / during exercise (blood glucose falls):**
 
@@ -207,7 +207,7 @@ Bloodstream.
 - Glycogenolysis (glycogen to glucose in liver)
 - Gluconeogenesis (amino acids/lactate to glucose)
 
-4. Blood glucose rises to normal
+1. Blood glucose rises to normal
 
 **Diabetes:**
 

@@ -147,8 +147,6 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
-
 ## Cross-References
 
 - **[Pure Mathematics](../further-maths/pure-mathematics/04-further-calculus):** Pure maths extends A-level topics

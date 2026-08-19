@@ -21,7 +21,7 @@ const CHANGES = []
 const ERRORS = []
 
 function log(msg) {
-  process.stdout.write(msg + '\n')
+  process.stdout.write(`${msg}\n`)
 }
 
 function logChange(file, action) {
@@ -102,7 +102,7 @@ function buildRelativeLink(orphanPath, targetPath, targetTitle) {
 
   // Normalize: ensure relative links start with ./
   if (!rel.startsWith('.') && !rel.startsWith('/')) {
-    rel = './' + rel
+    rel = `./${rel}`
   }
 
   return `[${targetTitle}](${rel})`
@@ -146,7 +146,7 @@ function findRelatedPages(orphanRelPath, docsRoot) {
 
     // Parent directory index: link up
     const parentDir = path.dirname(orphanDir)
-    if (fileDir === parentDir && (fileBase === 'index')) {
+    if (fileDir === parentDir && fileBase === 'index') {
       score += 8
     }
 
@@ -198,8 +198,18 @@ function findRelatedPages(orphanRelPath, docsRoot) {
  * Simple filename similarity based on shared words.
  */
 function filenameSimilarity(a, b) {
-  const wordsA = new Set(a.toLowerCase().split(/[-_\d]+/).filter(w => w.length > 2))
-  const wordsB = new Set(b.toLowerCase().split(/[-_\d]+/).filter(w => w.length > 2))
+  const wordsA = new Set(
+    a
+      .toLowerCase()
+      .split(/[-_\d]+/)
+      .filter(w => w.length > 2),
+  )
+  const wordsB = new Set(
+    b
+      .toLowerCase()
+      .split(/[-_\d]+/)
+      .filter(w => w.length > 2),
+  )
   if (wordsA.size === 0 || wordsB.size === 0) return 0
 
   let shared = 0
@@ -234,7 +244,7 @@ function addSeeAlsoSection(content, links) {
   const lines = links.map(link => `- ${link}`).join('\n')
   // Ensure content ends with a newline before adding
   const trimmed = content.replace(/\s+$/, '')
-  return trimmed + '\n\n## See Also\n\n' + lines + '\n'
+  return `${trimmed}\n\n## See Also\n\n${lines}\n`
 }
 
 /**

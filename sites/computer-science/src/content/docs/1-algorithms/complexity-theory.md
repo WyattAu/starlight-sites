@@ -257,6 +257,7 @@ SAT
 2. **SAT is NP-hard:** Every NP problem $L$ can be decided by a nondeterministic TM $M$ in polynomial time. Given any instance $x$ of $L$, construct a Boolean formula $\phi_{M,x}$ that is satisfiable iff $M$ accepts $x$.
 
 **Construction of $\phi_{M,x}$:**
+
 - Encode the computation of $M$ on $x$ as a tableau (2D grid of cell states).
 - Each cell's state depends on its neighbors (TM transition function).
 - Assert: initial configuration is correct, transitions are valid, accepting state is reached.
@@ -372,10 +373,12 @@ Some problems cannot be approximated within any constant factor unless P = NP.
 ## Worked Examples
 
 ### Example 1: Proving a Language is in P
+
 **Problem:** Prove that the language PATH = {(G, u, v) : G is a directed graph with a path from u to v} is in P.
 **Solution:** BFS or DFS from u in G takes O(V + E) time, which is polynomial in the input size. If v is reached, accept; otherwise reject. Since there exists a polynomial-time algorithm, PATH is in P.
 
 ### Example 2: NP-Completeness Reduction
+
 **Problem:** Prove that 3-SAT is NP-hard by reducing from SAT.
 **Solution:** Given a CNF formula phi, transform each clause into a set of exactly 3 literals. For clauses with 1 literal (l), replace with (l OR x OR NOT x) where x is a new variable. For clauses with 2 literals (l1 OR l2), replace with (l1 OR l2 OR x) AND (l1 OR l2 OR NOT x). This produces an equisatisfiable 3-CNF formula in polynomial time. Therefore, 3-SAT is NP-hard. Since 3-SAT is in NP, it is NP-complete.
 
@@ -396,7 +399,7 @@ Complexity theory classifies problems by their inherent difficulty. P contains p
 ## Cross-References
 
 | Topic | Link |
-|-------|------|
+| ------- | ------ |
 | Algorithm Design | [View](algorithm-design) |
 | Data Structures | [View](/university/computer-science/data-structures) |
 | Graph Algorithms | [View](../../../../../alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms) |

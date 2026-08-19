@@ -35,7 +35,7 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 ## Core Concepts
 
 | Branch | Core Idea | Key Equations | Common Pitfall |
-|--------|-----------|---------------|----------------|
+| -------- | ----------- | --------------- | ---------------- |
 | Thermodynamics | Energy conservation and spontaneity | $\Delta G = \Delta H - T\Delta S$ | Assuming $\Delta H < 0$ guarantees spontaneity |
 | Kinetics | Reaction rates and mechanisms | $k = A e^{-E_a/RT}$ (Arrhenius) | Confusing rate with equilibrium constant |
 | Quantum Chemistry | Wave-particle duality and orbitals | $\hat{H}\psi = E\psi$ | Treating electrons as particles in orbitals |
@@ -64,6 +64,7 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 **Memorising reaction mechanisms without understanding electron flow:** Organic chemistry mechanisms follow electron-pushing rules (nucleophiles attack electrophiles, arrows go from electron-rich to electron-poor). Memorising specific mechanisms without understanding this principle makes it impossible to predict products of unfamiliar reactions.
 
 ## See Also
+
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
@@ -76,4 +77,3 @@ Chemistry is the science of matter and its transformations — what things are m
 The three branches of chemistry — physical, organic, and inorganic — are different perspectives on the same fundamental question: why do substances behave the way they do? Physical chemistry provides the thermodynamic and quantum mechanical framework: thermodynamics tells you whether a reaction will happen (ΔG < 0 means spontaneous), kinetics tells you how fast it will happen (activation energy determines the rate), and quantum mechanics explains why bonds form and why molecules have specific shapes. Organic chemistry applies these principles to carbon-based molecules, where the versatility of carbon's four bonds creates an enormous diversity of structures and reactions. Inorganic chemistry covers coordination compounds and solid-state structures where metal-ligand bonding and crystal field theory explain colour, magnetism, and reactivity.
 
 The practical power of chemistry lies in prediction. If you understand that nucleophiles attack electrophiles, you can predict the products of reactions you've never seen before. If you understand that ΔG = ΔH - TΔS, you can predict whether a reaction becomes more or less spontaneous as temperature changes. If you understand molecular orbital theory, you can explain why O₂ is paramagnetic and why benzene is unusually stable. Chemistry is not about memorising thousands of reactions — it's about understanding a small number of principles that generate all the rest.
-

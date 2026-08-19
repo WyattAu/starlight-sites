@@ -31,7 +31,6 @@ course and connects closely to themes of development, resource management, and u
 
 **The key insight:** Population patterns reflect the interplay of physical geography, economics, history, and culture
 
-
 ## Contents
 
 - [Demographic Transition Model](./population/demographic-transition-model) -- the DTM, its stages,
@@ -181,8 +180,6 @@ theories (Lee's model, push-pull factors), population policies (pro-natalist and
 the Malthus-Boserup debate. Students must analyse demographic data, evaluate population policies
 with case study evidence, and understand how population dynamics interact with development and
 resource management.
-
-
 
 ## Cross-References
 

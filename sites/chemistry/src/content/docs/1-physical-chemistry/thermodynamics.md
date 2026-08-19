@@ -246,6 +246,7 @@ For a single-component system ($C = 1$): $F = 3 - P$. At a triple point ($P = 3$
 ### 7.3 Two-Component Systems
 
 For binary mixtures, common diagrams include:
+
 - **Temperature-composition diagrams** for liquid-vapor equilibrium (distillation).
 - **Eutectic diagrams** for solid-liquid equilibrium.
 - **Lever rule:** Determines the mass fractions of phases in a two-phase region.
@@ -439,10 +440,12 @@ $$K = \prod_i a_i^{\nu_i}$$
 ## Worked Examples
 
 ### Example 1: Clausius-Clapeyron Calculation
+
 **Problem:** The boiling point of water is 100 degrees C at 1 atm. The enthalpy of vaporization is 40.7 kJ/mol. Calculate the boiling point at 0.8 atm.
 **Solution:** ln(P2/P1) = -(Delta H_vap/R)(1/T2 - 1/T1). ln(0.8/1.0) = -(40700/8.314)(1/T2 - 1/373). -0.2231 = -4893(1/T2 - 0.00268). 1/T2 = 0.00268 + 0.2231/4893 = 0.00268 + 4.56e-5 = 0.002726. T2 = 366.8 K = 93.7 degrees C.
 
 ### Example 2: Calculating Gibbs Free Energy of Reaction
+
 **Problem:** For the reaction N2(g) + 3H2(g) -> 2NH3(g), Delta H = -92.4 kJ/mol, Delta S = -198.8 J K^-1 mol^-1. At 298 K, determine if the reaction is spontaneous.
 **Solution:** Delta G = Delta H - T Delta S = -92,400 - 298(-198.8) = -92,400 + 59,200 = -33,200 J/mol = -33.2 kJ/mol. Delta G < 0, so the reaction is spontaneous at 298 K. At what T does it become non-spontaneous? Delta G = 0 when T = Delta H/Delta S = 92,400/198.8 = 464.8 K.
 

@@ -8,11 +8,11 @@ import {
   generateHowToSchema,
   generateImageObjectSchema,
   generateOrganizationSchema,
+  generatePersonSchema,
   generateSoftwareSourceCodeSchema,
+  generateSpeakableSchema,
   generateVideoObjectSchema,
   generateWebSiteSchema,
-  generatePersonSchema,
-  generateSpeakableSchema,
 } from '../../utils/jsonld'
 
 const { starlightRoute } = Astro.locals;
@@ -72,7 +72,7 @@ function getRelatedSites(subdomain: string, pathSegments: string[]): string[] {
     // starts with a topic that's shared across the group
     const sharedTopics =
       sites === relatedSiteGroups['exam-boards'] ? sharedExamTopics :
-      sites === relatedSiteGroups['programming'] ? sharedProgrammingTopics :
+      sites === relatedSiteGroups.programming ? sharedProgrammingTopics :
       sites === relatedSiteGroups['cs-infrastructure'] ? sharedInfraTopics :
       sharedScienceTopics;
 

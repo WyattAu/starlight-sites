@@ -57,7 +57,7 @@ intersections, and complements of open Sets. We write $(\mathbb{R}, \mathcal{B})
 **Proposition 1.0.** The intersection of any collection of sigma-algebras on $\Omega$ is a
 sigma-algebra.
 
-_Proof._ Let `\\{\\mathcal{{'}F{}'}_\\alpha\\}` be a collection of sigma-algebras. Then: (1)
+_Proof._ Let `\\{\\mathcal{F}_\\alpha\\}` be a collection of sigma-algebras. Then: (1)
 $\Omega \in \mathcal{F}_\alpha$ for all $\alpha$So $\Omega \in \bigcap_\alpha \mathcal{F}_\alpha$.
 (2) If $A \in \bigcap_\alpha \mathcal{F}_\alpha$Then $A \in \mathcal{F}_\alpha$ for all $\alpha$So
 $A^c \in \mathcal{F}_\alpha$ for all $\alpha$Hence $A^c \in \bigcap_\alpha \mathcal{F}_\alpha$. (3)
@@ -676,7 +676,7 @@ $$= \int_{-\infty}^{\infty} x \left(\int_{-\infty}^{\infty} f_{X,Y}(x,y)\, dy\ri
 
 $$= \int_{-\infty}^{\infty} x\, f_X(x)\, dx + \int_{-\infty}^{\infty} y\, f_Y(y)\, dy = E[X] + E[Y] \quad \blacksquare$$
 
-3. If $X$ and $Y$ are independent, $E[XY] = E[X]E[Y]$.
+1. If $X$ and $Y$ are independent, $E[XY] = E[X]E[Y]$.
 
 _Proof._
 $E[XY] = \iint xy\, f_X(x)f_Y(y)\, dx\, dy = \left(\int x f_X(x)\, dx\right)\left(\int y f_Y(y)\, dy\right)
@@ -2160,7 +2160,6 @@ $\blacksquare$
 | Probability                           | WyattsNotes | [View](../../../../../alevel/src/content/docs/maths/statistics/03-probability)                |
 | Real Analysis                         | WyattsNotes | [View](../real-analysis)              |
 | Probability — Harvard Stat 110        | Harvard     | [View](https://stat110.com/)                                    |
-
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

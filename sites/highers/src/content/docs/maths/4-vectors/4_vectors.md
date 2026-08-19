@@ -749,26 +749,26 @@ See the examples integrated throughout the sections above.
 
 $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 
-9. Find the line of intersection of the planes $x + 2y - z = 4$ and $3x - y + 2z = 1$.
+1. Find the line of intersection of the planes $x + 2y - z = 4$ and $3x - y + 2z = 1$.
 
-10. Find the angle between the planes $2x - y + 2z = 5$ and $x + 3y - z = 2$.
+2. Find the angle between the planes $2x - y + 2z = 5$ and $x + 3y - z = 2$.
 
-11. Use the matrix $\begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}$ to describe the transformation.
+3. Use the matrix $\begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}$ to describe the transformation.
     What is the relationship between this matrix and $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$?
 
-12. Find the area of the triangle with vertices $A(1, 0, 2)$, $B(3, -1, 4)$And $C(0, 2, -1)$.
+4. Find the area of the triangle with vertices $A(1, 0, 2)$, $B(3, -1, 4)$And $C(0, 2, -1)$.
 
-13. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$Find the position
+5. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$Find the position
     vector of the point $P$ on $AB$ such that $AP : PB = 3 : 1$.
 
-14. Find the angle between the lines $\mathbf{r} = (0, 0, 0) + s(1, 2, -1)$ and
+6. Find the angle between the lines $\mathbf{r} = (0, 0, 0) + s(1, 2, -1)$ and
     $\mathbf{r} = (1, 1, 0) + t(2, -1, 3)$.
 
-15. A $2 \times 2$ matrix $A$ has eigenvalues $\lambda_1 = 2$ and $\lambda_2 = 5$ with corresponding
+7. A $2 \times 2$ matrix $A$ has eigenvalues $\lambda_1 = 2$ and $\lambda_2 = 5$ with corresponding
     eigenvectors $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$ and $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
     Find $A$ and use it to compute $A^3$.
 
-16. Reflect the point $(2, 5)$ in the line $y = x$ using a matrix method. Verify your answer
+8. Reflect the point $(2, 5)$ in the line $y = x$ using a matrix method. Verify your answer
     geometrically.
 
 ## Summary

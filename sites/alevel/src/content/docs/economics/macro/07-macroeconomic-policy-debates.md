@@ -50,16 +50,16 @@ $$\pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y$$
 
 (from the quantity theory: $MV = PY$)
 
-2. **The long-run Phillips curve is vertical**: there is no long-run trade-off between inflation and
+1. **The long-run Phillips curve is vertical**: there is no long-run trade-off between inflation and
    unemployment
 
-3. **Markets are broadly self-correcting**: given time, wages and prices adjust to restore full
+2. **Markets are broadly self-correcting**: given time, wages and prices adjust to restore full
    employment
 
-4. **Fiscal policy is ineffective** (crowding out dominates), and **monetary policy is the primary
+3. **Fiscal policy is ineffective** (crowding out dominates), and **monetary policy is the primary
    tool** of macroeconomic stabilisation
 
-5. **Discretionary policy is harmful**: due to lags and the time-inconsistency problem, systematic
+4. **Discretionary policy is harmful**: due to lags and the time-inconsistency problem, systematic
    policy rules outperform discretionary interventions
 
 ### 1.3 The Policy Implications
@@ -426,14 +426,14 @@ Mitchell, argues:
 
 $$\mathrm{Government can always pay} \iff \mathrm{debt denominated in own currency}$$
 
-2. **Functional finance** (Lerner, 1943): fiscal policy should be used to achieve full employment
+1. **Functional finance** (Lerner, 1943): fiscal policy should be used to achieve full employment
    and price stability, regardless of the deficit. The deficit is not a target — real outcomes are.
 
-3. **Taxes drive money**: taxes create demand for the government's currency (people need it to pay
+2. **Taxes drive money**: taxes create demand for the government's currency (people need it to pay
    taxes). Taxes are not primarily a revenue-raising tool but a tool to control inflation and
    redistribute income.
 
-4. **Sectoral balances**: the government deficit equals the non-government sector surplus:
+3. **Sectoral balances**: the government deficit equals the non-government sector surplus:
 
 $$(G - T) = (S - I) + (M - X)$$
 
@@ -478,7 +478,7 @@ Following structure:
 - **Unintended consequences**: what went wrong? (e.g., austerity slowed recovery)
 - **Alternatives**: what would have worked better?
 
-5. **Conclude** with a balanced judgement. "On balance, X was effective in achieving Y but failed
+1. **Conclude** with a balanced judgement. "On balance, X was effective in achieving Y but failed
    to address Z."
 
 ## 6. Policy Mixes for Various Scenarios
@@ -714,7 +714,6 @@ Intellectually appealing but faces significant practical obstacles. The best ref
 Flexible inflation target (average inflation targeting, as adopted by the Fed in 2020) rather than a
 Complete regime change.
 </details>
-
 
 <aside class="starlight-aside starlight-aside--danger">
 - **Treating Keynesianism and monetarism as mutually exclusive:** Modern macroeconomic policy is a
@@ -1028,6 +1027,7 @@ evidence.
   episode revealed limitations.
 - Conclusion: independence improves inflation performance but must be balanced with accountability
 and flexibility.
+
 </details>
 
 **Question 2 (12 marks).** Use the Taylor Rule to assess whether the Bank of England's monetary
@@ -1059,6 +1059,7 @@ August 2023, policy had caught up.
   about the direction).
 - The lags in monetary policy (12-18 months) mean that the full effect of the 2022-2023 tightening
 was not yet visible when rates peaked.
+
 </details>
 
 ## 10. Extended Worked Examples

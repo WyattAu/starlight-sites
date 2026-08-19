@@ -648,7 +648,6 @@ struct Combined : EmptyBase<struct A>, EmptyBase<struct B> {
 static_assert(sizeof(Combined) == sizeof(int));  // EBO applies for both
 ```
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to object layout, vptr, and the this
@@ -679,4 +678,3 @@ Object layout determines how class members are arranged in memory. The compiler 
 - [Access Control](../../../../../../programming/src/content/docs/object_oriented/1_class_design/2_access_control)
 - [Special Member Functions](../../../../../../programming/src/content/docs/object_oriented/1_class_design/3_special_member_functions)
 - [VTables](../../../../../../programming/src/content/docs/object_oriented/2_runtime_polymorphism/1_vtables)
-

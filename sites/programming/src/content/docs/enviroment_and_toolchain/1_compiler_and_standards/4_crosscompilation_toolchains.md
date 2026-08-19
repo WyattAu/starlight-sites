@@ -657,42 +657,42 @@ find build/ -name "*.so" -o -name "*.a" | xargs file | grep -v "x86-64"
 Confusing these leads to using the host compiler instead of the cross-compiler, producing binaries
 that run on the wrong architecture.
 
-2. **Missing `CMAKE_SYSTEM_NAME`:** If `CMAKE_SYSTEM_NAME` is not set, CMake assumes native
+1. **Missing `CMAKE_SYSTEM_NAME`:** If `CMAKE_SYSTEM_NAME` is not set, CMake assumes native
    compilation and will use `find_program` to locate the host compiler, ignoring your cross-compiler
    settings. Always set `CMAKE_SYSTEM_NAME` in your toolchain file.
 
-3. **Wrong dynamic linker:** On Linux targets, the dynamic linker (ld-linux) must match the target
+2. **Wrong dynamic linker:** On Linux targets, the dynamic linker (ld-linux) must match the target
    architecture. If you accidentally link against the host's `ld-linux-x86-64.so.2` in an ARM
    binary, execution will fail with `exec format error`. Use `file` to verify and `readelf -l` to
    inspect the `INTERP` program header.
 
-4. **Forgetting `CMAKE_FIND_ROOT_PATH_MODE`:** Without setting these variables, `find_package()` and
+3. **Forgetting `CMAKE_FIND_ROOT_PATH_MODE`:** Without setting these variables, `find_package()` and
    `find_library()` will search the host filesystem, potentially finding host-architecture
    libraries. Set them to `ONLY` for libraries and includes, and `NEVER` for programs.
 
-5. **Hardcoded paths:** Paths like `/usr/include` in source code or build scripts will resolve to
+4. **Hardcoded paths:** Paths like `/usr/include` in source code or build scripts will resolve to
    the host filesystem during cross-compilation. Use CMake's `find_path()` and generator expressions
    instead of hardcoded includes.
 
-6. **Sysroot version mismatch:** Building against a sysroot from Ubuntu 22.04 (glibc 2.35) and
+5. **Sysroot version mismatch:** Building against a sysroot from Ubuntu 22.04 (glibc 2.35) and
    deploying to Ubuntu 20.04 (glibc 2.31) causes `version GLIBC_2.34 not found` errors at runtime.
    The sysroot's C library version must be less than or equal to the target's C library version.
 
-7. **QEMU testing false negatives:** Some tests may pass under QEMU but fail on real hardware due to
+6. **QEMU testing false negatives:** Some tests may pass under QEMU but fail on real hardware due to
    differences in FPU rounding, timing behavior, or peripheral access. Always validate on physical
    hardware before shipping embedded firmware.
 
-8. **Not using `CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY`:** For bare-metal targets
+7. **Not using `CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY`:** For bare-metal targets
    (`CMAKE_SYSTEM_NAME Generic`), CMake's default `try_compile` attempts to link an executable,
    which fails because there is no OS runtime. Setting `CMAKE_TRY_COMPILE_TARGET_TYPE` to
    `STATIC_LIBRARY` avoids this by only compiling to a `.a` file during configuration checks.
 
-9. **Missing `--gc-sections` for embedded:** Embedded targets have limited flash. Without
+8. **Missing `--gc-sections` for embedded:** Embedded targets have limited flash. Without
    `-ffunction-sections -fdata-sections` at compile time and `--gc-sections` at link time, the
    linker includes every function and data object from every linked translation unit, wasting
    significant flash space.
 
-10. **Using `find_package` without `CMAKE_FIND_ROOT_PATH`:** When cross-compiling, `find_package`
+9. **Using `find_package` without `CMAKE_FIND_ROOT_PATH`:** When cross-compiling, `find_package`
     searches the host system by default. If you need to find a package installed in the sysroot, set
     `CMAKE_PREFIX_PATH` to the sysroot's install prefix:
 

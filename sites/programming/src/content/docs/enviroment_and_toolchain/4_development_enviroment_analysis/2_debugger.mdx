@@ -534,7 +534,7 @@ Binary via build ID.
 
 - _Fix:_ `sudo sysctl -w kernel.yama.ptrace_scope=0` (Development only).
 
-3. **Core Dumps:** When a process crashes (Segfault), the OS can write the memory state to a file.
+1. **Core Dumps:** When a process crashes (Segfault), the OS can write the memory state to a file.
 
 - _Enable:_ `ulimit -c unlimited`
 - _Analyze:_ `gdb ./app core.dump` or `lldb -c core.dump`.

@@ -150,4 +150,3 @@ Group actions describe how symmetry groups interact with sets. A group acts on a
 - [Lagrange's Theorem](3_lagrange-s-theorem) -- The orbit-stabilizer theorem is a generalisation of Lagrange's theorem applied to group actions.
 - [Classification of Groups of Small Order](16_classification-of-groups-of-small-order) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
 - [Worked Examples](15_worked-examples) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
-

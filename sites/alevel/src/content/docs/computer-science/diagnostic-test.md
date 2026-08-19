@@ -642,7 +642,6 @@ Problem set on that page.
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -657,8 +656,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

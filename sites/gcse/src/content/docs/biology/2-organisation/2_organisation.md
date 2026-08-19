@@ -23,6 +23,7 @@ categories:
 ## Organisation
 
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway B2 | WJEC B2
+>
 ## 1. The Digestive System
 
 ### 1.1 Overview
@@ -605,7 +606,7 @@ Vasodilation). When the temperature returns to normal, the response stops.
 - **Blood vessels in the skin:** Vasodilation occurs. The blood vessels dilate (widen), increasing
   blood flow near the skin surface so more heat can be radiated away.
 
-3. Body temperature decreases back to 37$^{\circ}$C.
+1. Body temperature decreases back to 37$^{\circ}$C.
 
 **When body temperature falls (too cold):**
 
@@ -619,7 +620,7 @@ Vasodilation). When the temperature returns to normal, the response stops.
 - **Body hairs:** Erector pili muscles contract, causing body hairs to stand up. This traps a layer
   of insulating air next to the skin (more effective in furry animals than in humans).
 
-3. Body temperature increases back to 37$^{\circ}$C.
+1. Body temperature increases back to 37$^{\circ}$C.
 
 ### 6.2 The Endocrine System
 

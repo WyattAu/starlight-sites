@@ -24,7 +24,6 @@ reductions, Cook\'s theorem, and approximation algorithms. Select an option to c
 
 ---
 
-
 ## Asymptotic Notation and Complexity Classes
 
 <PracticeProblem client:only="solid-js" question={"Which of the following correctly defines $f(n) = \\Theta(g(n))$?&quot; options={[ 'There exist constants $c_1, c_2 > 0$ and $n_0$ such that $c_1 g(n) \\leq f(n) \\leq c_2 g(n)$ for all $n \\geq n_0$', '$f(n) \\leq c \\cdot g(n)$ for some $c > 0$ for sufficiently large $n$', '$\\lim_{n \\to \\infty} f(n)/g(n) = 0$', '$f(n) \\geq c \\cdot g(n)$ for some $c > 0$ for sufficiently large $n$', ]} correctAnswer={0} explanation=&quot;Big-Theta ($\\Theta$) means both Big-O and Big-Omega: $f(n)$ is bounded above and below by $g(n)$ with constants $c_1, c_2$. Big-O ($O$) is only the upper bound (option 2). Little-o ($o$) is the limit going to 0 (option 3). Big-Omega ($\\Omega$) is only the lower bound (option 4)."} difficulty="easy"  />
@@ -50,7 +49,6 @@ reductions, Cook\'s theorem, and approximation algorithms. Select an option to c
 <PracticeProblem client:only="solid-js" question={"A FPTAS (Fully Polynomial-Time Approximation Scheme) produces a $(1+\\epsilon)$-approximation in time polynomial in both $n$ and $1/\\epsilon$. Which classic NP-hard problem admits an FPTAS?&quot; options={['Knapsack', 'Vertex Cover', 'TSP (general)', 'Set Cover']} correctAnswer={0} explanation=&quot;The knapsack problem admits an FPTAS through a scaling approach: scale down item values by a factor depending on $\\epsilon$, solve the scaled instance using the pseudopolynomial DP, and adjust the result. Running time is $O(n^3/\\epsilon)$. In contrast, Vertex Cover cannot have a PTAS better than $2 - \\epsilon$ unless P = NP, and TSP (general) and Set Cover are even harder to approximate."} difficulty="hard"  />
 
 ---
-
 
 ## Additional Complexity Theory Questions
 

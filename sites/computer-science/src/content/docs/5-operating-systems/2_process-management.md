@@ -338,6 +338,7 @@ Named pipes (`mkfifo`) allow unrelated processes to communicate.
 `SIGSEGV``SIGCHLD`.
 
 ## See Also
+
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
@@ -352,4 +353,3 @@ Named pipes (`mkfifo`) allow unrelated processes to communicate.
 4. **Ignoring race conditions in shared memory IPC.** Shared memory provides no built-in synchronisation. Without explicit locks (mutexes, semaphores), concurrent reads and writes to the same region cause data races and undefined behaviour. Message passing is safer when synchronisation is difficult to implement correctly.
 
 5. **Assuming process priorities are static.** Most schedulers dynamically adjust priorities based on behaviour. A process that uses too much CPU time is penalised (lowered priority), while I/O-bound processes are boosted. This means short-lived, interactive processes get better response times, but CPU-bound batch jobs may be starved without explicit nice values or cgroup limits.
-

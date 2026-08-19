@@ -561,7 +561,6 @@ int main() {
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to custom formatting with
@@ -582,4 +581,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

@@ -591,9 +591,9 @@ linked above.
 
 AP Physics 1 is the **algebra-based introduction to mechanics** — it describes how objects move and why. The course builds from kinematics (describing motion) through forces (causing motion) to energy and momentum (conservation laws that simplify complex problems).
 
-**The physics chain:** Kinematics describes *what* happens. Newton's laws explain *why* it happens. Energy and momentum provide *shortcut methods* that bypass detailed force analysis. Rotational motion extends all these ideas to spinning objects. The key is recognising which approach — forces, energy, or momentum — is simplest for each problem.
+**The physics chain:** Kinematics describes _what_ happens. Newton's laws explain _why_ it happens. Energy and momentum provide _shortcut methods_ that bypass detailed force analysis. Rotational motion extends all these ideas to spinning objects. The key is recognising which approach — forces, energy, or momentum — is simplest for each problem.
 
-**Conceptual understanding over calculation:** AP Physics 1 emphasises reasoning about physical situations. Can you predict what happens when you cut a string? Can you explain *why* a ball rolls slower than it slides? The exam tests your ability to justify answers, not just compute numbers.
+**Conceptual understanding over calculation:** AP Physics 1 emphasises reasoning about physical situations. Can you predict what happens when you cut a string? Can you explain _why_ a ball rolls slower than it slides? The exam tests your ability to justify answers, not just compute numbers.
 
 **The power of free-body diagrams:** Nearly every mechanics problem starts with a free-body diagram. Isolate the object, identify every force, and resolve into components. This single step solves 80% of mechanics problems.
 
@@ -601,6 +601,7 @@ AP Physics 1 is the **algebra-based introduction to mechanics** — it describes
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for ap notes.

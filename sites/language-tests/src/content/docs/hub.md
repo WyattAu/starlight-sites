@@ -281,7 +281,7 @@ Speaking is tested face-to-face (IELTS) or via recording (TOEFL, DET). Fluency, 
 Choosing the right test depends on your target institution, timeline, and personal preferences.
 
 | Feature | IELTS | TOEFL iBT | DET | Cambridge C1 |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Format | Paper or computer | Computer only | Online (at home) | Paper or computer |
 | Duration | 2 hours 45 minutes | 2 hours | 1 hour | 2 hours 30 minutes |
 | Score Range | 0 to 9 (bands) | 0 to 120 | 10 to 160 | A, B, C (grade) |
@@ -335,7 +335,7 @@ Preparing for a language proficiency test requires consistent practice across al
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Vocabulary flashcards: 15 minutes |
 | Midday | Reading practice: one passage (20 minutes) |
 | Afternoon | Listening practice: one lecture or podcast (20 minutes) |

@@ -25,7 +25,6 @@ description: "IB Geography is a two-year course that examines the relationships 
 
 **The key insight:** Geography matters because location shapes everything — from climate and culture to economics and politics
 
-
 ## Course Overview
 
 IB Geography is a two-year course that examines the relationships between individuals, societies,
@@ -176,8 +175,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

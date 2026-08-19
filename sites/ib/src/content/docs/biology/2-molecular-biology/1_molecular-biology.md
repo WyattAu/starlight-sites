@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** The central dogma describes how genetic information flows from DNA through RNA to protein
 
-
 ## 1. Water
 
 ### Molecular Structure and Properties
@@ -417,7 +416,7 @@ Cytoplasm (or on the RER for secreted proteins).
 - The ribosome **translocates** by one codon: the empty tRNA moves to the **E site** (exit site) and
   is released; the tRNA carrying the growing polypeptide moves from the A site to the P site.
 
-3. **Termination**: when a stop codon enters the A site, a **release factor** binds, causing the
+1. **Termination**: when a stop codon enters the A site, a **release factor** binds, causing the
    polypeptide to be released and the ribosome to dissociate.
 
 ### Polysomes
@@ -868,7 +867,7 @@ $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporat
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Cell division and chromosome structure** --> Review
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)

@@ -24,7 +24,6 @@ description: "- Streetcar explores class conflict between Blanche (A construct r
 
 **The key insight:** Comparing texts reveals how different authors address universal human experiences across cultures and time periods
 
-
 ## Ideologies
 
 ### Socialism
@@ -667,8 +666,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

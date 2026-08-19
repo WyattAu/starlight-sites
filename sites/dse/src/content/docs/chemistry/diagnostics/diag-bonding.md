@@ -427,8 +427,6 @@ larger, so the bonding electrons are further apart and the repulsion is weaker. 
 fluorine also means the lone pairs on each $F$ atom are close to the bonding region, creating
 additional **lone pair-bond pair repulsion** that weakens the $F-F$ bond.
 
-
-
 ## Cross-References
 
 - **[Atomic Structure](../atomic-structure-and-bonding):** Atomic structure is foundational

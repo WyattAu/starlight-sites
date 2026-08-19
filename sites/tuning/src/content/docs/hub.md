@@ -123,6 +123,7 @@ AMD Ryzen processors use Precision Boost Overdrive (PBO) and Curve Optimiser:
 ### Power Limits
 
 Intel CPUs have two power limits:
+
 - **PL1** (long-term) — sustained power draw
 - **PL2** (short-term) — peak power draw for a limited duration (Tau)
 
@@ -146,7 +147,7 @@ The simplest memory optimisation is enabling XMP (Intel) or EXPO (AMD) profiles 
 Key timing parameters:
 
 | Timing | Description | Impact |
-|--------|-------------|--------|
+| -------- | ------------- | -------- |
 | CAS Latency (CL) | Cycles to access a column | Lower is better |
 | tRCD | Row-to-column delay | Lower is better |
 | tRP | Row precharge time | Lower is better |
@@ -272,7 +273,7 @@ Cooling is the bottleneck for sustained performance. Better cooling allows highe
 ### Temperature Targets
 
 | Component | Idle | Load | Maximum |
-|-----------|------|------|---------|
+| ----------- | ------ | ------ | --------- |
 | CPU | 30–40°C | 60–80°C | 90–100°C |
 | GPU | 30–40°C | 65–85°C | 90–95°C |
 | NVMe SSD | 30–40°C | 50–70°C | 75°C |

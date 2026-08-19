@@ -11,7 +11,6 @@ description: "10 auto-graded practice problems. Select an answer, submit, and re
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **CS practice is like building with tools — each concept (variables, loops, functions) is a tool in your programming toolkit:** Programming skills develop through practice — reading code, writing code, and debugging are all essential learning activities
@@ -20,13 +19,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **The key insight:** Programming skills develop through practice — reading code, writing code, and debugging are all essential learning activities
 
-
 ## IB -- Computer Science Practice
 
 10 auto-graded practice problems. Select an answer, submit, and review the explanation.
 
 ---
-
 
 ## Worked Examples
 
@@ -45,10 +42,10 @@ Step 3: Answer: $A \cdot B$
 
 ---
 
-
 ### Example 2: Big-O Analysis
 
 **Problem:** Analyse the time complexity of this pseudocode:
+
 ```
 for i = 1 to n:
     for j = 1 to n:
@@ -67,7 +64,6 @@ Step 4: Time complexity: $O(n^2)$
 **Key insight:** For nested loops, multiply the number of iterations. If the inner loop depends on the outer loop variable (e.g., `for j = 1 to i`), the complexity is $O(n^2/2) = O(n^2)$.
 
 ---
-
 
 ### Example 3: Binary Search Trace
 
@@ -92,7 +88,6 @@ Step 7: low > high → target not found
 
 ---
 
-
 ### System Fundamentals
 
 <PracticeProblem client:only="solid-js" question={"A school is implementing a new online grading system. Which of the following groups would be considered a stakeholder in this system?&quot; options={[ 'Teachers, students, parents, and the school administration', 'Only the software developers who created the system', 'Only the students who will view their grades', 'The computers and servers that run the software', ]} correctAnswer={0} explanation=&quot;Stakeholders are all individuals or groups who have an interest in or are affected by a system. In this case, teachers (who input grades), students (who view grades), parents (who monitor progress), and school administration (who manage the system and generate reports) are all stakeholders because the system directly impacts their workflows and needs. Software developers are involved in creating the system but are not the primary stakeholders of its operation. Hardware components are resources, not stakeholders."} difficulty="easy"  />
@@ -100,7 +95,6 @@ Step 7: low > high → target not found
 <PracticeProblem client:only="solid-js" question={"Which component of the IPO (Input-Process-Output) model describes the transformation of raw data into meaningful information?&quot; options={['Processing', 'Output', 'Input', 'Storage']} correctAnswer={0} explanation=&quot;In the IPO model, processing is the stage where raw data is transformed, calculated, sorted, or otherwise manipulated to produce meaningful information. Input involves collecting and entering data into the system. Output presents the processed information to the user in a usable format. Storage is not one of the three core IPO components, though it supports the process. Processing is what converts input data into useful output information, such as calculating a grade average from individual test scores."} difficulty="easy"  />
 
 ---
-
 
 ### Computer Organization
 
@@ -112,7 +106,6 @@ Step 7: low > high → target not found
 
 ---
 
-
 ### Networks and Algorithms
 
 <PracticeProblem client:only="solid-js" question={"In the TCP/IP model, which layer is responsible for routing data packets between networks?&quot; options={['Internet layer', 'Transport layer', 'Application layer', 'Network access layer']} correctAnswer={0} explanation=&quot;The Internet layer (also called the network layer) is responsible for logical addressing (IP addresses) and routing packets across interconnected networks. Protocols at this layer include IP, ICMP, and ARP. The transport layer (TCP, UDP) handles end-to-end communication and reliability. The application layer provides services directly to user applications. The network access layer handles physical transmission of frames. Routing decisions, including determining the best path for packets, occur at the Internet layer."} difficulty="medium"  />
@@ -123,10 +116,9 @@ Step 7: low > high → target not found
 
 ---
 
-
 ### Data Structures, Databases, and OOP
 
-<PracticeProblem client:only="solid-js" question={"Which SQL command is used to retrieve all columns from a table named Students where the Grade column has a value greater than 85?&quot; options={[ 'SELECT * FROM Students WHERE Grade > 85', 'GET * FROM Students WHERE Grade > 85', 'FETCH ALL FROM Students HAVING Grade > 85', 'RETRIEVE * FROM Students WITH Grade > 85', ]} correctAnswer={0} explanation=&quot;The correct SQL syntax is SELECT * FROM Students WHERE Grade > 85. SELECT retrieves data, * selects all columns, FROM specifies the table, and WHERE filters rows based on a condition. GET, FETCH, and RETRIEVE are not valid SQL commands. HAVING is used with GROUP BY for filtering aggregated results, not for simple row-level filtering. SQL uses WHERE for row filtering and HAVING for group-level filtering."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"Which SQL command is used to retrieve all columns from a table named Students where the Grade column has a value greater than 85?&quot; options={[ 'SELECT *FROM Students WHERE Grade > 85', 'GET* FROM Students WHERE Grade > 85', 'FETCH ALL FROM Students HAVING Grade > 85', 'RETRIEVE *FROM Students WITH Grade > 85', ]} correctAnswer={0} explanation=&quot;The correct SQL syntax is SELECT* FROM Students WHERE Grade > 85. SELECT retrieves data, * selects all columns, FROM specifies the table, and WHERE filters rows based on a condition. GET, FETCH, and RETRIEVE are not valid SQL commands. HAVING is used with GROUP BY for filtering aggregated results, not for simple row-level filtering. SQL uses WHERE for row filtering and HAVING for group-level filtering."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"In object-oriented programming, polymorphism allows objects of different classes to be treated as objects of a common superclass. Which of the following is the best example of polymorphism?&quot; options={[ 'A method called draw() is defined in a Shape superclass, and Circle and Rectangle subclasses each override draw() with their own implementation', 'A class inherits all properties from its parent class without modification', 'A variable can only hold one type of data at a time', 'A class contains only private attributes with no public methods', ]} correctAnswer={0} explanation=&quot;Polymorphism (meaning many forms) allows a single interface to represent different underlying implementations. When a Shape superclass defines a draw() method, and subclasses Circle and Rectangle each provide their own override of draw(), calling draw() on a Shape reference will execute the appropriate subclass implementation. This is called runtime polymorphism (method overriding). The key aspect is that the same method call produces different behavior depending on the actual object type. Simple inheritance without overriding does not demonstrate polymorphism."} difficulty="hard"  />
 

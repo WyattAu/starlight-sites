@@ -150,8 +150,6 @@ $$\Psi = \frac{1}{\sqrt{3!}}\begin{vmatrix} \phi_1(r_1)\alpha(1) & \phi_1(r_1)\b
 
 The total energy is $E_1 + E_1 + E_2 = 6\pi^2\hbar^2/(2mL^2)$. The exchange splitting between the two possible spin configurations (total $S = 1/2$) depends on the exchange integral $K_{12}$ between the $n = 1$ and $n = 2$ states.
 
-
-
 ## Intuition
 
 Identical particles are truly indistinguishable, not just similar. Swapping two electrons must give the same physics, which forces their wavefunction to be antisymmetric. This creates the exchange interaction, an effective force arising purely from symmetry, not from any physical interaction. The Pauli exclusion principle is a consequence: two fermions cannot occupy the same state because the antisymmetric wavefunction would vanish. Bosons, with symmetric wavefunctions, crowd together instead. This explains why electrons fill up energy levels in atoms, why white dwarfs resist collapse, and why laser light is coherent.

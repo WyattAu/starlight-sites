@@ -37,7 +37,7 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 ### 1.1 Key Contextual Information
 
 | Element | Detail |
-|---------|--------|
+| --------- | -------- |
 | Poet | Sylvia Plath (1932--1963) |
 | Collection | *Crossing the Water* (1961) |
 | Form | Free verse, two stanzas (nine and five lines) |
@@ -71,7 +71,6 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 **Why it matters:** Regular practice with diverse poems builds confidence and versatility for any poetry challenge
 
 **The key insight:** The more poems you analyze, the better you become at recognizing patterns and making connections across texts
-
 
 ## 2. Close Reading: Stanza-by-Stanza Analysis
 
@@ -132,7 +131,7 @@ The extended metaphor of drowning and rising establishes a temporal sequence: th
 
 ### 3.1 The Mirror as Speaker
 
-The decision to give the mirror a first-person voice is the poem's foundational conceit. Personification allows Plath to defamiliarise the act of looking in a mirror: by speaking _as_ the mirror, she forces the reader to see the act of self-scrutiny from the outside. The mirror's voice is measured, precise, and slightly clinical -- it describes the woman's behaviour without empathy or judgement, yet the very act of description implies a relationship that contradicts the mirror's claimed detachment.
+The decision to give the mirror a first-person voice is the poem's foundational conceit. Personification allows Plath to defamiliarise the act of looking in a mirror: by speaking *as* the mirror, she forces the reader to see the act of self-scrutiny from the outside. The mirror's voice is measured, precise, and slightly clinical -- it describes the woman's behaviour without empathy or judgement, yet the very act of description implies a relationship that contradicts the mirror's claimed detachment.
 
 For IB candidates, the key analytical move is to identify the gap between what the mirror claims (impartiality, exactness) and what it reveals (a compulsive, almost predatory interest in the woman's distress). This gap is where the poem's meaning resides.
 
@@ -166,7 +165,7 @@ The moon is described as "a god" or "an intermediate," and the lake is said to b
 ### 4.1 Structural Differences
 
 | Feature | Heaney's "Digging" | Plath's "Mirror" |
-|---------|--------------------|--------------------|
+| --------- | -------------------- | -------------------- |
 | Structure | Circular (opens and ends with the pen) | Linear (moves from the mirror's self-description to the woman's transformation) |
 | Speaker | First-person human narrator | First-person personified object |
 | Tone | Nostalgic, contemplative, ultimately resolved | Detached, clinical, increasingly uneasy |
@@ -203,7 +202,7 @@ When comparing unseen poems in Paper 1 (HL), candidates should:
 ### 5.1 Assessment Objectives
 
 | Objective | How This Response Addresses It |
-|-----------|-------------------------------|
+| ----------- | ------------------------------- |
 | AO1: Understanding | Demonstrates comprehension of the mirror's personification and the poem's psychological complexity |
 | AO2: Analysis | Explains how imagery (lake, fish, darkness) and irony produce meaning |
 | AO3: Evaluation | Assesses the significance of the poem's unresolved ending and the gap between the mirror's claims and its behaviour |
@@ -233,7 +232,7 @@ After completing your own analysis of "Mirror," review your response against the
 
 1. Did you identify the poem's personification and explain its effect on the reader?
 2. Did you analyse at least three specific images (e.g., "swallow," "darkness," "terrible fish") with embedded quotations?
-3. Did you explain _how_ each image produces meaning, not merely _what_ the image is?
+3. Did you explain *how* each image produces meaning, not merely *what* the image is?
 4. Did you identify the irony in the mirror's voice and explain how it complicates the poem's surface meaning?
 5. Did you address the poem's ending and explain why it resists easy interpretation?
 6. Did you discuss the shift from mirror to lake and explain its significance?
@@ -243,8 +242,6 @@ After completing your own analysis of "Mirror," review your response against the
 10. Did you consider the poem's context where relevant, without relying on biographical speculation?
 
 If you are preparing for HL Paper 1, also review your response against the comparison criteria in Section 4.3 above. Ensure that your comparative analysis is explicit, sustained, and balanced between the two texts.
-
-
 
 ## Cross-References
 

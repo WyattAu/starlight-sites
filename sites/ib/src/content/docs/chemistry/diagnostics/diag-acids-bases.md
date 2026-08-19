@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry
 
-
 ## Unit Tests
 
 ### UT-1: Weak Acid pH and Percentage Ionisation

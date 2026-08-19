@@ -23,6 +23,7 @@ categories:
 ## Advanced Genetics
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+>
 ## 1. Epistasis
 
 ### 1.1 Definition
@@ -1422,10 +1423,10 @@ The effective population size is smaller than the actual (census) population siz
 
 $$N_e = \frac{4N_m N_f}{N_m + N_f} = \frac{4 \times 100 \times 900}{1000} = 360$$
 
-2. Variation in reproductive success: if some individuals produce many offspring and others produce
+1. Variation in reproductive success: if some individuals produce many offspring and others produce
    none, $N_e$ is reduced.
 
-3. Fluctuating population size: $N_e$ is closer to the harmonic mean of population sizes over time,
+2. Fluctuating population size: $N_e$ is closer to the harmonic mean of population sizes over time,
    which is dominated by the smallest population size.
 
 $$\frac{1}{N_e} = \frac{1}{t}\left(\frac{1}{N_1} + \frac{1}{N_2} + \cdots + \frac{1}{N_t}\right)$$
@@ -1651,7 +1652,7 @@ the genes themselves) can produce major morphological changes:
   expression are associated with the evolution of the vertebrate neck and thorax).
 - Changes in the expression of _BMP4_ (bone morphogenetic protein 4) and _calmodulin_ explain
   differences in beak shape in Darwin's finches.
-- Changes in the regulation of the _ Pitx1_ gene explain the loss of pelvic fins in stickleback fish
+- Changes in the regulation of the _Pitx1_ gene explain the loss of pelvic fins in stickleback fish
   (the gene is still present but not expressed in pelvic tissue).
 
 ## 24. Quantitative Genetics: Polygenic Inheritance
@@ -1842,8 +1843,8 @@ gene locus.
 | ------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | Recessive epistasis       | Homozygous recessive at one locus (aa) masks expression of alleles at the other locus   | Coat colour in mice: B (black) > b (brown); C (colour pigment) > c (no pigment, albino). Cc masks B/b                                    | 9:3:4                  |
 | Dominant epistasis        | Dominant allele at one locus (A) masks expression of alleles at the other locus         | Feather colour in poultry: I (inhibits colour) > i (allows colour); B (black) > b (brown). I\_ masks B/b                                 | 12:3:1                 |
-| Complementary gene action | Both dominant alleles (A* and B*) are needed for a trait                                | Flower colour in sweet peas: C and P both needed for purple flowers. C*pp or ccP* = white                                                | 9:7                    |
-| Duplicate gene action     | Either dominant allele alone (A* or B*) is sufficient                                   | Seed shape in shepherd's purse: A* or B* gives triangular seeds; aabb gives oval seeds                                                   | 15:1                   |
+| Complementary gene action | Both dominant alleles (A*and B*) are needed for a trait                                | Flower colour in sweet peas: C and P both needed for purple flowers. C*pp or ccP* = white                                                | 9:7                    |
+| Duplicate gene action     | Either dominant allele alone (A*or B*) is sufficient                                   | Seed shape in shepherd's purse: A*or B* gives triangular seeds; aabb gives oval seeds                                                   | 15:1                   |
 | Supplementary gene action | One dominant allele (A*) produces a trait; B* modifies it (9:3:4 but with modification) | Coat colour in Labrador retrievers: E (pigment) > e (no pigment, yellow); B (black) > b (brown). Ee = yellow; E*B* = black; E_bb = brown | 9:3:4                  |
 
 ### 28.2 Worked Example: Recessive Epistasis in Mice
@@ -2222,7 +2223,6 @@ Where:
 }
 </script>
 
-
 ## Common Pitfalls
 
 1. Confusing genotype (genetic makeup) with phenotype (observable characteristics).
@@ -2299,4 +2299,3 @@ Ratio: **90 purple : 70 white**. $\blacksquare$
 In real life, genes rarely act in isolation. Epistasis reveals that one gene can mask or modify the effect of another, which is why the classic 9:3:3:1 dihybrid ratio often appears distorted in practice. Think of epistasis like a set of light switches wired in series: both switches must be "on" for the light to work, and if either is off, the final outcome looks the same regardless of the other. This is why understanding gene interactions matters --- it explains why offspring ratios do not always match the simple Mendelian predictions.
 
 Hardy-Weinberg equilibrium provides the baseline for thinking about populations. If no evolution is occurring --- no selection, no mutation, no migration, no genetic drift --- then allele and genotype frequencies stay constant from generation to generation. It is a null model: deviations from it tell you that something evolutionary is happening. The chi-squared test then becomes your detective tool, letting you determine whether observed ratios are significantly different from what you would expect, or whether they are just due to random chance.
-

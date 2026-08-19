@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Understanding function behavior — domain, range, transformations, and inverses — is the language of mathematical modeling
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for functions and equations.

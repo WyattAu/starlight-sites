@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Geometry is the art of measuring and describing shapes — from simple triangles to complex solids.**
@@ -427,8 +426,6 @@ So $a = 1$, $b = 0$, $c = 0$.
 **Forgetting that perpendicular gradients multiply to $-1$:** If a line has gradient $m$, the perpendicular line has gradient $-1/m$. Students often write $1/m$ instead. Also, horizontal and vertical lines are perpendicular ($m = 0$ and $m$ undefined), which is a special case often missed.
 
 **Mixing up the discriminant conditions for quadratics:** $\Delta > 0$ means two distinct real roots. $\Delta = 0$ means one repeated real root. $\Delta < 0$ means no real roots (two complex roots). Students sometimes swap $>$ and $<$ or forget that $\Delta = 0$ gives a tangent (one point of contact).
-
-
 
 ## Cross-References
 

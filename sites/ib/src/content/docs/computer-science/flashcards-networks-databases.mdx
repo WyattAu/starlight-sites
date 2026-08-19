@@ -19,7 +19,6 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ---
 
-
 ### Key Concepts
 
 **Network Topologies**: Star (central hub, easy to manage, single point of failure), bus (single cable, cheap but hard to troubleshoot), mesh (multiple paths, high reliability, expensive), ring (data travels in one direction, predictable but one failure breaks the network). Most modern networks use star topology because it balances cost, manageability, and fault tolerance. Wireless networks use mesh topology for coverage extension.
@@ -32,11 +31,9 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ---
 
-
 <FlashcardDeck client:only="solid-js" deckId="ib-cs-networks-databases" title="IB CS -- Networks and Databases" description="Network models, protocols, encryption, relational databases, and SQL" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
 
 ---
-
 
 ## Intuition
 
@@ -46,7 +43,6 @@ Think of a network as a postal system. The OSI model is the journey of a letter:
 
 ---
 
-
 ## Common Pitfalls
 
 - Confusing the OSI layers. The most commonly confused are Network (IP addresses, routing -- "where to go") and Transport (TCP/UDP, reliability -- "how to get there reliably"). Remember: Network = routing; Transport = delivery assurance.
@@ -55,7 +51,6 @@ Think of a network as a postal system. The OSI model is the journey of a letter:
 - Forgetting that TCP requires a three-way handshake (SYN, SYN-ACK, ACK) before data transfer. This adds overhead but ensures reliable delivery. UDP skips this -- faster but no guarantees.
 
 ---
-
 
 ## Cross-References
 

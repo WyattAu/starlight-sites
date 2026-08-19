@@ -11,13 +11,13 @@
       "!**/.turbo",
       "!**/*.min.js",
       "!**/*.min.css",
+      "!**/*.svg",
       "!**/bun.lock",
       "!**/.astro",
       "!**/playwright-report",
       "!**/test-results",
       "!**/.wrangler",
-      "fix-tables.js",
-      "audit.js"
+      "!scripts/archive"
     ]
   },
   "formatter": {
@@ -94,6 +94,25 @@
     }
   },
   "overrides": [
+    {
+      "includes": [
+        "shared/scripts/reader.js",
+        "shared/scripts/site-nav.js",
+        "shared/public/**/*.js",
+        "search-api/page-search.js",
+        "search-api/cross-site-search.js",
+        "search-api/sw.js",
+        "search-api/merged-index.js"
+      ],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noInvalidUseBeforeDeclaration": "off",
+            "noInnerDeclarations": "off"
+          }
+        }
+      }
+    },
     {
       "includes": ["**/*.astro"],
       "formatter": {

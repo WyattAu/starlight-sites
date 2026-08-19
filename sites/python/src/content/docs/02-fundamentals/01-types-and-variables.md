@@ -73,7 +73,6 @@ Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because 
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
 
-
 ## Type Hierarchy
 
 Every object in Python is an instance of `object`. The built-in types form a hierarchy rooted at
@@ -232,7 +231,6 @@ print(a is b)   # False (not interned)
 <aside class="starlight-aside starlight-aside--caution">
 Interning range is a CPython implementation detail, not a language guarantee.
 
-
 ### `float`: IEEE 754 Double-Precision
 
 Python's `float` is a C `double` -- IEEE 754 binary64, providing approximately 15-17 significant
@@ -257,7 +255,6 @@ Slower. The pragmatic choice is to use hardware floats by default and provide `d
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 (exact rational arithmetic). Never use `float` for money.
-
 
 ### `complex`: Complex Numbers
 
@@ -374,7 +371,6 @@ for word in words:
 result = ''.join(words)
 ```
 
-
 ### Encoding: UTF-8 Under the Hood
 
 Python source files are UTF-8 by default (PEP 3120). The internal representation of strings in
@@ -473,7 +469,6 @@ s.rstrip()     # "  Hello, World!"
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 Handle edge cases (empty strings, prefix longer than string) correctly.
-
 
 ## Booleans
 
@@ -626,7 +621,6 @@ print(add_item("b"))  # ["b"]  -- fresh list each time
 <aside class="starlight-aside starlight-aside--caution">
 Default arguments. The pattern `def f(arg=None): if arg is None: arg = ...` is the standard
 Solution.
-
 
 ## Type Hints (PEP 484)
 
@@ -985,7 +979,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

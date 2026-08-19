@@ -125,7 +125,6 @@ Second request on wire: ~20 bytes (3 index references) vs ~200 bytes (full heade
 Compress across different origins (the dynamic table is per-origin), and it does not compress cookie
 Values in a way that leaks information.
 
-
 ### Server Push
 
 HTTP/2 allows the server to proactively send resources to the client before the client requests
@@ -153,7 +152,6 @@ The rationale: caching is more effective (the client can predict what it needs b
 Push is hard to get right (pushing resources the client already has cached wastes bandwidth), and
 Push complicates the client's cache state. Use `&lt;link rel="preload"&gt;` instead.
 
-
 ### Stream Priority and Dependencies
 
 HTTP/2 allows clients to assign priorities to streams using a dependency tree. Each stream can have
@@ -177,7 +175,6 @@ Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 <aside class="starlight-aside starlight-aside--caution">
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
 For critical performance optimization.
-
 
 ### Connection Preface
 
@@ -669,7 +666,6 @@ Result: streams 1, 3, 5 are processed normally
 Sender should continue processing streams with IDs less than or equal to `last_stream_id`. Only new
 Streams with IDs greater than `last_stream_id` are rejected.
 
-
 ### PUSH_PROMISE (0x5)
 
 Sent by the server to announce that it will push a resource. Contains the request headers for the
@@ -924,7 +920,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

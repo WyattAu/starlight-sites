@@ -707,7 +707,6 @@ Sorted.
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Forgetting that binary search requires a sorted array. Applying it to unsorted data gives
@@ -757,4 +756,3 @@ Searching is one of the most fundamental operations in computer science, and the
 The key insight behind binary search is the power of eliminating half the possibilities at each step. Imagine looking up a word in a dictionary: you open it roughly in the middle, see whether your word comes before or after, and immediately discard half the pages. You repeat this until you find the word. This "divide and conquer" principle appears throughout computer science, from sorting algorithms to tree traversals. The catch is that binary search only works on sorted data, so if your data is not already ordered, you must pay the cost of sorting first — a decision that depends on how many searches you plan to perform.
 
 In practice, the choice between algorithms depends on context. For small datasets, the overhead of binary search's index management may not be worth it — linear search is simpler and fast enough. For large, frequently searched datasets, binary search (or its variants like interpolation search) is dramatically faster. Real-world systems often use hash tables for O(1) average-case lookups when exact matching is needed, or balanced binary search trees when both searching and ordered traversal are required. Understanding these trade-offs — data size, whether data is sorted, the cost of preprocessing, and the pattern of access — is what lets you choose the right tool for the job.
-

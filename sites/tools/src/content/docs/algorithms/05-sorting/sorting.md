@@ -957,7 +957,6 @@ Pass 1: `[1, 4, 2, 5, 8]` — 4 swaps (5 bubbled right) Pass 2: `[1, 2, 4, 5, 8]
 
 Time complexity: $O(n^2)$ worst case, $O(n)$ best case (already sorted with optimisation).
 
-
 </aside>
 
 ## Cross-References

@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### Exercise 1: LiveView Patterns
 
 **Problem:** Build a real-time counter with LiveView that displays the current value and supports increment, decrement, and reset. Include a `mount/3` callback and proper event handling with `handle_event/3`.
@@ -60,7 +59,6 @@ end
 **Solution:** `mount/3` initializes the socket with `count: 0`. `render/1` returns HEEx template with `phx-click` bindings. Each `handle_event/3` clause pattern matches the event name and updates `socket.assigns`. The `~H` sigil enables compile-time template validation. `{:noreply, socket}` prevents sending a message back to the client.
 
 ---
-
 
 ### Exercise 2: PubSub Broadcasting
 
@@ -134,7 +132,6 @@ end
 **Solution:** `connected?(socket)` checks if the LiveView is connected (not SSR). `PubSub.subscribe` listens to the topic. `PubSub.broadcast` sends to all subscribers. `handle_info/2` receives the broadcast and updates the socket. `Enum.take(messages, -50)` keeps only the last 50 messages to prevent unbounded growth.
 
 ---
-
 
 ### Exercise 3: Context Module
 
@@ -232,7 +229,6 @@ end
 
 ---
 
-
 ### Exercise 4: Changeset Validation
 
 **Problem:** Build a registration form changeset with complex validations: password confirmation, terms acceptance, email format, and username constraints. Include custom validators.
@@ -308,7 +304,6 @@ end
 **Solution:** Virtual fields (`:password`, `:password_confirmation`) are not persisted. `validate_confirmation` checks password match. `validate_acceptance` requires terms acceptance. Custom validators (`validate_terms`, `validate_display_name`) add business-specific rules. `hash_password` is called only when the password changes. `redact: true` prevents sensitive fields from appearing in logs.
 
 ---
-
 
 ### Exercise 5: Channel Communication
 
@@ -404,6 +399,7 @@ end
 **Blocking in GenServer handle_info:** `handle_info` callbacks run in the GenServer process. If you perform blocking I/O (HTTP calls, file reads), the entire GenServer blocks. Use Task.async or spawn separate processes for blocking work.
 
 **Ignoring OTP supervision tree design:** Supervisors restart failed processes. If your supervision strategy is `:one_for_one` but processes depend on each other, restarting one may leave others in an inconsistent state. Design supervision trees to match your applications dependency structure.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for elixir notes.

@@ -32,7 +32,7 @@ Ruby's elegant syntax and powerful metaprogramming features make it ideal for ra
 
 ## How to Get Started
 
-Install Ruby via rbenv (https://github.com/rbenv/rbenv) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }`, `[1,2,3].map { |n| n * 2 }`, and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project — a command-line tool or a simple web app with Sinatra — to apply what you learn.
+Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }`, `[1,2,3].map { |n| n * 2 }`, and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project — a command-line tool or a simple web app with Sinatra — to apply what you learn.
 
 Browse the content using the sidebar navigation on the left.
 
@@ -87,6 +87,7 @@ end
 **Using == for string comparison:** In Ruby, == compares string content (unlike Java). But equal? compares object identity. eql? compares content and type. Use == for most string comparisons, but be aware of the distinction.
 
 **Forgetting Ruby is object-oriented:** Everything in Ruby is an object, including integers, strings, and nil. 5.times { ... } works because integers are objects. This means methods can be called on any value, which is different from languages with primitive types.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for ruby notes.

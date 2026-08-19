@@ -101,8 +101,8 @@ $$= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}$$
 
 ### Additional Practice Problems
 
-4. $1 \, \text{g}$ of $\text{CaCl}_2$ ($M = 111 \, \text{g/mol}$) is dissolved in $100 \, \text{g}$ of water. Calculate the freezing point depression. ($K_f = 1.86 \, \text{K}\cdot\text{kg/mol}$, assume complete dissociation).
-5. A solution of glucose ($M = 180 \, \text{g/mol}$) has a freezing point of $-0.93^\circ\text{C}$. Find the molality and the mass of glucose in $500 \, \text{g}$ of water. ($K_f = 1.86 \, \text{K}\cdot\text{kg/mol}$)
+1. $1 \, \text{g}$ of $\text{CaCl}_2$ ($M = 111 \, \text{g/mol}$) is dissolved in $100 \, \text{g}$ of water. Calculate the freezing point depression. ($K_f = 1.86 \, \text{K}\cdot\text{kg/mol}$, assume complete dissociation).
+2. A solution of glucose ($M = 180 \, \text{g/mol}$) has a freezing point of $-0.93^\circ\text{C}$. Find the molality and the mass of glucose in $500 \, \text{g}$ of water. ($K_f = 1.86 \, \text{K}\cdot\text{kg/mol}$)
 
 ## Intuition
 

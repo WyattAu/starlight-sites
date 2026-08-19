@@ -65,7 +65,7 @@ function getReviewDates(): string[] {
 }
 
 export function recordReview(): void {
-  const today = new Date().toISOString().split('T')[0]
+  const today = new Date().toISOString().slice(0, 10)
   const dates = getReviewDates()
   if (!dates.includes(today)) {
     dates.push(today)
@@ -81,25 +81,33 @@ export function getStreak(): number {
   const dates = [...new Set(getReviewDates())].sort((a, b) => b.localeCompare(a))
   if (dates.length === 0) return 0
 
+  const fmt = (d: Date) => d.toISOString().slice(0, 10)
   const today = new Date()
+  const yesterday = new Date(today)
+  yesterday.setDate(yesterday.getDate() - 1)
+
+  // Anchor the run at today if studied today, else yesterday if studied
+  // yesterday (streak not yet broken); otherwise the streak is 0.
+  let anchor: Date
+  const first = dates[0]
+  if (first === fmt(today)) {
+    anchor = today
+  } else if (first === fmt(yesterday)) {
+    anchor = yesterday
+  } else {
+    return 0
+  }
+
+  // Walk backwards day by day from the anchor. (The previous implementation
+  // compared every entry against today-i even when the run ended yesterday,
+  // collapsing multi-day runs to length 1 -- caught by the streak tests.)
   let streak = 0
-
   for (let i = 0; i < dates.length; i++) {
-    const check = new Date(today)
-    check.setDate(check.getDate() - i)
-    const checkStr = check.toISOString().split('T')[0]
-
-    if (dates[i] === checkStr) {
+    const check = new Date(anchor)
+    check.setDate(anchor.getDate() - i)
+    if (dates[i] === fmt(check)) {
       streak++
     } else {
-      if (i === 0) {
-        const yesterday = new Date(today)
-        yesterday.setDate(yesterday.getDate() - 1)
-        if (dates[i] === yesterday.toISOString().split('T')[0]) {
-          streak++
-          continue
-        }
-      }
       break
     }
   }
@@ -115,8 +123,11 @@ export function getLongestStreak(): number {
   let current = 1
 
   for (let i = 1; i < dates.length; i++) {
-    const prev = new Date(dates[i - 1])
-    const curr = new Date(dates[i])
+    const prevDate = dates[i - 1]
+    const currDate = dates[i]
+    if (prevDate === undefined || currDate === undefined) continue
+    const prev = new Date(prevDate)
+    const curr = new Date(currDate)
     const diffMs = curr.getTime() - prev.getTime()
     const diffDays = Math.round(diffMs / 86400000)
 

@@ -25,7 +25,6 @@ kernel, and virtual memory. Select an option to check your answer and view the e
 
 ---
 
-
 ## Database Theory and Distributed Systems
 
 <PracticeProblem client:only="solid-js" question={"Which normal form eliminates transitive dependencies by ensuring that every non-prime attribute is non-transitively dependent on the primary key?&quot; options={[ 'Third Normal Form (3NF)', 'Second Normal Form (2NF)', 'Boyce-Codd Normal Form (BCNF)', 'Fourth Normal Form (4NF)', ]} correctAnswer={0} explanation=&quot;3NF requires that for every functional dependency $X \\to A$: either $X$ is a superkey, or $A$ is a prime attribute. This eliminates transitive dependencies where $A$ depends on $X$ through some intermediate non-key attribute. BCNF is stricter, requiring $X$ to be a superkey for every non-trivial FD $X \\to A$."} difficulty="easy"  />
@@ -58,5 +57,6 @@ kernel, and virtual memory. Select an option to check your answer and view the e
 **Mixing up pre-emptive with cooperative multitasking:** Pre-emptive multitasking forces context switches (OS controls scheduling). Cooperative multitasking relies on processes voluntarily yielding. Don't assume all systems are pre-emptive.
 
 ## Cross-References
+
 - **[Operating Systems](../../../../../typescript/src/content/docs/index):** File systems and I/O management.
 - **[Databases](../../../../../typescript/src/content/docs/index):** Storage engines that build on file system abstractions.

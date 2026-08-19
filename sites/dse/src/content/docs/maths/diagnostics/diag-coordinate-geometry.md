@@ -787,8 +787,6 @@ Therefore the circles are **separate** (0 intersection points). Part (c) would h
 The question may have an error, or the circles may need adjustment. If the problem is solvable, we
 proceed assuming the circles do intersect.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

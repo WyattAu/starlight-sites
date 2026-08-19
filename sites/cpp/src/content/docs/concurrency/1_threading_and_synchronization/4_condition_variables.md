@@ -638,7 +638,6 @@ auto worker_safe = [&b](int id) {
 };
 ```
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to condition variables, latches, and
@@ -680,4 +679,3 @@ event), while latches and barriers are stateless counters. Use condition variabl
 decision to proceed depends on shared data that can change in complex ways. Use latches and
 barriers when you directly need to coordinate timing — everyone waits until N threads have arrived,
 then they all proceed together.
-

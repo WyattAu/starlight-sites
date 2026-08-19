@@ -89,7 +89,6 @@ Before libpcap sees it.
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
 Consider using a TAP or capturing on the endpoint.
 
-
 ## tcpdump Advanced
 
 ### BPF Filter Language
@@ -590,7 +589,6 @@ cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 Random connection failures on firewalls and NAT gateways. Monitor `nf_conntrack_count` vs
 `nf_conntrack_max`.
 
-
 ## Performance Metrics
 
 ### Throughput
@@ -880,7 +878,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ## Intuition

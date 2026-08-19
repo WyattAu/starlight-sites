@@ -19,7 +19,6 @@ import { practiceQuestions } from '@/data/flashcards/networking/practice-network
 
 ---
 
-
 ## Worked Examples
 
 ### Example 1: Subnetting — CIDR Calculation
@@ -38,7 +37,7 @@ New prefix: /26 (64 addresses per subnet)
 **Step 2:** Calculate subnet addresses
 
 | Subnet | Network Address | Usable Range | Broadcast | Hosts |
-|--------|-----------------|--------------|-----------|-------|
+| -------- | ----------------- | -------------- | ----------- | ------- |
 | 1 | 192.168.1.0/26 | 192.168.1.1 - 192.168.1.62 | 192.168.1.63 | 62 |
 | 2 | 192.168.1.64/26 | 192.168.1.65 - 192.168.1.126 | 192.168.1.127 | 62 |
 | 3 | 192.168.1.128/26 | 192.168.1.129 - 192.168.1.190 | 192.168.1.191 | 62 |
@@ -48,7 +47,6 @@ New prefix: /26 (64 addresses per subnet)
 
 ---
 
-
 ### Example 2: TCP Three-Way Handshake
 
 **Problem:** Trace the TCP connection establishment between a client (10.0.0.1:5000) and server (10.0.0.2:80). What flags are set in each step?
@@ -56,6 +54,7 @@ New prefix: /26 (64 addresses per subnet)
 **Solution:**
 
 **Step 1: SYN (Client → Server)**
+
 ```
 Source: 10.0.0.1:5000
 Destination: 10.0.0.2:80
@@ -64,6 +63,7 @@ Sequence: 1000
 ```
 
 **Step 2: SYN-ACK (Server → Client)**
+
 ```
 Source: 10.0.0.2:80
 Destination: 10.0.0.1:5000
@@ -73,6 +73,7 @@ Acknowledgment: 1001
 ```
 
 **Step 3: ACK (Client → Server)**
+
 ```
 Source: 10.0.0.1:5000
 Destination: 10.0.0.2:80
@@ -84,7 +85,6 @@ Acknowledgment: 5001
 **Key insight:** The three-way handshake ensures both sides agree on initial sequence numbers and establishes a full-duplex connection. The SYN flag synchronizes sequence numbers, and the ACK flag acknowledges the previous segment.
 
 ---
-
 
 ### Example 3: DNS Resolution Chain
 
@@ -116,7 +116,6 @@ Acknowledgment: 5001
 
 ---
 
-
 ### OSI Model and Protocols
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions.slice(0, 4)}  />
@@ -135,11 +134,10 @@ Acknowledgment: 5001
 
 ---
 
-
 ## Related Topics
 
 | Topic | Site | Link |
-|-------|------|------|
+| ------- | ------ | ------ |
 | Security | Infrastructure | [Security](https://infrastructure.wyattau.com/security/) |
 | Linux Networking | Infrastructure | [Linux](https://infrastructure.wyattau.com/linux/) |
 | Databases | Infrastructure | [Databases](https://infrastructure.wyattau.com/databases/) |

@@ -925,7 +925,7 @@ Cache and are fast. In CI, use caching to avoid re-downloading on every build.
 ### Hooks Are Bypassable with `--no-verify`
 
 ```bash
-$ git commit --no-verify -m "skip hooks"
+git commit --no-verify -m "skip hooks"
 ```
 
 This bypasses all hooks. The framework cannot prevent this — it is a fundamental limitation of
@@ -970,7 +970,7 @@ Hooks using `language: script` must be executable. The framework will fail silen
 Permission denied error:
 
 ```bash
-$ chmod +x scripts/check-no-debug.sh
+chmod +x scripts/check-no-debug.sh
 ```
 
 ### The `exclude` Pattern Applies to the Full File Path

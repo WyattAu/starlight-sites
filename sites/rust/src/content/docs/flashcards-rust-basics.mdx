@@ -20,7 +20,6 @@ unsafe. Press Space to flip, rate 1-4.
 
 ---
 
-
 ## Intuition
 
 Rust achieves memory safety without a garbage collector through its ownership system. Every value has exactly one owner, and when that owner goes out of scope, the value is dropped. Borrowing lets you use values without taking ownership — `&T` for shared read access, `&mut T` for exclusive write access. The compiler enforces these rules at compile time, catching data races and memory bugs before the code runs.
@@ -44,7 +43,6 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 - **Study async Rust:** Async/await in Rust requires understanding Futures, Pin, and the executor model. Start with simple async programs before building complex concurrent systems.
 
 ---
-
 
 <FlashcardDeck client:only="solid-js" deckId="rust-basics" title="Rust -- Fundamentals" description="20 interactive flashcards covering ownership, borrowing, lifetimes, traits, generics, error handling, concurrency, macros, and unsafe." cards={flashcardData}  />
 ## Cross-References

@@ -352,6 +352,7 @@ Even if the attacker intercepts the traffic, they cannot:
 - Decrypt the data (they don't have the shared secret)
 - Forge a valid certificate (they don't have the CA's private key)
 - Modify the data without detection (TLS includes integrity checks)
+
 </details>
 
 **Problem 5.** Explain the difference between a virus, a worm, and a Trojan.
@@ -414,6 +415,7 @@ This demonstrates:
 2. **Avalanche effect:** Changing a single character ("a" vs "") produces a completely different
    hash — no similarity between the two outputs
 3. **Fixed output size:** Both hashes are 256 bits (64 hex characters), regardless of input length
+
 </details>
 
 **Problem 8.** Describe a SQL injection attack and explain how to prevent it.
@@ -447,9 +449,10 @@ This always evaluates to true, granting access without valid credentials.
    cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (username, password))
 ```
 
-2. **Input validation:** Reject or sanitise inputs containing SQL metacharacters
-3. **Least privilege:** Database accounts should have minimum necessary permissions
-4. **Stored procedures:** Pre-compiled SQL that accepts parameters safely
+1. **Input validation:** Reject or sanitise inputs containing SQL metacharacters
+2. **Least privilege:** Database accounts should have minimum necessary permissions
+3. **Stored procedures:** Pre-compiled SQL that accepts parameters safely
+
 </details>
 
 For revision on network fundamentals, see
@@ -530,15 +533,15 @@ cursor.execute(
 )
 ```
 
-2. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;``'``--` `/*`)
+1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;``'``--` `/*`)
 
-3. **Least privilege:** The application's database account should only have permissions for the
+2. **Least privilege:** The application's database account should only have permissions for the
    operations it needs (SELECT, INSERT — not DROP, ALTER)
 
-4. **Stored procedures:** Pre-compiled SQL that accepts parameters, preventing injection at the
+3. **Stored procedures:** Pre-compiled SQL that accepts parameters, preventing injection at the
    database layer
 
-5. **Web Application Firewall (WAF):** A secondary defence that inspects HTTP requests for known
+4. **Web Application Firewall (WAF):** A secondary defence that inspects HTTP requests for known
    injection patterns
 
 <hr />
@@ -677,9 +680,8 @@ Network security.
 3. **Fail-safe defaults:** Systems should default to the most secure configuration. If a rule or
 Configuration is missing, the system should deny access rather than allow it. Example: a firewall's
 Final rule should be "deny all" — anything not explicitly permitted is blocked.
+
 </details>
-
-
 
 ## Intuition
 
@@ -700,4 +702,3 @@ implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-

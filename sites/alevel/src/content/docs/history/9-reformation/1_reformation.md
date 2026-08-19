@@ -220,8 +220,6 @@ not recover the Protestant north. Key debates concern whether the Reformation wa
 whether the English break was primarily religious or political, and how to assess the
 Counter-Reformation's achievements.
 
-
-
 ## Cross-References
 
 - **[Source Analysis](../diagnostics/diag-source-analysis):** Source analysis skills support historical study

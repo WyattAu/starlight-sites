@@ -166,4 +166,3 @@ $(Tf_n)(x) = x \cdot nx^{n-1} = nx^n$, so $\|Tf_n\|_\infty = n$.
 Since $\|Tf_n\|/\|f_n\| = n \to \infty$ as $n \to \infty$, the operator $T$ is unbounded. $\blacksquare$
 
 </details>
-

@@ -269,7 +269,6 @@ Advanced semiconductor physics goes beyond the simple pn junction to describe ho
 - **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: Phonon scattering limits carrier mobility in semiconductors and affects device performance at high temperatures.
 - **[Magnetism in Solids](10_magnetism-in-solids)**: The quantum Hall effect involves Landau levels formed by electrons in magnetic fields, connecting to the magnetic properties of solids.
 
-
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

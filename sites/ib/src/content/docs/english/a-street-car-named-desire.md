@@ -24,7 +24,6 @@ description: "Tennessee Williams (1911--1983) is among the most significant Amer
 
 **The key insight:** Williams uses Blanche's fragile illusions against Stanley's brutal realism to explore the conflict between old and new South
 
-
 ## Author Context
 
 Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth

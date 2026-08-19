@@ -101,6 +101,7 @@ Translate logical address (segment = 1, offset = 1500):
 Translate (segment = 2, offset = 2500):
 
 1. Check: offset $2500 \lt$ limit $2048$. **Invalid**. Segmentation fault.
+
 </details>
 
 ### 5.4 Segmented Paging
@@ -379,7 +380,6 @@ Just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
 - If the child immediately calls `exec()`No copies are ever made.
-
 
 </aside>
 ## Cross-References

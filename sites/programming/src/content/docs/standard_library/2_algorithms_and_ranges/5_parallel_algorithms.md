@@ -248,6 +248,7 @@ int main() {
     good_example_atomic();
     good_example_mutex();
 }
+
 ```
 
 ### `std::reduce` vs `std::accumulate`: Order Guarantees

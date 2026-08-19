@@ -73,10 +73,12 @@ WireGuard is recommended.
 1. Create an admin account on first login.
 2. Configure `app.ini` for email notifications: set SMTP host, port, user, and password.
 3. Create your first repository and push using SSH:
+
    ```bash
    git remote add origin git@git.example.com:user/repo.git
    git push -u origin main
    ```
+
 4. Add SSH keys under `Settings > SSH / GPG Keys`.
 
 ### Backup Strategy
@@ -105,7 +107,6 @@ WireGuard is recommended.
   (`DB_MAX_OPEN_CONNS = 50`). Move the database to a dedicated SSD dataset.
 - **Repository migration**: Use the Gitea admin panel `Site Administration > Repository Migration`
   to import repositories from GitHub, GitLab, or another Gitea instance.
-
 
 ### Administration Tips
 

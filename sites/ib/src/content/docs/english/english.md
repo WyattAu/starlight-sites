@@ -24,7 +24,6 @@ description: "IB English A: Language and Literature is a two-year course that de
 
 **The key insight:** Studying English develops skills in analysis, argumentation, and creative expression that are valuable in every field
 
-
 ## IB English A: Language and Literature -- Course Overview
 
 IB English A: Language and Literature is a two-year course that develops critical literacy through
@@ -384,8 +383,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

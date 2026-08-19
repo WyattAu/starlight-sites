@@ -28,6 +28,7 @@ The general form is $ax^2 + bx + c = 0$ where $a \neq 0$.
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 **Discriminant $\Delta = b^2 - 4ac$:**
+
 - $\Delta > 0$: two distinct real roots
 - $\Delta = 0$: one repeated real root
 - $\Delta < 0$: no real roots
@@ -289,6 +290,7 @@ $$(u - 1)(u - 3) = 0$$
 Step 4: $u = 1$ or $u = 3$
 
 Step 5: Back-substitute:
+
 - $3^x = 1 \implies x = 0$
 - $3^x = 3 \implies x = 1$
 
@@ -323,10 +325,10 @@ Step 4: Eigenvalues: $\lambda_1 = 5$ and $\lambda_2 = 2$
 
 ## Additional Exam Tips
 
-5. For logarithmic equations, always check the domain after solving
-6. When solving matrix equations, always verify your answer by multiplying back
-7. The sum of an arithmetic series can also be written as $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term
-8. For geometric series with $|r| > 1$, the series diverges (no finite sum)
+1. For logarithmic equations, always check the domain after solving
+2. When solving matrix equations, always verify your answer by multiplying back
+3. The sum of an arithmetic series can also be written as $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term
+4. For geometric series with $|r| > 1$, the series diverges (no finite sum)
 
 ## Intuition
 

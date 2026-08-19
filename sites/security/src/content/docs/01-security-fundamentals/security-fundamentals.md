@@ -487,7 +487,6 @@ An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnera
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
 Into prioritization.
 
-
 ## Security Through Obscurity
 
 Security through obscurity is the practice of relying on the secrecy of a system's design or
@@ -829,7 +828,6 @@ Server room access controls, visitor logging, and hardware security modules (HSM
 Architecture), ISO/IEC 27001 (Information Security Management), OWASP Testing Guide v4, MITRE ATT&CK
 Framework, CISA Known Exploited Vulnerabilities Catalog, ISO/IEC 27005 (Risk Management).
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to security fundamentals, including
@@ -850,7 +848,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 ---
@@ -884,4 +881,3 @@ The human element is often the weakest link and the hardest to control. Technica
 - **Confusing authentication with authorization:** Authentication verifies identity ("who are you"); authorization determines permissions ("what can you do"). A system can authenticate a user perfectly but still grant excessive permissions if authorization is not configured separately.
 - **Ignoring the human element in security design:** The most sophisticated technical controls fail when users find workarounds. If a password policy is too complex, users write passwords on sticky notes. Design security that is easy to use correctly and hard to misuse.
 - **Treating compliance as equivalent to security:** Meeting regulatory requirements (GDPR, ISO 27001) does not mean your system is secure. Compliance is a floor, not a ceiling. Attackers do not care whether you passed an audit — they care whether they can break in.
-

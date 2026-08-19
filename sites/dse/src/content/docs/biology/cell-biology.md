@@ -53,20 +53,20 @@ date: 2026-05-31T00:00:00.000Z
 
 ## 2. Organelles
 
-| Organelle              | Structure                           | Function                                              |
+| Organelle | Structure | Function |
 | --------------------- | ----------------------------------- | ----------------------------------------------------- |
-| Nucleus                | Double membrane with nuclear pores  | Contains DNA; controls cell activities via gene expression |
-| Mitochondria          | Double membrane; inner folded into cristae | Site of aerobic respiration (ATP production via Krebs cycle and oxidative phosphorylation) |
-| Rough ER              | Flattened sacs with ribosomes       | Protein synthesis and transport                       |
-| Smooth ER             | Flattened sacs without ribosomes    | Lipid synthesis; detoxification                       |
-| Golgi apparatus       | Stacked, flattened sacs (cisternae) | Modifies, packages, and sorts proteins/lipids for secretion |
-| Ribosomes             | Small organelles (80S in cytoplasm; 70S in mitochondria/chloroplasts) | Protein synthesis (translation) |
-| Lysosomes             | Membrane-bound vesicles             | Contain digestive enzymes for intracellular digestion |
-| Chloroplasts          | Double membrane; thylakoids in grana | Site of photosynthesis (light-dependent + light-independent reactions) |
-| Cell wall             | Rigid layer of cellulose microfibrils | Provides structural support; prevents osmotic lysis    |
-| Vacuole               | Membrane-bound (tonoplast)          | Storage; maintains turgor pressure                    |
-| Centrioles            | Pair of cylindrical structures      | Organise spindle fibres during cell division           |
-| Cell membrane         | Phospholipid bilayer               | Controls entry/exit of substances; cell recognition    |
+| Nucleus | Double membrane with nuclear pores | Contains DNA; controls cell activities via gene expression |
+| Mitochondria | Double membrane; inner folded into cristae | Site of aerobic respiration (ATP production via Krebs cycle and oxidative phosphorylation) |
+| Rough ER | Flattened sacs with ribosomes | Protein synthesis and transport |
+| Smooth ER | Flattened sacs without ribosomes | Lipid synthesis; detoxification |
+| Golgi apparatus | Stacked, flattened sacs (cisternae) | Modifies, packages, and sorts proteins/lipids for secretion |
+| Ribosomes | Small organelles (80S in cytoplasm; 70S in mitochondria/chloroplasts) | Protein synthesis (translation) |
+| Lysosomes | Membrane-bound vesicles | Contain digestive enzymes for intracellular digestion |
+| Chloroplasts | Double membrane; thylakoids in grana | Site of photosynthesis (light-dependent + light-independent reactions) |
+| Cell wall | Rigid layer of cellulose microfibrils | Provides structural support; prevents osmotic lysis |
+| Vacuole | Membrane-bound (tonoplast) | Storage; maintains turgor pressure |
+| Centrioles | Pair of cylindrical structures | Organise spindle fibres during cell division |
+| Cell membrane | Phospholipid bilayer | Controls entry/exit of substances; cell recognition |
 
 ---
 
@@ -145,18 +145,20 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 
 ### Passive Transport (no ATP required)
 
-| Mechanism          | Definition                              | Direction        | Depends On        |
+| Mechanism | Definition | Direction | Depends On |
 | ------------------ | --------------------------------------- | ---------------- | ----------------- |
-| Simple diffusion    | Net movement from high to low concentration | High → low    | Concentration gradient |
-| Facilitated diffusion | Movement via protein channels or carriers | High → low    | Channel/carrier proteins |
-| Osmosis            | Diffusion of water across a partially permeable membrane | High water potential → low water potential | Water potential gradient |
+| Simple diffusion | Net movement from high to low concentration | High → low | Concentration gradient |
+| Facilitated diffusion | Movement via protein channels or carriers | High → low | Channel/carrier proteins |
+| Osmosis | Diffusion of water across a partially permeable membrane | High water potential → low water potential | Water potential gradient |
 
 **Water potential ($\Psi$):**
+
 - Pure water: $\Psi = 0$
 - Solutions: $\Psi < 0$ (more negative = more concentrated)
 - Water moves from **less negative** to **more negative** water potential
 
 **Turgor pressure:** pressure exerted by cell contents pressing against the cell wall in plant cells.
+
 - **Turgid:** cell fully swollen with water (normal, healthy state for plants)
 - **Plasmolysed:** cell membrane pulls away from cell wall (in concentrated solution)
 
@@ -232,11 +234,13 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 ## Worked Examples
 
 ### Example 1: Calculating Actual Size from a Micrograph
+
 **Problem:** A cell in a light micrograph measures 45 mm across. The magnification is $\times 400$. Calculate the actual size of the cell in $\mu$m.
 **Solution:**
 $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45\ \text{mm}}{400} = 0.1125\ \text{mm} = 112.5\ \mu\text{m}$$
 
 ### Example 2: Distinguishing Mitosis and Meiosis
+
 **Problem:** A cell has 46 chromosomes and undergoes division. After division, each daughter cell has 23 chromosomes. Was this mitosis or meiosis? Explain.
 **Solution:** This was meiosis. Mitosis produces daughter cells with the same chromosome number as the parent (diploid to diploid). The halving from 46 to 23 (diploid to haploid) is characteristic of meiosis, which produces gametes.
 
@@ -277,8 +281,6 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45
 - For microscopy questions, state both magnification and resolution differences between light and electron microscopes.
 - In osmosis problems, always draw a water potential gradient and indicate the direction of water movement.
 - When describing mitosis or meiosis phases, include the key event of each phase and the final chromosome number.
-
-
 
 ## Cross-References
 

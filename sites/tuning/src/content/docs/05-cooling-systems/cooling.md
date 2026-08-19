@@ -31,11 +31,11 @@ $$
 Where $q$ is heat flux (W), $k$ is thermal conductivity (W/m·K), $A$ is the cross-sectional area
 (m$^2$), and $dT/dx$ is the temperature gradient (K/m).
 
-2. **Convection**. Heat transfer between a solid surface and a moving fluid (air or liquid). The
+1. **Convection**. Heat transfer between a solid surface and a moving fluid (air or liquid). The
    heat transfer coefficient depends on fluid velocity, viscosity, and surface geometry. Forced
    convection (fans or pumps) provides significantly higher heat transfer than natural convection.
 
-3. **Radiation**. Heat transfer via electromagnetic radiation. Governed by the Stefan-Boltzmann
+2. **Radiation**. Heat transfer via electromagnetic radiation. Governed by the Stefan-Boltzmann
    law:
 
 $$
@@ -885,9 +885,9 @@ $$
 For a 2000 RPM fan with 9 blades, BPF = 300 Hz. This is in the range where human hearing is most
 Sensitive (200–4000 Hz), making tonal noise particularly noticeable.
 
-3. **Motor noise (bearing):** High-frequency whine from the bearing. FDB bearings produce the least
+1. **Motor noise (bearing):** High-frequency whine from the bearing. FDB bearings produce the least
    motor noise.
-4. **Vibration noise:** Low-frequency noise from fan vibration transmitted through the case.
+2. **Vibration noise:** Low-frequency noise from fan vibration transmitted through the case.
    Decoupled mounts (rubber grommets, silicone pads) reduce this.
 
 ### Acoustic Optimization Techniques
@@ -1026,7 +1026,6 @@ Load transitions. These spikes are caused by the CPU ramping from a low P-state 
 Before the cooling system can respond. They are normal and not cause for concern as long as average
 Temperatures remain within safe limits.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cooling systems, including key
@@ -1047,7 +1046,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Cross-References
 

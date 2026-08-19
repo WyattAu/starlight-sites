@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **Electrochemistry is like a conversation between electricity and chemistry — electrons flowing to create or consume reactions.**
@@ -507,8 +506,6 @@ $0.185\,\mathrm{dm}^3$The efficiency would be $88.5\%$ (1 mark).
 **Forgetting to use the total charge transferred (nF) in Faraday calculations:** In $Q = nF$, $n$ is the number of moles of electrons transferred per mole of product, not the number of electrons in the ion. For Cu$^{2+}$, each Cu atom requires 2 electrons, so $n = 2$. Getting this wrong leads to incorrect mass or volume calculations.
 
 **Assuming a positive $E^\circ_{\text{cell}}$ means the reaction will definitely occur:** A positive $E^\circ$ means the reaction is thermodynamically feasible under standard conditions, but it tells you nothing about the rate. Many feasible reactions are kinetically very slow at room temperature (e.g., the rusting of iron is feasible but slow without a catalyst).
-
-
 
 ## Cross-References
 

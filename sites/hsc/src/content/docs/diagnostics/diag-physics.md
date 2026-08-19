@@ -243,6 +243,7 @@ tableOfContents: false
 **Using the wrong formula for projectile motion:** Horizontal and vertical components are independent. Horizontal velocity is constant (no air resistance); vertical velocity changes due to gravity. Using $v = u + at$ for the horizontal component is wrong because $a_x = 0$.
 
 **Misunderstanding electric field direction:** Electric field lines point from positive to negative charges. A positive test charge experiences force in the direction of the field. A negative test charge experiences force opposite to the field direction.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for hsc notes.

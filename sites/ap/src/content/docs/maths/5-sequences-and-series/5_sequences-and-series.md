@@ -128,7 +128,6 @@ $$
 
 By the $n$Th-term test, the series diverges.
 
-
 ### The Harmonic Series
 
 $$
@@ -181,7 +180,6 @@ $$
 \sum_{n=1}^{\infty} \frac{3}{2^n} = \frac{3/2}{1 - 1/2} = \frac{3/2}{1/2} = 3
 $$
 
-
 ### Repeating Decimals as Geometric Series
 
 Every repeating decimal can be expressed as a rational number using geometric series.
@@ -201,7 +199,6 @@ $$
 0.\overline{37} = \frac{37/100}{1 - 1/100} = \frac{37/100}{99/100} = \frac{37}{99}
 $$
 
-
 ## Telescoping Series
 
 A telescoping series has terms that cancel in pairs when the partial sum is expanded.
@@ -220,7 +217,6 @@ $$
 $$
 \lim_{n \to \infty} S_n = 1
 $$
-
 
 ### Worked Example: Telescoping with Partial Fractions
 
@@ -325,7 +321,6 @@ $$
 
 Since $0 \lt 1 \lt \infty$Both series converge by the limit comparison test.
 
-
 ### Worked Example: Choosing the Right Comparison
 
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{3n + 1}{n^3 - 2}$ converges.
@@ -370,7 +365,6 @@ $$
 
 Since $L = \infty \gt 1$The series diverges.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -381,7 +375,6 @@ L = \lim_{n \to \infty} \frac{2^{n+1} / (n+1)!}{2^n / n!} = \lim_{n \to \infty} 
 $$
 
 Since $L = 0 \lt 1$The series converges absolutely.
-
 
 ## The Alternating Series Test (Leibniz Test)
 
@@ -422,7 +415,6 @@ We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$So $n + 1 \gt 1000$Meaning $n \ge 100
 
 At least 1000 terms are needed.
 
-
 ## Absolute and Conditional Convergence
 
 - **Absolutely convergent:** $\displaystyle\sum |a_n|$ converges.
@@ -450,7 +442,6 @@ Check absolute convergence: $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n}$ is th
 Which diverges.
 
 Therefore, the series converges **conditionally**.
-
 
 ## Power Series (CED BC Unit 10.8)
 
@@ -491,7 +482,6 @@ $$
 Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
 
-
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 <strong>Example</strong>
@@ -509,7 +499,6 @@ Series).
 **Check $x = 2$:** $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n}$ diverges (harmonic series).
 
 Interval of convergence: $[0, 2)$.
-
 
 ### Term-by-Term Differentiation and Integration
 
@@ -610,7 +599,6 @@ $$
 E^{0.1} \approx 1 + 0.1 + \frac{0.01}{2} + \frac{0.001}{6} + \frac{10^{-4}}{24} + \frac{10^{-5}}{120} \approx 1.1051708
 $$
 
-
 ### Deriving Maclaurin Series by Substitution
 
 You do not need to compute derivatives from scratch every time. If you know the series for $e^u$ You
@@ -626,7 +614,6 @@ Substitute $u = x^2$ into the series for $\cos u$:
 $$
 \cos(x^2) = \sum_{n=0}^{\infty} \frac{(-1)^n (x^2)^{2n}}{(2n)!} = \sum_{n=0}^{\infty} \frac{(-1)^n x^{4n}}{(2n)!} = 1 - \frac{x^4}{2!} + \frac{x^8}{4!} - \cdots
 $$
-
 
 ## Operations on Power Series
 
@@ -659,7 +646,6 @@ Multiplying and collecting terms up to $x^5$:
 $$
 E^x \sin x = x + x^2 + \frac{x^3}{3} - \frac{x^5}{30} + \cdots
 $$
-
 
 ### Integration of Power Series
 
@@ -892,7 +878,6 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ## Intuition
 

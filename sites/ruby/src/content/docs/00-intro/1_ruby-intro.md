@@ -727,13 +727,13 @@ end
 
 ## Useful Ruby Resources
 
-- **Official documentation**: https://ruby-doc.org/
-- **RubyGems**: https://rubygems.org/
-- **Try Ruby (interactive)**: https://try.ruby-lang.org/
-- **Ruby style guide**: https://rubystyle.guide/
-- **Ruby Weekly newsletter**: https://rubyweekly.com/
-- **Ruby source code**: https://github.com/ruby/ruby
-- **Rails guides**: https://guides.rubyonrails.org/
+- **Official documentation**: <https://ruby-doc.org/>
+- **RubyGems**: <https://rubygems.org/>
+- **Try Ruby (interactive)**: <https://try.ruby-lang.org/>
+- **Ruby style guide**: <https://rubystyle.guide/>
+- **Ruby Weekly newsletter**: <https://rubyweekly.com/>
+- **Ruby source code**: <https://github.com/ruby/ruby>
+- **Rails guides**: <https://guides.rubyonrails.org/>
 
 ## Intuition
 

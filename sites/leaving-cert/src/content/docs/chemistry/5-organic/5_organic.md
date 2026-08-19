@@ -733,20 +733,20 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 
 ## Practice Questions (Extended)
 
-6. Name the following compounds: (a) $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH$(b)
+1. Name the following compounds: (a) $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH$(b)
    $\mathrm{CH_3\mathrm{COOH$(c) $\mathrm{CH_3\mathrm{COCH_3$.
-7. Write the equation for the complete combustion of butane.
-8. Describe the test to distinguish between an aldehyde and a ketone.
-9. Write the equation for the formation of ethyl ethanoate from ethanoic acid and ethanol.
-10. Draw and name all structural isomers of $\mathrm{C_4\mathrm{H_9\mathrm{Cl$.
-11. Explain why butan-2-ol is optically active but butan-1-ol is not.
-12. Describe the free radical substitution mechanism for the reaction of methane with chlorine,
+2. Write the equation for the complete combustion of butane.
+3. Describe the test to distinguish between an aldehyde and a ketone.
+4. Write the equation for the formation of ethyl ethanoate from ethanoic acid and ethanol.
+5. Draw and name all structural isomers of $\mathrm{C_4\mathrm{H_9\mathrm{Cl$.
+6. Explain why butan-2-ol is optically active but butan-1-ol is not.
+7. Describe the free radical substitution mechanism for the reaction of methane with chlorine,
     including all three stages.
-13. Write equations for the reaction of ethanoic acid with (a) sodium, (b) sodium hydroxide, (c)
+8. Write equations for the reaction of ethanoic acid with (a) sodium, (b) sodium hydroxide, (c)
     sodium carbonate.
-14. Explain the difference between addition and condensation polymerisation, giving an example of
+9. Explain the difference between addition and condensation polymerisation, giving an example of
     each.
-15. A compound $\mathrm{C_3\mathrm{H_6\mathrm{O$ gives a positive Tollens' test and decolourises
+10. A compound $\mathrm{C_3\mathrm{H_6\mathrm{O$ gives a positive Tollens' test and decolourises
     bromine water. Suggest a structure and explain.
 
 ---

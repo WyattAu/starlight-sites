@@ -23,6 +23,7 @@ categories:
 ## Bonding
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C2 | WJEC C2
+>
 ## 1. Ionic Bonding
 
 ### 1.1 Formation of Ions

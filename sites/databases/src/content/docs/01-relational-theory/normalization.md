@@ -72,7 +72,6 @@ Denormalized schema:
 Performance bottleneck and understanding the consistency cost. Premature denormalization creates
 Maintenance debt that compounds over time.
 
-
 ### Normal Form Hierarchy
 
 Each normal form is a strict subset of the one below it:
@@ -345,7 +344,6 @@ Step 3: Remove redundant attributes:
 This is expected. Different minimal covers may lead to different decompositions, but all are
 Correct.
 
-
 ## Normal Forms
 
 ### First Normal Form (1NF)
@@ -389,7 +387,6 @@ Satisfies 1NF:
 Need to query or join on individually. If you need to query individual elements or enforce
 Referential integrity, model them as separate rows.
 
-
 ### Second Normal Form (2NF)
 
 **Definition.** A relation $R$ is in second normal form (2NF) if and only if:
@@ -405,7 +402,6 @@ Dependency** exists when a non-prime attribute depends on only a proper subset o
 <aside class="starlight-aside starlight-aside--caution">
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
 Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
-
 
 ```text
 Relation: OrderItem(order_id, product_id, quantity, product_name, unit_price)
@@ -549,7 +545,6 @@ Constraint that a student has one instructor per course cannot be enforced on ei
 Table alone). In practice, you either stay in 3NF or enforce the lost dependency via application
 Logic, triggers, or CHECK constraints.
 
-
 ### Fourth Normal Form (4NF)
 
 **Definition.** A relation $R$ is in fourth normal form (4NF) if and only if, for every non-trivial
@@ -597,7 +592,6 @@ Decomposition:
 when a single entity has multiple independent multi-valued attributes. If you see a Table where
 adding a row requires adding $m \times n$ rows (for $m$ values of one attribute and $n$ Values of
 another), you likely have a 4NF violation.
-
 
 ### Fifth Normal Form (5NF) / Project-Join Normal Form (PJNF)
 
@@ -981,7 +975,6 @@ Decomposition loses dependency preservation. If it does, and the lost dependency
 Data integrity, stay in 3NF. If the lost dependency is trivial or can be enforced through
 Application logic, proceed with BCNF.
 
-
 ## Practical Normalization
 
 ### When to Stop
@@ -1037,7 +1030,6 @@ With surrogate key:
 <aside class="starlight-aside starlight-aside--caution">
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
 And model functional dependencies correctly.
-
 
 ### Normalization in Application Development
 

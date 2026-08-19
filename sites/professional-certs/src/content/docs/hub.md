@@ -293,7 +293,7 @@ Preparing for a professional certification exam typically requires 6 to 12 weeks
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Flashcards: 15 to 20 minutes of key concepts |
 | Afternoon | Study: one exam objective with hands-on practice |
 | Evening | Practice: 15 to 20 practice questions |

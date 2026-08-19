@@ -278,9 +278,9 @@ Applied horizontal force and the tension in the rope.
 
 - **a) Free-Body Diagram:** The diagram should show three forces acting on the object:
 
-1.  Weight ($F_g = mg$) acting vertically downwards.
-2.  Tension ($T$) acting upwards along the rope at 35° to the vertical.
-3.  Applied Horizontal Force ($F_a$) acting horizontally.
+1. Weight ($F_g = mg$) acting vertically downwards.
+2. Tension ($T$) acting upwards along the rope at 35° to the vertical.
+3. Applied Horizontal Force ($F_a$) acting horizontally.
 
 - **b) Calculate Forces:** The object is in static equilibrium, so the net force in both the
   horizontal and vertical directions is zero. Resolve the tension into components.
@@ -380,9 +380,9 @@ Acceleration compare to that of a block sliding down the same incline without fr
 
 - **a) Free-Body Diagram:** The diagram should show:
 
-1.  Weight ($Mg$) acting vertically down from the center.
-2.  Normal force ($N$) acting perpendicular to the incline, from the point of contact.
-3.  Static friction ($f_s$) acting _up_ the incline, at the point of contact. (This friction
+1. Weight ($Mg$) acting vertically down from the center.
+2. Normal force ($N$) acting perpendicular to the incline, from the point of contact.
+3. Static friction ($f_s$) acting _up_ the incline, at the point of contact. (This friction
     provides the torque to make it rotate).
 
 - **b) Derive Acceleration:**
@@ -402,6 +402,7 @@ Kinetic energy, leaving less for translational kinetic energy, resulting in a sm
 Acceleration. **If you get this wrong, you should focus on:** Applying both linear and rotational
 Forms of Newton's second law, correctly identifying static friction as the source of torque for
 Rolling objects, and using the no-slip condition ($a=\alpha R$) to connect the two equations.
+
 </details>
 
 **Problem 7.** **Question (HL Only):** An ice skater is spinning at an angular speed of 10.0 rad/s
@@ -429,6 +430,7 @@ Internal). **If you get this wrong, you should focus on:** The law of conservati
 Momentum and when it applies (no net external torque). Also, understanding that rotational kinetic
 Energy is _not_ necessarily conserved when the moment of inertia changes, and that work must be done
 To change the configuration of a rotating system.
+
 </details>
 
 **Problem 8.** **Question (HL Only):** From the perspective of an observer in a laboratory, a muon

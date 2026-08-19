@@ -105,11 +105,11 @@ processes can complete: system is **safe**.
 
 Given the state above, suppose $P_1$ requests $(1,0,2)$.
 
-_Step 1:_ Verify $\mathrm{Request_1} = (1,0,2) \leq \mathrm{Need_1} = (1,2,2)$. OK.
+*Step 1:* Verify $\mathrm{Request_1} = (1,0,2) \leq \mathrm{Need_1} = (1,2,2)$. OK.
 
-_Step 2:_ Verify $\mathrm{Request_1} = (1,0,2) \leq A = (3,3,2)$. OK.
+*Step 2:* Verify $\mathrm{Request_1} = (1,0,2) \leq A = (3,3,2)$. OK.
 
-_Step 3:_ Pretend to allocate:
+*Step 3:* Pretend to allocate:
 
 | Process | Allocation | Max     | Need    |
 | ------- | ---------- | ------- | ------- |
@@ -121,7 +121,7 @@ _Step 3:_ Pretend to allocate:
 
 $A = (3,3,2) - (1,0,2) = (2,3,0)$.
 
-_Step 4:_ Run safety algorithm.
+*Step 4:* Run safety algorithm.
 
 1. $P_1$: $\mathrm{Need} = (0,2,0) \leq (2,3,0)$. Execute, $A = (2,3,0) + (3,0,2) = (5,3,2)$.
 2. $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. Execute, $A = (5,3,2) + (2,1,1) = (7,4,3)$.
@@ -139,13 +139,13 @@ $\langle P_1, P_3, P_4, P_0, P_2 \rangle$.
 
 Suppose instead $P_0$ requests $(0,2,0)$ in the original state.
 
-_Step 1:_ $\mathrm{Request_0} = (0,2,0) \leq \mathrm{Need_0} = (7,4,3)$. OK.
+*Step 1:* $\mathrm{Request_0} = (0,2,0) \leq \mathrm{Need_0} = (7,4,3)$. OK.
 
-_Step 2:_ $\mathrm{Request_0} = (0,2,0) \leq A = (3,3,2)$. OK.
+*Step 2:* $\mathrm{Request_0} = (0,2,0) \leq A = (3,3,2)$. OK.
 
-_Step 3:_ Pretend to allocate. New $A = (3,1,2)$, $\mathrm{Need_0} = (7,2,3)$.
+*Step 3:* Pretend to allocate. New $A = (3,1,2)$, $\mathrm{Need_0} = (7,2,3)$.
 
-_Step 4:_ Safety check. No process can execute: $P_1$ needs $(1,2,2)$ but only $(3,1,2)$ available
+*Step 4:* Safety check. No process can execute: $P_1$ needs $(1,2,2)$ but only $(3,1,2)$ available
 (second component insufficient). $P_3$ needs $(0,1,1) \leq (3,1,2)$ — OK, execute $P_3$:
 $A = (5,2,3)$. Then $P_1$: $(1,2,2) \leq (5,2,3)$ — OK, execute: $A = (7,2,3)$. But now $P_0$ needs
 $(7,2,3)$ — exact match, execute: $A = (7,3,3)$. $P_4$: $(4,3,1) \leq (7,3,3)$ — OK, execute:
@@ -158,7 +158,7 @@ Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **grant
 **Theorem 4.1.** The Banker's algorithm is correct: if it declares a state safe, there exists a
 Sequence of process completions that avoids deadlock.
 
-_Proof._ The safety algorithm constructs an explicit sequence. Each process in the sequence can run
+*Proof.* The safety algorithm constructs an explicit sequence. Each process in the sequence can run
 To completion with the currently available resources plus those released by previously completed
 Processes. If no such sequence exists, there is a set of processes whose combined needs exceed
 Available resources. $\blacksquare$
@@ -199,14 +199,14 @@ Available = $10 - (5 + 2 + 2) = 1$.
 
 $\mathrm{Request_0} = 4$, $\mathrm{Request_1} = 2$, $\mathrm{Request_2} = 5$.
 
-_Detection:_
+*Detection:*
 
 1. Work = 1. No process has $\mathrm{Request} \leq 1$.
 2. No process can proceed. All three are deadlocked.
 
 The system is in an **unsafe state** with a deadlock involving $\{P_0, P_1, P_2\}$.
 
-_Recovery:_ Preempt 3 units from $P_0$ (reducing its allocation to 2). Now Available = 4. $P_1$ can
+*Recovery:* Preempt 3 units from $P_0$ (reducing its allocation to 2). Now Available = 4. $P_1$ can
 proceed ($\mathrm{Request_1} = 2 \leq 4$). After $P_1$ finishes, Available = $4 + 2 = 6$. $P_0$:
 $\mathrm{Request_0} = 4 \leq 6$Proceeds. After: Available = $6 + 5 = 11$. $P_2$ proceeds. Deadlock
 resolved.
@@ -232,7 +232,6 @@ is Overly restrictive.
 - **[Synchronisation](./3_synchronisation.md):** Mutexes, semaphores, and condition variables.
 - **[Process Management](./2_process-management.md):** Process scheduling and lifecycle.
 - **[I/O Systems](./7_i-o-systems.md):** I/O resource allocation and deadlock.
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

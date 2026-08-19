@@ -160,7 +160,6 @@ Classical field theory extends mechanics from particles to continuous media. A f
 | Quantum Mechanics              | WyattsNotes | [View](../5-quantum-mechanics/16_flashcards-quantum-mechanics)                        |
 | Classical Mechanics — MIT 8.01 | MIT OCW     | [View](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) |
 
-
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

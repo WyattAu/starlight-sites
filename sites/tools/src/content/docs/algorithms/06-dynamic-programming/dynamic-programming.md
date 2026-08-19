@@ -147,7 +147,6 @@ And coins second, you count permutations (different orderings of the same coins 
 Separately). If you iterate coins first and amount second, you count combinations (each combination
 Is counted once). This is a common source of incorrect DP solutions.
 
-
 ## 2D DP
 
 ### Longest Common Subsequence (LCS)
@@ -309,7 +308,6 @@ def unbounded_knapsack(weights, values, capacity):
   within the same iteration
 
 Getting this direction wrong is one of the most common DP bugs.
-
 
 ## String DP
 
@@ -964,7 +962,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

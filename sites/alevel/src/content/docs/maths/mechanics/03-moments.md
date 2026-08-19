@@ -173,6 +173,7 @@ The direction of $\boldsymbol{\tau}$ is given by the right-hand rule and is perp
 Plane containing $\mathbf{r}$ and $\mathbf{F}$.
 
 > **Info:** Info Anticlockwise are the only two directions you need to consider.
+>
 ### 3.1.5 Equilibrium of couples
 
 If a body is acted on by several couples, the body is in rotational equilibrium if and only if the
@@ -825,7 +826,6 @@ Centre of mass is approximately $4.21\,\mathrm{cm}$ from the flat face.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -881,4 +881,3 @@ linked above.
 - [Dynamics (Extended)](dynamics-depth.md) -- Extended dynamics covers force resolution on inclined planes and connected particles, prerequisites for many moment problems.
 - [Kinematics](01-kinematics.md) -- Understanding displacement and acceleration provides context for the static equilibrium studied in moments.
 - [Vectors](../pure-mathematics/12-vectors.md) -- Vector resolution and the cross product are the mathematical tools behind calculating moments.
-

@@ -31,7 +31,7 @@ SAT writing study notes - Language
 ## Key Rules
 
 | Rule | Incorrect | Correct |
-|------|-----------|---------|
+| ------ | ----------- | --------- |
 | Subject-verb agreement | "The group of students **were** late" | "The group of students **was** late" |
 | Parallel structure | "She likes **swimming, to run, and cycling**" | "She likes **swimming, running, and cycling**" |
 | Modifier placement | "**Walking to school**, the rain started" | "**Walking to school**, I noticed the rain started" |

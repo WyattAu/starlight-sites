@@ -252,7 +252,6 @@ Selectivity estimates.
 
 </details>
 
-
 ## Intuition
 
 Indexes are the lookup tables that make database queries fast, like the index at the back of a textbook that tells you which page discusses a topic. Without an index, every query scans every row (a full table scan), which is like reading an entire book to find one fact. B-tree indexes organize data in a balanced tree structure that allows logarithmic lookup, the way a phone book is organized alphabetically so you can find any name in about 20 steps regardless of whether the book has 1,000 or 1,000,000 entries.
@@ -264,6 +263,7 @@ Indexes are the lookup tables that make database queries fast, like the index at
 **Confusing clustered with non-clustered indexes:** A clustered index determines the physical order of data (only one per table). Non-clustered indexes create separate structures pointing to the data. Don't assume they're the same.
 
 **Forgetting that indexes don't help with all queries:** Indexes are most useful for equality and range queries on indexed columns. Queries that scan most of the table won't benefit from indexes.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for computer-science notes.

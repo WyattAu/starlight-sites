@@ -23,6 +23,7 @@ categories:
 ## Inheritance, Variation, and Evolution
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway B3 | WJEC B3
+>
 ## 1. DNA and Genetics
 
 ### 1.1 DNA Structure
@@ -154,7 +155,7 @@ Variation.
   over occurs during Prophase I, where non-sister chromatids exchange segments of DNA.
 - Second division: Chromatids separate (similar to mitosis).
 
-3. Four genetically unique daughter cells are produced, each with half the normal number of
+1. Four genetically unique daughter cells are produced, each with half the normal number of
    chromosomes (haploid).
 
 **Key differences from mitosis:**
@@ -212,12 +213,12 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 - Salt: neutralises the negative charges on DNA, allowing it to clump together.
 - Detergent: breaks down the cell membranes and nuclear membranes, releasing the DNA.
 
-2. Filter the mixture to remove the pulp (cell debris, proteins, and other large molecules).
-3. Add cold ethanol to the filtrate.
+1. Filter the mixture to remove the pulp (cell debris, proteins, and other large molecules).
+2. Add cold ethanol to the filtrate.
 
 - DNA is insoluble in cold ethanol, so it precipitates out of solution.
 
-4. DNA precipitates out as a white, stringy substance that can be spooled onto a glass rod.
+1. DNA precipitates out as a white, stringy substance that can be spooled onto a glass rod.
 
 ### 2.4 Higher Tier: Sexual and Asexual Reproduction Compared
 

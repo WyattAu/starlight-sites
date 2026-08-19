@@ -24,7 +24,6 @@ categories: [ib-economics]
 
 **The key insight:** Trade theory shows how specialization benefits all parties, but real-world trade involves power dynamics and protectionism
 
-
 ## Foreign Aid
 
 ### Types of Aid
@@ -693,12 +692,12 @@ coverage to rural areas. Evaluate this policy using cost-benefit analysis. [6 ma
 money does not compete with well-established alternatives. In developed countries, mobile banking
 must compete with established branch networks, credit cards, and online banking
 
-2. **Higher marginal benefit:** in Country Z, the unbanked population faces high costs from
+1. **Higher marginal benefit:** in Country Z, the unbanked population faces high costs from
    financial exclusion (reliance on cash, inability to save securely, limited access to credit). The
    marginal benefit of mobile money is much higher than in developed countries where banking is
    nearly universal
 
-3. **Network effects:** mobile money becomes more valuable as more people use it (everyone can send
+2. **Network effects:** mobile money becomes more valuable as more people use it (everyone can send
    and receive money). In a country with 80% mobile penetration, network effects are strong
 
 (b) **Cost-benefit analysis:**

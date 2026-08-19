@@ -514,7 +514,6 @@ int main() {
 - **Range adaptor eager materialization.** Some range adaptors (like `std::views::reverse`) may need
   to buffer elements, defeating the lazy evaluation benefit of generators.
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to generators (std::generator),
@@ -544,4 +543,3 @@ Generators are like vending machines that dispense items one at a time. Instead 
 
 - [Stackless Coroutine Frames](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames enable generator implementation
 - [Promise, Awaiter](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types control generator behavior
-

@@ -14,7 +14,8 @@ const siteConfig = {
   },
   cpp: {
     title: 'C++',
-    subtitle: 'Deep C++ systems programming notes covering ownership, RAII, templates, and concurrency.',
+    subtitle:
+      'Deep C++ systems programming notes covering ownership, RAII, templates, and concurrency.',
     color: '#e74c3c',
     icon: 'Gear️',
   },
@@ -32,13 +33,15 @@ const siteConfig = {
   },
   'driving-uk': {
     title: 'UK Driving Test',
-    subtitle: 'Complete UK driving test preparation covering theory, hazard perception, and practical test.',
+    subtitle:
+      'Complete UK driving test preparation covering theory, hazard perception, and practical test.',
     color: '#c8102e',
     icon: 'Driving',
   },
   'driving-us': {
     title: 'US Driving Test',
-    subtitle: 'Complete US driving test preparation covering DMV written test, road test, and driving rules.',
+    subtitle:
+      'Complete US driving test preparation covering DMV written test, road test, and driving rules.',
     color: '#3c3b6e',
     icon: 'Driving',
   },
@@ -120,8 +123,8 @@ function generateSVG(config) {
   const { title, subtitle, color, icon } = config
 
   // Darken the accent color for gradient effect
-  const darkerColor = color + '33'
-  const lighterColor = color + '11'
+  const darkerColor = `${color}33`
+  const lighterColor = `${color}11`
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>

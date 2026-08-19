@@ -55,7 +55,6 @@ def validate_api_key():
 User or rotated. Use them only for server-to-server communication where OAuth 2.0 is Impractical.
 Prefer OAuth 2.0 Bearer tokens for user-facing APIs.
 
-
 ### Bearer Tokens
 
 ```python
@@ -277,7 +276,6 @@ Retry-After: 30
 </aside>
 <aside class="starlight-aside starlight-aside--note">
 Unauthenticated. Unauthenticated rate limits should be stricter to prevent abuse.
-
 
 ## Input Validation
 
@@ -656,7 +654,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

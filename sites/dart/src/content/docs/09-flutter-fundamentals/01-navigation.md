@@ -1393,10 +1393,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-
 ## Intuition
 
 Navigation in Flutter is like a stack of plates -- each push adds a new plate on top, and each pop removes the topmost one. Navigator 1.0 is like manually stacking plates: you decide exactly when to add and remove. GoRouter is like a conveyor belt that automatically stacks plates based on the URL -- the URL determines what is on the table, and the back button reverses the conveyor. Deep linking is like telling the conveyor belt to start at a specific plate rather than the beginning. ShellRoute is like a tray that holds multiple plates in different compartments -- the tray stays while the plates inside change.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

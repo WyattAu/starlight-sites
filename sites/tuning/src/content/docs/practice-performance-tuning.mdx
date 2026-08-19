@@ -17,7 +17,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## CPU Tuning
 
 <PracticeProblem client:only="solid-js" question={"What is the primary benefit of out-of-order execution in modern CPUs?"} options={'It allows execution of independent instructions in any order to fill idle execution ports', 'It increases clock frequency', 'It reduces power consumption', 'It simplifies the instruction pipeline'} correctAnswer={0} explanation="Out-of-order execution allows the CPU to process independent instructions in any order dictated by data dependencies, filling idle execution ports and extracting more instruction-level parallelism." difficulty="easy"  />
@@ -27,7 +26,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the typical L1 data cache latency in CPU cycles?"} options={'4-5 cycles', '12-14 cycles', '35-50 cycles', '200-400 cycles'} correctAnswer={0} explanation="L1 data cache access in standard practice takes 4-5 cycles (~1 ns at 5 GHz). This is the fastest cache level and is critical for performance." difficulty="easy"  />
 
 ---
-
 
 ## Memory Management
 
@@ -39,7 +37,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## I/O Optimization
 
 <PracticeProblem client:only="solid-js" question={"What is the primary advantage of using NVMe over SATA for storage?"} options={'Much lower latency and higher IOPS due to a more efficient protocol', 'Higher storage capacity', 'Lower cost per GB', 'Better data integrity'} correctAnswer={0} explanation="NVMe uses a leaner protocol with fewer abstraction layers and hardware-level queuing (up to 64K queues), dramatically reducing latency and increasing IOPS compared to SATA." difficulty="easy"  />
@@ -50,7 +47,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
-
 ## Network Tuning
 
 <PracticeProblem client:only="solid-js" question={"What is the purpose of TCP_NODELAY (disabling Nagle's algorithm)?"} options={'Sends small packets immediately without waiting to fill a full segment', 'Increases the TCP window size', 'Enables TCP segmentation offload', 'Reduces the number of retransmissions'} correctAnswer={0} explanation="Nagle's algorithm buffers small packets to reduce overhead. Disabling it (TCP_NODELAY) sends small packets immediately, reducing latency for interactive applications at the cost of slightly more overhead." difficulty="medium"  />
@@ -60,7 +56,6 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the typical effect of increasing the TCP receive buffer size?"} options={'Higher throughput for high-bandwidth, high-latency connections', 'Lower latency for all connections', 'Reduced CPU usage', 'Smaller packet sizes'} correctAnswer={0} explanation="Larger TCP buffers allow more data in flight, which is essential for filling the bandwidth-delay product on high-bandwidth, high-latency links (e.g., 10 Gbps over 100 ms RTT)." difficulty="medium"  />
 
 ---
-
 
 ## Profiling Tools
 

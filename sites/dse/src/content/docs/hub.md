@@ -277,7 +277,7 @@ Preparing for the DSE is a marathon, not a sprint. Here is a structured approach
 ### Daily Routine
 
 | Time | Activity |
-|------|----------|
+| ------ | ---------- |
 | Morning | Active recall — flashcards for 20 minutes |
 | Afternoon | Topic study — read notes on one new topic |
 | Evening | Practice — complete 5–10 practice questions |

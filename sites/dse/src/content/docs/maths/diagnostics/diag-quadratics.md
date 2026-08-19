@@ -759,8 +759,6 @@ Since $-2 + 2\sqrt{5} \approx 2.47 > 2$Only $k = -2 - 2\sqrt{5}$ gives real root
 $\Delta = 16 - 8(-2 - 2\sqrt{5}) = 16 + 16 + 16\sqrt{5} = 32 + 16\sqrt{5} > 0$. Both values give
 $\Delta > 0$So both are valid.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

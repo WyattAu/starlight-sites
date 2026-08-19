@@ -105,7 +105,6 @@ Wasting 249 addresses. This inefficiency drove the adoption of CIDR in 1993 (RFC
 Boundaries are still referenced in documentation and some legacy systems, so understanding them is
 Necessary.
 
-
 ## CIDR Notation
 
 CIDR (Classless Inter-Domain Routing) expresses a network as an IP address followed by a slash and
@@ -205,7 +204,6 @@ Allocation:
 <aside class="starlight-aside starlight-aside--caution">
 Address space and make it impossible to fit larger subnets later. This is the same principle as
 Memory allocation -- first-fit with largest-first ordering.
-
 
 ### Quick Subnetting Reference
 
@@ -473,7 +471,7 @@ DHCP options carry configuration parameters beyond the IP address:
 | 67          | TFTP Server Name         | 192.168.1.50                      |
 | 81          | Client FQDN              | client01.example.com              |
 | 119         | Domain Search List       | example.com, corp.example.com     |
-| 252         | WPAD URL                 | http://proxy.example.com/wpad.dat |
+| 252         | WPAD URL                 | <http://proxy.example.com/wpad.dat> |
 
 ### DHCP Servers
 
@@ -928,7 +926,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

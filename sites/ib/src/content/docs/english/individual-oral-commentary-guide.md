@@ -99,7 +99,6 @@ the teacher might select.
 
 **The key insight:** Effective commentary requires balancing textual evidence with interpretation, delivered with confidence and clarity
 
-
 ## 2. Extract Selection
 
 Although the teacher selects the extract, understanding what makes a good extract is essential for

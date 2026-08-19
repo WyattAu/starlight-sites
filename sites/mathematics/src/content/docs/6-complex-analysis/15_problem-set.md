@@ -479,7 +479,6 @@ Complex analysis is the study of functions that respect the geometry of the comp
 | [Complex Numbers] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/1-number-and-algebra/2_complex-numbers)                            |
 | [Complex Numbers] | University | [View](https://university.wyattau.com/docs/mathematics/7-complex-analysis/1_complex-analysis)                  |
 
-
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 

@@ -397,8 +397,6 @@ $$T_{f2} = 58.97°\text{C}$$
 substances, the final temperature must be between the initial temperatures of all components. If the
 calculation gives a temperature outside this range, there is an error.
 
-
-
 ## Cross-References
 
 - **[Mechanics](diag-mechanics):** Mechanics covers forces and motion

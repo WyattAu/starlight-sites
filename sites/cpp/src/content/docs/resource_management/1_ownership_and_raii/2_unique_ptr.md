@@ -671,7 +671,6 @@ std::unique_ptr<int> make_value_alt() {
 - [Weak References (std::weak_ptr)](4_weak_ptr.md)
 - [Common Pitfalls](5_custom_deleters.md)
 
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to unique ownership
@@ -692,4 +691,3 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

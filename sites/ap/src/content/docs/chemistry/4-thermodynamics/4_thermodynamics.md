@@ -187,7 +187,6 @@ $$
 = [-1180.5 - 1143.2] - [-103.8] = -2323.7 + 103.8 = -2219.9 \mathrm{ kJ
 $$
 
-
 ### Bond Enthalpies
 
 The average enthalpy change when a bond is broken in the gas phase:
@@ -216,7 +215,6 @@ $$
 
 (The exact value using formation enthalpies is about $-802 \mathrm{ kJ/mol$ for the gaseous
 Products.)
-
 
 ## Calorimetry
 
@@ -315,7 +313,6 @@ Moles of $\mathrm{H_2\mathrm{O$ formed: $1.00 \times 0.0500 = 0.0500 \mathrm{ mo
 $$
 \Delta H = \frac{-2.76}{0.0500} = -55.2 \mathrm{ kJ/mol
 $$
-
 
 ## Entropy and the Second Law (CED Unit 9)
 
@@ -883,7 +880,6 @@ $$
 ## Intuition
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
-
 
 ## Cross-References
 

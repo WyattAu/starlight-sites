@@ -13,7 +13,6 @@ sidebar_position: 50
 
 ---
 
-
 ### Exercise 1: View Composition
 
 **Problem:** Build a reusable profile card view that composes an image, name, and bio. The view should accept all data through parameters and use a `VStack` with an `HStack` for layout.
@@ -64,7 +63,6 @@ struct ProfileCardPreview: View \{
 **Solution:** The `ProfileCard` is a pure, stateless view that receives data via initializer parameters. `VStack` arranges content vertically with spacing. `clipShape(Circle())` and the overlay create a circular avatar with a border. The shadow and background provide visual depth.
 
 ---
-
 
 ### Exercise 2: State Management with @State and @Binding
 
@@ -127,7 +125,6 @@ struct ConverterContainer: View \{
 
 ---
 
-
 ### Exercise 3: Gesture Handling
 
 **Problem:** Implement a view that responds to a long-press gesture to toggle a mode, and a drag gesture that moves a circle around the screen. Display the current position.
@@ -181,7 +178,6 @@ struct DraggableView: View \{
 **Solution:** Two gestures are composed on the same view. `DragGesture` tracks translation and updates `offset` on change, resetting with animation on release. `LongPressGesture` toggles `isEditing` after 0.5 seconds. The circle's fill color and position reflect the current state.
 
 ---
-
 
 ### Exercise 4: Custom Modifiers
 
@@ -241,7 +237,6 @@ struct ModifierDemo: View \{
 **Solution:** `CardModifier` encapsulates the card styling logic in a reusable `ViewModifier`. The `extension View` method provides a fluent API. Different configurations are achieved by passing parameters to the convenience method, keeping the modifier flexible and composable.
 
 ---
-
 
 ### Exercise 5: Navigation with NavigationStack
 

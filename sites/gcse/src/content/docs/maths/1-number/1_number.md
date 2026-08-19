@@ -746,10 +746,10 @@ Since $k + 1$ is an integer, this is a multiple of 8. $\blacksquare$
 15. Two lights flash every 15 seconds and 24 seconds. They flash together at noon. At what times
     before 1 pm will they flash together?
 
-
 ## Intuition
 
 Number theory is the bedrock of mathematics -- every other topic builds on it. Prime factorisation is like a molecular formula: it breaks every number into its irreducible elements, revealing structure that is invisible on the surface. The Fundamental Theorem of Arithmetic guarantees that this decomposition is unique, which is why prime factorisation is so powerful for finding HCFs and LCMs. Bounds are about precision: when you round a measurement, you are accepting uncertainty, and bounds quantify that uncertainty. The key insight is that numbers are not just values -- they have properties (divisibility, primality, parity) that determine how they behave in calculations.
+
 ## Worked Examples
 
 **Example 1:**

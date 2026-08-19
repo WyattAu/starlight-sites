@@ -897,7 +897,6 @@ Section 8.
 
 </details>
 
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -944,8 +943,6 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
-
-
 
 ## Cross-References
 

@@ -698,17 +698,17 @@ After tightening primary timings, secondary timings provide the next level of op
 - Lower tFAW allows more activate commands in a given window, improving row access parallelism.
 - Too low causes data corruption because the DRAM cells do not have enough time to settle.
 
-2. **tRRD_S and tRRD_L:**
+1. **tRRD_S and tRRD_L:**
 
 - tRRD_S (Same Bank Group): Start at 4, try reducing to 3.
 - tRRD_L (Different Bank Group): Start at 6, try reducing to 4.
 - These affect the time between activating different rows. Lower values improve interleaved access
   performance.
 
-3. **tCWL (CAS Write Latency):** CL - 1 or CL. Try setting to CL - 1 if it is currently at CL. Write
+1. **tCWL (CAS Write Latency):** CL - 1 or CL. Try setting to CL - 1 if it is currently at CL. Write
    latency has less impact on most workloads than read latency.
 
-4. **tWR (Write Recovery Time):** Try reducing by 1 cycle. This is the time after a write before the
+2. **tWR (Write Recovery Time):** Try reducing by 1 cycle. This is the time after a write before the
    row can be precharged. Related to tRTP (Read to Precharge).
 
 ### Tertiary Timing Exploration
@@ -722,16 +722,16 @@ Tertiary timings are risky to tune but can provide measurable improvements:
 - Reducing tRFC directly improves performance because the DRAM is unavailable for a shorter period
   during refreshes.
 
-2. **tREFI (Refresh Interval):** Default is 31200 for DDR5 (at normal temperature). Increasing tREFI
+1. **tREFI (Refresh Interval):** Default is 31200 for DDR5 (at normal temperature). Increasing tREFI
    delays refresh cycles, improving performance but reducing data retention margin.
 
 - Try increasing to 62400 or 93600.
 - At higher tREFI values, the DRAM may lose data if the ambient temperature is high or if there are
   long periods without access.
 
-3. **tRDWR (Read to Write Turnaround):** Default is 5–7 cycles. Try reducing by 1.
+1. **tRDWR (Read to Write Turnaround):** Default is 5–7 cycles. Try reducing by 1.
 
-4. **tWRRD (Write to Read Turnaround):** Default is 6–8 cycles. Try reducing by 1.
+2. **tWRRD (Write to Read Turnaround):** Default is 6–8 cycles. Try reducing by 1.
 
 ### Memory Stress Testing After Tertiary Timing Changes
 

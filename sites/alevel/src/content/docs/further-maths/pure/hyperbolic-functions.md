@@ -17,7 +17,6 @@ categories: [Mathematics]
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -1230,8 +1229,6 @@ $\sinh 2t = 2\cdot\dfrac{4}{3}\cdot\dfrac{5}{3} = \dfrac{40}{9}$.
 $= \frac{9}{2}\!\left(\operatorname{arsinh}\!\frac{4}{3} + \frac{20}{9}\right) = \boxed{\frac{9}{2}\operatorname{arsinh}\!\frac{4}{3} + 10}$.
 
 </details>
-
-
 
 ## Cross-References
 

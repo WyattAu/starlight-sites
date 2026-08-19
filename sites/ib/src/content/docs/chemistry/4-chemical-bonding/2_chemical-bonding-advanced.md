@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Molecular geometry (predicted by VSEPR theory) determines polarity, reactivity, and biological activity
 
-
 ## 1. VSEPR Theory
 
 ### Principle
@@ -608,14 +607,14 @@ The strength of metallic bonding depends on three factors:
   valence electrons to the delocalized sea.
 - $\mathrm{Na}$: configuration $[\mathrm{Ne}]\, 3s^1$Contributing only 1 valence electron.
 
-2. **Ionic radius (charge density):**
+1. **Ionic radius (charge density):**
 
 - $\mathrm{W}^{6+}$ has a much smaller ionic radius than $\mathrm{Na}^+$ because tungsten is in
   Period 6 but has a much higher nuclear charge pulling electrons inward.
 - Smaller ionic radius means the cations are closer to the electron sea, increasing electrostatic
   attraction.
 
-3. **Ionic charge:**
+1. **Ionic charge:**
 
 - $\mathrm{W}$ can achieve high oxidation states ($+6$), creating cations with much greater charge
   density than $\mathrm{Na}^+$.
@@ -1010,7 +1009,7 @@ from the value in methane.
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Atomic structure and electron configurations** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)

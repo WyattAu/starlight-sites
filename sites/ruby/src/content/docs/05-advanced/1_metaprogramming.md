@@ -1126,7 +1126,7 @@ puts store.active_electronics
 class ContactInfo
   attr_accessor :email, :phone, :address
   def initialize
-    @email = "a@b.com"
+    @email = "<a@b.com>"
     @phone = "555-1234"
   end
 end
@@ -1139,8 +1139,9 @@ class WorkInfo
 end
 
 emp = Employee.new
-emp.email   # => "a@b.com"
+emp.email   # => "<a@b.com>"
 emp.job_title  # => "Engineer"
+
 ```
 
 ## Cross-References

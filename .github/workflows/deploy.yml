@@ -6,9 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write   # mark-good job pushes the last-good-deploy tag
   issues: write
   pull-requests: write
+  actions: write    # failure path triggers rollback.yml
 
 concurrency:
   group: deploy-${{ github.ref }}
@@ -17,8 +18,27 @@ concurrency:
 env:
   # Match the local dev environment (Bun 1.3.x) and the bun.lock format.
   BUN_VERSION: "1.3"
+  LAST_GOOD_TAG: last-good-deploy
 
 jobs:
+  # ADR-011: derive the deploy matrices from sites/ so they can never drift.
+  # ADR-014: deploy is staged -- a two-site canary wave is smoke-verified
+  # before the remaining 43 sites roll out.
+  resolve-sites:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      canary: ${{ steps.sites.outputs.canary }}
+      rollout: ${{ steps.sites.outputs.rollout }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Derive canary and rollout matrices from sites/ directory
+        id: sites
+        run: |
+          echo "canary=$(node scripts/list-sites.js --canary-matrix)" >> "$GITHUB_OUTPUT"
+          echo "rollout=$(node scripts/list-sites.js --rollout-matrix)" >> "$GITHUB_OUTPUT"
+
   # Gate: production deployments must not proceed unless the full quality
   # suite (lint + no-emoji + sync integrity + tests) passes.
   gate:
@@ -71,149 +91,16 @@ jobs:
       - name: Vitest component tests
         run: npx vitest run
 
-  deploy:
-    needs: gate
+  # Wave 1 -- canary (2 sites, distinct structural variants). If this fails,
+  # the rollout never starts and the blast radius is 2 sites, not 45.
+  deploy-canary:
+    needs: [gate, resolve-sites]
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
-        include:
-          - site: dse
-            project: wyattsnotes-dse
-            url: https://dse.wyattau.com
-          - site: ib
-            project: wyattsnotes-ib
-            url: https://ib.wyattau.com
-          - site: admissions
-            project: wyattsnotes-admissions
-            url: https://admissions.wyattau.com
-          - site: alevel
-            project: wyattsnotes-alevel
-            url: https://alevel.wyattau.com
-          - site: cbse
-            project: wyattsnotes-cbse
-            url: https://cbse.wyattau.com
-          - site: chemistry
-            project: wyattsnotes-chemistry
-            url: https://chemistry.wyattau.com
-          - site: computer-science
-            project: wyattsnotes-computer-science
-            url: https://computer-science.wyattau.com
-          - site: databases
-            project: wyattsnotes-databases
-            url: https://databases.wyattau.com
-          - site: gaokao
-            project: wyattsnotes-gaokao
-            url: https://gaokao.wyattau.com
-          - site: hsc
-            project: wyattsnotes-hsc
-            url: https://hsc.wyattau.com
-          - site: languages
-            project: wyattsnotes-languages
-            url: https://languages.wyattau.com
-          - site: licensing
-            project: wyattsnotes-licensing
-            url: https://licensing.wyattau.com
-          - site: linux
-            project: wyattsnotes-linux
-            url: https://linux.wyattau.com
-          - site: machine-learning
-            project: wyattsnotes-machine-learning
-            url: https://machine-learning.wyattau.com
-          - site: mathematics
-            project: wyattsnotes-mathematics
-            url: https://mathematics.wyattau.com
-          - site: networking
-            project: wyattsnotes-networking
-            url: https://networking.wyattau.com
-          - site: physics
-            project: wyattsnotes-physics
-            url: https://physics.wyattau.com
-          - site: programming
-            project: wyattsnotes-programming
-            url: https://programming.wyattau.com
-          - site: sat
-            project: wyattsnotes-sat
-            url: https://sat.wyattau.com
-          - site: security
-            project: wyattsnotes-security
-            url: https://security.wyattau.com
-          - site: tools
-            project: wyattsnotes-tools
-            url: https://tools.wyattau.com
-          - site: truenas
-            project: wyattsnotes-truenas
-            url: https://truenas.wyattau.com
-          - site: tuning
-            project: wyattsnotes-tuning
-            url: https://tuning.wyattau.com
-          - site: cpp
-            project: wyattsnotes-cpp
-            url: https://cpp.wyattau.com
-          - site: dart
-            project: wyattsnotes-dart
-            url: https://dart.wyattau.com
-          - site: elixir
-            project: wyattsnotes-elixir
-            url: https://elixir.wyattau.com
-          - site: go
-            project: wyattsnotes-go
-            url: https://go.wyattau.com
-          - site: haskell
-            project: wyattsnotes-haskell
-            url: https://haskell.wyattau.com
-          - site: java
-            project: wyattsnotes-java
-            url: https://java.wyattau.com
-          - site: kotlin
-            project: wyattsnotes-kotlin
-            url: https://kotlin.wyattau.com
-          - site: python
-            project: wyattsnotes-python
-            url: https://python.wyattau.com
-          - site: ruby
-            project: wyattsnotes-ruby
-            url: https://ruby.wyattau.com
-          - site: rust
-            project: wyattsnotes-rust
-            url: https://rust.wyattau.com
-          - site: swift
-            project: wyattsnotes-swift
-            url: https://swift.wyattau.com
-          - site: typescript
-            project: wyattsnotes-typescript
-            url: https://typescript.wyattau.com
-          - site: gcse
-            project: wyattsnotes-gcse
-            url: https://gcse.wyattau.com
-          - site: ap
-            project: wyattsnotes-ap
-            url: https://ap.wyattau.com
-          - site: highers
-            project: wyattsnotes-highers
-            url: https://highers.wyattau.com
-          - site: leaving-cert
-            project: wyattsnotes-leaving-cert
-            url: https://leaving-cert.wyattau.com
-          - site: driving-uk
-            project: wyattsnotes-driving-uk
-            url: https://driving-uk.wyattau.com
-          - site: driving-us
-            project: wyattsnotes-driving-us
-            url: https://driving-us.wyattau.com
-          - site: driving-eu
-            project: wyattsnotes-driving-eu
-            url: https://driving-eu.wyattau.com
-          - site: language-tests
-            project: wyattsnotes-language-tests
-            url: https://language-tests.wyattau.com
-          - site: civics-tests
-            project: wyattsnotes-civics-tests
-            url: https://civics-tests.wyattau.com
-          - site: professional-certs
-            project: wyattsnotes-professional-certs
-            url: https://professional-certs.wyattau.com
+        include: ${{ fromJson(needs.resolve-sites.outputs.canary) }}
 
     steps:
       - uses: actions/checkout@v4
@@ -331,8 +218,136 @@ jobs:
           echo "- **Project**: ${{ matrix.project }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
+  # Wave 2 -- full rollout. Runs only after every canary site deployed and
+  # verified 200 OK. fail-fast:false so one bad site does not cancel the
+  # other 42 in-flight builds (each is independent).
+  deploy-rollout:
+    needs: [gate, resolve-sites, deploy-canary]
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(needs.resolve-sites.outputs.rollout) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Cache bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lock') }}
+          restore-keys: bun-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build site
+        working-directory: sites/${{ matrix.site }}
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: bun run build
+
+      - name: Verify output
+        working-directory: sites/${{ matrix.site }}
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "::error::Build failed - no dist directory"
+            exit 1
+          fi
+          pages=$(find dist -name "*.html" | wc -l)
+          echo "Built $pages HTML pages"
+          if [ "$pages" -eq 0 ]; then
+            echo "::error::Build produced 0 HTML pages"
+            exit 1
+          fi
+
+      - name: Ensure Cloudflare Pages project exists
+        # Idempotent: try to create the project. If creation fails (e.g. API
+        # token lacks project creation scope), log a warning and continue —
+        # the deploy step will fail later if the project truly doesn't exist.
+        run: |
+          set +e
+          bunx wrangler pages project create ${{ matrix.project }} --production-branch main 2>&1 | tee /tmp/cf-create.log
+          status=${PIPESTATUS[0]}
+          if [ "$status" -ne 0 ]; then
+            if grep -qi 'already exist' /tmp/cf-create.log; then
+              echo "Project ${{ matrix.project }} already exists."
+            else
+              echo "::warning::Could not create Cloudflare project ${{ matrix.project }}"
+              cat /tmp/cf-create.log
+              echo "Continuing anyway — deploy step will verify project existence."
+            fi
+          else
+            echo "Project ${{ matrix.project }} created."
+          fi
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Deploy to Cloudflare Pages
+        working-directory: sites/${{ matrix.site }}
+        run: bunx wrangler pages deploy dist --project-name ${{ matrix.project }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Add custom domain (idempotent)
+        continue-on-error: true
+        run: |
+          domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
+          echo "Adding custom domain $domain to project ${{ matrix.project }}..."
+          resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/${{ matrix.project }}/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"name\": \"$domain\"}")
+          success=$(echo "$resp" | grep -o '"success":true')
+          if [ -n "$success" ]; then
+            echo "Domain $domain added to project ${{ matrix.project }}."
+          else
+            err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+            echo "Note: Domain add skipped or already configured ($err)"
+          fi
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Verify deployment (poll up to 5 minutes)
+        # Cloudflare Pages propagation can take 30-90 seconds. Poll the
+        # origin until it returns 200 or the budget is exhausted. If the
+        # domain isn't configured yet (e.g. new sites), log a warning and
+        # continue — the pages.dev URL will still be live.
+        run: |
+          url="${{ matrix.url }}/"
+          deadline=$(( $(date +%s) + 300 ))
+          status="000"
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 -L "$url" 2>/dev/null || echo "000")
+            if [ "$status" = "200" ]; then
+              echo "Verified: $url -> $status"
+              exit 0
+            fi
+            echo "Probe: $url -> $status (retrying in 15s)"
+            sleep 15
+          done
+          echo "::warning::Site $url did not return 200 within 5 minutes (last status: $status)"
+          echo "This is expected for new sites — custom domain may need Cloudflare Dashboard config."
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## ${{ matrix.site }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL**: ${{ matrix.url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Project**: ${{ matrix.project }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
   deploy-landing:
-    needs: gate
+    # Landing follows the canary wave: it deploys only after the canary
+    # proved the build pipeline; it does not wait for all 43 rollout sites.
+    needs: [gate, deploy-canary]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -374,7 +389,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
   update-search-index:
-    needs: deploy
+    needs: deploy-rollout
     runs-on: ubuntu-latest
     timeout-minutes: 10
     if: success()
@@ -457,8 +472,52 @@ jobs:
           echo "- **KV Namespace**: WYATTSNOTES-SEARCH" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
+  mark-good:
+    # ADR-014: on a fully successful deploy, move the last-good-deploy tag.
+    # rollback.yml (manual or auto-triggered) redeploys this commit.
+    needs: [deploy-canary, deploy-rollout, deploy-landing, update-search-index]
+    if: success() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Move last-good-deploy tag to this commit
+        run: |
+          git config user.name "deploy-bot"
+          git config user.email "deploy-bot@users.noreply.github.com"
+          if git ls-remote --exit-code --tags origin "refs/tags/${LAST_GOOD_TAG}"; then
+            git tag -f "${LAST_GOOD_TAG}" "$GITHUB_SHA"
+            git push -f origin "${LAST_GOOD_TAG}"
+            echo "Moved ${LAST_GOOD_TAG} -> $GITHUB_SHA"
+          else
+            git tag "${LAST_GOOD_TAG}" "$GITHUB_SHA"
+            git push origin "${LAST_GOOD_TAG}"
+            echo "Created ${LAST_GOOD_TAG} at $GITHUB_SHA"
+          fi
+
+  rollback-on-failure:
+    # ADR-014: if a deploy wave failed after sites started changing, trigger
+    # the rollback workflow automatically (redeploy of last-good-deploy).
+    # Skipped when only the gate failed -- no site changed, nothing to undo.
+    needs: [deploy-canary, deploy-rollout, update-search-index]
+    if: failure() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Trigger rollback of last-good-deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git ls-remote --exit-code --tags "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "refs/tags/${LAST_GOOD_TAG}"; then
+            echo "::warning::Deploy failed after sites changed -- triggering rollback to ${LAST_GOOD_TAG}"
+            gh workflow run rollback.yml --ref main
+          else
+            echo "::warning::Deploy failed but no ${LAST_GOOD_TAG} tag exists yet (first deploy?) -- skipping rollback."
+          fi
+
   summary:
-    needs: [deploy, deploy-landing, update-search-index]
+    needs: [deploy-canary, deploy-rollout, deploy-landing, update-search-index, mark-good, rollback-on-failure]
     runs-on: ubuntu-latest
     if: always()
     steps:
@@ -468,21 +527,19 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Component | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|-----------|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Sites (9) | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Sites (all Astro sites, derived) | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Landing | ${{ needs.deploy-landing.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Search Index | ${{ needs.update-search-index.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### URLs" >> $GITHUB_STEP_SUMMARY
+          echo "### Key URLs" >> $GITHUB_STEP_SUMMARY
           echo "| Site | URL |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
           echo "| Landing | https://wyattsnotes.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| Search API | https://wyattsnotes-search.workers.dev/api/search |" >> $GITHUB_STEP_SUMMARY
+          echo "| Dashboard | https://search.wyattau.com/dashboard |" >> $GITHUB_STEP_SUMMARY
           echo "| DSE | https://dse.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| IB | https://ib.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| A-Level | https://alevel.wyattau.com |" >> $GITHUB_STEP_SUMMARY
-          echo "| University | https://university.wyattau.com |" >> $GITHUB_STEP_SUMMARY
-          echo "| Qualifications | https://qualifications.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| Programming | https://programming.wyattau.com |" >> $GITHUB_STEP_SUMMARY
-          echo "| Infrastructure | https://infrastructure.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| Languages | https://languages.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| Tools | https://tools.wyattau.com |" >> $GITHUB_STEP_SUMMARY

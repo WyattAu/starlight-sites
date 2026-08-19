@@ -617,10 +617,10 @@ $r^2 = 0.64$: 64% of the variation in $y$ is explained by the linear relationshi
 **Warning:** The regression line of $y$ on $x$ should only be used for prediction within the range
 Of the data (interpolation). Extrapolation beyond the data range is unreliable.
 
-
 ## Intuition
 
 Probability is the mathematics of uncertainty -- it quantifies how likely events are and helps you make decisions when you cannot be sure of the outcome. The key rules (addition, multiplication, conditional probability) are like the grammar of uncertainty: they tell you how to combine chances in different situations. Statistics is the science of drawing conclusions from data -- the mean tells you the centre, the standard deviation tells you the spread, and hypothesis testing tells you whether an observed effect is real or just noise. The most important insight is that correlation does not imply causation -- two things can happen together without one causing the other.
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -697,22 +697,22 @@ See the examples integrated throughout the sections above.
 
 ### Extended Practice
 
-21. Prove that for any two events $A$ and $B$: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
-22. Find the expected value and variance of $X \sim \mathrm{Po(4)$.
-23. A sample of 50 students has a mean study time of 15.2 hours per week with standard deviation 4.3
+1. Prove that for any two events $A$ and $B$: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
+2. Find the expected value and variance of $X \sim \mathrm{Po(4)$.
+3. A sample of 50 students has a mean study time of 15.2 hours per week with standard deviation 4.3
     hours. Construct a 95% confidence interval for the population mean.
-24. Use the binomial expansion to find the first four terms of $(1 + x)^{10}$.
-25. A quality control inspector checks items from a production line. The probability of a defect is
+4. Use the binomial expansion to find the first four terms of $(1 + x)^{10}$.
+5. A quality control inspector checks items from a production line. The probability of a defect is
     0.02. In a batch of 100 items, find the probability of at most 3 defects using the Poisson
     approximation.
-26. Given the data below, calculate the Spearman rank correlation coefficient:
+6. Given the data below, calculate the Spearman rank correlation coefficient:
 
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 3   | 1   | 4   | 2   | 5   |
 
-27. Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
-28. The regression line of $y$ on $x$ is $y = 2.5x - 3.0$ and the regression line of $x$ on $y$ is
+1. Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
+2. The regression line of $y$ on $x$ is $y = 2.5x - 3.0$ and the regression line of $x$ on $y$ is
     $x = 0.35y + 1.2$. Find $\bar{x}$$\bar{y}$And the correlation coefficient $r$.
 
 ### 8.4 Poisson Approximation to the Binomial

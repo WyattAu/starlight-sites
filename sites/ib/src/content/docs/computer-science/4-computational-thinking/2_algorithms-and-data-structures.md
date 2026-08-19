@@ -26,7 +26,6 @@ categories:
 
 **The key insight:** Choosing the right algorithm and data structure can mean the difference between a program that runs in seconds versus hours
 
-
 ## Algorithmic Thinking
 
 ### The Four Pillars of Computational Thinking
@@ -869,7 +868,7 @@ In all cases (best, average, worst). This is because the divide step always prod
 Merging. This is a significant disadvantage compared to in-place sorts like quick sort and insertion
 Sort.
 
-**Stability:** Merge sort is stable because the merge step uses `left[i] `&lt;`= right[j]`
+**Stability:** Merge sort is stable because the merge step uses `left[i]`&lt;`= right[j]`
 (less-than-or-equal), ensuring that equal elements from the left half are placed before equal
 Elements from the right half, preserving their original relative order.
 

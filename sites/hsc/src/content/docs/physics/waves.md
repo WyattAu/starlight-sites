@@ -27,6 +27,7 @@ HSC physics study notes - Waves
 **Frequency:** $f = \frac{1}{T}$ (where $T$ is the period)
 
 **Wave types:**
+
 - Transverse: oscillations perpendicular to wave direction (e.g., light, water waves)
 - Longitudinal: oscillations parallel to wave direction (e.g., sound, compressions)
 
@@ -236,7 +237,7 @@ Waves are energy in motion without matter following it -- think of a Mexican wav
 
 **Confusing the wave speed equation variables.** The equation v = f * lambda relates wave speed (m/s), frequency (Hz), and wavelength (m). Students often rearrange it incorrectly or mix up which variable to solve for. Remember: speed equals frequency times wavelength, always.
 
-**Using the wrong sign in the Doppler effect formula.** When the source approaches the observer, the observed frequency increases: f' = f * v / (v - vs). When the source recedes, frequency decreases: f' = f * v / (v + vs). Students often use the wrong sign, giving the opposite effect to what actually occurs.
+**Using the wrong sign in the Doppler effect formula.** When the source approaches the observer, the observed frequency increases: f' = f *v / (v - vs). When the source recedes, frequency decreases: f' = f* v / (v + vs). Students often use the wrong sign, giving the opposite effect to what actually occurs.
 
 **Forgetting that sound intensity follows the inverse square law.** Sound intensity decreases as 1/r^2 with distance from the source. Doubling the distance reduces intensity to one-quarter, not one-half. Students often assume a linear decrease, leading to incorrect calculations of sound levels at different distances.
 

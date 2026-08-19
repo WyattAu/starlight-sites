@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Functional groups are the reactive centers of organic molecules — mastering them unlocks the chemistry of millions of compounds
 
-
 ## Homologous Series and Naming
 
 ### IUPAC Nomenclature
@@ -83,7 +82,6 @@ Name: 2-methylbut-2-ene.
 - Double bond starts at carbon 2.
 - Methyl substituent at carbon 2.
 
-
 ### Structural Isomers
 
 **Chain isomers**: different arrangements of the carbon skeleton.
@@ -97,7 +95,6 @@ Name: 2-methylbut-2-ene.
 <strong>Example</strong>
 C$_4$H$_8$O has multiple isomers: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, butanal, butanone,
 Methyl propanoate, ethyl ethanoate, etc.
-
 
 ---
 
@@ -161,7 +158,7 @@ $$
 - $\mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet$
 - $\mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet$
 
-3. **Termination**: radicals combine in various ways:
+1. **Termination**: radicals combine in various ways:
 
 - $\mathrm{Cl}^\bullet + \mathrm{Cl}^\bullet \to \mathrm{Cl}_2$
 - $\mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6$
@@ -1141,7 +1138,6 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

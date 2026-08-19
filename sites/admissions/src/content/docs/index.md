@@ -80,6 +80,7 @@ Use the sidebar to browse topics, or start with the introductory pages linked fr
 ## Additional Resources
 
 Each section includes:
+
 - Detailed explanations of key concepts
 - Worked examples with step-by-step solutions
 - Practice problems with answers
@@ -99,6 +100,7 @@ Each admissions test has its own personality. The MAT is a careful conversation,
 3. **Review marking criteria**: Understand how answers are assessed
 4. **Focus on fundamentals**: Admissions tests reward deep understanding, not memorisation
 5. **Seek feedback**: Discuss solutions with peers or tutors
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for admissions notes.

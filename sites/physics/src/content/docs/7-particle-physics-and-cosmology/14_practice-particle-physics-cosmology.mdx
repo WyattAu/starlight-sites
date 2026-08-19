@@ -11,7 +11,6 @@ description: "UNIVERSITY Physics practice problems: Particle Physics and Cosmolo
 
 import PracticeProblem from "@components/PracticeProblem";
 
-
 ## Intuition
 
 **The smallest building blocks and the largest structures:** Particle physics studies the fundamental constituents of matter (quarks, leptons, bosons), while cosmology studies the universe as a whole (Big Bang, dark matter, expansion). They meet at the extremes — the earliest moments of the universe were a hot soup of particles.
@@ -27,7 +26,6 @@ the explanation.
 
 ---
 
-
 ### The Standard Model and Symmetries
 
 <PracticeProblem client:only="solid-js" question={"What is the electric charge of a bottom quark (b), and what is the weak isospin T_3 of its left-handed component in the Standard Model?&quot; options={[ 'Q = -1/3 e; T_3 = -1/2', 'Q = -1/3 e; T_3 = +1/2', 'Q = +2/3 e; T_3 = -1/2', 'Q = -1/3 e; T_3 = 0', ]} correctAnswer={0} explanation=&quot;The bottom quark is a down-type quark with charge Q = -1/3 e. Left-handed quarks form weak isospin doublets: (u, d')_L, (c, s')_L, (t, b')_L, where primes indicate CKM mixing. The upper component has T_3 = +1/2 and the lower component has T_3 = -1/2. So the left-handed bottom quark has T_3 = -1/2. The Gell-Mann--Nishijima relation Q = T_3 + Y/2 is satisfied with Y = -1/3."} difficulty="easy"  />
@@ -38,7 +36,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"In the Friedmann equation for a flat universe, H^2 = (8*pi*G/3)*rho, what is the critical density rho_c when H_0 = 70 km/s/Mpc? (G = 6.674 x 10^-11 m^3/(kg·s^2), 1 Mpc = 3.086 x 10^22 m)&quot; options={[ 'rho_c approx 9.2 x 10^-27 kg/m^3', 'rho_c approx 5.0 x 10^-27 kg/m^3', 'rho_c approx 1.8 x 10^-26 kg/m^3', 'rho_c approx 2.3 x 10^-27 kg/m^3', ]} correctAnswer={0} explanation=&quot;Converting H_0: H_0 = 70 km/s/Mpc = 70 x 10^3/(3.086 x 10^22) = 2.27 x 10^-18 s^-1. Critical density: rho_c = 3*H_0^2/(8*pi*G) = 3 x (2.27 x 10^-18)^2/(8 x 3.14159 x 6.674 x 10^-11) = 3 x 5.15 x 10^-36/(1.676 x 10^-9) = 1.546 x 10^-35/1.676 x 10^-9 = 9.22 x 10^-27 kg/m^3. This is equivalent to about 5.5 protons per cubic meter. The observed density is close to rho_c, consistent with a spatially flat universe. Of this, about 5% is baryonic matter, 27% dark matter, and 68% dark energy."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"In a scattering experiment, 10^12 protons per second strike a target of thickness t = 1 mm and number density n = 6.0 x 10^28 m^-3. The detector registers 500 events per second for a total cross-section sigma. What is sigma?&quot; options={[ 'sigma approx 8.3 x 10^-36 m^2 = 83 nb', 'sigma approx 5.0 x 10^-30 m^2 = 5.0 microbarn', 'sigma approx 1.7 x 10^-26 m^2 = 17 barn', 'sigma approx 3.0 x 10^-31 m^2 = 0.3 microbarn', ]} correctAnswer={0} explanation=&quot;Event rate: R = N_p * n * t * sigma, where N_p = 10^12 s^-1 is the beam flux. Rearranging: sigma = R/(N_p * n * t) = 500/(10^12 x 6.0 x 10^28 x 10^-3) = 500/(6.0 x 10^37) = 8.33 x 10^-36 m^2. Converting: 8.33 x 10^-36 m^2 / 10^-28 = 8.33 x 10^-8 barn = 83.3 nb (nanobarns). One barn = 10^-28 m^2. This is a typical cross-section for electroweak processes at GeV energies. The cross-section sigma encodes the quantum mechanical probability of the scattering process."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"In a scattering experiment, 10^12 protons per second strike a target of thickness t = 1 mm and number density n = 6.0 x 10^28 m^-3. The detector registers 500 events per second for a total cross-section sigma. What is sigma?&quot; options={[ 'sigma approx 8.3 x 10^-36 m^2 = 83 nb', 'sigma approx 5.0 x 10^-30 m^2 = 5.0 microbarn', 'sigma approx 1.7 x 10^-26 m^2 = 17 barn', 'sigma approx 3.0 x 10^-31 m^2 = 0.3 microbarn', ]} correctAnswer={0} explanation=&quot;Event rate: R = N_p *n* t *sigma, where N_p = 10^12 s^-1 is the beam flux. Rearranging: sigma = R/(N_p* n * t) = 500/(10^12 x 6.0 x 10^28 x 10^-3) = 500/(6.0 x 10^37) = 8.33 x 10^-36 m^2. Converting: 8.33 x 10^-36 m^2 / 10^-28 = 8.33 x 10^-8 barn = 83.3 nb (nanobarns). One barn = 10^-28 m^2. This is a typical cross-section for electroweak processes at GeV energies. The cross-section sigma encodes the quantum mechanical probability of the scattering process."} difficulty="medium"  />
 
 ## Common Mistakes
 
@@ -52,7 +50,6 @@ the explanation.
 
 ---
 
-
 ### Cosmology, Dark Matter, and Dark Energy
 
 <PracticeProblem client:only="solid-js" question={"The current best measurement of the Hubble constant gives H_0 approx 70 km/s/Mpc. What is the Hubble time t_H = 1/H_0, and how does it compare to the actual age of the universe (13.8 Gyr)?&quot; options={[ 't_H = 14.0 Gyr, slightly larger than the actual age of 13.8 Gyr because the universe was matter-dominated and decelerating for much of its history', 't_H = 14.0 Gyr, exactly equal to the actual age', 't_H = 9.8 Gyr, much smaller than the actual age because dark energy causes acceleration', 't_H = 20.0 Gyr, much larger than the actual age due to inflation', ]} correctAnswer={0} explanation=&quot;H_0 = 70 km/s/Mpc = 70 x (1000 m/s)/(3.086 x 10^22 m) = 2.27 x 10^-18 s^-1. Hubble time: t_H = 1/H_0 = 4.41 x 10^17 s = 14.0 Gyr. The actual age (13.8 Gyr) is slightly less than t_H because the expansion rate H(t) was larger in the past (matter-dominated deceleration dominated over recent dark-energy-driven acceleration). For a purely de Sitter (dark energy only) universe, the age would equal the Hubble time. For a matter-dominated flat universe, the age would be (2/3)t_H approx 9.3 Gyr."} difficulty="medium"  />
@@ -62,6 +59,7 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"Observations of galaxy rotation curves show velocities remaining flat at large radii, and gravitational lensing maps reveal more mass than visible matter by a factor of about 5. What are the leading particle candidates for non-baryonic cold dark matter, and what property must they share?&quot; options={[ 'WIMPs (Weakly Interacting Massive Particles) and axions; both must interact gravitationally with normal matter but have very weak or no electromagnetic or strong interactions', 'Neutrinos and photons; both must be massless to avoid structure formation', 'Magnetic monopoles and primordial black holes; both must carry electric charge', 'Quarks and gluons; both must be confined to hadrons', ]} correctAnswer={0} explanation=&quot;Dark matter candidates must be non-baryonic, collisionless (to form the observed large-scale structure), and stable on cosmological timescales. WIMPs (particles with mass 10 GeV to 1 TeV and weak-scale interactions) arise in supersymmetry (neutralino). Axions (mass 10^-6 to 10^-3 eV) solve the strong CP problem and are produced via the misalignment mechanism. Both interact only via gravity and the weak force (WIMPs) or only gravitationally (axions), explaining why they are invisible electromagnetically. Standard neutrinos are hot dark matter and would suppress small-scale structure, inconsistent with observations."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"In the Friedmann equation for a flat universe, H^2 = (8*pi*G/3)*rho, what is the critical density rho_c when H_0 = 70 km/s/Mpc? (G = 6.674 x 10^-11 m^3/(kg·s^2), 1 Mpc = 3.086 x 10^22 m)&quot; options={[ 'rho_c approx 9.2 x 10^-27 kg/m^3', 'rho_c approx 5.0 x 10^-27 kg/m^3', 'rho_c approx 1.8 x 10^-26 kg/m^3', 'rho_c approx 2.3 x 10^-27 kg/m^3', ]} correctAnswer={0} explanation=&quot;Converting H_0: H_0 = 70 km/s/Mpc = 70 x 10^3/(3.086 x 10^22) = 2.27 x 10^-18 s^-1. Critical density: rho_c = 3*H_0^2/(8*pi*G) = 3 x (2.27 x 10^-18)^2/(8 x 3.14159 x 6.674 x 10^-11) = 3 x 5.15 x 10^-36/(1.676 x 10^-9) = 1.546 x 10^-35/1.676 x 10^-9 = 9.22 x 10^-27 kg/m^3. This is equivalent to about 5.5 protons per cubic meter. The observed density is close to rho_c, consistent with a spatially flat universe. Of this, about 5% is baryonic matter, 27% dark matter, and 68% dark energy."} difficulty="medium"  />
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for physics notes.

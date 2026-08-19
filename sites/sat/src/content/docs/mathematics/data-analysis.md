@@ -31,7 +31,7 @@ SAT mathematics study notes - Data analysis
 ## Key Formulas
 
 | Measure | Formula | Example |
-|---------|---------|---------|
+| --------- | --------- | --------- |
 | Mean | $\bar{x} = \frac{\sum x_i}{n}$ | Values 2,4,6: mean = 4 |
 | Median | Middle value (or average of two middle values) | Values 1,3,5: median = 3 |
 | Range | $\text{max} - \text{min}$ | Values 2,5,9: range = 7 |

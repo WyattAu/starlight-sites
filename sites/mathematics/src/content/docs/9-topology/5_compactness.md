@@ -91,6 +91,7 @@ The tube lemma is the key ingredient in proving Tychonoff's theorem for finite p
 In metric spaces, compactness admits several equivalent characterisations:
 
 **Theorem 5.6.** For a metric space $(X, d)$, the following are equivalent:
+
 1. $X$ is compact.
 2. $X$ is sequentially compact.
 3. $X$ is complete and totally bounded (every $\varepsilon$-net is finite).
@@ -188,7 +189,6 @@ A space is locally compact if every point has a compact neighbourhood, but this 
 - **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the framework for defining compactness through open covers.
 - **[Connectedness](6_connectedness.md)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
 - **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
-
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

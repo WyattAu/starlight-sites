@@ -530,6 +530,7 @@ gaining control of execution when the function returns.
   address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
+
 </details>
 
 ## Intuition
@@ -584,7 +585,6 @@ $\blacksquare$
 | ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Operating Systems] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/05-operating-systems) |
 | [Operating Systems] | University | [View](https://university.wyattau.com/docs/computing/5-operating-systems/1_operating-systems)              |
-
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

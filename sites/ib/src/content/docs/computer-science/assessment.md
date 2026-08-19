@@ -24,7 +24,6 @@ description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | ---
 
 **The key insight:** Effective CS assessment tests understanding of concepts, not just memorization of syntax
 
-
 ## SL
 
 | Index | Objective                                           | Paper 1 | Paper 2 | IA    | Sum |

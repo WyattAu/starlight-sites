@@ -110,7 +110,7 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 ### Key Relationships
 
 | Concept | Relation | Significance |
-|---------|----------|--------------|
+| --------- | ---------- | -------------- |
 | Distribution function | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} \pm 1)^{-1}$ | Unified form for FD/BE |
 | Fermi energy | $\epsilon_F = \hbar^2(3\pi^2 n)^{2/3}/(2m)$ | Sets scale for degenerate fermions |
 | BEC critical temperature | $T_c = 2\pi\hbar^2 n^{2/3}/(mk_B \zeta(3/2)^{2/3})$ | Phase transition temperature |
@@ -148,7 +148,7 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 ### Summary Table: Comparison of Quantum and Classical Gases
 
 | Property | Maxwell--Boltzmann | Fermi--Dirac | Bose--Einstein |
-|----------|-------------------|-------------|----------------|
+| ---------- | ------------------- | ------------- | ---------------- |
 | Particles | Distinguishable | Indistinguishable fermions | Indistinguishable bosons |
 | Occupation | $\langle n_i \rangle = e^{-(\epsilon_i-\mu)/k_BT}$ | $\langle n_i \rangle \leq 1$ | $\langle n_i \rangle$ unrestricted |
 | Low-$T$ behaviour | All in ground state | Fermi sea | BEC |
@@ -161,7 +161,6 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
 - **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: BEC is the macroscopic occupation of the ground state predicted by Bose-Einstein statistics at low temperatures.
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
-
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

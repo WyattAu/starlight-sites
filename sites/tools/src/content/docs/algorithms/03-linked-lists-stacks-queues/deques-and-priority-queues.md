@@ -184,7 +184,6 @@ Block size is 64 elements). This gives $O(1)$ amortised operations with good cac
 Better than a naive linked list but slightly worse than a pure circular buffer for sequential
 Access.
 
-
 ## Priority Queue ADT
 
 A priority queue supports inserting elements with associated priorities and extracting the element
@@ -271,7 +270,6 @@ def heapify(arr):
 $O(h)$. There are at most $\lceil n / 2^{h+1} \rceil$ nodes at height $h$. The total cost is
 $\sum_{h=0}^{\lfloor \log n \rfloor} \lceil n / 2^{h+1} \rceil \cdot O(h) = O(n \sum_{h=0}^{\infty} h / 2^{h}) = O(n)$.
 The key insight is that most nodes are near the bottom of the tree and require little or no sifting.
-
 
 ### Insert and Extract-Min
 
@@ -704,7 +702,6 @@ Times relative to `extract_min`. In practice:
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
 That achieves the same amortised bounds for most operations.
 
-
 ## Pairing Heap
 
 A pairing heap is a simplified alternative to Fibonacci heaps. It is a self-adjusting heap that
@@ -961,7 +958,6 @@ std::priority_queue<pair<int,int>, vector<pair<int,int>>, decltype(cmp)> pq(cmp)
 <aside class="starlight-aside starlight-aside--note">
 `(-neg_x, x)`. C++ `std::priority_queue` is a **max-heap** by default; use `std::greater` for a
 Min-heap.
-
 
 ## Common Pitfalls
 

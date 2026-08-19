@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** The normal distribution's bell curve appears everywhere in nature because many small random effects combine to produce predictable patterns
 
-
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for probability distributions.

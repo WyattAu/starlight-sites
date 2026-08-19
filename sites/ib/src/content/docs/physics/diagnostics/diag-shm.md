@@ -25,7 +25,6 @@ tableOfContents: false
 
 **The key insight:** Any system with a linear restoring force will oscillate sinusoidally, making SHM the universal language of vibrations and waves
 
-
 ## Unit Tests
 
 ### UT-1: Verifying the SHM Condition

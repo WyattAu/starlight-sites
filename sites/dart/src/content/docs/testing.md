@@ -760,10 +760,10 @@ but not depth — pair them with mutation testing and code review. The greatest 
 strategy is not what you fail to test, but what you test incorrectly — a false-passing test is worse
 than no test at all.
 
-
 ## Intuition
 
 Dart testing follows the testing pyramid: many fast unit tests at the base, fewer widget tests in the middle, and a handful of integration tests at the top. This is not just convention -- it is economics. Unit tests run in milliseconds and catch logic errors early; integration tests run in seconds but catch only the bugs that survive lower-level testing. Golden tests are the visual regression detector: they compare pixel-by-pixel against a reference image, catching design drift that logic tests cannot detect. FakeAsync is the time machine that lets you test debounce, timeout, and periodic logic without wall-clock delays.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

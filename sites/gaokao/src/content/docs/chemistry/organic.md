@@ -71,12 +71,14 @@ description: "高考 chemistry: Organic"
 步骤2：能与 $\text{NaOH}$ 反应，说明含有酯基 $-\text{COO}-$ 或羧基 $-\text{COOH}$
 
 步骤3：分析可能的酯类结构：
+
 - $\text{HCOOCH}_2\text{CH}_2\text{CH}_3$（甲酸丙酯）
 - $\text{HCOOCH(CH}_3)_2$（甲酸异丙酯）
 - $\text{CH}_3\text{COOCH}_2\text{CH}_3$（乙酸乙酯）
 - $\text{CH}_3\text{CH}_2\text{COOCH}_3$（丙酸甲酯）
 
 步骤4：羧酸类结构：
+
 - $\text{CH}_3\text{CH}_2\text{CH}_2\text{COOH}$（丁酸）
 - $(\text{CH}_3)_2\text{CHCOOH}$（2-甲基丙酸）
 
@@ -111,6 +113,7 @@ $$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\
 步骤1：$C_5H_{12}$ 为饱和烷烃，不饱和度为 $0$
 
 步骤2：碳链异构分析：
+
 - 直链：$\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{CH}_3$（正戊烷）
 - 主链 $4$ 个碳：$\text{CH}_3\text{CH(CH}_3)\text{CH}_2\text{CH}_3$（异戊烷）
 - 主链 $3$ 个碳：$\text{C(CH}_3)_4$（新戊烷）
@@ -161,10 +164,12 @@ $$\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \tex
 步骤2：能发生银镜反应，说明含有醛基 $-\text{CHO}$ 或甲酸酯基 $\text{HCOO}-$
 
 步骤3：分析含醛基的结构：
+
 - $\text{CH}_3\text{CH}_2\text{CH}_2\text{CHO}$（丁醛）
 - $(\text{CH}_3)_2\text{CHCHO}$（2-甲基丙醛）
 
 步骤4：分析含甲酸酯基的结构：
+
 - $\text{HCOOCH}_2\text{CH}_2\text{CH}_3$（甲酸丙酯）
 - $\text{HCOOCH(CH}_3)_2$（甲酸异丙酯）
 
@@ -201,7 +206,7 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 ### 高考有机化学常见反应类型
 
 | 反应类型 | 典型反应 | 条件 |
-|---------|---------|------|
+| --------- | --------- | ------ |
 | 取代反应 | 卤代、硝化、酯化 | 催化剂、加热 |
 | 加成反应 | 与H₂、Br₂、H₂O加成 | 催化剂 |
 | 消去反应 | 醇脱水、卤代烃脱HX | 浓H₂SO₄/NaOH醇溶液 |
@@ -221,16 +226,19 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 步骤1：分别取四种液体少许于四支试管中。
 
 步骤2：加入金属钠：
+
 - 乙醇：产生气泡（放出 $\text{H}_2$）
 - 乙醛：无明显现象
 - 乙酸：产生气泡（放出 $\text{H}_2$）
 - 苯：无明显现象
 
 步骤3：将产生气泡的两种（乙醇、乙酸）区分——加入 $\text{Na}_2\text{CO}_3$ 溶液：
+
 - 乙酸：产生气泡（$\text{CO}_2$）
 - 乙醇：无明显现象
 
 步骤4：将剩余两种（乙醛、苯）区分——加入银氨溶液并水浴加热：
+
 - 乙醛：产生银镜反应
 - 苯：无明显现象
 
@@ -294,6 +302,7 @@ $$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\t
 步骤4：同时满足两个条件，只能是甲酸酯类：$\text{HCOO}-$
 
 步骤5：$C_4H_8O_2$ 的甲酸酯有：
+
 - $\text{HCOOCH}_2\text{CH}_2\text{CH}_3$（甲酸丙酯）
 - $\text{HCOOCH(CH}_3)_2$（甲酸异丙酯）
 
@@ -336,6 +345,7 @@ $$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right
 步骤2：分析链节结构：$-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-$
 
 步骤3：找到双键位置，断开后还原单体：
+
 - 断开 $-\text{CH}_2-\text{CH}(\text{CN})-$ 和 $-\text{CH}=\text{CH}-\text{CH}_2-$ 之间的单键
 - 前一部分来自丙烯腈：$\text{CH}_2=\text{CHCN}$
 - 后一部分来自1,3-丁二烯：$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$

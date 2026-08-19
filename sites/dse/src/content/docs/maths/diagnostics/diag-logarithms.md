@@ -755,8 +755,6 @@ Since $-1 + 2\sqrt{3} \approx 2.46$ and we need $x > 1$:
 
 $1 < x \leq -1 + 2\sqrt{3}$I.e. $x \in (1,\; -1 + 2\sqrt{3}]$.
 
-
-
 ## Cross-References
 
 - **[Functions](diag-functions):** Functions are central

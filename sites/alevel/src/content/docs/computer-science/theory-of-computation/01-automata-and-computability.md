@@ -399,6 +399,7 @@ Verification:
 - "10" → matches with "10" and ε. ✓
 - "0101" → matches with "0", "10", "1"... Wait: "0101" = "0" + "10" + "1". ✓
 - "11" → cannot match (no way to have two consecutive 1s). ✓
+
 </details>
 
 **Problem 4.** Use the Pumping Lemma to prove that $L = \{ww \mid w \in \{0,1\}^*\}$ is not regular.
@@ -583,7 +584,6 @@ For revision on algorithms and complexity, see
 
 </details>
 
-
 ## Common Pitfalls
 
 1. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
@@ -627,4 +627,3 @@ At its core, computability theory asks a deceptively simple question: what can a
 The Church-Turing thesis ties this all together by claiming that the Turing machine — despite being a simple, mechanical device — captures everything we informally mean by "computable." Think of it like this: if you can describe a step-by-step procedure that a human could follow with pencil and paper, then a Turing machine can simulate it. This is remarkable because it means all programming languages, no matter how fancy their features, are ultimately equivalent in computational power. The differences between languages are about convenience and efficiency, not about what they can fundamentally compute.
 
 Some problems, however, remain beyond reach. The halting problem — determining whether an arbitrary program will eventually stop or run forever — is famously undecidable. No algorithm can solve it for all possible inputs, and this sets a hard ceiling on what automated tools can guarantee. This insight has real consequences: it explains why perfect bug detectors, perfect optimisers, and perfect type-checkers are impossible. Recognising these limits is just as important as understanding what machines can do.
-

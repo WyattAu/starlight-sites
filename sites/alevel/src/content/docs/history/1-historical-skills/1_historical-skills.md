@@ -231,7 +231,7 @@ actions.
 particularly the USSR's demand for a buffer zone and the US policy of containment — were the most
 immediate triggers. Ideology gave the conflict its character; security fears made it a reality.
 
-### Example 2: Essay Plan — Assess the value of a source for an enquiry into the causes of the English Reformation.
+### Example 2: Essay Plan — Assess the value of a source for an enquiry into the causes of the English Reformation
 
 **Introduction**: State the source's nature, origin, and purpose. Identify its potential value and
 limitations for the specific enquiry.

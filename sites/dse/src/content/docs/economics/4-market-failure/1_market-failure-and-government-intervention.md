@@ -549,7 +549,7 @@ Analysis (CBA) to determine whether the intervention will improve net welfare.
 
 $$\mathrm{NPV} = \sum_{t=0}^{T} \frac{B_t - C_t}{(1 + r)^t}$$
 
-4. **Compare:** If NPV \gt 0, the intervention improves net welfare and should be undertaken. If NPV
+1. **Compare:** If NPV \gt 0, the intervention improves net welfare and should be undertaken. If NPV
    \lt 0, the costs outweigh the benefits.
 
 ### Challenges
@@ -1505,8 +1505,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

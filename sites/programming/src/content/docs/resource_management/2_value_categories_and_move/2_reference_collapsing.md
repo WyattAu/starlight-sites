@@ -695,7 +695,6 @@ Reference collapsing is the rulebook for what happens when you layer references 
    temporary. If `T` is a non-reference type, you return an rvalue reference to a local — which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
 
-
 ## Summary
 
 This topic covers the core concepts of reference collapsing and forwarding references, including
@@ -716,4 +715,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-

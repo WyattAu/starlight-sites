@@ -31,7 +31,7 @@ SAT writing study notes - Essay
 ## Essay Template
 
 | Section | Content | Time |
-|---------|---------|------|
+| --------- | --------- | ------ |
 | Introduction | Hook + context + thesis statement | 5 min |
 | Body ¶1 | Strongest argument + evidence + analysis | 8 min |
 | Body ¶2 | Second argument + evidence + analysis | 8 min |

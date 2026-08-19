@@ -272,6 +272,7 @@ Understood and unlikely to change. Which SDLC model would you recommend? Justify
 - Extensive documentation is valuable for a school system (long-term maintenance)
 - Lower complexity compared to Agile for a well-defined project
 - Budget and timeline can be estimated more accurately
+
 </details>
 
 **Problem 2.** A startup is building a social media app with rapidly changing features based on user
@@ -287,6 +288,7 @@ Feedback. Which methodology is most appropriate and why?
 - Short sprints allow rapid iteration and frequent releases
 - Working software delivered early allows market validation
 - Low cost of changing direction based on user feedback
+
 </details>
 
 **Problem 3.** Draw a UML class diagram for a library system with classes `Library``Book`
@@ -350,6 +352,7 @@ Relationships:
 - Library 1 --- \* Member (aggregation: members exist independently)
 - Member 1 --- \* Loan (composition: loans belong to a member)
 - Book 1 --- \* Loan (aggregation: a book can have many loans over time)
+
 </details>
 
 **Problem 4.** Explain the role of the Scrum Master. Why is this role important?
@@ -710,8 +713,6 @@ Date.
 
 </details>
 
-
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -736,8 +737,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
 
 ## Cross-References
 

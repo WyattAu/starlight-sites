@@ -24,7 +24,6 @@ tags:
 
 **The key insight:** Phase changes occur when thermal energy overcomes intermolecular forces, transforming how particles interact
 
-
 ## 1. Kinetic Molecular Theory
 
 ### Postulates
@@ -995,7 +994,7 @@ what minimum temperature can the substance be liquefied by pressure alone?
 }
 </script>
 
-## If You Get These Wrong, Revise:
+## If You Get These Wrong, Revise
 
 - **Atomic structure and electron configuration** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)

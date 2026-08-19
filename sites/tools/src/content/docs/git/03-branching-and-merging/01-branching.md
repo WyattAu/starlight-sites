@@ -165,7 +165,6 @@ $ git switch -f main
 <aside class="starlight-aside starlight-aside--caution">
 you want to preserve them.
 
-
 ## Deleting Branches
 
 ```bash
@@ -206,7 +205,6 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 branch to a remote branch with the same name. This prevents accidental pushes to the wrong branch.
-
 
 ## Tracking Branches
 
@@ -320,7 +318,7 @@ $ git switch feature-auth
 This leads to merge conflicts when you eventually merge. To rebase your feature on the latest main:
 
 ```bash
-$ git rebase main
+git rebase main
 ```
 
 See [Rebasing](./03-rebasing.md) for the full treatment.
@@ -357,7 +355,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 </aside>
 

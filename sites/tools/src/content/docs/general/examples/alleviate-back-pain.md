@@ -77,7 +77,7 @@ Use very light weights or no weight. The goal is precision and muscle engagement
   the ceiling. The movement must originate from the shoulder joint. Pause at the top, then slowly
   lower to the start.
 
-2. Scapular Push-up
+1. Scapular Push-up
 
 - Target Musculature: Serratus Anterior, Rhomboids, Middle Trapezius.
 - Setup: Assume a high plank position with hands directly under your shoulders, arms fully extended.
@@ -86,7 +86,7 @@ Use very light weights or no weight. The goal is precision and muscle engagement
   shoulder blades together). Then, powerfully push the floor away, protracting the scapulae
   (spreading them apart) to create a slight dome in your upper back.
 
-3. Prone Y Raise
+1. Prone Y Raise
 
 - Target Musculature: Lower and Middle Trapezius, Rhomboids.
 - Setup: Lie face down on a bench or floor, holding very light dumbbells with a neutral grip (palms
@@ -95,7 +95,7 @@ Use very light weights or no weight. The goal is precision and muscle engagement
   up, raise your arms into a "Y" formation until they are in line with your head. Pause to feel the
   contraction, then lower with control.
 
-4. Dumbbell Glute Bridge
+1. Dumbbell Glute Bridge
 
 - Target Musculature: Gluteus Maximus, Hamstrings.
 - Setup: Lie on your back, knees bent, feet flat on the floor. Place a dumbbell horizontally across
@@ -108,7 +108,7 @@ Use very light weights or no weight. The goal is precision and muscle engagement
 
 Select a weight that makes the final 1-2 repetitions challenging while maintaining perfect form.
 
-5. Bulgarian Split Squat
+1. Bulgarian Split Squat
 
 - Target Musculature: Gluteus Maximus, Quadriceps, Adductors, Core Stabilizers.
 - Setup: Stand 2-3 feet before a bench. Hold dumbbells at your sides. Place the top of one foot on
@@ -118,7 +118,7 @@ Select a weight that makes the final 1-2 repetitions challenging while maintaini
   foot. Drive powerfully through the heel of your front foot to return to the start. Complete all
   reps on one side before switching.
 
-6. Dumbbell Romanian Deadlift (RDL)
+1. Dumbbell Romanian Deadlift (RDL)
 
 - Target Musculature: Hamstrings, Gluteus Maximus, Erector Spinae.
 - Setup: Stand with feet hip-width apart, holding dumbbells in front of your thighs. Maintain a
@@ -127,7 +127,7 @@ Select a weight that makes the final 1-2 repetitions challenging while maintaini
   spine. Keep the dumbbells close to your legs as you lower them. Drive your hips forward to return
   to standing, squeezing your glutes at the top.
 
-7. Single-Arm Dumbbell Row
+1. Single-Arm Dumbbell Row
 
 - Target Musculature: Latissimus Dorsi, Rhomboids, Trapezius, Biceps.
 - Setup: Place one knee and the same-side hand on a flat bench. Your back must be flat and parallel
@@ -136,7 +136,7 @@ Select a weight that makes the final 1-2 repetitions challenging while maintaini
   pulling the dumbbell toward your hip. Squeeze your back muscles at the peak of the contraction
   before lowering the dumbbell slowly.
 
-8. Dumbbell Bench Press
+1. Dumbbell Bench Press
 
 - Target Musculature: Pectoralis Major, Anterior Deltoids, Triceps.
 - Setup: Lie on a bench, feet firmly planted. Retract and depress your scapulae into the bench. Hold
@@ -147,7 +147,7 @@ Select a weight that makes the final 1-2 repetitions challenging while maintaini
 
 ### Phase 3: Core & Stability
 
-9. Renegade Row
+1. Renegade Row
 
 - Target Musculature: Core (anti-rotation), Latissimus Dorsi, Obliques.
 - Setup: Assume a high plank position on hexagonal dumbbells. Place your feet wider than hip-width
@@ -156,7 +156,7 @@ Select a weight that makes the final 1-2 repetitions challenging while maintaini
   dumbbell to your hip. Place it back down with control. Repeat on the other side. This completes
   one repetition.
 
-10. Russian Twist
+1. Russian Twist
 
 - Target Musculature: Internal and External Obliques.
 - Setup: Sit in a V-sit position, torso at a 45-degree angle, feet elevated. Hold one dumbbell at
@@ -178,14 +178,14 @@ deeply and do not stretch into pain.
 - Execution: Step forward with one foot. Gently lean forward until you feel a comfortable stretch
   across your chest. Hold the stretch without bouncing.
 
-2. Cat-Cow Stretch
+1. Cat-Cow Stretch
 
 - Target Musculature: Promotes mobility of the entire spinal column.
 - Setup: Start on all fours with wrists under shoulders and knees under hips.
 - Execution: Inhale as you drop your belly and lift your chest and tailbone (Cow). Exhale as you
   round your spine, tucking your chin and tailbone (Cat). Flow smoothly between these two poses.
 
-3. Kneeling Hip Flexor Stretch
+1. Kneeling Hip Flexor Stretch
 
 - Target Musculature: Iliopsoas and Rectus Femoris (hip flexors).
 - Setup: Kneel in a lunge position with your rear knee on the ground.
@@ -193,7 +193,7 @@ deeply and do not stretch into pain.
   pelvis under. This initiates the stretch. For a deeper stretch, gently press your hips forward
   without arching your back.
 
-4. Supine Hamstring Stretch
+1. Supine Hamstring Stretch
 
 - Target Musculature: Hamstring group.
 - Setup: Lie on your back with one leg extended towards the ceiling.

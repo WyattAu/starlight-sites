@@ -92,7 +92,7 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 ### Key Relationships
 
 | Effect | Susceptibility | Key Formula | Condition |
-|--------|---------------|-------------|-----------|
+| -------- | --------------- | ------------- | ----------- |
 | Linear optics | $\chi^{(1)}$ | $P = \varepsilon_0 \chi^{(1)} E$ | Weak fields |
 | SHG | $\chi^{(2)}$ | $I_{2\omega} \propto d_{\text{eff}}^2 I_\omega^2 L^2 \,\text{sinc}^2(\Delta k L/2)$ | Phase matching |
 | Pockels effect | $\chi^{(2)}$ | $\Delta n = n_0^3 r E / 2$ | Non-centrosymmetric |
@@ -124,7 +124,7 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 ### Summary Table: Nonlinear Processes by Order
 
 | Order | Process | Application | Crystal Requirement |
-|-------|---------|-------------|-------------------|
+| ------- | --------- | ------------- | ------------------- |
 | $\chi^{(1)}$ | Linear refraction/absorption | Ordinary optics | Any |
 | $\chi^{(2)}$ | SHG, SFG, DFG, Pockels | Frequency conversion, modulators | Non-centrosymmetric |
 | $\chi^{(2)}$ | SPDC | Entangled photon pairs | Non-centrosymmetric |
@@ -132,7 +132,6 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 | $\chi^{(3)}$ | SRS, SBS | Amplifiers, lasers | All media |
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
-
 
 ## Intuition
 

@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -358,8 +357,6 @@ red-black trees) is critical for maintaining efficient search operations.
 **Forgetting that hash tables have worst-case $O(n)$ lookup:** Average-case lookup in a hash table is $O(1)$, but if all keys hash to the same bucket (worst case), it degrades to $O(n)$. A good hash function and collision resolution strategy (chaining or open addressing) are essential to maintain efficiency.
 
 **Assuming a binary search tree is always balanced:** A BST built from sorted input degenerates into a linked list with $O(n)$ operations. Self-balancing trees (AVL, red-black) guarantee $O(\log n)$ by maintaining balance. Always consider whether your input could be pre-sorted.
-
-
 
 ## Cross-References
 

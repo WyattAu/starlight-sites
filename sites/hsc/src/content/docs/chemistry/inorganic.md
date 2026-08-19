@@ -35,6 +35,7 @@ HSC chemistry study notes - Inorganic
 **Oxidation-reduction:** Loss of electrons = oxidation; gain of electrons = reduction
 
 **Solubility rules:**
+
 - Most nitrates are soluble
 - Most Group 1 salts are soluble
 - Most chlorides are soluble (except AgCl, PbCl₂)
@@ -64,6 +65,7 @@ $$\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$$
 **Solution:**
 
 Step 1: Identify oxidation states:
+
 - Mn: +7 $\rightarrow$ +2 (reduction, gain of 5 electrons)
 - Fe: +2 $\rightarrow$ +3 (oxidation, loss of 1 electron)
 
@@ -102,6 +104,7 @@ Given: $E°(\text{Zn}^{2+}/\text{Zn}) = -0.76\,\text{V}$, $E°(\text{Cu}^{2+}/\t
 **Solution:**
 
 Step 1: Identify cathode (reduction) and anode (oxidation):
+
 - Cathode: Cu²⁺ + 2e⁻ → Cu (reduction)
 - Anode: Zn → Zn²⁺ + 2e⁻ (oxidation)
 
@@ -133,6 +136,7 @@ Step 1: Identify the possible products by ion exchange:
 $$\text{AgNO}_3 + \text{NaCl} \rightarrow \text{AgCl} + \text{NaNO}_3$$
 
 Step 2: Check solubility rules:
+
 - $\text{NaNO}_3$: All nitrates and Group 1 salts are soluble
 - $\text{AgCl}$: Most chlorides are soluble, BUT $\text{AgCl}$ is an exception (insoluble)
 
@@ -199,6 +203,7 @@ Step 1: These elements are all in Period 3 of the periodic table.
 Step 2: Ionisation energy generally increases across a period due to increasing nuclear charge and decreasing atomic radius.
 
 Step 3: However, there are exceptions:
+
 - Between Mg and Al: Al has a lower IE than Mg because Al's outer electron is in a higher energy subshell (3p vs 3s)
 - Between P and S: S has a lower IE than P due to electron-electron repulsion in the paired 3p orbital
 
@@ -211,6 +216,7 @@ Step 4: Order: Na < Al < Mg < Si < P
 ### Example 8: Hess's Law Application
 
 **Problem:** Given the following data, calculate the enthalpy of formation of ethane ($\text{C}_2\text{H}_6$):
+
 1. $\text{C}_2\text{H}_6(g) + \frac{7}{2}\text{O}_2(g) \rightarrow 2\text{CO}_2(g) + 3\text{H}_2\text{O}(l)$, $\Delta H_1 = -1560\,\text{kJ/mol}$
 2. $\text{C}(s) + \text{O}_2(g) \rightarrow \text{CO}_2(g)$, $\Delta H_2 = -393.5\,\text{kJ/mol}$
 3. $\text{H}_2(g) + \frac{1}{2}\text{O}_2(g) \rightarrow \text{H}_2\text{O}(l)$, $\Delta H_3 = -285.8\,\text{kJ/mol}$
@@ -238,6 +244,7 @@ $$= -787 - 857.4 + 1560 = -84.4\,\text{kJ/mol}$$
 **Solution:**
 
 Step 1: Identify cathode and anode:
+
 - Fe has the lower reduction potential, so it is oxidised (anode)
 - Ag has the higher reduction potential, so it is reduced (cathode)
 

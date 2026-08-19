@@ -75,7 +75,6 @@ $$
 Find $k$ from experiment 1:
 $0.0020 = k(0.10)(0.10)^2 \implies k = 2.0 \mathrm{ M^{-2}\mathrm{s^{-1}$.
 
-
 ### Worked Example: Rate Law Determination
 
 Determine the rate law from the following data for $\mathrm{A + \mathrm{B \to \mathrm{C$:
@@ -164,7 +163,6 @@ $$
 T = \frac{-1.610}{-5.0 \times 10^{-4}} = 3220 \mathrm{ s \approx 53.7 \mathrm{ min
 $$
 
-
 ### Worked Example: Half-Life Calculation
 
 A first-order reaction has a rate constant of $0.030 \mathrm{ min^{-1}$. Calculate the half-life And
@@ -217,7 +215,6 @@ The rate law from the slow step: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$. 
 Experimental rate law, so the mechanism is plausible.
 
 Sum: $2\mathrm{NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$.
-
 
 ### Worked Example: Mechanism with Fast Equilibrium
 
@@ -291,7 +288,6 @@ $$
 E_a = \frac{2.079}{4.762 \times 10^{-4}} \times 8.314 = 36300 \mathrm{ J/mol = 36.3 \mathrm{ kJ/mol
 $$
 
-
 ### Worked Example: Effect of a Catalyst
 
 A reaction has $E_a = 75 \mathrm{ kJ/mol$ without a catalyst and $E_a = 50 \mathrm{ kJ/mol$ with a
@@ -352,7 +348,6 @@ $$
 
 Only $\mathrm{CO_2$ appears because solids are omitted.
 
-
 ## The Reaction Quotient ($Q$)
 
 $$
@@ -396,7 +391,6 @@ the effect of:
 - Increasing pressure (decreasing volume): shifts left (fewer gas moles, 1 vs 2).
 - Adding a catalyst: no shift, but equilibrium is reached faster.
 
-
 ## ICE Tables (CED Unit 7)
 
 ICE (Initial, Change, Equilibrium) tables organize the calculation of equilibrium concentrations.
@@ -431,7 +425,6 @@ $$
 $$
 [\mathrm{HI] = 2(0.781) = 1.56 \mathrm{ M
 $$
-
 
 ### Worked Example: ICE Table with Quadratic
 
@@ -508,7 +501,6 @@ Q_{sp} = (0.00050)(0.0010)^2 = 5.0 \times 10^{-10}
 $$
 
 Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$No precipitate forms.
-
 
 ### Worked Example: $K_{sp}$ Calculation from Solubility
 
@@ -627,87 +619,87 @@ This matches the experimental rate law with $k = k_2 K$.
 
 Determine the rate law and rate constant.
 
-3. At $400 \mathrm{ K$, $k = 6.4 \times 10^{-3} \mathrm{ M^{-1}\mathrm{s^{-1}$. At
+1. At $400 \mathrm{ K$, $k = 6.4 \times 10^{-3} \mathrm{ M^{-1}\mathrm{s^{-1}$. At
    $450 \mathrm{ K$, $k = 3.2 \times 10^{-2} \mathrm{ M^{-1}\mathrm{s^{-1}$. Find $E_a$.
 
-4. For $\mathrm{PCl_5(g) \rightleftharpoons \mathrm{PCl_3(g) + \mathrm{Cl_2(g)$, $K_p = 1.80$ at
+2. For $\mathrm{PCl_5(g) \rightleftharpoons \mathrm{PCl_3(g) + \mathrm{Cl_2(g)$, $K_p = 1.80$ at
    $250^\circ\mathrm{C$. If $0.500 \mathrm{ atm$ of $\mathrm{PCl_5$ is placed in a flask, find the
    equilibrium partial pressures of all species.
 
-5. Does a precipitate form when $100 \mathrm{ mL$ of $0.010 \mathrm{ M  \mathrm{AgNO_3$ is mixed
+3. Does a precipitate form when $100 \mathrm{ mL$ of $0.010 \mathrm{ M  \mathrm{AgNO_3$ is mixed
    with $100 \mathrm{ mL$ of $0.010 \mathrm{ M  \mathrm{NaCl$?
    $K_{sp}(\mathrm{AgCl) = 1.8 \times 10^{-10}$.
 
-6. Explain how Le Chatelier's principle applies when the volume of the container is decreased for
+4. Explain how Le Chatelier's principle applies when the volume of the container is decreased for
    the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$.
 
-7. For a reaction with $\Delta H = -92 \mathrm{ kJ/mol$What happens to $K$ when the temperature
+5. For a reaction with $\Delta H = -92 \mathrm{ kJ/mol$What happens to $K$ when the temperature
    increases from $298 \mathrm{ K$ to $400 \mathrm{ K$?
 
-8. Calculate the molar solubility of $\mathrm{PbSO_4$ in pure water and in
+6. Calculate the molar solubility of $\mathrm{PbSO_4$ in pure water and in
    $0.10 \mathrm{ M  \mathrm{Na_2\mathrm{SO_4$. $K_{sp}(\mathrm{PbSO_4) = 1.6 \times 10^{-8}$.
 
-9. The half-life of a reaction is $120 \mathrm{ s$ and the initial concentration is
+7. The half-life of a reaction is $120 \mathrm{ s$ and the initial concentration is
    $0.50 \mathrm{ M$. If the reaction is first order, what is the rate constant? What is the
    concentration after $240 \mathrm{ s$?
 
-10. Write the equilibrium expression for
+8. Write the equilibrium expression for
     $\mathrm{BaSO_4(s) \rightleftharpoons \mathrm{Ba^{2+}(aq) +
  \mathrm{SO_4^{2-}(aq)$ and calculate
     the concentration of $\mathrm{Ba^{2+}$ in a saturated solution. $K_{sp} = 1.1 \times
  10^{-10}$.
 
-11. A proposed mechanism for a reaction is: Step 1 (fast):
+9. A proposed mechanism for a reaction is: Step 1 (fast):
     $\mathrm{NO(g) + \mathrm{Br_2(g) \rightleftharpoons \mathrm{NOBr_2(g)$ Step 2 (slow):
     $\mathrm{NOBr_2(g) + \mathrm{NO(g) \to 2\mathrm{NOBr(g)$ Derive the rate law from this
     mechanism.
 
-12. Calculate the solubility of $\mathrm{PbI_2$ in $0.020 \mathrm{ M  \mathrm{KI$.
+10. Calculate the solubility of $\mathrm{PbI_2$ in $0.020 \mathrm{ M  \mathrm{KI$.
     $K_{sp}(\mathrm{PbI_2) = 7.9 \times 10^{-9}$.
 
-13. For the reaction $2\mathrm{SO_2(g) + \mathrm{O_2(g) \rightleftharpoons 2\mathrm{SO_3(g)$
+11. For the reaction $2\mathrm{SO_2(g) + \mathrm{O_2(g) \rightleftharpoons 2\mathrm{SO_3(g)$
     $K_c = 4.0 \times 10^{24}$ at $700 \mathrm{ K$. If $0.10 \mathrm{ mol$ of $\mathrm{SO_2$ and
     $0.050 \mathrm{ mol$ of $\mathrm{O_2$ are placed in a $1.00 \mathrm{ L$ container, find the
     equilibrium concentrations.
 
-14. Explain why increasing the concentration of a reactant in a reaction at equilibrium causes more
+12. Explain why increasing the concentration of a reactant in a reaction at equilibrium causes more
     product to form, but does not change the value of $K$.
 
-15. The decomposition of $\mathrm{HI$ is second order with a rate constant of
+13. The decomposition of $\mathrm{HI$ is second order with a rate constant of
     $1.6 \times 10^{-3} \mathrm{ M^{-1}\mathrm{s^{-1}$ at $700 \mathrm{ K$. If the initial
     concentration of $\mathrm{HI$ is $0.200 \mathrm{ M$How long does it take for the concentration
     to decrease to $0.050 \mathrm{ M$?
 
-16. A catalyst lowers the activation energy of a reaction from $85 \mathrm{ kJ/mol$ to
+14. A catalyst lowers the activation energy of a reaction from $85 \mathrm{ kJ/mol$ to
     $55 \mathrm{kJ/mol$. Calculate the ratio of rate constants at $300 \mathrm{ K$.
 
-17. For $\mathrm{H_2(g) + \mathrm{I_2(g) \rightleftharpoons 2\mathrm{HI(g)$ at
+15. For $\mathrm{H_2(g) + \mathrm{I_2(g) \rightleftharpoons 2\mathrm{HI(g)$ at
     $448^{\circ}\mathrm{C$, $K_c = 50.5$. Calculate $K_p$ for this reaction at the same temperature.
 
-18. Will a precipitate form when equal volumes of $0.0020 \mathrm{ M  \mathrm{CaCl_2$ and
+16. Will a precipitate form when equal volumes of $0.0020 \mathrm{ M  \mathrm{CaCl_2$ and
     $0.0010 \mathrm{ M  \mathrm{Na_2\mathrm{SO_4$ are mixed?
     $K_{sp}(\mathrm{CaSO_4) = 2.4 \times 10^{-5}$.
 
-19. For a zero-order reaction $\mathrm{A \to \mathrm{products$ with $k = 0.0050 \mathrm{ M/s$
+17. For a zero-order reaction $\mathrm{A \to \mathrm{products$ with $k = 0.0050 \mathrm{ M/s$
     calculate the concentration of $\mathrm{A$ after $60 \mathrm{ s$ if
     $[\mathrm{A]_0 = 0.400 \mathrm{ M$.
 
-20. Calculate $K_c$ for the reaction
+18. Calculate $K_c$ for the reaction
     $\mathrm{Fe^{3+}(aq) + \mathrm{SCN^-(aq) \rightleftharpoons \mathrm{FeSCN^{2+}(aq)$ if at
     equilibrium $[\mathrm{Fe^{3+}] = 0.0100 \mathrm{ M$, $[\mathrm{SCN^-] = 0.0080 \mathrm{ M$ and
     $[\mathrm{FeSCN^{2+}] = 0.0020 \mathrm{ M$.
 
-21. Explain why the rate of a reaction approximately doubles for every $10^{\circ}\mathrm{C$
+19. Explain why the rate of a reaction approximately doubles for every $10^{\circ}\mathrm{C$
     increase in temperature (the "rule of thumb"), and show that this corresponds to an activation
     energy of approximately $50 \mathrm{ kJ/mol$ using the Arrhenius equation.
 
-22. For the reaction $\mathrm{N_2\mathrm{O_4(g) \rightleftharpoons 2\mathrm{NO_2(g)$ $K_c = 0.600$
+20. For the reaction $\mathrm{N_2\mathrm{O_4(g) \rightleftharpoons 2\mathrm{NO_2(g)$ $K_c = 0.600$
     at $340 \mathrm{ K$. If $1.00 \mathrm{ atm$ of $\mathrm{N_2\mathrm{O_4$ is placed in a container
     at $340 \mathrm{ K$Find the equilibrium partial pressures and the percentage dissociation.
 
-23. Calculate the pH of a saturated solution of $\mathrm{Mg(OH)_2$. $K_{sp} = 5.6 \times 10^{-12}$.
+21. Calculate the pH of a saturated solution of $\mathrm{Mg(OH)_2$. $K_{sp} = 5.6 \times 10^{-12}$.
 
-24. A reaction has $\Delta H = +50 \mathrm{ kJ/mol$. At $300 \mathrm{ K$, $K = 0.10$. Calculate $K$ at
+22. A reaction has $\Delta H = +50 \mathrm{ kJ/mol$. At $300 \mathrm{ K$, $K = 0.10$. Calculate $K$ at
     $400 \mathrm{ K$ using the van't Hoff equation.
 
 ## Practice Problems
@@ -902,13 +894,11 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
-
 </aside>
 
 ## Intuition
 
 Chemistry studies how atoms combine and react to form everything around us. The periodic table organises elements by their properties, chemical bonds hold molecules together, and reactions transform one substance into another. From the air we breathe to the food we eat, chemistry explains the material basis of life and the principles behind countless technologies.
-
 
 ## Cross-References
 

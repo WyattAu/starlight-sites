@@ -77,8 +77,8 @@ The full startup path on Linux (glibc) is:
 - **`.init_array` processing:** Each function pointer in `.init_array` is called. This is where C++
   global constructors execute.
 
-4. **`main()` is called** with `argc``argv`And `envp`.
-5. **Return from `main`:** The return value is passed to `exit()`Triggering the termination
+1. **`main()` is called** with `argc``argv`And `envp`.
+2. **Return from `main`:** The return value is passed to `exit()`Triggering the termination
    sequence.
 
 ```cpp
@@ -704,7 +704,7 @@ Delivered (e.g., `SIGSEGV``SIGFPE`), the CRT's signal handler may:
 3. **Default action:** If no handler is registered, the default action ( termination) is taken.
 
 On Itanium ABI platforms (Linux, macOS), the CRT installs a signal handler during startup that uses
-The `.eh_frame` section to unwind the stack when an exception is thrown. The unwinder (`_Unwind_* `
+The `.eh_frame` section to unwind the stack when an exception is thrown. The unwinder (`_Unwind_*`
 Functions) is part of the CRT, not the compiler.
 
 ## Environment Variables and the CRT

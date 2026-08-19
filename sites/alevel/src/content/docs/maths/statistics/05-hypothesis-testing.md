@@ -265,6 +265,7 @@ Equivalently, for the sample proportion $\hat{p} = X/n$:
 $$\hat{p} \approx N\!\left(p, \dfrac{p(1-p)}{n}\right)$$
 
 > **Caution:** Warning $H_0$), not the observed sample proportion $\hat{p}$.
+>
 ### 9.2 Continuity correction
 
 Since the binomial distribution is discrete and the normal distribution is continuous, a
@@ -759,7 +760,6 @@ Between Type I and Type II errors.
 Section 3.
 
 </details>
-
 
 ---
 

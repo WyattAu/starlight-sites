@@ -43,12 +43,12 @@ $$
 \mathrm{M} + e^- \to \mathrm{M}^{+\bullet} + 2e^-
 $$
 
-2. **Acceleration:** Ions are accelerated through an electric field.
+1. **Acceleration:** Ions are accelerated through an electric field.
 
-3. **Deflection:** Ions are deflected by a magnetic field. Lighter ions are deflected more than
+2. **Deflection:** Ions are deflected by a magnetic field. Lighter ions are deflected more than
    heavier ions.
 
-4. **Detection:** The detector records the abundance of each $m/z$ value, producing a mass spectrum.
+3. **Detection:** The detector records the abundance of each $m/z$ value, producing a mass spectrum.
 
 ### The Molecular Ion ($\mathrm{M}^{+\bullet}$)
 
@@ -1031,7 +1031,6 @@ Techniques with other chemistry topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-
 
 ## Intuition
 
