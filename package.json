@@ -17,7 +17,7 @@
     "lint:depth": "node scripts/lint-depth.js",
     "lint:forward-refs": "node scripts/lint-forward-refs.js",
     "lint:latex": "node scripts/lint-latex.js",
-    "lint:spelling": "cspell \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\" \"shared/**/*.ts\" \"shared/**/*.tsx\"",
+    "lint:spelling": "cspell \"shared/**/*.ts\" \"shared/**/*.tsx\" \"scripts/**/*.{js,mjs}\" \"search-api/**/*.{js,mjs}\"",
     "lint:markdown": "markdownlint \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\"",
     "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-config-parity.js && node scripts/lint-no-emoji.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js && node scripts/lint-latex.js && node scripts/lint-secrets.js",
     "lint:secrets": "node scripts/lint-secrets.js",

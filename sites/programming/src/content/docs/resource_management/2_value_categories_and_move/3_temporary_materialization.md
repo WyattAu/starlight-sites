@@ -489,9 +489,11 @@ void lifetime_extension() {
     const int& r1 = 42;
     std::cout << "r1 = " << r1 << "\n";  // OK
 
-    // GOOD: direct binding of prvalue to const ref
-    const Widget& w = Widget{};
-    std::cout << "w.data = " << w.data << "\n";  // OK, temporary alive
+```
+// GOOD: direct binding of prvalue to const ref
+const Widget& w = Widget{};
+std::cout << "w.data = " << w.data << "\n";  // OK, temporary alive
+```
 
     // BAD: indirect binding through function return
     // const int& r2 = bad_extend();  // r2 is dangling — undefined behavior

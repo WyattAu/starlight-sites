@@ -197,19 +197,23 @@ Violating these rules results in **undefined behavior**.
 void bad_example() {
     std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    int sum = 0;  // SHARED, unsynchronized!
-    // DATA RACE: multiple threads writing to 'sum' concurrently
-    // std::for_each(std::execution::par, v.begin(), v.end(),
-    //     [&sum](int x) { sum += x; });  // UB!
-    std::cout << "This is undefined behavior.\n";
+```
+int sum = 0;  // SHARED, unsynchronized!
+// DATA RACE: multiple threads writing to 'sum' concurrently
+// std::for_each(std::execution::par, v.begin(), v.end(),
+//     [&sum](int x) { sum += x; });  // UB!
+std::cout << "This is undefined behavior.\n";
+```
 }
 
 // CORRECT: Use reduce (parallel-friendly)
 void good_example_reduce() {
     std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    // std::reduce is designed for parallel use [N4950 §25.7.4]
-    auto sum = std::reduce(
+```
+// std::reduce is designed for parallel use [N4950 §25.7.4]
+auto sum = std::reduce(
+```
         std::execution::par,
         v.begin(), v.end(),
         0  // identity element for addition
@@ -221,8 +225,10 @@ void good_example_reduce() {
 void good_example_atomic() {
     std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    std::atomic<int> sum{0};
-    std::for_each(std::execution::par, v.begin(), v.end(),
+```
+std::atomic<int> sum{0};
+std::for_each(std::execution::par, v.begin(), v.end(),
+```
         [&sum](int x) {
             sum.fetch_add(x, std::memory_order_relaxed);
         });
@@ -233,9 +239,11 @@ void good_example_atomic() {
 void good_example_mutex() {
     std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    std::mutex mtx;
-    int sum = 0;
-    std::for_each(std::execution::par, v.begin(), v.end(),
+```
+std::mutex mtx;
+int sum = 0;
+std::for_each(std::execution::par, v.begin(), v.end(),
+```
         [&sum, &mtx](int x) {
             std::lock_guard lock(mtx);
             sum += x;

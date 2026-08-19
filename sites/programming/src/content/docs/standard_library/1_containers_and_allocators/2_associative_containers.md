@@ -147,9 +147,11 @@ struct Expensive {
 int main() {
     std::map<std::string, Expensive> m;
 
-    // try_emplace only constructs if key is absent [N4950 §22.4.4.4]
-    std::cout << "First insert:\n";
-    m.try_emplace("key1", "value1");   // Constructs Expensive
+```
+// try_emplace only constructs if key is absent [N4950 §22.4.4.4]
+std::cout << "First insert:\n";
+m.try_emplace("key1", "value1");   // Constructs Expensive
+```
 
     std::cout << "Second insert (same key):\n";
     m.try_emplace("key1", "should_not_construct");  // No construction!

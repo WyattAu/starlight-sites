@@ -96,8 +96,10 @@ int main() {
     constexpr int num_threads = 10;
     constexpr int iterations = 100'000;
 
-    std::vector<std::jthread> threads;
-    for (int i = 0; i < num_threads; ++i) {
+```
+std::vector<std::jthread> threads;
+for (int i = 0; i < num_threads; ++i) {
+```
         threads.emplace_back(increment, iterations);
     }
 

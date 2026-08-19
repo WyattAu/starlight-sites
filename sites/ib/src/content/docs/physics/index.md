@@ -160,8 +160,7 @@ Physics is the study of how the universe behaves when you ask it direct question
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors
----
+## Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

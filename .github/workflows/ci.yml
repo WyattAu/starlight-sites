@@ -90,18 +90,18 @@ jobs:
       - name: Forward reference detection
         run: node scripts/lint-forward-refs.js
 
-      - name: Spell checking (cspell)
-        # Advisory: 38k findings across 2,741 files (2026-08-19 census).
-        # Promoting to blocking requires a dedicated dictionary/content
-        # hygiene pass first -- a blocking gate nobody can pass would just
-        # train people to skip CI.
+      - name: Spell checking (cspell - code layer, blocking)
         run: bun run lint:spelling
+
+      - name: Spell checking (cspell - content, advisory)
+        # Content layer: 25k+ findings in 1.4M lines of educational content.
+        # Advisory only — promotes to blocking after a dedicated content
+        # hygiene pass brings this to 0.
+        run: bunx cspell "sites/*/src/content/docs/**/*.md" "sites/*/src/content/docs/**/*.mdx"
         continue-on-error: true
 
       - name: Markdown structure (markdownlint)
-        # Advisory: 17.9k findings (2026-08-19 census); same rationale as cspell.
         run: bun run lint:markdown
-        continue-on-error: true
 
       - name: External link checking (lychee)
         # Lychee is intentionally non-blocking: external links are subject
