@@ -21,7 +21,6 @@ if (!API_TOKEN) {
 const REDIRECTS = [
   { from: 'alevel-maths-physics.wyattau.com', to: 'https://alevel.wyattau.com/maths/' },
   { from: 'alevel-sciences.wyattau.com', to: 'https://alevel.wyattau.com/chemistry/' },
-  { from: 'academics.wyattau.com', to: 'https://wyattsnotes.wyattau.com' },
 ]
 
 async function createRedirect(from, to) {

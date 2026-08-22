@@ -51,12 +51,15 @@ const packageJson = {
     '@astrojs/solid-js': '^6.0.1',
     '@astrojs/starlight': '^0.40.0',
     astro: '^6.4.8',
+    'astro-compress': '^2.4.1',
     dompurify: '^3.2.4',
     'rehype-katex': '^7.0.1',
     'remark-math': '^6.0.0',
     'solid-js': '^1.9.13',
   },
   devDependencies: {
+    '@tailwindcss/vite': '^4.3.1',
+    'unplugin-icons': '^23.0.1',
     typescript: '^5.8.2',
   },
 }
@@ -70,16 +73,22 @@ const sidebarLines = formatSidebar(sidebar)
 const safeTitle = JSON.stringify(title)
 
 // Generate complete, standalone astro.config.mjs (SolidJS, not React)
+// This template must pass scripts/lint-config-parity.js -- see REQUIRED_HEAD,
+// REQUIRED_PIPELINE, and REQUIRED_IMPORTS in that file for the invariant
+// entries that every config must contain.
 const astroConfig = `import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mdx from '@astrojs/mdx';
 import solidJs from '@astrojs/solid-js';
 import sitemap from '@astrojs/sitemap';
+import compress from 'astro-compress';
 import tailwindcss from '@tailwindcss/vite';
 import Icons from 'unplugin-icons/vite';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives';
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs';
+import { cloudflareAnalytics } from '../../shared/config/analytics.mjs';
 
 export default defineConfig({
   site: '${url}',
@@ -87,19 +96,33 @@ export default defineConfig({
   integrations: [
     starlight({
       title: ${safeTitle},
+      pagefind: false,
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       components: {
+        Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
+        SiteTitle: './src/components/starlight/SiteTitle.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+        Search: './src/components/starlight/Search.astro',
       },
       defaultLocale: 'en',
+      locales: {
+        root: { label: 'English', lang: 'en' },
+      },
       sidebar: [
 ${sidebarLines}
       ],
       head: [
+        { tag: 'script', attrs: { src: '/web-vitals.js', defer: true } },
+        { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
+        { tag: 'link', attrs: { rel: 'preload', href: '/fonts/Inter-latin.woff2', as: 'font', type: 'font/woff2', crossorigin: true } },
+        { tag: 'link', attrs: { rel: 'preload', href: '/fonts/JetBrainsMono-latin.woff2', as: 'font', type: 'font/woff2', crossorigin: true } },
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
         { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
-        { tag: 'meta', attrs: { property: 'og:image', content: '${url}/img/social-card.svg' } },
         { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
+        { tag: 'meta', attrs: { property: 'og:image', content: '${url}/img/social-card.svg' } },
         { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": ${safeTitle}, "url": "${url}", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
       ],
       customCss: ['./src/styles/custom.css'],
@@ -107,6 +130,7 @@ ${sidebarLines}
     mdx(),
     solidJs(),
     sitemap(),
+    compress(),
   ],
   vite: {
     plugins: [tailwindcss(), Icons({ compiler: 'solid' })],
@@ -118,7 +142,7 @@ ${sidebarLines}
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 });
