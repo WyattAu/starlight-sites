@@ -176,6 +176,17 @@ The Ewald sphere is a sphere in reciprocal space with radius $k = 2\pi/\lambda$,
 **Mistake 5: Assuming that powder diffraction gives single-crystal information.**
 Powder diffraction averages over all orientations of crystallites, producing rings rather than spots. Single-crystal diffraction gives more detailed information about the crystal structure. Do not assume that powder diffraction gives the same information as single-crystal diffraction.
 
+
+```mermaid
+flowchart TD
+    A[3_Diffraction] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Diffraction occurs when waves encounter obstacles or periodic structures comparable to their wavelength. In crystals, atoms arranged in regular lattices act as diffraction gratings for X-rays, producing sharp spots whose pattern reveals the crystal structure. Bragg's law relates the diffraction angle to the atomic spacing, providing a ruler for measuring crystal lattices. The reciprocal lattice is a mathematical construction that simplifies diffraction calculations: each real-space lattice has a dual in momentum space, and diffraction peaks occur at reciprocal lattice vectors. This technique is how we determine the atomic arrangement of materials from proteins to semiconductors.

@@ -2379,6 +2379,17 @@ $$
 - [Cells](cells)
 - [Genetics and DNA](genetics-and-dna)
 
+
+```mermaid
+flowchart TD
+    A[Nervous System] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The nervous system is the body's communication network, and its speed comes from a beautifully simple trick: electricity. A neurone is essentially a long wire that can switch between two states --- resting (negative inside) and active (positive inside). When a stimulus is strong enough to reach the threshold, sodium channels snap open and positive charge rushes in, creating an electrical impulse that races down the axon. This is an all-or-nothing event: it either happens fully or not at all, just like a bullet leaving a gun --- the trigger either fires or it does not, and once fired, the bullet travels at full speed regardless of how hard you pulled.

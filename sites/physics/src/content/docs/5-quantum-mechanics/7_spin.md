@@ -191,6 +191,17 @@ For $\theta = 90°$ (i.e., measuring $S_x$): $P = 1/2$.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[7_Spin] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Spin is the universe's internal compass that has no classical counterpart. An electron is not literally spinning like a top, yet it carries angular momentum and a magnetic moment as if it were. The Pauli matrices encode the algebra of this internal angular momentum in a neat two-by-two package. When you put a spin in a magnetic field, it precesses like a wobbling top, but the energy comes in only two values: aligned or anti-aligned. The Stern-Gerlach experiment is the smoking gun: a beam of atoms splits into exactly two beams, not a continuous spread, proving that angular momentum is quantized. Measuring spin along one axis completely randomizes the result along a perpendicular axis, which is the quantum version of the uncertainty principle at work. Adding two spins together gives either a triplet (symmetric) or a singlet (antisymmetric), and the singlet state is so entangled that measuring one instantly tells you about the other, no matter how far apart they are.

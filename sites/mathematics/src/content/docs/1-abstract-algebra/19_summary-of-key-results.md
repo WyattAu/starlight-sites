@@ -103,6 +103,17 @@ $(23)H = \{(23), (123)\}$.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[19_Summary Of Key Results] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Group: set with associative binary operation, identity, inverses. Abelian if commutative.

@@ -1040,6 +1040,17 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 | `WatchService` not resetting key        | No further events delivered             | Always call `key.reset()`                        |
 | Not closing `Files.lines()` stream      | File handle leak                        | Use try-with-resources                           |
 
+
+```mermaid
+flowchart TD
+    A[01 Io Nio] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Java I/O comes in two flavors: classic streams and NIO buffers. Streams are like hoses that deliver data one byte at a time, while buffers are like buckets that hold chunks of data. The decorator pattern lets you wrap streams with buffering, encoding, or compression by stacking them like Russian nesting dolls. NIO channels are bidirectional pipes that can work with buffers in non-blocking mode, making them suitable for handling many concurrent connections with few threads.

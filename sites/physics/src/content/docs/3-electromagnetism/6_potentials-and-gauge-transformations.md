@@ -162,6 +162,17 @@ always:
 $$\mathbf{B} = \frac{1}{c}\hat{\mathbf{R}} \times \mathbf{E}$$
 :::
 
+
+```mermaid
+flowchart TD
+    A[6_Potentials And Gauge Transformations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Gauge symmetry is the idea that potentials are not unique but the fields they produce are. Like choosing different coordinate systems to describe the same physical situation, gauge transformations change the mathematical description without changing the physics. The Coulomb gauge makes the vector potential divergence-free, useful for static magnetic fields. The Lorenz gauge simplifies the wave equations, making radiation problems tractable. The Liénard-Wiechert potentials show that fields from a moving charge are retarded, meaning we see the charge where it was when the light left it, not where it is now.

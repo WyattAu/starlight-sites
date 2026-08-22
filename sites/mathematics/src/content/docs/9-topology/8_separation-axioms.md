@@ -171,6 +171,17 @@ $\Delta = \{(x, x) : x \in X\}$ is closed in $X \times X$.
 
 ### 8.16 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[8_Separation Axioms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Separation axioms measure how well a topological space distinguishes points and sets. $T_0$ means any two points can be separated by an open set containing one but not the other. $T_1$ means each point is closed (singletons are closed sets). $T_2$ (Hausdorff) means any two distinct points have disjoint neighbourhoods — you can draw a wall between them. Higher axioms ($T_3$, $T_4$) separate points from closed sets and closed sets from each other with open neighbourhoods. The hierarchy matters because compactness, convergence, and uniqueness of limits all depend on having enough separation. Without Hausdorff, limits are not unique and compact sets need not be closed.

@@ -272,6 +272,17 @@ exists. The number of piles equals the LIS length.
 </details>
 :::
 
+
+```mermaid
+flowchart TD
+    A[5_Dynamic Programming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Dynamic programming is solving complex problems by breaking them into overlapping subproblems. Think of it as a filing cabinet: instead of recalculating the same answer repeatedly, you store it and look it up later. The key insight is optimal substructure: the optimal solution to a problem contains optimal solutions to its subproblems. Memoisation (top-down) caches results of recursive calls, while tabulation (bottom-up) fills a table iteratively. DP is powerful but requires recognising the right subproblem decomposition.

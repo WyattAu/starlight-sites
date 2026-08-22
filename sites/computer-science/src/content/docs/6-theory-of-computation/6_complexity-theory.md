@@ -17,6 +17,17 @@ description: "The of a deterministic TM on input is the number of steps takes be
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[6_Complexity Theory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Complexity theory classifies problems by **how much time or space they require** to solve. The key insight is that even among decidable problems, some are tractable (solvable efficiently, class P) and some are intractable (no known efficient solution, class NP). The boundary between these classes is the deepest open question in computer science.

@@ -17,6 +17,17 @@ description: "The class of decision problems solvable in polynomial time by a de
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[6_Advanced Topics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Computational complexity theory classifies problems by their inherent difficulty. P contains problems solvable in polynomial time, while NP contains those whose solutions can be verified in polynomial time. NP-complete problems are the hardest problems in NP, and if any one can be solved efficiently, all can. Polynomial-time reductions are the tool for proving NP-completeness: if problem A can be transformed into problem B efficiently, then B is at least as hard as A. The Cook-Levin theorem establishes SAT as the first NP-complete problem.

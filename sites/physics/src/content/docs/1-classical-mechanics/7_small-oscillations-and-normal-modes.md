@@ -147,6 +147,17 @@ The corresponding normal modes are:
 - Misidentifying degenerate modes: when $\omega_\alpha = \omega_\beta$, any linear combination of the corresponding eigenvectors is also a normal mode.
 - Assuming that small oscillation analysis captures the full dynamics; it only describes motion near equilibrium and breaks down for large amplitudes.
 
+
+```mermaid
+flowchart TD
+    A[7_Small Oscillations And Normal Modes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Normal modes are like the natural hum of a system. When you pluck a guitar string, it vibrates at specific frequencies determined by its length and tension. Push a swing at just the right moment and it builds up; push at the wrong frequency and it barely moves. Small oscillation analysis decomposes any complex motion near equilibrium into these natural frequencies. Think of coupled pendulums: energy sloshes back and forth between them like water in connected tanks, creating the beat phenomenon. Each normal mode is a pattern where every part of the system moves in phase with the same frequency. The secular equation is like tuning a radio: it tells you exactly which frequencies the system can sustain. Any motion is just a superposition of these natural frequencies, like a chord on a piano is a superposition of individual notes.

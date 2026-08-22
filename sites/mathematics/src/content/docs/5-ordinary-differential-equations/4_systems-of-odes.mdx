@@ -221,6 +221,17 @@ $\blacksquare$
 
 ### 4.11 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[4_Systems Of Odesx] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Systems of ODEs describe how multiple quantities evolve together, each potentially influencing the others. A linear system $\mathbf{x}' = A\mathbf{x}$ decomposes along the eigenvectors of $A$: each eigenvector defines a natural direction of motion, and its eigenvalue determines whether the solution grows, decays, or oscillates along that direction. The matrix exponential $e^{At}$ is the fundamental object — it maps initial conditions to solutions at time $t$. When eigenvalues are complex, the solution spirals; when real and negative, it decays toward the origin; when real and positive, it explodes. The trace-determinant plane classifies all 2D linear systems into nodes, saddles, spirals, and centres.

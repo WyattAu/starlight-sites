@@ -882,6 +882,17 @@ Describe the roles of photosystems I and II in the light-dependent reactions of 
   electron transport chain) are re-energised. These electrons are passed to NADP$^+$ along with
   $\text{H}^+$ ions to form NADPH.
 
+
+```mermaid
+flowchart TD
+    A[3_Cellular Energetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Living organisms are remarkably organised systems. Cells function as factories with specialised departments, genetics stores the blueprint library, and ecology maps the web of interconnected relationships. Life maintains itself through intricate feedback mechanisms, from molecular pathways within cells to population dynamics across ecosystems. Understanding biology reveals how structure determines function at every level.

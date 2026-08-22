@@ -1022,6 +1022,17 @@ tail -30 "$LOG" | awk -F',' '
 3. **Cloud sync archival:** Move cold data to cloud storage.
 4. **Data pruning:** Delete unnecessary snapshots, old logs, and temporary files.
 
+
+```mermaid
+flowchart TD
+    A[Monitoring And Alerting] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to monitoring and alerting,

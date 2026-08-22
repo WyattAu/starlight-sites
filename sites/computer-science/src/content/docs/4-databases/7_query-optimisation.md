@@ -146,6 +146,17 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 | Index-only scan        | Covered query                       | Avoids table access               |
 | Materialised view      | Expensive aggregations              | Precomputes results               |
 
+
+```mermaid
+flowchart TD
+    A[7_Query Optimisation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Query optimisation is the difference between a librarian who checks every shelf and one who uses the card catalogue. The query planner examines your SQL and figures out the fastest way to execute it — which index to use, which table to scan first, how to join efficiently. Execution plans are the map of this journey, showing each step and its estimated cost. Without optimisation, a simple join could scan billions of rows; with it, the database finds the answer in milliseconds. The optimizer uses statistics about your data to make educated guesses, which is why stale statistics can lead to terrible performance.

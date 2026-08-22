@@ -175,6 +175,17 @@ functions. Urban renewal in Hong Kong faces the challenge of balancing:
 The Kowloon Walled City demolition (1993-1994) represents a major earlier urban renewal project,
 converting a densely packed, unregulated settlement into the Kowloon Walled City Park.
 
+
+```mermaid
+flowchart TD
+    A[Urbanization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Cities as living organisms:** Urbanisation is like a growing tree — cities expand outward (sprawl), sometimes people move back inward (re-urbanisation), and new branches (new towns) relieve pressure on the trunk.

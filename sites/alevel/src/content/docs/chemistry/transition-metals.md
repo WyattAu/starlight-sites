@@ -20,6 +20,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Transition Metals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**

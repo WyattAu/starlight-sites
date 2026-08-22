@@ -117,6 +117,17 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
 | Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
 
+
+```mermaid
+flowchart TD
+    A[15_Quantum Statistics In Detail] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Quantum statistics is the story of two fundamentally different types of matter. Fermions, governed by the Pauli exclusion principle, refuse to share quantum states, creating a Fermi sea that fills up like a stadium seating chart. Bosons, by contrast, are social particles that pile into the same state, leading to Bose-Einstein condensation when cooled. At high temperatures both distributions merge into the classical Maxwell-Boltzmann form because quantum identity becomes irrelevant when particles are far apart. The Fermi energy sets the scale of electron behaviour in metals, while the BEC critical temperature marks the onset of macroscopic quantum coherence.

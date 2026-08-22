@@ -17,6 +17,17 @@ description: "Decidability: comprehensive educational content notes with precise
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[5_Decidability] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Decidability asks: **can an algorithm give a definitive yes/no answer for every input?** Some problems are fundamentally undecidable — no amount of cleverness or computing power can solve them for all cases. The halting problem is the canonical example: you cannot write a program that determines whether an arbitrary program will halt or loop forever.

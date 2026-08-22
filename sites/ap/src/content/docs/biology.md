@@ -575,6 +575,17 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
+
+```mermaid
+flowchart TD
+    A[Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Living systems maintain order through energy flow and information transfer. Cells convert nutrients into usable energy, genes encode the instructions for building proteins, and organisms interact through predator-prey relationships, competition, and cooperation. Understanding biology reveals the elegant solutions evolution has produced for the challenges of survival and reproduction.

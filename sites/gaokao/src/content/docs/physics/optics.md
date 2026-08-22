@@ -332,6 +332,17 @@ $$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500}
 
 **考试技巧：** 马吕斯定律：$I = I_0 \cos^2\theta$，其中 $\theta$ 是两偏振片透振方向的夹角。
 
+
+```mermaid
+flowchart TD
+    A[Optics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Optics is like understanding how mirrors and lenses bend light. Reflection is like a ball bouncing off a wall: the angle of incidence equals the angle of refraction. This is why you can see yourself in a mirror: light from your face bounces off the mirror and into your eyes.

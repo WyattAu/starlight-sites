@@ -133,6 +133,17 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
 
+
+```mermaid
+flowchart TD
+    A[22_Nonlinear Optics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Linear optics assumes the medium's response is proportional to the applied field, but at high intensities, nonlinear effects emerge. The second-order nonlinearity generates harmonics at twice the frequency, used in green laser pointers. Third-order effects include self-focusing, where a beam modifies the refractive index and collapses under its own intensity. Phase matching ensures that nonlinear contributions add constructively over the interaction length. Four-wave mixing and parametric amplification enable optical frequency conversion and amplification. These effects are weak at ordinary light levels but become dominant in focused laser beams, opening applications from frequency doubling to optical computing.

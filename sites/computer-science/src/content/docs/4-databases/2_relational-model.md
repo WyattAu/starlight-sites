@@ -249,6 +249,17 @@ Same join result, from which $L_1$ is then projected. $\blacksquare$
 
 These rules form the foundation of heuristic query optimisation (see Section 7).
 
+
+```mermaid
+flowchart TD
+    A[2_Relational Model] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The relational model organizes data into tables with rows and columns, like a spreadsheet where each sheet represents a different entity and the relationships between sheets represent how entities connect. Primary keys are the unique ID badges that distinguish every row, and foreign keys are the references that link tables together. The beauty of the relational model is that it separates the logical view of data from its physical storage, the way a restaurant menu separates the description of a dish from the kitchen's recipe.

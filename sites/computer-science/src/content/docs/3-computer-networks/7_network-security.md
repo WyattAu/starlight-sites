@@ -223,6 +223,17 @@ The server's connection table. Defences: SYN cookies (encode state in the initia
 Rate limiting, connection throttling.
 :::
 
+
+```mermaid
+flowchart TD
+    A[7_Network Security] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Network security is a layered defense strategy: encryption hides the message, authentication proves who sent it, and integrity checks verify nothing was tampered with in transit. TLS is the locked envelope that ensures your credit card number arrives intact and unreadable to anyone who intercepts it. The key insight is that security is not a single feature but a chain of mechanisms, and the chain is only as strong as its weakest link, like a fence with a gate that anyone can walk through.

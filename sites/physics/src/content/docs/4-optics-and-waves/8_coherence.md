@@ -167,6 +167,17 @@ $\blacksquare$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[8_Coherence] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.

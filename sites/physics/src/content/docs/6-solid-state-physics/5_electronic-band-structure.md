@@ -352,6 +352,17 @@ Frequencies within a few percent) but is less reliable for band gaps (LDA undere
 30--50\%) and strongly correlated systems (e.g., transition metal oxides).
 :::
 
+
+```mermaid
+flowchart TD
+    A[5_Electronic Band Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Band structure is like a highway system for electrons. In free space, electrons can have any energy, but a crystal lattice acts like a periodic toll booth that blocks certain energy ranges entirely. These forbidden zones are band gaps, and they are why some materials conduct while others insulate. The Brillouin zone is the set of unique momentum states an electron can occupy in the lattice, analogous to how a repeating wallpaper pattern has a single tile that encodes the whole design. Effective mass captures how strongly the lattice potential slows or accelerates an electron, allowing us to treat it as a free particle with modified inertia.

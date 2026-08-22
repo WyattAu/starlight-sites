@@ -276,6 +276,17 @@ Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 </details>
 :::
 
+
+```mermaid
+flowchart TD
+    A[4_Normalisation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Normalization is the process of breaking a large, messy table into smaller, well-organized tables to eliminate redundancy and prevent update anomalies. Think of it as decluttering a closet: instead of stuffing everything into one drawer, you separate shirts, pants, and socks into their own compartments. Each normal form is a rule that says "if your data looks like this, split it further," the way a good filing system has categories within categories. The trade-off is that more tables mean more JOINs at query time, like having to visit multiple shelves to assemble an outfit.

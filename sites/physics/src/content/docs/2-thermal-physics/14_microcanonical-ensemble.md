@@ -179,6 +179,17 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 | Chemical potential | $\mu = -T\,\partial S/\partial N$ |
 | Sackur-Tetrode (ideal gas) | $S = Nk_B[\ln(V/N) + \frac{3}{2}\ln(4\pi m E/(3Nh^2)) + \frac{5}{2}]$ |
 
+
+```mermaid
+flowchart TD
+    A[14_Microcanonical Ensemble] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The microcanonical ensemble describes an isolated system with fixed energy, volume, and particle number. The central idea is that all accessible microstates are equally probable, and the number of these microstates determines the entropy through Boltzmann's formula. Temperature emerges as the rate of change of entropy with energy: adding energy to a system with many available microstates raises the entropy slowly, giving a high temperature. The entropy is maximized at equilibrium because that is the macrostate compatible with the most microstates. For an ideal gas, the Sackur-Tetrode equation shows that entropy increases with volume and energy, capturing the logarithmic counting of phase space volumes.

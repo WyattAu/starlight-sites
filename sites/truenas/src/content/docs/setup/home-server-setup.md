@@ -526,6 +526,17 @@ for drive in /dev/sd?; do
 done
 ```
 
+
+```mermaid
+flowchart TD
+    A[Home Server Setup] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to setting up home server, including

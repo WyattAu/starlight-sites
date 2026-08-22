@@ -692,6 +692,17 @@ runApp config state action =
   runExceptT (evalStateT (runReaderT action config) state)
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Monads And Functors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Monads are like containers with rules. A Maybe monad is a box that might be empty. An IO monad is a box that performs side effects. The rules say how to put values into the box (return) and how to chain operations on boxed values (>>=). Understanding monads is like understanding how to work with packages: you must follow the shipping rules to move items safely.

@@ -1449,6 +1449,17 @@ The PSU is like the heart of the system. It pumps power (electricity) to every c
 
 BIOS settings are like the instructions in a user manual. They tell the hardware how to behave before the operating system takes over. Changing BIOS settings is like rewriting the manual: you can unlock features the manufacturer disabled, but you must understand what you are changing.
 
+
+```mermaid
+flowchart TD
+    A[Psu And Bios Guide] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to psu selection and bios

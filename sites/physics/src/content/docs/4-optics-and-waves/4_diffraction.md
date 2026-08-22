@@ -275,6 +275,17 @@ $d/a = 3$ as the ratio for missing orders.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[4_Diffraction] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Diffraction arises because every point on a wavefront acts as a new source of spherical wavelets. When light passes through a slit, these wavelets interfere, creating bright and dark regions. A narrower slit relative to the wavelength produces a wider spread, because the wavelets have more opportunity to spread sideways. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the light distribution. A circular aperture produces the Airy disk pattern, setting the fundamental resolution limit of telescopes. The deeper message is that confinement in one direction produces spreading in another.

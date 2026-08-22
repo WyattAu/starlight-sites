@@ -332,6 +332,17 @@ $$\overrightarrow{AB} = k\overrightarrow{AC} \quad \text{for some scalar } k$$
 - Forgetting to check the discriminant condition when determining intersection types
 - Errors in the sign when using the translation formula for conics
 
+
+```mermaid
+flowchart TD
+    A[2_M2_Coordinate Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Mathematics is the study of structure, quantity, and change. Algebra provides symbols for unknown quantities, geometry describes spatial relationships, and calculus captures motion and growth. Together, these branches form a powerful toolkit for solving problems that range from calculating areas to predicting population dynamics. Mathematical literacy is essential for science, technology, and informed citizenship.

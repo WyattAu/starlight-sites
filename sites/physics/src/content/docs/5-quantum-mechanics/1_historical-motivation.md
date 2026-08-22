@@ -218,6 +218,17 @@ De Broglie relation $\lambda = h/p$ was subsequently confirmed for neutrons, ato
 Wavelength of molecules exceeding 25,000 atomic mass units was demonstrated, pushing the boundary Of
 quantum mechanics to the macroscopic regime.
 
+
+```mermaid
+flowchart TD
+    A[1_Historical Motivation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Classical physics broke down when it tried to explain the very small. The ultraviolet catastrophe predicted infinite energy from heated objects. The photoelectric effect showed light behaves like packets of energy proportional to frequency, not brightness. Compton scattering proved these packets carry momentum. And electrons produced diffraction patterns like waves. The unifying insight is that nature is quantised at the smallest scales: energy, momentum, and matter all come in discrete portions. Wave-particle duality is not a contradiction but a description of how quantum entities behave depending on how we observe them.

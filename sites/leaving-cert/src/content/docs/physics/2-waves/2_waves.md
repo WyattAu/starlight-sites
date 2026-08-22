@@ -351,6 +351,17 @@ $$
   law).
 - **Medical ultrasound:** the Doppler effect is used to measure blood flow velocity.
 
+
+```mermaid
+flowchart TD
+    A[2_Waves] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Waves transfer energy without transferring matter:** When you throw a stone into a pond, the water ripples outward but the water itself doesn't travel with the wave. The disturbance moves, but the medium stays put. This is the fundamental difference between waves and particles — particles carry matter from A to B, while waves carry energy from A to B.

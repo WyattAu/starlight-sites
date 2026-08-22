@@ -256,6 +256,17 @@ Harlem Renaissance, Great Depression, New Deal, Social Security Act, Pearl Harbo
 Project, Truman Doctrine, Marshall Plan, NATO, McCarthyism, Brown v. Board, Civil Rights Act,
 Vietnam War, Watergate, Reagan Revolution, September 11
 
+
+```mermaid
+flowchart TD
+    A[5_Period 7] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Period 7 (1890-1945) encompasses **Progressivism, two world wars, the Great Depression, and the New Deal** — a half-century of crisis and reform that transformed the role of the federal government in American life.

@@ -139,6 +139,17 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 | Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
 | Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
 
+
+```mermaid
+flowchart TD
+    A[19_Irreversible Thermodynamics And Fluctuations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Irreversible thermodynamics describes systems that are driven away from equilibrium and eventually settle into a steady state. The Onsager relations reveal a deep symmetry: the way a temperature gradient drives particle flow is mathematically related to how a concentration gradient drives heat flow. Entropy production is always positive in irreversible processes, providing an arrow of time. Fluctuation theorems extend these ideas to small systems where thermal noise dominates, showing that entropy-decreasing fluctuations are possible but exponentially unlikely. These frameworks connect microscopic randomness to macroscopic irreversibility, explaining why heat flows from hot to cold and why perpetual motion machines are impossible.

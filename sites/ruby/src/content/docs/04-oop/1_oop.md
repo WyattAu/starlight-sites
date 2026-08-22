@@ -900,6 +900,17 @@ Child.new.greet
 # (Base calls super, goes to Object, then Kernel, no more greet methods)
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Oop] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Ruby's OOP is like a hierarchy of roles in a theater. Classes are the scripts that define what a character can say and do. Objects are the actors who play those roles. Inheritance is like a understudy who learns from the lead actor: the understudy can do everything the lead can, plus their own special moves.

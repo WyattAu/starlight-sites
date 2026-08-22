@@ -20,6 +20,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Atomic Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Atomic structure is like a solar system — electrons orbit the nucleus, but with quantum rules instead of gravity.**

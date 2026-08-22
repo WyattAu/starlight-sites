@@ -253,6 +253,17 @@ is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switc
 formalised in RFC 7766.
 :::
 
+
+```mermaid
+flowchart TD
+    A[6_Application Layer] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The application layer is the interface between your code and the network, like the front desk of a hotel that handles requests from guests and routes them to the right department. HTTP is the language spoken at this desk, with methods like GET and POST representing different types of requests. DNS is the phone book that translates human-friendly names into machine-friendly addresses, and without it you would need to memorize IP numbers the way you once had to memorize phone numbers.

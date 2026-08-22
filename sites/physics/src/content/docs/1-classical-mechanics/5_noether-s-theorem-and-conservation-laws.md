@@ -139,6 +139,17 @@ This is the energy function, which equals $T + V$ for natural systems. $\blacksq
 | Rotation about $z$  | $\phi \to \phi + \epsilon$ | Angular momentum $L_z$ |
 | Galilean boost      | $x \to x + \epsilon t$     | Centre-of-mass motion  |
 
+
+```mermaid
+flowchart TD
+    A[5_Noether S Theorem And Conservation Laws] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Noether's theorem is the universe's most elegant bookkeeping principle. Every symmetry you can identify is a guarantee that something is conserved. If the laws of physics are the same here as they are on the other side of the room, then linear momentum is conserved. If the laws are the same now as they were yesterday, then energy is conserved. If the laws do not care which way you point your coordinate axes, then angular momentum is conserved. Think of it like a conservation bank: every symmetry deposits a conserved quantity that you can withdraw later to solve problems. The deep insight is that conservation laws are not separate accidents of nature but consequences of the underlying symmetry structure. When you discover a new symmetry, you automatically gain a new conservation law.

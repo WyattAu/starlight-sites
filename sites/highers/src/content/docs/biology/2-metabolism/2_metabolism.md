@@ -748,6 +748,17 @@ Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
   the cytoplasm.
 :::
 
+
+```mermaid
+flowchart TD
+    A[2_Metabolism] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Biology is the study of living systems at every scale, from molecules to ecosystems. Cells are the fundamental units of life, each one a factory of chemical reactions powered by energy from food or sunlight. Understanding how structures relate to functions, like how the shape of an enzyme determines what it can do, helps you see why organisms work the way they do. The key insight is that all life shares common molecular machinery, from DNA to ATP, which is why studying one organism often reveals principles that apply across all life.

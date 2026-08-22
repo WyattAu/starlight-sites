@@ -338,6 +338,17 @@ $$-8a_1 = 100d \implies d = -\frac{2a_1}{25}$$
 
 **考试技巧：** "$\forall$"型命题转化为最值问题，"$\exists$"型命题转化为判别式问题。注意逻辑联结词"且"对应交集，"或"对应并集。
 
+
+```mermaid
+flowchart TD
+    A[Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Algebra is like a balance scale. Whatever you do to one side, you must do to the other to keep it balanced. This is the fundamental principle behind solving equations: you are trying to isolate the variable on one side while keeping the scale balanced. Each operation you perform is like adding or removing weights from both sides.

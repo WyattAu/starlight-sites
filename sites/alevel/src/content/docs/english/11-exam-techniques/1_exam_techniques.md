@@ -20,6 +20,17 @@ description: "A-Level English exam techniques: essay planning, PEE/PEEL structur
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Exam_Techniques] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**

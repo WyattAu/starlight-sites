@@ -956,6 +956,17 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+
+```mermaid
+flowchart TD
+    A[Cargo And Ecosystem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Cargo is Rust's project manager, build system, and dependency registry rolled into one. Think of it as a chef who handles the recipe (Cargo.toml), the ingredients (dependencies from crates.io), and the cooking (compilation). The manifest file tells Cargo what to build, what dependencies to fetch, and how to optimise the output. Workspaces let you organise related crates in a monorepo, and profiles control the trade-off between compilation speed and runtime performance. Cargo is the toolchain that makes Rust's ecosystem cohesive and productive.

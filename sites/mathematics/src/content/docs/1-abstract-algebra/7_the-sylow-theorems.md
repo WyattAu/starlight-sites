@@ -145,6 +145,17 @@ $n_p = 1$Forcing a normal Sylow subgroup and contradicting simplicity. $\blacksq
 
 ### 7.8 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[7_The Sylow Theorems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Sylow theorems are the crown jewels of finite group theory. They guarantee the existence of subgroups of prime-power order (Sylow $p$-subgroups) and constrain how many there can be. Think of a group's order as having prime "layers" — the Sylow theorems say each layer contains a subgroup that fills it completely. The counting constraints $n_p \equiv 1 \pmod{p}$ and $n_p \mid m$ are surprisingly powerful: often $n_p$ is forced to be $1$, meaning the Sylow subgroup is unique and therefore normal. This lets you decompose a group as a product of its Sylow subgroups, reducing classification problems to studying groups of prime-power order.

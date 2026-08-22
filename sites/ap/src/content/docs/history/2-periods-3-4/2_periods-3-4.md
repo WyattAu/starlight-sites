@@ -186,6 +186,17 @@ Paris 1783, Articles of Confederation, Shays' Rebellion, Great Compromise, Three
 Federalist Papers, Bill of Rights, Alien and Sedition Acts, Louisiana Purchase, Marbury v. Madison,
 War of 1812, Market Revolution, Trail of Tears, Nullification Crisis
 
+
+```mermaid
+flowchart TD
+    A[2_Periods 3 4] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Periods 3-4 (1754-1848) cover the **creation of the American republic** — from the imperial crisis through the Revolution, the Constitution, and the early national period. The central question is: how do you create a stable democratic government from scratch?

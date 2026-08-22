@@ -17,6 +17,17 @@ description: "BFS explores the graph level by level from a source vertex. Compre
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Graph Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Graph algorithms explore the structure of connections. BFS radiates outward like ripples in a pond, discovering vertices level by level and guaranteeing shortest paths in unweighted graphs. DFS plunges deep into branches before backtracking, useful for detecting cycles and exploring connectivity. Dijkstra's algorithm extends BFS to weighted graphs using a priority queue, always expanding the cheapest unvisited vertex. The Bellman-Ford algorithm handles negative weights by relaxing edges repeatedly, while minimum spanning tree algorithms find the cheapest way to connect all vertices.

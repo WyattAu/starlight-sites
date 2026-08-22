@@ -520,6 +520,17 @@ involved.
 | 13.8 Gyr       | 2.725 K        | Present day                           |
 :::
 
+
+```mermaid
+flowchart TD
+    A[7_Big Bang Cosmology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Big Bang was not an explosion in space but the expansion of space itself. Every galaxy is receding because the fabric between them stretches, like dots on an inflating balloon moving apart. The Friedmann equation is Newton's second law applied to the universe's expansion: gravity decelerates expansion while dark energy accelerates it. The critical density is the tipping point between eternal expansion and eventual collapse. The Hubble parameter measures how fast space is stretching right now. The universe's geometry depends on whether its density exceeds, equals, or falls below the critical value.

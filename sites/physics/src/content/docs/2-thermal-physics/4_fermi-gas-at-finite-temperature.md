@@ -152,6 +152,17 @@ The chemical potential decreases by only about $2.4 \times 10^{-4}\%$, confirmin
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[4_Fermi Gas At Finite Temperature] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A Fermi gas at finite temperature is like a theatre filling up with picky patrons. At absolute zero, every seat up to the Fermi energy is occupied, and the Fermi sea is perfectly flat. As temperature rises, only those electrons near the Fermi surface can be thermally excited, because the Pauli exclusion principle blocks transitions to already-occupied states. This is why the electronic specific heat is linear in temperature rather than following the classical equipartition theorem. The Sommerfeld expansion captures this by showing that thermal effects are confined to a narrow window of width kT around the Fermi energy. At ordinary temperatures in metals, only about one in a thousand conduction electrons participates in thermal physics.

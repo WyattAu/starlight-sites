@@ -812,6 +812,17 @@ pairs = zip <*> tail
 -- Prefer the named version
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Types And Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Types are contracts, functions are machines:** In Haskell, a type signature like `Int -> Int -> Int` is a contract that says "this machine takes two integers and produces an integer." The compiler verifies that every machine honors its contract. Currying is the assembly line trick: instead of one machine that takes two parts, you have a machine that takes one part and returns a *new machine* that takes the second part. Partial application is snapping the first machine onto the line and getting a custom machine for free.

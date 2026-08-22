@@ -181,6 +181,17 @@ Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for e
 $s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore
 $\mathbb{R}$ is uncountable. $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[2_Sets Relations And Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Sets are unordered collections of distinct elements. Relations connect elements from different sets, with properties like reflexivity, symmetry, and transitivity. Functions are special relations where each input maps to exactly one output. These concepts underpin database theory (relations), type systems (functions), and abstract algebra (groups, rings). Understanding set operations (union, intersection, complement) is essential for query languages and logic.

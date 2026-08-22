@@ -210,6 +210,17 @@ Applying a **nonlinear transformation** (e.g., log, square root):
 - Can change the shape of the distribution
 - Often used to make skewed data more symmetric
 
+
+```mermaid
+flowchart TD
+    A[1_Exploring Data] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Exploring data is about **seeing the story before computing the statistics**. A good graph reveals shape, centre, spread, and outliers — before you calculate a single number. The key is choosing the right display for the type of data you have.

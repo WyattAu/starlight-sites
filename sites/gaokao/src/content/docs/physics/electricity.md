@@ -325,6 +325,17 @@ $$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\
 
 **考试技巧：** 电源输出功率最大的条件是外电阻等于内阻，即 $R = r$。此时效率为 $50\%$。
 
+
+```mermaid
+flowchart TD
+    A[Electricity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Electricity is like water flowing through pipes. Voltage is the water pressure: higher pressure pushes more water through. Current is the flow rate: how much water passes a point per second. Resistance is the pipe diameter: narrower pipes restrict flow. Ohm's law (V = IR) is like the rule that says flow rate equals pressure divided by restriction.

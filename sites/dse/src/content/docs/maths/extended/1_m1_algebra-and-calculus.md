@@ -315,6 +315,17 @@ $$y^2 = x^2 + 3$$
 - Errors in substitution for integration by substitution (forgetting to change the limits for
   definite integrals or to convert $dx$ to $du$)
 
+
+```mermaid
+flowchart TD
+    A[1_M1_Algebra And Calculus] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Mathematical thinking is about abstraction and pattern recognition. Numbers, shapes, and equations are tools for modelling reality - from calculating interest to predicting weather. The beauty of mathematics is that once a pattern is discovered, it can be applied universally. This connects algebra, geometry, and calculus into a coherent framework for understanding quantity, space, and change.

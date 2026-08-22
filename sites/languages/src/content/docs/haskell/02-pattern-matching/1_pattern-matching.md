@@ -711,6 +711,17 @@ myReverse = go []
     go acc (x:xs) = go (x : acc) xs
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Pattern Matching] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Pattern matching is structural sorting:** Imagine a mailroom where each letter is checked against a template. The `_` wildcard is the "miscellaneous" bin — anything that doesn't fit a specific template goes there. Nested patterns are like checking the envelope, then the letter inside, then the signature — each layer deconstructs further. Case expressions are the decision tree: the compiler generates a fast lookup table from your patterns, checking the most specific ones first.

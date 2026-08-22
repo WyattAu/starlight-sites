@@ -670,6 +670,17 @@ computationally infeasible in sufficiently large groups.
 | Abel–Ruffini                    | General quintic (degree $\geq 5$) is not solvable by radicals                              |
 | Fermat's little theorem         | $a^{p-1} \equiv 1 \pmod{p}$; consequence of Lagrange’s theorem                             |
 
+
+```mermaid
+flowchart TD
+    A[Abstract Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Abstract algebra strips away the specifics of numbers and geometry to study algebraic structure itself. A group is any set with an operation that behaves like symmetry: you can combine elements, there is an identity, and every element has an inverse. A ring adds a second operation that distributes over the first, generalising the arithmetic of integers. A homomorphism is a map that respects the algebraic structure — it sends products to products and sums to sums. The fundamental insight is that you can quotient out by a normal subgroup or ideal to "collapse" structure and study what remains. This lets you decompose complex objects into simpler building blocks, just as integers decompose into primes.

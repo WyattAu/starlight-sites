@@ -199,6 +199,17 @@ landfill capacity. The government's Sustainable Development Council has adopted 
 economic, social, and environmental dimensions, though critics argue progress has been limited by
 the dominance of economic growth objectives.
 
+
+```mermaid
+flowchart TD
+    A[Resources] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Resources are not just things in the ground — they are relationships between nature, technology, and human need. A mineral is not a resource until someone figures out how to extract it and someone else wants to buy it. South China's development was fuelled by resources that were extracted, processed, and consumed in a global chain. Sustainability is the art of using resources without consuming the future — like eating the interest without touching the principal. The tension is real: developing nations need resources to grow, but over-extraction degrades the environment that supports everyone.

@@ -470,6 +470,17 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
+
+```mermaid
+flowchart TD
+    A[Calculus Ab] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Mathematics provides the language for describing patterns, relationships, and change. Functions transform inputs to outputs like machines, calculus measures how things change and accumulate, and probability quantifies uncertainty. The power of mathematics lies in its ability to model real-world situations abstractly, allowing us to solve problems and make predictions across science, engineering, and everyday life.

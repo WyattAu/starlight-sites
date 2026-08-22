@@ -889,6 +889,17 @@ end
 promise.execute
 ```
 
+
+```mermaid
+flowchart TD
+    A[2_Concurrency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Ruby threads are like workers in a kitchen. The GIL (Global Interpreter Lock) is like having only one stove: even if you have multiple chefs, only one can cook at a time. This means Ruby threads are good for I/O-bound tasks (waiting for the oven, the dishwasher, or a delivery) but not for CPU-bound tasks (chopping, mixing, or kneading).

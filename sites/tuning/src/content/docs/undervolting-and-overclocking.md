@@ -727,6 +727,17 @@ System when:
 The best tune is the one that gives you the performance you need with comfortable temperatures, low
 Noise, and rock-solid stability. Everything beyond that is diminishing returns.
 
+
+```mermaid
+flowchart TD
+    A[Undervolting And Overclocking] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to undervolting and overclocking,

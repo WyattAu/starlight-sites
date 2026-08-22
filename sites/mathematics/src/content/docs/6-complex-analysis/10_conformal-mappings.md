@@ -165,6 +165,17 @@ to the boundary (no penetration condition). $\blacksquare$
 
 ### 10.9 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[10_Conformal Mappings] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Conformal mappings are angle-preserving transformations of the complex plane. A holomorphic function with non-zero derivative acts locally as a rotation plus a scaling — it preserves the shape of infinitesimal figures while possibly changing their size and orientation. This makes conformal maps the natural language for problems involving fluid flow, electrostatics, and heat conduction, where the geometry of the domain can be simplified by mapping it to a simpler shape. Möbius transformations are the building blocks: they map circles to circles and are determined by where they send three points. The Riemann mapping theorem guarantees that any directly connected domain (except the whole plane) can be conformally mapped to the unit disk.

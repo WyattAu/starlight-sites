@@ -9,6 +9,17 @@ tags:
 
 # AWS Cloud Practitioner (CLF-C02)
 
+
+```mermaid
+flowchart TD
+    A[Cloud Practitioner] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The AWS Cloud Practitioner certification is an entry-level certification that validates foundational knowledge of AWS Cloud services and concepts.

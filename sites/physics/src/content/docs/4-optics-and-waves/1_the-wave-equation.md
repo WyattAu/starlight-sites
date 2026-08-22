@@ -289,6 +289,17 @@ equal to the signal velocity In regions of weak, normal dispersion. Near absorpt
 $v_g$ can exceed $c$ or become Negative — this does not violate causality, since the true signal
 velocity (front velocity) never Exceeds $c$.
 
+
+```mermaid
+flowchart TD
+    A[1_The Wave Equation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Waves are disturbances that travel without the medium itself moving. Throw a stone into a pond and the ripples spread outward, but the water molecules mostly bob up and down. The wave equation captures this essential behavior: the second time derivative equals a constant times the second spatial derivative, meaning the acceleration of any point is proportional to how different its neighbors are from it. Standing waves are like a dance where two identical waves moving in opposite directions create a pattern of fixed nodes and oscillating antinodes. A guitar string vibrates this way: the ends cannot move, so only certain frequencies fit. Group velocity is how fast information or energy travels, while phase velocity is how fast individual crests move. In dispersive media, these differ, which is why ocean waves can have crests moving faster than the overall wave front.

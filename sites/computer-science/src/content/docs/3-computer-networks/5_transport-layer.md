@@ -17,6 +17,17 @@ description: "Transport Layer: comprehensive educational content notes with prec
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[5_Transport Layer] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The transport layer provides end-to-end communication services between applications. UDP is the minimalist option: connectionless, unreliable, but fast, suitable for real-time applications where occasional loss is acceptable. TCP is the reliable option: it establishes connections through handshakes, numbers bytes for ordering, acknowledges receipt, and retransmits lost data. Flow control prevents the sender from overwhelming the receiver, and congestion control prevents the sender from overwhelming the network. The choice between TCP and UDP depends on whether reliability or latency matters more.

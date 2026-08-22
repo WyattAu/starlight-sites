@@ -210,6 +210,17 @@ of each body paragraph because it demonstrates your thinking.
   trends are consistent with broader national data from Source B, strengthening the overall
   argument."
 
+
+```mermaid
+flowchart TD
+    A[3_Synthesis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Synthesis is about **weaving multiple sources into a coherent argument** — not just summarising them side by side. The key skill is evaluating which sources support, complicate, or contradict your thesis, then selecting the strongest combination.

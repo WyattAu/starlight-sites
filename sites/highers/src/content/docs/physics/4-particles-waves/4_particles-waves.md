@@ -306,6 +306,17 @@ $$f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Particles Waves] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Light is both a wave and a particle:** Imagine light as a chameleon — it behaves like a wave (diffracting, interfering) in some experiments and like a particle (ejecting electrons) in others. This wave-particle duality is one of the most counterintuitive concepts in physics, but it's essential for understanding the quantum world.

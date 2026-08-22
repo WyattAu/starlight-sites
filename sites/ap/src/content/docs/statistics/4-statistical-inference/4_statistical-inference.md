@@ -198,6 +198,17 @@ $$t = \frac{b_1 - 0}{SE_{b_1}}$$
 
 $df = n - 2$
 
+
+```mermaid
+flowchart TD
+    A[4_Statistical Inference] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Statistical inference is about **drawing conclusions about a population from a sample** while quantifying how confident you should be. The two main tools are confidence intervals (estimation) and hypothesis testing (decision-making).

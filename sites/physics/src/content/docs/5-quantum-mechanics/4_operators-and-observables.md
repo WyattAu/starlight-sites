@@ -195,6 +195,17 @@ Definite $S_z$ gives probabilistic outcomes, and vice versa.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[4_Operators And Observables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Quantum operators are the bridge between abstract mathematical states and physical measurements. Each observable, such as position or momentum, is represented by an operator whose eigenvalues are the possible outcomes you could measure. Operators for incompatible observables do not commute, which means measuring one precisely forces the other to become uncertain. This is not a limitation of instruments but a fundamental feature of quantum reality. Ehrenfest's theorem shows that quantum expectation values follow classical equations of motion on average, providing a smooth bridge from quantum to classical behaviour. Spin-half systems illustrate these ideas most vividly.

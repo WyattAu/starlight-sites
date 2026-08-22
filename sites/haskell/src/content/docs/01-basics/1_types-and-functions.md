@@ -861,6 +861,17 @@ wordFrequenciesLet text =
     countGroup ws = (head ws, length ws)
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Types And Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Type inference in Haskell is like a detective solving a case. The compiler looks at the clues (how you use variables and functions) and deduces what types they must be. You do not need to state the type of every variable because the compiler figures it out from context. This is like a detective who can identify suspects without being told their names.

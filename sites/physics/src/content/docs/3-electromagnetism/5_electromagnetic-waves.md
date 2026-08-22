@@ -270,6 +270,17 @@ $\blacksquare$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[5_Electromagnetic Waves] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Electromagnetic waves are self-sustaining ripples in the electric and magnetic fields that regenerate each other as they propagate. A changing electric field creates a magnetic field, which in turn creates an electric field, and this feedback loop allows the wave to travel through empty space. The energy carried by the wave is split equally between the electric and magnetic components, stored in the field configuration itself. Radiation from an accelerating charge becomes more intense at higher frequencies because the charge's acceleration changes direction faster, producing stronger field ripples. The inverse-square law for intensity reflects how the wave's energy spreads over an expanding sphere.

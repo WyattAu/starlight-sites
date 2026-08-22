@@ -163,6 +163,17 @@ Compute the irradiance (power/area) and determine the laser class.
 **Problem 6.** A Q-switched Nd:YAG laser produces 10 ns pulses with 100 mJ pulse energy at 10 Hz.
 Calculate the peak power, average power, and photon energy at 1064 nm.
 
+
+```mermaid
+flowchart TD
+    A[9_Lasers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A laser works by making light copy itself through stimulated emission. Population inversion is the key: more atoms must be in the excited state than the ground state, which thermal equilibrium forbids. This is like having more people running uphill than downhill. The optical cavity provides feedback, allowing light to pass through the gain medium multiple times. Gaussian beams are the natural modes because diffraction spreads light, and the beam waist balances this spreading. The coherence of laser light comes from all photons being in the same quantum state.

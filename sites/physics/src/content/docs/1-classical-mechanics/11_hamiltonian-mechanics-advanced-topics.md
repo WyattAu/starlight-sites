@@ -204,6 +204,17 @@ is non-linear and the frequency depends on amplitude.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[11_Hamiltonian Mechanics Advanced Topics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than forces. The state of a system is a point in phase space with coordinates and momenta, and time evolution traces a trajectory on the energy surface. Canonical transformations change coordinates while preserving the structure of Hamilton's equations, allowing you to find variables where the motion is simple. Action-angle variables are particularly powerful: the action is a conserved quantity and the angle evolves uniformly in time. For integrable systems with enough conserved quantities, motion is confined to tori in phase space. This framework connects classical mechanics to quantum mechanics through the correspondence principle.

@@ -16,6 +16,17 @@ description: "Tennessee Williams (1911--1983) is among the most significant Amer
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[A Street Car Named Desire] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Streetcar is like a pressure cooker — Williams traps his characters in a small apartment where tensions simmer and explode:** Williams uses Blanche's fragile illusions against Stanley's brutal realism to explore the conflict between old and new South

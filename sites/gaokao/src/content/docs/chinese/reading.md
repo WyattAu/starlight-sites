@@ -401,6 +401,17 @@ D. 苏轼的母亲鼓励他学习范滂
 
 **考试技巧：** 哲理诗的鉴赏要透过表面现象，分析深层含义。注意诗中的关键词和比喻义。
 
+
+```mermaid
+flowchart TD
+    A[Reading] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Reading comprehension on the Gaokao is like being a detective. Each passage is a crime scene full of clues, and you must piece together what the author is really saying. The surface meaning is the obvious evidence, but the deeper meaning is hidden in word choices, sentence structure, and what the author chose not to say. The best readers are the best observers.

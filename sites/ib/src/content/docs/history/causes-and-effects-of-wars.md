@@ -411,6 +411,17 @@ analytical skills needed for high-scoring essay responses.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Causes And Effects Of Wars] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Wars do not erupt from single causes. They result from accumulated tensions that finally snap. The assassination of Franz Ferdinand did not cause WWI alone; it was the spark that ignited a powder keg of alliances, militarism, imperialism, and nationalism. Similarly, WWII grew from the unresolved grievances of WWI, economic collapse, and the failure of collective security. Understanding war means understanding how long-term pressures interact with short-term triggers.

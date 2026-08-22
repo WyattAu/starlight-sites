@@ -16,6 +16,17 @@ description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Chronicle Of A Death Foretold] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Chronicle is like a puzzle with missing pieces — the narrator reconstructs events, but gaps remain, mirroring the community's selective memory:** The novel's structure mimics the way communities construct narratives about traumatic events

@@ -315,6 +315,17 @@ $$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} -
 
 **考试技巧：** 线面角公式：$\sin\theta = \dfrac{|\vec{v} \cdot \vec{n}|}{|\vec{v}||\vec{n}|}$，其中 $\vec{v}$ 是直线方向向量，$\vec{n}$ 是平面法向量。
 
+
+```mermaid
+flowchart TD
+    A[Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Geometry is like architecture. You start with basic shapes (points, lines, circles) and combine them according to rules (theorems) to build complex structures (proofs). Each theorem is like a building code that ensures your structure is sound.

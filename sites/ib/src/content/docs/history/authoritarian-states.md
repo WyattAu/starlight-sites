@@ -430,6 +430,17 @@ All three regimes used remarkably similar methods:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Authoritarian States] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Authoritarian regimes are not monolithic. They emerge from specific historical conditions, economic crises, and political failures. The common thread is that each regime promised national renewal through a charismatic leader who claimed to embody the will of the people. Once in power, they used terror, propaganda, and institutional control to eliminate alternatives. Understanding authoritarianism requires examining not just the leader but the society that enabled their rise.

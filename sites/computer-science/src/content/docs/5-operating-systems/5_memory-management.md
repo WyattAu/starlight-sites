@@ -17,6 +17,17 @@ description: "Memory divided into fixed-size partitions at boot. Internal fragme
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[5_Memory Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Memory management answers: **how do you give every process its own address space while sharing limited physical RAM?** The solution is virtual memory — each process sees a private, contiguous address space that maps to scattered physical pages. This provides isolation (one process can't corrupt another) and enables overcommitment (using more total memory than physically available).

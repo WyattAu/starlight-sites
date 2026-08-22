@@ -1049,6 +1049,17 @@ host 10.0.0.10
 # If using /etc/hosts, ensure entries exist on both client and server
 ```
 
+
+```mermaid
+flowchart TD
+    A[Sharing And Permissions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to sharing and permissions,

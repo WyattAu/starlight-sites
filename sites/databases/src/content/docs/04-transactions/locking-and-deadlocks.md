@@ -581,6 +581,17 @@ WHERE account_id = 1 AND balance >= 100;
 -- Check result count: 1 = success, 0 = insufficient funds
 ```
 
+
+```mermaid
+flowchart TD
+    A[Locking And Deadlocks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Locking is like a traffic intersection. When two cars arrive at the same time, one must wait. If both cars wait for the other, neither moves and you have a deadlock. The solution is simple: always follow a consistent rule, such as the car on the right goes first. In databases, this means always accessing tables and rows in the same order, always holding locks for the shortest time possible, and always having a retry strategy when deadlocks occur.

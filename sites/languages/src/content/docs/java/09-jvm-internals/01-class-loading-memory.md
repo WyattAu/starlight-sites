@@ -495,6 +495,17 @@ Total: reserved=5000MB, committed=1200MB
 This is invaluable for diagnosing native memory leaks, especially in containerized environments
 Where the JVM's total memory usage must stay within cgroup limits.
 
+
+```mermaid
+flowchart TD
+    A[01 Class Loading Memory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Java's engine room:** The JVM is like a factory — class loaders bring in blueprints (classes), the garbage collector cleans up waste, and memory management keeps everything running smoothly.

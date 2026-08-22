@@ -17,6 +17,17 @@ description: "Algorithm Analysis: comprehensive educational content notes with p
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Algorithm Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Algorithm analysis measures how an algorithm's resource requirements grow with input size, independent of hardware. Big-O notation provides an upper bound on growth rate, like saying a car's top speed is at most 120 mph regardless of road conditions. The limit rule gives a practical shortcut: compare growth rates by taking the ratio as the input grows. Asymptotic notation is transitive because bounding one function by another creates a chain of bounds. The key insight is that constants and lower-order terms become irrelevant for large inputs.

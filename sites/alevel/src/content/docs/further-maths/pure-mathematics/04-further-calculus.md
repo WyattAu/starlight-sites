@@ -755,6 +755,17 @@ $$\boxed{\int \arcsin x\,dx = x\arcsin x + \sqrt{1-x^2} + C}$$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[04 Further Calculus] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Integration by parts is the reverse of the product rule, allowing you to transfer derivatives between functions. Think of it as a negotiation: you give away one function's derivative in exchange for integrating the other. Reduction formulae create a staircase where each integral is expressed in terms of a simpler one, allowing you to climb down to a base case you can evaluate directly. Inverse trigonometric functions arise because their derivatives produce rational functions, creating a bridge between algebraic and trigonometric integration. Volumes of revolution are computed by summing infinitesimally thin discs stacked along an axis, like building a solid from a stack of coins. Arc length measures the actual distance along a curve rather than straight-line approximation.

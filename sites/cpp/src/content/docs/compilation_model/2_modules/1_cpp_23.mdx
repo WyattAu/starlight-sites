@@ -520,6 +520,17 @@ The correct dependency DAG. This is handled internally by CMake when module file
 But requires the CMake generator to support the `FILE_SET` mechanism (Ninja and Makefile generators
 Do; Visual Studio generators have partial support).
 
+
+```mermaid
+flowchart TD
+    A[1_Cpp_23X] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Modern modules:** C++20 modules are like sealed packages — they export interfaces without exposing implementation details, reducing compile times and name collisions.

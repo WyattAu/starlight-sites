@@ -18,6 +18,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A database is like a highly organized library — data is stored in structured tables that can be queried efficiently:** Relational databases use keys and relationships to minimize redundancy and maintain data integrity

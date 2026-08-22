@@ -148,6 +148,17 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
 
+
+```mermaid
+flowchart TD
+    A[5_Riemannian Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A Riemannian metric is like a flexible, position-dependent ruler laid across space. At each point, it tells you how to measure distances and angles, and it varies smoothly from place to place. The Christoffel symbols encode how this ruler changes as you move, telling you how to transport vectors without rotating them unnecessarily. Geodesics are the paths that a freely falling particle would follow, the straightest lines possible in curved space. The Riemann curvature tensor captures the failure of parallel transport around small loops: if you carry a vector around a closed path, it may return rotated, and the amount of rotation measures the curvature. Sectional curvature specialises this to planes, Ricci curvature averages over directions, and scalar curvature compresses everything into a single number at each point.

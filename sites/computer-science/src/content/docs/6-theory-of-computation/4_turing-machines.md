@@ -17,6 +17,17 @@ description: "Turing Machines: comprehensive educational content notes with prec
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Turing Machines] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A Turing machine is the **simplest model of general-purpose computation** — it has a finite control (states and rules), an infinite tape (unbounded memory), and a read/write head. Despite its simplicity, it can compute anything that any reasonable computational device can compute (Church-Turing thesis). The power comes from the infinite tape — it can read and write anywhere, going back and forth as needed.

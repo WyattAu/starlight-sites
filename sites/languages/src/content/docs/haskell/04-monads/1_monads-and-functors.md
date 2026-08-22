@@ -668,6 +668,17 @@ associativity = do
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
 
+
+```mermaid
+flowchart TD
+    A[1_Monads And Functors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A monad is a conveyor belt in a factory:** Imagine a factory where each station can transform the item on the belt, but the belt itself has special properties. The `Maybe` belt drops items into the void if anything goes wrong — no downstream station ever sees a broken part. The `IO` belt logs every operation — the belt *is* the audit trail. The `State` belt carries a clipboard that accumulates instructions as items move along. `>>=` (bind) is the instruction: "take the item off the belt, run it through this station, and put the result back on."

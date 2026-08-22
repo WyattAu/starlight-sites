@@ -761,6 +761,17 @@ Historiographical perspectives when they are relevant to the specific point you 
 | Terra nullius                       | Doctrine that land belonged to no one; used to justify British colonisation of Australia; overturned by Mabo (1992)              |
 | Truth and Reconciliation Commission | South African body (1995--2002) investigating apartheid-era human rights violations; chaired by Desmond Tutu                     |
 
+
+```mermaid
+flowchart TD
+    A[Rights And Protest] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Civil rights movements are like rivers carving through rock -- they appear sudden but are shaped by decades of accumulated pressure beneath the surface. The Montgomery Bus Boycott did not emerge from nowhere; it built on years of NAACP legal strategy, wartime double-V consciousness, and grassroots organizing. Nonviolent resistance works not because it is morally pure but because it creates a crisis of legitimacy: when peaceful protesters are beaten on television, the moral cost of maintaining the status quo becomes visible. The comparison between the USA and South Africa reveals that legal change and social change operate on different timescales -- the Voting Rights Act registered 250,000 voters in months, but economic equality remains elusive decades later.

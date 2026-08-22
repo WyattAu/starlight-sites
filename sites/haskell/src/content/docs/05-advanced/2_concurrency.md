@@ -677,6 +677,17 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
 7. **Profile before optimizing**: Use `+RTS -s` and ThreadScope to identify bottlenecks
 8. **Prefer pure parallelism with strategies**: When you do not need side effects
 
+
+```mermaid
+flowchart TD
+    A[2_Concurrency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Haskell concurrency is like a busy restaurant kitchen. Each chef (green thread) works independently, and the head chef (scheduler) coordinates them. Haskell's lightweight threads are like having many part-time chefs: they are cheap to create and can be assigned to different stations as needed.

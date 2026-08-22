@@ -174,6 +174,17 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - **Fibre optics:** Although optical fibres are dielectric waveguides rather than metallic, the same concepts of modes, cutoff, and dispersion apply.
 - **Radar systems:** Waveguide components (bends, twists, directional couplers) route microwave signals between the transmitter, antenna, and receiver with minimal loss.
 
+
+```mermaid
+flowchart TD
+    A[9_Waveguides And Cavities] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A waveguide is a metallic pipe that channels electromagnetic waves like a flute channels sound. The cutoff frequency acts like a minimum note: waves below this frequency cannot propagate and decay exponentially. Phase velocity exceeding c is not a paradox because it carries no information; the group velocity, which does, stays below c. Cavities are like organ pipes for microwaves, resonating at specific frequencies determined by their dimensions. The quality factor measures how long a cavity rings, like how long a bell sustains its tone after being struck.

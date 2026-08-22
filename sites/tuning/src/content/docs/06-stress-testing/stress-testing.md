@@ -981,6 +981,17 @@ When adding used hardware (CPU, RAM, GPU) to an existing system, run a focused b
 - **Used GPU:** FurMark for 30 minutes + CUDA memtest for 1 hour.
 - **Used SSD/HDD:** SMART long test + badblocks non-destructive read test.
 
+
+```mermaid
+flowchart TD
+    A[Stress Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the psychological theories and research related to stress testing and validation,

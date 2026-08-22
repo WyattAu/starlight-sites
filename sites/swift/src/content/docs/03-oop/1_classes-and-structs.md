@@ -758,6 +758,17 @@ open class PublicClass {
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Classes And Structs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Classes and structs in Swift are like different types of buildings. Classes are like old houses with history: they can inherit from other classes, they have reference identities, and they can change over time. Structs are like modern apartments: they are simpler, they are copied when passed around, and they are value types that do not share state.

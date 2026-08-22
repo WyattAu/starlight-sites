@@ -182,6 +182,17 @@ Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
 
 ### 7.14 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[7_Curvature] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Curvature measures how much a space bends. For a surface embedded in $\mathbb{R}^3$, Gaussian curvature is intrinsic — it can be measured by inhabitants of the surface without reference to the ambient space (Gauss's Theorema Egregium). Positive curvature means the surface curves like a sphere; negative curvature means it curves like a saddle; zero curvature means it is locally flat. The Riemann tensor captures the full curvature information in higher dimensions, encoding how parallel transport around a loop rotates a vector. The Gauss-Bonnet theorem is a deep bridge between local geometry and global topology: the total curvature of a compact surface equals $2\pi$ times its Euler characteristic.

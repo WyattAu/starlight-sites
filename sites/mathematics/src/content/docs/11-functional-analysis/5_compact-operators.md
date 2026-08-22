@@ -100,6 +100,17 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+
+```mermaid
+flowchart TD
+    A[5_Compact Operators] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Compact operators are the infinite-dimensional analogue of finite matrices. In finite dimensions, the unit ball is compact and every bounded operator maps it to a relatively compact set. In infinite dimensions this fails, and compact operators are precisely those that restore this finite-dimensional behaviour: they squeeze the unit ball into a nearly finite-dimensional image. The spectral theorem for compact self-adjoint operators decomposes them as weighted sums of rank-one projections, with eigenvalues decaying to zero. The Fredholm alternative then says that for compact operators, solving a linear equation reduces to a finite-dimensional problem: either the homogeneous equation has only the trivial solution, or it has a finite-dimensional space of solutions.

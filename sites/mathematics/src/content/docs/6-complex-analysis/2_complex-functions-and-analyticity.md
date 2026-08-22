@@ -172,6 +172,17 @@ The Cauchy-Riemann equations are necessary but not sufficient for analyticity. E
 **Mistake 5: Forgetting that analytic functions are infinitely differentiable.**
 If $f$ is analytic on a domain $D$, then $f$ is infinitely differentiable on $D$. This is a powerful property that does not hold for real-differentiable functions. Do not assume that an analytic function has only finitely many derivatives.
 
+
+```mermaid
+flowchart TD
+    A[2_Complex Functions And Analyticity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A complex function maps the plane to the plane, but requiring differentiability in the complex sense imposes a severe constraint. Unlike real functions that can wiggle independently in different directions, a complex differentiable function must satisfy the Cauchy-Riemann equations, linking its real and imaginary parts. This means the function preserves angles locally, making it conformal. Analytic functions are remarkably rigid: knowing the function on any small arc determines it everywhere. Branch cuts arise because multi-valued functions like logarithms require a choice of which sheet to use, creating artificial boundaries in an otherwise smooth landscape.

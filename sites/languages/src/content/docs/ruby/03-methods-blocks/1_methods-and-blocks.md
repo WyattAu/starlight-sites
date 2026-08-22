@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Methods And Blocks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Methods and blocks are Ruby's building blocks for code organisation. Methods encapsulate reusable logic, and blocks provide closures that capture their surrounding context. The interplay between methods, procs, and lambdas creates a flexible system where behaviour can be passed as data. Blocks enable the iterator pattern that Ruby uses extensively, replacing traditional loops with expressive method calls like `map`, `select`, and `reduce`.

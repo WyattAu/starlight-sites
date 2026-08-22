@@ -793,6 +793,17 @@ Similarly: $y = \dfrac{5}{3}$ and $z = \dfrac{1}{6}$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[03 Further Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Partial fractions are the algebraic equivalent of decomposing a complex signal into pure tones. Just as a musical chord can be broken into individual notes, a rational expression can be decomposed into simpler fractions that are each easier to integrate. The relationships between roots and coefficients reveal that a polynomial's coefficients encode information about its solutions without requiring you to solve it. The method of differences is like a domino chain: each term cancels with the next, leaving only the first and last terms. Symmetric functions of roots exploit the fact that certain combinations of roots remain unchanged regardless of how the roots are ordered.

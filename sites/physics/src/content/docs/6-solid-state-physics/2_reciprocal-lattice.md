@@ -194,6 +194,17 @@ The intensity $I \propto \lvert S\rvert^2$:
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_Reciprocal Lattice] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The reciprocal lattice is a mathematical construction that transforms the problem of crystal diffraction into simple geometry. Real-space lattice points represent where atoms sit, while reciprocal lattice points represent the allowed wavevectors for diffracted beams. When X-rays hit a crystal, they scatter strongly only when the scattering vector matches a reciprocal lattice vector, which is the Laue condition. The first Brillouin zone is the set of momentum states unique to that crystal, analogous to how a single unit cell tiles all of real space. This dual-space picture makes it easy to predict diffraction patterns without tracking individual atoms.

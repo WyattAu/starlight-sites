@@ -9,6 +9,17 @@ tags:
 
 # US Civics Questions
 
+
+```mermaid
+flowchart TD
+    A[Civics Questions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The US citizenship test includes 100 civics questions. You must answer 6 out of 10 questions correctly to pass.

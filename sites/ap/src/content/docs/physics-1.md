@@ -587,6 +587,17 @@ weights qualitative explanations alongside quantitative solutions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+```mermaid
+flowchart TD
+    A[Physics 1] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 AP Physics 1 is the **algebra-based introduction to mechanics** — it describes how objects move and why. The course builds from kinematics (describing motion) through forces (causing motion) to energy and momentum (conservation laws that simplify complex problems).

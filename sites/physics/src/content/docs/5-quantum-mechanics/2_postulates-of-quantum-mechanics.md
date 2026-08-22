@@ -141,6 +141,17 @@ Matrices via partial trace), open quantum systems, and decoherence.
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+
+```mermaid
+flowchart TD
+    A[2_Postulates Of Quantum Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The postulates of quantum mechanics are like the rules of a game that nature plays at the smallest scales. The state vector is your scoreboard: it contains everything knowable about the system. Hermitian operators are the measuring instruments, and their real eigenvalues are the only possible outcomes you can read. The Born rule tells you that the square of the amplitude gives the probability, like measuring how much of a wave is present at each point. Time evolution is smooth and deterministic, like a river flowing according to a fixed current. The measurement problem is the deep mystery: the smooth flow of the Schrodinger equation suddenly jerks when you look, collapsing the wave function to a single outcome. This tension between smooth evolution and sudden collapse is still debated. Decoherence explains why we do not see quantum weirdness in everyday life: the environment constantly measures the system, washing out quantum superpositions.

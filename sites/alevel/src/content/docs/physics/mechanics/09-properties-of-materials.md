@@ -613,6 +613,17 @@ self-marking and building a personal test matrix.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+```mermaid
+flowchart TD
+    A[09 Properties Of Materials] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.

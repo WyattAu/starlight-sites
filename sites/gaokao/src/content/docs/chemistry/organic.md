@@ -356,6 +356,17 @@ $$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right
 
 **考试技巧：** 判断高分子化合物单体的方法：①若链节中含有双键，可能是共聚物；②将链节断开，还原双键；③注意1,4-加聚和1,2-加聚的区别。
 
+
+```mermaid
+flowchart TD
+    A[Organic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Organic chemistry is like a Lego set with a limited number of brick types but unlimited combinations. Carbon, hydrogen, oxygen, and nitrogen are your basic bricks, and the rules of bonding are your building instructions. Once you understand how these bricks connect, you can build millions of different molecules, just as you can build millions of different structures with Lego.

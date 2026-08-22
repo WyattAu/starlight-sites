@@ -406,6 +406,17 @@ Li Hua
 
 **考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
 
+
+```mermaid
+flowchart TD
+    A[Writing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 English writing on the Gaokao is like following a recipe. The format is the recipe card: it tells you what ingredients (paragraphs) to include and in what order. The introduction appetizer, the body main courses, and the conclusion dessert. Following the recipe ensures you do not forget any essential components.

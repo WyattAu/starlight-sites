@@ -876,6 +876,17 @@ genetic variation.
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
 
+
+```mermaid
+flowchart TD
+    A[2_Cell Structure And Function] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate evidently - skills that are valuable far beyond the classroom.

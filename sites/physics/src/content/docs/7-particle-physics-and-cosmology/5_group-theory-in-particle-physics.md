@@ -230,6 +230,17 @@ $\eta$-$\eta'$ mixing complicates the mass formula significantly.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[5_Group Theory In Particle Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Group theory is the mathematical language that explains why particles come in certain families and why some interactions are allowed while others are forbidden. The Standard Model is built on the symmetry group SU(3) x SU(2) x U(1), and each force corresponds to a gauge symmetry under one of these groups. Representations of the group classify particles: quarks transform as triplets under SU(3) color, while gluons transform as octets. The Gell-Mann matrices are the generators of SU(3), analogous to the Pauli matrices for SU(2). Conserved quantum numbers like charge and strangeness are labels that identify which representation a particle belongs to.

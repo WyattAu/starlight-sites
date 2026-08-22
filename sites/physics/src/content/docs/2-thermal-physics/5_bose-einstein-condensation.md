@@ -153,6 +153,17 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Phase transition | BEC at $T_c$ | No phase transition |
 | High-$T$ limit | Maxwell--Boltzmann | Maxwell--Boltzmann |
 
+
+```mermaid
+flowchart TD
+    A[5_Bose Einstein Condensation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic atoms are cooled below a critical temperature, their thermal de Broglie wavelengths overlap, and a macroscopic fraction collapses into the single lowest-energy quantum state. Unlike a classical gas, where particles are distinguishable and distribute across energies, bosons are indistinguishable and happily occupy the same state. The condensate fraction grows as temperature drops, like snow accumulating on the ground. BEC is a purely statistical phenomenon requiring no interparticle interactions, making it a textbook example of phase transition driven solely by quantum mechanics.

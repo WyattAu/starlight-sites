@@ -184,6 +184,17 @@ pollution, and urban encroachment. Mariculture in sheltered bays produces fish i
 limited by water quality, disease, and typhoon damage. Fishing and mariculture now contribute less
 than 0.1% of GDP and support approximately 10,000 workers.
 
+
+```mermaid
+flowchart TD
+    A[Agriculture] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Agriculture is the original human technology — the first time we stopped chasing food and started making it. The Green Revolution was like upgrading from a hand tool to a power drill: same job, dramatically more output. But intensive farming is a bargain with the soil — you get more crops now but deplete the nutrients that will grow crops later. Urban agriculture is the surprise return of farming to the city, like rooftop gardens and vertical farms that bring the countryside to the skyline. The South China Sea fisheries show what happens when a shared resource has no shared management — everyone takes as much as they can, and the fish disappear.

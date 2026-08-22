@@ -217,6 +217,17 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 ### 3.8 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[3_Series] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A series converges when its partial sums settle down to a finite limit. The challenge is determining this without computing infinitely many terms. Convergence tests are comparison tools: if your series behaves like a known convergent series (geometric, $p$-series), it converges too. The ratio test captures exponential decay of terms — if consecutive terms shrink by a constant factor, the series converges. Conditional convergence is subtle: the alternating harmonic series converges, but rearranging its terms can produce any sum. Absolute convergence is robust: rearrangement preserves the sum. The integral test connects discrete sums to continuous areas, treating the series as a Riemann sum.

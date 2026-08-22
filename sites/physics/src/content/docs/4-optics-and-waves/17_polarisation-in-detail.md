@@ -172,6 +172,17 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+
+```mermaid
+flowchart TD
+    A[17_Polarisation In Detail] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Polarisation describes the direction in which light's electric field oscillates. Unpolarised light has random orientations, but passing it through a polariser selects one direction. Malus's law gives the intensity after a second polariser as proportional to the cosine squared of the angle between them. Birefringent materials split light into two polarisation components that travel at different speeds, creating phase shifts. Circular polarisation occurs when two orthogonal linear components have a quarter-cycle phase difference. Polarisation is used in LCD screens, 3D cinema, and stress analysis, where birefringent patterns reveal mechanical strain.

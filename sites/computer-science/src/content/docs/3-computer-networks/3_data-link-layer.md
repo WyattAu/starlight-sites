@@ -17,6 +17,17 @@ description: 'The data link layer receives a bit stream and divides it into mana
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Data Link Layer] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The data link layer transforms unreliable physical transmission into reliable frame delivery between adjacent nodes. Framing marks where each message begins and ends in the continuous bit stream. Error detection uses redundant bits to catch corruption, while error correction like Hamming codes can fix single-bit errors automatically. MAC addresses provide local addressing, and protocols like CSMA/CD manage shared access to the physical medium. The layer bridges the gap between raw signals and structured data.

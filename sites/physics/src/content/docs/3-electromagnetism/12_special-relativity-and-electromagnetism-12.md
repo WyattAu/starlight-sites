@@ -76,6 +76,17 @@ charge quantisation condition $eg = n\hbar/2$.
 | Force density         | $\rho\mathbf{E} + \mathbf{J}\times\mathbf{B}$ | $f^\mu = F^{\mu\nu}J_\nu$ |
 | Energy-momentum       | $u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$, $\mathbf{S}$ | $T^{\mu\nu}$ |
 
+
+```mermaid
+flowchart TD
+    A[12_Special Relativity And Electromagnetism 12] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Special relativity and electromagnetism are inseparable: Maxwell's equations are already relativistically correct, and the electric and magnetic fields are merely different aspects of a single electromagnetic field tensor. What one observer calls a pure electric field, a moving observer sees as a mixture of electric and magnetic components. The field tensor $F^{\mu\nu}$ packages all six field components into a single mathematical object that transforms cleanly under Lorentz boosts. The Lorentz force law becomes a compact four-vector equation, and the conservation of energy-momentum extends to include field contributions. The key physical picture is that electricity and magnetism are not separate forces but different faces of the same relativistic coin, unified by the geometry of spacetime.

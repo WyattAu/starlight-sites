@@ -154,6 +154,17 @@ $\blacksquare$
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+
+```mermaid
+flowchart TD
+    A[2_Topological Spaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A topological space is what you get when you strip away all the structure you're used to — distances, angles, coordinates — and keep only the idea of "closeness." The only thing you're allowed to know is which points are near which other points, encoded by the collection of open sets. Think of it like a city where you can't measure distances but you can ask "is this neighbourhood near that neighbourhood?" The three axioms (empty set and whole space are open, arbitrary unions are open, finite intersections are open) are the minimum rules that make the concept of "nearness" behave consistently. Without them, you can't even define what it means for a function to be continuous.

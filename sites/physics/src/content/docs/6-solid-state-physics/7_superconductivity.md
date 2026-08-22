@@ -151,6 +151,17 @@ The Josephson effects are the basis for SQUIDs, voltage standards, and supercond
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+
+```mermaid
+flowchart TD
+    A[7_Superconductivity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons form Cooper pairs through interactions with the crystal lattice, and these pairs condense into a single quantum state that flows without scattering. The Meissner effect expels magnetic fields from the superconductor, creating the levitation effect. The BCS theory explains conventional superconductors, but high-temperature superconductors remain poorly understood, with theories involving spin fluctuations and stripe phases. The critical temperature record keeps rising, bringing us closer to room-temperature superconductivity, which would revolutionize power transmission and computing.

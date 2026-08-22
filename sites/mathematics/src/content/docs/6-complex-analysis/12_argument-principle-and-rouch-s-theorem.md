@@ -168,6 +168,17 @@ The argument principle requires that $f$ has no zeros or poles on the contour $\
 **Mistake 5: Misapplying Rouché's theorem to non-analytic functions.**
 Rouché's theorem requires that $f$ and $g$ be analytic inside and on the contour. If either function is not analytic, the theorem does not apply. Always verify analyticity before using Rouché's theorem.
 
+
+```mermaid
+flowchart TD
+    A[12_Argument Principle And Rouch S Theorem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The argument principle counts zeros and poles of a function by tracking how much its image winds around the origin as you traverse a contour. Imagine walking around a lake and counting how many times the shoreline loops around you: each loop corresponds to a zero inside. Rouche's theorem turns this into a practical tool: if two functions are close enough on a boundary, they have the same number of zeros inside. This is like checking whether two magnets have the same strength by measuring their pull at the boundary. It is used to locate roots of polynomials and eigenvalues of matrices.

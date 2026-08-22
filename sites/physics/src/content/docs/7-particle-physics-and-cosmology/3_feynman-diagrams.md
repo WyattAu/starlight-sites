@@ -204,6 +204,17 @@ Regularisation is a Temporary scaffold; renormalization is the essential step th
 physical predictions.
 :::
 
+
+```mermaid
+flowchart TD
+    A[3_Feynman Diagrams] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Feynman diagrams are like sheet music for particle interactions. Each note represents a particle, and the melody is the process unfolding in time. An electron does not just fly straight: it is constantly emitting and reabsorbing virtual photons, and those photons can briefly split into particle-antiparticle pairs. Feynman diagrams let you organize these contributions by complexity. The simplest diagram (tree level) is the main melody; each additional loop is a finer correction, like adding harmony. The rules translate each visual element into a mathematical expression: straight lines for fermions, wavy lines for photons, and vertices for interactions. The sum of all diagrams gives the total amplitude. Renormalization is like retuning an instrument: the raw calculations produce infinities from loops, but these infinities can be absorbed into redefined physical parameters, leaving finite predictions that match experiment to extraordinary precision.

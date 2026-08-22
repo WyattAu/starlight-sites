@@ -173,6 +173,17 @@ $$X^0 = K^0 = d\bar{s}$$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_The Standard Model] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Standard Model is like a periodic table for fundamental particles. It tells you the alphabet of the universe: quarks make up protons and neutrons, leptons include the electron and neutrinos, and gauge bosons are the messengers that carry forces between them. The gauge symmetry principle is like requiring the laws of physics to look the same regardless of how you label your coordinate system at each point in space: this requirement forces the existence of force-carrying particles. The Higgs mechanism is like molasses that particles have to push through: some interact strongly with it and become heavy, while others pass through freely and remain massless. The three generations of matter are copies of the same template at increasing mass, as if nature made two backup copies of the original design. The Standard Model is stunningly successful but incomplete: it does not include gravity, does not explain dark matter or dark energy, and does not account for the matter-antimatter asymmetry of the universe.

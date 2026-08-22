@@ -550,6 +550,17 @@ Use the `nothrow` variant when exceptions are undesirable.
 - **Module 10 (Ownership and RAII)**: RAII pattern for managing dynamic storage duration
 - **Module 13 (Error Handling)**: Exception safety during object construction and destruction
 
+
+```mermaid
+flowchart TD
+    A[1_Storage_Durationx] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Storage duration determines when an object's lifetime begins and ends. Automatic storage (stack variables) is like borrowing tools from a shared workshop: they appear when you start working and vanish when you leave. Static storage persists for the entire program, like permanent fixtures in a building. Dynamic storage (heap) is like renting a storage unit: you choose when to acquire and release it, but you must remember to return the key or the space leaks.

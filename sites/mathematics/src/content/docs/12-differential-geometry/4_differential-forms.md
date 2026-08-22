@@ -149,6 +149,17 @@ The product rule for the exterior derivative is $d(\alpha \wedge \beta) = d\alph
 **Mistake 3: Assuming $d^2 = 0$ means every closed form is exact on any manifold**
 The Poincare lemma guarantees that closed forms are exact only on contractible (or star-shaped) domains. On manifolds with nontrivial topology like $S^1$ or $S^2$, there exist closed forms that are not exact. For example, the angular form $d\theta$ on $S^1$ is closed but not exact.
 
+
+```mermaid
+flowchart TD
+    A[4_Differential Forms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Differential forms are the natural objects to integrate on manifolds. A 0-form is a function, a 1-form is something you integrate along a curve (like work done by a force), a 2-form is something you integrate over a surface (like flux), and a 3-form is something you integrate over a volume. The exterior derivative $d$ increases the degree by one and encodes differentiation: $df$ is the gradient, $d$ of a 1-form is the curl, and $d$ of a 2-form is the divergence. The fundamental identity $d^2 = 0$ unifies the vector calculus identities $\nabla \times \nabla f = 0$ and $\nabla \cdot (\nabla \times \mathbf{F}) = 0$. Stokes' theorem generalises the fundamental theorem of calculus to manifolds.

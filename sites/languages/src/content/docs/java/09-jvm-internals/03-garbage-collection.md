@@ -829,6 +829,17 @@ linked above.
 - **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Thread-safe memory access and GC pause impact on concurrent applications.
 - **[I/O and NIO](../10-io-nio/01-io-nio.md):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
 
+
+```mermaid
+flowchart TD
+    A[03 Garbage Collection] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Garbage collection frees you from manually managing memory, but understanding how it works helps you write code that works *with* the collector instead of against it. The core insight of generational GC is that most objects die young. By separating short-lived objects (young generation) from long-lived ones (old generation), the collector can run frequent, fast scans on the small young generation while doing expensive full collections rarely on the old generation. This matches real-world allocation patterns where temporary buffers, iterators, and intermediate results are created and discarded constantly.

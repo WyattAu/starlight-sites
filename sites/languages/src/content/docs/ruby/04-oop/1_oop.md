@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Oop] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Object-oriented programming organises code around objects that bundle data with behaviour. Ruby implements OOP through classes, but everything is an object including classes themselves, enabling powerful reflection. Inheritance builds specialised types from general ones, and mixins through modules provide code reuse without the diamond problem of multiple inheritance. Encapsulation hides implementation details behind public interfaces, and polymorphism lets different objects respond to the same message in their own way.

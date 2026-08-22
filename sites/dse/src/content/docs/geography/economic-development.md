@@ -208,6 +208,17 @@ service-economy skills), income inequality (bifurcation between high-skill, high
 low-wage jobs), spatial redistribution of manufacturing to periphery regions, and economic
 vulnerability to financial crises in service-dominated economies.
 
+
+```mermaid
+flowchart TD
+    A[Economic Development] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Economic development is the process of climbing a ladder — each rung represents higher productivity, better jobs, and more choice. South China's Pearl River Delta went from rice paddies to factory floors to tech hubs in a single generation, which is like watching a caterpillar become a butterfly in fast-forward. The Belt and Road Initiative is China building new roads to new markets — like a shopkeeper expanding to new neighbourhoods. The transition from manufacturing to services is inevitable as economies mature, but the challenge is making sure the workers left behind by factories are picked up by offices, not dropped.

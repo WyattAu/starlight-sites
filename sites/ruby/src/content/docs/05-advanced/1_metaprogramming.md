@@ -913,6 +913,17 @@ class Employee
   def_delegators :@work_info, :department, :salary
 end
 
+
+```mermaid
+flowchart TD
+    A[1_Metaprogramming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Ruby metaprogramming is like being a playwright who writes new scenes during the performance. When you define a method dynamically with define_method, you are creating a new role for an actor while the show is running. This power comes with responsibility: if you are not careful, you can confuse the stage crew (debugging tools) and the audience (other developers).

@@ -253,6 +253,17 @@ The **buffer pool** caches frequently accessed disk pages in memory. Replacement
 LRU, Clock, and variants. PostgreSQL uses a Clock sweep algorithm; MySQL InnoDB uses an LRU variant
 with a Midpoint insertion strategy to avoid scan pollution.
 
+
+```mermaid
+flowchart TD
+    A[6_Transaction Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Transaction management guarantees that database operations follow the ACID properties: Atomicity (all or nothing), Consistency (rules are never violated), Isolation (concurrent transactions do not interfere), and Durability (committed data survives crashes). Think of a transaction as a contract: either all terms are fulfilled or none are, and no partial agreement is acceptable. The two-phase commit protocol is like a wedding ceremony: everyone prepares, then either everyone says "I do" simultaneously or the ceremony is called off.

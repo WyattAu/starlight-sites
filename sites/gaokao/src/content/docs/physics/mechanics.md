@@ -320,6 +320,17 @@ $$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
 
 **考试技巧：** 功能关系问题通常选择全过程应用动能定理，可以避免分析中间过程的细节。
 
+
+```mermaid
+flowchart TD
+    A[Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Mechanics is like understanding how things move and why. Forces are like pushes and pulls: gravity pulls you down, friction slows you down, and normal force pushes back when you stand on a surface. Newton's laws are the rules of the game: every push has an equal and opposite push back.

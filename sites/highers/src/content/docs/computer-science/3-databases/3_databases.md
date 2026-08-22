@@ -773,6 +773,17 @@ See the examples integrated throughout the sections above.
 - [Hardware](../../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware) explains the storage and processing architecture that determines database performance characteristics.
 - [Algorithms](../4-algorithms/4_algorithms) provides the sorting, searching, and graph algorithms used in database query optimisation.
 
+
+```mermaid
+flowchart TD
+    A[3_Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A database is like a library with a very strict librarian -- every book has a unique call number (primary key), is filed in a specific section (tables), and the librarian knows exactly where everything is (indexing). Normalisation is the process of organising the library so that each fact is stored in exactly one place -- you do not want the same address written on ten different forms. SQL is the language you use to ask the librarian for information, and joins are how you combine information from different sections to answer complex questions. The trade-off is between normalised design (clean, consistent) and denormalised design (fast, redundant).

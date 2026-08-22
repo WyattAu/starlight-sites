@@ -310,6 +310,17 @@ $$\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1$$
 
 **考试技巧：** 函数图像变换遵循"左加右减，上加下减"原则。注意平移是针对 $x$ 还是整个函数。
 
+
+```mermaid
+flowchart TD
+    A[Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Functions are like vending machines. You put in a specific amount of money (input), press a button (the function), and get a specific snack (output). The same input always gives the same output, which is why functions are predictable and useful. Domain is the set of coins the machine accepts; range is the set of snacks it can dispense.

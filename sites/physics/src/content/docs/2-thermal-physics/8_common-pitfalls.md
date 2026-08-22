@@ -162,6 +162,17 @@ is a key signature of a Fermi liquid. $\blacksquare$
   $\mu = \varepsilon_F$ at all temperatures leads to errors in the electronic heat capacity
   calculation.
 
+
+```mermaid
+flowchart TD
+    A[8_Common Pitfalls] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Thermodynamic pitfalls arise from confusing mathematical formalism with physical meaning. Natural variables are not arbitrary labels but determine which potential is minimized under given conditions. The chemical potential measures the energy cost of adding a particle, like a admission price. Phase transitions can be first-order (discontinuous, with latent heat) or continuous (no latent heat, but diverging susceptibilities). Metastable states like supercooled water are thermodynamically unstable but kinetically trapped, like a ball stuck in a shallow dip on a slope.

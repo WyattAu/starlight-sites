@@ -226,6 +226,17 @@ Strong passages operate on multiple levels simultaneously. A passage may:
 3. Explain how each strategy serves the author's purpose and affects the audience
 4. Organise by analytical point (not by chronological order)
 
+
+```mermaid
+flowchart TD
+    A[4_Close Reading] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Close reading is about **what the text actually says and how it says it** — not what you think it means or what the author intended. Every word, every punctuation mark, every structural choice is evidence. The goal is to build an interpretation from specific textual details.

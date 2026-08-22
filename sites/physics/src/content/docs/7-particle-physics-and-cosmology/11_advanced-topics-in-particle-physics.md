@@ -208,6 +208,17 @@ ps$^{-1}$Because $|V_{ts}| > |V_{td}|$.
 | $V_{cb}$ and $V_{ub}$ determination | Semileptonic $B$ decays | Belle II, LHCb |
 | Oscillation frequency search | High-$p_T$ $b$-jets produce $B$ mesons that oscillate | LHCb, CMS |
 
+
+```mermaid
+flowchart TD
+    A[11_Advanced Topics In Particle Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Advanced particle physics explores the frontier where the Standard Model meets unknown territory. Grand unified theories attempt to merge the strong, weak, and electromagnetic forces into a single framework, predicting proton decay that experiments have not yet observed. Supersymmetry proposes a partner particle for every known particle, potentially solving the hierarchy problem and providing dark matter candidates. String theory replaces point particles with vibrating strings, requiring extra dimensions. These ideas are mathematically elegant but experimentally elusive, representing our best guesses at physics beyond the Standard Model.

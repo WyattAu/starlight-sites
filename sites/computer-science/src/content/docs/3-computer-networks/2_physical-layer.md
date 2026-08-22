@@ -17,6 +17,17 @@ description: "Twisted pair (UTP, STP), coaxial cable, fibre optic. Comprehensive
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Physical Layer] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The physical layer deals with transmitting raw bits over a physical medium. Bandwidth determines how many signal changes per second a channel can carry, while noise limits how many distinct signal levels can be reliably distinguished. The Nyquist theorem bounds the maximum bit rate for noiseless channels, and Shannon's theorem extends this to noisy channels by incorporating signal-to-noise ratio. These fundamental limits apply regardless of the encoding scheme or technology used.

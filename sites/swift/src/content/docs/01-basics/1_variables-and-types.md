@@ -682,6 +682,17 @@ let handler: CompletionHandler = { result in
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Variables And Types] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Swift's type inference is like a smart assistant who figures out what you mean without you having to explain everything. When you write let x = 5, Swift knows x is an Int without you saying so. This is like a friend who understands your shorthand: you say grab the thing, and they know exactly which thing you mean.

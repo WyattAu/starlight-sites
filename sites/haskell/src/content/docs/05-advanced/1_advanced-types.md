@@ -663,6 +663,17 @@ data Person = Person
 7. **Document kind signatures** when working with DataKinds.
 8. **Use Template Haskell sparingly**: it can make code harder to read and debug.
 
+
+```mermaid
+flowchart TD
+    A[1_Advanced Types] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Phantom types are like invisible labels. They add type information without adding runtime data. A phantom type parameter does not appear in the value, but the compiler uses it to enforce constraints at compile time. This is like having a secret code that only the compiler can read.

@@ -61,6 +61,17 @@ Students study a body of literary works connected by a specific theme, genre, or
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Language And Literature] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Language and literature are like two sides of the same coin — one studies how language works, the other studies what language creates:** Understanding how language shapes meaning is essential for analyzing texts and crafting effective communication

@@ -105,6 +105,17 @@ Reflective students thoughtfully consider the world and their own ideas and expe
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[The Learner Profile] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **The IB learner profile is like a compass — it guides students toward becoming well-rounded, ethical, and engaged global citizens:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become

@@ -182,6 +182,17 @@ The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occ
 - **[Fourier Optics](./7_fourier-optics.md)**: Develops the 4f imaging system, optical transfer function, and spatial filtering applications that build on the Fourier transform framework.
 - **[Coherence](./15_coherence-theory.md)**: The coherence properties of the source determine whether the Fourier transform relationship between aperture and far-field pattern is valid.
 
+
+```mermaid
+flowchart TD
+    A[14_Fourier Optics 10] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Fourier optics reveals that diffraction is fundamentally a frequency decomposition. When light passes through an aperture, the far-field pattern is the spatial frequency content of that aperture shape. A narrow slit has broad frequency content, producing a wide diffraction pattern. The convolution theorem explains why grating patterns combine: multiplying apertures convolves their patterns. This is why a double-slit produces interference fringes modulated by the single-slit envelope. The lens performs a physical Fourier transform, converting spatial information into angular information at its focal plane.

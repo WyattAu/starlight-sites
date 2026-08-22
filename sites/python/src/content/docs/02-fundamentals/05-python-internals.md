@@ -881,6 +881,17 @@ Signal processing), an unexpected GC pause can cause deadline misses. Profile yo
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+```mermaid
+flowchart TD
+    A[05 Python Internals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Python internals are the machinery beneath the syntax. CPython compiles source to bytecode, which the interpreter executes. Names are references to objects, not the objects themselves. The Global Interpreter Lock (GIL) ensures only one thread executes Python bytecode at a time, which simplifies memory management but limits CPU-bound parallelism. Understanding these internals explains why `is` and `==` behave differently, why small integers are cached, and why `del` does not always free memory immediately.

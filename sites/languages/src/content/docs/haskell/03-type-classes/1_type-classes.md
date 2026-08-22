@@ -687,6 +687,17 @@ types that are `Functor` or `Applicative` but not `Monad`:
 -- They are more general (less powerful but more widely applicable)
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Type Classes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Type classes are skills badges, not family trees:** In OOP, interfaces live inside the class hierarchy — you must declare "I implement this interface" at definition time. In Haskell, type classes are external skill badges: any type can earn the `Eq` badge, the `Show` badge, or the `Ord` badge, regardless of where it was defined or what its ancestors are. The compiler acts as the HR department, checking that every type used in a context has the right badges.

@@ -409,6 +409,17 @@ D. confusion
 
 **考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。
 
+
+```mermaid
+flowchart TD
+    A[Reading] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 English reading comprehension on the Gaokao is like solving a puzzle. Each question asks you to find a specific piece of information in the text, and the challenge is locating it quickly among many sentences. Skimming is like scanning the puzzle box for the right color; scanning is like looking for the specific shape of the piece you need.

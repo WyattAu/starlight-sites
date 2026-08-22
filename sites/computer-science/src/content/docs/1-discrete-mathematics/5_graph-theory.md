@@ -358,6 +358,17 @@ The **Ford--Fulkerson method** repeatedly finds augmenting paths in the residual
 Flow along them. When capacities are integers, each augmentation increases the flow by at least 1,
 Guaranteeing termination.
 :::
+
+```mermaid
+flowchart TD
+    A[5_Graph Theory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Graph theory studies networks of vertices connected by edges. Paths, cycles, and connectivity describe graph structure. Trees are connected acyclic graphs, fundamental for hierarchies and search. Planar graphs can be drawn without edge crossings. Graph coloring assigns labels satisfying constraints, modeling scheduling and resource allocation. Euler and Hamiltonian paths visit edges or vertices exactly once, connecting to classic optimization problems.

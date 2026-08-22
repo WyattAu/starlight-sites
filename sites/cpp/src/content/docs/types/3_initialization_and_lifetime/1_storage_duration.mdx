@@ -489,6 +489,17 @@ Config global_config;
 The Construct On First Use idiom also solves the destruction order problem: function-local statics
 Are destroyed in reverse order of their **first access**, not their declaration.
 
+
+```mermaid
+flowchart TD
+    A[1_Storage_Durationx] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **How long data lives:** Storage duration is like the lease on an apartment — it determines how long an object exists and where it can be accessed.

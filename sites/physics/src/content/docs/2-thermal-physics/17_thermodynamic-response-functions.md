@@ -313,6 +313,17 @@ to $\epsilon_F$. There are no particle number fluctuations: $\langle(\Delta N)^2
 Physically, this is because adding or removing a particle costs a finite energy $\epsilon_F$ So the
 chemical potential is infinitely sharp.
 
+
+```mermaid
+flowchart TD
+    A[17_Thermodynamic Response Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Thermodynamic response functions measure how a system reacts to small changes in its environment. Heat capacity tells you how much energy is needed to raise the temperature, reflecting how many microscopic degrees of freedom are active. The compressibility measures how much a system shrinks under pressure, revealing the stiffness of interparticle interactions. Magnetic susceptibility shows how strongly a material magnetizes in response to an applied field. These response functions are not independent: Maxwell relations connect them through second derivatives of thermodynamic potentials, encoding the deep consistency of thermodynamics. Fluctuation-response theorems link the magnitude of spontaneous fluctuations to the corresponding response function, connecting equilibrium statistics to nonequilibrium behavior.

@@ -154,6 +154,17 @@ $$\sum_i (\mathbf{F}_i - m_i\ddot{\mathbf{r}}_i) \cdot \delta\mathbf{r}_i = 0$$
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[2_Generalised Coordinates And Constraints] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Generalised coordinates are the minimum number of independent parameters needed to describe a system's configuration. A pendulum needs only one angle, not two Cartesian coordinates. Constraints are the rules that reduce the degrees of freedom, like a bead confined to a wire. Holonomic constraints can be written as equations, making them mathematically tractable. D'Alembert's principle extends virtual work to dynamics by treating inertia as a fictitious force. This insight leads directly to Lagrangian mechanics, where constraint forces disappear entirely because they do no virtual work.

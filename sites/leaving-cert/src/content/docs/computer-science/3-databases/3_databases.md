@@ -706,6 +706,17 @@ Small re-identification risk.
 4. A company stores customer data including names, addresses, purchase history, and payment
     details. Explain which data protection principles apply and how they should be implemented.
 
+
+```mermaid
+flowchart TD
+    A[3_Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A database is like a filing system with superpowers -- it stores data efficiently, enforces consistency, and lets you query it in powerful ways. SQL is the language of questions: SELECT is asking, WHERE is filtering, JOIN is combining, and GROUP BY is summarising. Normalisation is the art of eliminating redundancy -- like making sure every fact is stored in exactly one place so that updating it once updates it everywhere. The trade-off is between clean design (normalised) and fast queries (denormalised). Understanding this trade-off is the key to practical database design.

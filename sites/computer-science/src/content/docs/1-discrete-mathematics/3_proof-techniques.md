@@ -182,6 +182,17 @@ $\blacksquare$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[3_Proof Techniques] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Proof techniques establish mathematical truth. Direct proof assumes premises and derives conclusions. Proof by contradiction assumes the negation and finds a contradiction. Mathematical induction proves statements for all natural numbers by showing a base case and inductive step. These techniques are essential for verifying algorithm correctness, proving complexity bounds, and establishing security properties.

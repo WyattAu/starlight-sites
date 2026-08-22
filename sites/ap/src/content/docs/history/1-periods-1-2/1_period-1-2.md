@@ -170,6 +170,17 @@ Encomienda system, Columbian Exchange, headright system, House of Burgesses, May
 Puritan, Quaker, mercantilism, Navigation Acts, Middle Passage, Great Awakening, Stono Rebellion,
 Bacon's Rebellion, King Philip's War, triangular trade, chattel slavery
 
+
+```mermaid
+flowchart TD
+    A[1_Period 1 2] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Periods 1-2 (1491-1754) establish the **foundations of American diversity**. Before European contact, the Americas contained hundreds of distinct societies with different economies, governance systems, and cultures. European colonisation didn't create a single "American" society — it created a collision of multiple worlds.

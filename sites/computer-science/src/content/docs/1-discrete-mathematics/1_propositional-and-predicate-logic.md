@@ -334,6 +334,17 @@ AI planning. Modern solvers routinely handle instances with millions of variable
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
 :::
+
+```mermaid
+flowchart TD
+    A[1_Propositional And Predicate Logic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Logic is the foundation of mathematical reasoning and computer science. Propositional logic deals with truth values and connectives (AND, OR, NOT, IMPLIES). Predicate logic adds quantifiers (FOR ALL, EXISTS) to reason about properties of objects. Boolean algebra provides the mathematical framework for digital circuits. Understanding logic helps you write precise specifications and verify program correctness.

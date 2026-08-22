@@ -156,6 +156,17 @@ Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
 - **Signal processing:** The Laplace and Fourier transforms rely on contour integration techniques derived from Cauchy's theorem.
 - **Number theory:** Contour integrals related to the Riemann zeta function use Cauchy's theorem to establish properties of prime number distribution.
 
+
+```mermaid
+flowchart TD
+    A[5_Cauchy S Theorem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Cauchy's theorem says the integral of an analytic function around a closed contour is zero, provided the function is analytic everywhere inside. This is the complex analogue of a conservative force field in physics: going in a circle returns you to the same potential. The intuition is that analytic functions have no sources or sinks inside the domain, so there is nothing to create a net circulation. Deforming the contour does not change the integral as long as you avoid singularities. This theorem is the foundation for the residue theorem and the entire edifice of complex integration.

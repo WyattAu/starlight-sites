@@ -727,6 +727,17 @@ myReverse = go []
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
 
+
+```mermaid
+flowchart TD
+    A[1_Pattern Matching] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Pattern matching in Haskell is like sorting mail into pigeonholes. Each pattern is a pigeonhole with a specific shape, and each value is a piece of mail. The compiler tries to fit the mail into each hole in order, and the first hole that fits determines where the mail goes. This is how Haskell chooses which function clause to execute.

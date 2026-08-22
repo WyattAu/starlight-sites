@@ -281,6 +281,17 @@ few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to m
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[4_Combinatorics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Combinatorics counts and structures discrete objects. Permutations arrange objects in order. Combinations select objects without order. The pigeonhole principle guarantees duplicates when distributing more items than containers. These counting techniques appear in algorithm analysis (how many operations?), probability (what's the likelihood?), and cryptography (how many possible keys?). Generating functions encode counting sequences as algebraic expressions.

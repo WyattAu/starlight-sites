@@ -204,6 +204,17 @@ interaction is a Consequence of the Coulomb repulsion combined with the antisymm
 wave function (Pauli principle), and is $10$--$100$ meV.
 :::
 
+
+```mermaid
+flowchart TD
+    A[10_Magnetism In Solids] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Magnetism in solids arises from the alignment of electron spins and orbital angular momenta. Diamagnetism is universal: every material develops a weak opposing magnetization when placed in a magnetic field, like a spring pushing back. Paramagnetism requires unpaired electrons whose spins can align with the field, overcoming thermal randomness. Ferromagnetism occurs when exchange interactions lock neighboring spins into parallel alignment, creating spontaneous magnetization below the Curie temperature. Antiferromagnetism has neighboring spins pointing opposite, canceling out. Ferrimagnetism has unequal opposing spins, producing a net magnetization. The exchange interaction is purely quantum mechanical, arising from the overlap of electron wavefunctions and the Pauli exclusion principle.

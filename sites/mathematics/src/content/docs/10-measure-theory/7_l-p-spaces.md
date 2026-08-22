@@ -171,6 +171,17 @@ Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
+
+```mermaid
+flowchart TD
+    A[7_L P Spaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 $L^p$ spaces formalise the idea of "how big" a function is by integrating its $p$-th power. The $L^2$ space is the familiar Hilbert space of square-integrable functions — the setting for Fourier analysis and quantum mechanics. For $p \neq 2$, there is no inner product, only the norm. The key trade-off: larger $p$ penalises peaks more harshly, so $L^\infty$ measures the essential supremum (the worst-case value). Minkowski's inequality is the triangle inequality for these spaces, and Hölder's inequality controls how products of functions behave. The Riesz-Fischer theorem — $L^p$ is complete — is what makes integration theory work: Cauchy sequences of functions actually converge to a function.

@@ -688,6 +688,17 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 - [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency.md)
   -- virtual thread memory characteristics
 
+
+```mermaid
+flowchart TD
+    A[01 Class Loading Memory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The JVM class loading system works like a chain of trust. When your code needs a class, the request travels up to the bootstrap loader, which loads core Java classes. Only if the parent cannot find it does the child try. This prevents malicious code from replacing trusted classes. The memory model ensures that all threads see a consistent view of shared data through happens-before relationships, like agreed-upon rules for how information flows between workers in different rooms.

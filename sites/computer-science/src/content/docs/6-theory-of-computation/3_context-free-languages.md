@@ -17,6 +17,17 @@ description: "Context-Free Languages: comprehensive educational content notes wi
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Context Free Languages] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Context-free languages extend regular languages by adding **memory through a stack**. This enables matching nested structures: balanced parentheses, matching begin/end blocks in programming languages, and arithmetic expressions. A pushdown automaton is essentially a finite automaton with a stack — it can count, but only one thing at a time.

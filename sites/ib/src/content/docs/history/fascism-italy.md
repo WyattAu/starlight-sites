@@ -230,6 +230,17 @@ For IB Paper 2, Fascist Italy is examined under **Topic 3 (Authoritarian States)
 - Draw comparisons with other authoritarian regimes where the question permits.
 - Use precise evidence: dates, statistics, and specific examples of policy implementation.
 
+
+```mermaid
+flowchart TD
+    A[Fascism Italy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Fascism is like a political chameleon -- it changed its colours to match whatever audience it needed to seduce. Mussolini's genius was positioning Fascism as the antidote to both liberal capitalism and Bolshevism, offering national solidarity as an alternative to class warfare. But the corporate state was largely theatre: behind the rhetoric of class collaboration lay the reality of employer dominance and worker suppression. Comparing Italy with Germany and the USSR reveals that authoritarian regimes share surface features (one-party state, leader cult, terror) but differ fundamentally in their coherence, efficiency, and ideological depth. Mussolini's Fascism was always more spectacle than substance.

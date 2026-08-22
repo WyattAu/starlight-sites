@@ -1152,6 +1152,17 @@ debug &&= false  # debug is still false, no change
   mode = ENV.key?("DEBUG") ? :debug : :production
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Control Flow] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Ruby's if/unless are like two sides of a coin. If is the standard choice: do something when a condition is true. Unless is the contrarian: do something when a condition is false. Using unless with a negative condition is like saying do not not do something, which is confusing. The golden rule: use unless only when it makes the code clearer, not just shorter.

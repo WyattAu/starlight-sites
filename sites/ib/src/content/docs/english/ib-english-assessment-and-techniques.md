@@ -184,6 +184,17 @@ Author's purpose, the text's relationship to its context, or the larger themes i
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Ib English Assessment And Techniques] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **IB English assessment is like a performance — you must demonstrate understanding through careful analysis, clear writing, and insightful interpretation:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts

@@ -316,6 +316,17 @@ $$h = \sum_j \dot{q}_j \frac{\partial T}{\partial \dot{q}_j} - T + V = 2T - T + 
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[3_Lagrangian Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Lagrangian formulation is like giving nature a GPS route planner. Instead of tracking every force individually, you describe the landscape of kinetic and potential energy, and nature automatically picks the path that makes the action stationary. Think of a ball rolling down a hill: you do not need to compute each force component if you know the shape of the terrain. The Lagrangian L = T - V encodes this terrain, and the Euler-Lagrange equations are nature's optimization algorithm. Cyclic coordinates are like flat stretches of the landscape where nothing changes in a particular direction, so the corresponding momentum stays constant. The whole framework is coordinate-independent, meaning you can describe the same physical system using any convenient set of variables without changing the physics.

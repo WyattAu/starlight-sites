@@ -818,6 +818,17 @@ java -XX:+UseZGC \
      -jar microservice.jar
 ```
 
+
+```mermaid
+flowchart TD
+    A[03 Garbage Collection] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Garbage collection is the JVM's automatic memory manager. It traces from GC roots (stack variables, static fields, JNI references) to find all reachable objects, then reclaims memory from unreachable ones. The generational hypothesis says most objects die young, so the heap is split into young and old generations. The young generation uses a copying collector for speed, while the old generation uses a mark-sweep-compact collector for space efficiency. The goal is to maximize throughput while keeping pause times short.

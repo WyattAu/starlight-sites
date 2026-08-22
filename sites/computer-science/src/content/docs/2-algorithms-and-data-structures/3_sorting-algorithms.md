@@ -260,6 +260,17 @@ and cannot sort arbitrary objects.
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
 :::
 
+
+```mermaid
+flowchart TD
+    A[3_Sorting Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Sorting is arranging data in a specific order. It is one of the most studied problems in computer science because so many other problems reduce to sorting. Comparison-based sorts (merge sort, quicksort) cannot do better than O(n log n) in the worst case, because each comparison eliminates only one possibility. Non-comparison sorts (counting sort, radix sort) can achieve O(n) but only work on specific data types. The choice of algorithm depends on your data: nearly sorted data favours insertion sort, random data favours quicksort, and guaranteed O(n log n) favours merge sort.

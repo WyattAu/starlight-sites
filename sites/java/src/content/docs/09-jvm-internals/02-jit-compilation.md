@@ -632,6 +632,17 @@ Compiled (use `-XX:+PrintCompilation`).
   -- JIT behavior with virtual threads
 - [Style and Patterns](../07-best-practices/01-style-and-patterns.md) -- writing JIT-friendly code
 
+
+```mermaid
+flowchart TD
+    A[02 Jit Compilation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The JIT compiler is like a chef who starts by following a recipe exactly (interpretation) but then starts improvising shortcuts after making the dish many times (compilation). The JVM watches which methods are called frequently and optimizes those hot paths into native machine code. Deoptimization is the safety net: if the JIT's assumptions prove wrong, it bails back to interpretation. This adaptive approach combines fast startup with peak performance.

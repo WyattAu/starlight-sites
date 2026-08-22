@@ -139,6 +139,17 @@ Distributions and their connection to functional analysis:
 The evolution of functional analysis demonstrates how abstract mathematical frameworks can
 unify diverse areas and provide powerful tools for applications across physics and engineering.
 
+
+```mermaid
+flowchart TD
+    A[8_Historical Context] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Functional analysis grew from a simple observation: many different mathematical problems look identical once you strip away the specifics. Integral equations, quantum states, and signal processing all involve vectors in infinite-dimensional spaces and linear maps between them. Hilbert, Banach, and von Neumann realised that studying the abstract structure of these spaces reveals truths no single concrete example could show. The Scottish Cafe in Lwow was where mathematicians gathered to pose problems over coffee, building a collective intelligence that shaped the field. The journey from integral equations to quantum mechanics shows how abstract frameworks become indispensable tools for understanding nature.

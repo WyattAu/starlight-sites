@@ -651,6 +651,17 @@ data Person = Person
 -- deriveJSON defaultOptions ''Person
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Advanced Types] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Types are equations, not just labels:** In Haskell, algebraic data types are literally algebra — `Maybe Bool` has 3 values (like the equation 1 + 2 = 3), and `Either Bool ()` has 3 values (2 + 1 = 3). This mathematical foundation means you can reason about your type system *arithmetically*. GADTs are like functions that return different types depending on the input — a type-level if-else. Phantom types are invisible stamps that the compiler tracks but the runtime ignores — you can tag a value with `Safe` or `Unsafe` at compile time without any runtime cost.

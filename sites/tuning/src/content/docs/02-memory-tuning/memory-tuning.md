@@ -1094,6 +1094,17 @@ If four-DIMM stability is poor:
 - Relax secondary timings (tFAW, tRRD).
 - Ensure DIMMs in slots A2/B2 match and DIMMs in A1/B1 match.
 
+
+```mermaid
+flowchart TD
+    A[Memory Tuning] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of memory tuning, including underlying theory, practical

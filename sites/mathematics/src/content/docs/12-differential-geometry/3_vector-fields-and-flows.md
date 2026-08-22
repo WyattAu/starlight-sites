@@ -141,6 +141,17 @@ $$[X, Y]^2 = y\frac{\partial(x)}{\partial x} - 0\frac{\partial(0)}{\partial x} +
 So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\Phi_t^X(x,y) = (x+yt, y)$
 (shear), $\Phi_s^Y(x,y) = (x, y+xs)$ (shear). These do not commute. $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[3_Vector Fields And Flows] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A vector field is like a wind pattern on the Earth's surface, assigning a direction and speed to every point. The flow is what happens when you release a leaf: it traces a path following the local arrows. Gentle winds produce eternal journeys, but violent fields can fling particles to infinity in finite time. The Lie bracket of two vector fields captures how their flows disagree: flowing along one then the other, versus the reverse order, produces different results precisely when the bracket is nonzero. This is the geometric heart of non-commutativity.

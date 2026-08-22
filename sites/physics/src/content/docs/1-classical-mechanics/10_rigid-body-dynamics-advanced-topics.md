@@ -191,6 +191,17 @@ steady precession and topples.
   axis spontaneously flips 180° periodically, visible in microgravity. This confirms the
   instability of intermediate-axis rotation predicted by Euler's equations.
 
+
+```mermaid
+flowchart TD
+    A[10_Rigid Body Dynamics Advanced Topics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Rigid body dynamics describes how extended objects rotate, where the distribution of mass matters as much as the total mass. The moment of inertia generalizes mass to rotation, depending on how far the mass is distributed from the axis. Euler's equations govern free rotation: a body spinning about its fastest or slowest axis is stable, but rotation about the intermediate axis is unstable, causing the Dzhanibekov flipping effect. A spinning top precesses because gravity exerts a torque that changes the angular momentum direction without changing its magnitude. Nutation adds a wobble on top of precession, arising from the competition between gravitational torque and gyroscopic stiffness.

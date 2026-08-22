@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Concurrency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Parallel processing in Haskell:** Haskell's concurrency model is like having multiple workers — lightweight threads (forkIO) communicate through shared variables (MVar) to coordinate tasks.

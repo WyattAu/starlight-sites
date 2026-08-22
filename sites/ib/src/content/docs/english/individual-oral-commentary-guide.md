@@ -91,6 +91,17 @@ the teacher might select.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Individual Oral Commentary Guide] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **The IOC is like a live concert — you must perform your analysis in real time, demonstrating fluency and deep understanding:** Effective commentary requires balancing textual evidence with interpretation, delivered with confidence and clarity

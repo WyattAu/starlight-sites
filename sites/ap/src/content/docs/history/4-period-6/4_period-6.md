@@ -210,6 +210,17 @@ Homestead Act, Dawes Act, Populist Party, Wounded Knee, Yellow journalism, Platt
 Anti-Imperialist League, Sherman Antitrust Act, AFL, Tammany Hall, Ellis Island, Chinese Exclusion
 Act, Pendleton Act, Cross of Gold speech, Free Silver
 
+
+```mermaid
+flowchart TD
+    A[4_Period 6] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Period 6 (1865-1898) covers the **Gilded Age** — a period of massive economic growth, industrialisation, and immigration, accompanied by enormous inequality, labour conflict, and political corruption. The central tension is between the promise of opportunity and the reality of exploitation.

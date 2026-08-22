@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Concurrency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Concurrency in Ruby has evolved from green threads through GIL-bound native threads to Ractor-based parallelism. The Global Interpreter Lock ensures only one thread executes Ruby code at a time, meaning CPU-bound tasks do not benefit from threading. However, I/O operations release the GIL, making threads useful for concurrent network requests. Ractors provide true parallelism by isolating objects, and the Fiber Scheduler enables non-blocking I/O without manual callback management.

@@ -483,6 +483,17 @@ and the absence of a democratic tradition could lead to civil war and authoritar
 comparative study of these cases provides essential insights into the conditions that enable
 democracies to survive and the factors that contribute to their downfall.
 
+
+```mermaid
+flowchart TD
+    A[Democratic States] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Democracy is like a house with many rooms -- economic stability, institutional trust, and leadership are all load-bearing walls. When the economy crumbles (Weimar hyperinflation, the Great Depression), the other walls must hold. The USA survived because its constitutional framework, democratic traditions, and Roosevelt's leadership provided redundancy. Weimar failed because its proportional representation fragmented parliament while Article 48 gave the executive authoritarian powers, creating a structural trap. Spain lacked the democratic traditions and middle-class consensus needed to absorb shocks. The key insight is that democracy is not a default state -- it requires active maintenance through institutions, leadership, and economic foundations.

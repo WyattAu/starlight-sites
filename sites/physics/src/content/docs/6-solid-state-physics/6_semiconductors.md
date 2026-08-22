@@ -197,6 +197,17 @@ Threshold voltage $V_T$ depends on the oxide thickness, doping, and work functio
 AlGaAs/GaAs) to create a two-dimensional electron gas (2DEG) with very high mobility. Heterojunction
 Bipolar transistors (HBTs) use a wide-gap emitter to improve injection efficiency.
 
+
+```mermaid
+flowchart TD
+    A[6_Semiconductors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Semiconductors are materials with a small band gap that allows their conductivity to be tuned by doping, temperature, or light. Pure silicon has all its electrons locked in bonds at absolute zero, but thermal energy or doping can promote electrons into the conduction band, leaving behind mobile holes. Doping with donor atoms adds extra electrons, while acceptor atoms create additional holes. The pn junction is the fundamental building block of electronics: at the junction, electrons and holes diffuse and recombine, creating a depletion region that acts as a one-way valve for current. This rectifying behavior enables diodes, transistors, and solar cells.

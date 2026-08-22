@@ -244,6 +244,17 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45
 **Problem:** A cell has 46 chromosomes and undergoes division. After division, each daughter cell has 23 chromosomes. Was this mitosis or meiosis? Explain.
 **Solution:** This was meiosis. Mitosis produces daughter cells with the same chromosome number as the parent (diploid to diploid). The halving from 46 to 23 (diploid to haploid) is characteristic of meiosis, which produces gametes.
 
+
+```mermaid
+flowchart TD
+    A[Cell Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.

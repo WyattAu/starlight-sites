@@ -177,6 +177,17 @@ An observed effect is **statistically significant** if it is unlikely to have oc
 alone. On the AP exam, "statistically significant" means that the observed difference
 between groups is larger than what would be expected from random variation.
 
+
+```mermaid
+flowchart TD
+    A[2_Sampling And Experimentation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Sampling and experimentation are about **collecting data that leads to valid conclusions**. The quality of your inference depends entirely on the quality of your data — garbage in, garbage out.

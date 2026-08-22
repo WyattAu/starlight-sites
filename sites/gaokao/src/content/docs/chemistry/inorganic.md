@@ -342,6 +342,17 @@ $$\begin{array}{lccc}
 
 **考试技巧：** 强碱弱酸盐溶液的 $\text{pH}$ 计算，先求水解常数，再利用近似计算求 $[\text{OH}^-]$，最后求 $\text{pH}$。
 
+
+```mermaid
+flowchart TD
+    A[Inorganic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Inorganic chemistry is like learning the periodic table as a map of neighborhoods. Each element lives in a specific neighborhood with specific properties, and elements in the same neighborhood behave similarly. Sodium and potassium are neighbors who both react vigorously with water; fluorine and chlorine are neighbors who both love to steal electrons. Understanding these neighborhood patterns lets you predict behavior without memorizing every individual reaction.

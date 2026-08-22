@@ -163,6 +163,17 @@ atoms). Compute the specific heat of diamond at 100 K, 300 K, and 500 K using th
 **Problem 6.** Show that in the low-temperature limit, the Debye model gives
 $U = \frac{3\pi^4}{5} Nk_B T (T/\theta_D)^3$ by evaluating the integral $\int_0^\infty x^3/(e^x - 1)\, dx = \pi^4/15$.
 
+
+```mermaid
+flowchart TD
+    A[16_The Debye Model Of Solids] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Debye model treats a crystal like a box of sound waves. At low temperatures, only long-wavelength vibrations are excited, like a drum that can only produce deep bass notes. The T^3 law for specific heat reflects the three-dimensional density of phonon states. At high temperatures, every mode is equally excited, giving the classical Dulong-Petit result. The Debye temperature marks the crossover: below it, quantum effects freeze out modes; above it, classical behavior emerges. The model succeeds because phonons are the natural excitations of a crystal lattice.

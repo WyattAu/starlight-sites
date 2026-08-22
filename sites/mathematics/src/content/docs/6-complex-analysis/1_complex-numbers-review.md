@@ -232,6 +232,17 @@ ratio $\omega$.
 
 ### 1.10 Common Mistakes
 
+
+```mermaid
+flowchart TD
+    A[1_Complex Numbers Review] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Complex numbers solve the problem that $x^2 = -1$ has no real solution: we directly declare that $i$ exists and build the algebra on top of it. The key insight is that complex numbers are two-dimensional — each one is a point in the plane, not a point on a line. Addition is vector addition; multiplication combines scaling and rotation. The modulus measures distance from the origin, and the argument measures angle. Polar form $re^{i\theta}$ makes multiplication natural: multiply the magnitudes and add the angles. Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ bridges exponential and trigonometric functions, revealing that complex exponentials trace circles.

@@ -193,6 +193,17 @@ The Maxwell-Boltzmann distribution is the classical limit valid only when $n\lam
 **Mistake 3: Misapplying the equipartition theorem**
 The equipartition theorem assigns $\frac{1}{2}k_B T$ per quadratic degree of freedom, but it fails at low temperatures when quantum effects freeze out degrees of freedom. For example, the vibrational mode of a diatomic molecule at room temperature may not contribute $\frac{1}{2}k_B T$ if $\hbar\omega \gg k_B T$. Always check whether the classical limit applies before using equipartition.
 
+
+```mermaid
+flowchart TD
+    A[7_Classical Limit And The Maxwell Boltzmann Distribution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Maxwell-Boltzmann distribution is what quantum statistics looks like when particles are far apart and quantum effects are negligible. At high temperatures or low densities, the thermal de Broglie wavelength shrinks below the inter-particle spacing, and the distinction between bosons and fermions vanishes. The speed distribution reflects a tug-of-war between energy and entropy: the Boltzmann factor suppresses high energies, while the density of states favours them. The most probable speed is lower than the mean, which is lower than the RMS, because the distribution is asymmetric with a tail toward higher speeds.

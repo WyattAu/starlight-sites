@@ -154,6 +154,17 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
+
+```mermaid
+flowchart TD
+    A[8_The Gauss Bonnet Theorem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Gauss-Bonnet theorem is one of the most beautiful results in mathematics: it says the total curvature of a compact surface equals $2\pi$ times its Euler characteristic, a topological invariant. On a sphere, the total curvature is $4\pi$ (positive), reflecting its bowl-like shape. On a torus, the total curvature is zero — the positive curvature on the outer rim exactly cancels the negative curvature on the inner rim. This means you cannot change the total curvature by deforming the surface, only by changing its topology. The theorem connects three different worlds: local geometry (curvature), global topology (Euler characteristic), and topology (genus).

@@ -136,6 +136,17 @@ Per bit: $2.87 \times 10^{-21}$ J = $2.87$ zJ. DRAM capacitors use $\sim 4$ fJ/b
 
 This enormous gap demonstrates that current computing is limited not by thermodynamics but by engineering constraints (capacitive charging, leakage, noise margins). $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[20_Thermodynamics Of Information Processing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Landauer's principle reveals that information is physical: erasing a bit must dissipate at least kT ln 2 of heat because erasure reduces the entropy of the information-bearing system, and the second law demands compensation in the environment. Maxwell's demon fails because acquiring and erasing information about particles costs energy that exactly cancels the apparent entropy decrease. The vast gap between the Landauer limit and current CMOS technology shows that modern computing is limited by engineering, not by fundamental physics. Reversible computing aims to close this gap by never erasing information during computation.

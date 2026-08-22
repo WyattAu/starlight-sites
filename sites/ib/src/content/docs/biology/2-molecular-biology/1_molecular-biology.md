@@ -16,6 +16,17 @@ tags:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Molecular Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Molecular biology is like studying the cell's information technology — DNA stores data, RNA transmits it, and proteins execute the instructions:** The central dogma describes how genetic information flows from DNA through RNA to protein

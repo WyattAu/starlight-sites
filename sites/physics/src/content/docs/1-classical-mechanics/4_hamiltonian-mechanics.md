@@ -269,6 +269,17 @@ $\blacksquare$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[4_Hamiltonian Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Hamiltonian mechanics is like switching from a video recording of motion to a snapshot of all possible states. While the Lagrangian tracks positions and velocities over time, the Hamiltonian lives in phase space where every point represents a complete snapshot of where something is and how fast it is going. Hamilton's equations are beautifully symmetric: the rate of change of position depends on how energy changes with momentum, and the rate of change of momentum depends on how energy changes with position. Liouville's theorem tells us that if you paint a region of phase space, its volume stays the same as it flows around like incompressible paint. This is why statistical mechanics works: the phase space volume that encodes all possible states of a system is preserved under time evolution.

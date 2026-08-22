@@ -114,6 +114,17 @@ the waist contribution, valid for $z \gg z_R$).
    becomes partially $p$-polarised. Complete polarisation of the transmitted beam requires many
    interfaces (pile-of-plates polariser).
 
+
+```mermaid
+flowchart TD
+    A[21_Lasers 17] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Lasers produce coherent light through stimulated emission, where an incoming photon triggers an excited atom to emit an identical photon. Population inversion, where more atoms are in excited than ground states, is essential for amplification. The optical cavity provides feedback, selecting specific frequencies and directions. The result is light that is monochromatic, coherent, and highly directional. Different gain media produce different wavelengths: helium-neon for red, argon-ion for blue-green, semiconductor diodes for infrared. Mode locking produces ultrashort pulses, while Q-switching produces high-energy pulses. Lasers enable precision measurements, surgery, and telecommunications.

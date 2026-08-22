@@ -706,6 +706,17 @@ class Hashable a where
   -- Minimal complete definition: hash
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Type Classes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Type classes are like interfaces in other languages, but more flexible. A type class defines a set of behaviors (like Show or Eq), and any type that implements those behaviors can participate. This is like a club membership: the club defines the rules, and any type that follows the rules can join.

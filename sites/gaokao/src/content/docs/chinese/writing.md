@@ -334,6 +334,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 
 **常见错误：** 记叙文容易写成流水账。要注意细节描写、心理描写和环境描写，使文章生动感人。
 
+
+```mermaid
+flowchart TD
+    A[Writing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Writing an essay is like building a bridge. The introduction is the foundation that must be solid and well-placed. Each paragraph is a support beam that must connect logically to the next. The conclusion is the capstone that ties everything together. If any beam is weak or poorly placed, the entire structure collapses.

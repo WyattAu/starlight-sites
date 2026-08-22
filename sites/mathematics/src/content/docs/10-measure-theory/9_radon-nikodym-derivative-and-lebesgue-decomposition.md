@@ -155,6 +155,17 @@ $\nu = m + \delta_0$ with $m \ll m$ and $\delta_0 \perp m$. $\blacksquare$
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+
+```mermaid
+flowchart TD
+    A[9_Radon Nikodym Derivative And Lebesgue Decomposition] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Radon-Nikodym derivative generalises the concept of a density function. If one measure is absolutely continuous with respect to another, meaning it assigns zero to every set that the reference measure does, then the Radon-Nikodym theorem guarantees the existence of a derivative function that converts one measure into the other via integration. This is analogous to the fundamental theorem of calculus: just as differentiation recovers a function from its integral, the Radon-Nikodym derivative recovers the density from a measure. The Lebesgue decomposition theorem shows that any measure can be uniquely split into an absolutely continuous part and a singular part, like decomposing a signal into a smooth component and a spike.

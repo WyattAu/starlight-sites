@@ -315,6 +315,17 @@ Background radiation comes from:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[5_Waves Radiation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Waves are nature's way of transferring energy efficiently:** Whether it's sound traveling through air, light reaching us from the sun, or seismic waves shaking the ground, waves carry energy from one place to another without moving matter. The wave equation v = fλ is the fundamental relationship that connects all wave phenomena.

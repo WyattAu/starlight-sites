@@ -185,6 +185,17 @@ Emancipation Proclamation, Gettysburg, Anaconda Plan, 13th Amendment, 14th Amend
 Amendment, Sharecropping, Freedmen's Bureau, Compromise of 1877, Ku Klux Klan, Radical
 Reconstruction
 
+
+```mermaid
+flowchart TD
+    A[3_Period 5] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Period 5 (1844-1877) is the **most transformative period in American history** — it encompasses the sectional crisis, the Civil War, and Reconstruction. The central question is: what kind of nation would America become?

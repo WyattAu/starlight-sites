@@ -215,6 +215,17 @@ along $\hat{\mathbf{y}}$. $\blacksquare$
 This explains why the sky is polarised at $90°$ from the sun and why polarising sunglasses reduce
 Glare from horizontal surfaces (Brewster's angle reflection from road/water).
 
+
+```mermaid
+flowchart TD
+    A[5_Polarization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Polarization describes the orientation of a light wave's electric field oscillation. Unpolarised light has field vectors pointing randomly, while linearly polarised light oscillates in a single plane. Malus's law reveals that intensity drops as the cosine squared of the angle because only the component along the axis gets through. Brewster's angle is where reflected light becomes completely polarised because the reflected and refracted rays are perpendicular. Birefringent materials split light into two components that travel at different speeds, which is how wave plates convert between linear and circular polarisation. Faraday rotation is non-reciprocal, enabling optical isolators.

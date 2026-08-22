@@ -152,6 +152,17 @@ $$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
 2. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
 3. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
 
+
+```mermaid
+flowchart TD
+    A[01 Laws Of Motion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Newton's laws are about prediction, not explanation:** The first law tells you what happens when nothing is pushing. The second law tells you how hard things accelerate when you push them. The third law tells you that every push comes with a push-back. Together, they form a complete framework for predicting motion — from a ball rolling down a hill to a planet orbiting a star.

@@ -216,6 +216,17 @@ Authors structure their arguments using recognisable organisational patterns:
 - Confusing the author's tone with the reader's emotional response (mood)
 - Over-identifying devices at the expense of depth
 
+
+```mermaid
+flowchart TD
+    A[1_Rhetorical Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Reading and writing are fundamental to intellectual development. Literature exposes us to diverse perspectives, develops empathy, and hones critical thinking. Analysing texts teaches us to identify arguments, evaluate evidence, and construct coherent interpretations. These skills are essential for academic success, professional communication, and informed citizenship in a complex world.

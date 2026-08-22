@@ -17,6 +17,17 @@ description: "A is an instance of a program in execution. The OS maintains a for
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Process Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A process is a **program in action** — it's the abstract entity that the OS manages, containing not just code but all the state needed to execute: memory, open files, registers, and more. The OS creates the illusion that each process has the entire computer to itself through virtual memory and time-sliced CPU access.

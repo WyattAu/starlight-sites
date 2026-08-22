@@ -17,6 +17,17 @@ description: "A is a situation where a set of processes are all blocked, each wa
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Deadlocks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Deadlock is a **circular wait** — two or more processes are each holding a resource the other needs, and neither will release what they have. Think of a traffic jam at a four-way intersection where each car refuses to back up. The critical insight is that deadlock is not about a single resource being busy; it's about a *cycle* of dependencies.

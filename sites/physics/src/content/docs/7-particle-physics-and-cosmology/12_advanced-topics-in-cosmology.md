@@ -271,6 +271,17 @@ confirming that colour forces are screened in the QGP and quarkonium states are 
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[12_Advanced Topics In Cosmology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out of potential wells lose energy and appear cooler. The integrated version accumulates this effect along the entire line of sight, like a traveler collecting tolls on a long journey. Dark matter halos follow the NFW profile because gravity pulls matter inward while expansion stretches it outward, creating a characteristic density shape. Primordial nucleosynthesis produced light elements in the first few minutes when the universe was hot enough for nuclear fusion but too hot for nuclei to survive long.

@@ -157,6 +157,17 @@ and integration when differentiating under the integral to compute moments.
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+
+```mermaid
+flowchart TD
+    A[8_Fubini And Tonelli Theorems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The Fubini and Tonelli theorems justify the interchange of the order of integration for functions of multiple variables. Tonelli's theorem applies to non-negative functions and requires no integrability assumption: you can always swap the order of integration for non-negative measurable functions. Fubini's theorem applies to integrable functions and concludes that the iterated integrals are equal and finite. The key physical intuition is that integrating over a product space can be done one variable at a time, like summing rows then columns of a matrix. The cautionary example of functions with different iterated integrals shows that integrability is essential: without it, the order of integration can matter.

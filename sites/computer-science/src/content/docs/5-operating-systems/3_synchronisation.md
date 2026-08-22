@@ -240,6 +240,17 @@ condition variables. Spurious Wakeups can cause `pthread_cond_wait()` to return 
 condition being signalled. The loop Re-checks the condition after every wakeup.
 :::
 
+
+```mermaid
+flowchart TD
+    A[3_Synchronisation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Synchronisation is the art of preventing chaos when multiple threads share resources. A mutex is a key to a bathroom — only one person can hold it at a time. A semaphore is a count of available parking spaces — multiple cars can park, but once the lot is full, new arrivals must wait. A condition variable is like a waiting room buzzer — you wait until someone signals that the resource is ready. The dining philosophers problem illustrates the deadlock danger: if each philosopher picks up their left fork first and waits for the right, everyone starves. Solutions involve breaking the symmetry — making one philosopher pick up forks in a different order.

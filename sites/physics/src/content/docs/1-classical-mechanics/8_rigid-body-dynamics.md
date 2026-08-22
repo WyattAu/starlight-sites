@@ -202,6 +202,17 @@ $\blacksquare$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[8_Rigid Body Dynamics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Rigid body dynamics is the physics of how objects spin and tumble. The inertia tensor is like a map of how resistant an object is to rotation about different axes. A figure skater pulling in their arms speeds up because the same angular momentum must be conserved with a smaller moment of inertia. The truly counterintuitive result is the tennis racket theorem: a body spinning about its intermediate axis is unstable, while rotation about the largest or smallest axis is stable. Try flipping a phone end-over-end and then side-to-side and you will see this asymmetry. Gyroscopic precession is like a spinning top following the slope of a hill it cannot fall down: gravity tries to tilt the angular momentum vector, but the torque only rotates it around the vertical, creating that characteristic wobble.

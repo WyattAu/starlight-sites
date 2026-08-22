@@ -687,6 +687,17 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[5_Cas_Loops] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A CAS loop is like trying to update a shared document without locking it:** You read the current version, make your changes, then check if someone else modified it while you were editing. If they did, you re-read and try again. It's optimistic — you assume no one else is editing, and if you're wrong, you retry. This is faster than locking when contention is low (most of the time you succeed on the first try), but slower when contention is high (you keep retrying).

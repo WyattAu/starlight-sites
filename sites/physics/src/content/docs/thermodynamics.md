@@ -599,6 +599,17 @@ friction, heat losses, incomplete combustion, and finite combustion speed.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Thermodynamics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Thermodynamics describes how energy flows and transforms without tracking individual atoms. Temperature is the average kinetic energy of particles, like the collective jostling of a crowd. Heat flows from hot to cold because there are exponentially more ways for energy to spread out than concentrate. Entropy measures this spreading, and the second law says it always increases because disorder is overwhelmingly more probable. The Carnot engine is the best possible heat engine because it reverses every step, wasting nothing. Internal energy is the total microscopic kinetic energy, while temperature only measures the average per particle.

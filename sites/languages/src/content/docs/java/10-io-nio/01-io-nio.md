@@ -1024,6 +1024,17 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[01 Io Nio] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Data highways:** I/O is like a postal system — streams are the roads that data travels on, and NIO uses channels and buffers for faster, more efficient delivery.

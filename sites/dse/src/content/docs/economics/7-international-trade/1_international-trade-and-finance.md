@@ -641,6 +641,17 @@ Exceeding 300%. This reflects:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_International Trade And Finance] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Trading for mutual gain:** International trade is like a potluck dinner — everyone brings what they're best at making, and everyone eats better than if they tried to cook everything themselves. Comparative advantage, not absolute advantage, drives the gains.

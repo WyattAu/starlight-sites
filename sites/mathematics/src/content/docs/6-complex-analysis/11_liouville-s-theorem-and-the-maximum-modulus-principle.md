@@ -173,6 +173,17 @@ The Schwarz lemma applies only to analytic functions $f: \mathbb{D} \to \mathbb{
 **Mistake 5: Forgetting that Liouville's theorem is used to prove the fundamental theorem of algebra.**
 Liouville's theorem is a key tool in proving that every non-constant polynomial has a root in $\mathbb{C}$. If you forget this connection, you may miss elegant proofs of existence results. Always consider Liouville's theorem when dealing with entire functions and their properties.
 
+
+```mermaid
+flowchart TD
+    A[11_Liouville S Theorem And The Maximum Modulus Principle] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Liouville's theorem states that bounded entire functions must be constant, which sounds abstract but has profound consequences. Think of an analytic function as a rubber sheet that cannot buckle: if it is bounded everywhere, it cannot grow in any direction, so it must be flat. The maximum modulus principle says the maximum of an analytic function occurs on the boundary, not the interior, because analytic functions cannot have local maxima. This is like heat flow: the hottest point on a plate cannot be in the middle if heat is flowing freely. Together these results force rigidity on analytic functions.

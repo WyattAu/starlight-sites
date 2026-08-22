@@ -18,6 +18,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Metaprogramming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Metaprogramming is code that writes or modifies code. In Ruby, everything is an object and every operation is a message send, making the language highly reflective. Open classes let you modify existing types at runtime, and `method_missing` catches calls to undefined methods, enabling dynamic dispatch. These techniques are powerful but risky: modifying core classes affects the entire program. Refinements provide a safer alternative by limiting monkey patching to specific lexical scopes.

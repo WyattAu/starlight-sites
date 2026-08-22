@@ -885,6 +885,17 @@ cache.fetch("expensive") { compute_expensive_result }
 cache.fetch("expensive") { compute_expensive_result }  # returns cached value
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Methods And Blocks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Blocks in Ruby are like closures, which is a fancy way of saying they remember the context where they were created. When you define a block inside a method, it captures the local variables from that method. Even if the method finishes, the block still has access to those variables. This is like a photograph that captures not just the subject but the entire background.

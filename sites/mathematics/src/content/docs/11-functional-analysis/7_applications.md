@@ -166,6 +166,17 @@ The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite funct
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+
+```mermaid
+flowchart TD
+    A[7_Applications] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Functional analysis provides the language and machinery for solving differential equations, signal processing, and machine learning. In PDE theory, weak solutions are obtained by projecting onto finite-dimensional subspaces via the Galerkin method, with existence guaranteed by the Lax-Milgram theorem. The Fourier transform decomposes signals into frequencies, and the sampling theorem connects continuous signals to their discrete representations. In quantum mechanics, states live in Hilbert space and observables are self-adjoint operators whose spectral decompositions determine measurement outcomes. In machine learning, reproducing kernel Hilbert spaces provide the mathematical framework for support vector machines and Gaussian processes, where inner products encode similarity between data points.

@@ -17,6 +17,17 @@ description: "Regular Languages: comprehensive educational content notes with pr
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Regular Languages] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Regular languages are the **simplest class in the Chomsky hierarchy** — they describe patterns that can be matched with a finite amount of memory (the states of a finite automaton). Think of a vending machine: it has a fixed number of states, transitions on inputs (coins), and accepts or rejects based on the sequence. It can't count arbitrary amounts or remember unbounded history.

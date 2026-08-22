@@ -279,6 +279,17 @@ The history of 20th-century China connects directly to several IB Paper 2 topics
 - **The CCP's legitimacy:** Some historians argue that the CCP's legitimacy rests primarily on economic performance since 1978. Others contend that revolutionary legitimacy — the CCP's role in ending the Century of Humiliation — remains foundational.
 - **Was the CCP's victory inevitable?** Revisionist historians emphasise contingent factors (KMT corruption, Japanese invasion, Soviet intervention) rather than presenting the CCP's triumph as historically determined.
 
+
+```mermaid
+flowchart TD
+    A[20Th Century China] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 China's twentieth century is like watching a river change course multiple times -- the Qing collapse, warlord fragmentation, civil war, Mao's revolutionary transformation, and Deng's market reforms represent not a straight line but a series of violent pivots. Each pivot was driven by the failure of the previous system: the Qing could not modernise, the warlords could not unite, the KMT could not govern, and Mao's collectivism could not feed the population. The CCP's genius was learning from each failure -- Mao's Great Leap Forward killed millions, and Deng's reforms were explicitly framed as correcting Mao's mistakes. The through-line is a civilisation wrestling with how to modernise without losing its identity.
