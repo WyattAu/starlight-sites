@@ -222,6 +222,40 @@ Estimated total: quarter+.
 
 ---
 
+## Crawl findings (2026-08-22)
+
+Full network crawl of 46 sites (3,405 pages) using crawlkit v4.1.0.
+Results: 123,762 findings, avg 36.3 issues/page (down from 41.8 pre-session).
+See `CRAWLKIT_BASELINE.md` for full details.
+
+### Fixed by this session
+
+| Finding | Count | Fix |
+|---------|-------|-----|
+| HREF003: duplicate hreflang | 1,450 | Removed hreflang from cross-site alternate links |
+| SD006: schema missing name | 3,330 | Added name to WebPage speakable schema |
+| META002: short titles | 2,198 | Bulk title regeneration (fix-titles.js) |
+| A11Y016: html lang | 3,410 | False positive (lang=en present on live HTML) |
+
+### Outstanding (prioritised)
+
+| Finding | Count | Status |
+|---------|-------|--------|
+| META005: descriptions too short | 951 | Remaining on thin pages; fixed by P2-13 expansion |
+| SITEMAP006: sitemap/canonical | 1,264 | 31 real (canonical -> /404/); 1,116 hash-fragment false positives; 117 trailing-slash |
+| CANON003: canonical mismatch | 131 | Mostly hash-fragment false positives |
+| LINK002: broken links | 62 | CI gate catches on PR |
+| A11Y013: ARIA without labels | 61 | Component-level fix needed |
+
+### Content strategy decision
+
+**Depth-first** (decided 2026-08-22): Expand 587 thin pages on established
+sites + bulk citations before touching stub sites. Established sites have
+domain authority; thin pages actively drag down site-level quality scores.
+Stub sites stay deferred until core thin-page count < 100.
+
+---
+
 ## P-K -- Content and architecture corruption fixes
 
 Discovered 2026-08-22 via adversarial content audit. 32% of content files
@@ -367,14 +401,16 @@ ADR-001 Starlight over Docusaurus | ADR-002 SolidJS islands | ADR-003 Cloudflare
 | Search zero-result rate | tracked | < 5% |
 | Lighthouse performance | >= 90 | >= 95 |
 | Lighthouse SEO | >= 90 | >= 95 |
-| Content thin pages | 750 | < 100 |
-| Files with corruption | 664 | 0 (post P0-1) |
-| Garbage descriptions | ~1030 | < 100 (post P0-2) |
+| Content thin pages | 587 | < 100 |
+| Files with corruption | 0 | 0 |
+| Short titles (crawlkit META002) | 0 | 0 |
+| Short descriptions (crawlkit META005) | 951 | < 100 |
+| Crawl issues/page | 36.3 | < 30 |
 | Shared-asset drift | 0 | 0 |
 | Component coverage (stmts) | 69% | 80% |
 | Component coverage (branches) | 52% | 70% |
-| Citations | 22 sections | 500+ pages |
-| Top-200 pages with visuals | ~20% | >80% |
+| Citations | 8 pages | 500+ pages |
+| Top-200 pages with visuals | ~8% | >80% |
 
 ---
 
@@ -382,6 +418,9 @@ ADR-001 Starlight over Docusaurus | ADR-002 SolidJS islands | ADR-003 Cloudflare
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-08-22 | Depth-first content strategy | Expand thin pages on established sites before building stub sites; thin pages drag down quality scores |
+| 2026-08-22 | Full network crawl baseline | 46 sites, 3,405 pages, 123,762 findings; avg 36.3 issues/page (down from 41.8 pre-session) |
+| 2026-08-22 | SITEMAP006 mostly false positives | Only 31 of 1,264 findings are real (canonical -> /404/); 1,116 are hash-fragment false positives |
 | 2026-08-22 | STATUS.md is single source of truth | 6 prior audit docs contradicted each other on basic facts |
 | 2026-08-22 | Stub sites built out, not noindexed | Real search volume for driving/civics; thin sites are SEO liability if left as stubs |
 | 2026-08-22 | ROADMAP.md rewritten as execution plan | Original was frozen at "nine sites"; now tracks P0/P1/P2 from STATUS.md |
