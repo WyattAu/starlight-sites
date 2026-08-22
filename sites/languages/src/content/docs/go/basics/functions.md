@@ -341,6 +341,17 @@ Key rules:
 6. **Comparing function values.** Function values are comparable but comparison only returns true
    for identical function instances. Two closures with identical bodies are not equal.
 
+
+```mermaid
+flowchart TD
+    A[Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key

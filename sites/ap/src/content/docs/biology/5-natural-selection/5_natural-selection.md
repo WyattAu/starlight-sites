@@ -876,6 +876,17 @@ combination of barriers makes gene flow between the species extremely unlikely.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[5_Natural Selection] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of natural selection, including key concepts,

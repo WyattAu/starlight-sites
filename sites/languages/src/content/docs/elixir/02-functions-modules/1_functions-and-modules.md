@@ -861,6 +861,17 @@ end
 
 **The key insight:** In Elixir, you don't need inheritance to share behavior — protocols let any type opt into any interface, and behaviours let any module conform to any contract.
 
+
+```mermaid
+flowchart TD
+    A[1_Functions And Modules] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Functions and modules are the organizational backbone of Elixir:

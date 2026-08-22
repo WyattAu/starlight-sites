@@ -545,6 +545,17 @@ ML-KEM_DECAP(sk, c):
 **Problem:** Alice and Bob agree on prime p=23 and generator g=5. Alice chooses private a=6, Bob chooses private b=15. Calculate their shared secret.
 **Solution:** Alice sends A = g^a mod p = 5^6 mod 23 = 15625 mod 23 = 8. Bob sends B = g^b mod p = 5^15 mod 23. 5^2=2, 5^4=4, 5^8=16, 5^15=16*4*2*5 mod 23 = 640 mod 23 = 19. Shared secret (Alice): B^a mod p = 19^6 mod 23 = 47045881 mod 23 = 2. Shared secret (Bob): A^b mod p = 8^15 mod 23 = 2. Both compute the same shared secret: 2.
 
+
+```mermaid
+flowchart TD
+    A[Cryptography] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Symmetric encryption** (AES) is efficient for bulk data; block cipher modes (CBC, CTR, GCM) add security properties.

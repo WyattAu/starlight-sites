@@ -2067,6 +2067,17 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 **Evolution is like a family tree that stretches back millions of years — branching, adapting, and sometimes going extinct.**
 
+
+```mermaid
+flowchart TD
+    A[Biodiversity Classification Evolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

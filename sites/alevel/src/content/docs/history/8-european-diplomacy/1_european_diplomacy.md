@@ -207,6 +207,17 @@ constraints.
 **Conclusion**: The alliance system was the most significant enabling condition, but the war
 resulted from the convergence of multiple causes, none individually sufficient.
 
+
+```mermaid
+flowchart TD
+    A[1_European_Diplomacy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 European diplomacy between 1871 and 1914 was shaped by Germany's rise, alliance bloc rivalry,

@@ -874,6 +874,17 @@ def add_field(cls):
     return cls
 ```
 
+
+```mermaid
+flowchart TD
+    A[02 Metaclasses] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of metaclasses and class creation, including underlying theory,

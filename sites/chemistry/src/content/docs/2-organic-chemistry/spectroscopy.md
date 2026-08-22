@@ -346,6 +346,17 @@ $\blacksquare$
 7. **Wrong degree of unsaturation calculation.** For halogens, add their count to H; for nitrogen,
    subtract. **Fix:** Use DoU $= c + 1 - (h + x - n)/2$ where $x$ = halogens.
 
+
+```mermaid
+flowchart TD
+    A[Spectroscopy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **UV-Vis:** $\lambda_{\max}$ depends on conjugation; Beer-Lambert law for quantitation.

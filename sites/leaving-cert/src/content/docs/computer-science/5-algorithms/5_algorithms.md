@@ -830,6 +830,17 @@ while x > 0:
    2 digits, 1-6 digits).
 8. Explain the difference between backtracking and divide and conquer. Give an example of each.
 
+
+```mermaid
+flowchart TD
+    A[5_Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of computational thinking, including underlying theory,

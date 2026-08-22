@@ -427,6 +427,17 @@ Examples:
    bulk properties don't apply to nanomaterials. **Fix:** Use the quantum confinement formula or
    experimental data for nanoparticle-specific properties.
 
+
+```mermaid
+flowchart TD
+    A[Solid State Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Crystal structures:** SC (CN=6), BCC (CN=8), FCC/HCP (CN=12); packing fractions 52%, 68%, 74%.

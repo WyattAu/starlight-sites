@@ -546,6 +546,17 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 **Problem:** A disease affects 1% of a population. A test has 99% sensitivity (true positive rate) and 95% specificity (true negative rate). A person tests positive. What is the probability they actually have the disease?
 **Solution:** Let D = disease, T = positive test. P(D) = 0.01, P(D') = 0.99. P(T|D) = 0.99, P(T|D') = 1 - 0.95 = 0.05. P(T) = P(T|D)P(D) + P(T|D')P(D') = 0.99(0.01) + 0.05(0.99) = 0.0099 + 0.0495 = 0.0594. P(D|T) = P(T|D)P(D)/P(T) = 0.0099/0.0594 = 0.1667 or approximately 16.7%. Despite a positive test, the probability of having the disease is only about 1/6 due to the low prior probability.
 
+
+```mermaid
+flowchart TD
+    A[Maths] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 CBSE Mathematics covers sets and functions, algebra (matrices, determinants, complex numbers, quadratics), calculus (limits, derivatives, integration, applications), coordinate geometry (straight lines, conic sections), trigonometry (identities, equations, inverse functions, properties of triangles), and probability and statistics (measures of central tendency, variance, binomial distribution, Bayes' theorem). The theory paper is 80 marks and the internal assessment is 20 marks. Key exam strategies include showing all working, managing time, memorising NCERT formulas, and practising previous-year papers.

@@ -555,6 +555,17 @@ When working with tmua preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
+
+```mermaid
+flowchart TD
+    A[Tmua Preparation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - The TMUA (Test of Mathematics for University Admission) is a 2-paper, 2-hour total assessment used

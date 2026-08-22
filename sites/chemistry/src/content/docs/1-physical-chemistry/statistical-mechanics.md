@@ -433,6 +433,17 @@ leading to critical opalescence.
    energy is defined. **Fix:** Be consistent; if $U_0$ is the zero-point energy, account for it in
    all thermodynamic functions.
 
+
+```mermaid
+flowchart TD
+    A[Statistical Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Microstate vs macrostate:** One macrostate corresponds to $W$ microstates; $S = k_B \ln W$.

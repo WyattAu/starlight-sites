@@ -1451,6 +1451,17 @@ Gates: 1 NOT + 1 AND + 1 OR = **3 gates** (or using NAND-NAND: 3 NAND gates).
 If you get this wrong, revise: [4-Variable K-Maps](#4-variable-k-map) and
 [K-Map Grouping Rules](#k-map-grouping-rules)
 
+
+```mermaid
+flowchart TD
+    A[1_Boolean Logic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of boolean logic, including underlying theory, practical

@@ -683,6 +683,17 @@ struct Handler {
 };
 ```
 
+
+```mermaid
+flowchart TD
+    A[3_Lambdas] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of lambda expressions — capture layouts and closure

@@ -1977,6 +1977,17 @@ in shortest supply (the **limiting factor**).
 | Root system              | Fibrous root system                          | Tap root system                                   |
 | Examples                 | Grasses, wheat, rice, maize, lilies, orchids | Beans, peas, sunflowers, roses, oak trees, apples |
 
+
+```mermaid
+flowchart TD
+    A[1_Plant Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 experimental evidence, and real-world applications.

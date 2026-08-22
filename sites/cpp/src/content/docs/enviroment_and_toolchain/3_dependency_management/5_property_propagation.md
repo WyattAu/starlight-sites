@@ -720,6 +720,17 @@ The following table lists commonly used generator expressions for property propa
 - [CPM.cmake](2_cpm.md) -- How `add_subdirectory` merges dependency properties
 - [Binary Caching](6_binary_caching.md) -- Binary artifacts and their dependency metadata
 
+
+```mermaid
+flowchart TD
+    A[5_Property_Propagation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to property propagation, including

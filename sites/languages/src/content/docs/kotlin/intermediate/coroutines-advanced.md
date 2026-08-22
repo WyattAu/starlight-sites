@@ -558,6 +558,17 @@ Advanced coroutine patterns are about managing failure and sharing state across 
 4. **Forgetting that flow{} is cold and lazy.** Each collect call re-executes the entire upstream.
    Use shareIn for side-effecting sources.
 
+
+```mermaid
+flowchart TD
+    A[Coroutines Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This document covers advanced coroutine patterns that build on the fundamentals.

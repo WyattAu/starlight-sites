@@ -18,6 +18,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 
 HSC physics study notes - Mechanics
 
+
+```mermaid
+flowchart TD
+    A[Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Key Concepts
 
 ### Kinematics

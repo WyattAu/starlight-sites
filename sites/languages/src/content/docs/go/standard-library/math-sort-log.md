@@ -432,6 +432,17 @@ slog.Info("user logged in", "username", username, "ip", ip)
    Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`, and other
    improvements.
 
+
+```mermaid
+flowchart TD
+    A[Math Sort Log] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of the math, sort, and log/slog packages, including underlying

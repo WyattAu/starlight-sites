@@ -357,6 +357,17 @@ expect(fn(), completion(equals(42)));          // Future completes with value
 - **Using `flutter run` for benchmarking**: Debug mode has assertions enabled, no optimizations, and
   uses JIT. Always use `--release` or `--profile` for performance measurements.
 
+
+```mermaid
+flowchart TD
+    A[02 Dev Enviroment] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of development enviroment, including underlying theory,

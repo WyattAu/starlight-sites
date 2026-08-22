@@ -1260,6 +1260,17 @@ transfer represents a large share of income) and less transformative in develope
 it is too small to replace existing welfare systems). The political economy challenge is that the
 level of UBI needed to replace existing benefits in developed countries is fiscally very expensive.
 
+
+```mermaid
+flowchart TD
+    A[06 Distribution Of Income] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the economic theories and principles related to distribution of income, including

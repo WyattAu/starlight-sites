@@ -587,6 +587,17 @@ int main() {
 - [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction.md)
 - [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation.md)
 
+
+```mermaid
+flowchart TD
+    A[1_Parameter_Packs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of parameter packs and variadic templates, including underlying

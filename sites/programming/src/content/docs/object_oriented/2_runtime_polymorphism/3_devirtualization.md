@@ -752,6 +752,17 @@ Intended effect.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
+
+```mermaid
+flowchart TD
+    A[3_Devirtualization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of devirtualization and final specifiers, including underlying

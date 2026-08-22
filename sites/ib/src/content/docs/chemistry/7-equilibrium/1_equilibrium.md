@@ -644,6 +644,17 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Equilibrium] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Concept               | Formula                                                                    |

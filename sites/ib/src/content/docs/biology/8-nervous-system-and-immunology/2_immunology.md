@@ -2035,6 +2035,17 @@ sensitised, Transfusion with Rh+ blood could sensitise the recipient for future 
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_Immunology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of immunology, including key concepts, experimental

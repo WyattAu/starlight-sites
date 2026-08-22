@@ -215,6 +215,17 @@ and improves your ability to tackle synoptic questions.
 3. Forgetting to convert units (especially degrees to radians, and temperature scales).
 4. Neglecting significant figures and uncertainty in final answers.
 
+
+```mermaid
+flowchart TD
+    A[Wrap Up] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

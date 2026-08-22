@@ -2320,6 +2320,17 @@ The `binary` merge driver marks the file as unmergeable, and Git will keep which
 last modified (based on the merge strategy). This avoids generating conflict markers in binary
 Files.
 
+
+```mermaid
+flowchart TD
+    A[Advanced Git Commands] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of advanced git commands, including underlying theory, practical

@@ -376,6 +376,17 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 7. **Race conditions with `select`.** If multiple cases are ready, `select` chooses uniformly at
    random. Do not assume a preferred order.
 
+
+```mermaid
+flowchart TD
+    A[Channels] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of channels and concurrency patterns, including underlying

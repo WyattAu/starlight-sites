@@ -1071,6 +1071,17 @@ Mobile penetration reaches 80% within 5 years, enabling mobile banking (M-Pesa m
 price information, and health monitoring — services that would have required decades of traditional
 infrastructure development.
 
+
+```mermaid
+flowchart TD
+    A[3 Trade And Aid] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Foreign aid** includes bilateral, multilateral, humanitarian, and development assistance

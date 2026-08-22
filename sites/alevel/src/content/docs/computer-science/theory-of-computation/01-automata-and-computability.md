@@ -609,6 +609,17 @@ For revision on algorithms and complexity, see
 
 5. **Drawing NFA transitions incorrectly.** An NFA can have multiple transitions for the same input symbol from a single state, and can have ε-transitions (changing state without consuming input). DFAs have exactly one transition per symbol per state.
 
+
+```mermaid
+flowchart TD
+    A[01 Automata And Computability] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -1482,6 +1482,17 @@ warranties more valuable for firms that plan to stay in the market.
 
 If you get this wrong, revise: [Information Asymmetry](#information-asymmetry)
 
+
+```mermaid
+flowchart TD
+    A[1_Market Failure And Government Intervention] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 underlying theory, practical implementation, and key applications.

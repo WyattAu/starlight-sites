@@ -18,6 +18,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 
 Study notes for CBSE Class 12 physics - Work energy power.
 
+
+```mermaid
+flowchart TD
+    A[02 Work Energy Power] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Key Concepts
 
 - Work done by a constant force: $W = F \cdot d \cdot \cos\theta$

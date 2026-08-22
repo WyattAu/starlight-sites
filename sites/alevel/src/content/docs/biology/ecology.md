@@ -2032,6 +2032,17 @@ impossible to address with traditional field methods alone.
 
 **Ecology is like a web of relationships — every organism depends on others in a delicate balance.**
 
+
+```mermaid
+flowchart TD
+    A[Ecology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

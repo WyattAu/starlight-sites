@@ -1297,6 +1297,17 @@ Do not create a BLoC, notifier, or provider for a feature that is a single scree
 Abstract when the state is shared across screens, when the logic is complex enough to test in
 Isolation, or when multiple widgets need to react to the same state change.
 
+
+```mermaid
+flowchart TD
+    A[01 State Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of state management, including underlying theory, practical

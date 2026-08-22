@@ -430,6 +430,17 @@ g.Go(func() error {
 2. **Leaking goroutines with errgroup.** If `g.Go` panics, `g.Wait` re-panics. Always recover or
    return errors from goroutines rather than panicking.
 
+
+```mermaid
+flowchart TD
+    A[Race Conditions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of race conditions and data races in Go, including underlying

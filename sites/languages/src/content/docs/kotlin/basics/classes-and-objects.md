@@ -391,6 +391,17 @@ val user = spawn(User)  // User(name=default)
 
 Classes are blueprints for creating objects with shared behavior and state. Kotlin's classes are final by default, encouraging composition over inheritance. Data classes reduce boilerplate for simple data holders, while sealed classes define restricted type hierarchies for exhaustive pattern matching. Companion objects provide a place for factory methods and class-level logic without Java's static keyword. Object declarations create singletons, and class delegation implements interfaces by forwarding to another object.
 
+
+```mermaid
+flowchart TD
+    A[Classes And Objects] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of classes and objects, including underlying theory, practical

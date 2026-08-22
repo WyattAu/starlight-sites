@@ -718,6 +718,17 @@ See the examples integrated throughout the sections above.
 7. Prove that if a quadratic equation with rational coefficients has one irrational root
     $a + b\sqrt{c}$ (where $b \neq 0$), then $a - b\sqrt{c}$ is also a root.
 
+
+```mermaid
+flowchart TD
+    A[1_Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to algebra, including key

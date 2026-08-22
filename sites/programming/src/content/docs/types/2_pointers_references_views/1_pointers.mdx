@@ -783,6 +783,17 @@ int* q = p + 1;  // UB: arithmetic on null pointer
 
 A pointer is a street address written on an envelope. It does not contain the letter itself — it tells you where to find it. Pointer arithmetic is like walking down a street: if each house is the same size, adding 1 to the address moves you to the next house. Array decay is when the compiler treats an array as a pointer to its first element — it is like handing someone the address of your house instead of the house itself. Null pointers are addresses that point nowhere — like a street address for a demolished building. Dereferencing a null pointer is walking up to that empty lot and trying to open a door that does not exist.
 
+
+```mermaid
+flowchart TD
+    A[1_Pointersx] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to pointers, including key

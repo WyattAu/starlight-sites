@@ -402,6 +402,17 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 8. **Not checking scanner errors.** After a `scanner.Scan()` loop, always check `scanner.Err()`. The
    loop may exit due to an I/O error, not just `io.EOF`.
 
+
+```mermaid
+flowchart TD
+    A[Io] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of standard library i/o, including underlying theory, practical

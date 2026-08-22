@@ -1861,6 +1861,17 @@ growth stimulus.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Plant Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of plant biology, including key concepts, experimental

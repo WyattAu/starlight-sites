@@ -135,6 +135,17 @@ marks are consistently lost.
 | Chain rule           | $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$ |
 | Integration by parts | $\\int u\\,dv = uv - \\int v\\,du$                      |
 
+
+```mermaid
+flowchart TD
+    A[Maths] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

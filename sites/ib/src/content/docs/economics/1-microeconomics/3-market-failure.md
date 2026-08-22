@@ -674,6 +674,17 @@ year ($1,500,000$ total benefit). No private firm will build it because ships ca
 from using the light (non-excludable). Government provision is necessary because total benefit
 ($1,500,000$) exceeds cost ($1,000,000$).
 
+
+```mermaid
+flowchart TD
+    A[3 Market Failure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Market failure** occurs when the free market fails to allocate resources efficiently (MSB ≠ MSC)

@@ -739,6 +739,17 @@ Dependencies change rarely. Build caching for internal dependencies requires a d
 - [Property Propagation](5_property_propagation.md)
 - [Cross-compilation Toolchains](../1_compiler_and_standards/4_crosscompilation_toolchains.md)
 
+
+```mermaid
+flowchart TD
+    A[1_Dependency_Architectures_Models] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to dependency resolution, including

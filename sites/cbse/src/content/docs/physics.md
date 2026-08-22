@@ -529,6 +529,17 @@ kinetic energy of emitted photoelectrons. (h = 6.63 x 10^-34 J s, c = 3 x 10^8 m
 10^-19 J = 3.11 eV. K_max = E_photon - phi = 3.11 - 2.0 = 1.11 eV. Since K_max > 0, photoelectrons
 are emitted.
 
+
+```mermaid
+flowchart TD
+    A[Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 CBSE Physics covers mechanics (Newton's laws, work-energy, rotational motion, gravitation, fluids),

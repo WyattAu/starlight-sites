@@ -858,6 +858,17 @@ The doctor could also face disciplinary action from the medical regulatory body.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Network Security And Social Implications] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 underlying theory, practical implementation, and key applications.

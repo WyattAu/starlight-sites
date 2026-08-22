@@ -18,6 +18,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 
 Study notes for CBSE Class 12 physics - Electric field.
 
+
+```mermaid
+flowchart TD
+    A[02 Electric Field] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Key Concepts
 
 - Electric field due to a point charge: $\vec{E} = k\frac{q}{r^2}\hat{r}$

@@ -939,6 +939,17 @@ done
 # AccuracySec=1s
 ```
 
+
+```mermaid
+flowchart TD
+    A[Cron And Scheduling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of cron and task scheduling, including underlying theory,

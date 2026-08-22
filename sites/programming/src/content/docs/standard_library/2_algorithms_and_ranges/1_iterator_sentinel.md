@@ -615,6 +615,17 @@ Range is infinite (or at least large enough). If the range is shorter than the a
 You get buffer overread — and unlike with bounds-checked iterators, there is no diagnostic. Use this
 Only when you have proven the bounds at a higher level.
 
+
+```mermaid
+flowchart TD
+    A[1_Iterator_Sentinel] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of iterator-sentinel model, including underlying theory,

@@ -902,6 +902,17 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
+
+```mermaid
+flowchart TD
+    A[1_Overload_Resolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of overload resolution, including the key equations,

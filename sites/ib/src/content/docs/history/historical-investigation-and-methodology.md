@@ -806,6 +806,17 @@ Kershaw, Ian. _Hitler 1889--1936: Hubris_. London: Penguin, 1998.
 - **Over-citing.** Every footnote does not need a paragraph of commentary. A single footnote can
   support multiple claims in a paragraph if they all come from the same source.
 
+
+```mermaid
+flowchart TD
+    A[Historical Investigation And Methodology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the key events, causes, and consequences related to historical investigation and

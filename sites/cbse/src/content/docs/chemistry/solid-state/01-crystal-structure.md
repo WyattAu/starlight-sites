@@ -18,6 +18,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 
 Study notes for CBSE Class 12 chemistry - Crystal structure.
 
+
+```mermaid
+flowchart TD
+    A[01 Crystal Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Key Concepts
 
 - Unit cell: the smallest repeating unit of a crystal lattice

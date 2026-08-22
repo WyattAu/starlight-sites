@@ -684,6 +684,17 @@ secondary. The input voltage is 230 V. Calculate the output voltage. **Solution:
 days. What will the activity be after 32 days? **Solution:** 32 days / 8 days per half-life = 4
 half-lives. Activity = 800 x (1/2)^4 = 800 x 1/16 = 50 Bq.
 
+
+```mermaid
+flowchart TD
+    A[Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 GCSE Physics covers energy (stores, transfers, efficiency, specific heat capacity, specific latent

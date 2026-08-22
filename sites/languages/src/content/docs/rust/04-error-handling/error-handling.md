@@ -849,6 +849,17 @@ fn handle_error(err: &dyn Error) {
     every `Result` is verbose and error-prone. The `?` operator is the idiomatic way to propagate
     errors. Use `match` only when you need to handle specific error variants differently.
 
+
+```mermaid
+flowchart TD
+    A[Error Handling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical

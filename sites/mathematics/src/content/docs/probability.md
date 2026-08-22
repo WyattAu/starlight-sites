@@ -496,6 +496,17 @@ $\blacksquare$
 
 Probability quantifies uncertainty. The expected value is not a value you expect to see — it is the long-run average if you repeated the experiment forever. Variance measures how spread out the outcomes are around that average. Conditional probability is the mechanism for updating beliefs: given new evidence, you restrict to the subset of outcomes consistent with that evidence and renormalise. The law of total probability says you can compute any probability by conditioning on a partition of the sample space and averaging. Generating functions encode an entire distribution as a single function, turning convolutions of random variables into products of functions — a powerful algebraic shortcut.
 
+
+```mermaid
+flowchart TD
+    A[Probability] --> B[Key Definitions]
+    A --> C[Main Theorems]
+    A --> D[Applications]
+    B --> E[Core concepts]
+    C --> F[Proof techniques]
+    D --> G[Problem solving]
+```
+
 ## Summary
 
 - Sample spaces, events, and sigma-algebras provide the rigorous foundation for probability theory.

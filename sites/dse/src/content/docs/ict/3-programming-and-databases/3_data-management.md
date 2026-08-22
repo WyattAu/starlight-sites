@@ -826,6 +826,17 @@ easy-to-use Privacy dashboard.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[3_Data Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 including key principles and practical applications.

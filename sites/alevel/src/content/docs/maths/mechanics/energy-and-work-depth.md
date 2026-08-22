@@ -552,6 +552,17 @@ $\blacksquare$
 
 Work and energy are two ways of describing the same thing: a force pushing an object through space is like money changing hands. When you do work on a box by pushing it up a ramp, you are transferring energy from your muscles into the box's gravitational potential bank account. Friction is like a tax collector who takes a cut at every step, converting useful energy into heat that you cannot get back. Conservation of energy is the universe's balanced ledger: the total never changes, it only moves between accounts. The power equation P = Fv tells you how fast you are making deposits.
 
+
+```mermaid
+flowchart TD
+    A[Energy And Work Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Work done: $W = Fs\cos\theta$; kinetic energy: $\mathrm{KE} = \frac{1}{2}mv^2$; gravitational PE:

@@ -774,6 +774,17 @@ Static initialization order problem entirely.
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
+
+```mermaid
+flowchart TD
+    A[5_C_Interop] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of c-interop and ffi, including the key equations,

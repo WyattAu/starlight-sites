@@ -602,6 +602,17 @@ Reduce the MTU on the VPN interface to 1360-1420 and test.
 WireGuard private keys must be unique per peer. Reusing keys across servers or clients causes
 Routing conflicts and security vulnerabilities. Generate a new key pair for every peer.
 
+
+```mermaid
+flowchart TD
+    A[Vpn And Tunneling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to vpn and tunneling, including key

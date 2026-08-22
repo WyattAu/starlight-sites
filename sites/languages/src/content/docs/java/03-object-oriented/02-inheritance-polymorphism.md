@@ -893,6 +893,17 @@ public class Stack&lt;E&gt; {
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[02 Inheritance Polymorphism] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of inheritance and polymorphism, including underlying theory,

@@ -468,6 +468,17 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Water And Carbon Cycles] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - The water cycle is driven by solar energy and gravity, moving water between atmosphere,

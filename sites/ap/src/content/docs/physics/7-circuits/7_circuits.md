@@ -453,6 +453,17 @@ Conserved.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[7_Circuits] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of circuits, including the key equations, experimental

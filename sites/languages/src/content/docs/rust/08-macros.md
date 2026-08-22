@@ -1636,6 +1636,17 @@ Names that include parts of the input.
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
 | `insta`                 | Snapshot testing (useful for proc macro output)            |
 
+
+```mermaid
+flowchart TD
+    A[08 Macros] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of macros, including underlying theory, practical

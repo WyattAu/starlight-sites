@@ -1766,6 +1766,17 @@ the suspect's relationship to Other potential sources of DNA is relevant in fore
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_Genetics Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of genetics advanced, including key concepts,

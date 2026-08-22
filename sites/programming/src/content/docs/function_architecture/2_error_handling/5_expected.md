@@ -805,6 +805,17 @@ int main() {
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
+
+```mermaid
+flowchart TD
+    A[5_Expected] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to monadic error handling —

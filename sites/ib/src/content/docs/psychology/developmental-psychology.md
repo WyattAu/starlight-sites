@@ -184,6 +184,17 @@ children and tracking change over time:
 | Vygotsky (1978)                       | Sociocultural theory of development | Argued that cognitive development occurs through social interaction within the ZPD, where scaffolding by a more knowledgeable other enables the child to achieve higher cognitive functions.        |
 | Steinberg (2008)                      | Adolescent risk-taking              | Reviewed evidence for the dual-systems model: the socioemotional system matures earlier than the cognitive-control system, explaining heightened risk-taking in mid-adolescence.                    |
 
+
+```mermaid
+flowchart TD
+    A[Developmental Psychology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Developmental psychology examines behavioural and mental changes across the lifespan, focusing on

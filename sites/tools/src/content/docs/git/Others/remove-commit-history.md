@@ -158,6 +158,17 @@ Force-pushing to shared branches disrupts all collaborators. Before rewriting hi
 - For truly sensitive data (credentials, tokens), consider rotating the leaked secrets entirely
   rather than relying solely on history removal, since forks and clones may retain the data.
 
+
+```mermaid
+flowchart TD
+    A[Remove Commit History] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

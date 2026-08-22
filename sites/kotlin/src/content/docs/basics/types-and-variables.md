@@ -282,6 +282,17 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
 - \*\* Using `lateinit` for properties that can be initialized in the constructor. If the value is
   known at construction time, pass it as a constructor parameter.
 
+
+```mermaid
+flowchart TD
+    A[Types And Variables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical

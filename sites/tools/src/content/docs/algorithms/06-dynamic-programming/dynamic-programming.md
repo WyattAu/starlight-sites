@@ -941,6 +941,17 @@ DP is applicable when a problem has these characteristics:
 - Greedy works (the greedy choice property holds)
 - The problem is on a tree/graph with no obvious DP state (may need tree/graph-specific techniques)
 
+
+```mermaid
+flowchart TD
+    A[Dynamic Programming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of dynamic programming, including underlying theory, practical

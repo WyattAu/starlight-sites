@@ -520,6 +520,17 @@ m). The discrepancy suggests an experimental issue or different scattering geome
 | [Particle Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/physics/nuclear-physics/04-particle-physics)              |
 | [Particle Physics] | University | [View](https://university.wyattau.com/docs/physics/7-particle-physics-and-cosmology/1_particle-physics-and-cosmology) |
 
+
+```mermaid
+flowchart TD
+    A[04 Particle Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

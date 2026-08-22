@@ -1641,6 +1641,17 @@ For the A-Level treatment of this topic, see
 4. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
+
+```mermaid
+flowchart TD
+    A[2_Atomic Structure And Periodicity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

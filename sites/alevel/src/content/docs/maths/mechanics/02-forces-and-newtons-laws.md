@@ -1051,6 +1051,17 @@ Forces are pushes and pulls that change motion. Free body diagrams are like dete
 4. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
+
+```mermaid
+flowchart TD
+    A[02 Forces And Newtons Laws] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

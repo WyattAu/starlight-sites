@@ -369,6 +369,17 @@ $|PED_x| + |PED_m| = 0.6 + 0.5 = 1.1 > 1$
 The Marshall-Lerner condition is satisfied: a depreciation of Country A's currency will improve the
 trade balance (after the J-curve adjustment period).
 
+
+```mermaid
+flowchart TD
+    A[2 Exchange Rates] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Exchange rates** can be floating, fixed, or managed (dirty float)

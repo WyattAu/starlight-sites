@@ -1124,6 +1124,17 @@ right-angled at $A$.
    using previous work.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/geometries.md
 
+
+```mermaid
+flowchart TD
+    A[8_Geometries] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

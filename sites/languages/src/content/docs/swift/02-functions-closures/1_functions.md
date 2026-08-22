@@ -692,6 +692,17 @@ m[0, 1] = 5.0
 print(m[0, 1])  // 5.0
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Swift functions are first-class values that can be stored, passed, and returned. Closures provide

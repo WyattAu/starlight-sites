@@ -560,6 +560,17 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 **The key insight:** `std::future` is blocking by design — for composable async workflows, use coroutines with custom task types instead.
 
+
+```mermaid
+flowchart TD
+    A[5_Futures_Promises] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Concept                          | Standard Reference | Key Feature                                          |

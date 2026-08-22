@@ -578,6 +578,17 @@ therapeutic applications have proven effective. However, its lack of scientific 
 bias, and limited applicability to severe mental disorders mean it is best used as one perspective
 among several, complementing rather than replacing other approaches.
 
+
+```mermaid
+flowchart TD
+    A[1_Approaches In Psychology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The six approaches in psychology offer different perspectives on human behaviour:

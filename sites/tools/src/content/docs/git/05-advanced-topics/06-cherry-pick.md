@@ -679,6 +679,17 @@ Cherry-pick does not. If you cherry-pick a fix to main, notify the team — espe
 The original commit, who may not realize their fix is being applied elsewhere and may re-merge the
 Same changes.
 
+
+```mermaid
+flowchart TD
+    A[06 Cherry Pick] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of cherry-pick, including underlying theory, practical

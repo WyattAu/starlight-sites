@@ -719,6 +719,17 @@ When working with step preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
+
+```mermaid
+flowchart TD
+    A[Step Preparation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - STEP (Sixth Term Examination Paper) consists of STEP 2 and STEP 3, each a 3-hour paper with 12

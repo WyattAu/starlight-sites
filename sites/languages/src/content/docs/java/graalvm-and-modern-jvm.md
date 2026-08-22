@@ -1454,6 +1454,17 @@ Need additional configuration.
 - Native image requires Visual Studio Build Tools with the C++ workload.
 - The FFM API uses `LoadLibrary`/`GetProcAddress`. DLLs must be on `PATH`.
 
+
+```mermaid
+flowchart TD
+    A[Graalvm And Modern Jvm] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of graalvm and modern jvm, including underlying theory,

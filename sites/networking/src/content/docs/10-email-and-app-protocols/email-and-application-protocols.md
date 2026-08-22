@@ -1269,6 +1269,17 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 
 4. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
+
+```mermaid
+flowchart TD
+    A[Email And Application Protocols] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

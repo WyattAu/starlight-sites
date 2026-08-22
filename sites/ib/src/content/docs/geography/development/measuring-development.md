@@ -251,6 +251,17 @@ For related topics, see [./trade-and-aid](./trade-and-aid) and
 4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
+
+```mermaid
+flowchart TD
+    A[Measuring Development] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

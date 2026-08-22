@@ -898,6 +898,17 @@ When `InterruptedException` is caught, the thread's interrupt flag is **automati
 You do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
 Cooperative cancellation in the caller breaks.
 
+
+```mermaid
+flowchart TD
+    A[01 Exceptions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of exception handling, including underlying theory, practical

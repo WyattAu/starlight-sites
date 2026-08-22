@@ -1152,6 +1152,17 @@ After POST processing, so the Back button returns to the form, not the POST requ
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Web Development And Multimedia] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 multimedia, including key theories, case studies, and management strategies.

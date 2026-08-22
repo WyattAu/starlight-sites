@@ -830,6 +830,17 @@ function isUSD(value: number): value is USD {
 This assertion is true because the brand is erased. For meaningful runtime validation, add Actual
 checks.
 
+
+```mermaid
+flowchart TD
+    A[Advanced Patterns] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of advanced patterns, including underlying theory, practical

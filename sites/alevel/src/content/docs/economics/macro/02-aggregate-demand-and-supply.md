@@ -1174,6 +1174,17 @@ the financing method (tax-funded vs debt-funded).
 4. Neglecting to consider the ceteris paribus assumption when analysing multi-variable economic
    scenarios.
 
+
+```mermaid
+flowchart TD
+    A[02 Aggregate Demand And Supply] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -714,6 +714,17 @@ c - d; t3 = t1_ t2; x = t3. The three-address code uses temporary variables t1, 
 instruction has at most one operator on the right side. A basic block contains these four
 instructions in sequence.
 
+
+```mermaid
+flowchart TD
+    A[Compilers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Lexical analysis** converts source to tokens using regex and finite automata.

@@ -21,6 +21,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Independent Study] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Independent historical research is assessed in two components of the IB History course: the Internal Assessment (IA), a historical investigation of up to 2,200 words (20% at SL and HL), and the Extended Essay (EE), a 4,000-word research essay on a topic of the student's choosing (counted toward the diploma score). Both require the application of rigorous historical methodology, critical engagement with sources, and the construction of a sustained, evidence-based argument.

@@ -743,6 +743,17 @@ Phosphates), leading to excessive growth of algae and subsequent oxygen depletio
 - Using phosphate-free detergents.
 - Reducing livestock density near waterways.
 
+
+```mermaid
+flowchart TD
+    A[2_Ecology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of ecology, including key concepts, experimental

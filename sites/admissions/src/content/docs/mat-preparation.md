@@ -676,6 +676,17 @@ When working with mat preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
+
+```mermaid
+flowchart TD
+    A[Mat Preparation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - The MAT (Mathematics Admissions Test) is a 2.5-hour paper used by Oxford and Imperial for maths

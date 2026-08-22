@@ -1588,6 +1588,17 @@ Higher biodiversity generally leads to greater ecosystem stability:
   count of the number of species. Species diversity (e.g., Simpson's Diversity Index) takes both
   species richness AND evenness (relative abundance of each species) into account\*\* :::
 
+
+```mermaid
+flowchart TD
+    A[2_Biodiversity And Conservation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 concepts, experimental evidence, and real-world applications.

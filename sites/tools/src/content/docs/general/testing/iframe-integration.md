@@ -371,6 +371,17 @@ Note that Dartpad's theme does not inherit from the parent page. It must be set 
 URL. If the site supports dark mode toggling, the Dartpad theme will not switch dynamically without
 JavaScript intervention.
 
+
+```mermaid
+flowchart TD
+    A[Iframe Integration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to iframe integration, including

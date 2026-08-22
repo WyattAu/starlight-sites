@@ -1318,6 +1318,17 @@ And maintaining custom platform channels across Android, iOS, macOS, Windows, an
 Significant maintenance burden. Use Pigeon if you must write custom channels to reduce the
 Boilerplate and type-safety risks.
 
+
+```mermaid
+flowchart TD
+    A[01 Platform Integration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to platform integration,

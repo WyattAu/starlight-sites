@@ -555,6 +555,17 @@ std::formatter specialisation is like teaching std::format how to print your cus
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
 
+
+```mermaid
+flowchart TD
+    A[6_Std_Formatter] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to custom formatting with

@@ -934,6 +934,17 @@ Trade-offs:
 
 **The key insight:** Test early, test often — catching bugs early is much cheaper than fixing them in production.
 
+
+```mermaid
+flowchart TD
+    A[2_Testing And Deployment] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir provides a comprehensive testing and deployment story:

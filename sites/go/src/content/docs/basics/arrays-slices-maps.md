@@ -347,6 +347,17 @@ Structs containing slices or maps are not comparable.
 6. **Struct embedding is not inheritance.** There is no `super` call, no method overriding in the
    OOP sense. Embedding is composition with syntactic sugar for field/method promotion.
 
+
+```mermaid
+flowchart TD
+    A[Arrays Slices Maps] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of arrays, slices, and maps, including underlying theory,

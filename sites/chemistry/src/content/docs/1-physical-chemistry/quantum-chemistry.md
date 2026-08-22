@@ -453,6 +453,17 @@ where $E_0$ is the true ground state energy. This underpins the Hartree-Fock and
    Hartree-Fock level with frozen orbitals. **Fix:** For DFT, the HOMO energy approximates IP but not
    exactly (Janak's theorem).
 
+
+```mermaid
+flowchart TD
+    A[Quantum Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Schrödinger equation:** $\hat{H}\psi = E\psi$; foundation of quantum chemistry.

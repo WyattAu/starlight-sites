@@ -269,6 +269,17 @@ A drainage basin is a complete water machine: precipitation enters, water is sto
 4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
+
+```mermaid
+flowchart TD
+    A[Drainage Basins And Hydrology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

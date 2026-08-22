@@ -455,6 +455,17 @@ Further Pure 2 deepens abstract algebra and geometric reasoning. Groups capture 
 - **Confusing $\cosh^{-1}$ domain:** $\cosh^{-1} x$ is defined only for $x \geq 1$. Applying it to
   values outside this domain produces an error.
 
+
+```mermaid
+flowchart TD
+    A[Further Pure 2] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Further Pure 2 extends FP1 material through further complex numbers (Euler's relation, geometry in

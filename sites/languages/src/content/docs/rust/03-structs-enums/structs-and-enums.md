@@ -924,6 +924,17 @@ let opt: Option<i32> = res.ok(); // Some(42)
     are not types — they are constructors. Use the full enum type and pattern match inside the
     function body, or use a newtype wrapper around the variant.
 
+
+```mermaid
+flowchart TD
+    A[Structs And Enums] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of structs and enums, including underlying theory, practical

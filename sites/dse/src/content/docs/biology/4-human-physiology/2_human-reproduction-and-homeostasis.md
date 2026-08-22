@@ -1923,6 +1923,17 @@ under 35; decreasing to less than 5% for women over 42).
   CORTEX (not medulla).** The adrenal medulla is stimulated by the sympathetic nervous system
   (fight-or-flight); the adrenal cortex is stimulated by ACTH from the anterior pituitary\*\* :::
 
+
+```mermaid
+flowchart TD
+    A[2_Human Reproduction And Homeostasis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 key concepts, experimental evidence, and real-world applications.

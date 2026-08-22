@@ -564,6 +564,17 @@ $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \appro
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Analysis And Approaches Question Bank] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Topic                      | Questions | Total Marks | Difficulty Range |

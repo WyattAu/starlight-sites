@@ -695,6 +695,17 @@ be satisfied: Available + P2 alloc = (3,3,2)+(2,0,0) = (5,3,2). Then P4: (5,3,2)
 Then P1: (7,4,3)+(0,1,0)=(7,5,3). Then P3: (7,5,3)+(3,0,2)=(10,5,5). Then P5. Safe sequence: P2, P4,
 P1, P3, P5.
 
+
+```mermaid
+flowchart TD
+    A[Operating Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Processes** are heavyweight units with separate address spaces; **threads** are lightweight and

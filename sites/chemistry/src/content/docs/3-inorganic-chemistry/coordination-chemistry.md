@@ -369,6 +369,17 @@ transitions ($\varepsilon \sim 1$–$100$).
    **Fix:** Use $\mu_{\text{eff}} = \sqrt{4S(S+1) + L(L+1)}\,\mu_B$ when orbital angular momentum is
    not quenched.
 
+
+```mermaid
+flowchart TD
+    A[Coordination Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **CFT:** $d$-orbital splitting in ligand fields; $\Delta_o$ (octahedral),

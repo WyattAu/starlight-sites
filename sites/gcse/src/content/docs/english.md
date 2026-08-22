@@ -448,6 +448,17 @@ forward-looking; Text B is cautionary). For each point, provide evidence from bo
 embedded quotations. Use comparative connectives (similarly, in contrast, whereas, on the other
 hand).
 
+
+```mermaid
+flowchart TD
+    A[English] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 GCSE English Language covers Paper 1 (fiction reading and creative writing) and Paper 2 (non-fiction

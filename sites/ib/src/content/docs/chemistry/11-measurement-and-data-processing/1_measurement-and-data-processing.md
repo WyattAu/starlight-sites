@@ -947,6 +947,17 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 - **Equilibrium constant expressions** → Review
   [..../7-equilibrium/1_equilibrium](../7-equilibrium/1_equilibrium)
 
+
+```mermaid
+flowchart TD
+    A[1_Measurement And Data Processing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of measurement and data processing, including key

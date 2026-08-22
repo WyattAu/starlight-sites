@@ -573,6 +573,17 @@ interface saves time on the exam.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Mathematics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The Mathematics section tests four core domains: Algebra, Advanced Math, Problem Solving and Data

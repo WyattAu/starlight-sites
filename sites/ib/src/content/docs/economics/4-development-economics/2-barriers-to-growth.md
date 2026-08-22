@@ -831,6 +831,17 @@ Workers can be transferred from agriculture to industry as long as the marginal 
 agriculture is below the industrial wage. The surplus generated funds industrial investment, driving
 structural transformation.
 
+
+```mermaid
+flowchart TD
+    A[2 Barriers To Growth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Barriers to growth** include the poverty trap, debt overhang, institutional failure, and

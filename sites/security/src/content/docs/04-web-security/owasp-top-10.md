@@ -677,6 +677,17 @@ OWASP Top 10 is a awareness document, not a compliance checklist. It does not co
 Vulnerabilities. Supplement with ASVS (Application Security Verification Standard), threat modeling,
 And regular penetration testing.
 
+
+```mermaid
+flowchart TD
+    A[Owasp Top 10] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to owasp top 10 (2021) detailed,

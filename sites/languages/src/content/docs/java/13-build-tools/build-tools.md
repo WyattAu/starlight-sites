@@ -987,6 +987,17 @@ Different developers (and CI agents) may have different versions installed, lead
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 Through a PR.
 
+
+```mermaid
+flowchart TD
+    A[Build Tools] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of build tools and dependency management, including underlying

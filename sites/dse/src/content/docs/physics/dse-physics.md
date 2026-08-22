@@ -758,6 +758,17 @@ If you get this wrong, revise: Optics / Curved Mirrors
 4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
+
+```mermaid
+flowchart TD
+    A[Dse Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

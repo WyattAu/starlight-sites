@@ -389,6 +389,17 @@ fi
    production. Prefer thin wrappers around real dependencies and integration tests for critical
    paths.
 
+
+```mermaid
+flowchart TD
+    A[Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - `go test ./...` runs all tests; `*_test.go` files are excluded from production builds.

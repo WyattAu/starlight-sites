@@ -1807,6 +1807,17 @@ Adjacent interval).
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Genetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of genetics, including key concepts, experimental

@@ -494,6 +494,17 @@ affecting households and national accounts.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Global Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Globalisation has increased interconnectedness through trade, investment, migration, and

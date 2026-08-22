@@ -433,6 +433,17 @@ increased.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Hypothesis Testing Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Hypothesis testing: state $H_0$ and $H_1$, choose significance level, calculate test statistic,

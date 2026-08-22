@@ -329,6 +329,17 @@ Interfaces for compatibility.
 - \*\* Using Kotlin extension functions from Java. Extension functions compile to static methods, so
   Java callers must call them explicitly: `ExtensionKt.functionName(receiver, args)`.
 
+
+```mermaid
+flowchart TD
+    A[Interoperability] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of java interoperability, including underlying theory, practical

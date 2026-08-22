@@ -1509,6 +1509,17 @@ Out the PR head:
 This is safe only when the subsequent steps do not execute arbitrary code from the PR (e.g., running
 A static analysis tool on the source code, not running the source code itself).
 
+
+```mermaid
+flowchart TD
+    A[05 Github Actions Ci Cd Patterns] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of github actions ci/cd patterns, including underlying theory,

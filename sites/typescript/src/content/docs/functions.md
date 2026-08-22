@@ -605,6 +605,17 @@ Or more concisely:
 return data.map((item) => callback?.(item) ?? item);
 ```
 
+
+```mermaid
+flowchart TD
+    A[Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key

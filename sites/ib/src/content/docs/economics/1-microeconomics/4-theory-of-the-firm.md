@@ -1791,6 +1791,17 @@ $Q_1 = 100 - 80 + 40 = 60$. $\pi_1 = (40 - 10) \times 60 = 1800$.
 
 With differentiated products, prices are above MC and firms earn positive profits.
 
+
+```mermaid
+flowchart TD
+    A[4 Theory Of The Firm] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the economic theories and principles related to microeconomics, including key

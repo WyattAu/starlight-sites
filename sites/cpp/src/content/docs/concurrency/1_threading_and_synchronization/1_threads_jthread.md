@@ -551,6 +551,17 @@ void constructor_variants() {
    is called. Use `std::promise` to transport exceptions to the joining thread, or catch all
    exceptions inside the thread function and store them.
 
+
+```mermaid
+flowchart TD
+    A[1_Threads_Jthread] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the key events, causes, and consequences related to thread execution

@@ -884,6 +884,17 @@ In sliding window problems, "at most k distinct elements" requires shrinking the
 Count exceeds $k$While "exactly k distinct elements" requires maintaining two windows (one for at
 Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
 
+
+```mermaid
+flowchart TD
+    A[Arrays And Strings] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of arrays and strings, including underlying theory, practical

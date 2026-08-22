@@ -341,6 +341,17 @@ specifically; the Treaty of Paris was the most significant turning point for the
 
 Think of the early British Empire not as a single machine but as a network of competing traders, sailors, and soldiers who happened to fly the same flag. The Glorious Revolution was less a grand ideological moment and more a boardroom takeover that happened to involve armies. The East India Company started as a group of merchants chasing pepper and silk, then stumbled into governing millions of people because no one else was paying attention. The triangular trade resembles a three-legged stool: remove any leg and the entire structure collapses. The Seven Years' War showed that a small island could outmanoeuvre continental empires by controlling sea lanes rather than border territory.
 
+
+```mermaid
+flowchart TD
+    A[1_British Empire] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The British Empire between 1688 and 1763 was shaped by the interaction of commercial ambition,

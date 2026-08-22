@@ -153,6 +153,17 @@ Precision tests of the Standard Model are like checking a clock against atomic t
   due to relative motion. **Fix:** For distant galaxies, cosmological redshift dominates;
   $z \approx H_0 d/c$ for small $z$.
 
+
+```mermaid
+flowchart TD
+    A[13_Precision Tests Of The Standard Model] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Standard Model: quarks, leptons, gauge bosons, Higgs boson; four fundamental forces.

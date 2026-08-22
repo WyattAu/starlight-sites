@@ -318,6 +318,17 @@ Shelley shows what time does to power itself.
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
 
+
+```mermaid
+flowchart TD
+    A[1_Comparative Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Comparative analysis uses the relationship between texts to build more sophisticated arguments

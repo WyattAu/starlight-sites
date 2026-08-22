@@ -453,6 +453,17 @@ by its inability to explain phobias without a clear conditioning event and its n
 and cognitive factors. A comprehensive understanding of phobias requires integrating behavioural,
 biological, and cognitive perspectives.
 
+
+```mermaid
+flowchart TD
+    A[1_Psychopathology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Psychopathology examines the nature, causes, and treatment of mental disorders:

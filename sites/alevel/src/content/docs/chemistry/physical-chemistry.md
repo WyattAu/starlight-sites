@@ -487,6 +487,17 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
 
+
+```mermaid
+flowchart TD
+    A[Physical Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Physical chemistry underpins all other branches of chemistry. The key themes are:

@@ -646,6 +646,17 @@ auto worker_safe = [&b](int id) {
 };
 ```
 
+
+```mermaid
+flowchart TD
+    A[4_Condition_Variables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to condition variables, latches, and

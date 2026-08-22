@@ -434,6 +434,17 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Acids Bases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Acid-Base Concepts
 
 | Concept               | Formula/Definition                                           | Key Point                    |

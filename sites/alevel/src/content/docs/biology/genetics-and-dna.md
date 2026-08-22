@@ -2065,6 +2065,17 @@ specific positions.
 6. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
+
+```mermaid
+flowchart TD
+    A[Genetics And Dna] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

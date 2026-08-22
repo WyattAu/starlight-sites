@@ -770,6 +770,17 @@ $$
 This is why a coin tossed many times gives a proportion of heads close to 0.5, even if short
 Sequences may deviate significantly.
 
+
+```mermaid
+flowchart TD
+    A[4_Probability Statistics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to probability and statistics,

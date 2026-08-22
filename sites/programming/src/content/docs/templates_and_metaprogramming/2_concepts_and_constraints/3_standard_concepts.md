@@ -564,6 +564,17 @@ void process(T val) {
 The fix is to place the more specific overload first, since `std::signed_integral<T>` subsumes
 `std::integral<T>` (every signed integral is an integral, but not vice versa).
 
+
+```mermaid
+flowchart TD
+    A[3_Standard_Concepts] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of standard library concepts, including underlying theory,

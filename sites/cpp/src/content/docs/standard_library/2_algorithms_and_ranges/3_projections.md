@@ -568,6 +568,17 @@ int main() {
 - [Range Materialization](./4_range_materialization.md)
 - [Parallel Algorithms](./5_parallel_algorithms.md)
 
+
+```mermaid
+flowchart TD
+    A[3_Projections] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of projections and callable objects, including underlying

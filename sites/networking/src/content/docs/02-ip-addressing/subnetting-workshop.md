@@ -830,6 +830,17 @@ Accordingly.
 :::caution
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.
 
+
+```mermaid
+flowchart TD
+    A[Subnetting Workshop] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to subnetting workshop, including

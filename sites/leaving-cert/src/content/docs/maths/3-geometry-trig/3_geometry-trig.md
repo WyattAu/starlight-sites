@@ -756,6 +756,17 @@ See the examples integrated throughout the sections above.
 15. Determine whether the vectors $\mathbf{i} + \mathbf{j} + \mathbf{k}$
     $2\mathbf{i} - \mathbf{j} + \mathbf{k}$ And $3\mathbf{i} + 4\mathbf{k}$ are coplanar.
 
+
+```mermaid
+flowchart TD
+    A[3_Geometry Trig] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to geometry and trigonometry,

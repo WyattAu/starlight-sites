@@ -638,6 +638,17 @@ the answer is £180.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Maths Question Bank] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Topic              | Questions | Easy   | Medium | Hard  | Total Marks |

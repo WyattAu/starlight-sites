@@ -891,6 +891,17 @@ Differential Equations with other AP Calculus topics to test synthesis under exa
 See for instructions
 on self-marking and building a personal test matrix.
 :::
+
+```mermaid
+flowchart TD
+    A[4_Differential Equations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to differential equations,

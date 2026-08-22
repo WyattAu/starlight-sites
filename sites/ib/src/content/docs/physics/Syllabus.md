@@ -336,6 +336,17 @@ Might combine:
 
 The IB Physics syllabus is a map of the physical world organized into five territories: how things move (Theme A), what matter is made of (Theme B), how waves travel (Theme C), how fields reach across space (Theme D), and what happens at the smallest scales (Theme E). Each theme builds on the previous ones, much like learning to read before writing essays. The AHL topics are not separate subjects but deeper dives into the same rivers you have already waded into. Knowing the syllabus is like knowing the exam room layout: it reduces anxiety and lets you focus on the physics itself.
 
+
+```mermaid
+flowchart TD
+    A[Syllabus] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

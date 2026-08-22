@@ -301,6 +301,17 @@ At runtime in Kotlin.
 - \*_ Using `List<_>` and then trying to add elements. Star projection makes the list effectively
   read-only for generic types.
 
+
+```mermaid
+flowchart TD
+    A[Generics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical

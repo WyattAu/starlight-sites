@@ -757,6 +757,17 @@ See the examples integrated throughout the sections above.
 18. Describe three ways to improve the performance of a web page. Include both frontend and backend
     techniques.
 
+
+```mermaid
+flowchart TD
+    A[5_Networks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of web design and development, including underlying theory,

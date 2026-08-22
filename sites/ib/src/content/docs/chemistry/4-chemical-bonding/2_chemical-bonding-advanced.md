@@ -1020,6 +1020,17 @@ from the value in methane.
 - **Organic molecular geometry** → Review
   [..../10-organic-chemistry/2_organic-chemistry-advanced](../10-organic-chemistry/2_organic-chemistry-advanced)
 
+
+```mermaid
+flowchart TD
+    A[2_Chemical Bonding Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of chemical bonding (advanced), including key reactions,

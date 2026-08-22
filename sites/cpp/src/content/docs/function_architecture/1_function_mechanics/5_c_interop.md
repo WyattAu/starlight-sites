@@ -771,6 +771,17 @@ Static initialization order problem entirely.
 
 **The key insight:** extern "C" disables name mangling, making C++ functions callable from C code.
 
+
+```mermaid
+flowchart TD
+    A[5_C_Interop] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of c-interop and ffi, including the key equations,

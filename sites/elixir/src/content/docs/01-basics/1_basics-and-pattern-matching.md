@@ -1013,6 +1013,17 @@ Understanding immutability's performance characteristics:
 4. **Caching**: Results of pure functions can be safely cached
 5. **Testing**: No setup/teardown needed for state mutation
 
+
+```mermaid
+flowchart TD
+    A[1_Basics And Pattern Matching] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir's type system is simple but powerful. The combination of basic types (atoms, tuples, lists,

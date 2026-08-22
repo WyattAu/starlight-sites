@@ -513,6 +513,17 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 **Problem:** Write a CFG that generates the language L = {a^n b^n c^n : n >= 1}.
 **Solution:** S -> aBC. B -> aBB (this ensures more a's push B’s onto the middle). C -> cD. D -> cDD (this ensures more c's match). B -> b (terminal). D -> d (terminal). Wait -- this generates a^n b^n c^m which is wrong. The language a^n b^n c^n is not context-free (proven by the pumping lemma for CFLs). No CFG exists for this language. This is a common exam trick question.
 
+
+```mermaid
+flowchart TD
+    A[Automata And Formal Languages] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **DFA** and **NFA** recognize the same **regular languages**, convertible via subset construction.

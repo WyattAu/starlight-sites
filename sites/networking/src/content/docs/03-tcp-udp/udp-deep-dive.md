@@ -823,6 +823,17 @@ Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumE
 watch -n 1 'cat /proc/net/snmp | grep Udp'
 ```
 
+
+```mermaid
+flowchart TD
+    A[Udp Deep Dive] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of udp deep dive, including underlying theory, practical

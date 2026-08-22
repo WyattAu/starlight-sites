@@ -284,6 +284,17 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
 
 Kotlin's type system is designed to eliminate null reference errors at compile time. Non-nullable types are the default, and nullable types require explicit handling through safe calls, Elvis operators, or not-null assertions. Type inference lets the compiler deduce types from context, keeping code concise while maintaining safety. Smart casts reduce boilerplate by automatically casting values after a type check. Together, these features make Kotlin's type system both expressive and safe.
 
+
+```mermaid
+flowchart TD
+    A[Types And Variables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical

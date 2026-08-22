@@ -1894,6 +1894,17 @@ aphasia, Who are aware of and frustrated by their difficulty.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Nervous System] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of nervous system, including key concepts, experimental

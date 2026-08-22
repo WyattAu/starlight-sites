@@ -787,6 +787,17 @@ Multi-step problems in Ratio, Proportion, and Rates of Change often combine two 
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[3_Ratio Proportion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to ratio, proportion, and rates

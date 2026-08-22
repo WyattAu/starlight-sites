@@ -1030,6 +1030,17 @@ uncertain and time-varying.
 4. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
+
+```mermaid
+flowchart TD
+    A[04 Fiscal Policy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

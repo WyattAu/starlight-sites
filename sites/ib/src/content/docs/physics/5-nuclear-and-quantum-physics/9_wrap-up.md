@@ -606,6 +606,17 @@ Diffraction is observable.
 4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
+
+```mermaid
+flowchart TD
+    A[9_Wrap Up] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -766,6 +766,17 @@ much energy is available to the fox? Assume 10% energy transfer efficiency. **So
 receives 10% of 10,000 kJ = 1,000 kJ. Fox receives 10% of 1,000 kJ = 100 kJ. The remaining 90% at
 each level is lost through respiration, excretion, and heat.
 
+
+```mermaid
+flowchart TD
+    A[Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 GCSE Biology covers cell biology (structure, organelles, microscopy, mitosis, meiosis, stem cells),

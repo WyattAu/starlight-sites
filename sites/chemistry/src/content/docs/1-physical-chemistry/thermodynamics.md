@@ -422,6 +422,17 @@ $$K = \prod_i a_i^{\nu_i}$$
    Clausius-Clapeyron equation assumes $V_g \gg V_l$ and ideal gas behavior. **Fix:** Use fugacity
    corrections for high-pressure systems.
 
+
+```mermaid
+flowchart TD
+    A[Thermodynamics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **First Law:** $dU = \delta q + \delta w$; energy conservation.

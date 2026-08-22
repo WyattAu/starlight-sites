@@ -2077,6 +2077,17 @@ If you get this wrong, revise:
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Market Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 theory of the firm, including key models, evidence, and policy implications.

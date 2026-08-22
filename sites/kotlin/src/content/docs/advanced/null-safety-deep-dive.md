@@ -337,6 +337,17 @@ prove it covers the null case.
    for non-null initialization. Accessing it before assignment throws
    `UninitializedPropertyAccessException`, not NPE.
 
+
+```mermaid
+flowchart TD
+    A[Null Safety Deep Dive] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Non-null types are the default in Kotlin; add `?` to make a type nullable.

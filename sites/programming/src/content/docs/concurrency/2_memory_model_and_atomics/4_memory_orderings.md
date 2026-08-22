@@ -525,6 +525,17 @@ Issues like lost updates. A `seq_cst` `fetch_add` is still needed for atomic inc
 // counter.fetch_add(1, memory_order_seq_cst);
 ```
 
+
+```mermaid
+flowchart TD
+    A[4_Memory_Orderings] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of memory orderings, including underlying theory, practical

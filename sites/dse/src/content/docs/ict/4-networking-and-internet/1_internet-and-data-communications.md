@@ -1148,6 +1148,17 @@ Internet -- Modem -- Router -- Central Switch
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Internet And Data Communications] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 communications, including key principles and practical applications.

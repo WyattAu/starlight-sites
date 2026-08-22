@@ -1105,6 +1105,17 @@ Before using `__file__`Or use `getattr(module, '__file__', None)` for defensive 
 
 Modules and packages are Python's organizational system for code. Think of modules as drawers in a filing cabinet, and packages as cabinets with labels. When you import a module, Python searches for it in a specific order, loads it once, and caches it so all importers share the same object. The import system is like a librarian who knows exactly where every book lives and ensures each book is only checked out once per session.
 
+
+```mermaid
+flowchart TD
+    A[06 Modules And Packages] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of modules and packages, including underlying theory, practical

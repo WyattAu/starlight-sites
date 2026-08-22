@@ -874,6 +874,17 @@ See the examples integrated throughout the sections above.
     de Broglie wavelength. Would this electron be suitable for diffraction by a crystal with lattice
     spacing $0.25\mathrm{ nm$? Justify your answer.
 
+
+```mermaid
+flowchart TD
+    A[5_Modern Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of modern physics, including the key equations,

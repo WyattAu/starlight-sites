@@ -466,6 +466,17 @@ Mayo, Ireland.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Glacial Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Glaciers form where accumulation exceeds ablation; they move via basal sliding, internal

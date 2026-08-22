@@ -800,6 +800,17 @@ building a personal test matrix.
 - [Data Representation](../statistics/01-data-representation.md) — Summary statistics from data representation are the inputs for significance tests and confidence intervals.
 - [Correlation and Regression](../statistics/02-correlation-and-regression.md) — Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
 
+
+```mermaid
+flowchart TD
+    A[05 Hypothesis Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

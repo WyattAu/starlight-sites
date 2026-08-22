@@ -1703,6 +1703,17 @@ contamination of cultures and protect the operator from potentially pathogenic o
 - **In bioremediation, "in situ" means treating the pollution on-site, NOT in a laboratory or
   bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\* :::
 
+
+```mermaid
+flowchart TD
+    A[2_Microorganisms And Biotechnology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 key concepts, experimental evidence, and real-world applications.

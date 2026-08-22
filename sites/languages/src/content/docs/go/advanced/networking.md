@@ -447,6 +447,17 @@ client := &http.Client{
    `ListenAndServeTLS`. Do not configure HTTP/2 via `h2` package separately unless you have a
    specific reason.
 
+
+```mermaid
+flowchart TD
+    A[Networking] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - `net.Dial` / `net.Listen` handle TCP; `net.DialUDP` handles UDP. Always set deadlines.

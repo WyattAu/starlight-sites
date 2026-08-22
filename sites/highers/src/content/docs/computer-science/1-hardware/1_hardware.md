@@ -780,6 +780,17 @@ See the examples integrated throughout the sections above.
 25. Describe three differences between DRAM and SRAM. State which is used for main memory and which
     for cache, and explain why.
 
+
+```mermaid
+flowchart TD
+    A[1_Hardware] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of computer systems, including underlying theory, practical

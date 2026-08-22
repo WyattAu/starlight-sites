@@ -326,6 +326,17 @@ loc, _ := time.LoadLocation("America/New_York")
 t, _ := time.ParseInLocation("2006-01-02 15:04", "2026-05-30 14:30", loc)
 ```
 
+
+```mermaid
+flowchart TD
+    A[Strings And Time] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of strings and time in Go, including underlying theory,

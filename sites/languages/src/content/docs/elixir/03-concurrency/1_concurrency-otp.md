@@ -843,6 +843,17 @@ end
 
 **The key insight:** Supervision trees turn failure from a catastrophe into a routine event — each process is disposable, and the system's reliability comes from the restart strategy, not from preventing crashes.
 
+
+```mermaid
+flowchart TD
+    A[1_Concurrency Otp] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir's concurrency model is built on lightweight processes, message passing, and the OTP

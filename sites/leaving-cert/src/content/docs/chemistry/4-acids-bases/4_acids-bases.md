@@ -723,6 +723,17 @@ Partially dissociated.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Acids Bases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Acid-Base Concepts
 
 | Concept               | Formula                                                      | Key Point                   |

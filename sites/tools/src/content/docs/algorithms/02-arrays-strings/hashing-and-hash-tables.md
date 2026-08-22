@@ -938,6 +938,17 @@ Use a bloom filter for membership testing (set membership), count-min sketch for
 Estimation, and HyperLogLog for cardinality estimation. Each is optimised for a different query type
 And cannot substitute for another.
 
+
+```mermaid
+flowchart TD
+    A[Hashing And Hash Tables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of hashing and hash tables, including underlying theory,

@@ -986,6 +986,17 @@ of aluminium from bauxite ore via the Bayer process.
 - **Bonding and structure (ionic vs covalent)** → Review
   [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
 
+
+```mermaid
+flowchart TD
+    A[1_Periodicity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of periodicity, including key reactions, underlying

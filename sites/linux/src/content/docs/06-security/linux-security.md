@@ -806,6 +806,17 @@ grep root /etc/passwd
 The mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
 Configuration changes.
 
+
+```mermaid
+flowchart TD
+    A[Linux Security] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of linux security, including underlying theory, practical

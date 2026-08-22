@@ -763,6 +763,17 @@ See the examples integrated throughout the sections above.
 8. Prove that bubble sort correctly sorts an array by showing that after $k$ passes, the $k$ largest
    elements are in their final positions.
 
+
+```mermaid
+flowchart TD
+    A[2_Programming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of algorithms and programming, including underlying theory,

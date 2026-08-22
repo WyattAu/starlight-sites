@@ -919,6 +919,17 @@ void shouldWriteToTempFile() throws IOException {
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of testing in java, including underlying theory, practical

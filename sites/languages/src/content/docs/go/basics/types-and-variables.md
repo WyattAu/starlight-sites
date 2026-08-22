@@ -333,6 +333,17 @@ type Rune = int32
    wraps on overflow without any runtime error. Use `math/bits` or explicit checks when overflow is
    a concern.
 
+
+```mermaid
+flowchart TD
+    A[Types And Variables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical

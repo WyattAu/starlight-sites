@@ -668,6 +668,17 @@ tag Alongside the pointer, or use hazard pointers.
    the other, even if they are logically independent. Pad atomics to cache line boundaries to
    prevent this.
 
+
+```mermaid
+flowchart TD
+    A[3_Atomic_Operations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of atomic operations and lock-free programming, including

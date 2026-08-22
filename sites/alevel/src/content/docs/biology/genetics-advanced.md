@@ -2274,6 +2274,17 @@ White ($ccP\_$, $C\_pp$, $ccpp$): $\frac{7}{16} \times 160 = 70$.
 
 Ratio: **90 purple : 70 white**. $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Genetics Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Epistasis produces modified dihybrid ratios (9:3:4, 12:3:1, 9:7, 15:1, 13:3) depending on how

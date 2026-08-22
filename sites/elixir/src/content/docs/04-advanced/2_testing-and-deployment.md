@@ -926,6 +926,17 @@ Trade-offs:
 - Test runtimes are longer
 - Complex dependency graphs between sub-apps
 
+
+```mermaid
+flowchart TD
+    A[2_Testing And Deployment] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir provides a comprehensive testing and deployment story:

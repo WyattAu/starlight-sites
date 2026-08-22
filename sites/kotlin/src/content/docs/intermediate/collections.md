@@ -310,6 +310,17 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
   underlying implementation may be mutable. Use `toList()` or `toImmutableList()` (Kotlinx
   Collections) for defensive copies.
 
+
+```mermaid
+flowchart TD
+    A[Collections] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of collections, including underlying theory, practical

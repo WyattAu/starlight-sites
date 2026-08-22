@@ -686,6 +686,17 @@ void selectionSort(int[] arr) {
 | [Object-Oriented Programming] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/02-object-oriented-programming) |
 | [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/8-object-oriented-programming/1_object-oriented-programming) |
 
+
+```mermaid
+flowchart TD
+    A[1_Object Oriented Programming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

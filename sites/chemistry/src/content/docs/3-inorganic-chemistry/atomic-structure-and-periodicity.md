@@ -319,6 +319,17 @@ Trend: Basicity increases down a group; acidity increases across a period.
    **Fix:** Diagonal relationships are trends, not absolute rules; always consider specific
    chemistry.
 
+
+```mermaid
+flowchart TD
+    A[Atomic Structure And Periodicity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Orbital structure:** Quantum numbers $(n, \ell, m_\ell, m_s)$; nodes = $n - 1$.

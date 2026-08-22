@@ -950,6 +950,17 @@ scores.entrySet().stream()
 // Bob: 87, Alice: 95
 ```
 
+
+```mermaid
+flowchart TD
+    A[02 Maps And Sets] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of maps and sets, including underlying theory, practical

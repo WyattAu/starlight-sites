@@ -1533,6 +1533,17 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 - For HL students, pay extra attention to the AHL worked examples (marked with "HL" in the title) as
   these topics appear in Paper 3 and carry significant marks.
 
+
+```mermaid
+flowchart TD
+    A[Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of physics, including the key equations, experimental

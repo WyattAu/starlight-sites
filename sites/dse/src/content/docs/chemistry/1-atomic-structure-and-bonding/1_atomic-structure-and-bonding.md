@@ -510,6 +510,17 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 
 **The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant — electrons are held more tightly.
 
+
+```mermaid
+flowchart TD
+    A[1_Atomic Structure And Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic                  | Key Concept                             | Example                            |

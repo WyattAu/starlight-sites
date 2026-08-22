@@ -896,6 +896,17 @@ A stream in the `closed` state no longer exists on the endpoint. However, the pe
 Stream is closed if the close frame is lost. The endpoint must be prepared to receive frames for a
 Closed stream for a short time window (the maximum of the idle timeout and 3 RTTs).
 
+
+```mermaid
+flowchart TD
+    A[Http 2 And 3] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of http/2 and http/3, including underlying theory, practical

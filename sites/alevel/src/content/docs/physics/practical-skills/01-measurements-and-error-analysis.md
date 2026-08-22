@@ -646,6 +646,17 @@ Result: $n = 1.500 \pm 0.010$.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[01 Measurements And Error Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of measurements and error analysis, including the key

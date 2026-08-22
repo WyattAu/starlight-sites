@@ -732,6 +732,17 @@ The menstrual cycle is controlled by four hormones:
    corpus luteum degenerates, progesterone levels drop, and the uterine lining is shed
    (menstruation).
 
+
+```mermaid
+flowchart TD
+    A[5_Human Body] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of human body systems, including key concepts,

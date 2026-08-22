@@ -283,6 +283,17 @@ $$\mathrm{Area} = \frac{1}{2}|1(6 - (-1)) + 5((-1) - 2) + 3(2 - 6)| = \frac{1}{2
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[9_Coordinate Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic                   | Key Formula                                                   |

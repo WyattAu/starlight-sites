@@ -732,6 +732,17 @@ Each CMake target to have its own set of rules and variables without polluting t
 - [Build Caching](4_build_caching.mdx)
 - [Unit Tests](5_unit_tests.mdx)
 
+
+```mermaid
+flowchart TD
+    A[2_Ninja_And_Parallelism] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to ninja build system and

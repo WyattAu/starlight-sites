@@ -850,6 +850,17 @@ async with get_resource():
     pass
 ```
 
+
+```mermaid
+flowchart TD
+    A[03 Context Managers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of context managers and the with statement, including underlying

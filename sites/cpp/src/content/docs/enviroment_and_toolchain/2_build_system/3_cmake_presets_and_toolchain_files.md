@@ -573,6 +573,17 @@ Instead. If you target both platforms, use generator-specific presets:
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[3_Cmake_Presets_And_Toolchain_Files] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to cmake presets and toolchain

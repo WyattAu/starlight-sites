@@ -710,6 +710,17 @@ int main() {
 `get_expensive()` concurrently. Internally, it uses a combination of atomic flags and a mutex, but
 The fast path (already initialized) is a single atomic load.
 
+
+```mermaid
+flowchart TD
+    A[3_Mutexes_Deadlocks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to mutexes, shared locks, and

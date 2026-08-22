@@ -828,6 +828,17 @@ In game theory DP, the standard formulation computes the value that the current 
 Guarantee. A common mistake is to assume both players play optimally for the same objective. In
 Zero-sum games, player 1 maximises while player 2 minimises. Getting this wrong inverts the result.
 
+
+```mermaid
+flowchart TD
+    A[Dp Patterns] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of dynamic programming patterns, including underlying theory,

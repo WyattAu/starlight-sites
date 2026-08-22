@@ -573,6 +573,17 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 This table shows that hydrogen bonding produces dramatically higher boiling points than Other IMF
 types for similar molar masses.
 
+
+```mermaid
+flowchart TD
+    A[2_Bonding And Intermolecular Forces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Types of Chemical Bonds Compared
 
 | Property                     | Ionic              | Nonpolar Covalent     | Polar Covalent  | Metallic                |

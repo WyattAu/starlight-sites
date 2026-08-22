@@ -827,6 +827,17 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
     slower. Use `#[repr(C)]` or `#[repr(align(N))]` when interfacing with C or when alignment
     matters.
 
+
+```mermaid
+flowchart TD
+    A[Types And Variables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical

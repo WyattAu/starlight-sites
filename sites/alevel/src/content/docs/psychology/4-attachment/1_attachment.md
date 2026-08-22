@@ -460,6 +460,17 @@ demonstrate that recovery is possible, particularly with early intervention, sup
 of a sensitive rather than critical period. The research has had significant practical impact on
 childcare and adoption policy worldwide.
 
+
+```mermaid
+flowchart TD
+    A[1_Attachment] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Attachment research demonstrates the critical importance of early emotional bonds:

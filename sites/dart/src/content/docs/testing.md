@@ -750,6 +750,17 @@ testWidgets('navigates to detail on tap', (tester) async {
    sense of security. A single well-structured test that exercises a real edge case is worth more
    than ten tests that assert nothing meaningful.
 
+
+```mermaid
+flowchart TD
+    A[Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Dart and Flutter provide a layered testing framework: unit tests for logic, widget tests for UI

@@ -1070,6 +1070,17 @@ $$2(1)^3 + p(1)^2 - 5(1) + 3 = 4 \implies 2 + p - 5 + 3 = 4 \implies p = 4$$
 2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/polynomials.md
 
+
+```mermaid
+flowchart TD
+    A[4_Polynomials] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

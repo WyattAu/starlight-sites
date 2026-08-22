@@ -518,6 +518,17 @@ $s_0 = \sqrt{1.7 \times 10^{-10}} = 1.3 \times 10^{-5} \mathrm{ M$.
 
 The common ion effect reduces solubility by a factor of about 7,600.
 
+
+```mermaid
+flowchart TD
+    A[5_Kinetics And Equilibrium] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Rate Laws
 
 | Order | Integrated Law                            | Half-Life            | Units of $k$                   | Linear Plot             |

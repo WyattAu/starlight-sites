@@ -633,6 +633,17 @@ Stack traces reveal implementation details (framework, library versions, file pa
 Attackers craft targeted exploits. Return generic error messages in production; log details
 Server-side.
 
+
+```mermaid
+flowchart TD
+    A[Api Security] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to api security, including key

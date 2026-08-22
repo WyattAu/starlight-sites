@@ -521,6 +521,17 @@ GCSE Maths is like learning a musical instrument -- you need both theory (formul
 **Problem:** A bag contains 3 red and 2 blue counters. Two counters are drawn without replacement. Find the probability that both are red.
 **Solution:** P(first red) = 3/5. P(second red | first red) = 2/4 = 1/2. P(both red) = 3/5 x 1/2 = 3/10.
 
+
+```mermaid
+flowchart TD
+    A[Maths] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 GCSE Mathematics covers number (fractions, decimals, percentages, ratio, standard form, bounds), algebra (simplifying, expanding, factorising, solving equations, inequalities, sequences, functions, graphs), geometry (angles, circles, Pythagoras, trigonometry, transformations, vectors), and statistics (averages, grouped data, scatter graphs, cumulative frequency, box plots, probability, tree diagrams, conditional probability). Key exam skills include showing all working, reading questions twice to identify exact requirements, estimating answers to check reasonableness, and managing time at roughly one mark per minute.

@@ -448,6 +448,17 @@ dart pub global deactivate fvm
 rm -rf ~/.fvm
 ```
 
+
+```mermaid
+flowchart TD
+    A[01 Installation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of installation, including underlying theory, practical

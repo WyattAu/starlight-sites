@@ -1161,6 +1161,17 @@ That can be chosen orthonormal.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Matrices And Transformations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary of Key Results
 
 | Concept                         | Formula / Result                                                                            |

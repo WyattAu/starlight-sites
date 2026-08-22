@@ -918,6 +918,17 @@ internally call `dependOnInheritedWidgetOfExactType`.
 
 **The key insight:** Flutter's "everything is a widget" philosophy means complex UIs are built by nesting simple widgets — mastering composition is the key to Flutter mastery.
 
+
+```mermaid
+flowchart TD
+    A[02 Widgets And Lifecycle] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of widgets and lifecycle, including underlying theory, practical

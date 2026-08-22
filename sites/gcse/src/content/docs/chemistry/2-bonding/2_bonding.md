@@ -897,6 +897,17 @@ Multi-step problems in Bonding often combine two or more concepts. Break the pro
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[2_Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of bonding, including key reactions, underlying theories,

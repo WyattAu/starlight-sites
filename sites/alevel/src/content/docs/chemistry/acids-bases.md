@@ -1267,6 +1267,17 @@ self-marking and building a personal test matrix.
 
 **Acids and bases are like opposite personalities — one gives protons, the other accepts them, creating balance.**
 
+
+```mermaid
+flowchart TD
+    A[Acids Bases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of acids, bases and buffers, including key reactions,

@@ -324,6 +324,17 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Generic type assertion ambiguity.** When type parameters appear in the same signature position
    as concrete types, inference may fail. Specify type arguments explicitly in such cases.
 
+
+```mermaid
+flowchart TD
+    A[Generics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical

@@ -989,6 +989,17 @@ $\mathrm{C}_8\mathrm{H}_{16}\mathrm{O}_3$.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Mole Concept And Stoichiometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 including key reactions, underlying theories, and practical applications.

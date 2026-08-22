@@ -1138,6 +1138,17 @@ Because they render more on projectors and screens, especially at larger sizes a
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_Office Applications] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 depth, including key principles and practical applications.

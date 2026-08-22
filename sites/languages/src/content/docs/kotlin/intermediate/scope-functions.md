@@ -354,6 +354,17 @@ val server = ServerBuilder()
   receiver and is used as a grouping mechanism. The extension `run` operates on an object and is
   used to compute a result.
 
+
+```mermaid
+flowchart TD
+    A[Scope Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers Kotlin scope functions and their practical usage patterns, including when to use

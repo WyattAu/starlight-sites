@@ -710,6 +710,17 @@ Loop or cache it in a register, without emitting any CPU barrier instructions.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
+
+```mermaid
+flowchart TD
+    A[1_Instruction_Reordering] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of instruction reordering and happens-before, including

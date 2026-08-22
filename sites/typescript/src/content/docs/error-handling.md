@@ -769,6 +769,17 @@ Error boundaries in React do not catch errors in:
 Use error boundaries only for rendering errors. For all other error scenarios, use standard
 `try`/`catch` with the Result pattern or assert functions.
 
+
+```mermaid
+flowchart TD
+    A[Error Handling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical

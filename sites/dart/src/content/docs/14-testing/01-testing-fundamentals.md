@@ -1402,6 +1402,17 @@ Everyone ignores — at which point the golden test has zero value. Run
 Than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
 It as a floor, not a ceiling, and supplement it with code review of assertion quality.
 
+
+```mermaid
+flowchart TD
+    A[01 Testing Fundamentals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of testing fundamentals, including underlying theory, practical

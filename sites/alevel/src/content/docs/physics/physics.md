@@ -131,6 +131,17 @@ identify gaps.
 | nano   | n      | $10^{-9}$  |
 | pico   | p      | $10^{-12}$ |
 
+
+```mermaid
+flowchart TD
+    A[Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

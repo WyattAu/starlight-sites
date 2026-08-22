@@ -797,6 +797,17 @@ This pattern provides fast bump-pointer allocation within each thread, completel
 Allocator contention. The trade-off is that individual deallocations are not supported — only bulk
 Deallocation of the entire pool.
 
+
+```mermaid
+flowchart TD
+    A[5_Thread_Local_Storage] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary of Synchronization Primitives
 
 | Primitive                 | C++ Standard      | Use Case                 | Reusable |

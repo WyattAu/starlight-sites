@@ -2144,6 +2144,17 @@ $t_{0.05, 24} = 1.711$. Since $1.875 > 1.711$, reject $H_0$ at the 5% level.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[6_Probability And Statistics] --> B[Key Definitions]
+    A --> C[Main Theorems]
+    A --> D[Applications]
+    B --> E[Core concepts]
+    C --> F[Proof techniques]
+    D --> G[Problem solving]
+```
+
 ## Summary
 
 - Continuous distributions: PDF integrates to 1; CDF gives cumulative probability.

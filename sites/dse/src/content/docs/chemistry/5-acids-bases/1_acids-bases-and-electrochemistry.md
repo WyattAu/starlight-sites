@@ -626,6 +626,17 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 
 **The key insight:** Buffers resist pH change by absorbing or releasing protons — they're the body's way of maintaining equilibrium despite constant disturbances.
 
+
+```mermaid
+flowchart TD
+    A[1_Acids Bases And Electrochemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic          | Key Formula                                                                       | Key Concept                 |

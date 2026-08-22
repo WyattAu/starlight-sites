@@ -302,6 +302,17 @@ reality. Terror and propaganda were effective but never achieved total control o
 
 The Weimar Republic was like a bridge built from two ends that never quite met in the middle: democratic ideals from one side, entrenched military and aristocratic traditions from the other. The Depression was the truck that proved the bridge was not strong enough. Hitler did not storm the building; he was handed the keys by people who thought they could control him, like hiring a wolf to guard the sheep. The Nazi state itself resembled a corporation with too many rival departments, each pursuing its own agenda while competing for the boss's approval. This chaos, paradoxically, made the regime more dangerous, not less.
 
+
+```mermaid
+flowchart TD
+    A[1_Weimar Nazi Germany] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The Weimar Republic was born in crisis, briefly stabilised, and destroyed by economic collapse and

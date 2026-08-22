@@ -303,6 +303,17 @@ Flood management is the art of choosing between fighting water and making room f
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
+
+```mermaid
+flowchart TD
+    A[Flood Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

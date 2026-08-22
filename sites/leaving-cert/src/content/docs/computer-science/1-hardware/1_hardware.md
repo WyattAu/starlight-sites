@@ -840,6 +840,17 @@ See the examples integrated throughout the sections above.
 14. Add the binary numbers 10110110 and 01101101. Show all working including carries.
 15. Draw a truth table for a full adder. Show all eight rows for inputs A, B, and carry-in.
 
+
+```mermaid
+flowchart TD
+    A[1_Hardware] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of computer systems, including underlying theory, practical

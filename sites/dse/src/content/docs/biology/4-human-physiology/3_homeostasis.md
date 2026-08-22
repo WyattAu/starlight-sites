@@ -1252,6 +1252,17 @@ During the fight-or-flight response, the adrenal medulla releases adrenaline, wh
 - **The renal threshold is the blood glucose concentration at which glucose first appears in the
   urine (~9-10 mmol/L), NOT the normal blood glucose level (~5 mmol/L)** :::
 
+
+```mermaid
+flowchart TD
+    A[3_Homeostasis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 experimental evidence, and real-world applications.

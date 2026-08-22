@@ -640,6 +640,17 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
+
+```mermaid
+flowchart TD
+    A[04 Computer Architecture] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

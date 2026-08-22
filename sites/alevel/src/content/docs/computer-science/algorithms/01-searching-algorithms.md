@@ -738,6 +738,17 @@ Sorted.
 
 5. **Miscounting comparisons in binary search traces.** Each iteration of binary search involves exactly one comparison (A[mid] vs target). Students sometimes count multiple comparisons per iteration or forget that the loop termination condition itself is a comparison.
 
+
+```mermaid
+flowchart TD
+    A[01 Searching Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -332,6 +332,17 @@ was a catastrophe for the Soviet people, even if it created a superpower.
 
 Russia's twentieth-century journey resembles a house that collapsed and was rebuilt several times, each reconstruction using different blueprints but the same foundation. The Tsarist regime fell not because Lenin was strong but because the existing structure was rotten: war, hunger, and a ruler who could not adapt. Stalin's industrialisation was like forcing a horse to pull a cart at the speed of a train, breaking both horse and cart in the process. The purges created a climate where loyalty mattered more than competence, which nearly cost the USSR the war it ultimately won through sheer sacrifice and vast resources.
 
+
+```mermaid
+flowchart TD
+    A[1_Russia Revolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Russia's journey from Tsarism to Stalinism was shaped by the interaction of long-term structural

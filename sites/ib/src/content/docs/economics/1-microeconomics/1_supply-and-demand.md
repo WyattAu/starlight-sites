@@ -646,6 +646,17 @@ Moving from B to C, the opportunity cost of 30 additional units of food is 20 ma
 additional units of food is 30 machines ($30/20 = 1.5$ machines per unit of food). The increasing
 opportunity cost reflects the concavity of the PPF.
 
+
+```mermaid
+flowchart TD
+    A[1_Supply And Demand] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Scarcity** forces all economic agents to make choices; every choice has an opportunity cost (the

@@ -1853,6 +1853,17 @@ half-life) in patients with adrenal insufficiency.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Human Physiology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of human physiology, including key concepts,

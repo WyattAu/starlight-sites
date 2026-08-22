@@ -1683,6 +1683,17 @@ Not all Dart objects can be sent between isolates. Sendable objects include: pri
 `List` and `Map` of sendable elements, `SendPort``TransferableTypedData`And `Capability`. Non-
 Sendable objects include: closures, `Socket``HttpClient``File``Isolate`And most `dart:io` Types.
 
+
+```mermaid
+flowchart TD
+    A[09 Ffi And Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of ffi and advanced topics, including underlying theory,

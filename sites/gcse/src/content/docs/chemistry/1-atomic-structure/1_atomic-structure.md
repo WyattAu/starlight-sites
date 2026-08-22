@@ -850,6 +850,17 @@ Multi-step problems in Atomic Structure often combine two or more concepts. Brea
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[1_Atomic Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of atomic structure, including key reactions, underlying

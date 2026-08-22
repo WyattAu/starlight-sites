@@ -959,6 +959,17 @@ The previous.
   pattern, not the constraint expression. Do not assume that concept subsumption will select the
   correct class template partial specialization.
 
+
+```mermaid
+flowchart TD
+    A[2_Constraint_Subsumption] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of constraint subsumption and overload resolution, including

@@ -719,6 +719,17 @@ int main() \{
 
 A string is like a rented apartment — you pay for the space and you can change the furniture, but when you leave, the landlord takes it back. A string_view is like borrowing a book from a library — you can read it but you cannot write in it, and you must return it before the library closes. Small String Optimization is like keeping your keys in your pocket instead of in a locker — for short strings, the data lives inside the string object itself, avoiding a trip to the heap. The trade-off is that string_view is a snapshot: if the original string is modified or destroyed, your view becomes a photograph of a demolished building.
 
+
+```mermaid
+flowchart TD
+    A[4_String_Views_Ssox] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to string views and small string

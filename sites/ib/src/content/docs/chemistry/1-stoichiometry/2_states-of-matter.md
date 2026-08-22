@@ -1007,6 +1007,17 @@ what minimum temperature can the substance be liquefied by pressure alone?
 - **Periodic trends affecting physical properties** → Review
   [..../3-periodicity/1_periodicity](../3-periodicity/1_periodicity)
 
+
+```mermaid
+flowchart TD
+    A[2_States Of Matter] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of states of matter, including key reactions, underlying

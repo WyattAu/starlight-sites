@@ -560,6 +560,17 @@ Index `-1`.
 - [Chrono Library](./2_chrono.md)
 - [Random Number Generation](./3_random_numbers.md)
 
+
+```mermaid
+flowchart TD
+    A[4_Regular_Expressions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to regular expressions, including

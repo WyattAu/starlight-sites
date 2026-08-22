@@ -959,6 +959,17 @@ Multi-step problems in Inheritance, Variation, and Evolution often combine two o
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[6_Inheritance Variation Evolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of inheritance, variation, and evolution, including key

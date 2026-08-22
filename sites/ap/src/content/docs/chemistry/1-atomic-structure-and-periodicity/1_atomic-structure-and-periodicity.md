@@ -588,6 +588,17 @@ The decrease from Group 15 to Group 16 occurs because the Group 16 electron pair
 Electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
 The increase in $Z_{\mathrm{eff}$.
 
+
+```mermaid
+flowchart TD
+    A[1_Atomic Structure And Periodicity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Periodic Trends Explained
 
 | Trend             | Direction                  | Explanation                                                       |

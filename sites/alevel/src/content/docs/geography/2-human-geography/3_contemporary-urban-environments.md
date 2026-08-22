@@ -543,6 +543,17 @@ nights.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Contemporary Urban Environments] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Urbanisation is a global trend, with the majority of humanity now living in cities; growth is

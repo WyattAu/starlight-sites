@@ -382,6 +382,17 @@ Some problems cannot be approximated within any constant factor unless P = NP.
 **Problem:** Prove that 3-SAT is NP-hard by reducing from SAT.
 **Solution:** Given a CNF formula phi, transform each clause into a set of exactly 3 literals. For clauses with 1 literal (l), replace with (l OR x OR NOT x) where x is a new variable. For clauses with 2 literals (l1 OR l2), replace with (l1 OR l2 OR x) AND (l1 OR l2 OR NOT x). This produces an equisatisfiable 3-CNF formula in polynomial time. Therefore, 3-SAT is NP-hard. Since 3-SAT is in NP, it is NP-complete.
 
+
+```mermaid
+flowchart TD
+    A[Complexity Theory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Asymptotic notation** ($O$, $\Omega$, $\Theta$, $o$, $\omega$) describes growth rates of functions.

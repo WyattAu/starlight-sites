@@ -840,6 +840,17 @@ lattice and have greater freedom of movement (1 mark).
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
 
+
+```mermaid
+flowchart TD
+    A[Entropy And Gibbs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of entropy and gibbs free energy, including the key

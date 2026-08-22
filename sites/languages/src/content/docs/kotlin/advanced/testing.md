@@ -469,6 +469,17 @@ fun `timeout fires after delay`() = runTest {
   which means you may not notice when the code under test calls methods you did not expect. Use
   strict mocks by default and relax only when necessary.
 
+
+```mermaid
+flowchart TD
+    A[Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical

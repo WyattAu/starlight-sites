@@ -378,6 +378,17 @@ val config = Config().invoke {
   runtime. `KClass` for a value class may not behave as expected -- use the underlying type for
   reflection operations.
 
+
+```mermaid
+flowchart TD
+    A[Metaprogramming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of metaprogramming, including underlying theory, practical

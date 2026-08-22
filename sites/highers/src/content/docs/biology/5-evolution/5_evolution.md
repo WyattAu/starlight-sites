@@ -760,6 +760,17 @@ $\mathrm{NH_3$ Back into the soil. Nitrosomonas converts the $\mathrm{NH_3$ to $
 Nitrobacter Converts $\mathrm{NO_2^-$ to $\mathrm{NO_3^-$. A grass plant absorbs the nitrate through
 its roots.
 
+
+```mermaid
+flowchart TD
+    A[5_Evolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of life on earth, including key concepts, experimental

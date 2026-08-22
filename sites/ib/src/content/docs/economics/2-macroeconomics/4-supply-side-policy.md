@@ -1744,6 +1744,17 @@ New unemployment $= 7 - 2 = 5\%$ (the natural rate). The output gap is fully clo
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[4 Supply Side Policy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the economic theories and principles related to macroeconomics, including key

@@ -176,6 +176,17 @@ assessed on Paper 2 and Paper 3.
   total fertility rate), and evaluating the reliability of development statistics collected by
   different organisations (World Bank, UNDP, national statistical offices).
 
+
+```mermaid
+flowchart TD
+    A[Economic Development] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Economic development in IB Geography examines how development is measured (indicators, HDI, SDGs),

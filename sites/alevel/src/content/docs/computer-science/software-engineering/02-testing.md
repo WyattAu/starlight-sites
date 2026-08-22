@@ -845,6 +845,17 @@ Pull request, and run the full suite nightly.
 
 5. **Writing tests that depend on execution order.** Each test should set up its own state and clean up after itself. Tests that depend on previous tests produce false passes (a bug masked by a prior test) or false failures (a test fails because a previous test didn't clean up).
 
+
+```mermaid
+flowchart TD
+    A[02 Testing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical

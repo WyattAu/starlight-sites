@@ -933,6 +933,17 @@ self-marking and building a personal test matrix.
 
 **Organic chemistry is like a vast city of carbon-based molecules — each with unique structures and personalities.**
 
+
+```mermaid
+flowchart TD
+    A[Organic Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of organic chemistry, including key reactions, underlying

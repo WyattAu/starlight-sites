@@ -556,6 +556,17 @@ go test -tags=integration ./...
    `t.Cleanup` runs after the test and all its subtests finish, making it the correct choice for
    resource teardown.
 
+
+```mermaid
+flowchart TD
+    A[Architecture] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of Go project architecture, including underlying theory,

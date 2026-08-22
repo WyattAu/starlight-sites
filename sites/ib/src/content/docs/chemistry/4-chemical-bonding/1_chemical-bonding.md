@@ -1182,6 +1182,17 @@ Expected trend. (3 marks)
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Chemical Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary: Quick Reference Tables
 
 ### Bond Type Comparison

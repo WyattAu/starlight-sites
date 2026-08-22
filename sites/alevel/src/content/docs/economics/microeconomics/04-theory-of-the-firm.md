@@ -1267,6 +1267,17 @@ limitations of price cap regulation when the X factor is set too generously.
 4. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
 
+
+```mermaid
+flowchart TD
+    A[04 Theory Of The Firm] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

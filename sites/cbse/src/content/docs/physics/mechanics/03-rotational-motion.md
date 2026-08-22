@@ -18,6 +18,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 
 Study notes for CBSE Class 12 physics - Rotational motion.
 
+
+```mermaid
+flowchart TD
+    A[03 Rotational Motion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Key Concepts
 
 - Torque: $\vec{\tau} = \vec{r} \times \vec{F}$, magnitude $\tau = rF\sin\theta$

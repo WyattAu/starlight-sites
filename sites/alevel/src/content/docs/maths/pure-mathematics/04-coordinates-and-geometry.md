@@ -972,6 +972,17 @@ building a personal test matrix.
 - [Vectors](12-vectors.md) — The vector equation of a line and the dot product are applied in coordinate geometry proofs.
 - [Trigonometry](08-trigonometry) — Parametric equations of a circle use sine and cosine functions from trigonometry.
 
+
+```mermaid
+flowchart TD
+    A[04 Coordinates And Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

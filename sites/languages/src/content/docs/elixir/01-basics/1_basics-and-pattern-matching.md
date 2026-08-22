@@ -1019,6 +1019,17 @@ Understanding immutability's performance characteristics:
 
 **The key insight:** In Elixir, `=` is not assignment — it's a match operator that binds variables only if the structure fits. This single concept powers function dispatch, case expressions, and error handling throughout the language.
 
+
+```mermaid
+flowchart TD
+    A[1_Basics And Pattern Matching] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir's type system is simple but powerful. The combination of basic types (atoms, tuples, lists,

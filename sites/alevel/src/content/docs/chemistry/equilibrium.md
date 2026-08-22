@@ -1042,6 +1042,17 @@ self-marking and building a personal test matrix.
 
 **Chemical equilibrium is like a busy restaurant — dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
 
+
+```mermaid
+flowchart TD
+    A[Equilibrium] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of chemical equilibrium, including key reactions,

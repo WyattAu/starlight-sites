@@ -776,6 +776,17 @@ See the examples integrated throughout the sections above.
 8. Write a Haskell function that takes a list of integers and returns the list sorted in descending
    order, using `sortBy` from `Data.List`.
 
+
+```mermaid
+flowchart TD
+    A[4_Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of algorithms and data structures, including underlying theory,

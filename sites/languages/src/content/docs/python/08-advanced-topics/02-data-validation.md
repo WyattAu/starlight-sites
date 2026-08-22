@@ -1120,6 +1120,17 @@ Validation is in effect and makes the codebase harder to maintain. Pick one libr
 Validation tool and use it consistently. If you must interoperate (e.g., using attrs for domain
 Objects and Pydantic for API schemas), keep the boundary between them explicit and minimal.
 
+
+```mermaid
+flowchart TD
+    A[02 Data Validation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of data validation, including underlying theory, practical

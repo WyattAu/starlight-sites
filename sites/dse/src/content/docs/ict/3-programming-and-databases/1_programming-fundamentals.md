@@ -1148,6 +1148,17 @@ END
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Programming Fundamentals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 theory, practical implementation, and key applications.

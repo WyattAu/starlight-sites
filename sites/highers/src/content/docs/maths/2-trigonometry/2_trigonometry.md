@@ -823,6 +823,17 @@ See the examples integrated throughout the sections above.
 
 16. Express $\cos 4\theta$ in terms of $\cos\theta$ using double angle formulae.
 
+
+```mermaid
+flowchart TD
+    A[2_Trigonometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to geometry and trigonometry,

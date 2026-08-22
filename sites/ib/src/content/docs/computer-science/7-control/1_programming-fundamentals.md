@@ -1791,6 +1791,17 @@ END IF
 | [Programming Constructs] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/7-control/1_programming-fundamentals)                   |
 | [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/1_programming-fundamentals)            |
 
+
+```mermaid
+flowchart TD
+    A[1_Programming Fundamentals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -740,6 +740,17 @@ Production at different light intensities.
 - The plant may deplete the $\mathrm{CO_2$ in the water. Using sodium hydrogen carbonate solution
   ensures $\mathrm{CO_2$ is not limiting.
 
+
+```mermaid
+flowchart TD
+    A[1_Cell] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of cell biology, including key concepts, experimental

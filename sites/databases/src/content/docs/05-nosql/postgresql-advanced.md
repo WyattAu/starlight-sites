@@ -1080,6 +1080,17 @@ sub-second lookups on large corpora.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Postgresql Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - PostgreSQL extensions run in-process: install with `CREATE EXTENSION`, verify with

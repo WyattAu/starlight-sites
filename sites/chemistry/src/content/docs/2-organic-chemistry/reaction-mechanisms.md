@@ -371,6 +371,17 @@ No regioselectivity; products are in most cases mixtures.
    slightly inverted due to the leaving group partially blocking one face. **Fix:** Use the ion-pair
    model for accurate stereochemical predictions.
 
+
+```mermaid
+flowchart TD
+    A[Reaction Mechanisms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **S$\_\text{N}$2:** Concerted, backside attack, inversion, $v = k[\text{Nu}][\text{RX}]$,

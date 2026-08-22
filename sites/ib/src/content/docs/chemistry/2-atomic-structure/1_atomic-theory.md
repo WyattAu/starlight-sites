@@ -824,6 +824,17 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 - **Redox half-equations and oxidation states** → Review
   [..../9-redox/2_redox-advanced](../9-redox/2_redox-advanced)
 
+
+```mermaid
+flowchart TD
+    A[1_Atomic Theory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of atomic theory, including key reactions, underlying

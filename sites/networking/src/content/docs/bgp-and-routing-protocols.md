@@ -1284,6 +1284,17 @@ interface Serial0/0.1 multipoint
 This is particularly relevant for RIP and EIGRP, which rely on split horizon for loop prevention.
 OSPF and IS-IS are not affected because they are link-state protocols.
 
+
+```mermaid
+flowchart TD
+    A[Bgp And Routing Protocols] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to bgp and routing protocols,

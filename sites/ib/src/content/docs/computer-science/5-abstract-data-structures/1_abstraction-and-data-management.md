@@ -1635,6 +1635,17 @@ The `teacherID` foreign key in `Subject` enforces that each subject has exactly 
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Abstraction And Data Management] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of abstraction and data management, including underlying theory,

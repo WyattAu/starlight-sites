@@ -940,6 +940,17 @@ $\sigma^2 = 1.079 \times 400 = 431.6$. $\sigma = \sqrt{431.6} \approx 20.8$.
   $\sigma^2 = \frac{\sum f x^2}{\sum f} - \bar{x}^2$ for grouped data with class midpoints. **Fix:**
   Use midpoints $x$ and frequencies $f$; do not use class boundaries directly.
 
+
+```mermaid
+flowchart TD
+    A[12_Dispersion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Mean $\bar{x} = \frac{\sum x_i}{n}$; variance $\sigma^2 = \frac{\sum(x_i - \bar{x})^2}{n}$;

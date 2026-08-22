@@ -1043,6 +1043,17 @@ map.containsKey('nonexistent'); // false — the key does not exist
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
 You need to distinguish between "key absent" and "key present with null value."
 
+
+```mermaid
+flowchart TD
+    A[01 Collections Deep Dive] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of collections deep dive, including underlying theory, practical

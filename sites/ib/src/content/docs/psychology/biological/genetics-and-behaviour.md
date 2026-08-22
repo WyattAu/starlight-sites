@@ -298,6 +298,17 @@ For an overview of biological topics, see
 6. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
+
+```mermaid
+flowchart TD
+    A[Genetics And Behaviour] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

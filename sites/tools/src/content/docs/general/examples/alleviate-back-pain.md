@@ -222,6 +222,17 @@ deeply and do not stretch into pain.
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
+
+```mermaid
+flowchart TD
+    A[Alleviate Back Pain] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

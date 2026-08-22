@@ -151,6 +151,17 @@ $\blacksquare$
   flow. They appear together in the figure of merit $ZT = S^2\sigma T/\kappa$ but are independent
   transport properties.
 
+
+```mermaid
+flowchart TD
+    A[16_Advanced Semiconductor Physics Continued] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Crystal structure: Bravais lattices, reciprocal lattice, Miller indices.

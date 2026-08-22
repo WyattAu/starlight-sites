@@ -835,6 +835,17 @@ defmodule TaskManager.Supervisor do
 end
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Concurrency Otp] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir's concurrency model is built on lightweight processes, message passing, and the OTP

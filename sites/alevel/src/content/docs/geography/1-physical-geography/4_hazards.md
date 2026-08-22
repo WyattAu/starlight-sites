@@ -524,6 +524,17 @@ South Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool H
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Hazards] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Hazards are physical events; disasters result from the intersection of hazards, vulnerable

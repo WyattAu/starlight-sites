@@ -940,6 +940,17 @@ Over `std::function` if copyability is not required. This avoids the internal he
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
+
+```mermaid
+flowchart TD
+    A[4_Move_Constructors_Rvo] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of move constructors, assignment, swap idiom, including

@@ -1168,6 +1168,17 @@ Identify the security issues and provide the corrected values.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[Os Security] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to os security, including key

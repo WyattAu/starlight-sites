@@ -948,6 +948,17 @@ self-marking and building a personal test matrix.
 
 **Chemical bonds are like握手 — atoms sharing or transferring electrons to become more stable.**
 
+
+```mermaid
+flowchart TD
+    A[Bonding And Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of bonding and structure, including key reactions,

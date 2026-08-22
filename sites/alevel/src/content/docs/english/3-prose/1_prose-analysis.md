@@ -297,6 +297,17 @@ confine her.
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
 
+
+```mermaid
+flowchart TD
+    A[1_Prose Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Prose analysis requires attention to narrative voice, characterisation, setting, theme, and

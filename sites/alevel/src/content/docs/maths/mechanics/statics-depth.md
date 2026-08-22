@@ -492,6 +492,17 @@ By symmetry of the cut, $\bar{y} = 4\ \mathrm{cm}$.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Statics Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Equilibrium requires $\sum F_x = 0$, $\sum F_y = 0$, and $\sum M = 0$ about any point.

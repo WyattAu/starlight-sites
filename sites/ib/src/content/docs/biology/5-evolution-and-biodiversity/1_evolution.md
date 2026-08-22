@@ -1902,6 +1902,17 @@ size can Decrease (island dwarfism) or fluctuate depending on environmental cond
 
 **The key insight:** Natural selection acts on phenotypes, not genotypes — it is the observable traits that determine survival and reproduction, even though the underlying genetic changes are what persist across generations.
 
+
+```mermaid
+flowchart TD
+    A[1_Evolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of evolution in depth, including key concepts,

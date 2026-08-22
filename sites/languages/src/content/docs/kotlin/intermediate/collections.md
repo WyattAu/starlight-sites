@@ -314,6 +314,17 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
 
 Collections are containers for groups of related data. Lists store ordered sequences, sets enforce uniqueness, and maps store key-value pairs. Kotlin's collection hierarchy separates read-only from mutable interfaces, making it clear at the type level whether a collection can be modified. Transformation operations like map, filter, and fold let you express data pipelines declaratively, treating collections as streams to be shaped rather than loops to be managed.
 
+
+```mermaid
+flowchart TD
+    A[Collections] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of collections, including underlying theory, practical

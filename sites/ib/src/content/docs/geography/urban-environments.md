@@ -173,6 +173,17 @@ developing countries.
   pollution, waste, and inadequate infrastructure disproportionately affect low-income communities.
   This is a key assessment objective.
 
+
+```mermaid
+flowchart TD
+    A[Urban Environments] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Urban environments in IB Geography covers urbanisation trends (megacities, rates of urbanisation),

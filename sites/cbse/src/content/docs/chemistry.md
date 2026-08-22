@@ -481,6 +481,17 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 **Problem:** A first-order reaction has a rate constant k = 0.0693 min^-1. What fraction of the reactant remains after 20 minutes?
 **Solution:** t_1/2 = 0.693/0.0693 = 10 min. In 20 minutes, that is 2 half-lives. Fraction remaining = (1/2)^2 = 0.25, or 25%. Alternatively: [A] = [A]_0 e^{-kt} = [A]_0 e^{-0.0693 x 20} = [A]_0 e^{-1.386} = [A]_0 x 0.250.
 
+
+```mermaid
+flowchart TD
+    A[Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 CBSE Chemistry covers three branches. Physical chemistry includes atomic structure, bonding, thermodynamics (delta G = delta H - T delta S), equilibrium (Le Chatelier's principle, Kc, Kp), electrochemistry (Nernst equation), kinetics (first-order rate laws, Arrhenius equation), and solutions (colligative properties). Inorganic chemistry covers periodic trends, s-block and p-block properties, transition metal chemistry (variable oxidation states, coordination compounds, crystal field theory). Organic chemistry covers IUPAC nomenclature, hydrocarbons, halogen derivatives (SN1, SN2, E1, E2), oxygen compounds, nitrogen compounds, polymers, and biomolecules. Key exam skills include balancing equations, arrow-pushing mechanisms, and applying named reactions.

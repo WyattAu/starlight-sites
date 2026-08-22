@@ -538,6 +538,17 @@ TSP_RECURSE(cost, path, visited, curr, curr_cost, best):
 **Problem:** Given a set of coin denominations {1, 3, 4} and a target amount of 6, find the minimum number of coins. Does the greedy approach work?
 **Solution:** Greedy: take largest coin first: 4 + 1 + 1 = 3 coins. Optimal: 3 + 3 = 2 coins. Greedy fails here because the coin denominations are not canonical. Dynamic programming: dp[0]=0, dp[1]=1, dp[2]=2, dp[3]=1, dp[4]=1, dp[5]=2, dp[6]=2. Optimal solution: 2 coins (two 3s).
 
+
+```mermaid
+flowchart TD
+    A[Algorithm Design] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Divide and conquer** splits problems into independent subproblems: merge sort, quicksort, Strassen. The Master theorem solves recurrences of the form $T(n) = aT(n/b) + f(n)$.

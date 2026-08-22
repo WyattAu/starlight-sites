@@ -387,6 +387,17 @@ val user = spawn(User)  // User(name=default)
 - \*\* Confusing `object` declarations with anonymous objects. `object` creates a named singleton;
   `object : SomeInterface { ... }` creates an anonymous instance.
 
+
+```mermaid
+flowchart TD
+    A[Classes And Objects] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of classes and objects, including underlying theory, practical

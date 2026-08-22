@@ -829,6 +829,17 @@ When working with imo preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
+
+```mermaid
+flowchart TD
+    A[Imo Preparation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - The IMO consists of 2 days, 3 problems per day, 4.5 hours each; problems span algebra,

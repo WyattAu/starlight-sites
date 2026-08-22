@@ -719,6 +719,17 @@ set(CPM_DOWNLOAD_VERSION 0.40.0)
   properties
 - [Binary Caching](6_binary_caching.md) -- Why CPM lacks binary caching and how to compensate
 
+
+```mermaid
+flowchart TD
+    A[2_Cpm] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to cpm.cmake, including key

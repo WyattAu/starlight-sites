@@ -731,6 +731,17 @@ She can complete 1 full somersault and is partway through a second.
 
 Rotational motion is linear motion wearing a disguise. Every linear equation has a rotational twin: force becomes torque, mass becomes moment of inertia, and velocity becomes angular velocity. Moment of inertia is like rotational mass, but the answer varies based on on how far the mass is spread from the axis, which is why a figure skater spins faster with arms tucked in. Centripetal acceleration is the constant inward tug that keeps objects on circular paths, like a ball on a string that must always be pulled toward the center or the string breaks. Energy conservation links the top and bottom of a vertical circle, telling you exactly how fast you must go.
 
+
+```mermaid
+flowchart TD
+    A[4_Rotational Motion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Quantity                         | Formula                                   |

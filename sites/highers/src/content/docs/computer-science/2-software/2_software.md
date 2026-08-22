@@ -801,6 +801,17 @@ See the examples integrated throughout the sections above.
 18. Describe three advantages and two disadvantages of agile development compared to the waterfall
     model.
 
+
+```mermaid
+flowchart TD
+    A[2_Software] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of software design and development, including underlying theory,

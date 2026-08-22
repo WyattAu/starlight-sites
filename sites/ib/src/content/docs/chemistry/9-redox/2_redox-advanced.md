@@ -1010,6 +1010,17 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 - **Acids, bases, and pH** → Review
   [..../8-acids-and-bases/2_acids-and-bases-advanced](../8-acids-and-bases/2_acids-and-bases-advanced)
 
+
+```mermaid
+flowchart TD
+    A[2_Redox Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of redox reactions (advanced), including key reactions,

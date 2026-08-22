@@ -826,6 +826,17 @@ interface Good {
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[Typescript With React] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of typescript with react, including underlying theory, practical

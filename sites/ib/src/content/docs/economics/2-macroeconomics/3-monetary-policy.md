@@ -807,6 +807,17 @@ $$\pi \approx 8\% - 3\% = 5\%$$
 
 Inflation is approximately 5%.
 
+
+```mermaid
+flowchart TD
+    A[3 Monetary Policy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Monetary policy** uses interest rates and money supply to influence aggregate demand

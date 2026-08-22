@@ -628,6 +628,17 @@ int main() {
   default-constructible, use `std::variant<std::monostate, T, U>` to make the variant itself
   default-constructible.
 
+
+```mermaid
+flowchart TD
+    A[4_Optional_Variant] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to algebraic error handling —

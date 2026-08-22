@@ -928,6 +928,17 @@ To work correctly.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Office Automation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 productivity, including key principles and practical applications.

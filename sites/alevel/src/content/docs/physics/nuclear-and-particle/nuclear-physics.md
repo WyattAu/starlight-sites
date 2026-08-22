@@ -445,6 +445,17 @@ $\lambda t = \ln 16 = 4\ln 2$. $t = 4\ln 2/\lambda = 4t_{1/2} = 4 \times 8.04 = 
 6. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
+
+```mermaid
+flowchart TD
+    A[Nuclear Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -374,6 +374,17 @@ the first-time reader cannot yet fully interpret.
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
 
+
+```mermaid
+flowchart TD
+    A[1_Unseen Text Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Unseen analysis tests your ability to apply analytical skills to unfamiliar texts under pressure

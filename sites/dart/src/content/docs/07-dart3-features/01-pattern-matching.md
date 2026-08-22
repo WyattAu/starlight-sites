@@ -1170,6 +1170,17 @@ if (map case {1: var one}) {
 // if (map case {'1': var one}) { } // ERROR — String key for int-keyed map
 ```
 
+
+```mermaid
+flowchart TD
+    A[01 Pattern Matching] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of pattern matching, including underlying theory, practical

@@ -798,6 +798,17 @@ $k = 2$. Since one vector is a scalar multiple of the other, the points are coll
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_Vectors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to vectors, including key

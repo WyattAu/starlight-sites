@@ -303,6 +303,17 @@ For related topics, see [./measuring-development](./measuring-development) and
 4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
+
+```mermaid
+flowchart TD
+    A[Sustainable Development Goals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

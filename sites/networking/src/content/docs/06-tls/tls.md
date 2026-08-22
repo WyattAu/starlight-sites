@@ -956,6 +956,17 @@ When TLS connections fail, check in this order:
 7. **HSTS:** Check the `Strict-Transport-Security` response header
 8. **Mixed content:** Ensure no HTTP resources are loaded from HTTPS pages
 
+
+```mermaid
+flowchart TD
+    A[Tls] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of tls, including underlying theory, practical implementation,

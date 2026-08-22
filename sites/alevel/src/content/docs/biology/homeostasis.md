@@ -2318,6 +2318,17 @@ responses (drought, cold, salinity) and seed dormancy.
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
 
+
+```mermaid
+flowchart TD
+    A[Homeostasis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

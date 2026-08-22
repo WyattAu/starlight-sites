@@ -292,6 +292,17 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[13_Permutations And Combinations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic             | Formula                                            |

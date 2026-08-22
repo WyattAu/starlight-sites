@@ -1524,6 +1524,17 @@ Alternatives include:
 
 **The key insight:** Functional groups determine reactivity — an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
 
+
+```mermaid
+flowchart TD
+    A[1_Organic Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic                       | Key Concept                                                  | Example                                        |

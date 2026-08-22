@@ -754,6 +754,17 @@ case .failure(let error): showError(error.localizedDescription)
 
 **Explanation:** The retry loop handles transient network errors with exponential backoff. Non-transient errors fail immediately via `.permanent`. After exhausting retries, the function attempts a cache fallback, returning `.fallbackUsed` to indicate degraded data. The `Result` type makes all three outcomes explicit and composable.
 
+
+```mermaid
+flowchart TD
+    A[1_Error Handling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Swift's error handling is explicit and type-safe. Enum-based error types provide structured error

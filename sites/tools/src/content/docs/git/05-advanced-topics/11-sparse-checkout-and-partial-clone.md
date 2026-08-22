@@ -819,6 +819,17 @@ On Git 2.37+, `--cone` is the default, so `git sparse-checkout init` and
 Recommended for documentation and compatibility with older Git versions (where it is silently
 Accepted but not the default).
 
+
+```mermaid
+flowchart TD
+    A[11 Sparse Checkout And Partial Clone] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of sparse checkout and partial clone, including underlying

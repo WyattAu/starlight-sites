@@ -913,6 +913,17 @@ for t in threads: t.join()
 
 Use a `threading.Lock()` around `print()` calls or use the `logging` module which is thread-safe.
 
+
+```mermaid
+flowchart TD
+    A[05 Concurrency Primitives] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of concurrency primitives, including underlying theory,

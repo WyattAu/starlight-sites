@@ -617,6 +617,17 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 **The key insight:** chrono encodes time units in the type system — the compiler catches unit mismatches at compile time, eliminating a common source of subtle bugs.
 
+
+```mermaid
+flowchart TD
+    A[2_Chrono] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

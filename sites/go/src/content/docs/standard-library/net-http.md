@@ -593,6 +593,17 @@ Downstream operations.
 7. **Not checking request body errors.** `r.Body` is a stream. If the client disconnects
    mid-request, Reading from `r.Body` returns an error. Always check errors from `r.Body` reads.
 
+
+```mermaid
+flowchart TD
+    A[Net Http] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of Go's net/http package, including underlying theory, practical

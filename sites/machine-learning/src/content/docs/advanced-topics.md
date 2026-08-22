@@ -623,6 +623,17 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
    configurations against the same validation set implicitly fits to it. Use nested cross-validation
    or a separate test set.
 
+
+```mermaid
+flowchart TD
+    A[Advanced Topics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Modern machine learning rests on a stack of composable building blocks. Transformers replaced

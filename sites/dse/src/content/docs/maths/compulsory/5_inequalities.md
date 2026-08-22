@@ -927,6 +927,17 @@ requires using previous work.
    sides or dividing by variables).
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/inequalities.md
 
+
+```mermaid
+flowchart TD
+    A[5_Inequalities] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

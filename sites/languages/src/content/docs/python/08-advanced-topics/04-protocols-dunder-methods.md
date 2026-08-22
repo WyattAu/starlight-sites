@@ -856,6 +856,17 @@ class User:
         return f"User({self.name!r}, {self.email!r})"
 ```
 
+
+```mermaid
+flowchart TD
+    A[04 Protocols Dunder Methods] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of protocols and dunder methods, including underlying theory,

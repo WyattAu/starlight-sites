@@ -745,6 +745,17 @@ Early embryonic stages of vertebrates are remarkably similar, suggesting a commo
 Example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
 Parts of the ear and throat in mammals) and a post-anal tail.
 
+
+```mermaid
+flowchart TD
+    A[3_Genetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of genetics and evolution, including key concepts,

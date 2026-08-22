@@ -133,6 +133,17 @@ Interdependent.
 6. **Avoid type assertions (`as`)**. Prefer type guards and narrowing. Every `as` is a hole in the
    type system that the compiler cannot verify.
 
+
+```mermaid
+flowchart TD
+    A[Typescript] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

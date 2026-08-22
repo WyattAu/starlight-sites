@@ -88,6 +88,17 @@ Read Committed, can T2 see an inconsistent state?
 reduced by $100. This is a non-repeatable read. At Repeatable Read, T2 would see consistent
 snapshot but may still see phantoms (rows appearing/disappearing in range queries). $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[11_Further Reading] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Normalisation: 1NF (atomic), 2NF (no partial dependencies), 3NF (no transitive dependencies),

@@ -278,6 +278,17 @@ For related topics, see [./atmospheric-systems](./atmospheric-systems) and
 4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
+
+```mermaid
+flowchart TD
+    A[Climate Adaptation And Mitigation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

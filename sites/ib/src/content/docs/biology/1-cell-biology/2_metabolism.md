@@ -1710,6 +1710,17 @@ molecules: $150 \times 6.022 \times 10^{23} = 9.03 \times 10^{25}$ ATP molecules
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_Metabolism] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of metabolism and cell biology, including key concepts,

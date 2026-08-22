@@ -547,6 +547,17 @@ bias. While some psychological findings may be universal (e.g., secure attachmen
 type), the specific expression of behaviour is shaped by cultural context, and psychology must
 account for this diversity to claim scientific validity.
 
+
+```mermaid
+flowchart TD
+    A[1_Issues And Debates] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Issues and debates provide essential frameworks for evaluating psychological research:

@@ -786,6 +786,17 @@ See the examples integrated throughout the sections above.
 3. Heights are normally distributed with mean 170 cm and standard deviation 10 cm. Find the height
     that only 5% of people exceed.
 
+
+```mermaid
+flowchart TD
+    A[5_Statistics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to statistics and probability,

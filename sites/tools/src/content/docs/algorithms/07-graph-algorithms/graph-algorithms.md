@@ -1004,6 +1004,17 @@ The key theorem: a 2-SAT formula is satisfiable if and only if no variable and i
 The same strongly connected component. This gives a linear-time algorithm for a problem that is
 NP-hard for 3-SAT.
 
+
+```mermaid
+flowchart TD
+    A[Graph Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to graph algorithms, including

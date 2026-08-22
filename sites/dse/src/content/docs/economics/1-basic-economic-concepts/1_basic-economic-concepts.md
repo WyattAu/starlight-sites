@@ -1586,6 +1586,17 @@ policy, and international trade.
 
 If you get this wrong, revise: [Opportunity Cost](#opportunity-cost)
 
+
+```mermaid
+flowchart TD
+    A[1_Basic Economic Concepts] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 including key models, evidence, and policy implications.

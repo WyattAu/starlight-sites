@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Concurrency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview of Swift Concurrency
 
 Swift's concurrency model provides **structured concurrency** -- asynchronous tasks are organised in

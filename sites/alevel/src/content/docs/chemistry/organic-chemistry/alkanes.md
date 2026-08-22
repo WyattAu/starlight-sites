@@ -937,6 +937,17 @@ self-marking and building a personal test matrix.
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
 
+
+```mermaid
+flowchart TD
+    A[Alkanes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of alkanes, including key reactions, underlying theories,

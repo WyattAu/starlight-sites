@@ -721,6 +721,17 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Probability] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Distribution | Notation           | $E(X)$ | $\mathrm{Var}(X)$ |

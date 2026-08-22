@@ -560,6 +560,17 @@ V_old with ballot 7. Since the proposer has a majority quorum ({1,2,3} or {2,3,4
 least two acceptors returned V_old, the proposer issues Accept messages with ballot 10 and value
 V_old. Once a majority accepts, V_old is chosen.
 
+
+```mermaid
+flowchart TD
+    A[Distributed Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **CAP theorem:** Distributed systems trade consistency for availability during partitions (PACELC

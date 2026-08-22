@@ -1066,6 +1066,17 @@ Kinetics with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
+
+```mermaid
+flowchart TD
+    A[Kinetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of chemical kinetics, including key reactions, underlying

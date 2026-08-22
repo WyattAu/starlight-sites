@@ -305,6 +305,17 @@ func handler(w http.ResponseWriter, r *http.Request) {
 7. **String-based error matching.** Using `strings.Contains(err.Error(), "not found")` is fragile.
    Use sentinel errors or custom error types with `errors.Is`/`errors.As`.
 
+
+```mermaid
+flowchart TD
+    A[Error Handling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical

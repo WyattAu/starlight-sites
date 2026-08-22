@@ -345,6 +345,17 @@ falls by $80$ billion.
 Effective fiscal stimulus = $200 - 80 = 120$ billion (partial crowding out). If investment falls by
 $200$ billion, full crowding out has occurred and the fiscal policy is ineffective.
 
+
+```mermaid
+flowchart TD
+    A[2 Fiscal Policy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Fiscal policy** uses government spending and taxation to influence aggregate demand

@@ -496,6 +496,17 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Heat Matter] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Energetics and Kinetics
 
 | Concept              | Symbol/Formula                                                            | Notes                                 |

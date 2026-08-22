@@ -560,6 +560,17 @@ Empirical estimates of $\beta$ are mixed:
 - Ignoring the relationship between the current account and the savings-investment gap
   ($CA = S - I$)
 
+
+```mermaid
+flowchart TD
+    A[3 Balance Of Payments] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **The balance of payments** records all international transactions; it consists of the current

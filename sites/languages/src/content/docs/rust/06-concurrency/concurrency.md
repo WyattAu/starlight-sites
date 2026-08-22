@@ -902,6 +902,17 @@ Cannot see).
     If you need to retry a branch, you must restructure your code to loop and recreate the future.
     Consider using `tokio::select!` with a loop pattern for repeated selection.
 
+
+```mermaid
+flowchart TD
+    A[Concurrency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of concurrency, including underlying theory, practical

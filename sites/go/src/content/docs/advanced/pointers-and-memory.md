@@ -272,6 +272,17 @@ Pointers can also be compared to `nil`.
 6. **Not checking escape analysis output.** When performance matters, run `go build -gcflags="-m"`
    and verify that hot-path variables are not unnecessarily escaping to the heap.
 
+
+```mermaid
+flowchart TD
+    A[Pointers And Memory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of pointers and memory, including underlying theory, practical

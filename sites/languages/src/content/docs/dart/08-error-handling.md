@@ -1087,6 +1087,17 @@ void writeLog(String message) async {
 Alternatively, use the `using` pattern from `package:resource` or Dart's `Resource` class (Dart
 3.3+) for scope-bound resource management.
 
+
+```mermaid
+flowchart TD
+    A[08 Error Handling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical

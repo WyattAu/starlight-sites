@@ -1124,6 +1124,17 @@ Note: The second and third dissociations contribute negligible H$^+$ since $K_{a
 - **DSE Acids, Bases, and Salts:**
   [Acids, Bases, and Salts](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases)
 
+
+```mermaid
+flowchart TD
+    A[1_Acids And Bases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of acids and bases, including key reactions, underlying

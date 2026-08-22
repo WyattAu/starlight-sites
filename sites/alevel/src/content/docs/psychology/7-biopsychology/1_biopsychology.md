@@ -527,6 +527,17 @@ that biological processes are optimally timed relative to the external environme
 system is more complex than a simple clock-and-zeitgeber model, with multiple zeitgebers, individual
 differences, and the effects of modern lifestyles all influencing circadian timing.
 
+
+```mermaid
+flowchart TD
+    A[1_Biopsychology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Biopsychology examines the biological basis of behaviour:

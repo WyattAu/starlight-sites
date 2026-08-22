@@ -693,6 +693,17 @@ A sequence is a list of numbers marching toward a destination. Some sequences ma
 - **Proof and reasoning** techniques including induction: see
   [Proof](../1-number-and-algebra/3_proof-and-logic)
 
+
+```mermaid
+flowchart TD
+    A[6_Sequences And Series] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to sequences and series,

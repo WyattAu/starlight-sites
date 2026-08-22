@@ -771,6 +771,17 @@ $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 8. Reflect the point $(2, 5)$ in the line $y = x$ using a matrix method. Verify your answer
     geometrically.
 
+
+```mermaid
+flowchart TD
+    A[4_Vectors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to vectors and matrices,

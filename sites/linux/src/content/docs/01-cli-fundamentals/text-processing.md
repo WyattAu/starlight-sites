@@ -1040,6 +1040,17 @@ sed -i 's/old/new/g' /readonly/file.txt  # may fail
 sed "s/old/new/g" /readonly/file.txt > /tmp/file.txt && sudo cp /tmp/file.txt /readonly/file.txt
 ```
 
+
+```mermaid
+flowchart TD
+    A[Text Processing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of text processing, including underlying theory, practical

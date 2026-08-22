@@ -744,6 +744,17 @@ Devirtualization is the compiler's detective work: it looks at the code and figu
 - [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing.md)
 - [Deducing This and CRTP](./5_deducing_this_crtp.md)
 
+
+```mermaid
+flowchart TD
+    A[3_Devirtualization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of devirtualization and final specifiers, including underlying

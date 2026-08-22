@@ -394,6 +394,17 @@ banning). Eliminate D (analyses one study, not multiple approaches). B is the mo
 - **Re-reading the entire passage for every question.** Read once with the question in mind. For
   subsequent questions, scan for specific content.
 
+
+```mermaid
+flowchart TD
+    A[Advanced Strategies] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Advanced SAT strategies include time management (two-pass system, benchmark times), process of

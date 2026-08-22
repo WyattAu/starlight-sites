@@ -1040,6 +1040,17 @@ Following factors are also critical:
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Computer Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 systems, including key principles and practical applications.

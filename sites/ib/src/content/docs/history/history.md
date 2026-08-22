@@ -621,6 +621,17 @@ Essays.
 4. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
 
+
+```mermaid
+flowchart TD
+    A[History] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

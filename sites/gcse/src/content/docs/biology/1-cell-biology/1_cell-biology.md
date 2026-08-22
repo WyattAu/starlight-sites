@@ -859,6 +859,17 @@ Multi-step problems in Cell Biology often combine two or more concepts. Break th
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[1_Cell Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of cell biology, including key concepts, experimental

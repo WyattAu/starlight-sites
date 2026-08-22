@@ -764,6 +764,17 @@ See the examples integrated throughout the sections above.
 
 12. Use Maclaurin series to evaluate $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$.
 
+
+```mermaid
+flowchart TD
+    A[3_Calculus] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to further calculus, including

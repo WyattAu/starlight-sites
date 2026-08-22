@@ -864,6 +864,17 @@ Using $C(n) = 2C(n/2) + n - 1$: $C(1)=0$$C(2)=1$$C(4)=5$$C(8)=17$. Maximum 17 co
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[3_Algorithms And Programming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of algorithms and programming, including underlying theory,

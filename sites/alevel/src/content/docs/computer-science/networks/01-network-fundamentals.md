@@ -761,6 +761,17 @@ And sends the frame there.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
+
+```mermaid
+flowchart TD
+    A[01 Network Fundamentals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of network fundamentals, including underlying theory, practical

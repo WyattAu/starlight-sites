@@ -837,6 +837,17 @@ dig @ns1.example.com example.com SOA +timeout=2 +tries=1
 echo $?    # 0 = success, non-zero = failure
 ```
 
+
+```mermaid
+flowchart TD
+    A[Dns Architecture] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of dns architecture and operations, including underlying theory,

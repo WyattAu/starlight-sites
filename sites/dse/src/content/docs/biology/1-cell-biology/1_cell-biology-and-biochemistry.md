@@ -583,6 +583,17 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 **The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
 
+
+```mermaid
+flowchart TD
+    A[1_Cell Biology And Biochemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic                   | Key Concept                                       | Location      |

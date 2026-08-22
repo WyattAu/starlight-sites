@@ -810,6 +810,17 @@ The heterozygote advantage maintains both the normal and sickle cell alleles in 
 Explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
 A severe genetic disorder.
 
+
+```mermaid
+flowchart TD
+    A[4_Genetics Adaptation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of genetics and adaptation, including key concepts,

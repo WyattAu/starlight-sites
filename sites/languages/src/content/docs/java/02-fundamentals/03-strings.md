@@ -951,6 +951,17 @@ List<String> lines = text.lines().collect(Collectors.toList());
 "   ".isEmpty();    // false — contains whitespace characters
 ```
 
+
+```mermaid
+flowchart TD
+    A[03 Strings] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of strings and text processing, including underlying theory,

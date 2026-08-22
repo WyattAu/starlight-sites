@@ -594,6 +594,17 @@ D indicates the river has sufficient self-purification capacity.
 - **Describing data without using numbers.** Vague descriptions like "the value increases" are
   insufficient. Reference specific data points to support claims.
 
+
+```mermaid
+flowchart TD
+    A[Science Question Bank] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The SAT science question bank covers experimental design (identifying variables, evaluating methods,

@@ -401,6 +401,17 @@ fun fetchUserProfile(userId: Long): Result<Profile> {
   `LazyThreadSafetyMode.SYNCHRONIZED` adds synchronization overhead. Use `NONE` when the property is
   only accessed from a single thread (e.g., in an Android Activity or a confined coroutine).
 
+
+```mermaid
+flowchart TD
+    A[Delegation And Result] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers Kotlin delegation patterns and the Result type, including practical applications

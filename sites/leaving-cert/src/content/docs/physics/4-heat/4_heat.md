@@ -927,6 +927,17 @@ See the examples integrated throughout the sections above.
 10. Derive the expression for the pressure of an ideal gas from kinetic theory, stating your
     assumptions. Show how this leads to $pV = \frac{1}{3}Nm\overline{v^2}$.
 
+
+```mermaid
+flowchart TD
+    A[4_Heat] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of heat and thermodynamics, including the key

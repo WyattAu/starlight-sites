@@ -791,6 +791,17 @@ and Units with other physics topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
+```mermaid
+flowchart TD
+    A[01 Quantities And Units] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of quantities and units, including the key equations,

@@ -896,6 +896,17 @@ print(t.value)  # None — was it set to None or never set?
 # There's no way to tell with property alone. Track state explicitly if needed.
 ```
 
+
+```mermaid
+flowchart TD
+    A[03 Descriptors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of descriptors and properties, including underlying theory,

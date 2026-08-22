@@ -903,6 +903,17 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
+
+```mermaid
+flowchart TD
+    A[3_Quantitative Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the key concepts of Quantitative Chemistry for GCSE Chemistry. Focus on

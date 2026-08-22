@@ -136,6 +136,17 @@ Mechanics based on your module route.
 | De Moivre | $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ |
 | Maclaurin | $f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\ldots$              |
 
+
+```mermaid
+flowchart TD
+    A[Further Maths] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

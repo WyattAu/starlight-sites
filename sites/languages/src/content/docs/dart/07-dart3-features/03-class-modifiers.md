@@ -936,6 +936,17 @@ class TestApiClient extends ApiClient {
 `final` only restricts external code. Within the same library, you can extend `final` classes. This
 Is useful for test doubles and internal implementation variants.
 
+
+```mermaid
+flowchart TD
+    A[03 Class Modifiers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of class modifiers, including underlying theory, practical

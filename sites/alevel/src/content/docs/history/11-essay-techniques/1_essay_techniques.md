@@ -213,6 +213,17 @@ agitation, the arms race, and specific leaders' decisions. The most accurate int
 that the alliance system was the most significant enabling condition, but the war resulted from
 multiple causes, none individually sufficient.
 
+
+```mermaid
+flowchart TD
+    A[1_Essay_Techniques] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Strong A-Level History essays combine specific knowledge with systematic analysis. The PEEL

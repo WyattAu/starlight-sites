@@ -418,6 +418,17 @@ interview offers a practical method for improving EWT accuracy, though it is not
 limitations. A balanced approach, combining laboratory control with real-world research, provides
 the most complete understanding of eyewitness reliability.
 
+
+```mermaid
+flowchart TD
+    A[1_Memory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Memory research reveals a complex, multi-component system:

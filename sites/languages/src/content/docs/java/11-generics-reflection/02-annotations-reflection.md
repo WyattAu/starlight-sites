@@ -908,6 +908,17 @@ The module system restricts reflective access to non-exported packages, affectin
 Into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
 Classes. The long-term fix is to use public APIs instead of reaching into internals via reflection.
 
+
+```mermaid
+flowchart TD
+    A[02 Annotations Reflection] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of annotations and reflection, including underlying theory,

@@ -459,6 +459,17 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 - [Build Caching](../2_build_system/4_build_caching.mdx) — CMake and build-system-level caching
 - [Code Coverage](../2_build_system/6_code_coverage.mdx) — Instrumented builds (should not be cached)
 
+
+```mermaid
+flowchart TD
+    A[6_Binary_Caching] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of binary caching, including underlying theory, practical

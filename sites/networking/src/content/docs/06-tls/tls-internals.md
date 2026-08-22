@@ -18,6 +18,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Tls Internals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 This document goes deeper into TLS internals than the TLS fundamentals document, covering the record

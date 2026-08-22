@@ -174,6 +174,17 @@ clinical populations:
 | Seligman (1971)           | Learned helplessness                | Dogs exposed to inescapable shock failed to escape avoidable shock in a subsequent condition, proposing learned helplessness as a model for depression.                              |
 | Healy and Whitaker (2003) | Cultural bias in diagnosis          | Demonstrated that Western diagnostic criteria may pathologise culturally normative behaviours, such as categorising spiritual experiences as psychotic symptoms.                     |
 
+
+```mermaid
+flowchart TD
+    A[Abnormal Psychology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Abnormal psychology (HL) examines how psychological disorders are defined, classified, and explained

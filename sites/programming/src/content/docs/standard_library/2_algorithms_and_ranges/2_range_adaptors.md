@@ -848,6 +848,17 @@ int main() {
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
+
+```mermaid
+flowchart TD
+    A[2_Range_Adaptors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

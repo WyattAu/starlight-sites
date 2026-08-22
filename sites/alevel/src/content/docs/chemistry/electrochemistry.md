@@ -1010,6 +1010,17 @@ self-marking and building a personal test matrix.
 
 **Electrochemistry is like a conversation between electricity and chemistry — electrons flowing to create or consume reactions.**
 
+
+```mermaid
+flowchart TD
+    A[Electrochemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of electrochemistry, including key reactions, underlying

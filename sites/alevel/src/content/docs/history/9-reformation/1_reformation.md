@@ -210,6 +210,17 @@ theological conviction; Protestantism's persistence suggests deeper causes.
 humanist scholarship, political rivalries, and social tensions interacted to produce a permanent
 fracture.
 
+
+```mermaid
+flowchart TD
+    A[1_Reformation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The Reformation was a multi-causal upheaval. Renaissance humanism and the printing press provided

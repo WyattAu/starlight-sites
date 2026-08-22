@@ -1172,6 +1172,17 @@ files=(*.txt)
 ls "${files[@]}"
 ```
 
+
+```mermaid
+flowchart TD
+    A[Bash Scripting] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of bash scripting, including underlying theory, practical

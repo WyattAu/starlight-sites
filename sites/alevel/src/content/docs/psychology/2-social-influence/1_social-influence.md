@@ -391,6 +391,17 @@ differences, cultural factors, and the difficulty of empirically testing the age
 explanatory power. A comprehensive understanding of obedience requires integrating situational and
 dispositional perspectives.
 
+
+```mermaid
+flowchart TD
+    A[1_Social Influence] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Social influence research reveals the powerful effect of others on individual behaviour:

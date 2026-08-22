@@ -384,6 +384,17 @@ important for polar substituents near a reaction center.
    does not contribute to the $\pi$ system; in pyrrole it does. **Fix:** Check whether the lone pair
    is in a $p$ orbital (contributes) or an sp$^2$ orbital (does not).
 
+
+```mermaid
+flowchart TD
+    A[Structure And Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Hybridization:** sp$^3$ (tetrahedral), sp$^2$ (trigonal planar + $p_\pi$), sp (linear + 2

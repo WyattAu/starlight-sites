@@ -497,6 +497,17 @@ The force is attractive (opposite charges).
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Electric Fields Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Coulomb's law: $F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}$; like charges repel, unlike attract.

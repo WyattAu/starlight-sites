@@ -364,6 +364,17 @@ The SAT tests your ability to identify rhetorical strategies:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Reading And Writing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The Reading & Writing section tests four core domains: Information and Ideas, Craft and Structure,

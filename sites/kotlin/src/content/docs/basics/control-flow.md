@@ -314,6 +314,17 @@ val result: String = fail("unreachable")  // type-checks because Nothing is a su
 - \*\* Creating ranges with `..` that are accidentally empty. `10..1` is empty; use `10 downTo 1`.
 - \*\* Assuming `for (i in range)` mutates `i`. The loop variable is a new `val` on each iteration.
 
+
+```mermaid
+flowchart TD
+    A[Control Flow] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical

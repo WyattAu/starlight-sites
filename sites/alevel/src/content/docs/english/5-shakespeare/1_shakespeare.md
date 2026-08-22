@@ -311,6 +311,17 @@ controls narrative and whose version of events survives.
 
 **Shakespeare’s plays are like timeless human stories — love, power, betrayal, and redemption.**
 
+
+```mermaid
+flowchart TD
+    A[1_Shakespeare] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Shakespeare's language — meter, imagery, rhetoric — is the primary focus of A-Level analysis

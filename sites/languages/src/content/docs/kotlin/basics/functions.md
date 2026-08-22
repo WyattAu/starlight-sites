@@ -332,6 +332,17 @@ fun processUser(user: User) {
   code size and can cause longer compilation times. Reserve `inline` for small, frequently called
   functions where the allocation overhead matters.
 
+
+```mermaid
+flowchart TD
+    A[Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key

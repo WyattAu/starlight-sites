@@ -1088,6 +1088,17 @@ The `switch` on the discriminator string is not exhaustive (strings are not seal
 `default` here. This is the one place where sealed class exhaustiveness does not apply — at the
 Serialization boundary where types are erased.
 
+
+```mermaid
+flowchart TD
+    A[02 Sealed Classes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of sealed classes, including underlying theory, practical

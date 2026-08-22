@@ -798,6 +798,17 @@ $$\mathrm{Percentage uncertainty = \frac{0.071}{12.30} \times 100 = 0.58\%$$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3_Stoichiometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Key Stoichiometric Relationships
 
 | Relationship             | Formula                                 | Use                      |

@@ -562,6 +562,17 @@ int main() {
 - [Standard Library Concepts](./3_standard_concepts.md)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
 
+
+```mermaid
+flowchart TD
+    A[4_Sfinae_Vs_Concepts] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of sfinae vs concepts, including underlying theory, practical

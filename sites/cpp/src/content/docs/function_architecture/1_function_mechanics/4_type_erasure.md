@@ -721,6 +721,17 @@ Standard containers require copyable elements (unless you use move-only containe
 `std::vector<std::unique_ptr<std::move_only_function<...>>>`). Plan your data structures accordingly
 When using move-only callables.
 
+
+```mermaid
+flowchart TD
+    A[4_Type_Erasure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of type erasure — function pointers, std::function,

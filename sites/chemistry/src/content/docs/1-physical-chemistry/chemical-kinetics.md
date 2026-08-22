@@ -452,6 +452,17 @@ intermediates. Can measure rate constants up to $\sim 10^{12}$ s$^{-1}$.
    $E_a \approx \Delta^{\ddagger} H^\circ$, but in the gas phase the $RT$ term matters at high
    temperatures.
 
+
+```mermaid
+flowchart TD
+    A[Chemical Kinetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Rate law:** $v = k[A]^m[B]^n$; order determined experimentally.

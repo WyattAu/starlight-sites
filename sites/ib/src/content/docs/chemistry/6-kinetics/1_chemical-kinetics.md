@@ -578,6 +578,17 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Chemical Kinetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Concept                | Key Formula                                                                   |

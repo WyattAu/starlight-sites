@@ -438,6 +438,17 @@ $$r_s = 1 - \frac{6 \times 2.5}{5 \times 24} = 1 - \frac{15}{120} = 1 - 0.125 = 
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Correlation And Regression Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - PMCC: $r = \frac{S_{xy}}{\sqrt{S_{xx} S_{yy}}}$ measures linear correlation; $-1 \leq r \leq 1$.

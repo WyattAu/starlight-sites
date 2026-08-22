@@ -342,6 +342,17 @@ Total stopping distance $= 12 + 33.3 = 45.3\ \text{m}$.
 - **Forgetting that horizontal velocity is constant:** In projectile motion, there is no horizontal acceleration (air resistance is neglected in DSE). Do not apply $v = u + at$ to the horizontal component.
 - **Confusing speed and velocity:** Speed is a scalar; velocity is a vector. A ball thrown vertically upward has constant acceleration (downward) even at the highest point where its velocity is momentarily zero.
 
+
+```mermaid
+flowchart TD
+    A[Kinematics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Kinematics covers the distinction between scalars and vectors, the equations of uniformly accelerated motion (suvat), projectile motion (independent horizontal and vertical components), stopping distance (thinking and braking components), and graphical interpretations of motion (displacement-time and velocity-time graphs). The acceleration due to gravity ($g \approx 9.81\ \mathrm{m\,s^{-2}}$) is constant for free fall near Earth's surface.

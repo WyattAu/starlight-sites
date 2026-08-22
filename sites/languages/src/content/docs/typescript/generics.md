@@ -717,6 +717,17 @@ constrained<any>(42);
 
 This compiles despite `42` not being a `string`. The `any` type circumvents the constraint entirely.
 
+
+```mermaid
+flowchart TD
+    A[Generics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical

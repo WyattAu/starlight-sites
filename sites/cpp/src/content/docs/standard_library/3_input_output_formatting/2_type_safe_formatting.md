@@ -727,6 +727,17 @@ int main() {
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
+
+```mermaid
+flowchart TD
+    A[2_Type_Safe_Formatting] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -570,6 +570,17 @@ Multi-step problems in Essay Writing for GCSE English Literature often combine t
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[4_Essay Writing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the analytical frameworks and techniques relevant to essay writing for gcse

@@ -446,6 +446,17 @@ Further Pure 1 extends familiar algebra into the complex plane and beyond. Compl
 - **Wrong polar area formula:** Use $\frac{1}{2}\int r^2\,d\theta$, not $\int r\,d\theta$. The extra
   $r/2$ factor is frequently missed.
 
+
+```mermaid
+flowchart TD
+    A[Further Pure 1] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Further Pure 1 covers complex numbers (modulus-argument form, de Moivre, roots of unity, loci),

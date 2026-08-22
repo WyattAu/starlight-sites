@@ -1736,6 +1736,17 @@ If you get this wrong, revise: [Financial Development](#financial-development)
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Money And Banking] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 including key models, evidence, and policy implications.

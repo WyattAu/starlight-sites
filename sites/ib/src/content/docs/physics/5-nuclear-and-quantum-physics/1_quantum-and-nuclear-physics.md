@@ -1100,6 +1100,17 @@ Approximately $3.2\,\mathrm{kg}$ of $^{235}\mathrm{U}$ is consumed per day.
 | [Quantum Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics) |
 | [Quantum Physics] | University | [View](https://university.wyattau.com/docs/physics/5-quantum-mechanics/1_quantum-mechanics)                |
 
+
+```mermaid
+flowchart TD
+    A[1_Quantum And Nuclear Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

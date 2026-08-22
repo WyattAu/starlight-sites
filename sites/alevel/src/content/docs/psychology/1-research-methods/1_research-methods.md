@@ -424,6 +424,17 @@ misinterpretation mean that correlations should be used as a starting point for 
 as conclusive evidence. Findings from correlational studies should be followed up with experimental
 or longitudinal designs to investigate causality.
 
+
+```mermaid
+flowchart TD
+    A[1_Research Methods] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Research methods form the foundation of all psychological investigation. Key points to remember:

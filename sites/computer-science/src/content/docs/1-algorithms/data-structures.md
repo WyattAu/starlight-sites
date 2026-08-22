@@ -639,6 +639,17 @@ h(k) = k mod 7. **Solution:** h(10)=3, h(22)=1, h(31)=3, h(4)=4, h(15)=1, h(28)=
 [28]. Slot 1: [22, 15]. Slot 3: [10, 31, 17]. Slot 4: [4]. Slots 2, 5, 6: empty. Load factor = 7/7
 = 1. Average search time with chaining = O(1 + alpha) = O(2).
 
+
+```mermaid
+flowchart TD
+    A[Data Structures] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Arrays** give $O(1)$ random access; **linked lists** give $O(1)$ insert/delete at known

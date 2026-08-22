@@ -723,6 +723,17 @@ For revision on programming fundamentals, see
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
+
+```mermaid
+flowchart TD
+    A[02 Object Oriented Programming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

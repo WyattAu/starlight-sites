@@ -803,6 +803,17 @@ Carboxylic acid, providing a route to chain-elongated compounds.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Organic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Key Organic Reactions
 
 | Reactant          | Reagent                             | Product               | Reaction type             |

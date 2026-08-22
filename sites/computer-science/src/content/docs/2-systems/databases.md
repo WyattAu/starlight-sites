@@ -537,6 +537,17 @@ violate 3NF (D and E do not depend on the key directly, only through C). Decompo
 R2(C, D), R3(D, E). All are in 3NF. Lossless join is guaranteed because R1 intersection R2 = {C} is
 a candidate key for R2.
 
+
+```mermaid
+flowchart TD
+    A[Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - The **relational model** organizes data into relations with keys and foreign keys, manipulated via

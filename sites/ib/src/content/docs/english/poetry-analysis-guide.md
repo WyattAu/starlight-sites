@@ -786,6 +786,17 @@ Significant.
 [Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis.md).
 The analytical techniques described in this guide apply equally to prose and drama.
 
+
+```mermaid
+flowchart TD
+    A[Poetry Analysis Guide] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the analytical frameworks and techniques relevant to poetry analysis guide for ib

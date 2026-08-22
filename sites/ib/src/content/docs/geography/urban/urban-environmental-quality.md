@@ -268,6 +268,17 @@ Cities are thermal machines. Concrete and asphalt absorb solar radiation like a 
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
+
+```mermaid
+flowchart TD
+    A[Urban Environmental Quality] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

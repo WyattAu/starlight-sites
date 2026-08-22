@@ -446,6 +446,17 @@ Holderness Coast is a well-known example, extending approximately 5.5 km across 
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Coastal Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Coastal systems are shaped by erosion (hydraulic action, abrasion, attrition, solution),

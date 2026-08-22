@@ -854,6 +854,17 @@ d2 = {}
 Use `defaultdict` when you intentionally want default values. For configuration or structured data
 Access, prefer regular dicts to catch typos early.
 
+
+```mermaid
+flowchart TD
+    A[02 Dicts Sets Counter] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of dicts, sets, and collections deep dive, including underlying

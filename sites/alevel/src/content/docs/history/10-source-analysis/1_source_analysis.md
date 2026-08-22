@@ -226,6 +226,17 @@ testimonies.
 **Conclusion**: Valuable as official contemporaneous evidence but must be read critically and
 corroborated by other sources.
 
+
+```mermaid
+flowchart TD
+    A[1_Source_Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Source analysis requires systematic evaluation using the OPVL framework — origin, purpose, value,

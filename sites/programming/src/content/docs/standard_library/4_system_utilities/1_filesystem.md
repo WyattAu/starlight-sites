@@ -616,6 +616,17 @@ void atomic_write(const fs::path& target, std::string_view content) {
 
 **The key insight:** `std::filesystem` provides platform-independent file operations — write once, run on any OS.
 
+
+```mermaid
+flowchart TD
+    A[1_Filesystem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

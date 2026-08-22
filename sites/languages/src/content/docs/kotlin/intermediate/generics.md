@@ -297,6 +297,17 @@ At runtime in Kotlin.
 
 Generics let you write code that works with any type while maintaining type safety. Think of a generic class as a mold that can produce objects of different types depending on what you pour in. Variance controls how subtypes relate: covariant types can only produce values (like a source), contravariant types can only consume values (like a sink), and invariant types do both. Type erasure means generic information disappears at runtime, which is why reified types use inline functions to preserve type information at compile time.
 
+
+```mermaid
+flowchart TD
+    A[Generics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical

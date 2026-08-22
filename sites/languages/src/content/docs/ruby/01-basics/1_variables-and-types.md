@@ -848,6 +848,17 @@ Integer("abc")     # => ArgumentError
 "key=value".split("=")          # => ["key", "value"]
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Variables And Types] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table of Core Types
 
 | Type     | Example        | Mutable | Notes                                  |

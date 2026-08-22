@@ -758,6 +758,17 @@ open class PublicClass {
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Classes And Structs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Swift's type system separates value types (structs) from reference types (classes), each with

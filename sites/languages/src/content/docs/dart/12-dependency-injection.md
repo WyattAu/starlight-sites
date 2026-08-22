@@ -1238,6 +1238,17 @@ And how they're resolved. Pick one primary approach and be consistent. If using 
 Riverpod providers for all Flutter-specific dependencies and reserve `get_it` for non-Flutter Dart
 Services if needed.
 
+
+```mermaid
+flowchart TD
+    A[12 Dependency Injection] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of dependency injection, including underlying theory, practical

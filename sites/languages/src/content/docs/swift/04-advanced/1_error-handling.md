@@ -592,6 +592,17 @@ func decodeUser(from data: Data) -> Result<User, Error> {
 }
 ```
 
+
+```mermaid
+flowchart TD
+    A[1_Error Handling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Swift's error handling is explicit and type-safe. Enum-based error types provide structured error

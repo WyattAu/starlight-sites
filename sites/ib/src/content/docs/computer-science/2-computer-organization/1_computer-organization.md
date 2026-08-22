@@ -828,6 +828,17 @@ Final value at address 152: **25** (which is $42 - 17$).
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Computer Organization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of computer organizations, including underlying theory,

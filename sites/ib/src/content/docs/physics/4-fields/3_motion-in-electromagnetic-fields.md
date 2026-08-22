@@ -848,6 +848,17 @@ $$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\te
 
 $$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
 
+
+```mermaid
+flowchart TD
+    A[3_Motion In Electromagnetic Fields] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Magnetic force: $\vec{F} = q\vec{v} \times \vec{B}$, perpendicular to both $v$ and $B$

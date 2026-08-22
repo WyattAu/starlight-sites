@@ -720,6 +720,17 @@ percentage yield. (Mr CaCO3 = 100, Mr CaO = 56) **Solution:** CaCO3 -> CaO + CO2
 10/100 = 0.1 mol. Theoretical moles CaO = 0.1 mol. Theoretical mass = 0.1 x 56 = 5.6 g. Percentage
 yield = (5.0/5.6) x 100 = 89.3%.
 
+
+```mermaid
+flowchart TD
+    A[Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 GCSE Chemistry covers atomic structure (subatomic particles, isotopes, electron configuration),

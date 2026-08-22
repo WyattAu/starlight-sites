@@ -1800,6 +1800,17 @@ PCR is a technique used to amplify a specific region of DNA in vitro (outside a 
   bases in the repeat are the same between individuals; what varies is how many times the repeat
   occurs\*\* :::
 
+
+```mermaid
+flowchart TD
+    A[1_Genetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 experimental evidence, and real-world applications.

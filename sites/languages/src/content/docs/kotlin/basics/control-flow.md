@@ -318,6 +318,17 @@ val result: String = fail("unreachable")  // type-checks because Nothing is a su
 
 Control flow structures determine the order in which code executes. Kotlin treats if, when, and try as expressions that return values, eliminating the need for a ternary operator. The when expression is a powerful pattern matcher that can check ranges, types, and arbitrary conditions. Ranges provide a concise syntax for iteration. Labeled returns allow fine-grained control over lambda execution. These constructs make Kotlin code more declarative and less verbose than traditional imperative styles.
 
+
+```mermaid
+flowchart TD
+    A[Control Flow] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical

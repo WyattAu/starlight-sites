@@ -606,6 +606,17 @@ $ git subtree add --prefix=vendor\lib --squash https://github.com/org/library.gi
 $ git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git main
 ```
 
+
+```mermaid
+flowchart TD
+    A[12 Subtrees] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of git subtrees, including underlying theory, practical

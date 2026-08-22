@@ -874,6 +874,17 @@ pool.submit(() -&gt; {
 Same pool. If the pool is fully utilized, all threads will be blocked waiting, and no thread will be
 Available to execute the inner tasks. This is called thread pool deadlock or starvation.
 :::
+
+```mermaid
+flowchart TD
+    A[02 Concurrency Deep Dive] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of concurrency deep dive, including underlying theory, practical

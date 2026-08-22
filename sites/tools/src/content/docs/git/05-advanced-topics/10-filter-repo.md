@@ -781,6 +781,17 @@ After rewriting history, any CI/CD pipelines that reference specific commit SHAs
 - Release notes that reference commit SHAs
 - Issue tracker links that reference commits
 
+
+```mermaid
+flowchart TD
+    A[10 Filter Repo] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of filter-repo (history rewriting), including underlying theory,

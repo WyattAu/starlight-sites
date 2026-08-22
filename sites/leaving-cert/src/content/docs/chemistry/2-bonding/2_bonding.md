@@ -856,6 +856,17 @@ In reality, all four S-O bonds are equivalent due to resonance.
 5. Explain why ice is less dense than liquid water, referring to hydrogen bonding and the structure
     of the ice lattice.
 
+
+```mermaid
+flowchart TD
+    A[2_Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of bonding, including key reactions, underlying theories,

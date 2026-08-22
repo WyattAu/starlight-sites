@@ -930,6 +930,17 @@ Host bastion.trusted-company.com
 If you need SSH agent forwarding (e.g., to access a Git server behind a bastion), use it only on
 Bastion hosts you control and trust.
 
+
+```mermaid
+flowchart TD
+    A[04 Transfer Protocols And Auth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of transfer protocols and authentication, including underlying

@@ -139,6 +139,17 @@ $\blacksquare$
   non-holonomic constraints require Lagrange multipliers. **Fix:** For holonomic constraints,
   express the system in terms of independent generalised coordinates.
 
+
+```mermaid
+flowchart TD
+    A[13_Classical Field Theory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Newton's laws (vector approach) vs Lagrangian mechanics (scalar, energy-based approach).

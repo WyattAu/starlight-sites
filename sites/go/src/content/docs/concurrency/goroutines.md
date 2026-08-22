@@ -316,6 +316,17 @@ Use directional channels in function signatures to make the intended usage expli
 7. **Deadlock with RWMutex.** A goroutine holding `RLock` cannot upgrade to `Lock` -- it must
    release `RLock` first. Attempting to call `Lock()` while holding `RLock()` deadlocks.
 
+
+```mermaid
+flowchart TD
+    A[Goroutines] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of goroutines and synchronization, including underlying theory,

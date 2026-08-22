@@ -988,6 +988,17 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Energetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary of Key Equations
 
 | Equation                                                                                          | Use                                |

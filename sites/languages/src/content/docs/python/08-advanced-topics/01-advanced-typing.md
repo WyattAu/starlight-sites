@@ -1146,6 +1146,17 @@ def len(obj: bytearray) -> int: ...
     can pass `None` unless you explicitly constrain it. Use `bound=` or explicit constraints if the
     type variable should be restricted.
 
+
+```mermaid
+flowchart TD
+    A[01 Advanced Typing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of advanced type system, including underlying theory, practical

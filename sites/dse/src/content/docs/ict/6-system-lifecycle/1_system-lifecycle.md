@@ -861,6 +861,17 @@ and then switch completely. This limits risk without the burden of full parallel
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_System Lifecycle] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 including key principles and practical applications.

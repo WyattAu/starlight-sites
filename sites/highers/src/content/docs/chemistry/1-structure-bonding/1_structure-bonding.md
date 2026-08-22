@@ -389,6 +389,17 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Structure Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Oxidation States of Common Elements
 
 | Element   | Common oxidation states                | Notes                                         |

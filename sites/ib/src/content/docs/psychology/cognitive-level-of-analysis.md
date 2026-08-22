@@ -169,6 +169,17 @@ Cognitive psychology relies on methods that infer internal mental processes from
 | Tversky and Kahneman (1973) | Heuristics and biases        | Demonstrated the availability and representativeness heuristics, showing that people rely on mental shortcuts that lead to predictable, systematic errors in probability judgement.                            |
 | Beck (1967)                 | Cognitive bias in depression | Identified the cognitive triad (negative views of self, world, and future) and negative automatic thoughts as central features of depression, forming the basis of cognitive-behavioural therapy.              |
 
+
+```mermaid
+flowchart TD
+    A[Cognitive Level Of Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The Cognitive Level of Analysis examines mental processes including memory (multi-store model,

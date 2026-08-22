@@ -570,6 +570,17 @@ Energy lost $= 100 - 78.4 = 21.6\ \mathrm{J}$.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[Dynamics Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Newton's second law: $\mathbf{F} = m\mathbf{a}$; always draw a free-body diagram before writing

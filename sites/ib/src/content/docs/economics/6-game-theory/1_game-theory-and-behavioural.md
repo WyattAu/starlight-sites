@@ -2689,6 +2689,17 @@ equilibrium (no run) coexists with the inefficient equilibrium (run).
 **Policy solution:** deposit insurance (FDIC in the US) eliminates the incentive to run by
 Guaranteeing deposits. This changes the payoff structure, eliminating the run equilibrium.
 
+
+```mermaid
+flowchart TD
+    A[1_Game Theory And Behavioural] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the economic theories and principles related to game theory and behavioural

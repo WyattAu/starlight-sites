@@ -794,6 +794,17 @@ Temporary materialization is the bridge between abstract recipes and real object
   but `std::move(T{args})` produces an xvalue, forcing materialization and a move. Just write
   `return T{args};`.
 
+
+```mermaid
+flowchart TD
+    A[3_Temporary_Materialization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of temporary materialization, including underlying theory,

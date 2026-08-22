@@ -917,6 +917,17 @@ build:
     fi
 ```
 
+
+```mermaid
+flowchart TD
+    A[Dev Environment] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the geographical processes and issues related to development environment setup,

@@ -309,6 +309,17 @@ bonding (polar water molecules attract and separate the ions).
   copper ($[\mathrm{Ar}]\,3d^{10}\,4s^1$) are exceptions to the standard filling order due to the
   stability of half-filled and fully filled d-subshells.
 
+
+```mermaid
+flowchart TD
+    A[Atomic Structure And Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Atomic structure and bonding covers subatomic particles, electron configuration, periodic trends,

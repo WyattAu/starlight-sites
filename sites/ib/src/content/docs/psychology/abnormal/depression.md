@@ -273,6 +273,17 @@ For an overview of abnormal psychology topics, see [Abnormal Psychology](../abno
 4. Describing a study without evaluating its methodology (e.g., sample, controls, ecological
    validity).
 
+
+```mermaid
+flowchart TD
+    A[Depression] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -283,6 +283,17 @@ CI with restricted internet).
 7. **Forgetting `go.work sync`.** After adding modules to a workspace, run `go work sync` to update
    `go.mod` files with workspace-relevant information.
 
+
+```mermaid
+flowchart TD
+    A[Modules And Packages] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of modules and packages, including underlying theory, practical

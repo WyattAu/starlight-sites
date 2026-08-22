@@ -779,6 +779,17 @@ $$
 
 This is an arithmetic sequence with first term $T_1 = 6(1) - 2 = 4$ and common difference $d = 6$.
 
+
+```mermaid
+flowchart TD
+    A[5_Number Sequences] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to number sets and sequences,

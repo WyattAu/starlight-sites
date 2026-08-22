@@ -376,6 +376,17 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
 
+
+```mermaid
+flowchart TD
+    A[Biological Molecules] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Biological molecules are the building blocks of life. The key themes:

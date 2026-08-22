@@ -1224,6 +1224,17 @@ for p in Path(".").glob("*.py"):
 
 Use `p.is_file(follow_symlinks=False)` if you want to exclude symlinks to files.
 
+
+```mermaid
+flowchart TD
+    A[02 File Io] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of file i/o, including underlying theory, practical

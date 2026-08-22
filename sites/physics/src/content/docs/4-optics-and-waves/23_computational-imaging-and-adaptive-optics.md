@@ -78,6 +78,17 @@ Computational imaging combines optical hardware with algorithmic processing to o
   math). Fresnel: near-field. **Fix:** Fraunhofer: $a \sin\theta = n\lambda$. Fresnel: requires
   Fresnel integrals or numerical methods.
 
+
+```mermaid
+flowchart TD
+    A[23_Computational Imaging And Adaptive Optics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Phase velocity: $v_p = \omega/k$. Group velocity: $v_g = d\omega/dk$; energy/information travels

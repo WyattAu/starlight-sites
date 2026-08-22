@@ -743,6 +743,17 @@ The same file, and the owner can modify the ACL to add or revoke permissions at 
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
+
+```mermaid
+flowchart TD
+    A[05 Operating Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

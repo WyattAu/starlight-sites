@@ -170,6 +170,17 @@ strategies at different points in the drainage basin.
   afforestation score poorly. Always reference a specific location (e.g., the Three Gorges Dam on
   the Yangtze, or floodplain restoration on the River Severn).
 
+
+```mermaid
+flowchart TD
+    A[Freshwater Issues] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Freshwater issues examines the hydrological cycle, drainage basin systems, flood hydrographs, water

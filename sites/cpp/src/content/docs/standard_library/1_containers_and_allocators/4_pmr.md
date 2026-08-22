@@ -519,6 +519,17 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
+
+```mermaid
+flowchart TD
+    A[4_Pmr] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

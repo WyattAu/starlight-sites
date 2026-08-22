@@ -631,6 +631,17 @@ void stream_state_demo() {
 
 **The key insight:** Stream buffers separate I/O interface from implementation — you can redirect `std::cout` to anywhere by replacing its stream buffer.
 
+
+```mermaid
+flowchart TD
+    A[1_Stream_Buffers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

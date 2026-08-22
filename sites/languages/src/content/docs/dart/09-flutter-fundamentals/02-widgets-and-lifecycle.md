@@ -918,6 +918,17 @@ internally call `dependOnInheritedWidgetOfExactType`.
 
 **The key insight:** StatefulWidget has state that can change; StatelessWidget is immutable — choose based on whether the widget needs to update.
 
+
+```mermaid
+flowchart TD
+    A[02 Widgets And Lifecycle] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of widgets and lifecycle, including underlying theory, practical

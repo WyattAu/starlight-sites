@@ -2255,6 +2255,17 @@ tariff within union). Trade diversion: A now buys from less efficient producer B
 The $0.80$ per unit extra cost is a welfare loss, unless the increased trade volume generates
 sufficient consumer surplus gains to offset it.
 
+
+```mermaid
+flowchart TD
+    A[1 Trade] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Comparative advantage** explains why countries trade: specialisation based on lower opportunity

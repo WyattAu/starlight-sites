@@ -897,6 +897,17 @@ public class MyList implements List<String>, List<Integer> {
 When extending a generic class, you can fix the type parameter, pass it through, or add constraints
 — but you cannot have conflicting erasures.
 
+
+```mermaid
+flowchart TD
+    A[01 Generics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of generics and type erasure, including underlying theory,

@@ -773,6 +773,17 @@ Encryption with the speed of symmetric encryption.
 | [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
 | [Networks] | University | [View](https://university.wyattau.com/docs/computing/3-computer-networks/1_computer-networks)             |
 
+
+```mermaid
+flowchart TD
+    A[1_Networks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

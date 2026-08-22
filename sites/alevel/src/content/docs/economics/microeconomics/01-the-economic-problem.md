@@ -986,6 +986,17 @@ consumer goods at any given level of capital goods production.
 4. Using circular reasoning by assuming the conclusion when evaluating economic policy
    effectiveness.
 
+
+```mermaid
+flowchart TD
+    A[01 The Economic Problem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

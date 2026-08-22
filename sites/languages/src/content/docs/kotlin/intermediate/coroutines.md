@@ -340,6 +340,17 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 
 Coroutines are a way to write asynchronous code that reads like synchronous code. Instead of blocking a thread while waiting for IO, a coroutine suspends and lets other coroutines run, then resumes when the result is ready. Think of coroutines as workers in a restaurant: instead of one waiter standing idle while a dish cooks, they serve other tables and return when the food is ready. Structured concurrency ensures that when the restaurant closes, all workers go home together.
 
+
+```mermaid
+flowchart TD
+    A[Coroutines] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of coroutines, including underlying theory, practical

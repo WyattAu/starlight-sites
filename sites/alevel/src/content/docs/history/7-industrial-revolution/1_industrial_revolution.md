@@ -216,6 +216,17 @@ stability encouraged investment. But: these existed before 1760 without producin
 demographic, financial, and institutional conditions. Industrialisation resulted from the interaction
 of multiple factors.
 
+
+```mermaid
+flowchart TD
+    A[1_Industrial_Revolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The British Industrial Revolution reshaped society, economy, and politics between approximately 1760

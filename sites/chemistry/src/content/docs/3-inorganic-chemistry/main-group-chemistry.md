@@ -370,6 +370,17 @@ S (S$_8$/polymeric), Se (gray/red/black).
 7. **Wrong fluoride bonding model.** Using expanded octets (sp$^3$d$^2$ hybridization) is problematic
    for hypervalent compounds. **Fix:** The 3-center-4-electron model better describes hypervalent bonding.
 
+
+```mermaid
+flowchart TD
+    A[Main Group Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Group 1–2:** s-block metals; reactivity increases down the group; oxides, hydrides, carbonates;

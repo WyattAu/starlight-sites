@@ -1338,6 +1338,17 @@ $$(x+1)(x-1) = 3^2 = 9$$
 
 $$x^2 - 1 = 9 \implies x^2 = 10 \implies x = \sqrt{10}$$ (since $x > 1$)
 
+
+```mermaid
+flowchart TD
+    A[3_Proof And Logic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Proof by induction: verify base case, assume $P(k)$, derive $P(k+1)$

@@ -991,6 +991,17 @@ growth model significantly improves its explanatory power.
 The social return may exceed the private return if education generates positive externalities (e.g.,
 better health outcomes, lower crime, more informed civic participation).
 
+
+```mermaid
+flowchart TD
+    A[1 Measuring Development] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the economic theories and principles related to development economics, including

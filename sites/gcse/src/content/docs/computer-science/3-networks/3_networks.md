@@ -777,6 +777,17 @@ Multi-step problems in Networks often combine two or more concepts. Break the pr
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
 
+
+```mermaid
+flowchart TD
+    A[3_Networks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of networks, including underlying theory, practical

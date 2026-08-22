@@ -1271,6 +1271,17 @@ which process is being described.
    change in tertiary structure.
    > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
+
+```mermaid
+flowchart TD
+    A[2_Immunology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

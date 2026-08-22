@@ -396,6 +396,17 @@ Fix: pass as an argument `go func(val int) { ... }(v)`.
 3. **Range copies values.** Modifying the range variable does not modify the original element. Use
    index-based access for mutations.
 
+
+```mermaid
+flowchart TD
+    A[Control Flow] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical

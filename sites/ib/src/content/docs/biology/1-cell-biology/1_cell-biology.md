@@ -1701,6 +1701,17 @@ $-5\;\mathrm{mV}$), Which is not included in the Goldman equation.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Cell Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the biological principles of cell biology, including key concepts, experimental

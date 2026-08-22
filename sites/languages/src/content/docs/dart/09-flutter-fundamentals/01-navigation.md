@@ -1385,6 +1385,17 @@ Navigator's state. If you need to preserve each tab's navigation history, use
 When building custom pages, always provide a unique `key` ( `state.pageKey`). Without a Stable key,
 Flutter may not properly animate transitions or may incorrectly reuse page state.
 
+
+```mermaid
+flowchart TD
+    A[01 Navigation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of navigation, including underlying theory, practical

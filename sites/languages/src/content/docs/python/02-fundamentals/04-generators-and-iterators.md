@@ -1379,6 +1379,17 @@ Consumed.
 For more on `contextlib.contextmanager`See
 [Essential Modules](../05-standard-library/01-essential-modules.md).
 
+
+```mermaid
+flowchart TD
+    A[04 Generators And Iterators] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of generators and iterators, including underlying theory,

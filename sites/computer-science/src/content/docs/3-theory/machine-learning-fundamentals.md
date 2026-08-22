@@ -591,6 +591,17 @@ using k=3. **Solution:** Distances: to (1,1)=sqrt(2)=1.41 (A), to (1,3)=sqrt(2)=
 on tie-breaking; any combination of 3 points yields either 2A+1B or 2B+1A. The point (2,2) lies
 equidistant from all training data, so the classification is ambiguous.
 
+
+```mermaid
+flowchart TD
+    A[Machine Learning Fundamentals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **Linear regression** (OLS, gradient descent) predicts continuous targets; **logistic regression**

@@ -166,6 +166,17 @@ Research methods in the BLOA reflect its focus on physiological measurement:
 | LeDoux (1996)          | Emotion and brain function    | Identified two neural pathways for fear processing: a fast subcortical route through the amygdala and a slower cortical route, explaining rapid emotional responses.                   |
 | Harlow (1958)          | Attachment (biological basis) | Rhesus monkeys preferred a cloth-covered wire surrogate (contact comfort) over a wire surrogate that provided food, demonstrating that attachment is not solely driven by nourishment. |
 
+
+```mermaid
+flowchart TD
+    A[Biological Level Of Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The Biological Level of Analysis examines how physiological factors (brain structure,

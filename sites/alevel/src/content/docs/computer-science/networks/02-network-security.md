@@ -687,6 +687,17 @@ Final rule should be "deny all" — anything not explicitly permitted is blocked
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
+
+```mermaid
+flowchart TD
+    A[02 Network Security] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of network security, including underlying theory, practical

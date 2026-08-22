@@ -671,6 +671,17 @@ std::unique_ptr<int> make_value_alt() {
 - [Weak References (std::weak_ptr)](4_weak_ptr.md)
 - [Common Pitfalls](5_custom_deleters.md)
 
+
+```mermaid
+flowchart TD
+    A[2_Unique_Ptr] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to unique ownership

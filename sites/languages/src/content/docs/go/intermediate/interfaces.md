@@ -293,6 +293,17 @@ fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 5. **Empty interface in slices.** `[]any` is a common pattern but loses type safety. Since Go 1.18,
    prefer generics: `[]T` where `T` is a type parameter.
 
+
+```mermaid
+flowchart TD
+    A[Interfaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of interfaces, including underlying theory, practical

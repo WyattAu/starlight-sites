@@ -529,6 +529,17 @@ Process A: remove edges to B, C. Queue: [B, C]. Process B: remove edge to D (in-
 Process C: remove edge to D (in-degree D becomes 0). Queue: [D]. Process D: remove edge to E. Queue:
 [E]. Process E. Topological order: A, B, C, D, E (or A, C, B, D, E -- both valid).
 
+
+```mermaid
+flowchart TD
+    A[Graph Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - **BFS** finds shortest paths in unweighted graphs; **DFS** explores depth-first and enables

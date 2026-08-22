@@ -1164,6 +1164,17 @@ subparsers = parser.add_subparsers(dest="command", required=True)
 This fails fast with a clear "required: expected at least one argument" message instead of a
 Traceback inside your own code.
 
+
+```mermaid
+flowchart TD
+    A[03 Cli Tools] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of cli tools, including underlying theory, practical

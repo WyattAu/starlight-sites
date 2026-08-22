@@ -539,6 +539,17 @@ The spaceship operator <=> is a three-way comparison that returns a category tel
   `std::partial_ordering` are defined in `<compare>`. Forgetting to include it causes compilation
   errors.
 
+
+```mermaid
+flowchart TD
+    A[5_Spaceship_Operator] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to the spaceship operator, including

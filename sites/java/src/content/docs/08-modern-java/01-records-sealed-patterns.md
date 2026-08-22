@@ -710,6 +710,17 @@ Always prefer arrow syntax unless you deliberately need fall-through.
 - [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency.md)
   -- modern concurrency features
 
+
+```mermaid
+flowchart TD
+    A[01 Records Sealed Patterns] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of records, sealed classes, and pattern matching, including

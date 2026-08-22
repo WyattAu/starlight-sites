@@ -588,6 +588,17 @@ Full list of input files without filesystem traversal.
 When `isolatedModules` is enabled, declaration files must be careful about re-exports. Re-exporting
 Types and values from the same module can cause issues with some bundlers.
 
+
+```mermaid
+flowchart TD
+    A[Tooling And Configuration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of tooling and configuration, including underlying theory,

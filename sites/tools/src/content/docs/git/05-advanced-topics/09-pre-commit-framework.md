@@ -979,6 +979,17 @@ When you write `exclude: 'vendor/'`It matches the full path relative to the repo
 Just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
 
+
+```mermaid
+flowchart TD
+    A[09 Pre Commit Framework] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of the pre-commit framework, including underlying theory,

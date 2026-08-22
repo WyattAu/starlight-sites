@@ -839,6 +839,17 @@ emitter.emit("login", "Bob")
 
 **Explanation:** The generic `EventType` parameter allows the emitter to be keyed by any hashable type (strings, enums, etc.). Each handler is stored with a unique string ID for later removal. The internal storage uses `(Any) -> Void` with type casting, providing type safety at the public API boundary while maintaining flexibility internally.
 
+
+```mermaid
+flowchart TD
+    A[1_Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Swift functions are first-class values that can be stored, passed, and returned. Closures provide

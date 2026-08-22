@@ -172,6 +172,17 @@ variables:
 | Steele and Aronson (1995) | Stereotype threat             | African American students underperformed on a diagnostic test when their race was made salient, demonstrating that awareness of negative stereotypes can impair performance.                |
 | Miller (1984)             | Cultural attributional styles | Indian participants attributed behaviour more to situational factors while American participants favoured dispositional attributions, demonstrating cultural variation in attribution bias. |
 
+
+```mermaid
+flowchart TD
+    A[Sociocultural Level Of Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The SCLOA examines how social and cultural environments shape behaviour, guided by the principles

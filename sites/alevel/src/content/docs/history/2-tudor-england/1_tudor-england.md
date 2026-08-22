@@ -282,6 +282,17 @@ middle way preserved national unity and established a religious framework that e
 
 Tudor England was a poker game where the stakes were the throne itself. Henry VII won by being the tightest player at the table, never bluffing and always collecting debts. Henry VIII played like a man who changed the rules whenever he was losing, particularly when the Pope refused to deal him the annulment card he wanted. The Reformation was less a theological revolution than a property deal dressed in religious language: the Crown took the Church's land and called it reform. Elizabeth I was the master bluffer, keeping everyone guessing about her intentions on religion and marriage while maintaining control through patience and timing.
 
+
+```mermaid
+flowchart TD
+    A[1_Tudor England] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Tudor England was defined by dynastic insecurity, religious transformation, and the growth of royal

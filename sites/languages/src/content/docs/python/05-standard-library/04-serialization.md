@@ -919,6 +919,17 @@ print(d_json["status"])    # "active" (string value)
 print(d_json["timestamp"]) # "2025-01-15T00:00:00" (ISO string)
 ```
 
+
+```mermaid
+flowchart TD
+    A[04 Serialization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of serialization and data formats, including underlying theory,

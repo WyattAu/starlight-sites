@@ -607,6 +607,17 @@ PRNG.
 
 **The key insight:** The engine produces a deterministic sequence; the distribution transforms it into the statistical distribution you need — don't use `rand()`.
 
+
+```mermaid
+flowchart TD
+    A[3_Random_Numbers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

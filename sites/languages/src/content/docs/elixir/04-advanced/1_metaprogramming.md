@@ -735,6 +735,17 @@ implementations at runtime.
 
 **The key insight:** Macros operate on AST (abstract syntax trees), not text. This means they understand code structure, not just string patterns, making them safer and more composable than text-based code generation.
 
+
+```mermaid
+flowchart TD
+    A[1_Metaprogramming] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Elixir's metaprogramming system is powerful but should be used judiciously:

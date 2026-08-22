@@ -455,6 +455,17 @@ Write `final status = name ? "exists' : 'missing';` — that is a compile error.
   access a `late` variable before it is set, you get a `LateInitializationError`. This is a runtime
   crash, not a compile-time error.
 
+
+```mermaid
+flowchart TD
+    A[01 Entrypoint] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of entry point, including underlying theory, practical

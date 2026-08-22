@@ -631,6 +631,17 @@ When working with bmo preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
+
+```mermaid
+flowchart TD
+    A[Bmo Preparation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - BMO Round 1 (3.5 hours, 6 problems) and Round 2 (3.5 hours, 4 problems) test proof-writing and

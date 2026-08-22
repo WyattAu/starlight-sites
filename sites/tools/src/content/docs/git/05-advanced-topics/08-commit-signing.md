@@ -862,6 +862,17 @@ If you have multiple Git identities (work and personal), ensure each identity ha
 Key and that you configure `user.signingkey` correctly per repository. A commit signed with your
 Personal key will not verify against your work email on GitHub's work organization, and vice versa.
 
+
+```mermaid
+flowchart TD
+    A[08 Commit Signing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of commit signing, including underlying theory, practical

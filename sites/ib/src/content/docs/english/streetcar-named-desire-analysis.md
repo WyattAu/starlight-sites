@@ -1355,6 +1355,17 @@ _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
+
+```mermaid
+flowchart TD
+    A[Streetcar Named Desire Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

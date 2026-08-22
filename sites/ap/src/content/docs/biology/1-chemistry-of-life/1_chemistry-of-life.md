@@ -887,6 +887,17 @@ Spontaneously re-form in the correct positions without chaperone proteins.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Chemistry Of Life] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of chemistry of life, including key reactions, underlying

@@ -625,6 +625,17 @@ void stream_state_demo() {
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
+
+```mermaid
+flowchart TD
+    A[1_Stream_Buffers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

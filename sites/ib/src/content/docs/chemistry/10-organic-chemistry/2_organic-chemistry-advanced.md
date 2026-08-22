@@ -872,6 +872,17 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 - **Stoichiometry of polymer reactions** → Review
   [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](../../../../../../gcse/src/content/docs/chemistry/8-organic-chemistry/8_organic-chemistry)
 
+
+```mermaid
+flowchart TD
+    A[2_Organic Chemistry Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential chemistry of organic chemistry (advanced), including key reactions,

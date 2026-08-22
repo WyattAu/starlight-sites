@@ -630,6 +630,17 @@ target_include_directories(Engine PUBLIC include)
 
 The `target_*` commands handle transitive propagation correctly; `set_target_properties` does not.
 
+
+```mermaid
+flowchart TD
+    A[1_Cmake_Targets_Properties_Generator] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to cmake targets properties and

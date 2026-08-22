@@ -649,6 +649,17 @@ On MSVC (Windows), exceptions use a different mechanism (table-based with code c
 Has zero cost on the happy path, but the table format and runtime are different from the Itanium
 ABI.
 
+
+```mermaid
+flowchart TD
+    A[2_Exception_Safety] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to exception safety guarantees,

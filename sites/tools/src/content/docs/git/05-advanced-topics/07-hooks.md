@@ -922,6 +922,17 @@ git config core.autocrlf input
 
 Or configure your text editor to save files in `.githooks/` with LF line endings.
 
+
+```mermaid
+flowchart TD
+    A[07 Hooks] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of git hooks, including underlying theory, practical

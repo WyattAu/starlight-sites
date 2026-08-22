@@ -722,6 +722,17 @@ and building a personal test matrix.
 | [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
 | [Differential Equations] | University | [View](https://university.wyattau.com/docs/mathematics/4-ordinary-differential-equations/1_differential-equations)    |
 
+
+```mermaid
+flowchart TD
+    A[5_Differential Equations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to differential equations,

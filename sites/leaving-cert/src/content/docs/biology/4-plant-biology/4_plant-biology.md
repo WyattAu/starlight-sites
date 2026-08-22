@@ -533,6 +533,17 @@ Directions in response to the same gravitational stimulus.
 8. **Root hair cells vs root hairs** -- a root hair is a single extension of one epidermal cell.
    Root hairs are found in the zone of maturation, not the zone of cell division.
 
+
+```mermaid
+flowchart TD
+    A[4_Plant Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table: Plant Hormones and Their Effects (HL)
 
 | Hormone       | Promotes                                               | Inhibits                              | Practical use                                                                   |

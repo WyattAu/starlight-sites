@@ -179,6 +179,17 @@ fully substitute for the natural land being lost.
   accelerating warming) and permafrost thaw (releasing methane) are critical amplifying mechanisms
   that should be referenced in extended answers.
 
+
+```mermaid
+flowchart TD
+    A[Climate Change] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 Climate change in IB Geography examines the enhanced greenhouse effect, the carbon cycle, and the

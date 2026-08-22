@@ -943,6 +943,17 @@ Verification ensures that data entered matches the original source.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Programming And Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary Table
 
 | Topic         | Key Concept             | Example                     |

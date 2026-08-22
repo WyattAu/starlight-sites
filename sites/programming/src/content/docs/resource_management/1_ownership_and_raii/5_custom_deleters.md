@@ -741,6 +741,17 @@ Lambda.
 
 **The key insight:** Custom deleters are part of the smart pointer's type — they enable managing non-heap resources (files, sockets, handles) with the same RAII pattern as heap memory.
 
+
+```mermaid
+flowchart TD
+    A[5_Custom_Deleters] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 | Ownership Model    | Smart Pointer        | Size (x86_64) | Semantics                   | Thread-Safe Refcount |

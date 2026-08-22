@@ -1414,6 +1414,17 @@ species, each adapted to a different ecological niche.
 - **The fossil record is incomplete but still provides strong evidence.** The fact that some
   transitional fossils have not been found does not invalidate evolution\*\* :::
 
+
+```mermaid
+flowchart TD
+    A[1_Evolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 experimental evidence, and real-world applications.
