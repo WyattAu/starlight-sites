@@ -9,6 +9,8 @@ categories:
   - Python
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1056,6 +1058,11 @@ linked above.
 ## Intuition
 
 Python's OOP is duck-typed: if a quacks like a duck, it is a duck. You do not need to declare interfaces; any object that implements the right methods can be used. Classes define blueprints, instances are the objects built from them. `self` is just the instance, passed explicitly (unlike `this` in Java). Dataclasses eliminate boilerplate: add `@dataclass` and get `__init__`, `__repr__`, and `__eq__` for free. Inheritance exists but composition is preferred: "has-a" relationships are more flexible than "is-a" relationships.
+
+<Citations sources={[
+  {title="Fluent Python", author="Ramalho", year="2022", type="book"},
+  {title="Python Cookbook", author="Beazley and Jones", year="2013", type="book"},
+]} />
 
 ## Cross-References
 

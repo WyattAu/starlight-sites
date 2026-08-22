@@ -5,6 +5,8 @@ title: "Classes and Inheritance | Java"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"java\", \"url\": \"https://java.wyattau.com\"}, {\"name\": \"03 Object Oriented\", \"url\":"
 categories: ['java']
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1472,6 +1474,11 @@ linked above.
 ## Intuition
 
 Classes are blueprints for creating objects. A class defines fields (state) and methods (behavior), and every class ultimately extends Object, inheriting equals, hashCode, and toString. Interfaces are contracts that specify what a class must do without defining how -- Java's implicit interface satisfaction means any type that implements the required methods automatically satisfies the interface. Abstract classes provide partial implementation for closely related types, while interfaces define capabilities that unrelated types can share. The equals/hashCode contract is critical because hash-based collections depend on it -- if two objects are equal, they must have the same hash code or HashMap will silently fail.
+
+<Citations sources={[
+  {title="Effective Java", author="Bloch", year="2018", type="book"},
+  {title="Head First Java", author="Sierra and Bates", year="2022", type="book"},
+]} />
 
 ## Cross-References
 

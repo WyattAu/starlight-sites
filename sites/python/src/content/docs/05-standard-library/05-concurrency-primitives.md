@@ -909,6 +909,32 @@ for t in threads: t.join()
 
 Use a `threading.Lock()` around `print()` calls or use the `logging` module which is thread-safe.
 
+```mermaid
+flowchart TD
+    A[Python Concurrency] --> B[threading]
+    A --> C[multiprocessing]
+    A --> D[asyncio]
+    A --> E[concurrent.futures]
+    B --> F[Thread class]
+    B --> G[Lock, RLock]
+    B --> H[Semaphore, Event]
+    B --> I[GIL limitation]
+    C --> J[Process class]
+    C --> K[Pool]
+    C --> L[Shared memory]
+    C --> M[True parallelism]
+    D --> N[async/await]
+    D --> O[asyncio.gather]
+    D --> P[asyncio.Queue]
+    D --> Q[Single-threaded concurrency]
+    E --> R[ThreadPoolExecutor]
+    E --> S[ProcessPoolExecutor]
+    E --> T[Future objects]
+    I --> U[I/O-bound: use threading]
+    M --> V[CPU-bound: use multiprocessing]
+    Q --> W[Network servers: use asyncio]
+```
+
 ## Summary
 
 This topic covers the core concepts of concurrency primitives, including underlying theory,

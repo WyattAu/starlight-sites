@@ -951,6 +951,29 @@ Type traits are the eyes of the compiler — they let the template machinery ask
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
+```mermaid
+flowchart TD
+    A[Type Traits] --> B[<type_traits> header]
+    A --> C[Compile-time introspection]
+    B --> D[is_integral]
+    B --> E[is_pointer]
+    B --> F[is_reference]
+    B --> G[is_same]
+    C --> H[typeid]
+    C --> I[decltype]
+    C --> J[auto]
+    D --> K[std::is_integral_v<int>]
+    E --> L[std::is_pointer_v<int*>]
+    G --> M[std::is_same_v<int, int>]
+    N[Conditional] --> O[std::conditional]
+    N --> P[std::enable_if]
+    Q[Transformations] --> R[std::remove_const]
+    Q --> S[std::remove_reference]
+    Q --> T[std::decay]
+    U[User-defined traits] --> V[static member checks]
+    U --> W[SFINAE-based detection]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

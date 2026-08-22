@@ -987,6 +987,31 @@ Different developers (and CI agents) may have different versions installed, lead
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 Through a PR.
 
+```mermaid
+flowchart TD
+    A[Java Build Tools] --> B[Maven]
+    A --> C[Gradle]
+    A --> D[Ant]
+    B --> E[pom.xml]
+    B --> F[Convention over configuration]
+    B --> G[Central repository]
+    B --> H[Lifecycle: compile, test, package]
+    C --> I[build.gradle]
+    C --> J[Groovy/Kotlin DSL]
+    C --> K[Incremental builds]
+    C --> L[Build cache]
+    D --> M[build.xml]
+    D --> N[No conventions]
+    D --> O[Manual dependency management]
+    E --> P[Dependency management]
+    E --> Q[Plugin system]
+    I --> R[Task-based]
+    I --> S[Dependency management]
+    I --> T[Multi-project builds]
+    B --> U[Slower but more stable]
+    C --> V[Faster, more flexible]
+```
+
 ## Summary
 
 This topic covers the core concepts of build tools and dependency management, including underlying

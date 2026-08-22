@@ -919,6 +919,32 @@ print(d_json["status"])    # "active" (string value)
 print(d_json["timestamp"]) # "2025-01-15T00:00:00" (ISO string)
 ```
 
+```mermaid
+flowchart TD
+    A[Python Serialization] --> B[json]
+    A --> C[pickle]
+    A --> D[csv]
+    A --> E[tomllib]
+    A --> F[xml.etree]
+    B --> G[json.dump/load]
+    B --> H[JSON strings]
+    B --> I[Human-readable]
+    B --> J[Security: no arbitrary code execution]
+    C --> K[pickle.dump/load]
+    C --> L[Binary format]
+    C --> M[Supports complex objects]
+    C --> N[DANGEROUS: arbitrary code execution]
+    D --> O[csv.reader/writer]
+    D --> P[Tabular data]
+    D --> Q[Excel compatibility]
+    E --> R[tomllib.load (3.11+)]
+    E --> S[Configuration files]
+    E --> T[Human-readable]
+    F --> U[ElementTree]
+    F --> V[XML parsing]
+    F --> W[SOAP/legacy APIs]
+```
+
 ## Summary
 
 This topic covers the core concepts of serialization and data formats, including underlying theory,

@@ -909,6 +909,26 @@ Calling `shared_from_this()` when you only need to observe the object:
 - [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr.md)
 - [RAII Patterns](1_raii_patterns.md)
 
+```mermaid
+flowchart TD
+    A[weak_ptr] --> B[Observes shared_ptr]
+    A --> C[Does not own resource]
+    A --> D[Prevents Cyclic References]
+    B --> E[lock returns shared_ptr or nullptr]
+    B --> F[expired check]
+    C --> G[No reference count increment]
+    C --> H[Safe to use after destruction]
+    D --> I[Parent -> Child cycle]
+    D --> J[Child -> Parent weak_ptr breaks cycle]
+    K[Use Cases] --> L[Caches]
+    K --> M[Callbacks]
+    K --> N[Observer pattern]
+    E --> O[if lock succeeds, use shared_ptr]
+    E --> P[if expired, resource gone]
+    I --> Q[shared_ptr creates cycle]
+    J --> R[weak_ptr breaks cycle, enables GC]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to weak pointers and cyclic

@@ -955,6 +955,27 @@ Constraint subsumption is the rulebook for overload resolution when multiple tem
   pattern, not the constraint expression. Do not assume that concept subsumption will select the
   correct class template partial specialization.
 
+```mermaid
+flowchart TD
+    A[Constraint Subsumption] --> B[Requires Clauses]
+    A --> C[Concepts]
+    A --> D[Overload Resolution]
+    B --> E[requires expression]
+    B --> F[requires compound]
+    C --> G[template parameter constraints]
+    C --> H[auto parameter constraints]
+    D --> I[Partial ordering]
+    D --> J[Most constrained overload wins]
+    E --> K[compile-time boolean]
+    F --> L[nested requirements]
+    G --> M[std::Sortable, std::Copyable]
+    H --> N[auto&& with concept]
+    J --> O[Subsumption: A > B means A is more specific]
+    O --> P[Compiler selects most specific]
+    D --> Q[SFINAE fallback]
+    Q --> R[if no concept matches, try unconstrained]
+```
+
 ## Summary
 
 This topic covers the core concepts of constraint subsumption and overload resolution, including

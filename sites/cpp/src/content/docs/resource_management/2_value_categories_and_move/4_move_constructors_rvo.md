@@ -940,6 +940,32 @@ Over `std::function` if copyability is not required. This avoids the internal he
 - [Temporary Materialization](3_temporary_materialization.md)
 - [Return Value Optimization (RVO) and NRVO](5_return_value_optimization.md)
 
+```mermaid
+flowchart TD
+    A[Move Semantics] --> B[Move Constructor]
+    A --> C[Move Assignment]
+    A --> D[Swap Idiom]
+    B --> E[Takes T&& parameter]
+    B --> F[Steals resources from source]
+    B --> G[Leaves source in valid state]
+    C --> H[Self-assignment check]
+    C --> I[Steal resources]
+    C --> J[Return *this]
+    D --> K[std::swap]
+    D --> L[copy-and-swap idiom]
+    D --> M[No-throw guarantee]
+    E --> N[std::move casts to rvalue]
+    E --> O[Enables move semantics]
+    F --> P[Transfer ownership]
+    F --> Q[No deep copy needed]
+    L --> R[Rule of Five]
+    R --> S[destructor]
+    R --> T[copy constructor]
+    R --> U[copy assignment]
+    R --> V[move constructor]
+    R --> W[move assignment]
+```
+
 ## Summary
 
 This topic covers the core concepts of move constructors, assignment, swap idiom, including
