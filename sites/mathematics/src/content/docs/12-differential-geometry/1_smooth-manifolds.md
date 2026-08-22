@@ -180,6 +180,17 @@ An embedded submanifold has the subspace topology, while an immersed submanifold
 **Mistake 3: Forgetting that partitions of unity are necessary for gluing local constructions**
 Local objects like Riemannian metrics or differential forms can be defined on each chart, but gluing them into a global object requires a partition of unity. Without it, there is no canonical way to combine local data that agree on overlaps. Partitions of unity always exist on smooth manifolds, which is a key reason smoothness is assumed.
 
+
+```mermaid
+flowchart TD
+    A[1_Smooth Manifolds] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Differential Forms](4_differential-forms.md)**: Differential forms are sections of exterior powers of the cotangent bundle on a smooth manifold.

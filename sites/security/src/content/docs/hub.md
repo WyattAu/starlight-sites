@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. As our world becomes increasingly connected, the demand for cybersecurity professionals continues to grow. But cybersecurity is not just a career — it is a mindset. Every developer, every system administrator, and every user benefits from understanding how systems can be attacked and how to defend them.

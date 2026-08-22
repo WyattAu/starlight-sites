@@ -15,6 +15,17 @@ description: "Rust Advanced Struct and Enum Patterns notes covering key definiti
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Advanced Patterns] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Newtype Pattern
 
 The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same

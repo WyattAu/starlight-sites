@@ -34,6 +34,17 @@ AP Computer Science A is a college-level course that introduces students to comp
 
 ---
 
+
+```mermaid
+flowchart TD
+    A[Ap Computer Science A] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Java Fundamentals
 
 ### Primitive Types

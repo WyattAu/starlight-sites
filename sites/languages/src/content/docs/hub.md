@@ -10,6 +10,17 @@ categories:
   - hub
 ---
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Programming Language Comparison Guide
 
 Choosing a programming language is one of the most consequential decisions a developer makes. The language you learn shapes how you think about problems, determines which projects you can build, and influences your career trajectory. This guide compares twelve major languages across paradigms, type systems, performance characteristics, and use cases, then provides a decision tree to help you choose the right language for your goals.

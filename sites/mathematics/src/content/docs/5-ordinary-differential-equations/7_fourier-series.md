@@ -162,6 +162,17 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |
 
+
+```mermaid
+flowchart TD
+    A[7_Fourier Series] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Laplace Transforms](5_laplace-transforms)**: Both Fourier and Laplace transforms decompose functions into frequency components, but Fourier series handle periodic functions while Laplace handles transient signals.

@@ -320,6 +320,17 @@ The connection to function spaces is where the abstraction pays off most. In qua
 Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimensional complex vector space, and quantum gates are unitary linear transformations. Google's quantum supremacy experiment (2019, Sycamore processor) demonstrated a computation in a 53-qubit vector space that would take classical supercomputers ~10,000 years. Current research includes: quantum error correction (surface codes on stabiliser codes), topological quantum computing (Majorana fermions), and the intersection of linear algebra with machine learning (neural network weight spaces, kernel methods, dimensionality reduction via SVD/PCA).
 :::
 
+
+```mermaid
+flowchart TD
+    A[1_Vectors And Vector Spaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Linear Independence, Span, Basis, and Dimension](2_linear-independence-span-basis-and-dimension.md)**: Basis and dimension are defined in terms of linear independence and span of vector space elements.

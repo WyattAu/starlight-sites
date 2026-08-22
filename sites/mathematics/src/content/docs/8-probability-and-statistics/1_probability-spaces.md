@@ -155,6 +155,17 @@ So only about 1.94% of positive tests are true positives, despite the high sensi
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[1_Probability Spaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The convergence concepts from real analysis underpin the definition of limits of random variables and the law of large numbers.

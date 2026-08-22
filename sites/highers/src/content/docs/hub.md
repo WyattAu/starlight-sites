@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The Scottish Highers are the qualifications taken by students in Scotland, typically in S5 (the fifth year of secondary school). They are the Scottish equivalent of A-levels and are used for university admissions across the UK and internationally. Highers are structured differently from other UK qualifications — you typically sit 5 Highers in S5 and may take Advanced Highers in S6 for more advanced study.

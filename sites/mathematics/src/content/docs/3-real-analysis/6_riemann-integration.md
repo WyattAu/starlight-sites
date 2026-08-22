@@ -330,6 +330,17 @@ limit. Also, conditional Convergence of improper integrals behaves differently f
 convergence: rearranging the "terms" (subintervals) of a conditionally convergent improper integral
 can change its value.
 
+
+```mermaid
+flowchart TD
+    A[6_Riemann Integration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Continuity](4_continuity.md)**: The Heine-Cantor theorem guarantees that continuous functions on closed bounded intervals are uniformly continuous, which is used to prove Riemann integrability.

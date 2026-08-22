@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Rust is a systems programming language that guarantees memory safety without garbage collection. Its ownership system, lifetimes, and borrow checker prevent entire classes of bugs — null pointer dereferences, dangling pointers, data races, and buffer overflows — at compile time. This safety comes with a steep learning curve, but the result is code that is both correct and fast.

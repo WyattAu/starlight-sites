@@ -31,6 +31,17 @@ AP Computer Science Principles introduces students to the foundational concepts 
 
 ---
 
+
+```mermaid
+flowchart TD
+    A[Ap Computer Science Principles] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Digital Information
 
 ### Binary Representation

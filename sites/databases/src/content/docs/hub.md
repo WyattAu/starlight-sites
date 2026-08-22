@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Databases are the foundation of every application that persists data. Whether you are building a web application, an analytics pipeline, or an embedded system, understanding how databases work — and how to design them well — is a core engineering skill. Poor database design leads to slow queries, data corruption, and maintenance nightmares. Good database design leads to performance, reliability, and maintainability.

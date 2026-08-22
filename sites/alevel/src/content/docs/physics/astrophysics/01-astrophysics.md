@@ -20,6 +20,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[01 Astrophysics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Astrophysics
 
 > **Info:** Board Coverage AQA Paper 2 (Option 9) | Edexcel CP5 (Option 9) | OCR (A) Paper 2 (Option D)

@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 C++ is one of the most powerful and complex programming languages in existence. It gives you direct control over memory, performance, and hardware — but that power comes with a steep learning curve. This hub page maps every resource on this site and provides a learning path so you can build competence systematically.

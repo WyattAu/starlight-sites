@@ -179,6 +179,17 @@ An element $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] < \inf
 **Mistake 3: Forgetting that finite fields have characteristic $p$**
 Every finite field has order $p^n$ for some prime $p$ and integer $n \geq 1$. Students sometimes attempt to construct a finite field of order $6$ or $10$, which is impossible since these are not prime powers. The characteristic of any finite field is prime, and the multiplicative group is cyclic.
 
+
+```mermaid
+flowchart TD
+    A[12_Field Theory] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Rings](8_rings.md)**: Fields are special commutative rings where every nonzero element is a unit.

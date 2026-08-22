@@ -161,6 +161,17 @@ A complete metric space need not be compact; compactness requires both completen
 **Mistake 3: Forgetting that contractions require a uniform contraction constant**
 The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for a fixed $c < 1$ and all $x, y$. A map satisfying $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$ (strictly contractive but without a uniform constant) need not have a fixed point. For example, $f(x) = x + 1/x$ on $(1, \infty)$ is strictly contractive but has no fixed point.
 
+
+```mermaid
+flowchart TD
+    A[7_Metric Spaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Closed Sets, Closure, Interior, and Boundary](3_closed-sets-closure-interior-and-boundary)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.

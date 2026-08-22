@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The GCSE (General Certificate of Secondary Education) is the standardised examination taken by students in England, Wales, and Northern Ireland at the end of Key Stage 4, typically at age 16. GCSE results shape A-level choices, college admissions, and future career pathways. This hub page links every resource on this site — organised by subject, with study plans and exam strategies to help you prepare efficiently.

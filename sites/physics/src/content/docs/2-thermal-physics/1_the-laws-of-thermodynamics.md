@@ -172,6 +172,17 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_The Laws Of Thermodynamics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: Statistical mechanics derives the laws of thermodynamics from microscopic probabilities and the partition function.

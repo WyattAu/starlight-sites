@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Elixir is a functional language built on the Erlang VM (BEAM). It combines the simplicity of functional programming with the concurrency, fault tolerance, and distribution capabilities of Erlang. Elixir's process model makes concurrent programming straightforward — processes are lightweight, isolated, and communicate through message passing. The Phoenix framework provides a productive web development experience with real-time capabilities out of the box.

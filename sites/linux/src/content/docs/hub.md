@@ -42,6 +42,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Linux powers the majority of the world's servers, cloud infrastructure, embedded systems, and supercomputers. Whether you are managing a home server, deploying applications to the cloud, or administering enterprise infrastructure, Linux administration is an essential skill for any systems professional.

@@ -144,6 +144,17 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
 | General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int|f| < \infty$ |
 
+
+```mermaid
+flowchart TD
+    A[6_Lebesgue Integration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Measures](2_measures.md)**: Lebesgue integration is built on measure theory, with the integral defined as a supremum over simple functions.

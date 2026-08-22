@@ -185,6 +185,17 @@ The ML inequality states that $|\int_\gamma f(z)\, dz| \leq ML$, where $M$ is an
 **Mistake 5: Confusing the parameterization of a contour.**
 The value of the contour integral does not depend on the parameterization of the contour, only on the path traced out. However, different parameterizations can lead to different expressions for the integral. Always ensure that the parameterization is correct and that $\gamma'(t)$ is computed properly.
 
+
+```mermaid
+flowchart TD
+    A[4_Complex Integration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem states that the integral of an analytic function over a closed contour is zero.

@@ -10,6 +10,17 @@ categories:
   - hub
 ---
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Complete University Chemistry Study Guide
 
 Chemistry is the central science, connecting physics, biology, mathematics, and engineering. University-level chemistry builds on the foundations laid in secondary school, introducing greater depth, rigour, and mathematical sophistication. This hub organises the three major branches of chemistry — Physical Chemistry, Organic Chemistry, and Inorganic Chemistry — into a coherent study plan, with dedicated sections on laboratory skills and interdisciplinary connections.

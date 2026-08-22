@@ -20,6 +20,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[09 Vectors In 3D] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Vectors in 3D
 
 This chapter extends the study of vectors from A Level Mathematics into three dimensions,

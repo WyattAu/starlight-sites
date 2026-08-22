@@ -169,6 +169,17 @@ Only homeomorphisms preserve all topological properties. A continuous map need n
 **Mistake 5: Misapplying the pasting lemma.**
 The pasting lemma requires that the two pieces agree on their intersection and that both pieces are either both closed or both open. If one piece is closed and the other is open, or if they disagree on the intersection, the resulting function may not be continuous.
 
+
+```mermaid
+flowchart TD
+    A[4_Continuity And Homeomorphisms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the foundation for defining continuity and homeomorphisms.

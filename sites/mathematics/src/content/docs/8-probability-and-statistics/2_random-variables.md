@@ -181,6 +181,17 @@ $E[XY] = E[X]E[Y]$ holds only when $X$ and $Y$ are independent (or uncorrelated)
 **Mistake 5: Forgetting that variance is not linear.**
 $\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The variance of a sum is $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)$. If $X$ and $Y$ are independent, then $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$, but this does not hold as a rule.
 
+
+```mermaid
+flowchart TD
+    A[2_Random Variables] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Probability Spaces](1_probability-spaces.md)**: Probability spaces provide the foundational framework for defining random variables and their distributions.

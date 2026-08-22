@@ -11,6 +11,17 @@ categories:
 
 ---
 
+
+```mermaid
+flowchart TD
+    A[01 Reflog] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## What is the Reflog
 
 The **reflog** (reference log) is Git's built-in safety net. It records every change to the HEAD

@@ -307,6 +307,17 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
   the singular values are $|\lambda_i|$Not $\lambda_i$.
 
+
+```mermaid
+flowchart TD
+    A[8_Singular Value Decomposition] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors.md)**: Singular values are the square roots of eigenvalues of $A^T A$, linking SVD to spectral theory.

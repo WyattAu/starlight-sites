@@ -363,6 +363,17 @@ $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[2_First Order Odes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Introduction and Classification](1_introduction-and-classification)**: First-order ODEs are classified as separable, linear, exact, or Bernoulli as part of the broader ODE taxonomy.

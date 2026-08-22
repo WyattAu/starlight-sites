@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Swift is Apple's programming language for iOS, macOS, watchOS, and tvOS development. It combines the safety of a modern type system with the performance of a compiled language. Swift's optionals eliminate null reference errors, its value types prevent unintended mutation, and its protocol-oriented design enables flexible, composable code. SwiftUI, Apple's declarative UI framework, leverages Swift's language features to make building user interfaces intuitive and productive.

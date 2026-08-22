@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Haskell is a purely functional programming language with a strong static type system. It enforces purity — functions have no side effects — and uses laziness by default. These constraints lead to code that is concise, composable, and provably correct. Haskell's type system, including type classes, algebraic data types, and higher-kinded types, enables powerful abstractions that other languages cannot express.

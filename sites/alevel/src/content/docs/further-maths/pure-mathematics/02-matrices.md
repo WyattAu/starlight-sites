@@ -20,6 +20,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[02 Matrices] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Matrices
 
 Matrices provide a compact algebraic framework for representing and manipulating systems of linear

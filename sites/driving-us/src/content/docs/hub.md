@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The US driving test is administered at the state level, which means requirements, question formats, and pass marks vary depending on where you live. However, the core content is remarkably consistent: every state tests your knowledge of road signs, traffic laws, safe driving practices, and the rules of the road. The written knowledge test (often called the permit test) is the first hurdle, followed by a behind-the-wheel driving test that assesses your practical skills.

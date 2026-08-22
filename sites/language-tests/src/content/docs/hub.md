@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Language proficiency tests are the gateway to international education, professional migration, and global career opportunities. Universities, employers, and immigration authorities worldwide require proof of English language ability, and the test you choose and the score you achieve can determine your future path.

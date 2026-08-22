@@ -15,6 +15,17 @@ description: "Structs are the primary mechanism for defining custom types in Rus
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Structs And Enums] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Structs
 
 Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java,

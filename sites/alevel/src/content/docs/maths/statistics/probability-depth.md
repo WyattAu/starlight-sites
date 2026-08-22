@@ -17,6 +17,17 @@ categories: [Mathematics]
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Probability Depth] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Probability (Extended Treatment)
 
 This document extends the core probability material with rigorous treatments of conditional

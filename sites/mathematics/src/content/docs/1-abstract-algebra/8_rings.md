@@ -184,6 +184,17 @@ A zero divisor $a$ satisfies $ab = 0$ for some nonzero $b$, while a unit $a$ sat
 **Mistake 3: Assuming all rings have a multiplicative identity**
 The definition of a ring does not require a multiplicative identity $1$. Some authors include $1$ in the definition (called "rings with unity"), while others do not. When working with rings without unity, statements about units and the cancellation law may fail. Always check whether the ring is assumed to have unity.
 
+
+```mermaid
+flowchart TD
+    A[8_Rings] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Ideals and Quotient Rings](9_ideals-and-quotient-rings.md)**: Ideals are the ring-theoretic analogue of normal subgroups and enable quotient ring constructions.

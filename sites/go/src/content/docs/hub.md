@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Go was designed at Google to solve real-world engineering problems: large codebases, many contributors, and the need for fast compilation and reliable deployment. Its simplicity is deliberate — a small language with a powerful standard library and excellent tooling. Go's concurrency model, based on goroutines and channels, makes it natural to write concurrent programs without the complexity of traditional threading models.

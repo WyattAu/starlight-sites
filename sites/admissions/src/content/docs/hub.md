@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 University admissions is a system that rewards preparation, self-awareness, and strategic thinking. The process varies enormously between countries, institutions, and programmes — a US Common App personal statement is nothing like an Oxbridge personal statement, and neither resembles a Hong Kong JUPAS application. Yet the underlying principles are consistent: admissions committees want to understand who you are, what you have accomplished, and whether you will thrive in their institution.

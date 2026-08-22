@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The Leaving Certificate is the state examination taken by students in Ireland at the end of secondary school, typically at age 17–18. It is the primary qualification used for university admissions in Ireland and is recognised by universities across the UK and internationally. Students typically sit 6–7 subjects, with the best 6 counting for their CAO points score.

@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Python is the most widely used programming language in the world. Its readable syntax, massive ecosystem, and versatility make it the language of choice for data science, web development, automation, education, and scientific computing. But Python's simplicity is deceptive — the language has deep layers of sophistication that separate competent developers from expert ones.

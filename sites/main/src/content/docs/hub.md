@@ -39,6 +39,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Welcome to Wyatt's Notes
 
 Wyatt's Notes is a network of 46 interconnected study sites, each dedicated to a specific subject or domain. Every site offers topic notes, practice questions, flashcards, and diagnostic quizzes. The sites are cross-linked so you can move between related topics seamlessly, and the entire network is free to use.

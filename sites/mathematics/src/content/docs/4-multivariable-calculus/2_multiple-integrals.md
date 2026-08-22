@@ -313,6 +313,17 @@ The key to setting up multiple integrals is describing the region correctly. Typ
   the bounds. The new bounds may require splitting the integral into multiple pieces.
 :::
 
+
+```mermaid
+flowchart TD
+    A[2_Multiple Integrals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Partial Derivatives](1_partial-derivatives)**: The Jacobian determinant in change of variables is computed from partial derivatives of the coordinate transformation.

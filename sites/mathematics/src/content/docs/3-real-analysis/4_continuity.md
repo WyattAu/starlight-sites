@@ -311,6 +311,17 @@ The following table summarizes the key counterexamples in the theory of continui
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[4_Continuity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Differentiability](5_differentiability.md)**: Differentiability implies continuity, but the converse is false; the relationship between these concepts is explored via the mean value theorem.

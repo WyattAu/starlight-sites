@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Java remains one of the most widely deployed programming languages in the world. It powers enterprise backends, Android applications, financial systems, and large-scale distributed systems. Its combination of strong typing, managed runtime, and mature ecosystem makes it a reliable choice for production software. But Java's verbosity and layers of abstraction can obscure what is actually happening under the hood.

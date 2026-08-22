@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Promise_Awaiter] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## The Coroutine Handle, Promise Type, and Awaiter
 
 This section covers the three interacting components of the C++ coroutine machinery, `co_await`

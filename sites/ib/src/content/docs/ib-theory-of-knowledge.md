@@ -34,6 +34,17 @@ Theory of Knowledge (TOK) is a core component of the IB Diploma Programme. It ex
 
 ---
 
+
+```mermaid
+flowchart TD
+    A[Ib Theory Of Knowledge] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Knowledge and the Knower
 
 ### Perspective

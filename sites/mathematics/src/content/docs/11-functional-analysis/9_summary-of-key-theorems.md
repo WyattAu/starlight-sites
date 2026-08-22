@@ -196,6 +196,17 @@ operators (Spectral).
 | Normal | $\|T\| = r(T)$ (spectral radius) | Spectral theorem applies |
 | Bounded self-adjoint | $\sigma \subseteq \mathbb{R}$ | $\sup\sigma = \|T\|$ if $T \geq 0$ |
 
+
+```mermaid
+flowchart TD
+    A[9_Summary Of Key Theorems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - [Historical Context of Functional Analysis](8_historical-context) -- The historical development of Hilbert spaces and operator theory provides context for the theorems summarised here.

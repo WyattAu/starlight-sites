@@ -42,6 +42,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Performance tuning is the art and science of extracting maximum capability from your hardware. Whether you are a gamer pushing frame rates higher, a content creator rendering video faster, or an engineer optimising a workstation for scientific computing, the principles are the same: understand your hardware, adjust its parameters, and verify the results with benchmarks.

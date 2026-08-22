@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Computer networking is the backbone of modern computing. Every application that communicates over the internet — web browsers, mobile apps, APIs, databases, streaming services — relies on networking protocols and infrastructure. Understanding how networks work is essential for building reliable, secure, and performant systems.

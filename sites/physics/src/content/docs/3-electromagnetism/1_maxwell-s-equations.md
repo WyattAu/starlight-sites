@@ -258,6 +258,17 @@ The original Ampere's law $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ is incon
 **Mistake 3: Confusing integral and differential forms**
 The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$ applies to specific symmetric configurations, while the differential form $\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$ is the general statement. Students often apply the integral form without verifying that the symmetry assumptions (spherical, cylindrical, or planar) are satisfied.
 
+
+```mermaid
+flowchart TD
+    A[1_Maxwell S Equations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Magnetostatics](3_magnetostatics.md)**: Magnetostatics is the static limit of Maxwell's equations where time derivatives vanish, describing steady currents and magnetic fields.

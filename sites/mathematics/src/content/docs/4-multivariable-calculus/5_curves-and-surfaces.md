@@ -301,6 +301,17 @@ $\blacksquare$
   (scalar), while flux uses $\mathbf{r}_u \times \mathbf{r}_v$ (vector, oriented).
 :::
 
+
+```mermaid
+flowchart TD
+    A[5_Curves And Surfaces] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Partial Derivatives](1_partial-derivatives)**: Tangent vectors and normal vectors to surfaces are computed using partial derivatives of the parametrisation.

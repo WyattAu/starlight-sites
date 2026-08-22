@@ -42,6 +42,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Professional IT certifications validate your skills and knowledge in specific technology domains. They are recognised by employers worldwide and can accelerate your career, increase your earning potential, and demonstrate commitment to professional development. Unlike academic degrees, certifications are focused, practical, and directly applicable to job roles.

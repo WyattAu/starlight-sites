@@ -167,6 +167,17 @@ A set $A$ is disconnected if it can be written as $A = (U \cap A) \cup (V \cap A
 **Mistake 5: Confusing total disconnectedness with disconnectedness.**
 A space is totally disconnected if its only connected subsets are singletons. A space can be disconnected without being totally disconnected. For example, $[0, 1] \cup [2, 3]$ is disconnected but not totally disconnected, since $[0, 1]$ and $[2, 3]$ are connected subsets.
 
+
+```mermaid
+flowchart TD
+    A[6_Connectedness] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Compactness](5_compactness.md)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.

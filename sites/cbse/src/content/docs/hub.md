@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The Central Board of Secondary Education (CBSE) is one of India's largest and most influential school education boards. The CBSE curriculum for Classes 11 and 12 forms the foundation for competitive entrance examinations including JEE Main and Advanced (for engineering) and NEET (for medicine). Mastering the CBSE syllabus is not just about board exams — it is the gateway to India's top institutions.

@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The Gaokao (高考) is the National College Entrance Examination of China — one of the most important and most gruelling examinations in the world. Every June, approximately 12 million students sit for this exam, and their scores determine which universities they can attend. The Gaokao is not merely a test of knowledge; it is a test of endurance, precision, and strategic thinking under extreme pressure.

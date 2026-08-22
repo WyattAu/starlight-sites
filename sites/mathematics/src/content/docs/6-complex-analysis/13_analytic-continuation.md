@@ -174,6 +174,17 @@ The identity theorem requires that the functions be analytic. If $f$ and $g$ are
 **Mistake 5: Forgetting that analytic continuation may introduce singularities.**
 When analytically continuing a function to a larger domain, new singularities may appear. For example, the Gamma function is analytic for $\mathrm{Re}(z) > 0$, but its analytic continuation to $\mathbb{C}$ has poles at $z = 0, -1, -2, \dots$. Always check for singularities in the extended domain.
 
+
+```mermaid
+flowchart TD
+    A[13_Analytic Continuation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Power series provide local representations that can be analytically continued to larger domains.

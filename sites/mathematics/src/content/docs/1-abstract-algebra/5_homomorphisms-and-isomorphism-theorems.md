@@ -308,6 +308,17 @@ The image $\mathrm{im}(\phi)$ is a subgroup of the codomain $H$, but it need not
 **Mistake 3: Applying isomorphism theorems to non-normal subgroups**
 The first isomorphism theorem requires $\ker(\phi) \trianglelefteq G$, which is guaranteed. However, the second and third isomorphism theorems require the relevant subgroups to be normal. For example, $H/(H \cap N) \cong HN/N$ requires $N \trianglelefteq G$. Applying these theorems without normality leads to incorrect conclusions.
 
+
+```mermaid
+flowchart TD
+    A[5_Homomorphisms And Isomorphism Theorems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Groups](1_groups.md)**: Groups are the structures that homomorphisms map between while preserving the group operation.

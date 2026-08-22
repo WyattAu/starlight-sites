@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Ruby is a dynamic, object-oriented language designed for developer happiness. Its elegant syntax, powerful metaprogramming, and the Rails framework made it one of the most influential languages in web development. Ruby prioritizes readability and expressiveness, enabling developers to write code that reads like natural language.

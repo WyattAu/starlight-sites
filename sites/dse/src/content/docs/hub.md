@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The DSE (Diploma of Secondary Education) is the standardised examination taken by all Hong Kong students at the end of secondary school. It determines university admissions and shapes career pathways. This hub page links every resource on this site — organised by subject, with study plans and exam strategies to help you prepare efficiently.

@@ -239,6 +239,17 @@ The Lebesgue outer measure and Caratheodory extension theorem provide the founda
 - **Vitali (1905):** Proved the existence of non-measurable sets using the Axiom of Choice.
 - **Banach (1923):** Showed that a translation-invariant, finitely additive measure on all subsets of $\mathbb{R}$ exists if we drop countable additivity (using a weaker form of the Axiom of Choice).
 
+
+```mermaid
+flowchart TD
+    A[3_Lebesgue Outer Measure And Caratheodory Extension] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Lebesgue Measurable Sets and Non-Measurable Sets](./4_lebesgue-measurable-sets-and-non-measurable-sets.md)**: Further exploration of which subsets of $\mathbb{R}$ are measurable and the structure of the $\sigma$-algebra of measurable sets.

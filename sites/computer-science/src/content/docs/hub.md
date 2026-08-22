@@ -10,6 +10,17 @@ categories:
   - hub
 ---
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Complete Computer Science Study Guide
 
 Computer science is the study of computation — what can be computed, how efficiently it can be done, and how systems are designed to solve problems. University-level computer science builds a foundation of algorithms, data structures, formal languages, systems design, and mathematical reasoning. This hub brings together every core area of computer science into a structured study plan.

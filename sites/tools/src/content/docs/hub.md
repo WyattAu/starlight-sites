@@ -42,6 +42,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Software development is not just about writing code — it is about writing code that works, that is maintainable, and that ships reliably. The tools you use determine how effectively you can write, test, debug, and deploy software. A developer who masters their tools can produce in hours what takes others days.

@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 University mathematics is fundamentally different from computational mathematics. It asks not "what is the answer?" but "why must this be true, and what would have to change for it to be false?" This shift — from computation to proof — is what transforms a collection of facts into genuine mathematical understanding.

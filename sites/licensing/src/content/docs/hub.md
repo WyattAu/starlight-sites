@@ -42,6 +42,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Software licensing determines what you can do with code — who can use it, modify it, distribute it, and under what conditions. For developers, understanding licensing is not optional. Choosing the wrong license for your project can inadvertently prevent adoption. Using code under the wrong license can result in legal liability. Ignoring license obligations can lead to lawsuits and damaged reputations.

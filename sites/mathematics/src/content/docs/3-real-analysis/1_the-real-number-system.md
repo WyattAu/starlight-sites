@@ -17,6 +17,17 @@ description: 'This chapter assumes the reader is comfortable with: Comprehensive
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_The Real Number System] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Prerequisites
 
 This chapter assumes the reader is comfortable with:

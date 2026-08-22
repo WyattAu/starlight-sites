@@ -19,6 +19,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Coroutine_Frames] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Stackless Coroutine Frames and Heap Allocation
 
 This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off,

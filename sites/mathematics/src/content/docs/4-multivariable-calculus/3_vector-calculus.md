@@ -385,6 +385,17 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
   planar curves, right-hand rule for surfaces). The divergence theorem requires the outward normal.
   Reversing orientation changes the sign of the result.
 
+
+```mermaid
+flowchart TD
+    A[3_Vector Calculus] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Partial Derivatives](1_partial-derivatives)**: The gradient, curl, and divergence are differential operators defined using partial derivatives.

@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 University physics is a cumulative discipline — each topic builds on the ones before it. Classical mechanics provides the mathematical framework that electromagnetism, quantum mechanics, and thermal physics all use. This hub page maps every resource on this site and shows you how they connect, so you can study efficiently and build understanding that compounds.

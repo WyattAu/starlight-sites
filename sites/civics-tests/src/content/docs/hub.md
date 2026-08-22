@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The US civics test is a mandatory part of the naturalisation process for anyone seeking American citizenship. Administered by US Citizenship and Immigration Services (USCIS), the civics test evaluates your knowledge of US history, government, and civic principles. The test is oral: a USCIS officer asks you up to 10 questions from a published list of 100, and you must answer at least 6 correctly to pass.

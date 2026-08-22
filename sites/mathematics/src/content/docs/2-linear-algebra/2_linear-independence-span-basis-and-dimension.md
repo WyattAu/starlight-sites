@@ -311,6 +311,17 @@ $\blacksquare$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[2_Linear Independence Span Basis And Dimension] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Vectors and Vector Spaces](1_vectors-and-vector-spaces.md)**: Linear independence, span, and basis are fundamental properties of vector spaces.

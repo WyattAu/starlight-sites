@@ -162,6 +162,17 @@ $$= P\left(\frac{-10}{13.23} < Z < \frac{30}{13.23}\right) = P(-0.756 < Z < 2.26
 
 $$\approx \Phi(2.268) - \Phi(-0.756) = 0.9883 - 0.2248 = 0.7635$$
 
+
+```mermaid
+flowchart TD
+    A[4_Limit Theorems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Random Variables](2_random-variables.md)**: Random variables provide the building blocks for understanding convergence in distribution and probability.

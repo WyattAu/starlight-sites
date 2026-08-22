@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Kotlin is a modern, statically-typed language that runs on the JVM. It addresses many of Java's pain points — null safety, verbosity, and the lack of functional primitives — while maintaining full interoperability with Java. Since Google announced Kotlin as the preferred language for Android development, its adoption has grown rapidly across mobile, backend, and multiplatform projects.

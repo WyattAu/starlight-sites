@@ -318,6 +318,17 @@ Gaussian elimination is the systematic process of untangling a web of simultaneo
 
 The deeper insight is that row reduction preserves the solution space while simplifying its description. The row echelon form makes the structure of the solution set transparent: pivot columns identify the dependent variables, free columns identify the independent degrees of freedom, and the rank tells you the dimension of the solution space. This is why the same technique extends to function spaces and operator theory, where infinite-dimensional systems of equations arise logically.
 
+
+```mermaid
+flowchart TD
+    A[4_Systems Of Linear Equations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Matrices](3_matrices.md)**: The coefficient matrix of a linear system determines its solvability via rank and determinant.

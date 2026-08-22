@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 TypeScript adds a static type system to JavaScript. It catches bugs at compile time, enables better tooling, and makes large codebases maintainable. TypeScript's type system is structural — types are compatible based on their shape, not their name. This makes TypeScript flexible while still providing safety. TypeScript is the dominant language for frontend development with React, Angular, and Vue, and is increasingly used for backend development with Node.js and Deno.

@@ -202,6 +202,17 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 - **Coding theory:** The structure of cosets of subgroups in finite groups is used in linear codes and syndrome decoding.
 - **Computational group theory:** Lagrange's Theorem bounds the search space when testing subgroup membership; the index determines the number of coset representatives needed.
 
+
+```mermaid
+flowchart TD
+    A[3_Lagrange S Theorem] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - [Group Actions](6_group-actions) -- The orbit-stabilizer theorem generalises Lagrange's theorem to group actions, linking subgroup indices to orbit sizes.

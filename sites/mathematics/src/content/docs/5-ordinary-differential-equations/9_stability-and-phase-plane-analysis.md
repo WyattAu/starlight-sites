@@ -180,6 +180,17 @@ Critical points can be isolated or form a continuum (e.g., a line of critical po
 **Mistake 5: Confusing the phase plane with the phase portrait.**
 The phase plane is the coordinate space $(x, y)$, while the phase portrait is the collection of trajectories in the phase plane. Do not confuse the two; the phase portrait includes the trajectories, not just the coordinate axes.
 
+
+```mermaid
+flowchart TD
+    A[9_Stability And Phase Plane Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Systems of ODEs](4_systems-of-odes)**: The eigenvalue analysis of the Jacobian matrix used here is developed systematically in the systems of ODEs chapter.

@@ -10,6 +10,17 @@ categories:
   - hub
 ---
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Complete AP Course Guide — All Subjects
 
 The Advanced Placement program, administered by the College Board, offers college-level coursework across a wide range of disciplines. Earning a high AP exam score can earn you college credit, strengthen your university application, and give you a head start on university-level study. This hub brings together every AP study resource on Wyatt's Notes into a single page, covering Biology, Chemistry, Computer Science A, Computer Science Principles, English Language and Composition, English Literature, History (US, European, and World), Mathematics (Calculus AB, Calculus BC, and Statistics), and Physics (1, 2, and C).

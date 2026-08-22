@@ -40,6 +40,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 The SAT is the standardised test used for university admissions across the United States and increasingly around the world. The digital SAT, administered by the College Board, is adaptive — your performance on the first module of each section determines the difficulty of the second module. This means every question matters, and strategic preparation is as important as content knowledge.

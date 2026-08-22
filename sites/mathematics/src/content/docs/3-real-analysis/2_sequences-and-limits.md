@@ -287,6 +287,17 @@ $\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup
 $\limsup = 0$.
 :::
 
+
+```mermaid
+flowchart TD
+    A[2_Sequences And Limits] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Series](3_series)**: The convergence of series is defined through partial sums, making sequence convergence the foundation for all series theory.

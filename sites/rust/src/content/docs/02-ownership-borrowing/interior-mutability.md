@@ -15,6 +15,17 @@ description: "Rust' s borrowing rules state that a shared reference () is immuta
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Interior Mutability] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## The Shared Reference Contract
 
 Rust's borrowing rules state that a shared reference (`&T`) is immutable — you cannot modify the

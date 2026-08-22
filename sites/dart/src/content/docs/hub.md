@@ -41,6 +41,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why This Guide Exists
 
 Dart is a client-optimized language developed by Google. It is the language behind Flutter, Google's cross-platform UI framework for building applications for mobile, web, desktop, and embedded devices from a single codebase. Dart combines an easy-to-learn syntax with powerful features like null safety, sound typing, and AOT compilation.

@@ -336,6 +336,17 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
   $\mathbf{v}$Divide by $\lVert \mathbf{v} \rVert$ first.
 :::
 
+
+```mermaid
+flowchart TD
+    A[1_Partial Derivatives] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Multiple Integrals](2_multiple-integrals)**: Partial derivatives and multiple integrals are linked by the fundamental theorem of calculus in higher dimensions.
