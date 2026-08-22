@@ -15,6 +15,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Probability] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Probability is like a weather forecast — it tells you the likelihood of events, but never guarantees outcomes.**

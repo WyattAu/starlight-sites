@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Energy and Conservation — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Energy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Energy is like currency — it can't be created or destroyed, only transferred between accounts (objects) or converted between currencies (forms):** The conservation of energy is the most powerful tool in physics — it lets us solve problems without knowing all the details of what happens in between

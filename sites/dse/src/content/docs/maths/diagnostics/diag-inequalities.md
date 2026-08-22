@@ -562,6 +562,17 @@ $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Inequalities] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A balance beam with weights:** Inequalities are like a balance — whatever you add or subtract from both sides keeps it balanced, but multiplying or dividing by a negative flips the scale. The critical values are where the expression equals zero, marking the boundaries.

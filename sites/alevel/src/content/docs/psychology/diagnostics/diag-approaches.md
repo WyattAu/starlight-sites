@@ -168,6 +168,17 @@ sidebar_position: 40
 - **[Social Influence](../practice-social-influence):** Social influence theories use approaches
 - **[Research Methods](../../../../../../ib/src/content/docs/psychology/research-methods):** Each approach uses specific methods
 
+
+```mermaid
+flowchart TD
+    A[Diag Approaches] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Psychology approaches are different lenses for understanding behaviour:** The biological, cognitive, behavioural, psychodynamic, and humanistic approaches each explain human behaviour from a different perspective. No single approach has all the answers — each highlights different aspects.

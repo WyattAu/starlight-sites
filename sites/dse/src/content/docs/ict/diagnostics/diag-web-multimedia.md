@@ -185,6 +185,17 @@ impaired users can read content.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Web Multimedia] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A digital canvas:** Web development is like building with digital LEGO — HTML provides the structure, CSS adds the style, and JavaScript brings it to life. The box model is the invisible frame around every element.

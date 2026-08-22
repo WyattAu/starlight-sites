@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Organic Chemistry — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Organic Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Organic chemistry is like LEGO for carbon — carbon atoms link together in chains and rings to create millions of compounds:** Functional groups are the reactive parts of organic molecules — understanding them allows prediction of chemical behavior

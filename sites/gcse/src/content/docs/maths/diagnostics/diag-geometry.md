@@ -200,6 +200,17 @@ the question does not specify, assuming same material, the weight ratio equals t
 
 **The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc — this single fact unlocks dozens of problems.
 
+
+```mermaid
+flowchart TD
+    A[Diag Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Plant Biology — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Plant Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Plant biology is like studying solar-powered factories — plants convert light energy into chemical energy through photosynthesis:** Plant structure (roots, stems, leaves) is optimized for resource capture — water, minerals, light, and CO₂

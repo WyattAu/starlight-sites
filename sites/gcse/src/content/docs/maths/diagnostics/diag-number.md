@@ -194,6 +194,17 @@ people.
 
 **The key insight:** Prime numbers are the atoms of arithmetic — every number can be expressed as a unique product of primes.
 
+
+```mermaid
+flowchart TD
+    A[Diag Number] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

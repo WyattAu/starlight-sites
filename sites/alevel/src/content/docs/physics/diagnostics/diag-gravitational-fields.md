@@ -15,6 +15,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Gravitational Fields] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Gravity is like an invisible rubber sheet that bends under the weight of massive objects, guiding their motion.**

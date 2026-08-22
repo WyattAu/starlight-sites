@@ -155,6 +155,17 @@ and $\rho^2 = \rho$.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[9_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Working through quantum mechanics problems builds physical intuition about the counterintuitive quantum world. The particle in a box teaches confinement: restricting a particle to a finite region quantises its energy into discrete levels, like guitar strings vibrating at specific frequencies. The harmonic oscillator reveals that even in quantum mechanics, nature prefers equally spaced energy levels, explaining why molecular vibrations produce infrared spectra at specific wavelengths. The hydrogen atom shows how angular momentum quantisation produces the familiar shell structure of chemistry. Tunneling problems demonstrate that particles can penetrate classically forbidden regions, a phenomenon essential for nuclear fusion in stars and for the operation of scanning tunnelling microscopes.

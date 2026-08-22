@@ -241,6 +241,17 @@ energy.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Human Physiology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A complex machine:** The human body is like a city — the heart is the pump, lungs are air filters, kidneys are water treatment plants, and the brain is city hall. Each organ system keeps the body functioning.

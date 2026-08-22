@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Cell Biology — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Cell Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A cell is like a factory — the nucleus is the office, mitochondria are the power plant, ribosomes are the assembly line:** Cell structure is inseparable from function — each organelle's design enables its specific role

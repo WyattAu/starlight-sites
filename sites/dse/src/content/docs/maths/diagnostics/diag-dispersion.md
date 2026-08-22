@@ -578,6 +578,17 @@ In DSE examinations, Sheppard's correction is generally not required unless expl
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Dispersion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A bullseye and its rings:** Standard deviation measures how scattered darts are from the bullseye — clustered tightly means low spread, scattered widely means high spread. Variance is just the square of that scatter.

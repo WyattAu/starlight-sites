@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Induction — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Induction] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Electromagnetic induction is like a magnetic dance — changing magnetic fields create electric currents, and changing currents create magnetic fields:** Faraday's law reveals that nature abhors changing magnetic flux — it induces voltages to oppose the change, creating a feedback loop that powers generators and transformers

@@ -204,6 +204,17 @@ The longest carbon chain has 5 carbons (pentane), with two methyl groups on carb
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Carbon Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Carbon's versatility:** Carbon atoms can chain together in countless ways — like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.

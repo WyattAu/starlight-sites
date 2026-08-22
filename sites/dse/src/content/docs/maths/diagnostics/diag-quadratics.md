@@ -540,6 +540,17 @@ The minimum value approaches $1$ but is never attained.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Quadratics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A ball thrown in the air:** A quadratic traces a parabola — the discriminant tells you how many times it crosses the x-axis (0, 1, or 2 roots), and completing the square reveals the vertex (highest or lowest point).

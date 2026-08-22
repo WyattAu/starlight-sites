@@ -587,6 +587,17 @@ _Conclusion:_ Land supply is a necessary but insufficient tool for reducing prop
 should be combined with demand-side measures (stamp duties, mortgage restrictions, empty tax) and
 institutional reforms (faster approval processes, anti-land-banking measures) to be effective.
 
+
+```mermaid
+flowchart TD
+    A[Diag Demand Supply Markets] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A tug-of-war between buyers and sellers:** Supply and demand is like a dance — when buyers want more (demand rises), prices go up; when sellers offer more (supply rises), prices go down. Equilibrium is where they meet.

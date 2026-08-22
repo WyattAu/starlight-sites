@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Proof and Logic — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Proof Logic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Mathematical proof is like a legal argument — each step must be justified by axioms, definitions, or previously proven theorems:** Logic provides the grammar of mathematics — it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world

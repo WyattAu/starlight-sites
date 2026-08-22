@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Genetics — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Genetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Genetics is like reading a biological instruction manual — DNA contains the blueprints for building and operating an organism:** Genes control traits through protein synthesis, and variations in genes create the diversity of life

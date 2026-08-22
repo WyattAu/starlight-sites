@@ -371,6 +371,17 @@ $y_0 \leq 0$: $y(t)$ does not approach $2$.
 
 Answer: $y_0 \in (0, 2]$.
 
+
+```mermaid
+flowchart TD
+    A[Diag Differential Equations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

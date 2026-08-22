@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Differentiation — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Differentiation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Differentiation is like finding the instantaneous speed of a car — it tells you the rate of change at any exact moment, not just the average over time:** The derivative captures the slope of a curve at any point, revealing how fast one quantity changes relative to another

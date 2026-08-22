@@ -571,6 +571,17 @@ forms a cycle (circular wait), so there is a deadlock.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[10_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Process management: scheduling algorithms (FCFS, SJF, Round Robin), deadlock (conditions,

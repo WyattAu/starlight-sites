@@ -373,6 +373,17 @@ being more favourable for massive objects.
 
 **The key insight:** Free body diagrams are the essential first step — correctly identifying all forces acting on an object determines whether your calculation will be correct.
 
+
+```mermaid
+flowchart TD
+    A[Diag Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

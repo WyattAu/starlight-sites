@@ -363,6 +363,17 @@ conclusion rather than a simplistic verdict.
 
 **The key insight:** Every non-fiction text has a purpose — understanding the writer's intent helps you evaluate their arguments more effectively.
 
+
+```mermaid
+flowchart TD
+    A[Diag Reading Nonfiction] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

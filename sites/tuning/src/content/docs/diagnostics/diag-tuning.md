@@ -228,6 +228,17 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of performance tuning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+
+```mermaid
+flowchart TD
+    A[Diag Tuning] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Performance diagnosis is systematic problem-solving:** Identifying the bottleneck requires measuring resource utilisation, analysing bottlenecks, and understanding how changes affect the overall system.

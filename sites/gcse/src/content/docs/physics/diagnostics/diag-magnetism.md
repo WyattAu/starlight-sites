@@ -224,6 +224,17 @@ conservation of energy: mechanical work $\to$ electrical energy $\to$ thermal en
 
 **The key insight:** Moving charges create magnetic fields, and moving magnetic fields create electric currents — electricity and magnetism are two sides of the same coin.
 
+
+```mermaid
+flowchart TD
+    A[Diag Magnetism] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

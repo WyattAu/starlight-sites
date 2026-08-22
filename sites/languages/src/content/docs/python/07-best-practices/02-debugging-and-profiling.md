@@ -1277,6 +1277,17 @@ That are immediately discarded (because the log level is likely INFO or above in
 Message passes the log level filter. This is not a micro-optimization — it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.
 
+
+```mermaid
+flowchart TD
+    A[02 Debugging And Profiling] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of debugging and profiling, including underlying theory,

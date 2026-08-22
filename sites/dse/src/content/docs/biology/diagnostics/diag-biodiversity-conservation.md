@@ -256,6 +256,17 @@ than a occurring 200-hectare forest because of:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Biodiversity Conservation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Nature's web of life:** Biodiversity is like a tapestry — each species is a thread, and removing threads weakens the whole fabric. Conservation is about protecting the threads that keep ecosystems functional.

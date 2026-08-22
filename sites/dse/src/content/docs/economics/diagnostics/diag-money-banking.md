@@ -218,6 +218,17 @@ insurance, central bank lending as lender of last resort, and regulatory oversig
 maintain this confidence -- they are public goods that the private market would underprovide without
 government intervention.
 
+
+```mermaid
+flowchart TD
+    A[Diag Money Banking] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Money multiplies like rabbits:** Banks create money by lending out deposits — each loan becomes someone else's deposit, which gets lent again, creating a chain reaction. The money multiplier amplifies the initial deposit.

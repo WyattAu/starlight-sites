@@ -362,6 +362,17 @@ expected properties. The element has not yet been synthesised, so the claim rema
 
 **The key insight:** The periodic table is a map of electron configurations — each row adds a new electron shell, and each column shares the same valence electron arrangement.
 
+
+```mermaid
+flowchart TD
+    A[Diag Atomic Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

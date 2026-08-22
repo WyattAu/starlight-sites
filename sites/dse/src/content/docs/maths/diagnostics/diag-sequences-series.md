@@ -548,6 +548,17 @@ $$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Sequences Series] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Patterns with rules:** Sequences are like domino chains — arithmetic sequences add a fixed amount each step, geometric sequences multiply by a fixed ratio. The sum formulas count all the dominoes at once.

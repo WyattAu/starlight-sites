@@ -228,6 +228,17 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of TrueNAS administration fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+
+```mermaid
+flowchart TD
+    A[Diag Truenas] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **TrueNAS diagnostics test your understanding of storage systems:** From ZFS concepts to network configuration, TrueNAS administration requires understanding how storage, networking, and permissions interact.

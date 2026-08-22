@@ -297,6 +297,17 @@ periodic table. Its electron configuration is $2, 8, 4$. This can be confirmed: 
 
 **The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant — electrons are held more tightly.
 
+
+```mermaid
+flowchart TD
+    A[Diag Atomic Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

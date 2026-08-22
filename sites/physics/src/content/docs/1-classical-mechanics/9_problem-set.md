@@ -598,6 +598,17 @@ Bertrand's theorem).
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[9_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Classical mechanics is the foundation of physics: it describes how objects move under forces. Newton's second law, F equals ma, is the starting point, but the deeper principles are conservation laws. Energy conservation says the total stays constant when forces are conservative; momentum conservation says the centre of mass moves as if all external forces acted on a single particle; angular momentum conservation explains why planets orbit in ellipses. Lagrangian and Hamiltonian mechanics reformulate these ideas in terms of energy rather than force, revealing symmetries that lead directly to conservation laws via Noether's theorem.

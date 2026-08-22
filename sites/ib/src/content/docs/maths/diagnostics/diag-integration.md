@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Integration — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Integration] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Integration is like adding up infinitely many infinitely thin slices — it's the mathematical tool for finding total quantities from rates of change:** Integration and differentiation are inverse operations — the fundamental theorem of calculus connects accumulation with instantaneous change

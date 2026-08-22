@@ -15,6 +15,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Trigonometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Trigonometry is like a bridge between angles and lengths — sine, cosine, and tangent are the tools that connect them.**

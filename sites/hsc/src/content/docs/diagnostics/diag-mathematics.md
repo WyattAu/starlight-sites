@@ -228,6 +228,17 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Mathematics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+
+```mermaid
+flowchart TD
+    A[Diag Mathematics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Mathematics is the tool for quantitative reasoning:** From algebra to calculus, mathematics provides systematic methods for solving problems involving numbers, patterns, and change. Each topic builds on previous ones to create a powerful problem-solving toolkit.

@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Electric and Magnetic Fields — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Electric Magnetic Fields] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Electric and magnetic fields are like invisible webs that permeate space — charges and currents create distortions in these webs that exert forces on other charges:** Electricity and magnetism are two manifestations of the same fundamental force, unified through Maxwell's equations

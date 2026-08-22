@@ -543,6 +543,17 @@ $$x = 25°$$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Geometries] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A playground of shapes:** Geometry is like a detective story — you use clues (angles, lengths, parallel lines) to prove facts about shapes. Circle theorems are the "secret rules" that govern how angles and lines behave around circles.

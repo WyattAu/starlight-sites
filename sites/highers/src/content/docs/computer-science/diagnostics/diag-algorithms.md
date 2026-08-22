@@ -349,6 +349,17 @@ will eventually be slower regardless of constant factors.
 
 **The key insight:** Big-O notation describes how an algorithm's time or space requirements grow with input size — understanding this lets you predict performance before writing any code.
 
+
+```mermaid
+flowchart TD
+    A[Diag Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

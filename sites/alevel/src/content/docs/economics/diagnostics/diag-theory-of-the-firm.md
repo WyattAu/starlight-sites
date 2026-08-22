@@ -15,6 +15,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Theory Of The Firm] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**

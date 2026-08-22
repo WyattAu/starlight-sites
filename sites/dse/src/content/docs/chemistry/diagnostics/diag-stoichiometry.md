@@ -245,6 +245,17 @@ $$C_{2} = 0.0100 \text{ mol/dm}^{3}$$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Stoichiometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Chemical accounting:** Stoichiometry is like a recipe — the balanced equation tells you exactly how much of each ingredient you need and how much product you'll get. The mole is the chemist's dozen.

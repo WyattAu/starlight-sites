@@ -217,6 +217,17 @@ available catalyst surface area, not on $[H_{2}O_{2}]$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Kinetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Speed vs. possibility:** Kinetics asks "how fast?" while thermodynamics asks "is it possible?" — a reaction can be thermodynamically favorable but kinetically frozen (like diamond turning to graphite).

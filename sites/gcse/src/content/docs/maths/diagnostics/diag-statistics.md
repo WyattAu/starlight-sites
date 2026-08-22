@@ -253,6 +253,17 @@ $P(\text{exactly 2 red in 3) = \frac{\binom{15}{2} \times \binom{21}{1}}{\binom{
 
 **The key insight:** Correlation doesn't imply causation — just because two things happen together doesn't mean one causes the other.
 
+
+```mermaid
+flowchart TD
+    A[Diag Statistics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Number and Algebra — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Number Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Algebra is like a detective's toolkit — variables are suspects, equations are clues, and solving for x is finding the culprit:** Algebraic manipulation follows strict logical rules that preserve equality, allowing us to isolate unknowns and prove relationships

@@ -228,6 +228,17 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of machine learning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+
+```mermaid
+flowchart TD
+    A[Diag Ml] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **ML diagnostic assessment tests foundational understanding:** Before building complex models, you need to understand the basics — data preprocessing, model evaluation, overfitting, and the bias-variance trade-off.

@@ -339,6 +339,17 @@ $f(x) = 2x^3 - 3x^2 - x + 4$.
 
 **The key insight:** Functions are machines that transform inputs to outputs — understanding this concept unlocks calculus, statistics, and virtually all applied mathematics.
 
+
+```mermaid
+flowchart TD
+    A[Diag Algebra Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

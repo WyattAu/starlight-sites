@@ -15,6 +15,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Market Failure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Markets are like ecosystems — supply and demand are the predators and prey that keep them in balance.**

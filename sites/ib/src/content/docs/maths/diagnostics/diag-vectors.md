@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Vectors — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Vectors] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Vectors are like arrows — they have both direction and magnitude, unlike scalars which are just numbers:** Vectors provide a coordinate-free way to describe physical quantities that have direction, making physics equations independent of the coordinate system chosen

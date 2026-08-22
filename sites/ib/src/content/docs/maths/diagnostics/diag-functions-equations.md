@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Functions and Equations — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Functions Equations] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Functions are like machines — you put in an input, and they reliably produce an output according to a specific rule:** Understanding function behavior — domain, range, transformations, and inverses — is the language of mathematical modeling

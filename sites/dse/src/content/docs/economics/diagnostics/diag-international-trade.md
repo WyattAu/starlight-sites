@@ -230,6 +230,17 @@ Domestic saving. The country is importing capital to finance investment that exc
 Savings. This is sustainable if the borrowed funds are invested productively (generating future
 Export capacity), but unsustainable if used for consumption.
 
+
+```mermaid
+flowchart TD
+    A[Diag International Trade] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Trading for mutual gain:** International trade is like a potluck dinner — everyone brings what they're best at making, and everyone eats better than if they tried to cook everything themselves. Comparative advantage, not absolute advantage, drives the gains.

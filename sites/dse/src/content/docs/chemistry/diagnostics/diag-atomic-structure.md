@@ -198,6 +198,17 @@ electrons closer and making them harder to remove.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Atomic Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Building blocks with rules:** Atoms are like LEGO sets — protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.

@@ -370,6 +370,17 @@ reader to imagine what it might contain.
 
 **The key insight:** Every literary choice (word, structure, character) serves a purpose — the author's craft is as important as the story itself.
 
+
+```mermaid
+flowchart TD
+    A[Diag Reading Fiction] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

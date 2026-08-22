@@ -174,6 +174,17 @@ Subject FK)
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Programming Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A recipe and a filing cabinet:** Programming is like writing a recipe — precise steps that a computer follows exactly. Databases are filing cabinets that organize information so you can find any record quickly.

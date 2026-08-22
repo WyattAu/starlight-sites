@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Acids and Bases — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Acids Bases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Acids and bases are like chemical opposites — they neutralize each other in a proton-transfer handshake:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry

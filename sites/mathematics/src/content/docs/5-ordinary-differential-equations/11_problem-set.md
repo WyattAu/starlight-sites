@@ -503,6 +503,17 @@ Ordinary differential equations describe how quantities evolve, and each method 
   derivative after removing radicals and fractions. **Fix:** $y'' + 3y' + 2y = 0$: order 2,
   degree 1.
 
+
+```mermaid
+flowchart TD
+    A[11_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - First-order separable: $\frac{dy}{dx} = f(x)g(y) \implies \int \frac{dy}{g(y)} = \int f(x)\, dx$.

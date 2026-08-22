@@ -480,6 +480,17 @@ $(A - 2I)v = 0 \implies \begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}v = 0 \impli
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[9_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - A matrix is invertible iff $\det(A) \neq 0$; equivalent to having linearly independent

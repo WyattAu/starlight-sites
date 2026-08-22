@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Current Electricity — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Current Electricity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Electric current is like water flowing through pipes — voltage is the water pressure, resistance is pipe narrowness, and current is the flow rate:** Ohm's law (V = IR) captures the fundamental relationship between electrical pressure, flow, and opposition in a circuit

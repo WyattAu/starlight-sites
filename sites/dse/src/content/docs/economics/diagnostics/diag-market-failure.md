@@ -221,6 +221,17 @@ The government should tax driving first because the DWL from overconsumption of 
 Is far larger than from factory overproduction (\$61.25). This demonstrates that the government
 Should prioritise correcting the largest market failures first when resources are limited.
 
+
+```mermaid
+flowchart TD
+    A[Diag Market Failure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **The invisible hand stumbles:** Market failure is like a game with broken rules — the free market produces too much pollution, too few public goods, or too many monopolies because prices don't reflect the full social cost or benefit.

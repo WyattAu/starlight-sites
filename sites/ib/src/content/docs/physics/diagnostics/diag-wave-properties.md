@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Wave Properties — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Wave Properties] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Waves are like messengers carrying energy without carrying matter — they ripple through media, transferring information across vast distances:** Waves exhibit both particle-like and wave-like behavior, and their interference patterns reveal the fundamental nature of reality

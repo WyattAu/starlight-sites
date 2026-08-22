@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Molecular Biology — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Molecular Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Molecular biology is like reverse-engineering life — understanding DNA, RNA, and proteins reveals how cells read and execute genetic instructions:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function

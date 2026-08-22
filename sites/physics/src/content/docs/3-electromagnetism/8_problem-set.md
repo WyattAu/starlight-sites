@@ -528,6 +528,17 @@ _Cross-reference:_ Section 7.4, Section 1.1.
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[8_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Maxwell's equations are the four laws that govern all classical electromagnetic phenomena. Gauss's law says electric charges create field lines that spread outward; the magnetostatic version says magnetic field lines always close on themselves. Faraday's law and the Ampere-Maxwell law describe how changing fields create each other: a changing magnetic field produces an electric field and vice versa. This mutual regeneration is what allows electromagnetic waves to propagate through empty space, carrying energy and momentum without any medium.

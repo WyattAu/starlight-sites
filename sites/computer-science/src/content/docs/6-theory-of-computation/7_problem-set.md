@@ -183,6 +183,17 @@ $p - k \neq p$). Contradiction.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[7_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Chomsky hierarchy: regular $\subset$ context-free $\subset$ context-sensitive $\subset$

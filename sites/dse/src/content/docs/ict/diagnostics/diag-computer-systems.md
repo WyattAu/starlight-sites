@@ -133,6 +133,17 @@ functionality enables intuitive user interfaces on smartphones and tablets.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Computer Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A brain with parts:** The CPU is like a brain — the ALU does calculations, the Control Unit directs traffic, and registers are the working memory. The fetch-decode-execute cycle is the heartbeat of computation.

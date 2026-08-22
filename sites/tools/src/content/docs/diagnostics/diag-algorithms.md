@@ -211,6 +211,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Testing your algorithmic knowledge:** Diagnostic tests are like a mechanic checkup for your understanding — they quickly reveal which concepts you have mastered and which need more work, so you can focus your study time effectively.

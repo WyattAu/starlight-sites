@@ -548,6 +548,17 @@ $$x = \frac{\ln 10}{\ln(4/5)} \approx \frac{2.303}{-0.223} \approx -10.33$$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Logarithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Asking "how many times?":** A logarithm asks "how many times must I multiply this base to get that number?" — it's the inverse of exponentiation, like asking "what power gives me this result?"

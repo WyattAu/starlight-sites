@@ -228,6 +228,17 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of Linux fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+
+```mermaid
+flowchart TD
+    A[Diag Linux] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Linux system administration is about managing resources and services:** From user management to networking to security hardening, Linux administration involves configuring the system to be reliable, secure, and efficient.

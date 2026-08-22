@@ -261,6 +261,17 @@ obtaining urban residency permits.)
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Population] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A living snapshot:** Population pyramids are like X-rays of a society — they reveal the age structure, showing whether a country is young and growing, or old and declining. The shape tells the story of birth rates, death rates, and migration.

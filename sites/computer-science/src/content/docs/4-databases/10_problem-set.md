@@ -164,6 +164,17 @@ of replicas respond. Mitigation: use ALL for critical reads. MongoDB uses primar
 default; stale reads occur during failover if reads are allowed on secondaries. Mitigation: use
 `"readPreference": "primary"` for consistency-critical queries.
 
+
+```mermaid
+flowchart TD
+    A[10_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Database problems teach you to think about data as a structured resource that must be stored efficiently, queried quickly, and modified safely. Normalization is the process of eliminating redundancy, the way a good filing system avoids storing the same information in multiple folders. Query optimization is about finding the fastest path through a maze of tables and indexes, like a librarian who knows exactly which shelf to check rather than scanning every book in the library.

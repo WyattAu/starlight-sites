@@ -243,6 +243,17 @@ acid $HCl$) do not undergo hydrolysis. Neither ion affects the $pH$ of the solut
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Acids Bases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **The proton shuffle:** Acids donate protons (H⁺), bases accept them — it's like a game of hot potato where protons are passed between molecules. pH measures how many free protons are floating around.

@@ -398,6 +398,17 @@ shows the complexity of the issue and still arrives at a clear conclusion.
 
 **The key insight:** The most powerful writing engages the reader's senses — describing what characters see, hear, smell, taste, and feel creates immersive experiences.
 
+
+```mermaid
+flowchart TD
+    A[Diag Creative Writing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

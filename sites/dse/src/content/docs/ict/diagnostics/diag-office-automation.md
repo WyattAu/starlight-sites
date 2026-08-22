@@ -118,6 +118,17 @@ embedded object is always available, even without the source file.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Office Automation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A digital Swiss Army knife:** Office automation tools are like specialized tools in a workshop — spreadsheets calculate, word processors format, and presentations visualize. Formulas and macros are your power tools.

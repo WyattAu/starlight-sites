@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Periodicity — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Periodicity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **The periodic table is like a map of元素 properties — elements in the same column share similar chemical personalities:** Periodic trends in atomic radius, ionization energy, and electronegability arise from electron configuration patterns

@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Thermodynamics — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Thermodynamics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Heat is like a river of energy flowing from hot to cold — thermodynamics is the study of how this energy flows and transforms:** The second law of thermodynamics introduces entropy — the universe tends toward disorder, setting the arrow of time and limiting what engines can achieve

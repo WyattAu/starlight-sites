@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Trigonometry — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Trigonometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Trigonometry is the mathematics of circles and triangles — it connects angles to side lengths through sine, cosine, and tangent:** The unit circle unifies all trigonometric functions, revealing periodic patterns that model waves, oscillations, and circular motion

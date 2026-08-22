@@ -16,6 +16,17 @@ sidebar_position: 40
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Tectonics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Plate tectonics is like a giant jigsaw puzzle — Earth’s crust is broken into pieces that move, collide, and reshape the planet.**

@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Atomic and Nuclear Physics — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Atomic Nuclear] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **An atom is like a solar system with rules — electrons orbit the nucleus at specific distances, like planets locked into fixed tracks:** Quantum mechanics shows that at the smallest scales, nature operates in discrete chunks rather than continuously, fundamentally changing how we understand matter and energy

@@ -586,6 +586,17 @@ Since $f(a) = f(b) \implies a = b$The function is **injective**.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Functions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A machine with input and output:** A function is like a vending machine — put in a specific item (input), get out a specific snack (output). Composition is chaining machines: the output of one becomes the input of the next. The inverse is the undo button.

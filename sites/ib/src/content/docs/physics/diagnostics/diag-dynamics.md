@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Dynamics — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Dynamics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Forces are like pushes and pulls in a cosmic tug-of-war — every object experiences multiple forces, and the net force determines its motion:** Newton's second law (F = ma) is the bridge between causes (forces) and effects (acceleration), forming the foundation of classical mechanics

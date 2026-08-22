@@ -229,6 +229,17 @@ death.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Plant Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Solar-powered factories:** Plants are like solar panels that make food — photosynthesis captures sunlight and converts it into chemical energy. Transpiration is the plant's cooling system.

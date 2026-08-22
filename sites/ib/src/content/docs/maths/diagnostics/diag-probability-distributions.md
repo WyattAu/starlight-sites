@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Probability Distributions — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Probability Distributions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Probability distributions are like maps of uncertainty — they show where outcomes are likely to cluster and how spread out possibilities are:** The normal distribution's bell curve appears everywhere in nature because many small random effects combine to produce predictable patterns

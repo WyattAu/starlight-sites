@@ -347,6 +347,17 @@ HDDs remain useful for large-capacity storage where speed is less critical.
 
 **The key insight:** The operating system is the mediator between hardware and software — it manages resources, enforces security, and provides the illusion that each program has the computer to itself.
 
+
+```mermaid
+flowchart TD
+    A[Diag Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

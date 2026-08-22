@@ -501,6 +501,17 @@ $\sup(S) = 1 \in S$ (this is also the maximum). $\inf(S) = 0 \notin S$.
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[8_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - $\mathbb{R}$ is a complete ordered field; the completeness axiom guarantees $\sup(S)$ exists for

@@ -239,6 +239,17 @@ Denitrifying bacteria reduce the amount of nitrogen available to plants.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Evolution Ecology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Life's grand narrative:** Evolution is like a branching tree — species diverge from common ancestors, adapting to their environments through natural selection. Ecology studies how these species interact.

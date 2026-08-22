@@ -273,6 +273,17 @@ reduction in crop diversity if only GM varieties are grown.)
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Microorganisms Biotechnology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Invisible allies:** Microorganisms are like tiny factories — bacteria make yogurt and antibiotics, yeasts bake bread and brew beer. Biotechnology harnesses these organisms for human benefit.

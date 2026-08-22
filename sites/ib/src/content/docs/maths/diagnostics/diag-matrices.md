@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Matrices — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Matrices] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Matrices are like spreadsheets of numbers with their own arithmetic — they can represent transformations, systems of equations, and data structures:** Matrices encode linear transformations — they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science

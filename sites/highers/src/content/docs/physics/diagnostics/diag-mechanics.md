@@ -363,6 +363,17 @@ friction in the cord reduce the total mechanical energy, producing heat.
 
 **The key insight:** Newton's second law ($F = ma$) is deceptively simple — applying it correctly requires identifying all forces acting on an object and choosing the right coordinate system.
 
+
+```mermaid
+flowchart TD
+    A[Diag Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

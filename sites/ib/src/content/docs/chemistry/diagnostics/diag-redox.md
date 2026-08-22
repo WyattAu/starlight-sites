@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Redox Reactions — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Redox] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Redox reactions are like electron transfers — one substance gives away electrons (oxidation) while another accepts them (reduction):** OIL RIG — Oxidation Is Loss, Reduction Is Gain — electrons flow from the reducing agent to the oxidizing agent

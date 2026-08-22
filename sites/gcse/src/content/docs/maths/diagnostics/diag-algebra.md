@@ -194,6 +194,17 @@ The first company is cheaper for journeys longer than 16 km.
 
 **The key insight:** Equations are statements of equality — solving them means finding the value that makes both sides equal.
 
+
+```mermaid
+flowchart TD
+    A[Diag Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

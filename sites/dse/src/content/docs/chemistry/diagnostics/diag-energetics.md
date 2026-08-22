@@ -233,6 +233,17 @@ rise and a less exothermic (less negative) $\Delta H$ value, increasing the erro
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Energetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Energy accounting:** Energetics is like balancing a chemical bank account — energy goes in (endothermic) or out (exothermic), and Hess's Law says the total change is the same regardless of the path taken.

@@ -262,6 +262,17 @@ with genetic conditions.
 
 **The key insight:** Genes don't work alone — most traits are polygenic (controlled by many genes) and influenced by the environment.
 
+
+```mermaid
+flowchart TD
+    A[Diag Inheritance Variation Evolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

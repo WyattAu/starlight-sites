@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Gravitational Fields — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Gravitational Fields] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Gravity is like a rubber sheet stretched across space — massive objects create dips, and other objects roll toward them following the curvature:** Every mass attracts every other mass with a force proportional to both masses and inversely proportional to the square of the distance between them

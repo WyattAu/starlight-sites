@@ -205,6 +205,17 @@ If there were a discrepancy, possible reasons would include:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Electrochemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Electricity from chemistry:** Electrochemistry is like a chemical battery — redox reactions transfer electrons from one substance to another, and we can harness that electron flow as electricity.

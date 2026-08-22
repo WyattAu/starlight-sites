@@ -460,6 +460,17 @@ Mundell-Fleming result.
 multiplier of 5: $\Delta M = 5 \times (-50) = -HK\$250$ billion. The money supply contracts by
 HK\$250 billion, reinforcing the contractionary effect of the interest rate increase.
 
+
+```mermaid
+flowchart TD
+    A[Diag Fiscal Monetary Policy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A steering wheel for the economy:** Fiscal policy is the government's tax-and-spend lever; monetary policy is the central bank's interest rate lever. Both aim to steer the economy between overheating and recession.

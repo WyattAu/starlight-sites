@@ -345,6 +345,17 @@ Perimeter $= 2(13 + 5) = 2(18) = 36\,\text{cm}$.
 
 **The key insight:** Rearranging equations is not arbitrary manipulation — each step must maintain balance, reflecting the physical or mathematical equality the equation represents.
 
+
+```mermaid
+flowchart TD
+    A[Diag Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

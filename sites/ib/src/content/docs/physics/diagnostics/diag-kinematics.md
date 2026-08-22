@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Kinematics — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Kinematics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Kinematics is the language of motion — it describes how objects move through space and time without worrying about why they move:** The equations of motion connect position, velocity, acceleration, and time in a mathematical framework that works from thrown balls to orbiting planets

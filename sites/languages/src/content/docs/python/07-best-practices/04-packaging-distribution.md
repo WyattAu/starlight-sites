@@ -977,6 +977,17 @@ twine check dist/*
 # Also verify the name is available on https://pypi.org
 ```
 
+
+```mermaid
+flowchart TD
+    A[04 Packaging Distribution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 This topic covers the core concepts of packaging and distribution, including underlying theory,

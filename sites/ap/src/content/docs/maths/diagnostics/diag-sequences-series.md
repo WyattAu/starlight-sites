@@ -318,6 +318,17 @@ Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$ So $N^{0.01} > 100000$
 $N > 100000^{100}$. Still impractical. The series $\sum \frac{1}{n(\ln n)^p}$ converges very slowly
 for $p$ near $1$.
 
+
+```mermaid
+flowchart TD
+    A[Diag Sequences Series] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

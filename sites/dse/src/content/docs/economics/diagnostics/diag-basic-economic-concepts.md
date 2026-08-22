@@ -460,6 +460,17 @@ costs less there, even accounting for transport and coordination costs.
    internationally qualified accountants (CPA, ACCA), and proximity to mainland Chinese firms
    seeking international expertise.
 
+
+```mermaid
+flowchart TD
+    A[Diag Basic Economic Concepts] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A seesaw of choices:** Economics is about trade-offs — the PPC shows that producing more of one thing means less of another. Opportunity cost is what you give up, not what you spend.

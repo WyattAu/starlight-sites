@@ -556,6 +556,17 @@ $$d = \frac{80}{\tan 30°} = \frac{80}{1/\sqrt{3}} = 80\sqrt{3} \approx 138.6 \t
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Trigonometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A clock and a circle:** Trigonometry is like measuring angles on a clock — sine, cosine, and tangent tell you the ratio of sides in a right triangle, which is really just the coordinates of a point on a unit circle.

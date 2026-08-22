@@ -228,6 +228,17 @@ sustain another trophic level.
 
 **The key insight:** Only about 10% of energy transfers between trophic levels — the rest is lost as heat through respiration.
 
+
+```mermaid
+flowchart TD
+    A[Diag Bioenergetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

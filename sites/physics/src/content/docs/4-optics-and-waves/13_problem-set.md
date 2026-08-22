@@ -222,6 +222,17 @@ $M = A - s'C = 1 - (-15)(1/60) = 1 + 1/4 = 5/4 = 1.25$ (upright, slightly magnif
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[13_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Optics problems revolve around a central theme: light behaves as a wave when the relevant dimensions are comparable to its wavelength. Interference, diffraction, and polarisation all arise from the superposition principle. The key insight is that every optical element, from a lens to a grating, modifies the phase or amplitude of the wavefront in a predictable way. Understanding optics means understanding how phase differences accumulate along different paths and how those differences translate into intensity patterns on a screen or detector.

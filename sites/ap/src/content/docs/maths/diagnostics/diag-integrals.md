@@ -357,6 +357,17 @@ to slope $-2$), $f$ is continuous at $x = 2$ ($f(2^-) = 4 = f(2^+)$). By FTC par
 continuous at $x = 2$, $F$ is differentiable at $x = 2$ with $F'(2) = f(2) = 4$. Integration
 "smooths" the corner: $F$ is continuously differentiable even though $f$ is not.
 
+
+```mermaid
+flowchart TD
+    A[Diag Integrals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

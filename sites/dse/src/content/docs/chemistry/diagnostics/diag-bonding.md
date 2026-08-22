@@ -204,6 +204,17 @@ exceptionally strong, resulting in a dramatically higher boiling point.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Bonding] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Atoms holding hands:** Chemical bonds are how atoms share or transfer electrons to become more stable. Ionic bonds are like opposites attracting (metal gives electrons to nonmetal); covalent bonds are sharing (nonmetals share electrons).

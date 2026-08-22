@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## States of Matter — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag States Of Matter] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **States of matter are like different dance formations — solid (rigid), liquid (flowing), gas (free), plasma (ionized):** Phase transitions occur when thermal energy overcomes intermolecular forces, changing how particles interact

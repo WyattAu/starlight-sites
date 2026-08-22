@@ -233,6 +233,17 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Organic Chemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Carbon's versatility:** Organic chemistry is the study of carbon compounds — like LEGO bricks that can snap together in infinite ways to form chains, rings, and complex structures.

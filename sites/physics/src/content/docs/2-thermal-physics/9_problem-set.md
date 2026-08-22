@@ -252,6 +252,17 @@ thermal energy $k_B T$ is comparable to $\varepsilon$. $\blacksquare$
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[9_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Thermal physics connects the microscopic world of individual particles to the macroscopic world of temperature, pressure, and entropy. The partition function is the central object: it encodes all thermodynamic information about a system by summing Boltzmann weights over every possible state. From it, one can derive free energies, equations of state, and response functions. The key insight is that entropy counts the number of microstates consistent with a macrostate, and equilibrium corresponds to the macrostate with the most microstates.

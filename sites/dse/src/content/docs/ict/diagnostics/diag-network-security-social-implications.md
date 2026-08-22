@@ -148,6 +148,17 @@ opt out and request deletion.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Network Security Social Implications] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A castle and its moat:** Network security is like defending a castle — firewalls are the walls, encryption is the secret code, and authentication checks who's trying to enter. Attackers find new paths, defenders build new walls.

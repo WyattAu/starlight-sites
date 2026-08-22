@@ -384,6 +384,17 @@ the data is nearly sorted if an optimised version with an early termination chec
 
 **The key insight:** Big O notation measures how algorithms scale — O(n) is linear, O(log n) is logarithmic, and O(n²) is quadratic. The difference matters at scale.
 
+
+```mermaid
+flowchart TD
+    A[Diag Algorithms] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

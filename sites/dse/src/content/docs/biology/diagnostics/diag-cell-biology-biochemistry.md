@@ -235,6 +235,17 @@ than the active site), whereas a competitive inhibitor binds to the **active sit
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Cell Biology Biochemistry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.

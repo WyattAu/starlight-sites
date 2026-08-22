@@ -268,6 +268,17 @@ Consumers' marginal benefit exceeds the marginal cost of production. These mutua
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
 Total social surplus, leading to an underallocation of resources to this good.
 
+
+```mermaid
+flowchart TD
+    A[Diag Market Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A spectrum of competition:** Market structures range from perfect competition (many small firms, identical products) to monopoly (one firm controls everything). Each structure determines how firms set prices and earn profits.

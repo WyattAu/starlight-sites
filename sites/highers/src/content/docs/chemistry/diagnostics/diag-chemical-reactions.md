@@ -346,6 +346,17 @@ lower temperature than would otherwise be possible, but there is a practical low
 
 **The key insight:** Balancing equations is not just bookkeeping — it reflects the physical reality that atoms are conserved, and the coefficients represent the actual mole ratios in which substances react.
 
+
+```mermaid
+flowchart TD
+    A[Diag Chemical Reactions] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -212,6 +212,17 @@ pressure, volume, or addition of inert gas do not affect the value of the equili
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Equilibrium] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A tug-of-war that never ends:** Chemical equilibrium is like two teams pulling on a rope — both forward and reverse reactions happen at the same rate, so concentrations don't change, but reactions haven't stopped.

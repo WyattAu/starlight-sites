@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Complex Numbers — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Complex Numbers] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Complex numbers are like a 2D number system — they extend the number line into a plane, where the real part is horizontal and the imaginary part is vertical:** The imaginary unit i (where i² = -1) isn't imaginary at all — it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations

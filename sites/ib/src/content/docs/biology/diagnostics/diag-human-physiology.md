@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Human Physiology — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Human Physiology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Human physiology is like studying a complex machine — each organ system has a specific function, and they all work together:** Homeostasis — the body's ability to maintain stable internal conditions — is the central concept connecting all organ systems

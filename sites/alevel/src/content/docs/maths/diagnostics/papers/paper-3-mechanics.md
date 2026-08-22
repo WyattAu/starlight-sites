@@ -387,6 +387,17 @@ $$\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \appr
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
 
+
+```mermaid
+flowchart TD
+    A[Paper 3 Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

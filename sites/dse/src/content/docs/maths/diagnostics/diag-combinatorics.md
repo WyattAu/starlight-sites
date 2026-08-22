@@ -509,6 +509,17 @@ $$\dbinom{8}{5} = \dbinom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Combinatorics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A choosing ceremony:** Combinatorics is like picking teams — permutations are when order matters (who's captain vs. who's second), combinations are when it doesn't (just who's on the team). The binomial theorem is like expanding a recipe with optional ingredients.

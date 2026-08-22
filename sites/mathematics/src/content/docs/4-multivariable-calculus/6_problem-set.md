@@ -548,6 +548,17 @@ $\int_0^1 \int_0^2 xy \, dy\, dx = \int_0^1 x \left[\frac{y^2}{2}\right]_0^2 dx 
 
 $\blacksquare$
 
+
+```mermaid
+flowchart TD
+    A[6_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Partial derivatives: treat other variables as constants; chain rule for multivariable functions.

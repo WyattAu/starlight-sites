@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Measurement and Data Processing — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Measurement] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Chemical measurement is like precision cooking — exact quantities and careful technique determine the outcome:** Significant figures, units, and error analysis are the foundations of reliable chemical data

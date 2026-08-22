@@ -228,6 +228,17 @@ have a large SA:V ratio, ensuring efficient exchange. This is why large organism
 
 **The key insight:** Cell size is limited by the surface area to volume ratio — as cells grow, they need more membrane relative to their volume to exchange materials efficiently.
 
+
+```mermaid
+flowchart TD
+    A[Diag Cell Biology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

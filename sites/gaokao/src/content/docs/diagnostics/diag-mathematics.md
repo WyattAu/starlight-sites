@@ -240,6 +240,17 @@ tableOfContents: false
 
 **Step 5:** If you consistently score below 6/10, revisit the foundational topics (sets, functions, basic trigonometry) before attempting harder practice problems.
 
+
+```mermaid
+flowchart TD
+    A[Diag Mathematics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Mathematics is the language of quantitative reasoning:** From algebra to calculus to statistics, mathematics provides tools for solving problems involving numbers, patterns, and change. Each topic builds on foundational concepts.

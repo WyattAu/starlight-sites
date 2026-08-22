@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Simple Harmonic Motion — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Shm] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Simple harmonic motion is like a pendulum's heartbeat — a restoring force always pulls the system back toward equilibrium, creating rhythmic oscillation:** Any system with a linear restoring force will oscillate sinusoidally, making SHM the universal language of vibrations and waves

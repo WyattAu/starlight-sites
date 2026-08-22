@@ -542,6 +542,17 @@ $\mathbb{F}_{p^m} \subseteq \mathbb{F}_{p^n}$ If and only if $m$ divides $n$. $\
 
 _If you get this wrong, revise: Section 12.4, Theorem 12.5; Section 12.6._
 
+
+```mermaid
+flowchart TD
+    A[18_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Abstract algebra is the study of symmetry made precise. Groups capture the structure of symmetries, rings capture the structure of arithmetic, and fields combine both. The Sylow theorems exploit prime factorisation to pin down the internal structure of finite groups, much like prime factorisation reveals the building blocks of integers. Galois theory connects field extensions to group theory, explaining why polynomial equations of degree five or higher cannot be solved by radicals. The recurring theme is that quotient structures collapse information in controlled ways, revealing hidden patterns.

@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Rotational Motion — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Rotational Motion] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Rotational motion is like linear motion's twin — every linear concept (force, mass, velocity) has a rotational counterpart (torque, moment of inertia, angular velocity):** Rotational dynamics extends Newton's laws to spinning objects, where the distribution of mass matters as much as the total mass

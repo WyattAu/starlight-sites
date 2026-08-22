@@ -561,6 +561,17 @@ Equation: $y - 2 = 1(x - 1) \implies y = x + 1$Or $x - y + 1 = 0$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Coordinate Geometry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A map and a compass:** Coordinate geometry is like plotting locations on a map — every point has an address (x, y), and lines are roads connecting them. The distance formula is how far you'd walk, and slopes tell you how steep the roads are.

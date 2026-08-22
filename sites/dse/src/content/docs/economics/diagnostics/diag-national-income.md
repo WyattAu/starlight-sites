@@ -223,6 +223,17 @@ been producing consumer goods, new infrastructure, or education. The constructio
 have built new factories or housing. The earthquake forced the country to consume its rebuilding
 capacity on restoring the status quo rather than improving living standards.
 
+
+```mermaid
+flowchart TD
+    A[Diag National Income] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A nation's scoreboard:** GDP is like a company's revenue — it measures the total value of everything produced. But just like revenue isn't profit, GDP isn't welfare — it counts pollution cleanup as positive output.

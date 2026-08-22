@@ -130,6 +130,17 @@ $= 254,016,000 / 8 = 31,752,000 \text{ bytes} \approx 30.27$ MB.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Data Representation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A universal translator:** Data representation is like translating between languages — the same number 42 can be written as 101010 in binary, 52 in octal, or 2A in hexadecimal. Two's complement lets computers do subtraction by adding.

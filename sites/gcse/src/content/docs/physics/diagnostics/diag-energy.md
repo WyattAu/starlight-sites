@@ -208,6 +208,17 @@ rather than eliminate impact.
 
 **The key insight:** Energy cannot be created or destroyed — it only changes form. This is the first law of thermodynamics.
 
+
+```mermaid
+flowchart TD
+    A[Diag Energy] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

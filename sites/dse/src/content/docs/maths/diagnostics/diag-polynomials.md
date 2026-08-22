@@ -587,6 +587,17 @@ Maximum is $1$ when $v = 2$I.e. $x^2 = 2$ So $x = \pm\sqrt{2}$.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Polynomials] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **A factory assembly line:** Polynomials are like expressions built from repeated operations — the factor theorem tells you which "ingredients" (factors) go into making the polynomial, and division strips away known factors to find what's left.

@@ -185,6 +185,17 @@ This page includes:
 5. Review your answers against the provided solutions
 6. Note any areas requiring further revision
 
+
+```mermaid
+flowchart TD
+    A[Diag Statistics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Key Concepts
 
 - Foundational definitions and terminology

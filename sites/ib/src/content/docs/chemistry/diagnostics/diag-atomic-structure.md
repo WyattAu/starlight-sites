@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Atomic Structure and Atomic Theory — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Atomic Structure] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Atomic structure is like Russian nesting dolls — protons and neutrons form the nucleus, surrounded by electron clouds at various energy levels:** Electron configuration determines chemical behavior — the outermost electrons dictate how atoms bond and react

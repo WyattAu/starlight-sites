@@ -15,6 +15,17 @@ tableOfContents: false
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Radioactivity] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Radioactivity is like a population of unstable atoms — each has a fixed probability of decaying at any moment, like rolling a loaded die. The more atoms you have, the more predictable the overall decay rate becomes, even though each individual decay is random.**

@@ -463,6 +463,17 @@ Complex analysis is the study of functions that respect the geometry of the comp
 - **Cauchy's theorem conditions.** The function must be analytic on and inside the contour. **Fix:**
   If the function has singularities inside the contour, use the residue theorem instead.
 
+
+```mermaid
+flowchart TD
+    A[15_Problem Set] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Summary
 
 - Cauchy-Riemann equations: $u_x = v_y$, $u_y = -v_x$; necessary condition for analyticity.

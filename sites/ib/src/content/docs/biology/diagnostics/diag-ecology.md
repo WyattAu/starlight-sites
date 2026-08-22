@@ -17,6 +17,17 @@ tableOfContents: false
 
 ## Ecology — Diagnostic Tests
 
+
+```mermaid
+flowchart TD
+    A[Diag Ecology] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Ecology is like studying a web of relationships — every organism is connected to others through food webs, competition, and symbiosis:** Ecosystems are dynamic systems where energy flows and nutrients cycle through interconnected communities

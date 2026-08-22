@@ -224,6 +224,17 @@ infections, not all pathogens.
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Human Reproduction Homeostasis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Life's balancing act:** Homeostasis is like a thermostat — the body constantly monitors conditions and adjusts to keep them stable. Reproduction ensures the species continues.

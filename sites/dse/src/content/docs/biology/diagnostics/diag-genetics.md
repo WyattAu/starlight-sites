@@ -285,6 +285,17 @@ Probability of $bbS\_$ = $\frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Genetics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Nature's instruction manual:** Genetics is like a recipe book — DNA contains the instructions, genes are individual recipes, and proteins are the dishes that get made. Mutations are typos in the recipe.
