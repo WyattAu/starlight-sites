@@ -410,7 +410,7 @@ $F_k \approx \phi^k / \sqrt{5}$We get $h \le c \log_\phi(n)$ for some constant $
 | Insert    | $O(\log n)$ | $\le 2$              | 0                    |
 | Delete    | $O(\log n)$ | 0                    | $O(\log n)$          |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
 Along the path to the root.
 
@@ -570,9 +570,8 @@ class RBTree:
 | Insert performance   | Slightly slower         | Slightly faster            |
 | Delete performance   | Slower (more rotations) | Faster                     |
 | Standard library use | `std::map` (GCC)        | Java `TreeMap`Linux kernel |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 And deletions are frequent (scheduler, event queues). In practice, the performance difference is
 Small for most workloads.
 
@@ -751,9 +750,8 @@ def bplus_range_query(tree, low, high):
         start_idx = 0
     return result
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Oracle). PostgreSQL uses B+ trees as the default index type. MySQL InnoDB uses a variant where the
 Leaf pages form a doubly-linked list, enabling both forward and backward scans.
 
@@ -940,9 +938,8 @@ class Treap:
                 root.left = self.delete(root.left, key)
         return root
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Equivalent to a randomly built BST. The expected depth of any node is at most
 $2 \ln n \approx 1.39 \log_2 n$. Treaps are simpler to implement than AVL or red-black trees.
 
@@ -1147,5 +1144,4 @@ linked above.
 - [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Trees are a special case of graphs; BFS and DFS traversal on trees extends to general graph algorithms.
 - [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- Tree DP and memoisation on tree structures are key techniques in dynamic programming.
 - [Advanced Data Structures](../../07-graph-algorithms/advanced-data-structures) -- Segment trees and Fenwick trees extend BST principles to range query problems.
-
-</aside>
+:::

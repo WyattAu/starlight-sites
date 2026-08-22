@@ -450,11 +450,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Is still needed when the constraint depends on the **function's return type** in a way that cannot
 Be expressed as a simple boolean predicate, or when working with C++17 or earlier codebases.
 However, for new C++20 code, concepts should be the default choice for template constraints.
-</aside>
+:::
 
 ## Intuition
 

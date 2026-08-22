@@ -67,11 +67,11 @@ $$
 \mathrm{sizeof(\texttt{Simple}) = 1 + 3\mathrm{(pad) + 4 + 1 + 3\mathrm{(pad) + 8 = 24
 $$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Type, and all non-static data members with the same access control is a **standard-layout class**
 [N4950 §11.4.1]. Such classes have a well-defined, portable memory layout and are compatible with C
 Structs.
-</aside>
+:::
 ## 1.2 The `this` Pointer [N4950 §11.4.3.2]
 
 Every non-static member function receives an implicit first parameter: a pointer to the object on
@@ -180,10 +180,10 @@ struct Derived : Empty {
 static_assert(sizeof(Derived) == sizeof(int));
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `std::allocator&lt;T&gt;` is an empty class, and `std::vector&lt;T, std::allocator&lt;T&gt;&gt;`
 inherits from it privately so that the allocator Storage costs nothing.
-</aside>
+:::
 ### EBO Limitations
 
 EBO cannot be applied when:

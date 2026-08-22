@@ -1005,13 +1005,12 @@ the left eye.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 nervous system topics within the DSE specification.
 
 See for instructions on
 self-marking and building a personal test matrix.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -22,10 +22,10 @@ categories: [Mathematics]
 This document covers moments, equilibrium conditions, centres of mass, ladder problems, and
 Frameworks with a rigorous, proof-based approach.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Approach -- drawing the diagram, listing forces, choosing a pivot -- is more reliable than
 Intuition.
-</aside>
+:::
 <hr />
 
 ## 1. Moments
@@ -72,9 +72,9 @@ Resolving vertically: $R_A + R_C = 20g + 50$
 
 $$R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the line of action of the Force to the pivot point, not just the distance along the beam.
-</aside>
+:::
 <hr />
 
 ## 2. Equilibrium of a Rigid Body
@@ -206,10 +206,10 @@ $$\bar{y} = \frac{48 \times 3 - 8\pi\!\left(6 - \frac{16}{3\pi}\right)}{48 - 8\p
 
 $$\bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \approx 1.57\;\mathrm{cm}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 method: treat the removed Section as having negative area. The formula remains the same but with
 negative contributions from The removed part.
-</aside>
+:::
 <hr />
 
 ## 4. Ladder Problems
@@ -270,10 +270,10 @@ $$\alpha = \arctan(1.25) \approx 51.3^\circ$$
 
 The minimum angle is approximately $51.3^\circ$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 point where two Unknown forces act) to eliminate as many unknowns as possible from the moment
 equation.
-</aside>
+:::
 <hr />
 
 ## 5. Frameworks

@@ -120,7 +120,7 @@ git add src/auth.c
 git commit  # (or git merge --continue / git rebase --continue)
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 ```bash
 $ git diff src/auth.c
 ## Shows the conflict markers and your edits
@@ -361,8 +361,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

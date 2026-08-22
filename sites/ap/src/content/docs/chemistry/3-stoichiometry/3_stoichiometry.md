@@ -63,7 +63,7 @@ $$
 \%\mathrm{ element = \frac{n \times \mathrm{molar mass of element}{\mathrm{molar mass of compound} \times 100
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Find the percent composition of water.
 
@@ -109,9 +109,8 @@ $$
 $$
 
 Where $n = \frac{\mathrm{Molecular Mass}{\mathrm{Empirical Formula Mass}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Its molar mass is $180 \mathrm{ g/mol$.
 Find the empirical and molecular formulas.
@@ -217,9 +216,8 @@ Empirical formula: $\mathrm{C_4\mathrm{H_8\mathrm{N$.
 4. Save polyatomic ions that appear on both sides as a unit.
 5. If a fraction appears, multiply all coefficients by the denominator.
 6. Verify the balance and ensure coefficients are in the lowest whole-number ratio.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Balance the combustion of propane:
 
@@ -286,9 +284,8 @@ $$
 Theoretical yield is calculated from the limiting reactant. Actual yield is measured experimentally.
 Yield is always less than 100% due to side reactions, incomplete reactions, and product loss during
 Purification.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 If $25.0 \mathrm{ g$ of $\mathrm{NH_3$ reacts with $40.0 \mathrm{ g$ of $\mathrm{O_2$:
 
@@ -356,9 +353,8 @@ Valid for any concentration unit that is moles per volume.
 ### Solution Stoichiometry
 
 Use molarity to convert between volume and moles, then apply stoichiometric ratios.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 What volume of $0.500 \mathrm{ M  \mathrm{HCl$ is needed to react completely with $25.0 \mathrm{ mL$
 of $0.200 \mathrm{ M  \mathrm{NaOH$?
@@ -461,9 +457,8 @@ At STP, one mole of ideal gas occupies $22.4 \mathrm{ L$.
 ### Gas Stoichiometry
 
 Use $PV = nRT$ to convert between gas volume and moles.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 What volume of $\mathrm{O_2$ at STP is produced by decomposing $5.00 \mathrm{ g$ of
 $\mathrm{KClO_3$?
@@ -550,9 +545,8 @@ $\mathrm{H_2\mathrm{SO_4$$\mathrm{HClO_4$.
 
 Only strong electrolytes are split into ions in the complete ionic equation. Weak acids and bases
 Are written as intact molecules.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Write the net ionic equation for mixing $\mathrm{Pb(NO_3)_2$ and $\mathrm{KI$.
 
@@ -877,8 +871,7 @@ $$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
-
-</aside>
+:::
 
 ## Intuition
 

@@ -1048,7 +1048,7 @@ trans isomer has them on opposite sides (1 mark).
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Organic
@@ -1081,8 +1081,7 @@ $$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
-
-</aside>
+:::
 
 ## Cross-References
 

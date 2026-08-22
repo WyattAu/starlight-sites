@@ -84,7 +84,7 @@ Git classifies files in the working directory into two categories:
 Files listed in `.gitignore` are **ignored** — they are not tracked and `git status` will not
 mention them.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 to `.gitignore` will have no effect. You must first untrack it with `git rm --cached <file>`.
 
 ## The Index
@@ -124,9 +124,8 @@ The staging area is a deliberate design decision that enables several workflows:
    to verify the snapshot before recording it permanently.
 3. **Merge machinery**: The three-way merge algorithm operates on three trees. The base commit,
    "ours," and "theirs." The index holds the merge result before it is committed.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 tracked modified files) or `git commit --amend --no-edit` (adds all staged changes to the previous
 commit). Some developers prefer `git add -A && git commit` as a single workflow step.
 
@@ -213,9 +212,8 @@ flowchart TB
     B1 -.-> B4
     C1 -.-> C4
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 with `git status` and `git stash` if you want to preserve your work.
 
 ## The "Dirty" State Space
@@ -287,9 +285,8 @@ COMMIT=$(git commit-tree $TREE -p HEAD -m "message")
 # Update the current branch to point to the new commit
 git update-ref refs/heads/main $COMMIT
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 and enables scripting. When a porcelain command does something unexpected, breaking it down into
 plumbing steps reveals exactly what happened.
 
@@ -315,8 +312,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

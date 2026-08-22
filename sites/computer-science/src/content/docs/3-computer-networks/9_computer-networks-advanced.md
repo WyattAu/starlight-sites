@@ -131,12 +131,12 @@ _Proof._ Before accepting a route, a BGP speaker checks if its own AS number app
 attribute. If it does, the route is rejected. Since each AS prepends its number when advertising a
 route, any loop would cause the AS number to appear twice, triggering the rejection. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 oscillate between multiple stable states (known as BGP wedgies or "persistent oscillation"). The
 Gao-Rexford conditions ensure convergence: (1) routes are ranked by customer-provider-peer
 relationships, (2) an AS never prefers a route through a peer over a route through a customer, and
 (3) an AS never exports routes learned from one peer to another peer.
-</aside>
+:::
 ### 1.3 Route Aggregation
 
 Route aggregation (supernetting) reduces the size of routing tables by combining multiple routes
@@ -294,11 +294,11 @@ This allows a connection to survive IP address changes (e.g., switching from Wi-
 in the first packet (using saved session parameters). This eliminates the round trip for connection
 establishment.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the client's 0-RTT data can replay it to the server. Applications must ensure that 0-RTT requests
 are idempotent (safe to execute multiple times). The server can reject 0-RTT for non-idempotent
 operations.
-</aside>
+:::
 ## 3. Network Performance Analysis
 
 ### 3.1 Queueing Theory Basics
@@ -922,7 +922,7 @@ Using `ss -tanp` or `netstat -tanp`:
 
 **Common pitfalls:**
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 leak: the application received a close from the remote end but never called `close()` on its socket.
 This eventually exhausts file descriptors. The fix is in the application code, not in the network
 configuration.
@@ -1353,8 +1353,7 @@ $\blacksquare$
   AIMD).
 - IP addressing and subnetting: CIDR notation, variable-length subnet masking.
 - Routing: distance vector (RIP), link state (OSPF), path vector (BGP).
-
-</aside>
+:::
 ## Cross-References
 
 - [Network Models](./1_network-models) -- Advanced networking topics extend the OSI and TCP/IP models discussed in the fundamentals.

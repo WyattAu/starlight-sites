@@ -40,10 +40,10 @@ Determined.
 | OCR (A)    | Paper 2 | Projectiles on inclined planes                 |
 | CIE (9231) | M2      | Full coverage including inclined planes        |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Acceleration is $g = 9.8\,\mathrm{m s}^{-2}$ acting vertically downward. Take care with sign
 Conventions — define upward as positive at the start and be consistent.
-</aside>
+:::
 <hr />
 
 ## 1. Equations of Motion
@@ -147,10 +147,10 @@ $$\boxed{R = \frac{V^2\sin 2\theta}{g}}$$
 This is maximised when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$Giving
 $R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Both produce $R = \dfrac{V^2\sin 2\theta}{g}$. However, the trajectories are different —
 The steeper angle gives a higher but shorter arc.
-</aside>
+:::
 <hr />
 
 ## 4. Projection on Inclined Planes

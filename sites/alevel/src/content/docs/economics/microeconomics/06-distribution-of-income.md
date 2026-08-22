@@ -64,9 +64,9 @@ $$G = 1 - 2B$$
 | $0.3 \leq G < 0.4$ | Moderate inequality |
 | $G \geq 0.4$       | High inequality     |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - Denmark: 0.28 | Germany: 0.31 | UK: 0.35 | USA: 0.40 | Brazil: 0.52 | South Africa: 0.63
-</aside>
+:::
 ### 1.3 Limitations of the Gini Coefficient
 
 1. **Insensitive to changes at different parts of the distribution**: a transfer from a rich person
@@ -221,10 +221,10 @@ Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which declines as
 To disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
 Exists some $t^* \in (0, 1)$ that maximises revenue.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $t^*$ lies. Most empirical estimates for developed economies suggest that income tax rates are below
 The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
-</aside>
+:::
 ### 5.3 Evaluating the Trade-Off
 
 **Arguments that equity and efficiency can be complementary:**
@@ -243,10 +243,10 @@ The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 - Generous welfare benefits may create dependency and reduce labour supply
 - Redistribution through distortionary taxation creates deadweight loss
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Reduce inequality?), efficiency (does it create disincentives?), equity (is it fair?), fiscal cost
 (can the government afford it?), and unintended consequences (does it create poverty traps?).
-</aside>
+:::
 ## 6. Critical Evaluation
 
 ### Strengths of Redistributive Policies
@@ -266,11 +266,11 @@ Reduce inequality?), efficiency (does it create disincentives?), equity (is it f
 - Globalisation limits the effectiveness of national redistributive policies (mobile capital, tax
   competition)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Coefficient, including calculations. Edexcel emphasises poverty measures and government policy. CIE
 Covers inequality in the context of development economics. OCR (A) links distribution to market
 Failure and government intervention.
-</aside>
+:::
 ## 7. Formal Derivations
 
 ### 7.1 Derivation of the Gini Coefficient from the Lorenz Curve

@@ -140,7 +140,7 @@ $$
 2\mathrm{CrO}_4^{2-} + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{Cr(OH)}_3 + 3\mathrm{SO}_4^{2-}
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>IB Exam Tip</strong>
 When the question specifies acidic or basic conditions, you MUST show the balanced half-equations
 Separately before combining them. Showing working is essential for full marks.
@@ -227,9 +227,8 @@ Oxidation half-reaction (anode).
 
 **Definition.** A spontaneous redox reaction will occur when a species with a more positive
 Reduction potential is paired with a species with a more negative reduction potential.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
 When calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
@@ -344,16 +343,14 @@ In a galvanic cell:
 | Electron flow         | Electrons leave       | Electrons arrive       |
 | Sign in galvanic cell | Negative ($-$)        | Positive ($+$)         |
 | Ion migration         | Anions migrate toward | Cations migrate toward |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In galvanic cells, the
 Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
 Of the external power supply).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 When asked to predict whether a reaction is spontaneous, always:
 
@@ -453,9 +450,8 @@ Electrode when multiple species are present. On:
 1. The position in the electrochemical series (standard reduction potential).
 2. The concentration of ions (higher concentration favours discharge).
 3. The nature of the electrode (e.g., carbon vs. Mercury).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 For IB exams, use the simplified rules:
 
@@ -559,9 +555,8 @@ Comparison of chlor-alkali cell types:
 | Energy consumption     | Moderate         | Higher         | Highest             |
 | Environmental impact   | Low              | Moderate       | High (Hg pollution) |
 | Current usage          | Primary method   | Declining      | Phased out          |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 The membrane cell is the preferred method for the chlor-alkali process. Know the half-equations at
 Each electrode and the purpose of the membrane.
@@ -667,9 +662,8 @@ $$
 
 **Definition.** At equilibrium, the cell potential is zero. The standard cell potential directly
 Determines the equilibrium constant.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 A useful relationship: a larger positive $E^\circ_{\mathrm{cell}}$ means a larger equilibrium
 Constant $K$Meaning the reaction proceeds further to completion. For
@@ -691,9 +685,8 @@ E = E^\circ - \frac{0.0592}{1}\log_{10}\frac{[\mathrm{Fe}^{2+}]}{[\mathrm{Fe}^{3
 $$
 
 If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$Then $E \lt E^\circ$ (less tendency to be reduced).
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 When applying the Nernst equation to a half-cell, ensure the reduced form is in the numerator and
 The oxidized form is in the denominator. Reversing this will give the wrong answer.
@@ -788,9 +781,8 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 | $E^\circ_{\mathrm{cell}} = \frac{RT}{nF}\ln K$                     | Equilibrium constant from cell potential                                  |
 | $E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{RT}{nF}\ln Q$ | Cell potential under non-standard conditions                              |
 | $\Delta G = -nFE_{\mathrm{cell}}$                                  | Gibbs free energy under non-standard conditions                           |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
 Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
@@ -910,9 +902,8 @@ $$
 $$
 V(\mathrm{Cl}_2) = nRT/P = 0.04663 \times 22.7\mathrm{ dm}^3 = 1.06\mathrm{ dm}^3 \mathrm{ at STP}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 Always convert time to seconds before calculating charge. Always check whether the question gives
 Volume conditions (STP, RTP, or specific T and P). The IB data booklet uses
@@ -1010,9 +1001,8 @@ Transport limitations, $40\mathrm{-}60\%$.
 | Quiet operation                                                    | Platinum catalysts are expensive                 |
 | Continuous operation with fuel supply                              | Limited infrastructure for hydrogen refuelling   |
 | Scalable design                                                    | Water management in PEM cells                    |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 When comparing fuel cells to combustion engines, emphasize that fuel cells are more efficient
 Because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
@@ -1128,9 +1118,8 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 | Sacrificial anodes         | Galvanic protection   | Replaceable, effective         | Anodes must be periodically replaced         |
 | Alloying (stainless steel) | Passive oxide layer   | Very durable                   | Expensive, not suitable for all applications |
 | Impressed current          | Forced cathode        | Effective for large structures | Requires continuous power supply             |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 When explaining why zinc protects iron in galvanizing, reference the electrochemical series: zinc
 Has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
@@ -1235,9 +1224,8 @@ Key features:
 | Toxicity            | Lead is toxic  | Less toxic materials |
 | Cost                | Lower          | Higher               |
 | Weight              | Heavy          | Lightweight          |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 Know the half-reactions for the lead-acid battery. The key insight is that during discharge, both
 Electrodes are converted to $\mathrm{PbSO}_4$And during charging, the reaction is reversed. This
@@ -1761,8 +1749,7 @@ $$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ---
 

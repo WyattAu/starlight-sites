@@ -54,11 +54,11 @@ Returns a `std::string` by value. The format string is checked at compile time f
 Mismatch between the format specification and the argument type is a compile-time error [N4950
 §22.14.6.2].
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Enables the compiler to parse it and verify that every `{}` field has a corresponding argument of
 The correct type. Runtime-computed format strings are not supported by `std::format` (use
 `std::vformat` for runtime format strings, at the cost of losing compile-time checking).
-</aside>
+:::
 ### Format Specification Syntax
 
 The full format specification grammar [N4950 §22.14.2] for a replacement field `{...}` is:
@@ -168,10 +168,10 @@ void width_precision_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Argument IDs with dynamic width/precision can lead to confusing index errors. When using dynamic
 Width/precision, keep the argument ordering simple.
-</aside>
+:::
 #### Type Specifiers
 
 | Type      | Meaning                          | Example                                      |
@@ -302,16 +302,16 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Stream, bypassing `std::cout` and its stream buffer. This makes it faster for simple console output
 But means it does not synchronize with `std::cout` by default. Avoid mixing
 `std::print(stdout, ...)` and `std::cout` in the same program without calling
 `std::ios_base::sync_with_stdio(true)` first.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `std::print` from multiple threads can produce interleaved output. Use `std::print(stderr, ...)` for
 Error messages (stderr is unbuffered) or protect stdout with a mutex.
-</aside>
+:::
 ### Custom Type Formatter
 
 To make a user-defined type work with `std::format`You must specialize `std::formatter&lt;T>` for
@@ -447,16 +447,16 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 To the standard format specification parsing logic. If your custom type needs to support the full
 Standard specification set (width, fill, alignment), parse the standard spec first with the base
 Class's `parse()`Then check for your custom specifiers.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Find it. However, adding declarations to namespace `std` is technically undefined behavior unless it
 Is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
 `std::formatter` is explicitly permitted.
-</aside>
+:::
 ### Runtime Format Strings with `std::vformat`
 
 When the format string must be computed at runtime (e.g., loaded from a configuration file or user

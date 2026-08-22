@@ -289,7 +289,7 @@ The client indicates which PSK modes it supports in the `psk_key_exchange_modes`
 - `psk_ke`: PSK-only key establishment (no forward secrecy)
 - `psk_dhe_ke`: PSK combined with (EC)DHE (forward secrecy maintained)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Secrecy even for resumed sessions. If the PSK is compromised, past traffic remains secure because
 The (EC)DHE exchange was ephemeral.
 
@@ -511,9 +511,8 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 | DHE           | Yes             |
 | PSK only      | No              |
 | PSK + (EC)DHE | Yes             |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Alone or in combination with PSK. Static RSA key exchange is not available in TLS 1.3.
 
 ## Common Implementation Pitfalls
@@ -720,9 +719,8 @@ For repeat connections where latency is critical.
 # Test 0-RTT with openssl
 openssl s_client -connect example.com:443 -tls1_3 -early_data /tmp/request.txt
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Operations. Common safe uses: GET requests, database reads, cache lookups. Unsafe: POST, PUT,
 DELETE, financial transactions.
 
@@ -875,28 +873,11 @@ Resources. Use the Content-Security-Policy header to enforce HTTPS for all subre
 Content-Security-Policy: upgrade-insecure-requests
 ```
 
-## Summary
-
-This topic covers the biological principles of tls internals, including key concepts, experimental
-evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 TLS is like a secure diplomatic pouch system. The handshake is like two ambassadors meeting, verifying each other's credentials (certificates), and agreeing on a secret code (shared secret) for their correspondence. The record layer is like the pouch itself - it wraps messages so eavesdroppers cannot read them and tamperers cannot modify them. TLS 1.3 simplified the handshake from two round trips to one, like speeding up the credential verification process. The key insight is that TLS provides confidentiality (encryption), integrity (MAC), and authentication (certificates) - the three pillars of secure communication. Perfect forward secrecy ensures that even if a server's private key is compromised later, past sessions remain secure.

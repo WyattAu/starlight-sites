@@ -112,10 +112,10 @@ These notes are structured by subject and topic. Each topic covers material rele
 And Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
 Questions are included throughout.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Questions. For Higher Level students, pay particular attention to the proofs and derivations, as
 These frequently appear on the examination.
-</aside>
+:::
 ## State Examinations Commission (SEC)
 
 The SEC is the statutory body responsible for the development, administration, and accreditation of
@@ -123,9 +123,9 @@ The State examinations in Ireland. Its website at [examinations.ie](https://www.
 Provides past examination papers, marking schemes, and chief examiner reports -- all invaluable
 Resources for revision.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Through past papers under timed conditions is one of the most effective preparation strategies.
-</aside>
+:::
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

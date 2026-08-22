@@ -496,7 +496,7 @@ In cosmology. Possible resolutions include:
 2. **New physics** prior to recombination (e.g., additional radiation, early dark energy).
 3. **Extensions to $\Lambda$CDM** (e.g., time-varying dark energy equation of state $w(z)$).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Planck) disagrees with Local distance-ladder measurements ($\sim 73.0$ km/s/Mpc, SH0ES). This
 "Hubble tension" is one of The most significant open problems in cosmology. When using $H_0$ in
 calculations, be aware of Which measurement you are referencing and the systematic uncertainties
@@ -518,8 +518,7 @@ involved.
 | $\sim 1$ Gyr   | $\sim 10$ K    | Galaxy formation                      |
 | 9.2 Gyr        | $\sim 5$ K     | Solar system forms                    |
 | 13.8 Gyr       | 2.725 K        | Present day                           |
-
-</aside>
+:::
 
 ## Intuition
 

@@ -935,7 +935,7 @@ shared, not transferred) but polar (unequal sharing) (1 mark).
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Bonding and
@@ -963,8 +963,7 @@ underlying theories, and practical applications.
 
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
-
-</aside>
+:::
 ## Cross-References
 
 - [Chemistry](../chemistry)

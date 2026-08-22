@@ -132,11 +132,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Function signatures hard to read. In C++17 and later, prefer `if constexpr` for compile-time
 Branching inside function bodies. In C++20, prefer **concepts** and **constraints** [N4950 §13.7.7]
 For the clearest syntax.
-</aside>
+:::
 ## Tag Dispatch
 
 **Tag dispatch** is a SFINAE technique that uses tag types to select overloads at compile time
@@ -297,11 +297,11 @@ int main() {
 
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Handle multiple type categories. Prefer `std::enable_if` (or better, C++20 concepts) when different
 Implementations should be entirely separate overloads. The `if constexpr` approach is generally
 Easier to read, debug, and maintain.
-</aside>
+:::
 ## Comparison: Tag Dispatch vs `if constexpr` vs Concepts
 
 ```cpp
@@ -582,12 +582,12 @@ for_each output: [1] [2.5] [hello]
 transformed: [2] [5] [hello!]
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
 The idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
 To iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
-</aside>
+:::
 ## Unrolling a Tuple with `index_sequence`
 
 The following example demonstrates a more advanced use of `index_sequence` --- extracting specific
@@ -744,10 +744,10 @@ Min version: 2.99.99
 1, 2, three
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Utility that unpacks a tuple as arguments to a callable. It is implemented using the same
 `index_sequence` pattern shown above. Prefer `std::apply` over writing your own unpacking code.
-</aside>
+:::
 ## Reflection Preview (C++26)
 
 ### `std::meta::info` and `std::meta::value` (C++26)
@@ -769,10 +769,10 @@ The key operations include:
   a class type.
 - `std::meta::name_of(info)` --- returns the name of the reflected entity as a `std::string_view`.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Finalized. The examples below follow the direction of P2996R9, which is the leading proposal.
 Compiler support may vary. Check the latest compiler documentation for current support.
-</aside>
+:::
 ### Code Example: Aggregate Introspection Pattern
 
 The following example demonstrates the intended C++26 reflection pattern for iterating over
@@ -905,13 +905,13 @@ Config (4 fields):
 Port via index: 8080
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Public members, no virtual functions, no base classes, no custom constructors). It does not work for
 Types with private members, virtual functions, or non-standard layout. If your types satisfy these
 Constraints, Boost.PFR is a practical, header-only solution that requires no code generation or
 Macro registration. For more complex types, wait for C++26 reflection or use a library like Magic
 Enum for enums.
-</aside>
+:::
 ### Comparison: Current Approaches to Compile-Time Introspection
 
 | Approach                              | C++ Version       | Limitations                     | Overhead     |

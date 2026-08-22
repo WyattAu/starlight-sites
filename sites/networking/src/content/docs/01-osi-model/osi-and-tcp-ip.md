@@ -694,7 +694,7 @@ Have root causes at another:
 | MTU black hole                 | Network       | `ping -M do -s 1472`ICMP   |
 | TLS handshake failure          | Application   | `openssl s_client`Cipher   |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Checking IP configuration. Verify IP connectivity before checking TCP ports. Verify TCP connectivity
 Before debugging application-level issues. This systematic approach saves time and prevents
 Misdiagnosis.
@@ -848,8 +848,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

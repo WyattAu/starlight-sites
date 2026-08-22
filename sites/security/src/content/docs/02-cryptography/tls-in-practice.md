@@ -42,7 +42,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
   -addext "subjectAltName=DNS:localhost,IP:127.0.0.1"
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
 Them only for internal services where you control the trust store.
 
@@ -294,9 +294,8 @@ chown root:root server.key
 # Remove passphrase from key (for automated services)
 openssl rsa -in server-encrypted.key -out server.key
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Manager, Azure Key Vault) or a provisioning tool (Ansible Vault, SOPS) to manage private keys.
 Automated certificate management with certbot or a cloud provider reduces the risk of manual key
 Handling errors.
@@ -457,9 +456,8 @@ ssl_early_data on;
 # - Only use for idempotent requests
 # - Use a single-use token to detect replays
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 0-RTT for idempotent, safe-to-replay requests (e.g., GET requests, non-critical analytics). Never
 Use 0-RTT for authentication, payment, or state-changing requests.
 
@@ -652,8 +650,7 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

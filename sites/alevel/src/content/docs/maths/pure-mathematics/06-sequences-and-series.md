@@ -177,9 +177,9 @@ If $r = 1$: $S_n = na \to \pm\infty$ (unless $a = 0$).
 
 If $r = -1$: $S_n = a - a + a - a + \cdots$Which oscillates and does not converge. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Formula when $|r| \geq 1$Which gives nonsense.
-</aside>
+:::
 <details>
 <summary>Example</summary>
 Find the sum to infinity of $1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$
@@ -362,10 +362,10 @@ $$= \frac{3}{4} - \frac{2n + 3}{2(n+1)(n+2)}$$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Identify the cancellation pattern before simplifying. Be especially careful when the "gap" in the
 Denominator is larger than 1 (e.g., $k(k+2)$), as not all terms cancel in a simple pairwise fashion.
-</aside>
+:::
 <hr />
 
 ## 8. Arithmetic-Geometric Sequences
@@ -840,7 +840,7 @@ Verification:
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Sequences
@@ -868,5 +868,4 @@ building a personal test matrix.
 - [Proof](13-proof.md) — Mathematical induction is used to prove the sum formulas for arithmetic and geometric series.
 - [Functions](05-functions.md) — Exponential and logarithmic functions arise in the analysis of geometric series convergence.
 - [Equations and Inequalities](03-equations-and-inequalities.md) — Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
-
-</aside>
+:::

@@ -22,9 +22,9 @@ categories: [Mathematics]
 This document extends the core kinematics material with deeper derivations, multi-stage problems,
 Projectile motion in two dimensions, and the calculus approach to variable acceleration.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 the SUVAT equations and basic calculus definitions of velocity and acceleration.
-</aside>
+:::
 <hr />
 
 ## 1. Equations of Motion (SUVAT) -- Rigorous Derivation
@@ -101,10 +101,10 @@ $$s_2 = \frac{1}{2}(u + v)t_2 = \frac{1}{2}(12 + 0)(4) = 24\;\mathrm{m}$$
 
 $$s_{\mathrm{total}} = 36 + 24 = 60\;\mathrm{m}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 becomes the initial velocity Of the next**. Forgetting this connection is the most frequent error in
 multi-stage kinematics Problems.
-</aside>
+:::
 <hr />
 
 ## 2. Free Fall Under Gravity
@@ -151,10 +151,10 @@ $$v = -\sqrt{264.21} \approx -16.26\;\mathrm{m\,s^{-1}}$$
 
 The negative sign confirms downward motion. Speed $= 16.3\;\mathrm{m\,s^{-1}}$ (3 s.f.).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $-2 = 15t - 4.9t^2$Giving $t \approx 3.15\;\mathrm{s}$. This is **not** $2 \times t_{\mathrm{max}}$
 Because the ball was thrown from a height, not from ground level.
-</aside>
+:::
 <hr />
 
 ## 3. Projectile Motion
@@ -239,10 +239,10 @@ $$x = 20.48 \times 3.025 \approx 61.95\;\mathrm{m}$$
 
 The ball travels approximately $62.0\;\mathrm{m}$ horizontally.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 trajectory is **not** Symmetric. The time of ascent is less than the time of descent, and the
 landing angle is steeper Than the launch angle.
-</aside>
+:::
 <hr />
 
 ## 4. Two-Dimensional Motion with Non-Perpendicular Components
@@ -357,7 +357,7 @@ $$\frac{1}{v} = 0.1t + 0.1 = 0.1(t + 1)$$
 
 $$v = \frac{10}{t + 1}\;\mathrm{m\,s^{-1}}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 integration** and use the Initial conditions to find it. Also check whether the particle changes
 direction by finding when $v = 0$ -- the total distance is not the same as the displacement if there
 is a change of Direction.
@@ -533,8 +533,7 @@ Kinematics is the language of motion stripped bare of its causes. Imagine filmin
 - For variable acceleration: $v = \int a\,dt$, $s = \int v\,dt$; always check if the particle
   changes direction.
 - Chain rule form: $a = v\frac{dv}{ds}$ is useful when acceleration depends on displacement.
-
-</aside>
+:::
 
 ## Cross-References
 

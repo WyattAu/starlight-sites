@@ -110,10 +110,10 @@ Unreachable.
 | iBGP             | 200                     |
 | Unknown          | 255                     |
 
-<aside aria-label="Administrative distance is a Cisco concept, but the principle exists in other vendors"" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Administrative distance is a Cisco concept, but the principle exists in other vendors"</p>
+:::note
 Implementations under different names (route preference, distance, or trust value). The numeric
 Values may differ.
-</aside>
+:::
 When two routes for the same prefix have the same AD, the router compares metrics. When both AD and
 Metric match, the router may load-balance (equal-cost or unequal-cost, depending on the protocol).
 
@@ -137,10 +137,10 @@ You can also specify the outbound interface instead of a next-hop:
 ip route 192.168.2.0 255.255.255.0 Ethernet0/1
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Ethernet) requires proxy ARP to function correctly, which can cause unexpected behavior. Prefer
 Next-hop addresses on multi-access links.
-</aside>
+:::
 ### Default Routes
 
 A default route (also called a gateway of last resort) matches any destination not found in the
@@ -333,10 +333,10 @@ Calculations:
 - **NSSA (Not-So-Stubby Area):** Allows external routes to be imported as Type 7 LSAs, which the ABR
   converts to Type 5 LSAs for the rest of the OSPF domain.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Area topology causes excessive SPF recalculations, large routing tables, and slow convergence. Keep
 Areas small, limit the number of ABRs, and avoid transit areas.
-</aside>
+:::
 ### OSPF Cost Metric
 
 OSPF cost is calculated as `reference bandwidth / interface bandwidth`. The default reference
@@ -387,10 +387,10 @@ interface Ethernet0/0
   ip ospf priority 100
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Behavior. On hub-and-spoke topologies, ensure the hub has the highest priority and all spokes have
 Priority 0. Otherwise, a spoke might win the DR election, breaking routing.
-</aside>
+:::
 ### OSPF Configuration
 
 ```
@@ -523,9 +523,9 @@ By default, only K1 (bandwidth) and K3 (delay) are enabled (K1=1, K2=0, K3=1, K4
 | Reliability | Reliability of the path (0-255, where 255 is 100%)               |
 | Load        | Load on the path (0-255, where 255 is fully loaded)              |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Traffic, causing the metric to change constantly and leading to route flapping and instability.
-</aside>
+:::
 ### Feasible Successors and DUAL
 
 **Definition.** The **Feasible Distance** (FD) is the total metric to reach a destination via the
@@ -609,10 +609,10 @@ interface Loopback0
   ip address 1.1.1.1 255.255.255.255
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `update-source Loopback0` and `next-hop-self`. For eBGP sessions, use directly connected interfaces
 (unless you are using multihop, which requires `ebgp-multihop`).
-</aside>
+:::
 ### NLRI
 
 **Definition.** **Network Layer Reachability Information** (NLRI) is the set of IP prefixes that a
@@ -768,11 +768,11 @@ Operators should follow:
 3. Coordinate and share contact information
 4. Publish routing policy (ROAs in RPKI)
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Prefix (208.65.153.0/24) by advertising a more specific route, redirecting global YouTube traffic to
 Pakistan. In 2018, attackers hijacked Amazon's NS1 prefix to intercept cryptocurrency DNS traffic.
 Implement RPKI validation and prefix filtering on all BGP sessions.
-</aside>
+:::
 ## Route Redistribution
 
 ### Overview
@@ -1182,10 +1182,10 @@ show logging | include OSPF|BGP
 
 ### Debug Commands
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Carefully, and always use `terminal monitor` and specific debug filters. Disable debug with
 `undebug all` as soon as you have the information you need.
-</aside>
+:::
 ```
 debug ip routing
 debug ip ospf adj
@@ -1243,7 +1243,7 @@ router bgp 65001
   bgp dampening 5 750 2000 60    ! half-life, suppress, reuse, max-suppress (minutes)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Flapping route carries important traffic. Many operators prefer to fix the root cause of the
 Flapping rather than suppress the route. Use dampening carefully.
 
@@ -1314,5 +1314,4 @@ Routing is like a GPS navigation system for internet packets. Static routes are 
 - [IP Addressing](02-ip-addressing/ip-addressing) - The address space that routing protocols distribute across autonomous systems
 - [OSI and TCP/IP](01-osi-model/osi-and-tcp-ip) - Reference models that place routing at the network layer
 - [TCP and UDP](03-tcp-udp/tcp-and-udp) - Transport protocols that routing decisions affect end-to-end
-
-</aside>
+:::

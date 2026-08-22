@@ -60,7 +60,7 @@ impl Counter {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
 The aliasing invariant. Violating this is undefined behavior.
 
@@ -801,9 +801,8 @@ c2.set(c2.get() + 1);
 
 assert_eq!(counter.get(), 2);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
 interior mutability — `get` copies the value out and `set` replaces it in a single Operation.
 
@@ -967,8 +966,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Interior mutability lets you modify data through a shared reference, bypassing the usual borrowing rules at runtime. RefCell performs borrow checking at runtime, panicking on violations. Cell provides copyable values without borrow checks. Mutex and RwLock enable thread-safe interior mutability. This pattern is essential for building safe abstractions like caches, lazy initialization, and reference-counted shared state where compile-time checking is too restrictive.

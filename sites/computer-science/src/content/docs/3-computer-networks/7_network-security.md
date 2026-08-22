@@ -194,7 +194,7 @@ A **Virtual Private Network** creates an encrypted tunnel over a public network.
 - Specific rules must precede general rules.
 - Stateful firewalls automatically allow return traffic for established connections.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 public key guarantees Confidentiality but does not prove who sent it. Digital signatures (signing
 with a private key) Provide authentication and non-repudiation. TLS combines both via the
 certificate chain.
@@ -221,8 +221,7 @@ Network attack, but often delivered over HTTP. Defences: parameterised queries, 
 **TCP SYN flood.** An attacker sends many SYN packets without completing the handshake, exhausting
 The server's connection table. Defences: SYN cookies (encode state in the initial sequence number),
 Rate limiting, connection throttling.
-
-</aside>
+:::
 
 ## Intuition
 

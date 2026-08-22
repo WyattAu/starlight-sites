@@ -22,7 +22,7 @@ categories:
 
 ## Shakespeare
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (with Pre-1900 Poetry) | WJEC/Eduqas Paper 1 Section A
 
 ## 1. Why Shakespeare Is Compulsory
@@ -617,8 +617,7 @@ terminology, approaches, and critical perspectives.
 
 Developing a precise analytical vocabulary and practising close reading are essential for strong
 performance in this area.
-
-</aside>
+:::
 
 ## Cross-References
 

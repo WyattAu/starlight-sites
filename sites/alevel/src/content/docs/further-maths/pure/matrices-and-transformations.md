@@ -22,9 +22,9 @@ categories: [Mathematics]
 This document covers matrix operations, determinants, inverses, 3x3 matrices, linear
 Transformations, and an introduction to eigenvalues and eigenvectors.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Transformations, and many applications in science and engineering.
-</aside>
+:::
 <hr />
 
 ## 1. Matrix Operations
@@ -300,10 +300,10 @@ $$A^n = PD^n P^{-1}$$
 
 Since $D^n$ is the diagonal matrix with each eigenvalue raised to the power $n$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Has a full set of linearly independent eigenvectors. A matrix with repeated eigenvalues may or may
 Not be diagonalisable.
-</aside>
+:::
 <hr />
 
 ## 6. Practice Problems
@@ -461,7 +461,7 @@ $\blacksquare$
 
 ## 8. Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 1. **Matrix multiplication order:** $AB$ means "apply $B$ first, then $A$." When combining
    transformations, the second transformation is written on the left. Always read right-to-left.
 2. **3x3 determinant sign errors:** The cofactor expansion alternates signs $+$, $-$, $+$ along the
@@ -1189,5 +1189,4 @@ This topic covers the mathematical techniques and concepts related to matrices a
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::

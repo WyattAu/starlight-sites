@@ -39,11 +39,11 @@ Geometric distribution counts the number of trials until the first success.
 | OCR (A)    | Paper 2 | Poisson and geometric                   |
 | CIE (9231) | S2      | Poisson covered; geometric not required |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 And how to carry out hypothesis testing with discrete distributions. The geometric distribution has
 Two common conventions for the support: $r = 1, 2, 3, \ldots$ (number of trials) or
 $r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
-</aside>
+:::
 <hr />
 
 ## 1. The Poisson Distribution
@@ -251,9 +251,9 @@ $$
 \frac{1 - (1-q^{m+n})}{1 - (1-q^m)} = \frac{q^{m+n}}{q^m} = q^n = 1 - (1-q^n) = P(X > n) \quad \blacksquare
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 You were starting fresh. The process "forgets" its history.
-</aside>
+:::
 ### 2.5 Cumulative distribution function
 
 $$P(X \leq r) = 1 - q^r = 1 - (1-p)^r$$
@@ -307,9 +307,9 @@ Before applying the Poisson distribution, verify:
 2. Events are independent
 3. At most one event can occur in a sufficiently small sub-interval
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $np > 5$ and $n(1-p) > 5$.
-</aside>
+:::
 <hr />
 
 ## Problems

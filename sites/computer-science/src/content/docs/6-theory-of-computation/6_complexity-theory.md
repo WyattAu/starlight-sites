@@ -461,15 +461,14 @@ Both inclusions $\mathrm{P} \subseteq \mathrm{NP}$ and $\mathrm{NP} \subseteq \m
 Known to be proper ($\mathrm{P} \neq \mathrm{PSPACE}$), but the status of $\mathrm{P}$ vs.
 $\mathrm{NP}$ remains open.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (e.g., "find the shortest Tour") are NP-hard, not necessarily NP-complete. Also, "NP" stands for
 "Nondeterministic Polynomial Time," not "Not Polynomial time." Every problem in NP is verifiable in
 polynomial time; whether all Such problems are solvable in polynomial time is the P vs. NP question.
 A common error is confusing "NP-hard" with "NP-complete": NP-hard means at least as hard as all NP
 problems, but the problem Itself might not be in NP (e.g., the halting problem is NP-hard but
 undecidable).
-
-</aside>
+:::
 ## Cross-References
 
 - [Turing Machines](./4_turing-machines) -- Complexity classes are defined in terms of Turing machine resources, connecting computational models to complexity.

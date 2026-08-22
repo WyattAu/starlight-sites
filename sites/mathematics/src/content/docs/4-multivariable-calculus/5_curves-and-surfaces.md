@@ -292,15 +292,14 @@ $\blacksquare$
 
 ### 5.6 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Parameterisation domain.** Always verify that the parameterisation covers the entire surface and
   that the map is one-to-one (except possibly on the boundary).
 - **Normal orientation.** The cross product $\mathbf{r}_u \times \mathbf{r}_v$ determines the
   orientation. Swapping the order changes the sign of the flux integral.
 - **Surface area vs. Flux.** Surface area uses $\lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$
   (scalar), while flux uses $\mathbf{r}_u \times \mathbf{r}_v$ (vector, oriented).
-
-</aside>
+:::
 
 ## Cross-References
 

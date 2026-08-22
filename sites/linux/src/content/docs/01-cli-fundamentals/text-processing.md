@@ -233,7 +233,7 @@ sed -i 's/old/new/g' file.txt
 sed -i 's/192.168.1.100/10.0.0.1/g' /etc/hosts /etc/resolv.conf
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The original file was a symlink, the link is destroyed. Always use `sed -i.bak` in production
 Scripts to preserve recoverability.
 
@@ -859,9 +859,8 @@ awk -F: "{print $1, $3, $7}'' /etc/passwd
 awk -F, "{print $1 "\t" $3}' data.csv
 awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Large files. Use `awk` when you need conditional logic, field manipulation, or aggregation.
 
 ## paste and join
@@ -1072,5 +1071,4 @@ linked above.
 - [I/O Redirection](../03-process-management/io-redirection) -- Text processing pipelines use redirection and pipes to compose commands.
 - [Bash Scripting](bash-scripting) -- Regular expressions and text processing are frequently used in bash scripts for data manipulation.
 - [File Permissions](../02-file-systems/file-permissions) -- Log file analysis requires understanding file ownership and access permissions.
-
-</aside>
+:::

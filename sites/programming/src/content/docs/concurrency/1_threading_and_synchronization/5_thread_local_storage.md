@@ -294,9 +294,9 @@ This means:
 - Subsequent accesses are cheap (just the guard check, branch-predicted).
 - If the constructor throws, initialization is retried on the next access.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 optimize this Automatically, but explicit caching can help in complex functions.
-</aside>
+:::
 ## Initialization Ordering Across Threads
 
 ### Proof: When Does `thread_local` Initialization Occur?
@@ -568,10 +568,10 @@ If `mylib.so` is loaded after threads have been created, those threads will trig
 Of `lib_tls` on their first access. The dynamic linker handles this by allocating TLS storage for
 The new module and running its initializers lazily.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 pointer obtained Before the unload), the behavior is undefined. The standard does not define safe
 unloading semantics For TLS [N4950 §6.7.3].
-</aside>
+:::
 ### TLS Slot Exhaustion
 
 POSIX systems limit the number of TLS slots per process via `PTHREAD_KEYS_MAX` ( 1024). Each
@@ -715,7 +715,7 @@ Each thread has its own `std::mt19937` instance, so there is no contention for t
 Generator. This is both **faster** (no lock contention) and **more correct** (the generator state is
 Not shared, so the random sequence quality is preserved).
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 generator is Independent, so there are no synchronization overheads or sequence quality concerns.
 
 ## Thread-Local Memory Pool (Advanced Pattern)
@@ -834,5 +834,4 @@ When working with thread-local storage (tls), follow these steps:
 2. Select the appropriate algorithm, data structure, or technique
 3. Implement the solution step by step
 4. Test with edge cases and verify correctness
-
-</aside>
+:::

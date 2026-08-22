@@ -162,7 +162,7 @@ $$\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol$$
 
 (The exact value is $-92.2 \mathrm{ kJ/mol$Showing that bond enthalpies give a good Approximation.)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Calculate $\Delta H^\circ$ for the combustion of propane:
 
@@ -197,9 +197,8 @@ $$
 
 This is an approximation because bond energies are average values that depend on the molecular
 Environment. The approximation is most accurate when all species are in the gas phase.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Estimate $\Delta H$ for
 $\mathrm{CH_4(g) + 2\mathrm{O_2(g) \to \mathrm{CO_2(g) + 2\mathrm{H_2\mathrm{O(g)$ using bond
@@ -288,9 +287,8 @@ $$\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol$$
 
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
 Solution rather than pure water.)
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 When $50.0 \mathrm{ mL$ of $1.00 \mathrm{ M  \mathrm{HCl$ is mixed with $50.0 \mathrm{ mL$ of
 $1.00 \mathrm{ M $ $\mathrm{NaOH$ in a coffee-cup calorimeter, the temperature rises from
@@ -472,9 +470,8 @@ T = \frac{\Delta H}{\Delta S}
 $$
 
 At this temperature, $\Delta G = 0$ and $K = 1$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 For the reaction $\mathrm{CaCO_3(s) \to \mathrm{CaO(s) + \mathrm{CO_2(g)$:
 
@@ -487,8 +484,7 @@ T = \frac{\Delta H}{\Delta S} = \frac{178000}{160} = 1113 \mathrm{ K \approx 840
 $$
 
 Above $1113 \mathrm{ K$, $\Delta G \lt 0$ and the decomposition is spontaneous.
-
-</aside>
+:::
 ### Worked Example: Gibbs Free Energy Calculation
 
 For the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \to 2\mathrm{NH_3(g)$ at $298 \mathrm{ K$:

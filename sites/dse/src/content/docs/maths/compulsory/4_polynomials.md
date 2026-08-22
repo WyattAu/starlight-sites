@@ -732,7 +732,7 @@ Dividing: $f(x) = (x+1)(x^2 - 4x + 4) = (x+1)(x-2)^2$.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Polynomials
@@ -1075,8 +1075,7 @@ $$2(1)^3 + p(1)^2 - 5(1) + 3 = 4 \implies 2 + p - 5 + 3 = 4 \implies p = 4$$
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
-
-</aside>
+:::
 
 ## Intuition
 

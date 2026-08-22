@@ -90,11 +90,11 @@ Policy controls execution:
 | `std::launch::deferred`                                 | Lazy — runs when `get()` is called on the calling thread       |
 | `std::launch::async \| std::launch::deferred` (default) | Implementation chooses (may be either)                         |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Execution. This means the task might run synchronously on the calling thread when `get()` is called,
 Defeating the purpose of asynchronous execution. Always use `std::launch::async` explicitly if you
 Need guaranteed asynchronous execution.
-</aside>
+:::
 ## Future/Promise Pair as the Basic Async Primitive
 
 The future/promise pair is the fundamental building block for asynchronous computation in C++. The
@@ -249,11 +249,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 require implementations to use a thread pool. Some implementations (notably GCC's libstdc++) Spawn a
 new thread for each `std::async` call, which can be expensive. For high-throughput Scenarios, use a
 dedicated thread pool or a coroutine-based executor.
-</aside>
+:::
 ## Cancellation via `std::stop_token` Integration
 
 C++20 introduced `std::stop_token` [N4950 §33.5.1] as a cooperative cancellation mechanism. A
@@ -372,10 +372,10 @@ Depends on context [N4950 §8.5.3]:
 - If the coroutine has not yet reached `final_suspend`The exception propagates out of `resume()`.
 - If the coroutine has no caller waiting (e.g., it was detached), `std::terminate()` is called.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `await_resume()` point. Letting exceptions escape `resume()` makes the coroutine interface fragile
 And can lead to `std::terminate()` in detached scenarios.
-</aside>
+:::
 ## Cleanup on Cancellation
 
 When a coroutine is cancelled, all local variables that are still alive must be destroyed. The
@@ -547,11 +547,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `std::stop_token` directly into the sender/receiver model, providing a unified cancellation
 Mechanism that propagates through entire async computation graphs. Until P2300 is standardized,
 Manual `stop_token` integration as shown above is the recommended approach.
-</aside>
+:::
 ## Intuition
 
 **A future is like a receipt for a pizza order:** You order a pizza (start an async task), get a receipt (the future), and go do other things. When the pizza is ready, you present your receipt and get the pizza (call `.get()` on the future). The promise is the kitchen's side — it's what they use to actually put the pizza in the box and hand it to you. The problem is, `.get()` blocks — you stand at the counter waiting, which defeats the purpose of ordering ahead.

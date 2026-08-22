@@ -118,7 +118,7 @@ Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
 **Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
 Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Does $\displaystyle\sum_{n=1}^{\infty} \frac{n}{n+1}$ converge?
 
@@ -167,9 +167,8 @@ S_n = \frac{a(1 - r^n)}{1 - r}
 $$
 
 When $|r| \lt 1$, $r^n \to 0$So $S_n \to \frac{a}{1 - r}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
 
@@ -183,9 +182,8 @@ $$
 ### Repeating Decimals as Geometric Series
 
 Every repeating decimal can be expressed as a rational number using geometric series.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Express $0.\overline{37}$ as a fraction.
 
@@ -202,9 +200,8 @@ $$
 ## Telescoping Series
 
 A telescoping series has terms that cancel in pairs when the partial sum is expanded.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.
 
@@ -307,9 +304,8 @@ $$
 
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
 Of magnitude," so they share the same convergence behavior.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n^2 + 1}$ converges.
 
@@ -353,9 +349,8 @@ Ratio tends to simplify dramatically.
 **Why it connects to geometric series.** If $\left|\frac{a_{n+1}}{a_n}\right| \to L \lt 1$Then for
 Large $n$ the terms behave like a geometric series with ratio $L$And geometric series converge When
 the ratio is less than 1.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{n!}{10^n}$ converges.
 
@@ -364,9 +359,8 @@ L = \lim_{n \to \infty} \frac{(n+1)! / 10^{n+1}}{n! / 10^n} = \lim_{n \to \infty
 $$
 
 Since $L = \infty \gt 1$The series diverges.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{2^n}{n!}$ converges.
 
@@ -402,9 +396,8 @@ $$
 
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
 The error by counting terms.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
 The sum with error less than $0.001$?
@@ -430,9 +423,8 @@ $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two 
 **Riemann rearrangement theorem.** A conditionally convergent series can be rearranged to converge
 To any real number, or to diverge. This is not true for absolutely convergent series, whose sum is
 Invariant under rearrangement.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Classify $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$.
 
@@ -467,9 +459,8 @@ Convergence**:
 | $R = 0$              | Single point $\{a\}$                |
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the interval of convergence for $\displaystyle\sum_{n=0}^{\infty} \frac{(x - 2)^n}{n!}$.
 
@@ -481,9 +472,8 @@ $$
 
 Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the interval of convergence for $\displaystyle\sum_{n=1}^{\infty} \frac{(x-1)^n}{n}$.
 
@@ -571,9 +561,8 @@ $$
 $$
 
 Where $M$ is an upper bound for $|f^{(n+1)}(z)|$ for $z$ between $a$ and $x$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Use the Maclaurin series for $e^x$ to approximate $e^{0.1}$ with error less than $10^{-8}$.
 
@@ -603,9 +592,8 @@ $$
 
 You do not need to compute derivatives from scratch every time. If you know the series for $e^u$ You
 can substitute $u = -x^2$ to get the series for $e^{-x^2}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the Maclaurin series for $\cos(x^2)$.
 
@@ -627,9 +615,8 @@ $$
 $$
 
 Where $c_n = \sum_{k=0}^{n} a_k b_{n-k}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the Maclaurin series for $e^x \sin x$ up to the $x^5$ term.
 
@@ -648,9 +635,8 @@ E^x \sin x = x + x^2 + \frac{x^3}{3} - \frac{x^5}{30} + \cdots
 $$
 
 ### Integration of Power Series
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the Maclaurin series for $\ln(1 + x)$ by integrating the geometric series.
 
@@ -667,8 +653,7 @@ $$
 $$
 \ln(1 + x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{n+1}}{n+1} = \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n}, \quad |x| \lt 1
 $$
-
-</aside>
+:::
 ## Common Pitfalls
 
 1. **Confusing sequences and series.** A sequence is a list; a series is a sum. A convergent
@@ -849,7 +834,7 @@ $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)} = \lim_{N \to \infty} \left(1
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the AP specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Sequences
@@ -857,7 +842,7 @@ and Series with other AP Calculus topics to test synthesis under exam conditions
 
 See for instructions
 on self-marking and building a personal test matrix.
-</aside>
+:::
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to sequences and series,

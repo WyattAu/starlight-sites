@@ -76,11 +76,11 @@ $$\mathrm{Magnification} = \frac{\mathrm{Image\ size}}{\mathrm{Actual\ size}}$$
 Out-of-focus light, producing sharp optical sections through thick specimens. This allows 3D
 Reconstruction without the need for physical sectioning.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Much larger the image appears; resolution is the ability to distinguish two closely spaced objects
 As separate. Increasing magnification without increasing resolution produces a larger but blurry
 Image -- no additional detail is revealed.
-</aside>
+:::
 ### 1.3 Cell Fractionation
 
 Cell fractionation is the process of breaking open cells and separating organelles by differential
@@ -124,11 +124,11 @@ Animals, plants, fungi, and protists.
 | Reproduction              | Binary fission (asexual)                       | Mitosis, meiosis                               |
 | Flagella                  | Simple, rotating                               | Complex, $9 + 2$ microtubule arrangement       |
 
-<aside aria-label="Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which</p>
+:::caution
 Measure sedimentation rate during centrifugation -- not molecular weight. Svedberg units are not
 Additive: $50\mathrm{S} + 30\mathrm{S} = 70\mathrm{S}$ is a coincidence of sedimentation rates, not
 Molecular masses.
-</aside>
+:::
 ### 2.2 Prokaryotic Cell Structure
 
 Prokaryotic cells possess several structures not found in eukaryotes:
@@ -211,10 +211,10 @@ Enzymes (lipases, proteases, nucleases) optimised for pH $\approx 5$. They funct
 - **Autophagy**: breaking down worn-out organelles.
 - **Apoptosis**: programmed cell death.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 With hydrolytic activity. However, plant cells also have a large permanent vacuole, which is a
 Distinct structure with different functions (turgor, storage, waste isolation).
-</aside>
+:::
 ### 3.6 Other Organelles
 
 - **Ribosomes**: $80\mathrm{S}$ in cytoplasm, $70\mathrm{S}$ in mitochondria and chloroplasts. Sites
@@ -349,9 +349,9 @@ Reproduction.
 4. **Telophase**: chromosomes decondense; the nuclear envelope reforms; the nucleolus reappears.
    Cytokinesis (division of the cytoplasm) follows.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the time mitosis Starts, each chromosome already consists of two identical sister chromatids.
-</aside>
+:::
 ### 6.2 The Cell Cycle
 
 The cell cycle consists of:
@@ -428,11 +428,11 @@ Measurement is of a sub-component. If the full ribosome is being measured, the s
 recheck The image measurement. This highlights the importance of sanity-checking answers against
 known biological Dimensions.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 magnification formula. Always convert both image size and actual size to the same unit. A common
 error is to leave the answer In mm when the question asks for $\mu\mathrm{m}$. Write down the
 conversion explicitly to avoid losing Marks.
-</aside>
+:::
 ## 8. Endocytosis and Exocytosis
 
 ### 8.1 Mechanism of Endocytosis
@@ -473,11 +473,11 @@ Their contents to the extracellular space. This requires:
 Exocytosis is essential for secretion of hormones, neurotransmitters, digestive enzymes, and mucus,
 as Well as for insertion of new membrane proteins and lipids into the plasma membrane.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 diffusion. They are Not. Both are active processes requiring ATP. They involve bulk transport of
 large quantities of Material in membrane-bound vesicles, which is fundamentally different from the
 passive movement of Individual molecules through the bilayer.
-</aside>
+:::
 ## 9. Osmosis and Water Potential Calculations
 
 ### 9.1 Quantifying Water Potential
@@ -537,11 +537,11 @@ $\Psi_{\mathrm{cell}} = \Psi_s$.
 Plasmolysis is reversible if the cell is returned to a hypotonic solution before permanent damage
 occurs.
 
-<aside aria-label="Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They</p>
+:::caution
 do not -- The rigid cell wall exerts an inward pressure (wall pressure) that opposes further water
 entry once Turgidity is reached. Only animal cells (which lack cell walls) burst in hypotonic
 solutions.
-</aside>
+:::
 ## 10. The Cell Cycle in Detail
 
 ### 10.1 Checkpoint Control
@@ -594,11 +594,11 @@ Found in approximately 50% of all human cancers.
 Cancer requires mutations in multiple genes: activation of one or more oncogenes plus Inactivation
 of two or more tumour suppressor genes (Knudson's two-hit hypothesis).
 
-<aside aria-label="Common Pitfall Students often state that "one mutation causes cancer." Cancer is a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "one mutation causes cancer." Cancer is a</p>
+:::caution
 multistep Process requiring the accumulation of several mutations in genes regulating the cell
 cycle, DNA repair, And apoptosis. A single mutation in a proto-oncogene or tumour suppressor gene is
 necessary but not Sufficient for malignancy.
-</aside>
+:::
 ## 11. Meiosis: Overview and Comparison with Mitosis
 
 ### 11.1 Key Differences
@@ -665,11 +665,11 @@ to Repopulate the blood cell lineages after chemotherapy. Induced pluripotent st
 adult Cells reprogrammed to a pluripotent state by introducing transcription factors (Oct4, Sox2,
 Klf4, c-Myc), Offering an ethically uncontroversial alternative to embryonic stem cells.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 cells can Form a complete organism including placenta and umbilical cord; pluripotent cells can form
 all body cell Types but not extra-embryonic tissues. Only the zygote and very early embryonic cells
 are totipotent.
-</aside>
+:::
 ## Practice Problems
 
 <details>
@@ -1057,11 +1057,11 @@ pink/red with safranin.
   methicillin-resistant _S. Aureus_).
 - Reduced permeability of the outer membrane (in Gram-negative bacteria).
 
-<aside aria-label="Common Pitfall Students often state that "penicillin kills bacteria by breaking down the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "penicillin kills bacteria by breaking down the</p>
+:::caution
 cell wall." Penicillin does not break down existing peptidoglycan. It prevents the formation of new
 cross-links during cell wall synthesis. The cell wall weakens because it cannot be repaired or
 expanded, and the bacterium lyses due to the inward osmotic pressure (water entering by osmosis).
-</aside>
+:::
 ## 18. Viruses: Structure, Replication, and Defence
 
 ### 18.1 Viral Structure
@@ -1133,7 +1133,7 @@ into DNA):
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 ## 17. Cell Membrane Transport: Advanced Topics
 
 ### 17.1 Facilitated Diffusion vs Active Transport
@@ -1483,9 +1483,8 @@ direct left-right asymmetry during development).
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
 }
 </script>
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Cells with
@@ -1493,7 +1492,7 @@ other biology topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</aside>
+:::
 ## 24. Viruses: Structure and Replication
 
 ### 24.1 Virus Structure

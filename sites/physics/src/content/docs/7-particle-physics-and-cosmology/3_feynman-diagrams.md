@@ -198,12 +198,11 @@ $$\alpha(\mu) = \frac{\alpha(\mu_0)}{1 - \frac{\alpha(\mu_0)}{3\pi}\ln(\mu^2/\mu
 
 This logarithmic running arises from vacuum polarisation (screening by virtual $e^+e^-$ pairs).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 divergences) with **renormalization** (the physical procedure of redefining parameters).
 Regularisation is a Temporary scaffold; renormalization is the essential step that yields finite,
 physical predictions.
-
-</aside>
+:::
 
 ## Intuition
 

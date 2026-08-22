@@ -151,7 +151,7 @@ In all particle interactions, the following quantities are **always conserved**:
 | Baryon number ($B$)                      | Yes                            |
 | Strangeness ($S$)                        | Strong and EM only (not weak)  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (associated production) Via the strong interaction (conserving $S$) but decay individually via the
 weak interaction.
 
@@ -530,8 +530,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

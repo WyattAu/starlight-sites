@@ -64,13 +64,13 @@ graph TD
     style Deque fill:#d5f5e3
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Rather than a collection of elements. Josh Bloch, the original framework designer, explained that
 `Map` was excluded from the `Collection` hierarchy because the two abstractions are fundamentally
 Different: collections are groups of elements, while maps are groups of key-value pairs. Forcing
 `Map` into the `Collection` hierarchy would have required either contrived semantics or a separate
 Parallel hierarchy for map entries.
-</aside>
+:::
 ## The Iterable Interface
 
 `Iterable<T>` is the root of the collection type hierarchy. Any object implementing `Iterable<T>`
@@ -259,14 +259,14 @@ queue.addLast("tail");
 String head = queue.removeFirst();  // O(1)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Cache-friendly contiguous memory layout make `ArrayList` faster for nearly all real-world workloads,
 Even those with frequent insertions. The O(n) cost of shifting elements in `ArrayList` is offset by
 The fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
 Bulk. Furthermore, each `LinkedList` node requires an extra object allocation (16+ bytes of overhead
 For the object header, plus three reference fields), so a `LinkedList` with N elements uses
 Significantly more memory than an `ArrayList` with the same elements.
-</aside>
+:::
 `ArrayList` also implements the `RandomAccess` marker interface, which signals that it supports fast
 Random access. Generic algorithms in `Collections` check for this interface to choose between
 Iteration-based and index-based algorithms:
@@ -392,11 +392,11 @@ EnumSet<Day> all = EnumSet.allOf(Day.class);
 // weekdays = 0b0011111 = 31
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Representation, making the entire set occupy just 16 bytes (object header + long field). For enums
 With more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll``retainAll` Etc.)
 are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
-</aside>
+:::
 ### Set Implementation Comparison
 
 | Feature                       | HashSet     | LinkedHashSet   | TreeSet                        | EnumSet                |
@@ -522,12 +522,12 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Has fewer than `MIN_TREEIFY_CAPACITY` (64) entries. If so, it prefers to resize the table instead,
 Because a larger table distributes keys across more buckets and may resolve the collision without
 The overhead of tree nodes. Only when the table already has at least 64 entries does it actually
 Convert the linked list to a red-black tree.
-</aside>
+:::
 #### Load Factor and Capacity
 
 The **load factor** (default 0.75) determines when the table is resized. When
@@ -616,11 +616,11 @@ private void fixAfterInsertion(Entry<K,V> x) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Node X makes X's right child Y the new root of the subtree, with X becoming Y's left child and Y's
 Former left child becoming X's right child. Rotations preserve the binary search tree property
 (in-order traversal yields sorted order) while changing the tree's shape to reduce height.
-</aside>
+:::
 ```java
 // Range operations are efficient in TreeMap because they leverage the sorted structure
 NavigableMap<Integer, String> scores = new TreeMap<>();
@@ -683,11 +683,11 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Cache in a concurrent environment requires external synchronization or a wrapper like
 `Collections.synchronizedMap()`. For high-concurrency LRU caches, consider `Caffeine` or
 `Guava Cache` instead.
-</aside>
+:::
 ### ConcurrentHashMap
 
 `ConcurrentHashMap<K,V>` is a thread-safe Map designed for high concurrency. Unlike `Hashtable` or
@@ -718,14 +718,14 @@ counts.putIfAbsent("key", new AtomicInteger(0));  // atomic
 // if (!map.containsKey("key")) { map.put("key", value); }  // WRONG in concurrent code
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Choice. The reason is that the `containsKey()` and `get()` methods must be unambiguous in a
 Concurrent setting. If null values were allowed, `get(key)` returning `null` could mean either "the
 Key is absent" or "the key maps to null." In a single-threaded map, you can disambiguate with
 `containsKey()`But in a concurrent map, the state could change between `get()` and `containsKey()`.
 By prohibiting null values, `ConcurrentHashMap` ensures that `get()` returning `null` unambiguously
 means "the key is absent."
-</aside>
+:::
 ### Map Implementation Comparison
 
 | Feature            | HashMap                    | LinkedHashMap             | TreeMap        | ConcurrentHashMap                |
@@ -772,11 +772,11 @@ while (it.hasNext()) {
 // names is now [Alice, Charlie]
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Structure while the iterator is active and will throw `ConcurrentModificationException`. Always use
 `Iterator.remove()` instead, which updates the iterator's internal state and the expected
 Modification count atomically.
-</aside>
+:::
 ### ListIterator
 
 `ListIterator<E>` extends `Iterator<E>` with bidirectional traversal and the ability to modify the
@@ -829,11 +829,11 @@ private class Itr implements Iterator<E> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Happens in the iterator, not via synchronization. The exception is thrown when the inconsistency is
 Detected, not when it occurs. In a concurrent setting without external synchronization, a fail-fast
 Exception should be used to **detect bugs**, not as a correctness mechanism.
-</aside>
+:::
 ### Fail-Safe Iterators
 
 Iterators from `java.util.concurrent` collections (e.g., `ConcurrentHashMap.KeySetView.iterator()`)
@@ -938,12 +938,12 @@ mixed.stream().sorted(nullSafe).forEach(System.out::println);
 // null, Alice, Charlie -- null comes first
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 By the class being compared (one fixed natural ordering). `Comparator` is a separate object that
 Defines a comparison strategy (many orderings for the same type). Use `Comparable` for the most
 Natural, obvious ordering. Use `Comparator` when you need alternative orderings or when you cannot
 Modify the class to implement `Comparable`.
-</aside>
+:::
 Both `compareTo()` and `compare()` must satisfy the same contract as `equals()`:
 
 1. **sgn(compare(x, y)) == -sgn(compare(y, x))** (antisymmetry)
@@ -952,12 +952,12 @@ Both `compareTo()` and `compare()` must satisfy the same contract as `equals()`:
 4. **compare(x, y) == 0 implies sgn(compare(x, z)) == sgn(compare(y, z))** (consistency with equals
    is recommended but not required)
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Sorted collections. `TreeSet` and `TreeMap` use the comparator (or `compareTo`) to determine
 Equality, not `equals()`. If the comparator is inconsistent with `equals()`The set will violate The
 `Set` contract (it may contain elements that are equal according to `equals()` but have Different
 comparison results).
-</aside>
+:::
 ## Collections Utility Class
 
 `java.util.Collections` provides static methods that operate on or return collections. It is the
@@ -981,10 +981,10 @@ Collections.sort(numbers, Comparator.naturalOrder());
 Collections.binarySearch(numbers, 3, Comparator.naturalOrder());
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 To the same ordering used for the search. Passing a list sorted by natural ordering but searching
 With a custom `Comparator` will produce incorrect results without any exception.
-</aside>
+:::
 ### Unmodifiable Wrappers
 
 ```java
@@ -1015,11 +1015,11 @@ synchronized (syncList) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 High-concurrency scenarios. Every method call acquires the monitor lock on the wrapper object, so
 Even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
 And fine-grained write locking provides far better throughput.
-</aside>
+:::
 ### Other Utility Methods
 
 ```java
@@ -1109,11 +1109,11 @@ Map<String, Integer> fromEntries = Map.ofEntries(
 );
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Passing null throws `NullPointerException`. This is a deliberate design choice: nulls Are a common
 source of bugs, and immutable collections that cannot contain nulls are easier to Reason about. Use
 `Collections.singletonList(null)` or a mutable collection if nulls are required.
-</aside>
+:::
 The internal implementation uses compact field-based storage for small sizes. For example,
 `List.of("A", "B")` creates an instance of `ListN` (or for very small lists, `List12``ListN1` Etc.)
 that stores elements in `final` fields rather than in an array. This reduces memory overhead And

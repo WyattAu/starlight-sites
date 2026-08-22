@@ -22,10 +22,10 @@ categories: [Mathematics]
 This document provides a thorough treatment of the work-energy principle, power, conservation of
 Energy, and elastic potential energy with proofs and applications.
 
-<aside aria-label="Energy methods often provide elegant shortcuts in mechanics problems. Where a Newton"s-law" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Energy methods often provide elegant shortcuts in mechanics problems. Where a Newton"s-law</p>
+:::note
 approach Requires solving differential equations, an energy approach may give the answer in a single
 step.
-</aside>
+:::
 <hr />
 
 ## 1. Work Done by a Force
@@ -234,10 +234,10 @@ $$500g(30) = 500gh + 200d$$
 Without more information about the track profile, we cannot determine the exact stopping point. This
 illustrates the importance of knowing the track geometry.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 velocity directly. Remember To take the square root to find speed, and always check that the result
 is physically meaningful (i.e., the quantity under the square root must be non-negative).
-</aside>
+:::
 <hr />
 
 ## 6. Power
@@ -393,7 +393,7 @@ $$T_A = 3g \implies 50(d - 0.8) = 29.4 \implies d = 1.388\;\mathrm{m}$$
 But $1.388 \lt 2$Contradiction. This problem needs a 2D treatment with the particle hanging below
 The line, with both strings at angles.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 strings are taut or Slack at different points in the motion. Always check the assumptions about
 extensions at each stage.
 
@@ -562,8 +562,7 @@ Work and energy are two ways of describing the same thing: a force pushing an ob
 - Power: $P = Fv$; at maximum speed, driving force equals total resistance.
 - Elastic PE: $\mathrm{EPE} = \frac{1}{2}kx^2 = \frac{\lambda x^2}{2l}$ for springs and elastic
   strings.
-
-</aside>
+:::
 
 ## Cross-References
 

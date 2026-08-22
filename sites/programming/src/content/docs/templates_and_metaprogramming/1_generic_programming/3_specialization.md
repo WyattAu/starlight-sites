@@ -66,10 +66,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 They must be declared in the same namespace as the primary template. If you fully specialize a
 Function template, you must specialize every overload that participates in overload resolution.
-</aside>
+:::
 ### Full Specialization of Function Templates
 
 Function templates can be fully specialized, but this is rarely recommended because overloading
@@ -736,10 +736,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Enclosing class template. Member templates can only be **fully** specialized. If you need partial
 Specialization of a member, you must partially specialize the entire class.
-</aside>
+:::
 ## Common Errors with Ambiguity
 
 ### Ambiguous Partial Specializations

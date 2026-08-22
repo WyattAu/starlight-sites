@@ -310,7 +310,7 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 | Foreign data wrapper queries   | No              | FDW does not support parallel execution    |
 | Queries returning few rows     | No              | Gather overhead exceeds benefit            |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
 You risk OOM.
 
@@ -349,9 +349,8 @@ SELECT region, order_date, SUM(total)
 FROM orders
 GROUP BY region, order_date;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 PostgreSQL's visibility information is stored in the heap. To maximize index-only scan efficiency,
 Keep indexed columns NOT NULL where possible, or run `VACUUM` regularly to keep visibility map
 Accurate.
@@ -410,9 +409,8 @@ SELECT * FROM events WHERE payload ->> 'event_type' = 'purchase';
 CREATE INDEX idx_orders_monthly ON orders (DATE_TRUNC('month', order_date));
 SELECT * FROM orders WHERE DATE_TRUNC('month', order_date) = '2024-01-01';
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `WHERE lower(email) = 'alice@example.com'` uses the index, but
 `WHERE email ILIKE 'alice@example.com'` does not. Use functional indexes consistently.
 
@@ -515,9 +513,8 @@ server_idle_timeout = 600
 | `session`     | Connection assigned to client for entire session   | Applications using SET/ advisory locks |
 | `transaction` | Connection returned to pool after each transaction | Most web applications (default choice) |
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 For transaction-scoped settings, or use `search_path` in `pgbouncer.ini` with
 `extra_float_digits = 3`.
 
@@ -557,9 +554,8 @@ SET plan_cache_mode = force_generic_plan;
 -- Default: auto (switches to generic after 5 executions)
 SET plan_cache_mode = auto;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
 
 ## Auto-Vacuum Tuning
@@ -849,9 +845,8 @@ CLUSTER orders USING idx_orders_customer_date;
 -- 2. Promote the replica
 -- Or use pg_repack for online reorganization
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Performance for that index but degrades it for other indexes. Use `CLUSTER` on the index that
 Corresponds to the most common access pattern.
 
@@ -931,9 +926,8 @@ WHERE o.created_at >= '2024-01-01';
 
 -- Look for: "Append" node containing "Join" nodes per partition pair
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Bounds. If the partitioning schemes do not align, the optimizer falls back to joining the entire
 Tables.
 
@@ -964,22 +958,6 @@ SELECT attname, null_frac, n_distinct, array_length(most_common_vals, 1) AS mcv_
 FROM pg_stats WHERE tablename = 'orders';
 ```
 
-## Summary
-
-This topic covers the essential chemistry of query optimization, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [Indexing and Optimization](indexing) - How B-tree, GIN, and BRIN indexes affect the cost model and plan selection
@@ -991,5 +969,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

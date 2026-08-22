@@ -75,11 +75,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `C` object -- they point to the respective base subobjects. The compiler generates **thunks** (small
 Adjustment stubs) to correct the `this` pointer when dispatching virtual calls through non-primary
 Bases.
-</aside>
+:::
 ## 2.2 Object Slicing
 
 Object slicing occurs when a derived object is copied into a base-class object by value. Only the
@@ -161,9 +161,9 @@ When `d` is passed by value to `process_by_value`Only the `Animal` subobject is 
 set to `Animal`'s vtable, so `a.speak()` dispatches to `Animal::speak`. The `Dog`-specific data
 (`breed`) and the `Dog::speak` override are lost.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (`Animal&` / `const Animal&`) to preserve the dynamic type.
-</aside>
+:::
 ## 2.3 Slicing in Containers
 
 One of the most common sources of slicing is storing polymorphic objects in `std::vector` by value.
@@ -303,10 +303,10 @@ With `BadBase`Only `BadBase::~BadBase()` is called -- `BadDerived::~BadDerived()
 Causing resource leaks. With `GoodBase`The virtual dispatch mechanism selects
 `GoodDerived::~GoodDerived()`Which then implicitly calls `GoodBase::~GoodBase()`.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Class is designed to be a polymorphic base class, always declare `virtual ~Base() = default;` (or
 Provide a virtual destructor with a body).
-</aside>
+:::
 ### Destructor Chaining Order
 
 When a `Derived` object is destroyed through a `Base*` with a virtual destructor:
@@ -444,10 +444,10 @@ private:
 };
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Convention borrowed from COM and C#. It is not mandated by the Standard. Alternatives include
 Suffixes like `-able` (e.g., `Serializable`).
-</aside>
+:::
 ## 2.7 Virtual Inheritance and the Diamond Problem
 
 When two base classes each inherit from the same base, a **diamond inheritance** pattern arises.
@@ -517,11 +517,11 @@ Pointer (stored in the vtable or as a separate vptr) to locate the shared `Devic
 Runtime. This adds one level of indirection to every access of a virtual base member [N4950
 S11.7.1].
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Extra indirection through the vbase offset table. Construction order is also affected -- virtual
 Bases are constructed by the most-derived class, before any non-virtual base classes [N4950
 S11.9.3]. Avoid virtual inheritance unless the diamond pattern is genuinely needed.
-</aside>
+:::
 ## 2.8 `override``final`And Name Hiding
 
 A derived class member function with the **same name** as a base class function **hides** all base
@@ -566,10 +566,10 @@ The `using Base::process;` declaration in `Derived_Right` un-hides the remaining
 Applies even when the derived function is `virtual` and does override one specific overload -- all
 Other overloads are still hidden.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Add `using Base::function_name;` in the derived class to avoid accidentally hiding sibling
 Overloads. The `override` keyword catches signature mismatches but does not prevent hiding.
-</aside>
+:::
 ## 2.9 Slicing and Return Values
 
 Object slicing also occurs when returning by value. A function that returns `Base` will slice any
@@ -687,7 +687,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Slices the exception object, losing derived-class information and potentially invoking slicing in
 The exception handler itself.
 
@@ -797,5 +797,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

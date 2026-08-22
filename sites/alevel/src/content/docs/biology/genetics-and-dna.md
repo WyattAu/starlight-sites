@@ -72,11 +72,11 @@ Strand and one newly synthesised strand. This was demonstrated by the Meselson-S
 Incorrectly paired nucleotides immediately after they are added, reducing the error rate to
 Approximately $10^{-9}$ per base per replication.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Strand. It cannot initiate synthesis de novo -- it requires a pre-existing $3'-\mathrm{OH}$ group,
 Which is provided by the RNA primer. Students often forget to mention primase and primers when
 Describing replication.
-</aside>
+:::
 ## 2. Protein Synthesis
 
 ### 2.1 Transcription
@@ -169,11 +169,11 @@ completely non-functional protein.
   pyrimidine dimers (thymine dimers); chemical mutagens (base analogues, alkylating agents,
   intercalating agents like ethidium bromide) distort DNA structure.
 
-<aside aria-label="Common Pitfall Students often state that "mutations are always harmful." Most mutations" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "mutations are always harmful." Most mutations</p>
+:::caution
 Are neutral (silent mutations, mutations in non-coding DNA). Some are harmful (cause genetic
 Disorders), and a few are beneficial (provide the variation upon which natural selection acts). The
 Harmful mutations are eliminated by selection; beneficial ones may increase in frequency.
-</aside>
+:::
 ## 4. Meiosis
 
 ### 4.1 Purpose and Overview
@@ -291,11 +291,11 @@ Genotype $I^AI^B$ produces blood group AB, expressing both A and B antigens.
 -- $RR$ (red) $\times$ $WW$ (white) gives $RW$ (pink). The pink phenotype is not a blend of pigments
 But reduced production of red pigment.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Co-dominance, both alleles produce their full product (both A and B antigens are present). In
 Incomplete dominance, the heterozygote produces less of the dominant product (an intermediate
 Phenotype). The genetic ratios for both are 1:2:1, but the phenotypic expression differs.
-</aside>
+:::
 ## 6. Gene Expression and Epigenetics
 
 ### 6.1 Gene Regulation
@@ -348,12 +348,12 @@ Can have long-term effects on gene expression without altering the DNA sequence.
 $\mathrm{B_{12}}$) increases DNA methylation at the agouti gene, silencing it and producing
 Offspring with brown coats and normal weight. A methyl-poor diet produces yellow, obese offspring.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Epigenetic changes are reversible modifications to gene expression that do not alter the DNA
 Sequence itself. Mutations are permanent changes to the nucleotide sequence. Epigenetic marks can be
 Passed to daughter cells during mitosis (and meiosis), but they can also be removed by Environmental
 changes.
-</aside>
+:::
 ## 7. Genetic Technology
 
 ### 7.1 The Polymerase Chain Reaction (PCR)
@@ -431,11 +431,11 @@ In **recombinant DNA technology**:
 5. Bacteria carrying the recombinant plasmid are selected using **antibiotic resistance markers** on
    the plasmid.
 
-<aside aria-label="Common Pitfall Students often write that "bacteria are genetically modified" in PCR. PCR" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that "bacteria are genetically modified" in PCR. PCR</p>
+:::caution
 does not Involve bacteria or modification of living organisms -- it is an in vitro technique. PCR,
 gel Electrophoresis, and DNA sequencing are analytical techniques, while recombinant DNA technology
 involves The creation of genetically modified organisms (GMOs).
-</aside>
+:::
 ## 8. Advanced Genetic Crosses
 
 ### 8.1 Epistasis
@@ -491,11 +491,11 @@ If the recombination frequency were 50%, the genes would assort independently (u
 maximum Observable recombination frequency is 50% (since greater distances lead to multiple
 cross-overs that Cancel out).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 cross. If the genes are linked, the observed ratio will deviate from 9:3:3:1, with an excess of
 parental Phenotypes and a deficit of recombinant phenotypes. Always check whether the genes are on
 the same Chromosome before applying Mendel's second law.
-</aside>
+:::
 ### 8.3 Sex Determination
 
 In mammals, sex is determined by the sex chromosomes: XX = female, XY = male. The SRY gene on the Y
@@ -1289,12 +1289,12 @@ reprogramming:
   from animal studies (e.g., Agouti mouse model, where maternal diet affects offspring coat colour
   and disease risk via methylation of the Agouti gene).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Epigenetic changes alter gene expression without changing the DNA sequence. They are potentially
 reversible (unlike mutations). However, epigenetic changes can be inherited through cell division
 (mitosis) and, in rare cases, across generations (transgenerational epigenetic inheritance). Genetic
 mutations are permanent changes to the DNA sequence itself.
-</aside>
+:::
 ## 20. Genetic Disorders: Detailed Analysis
 
 ### 20.1 Cystic Fibrosis (CF)
@@ -1543,7 +1543,7 @@ This is well below the world population ($\approx 8$ billion), so the match is e
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Genetics
@@ -1551,7 +1551,7 @@ and DNA with other biology topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</aside>
+:::
 ## 24. Genetic Screening and Counselling
 
 ### 24.1 Genetic Screening Programmes

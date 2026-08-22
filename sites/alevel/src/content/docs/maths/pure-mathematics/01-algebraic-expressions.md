@@ -74,10 +74,10 @@ $$
 \end{aligned}
 $$
 
-<aside aria-label="A common error is to "rationalise" by splitting the fraction:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common error is to "rationalise" by splitting the fraction:</p>
+:::caution
 $\frac{a + b\sqrt{c}}{d} \neq \frac{a}{d} + b\sqrt{\frac{c}{d}}$ . Always
 distribute the Denominator correctly.
-</aside>
+:::
 ### 1.2 Irrationality of $\sqrt{2}$
 
 **Theorem.** $\sqrt{2}$ is irrational.
@@ -318,10 +318,10 @@ $$
 
 $$\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 In the denominator is a factor of the whole expression, but the $x$ in the numerator is only one
 Term.
-</aside>
+:::
 ### 6.2 Addition and Subtraction
 
 Find a common denominator, then combine:
@@ -665,7 +665,7 @@ $k = -2$: gives $x^2 - 2x + 1 = (x - 1)^2$ ✓
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Algebraic
@@ -693,5 +693,4 @@ building a personal test matrix.
 - [Quadratics](02-quadratics.mdx) — Quadratic equations are solved using the factorisation and completing-the-square methods introduced here.
 - [Equations and Inequalities](03-equations-and-inequalities.md) — The factor theorem and polynomial division are applied to solving simultaneous equations.
 - [Sequences and Series](06-sequences-and-series.md) — Summation notation and algebraic manipulation are essential for working with series.
-
-</aside>
+:::

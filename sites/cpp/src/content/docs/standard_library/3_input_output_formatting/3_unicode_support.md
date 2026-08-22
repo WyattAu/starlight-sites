@@ -138,10 +138,10 @@ void utf8_code_point_iteration() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Arrays. This is a **breaking change** if your code passed `u8"..."` to APIs expecting `const char*`.
 Use `-fno-char8_t` on GCC/Clang to revert to the C++17 behavior during migration.
-</aside>
+:::
 ### Unicode Text Processing Challenges
 
 The C++ standard library provides minimal support for Unicode text processing beyond the
@@ -159,11 +159,11 @@ A **grapheme cluster** is the smallest unit of text that a user perceives as a s
 Family emoji (U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466) is encoded as **7 code points**
 With zero-width joiners between them.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Count, or grapheme cluster count. There is no standard library function to count code points or
 Grapheme clusters. For production Unicode text processing, use a library like ICU, libunifex, or
 `std::text` (proposed for standardization).
-</aside>
+:::
 #### String Length and Iteration
 
 ```cpp
@@ -228,13 +228,13 @@ void unicode_sorting_problem() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 - **Case conversion:** Use ICU (`u_strToUpper`), or the `utf8proc` library.
 - **Collation/sorting:** Use ICU's `Collator` with the appropriate locale.
 - **Normalization:** Use ICU or `utf8proc` to normalize strings to NFC or NFD before comparison.
 - **Text segmentation:** Use ICU's `BreakIterator` for grapheme cluster, word, and sentence
   boundaries.
-</aside>
+:::
 ### Encoding in Stream I/O
 
 `std::fstream` and `std::ifstream`/`std::ofstream` use the stream buffer's `std::codecvt` facet to
@@ -277,11 +277,11 @@ void write_utf8_file(const std::filesystem::path& path, std::string_view content
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (`std::ios::in` without `std::ios::binary`) will correctly read and write UTF-8 text. On Windows,
 Text mode performs CRLF ↔ LF translation, which corrupts binary data but is harmless for UTF-8 text
 (unless the text contains lone `0x0A` or `0x0D` bytes that are not line endings).
-</aside>
+:::
 ### UTF-16 and UTF-32 String Literals
 
 In addition to UTF-8, C++ provides `u` (UTF-16) and `U` (UTF-32) string literal prefixes [N4950
@@ -409,11 +409,11 @@ void transcoding_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Production implementation must reject overlong encodings (e.g., encoding `U+0000` as `0xC0 0x80`),
 Surrogate code points (`U+D800..U+DFFF`), and code points exceeding `U+10FFFF`. The ICU library's
 `ucnv_convert` or the `utf8proc` library handle all these cases correctly.
-</aside>
+:::
 ### Overlong Encodings and Security Implications
 
 An **overlong encoding** is a multi-byte UTF-8 sequence that encodes a code point that could have
@@ -486,11 +486,11 @@ void normalization_pitfall() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 as map keys. Two strings that display identically may have different byte representations If they
 differ in normalization form. This is a common source of bugs in database lookups, file Search, and
 authentication systems.
-</aside>
+:::
 ### BOM (Byte Order Mark) Handling
 
 The BOM is the code point `U+FEFF` encoded at the start of a text stream to signal the byte order:

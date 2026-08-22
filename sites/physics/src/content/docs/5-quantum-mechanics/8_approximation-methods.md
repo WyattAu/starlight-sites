@@ -86,7 +86,7 @@ The first-order correction is $E_n^{(1)} = V_0/2$ for all $n$. $\blacksquare$
 
 </details>
 
-<aside aria-label="Common Pitfall Perturbation theory assumes the perturbation is "small" compared to the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Perturbation theory assumes the perturbation is "small" compared to the</p>
+:::caution
 level spacing. If $|\langle m | H' | n \rangle| \sim |E_n^{(0)} - E_m^{(0)}|$The perturbation series
 may diverge. The Method also fails for systems where the unperturbed Hamiltonian has closely spaced
 or degenerate Levels that are not handled correctly.
@@ -226,8 +226,7 @@ theory.
 ## Intuition
 
 Approximation methods tackle quantum problems that cannot be solved exactly. Perturbation theory treats a complicated Hamiltonian as a simple known part plus a small correction, then systematically calculates how the correction shifts energy levels and wavefunctions. The key assumption is that the correction is small compared to the energy spacing of the unperturbed system. The variational method provides an upper bound on the ground state energy by testing trial wavefunctions and minimizing the expectation value. WKB approximates the wavefunction as a locally oscillating function whose wavelength varies with position, working best when the potential changes slowly compared to the wavelength. These methods turn intractable problems into calculable ones.
-
-</aside>
+:::
 
 ## Cross-References
 

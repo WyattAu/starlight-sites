@@ -287,7 +287,7 @@ SELECT pg_advisory_xact_lock_shared(12345);
 | Prevent duplicate inserts        | `pg_advisory_xact_lock(hash(data))`      | Auto-released on commit/rollback   |
 | Coordinate deployments           | `pg_advisory_lock(migration_id)`         | Only one migration runs at a time  |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Advisory locks on the same bigint value from different sessions conflict, regardless of which
 Application or connection acquired them.
 
@@ -658,9 +658,8 @@ ROLLBACK TO SAVEPOINT sp1;
 -- Both locks are released on COMMIT or ROLLBACK
 COMMIT;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Advisory locks. Advisory locks are always held until the transaction ends or explicitly released,
 Regardless of savepoints.
 
@@ -946,22 +945,6 @@ COMMIT;
 -- we get a serialization error and must retry
 ```
 
-## Summary
-
-This topic covers the essential chemistry of locking and deadlocks, including key reactions,
-underlying theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [Transactions and Concurrency](transactions) - How isolation levels determine which lock behaviors are necessary
@@ -973,5 +956,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

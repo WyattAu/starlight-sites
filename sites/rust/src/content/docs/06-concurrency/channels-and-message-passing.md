@@ -132,7 +132,7 @@ let (tx, rx) = mpsc::channel(32);       // bounded — capacity 32
 let (tx, rx) = mpsc::unbounded_channel(); // unbounded — grows as needed
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Prefer bounded channels with an appropriate buffer size. If the buffer fills, backpressure Slows
 producers.
 
@@ -999,8 +999,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

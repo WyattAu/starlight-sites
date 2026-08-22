@@ -98,11 +98,11 @@ resumed
 step 3
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Compiler generates a `promise_type` lookup, allocates a coroutine frame, and transforms the function
 Body into a state machine. The `promise_type` member alias tells the compiler which promise type to
 Use [N4950 §9.5.2].
-</aside>
+:::
 ## Stackless vs Stackful Coroutines
 
 C++ chose **stackless coroutines** — the coroutine frame is a single heap-allocated block, not a
@@ -329,11 +329,11 @@ There are two guaranteed elision scenarios where the compiler **may not** alloca
 2. **When the coroutine result is prvalue and the promise's `get_return_object` returns a handle
    that does not escape.**
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 _permits_ it. In practice, most major compilers (GCC 12+, Clang 16+, MSVC 19.30+) do elide the
 Allocation in simple cases, but for complex promise types or when the handle escapes, heap
 Allocation occurs. Always profile if allocation overhead is a concern.
-</aside>
+:::
 ### Heap Allocation Elision (HALO)
 
 **Heap Allocation Elision Optimization** (HALO) is a compiler optimization that avoids heap
@@ -538,7 +538,7 @@ Calling `destroy()` on a handle triggers:
 After `destroy()`The handle becomes **invalid** — using it is undefined behavior [N4950 §21.4.4]. If
 `destroy()` is never called and no other mechanism cleans up, the frame leaks.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `std::unique_ptr` with a custom deleter, or a dedicated `coroutine` class) to ensure `destroy()` is
 Called even if an exception propagates.
 
@@ -791,5 +791,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

@@ -111,7 +111,7 @@ for (int r = 0; r < grid.length; r++) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example: Row and Column Sums</strong>
 ```java
 public static int[] rowSums(int[][] grid) {
@@ -124,9 +124,8 @@ public static int[] rowSums(int[][] grid) {
     return sums;
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Transpose a Matrix</strong>
 ```java
 public static int[][] transpose(int[][] matrix) {
@@ -188,9 +187,8 @@ s = s.toUpperCase();
 
 **Why immutability matters.** Because strings are immutable, Java can share string literals. If two
 Variables hold the same string literal, they may point to the same object in memory.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Reversing a String</strong>
 ```java
 public static String reverse(String s) {
@@ -211,8 +209,7 @@ public static String reverseEfficient(String s) {
     return sb.reverse().toString();
 }
 ```
-
-</aside>
+:::
 ## Data Analysis Concepts (CED Unit 3)
 
 ### Processing Data
@@ -346,9 +343,9 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 During iteration. Use an Iterator or iterate backwards with an index.
-</aside>
+:::
 ```java
 for (int i = names.size() - 1; i >= 0; i--) {
     if (names.get(i).length() < 3) {
@@ -703,7 +700,7 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 During iteration. Use an Iterator or iterate backwards with an index.
 
 ```java
@@ -954,8 +951,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

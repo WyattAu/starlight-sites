@@ -63,10 +63,10 @@ bool compare_exchange_strong(T& expected, T desired,
 On failure, `expected` is updated to the current value of the atomic variable, allowing the caller
 To recompute `desired` and retry.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 failed due to A value mismatch (e.g., when you want to take a different action on real failure vs
 spurious Failure).
-</aside>
+:::
 ## When Weak CAS Is Preferable
 
 On some architectures (notably ARMv8 using LL/SC — Load-Linked/Store-Conditional),
@@ -190,12 +190,12 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Operation. The acquire semantics ensure that all accesses to the object (sequenced-before the
 Release) are visible to the thread that performs the destruction. The release semantics ensure that
 The destruction itself is visible to other threads. The `fetch_sub` return value is checked against
 1 (not 0) because `fetch_sub` returns the **old** value [N4950 §31.7.2].
-</aside>
+:::
 ## CAS Loop Idioms Summary
 
 | Pattern                    | Description                            | Use Case                       |
@@ -205,10 +205,10 @@ The destruction itself is visible to other threads. The `fetch_sub` return value
 | **Remove from list**       | Load head, read next, CAS head to next | Lock-free stack pop            |
 | **Update with validation** | Load, validate invariants, CAS         | Lock-free queue (ABA-safe)     |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Failed CAS. The `compare_exchange_weak` function automatically updates `expected` to the current
 Value on failure, so you can use it directly in the next iteration"s computation.
-</aside>
+:::
 ## Lock-Free Stack Push and Pop
 
 A lock-free stack demonstrates the two most common CAS loop patterns: insert (push) and remove

@@ -316,7 +316,7 @@ cat /proc/sys/net/netfilter/nf_conntrack_max
 sysctl -w net.netfilter.nf_conntrack_max=262144
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 New connections are dropped with no error logged. This is a common cause of "mysterious" connection
 Failures under high load. Monitor `net.netfilter.nf_conntrack_count` vs
 `net.netfilter.nf_conntrack_max`.
@@ -885,8 +885,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

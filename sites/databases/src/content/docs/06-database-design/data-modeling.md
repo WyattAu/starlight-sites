@@ -484,7 +484,7 @@ DELETE FROM users WHERE user_id = 42;
 | Uniqueness  | Must handle deleted emails       | Natural uniqueness         |
 | Referential | FK constraints still apply       | CASCADE removes dependents |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `alice@example.com`You cannot create a new user with the same email unless you modify the unique
 Constraint. Solutions: use a partial unique index, append a suffix on deletion, or add `deleted_at`
 To the unique constraint.
@@ -752,22 +752,6 @@ EAV is appropriate for truly dynamic, user-defined attributes (e.g., custom fiel
 EAV for data with a known schema (e.g., product attributes that are the same for all products)
 Creates unnecessary complexity. Use proper columns or JSONB instead.
 
-## Summary
-
-This topic covers the essential chemistry of data modeling patterns, including key reactions,
-underlying theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [Database Design](database-design) - How the conceptual and logical phases of data modeling translate into physical schema implementation
@@ -779,5 +763,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

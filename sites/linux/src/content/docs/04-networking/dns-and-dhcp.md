@@ -53,7 +53,7 @@ Key directives:
     trust-ad       — trust AD flag in responses
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `NetworkManager`. Manual edits will be overwritten. Check the symlink target:
 
 ```bash
@@ -851,8 +851,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

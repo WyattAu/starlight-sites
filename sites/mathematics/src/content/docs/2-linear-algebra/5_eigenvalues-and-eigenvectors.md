@@ -300,7 +300,7 @@ Therefore $A^{10} = 3254867 \cdot A - 6508710 \cdot I$. $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has Eigenvalue $\lambda = 1$ with algebraic
 multiplicity 2 but geometric multiplicity 1. It has only one Linearly independent eigenvector and is
 not diagonalisable.
@@ -372,7 +372,6 @@ $\blacksquare$
 - **[Matrices](3_matrices.md)**: The characteristic polynomial whose roots are eigenvalues is defined via the determinant of $A - \lambda I$.
 - **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The SVD relates singular values to eigenvalues of $A^T A$ and provides a diagonal-like decomposition for non-square matrices.
 - **[Inner Product Spaces](7_inner-product-spaces.md)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
-
-</aside>
+:::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

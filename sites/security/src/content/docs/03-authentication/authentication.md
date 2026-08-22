@@ -216,7 +216,7 @@ Key properties:
 
 ### SMS-based 2FA
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Attacks, and mobile network interception. Use TOTP or FIDO2 instead. If SMS must be used, implement
 Rate limiting, anomaly detection, and do not use it as the sole second factor.
 
@@ -459,9 +459,8 @@ RSASHA256(
 5. Validate `aud` (expected audience)
 6. Validate algorithm (reject `alg: none`Reject algorithm substitution)
 7. Check token revocation if applicable (blacklist, short expiry)
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 From `RS256` to `HS256`. If the server uses the RSA public key as the HMAC secret (which some
 Libraries do by default), the attacker can forge tokens. Always explicitly specify the expected
 Algorithm when validating JWTs, and never accept `none`.
@@ -807,9 +806,8 @@ And government agencies.
 | OIDC Federation     | Cloud-to-cloud         | AWS accepts Google Workspace identities   |
 | InCommon            | Academic/research      | University single sign-on across services |
 | eduGAIN             | Research and education | Cross-border federated access             |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Management), RFC 6749 (OAuth 2.0), RFC 7636 (PKCE), RFC 7519 (JWT), RFC 7515 (JWS), RFC 6238 (TOTP),
 RFC 8446 (TLS 1.3), OWASP Authentication Cheat Sheet, FIDO2 (W3C WebAuthn + CTAP2).
 
@@ -837,8 +835,7 @@ Authentication answers the question "who are you?" while authorization answers "
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

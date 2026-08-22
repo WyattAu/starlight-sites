@@ -209,7 +209,7 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flat = [x for row in matrix for x in row]  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Actions. If the comprehension has no useful result, use a `for` loop instead.
 
 ## Tuples
@@ -374,9 +374,8 @@ for i in range(20):
 # Internal table size is 32 (next power of 2 above 20)
 # Multiple keys may map to the same initial slot, resolved by linear probing
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 (`hash(a) == hash(b)`). If you define `__eq__` on a class, you must also define `__hash__`Or set
 `__hash__ = None` to make the object unhashable (the default when `__eq__` is defined without
 `__hash__` in Python 3).
@@ -480,9 +479,8 @@ d1 = {"a": 1, "b": 2}
 d2 = {"b": 2, "a": 1}
 print(d1 == d2)    # True (order does not matter)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Memory-efficient and faster for most operations.
 
 ## Sets
@@ -612,9 +610,8 @@ print(c1 | c2)   # Counter({'a': 3, 'b': 2}) -- max(c1[x], c2[x])
 # Elements with positive counts as an iterator
 print(list(Counter(a=3, b=0, c=-1).elements()))  # ['a', 'a', 'a']
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 `c.most_common(n)` to get only the top n, which is more efficient than sorting the entire counter.
 
 ### defaultdict
@@ -646,9 +643,8 @@ nested["user1"]["clicks"] = 7
 
 The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 This calls `dict()` once and passes the resulting empty dict as the factory. The correct form is
 `defaultdict(dict)` or `defaultdict(list)` -- without parentheses.
 
@@ -733,9 +729,8 @@ print(combined.maps)  # [{'size': "large'', "style': "bold''}, {"color': "blue''
 new_context = combined.new_child({"color": "green"})
 print(new_context["color"])  # "green"
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Underlying dict are immediately visible through the `ChainMap`. Lookups are O(k) where k is the
 Number of mappings, since each mapping is checked in order.
 
@@ -943,9 +938,8 @@ heapq.heappush(tasks, (2, next(counter), "task A"))
 heapq.heappush(tasks, (2, next(counter), "task B"))
 heapq.heappush(tasks, (1, next(counter), "task C"))
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 (priorities) are equal, Python compares the second elements. If the second elements are not
 Comparable (e.g., two different types), this raises `TypeError`. The tiebreaker pattern using an
 `itertools.count()` counter avoids this problem entirely.
@@ -1070,5 +1064,4 @@ linked above.
 - [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables) — Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
 - [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow) — List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
 - [Python Internals](../02-fundamentals/05-python-internals) — CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
-
-</aside>
+:::

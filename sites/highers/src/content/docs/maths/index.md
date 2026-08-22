@@ -87,7 +87,7 @@ grade, depending on the subject and level.
 4. Use the Summary section as a quick reference for last-minute revision
 5. Attempt practice problems under timed conditions to build exam confidence
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 most recent SQA documentation for definitive syllabus and assessment requirements.
 
 ## Intuition
@@ -153,4 +153,4 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-</aside>
+:::

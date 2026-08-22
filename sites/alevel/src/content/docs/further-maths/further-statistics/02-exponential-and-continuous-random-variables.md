@@ -39,10 +39,10 @@ Interval.
 | OCR (A)    | Paper 2 | Continuous RVs and exponential                       |
 | CIE (9231) | S2      | Both continuous RVs and exponential covered          |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Both are memoryless. The Poisson process links all three distributions: Poisson counts events,
 Exponential measures inter-arrival times, and geometric counts trials until the first event.
-</aside>
+:::
 <hr />
 
 ## 1. Continuous Random Variables
@@ -58,9 +58,9 @@ Probabilities are found by integration:
 
 $$P(a \leq X \leq b) = \int_a^b f(x)\,dx$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $P(a \leq X \leq b) = P(a < X < b)$ — the inequalities at individual points do not matter.
-</aside>
+:::
 ### 1.2 Cumulative distribution function
 
 **Definition.** The **cumulative distribution function** (CDF) is
@@ -188,11 +188,11 @@ $$
 
 This uses $P(X > x) = 1 - F(x) = e^{-\lambda x}$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Exponentially distributed lifetime has been working for $s$ hours, the remaining lifetime has the
 Same distribution as a brand new component. This means exponential lifetimes imply no "wear out"
 Effect — which is why it is more appropriate for electronic components than mechanical ones.
-</aside>
+:::
 ### 2.6 Link to Poisson processes
 
 A **Poisson process** with rate $\lambda$ satisfies:

@@ -83,7 +83,7 @@ The trade-off is sensitivity to whitespace. Mixing tabs and spaces, or inconsist
 Causes `IndentationError`. Python 3 disallows mixing tabs and spaces entirely within the same file.
 PEP 8 mandates 4 spaces per indentation level.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 And spaces. Configure your editor to insert 4 spaces on Tab. Most linters and formatters (`ruff`
 `black`) enforce this automatically.
 
@@ -268,9 +268,8 @@ flowchart TD
     G --> I
     H --> I
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
 `match`Which requires exhaustiveness at compile time.
 
@@ -446,9 +445,8 @@ def converge_pi(target_error: float = 1e-5) -> float:
             return new_estimate
         estimate = new_estimate
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
 There is a reachable termination condition.
 
@@ -540,9 +538,8 @@ flat = [element for row in matrix for element in row]
 
 The execution order of nested comprehensions follows the same left-to-right reading order as nested
 `for` loops. The first `for` is the outer loop, the second `for` is the inner loop.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Expressions. A comprehension over a billion-element range would consume all available memory.
 
 ### Dict Comprehensions
@@ -602,9 +599,8 @@ result = (x * 2 for x in result)
 result = (x + 1 for x in result)
 print(list(result))  # [1, 5, 9, 13, ...]
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 `sum(x**2 for x in range(100))` is valid. The generator expression syntax
 `(x**2 for x in range(100))` is required in all other contexts.
 
@@ -655,9 +651,8 @@ if (match := pattern.search(text)) and match.group(1).isdigit():
 
 The walrus operator has lower precedence than most operators but higher than commas. Parentheses are
 Required in comprehensions and `if`/`while` conditions.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Computation or awkward workarounds. It harms clarity when it makes a single line do too much. The
 Guiding principle: use it when it eliminates a clear redundancy, not just to save a line.
 
@@ -743,9 +738,8 @@ flowchart TD
     E --> FE["FileNotFoundError"]
     VE --> JE["JSONDecodeError"]
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Or `except Exception` without careful consideration. Catching too broadly masks real errors and
 Makes debugging extremely difficult. Catch the most specific exception possible.
 
@@ -857,9 +851,8 @@ def binary_search(arr: list[int], target: int) -> int:
             high = mid - 1
     return -1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Input validation or security checks. Use explicit `if/raise` for conditions that must be checked in
 Production.
 
@@ -1020,9 +1013,8 @@ class ReliableCleanup:
     def __exit__(self, *args):
         self.close()
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Other resource that requires explicit cleanup. Never rely on `__del__` or the garbage collector for
 Resource management.
 
@@ -1048,8 +1040,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

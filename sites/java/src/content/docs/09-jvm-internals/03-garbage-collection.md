@@ -597,10 +597,10 @@ java -XX:+UseG1GC -Xms2g -Xmx2g -jar app.jar
 java -XX:+UseZGC -XX:MaxRAMPercentage=75.0 -jar app.jar
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 The same container image to work with different memory limits without rebuilding. A value of 70-80%
 Is typical, leaving room for metaspace, native memory, and off-heap buffers.
-</aside>
+:::
 ### Native Memory Tracking
 
 The JVM's heap is only part of the total memory used by a Java process. Native memory includes
@@ -666,10 +666,10 @@ After making changes, compare GC logs before and after. Look for:
 - Reduced promotion rate (fewer objects surviving to old generation).
 - No increase in full GC frequency.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Analysis. JFR has near-zero overhead and can be enabled in production:
 `-XX:StartFlightRecording=duration=60s,filename=recording.jfr`
-</aside>
+:::
 ## GC Internals: Detailed Algorithms
 
 ### Mark-Sweep-Compact (Serial and Parallel)
@@ -817,22 +817,6 @@ java -XX:+UseZGC \
      -Xlog:gc*:file=/var/log/app/gc.log:time,uptime,level,tags:filecount=5,filesize=50M \
      -jar microservice.jar
 ```
-
-## Summary
-
-This topic covers the biological principles of garbage collection, including key concepts,
-experimental evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
 
 ## Intuition
 

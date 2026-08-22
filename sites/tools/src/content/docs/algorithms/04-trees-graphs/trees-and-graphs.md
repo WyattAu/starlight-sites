@@ -304,7 +304,7 @@ def is_valid_bst(root):
     return validate(root, float('-inf'), float('inf'))
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Insufficient — the BST property requires that **all** values in the left subtree are less than
 `node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
@@ -393,9 +393,8 @@ individual lookups.
 
 Red-black trees are used in the Linux kernel (for `CFS` scheduler, `mm` memory management), Java's
 `TreeMap`/`TreeSet`C++ `std::map`/`std::set`And many other standard library implementations.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Insertions and deletions are frequent (schedulers, event queues). In practice, the difference is
 Small for most workloads.
 
@@ -609,9 +608,8 @@ class GraphMatrix:
 | ---------------- | ---------- | ---------------------- | ---------------------- | ------------ |
 | Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Networks). Use adjacency matrices for dense graphs (fully connected or nearly so) or when you need
 $O(1)$ edge existence checks.
 
@@ -956,8 +954,7 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

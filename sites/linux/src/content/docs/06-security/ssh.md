@@ -434,7 +434,7 @@ Host internal
     ForwardAgent yes
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Servers. If the remote server is compromised, an attacker can use your forwarded agent to
 Authenticate to any server your keys have access to. Only enable ForwardAgent when necessary, and
 Prefer SSH certificates or ProxyJump for multi-hop access.
@@ -890,8 +890,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

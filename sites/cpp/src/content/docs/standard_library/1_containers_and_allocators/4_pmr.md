@@ -144,10 +144,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Any scenario where many objects are created and destroyed together. Since individual `deallocate`
 Calls are no-ops, allocation is extremely fast.
-</aside>
+:::
 ### `std::pmr::unsynchronized_pool_resource`
 
 `std::pmr::unsynchronized_pool_resource` [N4950 §23.10.4] is a general-purpose pool allocator that
@@ -274,11 +274,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Create container A, then container B, and A still holds references to memory allocated from B's
 Objects, those references may dangle if B is destroyed and its memory is recycled. Arena allocation
 Is safest when all allocations share the same lifetime scope.
-</aside>
+:::
 ### Integration Pattern: Dependency Injection of Memory Resources
 
 A powerful PMR pattern is **dependency injection**: functions and classes accept a
@@ -474,11 +474,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Multi-threaded code comes from reduced contention: each thread allocates from its own Thread-local
 pool chunk, and the global heap lock is only contended when a new chunk is needed. For
 Single-threaded code, `unsynchronized_pool_resource` is strictly faster.
-</aside>
+:::
 ### Common Pitfalls
 
 **1. `monotonic_buffer_resource` and dangling references:** Since individual `deallocate` calls are

@@ -222,7 +222,7 @@ echo "[PASS] All checks passed."
 exit 0
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 share hooks across a team, use a tool like [husky](https://typicode.github.io/husky/) (which stores
 hooks in the repository) or a symlink to a tracked scripts directory.
 
@@ -254,38 +254,4 @@ $ git reset
 $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
-(`git gc --prune=now`) are irreversible.
-
-## Common Pitfalls
-
-1. Forgetting to include control variables in experimental design, leading to invalid conclusions.
-
-2. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.
-
-3. Misinterpreting graphs by confusing the independent and dependent variables or reading scales
-   incorrectly.
-
-4. Failing to link structure to function when describing biological molecules, cells, or organs.
-
-## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-## Intuition
-
-The `.git` directory is like a time machine's engine room. The `HEAD` file is like a bookmark showing which page of history you are currently reading. The `objects/` directory is like a library of every snapshot ever taken - each commit is a photo, each file version is a page. The `refs/` directory is like a table of contents with shortcuts to important photos (branches and tags). The `index` is like a staging area where you arrange items before taking the next snapshot. The `reflog` is like a flight recorder that tracks every movement of the bookmark. The key insight is that Git stores content as a directed acyclic graph (DAG) of immutable objects - you never modify history, you only add new snapshots.
-
-## Cross-References
-
-- [Packing and Garbage Collection](/tools/git/06-internals/02-packing-and-garbage-collection) - How Git optimizes storage by compressing objects
-- [Hash Algorithm](/tools/git/06-internals/03-hash-algorithm) - How SHA-1 hashing ensures data integrity
+:::

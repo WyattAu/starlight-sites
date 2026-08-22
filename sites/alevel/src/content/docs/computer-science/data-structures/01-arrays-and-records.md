@@ -266,7 +266,7 @@ Total size: 12 bytes (not 7).
 | Size         | Homogeneous              | Heterogeneous                 |
 | Use case     | Collections of same data | Grouping related attributes   |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** distinguishes between static arrays (fixed size, compile-time) and dynamic arrays (runtime
   sizing)
 - **CIE (9618)** covers 1D and 2D arrays, records (fields accessed with dot notation), but does not
@@ -274,7 +274,7 @@ Total size: 12 bytes (not 7).
 - **OCR (A)** requires understanding of arrays, records, and file operations (sequential and random
   access files)
 - **Edexcel** covers arrays and records with pseudocode implementations
-</aside>
+:::
 <hr />
 
 ## 5. Bounds Checking
@@ -285,10 +285,10 @@ Before accessing the element.
 Without bounds checking, an out-of-bounds access reads or writes arbitrary memory — a **buffer
 Overflow** vulnerability.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `A[-1]` or `A[n]` compiles but causes undefined behaviour. Python, Java, and C# perform automatic
 Bounds checking.
-</aside>
+:::
 <hr />
 
 ## 6. Arrays of Records

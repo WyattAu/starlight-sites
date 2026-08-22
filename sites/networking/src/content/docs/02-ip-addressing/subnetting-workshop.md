@@ -108,7 +108,7 @@ Last host  = broadcast address - 1 = 10.4.220.126
 
 Host bits = $32 - 26 = 6$. Total addresses = $2^6 = 64$. Usable = $64 - 2 = 62$.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `/31` (RFC 3021, point-to-point links, 2 usable) and `/32` (single host, 1 usable). Modern practice
 Also uses `/31` for network equipment links per RFC 6164.
 
@@ -177,9 +177,8 @@ WAN 4:       172.16.1.118/31   (2 addresses, 2 usable)
 
 Every allocation must be verified against all others. The boundary addresses must align to the
 Subnet size.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Then try to allocate `172.16.1.32/27`That overlaps because `.32` falls inside the `/26` range.
 Always allocate from the next available address after the previous allocation ends.
 
@@ -370,9 +369,8 @@ Rule. For example:
 
 Traffic to `192.168.17.5` matches both routes, but `/24` is longer (more specific) than `/22`So The
 router sends it via Router B. Traffic to `192.168.18.5` only matches `/22`So it goes via Router A.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Entry with the longest matching prefix. If there are multiple entries with the same prefix length,
 The one with the lowest administrative distance wins. If there is still a tie, ECMP (Equal-Cost
 Multi-Path) load balancing is used.
@@ -430,9 +428,8 @@ access-list 10 permit 172.16.4.0 0.0.3.255
 ! Wildcard for 3rd octet: 00000001 = 1, with value check = 0
 access-list 10 deny 192.168.0.0 0.0.254.255
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Errors. Always double-check by verifying: `subnet_mask + wildcard_mask = 255.255.255.255` for each
 Octet.
 
@@ -523,9 +520,8 @@ Within the datacenter `/60`:
 | State tracking     | Server does not know assignments                | Server tracks leases  |
 | Address stability  | Stable based on prefix + MAC                    | Depends on lease time |
 | Complexity         | Simple                                          | Requires DHCPv6 infra |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (simplicity, privacy).
 
 ### IPv6 Subnetting Rules
@@ -644,9 +640,8 @@ Summary: `10.0.0.0/13`
 This covers `10.0.0.0` through `10.7.255.255`. It includes more than the four specified networks (it
 Also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
 Routes or accept the over-summarization.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 A single prefix without including `10.0``10.5``10.6`And `10.7`. If the question requires an Exact
 summary, the answer is: it cannot be done with a single prefix.
 
@@ -776,9 +771,8 @@ These.
 The most common IPv6 subnetting error is trying to use non-`/64` masks on LAN segments. SLAAC, NDP
 Autoconfiguration, and many implementations assume `/64`. Use `/64` for everything, and `/128` only
 For loopbacks and specific host routes.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 After you have mastered the fundamentals.
 
 ## Subnetting for Container and Cloud Environments
@@ -832,9 +826,8 @@ VPC: 10.0.0.0/16 (65,536 addresses)
 
 AWS reserves 5 addresses per subnet (network, VPC router, DNS server, future use, broadcast). Plan
 Accordingly.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.
 
 ## Summary
@@ -852,8 +845,7 @@ key principles and practical applications.
 
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
-
-</aside>
+:::
 
 ## Intuition
 

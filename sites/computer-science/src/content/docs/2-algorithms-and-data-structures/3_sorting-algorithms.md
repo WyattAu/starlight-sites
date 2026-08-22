@@ -244,7 +244,7 @@ into 1, reducing the number of runs by a factor of $k$. After $\log_k(N/M)$ pass
 run remains. Each pass reads and writes all $N$ bytes, so total I/O is $O(N \log_k(N/M))$.
 $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 sorting. Non-comparison sorts Like radix sort can achieve $O(n)$ time for integers in a bounded
 range. However, non-comparison sorts sacrifice generality: they depend on the structure of the keys
 and cannot sort arbitrary objects.
@@ -258,8 +258,7 @@ and cannot sort arbitrary objects.
 | Heapsort      | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$      | No     |
 | Counting Sort | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$  | Yes    |
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
-
-</aside>
+:::
 
 ## Intuition
 

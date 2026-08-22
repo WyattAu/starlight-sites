@@ -64,7 +64,7 @@ if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
 fi
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Always store regex in a variable if it contains spaces or special characters:
 
 ```bash
@@ -311,9 +311,8 @@ calculate() {
     echo "$result"
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Scope. This is one of the most common sources of bash script bugs.
 
 ### Return Codes
@@ -764,9 +763,8 @@ trap 'echo "ERROR: line $LINENO, command: $BASH_COMMAND, exit: $?"' ERR
 # This will trigger the ERR trap
 false
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines — explicit error checking is more reliable.
 
@@ -1205,5 +1203,4 @@ linked above.
 - [I/O Redirection and Pipes](../03-process-management/io-redirection) -- Scripts use redirection and pipes to compose commands and handle output.
 - [Processes and Signals](../03-process-management/processes-and-signals) -- Bash scripts create and manage child processes using fork, exec, and signal handling.
 - [Cron and Scheduling](../03-process-management/cron-and-scheduling) -- Scheduled tasks often execute bash scripts at specified intervals.
-
-</aside>
+:::

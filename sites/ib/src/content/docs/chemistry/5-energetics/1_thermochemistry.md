@@ -58,7 +58,7 @@ Standard enthalpy changes are measured under standard conditions:
 | Standard enthalpy of neutralisation | $\Delta H_{\mathrm{neut}}^\circ$ | Enthalpy change when 1 mol of water forms from acid-base reaction                 |
 | Standard enthalpy of atomisation    | $\Delta H_{\mathrm{at}}^\circ$   | Enthalpy change to form 1 mol of gaseous atoms from element in standard state     |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Exam Tip</strong>
 $\Delta H_f^\circ$ for an element in its standard state is always zero (by definition). For example,
 $\Delta H_f^\circ$ of O$_2$(g) = 0, $\Delta H_f^\circ$ of C(graphite) = 0.
@@ -119,9 +119,8 @@ The negative sign accounts for the convention: heat lost by the reaction is gain
 1. No heat loss to the surroundings (use a calorimeter).
 2. The calorimeter itself has negligible heat capacity.
 3. The solution has the same density and specific heat capacity as water.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 $50.0\mathrm{ mL}$ of $1.0\mathrm{ M}$ HCl is mixed with $50.0\mathrm{ mL}$ of $1.0\mathrm{ M}$ NaOH
 In a calorimeter. The temperature rises from $21.0\degree\mathrm{C}$ to $27.5\degree\mathrm{C}$.
@@ -184,9 +183,8 @@ Law.
 $$
 \Delta H_r^\circ = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate $\Delta H_r^\circ$ for: CH$_4$(g) + 2O$_2$(g) $\to$ CO$_2$(g) + 2H$_2$O(l)
 
@@ -256,9 +254,8 @@ $$
 $$
 
 Bonds broken (positive — energy absorbed) and bonds formed (negative — energy released).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate the enthalpy change for: CH$_4$(g) + 2O$_2$(g) $\to$ CO$_2$(g) + 2H$_2$O(g)
 
@@ -269,9 +266,8 @@ Calculate the enthalpy change for: CH$_4$(g) + 2O$_2$(g) $\to$ CO$_2$(g) + 2H$_2
 $$
 \Delta H = 2642 - 3338 = -696\mathrm{ kJ/mol}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 Bond enthalpy calculations give approximate values because average bond enthalpies are used. Values
 From Hess's law with formation data are more accurate. Bond enthalpy calculations only apply to
@@ -315,9 +311,8 @@ For an ionic compound MX:
 $$
 \Delta H_f^\circ = \Delta H_{\mathrm{at}}(M) + \frac{1}{2}\Delta H_{\mathrm{at}}(X_2) + \mathrm{IE} + \mathrm{EA} + \Delta H_{\mathrm{latt}}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate the lattice energy of NaCl.
 
@@ -376,9 +371,8 @@ $$
 $$
 \Delta S^\circ = \sum S^\circ(\mathrm{products}) - \sum S^\circ(\mathrm{reactants})
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate $\Delta S^\circ$ for: CaCO$_3$(s) $\to$ CaO(s) + CO$_2$(g)
 
@@ -447,9 +441,8 @@ $\Delta S \gt 0$ (and vice versa).
 | Negative   | Negative   | Low temperature    |
 | Positive   | Positive   | High temperature   |
 | Positive   | Negative   | Never spontaneous  |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 For the reaction: CaCO$_3$(s) $\to$ CaO(s) + CO$_2$(g)
 
@@ -558,9 +551,8 @@ H$_2$O(l) $\to$ Ca(OH)$_2$(s) D. N$_2$(g) + 3H$_2$(g) $\to$ 2NH$_3$(g)
 | Entropy change          | $\Delta S = \sum S(\mathrm{products}) - \sum S(\mathrm{reactants})$                     |
 | Gibbs free energy       | $\Delta G = \Delta H - T\Delta S$                                                       |
 | Equilibrium relation    | $\Delta G^\circ = -RT\ln K$                                                             |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Exam Strategy</strong>
 For Hess's law questions, draw the energy cycle . For calorimetry, always account for the Total mass
 of the solution. For Gibbs free energy, pay attention to units — $\Delta H$ is In kJ/mol while
@@ -614,9 +606,8 @@ $$
 | NaCl vs Na$_2$O  | Na$_2$O (O$^{2-}$ has higher charge)   |
 
 ### Using Born-Haber Cycles to Compare Compounds
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Explain why the lattice energy of MgO ($-3791\mathrm{ kJ/mol}$) is much more negative than that of
 NaCl ($-788\mathrm{ kJ/mol}$).
@@ -651,9 +642,8 @@ Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing
 | Increasing temperature          | Positive   | More molecular motion |
 
 ### Calculating $\Delta S$ for Reactions
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate $\Delta S^\circ$ for: 2H$_2$(g) + O$_2$(g) $\to$ 2H$_2$O(l)
 
@@ -684,9 +674,8 @@ The large negative $\Delta S$ is expected: 3 moles of gas produce 2 moles of liq
 $$
 \Delta G_r^\circ = \sum \Delta G_f^\circ(\mathrm{products}) - \sum \Delta G_f^\circ(\mathrm{reactants})
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate $\Delta G^\circ$ for: C(s) + CO$_2$(g) $\to$ 2CO(g) at $298\mathrm{ K}$.
 
@@ -705,9 +694,8 @@ $\Delta S \gt 0$ for this reaction).
 $$
 K = e^{-\Delta G^\circ/RT}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 For a reaction with $\Delta G^\circ = -5.4\mathrm{ kJ/mol}$ at $298\mathrm{ K}$:
 
@@ -855,9 +843,8 @@ Electron affinity is the enthalpy change when one mole of gaseous atoms gains on
 
 Each successive ionisation energy is larger than the previous one. Large jumps indicate removal from
 A new shell.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 The first four ionisation energies of aluminium are (in kJ/mol): 578, 1817, 2745, 11578.
 
@@ -871,9 +858,8 @@ When using a calorimeter, account for the heat absorbed by the calorimeter itsel
 $$
 Q_{\mathrm{reaction}} = -(m_{\mathrm{solution}} c_{\mathrm{solution}} \Delta T + C_{\mathrm{calorimeter}} \Delta T)
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 $50\mathrm{ cm}^3$ of $1.0\mathrm{ M}$ HCl and $50\mathrm{ cm}^3$ of $1.0\mathrm{ M}$ NaOH are mixed
 In a calorimeter with heat capacity $15\mathrm{ J/K}$. The temperature rises from
@@ -1116,8 +1102,7 @@ For the A-Level treatment of this topic, see
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

@@ -224,13 +224,13 @@ def dll_delete(node):
 | Search by value              | $O(n)$ | $O(n)$ |
 | Access by index              | $O(n)$ | $O(n)$ |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** focuses on singly linked lists with pointer-based implementation (using `NULL` / `nil`
   pointers)
 - **CIE (9618)** may require both singly and doubly linked lists
 - **OCR (A)** links linked lists to stack and queue implementations (dynamic data structures)
 - **Edexcel** covers basic singly linked list operations
-</aside>
+:::
 <hr />
 
 ## 4. Linked Lists vs Arrays
@@ -263,11 +263,11 @@ Linked list nodes are scattered in memory, so each `next` pointer dereference is
 Miss** (probability approaches 1 as list size exceeds cache capacity). Each cache miss costs ~100
 Cycles vs ~1 cycle for a cache hit. $\square$
 
-<aside aria-label="Exam tip When asked "when would you use a linked list instead of an array?", focus on:" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam tip When asked "when would you use a linked list instead of an array?", focus on:</p>
+:::tip
 - Frequent insertions/deletions at known positions
 - Unknown or highly variable size
 - When random access is not needed
-</aside>
+:::
 <hr />
 
 ## 5. Circular Linked List

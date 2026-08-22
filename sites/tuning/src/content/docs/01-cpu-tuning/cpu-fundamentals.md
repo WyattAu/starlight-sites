@@ -570,10 +570,10 @@ echo 0 | sudo tee /sys/devices/system/cpu/smt/active
 echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Physical core limit before disabling it. Some applications are licensed per logical core and will
 Not work correctly with SMT disabled.
-</aside>
+:::
 ### Security Considerations
 
 SMT has been implicated in several side-channel attacks (Spectre variants, MDS, L1TF). For
@@ -745,10 +745,10 @@ Microcode updates can change CPU behavior in ways that affect performance measur
   frequencies to address stability issues (e.g., the Ice Lake PL1/PL2 fixes).
 - **Cache behavior changes:** Some updates modify L3 cache allocation or prefetcher behavior.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 A new microcode revision can invalidate months of tuning work if it changes turbo behavior or adds
 Mitigation overhead.
-</aside>
+:::
 ### Forcing Microcode Reload
 
 On Linux, you can trigger a late microcode reload (without reboot) if you have updated the microcode
@@ -818,10 +818,10 @@ echo "8-15" > /sys/fs/cgroup/batch_jobs/cpuset.cpus
 echo $PID > /sys/fs/cgroup/batch_jobs/cgroup.procs
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Cores have identical capabilities. ITD primarily benefits client and workstation platforms with
 Big.LITTLE-style heterogeneous core layouts.
-</aside>
+:::
 ## AMD Precision Boost Overdrive 2
 
 AMD's PBO2 (also called Curve Optimizer) allows per-core undervolting/overvolting by applying a
@@ -879,11 +879,11 @@ for offset in 5 10 15 20 25 30; do
 done
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Architecture) errors on Windows or Machine Check Exceptions (MCE) on Linux. These can cause silent
 Data corruption. Always verify stability with both compute tests (Prime95, stress-ng) and memory
 Tests (memtester) when changing voltage offsets.
-</aside>
+:::
 ## Interpreting turbostat Output
 
 `turbostat` is the single most useful tool for real-time CPU frequency, power, and thermal
@@ -1026,7 +1026,7 @@ Points:
 - **Multi-core ratio** (MT/ST) indicates scaling efficiency. A ratio below `cores * 0.75` suggests
   memory bandwidth or thermal throttling issues.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 To caching effects. Let the CPU cool between runs (wait for temperatures to drop below 50C) to
 Ensure consistent thermal conditions.
 
@@ -1101,8 +1101,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How CPU voltage and frequency curves are tuned for performance

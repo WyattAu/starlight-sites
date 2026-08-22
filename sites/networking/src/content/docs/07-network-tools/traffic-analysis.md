@@ -85,7 +85,7 @@ Before libpcap sees it.
 | Encrypted traffic analysis       | On the endpoint (before encryption / after decryption) |
 | Container networking             | On the host's veth interface or inside the container   |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
 Consider using a TAP or capturing on the endpoint.
 
@@ -582,9 +582,8 @@ sysctl -w net.netfilter.nf_conntrack_tcp_timeout_established=600
 # View timeout values
 cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `nf_conntrack: table full, dropping packet` messages in dmesg. This is a common cause of seemingly
 Random connection failures on firewalls and NAT gateways. Monitor `nf_conntrack_count` vs
 `nf_conntrack_max`.
@@ -878,8 +877,7 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Traffic analysis is like wiretapping a phone system to understand what conversations are happening. A SPAN port is like putting a splitter on a phone line so you can listen in without cutting the connection. A TAP is like a professional recording device that sits inline and captures everything perfectly. The challenge is that modern traffic is mostly encrypted (TLS), so you see the envelope (metadata) but not the letter (content). NetFlow is like keeping a phone log - you record who called whom, when, and for how long, but not what was said. The key insight is that metadata alone is incredibly powerful for troubleshooting and security, even without decrypting the content.

@@ -14,10 +14,10 @@ description: "A singly linked list is a sequence of nodes where each node contai
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 The linked list was first described by Hans Peter Luhn at IBM (1953). The concept appeared earlier in Konrad Zuse's Plankalkül (1948). Stacks and queues were formalised by Dijkstra in his 1960 ALGOL 60 paper. The AVL tree was invented by Adelson-Velsky and Landis (1962). These structures underpin every standard library. Understanding them at the implementation level separates systems programmers from application programmers.
-</aside>
+:::
 ## Intuition
 
 **Building blocks of all data structures:** Linked lists, stacks, and queues are like the atoms of data structures — almost every complex data structure is built from these primitives. Linked lists give dynamic sizing, stacks enforce LIFO order, and queues enforce FIFO order.
@@ -72,7 +72,7 @@ def delete_node(head, val):
     return head
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Position (given a pointer to the preceding node). The critical disadvantage is $O(n)$ random access
 And poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
@@ -297,9 +297,8 @@ class SkipList:
             new_node.forward[i] = update[i].forward[i]
             update[i].forward[i] = new_node
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Kernel (for process address space management). They are preferred over balanced BSTs in these
 Contexts because they are simpler to implement correctly in concurrent settings — insertion and
 Deletion only need to lock the nodes being modified, not the entire structure.
@@ -472,9 +471,8 @@ class CircularQueue:
     def size(self):
         return self.count
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Queues, audio playback buffers, log rotation, producer-consumer patterns, and pipe implementations.
 The key advantage is that enqueue and dequeue never require memory allocation or copying — they just
 Advance indices modulo the capacity.
@@ -664,9 +662,8 @@ def sliding_window_maximum(arr, k):
 
     return result
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Maximum of any future window that includes the current element. Removing them from the deque
 Maintains the invariant that the deque contains a decreasing sequence of values, and the maximum is
 Always at the front.
@@ -825,8 +822,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

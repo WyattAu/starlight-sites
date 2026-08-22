@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1, 2 | Includes Venn diagrams and tree diagrams          |
 | CIE (9709) | P1, P6     | Probability in P1; conditional in P6              |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 and draw a diagram before calculating.
-</aside>
+:::
 <hr />
 
 ## 1. Kolmogorov"s Axioms
@@ -156,10 +156,10 @@ $$P(A) = \sum_{i=1}^{n}P(A|B_i)P(B_i)$$
 
 $$P(B_k|A) = \frac{P(A|B_k)P(B_k)}{\sum_{i=1}^{n}P(A|B_i)P(B_i)}$$
 
-<aside aria-label="Bayes' theorem is essential for "reverse" probability questions: "Given that a test is" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Bayes' theorem is essential for "reverse" probability questions: "Given that a test is</p>
+:::tip
 Positive, what is the probability the patient actually has the disease?" Always define events and
 identify what is given ($P(A|B)$) versus what is sought ($P(B|A)$).
-</aside>
+:::
 <hr />
 
 ## 5. Independence
@@ -185,9 +185,9 @@ $P(A \cap B) = P(A)P(B)$. $\blacksquare$
 **Intuition.** Independence means knowing $B$ occurred gives you **no information** about $A$. The
 Probability of $A$ is the same whether or not $B$ has happened.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 independent (since $P(A \cap B) = 0 \neq P(A)P(B)$).
-</aside>
+:::
 ### 5.3 Pairwise and mutual independence
 
 **Definition.** Events $A_1, A_2, \ldots, A_n$ are **mutually independent** if for every subset
@@ -198,12 +198,12 @@ $$P(A_{i_1} \cap A_{i_2} \cap \cdots \cap A_{i_k}) = P(A_{i_1}) \cdot P(A_{i_2})
 **Definition.** Events $A_1, A_2, \ldots, A_n$ are **pairwise independent** if every pair
 $(A_i, A_j)$ with $i \neq j$ is independent.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Independence does not imply mutual independence. For example, with two independent coin tosses, let
 $A$ = "first toss is heads", $B$ = "second toss is heads", $C$ = "both tosses are the same". Then
 $A$, $B$, $C$ are pairwise independent but not mutually independent since
 $P(A \cap B \cap C) = 0 \neq P(A)P(B)P(C) = 1/8$.
-</aside>
+:::
 <hr />
 
 ## 6. Venn Diagrams and Tree Diagrams
@@ -451,9 +451,9 @@ $$= \tfrac{1 + 8 + 27 + 48 + 50 + 36}{12} = \tfrac{170}{12} = \tfrac{85}{6}$$
 
 $$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \tfrac{85}{6} - \tfrac{49}{4} = \tfrac{170 - 147}{12} = \tfrac{23}{12} \approx 1.917$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 concentrated around the Centre.
-</aside>
+:::
 <hr />
 
 ## Problem Set
@@ -847,7 +847,7 @@ $$P(M_3|D) = \frac{P(D|M_3)P(M_3)}{P(D)} = \frac{0.05 \times 0.2}{0.029} = \frac
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability
@@ -855,7 +855,7 @@ with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Common Pitfalls
 
 1. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way

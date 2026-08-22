@@ -740,7 +740,7 @@ $e^- + e^+ \to \gamma + \gamma$: The electron and positron annihilate into a vir
 Produces two real photons. The diagram has two incoming fermion lines, one internal photon line, and
 Two outgoing photon lines.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The binding energy curve shows a peak at iron-56, but the curve is relatively flat around this peak.
 Elements from nickel to lead all have binding energies per nucleon in the range
 $7.5$--$8.8\,\mathrm{MeV/nucleon}$. Do not assume that fission of elements lighter than iron always
@@ -1110,8 +1110,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

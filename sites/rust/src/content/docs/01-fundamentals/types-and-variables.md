@@ -113,7 +113,7 @@ assert!(nan != nan);           // true
 assert!(!nan.is_nan());        // false — use is_nan() for the check
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
 You need a total ordering for sorting.
 
@@ -123,8 +123,7 @@ let mut sorted = values;
 sorted.sort_by(|a, b| a.total_cmp(b));
 // [1.0, 2.0, inf, NaN]
 ```
-
-</aside>
+:::
 ## Boolean Type
 
 `bool` is one byte, not one bit. This is because every byte in memory must be addressable, and a
@@ -151,12 +150,11 @@ let unicode: char = '\u{1F980}';
 assert_eq!(std::mem::size_of::<char>(), 4);
 ```
 
-<aside aria-label="A `char` is not a "character" in the text-processing sense. A single user-perceived grapheme cluster" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A `char` is not a "character" in the text-processing sense. A single user-perceived grapheme cluster</p>
+:::note
 (like "é" which may be one code point U+00E9 or two code points U+0065 + U+0301) may require
 Multiple `char` values. For text processing, work with `&str` slices and the `unicode-segmentation`
 Crate.
-
-</aside>
+:::
 ### `char` vs `u8`
 
 A `u8` holds a byte value (0–255). A `char` holds a Unicode scalar value (0–1,114,111, excluding
@@ -588,10 +586,9 @@ fn increment() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
-
-</aside>
+:::
 ## Type Aliases
 
 Type aliases create an alias for an existing type. They do not create a new type — the alias is
@@ -739,11 +736,10 @@ let y: u32 = x as u32;          // 4294967295 (two's complement reinterpretation
 let z: i8 = 128i32 as i8;       // -128 (wraps)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Float-to-integer casts saturates: NaN and out-of-range values become 0 (for unsigned) or the minimum
 Value (for signed). This behavior is documented in the reference but surprises people coming from C.
-
-</aside>
+:::
 ### Safe Conversions with `TryFrom`/`TryInto`
 
 For fallible conversions that return `Result`:

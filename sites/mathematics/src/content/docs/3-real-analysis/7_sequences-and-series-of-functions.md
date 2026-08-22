@@ -244,14 +244,13 @@ Since $\sup |f_n| = 1/n \to 0$The convergence is uniform on $[1, \infty)$. $\bla
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 integrability. Uniform Convergence preserves continuity and allows interchange of limit and
 integral, but not limit and Derivative. For derivatives, uniform convergence of the _sequence of
 derivatives_ (not the original Sequence) is required, as stated in Theorem 7.4. Also, the
 Weierstrass M-Test applies only to series Of functions, not sequences; for sequences, one must
 verify the uniform Cauchy criterion directly.
-
-</aside>
+:::
 
 ## Common Mistakes
 

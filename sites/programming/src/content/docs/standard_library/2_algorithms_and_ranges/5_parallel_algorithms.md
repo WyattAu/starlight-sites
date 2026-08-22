@@ -171,7 +171,7 @@ int main() {
 
 ### Data Races in Parallel Algorithms
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Uses `std::execution::par`The user-provided function objects may be called concurrently from
 Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
 
@@ -183,7 +183,7 @@ Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
    access any object that is not element-accessible.
 
 Violating these rules results in **undefined behavior**.
-</aside>
+:::
 ```cpp
 #include <iostream>
 #include <vector>
@@ -316,11 +316,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Reproducibility.** Floating-point addition is not associative (e.g.,
 `(0.1 + 0.2) + 0.3 != 0.1 + (0.2 + 0.3)` in IEEE 754). Use `std::accumulate` for deterministic
 Floating-point results, or use compensated summation (Kahan summation) for accuracy.
-</aside>
+:::
 ### Proof of Deterministic Results with `std::reduce`
 
 **Theorem.** `std::reduce` with `par` policy produces bit-identical results to `std::accumulate` if
@@ -760,7 +760,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Execution policies: `std::stable_sort` (until C++20), `std::nth_element` (until C++20), and
 `std::inplace_merge`. Check the standard or your compiler's documentation for the full list of
 Parallel-capable algorithms.
@@ -808,5 +808,4 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

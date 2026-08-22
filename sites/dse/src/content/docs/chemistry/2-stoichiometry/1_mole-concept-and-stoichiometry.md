@@ -45,9 +45,9 @@ For ionic compounds, the term **relative formula mass** is used, calculated the 
 
 $$M_r(\mathrm{NaCl}) = 23.0 + 35.5 = 58.5$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Mg = 24.3, Al = 27.0, S = 32.1, Cl = 35.5, K = 39.1, Ca = 40.1, Fe = 55.8, Cu = 63.5, Zn = 65.4.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -100,9 +100,9 @@ $$n = \frac{V}{V_m}$$
 
 Where $V_m$ = 22.4 dm$^3$/mol (STP) or 24.0 dm$^3$/mol (RTP).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Volume is one of the most common errors in DSE stoichiometry questions.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -470,7 +470,7 @@ $$PV = nRT$$
 | R      | Gas constant | 8.314 J/(mol K) or 0.0821 atm dm$^3$/(mol K) |
 | T      | Temperature  | K                                            |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $V_m = \dfrac{nRT}{P} = \dfrac{1 \times 0.0821 \times 273}{1} = 22.4 \mathrm{ dm}^3$
 
 This confirms the molar volume at STP.
@@ -1012,8 +1012,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

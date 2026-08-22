@@ -228,10 +228,10 @@ Eliminating the overhead of emulating hardware devices.
 | RNG     | VirtIO RNG                  | Built-in                     |
 | GPU     | VirtIO GPU                  | Built-in (Spice Guest Tools) |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 CD-ROM drive during installation. Install the VirtIO drivers before installing Windows, or use the
 `e1000` network driver temporarily and switch to VirtIO after driver installation.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

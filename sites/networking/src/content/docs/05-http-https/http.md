@@ -99,7 +99,7 @@ Status codes indicate the result of the request. They are grouped into five clas
 | 307  | Temporary Redirect | Temporary redirect (method preserved)              |
 | 308  | Permanent Redirect | Permanent redirect (method preserved)              |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Change the method from POST to GET on redirect. 307 and 308 preserve the original method. If you
 Redirect a POST request, use 307/308 unless you explicitly want the method changed.
 
@@ -475,9 +475,8 @@ Values (e.g., one for gzip, one for br).
 ```
 Vary: Accept-Encoding, Origin
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Is never cached. If `Vary` omits a header that affects the response (e.g., `Vary: Accept-Encoding`
 But the response varies by `Origin`), the wrong content may be served to different users.
 
@@ -504,9 +503,8 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 | `Domain=.example.com` | Shared across subdomains                          |
 | `Max-Age=3600`        | Expires in 3600 seconds                           |
 | `Expires=...`         | Absolute expiration date                          |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 attacks to steal session tokens. Failing to set `SameSite` allows CSRF attacks.
 
 ## CORS (Cross-Origin Resource Sharing)
@@ -857,9 +855,8 @@ Collaborative editing.
 WebSocket frames have a 2-14 byte header (depending on payload length) and support fragmentation,
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
 Over TLS).
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 You need persistent, low-latency, bidirectional communication. For periodic updates, Server- Sent
 Events (SSE) are simpler and work over standard HTTP.
 
@@ -927,8 +924,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

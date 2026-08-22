@@ -59,9 +59,9 @@ hash("hello")      # varies per interpreter session
 hash(("a", "b"))   # depends on hash("a") ^ hash("b") with rotation
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 This is a security measure against hash DoS attacks. Set `PYTHONHASHSEED=0` to disable.
-</aside>
+:::
 ### Collision Resolution: Open Addressing
 
 When two keys hash to the same slot, CPython probes the next slot using a linear probing scheme with
@@ -142,10 +142,10 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 | Equality checks order     | No (Python 3.7+) | Yes           |
 | Reversible                | Yes (3.8+)       | Yes           |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
 Consider order — only `OrderedDict` equality is order-sensitive.
-</aside>
+:::
 ### LRU Cache with OrderedDict
 
 ```python
@@ -220,7 +220,7 @@ tree["servers"]["db1"]["port"] = 5432
 print(tree["servers"]["web1"]["ip"])  # 10.0.0.1
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `dict` naively. Use a recursive conversion function:
 
 ```python
@@ -229,8 +229,7 @@ def to_regular_dict(d):
         return {k: to_regular_dict(v) for k, v in d.items()}
     return d
 ```
-
-</aside>
+:::
 ### Practical Examples
 
 ```python
@@ -324,7 +323,7 @@ c.subtract(["a", "b"])  # Subtract counts (allows negatives)
 print(c)  # Counter({'a': 4, 'c': 3, 'b': 0})
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `__missing__`:
 
 ```python
@@ -332,8 +331,7 @@ class Counter(dict):
     def __missing__(self, key):
         return 0
 ```
-
-</aside>
+:::
 ## ChainMap
 
 `collections.ChainMap` groups multiple dicts into a single view. Lookups search each mapping in
@@ -373,9 +371,9 @@ print(config["timeout"])  # 30
 ChainMap is ideal for layered configuration systems: defaults, environment variables, CLI args, and
 Per-request overrides.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
-</aside>
+:::
 ```python
 config = ChainMap({"timeout": 30}, {"timeout": 60})
 config["timeout"] = 10
@@ -522,10 +520,10 @@ d["port"] = 8080          # Setting 'port' = 8080
 del d["port"]             # Deleting 'port'
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 methods bypass your Python-level overrides. `UserDict` stores data in an internal `dict` Attribute
 (`self.data`), so all access goes through your Python methods.
-</aside>
+:::
 ```python
 from collections import UserList
 
@@ -649,9 +647,9 @@ print([e[1] for e in events])
 # ['deploy v1', 'hotfix', 'deploy v2', 'incident']
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Shift elements). For frequent insertions, consider `heapq` or a balanced tree structure.
-</aside>
+:::
 ## heapq Module
 
 `heapq` provides a min-heap implementation using a regular Python list. The heap invariant is:
@@ -737,9 +735,9 @@ print(pq.pop())  # normal task
 print(pq.pop())  # low priority task
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Invariant may be violated. Either use immutable data or call `heapq.heapify()` after modifications.
-</aside>
+:::
 ## Common Pitfalls
 
 ### 1. Mutating a Dict While Iterating

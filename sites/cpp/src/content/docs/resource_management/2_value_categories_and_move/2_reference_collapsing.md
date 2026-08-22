@@ -90,11 +90,11 @@ void collapsing_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues — the deduction would
 Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
-</aside>
+:::
 ## 4.1 Distinguishing Forwarding References from Rvalue References
 
 The syntax `T&&` has two distinct meanings depending on context:
@@ -162,10 +162,10 @@ void not_forwarding() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 a forwarding reference — it becomes a plain rvalue reference. The forwarding reference Deduction
 requires that `T` be a freshly deduced, unconstrained type parameter.
-</aside>
+:::
 ## 4.3 `std::forward<T>(x)` — Perfect Forwarding
 
 `std::forward<T>(x)` casts `x` to `T&&`. Combined with reference collapsing, this preserves the
@@ -278,12 +278,12 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `std::vector::emplace_back`And virtually every factory or emplacement function in the standard
 Library. Without forwarding references and `std::forward`These functions would be forced to copy
 Their arguments or require separate overloads for every combination of lvalue/rvalue parameters — a
 Combinatorial explosion.
-</aside>
+:::
 ## See Also
 
 - [Value Taxonomy](1_value_taxonomy.md)
@@ -384,10 +384,10 @@ void range_for_forwarding() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 To write generic range-based for loops that work with both lvalue and rvalue ranges, and with proxy
 Iterators that return prvalues (like `std::vector<bool>`).
-</aside>
+:::
 ## 5.3 `std::forward` Implementation Detail
 
 `std::forward<T>(x)` is implemented as a `static_cast`:
@@ -541,13 +541,13 @@ void variadic_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Literal `42` produces a `const int&` in the tuple, which dangles if the tuple outlives the full
 Expression). `std::make_tuple` decays its arguments, so rvalues are copied/moved, but lvalues are
 Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Args>(args)...)` to
 Always store by value, or `std::forward_as_tuple(args...)` which explicitly stores references with
 The same lifetime concerns documented.
-</aside>
+:::
 ## 5.6 Forwarding in Class Templates
 
 Forwarding references work in class template constructors, but with a subtlety: the forwarding

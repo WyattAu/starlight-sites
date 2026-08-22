@@ -104,11 +104,11 @@ Coverage but risks air bubbles. Better for large IHS surfaces (Threadripper, EPY
 **Cross/X method:** Two thin lines forming a cross. Provides good coverage for rectangular IHS
 Surfaces. Works well for Intel CPUs with their rectangular IHS.
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 It spills onto the motherboard contacts or pins. It also reacts with aluminum, causing corrosion.
 Only use liquid metal on nickel-plated or copper surfaces. Apply a conformal coating (nail polish)
 Around the IHS to contain spills.
-</aside>
+:::
 ### When to Repaste
 
 - **Every 2–3 years** for standard paste under moderate loads.
@@ -255,9 +255,9 @@ AIO coolers have finite lifespans. Common failure modes:
    Tilt the case to move bubbles to the radiator.
 4. **Fan failure:** Individual fans can fail. Replaceable in most AIOs.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes under Load.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

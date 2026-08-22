@@ -163,7 +163,7 @@ gitGraph
 This is common in release workflows where the merge commit serves as a "release marker" that can be
 identified in the history.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 It easy to see when a feature was merged, revert the entire feature with one command
 (`git revert -m 1 <merge-commit>`), and understand the project history.
 
@@ -276,9 +276,8 @@ $ git merge --abort
 | One side deleted a file, other side modified it            | Discuss with the team: delete or keep with modifications          |
 | Rename conflicts (file renamed differently on each branch) | Manually resolve: pick one name, apply changes from both sides    |
 | Large-scale conflicts (hundreds of files)                  | Consider rebasing instead, or `git merge --abort` and re-evaluate |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 ```bash
 $ git config --global merge.tool vscode
 $ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
@@ -397,8 +396,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

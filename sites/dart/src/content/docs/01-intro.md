@@ -20,7 +20,7 @@ description: "This resource is created as a aggregation of best practices in Dar
 This resource is created as a aggregation of best practices in Dart and Flutter listed as a
 Tutorial.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Therefore when Dart code uses Flutter, compiler explorer cannot be used and Dartpad will be used.
 
 <div className="godbolt-container">
@@ -404,5 +404,4 @@ Dart is a language designed for building user interfaces, particularly with Flut
 - [Entry Point](03-basics/01-entrypoint) -- main() and basic types
 - [Async and Futures](05-async/01-async-and-futures) -- Future, Stream, and async/await
 - [Pattern Matching](07-dart3-features/01-pattern-matching) -- Dart 3 pattern matching
-
-</aside>
+:::

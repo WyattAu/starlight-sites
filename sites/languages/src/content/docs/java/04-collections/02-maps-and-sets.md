@@ -77,9 +77,9 @@ Table is resized (doubled). The initial capacity defaults to 16.
 Map<String, Integer> map = new HashMap<>((int) (1000 / 0.75f) + 1);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `ConcurrentHashMap` for concurrent access.
-</aside>
+:::
 ### `LinkedHashMap`
 
 Extends `HashMap` and maintains a doubly-linked list running through all entries. Iteration order is
@@ -312,10 +312,10 @@ Set<Day> workPlusWeekend = EnumSet.copyOf(weekdays);
 workPlusWeekend.addAll(weekend);
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Single `long` (for enums with up to 64 values) or a `long[]` (for larger enums). All operations are
 Simple bit manipulations.
-</aside>
+:::
 ## Set Operations
 
 Java does not provide built-in union, intersection, or difference operators on sets, but the methods
@@ -386,10 +386,10 @@ public class Person {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `List.equals` compares element-by-element and `List.hashCode` depends on all elements. If you modify
 A list after using it as a key, the map will no longer find it. Use immutable collections as keys.
-</aside>
+:::
 ### `Objects.hash` and `Arrays.hashCode`
 
 ```java
@@ -494,10 +494,10 @@ List<String> immutableCopy = List.copyOf(mutableList);
 Set<String> immutableSet = Set.copyOf(mutableSet);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `NullPointerException`. This is by design — nulls in collections are a common source of bugs, and
 The immutable factories enforce non-null.
-</aside>
+:::
 ### Unmodifiable Wrappers
 
 JDK 8 and earlier provide unmodifiable wrappers via `Collections`:
@@ -551,11 +551,11 @@ String min = Collections.min(list, comparator);
 List<String> syncList = Collections.synchronizedList(mutableList);
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Iteration requires external synchronization:
 `synchronized (syncList) { for (String s : syncList) { ... } }`. For better concurrency, use
 `CopyOnWriteArrayList`.
-</aside>
+:::
 ## Collection Design Patterns
 
 ### Multimap (Map of Lists)
@@ -846,10 +846,10 @@ System.gc(); // suggest GC — the entry may be removed
 System.out.println(metadata.size()); // possibly 0
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 as the GC discovers that a key is weakly reachable. If you need size-bounded caching, use
 `LinkedHashMap` with `removeEldestEntry` or a dedicated cache library like Caffeine.
-</aside>
+:::
 ### Sorted Collection Views
 
 `Collections` provides unmodifiable sorted views:

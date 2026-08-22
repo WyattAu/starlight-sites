@@ -402,7 +402,7 @@ class FenwickTree2D:
                 self.prefix_sum(r2, c1 - 1) + self.prefix_sum(r1 - 1, c1 - 1))
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Segment trees are more flexible: they support range min/max/gcd queries and range updates with lazy
 Propagation, which Fenwick trees cannot do (or do with more complexity). Choose based on your query
 Type.
@@ -949,9 +949,8 @@ def mos_algorithm(arr, queries):
 
     return results
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Blocks, compared to the standard $O((n+q)\sqrt{n})$. The Hilbert curve maps 2D coordinates to 1D in
 A way that preserves locality better than block-based sorting.
 
@@ -1091,8 +1090,7 @@ $\blacksquare$
   lower constant factors than segment trees.
 - Trie supports $O(L)$ insertion and lookup for strings of length $L$; used in autocomplete and IP
   routing.
-
-</aside>
+:::
 
 ## Cross-References
 

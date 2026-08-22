@@ -86,7 +86,7 @@ Where:
 
 If any condition is violated, the population evolves (allele frequencies change).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Worked Example 1</strong>
 In a population of 1000 individuals, 160 have the recessive phenotype (aa). Find the frequencies of
 All genotypes and alleles.
@@ -108,9 +108,8 @@ $$
 $$
 
 Check: $360 + 480 + 160 = 1000$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Worked Example 2</strong>
 The frequency of the dominant allele for a trait is 0.7 in a population of 5000. How many
 Individuals are expected to be heterozygous?
@@ -122,18 +121,16 @@ $2pq = 2(0.7)(0.3) = 0.42$.
 Number of heterozygous individuals: $0.42 \times 5000 = 2100$.
 
 Number showing the recessive phenotype: $q^2 \times 5000 = 0.09 \times 5000 = 450$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Worked Example 3</strong>
 16% of individuals in a population show the recessive phenotype. What percentage is heterozygous?
 
 $q^2 = 0.16$So $q = 0.4$, $p = 0.6$.
 
 $2pq = 2(0.6)(0.4) = 0.48 = 48\%$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Worked Example 4</strong>
 A population has the following genotype frequencies: AA = 0.42, Aa = 0.36, aa = 0.22. Is this
 Population in Hardy-Weinberg equilibrium?
@@ -902,8 +899,7 @@ linked above.
 $$
 
 $$
-
-</aside>
+:::
 
 ## Intuition
 

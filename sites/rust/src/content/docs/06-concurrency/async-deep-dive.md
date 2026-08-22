@@ -459,7 +459,7 @@ async fn main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Loop and recreate the future.
 
 ### `join!`
@@ -938,8 +938,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

@@ -113,7 +113,7 @@ The key guarantee: all threads spawned within `scope` are joined before `scope` 
 Borrowed data is guaranteed to be valid for the lifetime of the scoped threads, eliminating the need
 For `'static` bounds.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
 
 ## Message Passing
@@ -361,9 +361,8 @@ fn reader() {
     }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
 Correct visibility semantics. Use `SeqCst` when you are unsure — it is the safest but slowest
 Option.
@@ -662,9 +661,8 @@ async fn main() {
     }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Restructure your code to recreate the futures. This is a common source of confusion for developers
 Coming from JavaScript's `Promise.race`.
 
@@ -820,9 +818,8 @@ async fn main() {
     assert_eq!(*data.lock().await, 10);
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Blocks the entire OS thread, preventing other async tasks from running. Use `tokio::sync::Mutex` for
 Async contexts. However, if the critical section is short and does not contain any `.await`A
 `std::sync::Mutex` is acceptable and has lower overhead.
@@ -857,9 +854,8 @@ struct MyType {
 unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
 Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler
@@ -926,8 +922,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

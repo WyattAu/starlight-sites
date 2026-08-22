@@ -47,10 +47,10 @@ Proportional to extension — the straight-line region of the force-extension gr
 Material returns to its original length when the force is removed. Beyond this point, the material
 Undergoes **permanent (plastic) deformation**.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the limit of Proportionality. Between these two points the material still returns to its original
 shape, but $F$ And $\Delta x$ are no longer linearly related.
-</aside>
+:::
 ### Springs in Series and Parallel
 
 For two springs with spring constants $k_1$ and $k_2$:
@@ -95,10 +95,10 @@ Strain is dimensionless (a ratio). It is often expressed as a percentage.
 
 **Definition.** **Breaking stress** is the stress at which a material fractures.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 tensile Loading. **OCR (A)** may ask about compressive stress-strain behaviour of brittle materials
 like Concrete.
-</aside>
+:::
 ## 3. Young's Modulus
 
 **Definition.** The **Young's modulus** $E$ of a material is the ratio of tensile stress to tensile
@@ -122,11 +122,11 @@ Under tensile loading. It has units of Pa (same as stress, since strain is dimen
 | Steel        | 200                   | Metal           |
 | Diamond      | 1200                  | Ceramic/Crystal |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **strong**. Glass is stiffer than rubber ($E \approx 70$ GPa vs $0.01$ GPa) but rubber is
 **tougher** (absorbs more energy before breaking) because it can undergo much larger strains.
 Stiffness and strength are different properties.
-</aside>
+:::
 ### Measuring Young's Modulus
 
 A standard experiment uses a wire clamped at one end with masses hung from the other:
@@ -229,11 +229,11 @@ Polymers show a wide range of behaviours:
 - **Thermoplastic polymers**: soften when heated, can be remoulded. Show viscoelastic behaviour
   (time-dependent response).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 quantitative analysis of Stress-strain graphs including calculating the area under the graph
 (energy). **CIE** may ask you to Sketch stress-strain curves for different material types and
 identify specific points. **OCR (A)** Links material properties to engineering applications.
-</aside>
+:::
 ## 5. Elastic Potential Energy
 
 **Definition.** **Elastic potential energy** (or elastic strain energy) is the energy stored in a
@@ -271,10 +271,10 @@ $$E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V$$
 
 $\square$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 proportionality, the energy Stored is the area under the actual (non-linear) force-extension curve,
 which must be found by Integration or by counting squares.
-</aside>
+:::
 ## 6. Material Properties Comparison
 
 ### Metals
@@ -377,9 +377,9 @@ Millions of cycles. This is critical in aircraft wings, bridges, and engine comp
 Elevated temperatures. It is important in power station components, turbine blades, and lead
 Roofing.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Application-style questions about engineering materials.
-</aside>
+:::
 ## Problems
 
 <details>
@@ -564,7 +564,7 @@ Or too low.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Properties
@@ -572,8 +572,8 @@ of Materials with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 - **Confusing stress, strain, and Young's modulus:** Stress is force per unit AREA (Pa = N/m
   squared), not force per unit length. Strain is the ratio of extension to ORIGINAL length
   (dimensionless), not extension alone. Young's modulus is stress divided by strain (Pa), and
@@ -593,8 +593,7 @@ self-marking and building a personal test matrix.
   MAXIMUM stress the material can withstand (the peak of the stress-strain curve). Breaking stress
   is where the material actually fractures (which may be lower if the material necks). They are not
   always the same.
-
-</aside>
+:::
 ## Common Pitfalls
 
 1. Confusing displacement with distance, or velocity with speed, particularly in graphs and

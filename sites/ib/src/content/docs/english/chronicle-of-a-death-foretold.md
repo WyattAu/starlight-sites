@@ -327,10 +327,10 @@ Culture.
 | "The bishop blessed him from the boat"                  | Religious authority passes by, offering symbolic but useless blessing                |
 | "He came with a suitcase full of letters... Unopened"   | Bayardo's romantic gesture is hollow — appearance without substance                  |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Journalistic) as well as the content. The way the story is told is as important as what happens.
 Consider how Marquez uses the reader's knowledge of the ending to create dramatic irony throughout.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -844,12 +844,12 @@ Expectations."**
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Essay in 55 minutes. For HL, aim for 100 minutes to allow for integration of a third text. See
 [ib-english-assessment-and-techniques](./ib-english-assessment-and-techniques) for detailed time
 Management strategies.
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 - **Reducing characters to stereotypes:** Santiago Nasar is not an innocent victim, and the Vicario
   brothers are not brutal murderers. Each character has motivations that reflect broader social
   values -- honour, machismo, religious duty, class, and gender roles. Essays that present
@@ -886,8 +886,7 @@ Management strategies.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

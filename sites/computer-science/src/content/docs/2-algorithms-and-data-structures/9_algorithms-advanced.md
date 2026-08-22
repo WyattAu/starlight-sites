@@ -441,7 +441,7 @@ lines and query in $O(\log n)$ per step.
 
 **Total time:** $O(n \log n)$ instead of $O(n^2)$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 hold. Knuth's optimisation requires the quadrangle inequality AND monotonicity of the optimal split
 point. The convex hull trick requires lines to be added in monotone order of slope. Applying these
 optimisations without verifying the conditions leads to incorrect results.
@@ -1679,8 +1679,7 @@ $\blacksquare$
 - Searching: linear $O(n)$, binary $O(\log n)$, hash $O(1)$ average.
 - Data structures: arrays, linked lists, stacks, queues, trees, hash tables, heaps, graphs.
 - Amortised analysis: dynamic arrays $O(1)$ amortised append; splay trees $O(\log n)$ amortised.
-
-</aside>
+:::
 ## Cross-References
 
 - [Algorithm Analysis](./1_algorithm-analysis) -- Advanced algorithms build on the complexity analysis foundations of Big-O notation and asymptotic analysis.

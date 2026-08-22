@@ -30,7 +30,7 @@ categories:
 | OCR (A)    | Pure Core 2 | Groups, Maclaurin, polar area, vectors, conics         |
 | CIE (9709) | Paper 3     | Complex, vectors, further calculus, conics             |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Ensure full mastery of Further Pure 1 before proceeding.
 
 <hr />
@@ -462,8 +462,7 @@ the complex plane), group theory (axioms, subgroups, cyclic groups, isomorphism,
 further calculus (Maclaurin and Taylor series, series solutions, reduction formulae), vectors in 3D
 (scalar and vector products, lines, planes, shortest distances), and conics (focus-directrix
 properties, parametric and Cartesian equations, tangents and normals).
-
-</aside>
+:::
 
 ## Cross-References
 

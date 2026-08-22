@@ -952,7 +952,7 @@ for propan-2-ol, 1 mark for explanation).
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Atomic
@@ -977,8 +977,7 @@ self-marking and building a personal test matrix.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Chemistry](../chemistry)

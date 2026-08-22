@@ -180,10 +180,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Comparison. For performance-critical code, implement a locale-aware character-by-character
 Comparison that avoids allocation.
-</aside>
+:::
 ## Intuition
 
 **The spaceship operator is like a universal comparison tool:** Instead of writing six separate comparison functions (`==`, `!=`, `<`, `<=`, `>`, `>=`), you write one function that returns "less," "equal," or "greater." The compiler then generates all six comparisons from that single function. It's like having a single "comparison function" that answers "which comes first?" — and the compiler derives all the other questions from that answer.

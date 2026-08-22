@@ -31,9 +31,9 @@ ZFS makes this rule easy to implement:
 3. **Tertiary copy (offsite):** Cloud storage via TrueNAS Cloud Sync or a remote NAS via ZFS
    replication.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 3-2-1-1-0: 3 copies, 2 media, 1 offsite, 1 air-gapped (disconnected), 0 errors (verified restores).
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -629,9 +629,9 @@ Store encryption keys in a secure, offsite location:
 2. **Physical copy:** Write the passphrase on paper and store in a safe deposit box.
 3. **Key escrow service:** Some password managers offer key escrow for trusted contacts.
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Irrecoverable. There is no backdoor. Always have a verified backup of the key.
-</aside>
+:::
 ## Backup Monitoring and Alerting
 
 ### TrueNAS Backup Alert Configuration
@@ -755,7 +755,7 @@ zfs get receive_resume_token backup/data
 zfs recv -s backup/data <<< "$(zfs get -H -o value receive_resume_token backup/data)"
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Very large transfers over unreliable networks, consider using `mbuffer` as a network buffer to
 Absorb short interruptions:
 
@@ -766,8 +766,7 @@ zfs send tank/data@snap1 | mbuffer -W 300 -s 128k -m 1G 10.0.0.20:9090
 # Receiver side
 mbuffer -s 128k -m 1G -I 9090 | zfs recv backup/data
 ```
-
-</aside>
+:::
 ## Monthly and Quarterly Verification Procedures
 
 A backup that has never been tested is not a backup. Establish a regular verification cadence to
@@ -1063,10 +1062,10 @@ midclt call cloudsync.update 1 '{
 }'
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Encryption keys in multiple secure locations: a password manager, a hardware security key, and a
 Printed copy in a physical safe. Never store encryption keys alongside the backups themselves.
-</aside>
+:::
 ### Compliance Considerations
 
 For environments subject to regulatory requirements (GDPR, HIPAA, SOC 2), document your backup and

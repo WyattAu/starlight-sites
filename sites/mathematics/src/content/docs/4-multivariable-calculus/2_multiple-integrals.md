@@ -298,7 +298,7 @@ The key to setting up multiple integrals is describing the region correctly. Typ
 
 ### 2.8 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Order of integration limits.** When setting up
   $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$Verify that $g_1(x) \leq g_2(x)$ for all
   $x \in [a, b]$. If the region is described as "between two curves," determine which curve is above
@@ -311,8 +311,7 @@ The key to setting up multiple integrals is describing the region correctly. Typ
   $\theta \in [0, 2\pi]$ is the azimuthal angle.
 - **Region description.** When swapping integration order, carefully redraw the region and re-derive
   the bounds. The new bounds may require splitting the integral into multiple pieces.
-
-</aside>
+:::
 
 ## Cross-References
 

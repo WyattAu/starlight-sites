@@ -206,7 +206,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Parameter of the form `T&&` where `T` is a template parameter of the function template itself. The
 Following are **not** forwarding references:
 
@@ -214,8 +214,7 @@ Following are **not** forwarding references:
   parameter)
 - `T&amp;&amp;` in a class template member function where T is the class template parameter
 - `const T&amp;&amp;` (the `const` prevents the forwarding reference interpretation)
-
-</aside>
+:::
 ### Array-to-Pointer and Function-to-Pointer Decay
 
 Arrays and functions decay to pointers during deduction unless the parameter is a reference:
@@ -337,10 +336,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The class template both participate in deduction and produce conflicting results, deduction fails
 [N4950 S16.3.1.7].
-</aside>
+:::
 ### CTAD Rules [N4950 S16.3.1.3]
 
 The CTAD process follows a specific algorithm:

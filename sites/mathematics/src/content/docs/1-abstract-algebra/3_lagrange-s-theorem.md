@@ -120,11 +120,10 @@ _Proof._ The map $H \times K \to HK$ given by $(h, k) \mapsto hk$ is surjective.
 $x = hk \in HK$ The fiber is $\{(hc^{-1}, ck) : c \in H \cap K\}$Which has size $|H \cap K|$. Thus
 $|H||K| = |HK| \cdot |H \cap K|$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 subgroup when $H$ or $K$ is normal. In that case, $|HK| = |H||K|/|H \cap K|$ also divides $|G|$ by
 Lagrange.
-
-</aside>
+:::
 ### 3.6 Common Pitfalls
 
 - **Confusing index with order.** The index $[G:H]$ is the number of cosets, not the order of $H$.

@@ -104,9 +104,9 @@ data = json.loads(json_str, object_hook=custom_decoder)
 print(type(data["created"]))  # <class 'datetime.datetime'>
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `int``float``bool`And `None`. Everything else requires custom encoding.
-</aside>
+:::
 ### JSON Performance
 
 ```python
@@ -173,7 +173,7 @@ print(pickle.HIGHEST_PROTOCOL)      # 5
 data = pickle.dumps(obj, protocol=pickle.HIGHEST_PROTOCOL)
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Code during deserialization. A malicious pickle payload can import modules, execute shell commands,
 Or access the filesystem.
 
@@ -189,8 +189,7 @@ class Malicious:
 # pickle.dumps(Malicious()) creates a payload that runs rm -rf /
 # pickle.loads(payload) would execute it
 ```
-
-</aside>
+:::
 ### cloudpickle
 
 The standard `pickle` cannot serialize lambda functions, dynamically defined classes, or objects
@@ -269,7 +268,7 @@ print(data["database"]["host"])  # localhost
 
 ### safe_load vs load
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Arbitrary Python objects, including calls to `subprocess.Popen` or `os.system`:
 
 ```yaml
@@ -278,7 +277,7 @@ Arbitrary Python objects, including calls to `subprocess.Popen` or `os.system`:
 ```
 
 `yaml.safe_load()` only parses standard YAML types: scalars, sequences, mappings.
-</aside>
+:::
 ### Custom Tags with Safe Loader
 
 ```python
@@ -379,10 +378,10 @@ name = "viewer"
 role = "readonly"
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Human-readable data, and pickle only for Python-internal serialization where security is not a
 Concern.
-</aside>
+:::
 ## CSV
 
 The `csv` module handles reading and writing CSV files.
@@ -440,7 +439,7 @@ with open("quoted.csv", "w", newline="") as f:
 # csv.QUOTE_NONE — never quote (raises error if quoting needed)
 ```
 
-<aside aria-label="Always open CSV files with `newline=""` as specified in the `csv` module documentation." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always open CSV files with `newline=""` as specified in the `csv` module documentation.</p>
+:::caution
 On Python 3, failing to do so can cause extra blank lines in the output on some platforms.
 
 ## Protocol Buffers
@@ -944,8 +943,7 @@ Serialization is translation: converting Python objects into formats that can be
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Essential Modules](./01-essential-modules): Covers the core Python modules that provide foundational functionality, including data structures used in serialization.

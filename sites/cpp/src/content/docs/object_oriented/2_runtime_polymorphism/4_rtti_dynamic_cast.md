@@ -64,11 +64,11 @@ The `type_info` object stores:
 This structure enables `dynamic_cast` to walk the base class chain and compute pointer adjustments
 At runtime.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Metadata) and may enable further optimizations. However, it also makes `dynamic_cast` and `typeid`
 Unavailable for polymorphic types. Disabling RTTI does **not** eliminate the vtable or vptr --
 Virtual dispatch still works.
-</aside>
+:::
 ## 4.2 `dynamic_cast<T*>(ptr)` -- Safe Downcast
 
 `dynamic_cast<T*>(ptr)` converts a base-class pointer to a derived-class pointer. If the cast is
@@ -192,10 +192,10 @@ Cast succeeded
 Cast failed: std::bad_cast
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Exception is the only way to signal failure. This is why `dynamic_cast` on pointers is generally
 Preferred -- it allows the caller to check for failure without exception overhead.
-</aside>
+:::
 ## 4.4 `typeid` Operator
 
 The `typeid` operator [N4950 S7.6.1.8] returns a `const std::type_info&` describing the **dynamic
@@ -251,10 +251,10 @@ Key points:
 - `std::type_index` (from `<typeindex>`) is a wrapper around `std::type_info` that provides value
   semantics and can be used as a key in associative containers.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Useful for debugging but should not be parsed or compared. Use `std::type_index` for type
 Comparisons.
-</aside>
+:::
 ## 4.5 RTTI and `dynamic_cast` for the Visitor Pattern
 
 When a traditional double-dispatch visitor is overkill, `dynamic_cast` chains can serve as a simpler
@@ -351,12 +351,12 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 For small, stable type hierarchies. However, adding a new derived type requires updating every
 `dynamic_cast` chain. The Visitor pattern localizes changes: adding a new visitor doesn't modify
 Existing types, and adding a new type doesn't modify existing visitors (it only requires extending
 The visitor interface).
-</aside>
+:::
 ## 4.6 `dynamic_cast` with Multiple and Virtual Inheritance
 
 When multiple or virtual inheritance is involved, `dynamic_cast` performs a more complex traversal

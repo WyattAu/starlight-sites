@@ -162,11 +162,11 @@ Process at any given time. The rate of photosynthesis is determined by the slowe
 - On a graph of rate vs temperature, the rate increases to an optimum then drops sharply. The drop
   is due to denaturation of RuBisCO and other Calvin cycle enzymes.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ (oxygenase activity), which does not produce
 Glucose and wastes energy. This is more significant at high temperatures and low $\mathrm{CO}_2$
 Concentrations. C4 and CAM plants have evolved mechanisms to minimise photorespiration.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -391,11 +391,11 @@ Water moves up the xylem against gravity through three contributing mechanisms:
 - The narrow diameter of xylem vessels causes water to rise by capillarity
 - This contributes minimally to water transport in tall plants but is significant in small plants
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Transport in tall trees. Root pressure alone can only push water a few metres. The cohesion-tension
 Theory is the dominant mechanism in tall plants. Root pressure is supplementary and is only
 Significant in small plants or under conditions of low transpiration.
-</aside>
+:::
 ### Phloem Structure and Function
 
 Phloem transports organic solutes (primarily sucrose) from source to sink.
@@ -756,11 +756,11 @@ Growth can be towards (positive tropism) or away from (negative tropism) the sti
 4. The upper side (lower auxin) elongates more than the lower side (higher auxin), causing the root
    to bend downwards
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Shoots versus roots. In shoots, auxin promotes elongation (high concentration side grows more). In
 Roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
 Towards light but roots bend away from it when auxin redistributes.
-</aside>
+:::
 ### Auxin and Gibberellin Interactions
 
 | Feature            | Auxin (IAA)                          | Gibberellin (GA)                                    |
@@ -1272,12 +1272,12 @@ use photoperiod to determine the appropriate time to flower.
 | Short-day plants   | Long nights (> critical period)  | Flower when the NIGHT length exceeds a critical value; require LESS than a certain number of hours of light per day  | Chrysanthemum, poinsettia, strawberry, rice |
 | Day-neutral plants | No critical photoperiod          | Flower regardless of day length; other factors (temperature, plant age) trigger flowering                            | Tomato, cucumber, maize, cotton             |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 rather than NIGHT length. The critical factor is actually the length of the DARK period. Long-day
 plants are really "short-night plants," and short-day plants are really "long-night plants." This
 was demonstrated by interrupting the dark period with a brief flash of light, which prevents
 short-day plants from flowering but promotes flowering in long-day plants.
-</aside>
+:::
 ### Phytochrome
 
 Photoperiodism is controlled by a pigment called **phytochrome**, which exists in two
@@ -1616,7 +1616,7 @@ include YYRR, YyRR, YYRr, YyRr genotypes.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Plant
@@ -2007,5 +2007,4 @@ linked above.
 - [Genetics](../3-genetics/1_genetics) -- Plant breeding and genetic modification of crops connect genetics to plant biology.
 - [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- Carbon fixation in photosynthesis and the synthesis of organic molecules in plants.
 - [Heat and Gases](../../physics/4-thermal-physics/1_heat-and-gases) -- Transpiration involves water evaporation and gas exchange, applying thermal physics concepts.
-
-</aside>
+:::

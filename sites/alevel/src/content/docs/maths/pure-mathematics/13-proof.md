@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1, 2 | Proof is integrated throughout                                |
 | CIE (9709) | P1, P2, P3 | Various methods across papers                                 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Method and execute it , with every step justified.
-</aside>
+:::
 <hr />
 
 ## 1. Proof by Deduction
@@ -188,10 +188,10 @@ To prove a statement $P(n)$ for all integers $n \geq n_0$:
 3. **Inductive step:** Using the hypothesis, prove $P(k+1)$ is true.
 4. **Conclusion:** By the principle of mathematical induction, $P(n)$ is true for all $n \geq n_0$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $P(m)$ with $m \gt n_0$ is false, then the set $\{m : P(m) \mathrm{ is false}\}$ has a least
 element, Contradicting the inductive step.
-</aside>
+:::
 ### 5.2 Sum of the first $n$ integers
 
 **Theorem.** $\displaystyle\sum_{r=1}^{n} r = \frac{n(n+1)}{2}$ for all $n \in \mathbb{N}$.
@@ -544,7 +544,7 @@ $$
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Proof with
@@ -580,8 +580,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

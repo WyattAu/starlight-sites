@@ -90,7 +90,7 @@ $$2nt\cos\theta_t = \left(m + \frac{1}{2}\right)\lambda \quad \mathrm{(one\ phas
 
 $$2nt\cos\theta_t = m\lambda \quad \mathrm{(zero\ or\ two\ phase\ shifts)}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 A reflection from Low-to-high refractive index introduces a $\pi$ shift; high-to-low does not. For a
 soap film in Air, there is one $\pi$ shift (at the top surface). For a coating on glass
 ($n_{\mathrm{coat} \lt n_{\mathrm{glass}}}$), there is also one shift. The conditions for
@@ -240,8 +240,7 @@ $\delta\lambda = \lambda/\mathcal{R} = 500/1.19 \times 10^5 = 4.20 \times 10^{-3
 ## Intuition
 
 Interference occurs when two or more coherent waves overlap and their amplitudes add, producing regions of constructive and destructive combination. The path difference between the waves determines whether peaks align with peaks (bright) or peaks align with troughs (dark). Young's double slit demonstrates that light from a single source, split and recombined, produces a fringe pattern whose spacing depends on wavelength and geometry. A Fabry-Perot etalon uses multiple reflections between parallel mirrors to create extremely narrow transmission peaks, acting like a spectral magnifying glass. The finesse quantifies how sharp these peaks are, determined by how reflective the mirrors are.
-
-</aside>
+:::
 
 ### 3.7 Common Mistakes
 

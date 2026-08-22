@@ -283,13 +283,13 @@ Firm to enter a market that would otherwise be unprofitable (e.g., cross-subsidy
 Segments). However, it raises equity concerns — poorer consumers ( more price-elastic) may Benefit
 from lower prices, while less elastic groups face higher prices.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Always reduces consumer welfare — the key is to recognise that _some_ consumers (the elastic group)
 May face lower prices. CIE (9708) requires calculation of profit under single-price vs
 Discriminatory pricing. AQA Paper 2 frequently features questions on the ethics and fairness of
 Price discrimination. OCR (A) may ask about the conditions necessary for each type of price
 Discrimination to be feasible.
-</aside>
+:::
 #### Natural Monopoly
 
 A natural monopoly exists where LRAC falls continuously over the relevant output range (strong
@@ -303,12 +303,12 @@ Examples: water supply, electricity distribution, railway networks.
 $MC \lt AC$. Regulatory options: average cost pricing ($P = AC$), price cap regulation, public
 Ownership.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 regulation Can create **X-inefficiency** — the monopoly has no incentive to minimise costs if the
 regulator allows cost-plus pricing. CIE (9708) often asks students to compare **public ownership vs
 Regulation** using efficiency criteria. OCR (A) focuses on the principal-agent problem between
 Regulator and firm (information asymmetry).
-</aside>
+:::
 **Real-world example: UK water industry.** Thames Water and other regional water companies are
 Natural monopolies covering specific geographic areas — it would be deeply inefficient to run
 Multiple pipe networks through the same streets. Ofwat regulates prices using the RPI-X formula
@@ -422,12 +422,12 @@ Destructive price war that destroys margins for all) against competition (matchi
 Prices to retain customers). This is a repeated game where the "punishment" for not matching prices
 Is loss of market share to discounters.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Differs from a one-shot game in sustaining collusion. CIE (9708) may ask students to construct a
 Payoff matrix and identify dominant strategies. OCR (A) has recently included questions on whether
 The prisoner's dilemma applies to real-world oligopolies where firms can communicate — a key
 Evaluation point.
-</aside>
+:::
 #### Kinked Demand Curve Model (Sweezy, 1939)
 
 Assumptions:
@@ -515,12 +515,12 @@ Contestable — new operators could enter any route. In practice, the incumbent 
 Advantages (depots, driver knowledge, existing contracts), and many routes remained de facto
 Monopolies. This illustrates the gap between theoretical contestability and real-world outcomes.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Contestable and competitive markets — the key distinction is that a contestable market may have only
 One firm but behaves as if competitive due to the threat of entry. AQA Paper 1 has included 25-mark
 Questions on the extent to which UK supermarket markets are contestable. OCR (A) requires
 Understanding of sunk costs as the key barrier to contestability.
-</aside>
+:::
 ## 5. Comparative Table of Market Structures
 
 | Feature                   | Perfect Competition      | Monopoly             | Monopolistic Competition  | Oligopoly                  |
@@ -537,13 +537,13 @@ Understanding of sunk costs as the key barrier to contestability.
 | **DWL**                   | None                     | Yes                  | Yes                       | Yes                        |
 | **Examples**              | Agricultural commodities | National rail, water | Restaurants, hairdressers | Supermarkets, banking, oil |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Focuses on the link between market structure and **economic efficiency**, often asking students to
 Evaluate which structure is most efficient. Edexcel (A) requires analysis of how market structures
 Affect **consumer and producer surplus**. CIE (9708) expects students to draw diagrams for each
 Structure and annotate efficiency losses. OCR (A) frequently asks about **real-world markets that
 Fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
-</aside>
+:::
 ## 6. Critical Evaluation
 
 ### Strengths of the Structure-Conduct-Performance Framework
@@ -606,17 +606,17 @@ Traditional theory of the firm assumes profit maximisation. Behavioural economic
   but matching competitors' cuts quickly (consistent with the kinked demand curve, but explained by
   psychology rather than game theory).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Debate whether firms really maximise profit — behavioural objections are high-scoring evaluation
 Points. CIE (9708) does not formally require behavioural economics but rewards students who mention
 Satisficing as an alternative objective. Edexcel includes the principal-agent problem in its
 Specification for market failure topics.
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Structure, including short-run and long-run equilibrium diagrams. AQA and Edexcel emphasise
 Evaluation of real-world examples. OCR (A) often asks about the relationship between market
 Structure and efficiency.
-</aside>
+:::
 ## 7. Problem Set
 
 **Problem 1.** A firm has total cost $TC = 100 + 20Q - 5Q^2 + Q^3/3$. Find (a) the output at which
@@ -767,7 +767,7 @@ Pricing is a rational strategy. Why might limit pricing fail in practice?
 Limit pricing is rational when: (a) the long-run gain from maintaining monopoly power (higher future profits) exceeds the short-run sacrifice (lower current profits from charging below the monopoly price), (b) the incumbent has a cost advantage or better information than the potential entrant (asymmetric information about demand or costs), (c) there are significant sunk costs for the entrant, making hit-and-run entry difficult. Limit pricing may fail because: (a) the entrant may interpret the low price as a sign of weak demand rather than a threat, (b) the incumbent cannot credibly commit to maintaining the low price if the entrant does enter (the incumbent would rationally raise prices after the entrant's sunk costs are sunk), (c) predatory pricing (limit pricing pushed below average variable cost) is illegal under UK and EU competition law. Evaluation: contestable market theory suggests that if there are no sunk costs, the mere *threat* of entry achieves the same outcome as limit pricing without the incumbent needing to actually lower its price.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Confusing MR with AR (price):** For a firm facing a downward-sloping demand curve, MR is always
   LESS than price (AR). The MR curve has twice the slope of the demand curve. The only exception is
   perfect competition, where MR = AR = P because the firm is a price taker.
@@ -1272,8 +1272,7 @@ limitations of price cap regulation when the X factor is set too generously.
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
-
-</aside>
+:::
 
 ## Cross-References
 

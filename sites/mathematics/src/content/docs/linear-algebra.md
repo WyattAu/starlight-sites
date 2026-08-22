@@ -400,9 +400,9 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
-</aside>
+:::
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
 dimension Of the subspace $W = \{p \in \mathcal{P}_3 : p(1) = p(-1) = 0\}$.
 
@@ -649,10 +649,10 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 meaningful determinant for an $m \times n$ matrix with $m \neq n$. Do not confuse
 $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
-</aside>
+:::
 ### 3.8 Worked Example: Determinant via Row Reduction (Efficient Method)
 
 **Problem.** Compute $\det(A)$ where
@@ -1153,11 +1153,11 @@ Therefore $A^{10} = 3254867 \cdot A - 6508710 \cdot I$. $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has Eigenvalue $\lambda = 1$ with algebraic
 multiplicity 2 but geometric multiplicity 1. It has only one Linearly independent eigenvector and is
 not diagonalisable.
-</aside>
+:::
 ### 5.8 Worked Example: Spectral Decomposition of a Symmetric Matrix
 
 **Problem.** Orthogonally diagonalise the symmetric matrix
@@ -1586,10 +1586,10 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the input vectors are Linearly dependent, one of the $\mathbf{u}_k$ will be the zero vector, and the
 process will fail (attempting to divide by zero in the normalisation step).
-</aside>
+:::
 ### 7.8 Worked Example: Orthogonal Projection onto a Plane
 
 **Problem.** Find the orthogonal projection of $\mathbf{v} = (3, -1, 2)$ onto the plane $W$ spanned

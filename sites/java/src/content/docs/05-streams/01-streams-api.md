@@ -354,10 +354,10 @@ List<Integer> unique = Stream.of(1, 2, 2, 3, 1, 4, 3)
 // [1, 2, 3, 4]
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 streams with expensive `equals()`/`hashCode()` implementations, this can be costly. Consider whether
 `distinct()` is necessary or whether you can eliminate duplicates at the source.
-</aside>
+:::
 ### sorted
 
 Returns a stream sorted according to natural order or a provided `Comparator`. This is a
@@ -399,12 +399,12 @@ List<String> result = Stream.of("Alice", "Bob", "Charlie")
 // Mapped: CHARLIE
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 contract, which states that intermediate operations should be free of side effects. The behavior of
 `peek()` is undefined if it modifies the stream source or interferes with the pipeline. Furthermore,
 in parallel streams, `peek()` may be called from multiple threads simultaneously, making any side
 effect unsafe without synchronization.
-</aside>
+:::
 ### limit
 
 Truncates the stream to at most `maxSize` elements. This is a **short-circuiting stateful**
@@ -448,11 +448,11 @@ List<Integer> dropped = Stream.of(1, 2, 3, 4, 5, 1, 2)
 // [4, 5, 1, 2]  -- drops 1,2,3, returns everything from 4 onward
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 elements in encounter order. For **unordered** streams (e.g., `HashSet.parallelStream()`), the
 behavior is nondeterministic -- different elements may be taken or dropped on different runs because
 the encounter order is not defined.
-</aside>
+:::
 ## Terminal Operations
 
 Terminal operations trigger the processing of the entire pipeline and produce a result or a side
@@ -513,11 +513,11 @@ String concatenated = Stream.of("a", "b", "c")
 // "abc"
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `(a op b) op c == a op (b op c)`. If it is not associative, the result will be incorrect in parallel
 streams, because partial results may be combined in any order. The identity value must also satisfy
 `identity op x == x` for all x.
-</aside>
+:::
 ### count
 
 Returns the number of elements in the stream.
@@ -581,12 +581,12 @@ Optional<String> any = names.parallelStream()
 // Optional[?] -- any matching element, not guaranteed to be first
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 streams, `findAny()` may return a different element than `findFirst()` because it can return any
 element that the parallel worker encounters first, without the synchronization overhead of
 maintaining encounter order. Use `findAny()` when you do not care about which element is returned --
 it is faster in parallel streams because it avoids ordering constraints.
-</aside>
+:::
 ### toArray
 
 Converts the stream elements into an array.
@@ -657,10 +657,10 @@ LinkedHashMap<String, Integer> ordered = people.stream()
     ));
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 function is provided. This is a common source of runtime exceptions. Always provide a merge function
 if duplicate keys are possible, or use `groupingBy` when multiple values per key are expected.
-</aside>
+:::
 ### joining
 
 Concatenates stream elements into a single `String`.
@@ -731,11 +731,11 @@ Map<Boolean, Long> counts = names.stream()
 // {false=1, true=3}
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (true/false). Use `groupingBy` when the classifier produces more than two categories or is not a
 boolean predicate. `partitioningBy` always creates both map entries (true and false), even if one
 group is empty. `groupingBy` only creates entries for groups that have at least one element.
-</aside>
+:::
 ### counting / summingInt / averagingInt
 
 Reduction collectors for numeric aggregates.
@@ -867,7 +867,7 @@ int sum = largeList.parallelStream()
 
 ### Pitfalls of Parallel Streams
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 **1. Thread safety of lambdas.** Lambda expressions used in parallel stream operations must be
 thread-safe. Mutable shared state will cause data races.
 
@@ -971,9 +971,8 @@ String result2 = opt.orElseGet(() -> "default");
 String result3 = opt.orElseThrow();  // throws NoSuchElementException
 String result4 = opt.orElseThrow(() -> new IllegalArgumentException("not found"));
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 always evaluates `defaultValue`Even if the `Optional` is present. `orElseGet(supplier)` only invokes
 the supplier when the `Optional` is empty.
 
@@ -984,8 +983,7 @@ String result = opt.orElse(computeExpensiveDefault());
 // CORRECT: computeExpensiveDefault() is only called when opt is empty
 String result = opt.orElseGet(() -> computeExpensiveDefault());
 ```
-
-</aside>
+:::
 ### Transforming Values
 
 ```java
@@ -1021,7 +1019,7 @@ if (opt.isPresent()) {
 opt.ifPresent(value -> System.out.println("Value: " + value));
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (`if (x != null) { x.foo() }`) and negates the purpose of `Optional`. Prefer
 `ifPresent()``map()``flatMap()``filter()`Or the `orElse*` family.
 
@@ -1168,5 +1166,4 @@ Streams are pipelines that describe computations over data without modifying the
 - [Collections Framework](../04-collections/01-collections-framework) -- creating streams from collections
 - [Concurrency](../06-concurrency/01-concurrency) -- parallel streams and ForkJoinPool
 - [Classes and Inheritance](../03-object-oriented/01-classes) -- functional interfaces and lambdas
-
-</aside>
+:::

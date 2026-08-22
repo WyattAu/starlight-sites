@@ -482,7 +482,7 @@ Uses three metric groups:
 | 7.0-8.9     | High     | Address within 7-30 days                   |
 | 9.0-10.0    | Critical | Address immediately (within 24-72 hours)   |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
 Into prioritization.
@@ -822,9 +822,8 @@ Security controls.
 Physical access trumps almost all technical controls. An attacker with physical access to a server
 Can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Architecture), ISO/IEC 27001 (Information Security Management), OWASP Testing Guide v4, MITRE ATT&CK
 Framework, CISA Known Exploited Vulnerabilities Catalog, ISO/IEC 27005 (Risk Management).
 
@@ -848,8 +847,7 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

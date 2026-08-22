@@ -164,9 +164,9 @@ public:
 };
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 interfacing With recursive code structures that you cannot refactor.
-</aside>
+:::
 ## `std::timed_mutex`
 
 `std::timed_mutex` [N4950 §31.4.3.3.3] extends `std::mutex` with two additional methods:
@@ -506,11 +506,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 In turn. If any lock attempt fails, it unlocks all previously acquired mutexes and retries. This
 Guarantees that all threads acquire the set of mutexes in the same order, preventing circular wait
 [N4950 §31.4.4.2.2].
-</aside>
+:::
 ## Reader-Writer Lock for a Thread-Safe Cache
 
 ```cpp
@@ -618,10 +618,10 @@ The double-check pattern is essential: between releasing the shared lock and acq
 Lock, another thread may have already inserted the key. Without the second check, `try_emplace`
 Would silently discard the existing value.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Locking. Prefer `std::shared_lock` for read-only access and `std::unique_lock` for write access. On
 POSIX systems, this maps to `pthread_rwlock_t`.
-</aside>
+:::
 ## Intuition
 
 **A mutex is like a bathroom key:** Only one person can hold the key at a time, and only the person holding the key can use the bathroom. If someone else wants to use it, they must wait until the key is returned. A deadlock is when two people each hold one key and refuse to release it until they get the other — neither can proceed. The `std::scoped_lock` is like a rule that says "always pick up both keys at once, or neither" — it prevents the circular wait that causes deadlocks.

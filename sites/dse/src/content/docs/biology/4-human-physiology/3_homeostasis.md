@@ -78,7 +78,7 @@ is completed.
 | Blood clotting           | When a vessel is damaged, clotting factors are activated in a cascade; each step activates more factors, amplifying the response until a clot forms.                                                                                                                                                                   |
 | Childbirth (parturition) | The baby"s head pushes against the cervix, stimulating stretch receptors. Impulses cause the posterior pituitary to release oxytocin, which causes stronger uterine contractions. Stronger contractions push the baby further against the cervix, stimulating more oxytocin release. This cycle continues until birth. |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 requires knowledge of positive feedback examples (ovulation and childbirth are the most commonly
 tested). Remember: negative feedback maintains homeostasis; positive feedback amplifies change and
 does NOT maintain a constant internal environment.
@@ -1275,8 +1275,7 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

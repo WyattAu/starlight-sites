@@ -213,7 +213,7 @@ Synthesis algorithm avoids this issue.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 dependency (3NF violation). A Partial dependency involves a **proper subset** of a candidate key
 determining a non-prime attribute. A transitive dependency involves a non-key attribute determining
 another non-prime attribute.
@@ -274,8 +274,7 @@ $\mathrm{Course}$ is not a superkey. Violates 4NF.
 Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 
 </details>
-
-</aside>
+:::
 
 ## Intuition
 

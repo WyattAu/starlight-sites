@@ -228,10 +228,10 @@ However, the gig economy also reduces monopsony power in some respects: lower ba
 Increase labour supply elasticity, and platforms enable workers to switch between employers more
 than in traditional company-town settings.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 examined the Gig economy in the context of labour market flexibility. Edexcel often links the gig
 economy to Wider debates about competition and regulation.
-</aside>
+:::
 ### 4.7 Evaluation of Monopsony Theory
 
 The monopsony model provides a powerful corrective to the competitive assumption that workers are
@@ -334,10 +334,10 @@ The net effect of trade unions on economic welfare is ambiguous and context-depe
   disrupt supply chains).
 - In competitive labour markets, wage increases above equilibrium unambiguously reduce employment.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 marks. Edexcel (Theme 3) links trade unions to broader debates about government intervention. OCR
 may ask about the Impact of declining union membership on wage inequality.
-</aside>
+:::
 ## 6. Minimum Wage
 
 ### 6.1 Competitive Market Model
@@ -363,11 +363,11 @@ $w_{min} > w_m = MCL(L_m) = MRP_L(L_m)$). $\blacksquare$
 The optimal minimum wage under monopsony is $w_c$ (the competitive wage), which achieves the
 Competitive outcome: $L = L_c$, $w = w_c$.
 
-<aside aria-label="Common Pitfall The statement "minimum wages always cause unemployment" is only true in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The statement "minimum wages always cause unemployment" is only true in</p>
+:::caution
 Perfectly competitive labour markets. Under monopsony (e.g., large employers in small towns, certain
 Professional sports leagues), a minimum wage can increase employment. Always state the market
 Structure.
-</aside>
+:::
 ### 6.3 Real-World Evidence on Minimum Wages
 
 The empirical debate over minimum wages has been one of the most contested in labour economics:
@@ -413,11 +413,11 @@ Same pay).
 5. **Discrimination**: Taste-based and statistical discrimination (see Section 8) continue to play a
    role, though their magnitude is debated.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Pay gap (an average difference across the economy) and equal pay (a legal requirement for identical
 Work). OCR (A) may link the gender pay gap to human capital theory and occupational segregation. CIE
 Has examined the effectiveness of government policies to reduce the gender pay gap.
-</aside>
+:::
 ### 6.5 Evaluation of Minimum Wage Policy
 
 Minimum wage policy involves trade-offs that must be carefully evaluated:
@@ -515,12 +515,12 @@ Significant limitations:
   not all graduate-level jobs require degree-level skills. This creates **underemployment** where
   graduates work in non-graduate roles, and their human capital is underutilised.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Improving labour market outcomes. AQA may ask students to evaluate whether increasing university
 Participation is always economically beneficial. CIE (9708) links human capital to economic growth
 In macro contexts. OCR often examines the limitations of human capital theory in explaining
 Persistent wage inequalities.
-</aside>
+:::
 ## 8. Labour Market Discrimination
 
 ### 8.1 Definition
@@ -584,12 +584,12 @@ In the UK, the ONS estimates that approximately two-thirds of the gender pay gap
 Occupational segregation and working patterns, while roughly one-third remains "unexplained" and may
 Reflect discrimination.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Unexplained portions of the gender pay gap. AQA expects evaluation of government policies such as
 The UK Gender Pay Gap Reporting Regulations (2017). Edexcel often links discrimination to government
 Intervention policies. OCR may examine whether legislation alone is sufficient to eliminate
 Discrimination.
-</aside>
+:::
 ## 9. Critical Evaluation
 
 ### Strengths of the Neoclassical Labour Market Model
@@ -610,11 +610,11 @@ Discrimination.
   inequality
 - Non-wage factors (job satisfaction, work-life balance) are important but hard to quantify
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Debate. Edexcel covers human capital and migration effects on labour markets. CIE (9708) often asks
 About wage determination in different market structures. OCR (A) emphasises labour market
 Flexibility and government intervention.
-</aside>
+:::
 ## 10. Problem Set
 
 **Problem 1.** A firm operates in a perfectly competitive product market with $P = £10$ and has a
@@ -786,7 +786,7 @@ High minimum wages through sectoral bargaining with strong unions) supports this
 Approach.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Assuming minimum wages always cause unemployment:** This is only true in perfectly competitive
   labour markets. Under monopsony (a single dominant employer), a minimum wage set between the
   monopsony wage and the competitive wage can INCREASE employment. Always state the market structure
@@ -1379,5 +1379,4 @@ each approach.
 - [Macroeconomic Policy Debates](../macro/07-macroeconomic-policy-debates) -- Keynesian and monetarist views on unemployment policy directly relate to labour market theory.
 - [Supply-Side Policy](../macro/05-supply-side-policy) -- Labour market reforms are a central supply-side policy for reducing structural unemployment.
 - [Market Failure and Government Intervention](03-market-failure) -- Minimum wages and trade unions represent government intervention in labour markets to address monopsony power.
-
-</aside>
+:::

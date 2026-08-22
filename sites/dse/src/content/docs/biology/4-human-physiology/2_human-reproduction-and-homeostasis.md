@@ -257,11 +257,11 @@ Uterus, controlled by four hormones.
 - The LH surge is a self-amplifying cycle: more LH causes more oestrogen release, which causes more
   LH release, until ovulation occurs and the follicle is ruptured (breaking the feedback loop)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Concentrations, oestrogen inhibits the pituitary (negative feedback). At high concentrations
 Sustained for approximately 36 hours, oestrogen stimulates the pituitary (positive feedback),
 Causing the LH surge. The DSE frequently tests this distinction.
-</aside>
+:::
 ### Worked Example: Hormone Levels at Day 20
 
 A blood test shows the following hormone levels in a 28-day menstrual cycle:
@@ -389,13 +389,13 @@ Tissues. It is the interface for exchange of substances between maternal and foe
   umbilical vein (carries oxygenated blood from the placenta to the foetus)
 - Wrapped in Wharton's jelly (connective tissue that protects the blood vessels from compression)
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Foetus to the placenta) and the umbilical VEIN carries oxygenated blood (from the placenta to the
 Foetus). This is the OPPOSITE of the naming convention in the systemic circulation, where arteries
 Carry oxygenated blood. The naming is based on direction of flow relative to the heart: arteries
 Carry blood away from the heart, veins carry blood towards it. The umbilical arteries carry blood
 Away from the foetal heart.
-</aside>
+:::
 **Worked Example**
 
 A pregnant woman's blood glucose is consistently elevated at 200 mg/100 cm cubed due to uncontrolled
@@ -473,10 +473,10 @@ Normal range.
 
 The term "negative" refers to the fact that the response opposes (negates) the original stimulus.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Point is a target value, and the actual value fluctuates within narrow limits around it. In DSE exam
 Answers, write "maintained within narrow limits" rather than "kept exactly constant."
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -652,12 +652,12 @@ Concentration must be tightly regulated because:
 | Glycogenolysis  | Conversion of glycogen to glucose-6-phosphate (then to free glucose in the liver)      | Liver, muscles | Glucagon, adrenaline |
 | Gluconeogenesis | Synthesis of glucose from non-carbohydrate precursors (amino acids, lactate, glycerol) | Liver only     | Glucagon             |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Liver can release free glucose into the blood. Muscle glycogenolysis produces glucose-6-phosphate,
 Which is used directly by the muscle for respiration. Muscle lacks the enzyme glucose-6-phosphatase,
 Which is required to convert glucose-6-phosphate to free glucose. The DSE often tests this
 Distinction.
-</aside>
+:::
 **Worked Example**
 
 A student runs a 400-metre sprint. During the race, her blood glucose initially rises slightly, then
@@ -1687,7 +1687,7 @@ implantation:
 PGD allows parents who are carriers of genetic disorders to have children without passing on the
 condition, without the ethical dilemma of terminating an affected pregnancy.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 The contains
 the hardest questions within the DSE specification for this topic, each with a full worked solution.
 
@@ -1953,5 +1953,4 @@ linked above.
 - [Genetics](../3-genetics/1_genetics) -- Reproduction involves meiosis and inheritance, linking reproductive biology to genetic principles.
 - [Plant Biology](../5-plant-biology/1_plant-biology) -- Plant reproduction and tropisms parallel animal reproductive and homeostatic mechanisms.
 - [Money and Banking](../../economics/8-money-and-banking/1_money-and-banking) -- Population growth and demographic change affect economic demand and labour markets.
-
-</aside>
+:::

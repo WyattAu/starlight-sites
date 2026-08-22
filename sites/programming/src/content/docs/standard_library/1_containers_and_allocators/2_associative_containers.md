@@ -128,10 +128,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 To insert only if the key is absent, avoiding unnecessary construction of the value [N4950
 §22.4.4.4].
-</aside>
+:::
 ```cpp
 #include <map>
 #include <string>
@@ -395,10 +395,10 @@ int main() {
 | Range queries         | Supported (lower_bound, upper_bound) | Not supported                     |
 | Iterator invalidation | Only on erase                        | On rehash                         |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Hash to the same bucket). If adversarial inputs are a concern, consider hash functions resistant to
 Collision attacks, or use `std::map` for guaranteed $O(\log n)$ worst-case.
-</aside>
+:::
 ### `std::map` Heterogeneous Lookup (C++14)
 
 By default, `std::map::find``std::map::count`And `std::map::lower_bound` accept `const Key&` and

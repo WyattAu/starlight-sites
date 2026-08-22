@@ -73,7 +73,7 @@ $$
 D\vec{F} = I\, d\vec{l} \times \vec{B}
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example: Force on a semicircular wire</strong>
 A semicircular wire of radius $R$ carries current $I$ in a uniform magnetic field $\vec{B}$ directed
 Into the page. The straight ends of the wire are along the diameter.
@@ -192,9 +192,8 @@ B = \frac{\mu_0 N I}{2\pi r}
 $$
 
 Valid for $a < r < b$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Thick conductor with non-uniform current density</strong>
 A long cylindrical conductor of radius $R$ carries current $I$ with current density $J(r) = J_0 r/R$
 for $0 \le r \le R$. Find $B$ inside and outside.
@@ -261,9 +260,8 @@ equivalent To an electric field $E = vB$ along the bar. The EMF is:
 $$
 \mathcal{E} = \int_0^L E\, dl = \int_0^L vB\, dl = BLv
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Rotating loop in a magnetic field</strong>
 A rectangular loop of area $A$ with $N$ turns rotates with angular velocity $\omega$ in a uniform
 Magnetic field $B$. The flux through the loop is:
@@ -279,9 +277,8 @@ $$
 $$
 
 Where $\mathcal{E}_0 = NBA\omega$ is the peak EMF. This is the principle behind AC generators.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Induced EMF in a changing field</strong>
 A circular loop of radius $r = 0.1$ m is in a region where the magnetic field increases as
 $B(t) = (0.5 + 0.2t)$ T. The loop has resistance $R = 2\,\Omega$. Find the induced current.
@@ -413,9 +410,8 @@ The charge and current oscillate $90°$ out of phase. Energy oscillates between 
 $$
 U_{\text{total} = \frac{Q_0^2}{2C} = \frac{1}{2}LI_0^2
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: LC circuit energy analysis</strong>
 An LC circuit has $L = 10$ mH and $C = 100\,\mu\text{F$. The capacitor is initially charged to
 $Q_0 = 50\,\mu\text{C$. Find (a) the oscillation frequency, (b) the maximum current, and (c) the
@@ -461,9 +457,8 @@ produces a Magnetic field, even in the absence of a physical current.
 $$
 I_d = \epsilon_0 \frac{d\Phi_E}{dt}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Displacement current in a charging capacitor</strong>
 A parallel plate capacitor with plate area $A$ and separation $d$ is being charged by a current $I$.
 Find the magnetic field at distance $r$ from the axis between the plates ($r < R_{\text{plate}$).
@@ -723,8 +718,7 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

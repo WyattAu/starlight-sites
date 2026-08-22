@@ -84,12 +84,12 @@ The **central bank** (Bank of England, ECB, Federal Reserve) performs:
 
 5. **Issuer of currency**: has the monopoly on note issuance
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Monetary Policy Committee (MPC): 9 members, meets 8 times per year, sets the Bank Rate to achieve
 The 2% CPI inflation target. CIE (9708) focuses more on the _functions_ of central banks Rather than
 a specific institution. OCR expects you to distinguish between the central bank's roles In monetary
 stability and financial stability, and to evaluate whether these roles can conflict.
-</aside>
+:::
 **Real-world example — the Bank of England during COVID-19 (2020):** In March 2020, the BoE cut Bank
 Rate from 0.75% to 0.1% (an emergency 0.65 percentage point cut) and launched a GBP 200 billion QE
 Programme. Simultaneously, it introduced the COVID Corporate Financing Facility (CCFF) to buy
@@ -117,10 +117,10 @@ Money serves three functions: medium of exchange, store of value, unit of accoun
 | **M2**                 | Cash + retail bank deposits (current accounts, instant-access savings)                     |
 | **M4 (broad money)**   | Cash + all retail and wholesale bank deposits + certificates of deposit                    |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 M2, M4. Edexcel emphasises M0 and M4. AQA focuses on broad vs narrow money. Always use the
 Definitions in your specification.
-</aside>
+:::
 ### 2.2 Money Creation: The Money Multiplier
 
 **Fractional reserve banking**: banks are required (or choose) to hold only a fraction of deposits
@@ -177,12 +177,12 @@ Central bank sets the price of reserves (the interest rate) rather than the quan
 The endogenous money view. However, for exam purposes, the money multiplier remains the standard
 Model on most A Level specifications.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Has recently moved towards acknowledging endogenous money but still primarily examines the
 Multiplier approach. OCR tends to focus on the practical implications (why QE did not cause
 Hyperinflation) rather than the theoretical debate. When answering, use the multiplier model but
 Acknowledge its limitations for evaluation marks.
-</aside>
+:::
 **Credit creation process (step-by-step balance sheets):**
 
 Bank A receives £1,000 deposit. With $rr = 0.1$:
@@ -251,12 +251,12 @@ Need to cut rates to combat an impending downturn. The 2020 COVID recession foll
 Causality is debated (the curve may have anticipated COVID-related disruptions). In the UK, the
 Yield curve also inverted briefly in 2019, signalling expectations of BoE rate cuts.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 As a predictor. Edexcel may link the yield curve to business investment decisions (firms use
 Long-term rates to evaluate projects). OCR emphasises the expectations theory and liquidity
 Preference theory of the term structure. CIE generally does not examine the yield curve in depth but
 May ask about the relationship between bond prices and interest rates.
-</aside>
+:::
 ## 4. Monetary Policy
 
 ### 4.1 The Transmission Mechanism
@@ -312,13 +312,13 @@ Understanding of each pathway:
    particularly relevant for small and medium-sized enterprises (SMEs) that depend on bank lending
    and cannot access capital markets directly.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Diagrams. Edexcel requires a clear chain of reasoning from the interest rate change to the final
 Impact on AD, inflation, and employment. OCR is particularly interested in the _limitations_ of
 Monetary policy transmission — time lags, interest elasticity, and the liquidity trap. CIE expects a
 More formal diagrammatic analysis using the IS-LM framework (though not all centres teach IS-LM, so
 Check with your teacher).
-</aside>
+:::
 **Evaluation — how effective is monetary policy?**
 
 - **Time lags:** Monetary policy operates with long and variable time lags. The BoE estimates that a
@@ -392,13 +392,13 @@ Money supply, CPI inflation remained below the 2% target until mid-2021, when su
 Disruptions and energy price shocks drove inflation higher. This illustrates that QE alone does not
 Cause high inflation — the broader macroeconomic context matters.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Frequently includes questions on unconventional monetary policy. Key evaluation points: QE is less
 Effective when banks are unwilling to lend (liquidity trap), the impact on the real economy is
 Uncertain and hard to measure, and the exit strategy (quantitative tightening) is politically and
 Economically risky. OCR may also ask about the interaction between QE and fiscal policy (monetary
 Financing).
-</aside>
+:::
 ## 5. Financial Markets
 
 ### 5.1 Bonds
@@ -502,17 +502,17 @@ Financial institutions ("too big to fail") has not been fully resolved. The fail
 In 2023 was resolved through a government-brokered takeover by UBS, reinforcing the perception that
 Large banks will always be rescued.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Mechanism_ (how the policy affects the economy) and the _effectiveness_ (how well it works in
 Practice). Consider time lags, the interest elasticity of investment, and the shape of the liquidity
 Preference curve.
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 identify the issue, (2) explain the mechanism with a diagram, (3) evaluate using **however/on the
 other hand/significantly** to introduce counterarguments, (4) conclude with a Justified judgement.
 Always consider short-run vs long-run effects and the context (e.g., the state Of the economy at the
 time).
-</aside>
+:::
 ## 7. Problem Set
 
 **Problem 1.** If the reserve ratio is 8% and the central bank injects £500 million of new reserves
@@ -659,7 +659,7 @@ Purchase to achieve its target.
 The effective multiplier accounts for excess reserves and cash leakages. Let $rr = 0.05$ (required), $re = 0.03$ (excess), and $c = 0.10$ (cash ratio). Total reserves held per unit of deposits $= rr + re = 0.08$. Each round, only $(1 - c)$ of loans are redeposited. The money multiplier becomes: $m = \frac{1 + c}{rr + re + c} = \frac{1.10}{0.08 + 0.10} = \frac{1.10}{0.18} \approx 6.11$. (a) The effective multiplier is approximately 6.11 (compared to the simple multiplier of $1/0.05 = 20$). (b) Required reserve injection $= \mathrm{target increase} / m = 200 / 6.11 \approx$ GBP 32.7 billion. The central bank must purchase approximately GBP 32.7 billion of bonds. This is much larger than under the simple model (which would suggest only GBP 10 billion needed), illustrating the importance of accounting for cash leakages and excess reserves.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Confusing bond prices and bond yields:** Bond prices and interest rates (yields) move in
   OPPOSITE directions. When interest rates rise, existing bonds with lower coupon rates become less
   attractive, so their price falls. Many students get this relationship backwards.
@@ -1208,5 +1208,4 @@ each approach.
 - [Fiscal Policy](04-fiscal-policy) explains how government borrowing, taxation, and spending interact with financial markets and interest rates.
 - [Aggregate Demand and Supply](02-aggregate-demand-and-supply) shows how changes in the money supply and interest rates shift AD through the monetary policy transmission mechanism.
 - [Market Failure](../microeconomics/03-market-failure) provides the theoretical framework for understanding information asymmetry, adverse selection, and moral hazard in banking.
-
-</aside>
+:::

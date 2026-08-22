@@ -356,7 +356,7 @@ where
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Record), retrying may create duplicates. Design your operations to be idempotent before adding retry
 Logic. Use idempotency keys for non-idempotent operations.
 
@@ -1007,8 +1007,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

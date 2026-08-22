@@ -290,7 +290,7 @@ In both cases, the amortised cost is $O(1)$.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 a per-operation worst-case bound. A single operation can still be expensive (e.g., a resize in a
 dynamic array costs $O(n)$). Amortised bounds are meaningful only when the sequence length is not
 bounded by a constant.
@@ -302,8 +302,7 @@ bounded by a constant.
 **Applying the Master Theorem to non-divide-and-conquer recurrences.** The Master Theorem applies only to recurrences of the form $T(n) = aT(n/b) + f(n)$. Recurrences like $T(n) = T(n-1) + n$ (from iterative algorithms) or $T(n) = T(n/2) + T(n/3) + n$ (uneven splits) require different techniques such as the recursion tree method or Akra-Bazzi.
 
 **Misunderstanding amortised analysis.** Amortised cost is an average over a sequence of operations, not a guarantee for any single operation. A single operation in an amortised $O(1)$ sequence can still cost $O(n)$. Amortised bounds are meaningful only when you care about the total cost of many operations, not individual latency.
-
-</aside>
+:::
 
 ## Cross-References
 

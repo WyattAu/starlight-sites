@@ -76,7 +76,7 @@ Key elements:
 | Array           | `INTEGER[]``TEXT[]`                  | PostgreSQL-specific extension                                                   |
 | Network         | `INET``CIDR``MACADDR`                | PostgreSQL-specific; enforces valid IP/MAC formats                              |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
 And back to the session timezone on retrieval.
 
@@ -101,9 +101,8 @@ ALTER TABLE employees ADD CONSTRAINT chk_hire_date CHECK (hire_date >= "2000-01-
 DROP CONSTRAINT:
 ALTER TABLE employees DROP CONSTRAINT chk_salary_range;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 To the table for the duration of the operation. On large tables, adding a column with a default
 Value or changing a column type can take hours. Use `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL`
 (which is metadata-only in PostgreSQL 11+) or pg_partman for zero-downtime migrations.
@@ -177,9 +176,8 @@ SET salary = (
 )
 WHERE e.emp_id = 42;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Same `WHERE` clause first to verify which rows will be affected. Consider wrapping destructive
 Updates in a transaction with a `SAVEPOINT` so you can roll back if the results are wrong.
 
@@ -274,9 +272,8 @@ WHERE email IS NOT NULL
 Logical operators:
 WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `WHERE column = NULL` never matches any rows. Use `IS NULL` and `IS NOT NULL`. Similarly,
 `NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
 is the single greatest source of SQL bugs.
@@ -305,9 +302,8 @@ WHERE order_id > 1000   -- last seen ID from previous page
 ORDER BY order_id
 LIMIT 20;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Offsets (e.g., `OFFSET 100000`), this is slow because the database still processes 100,000 rows. Use
 Keyset pagination (also called seek pagination) instead:
 `WHERE id &gt; last_seen_id ORDER BY id LIMIT 20`.
@@ -420,9 +416,8 @@ WHERE e.salary > (
     WHERE e2.department_id = e.department_id
 );
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Tables, this is $O(n)$ subquery executions. Rewrite as a join or a window function when possible:
 
 ```sql
@@ -472,9 +467,8 @@ WHERE department_id NOT IN (SELECT dept_id FROM departments);
 -- WARNING: if any dept_id is NULL, NOT IN returns no rows at all!
 -- Use NOT EXISTS instead when NULLs are possible.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Evaluates to `x != 1 AND x != 2 AND x != NULL`And `x != NULL` is `NULL` (not `TRUE`). Always use
 `NOT EXISTS` instead of `NOT IN` when the subquery might return NULL values.
 
@@ -530,9 +524,8 @@ AVG(column)       -- arithmetic mean of non-NULL numeric values
 MIN(column)       -- minimum non-NULL value
 MAX(column)       -- maximum non-NULL value
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
 NULL means "unknown," not "zero."
 
@@ -666,9 +659,8 @@ SELECT emp_id, department_id, hire_date,
     ) AS latest_hire
 FROM employees;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
 All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
@@ -743,9 +735,8 @@ graph TD
     M1 --> E2["Eve (81)<br/>depth: 3"]
     M2 --> E3["Frank (90)<br/>depth: 3"]
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Or the process runs out of memory). Always include a depth counter or a visited set. MySQL limits
 Recursion depth to 100 by default (`cte_max_recursion_depth`). PostgreSQL has no recursion depth
 Limit, so an unbounded recursive CTE will run until it OOMs.
@@ -812,9 +803,8 @@ SELECT * FROM employees
 WHERE commission_rate IS DISTINCT FROM 0;
 -- Returns rows where commission_rate is NULL or different from 0
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Division-by-zero errors: `ratio = a / NULLIF(b, 0)` returns NULL instead of raising an error when
 `b` is zero.
 
@@ -869,22 +859,6 @@ Query plan caching. Always use parameterised queries (prepared statements) in ap
 "SELECT * FROM users WHERE email = $1", [user_input]
 ```
 
-## Summary
-
-This topic covers the essential chemistry of sql fundamentals, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -895,5 +869,4 @@ linked above.
 - [Normalization](../01-relational-theory/normalization) - How normal forms shape table design and influence SQL query structure
 - [Indexing](../03-indexing-optimization/indexing) - How indexes improve the performance of SQL queries on large datasets
 - [Relational Theory](../01-relational-theory/relational-theory) - The formal foundations underlying SQL's set-based operations
-
-</aside>
+:::

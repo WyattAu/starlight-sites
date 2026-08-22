@@ -164,7 +164,7 @@ www.example.com.    300    IN    CNAME    example.com.
 cdn.example.com.    300    IN    CNAME    cdn.cloudflare.com.
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `www.example.com`) because the apex also needs SOA and NS records. DNS providers solve this with
 ALIAS or ANAME records (proprietary), or by using CNAME Flattening (Cloudflare).
 
@@ -322,9 +322,8 @@ Querying the authoritative server again.
 When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists but no records of the
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
 Non-existent names from hammering authoritative servers.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 SOA minimum to 86400 (1 day) and delete a subdomain, resolvers will cache the `NXDOMAIN` for up to 1
 Day. Reduce the SOA minimum TTL before making changes, then increase it after propagation.
 
@@ -526,9 +525,8 @@ systemctl status systemd-resolved
 resolvectl status
 resolvectl query example.com
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 You configure DNS manually in `/etc/resolv.conf`Your changes may be overwritten. To use custom DNS
 Servers, configure them via `systemd-resolved` or NetworkManager.
 
@@ -841,8 +839,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

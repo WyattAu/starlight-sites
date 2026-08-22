@@ -151,13 +151,13 @@ static_assert(!Numeric<std::string>, "string must not be numeric");
 Zero overhead on the generated binary. The concept is "compiled away" after constraint checking
 Succeeds or fails.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `concept` are both compile-time boolean predicates, but a concept participates in **partial
 Ordering** (subsumption) during overload resolution, while a `constexpr bool` variable template does
 Not. Concepts are also required to be `true` for all substitutions --- a concept that is `false` for
 Some argument is well-formed, whereas a `static_assert(false)` in the concept body would be
 Ill-formed.
-</aside>
+:::
 ## Requires-Expressions
 
 A **requires-expression** is the primary building block for expressing constraints on types [N4950
@@ -360,12 +360,12 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Participate in subsumption ordering**. A concept `!C` does not subsume or is not subsumed by `C` ---
 They are incomparable. This means `!C` cannot be used to establish a partial ordering between
 Overloads, which limits its usefulness in overload resolution. Prefer using a positive constraint on
 An alternative overload instead of negating a constraint.
-</aside>
+:::
 ## Standard Library Concepts Overview
 
 The C++20 standard library provides a comprehensive set of concepts in the `<concepts>` header
@@ -583,7 +583,7 @@ mean(3, 7) = 10.0
 mean(3.0, 7.0) = 10.0
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Necessary) and **specific** (exclude types that would cause undefined behavior). Avoid overly broad
 Concepts like `requires(T t) { t + t; }` --- this would accept `std::string` (which supports `+` for
 Concatenation) even if the algorithm is intended for arithmetic. Use the standard library concepts
@@ -931,5 +931,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

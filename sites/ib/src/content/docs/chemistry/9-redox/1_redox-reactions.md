@@ -510,12 +510,11 @@ Anion and water compete for oxidation at the anode.
 
 **At the cathode (from water):** $2\mathrm{H}_2\mathrm{O} + 2e^- \to \mathrm{H}_2 + 2\mathrm{OH}^-$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Exam Tip The rules above are simplified. In reality, the product at an electrode depends</strong>
 On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
 The rules as stated.
-
-</aside>
+:::
 ### Faraday"s Laws
 
 **Faraday's First Law:** The amount of substance produced at an electrode is directly proportional
@@ -677,7 +676,7 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 | **Alloying**                                | Adding Cr and/or Ni to Fe to make stainless steel | Chromium forms a passive oxide layer that protects the surface                                                        |
 | **Electrochemical protection**              | Applying a negative voltage to the iron structure | Makes the iron the cathode, preventing its oxidation                                                                  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Exam Tip The key distinction: **galvanising** (Zn coating) provides both barrier and</strong>
 Sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
@@ -692,7 +691,7 @@ Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe be
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
 }
 </script>
-</aside>
+:::
 ## Fuel Cells
 
 A fuel cell converts the chemical energy of a fuel ( H$_2$) directly into electrical energy. Unlike

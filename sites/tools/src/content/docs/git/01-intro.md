@@ -33,7 +33,7 @@ Proprietary license for BitKeeper was revoked. The design constraints of the Lin
 (millions of lines of code, thousands of contributors, high concurrency of merges) fundamentally
 Shaped Git"s architecture.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
 
 ## Design Philosophy
@@ -107,9 +107,8 @@ Contributors on dial-up connections needed to work efficiently.
 | Performance at scale | Excellent (Linux kernel, Chromium) | Good (Facebook used it)       | Degrades with large trees | Excellent with Helix Core |
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
 | Binary file handling | Poor (use Git LFS)                 | Poor (use Largefiles)         | Good                      | Good                      |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 [Git LFS](https://git-lfs.github.com/) or [Git Annex](https://git-annex.branchable.com/). Vanilla
 Git is optimized for text files.
 
@@ -240,8 +239,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

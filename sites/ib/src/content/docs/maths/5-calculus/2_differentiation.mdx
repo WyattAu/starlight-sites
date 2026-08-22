@@ -31,7 +31,7 @@ $$
 \lim_\{x \to a\} f(x) = L \iff \lim_\{x \to a^-\} f(x) = \lim_\{x \to a^+\} f(x) = L
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{|x|}{x}$.
 
@@ -63,9 +63,8 @@ $$
 $$
 
 Then $\displaystyle\lim_{x \to a} f(x) = L$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Show that $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
@@ -83,9 +82,8 @@ A function $f$ is **continuous** at $x = a$ if all three conditions hold:
 1. $f(a)$ is defined
 2. $\displaystyle\lim_{x \to a} f(x)$ exists
 3. $\displaystyle\lim_{x \to a} f(x) = f(a)$
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 When asked whether a piecewise function is continuous at a boundary point, always check that the
 Left-hand limit, right-hand limit, and function value all agree.
@@ -115,9 +113,8 @@ $$
 
 If $f$ is differentiable at $x = a$Then $f$ is continuous at $x = a$. The converse is not true: a
 Function can be continuous but not differentiable (e.g., $f(x) = |x|$ at $x = 0$).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Differentiate $f(x) = x^2$ from first principles.
 
@@ -171,9 +168,8 @@ If $u = f(x)$ and $v = g(x)$Then:
 $$
 \frac\{d\}`\{dx}`[uv] = u\frac`\{dv}``\{dx}` + v\frac`\{du}``\{dx}`
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Differentiate $f(x) = x^3 \sin x$.
 
@@ -186,15 +182,13 @@ $$
 $$
 \frac\{d\}`\{dx}`\left[\frac\{u\}\{v\}\right] = \frac\{v\frac`\{du}``\{dx}` - u\frac`\{dv}``\{dx}`\}\{v^2\}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 A useful mnemonic for the quotient rule: "low d-high minus high d-low, over the square of what\'s
 Below."
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Differentiate $\displaystyle f(x) = \frac{x^2 + 1}{x - 3}$.
 
@@ -221,9 +215,8 @@ Or in Leibniz notation, if $y = f(u)$ and $u = g(x)$:
 $$
 \frac`\{dy}``\{dx}` = \frac`\{dy}``\{du}` \cdot \frac`\{du}``\{dx}`
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Differentiate $f(x) = (3x^2 + 1)^5$.
 
@@ -232,9 +225,8 @@ Let $u = 3x^2 + 1$So $y = u^5$.
 $$
 \frac`\{dy}``\{dx}` = 5u^4 \cdot 6x = 30x(3x^2+1)^4
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Differentiate $\displaystyle f(x) = \sin(2x^2 + 1)$.
 
@@ -264,9 +256,8 @@ $$
 | $\arcsin x$ | $\dfrac{1}{\sqrt{1-x^2}}$  |
 | $\arccos x$ | $\dfrac{-1}{\sqrt{1-x^2}}$ |
 | $\arctan x$ | $\dfrac{1}{1+x^2}$         |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 The IB formula booklet provides the derivatives of $\sin x$$\cos x$$\tan x$$e^x$And $\ln x$.
 Memorise the derivatives of the reciprocal trig functions and inverse trig functions as they may not
@@ -286,9 +277,8 @@ When differentiating a term involving $y$ with respect to $x$Use the chain rule:
 $$
 \frac\{d\}`\{dx}`[y^n] = ny^\{n-1\}\frac`\{dy}``\{dx}`
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\dfrac{dy}{dx}$ for $x^2 + y^2 = 25$.
 
@@ -303,9 +293,8 @@ $$
 $$
 
 At the point $(3, 4)$: $\dfrac{dy}{dx} = -\dfrac{3}{4}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\dfrac{dy}{dx}$ for $x^3 + y^3 = 6xy$.
 
@@ -329,9 +318,8 @@ $$
 
 To find $\dfrac{d^2y}{dx^2}$Differentiate $\dfrac{dy}{dx}$ again, remembering that $\dfrac{dy}{dx}$
 is an expression in both $x$ and $y$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\dfrac{d^2y}{dx^2}$ for $x^2 + y^2 = 25$.
 
@@ -361,9 +349,8 @@ When two or more quantities are related by an equation, their rates of change ar
 2. Write an equation relating the quantities.
 3. Differentiate both sides with respect to time ($t$).
 4. Substitute known values and solve for the unknown rate.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A spherical balloon is being inflated at a rate of $10\mathrm{ cm}^3\mathrm{/s}$. Find the rate at
 Which the radius is increasing when the radius is $5\mathrm{ cm}$.
@@ -385,9 +372,8 @@ $$
 $$
 \frac`\{dr}``\{dt}` = \frac\{10\}\{100\pi\} = \frac\{1\}\{10\pi\} \approx 0.0318 \mathrm\{ cm/s\}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A ladder $10\mathrm{ m}$ long rests against a vertical wall. The bottom slides away from the wall at
 $1\mathrm{ m/s}$. How fast is the top sliding down when the bottom is $6\mathrm{ m}$ from the wall?
@@ -421,9 +407,8 @@ $$
 $$
 F'''(x) = \frac\{d^3y\}\{dx^3\} = \frac\{d\}`\{dx}`\left(\frac\{d^2y\}\{dx^2\}\right)
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $f''(x)$ for $f(x) = x^4 - 3x^3 + 2x - 7$.
 
@@ -457,9 +442,8 @@ $f'(a) \neq 0$):
 $$
 Y - f(a) = -\frac\{1\}\{f'(a)\}(x - a)
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the equation of the tangent and normal to $y = x^3 - 3x + 2$ at $x = 1$.
 
@@ -484,15 +468,13 @@ A **stationary point** occurs where $f'(x) = 0$. There are three types:
 | Local maximum       | $f'$ changes from $+$ to $-$ | $f''(x) \lt 0$                    |
 | Local minimum       | $f'$ changes from $-$ to $+$ | $f''(x) \gt 0$                    |
 | Point of inflection | $f'$ does not change sign    | $f''(x) = 0$ (inconclusive alone) |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 When $f''(x) = 0$ at a stationary point, the second derivative test is inconclusive. You must use
 The first derivative test or check the sign of $f'$ on either side.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find and classify the stationary points of $f(x) = x^3 - 6x^2 + 9x + 1$.
 
@@ -521,15 +503,13 @@ Determine stationary points and concavity.
 - $f$ is **concave up** on an interval if $f''(x) \gt 0$ (the graph curves upward).
 - $f$ is **concave down** on an interval if $f''(x) \lt 0$ (the graph curves downward).
 - A **point of inflection** occurs where the concavity changes, i.e., $f''(x)$ changes sign.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 Not every point where $f''(x) = 0$ is a point of inflection. The concavity must actually change.
 Always verify by checking the sign of $f''(x)$ on either side.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the points of inflection of $f(x) = x^4 - 4x^3$.
 
@@ -567,9 +547,8 @@ Constraints.
 3. Differentiate and set the derivative equal to zero.
 4. Verify that the critical point gives a maximum or minimum.
 5. Answer the question in context.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A piece of wire $100\mathrm{ cm}$ long is bent to form a rectangle. Find the dimensions that
 Maximise the area.
@@ -588,9 +567,8 @@ $$
 
 So $x = 25\mathrm{ cm}$$y = 25\mathrm{ cm}$. The rectangle is a square with area
 $625\mathrm{ cm}^2$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 An open-top cylindrical can is to hold $500\mathrm{ cm}^3$ of liquid. Find the dimensions that
 Minimise the surface area.
@@ -629,9 +607,8 @@ $$
 $$
 
 Provided the limit on the right exists.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Evaluate $\displaystyle\lim_{x \to 0}\frac{e^x - 1 - x}{x^2}$.
 
@@ -848,9 +825,8 @@ The denominator $x^2 + 1 \neq 0$ for all real $x$So there are no vertical asympt
 | Decreasing             | $f'(x) \lt 0$                                               |
 | Local max              | $f'(a) = 0$$f''(a) \lt 0$                                   |
 | Local min              | $f'(a) = 0$$f''(a) \gt 0$                                   |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Exam Strategy</strong>
 For Paper 2 differentiation questions, always show your working . State which rule you are Using
 (product, quotient, chain) and lay out the substitution. Examiners award method marks for Correct
@@ -858,11 +834,10 @@ application of rules even if arithmetic errors occur later.
 
 For the A-Level treatment of this topic, see
 [Differentiation](https://alevel.wyattau.com/docs/maths/pure-mathematics/differentiation).
-
-</aside>
+:::
 ---
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 <strong>Diagnostic Test Ready to test your understanding of **Differentiation**? The contains the hardest questions</strong>
 
 within the IB specification for this topic, each with a full worked solution.
@@ -906,8 +881,7 @@ Differentiation asks a deceptively simple question: how fast is something changi
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

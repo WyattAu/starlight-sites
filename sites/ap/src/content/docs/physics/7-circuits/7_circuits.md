@@ -135,7 +135,7 @@ This is conservation of energy.
 - Crossing an EMF from the negative to the positive terminal: $\Delta V = +\mathcal{E}$
 - Crossing an EMF from the positive to the negative terminal: $\Delta V = -\mathcal{E}$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example: Multi-loop circuit</strong>
 A circuit has two batteries and three resistors. Battery 1 has $\mathcal{E}_1 = 12$ V with internal
 Resistance $r_1 = 1\,\Omega$. Battery 2 has $\mathcal{E}_2 = 6$ V with internal resistance
@@ -271,9 +271,8 @@ in The resistor, regardless of $R$.
 - After five time constants ($t = 5\tau$): $99.3\%$ charged (effectively fully charged).
 
 During discharge, the capacitor retains $36.8\%$ of its charge after one time constant.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: RC circuit with numerical values</strong>
 A $5\,\mu\text{F$ capacitor is connected in series with a $200\,\text{k\Omega$ resistor and a $12$ V
 Battery. Find (a) the time constant, (b) the charge after 1 s, (c) the current after 1 s, and (d)
@@ -287,9 +286,8 @@ $Q(1) = C\mathcal{E}(1 - e^{-1}) = (5 \times 10^{-6})(12)(1 - 0.368) = 60 \times
 (c) $I(1) = \frac{\mathcal{E}}{R}e^{-1} = \frac{12}{200000} \times 0.368 = 22.1\,\mu\text{A$
 
 (d) $0.95 = 1 - e^{-t}$So $e^{-t} = 0.05$, $t = -\ln(0.05) = 3.0\,\text{s = 3\tau$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Discharging through two parallel resistors</strong>
 A $10\,\mu\text{F$ capacitor charged to $50\,\mu\text{C$ discharges through
 $R_1 = 100\,\text{k\Omega$ And $R_2 = 300\,\text{k\Omega$ in parallel. Find the current through
@@ -475,8 +473,7 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

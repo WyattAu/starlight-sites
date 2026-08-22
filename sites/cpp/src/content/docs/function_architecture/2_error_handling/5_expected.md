@@ -488,9 +488,9 @@ int main() {
 //   caught: construction failed
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Error codes cannot be returned from a constructor.
-</aside>
+:::
 ### The "Destructor Must Never Throw" Rule
 
 If a destructor throws during stack unwinding (i.e., while another exception is already in flight),
@@ -585,10 +585,10 @@ int main() {
 //   caught: other error
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Make the destructor `noexcept` and ensure cleanup operations are themselves `noexcept`. Use RAII
 Wrappers that handle errors internally rather than propagating them from destructors.
-</aside>
+:::
 ### Summary
 
 | Mechanism       | C++ Version | Error Richness    | Overhead (no error) | Composability            |

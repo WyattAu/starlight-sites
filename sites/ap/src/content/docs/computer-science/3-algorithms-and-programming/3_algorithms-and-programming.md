@@ -259,7 +259,7 @@ For all $n \ge n_0$.
 
 **Rule 3:** Drop constants and lower-order terms. $O(3n^2 + 5n + 100) = O(n^2)$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example 1</strong>
 ```java
 for (int i = 0; i < n; i++) {
@@ -270,9 +270,8 @@ for (int i = 0; i < n; i++) {
 ```
 
 Total: $O(n) \times O(n) = O(n^2)$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example 2</strong>
 ```java
 for (int i = 0; i < n; i++) {
@@ -885,8 +884,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Computational Thinking](../1-computational-thinking/1_computational-thinking) -- Algorithm design applies the decomposition and pattern recognition principles of computational thinking.

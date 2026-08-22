@@ -122,9 +122,9 @@ $$
 
 Therefore $T = k\sqrt{l/g}$. Full analysis reveals $k = 2\pi$.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Habit of verifying dimensions for every formula you derive in an exam.
-</aside>
+:::
 ## 3. SI Prefixes
 
 | Prefix | Symbol | Factor     |
@@ -177,9 +177,9 @@ $$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
   resolution or environmental factors. It affects precision but not accuracy. Random errors are
   reduced by taking repeated measurements.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Repeatable; an accurate measurement is close to the true value. You can have one without the other.
-</aside>
+:::
 ### Absolute, Fractional, and Percentage Uncertainty
 
 **Definition.** If a quantity is measured as $x \pm \Delta x$Then:
@@ -271,9 +271,9 @@ And the uncertainty should be quoted to at most 2 significant figures.
 (matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm — the
 Trailing zero implies precision we do not have.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what examiners expect.
-</aside>
+:::
 ## 6. Determining Uncertainty from Repeated Measurements
 
 When $n$ repeated measurements $x_1, x_2, \ldots, x_n$ are taken of the same quantity:
@@ -483,10 +483,10 @@ Interpreting measurements correctly.
 | Amount of substance | mole (mol)    | Defined by fixing the Avogadro constant $N_A = 6.022\,140\,76 \times 10^{23}$ mol$^{-1}$ |
 | Luminous intensity  | candela (cd)  | Defined by fixing the luminous efficacy $K_{cd} = 683$ lm W$^{-1}$                       |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The values of $c$$h$$e$$k_B$$N_A$And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
 unit values are derived from them.
-</aside>
+:::
 ## 9. Dimensional Analysis: Extended Worked Examples
 
 ### 9.1 Checking Formula Validity
@@ -782,7 +782,7 @@ S$^{-2}$), so the result is consistent with the accepted value. $\square$
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Quantities
@@ -790,7 +790,7 @@ and Units with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</aside>
+:::
 ## Summary
 
 This topic covers the fundamental principles of quantities and units, including the key equations,

@@ -88,7 +88,7 @@ class DynamicArray:
         return value
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 More conservative than the textbook factor of 2, trading slightly more frequent reallocations for
 Lower peak memory usage. C++ `std::vector` uses factor 2.
 
@@ -267,9 +267,8 @@ def longest_substring_without_repeats(s):
         max_length = max(max_length, right - left + 1)
     return max_length
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
 And removed from the window at most once.
 
@@ -456,9 +455,8 @@ def murmurhash3_mix(key: int) -> int:
     key ^= key >> 33
     return key
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Randomisation by default via `PYTHONHASHSEED`). This is a security measure against HashDoS attacks.
 For persistent hashing (e.g., on-disk hash tables), use `hashlib` or a deterministic hash function.
 
@@ -906,8 +904,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

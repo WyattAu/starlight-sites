@@ -181,7 +181,7 @@ Future<void> parallelNamed() async {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 For dependent operations where the result of one is needed by the next.
 
 ## Streams
@@ -344,9 +344,8 @@ Flutter provides `compute()` for running functions in isolates:
 // Flutter-only
 final result = await compute(expensiveFunction, inputData);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership
 Instead of copying.
 
@@ -380,9 +379,8 @@ void main() {
   // 4: event
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Event from the event queue is processed. This is why `Future.then` callbacks (which schedule
 Microtasks) run before `Future.delayed` callbacks (which schedule events).
 
@@ -477,5 +475,4 @@ linked above.
 - **[Entry Point](../03-basics/01-entrypoint.md):** How the event loop initializes from `main()`.
 - **[Variables](../03-basics/02-variables.md):** Nullable and late variables in asynchronous code.
 - **[Best Practices](../04-best-practices.md):** Recommended patterns for async/await and isolate usage.
-
-</aside>
+:::

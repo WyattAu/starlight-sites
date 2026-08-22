@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1, 2 | Includes critical regions                |
 | CIE (9709) | P1, P6     | Basic hypothesis testing in P6           |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Statistic, critical value/region, comparison, and conclusion in context.
-</aside>
+:::
 <hr />
 
 ## 1. Hypotheses
@@ -51,10 +51,10 @@ Statistic, critical value/region, comparison, and conclusion in context.
 The choice depends on the research question. Use a one-tailed test only when you have a specific
 Directional prediction **before** seeing the data.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Direction) is a form of $p$-hacking and is statistically invalid. The tail direction must be decided
 Before the experiment.
-</aside>
+:::
 <hr />
 
 ## 2. Critical Values and Significance Levels
@@ -186,10 +186,10 @@ Test statistic: $z = \dfrac{\hat{p} - p_0}{\sqrt{p_0(1-p_0)/n}}$.
 
 ## 7. Interpreting Results
 
-<aside aria-label=""Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>"Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the</p>
+:::caution
 Data does not provide sufficient evidence against $H_0$. The test may lack power (sample too small,
 Effect too weak).
-</aside>
+:::
 <hr />
 
 ## 8. One-Tailed vs Two-Tailed Tests in Depth
@@ -235,10 +235,10 @@ This means the two-tailed test has a **higher bar** for each individual tail.
 An observed $z = 1.80$ is significant for the one-tailed test ($1.80 \gt 1.645$) but not for the
 Two-tailed test ($|1.80| \lt 1.960$).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Test at the same $\alpha$Because the significance "budget" is split between two tails. A Two-tailed
 test at $\alpha = 0.05$ corresponds roughly to two one-tailed tests each at $\alpha = 0.025$.
-</aside>
+:::
 ### 8.3 Effect on power
 
 For the same $\alpha$A one-tailed test has **greater power** than a two-tailed test against an
@@ -308,10 +308,10 @@ With a specified level of confidence.
 $(L, U)$ constructed from sample data such that, in repeated sampling, $100(1 - \alpha)\%$ of such
 Intervals would contain the true value of $\theta$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 In the interval. The parameter $\theta$ is fixed; it either is or is not in the interval. The 95%
 Refers to the long-run proportion of intervals (across many repeated samples) that capture $\theta$.
-</aside>
+:::
 ### 10.2 95% confidence interval for a population proportion
 
 For large $n$ where $n\hat{p} \gt 5$ and $n(1 - \hat{p}) \gt 5$The sample proportion $\hat{p}$ Is
@@ -377,15 +377,14 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 
 ### 11.4 Common misinterpretations
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - The $p$-value is **not** the probability that the observed result occurred by chance.
 - A large $p$-value does **not** prove $H_0$ is true; it only means the data is consistent with
   $H_0$.
 - Statistical significance does **not** imply practical or scientific importance.
 - The $p$-value depends on sample size: with a very large sample, even small effects can produce
   tiny $p$-values.
-
-</aside>
+:::
 ### 11.5 Worked example
 
 **Example.** A factory produces components with mean length 50 mm. A sample of 40 components gives
@@ -772,7 +771,7 @@ Section 3.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Hypothesis
@@ -811,5 +810,4 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

@@ -131,10 +131,10 @@ Negate: "The function $f$ is continuous and differentiable."
 Let $C$: "$f$ is continuous." Let $D$: "$f$ is differentiable." The statement is $C \wedge D$. Its
 Negation is $\neg C \vee \neg D$I.e., "$f$ is either not continuous or not differentiable."
 
-<aside aria-label="A common mistake is to negate "P and Q" as "not P and not Q." That is wrong. The negation of" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A common mistake is to negate "P and Q" as "not P and not Q." That is wrong. The negation of</p>
+:::note
 "$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable" — that
 Is too strong.
-</aside>
+:::
 ### 1.5 The Contrapositive
 
 For any implication $P \implies Q$The **contrapositive** is $\neg Q \implies \neg P$.
@@ -218,9 +218,9 @@ $$\neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon
 The existential becomes universal and the universal becomes existential. This is the logical
 Backbone of epsilon-delta definitions in analysis.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 same sequence but With each quantifier flipped.
-</aside>
+:::
 <details>
 <summary>Worked Example: Negate $\forall n \in \mathbb{Z}^+, \; \exists p \mathrm{ prime}, \; p \gt n$</summary>
 
@@ -308,9 +308,9 @@ that is always false, like $1 = 0$ or $0 \lt 0$).
 This method is especially powerful when the statement you want to prove is a negation itself ("there
 Does not exist..." or "there are no...").
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Middle ($P \vee \neg P$ must be true).
-</aside>
+:::
 **Worked Example — $\sqrt{2}$ is irrational:**
 
 Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$ where $a, b \in \mathbb{Z}^+$
@@ -331,9 +331,9 @@ But now both $a$ and $b$ are even, contradicting $\gcd(a, b) = 1$.
 
 Therefore our assumption is false, and $\sqrt{2}$ is irrational.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $a^2$ is Even, $a$ cannot be odd, so $a$ is even.
-</aside>
+:::
 <details>
 <summary>Exercise: Prove that $\sqrt{3}$ is irrational.</summary>
 
@@ -374,10 +374,10 @@ $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$
 This is odd. Therefore, if $n$ is odd, $n^2$ is odd. By contrapositive, if $n^2$ is even, then $n$
 Is even.
 
-<aside aria-label="Tip "$n^2$ even implies $n$ even" by contradiction (assume $n^2$ even and $n$ odd, derive" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip "$n^2$ even implies $n$ even" by contradiction (assume $n^2$ even and $n$ odd, derive</p>
+:::tip
 that $n^2$ is Both even and odd). But the contrapositive .../1-number-and-algebra/3_proof-and-logic
 is cleaner — it is a direct .../1-number-and-algebra/3_proof-and-logic of the equivalent Statement.
-</aside>
+:::
 <details>
 <summary>Exercise: Prove that if $3n + 2$ is odd, then $n$ is odd (by contrapositive).</summary>
 
@@ -501,10 +501,10 @@ Not just $P(k)$.
 **When to use strong induction:** When proving $P(k+1)$ requires not just $P(k)$ but some earlier
 Case $P(j)$ where $j \lt k$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 By the other. But strong induction can make certain .../1-number-and-algebra/3_proof-and-logics much
 more natural. Use it when the Inductive step needs to reference cases earlier than just $k$.
-</aside>
+:::
 **Worked Example — Every integer $n \ge 2$ is a product of primes:**
 
 Let $P(n)$: "$n$ is a product of primes (possibly a single prime)."
@@ -578,9 +578,9 @@ Counterexample: $2$ is prime and $2$ is even.
 
 When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$Which is composite ($41 \times 41$).
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 disprove it requires only one Counterexample. This asymmetry is fundamental to mathematical logic.
-</aside>
+:::
 <details>
 <summary>Exercise: Disprove: "For all positive integers $a$ and $b$$\gcd(a+b, a-b) = \gcd(a, b)$."</summary>
 
@@ -658,10 +658,10 @@ So $p_i \nmid N$ for all $i$. This contradicts that some $p_i$ divides $N$.
 
 Therefore, there are infinitely many primes. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 .../1-number-and-algebra/3_proof-and-logic only Requires that $N$ has SOME prime factor not in the
 list.
-</aside>
+:::
 ### 3.3 $\log_2{3}$ is Irrational
 
 **Theorem:** $\log_2{3}$ is irrational.
@@ -757,10 +757,10 @@ $ax + by = (dm)x + (dn)y = d(mx + ny)$.
 
 Since $mx + ny \in \mathbb{Z}$$d \mid (ax + by)$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Called a **linear combination** of $a$ and $b$. The greatest common divisor $\gcd(a, b)$ can always
 Be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
-</aside>
+:::
 ### 3.6 Inequality Proofs
 
 **AM-GM Inequality (two variables):** For $a, b \ge 0$:
@@ -878,10 +878,10 @@ $ac = (b + kn)(d + ln) = bd + bln + dkn + kln^2 = bd + n(bl + dk + kln)$.
 
 Therefore $n \mid (ac - bd)$So $ac \equiv bd \pmod{n}$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 conclude $a \equiv b \pmod{n}$ if $\gcd(c, n) = 1$. For example, $6 \equiv 0 \pmod{3}$ and
 $3 \equiv 0 \pmod{3}$But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
-</aside>
+:::
 <details>
 <summary>Worked Example: Find the last two digits of $7^{100}$.</summary>
 
@@ -1085,10 +1085,10 @@ The conclusion ($\sqrt{2}$ is irrational) appears in the hypothesis. This proves
 only on axioms, definitions, and Previously established theorems — never on the statement you are
 proving.
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Look convincing. Always verify that your .../1-number-and-algebra/3_proof-and-logic does not contain
 the conclusion as an unstated Assumption.
-</aside>
+:::
 ### 5.2 Assuming the Conclusion
 
 Related to circular reasoning, this occurs when you "work backwards" from the conclusion without
@@ -1127,9 +1127,9 @@ Fails.)
 Incorrect negation: "If it rains, the ground does not get wet." (This is a different implication
 Entirely.)
 
-<aside aria-label="This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies</p>
+:::caution
 $Q$" is "$P$ AND not $Q$."
-</aside>
+:::
 ### 5.4 Induction Base Case Errors
 
 **The pitfall:** Skipping the base case or proving the wrong base case.
@@ -1184,10 +1184,10 @@ $P(k-1)$ or earlier, weak induction's hypothesis is insufficient.
 This is unnecessary and makes .../1-number-and-algebra/3_proof-and-logics harder to read. Use weak
 induction unless the structure Of the problem requires strong induction.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 $n! = n \cdot (n-1)!$), use weak induction. If on earlier terms (like $F_n = F_{n-1} + F_{n-2}$),
 use strong induction.
-</aside>
+:::
 ### 5.6 Confusing Converse with Contrapositive
 
 | Original                    | $P \implies Q$           |
@@ -1220,11 +1220,11 @@ Showing $P$ is false does NOT disprove the implication.
 | $\forall x, \; \exists y, \; P(x,y)$ | $\exists x, \; \forall y, \; \neg P(x,y)$ |
 | $\exists x, \; \forall y, \; P(x,y)$ | $\forall x, \; \exists y, \; \neg P(x,y)$ |
 
-<aside aria-label="The order of quantifiers matters. "For every person, there exists a mother" is very" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>The order of quantifiers matters. "For every person, there exists a mother" is very</p>
+:::danger
 Different from "There exists a person who is the mother of everyone." The negation of "for every x
 There exists y" is "there exists x such that for every y" — quantifiers flip but their order is
 Preserved.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1311,7 +1311,7 @@ Transitivity of divisibility, $n \mid (a-b)$. Therefore $a \equiv b \pmod{n}$.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 <strong>Diagnostic Test</strong>
 :::tip Diagnostic Test Ready to test your understanding of **Proof and Logic**? The
 contains the hardest questions within the IB specification for this topic, each with a full worked
@@ -1322,7 +1322,7 @@ Logic with other IB mathematics topics to test synthesis under exam conditions.
 
 See for instructions on self-marking
 and building a personal test matrix.
-</aside>
+:::
 
 ## Worked Examples
 

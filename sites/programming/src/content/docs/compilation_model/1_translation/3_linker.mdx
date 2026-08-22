@@ -45,7 +45,7 @@ As the linker scans inputs (objects and libraries) from **left to right** on the
 - If a match is found, that specific member object is extracted and added to **E**.
 - If no match is found, the member object is ignored entirely.
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 <strong>The Archive Order Trap Because static libraries are searched only to resolve _currently</strong>
 
 Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` must appear **before**
@@ -53,8 +53,7 @@ Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` mus
 
 - Correct: `clang++ main.o -lA -lB`
 - Incorrect: `clang++ main.o -lB -lA` (Linker fails: Symbols in A are undefined).
-
-</aside>
+:::
 ### Weak vs. Strong vs. Common Symbols
 
 The linker classifies symbols into three categories that determine how duplicates are handled:
@@ -297,12 +296,12 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
 endif()
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>ICF can break programs that compare function pointers for identity. If `f()` and `g()`</strong>
 
 Are folded into the same address, `&f == &g` becomes `true` even though they are distinct functions.
 This is rare but possible. Use `-Wl,--icf=safe` to fold only functions with identical relocations.
-</aside>
+:::
 ## 4. Static vs. Shared Libraries
 
 ### Static Libraries (`.a` / `.lib`)
@@ -742,7 +741,7 @@ The linker rewrites every call to `malloc` to call `__wrap_malloc` instead. The 
 Symbol is provided by the original library and can be called from within the wrapper. This mechanism
 Does not require modifying the original source code.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>`--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by</strong>
 
 The compiler, the wrapper will not intercept the inlined call. Use `-fno-inline` on the wrapping TU
@@ -779,5 +778,4 @@ The linker is the post office of compilation: it takes separately compiled objec
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

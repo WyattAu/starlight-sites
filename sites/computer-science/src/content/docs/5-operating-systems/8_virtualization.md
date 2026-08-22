@@ -131,11 +131,10 @@ hardware support, the shadow page table overhead is eliminated. $\blacksquare$
 - **Desktop virtualisation:** VirtualBox and VMware Workstation enable running multiple OSes on a
   single desktop for software development, testing compatibility across platforms.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 vulnerability can potentially Compromise all containers on a host. For strong multi-tenant
 isolation, VMs are preferred.
-
-</aside>
+:::
 ### 8.9 Worked Example: Comparing Virtualisation Overheads
 
 **Problem.** A host runs 20 web server instances. Each instance uses 256 MB RAM and 0.5 CPU cores

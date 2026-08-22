@@ -27,7 +27,7 @@ $$
 [\mathrm{H}^+] = 2 \times [\mathrm{acid}]
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 $0.050\mathrm{ M}$ $\mathrm{H}_2\mathrm{SO}_4$ (assuming complete first dissociation and significant
 Second dissociation):
@@ -74,9 +74,8 @@ $$
 $$
 X^2 + K_a x - K_a c_0 = 0
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate the $\mathrm{pH}$ of $0.010\mathrm{ M}$ ethanoic acid ($K_a = 1.8 \times 10^{-5}$).
 
@@ -146,9 +145,8 @@ Buffer capacity is maximised when $[\mathrm{HA}] = [\mathrm{A}^-]$I.e., when
 $\mathrm{pH} = \mathrm{p}K_a$. A buffer is effective within $\pm 1$ unit of its $\mathrm{p}K_a$.
 
 ### Preparing a Buffer
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Prepare an ethanoic acid/sodium ethanoate buffer with $\mathrm{pH} = 5.00$. Given
 $\mathrm{p}K_a = 4.76$.
@@ -188,9 +186,8 @@ $$
 $$
 [\mathrm{A}^-]_{\mathrm{new}} = [\mathrm{A}^-]_{\mathrm{old}} + [\mathrm{OH}^-]_{\mathrm{added}}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A buffer contains $0.10\mathrm{ M}$ $\mathrm{CH}_3\mathrm{COOH}$ and $0.10\mathrm{ M}$
 $\mathrm{CH}_3\mathrm{COO}^-$ ($\mathrm{pH} = 4.76$). Add $0.01\mathrm{ mol}$ of $\mathrm{HCl}$ to
@@ -377,9 +374,8 @@ $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is tempe
 | $\mathrm{Mg(OH)}_2$ | $1.8 \times 10^{-11}$ |
 
 ### Solubility Calculations
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate the solubility of $\mathrm{AgCl}$ in $\mathrm{g/L}$.
 
@@ -402,9 +398,8 @@ $$
 ### Common Ion Effect
 
 Adding a common ion **decreases** the solubility of a sparingly soluble salt.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Calculate the solubility of $\mathrm{AgCl}$ in $0.10\mathrm{ M}$ $\mathrm{NaCl}$.
 
@@ -925,8 +920,7 @@ underlying theories, and practical applications.
 
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
-
-</aside>
+:::
 
 ## Cross-References
 

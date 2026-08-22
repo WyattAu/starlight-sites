@@ -109,7 +109,7 @@ Likely with the buffer pool, 4 cache lookups.
 - If the parent underflows, recurse upward
 - If the root has one child and is an internal node, the child becomes the new root
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Reused by future inserts, but the pages themselves are not returned to the OS until `VACUUM FULL` or
 `pg_repack`. This is why B-tree indexes can become bloated after heavy UPDATE/DELETE workloads.
 
@@ -229,9 +229,8 @@ CREATE INDEX idx_orders_unshipped ON orders (customer_id, created_at)
 CREATE INDEX idx_transactions_large ON transactions (account_id, created_at)
     WHERE amount >= 10000;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Filter on a condition (e.g., `status = 'active'`), a partial index can be 10-100x smaller than a
 Full index while providing the same query performance. The key insight: **do not index data your
 Queries never look for.**
@@ -597,9 +596,8 @@ Pool modes:
 | `session`     | Server connection held for the entire client session                                          |
 | `transaction` | Server connection held only for the duration of a transaction (recommended)                   |
 | `statement`   | Server connection returned to pool after each statement (limited, breaks prepared statements) |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Client connections to share a small pool of server connections ( 25-100). The caveat: Prepared
 statements that are scoped to a server connection may not work as expected, because a Subsequent
 transaction might use a different server connection.
@@ -690,9 +688,8 @@ REFRESH MATERIALIZED VIEW daily_revenue;
 -- Refresh without blocking reads (PostgreSQL 9.4+):
 REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
 But does not block concurrent reads.
 
@@ -764,9 +761,8 @@ EXECUTE get_orders_by_customer(42, 'completed');
 -- Deallocate when done:
 DEALLOCATE get_orders_by_customer;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 The generic plan does not use the specific parameter values for planning, which can lead to
 Suboptimal plans if the parameter values significantly affect selectivity (e.g., a status column
 Where 'pending' has 5 rows and 'completed' has 5 million rows). Monitor with `pg_stat_statements`
@@ -891,22 +887,6 @@ FROM pg_stat_user_tables
 ORDER BY pg_total_relation_size(relid) DESC;
 ```
 
-## Summary
-
-This topic covers the essential chemistry of indexing and optimization, including key reactions,
-underlying theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [Query Optimization](query-optimization) - How the cost-based optimizer selects between different index strategies
@@ -918,5 +898,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

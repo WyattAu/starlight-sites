@@ -39,7 +39,7 @@ Android devices can be use for running builds by enabling `USB debugging` from
 Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
 Appear.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Debugging and disconnect the device. Then reconnect the device and check remember device when
 Verifying.
 
@@ -377,8 +377,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

@@ -137,10 +137,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Perfect forwarding pattern (`Args&&... args` with `std::forward<Args>(args)...`) is one of the most
 Important idioms in modern C++ template programming.
-</aside>
+:::
 ## Variadic Class Templates
 
 Parameter packs are not limited to function templates. A **variadic class template** accepts a pack

@@ -162,11 +162,11 @@ Even Fibonacci numbers under 4,000,000:
 Sum: 4613732
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `std::views::filter``std::views::transform`Etc. However, be aware that range adaptors are eager On
 the iteration step — each `++it` call on the adapted view will advance the underlying generator By
 one element.
-</aside>
+:::
 ## See Also
 
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
@@ -426,10 +426,10 @@ int main() {
 | Memory usage (per element) | $\mathcal{O}(1)$ — no accumulation               |
 | Cache behavior             | Poor if frame is large and accessed infrequently |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with
 Allocator support to allow custom allocation strategies.
-</aside>
+:::
 ## Practical Example: State Machine Generator
 
 ```cpp

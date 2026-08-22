@@ -94,10 +94,10 @@ void transfer_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Takes a `unique_ptr` by value, the caller **must** explicitly transfer ownership with `std::move`.
 This makes the ownership transfer visible at the call site.
-</aside>
+:::
 ## 2.4 Custom Deleters
 
 `std::unique_ptr<T, D>` accepts a second template parameter: the **deleter type** `D`. The deleter
@@ -163,9 +163,9 @@ void array_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Built-in types). If you need non-zero initialization, use `std::vector` or construct manually.
-</aside>
+:::
 ## 2.6 `unique_ptr` with Polymorphism
 
 `unique_ptr` is the canonical way to manage polymorphic objects. The deleter calls `delete` on the
@@ -224,10 +224,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Points to a derived object is undefined behavior [N4950 §11.7.3]. The derived destructor does not
 Run, leaking resources. Always use `virtual ~Base() = default;` in polymorphic base classes.
-</aside>
+:::
 ## 2.7 `unique_ptr` as a Class Member
 
 `unique_ptr` as a class member simplifies resource management and eliminates the need for manual
@@ -360,10 +360,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Iterator invalidation on push_back amortized, only on reallocation). This makes it safe to hold raw
 Pointers to elements as long as no insertion triggers a reallocation.
-</aside>
+:::
 ## 2.9 `unique_ptr` and Incomplete Types (Pimpl Idiom)
 
 `unique_ptr` can hold a pointer to an **incomplete type** in a header file, as long as the deleter
@@ -448,11 +448,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Compiler generates the destructor body at each call site. The `delete impl_` call requires `Impl` to
 Be complete. This causes a compilation error. Always declare `~Widget();` in the header and define
 It (as `= default` or manually) in the `.cpp` file.
-</aside>
+:::
 ## 2.10 `sizeof(unique_ptr)` Comparison Across Types
 
 The size of `unique_ptr` depends on the deleter type. With the default deleter (stateless, zero-size
@@ -588,10 +588,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `unique_ptr` to null. The caller assumes responsibility for cleanup. Use `release()` only when you
 Are transferring ownership to another mechanism (e.g., a C API that takes ownership).
-</aside>
+:::
 ## Intuition
 
 **Exclusive ownership:** std::unique_ptr is like a deed to a house — only one person can own it at a time, and when they leave, the house is demolished.

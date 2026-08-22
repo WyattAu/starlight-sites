@@ -124,10 +124,10 @@ source = ["src/mylib"]
 branch = true
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Scattered across `setup.py``setup.cfg`And `setup.cfg`/`pyproject.toml`. The new standard
 Consolidates everything into one file.
-</aside>
+:::
 ## setup.py Legacy vs pyproject.toml
 
 ### Legacy setup.py
@@ -173,10 +173,10 @@ myapp = "myapp.cli:main"
 where = ["src"]
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
 Most projects do not need it.
-</aside>
+:::
 ## setuptools
 
 ### setup.cfg (Complementary)
@@ -313,10 +313,10 @@ requests==2.31.0 \
     --hash=sha256:942c5a758f98d790eaed1a29cb6eefc7cb0f27a2e5e71b6ed7d0e640c265d3a5
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Installed package matches exactly what you tested. Without hashes, a compromised PyPI mirror could
 Serve malicious packages.
-</aside>
+:::
 ## Virtual Environments
 
 ### venv
@@ -363,10 +363,10 @@ conda env export > environment.yml
 conda env create -f environment.yml
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `--system-site-packages` or faster creation. Use `conda` when you need non-Python dependencies
 (e.g., CUDA, MKL).
-</aside>
+:::
 ## Dependency Management
 
 ### pip
@@ -484,11 +484,11 @@ mylib/
     └── test_core.py
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The project root, Python may import the local package instead of the installed one. The `src` layout
 Forces you to install the package before testing, catching missing dependencies and incorrect
 Packaging.
-</aside>
+:::
 ## Entry Points
 
 ### console_scripts
@@ -579,9 +579,9 @@ global-exclude *.pyo
 prune tests
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `MANIFEST.in`. Only use it when you need to include files that setuptools cannot auto-discover.
-</aside>
+:::
 ## Versioning
 
 ### Semantic Versioning
@@ -782,7 +782,7 @@ Packages.
 | Complexity     | High        | Medium   | Low        |
 | VCS versioning | Via plugin  | Built-in | Via plugin |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Need compatibility with existing tooling or complex build requirements (e.g., C extensions).
 
 ## Wheel vs sdist
@@ -989,8 +989,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

@@ -86,7 +86,7 @@ $$
 \end`\{aligned}`
 $$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Equation booklet as:
 
 $$
@@ -94,8 +94,7 @@ $$
  a = \frac{v^2}{r} = \omega^2 r = \frac{4\pi^2r}{T^2}
 \end`\{aligned}`
 $$
-
-</aside>
+:::
 ### Centripetal Force
 
 The centripetal force is any force applied on a mass towards the center ($-\bm{\hat{r}}$), leading
@@ -107,14 +106,13 @@ $$
 \end`\{aligned}`
 $$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $$
 \begin`\{aligned}`
  F = ma = \frac{mv^2}{r} = m\omega^2 r = \frac{4\pi^2mr}{T^2}
 \end`\{aligned}`
 $$
-
-</aside>
+:::
 ### Angular Position
 
 The angular position ($\theta$) of a [rigid body](#rigid-body) is a representation of the object"s
@@ -160,10 +158,10 @@ $$
 
 The measure of a solid body's resistance to [angular acceleration](#angular-acceleration).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Geometry as a system of discrete particles, as well as moment of inertia that is determined by
 Closed-form expressions.
-</aside>
+:::
 ### Angular Momentum
 
 The angular momentum ($L$) is the product of [moment of inertia $I$](#moment-of-inertia) and
@@ -185,7 +183,7 @@ $$
 \end`\{aligned}`
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Is:
 
 $$
@@ -193,8 +191,7 @@ $$
  W = \int_C F \cdot ds
 \end`\{aligned}`
 $$
-
-</aside>
+:::
 ## Wrap Up
 
 ### A.1 Kinematics & A.2 Forces and Momentum

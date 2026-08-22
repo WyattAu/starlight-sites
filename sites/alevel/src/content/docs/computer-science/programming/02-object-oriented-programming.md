@@ -98,9 +98,9 @@ class Student:
 3. **Flexibility:** Internal implementation can change without affecting users
 4. **Maintainability:** Reduces coupling between components
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 (preventing invalid states) and implementation flexibility.
-</aside>
+:::
 <hr />
 
 ## 3. Inheritance
@@ -218,12 +218,12 @@ Program.
 
 This means: wherever a superclass object is expected, a subclass object should work correctly.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Polymorphism, encapsulation; uses pseudocode class definitions. **CIE (9618)** covers OOP
 Principles; may require implementation in a specific language (Python/Pascal). **OCR (A)** requires
 Class definitions with attributes and methods; constructor/destructor understanding. **Edexcel**
 Covers OOP with pseudocode; emphasises encapsulation and data hiding.
-</aside>
+:::
 <hr />
 
 ## 5. Abstract Classes and Interfaces

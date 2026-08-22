@@ -16,18 +16,18 @@ categories: [Mathematics]
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 The Gaussian distribution was first derived by Abraham de Moivre (1733) as an approximation to the binomial distribution. Carl Friedrich Gauss later used it extensively in his work on celestial mechanics (1809). The Poisson distribution was introduced by Siméon Denis Poisson (1837) to model rare events. The binomial distribution dates to Jacob Bernoulli (1713). These three are connected: Poisson is a binomial limit (small p, large n), and the normal is a binomial limit (Central Limit Theorem). First proved rigorously by Laplace (1812) and later Kolmogorov (1933).
-</aside>
+:::
 ## Statistical Distributions (Extended Treatment)
 
 This document provides rigorous coverage of the binomial, normal, and Poisson distributions, their
 Approximations, and hypothesis testing applications.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Calculating probabilities. For example: "$X \sim B(20, 0.3)$".
-</aside>
+:::
 <hr />
 
 ## 1. The Binomial Distribution
@@ -251,10 +251,10 @@ Total rate per hour $= 3 + 2 = 5$. For two hours, $X \sim \mathrm{Po}(10)$.
 
 $P(X \gt 7) = 1 - P(X \leq 7) = 1 - e^{-10}\displaystyle\sum_{r=0}^{7}\dfrac{10^r}{r!} \approx 1 - 0.2202 = 0.7798$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the conditions are met (large $n$Small $p$). If $p$ is close to 0.5, the normal approximation is
 more appropriate.
-</aside>
+:::
 <hr />
 
 ## 5. Practice Problems

@@ -47,11 +47,11 @@ $$\mathrm{Long-run growth} = f(\Delta K, \Delta L, \Delta A)$$
 
 Where $K$ = capital, $L$ = labour, $A$ = total factor productivity (technology and efficiency).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Supply-side policies and requires evaluation of both. AQA emphasises the effect of supply-side
 Policies on the Phillips curve. Edexcel links supply-side policy to productivity and
 Competitiveness.
-</aside>
+:::
 ## 2. Market-Oriented Supply-Side Policies
 
 These policies work through **incentives and competition**, reducing government intervention to
@@ -100,10 +100,10 @@ And OBR) suggest that for income tax, the UK is to the **left** of $t^*$ — mea
 Reduce revenue, not increase it. For corporation tax, the evidence is more contested; some studies
 Suggest the UK may be closer to $t^*$ due to capital mobility.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 than the Laffer Curve explicitly, though it can be used in evaluation. OCR includes the Laffer curve
 in the context Of fiscal policy.
-</aside>
+:::
 **Evaluation of tax reform.** The effectiveness of tax cuts as a supply-side tool depends on several
 Factors. First, the **elasticity of the tax base** matters — if workers and firms are highly
 Responsive to tax rates (e.g., high-skilled workers who can emigrate), tax cuts will have a larger
@@ -181,10 +181,10 @@ And 1983. The short-term social costs were substantial, and some economists argu
 Benefits were oversold — UK productivity growth remained below that of Germany and France for much
 Of the period.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Market-oriented policies. AQA and CIE may expect examples but do not mandate specific knowledge of
 The Thatcher era.
-</aside>
+:::
 ### 2.4 Competition Policy
 
 Laws and institutions that prevent anti-competitive behaviour:
@@ -253,10 +253,10 @@ Has been criticised for incentivising rebadging existing training rather than cr
 Opportunities. The key lesson is that **institutional quality matters as much as spending** —
 Investing more in education without reforming how it is delivered yields diminishing returns.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 example but Rewards specificity. AQA does not mandate particular policy knowledge but values
 well-explained Real-world examples. OCR (H460) links education policy to labour market outcomes.
-</aside>
+:::
 ### 3.2 Investment in Infrastructure
 
 Public investment in transport, broadband, energy, and communications:
@@ -335,11 +335,11 @@ However, the model may not be directly transferable: Nordic countries have small
 Populations, strong social trust, and distinct institutional histories. The UK's larger, more
 Diverse population and different political culture may make the Nordic approach harder to implement.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Supply-side approaches. CIE (9708) rewards discussion of how different institutional frameworks
 Affect policy effectiveness. OCR (H460) may ask students to compare UK policy with other countries.
 The Nordic model is a strong evaluative point for any board.
-</aside>
+:::
 ## 4. Evaluation of Supply-Side Policies
 
 ### 4.1 Comparison: Market-Oriented vs Interventionist
@@ -379,12 +379,12 @@ Services may benefit most from deregulation and competition, while education and
 Require government leadership. A pragmatic approach selects the appropriate tool for each situation
 Rather than adhering to a rigid ideological position.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Of market-oriented and interventionist supply-side policies. Edexcel (A) Paper 3 may present a
 Scenario requiring analysis of both. CIE (9708) Paper 4 essays frequently require a balanced
 Discussion. OCR (H460) emphasises the role of government in correcting market failure through
 Supply-side policy. All boards reward nuanced answers that recognise context matters.
-</aside>
+:::
 ### 4.2 Supply-Side vs Demand-Side Policy
 
 | Feature          | Demand-side                        | Supply-side                              |
@@ -399,10 +399,10 @@ Supply-side policy. All boards reward nuanced answers that recognise context mat
 Supply-side policy to raise living standards in the long run. The two are complementary, not
 Substitutes.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 To work. An economy in a deep recession needs immediate demand-side stimulus, not just long-run
 Supply-side reforms. But sustained growth requires both. Always reference the time horizon.
-</aside>
+:::
 ### 4.3 Supply-Side Effects on the Phillips Curve
 
 Supply-side policies that reduce the natural rate of unemployment ($u^*$) or increase productivity
@@ -463,11 +463,11 @@ Failure (ambitious infrastructure projects that go over budget and under-deliver
 
 $$\mathrm{Net benefit of supply-side policy} = \mathrm{Efficiency gain} - \mathrm{Cost} - \mathrm{Distributional loss} - \mathrm{Government failure risk}$$
 
-<aside aria-label="Exam Technique When writing evaluation paragraphs, use a structure like: "On one hand," class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When writing evaluation paragraphs, use a structure like: "On one hand,</p>
+:::tip
 [policy] may [benefit] because [reason]. On the other hand, [counter-argument] because [reason].
 However, the overall impact depends on [contextual factor]. Therefore, [judgement]." This "however,
 Therefore" structure is what examiners look for in Level 4 (AQA) or Band A (CIE) responses.
-</aside>
+:::
 ## 5. Measuring the Impact of Supply-Side Policies
 
 ### 5.1 Productivity Growth
@@ -523,10 +523,10 @@ This "productivity puzzle" has been attributed to:
 The UK lags behind comparable economies, suggesting scope for improvement through supply-side
 Reforms that learn from international best practice.
 
-<aside aria-label="Tip Korea achieved 7% annual growth for three decades by investing 5% of GDP in education" is" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Korea achieved 7% annual growth for three decades by investing 5% of GDP in education" is</p>
+:::tip
 more Persuasive than abstract arguments. But always acknowledge differences in context — policies
 that Work in one country may not transfer directly.
-</aside>
+:::
 ## 6. Problem Set
 
 **Problem 1.** Explain, using AD/AS analysis, how a successful supply-side policy would affect (a)
@@ -693,7 +693,7 @@ Has been lacking. International evidence (Germany's federal system, Spain's auto
 Suggests that fiscal devolution may be necessary but not sufficient.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Assuming supply-side policies work quickly:** Most supply-side policies have very long
   implementation lags. Education reforms take 10-20 years to affect productivity. Infrastructure
   projects take 5-10 years. Supply-side policy cannot address a short-run recession -- demand-side
@@ -1303,4 +1303,4 @@ each approach.
 - [Market Failure and Government Intervention](../microeconomics/03-market-failure) -- Government failure can arise when supply-side policies produce unintended consequences.
 
 $
-</aside>
+:::

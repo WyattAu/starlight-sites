@@ -51,7 +51,7 @@ NULL, UNIQUE, CHECK, FOREIGN KEY) must hold at transaction commit. This property
 Responsibility of the database (enforcing constraints) and partially the responsibility of the
 Application (writing correct transaction logic).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 "the database satisfies all defined constraints." CAP consistency means "every read returns the most
 Recent write." They are different guarantees.
 
@@ -187,9 +187,8 @@ T1: UPDATE accounts SET balance = balance - 100 WHERE id = 1;
 -- ERROR: could not serialize access due to concurrent update
 -- PostgreSQL detects the conflict and aborts T1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Another committed transaction will fail with a serialization error. Your application must catch this
 Error and retry the transaction. This is by design -- it is the price of snapshot isolation.
 
@@ -293,9 +292,8 @@ SELECT pg_advisory_lock(12345);      -- blocks until lock is available
 SELECT pg_advisory_try_lock(12345);  -- returns TRUE if acquired, FALSE if not
 SELECT pg_advisory_unlock(12345);    -- releases the lock
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Workers can safely `SELECT ... FOR UPDATE SKIP LOCKED` from the same table without deadlocking. Each
 Worker gets a different row, and rows that are already being processed are skipped.
 
@@ -467,9 +465,8 @@ UPDATE departments SET budget = budget * 1.1 WHERE dept_id = 5;
 COMMIT;
 -- The employee insert is committed, the wrong department update is rolled back
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Tight loops (e.g., one savepoint per row in a batch). Instead, batch your operations and use a
 Single savepoint for the entire batch.
 
@@ -539,9 +536,8 @@ Systems prefer:
    background reconciliation
 3. **Outbox pattern:** write business data and outgoing events to the same local transaction; a
    background process publishes the events
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Network round-trips, coordinator overhead, blocking on failure) and operational complexity (recovery
 Procedures, heuristic outcomes) make it a last resort. Prefer sagas for most distributed workflows.
 
@@ -850,9 +846,8 @@ SET LOCAL app.current_tenant = '42';
 SELECT * FROM documents;  -- Only sees tenant 42's documents
 COMMIT;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Generated, so the planner does not know the effective row count. This can lead to suboptimal plans.
 Use `SET LOCAL` within a transaction to scope the security context correctly.
 
@@ -880,22 +875,6 @@ Snapshot has been overwritten.
 PostgreSQL's approach of keeping old tuples in the table (until VACUUM) means that long-running
 Queries never fail due to snapshot expiry, but the trade-off is table bloat and the need for VACUUM.
 
-## Summary
-
-This topic covers the essential chemistry of transactions and concurrency, including key reactions,
-underlying theories, and practical applications.
-
-**Key concepts include:**
-
-- Brønsted-Lowry theory
-- strong and weak acids/bases
-- pH calculations
-- titration curves and indicators
-- hydrolysis of salts
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [Locking and Deadlocks](locking-and-deadlocks) - How PostgreSQL's lock types enforce transaction isolation at different granularities
@@ -907,5 +886,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

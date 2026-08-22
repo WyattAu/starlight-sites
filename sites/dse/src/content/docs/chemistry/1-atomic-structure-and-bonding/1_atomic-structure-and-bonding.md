@@ -61,9 +61,9 @@ A mass spectrometer separates ions based on their mass-to-charge ratio ($m/z$). 
 3. **Deflection:** Ions are deflected by a magnetic field (lighter ions are deflected more)
 4. **Detection:** Ions hit a detector, producing a signal proportional to abundance
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Relative abundance. For singly charged ions, $m/z$ equals the relative isotopic mass.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -94,9 +94,9 @@ Electrons fill orbitals in order of increasing energy:
 
 $$1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 electrons are in the $3d$ subshell.
-</aside>
+:::
 ### Pauli Exclusion Principle
 
 Each orbital can hold a maximum of 2 electrons with opposite spins.
@@ -123,9 +123,9 @@ For transition metals, use the noble gas core notation:
 - Chromium ($Z = 24$): $[\mathrm{Ar}]\, 4s^1\, 3d^5$ (exception: half-full subshells are more
   stable)
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 extra Stability.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -325,9 +325,9 @@ Possible.
 | 5 bonding pairs   | Trigonal bipyramidal | $90^\circ, 120^\circ$ | $\mathrm{PCl}_5$                 |
 | 6 bonding pairs   | Octahedral           | $90^\circ$            | $\mathrm{SF}_6$                  |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The nucleus. This reduces bond angles from the ideal values.
-</aside>
+:::
 ### Worked Example 5
 
 Predict the shape and bond angle of $\mathrm{NH}_3$.
@@ -660,9 +660,9 @@ Bonds formed:
 
 $$\Delta H = (1652 + 996) - (1490 + 1852) = 2648 - 3342 = -694 \mathrm{ kJ/mol}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 reactions involving liquids Or solids because they only account for gaseous state bonds.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1019,10 +1019,10 @@ $$\mathrm{Bond order} = \frac{1}{2}(\mathrm{bonding electrons} - \mathrm{antibon
 - Bond order = 1.5: intermediate (e.g., $\mathrm{O}_2^-$)
 - Bond order = 0: no bond (molecule does not exist, e.g., $\mathrm{He}_2$)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 In antibonding orbitals), which cannot be explained by simple Lewis structures.
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 - **Confusing atomic number with mass number:** Atomic number (proton number) defines the element
   and equals the number of protons. Mass number equals protons PLUS neutrons. Isotopes of the same
   element have the same atomic number but different mass numbers. Students frequently mix these up
@@ -1520,8 +1520,7 @@ These factors combine to give helium the highest first ionisation energy of all 
 
 4. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/atomic-structure-and-bonding.md
-
-</aside>
+:::
 
 ## See Also
 

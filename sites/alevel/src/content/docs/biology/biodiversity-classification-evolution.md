@@ -89,10 +89,10 @@ Genetic diversity within a population can be measured by:
 Modern molecular techniques allow direct measurement: DNA sequencing, gel electrophoresis of
 Proteins, and PCR-based methods to quantify allele variation.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 giving a more accurate Measure of diversity. A community dominated by one species with many rare
 species has low diversity Despite high richness.
-</aside>
+:::
 ### 1.5 Sampling Methods
 
 Sampling is necessary because it is impractical to count every organism. Key principles:
@@ -163,12 +163,12 @@ A **cladogram** is constructed by comparing homologous characteristics:
 The principle of **parsimony** is applied: the cladogram requiring the fewest evolutionary changes
 Is preferred.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Structures** share a common evolutionary origin (e.g., the pentadactyl limb in mammals, birds,
 Reptiles, and amphibians). **Analogous structures** perform a similar function but have different
 Evolutionary origins (e.g., the wings of insects and birds). Only homologous structures are
 Informative for cladistics.
-</aside>
+:::
 ## 3. Evolution
 
 ### 3.1 Natural Selection
@@ -302,11 +302,11 @@ $p = 1 - 0.2 = 0.8$. Expected under H-W: $p^2 = 0.64$ ($320$ individuals), $2pq 
 Individuals), $q^2 = 0.04$ ($20$ individuals). The observed frequencies match H-W predictions,
 Suggesting the population is approximately in equilibrium.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Occurring. It describes the theoretical conditions under which allele frequencies remain constant.
 If a population deviates from H-W, this is evidence that evolutionary forces (selection, drift, gene
 Flow, mutation, non-random mating) are acting.
-</aside>
+:::
 ## 5. Genetic Drift and Gene Flow
 
 ### 5.1 Genetic Drift
@@ -349,11 +349,11 @@ barrier), populations Diverge and may eventually become separate species.
 | Gene flow         | Homogenising (between populations) | Variable      | Prevents speciation         |
 | Mutation          | Random (new alleles)               | Very slow     | Source of new variation     |
 
-<aside aria-label="Common Pitfall Students often think that evolution always leads to "improvement" or" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often think that evolution always leads to "improvement" or</p>
+:::caution
 "progress." Natural Selection produces adaptations to the current environment, not to some absolute
 standard of fitness. What is advantageous in one environment may be disadvantageous in another.
 Genetic drift produces Changes without regard to fitness at all.
-</aside>
+:::
 ## 6. Molecular Clocks and Phylogenetics
 
 ### 6.1 The Molecular Clock Concept
@@ -473,11 +473,11 @@ Since $\chi^2 = 22.84 \gg 3.84$We reject the null hypothesis. The population is 
 Hardy-Weinberg equilibrium. Possible explanations include non-random mating, selection against one
 Genotype, or population substructure (Wahlund effect).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Hardy-Weinberg data, Students often incorrectly use $\mathrm{df} = n - 1$ (where $n$ is the number
 of genotypes). The Correct formula accounts for the fact that allele frequencies are estimated from
 the data, reducing the Degrees of freedom further. For a two-allele system, $\mathrm{df} = 1$.
-</aside>
+:::
 ## 8. Classification: The Five Kingdom System and Beyond
 
 ### 8.1 Whittaker's Five-Kingdom System
@@ -1604,7 +1604,7 @@ target: protect 30% of land and ocean by 2030.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Evolution**? The
 contains the hardest questions within the A-Level specification for this topic, each with a full
 worked solution.
@@ -1615,7 +1615,7 @@ conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</aside>
+:::
 ## 26. Investigating Variation
 
 ### 26.1 Mean, Standard Deviation, and Standard Error

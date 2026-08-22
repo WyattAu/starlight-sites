@@ -149,11 +149,11 @@ To a non-MST vertex.
 | Binary heap      | $O((V + E)\log V)$ |
 | Fibonacci heap   | $O(E + V \log V)$  |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (9618)** requires Dijkstra's; may also require minimum spanning tree (Prim's or Kruskal's). **OCR
 (A)** requires Dijkstra's, Prim's, and Kruskal's algorithms with step-by-step tracing. **Edexcel**
 Covers basic graph traversal (BFS, DFS) and shortest path.
-</aside>
+:::
 <hr />
 
 ## 4. Travelling Salesman Problem (TSP)

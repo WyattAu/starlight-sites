@@ -94,9 +94,9 @@ void process_file(const char* path) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The `finally`. This is the mechanism that enables exception-safe code without manual cleanup.
-</aside>
+:::
 ## 1.3 MutexLock Example
 
 ```cpp
@@ -119,9 +119,9 @@ void thread_safe_operation(std::mutex& mtx) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 MutexLock. They are the standard library's RAII wrappers for mutexes.
-</aside>
+:::
 ## 1.4 Standard Library RAII Wrappers
 
 The C++ standard library provides RAII wrappers for the most common resource types. Using these
@@ -264,10 +264,10 @@ private:
 };
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
 For move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
-</aside>
+:::
 ## 1.6 Database Connection Wrapper
 
 Database connections are another resource that benefits from RAII. A connection that is not
@@ -426,11 +426,11 @@ RAII is strictly more general than GC. GC only manages memory; RAII manages **an
 Deterministic cleanup. A GC language like Java still needs `try`-with-resources or `using` blocks
 For non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Duration are destroyed in reverse order of construction when the scope exits, whether by normal flow
 Of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
 Convention.
-</aside>
+:::
 ## 1.10 RAII Rule of Thumb
 
 **Every resource acquisition should be wrapped in an RAII type.** If you write a raw call to `new`

@@ -144,7 +144,7 @@ print(b.species)     # Canis familiaris (class dict)
 print(Dog.species)   # Canis familiaris (unchanged)
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 A class variable through an instance, the mutation is visible to all instances.
 
 ```python
@@ -229,9 +229,8 @@ class Math:
 
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
 Not need either, making it static is a signal to readers and static analysis tools.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Be overridden in a subclass and dispatch to the correct class via `cls`. A static method cannot --
 It is a plain function that happens to live in a class namespace.
 
@@ -486,9 +485,8 @@ class EnhancedUser(JsonMixin, CsvMixin, User):
 
 This ordering ensures that mixin methods can override or wrap the primary class's methods, and that
 `super()` calls propagate through the mixins before reaching the primary class.
-
-</aside>
-<aside aria-label="Avoid the "diamond of death" pattern where two mixins both call `super().__init__()` but the primary" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Avoid the "diamond of death" pattern where two mixins both call `super().__init__()` but the primary</p>
+:::
+:::danger
 Class does not account for cooperative initialization. If you use mixins with `__init__`Every Class
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
 Arguments it does not need.
@@ -621,9 +619,8 @@ class Card:
 Returning `NotImplemented` (not `False`) when the other operand has an incompatible type allows
 Python to try the reflected operation on the other operand. Returning `False` would prevent this
 Fallback.
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
 Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
 Data corruption in sets and dicts.
@@ -808,9 +805,8 @@ p = DensePoint(1, 2)
 print(p.x)  # 1
 p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 1. Instances cannot have attributes not listed in `__slots__` (no dynamic attribute assignment).
 2. Each class in an inheritance hierarchy must define its own `__slots__`. If a base class omits
    `__slots__`Subclasses gain a `__dict__` regardless.
@@ -1059,8 +1055,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Metaclasses](./02-metaclasses): Extends class creation by customizing the class creation process itself, building on the class fundamentals covered here.

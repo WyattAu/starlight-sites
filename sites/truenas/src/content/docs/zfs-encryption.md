@@ -194,10 +194,10 @@ Combine encryption and authentication in a single operation. This means every en
 Integrity check built in -- tampering with ciphertext is detected during decryption. This is in
 Addition to ZFS's own checksum verification.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Performance on modern CPUs with AES-NI support and is the recommended choice for all workloads.
 `chacha20-poly1305` is the fallback for CPUs without AES-NI (e.g., some ARM SoCs).
-</aside>
+:::
 ### pbkdf2iters Property
 
 The `pbkdf2iters` property controls the number of PBKDF2 (Password-Based Key Derivation Function 2)
@@ -211,11 +211,11 @@ Brute-force attacks on weak passphrases more expensive.
 | 500000     | ~200 ms                       | Good for sensitive data    |
 | 1000000    | ~400 ms                       | High-security environments |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Set `pbkdf2iters=1000000`Every boot (or key load) will take an additional ~400 ms per dataset. This
 property only applies to `keyformat=passphrase`. It has no effect on `hex` or `raw` key Formats,
 which use the raw key material directly.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -266,10 +266,10 @@ Passphrase strengths:
 | Very strong | 7 random words (Diceware)    | ~90 bits          | Good      |
 | Excellent   | 16+ random ASCII characters  | ~105+ bits        | Excellent |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Of 20+ characters. Store the passphrase in a password manager and write it down on paper stored in a
 Physically secure location (safe deposit box, fireproof safe).
-</aside>
+:::
 ### hex Format
 
 A hex key is a 64-character hexadecimal string representing a 256-bit key. It is stored in a file or
@@ -393,11 +393,11 @@ zfs change-key -o pbkdf2iters=500000 tank/secret
 zfs change-key -o encryption=chacha20-poly1305 tank/secret
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 All data in the dataset. This is a long-running operation that consumes significant I/O bandwidth
 And CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
 Re-encryption.
-</aside>
+:::
 ### Auto-Mount at Boot
 
 ZFS can automatically load encryption keys at boot for datasets that use key files (not
@@ -413,10 +413,10 @@ zfs create -o encryption=on -o keyformat=raw \
 # Ensure the key file exists and is readable at boot time
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 If the pool is stolen, the key file is stolen with it. Store key files on a separate, secure
 Location -- a USB drive, a separate small pool, or a remote key server.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -583,11 +583,11 @@ zpool import -l tank
 # For keyformat=raw or hex with keylocation=file://, it will attempt to read the key files
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Encrypted datasets use passphrase keys, TrueNAS will prompt you for the passphrase during boot. If
 They use key files, TrueNAS will attempt to load them from the specified file locations
 Automatically.
-</aside>
+:::
 ### Exporting Encrypted Pools
 
 Exporting an encrypted pool unloads all keys and unmounts all datasets:
@@ -608,10 +608,10 @@ If you forget the passphrase for an encrypted dataset, the data is **permanently
 There is no backdoor, no recovery mechanism, no workaround. The encryption is designed to be
 Computationally infeasible to break.
 
-<aside aria-label="There is no "forgot password" mechanism for ZFS encryption. If you lose the passphrase," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>There is no "forgot password" mechanism for ZFS encryption. If you lose the passphrase,</p>
+:::caution
 The data is gone forever. Store passphrases in multiple secure locations: a password manager, a
 Physical safe deposit box, and a trusted family member's possession.
-</aside>
+:::
 #### Scenario: Key File Deleted
 
 If the key file is deleted but you remember the passphrase (or have a backup of the key material),
@@ -799,10 +799,10 @@ zfs snapshot tank/encrypted/docs@daily-2026-04-07
 zfs get encryption,encryptionroot tank/encrypted/docs@daily-2026-04-07
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Parent dataset. If you load the key for the parent, all snapshots become accessible. If you unload
 The key, all snapshots become inaccessible.
-</aside>
+:::
 ### Clones and Encryption
 
 Clones of encrypted snapshots inherit the encryption of the source snapshot. The clone uses the same
@@ -842,11 +842,11 @@ zpool scrub tank
 # If a checksum mismatch is found, ZFS repairs from redundancy (mirror/parity)
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Covers the encrypted data, so integrity verification does not require decryption. This is a
 Significant advantage -- you can schedule scrubs on encrypted datasets without worrying about key
 Availability.
-</aside>
+:::
 Resilvering after a drive replacement also does not require the encryption key. The data is copied
 At the block level (encrypted ciphertext), and checksums are verified against the stored values.
 
@@ -1037,10 +1037,10 @@ Lose the keys, the backups are worthless.
 4. **Key escrow:** A trusted person (attorney, family member) has access to a sealed envelope with
    the passphrase.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Destroys both the NAS and the paper with the passphrase, the data is lost. Distribute keys across
 Multiple physical locations.
-</aside>
+:::
 ### Disaster Recovery with Encrypted Datasets
 
 Disaster recovery for encrypted datasets follows the same process as unencrypted datasets, with the
@@ -1185,10 +1185,10 @@ zfs unload-key tank/secret
 zfs destroy -r tank/secret
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 A copy of the data. Plan key rotation during maintenance windows and verify data integrity before
 Destroying the old dataset.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1360,10 +1360,10 @@ zfs create tank/secret/public-data
 # (This is NOT supported by ZFS -- you cannot have unencrypted children inside an encrypted parent)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Of an encrypted dataset are encrypted, period. If you need a mix of encrypted and unencrypted
 Datasets, create them as siblings (not parent-child) within an unencrypted pool.
-</aside>
+:::
 ### Performance Without AES-NI
 
 On CPUs without AES-NI support, AES-256-GCM encryption can add 20-40% overhead. This is particularly

@@ -194,10 +194,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `std::variant<Ts...>`And other standard library types, reducing the need for custom Specializations
 .
-</aside>
+:::
 ## Intuition
 
 **`std::formatter` is like a custom paint job for your types:** The `<format>` library knows how to print built-in types (int, string, etc.), but for your custom types, you need to teach it how. A `std::formatter<T>` specialization is like giving the library a recipe: "when you see a `Point`, format it as `(x, y)`." The format specifiers (like `:d` for decimal or `:x` for hex) are like custom flags that control the output.

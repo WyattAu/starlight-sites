@@ -22,7 +22,7 @@ categories:
 
 ## The 19th-Century Novel
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 WJEC/Eduqas Paper 2 Section A
 
 ## 1. The 19th-Century Novel as a Genre
@@ -622,8 +622,7 @@ including key terminology, approaches, and critical perspectives.
 
 Developing a precise analytical vocabulary and practising close reading are essential for strong
 performance in this area.
-
-</aside>
+:::
 
 ## See Also
 

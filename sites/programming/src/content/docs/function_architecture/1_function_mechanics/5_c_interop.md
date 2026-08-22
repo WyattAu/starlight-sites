@@ -330,11 +330,11 @@ extern "C" {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (pointer size, struct layout, calling convention). This is true for x86-64 Linux/macOS (both use the
 System V ABI). On platforms with divergent C/C++ ABIs, use `void*` handles and pass data through
 C-compatible types only.
-</aside>
+:::
 ## 5.4 ABI Boundaries: Name Mangling and Layout
 
 At a C/C++ boundary, several ABI properties must align:
@@ -501,10 +501,10 @@ struct NetworkHeader {
 static_assert(sizeof(NetworkHeader) == 7);  // 1 + 4 + 2 = 7, no padding
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Misaligned access on strict-alignment architectures (ARM, SPARC). Use with caution and document the
 Rationale.
-</aside>
+:::
 ## 5.6 Dynamic Library Loading with `dlfcn.h`
 
 POSIX systems provide `dlopen``dlsym``dlclose`And `dlerror` for loading shared libraries at Runtime.
@@ -585,7 +585,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Immediately. `RTLD_LAZY` defers resolution to first use, which can mask errors and cause crashes at
 Unpredictable points. For plugin loading, prefer `RTLD_NOW`.
 
@@ -794,5 +794,4 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

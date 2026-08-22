@@ -109,10 +109,10 @@ $$
 | **Slot**   | Each virtual function occupies a fixed index in the vtable  |
 | **Thunks** | Compiler-generated stubs that adjust `this` before dispatch |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Mandates that the vptr is at offset 0 within the object (before any data members). MSVC uses a
 Similar but incompatible layout on Windows.
-</aside>
+:::
 ### Vtable Structure Diagram
 
 For a class hierarchy:
@@ -323,11 +323,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Branch prediction accuracy, and whether the compiler can **devirtualize** the call (see
 [Devirtualization](./3_devirtualization.md)). With `-O2` or `-O3`Modern compilers may eliminate The
 virtual dispatch entirely if the dynamic type is provable.
-</aside>
+:::
 ## 1.5 The `final` Keyword
 
 The `final` specifier has two uses [N4950 S11.7.4]:
@@ -393,9 +393,9 @@ struct Wrong : Base {
 };
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Virtual function. This eliminates an entire class of bugs caused by signature mismatches.
-</aside>
+:::
 ## 1.7 Virtual Dispatch During Construction and Destruction
 
 A critical and often surprising rule: **virtual calls from constructors and destructors do not
@@ -472,11 +472,11 @@ The vptr transitions through three states during `Derived` object construction:
 3. During `Derived` destruction: vptr is reset to `Base::vtable` -> `do_work()` calls
    `Base::do_work`
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Behavior** [N4950 S11.9.3]. The pure virtual function has no definition to dispatch to (or the
 Definition is not called). Some implementations call the pure virtual handler and terminate the
 Program.
-</aside>
+:::
 ## 1.8 NVI (Non-Virtual Interface) Pattern
 
 The **Non-Virtual Interface** pattern makes all public member functions non-virtual and delegates to

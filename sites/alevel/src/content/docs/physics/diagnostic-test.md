@@ -22,9 +22,9 @@ categories:
 
 ## A Level Physics — Diagnostic Test
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Questions. Each question has an answer and a revision redirect. Time allowed: 90 minutes.
-</aside>
+:::
 ## Section A: Mechanics (Questions 1–5)
 
 <details>

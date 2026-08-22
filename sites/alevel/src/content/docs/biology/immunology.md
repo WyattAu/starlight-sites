@@ -149,12 +149,12 @@ characterised by the classic signs: **rubor** (redness), **calor** (heat), **tum
 6. **Resolution**: once the infection is cleared, dead cells and debris are removed by phagocytes.
    Tissue repair begins.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 inflammatory response. Histamine is released by mast cells immediately upon tissue damage and causes
 the vasodilation and increased permeability characteristic of inflammation. Antibodies are produced
 later by B cells as part of the adaptive immune response and are not involved in the initial
 inflammatory cascade.
-</aside>
+:::
 ### 2.4 The Complement System
 
 The complement system is a collection of approximately 20 plasma proteins that enhance (complement)
@@ -242,10 +242,10 @@ After the infection is cleared, most effector T cells die by apoptosis. A small 
 differentiates into **memory T cells** that persist for years, providing rapid secondary response on
 re-exposure to the same antigen.
 
-<aside aria-label="Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens.</p>
+:::caution
 They do not. T killer cells induce apoptosis in infected host cells. Phagocytosis is carried out by
 phagocytes (neutrophils and macrophages), not by T killer cells.
-</aside>
+:::
 ## 4. Adaptive Immunity: The Humoral Response
 
 ### 4.1 B Lymphocytes and Antibodies
@@ -365,11 +365,11 @@ The secondary (anamnestic) response occurs on subsequent exposure to the same an
 | Memory cells produced | Yes                        | Yes (additional)             |
 | Cell type involved    | Naive B cells              | Memory B cells               |
 
-<aside aria-label="Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not</p>
+:::caution
 kill pathogens directly. They mark pathogens for destruction by other mechanisms (phagocytosis,
 complement lysis, neutralisation of toxins). The antibody itself is a signalling molecule that tags
 the pathogen and triggers other components of the immune system.
-</aside>
+:::
 ## 6. Autoimmune Diseases
 
 ### 6.1 Mechanism of Autoimmunity
@@ -459,12 +459,12 @@ For comparison:
 - **Ethical considerations**: mandatory vaccination policies must balance individual autonomy with
   public health benefits.
 
-<aside aria-label="Common Pitfall Students sometimes state that vaccination provides "artificial passive" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes state that vaccination provides "artificial passive</p>
+:::caution
 immunity." Vaccination provides **artificial active immunity** because it stimulates the body's own
 immune system to produce antibodies and memory cells. Passive immunity (e.g., maternal antibodies
 crossing the placenta, or injection of pre-made antibodies) provides temporary protection but does
 not create memory cells.
-</aside>
+:::
 ## 8. ELISA (Enzyme-Linked Immunosorbent Assay)
 
 ### 8.1 Principle
@@ -514,11 +514,11 @@ $$\text{Concentration} = 20 + (40 - 20) \times \frac{0.55 - 0.42}{0.78 - 0.42} =
 
 The patient sample contains approximately $27.2\ \mathrm{ng\ cm^{-3}}$ of antigen.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 antibody, not by the antigen itself. Students sometimes write that "the antigen changes colour." The
 enzyme on the secondary antibody converts the substrate to a coloured product; the intensity of
 colour indicates how much antigen-antibody complex is present.
-</aside>
+:::
 ## 9. Monoclonal Antibodies
 
 ### 9.1 Production of Monoclonal Antibodies (Hybridoma Method)
@@ -1248,11 +1248,11 @@ Immunotherapy is effective for insect venom allergies, allergic rhinitis (hay fe
 allergies, but it carries a risk of triggering anaphylaxis and must be carried out under medical
 supervision.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 cells) with antigens (molecules that trigger an immune response). Remember: **Antibody** is produced
 by the immune system in response to an **Antigen**. Antibodies are Y-shaped proteins; antigens can
 be proteins, polysaccharides, or other molecules on the surface of pathogens.
-</aside>
+:::
 ## 26. The Inflammatory Response: Detailed Mechanism
 
 ### 26.1 Steps of Inflammation
@@ -1317,7 +1317,7 @@ inflammation can cause tissue damage and is implicated in many diseases:
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 ## 23. The Complement System
 
 ### 23.1 Overview
@@ -1462,14 +1462,13 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | COVID-19 (Omicron) | 8--10  | 87--90%                 |
 | Seasonal influenza | 1.5--3 | 33--67%                 |
 | Diphtheria         | 4--6   | 75--83%                 |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 immunity reduces the probability of transmission but does not eliminate risk entirely. Non-immune
 individuals (too young for vaccination, immunocompromised, vaccine contraindications) can still be
 infected if exposed. Additionally, immunity can wane over time, and new variants may partially
 escape existing immunity.
-</aside>
+:::
 ### 26.4 Antigenic Variation and Vaccine Challenges
 
 Some pathogens evade immune memory through antigenic variation:
@@ -1900,10 +1899,10 @@ the body's own tissues:
 | Failure of regulatory T cells ($\mathrm{T_{reg}}$) | $\mathrm{T_{reg}}$ cells normally suppress self-reactive lymphocytes; deficiency leads to loss of self-tolerance                                                        |
 | Polyclonal B cell activation                       | Some pathogens (e.g., EBV) activate many B cells non-specifically, including self-reactive clones                                                                       |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 2 diabetes is metabolic (insulin resistance). Do not confuse them. Also, coeliac disease is an
 autoimmune condition triggered by gluten, not a food allergy.
-</aside>
+:::
 ## 37. Vaccination in Detail
 
 ### 37.1 Types of Vaccines

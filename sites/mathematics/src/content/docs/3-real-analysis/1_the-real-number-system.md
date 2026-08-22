@@ -245,7 +245,7 @@ The real numbers are the unique complete ordered field. The completeness axiom s
 
 The practical consequence is that calculus works. Without completeness, sequences that "should" converge might not. The sequence $1, 1.4, 1.41, 1.414, \ldots$ (successive approximations to $\sqrt{2}$) is Cauchy in $\mathbb{Q}$ but has no limit there. In $\mathbb{R}$, completeness guarantees convergence. The supremum and infimum are the workhorses of analysis: they allow you to define limits, continuity, and integrals without assuming the limit point exists. The supremum is the "best possible upper bound," which is weaker than requiring a maximum (an element of the set that achieves the bound). This distinction is crucial: $\sup(0,1) = 1$ but $\max(0,1)$ does not exist.
 
-<aside aria-label="Common Pitfall" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall</p><p>The completeness axiom is often misstated as "every bounded set has a supremum." The set must be non-empty. Also, completeness does not say every set has a maximum;</p>
+<p>The completeness axiom is often misstated as "every bounded set has a supremum." The set must be non-empty. Also, completeness does not say every set has a maximum;</p>
 $\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$ which belongs to
 the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 
@@ -254,8 +254,7 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **The completeness axiom is specific to $\mathbb{R}$.** In $\mathbb{Q}$, the set
   $\{x \in \mathbb{Q} : x^2 < 2\}$ is bounded above but has no supremum in $\mathbb{Q}$ (since
   $\sqrt{2} \notin \mathbb{Q}$).
-
-</aside>## Cross-References
+:::## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
 - **[Linear Algebra](../linear-algebra):** Vector spaces, matrices, and linear transformations.

@@ -95,7 +95,7 @@ Most $2^{|Q_N|}$ states). The DFA accepts exactly the same strings as the NFA. $
 **Corollary.** The class of regular languages is closed under union, intersection, complementation,
 Concatenation, and Kleene star.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** requires finite state machines (FSMs) with state transition diagrams and tables, regular
   expressions, and Turing machines (conceptual understanding)
 - **CIE (9618)** requires finite state machines and Turing machines; may not emphasise regular
@@ -103,7 +103,7 @@ Concatenation, and Kleene star.
 - **OCR (A)** requires finite state machines, state transition diagrams, regular expressions, and
   understanding of decidability
 - **Edexcel** covers finite state machines and basic automata theory
-</aside>
+:::
 <hr />
 
 ## 3. Regular Expressions

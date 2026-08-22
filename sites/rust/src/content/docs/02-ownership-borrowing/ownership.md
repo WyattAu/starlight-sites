@@ -14,10 +14,10 @@ description: "Rust' s memory management rests on three rules enforced at compile
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 Rust's ownership system was designed by Graydon Hoare at Mozilla Research (announced 2010, 1.0 in 2015). The key insight — memory safety enforced at compile time without a garbage collector — drew on Cyclone (1998) for region-based memory, MLton for lifetime tracking in functional languages, and Mozilla's own experience with C++ security vulnerabilities. The same affine-type mechanism for resource tracking appears in linear logic (Girard, 1987) and session types (Honda, 1993), connecting Rust's practical design to deep theoretical foundations.
-</aside>
+:::
 ## The Ownership Rules
 
 Rust's memory management rests on three rules enforced at compile time:
@@ -340,7 +340,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 let s: &'static str = "hello";  // embedded in the binary
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Cannot infer a shorter lifetime, but adding `'static` constraints reduces the function's
 Flexibility. A function taking `&'static str` cannot accept locally-owned `String` references, only
 String literals and values explicitly annotated with `'static`.
@@ -402,9 +402,8 @@ drop(borrow2);
 let borrow3 = data.borrow_mut();  // OK — all previous borrows dropped
 borrow3.push(4);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Immutable borrow is active will panic. This trades compile-time safety for runtime flexibility. Use
 `try_borrow()` and `try_borrow_mut()` to get `Result` instead of panicking.
 
@@ -458,9 +457,8 @@ impl Counter {
     }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Behavior. Only do this if you can prove that mutation is properly synchronized (e.g., via atomics or
 Platform-specific memory barriers).
 
@@ -996,8 +994,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

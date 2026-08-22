@@ -179,7 +179,7 @@ class LinkedListDeque:
 | Rust     | `VecDeque`          | Ring buffer     | $O(1)$ all operations        |
 | Go       | None (use slice)    | N/A             | Manual implementation needed |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Block size is 64 elements). This gives $O(1)$ amortised operations with good cache locality — much
 Better than a naive linked list but slightly worse than a pure circular buffer for sequential
 Access.
@@ -264,9 +264,8 @@ def heapify(arr):
         sift_down(i, n)
     return arr
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 $O(h)$. There are at most $\lceil n / 2^{h+1} \rceil$ nodes at height $h$. The total cost is
 $\sum_{h=0}^{\lfloor \log n \rfloor} \lceil n / 2^{h+1} \rceil \cdot O(h) = O(n \sum_{h=0}^{\infty} h / 2^{h}) = O(n)$.
 The key insight is that most nodes are near the bottom of the tree and require little or no sifting.
@@ -696,9 +695,8 @@ Times relative to `extract_min`. In practice:
 | Dijkstra (dense)  | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
 That achieves the same amortised bounds for most operations.
 
@@ -953,94 +951,4 @@ auto cmp = [](const pair<int,int>& a, const pair<int,int>& b) {
 };
 std::priority_queue<pair<int,int>, vector<pair<int,int>>, decltype(cmp)> pq(cmp);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
-`(-neg_x, x)`. C++ `std::priority_queue` is a **max-heap** by default; use `std::greater` for a
-Min-heap.
-
-## Common Pitfalls
-
-### 1. Using the Wrong Heap Type
-
-Python's `heapq` is a min-heap, while C++ `std::priority_queue` is a max-heap by default. Forgetting
-This leads to extracting the wrong element. Always verify the heap property before using it in an
-Algorithm.
-
-### 2. Modifying Heap Elements In-Place
-
-Binary heaps do not support efficient `decrease_key` in their standard library implementations.
-Modifying an element's priority in-place and calling `heapify` is $O(n)$. If you need efficient
-`decrease_key`Use a Fibonacci heap or a custom heap with a position map.
-
-### 3. Integer Overflow in Priority Values
-
-If priorities are computed as sums or products of other values, they can overflow 32-bit integers.
-In competitive programming and systems code, use 64-bit integers. In Python, this is not an issue.
-
-### 4. Dijkstra with Negative Weights
-
-Dijkstra's algorithm requires non-negative edge weights. If the graph has negative weights, use
-Bellman-Ford ($O(VE)$) instead. A common mistake is to shift all weights to be positive (adding a
-Constant to each edge), which changes the shortest paths.
-
-### 5. Forgetting to Handle Ties in Priority Queue
-
-When two elements have the same priority, the order of extraction depends on the tie-breaking rule.
-In Python, if the second element of the heap tuple is not comparable, you get a `TypeError`. Always
-Include a unique identifier as a tiebreaker: `(priority, counter, data)`.
-
-### 6. Using `heapq.nlargest` on Small k
-
-`heapq.nlargest(k, iterable)` is $O(n \log k)$But for small $k$ (e.g., $k = 1$), it is faster than
-Sorting ($O(n \log n)$). However, if $k$ is close to $n$Sorting is faster. The threshold is
-Approximately $k = n / 1000$.
-
-### 7. Circular Buffer Off-by-One in Deque Implementation
-
-When implementing a circular buffer, the most common bugs are: (1) confusing full and empty states
-(both occur when `head == tail`), (2) incorrect modular arithmetic when resizing, and (3) forgetting
-To handle the wrap-around when iterating. Using a separate `size` counter (rather than inferring it
-From `head` and `tail`) avoids the full/empty ambiguity.
-
-### 8. Fibonacci Heap Degree Bound
-
-The degree bound $D(n) = O(\log_\phi n)$ for Fibonacci heaps depends on the cascading cut mechanism
-Working correctly. If you forget to mark a node when cutting its child, the degree can grow
-Unbounded, and the amortised bounds break down.
-
-## Summary
-
-This topic covers the core concepts of deques and priority queues, including underlying theory,
-practical implementation, and key applications.
-
-**Key concepts include:**
-
-- Big O notation and complexity analysis
-- searching algorithms (binary, linear)
-- sorting algorithms (bubble, merge, quick)
-- graph algorithms (Dijkstra, BFS, DFS)
-- dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-## Cross-References
-
-- [Linked Lists](../01-linked-lists/01-linked-lists) -- Deques can be implemented using doubly-linked lists for O(1) operations at both ends.
-- [Stacks and Queues](../02-stacks-queues/01-stacks-queues) -- Deques generalise both stacks and queues, supporting LIFO and FIFO operations.
-- [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Priority queues are used in tree balancing algorithms and heap operations.
-- [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Priority queues are essential for Dijkstra's and Prim's algorithms.
-
-## Intuition
-
-A deque (double-ended queue) generalizes both stacks and queues by allowing insertion and removal at both ends in O(1) time. The classic implementation uses a circular buffer — an array with head and tail pointers that wrap around using modular arithmetic. This gives excellent cache performance compared to linked lists because elements are contiguous in memory. Deques are the underlying data structure for sliding window algorithms (like finding the maximum in every window of size k) and for work-stealing thread pools where tasks are dequeued from one end and pushed to the other.
-
-Heaps are the simplest priority queue: a complete binary tree stored as an array, where the parent is always smaller (min-heap) or larger (max-heap) than its children. The key insight is that this array representation is extremely cache-friendly, and the tree structure guarantees O(log n) insert and extract-min. Building a heap from scratch is O(n), not O(n log n), because most nodes are near the bottom and need little sifting. Binary heaps are the default in practice (Python's heapq, Java's PriorityQueue) because their low constant factors beat more sophisticated heaps.
-
-Fibonacci heaps achieve theoretically optimal O(1) amortized insert and decrease-key by deferring consolidation until extract-min. This laziness is brilliant for algorithms like Dijkstra's, where decrease-key is called much more often than extract-min. However, the complex pointer manipulation and poor cache behavior mean binary heaps are almost always faster in practice for sparse graphs. Pairing heaps offer a simpler alternative with similar amortized bounds. The lesson: theoretical asymptotic complexity is only part of the story — constant factors, cache behavior, and implementation complexity matter enormously in real code.
+:::

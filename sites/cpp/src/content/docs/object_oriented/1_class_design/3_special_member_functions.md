@@ -53,11 +53,11 @@ Exact rules are [N4950 §11.4.5.3]:
 | **Move constructor** | No user-declared copy ctor, copy assign, move assign, or destructor | Trivial                                              | Any base/member has deleted move ctor or inaccessible non-move ctor, or has copy-only semantics                          |
 | **Move assignment**  | No user-declared copy ctor, copy assign, move ctor, or destructor   | Trivial                                              | Any base/member has deleted move assign or inaccessible non-move assign, or has copy-only semantics, or reference member |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Constructor and move assignment are **not** implicitly declared. In C++14 and later, this remains
 True — the Standard was not changed. The critical point: declaring a destructor suppresses implicit
 Move generation.
-</aside>
+:::
 ## 3.3 `= default` and `= delete`
 
 The `= default` specifier explicitly requests the compiler-generated default implementation [N4950

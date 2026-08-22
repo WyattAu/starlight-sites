@@ -374,7 +374,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **structure** of the constraint expressions (the expression trees), not by evaluating them. Two
 Constraints that are logically equivalent but structurally different (e.g., `std::integral<T>` and
 `requires(T t) { t + 1; } requires std::integral<T>`) are **incomparable** for subsumption purposes.
@@ -975,8 +975,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

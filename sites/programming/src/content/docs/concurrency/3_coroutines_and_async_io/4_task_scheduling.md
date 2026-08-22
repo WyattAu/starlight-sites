@@ -641,7 +641,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Handle: work stealing, priority queues, thread affinity, shutdown semantics, exception aggregation
 Across `when_all`And proper cancellation propagation. Libraries like
 [libunifex](https://github.com/facebookexperimental/libunifex) (now `std::execution` proposal,
@@ -864,5 +864,4 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

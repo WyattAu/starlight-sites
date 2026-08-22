@@ -517,7 +517,7 @@ The built-in Desmos calculator in Bluebook is powerful:
 - **Absolute value** -- type `abs(x)` or use the keyboard shortcut.
 - **Square root** -- type `sqrt(x)` or use the radical button.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 interface saves time on the exam.
 
 ---
@@ -604,5 +604,4 @@ SAT Mathematics tests your ability to reason quantitatively, not just compute. T
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

@@ -62,7 +62,7 @@ _Proof._ If not, there exists a shorter path $p"$ from $u$ to $w$. Then $p'$ con
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
 $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 simple path_ problem does not: the longest simple path from $u$ to $v$ may not contain the longest
 simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
@@ -270,8 +270,7 @@ pile whose top card is $\geq$ the current card, or start a new pile on the right
 exists. The number of piles equals the LIS length.
 
 </details>
-
-</aside>
+:::
 
 ## Intuition
 

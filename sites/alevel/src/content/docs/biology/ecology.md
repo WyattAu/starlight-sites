@@ -97,11 +97,11 @@ Than at the previous level, explaining why food chains are limited to 3--5 troph
 - **Pyramid of energy**: always upright, because energy is lost at each transfer and cannot be
   created.
 
-<aside aria-label="Common Pitfall Students often state that "90% of energy is lost" at each trophic level." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "90% of energy is lost" at each trophic level.</p>
+:::caution
 The precise figure varies ( 80%--90% is lost, 10%--20% is transferred). The key point is That the
 loss is substantial and cumulative, which is why food chains are short. The lost energy is Not
 "wasted" -- it is dissipated as heat according to the second law of thermodynamics.
-</aside>
+:::
 ## 2. Populations
 
 ### 2.1 Population Growth
@@ -401,10 +401,10 @@ To withstand and recover from disturbances.
 - **Rio Convention (1992)**: three linked conventions on biodiversity, climate change, and
   desertification.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 conserves the entire Ecosystem and evolutionary processes, but ex situ is essential as a backup for
 species whose habitat Has been destroyed or whose population is too small to survive in the wild.
-</aside>
+:::
 ## 8. Quantitative Ecology
 
 ### 8.1 Calculating Net Primary Production
@@ -482,12 +482,12 @@ Ecological deficit. It is meeting the shortfall by importing resources, depletin
 Capital, or emitting waste that cannot be absorbed (e.g., $\mathrm{CO_2}$ exceeding absorption
 capacity).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 solar energy That reaches producers, rather than the fraction transferred between trophic levels.
 The ecological Efficiency between trophic levels is the fraction of energy at one level that is
 incorporated into Biomass at the next level ( 10--20%), not the fraction of total solar radiation
 captured by Producers ( less than 3%).
-</aside>
+:::
 ## 9. Advanced Nutrient Cycle Analysis
 
 ### 9.1 Quantifying the Nitrogen Cycle
@@ -599,10 +599,10 @@ Estimated population size $= 400$ woodlice.
 - Marks are not lost.
 - Samples are random.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 events. If Organisms are born, die, migrate in, or migrate out between samples, the estimate will be
 inaccurate. If no marked individuals are recaptured ($n_3 = 0$), the method fails entirely.
-</aside>
+:::
 ## 11. Climate Change and Ocean Acidification
 
 ### 11.1 Ocean Acidification: Quantitative Analysis
@@ -1811,7 +1811,7 @@ Coevolution occurs when two species evolve in response to each other:
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Ecology
@@ -2037,8 +2037,7 @@ impossible to address with traditional field methods alone.
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
-
-</aside>
+:::
 ## Cross-References
 
 - [Biology](../biology)

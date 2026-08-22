@@ -97,7 +97,7 @@ def download():
 | Code review           | Check for missing authorization      |
 | Access control matrix | Document and test all routes         |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Authentication by default, with explicit opt-in for public routes. This prevents the most common
 Access control bug: forgetting to add `@require_auth` to a new route.
 
@@ -701,8 +701,7 @@ The OWASP Top 10 represents the most critical web application security risks. Th
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

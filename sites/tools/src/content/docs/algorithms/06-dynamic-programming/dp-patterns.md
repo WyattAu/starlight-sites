@@ -60,7 +60,7 @@ def knapsack_01(weights, values, capacity):
     return dp[capacity]
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Iterate forward, `dp[c - w]` may already include item $i$Violating the 0/1 constraint. This is the
 Most common bug in knapsack implementations.
 
@@ -848,8 +848,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

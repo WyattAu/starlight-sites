@@ -269,10 +269,10 @@ Both texts depend heavily on dramatic irony:
   theatre respectively — both serve to implicate the audience or reader in the moral failure
   surrounding the central tragedy."
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Between the texts. Stronger essays move beyond surface comparisons to explore how formal differences
 (novella vs play) shape the reader's experience of shared themes.
-</aside>
+:::
 ## Truth and Memory
 
 Both texts interrogate the reliability of truth and the way communities construct, suppress, and
@@ -337,10 +337,10 @@ Both authors destabilise the concept of objective truth through their narrative 
   Blanche's psychological reality rather than objective fact. The audience sees the world as Blanche
   perceives it, making her unreliability both visible and sympathetic.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Fragmented journalism and Williams's subjective staging both prevent the audience from ever grasping
 A complete, objective account — and this is precisely the point.
-</aside>
+:::
 ## Character Comparison: Eunice/Steve vs Clotilde Armenta
 
 ### The Bystander Figure

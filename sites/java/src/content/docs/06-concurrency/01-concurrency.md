@@ -129,11 +129,11 @@ public class SafePublisher {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 writes the reference after constructing the object, the JIT compiler may reorder the write to
 `holder` before the writes to the object's fields during construction. This is not theoretical -- it
 has been observed in practice on x86, ARM, and every major architecture.
-</aside>
+:::
 ## Threads
 
 ### Thread Creation: Runnable and Callable
@@ -229,11 +229,11 @@ stateDiagram-v2
 | **TIMED_WAITING** | Thread is waiting for another thread to perform an action, but with a specified maximum wait time.                       |
 | **TERMINATED**    | Thread has completed execution of its `run()` method.                                                                    |
 
-<aside aria-label="`RUNNABLE` in the JVM state machine does not distinguish between "currently executing on a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`RUNNABLE` in the JVM state machine does not distinguish between "currently executing on a</p>
+:::note
 CPU core" and "ready to execute but waiting for CPU time." The JVM delegates scheduling to the
 operating system, and the OS distinguishes between these two conditions (running vs. Runnable in the
 OS run queue). From the JVM's perspective, both are `RUNNABLE`.
-</aside>
+:::
 ## Synchronized
 
 ### Intrinsic Locks (Monitors)
@@ -350,11 +350,11 @@ public class BoundedBuffer<V> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **spurious wakeups** -- a thread may return from `wait()` without `notify()` or `notifyAll()` being
 called. The condition must be re-checked after every wakeup. This is not a theoretical concern; it
 is mandated by the POSIX specification and the JLS.
-</aside>
+:::
 ## Volatile
 
 The `volatile` keyword provides a lighter-weight synchronization mechanism than `synchronized`. A
@@ -472,11 +472,11 @@ fixedPool.awaitTermination(10, TimeUnit.SECONDS);
 fixedPool.shutdownNow();  // forceful shutdown -- interrupts running tasks
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 for every submitted task when the pool is saturated, which means a sudden burst of 100,000 tasks
 creates 100,000 OS threads and almost certainly crashes the JVM with an
 `OutOfMemoryError: unable to create new native thread`. Always use a bounded pool.
-</aside>
+:::
 ### ThreadPoolExecutor: The Complete Picture
 
 `Executors` factory methods are thin wrappers around `ThreadPoolExecutor`. Understanding the
@@ -673,11 +673,11 @@ counts.forEach(2, (key, value) -> {
 });
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 reflects the state of the map at some point during or since the creation of the iterator. It will
 never throw `ConcurrentModificationException` and is guaranteed to see each element at most once,
 but it may miss elements that were added after the iterator was created.
-</aside>
+:::
 ### CopyOnWriteArrayList
 
 `CopyOnWriteArrayList` creates a new copy of the underlying array on every write operation. Reads
@@ -829,12 +829,12 @@ public final int incrementAndGet() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 classes can suffer from **cache line contention** (also called "false sharing"). Each failed CAS
 triggers a cache coherence protocol invalidation on the cache line holding the atomic variable,
 which can cause severe performance degradation. In extreme cases, a lock-based approach can
 outperform lock-free CAS.
-</aside>
+:::
 ## Explicit Locks
 
 ### ReentrantLock
@@ -920,11 +920,11 @@ public class ThreadSafeCache<K, V> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the read lock cannot acquire the write lock (it will deadlock). A thread holding the write lock can
 acquire the read lock (downgrade), but a thread holding the read lock cannot upgrade to the write
 lock.
-</aside>
+:::
 ### StampedLock
 
 `StampedLock`Introduced in JDK 8, provides an optimistic read mode that does not block writers. It
@@ -962,11 +962,11 @@ public class StampedLockCache<K, V> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `unlockWrite()` using the returned stamp. Losing the stamp or calling unlock with the wrong stamp
 will cause an `IllegalMonitorStateException`. Additionally, `StampedLock` does not support
 `Condition` variables.
-</aside>
+:::
 ## Synchronizers
 
 ### Semaphore
@@ -1012,9 +1012,9 @@ latch.await();  // blocks until all 3 countDown() calls
 System.out.println("All services initialized");
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 reusable version, use `CyclicBarrier`.
-</aside>
+:::
 ### CyclicBarrier
 
 A `CyclicBarrier` allows a set of threads to all wait for each other to reach a common barrier
@@ -1037,10 +1037,10 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **broken** and all other waiting threads receive a `BrokenBarrierException`. The barrier must be
 explicitly reset via `barrier.reset()` before it can be used again.
-</aside>
+:::
 ## Virtual Threads (Java 21+)
 
 ### Why Virtual Threads Change Everything
@@ -1127,7 +1127,7 @@ try {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `ReentrantLock``Semaphore``CountDownLatch`And all other `java.util.concurrent` synchronizers do NOT
 cause pinning. The JDK team has been progressively replacing internal uses of `synchronized` with
 `ReentrantLock` to eliminate pinning in the JDK itself. In JDK 24+, pinning from `synchronized` is
@@ -1220,4 +1220,5 @@ Concurrency is about managing multiple tasks that may execute interleaved on a s
 
 - [Concurrency Deep Dive](02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
 - [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency) -- Project Loom
-- [Collections Framework](../04-collections/01-collections-framework) -- ConcurrentHashMap and thread-safe collections</aside>
+- [Collections Framework](../04-collections/01-collections-framework) -- ConcurrentHashMap and thread-safe collections
+:::

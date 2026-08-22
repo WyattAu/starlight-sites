@@ -53,7 +53,7 @@ with (
     outfile.write(infile.read())
 ```
 
-<aside aria-label="If the second `with` statement fails (e.g., `open("output.txt", "w")` raises" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If the second `with` statement fails (e.g., `open("output.txt", "w")` raises</p>
+:::caution
 `PermissionError`), the first resource (`input.txt`) is still properly closed. This is a key
 Advantage over manual try/finally.
 
@@ -874,8 +874,7 @@ Context managers are like restaurant reservations: you book a table (open a reso
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Advanced Typing](./01-advanced-typing): Extends Python's type system with protocols and generics, which can be used to type context managers more precisely.

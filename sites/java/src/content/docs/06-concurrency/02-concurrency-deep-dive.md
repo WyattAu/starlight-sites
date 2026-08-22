@@ -205,10 +205,10 @@ public class Point {
 `long` stamp that must be used to unlock. This is a deliberate design choice — the lack of
 Reentrancy prevents certain deadlock patterns and allows the optimistic read mechanism.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Used with `Condition` or in `synchronized`-style patterns. Convert to a `ReadWriteLock` view via
 `asReadLock()` / `asWriteLock()` if needed.
-</aside>
+:::
 ## Condition
 
 `Condition` (from `java.util.concurrent.locks`) provides `await`/`signal` semantics similar to
@@ -258,10 +258,10 @@ public class BoundedBuffer<T> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Wake without a `signal`. The loop re-checks the condition. This is mandated by the Javadoc for
 `Object.wait` and `Condition.await`.
-</aside>
+:::
 ### Fair vs Non-fair Conditions
 
 The fairness of `Condition` follows the fairness of its associated `ReentrantLock`. A fair lock"s
@@ -448,10 +448,10 @@ String firstKey = wordCounts.search(4, (key, value) -&gt;
 long total = wordCounts.reduceValuesToLong(4, Long::longValue, 0, Long::sum);
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 And `null` values. This is a deliberate design decision — `null` is ambiguous in concurrent contexts
 (does `get(key)` returning `null` mean "key not found" or "value is null"?).
-</aside>
+:::
 ### `ConcurrentLinkedQueue`
 
 An unbounded, thread-safe, FIFO queue based on a linked list. Uses lock-free CAS for all operations.
@@ -485,9 +485,9 @@ for (EventListener listener : listeners) {
 listeners.add(newListener);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Iterator operates on a snapshot and does not reflect modifications made during iteration.
-</aside>
+:::
 ### Blocking Queues
 
 Blocking queues are designed for producer-consumer patterns. `put` blocks when full, `take` blocks
@@ -676,9 +676,9 @@ public void doGet(HttpServletRequest req, HttpServletResponse resp) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `finally` block. Threads are reused; stale values from a previous task will leak into the next task.
-</aside>
+:::
 ## Deadlock
 
 ### Prevention with Lock Ordering
@@ -870,10 +870,10 @@ pool.submit(() -&gt; {
 });
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Same pool. If the pool is fully utilized, all threads will be blocked waiting, and no thread will be
 Available to execute the inner tasks. This is called thread pool deadlock or starvation.
-</aside>
+:::
 ## Summary
 
 This topic covers the core concepts of concurrency deep dive, including underlying theory, practical

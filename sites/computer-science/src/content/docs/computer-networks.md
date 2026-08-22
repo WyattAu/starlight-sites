@@ -199,11 +199,11 @@ $$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \impl
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the range of frequencies The channel can carry; bit rate is the number of bits transmitted per
 second. Shannon's theorem Relates the maximum bit rate to bandwidth and SNR, but they are not
 interchangeable.
-</aside>
+:::
 ### 2.3 Multiplexing
 
 **Frequency-Division Multiplexing (FDM).** Divide bandwidth into non-overlapping frequency bands.
@@ -969,10 +969,10 @@ Total transmitted: 4040 bytes (40 bytes of additional headers due to fragmentati
 **Path MTU Discovery (PMTUD):** The sender sets the DF flag. If a router cannot forward, it returns
 ICMP "Fragmentation Needed" and the sender reduces packet size. Preferred over fragmentation.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 addresses and is valid for Point-to-point links with no network or broadcast address. A `/32` is a
 single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes of `/30` or shorter.
-</aside>
+:::
 ## 5. Transport Layer
 
 ### 5.1 UDP
@@ -1194,9 +1194,9 @@ $$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The ACK could correspond To either the original or the retransmission (retransmission ambiguity).
-</aside>
+:::
 <details>
 <summary>Worked Example: RTT Estimation</summary>
 
@@ -1470,10 +1470,10 @@ _Proof._ The sender cannot have more than the window size in unacknowledged data
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
 Per second. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
-</aside>
+:::
 ## 7. Network Security
 
 ### 7.1 Symmetric Encryption
@@ -1652,7 +1652,7 @@ A **Virtual Private Network** creates an encrypted tunnel over a public network.
 - Specific rules must precede general rules.
 - Stateful firewalls automatically allow return traffic for established connections.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 public key guarantees Confidentiality but does not prove who sent it. Digital signatures (signing
 with a private key) Provide authentication and non-repudiation. TLS combines both via the
 certificate chain.
@@ -1866,5 +1866,4 @@ Computer networking is the engineering discipline of getting data from point A t
 The genius of packet switching over circuit switching is that it makes efficient use of shared resources. Instead of dedicating a path for each conversation (wasteful for bursty traffic), packets are independently routed and reassembled at the destination. TCP's genius is making this unreliable infrastructure appear reliable: sequence numbers, acknowledgements, and retransmission timers turn an unreliable best-effort network into a reliable byte stream. The sliding window mechanism balances throughput against congestion — sending too much data overwhelms buffers and causes packet loss, while sending too little wastes bandwidth. TCP's congestion control algorithm (slow start, congestion avoidance, fast retransmit) is one of the most elegant feedback control systems ever designed.
 
 The internet works because of a carefully negotiated balance between decentralisation and coordination. BGP lets autonomous systems (ISPs, universities, companies) independently choose their routing policies while collectively maintaining global reachability. DNS provides a distributed, hierarchical naming system that scales to billions of devices. NAT extends the IPv4 address space by allowing many private devices to share a single public address. Every protocol is a negotiation between competing interests — performance vs reliability, security vs convenience, local control vs global interoperability — and understanding these trade-offs is the essence of networking.
-
-</aside>
+:::

@@ -21,13 +21,13 @@ coroutines. Select an answer, submit, and review the explanation.
 
 <PracticeProblem client:only="solid-js" question={"What does `val length: Int = name?.length` compile to when `name` is of type `String?`?&quot; options={[ 'Compilation error: Type mismatch (Int? vs Int)', '0', 'null', 'It compiles successfully', ]} correctAnswer={0} explanation='The safe call operator `?.` returns `null` if the receiver is null, so `name?.length` has type `Int?`. Assigning `Int?` to `Int` causes a compilation error: &quot;Type mismatch: inferred type is Int? but Int was expected.&quot; You need `val length: Int? = name?.length` or use a default.' difficulty=&quot;easy"}  />
 
-<PracticeProblem client:only="solid-js" question={"What does `val len = name?.length ?: 0` do when `name` is null?&quot; options={['Returns 0', 'Throws NullPointerException', 'Returns -1', 'Compilation error']} correctAnswer={0} explanation=&quot;The elvis operator `?:` provides a default value when the left side is null. If `name` is null, `name?.length` is null, so the elvis operator returns 0. This is a common Kotlin idiom for handling nullable types."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What does `val len = name?.length ?: 0` do when `name` is null?&quot; options={['Throws NullPointerException','Returns -1','Compilation error','Returns 0']} correctAnswer={3} explanation=&quot;The elvis operator `?:` provides a default value when the left side is null. If `name` is null, `name?.length` is null, so the elvis operator returns 0. This is a common Kotlin idiom for handling nullable types."} difficulty="easy"  />
 
 ---
 
 ### Scope Functions
 
-<PracticeProblem client:only="solid-js" question='What does `val x = "hello".let { it.uppercase() }` return?' options={['\"HELLO\"', '\"hello\"', 'Unit', 'Compilation error']} correctAnswer={0} explanation='`let` executes the lambda with the receiver as `it`, and returns the lambda&apos;s result. `"hello".let { it.uppercase() }` calls `uppercase()` on "hello", returning "HELLO".' difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question='What does `val x = "hello".let { it.uppercase() }` return?' options={['\'hello\'','Unit','\'HELLO\'','Compilation error']} correctAnswer={2} explanation='`let` executes the lambda with the receiver as `it`, and returns the lambda&apos;s result. `"hello".let { it.uppercase() }` calls `uppercase()` on "hello", returning "HELLO".' difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What is the difference between `apply` and `also`?&quot; options={[ 'apply uses `this` as context; also uses `it` as argument — both return the receiver object', 'apply returns the lambda result; also returns the receiver', 'There is no difference', 'apply is for nullable types; also is for non-null', ]} correctAnswer={0} explanation=&quot;Both `apply` and `also` return the receiver object (not the lambda result). The difference is: `apply` uses `this` as the context object inside the block (useful for configuring objects), while `also` uses `it` as the lambda argument (useful for side effects like logging)."} difficulty="medium"  />
 

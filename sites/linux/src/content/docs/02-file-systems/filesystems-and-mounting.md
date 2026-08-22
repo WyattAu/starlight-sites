@@ -326,7 +326,7 @@ xfs_freeze -u /mount/point
 xfs_fsr /mount/point/path/to/file
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
 ## Btrfs
@@ -427,9 +427,8 @@ btrfs balance start -dconvert=raid1 -mconvert=raid1 /mnt/btrfs
 btrfs scrub start /mnt/btrfs
 btrfs scrub status /mnt/btrfs
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Btrfs documentation recommends against using RAID 5/6 in production. Use RAID 1 or RAID 10 instead.
 
 ### When to Use Btrfs
@@ -799,5 +798,4 @@ linked above.
 - [LVM and Disk Partitioning](../lvm-and-disk-partitioning) -- LVM creates logical volumes that are formatted with file systems and mounted.
 - [Core Utilities](../01-cli-fundamentals/core-utilities) -- Commands like mount, df, and du are essential for file system management.
 - [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Automating mount operations and file system checks is done through bash scripts.
-
-</aside>
+:::

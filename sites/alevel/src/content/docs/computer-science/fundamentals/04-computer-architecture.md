@@ -61,10 +61,10 @@ Its own bus.
 | Self-modifying code | Possible (in theory)      | Not possible                          |
 | Modern usage        | General-purpose computers | DSPs, microcontrollers, cache systems |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Cache is split into instruction cache and data cache (Harvard), while main memory is unified (Von
 Neumann).
-</aside>
+:::
 <hr />
 
 ## 3. CPU Components
@@ -101,11 +101,11 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 | **CIR**  | Current Instruction Register | Holds the instruction currently being decoded      |
 | **IR**   | Instruction Register         | Synonym for CIR (board-dependent naming)           |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** uses: PC, MAR, MDR, ACC, CIR
 - **CIE** uses: PC, MAR, MDR, ACC, IR, B (B register as temporary)
 - **OCR** uses: PC, MAR, MDR, ACC, CIR, and may reference index registers
-</aside>
+:::
 **General Purpose Registers (GPRs):** Additional registers for temporary storage during computation.
 The number varies by architecture (e.g., ARM has 16, x86-64 has 16).
 
@@ -384,9 +384,9 @@ Cycles. Emphasis on hardware complexity.
 | Code density       | Lower (more instructions) | Higher (fewer instructions)   |
 | Power consumption  | Lower                     | Higher                        |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 RISC-like Internal micro-operations).
-</aside>
+:::
 <hr />
 
 ## Problem Set

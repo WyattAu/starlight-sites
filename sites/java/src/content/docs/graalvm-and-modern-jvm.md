@@ -44,11 +44,11 @@ JNI mechanism with a type-safe, allocation-tracking API that is practically usab
 | Truffle Framework    | API for building high-performance language runtimes  | Production           |
 | VisualVM Integration | Profiling and diagnostics for Graal-compiled code    | Production           |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 As a standard JDK component. You no longer need a separate GraalVM distribution to build native
 Images. The Graal JIT compiler has been available as an experimental tier-4 compiler in OpenJDK
 Since JDK 10.
-</aside>
+:::
 ## The Graal Compiler
 
 ### Graal JIT vs C2 JIT
@@ -278,7 +278,7 @@ Native image classifies every class into one of two initialization times:
 By default, most JDK classes are initialized at build time. Application classes are initialized at
 Runtime unless they are reachable from build-time-initialized classes.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Static initializer opens a file, creates a thread, or accesses environment variables, these actions
 Execute on the build machine, not the deployment target. Use `--initialize-at-build-time` and
 `--initialize-at-run-time` flags explicitly to control this:
@@ -288,8 +288,7 @@ native-image --initialize-at-build-time=com.example.Config \
              --initialize-at-run-time=com.example.DbConnection \
              -jar myapp.jar
 ```
-
-</aside>
+:::
 ### Conditional Feature Analysis
 
 GraalVM native image supports conditional features through feature classes that hook into the build
@@ -368,11 +367,11 @@ Reasons are:
 | Crypto workloads     | Baseline           | 70-90% of HotSpot       |
 | Short-lived CLI tool | N/A (warmup kills) | 10-100x faster overall  |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Release. For I/O-bound server applications, native image now matches or exceeds HotSpot performance
 For most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
 HotSpot's adaptive optimization has time to produce highly specialized code.
-</aside>
+:::
 ## Foreign Function and Memory API (Project Panama)
 
 ### Overview
@@ -607,11 +606,11 @@ public class LibCurlExample {
 | Performance        | Good (direct call after linking) | Comparable (downcall stubs are fast)    |
 | Safety             | Undefined behavior on misuse     | Bounds-checked, null-checked            |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 If misused. These methods perform bounds checks and null checks, but cannot prevent all undefined
 Behavior (e.g., passing a freed segment to a native function). The `@Restricted` annotation serves
 As a warning: you are leaving the safety guarantees of the Java platform.
-</aside>
+:::
 ## Foreign Memory Access
 
 ### Arena-Based Memory Management
@@ -803,10 +802,10 @@ public class OffHeapRingBuffer {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Closed in the constructor, making the segment inaccessible. In practice, the arena must outlive the
 Data structure. Use a shared arena or hold a reference to the arena as a field.
-</aside>
+:::
 ## Vector API (Incubator)
 
 ### Overview
@@ -900,9 +899,9 @@ Speedup over scalar code on hardware with AVX2/AVX-512 support. The key advantag
 Intrinsics is portability: the same Java code runs on x86 (AVX2/AVX-512), ARM (NEON/SVE), and other
 Architectures, with the JIT compiler selecting the appropriate instructions at runtime.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Still in incubator status as of JDK 23. The API surface may change before final standardization.
-</aside>
+:::
 ## Virtual Threads (Project Loom)
 
 Virtual threads are covered in depth in
@@ -1022,9 +1021,9 @@ Prototypes). Its instances have no identity -- there is no concept of reference 
 Synchronization, and no null instances. Two value instances with the same field values are
 Considered equal.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Before finalization. The examples below reflect the current preview state.
-</aside>
+:::
 ### Identity Classes vs Value Classes
 
 | Property            | Identity Class (today) | Value Class (Valhalla)       |
@@ -1133,10 +1132,10 @@ native-image --version
 # native-image 22.0.2
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 GraalVM distribution. Install a JDK that includes native-image support (look for "GraalVM" in the
 Vendor name when using SDKMAN, or download from the GraalVM GitHub releases).
-</aside>
+:::
 ### Building a Native Image: Step by Step
 
 **Step 1**: Create a simple Java application:
@@ -1238,7 +1237,6 @@ mvn -Pnative native:compile
 ./target/myapp --test
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
 Takes 30-120 seconds, which makes the test cycle too slow. Test business logic in JVM mode, and use
 The native image binary only for integration tests and final validation.
 
@@ -1475,8 +1473,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>## Cross-References
+:::## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
 - **[Java Basics](flashcards-java-basics):** Fundamental Java concepts including types and control flow.

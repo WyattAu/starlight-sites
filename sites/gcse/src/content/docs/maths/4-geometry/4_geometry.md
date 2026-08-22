@@ -536,7 +536,7 @@ Triangles are **congruent** if they are identical in shape and size. The conditi
 | Two angles and a corresponding side | AAS          |
 | Right angle, hypotenuse, one side   | RHS          |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Produce two different triangles.
 
 ### 6.2 Similar Triangles
@@ -762,8 +762,7 @@ theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::
 
 ## See Also
 

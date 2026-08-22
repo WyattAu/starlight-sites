@@ -79,10 +79,10 @@ When ZFS reads a block, it:
 | edonr     | Very Fast | Very High            | Best for modern hardware (SSE4.2+) |
 | blake3    | Very Fast | Very High            | Available on newer ZFS versions    |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ support and provides
 Excellent collision resistance.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -149,10 +149,10 @@ Set at pool creation time and cannot be changed afterward.
 | 13     | 8 KB        | Some modern SSDs with 8 KB physical sectors |
 | 14     | 16 KB       | Advanced-format SMR drives                  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 With 4 KB physical sectors causes read-modify-write amplification, devastating performance. On
 TrueNAS, the default `ashift` is 12, which is correct for virtually all modern drives.
-</aside>
+:::
 ### Pool Creation Examples
 
 ```bash
@@ -226,10 +226,10 @@ Variable-size blocks up to this maximum. The optimal recordsize depends on the w
 | General file storage               | 128K                   | Good balance for mixed workloads                 |
 | NFS home directories               | 128K                   | Mixed workload, default is fine                  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Retain their original block sizes. To benefit from a recordsize change, you must rewrite the data
 (e.g., copy files to a new dataset with the desired recordsize).
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -359,11 +359,11 @@ A dedicated SLOG device ( a low-latency NVMe SSD or Intel Optane) absorbs synchr
 speed, then asynchronously flushes them to the pool. This dramatically improves NFS And database
 write performance on HDD-based pools.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Synchronous write can lose acknowledged data, violating the sync guarantee. Intel Optane DC
 Persistent memory is the gold standard for SLOG devices. Enterprise NVMe SSDs with PLP are also
 Acceptable. Consumer NVMe SSDs without PLP should not be used as SLOG devices.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -417,10 +417,10 @@ zpool replace tank /dev/sda /dev/sdb
 zpool status tank
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 RAIDZ1 pool, all data is lost. For RAIDZ2, you can tolerate a second failure. Always monitor
 Resilver progress and ensure the pool is healthy before and after.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -777,9 +777,9 @@ zfs rollback tank/data@daily-2024-01-10
 zfs rollback -rf tank/data@daily-2024-01-10
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Target snapshot. Use `zfs clone` instead if you want to preserve the current state.
-</aside>
+:::
 ## ZFS Send/Receive Advanced Usage
 
 ### Raw Send for Encrypted Datasets
@@ -856,7 +856,7 @@ zpool import <guid>
 zpool import -f tank
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 It as active on the original system, preventing import on the new system. Use `zpool export -f` to
 Force export if necessary.
 
@@ -1090,8 +1090,7 @@ ZFS is not just a filesystem but a complete storage management system that combi
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Sharing and Permissions](../02-sharing-and-permissions/sharing-and-permissions) -- ZFS datasets are shared through protocols like SMB and NFS, connecting pool management to file access.

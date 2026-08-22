@@ -372,7 +372,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 
 ### 3.8 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Singularities.** When applying Green's, Stokes', or the Divergence theorem, verify that the
   field has continuous partial derivatives on the region (including interior). If there are
   singularities inside the region, the theorems do not apply directly; the singularity must be
@@ -429,5 +429,4 @@ $$\int_{\partial \Omega} \omega = \int_{\Omega} d\omega$$
 
 Where $\Omega$ is a $k$-dimensional manifold with boundary $\partial \Omega$, $\omega$ is a
 $(k-1)$-form, And $d\omega$ is its exterior derivative.
-
-</aside>
+:::

@@ -47,7 +47,7 @@ Benchmark:
 | 11   | Distribution Independence       | Applications unaffected by data distribution                                      |
 | 12   | Nonsubversion                   | Low-level language cannot bypass integrity constraints                            |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Through arbitrary views, especially those involving joins, aggregations, or DISTINCT.
 
 ## Relations, Tuples, Attributes, and Domains
@@ -87,9 +87,8 @@ CREATE DOMAIN age_domain AS INTEGER
 CREATE DOMAIN email_domain AS VARCHAR(255)
   CHECK (VALUE ~ '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$');
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Attach `CHECK` constraints directly to columns. Using domains centralises validation logic and
 Prevents inconsistency across tables.
 
@@ -200,9 +199,8 @@ Combines every tuple from one relation with every tuple from another. Denoted $R
 ```sql
 SELECT * FROM Employee CROSS JOIN Department;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 With millions of rows, an accidental Cartesian product (missing JOIN condition) will produce
 Trillions of rows and exhaust memory.
 
@@ -393,9 +391,8 @@ Satisfies 1NF:
 | 1          | Physics    |
 | 1          | Chemistry  |
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 To query individual elements or enforce referential integrity on array elements, model them as
 Separate rows.
 
@@ -460,9 +457,8 @@ Fix: split into:
   Teaching(instructor, course)
   StudentInstructor(student, instructor)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is
 The practical compromise.
 
@@ -532,9 +528,8 @@ Denormalised:
   - Data inconsistency risk
   - More storage consumed
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Denormalise specific bottlenecks. Premature denormalisation creates maintenance burden that is far
 More expensive than the joins it eliminates.
 
@@ -873,22 +868,6 @@ Step 8: BCNF? All determinants are superkeys. ✓
 This systematic approach prevents the common mistake of over-normalising (splitting tables that have
 No redundancy) or under-normalising (leaving transitive dependencies that cause update anomalies).
 
-## Summary
-
-This topic covers the essential chemistry of relational theory, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -899,5 +878,4 @@ linked above.
 - [Normalization](normalization) - How normal forms apply relational theory to eliminate redundancy
 - [SQL](../02-sql-fundamentals/sql) - The query language that implements relational algebra and relational calculus
 - [Data Modeling](../06-database-design/data-modeling) - How conceptual models map to the relational structures described here
-
-</aside>
+:::

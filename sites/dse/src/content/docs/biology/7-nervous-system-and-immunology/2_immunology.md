@@ -585,7 +585,7 @@ quantify specific antigens (or antibodies) in a sample.
 | Duration        | Long-lasting (years to lifetime)   | Short-lived (weeks to months)             |
 | Boosters        | Booster doses extend immunity      | Cannot be boosted (no memory cells)       |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 and between natural and artificial immunity. Remember: "active" means the body MAKES its own
 antibodies; "passive" means the body RECEIVES pre-made antibodies. "Natural" means the exposure
 occurred (infection or maternal transfer); "artificial" means the exposure was deliberate
@@ -875,9 +875,8 @@ antigens, attacking the body's own tissues.
 | Replacement therapy     | Insulin for Type 1 diabetes; thyroxine for Hashimoto's thyroiditis                                      |
 | Monoclonal antibodies   | Targeted antibodies that block specific immune pathways (e.g., anti-TNF-alpha for rheumatoid arthritis) |
 | Plasmapheresis          | Filtering blood to remove autoantibodies and immune complexes                                           |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 which covers immune system topics within the DSE specification.
 
 See for instructions on
@@ -1282,8 +1281,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

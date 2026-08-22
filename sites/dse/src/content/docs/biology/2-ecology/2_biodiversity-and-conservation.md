@@ -394,10 +394,10 @@ New species arise without geographic separation. Mechanisms include:
   same area (e.g., different host plants for insects)
 - **Sexual selection:** Different mating preferences or displays lead to reproductive isolation
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 interrupted, Describe the different selection pressures on each population, and explain how
 reproductive Isolation arises.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -728,10 +728,10 @@ Triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to 
 | Decomposition / ammonification | Decomposers break down dead organisms and urea/excreted waste, releasing ammonia ($\mathrm{NH}_3$)        | Decomposer bacteria and fungi                                                                                    |
 | Denitrification                | Nitrate ($\mathrm{NO}_3^-$) is converted back to $\mathrm{N}_2$ gas, returning it to the atmosphere       | Denitrifying bacteria (e.g., _Pseudomonas_, _Paracoccus_)                                                        |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 nitrogen in the Form of nitrate ($\mathrm{NO}_3^-$) or ammonium ($\mathrm{NH}_4^+$) ions through
 their roots. Atmospheric nitrogen must first be fixed by bacteria or lightning.
-</aside>
+:::
 ### The Water Cycle
 
 The water cycle describes the continuous movement of water between the atmosphere, land, and oceans,
@@ -1232,7 +1232,7 @@ diversity in a small, inbred population.
 | Habitat restoration           | Restoring degraded ecosystems to increase resilience and absorb climate refugees                                    |
 | Reducing greenhouse emissions | The most important long-term strategy; transitioning to renewable energy; reducing deforestation                    |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
@@ -1611,8 +1611,7 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

@@ -123,7 +123,7 @@ unsafe {
 assert_eq!(arr, [20, 40, 60, 80, 100]);
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 The resulting pointer is not dereferenced. `ptr.add(len)` is UB if the pointer does not point to an
 Allocation of at least `len` elements.
 
@@ -211,9 +211,8 @@ struct MyType {
 unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Only do this when you can rigorously prove thread safety. This requires that the raw Pointer is only
 accessed through a synchronization mechanism (mutex, atomic, etc.) that the compiler Cannot see.
 
@@ -462,9 +461,8 @@ impl<'a> Interner<'a> {
     }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 A lifetime tied to the arena, which is correct as long as the arena outlives all interned
 References. If the arena is dropped while interned references exist, they become dangling.
 
@@ -660,9 +658,8 @@ impl Buffer {
     }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Byte of the `MaybeUninit` has been written to before calling `assume_init()`. Use `write_bytes`
 Individual `write()` calls, or `ptr::copy_nonoverlapping` to initialize the memory.
 
@@ -923,28 +920,11 @@ When reviewing code that uses `unsafe`Verify:
 9. The code has been tested with `miri`
 10. The code has been fuzz tested for edge cases
 
-## Summary
-
-This topic covers the biological principles of unsafe rust, including key concepts, experimental
-evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

@@ -379,7 +379,7 @@ cd package
 makepkg -si               # build and install
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Especially packages that modify system files or run install hooks. Use a helper that supports
 PKGBUILD inspection.
 
@@ -882,8 +882,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

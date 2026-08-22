@@ -112,7 +112,7 @@ class  C { int x; };    // x is private
 static_assert(sizeof(S) == sizeof(C));
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `class` for types that maintain invariants and require encapsulation.
 
 ## 2.3 Friend Declarations [N4950 S14.3]
@@ -820,5 +820,4 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

@@ -113,10 +113,10 @@ $500\ \mathrm{cm^3}$ at rest). Breathing rate is the number of breaths per minut
 At rest). Resting ventilation rate is therefore approximately
 $500 \times 15 = 7500\ \mathrm{cm^3\ min^{-1}}$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 ($\approx 4500\ \mathrm{cm^3}$). Residual volume is the air remaining in the lungs after maximum
 Exhalation ($\approx 1500\ \mathrm{cm^3}$).
-</aside>
+:::
 ## 3. Gas Exchange in Other Organisms
 
 ### 3.1 Insects: The Tracheal System
@@ -219,11 +219,11 @@ Phloem consists of:
    raising the water potential. Water leaves the sieve tube by osmosis.
 4. The pressure gradient drives bulk flow (mass flow) of sap from source to sink.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 diffusion, and some Solutes appear to move bidirectionally, which the model does not explain. The
 current Consensus is that mass flow is the primary mechanism but is supplemented by cytoplasmic
 streaming And active transport.
-</aside>
+:::
 ### 4.3 Transpiration
 
 Transpiration is the evaporation and loss of water vapour from the aerial parts of a plant,
@@ -291,9 +291,9 @@ The cardiac cycle describes the sequence of events in one heartbeat:
 Atrial systole; ventricular pressure rises sharply during ventricular systole (exceeding aortic
 Pressure to open the SL valves); aortic pressure peaks during ejection and falls during diastole.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 towards the arteries at The top of the heart.
-</aside>
+:::
 ### 5.4 Cardiac Output
 
 $$\mathrm{Cardiac\ output} = \mathrm{stroke\ volume} \times \mathrm{heart\ rate}$$
@@ -441,12 +441,12 @@ means that organisms living in water face a fundamentally more challenging gas e
 air-breathing organisms, which is why fish gills must be extremely efficient (countercurrent Flow,
 large surface area) to extract sufficient $\mathrm{O_2}$ from water.
 
-<aside aria-label="Common Pitfall Students often state that gas exchange is faster in air "because air is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that gas exchange is faster in air "because air is</p>
+:::caution
 less dense." While this is directionally correct, the precise reason is that the diffusion
 coefficient in air is Approximately four orders of magnitude larger than in water. This is a
 consequence of the kinetic theory Of gases: gas molecules travel further between collisions in a gas
 than in a liquid.
-</aside>
+:::
 ## 8. Water Potential Calculations
 
 ### 8.1 Osmosis and Water Potential
@@ -519,11 +519,11 @@ At equilibrium (no net water movement), $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{so
 $\Psi_p = 0$ (the cell is at the point of incipient plasmolysis). Therefore,
 $\Psi_s \approx -414\ \mathrm{kPa}$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 solute potential Of the solution, not the cell. The cell's solute potential is only equal to this
 value at equilibrium When $\Psi_p = 0$. In a turgid cell, $\Psi_p > 0$ and $\Psi_{\mathrm{cell}}$ is
 less negative than $\Psi_s$.
-</aside>
+:::
 ## 9. Detailed Cardiac Cycle and Pressure Curves
 
 ### 9.1 Pressure Relationships
@@ -598,12 +598,12 @@ achieved Primarily through increased heart rate (from 68 to $195\ \mathrm{beats\
 of $2.9\times$) And increased stroke volume (from 72 to $100\ \mathrm{cm^3}$A factor of
 $1.4\times$).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 multiplicatively And state the increase as $2.9 \times 1.4 = 4.1\times$. While this gives
 approximately the right answer, The correct approach is to calculate the cardiac output at each
 state separately and then compare, as Shown above. This avoids rounding errors and is
 methodologically correct.
-</aside>
+:::
 ## 10. The Chloride Shift and Bicarbonate Buffer System
 
 ### 10.1 Mechanism of $\mathrm{CO_2}$ Transport in Detail
@@ -634,11 +634,11 @@ $\mathrm{HCO_3^-}$ to form $\mathrm{H_2CO_3}$Which is broken down by carbonic an
 $\mathrm{CO_2}$ and $\mathrm{H_2O}$. The $\mathrm{CO_2}$ diffuses out into the alveolar air.
 $\mathrm{Cl^-}$ exits the red blood cell (reverse chloride shift).
 
-<aside aria-label="Common Pitfall Students sometimes write that $\mathrm{CO_2}$ "binds to haemoglobin" in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes write that $\mathrm{CO_2}$ "binds to haemoglobin" in</p>
+:::caution
 the same way That $\mathrm{O_2}$ does. $\mathrm{CO_2}$ binds to the amino groups of the globin
 chains (forming Carbaminohaemoglobin), not to the haem groups. $\mathrm{O_2}$ binds to the iron in
 the haem groups. These are distinct binding sites and mechanisms.
-</aside>
+:::
 ## Practice Problems
 
 <details>
@@ -1021,12 +1021,12 @@ villi.
 The $P_{50}$ value is the partial pressure of $\mathrm{O_2}$ at which haemoglobin is 50% saturated.
 A lower $P_{50}$ means higher affinity (the curve is shifted to the left).
 
-<aside aria-label="Common Pitfall Students often confuse "left shift" and "right shift" of the oxygen" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse "left shift" and "right shift" of the oxygen</p>
+:::caution
 dissociation curve. Remember: **L**eft = **L**oads $\mathrm{O_2}$ more readily (high affinity, e.g.,
 foetal Hb, low temperature, low $\mathrm{CO_2}$). **R**ight = **R**eleases $\mathrm{O_2}$ more
 readily (low affinity, e.g., adult Hb in muscle, high temperature, high $\mathrm{CO_2}$High
 2,3-BPG).
-</aside>
+:::
 ## 15. Plant Transport: Advanced Topics
 
 ### 15.1 Xylem Structure and Adaptations
@@ -1492,7 +1492,7 @@ At the venous end:
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Exchange
@@ -1500,7 +1500,7 @@ and Transport with other biology topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</aside>
+:::
 ## 22. Adaptations to Extreme Environments
 
 ### 22.1 High Altitude Adaptations
@@ -1686,11 +1686,11 @@ In the lungs (reverse Bohr effect):
 | Effect on $\mathrm{O_2}$ gradient    | Maintains a diffusion gradient along the entire length of the lamella; blood always meets water with a higher $\mathrm{O_2}$ concentration |
 | $\mathrm{O_2}$ extraction efficiency | Approximately 80--90% of dissolved $\mathrm{O_2}$ is removed from water (compared to only ~50% in a concurrent system)                     |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 direction. Equilibrium is reached quickly and no further diffusion occurs. In countercurrent
 exchange, a gradient is maintained along the entire length, maximising diffusion. Always specify
 countercurrent in your answers about fish gills.
-</aside>
+:::
 ## 28. Gas Exchange in Insects
 
 ### 28.1 The Tracheal System

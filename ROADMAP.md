@@ -222,6 +222,108 @@ Estimated total: quarter+.
 
 ---
 
+## P-K -- Content and architecture corruption fixes
+
+Discovered 2026-08-22 via adversarial content audit. 32% of content files
+(1,066 of 3,331) contain at least one corruption pattern. Estimated total:
+3-5 days scripting + 1-2 days verification.
+
+### K-1: Template contamination removal (86 files)
+
+- [x] Run `scripts/fix-template-contamination.js` to remove auto-generated
+  Summary sections that insert wrong-subject boilerplate (chemistry summaries
+  in databases/Java/Linux/networking files, biology in Rust/Python files,
+  Git in shell-basics files).
+- [x] Verify no legitimate summary content was removed (spot-check 10 files).
+- **Effort:** 0.5 day.
+- **Exit criteria:** `rg "essential chemistry of" sites/{databases,linux,java,rust,python,networking}/` returns zero matches.
+- **Script:** `scripts/fix-template-contamination.js`
+
+### K-2: Starlight aside conversion (809 files)
+
+- [x] Run `scripts/fix-starlight-asides.js` to convert raw HTML
+  `<aside class="starlight-aside--note">` (and variants) to Starlight's
+  native `:::note` / `:::tip` / `:::caution` / `:::danger` callout syntax.
+- [x] Run v2 and v3 passes for aria-label variants.
+- [x] Unwrap 6 oversized callouts (entire sections wrapped in :::note).
+- **Effort:** 1 day (script + verify).
+- **Exit criteria:** `rg -l "starlight-aside" sites/*/src/content/docs/` returns zero matches.
+- **Script:** `scripts/fix-starlight-asides.js`, `fix-starlight-asides-v2.js`, `fix-starlight-asides-v3.js`
+
+### K-3: Practice problem answer distribution (144 files)
+
+- [x] Run `scripts/fix-answer-distribution.js` to shuffle correctAnswer
+  positions across practice files so the correct answer is not always
+  option 0.
+- [x] Verify no answer-content mismatches after shuffle (cross-check
+  correctAnswer index against options array).
+- **Effort:** 0.5 day.
+- **Exit criteria:** No file has correctAnswer=0 for more than 50% of its problems.
+- **Script:** `scripts/fix-answer-distribution.js`
+
+### K-4: Thin stub index pages (212 files)
+
+- [x] Run `scripts/fix-thin-stubs.js` to remove or expand stub index pages
+  that are identical boilerplate ("This section provides study materials
+  and resources for [topic]") with no real content.
+- [x] For stubs under 1KB: delete the file if the parent has child pages
+  that render their own content; expand if the index is the only page.
+- **Effort:** 0.5 day.
+- **Exit criteria:** `rg -l "This section provides study materials and resources for" sites/*/src/content/docs/ | xargs wc -l` shows no file under 50 lines.
+- **Script:** `scripts/fix-thin-stubs.js`
+
+### K-5: Dead code in handlers.js
+
+- [x] Remove orphaned duplicate of `handleHealth()` at lines 229-264 of
+  `search-api/handlers.js` (dead code at module scope, merge conflict residue).
+- **Effort:** 5 minutes.
+- **Exit criteria:** `node -c search-api/handlers.js` exits 0; no orphaned
+  code blocks at module scope.
+- **File:** `search-api/handlers.js:229-264`
+
+### K-6: Merged index .gitignore
+
+- [x] Add `search-api/merged-index.js` and `search-api/merged-index.json`
+  to `.gitignore`.
+- [ ] Remove from git tracking: `git rm --cached search-api/merged-index.js search-api/merged-index.json`
+- **Effort:** 5 minutes.
+- **Exit criteria:** `git ls-files search-api/merged-index.*` returns empty.
+- **File:** `.gitignore`
+
+### K-7: Civics numbering fix
+
+- [x] Fix broken question numbering in
+  `sites/civics-tests/src/content/docs/us-citizenship/civics-questions.md`
+  (numbering restarts at 2 within subsections instead of continuing).
+- **Effort:** 15 minutes (manual, 30 questions).
+- **Exit criteria:** Sequential numbering 1-N without restarts.
+- **File:** `sites/civics-tests/src/content/docs/us-citizenship/civics-questions.md`
+
+### K-8: Head.astro decomposition
+
+- [ ] Extract JSON-LD schema generation (lines 122-191) into
+  `shared/components/starlight/JsonLd.astro`.
+- [ ] Extract site navigator overlay (lines 318-361) into
+  `shared/components/starlight/SiteNavigator.astro`.
+- [ ] Extract service worker registration (lines 284-312) into
+  `shared/components/starlight/ServiceWorker.astro`.
+- [ ] Head.astro should import and compose these sub-components.
+- [ ] Run `sync-shared.mjs` to propagate to all sites.
+- **Effort:** 1 day.
+- **Exit criteria:** Head.astro < 200 lines; each extracted component
+  is independently testable; `bun run build:site` passes on sample site.
+- **Files:** `shared/components/starlight/Head.astro`, new sub-components
+
+### K-9: SAT content corruption check
+
+- [ ] Verify the reported "quadratic" -> "n" corruption in SAT content
+  (audit found no evidence in current codebase, but sample was inconclusive).
+- [ ] If found: write fix script. If not: add regression lint.
+- **Effort:** 0.5 day.
+- **Exit criteria:** All SAT math content verified correct.
+
+---
+
 ## Completed work summary
 
 The following phases are complete. For full history, see `.reports/`.

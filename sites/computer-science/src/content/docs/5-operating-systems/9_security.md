@@ -100,12 +100,11 @@ Addresses using shadow stacks.
 - Implemented in LLVM via `-fsanitize=cfi`.
 - Hardware support: Intel CET (Control-flow Enforcement Technology).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 single mechanism is Insufficient. A determined attacker who can read memory can defeat ASLR; a
 format string Vulnerability can leak canary values; and JIT compilers require
 writable-and-executable pages.
-
-</aside>
+:::
 ### 9.4 Privilege Separation in Practice
 
 Privilege separation divides a program into components running at different privilege levels, limiting

@@ -75,7 +75,7 @@ let result = panic::catch_unwind(may_panic);
 assert!(result.is_err());
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Across FFI boundaries (panics through C callbacks are undefined behavior). It is also not a
 Substitute for proper error handling — use it sparingly, for plugin systems or process Isolation.
 
@@ -90,9 +90,8 @@ let result: Result<i32, &str> = Ok(10);
 result.unwrap();        // 10 — panics on Err
 result.expect("parse should succeed"); // 10 — panics with message on Err
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Value should exist and makes debugging easier when the panic occurs.
 
 ### When `unwrap` Is Acceptable
@@ -870,8 +869,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Rust uses Result<T, E> instead of exceptions. The ? operator propagates errors up the call stack concisely. Option<T> handles nullable values without null pointer exceptions. This explicit error handling makes failure paths visible in function signatures, forcing callers to handle errors. The type system ensures you cannot accidentally ignore a Result, and the compiler guides you toward proper error recovery patterns.

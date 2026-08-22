@@ -781,7 +781,7 @@ Significant.
 | Context             | What biographical, historical, cultural, or literary context is relevant? How does context illuminate specific features of the poem?          |
 | Theme               | What is the poem's central concern? What proposition does it advance about that concern? How does the form shape the expression of the theme? |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [A Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis.md) and
 [Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis.md).
 The analytical techniques described in this guide apply equally to prose and drama.
@@ -806,8 +806,7 @@ performance in this area.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

@@ -430,7 +430,7 @@ Both encrypt DNS queries between the client and the resolver, preventing eavesdr
 Manipulation of DNS responses in transit. They do not encrypt queries between the resolver and the
 Authoritative name server.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Logging, filtering, or manipulating queries. Choose a resolver you trust (e.g., your own), and
 Understand the privacy policy of any third-party resolver.
 
@@ -812,9 +812,8 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 | NXDOMAIN burst               | DGA malware, recon scanning               | NXDOMAIN response rate         |
 | Queries to TLDs not in use   | Malware C2, suspicious resolution         | TLD distribution analysis      |
 | Late-night DNS activity      | Compromised host beaconing                | Time-based query analysis      |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Architecture), RFC 6014 (DNSSEC Operational Practices), RFC 7208 (SPF), RFC 6376 (DKIM), RFC 7489
 (DMARC), RFC 8446 (TLS 1.3), RFC 8484 (DNS over HTTPS), IEEE 802.1X (Port-Based Network Access
 Control), MITRE ATT&CK (Tactic: Lateral Movement).
@@ -839,8 +838,7 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

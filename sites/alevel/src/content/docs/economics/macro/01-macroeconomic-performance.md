@@ -58,10 +58,10 @@ $\mathrm{output} \equiv \mathrm{income} \equiv \mathrm{expenditure}$ holds by ac
 Inventories are treated as investment (if produced but unsold, counted as $I$), and taxes/subsidies
 Adjust market prices to factor costs. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 now include estimates Of the shadow economy). This means GDP underestimates total economic activity,
 particularly in Countries with large informal sectors.
-</aside>
+:::
 ### 1.3 Real vs Nominal GDP
 
 **Nominal GDP** is measured at current prices. **Real GDP** adjusts for price changes using a price
@@ -114,11 +114,11 @@ Debt, productivity) eventually constrain growth. It also highlights a limitation
 Growth came with severe environmental costs, massive income inequality (urban-rural divide), and
 Significant debt accumulation.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 economies. OCR Requires understanding of the difference between **GDP** (output within borders) and
 **GNI** (income Earned by nationals, including net income from abroad). GNI is particularly relevant
 for countries Like the Philippines or India, where remittances are a large share of national income.
-</aside>
+:::
 ### 1.7 Evaluation: GDP as a Performance Indicator
 
 When evaluating GDP as a measure of economic performance, consider the following:
@@ -196,11 +196,11 @@ Interest payments, which means that when the Bank of England raises interest rat
 Inflation, RPI tends to rise further (because mortgage costs increase), creating a perverse feedback
 Loop.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 to focus on CPI alone but may ask about measurement issues more broadly. OCR may ask about the
 implications of Using RPI for index-linked bonds — since RPI overstates inflation, bondholders
 receive higher Payments, increasing government debt costs.
-</aside>
+:::
 ### 2.3 Causes of Inflation
 
 **Demand-pull inflation**: caused by excess aggregate demand.
@@ -261,11 +261,11 @@ The Bank of England responded by raising the base rate from 0.1% (December 2021)
 2023). By late 2024, inflation had fallen back towards the 2% target, though services inflation
 Remained sticky due to persistent wage growth.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 students with a Data-response question featuring inflation statistics from a specific country. OCR
 has previously Examined the role of supply-side shocks in causing stagflation (rising inflation with
 falling Output).
-</aside>
+:::
 ### 2.6 Evaluation: The Costs of Inflation
 
 When evaluating the costs of inflation, context matters enormously:
@@ -349,11 +349,11 @@ Causes include:
 - Strong trade unions negotiating wages above equilibrium
 - Generous unemployment benefits reducing the incentive to accept low-paid work
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 causing Real-wage unemployment. CIE (9708) uses the term "demand-deficient" rather than "cyclical"
 and may Ask about hysteresis. OCR has examined the relationship between structural unemployment and
 regional Policy in the UK.
-</aside>
+:::
 ### 3.3 Costs of Unemployment
 
 1. **Lost output**: the output gap $Y_{fe} - Y_{actual}$ represents goods and services that could
@@ -391,12 +391,12 @@ Policy response:
 - **Sectoral impacts**: Hospitality, retail, and travel were worst affected, while professional
   services and technology sectors adapted quickly (remote work).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Data-response questions. CIE (9708) may ask students to evaluate the effectiveness of government
 Intervention in the labour market. OCR has examined the distinction between unemployment and
 Economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
 Employed, not unemployed or inactive).
-</aside>
+:::
 ### 3.5 Evaluation: Unemployment Statistics
 
 When interpreting unemployment data, be aware of several issues:
@@ -459,10 +459,10 @@ Financial accounts (borrowing from abroad or selling assets).
 - However, persistent deficits financed by borrowing are unsustainable
 - Deficits caused by lack of competitiveness are problematic
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 the Relationship between the current account and the exchange rate. OCR has examined the
 Marshall-Lerner Condition and the J-curve effect in the context of current account adjustment.
-</aside>
+:::
 ### 4.3 Real-World Application: The UK's Persistent Current Account Deficit
 
 The UK has run a current account deficit in almost every year since 1984. As of 2023, the deficit
@@ -559,13 +559,13 @@ The Phillips curve relationship has been far less stable in practice than theory
   whether the Phillips curve had steepened again, or whether the inflation was primarily
   supply-driven (cost-push) rather than demand-driven.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*``u*`
 itself May rise, shifting the LRPC right). CIE (9708) may present a data-response question showing
 Inflation and unemployment data and ask students to interpret it using Phillips curve theory. OCR
 Has examined the role of supply shocks in causing stagflation and the breakdown of the simple
 Phillips curve relationship.
-</aside>
+:::
 ### 5.5 Evaluation: The Phillips Curve Trade-Off
 
 When evaluating the Phillips curve as a policy tool:
@@ -606,9 +606,9 @@ These objectives often conflict:
 - **Unemployment vs inflation**: short-run Phillips curve trade-off
 - **All objectives vs each other**: policy must balance competing priorities
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 account Balance. Examiners reward application of theory to real data.
-</aside>
+:::
 ### 6.1 Evaluation: Conflicts Between Macroeconomic Objectives
 
 A strong evaluation paragraph in an A Level economics essay will follow a **"on the one Hand... On
@@ -634,11 +634,11 @@ the other hand... However... Therefore"** structure. Here is a worked example:
   of England's mandate to target inflation (price stability) reflects a judgement that maintaining
   price stability is a prerequisite for achieving the other objectives.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 CIE (9708) Data-response questions (Part b, 8 marks; Part c, 12 marks) require analysis and
 evaluation of Extract data. OCR's Component 3 requires a 20-mark essay with a clear conclusion. All
 boards reward The use of real-world data and counterarguments.
-</aside>
+:::
 ## 7. Problem Set
 
 **Problem 1.** An economy produces three goods: apples, bread, and computers. In the base year
@@ -784,7 +784,7 @@ Of raising interest rates as a response.
 The Bank of England feared that if inflation remained high for an extended period, workers and firms would adjust their inflation expectations upwards. Once $\pi^e$ rises, the short-run Phillips curve shifts upward: for any given unemployment rate, inflation will be higher. This creates a vicious cycle — higher expected inflation leads to higher wage demands, which push costs and prices up further, validating the higher expectations. If expectations become de-anchored, bringing inflation back down requires a much larger increase in unemployment (a painful disinflation). Raising interest rates works by reducing aggregate demand, increasing unemployment, and creating slack in the economy, which puts downward pressure on wages and prices. Effectiveness evaluation: (1) interest rate hikes work with a lag of 12-18 months, making timing difficult; (2) they also reduce investment and growth, creating a recessionary trade-off; (3) if inflation is primarily cost-push (energy prices, supply chains), demand-side tools may be less effective — this is the "stagflation" problem. The Bank of England ultimately raised rates to 5.25%, and inflation fell to near 2% by mid-2024, but this was partly due to the resolution of supply-side pressures (falling energy prices) rather than the demand reduction alone.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Confusing real and nominal GDP:** Students often forget to adjust for inflation when comparing
   GDP across years. Always check whether a question asks for real or nominal figures. A rise in
   nominal GDP may reflect price increases, not actual growth.
@@ -1385,8 +1385,7 @@ each approach.
 - [Macroeconomic Policy Debates](07-macroeconomic-policy-debates) -- Different schools of thought interpret economic indicators through contrasting theoretical frameworks.
 - [Labour Markets](../microeconomics/05-labour-markets) -- Unemployment measurement and labour market data feed into macroeconomic performance indicators.
 - [Market Failure and Government Intervention](../microeconomics/03-market-failure) -- Externalities and public goods explain why GDP alone may not reflect true economic welfare.
-
-</aside>
+:::
 
 ---
 

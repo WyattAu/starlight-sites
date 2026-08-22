@@ -123,10 +123,10 @@ void spanbuf_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Fixed-size pre-allocated buffer (e.g., a network packet buffer or embedded flash region). It avoids
 Heap allocation entirely.
-</aside>
+:::
 ### Locale Facets
 
 A **locale** in C++ is a collection of **facets** — polymorphic classes that encapsulate cultural
@@ -178,12 +178,12 @@ void locale_facet_demo() {
 }
 ```
 
-<aside aria-label="The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The</p>
+:::note
 `""` locale (empty string) selects the user's preferred locale from environment variables (`LC_ALL`
 `LC_NUMERIC``LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
 [N4950 §30.3.1.3].
-</aside>
+:::
 ### Custom Stream Buffer
 
 The power of the stream buffer abstraction is that you can derive from `std::streambuf` to redirect
@@ -265,14 +265,14 @@ Output (example):
 [2026-03-31 14:22:01] [ERROR] Connection timeout after 30s
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Each character written to the stream. Buffering the line and flushing on `\n` gives you control over
 The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `std::flush` and `std::endl`. If you only override `overflow()`Manually flushed output (via
 `std::flush`) will not reach your sink.
-</aside>
+:::
 ### Connecting Stream Buffers to Streams
 
 A stream (`std::istream``std::ostream`) does not own its stream buffer. You can redirect a stream To
@@ -416,11 +416,11 @@ void buffer_mode_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 I/O-heavy code. Each flush results in a `write()` system call, which is orders of magnitude slower
 Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
-</aside>
+:::
 ### `std::ios::sync_with_stdio`
 
 `std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf``scanf``fread`
@@ -451,11 +451,11 @@ void sync_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Effect is irreversible once any standard stream has been used). This is a common pattern in
 Competitive programming for fast I/O, but it is dangerous in library code because it affects the
 Entire process. Never call it in a library.
-</aside>
+:::
 ### Custom Input Stream Buffer
 
 The following example implements a stream buffer that reads from a fixed memory buffer (similar to
@@ -543,10 +543,10 @@ void seek_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Standard permits them to use separate positions. For maximum portability, always call `clear()`
 Before seeking after a failed read, and avoid mixing reads and writes without an intervening seek.
-</aside>
+:::
 ### Manipulators and Stream State
 
 The stream state is controlled by a bitmask of `std::ios::iostate` flags [N4950 §30.4.3]:

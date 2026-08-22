@@ -119,7 +119,7 @@ $$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \impl
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the range of frequencies The channel can carry; bit rate is the number of bits transmitted per
 second. Shannon's theorem Relates the maximum bit rate to bandwidth and SNR, but they are not
 interchangeable.
@@ -194,8 +194,7 @@ per Bit). 4B/5B adds 25% overhead. 8B/10B adds 25%. 64B/66B adds only 3% overhea
 
 **Scrambling.** High-density bipolar 3 (HDB3) and other scrambling techniques ensure sufficient
 Transitions for clock recovery, preventing long runs of identical bits.
-
-</aside>
+:::
 
 ## Common Mistakes
 

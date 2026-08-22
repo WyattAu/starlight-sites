@@ -367,10 +367,9 @@ $$S_k = \frac{k}{2}\big(2a_1 + (k-1)d\big)$$
 
 $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $$S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$$
-
-</aside>
+:::
 ### Geometric Sequences
 
 A geometric sequence has a constant **common ratio** $r$ between consecutive terms:

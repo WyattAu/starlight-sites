@@ -133,11 +133,11 @@ namespace std {
 #endif
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 `B.exe` is compiled with `_GLIBCXX_USE_CXX11_ABI=1`The linker will fail with "Undefined Reference To
 `std::string`" because the application is looking for `std::__cxx11::string`But the library Provides
 `std::string`.
-</aside>
+:::
 ### The `std::list` ABI Change
 
 The C++11 standard required `std::list::size()` to be $O(1)$ [N4950 S23.4.5.5]. The legacy

@@ -203,7 +203,7 @@ Squash and merge creates a single commit from all commits in the PR. This has co
 - **Pros**: Clean, linear history; easy to `git bisect`; PR is a single unit.
 - **Cons**: Individual commit messages are lost; cannot revert a specific commit within the PR.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the only commit message for the entire change.
 
 ## Reverting a PR
@@ -251,8 +251,7 @@ Single commit — straightforward revert.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

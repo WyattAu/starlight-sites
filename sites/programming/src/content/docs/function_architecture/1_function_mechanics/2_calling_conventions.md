@@ -225,10 +225,10 @@ Variables without modifying RSP, avoiding the overhead of stack pointer manipula
 │  ...                 │
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Signal handlers and interrupt contexts may clobber the red zone. Compiler flags like `-mno-red-zone`
 (used in OS kernels and JIT compilers) disable this optimization.
-</aside>
+:::
 ```cpp
 // Leaf function: no CALL instruction, may use the red zone
 // $ g++ -O2 -S -o - redzone.cpp | grep -A5 'leaf_fn: "
@@ -517,10 +517,10 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 3. The prologue must adjust RSP by at least 8 bytes to restore 16-byte alignment: `sub rsp, 8` (or
    `push rbp`Which subtracts 8). QED.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Alignment). If you see a `SIGSEGV` inside a function that uses SIMD, check for stack misalignment.
 Compiler flags like `-mstackrealign` (MSVC) or `-mno-sse` (GCC) can help diagnose these issues.
-</aside>
+:::
 ## 2.9 Debugging Calling Convention Mismatches
 
 A calling convention mismatch occurs when the caller and callee disagree on how arguments are

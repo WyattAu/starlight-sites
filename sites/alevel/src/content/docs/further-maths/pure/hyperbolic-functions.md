@@ -26,10 +26,10 @@ categories: [Mathematics]
 This document provides a rigorous treatment of hyperbolic functions, their identities, inverses, and
 Calculus.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Rather than circles. They arise in many areas including differential equations, special Relativity,
 and catenary curves.
-</aside>
+:::
 <hr />
 
 ## 1. Definitions
@@ -310,11 +310,11 @@ $u = \operatorname{arsinh}\!\left(\dfrac{x}{2}\right)$.
 
 $$= 2\operatorname{arsinh}\!\left(\frac{x}{2}\right) + \frac{x\sqrt{x^2 + 4}}{2} + C$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Involving $\sqrt{x^2 + a^2}$. Similarly, $x = a\cosh u$ handles $\sqrt{x^2 - a^2}$ and
 $x = a\tanh u$ handles expressions with $a^2 - x^2$. The choice of substitution mirrors the
 Trigonometric substitutions but is often simpler algebraically.
-</aside>
+:::
 <hr />
 
 ## 5. Practice Problems
@@ -442,7 +442,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 
 ## 7. Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 1. **Sign in the fundamental identity:** Unlike $\cos^2 x + \sin^2 x = 1$The hyperbolic identity is
    $\cosh^2 x - \sinh^2 x = 1$. The minus sign is crucial and is the source of many errors.
 2. **Domain of $\operatorname{arcosh}$:** The domain is $x \geq 1$ (not $x > 0$). Attempting to
@@ -452,7 +452,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 4. **Integration: artanh vs ln:** When $|x| > a$ in $\displaystyle\int \frac{dx}{a^2 - x^2}$The
    result involves $\operatorname{arcoth}$ (or an alternative logarithmic form), not
    $\operatorname{artanh}$. Check the domain of the integrand carefully.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -883,7 +883,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 
 ## 13. Further Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 1. **Substitution domain errors:** When using $x = a\cosh u$The substitution requires $x \geq a$
    (since $\cosh u \geq 1$). Attempting to use $x = a\cosh u$ for $x < a$ leads to an error. Use
    $x = a\sinh u$ for $\sqrt{x^2 + a^2}$ and $x = a\cosh u$ for $\sqrt{x^2 - a^2}$.
@@ -896,7 +896,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 4. **Differential equation solutions:** The equation $y'' - y = 0$ has solutions in both exponential
    and hyperbolic forms. When boundary conditions involve $y(0)$ and $y'(0)$The hyperbolic form
    $y = A\cosh x + B\sinh x$ is often more convenient since $\cosh 0 = 1$ and $\sinh 0 = 0$.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

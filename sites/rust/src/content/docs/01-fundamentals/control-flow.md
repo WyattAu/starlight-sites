@@ -716,7 +716,7 @@ match config.max_connections {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 That has the same name as a pattern binding will shadow the pattern binding:
 
 ```rust
@@ -1078,8 +1078,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

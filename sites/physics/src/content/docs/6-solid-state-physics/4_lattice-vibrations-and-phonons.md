@@ -181,7 +181,7 @@ Model uses a single average sound velocity, while the real phonon spectrum is an
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 specific heat. At low Temperatures, the electronic specific heat $C_e = \gamma T$ also contributes
 and can dominate over The lattice $T^3$ term in metals. The total low-$T$ specific heat of a metal
 is $C_V = \gamma T + \beta T^3$Where $\beta$ is related to $\Theta_D$. A plot of $C_V/T$ versus
@@ -240,8 +240,7 @@ measurement of The full phonon dispersion relation $\omega(\mathbf{q})$.
 
 Time-of-flight and triple-axis spectrometers are the primary instruments used. Neutron scattering
 Has provided definitive measurements of phonon dispersions in virtually all important crystals.
-
-</aside>
+:::
 
 ## Intuition
 

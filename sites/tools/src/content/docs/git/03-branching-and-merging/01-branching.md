@@ -162,7 +162,7 @@ $ git switch -f main
 # Discards all uncommitted changes in the working directory and index
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 you want to preserve them.
 
 ## Deleting Branches
@@ -201,9 +201,8 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 | `hotfix/<description>`           | Urgent production fixes                            |
 | `release/<version>`              | Release preparation                                |
 | `experiment/<description>`       | Experimental work                                  |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 branch to a remote branch with the same name. This prevents accidental pushes to the wrong branch.
 
 ## Tracking Branches
@@ -355,8 +354,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

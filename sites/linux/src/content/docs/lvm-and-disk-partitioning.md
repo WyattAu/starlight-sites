@@ -97,7 +97,7 @@ GPT disk layout:
   Last LBA - 1:    Backup GPT header
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 disks, and GPT"s backup table provides redundancy against corruption at the start of the Disk.
 
 ### Sector Size
@@ -171,9 +171,8 @@ UUID=abc12345-6789-def0-1234-567890abcdef  /mnt/data  ext4  defaults  0  2
 # Use PARTUUID for partition-level identification (works even without filesystem)
 PARTUUID=12345678-1234-1234-1234-123456789abc  /mnt/data  ext4  defaults  0  2
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Table itself (not the filesystem), so it survives filesystem recreation and works on raw partitions.
 Modern distributions use PARTUUID in their default fstab entries.
 
@@ -232,9 +231,8 @@ parted /dev/sdb --script set 1 boot on
 # Align to 1 MiB boundaries (default for GPT in modern parted)
 parted /dev/sdb --script align-check optimal 1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `blockdev --rereadpt` after running parted scripts, or reboot.
 
 ### sgdisk
@@ -452,9 +450,8 @@ fsck -A -C
 tune2fs -c 0 /dev/sda1       # ext4: set max mount count to 0 (disable)
 tune2fs -i 0 /dev/sda1       # ext4: set interval to 0 (disable)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 A live mounted filesystem will cause corruption. The only exception is `/` (root), which can be
 Checked at boot time by setting the `pass` field in `/etc/fstab` to 1.
 
@@ -538,9 +535,8 @@ tune2fs -o journal_data /dev/sda1      # journal mode
 tune2fs -o journal_data_ordered /dev/sda1  # ordered (default)
 tune2fs -o journal_data_writeback /dev/sda1 # writeback
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Used for databases requiring absolute data integrity guarantees. `writeback` mode is marginally
 Faster but can leave stale data in files after a crash (zero-length files can appear to have old
 Content).
@@ -623,9 +619,8 @@ A typical production layout:
   LV "lv_logs"  = 40 GiB from vg_data
   LV "lv_backup" = 60 GiB from vg_data (with 20 GiB free in VG)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Provides a layer of protection — if LVM metadata is corrupted, partition boundaries remain visible
 To non-LVM tools for recovery.
 
@@ -766,9 +761,8 @@ xfs_growfs /mnt/mysql                          # specify mount point, not device
 lvextend --resizefs -L +50G /dev/vg_data/lv_mysql    # ext4 only
 lvextend -r -L +50G /dev/vg_data/lv_mysql             # -r = --resizefs
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Common source of errors. The `lvextend -r` shortcut does not work with XFS.
 
 ### Shrinking Filesystems (Offline)
@@ -796,9 +790,8 @@ lvreduce --resizefs -L 50G /dev/vg_data/lv_logs  # does both steps (checks first
 # Step 5: Mount
 mount /dev/vg_data/lv_logs /mnt/logs
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Shrinking. XFS and Btrfs **cannot** be shrunk at all. Always have a backup before shrinking any
 Filesystem.
 
@@ -867,9 +860,8 @@ lvs -o name,lv_attr,snap_percent,origin
 # If snap_percent reaches 100%, the snapshot is invalidated
 # The snapshot is dropped automatically, and the CoW LV becomes a regular LV
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Back. Monitor `snap_percent` closely. Overestimate the CoW size — unused CoW space is wasted but
 Safe; CoW space that is too small is catastrophic. A good rule of thumb is 10-20% of the origin LV
 Size for low-write volumes, or up to 50% for high-write volumes.
@@ -905,9 +897,8 @@ lvconvert --merge /dev/vg_data/lv_mysql_snap
 # Check merge status
 lvs -a -o+origin,merge_failed
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Was created. All changes since the snapshot are lost. The snapshot itself is deleted after a
 Successful merge.
 
@@ -1068,9 +1059,8 @@ systemctl enable --now lvm2-monitor
 # Manual pool extension
 lvextend -L +50G /dev/vg_data/thinpool
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
 On it as your only protection.
@@ -1206,9 +1196,8 @@ mdadm --monitor --scan --daemonise --mail=root@localhost
 mdadm --create /dev/md0 --level=1 --raid-devices=2 \
     --metadata=1.2 /dev/sdb1 /dev/sdc1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Places metadata at the 4 KiB offset, avoiding conflicts with partition tables and making it easy to
 Use whole disks as array members.
 
@@ -1266,9 +1255,8 @@ swapon /swapfile
 # Verify
 swapon --show
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
 The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
 Files may not work at all — use a swap partition or swap file on a loop device instead.
@@ -1326,9 +1314,8 @@ zramctl
 # compression-algorithm = zstd
 # swap-priority = 100
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Systems with ample RAM, zram adds CPU overhead for compression/decompression with little benefit.
 Use disk swap (or no swap) on systems with 16+ GiB of RAM.
 
@@ -1747,9 +1734,8 @@ WRONG ORDER (will corrupt data):
   1. lvreduce -L 50G /dev/vg/lv      (LV shrinks, filesystem still thinks it's larger)
   2. resize2fs /dev/vg/lv 50G        (too late. Filesystem metadata may be beyond LV boundary)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly what you are doing.
 
 ### Forgetting to Resize the Filesystem After Extending the LV
@@ -1894,5 +1880,4 @@ linked above.
 - [File Permissions and ACLs](02-file-systems/file-permissions) -- Permissions on LVM volumes follow the same Unix permission model as any other file system.
 - [Bash Scripting](01-cli-fundamentals/bash-scripting) -- Automating LVM operations like snapshots and resizing is done through bash scripts.
 - [Core Utilities](01-cli-fundamentals/core-utilities) -- Commands like fdisk, mkfs, and pvcreate are essential utilities for disk management.
-
-</aside>
+:::

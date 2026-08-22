@@ -39,7 +39,7 @@ $$
 \lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{|x|}{x}$.
 
@@ -52,9 +52,8 @@ $$
 $$
 
 Since the one-sided limits are not equal, the limit does not exist.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 3} \frac{|x - 3|}{x - 3}$.
 
@@ -125,9 +124,8 @@ Then $\displaystyle\lim_{x \to a} f(x) = L$.
 **Intuition:** If $f$ is sandwiched between two functions that both approach $L$Then $f$ must also
 Approach $L$. The squeeze theorem is particularly useful when $f$ oscillates or is otherwise hard to
 Evaluate directly.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Show that $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
@@ -137,9 +135,8 @@ $-x^2 \le x^2 \sin\!\left(\frac{1}{x}\right) \le x^2$.
 Both $\displaystyle\lim_{x \to 0}(-x^2) = 0$ and $\displaystyle\lim_{x \to 0} x^2 = 0$.
 
 By the squeeze theorem, $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Show that $\displaystyle\lim_{x \to 0} x\cos\!\left(\frac{1}{x}\right) = 0$.
 
@@ -149,9 +146,8 @@ $-|x| \le x\cos\!\left(\frac{1}{x}\right) \le |x|$.
 Both $\displaystyle\lim_{x \to 0}(-|x|) = 0$ and $\displaystyle\lim_{x \to 0}|x| = 0$.
 
 By the squeeze theorem, the limit is $0$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Show that $\displaystyle\lim_{x \to 0} x^2 e^{\sin(1/x)} = 0$.
 
@@ -215,9 +211,8 @@ For rational functions $\displaystyle\frac{P(x)}{Q(x)}$ where $P$ and $Q$ are po
 
 **Why this works.** For large $x$The leading term dominates. Dividing numerator and denominator by
 The highest power of $x$ in the denominator, all lower-order terms vanish.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to \infty} \frac{3x^2 - 5x + 2}{7x^2 + x - 1}$.
 
@@ -226,16 +221,14 @@ Since both polynomials are degree 2, the limit equals the ratio of leading coeff
 $$
 \lim_{x \infty} \frac{3x^2 - 5x + 2}{7x^2 + x - 1} = \frac{3}{7}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to \infty} \frac{5x^3 - 2x + 1}{4x^2 + 3x}$.
 
 Since $\deg P = 3 \gt \deg Q = 2$The limit is $+\infty$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to -\infty} \frac{2x^3 + x^2 - 5}{5x^3 - 3x + 2}$.
 
@@ -250,9 +243,8 @@ This confirms that the same shortcut works for $x \to -\infty$ when the degrees 
 ### Indeterminate Forms and Factoring
 
 When direct substitution yields $\frac{0}{0}$Algebraic manipulation is required.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 2} \frac{x^2 - 4}{x - 2}$.
 
@@ -261,9 +253,8 @@ Factor the numerator:
 $$
 \lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x-2)(x+2)}{x-2} = \lim_{x \to 2}(x + 2) = 4
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 1} \frac{x^3 - 1}{x - 1}$.
 
@@ -272,9 +263,8 @@ Factor using difference of cubes: $x^3 - 1 = (x - 1)(x^2 + x + 1)$.
 $$
 \lim_{x \to 1} \frac{(x - 1)(x^2 + x + 1)}{x - 1} = \lim_{x \to 1}(x^2 + x + 1) = 3
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 1} \frac{x^4 - 1}{x^2 - 1}$.
 
@@ -291,9 +281,8 @@ $$
 ### Rationalizing
 
 For expressions involving radicals, multiply by the conjugate.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{\sqrt{x+4} - 2}{x}$.
 
@@ -302,9 +291,8 @@ Multiply numerator and denominator by the conjugate $\sqrt{x+4} + 2$:
 $$
 \lim_{x \to 0} \frac{\sqrt{x+4} - 2}{x} \cdot \frac{\sqrt{x+4} + 2}{\sqrt{x+4} + 2} = \lim_{x \to 0} \frac{x + 4 - 4}{x(\sqrt{x+4} + 2)} = \lim_{x \to 0} \frac{x}{x(\sqrt{x+4} + 2)} = \frac{1}{4}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{\sqrt{1 + x} - \sqrt{1 - x}}{x}$.
 
@@ -313,9 +301,8 @@ Multiply by $\frac{\sqrt{1+x} + \sqrt{1-x}}{\sqrt{1+x} + \sqrt{1-x}}$:
 $$
 = \lim_{x \to 0} \frac{(1 + x) - (1 - x)}{x(\sqrt{1+x} + \sqrt{1-x})} = \lim_{x \to 0} \frac{2x}{x(\sqrt{1+x} + \sqrt{1-x})} = \frac{2}{1 + 1} = 1
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 5} \frac{\sqrt{x+4} - 3}{x - 5}$.
 
@@ -326,9 +313,8 @@ $$
 $$
 
 ### Limits with Trigonometric Functions (CED BC)
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$.
 
@@ -337,18 +323,16 @@ Using the identity $1 - \cos x = 2\sin^2\frac{x}{2}$:
 $$
 \frac{1 - \cos x}{x^2} = \frac{2\sin^2(x/2)}{x^2} = \frac{2\sin^2(x/2)}{4(x/2)^2} = \frac{1}{2}\left(\frac{\sin(x/2)}{x/2}\right)^2 \to \frac{1}{2}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{\tan x}{x}$.
 
 $$
 \frac{\tan x}{x} = \frac{\sin x}{x \cos x} = \frac{\sin x}{x} \cdot \frac{1}{\cos x} \to 1 \cdot 1 = 1
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{\sin 3x}{x}$.
 
@@ -362,9 +346,8 @@ $$
 
 When the limit involves a fraction within a fraction, combine the numerator into a single fraction
 First.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 2} \frac{\frac{1}{x} - \frac{1}{2}}{x - 2}$.
 
@@ -394,9 +377,8 @@ $L$). You must respond with $\delta$ (how close $x$ must be to $a$). If you can 
 Game, the limit exists.
 
 ### Proving a Limit with Epsilon-Delta
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Prove that $\displaystyle\lim_{x \to 3} (2x - 1) = 5$.
 
@@ -414,9 +396,8 @@ $$
 $$
 
 Therefore, $\displaystyle\lim_{x \to 3} (2x - 1) = 5$. $\blacksquare$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Prove that $\displaystyle\lim_{x \to 2} x^2 = 4$.
 
@@ -438,9 +419,8 @@ $$
 $$
 
 Therefore, $\displaystyle\lim_{x \to 2} x^2 = 4$. $\blacksquare$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Prove that $\displaystyle\lim_{x \to a} \sqrt{x} = \sqrt{a}$ for $a \gt 0$.
 
@@ -504,9 +484,8 @@ $x^2 + 1 \ge 1 \gt 0$).
 
 If $f$ is continuous on $[a, b]$ and $k$ is any number between $f(a)$ and $f(b)$Then there exists At
 least one $c \in (a, b)$ such that $f(c) = k$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Show that $f(x) = x^3 + x - 1$ has a root in $(0, 1)$.
 
@@ -518,9 +497,8 @@ $c \in (0, 1)$ such that $f(c) = 0$.
 **Application of IVT to bisection.** The IVT motivates the bisection method for root-finding: if
 $f(a)$ and $f(b)$ have opposite signs, a root exists in $(a, b)$. Halving the interval and checking
 Signs converges to the root.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Show that $f(x) = e^x - 3 - x$ has at least one root in $(1, 2)$.
 
@@ -531,16 +509,15 @@ $c \in (1, 2)$ such that $f(c) = 0$. $\blacksquare$
 
 **Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$Then $f$ has
 At least one zero in $(a, b)$.
-
-</aside>
+:::
 ### Extreme Value Theorem
 
 If $f$ is continuous on a closed interval $[a, b]$Then $f$ attains both an absolute maximum and an
 Absolute minimum on $[a, b]$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 On $(0, 1)$ has no maximum, despite being continuous.
-</aside>
+:::
 ### Boundedness Theorem
 
 If $f$ is continuous on a closed interval $[a, b]$Then $f$ is bounded on $[a, b]$ -- that is, There
@@ -569,7 +546,7 @@ also zeros of $P(x)$ (after cancellation).
 If $\deg P = \deg Q + 1$ in a rational function, perform polynomial long division. The quotient
 (excluding remainder) gives the slant asymptote.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Find the asymptotes of $\displaystyle f(x) = \frac{2x^2 + 3x - 1}{x + 1}$.
 
@@ -582,9 +559,8 @@ $$
 $$
 
 The slant asymptote is $y = 2x + 1$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the horizontal asymptotes of $\displaystyle f(x) = \frac{3e^x}{e^x + 1}$.
 
@@ -620,9 +596,8 @@ Forms. Using it on a determinate form (e.g., $\frac{3}{5}$) is an error.
 **When L'Hopital's Rule fails.** If the limit $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ does
 Not exist, this does NOT mean the original limit does not exist. L'Hopital's Rule only gives a
 Conclusion when the right-hand limit exists (or is $\pm\infty$).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$.
 
@@ -631,9 +606,8 @@ Direct substitution gives $\frac{0}{0}$. Apply L'Hopital's Rule:
 $$
 \lim_{x \to 0} \frac{e^x - 1}{x} = \lim_{x \to 0} \frac{e^x}{1} = 1
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$.
 
@@ -644,9 +618,8 @@ $$
 $$
 
 Note that we applied L'Hopital's Rule twice, since the second attempt still gave $\frac{0}{0}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to \infty} \frac{\ln x}{\sqrt{x}}$.
 
@@ -655,9 +628,8 @@ This is $\frac{\infty}{\infty}$. Apply L'Hopital's Rule:
 $$
 \lim_{x \to \infty} \frac{1/x}{1/(2\sqrt{x})} = \lim_{x \to \infty} \frac{2\sqrt{x}}{x} = \lim_{x \to \infty} \frac{2}{\sqrt{x}} = 0
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3}$.
 
@@ -666,9 +638,8 @@ Direct substitution gives $\frac{0}{0}$. Apply L'Hopital's Rule three times:
 $$
 \lim_{x \to 0} \frac{x - \sin x}{x^3} = \lim_{x \to 0} \frac{1 - \cos x}{3x^2} = \lim_{x \to 0} \frac{\sin x}{6x} = \lim_{x \to 0} \frac{\cos x}{6} = \frac{1}{6}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find $\displaystyle\lim_{x \to 0^+} x \ln x$.
 
@@ -685,9 +656,8 @@ $$
 $$
 
 ## Limits of Piecewise Functions
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Let $f(x) = \begin{cases} x^2 + 1 & x \lt 2 \\ 3x - 1 & x \ge 2 \end{cases}$.
 
@@ -702,9 +672,8 @@ Since both one-sided limits equal 5: $\displaystyle\lim_{x \to 2} f(x) = 5$.
 Check continuity: $f(2) = 3(2) - 1 = 5 = \lim_{x \to 2} f(x)$.
 
 Therefore, $f$ is continuous at $x = 2$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Let $g(x) = \begin{cases} \frac{x^2 - 4}{x - 2} & x \neq 2 \\ k & x = 2 \end{cases}$.
 
@@ -713,9 +682,8 @@ Find $k$ such that $g$ is continuous at $x = 2$.
 $\displaystyle\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x-2)(x+2)}{x-2} = 4$.
 
 For continuity: $k = g(2) = 4$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Let $h(x) = \begin{cases} x^2 + bx + 1 & x \le 0 \\ 2x + 3 & x \gt 0 \end{cases}$.
 
@@ -729,8 +697,7 @@ For continuity: $1 = 3$Which is impossible. No value of $b$ makes $h$ continuous
 
 This example demonstrates that continuity at a junction point of a piecewise function is not always
 Achievable -- on whether the one-sided limits can be made to agree.
-
-</aside>
+:::
 ## Common Pitfalls
 
 1. **Confusing the value of a function at a point with its limit.** The limit at $a$ does not depend
@@ -919,7 +886,7 @@ By the Squeeze Theorem: $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the AP specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Limits and
@@ -948,8 +915,7 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 **The GPS navigator analogy:** Limits describe where a function is heading, not where it actually arrives. Imagine driving toward a destination — limits tell you the direction and destination of your journey, even if there's a pothole (discontinuity) at that exact spot.

@@ -112,11 +112,11 @@ ByteBuffer direct = ByteBuffer.allocateDirect(1024);
 // The OS can perform DMA (direct memory access) directly to/from the buffer
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Allocation cost is amortized over many I/O calls, and the avoidance of heap-to-native copies
 Improves throughput. Use heap buffers for short-lived buffers where allocation speed matters more
 Than I/O throughput.
-</aside>
+:::
 ### `get` and `put` Operations
 
 ```java
@@ -221,10 +221,10 @@ try (FileChannel src = FileChannel.open(Path.of("source.bin"), StandardOpenOptio
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Number transferred). Loop until the return value is zero or an exception is thrown. On Linux with
 Ext4/xfs, the entire transfer completes in a single system call.
-</aside>
+:::
 ### File Locking
 
 `FileLock` provides advisory locking on files. Advisory means the lock is only enforced if all
@@ -255,11 +255,11 @@ FileLock sharedLock = channel.tryLock(0L, Long.MAX_VALUE, true); // true = share
 FileLock exclusiveLock = channel.tryLock(0L, Long.MAX_VALUE, false); // false = exclusive
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Acquire overlapping exclusive locks on the same file, the second `lock()` call throws
 `OverlappingFileLockException`. Use `tryLock()` for non-blocking acquisition. Locks are
 Automatically released when the channel is closed or the JVM exits.
-</aside>
+:::
 ### Socket Channels
 
 ```java
@@ -434,10 +434,10 @@ while (buf.hasRemaining()) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 May return fewer bytes than requested, and a single `write()` may accept fewer bytes than provided.
 Always check the return value and manage the buffer position accordingly.
-</aside>
+:::
 ## `AsynchronousFileChannel`
 
 Introduced in JDK 7, `AsynchronousFileChannel` provides asynchronous file I/O operations. It
@@ -494,10 +494,10 @@ try (AsynchronousFileChannel channel = AsynchronousFileChannel.open(
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Thread pool. By default, this is the JVM-wide default `ForkJoinPool`. You can provide a custom
 `ExecutorService` via `AsynchronousFileChannel.open(path, options, executor)`.
-</aside>
+:::
 ## `Path` and `Files` Utility Classes
 
 ### `Path`
@@ -618,12 +618,12 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
   through the mapped buffer.
 - **Large file processing** — process terabyte-scale files without loading them into JVM heap.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Limits, but it does consume address space. On 32-bit JVMs, you are limited to ~2 GB of mapped
 Memory. On 64-bit JVMs, the limit is the available virtual address space. Closing the `FileChannel`
 Does not immediately unmap the buffer — the mapped memory is released when the `MappedByteBuffer`
 Object is GC'd, which may be delayed.
-</aside>
+:::
 ## Intuition
 
 **Data highways:** NIO is like a postal system with express lanes — selectors let one thread manage many channels, making it ideal for high-performance servers.

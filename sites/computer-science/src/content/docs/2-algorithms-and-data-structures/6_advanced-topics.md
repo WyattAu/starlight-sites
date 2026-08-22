@@ -127,7 +127,7 @@ size).
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 known polynomial-time Algorithm. Many NP-complete problems have efficient approximation algorithms
 or can be solved Exactly for practical input sizes using branch-and-bound or SAT solvers.
 
@@ -389,8 +389,7 @@ $\blacksquare$
 **Corollary.** A sequence of $m$ splay tree operations takes $O(m \log n)$ amortised time.
 
 </details>
-
-</aside>
+:::
 ## Cross-References
 
 - [Algorithm Analysis](./1_algorithm-analysis) -- Advanced algorithm design uses amortised analysis and potential methods beyond basic complexity.

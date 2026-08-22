@@ -211,7 +211,7 @@ sign of $r_s$ indicates a phase shift of $\pi$ upon reflection.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 error is to swap the $n_1\cos\theta_i$ and $n_2\cos\theta_t$ terms. Remember: for $r_s$The numerator
 starts with $n_1\cos\theta_i$; for $r_p$The numerator starts with $n_2\cos\theta_i$. Also, $r$ and
 $t$ are Amplitude coefficients, while $R$ and $T$ are energy coefficients — they are related but not
@@ -282,8 +282,7 @@ m$^{-1}$.
 ## Intuition
 
 Total internal reflection occurs when light tries to pass from a denser medium to a less dense medium at too steep an angle. Instead of refracting, the light bounces back completely, with an evanescent wave that decays exponentially into the less dense medium. This evanescent field is real but carries no net energy away from the interface. The critical angle depends only on the ratio of refractive indices. This principle underpins fiber optic communication, where light is trapped inside a glass core by repeated total internal reflections, traveling long distances with minimal loss. The penetration depth of the evanescent wave can be tuned by changing the angle of incidence.
-
-</aside>
+:::
 
 ## Common Mistakes
 

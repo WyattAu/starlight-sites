@@ -280,7 +280,7 @@ $$
 -1 < x < 4
 $$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $x \lt -1$ or $x \gt 4$ (outside the roots).
 
 **Example (HL):** Solve $\frac{x - 1}{x + 2} \le 0$.
@@ -733,8 +733,7 @@ theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::
 
 ## See Also
 

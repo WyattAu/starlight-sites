@@ -107,15 +107,15 @@ with open('file.txt') as f:
 
 ## Types and Variables
 
-<PracticeProblem client:only="solid-js" question={"What is the output of `type([1, 2, 3]) == type((1, 2, 3))`?&quot; options={['False', 'True', 'TypeError', 'SyntaxError']} correctAnswer={0} explanation=&quot;`type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the output of `type([1, 2, 3]) == type((1, 2, 3))`?&quot; options={['True','TypeError','False','SyntaxError']} correctAnswer={2} explanation=&quot;`type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"Which of the following is a mutable built-in type in Python?&quot; options={['list', 'str', 'int', 'tuple']} correctAnswer={0} explanation=&quot;Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"Which of the following is a mutable built-in type in Python?&quot; options={['list','str','int','tuple']} correctAnswer={0} explanation=&quot;Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object."} difficulty="easy"  />
 
 ---
 
 ## Functions and Scope
 
-<PracticeProblem client:only="solid-js" question={"What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?&quot; options={['[1, 2]', '[1], [2]', '[2]', 'TypeError']} correctAnswer={0} explanation=&quot;Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?&quot; options={['[1], [2]','[2]','TypeError','[1, 2]']} correctAnswer={3} explanation=&quot;Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What does the LEGB rule stand for in Python variable resolution?&quot; options={[ 'Local, Enclosing, Global, Built-in', 'Local, External, Global, Base', 'Loop, Enclosing, Global, Built-in', 'Local, Enclosed, Generic, Built-in', ]} correctAnswer={0} explanation=&quot;Python resolves variable names using the LEGB scope order: Local (inside the current function), Enclosing (in enclosing functions for nested functions), Global (module level), and Built-in (the `builtins` module). The first match in this order is used."} difficulty="easy"  />
 
@@ -123,9 +123,9 @@ with open('file.txt') as f:
 
 ## Object-Oriented Programming
 
-<PracticeProblem client:only="solid-js" question={"Given `class A: x = 1` and `class B(A): pass`, what does `B.x` return?&quot; options={['1', 'AttributeError', 'None', '0']} correctAnswer={0} explanation=&quot;Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"Given `class A: x = 1` and `class B(A): pass`, what does `B.x` return?&quot; options={['1','AttributeError','None','0']} correctAnswer={0} explanation=&quot;Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"What is the MRO of `class D(B, C)` where `class B(A)` and `class C(A)`?&quot; options={['D, B, C, A, object', 'D, C, B, A, object', 'D, A, B, C, object', 'D, B, A, C, object']} correctAnswer={0} explanation=&quot;Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the MRO of `class D(B, C)` where `class B(A)` and `class C(A)`?&quot; options={['D, C, B, A, object','D, A, B, C, object','D, B, A, C, object','D, B, C, A, object']} correctAnswer={3} explanation=&quot;Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`."} difficulty="medium"  />
 
 ---
 

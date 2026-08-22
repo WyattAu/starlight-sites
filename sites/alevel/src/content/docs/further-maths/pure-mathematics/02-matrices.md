@@ -75,9 +75,9 @@ The $n \times n$ identity matrix $\mathbf{I}_n$ satisfies
 $\mathbf{A}\mathbf{I}_n = \mathbf{I}_n\mathbf{A} = \mathbf{A}$ for any
 $\mathbf{A} \in M_{m \times n}(\mathbb{R})$.
 
-<aside aria-label="warning "apply $\mathbf{B}$ first, then $\mathbf{A}$." When composing transformations," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>warning "apply $\mathbf{B}$ first, then $\mathbf{A}$." When composing transformations,</p>
+:::caution
 The rightmost matrix is applied first.
-</aside>
+:::
 <hr />
 
 ## 2. Determinants
@@ -168,9 +168,9 @@ Suppose $\mathbf{B}$ and $\mathbf{C}$ are both inverses of $\mathbf{A}$. Then:
 
 $$\mathbf{B} = \mathbf{B}\mathbf{I} = \mathbf{B}(\mathbf{AC}) = (\mathbf{BA})\mathbf{C} = \mathbf{IC} = \mathbf{C} \quad \square$$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Catches sign errors and arithmetic mistakes immediately.
-</aside>
+:::
 <details>
 <summary>Worked Example: $3\times3$ inverse</summary>
 
@@ -297,14 +297,14 @@ Note: $\det = 1$ for shears, so area is preserved.
 If transformation $\mathbf{A}$ is followed by transformation $\mathbf{B}$The combined Transformation
 is represented by $\mathbf{BA}$ (rightmost applied first).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 From a reflection followed by a rotation. The combined matrix is $\mathbf{BA}$ (not $\mathbf{AB}$)
 When $\mathbf{A}$ is applied first.
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Application. If the question says "reflect then rotate," compute
 $\mathbf{R}_{\mathrm{rot}} \times \mathbf{R}_{\mathrm{ref}}$.
-</aside>
+:::
 <details>
 <summary>Worked Example: Combined transformation</summary>
 
@@ -327,9 +327,9 @@ Transformation.
 
 ## 6. Matrix Transformations in 3D
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 On 2D but may include basic $3\times3$ determinant and inverse calculations.
-</aside>
+:::
 ### 6.1 Rotations in 3D
 
 **Rotation about the $x$-axis by angle $\theta$:**

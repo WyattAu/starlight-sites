@@ -210,10 +210,10 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 common mistake is to use a Discharged assumption in a later step. Each discharged assumption is only
 valid within the scope Indicated by the rule that discharges it.
-</aside>
+:::
 ### 1.6 CNF and DNF
 
 A **literal** is a propositional variable or its negation. A **clause** is a disjunction of
@@ -270,10 +270,10 @@ This is in CNF.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 formula with $n$ terms can Produce up to $2^n$ clauses when converted to CNF. This exponential
 growth underlies the hardness Of many satisfiability problems.
-</aside>
+:::
 ### 1.7 Resolution
 
 The **resolution rule** is a single inference rule that is refutation-complete for propositional
@@ -330,11 +330,10 @@ Literals.
 SAT solvers (DPLL, CDCL) are widely deployed in hardware verification, software model checking, and
 AI planning. Modern solvers routinely handle instances with millions of variables.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
-
-</aside>
+:::
 ## Intuition
 
 Logic is the foundation of mathematical reasoning and computer science. Propositional logic deals with truth values and connectives (AND, OR, NOT, IMPLIES). Predicate logic adds quantifiers (FOR ALL, EXISTS) to reason about properties of objects. Boolean algebra provides the mathematical framework for digital circuits. Understanding logic helps you write precise specifications and verify program correctness.

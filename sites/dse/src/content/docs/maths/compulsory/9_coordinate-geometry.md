@@ -792,7 +792,7 @@ For the A-Level treatment of this topic, see
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Coordinate
@@ -1146,8 +1146,7 @@ $\blacksquare$
   [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/04-coordinates-and-geometry)
   | | [Coordinate Geometry] | DSE |
   [View](https://dse.wyattau.com/docs/dse/maths/compulsory/9_coordinate-geometry) |
-
-</aside>
+:::
 
 ## Intuition
 

@@ -81,7 +81,7 @@ let len = w.len();  // calls Vec::len through deref coercion
 assert_eq!(len, 1);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
 Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
@@ -457,9 +457,8 @@ let p2 = Point { y: 5.0, ..p1 };
 // println!("{:?}", p1);  // ERROR: p1 partially moved
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Heap-allocated types, those are moved (not copied) into the new struct. After the spread, the
 Original struct is no longer usable in its entirety.
 
@@ -1098,8 +1097,7 @@ $\blacksquare$
 - `#[non_exhaustive]` prevents downstream crates from exhaustively matching on enums or struct
   fields.
 - Type-state pattern moves validation to compile time by encoding state in generic type parameters.
-
-</aside>
+:::
 ## Intuition
 
 Advanced Rust patterns leverage the type system for compile-time safety. Builder patterns use method chaining to construct complex objects step by step. The newtype pattern wraps existing types to add semantic meaning without runtime cost. Pattern matching with destructuring extracts data from enums and structs concisely. These patterns combine with ownership and lifetimes to create abstractions that are both flexible and memory-safe without garbage collection.

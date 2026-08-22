@@ -89,11 +89,11 @@ $\square$
 | $O(2^n)$      | Exponential  | Subset enumeration, brute force |
 | $O(n!)$       | Factorial    | Permutation enumeration (TSP)   |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Focuses on time complexity. **CIE (9618)** covers Big-O, Big-Theta, and Big-Omega notation; requires
 Space complexity analysis. **OCR (A)** requires Big-O notation; may require comparison of algorithm
 Performance. **Edexcel** covers time and space complexity with Big-O notation.
-</aside>
+:::
 <hr />
 
 ## 3. Best, Average, and Worst Case
@@ -117,9 +117,9 @@ Where $P(I)$ is the probability of input $I$.
 | Average | $O(n \log n)$ | Random inputs (expected)      |
 | Worst   | $O(n^2)$      | Already sorted, min/max pivot |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Not be uniformly distributed. Always state the distribution assumption when discussing average case.
-</aside>
+:::
 <hr />
 
 ## 4. Analyzing Recursive Algorithms

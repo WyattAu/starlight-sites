@@ -152,10 +152,10 @@ Dramatically as data must be folded from SLC into the TLC/QLC area.
 | WD Black SN850X 2TB       | ~300 GB        | 6,600 MB/s      | 1,500 MB/s |
 | Crucial P3 Plus 2TB (QLC) | ~160 GB        | 5,000 MB/s      | 200 MB/s   |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
 For write-heavy workloads (video editing, database, OS drive).
-</aside>
+:::
 ### Wear Leveling
 
 SSD controllers implement wear leveling to distribute write operations evenly across all NAND
@@ -223,9 +223,9 @@ sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Property controls TRIM behavior.
-</aside>
+:::
 ### Over-Provisioning
 
 Over-provisioning (OP) reserves a portion of the NAND capacity for the SSD controller"s use. This
@@ -287,10 +287,10 @@ ZFS eliminates many traditional RAID problems:
 - Self-healing repairs corrupted data from parity/mirror copies
 - Scrubbing proactively verifies all data integrity
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
 From performing its error detection and correction.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -638,10 +638,10 @@ sudo nvme fw-download /dev/nvme0n1 --fw=/path/to/firmware.bin --save
 - Before initial deployment of a new drive
 - When a security vulnerability is disclosed in the firmware
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Drive. Ensure the update process is not interrupted (connect the drive to a UPS, close all
 Applications accessing the drive).
-</aside>
+:::
 ## Deep Dive: I/O Scheduler Internals
 
 ### mq-deadline Scheduler
@@ -970,7 +970,7 @@ hdparm -y /dev/sda     # Immediately enter standby
 hdparm -B 127 /dev/sda  # 1 (aggressive) to 255 (disabled)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Value (15–30 minutes) rather than a short interval.
 
 ## Summary
@@ -993,8 +993,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Memory Tuning](/tuning/02-memory-tuning/memory-tuning) - How RAM and storage interact in caching and virtual memory performance

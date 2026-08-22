@@ -371,11 +371,11 @@ T address_taken() {
 NRVO is an optimization. At `-O0`Compilers do not perform it. Always ensure your move Constructors
 are correct, because NRVO may not apply.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Returning a function parameter, or by certain compiler flags. Always write code that is correct even
 If NRVO fails — which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
-</aside>
+:::
 ## Intuition
 
 **Temporary materialization is like a recipe becoming a cake:** A prvalue is the recipe — it describes what to build but doesn't exist as a physical object. Materialization is the baking process — it creates a temporary object (the cake) from the prvalue. This happens when you bind a reference to a prvalue (like `const int& x = 5`), access a member of a prvalue (like `std::string("hello").size()`), or use a prvalue where an lvalue is needed.
@@ -461,10 +461,10 @@ When a prvalue is bound to a `const T&` or a `T&&`The lifetime of the materializ
 Extended to match the lifetime of the reference [N4950 S11.4.7]. This is called **temporary lifetime
 Extension**.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The prvalue is passed through an intermediate function or stored in a member, lifetime extension
 Does **not** propagate.
-</aside>
+:::
 ```cpp
 #include <iostream>
 

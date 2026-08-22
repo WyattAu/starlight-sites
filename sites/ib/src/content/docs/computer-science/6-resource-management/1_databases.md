@@ -617,9 +617,9 @@ WHERE lastName = 'Jones' AND firstName = 'Bob';
 DELETE FROM Student WHERE studentID = 2;
 ````
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 TABLE Student deletes both the data and the table structure. Be certain which one you intend.
-</aside>
+:::
 ### Queries: SELECT
 
 The SELECT statement retrieves data from one or more tables.
@@ -2027,22 +2027,6 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
   [Programming and Databases](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases)
 - **University Databases:**
   [Database Systems](https://university.wyattau.com/docs/computin.../6-resource-management/1_databases)
-
-## Summary
-
-This topic covers the essential chemistry of databases, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- Brønsted-Lowry theory
-- strong and weak acids/bases
-- pH calculations
-- titration curves and indicators
-- hydrolysis of salts
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 

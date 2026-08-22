@@ -187,7 +187,7 @@ ps -eo pid,stat,comm
 # l  multi-threaded
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 is waiting for disk I/O that will never complete (e.g., NFS server down, failed disk). The Only way
 to clear it is to fix the underlying I/O or reboot.
 
@@ -481,9 +481,8 @@ chrt -r 80 command             # SCHED_RR, priority 80
 # Set deadline policy
 chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
 Only for well-understood, bounded workloads (audio processing, industrial control).
 
@@ -599,9 +598,8 @@ ulimit -u 4096     # increase max processes
 | Definition  | Enforced for the process       | Maximum the soft limit can be raised to |
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 NOT apply to services started by systemd. For systemd services, configure limits in the unit file Or
 systemd's override mechanism (`systemctl edit`).
 
@@ -816,5 +814,4 @@ linked above.
 - [Cron and Scheduling](cron-and-scheduling) -- Cron creates child processes at scheduled times; understanding process lifecycle helps with job control.
 - [Shell Basics](../01-cli-fundamentals/shell-basics) -- The shell is a process that creates and manages child processes.
 - [File Permissions](../02-file-systems/file-permissions) -- Process credentials determine which file permissions apply during execution.
-
-</aside>
+:::

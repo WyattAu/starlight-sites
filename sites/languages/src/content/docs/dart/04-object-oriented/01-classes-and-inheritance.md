@@ -140,7 +140,7 @@ class Rectangle {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 More efficient — they initialize fields directly, while the constructor body runs after all fields
 Have been initialized (to their default values first).
 
@@ -301,9 +301,8 @@ mixin Persistable on Serializable {
 | Multiple                | No (single)       | Yes                     | Yes                       |
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
 
@@ -335,9 +334,8 @@ print(a * 2.0);    // Vector2(2.0, 4.0)
 print(a == b);     // false
 print(a.dot(b));   // 11.0
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
 
 ## Extension Methods
@@ -368,9 +366,8 @@ extension ListX<T> on List<T> {
   }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Syntactic sugar for static function calls. This means they cannot be used polymorphically (a
 `dynamic` variable won't have access to extension methods).
 
@@ -412,5 +409,4 @@ linked above.
 - **[Class Modifiers](../07-dart3-features/03-class-modifiers.md):** Dart 3 `sealed`, `base`, `interface`, and `final` modifiers for class hierarchies.
 - **[Error Handling](../08-error-handling.md):** Custom exception classes using sealed class hierarchies.
 - **[Async and Futures](../05-async/01-async-and-futures.md):** Asynchronous factory constructors and mixin patterns in async contexts.
-
-</aside>
+:::

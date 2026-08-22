@@ -61,10 +61,10 @@ BaseException
     └── AssertionError
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `Exception`. This means `except Exception:` does not catch them — which is Correct, since you
 generally do not want to catch system-level signals.
-</aside>
+:::
 ### Catching by Hierarchy
 
 ```python
@@ -155,10 +155,10 @@ print(str(e))   # db.example.com:5432 — connection refused
 print(repr(e))  # ServerError("db.example.com', 5432, 'connection refused')
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `self.args` and used by the default `__str__` implementation. Omitting this breaks exception
 Chaining and logging.
-</aside>
+:::
 ## EAFP vs LBYL
 
 ### EAFP: Easier to Ask Forgiveness than Permission
@@ -206,7 +206,7 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 | External API calls       | EAFP + retry                 | Network conditions change         |
 | Configuration validation | LBYL at boundary             | Fail fast, clear error messages   |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 ```python
 import os
 
@@ -227,8 +227,7 @@ except FileNotFoundError:
     data = default_config()
 
 ```
-
-</aside>
+:::
 ## try/except Patterns
 
 ### Bare except Anti-Pattern
@@ -308,10 +307,10 @@ def process_file(path):
             f.close()
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 That must happen regardless. Avoid putting logic in `finally` that might raise exceptions, as it
 Masks the original exception.
-</aside>
+:::
 ## Exception Handling in Generators
 
 ### Generator close() and throw()
@@ -492,9 +491,9 @@ asyncio.run(main())
 # Logging request: req-002
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Propagates state through `asyncio.TaskGroup` and `Task` creation.
-</aside>
+:::
 ## Assertions
 
 ### assert Statement
@@ -514,7 +513,7 @@ def binary_search(arr, target):
     return -1
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The `__debug__` constant. **Never use assertions for data validation or runtime checks** — they are
 For debugging and documenting invariants:
 
@@ -526,8 +525,7 @@ assert user.is_authenticated, "User must be authenticated"
 if not user.is_authenticated:
     raise PermissionError("User must be authenticated")
 ```
-
-</aside>
+:::
 ### pytest and Assertions
 
 ```python
@@ -652,7 +650,7 @@ class UserService:
             # Do NOT raise — this is a non-critical background sync
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Non-critical background operations. **Raise without logging** when the caller is responsible for
 Handling (e.g., validation at API boundary). Never swallow exceptions silently.
 
@@ -868,8 +866,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

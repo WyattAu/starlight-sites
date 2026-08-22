@@ -320,12 +320,11 @@ $\blacksquare$
 
 The Lagrangian formulation is like giving nature a GPS route planner. Instead of tracking every force individually, you describe the landscape of kinetic and potential energy, and nature automatically picks the path that makes the action stationary. Think of a ball rolling down a hill: you do not need to compute each force component if you know the shape of the terrain. The Lagrangian L = T - V encodes this terrain, and the Euler-Lagrange equations are nature's optimization algorithm. Cyclic coordinates are like flat stretches of the landscape where nothing changes in a particular direction, so the corresponding momentum stays constant. The whole framework is coordinate-independent, meaning you can describe the same physical system using any convenient set of variables without changing the physics.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (scleronomic constraints and Velocity-independent potentials). For a bead on a rotating hoop
 (rheonomic constraint), $h$ is Conserved but $h \neq T + V$. Always check whether the system is
 natural before identifying $h$ With the total energy.
-
-</aside>
+:::
 
 ## Cross-References
 

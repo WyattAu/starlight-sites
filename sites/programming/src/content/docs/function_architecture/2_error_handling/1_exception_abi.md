@@ -42,9 +42,9 @@ the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
 | **LSDA** (Language-Specific Data Area) | Describes which PC ranges map to which `try`/`catch` blocks.                                                                            |
 | **Unwind table**                       | Lists every call site in the function so the unwinder can determine whether the function has a cleanup (destructor call) at each point. |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Exception is thrown. The tables are consulted only during unwinding.
-</aside>
+:::
 ### Alternative Exception Models
 
 | Model                       | Description                                                         | Normal-Path Cost            | Platforms                 |
@@ -254,9 +254,9 @@ Runtime overhead compared to equivalent code without exception handling.
 
 $\square$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Errors. This confirms that exception-neutral code has zero overhead in the normal path.
-</aside>
+:::
 ## 1.5 Performance Comparison: Throw/Catch vs Error Codes
 
 | Metric           | Exception (throw path)            | Error-code check            |
@@ -403,7 +403,7 @@ int main() {
 //   caught NetworkError: connection refused
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Static type, slicing the dynamic type. Always use `throw;` to re-throw the original exception.
 
 ## 1.7 Cross-Thread Exception Propagation with `std::exception_ptr`
@@ -724,5 +724,4 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

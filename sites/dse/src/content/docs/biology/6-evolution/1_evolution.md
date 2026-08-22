@@ -1201,7 +1201,7 @@ has a greater effect in small populations.
 | Flatter face                  | The face became flatter as the jaws reduced; the brow ridge became less prominent; the forehead became higher and more vertical                                                                                              |
 | Reduced body hair             | Likely associated with the evolution of sweating for thermoregulation during endurance running in hot African savanna environments                                                                                           |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 covers evolution topics within the DSE specification.
 
 See for instructions on
@@ -1437,7 +1437,7 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-</aside>
+:::
 
 ## See Also
 

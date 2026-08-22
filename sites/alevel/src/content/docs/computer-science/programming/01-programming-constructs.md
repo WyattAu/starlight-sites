@@ -55,9 +55,9 @@ y = float(5)       # y = 5.0
 z = str(42)        # z = "42"
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `round(3.9)` for rounding.
-</aside>
+:::
 <hr />
 
 ## 2. Selection (Conditional Statements)
@@ -158,12 +158,12 @@ while True:
         break
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 And `WHILE ... ENDWHILE`. **CIE (9618)** uses its own pseudocode format; requires procedure and
 Function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode format; requires
 Local and global variable scope understanding. **Edexcel** uses pseudocode similar to Python-style;
 Requires subroutines with parameters.
-</aside>
+:::
 <hr />
 
 ## 4. Recursion
@@ -223,7 +223,7 @@ $\phi = \frac{1+\sqrt{5}}{2} \approx 1.618$ (the golden ratio).
 $\psi = \frac{1-\sqrt{5}}{2}$. The solution is $T(n) = A\phi^n + B\psi^n$. Since
 $|\psi| \lt 1$ $T(n) = \Theta(\phi^n)$. $\square$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 ```python
 def fib_iter(n):
     if n <= 1:
@@ -951,8 +951,7 @@ practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-
-</aside>
+:::
 
 ## Cross-References
 

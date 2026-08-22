@@ -260,11 +260,11 @@ With each chlorine, and retains one lone pair. The structure is analogous to amm
 | Do NOT conduct electricity           | No free ions or electrons                                             |
 | gases or liquids at room temperature | Weak forces between molecules                                         |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
 Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
 Atoms -- this does not happen during melting or boiling.
-</aside>
+:::
 The distinction between intramolecular bonds (within molecules) and intermolecular forces (between
 Molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
@@ -523,10 +523,10 @@ Given the type of bonding, you should be able to predict:
 | Solid to gas    | Sublimation         | Energy absorbed |
 | Gas to solid    | Deposition          | Energy released |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Formed, and the process is reversible. The identity of the substance does not change; only the
 Arrangement and energy of its particles.
-</aside>
+:::
 ### 5.3 Heating and Cooling Curves
 
 A heating curve for a pure substance shows:

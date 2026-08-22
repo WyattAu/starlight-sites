@@ -262,10 +262,10 @@ $$\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})$$
 | C--Cl      | 346                        | F--F       | 158               |
 | O--O       | 146                        | Cl--Cl     | 243               |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Give good estimates. For reactions involving liquids or aqueous solutions, additional energy changes
 (vaporisation, dissolution) are not accounted for, so the estimate is less accurate.
-</aside>
+:::
 **Worked example 4:** Estimate $\Delta H$ for the combustion of methane using bond enthalpies.
 
 $$\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$$
@@ -465,9 +465,9 @@ $$-411 = 377 + \Delta H_{\mathrm{latt}}$$
 
 $$\Delta H_{\mathrm{latt}} = -411 - 377 = -788 \mathrm{ kJ/mol}$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Charged ions come together.
-</aside>
+:::
 **Worked example 8:** Calculate the lattice energy of $\mathrm{MgO}$ given:
 
 - $\Delta H_{\mathrm{at}}^\circ(\mathrm{Mg}) = +148 \mathrm{ kJ/mol}$
@@ -568,7 +568,7 @@ Where:
 - $T$ = temperature (K)
 - $\Delta S$ = entropy change (kJ mol$^{-1}$ K$^{-1}$)
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 K$^{-1}$Convert $\Delta S$ to kJ mol$^{-1}$ K$^{-1}$ by dividing by 1000.
 
 ### Feasibility of Reactions
@@ -1015,8 +1015,7 @@ $\text{C}(s) + \frac{1}{2}\text{O}_2(g) \rightarrow \text{CO}(g)$:
 $$\Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/energetics.md
-
-</aside>
+:::
 
 ## See Also
 

@@ -64,7 +64,7 @@ Where $dq$ depends on the geometry:
 - Surface: $dq = \sigma\, dA$ (charge per unit area)
 - Volume: $dq = \rho\, dV$ (charge per unit volume)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example: Force from a uniformly charged rod</strong>
 A rod of length $L$ carries total charge $Q$ distributed uniformly. Find the force on a point charge
 $q$ Placed along the rod's axis at distance $a$ from one end.
@@ -97,9 +97,8 @@ The field is defined at every point in space regardless of whether a test charge
 $$
 \vec{E} = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r^2}\hat{r}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Electric field on the axis of a charged ring</strong>
 A ring of radius $R$ carries total charge $Q$. Find the electric field at distance $x$ along its
 axis.
@@ -115,9 +114,8 @@ E_x = \frac{1}{4\pi\epsilon_0} \frac{x}{(R^2 + x^2)^{3/2}} \int dq = \frac{1}{4\
 $$
 
 At the center ($x = 0$): $E = 0$As expected by symmetry.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Electric field of an infinite line of charge</strong>
 For an infinite line with linear charge density $\lambda$Use cylindrical symmetry. Place the line
 along The $z$-axis. A segment $dz$ at the origin produces a field with perpendicular component:
@@ -193,9 +191,8 @@ $$
 $$
 
 **Inside ($r < R$):** $Q_{\text{enc} = 0$So $E = 0$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Non-conducting sphere with non-uniform charge density</strong>
 A sphere of radius $R$ has charge density $\rho(r) = \rho_0 (1 - r/R)$ for $0 \le r \le R$. Find $E$
 Inside and outside.
@@ -246,9 +243,8 @@ In one dimension: $E = -\dfrac{dV}{dx}$.
 $$
 V = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Potential on the axis of a charged disk</strong>
 A disk of radius $R$ has surface charge density $\sigma$. Find the potential at distance $x$ along
 the Axis.
@@ -280,9 +276,8 @@ charges:
 $$
 U = \frac{q_1 q_2}{4\pi\epsilon_0 r}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Energy to assemble a square of charges</strong>
 Four charges $q$ are placed at the corners of a square of side $a$. Find the total potential energy.
 
@@ -408,9 +403,8 @@ Gauss's law for $\vec{D}$:
 $$
 \oint \vec{D} \cdot d\vec{A} = Q_{\text{free, enc}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Parallel plate capacitor with partial dielectric</strong>
 A parallel plate capacitor has plate area $A$ and separation $d$. A dielectric of thickness $t < d$
 and Constant $\kappa$ is inserted. Find the capacitance.
@@ -570,8 +564,7 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

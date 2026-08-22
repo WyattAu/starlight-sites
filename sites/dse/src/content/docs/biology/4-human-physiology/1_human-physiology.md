@@ -1604,7 +1604,7 @@ chemically digest fats. Lipase chemically digests fats.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Human
@@ -1943,7 +1943,7 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-</aside>
+:::
 
 ## Cross-References
 

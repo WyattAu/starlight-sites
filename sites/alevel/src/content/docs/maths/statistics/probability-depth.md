@@ -22,9 +22,9 @@ categories: [Mathematics]
 This document extends the core probability material with rigorous treatments of conditional
 Probability, independence, Venn diagrams, tree diagrams, and Bayes" theorem.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 events Explicitly before writing any equations.
-</aside>
+:::
 <hr />
 
 ## 1. Conditional Probability
@@ -119,10 +119,10 @@ $$= \frac{0.95 \times 0.01}{0.95 \times 0.01 + 0.10 \times 0.99} = \frac{0.0095}
 
 So even with a positive test, there is only about an 8.8% chance of having the disease.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 false positives far Exceeds the number of true positives. This is the **base rate fallacy** --
 ignoring the prior Probability of the condition.
-</aside>
+:::
 ### 2.4 Worked example: factory with three machines
 
 **Problem.** A factory has three machines producing bolts. Machine 1 produces 50%, Machine 2
@@ -278,146 +278,3 @@ Also independent.
 $$P(A' \cap B') = P((A \cup B)') = 1 - P(A \cup B) = 1 - P(A) - P(B) + P(A)P(B)$$
 
 $$= (1 - P(A))(1 - P(B)) = P(A') \cdot P(B') \quad \blacksquare$$
-
-<aside aria-label="Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$</p>
-and $B$ are both Non-trivial (positive probability) and mutually exclusive, they **cannot** be
-independent: $P(A \cap B) = 0 \neq P(A)P(B)$.
-
-<hr />
-
-## 6. Practice Problems
-
-### Problem 1
-
-In a class of 40 students, 25 play football, 18 play cricket, and 5 play neither. A student is
-Chosen at random. Given that they play football, find the probability they also play cricket.
-
-<details>
-<summary>Solution</summary>
-
-$P(F) = 25/40 = 0.625$$P(C) = 18/40 = 0.45$$P(F \cup C) = 35/40 = 0.875$.
-
-$P(F \cap C) = 0.625 + 0.45 - 0.875 = 0.20$.
-
-$P(C \mid F) = 0.20 / 0.625 = 0.32$.
-
-</details>
-
-### Problem 2
-
-A test for a condition has sensitivity 92% (true positive rate) and specificity 96% (true negative
-Rate). The condition prevalence is 3%. Find: (a) $P(\mathrm{condition} \mid \mathrm{positive})$; (b)
-$P(\mathrm{condition} \mid \mathrm{negative})$.
-
-<details>
-<summary>Solution</summary>
-
-$P(T^+ \mid C) = 0.92$$P(T^- \mid C') = 0.96$$P(C) = 0.03$.
-
-(a)
-$P(C \mid T^+) = \dfrac{0.92 \times 0.03}{0.92 \times 0.03 + 0.04 \times 0.97} = \dfrac{0.0276}{0.0276 + 0.0388} = \dfrac{0.0276}{0.0664} \approx 0.416$
-
-(b)
-$P(C \mid T^-) = \dfrac{0.08 \times 0.03}{0.08 \times 0.03 + 0.96 \times 0.97} = \dfrac{0.0024}{0.0024 + 0.9312} = \dfrac{0.0024}{0.9336} \approx 0.00257$
-
-</details>
-
-### Problem 3
-
-Events $A$ and $B$ are independent with $P(A) = \dfrac{1}{3}$ and $P(A \cup B) = \dfrac{3}{4}$. Find
-$P(B)$.
-
-<details>
-<summary>Solution</summary>
-
-$P(A \cup B) = P(A) + P(B) - P(A)P(B)$.
-
-$\dfrac{3}{4} = \dfrac{1}{3} + P(B) - \dfrac{1}{3}P(B)$.
-
-$\dfrac{3}{4} - \dfrac{1}{3} = \dfrac{2}{3}P(B)$.
-
-$\dfrac{5}{12} = \dfrac{2}{3}P(B) \implies P(B) = \dfrac{5}{8}$.
-
-</details>
-
-### Problem 4
-
-A bag contains 4 red, 6 green, and 5 blue balls. Three balls are drawn without replacement. Find The
-probability that they are all different colours.
-
-<details>
-<summary>Solution</summary>
-
-Total balls $= 15$. Ways to draw one of each colour:
-
-Number of ways $= \binom{4}{1}\binom{6}{1}\binom{5}{1} = 120$.
-
-Total ways to draw 3 from 15 $= \binom{15}{3} = 455$.
-
-$P = \dfrac{120}{455} = \dfrac{24}{91} \approx 0.264$.
-
-Alternatively, using conditional probability:
-
-$P = \dfrac{4}{15} \times \dfrac{6}{14} \times \dfrac{5}{13} \times 6 = \dfrac{720}{2730} = \dfrac{24}{91}$.
-
-(The factor of 6 accounts for the $3! = 6$ orderings of the three colours.)
-
-</details>
-
-## Intuition
-
-Probability is fundamentally about quantifying uncertainty before an event occurs. Think of the sample space as a pizza: conditional probability asks what fraction of one topping's area also contains another topping, effectively shrinking the pizza to just that topping's region. Bayes' theorem reverses the direction of reasoning like looking at a photograph and asking which camera likely took it. Independence means one slice of information tells you nothing about another, just as flipping a coin tells you nothing about the next roll. The law of total probability is like weighing several possible routes by their likelihoods to find your overall chance of arriving on time.
-
-## Common Pitfalls
-
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
-   using previous work.
-
-2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
-   cannot be zero).
-
-3. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
-
-4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
-   questions.
-
-## Worked Examples
-
-### Example 1: Bayes' Theorem
-
-**Problem.** A disease affects 1% of the population. A test has 95% sensitivity
-($P(\text{+}|\text{disease}) = 0.95$) and 90% specificity ($P(\text{-}|\text{no disease}) = 0.90$).
-Find the probability a person has the disease given a positive test.
-
-**Solution.** By Bayes' theorem:
-
-$$P(D|+) = \frac{P(+|D)P(D)}{P(+|D)P(D) + P(+|D^c)P(D^c)} = \frac{0.95 \times 0.01}{0.95 \times 0.01 + 0.10 \times 0.99}$$
-
-$$P(D|+) = \frac{0.0095}{0.0095 + 0.099} = \frac{0.0095}{0.1085} \approx 0.0876$$
-
-Despite the positive test, there is only an 8.8% chance of having the disease, due to the low
-prevalence.
-
-$\blacksquare$
-
-### Example 2: Conditional Probability and Tree Diagrams
-
-**Problem.** Bag A contains 4 red and 6 blue balls. Bag B contains 7 red and 3 blue balls. A fair
-die is rolled: if it shows 1 or 2, a ball is drawn from Bag A; otherwise from Bag B. Find the
-probability the ball is red, and the probability Bag A was chosen given the ball is red.
-
-**Solution.** $P(A) = \frac{2}{6} = \frac{1}{3}$, $P(B) = \frac{2}{3}$.
-
-$P(R|A) = \frac{4}{10} = 0.4$, $P(R|B) = \frac{7}{10} = 0.7$.
-
-$P(R) = P(R|A)P(A) + P(R|B)P(B) = 0.4 \times \frac{1}{3} + 0.7 \times \frac{2}{3} = \frac{0.4 + 1.4}{3} = \frac{1.8}{3} = 0.6$.
-
-$$P(A|R) = \frac{P(R|A)P(A)}{P(R)} = \frac{0.4 \times \frac{1}{3}}{0.6} = \frac{0.1333}{0.6} \approx 0.222$$
-
-$\blacksquare$
-
-## Cross-References
-
-- [Probability](03-probability.md) — The core probability axioms and basic results are developed in the standard probability topic.
-- [Statistical Distributions](04-statistical-distributions.md) — Binomial, normal, and Poisson distributions build on the probability theory presented here.
-- [Hypothesis Testing](05-hypothesis-testing.md) — Bayes' theorem and conditional probability are directly applied in statistical hypothesis testing.

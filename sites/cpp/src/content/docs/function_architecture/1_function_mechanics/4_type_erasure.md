@@ -184,10 +184,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 16 bytes. Libc++ (Clang) uses 24 bytes (on 64-bit). If avoiding heap allocation is critical, prefer
 Passing lambdas as template parameters or using auto.
-</aside>
+:::
 ### SBO Threshold Across Implementations
 
 | Implementation  | SBO Size | Notes                               |
@@ -276,10 +276,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Owns exclusive resources (file handles, network connections, GPU buffers). It enables zero-overhead
 Move semantics where `std::function` would force a costly shared_ptr wrapping.
-</aside>
+:::
 ### `std::move_only_function` with `noexcept` Qualification
 
 `std::move_only_function` supports specifying `noexcept` on the callable signature:

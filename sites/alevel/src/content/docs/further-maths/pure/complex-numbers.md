@@ -21,9 +21,9 @@ categories: [Mathematics]
 This document provides a rigorous treatment of modulus-argument form, De Moivre's theorem, roots of
 Complex numbers, loci in the Argand diagram, and Euler's formula.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Difficult to prove in real analysis become straightforward when extended to the complex plane.
-</aside>
+:::
 <hr />
 
 ## 1. Modulus-Argument Form
@@ -311,9 +311,9 @@ Equating arguments: $y = \dfrac{\pi}{3} + 2k\pi$ for $k \in \mathbb{Z}$.
 
 $$z = \ln 2 + i\!\left(\frac{\pi}{3} + 2k\pi\right), \quad k \in \mathbb{Z}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The form $e^z = w$ have infinitely many solutions. Always include the general solution with $2k\pi$.
-</aside>
+:::
 <hr />
 
 ## 5. Practice Problems
@@ -452,7 +452,7 @@ $\blacksquare$
 
 ## 7. Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 1. **Argument range:** Always specify whether your argument is the principal value $(-\pi, \pi]$ or
    the general value. When multiplying or dividing complex numbers, the resulting argument may fall
    outside the principal range and must be adjusted.
@@ -1210,5 +1210,4 @@ including key theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::

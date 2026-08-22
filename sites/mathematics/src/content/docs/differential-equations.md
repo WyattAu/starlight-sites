@@ -389,12 +389,12 @@ $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 
 ### 2.17 Common Pitfalls for First-Order ODEs
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $h(y) = 0$. Always check whether $h(y) = 0$ yields valid solutions before dividing.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require numerical Techniques.
-</aside>
+:::
 ## 3. Second-Order Linear ODEs
 
 ### 3.1 General Theory
@@ -764,17 +764,17 @@ The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
 ### 3.17 Common Pitfalls for Second-Order ODEs
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $x > 0$. For $x < 0$Substitute $x = -e^t$ or use $y = (-x)^r$.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 If the forcing term $g(x)$ is a polynomial, exponential, sine, or cosine (or products of these),
 Prefer undetermined coefficients --- it is much faster.
-</aside>
+:::
 ### 3.18 Abel's Identity (Proof)
 
 **Theorem 3.6 (Abel's Identity).** If $y_1, y_2$ are solutions of $y'' + p(x)y' + q(x)y = 0$ Then
@@ -1293,13 +1293,13 @@ $y(t) = 6 \cdot \frac{t^2 e^{3t}}{2!} = 3t^2 e^{3t}$. $\blacksquare$
 
 ### 5.14 Common Pitfalls for Laplace Transforms
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 written as $u_c(t)f(t - c)$Not $u_c(t)f(t)$. The function $f$ must be shifted by the same Amount as
 the step.
-</aside>
+:::
 ### 5.15 Proof Sketch: Picard Iteration
 
 The Picard-Lindelöf theorem can be proved constructively via **Picard iteration**. For the IVP
@@ -1978,42 +1978,42 @@ extinction (competitive exclusion).
 
 ## 10. Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Separate, check whether $h(y) = 0$ gives any valid solutions. For example, solving $y' = y^2$ by
 Separating gives $y = -1/(x + C)$But misses the solution $y = 0$.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Of continuity. At jump discontinuities, it converges to the midpoint of the jump. The Gibbs
 Phenomenon causes overshoots near jumps that do not vanish as more terms are added.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Determine the eigenvalues. Using the wrong boundary conditions (e.g., Neumann instead of Dirichlet)
 Leads to a completely different set of eigenfunctions and eigenvalues.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. Numerical methods
 (Euler, Runge-Kutta) may be necessary.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
 The imaginary axis, the nonlinear system can behave very differently from its linearization.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Partial fraction decomposition is correct before inverting term-by-term. A common error is
 Forgetting to include all powers of irreducible quadratic factors.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 with complex $r = \alpha \pm i\beta$ gives solutions involving $\cos(\beta \ln x)$ and
 $\sin(\beta \ln x)$Not $\cos(\beta x)$ and $\sin(\beta x)$.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Necessarily mean the solutions are linearly dependent. For linear ODEs with continuous coefficients,
 $W \equiv 0$ everywhere or $W \neq 0$ everywhere. Check Abel's identity.
 
@@ -2566,8 +2566,7 @@ $$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \
 | Multivariable Calculus             | WyattsNotes | [View](multivariable-calculus)                   |
 | Complex Analysis                   | WyattsNotes | [View](complex-analysis)                         |
 | Differential Equations — MIT 18.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) |
-
-</aside>
+:::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

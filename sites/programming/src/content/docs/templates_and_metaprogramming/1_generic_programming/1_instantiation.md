@@ -111,11 +111,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 S13.8.3]. If a better overload of `g` is declared _after_ the template definition, it will **not**
 Be found. This is the single most surprising aspect of two-phase lookup and a frequent source of
 Bugs.
-</aside>
+:::
 ### Formal Justification for Two-Phase Lookup
 
 The standard mandates two-phase lookup [N4950 S13.8.3] to preserve a well-defined separation between
@@ -242,11 +242,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 S13.8.2/6]. The compiler may silently use the primary template instead. This is one of the most
 Insidious bugs in template code: the program compiles, links, and runs, but produces wrong results.
 Always define specializations before any potential point of use.
-</aside>
+:::
 ### Instantiation Point Bugs
 
 The POI rules interact with header inclusion order in subtle ways. A specialization declared in a
@@ -787,7 +787,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Only when profiling confirms the overhead, for tiny leaf functions in hot loops. Overusing It
 increases code size and can degrade instruction cache performance.
 
@@ -942,5 +942,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

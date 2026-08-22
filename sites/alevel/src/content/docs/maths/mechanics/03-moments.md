@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes non-uniform bodies   |
 | CIE (9709) | P4      | Moments and equilibrium       |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 moments, and include the direction (clockwise/anticlockwise) of each moment.
-</aside>
+:::
 <hr />
 
 ## 1. Definition of a Moment
@@ -109,10 +109,10 @@ $R_{\mathrm{left}} = W + P - R_{\mathrm{right}} = \dfrac{W}{2} + \dfrac{P(L-a)}{
 Notice that as the vehicle moves right ($a$ increases), $R_{\mathrm{right}}$ increases and
 $R_{\mathrm{left}}$ decreases — the bridge load redistributes continuously.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
 Unknown from the moment equation.
-</aside>
+:::
 <hr />
 
 ## 3. Equilibrium Conditions
@@ -222,10 +222,10 @@ $$R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_
 The minimum coefficient of friction depends only on the angle $\theta$. As the ladder becomes
 Steeper ($\theta$ increases), $\cot\theta$ decreases and less friction is needed.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The wall. This changes the vertical equilibrium to $R_g + F_w = W$ and adds complexity to the moment
 Equation. Always read the question carefully to determine whether the wall is smooth or rough.
-</aside>
+:::
 ### 3.2.4 Ladder with a person on it
 
 When a person of weight $P$ stands on the ladder at a fraction $\alpha$ of the way up (distance
@@ -296,9 +296,9 @@ To find the forces in the members of a framework:
 
 If you assume a rod is in tension and get a negative answer, the rod is in compression.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 unknown forces, Since you can only write two equilibrium equations per joint.
-</aside>
+:::
 <hr />
 
 ## 4. Centre of Mass
@@ -428,9 +428,9 @@ $P = \dfrac{150}{1.2} = 125\,\mathrm{N}$.
 
 Since $125 \lt 200$The block **topples first** at $P = 125\,\mathrm{N}$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 occurs First, which matches our calculation.
-</aside>
+:::
 <hr />
 
 ## Problem Set
@@ -837,7 +837,7 @@ Centre of mass is approximately $4.21\,\mathrm{cm}$ from the flat face.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Moments
@@ -845,7 +845,7 @@ with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Intuition
 
 Moments measure the turning effect of a force about a point, like how pushing a door near its edge is more effective than pushing near the hinge. The principle of moments states that balance occurs when clockwise and anticlockwise turning effects cancel. Centre of mass is the average position of all mass, the point where gravity effectively acts. Frameworks distribute forces through members in tension or compression, and ladders against walls combine moments with friction to create stability problems that test all equilibrium conditions simultaneously.

@@ -201,15 +201,14 @@ t2 = time.time()
 print(f"First: {t1-t0:.3f}s, Second: {t2-t1:.3f}s")
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 ```python
 e = ExpensiveComputation(range(100))
 e.result  # Computes and caches
 e.result = "override"  # Replaces the cached value
 del e.result  # Removes from instance dict, next access recomputes
 ```
-
-</aside>
+:::
 ## classmethod and staticmethod
 
 Both are implemented as descriptors.
@@ -293,10 +292,10 @@ class StaticMethod:
         return self.func
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 When you need the class (e.g., for alternative constructors). Use a regular method when you need the
 Instance.
-</aside>
+:::
 ## \_\_slots\_\_
 
 `__slots__` replaces the instance `__dict__` with a fixed set of attribute descriptors, saving
@@ -377,9 +376,9 @@ f.x = 1
 f.dynamic = "allowed"  # Stored in __dict__
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Work correctly. Always test serialization with your chosen protocol when using `__slots__`.
-</aside>
+:::
 ## \_\_getattr\_\_ and \_\_getattribute\_\_
 
 These two methods control attribute access but have very different behaviors:
@@ -427,10 +426,10 @@ print(s.x)        # Works
 # print(s.z)      # AttributeError: Access to 'z' is not allowed
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 for any attribute access within the method. Using `self.name` Will cause infinite recursion because
 it triggers `__getattribute__` again.
-</aside>
+:::
 ## \_\_setattr\_\_ and \_\_delattr\_\_
 
 ### **setattr**
@@ -472,9 +471,9 @@ pa.version = "1.0"
 # del pa.version  # AttributeError: Cannot delete protected attribute 'version'
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `object.__delattr__(self, name)` within these methods.
-</aside>
+:::
 ## \_\_dir\_\_
 
 The `__dir__` method customizes the output of `dir()` and tab-completion in interactive shells:
@@ -533,9 +532,9 @@ print(v1 > v2)   # False (generated)
 print(v1 >= v2)  # False (generated)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Performance-critical code, implement all six comparison methods explicitly.
-</aside>
+:::
 ### functools.singledispatchmethod
 
 `@singledispatchmethod` (Python 3.8+) provides method overloading based on the type of the first

@@ -129,12 +129,12 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Does not participate in the One Definition Rule (ODR) for the discarded path. However, the
 Non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
 `if constexpr` branches --- a discarded branch that would have had a side effect does not execute,
 But a taken branch with a side effect does execute at runtime.
-</aside>
+:::
 ## Type-Safe `to_string` with `if constexpr`
 
 Before `if constexpr`Writing a type-safe string conversion function required either specialization
@@ -282,12 +282,12 @@ Output:
 (1, hello, 3.14)
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Full/partial template specialization for dispatching based on type properties because it keeps all
 Logic in a single function body, avoids code duplication, and is easier to maintain. Specialization
 Is still necessary when different types require fundamentally different function signatures or
 Return types.
-</aside>
+:::
 ## `constexpr` Functions
 
 A `constexpr` function [N4950 §7.7] is a function that **may** be evaluated at compile time. If all
@@ -402,13 +402,13 @@ Output:
 http
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Compile time and runtime. Use `consteval` when the function is intended only for compile-time
 Computation and should never appear in the generated binary. `consteval` functions can call other
 `consteval` and `constexpr` functions, but a `constexpr` function cannot call a `consteval` function
 With a non-constant argument (because the `consteval` function would fail its compile-time
 Requirement).
-</aside>
+:::
 ## `constinit` --- Compile-Time Initialization (C++20)
 
 The `constinit` specifier [N4950 §6.6.3] guarantees that a variable with static or thread storage
@@ -540,13 +540,13 @@ Primes up to 50: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
 HELLO CONSTEXPR WORLD
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Allocations must be **transient** --- they must be deallocated before the end of the constant
 Evaluation. The result of a `constexpr` function must not contain heap allocations
 (pointers/references to the heap). This is why `constexpr std::vector<int> v{1, 2, 3};` is valid as
 A local variable in a constexpr context, but you cannot return a heap-allocated vector and use it as
 A template argument. C++23 relaxes this further for non-transient allocations in some contexts.
-</aside>
+:::
 ## `consteval` for Compile-Time String Parsing
 
 ```cpp

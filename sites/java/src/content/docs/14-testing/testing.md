@@ -182,11 +182,11 @@ class LifecycleTest {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Use `@TestInstance(Lifecycle.PER_CLASS)` to create a single instance shared across all test methods.
 This allows non-static `@BeforeAll`/`@AfterAll` methods, but tests share instance state, which can
 Cause interference.
-</aside>
+:::
 ### Parameterized Tests
 
 Parameterized tests run the same test logic with different inputs, eliminating test method
@@ -408,10 +408,10 @@ System.out.println(spyList.size()); // 100 (stubbed)
 System.out.println(spyList.get(0));   // "real" (real method called)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Calls the real method to get the return value before stubbing, which can have side effects or throw
 Exceptions.
-</aside>
+:::
 ## Integration Testing
 
 ### Spring Boot Test Context
@@ -705,7 +705,6 @@ tasks.check {
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
-<aside class="starlight-aside starlight-aside--caution">
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
 To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
@@ -943,8 +942,7 @@ Testing is the practice of verifying that code behaves as expected. Unit tests c
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>## Cross-References
+:::## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
 - **[Java Basics](../flashcards-java-basics):** Fundamental Java concepts including types and control flow.

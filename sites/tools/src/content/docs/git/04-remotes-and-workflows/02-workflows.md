@@ -86,7 +86,7 @@ gitGraph
 - Small to medium teams (up to $\sim$15 developers)
 - SaaS products with frequent releases
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Well with proper tooling (Bazel for builds, automated canary deployments).
 
 ## GitHub Flow
@@ -239,9 +239,8 @@ $ git branch -d hotfix/fix-crash
 - Teams that need to support multiple production versions simultaneously
 - Projects where releases require significant preparation (version bumps, changelogs, release notes)
 - Regulated environments where release audit trails are required
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Development is simpler and more effective. Only adopt Git Flow if you genuinely need release
 Branches and hotfix workflows.
 
@@ -335,9 +334,8 @@ a null pointer after strtok returned NULL. Added a null check.
 BREAKING CHANGE: The parser now returns an error instead of silently
 accepting empty input. Update callers to handle ParseError.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 In CI:
 
 ```bash
@@ -367,8 +365,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

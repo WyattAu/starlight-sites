@@ -415,7 +415,7 @@ print(f"Change: {change}")
 ## Output: Change: {50: 1, 20: 1, 10: 1, 5: 1, 2: 1}
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Denominations {1, 3, 4} and amount 6, the greedy approach gives 4 + 1 + 1 (3 coins), but the optimal
 Is 3 + 3 (2 coins).
 
@@ -845,8 +845,7 @@ practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

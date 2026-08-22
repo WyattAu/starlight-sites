@@ -220,7 +220,7 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 meaningful determinant for an $m \times n$ matrix with $m \neq n$. Do not confuse
 $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
 
@@ -335,7 +335,6 @@ factor of 57. $\blacksquare$
 - **[Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors.md)**: Eigenvalues are the roots of the characteristic polynomial defined via determinants.
 - **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: Gaussian elimination transforms matrices into row echelon form to solve linear systems.
 - **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
-
-</aside>
+:::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -17,3 +17,7 @@ playwright-report/
 
 crawlkit-results-*/
 __pycache__/
+
+# Generated search index (built by search-api/build-search-index.js)
+search-api/merged-index.js
+search-api/merged-index.json

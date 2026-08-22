@@ -194,10 +194,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `std::variant<Ts...>`And other standard library types, reducing the need for custom Specializations
 .
-</aside>
+:::
 ## See Also
 
 - [Operator Overloading](./4_operator_overloading.md)

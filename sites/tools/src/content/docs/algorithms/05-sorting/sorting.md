@@ -114,7 +114,7 @@ def insertion_sort(arr):
     return arr
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 This is why it is used as the base case in merge sort and quicksort implementations, and why TimSort
 (the default in Python, Java, and Rust) uses insertion sort for small runs.
 
@@ -956,8 +956,7 @@ Pass 1: `[1, 4, 2, 5, 8]` — 4 swaps (5 bubbled right) Pass 2: `[1, 2, 4, 5, 8]
 `[1, 2, 4, 5, 8]` — 0 swaps (sorted, algorithm terminates)
 
 Time complexity: $O(n^2)$ worst case, $O(n)$ best case (already sorted with optimisation).
-
-</aside>
+:::
 
 ## Cross-References
 

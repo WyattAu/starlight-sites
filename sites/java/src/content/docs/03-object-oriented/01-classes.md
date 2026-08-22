@@ -46,11 +46,11 @@ public final class ImmutableList<E> extends AbstractList<E> implements List<E>, 
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §8.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.1) defines class
 Declarations. The top-level class can be `public` or package-private (no modifier). Only one
 `public` class per compilation unit (.java file) is permitted.
-</aside>
+:::
 A class body can contain: field declarations, method declarations, constructors, static and instance
 Initializer blocks, nested class and interface declarations, and enum declarations.
 
@@ -245,16 +245,16 @@ class SubclassDemo extends AccessDemo {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Package can access a `protected` member only through `this` or a reference of the subclass's own
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
 The actual object is an instance of the subclass.
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 [JLS §6.6](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.6) defines access
 Control in exhaustive detail. The rules for `protected` are specified in
 [JLS §6.6.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.6.2).
-</aside>
+:::
 ## Fields and Methods
 
 ### Instance Fields
@@ -338,10 +338,10 @@ public class Config {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Shared across all threads and all instances of the class. This is the source of countless
 Concurrency bugs in web applications.
-</aside>
+:::
 ## Final Classes and Methods
 
 ### Final Classes
@@ -432,11 +432,11 @@ public class Circle extends Shape {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §8.1.1.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.1.1.1) defines
 Abstract classes. An abstract class must be declared `abstract` if it has any abstract methods, but
 A class can be declared `abstract` even with no abstract methods (to prevent direct instantiation).
-</aside>
+:::
 ## Interfaces
 
 An interface declares a contract that implementing classes must fulfill. Unlike abstract classes, an
@@ -737,11 +737,11 @@ public Iterator<E> filteredIterator(final Predicate<? super E> predicate) {
 | Anonymous     |         Yes          |          All members          |            Yes            |        No        |
 | Local         |         Yes          |          All members          |            Yes            |        No        |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Implicit reference to its enclosing instance, which can prevent garbage collection of the enclosing
 Object and creates a coupling that makes testing harder. Use a member inner class only when it
 Genuinely needs to access the enclosing instance's state.
-</aside>
+:::
 ## Inheritance
 
 ### IS-A and HAS-A Relationships
@@ -903,10 +903,10 @@ Child c = new Child();
 c.classify();     // "Child"  -- compile-time type is Child
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Depends on the declared type of the variable rather than the actual object. If you need polymorphic
 Behavior, use instance methods.
-</aside>
+:::
 ### Covariant Return Types
 
 Since Java 5, an overriding method can return a subtype of the return type declared in the
@@ -1031,11 +1031,11 @@ public int hashCode() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 state in a way that changes `equals()` or `hashCode()`The collection will behave incorrectly. The
 object may become "lost" in the wrong bucket. Always use immutable objects as hash keys, or Ensure
 that fields used in `equals()`/`hashCode()` are never modified after insertion.
-</aside>
+:::
 ### clone()
 
 The `clone()` method is intended to create a field-for-field copy of an object. However, its design
@@ -1078,12 +1078,12 @@ class Person implements Cloneable {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Does a shallow copy) and the `Cloneable` marker interface (which has no methods). The pattern is
 Awkward: you must call `super.clone()` (which checks runtime type), then manually deep-copy mutable
 Fields. Most experts recommend using copy constructors or static factory methods instead. Josh Bloch
 (Effective Java) recommends against using `clone()`.
-</aside>
+:::
 ### finalize()
 
 The `finalize()` method is called by the garbage collector before an object's memory is reclaimed.
@@ -1227,12 +1227,12 @@ public enum Operation {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §8.9](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.9) defines enum
 Declarations. Enum constants are implicitly `public static final`. Enum types implicitly extend
 `java.lang.Enum` and cannot be instantiated with `new`. Enum types are implicitly `final` unless
 They have constant-specific class bodies.
-</aside>
+:::
 ## Generics Basics
 
 Generics allow you to parameterize types -- classes, interfaces, and methods can operate on types
@@ -1390,7 +1390,7 @@ String s = (String) strings.get(0);  // compiler inserts the cast
 List<String>[] array = (List<String>[]) new List<?>[10];
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §4.6](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.6) defines type
 Erasure. [JLS §4.5](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.5) defines
 Parameterized types.
@@ -1477,4 +1477,5 @@ Classes are blueprints for creating objects. A class defines fields (state) and 
 
 - [Inheritance and Polymorphism](02-inheritance-polymorphism) -- extending classes and overriding methods
 - [Collections Framework](../04-collections/01-collections-framework) -- equals/hashCode in practice
-- [Records, Sealed Classes, and Pattern Matching](../08-modern-java/01-records-sealed-patterns) -- records as data carriers</aside>
+- [Records, Sealed Classes, and Pattern Matching](../08-modern-java/01-records-sealed-patterns) -- records as data carriers
+:::

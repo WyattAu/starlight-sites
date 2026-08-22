@@ -65,11 +65,11 @@ Frequent crossing over approximate independent assortment).
 In a heterozygote, one allele may mask the expression of another. The allele that is expressed is
 Dominant; the allele that is masked is recessive.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Complete dominance, (c) no gene interaction, and (d) no linkage. Real organisms frequently violate
 One or more of these assumptions. The DSE syllabus expects you to recognise when Mendelian ratios do
 Not hold and to explain why.
-</aside>
+:::
 ### Monohybrid Crosses
 
 A monohybrid cross involves a single pair of contrasting traits.
@@ -261,10 +261,10 @@ Three alleles exist at the I locus:
 | I^A I^B  | AB        | A and B  | None           |
 | ii       | O         | None     | Anti-A, Anti-B |
 
-<aside aria-label="A common error is writing "three alleles" when the question asks about an individual's" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common error is writing "three alleles" when the question asks about an individual's</p>
+:::caution
 Genotype. An individual always carries exactly two alleles. The phrase "multiple alleles" refers to
 The gene pool of the entire population, not to a single organism.
-</aside>
+:::
 **Worked calculation:**
 
 A woman with blood group A (whose father was blood group O) has a child with a man who is blood
@@ -441,10 +441,10 @@ When constructing genetic diagrams for DSE examinations, follow these convention
 6. Read off the genotypic and phenotypic ratios
 7. Answer the question using the ratios
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 need to show All individual genotypes. For X-linked crosses, always use a Punnett square since the
 gamete Combinations differ between males and females.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1358,12 +1358,12 @@ sequence itself.
 | Histone modification | Acetylation, methylation, or phosphorylation of histone proteins; affects how tightly DNA is wound around histones (chromatin structure) |
 | Non-coding RNA       | MicroRNAs (miRNAs) and small interfering RNAs (siRNAs) that bind to mRNA and inhibit translation or promote degradation                  |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 factors (diet, stress, toxins). This has important implications for understanding how environmental
 exposures affect gene expression and disease risk across generations. However, epigenetic changes
 should NOT be confused with Lamarckian inheritance of acquired characteristics -- the DNA sequence
 itself is unchanged.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1508,7 +1508,7 @@ these, protein synthesis cannot occur.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Genetics
@@ -1830,5 +1830,4 @@ linked above.
 - [Plant Biology](../5-plant-biology/1_plant-biology) -- Plant breeding and genetic modification connect genetics to agricultural biology.
 - [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- DNA and protein structure are fundamentally organic molecules governed by chemical bonding.
 - [Nuclear Physics](../../physics/5-nuclear-physics/1_nuclear-physics) -- Radiation-induced mutations link nuclear physics to genetic variation.
-
-</aside>
+:::

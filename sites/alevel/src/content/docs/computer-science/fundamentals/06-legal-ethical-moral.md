@@ -22,11 +22,11 @@ categories:
 
 ## 1. Legal, Ethical, and Moral Frameworks
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions
 Requiring you to apply legislation to scenarios. CIE and Edexcel favour longer-essay style responses
 Evaluating the impact of technology on society.
-</aside>
+:::
 ### Definition
 
 **Definition.** **Law** is a system of rules enforced by a sovereign state through institutions such
@@ -53,10 +53,10 @@ Cultures, whereas laws aim for consistency within a jurisdiction.
 | Change speed | Slow (parliamentary process)      | Moderate (reviewed periodically)             | Rapid (shifts with attitudes)     |
 | Example      | The Data Protection Act 2018      | BCS Code of Conduct                          | Belief that surveillance is wrong |
 
-<aside aria-label="Exam questions often ask you to "evaluate the legal and ethical implications" of a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Exam questions often ask you to "evaluate the legal and ethical implications" of a</p>
+:::caution
 Scenario. "Legal" means identify the specific Act and explain how it applies. "Ethical" means apply
 An ethical framework or professional code. Do not confuse the two.
-</aside>
+:::
 ### Why This Matters for Computer Scientists
 
 Software systems process personal data, make automated decisions, control physical infrastructure,
@@ -76,10 +76,10 @@ These frameworks because:
 
 ### 2.1 Computer Misuse Act 1990
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Knowledge. CIE does not specify UK legislation but expects awareness of computer misuse laws
 Generally.
-</aside>
+:::
 **Definition.** The **Computer Misuse Act 1990** (CMA) is a UK Act of Parliament that criminalises
 Unauthorised access to computer systems and unauthorised modification of computer material. It was
 Amended by the Police and Justice Act 2006 (adding Sections 3A, 3ZA-3ZC) and the Serious Crime
@@ -111,15 +111,15 @@ Act 2015.
   s.3 of the CMA. Established that sending a high volume of emails to cause disruption constitutes
   an impairment offence even if each individual email is legitimate.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Not need to have damaged or stolen anything. Merely guessing a password and gaining entry is
 Sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
-</aside>
+:::
 ### 2.2 Data Protection Act 2018 and UK GDPR
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Tested piece of legislation across all boards.
-</aside>
+:::
 **Definition.** The **Data Protection Act 2018** (DPA 2018) is the UK's implementation of the EU
 General Data Protection Regulation (GDPR). Following Brexit, the UK operates under "UK GDPR" which
 Mirrors the EU GDPR with minor differences. Together, the DPA 2018 and UK GDPR form the UK's data
@@ -200,16 +200,16 @@ The ICO can impose:
   facial recognition database. The ICO found that Clearview AI had collected images from the web
   without consent, violating UK GDPR principles.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Processor. The controller decides _why_ and _how_ data is processed; the processor carries out the
 Processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
 Primary responsibility.
-</aside>
+:::
 ### 2.3 Copyright, Designs and Patents Act 1988
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Under its "Impacts of Computing" topic. CIE expects general understanding of software copyright.
-</aside>
+:::
 **Definition.** The **Copyright, Designs and Patents Act 1988** (CDPA) is the primary UK legislation
 Governing intellectual property rights. It grants creators automatic protection of their original
 Works from the moment of creation, without requiring registration.
@@ -334,10 +334,10 @@ Government.
 
 ### 2.6 Equality Act 2010
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 "Ethical, Legal, and Environmental Impacts" topic. Edexcel covers discrimination in automated
 Systems.
-</aside>
+:::
 **Definition.** The **Equality Act 2010** consolidates previous anti-discrimination legislation (
 Including the Race Relations Act, Sex Discrimination Act, and Disability Discrimination Act). It
 Prohibits discrimination on nine "protected characteristics":
@@ -550,10 +550,10 @@ The key virtues include: honesty, justice, courage, temperance, prudence, compas
 | Deontology     | Rules/duties           | Does this conform to a moral rule?     | Clear principles; respects individual rights | Inflexible; duties may conflict                              |
 | Virtue Ethics  | Character of the agent | What would a virtuous person do?       | Flexible; considers context and motivation   | Vague; no clear decision procedure                           |
 
-<aside aria-label="Exam questions often ask you to "apply an ethical framework" to a scenario. You must name" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Exam questions often ask you to "apply an ethical framework" to a scenario. You must name</p>
+:::caution
 The framework, explain its core principle, and then apply it to the specific case. Stating "it is
 wrong" without grounding your answer in a framework will not score well.
-</aside>
+:::
 ### 3.5 Professional Codes of Conduct
 
 #### BCS Code of Conduct
@@ -711,11 +711,11 @@ Profiling raises concerns about:
 | Individual fairness | Similar individuals should receive similar outcomes. Two applicants with identical qualifications should receive the same credit score.               |
 | Calibration         | Predicted probabilities should be equally accurate across groups. A predicted 80% probability of repayment should mean the same thing for all groups. |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Generally impossible to satisfy multiple fairness definitions simultaneously when base rates differ
 Between groups. This means that choosing a fairness definition is itself an ethical decision, not a
 Purely technical one.
-</aside>
+:::
 #### Mitigation Strategies
 
 1. **Pre-processing:** Modify the training data to reduce bias (re-sampling, re-weighting, removing
@@ -1114,7 +1114,7 @@ And when crimes are likely to occur, or to identify individuals who are likely t
 
 ## 6. Exam Practice
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Edexcel, and CIE examination papers. AQA and OCR favour structured questions with specific marks for
 Specific points. Edexcel and CIE favour extended discussion questions requiring evaluation.
 
@@ -1461,5 +1461,4 @@ linked above.
 - [Communication and Networking](../../../../../../computer-science/src/content/docs/2-systems/networking) -- Internet governance and cybersecurity laws directly relate to network protocols and data transmission.
 - [Programming Paradigms](../programming/programming-paradigms) -- Software development practices raise ethical questions about AI, automation, and algorithmic bias.
 - [Data Types and Structures](../data/data-types-structures) -- Data storage and processing techniques have legal implications under data protection regulations.
-
-</aside>
+:::

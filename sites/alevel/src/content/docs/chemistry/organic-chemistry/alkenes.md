@@ -841,7 +841,7 @@ This demonstrates the importance of choosing the correct disconnection strategy 
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alkenes
@@ -869,8 +869,7 @@ and practical applications.
 
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
-
-</aside>
+:::
 
 ## Cross-References
 

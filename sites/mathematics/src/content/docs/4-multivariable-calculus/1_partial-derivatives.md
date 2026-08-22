@@ -323,7 +323,7 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
 
 ### 1.13 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Existence $\neq$ continuity of partials.** A function can have all partial derivatives at a
   point yet fail to be continuous (hence not differentiable) there.
 - **Existence $\neq$ differentiability.** Even if all partials exist at a point, the function need
@@ -334,8 +334,7 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
 - **Normalise the direction vector.** The formula $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$
   assumes $\lVert \mathbf{u} \rVert = 1$. If the direction is given by a non-unit vector
   $\mathbf{v}$Divide by $\lVert \mathbf{v} \rVert$ first.
-
-</aside>
+:::
 
 ## Cross-References
 

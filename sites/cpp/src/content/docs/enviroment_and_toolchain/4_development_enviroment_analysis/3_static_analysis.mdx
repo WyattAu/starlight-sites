@@ -585,7 +585,7 @@ clang-tidy -p build/ --checks='modernize-*' --fix-errors src/
 clang-format -i src/**/*.cpp src/**/*.hpp src/**/*.h
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Always run clang-tidy fixes in a separate commit. Review the diff carefully before</strong>
 
 Merging. Some fixes (e.g., `modernize-use-auto`) can change semantics if the deduced type is not
@@ -715,4 +715,4 @@ marks in geography assessments.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-</aside>
+:::

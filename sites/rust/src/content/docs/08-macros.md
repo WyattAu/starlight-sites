@@ -203,7 +203,7 @@ macro_rules! find_min {
 assert_eq!(find_min!(3, 1, 4, 1, 5), 1);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Will produce the error "recursion limit reached while expanding ...". Use
 `#![recursion_limit = "256"]` at the crate root to increase the limit if needed. For truly complex
 Processing, use a procedural macro instead.
@@ -350,9 +350,8 @@ macro_rules! my_assert {
     };
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
 That has no prospect of changing.
@@ -1078,9 +1077,8 @@ pub fn sql(input: TokenStream) -> TokenStream {
 // Usage
 let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", user_id, name);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with
 Its `query!` macro provide this level of sophistication.
 
@@ -1654,8 +1652,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

@@ -79,10 +79,10 @@ Application.
 | **Desktop**     | General-purpose, multi-user with GUI                               | Windows, macOS, Linux   |
 | **Mobile**      | Optimised for touch, power efficiency, and connectivity            | Android, iOS            |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 **OCR (A)** focus on batch, real-time, and desktop/mobile. **CIE** covers real-time and distributed
 Systems in particular depth.
-</aside>
+:::
 <hr />
 
 ## 2. Process Management
@@ -254,10 +254,10 @@ $$\mathrm{Physical address} = \mathrm{SegmentTable}[\mathrm{segment}].\mathrm{ba
 
 If offset $\ge$ limit, a segmentation fault is raised.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Segmentation. **Edexcel** focuses primarily on paging. **CIE** covers paging with address
 Translation in detail.
-</aside>
+:::
 ### TLB (Translation Lookaside Buffer)
 
 The TLB is a small, fast hardware cache that stores recent virtual-to-physical address translations.
@@ -423,9 +423,9 @@ The OS must manage updates to itself and installed software. Key concerns:
 - **Version compatibility** ensures updates do not break existing software
 - **Rollback** mechanisms allow reverting to a previous version if an update causes problems
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Management. **OCR (A)** and **CIE** may cover this under broader system security topics.
-</aside>
+:::
 ### Malware Protection
 
 The OS provides mechanisms to defend against malicious software:

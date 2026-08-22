@@ -1062,7 +1062,7 @@ The negative sign indicates the process of forming the ionic lattice from gaseou
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
@@ -1087,7 +1087,7 @@ $$v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\
 $$
 
 $$
-</aside>
+:::
 
 ## See Also
 

@@ -208,7 +208,7 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
 
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
@@ -316,7 +316,6 @@ $\blacksquare$
 - **[Vectors and Vector Spaces](1_vectors-and-vector-spaces.md)**: Linear independence, span, and basis are fundamental properties of vector spaces.
 - **[Matrices](3_matrices.md)**: The rank of a matrix equals the dimension of its column space, connecting matrix theory to basis theory.
 - **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
-
-</aside>
+:::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

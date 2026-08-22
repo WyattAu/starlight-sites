@@ -180,10 +180,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Comparison. For performance-critical code, implement a locale-aware character-by-character
 Comparison that avoids allocation.
-</aside>
+:::
 ## See Also
 
 - [Operator Overloading](./4_operator_overloading.md)

@@ -488,9 +488,9 @@ int main() {
 //   caught: construction failed
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Error codes cannot be returned from a constructor.
-</aside>
+:::
 ### The "Destructor Must Never Throw" Rule
 
 If a destructor throws during stack unwinding (i.e., while another exception is already in flight),
@@ -585,10 +585,10 @@ int main() {
 //   caught: other error
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Make the destructor `noexcept` and ensure cleanup operations are themselves `noexcept`. Use RAII
 Wrappers that handle errors internally rather than propagating them from destructors.
-</aside>
+:::
 ## Intuition
 
 **`std::expected` is like a result that might be an error:** When you call a function that returns `expected<T, E>`, you get either a value of type `T` (success) or an error of type `E` (failure). It's like a box that's either labeled "success" with the result inside, or "failure" with the error inside. The monadic operations (`and_then`, `transform`, `or_else`) let you chain operations without manually checking for errors — like a pipeline that automatically short-circuits if any step fails.

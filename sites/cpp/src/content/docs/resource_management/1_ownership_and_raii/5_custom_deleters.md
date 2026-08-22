@@ -59,11 +59,11 @@ process(std::unique_ptr<Widget>(new Widget), compute_risk());
 process(std::make_unique<Widget>(), compute_risk());
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Order [N4950 S7.6.1.9]. If `compute_risk()` is evaluated before the `unique_ptr` constructor, and it
 Throws, the `new Widget()` allocation is leaked. `make_unique` eliminates this class of bug
 Entirely.
-</aside>
+:::
 ## 5.3 `shared_ptr` Overuse and Reference Cycles
 
 `shared_ptr` should not be the default ownership model. Its overhead is substantial and its
@@ -102,11 +102,11 @@ void aliasing_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Lifetime of the member it points to — it only extends the lifetime of the **owning** object. If the
 Owning object is destroyed first, the aliased pointer dangles. Use cases include returning pointers
 To members from APIs that need to express shared ownership of the containing object.
-</aside>
+:::
 ## 5.5 Custom Deleters
 
 Smart pointers support **custom deleters** — callable objects invoked instead of `delete` when the
@@ -220,10 +220,10 @@ void use_dynamic_lib() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Different lambda deleters (even lexically identical lambdas) are incompatible types [N4950
 S20.11.1.2.1]. Use `decltype` or a named functor if you need a shared type across translation units.
-</aside>
+:::
 #### Lambda Capture Implications on Deleter Type and Storage
 
 The capture list of a lambda directly determines whether the deleter is stateless (zero-overhead via
@@ -270,11 +270,11 @@ int main() {
 | Capture by value     | No         | `sizeof(captured values)`            | Yes (copies are owned)                                   |
 | Capture by reference | No         | 0 bytes (reference is pointer-sized) | **Dangerous:** dangling reference if referent dies first |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Outlive the `unique_ptr`. Since the deleter runs in the `unique_ptr` destructor, which runs when the
 `unique_ptr` goes out of scope, any captured reference must refer to an object with equal or greater
 Scope. This is easy to violate in practice — prefer capturing by value.
-</aside>
+:::
 ### 5.5.3 Functor Deleters with State
 
 A functor deleter can carry state, which is useful when the cleanup requires additional context:
@@ -382,10 +382,10 @@ int main() {
 | Lambda (no capture)             | 0 bytes           | Stateless, EBO applies   |
 | Lambda (captures)               | Size of captures  | Stored inline            |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Must carry state, consider whether `std::shared_ptr` with a capturing lambda is more appropriate,
 Since `shared_ptr` type-erases the deleter into the control block.
-</aside>
+:::
 ### Compile-Time Analysis of Deleter Storage
 
 The compiler can determine at compile time whether a deleter adds overhead and whether it is
@@ -557,11 +557,11 @@ void allocator_mismatch_example() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Default-deleter smart pointer. The allocation and deallocation mechanisms must match. If you need to
 Transfer ownership out of a container, use `std::move`Extract via `release()` on allocator-aware
 Wrappers, or use `std::pmr` resources [N4950 S23.12].
-</aside>
+:::
 ## 5.10 Type Erasure: How `shared_ptr` Stores Deleters
 
 `std::shared_ptr` uses type erasure to store the deleter in the control block, decoupling the
@@ -728,7 +728,7 @@ auto arr = std::shared_ptr<int[]>(new int[10], std::default_delete<int[]>());
 auto arr2 = std::shared_ptr<int>(new int[10], [](int* p) { delete[] p; });
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 [N4950 S20.11.3.7]. It provides `operator[]` but still requires an explicit array deleter. Before
 C++17, managing arrays with `shared_ptr` required manually passing `default_delete&lt;T[]&gt;` or a
 Lambda.
@@ -804,5 +804,4 @@ When working with common pitfalls, follow a structured approach:
 2. Apply the appropriate methods, equations, or frameworks
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
-
-</aside>
+:::

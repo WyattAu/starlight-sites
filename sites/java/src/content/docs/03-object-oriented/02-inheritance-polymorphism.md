@@ -501,10 +501,10 @@ void resize(Rectangle r, int w, int h) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Structural subtyping. Just because a class can be made to extend another does not mean it should. If
 A subclass must violate the superclass's contract to work correctly, use composition instead.
-</aside>
+:::
 ## SOLID Principles Overview
 
 | Principle                     | Guideline                                                           |
@@ -739,10 +739,10 @@ if (r instanceof Rectangle(
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Record components. You can use `var` for type inference or specify the exact type. The number of
 Pattern components must match the number of record components.
-</aside>
+:::
 ## Common Pitfalls
 
 ### Forgetting `super()` in Constructor
@@ -799,7 +799,7 @@ public class Derived extends Base {
 new Derived(); // throws NullPointerException
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Run, so its fields are uninitialized. If the overridden method accesses subclass fields, you get
 `NullPointerException` or incorrect behavior. Mark the method `final` or `private` if you must call
 It from a constructor.
@@ -914,4 +914,5 @@ Inheritance establishes an is-a relationship where a subclass inherits fields an
 
 - [Classes and Inheritance](01-classes) -- class declarations and access modifiers
 - [Streams API](../05-streams/01-streams-api) -- functional interfaces and lambdas
-- [Concurrency](../06-concurrency/01-concurrency) -- thread safety and synchronization</aside>
+- [Concurrency](../06-concurrency/01-concurrency) -- thread safety and synchronization
+:::

@@ -217,7 +217,7 @@ Hello, Bob! You are 25 years old.
 
 ### Functions and Scope
 
-<PracticeProblem client:only="solid-js" question={"What is printed by `print([x for x in range(10) if x % 3 == 0])`?&quot; options={['[0, 3, 6, 9]', '[3, 6, 9]', '[1, 2, 3, 4, 5, 6]', '[0, 1, 2, 3]']} correctAnswer={0} explanation=&quot;The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is printed by `print([x for x in range(10) if x % 3 == 0])`?&quot; options={['[3, 6, 9]','[0, 3, 6, 9]','[1, 2, 3, 4, 5, 6]','[0, 1, 2, 3]']} correctAnswer={1} explanation=&quot;The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?&quot; options={['[1], [2]', '[1, 2]', '[1, 2], [1, 2]', 'TypeError']} correctAnswer={1} explanation=&quot;Mutable default arguments are shared across calls. After f(1), b = [1]. After f(2), b = [1, 2]. This is a common Python gotcha."} difficulty="hard"  />
 
@@ -229,7 +229,7 @@ Hello, Bob! You are 25 years old.
 
 <PracticeProblem client:only="solid-js" question={"What is the result of `type((1, 2, 3))`?&quot; options={'<class 'list'>&quot;, &quot;<class 'set'>&quot;, &quot;<class 'tuple'>&quot;, &quot;<class 'dict'>&quot;]} correctAnswer={2} explanation=&quot;(1, 2, 3) with parentheses and commas is a tuple, not a list or set."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?&quot; options={['Returns a generator that yields 0, 1, 2', 'Returns [0, 1, 2]', 'Raises SyntaxError', 'Yields a single generator object']} correctAnswer={0} explanation=&quot;This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?&quot; options={['Returns a generator that yields 0, 1, 2','Returns [0, 1, 2]','Raises SyntaxError','Yields a single generator object']} correctAnswer={0} explanation=&quot;This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated."} difficulty="hard"  />
 
 ## Intuition
 

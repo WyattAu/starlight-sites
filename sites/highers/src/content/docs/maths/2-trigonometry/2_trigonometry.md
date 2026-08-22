@@ -222,7 +222,7 @@ $\blacksquare$
 When solving trig equations in a given interval, always check for all solutions. The periodicity of
 Trig functions means there are multiple solutions.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Function equals zero separately. Dividing by $\cos x$ loses the solutions where $\cos x = 0$.
 
 **Example:** Solve $\sin 2x = \cos x$ for $0 \leq x < 2\pi$.
@@ -838,8 +838,7 @@ including key theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::
 ## Cross-References
 
 - [Algebra and Functions](../1-algebra-functions/1_algebra-functions) -- Trigonometric functions are transcendental functions that extend the concept of function beyond polynomials.

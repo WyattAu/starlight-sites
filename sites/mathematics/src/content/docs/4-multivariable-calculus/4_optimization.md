@@ -236,7 +236,7 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 
 ### 4.7 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Lagrange multipliers find candidates only.** The method produces candidates for constrained
   extrema but does not guarantee they are extrema. Always evaluate $f$ at all candidates and use
   additional reasoning (e.g., compactness of the constraint set via the extreme value theorem) to
@@ -248,8 +248,7 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
   critical point.
 - **Non-normalised constraint gradients.** Ensure the constraint functions are written in the form
   $g = 0$; multiplying $g$ by a constant changes $\lambda$ but not the critical points.
-
-</aside>
+:::
 
 ## Cross-References
 

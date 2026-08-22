@@ -67,7 +67,7 @@ chage -W 14 username      # warn 14 days before expiration
 chage -E 2025-12-31 username  # account expires
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **replaces** all existing group memberships. This is one of the most common mistakes in Linux
 Administration.
 
@@ -255,9 +255,8 @@ AmbientCapabilities=CAP_NET_BIND_SERVICE CAP_NET_RAW
 CapabilityBoundingSet=CAP_NET_BIND_SERVICE CAP_NET_RAW
 NoNewPrivileges=yes
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
 Whenever possible.
 
@@ -827,8 +826,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

@@ -48,7 +48,7 @@ $$
 V = r\omega = \frac{2\pi r}{T} = 2\pi rf
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 A CD rotates at $200\mathrm{ rpm}$. Find the angular velocity in rad/s and the linear speed of a
 Point $5\mathrm{ cm}$ from the centre.
@@ -93,9 +93,8 @@ Always directed toward the centre of the circular path (radially inward).
 - If the centripetal force is removed, the object moves in a straight line (tangent to the circle)
   by Newton"s first law.
 - The word "centripetal" means "centre-seeking."
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Exam Tip</strong>
 Centripetal force is NOT a new force — it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
@@ -172,9 +171,8 @@ Dividing: $\tan\theta = \dfrac{v^2}{rg}$
 The radius: $r = L\sin\theta$
 
 The period: $T_p = 2\pi\sqrt{\dfrac{L\cos\theta}{g}}$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A $0.5\mathrm{ kg}$ mass on a string of length $1\mathrm{ m}$ moves in a horizontal circle at
 $3\mathrm{ m/s}$. Find the angle the string makes with the vertical and the tension.
@@ -264,9 +262,8 @@ For minimum speed at the top ($v_{\mathrm{top}} = \sqrt{gr}$):
 $$
 V_{\mathrm{bottom}} = \sqrt{5gr}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A $0.3\mathrm{ kg}$ ball on a string of length $0.8\mathrm{ m}$ is swung in a vertical circle. Find
 The minimum speed at the bottom for the ball to complete the circle.
@@ -360,9 +357,8 @@ For an object in **static equilibrium**:
 2. **Rotational**: $\sum \tau = 0$ (no net torque)
 
 The second condition must hold about ANY axis.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A uniform beam of mass $10\mathrm{ kg}$ and length $4\mathrm{ m}$ is supported at its ends. A
 $20\mathrm{ kg}$ mass hangs $1\mathrm{ m}$ from the left end. Find the support forces.
@@ -480,9 +476,8 @@ $$
 - **Ice skater spinning**: Pulling arms in reduces $I$So $\omega$ increases.
 - **Diving**: Tucking reduces $I$Increasing angular velocity for flips.
 - **Figure skater**: Extending arms increases $I$Decreasing $\omega$ for a controlled landing.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A figure skater with arms extended has $I = 4.5\mathrm{ kg}\cdot\mathrm{m}^2$ and spins at
 $2\mathrm{ rad/s}$. She pulls her arms in, reducing $I$ to $1.5\mathrm{ kg}\cdot\mathrm{m}^2$. Find
@@ -554,9 +549,8 @@ $$
 $$
 V = \sqrt{\frac{2gh}{1 + \frac{I}{Mr^2}}}
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Compare the speeds of a solid sphere, a hollow sphere, and a solid cylinder rolling down the same
 Incline from the same height.
@@ -749,9 +743,8 @@ Rotational motion is linear motion wearing a disguise. Every linear equation has
 | Angular momentum                 | $L = I\omega$                             |
 | Rotational kinetic energy        | $E_k = \dfrac{1}{2}I\omega^2$             |
 | Conservation of angular momentum | $I_1\omega_1 = I_2\omega_2$               |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Exam Strategy</strong>
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
 The centripetal force. For vertical circle problems, use energy conservation to relate speeds at
@@ -789,9 +782,8 @@ $$
 $$
 \theta = \frac{1}{2}(\omega_0 + \omega)t
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A flywheel starts from rest and accelerates uniformly at $2\mathrm{ rad/s}^2$ for $5\mathrm{ s}$.
 
@@ -816,8 +808,7 @@ $$
 $$
 V = r\omega = 0.3 \times 10 = 3.0\mathrm{ m/s}
 $$
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1014,7 +1005,7 @@ For the A-Level treatment of this topic, see
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Rotational
@@ -1047,8 +1038,7 @@ self-marking and building a personal test matrix.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

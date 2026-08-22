@@ -143,10 +143,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Pass it to a non-range API, or decouple its lifetime from the source. The cost is $O(n)$ for the
 Materialization, but you gain ownership and stability.
-</aside>
+:::
 ### Materialization with Different Containers
 
 `std::ranges::to` works with any container that satisfies the `ranges::to` constraints [N4950
@@ -527,10 +527,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Some views (like `std::views::filter`) are not borrowing views --- they cannot outlive their source.
 Always ensure the source outlives the view when materializing.
-</aside>
+:::
 #### Double Materialization Cost
 
 Calling `std::ranges::to` on an already-materialized container copies the data. If you already have

@@ -323,7 +323,7 @@ The Fundamental Theorem of Calculus reveals the deep connection between accumula
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 intervals. For unbounded Functions or infinite intervals, one must use the improper Riemann
 integral. A common error is Applying the FTC directly to improper integrals without taking the
 limit. Also, conditional Convergence of improper integrals behaves differently from absolute
@@ -335,8 +335,7 @@ can change its value.
 - **[Continuity](4_continuity.md)**: The Heine-Cantor theorem guarantees that continuous functions on closed bounded intervals are uniformly continuous, which is used to prove Riemann integrability.
 - **[Differentiability](5_differentiability.md)**: The fundamental theorem of calculus connects the Riemann integral with antiderivatives and differentiation.
 - **[Lebesgue Integration](../10-measure-theory/6_lebesgue-integration)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
-
-</aside>
+:::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

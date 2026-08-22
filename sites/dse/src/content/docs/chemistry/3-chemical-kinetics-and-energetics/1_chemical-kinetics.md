@@ -71,10 +71,10 @@ Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit ti
 2. **Inverted burette over water:** Useful for insoluble gases. Volume read from burette.
 3. **Mass loss method:** The flask is placed on a balance; the mass decreases as gas escapes.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Mass change occurs. Also, ensure the reaction does not produce heat that would affect the balance
 Reading.
-</aside>
+:::
 ### Concentration-Time Graphs
 
 For reactants: concentration decreases over time (negative gradient).
@@ -215,9 +215,9 @@ $$\frac{\mathrm{Fraction with } E \geq E_a \mathrm{ at } T_2}{\mathrm{Fraction w
 The $E_a$ line shifts to the left on the Maxwell-Boltzmann distribution. More particles now have
 Energy $\geq E_a$ (the new, lower activation energy), so the rate increases.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Shape remains the same at the same temperature.
-</aside>
+:::
 ### Key DSE Exam Points
 
 - The Maxwell-Boltzmann curve **never** touches the x-axis.

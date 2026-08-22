@@ -39,10 +39,10 @@ Determine unknown forces.
 | OCR (A)    | Paper 2 | Horizontal and vertical circles             |
 | CIE (9231) | M2      | Full coverage including vertical circles    |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (tension, friction, normal reaction, weight) directed towards the centre of the circle. Never
 Include "centripetal force" on a free body diagram.
-</aside>
+:::
 <hr />
 
 ## 1. Angular Quantities

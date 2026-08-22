@@ -80,13 +80,12 @@ argument is more subtle). This gives $A_4$.
 
 Total: five groups of order $12$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $5$ groups of order $8$ There are $14$ groups of order $16$ and $267$ groups of order $64$.
 Classification by hand is only Feasible for small orders. For prime-squared orders, the abelian
 classification is straightforward, But non-abelian cases require careful analysis of possible
 semidirect products.
-
-</aside>
+:::
 ## Intuition
 
 Classifying small groups is like cataloguing all possible symmetries of objects with a given number of elements. Prime-order groups are always cyclic, reflecting the rigidity imposed by Lagrange's theorem. Groups of order p-squared are always abelian because the centre is large enough to force commutativity. The fascinating cases begin at order 8, where non-abelian groups like the dihedral group D4 and the quaternion group Q8 appear. The number of groups grows explosively: 5 at order 8, 14 at order 16, 51 at order 32. This combinatorial explosion reveals that symmetry becomes exponentially richer as systems grow.

@@ -722,7 +722,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 regular types Creates confusing semantics that mislead readers into expecting pointer-like behavior.
 
 ## Intuition
@@ -782,5 +782,4 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

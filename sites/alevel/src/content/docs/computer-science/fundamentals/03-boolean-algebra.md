@@ -296,14 +296,14 @@ $f = \bar{A}\bar{B} + \bar{B}C + AB$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** requires Karnaugh maps for simplification of Boolean expressions up to 4 variables
 - **CIE (9618)** focuses on Boolean algebra identities, De Morgan's laws, and simplification using
   algebraic methods (not Karnaugh maps)
 - **OCR (A)** requires truth tables, logic gate diagrams, and construction of half adder / full
   adder circuits
 - **Edexcel** covers truth tables, logic gates, and Boolean algebra
-</aside>
+:::
 <hr />
 
 ## 4. Logic Gate Diagrams
@@ -317,12 +317,12 @@ Standard symbols:
 - **NOR gate:** OR with circle
 - **XOR gate:** OR with extra curved line on input
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 1. Identify the order of operations (parentheses first)
 2. Draw inputs on the left
 3. Work rightward, one gate at a time
 4. Label all intermediate and output signals
-</aside>
+:::
 <hr />
 
 ## 5. Adder Circuits
@@ -452,9 +452,9 @@ D-type flip-flops are the fundamental building blocks of:
 
 1. Draw the circuit from the simplified expression
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Larger group, and 0 otherwise. This minimises the expression.
-</aside>
+:::
 <hr />
 
 ## Problem Set

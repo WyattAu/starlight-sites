@@ -70,7 +70,7 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 | Session            | Consistency within a single client session                        | MongoDB (read preference)              |
 | Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
 
-<aside aria-label=""Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>"Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means</p>
+:::caution
 That if you stop writing, the system will converge. In practice, convergence time depends on the
 System, the network, and the write volume. In a partition, convergence may be indefinite.
 
@@ -263,9 +263,8 @@ redis-cli --cluster create \
     10.0.0.4:7000 10.0.0.5:7000 10.0.0.6:7000 \
     --cluster-replicas 1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Atomically update `user:123:profile` and `user:123:settings`They must have the same hash tag Prefix
 (`{user:123}`). Operations like `MGET` on keys with different hash tags will fail with a `CROSSSLOT`
 error.
@@ -366,9 +365,8 @@ CREATE TABLE events (
 -- This means: all events for a tenant are stored together on the same nodes,
 -- sorted by event_id (which includes a timestamp component)
 ```
-
-</aside>
-<aside aria-label="Cassandra"s data model requires you to design around queries, not entities. Unlike relational" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Cassandra"s data model requires you to design around queries, not entities. Unlike relational</p>
+:::
+:::caution
 Databases where you model entities and then write queries to access them, in Cassandra you model the
 Queries and denormalise data to support each query pattern. A common rule: one table per query
 Pattern.
@@ -446,9 +444,8 @@ RETURN p
 - You need strong ACID guarantees across the entire graph
 - Your workload is mostly simple CRUD operations
 - Your team has no graph database expertise
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Relational database for transactional data and a graph database for relationship-heavy queries. This
 Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
 
@@ -556,9 +553,8 @@ Service Architecture with Polyglot Persistence:
   Web App --> Search Engine (Elasticsearch)
                Full-text search, log aggregation, analytics
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Replication configuration, monitoring, upgrade path, and failure modes. Before introducing a new
 Database technology, ensure your team has the expertise to operate it in production. The cost of
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
@@ -707,9 +703,8 @@ SSTable Level N (disk)  ← oldest, largest
 | Read amplification  | High (multiple levels)               | Low (single traversal)               |
 | Space amplification | Moderate (compaction overhead)       | Low to moderate (page fragmentation) |
 | Compaction          | Required (background merge)          | Not required (in-place updates)      |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Tree implementation. It is configurable: you can tune compaction strategy, bloom filter size,
 Compression, block cache, and write buffer size to optimise for specific workloads.
 
@@ -791,9 +786,8 @@ GET /products/_search
   }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 A search engine, not a primary data store. Use it as a secondary index alongside a relational
 Database, not as a replacement for one.
 
@@ -823,28 +817,11 @@ redis-benchmark -t set,get -n 100000 -c 50 -q
 # Example: MongoDB benchmark with mongoperf
 mongoperf -f test.json
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Being benchmarked. Always run your own benchmarks with your own data and access patterns. The
 Performance difference between systems is often smaller than the difference between a well-tuned and
 Poorly-tuned deployment of the same system.
-
-## Summary
-
-This topic covers the essential chemistry of nosql databases, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
@@ -857,5 +834,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

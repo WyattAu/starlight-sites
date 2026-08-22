@@ -319,9 +319,9 @@ $$\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)$$
 Therefore, any comparison-based sorting algorithm requires at least $\Omega(n \log n)$ comparisons
 In the worst case. $\square$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 sort, counting Sort) can beat $O(n \log n)$ but have restrictions on key types.
-</aside>
+:::
 <hr />
 
 ## Problem Set

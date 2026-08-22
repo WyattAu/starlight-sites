@@ -283,13 +283,13 @@ $y(t) = 6 \cdot \frac{t^2 e^{3t}}{2!} = 3t^2 e^{3t}$. $\blacksquare$
 
 ### 5.14 Common Pitfalls for Laplace Transforms
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 written as $u_c(t)f(t - c)$ not $u_c(t)f(t)$. The function $f$ must be shifted by the same Amount as
 the step.
-</aside>
+:::
 
 ### 5.15 Intuition: Why Are Laplace Transforms Useful?
 

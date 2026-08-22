@@ -566,10 +566,10 @@ $$\frac{I}{I_0} = \left( \frac{\sin\beta}{\beta} \right)^2 = \left( \frac{\sin(2
 
 So the second secondary maximum has about $1.6\%$ of the central maximum intensity.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $\approx 1.6\%$Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
 In the central maximum.
-</aside>
+:::
 ### Example 22: Radioactive Dating
 
 A sample of ancient wood contains $25\%$ of the original carbon-14. Given that the half-life of
@@ -613,10 +613,10 @@ $$I_{\mathrm{total} = 3I = 3 \times 10^8 \times I_0$$
 
 $$L_{\mathrm{total} = 10 \log_{10}(3 \times 10^8) = 10 \times (8 + \log_{10} 3) = 10 \times (8 + 0.477) = 84.8 \mathrm{ dB$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $3 \mathrm{ dB$ (since $10\log_{10} 2 \approx 3$). Ten times as many sources gives
 $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
-</aside>
+:::
 ## Common Pitfalls Extended
 
 ### Pitfall 6: Confusing Activity, Count Rate, and Decay Constant
@@ -710,7 +710,7 @@ $$\frac{BE}{A} = \frac{28.30}{4} = 7.07 \mathrm{ MeV/nucleon$$
 
 This is close to the accepted value of $7.07 \mathrm{ MeV/nucleon$ for helium-4.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Means:
 
 - Nuclei lighter than iron can _release energy by fusion_ (combining to form heavier nuclei closer
@@ -775,8 +775,7 @@ Where $\tau$ is the dead time.
 
 5. Explain the principles of a gamma camera used in medical imaging. Describe how the collimator,
     scintillator crystal, photomultiplier tubes, and computer work together to produce an image.
-
-</aside>
+:::
 ## Cross-References
 
 - [Electricity](../3-electricity/3_electricity) -- Electromagnetic waves are produced by oscillating charges, connecting wave theory to electricity.

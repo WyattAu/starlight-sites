@@ -74,7 +74,7 @@ Organic compounds are named systematically using IUPAC rules:
 | Amine            | -amine    | Ethanamine       |
 | Amide            | -amide    | Ethanamide       |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Name: 2-methylbut-2-ene.
 
@@ -89,9 +89,8 @@ Name: 2-methylbut-2-ene.
 **Position isomers**: same skeleton, different position of the functional group.
 
 **Functional group isomers**: same molecular formula, different functional groups.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 C$_4$H$_8$O has multiple isomers: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, butanal, butanone,
 Methyl propanoate, ethyl ethanoate, etc.
@@ -689,9 +688,8 @@ $$
 | $S_N1$    | Two steps, racemisation, tertiary substrates |
 | $E2$      | One step, strong base, Zaitsev product       |
 | $E1$      | Two steps, carbocation, weak base            |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Exam Strategy</strong>
 For naming questions, always identify the longest chain first. For mechanism questions, draw clear
 Curly arrow mechanisms showing electron movement. For comparison questions ($S_N1$ vs $S_N2$), use a
@@ -1138,8 +1136,7 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

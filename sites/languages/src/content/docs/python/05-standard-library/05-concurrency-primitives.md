@@ -92,9 +92,9 @@ r.join()  # Wait for regular thread
 # Program exits here — daemon thread is terminated
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Locks, close files, or flush buffers. Use them only for non-critical background tasks.
-</aside>
+:::
 ## Lock and RLock
 
 ### Lock (Mutex)
@@ -153,9 +153,9 @@ outer()  # Works fine — RLock allows same thread to re-acquire
 | `acquire()` counting  | No             | Yes                      |
 | Overhead              | Lower          | Slightly higher          |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 thread must call `release()` the same number of times it called `acquire()`.
-</aside>
+:::
 ## Semaphore, Event, Condition, Barrier
 
 ### Semaphore
@@ -290,10 +290,10 @@ if __name__ == "__main__":
     print(results)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
-</aside>
+:::
 ### Process
 
 ```python
@@ -398,9 +398,9 @@ if __name__ == "__main__":
     p2.join()
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Communication by default. For one-way communication, use `duplex=False`.
-</aside>
+:::
 ## concurrent.futures
 
 `concurrent.futures` provides a high-level interface for asynchronously executing callables using
@@ -548,7 +548,7 @@ print(pq.get())  # (2, 'medium priority')
 print(pq.get())  # (3, 'low priority')
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Equal, it compares the second, and so on. If items are not comparable, it raises `TypeError`.
 
 ## GIL Impact Analysis
@@ -933,8 +933,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Serialization](./04-serialization): Shows how to serialize and deserialize data for inter-process communication in multiprocessing scenarios.

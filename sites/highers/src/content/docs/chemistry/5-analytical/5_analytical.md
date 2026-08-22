@@ -22,7 +22,7 @@ categories:
 
 ## Analytical Chemistry
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 ## Analytical Techniques
 
 ### Spectroscopy Overview
@@ -848,8 +848,7 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 **Solution:**
 
 $$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
-
-</aside>
+:::
 
 ## Intuition
 

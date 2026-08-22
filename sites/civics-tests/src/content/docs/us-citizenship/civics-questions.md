@@ -37,16 +37,16 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 6. What are the three branches of government?
    - Legislative, Executive, Judicial
 
-2. What part of the government makes the laws?
+7. What part of the government makes the laws?
    - Congress (Legislative)
 
-3. What are the two parts of the U.S. Congress?
+8. What are the two parts of the U.S. Congress?
    - Senate and House of Representatives
 
-4. How many U.S. Senators are there?
+9. How many U.S. Senators are there?
    - 100
 
-5. We elect a President for how many years?
+10. We elect a President for how many years?
     - Four years
 
 ### Rights and Responsibilities
@@ -54,10 +54,10 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 11. What is one responsibility that is only for United States citizens?
     - Serve on a jury, vote in a federal election
 
-2. What are two ways that Americans can participate in their democracy?
+12. What are two ways that Americans can participate in their democracy?
     - Vote, join a political party, help with a campaign, run for office
 
-3. When must all men register for the Selective Service?
+13. When must all men register for the Selective Service?
     - At age 18
 
 ## History
@@ -67,10 +67,10 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 14. What is one reason colonists came to America?
     - Freedom, political liberty, religious freedom, economic opportunity
 
-2. Who lived in America before the Europeans arrived?
+15. Who lived in America before the Europeans arrived?
     - Native Americans (American Indians)
 
-3. What group of people was taken to America and sold as slaves?
+16. What group of people was taken to America and sold as slaves?
     - Africans
 
 ### 1800s
@@ -78,10 +78,10 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 17. What was one important thing that Abraham Lincoln did?
     - Freed the slaves, saved the Union, led the country during the Civil War
 
-2. What did the Emancipation Proclamation do?
+18. What did the Emancipation Proclamation do?
     - Freed the slaves in the Confederacy
 
-3. What did Susan B. Anthony do?
+19. What did Susan B. Anthony do?
     - Fought for women's rights
 
 ### Recent History
@@ -89,19 +89,19 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 20. What movement tried to end racial discrimination?
     - Civil rights movement
 
-2. What did Martin Luther King Jr. do?
+21. What did Martin Luther King Jr. do?
     - Fought for civil rights through nonviolent protest
 
-3. Who was President during World War I?
+22. Who was President during World War I?
     - Woodrow Wilson
 
-4. Who was President during World War II?
+23. Who was President during World War II?
     - Franklin Roosevelt
 
-5. What was the Great Depression?
+24. What was the Great Depression?
     - A long period of economic downturn in the 1930s
 
-6. Who did the United States fight in World War II?
+25. Who did the United States fight in World War II?
     - Japan, Germany, and Italy
 
 ## Integration
@@ -111,7 +111,7 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 26. When do we celebrate Independence Day?
     - July 4
 
-2. Name two national U.S. holidays.
+27. Name two national U.S. holidays.
     - New Year's Day, Martin Luther King Jr. Day, Presidents' Day, Memorial Day, Independence Day, Labor Day, Columbus Day, Veterans Day, Thanksgiving, Christmas
 
 ### Symbols
@@ -119,10 +119,10 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 28. What is the name of the national anthem?
     - The Star-Spangled Banner
 
-2. Why does the flag have 50 stars?
+29. Why does the flag have 50 stars?
     - Because there are 50 states
 
-3. What do the stripes on the flag represent?
+30. What do the stripes on the flag represent?
     - The original 13 colonies
 
 ## Practice Test

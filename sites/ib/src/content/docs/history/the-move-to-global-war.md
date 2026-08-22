@@ -1211,7 +1211,7 @@ Court), are the direct institutional descendants of Nuremberg.
 | 9 August 1945         | Atomic bomb dropped on Nagasaki                        |
 | 2 September 1945      | Japan surrenders formally (V-J Day)                    |
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Presenting appeasement as solely Chamberlain's policy:** Appeasement was broadly supported in
   Britain in the late 1930s by politicians across parties, the public, and the media. Characterising
   it as Chamberlain's personal failing ignores the context of British economic weakness, the trauma
@@ -1265,5 +1265,4 @@ linked above.
 - [Economic Development](../economics/2-macroeconomics/4-supply-side-policy) -- Economic instability in the 1930s connects to the macroeconomic analysis of unemployment and growth.
 - [Cell Biology](../biology/1-cell-biology/1_cell-biology) -- The biological sciences context helps understand the human cost of conflict and displacement.
 - [Descriptive Statistics](../economics/5-quantitative-economics/1-descriptive-statistics) -- Quantifying the scale of economic damage and reparations requires statistical analysis of economic data.
-
-</aside>
+:::

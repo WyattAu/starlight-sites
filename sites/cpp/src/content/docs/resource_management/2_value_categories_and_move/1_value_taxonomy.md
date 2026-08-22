@@ -77,11 +77,11 @@ C++11 introduced move semantics, requiring the xvalue category to represent "thi
 Identity but are about to expire." C++17 refined the model by making prvalues non-objects until they
 Are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (via reference binding rules), whether a move constructor or copy constructor is invoked, and
 Whether temporary lifetime extension applies. Understanding value categories is essential to
 Understanding why move semantics work.
-</aside>
+:::
 ## 2.1 lvalue
 
 An expression is an lvalue if it [N4950 S7.2.1]:
@@ -182,11 +182,11 @@ int main() {
 | xvalue   | Yes           | Yes            | `std::move(x)``std::forward<T>(x)``return std::move(local);` (member access) |
 | prvalue  | No            | Yes            | `42``3.14``f()` (by-value return), `int{7}``a + b`                           |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 With reference qualifiers preserved, which is how the `static_assert` tests above work. Without the
 Extra parentheses, `decltype(e)` strips references. This distinction is critical when writing type
 Traits or SFINAE constraints.
-</aside>
+:::
 ## See Also
 
 - [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
@@ -755,7 +755,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Parentheses around `local_variable` make it an lvalue expression, so `decltype((local_variable))` is
 `T&`. But the local variable is destroyed at the end of the function, leaving a dangling reference.
 Always use `return local_variable;` (without parentheses) when you intend to return by value.
@@ -871,8 +871,7 @@ When working with value taxonomy, follow these steps:
 2. Select the appropriate algorithm, data structure, or technique
 3. Implement the solution step by step
 4. Test with edge cases and verify correctness
-
-</aside>
+:::
 
 ## Intuition
 

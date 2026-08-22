@@ -688,22 +688,6 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 - [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency.md)
   -- virtual thread memory characteristics
 
-## Summary
-
-This topic covers the biological principles of class loading and memory model, including key
-concepts, experimental evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
-
 ## Intuition
 
 The JVM class loading system works like a chain of trust. When your code needs a class, the request travels up to the bootstrap loader, which loads core Java classes. Only if the parent cannot find it does the child try. This prevents malicious code from replacing trusted classes. The memory model ensures that all threads see a consistent view of shared data through happens-before relationships, like agreed-upon rules for how information flows between workers in different rooms.

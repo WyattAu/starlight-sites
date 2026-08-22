@@ -169,7 +169,7 @@ sendto(sockfd, "hello", 5, 0,
     (struct sockaddr *)&server_addr, sizeof(server_addr));
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Many NAT devices have difficulty forwarding UDP traffic correctly. UDP-based protocols often
 Implement their own keepalive and NAT traversal mechanisms (e.g., STUN/TURN for WebRTC, WireGuard's
 Keepalive). UDP NAT mappings have shorter timeouts than TCP (30-60 seconds vs hours), so long-lived
@@ -241,9 +241,8 @@ Second FIN enters the `LAST-ACK` state. After sending the final ACK, the first e
    interpreted as part of a new connection with the same 4-tuple (source IP, source port,
    destination IP, destination port). The 2MSL wait ensures that any delayed segments from the old
    connection have been delivered or dropped.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 That rapidly opens and closes connections (e.g., an HTTP/1.1 server without keep-alive) accumulates
 Connections in TIME-WAIT on the client side. If the client exhausts its ephemeral port space, new
 Connections fail with "address already in use." Solutions include `SO_REUSEADDR`/`SO_REUSEPORT`
@@ -808,8 +807,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

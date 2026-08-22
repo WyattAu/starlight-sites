@@ -22,7 +22,7 @@ categories:
 
 ## Chemical Reactions
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 ## 1. Writing Chemical Equations
 
 ### 1.1 Word Equations
@@ -878,8 +878,7 @@ $$K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{(0.25)^2}{(0.
 This topic covers the key concepts of Chemical Reactions for GCSE Chemistry. Focus on understanding
 the fundamental principles, practising with exam-style questions, and applying your knowledge to
 unfamiliar contexts.
-
-</aside>
+:::
 
 ## Intuition
 

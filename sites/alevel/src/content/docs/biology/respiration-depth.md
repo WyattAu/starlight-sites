@@ -139,11 +139,11 @@ energy-investment steps (steps 1 and 3) are endergonic and are coupled to the ex
 of ATP. The energy-payoff steps (7 and 10) are exergonic and generate ATP by substrate-level
 phosphorylation.
 
-<aside aria-label="Common Pitfall Students often state that glycolysis produces "2 ATP." Glycolysis produces" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that glycolysis produces "2 ATP." Glycolysis produces</p>
+:::caution
 4 ATP but uses 2 ATP, giving a net yield of 2 ATP. In examination answers, it is important to
 specify the net yield. Also, glycolysis produces 2 molecules of pyruvate, 2 NADH, and 2
 $\mathrm{H_2O}$ (not just ATP).
-</aside>
+:::
 ## 3. The Link Reaction
 
 ### 3.1 Mechanism
@@ -246,12 +246,12 @@ $$\mathrm{Malate + NAD^+ \to oxaloacetate + NADH + H^+}$$
 - **$\mathrm{CO_2}$**: released as a waste product; excreted via the lungs.
 - **GTP/ATP**: used directly by the cell.
 
-<aside aria-label="Common Pitfall Students often state that the Krebs cycle produces "2 ATP." The Krebs" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that the Krebs cycle produces "2 ATP." The Krebs</p>
+:::caution
 cycle produces 2 GTP (or ATP equivalents) per glucose via substrate-level phosphorylation, plus
 large quantities of NADH and $\mathrm{FADH_2}$ that feed into oxidative phosphorylation. The
 majority of ATP from aerobic respiration comes from oxidative phosphorylation, not from the Krebs
 cycle.
-</aside>
+:::
 ## 5. Oxidative Phosphorylation
 
 ### 5.1 Overview
@@ -357,11 +357,11 @@ Oxygen is the **final electron acceptor** in the electron transport chain. Witho
 
 This is why cells must switch to anaerobic respiration in the absence of oxygen.
 
-<aside aria-label="Common Pitfall Students often write that "oxygen is needed to make ATP." Oxygen is needed" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that "oxygen is needed to make ATP." Oxygen is needed</p>
+:::caution
 specifically as the final electron acceptor in the electron transport chain. The ATP itself is
 synthesised by ATP synthase, driven by the proton gradient. Oxygen"s role is to keep the electron
 transport chain flowing so that the proton gradient is maintained.
-</aside>
+:::
 ## 6. Anaerobic Respiration
 
 ### 6.1 Anaerobic Respiration in Animals (Lactate Fermentation)
@@ -525,11 +525,11 @@ Rate of $\mathrm{O_2}$ consumption $= \frac{0.022}{10} = 0.0022\ \mathrm{cm^3\ m
   $\mathrm{CO_2}$ that the soda lime absorbs. Without soda lime, the net gas volume change would be
   smaller (because $\mathrm{CO_2}$ production partially offsets $\mathrm{O_2}$ consumption).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (with dead organisms) and fail to control temperature. Changes in ambient temperature cause gas
 expansion or contraction, which can be mistaken for respiration. All respirometer measurements must
 be conducted in a temperature-controlled water bath with an appropriate control.
-</aside>
+:::
 ## Practice Problems
 
 <details>
@@ -871,12 +871,12 @@ $$V = 0.0167 \times 24 = 0.40\ \mathrm{dm^3} = 400\ \mathrm{cm^3}$$
 The runner must breathe an additional $400\ \mathrm{cm^3}$ of $\mathrm{O_2}$ above resting
 requirements to fully repay the oxygen debt.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $\mathrm{O_2}$ that was "missed" during exercise. It is specifically the $\mathrm{O_2}$ needed to
 oxidise the lactate that accumulated due to anaerobic respiration. The volume of $\mathrm{O_2}$
 consumed during exercise (from aerobic respiration) is not part of the oxygen debt -- it has already
 been "paid."
-</aside>
+:::
 ## 14. Mitochondrial Structure and Adaptations
 
 ### 14.1 Mitochondrial Anatomy
@@ -1049,12 +1049,12 @@ Because several coenzymes are derived from vitamins, vitamin deficiencies impair
 | $\mathrm{B_3}$ (niacin)           | $\mathrm{NAD^+}$/NADH        | Pellagra                              | NAD$^+$ deficiency impairs glycolysis, link reaction, Krebs cycle, and ETC           |
 | $\mathrm{B_5}$ (pantothenic acid) | CoA                          | Rare                                  | Impairs link reaction and Krebs cycle                                                |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 produce any ATP directly. It produces 2 $\mathrm{CO_2}$ and 2 NADH per glucose molecule. The NADH
 subsequently yields approximately 5 ATP via oxidative phosphorylation. Similarly, the Krebs cycle
 produces no ATP directly -- it produces 2 GTP (which are equivalent to ATP) and 6 NADH + 2
 $\mathrm{FADH_2}$.
-</aside>
+:::
 ## 22. Exercise Physiology: Respiration in Practice
 
 ### 22.1 The Oxygen Debt Revisited
@@ -1145,7 +1145,7 @@ difference**.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 ## 21. Comparing Respiration and Photosynthesis
 
 ### 21.1 Key Similarities
@@ -1199,9 +1199,8 @@ However, over geological time scales, imbalances have occurred:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
 }
 </script>
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 ## 18. The Krebs Cycle: Detailed Mechanism
 
 ### 18.1 Steps of the Krebs Cycle (per Acetyl CoA)
@@ -1495,14 +1494,13 @@ post-exercise oxygen consumption, EPOC**).
 | Antimycin A               | Complex III (cytochrome bc1)      | Blocks electron transfer from ubiquinone to cytochrome c                                                                                                                                      | Fungal antibiotic                                                                      |
 | Oligomycin                | ATP synthase (Complex V)          | Blocks the proton channel in ATP synthase, preventing ATP synthesis                                                                                                                           | Antibiotic                                                                             |
 | DNP (2,4-dinitrophenol)   | Uncouples ETC from ATP synthesis  | Carries protons across the inner mitochondrial membrane, dissipating the proton gradient as heat. ETC continues (even faster than normal) but no ATP is produced. Energy is released as heat. | Historically used as a weight-loss drug (dangerous: hyperthermia, death)               |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 inhibitor (e.g., cyanide) stops the ETC entirely, so no ATP is produced and $\mathrm{O_2}$
 consumption drops. An uncoupler (e.g., DNP) allows the ETC to continue (so $\mathrm{O_2}$
 consumption increases) but prevents ATP synthesis. The difference is that inhibitors block electron
 flow, while uncouplers dissipate the proton gradient.
-</aside>
+:::
 ### 23.2 Effect of Cyanide on Respiration: A Worked Example
 
 If cyanide is added to a suspension of mitochondria respiring on pyruvate:
@@ -1827,10 +1825,10 @@ The Cori cycle describes the recycling of lactate between muscles and the liver:
 - Liver spends: 6 ATP per glucose (gluconeogenesis).
 - **Net: 4 ATP consumed per glucose recycled** -- this is the metabolic cost of the Cori cycle.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 making glucose than the muscles gain from breaking it down. The benefit is that it prevents
 dangerous lactate accumulation in the blood and recycles carbon skeletons.
-</aside>
+:::
 ## 31. Respiratory Quotient (RQ)
 
 ### 31.1 Definition and Calculation
@@ -2121,7 +2119,7 @@ The products of one process are the reactants of the other. This is a cyclical r
 - 2 $\mathrm{FADH_2}$ (Krebs cycle) $\times$ 1.5 = 3 ATP
 - **Total = 5 + 20 + 3 = 28 ATP**
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 at Complex II (bypassing Complex I). This means fewer protons are pumped per $\mathrm{FADH_2}$
 molecule (6 vs 10). Always use 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2}$.
 
@@ -2213,9 +2211,8 @@ is transported to the liver, converted back to glucose, and returned to the musc
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
 }
 </script>
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 ## Common Pitfalls
 
 1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
@@ -2272,8 +2269,7 @@ $\blacksquare$
 - The respiratory quotient ($\mathrm{RQ} = \mathrm{CO_2}/\mathrm{O_2}$) identifies the substrate:
   carbohydrates $\approx 1.0$, lipids $\approx 0.7$, proteins $\approx 0.8$.
 - PFK is the key regulatory enzyme of glycolysis, inhibited by ATP and citrate, activated by AMP.
-
-</aside>
+:::
 ## Cross-References
 
 - [Biology](../biology)

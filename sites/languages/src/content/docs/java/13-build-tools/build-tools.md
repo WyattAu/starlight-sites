@@ -491,10 +491,10 @@ Maven supports version ranges, but they are a source of non-reproducible builds.
 <version>[3.14.0]</version>         <!-- exactly 3.14.0 -->
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Works today may break tomorrow when a new compatible version is published. Pin exact versions and
 Update them deliberately through dependency review.
-</aside>
+:::
 ## Multi-Module Projects
 
 ### Maven Multi-Module
@@ -599,11 +599,11 @@ mvn clean install
 ./gradlew :web:build
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Aggregation point and a source of shared configuration. In Gradle, the `settings.gradle.kts` file
 Declares which modules belong to the build, and shared configuration is applied through convention
 Plugins or the `subprojects` block.
-</aside>
+:::
 ## Common Pitfalls
 
 ### Dependency Hell — Version Conflicts
@@ -982,7 +982,7 @@ gradle wrapper --gradle-version=8.5
 The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/dists/`. Check
 `gradlew``gradlew.bat`And `gradle/wrapper/gradle-wrapper.properties` into version control.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 Through a PR.
@@ -1011,8 +1011,7 @@ Build tools are like the conductor of an orchestra -- they coordinate the compil
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

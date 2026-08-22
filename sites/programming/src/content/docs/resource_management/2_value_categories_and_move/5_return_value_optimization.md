@@ -363,11 +363,11 @@ When returning a local variable from a function, the compiler tries each strateg
 4. **Copy:** If no move constructor exists (or it is deleted), the copy constructor is called. If
    neither exists, compilation fails.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Prevents NRVO from applying (because `std::move(local)` is an xvalue, not a named local variable)
 And forces a move. Let the compiler apply NRVO or implicit move automatically. The only correct use
 Of `std::move` in a return statement is when returning a member variable or a function parameter.
-</aside>
+:::
 ### Decision Table: RVO Applicability
 
 | Return Expression                           | Type Match? | RVO (Guaranteed)? | NRVO (Optional)? | Fallback       |
@@ -498,12 +498,12 @@ std::string wrapped_return() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Of the most performance-critical aspects of C++. In a well-written C++ program, objects are
 Constructed in place (RVO), moved between scopes (move constructors), and swapped (swap idiom).
 Copies are the exception, not the rule. Understanding the fallback chain (RVO → NRVO → implicit move
 → copy) is essential for writing code that is both correct and efficient.
-</aside>
+:::
 ## 8.6 RVO in Other Contexts
 
 Guaranteed copy elision (C++17 RVO) applies not only to `return` statements but also to variable

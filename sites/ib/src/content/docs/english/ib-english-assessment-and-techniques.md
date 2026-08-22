@@ -889,7 +889,7 @@ Before submitting any essay, perform a structural audit:
 | FOA            | HL      | 15%       | 10--15 min                                         | Oral presentation on Part 1 or Part 2                 |
 | Extended Essay | Both    | N/A       | N/A                                                | 4,000-word independent research essay                 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [A Streetcar Named Desire](a-street-car-named-desire.md),
 [Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis.md),
 [Chronicle of a Death Foretold](chronicle-of-a-death-foretold.md),
@@ -906,5 +906,4 @@ When analysing texts for ib english assessment and analytical techniques, follow
 2. Identify the specific technique used (e.g., metaphor, enjambment, iambic pentameter)
 3. Analyse the effect of the technique on the reader
 4. Link the analysis to the text's broader themes or concerns
-
-</aside>
+:::

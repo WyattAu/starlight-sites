@@ -147,7 +147,7 @@ cargo tree -p my-server            # dependency tree for member
 cargo metadata --format-version 1  # machine-readable workspace metadata
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The same versions of shared dependencies, avoiding the diamond dependency problem.
 
 ## Feature Flags
@@ -905,9 +905,8 @@ Before adding a dependency, evaluate it:
 | **License compatibility** | crates.io — license field                                   |
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit` — known CVEs                                  |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with
 `cargo audit`. For security-critical projects, consider `cargo-vet` (supply chain verification).
 
@@ -951,28 +950,11 @@ Chain attacks, and licensing issues. Minimize your dependency tree. Audit regula
     vulnerabilities. Use `cargo-deny` to enforce license and advisory policies in CI. Consider
     `cargo-vet` for supply chain integrity in critical projects.
 
-## Summary
-
-This topic covers the biological principles of cargo and ecosystem, including key concepts,
-experimental evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Cargo is Rust's build system and package manager, handling compilation, dependency resolution, and publishing. Crates.io hosts the ecosystem with semantic versioning. Workspaces enable monorepo structures. Cargo features allow conditional compilation, and build scripts handle code generation. The ecosystem's emphasis on small, composable crates means most functionality comes from libraries rather than the standard library, making dependency management a core skill.

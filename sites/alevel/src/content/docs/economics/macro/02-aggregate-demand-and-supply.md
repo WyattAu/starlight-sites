@@ -42,9 +42,9 @@ $$AD = C + I + G + (X - M)$$
 The AD curve slopes **downward** from left to right (higher price level $\Rightarrow$ lower quantity
 Of AD).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 wealth Effects. OCR may ask students to evaluate which channel is most significant in practice.
-</aside>
+:::
 We derive this from three channels:
 
 **1. Wealth effect (Pigou effect):** A higher price level reduces the real value of money balances
@@ -134,11 +134,11 @@ Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha 
 3. **Imperfect information** (Lucas, 1972): firms may confuse a general price increase with an
    increase in the relative price of their own product, and increase output in response.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 imperfect Information model. OCR expects students to compare sticky-wage and sticky-price theories.
 New Classical economists (AQA Unit 4, CIE Paper 4) argue that SRAS is vertical even in the short run
 Because rational agents anticipate price changes — this is the policy ineffectiveness proposition.
-</aside>
+:::
 **Real-world example — sticky wages in action.** During the COVID-19 pandemic, many UK workers
 Remained on fixed-wage contracts even as the price level rose due to supply chain disruptions. The
 Real wage ($w/P$) fell, making labour relatively cheaper for firms. However, because lockdowns
@@ -158,13 +158,13 @@ $$P \uparrow \Rightarrow w \uparrow \mathrm{ proportionally} \Rightarrow \frac{w
 
 Therefore, the LRAS curve is vertical at $Y^*$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Capacity of the economy. AQA uses the same vertical LRAS but emphasises the distinction between
 Actual and potential growth. CIE (9708) may present an alternative diagram where LRAS is drawn as a
 Curve becoming vertical at full employment — this is the _Keynesian AS curve_ and is acceptable only
 In CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
 Dichotomy or factor mobility arguments.
-</aside>
+:::
 #### Derivation of the LRAS from the Production Function
 
 Potential output is determined by the aggregate production function:
@@ -323,13 +323,13 @@ The classical self-correction mechanism rests on several assumptions that may no
    they may cut spending _further_, shifting AD leftward and deepening the downturn — the opposite
    of self-correction.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The self-correcting mechanism. Edexcel (Paper 3) expects students to use AD/AS diagrams to
 Illustrate both Keynesian and classical perspectives. CIE (9708 Paper 4) often asks students to
 Discuss whether the economy can be left to self-correct. In all cases, examiners reward balanced
 Argumentation: acknowledge the theoretical mechanism but critically assess its practical
 Limitations.
-</aside>
+:::
 ## 4. The Multiplier
 
 ### 4.1 Definition and Derivation
@@ -404,11 +404,11 @@ The multiplier model has several important limitations:
    spending. The IMF estimates are higher for economies in recession (1.5 or above) due to the zero
    lower bound on interest rates.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 multiplier. Edexcel (9EC0) Paper 2 expects students to calculate the multiplier and evaluate its
 effectiveness. CIE (9708) Paper 3 may ask students to calculate the multiplier from given data and
 discuss why it Differs across countries.
-</aside>
+:::
 ## 5. The Accelerator Effect
 
 The **accelerator** links investment to changes in output:
@@ -460,20 +460,20 @@ Evaluative answers:
    influenced by global supply chains, international capital flows, and exchange rate movements that
    the basic model treats only through the net exports component.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The usefulness of the AD/AS model itself — a higher-order skill. AQA (7132) expects evaluation
 Within the context of specific policy discussions (e.g., "Evaluate the view that fiscal policy is
 The most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
 With alternative models such as the Phillips Curve.
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Curves. "An increase in the price level reduces AD" is WRONG — it causes a movement along the AD
 Curve. "An increase in consumer confidence increases AD" is CORRECT — it shifts the AD curve.
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 (9708) requires detailed diagrammatic analysis of equilibrium and shifts. AQA focuses on the
 Multiplier and its policy implications.
-</aside>
+:::
 ## 7. Problem Set
 
 **Problem 1.** An economy has the following: MPC = 0.75, MPT = 0.15, MPM = 0.10. (a) Calculate the
@@ -652,7 +652,7 @@ Inflationary, not growth-promoting. (3) Second-round effects: higher import pric
 Demands, creating a wage-price spiral.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Confusing shifts with movements along AD/SRAS:** An increase in the price level does NOT shift
   the AD curve -- it causes a movement along it. Only changes in the components of AD (C, I, G, X-M)
   at a given price level shift the curve. This is the single most common exam error.
@@ -668,8 +668,7 @@ Demands, creating a wage-price spiral.
 - **Drawing the LRAS in the wrong position:** Some students draw LRAS through the current
   equilibrium point. The LRAS is fixed at potential output Y\* regardless of where short-run
   equilibrium happens to be. If SR equilibrium is to the left of LRAS, there is a recessionary gap.
-
-</aside>
+:::
 ## Common Mistakes
 
 1. **Confusing shifts with movements along AD/SRAS.** An increase in the price level does NOT shift the AD curve — it causes a movement along it. Only changes in the components of AD (C, I, G, X-M) at a given price level shift the curve. This is the single most common exam error.

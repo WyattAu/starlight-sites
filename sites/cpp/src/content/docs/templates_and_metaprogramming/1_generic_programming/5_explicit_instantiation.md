@@ -82,11 +82,11 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 (e.g., `int``double``std::string`). Provide explicit instantiation definitions in a single `.cpp`
 file. This reduces compilation time and binary size without sacrificing the flexibility of
 Templates.
-</aside>
+:::
 ## Formal Semantics: Declaration vs Definition [N4950 §13.9.2]
 
 The C++ Standard distinguishes two forms of explicit instantiation that have fundamentally different
@@ -477,10 +477,10 @@ Then include `fmt_inst.h` instead of `fmt/format.h` in your `.cpp` files. The te
 Are still visible (through the include), but the `extern template` declarations suppress redundant
 Instantiation.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `fmt_inst.h`) or a Silent fallback to implicit instantiation (if the full header is also included).
 Always add both the Declaration and the definition in the same commit.
-</aside>
+:::
 ## Library Design Patterns with Explicit Instantiation
 
 ### Pattern 1: The Facade Header

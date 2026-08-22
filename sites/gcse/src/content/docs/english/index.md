@@ -68,7 +68,7 @@ Examination hall.
 | **OCR** (J352)             | Shakespeare and Poetry Pre-1900                    | Modern Texts and 19th-Century Novel                                | Open             |
 | **WJEC/Eduqas** (9-1 7222) | Shakespeare (with Welsh Poetry anthology for WJEC) | Post-1914 Drama/Novel and Poetry Anthology                         | Open             |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Is common to all boards. Differences lie in the arrangement of texts across papers, the presence or
 Absence of an anthology, and whether texts may be taken into the examination.
 
@@ -198,8 +198,7 @@ GCSE English Literature is like learning to be both a detective and a lawyer -- 
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

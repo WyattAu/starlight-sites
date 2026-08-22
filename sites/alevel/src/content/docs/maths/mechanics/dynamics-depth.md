@@ -22,10 +22,10 @@ categories: [Mathematics]
 This document provides a rigorous treatment of Newton's laws, connected particles, pulleys,
 friction, Inclined planes, momentum, and impulse.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 document. Always draw a clear diagram showing all forces acting on each body before writing any
 equations.
-</aside>
+:::
 <hr />
 
 ## 1. Newton's Laws of Motion
@@ -76,10 +76,10 @@ $$R - mg = ma$$
 
 (c) Decelerating upward means $a = -3$: $R = 70(9.8 - 3) = 70 \times 6.8 = 476\;\mathrm{N}$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 there is no vertical Acceleration. In an accelerating lift, on an inclined plane, or in circular
 motion, $R$ differs From $mg$.
-</aside>
+:::
 <hr />
 
 ## 2. Connected Particles
@@ -187,10 +187,10 @@ Since $a \gt 0$Our assumption was correct.
 
 $T = 5(g - a) = 5(9.8 - 0.754) = 45.23\;\mathrm{N}$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 assumption about which Direction the system moves. If the resulting acceleration is negative, your
 assumption was wrong And the system moves the other way.
-</aside>
+:::
 <hr />
 
 ## 4. Friction
@@ -352,10 +352,10 @@ $$2v_1 + 3(v_1 + 5) = 0 \implies 5v_1 = -15 \implies v_1 = -3\;\mathrm{m\,s^{-1}
 
 $$v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$But the signs in the
 formula must Be consistent with your chosen positive direction.
-</aside>
+:::
 <hr />
 
 ## 6. Newton's Third Law Applications

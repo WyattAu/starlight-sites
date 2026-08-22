@@ -53,12 +53,12 @@ Method definitions, constant pool entries), static fields, and runtime constant 
 Unlike PermGen, Metaspace uses native memory and can grow dynamically (bounded by
 `-XX:MaxMetaspaceSize`).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §2.5](https://docs.oracle.com/javase/specs/jls/se21/html/jls-2.html#jls-2.5) defines the
 Runtime data areas.
 [JLS §17.4](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.4) specifies the
 Memory model, which governs how threads interact through shared memory.
-</aside>
+:::
 ### Where Variables Live
 
 ```java
@@ -92,12 +92,12 @@ Directly on the stack or within object layouts on the heap. Primitives have no m
 | `char`    |          16 |            2 | `'\u0000'` | 0 to 65,535 (UTF-16 code unit) |
 | `boolean` |           1 |            ~ | `false`    | `true` or `false`              |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §4.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2) defines primitive
 Types and their values.
 [JLS §4.2.3](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2.3) specifies
 Floating-point types and IEEE 754 conformance.
-</aside>
+:::
 ### Integral Types
 
 Java's integral types are **two's complement** signed integers. The `byte``short``int`And `long`
@@ -151,9 +151,9 @@ System.out.println(0.1 + 0.2);     // 0.30000000000000004
 System.out.println(0.1 + 0.2 == 0.3); // false
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Or `Double.compare(a, b)` instead. For monetary calculations, always use `BigDecimal`.
-</aside>
+:::
 ```java
 BigDecimal price = new BigDecimal("19.99");
 BigDecimal tax = new BigDecimal("0.07");
@@ -234,10 +234,10 @@ System.out.println(c.equals(d)); // true  (same value)
 // The cache boundary can be adjusted with -XX:AutoBoxCacheMax=<size>
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Not value. The cache makes `==` work for small values by coincidence, creating subtle bugs that only
 Appear in production with larger values.
-</aside>
+:::
 ### Performance Implications of Autoboxing
 
 ```java
@@ -285,9 +285,9 @@ Integer boxed = 42;
 overloaded(boxed);  // prints "Integer" — reference matches reference
 ```
 
-<aside aria-label="Rule of thumb: use primitives everywhere unless you need `null` (to represent "no value")" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Rule of thumb: use primitives everywhere unless you need `null` (to represent "no value")</p>
+:::danger
 Or you are working with a generic API that requires reference types.
-</aside>
+:::
 ## Strings
 
 ### Immutability
@@ -375,13 +375,13 @@ System.out.println(a == f);        // false
 System.out.println(a.equals(f));   // true
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §3.10.5](https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.10.5) defines
 String literals.
 [JLS §5.1.7](https://docs.oracle.com/javase/specs/jls/se21/html/jls-5.html#jls-5.1.7) specifies
 Boxing conversion, including the requirement that strings computed from constant expressions are
 Interned.
-</aside>
+:::
 ### Design Decision: Why the String Pool Exists
 
 The string pool exists to **reduce memory consumption** and **enable fast equality comparison via
@@ -412,11 +412,11 @@ String result = sb.toString();
 // (which is rare — in standard practice you'd use a local variable)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Thread-safe mutable string building (which is almost never). The synchronization overhead is
 Unnecessary in the vast majority of use cases, and `StringBuffer` is essentially a legacy class
 Retained for backward compatibility.
-</aside>
+:::
 ## Arrays
 
 ### Array Basics
@@ -452,11 +452,11 @@ numbers[0] = 3.14;                     // ArrayStoreException at runtime!
 // The compile-time type says "Number", but the runtime type says "Integer[]"
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 On every assignment to an array element to prevent type corruption. This check has a small but real
 Performance cost. Generic collections (`List<Integer>`) are **invariant**, which is type-safe at
 Compile time and requires no runtime checks.
-</aside>
+:::
 ### Arrays vs ArrayList
 
 | Aspect           | `int[]`                                     | `ArrayList<Integer>`                          |
@@ -511,10 +511,10 @@ var boxed = (Integer) 42; // inferred: Integer
 // var is strictly for local variables with initializers
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Readability, not brevity. Prefer explicit types when the initializer is complex, when the type
 Carries important semantic information, or when the inferred type might be surprising.
-</aside>
+:::
 ## Type Promotion and Casting
 
 ### Implicit Type Promotion (Widening)
@@ -550,11 +550,11 @@ char c = 'A';
 int code = c + 1;          // code = 66
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 64-bit `long` has more precision than a 32-bit `float` (which has only 23 fraction bits). A large
 `long` value will lose low-order bits when converted to `float`. This is technically legal but often
 Surprising.
-</aside>
+:::
 ### Explicit Casting (Narrowing)
 
 Narrowing conversions (e.g., `long` to `int``double` to `float`) may lose information and require An
@@ -671,10 +671,10 @@ if (obj instanceof String s && !s.isEmpty()) {
 }
 ```
 
-<aside aria-label="The scope rules for pattern variables are defined by the "conditional AND" short-circuit" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The scope rules for pattern variables are defined by the "conditional AND" short-circuit</p>
+:::note
 Semantics. If `obj instanceof String s` is `false`The right side of `&&` is never evaluated, so `s`
 cannot be used unsafely. The compiler verifies this using a concept called "flow analysis."
-</aside>
+:::
 ## Records (Java 14+)
 
 Records ([JEP 395](https://openjdk.org/jeps/395), standardized in Java 16) provide a compact syntax
@@ -724,10 +724,10 @@ record NamedPoint(int x, int y, String name) implements Comparable<NamedPoint> {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Fields are always `final`. Records are best suited for data carriers where immutability and
 Structural equality are desired. They are not a replacement for mutable domain objects or entities.
-</aside>
+:::
 ## Sealed Classes (Java 17+)
 
 Sealed classes ([JEP 409](https://openjdk.org/jeps/409), standardized in Java 17) restrict which
@@ -842,7 +842,7 @@ ComplexNumber[] points = new ComplexNumber[1000];
 // vs. reference array: [ptr0, ptr1, ...] + 1000 separate heap objects
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Feature is available behind `--enable-preview`. The exact syntax and semantics may change in future
 Releases. The core idea remains: providing user-defined types with inline layout and value-based
 Equality, eliminating the performance penalty of object identity.
@@ -925,5 +925,4 @@ linked above.
 - **[Control Flow](./02-control-flow.md):** If-else, switch, and loop constructs that use the types defined here.
 - **[Concurrency Deep Dive](../../../../../../java/src/content/docs/06-concurrency/02-concurrency-deep-dive):** Thread-safe variable access and synchronization patterns.
 - **[Generics](../../../../../../kotlin/src/content/docs/intermediate/generics):** Type parameterization extending the basic type system.
-
-</aside>
+:::

@@ -207,7 +207,7 @@ macro_rules! find_min {
 assert_eq!(find_min!(3, 1, 4, 1, 5), 1);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Will produce the error "recursion limit reached while expanding ...". Use
 `#![recursion_limit = "256"]` at the crate root to increase the limit if needed. For truly complex
 Processing, use a procedural macro instead.
@@ -354,9 +354,8 @@ macro_rules! my_assert {
     };
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
 That has no prospect of changing.
@@ -1082,9 +1081,8 @@ pub fn sql(input: TokenStream) -> TokenStream {
 // Usage
 let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", user_id, name);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with
 Its `query!` macro provide this level of sophistication.
 
@@ -1665,5 +1663,4 @@ linked above.
 - [Rust Traits](../../../../../programming/src/content/docs/templates_and_metaprogramming/3_compile_time_computation/4_type_traits) -- Derive macros automatically generate trait implementations, reducing boilerplate.
 - [Rust Generics](../../../../../kotlin/src/content/docs/intermediate/generics) -- Generic functions and trait bounds work alongside macros for type-safe code generation.
 - [Rust Error Handling](../../../../../dart/src/content/docs/08-error-handling) -- Procedural macros can generate error handling boilerplate for custom error types.
-
-</aside>
+:::

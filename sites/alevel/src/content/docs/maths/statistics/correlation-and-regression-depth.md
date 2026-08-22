@@ -22,10 +22,10 @@ categories: [Mathematics]
 This document covers scatter diagrams, the product moment correlation coefficient, Spearman's rank
 Correlation, least squares regression, and residual analysis.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 it Does not capture non-linear relationships. Always plot your data before interpreting correlation
 Values.
-</aside>
+:::
 <hr />
 
 ## 1. Scatter Diagrams
@@ -59,9 +59,9 @@ An **outlier** is a data point that lies far from the general pattern. Outliers 
 - Result from measurement errors.
 - Significantly affect the correlation coefficient and regression line.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 coefficient. Always examine Your scatter diagram before relying on numerical measures.
-</aside>
+:::
 <hr />
 
 ## 2. Product Moment Correlation Coefficient (PMCC)
@@ -261,7 +261,7 @@ Minimises vertical residuals; the line of $x$ on $y$ minimises horizontal residu
 4. The model assumes the residuals are independent and normally distributed with constant variance
    (homoscedasticity).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 vice versa. Use the appropriate regression line for the direction of prediction.
 
 <hr />
@@ -447,8 +447,7 @@ $\blacksquare$
 - Residuals: $e_i = y_i - \hat{y}_i$; random scatter confirms linearity, curved pattern suggests
   non-linearity.
 - Correlation does not imply causation; always inspect scatter diagrams before interpreting $r$.
-
-</aside>
+:::
 
 ## Intuition
 

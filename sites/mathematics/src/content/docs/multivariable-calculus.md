@@ -322,7 +322,7 @@ $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\bla
 
 ### 1.12 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Existence $\neq$ continuity of partials.** A function can have all partial derivatives at a
   point yet fail to be continuous (hence not differentiable) there.
 - **Existence $\neq$ differentiability.** Even if all partials exist at a point, the function need
@@ -333,7 +333,7 @@ $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\bla
 - **Normalise the direction vector.** The formula $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$
   assumes $\lVert \mathbf{u} \rVert = 1$. If the direction is given by a non-unit vector
   $\mathbf{v}$Divide by $\lVert \mathbf{v} \rVert$ first.
-</aside>
+:::
 ## 2. Multiple Integrals
 
 ### 2.1 Double Integrals
@@ -611,7 +611,7 @@ elementary Antiderivative with respect to $y$. Swapping the order was essential.
 
 ### 2.7 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Order of integration limits.** When setting up
   $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$Verify that $g_1(x) \leq g_2(x)$ for all
   $x \in [a, b]$. If the region is described as "between two curves," determine which curve is above
@@ -624,7 +624,7 @@ elementary Antiderivative with respect to $y$. Swapping the order was essential.
   $\theta \in [0, 2\pi]$ is the azimuthal angle.
 - **Region description.** When swapping integration order, carefully redraw the region and re-derive
   the bounds. The new bounds may require splitting the integral into multiple pieces.
-</aside>
+:::
 ## 3. Vector Calculus
 
 ### 3.1 Vector Fields
@@ -982,7 +982,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 
 ### 3.8 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Singularities.** When applying Green's, Stokes', or the Divergence theorem, verify that the
   field has continuous partial derivatives on the region (including interior). If there are
   singularities inside the region, the theorems do not apply directly; the singularity must be
@@ -994,7 +994,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 - **Orientation.** Green's and Stokes' theorems require positive orientation (counterclockwise for
   planar curves, right-hand rule for surfaces). The divergence theorem requires the outward normal.
   Reversing orientation changes the sign of the result.
-</aside>
+:::
 ### 3.9 Relationships Among the Fundamental Theorems
 
 The three major integral theorems of vector calculus are deeply connected:
@@ -1235,7 +1235,7 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 
 ### 4.7 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Lagrange multipliers find candidates only.** The method produces candidates for constrained
   extrema but does not guarantee they are extrema. Always evaluate $f$ at all candidates and use
   additional reasoning (e.g., compactness of the constraint set via the extreme value theorem) to
@@ -1247,7 +1247,7 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
   critical point.
 - **Non-normalised constraint gradients.** Ensure the constraint functions are written in the form
   $g = 0$; multiplying $g$ by a constant changes $\lambda$ but not the critical points.
-</aside>
+:::
 ## 5. Curves and Surfaces
 
 ### 5.1 Parametric Curves
@@ -1525,7 +1525,7 @@ $\blacksquare$
 
 ### 5.6 Common Pitfalls
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - **Parameterisation domain.** Always verify that the parameterisation covers the entire surface and
   that the map is one-to-one (except possibly on the boundary).
 - **Normal orientation.** The cross product $\mathbf{r}_u \times \mathbf{r}_v$ determines the
@@ -2091,8 +2091,7 @@ $\blacksquare$
 | Linear Algebra                     | WyattsNotes | [View](linear-algebra)                           |
 | Differential Equations             | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)                   |
 | Multivariable Calculus — MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
-
-</aside>
+:::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

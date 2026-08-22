@@ -1031,12 +1031,12 @@ or a random pivot.
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Consider the data size, whether the data is nearly sorted, memory constraints, and whether stability
 Is required. Merge sort guarantees $O(n \log n)$ but uses extra space. Quick sort is often faster in
 Practice but has a worst case of $O(n^2)$. Insertion sort is unbeatable for small or nearly sorted
 Arrays.
-</aside>
+:::
 ## Data Structures
 
 ### Arrays
@@ -1969,9 +1969,9 @@ Input sizes.
 **$O(n!)$ -- Factorial time:** Even faster growth than exponential. Examples: brute-force
 Permutation generation, the naive traveling salesman solution.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $n \log_2 n \approx 20000000$Which is 20 times larger than $n$.
-</aside>
+:::
 ### Space Complexity
 
 Space complexity measures the amount of memory an algorithm uses as a function of the input size.
@@ -2343,10 +2343,10 @@ queue (FIFO) would undo the oldest action first, which is incorrect.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 operations. Ensure preconditions are checked (e.g., do not pop from an empty stack). The choice of
 underlying Data structure (array vs linked list) should be stated and justified.
-</aside>
+:::
 ## Problem Set
 
 ### Problem 1: Linear Search Trace

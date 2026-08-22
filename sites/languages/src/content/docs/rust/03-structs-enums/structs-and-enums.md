@@ -150,7 +150,7 @@ struct Aligned {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Fields through references requires `unsafe` because the compiler cannot guarantee alignment for
 Dereferences. Use `#[repr(packed(2))]` or similar to specify minimum alignment.
 
@@ -669,9 +669,8 @@ struct User {
 | `Ord`        | Total ordering (requires `PartialOrd``Eq`)                     |
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` field will fail
 Because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
 `ordered-float` crate's `OrderedFloat` type instead.
@@ -945,8 +944,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Structs group related data under named fields, while enums represent variants where exactly one variant is active at a time. Rust enums are algebraic data types: each variant can carry different data, enabling pattern matching that the compiler verifies for exhaustiveness. Structs are value types that move on assignment unless they implement Copy. Methods are defined in impl blocks, and associated functions (like constructors) are called with :: syntax.

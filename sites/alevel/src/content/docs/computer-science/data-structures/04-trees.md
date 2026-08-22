@@ -347,9 +347,9 @@ To guarantee $O(\log n)$ operations, we need **balanced** BSTs:
 | Red-black | $\leq 2 \log_2(n+1)$    | Weaker balance, faster inserts |
 | B-tree    | $O(\log_b n)$           | Used in databases              |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 and red-black trees are mentioned for context but not examined in detail.
-</aside>
+:::
 <hr />
 
 ## Problem Set

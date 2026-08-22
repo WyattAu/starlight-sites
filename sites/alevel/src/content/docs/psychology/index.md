@@ -131,15 +131,14 @@ individual differences — all examined through empirical evidence and critical 
 Each section provides key theories, landmark studies, evaluation points, and exam-style questions.
 Start with research methods (it underpins everything), then move through topics in order.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 This section is under active development. Content will continue to be expanded with detailed study
 notes and worked examples.
 
 Status: stub scope: Exam-aligned qualification content only. Subject to CONTENT_STANDARD.md Section
 12 (Prohibited Subjects as standalone topics). Expansion_criteria: Content must be aligned to
 A-Level exam specification. General humanities content not in scope.
-
-</aside>
+:::
 ## Overview
 
 This section provides comprehensive A-Level Psychology content for Psychology, covering all specification points with detailed explanations, worked examples, and practice questions.

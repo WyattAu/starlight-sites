@@ -754,33 +754,6 @@ See the examples integrated throughout the sections above.
 9. A bitmap image has resolution 1600 $\times$ 900 and file size 3 MB. Calculate the colour depth.
 10. Write SQL that uses a subquery to find students who are NOT enrolled in any course.
 
-## Summary
-
-This topic covers the essential chemistry of data and databases, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
----
-
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://leaving-cert.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://leaving-cert.wyattau.com/computer-science/3-databases/3_databases"}]
-}
-</script>
-
 ## Cross-References
 
 - [Programming](../2-programming/2_programming) covers the languages and techniques used to interact with and manipulate database systems.

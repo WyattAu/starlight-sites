@@ -291,11 +291,11 @@ In both cases, the amortised cost is $O(1)$.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 a per-operation worst-case bound. A single operation can still be expensive (e.g., a resize in a
 dynamic array costs $O(n)$). Amortised bounds are meaningful only when the sequence length is not
 bounded by a constant.
-</aside>
+:::
 ## 2. Fundamental Data Structures
 
 ### 2.1 Arrays and Linked Lists
@@ -814,11 +814,11 @@ A graph $G = (V, E)$ can be represented by:
 | Add edge           | $O(1)$           | $O(1)$               |
 | Remove edge        | $O(1)$           | $O(\mathrm{deg}(u))$ |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 asymptotically slower. Use adjacency matrices for dense graphs ($E \approx V^2$) and adjacency lists
 for sparse graphs ($E \ll V^2$). For example, BFS with an adjacency matrix takes $O(V^2)$ but with
 adjacency lists takes $O(V + E)$.
-</aside>
+:::
 ## 3. Sorting Algorithms
 
 ### 3.1 Merge Sort
@@ -1048,11 +1048,11 @@ into 1, reducing the number of runs by a factor of $k$. After $\log_k(N/M)$ pass
 run remains. Each pass reads and writes all $N$ bytes, so total I/O is $O(N \log_k(N/M))$.
 $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 sorting. Non-comparison sorts Like radix sort can achieve $O(n)$ time for integers in a bounded
 range. However, non-comparison sorts sacrifice generality: they depend on the structure of the keys
 and cannot sort arbitrary objects.
-</aside>
+:::
 ### 3.8 Comparison of Sorting Algorithms
 
 | Algorithm     | Best          | Average       | Worst         | Space       | Stable |
@@ -1581,11 +1581,11 @@ _Proof._ If not, there exists a shorter path $p'$ from $u$ to $w$. Then $p'$ con
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
 $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 simple path_ problem does not: the longest simple path from $u$ to $v$ may not contain the longest
 simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
-</aside>
+:::
 ### 5.4 Common Patterns
 
 **1D DP.** $dp[i]$ depends on $dp[j]$ for $j < i$. Example: Fibonacci, longest increasing
@@ -1898,7 +1898,7 @@ size).
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 known polynomial-time Algorithm. Many NP-complete problems have efficient approximation algorithms
 or can be solved Exactly for practical input sizes using branch-and-bound or SAT solvers.
 
@@ -2314,5 +2314,4 @@ Algorithms and data structures are the engine and chassis of computer science �
 The fundamental insight behind data structure design is that the right representation makes the right operation cheap. Arrays give O(1) access by index because elements are contiguous in memory. Linked lists give O(1) insert/delete at a known position because you only need to update pointers. Hash tables give O(1) average lookup by mapping keys to array indices through a hash function, turning a search problem into an array access. Balanced BSTs give O(log n) for everything by maintaining an invariant that keeps the tree height logarithmic. Every data structure is a bet about what operations you'll perform most often, and the "best" choice depends entirely on your workload.
 
 Algorithm design paradigms — divide-and-conquer, greedy, dynamic programming — are strategies for breaking hard problems into manageable pieces. Divide-and-conquer works when a problem can be split into independent subproblems (merge sort, binary search). Greedy works when making the locally optimal choice leads to the globally optimal solution (Huffman coding, activity selection). Dynamic programming works when a problem has optimal substructure and overlapping subproblems — when the optimal solution to a large problem contains optimal solutions to smaller subproblems, and those smaller subproblems are reused (shortest paths, sequence alignment, knapsack). Recognising which paradigm applies to a new problem is the core skill of algorithm design.
-
-</aside>
+:::

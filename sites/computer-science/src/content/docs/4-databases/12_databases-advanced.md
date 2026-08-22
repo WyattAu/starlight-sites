@@ -258,10 +258,10 @@ WITH RECURSIVE reachable(node, depth, path) AS (
 SELECT * FROM reachable WHERE depth <= 5;
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Always include a cycle check (e.g., tracking the path or visited nodes) or a depth limit. PostgreSQL
 supports the `CYCLE` clause for automatic cycle detection.
-</aside>
+:::
 ## 3. Advanced Normalisation
 
 ### 3.1 Join Dependencies and Fifth Normal Form (5NF)
@@ -512,11 +512,11 @@ acyclic, and by Theorem 5.1, the schedule is conflict-serialisable. $\blacksquar
 | Strict 2PL   | All locks held until commit/abort                                             | Possible  |
 | Rigorous 2PL | All locks held until commit/abort (same as strict for writes, but also reads) | Possible  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (e.g., wait-die, wound-wait) or detection (wait-for graph) is still needed. Additionally, 2PL may
 not be necessary: there exist conflict-serialisable schedules that cannot be produced by any 2PL
 protocol.
-</aside>
+:::
 ### 5.4 Multi-Version Concurrency Control (MVCC)
 
 MVCC maintains multiple versions of each data item, allowing readers to access a consistent snapshot

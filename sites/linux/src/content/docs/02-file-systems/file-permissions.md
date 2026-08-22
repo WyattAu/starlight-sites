@@ -174,7 +174,7 @@ chown -R user:group /var/www/html/
 chown --reference=ref.txt target.txt
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Member of. This is enforced by the kernel: the `chown(2)` system call checks `capable(CAP_CHOWN)`.
 
 ## umask
@@ -204,9 +204,8 @@ umask 0077     # owner only (private)
 # Set in profile
 echo 'umask 0027' >> ~/.profile
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits — it
 Never adds execute permission to files, which is why `touch newfile` creates files with 0666 &
 ~umask (e.g., 0644), never with execute bits set.
@@ -309,9 +308,8 @@ find / -perm -4000 -type f ! -user root -exec ls -la {} \; 2>/dev/null
 # Remove setuid if not needed
 chmod u-s /path/to/binary
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Itself would need setuid. Instead, use a compiled wrapper or sudo. A setuid shell script is a
 Privilege escalation vulnerability.
 
@@ -559,9 +557,8 @@ chattr -R +A /srv/data/
 # List attributes recursively
 lsattr -R /srv/data/
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Management. Ansible, Puppet, and similar tools may fail silently when trying to modify immutable
 Files. Always ensure configuration management systems can remove the immutable bit before making
 Changes.
@@ -631,9 +628,8 @@ flowchart TD
     K -->|Yes| D
     K -->|No| F
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
 For all named users, named groups, and the owning group.
@@ -709,9 +705,8 @@ find / -perm -4000 ! -user root -type f 2>/dev/null
 # Audit setuid binaries that are writable by non-root
 find / -perm -4000 -type f ! -perm -u+s -writable 2>/dev/null
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Malicious code, and it will execute with the file owner's privileges. Regularly audit setuid and
 Setgid binaries, and remove the setuid/setgid bit from any binary that does not strictly require it.
 
@@ -834,5 +829,4 @@ linked above.
 - [LVM and Disk Partitioning](../lvm-and-disk-partitioning) -- Logical volumes have the same permission model as physical partitions.
 - [Processes and Signals](../03-process-management/processes-and-signals) -- Process credentials determine which permissions apply during file operations.
 - [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scripts often check and modify file permissions programmatically.
-
-</aside>
+:::

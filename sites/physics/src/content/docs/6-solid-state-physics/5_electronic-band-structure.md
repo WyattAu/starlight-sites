@@ -310,7 +310,7 @@ Steep band (high mobility).
 The effective mass can be **negative** near a band maximum (holes). Cyclotron resonance experiments
 Measure $m^*$ directly: the resonance frequency is $\omega_c = eB/m^*$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 symmetry, it reduces to A scalar, but for anisotropic crystals (e.g., graphite, silicon), different
 effective masses apply Along different crystallographic directions. Always check the crystal
 symmetry before assuming $m^*$ is a scalar.
@@ -350,8 +350,7 @@ occupied States). The Kohn--Sham equations are solved self-consistently.
 DFT accurately predicts structural properties (lattice constants, elastic constants, phonon
 Frequencies within a few percent) but is less reliable for band gaps (LDA underestimates By
 30--50\%) and strongly correlated systems (e.g., transition metal oxides).
-
-</aside>
+:::
 
 ## Intuition
 

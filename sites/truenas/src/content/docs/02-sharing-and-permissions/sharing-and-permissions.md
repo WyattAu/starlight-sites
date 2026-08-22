@@ -692,10 +692,10 @@ For user home directories:
 | Authenticated     | User accounts required | High     | Production environments  |
 | Guest (anonymous) | No credentials needed  | Low      | Public file sharing only |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Authentication and authorization checks. Use it only for public read-only shares (e.g., a shared
 Software repository).
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -799,13 +799,13 @@ midclt call smb.get_share sensitive-data | jq '.encrypt'
 Modern Intel and AMD CPUs with AES-NI instructions handle AES-128-GCM with minimal overhead. If your
 CPU lacks AES-NI (rare on anything newer than 2013), the performance penalty is significant.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 ```bash
 smbstatus -b | head -30
 ```
 
 The `Dialect` column should show `SMB3_11` or higher for encrypted connections.
-</aside>
+:::
 ## NFSv4.2 Features
 
 NFSv4.2 introduces several features that improve performance and usability compared to NFSv4.1 and
@@ -862,10 +862,10 @@ nfsstat -m | grep -E "rsize|wsize"
 mount -t nfs4 -o minorversion=2,pnfs truenas.local:/mnt/tank/data /mnt/nfs
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Can increase latency for small random I/O. For mixed workloads, 1MB is a reasonable default. For
 Metadata-heavy workloads (mail servers, source code repositories), consider 128K or 256K.
-</aside>
+:::
 ## iSCSI Target Configuration Deep Dive
 
 ISCSI provides block-level storage access over Ethernet, which is essential for VMware ESXi,
@@ -897,10 +897,10 @@ midclt call iscsi.portal.create '{
 }'
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Other services introduces latency and packet loss that directly impacts storage performance. If
 Possible, use a separate VLAN or physical network for iSCSI.
-</aside>
+:::
 ### Extent Configuration
 
 An extent maps a ZFS volume (zvol) to the iSCSI target:
@@ -943,10 +943,10 @@ midclt call iscsi.initiatorgroup.update 1 '{
 }'
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Configuration when possible, as it masks the secret. Never expose CHAP credentials in scripts
 Checked into version control.
-</aside>
+:::
 ## Windows ACL Delegation Examples
 
 When integrating TrueNAS with Active Directory, you can delegate permission management to non-admin
@@ -1031,10 +1031,10 @@ Accessing the same ZFS dataset simultaneously via NFS and SMB causes locking and
 Inconsistencies. NFS uses advisory locks while SMB uses mandatory locks. Files created via NFS may
 Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with
 Windows ACL support enabled.
-</aside>
+:::
 ### Not Setting Up DNS Properly
 
 ISCSI and NFS performance degrades significantly when the client cannot resolve the server's

@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes 2D collisions         |
 | CIE (9709) | P4      | Momentum, impulse, restitution |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Signs.
-</aside>
+:::
 <hr />
 
 ## 1. Linear Momentum
@@ -229,9 +229,9 @@ $$J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\
 
 This is particularly useful for oblique impacts where the impulse acts in a specific direction.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 how much Momentum a force transfers over a given time interval.
-</aside>
+:::
 <hr />
 
 ## 7. Conservation of Momentum in Two Dimensions
@@ -400,10 +400,10 @@ $$\tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\ta
 
 ### 9.3 Angle relationships
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 the angle of Incidence. Equality holds only when $e = 1$ (perfectly elastic), recovering the law of
 reflection.
-</aside>
+:::
 Special cases:
 
 - $e = 1$: $\beta = \alpha$ (angle of incidence equals angle of reflection).
@@ -908,7 +908,7 @@ Section 8.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Momentum
@@ -941,8 +941,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

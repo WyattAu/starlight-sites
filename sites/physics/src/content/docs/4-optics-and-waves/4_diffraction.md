@@ -83,7 +83,7 @@ The intensity is about 4.5% of the central maximum.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $a\sin\theta = \lambda$ (not $\lambda/2$). The factor of 2 difference from the double-slit maximum
 condition ($d\sin\theta = \lambda$) Reflects the fundamentally different geometry: in single-slit
 diffraction, the minimum occurs when Wavelets from the edges cancel, requiring a path difference of
@@ -297,5 +297,4 @@ The central maximum in single-slit diffraction contains approximately 84% of the
 The Rayleigh criterion gives $\theta_{\min} = 1.22\lambda/D$ for circular apertures (the factor 1.22 comes from the first zero of $J_1$), while the grating resolving power is $R = mN$. Students sometimes apply the Rayleigh criterion formula to diffraction gratings or vice versa, mixing up angular resolution with spectral resolution.
 
 Diffraction is the bending of waves around obstacles and through openings, arising because a wavefront passing through a slit becomes a source of secondary wavelets in every direction. The narrower the slit relative to the wavelength, the more the wave spreads out. Double-slit diffraction combines two effects: the interference pattern from two point sources, modulated by the single-slit diffraction envelope. Missing orders appear when the interference maximum coincides with a diffraction minimum, effectively canceling that bright fringe. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the shape of the light distribution.
-
-</aside>
+:::

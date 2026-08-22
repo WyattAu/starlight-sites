@@ -128,7 +128,7 @@ def polynomial_hash(s, p=31, mod=(1 << 64)):
     return h
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 This is adequate for hash tables but unsuitable for cryptographic purposes. The choice of 31 is
 Historical and largely arbitrary — any odd prime works reasonably well.
 
@@ -244,9 +244,8 @@ The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ 
 | Unsuccessful search (average)     | $O(\alpha)$ comparisons         |
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $\alpha \le 0.75$ (the default for Java `HashMap` and Python `dict`). When $\alpha$ exceeds the
 Threshold, resize the table and rehash all elements.
 
@@ -599,9 +598,8 @@ When adding or removing a node, only the keys in the affected arc are remapped. 
 $k$ keys, the expected number of keys remapped when one node is added or removed is $k/n$ —
 Regardless of the total number of nodes. This is far better than modulo hashing, which remaps
 $k \cdot (1 - 1/(n+1)) \approx k$ keys when going from $n$ to $n+1$ nodes.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Databases. The standard number of virtual nodes is 150, which gives less than 10% imbalance with
 High probability.
 
@@ -672,9 +670,8 @@ $$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
 | 1%                  | 9.6              | 7              |
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Affecting other elements. If you need deletion, use a counting bloom filter (each position stores a
 Counter instead of a single bit) or a cuckoo filter.
 
@@ -823,9 +820,8 @@ class HyperLogLog:
 | Collision resistance | Weak                              | Yes — hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Are necessary only when an adversary can choose inputs (e.g., hash DoS attacks). Python switched
 From a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
 Flooding attacks.
@@ -962,8 +958,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

@@ -25,7 +25,7 @@ categories:
 Comprehensive study guide covering the core physical chemistry topics for A-Level examinations
 across all major exam boards.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 4
 
 ---
@@ -512,8 +512,7 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-</aside>
+:::
 
 ## See Also
 

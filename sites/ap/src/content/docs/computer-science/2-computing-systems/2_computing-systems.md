@@ -84,7 +84,7 @@ For an $n$-bit number:
 
 **Negation:** Flip all bits and add 1.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 Represent $-42$ in 8-bit two's complement.
 
@@ -258,9 +258,8 @@ Columns 4 and 7 are identical. $\blacksquare$
 
 Any Boolean function can be implemented using only NAND gates or only NOR gates (functional
 Completeness).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Implement XOR using AND, OR, and NOT gates.
 
@@ -943,8 +942,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Computational Thinking](../1-computational-thinking/1_computational-thinking) -- Abstraction and decomposition principles guide how computing systems are designed and organised.

@@ -162,9 +162,9 @@ A practical method uses conducting paper with electrodes painted on:
 3. Plot the equipotential lines by joining points of equal voltage.
 4. Draw field lines perpendicular to the equipotentials.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 only the component Tangent to the surface is zero.
-</aside>
+:::
 ## 5. Motion of Charged Particles in Uniform Fields
 
 ### Parabolic Trajectory
@@ -251,10 +251,10 @@ $$S = \frac{y}{V_d} = \frac{eL^2}{2m_e v^2 d} = \frac{L^2}{4V_{\mathrm{acc}}\,d}
 Where $L$ is the plate length and $d$ is the plate separation. Higher sensitivity requires longer
 Plates, closer spacing, and lower acceleration voltage.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (which determines beam speed) with the deflection voltage $V_d$ (which determines deflection). The
 Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{acc}}$.
-</aside>
+:::
 ## 7. Electric Fields of Extended Charge Distributions
 
 ### Field on the Axis of a Charged Ring

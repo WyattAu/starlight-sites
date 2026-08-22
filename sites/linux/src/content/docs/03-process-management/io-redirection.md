@@ -450,7 +450,7 @@ find . -name "*.log" -print0 | while IFS= read -r -d ''" file; do
 done
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Spaces. Always use `find ... -print0 | xargs -0` when processing filenames.
 
 ## Command Substitution
@@ -884,5 +884,4 @@ linked above.
 - [Text Processing](../01-cli-fundamentals/text-processing) -- Text processing pipelines use redirection and pipes to compose sed, awk, and grep.
 - [Processes and Signals](processes-and-signals) -- File descriptors are per-process resources managed by the kernel.
 - [Cron and Scheduling](cron-and-scheduling) -- Scheduled tasks use redirection to log output to files.
-
-</aside>
+:::

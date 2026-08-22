@@ -283,14 +283,12 @@ $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 
 ### 2.17 Common Pitfalls for First-Order ODEs
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $h(y) = 0$. Always check whether $h(y) = 0$ yields valid solutions before dividing.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require numerical Techniques.
-
-</aside>
+:::
 
 ### 2.18 Intuition: What Do First-Order ODEs Describe?
 

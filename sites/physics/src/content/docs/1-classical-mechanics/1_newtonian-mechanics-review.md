@@ -17,10 +17,10 @@ description: "1. A body remains at rest or in uniform motion unless acted upon b
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 Newton's three laws, published in the *Principia Mathematica* (1687), unified terrestrial and celestial mechanics for the first time. Before Newton, the motion of planets was described by Kepler's empirical laws, and falling objects by Galileo's experiments, but there was no single framework connecting them. Newton's second law ($\mathbf{F} = m\mathbf{a}$) provided that framework. Leibniz developed the calculus independently, providing the mathematical tools Newton needed for the derivations. Euler later reformulated mechanics in terms of energy and the Lagrangian, which became the foundation for modern theoretical physics. The Coriolis and centrifugal terms in non-inertial frames were worked out by Gaspard-Gustave de Coriolis (1835) and are essential for understanding rotating reference frames in engineering and meteorology.
-</aside>
+:::
 
 ### Intuition: Kinematics
 
@@ -333,12 +333,11 @@ general And elegant framework based on energy principles.
 The key insight: instead of tracking forces, track the **energy** of the system. The trajectory is
 the One that **minimises** (or more precisely, makes stationary) the **action**.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (centrifugal, Coriolis) that Are artifacts of the coordinate choice. The Lagrangian formulation
 automatically accounts for these Through the coordinate transformation of the kinetic energy,
 without any ad-hoc force terms.
-
-</aside>
+:::
 
 ### 1.13 Common Mistakes
 

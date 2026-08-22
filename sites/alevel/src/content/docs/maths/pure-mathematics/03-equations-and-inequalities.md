@@ -159,9 +159,9 @@ positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
 **Corollary.** Multiplying or dividing both sides of an inequality by a negative number reverses the
 Inequality.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 multiplier before Proceeding.
-</aside>
+:::
 ### 3.2 Quadratic Inequalities
 
 See [Quadratics](02-quadratics.mdx), Section 6.
@@ -344,9 +344,9 @@ So $f(x) = (x - 1)(2x - 1)(x + 2)$.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 $f(x) = x^n + \cdots + c$The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
-</aside>
+:::
 <hr />
 
 ## 7. Systems of Three Linear Equations
@@ -496,9 +496,9 @@ No real solution from this case.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 preserves the Direction since $a \lt b$ implies $a^2 \lt b^2$ for $a, b \geq 0$.
-</aside>
+:::
 <hr />
 
 ## 9. Absolute Value (Modulus) Properties
@@ -942,7 +942,7 @@ Solutions: $(2, 3)$ and $(-2, -3)$.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Equations
@@ -950,7 +950,7 @@ and Inequalities with other pure mathematics topics to test synthesis under exam
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Common Pitfalls
 
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

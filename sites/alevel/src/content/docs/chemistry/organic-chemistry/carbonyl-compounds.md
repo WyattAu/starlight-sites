@@ -920,7 +920,7 @@ $$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Carbonyl
@@ -948,8 +948,7 @@ theories, and practical applications.
 
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
-
-</aside>
+:::
 
 ## See Also
 

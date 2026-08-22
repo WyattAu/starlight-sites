@@ -43,7 +43,7 @@ The library provides three main operations:
 | `std::regex_search(str, regex)`       | Returns `true` if **any part** of the string matches      |
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 GCC"s libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
 Consider:
 
@@ -52,8 +52,7 @@ Consider:
 - **Hand-written parsers:** for simple patterns (e.g., email validation, URL parsing), a
   hand-written parser is often faster and more readable.
 - **RE2:** Google's regex library with guaranteed linear-time matching.
-
-</aside>
+:::
 ### `std::regex_match` and `std::regex_search`
 
 ```cpp
@@ -134,9 +133,9 @@ void regex_replace_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 groups, and `$$` is a literal `$`. These are defined in [N4950 §30.9.4].
-</aside>
+:::
 ### Email Validation with Regex
 
 ```cpp
@@ -227,10 +226,10 @@ void catastrophic_backtracking_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Exponential backtracking on inputs that nearly match. If you must use them, set a timeout or use a
 Library with guaranteed linear-time matching (RE2, hyperscan).
-</aside>
+:::
 ### Regex Grammars and Flags
 
 `std::regex` supports multiple regex grammars selectable via the `std::regex::flag_type` bitmask

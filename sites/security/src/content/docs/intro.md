@@ -93,7 +93,7 @@ This section covers the core security competencies expected of a systems enginee
 6. **Incident Response**. NIST IR lifecycle, forensics, containment, post-mortem
    ([incident-response](./06-incident-response/incident-response.md))
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Administration. The focus is on understanding how security controls work at the implementation level
 And why they fail when they do.
 
@@ -165,8 +165,7 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

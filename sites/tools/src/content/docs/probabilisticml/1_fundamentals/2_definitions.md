@@ -55,13 +55,13 @@ _Context in Probability:_ $L^p$ is the quotient space of $\mathcal{L}^p$
 (the space of measurable functions with finite $p$-**semi-norm**) under the equivalence relation
 $f \sim g \iff f=g$ $\mu$-a.e. Formally, $L^p = \mathcal{L}^p / \sim$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Semi-norm vs. Norm:** The functional $\lVert \cdot \rVert_p$ is only a **semi-norm** on
 $\mathcal{L}^p$ because $\lVert f \rVert_p = 0 \implies f = 0$ almost
 everywhere, not everywhere. It becomes a true **norm** only after quotienting by the equivalence
 relation to obtain $L^p$. This distinction ensures $L^p$ is a Banach space by identifying functions
 that differ only on null sets.
-</aside>
+:::
 ## Topology and Metric Spaces
 
 ### Topology
@@ -234,11 +234,11 @@ called measurable sets, where $\mathcal{F}$ satisfies:
 3. Closure under countable Union:
    $A_1, A_2, \dots \in \mathcal{F} \implies \bigcup^\infty_{i=1} A_i \in \mathcal{F}$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Why condition 3 is necessary: countable unions are required to handle limits — for example,
 when we analyze a sequence of events $\lim_{n\to \infty} A_n$. Without closure under countable
 unions, probabilities cannot be assign to limits of random variables.
-</aside>
+:::
 ### Sub-$\sigma$-algebra
 
 Given a measurable space $(\Omega, \mathcal{F})$A collection
@@ -306,19 +306,19 @@ $$
 
 Assuming the set $\{x \in \Omega : f(x) \neq g(x)\}$ is measurable.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Rigor Note:** In pure measure theory, the set $\{x \in \Omega : f(x) \neq g(x)\}$ need
 not be measurable if the measure space is not complete. The fully rigorous formulation is: There
 exists a measurable null set $N \in \mathcal{F}$ such that $\mu(N) = 0$ and
 $\{x \in \Omega : f(x) \neq g(x)\} \subseteq N$. This bypasses the need to assume the inner set is
 measurable and introduces the concept of measure space completeness (see _Completeness of a Measure
 Space_ below).
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 **Terminology Note:** When the measure $\mu$ is a probability measure $P$, "almost everywhere"
 (a.e.) is conventionally called "almost surely" (a.s.). We write $f = g$ a.s. or $f = g$ $P$-a.e.
 interchangeably.
-</aside>
+:::
 ### Completeness of a Measure Space
 
 A measure space $(\Omega, \mathcal{F}, \mu)$ is **complete** if every subset
@@ -437,10 +437,10 @@ $$
 
 Where $| \cdot |$ denotes the **cardinality** (number of elements) of the set, not absolute value.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 In statistical contexts, if $X_1, \dots, X_n$ are random elements, $\hat{P}_n$ becomes a
 random measure mapping $\omega \mapsto \frac{1}{n}\sum \delta_{X_i(\omega)}$.
-</aside>
+:::
 ### Support of a Measure
 
 Given a Borel probability measure $\mu$ on a topological space $(S, \tau)$, the support of
@@ -469,10 +469,10 @@ measures $\mathcal{M}_1(S)$ is the set of all probability measures on
 $(S, \mathcal{B}(S))$ such that $\mu(S) = 1$ for all
 $\mu \in \mathcal{M}_1(S)$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The notation $\mathcal{M}_1$ emphasizes that these are probability
 measures (total mass 1), as opposed to general measures with arbitrary mass.
-</aside>
+:::
 ### Probability Space
 
 A probability space is a tuple $(\Omega, \mathcal{F}, P)$, where
@@ -584,11 +584,11 @@ $$
 P\left(\bigcap_{i\in I} A_i\right) = \prod_{i\in I}P(A_i)
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 **Terminology Note:** The term "marginal independence" is sometimes used to refer to
 unconditional independence $X \perp Y$, contrasting with conditional independence $X \perp Y \mid Z$.
 For the independence of $n$ events, "mutual independence" is the standard terminology.
-</aside>
+:::
 ### Conditional Independence
 
 Given that event $C \in \mathcal{F}$ holds, event
@@ -740,12 +740,12 @@ $$
 Where $\alpha_i \in \mathbb{R}$ are real coefficients and
 $A_i \in \mathcal{F}$ are pairwise disjoint measurable sets.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 **Non-negative Simple Function:** For the construction of the Lebesgue integral, we
 specifically use **non-negative simple functions** where $\alpha_i \in [0, \infty)$ for all $i$.
 General simple functions (allowing negative coefficients) are used in the final step of the integral
 construction.
-</aside>
+:::
 ### Lebesgue Integral
 
 This is an integral constructed from $3$ steps:
@@ -765,14 +765,13 @@ This is an integral constructed from $3$ steps:
    \int f d \mu = \int f^+ d\mu - \int f^- d\mu
    $$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Edge Cases:**
 - If $\int f^+ < \infty$ and $\int f^- < \infty$: $f$ is **Lebesgue Integrable** ($f \in L^1$).
 - If only one of $\int f^+$ or $\int f^-$ is infinite: The integral **exists** (evaluates to
   $\pm\infty$), but $f$ is **not integrable**.
 - If both $\int f^+ = \infty$ and $\int f^- = \infty$: The integral is **undefined**.
-
-</aside>
+:::
 ### Expectation (Real-valued)
 
 For a real-valued random variable $X: \Omega \to \mathbb{R}$. The expectation
@@ -884,13 +883,13 @@ _Intuition:_ A function $f: \Omega \to \mathbb{V}$ is Bochner integrable if
 it is the limit of simple Banach-valued functions and its norm is Lebesgue integrable:
 $\int_\Omega \lVert f(\omega) \rVert \, d\mu(\omega) < \infty$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 **Bochner's Theorem:** A strongly measurable function
 $X: \Omega \to \mathbb{V}$ is Bochner integrable _if and only if_ its norm
 is Lebesgue integrable: $$\int_\Omega \lVert X(\omega) \rVert \, d\mu(\omega) < \infty$$ This is the
 characteristic criterion for Bochner integrability and is formally stated in the _Bochner Integral_
 definition below.
-</aside>
+:::
 ### Fubini-Tonelli Theorem
 
 Let $(\Omega_1, \mathcal{F}_1, \mu_1)$ and
@@ -1129,12 +1128,12 @@ $$
 \lim_{n\rightarrow \infty} P\left(d(X_n(\omega), X(\omega)) > \epsilon \right) = 0
 $$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Crucial Distinction from Weak Convergence:** Convergence in probability requires $X_n$
 and $X$ to be defined on the **same** probability space. In contrast, weak convergence (convergence
 in distribution) allows random variables to exist on entirely different probability spaces as long
 as they map to the same target metric space.
-</aside>
+:::
 ### Weak Convergence
 
 Let $X_n, X$ be random elements in a metric space $S$. $X_n$ converges weakly to $X$, denoted
@@ -1216,13 +1215,13 @@ Where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 **Generalization to Banach Spaces:** For a random variable $X$ taking values in a Banach
 space $B$ (which may lack an inner product), $t$ belongs to the _dual space_ $B^*$And the
 characteristic function is defined as $\varphi_X(t) = \mathbb{E}\left[ e^{i t(X)} \right]$
 where $t: B \to \mathbb{R}$ is a continuous linear functional. For Hilbert spaces, the
 Riesz Representation Theorem identifies $B^*$ with $B$, recovering the inner product formulation.
-</aside>
+:::
 ### Levy's Continuity Theorem
 
 Let $X_n$ be random variables with characteristic functions $\varphi_n(t)$.
@@ -1240,13 +1239,13 @@ Let $X_1, X_2, \dots$ be i.i.d. Random variables with $\mathbb{E}[X_1] = \mu$.
 **Strong Law of Large Numbers (SLLN):**
 $\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i \xrightarrow{a.s.} \mu$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Important Distinction for ERM:** The standard LLN only guarantees that the empirical
 risk of a _single, fixed_ hypothesis converges to its true risk. To justify Empirical Risk
 Minimization (ERM) where we search for the _minimum_ across a hypothesis class
 $\mathcal{H}$, we need the **Uniform Law of Large Numbers (ULLN)** to prevent overfitting.
 See Glivenko-Cantelli theorem.
-</aside>
+:::
 ### Central Limit Theorem (CLT)
 
 Let $X_1, X_2, \dots$ be i.i.d. Random variables with mean $\mu$ and finite covariance $\Sigma$.
@@ -1603,14 +1602,14 @@ $$
 
 $$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of a
 conditional expectation (and for the Fréchet mean to be well-defined via Bochner integration), $S$
 cannot be an arbitrary metric space. It must be a subset of a vector space (specifically, a Banach
 space) where addition and scalar multiplication are defined, enabling the Bochner integral. For
 general metric spaces, the Fréchet mean is defined via the minimization formulation above, which
 does not require linear structure.
-</aside>
+:::
 ## Statistical Models and Information Geometry
 
 ### Parameter Space
@@ -1803,7 +1802,7 @@ $$
 
 If $P \not\ll Q$, then $D_{KL}(P \| Q) = +\infty$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **KL Divergence is NOT a Metric:**
 Despite its widespread use, KL divergence fails to satisfy the axioms of a metric:
 
@@ -1815,8 +1814,7 @@ This motivates the use of alternative divergences that **are** proper metrics:
 
 - **Wasserstein Metric:** A true metric with meaningful gradients even for disjoint supports.
 - **Jensen-Shannon Divergence:** Symmetric and bounded; $\sqrt{D_{JS}}$ is a true metric.
-
-</aside>
+:::
 ### Jensen-Shannon Divergence
 
 The Jensen-Shannon Divergence (JSD) is a symmetrized and smoothed version of KL divergence:
@@ -1888,15 +1886,14 @@ _Intuition:_ $D_{KL}$ measures the "extra" bits needed to encode data from $P$ u
 optimized for $Q$, while Cross-Entropy $H(P, Q)$ measures the "total" bits. Minimizing cross-entropy
 is equivalent to minimizing KL divergence since $H(P)$ is constant with respect to $Q$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Caveats for Continuous Distributions:**
 1. This decomposition requires $P \ll Q$ (absolute continuity) and the integrals to be absolutely
    convergent.
 2. For differential entropy (continuous case), $H(P)$ can be **negative**, unlike Shannon entropy
    which is always non-negative.
 3. In ML, cross-entropy is computed directly as $-\log q(x)$ without explicitly computing $H(P)$.
-
-</aside>
+:::
 ### Information Projection (I-Projection) vs. Moment Projection (M-Projection)
 
 Given a distribution $P$ and a family of distributions $\mathcal{Q}$:

@@ -100,7 +100,7 @@ blob 13\0Hello, World
 
 The SHA-1 of this byte sequence is `ce013625030ba8dba906f756967f9e9ca394464a`.
 
-<aside aria-label="The trailing newline matters. `echo "Hello, World"` produces `Hello, World\n` (13 bytes), while" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The trailing newline matters. `echo "Hello, World"` produces `Hello, World\n` (13 bytes), while</p>
+:::note
 `echo -n "Hello, World"` produces `Hello, World` (12 bytes). These produce different blob hashes.
 This is a common source of confusion when scripting Git operations.
 
@@ -183,9 +183,8 @@ tree <content-length>\0<entries>
 Each entry is encoded as `<mode> <name>\0<20-byte-sha1>` (binary SHA-1, not hex). The entries are
 **sorted** lexicographically by name, which is critical for canonical hashing — the same directory
 must always produce the same tree hash.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters
 if you are manually constructing tree objects.
 
@@ -315,9 +314,8 @@ Release version 1.0
 | Temporary pointers | Signed releases (GPG)                 |
 | Personal workflow  | Semantic versioning milestones        |
 |                    | When you need metadata (date, tagger) |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 or message, which makes them unsuitable for audit trails. Use `git tag -a` or configure
 `tag.forceSignAnnotated` for GPG signing.
 
@@ -420,8 +418,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

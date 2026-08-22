@@ -84,7 +84,7 @@ $$
 A_r = \sum_{i} (\mathrm{isotope mass})_i \times (\mathrm{fractional abundance})_i
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example — Chlorine</strong>
 Chlorine has two occurring isotopes: $\mathrm{Cl}$-35 ($75.77\%$Mass $\approx 34.97\mathrm{ u}$) and
 $\mathrm{Cl}$-37 ($24.23\%$Mass $\approx 36.97\mathrm{ u}$).
@@ -165,9 +165,8 @@ Each electron in an atom is described by four quantum numbers:
 | Spin           | $m_s$  | Electron spin direction      | $+\frac{1}{2}$ or $-\frac{1}{2}$      |
 
 The number of orbitals in a subshell is $2l + 1$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Quantum numbers for a $3p$ electron</strong>
 For the $3p$ subshell: $n = 3$, $l = 1$$m_l = -1, 0, +1$$m_s = \pm\frac{1}{2}$
 
@@ -207,9 +206,8 @@ In brackets:
 $$
 \mathrm{Fe}: [\mathrm{Ar}]\, 4s^2\, 3d^6
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $3d^6\, 4s^2$). When writing configurations for ions, remove electrons from the highest $n$ value
 First: $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
 
@@ -340,9 +338,8 @@ Nuclei of adjacent atoms in the solid or liquid), which is significantly larger 
 | Anions are larger than their parent atoms   | Increased electron-electron repulsion with the same $Z$              |
 | Ionic radius increases down a group         | Additional shells                                                    |
 | Across a period, ions decrease in size      | Isoelectronic series: same number of electrons, increasing $Z$       |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Isoelectronic series</strong>
 $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \mathrm{Al}^{3+}$
 
@@ -381,9 +378,8 @@ $$
 
 A large jump in successive ionization energies indicates the removal of an electron from a new inner
 Shell. This reveals the electron configuration.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Aluminium</strong>
 For aluminium ($1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$):
 
@@ -807,9 +803,8 @@ Splitting are **weak-field ligands**.
 | $[\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+}$ | Deep blue       | Yellow/orange   |
 | $[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}$                  | Pink            | Green           |
 | $[\mathrm{CoCl}_4]^{2-}$                                        | Blue            | Yellow/orange   |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 $[\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{4+}$ has $d^0$), or (b) it has a full $d$-subshell (e.g.,
 $\mathrm{Zn}^{2+}$$[\mathrm{Cu}(\mathrm{NH}_3)_4]^+$ has $d^{10}$). In both cases, there are no
 $d$-$d$ transitions possible.
@@ -972,9 +967,8 @@ A mass spectrum plots **relative abundance** (y-axis) against **$m/z$** (x-axis)
 
 For a single element, the mass spectrum shows peaks at each isotope's mass, with heights
 Proportional to natural abundance.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Boron</strong>
 Boron has two isotopes: $\mathrm{B}$-10 ($19.9\%$) and $\mathrm{B}$-11 ($80.1\%$).
 
@@ -1019,9 +1013,8 @@ For molecules containing chlorine or bromine, the isotope patterns are distincti
 
 A molecule with one chlorine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $3:1$ ratio. A
 Molecule with one bromine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $1:1$ ratio.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Chlorobenzene</strong>
 Chlorobenzene ($\mathrm{C}_6\mathrm{H}_5\mathrm{Cl}$) shows:
 
@@ -1077,9 +1070,8 @@ Many-electron atom.
 - $1.00$ each (for $d$ and $f$ electrons in the $n$ shell)
 
 1. Electrons in shells **$n-2$ or lower** contribute $1.00$ each.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — $Z_{\mathrm{eff}}$ for a $3p$ electron in chlorine ($Z = 17$)</strong>
 Configuration: $(1s)^2(2s, 2p)^8(3s, 3p)^7$
 
@@ -1092,9 +1084,8 @@ For a $3p$ electron:
 $$ S = 2.10 + 6.80 + 2.00 = 10.90 $$
 
 $$ Z\_{\mathrm{eff}} = 17 - 10.90 = 6.10 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — $Z_{\mathrm{eff}}$ for a $3d$ electron in scandium ($Z = 21$)</strong>
 Configuration: $(1s)^2(2s, 2p)^8(3s, 3p)^8(3d)^1(4s)^2$
 
@@ -1152,9 +1143,8 @@ $$
 
 Where $R_H = 1.097 \times 10^7\mathrm{ m}^{-1}$ is the Rydberg constant, $n_i$ is the initial energy
 Level, and $n_f$ is the final energy level ($n_i \gt n_f$ for emission).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Wavelength of the first Balmer line</strong>
 For the transition $n = 3 \to n = 2$:
 
@@ -1480,30 +1470,27 @@ Electromagnetic spectrum (blue-violet). (2 marks)
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
 }
 </script>
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 When answering "explain" questions about periodic trends, always reference **effective nuclear
 Charge** and **shielding**. The marking scheme expects these terms. A two-mark explanation requires
 The trend statement AND the reasoning.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 When writing electron configurations for transition metal ions, always remove electrons from the
 $ns$ orbital first (highest principal quantum number), NOT from the $(n-1)d$ orbital. So
 $\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 Do not confuse atomic radius trends with ionic radius trends. When comparing ionic radii within an
 Isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,
 $\mathrm{Na}^+$ is smaller than $\mathrm{F}^-$ even though $\mathrm{Na}$ has a larger atomic radius
 Than $\mathrm{F}$.
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Confusing first ionisation energy with electronegativity:** First ionisation energy is the
   energy required to REMOVE the outermost electron from a gaseous atom. Electronegativity is the
   ability of an atom to ATTRACT electrons in a covalent bond. Both generally increase across a
@@ -1525,9 +1512,8 @@ Than $\mathrm{F}$.
   Group 13 dips because the p1 electron is in a higher energy p-subshell. Group 16 dips because the
   p4 electron is paired with another electron in the same orbital, creating repulsion. These
   exceptions are frequently tested in IB exams.
-
-</aside>
-</aside>
+:::
+:::
 ## Practice Problems
 
 <details>

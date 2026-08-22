@@ -197,10 +197,10 @@ int main() {
 //   caught: oops
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `std::terminate()` is called [N4950 §14.7]. Marking a destructor `noexcept(false)` does not make it
 Safe to throw from a destructor during unwinding.
-</aside>
+:::
 ## 3.5 Conditional `noexcept`
 
 The `noexcept` specifier accepts a constant expression:

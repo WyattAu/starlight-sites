@@ -420,7 +420,7 @@ MaxFileSec=1week          # rotate weekly
 ForwardToSyslog=yes       # also forward to traditional syslog
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Does not exist, logs are stored in `/run/log/journal/` (volatile — lost on reboot). Ensure
 `/var/log/journal/` exists and has correct permissions (`systemd-tmpfiles --create`).
 
@@ -856,8 +856,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

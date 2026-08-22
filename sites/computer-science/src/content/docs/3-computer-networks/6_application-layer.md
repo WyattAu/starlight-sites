@@ -248,11 +248,10 @@ _Proof._ The sender cannot have more than the window size in unacknowledged data
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
 Per second. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
-
-</aside>
+:::
 
 ## Intuition
 

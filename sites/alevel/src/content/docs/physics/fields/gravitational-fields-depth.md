@@ -108,9 +108,9 @@ Every mass element pulling the test mass in one direction, there is a compensati
 Opposite side. The nearer element pulls more strongly (shorter distance) but is subtended by a
 smaller Solid angle, and these two effects cancel exactly. $\square$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 varies slightly with Latitude even at sea level.
-</aside>
+:::
 ### Field Strength at Altitude
 
 At height $h$ above a planet of radius $R$ and surface field $g_0$:
@@ -205,10 +205,10 @@ m s$^{-1}$ $= 5.02$ km s$^{-1}$.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Projectile. A 1 kg ball and a $10^6$ kg rocket both need the same speed. However, the required
 kinetic Energy $E_k = \frac{1}{2}mv_e^2$ scales with mass.
-</aside>
+:::
 ## 5. Orbital Mechanics
 
 ### Circular Orbit Equations
@@ -344,7 +344,7 @@ $$v = \sqrt{\frac{GM}{r}} = \frac{2\pi r}{T} = 3070\ \mathrm{m\,s}^{-1}$$
    pattern) as seen from the ground.
 3. **Prograde rotation:** The satellite must orbit west to east, matching Earth's rotation.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 circular. GPS satellites are Neither — they use medium Earth orbits at 20,200 km altitude with
 12-hour periods.
 
@@ -550,8 +550,7 @@ $\blacksquare$
 - Escape velocity: $v_{\mathrm{esc}} = \sqrt{\frac{2GM}{R}}$; for Earth
   $\approx 11.2\ \mathrm{km\,s^{-1}}$.
 - Orbital velocity: $v = \sqrt{\frac{GM}{r}}$; $g = -\frac{dV}{dr}$ links field and potential.
-
-</aside>
+:::
 
 ## Intuition
 

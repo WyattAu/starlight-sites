@@ -15,10 +15,10 @@ description: "A system that handles 1,000 requests per second at USD 10,000 per 
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 Complexity analysis as a formal discipline emerged from two threads. Alan Turing's 1936 paper on computability established the theoretical foundation — the Turing machine as a model of computation. In the 1960s, Robert Tarjan and John Hopcroft developed formal complexity classes (P, NP, PSPACE). Donald Knuth's *The Art of Computer Programming* (1968) pioneered the systematic analysis of algorithm efficiency, introducing Big-O notation into mainstream CS. The Cook-Levin theorem (1971) established NP-completeness, connecting complexity theory to the most important open problem in mathematics: P vs NP. Today, complexity analysis is essential for every software engineer — it determines whether a system can handle 10,000 or 10,000,000 requests, and whether a database query takes 10 milliseconds or 10 minutes.
-</aside>
+:::
 ## Why Complexity Analysis Matters
 
 A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is
@@ -72,7 +72,7 @@ As $g(n)$Up to constant factors.
 
 $$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
 $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
@@ -145,9 +145,8 @@ Core). In reality:
 - Parallelism changes the equation: $O(n \log n)$ on 32 cores is effectively $O(n \log n / 32)$.
 - I/O dominates for large datasets: $O(n)$ with 10 GB of random reads from disk is far slower than
   $O(n \log n)$ with sequential reads.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
 With favourable cache behaviour. Always benchmark.
 
@@ -281,9 +280,8 @@ In systems engineering, worst-case guarantees matter because:
 2. **Tail latency is critical**. P99 latency is dominated by worst-case behaviour, not average
 3. **Real-time constraints**. A system that responds in 1ms but occasionally takes 10s is often
    worse than one that always responds in 5ms
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Requests with keys that all hash to the same bucket, turning $O(1)$ lookups into $O(n)$ lookups and
 Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use hash randomisation.
 
@@ -691,9 +689,8 @@ Non-negative and is $O(n \log n)$ for an $n$-node tree.
   for any access sequence
 - Working set theorem: if an item is accessed $t$ times and there are $l$ distinct items accessed
   since its last access, the amortised cost is $O(\log l + \log t)$
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Caches, and database buffer pools, a small set of hot items dominates access. Splay trees
 Automatically adapt to this pattern without any tuning parameters.
 
@@ -836,9 +833,8 @@ def benchmark_sorts():
     print(f"Insertion sort (100 elements, 1000 runs): {isort_time:.3f}s")
     print(f"TimSort (100 elements, 1000 runs): {msort_time:.3f}s")
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 On the actual production workload due to access patterns, data distribution, and interaction with
 Other system components. Always benchmark with realistic data and in a realistic environment.
 
@@ -862,12 +858,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Research Connections</strong>
 Complexity theory connects to the most important open problem in mathematics: P vs NP (Clay Millennium Prize, $1M). If P = NP, many "hard" problems in cryptography, scheduling, and protein folding become efficiently solvable. If P ≠ NP, certain cryptographic schemes (RSA, AES) are provably secure. Current research directions include: fine-grained complexity (parameterised complexity, ETH), quantum complexity (BQP vs BPP), and circuit complexity (lower bounds for AC0, TC0). The field also intersects with machine learning: can neural networks efficiently approximate NP-hard problems?
-</aside>
+:::
 
 ## See Also
 

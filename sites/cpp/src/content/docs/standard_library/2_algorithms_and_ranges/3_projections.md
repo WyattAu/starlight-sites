@@ -218,10 +218,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Algorithms. The pattern is: `algorithm(range, predicate, projection)`. The predicate receives the
 **projected** value, not the original element.
-</aside>
+:::
 ### Projection Mechanics: What Happens Under the Hood
 
 When an algorithm like `std::ranges::sort` receives a projection, the comparison is effectively

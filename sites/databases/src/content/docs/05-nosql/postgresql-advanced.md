@@ -313,7 +313,7 @@ WHERE r.created_at >= '2024-01-01'
 GROUP BY u.name;
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Pushed down. Use `EXPLAIN (VERBOSE)` to verify what is pushed down and what is executed locally. For
 Large datasets, consider materializing the data instead.
 
@@ -409,9 +409,8 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-07-01';
 -- Partition pruning requires literal or stable expressions
 -- Parameters from prepared statements may prevent pruning
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Constraint across all partitions is not supported. Instead, use `UNIQUE(order_id, created_at)` or
 Enforce uniqueness at the application level.
 
@@ -790,9 +789,8 @@ SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 20;
 -- Unschedule a job
 SELECT cron.unschedule('nightly-vacuum');
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Context of the database where pg_cron is installed. Cross-database scheduling is not supported.
 
 ### pg_background
@@ -917,9 +915,8 @@ It publishes change events as JSON/Avro to Kafka topics.
 Each table gets its own topic.
 Events include: before/after images, operation type, transaction metadata.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Stops or falls behind, WAL accumulates on disk, potentially filling the storage. Monitor slot lag:
 
 ```sql
@@ -1016,22 +1013,6 @@ WITH moved AS (
 INSERT INTO orders_2025_q1 SELECT * FROM moved;
 ```
 
-## Summary
-
-This topic covers the essential chemistry of postgresql advanced, including key reactions,
-underlying theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [NoSQL Databases](nosql) - How PostgreSQL extensions like JSONB and hstore compare to native document stores
@@ -1109,5 +1090,4 @@ $\blacksquare$
 - `pg_trgm` enables trigram-based fuzzy matching with `%` operator and `similarity()` function.
 - JSONB operators (`->>`, `#>>`, `@>`, `?`) and GIN indexing enable semi-structured queries without
   a fixed schema.
-
-</aside>
+:::

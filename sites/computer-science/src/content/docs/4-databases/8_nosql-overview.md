@@ -116,12 +116,11 @@ Since network partitions are inevitable in distributed systems, the real trade-o
 **PACELC.** Extension of CAP: in the absence of partitions, the trade-off is between **latency** And
 **consistency**.
 
-<aside aria-label="Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL</p>
+:::caution
 databases now support SQL-like Query languages (e.g., Cassandra CQL). The choice between relational
 and NoSQL depends on the Workload, not on a blanket preference. Relational databases remain the best
 choice for strongly Structured data with complex queries and transactional requirements.
-
-</aside>
+:::
 ### 8.7 Key Relationships
 
 | Feature | Document Store | Key-Value | Graph | Column-Family |

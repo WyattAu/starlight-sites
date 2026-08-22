@@ -11,10 +11,10 @@ categories:
 
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 Memory alignment is a consequence of how hardware accesses memory. In the 1970s-80s, processors like the Motorola 68000 required aligned access and raised hardware exceptions (bus errors) for misaligned reads. Modern x86 processors handle misaligned access transparently (with a performance penalty), but ARM processors — which power every smartphone — still raise SIGBUS for misaligned access on some configurations. The C language was designed in 1972 when alignment was a hardware constraint, so C's struct layout rules encode alignment directly. C++ inherited these rules. Understanding alignment is critical for systems programming because: (1) padding wastes memory, (2) false sharing on cache lines degrades multi-threaded performance, and (3) network protocols require specific alignment for zero-copy I/O.
-</aside>
+:::
 In C++, `sizeof(T)` is rarely equal to the sum of the sizes of its members. The compiler inserts
 Invisible bytes known as **Padding** between members to satisfy **Alignment Requirements**.
 
@@ -366,12 +366,12 @@ int main() \{
 \}
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Reading from a union member other than the one most recently written to is **undefined</strong>
 
 Behavior** in C++ (unlike C, where it is implementation-defined). Use `std::memcpy` for type
 Punning, which is well-defined by the standard.
-</aside>
+:::
 ### Type Punning with `std::memcpy`
 
 ```cpp
@@ -596,10 +596,10 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 <strong>Research Connections</strong>
 Memory layout directly impacts modern systems performance. Cache-line alignment is critical for lock-free concurrent data structures (used in high-frequency trading, databases, and OS kernels). The "false sharing" problem — where independent data structures share a cache line — is a major source of performance degradation in multi-threaded programs. Current research includes: cache-oblivious algorithms (van Emde Boas layout), NVM-aware data structures (Intel Optane), and hardware-software co-design for emerging memory technologies. GPU programming (CUDA, OpenCL) adds another layer of alignment complexity where memory coalescing depends on warp-level access patterns.
-</aside>
+:::
 
 ## See Also
 

@@ -54,11 +54,11 @@ Of evolution is the population; the unit of selection is the individual (or, the
 | Evidence                        | Discredited; no mechanism for inheritance of acquired traits            | Strongly supported by genetics, fossil record, molecular biology    |
 | Example                         | Giraffes stretch necks to reach leaves, longer necks inherited          | Giraffes with longer necks survive and reproduce more               |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 That environmental factors can influence gene expression across generations without changing the DNA
 Sequence itself. This is sometimes mistakenly conflated with Lamarckism, but epigenetic changes are
 Reversible and do not create new alleles.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -132,10 +132,10 @@ Endemic, the heterozygote has a selective advantage -- this is **heterozygote ad
 Polymorphism). The allele is maintained in the population at higher frequency than would be expected
 If it were purely deleterious.
 
-<aside aria-label="A common misconception is that antibiotic resistance develops because bacteria "need" to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common misconception is that antibiotic resistance develops because bacteria "need" to</p>
+:::caution
 Survive. Resistance arises from random pre-existing mutations; the antibiotic selects for Resistant
 individuals. The mutation occurs regardless of the antibiotic's presence.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -211,10 +211,10 @@ $$p = \frac{600}{1000} = 0.6$$
 
 $$q = \frac{400}{1000} = 0.4$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $q$ from $q^2$ (the homozygous recessive frequency), and then $p$ from $p = 1 - q$. The heterozygote
 Frequency $2pq$ is the one most students miscalculate -- do not assume it equals $p + q$.
-</aside>
+:::
 ### Genetic Drift
 
 **Definition.** Genetic drift is the random fluctuation of allele frequencies in a population due to
@@ -273,11 +273,11 @@ New species arise without geographic separation. Common mechanisms include:
   same area (e.g., different host plants for insects).
 - **Sexual selection:** Different mating preferences or displays lead to reproductive isolation.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Approximately 30-70% of flowering plant species are polyploid. In the DSE, questions about
 Speciation focus on allopatric speciation, but you should be able to explain polyploidy as A
 mechanism of sympatric speciation in plants.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -435,11 +435,11 @@ Common maternal ancestor of all living humans lived approximately 150,000-200,00
 Africa. This individual is called "Mitochondrial Eve" -- not the only woman alive at the time, but
 The only one whose matrilineal line has survived unbroken to the present day.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Female alive. Many other women lived at the same time, but their matrilineal lines happened to die
 Out at some point. The Y-chromosomal Adam (the most recent common paternal ancestor) lived
 Approximately 200,000-300,000 years ago, and the two individuals were not contemporaries.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -585,10 +585,10 @@ Three idealised types:
   good chance of long life (e.g., many fish, marine invertebrates, annual plants, most insects).
   associated with r-selection.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Intermediate patterns. When interpreting DSE exam questions, look for the general shape rather than
 Trying to force a perfect classification.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -743,10 +743,10 @@ to sustain higher levels.
 
 $$\mathrm{Energy available at level } n = 0.1^n \times \mathrm{Energy at producer level}$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Energy-efficient than warm-blooded ones. In DSE calculations, use 10% unless the question specifies
 Otherwise.
-</aside>
+:::
 ### Nutrient Cycles
 
 Nutrients cycle between biotic and abiotic components of ecosystems. Unlike energy, nutrients are
@@ -860,9 +860,9 @@ $$\mathrm{NPP} = \mathrm{energy stored in plant biomass}$$
 - **Wetlands:** Land saturated with water (marshes, swamps, bogs); high productivity; important for
   water filtration and flood control
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 wet and dry Seasons, total precipitation. Match these to the biome descriptions above.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -977,9 +977,9 @@ Major causes (often remembered by the acronym HIPPO):
   sustainable use, fair sharing of benefits from genetic resources
 - **Ramsar Convention:** Protection of wetlands of international importance
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 levels. Both terms can Appear in the same question.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1063,7 +1063,7 @@ Key elements the DSE expects in ecology and evolution experimental design questi
    comparing means)
 8. **Evaluation:** Limitations, sources of error, improvements
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Frequencies differ significantly from Hardy-Weinberg expected frequencies:
 
 $$\chi^2 = \sum \frac{(O - E)^2}{E}$$
@@ -1071,7 +1071,7 @@ $$\chi^2 = \sum \frac{(O - E)^2}{E}$$
 Where $O$ = observed frequency and $E$ = expected frequency. Compare the calculated value to the
 Critical value at the appropriate degrees of freedom ($df = \mathrm{number of categories} - 1$) and
 Significance level ( $p = 0.05$).
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1598,7 +1598,7 @@ species, or that Pond B has low diversity due to its size or location.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Evolution
@@ -2060,8 +2060,7 @@ phosphates), leading to excessive algal growth.
 | [Ecology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/ecology) |
 | [Ecology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/4-ecology/1_ecology)      |
 | [Ecology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/2-ecology/1_ecology)    |
-
-</aside>
+:::
 
 ## See Also
 

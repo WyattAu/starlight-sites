@@ -238,10 +238,10 @@ All deadlines satisfied.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 task set with $U > n(2^{1/n} - 1)$ may still be schedulable under RMS. The response time analysis
 (RTA) provides a necessary and sufficient test but is more complex to compute.
-</aside>
+:::
 ## 2. Advanced Memory Management
 
 ### 2.1 Multi-Level Page Tables
@@ -416,11 +416,11 @@ to enforce ordering when necessary.
 | Acquire       | `lock` prefix     | `ldar`      | Subsequent loads/stores cannot move before this            |
 | Release       | (varies)          | `stlr`      | Preceding loads/stores cannot move after this              |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 and RISC-V. Code that works correctly on x86-64 may fail on ARM due to reordering. Always use proper
 synchronisation primitives (mutexes, atomic operations with explicit ordering) rather than relying
 on the hardware memory model.
-</aside>
+:::
 <details>
 <summary>Worked Example: Double-Checked Locking with Memory Ordering</summary>
 
@@ -1201,7 +1201,7 @@ Safe sequence: P1, P3, P4, P0, P2. Request granted.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 process in advance. In practice, processes often do not know (or cannot express) their maximum
 needs. This limits the practical applicability of the Banker's algorithm. Additionally, the
 algorithm has $O(m \times n^2)$ time complexity per resource request (where $m$ is the number of
@@ -1381,8 +1381,7 @@ $\blacksquare$
 - Memory management: paging, segmentation, virtual memory, page replacement (LRU, FIFO, optimal).
 - File systems: directory structure, allocation methods (contiguous, linked, indexed).
 - Synchronisation: semaphores, monitors, critical sections; Peterson's algorithm for two processes.
-
-</aside>
+:::
 ## Cross-References
 
 - [Process Management](./2_process_management) -- Advanced scheduling and concurrency control extend the basic process management concepts.

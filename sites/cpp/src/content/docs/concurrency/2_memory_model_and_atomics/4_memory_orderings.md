@@ -88,9 +88,9 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 and stores Use `stlr` (or `ldr`/`str` with `relaxed` semantics depending on the ARM version).
-</aside>
+:::
 ### When Relaxed Is Insufficient: The Message Passing Idiom
 
 Relaxed atomics are insufficient when one thread writes data and another thread reads it based on a
@@ -203,9 +203,9 @@ $$\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
 On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Performance-critical code, consider using weaker orderings where appropriate.
-</aside>
+:::
 ### The Store Buffering Problem (Why seq_cst Is Needed)
 
 Even with acquire/release, the following scenario can produce unexpected results:
@@ -348,11 +348,11 @@ Multi-core systems.
 | `seq_cst` store | `MFENCE` (or `XCHG`) | `stlr + dmb ish` | `lwsync + st + sync`      | No                    |
 | `acq_rel` RMW   | `LOCK XADD`          | `ldaxr+stlxr`    | `sync + ldar + st + sync` | No                    |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 require `MFENCE`). On ARM and POWER, acquire and release require explicit barrier instructions, so
 the Performance difference between relaxed and acquire/release is significant on those
 architectures.
-</aside>
+:::
 ### Hardware Memory Models
 
 Understanding why the ordering costs differ requires understanding the underlying hardware memory
@@ -431,10 +431,10 @@ A release fence `F` synchronizes-with an acquire fence `G` if:
 This is more complex than direct acquire/release on atomic operations and is why fences are
 Discouraged in favor of direct memory ordering on atomic loads and stores.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 useful when Interfacing with hardware or when the atomic operation itself is performed by
 non-standard means.
-</aside>
+:::
 ## `memory_order_consume`: The Problematic Ordering
 
 `memory_order_consume` was intended to optimize cases where data dependency ordering is sufficient

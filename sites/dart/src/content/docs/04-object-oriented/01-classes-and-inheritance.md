@@ -140,7 +140,7 @@ class Rectangle {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 More efficient — they initialize fields directly, while the constructor body runs after all fields
 Have been initialized (to their default values first).
 
@@ -301,9 +301,8 @@ mixin Persistable on Serializable {
 | Multiple                | No (single)       | Yes                     | Yes                       |
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
 
@@ -335,9 +334,8 @@ print(a * 2.0);    // Vector2(2.0, 4.0)
 print(a == b);     // false
 print(a.dot(b));   // 11.0
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
 
 ## Extension Methods
@@ -368,42 +366,4 @@ extension ListX<T> on List<T> {
   }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
-Syntactic sugar for static function calls. This means they cannot be used polymorphically (a
-`dynamic` variable won't have access to extension methods).
-
-## Common Pitfalls
-
-1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
-   sorted input.
-
-2. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
-
-3. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
-   applications.
-
-4. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted
-   data).
-
-## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-## Intuition
-
-Dart classes are blueprints for objects, with single inheritance and implicit interfaces -- every class defines both an implementation and a contract that other classes can implement. Mixins provide code reuse across unrelated classes without the diamond problem of multiple inheritance. Data classes are auto-generators that produce equals, hashCode, toString, and copy from the property list. Extension methods add behavior to existing types without modifying their source, compiling to static methods with the receiver as the first parameter. Operator overloading lets you define custom behavior for symbols like +, -, [], and () by implementing specific method names.
-
-## Cross-References
-
-- [Variables](../03-basics/02-variables) -- final fields and type system
-- [Async and Futures](../05-async/01-async-and-futures) -- async factory constructors
-- [Pattern Matching](../07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive matching
+:::

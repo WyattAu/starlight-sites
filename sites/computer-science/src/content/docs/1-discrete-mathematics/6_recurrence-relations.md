@@ -119,7 +119,7 @@ $G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 any $x \neq 0$. Convergence Is irrelevant for combinatorial applications -- the series is
 manipulated algebraically.
 
@@ -201,8 +201,7 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
   $T(n) = T(n-1) + n$ (not of the form $a\,T(n/b) + f(n)$). Also, if $f(n)$ falls between cases
   (e.g., $f(n) = n \log n$ with $c_{\mathrm{crit{}} = 1$), the Master Theorem does not apply and the
   Akra--Bazzi method should be used Instead.
-
-</aside>
+:::
 ## Intuition
 
 Recurrence relations define sequences where each term depends on previous terms. They logically arise in divide-and-conquer algorithms (binary search: T(n) = T(n/2) + O(1)). Solving recurrences via substitution, recursion trees, or the Master theorem determines algorithm time complexity. Linear recurrences with constant coefficients have closed-form solutions using characteristic equations, connecting discrete math to continuous analysis.

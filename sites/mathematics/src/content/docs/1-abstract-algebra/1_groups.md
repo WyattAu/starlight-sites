@@ -231,12 +231,11 @@ $1$ generates the entire group: $\langle 1 \rangle = \{0, 1, 2, 3\} = \mathbb{Z}
   under the operation, and contain inverses. For example, $\{1, 2\} \subset \mathbb{Z}/4\mathbb{Z}$
   is not a subgroup because $1 + 1 = 2 \notin \{1, 2\}$ is fine, but $2 + 2 = 0 \notin \{1, 2\}$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $d$ of $n$. The converse of Lagrange's theorem is false. For example, $A_4$ has order $12$ but no
 subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ has order dividing
 $n$And for each divisor There is exactly one such subgroup.
-
-</aside>
+:::
 
 ## Cross-References
 

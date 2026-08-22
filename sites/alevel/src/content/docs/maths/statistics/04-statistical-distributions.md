@@ -29,10 +29,10 @@ categories:
 | OCR (A)    | Paper 1, 2 | Binomial in P1; normal and Poisson in P2 |
 | CIE (9709) | P1, P6     | Binomial in P1; normal and Poisson in P6 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Distributions, and the normal distribution function. You must know when to use each distribution and
 How to find probabilities.
-</aside>
+:::
 <hr />
 
 ## 1. Discrete Random Variables
@@ -183,9 +183,9 @@ $$B(n, p) \approx N(np, np(1-p))$$
 With **continuity correction**:
 $P(X \leq k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 inequality Direction.
-</aside>
+:::
 <hr />
 
 ## 4. The Poisson Distribution
@@ -269,9 +269,9 @@ In any interval of length $t$ follows $\mathrm{Po}(\lambda t)$.
 Typical applications include: calls arriving at a call centre per hour, typing errors per page,
 Radioactive decays per second, and cars passing a checkpoint per minute.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 bursts, the Poisson model is not appropriate.
-</aside>
+:::
 ### 4.7 Poisson approximation to the Binomial
 
 **Practical rule.** When $n \gt 50$ and $p \lt 0.1$We may approximate $B(n, p)$ by
@@ -288,10 +288,10 @@ Conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
 
 The approximation improves as $n$ increases and $p$ decreases while $\lambda = np$ remains fixed.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 approximations are Complementary: Poisson handles the case of many trials with rare success, while
 normal handles the Case of many trials with moderate success probability.
-</aside>
+:::
 <hr />
 
 ## 5. Choosing the Right Distribution
@@ -343,10 +343,10 @@ $$
 
 Note how the terms $2abE(X)$ and $b^2$ cancel between $E(Y^2)$ and $[E(Y)]^2$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $a$ (a scale change) affects variance, and it does so by a factor of $a^2$. This is why variance is
 Measured in **squared units** of the original variable.
-</aside>
+:::
 ### 6.4 Effect on standard deviation
 
 Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$Taking square roots gives:
@@ -686,7 +686,7 @@ Section 6.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Statistical
@@ -694,7 +694,7 @@ Distributions with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

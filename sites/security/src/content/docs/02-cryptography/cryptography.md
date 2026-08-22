@@ -149,7 +149,7 @@ GCM properties:
 - **Performance**: Hardware-accelerated AES-GCM is extremely fast (AES-NI instruction set).
 - **Tag length**: 128 bits (16 bytes). Shorter tags (96, 64 bits) reduce security margin.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Authentication tag can be forged and confidentiality of both messages is compromised. Use a 96-bit
 Random nonce (the probability of collision with $2^{32}$ messages is approximately $2^{-32}$Which Is
 acceptable) or a deterministic nonce construction (NIST SP 800-38D).
@@ -246,9 +246,8 @@ The most commonly used curves:
 | X25519            | 256 bits | Key exchange (Diffie-Hellman)     | RFC 7748            |
 | Ed25519           | 256 bits | Digital signatures                | RFC 8032            |
 | Curve25519        | 256 bits | Modern alternative to NIST curves | Daniel J. Bernstein |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Generation that was not fully transparent (though no backdoor has been found), and
 Curve25519/Ed25519 have simpler, faster implementations with fewer side-channel risks.
 
@@ -437,9 +436,8 @@ message = b"important message"
 mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 # Verify: hmac.compare_digest(mac, received_mac)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Vulnerable to timing attacks — it returns as soon as it finds a mismatch, leaking information about
 How many bytes of the MAC are correct.
 
@@ -552,9 +550,8 @@ key = hashlib.pbkdf2_hmac(
     dklen=32
 )
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Argon2id or scrypt. Use PBKDF2 only for compatibility with existing systems. For new systems, use
 Argon2id.
 
@@ -700,9 +697,8 @@ Nonces, IVs, and salts.
 | `getrandom()` syscall | High            | Linux 3.17+  |
 | RDRAND/RDSEED         | Moderate        | Intel/AMD    |
 | Hardware TRNG         | High            | HSMs, TPMs   |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Predictable values (often timestamps). Use platform CSPRNGs: `/dev/urandom` on Unix,
 `CryptGenRandom` on Windows, or language-specific secure random APIs (`secrets` in Python,
 `crypto.randomBytes` in Node.js, `java.security.SecureRandom` in Java).
@@ -736,9 +732,8 @@ NIST has standardized the following post-quantum algorithms:
 2. **Hybrid mode**: Use classical + post-quantum algorithms simultaneously during transition
 3. **Crypto agility**: Design systems so algorithms can be swapped without protocol changes
 4. **Key sizes**: AES-256 and SHA-384 provide sufficient security against Grover's algorithm
-
-</aside>
-<aside aria-label="The "harvest now, decrypt later" threat is real. Attackers may be recording encrypted traffic today" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The "harvest now, decrypt later" threat is real. Attackers may be recording encrypted traffic today</p>
+:::
+:::note
 To decrypt it when quantum computers become available. Organizations with long-term confidentiality
 Requirements (government, healthcare, financial) should begin PQC migration planning now.
 
@@ -782,9 +777,8 @@ AES-256-GCM, ChaCha20-Poly1305, SHA-256/384, RSA-PSS, or Ed25519.
 Without forward secrecy (ephemeral Diffie-Hellman), compromise of the server's private key
 Compromises all past sessions. TLS 1.3 mandates forward secrecy, but TLS 1.2 with RSA key exchange
 Does not provide it. Ensure your cipher suites use ECDHE or DHE.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 SP 800-38D (GCM), NIST SP 800-132 (PBKDF2), NIST FIPS 203/204/205 (Post-Quantum), RFC 8446 (TLS
 1.3), RFC 8017 (RSA), RFC 8032 (EdDSA), RFC 7748 (Curve25519), RFC 5869 (HKDF).
 
@@ -812,8 +806,7 @@ Cryptography is the science of securing information through mathematical transfo
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

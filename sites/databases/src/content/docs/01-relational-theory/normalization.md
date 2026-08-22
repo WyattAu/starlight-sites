@@ -68,7 +68,7 @@ Denormalized schema:
   - Higher storage cost
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Performance bottleneck and understanding the consistency cost. Premature denormalization creates
 Maintenance debt that compounds over time.
 
@@ -338,9 +338,8 @@ Step 3: Remove redundant attributes:
 
   Final minimal cover: {A -> C, C -> B}
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 This is expected. Different minimal covers may lead to different decompositions, but all are
 Correct.
 
@@ -380,9 +379,8 @@ Satisfies 1NF:
 | 2          | Bob   | Biology  |
 | 2          | Bob   | Chemistry|
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 1NF. This is a pragmatic extension. Use these types when the array is opaque data that you never
 Need to query or join on individually. If you need to query individual elements or enforce
 Referential integrity, model them as separate rows.
@@ -397,9 +395,8 @@ Referential integrity, model them as separate rows.
 A **non-prime attribute** is an attribute that does not belong to any candidate key. A **partial
 Dependency** exists when a non-prime attribute depends on only a proper subset of a candidate key
 (rather than the entire key).
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
 Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
 
@@ -537,9 +534,8 @@ BCNF decomposition:
     Lossless. But we lose the dependency {student, course} -> instructor.
     This dependency cannot be checked on R1 or R2 alone without joining them.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Decomposition is lossless (you can reconstruct the original data) but not dependency-preserving (the
 Constraint that a student has one instructor per course cannot be enforced on either decomposed
 Table alone). In practice, you either stay in 3NF or enforce the lost dependency via application
@@ -586,9 +582,8 @@ Decomposition:
   EmployeeSkill(emp_id, skill)       -- key: {emp_id, skill}
   EmployeeLanguage(emp_id, language)  -- key: {emp_id, language}
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 when a single entity has multiple independent multi-valued attributes. If you see a Table where
 adding a row requires adding $m \times n$ rows (for $m$ values of one attribute and $n$ Values of
 another), you likely have a 4NF violation.
@@ -968,9 +963,8 @@ BCNF decomposition:
   both CS101 and CS201, this information is duplicated across rows.
   But the duplication involves only prime attributes, so it is bounded.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Decomposition loses dependency preservation. If it does, and the lost dependency is important for
 Data integrity, stay in 3NF. If the lost dependency is trivial or can be enforced through
 Application logic, proceed with BCNF.
@@ -1025,9 +1019,8 @@ With surrogate key:
   2NF violations are impossible.
   But you still need UNIQUE(order_id, product_id) to prevent duplicates.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
 And model functional dependencies correctly.
 
@@ -1153,9 +1146,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Storage cost         | Duplicated data consumes more disk space ( negligible with modern storage)        |
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
-
-</aside>
-<aside aria-label="The most dangerous denormalization pattern is "silent duplication" -- copying data without any" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The most dangerous denormalization pattern is "silent duplication" -- copying data without any</p>
+:::
+:::caution
 Mechanism to keep it consistent. If you denormalize, you must have a concrete strategy for
 Consistency: database triggers, application-level event handlers, or periodic reconciliation jobs.
 Unmaintained denormalized data silently rots and becomes a source of bugs.
@@ -1689,5 +1681,4 @@ linked above.
 - [Database Design](../06-database-design/database-design) - How normalized schemas translate into practical database designs
 - [SQL](../02-sql-fundamentals/sql) - How SQL implements the relational operations that normalization assumes
 - [Migrations](../06-database-design/migrations) - Strategies for applying normalization changes to existing databases
-
-</aside>
+:::

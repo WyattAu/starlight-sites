@@ -79,10 +79,10 @@ String s2 = "hello";
 System.out.println(s1 == s2); // true
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Billions of unique strings (e.g., every URL your crawler visits) will cause `OutOfMemoryError`.
 Intern only strings that appear frequently and have bounded cardinality.
-</aside>
+:::
 ### Compact Strings (JDK 9+)
 
 Before JDK 9, every `String` stored its characters in a `char[]` — 2 bytes per character. JDK 9
@@ -226,10 +226,10 @@ String s = "Hello, World!";
 String sub = s.substring(7, 12); // "World"
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Could cause memory leaks (the original large string could not be GC'd if a small substring was
 Retained). Since JDK 7u6, `substring` copies the relevant portion into a new `char[]`.
-</aside>
+:::
 ### Split and Join
 
 ```java
@@ -326,9 +326,9 @@ emoji.codePoints().forEach(cp -> {
 // U+0048 U+0065 U+006C U+006C U+006F U+0020 U+1F30D
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Pairs. Use `codePoints()``codePointAt()`Or iterate with `Character.isHighSurrogate` checks.
-</aside>
+:::
 ## Regular Expressions
 
 Java's regex engine is in `java.util.regex`. The two primary classes are `Pattern` (compiled
@@ -470,11 +470,11 @@ CharsetEncoder strict = StandardCharsets.UTF_8.newEncoder()
     .onUnmappableCharacter(CodingErrorAction.REPORT);
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Setting. A program that works on Linux (UTF-8 default) will mangle data on Windows (Windows-1252
 Default) if you use `getBytes()` or `new String(byte[])` without an explicit charset. Always use
 `StandardCharsets.UTF_8` or a specific `Charset` constant.
-</aside>
+:::
 ## String Formatting
 
 ### `String.format`
@@ -538,7 +538,7 @@ while (st.hasMoreTokens()) {
 String[] parts = "one,two,three".split(",");
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `StringTokenizer` is that it does not compile a regex, but `Pattern.compile(",")` is negligible.
 
 ## Common String Algorithms
@@ -971,8 +971,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

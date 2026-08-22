@@ -121,7 +121,7 @@ For stability, the coefficient must be negative. This requires $(I_1 - I_3)(I_1 
 $I_1$ is either the largest or smallest. If $I_1$ is intermediate, the perturbation grows
 exponentially. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 is counterintuitive: a Rigid body spinning about its intermediate axis is unstable. This is not a
 violation of angular Momentum conservation --- the angular momentum vector remains fixed in space,
 but the body Tumbles relative to it.
@@ -238,8 +238,7 @@ the centre of mass they would be $0$, $ML^2/12$, $ML^2/12$.
 $\blacksquare$
 
 </details>
-
-</aside>
+:::
 
 ## Common Mistakes
 

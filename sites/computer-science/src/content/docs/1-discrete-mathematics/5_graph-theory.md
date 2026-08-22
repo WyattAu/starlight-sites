@@ -260,7 +260,7 @@ One Euler path: $1 \to 2 \to 3 \to 4 \to 5 \to 3 \to 1 \to 5$. All 7 edges are u
 Until returning to the start. If unused edges remain, find a vertex on the current circuit with
 Unused edges, find a subtour, and splice it in. Repeat until all edges are used.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 whereas Euler Paths/circuits can be determined in polynomial time using the degree condition. Do not
 confuse the two.
 
@@ -357,8 +357,7 @@ Where every $f(e)$ is an integer.
 The **Ford--Fulkerson method** repeatedly finds augmenting paths in the residual graph and pushes
 Flow along them. When capacities are integers, each augmentation increases the flow by at least 1,
 Guaranteeing termination.
-
-</aside>
+:::
 ## Intuition
 
 Graph theory studies networks of vertices connected by edges. Paths, cycles, and connectivity describe graph structure. Trees are connected acyclic graphs, fundamental for hierarchies and search. Planar graphs can be drawn without edge crossings. Graph coloring assigns labels satisfying constraints, modeling scheduling and resource allocation. Euler and Hamiltonian paths visit edges or vertices exactly once, connecting to classic optimization problems.

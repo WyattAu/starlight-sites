@@ -161,10 +161,10 @@ The cell membrane (plasma membrane) is a phospholipid bilayer with embedded prot
 - Cholesterol: regulates membrane fluidity
 - Glycolipids and glycoproteins: involved in cell recognition
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 But restricts others. Small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$) diffuse
 Through , while large or charged molecules require transport proteins.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -428,10 +428,10 @@ Fit. This lowers the activation energy of the reaction.
 
 - Increasing enzyme concentration increases the rate (provided substrate is not limiting)
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Cannot regain its function. This is different from a temporary decrease in activity at sub-optimal
 Conditions.
-</aside>
+:::
 ### Worked Example 1
 
 An enzyme has an optimum temperature of $40^\circ\mathrm{C}$. At $20^\circ\mathrm{C}$The reaction
@@ -518,9 +518,9 @@ For each glucose molecule (two turns of the cycle):
 | Oxidative phosphorylation (from FADH$_2$) | 4                       |
 | **Total**                                 | **approximately 36-38** |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Glycolysis into the mitochondria. Many textbooks now quote approximately 30-32 ATP per glucose.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1017,10 +1017,10 @@ When a ligand binds to a cell-surface receptor, it triggers a cascade of intrace
 1. **Cellular response:** The cell changes its activity (e.g., gene expression, metabolism,
    secretion)
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Second messenger molecules, each of which can activate many enzyme molecules, creating a large
 Response from a small stimulus.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1478,7 +1478,7 @@ $$\text{Glucose (6C)} + 2\mathrm{NAD}^+ + 2\mathrm{ADP} + 2\mathrm{P}_i \to 2\te
 | Oxidative phosphorylation | Each NADH produces approximately 2.5 ATP; each FADH$_2$ produces approximately 1.5 ATP |
 | **Total (approximate)**   | **30-32 ATP**                                                                          |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 cytoplasmic NADH into the mitochondria can cost 1 ATP per NADH. The theoretical maximum is 38 ATP,
 but in practice, the yield is closer to 30-32 ATP due to proton leakage across the inner
 mitochondrial membrane and the cost of transporting molecules.
@@ -1844,9 +1844,8 @@ Translation is the process of synthesising a polypeptide chain from the mRNA cod
 
 **One gene, one polypeptide (generally):** Each gene codes for a specific polypeptide chain. The
 sequence of codons on the mRNA determines the sequence of amino acids in the polypeptide.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Cell
@@ -2204,8 +2203,7 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Biology/cell-biology-and-biochemistry.md
-
-</aside>
+:::
 
 ## See Also
 

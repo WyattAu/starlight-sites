@@ -252,9 +252,9 @@ $y = f(ax)$The same $y$-value occurs when $ax = x_0$I.e., $x = \frac{x_0}{a}$. S
 $(\frac{x_0}{a}, y_0)$ is on the new graph — a horizontal stretch by factor $\frac{1}{a}$.
 $\blacksquare$
 
-<aside aria-label="Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and</p>
+:::caution
 $f(ax)$ stretches by $\frac{1}{a}$ (not $a$). This is the single most common error in this topic.
-</aside>
+:::
 ### 5.4 Combined Transformations
 
 When multiple transformations are applied, the order matters. The convention is:
@@ -427,9 +427,9 @@ Vertical transformations interact differently.
 2. Apply vertical transformations **second**: vertical stretch by $|a|$Reflection if $a < 0$Then
    vertical shift $d$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 "absorbs" part of the shift. This is the single most common error in transformation problems.
-</aside>
+:::
 <details>
 <summary>Example</summary>
 Describe the transformations mapping $y = x^2$ to $y = 3(2x - 4)^2 + 5$.
@@ -757,7 +757,7 @@ $\left(\frac{-2+1}{3}, 2 \times 5 + 4\right) = \left(-\frac{1}{3}, 14\right)$.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Functions
@@ -765,7 +765,7 @@ with other pure mathematics topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 
 ## Cross-References
 

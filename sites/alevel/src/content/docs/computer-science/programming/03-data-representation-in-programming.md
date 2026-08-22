@@ -52,15 +52,14 @@ False
 **Why:** $0.1$ cannot be represented exactly in binary floating point (like $1/3$ cannot be
 Represented exactly in decimal).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 A small tolerance (e.g., `1e-9`).
 
 ```python
 def approx_equal(a, b, epsilon=1e-9):
     return abs(a - b) < epsilon
 ```
-
-</aside>
+:::
 <hr />
 
 ## 2. Pointers and References
@@ -132,9 +131,9 @@ Codes (e.g., UTF-8 or UTF-16).
 | Split            | `s.split(sep)` | $O(n)$                            |
 | Slice            | `s[a:b]`       | $O(b-a)$                          |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `s[0] = 'x'` raises a `TypeError`. Use `s = 'x' + s[1:]` to create a new string.
-</aside>
+:::
 ### String Immutability
 
 Strings are immutable for several reasons:
@@ -144,13 +143,13 @@ Strings are immutable for several reasons:
 3. **Hashing:** Immutable strings can be used as dictionary keys (hash is stable)
 4. **Interning:** Python can reuse identical string objects, saving memory
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (pixels, colour depth, resolution), sound sampling (sample rate, bit depth). **CIE (9618)** covers
 Similar topics but may emphasise different aspects; requires understanding of file sizes and
 Capacity calculations. **OCR (A)** requires character encoding, image representation, and sound
 Representation with specific detail on compression (lossy vs lossless). **Edexcel** covers data
 Representation fundamentals including number systems and character encoding.
-</aside>
+:::
 <hr />
 
 ## 4. File Handling

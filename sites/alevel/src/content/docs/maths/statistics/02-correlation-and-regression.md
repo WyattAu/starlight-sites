@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Similar                             |
 | CIE (9709) | P1, P6  | Correlation and regression in P1/P6 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Must be able to interpret these and understand their limitations.
-</aside>
+:::
 <hr />
 
 ## 1. Pearson's Product Moment Correlation Coefficient (PMCC)
@@ -56,9 +56,9 @@ $$S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
 - $r = 0$: no linear correlation (but there may be non-linear relationship)
 - $r$ measures the strength of **linear** relationship only
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 They are both influenced by a third (confounding) variable, or by coincidence.
-</aside>
+:::
 ### 1.3 Real-World Applications
 
 **Economics:** GDP per capita and life expectancy across countries show $r \approx 0.7$ to $0.85$.
@@ -183,10 +183,10 @@ Properties:
 
 ### 5.2 Extrapolation
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Range of the data). **Extrapolation** (predicting outside the data range) is unreliable because the
 Linear relationship may not hold.
-</aside>
+:::
 ### 5.3 Regression of $y$ on $x$ vs. $x$ on $y$
 
 The regression line of $y$ on $x$ minimises vertical residuals ($y_i - \hat{y}_i$). The regression
@@ -602,7 +602,7 @@ A large amount.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Correlation
@@ -630,5 +630,4 @@ building a personal test matrix.
 - [Data Representation](../statistics/01-data-representation.md) — The mean, standard deviation, and quartiles used here are defined in the data representation topic.
 - [Probability](../statistics/03-probability.md) — Understanding probability distributions is essential for interpreting correlation in a statistical context.
 - [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Regression residuals and PMCC values are tested for significance using hypothesis testing methods.
-
-</aside>
+:::

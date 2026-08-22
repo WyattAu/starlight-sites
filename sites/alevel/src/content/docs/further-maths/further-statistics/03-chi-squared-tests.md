@@ -35,10 +35,10 @@ Deviates significantly from expected values. It has two main applications: testi
 | OCR (A)    | Paper 2 | Both applications covered                              |
 | CIE (9231) | S2      | Goodness of fit; independence with $2 \times 2$ tables |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 On percentages or proportions. Always check the conditions (expected frequency $\geq 5$) before
 Applying the test. The formula booklet provides the chi-squared distribution table.
-</aside>
+:::
 <hr />
 
 ## 1. The Chi-Squared Distribution
@@ -246,9 +246,9 @@ There is strong evidence that age group and preferred news source are not indepe
 6. Compare with the critical value at the given significance level
 7. Conclude in context
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Frequencies. The test relies on the multinomial distribution, which requires count data.
-</aside>
+:::
 <hr />
 
 ## Problems

@@ -167,10 +167,10 @@ Physical:     [Bits on wire]
 | Header      | 20+ bytes                 | 8 bytes                |
 | Use cases   | Web, email, file transfer | Streaming, gaming, DNS |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - TCP: HTTP, HTTPS, FTP, SMTP, SSH
 - UDP: DNS, DHCP, TFTP, online gaming, video streaming, VoIP
-</aside>
+:::
 ### TCP Three-Way Handshake
 
 1. **SYN:** Client → Server: "I want to connect"

@@ -608,10 +608,10 @@ cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input,))
 3. **ORM frameworks:** Use an ORM (e.g., SQLAlchemy, Django ORM) that generates parameterised
    queries by default.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 defence against SQL injection. Use parameterised queries instead. Escape-based defences are fragile
 and have been bypassed by Encoding tricks (e.g., multibyte character exploits).
-</aside>
+:::
 ### 3.10 Query Optimisation Basics
 
 The SQL query optimiser automatically selects an execution plan, but understanding the basics helps
@@ -881,11 +881,11 @@ Synthesis algorithm avoids this issue.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 dependency (3NF violation). A Partial dependency involves a **proper subset** of a candidate key
 determining a non-prime attribute. A transitive dependency involves a non-key attribute determining
 another non-prime attribute.
-</aside>
+:::
 ### 4.5 Multivalued Dependencies and 4NF
 
 A **multivalued dependency (MVD)** $X \twoheadrightarrow Y$ holds on relation $R$ if for any two
@@ -1590,7 +1590,7 @@ Since network partitions are inevitable in distributed systems, the real trade-o
 **PACELC.** Extension of CAP: in the absence of partitions, the trade-off is between **latency** And
 **consistency**.
 
-<aside aria-label="Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL</p>
+:::caution
 databases now support SQL-like Query languages (e.g., Cassandra CQL). The choice between relational
 and NoSQL depends on the Workload, not on a blanket preference. Relational databases remain the best
 choice for strongly Structured data with complex queries and transactional requirements.
@@ -1938,5 +1938,4 @@ Databases solve a deceptively simple problem: how do you store and retrieve stru
 Normalisation is the process of designing tables so that each fact is stored in exactly one place. Without normalisation, updating a student's name might require modifying rows in multiple tables — and if you miss one, the database becomes inconsistent. The normal forms (1NF through BCNF) are progressively stricter conditions that eliminate redundancy and update anomalies. BCNF requires that every non-trivial functional dependency has a superkey as its determinant. The trade-off is that highly normalised schemas may require expensive joins for common queries, so practical database design often denormalises strategically.
 
 Transactions are the mechanism that makes concurrent access safe. ACID properties guarantee that even with thousands of simultaneous users, the database always appears consistent. Isolation levels (Read Committed through Serializable) let you trade strictness for performance — lower isolation levels allow more concurrency but risk anomalies like dirty reads and phantom reads. Concurrency control (2PL, MVCC) ensures that concurrent transactions produce the same result as some serial execution. The beauty of this system is that application developers don't need to think about concurrency at all — they just write correct SQL, and the DBMS handles the rest.
-
-</aside>
+:::

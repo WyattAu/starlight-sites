@@ -386,12 +386,12 @@ void container_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Genuinely can throw (which is rare — moving should only perform pointer swaps and assignments). The
 `std::is_nothrow_move_constructible_v<T>` type trait is used by standard containers to select
 Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
 copied in containers, which can be a severe performance regression.
-</aside>
+:::
 ### How `std::vector` Uses `noexcept` Move
 
 The `std::vector` reallocation strategy is defined in [N4950 S16.4.5.2.6]. If the move constructor
@@ -797,10 +797,10 @@ Before swap: a.size=1000, b.size=2000
 After swap:  a.size=2000, b.size=1000
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Individual members. This ensures that if a member type has a custom `swap`It is found via ADL, While
 falling back to `std::swap` for types that do not.
-</aside>
+:::
 ## 7.3 Swap as a Building Block
 
 `swap` is used extensively as a building block for other operations:
@@ -881,7 +881,7 @@ The `this != &other` guard is essential. Without it, `a = std::move(a)` would:
 After self-move, the object holds a dangling pointer and a zero size. Any subsequent access or
 Destruction triggers use-after-free.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Case [N4950 S11.4.5.3], but the Standard requires the object to be in a "valid but unspecified
 State" afterward. For resource-owning types that do not guard against self-assignment, this means a
 use-after-free. Always include the self-assignment check in move assignment Operators, or
@@ -960,5 +960,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

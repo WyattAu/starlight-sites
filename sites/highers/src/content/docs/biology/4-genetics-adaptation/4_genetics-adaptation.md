@@ -22,7 +22,7 @@ categories:
 
 ## Genetics and Adaptation
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 ## Molecular Genetics
 
 ### DNA Structure
@@ -825,8 +825,7 @@ experimental evidence, and real-world applications.
 
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
-
-</aside>
+:::
 
 ## Intuition
 

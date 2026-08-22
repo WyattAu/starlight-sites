@@ -110,10 +110,10 @@ Write time and cannot be changed afterward.
 | Photo libraries (many small files)  | 128K           | Large enough for most image files                    |
 | Source code repositories            | 128K           | Many small reads, metadata caching is more important |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Their original block size. To benefit from a recordsize change, rewrite the data by copying files to
 A new dataset.
-</aside>
+:::
 ### Impact of recordsize on Performance
 
 Incorrect recordsize causes read amplification:
@@ -213,10 +213,10 @@ $$
 | Backup storage                     | No         | Most data is unique                   |
 | Database storage                   | No         | Low dedup ratio, performance impact   |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead — it provides
 Meaningful space savings with no memory cost.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -347,10 +347,10 @@ ifconfig igb0 mtu 9000
 ifconfig igb0 | grep mtu
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Clients. A single device with MTU 1500 in the path will cause fragmentation, which is worse than
 Standard frames. Only enable jumbo frames if you control the entire network path.
-</aside>
+:::
 ### Link Aggregation (LACP)
 
 Link aggregation (LACP, IEEE 802.3ad) bonds multiple network interfaces into a single logical
@@ -439,10 +439,10 @@ L2ARC extends the ARC to SSD storage:
 | Cost                | Low                       | High                         |
 | Boot support        | Sometimes                 |                              |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Identity and prevent ZFS from performing its error detection, self-healing, and direct disk
 Management. Flash RAID controllers to IT mode (LSI 9211-8i, LSI 9300-8i) or buy pre-flashed HBAs.
-</aside>
+:::
 ### Pool Layout Optimization
 
 **Optimal pool layout for general use:**
@@ -908,11 +908,11 @@ zpool list -v tank
 zdb -bb tank 2>/dev/null | head -30
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Is at risk. Always mirror special vdevs and use high-endurance NVMe drives rated for sustained write
 Workloads. Check the DWPD (Drive Writes Per Day) rating and ensure it meets your projected metadata
 Write volume.
-</aside>
+:::
 ### Optimizing Recordsize Per Dataset
 
 The `recordsize` property controls the maximum block size ZFS uses for files. Matching recordsize to
@@ -938,10 +938,10 @@ zfs create -o recordsize=1M -o compression=zstd tank/media/videos
 zfs get all tank/postgres/data | grep -E "recordsize|primarycache|logbias|compression"
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Until they are rewritten. To reblock existing data, copy files to a new dataset with the desired
 Recordsize.
-</aside>
+:::
 ## Monitoring ARC Statistics
 
 The Adaptive Replacement Cache (ARC) is ZFS's primary caching mechanism. Monitoring ARC hit rates
@@ -996,10 +996,10 @@ echo $(echo '128 * 1024 * 1024 * 1024 * 90 / 100' | bc) > /sys/module/zfs/parame
 echo "options zfs zfs_arc_max=123480309760" > /etc/modprobe.d/zfs.conf
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 And the ZFS prefetch cache. Never set it above 90% of physical RAM, and monitor swap usage after
 Changes. If the system begins swapping, reduce `zfs_arc_max` immediately.
-</aside>
+:::
 ### L2ARC Configuration
 
 L2ARC (Level 2 ARC) uses a dedicated SSD as a second-tier cache. It stores ARC evictions and can

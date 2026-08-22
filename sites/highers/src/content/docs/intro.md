@@ -88,7 +88,7 @@ Advanced Higher subjects generally have:
 - Worked examples are provided throughout
 - Practice questions are included at the end of each section
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Refer to the most recent SQA documentation for the definitive syllabus and assessment requirements.
 
 ## Summary
@@ -152,7 +152,7 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-</aside>
+:::
 
 ## See Also
 

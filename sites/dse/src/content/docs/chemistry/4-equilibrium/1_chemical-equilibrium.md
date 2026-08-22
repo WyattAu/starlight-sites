@@ -109,10 +109,10 @@ Pressure.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 unchanged. Adding An inert gas at constant total pressure does shift equilibrium towards the side
 with more moles of Gas, because the partial pressures of the reacting gases decrease.
-</aside>
+:::
 #### Change in Temperature
 
 | Change               | System Response | Position of Equilibrium                  |
@@ -419,10 +419,10 @@ $$\mathrm{SO}_{3(g)} + \mathrm{H}_2\mathrm{SO}_{4(l)} \to \mathrm{H}_2\mathrm{S}
 
 $$\mathrm{H}_2\mathrm{S}_2\mathrm{O}_{7(l)} + \mathrm{H}_2\mathrm{O}_{(l)} \to 2\mathrm{H}_2\mathrm{SO}_{4(l)}$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 And would produce a corrosive mist of $\mathrm{H}_2\mathrm{SO}_4$ droplets that is difficult to
 Condense.
-</aside>
+:::
 ### Le Chatelier's Principle in the Contact Process
 
 - Higher pressure would favour $\mathrm{SO}_3$ (3 mol gas to 2 mol gas), but the improvement is

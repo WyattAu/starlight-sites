@@ -38,7 +38,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ### Functions and Scope
 
-<PracticeProblem client:only="solid-js" question={"What is printed by `print([x for x in range(10) if x % 3 == 0])`?&quot; options={['[0, 3, 6, 9]', '[3, 6, 9]', '[1, 2, 3, 4, 5, 6]', '[0, 1, 2, 3]']} correctAnswer={0} explanation=&quot;The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is printed by `print([x for x in range(10) if x % 3 == 0])`?&quot; options={['[3, 6, 9]','[1, 2, 3, 4, 5, 6]','[0, 3, 6, 9]','[0, 1, 2, 3]']} correctAnswer={2} explanation=&quot;The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?&quot; options={['[1], [2]', '[1, 2]', '[1, 2], [1, 2]', 'TypeError']} correctAnswer={1} explanation=&quot;Mutable default arguments are shared across calls. After f(1), b = [1]. After f(2), b = [1, 2]. This is a common Python gotcha."} difficulty="hard"  />
 
@@ -50,45 +50,45 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"What is the result of `type((1, 2, 3))`?&quot; options={'<class 'list'>&quot;, &quot;<class 'set'>&quot;, &quot;<class 'tuple'>&quot;, &quot;<class 'dict'>&quot;]} correctAnswer={2} explanation=&quot;(1, 2, 3) with parentheses and commas is a tuple, not a list or set."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?&quot; options={['Returns a generator that yields 0, 1, 2', 'Returns [0, 1, 2]', 'Raises SyntaxError', 'Yields a single generator object']} correctAnswer={0} explanation=&quot;This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?&quot; options={['Returns [0, 1, 2]','Raises SyntaxError','Yields a single generator object','Returns a generator that yields 0, 1, 2']} correctAnswer={3} explanation=&quot;This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated."} difficulty="hard"  />
 
 ---
 
 ### List Comprehensions
 
-<PracticeProblem client:only="solid-js" question={"What is the output of `[i * j for i in range(3) for j in range(3) if i != j]`?&quot; options={['[0, 0, 2, 0, 6]', '[2, 6]', '[0, 2, 0, 6]', 'IndexError']} correctAnswer={0} explanation=&quot;The nested comprehension iterates all pairs (i,j) from 0-2, filters out i==j, and multiplies the remaining pairs: 0*1=0, 0*2=0, 1*0=0, 1*2=2, 2*0=0, 2*1=2. Result: [0, 0, 2, 0, 6]."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the output of `[i * j for i in range(3) for j in range(3) if i != j]`?&quot; options={['[2, 6]','[0, 0, 2, 0, 6]','[0, 2, 0, 6]','IndexError']} correctAnswer={1} explanation=&quot;The nested comprehension iterates all pairs (i,j) from 0-2, filters out i==j, and multiplies the remaining pairs: 0*1=0, 0*2=0, 1*0=0, 1*2=2, 2*0=0, 2*1=2. Result: [0, 0, 2, 0, 6]."} difficulty="medium"  />
 
 ---
 
 ### Generators
 
-<PracticeProblem client:only="solid-js" question={"What is the key advantage of `sum(i*i for i in range(10**9))` over `sum([i*i for i in range(10**9)])`?&quot; options={['Constant memory usage vs. allocating a billion-element list', 'Faster computation time', 'Produces a more accurate result', 'Uses less CPU time']} correctAnswer={0} explanation=&quot;The generator expression yields one value at a time (constant memory), while the list comprehension materializes all 10^9 values in memory before summing. The generator avoids a memory allocation of ~8 GB."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the key advantage of `sum(i*i for i in range(10**9))` over `sum([i*i for i in range(10**9)])`?&quot; options={['Faster computation time','Produces a more accurate result','Uses less CPU time','Constant memory usage vs. allocating a billion-element list']} correctAnswer={3} explanation=&quot;The generator expression yields one value at a time (constant memory), while the list comprehension materializes all 10^9 values in memory before summing. The generator avoids a memory allocation of ~8 GB."} difficulty="medium"  />
 
 ---
 
 ### Decorators
 
-<PracticeProblem client:only="solid-js" question={"Given `def timer(func): import time; def wrapper(*args, **kwargs): start=time.time(); result=func(*args, **kwargs); print(time.time()-start); return result; return wrapper`, what does `@timer def compute(): pass` do?&quot; options={['Replaces compute with wrapper, printing elapsed time on each call', 'Computes only once and caches the result', 'Raises a TypeError', 'Makes compute asynchronous']} correctAnswer={0} explanation=&quot;The @timer decorator replaces compute with the wrapper function. Each call to compute() now executes the original function, measures elapsed time, prints it, and returns the result."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"Given `def timer(func): import time; def wrapper(*args, **kwargs): start=time.time(); result=func(*args, **kwargs); print(time.time()-start); return result; return wrapper`, what does `@timer def compute(): pass` do?&quot; options={['Computes only once and caches the result','Raises a TypeError','Replaces compute with wrapper, printing elapsed time on each call','Makes compute asynchronous']} correctAnswer={2} explanation=&quot;The @timer decorator replaces compute with the wrapper function. Each call to compute() now executes the original function, measures elapsed time, prints it, and returns the result."} difficulty="medium"  />
 
 ---
 
 ### Context Managers
 
-<PracticeProblem client:only="solid-js" question={"What does `with open('f.txt') as f: data = f.read()` guarantee even if an exception occurs?&quot; options={['The file is closed automatically', 'The file is read completely', 'The data is validated', 'No exceptions can occur']} correctAnswer={0} explanation=&quot;The with statement ensures the file is closed via **exit** regardless of whether an exception is raised inside the block. This prevents resource leaks and data corruption."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What does `with open('f.txt') as f: data = f.read()` guarantee even if an exception occurs?&quot; options={['The file is read completely','The data is validated','No exceptions can occur','The file is closed automatically']} correctAnswer={3} explanation=&quot;The with statement ensures the file is closed via **exit** regardless of whether an exception is raised inside the block. This prevents resource leaks and data corruption."} difficulty="easy"  />
 
 ---
 
 ### Asyncio
 
-<PracticeProblem client:only="solid-js" question={"What does `await asyncio.gather(task1(), task2())` do compared to calling them sequentially?&quot; options={['Runs task1 and task2 concurrently and collects both results', 'Runs task1 first, then task2', 'Returns only the first result', 'Raises a SyntaxError outside async']} correctAnswer={0} explanation=&quot;asyncio.gather schedules both coroutines to run concurrently on the event loop. It waits for both to complete and returns a list of results in the order the tasks were passed, not the order they completed."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What does `await asyncio.gather(task1(), task2())` do compared to calling them sequentially?&quot; options={['Runs task1 and task2 concurrently and collects both results','Runs task1 first, then task2','Returns only the first result','Raises a SyntaxError outside async']} correctAnswer={0} explanation=&quot;asyncio.gather schedules both coroutines to run concurrently on the event loop. It waits for both to complete and returns a list of results in the order the tasks were passed, not the order they completed."} difficulty="medium"  />
 
 ---
 
 ### Advanced Functions
 
-<PracticeProblem client:only="solid-js" question={"What is the output of `print(list(map(lambda x, y: x + y, [1,2,3], [4,5,6])))`?&quot; options={['[5, 7, 9]', '[1, 2, 3, 4, 5, 6]', '[4, 8, 12]', 'TypeError: map() takes exactly one argument']} correctAnswer={0} explanation=&quot;map with two iterables passes corresponding elements as positional arguments to the lambda. It adds element-wise: 1+4=5, 2+5=7, 3+6=9."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the output of `print(list(map(lambda x, y: x + y, [1,2,3], [4,5,6])))`?&quot; options={['[5, 7, 9]','[1, 2, 3, 4, 5, 6]','[4, 8, 12]','TypeError: map() takes exactly one argument']} correctAnswer={0} explanation=&quot;map with two iterables passes corresponding elements as positional arguments to the lambda. It adds element-wise: 1+4=5, 2+5=7, 3+6=9."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"What does `*` unpacking do in `[1, *[2,3], 4]`?&quot; options={['Produces [1, 2, 3, 4]', 'Produces [1, [2, 3], 4]', 'Raises TypeError', 'Produces [1, 2, 3, 4] with a nested list']} correctAnswer={0} explanation=&quot;The * operator unpacks an iterable into individual elements in the enclosing list. [2,3] is unpacked to 2,3, so the result is [1, 2, 3, 4]." } difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What does `*` unpacking do in `[1, *[2,3], 4]`?&quot; options={['Produces [1, 2, 3, 4]','Produces [1, [2, 3], 4]','Raises TypeError','Produces [1, 2, 3, 4] with a nested list']} correctAnswer={0} explanation=&quot;The * operator unpacks an iterable into individual elements in the enclosing list. [2,3] is unpacked to 2,3, so the result is [1, 2, 3, 4]." } difficulty="easy"  />
 
 ## Cross-References
 

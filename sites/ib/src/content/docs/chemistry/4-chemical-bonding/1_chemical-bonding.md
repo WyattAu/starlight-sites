@@ -136,7 +136,7 @@ $$
 \Delta H_{\mathrm{LE}} = -411 - 108 - 122 - 496 - (-349) = -788\mathrm{ kJ/mol}
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>IB Exam Tip</strong>
 When constructing a Born-Haber cycle diagram, every arrow must be labelled with the correct enthalpy
 Term. The most common error is confusing $\Delta H_{\mathrm{at}}^\circ$ (atomisation of the solid
@@ -192,9 +192,8 @@ Rules for drawing Lewis structures:
 5. Place any remaining electrons on the central atom.
 6. If the central atom lacks an octet, form double or triple bonds by converting lone pairs on
    terminal atoms into bonding pairs.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 Hydrogen only needs 2 electrons (duet rule). Beryllium can be stable with 4 electrons, and boron
 With 6. Do not force an octet on these atoms.
@@ -258,9 +257,8 @@ The Pauling scale assigns fluorine (the most electronegative element) a value of
 | 0.0                 | Non-polar covalent    |
 | 0.1 -- 1.7          | Polar covalent        |
 | $\gt 1.7$           | Ionic (predominantly) |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 The threshold of 1.7 is a guideline, not an absolute boundary. For example, H-Cl has
 $\Delta\mathrm{EN} = 0.9$ (polar covalent), but Al-Cl has $\Delta\mathrm{EN} = 1.55$ (still
@@ -412,9 +410,8 @@ Requirements:
 | NH$_3$    | -33                        | Fewer H-bonds per molecule            |
 | H$_2$S    | -60                        | No hydrogen bonding (S not EN enough) |
 | CH$_4$    | -161                       | Only London dispersion forces         |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 Water has an anomalously high boiling point compared to H$_2$S, H$_2$Se, and H$_2$Te. The expected
 Trend (boiling point increases down the group due to increasing electrons) is overridden by hydrogen
@@ -512,9 +509,8 @@ The base geometries depend on the total number of electron domains ($n + m$):
 | -------- | --------------- | ---------------- | -------------- |
 | AX$_3$   | Trigonal planar | 120$\degree$     | BF$_3$AlCl$_3$ |
 | AX$_2$E  | Bent/V-shaped   | $\lt 120\degree$ | SO$_2$O$_3$    |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 Students often forget that lone pairs repel more strongly, so AX$_2$E has a bond angle less than
 120$\degree$Not exactly 120$\degree$. SO$_2$ has a bond angle of approximately 119.5$\degree$.
@@ -576,9 +572,8 @@ To determine if a molecule is polar:
 | Bent (AX$_2$E or AX$_2$E$_2$) | No (asymmetric)     | Polar     |
 | Octahedral (AX$_6$)           | Yes (symmetric)     | Non-polar |
 | Square planar (AX$_4$E$_2$)   | Yes (symmetric)     | Non-polar |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 A common exam question asks whether a molecule like CHCl$_3$ or CH$_2$Cl$_2$ is polar. Even though
 C-H and C-Cl bonds have different polarities, the key is whether the vector sum of all bond dipoles
@@ -693,9 +688,8 @@ Has:
 - All bond lengths identical: 140 pm (between 134 pm for C=C and 154 pm for C-C)
 - A delocalised pi electron system above and below the ring
 - Planar geometry (sp$^2$ hybridised carbons)
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 The enthalpy of hydrogenation of benzene (-208 kJ/mol, for 3 moles of H$_2$) is less exothermic than
 Expected from three isolated C=C bonds (-360 kJ/mol). The difference (152 kJ/mol) is the **resonance
@@ -743,9 +737,8 @@ $$
 2. Negative formal charges should reside on the most electronegative atoms.
 3. Like charges should not be adjacent.
 4. Formal charges closest to zero are preferred.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: SO$_4^{2-}$</strong>
 Sulfur has 6 valence electrons. With four single bonds to oxygen and no lone pairs:
 
@@ -830,9 +823,8 @@ $$
 | O$_2$    | 8                 | 4                     | 2          | Stable      |
 | F$_2$    | 8                 | 6                     | 1          | Stable      |
 | Ne$_2$   | 8                 | 8                     | 0          | Not stable  |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>IB Exam Tip</strong>
 MO theory explains why O$_2$ is paramagnetic (has unpaired electrons in the $\pi^*$ orbitals). Lewis
 Structures cannot predict this. This is a classic HL exam question.
@@ -875,9 +867,8 @@ Temperature as more electrons are promoted across the band gap.
 | ----------- | ------------ | --------------------------------------- | --------------- |
 | n-type      | Group 15 (P) | Extra electron enters conduction band   | Electron        |
 | p-type      | Group 13 (B) | Electron vacancy (hole) in valence band | Hole (positive) |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Common Mistake</strong>
 The "n" in n-type stands for "negative" (electron carriers), not the element nitrogen. The "p" in
 P-type stands for "positive" (hole carriers). Doping does not make the material charged -- the
@@ -1401,8 +1392,7 @@ For the A-Level treatment of this topic, see
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

@@ -363,7 +363,7 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 | Write pattern | Inserts target specific partitions               | Inserts are spread uniformly      |
 | Index size    | Index maintenance is becoming expensive          | Indexes fit comfortably in memory |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
 Both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
 Partitioning.
@@ -403,9 +403,8 @@ $$\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}$$
 - **Resharding:** adding or removing shards requires moving data, which is expensive and complex
 - **Operational complexity:** each shard is a separate database instance with its own backups,
   monitoring, and failover
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Connection pooling can handle millions of queries per hour. Only shard when you have exhausted
 Vertical scaling and single-node optimisations.
 
@@ -512,9 +511,8 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 - `CREATE INDEX CONCURRENTLY` (no lock)
 - `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL` (metadata-only in PG 11+)
 - Use `pg_partman` for partitioning without downtime
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Microservice architectures, check all services, not just the one you are deploying. A column used by
 A reporting service or a data pipeline can cause silent failures if dropped.
 
@@ -652,9 +650,8 @@ recovery_target_action = 'promote'
 - **Test restores regularly:** a backup that cannot be restored is not a backup.
 - **Store backups offsite:** a backup on the same server is useless if the server fails.
 - **Encrypt backups:** database backups contain sensitive data.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
 That the backup is corrupted or incomplete when you need it most.
 
@@ -742,9 +739,8 @@ SELECT pg_promote();
 ALTER SYSTEM SET primary_conninfo = 'host=new-primary port=5432';
 SELECT pg_reload_conf();
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 It is still the leader, but the replicas have already promoted one of their own). Always use a
 Consensus-based coordination system (Patroni + etcd) rather than custom scripts.
 
@@ -908,22 +904,6 @@ The only reliable backup is one you have successfully restored. Test your backup
 Measure actual recovery time, and document the procedure. A backup that has never been tested is a
 False sense of security.
 
-## Summary
-
-This topic covers the essential chemistry of database design, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Cross-References
 
 - [Data Modeling Patterns](data-modeling) - Detailed normalization, denormalization, and hierarchical data patterns
@@ -935,5 +915,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

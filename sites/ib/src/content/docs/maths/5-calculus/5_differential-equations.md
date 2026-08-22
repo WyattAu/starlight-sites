@@ -430,12 +430,11 @@ $$k_1 = f(x_n, y_n)$$ $$k_2 = f(x_n + h, y_n + hk_1)$$ $$y_{n+1} = y_n + \frac{h
 This is a **second order** method with global error proportional to $h^2$Offering significantly
 Better accuracy than the basic Euler method for the same step size.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Euler's method can produce wildly inaccurate results for stiff equations or when the step size is
 too Large. Always check whether the approximation is reasonable by comparing with qualitative
 behaviour Of the DE (equilibrium, asymptotes, periodicity).
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -708,7 +707,7 @@ For the A-Level Further Maths treatment of this topic, see
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
@@ -716,7 +715,7 @@ Differential Equations with other IB mathematics topics to test synthesis under 
 
 See for instructions on self-marking
 and building a personal test matrix.
-</aside>
+:::
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |

@@ -362,7 +362,7 @@ logrotate -f /etc/logrotate.conf
 logrotate -d /etc/logrotate.d/nginx
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 1. Applications that write directly to files (not through the journal)
 2. Legacy applications without systemd support
 3. Situations requiring specific rotation policies per application
@@ -959,28 +959,11 @@ flowchart LR
     D --> G["Retention<br />and Archive"]
 ```
 
-## Summary
-
-This topic covers the biological principles of journal and logging, including key concepts,
-experimental evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

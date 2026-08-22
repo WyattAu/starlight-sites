@@ -748,7 +748,7 @@ Verification: $(f \circ h)(x) = 2\!\left(x + \dfrac{3}{2}\right) - 1 = 2x + 2$. 
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Functions
@@ -1029,8 +1029,7 @@ $\blacksquare$
 - Rational functions: state domain restrictions before simplifying; cancelled factors indicate
   holes, not asymptotes.
 - Use sign charts for rational inequalities; include or exclude endpoints based on strictness.
-
-</aside>
+:::
 ## Related Topics
 
 - [Linear Algebra: Vector Spaces](https://university.wyattau.com/mathematics/linear-algebra/) — Generalisation of functions to vector-space morphisms.

@@ -357,9 +357,9 @@ $$= \frac{(k+1)^2[k^2 + 4(k+1)]}{4} = \frac{(k+1)^2(k+2)^2}{4} = \left[\frac{(k+
 
 ✓ $\square$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Differences. AQA covers summation in the context of mathematical induction.
-</aside>
+:::
 <hr />
 
 ## 7. Summary of Key Results

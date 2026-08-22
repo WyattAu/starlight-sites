@@ -141,10 +141,10 @@ sudo apt install intel-mkl
 ./linpack_xeon64
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 30–50%. This can push VRMs and PSU beyond their rated capacity. Only use Linpack for brief thermal
 Profiling (5–10 minutes), not for extended stability testing.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -324,9 +324,9 @@ sudo badblocks -wsv /dev/sdX
 sudo badblocks -sv /dev/sdX
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Unpartitioned drives or drives whose data you have backed up.
-</aside>
+:::
 ### CrystalDiskMark
 
 CrystalDiskMark (Windows) provides an easy GUI for sequential and random I/O testing:

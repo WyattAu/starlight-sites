@@ -90,7 +90,7 @@ Reading bottom to top: 11010110.
 | 1 Gigabyte (GB) | $2^{30}$ bytes           |
 | 1 Terabyte (TB) | $2^{40}$ bytes           |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Manufacturers often use 1000 for marketing purposes. A "500 GB" hard drive advertised by the
 Manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
 Specifically to powers of 1024.
@@ -799,5 +799,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 - [Atomic Structure](../../chemistry/1-atomic-structure/1_atomic-structure) -- Understanding atoms and electron configuration provides context for how computers store data.
 - [Cell Biology](../../biology/1-cell-biology/1_cell-biology) -- Data storage in biological systems like DNA parallels digital data representation.
 - [Ratio and Proportion](../../maths/3-ratio-proportion/3_ratio-proportion) -- Memory addressing and data scaling involve proportional relationships.
-
-</aside>
+:::

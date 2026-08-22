@@ -132,7 +132,7 @@ Data abstraction separates the interface (what operations are available) from th
 
 In Java, this is achieved through classes: private fields with public getters/setters and methods.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example: Java</strong>
 ```java
 public class Rectangle {
@@ -158,8 +158,7 @@ public class Rectangle {
 The caller uses `getArea()` and `getPerimeter()` without knowing that `width` and `height` are
 Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
 Corners) without affecting any code that uses this class.
-
-</aside>
+:::
 ### Information Hiding
 
 Information hiding is the principle that the internal details of a module should be hidden from
@@ -246,9 +245,9 @@ REPEAT UNTIL (condition)
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Is checked. This differs from a `WHILE` loop, which is a pre-test loop.
-</aside>
+:::
 **FOR EACH:**
 
 ```
@@ -279,10 +278,10 @@ INSERT(list, 2, 99)
 LENGTH(list)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `list[0]`. This differs from Java, Python, and most programming languages.
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Finding the Maximum</strong>
 ```
 PROCEDURE findMax(list)
@@ -303,9 +302,8 @@ PROCEDURE findMax(list)
 Examined so far." Initially, max = list[1], the largest of the first element. When a new Item is
 compared, if it is larger, max is updated; otherwise, max remains the largest. By induction, After
 all elements are examined, max is the largest in the entire list. $\blacksquare$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Finding the Second Largest</strong>
 ```
 PROCEDURE findSecondLargest(list)
@@ -341,9 +339,8 @@ PROCEDURE findSecondLargest(list)
 ```
 
 **Time complexity:** $O(n)$ -- single pass through the list.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Linear Search (AP CSP)</strong>
 ```
 PROCEDURE linearSearch(list, target)
@@ -361,9 +358,8 @@ PROCEDURE linearSearch(list, target)
 
 Note: AP CSP pseudocode returns 0 (not -1) to indicate "not found", because index 0 is not a valid
 Position in 1-based indexing.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Binary Search (AP CSP)</strong>
 ```
 PROCEDURE binarySearch(list, target)
@@ -395,9 +391,8 @@ PROCEDURE binarySearch(list, target)
 
 **Complexity analysis.** Each iteration halves the search space, so the maximum number of iterations
 Is $\lceil \log_2 n \rceil$. Time complexity: $O(\log n)$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Counting Occurrences</strong>
 ```
 PROCEDURE countOccurrences(list, value)
@@ -415,9 +410,8 @@ PROCEDURE countOccurrences(list, value)
 ```
 
 **Time complexity:** $O(n)$ -- examines each element once.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Reversing a List</strong>
 ```
 PROCEDURE reverseList(list)
@@ -1056,8 +1050,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

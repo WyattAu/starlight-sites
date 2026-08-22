@@ -84,11 +84,11 @@ Throughout the plant.
 - **Vascular bundles:** xylem (top, carries water to mesophyll) and phloem (bottom, carries sugars
   away).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Photosynthesis produces ATP, which drives potassium ion ($K^+$) pumps. Potassium ions enter the
 Guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
 Opening the stomata.
-</aside>
+:::
 ### Root Structure (OL/HL)
 
 **Functions:** anchorage, absorption of water and minerals, and storage (in some species such as
@@ -296,11 +296,11 @@ Reliable.
 | Birds   | Large, brightly coloured (often red); copious nectar; sturdy perch                 |
 | Water   | Long, floating pollen; small, inconspicuous flowers (rare)                         |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
 Insect-pollinated flowers produce less pollen but it is often larger and stickier to adhere to
 Pollinators.
-</aside>
+:::
 ### Fertilisation (OL/HL)
 
 1. Pollen grain lands on the stigma and germinates, absorbing sugars and water.
@@ -471,7 +471,7 @@ A tropism is a growth response to a directional stimulus. The response can be to
   inhibits cell elongation in roots. The upper side elongates more, causing the root to bend
   downward.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Elongation in roots. Roots are far more sensitive to auxin than shoots, so the same concentration
 That promotes growth in shoots inhibits growth in roots.
 
@@ -749,8 +749,7 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
-
-</aside>
+:::
 
 ## Intuition
 

@@ -75,10 +75,10 @@ Grants the embedded page the same privileges as the parent page.
 | `allow-downloads`      | Allows downloading files                                               |
 | `allow-top-navigation` | Allows the iframe to navigate the top-level page (avoid this)          |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 User-controlled or untrusted. Together they allow the embedded page to strip its own sandbox
 Restrictions via JavaScript.
-</aside>
+:::
 For trusted embeds like Godbolt and Dartpad, `sandbox="allow-scripts allow-same-origin"` is
 Acceptable because both services are well-known and operate over HTTPS.
 

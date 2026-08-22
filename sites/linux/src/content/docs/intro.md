@@ -136,7 +136,6 @@ This section covers the core Linux competencies expected of a systems engineer:
 7. **Package Management**. APT, DNF, Nix, dependency resolution
    ([package-management](./07-package-management/package-management.md))
 
-<aside class="starlight-aside starlight-aside--tip">
 Editing files). The focus is on depth — understanding _how_ things work, not just _what_ commands to
 Run.
 
@@ -163,8 +162,7 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-</aside>## Cross-References
+:::## Cross-References
 
 - **[Site Home](../../):** Main landing page for linux notes.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.

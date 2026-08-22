@@ -122,7 +122,7 @@ $$\mathrm{C_n\mathrm{H_{2n+2} + \frac{3n+1}{2}\mathrm{O_2 \to n\mathrm{CO_2 + (n
 $$2\mathrm{CH_4 + 3\mathrm{O_2 \to 2\mathrm{CO + 4\mathrm{H_2\mathrm{O$$
 $$\mathrm{CH_4 + \mathrm{O_2 \to \mathrm{C + 2\mathrm{H_2\mathrm{O$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Strongly than oxygen, preventing oxygen transport in the blood. Incomplete combustion is dangerous
 Because CO is produced without any visible or olfactory warning.
 
@@ -839,8 +839,7 @@ $$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
 This topic covers the key concepts of Organic Chemistry for GCSE Chemistry. Focus on understanding
 the fundamental principles, practising with exam-style questions, and applying your knowledge to
 unfamiliar contexts.
-
-</aside>
+:::
 
 ## Intuition
 

@@ -367,11 +367,10 @@ Total transmitted: 4040 bytes (40 bytes of additional headers due to fragmentati
 **Path MTU Discovery (PMTUD):** The sender sets the DF flag. If a router cannot forward, it returns
 ICMP "Fragmentation Needed" and the sender reduces packet size. Preferred over fragmentation.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 addresses and is valid for Point-to-point links with no network or broadcast address. A `/32` is a
 single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes of `/30` or shorter.
-
-</aside>
+:::
 
 ## Common Mistakes
 

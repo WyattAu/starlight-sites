@@ -632,22 +632,6 @@ Compiled (use `-XX:+PrintCompilation`).
   -- JIT behavior with virtual threads
 - [Style and Patterns](../07-best-practices/01-style-and-patterns.md) -- writing JIT-friendly code
 
-## Summary
-
-This topic covers the biological principles of jit compilation and deoptimization, including key
-concepts, experimental evidence, and real-world applications.
-
-**Key concepts include:**
-
-- key biological principles and concepts
-- experimental methods and data analysis
-- applications of biology in medicine and industry
-- ethical considerations in biological research
-- the relationship between structure and function
-
-Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
-and evaluate experimental evidence critically.
-
 ## Intuition
 
 The JIT compiler is like a chef who starts by following a recipe exactly (interpretation) but then starts improvising shortcuts after making the dish many times (compilation). The JVM watches which methods are called frequently and optimizes those hot paths into native machine code. Deoptimization is the safety net: if the JIT's assumptions prove wrong, it bails back to interpretation. This adaptive approach combines fast startup with peak performance.

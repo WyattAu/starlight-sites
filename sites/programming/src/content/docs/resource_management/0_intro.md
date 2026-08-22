@@ -40,7 +40,7 @@ This part covers four tightly coupled topics:
 4. **Error Handling (Module 13):** Exception safety guarantees, `noexcept`And the modern algebraic
    alternatives (`std::expected``std::variant`).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Allocation (Module 3.5), pointers (Module 3.6), and class basics (Module 9). Exception mechanics are
 Covered in detail in Module 13.
 
@@ -165,8 +165,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Related Topics
 
 - [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust"s compile-time ownership model as an alternative to C++ manual resource management.

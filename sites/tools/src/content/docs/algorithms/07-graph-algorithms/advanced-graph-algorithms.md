@@ -258,7 +258,7 @@ def find_articulation_points(n, adj):
     return [v for v in range(n) if is_articulation[v]]
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 It is `low[u] >= tin[v]` (non-strict). The difference matters: a back edge to the parent vertex
 Satisfies `low[u] == tin[v]` but does not make the edge a bridge.
 
@@ -990,8 +990,7 @@ $\blacksquare$
 - Floyd-Warshall computes all-pairs shortest paths in $O(V^3)$.
 - Topological sorting (Kahn's or DFS-based) orders DAG vertices; $O(V + E)$.
 - Strongly connected components: Kosaraju's or Tarjan's algorithm in $O(V + E)$.
-
-</aside>
+:::
 
 ## Cross-References
 

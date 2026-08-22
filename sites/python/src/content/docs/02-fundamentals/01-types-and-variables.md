@@ -68,7 +68,7 @@ Produces `"222"` in Python, that is a deliberate, documented operation on the `s
 Implicit coercion. The principle is that **surprising implicit behavior is more dangerous than
 Explicit errors**.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
@@ -226,9 +226,8 @@ a = 257
 b = 257
 print(a is b)   # False (not interned)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Interning range is a CPython implementation detail, not a language guarantee.
 
 ### `float`: IEEE 754 Double-Precision
@@ -251,9 +250,8 @@ Hardware on every modern CPU. A `float` addition is a single CPU instruction. Ar
 Decimals would require software emulation, making all numeric computation orders of magnitude
 Slower. The pragmatic choice is to use hardware floats by default and provide `decimal` and
 `fractions` modules for cases that require exact arithmetic.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 (exact rational arithmetic). Never use `float` for money.
 
 ### `complex`: Complex Numbers
@@ -356,9 +354,8 @@ print(s)             # "hello"
 4. **C API compatibility.** CPython's internal representation can store C strings directly when all
    characters are ASCII, avoiding per-character encoding overhead. This optimization is only safe
    because strings cannot change.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 The entire string. Use `''.join(iterable)` for linear-time concatenation.
 
 ```python
@@ -465,9 +462,8 @@ s.rstrip()     # "  Hello, World!"
 "   ".isspace()     # True
 "HELLO".isupper()   # True
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Handle edge cases (empty strings, prefix longer than string) correctly.
 
 ## Booleans
@@ -616,9 +612,8 @@ def add_item(item, items=None):
 print(add_item("a"))  # ["a"]
 print(add_item("b"))  # ["b"]  -- fresh list each time
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Default arguments. The pattern `def f(arg=None): if arg is None: arg = ...` is the standard
 Solution.
 
@@ -950,9 +945,8 @@ def make_counter():
 
     return increment
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Difficult to test and reason about. Prefer passing state explicitly through function parameters or
 Using classes.
 
@@ -979,8 +973,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

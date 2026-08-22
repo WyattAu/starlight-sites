@@ -57,10 +57,10 @@ The standard defines three clocks [N4950 §29.5.7]:
 | `std::chrono::steady_clock`          | Monotonic; never goes backwards; minimum guaranteed tick period is 1 nanosecond  | Measuring elapsed time, timeouts      |
 | `std::chrono::high_resolution_clock` | Alias for the clock with the shortest tick period (often `steady_clock`)         | Benchmarking                          |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time** — it
 Can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
-</aside>
+:::
 ### Durations
 
 A `std::chrono::duration&lt;Rep, Period>` represents a time span where `Rep` is the arithmetic type
@@ -112,10 +112,10 @@ void duration_arithmetic() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `std::chrono::floor&lt;D>()``std::chrono::ceil&lt;D>()`Or `std::chrono::round&lt;D>()` (C++17) For
 rounding conversions. These are declared in `<chrono>` [N4950 §29.5.4].
-</aside>
+:::
 ### Measuring Elapsed Time
 
 ```cpp
@@ -176,10 +176,10 @@ void timer_class_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Correctly even when the scope is exited via an exception. This pattern is used in many C++
 Benchmarking and logging frameworks.
-</aside>
+:::
 ### Calendar and Timezone Support (C++20)
 
 C++20 added calendar types and timezone support to `<chrono>` [N4950 §29.8]:
@@ -281,11 +281,11 @@ void format_time_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 `/usr/share/zoneinfo/` on Linux). On systems without a system timezone database, the C++ runtime may
 Provide a minimal built-in database. Call `std::chrono::reload_tzdb()` to reload the database after
 A system update.
-</aside>
+:::
 ## See Also
 
 - [Filesystem Library](./1_filesystem.md)
@@ -369,11 +369,11 @@ void ratio_details() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Preserved. But `std::common_type_t<seconds, milliseconds>` is `milliseconds` because milliseconds
 Has a finer period. The common type always has the **shortest** (finest) period among the inputs
 [N4950 §29.5.3].
-</aside>
+:::
 ### Duration Literals and User-Defined Literals
 
 C++14 introduced `operator""` literals for `std::chrono` durations [N4950 §29.5.3.2]:
@@ -469,11 +469,11 @@ void time_t_conversion() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `time_point` loses sub-second precision. On systems where `time_t` is 32-bit, dates beyond
 2038-01-19 cannot be represented (the Year 2038 problem). Modern 64-bit systems use a 64-bit
 `time_t`.
-</aside>
+:::
 ### C++20 Calendar: `year_month_day` Arithmetic
 
 C++20's calendar types support natural date arithmetic that handles month rollover, leap years, and
@@ -515,10 +515,10 @@ void calendar_arithmetic() {
 }
 ```
 
-<aside aria-label="`operator+` on `year_month_day` with `months` or `years` uses the "last day clamping"" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`operator+` on `year_month_day` with `months` or `years` uses the "last day clamping"</p>
+:::caution
 Rule: if the resulting day is out of range (e.g., January 31 + 1 month = February 31), the day is
 Clamped to the last valid day of the resulting month. This behavior is defined in [N4950 §29.8.6].
-</aside>
+:::
 ### C++20 Time-of-Day: `hh_mm_ss`
 
 The `hh_mm_ss` class [N4950 §29.8.3] represents a time of day extracted from a duration:
@@ -567,10 +567,10 @@ void sleep_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Duration is a lower bound, not a guarantee. For high-precision timing (sub-millisecond), use
 Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
-</aside>
+:::
 ### Common Pitfalls
 
 1. **Using `system_clock` for measuring elapsed time:** `system_clock` can jump backwards (NTP

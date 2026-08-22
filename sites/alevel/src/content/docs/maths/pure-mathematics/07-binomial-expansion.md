@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1, 2 | Similar split                                                    |
 | CIE (9709) | P1, P3     | P1: positive integer; P3: general                                |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Memorise it.
-</aside>
+:::
 <hr />
 
 ## 1. Pascal"s Triangle
@@ -418,9 +418,9 @@ The expansion is valid when:
 
 $$\left|\frac{bx}{a}\right| \lt 1 \quad \mathrm{i.e.,} \quad |x| \lt \left|\frac{a}{b}\right|$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Routinely deducted for omitting this.
-</aside>
+:::
 ### 8.2 Product of Two Expansions
 
 When a question asks for the expansion of a product of two binomial expressions, such as
@@ -904,7 +904,7 @@ Validity: the most restrictive condition is $|x| \lt 1/2$ (from $(1-2x)^{-1}$).
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Binomial
@@ -941,7 +941,7 @@ linked above.
 $$
 
 $$
-</aside>
+:::
 
 ## Cross-References
 

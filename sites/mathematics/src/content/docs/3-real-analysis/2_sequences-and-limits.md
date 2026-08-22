@@ -279,14 +279,13 @@ $\limsup \neq \liminf$, the sequence diverges by Proposition 2.9. $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 **Common Pitfall:** Do not confuse $\limsup$ and $\liminf$ with $\sup$ and $\inf$ of the range
 $\{a_n : n \in \mathbb{N}\}$. The $\limsup$ depends on the _tail_ behavior of the sequence. For
 example, $a_n = (-1)^n$ has $\limsup = 1$ and $\liminf = -1$, but $\sup\{a_n\} = 1$ and
 $\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup = 1$ but
 $\limsup = 0$.
-
-</aside>
+:::
 
 ## Cross-References
 

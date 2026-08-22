@@ -248,15 +248,15 @@ Hello World
 
 ### Collections
 
-<PracticeProblem client:only="solid-js" question={"Which collection guarantees insertion order and does not allow duplicates?&quot; options={['LinkedHashSet', 'HashSet', 'TreeSet', 'ArrayList']} correctAnswer={0} explanation=&quot;LinkedHashSet extends HashSet and maintains a doubly-linked list running through its entries, preserving insertion order. HashSet does not guarantee order. TreeSet orders by natural ordering or a comparator (not insertion order). ArrayList allows duplicates and does not have set semantics. LinkedHashSet gives you both uniqueness and predictable iteration order."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"Which collection guarantees insertion order and does not allow duplicates?&quot; options={['LinkedHashSet','HashSet','TreeSet','ArrayList']} correctAnswer={0} explanation=&quot;LinkedHashSet extends HashSet and maintains a doubly-linked list running through its entries, preserving insertion order. HashSet does not guarantee order. TreeSet orders by natural ordering or a comparator (not insertion order). ArrayList allows duplicates and does not have set semantics. LinkedHashSet gives you both uniqueness and predictable iteration order."} difficulty="easy"  />
 
 ---
 
 ### Streams
 
-<PracticeProblem client:only="solid-js" question={`Given \`List.of(2, 1, 3).stream().map(x -> x * x).filter(x -> x > 3).collect(Collectors.toList())\`, what is the result?`} options={['[4, 9]', '[1, 4, 9]', '[9]', '[4]']} correctAnswer={0} explanation="The stream maps each element to its square: [4, 1, 9]. Then`filter(x -> x > 3)` keeps only 4 and 9, producing [4, 9]. Streams are lazy and process elements one at a time through the pipeline. The `collect` terminal operation triggers the entire pipeline and gathers results into a list." difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`Given \`List.of(2, 1, 3).stream().map(x -> x * x).filter(x -> x > 3).collect(Collectors.toList())\`, what is the result?`} options={['[1, 4, 9]','[4, 9]','[9]','[4]']} correctAnswer={1} explanation="The stream maps each element to its square: [4, 1, 9]. Then`filter(x -> x > 3)` keeps only 4 and 9, producing [4, 9]. Streams are lazy and process elements one at a time through the pipeline. The `collect` terminal operation triggers the entire pipeline and gathers results into a list." difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={`Which of the following is a terminal operation?`} options={['collect', 'filter', 'map', 'sorted']} correctAnswer={0} explanation="Terminal operations produce a result and close the Stream pipeline. `collect`, `forEach`, `reduce`, `count`, `toArray`, `findFirst`, and `anyMatch` are all terminal operations. `filter`, `map`, `sorted`, `distinct`, and `flatMap` are intermediate operations that return a new Stream and are lazy -- they do not execute until a terminal operation is invoked." difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`Which of the following is a terminal operation?`} options={['filter','map','sorted','collect']} correctAnswer={3} explanation="Terminal operations produce a result and close the Stream pipeline. `collect`, `forEach`, `reduce`, `count`, `toArray`, `findFirst`, and `anyMatch` are all terminal operations. `filter`, `map`, `sorted`, `distinct`, and `flatMap` are intermediate operations that return a new Stream and are lazy -- they do not execute until a terminal operation is invoked." difficulty="medium"  />
 
 ---
 
@@ -286,7 +286,7 @@ Hello World
 
 ### Class Loading Order (Hard)
 
-<PracticeProblem client:only="solid-js" question={`In what order does the JVM initialize a class? Given:\n\`\`\`\nclass Super {\n    static { System.out.print("A"); }\n}\nclass Sub extends Super {\n    static { System.out.print("B"); }\n    public static void main(String[] args) { System.out.print("C"); }\n}\n\`\`\`\nWhat is printed when \`Sub.main()\` is invoked?`} options={['ABC', 'BAC', 'ACB', 'CBA']} correctAnswer={0} explanation={`When \`Sub.main\` is invoked, the JVM triggers class initialization for \`Sub\`. Before initializing \`Sub\`, the JVM must first ensure its superclass \`Super\` is initialized. Superclass static initializers run before subclass static initializers. So: Super static block prints "A", then Sub static block prints "B", then \`main\` executes and prints "C". Output: ABC.`} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={`In what order does the JVM initialize a class? Given:\n\`\`\`\nclass Super {\n    static { System.out.print("A"); }\n}\nclass Sub extends Super {\n    static { System.out.print("B"); }\n    public static void main(String[] args) { System.out.print("C"); }\n}\n\`\`\`\nWhat is printed when \`Sub.main()\` is invoked?`} options={['BAC','ACB','CBA','ABC']} correctAnswer={3} explanation={`When \`Sub.main\` is invoked, the JVM triggers class initialization for \`Sub\`. Before initializing \`Sub\`, the JVM must first ensure its superclass \`Super\` is initialized. Superclass static initializers run before subclass static initializers. So: Super static block prints "A", then Sub static block prints "B", then \`main\` executes and prints "C". Output: ABC.`} difficulty="hard"  />
 
 ## Intuition
 

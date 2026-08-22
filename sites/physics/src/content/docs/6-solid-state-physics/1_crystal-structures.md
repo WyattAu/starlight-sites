@@ -196,7 +196,7 @@ Three principal experimental methods:
    Randomly oriented crystallites produce diffraction cones, recorded as concentric rings on a
    detector.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 number of atoms in the unit Cell. For FCC, the coordination number is 12 even though there are only
 4 atoms per conventional Cell. Do not confuse the basis size with the coordination number.
 
@@ -224,8 +224,7 @@ Note that (100) is absent in FCC (since 1+0+0 = 1 is odd but not all odd). The s
 $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 
 </details>
-
-</aside>
+:::
 
 ## Intuition
 

@@ -117,7 +117,7 @@ Serial number formats:
 - **Incremental:** Simple counter (1, 2, 3...). Easy to forget to increment.
 - **UNIX timestamp:** Seconds since epoch. Precise but hard to read.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
 Than the current value on all slaves.
 
@@ -307,9 +307,8 @@ Entire zone by following NSEC chains). NSEC is simpler and more efficient.
 
 **NSEC3** uses hashed names instead of plaintext names. The resolver cannot enumerate the zone
 Because the names are hashed. NSEC3 is recommended for zones that want to prevent zone enumeration.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Brute-force the hashes for common names. NSEC3 with opt-out (unsigned delegations are not covered)
 Provides weaker security but better performance for large zones.
 
@@ -642,9 +641,8 @@ Mitigations:
 - **DNS-over-TLS / DNS-over-HTTPS:** Encrypt the query path, preventing interception and injection.
 - **0x20 encoding:** Randomize the case of the query name. The response must match the case, making
   forgery harder.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Randomization was widely deployed, an attacker could poison any resolver within seconds. All modern
 Resolvers implement source port randomization and DNSSEC validation.
 
@@ -736,9 +734,8 @@ kdig @https://dns.google example.com +https
 | Overhead           | Lower (no HTTP)       | Higher (HTTP framing)        |
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
 `dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
 Enterprises block DoH at the firewall to maintain control.
@@ -796,9 +793,8 @@ Client's location, not the resolver's location.
 # Test ECS with dig
 dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If
 You operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
 ECS processing can route clients to the wrong CDN edge.
@@ -871,5 +867,4 @@ DNS architecture is like a hierarchical phone directory system. The root server 
 - [DNS](dns) - Foundational DNS concepts including record types, resolution process, and domain hierarchy
 - [TCP and UDP](../03-tcp-udp/tcp-and-udp) - Transport protocols that carry DNS queries between resolvers and authoritative servers
 - [HTTP](../05-http-https/http) - Application protocol that relies on DNS for hostname resolution before establishing connections
-
-</aside>
+:::

@@ -198,7 +198,7 @@ sysctl net.ipv4.tcp_fin_timeout
 ss -tan state fin-wait-2 | wc -l
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Side of the connection. This is a client application bug (not calling `close()` or `shutdown()`) or
 a firewall silently dropping the peer's FIN.
 
@@ -298,9 +298,8 @@ sysctl -w net.ipv4.tcp_tw_reuse=1
 # Aggressively recycle TIME_WAIT sockets (use with caution)
 sysctl -w net.ipv4.tcp_tw_recycle=1
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Loss for clients behind NAT because it relied on timestamps to track per-host connection state, and
 NAT multiplexed many clients onto the same source IP. Do NOT use it.
 
@@ -315,9 +314,8 @@ ling.l_onoff = 1;
 ling.l_linger = 0;
 setsockopt(fd, SOL_SOCKET, SO_LINGER, &ling, sizeof(ling));
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 "Connection reset by peer" instead of a clean EOF. Use this only for connections where you are
 Certain the peer handles RST correctly, and never for connections where data integrity matters
 (databases, file transfers).
@@ -533,9 +531,8 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 | Data path       | Does not pass to application | Application processes it  |
 | Configurability | System-wide (sysctl)         | Per-connection (app code) |
 | Failure signal  | `ECONNRESET` or `ETIMEDOUT`  | Application-defined       |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Keepalone alone is too slow for most server applications. A 2-hour dead connection detection is
 Unacceptable for a database connection pool.
 
@@ -798,9 +795,8 @@ cat /proc/sys/net/ipv4/tcp_available_congestion_control
 sysctl -w net.ipv4.tcp_congestion_control=bbr
 sysctl -w net.core.default_qdisc=fq    # Fair Queuing recommended with BBR
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 You are using BBR, consider BBR v2 if your kernel supports it. BBR v1 can be unfair to loss-based
 Congestion control algorithms (CUBIC) in shared environments.
 
@@ -824,8 +820,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

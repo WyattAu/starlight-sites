@@ -227,12 +227,12 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 - Mark leaf classes and leaf overrides as `final`.
 - Prefer local objects over heap-allocated objects where possible.
 - Use PGO for hot code paths where the dynamic type distribution is predictable.
 - Compile with `-O2` or `-O3` (required for most devirtualization passes).
-</aside>
+:::
 ## 3.6 Devirtualization Barriers
 
 Even with optimization enabled, devirtualization can fail in many real-world scenarios.
@@ -390,10 +390,10 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 | Binary size      | Normal      | Often smaller (dead code elimination) |
 | Debugging        | Easy        | Harder (optimized code at link time)  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 For CI builds, consider using ThinLTO (`-flto=thin` on Clang), which performs parallel LTO with
 Lower memory usage at the cost of slightly less aggressive optimization.
-</aside>
+:::
 ## 3.8 `final` and Its Effect on vtable Layout
 
 The `final` specifier does not change the vtable layout itself -- the vtable still exists and the

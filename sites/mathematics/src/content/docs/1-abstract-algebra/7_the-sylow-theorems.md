@@ -160,11 +160,10 @@ A Sylow $p$-subgroup is normal if and only if it is the unique Sylow $p$-subgrou
 **Mistake 3: Misapplying Sylow's third theorem constraints**
 The conditions $n_p \equiv 1 \pmod{p}$ and $n_p \mid m$ are necessary but not sufficient to determine $n_p$ uniquely. For instance, if $|G| = 48 = 2^4 \cdot 3$, then $n_2$ divides $3$ and $n_2 \equiv 1 \pmod{2}$, giving $n_2 \in \{1, 3\}$. Both values satisfy the congruence condition, so further group-theoretic arguments are needed to pin down $n_p$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $p$-subgroups, But they are all conjugate. A common mistake is to assume $n_p = 1$ without checking
 the Sylow Conditions. Always verify that $n_p \equiv 1 \pmod{p}$ and $n_p$ divides $m$.
-
-</aside>
+:::
 
 ## Cross-References
 

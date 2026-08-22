@@ -91,7 +91,7 @@ $$
 Adding a constant shifts the distribution but does not change its spread. Multiplying by $a$ scales
 The spread by $|a|$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 A discrete random variable $X$ has PMF:
 
@@ -110,9 +110,8 @@ $$
 $$
 \mathrm{Var}(X) = 3.4 - 1.6^2 = 3.4 - 2.56 = 0.84, \quad \sigma = \sqrt{0.84} \approx 0.917
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Finding an unknown parameter</strong>
 $P(X = x) = kx$ for $x = 1, 2, 3, 4$. Find $k$ and $E(X)$.
 
@@ -227,9 +226,8 @@ $$
 $$
 P(X = k) \approx P\!\left(\frac{k - 0.5 - np}{\sqrt{np(1-p)}} \lt Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A factory produces bulbs with 3% defect rate. $X \sim B(20, 0.03)$ is the number of defects in a
 Sample of 20.
@@ -241,9 +239,8 @@ $P(X \le 1) = (0.97)^{20} + 20(0.03)(0.97)^{19} \approx 0.5438 + 0.3364 \approx 
 $P(X \ge 3) = 1 - P(X \le 2) \approx 1 - 0.8802 - 0.0988 = 0.0210$
 
 $E(X) = 20(0.03) = 0.6$, $\sigma = \sqrt{20(0.03)(0.97)} = \sqrt{0.582} \approx 0.763$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: IB Paper 2 style</strong>
 A multiple choice test has 15 questions with 5 options each. A student guesses all answers.
 
@@ -347,9 +344,8 @@ $$
 
 If the rate is $\lambda$ per unit interval, then over $t$ intervals the count is
 $\mathrm{Po}(t\lambda)$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A helpdesk receives $\lambda = 3.5$ calls per hour. $X \sim \mathrm{Po}(3.5)$.
 
@@ -358,9 +354,8 @@ $P(X = 5) = \dfrac{e^{-3.5} \cdot 3.5^5}{5!} \approx 0.1318$
 $P(X \le 2) = e^{-3.5}\!\left(1 + 3.5 + \dfrac{12.25}{2}\right) = 10.625 \, e^{-3.5} \approx 0.3208$
 
 Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.4013$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Poisson approximation to Binomial</strong>
 A typesetter makes errors at a rate of 1 per 500 characters. In a passage of 2000 characters, find
 The probability of at most 2 errors.
@@ -481,9 +476,8 @@ Normal, $z = \Phi^{-1}(p)$. For a general normal: $x = \mu + z\sigma$.
 When $\mu$ or $\sigma$ is unknown, use standardisation with a known probability to set up
 Simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
 Are needed.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Bags of flour: $X \sim N(1000, 225)$ (mean 1000 g, $\sigma = 15$ g).
 
@@ -492,18 +486,16 @@ $P(985 \lt X \lt 1020) = P(-1 \lt Z \lt 1.333) = \Phi(1.333) - \Phi(-1) \approx 
 $P(X \lt 970) = P(Z \lt -2) = 0.0228$So about 2.28% are rejected.
 
 For the mass exceeded by only 5%: $P(X \le x) = 0.95$, $x = 1000 + 1.645(15) = 1024.67$ g.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Unknown parameters</strong>
 Test scores are normal. 15% score above 80, 10% score below 45. Find $\mu$ and $\sigma$.
 
 $\dfrac{80 - \mu}{\sigma} = 1.036$ and $\dfrac{45 - \mu}{\sigma} = -1.282$.
 
 Subtracting: $35 = 2.318\sigma$So $\sigma \approx 15.1$ and $\mu = 80 - 1.036(15.1) \approx 64.4$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Normal approximation to Binomial</strong>
 $X \sim B(80, 0.4)$. Find $P(X \le 30)$ using a normal approximation.
 
@@ -584,9 +576,8 @@ F(x) = \begin`\{cases}` 0 & x \lt a \\ \dfrac{x - a}{b - a} & a \le x \le b \\ 1
 $$
 
 For any $[c, d] \subseteq [a, b]$: $P(c \le X \le d) = \dfrac{d - c}{b - a}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A bus arrives every 15 minutes. $X \sim U(0, 15)$ is the waiting time.
 
@@ -652,9 +643,8 @@ P(X \gt n) = (1-p)^n
 $$
 
 The first $n$ trials must all be failures. Similarly $P(X \ge n) = (1-p)^{n-1}$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A basketball player has free-throw success rate 72%. $X \sim \mathrm{Geo}(0.72)$.
 
@@ -722,9 +712,8 @@ $$
 
 Note the parallel with geometric: multiplying $r$ by a factor scales both $E(X)$ and
 $\mathrm{Var}(X)$ by the same factor.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A coin has $P(\mathrm{heads}) = 0.4$. $X \sim \mathrm{NB}(3, 0.4)$ counts flips for 3 heads.
 
@@ -768,16 +757,14 @@ $$
 
 As $n$ increases, the standard error decreases: larger samples give more precise estimates of the
 Population mean.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Apple masses: mean 150 g, $\sigma = 20$ g. Sample of 36. Find $P(\bar{X} \gt 155)$.
 
 $\bar{X} \sim N(150, 400/36)$. $P\!\left(Z \gt \dfrac{5}{20/6}\right) = P(Z \gt 1.5) = 0.0668$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Sum of uniform variables</strong>
 $X \sim U(2, 10)$. Sample of 50 observations. Find $P(\mathrm{sum} \gt 310)$.
 
@@ -828,9 +815,8 @@ Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$
 
 Required sample size for margin $E$: $n = \left(\dfrac{z_{\alpha/2} \cdot \sigma}{E}\right)^2$
 (round up to the next integer).
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498$ ml.
 
@@ -882,9 +868,8 @@ $$
 $$
 
 Where $\mathrm{Cov}(X, Y) = E(XY) - E(X)E(Y) = 0$ when $X$ and $Y$ are independent.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 <strong>Important</strong>
 Linearity of expectation always holds. The simple variance formula
 $\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ requires independence.
@@ -910,9 +895,8 @@ AX + bY \sim N(a\mu_X + b\mu_Y, a^2\sigma_X^2 + b^2\sigma_Y^2)
 $$
 
 This is exact (not an approximation) for normal variables, and requires no CLT.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 $X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$Independent.
 
@@ -921,9 +905,8 @@ $E(X + Y) = 3 + 6 = 9$
 $\mathrm{Var}(X + Y) = 10(0.3)(0.7) + 15(0.4)(0.6) = 2.1 + 3.6 = 5.7$
 
 $\mathrm{Var}(2X - 3Y) = 4(2.1) + 9(3.6) = 8.4 + 32.4 = 40.8$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example: Normal combinations</strong>
 Bus ride $X \sim N(25, 16)$Walk $Y \sim N(10, 9)$Independent.
 
@@ -1113,15 +1096,13 @@ Probability distributions are recipes for uncertainty. The binomial distribution
    $\mu$ lies in the interval. It means 95% of similarly constructed intervals contain $\mu$.
 
 9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$Not $3\mathrm{Var}(X)$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Exam Strategy</strong>
 Always define your random variable and state the distribution with parameters at the start. For
 Normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
 whether independence is assumed. For confidence intervals, state the level and Interpret in context.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1455,7 +1436,7 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability
@@ -1463,7 +1444,7 @@ Distributions with other IB mathematics topics to test synthesis under exam cond
 
 See for instructions on self-marking
 and building a personal test matrix.
-</aside>
+:::
 ## Worked Examples
 
 **Example 1: Binomial expansion**

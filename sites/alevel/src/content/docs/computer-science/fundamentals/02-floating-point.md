@@ -206,18 +206,18 @@ $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 3. **Cancellation error:** Subtracting nearly equal numbers loses significant digits
 4. **Accumulation error:** Errors compound over many operations
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $|a - b| \lt \epsilon$ for some tolerance.
-</aside>
+:::
 <hr />
 
 ## 5. CIE Simplified 8-Bit Floating Point
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - 1 sign bit
 - 4 exponent bits (excess-8, i.e., bias = 8)
 - 3 mantissa bits
-</aside>
+:::
 **Format:** `S EEEE MMM`
 
 **Decoding:** $(-1)^S \times 0.MMM \times 2^{E - 8}$

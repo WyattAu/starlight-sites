@@ -112,7 +112,7 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 stack. The entire pipeline in the example above likely compiles to a tight loop with no heap
 Allocations.
 
@@ -858,5 +858,4 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

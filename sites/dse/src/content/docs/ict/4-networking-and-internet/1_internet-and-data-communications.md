@@ -95,11 +95,10 @@ Every device is connected to every other device (full mesh) or to multiple devic
 | Disadvantages  | Expensive and complex cabling; difficult to set up and manage; not scalable for large networks (full mesh) |
 | Failure impact | High fault tolerance; data can route around failed connections                                             |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Exam Tip In exam questions, always discuss both advantages AND disadvantages of each</strong>
 Topology. Star is the most common in modern LANs due to ease of management and fault isolation.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -290,9 +289,9 @@ document.getElementById(''myButton").onclick = function () {
 };
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Fundamental principle of web development.
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -439,12 +438,11 @@ To register a domain:
 | **Bluetooth**        | Short-range wireless for peripherals  | 1--2 Mbps (Classic) / 2 Mbps (LE) | ~10 m            | 2.4 GHz               |
 | **Cellular** (4G/5G) | Mobile network                        | 100 Mbps (4G) -- 10 Gbps (5G)     | km-scale         | Various               |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Exam Tip Fibre optics is immune to electromagnetic interference (EMI), supports the</strong>
 Highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
 Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -584,12 +582,11 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 | Network                            | Internet              |
 | Data Link, Physical                | Network Access (Link) |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 <strong>Exam Tip Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll</strong>
 **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

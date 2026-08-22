@@ -74,11 +74,11 @@ $$\pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y$$
 | Self-correction         | Slow or non-existent                     | Automatic, though may take time                              |
 | Government intervention | Essential for stability                  | Minimise — rules-based policy                                |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (9708) Paper 4 often asks students to evaluate the effectiveness of demand-side policies, requiring
 Them to contrast Keynesian and monetarist perspectives. Edexcel requires students to discuss the
 "battle of the economists" in the context of policy debates.
-</aside>
+:::
 ### 1.4 Evaluation: The Keynesian-Monetarist Debate in Practice
 
 In practice, modern macroeconomic policy represents a **synthesis** of both views. The post-2008
@@ -211,12 +211,12 @@ Most modern central banks use **inflation targeting with discretion**:
 
 $$\mathrm{UK (1992–present), NZ (1990–present), Canada (1991–present), Eurozone (2003–present)}$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (Paper 3) often Asks about the role of central bank independence in achieving macroeconomic
 objectives. OCR (Paper 3) may ask students to compare different monetary policy frameworks. CIE
 (9708) Paper 4 Expects students to evaluate the relative merits of rules vs discretion with
 reference to specific Country examples.
-</aside>
+:::
 ## 3. The Lucas Critique
 
 ### 3.1 Statement
@@ -454,12 +454,12 @@ Governments a "blank cheque" risks fiscal profligacy and loss of market confiden
 Apply to countries that borrow in foreign currency (emerging markets — most developing countries).
 (5) Assumes away the crowding out channel and Ricardian equivalence too casually.
 
-<aside aria-label="Common Pitfall MMT is often caricatured as "deficits don't matter." This is a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall MMT is often caricatured as "deficits don't matter." This is a</p>
+:::caution
 Misrepresentation. MMT argues that deficits should be used to achieve real objectives (full
 Employment) and that the only constraint is inflation. It does not claim that unlimited deficits are
 Harmless. However, the practical difficulty of knowing when inflation will emerge makes MMT's policy
 Prescriptions risky.
-</aside>
+:::
 ### 5.3 Exam Technique: Evaluating Policy Frameworks
 
 When evaluating any macroeconomic policy framework (inflation targeting, MMT, fiscal rules), use the
@@ -529,12 +529,12 @@ Dollar, partially crowding out the fiscal stimulus.
 Amplified. When they pull in opposite directions, they partially offset each other, and the net
 Effect depends on the relative strength of each.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Effectiveness of policy mixes. Edexcel Paper 3 expects discussion of policy conflicts and
 Trade-offs. OCR may ask about the role of the Treasury and `` `{BoE}` `` in coordinating policy. CIE
 Paper 4 frequently asks students to assess whether government intervention can achieve multiple
 Macroeconomic objectives simultaneously.
-</aside>
+:::
 ## 7. Nominal GDP Targeting: An Alternative Framework
 
 ### 7.1 Concept
@@ -715,7 +715,7 @@ Flexible inflation target (average inflation targeting, as adopted by the Fed in
 Complete regime change.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Treating Keynesianism and monetarism as mutually exclusive:** Modern macroeconomic policy is a
   synthesis of both views. Keynesian demand management is appropriate during recessions (especially
   at the zero lower bound), while monetarist concerns about inflation dominate near full employment.
@@ -1426,4 +1426,4 @@ The Keynesian-monetarist debate boils down to a simple question: when the econom
 The time-inconsistency problem is one of the most elegant ideas in economics, and it explains why politicians can't be trusted with the money supply. Imagine a government promises low inflation. Believing this, workers accept moderate pay rises. But then the government thinks: "If I secretly create a bit of inflation, firms will hire more workers and the economy will boom — and by the time workers realise, the election will be over." The problem is that workers aren't stupid. They figure out this trick, demand higher wages upfront, and you end up with high inflation and no extra jobs. It's like a restaurant that promises fresh food but keeps reheating yesterday's soup — eventually customers stop believing the menu. The solution is to hand the keys to an independent central bank that can't be tempted by election cycles.
 
 Quantitative easing and the zero lower bound reveal the limits of conventional economics. When interest rates hit zero, the central bank's main tool is broken — you can't cut rates below zero (or at least, not far). QE is the emergency response: the central bank creates new money and uses it to buy government bonds, pushing down long-term interest rates and encouraging banks to lend. Think of it as the central bank flooding the plumbing of the financial system with oil to get the gears turning again. But QE has a dirty secret — it mainly benefits people who own assets (houses, shares, bonds), which tend to be wealthier. It's like watering a garden by flooding the top of the hill: the rich plants get plenty, but the poor ones at the bottom may not see a drop. This is why the post-2008 recovery felt so uneven, and why debates about QE's fairness are just as important as debates about its effectiveness.
-</aside>
+:::

@@ -21,19 +21,19 @@ the explanation.
 
 ### Types and Variables
 
-<PracticeProblem client:only="solid-js" question={"What is the type of the expression `42.class`?&quot; options={['Integer', 'Fixnum', 'Numeric', 'Object']} correctAnswer={0} explanation=&quot;42.class returns Integer. Since Ruby 2.4, Fixnum and Bignum were unified into Integer with arbitrary precision. There is no Fixnum or Bignum class in modern Ruby."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the type of the expression `42.class`?&quot; options={['Fixnum','Numeric','Integer','Object']} correctAnswer={2} explanation=&quot;42.class returns Integer. Since Ruby 2.4, Fixnum and Bignum were unified into Integer with arbitrary precision. There is no Fixnum or Bignum class in modern Ruby."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"Which of the following values is falsy in Ruby?&quot; options={['nil', '0', '&quot;&quot; (empty string)', '[] (empty array)']} correctAnswer={0} explanation=&quot;Only nil and false are falsy in Ruby. The integer 0, empty strings, empty arrays, and empty hashes are all truthy. This differs from languages like Python where 0 and empty collections are falsy."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"Which of the following values is falsy in Ruby?&quot; options={['0','&quot;&quot; (empty string)','[] (empty array)','nil']} correctAnswer={3} explanation=&quot;Only nil and false are falsy in Ruby. The integer 0, empty strings, empty arrays, and empty hashes are all truthy. This differs from languages like Python where 0 and empty collections are falsy."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question='What does `"hello".equal?("hello")` return?' options={['false', 'true', 'nil', 'TypeError']} correctAnswer={0} explanation="equal? checks object identity (same object in memory). Two string literals with the same content are different objects, so equal? returns false. Use == for content comparison, eql? for content and type comparison." difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question='What does `"hello".equal?("hello")` return?' options={['true','nil','TypeError','false']} correctAnswer={3} explanation="equal? checks object identity (same object in memory). Two string literals with the same content are different objects, so equal? returns false. Use == for content comparison, eql? for content and type comparison." difficulty="medium"  />
 
 ---
 
 ### Blocks and Iterators
 
-<PracticeProblem client:only="solid-js" question={"What does `[1, 2, 3, 4, 5].select { |n| n.odd? }.map { |n| n ** 2 }` return?&quot; options={['[1, 9, 25]', '[1, 4, 9, 16, 25]', '[9, 25]', '[1, 3, 5]']} correctAnswer={0} explanation=&quot;select filters to keep only odd numbers: [1, 3, 5]. Then map squares each: [1, 9, 25]. Higher-order methods chain left-to-right."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What does `[1, 2, 3, 4, 5].select { |n| n.odd? }.map { |n| n ** 2 }` return?&quot; options={['[1, 4, 9, 16, 25]','[9, 25]','[1, 9, 25]','[1, 3, 5]']} correctAnswer={2} explanation=&quot;select filters to keep only odd numbers: [1, 3, 5]. Then map squares each: [1, 9, 25]. Higher-order methods chain left-to-right."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"What is the output of `5.times { |i| puts i }` and what range of values does `i` take?&quot; options={['Prints 0 through 4', 'Prints 1 through 5', 'Prints 0 through 5', 'Prints 1 through 4']} correctAnswer={0} explanation=&quot;Integer#times iterates from 0 to n-1. So 5.times yields 0, 1, 2, 3, 4. The upper bound is exclusive, not inclusive. Use 1.upto(5) for 1 through 5."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the output of `5.times { |i| puts i }` and what range of values does `i` take?&quot; options={['Prints 0 through 4','Prints 1 through 5','Prints 0 through 5','Prints 1 through 4']} correctAnswer={0} explanation=&quot;Integer#times iterates from 0 to n-1. So 5.times yields 0, 1, 2, 3, 4. The upper bound is exclusive, not inclusive. Use 1.upto(5) for 1 through 5."} difficulty="easy"  />
 
 ---
 
@@ -55,7 +55,7 @@ the explanation.
 
 ### Metaprogramming
 
-<PracticeProblem client:only="solid-js" question={"Which method should you always define alongside method_missing to maintain respond_to? correctness?&quot; options={['respond_to_missing?', 'respond_to?', 'method_defined?', 'has_method?']} correctAnswer={0} explanation=&quot;respond_to_missing? must be defined alongside method_missing. Without it, respond_to? returns false for dynamically handled methods, breaking polymorphism. The second parameter include_private controls whether private methods are included."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"Which method should you always define alongside method_missing to maintain respond_to? correctness?&quot; options={['respond_to?','respond_to_missing?','method_defined?','has_method?']} correctAnswer={1} explanation=&quot;respond_to_missing? must be defined alongside method_missing. Without it, respond_to? returns false for dynamically handled methods, breaking polymorphism. The second parameter include_private controls whether private methods are included."} difficulty="hard"  />
 
 ## Intuition
 

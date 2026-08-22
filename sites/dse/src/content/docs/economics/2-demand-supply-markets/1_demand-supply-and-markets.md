@@ -65,9 +65,9 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 | Expectation of future price increase | Demand shifts right |
 | Successful advertising               | Demand shifts right |
 
-<aside aria-label="Remember: a change in the good"s own price causes movement **along** the curve. A change in" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Remember: a change in the good"s own price causes movement **along** the curve. A change in</p>
+:::tip
 Any other factor causes a **shift** of the curve. DSE exams frequently test this distinction.
-</aside>
+:::
 ### Individual Demand vs Market Demand
 
 Market demand is the horizontal sum of all individual demands at each price level.
@@ -245,9 +245,9 @@ $$\mathrm{Total Revenue (TR)} = P \times Q$$
 | Inelastic (PED &lt; 1) | TR increases   | TR decreases   |
 | Unit elastic (PED = 1) | TR unchanged   | TR unchanged   |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Price if demand is inelastic. This is a very common exam question.
-</aside>
+:::
 ### Worked Example 3
 
 The price of a good increases from USD 50 to USD 60. Quantity demanded falls from 200 to 160 units.
@@ -787,10 +787,10 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 | Deadweight loss  | None                           | Present            |
 | Innovation       | May lack incentive             | May have incentive |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 lower total Revenue.
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 - **Confusing a change in demand with a change in quantity demanded:** A change in quantity demanded
   is caused by a price change and is a MOVEMENT ALONG the demand curve. A change in demand is caused
   by non-price factors (income, tastes, prices of related goods) and is a SHIFT of the entire demand
@@ -810,8 +810,7 @@ lower total Revenue.
   the supply curve LEFT (upward), increasing equilibrium price and decreasing quantity. A subsidy
   shifts supply RIGHT (downward), decreasing price and increasing quantity. The burden of a tax is
   shared between consumers and producers depending on the price elasticity of demand and supply.
-
-</aside>
+:::
 ## National Income Accounting
 
 ### Measuring National Income

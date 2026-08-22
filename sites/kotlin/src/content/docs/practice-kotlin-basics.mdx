@@ -19,7 +19,7 @@ the explanation.
 
 ### Null Safety
 
-<PracticeProblem client:only="solid-js" question={`What is the type of the expression \`val x: String? = null; val y = x?.length ?: "default"\`?`} options={['String', 'Int?', 'Any', 'Int']} correctAnswer={0} explanation={`The safe call \`x?.length\` returns \`Int?\` (null if x is null). The elvis operator \`?:\` provides \`"default"\` (a String) as the fallback. Since one branch produces \`Int\` and the other produces \`String\`, the compiler resolves the common supertype as \`Any\`. If both sides had the same type, the result would be that type.`} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`What is the type of the expression \`val x: String? = null; val y = x?.length ?: "default"\`?`} options={['Int?','String','Any','Int']} correctAnswer={1} explanation={`The safe call \`x?.length\` returns \`Int?\` (null if x is null). The elvis operator \`?:\` provides \`"default"\` (a String) as the fallback. Since one branch produces \`Int\` and the other produces \`String\`, the compiler resolves the common supertype as \`Any\`. If both sides had the same type, the result would be that type.`} difficulty="medium"  />
 
 ---
 
@@ -57,13 +57,13 @@ the explanation.
 
 ### Type System
 
-<PracticeProblem client:only="solid-js" question={`What is the result type of \`val x = if (true) 42 else "hello"\`?`} options={['Any', 'Int', 'String', 'Compilation error']} correctAnswer={0} explanation="The`if` expression returns `Int` in the true branch and `String` in the false branch. The compiler finds the nearest common supertype, which is `Any`. This is valid Kotlin --`x` has type `Any`. If you need a more specific type, both branches must produce compatible types. This is a key difference from Java where such an expression would require explicit casting." difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={`What is the result type of \`val x = if (true) 42 else "hello"\`?`} options={['Int','String','Compilation error','Any']} correctAnswer={3} explanation="The`if` expression returns `Int` in the true branch and `String` in the false branch. The compiler finds the nearest common supertype, which is `Any`. This is valid Kotlin --`x` has type `Any`. If you need a more specific type, both branches must produce compatible types. This is a key difference from Java where such an expression would require explicit casting." difficulty="easy"  />
 
 ---
 
 ### Collections
 
-<PracticeProblem client:only="solid-js" question={`What is the result of \`listOf(1, 2, 3, 2, 1).distinct().map { it *2 }\`?`} options={['[2, 4, 6]', '[2, 4, 6, 4, 2]', '[1, 2, 3]', '[4, 2, 6]']} correctAnswer={0} explanation="The`distinct()` function removes duplicate elements while preserving order, producing `[1, 2, 3]`. Then`map { it* 2 }` transforms each element to its double, producing `[2, 4, 6]`. Both operations return new`List` instances without modifying the original list, since Kotlin collections are immutable by default." difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={`What is the result of \`listOf(1, 2, 3, 2, 1).distinct().map { it *2 }\`?`} options={['[2, 4, 6, 4, 2]','[2, 4, 6]','[1, 2, 3]','[4, 2, 6]']} correctAnswer={1} explanation="The`distinct()` function removes duplicate elements while preserving order, producing `[1, 2, 3]`. Then`map { it* 2 }` transforms each element to its double, producing `[2, 4, 6]`. Both operations return new`List` instances without modifying the original list, since Kotlin collections are immutable by default." difficulty="easy"  />
 
 ---
 

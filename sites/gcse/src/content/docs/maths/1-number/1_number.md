@@ -22,9 +22,9 @@ categories:
 
 ## Number
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 1
-</aside>
+:::
 ## 1. Types of Number
 
 ### 1.1 The Number System
@@ -78,10 +78,10 @@ $rs = q \in
 \mathbb{Q}$. Then $S = \frac{q}{r} \in \mathbb{Q}$ (since $R \neq 0$), a contradiction.
 $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $\sqrt{2} \times \sqrt{2} = 2$. The sum of two irrational numbers can also be rational:
 $(1 + \sqrt{2}) + (1 - \sqrt{2}) = 2$.
-</aside>
+:::
 ### 1.2 Prime Numbers and Factorisation
 
 **Definition.** A **prime number** is a natural number greater than 1 that has exactly two factors:
@@ -250,9 +250,9 @@ After the reduction: $120 \times 0.85 = 102$ pounds.
 
 After the increase: $102 \times 1.15 = 117.30$ pounds.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Second percentage is applied to a smaller base.
-</aside>
+:::
 **Theorem.** A percentage increase of $P\%$ followed by a percentage decrease of $P\%$ (or vice
 Versa) always results in a net decrease. The net effect is a decrease of $\frac{P^2}{100}\%$.
 
@@ -439,9 +439,9 @@ Bounds for width: $5.15 \leq w \lt 5.20$
 - Upper bound of area: $8.45 \times 5.20 = 43.94 \mathrm{ cm^2$
 - Lower bound of area: $8.35 \times 5.15 = 43.0025 \mathrm{ cm^2$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Positive quantities).
-</aside>
+:::
 **Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$Both correct to 1 decimal place. Find the
 Lower bound of $\frac{x}{y}$.
 
@@ -527,7 +527,7 @@ Places, all digits beyond that point are discarded (not rounded).
 
 **Example.** Truncate $\pi$ to 3 decimal places: $3.141$ (not $3.142$).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Cutoff is 5 or greater. Be sure to read the question carefully.
 
 ## 6. Direct and Inverse Proportion
@@ -779,8 +779,7 @@ theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::
 
 ## See Also
 

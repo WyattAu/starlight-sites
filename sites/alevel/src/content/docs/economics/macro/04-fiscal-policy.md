@@ -42,10 +42,10 @@ $$\mathrm{Budget balance} = T - G$$
 - **Budget deficit**: $G > T$ (government spending exceeds revenue)
 - **Balanced budget**: $T = G$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 And the national debt. AQA and Edexcel may ask about the UK's fiscal rules (e.g., the fiscal mandate
 And supplementary target).
-</aside>
+:::
 ## 2. Government Spending
 
 ### 2.1 Types of Government Spending
@@ -68,10 +68,10 @@ Only $G$ in the AD equation ($AD = C + I + G + (X - M)$) represents spending on 
 Transfer payments are not directly part of $G$ — they affect $AD$ indirectly through their effect on
 Disposable income and hence consumption ($C$).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 They affect $C$Not $G$ directly. However, exam questions sometimes use "government spending" loosely
 — always clarify What is meant.
-</aside>
+:::
 ### 2.2 Government Spending as a Share of GDP
 
 $$\mathrm{Government spending ratio} = \frac{G}{Y} \times 100\%$$
@@ -153,11 +153,11 @@ Income):
 
 ATR falls with income because higher earners save a larger proportion of income. ✓ $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 The ATR at different income levels. Never just state the marginal rate — a tax can have increasing
 Marginal rates but still be regressive in practice (e.g., if there are generous allowances for high
 Earners).
-</aside>
+:::
 ### 3.3 Laffer Curve
 
 The **Laffer curve** illustrates the theoretical relationship between the tax rate and tax revenue:
@@ -200,10 +200,10 @@ $$\frac{D}{Y} = \frac{D_t}{Y_t}$$
 This is the preferred measure of debt sustainability, since a large absolute debt is manageable if
 GDP is also large.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 _flow_ (per year), While the debt is a _stock_ (accumulated). Reducing the deficit does _not_ reduce
 the debt — it Merely slows the rate at which debt grows. Only a surplus reduces the debt.
-</aside>
+:::
 ### 4.2 Debt Dynamics
 
 The evolution of the debt-to-GDP ratio is given by:
@@ -319,10 +319,10 @@ Prices, reducing private sector profitability.
 | Source of financing             | Domestic borrowing             | Foreign borrowing / monetary financing    |
 | Type of spending                | Current spending (consumption) | Capital spending (productivity-enhancing) |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Answer recognises that crowding out is less severe in a recession (Keynesian view) and more severe
 At full employment (Classical view). Reference the state of the economic cycle.
-</aside>
+:::
 ## 7. Automatic Stabilisers
 
 ### 7.1 Definition
@@ -572,7 +572,7 @@ Out." Evaluate this statement.
 Partially false. Crowding out was limited during 2008–09 because: (1) The economy was in deep recession with large output gap → idle resources available. (2) Interest rates were cut to near zero (the zero lower bound) → central bank accommodated fiscal expansion by keeping $r$ low. (3) Private investment was already depressed ( pessimism) → crowding out was minimal. However: (1) The UK's high MPM (~0.3) reduced the multiplier. (2) Some financial crowding out occurred as government borrowing increased. (3) Confidence effects may have amplified or dampened the policy. The effectiveness of fiscal policy was moderate — sufficient to prevent a deeper recession but not enough to deliver a rapid recovery. *Revision: see [Macroeconomic Performance](01-macroeconomic-performance) for data on UK GDP and unemployment post-2008.*
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Including transfer payments as part of G in the AD equation:** Transfer payments (benefits,
   pensions) are NOT part of government spending G in AD = C + I + G + (X-M). They affect AD
   indirectly through their effect on disposable income and therefore consumption C. Including them
@@ -1035,8 +1035,7 @@ uncertain and time-varying.
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
-
-</aside>
+:::
 
 ## Cross-References
 

@@ -254,7 +254,7 @@ A plot of $\dfrac{1}{[\mathrm{A}]}$ vs $t$ gives a straight line with gradient $
 2. Measure the initial rate for each experiment.
 3. Compare how the rate changes when one concentration changes while others are held constant.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 For the reaction A + B $\to$ products, the following data was obtained:
 
@@ -336,9 +336,8 @@ A plot of $\ln k$ vs $\dfrac{1}{T}$ gives a straight line:
 $$
 \ln\!\left(\frac{k_2}{k_1}\right) = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 The rate constant for a reaction is $3.2 \times 10^{-3}\mathrm{ s}^{-1}$ at $300\mathrm{ K}$ and
 $1.5 \times 10^{-2}\mathrm{ s}^{-1}$ at $350\mathrm{ K}$. Find the activation energy.
@@ -400,9 +399,8 @@ Determined by the rate-determining step.
 
 Intermediates (species produced and consumed in the mechanism) do not appear in the rate equation
 For the overall reaction.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 The overall reaction is $2\mathrm{NO}_2 + \mathrm{F}_2 \to 2\mathrm{NO}_2\mathrm{F}$.
 
@@ -590,9 +588,8 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 | Two-point Arrhenius    | $\ln(k_2/k_1) = \dfrac{E_a}{R}\!\left(\dfrac{1}{T_1} - \dfrac{1}{T_2}\right)$ |
 | First-order half-life  | $t_{1/2} = \dfrac{0.693}{k}$                                                  |
 | First-order integrated | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                                    |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 <strong>Exam Strategy</strong>
 For rate equation questions, always use the initial rates method systematically. For Arrhenius
 Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechanism questions, the
@@ -627,9 +624,8 @@ Equilibrium approximations.
 | Zero   | Rate $= k$               | $[\mathrm{A}] = [\mathrm{A}]_0 - kt$                       | $\dfrac{[\mathrm{A}]_0}{2k}$ |
 | First  | Rate $= k[\mathrm{A}]$   | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                 | $\dfrac{\ln 2}{k}$           |
 | Second | Rate $= k[\mathrm{A}]^2$ | $\dfrac{1}{[\mathrm{A}]} = \dfrac{1}{[\mathrm{A}]_0} + kt$ | $\dfrac{1}{k[\mathrm{A}]_0}$ |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 For a first-order reaction with $k = 0.025\mathrm{ min}^{-1}$ and
 $[\mathrm{A}]_0 = 0.50\mathrm{ M}$:
@@ -869,9 +865,8 @@ When given concentration-time data (not initial rates), use graphical methods:
 1. Plot $[\mathrm{A}]$ vs $t$: if linear, zero order.
 2. Plot $\ln[\mathrm{A}]$ vs $t$: if linear, first order. Gradient $= -k$.
 3. Plot $1/[\mathrm{A}]$ vs $t$: if linear, second order. Gradient $= k$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 The concentration of a reactant was measured over time:
 
@@ -1235,8 +1230,7 @@ $$k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

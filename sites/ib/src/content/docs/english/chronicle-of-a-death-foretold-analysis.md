@@ -924,9 +924,9 @@ Single, objective truth.
 
 ## Exam Preparation: Key Quotations and Discussion Points
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Ability to analyse specific textual detail is essential.
-</aside>
+:::
 **Opening sentence:** "On the day they were going to kill him, Santiago Nasar got up at five-thirty
 In the morning to wait for the boat the bishop was coming on."
 
@@ -970,12 +970,12 @@ Carrying all the letters unopened suggests that the act of writing, rather than 
 Is the true vehicle of meaning: the letters are a testament to desire, not a vehicle for
 Information.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Literary feature (narrative structure, imagery, irony) and tracing its operation across multiple
 Passages. Avoid plot summary; instead, analyse specific textual details and explain how they
 Contribute to the novel's overall meaning.
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 - **Treating the narrative structure as straightforward chronology:** The novel opens with the
   announcement of Santiago Nasar's death and then works backward and forward in time. Students often
   write essays that describe events in chronological order, missing Marquez's deliberate non-linear
@@ -1106,8 +1106,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

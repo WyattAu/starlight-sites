@@ -73,12 +73,12 @@ Subsumption ordering.
 | `std::unsigned_integral<T>` | `T` is an unsigned integral type [§18.4.3] |
 | `std::floating_point<T>`    | `T` is a floating-point type [§18.4.3]     |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Types that behave like built-in values: they can be copied, default-constructed, and compared for
 Equality. `int``double`And `std::string` are all `std::regular`. `std::unique_ptr` is `std::movable`
 but not `std::regular` (not copyable). `std::mutex` is neither `std::movable` nor `std::copyable`.
 These concepts are the vocabulary types of generic programming.
-</aside>
+:::
 ## Understanding `std::derived_from` vs `std::is_base_of`
 
 `std::derived_from<D, B>` is stricter than `std::is_base_of_v<B, D>`:
@@ -381,11 +381,11 @@ sum = 45
 product = 362880
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Prefer `std::ranges::range` over manually checking `begin()`/`end()`. Prefer
 `std::ranges::range_value_t<R>` over `typename R::value_type` (it works with proxy iterators). Range
 Concepts are defined in `<ranges>` [N4950 §26.2] and compose with the concepts in `<concepts>`.
-</aside>
+:::
 ## Range Concepts
 
 The `<ranges>` header provides concepts that operate on ranges (pairs of iterators and sentinels)

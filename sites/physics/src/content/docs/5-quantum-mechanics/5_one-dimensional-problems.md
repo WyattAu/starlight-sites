@@ -51,11 +51,11 @@ $$\phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \
 - Energy levels are not equally spaced; $E_n \propto n^2$.
 - There are $(n - 1)$ nodes in the $n$-th eigenstate.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $\phi(x) = 0$ everywhere, Which is not normalisable. Furthermore, $E_1 > 0$ (zero-point energy) is a
 direct consequence of The uncertainty principle: confining the particle to a finite region requires
 kinetic energy.
-</aside>
+:::
 ### 5.2 The Quantum Harmonic Oscillator
 
 $V(x) = \frac{1}{2}m\omega^2 x^2$.
@@ -328,11 +328,11 @@ $$T \approx \frac{16E(V_0 - E)}{V_0^2}\,e^{-2\kappa a}$$
 The exponential factor $e^{-2\kappa a}$ is the hallmark of quantum tunnelling: the probability of
 Penetration decreases exponentially with barrier width and height.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 "have" energy $V_0$ inside The barrier; rather, the wave function extends into the classically
 forbidden region with Exponentially decreasing amplitude. The particle's energy is $E \lt V_0$
 throughout.
-</aside>
+:::
 **Example 5.2.** An electron with $E = 5$ eV approaches a barrier of height $V_0 = 10$ eV and Width
 $a = 0.5$ nm. Calculate $T$.
 

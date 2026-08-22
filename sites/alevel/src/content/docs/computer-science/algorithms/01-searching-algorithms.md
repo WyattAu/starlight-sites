@@ -144,10 +144,10 @@ $$n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omeg
 
 $\square$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Gives incorrect results. Also, beware of integer overflow when computing `mid = (low + high) // 2` —
 Use `mid = low + (high - low) // 2` for safety.
-</aside>
+:::
 <details>
 <summary>Example: Trace binary search for x = 7 in [1, 3, 5, 7, 9, 11, 13]</summary>
 
@@ -188,11 +188,11 @@ def binary_search_recursive(A, x, low, high):
         return binary_search_recursive(A, x, low, mid - 1)
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Sorted data and may require trace tables. **CIE (9618)** requires linear search and binary search
 With pseudocode. **OCR (A)** requires linear and binary search; may also cover hash-based searching.
 **Edexcel** covers linear and binary search algorithms.
-</aside>
+:::
 <hr />
 
 ## 3. Comparison of Search Algorithms
@@ -231,9 +231,9 @@ def binary_search_insert_position(A, x):
 Binary search can be used to find a threshold in a continuous or discrete answer space (e.g.,
 "minimum maximum", "maximum minimum" problems).
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 And trace through the algorithm step by step. Show the low, high, mid values at each iteration.
-</aside>
+:::
 <hr />
 
 ## Problem Set

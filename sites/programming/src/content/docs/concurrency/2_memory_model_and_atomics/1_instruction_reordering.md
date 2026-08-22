@@ -189,11 +189,11 @@ Prior access:
 
 $$\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Dependencies provide ordering, but on ARM and POWER, the processor may speculatively execute the
 Dependent load before the controlling branch is resolved. Always use explicit memory ordering
 (acquire/release) rather than relying on control dependencies.
-</aside>
+:::
 ### Data Dependencies as Ordering
 
 On most architectures, a true data dependency (RAW — Read After Write) prevents reordering because
@@ -311,9 +311,9 @@ Relationships.
 
 ## Concrete Example: Reordering Bug
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 purposes only. Do not Write code like this in production.
-</aside>
+:::
 ```cpp
 #include <iostream>
 #include <thread>
@@ -344,7 +344,7 @@ int main() {
 
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the stores due to Store buffering. On x86, stores are not reordered with other stores (TSO), so this
 particular Example would likely work on x86 but fail on ARM. This is a common source of subtle
 cross-platform Bugs.
@@ -730,5 +730,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

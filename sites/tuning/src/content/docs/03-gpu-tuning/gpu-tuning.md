@@ -271,7 +271,7 @@ Increases memory bandwidth, which benefits workloads that are memory-bandwidth b
 | RTX 4070    | 10500 MHz (21 Gbps) | +200 to +500 MHz         | 2–5%               |
 | RX 7900 XTX | 10000 MHz (20 Gbps) | +500 to +1000 MHz        | 5–10%              |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (machine learning, rendering, scientific computing), memory instability can produce silently
 Incorrect results. Thoroughly test with error-checking workloads (e.g., CUDA memtest) before relying
 On an overclocked GPU for production compute.
@@ -943,8 +943,7 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Cooling](/tuning/05-cooling-systems/cooling) - How GPU thermal design and cooling solutions affect boost clock behavior

@@ -34,9 +34,9 @@ description: "Comprehensive educational content notes on chemistry - acids, base
 - Acid: electron pair acceptor
 - Base: electron pair donor
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The proton donor and proton acceptor in acid-base reactions.
-</aside>
+:::
 ### Conjugate Acid-Base Pairs
 
 When an acid donates a proton, the remaining species is its conjugate base. When a base accepts a
@@ -57,9 +57,9 @@ $$\mathrm{HA} + \mathrm{B} \rightleftharpoons \mathrm{A}^- + \mathrm{BH}^+$$
 | Conductivity               | Higher                                                    | Lower                                                                |
 | Reaction rate (same conc.) | Faster                                                    | Slower                                                               |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 dilute solution of a Strong acid can have a higher pH than a concentrated solution of a weak acid.
-</aside>
+:::
 ### Common Strong Acids and Bases
 
 **Strong acids:** $\mathrm{HCl}$$\mathrm{HBr}$$\mathrm{HI}$$\mathrm{HNO}_3$
@@ -138,10 +138,10 @@ $$x = 1.34 \times 10^{-3} \mathrm{ mol/dm}^3$$
 
 $$\mathrm{pH} = -\log_{10}(1.34 \times 10^{-3}) = 2.87$$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the degree Of ionisation is small ( when $K_a \lt 10^{-4}$). This simplification is valid for most
 DSE-level problems.
-</aside>
+:::
 ### Worked Example: pH After Dilution
 
 A solution of $\mathrm{HCl}$ has $\mathrm{pH} = 2.00$. If $10.0 \mathrm{ cm^3}$ of this solution is
@@ -450,9 +450,9 @@ $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$)
 
 Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$): The halogen is discharged
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $\mathrm{OH}^-$ may be Preferentially discharged.
-</aside>
+:::
 ### Worked Example 9
 
 Describe the electrolysis of concentrated aqueous $\mathrm{NaCl}$ using carbon electrodes.
@@ -796,7 +796,7 @@ $$\mathrm{pH} = 4.74 + \log_{10}\left(\frac{0.19}{0.11}\right) = 4.74 + \log_{10
 The pH changed from 5.04 to 4.98, a change of only 0.06. Without the buffer, adding
 $0.01 \mathrm{ mol}$ of $\mathrm{HCl}$ to $1 \mathrm{ dm}^3$ of water would give pH = 2.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $\mathrm{p}K_a \pm 1$.
 
 ---
@@ -1343,7 +1343,7 @@ because the buffer system absorbs the added base. The buffer resists large pH ch
 $$
 
 $$
-</aside>
+:::
 
 ## Cross-References
 

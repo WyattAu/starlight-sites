@@ -22,7 +22,7 @@ categories:
 
 ## Programming
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 2
 
 ## 1. Programming Concepts
@@ -753,8 +753,7 @@ implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-
-</aside>
+:::
 
 ## Intuition
 

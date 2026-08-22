@@ -22,12 +22,12 @@ categories:
 
 ## 1. International Trade: Comparative Advantage
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Numerical examples and covers the Ricardian and Heckscher-Ohlin models. **AQA** focuses on the gains
 From trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
 Analysis of trade flows and the UK"s trade relationships. **OCR (A)** covers trade theory alongside
 The impact of MNCs and requires evaluation of trade policies.
-</aside>
+:::
 ### 1.1 Absolute vs Comparative Advantage
 
 **Absolute advantage**: a country can produce more of a good with the same resources than another
@@ -94,10 +94,10 @@ For example, at $p = 1$ (1 unit of Wine for 1 unit of Cloth):
 
 Both are strictly better off. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 show Specialisation increases world output, (4) show a mutually beneficial exchange rate. Use a
 numerical Example.
-</aside>
+:::
 ### 1.3 Limitations of the Ricardian Model
 
 1. **Constant returns to scale**: assumes constant opportunity costs (linear PPF). In reality,
@@ -156,18 +156,18 @@ Buy the same quantity of imports as in 2020.
 | Inflation differentials                 | If domestic inflation > trading partners' inflation → ToT deteriorates |
 | Technological progress in export sector | Unit costs fall → export prices may fall → ToT deteriorates            |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 abroad), consumers Benefit from lower prices. Conversely, an improvement caused by a fall in export
 volumes (due to Declining competitiveness) may actually reflect economic weakness.
-</aside>
+:::
 ## 3. Exchange Rates
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 determination, Purchasing power parity, and the effects of exchange rate changes on the balance of
 payments. **Edexcel** emphasises the UK context including Brexit impacts on trade and the pound.
 **OCR (A)** Links exchange rates to macroeconomic policy objectives and requires evaluation of
 intervention.
-</aside>
+:::
 ### 3.1 Definition
 
 The **exchange rate** is the price of one currency in terms of another.
@@ -287,10 +287,10 @@ The path of the current account traces a **J-shape**:
 
 $$CA \mathrm{ falls initially, then rises above the starting level}$$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 (Marshall-Lerner — CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
 explicitly.
-</aside>
+:::
 ## 5. Globalisation
 
 ### 5.1 Definition
@@ -368,10 +368,10 @@ War, reshoring) reflects these tensions.
 - **Genuine Progress Indicator (GPI)**: adjusts GDP for environmental costs, inequality, and unpaid
   work
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 political freedom, (3) it Is biased toward market activity (excludes subsistence farming, unpaid
 work). Always use multiple Indicators.
-</aside>
+:::
 ### 6.2 Barriers to Economic Development
 
 1. **Poverty trap**: low income → low savings → low investment → low growth → low income (vicious
@@ -551,7 +551,7 @@ Theory of comparative advantage and the concept of trade creation and diversion.
 Comparative advantage: leaving the EU's single market means the UK faces tariffs and non-tariff barriers when trading with EU members. This reduces the gains from trade based on comparative advantage — UK producers who were competitive within the EU now face higher costs of exporting. Trade creation/diversion: leaving the EU is like *reverse trade creation* — the UK loses the trade-creating effects of the single market. New trade agreements with non-EU countries may create some trade, but: (1) EU is the UK's largest trading partner (43% of exports) — hard to replace. (2) Non-tariff barriers (regulatory divergence, customs checks) increase costs even without tariffs. (3) Services (80% of UK economy) are particularly affected — harder to negotiate services trade deals. Estimated cost: OBR estimates Brexit reduces long-run UK productivity by 4%. Potential benefits: regulatory autonomy, independent trade policy, control over migration. The net effect depends on how effectively the UK uses its new regulatory freedom.
 </details>
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Confusing absolute and comparative advantage:** A country with absolute advantage in BOTH goods
   still benefits from trade based on comparative advantage (lower opportunity cost). Students often
   incorrectly conclude that a country with absolute disadvantage in everything should not trade.
@@ -1194,5 +1194,4 @@ deterioration.
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
-
-</aside>
+:::

@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1, 2 | Includes vector equations of lines                 |
 | CIE (9709) | P1, P2, P3 | 2D in P1; 3D and lines in P2/P3                    |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 And converting between column and $\mathbf{i},\mathbf{j},\mathbf{k}$ notation.
-</aside>
+:::
 <hr />
 
 ## 1. Vectors in 2D and 3D
@@ -214,10 +214,10 @@ $$x = a_1 + tb_1, \quad y = a_2 + tb_2, \quad z = a_3 + tb_3$$
 
 In 2D, eliminating $t$: $\dfrac{x - a_1}{b_1} = \dfrac{y - a_2}{b_2}$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 multiple of the Direction. Always check your answer gives a point and direction consistent with the
 question.
-</aside>
+:::
 ### 5.4 Vector equation of a line in 3D
 
 The vector equation of a line in 3D has the same form as in 2D, but now operates in three
@@ -230,9 +230,9 @@ The parametric form is:
 
 $$x = x_0 + td_1, \quad y = y_0 + td_2, \quad z = z_0 + td_3$$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 $\overrightarrow{BA}$ --- both give the same line.
-</aside>
+:::
 **Example.** Find the vector equation of the line through $P(2, -1, 3)$ and $Q(5, 1, -2)$.
 
 Direction: $\overrightarrow{PQ} = \begin{pmatrix}3\\2\\-5\end{pmatrix}$.
@@ -303,10 +303,10 @@ $\overrightarrow{AP}$ and $\mathbf{d}$ whose magnitude equals the area of the pa
 Span. Dividing by $|\mathbf{d}|$ (the base) gives the perpendicular height, i.e. The shortest
 Distance.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The cross-product formula is listed here for reference and is examined on CIE P3 and some OCR
 Papers.
-</aside>
+:::
 **Example using the dot-product method.** Find the distance from $P(4, 1, -1)$ to the line
 $\mathbf{r} = \begin{pmatrix}1\\0\\2\end{pmatrix} + t\begin{pmatrix}2\\1\\-1\end{pmatrix}$.
 
@@ -432,10 +432,10 @@ $\overrightarrow{AD} = \overrightarrow{BC}$).
 1. Compute the relevant displacement vectors.
 2. Show opposite sides are equal as vectors (same components).
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Magnitude. To show a **rectangle**, show that adjacent sides are perpendicular. A **square**
 Requires both conditions.
-</aside>
+:::
 ### 10.4 Using vectors in geometric proofs
 
 Many geometry problems can be solved elegantly using vectors. The general strategy is:
@@ -830,7 +830,7 @@ The adjacent sides are not perpendicular, so $ABCD$ is **not** a rectangle.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Vectors
@@ -838,7 +838,7 @@ with other pure mathematics topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Common Pitfalls
 
 1. Confusing position vectors with direction vectors. Position vectors point from the origin.

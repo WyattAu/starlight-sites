@@ -138,7 +138,7 @@ In the graph above, after checking out commit `C` (detached HEAD), commits `E` a
 $ git branch recover-feature  # Creates a branch pointing to F
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 - Examining historical commits without creating a branch
 - Building a release from a specific tag
 - Running `git bisect` (which checks out arbitrary commits)
@@ -241,9 +241,8 @@ $ git push origin :feature-login
 # Force push (overwrites remote history)
 $ git push origin +main:main
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Based work on the old commits, they will encounter conflicts. Only force push to branches that you
 Exclusively own (feature branches, personal forks). Never force push `main` in a shared repository.
 
@@ -371,8 +370,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

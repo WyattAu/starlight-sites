@@ -208,10 +208,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Sequences. For null-terminated strings, this avoids computing `strlen` before iteration. For counted
 Ranges, it avoids computing the end pointer from a base + count.
-</aside>
+:::
 ## Iterator Concepts Hierarchy
 
 C++20 replaced the legacy iterator category tags (`std::input_iterator_tag`Etc.) with a hierarchy Of

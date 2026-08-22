@@ -56,7 +56,7 @@ flowchart TD
     J -->|No| L[No startup files]
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Interactive shells load the same configuration. However, scripts executed by cron or systemd do not
 Source `~/.bashrc` — this is a frequent source of bugs.
 
@@ -105,9 +105,8 @@ The shell performs the following steps before executing a command:
 10. **Quote removal**: Remove quoting characters that are not part of expansions.
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
 Are no matching files, the shell behavior depends on the `nullglob` option.
 
@@ -182,9 +181,8 @@ dmesg | grep -i error | sort | uniq -c | sort -rn | head -20
 # Pipe stdout and stderr to different commands
 command 2>&1 1>&3 | process_stderr 3>&1 1>&2 | process_stdout
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Via `/proc/sys/fs/pipe-max-size`). When the buffer is full, the writing process blocks until the
 Reader consumes data. For high-throughput pipelines, this can be a bottleneck.
 
@@ -271,9 +269,8 @@ ls -la .*
 shopt -s nocaseglob
 ls *.TXT  # matches file.txt, FILE.TXT, etc.
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 The original Unix glob behavior — you must explicitly use `.*` or enable `dotglob` with
 `shopt -s dotglob`.
 
@@ -659,9 +656,8 @@ set -euo pipefail
 # -o pipefail: Pipeline fails if ANY command in it fails
 #     (without this, only the last command's exit status matters)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 It does not fire for commands whose exit status is tested (e.g., `if ! command; then`). If you need
 Fine-grained error handling, use explicit error checking with `$?` or `trap`.
 
@@ -883,5 +879,4 @@ linked above.
 - [I/O Redirection](../03-process-management/io-redirection) -- Shell features like pipes and redirection are fundamental to command composition.
 - [Core Utilities](core-utilities) -- Shell commands invoke core utilities; understanding the shell enhances command-line efficiency.
 - [Processes and Signals](../03-process-management/processes-and-signals) -- The shell creates and manages processes; background jobs and signals are shell-level concepts.
-
-</aside>
+:::

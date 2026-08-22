@@ -36,10 +36,10 @@ $$\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedg
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
 Is the order relation defined in [N4950 §6.9.4.1].
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 potentially Eliminating loads, stores, or reordering operations in ways that are surprising and
 Non-deterministic.
-</aside>
+:::
 ## Undefined Behavior of Data Races
 
 The consequences of a data race include but are not limited to [N4950 §6.9.4.2]:
@@ -75,10 +75,10 @@ Threads. A race condition can occur even with proper synchronization (e.g., two 
 
 ## Demonstrating a Data Race
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 to work correctly Depending on the platform and compiler flags. Never write code like this in
 production.
-</aside>
+:::
 ```cpp
 #include <iostream>
 #include <thread>
@@ -284,9 +284,9 @@ void increment_b(int iterations) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 lines, use `alignas(128)` and adjust the padding accordingly.
-</aside>
+:::
 ### Contended vs Uncontended Locks
 
 An **uncontended** lock (no thread is waiting) costs ~25–50 cycles on x86. A **contended** lock
@@ -356,11 +356,11 @@ int main() {
 | `memory_order_acq_rel` | Both acquire and release                  | Moderate                        | Reference counting            |
 | `memory_order_seq_cst` | Total order across all threads            | Full memory fence               | Default, when in doubt        |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instructions and have real
 cost. Always measure Before optimizing memory orderings — `memory_order_seq_cst` is the safest
 default.
-</aside>
+:::
 ## Practical Data Race Bug and Fix
 
 Consider a real-world pattern: a lazily-initialized singleton accessed from multiple threads.

@@ -328,7 +328,7 @@ GROUP BY to_node
 ORDER BY shortest_path;
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 (`hops &lt; N`) and a visited set to prevent infinite loops. For very large graphs, consider
 Dedicated graph databases like Neo4j.
 
@@ -392,9 +392,8 @@ SELECT
 FROM employees e
 CROSS JOIN LATERAL jsonb_each_text(e.attributes) AS kv;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 `FROM generate_series(1, 10)`). You only need the explicit keyword when the subquery references
 Outer columns.
 
@@ -530,9 +529,8 @@ REFRESH MATERIALIZED VIEW mv_daily_sales_summary;
 -- Refresh concurrently (does not lock the view for reads)
 REFRESH MATERIALIZED VIEW CONCURRENTLY mv_daily_sales_summary;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `UNIQUE` index. Without a unique index, only non-concurrent refresh is available, which acquires an
 `ACCESS EXCLUSIVE` lock for the duration of the refresh.
 
@@ -952,9 +950,8 @@ SELECT * FROM orders WHERE order_date >= '2024-01-01';
 /*+ Set(work_mem 256MB) */
 SELECT * FROM large_table GROUP BY category;
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Appropriate indexes, or rewrite the query. Hints become stale when data distributions change and can
 Degrade performance over time.
 
@@ -1082,9 +1079,8 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 | ------- | -------- | --------- | ---------- | --------- |
 | Stored  | On disk  | Low       | Higher     | Yes       |
 | Virtual | Computed | Higher    | Low        | No        |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 The SQL standard but not yet implemented. Other databases like MySQL and SQL Server support both.
 
 ## Domains and Custom Types
@@ -1133,9 +1129,8 @@ CREATE TABLE orders (
 -- ENUM types support comparison and ordering
 SELECT * FROM orders WHERE status >= 'shipped';
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 `ALTER TYPE ... ADD VALUE`Which cannot run inside a transaction in PostgreSQL 12+. Renaming or
 Removing values is not straightforward. For rapidly changing sets of states, use a lookup table with
 A foreign key constraint instead.
@@ -1225,22 +1220,6 @@ Plans, or use `EXECUTE` with literal values.
 `ROW_NUMBER() OVER ()` assigns a random, non-deterministic row number. The order depends on the
 Physical scan order, which is not guaranteed. Always specify `ORDER BY` for deterministic results.
 
-## Summary
-
-This topic covers the essential chemistry of advanced sql, including key reactions, underlying
-theories, and practical applications.
-
-**Key concepts include:**
-
-- key chemical principles and theories
-- mathematical relationships in chemistry
-- practical techniques and apparatus
-- applications of chemistry in industry
-- environmental and ethical considerations
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
 ## Worked Examples
 
 ### Example 1: Running Total with Window Function
@@ -1313,5 +1292,4 @@ $\blacksquare$
 - [Indexing](../03-indexing-optimization/indexing) - How indexes accelerate the queries built with advanced SQL techniques
 - [Query Optimization](../03-indexing-optimization/query-optimization) - How the cost-based optimizer evaluates execution plans for complex SQL
 - [Transactions](../04-transactions/transactions) - How transaction isolation levels affect concurrent SQL operations
-
-</aside>
+:::

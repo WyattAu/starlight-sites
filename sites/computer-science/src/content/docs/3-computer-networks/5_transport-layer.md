@@ -240,7 +240,7 @@ $$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.
 
-<aside aria-label="Common Pitfall Karn"s algorithm: do not update RTT estimates for retransmitted segments." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Karn"s algorithm: do not update RTT estimates for retransmitted segments.</p>
+:::caution
 The ACK could correspond To either the original or the retransmission (retransmission ambiguity).
 
 <details>
@@ -282,8 +282,7 @@ $\mathrm{RTO} = 117.91 + 4(119.69) = 596.67$ ms
 The smoothed RTT converges toward the true average (~240 ms) and the RTO stabilises around 600 ms.
 
 </details>
-
-</aside>
+:::
 
 ## Cross-References
 

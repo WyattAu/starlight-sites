@@ -362,7 +362,7 @@ re.findall(r'hello', "Hello World", re.IGNORECASE)  # ['Hello']
 re.findall(r'^\w+', text, re.MULTILINE | re.IGNORECASE)
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Unicode case folding is complex. If you are matching ASCII-only identifiers, use `re.ASCII` (or
 `re.A`) alongside `re.IGNORECASE` to constrain `\w``\b``\d`And `\s` to ASCII ranges.
 
@@ -838,9 +838,8 @@ print(Role.ADMIN == "admin")  # True
 - Use `IntEnum` when members must interoperate with C APIs or integer-based protocols.
 - Use `StrEnum` (Python 3.11+) when members represent string constants that are also used in
   serialization or string comparisons.
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Single process, using `is` for comparison is a fragile pattern that does not work correctly across
 Pickling, multiprocess serialization, or when the enum is re-imported.
 
@@ -875,9 +874,8 @@ def process_item(item_id: int) -> None:
     logger.info("Item %d processed successfully", item_id)
     logger.warning("Item %d has deprecated field", item_id)
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Formatting until it determines that the message will actually be emitted. With f-strings, the string
 Is always constructed even if the log level is filtered out.
 `logger.debug("Expensive: %r", compute_value())` does not call `compute_value()` if DEBUG is not
@@ -1032,9 +1030,8 @@ print(aware.tzinfo)  # UTC
 eastern = timezone(timedelta(hours=-4))
 print(aware.astimezone(eastern))  # 2025-06-04 10:00:00-04:00
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--danger">
+:::
+:::danger
 Timestamps that will be stored, transmitted, or compared across systems. Naive datetimes are
 Acceptable only for purely local display or when the timezone context is obvious and unambiguous
 (e.g., "schedule this for 9 AM in the user's local time").
@@ -1142,8 +1139,7 @@ Python's standard library is a Swiss Army knife that comes pre-installed. The `o
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [Types and Variables](../02-fundamentals/01-types-and-variables) -- Standard library modules work with Python's built-in types including lists, dicts, and strings.

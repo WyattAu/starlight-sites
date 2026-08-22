@@ -85,10 +85,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `alignof(std::atomic<T>)`. For many types this is the same as `alignof(T)`But for types smaller Than
 the platform's native word size, `alignof(std::atomic<T>)` may be larger.
-</aside>
+:::
 ## Atomic Operations
 
 The full set of atomic operations defined in [N4950 §31.7.2]:
@@ -237,10 +237,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 pushes `old_head` back, the CAS will succeed but `next` will be stale. In production code, use
 hazard Pointers or tagged pointers to prevent ABA.
-</aside>
+:::
 ## Spinlock Using `std::atomic_flag`
 
 ```cpp
@@ -288,10 +288,10 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 They are Appropriate only when the critical section is very short and contention is expected to be
 low. For Longer critical sections, prefer `std::mutex` which blocks the thread and yields the CPU.
-</aside>
+:::
 ## See Also
 
 - [Memory Orderings](./4_memory_orderings.md)
@@ -345,10 +345,10 @@ void memory_order_overview() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 ordering correctly is Extremely complex and was found to have specification issues. Do not use
 `memory_order_consume` — Use `memory_order_acquire` instead.
-</aside>
+:::
 ## `compare_exchange` in Detail
 
 The CAS operation is the foundation of most lock-free algorithms. `compare_exchange_weak` and
@@ -450,10 +450,10 @@ void atomic_wait_notify_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 The waiting Thread is descheduled until a notification arrives, consuming zero CPU cycles. This is
 fundamentally More efficient than a spinlock for high-contention or long waits.
-</aside>
+:::
 ## `std::atomic&lt;void*&gt;` and Pointer Atomics
 
 `std::atomic<T*>` supports pointer arithmetic with `fetch_add` and `fetch_sub`Incrementing or
@@ -507,9 +507,9 @@ void atomic_bool_flag_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 all modern Hardware. Check `std::atomic&lt;bool&gt;::is_always_lock_free` at compile time.
-</aside>
+:::
 ## `std::atomic&lt;shared_ptr&gt;` and `std::atomic&lt;weak_ptr&gt;` (C++20)
 
 C++20 provides atomic specializations for `std::shared_ptr` and `std::weak_ptr` [N4950 §31.7.1].
@@ -542,11 +542,11 @@ void shared_ptr_atomic_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 so they are Significantly slower than lock-free atomics. For high-performance shared access,
 consider `std::atomic&lt;T*&gt;` with manual reference counting, or redesign to avoid shared mutable
 state.
-</aside>
+:::
 ## Tagged Pointers for ABA Prevention
 
 A practical approach to solving the ABA problem is to use a tagged pointer — combine the pointer
@@ -627,10 +627,10 @@ public:
 };
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 approach is Platform-specific. For a portable solution, use a separate `std::atomic&lt;uint64_t&gt;`
 tag Alongside the pointer, or use hazard pointers.
-</aside>
+:::
 ## Intuition
 
 **An atomic operation is like a bank transaction that either fully completes or doesn't happen at all:** When you transfer money, the bank doesn't debit your account and then forget to credit the other account — the transaction is atomic. `std::atomic` gives you the same guarantee for memory operations: the read-modify-write happens as a single, indivisible step. No other thread can see a half-completed operation.

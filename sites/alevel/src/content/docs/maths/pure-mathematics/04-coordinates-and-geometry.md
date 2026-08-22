@@ -346,9 +346,9 @@ $$d = \frac{|3(5) + 4(-2) - 10|}{\sqrt{9 + 16}} = \frac{|15 - 8 - 10|}{\sqrt{25}
 
 </details>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $ax_0 + by_0 + c$ tells you which side of the line the point lies on.
-</aside>
+:::
 <hr />
 
 ## 7. Intersection of Two Circles
@@ -421,9 +421,9 @@ $$
 Subtracting the first equation from the second and third eliminates $F$Yielding a $2 \times 2$
 System in $D$ and $E$. Solve for $D$ and $E$Then substitute back to find $F$.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 gradient between the first Two points equals the gradient between the second two.
-</aside>
+:::
 <details>
 <summary>Worked example</summary>
 Find the equation of the circle through $A(1, 2)$, $B(3, 4)$And $C(5, 2)$.
@@ -942,7 +942,7 @@ The two tangent lines are $y = 0$ and $12x - 5y = 0$.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Coordinates
@@ -982,5 +982,4 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::

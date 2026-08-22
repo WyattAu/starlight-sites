@@ -22,7 +22,7 @@ categories:
 
 ## Modern Texts and Poetry
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 (Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2
 
 ## 1. Modern Texts (Post-1914)
@@ -605,8 +605,7 @@ including key terminology, approaches, and critical perspectives.
 
 Developing a precise analytical vocabulary and practising close reading are essential for strong
 performance in this area.
-
-</aside>
+:::
 
 ## Cross-References
 

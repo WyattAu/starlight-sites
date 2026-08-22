@@ -101,7 +101,7 @@ Classful addressing was wasteful. A company needing 300 hosts would receive a Cl
 Hosts), wasting 65,234 addresses. A company needing 5 hosts would receive a Class C (254 hosts),
 Wasting 249 addresses. This inefficiency drove the adoption of CIDR in 1993 (RFC 1519).
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Boundaries are still referenced in documentation and some legacy systems, so understanding them is
 Necessary.
 
@@ -199,9 +199,8 @@ Allocation:
   10.0.38.0/24     (10.0.38.0  - 10.0.38.255)    -- 200 hosts
   10.0.39.0/24     (10.0.39.0  - 10.0.39.255)    -- 200 hosts
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Address space and make it impossible to fit larger subnets later. This is the same principle as
 Memory allocation -- first-fit with largest-first ordering.
 
@@ -276,9 +275,8 @@ Summary: 192.168.0.0/22
 
 The summarized route covers all four /24 networks. Traffic destined for any address in
 192.168.0.0/22 (192.168.0.0 - 192.168.3.255) matches this single route entry.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 192.168.0.0/24 and 192.168.1.0/24 can be summarized as 192.168.0.0/23, but 192.168.1.0/24 and
 192.168.2.0/24 cannot be cleanly summarized (they would require 192.168.0.0/22, which also includes
 192.168.0.0/24 and 192.168.3.0/24).
@@ -926,8 +924,7 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

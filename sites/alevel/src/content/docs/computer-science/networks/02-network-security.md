@@ -234,7 +234,7 @@ Traffic based on predetermined security rules.
 | Application-layer | Inspects actual content                       | Application (L7) |
 | Next-generation   | Combines all above + IDS/IPS, deep inspection | All layers       |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** requires symmetric encryption (AES), asymmetric encryption (RSA), digital signatures,
   SSL/TLS, firewalls, and malware types
 - **CIE (9618)** covers encryption methods, network security protocols, and threats; may include
@@ -242,7 +242,7 @@ Traffic based on predetermined security rules.
 - **OCR (A)** requires understanding of encryption, digital certificates, authentication methods,
   and network security protocols
 - **Edexcel** covers network security fundamentals including encryption and firewalls
-</aside>
+:::
 <hr />
 
 ## Problem Set

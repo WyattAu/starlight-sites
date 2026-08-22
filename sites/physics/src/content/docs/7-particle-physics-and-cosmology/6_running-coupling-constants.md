@@ -102,13 +102,12 @@ cleaner unification at $M_{\mathrm{GUT} \sim 2 \times 10^{16}}$ GeV.
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 extrapolated using SM beta Functions. The three lines form a rough triangle. It is only in
 supersymmetric extensions (MSSM) That the additional superpartner contributions to the beta
 functions bring the three couplings to Near-convergence. This convergence is often cited as indirect
 evidence for supersymmetry.
-
-</aside>
+:::
 ### 6.4 Key Relationships
 
 - The beta function encodes how a coupling changes with energy scale.

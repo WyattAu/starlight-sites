@@ -117,10 +117,10 @@ void expired_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `expired()` and using the object — the object could be destroyed by another thread between the check
 And the access. Always use `lock()` instead, which atomically checks and returns a `shared_ptr`.
-</aside>
+:::
 ### Formal Correctness: `expired()` vs `lock()` in Concurrent Code
 
 **Claim:** `expired()` followed by access through a previously obtained raw pointer is a TOCTOU
@@ -373,10 +373,10 @@ root
 ~Node(root)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `shared_ptr`. If the object is stack-allocated or managed by a `unique_ptr`Calling
 `shared_from_this()` is undefined behavior.
-</aside>
+:::
 ## 4.6 `weak_ptr` as Observer in the Observer Pattern
 
 `weak_ptr` is the standard way to implement the observer (publish-subscribe) pattern without
@@ -484,11 +484,11 @@ public:
 };
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Attempts to subscribe or unsubscribe, it will deadlock. To avoid this, copy the observer list before
 Iterating, or use a recursive mutex. Alternatively, collect callbacks into a local vector under the
 Lock, then invoke them after releasing the lock.
-</aside>
+:::
 ## 4.7 `weak_ptr` with `shared_ptr::reset()`
 
 When a `shared_ptr` is reset, the `weak_ptr` does not become invalid immediately — it Observes that
@@ -795,11 +795,11 @@ cache size after cleanup: 0
    used, least frequently used, time-based expiration). `weak_ptr` only provides automatic cleanup
    when the producer releases the value.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Primary owner (e.g., a data loader) produces `shared_ptr` values, and the cache holds `weak_ptr`
 References to avoid extending their lifetime. This is common in image loaders, texture caches in
 Game engines, and database connection pools.
-</aside>
+:::
 ## 4.13 Proof: `weak_ptr` Does Not Extend Object Lifetime
 
 **Claim:** Creating or destroying a `weak_ptr` never affects whether the managed object is alive.

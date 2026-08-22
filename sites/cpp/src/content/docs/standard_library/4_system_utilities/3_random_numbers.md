@@ -72,11 +72,11 @@ Cryptographically secure [N4950 §29.6.3.4].
 **`std::random_device`** is a non-deterministic uniform random bit generator that obtains entropy
 From the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Fixed-seed PRNG, producing the same sequence on every run. This was a well-known bug. Modern
 MinGW-w64 (with GCC 9+) uses the proper OS entropy source. If you need guaranteed non-deterministic
 Seeds on all platforms, read from `/dev/urandom` (POSIX) or `BCryptGenRandom` (Windows) directly.
-</aside>
+:::
 ### Distributions
 
 Distributions transform the engine's raw output into values drawn from a specific statistical
@@ -166,12 +166,12 @@ void seeded_rng_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Well-distributed initial state for the engine. This is important because the Mersenne Twister's
 Initialization algorithm has known weaknesses when given a single 32-bit seed — some bits of the
 Initial state may have low entropy. Using `seed_seq` with multiple entropy sources produces a better
 Initial state.
-</aside>
+:::
 ### Sampling from Normal Distribution
 
 ```cpp
@@ -285,10 +285,10 @@ Expected stdd: 1
   3.75 |                                      1
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Uniform random numbers into normally distributed values [N4950 §29.6.4.4]. This method produces
 Values in pairs, so the distribution object may cache one value internally for efficiency.
-</aside>
+:::
 ## See Also
 
 - [Filesystem Library](./1_filesystem.md)
@@ -333,10 +333,10 @@ This serialization is essential for:
 - **Networked games:** Synchronize the RNG state across clients for deterministic behavior.
 - **Fuzz testing:** Record the RNG state that triggered a crash and replay it.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Library implementations. GCC libstdc++ and Clang libc++ may produce different binary formats. Use
 Only the same implementation for save/restore.
-</aside>
+:::
 ### `std::random_device` Implementation Details
 
 `std::random_device` is the standard library's interface to OS-provided entropy [N4950 §29.6.5.3]:
@@ -365,10 +365,10 @@ void random_device_props() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Is truly non-deterministic. A return of 0.0 means "entropy estimate not available," NOT "no
 Entropy." Do not use this value to decide whether the device is secure.
-</aside>
+:::
 ### `std::seed_seq` and Initialization Quality
 
 The Mersenne Twister's standard initialization (`mt19937(seed)`) takes a single 32-bit seed and
@@ -467,9 +467,9 @@ void discrete_distribution_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 sampled many Times with the same weights [N4950 §29.6.4.5].
-</aside>
+:::
 ### Poisson and Exponential Distributions
 
 These distributions model event arrival processes and are essential for simulation:
@@ -556,10 +556,10 @@ void engine_benchmark() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `random_device` may make An OS syscall for every call, which is orders of magnitude slower than a
 PRNG.
-</aside>
+:::
 ### Common Pitfalls
 
 1. **Seeding `mt19937` with a single 32-bit value:** The engine has 2496 bytes of state. A single

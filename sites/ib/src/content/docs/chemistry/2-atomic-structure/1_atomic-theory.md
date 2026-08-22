@@ -261,7 +261,7 @@ $$
 \mathrm{radial nodes} = n - l - 1
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 For the $3p$ orbital ($n = 3$$l = 1$):
 
@@ -298,9 +298,8 @@ Where $S$ is the shielding constant estimated by Slater's rules.
 4. $n - 1$ shell: contributes $0.85$ per electron (for $s$/$p$) or $1.00$ (for $d$/$f$).
 
 5. $n - 2$ and lower: each contributes $1.00$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)</strong>
 Configuration: $(1s)^2(2s,2p)^8(3s,3p)^8(4s)^1$
 
@@ -361,9 +360,8 @@ IE_1 \lt IE_2 \lt IE_3 \ll IE_4 \quad \mathrm{(large jump at } IE_4 \mathrm{ for
 $$
 
 This reveals the number of valence electrons.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example — Silicon ($Z = 14$)</strong>
 $IE_1 = 787$$IE_2 = 1577$$IE_3 = 3228$$IE_4 = 4356$$IE_5 = 16091\mathrm{ kJ/mol}$
 
@@ -849,5 +847,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | [Atomic Structure] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/atomic-structure)                               |
 | [Atomic Structure] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/2-atomic-structure/1_atomic-theory)                              |
 | [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
-
-</aside>
+:::

@@ -17,10 +17,10 @@ description: 'Normal Subgroups and Quotient Groups: comprehensive educational co
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Historical Context</strong>
 The concept of normal subgroups was introduced by Évariste Galois in his 1830 letter to Augustin-Louis Cauchy, written the night before his fatal duel. Galois showed that a polynomial equation is solvable by radicals if and only if its Galois group has a composition series whose factors are all abelian — a result that connected group theory to the ancient problem of solving polynomial equations. The quotient group $G/N$ was formalised later by Camille Jordan (1870) in his *Traité des substitutions*. Emmy Noether's work in the 1920s-30s showed that normal subgroups correspond to congruence relations, connecting group theory to lattice theory and universal algebra. Today, normal subgroups are fundamental to the classification of finite simple groups — one of the great achievements of 20th-century mathematics.
-</aside>
+:::
 ### 4.1 Normal Subgroups
 
 A subgroup $N \leq G$ is **normal** (written $N \trianglelefteq G$) if $gNg^{-1} = N$ for all
@@ -120,10 +120,10 @@ theorem, $\mathbb{C}^* / S^1 \cong \mathbb{R}^+$. $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 <strong>Research Connections</strong>
 The classification of finite simple groups (completed 2004, ~10,000 pages across ~100 papers) is one of the great achievements of 20th-century mathematics. It states that every finite simple group is either cyclic, alternating, a Lie-type group, or one of 26 sporadic groups. The largest sporadic group, the Monster, has order ~8×10^53 and connects to string theory (Monstrous Moonshine, Conway-Norton 1979). Current research includes: finding new sporadic-like objects, computational group theory, and applications to coding theory and cryptography.
-</aside>
+:::
 ### 4.5 Intuition: What Are Normal Subgroups and Quotients?
 
 A normal subgroup is a subgroup that is invariant under conjugation: $gNg^{-1} = N$ for all $g \in G$. This means the subgroup "looks the same" from every perspective in the group. Normality is the algebraic condition that makes quotient groups possible: when $N$ is normal, the cosets $G/N$ inherit a group structure because the product of two cosets is well-defined.

@@ -182,11 +182,11 @@ class LifecycleTest {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Use `@TestInstance(Lifecycle.PER_CLASS)` to create a single instance shared across all test methods.
 This allows non-static `@BeforeAll`/`@AfterAll` methods, but tests share instance state, which can
 Cause interference.
-</aside>
+:::
 ### Parameterized Tests
 
 Parameterized tests run the same test logic with different inputs, eliminating test method
@@ -408,10 +408,10 @@ System.out.println(spyList.size()); // 100 (stubbed)
 System.out.println(spyList.get(0));   // "real" (real method called)
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Calls the real method to get the return value before stubbing, which can have side effects or throw
 Exceptions.
-</aside>
+:::
 ## Integration Testing
 
 ### Spring Boot Test Context
@@ -705,7 +705,7 @@ tasks.check {
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
 To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
@@ -949,5 +949,4 @@ linked above.
 - **[Annotations and Reflection](../11-generics-reflection/02-annotations-reflection.md):** Annotation-driven test discovery and reflection-based mocking.
 - **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Concurrent test execution and thread-safe test fixtures.
 - **[I/O and NIO](../10-io-nio/01-io-nio.md):** File-based test fixtures and temporary directory management.
-
-</aside>
+:::

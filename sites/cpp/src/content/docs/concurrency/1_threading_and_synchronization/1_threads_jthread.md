@@ -88,9 +88,9 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 waiting rather Than computing.
-</aside>
+:::
 ## Joining and Detaching
 
 A `std::thread` object is in one of two states relative to an OS thread [N4950 §31.4.4.1.2]:
@@ -104,9 +104,9 @@ A `std::thread` object is in one of two states relative to an OS thread [N4950 �
 | `detach()`            | Separates the thread from the `std::thread` object; the thread runs independently | Not joinable       |
 | Destructor (joinable) | Calls `std::terminate()`                                                          | Program terminates |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 [N4950 §31.4.4.1.3]. Always ensure a thread is either joined or detached before destruction.
-</aside>
+:::
 ## RAII-Based Thread Guard
 
 Before C++20's `std::jthread`A common pattern was to write an RAII wrapper that joins in its
@@ -192,9 +192,9 @@ int main() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [N4950 §31.4.4.4.2].
-</aside>
+:::
 ## Thread-Safe Worker Pool with `jthread` + `stop_token`
 
 The following example implements a simple thread pool using `std::jthread` for automatic lifecycle
@@ -335,10 +335,10 @@ void native_handle_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 documentation for your standard Library implementation. Code using `native_handle()` is inherently
 non-portable.
-</aside>
+:::
 ## Thread Arguments and Race Conditions
 
 Arguments to `std::thread` are passed by value (moved or copied) into the new thread's stack. This
@@ -375,10 +375,10 @@ void race_condition_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`You
 bypass this protection And must ensure the referenced object outlives the thread.
-</aside>
+:::
 ## `std::jthread` with Return Value via `std::promise`
 
 `std::jthread`'s callable does not return a value directly. To get a return value from a thread, use
@@ -420,10 +420,10 @@ void promise_future_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 completes. However, detached threads are hard to reason about — you cannot join them, and they may
 outlive `main()`Causing undefined behavior. Prefer joining whenever possible.
-</aside>
+:::
 ## `std::stop_callback` — Reactive Cancellation
 
 `std::stop_callback` registers a callback that is invoked when `stop_requested()` becomes true
@@ -457,10 +457,10 @@ void stop_callback_demo() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the `stop_callback` Object outlives the expected stop request. The callback itself is invoked
 synchronously from the Thread that calls `request_stop()`Not from the worker thread.
-</aside>
+:::
 ## Thread Stack Size
 
 Each OS thread has a stack with a default size that varies by platform:
@@ -493,10 +493,10 @@ void stack_size_info() {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 with deep recursion Or large local variables in thread functions. Use heap allocation for large
 buffers, not stack Allocation.
-</aside>
+:::
 ## `std::jthread` Constructor Variants
 
 `std::jthread` supports several constructor forms [N4950 §31.4.4.4.1]:

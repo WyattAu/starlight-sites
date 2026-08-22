@@ -181,7 +181,7 @@ Future<void> parallelNamed() async {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 For dependent operations where the result of one is needed by the next.
 
 ## Streams
@@ -344,9 +344,8 @@ Flutter provides `compute()` for running functions in isolates:
 // Flutter-only
 final result = await compute(expensiveFunction, inputData);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership
 Instead of copying.
 
@@ -380,95 +379,4 @@ void main() {
   // 4: event
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
-Event from the event queue is processed. This is why `Future.then` callbacks (which schedule
-Microtasks) run before `Future.delayed` callbacks (which schedule events).
-
-## Common Pitfalls
-
-### 1. Unawaited Futures
-
-```dart
-// Bad: fire-and-forget — errors are silently swallowed
-Future<void> processData() async {
-  fetchUser(); // WARNING: Not awaited -- errors are unhandled
-}
-
-// Good: await the future
-Future<void> processData() async {
-  await fetchUser();
-}
-
-// Or explicitly ignore errors if that's intentional
-Future<void> processData() async {
-  fetchUser().ignore(); // From package:async
-}
-```
-
-### 2. Blocking the Event Loop
-
-```dart
-// Bad: synchronous I/O blocks the thread
-final file = File('large.txt').readAsStringSync(); // Blocks!
-
-// Good: async I/O
-final file = await File('large.txt').readAsString(); // Doesn't block
-
-// Bad: CPU-intensive computation on the main isolate
-final result = heavyComputation(1000000); // Blocks UI!
-
-// Good: use Isolate for CPU work
-final result = await Isolate.run(() => heavyComputation(1000000));
-```
-
-### 3. Async Functions in Constructors
-
-Dart constructors cannot be `async`. Use a static factory method instead:
-
-```dart
-class Database {
-  final Connection _conn;
-
-  // Private constructor
-  Database._(this._conn);
-
-  // Async factory
-  static Future<Database> connect(String uri) async {
-    final conn = await Connection.open(uri);
-    return Database._(conn);
-  }
-}
-```
-
-## Summary
-
-This topic covers the core concepts of async and futures, including underlying theory, practical
-implementation, and key applications.
-
-**Key concepts include:**
-
-- core concepts and terminology
-- algorithms and computational thinking
-- practical implementation
-- security and ethical considerations
-- applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-## Intuition
-
-Dart's async model is built on a single-threaded event loop with Future and Stream as the core abstractions. A Future represents a value that will be available later, and async/await is syntactic sugar that makes asynchronous code read like synchronous code. Streams deliver sequences of asynchronous events -- a single-subscription stream is like a fire hose you can only tap once, while a broadcast stream allows multiple listeners. Isolates provide true parallelism by giving each execution unit its own memory heap, eliminating data races entirely. The trade-off is that message serialization has overhead, so isolates work best for coarse-grained parallelism like parsing large JSON blobs.
-
-## Cross-References
-
-- [Entry Point](../03-basics/01-entrypoint) -- main() and event loop basics
-- [Collections Deep Dive](../06-collections/01-collections-deep-dive) -- Stream operations and async iteration
-- [Error Handling](../08-error-handling) -- try/catch with async code
+:::

@@ -1319,7 +1319,7 @@ _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 10. "The ending of _A Streetcar Named Desire_ is deliberately ambiguous, refusing to offer moral
     certainty." Discuss with reference to the final scene.
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 - **Treating Blanche as purely a tragic victim or purely a villain:** Williams deliberately makes
   Blanche morally ambiguous. She is simultaneously a sympathetic figure (traumatised by the loss of
   her husband, the decline of Belle Reve, her alcoholism) and a manipulative character (she lies, is
@@ -1372,5 +1372,4 @@ linked above.
 - [The Move to Global War](../history/the-move-to-global-war) -- Southern decline and economic upheaval in the play reflect broader historical forces of the early twentieth century.
 - [Cell Biology](../biology/1-cell-biology/1_cell-biology) -- Understanding the biological basis of mental health adds depth to Blanche's psychological deterioration.
 - [Genetics](../biology/3-genetics/1_genetics) -- Hereditary mental illness and family trauma explored in the play connect to genetic predisposition concepts.
-
-</aside>
+:::

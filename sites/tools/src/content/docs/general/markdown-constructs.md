@@ -238,7 +238,7 @@ Print("hello")
 Admonitions are the preferred way to call out important information:
 
 ```md
-<aside class="starlight-aside starlight-aside--note">
+:::note
 > **Tip:** This is a tip.
 
 > **Info:** This is informational.
@@ -260,7 +260,7 @@ They can also be collapsible (Docusaurus 3):
 
 ```md
 :::note[Click to expand] Hidden content that is revealed on click.
-</aside>
+:::
 ```
 
 ### Tabs
@@ -352,9 +352,9 @@ Hidden content here.
 &lt;/details&gt;
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 issues in Docusaurus.
-</aside>
+:::
 ### MDX Import Statements
 
 Since Docusaurus processes `.md` files as MDX, you can import React components:
@@ -515,11 +515,11 @@ linked above.
 | Tabs vs. spaces in code blocks | Indentation rendered inconsistently | Use consistent indentation (2 or 4 spaces) throughout |
 | Frontmatter title as h1 | Duplicate h1 heading in rendered page | Start body content with `##` (h2) level headings |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 For a complete syntax reference, consult the
 [Docusaurus Markdown documentation](https://docusaurus.io/docs/markdown-features)
 and the [MDX specification](https://mdxjs.com/).
-</aside>
+:::
 
 ## Cross-References
 

@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes variable acceleration |
 | CIE (9709) | P1, P4  | 1D in P1; 2D/projectiles in P4 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Equation and apply it to multi-stage problems.
-</aside>
+:::
 <hr />
 
 ## 1. Fundamental Quantities
@@ -100,10 +100,10 @@ Equation 4.)
 
 $$s = \tfrac{1}{2}(u+v)t \implies v = \frac{2s}{t} - u \quad \mathrm{(useful when } a \mathrm{ is unknown)}$$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Constant acceleration $a = dv/dt$Using the initial conditions $v(0) = u$ and $s(0) = 0$. Memorising
 the derivation means you can recover any formula you forget.
-</aside>
+:::
 ### 2.2 Summary
 
 | Equation                   | Variables    | Missing |
@@ -113,9 +113,9 @@ the derivation means you can recover any formula you forget.
 | $v^2 = u^2 + 2as$          | $v, u, a, s$ | $t$     |
 | $s = \frac{1}{2}(u+v)t$    | $s, u, v, t$ | $a$     |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Known quantities and the unknown. Draw a diagram with positive direction marked.
-</aside>
+:::
 <hr />
 
 ## 3. Motion Graphs
@@ -168,10 +168,10 @@ Integrating, or equivalently add the magnitudes of the areas above and below the
 The **gradient** of the tangent to a $v$-$t$ curve gives the instantaneous acceleration. For a
 Straight-line $v$-$t$ graph, the acceleration is constant and equals the gradient of that line.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $10\,\mathrm{m}$ backwards, its displacement is $0$ but its total distance is $20\,\mathrm{m}$. On a
 $v$-$t$ graph, the signed areas cancel (displacement), but the unsigned areas add (distance).
-</aside>
+:::
 ### 3.6 Worked example: graphs
 
 A particle moves so that its displacement $s$ metres from a fixed point $O$ at time $t$ seconds is
@@ -293,10 +293,10 @@ $$t = \frac{v\sin\theta + \sqrt{(v\sin\theta)^2 + 2gH}}{g}$$
 
 The horizontal range is then $R = v\cos\theta \cdot t$.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Ground, and the angle for maximum range is **less** than $45^\circ$ (derived via calculus, but
 Beyond the core syllabus).
-</aside>
+:::
 <hr />
 
 ## 5. Variable Acceleration
@@ -811,7 +811,7 @@ $w\,\Delta t = u^2\sin^2\theta / (2g)$ for some $\Delta t \gt 0$.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Kinematics
@@ -819,7 +819,7 @@ with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Intuition
 
 Kinematics describes motion without considering its causes. The SUVAT equations are relationships between position, velocity, acceleration, and time that emerge from integrating constant acceleration. Motion graphs translate algebra into geometry: the gradient of a displacement graph gives velocity, and the area under a velocity graph gives displacement. Projectiles separate into independent horizontal and vertical motions, like watching a ball roll off a table while simultaneously dropping another straight down. Variable acceleration requires calculus because the simple geometric relationships no longer hold.

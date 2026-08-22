@@ -76,10 +76,10 @@ Measurement or environmental variability.
 
 **Reduction:** Take multiple readings and calculate the mean. Use more precise instruments.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Scatter) but inaccurate (systematic error), or accurate (close to true value) but imprecise (large
 Scatter). Neither is sufficient alone.
-</aside>
+:::
 ## 2. Uncertainty Analysis
 
 ### Absolute, Fractional, and Percentage Uncertainty
@@ -212,10 +212,10 @@ Many physical relationships can be linearised by choosing appropriate variables:
 | $y = ae^{bx}$        | $\ln y = bx + \ln a$                  | $\ln y$ vs $x$        | $b$        | $\ln a$   |
 | $T = 2\pi\sqrt{L/g}$ | $T^2 = \frac{4\pi^2}{g}L$ | $T^2$ vs $L$          | $4\pi^2/g$ | $0$       |
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Gradient, first find the gradient uncertainty using the worst line method, then divide by the
 Best-fit gradient and multiply by 100%.
-</aside>
+:::
 ## Problem Set
 
 <details>
@@ -497,7 +497,7 @@ All the error bars. The uncertainty in the gradient is:
 
 $$\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 used to obtain Each data point. State this assumption explicitly.
 
 ## 8. Common Pitfalls
@@ -666,8 +666,7 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Intuition
 

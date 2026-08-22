@@ -72,7 +72,7 @@ Every linear kinematic equation has a direct rotational analogue. Replace $x$ wi
 With $\omega$And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
 a one-dimensional motion in the angular coordinate. The mathematics is identical.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 <strong>Example</strong>
 A wheel starts from rest and accelerates at $2.0 \mathrm{ rad/s^2$ for $5.0 \mathrm{ s$. Find the
 Angular velocity, total angle rotated, and the tangential speed of a point 0.3 m from the center.
@@ -162,9 +162,8 @@ I = I_{\mathrm{cm} + Md^2
 $$
 
 $\blacksquare$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about an axis tangent to its
 Surface.
@@ -202,9 +201,8 @@ $$
 $$
 
 This is the rotational analog of $\sum F = ma$.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A solid disk of mass $5.0 \mathrm{ kg$ and radius $0.3 \mathrm{ m$ is mounted on a frictionless
 Axle. A $20 \mathrm{ N$ force is applied tangentially at the rim. Find the angular acceleration.
@@ -254,9 +252,8 @@ To rotation. A solid cylinder has $I = \frac{1}{2}MR^2$So
 $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
 Solid cylinder moves faster.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A solid sphere of mass $M$ and radius $R$ rolls without slipping from rest down an incline of height
 $h$ and angle $\theta$. Find its speed at the bottom.
@@ -305,9 +302,8 @@ $$
 $$
 \int \tau\, dt = \Delta L = I\omega_f - I\omega_i
 $$
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A figure skater with moment of inertia $4.0 \mathrm{ kg \cdot \mathrm{m^2$ is spinning at
 $3.0 \mathrm{ rad/s$. She pulls in her arms, reducing her moment of inertia to
@@ -357,9 +353,8 @@ An object is in static equilibrium when:
 
 The choice of pivot point is arbitrary when the system is in equilibrium. Choosing the pivot at an
 Unknown force eliminates that force from the torque equation.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 <strong>Example</strong>
 A uniform beam of mass $20 \mathrm{ kg$ and length $4.0 \mathrm{ m$ is supported at its left end By
 a hinge and at its right end by a cable at $30^\circ$ above horizontal. A $50 \mathrm{ kg$ mass
@@ -380,8 +375,7 @@ Set $\sum \tau = 0$:
 $$
 2.0T - 392 - 1470 = 0 \implies T = \frac{1862}{2.0} = 931 \mathrm{ N
 $$
-
-</aside>
+:::
 ## Intuition
 
 Rotational motion is the **mirror image of linear motion** — every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence — it reflects the fact that rotation is one-dimensional motion in the angular coordinate.
@@ -650,9 +644,9 @@ $$\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s$$
 The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 horizontally. This is The same principle behind gyrocompasses and spacecraft attitude control.
-</aside>
+:::
 ### Example 17: Moment of Inertia of a Composite Object
 
 A uniform rod of mass $3 \mathrm{ kg$ and length $2 \mathrm{ m$ has a point mass of $2 \mathrm{ kg$
@@ -744,10 +738,10 @@ $$a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} =
 
 $$T = 1.8 \times 0.516 = 0.929 \mathrm{ N$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $9.8 \mathrm{ m/s^2$) because gravitational PE is converted into both translational and rotational
 KE. The smaller the axle radius, the slower the fall, since more of the energy goes into rotation.
-</aside>
+:::
 ## Common Pitfalls Extended
 
 ### Pitfall 6: Using the Wrong Radius in Torque Calculations

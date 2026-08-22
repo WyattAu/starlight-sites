@@ -226,42 +226,6 @@ async function handleErrors(env, corsHeaders) {
   errors.sort((a, b) => (b.timestamp || '').localeCompare(a.timestamp || ''))
   return jsonResponse({ errors: errors.slice(0, 50), total: errors.length }, corsHeaders)
 }
-  const metadata = await env.SEARCH_KV?.get('metadata', { type: 'json' })
-  const metrics = await env.SEARCH_KV?.get('search-metrics', { type: 'json' })
-
-  // Compute search SLO metrics from stored data.
-  const avgLatencyMs =
-    metrics && metrics.latencyCount > 0
-      ? Math.round(metrics.latencySum / metrics.latencyCount)
-      : null
-
-  return jsonResponse(
-    {
-      status: 'ok',
-      indexVersion: metadata?.version || 'unknown',
-      lastUpdated: metadata?.lastUpdated || 'unknown',
-      siteCount: metadata?.siteCount || 0,
-      totalEntries: metadata?.totalEntries || 0,
-      // Search SLO metrics (expose for monitoring and alerting; thresholds
-      // enforced by .github/workflows/slo-alert.yml).
-      search: {
-        totalSearches: metrics?.totalSearches || 0,
-        zeroResults: metrics?.zeroResults || 0,
-        zeroResultRate:
-          metrics && metrics.totalSearches > 0
-            ? `${((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1)}%`
-            : '0%',
-        avgLatencyMs,
-        maxLatencyMs: metrics?.latencyMax || 0,
-        slo: {
-          zeroResultRate: '<5%',
-          avgLatencyMs: '<200',
-        },
-      },
-    },
-    corsHeaders,
-  )
-}
 
 async function handleTrending(env, corsHeaders) {
   const trending = await env.SEARCH_KV?.get('trending', { type: 'json' })

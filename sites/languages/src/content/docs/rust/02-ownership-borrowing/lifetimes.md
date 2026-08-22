@@ -113,7 +113,7 @@ let s: &'static str = "hello";
 let s: &str = "hello";  // &'static is inferred for literals
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Reference. Adding `'static` constraints reduces the function's flexibility — callers can no longer
 Pass locally-owned string slices. The compiler may suggest `'static` when it cannot infer a shorter
 Lifetime, but this is often a sign that the function signature needs redesign.
@@ -990,8 +990,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Intuition
 
 Lifetimes are Rust's way of tracking how long references remain valid. Every reference has a lifetime that the compiler infers or you annotate explicitly. Lifetime elision rules reduce boilerplate in common patterns. The 'static lifetime means a reference lives for the entire program duration. Lifetimes prevent dangling references by ensuring data outlives the pointers that reference it, and they enable safe borrowing across function boundaries without runtime checks.

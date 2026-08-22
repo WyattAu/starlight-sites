@@ -419,7 +419,7 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 | Built-in monitoring | No                       | Yes (`systemctl status`) |
 | Timezone handling   | System timezone          | Per-timer `Timezone=`    |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Logging, dependency management, and missed-job handling. However, cron remains ubiquitous and is
 Still the default on many distributions for user-level scheduling.
 
@@ -970,5 +970,4 @@ linked above.
 - [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scheduled tasks are in standard practice bash scripts that automate system maintenance and backups.
 - [I/O Redirection and Pipes](io-redirection) -- Cron job output is often redirected to log files for monitoring and debugging.
 - [File Permissions](../02-file-systems/file-permissions) -- Crontab files and scripts require appropriate permissions for execution.
-
-</aside>
+:::

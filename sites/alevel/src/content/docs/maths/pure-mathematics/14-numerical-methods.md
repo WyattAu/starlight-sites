@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 2 | Includes fixed-point iteration and convergence         |
 | CIE (9709) | P2, P3  | Numerical solutions of equations, integration in P2/P3 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Must know when each method is applicable and its limitations.
-</aside>
+:::
 <hr />
 
 ## 1. Locating Roots: Sign Change
@@ -48,11 +48,11 @@ The sign change theorem tells us a root **exists** but says nothing about:
 - How many roots are in the interval (there could be 1, 3, 5, ...).
 - The exact location of the root.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $f(-1) = f(1) = 1$ (no sign change), but there is a root at $x = 0$. Additionally, a sign change
 Could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
 $f(1) = 1$But no root.
-</aside>
+:::
 **Intuition.** The sign change theorem is the Intermediate Value Theorem applied to the special case
 Of crossing zero. If you walk from a point below sea level to one above sea level, you must cross
 Sea level at some point — provided the ground is continuous (no teleporting).
@@ -104,10 +104,10 @@ Different rearrangements of $f(x) = 0$ give different $g(x)$And some converge wh
 - $g(x) = \sqrt[3]{1-x}$: $g'(x) = \dfrac{-1}{3(1-x)^{2/3}}$. Near $\alpha$:
   $|g'(\alpha)| \approx 0.72 \lt 1$. **Converges.**
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 $g'(x)$ at the root and show $|g'(\alpha)| \lt 1$. If asked why a rearrangement fails, show
 $|g'(\alpha)| \gt 1$.
-</aside>
+:::
 ### 2.4 Geometric interpretation
 
 The fixed-point iteration $x_{n+1} = g(x_n)$ can be visualised using the cobweb diagram. Plot
@@ -352,9 +352,9 @@ Doubling the number of strips reduces the error by a factor of 16 for Simpson's 
 Trapezium rule. This is because quadratic approximations match the curvature of the function much
 Better than linear ones.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Number. Simpson's rule is exact for cubics (since the error depends on $f^{(4)}$).
-</aside>
+:::
 <hr />
 
 ## 6. Comparison of Methods
@@ -396,10 +396,10 @@ In practice, numerical software often combines methods:
    favourable endpoint.
 3. **Verify** the result by checking $f(x_n)$ is sufficiently close to zero.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Well-behaved. Fixed-point iteration is useful when the problem gives a contraction Mapping.
 Bisection is the reliable fallback when nothing else is guaranteed to work.
-</aside>
+:::
 ### 7.3 Cost comparison
 
 | Method         | Cost per step | Convergence rate          | Total cost to reach tolerance $\varepsilon$ |
@@ -840,7 +840,7 @@ Section 3.4.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Numerical
@@ -848,7 +848,7 @@ Methods with other pure mathematics topics to test synthesis under exam conditio
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 
 ## Cross-References
 

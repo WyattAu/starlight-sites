@@ -98,7 +98,7 @@ Read the chapters in order if you are building foundational knowledge. Use them 
 Material if you are looking up a specific algorithm or trying to understand why a particular data
 Structure is the wrong choice for your workload.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 As writing quicksort, debugging the off-by-one errors, and measuring its performance on pathological
 Inputs. Use the pseudocode here as a starting point, but write the code yourself.
 
@@ -117,8 +117,7 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-</aside>
+:::
 
 ## Intuition
 

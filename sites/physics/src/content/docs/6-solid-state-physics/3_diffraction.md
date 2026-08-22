@@ -152,13 +152,12 @@ $$L = \frac{K\lambda}{\beta\cos\theta}$$
 Where $K \approx 0.89$ is the Scherrer constant. This provides a straightforward method for
 Estimating nanocrystallite sizes from powder diffraction data.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Bragg's law $2d\sin\theta = n\lambda$. These are equivalent formulations of the same physics. The
 Laue condition is a vector equation in Reciprocal space, while Bragg's law is a scalar equation in
 real space. Converting between them Requires careful geometry --- remember that $\theta$ in Bragg's
 law is measured from the _plane_, Not from the normal.
-
-</aside>
+:::
 
 ### 3.7 Common Mistakes
 

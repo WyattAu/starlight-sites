@@ -95,7 +95,7 @@ setx PATH "%PATH%;C:\development\flutter\bin"
 flutter doctor
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `/usr/local`). The Flutter CLI needs write access to its own directory for SDK updates.
 
 ## Version Management
@@ -470,5 +470,4 @@ Setting up Dart involves choosing between the standalone Dart SDK (for server-si
 - [Development Environment](02-dev-enviroment) -- IDE setup and debugging
 - [Entry Point](../03-basics/01-entrypoint) -- first Dart program
 - [Introduction to Dart](../../../../../typescript/src/content/docs/intro) -- language overview and compilation targets
-
-</aside>
+:::

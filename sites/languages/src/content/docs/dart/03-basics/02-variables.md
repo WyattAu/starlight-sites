@@ -55,9 +55,9 @@ dynamic text = "hello";
 dynamic number = 22;
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `var` or explicit typing.
-</aside>
+:::
 ### Mutation Specifier
 
 #### `final` specifier
@@ -170,26 +170,24 @@ void main(){
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
 Should be avoided.
 
 ## Data Types
 
 ### Built-in Data Types
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 #### Number Types
 
 Only two number types exists in Dart, `int` and `double`. `int` represents 64-bit integers on native
 Platforms, but is limited to 53-bit precision when compiled to JavaScript. `double` follows the IEEE
 754 standard and is also 64 bits.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 `abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
-</aside>
+:::
 #### String Literals
 
 Only one String type exists in Dart, `String`Which holds a sequence of characters specify in UTF-16
@@ -292,7 +290,7 @@ print(record.count); // 42
 var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
 Cannot be extended.
 
@@ -339,9 +337,8 @@ var counter = makeCounter();
 print(counter()); // 1
 print(counter()); // 2
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Order-independent, which reduces call-site errors and makes refactoring easier.
 
 #### Lists
@@ -392,9 +389,8 @@ numbers.firstWhere((n) => n > 3);  // 4
 numbers.indexOf(3);                 // 2
 numbers.sublist(1, 3);             // [2, 3]
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 with `.toList()`:
 
 ```dart
@@ -478,9 +474,8 @@ ages.putIfAbsent('New', () => computeAge());
 // map() — transform values
 var doubled = ages.map((k, v) => MapEntry(k, v * 2));
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 Classes for structured data. When you must use `Map<String, dynamic>` (e.g., JSON deserialization),
 Validate the types at runtime.
 
@@ -501,9 +496,8 @@ var equals = Symbol('==');
 import 'dart:mirrors';
 // MirrorSystem.getName(symbol) → String
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Arbitrary text. They are used internally by the Dart VM for optimization and reflection, and are
 Exposed via the `dart:mirrors` library. Most application developers will never create symbols
 Directly.
@@ -547,5 +541,4 @@ linked above.
 - **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** How variables work as class fields with `final` and `const` specifiers.
 - **[Async and Futures](../05-async/01-async-and-futures.md):** Nullable and late variables in asynchronous contexts.
 - **[Best Practices](../04-best-practices.md):** Recommended variable specifier ordering and typing conventions.
-
-</aside>
+:::

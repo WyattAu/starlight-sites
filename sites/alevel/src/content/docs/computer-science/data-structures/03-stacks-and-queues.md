@@ -104,9 +104,9 @@ class LinkedListStack:
         return self._head.data
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 $O(1)$ time. Pushing at the tail would require traversal.
-</aside>
+:::
 <hr />
 
 ## 2. Queues (FIFO)
@@ -194,14 +194,14 @@ class LinkedListQueue:
         return value
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - **AQA** requires both array-based and pointer-based (linked list) implementations
 - **CIE (9618)** requires understanding of stack and queue operations; may specify pointer-based
   implementations
 - **OCR (A)** requires linear and circular queue implementations (array-based), plus linked list
   implementations
 - **Edexcel** covers stack and queue ADTs with pseudocode
-</aside>
+:::
 <hr />
 
 ## 3. Applications of Stacks

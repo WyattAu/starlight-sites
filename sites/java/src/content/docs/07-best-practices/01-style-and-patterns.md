@@ -129,13 +129,13 @@ String pName;   // unclear
 long t;         // meaningless
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 [JLS §6.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.1) defines the rules
 For declaring names.
 [JLS §3.8](https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.8) defines what
 Constitutes a valid identifier. Unicode characters are permitted, but ASCII identifiers are the de
 Facto standard.
-</aside>
+:::
 ## Code Organization
 
 ### Package Structure
@@ -176,9 +176,9 @@ Modify are in a single package. In layer-first packaging, a change to `User` mig
 Across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
 apart in the tree.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Contexts. For small projects or libraries, layer-first packaging remains acceptable.
-</aside>
+:::
 ### Class Structure
 
 The conventional ordering of members within a class, as recommended by the Google Java Style Guide:
@@ -285,11 +285,11 @@ tasks.test {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Incremental compilation, and configuration avoidance yield measurable performance improvements, and
 The Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
 Enterprise infrastructure that requires it, or when team familiarity makes the trade-off clear.
-</aside>
+:::
 ### Dependency Management
 
 #### Dependency Scopes
@@ -480,11 +480,11 @@ The `verify` API with `never()` ensures that when an operation fails partway thr
 Effects leak through. The `argThat` matcher enables assertions on the arguments passed to
 Collaborators without requiring an equality implementation that may not exist on the domain object.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Many responsibilities. Restructure the code rather than adding more mocks. Tests that mock
 Extensively tend to be brittle: they break when implementation details change even when the
 Externally observable behavior is correct.
-</aside>
+:::
 ## Logging
 
 ### java.util.logging (JUL)
@@ -562,10 +562,10 @@ Unconditionally, wasting CPU cycles and allocating objects that are immediately 
 </configuration>
 ```
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Adding external dependencies is undesirable. Never use `System.out.println` for logging in
 Production code; it cannot be filtered by log level, redirected to files, or formatted consistently.
-</aside>
+:::
 ## Design Patterns
 
 ### Singleton
@@ -599,12 +599,12 @@ By serialized field data). A traditional class-based singleton with a private co
 Broken by reflection (`Constructor.setAccessible(true)`) and by deserialization (which creates a new
 Instance unless `readResolve` is implemented).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Expensive resources (connection pools, thread pools). They are inappropriate for stateful objects
 That represent business domain concepts, because a global mutable singleton is essentially a hidden
 Global variable that makes testing difficult and introduces hidden coupling between unrelated parts
 Of the codebase.
-</aside>
+:::
 ### Factory
 
 The Factory pattern encapsulates object creation behind an interface, decoupling the client from the
@@ -1348,7 +1348,7 @@ Total memory, which causes containers to be killed by the OOM killer:
 -XX:InitialRAMPercentage=50.0
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 This flag touches every page in the heap at JVM startup, which forces the operating system to
 Allocate physical memory for the entire heap immediately. It eliminates page fault pauses during
 Runtime, but it delays startup and can cause the container to be killed if the memory limit is
@@ -1377,8 +1377,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

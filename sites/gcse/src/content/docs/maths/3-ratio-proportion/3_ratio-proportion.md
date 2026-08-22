@@ -22,7 +22,7 @@ categories:
 
 ## Ratio, Proportion, and Rates of Change
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 ## 1. Ratio
 
 ### 1.1 Writing and Simplifying Ratios
@@ -809,5 +809,4 @@ applying these mathematical techniques.
 - [Geometry and Measure](../../../../../../sat/src/content/docs/mathematics/geometry) -- Scale drawings and similar triangles use ratio and proportion concepts.
 - [Forces](../../physics/5-forces/5_forces) -- Calculating forces and acceleration involves proportional relationships between mass and force.
 - [Cell Biology](../../../../../../ib/src/content/docs/biology/1-cell-biology/1_cell-biology) -- Dilution ratios and concentration calculations in biology require proportion skills.
-
-</aside>
+:::

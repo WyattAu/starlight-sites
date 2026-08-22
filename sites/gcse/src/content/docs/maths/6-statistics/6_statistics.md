@@ -30,9 +30,9 @@ Statistics is the science of **analysing data to draw conclusions**. The key ins
 
 ## Statistics
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 WJEC Unit 2
-</aside>
+:::
 ## 1. Data Collection
 
 ### 1.1 Types of Data
@@ -83,9 +83,9 @@ A sample is **biased** if it does not fairly represent the population. Sources o
 - Non-response (voluntary response bias)
 - Using convenience sampling
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Only one school is still biased if you want to draw conclusions about all schools in the country.
-</aside>
+:::
 ## 2. Averages and Measures of Central Tendency
 
 ### 2.1 Mean, Median, and Mode
@@ -300,9 +300,9 @@ From the ogive, the median falls in the $25 \leq d \lt 40$ class.
 It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
 On each side.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Factor, or by coincidence.
-</aside>
+:::
 ### 4.5 Interpolation and Extrapolation
 
 - **Interpolation:** Estimating values within the range of the data. Generally reliable.
@@ -628,9 +628,9 @@ Roughly equal numbers of points on each side. It can be used to make predictions
 - **Interpolation:** Predicting within the range of the data (reliable).
 - **Extrapolation:** Predicting outside the range of the data (unreliable).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Observed values.
-</aside>
+:::
 ### 9.7 Frequency Polygons
 
 A frequency polygon is created by plotting the class midpoint against the frequency density (for

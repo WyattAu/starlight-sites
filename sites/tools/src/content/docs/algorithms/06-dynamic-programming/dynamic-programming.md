@@ -142,7 +142,7 @@ def coin_change_combinations(coins, amount):
     return dp[amount]
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 And coins second, you count permutations (different orderings of the same coins are counted
 Separately). If you iterate coins first and amount second, you count combinations (each combination
 Is counted once). This is a common source of incorrect DP solutions.
@@ -299,9 +299,8 @@ def unbounded_knapsack(weights, values, capacity):
                 dp[w] = max(dp[w], dp[w - weights[i]] + values[i])
     return dp[capacity]
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 - **0/1 knapsack:** iterate $w$ from $W$ down to $weight_i$ (reverse) — prevents using the same item
   twice in one iteration
 - **Unbounded knapsack:** iterate $w$ from $weight_i$ up to $W$ (forward) — allows reusing the item
@@ -962,8 +961,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## Cross-References
 

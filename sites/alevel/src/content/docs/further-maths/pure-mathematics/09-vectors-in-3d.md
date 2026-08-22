@@ -35,10 +35,10 @@ Tools are essential for geometry, mechanics, and physics at university level.
 | OCR (A) | Paper 1 | 3D vectors, scalar product, vector product, planes                        |
 | CIE     | P1      | 3D vectors, scalar product, vector product, lines, planes, intersections  |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Scalar triple product for volumes. CIE places particular emphasis on intersections of lines and
 Planes.
-</aside>
+:::
 <hr />
 
 ## 1. Review of A Level Vectors
@@ -170,9 +170,9 @@ $\mathbf{b}$And its direction is given by the right-hand rule.
 - $\mathbf{i}\times\mathbf{j} = \mathbf{k}$, $\mathbf{j}\times\mathbf{k} = \mathbf{i}$
   $\mathbf{k}\times\mathbf{i} = \mathbf{j}$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Only defined in 3D.
-</aside>
+:::
 <hr />
 
 ## 5. Equation of a Line in 3D
@@ -363,7 +363,7 @@ $\square$
 - $[\mathbf{a}\,\mathbf{b}\,\mathbf{c}] = 0$ if and only if $\mathbf{a}$$\mathbf{b}$$\mathbf{c}$ are
   coplanar
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 $\overrightarrow{AB}\cdot(\overrightarrow{AC}\times\overrightarrow{AD}) = 0$.
 
 <hr />
@@ -1269,8 +1269,7 @@ The lines intersect at $\boxed{(1,0,0)}$.
 
 6. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
-
-</aside>
+:::
 
 ---
 

@@ -19,9 +19,9 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## ZFS Concepts
 
-<PracticeProblem client:only="solid-js" question={"What is the fundamental write model used by ZFS?"} options={['Copy-on-write (CoW)', 'Journaling', 'Log-structured', 'Direct overwrite']} correctAnswer={0} explanation="ZFS uses copy-on-write: every write creates a new block, and only after the new block is written and verified does ZFS update the metadata. This eliminates the write hole and makes snapshots instantaneous." difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the fundamental write model used by ZFS?"} options={['Journaling','Log-structured','Copy-on-write (CoW)','Direct overwrite']} correctAnswer={2} explanation="ZFS uses copy-on-write: every write creates a new block, and only after the new block is written and verified does ZFS update the metadata. This eliminates the write hole and makes snapshots instantaneous." difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"What is the purpose of the ARC (Adaptive Replacement Cache) in ZFS?"} options={['Primary read cache in system RAM', 'Write cache for synchronous writes', 'Deduplication table storage', 'Metadata backup storage']} correctAnswer={0} explanation="The ARC is ZFS's primary read cache, stored in system RAM. It uses the Adaptive Replacement Cache algorithm, dynamically balancing between MRU and MFU lists for optimal hit rates." difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What is the purpose of the ARC (Adaptive Replacement Cache) in ZFS?"} options={['Write cache for synchronous writes','Deduplication table storage','Primary read cache in system RAM','Metadata backup storage']} correctAnswer={2} explanation="The ARC is ZFS's primary read cache, stored in system RAM. It uses the Adaptive Replacement Cache algorithm, dynamically balancing between MRU and MFU lists for optimal hit rates." difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"Which checksum algorithm is the default and recommended for modern ZFS pools?"} options={'SHA-256', 'Fletcher4', 'CRC32', 'BLAKE2'} correctAnswer={0} explanation="SHA-256 is the default checksum algorithm on modern ZFS pools. It provides strong collision resistance and is recommended for data integrity verification." difficulty="medium"  />
 

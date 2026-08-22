@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 ## Further Differentiation
 
 ### Implicit Differentiation
@@ -779,8 +779,7 @@ key theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
-
-</aside>
+:::
 
 ## See Also
 

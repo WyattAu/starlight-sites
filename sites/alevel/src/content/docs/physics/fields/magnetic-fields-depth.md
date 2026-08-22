@@ -59,10 +59,10 @@ For a charge moving perpendicular to the field ($\theta = 90^\circ$):
 
 $$\boxed{F = Bqv}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
 Change the speed of a charged particle — only its direction.
-</aside>
+:::
 ## 3. Circular Motion in a Magnetic Field
 
 When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides
@@ -167,9 +167,9 @@ $$\varepsilon = -N\frac{d\Phi}{dt}$$
 Opposing it, a self-amplifying cycle would create energy from nothing. The opposition ensures that
 Work must be done to maintain the flux change, and this work appears as electrical energy.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 rule to find The induced current direction.
-</aside>
+:::
 ### Motional e.m.f.
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:

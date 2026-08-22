@@ -75,7 +75,7 @@ Versa.
 the plane of linear polarisation by $2\theta$Where $\theta$ is the angle between the Input
 polarisation and the fast axis.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 linear polarisation is at Exactly $45°$ to the fast and slow axes. For other input angles, the
 output is elliptically Polarised. A half-wave plate rotates linear polarisation by $2\theta$Not
 $\theta$.
@@ -239,5 +239,4 @@ Natural optical activity is reciprocal: rotating the beam direction reverses the
 After passing through one ideal polariser, unpolarised light of intensity $I_0$ becomes linearly polarised with intensity $I_0/2$, regardless of the polariser orientation. The factor of 1/2 comes from averaging $\cos^2\theta$ over all angles. Students sometimes expect the output intensity to depend on the polariser angle, which is only true for already-polarised input.
 
 Polarization describes the orientation of a light wave's electric field oscillation. Unpolarised light has field vectors pointing in random directions, while linearly polarised light oscillates in a single plane. Malus's law states that when polarised light passes through a polariser, intensity drops as the cosine squared of the angle between them because only the component along the polariser's axis gets through. Brewster's angle is the angle at which reflected light becomes completely polarised because the reflected and refracted rays are perpendicular, eliminating one polarisation component. Scattering at 90 degrees also produces polarisation through the same dipole radiation pattern.
-
-</aside>
+:::

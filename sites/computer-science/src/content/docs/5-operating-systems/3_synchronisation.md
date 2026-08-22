@@ -235,11 +235,10 @@ void philosopher(int i) {
 }
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 condition variables. Spurious Wakeups can cause `pthread_cond_wait()` to return without the
 condition being signalled. The loop Re-checks the condition after every wakeup.
-
-</aside>
+:::
 
 ## Intuition
 

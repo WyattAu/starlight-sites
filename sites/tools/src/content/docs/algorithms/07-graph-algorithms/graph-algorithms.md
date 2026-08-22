@@ -183,7 +183,7 @@ def floyd_warshall(n, edges):
     return dist
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 - You need all-pairs shortest paths and $V$ is small ($V \lt 500$)
 - The graph is dense ($E \approx V^2$), where $O(V^3)$ is competitive with $V$ runs of Dijkstra
 - You need to handle negative edges
@@ -345,9 +345,8 @@ def prim(n, graph):
 | Kruskal               | $O(E \log E)$     | Sparse graphs     | Union-Find     |
 | Prim                  | $O((V+E) \log V)$ | Dense graphs      | Priority queue |
 | Prim (Fibonacci heap) | $O(E + V \log V)$ | Very dense graphs | Fibonacci heap |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
 
 ## Strong Connectivity
@@ -1032,5 +1031,4 @@ linked above.
 - [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based BSTs.
 - [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- Shortest path problems can be solved with DP; Bellman-Ford is essentially a DP algorithm.
 - [Deques and Priority Queues](../../03-linked-lists-stacks-queues/deques-and-priority-queues) -- Priority queues are the key data structure for efficient Dijkstra and Prim implementations.
-
-</aside>
+:::

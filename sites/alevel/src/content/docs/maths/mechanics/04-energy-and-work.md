@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes energy on inclined planes |
 | CIE (9709) | P1, P4  | Work-energy in P1; further in P4   |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Final states matter (no time information needed).
-</aside>
+:::
 <hr />
 
 ## 1. Work Done
@@ -633,7 +633,7 @@ Section 5.4.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Energy and
@@ -666,8 +666,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 
 ## See Also
 

@@ -396,10 +396,10 @@ Operation less penalizing.
 | SA (System Agent) | Uncore voltage (Intel)        | 0.9–1.1 V       | 1.1–1.25 V         |
 | VDDP              | SoC voltage (AMD)             | 0.9–1.0 V       | 1.0–1.1 V          |
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Permanent damage to the DRAM chips. Even 1.45 V should only be used with active cooling on the
 DIMMs.
-</aside>
+:::
 ### Stability Testing After Changes
 
 | Test                         | Duration       | What It Catches                          |
@@ -516,10 +516,10 @@ echo madvise | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 echo always | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 The kernel's khugepaged daemon defragmenting memory in the background. Database vendors recommend
 Setting THP to `madvise` or `never`.
-</aside>
+:::
 ### Huge Pages
 
 Static huge pages are pre-allocated at boot time and cannot be swapped out. They are used by
@@ -804,7 +804,7 @@ swapon --show
 free -h
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Copy-on-write nature. Use a swap file on ext4/xfs or a dedicated swap partition instead.
 
 ### NUMA Memory Policy Deep Dive
@@ -1114,8 +1114,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ## Cross-References
 
 - [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How memory controllers and IMC settings interact with CPU performance

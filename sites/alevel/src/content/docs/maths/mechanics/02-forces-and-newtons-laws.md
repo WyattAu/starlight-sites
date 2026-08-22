@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes inclined planes                              |
 | CIE (9709) | P1, P4  | Forces in P1; connected bodies, inclined planes in P4 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Diagram determines the quality of your solution.
-</aside>
+:::
 <hr />
 
 ## 1. Newton's Laws of Motion
@@ -61,10 +61,10 @@ A.
 **Implication.** Forces always come in pairs: action and reaction. They act on **different** bodies
 And are the same type of force.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Normal reaction from the table are **not** a Third Law pair (both act on the book). The Third Law
 Pair of the weight is the gravitational pull of the book on the Earth.
-</aside>
+:::
 <hr />
 
 ## 2. Types of Forces
@@ -275,10 +275,10 @@ $$P\cos\theta + \mu P\sin\theta = \mu mg$$
 
 $$P = \frac{\mu mg}{\cos\theta + \mu\sin\theta}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Friction. Applying a force at an angle **downward** increases $R$ and increases the maximum
 Friction.
-</aside>
+:::
 ### 8.3 Connected particles on rough surfaces
 
 When two particles are connected by a string and one or both surfaces are rough, friction must be
@@ -365,9 +365,9 @@ Combined with $m_2 g - T = m_2 a$:
 
 $$a = \frac{(m_2 - \mu m_1)g}{m_1 + m_2}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 not at its maximum; instead $F = m_2 g$ (friction balances the hanging weight) and $T = m_2 g$.
-</aside>
+:::
 ### 9.4 Two particles on inclined planes with a pulley
 
 Two particles of masses $m_1$ and $m_2$ are placed on two inclined planes with angles $\alpha$ and
@@ -438,9 +438,9 @@ $$P + \mu mg\cos\alpha - mg\sin\alpha = ma$$
 
 $$a = \frac{P}{m} - g(\sin\alpha - \mu\cos\alpha)$$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 acts.
-</aside>
+:::
 ### 10.4 Block on an inclined plane with a horizontal applied force
 
 A horizontal force $P$ is applied to a block on a rough inclined plane at angle $\alpha$.
@@ -462,9 +462,9 @@ $$P\cos\alpha - \mu P\sin\alpha = mg\sin\alpha + \mu mg\cos\alpha$$
 
 $$P = \frac{mg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}$$
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 block into the Surface).
-</aside>
+:::
 <hr />
 
 ## 11. Equilibrium of Rigid Bodies
@@ -1024,7 +1024,7 @@ $\lt \mu R = 16.99\,\mathrm{N}$Confirming equilibrium).
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Forces and
@@ -1032,7 +1032,7 @@ Newton's Laws with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Intuition
 
 Forces are pushes and pulls that change motion. Free body diagrams are like detective sketches showing every suspect (force) acting on a single object. Resolving forces is breaking diagonal pushes into horizontal and vertical components, like separating a suitcase pull into forward and downward parts. Friction opposes sliding and grows up to a maximum that depends on how hard surfaces press together. Connected particles share acceleration through tension, and the principle of moments ensures rotational balance just as force balance ensures translational equilibrium.

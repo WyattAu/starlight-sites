@@ -29,9 +29,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes outlier detection                    |
 | CIE (9709) | P1, P6  | Data handling in P1; further statistics in P6 |
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Population variance formula (dividing by $n$). Edexcel and OCR use $n-1$ for sample data.
-</aside>
+:::
 <hr />
 
 ## 1. Measures of Central Tendency
@@ -108,9 +108,9 @@ $$
 \end{aligned}
 $$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Remember: "mean of squares minus square of mean."
-</aside>
+:::
 ### 2.3 Sample variance
 
 For sample data, the **unbiased estimator** of the population variance is
@@ -174,10 +174,10 @@ $$\sigma_y^2 = \frac{1}{n}\sum(y_i - \bar{y})^2 = \frac{1}{n}\sum\left(\frac{x_i
 
 Hence $\sigma_y = \sigma_x/|c|$. $\blacksquare$
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 Find the mean and standard deviation, then decode back. Remember: adding a constant shifts the mean
 But does not affect the spread.
-</aside>
+:::
 <hr />
 
 ## 5. Frequency Tables and Grouped Data
@@ -221,9 +221,9 @@ $$S_2 = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}$$
 - $S \lt 0$: negative skew (left tail longer).
 - $S = 0$: symmetric distribution.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 calculated. Both Give the same sign of skewness but may differ in magnitude.
-</aside>
+:::
 ### 6.3 Relationship between measures of central tendency
 
 For a unimodal distribution:
@@ -264,10 +264,10 @@ $$M_i = \frac{0.6745\left(x_i - \tilde{x}\right)}{\mathrm{MAD}}$$
 
 An observation is flagged as an outlier if $|M_i| \gt 3.5$.
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 $0.75$-quantile of the Standard normal distribution, so the modified z-score is on a comparable
 scale to the standard Z-score for normally distributed data.
-</aside>
+:::
 ### 7.3 Choosing an outlier method
 
 | Method             | Strengths                                         | Limitations                             |
@@ -290,9 +290,9 @@ To construct a box plot:
    the largest data value within the upper fence.
 5. Plot any values outside the fences as individual points (these are the outliers).
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 the minimum and Maximum of the dataset.
-</aside>
+:::
 ### 8.2 Interpreting skewness from a box plot
 
 Compare the distances from $Q_2$ to each quartile:
@@ -312,9 +312,9 @@ When two or more box plots are drawn on the same scale, compare:
 - **Skewness**: do the distributions differ in shape?
 - **Outliers**: does one distribution have more extreme values?
 
-<aside aria-label="Warning Such as "distribution A has a higher median" is incomplete without also" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Such as "distribution A has a higher median" is incomplete without also</p>
+:::caution
 addressing how the spreads Compare.
-</aside>
+:::
 <hr />
 
 ## 9. Comparing Distributions
@@ -347,9 +347,9 @@ Of each group. To compare two distributions:
 2. Read off medians, quartiles, and percentiles from each curve.
 3. Compare location (medians), spread (IQR), and shape (skewness).
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 cumulative Frequency for a given $x$-value.
-</aside>
+:::
 ### 9.3 Structuring a comparison
 
 When asked to compare two distributions in an exam, structure your response around four points:
@@ -406,9 +406,9 @@ Cumulative frequencies: 5, 17, 35, 43, 47. The 23.5th value falls in the class $
 
 $$Q_2 = 20 + \left(23.5 - 17\right) \cdot \frac{10}{18} = 20 + 6.5 \cdot \frac{10}{18} = 20 + \frac{65}{18} \approx 23.6$$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 the class.
-</aside>
+:::
 <hr />
 
 ## Problem Set
@@ -802,7 +802,7 @@ Quartiles, which are less affected by that extreme value.
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Data
@@ -810,7 +810,7 @@ Representation with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-</aside>
+:::
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

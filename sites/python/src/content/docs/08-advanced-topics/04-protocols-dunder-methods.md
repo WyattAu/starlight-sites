@@ -44,10 +44,10 @@ s2 = Singleton()
 print(s1 is s2)  # True
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Overridden. Use cases include: singletons, immutable types that need pre-initialization validation,
 And subclassing immutable built-in types like `str` and `int`.
-</aside>
+:::
 ### \_\_repr\_\_ and \_\_str\_\_
 
 ```python
@@ -129,10 +129,10 @@ versions = {v1: "stable"}
 print(versions[v2])  # "stable"
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 unhashable. If you define `__hash__` without `__eq__`Objects may compare equal but hash Differently,
 breaking dict and set invariants.
-</aside>
+:::
 ### Rich Comparison
 
 ```python
@@ -528,10 +528,10 @@ c += 5        # Counter with value 15 (same object)
 c += Counter(5)  # Counter with value 20
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `c = c + other`. This creates a new object. Define `__iadd__` when you want in-place mutation for
 Performance.
-</aside>
+:::
 ## Bitwise Protocols
 
 ```python
@@ -785,9 +785,9 @@ mk.value = 2  # Mutate after insertion
 print(mk in s)  # May be False — hash changed but position didn't
 ```
 
-<aside class="starlight-aside starlight-aside--danger">
+:::danger
 Use immutable snapshots or compute hash from immutable attributes.
-</aside>
+:::
 ### 5. \_\_del\_\_ and Circular References
 
 ```python

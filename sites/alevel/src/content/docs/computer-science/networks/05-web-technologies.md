@@ -20,9 +20,9 @@ categories:
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Of these concepts within their networking modules.
-</aside>
+:::
 ## 1. The Internet and the World Wide Web
 
 ### The Internet vs the Web

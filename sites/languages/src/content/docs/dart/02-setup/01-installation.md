@@ -95,7 +95,7 @@ setx PATH "%PATH%;C:\development\flutter\bin"
 flutter doctor
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 `/usr/local`). The Flutter CLI needs write access to its own directory for SDK updates.
 
 ## Version Management
@@ -475,5 +475,4 @@ linked above.
 - **[Entry Point](../03-basics/01-entrypoint.md):** First code you run after installation — the `main()` function.
 - **[Best Practices](../04-best-practices.md):** Configuration and tooling best practices once your environment is ready.
 - **[Error Handling](../08-error-handling.md):** Error handling setup and crash reporting integration for production apps.
-
-</aside>
+:::

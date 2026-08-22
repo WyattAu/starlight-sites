@@ -767,33 +767,6 @@ See the examples integrated throughout the sections above.
 17. Write SQL to create a transaction that transfers a student from one course to another, ensuring
     the enrolment records are updated atomically.
 
-## Summary
-
-This topic covers the essential chemistry of database design and development, including key
-reactions, underlying theories, and practical applications.
-
-**Key concepts include:**
-
-- Brønsted-Lowry theory
-- strong and weak acids/bases
-- pH calculations
-- titration curves and indicators
-- hydrolysis of salts
-
-Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
-to unfamiliar contexts, particularly in calculation and practical questions.
-
----
-
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
-}
-</script>
-
 ## Cross-References
 
 - [Software](../2-software/2_software) covers the software engineering principles used to design and implement database systems.

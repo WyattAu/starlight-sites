@@ -125,7 +125,7 @@ List<String?> external = fetchFromNetwork();
 String first = external.first!;  // Crashes if first element is null
 ```
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 Promote the type via flow analysis, remove the `!`. If it cannot, prefer a guard or default value.
 The `!` operator is a code smell in production code — it means you are bypassing the safety system.
 
@@ -194,14 +194,12 @@ class Service {
   }
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Initialization, always use `late final`. A bare `late` field is mutable and can be reassigned
 Arbitrarily after its first initialization.
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Initialization paths and one path forgets to initialize the `late` field, you get a
 `LateInitializationError` at runtime with no compile-time warning.
 
@@ -400,9 +398,8 @@ String? getName() => 'Dart';
 // getName() returns String? — the caller cannot assume non-null
 // even if the implementation always returns non-null
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
 Will not promote it inside the closure.
 
@@ -532,9 +529,8 @@ Types:
 | `Handle`            | Dart object handle                | `Object`     | platform     |
 | `NativeFunction<T>` | function pointer                  | N/A          | platform     |
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 VM. When passing an `Int8` value, the Dart `int` is truncated to 8 bits. When reading an `Int8`
 Value, it is sign-extended to 64 bits. Always be aware of the C type's range when working with FFI.
 
@@ -588,9 +584,8 @@ print(ptr.elementAt(2).value);  // 30
 // Pointer casting
 final bytePtr = ptr.cast<Uint8>();  // reinterpret as byte array
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Collector. Every `malloc` must have a corresponding `malloc.free`Or you leak native memory. Unlike
 Dart objects, there is no finalizer that automatically frees native memory. Use `using` from
 `package:ffi` or Dart's `NativeFinalizer` to ensure cleanup.
@@ -717,9 +712,8 @@ callback.close();
 | ----------------------------- | -------------------- | ---------------------------------- | --------------------------- |
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Leaks native resources. The callable is valid only while the `NativeCallable` object is alive.
 
 #### Legacy Pointer.fromFunction
@@ -735,9 +729,8 @@ final callbackPointer = Pointer.fromFunction<DartCallbackFn>(
 // Pass to C
 nativeSetCallback(callbackPointer);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Code calls the callback from a different thread, the behavior is undefined and may crash. Use
 `NativeCallable.listener` for cross-thread callbacks.
 
@@ -793,9 +786,8 @@ final dartResult = result.toDartString();
 | `toNativeUtf16()`             | Dart to C | UTF-16                       |
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Method allocates a new Dart `String` object — it does not take ownership of the C memory. If C
 Allocated the string, you must free it with C's deallocator, not Dart's `malloc.free`.
 
@@ -861,9 +853,8 @@ external Pointer<Void> nativeMalloc(int size);
 @FfiNative<Void Function(Pointer<Void>)>('free')
 external void nativeFree(Pointer<Void> ptr);
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Than `DynamicLibrary.lookup` and produces cleaner code. It requires Dart 3.3+ and native platforms
 (AOT or JIT).
 
@@ -892,9 +883,8 @@ void main() async {
   print(result);
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Remain responsive. Always offload potentially long-running native calls to a compute isolate via
 `Isolate.run`.
 
@@ -1059,9 +1049,8 @@ class _Request {
   _Request({required this.value, required this.replyPort});
 }
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Receive them in that order. However, messages sent from different isolates to the same port may be
 Interleaved — there is no global ordering guarantee across multiple senders.
 
@@ -1227,9 +1216,8 @@ WASM compilation produces code that runs at near-native speed for compute-heavy 
 Binary is compact and loads quickly. However, every call from WASM to JavaScript (and vice versa)
 Has overhead. For DOM-heavy applications, this overhead can dominate. For compute-heavy applications
 (e.g., image processing, cryptography, simulations), the performance gain is significant.
-
-</aside>
-<aside class="starlight-aside starlight-aside--note">
+:::
+:::note
 Is available in Chrome 119+, Firefox 120+, and Safari 17.4+. Older browsers fall back to dart2js.
 
 ## Advanced Patterns
@@ -1788,8 +1776,7 @@ $\blacksquare$
   spawning.
 - `dart:ffi` requires manual memory management: always `free` allocated native memory in a `finally`
   block.
-
-</aside>
+:::
 ## Cross-References
 
 - [Object-Oriented Programming](./04-object-oriented/01-classes-and-inheritance) -- FFI interop with native code extends the object model to interact with C libraries and system calls.

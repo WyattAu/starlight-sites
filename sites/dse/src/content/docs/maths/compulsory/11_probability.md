@@ -290,10 +290,10 @@ $$
 \end{aligned}
 $$
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 individual probabilities, subtract all pairwise intersections, add back all triple Intersections,
 and so on, alternating signs.
-</aside>
+:::
 ## Conditional Probability
 
 ### Definition
@@ -504,10 +504,10 @@ For a valid independence example in the same experiment: let $C$ = "first toss i
 $P(C \cap D) = \frac{1}{4} = \frac{1}{2} \times \frac{1}{2} = P(C) \cdot P(D)$. $C$ and $D$ are
 Independent.
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 Separately and compare. Do not assume independence from the problem description -- it must be
 Verified or explicitly stated.
-</aside>
+:::
 ## Bayes' Theorem
 
 ### Statement
@@ -997,7 +997,7 @@ For the A-Level treatment of this topic, see
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability
@@ -1069,5 +1069,4 @@ denominator cannot be zero).
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
-
-</aside>
+:::

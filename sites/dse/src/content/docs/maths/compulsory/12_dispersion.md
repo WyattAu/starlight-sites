@@ -617,7 +617,7 @@ For the A-Level treatment of this topic, see
 }
 </script>
 
-<aside class="starlight-aside starlight-aside--tip">
+:::tip
 the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Dispersion
@@ -986,8 +986,7 @@ $\blacksquare$
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
 | [Statistics] | IB   | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/2_statistics) |
 | [Statistics] | DSE  | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/12_dispersion)                |
-
-</aside>
+:::
 
 ## Intuition
 

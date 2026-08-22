@@ -100,7 +100,7 @@ grep --color=always "pattern" file
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 special meaning. In ERE, the reverse is true — they are special by default and must be escaped To be
 literal. This is a frequent source of confusion.
 
@@ -392,9 +392,8 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 | `-exec {} +`      | Batched          | Safe               | Many files, simple commands        |
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
 Handle these cases correctly.
 
@@ -586,9 +585,8 @@ rsync -av --partial --progress /source/large_file /dest/
 # Bandwidth limit (KB/s)
 rsync -av --bwlimit=1000 /source/ user@host:/dest/
 ```
-
-</aside>
-<aside aria-label="Always use trailing slashes on source paths in rsync. `/source/` means "contents of source", while" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always use trailing slashes on source paths in rsync. `/source/` means "contents of source", while</p>
+:::
+:::tip
 `/source` means "source directory itself". The difference is whether the source directory name is
 Created in the destination.
 
@@ -669,9 +667,8 @@ chmod +t /tmp
 # Combined octal: 4755 = SUID + rwxr-xr-x
 chmod 4755 /usr/local/bin/custom_tool
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 Can be used for privilege escalation. Audit SUID files regularly:
 
 ```bash
@@ -921,5 +918,4 @@ linked above.
 - [Shell Basics](shell-basics) -- Core utilities are invoked from the shell; understanding shell features enhances their use.
 - [I/O Redirection](../03-process-management/io-redirection) -- Piping core utilities together is the foundation of the Unix philosophy.
 - [File Permissions](../02-file-systems/file-permissions) -- Commands like chmod and chown are core utilities for managing file access.
-
-</aside>
+:::

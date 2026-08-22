@@ -75,7 +75,7 @@ $ git init --bare project.git
 $ git clone user@server:/path/to/project.git
 ```
 
-<aside class="starlight-aside starlight-aside--note">
+:::note
 remote's branch pointer, but the remote's working directory and index will not be updated, causing
 inconsistencies. If you need a server-side repo with a working tree, use a **post-receive hook** to
 check out the files.
@@ -124,9 +124,8 @@ $ git remote set-url origin git@github.com:user/repo.git
 | --------- | ---------------------------------- | ---------------- | -------------------------------------------- |
 | **HTTPS** | `https://github.com/user/repo.git` | Token / password | Public repos, CI/CD, firewalled environments |
 | **SSH**   | `git@github.com:user/repo.git`     | SSH key          | Frequent pushes, personal development        |
-
-</aside>
-<aside class="starlight-aside starlight-aside--tip">
+:::
+:::tip
 to inject tokens as environment variables). GitHub recommends HTTPS for all new repositories.
 
 ## Fetch
@@ -218,9 +217,8 @@ gitGraph
     commit id: "C'"
     commit id: "E'"
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 those commits to a shared branch. If you have, see the
 [Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing.md#the-golden-rule-of-rebasing).
 
@@ -291,9 +289,8 @@ flowchart LR
     style C3 fill:#ffcdd2
     style D1 fill:#ffcdd2
 ```
-
-</aside>
-<aside class="starlight-aside starlight-aside--caution">
+:::
+:::caution
 - **`--force-with-lease`**: Only overwrites if the remote has not changed since your last fetch.
   **Always prefer this over `--force`.**
 
@@ -461,8 +458,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-</aside>
+:::
 ---
 
 <!-- Breadcrumb Schema for SEO -->

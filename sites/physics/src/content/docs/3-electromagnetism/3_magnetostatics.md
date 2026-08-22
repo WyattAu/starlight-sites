@@ -226,13 +226,12 @@ ferromagnets (permanent magnets), $H_c$ is large.
 
 Magnetic fields are the universe's way of pushing things sideways. Unlike electric fields that push along the field line, magnetic forces always act perpendicular to motion, which means they can change the direction of a moving charge but never its speed. The Biot-Savart law is like measuring the magnetic footprint of every tiny current element and adding them up. Ampere's law is the magnetic equivalent of Gauss's law: draw a loop around a current, and the magnetic field integrated along that loop tells you how much current passes through. The vector potential is a mathematical shortcut that simplifies calculations, even though it is not directly measurable. Ferromagnetism is like a crowd of tiny compass needles that all want to point the same way: once aligned, they stay aligned even after the external field is removed, which is why permanent magnets exist.
 
-<aside class="starlight-aside starlight-aside--caution">
+:::caution
 is an auxiliary field Convenient for problems with free currents. The names "magnetic field" and
 "magnetic field Intensity" vary across textbooks --- always check which symbol a given text
 associates with Which name. In this document, $\mathbf{B}$ is the magnetic field and $\mathbf{H}$ is
 the Auxiliary H field.
-
-</aside>
+:::
 
 ### 3.9 Common Mistakes
 
