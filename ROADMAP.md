@@ -48,22 +48,22 @@ Estimated total: 1-2 weeks.
 
 ### P0-1: Capitalisation corruption fix
 
-- [ ] Write a script to fix the 664-file mid-sentence capitalisation bug
+- [x] Write a script to fix the 664-file mid-sentence capitalisation bug
   (pattern: dollar-Then, dollar-So, dollar-And, dollar-But with trailing
   space -- all pre-date the
   Docusaurus-to-Starlight migration, present in WyattsNotes source).
-- [ ] Apply to all affected files.
-- [ ] Add a regression lint or test to prevent reintroduction.
+- [x] Apply to all affected files.
+- [x] Add a regression lint or test to prevent reintroduction.
 - **Effort:** 0.5 day (script + apply).
 - **Exit criteria:** zero matches for the capitalisation corruption pattern.
 
 ### P0-2: Description regeneration
 
-- [ ] Write a script that extracts the first 120-160 char paragraph from each
+- [x] Write a script that extracts the first 120-160 char paragraph from each
   file body and replaces templated/garbage descriptions (pattern: "Study notes
   and resources for ...", "Comprehensive educational content ...").
-- [ ] Run across all ~1,030 affected files.
-- [ ] Verify uniqueness per site (flag duplicates for manual fix).
+- [x] Run across all ~1,030 affected files.
+- [x] Verify uniqueness per site (flag duplicates for manual fix).
 - **Effort:** 1 day (script + apply + spot-check).
 - **Exit criteria:** `bun run lint:descriptions` warnings drop from ~1,671 to
   < 100 (remaining are short descriptions on thin pages, fixed in P1-6).
@@ -73,13 +73,13 @@ Estimated total: 1-2 weeks.
 - [ ] Fix `generate-site.mjs` template: add `compress()`,
   `clientOnlyDirectives`, analytics head entry, all component overrides so
   generated sites pass `lint-config-parity.js`.
-- [ ] Fix og:image cross-site bug: 12 programming sites point at
+- [x] Fix og:image cross-site bug: 12 programming sites point at
   `languages.wyattau.com/img/social-card.svg` instead of their own.
 - [ ] Remove dead `academics -> university` redirect (subdomain decommissioned).
-- [ ] Fix theme-color: wire `sites.meta.json` per-site colors into
+- [x] Fix theme-color: wire `sites.meta.json` per-site colors into
   `astro.config.mjs` head entries (currently all hardcode DSE orange
   `#ff6b35`).
-- [ ] Remove unused `astro-seo` and `@jdevalk/astro-seo-graph` from root
+- [x] Remove unused `astro-seo` and `@jdevalk/astro-seo-graph` from root
   devDependencies.
 - **Effort:** 1 day total.
 - **Exit criteria:** `lint-config-parity.js` passes on a freshly generated
@@ -97,9 +97,9 @@ Estimated total: 1-2 weeks.
 
 ### P0-5: Locale gating
 
-- [ ] Audit all 11 sites that configure `zh` locale -- count actual zh content
+- [x] Audit all 11 sites that configure `zh` locale -- count actual zh content
   files per site (current finding: 1-2 stubs each).
-- [ ] For sites with < 5 real zh pages: set `enabled: false` in
+- [x] For sites with < 5 real zh pages: set `enabled: false` in
   `astro.config.mjs` and remove hreflang zh entries from Head.astro.
 - [ ] For gaokao (genuine Chinese content): keep zh enabled.
 - **Effort:** 0.5 day.
@@ -318,7 +318,7 @@ Discovered 2026-08-22 via adversarial content audit. 32% of content files
 
 ### K-9: SAT content corruption check
 
-- [ ] Verify the reported "quadratic" -> "n" corruption in SAT content
+- [x] Verify the reported "quadratic" -> "n" corruption in SAT content
   (audit found no evidence in current codebase, but sample was inconclusive).
 - [ ] If found: write fix script. If not: add regression lint.
 - **Effort:** 0.5 day.
