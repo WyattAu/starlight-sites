@@ -1371,6 +1371,27 @@ students with their department names.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Advanced Databases] --> B[Distributed Systems]
+    A --> C[Query Optimisation]
+    A --> D[Transaction Management]
+    A --> E[Data Modelling]
+    B --> F[CAP Theorem]
+    B --> G[Consensus: Raft/Paxos]
+    B --> H[Sharding Strategies]
+    C --> I[Cost-Based Optimisation]
+    C --> J[Index Selection]
+    C --> K[Query Plan Visualisation]
+    D --> L[2PC: Two-Phase Commit]
+    D --> M[Saga Pattern]
+    D --> N[CQRS + Event Sourcing]
+    E --> O[Star Schema]
+    E --> P[Data Vault]
+    E --> Q[Slowly Changing Dimensions]
+    F --> R[CP vs AP Systems]
+```
+
 ## Summary
 
 - Normalisation: 1NF (atomic), 2NF (no partial dependencies), 3NF (no transitive dependencies),

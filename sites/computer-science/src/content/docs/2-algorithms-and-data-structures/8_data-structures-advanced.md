@@ -1841,6 +1841,29 @@ collision, slot 5. $h(15)=1$: collision, slot 2. $h(28)=0$: slot 0. $h(17)=3$: c
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Advanced Data Structures] --> B[Balance Trees]
+    A --> C[Hash-Based]
+    A --> D[Graph Structures]
+    A --> E[Probabilistic]
+    B --> F[Red-Black Tree]
+    B --> G[AVL Tree]
+    B --> H[B-Trees / B+ Trees]
+    B --> I[Splay Tree]
+    C --> J[Hash Map]
+    C --> K[Hash Set]
+    C --> L[Cuckoo Hashing]
+    D --> M[Adjacency List]
+    D --> N[Adjacency Matrix]
+    D --> O[Incidence Matrix]
+    E --> P[Bloom Filter]
+    E --> Q[Skip List]
+    E --> R[HyperLogLog]
+    H --> S[Databases: B+ Tree Index]
+    F --> T[Java TreeMap, C++ std::map]
+```
+
 ## Summary
 
 - Sorting: merge sort $O(n \log n)$ guaranteed; quicksort $O(n \log n)$ average; heap sort

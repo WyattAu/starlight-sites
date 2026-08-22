@@ -60,3 +60,13 @@ Databases underpin virtually every digital system — from banking and healthcar
 **Assuming 1NF is sufficient normalisation:** First Normal Form eliminates repeating groups but does not address partial or transitive dependencies. Most practical databases should be in at least 3NF to avoid update anomalies.
 
 **Ignoring NULL behaviour in SQL:** NULL is not equal to NULL (`NULL = NULL` returns UNKNOWN, not TRUE). Use `IS NULL` or `IS NOT NULL` for null checks. Aggregation functions like COUNT ignore NULLs, which can produce unexpected results.
+
+## Summary
+
+Databases store structured data organised into tables with rows and columns,
+linked by primary and foreign keys. The relational model uses SQL for data
+manipulation and supports ACID transactions for reliability. Normalisation
+(1NF through BCNF) reduces redundancy by eliminating partial and transitive
+dependencies. Understanding entity-relationship modelling, SQL queries, and
+normal forms is essential for designing databases that are efficient, consistent,
+and maintainable.

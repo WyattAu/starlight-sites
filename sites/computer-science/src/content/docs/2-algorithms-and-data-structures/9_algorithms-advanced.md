@@ -1672,6 +1672,27 @@ collision, slot 5. $h(15)=1$: collision, slot 2. $h(28)=0$: slot 0. $h(17)=3$: c
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Advanced Algorithms] --> B[Graph Algorithms]
+    A --> C[String Algorithms]
+    A --> D[NP-Completeness]
+    A --> E[Approximation]
+    B --> F[Dijkstra: Shortest Path]
+    B --> G[Bellman-Ford: Negative Edges]
+    B --> H[Floyd-Warshall: All Pairs]
+    B --> I[Kruskal/Prim: MST]
+    C --> J[KMP Pattern Matching]
+    C --> K[Rabin-Karp: Hash Search]
+    C --> L[Trie: Prefix Search]
+    D --> M[Reduction]
+    D --> N[Certificate Verification]
+    D --> O[Cook-Levin Theorem]
+    E --> P[Greedy Approximation]
+    E --> Q[PTAS]
+    E --> R[FPT Algorithms]
+```
+
 ## Summary
 
 - Sorting: merge sort $O(n \log n)$ guaranteed; quicksort $O(n \log n)$ average; heap sort

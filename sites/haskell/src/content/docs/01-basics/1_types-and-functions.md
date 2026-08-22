@@ -9,6 +9,8 @@ categories:
   - Haskell
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -872,6 +874,11 @@ Currying in Haskell is like a assembly line. A function that takes two arguments
 **Forgetting that `head` and `tail` are partial functions.** Calling `head []` or `tail []` crashes at runtime with an "empty list" error. Always use pattern matching or `null` to check for empty lists before accessing elements. Safe alternatives like `safeHead` returning `Maybe a` prevent runtime crashes.
 
 **Misunderstanding currying and partial application.** In Haskell, `f x y` is actually `(f x) y` -- `f` takes one argument and returns a function that takes the next. Partial application means `map (+1)` works because `(+)` is partially applied. Students often misunderstand that all functions take exactly one argument.
+
+<Citations sources={[
+  {title="Learn You a Haskell for Great Good", author="Lipovaca", year="2011", type="book"},
+  {title="Programming in Haskell", author="Hutton", year="2016", type="book"},
+]} />
 
 ## Cross-References
 

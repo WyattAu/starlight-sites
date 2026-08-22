@@ -1146,6 +1146,28 @@ def len(obj: bytearray) -> int: ...
     can pass `None` unless you explicitly constrain it. Use `bound=` or explicit constraints if the
     type variable should be restricted.
 
+```mermaid
+flowchart TD
+    A[Python Type System] --> B[Basic Types]
+    A --> C[Generics]
+    A --> D[Protocols]
+    A --> E[Advanced Patterns]
+    B --> F[str, int, float, bool]
+    B --> G[List, Dict, Tuple, Set]
+    B --> H[Optional, Union]
+    C --> I[TypeVar]
+    C --> J[Generic Classes]
+    C --> K[ParamSpec]
+    D --> L[Structural Subtyping]
+    D --> M[Runtime Checkable]
+    E --> N[Literal Types]
+    E --> O[Type Guards]
+    E --> P[overload]
+    E --> Q[NewType]
+    N --> R[Literal 0, 1, True, False]
+    O --> S[isinstance narrowing]
+```
+
 ## Summary
 
 This topic covers the core concepts of advanced type system, including underlying theory, practical

@@ -1224,6 +1224,28 @@ for p in Path(".").glob("*.py"):
 
 Use `p.is_file(follow_symlinks=False)` if you want to exclude symlinks to files.
 
+```mermaid
+flowchart TD
+    A[Python File I/O] --> B[Text Files]
+    A --> C[Binary Files]
+    A --> D[Path Handling]
+    A --> E[Serialization]
+    B --> F[open/read/write/close]
+    B --> G[with statement]
+    B --> H[Line-by-line iteration]
+    C --> I[struct module]
+    C --> J[bytearray]
+    D --> K[pathlib.Path]
+    D --> L[os.path]
+    K --> M[.read_text / .write_text]
+    K --> N[.glob / .rglob]
+    K --> O[.mkdir / .rename]
+    E --> P[json.dump/load]
+    E --> Q[pickle.dump/load]
+    E --> R[csv reader/writer]
+    E --> S[tomllib (3.11+)]
+```
+
 ## Summary
 
 This topic covers the core concepts of file i/o, including underlying theory, practical

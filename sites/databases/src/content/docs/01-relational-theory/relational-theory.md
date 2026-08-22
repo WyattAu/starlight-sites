@@ -8,6 +8,8 @@ tags:
 categories:
   - Databases
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -872,6 +874,11 @@ No redundancy) or under-normalising (leaving transitive dependencies that cause 
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+<Citations sources={[
+  {title="Database System Concepts", author="Silberschatz, Korth and Sudarshan", year="2019", type="book"},
+  {title="An Introduction to Database Systems", author="Date", year="2003", type="book"},
+]} />
 
 ## Cross-References
 

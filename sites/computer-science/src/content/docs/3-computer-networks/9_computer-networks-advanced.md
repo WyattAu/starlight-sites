@@ -1346,6 +1346,27 @@ sends ACK (ack = y + 1). Connection established.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Advanced Networking] --> B[Routing]
+    A --> C[Security]
+    A --> D[Performance]
+    A --> E[Modern Protocols]
+    B --> F[BGP: Inter-domain]
+    B --> G[OSPF: Intra-domain]
+    B --> H[MPLS: Label Switching]
+    C --> I[IPsec VPN]
+    C --> J[TLS 1.3]
+    C --> K[Zero Trust Architecture]
+    D --> L[QoS: DSCP Marking]
+    D --> M[CDN: Content Delivery]
+    D --> N[Load Balancing]
+    E --> O[QUIC: UDP-based]
+    E --> P[HTTP/3]
+    E --> Q[WebSocket]
+    F --> R[AS Paths, Route Filtering]
+```
+
 ## Summary
 
 - OSI and TCP/IP models; each layer has specific functions and protocols.

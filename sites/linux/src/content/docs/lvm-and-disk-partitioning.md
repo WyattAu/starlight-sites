@@ -1849,6 +1849,27 @@ update-initramfs -u          # Debian/Ubuntu
 dracut --force               # RHEL/Fedora
 ```
 
+```mermaid
+flowchart TD
+    A[Linux Storage] --> B[Physical Disks]
+    A --> C[Partitioning]
+    A --> D[Logical Volume Manager]
+    B --> E[/dev/sda, /dev/sdb]
+    B --> F[MBR vs GPT]
+    C --> G[fdisk / gdisk]
+    C --> H[parted]
+    D --> I[Physical Volumes: PV]
+    D --> J[Volume Groups: VG]
+    D --> K[Logical Volumes: LV]
+    I --> J
+    J --> K
+    K --> L[/dev/vg0/root]
+    K --> M[/dev/vg0/swap]
+    D --> N[snapshot]
+    D --> O[resize]
+    D --> P[thin provisioning]
+```
+
 ## Summary
 
 This topic covers the core concepts of lvm and disk partitioning, including underlying theory,

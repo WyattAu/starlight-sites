@@ -1453,6 +1453,27 @@ Need additional configuration.
 - Native image requires Visual Studio Build Tools with the C++ workload.
 - The FFM API uses `LoadLibrary`/`GetProcAddress`. DLLs must be on `PATH`.
 
+```mermaid
+flowchart TD
+    A[Modern JVM] --> B[GraalVM]
+    A --> C[JVM Architecture]
+    A --> D[Performance Tuning]
+    B --> E[Native Image: AOT Compilation]
+    B --> F[Polyglot Runtime]
+    B --> G[Truffle Framework]
+    C --> H[Class Loading]
+    C --> I[Memory Model]
+    C --> J[Garbage Collection]
+    J --> K[G1GC]
+    J --> L[ZGC]
+    J --> M[Shenandoah]
+    H --> N[Bootstrap/Platform/Application]
+    I --> O[happens-before]
+    D --> P[JIT Compilation]
+    D --> Q[Profiling: async-profiler]
+    D --> R[JFR: Java Flight Recorder]
+```
+
 ## Summary
 
 This topic covers the core concepts of graalvm and modern jvm, including underlying theory,

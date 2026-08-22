@@ -1322,6 +1322,25 @@ Fixed immediately, not discovered weeks later during code review.
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
+```mermaid
+flowchart TD
+    A[Python Style] --> B[PEP 8]
+    A --> C[Pythonic Idioms]
+    A --> D[Type Hints]
+    B --> E[Naming Conventions]
+    B --> F[Import Ordering]
+    B --> G[Line Length: 79/99/120]
+    C --> H[List Comprehensions]
+    C --> I[Context Managers]
+    C --> J[Enumerate/Zip]
+    C --> K[Dictionary Comprehensions]
+    D --> L[mypy / pyright]
+    D --> M[Protocol Classes]
+    D --> N[TypeVar, Generic]
+    H --> O[vs Generator Expressions]
+    I --> P[with statement]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
