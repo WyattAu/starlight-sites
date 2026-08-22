@@ -115,7 +115,7 @@ Estimated total: 1-2 months.
 
 - [x] Audit which of the top-200 content pages by file size lack any visual
   element (image, Mermaid, Desmos, PhET).
-- [ ] Add Mermaid diagrams to pages that already use `mermaid` integration
+- [x] Add Mermaid diagrams to pages that already use `mermaid` integration
   (physics, chemistry, computer-science).
 - [ ] For math-heavy pages: evaluate TikZ-to-SVG pipeline or DesmosGraph
   imports for geometric intuition.
@@ -158,10 +158,10 @@ For each site:
 
 - [x] Add `sources:` frontmatter field to shared content schema.
 - [x] Add a References section renderer in shared/components.
-- [ ] Add citations to the 12 highest-authority sites (mathematics, physics,
+- [x] Add citations to the 12 highest-authority sites (mathematics, physics,
   chemistry, computer-science, programming, alevel, ib, cpp, rust, go,
   java, python).
-- [ ] Cite textbooks already benchmarked in CONTENT_AUDIT.md (Aluffi, CLRS,
+- [x] Cite textbooks already benchmarked in CONTENT_AUDIT.md (Aluffi, CLRS,
   Stroustrup, Atkins, Griffiths, Kleppner).
 - **Effort:** 1-2 weeks.
 - **Exit criteria:** >50% of Tier 3+ pages in the 12 sites have a References
@@ -214,8 +214,8 @@ Estimated total: quarter+.
 ### P2-13: Thin-page program
 
 - [ ] Prioritise the 750 files below tier minimums by GSC impressions data.
-- [ ] Expand Tier-2 pages (113 below minimum) first -- highest traffic impact.
-- [ ] Expand Tier-1 index pages (616 below minimum) second -- structural.
+- [x] Expand Tier-2 pages (113 below minimum) first -- highest traffic impact.
+- [x] Expand Tier-1 index pages (616 below minimum) second -- structural.
 - [ ] Target: reduce to < 100 files below tier minimums.
 - **Effort:** 2-4 weeks (content authoring).
 - **Exit criteria:** `bun run lint:depth` reports < 100 files below minimums.
