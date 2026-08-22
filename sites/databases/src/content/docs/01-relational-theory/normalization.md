@@ -1664,6 +1664,26 @@ The normal forms are like levels of organization. First normal form eliminates j
 4. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
+```mermaid
+flowchart TD
+    A[Normalisation] --> B[1NF: Atomic Values]
+    A --> C[2NF: No Partial Dependencies]
+    A --> D[3NF: No Transitive Dependencies]
+    A --> E[BCNF: Every Determinant is a Key]
+    B --> F[Eliminate Repeating Groups]
+    B --> G[Each Cell Contains One Value]
+    C --> H[2NF = 1NF + No Partial Dependencies]
+    H --> I[All Non-Key Attributes Depend on Whole PK]
+    D --> J[3NF = 2NF + No Transitive Dependencies]
+    J --> K[Non-Key Attributes Depend Only on PK]
+    E --> L[Stricter Than 3NF]
+    L --> M[Every Determinant is a Superkey]
+    A --> N[Benefits]
+    N --> O[Reduced Redundancy]
+    N --> P[No Update Anomalies]
+    N --> Q[No Insert/Delete Anomalies]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -942,6 +942,32 @@ scores.entrySet().stream()
 // Bob: 87, Alice: 95
 ```
 
+```mermaid
+flowchart TD
+    A[Java Collections: Maps/Sets] --> B[Map Interface]
+    A --> C[Set Interface]
+    B --> D[HashMap]
+    B --> E[LinkedHashMap]
+    B --> F[TreeMap]
+    B --> G[ConcurrentHashMap]
+    D --> H[O_1 get/put]
+    D --> I[No ordering guarantee]
+    E --> J[Insertion order preserved]
+    F --> K[Sorted by key]
+    F --> L[O_log n operations]
+    G --> M[Thread-safe]
+    G --> N[Segment-level locking]
+    C --> O[HashSet]
+    C --> P[LinkedHashSet]
+    C --> Q[TreeSet]
+    O --> R[Based on HashMap]
+    O --> S[O_1 add/contains]
+    Q --> T[Sorted, O_log n]
+    U[Use cases] --> V[HashMap: general purpose]
+    U --> W[TreeMap: sorted keys]
+    U --> X[ConcurrentHashMap: threading]
+```
+
 ## Summary
 
 This topic covers the core concepts of maps and sets, including underlying theory, practical

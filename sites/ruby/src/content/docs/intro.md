@@ -4,6 +4,8 @@ date: 2026-07-23T21:57:32+01:00
 title: "Ruby - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ruby\", \"url\": \"https://ruby.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -87,6 +89,11 @@ end
 **Using == for string comparison:** In Ruby, == compares string content (unlike Java). But equal? compares object identity. eql? compares content and type. Use == for most string comparisons, but be aware of the distinction.
 
 **Forgetting Ruby is object-oriented:** Everything in Ruby is an object, including integers, strings, and nil. 5.times { ... } works because integers are objects. This means methods can be called on any value, which is different from languages with primitive types.
+
+<Citations sources={[
+  {title="Programming Ruby", author="Thomas, Fowler and Hunt", year="2020", type="book"},
+  {title="The Well-Grounded Rubyist", author="Black", year="2018", type="book"},
+]} />
 
 ## Cross-References
 

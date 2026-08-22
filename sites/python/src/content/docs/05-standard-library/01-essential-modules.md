@@ -1125,6 +1125,28 @@ For more complex date arithmetic (business days, holidays, recurrence rules), th
 4. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
+```mermaid
+flowchart TD
+    A[Python Standard Library] --> B[os/sys]
+    A --> C[collections]
+    A --> D[itertools]
+    A --> E[pathlib]
+    A --> F[datetime]
+    A --> G[re]
+    B --> H[os: file system, environment]
+    B --> I[sys: argv, path, exit]
+    C --> J[Counter, defaultdict]
+    C --> K[namedtuple, deque]
+    D --> L[chain, product, combinations]
+    D --> M[groupby, islice, starmap]
+    E --> N[Path objects]
+    E --> O[glob/rglob]
+    F --> P[datetime, timedelta]
+    F --> Q[dateutil for timezones]
+    G --> R[Regular expressions]
+    G --> S[re.compile, re.sub]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

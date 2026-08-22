@@ -8,6 +8,8 @@ tags:
 categories:
   - Go
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -270,6 +272,11 @@ Version control and never edited manually.
 6. **Circular imports.** Go does not allow circular imports between packages. If A imports B and B
    imports A, the compiler rejects it. Restructure by extracting the shared code into a third
    package.
+
+<Citations sources={[
+  {title="The Go Programming Language", author="Donovan and Kernighan", year="2015", type="book"},
+  {title="Go in Action", author="Kennedy, Ketelsen and Marting", year="2015", type="book"},
+]} />
 
 ## Cross-References
 

@@ -943,6 +943,29 @@ List<String> lines = text.lines().collect(Collectors.toList());
 "   ".isEmpty();    // false — contains whitespace characters
 ```
 
+```mermaid
+flowchart TD
+    A[Java Strings] --> B[String]
+    A --> C[StringBuilder]
+    A --> D[StringBuffer]
+    B --> E[Immutable]
+    B --> F[Stored in String Pool]
+    B --> G[Thread-safe by immutability]
+    C --> H[Mutable]
+    C --> I[Faster than String for concatenation]
+    C --> J[Not thread-safe]
+    D --> K[Mutable]
+    D --> L[Thread-safe: synchronized]
+    D --> M[Slower than StringBuilder]
+    N[Operations] --> O[concat: creates new String]
+    N --> P[substring: creates new String]
+    N --> Q[charAt: O_1 access]
+    N --> R[equals: content comparison]
+    S[Performance] --> T[Use StringBuilder in loops]
+    S --> U[Pre-size if length known]
+    S --> V[Avoid String in tight loops]
+```
+
 ## Summary
 
 This topic covers the core concepts of strings and text processing, including underlying theory,

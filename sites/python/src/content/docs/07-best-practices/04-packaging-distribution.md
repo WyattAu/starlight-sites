@@ -969,6 +969,28 @@ twine check dist/*
 # Also verify the name is available on https://pypi.org
 ```
 
+```mermaid
+flowchart TD
+    A[Python Packaging] --> B[Build System]
+    A --> C[Distribution]
+    A --> D[Environment]
+    B --> E[pyproject.toml]
+    B --> F[setup.py / setup.cfg]
+    B --> G[build backend: setuptools, flit, poetry]
+    C --> H[PyPI]
+    C --> I[wheels: .whl]
+    C --> J[sdist: .tar.gz]
+    C --> K[metadata: PKG-INFO]
+    D --> L[venv / venv]
+    D --> M[pip]
+    D --> N[pip-tools / poetry]
+    D --> O[conda]
+    E --> P[PEP 517/518]
+    E --> Q[declarative config]
+    H --> R[twine upload]
+    H --> S[TestPyPI for testing]
+```
+
 ## Summary
 
 This topic covers the core concepts of packaging and distribution, including underlying theory,

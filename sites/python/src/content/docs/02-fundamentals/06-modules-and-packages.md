@@ -1101,6 +1101,27 @@ Executable), some standard attributes like `__file__` and `__cached__` may be `N
 Entirely. Code that assumes `module.__file__` is always a valid path will break. Check for `None`
 Before using `__file__`Or use `getattr(module, '__file__', None)` for defensive access.
 
+```mermaid
+flowchart TD
+    A[Python Modules] --> B[Modules]
+    A --> C[Packages]
+    A --> D[Import System]
+    B --> E[Single .py file]
+    B --> F[Standard library modules]
+    B --> G[Third-party: pip install]
+    C --> H[Directory with __init__.py]
+    C --> I[Namespace packages: no __init__.py]
+    D --> J[import statement]
+    D --> K[from X import Y]
+    D --> L[import X as Y]
+    D --> M[__import__]
+    J --> N[sys.path search]
+    J --> O[Module cache: sys.modules]
+    H --> P[Regular packages]
+    H --> Q[Sub-packages]
+    C --> R[setup.py / pyproject.toml]
+```
+
 ## Summary
 
 This topic covers the core concepts of modules and packages, including underlying theory, practical

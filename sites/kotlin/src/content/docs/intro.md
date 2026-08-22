@@ -8,6 +8,8 @@ tags:
 categories:
   - Kotlin
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -195,6 +197,11 @@ kotlin {
   different concurrency model, different performance profile.
 - \*\* Using `kotlinc` directly for production builds. Always use Gradle or Maven for dependency
   management, incremental compilation, and reproducible builds.
+
+<Citations sources={[
+  {title="Kotlin in Action", author="Jemerov and Isakova", year="2017", type="book"},
+  {title="Kotlin Programming: The Big Nerd Ranch Guide", author="Acido and Phillips", year="2018", type="book"},
+]} />
 
 ## Cross-References
 

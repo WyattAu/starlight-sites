@@ -1164,6 +1164,29 @@ subparsers = parser.add_subparsers(dest="command", required=True)
 This fails fast with a clear "required: expected at least one argument" message instead of a
 Traceback inside your own code.
 
+```mermaid
+flowchart TD
+    A[Python CLI Tools] --> B[argparse]
+    A --> C[click]
+    A --> D[typer]
+    A --> E[fire]
+    B --> F[Standard library]
+    B --> G[Positional + optional args]
+    B --> H[Subcommands via subparsers]
+    C --> I[Decorator-based]
+    C --> J[Type-hinted arguments]
+    C --> K[Built-in testing: CliRunner]
+    D --> L[FastAPI-style]
+    D --> M[Auto-generates from type hints]
+    D --> N[Based on click]
+    E --> O[Google fire]
+    E --> P[Minimal boilerplate]
+    E --> Q[Auto-discovers functions]
+    B --> R[Best for: complex CLIs]
+    C --> S[Best for: polished CLIs]
+    D --> T[Best for: simple CLIs]
+```
+
 ## Summary
 
 This topic covers the core concepts of cli tools, including underlying theory, practical

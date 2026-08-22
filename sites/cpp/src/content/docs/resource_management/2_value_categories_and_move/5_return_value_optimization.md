@@ -953,6 +953,27 @@ import { Citation } from "@components/Citations.astro"
 - [Temporary Materialization](3_temporary_materialization.md)
 - [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo.md)
 
+```mermaid
+flowchart TD
+    A[RVO/NRVO] --> B[RVO: Return Value Optimisation]
+    A --> C[NRVO: Named RVO]
+    B --> D[Anonymous temporary]
+    B --> E[Compiler elides copy/move]
+    B --> F[Guaranteed since C++17]
+    C --> G[Named local variable]
+    C --> H[Compiler may elide copy/move]
+    C --> I[Not guaranteed until C++17]
+    J[When NRVO applies] --> K[Single return statement]
+    J --> L[Same type as return type]
+    J --> M[No virtual base classes]
+    N[When NRVO fails] --> O[Multiple return paths]
+    N --> P[Conditional return]
+    N --> Q[Return from different scopes]
+    A --> R[Performance impact]
+    R --> S[Eliminates unnecessary copies]
+    R --> T[Critical for large objects]
+```
+
 ## Summary
 
 This topic covers the core concepts of return value optimization (rvo) and nrvo, including

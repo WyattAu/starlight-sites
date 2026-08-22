@@ -952,6 +952,30 @@ private static void processBuffer(ByteBuffer buffer) {
 }
 ```
 
+```mermaid
+flowchart TD
+    A[Java NIO] --> B[Channels]
+    A --> C[Buffers]
+    A --> D[Selectors]
+    A --> E[Non-blocking I/O]
+    B --> F[FileChannel]
+    B --> G[SocketChannel]
+    B --> H[ServerSocketChannel]
+    C --> I[ByteBuffer]
+    C --> J[CharBuffer]
+    C --> K[Direct vs Heap buffers]
+    D --> L[Selector]
+    D --> M[SelectionKey]
+    D --> N[OP_READ, OP_WRITE, OP_ACCEPT]
+    E --> O[Single thread handles many connections]
+    E --> P[Event-driven model]
+    E --> Q[No thread-per-connection overhead]
+    F --> R[memory-mapped files]
+    F --> S[File locking]
+    L --> T[Register channels]
+    L --> U[select() blocks until ready]
+```
+
 ## Summary
 
 This topic covers the core concepts of nio deep dive, including underlying theory, practical

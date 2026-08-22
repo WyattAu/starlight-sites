@@ -1120,6 +1120,28 @@ Validation is in effect and makes the codebase harder to maintain. Pick one libr
 Validation tool and use it consistently. If you must interoperate (e.g., using attrs for domain
 Objects and Pydantic for API schemas), keep the boundary between them explicit and minimal.
 
+```mermaid
+flowchart TD
+    A[Python Data Validation] --> B[pydantic]
+    A --> C[dataclasses]
+    A --> D[attrs]
+    A --> E[cerberus]
+    B --> F[BaseModel]
+    B --> G[Type coercion]
+    B --> H[JSON schema generation]
+    B --> I[Settings management]
+    C --> J[@dataclass]
+    C --> K[Field validation via __post_init__]
+    D --> L[@attrs.define]
+    D --> M[attr.validators]
+    E --> N[Schema-based validation]
+    E --> O[Custom validators]
+    F --> P[Field(..., gt=0)]
+    F --> Q[Field(..., regex=...)]
+    B --> R[FastAPI integration]
+    B --> S[SQLAlchemy integration]
+```
+
 ## Summary
 
 This topic covers the core concepts of data validation, including underlying theory, practical

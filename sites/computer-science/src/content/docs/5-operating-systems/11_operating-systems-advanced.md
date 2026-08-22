@@ -1374,6 +1374,28 @@ forms a cycle (circular wait), so there is a deadlock.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Advanced OS] --> B[Virtualisation]
+    A --> C[Distributed Systems]
+    A --> D[Security]
+    A --> E[Performance]
+    B --> F[Hypervisors: Type 1 vs Type 2]
+    B --> G[Containers: Docker, LXC]
+    B --> H[VMware, KVM, Xen]
+    C --> I[RPC and Middleware]
+    C --> J[Replication and Consistency]
+    C --> K[Distributed File Systems]
+    D --> L[Access Control: MAC, DAC, RBAC]
+    D --> M[SELinux, AppArmor]
+    D --> N[Capabilities and Seccomp]
+    E --> O[Scheduling Algorithms]
+    E --> P[Memory Management]
+    E --> Q[I/O Scheduling]
+    F --> R[Bare-metal vs Hosted]
+    G --> S[Namespaces, Cgroups]
+```
+
 ## Summary
 
 - Process management: scheduling algorithms (FCFS, SJF, Round Robin), deadlock (conditions,
