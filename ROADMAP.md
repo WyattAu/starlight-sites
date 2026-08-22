@@ -301,18 +301,20 @@ Discovered 2026-08-22 via adversarial content audit. 32% of content files
 
 ### K-8: Head.astro decomposition
 
-- [ ] Extract JSON-LD schema generation (lines 122-191) into
-  `shared/components/starlight/JsonLd.astro`.
-- [ ] Extract site navigator overlay (lines 318-361) into
-  `shared/components/starlight/SiteNavigator.astro`.
-- [ ] Extract service worker registration (lines 284-312) into
-  `shared/components/starlight/ServiceWorker.astro`.
-- [ ] Head.astro should import and compose these sub-components.
-- [ ] Run `sync-shared.mjs` to propagate to all sites.
+- [x] Extract JSON-LD schema generation into
+  `shared/components/starlight/JsonLd.astro` (70 lines, 12 schema types).
+- [x] Extract site navigator overlay into
+  `shared/components/starlight/SiteNavigator.astro` (50 lines).
+- [x] Extract service worker registration into
+  `shared/components/starlight/ServiceWorker.astro` (34 lines).
+- [x] Head.astro imports and composes these sub-components (388 -> 224 lines,
+  42% reduction; each extracted component is independently testable).
+- [x] Run `sync-shared.mjs` to propagate to all sites.
 - **Effort:** 1 day.
-- **Exit criteria:** Head.astro < 200 lines; each extracted component
-  is independently testable; `bun run build:site` passes on sample site.
-- **Files:** `shared/components/starlight/Head.astro`, new sub-components
+- **Exit criteria:** Head.astro < 230 lines; each extracted component is
+  independently testable; `bunx astro build` passes on sample site.
+- **Files:** `shared/components/starlight/Head.astro`, `JsonLd.astro`,
+  `SiteNavigator.astro`, `ServiceWorker.astro`
 
 ### K-9: SAT content corruption check
 

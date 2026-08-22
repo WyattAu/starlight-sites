@@ -1,19 +1,8 @@
 ---
 import ClientRouter from "astro/components/ClientRouter.astro"
-import {
-  generateArticleSchema,
-  generateBreadcrumbSchema,
-  generateCourseSchema,
-  generateFAQSchema,
-  generateHowToSchema,
-  generateImageObjectSchema,
-  generateOrganizationSchema,
-  generatePersonSchema,
-  generateSoftwareSourceCodeSchema,
-  generateSpeakableSchema,
-  generateVideoObjectSchema,
-  generateWebSiteSchema,
-} from '../../utils/jsonld'
+import JsonLd from './JsonLd.astro'
+import SiteNavigator from './SiteNavigator.astro'
+import ServiceWorker from './ServiceWorker.astro'
 
 const { starlightRoute } = Astro.locals;
 const { entry, head, id } = starlightRoute;
@@ -118,76 +107,6 @@ function buildBreadcrumbs(id: string, siteTitle: string) {
 }
 
 const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
-
-// Generate schemas using shared utilities
-const organizationSchema = generateOrganizationSchema()
-const websiteSchema = generateWebSiteSchema()
-const articleSchema = generateArticleSchema({
-  headline: pageTitle,
-  description,
-  url: pageUrl,
-  datePublished,
-  dateModified,
-})
-const breadcrumbSchema = generateBreadcrumbSchema({
-  items: breadcrumbItems,
-})
-
-// Only generate page-specific schemas when frontmatter data exists
-const hasFAQ = entry?.data?.faq && Array.isArray(entry.data.faq) && entry.data.faq.length > 0;
-const hasHowTo = entry?.data?.howTo && Array.isArray(entry.data.howTo) && entry.data.howTo.steps?.length > 0;
-const hasCourse = entry?.data?.course?.name;
-const hasVideo = entry?.data?.video?.name;
-const hasImage = entry?.data?.image?.url;
-const hasCode = entry?.data?.code?.name;
-
-// Generate FAQ schema from frontmatter or fallback to site-wide FAQ for homepage only
-const faqSchema = hasFAQ
-  ? generateFAQSchema(entry.data.faq)
-  : subdomain === 'www' || subdomain === 'wyattsnotes'
-    ? generateFAQSchema([
-        {
-          question: 'What are Wyatt\'s Notes?',
-          answer: 'Wyatt\'s Notes are free, rigorous study notes covering IB, A-Level, GCSE, AP, DSE, university STEM, and programming topics.',
-        },
-        {
-          question: 'Are the study notes free?',
-          answer: 'Yes, all study notes on Wyatt\'s Notes are completely free and open to everyone.',
-        },
-      ])
-    : null
-
-// Generate HowTo schema from frontmatter or fallback for study guides
-const howToSchema = hasHowTo
-  ? generateHowToSchema(entry.data.howTo)
-  : entry?.data?.layout === 'study-guide'
-    ? generateHowToSchema({
-        name: pageTitle,
-        description,
-        steps: [
-          { name: 'Read the introduction', text: 'Read the introductory section to understand the context and prerequisites.' },
-          { name: 'Study the main content', text: 'Go through the main content sections, reviewing examples and explanations.' },
-          { name: 'Practice with examples', text: 'Apply what you learned by working through the practice problems and examples.' },
-        ],
-      })
-    : null
-
-// Generate Course schema from frontmatter or fallback for subject pages
-const courseSchema = hasCourse
-  ? generateCourseSchema(entry.data.course)
-  : entry?.data?.layout === 'subject'
-    ? generateCourseSchema({
-        name: siteTitle,
-        description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
-      })
-    : null
-
-// Generate optional schemas from frontmatter
-const videoSchema = hasVideo ? generateVideoObjectSchema(entry.data.video) : null
-const imageSchema = hasImage ? generateImageObjectSchema(entry.data.image) : null
-const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) : null
-const personSchema = generatePersonSchema()
-const speakableSchema = generateSpeakableSchema({ url: pageUrl })
 ---
 
 <!-- Page speed: preconnect to external origins -->
@@ -281,84 +200,13 @@ const speakableSchema = generateSpeakableSchema({ url: pageUrl })
 <!-- Starlight head items (title, KaTeX CSS, analytics, font preloads, etc.) -->
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
 
-<script is:inline>
-(function() {
-  function registerSW() {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js').then(function(reg) {
-        reg.addEventListener('updatefound', function() {
-          var newSW = reg.installing
-          newSW.addEventListener('statechange', function() {
-            if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
-              newSW.postMessage({ type: 'SKIP_WAITING' })
-            }
-          })
-        })
-      }).catch(function(err) {
-        // SW registration failed
-      })
-      navigator.serviceWorker.addEventListener('controllerchange', function() {
-        window.location.reload()
-      })
-    }
-  }
-  // Defer SW registration to not block rendering
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(registerSW, { timeout: 5000 })
-  } else {
-    setTimeout(registerSW, 1000)
-  }
-})()
-</script>
+<ServiceWorker />
 
 <!-- Reading controls (floating settings, focus mode, progress, position memory) -->
 <script src="/reader.js" defer></script>
 
 <!-- Site navigator: inject Sites button into Starlight header -->
-<script is:inline>
-(function(){
-  function injectSitesButton(){
-    var search = document.querySelector('#custom-search') || document.querySelector('.right-group')
-    if(!search || !search.parentNode) return
-    var btn = document.createElement('button')
-    btn.className = 'site-nav-btn'
-    btn.id = 'site-nav-trigger'
-    btn.setAttribute('aria-label','Browse all sites')
-    btn.setAttribute('title','Browse all sites')
-    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg><span>Sites</span>'
-    search.parentNode.insertBefore(btn, search)
-    btn.addEventListener('click', function(e){
-      e.stopPropagation()
-      var ov = document.getElementById('site-nav-overlay')
-      if(!ov) ov = buildOverlay()
-      ov.setAttribute('aria-hidden','false')
-      document.body.classList.add('site-nav-open')
-    })
-  }
-  function buildOverlay(){
-    var SITES={'Exam Boards':[{n:'DSE',u:'https://dse.wyattau.com'},{n:'IB',u:'https://ib.wyattau.com'},{n:'A-Level',u:'https://alevel.wyattau.com'},{n:'GCSE',u:'https://gcse.wyattau.com'},{n:'AP',u:'https://ap.wyattau.com'},{n:'Highers',u:'https://highers.wyattau.com'},{n:'Leaving Cert',u:'https://leaving-cert.wyattau.com'},{n:'CBSE',u:'https://cbse.wyattau.com'},{n:'Gaokao',u:'https://gaokao.wyattau.com'},{n:'HSC',u:'https://hsc.wyattau.com'},{n:'SAT',u:'https://sat.wyattau.com'}],'Computer Science':[{n:'C++',u:'https://cpp.wyattau.com'},{n:'Java',u:'https://java.wyattau.com'},{n:'Python',u:'https://python.wyattau.com'},{n:'Rust',u:'https://rust.wyattau.com'},{n:'Go',u:'https://go.wyattau.com'},{n:'Kotlin',u:'https://kotlin.wyattau.com'},{n:'TypeScript',u:'https://typescript.wyattau.com'},{n:'Dart',u:'https://dart.wyattau.com'},{n:'Swift',u:'https://swift.wyattau.com'},{n:'Ruby',u:'https://ruby.wyattau.com'},{n:'Haskell',u:'https://haskell.wyattau.com'},{n:'Elixir',u:'https://elixir.wyattau.com'},{n:'Languages',u:'https://languages.wyattau.com'},{n:'Tools',u:'https://tools.wyattau.com'}],'Further Studies':[{n:'Mathematics',u:'https://mathematics.wyattau.com'},{n:'Physics',u:'https://physics.wyattau.com'},{n:'Chemistry',u:'https://chemistry.wyattau.com'},{n:'CS Theory',u:'https://computer-science.wyattau.com'},{n:'Admissions',u:'https://admissions.wyattau.com'}],'Infrastructure':[{n:'Networking',u:'https://networking.wyattau.com'},{n:'Linux',u:'https://linux.wyattau.com'},{n:'Security',u:'https://security.wyattau.com'},{n:'Databases',u:'https://databases.wyattau.com'},{n:'TrueNAS',u:'https://truenas.wyattau.com'},{n:'Tuning',u:'https://tuning.wyattau.com'},{n:'Licensing',u:'https://licensing.wyattau.com'},{n:'ML',u:'https://machine-learning.wyattau.com'}]}
-    var cats=Object.keys(SITES)
-    var el=document.createElement('div')
-    el.id='site-nav-overlay'
-    el.setAttribute('aria-hidden','true')
-    el.innerHTML='<div class="site-nav-backdrop"></div><div class="site-nav-panel" role="dialog" aria-label="Site navigator"><div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div><div class="site-nav-body">'+cats.map(function(c){return '<div class="site-nav-category"><div class="site-nav-cat-header"><span>'+c+'</span></div><div class="site-nav-grid">'+SITES[c].map(function(s){return '<a href="'+s.u+'" class="site-nav-card" target="_blank" rel="noopener"><strong>'+s.n+'</strong></a>'}).join('')+'</div></div>'}).join('')+'</div></div>'
-    document.body.appendChild(el)
-    el.querySelector('.site-nav-close').addEventListener('click',function(){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')})
-    el.querySelector('.site-nav-backdrop').addEventListener('click',function(){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')})
-    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.getAttribute('aria-hidden')==='false'){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')}})
-    return el
-  }
-  // Defer site nav injection to not block rendering
-  function init() {
-    if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',injectSitesButton)}else{injectSitesButton()}
-  }
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(init, { timeout: 3000 })
-  } else {
-    setTimeout(init, 500)
-  }
-})()
-</script>
+<SiteNavigator />
 
 <!-- Cross-site search (injected into nav header) -->
 <script src="/cross-site-search.js" defer></script>
@@ -368,20 +216,7 @@ const speakableSchema = generateSpeakableSchema({ url: pageUrl })
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script src="/mermaid-render.js" defer></script>
 
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
-{howToSchema && <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />}
-{courseSchema && <script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />}
-{videoSchema && <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />}
-{imageSchema && <script type="application/ld+json" set:html={JSON.stringify(imageSchema)} />}
-{codeSchema && <script type="application/ld+json" set:html={JSON.stringify(codeSchema)} />}
-<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(speakableSchema)} />
-
+<JsonLd entry={entry} pageTitle={pageTitle} description={description} pageUrl={pageUrl} datePublished={datePublished} dateModified={dateModified} siteTitle={siteTitle} subdomain={subdomain} breadcrumbItems={breadcrumbItems} />
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="Wyatt's Notes RSS" href="/rss.xml" />
 

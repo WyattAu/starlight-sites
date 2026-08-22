@@ -1,0 +1,107 @@
+---
+import {
+  generateArticleSchema,
+  generateBreadcrumbSchema,
+  generateCourseSchema,
+  generateFAQSchema,
+  generateHowToSchema,
+  generateImageObjectSchema,
+  generateOrganizationSchema,
+  generatePersonSchema,
+  generateSoftwareSourceCodeSchema,
+  generateSpeakableSchema,
+  generateVideoObjectSchema,
+  generateWebSiteSchema,
+} from '../../utils/jsonld'
+
+interface Props {
+  entry: any
+  pageTitle: string
+  description: string
+  pageUrl: string
+  datePublished: string
+  dateModified: string
+  siteTitle: string
+  subdomain: string
+  breadcrumbItems: Array<{ name: string; url: string }>
+}
+
+const { entry, pageTitle, description, pageUrl, datePublished, dateModified, siteTitle, subdomain, breadcrumbItems } = Astro.props
+
+const organizationSchema = generateOrganizationSchema()
+const websiteSchema = generateWebSiteSchema()
+const articleSchema = generateArticleSchema({
+  headline: pageTitle,
+  description,
+  url: pageUrl,
+  datePublished,
+  dateModified,
+})
+const breadcrumbSchema = generateBreadcrumbSchema({
+  items: breadcrumbItems,
+})
+
+const hasFAQ = entry?.data?.faq && Array.isArray(entry.data.faq) && entry.data.faq.length > 0
+const hasHowTo = entry?.data?.howTo && Array.isArray(entry.data.howTo) && entry.data.howTo.steps?.length > 0
+const hasCourse = entry?.data?.course?.name
+const hasVideo = entry?.data?.video?.name
+const hasImage = entry?.data?.image?.url
+const hasCode = entry?.data?.code?.name
+
+const faqSchema = hasFAQ
+  ? generateFAQSchema(entry.data.faq)
+  : subdomain === 'www' || subdomain === 'wyattsnotes'
+    ? generateFAQSchema([
+        {
+          question: "What are Wyatt's Notes?",
+          answer: "Wyatt's Notes are free, rigorous study notes covering IB, A-Level, GCSE, AP, DSE, university STEM, and programming topics.",
+        },
+        {
+          question: "Are the study notes free?",
+          answer: "Yes, all study notes on Wyatt's Notes are completely free and open to everyone.",
+        },
+      ])
+    : null
+
+const howToSchema = hasHowTo
+  ? generateHowToSchema(entry.data.howTo)
+  : entry?.data?.layout === 'study-guide'
+    ? generateHowToSchema({
+        name: pageTitle,
+        description,
+        steps: [
+          { name: 'Read the introduction', text: 'Read the introductory section to understand the context and prerequisites.' },
+          { name: 'Study the main content', text: 'Go through the main content sections, reviewing examples and explanations.' },
+          { name: 'Practice with examples', text: 'Apply what you learned by working through the practice problems and examples.' },
+        ],
+      })
+    : null
+
+const courseSchema = hasCourse
+  ? generateCourseSchema(entry.data.course)
+  : entry?.data?.layout === 'subject'
+    ? generateCourseSchema({
+        name: siteTitle,
+        description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
+      })
+    : null
+
+const videoSchema = hasVideo ? generateVideoObjectSchema(entry.data.video) : null
+const imageSchema = hasImage ? generateImageObjectSchema(entry.data.image) : null
+const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) : null
+const personSchema = generatePersonSchema()
+const speakableSchema = generateSpeakableSchema({ url: pageUrl })
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+{howToSchema && <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />}
+{courseSchema && <script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />}
+{videoSchema && <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />}
+{imageSchema && <script type="application/ld+json" set:html={JSON.stringify(imageSchema)} />}
+{codeSchema && <script type="application/ld+json" set:html={JSON.stringify(codeSchema)} />}
+<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(speakableSchema)} />
