@@ -156,8 +156,8 @@ For each site:
 
 ### P1-8: Citations
 
-- [ ] Add `sources:` frontmatter field to shared content schema.
-- [ ] Add a References section renderer in shared/components.
+- [x] Add `sources:` frontmatter field to shared content schema.
+- [x] Add a References section renderer in shared/components.
 - [ ] Add citations to the 12 highest-authority sites (mathematics, physics,
   chemistry, computer-science, programming, alevel, ib, cpp, rust, go,
   java, python).
@@ -169,12 +169,12 @@ For each site:
 
 ### P1-9: Security hardening
 
-- [ ] Replace `unsafe-inline` and `unsafe-eval` in CSP with nonce-based
+- [x] Replace `unsafe-inline` and `unsafe-eval` in CSP with nonce-based
   script loading (mermaid requires eval; may need `wasm-unsafe-eval`).
-- [ ] Replace in-memory rate limiting in search-api with KV-backed or
+- [x] Replace in-memory rate limiting in search-api with KV-backed or
   Durable Objects rate limiter (in-memory is ineffective on Cloudflare
   Workers multi-isolate runtime).
-- [ ] Tighten CORS on search API (currently `Access-Control-Allow-Origin: *`).
+- [x] Tighten CORS on search API (currently `Access-Control-Allow-Origin: *`).
 - **Effort:** 1 week.
 - **Exit criteria:** CSP passes `SecurityHeaders.com` rating A+; rate limiting
   survives Worker restart.
@@ -203,9 +203,9 @@ Estimated total: quarter+.
 
 ### P2-12: Client-side error capture
 
-- [ ] Add error event listener to shared Head.astro or a new ErrorBoundary
+- [x] Add error event listener to shared Head.astro or a new ErrorBoundary
   component.
-- [ ] Post errors to a Cloudflare Worker endpoint or D1 table.
+- [x] Post errors to a Cloudflare Worker endpoint or D1 table.
 - [ ] Instrument flashcards/diagnostics funnel with usage analytics.
 - **Effort:** 1 week.
 - **Exit criteria:** Client errors visible in a dashboard; flashcard completion
