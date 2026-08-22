@@ -68,3 +68,13 @@ Using more memory can make an algorithm faster, and vice versa:
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Summary
+
+Algorithm analysis uses asymptotic notation (Big-O, Big-Omega, Big-Theta) to
+describe how running time and space usage grow with input size. The key
+complexity classes are O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n) <
+O(n!). Amortised analysis captures average-case behaviour over a sequence of
+operations. Space-time trade-offs allow choosing between memory and speed.
+Understanding these concepts is essential for selecting the right algorithm
+and data structure for a given problem.

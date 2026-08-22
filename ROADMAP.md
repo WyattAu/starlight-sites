@@ -117,7 +117,7 @@ Estimated total: 1-2 months.
   element (image, Mermaid, Desmos, PhET).
 - [x] Add Mermaid diagrams to pages that already use `mermaid` integration
   (physics, chemistry, computer-science).
-- [ ] For math-heavy pages: evaluate TikZ-to-SVG pipeline or DesmosGraph
+- [x] For math-heavy pages: evaluate TikZ-to-SVG pipeline or DesmosGraph
   imports for geometric intuition.
 - [ ] Target: every page in the top-200 has at least one visual element.
 - **Effort:** 2-3 weeks (content creation, not code).
