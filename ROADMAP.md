@@ -70,12 +70,12 @@ Estimated total: 1-2 weeks.
 
 ### P0-3: Broken defaults cleanup
 
-- [ ] Fix `generate-site.mjs` template: add `compress()`,
+- [x] Fix `generate-site.mjs` template: add `compress()`,
   `clientOnlyDirectives`, analytics head entry, all component overrides so
   generated sites pass `lint-config-parity.js`.
 - [x] Fix og:image cross-site bug: 12 programming sites point at
   `languages.wyattau.com/img/social-card.svg` instead of their own.
-- [ ] Remove dead `academics -> university` redirect (subdomain decommissioned).
+- [x] Remove dead `academics -> university` redirect (subdomain decommissioned).
 - [x] Fix theme-color: wire `sites.meta.json` per-site colors into
   `astro.config.mjs` head entries (currently all hardcode DSE orange
   `#ff6b35`).
@@ -187,7 +187,7 @@ Estimated total: quarter+.
 
 ### P2-10: Coverage ratchet for unmeasured code
 
-- [ ] Add `--experimental-test-coverage` to existing node:test invocations
+- [x] Add `--experimental-test-coverage` to existing node:test invocations
   for `scripts/` and `search-api/`.
 - [ ] Set initial ratchet thresholds based on measured baseline.
 - **Effort:** 0.5 day.
@@ -320,7 +320,7 @@ Discovered 2026-08-22 via adversarial content audit. 32% of content files
 
 - [x] Verify the reported "quadratic" -> "n" corruption in SAT content
   (audit found no evidence in current codebase, but sample was inconclusive).
-- [ ] If found: write fix script. If not: add regression lint.
+- [x] If found: write fix script. If not: add regression lint.
 - **Effort:** 0.5 day.
 - **Exit criteria:** All SAT math content verified correct.
 
