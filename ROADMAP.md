@@ -285,7 +285,7 @@ Discovered 2026-08-22 via adversarial content audit. 32% of content files
 
 - [x] Add `search-api/merged-index.js` and `search-api/merged-index.json`
   to `.gitignore`.
-- [ ] Remove from git tracking: `git rm --cached search-api/merged-index.js search-api/merged-index.json`
+- [x] Remove from git tracking: `git rm --cached search-api/merged-index.js search-api/merged-index.json`
 - **Effort:** 5 minutes.
 - **Exit criteria:** `git ls-files search-api/merged-index.*` returns empty.
 - **File:** `.gitignore`
