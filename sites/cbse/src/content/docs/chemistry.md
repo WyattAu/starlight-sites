@@ -1,6 +1,6 @@
 ---
 
-title: CBSE Chemistry Study Guide
+title: "CBSE Chemistry Study Guide - Wyatt's Notes"
 date: 2026-05-31
 description: "Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tags:

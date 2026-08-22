@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Database Design
+title: "Database Design | Databases - Wyatt's Notes"
 description: "Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping"
 tags:
   - Databases

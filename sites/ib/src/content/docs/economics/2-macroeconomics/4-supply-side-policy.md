@@ -1,6 +1,6 @@
 ---
 
-title: Supply-Side Policy
+title: "Supply-Side Policy | IB - Wyatt's Notes"
 description: "IB Economics Supply-Side Policy notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision."
 date: 2026-05-21
 tags: [ib, ib-economics]

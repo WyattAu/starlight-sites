@@ -1,6 +1,6 @@
 ---
 
-title: Chemistry of Life
+title: "Chemistry of Life | AP - Wyatt's Notes"
 description: "The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14
 tags:

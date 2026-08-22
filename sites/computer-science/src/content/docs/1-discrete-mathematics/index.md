@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Discrete Mathematics
+title: "Discrete Mathematics | Computer Science"
 description: "Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities"
 tags:
   - Computing

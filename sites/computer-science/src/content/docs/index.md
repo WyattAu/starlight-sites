@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Computing
+title: "Computing | Computer Science - Wyatt's Notes"
 description: 'University-level computing notes covering discrete mathematics, algorithms, networks, databases, operating systems, and theory of computation.'
 ---
 

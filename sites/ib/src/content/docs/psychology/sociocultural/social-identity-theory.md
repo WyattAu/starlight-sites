@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Social Identity Theory
+title: "Social Identity Theory | IB - Wyatt's Notes"
 description: "Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It"
 
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: Chemical Kinetics
+title: "Chemical Kinetics | Chemistry - Wyatt's Notes"
 description: "For the reaction , the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-31T00:00:00.000Z
 tags:

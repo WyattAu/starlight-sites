@@ -1,6 +1,6 @@
 ---
 
-title: Organic Chemistry
+title: "Organic Chemistry | IB - Wyatt's Notes"
 description: "Rigorous IB chemistry notes covering Organic Chemistry. Includes definitions, derivations, worked examples, and exam-style problems. and polymer chemistry."
 date: 2024-01-01T00:00:00Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Further Pure Mathematics 2
+title: "Further Pure Mathematics 2 | A-Level"
 description: "| Board | Paper | Notes | | ---------- | ----------- | ------------------------------------------------------ | | AQA | Paper 2 | Groups, further complex,"
 date: 2026-05-31
 tags:

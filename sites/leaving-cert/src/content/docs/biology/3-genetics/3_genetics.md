@@ -1,6 +1,6 @@
 ---
 
-title: Genetics and Evolution
+title: "Genetics and Evolution | Leaving Cert"
 description: "ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 date: 2026-04-14
 tags:

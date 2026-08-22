@@ -1,5 +1,5 @@
 ---
-title: Professional Certifications
+title: "Professional Certifications | professional-certs"
 description: Complete preparation for professional certification exams.
 date: 2026-01-01T00:00:00Z
 tags:

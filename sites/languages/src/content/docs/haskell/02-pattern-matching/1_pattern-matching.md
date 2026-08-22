@@ -1,6 +1,6 @@
 ---
 
-title: Pattern Matching
+title: "Pattern Matching | Languages - Wyatt's Notes"
 description: "Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in"
 date: 2026-06-04T10:00:00.000Z
 tags:

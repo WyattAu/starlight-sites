@@ -1,6 +1,6 @@
 ---
 
-title: Computer Science
+title: "Computer Science | A-Level - Wyatt's Notes"
 description: "A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It Teaches you to think precisely about computation — what"
 date: 2025-06-02T16:25:28.480Z
 tags:

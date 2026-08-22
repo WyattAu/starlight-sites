@@ -1,6 +1,6 @@
 ---
 
-title: Close Reading
+title: "Close Reading | AP - Wyatt's Notes"
 description: "Close reading is the careful, detailed analysis of a text to understand how the author uses language, structure, and rhetorical choices to create meaning"
 date: 2026-06-04T10:00:00.000Z
 tags:

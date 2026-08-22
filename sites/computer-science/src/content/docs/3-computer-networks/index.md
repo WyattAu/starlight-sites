@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Computer Networks
+title: "Computer Networks | Computer Science"
 description: "Computer networks enable the exchange of data between devices across local and wide areas. The study of networking is organised around layered models, such"
 tags:
   - Computing

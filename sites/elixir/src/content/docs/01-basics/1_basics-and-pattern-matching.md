@@ -1,6 +1,6 @@
 ---
 
-title: Basics and Pattern Matching
+title: "Basics and Pattern Matching | Elixir"
 description: "Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code."
 date: 2026-06-04T10:00:00.000Z
 tags:

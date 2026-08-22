@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Commit Signing
+title: "Commit Signing | Tools - Wyatt's Notes"
 description: "Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of"
 
 ---

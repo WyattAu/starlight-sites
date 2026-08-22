@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Organic Chemistry
+title: "Organic Chemistry - Wyatt's Notes"
 description: 'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'
 ---
 

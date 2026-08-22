@@ -1,6 +1,6 @@
 ---
 
-title: Modern Texts and Poetry
+title: "Modern Texts and Poetry | GCSE"
 description: "(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-22
 tags:

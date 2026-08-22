@@ -1,6 +1,6 @@
 ---
 
-title: Complex Numbers (Extended)
+title: "Complex Numbers (Extended) | A-Level"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Further Maths\", \"url\":"
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]

@@ -1,6 +1,6 @@
 ---
 
-title: Molecular Biology
+title: "Molecular Biology | IB - Wyatt's Notes"
 description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation."
 date: 2024-01-01T00:00:00Z
 tags:

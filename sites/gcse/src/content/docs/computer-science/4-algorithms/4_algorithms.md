@@ -1,6 +1,6 @@
 ---
 
-title: Algorithms
+title: "Algorithms | GCSE - Wyatt's Notes"
 description: 'An is a finite set of precise, step-by-step instructions for solving a problem.  Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:

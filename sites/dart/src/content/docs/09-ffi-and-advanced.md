@@ -1,6 +1,6 @@
 ---
 
-title: FFI and Advanced Topics
+title: "FFI and Advanced Topics | Dart"
 description: "Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 date: 2026-04-07T00:00:00.000Z
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Assessment
+title: "Assessment | IB - Wyatt's Notes"
 description: "IB Physics (first assessment 2025) is examined through a combination of external written papers and An Internal Assessment (IA). The external component"
 ---
 

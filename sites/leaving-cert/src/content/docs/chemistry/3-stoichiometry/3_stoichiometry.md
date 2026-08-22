@@ -1,6 +1,6 @@
 ---
 
-title: Stoichiometry and Formulae
+title: "Stoichiometry and Formulae | Leaving Cert"
 description: "ILC Chemistry Stoichiometry and Formulae notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-04-14
 tags:

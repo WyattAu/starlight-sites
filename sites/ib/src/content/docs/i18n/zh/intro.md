@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: IB笔记简介
+title: "IB笔记简介 - Wyatt's Notes"
 description: 'IB I18N 笔记简介 notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and revision.'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Haskell - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Haskell resources — experience, expertise, and credentials behind Haskell programming study materials."
 tags:

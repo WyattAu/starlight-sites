@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: TLS in Practice
+title: "TLS in Practice | Security - Wyatt's Notes"
 description: "| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let' s"
 
 ---

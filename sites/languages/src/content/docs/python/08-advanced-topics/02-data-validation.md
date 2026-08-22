@@ -1,6 +1,6 @@
 ---
 
-title: Data Validation
+title: "Data Validation | Languages - Wyatt's Notes"
 description: "Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration"
 date: 2026-04-05T00:00:00.000Z
 tags:

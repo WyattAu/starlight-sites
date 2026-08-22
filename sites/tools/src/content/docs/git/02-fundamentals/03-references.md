@@ -1,6 +1,6 @@
 ---
 
-title: References
+title: "References | Tools - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"Git\", \"url\":"
 date: 2025-06-03T01:00:00.000Z
 tags:

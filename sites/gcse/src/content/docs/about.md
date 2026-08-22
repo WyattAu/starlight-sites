@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | GCSE - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes GCSE resources — experience, expertise, and credentials behind UK GCSE qualification study materials."
 tags:

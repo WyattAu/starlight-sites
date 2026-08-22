@@ -1,6 +1,6 @@
 ---
 
-title: Introduction to Elixir
+title: "Introduction to Elixir - Wyatt's Notes"
 description: "Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the"
 date: 2026-06-04T10:00:00.000Z
 tags:

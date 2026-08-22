@@ -1,6 +1,6 @@
 ---
 
-title: Control Flow
+title: "Control Flow | Languages - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Go\", \"url\":"
 date: 2026-04-18
 tags:

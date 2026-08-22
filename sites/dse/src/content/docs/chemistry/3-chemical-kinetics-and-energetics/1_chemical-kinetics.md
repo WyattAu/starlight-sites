@@ -1,6 +1,6 @@
 ---
 
-title: Chemistry - Chemical Kinetics
+title: "Chemistry - Chemical Kinetics | DSE"
 description: 'The rate of reaction measures how fast reactants are consumed or products are fo Comprehensive educational content coverage with definitions and practice proble'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]

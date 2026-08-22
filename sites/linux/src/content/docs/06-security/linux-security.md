@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Linux Security
+title: "Linux Security - Wyatt's Notes"
 description: "Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and"
 
 ---

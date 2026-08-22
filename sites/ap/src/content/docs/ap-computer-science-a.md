@@ -1,6 +1,6 @@
 ---
 date: 2026-07-23T14:42:26+01:00
-title: AP Computer Science A
+title: "AP Computer Science A - Wyatt's Notes"
 description: "AP Computer Science A is a college-level course that introduces students to computer science through Java programming. The course covers fundamental"
 ---
 

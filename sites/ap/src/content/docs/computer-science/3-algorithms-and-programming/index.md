@@ -1,5 +1,5 @@
 ---
-title: Algorithms And Programming
+title: "Algorithms And Programming | AP"
 description: "This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and"
 date: 2026-01-01T00:00:00Z
 ---

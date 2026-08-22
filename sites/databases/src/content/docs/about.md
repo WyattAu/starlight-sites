@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Databases - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Databases resources — experience, expertise, and credentials behind database design and SQL study materials."
 tags:

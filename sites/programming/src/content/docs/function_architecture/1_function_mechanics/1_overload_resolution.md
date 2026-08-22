@@ -1,6 +1,6 @@
 ---
 
-title: Overload Resolution
+title: "Overload Resolution | Programming"
 description: "C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a"
 date: 2026-04-03T00:00:00.000Z
 tags:

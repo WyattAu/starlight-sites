@@ -1,6 +1,6 @@
 ---
 
-title: Functions and Modules
+title: "Functions and Modules | Languages"
 description: "Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for )."
 date: 2026-06-04T10:00:00.000Z
 tags:

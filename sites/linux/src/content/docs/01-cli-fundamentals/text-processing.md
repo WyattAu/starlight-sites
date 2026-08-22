@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Text Processing
+title: "Text Processing | Linux - Wyatt's Notes"
 description: "Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax."
 
 ---

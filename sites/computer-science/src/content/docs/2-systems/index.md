@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Systems
+title: "Systems | Computer Science - Wyatt's Notes"
 description: 'Topics in computer systems including operating systems, computer architecture, concurrency, and networking fundamentals.'
 ---
 

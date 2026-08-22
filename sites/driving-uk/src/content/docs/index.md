@@ -1,5 +1,5 @@
 ---
-title: UK Driving Test
+title: "UK Driving Test | driving-uk - Wyatt's Notes"
 description: Complete UK driving test preparation covering theory test, hazard perception, and practical driving test.
 date: 2026-01-01T00:00:00Z
 tags:

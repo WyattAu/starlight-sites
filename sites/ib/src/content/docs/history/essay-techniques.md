@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: IB History Essay Techniques
+title: "IB History Essay Techniques - Wyatt's Notes"
 description: "Comprehensive guide to IB History essay writing: command terms, PEEL structure, source analysis frameworks, Paper 1 and Paper 2 strategies, and marking criteria."
 sidebar_position: 20
 tags:

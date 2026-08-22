@@ -1,6 +1,6 @@
 ---
 
-title: "The Reformation c1500-1600"
+title: "The Reformation c1500-1600 | A-Level"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 12
 tags:

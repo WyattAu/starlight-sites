@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Go - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes delivers comprehensive study materials for Go programming. These notes cover Go's concurrency model, standard library, interfaces, and systems"
 tags:

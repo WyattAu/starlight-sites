@@ -1,6 +1,6 @@
 ---
 
-title: thermodynamics
+title: "thermodynamics | Physics - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - University Physics

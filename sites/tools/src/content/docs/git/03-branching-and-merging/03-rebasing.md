@@ -1,6 +1,6 @@
 ---
 
-title: Rebasing
+title: "Rebasing | Tools - Wyatt's Notes"
 description: "Rebasing is the process of a series of commits onto a new base commit. Unlike merging, which creates a new commit with two parents, rebasing rewrites"
 date: 2025-06-03T04:00:00.000Z
 tags:

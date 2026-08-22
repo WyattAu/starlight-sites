@@ -1,7 +1,7 @@
 ---
 
 
-title: IB Computer Science
+title: "IB Computer Science - Wyatt's Notes"
 description: 'Complete IB Computer Science revision notes covering computational thinking, system design, data structures, algorithms, networking, databases, and programming'
 date: 2024-01-01T00:00:00Z
 tags:

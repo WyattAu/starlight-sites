@@ -1,6 +1,6 @@
 ---
 
-title: Human Physiology
+title: "Human Physiology | DSE - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Biology\", \"url\":"
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]

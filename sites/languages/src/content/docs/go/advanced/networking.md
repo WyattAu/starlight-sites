@@ -1,6 +1,6 @@
 ---
 
-title: Networking
+title: "Networking | Languages - Wyatt's Notes"
 description: 'The package provides TCP support via and : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-05-31
 tags:

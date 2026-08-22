@@ -1,6 +1,6 @@
 ---
 
-title: advanced topics
+title: "advanced topics | Machine Learning"
 date: 2026-05-30
 tags:
   - Machine Learning

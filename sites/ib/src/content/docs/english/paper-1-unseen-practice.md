@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Paper 1 Unseen Practice
+title: "Paper 1 Unseen Practice | IB - Wyatt's Notes"
 description: "This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis"
 ---
 

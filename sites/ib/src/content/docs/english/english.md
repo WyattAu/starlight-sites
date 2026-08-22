@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: English
+title: "English | IB - Wyatt's Notes"
 tags:
   - english
 description: "IB English A: Language and Literature is a two-year course that develops critical literacy through The study of both literary and non-literary texts. The"

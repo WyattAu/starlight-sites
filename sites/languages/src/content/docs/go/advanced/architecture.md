@@ -1,6 +1,6 @@
 ---
 
-title: go project architecture
+title: "go project architecture | Languages"
 date: 2026-05-30
 tags:
   - Go

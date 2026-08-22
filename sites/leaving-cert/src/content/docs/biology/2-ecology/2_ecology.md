@@ -1,6 +1,6 @@
 ---
 
-title: Ecology
+title: "Ecology | Leaving Cert - Wyatt's Notes"
 description: "ILC Biology Ecology notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation."
 date: 2026-04-14
 tags:

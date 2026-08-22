@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Vector Fields and Flows
+title: "Vector Fields and Flows | Mathematics"
 tags:
   - Mathematics
   - University

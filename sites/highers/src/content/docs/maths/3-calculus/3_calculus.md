@@ -1,6 +1,6 @@
 ---
 
-title: Further Calculus
+title: "Further Calculus | Highers - Wyatt's Notes"
 description: "This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14
 tags:

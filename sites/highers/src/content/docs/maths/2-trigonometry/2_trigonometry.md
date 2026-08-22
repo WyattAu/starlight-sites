@@ -1,6 +1,6 @@
 ---
 
-title: Geometry and Trigonometry
+title: "Geometry and Trigonometry | Highers"
 description: 'The three primary trigonometric functions for an angle in a right-angled triangl Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:

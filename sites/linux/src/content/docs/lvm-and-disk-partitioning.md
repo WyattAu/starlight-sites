@@ -1,6 +1,6 @@
 ---
 
-title: LVM and Disk Partitioning
+title: "LVM and Disk Partitioning | Linux"
 description: "Linux exposes storage devices as block device files under . Block devices support random Access by fixed-size blocks ( 512 bytes or 4096 bytes), unlike"
 date: 2026-04-07T00:00:00.000Z
 tags:

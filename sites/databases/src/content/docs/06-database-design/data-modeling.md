@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Data Modeling Patterns
+title: "Data Modeling Patterns | Databases"
 description: "Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your"
 
 ---

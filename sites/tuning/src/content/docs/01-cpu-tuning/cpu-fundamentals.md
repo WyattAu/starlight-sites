@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: CPU Architecture and Tuning
+title: "CPU Architecture and Tuning - Wyatt's Notes"
 description: "A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because"
 
 ---

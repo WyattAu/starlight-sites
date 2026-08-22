@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | IB - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes IB resources — experience, expertise, and credentials behind the International Baccalaureate study materials."
 tags:

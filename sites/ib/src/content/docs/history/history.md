@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: History
+title: "History | IB - Wyatt's Notes"
 tags:
   - history
 description: "This section contains notes, comparative analyses, and study materials for the IB History course. The course covers a range of twentieth-century topics"

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Thinking and Decision Making
+title: "Thinking and Decision Making | IB"
 description: "The study of thinking and decision making examines how people reason, judge, and choose. Research in This area has revealed that human thinking is subject"
 
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: Common Pitfalls
+title: "Common Pitfalls | Programming - Wyatt's Notes"
 description: "Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined Behavior, and performance regressions. This section"
 date: 2026-04-03T00:00:00.000Z
 tags:

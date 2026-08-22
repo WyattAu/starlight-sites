@@ -1,6 +1,6 @@
 ---
 
-title: Period 5 (1844-1877)
+title: "Period 5 (1844-1877) | AP - Wyatt's Notes"
 description: "The idea of -- the belief that the United States was divinely ordained to expand across the North American continent -- drove westward expansion in the"
 date: 2026-06-04T10:00:00.000Z
 tags:

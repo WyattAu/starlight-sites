@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Ruby
+title: "Ruby - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ruby\", \"url\": \"https://ruby.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
 ---
 

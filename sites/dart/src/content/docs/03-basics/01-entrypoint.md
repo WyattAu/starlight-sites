@@ -1,6 +1,6 @@
 ---
 
-title: Entry Point
+title: "Entry Point | Dart - Wyatt's Notes"
 description: "When the project creates an executable, the entry point of the project is locate Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-07-12T15:49:11.104Z
 tags:

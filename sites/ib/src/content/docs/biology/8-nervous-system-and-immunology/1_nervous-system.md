@@ -1,6 +1,6 @@
 ---
 
-title: Nervous System
+title: "Nervous System | IB - Wyatt's Notes"
 description: "IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory"
 date: 2024-01-01T00:00:00Z
 tags:

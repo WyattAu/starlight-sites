@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | HSC - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes HSC resources — experience, expertise, and credentials behind Australian Higher School Certificate study materials."
 tags:

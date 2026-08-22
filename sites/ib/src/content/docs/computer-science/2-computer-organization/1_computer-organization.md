@@ -1,6 +1,6 @@
 ---
 
-title: Computer Organizations
+title: "Computer Organizations | IB - Wyatt's Notes"
 description: "Rigorous IB computer science notes covering Computer Organizations. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:

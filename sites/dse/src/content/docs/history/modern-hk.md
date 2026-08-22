@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Hong Kong Since 1945"
+title: "Hong Kong Since 1945 | DSE - Wyatt's Notes"
 description: "Post-war reconstruction, refugee influxes, industrialisation, 1967 riots, economic transformation, political development, Basic Law, 1997 Handover, and post-handover developments."
 sidebar_position: 6
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: National Income
+title: "National Income | IB - Wyatt's Notes"
 description: "IB Economics — GDP, GNP, GNI, national income accounting, GDP deflator, PPP. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations."
 date: 2026-05-21
 tags: [ib, ib-economics]

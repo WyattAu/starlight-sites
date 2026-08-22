@@ -1,6 +1,6 @@
 ---
 
-title: Installation
+title: "Installation | Dart - Wyatt's Notes"
 description: "My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-07-12T15:51:40.399Z
 tags:

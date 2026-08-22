@@ -1,6 +1,6 @@
 ---
 
-title: Kinetics and Equilibrium
+title: "Kinetics and Equilibrium | AP - Wyatt's Notes"
 description: "Qualifications Chemistry Kinetics and Equilibrium notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14
 tags:

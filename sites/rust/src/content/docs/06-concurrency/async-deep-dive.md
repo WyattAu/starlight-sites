@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Async Deep Dive
+title: "Async Deep Dive | Rust - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"rust\", \"url\": \"https://rust.wyattau.com\"}, {\"name\": \"06 Concurrency\", \"url\":"
 ---
 

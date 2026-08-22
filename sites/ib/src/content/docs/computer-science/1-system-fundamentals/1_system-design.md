@@ -1,6 +1,6 @@
 ---
 
-title: System Design
+title: "System Design | IB - Wyatt's Notes"
 description: "Rigorous IB computer science notes covering System Design. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:

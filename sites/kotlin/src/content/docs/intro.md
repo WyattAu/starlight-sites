@@ -1,6 +1,6 @@
 ---
 
-title: Introduction to Kotlin
+title: "Introduction to Kotlin - Wyatt's Notes"
 description: "Kotlin Introduction to Kotlin notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-04-18
 tags:

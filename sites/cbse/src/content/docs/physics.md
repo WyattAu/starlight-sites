@@ -1,6 +1,6 @@
 ---
 
-title: CBSE Physics Study Guide
+title: "CBSE Physics Study Guide - Wyatt's Notes"
 date: 2026-05-31
 description: "This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble"
 tags:

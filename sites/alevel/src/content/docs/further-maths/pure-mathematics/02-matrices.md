@@ -1,6 +1,6 @@
 ---
 
-title: Matrices
+title: "Matrices | A-Level - Wyatt's Notes"
 description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more"
 date: 2026-04-02T00:00:00.000Z
 tags:

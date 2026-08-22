@@ -1,6 +1,6 @@
 ---
 
-title: Tooling and Configuration
+title: "Tooling and Configuration | TypeScript"
 description: "Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references."
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]

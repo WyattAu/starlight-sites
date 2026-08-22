@@ -1,6 +1,6 @@
 ---
 
-title: mathematics practice
+title: "mathematics practice | SAT - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - SAT

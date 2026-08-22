@@ -1,6 +1,6 @@
 ---
 
-title: Cell Biology
+title: "Cell Biology | IB - Wyatt's Notes"
 description: "Rigorous IB biology notes covering Cell Biology. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:

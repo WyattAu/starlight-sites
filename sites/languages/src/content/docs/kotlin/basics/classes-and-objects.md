@@ -1,6 +1,6 @@
 ---
 
-title: Classes and Objects
+title: "Classes and Objects | Languages"
 description: "Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Waves and Radiation
+title: "Waves and Radiation | Highers - Wyatt's Notes"
 description: "A wave is a disturbance that transfers energy without transferring matter. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14
 tags:

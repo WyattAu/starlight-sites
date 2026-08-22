@@ -1,6 +1,6 @@
 ---
 
-title: Thermodynamics & Energetics
+title: "Thermodynamics & Energetics | A-Level"
 description: "A is the part of the universe under study. The are everything else. The universe Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-21T00:00:00.000Z
 tags:

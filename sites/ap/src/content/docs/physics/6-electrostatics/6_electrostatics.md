@@ -1,6 +1,6 @@
 ---
 
-title: Electrostatics
+title: "Electrostatics | AP - Wyatt's Notes"
 description: "Charge is a fundamental property of matter. There are two types: positive and ne Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-05
 tags:

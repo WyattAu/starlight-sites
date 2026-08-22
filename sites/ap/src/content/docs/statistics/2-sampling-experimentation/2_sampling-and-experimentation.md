@@ -1,6 +1,6 @@
 ---
 
-title: Sampling and Experimentation
+title: "Sampling and Experimentation | AP"
 description: "- : The entire group of individuals about which we want information - : A subset of the population that is actually studied - : A study that collects data"
 date: 2026-06-04T10:00:00.000Z
 tags:

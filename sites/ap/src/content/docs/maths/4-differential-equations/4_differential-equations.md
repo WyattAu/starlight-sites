@@ -1,6 +1,6 @@
 ---
 
-title: Differential Equations
+title: "Differential Equations | AP - Wyatt's Notes"
 description: "A (DE) is an equation that relates a function to one or more of its Derivatives. The of a DE is the highest derivative that appears. A first-order DE"
 date: 2026-04-14
 tags:

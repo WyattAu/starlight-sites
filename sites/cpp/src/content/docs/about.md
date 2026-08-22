@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | C++ - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes provides thorough study materials for C++ programming. These notes cover the language from modern C++17/20 features through templates, move"
 tags:

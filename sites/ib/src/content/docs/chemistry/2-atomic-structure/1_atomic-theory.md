@@ -1,6 +1,6 @@
 ---
 
-title: Atomic Theory
+title: "Atomic Theory | IB - Wyatt's Notes"
 description: "IB Chemistry — atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties."
 date: 2024-01-01T00:00:00Z
 tags:

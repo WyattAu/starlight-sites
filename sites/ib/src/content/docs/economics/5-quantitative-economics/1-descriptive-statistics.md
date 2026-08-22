@@ -1,6 +1,6 @@
 ---
 
-title: Descriptive Statistics
+title: "Descriptive Statistics | IB - Wyatt's Notes"
 description: "are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes."
 date: 2026-05-21
 tags: [ib, ib-economics]

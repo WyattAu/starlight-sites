@@ -1,6 +1,6 @@
 ---
 
-title: Algorithm Design
+title: "Algorithm Design | Computer Science"
 description: "University Computer Science Algorithm Design notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-05-31T00:00:00.000Z
 tags:

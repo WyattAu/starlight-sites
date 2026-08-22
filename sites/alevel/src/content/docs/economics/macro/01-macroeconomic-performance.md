@@ -1,6 +1,6 @@
 ---
 
-title: Macroeconomic Performance
+title: "Macroeconomic Performance | A-Level"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 date: 2025-06-02T16:25:28.480Z
 tags:

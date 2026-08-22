@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Apps and Services
+title: "Apps and Services | TrueNAS - Wyatt's Notes"
 description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This"
 
 ---

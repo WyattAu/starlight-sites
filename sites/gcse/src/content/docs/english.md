@@ -1,6 +1,6 @@
 ---
 
-title: GCSE English Study Guide
+title: "GCSE English Study Guide - Wyatt's Notes"
 date: 2026-05-31
 description: "A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential"
 tags:

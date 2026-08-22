@@ -1,6 +1,6 @@
 ---
 
-title: System Lifecycle
+title: "System Lifecycle | DSE - Wyatt's Notes"
 description: "This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information"
 date: 2026-04-08T00:00:00.000Z
 tags:

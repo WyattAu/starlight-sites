@@ -1,6 +1,6 @@
 ---
 
-title: Drama Analysis
+title: "Drama Analysis | A-Level - Wyatt's Notes"
 date: 2026-01-15T00:00:00.000Z
 tags:
   - alevel

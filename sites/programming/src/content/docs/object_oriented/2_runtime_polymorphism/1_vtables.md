@@ -1,6 +1,6 @@
 ---
 
-title: Virtual Functions and vtables
+title: "Virtual Functions and vtables | Programming"
 description: "Virtual functions are the foundation of runtime polymorphism in C++. When a member function is Declared The call is resolved at runtime based on the"
 date: 2026-04-03T00:00:00.000Z
 tags:

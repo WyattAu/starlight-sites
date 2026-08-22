@@ -1,6 +1,6 @@
 ---
 
-title: Bioenergetics
+title: "Bioenergetics | GCSE - Wyatt's Notes"
 description: "Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen."
 date: 2026-04-14
 tags:

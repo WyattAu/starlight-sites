@@ -1,6 +1,6 @@
 ---
 
-title: Acids and Bases (Advanced)
+title: "Acids and Bases (Advanced) | IB"
 description: "Rigorous IB chemistry notes covering Acids and Bases (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:

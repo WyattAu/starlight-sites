@@ -1,6 +1,6 @@
 ---
 
-title: States of Matter
+title: "States of Matter | IB - Wyatt's Notes"
 description: "Rigorous IB chemistry notes covering States of Matter. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:

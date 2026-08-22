@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Functions -- Diagnostic Tests"
+title: "Functions -- Diagnostic Tests | DSE"
 description: "DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---

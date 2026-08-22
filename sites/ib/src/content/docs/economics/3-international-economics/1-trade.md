@@ -1,6 +1,6 @@
 ---
 
-title: International Trade
+title: "International Trade | IB - Wyatt's Notes"
 description: "A country has an in producing a good if it can produce more output per unit Of r Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-21
 tags: [ib, ib-economics]

@@ -1,6 +1,6 @@
 ---
 
-title: Bonding
+title: "Bonding | Leaving Cert - Wyatt's Notes"
 description: "ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice."
 date: 2026-04-14
 tags:

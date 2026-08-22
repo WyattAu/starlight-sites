@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Cherry-Pick
+title: "Cherry-Pick | Tools - Wyatt's Notes"
 description: "applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That"
 
 ---

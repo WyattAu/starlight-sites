@@ -1,6 +1,6 @@
 ---
 
-title: Reading and Writing
+title: "Reading and Writing | SAT - Wyatt's Notes"
 date: 2026-05-30
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"sat\", \"url\": \"https://sat.wyattau.com\"}, {\"name\": \"Reading And Writing\", \"url\":"
 tags:

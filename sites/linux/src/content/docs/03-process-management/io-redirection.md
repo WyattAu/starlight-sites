@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: I/O Redirection and Pipes
+title: "I/O Redirection and Pipes | Linux"
 description: "Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers"
 
 ---

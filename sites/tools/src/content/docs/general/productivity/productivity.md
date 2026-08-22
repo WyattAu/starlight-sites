@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Developer Productivity
+title: "Developer Productivity | Tools"
 description: "The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-minute breaks, with a longer 15–30 minute break every 4"
 
 ---

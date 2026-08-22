@@ -1,5 +1,5 @@
 ---
-title: 1_function_mechanics
+title: "1_function_mechanics | C++ - Wyatt's Notes"
 description: "This section provides study materials and resources for 1_function_mechanics. Browse the topics below to find the specific area you need to revise."
 date: 2026-01-01T00:00:00Z
 ---

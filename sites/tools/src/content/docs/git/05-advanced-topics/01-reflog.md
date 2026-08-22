@@ -1,5 +1,5 @@
 ---
-title: Reflog
+title: "Reflog | Tools - Wyatt's Notes"
 description: "Git reflog and reference logging."
 date: 2025-06-03T08:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Data Structures
+title: "Data Structures | Computer Science"
 description: "An is a contiguous block of memory storing elements of the same type, accessed b Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-31T00:00:00.000Z
 tags:

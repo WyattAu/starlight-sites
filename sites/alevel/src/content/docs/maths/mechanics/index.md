@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Mechanics
+title: "Mechanics | A-Level - Wyatt's Notes"
 description: "A-Level Maths Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for systematic exam preparation and revision."
 ---
 

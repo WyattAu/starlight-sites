@@ -1,7 +1,7 @@
 ---
 
 
-title: GCSE English Literature
+title: "GCSE English Literature - Wyatt's Notes"
 description: "GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires"
 date: 2026-04-22
 tags:

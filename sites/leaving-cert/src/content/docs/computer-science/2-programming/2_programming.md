@@ -1,6 +1,6 @@
 ---
 
-title: Algorithms and Programming
+title: "Algorithms and Programming | Leaving Cert"
 description: "ILC Computer Science Algorithms and Programming notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14
 tags:

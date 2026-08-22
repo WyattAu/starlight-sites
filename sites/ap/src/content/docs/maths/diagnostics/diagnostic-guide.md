@@ -1,6 +1,6 @@
 ---
 
-title: AP Calculus Diagnostic Guide
+title: "AP Calculus Diagnostic Guide - Wyatt's Notes"
 description: "Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics"
 date: 2026-04-14
 tags:

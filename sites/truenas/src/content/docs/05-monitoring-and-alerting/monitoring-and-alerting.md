@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Monitoring and Alerting
+title: "Monitoring and Alerting | TrueNAS"
 description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
 
 ---

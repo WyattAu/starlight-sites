@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Diagnostic Test: Security"
+title: "Diagnostic Test: Security - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"security\", \"url\": \"https://security.wyattau.com\"}, {\"name\": \"Diagnostics\", \"url\":"
 sidebar_position: 60
 tableOfContents: false

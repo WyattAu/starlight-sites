@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Algorithm Analysis
+title: "Algorithm Analysis | Computer Science"
 description: Methods for analyzing algorithm efficiency including asymptotic notation, amortized analysis, and space-time trade-offs.
 ---
 

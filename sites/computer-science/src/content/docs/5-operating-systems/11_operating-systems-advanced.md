@@ -1,6 +1,6 @@
 ---
 
-title: Operating Systems (Advanced)
+title: "Operating Systems (Advanced) | Computer Science"
 description: "The system call creates a new process by duplicating the calling process. The new process (child) is an exact copy of the parent, except for its PID, PPID,"
 date: 2026-05-06T00:00:00.000Z
 tags:

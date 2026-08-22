@@ -1,6 +1,6 @@
 ---
 
-title: Dependency Injection
+title: "Dependency Injection | Dart - Wyatt's Notes"
 description: "Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This"
 date: 2026-04-05T00:00:00.000Z
 tags:

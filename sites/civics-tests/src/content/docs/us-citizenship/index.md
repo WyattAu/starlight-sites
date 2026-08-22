@@ -1,5 +1,5 @@
 ---
-title: Us Citizenship
+title: "Us Citizenship | civics-tests - Wyatt's Notes"
 description: "This section covers civic knowledge, governance structures, and responsible citizenship. Understanding these concepts is essential for informed participation"
 date: 2026-01-01T00:00:00Z
 ---

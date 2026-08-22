@@ -1,6 +1,6 @@
 ---
 
-title: strings and time
+title: "strings and time | Languages - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - Go

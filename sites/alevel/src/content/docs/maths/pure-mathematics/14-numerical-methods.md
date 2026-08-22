@@ -1,6 +1,6 @@
 ---
 
-title: Numerical Methods
+title: "Numerical Methods | A-Level - Wyatt's Notes"
 description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------------------ | | AQA | Paper 2 | Sign change, iteration,"
 date: 2025-06-02T16:25:28.480Z
 tags:

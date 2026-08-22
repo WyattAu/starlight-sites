@@ -1,6 +1,6 @@
 ---
 
-title: Access Control and Friendship
+title: "Access Control and Friendship | Programming"
 description: "C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced"
 date: 2026-04-03T00:00:00.000Z
 tags:

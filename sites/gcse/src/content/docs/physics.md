@@ -1,6 +1,6 @@
 ---
 
-title: GCSE Physics Study Guide
+title: "GCSE Physics Study Guide - Wyatt's Notes"
 date: 2026-05-31
 description: "A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts."
 tags:

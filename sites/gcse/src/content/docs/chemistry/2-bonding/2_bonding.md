@@ -1,6 +1,6 @@
 ---
 
-title: Bonding
+title: "Bonding | GCSE - Wyatt's Notes"
 description: "occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions"
 date: 2026-04-14
 tags:

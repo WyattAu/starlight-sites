@@ -1,6 +1,6 @@
 ---
 
-title: GCSE Biology Study Guide
+title: "GCSE Biology Study Guide - Wyatt's Notes"
 date: 2026-06-01
 description: "A complete single-page revision guide covering the full GCSE Biology specification. Each section contains key concepts, definitions, and essential facts."
 tags:

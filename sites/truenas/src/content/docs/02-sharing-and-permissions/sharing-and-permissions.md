@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Sharing and Permissions
+title: "Sharing and Permissions | TrueNAS"
 description: "Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support"
 
 ---

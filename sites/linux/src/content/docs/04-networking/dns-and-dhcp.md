@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: DNS and DHCP on Linux
+title: "DNS and DHCP on Linux - Wyatt's Notes"
 description: "The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 
 ---

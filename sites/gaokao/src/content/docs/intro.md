@@ -1,6 +1,6 @@
 ---
 
-title: Introduction to Gaokao Notes
+title: "Introduction to Gaokao Notes - Wyatt's Notes"
 date: 2026-05-30
 description: "The (高考, formally the National College Entrance Examination) is the standardised examination used for university admission in China. It is widely regarded"
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Period 7 (1890-Present)
+title: "Period 7 (1890-Present) | AP - Wyatt's Notes"
 description: "Progressivism was a reform movement that sought to address the social, political, and economic problems caused by industrialisation, urbanisation, and"
 date: 2026-06-04T10:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Computational Thinking
+title: "Computational Thinking | AP - Wyatt's Notes"
 description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing"
 date: 2026-04-14
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Trees
+title: "Trees | A-Level - Wyatt's Notes"
 description: "A is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data Structure consisting of nodes, where each node has at most one and"
 date: 2025-06-02T16:25:28.480Z
 tags:

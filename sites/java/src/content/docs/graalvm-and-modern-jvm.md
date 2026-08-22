@@ -1,6 +1,6 @@
 ---
 
-title: GraalVM and Modern JVM
+title: "GraalVM and Modern JVM | Java - Wyatt's Notes"
 description: "GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image"
 date: 2026-04-07T00:00:00.000Z
 tags:

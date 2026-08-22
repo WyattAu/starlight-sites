@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Energy -- Diagnostic Tests"
+title: "Energy -- Diagnostic Tests | GCSE"
 description: "(a) Describe the energy transfers when a ball is thrown upwards and then caught at the same height. (b) A 0.5 kg ball is thrown vertically upwards at 10"
 tableOfContents: false
 ---

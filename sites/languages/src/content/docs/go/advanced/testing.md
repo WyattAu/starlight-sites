@@ -1,6 +1,6 @@
 ---
 
-title: Testing
+title: "Testing | Languages - Wyatt's Notes"
 description: "Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature ."
 date: 2026-05-31
 tags:

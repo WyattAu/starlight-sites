@@ -1,6 +1,6 @@
 ---
 
-title: rights and protest
+title: "rights and protest | IB - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - IB History

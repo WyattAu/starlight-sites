@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Diagnostic Test Guide
+title: "Diagnostic Test Guide | IB - Wyatt's Notes"
 description: "This document defines the diagnostic testing framework for IB Mathematics. The Diagnostic tests are the hardest questions within the specification, designed"
 tableOfContents: false
 ---

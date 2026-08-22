@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Mathematics - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Mathematics resources — experience, expertise, and credentials behind university-level mathematics study materials."
 tags:

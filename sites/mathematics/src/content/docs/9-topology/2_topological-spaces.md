@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Topological Spaces
+title: "Topological Spaces | Mathematics"
 tags:
   - University Maths
 description: 'A is a pair where is a set and is a collection of subsets of called , satisfying Comprehensive educational content coverage with definitions and practice proble'

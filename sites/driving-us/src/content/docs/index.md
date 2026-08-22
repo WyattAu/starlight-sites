@@ -1,5 +1,5 @@
 ---
-title: US Driving Test
+title: "US Driving Test | driving-us - Wyatt's Notes"
 description: Complete US driving test preparation covering DMV written test, road test, and driving rules by state.
 date: 2026-01-01T00:00:00Z
 tags:

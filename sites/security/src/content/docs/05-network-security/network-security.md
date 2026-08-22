@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Network Security
+title: "Network Security - Wyatt's Notes"
 description: "A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization' s security"
 
 ---

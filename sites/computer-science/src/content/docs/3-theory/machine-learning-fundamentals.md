@@ -1,6 +1,6 @@
 ---
 
-title: Machine Learning Fundamentals
+title: "Machine Learning Fundamentals | Computer Science"
 description: "Given features , predict a continuous target : Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-31T00:00:00.000Z
 tags:

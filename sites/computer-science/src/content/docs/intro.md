@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Computer science
+title: "Computer science - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"computer-science\", \"url\": \"https://computer-science.wyattau.com\"}, {\"name\":"
 ---
 

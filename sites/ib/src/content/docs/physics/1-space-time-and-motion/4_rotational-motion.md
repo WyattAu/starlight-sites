@@ -1,6 +1,6 @@
 ---
 
-title: Rotational Motion
+title: "Rotational Motion | IB - Wyatt's Notes"
 description: "Rigorous IB physics notes covering Rotational Motion. Includes definitions, derivations, worked examples, and exam-style problems. momentum."
 date: 2024-01-01T00:00:00Z
 tags:

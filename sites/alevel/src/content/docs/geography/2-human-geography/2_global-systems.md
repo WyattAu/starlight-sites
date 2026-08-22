@@ -1,6 +1,6 @@
 ---
 
-title: Global Systems and Governance
+title: "Global Systems and Governance | A-Level"
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]

@@ -1,5 +1,5 @@
 ---
-title: Mathematics
+title: "Mathematics | IB - Wyatt's Notes"
 description: "This section covers essential mathematical techniques and theories. These foundations underpin quantitative reasoning across the sciences and are tested in"
 date: 2026-01-01T00:00:00Z
 ---

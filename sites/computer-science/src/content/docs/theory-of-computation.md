@@ -1,6 +1,6 @@
 ---
 
-title: Theory of Computation
+title: "Theory of Computation | Computer Science"
 description: "UNIVERSITY Computing notes: Theory of Computation. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-24T00:00:00.000Z
 tags:

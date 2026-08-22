@@ -1,7 +1,7 @@
 ---
 
 
-title: IB Biology
+title: "IB Biology - Wyatt's Notes"
 description: "Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,"
 date: 2024-01-01T00:00:00Z
 tags:

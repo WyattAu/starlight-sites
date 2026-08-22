@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Flood Management
+title: "Flood Management | IB - Wyatt's Notes"
 description: "Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,"
 
 ---

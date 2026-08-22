@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Elixir - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Elixir resources — experience, expertise, and credentials behind Elixir programming study materials."
 tags:

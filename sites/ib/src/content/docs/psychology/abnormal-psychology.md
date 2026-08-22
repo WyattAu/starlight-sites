@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Abnormal Psychology
+title: "Abnormal Psychology | IB - Wyatt's Notes"
 description: "Abnormal psychology is the HL extension unit in IB Psychology. It examines how psychological disorders are defined, classified, and explained, integrating"
 
 ---

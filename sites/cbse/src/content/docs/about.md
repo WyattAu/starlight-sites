@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | CBSE - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes CBSE resources — experience, expertise, and credentials behind Indian CBSE board examination study materials."
 tags:

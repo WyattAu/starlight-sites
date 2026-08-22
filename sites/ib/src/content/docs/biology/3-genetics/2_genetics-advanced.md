@@ -1,6 +1,6 @@
 ---
 
-title: Genetics Advanced
+title: "Genetics Advanced | IB - Wyatt's Notes"
 description: "IB Biology -- DNA replication in detail, transcription and gene regulation, translation mechanics, operons, epigenetics, genetic engineering techniques, PCR,"
 date: 2024-01-01T00:00:00Z
 tags:

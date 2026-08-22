@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Proof Techniques
+title: "Proof Techniques | Computer Science"
 tags:
   - Computing
   - University

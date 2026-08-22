@@ -1,6 +1,6 @@
 ---
 
-title: Error Handling
+title: "Error Handling | Languages - Wyatt's Notes"
 description: "Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error."
 date: 2026-06-04T10:00:00.000Z
 tags:

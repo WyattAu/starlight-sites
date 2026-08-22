@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Many-Body Physics in Solids
+title: "Many-Body Physics in Solids - Wyatt's Notes"
 tags:
   - Physics
   - University

@@ -1,6 +1,6 @@
 ---
 
-title: Variables and Types
+title: "Variables and Types | Languages"
 description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04T10:00:00.000Z
 tags:

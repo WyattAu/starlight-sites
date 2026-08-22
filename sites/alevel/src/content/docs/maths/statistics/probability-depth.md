@@ -1,6 +1,6 @@
 ---
 
-title: Probability (Extended)
+title: "Probability (Extended) | A-Level"
 description: "This document extends the core probability material with rigorous treatments of conditional Probability, independence, Venn diagrams, tree diagrams, and"
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]

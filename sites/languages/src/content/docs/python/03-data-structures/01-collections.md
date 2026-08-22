@@ -1,6 +1,6 @@
 ---
 
-title: Collections
+title: "Collections | Languages - Wyatt's Notes"
 description: "Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks."
 date: 2025-06-04T12:00:00.000Z
 tags:

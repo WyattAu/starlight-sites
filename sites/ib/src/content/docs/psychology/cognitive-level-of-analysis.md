@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Cognitive Level of Analysis
+title: "Cognitive Level of Analysis | IB"
 description: "The cognitive level of analysis (CLOA) focuses on mental processes such as perception, memory, language, and decision making. It operates on the principle"
 
 ---

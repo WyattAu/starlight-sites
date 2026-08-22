@@ -1,7 +1,7 @@
 ---
 
 
-title: GCSE Computer Science
+title: "GCSE Computer Science - Wyatt's Notes"
 description: "Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

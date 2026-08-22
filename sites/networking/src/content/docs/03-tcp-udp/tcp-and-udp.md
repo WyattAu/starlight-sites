@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: TCP and UDP
+title: "TCP and UDP | Networking - Wyatt's Notes"
 description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,"
 tags:
   - Networking

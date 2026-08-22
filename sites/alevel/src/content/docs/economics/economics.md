@@ -1,6 +1,6 @@
 ---
 
-title: Economics
+title: "Economics | A-Level - Wyatt's Notes"
 description: "A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,"
 date: 2025-06-02T16:25:28.480Z
 tags:

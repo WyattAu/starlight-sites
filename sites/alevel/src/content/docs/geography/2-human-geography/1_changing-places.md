@@ -1,6 +1,6 @@
 ---
 
-title: Changing Places
+title: "Changing Places | A-Level - Wyatt's Notes"
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]

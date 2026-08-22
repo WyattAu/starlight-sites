@@ -1,6 +1,6 @@
 ---
 
-title: Introduction to HSC/VCE Notes
+title: "Introduction to HSC/VCE Notes - Wyatt's Notes"
 date: 2026-05-30
 description: "The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary"
 tags:

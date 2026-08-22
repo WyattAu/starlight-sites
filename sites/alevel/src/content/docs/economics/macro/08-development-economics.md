@@ -1,6 +1,6 @@
 ---
 
-title: Development Economics
+title: "Development Economics | A-Level"
 description: "Development economics studies how nations transform from low-income, less-productive economies into High-income, modern economies. It is distinct from"
 date: 2026-04-02T00:00:00.000Z
 tags:

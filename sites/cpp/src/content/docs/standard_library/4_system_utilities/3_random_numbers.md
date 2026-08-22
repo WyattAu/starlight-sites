@@ -1,6 +1,6 @@
 ---
 
-title: Random Number Generation
+title: "Random Number Generation | C++"
 description: "The header provides a modular random number generation system consisting of engines (stateful objects producing random number sequences), distributions"
 date: 2026-04-03T00:00:00.000Z
 tags:

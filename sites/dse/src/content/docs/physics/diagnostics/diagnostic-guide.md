@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: DSE Physics Diagnostic Guide
+title: "DSE Physics Diagnostic Guide - Wyatt's Notes"
 description: "This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file contains 3 unit tests (single-topic, testing deep"
 tableOfContents: false
 ---

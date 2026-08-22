@@ -1,6 +1,6 @@
 ---
 
-title: Particle Physics
+title: "Particle Physics | A-Level - Wyatt's Notes"
 description: "The Standard Model classifies all known fundamental particles and their interact Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]

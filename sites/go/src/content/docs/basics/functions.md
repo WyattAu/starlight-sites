@@ -1,6 +1,6 @@
 ---
 
-title: Functions
+title: "Functions | Go - Wyatt's Notes"
 description: 'Go functions are first-class values. The basic syntax: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-18
 tags:

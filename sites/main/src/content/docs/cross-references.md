@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Cross-Site Topic Connections
+title: "Cross-Site Topic Connections | main"
 description: "Cross-references create connections between related content: They help readers navigate between topics, find related information, and understand how concepts"
 ---
 

@@ -1,6 +1,6 @@
 ---
 
-title: net/http
+title: "net/http | Languages - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - Go

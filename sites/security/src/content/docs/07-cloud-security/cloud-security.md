@@ -1,6 +1,6 @@
 ---
 
-title: Cloud Security
+title: "Cloud Security - Wyatt's Notes"
 description: "Cloud security is governed by a shared responsibility model. The division of responsibility between The cloud provider and the customer depends on the"
 date: 2026-04-08T00:00:00.000Z
 tags:

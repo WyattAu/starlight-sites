@@ -1,6 +1,6 @@
 ---
 
-title: Human Physiology
+title: "Human Physiology | IB - Wyatt's Notes"
 description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
 date: 2024-01-01T00:00:00Z
 tags:

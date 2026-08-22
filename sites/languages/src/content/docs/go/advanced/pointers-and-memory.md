@@ -1,6 +1,6 @@
 ---
 
-title: Pointers and Memory
+title: "Pointers and Memory | Languages"
 description: "Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
 tags:

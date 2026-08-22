@@ -1,5 +1,5 @@
 ---
-title: Civics and Citizenship Tests
+title: "Civics and Citizenship Tests | civics-tests"
 description: Complete preparation for civics and citizenship tests across countries.
 date: 2026-01-01T00:00:00Z
 tags:

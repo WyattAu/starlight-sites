@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Ecology -- Diagnostic Tests"
+title: "Ecology -- Diagnostic Tests | GCSE"
 description: "A food chain in a woodland ecosystem is: oak tree caterpillar blue tit Comprehensive educational content coverage with definitions and practice problems."
 tableOfContents: false
 ---

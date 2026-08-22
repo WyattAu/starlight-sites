@@ -1,7 +1,7 @@
 ---
 
 
-title: IB Mathematics
+title: "IB Mathematics - Wyatt's Notes"
 description: "Complete IB Mathematics revision notes covering algebra, functions, trigonometry, calculus, probability, statistics, vectors, and matrices. Worked examples,"
 date: 2024-01-01T00:00:00Z
 tags:

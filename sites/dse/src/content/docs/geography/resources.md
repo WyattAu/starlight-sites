@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Resources and Sustainability
+title: "Resources and Sustainability | DSE"
 description: "Water resource management, energy resources, land use, Country Parks, land premium system, reclamation debates, and sustainability strategies for DSE Geography."
 sidebar_position: 3
 tags: [DSE, Geography, Resources, Sustainability]

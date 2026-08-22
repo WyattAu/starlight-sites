@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | civics-tests"
 date: 2026-07-24
 description: "About Wyatt's Notes Civics Tests resources — experience, expertise, and credentials behind US citizenship and civics test study materials."
 tags:

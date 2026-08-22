@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "European Imperialism in Asia"
+title: "European Imperialism in Asia | DSE"
 description: "European imperialism in Asia, the Treaty of Nanking, Unequal Treaties, colonisation of Hong Kong, impact on China, and responses to imperialism."
 sidebar_position: 4
 ---

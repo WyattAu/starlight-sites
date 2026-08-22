@@ -1,6 +1,6 @@
 ---
 
-title: Cellular Energetics
+title: "Cellular Energetics | AP - Wyatt's Notes"
 description: "Qualifications Biology Cellular Energetics notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 date: 2026-04-14
 tags:

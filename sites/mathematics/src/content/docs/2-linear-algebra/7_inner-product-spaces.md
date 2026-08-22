@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Inner Product Spaces
+title: "Inner Product Spaces | Mathematics"
 tags:
   - Mathematics
   - University

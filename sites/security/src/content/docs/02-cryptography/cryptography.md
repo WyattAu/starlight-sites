@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Cryptography
+title: "Cryptography | Security - Wyatt's Notes"
 description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly"
 
 ---

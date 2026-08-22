@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: A Streetcar Named Desire
+title: "A Streetcar Named Desire | IB - Wyatt's Notes"
 tags:
   - english
 description: "Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,"

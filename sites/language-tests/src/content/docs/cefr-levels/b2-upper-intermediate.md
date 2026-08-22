@@ -1,5 +1,5 @@
 ---
-title: B2 Upper Intermediate Level
+title: "B2 Upper Intermediate Level | language-tests"
 description: "The B2 level is the fourth level of CEFR. At this level, you can interact with a degree of fluency and spontaneity that makes regular interaction with native"
 date: 2026-01-01T00:00:00Z
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: GitHub Actions CI/CD Patterns
+title: "GitHub Actions CI/CD Patterns | Tools"
 description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows"
 
 ---

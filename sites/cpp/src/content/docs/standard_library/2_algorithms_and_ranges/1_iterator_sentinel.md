@@ -1,6 +1,6 @@
 ---
 
-title: Iterator-Sentinel Model
+title: "Iterator-Sentinel Model | C++ - Wyatt's Notes"
 description: "C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A"
 date: 2026-04-03T00:00:00.000Z
 tags:

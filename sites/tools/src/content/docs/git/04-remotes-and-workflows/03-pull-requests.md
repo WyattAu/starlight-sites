@@ -1,6 +1,6 @@
 ---
 
-title: Pull Requests
+title: "Pull Requests | Tools - Wyatt's Notes"
 description: "A pull request (PR) — called a in GitLab — is a proposal to merge a branch into another branch, accompanied by a code review discussion. While is a local"
 date: 2025-06-03T15:00:00.000Z
 tags:

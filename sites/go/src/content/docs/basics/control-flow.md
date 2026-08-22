@@ -1,6 +1,6 @@
 ---
 
-title: Control Flow
+title: "Control Flow | Go - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"go\", \"url\": \"https://go.wyattau.com\"}, {\"name\": \"Basics\", \"url\":"
 date: 2026-04-18
 tags:

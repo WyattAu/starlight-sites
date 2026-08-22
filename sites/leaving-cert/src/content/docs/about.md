@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Leaving Cert"
 date: 2026-07-24
 description: "About Wyatt's Notes Leaving Certificate resources — experience, expertise, and credentials behind the Irish Leaving Cert study materials."
 tags:

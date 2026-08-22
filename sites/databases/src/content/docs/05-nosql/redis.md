@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Redis Deep Dive
+title: "Redis Deep Dive | Databases - Wyatt's Notes"
 description: "Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a"
 
 ---

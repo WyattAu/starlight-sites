@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Locking and Deadlocks
+title: "Locking and Deadlocks | Databases"
 description: "PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance"
 
 ---

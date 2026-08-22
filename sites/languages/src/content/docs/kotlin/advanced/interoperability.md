@@ -1,6 +1,6 @@
 ---
 
-title: Java Interoperability
+title: "Java Interoperability | Languages"
 description: "Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language."
 date: 2026-04-18
 tags:

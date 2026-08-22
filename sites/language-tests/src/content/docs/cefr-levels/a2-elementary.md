@@ -1,5 +1,5 @@
 ---
-title: A2 Elementary Level
+title: "A2 Elementary Level | language-tests"
 description: "The A2 level is the second level of CEFR. At this level, you can understand sentences and frequently used expressions related to areas of immediate relevance."
 date: 2026-01-01T00:00:00Z
 tags:

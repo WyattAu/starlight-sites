@@ -1,6 +1,6 @@
 ---
 
-title: Organic Chemistry
+title: "Organic Chemistry | GCSE - Wyatt's Notes"
 description: "is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains"
 date: 2026-04-14
 tags:

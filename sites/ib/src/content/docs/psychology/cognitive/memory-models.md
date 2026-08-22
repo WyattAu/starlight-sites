@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Memory Models
+title: "Memory Models | IB - Wyatt's Notes"
 description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models In cognitive psychology. It conceptualises memory as"
 
 ---

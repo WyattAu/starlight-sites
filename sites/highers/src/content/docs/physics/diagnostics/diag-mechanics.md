@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Mechanics -- Diagnostic Tests"
+title: "Mechanics -- Diagnostic Tests | Highers"
 description: "Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---

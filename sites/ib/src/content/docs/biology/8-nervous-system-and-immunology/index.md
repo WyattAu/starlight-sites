@@ -1,5 +1,5 @@
 ---
-title: Nervous System And Immunology
+title: "Nervous System And Immunology | IB"
 description: "This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Understanding these foundations is essential for tackling"
 date: 2026-01-01T00:00:00Z
 ---

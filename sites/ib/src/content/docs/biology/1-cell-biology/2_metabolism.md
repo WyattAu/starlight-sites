@@ -1,6 +1,6 @@
 ---
 
-title: Metabolism and Cell Biology
+title: "Metabolism and Cell Biology | IB"
 description: "IB Biology -- enzyme kinetics (Michaelis-Menten, inhibition types), cellular respiration (glycolysis, Krebs cycle, electron transport chain), photosynthesis"
 date: 2024-01-01T00:00:00Z
 tags:

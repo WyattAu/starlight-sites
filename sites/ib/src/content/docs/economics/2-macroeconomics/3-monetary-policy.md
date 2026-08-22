@@ -1,6 +1,6 @@
 ---
 
-title: Monetary Policy
+title: "Monetary Policy | IB - Wyatt's Notes"
 description: "Inflation is the sustained increase in the general price level over time. The primary measure is the , which tracks the price of a weighted basket of goods"
 date: 2026-05-21
 tags: [ib, ib-economics]

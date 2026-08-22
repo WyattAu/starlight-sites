@@ -1,6 +1,6 @@
 ---
 
-title: Nervous System
+title: "Nervous System | A-Level - Wyatt's Notes"
 description: "The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18T00:00:00.000Z
 tags:

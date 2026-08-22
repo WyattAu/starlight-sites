@@ -1,6 +1,6 @@
 ---
 
-title: Data Analysis
+title: "Data Analysis | AP - Wyatt's Notes"
 description: "A fixed-size, ordered collection of elements of the same type. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14
 tags:

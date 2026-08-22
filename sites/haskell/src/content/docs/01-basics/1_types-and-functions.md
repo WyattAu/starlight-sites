@@ -1,6 +1,6 @@
 ---
 
-title: Types and Functions
+title: "Types and Functions | Haskell - Wyatt's Notes"
 description: "Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every"
 date: 2026-06-04T10:00:00.000Z
 tags:

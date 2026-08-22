@@ -1,6 +1,6 @@
 ---
 
-title: Unicode Support
+title: "Unicode Support | Programming - Wyatt's Notes"
 description: "C++ provides several character types for Unicode support and string literals for UTF-8 text. However, the standard library provides minimal high-level"
 date: 2026-04-03T00:00:00.000Z
 tags:

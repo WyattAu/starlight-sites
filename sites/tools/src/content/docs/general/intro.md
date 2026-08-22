@@ -1,6 +1,6 @@
 ---
 
-title: Introduction to General Notes
+title: "Introduction to General Notes | Tools"
 description: 'This resource is created not based on any curriculum, but a amalgamation of what Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-05-15T22:45:51.828Z
 tags:

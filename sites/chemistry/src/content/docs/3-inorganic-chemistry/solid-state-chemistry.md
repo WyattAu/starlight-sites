@@ -1,6 +1,6 @@
 ---
 
-title: Solid-State Chemistry
+title: "Solid-State Chemistry - Wyatt's Notes"
 description: "University Solid-State Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 date: 2026-05-31T00:00:00.000Z
 tags:

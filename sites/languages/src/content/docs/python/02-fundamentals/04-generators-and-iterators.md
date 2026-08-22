@@ -1,6 +1,6 @@
 ---
 
-title: Generators and Iterators
+title: "Generators and Iterators | Languages"
 description: "Python' s iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython"
 date: 2026-04-05T00:00:00.000Z
 tags:

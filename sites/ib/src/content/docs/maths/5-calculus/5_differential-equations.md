@@ -1,6 +1,6 @@
 ---
 
-title: "Differential Equations"
+title: "Differential Equations | IB - Wyatt's Notes"
 description: "IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."
 date: 2024-01-01T00:00:00Z
 tags:

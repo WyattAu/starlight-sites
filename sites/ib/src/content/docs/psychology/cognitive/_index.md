@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Cognitive Level of Analysis
+title: "Cognitive Level of Analysis | IB"
 description: "This section covers the cognitive level of analysis, focusing on mental processes such as memory, thinking, language, and decision making."
 
 ---

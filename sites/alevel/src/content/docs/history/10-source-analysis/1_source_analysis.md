@@ -1,6 +1,6 @@
 ---
 
-title: "A-Level Source Analysis"
+title: "A-Level Source Analysis - Wyatt's Notes"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 13
 tags:

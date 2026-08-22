@@ -1,6 +1,6 @@
 ---
 
-title: Sequences and Series
+title: "Sequences and Series | AP - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 date: 2026-04-14
 tags:

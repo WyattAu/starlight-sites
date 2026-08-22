@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Strings and Text Processing
+title: "Strings and Text Processing | Java"
 description: "is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in"
 
 ---

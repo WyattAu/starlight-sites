@@ -1,6 +1,6 @@
 ---
 
-title: Variables
+title: "Variables | Languages - Wyatt's Notes"
 description: "Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-07-13T20:44:32.129Z
 tags:

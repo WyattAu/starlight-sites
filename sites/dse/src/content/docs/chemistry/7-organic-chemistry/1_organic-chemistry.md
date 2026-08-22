@@ -1,6 +1,6 @@
 ---
 
-title: Organic Chemistry
+title: "Organic Chemistry | DSE - Wyatt's Notes"
 description: "Organic chemistry is the study of carbon compounds. The definition traditionally excludes simple Carbon compounds such as carbon monoxide (), carbon dioxide"
 date: 2026-04-07T00:00:00.000Z
 tags:

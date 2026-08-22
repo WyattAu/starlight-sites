@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Optics and Wave Physics
+title: "Optics and Wave Physics - Wyatt's Notes"
 tags:
   - Physics
   - University

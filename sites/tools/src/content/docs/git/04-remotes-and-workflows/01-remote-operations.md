@@ -1,6 +1,6 @@
 ---
 
-title: Remote Operations
+title: "Remote Operations | Tools - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"Git\", \"url\":"
 date: 2025-06-03T06:00:00.000Z
 tags:

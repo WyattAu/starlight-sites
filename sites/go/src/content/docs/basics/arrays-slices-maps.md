@@ -1,6 +1,6 @@
 ---
 
-title: Arrays, Slices, and Maps
+title: "Arrays, Slices, and Maps | Go - Wyatt's Notes"
 description: "Arrays are fixed-length, homogeneous sequences. The length is part of the type - Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
 tags:

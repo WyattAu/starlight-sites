@@ -1,6 +1,6 @@
 ---
 
-title: AP Computer Science
+title: "AP Computer Science - Wyatt's Notes"
 description: "Comprehensive revision notes for AP Computer Science, aligned with the College B Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Storage Tuning
+title: "Storage Tuning - Wyatt's Notes"
 description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |"
 
 ---

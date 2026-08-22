@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Operating Systems
+title: "Operating Systems | Computer Science"
 description: 'Topics in operating systems including process management, synchronisation, memory management, file systems, and virtualization.'
 tags:
   - Computing

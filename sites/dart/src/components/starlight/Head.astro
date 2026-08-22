@@ -172,7 +172,7 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 {relatedSites.map(relatedSub => {
   const relatedPath = `/${pagePathSegments.join('/')}`;
   const relatedUrl = `https://${relatedSub}.wyattau.com${relatedPath === '/' ? '/' : relatedPath + '/'}`;
-  return <link rel="alternate" hreflang="en" href={relatedUrl} data-related-site={relatedSub} />;
+  return <link rel="alternate" href={relatedUrl} data-related-site={relatedSub} />;
 })}
 
 <!-- Open Graph / Facebook -->

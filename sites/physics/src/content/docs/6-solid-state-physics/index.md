@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Solid State Physics
+title: "Solid State Physics - Wyatt's Notes"
 tags:
   - Physics
   - University

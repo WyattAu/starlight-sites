@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Rust - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes provides thorough study materials for Rust programming. These notes cover ownership and borrowing, the type system, async programming, and"
 tags:

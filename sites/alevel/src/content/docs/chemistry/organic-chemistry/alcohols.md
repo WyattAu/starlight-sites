@@ -1,6 +1,6 @@
 ---
 
-title: Alcohols
+title: "Alcohols | A-Level - Wyatt's Notes"
 description: "Alcohols are organic compounds containing one or more hydroxyl () groups bonded  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-22T00:00:00.000Z
 tags:

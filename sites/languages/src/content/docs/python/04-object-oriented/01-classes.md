@@ -1,6 +1,6 @@
 ---
 
-title: Classes and Inheritance
+title: "Classes and Inheritance | Languages"
 description: "In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when"
 date: 2025-06-04T13:00:00.000Z
 tags:

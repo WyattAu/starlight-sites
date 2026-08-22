@@ -1,6 +1,6 @@
 ---
 
-title: Branching
+title: "Branching | Tools - Wyatt's Notes"
 description: "Branching is the mechanism that enables — multiple developers (or a single developer working on multiple features) can modify the codebase independently,"
 date: 2025-06-03T02:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Data and Databases
+title: "Data and Databases | Leaving Cert"
 description: "ILC Computer Science Data and Databases notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 date: 2026-04-14
 tags:

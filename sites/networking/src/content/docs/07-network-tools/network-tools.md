@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Network Tools
+title: "Network Tools | Networking - Wyatt's Notes"
 description: "Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section"
 tags:
   - Networking

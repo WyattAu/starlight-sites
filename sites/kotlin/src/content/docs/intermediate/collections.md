@@ -1,6 +1,6 @@
 ---
 
-title: Collections
+title: "Collections | Kotlin - Wyatt's Notes"
 description: "Kotlin' s collection types are split into two hierarchies: and . Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Exception Handling
+title: "Exception Handling | Languages"
 description: "Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException"
 date: 2026-04-04T00:00:00.000Z
 tags:

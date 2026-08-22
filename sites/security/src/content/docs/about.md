@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Security - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes delivers thorough study materials for cybersecurity. These notes cover network security, cryptography, vulnerability analysis, and secure"
 tags:

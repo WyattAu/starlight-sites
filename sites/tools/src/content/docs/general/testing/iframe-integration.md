@@ -1,6 +1,6 @@
 ---
 
-title: Iframe Integration
+title: "Iframe Integration | Tools - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"General\", \"url\":"
 date: 2025-07-11T23:22:50.056Z
 tags:

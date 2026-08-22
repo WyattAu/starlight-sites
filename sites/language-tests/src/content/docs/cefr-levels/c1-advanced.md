@@ -1,5 +1,5 @@
 ---
-title: C1 Advanced Level
+title: "C1 Advanced Level | language-tests"
 description: "The C1 level is the fifth level of CEFR. At this level, you can understand a wide range of demanding, longer texts, and recognise implicit meaning."
 date: 2026-01-01T00:00:00Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Cell Biology
+title: "Cell Biology | Leaving Cert - Wyatt's Notes"
 description: "ILC Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed review and exam preparation."
 date: 2026-04-14
 tags:

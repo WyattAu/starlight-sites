@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Developmental Psychology
+title: "Developmental Psychology | IB - Wyatt's Notes"
 description: "This section covers developmental psychology, examining how behaviour changes across the lifespan with a focus on attachment, cognitive development, and"
 
 ---

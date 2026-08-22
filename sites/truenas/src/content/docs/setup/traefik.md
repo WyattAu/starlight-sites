@@ -1,6 +1,6 @@
 ---
 
-title: Setup Traefik
+title: "Setup Traefik | TrueNAS - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"truenas\", \"url\": \"https://truenas.wyattau.com\"}, {\"name\": \"Setup\", \"url\":"
 date: 2025-07-21T18:30:46.381Z
 tags:

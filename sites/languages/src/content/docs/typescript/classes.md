@@ -1,6 +1,6 @@
 ---
 
-title: Classes
+title: "Classes | Languages - Wyatt's Notes"
 description: "A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be"
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]

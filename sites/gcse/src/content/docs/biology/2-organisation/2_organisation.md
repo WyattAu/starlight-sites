@@ -1,6 +1,6 @@
 ---
 
-title: Organisation
+title: "Organisation | GCSE - Wyatt's Notes"
 description: "The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single"
 date: 2026-04-14
 tags:

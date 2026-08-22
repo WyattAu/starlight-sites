@@ -1,6 +1,6 @@
 ---
 
-title: Chrono Library
+title: "Chrono Library | C++ - Wyatt's Notes"
 description: "(C++11) provides types and functions for representing and manipulating time values. The library uses the type system to prevent accidental mixing of time"
 date: 2026-04-03T00:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Scottish Highers Physics
+title: "Scottish Highers Physics - Wyatt's Notes"
 description: "Higher Physics covers mechanics, dynamics, electricity, waves, and radiation. The course emphasises both theoretical understanding and practical"
 date: 2026-04-14
 tags:

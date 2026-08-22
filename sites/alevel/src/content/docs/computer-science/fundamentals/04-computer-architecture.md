@@ -1,6 +1,6 @@
 ---
 
-title: Computer Architecture
+title: "Computer Architecture | A-Level"
 description: "The , proposed by John Von Neumann in 1945, is characterised by a single Unified memory space that stores both data and instructions, a single set of buses"
 date: 2025-06-02T16:25:28.480Z
 tags:

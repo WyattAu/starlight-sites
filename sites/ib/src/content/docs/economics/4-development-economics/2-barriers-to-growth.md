@@ -1,6 +1,6 @@
 ---
 
-title: Barriers to Growth
+title: "Barriers to Growth | IB - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 date: 2026-05-21
 tags: [ib, ib-economics]

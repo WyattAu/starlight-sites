@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Drainage Basins and Hydrology
+title: "Drainage Basins and Hydrology | IB"
 description: "A drainage basin (catchment or watershed) is the area of land from which all precipitation flows to A common outlet, where a river enters a lake, sea, or"
 
 ---

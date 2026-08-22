@@ -1,6 +1,6 @@
 ---
 
-title: Electric Fields
+title: "Electric Fields | A-Level - Wyatt's Notes"
 description: "The electrostatic force between two point charges and separated by Distance in v Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]

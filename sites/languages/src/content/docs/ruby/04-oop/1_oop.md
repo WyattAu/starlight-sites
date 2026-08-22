@@ -1,6 +1,6 @@
 ---
 
-title: Object-Oriented Programming
+title: "Object-Oriented Programming | Languages"
 description: "class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-06-04T10:00:00.000Z
 tags:

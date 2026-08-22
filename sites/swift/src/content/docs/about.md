@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Swift - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes offers comprehensive study materials for Swift programming. These notes cover Swift's type system, protocol-oriented design, SwiftUI, and iOS"
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Balance of Payments
+title: "Balance of Payments | IB - Wyatt's Notes"
 description: "IB Economics Balance of Payments notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-05-21
 tags: [ib, ib-economics]

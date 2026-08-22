@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: DSE ICT
+title: "DSE ICT - Wyatt's Notes"
 description: 'DSE ICT notes covering key definitions, core concepts, worked examples, and practice questions for solid revision and exam readiness.'
 tableOfContents: false
 ---

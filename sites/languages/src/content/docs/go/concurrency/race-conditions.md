@@ -1,6 +1,6 @@
 ---
 
-title: race conditions
+title: "race conditions | Languages - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - Go

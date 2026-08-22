@@ -1,6 +1,6 @@
 ---
 
-title: Graphs
+title: "Graphs | A-Level - Wyatt's Notes"
 description: "A consists of a set of (nodes) and a set of Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:

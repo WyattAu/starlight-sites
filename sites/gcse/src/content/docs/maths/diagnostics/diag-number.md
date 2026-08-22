@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Number -- Diagnostic Tests"
+title: "Number -- Diagnostic Tests | GCSE"
 description: "(a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted"
 tableOfContents: false
 ---

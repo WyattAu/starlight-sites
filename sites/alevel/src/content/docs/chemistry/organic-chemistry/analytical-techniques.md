@@ -1,6 +1,6 @@
 ---
 
-title: Analytical Techniques
+title: "Analytical Techniques | A-Level"
 description: "Analytical techniques allow chemists to determine the structure, composition, and purity of organic Compounds. No single technique provides complete"
 date: 2026-04-22T00:00:00.000Z
 tags:

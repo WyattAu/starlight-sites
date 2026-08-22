@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Transactions and Concurrency
+title: "Transactions and Concurrency | Databases"
 description: "ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not"
 tags:
   - Databases

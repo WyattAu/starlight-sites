@@ -1,5 +1,5 @@
 ---
-title: A1 Beginner
+title: "A1 Beginner | language-tests - Wyatt's Notes"
 description: "The A1 level is the first level of the Common European Framework of Reference for Languages (CEFR). At this level, you can understand and use familiar everyday"
 date: 2026-01-01T00:00:00Z
 tags:

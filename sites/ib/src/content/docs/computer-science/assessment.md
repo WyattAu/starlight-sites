@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Assessment
+title: "Assessment | IB - Wyatt's Notes"
 description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |"
 ---
 

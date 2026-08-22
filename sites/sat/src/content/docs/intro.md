@@ -1,6 +1,6 @@
 ---
 
-title: Introduction to SAT Notes
+title: "Introduction to SAT Notes - Wyatt's Notes"
 date: 2026-05-30
 description: "The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has"
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Data Representation
+title: "Data Representation | GCSE - Wyatt's Notes"
 description: "Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

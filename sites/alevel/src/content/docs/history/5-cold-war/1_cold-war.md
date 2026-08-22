@@ -1,6 +1,6 @@
 ---
 
-title: The Cold War 1945-1991
+title: "The Cold War 1945-1991 | A-Level"
 date: 2026-05-21T00:00:00.000Z
 tags:
   - alevel

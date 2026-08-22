@@ -1,6 +1,6 @@
 ---
 
-title: Ecology
+title: "Ecology | IB - Wyatt's Notes"
 description: "IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification."
 date: 2024-01-01T00:00:00Z
 tags:

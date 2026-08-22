@@ -1,6 +1,6 @@
 ---
 
-title: Supervised Learning
+title: "Supervised Learning | Tools - Wyatt's Notes"
 description: "Supervised learning as function approximation under loss: ERM, generalisation, and the probabilistic view via likelihood and posteriors."
 date: 2026-01-07T08:38:26.907Z
 tags:

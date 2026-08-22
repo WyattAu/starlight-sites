@@ -320,6 +320,7 @@ export function generateSpeakableSchema(props: SpeakableSchemaProps) {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${props.url}#webpage`,
+    name: props.url.split('/').filter(Boolean).pop() || 'Page',
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['.markdown-content', 'h1'],

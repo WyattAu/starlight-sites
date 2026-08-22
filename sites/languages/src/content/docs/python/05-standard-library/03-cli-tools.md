@@ -1,6 +1,6 @@
 ---
 
-title: CLI Tools
+title: "CLI Tools | Languages - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Python\", \"url\":"
 date: 2026-04-05T00:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Magnetism
+title: "Magnetism | AP - Wyatt's Notes"
 description: "A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-05
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Structure and Bonding
+title: "Structure and Bonding | Chemistry"
 description: "One and three orbitals combine to form four equivalent sp hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°."
 date: 2026-05-31T00:00:00.000Z
 tags:

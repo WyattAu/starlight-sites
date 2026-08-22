@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Ecology -- Diagnostic Tests"
+title: "Ecology -- Diagnostic Tests | A-Level"
 description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---

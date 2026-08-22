@@ -1,6 +1,6 @@
 ---
 
-title: Russia 1917-1953
+title: "Russia 1917-1953 | A-Level - Wyatt's Notes"
 date: 2026-05-21T00:00:00.000Z
 tags:
   - alevel

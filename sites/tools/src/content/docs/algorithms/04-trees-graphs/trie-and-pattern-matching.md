@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Tries and String Algorithms
+title: "Tries and String Algorithms | Tools"
 description: "A trie is a tree data structure where each node represents a character of a string. The path from The root to any node spells out a prefix, and nodes marked"
 
 ---

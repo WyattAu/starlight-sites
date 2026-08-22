@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Detailed Diffraction Theory
+title: "Detailed Diffraction Theory | Physics"
 tags:
   - Physics
   - University

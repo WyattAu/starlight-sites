@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Geometry -- Diagnostic Tests"
+title: "Geometry -- Diagnostic Tests | GCSE"
 description: "(a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle. Calculate the length of the hypotenuse. (b) A ladder leans against a wall."
 tableOfContents: false
 ---

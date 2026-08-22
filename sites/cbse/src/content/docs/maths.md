@@ -1,6 +1,6 @@
 ---
 
-title: CBSE Mathematics Study Guide
+title: "CBSE Mathematics Study Guide - Wyatt's Notes"
 date: 2026-05-31
 description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tags:

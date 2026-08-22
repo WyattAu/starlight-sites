@@ -1,6 +1,6 @@
 ---
 
-title: Theory of the Firm
+title: "Theory of the Firm | A-Level - Wyatt's Notes"
 description: "We define the following cost concepts for a firm producing quantity : Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:

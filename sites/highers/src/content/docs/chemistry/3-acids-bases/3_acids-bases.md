@@ -1,6 +1,6 @@
 ---
 
-title: Acids and Bases
+title: "Acids and Bases | Highers - Wyatt's Notes"
 description: "An acid produces ions in solution; a base produces ions. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14
 tags:

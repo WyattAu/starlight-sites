@@ -1,6 +1,6 @@
 ---
 
-title: System In Organizations
+title: "System In Organizations | IB - Wyatt's Notes"
 description: "Rigorous IB computer science notes covering System In Organizations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
 tags:

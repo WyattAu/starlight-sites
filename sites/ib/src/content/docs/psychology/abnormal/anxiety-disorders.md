@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Anxiety Disorders
+title: "Anxiety Disorders | IB - Wyatt's Notes"
 description: "Anxiety disorders are characterised by excessive, persistent fear and anxiety that are Disproportionate to the actual threat and that significantly impair"
 
 ---

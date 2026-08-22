@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Python - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Python resources — experience, expertise, and credentials behind Python programming study materials."
 tags:

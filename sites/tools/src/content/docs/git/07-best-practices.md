@@ -1,6 +1,6 @@
 ---
 
-title: Best Practices
+title: "Best Practices | Tools - Wyatt's Notes"
 description: 'git config --global user.name "Your Name" git config --global user.email "you@ex Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-03T16:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Exchange Rates
+title: "Exchange Rates | IB - Wyatt's Notes"
 description: "IB Economics Exchange Rates notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness."
 date: 2026-05-21
 tags: [ib, ib-economics]

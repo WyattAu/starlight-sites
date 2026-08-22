@@ -1,6 +1,6 @@
 ---
 
-title: Concurrency
+title: "Concurrency | Languages - Wyatt's Notes"
 description: "means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once"
 date: 2026-06-04T10:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Irish LC Mathematics
+title: "Irish LC Mathematics | Leaving Cert"
 description: "Leaving Certificate Mathematics is a core subject covering algebra, calculus, geometry, probability, statistics, and number theory. The course is offered at"
 date: 2026-04-14
 tags:

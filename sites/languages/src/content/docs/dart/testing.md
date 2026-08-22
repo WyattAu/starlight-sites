@@ -1,6 +1,6 @@
 ---
 
-title: testing
+title: "testing | Languages - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - Dart

@@ -1,6 +1,6 @@
 ---
 
-title: AP Statistics
+title: "AP Statistics - Wyatt's Notes"
 description: "Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

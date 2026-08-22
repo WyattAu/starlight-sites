@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Structs and Enums
+title: "Structs and Enums | Rust - Wyatt's Notes"
 description: "Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition"
 
 ---

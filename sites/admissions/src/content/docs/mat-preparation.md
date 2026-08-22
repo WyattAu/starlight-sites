@@ -1,6 +1,6 @@
 ---
 
-title: MAT Preparation
+title: "MAT Preparation | admissions - Wyatt's Notes"
 description: "University Admissions MAT Preparation notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 date: 2026-05-05T00:00:00.000Z
 tags:

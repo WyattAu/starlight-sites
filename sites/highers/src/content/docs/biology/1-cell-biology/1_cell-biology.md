@@ -1,6 +1,6 @@
 ---
 
-title: Cell Biology
+title: "Cell Biology | Highers - Wyatt's Notes"
 description: "Scottish Highers Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed exam preparation and revision."
 date: 2026-04-14
 tags:

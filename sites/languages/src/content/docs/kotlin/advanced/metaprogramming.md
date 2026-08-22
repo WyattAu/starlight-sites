@@ -1,6 +1,6 @@
 ---
 
-title: Metaprogramming
+title: "Metaprogramming | Languages - Wyatt's Notes"
 description: 'Reflection allows inspection of classes, functions, properties, and annotations at runtime. Kotlin Reflection requires an additional dependency.'
 date: 2026-04-18
 tags:

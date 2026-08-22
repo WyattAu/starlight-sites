@@ -1,6 +1,6 @@
 ---
 
-title: IMO Preparation
+title: "IMO Preparation | admissions - Wyatt's Notes"
 description: "University Admissions IMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 date: 2026-05-05T00:00:00.000Z
 tags:

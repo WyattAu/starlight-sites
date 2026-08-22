@@ -1,6 +1,6 @@
 ---
 
-title: Async and Futures
+title: "Async and Futures | Languages - Wyatt's Notes"
 description: "Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses — the single thread processes Events from a queue,"
 date: 2025-07-20T11:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Rotational Motion
+title: "Rotational Motion | AP - Wyatt's Notes"
 description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |"
 date: 2026-04-14
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Causes and Effects of Wars
+title: "Causes and Effects of Wars | IB"
 date: 2026-05-31
 tags:
   - IB History

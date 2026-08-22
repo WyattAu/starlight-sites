@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Real Analysis
+title: "Real Analysis | Mathematics - Wyatt's Notes"
 tags:
   - Mathematics
   - University

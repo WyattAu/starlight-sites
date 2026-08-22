@@ -1,6 +1,6 @@
 ---
 
-title: C-Interop and FFI
+title: "C-Interop and FFI | C++ - Wyatt's Notes"
 description: "C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names — each function has a single symbol matching its"
 date: 2026-04-03T00:00:00.000Z
 tags:

@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Physics
+title: "Physics - Wyatt's Notes"
 description: "This section develops university-level physics from first principles, with emphasis on mathematical derivation and the explicit statement of assumptions."
 ---
 

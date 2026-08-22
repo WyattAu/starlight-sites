@@ -1,6 +1,6 @@
 ---
 
-title: The noexcept Specifier
+title: "The noexcept Specifier | Programming"
 description: "Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees."
 date: 2026-04-03T00:00:00.000Z
 tags:

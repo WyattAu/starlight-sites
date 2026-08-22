@@ -1,6 +1,6 @@
 ---
 
-title: Web Technologies
+title: "Web Technologies | A-Level - Wyatt's Notes"
 description: "Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-03T00:00:00.000Z
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Cargo and Ecosystem
+title: "Cargo and Ecosystem | Rust - Wyatt's Notes"
 description: "is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble"
 
 ---

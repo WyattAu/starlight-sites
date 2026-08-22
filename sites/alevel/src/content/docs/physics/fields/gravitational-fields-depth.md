@@ -1,6 +1,6 @@
 ---
 
-title: Gravitational Fields
+title: "Gravitational Fields | A-Level"
 description: "Every point mass attracts every other point mass with a force directed along the Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]

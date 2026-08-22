@@ -1,6 +1,6 @@
 ---
 
-title: Atomic Structure
+title: "Atomic Structure | GCSE - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gcse\", \"url\": \"https://gcse.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 date: 2026-04-14
 tags:

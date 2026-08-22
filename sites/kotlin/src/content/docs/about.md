@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Kotlin - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Kotlin resources — experience, expertise, and credentials behind Kotlin programming study materials."
 tags:

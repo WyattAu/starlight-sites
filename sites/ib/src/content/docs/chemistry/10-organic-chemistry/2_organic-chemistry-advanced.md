@@ -1,6 +1,6 @@
 ---
 
-title: Organic Chemistry (Advanced)
+title: "Organic Chemistry (Advanced) | IB"
 description: "IB Chemistry — reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification."
 date: 2024-01-01T00:00:00Z
 tags:

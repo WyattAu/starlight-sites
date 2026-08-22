@@ -1,6 +1,6 @@
 ---
 
-title: Cells
+title: "Cells | A-Level - Wyatt's Notes"
 description: "The cell theory, developed by Schleiden and Schwann (1838--1839) and later refin Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z
 tags:

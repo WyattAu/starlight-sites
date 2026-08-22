@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | driving-us - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes US Driving resources — experience, expertise, and credentials behind US DMV driving test study materials."
 tags:

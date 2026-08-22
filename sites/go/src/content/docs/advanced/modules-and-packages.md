@@ -1,6 +1,6 @@
 ---
 
-title: Modules and Packages
+title: "Modules and Packages | Go - Wyatt's Notes"
 description: 'Every Go file belongs to a package, declared at the top of the file. A directory contains one Package. Executables use ; libraries use any other name.'
 date: 2026-04-18
 tags:

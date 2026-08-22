@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: WebSockets
+title: "WebSockets | Networking - Wyatt's Notes"
 description: "WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,"
 tags:
   - Networking

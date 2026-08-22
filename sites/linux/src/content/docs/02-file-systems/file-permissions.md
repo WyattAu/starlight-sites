@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: File Permissions and ACLs
+title: "File Permissions and ACLs | Linux"
 description: "Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces"
 
 ---

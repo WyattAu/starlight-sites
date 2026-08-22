@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Tuning - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Performance Tuning resources — experience, expertise, and credentials behind performance optimisation study materials."
 tags:

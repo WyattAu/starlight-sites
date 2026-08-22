@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Syllabus
+title: "Syllabus | IB - Wyatt's Notes"
 description: "First assessment 2025. The course is organized into five core themes studied at both Standard Level (SL) and Higher Level (HL), plus an HL Extension with"
 ---
 

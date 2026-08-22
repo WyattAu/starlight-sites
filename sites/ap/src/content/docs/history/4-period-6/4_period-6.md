@@ -1,6 +1,6 @@
 ---
 
-title: Period 6 (1865-1898)
+title: "Period 6 (1865-1898) | AP - Wyatt's Notes"
 description: "The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large"
 date: 2026-06-04T10:00:00.000Z
 tags:

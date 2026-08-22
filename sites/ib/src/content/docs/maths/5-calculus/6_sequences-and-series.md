@@ -1,6 +1,6 @@
 ---
 
-title: "Sequences and Series"
+title: "Sequences and Series | IB - Wyatt's Notes"
 description: "IB Mathematics — arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem."
 date: 2024-01-01T00:00:00Z
 tags:

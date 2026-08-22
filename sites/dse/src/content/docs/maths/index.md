@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: DSE Mathematics
+title: "DSE Mathematics - Wyatt's Notes"
 description: 'DSE Maths Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for clear study and thorough revision.'
 tableOfContents: false
 ---

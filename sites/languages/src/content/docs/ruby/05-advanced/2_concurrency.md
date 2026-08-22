@@ -1,6 +1,6 @@
 ---
 
-title: Concurrency
+title: "Concurrency | Languages - Wyatt's Notes"
 description: "Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has"
 date: 2026-06-04T10:00:00.000Z
 tags:

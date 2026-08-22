@@ -1,6 +1,6 @@
 ---
 
-title: Synthesis
+title: "Synthesis | Chemistry - Wyatt's Notes"
 description: "University Chemistry Synthesis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-05-31T00:00:00.000Z
 tags:

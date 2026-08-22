@@ -1,6 +1,6 @@
 ---
 
-title: TypeScript -- Course Overview
+title: "TypeScript -- Course Overview | Languages"
 description: "TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a"
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]

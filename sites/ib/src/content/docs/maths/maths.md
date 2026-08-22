@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Maths
+title: "Maths | IB - Wyatt's Notes"
 tags:
   - maths
 description: "This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)."

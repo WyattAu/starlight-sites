@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: The Debye Model of Solids
+title: "The Debye Model of Solids | Physics"
 tags:
   - Physics
   - University

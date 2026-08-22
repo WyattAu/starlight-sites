@@ -1,6 +1,6 @@
 ---
 
-title: advanced types
+title: "advanced types | Languages - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - TypeScript

@@ -1,5 +1,5 @@
 ---
-title: 2_value_categories_and_move
+title: "2_value_categories_and_move | Programming"
 description: "This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables"
 date: 2026-01-01T00:00:00Z
 ---

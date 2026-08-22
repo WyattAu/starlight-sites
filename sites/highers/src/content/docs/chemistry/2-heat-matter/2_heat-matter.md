@@ -1,6 +1,6 @@
 ---
 
-title: Energy and Matter
+title: "Energy and Matter | Highers - Wyatt's Notes"
 description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-14
 tags:

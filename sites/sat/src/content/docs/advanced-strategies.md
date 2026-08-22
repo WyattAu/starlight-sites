@@ -1,6 +1,6 @@
 ---
 
-title: Advanced Strategies
+title: "Advanced Strategies | SAT - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - SAT

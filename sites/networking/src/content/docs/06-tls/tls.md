@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: TLS
+title: "TLS | Networking - Wyatt's Notes"
 description: "Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure"
 tags:
   - Networking

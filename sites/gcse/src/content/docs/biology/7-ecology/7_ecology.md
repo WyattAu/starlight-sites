@@ -1,6 +1,6 @@
 ---
 
-title: Ecology
+title: "Ecology | GCSE - Wyatt's Notes"
 description: "- A single organism. - All the organisms of one species in a habitat. The size of a population can change over time due to birth rate, death rate,"
 date: 2026-04-14
 tags:

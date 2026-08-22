@@ -1,6 +1,6 @@
 ---
 
-title: Programming
+title: "Programming | GCSE - Wyatt's Notes"
 description: "Programming: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-14
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Dynamic Programming
+title: "Dynamic Programming | Tools - Wyatt's Notes"
 description: "Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two"
 
 ---

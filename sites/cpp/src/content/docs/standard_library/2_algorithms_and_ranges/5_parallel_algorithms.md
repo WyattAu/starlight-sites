@@ -1,6 +1,6 @@
 ---
 
-title: Parallel Algorithms
+title: "Parallel Algorithms | C++ - Wyatt's Notes"
 description: "C++17 introduced execution policies that enable many standard algorithms to run in parallel across Multiple threads. This section covers the three standard"
 date: 2026-04-03T00:00:00.000Z
 tags:

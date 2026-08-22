@@ -1,6 +1,6 @@
 ---
 
-title: Error Handling
+title: "Error Handling | Go - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"go\", \"url\": \"https://go.wyattau.com\"}, {\"name\": \"Intermediate\", \"url\":"
 date: 2026-04-18
 tags:

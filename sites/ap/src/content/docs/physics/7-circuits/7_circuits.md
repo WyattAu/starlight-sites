@@ -1,6 +1,6 @@
 ---
 
-title: Circuits
+title: "Circuits | AP - Wyatt's Notes"
 description: "Electric current is the rate of flow of charge: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-05
 tags:

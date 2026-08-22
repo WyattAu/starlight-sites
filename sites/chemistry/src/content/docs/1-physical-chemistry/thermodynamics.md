@@ -1,6 +1,6 @@
 ---
 
-title: Thermodynamics
+title: "Thermodynamics | Chemistry - Wyatt's Notes"
 description: "University Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 date: 2026-05-31T00:00:00.000Z
 tags:

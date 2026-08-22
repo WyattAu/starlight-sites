@@ -1,6 +1,6 @@
 ---
 
-title: Operating Systems
+title: "Operating Systems | A-Level - Wyatt's Notes"
 description: "An (OS) is a system software that manages hardware resources, Provides services for application software, and acts as an intermediary between the user and"
 date: 2026-04-03T00:00:00.000Z
 tags:

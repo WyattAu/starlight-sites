@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | DSE - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes DSE preparation resources — experience, expertise, and credentials behind the Hong Kong DSE exam materials."
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Scottish Highers Biology
+title: "Scottish Highers Biology - Wyatt's Notes"
 description: "Higher Biology explores cell biology, metabolism, multicellular organisms, genetics, and evolution. The course emphasises scientific inquiry, data analysis,"
 date: 2026-04-14
 tags:

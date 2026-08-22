@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Diagnostic Test: Databases"
+title: "Diagnostic Test: Databases - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"databases\", \"url\": \"https://databases.wyattau.com\"}, {\"name\": \"Diagnostics\","
 sidebar_position: 60
 tableOfContents: false

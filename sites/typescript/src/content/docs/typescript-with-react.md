@@ -1,6 +1,6 @@
 ---
 
-title: TypeScript with React
+title: "TypeScript with React - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"typescript\", \"url\": \"https://typescript.wyattau.com\"}, {\"name\": \"Typescript With"
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]

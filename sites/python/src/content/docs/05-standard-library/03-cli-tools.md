@@ -1,6 +1,6 @@
 ---
 
-title: CLI Tools
+title: "CLI Tools | Python - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"python\", \"url\": \"https://python.wyattau.com\"}, {\"name\": \"05 Standard Library\","
 date: 2026-04-05T00:00:00.000Z
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 3_compile_time_computation
+title: "3_compile_time_computation | C++"
 description: "This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables"
 date: 2026-01-01T00:00:00Z
 ---

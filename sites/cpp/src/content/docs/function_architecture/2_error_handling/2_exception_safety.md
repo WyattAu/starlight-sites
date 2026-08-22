@@ -1,6 +1,6 @@
 ---
 
-title: Exception Safety Guarantees
+title: "Exception Safety Guarantees | C++"
 description: "The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard Library requirements, classifies every operation into four"
 date: 2026-04-03T00:00:00.000Z
 tags:

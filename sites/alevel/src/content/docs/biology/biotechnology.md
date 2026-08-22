@@ -1,6 +1,6 @@
 ---
 
-title: Biotechnology
+title: "Biotechnology | A-Level - Wyatt's Notes"
 description: "Recombinant DNA technology involves combining DNA from different sources to create new, artificial DNA molecules that can be introduced into host organisms."
 date: 2026-04-18T00:00:00.000Z
 tags:

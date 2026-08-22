@@ -1,6 +1,6 @@
 ---
 
-title: Scottish Highers Chemistry
+title: "Scottish Highers Chemistry - Wyatt's Notes"
 description: "Higher Chemistry covers chemical reactions, bonding, energy changes, acids and bases, organic chemistry, and analytical techniques. The course builds on"
 date: 2026-04-14
 tags:

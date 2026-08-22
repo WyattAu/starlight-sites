@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Prejudice and Discrimination
+title: "Prejudice and Discrimination | IB"
 description: "Prejudice and discrimination are among the most consequential social phenomena studied by Psychologists. Prejudice refers to a negative attitude toward a"
 
 ---

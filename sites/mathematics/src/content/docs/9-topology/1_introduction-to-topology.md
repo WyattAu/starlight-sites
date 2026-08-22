@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Introduction to Topology
+title: "Introduction to Topology | Mathematics"
 tags:
   - University Maths
 description: "is the branch of mathematics that studies properties of spaces that are preserved under continuous deformations. Two objects are considered topologically"

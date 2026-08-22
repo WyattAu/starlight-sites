@@ -1,6 +1,6 @@
 ---
 
-title: Metaprogramming
+title: "Metaprogramming | Ruby - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ruby\", \"url\": \"https://ruby.wyattau.com\"}, {\"name\": \"05 Advanced\", \"url\":"
 date: 2026-06-04T10:00:00.000Z
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Chronicle of a Death Foretold
+title: "Chronicle of a Death Foretold | IB"
 tags:
   - english
 description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work"

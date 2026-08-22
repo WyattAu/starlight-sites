@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Vector Calculus
+title: "Vector Calculus | Mathematics - Wyatt's Notes"
 tags:
   - Mathematics
   - University

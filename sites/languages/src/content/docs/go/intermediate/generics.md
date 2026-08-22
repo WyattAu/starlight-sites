@@ -1,6 +1,6 @@
 ---
 
-title: Generics
+title: "Generics | Languages - Wyatt's Notes"
 description: "Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write Functions and types that abstract over different concrete"
 date: 2026-04-18
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Periods 3-4 (1754-1800)
+title: "Periods 3-4 (1754-1800) | AP - Wyatt's Notes"
 description: "The French and Indian War (1754-1763) was a global conflict between Britain and France that was fought in North America primarily for control of the Ohio"
 date: 2026-06-04T10:00:00.000Z
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Arrays and Strings
+title: "Arrays and Strings | Tools - Wyatt's Notes"
 description: "An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This"
 
 ---

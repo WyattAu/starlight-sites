@@ -1,6 +1,6 @@
 ---
 
-title: Git Directory Structure
+title: "Git Directory Structure | Tools"
 description: "The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential"
 date: 2025-06-03T12:00:00.000Z
 tags:

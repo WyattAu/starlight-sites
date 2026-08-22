@@ -1,6 +1,6 @@
 ---
 
-title: Null Safety Deep Dive
+title: "Null Safety Deep Dive | Kotlin"
 description: "Kotlin' s type system distinguishes between nullable and non-null types at compil Comprehensive educational content coverage with definitions and practice pr"
 date: 2026-05-31
 tags:

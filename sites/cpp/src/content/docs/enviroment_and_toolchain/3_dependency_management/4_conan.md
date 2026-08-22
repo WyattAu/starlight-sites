@@ -1,6 +1,6 @@
 ---
 
-title: Conan
+title: "Conan | C++ - Wyatt's Notes"
 description: "The Conan package manager for C++ covering dependency resolution, build profiles, multi-configuration setups, and remote repositories."
 date: 2025-12-11T05:01:52.356Z
 tags:

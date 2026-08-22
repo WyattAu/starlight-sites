@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Depression
+title: "Depression | IB - Wyatt's Notes"
 description: "Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),"
 
 ---

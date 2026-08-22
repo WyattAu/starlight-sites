@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: The pre-commit Framework
+title: "The pre-commit Framework | Tools"
 description: "is a Python-based framework for managing and executing Git hooks in a declarative, Reproducible way. It solves the fundamental problem with raw Git hooks:"
 
 ---

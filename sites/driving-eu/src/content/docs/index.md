@@ -1,5 +1,5 @@
 ---
-title: EU Driving Test
+title: "EU Driving Test | driving-eu - Wyatt's Notes"
 description: Complete EU driving test preparation covering theory and practical tests across European countries.
 date: 2026-01-01T00:00:00Z
 tags:

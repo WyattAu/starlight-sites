@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Complexity Analysis
+title: "Complexity Analysis | Tools - Wyatt's Notes"
 description: "A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per"
 
 ---

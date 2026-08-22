@@ -1,6 +1,6 @@
 ---
 
-title: Best Practices
+title: "Best Practices | Languages - Wyatt's Notes"
 description: "- Always enable null safety (). - Avoid usage of and declaration, always use or explicit typing. - Follow the order of >> >> with no nullability specifier"
 date: 2025-07-17T20:40:50.912Z
 tags:

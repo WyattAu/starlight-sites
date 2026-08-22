@@ -1,6 +1,6 @@
 ---
 
-title: Graph Algorithms
+title: "Graph Algorithms | Computer Science"
 description: "Explores vertices in order of increasing distance from the source. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-31T00:00:00.000Z
 tags:

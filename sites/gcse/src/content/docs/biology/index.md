@@ -1,7 +1,7 @@
 ---
 
 
-title: GCSE Biology
+title: "GCSE Biology - Wyatt's Notes"
 description: 'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:

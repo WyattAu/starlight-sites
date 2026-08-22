@@ -1,6 +1,6 @@
 ---
 
-title: "Quantum and Nuclear Physics"
+title: "Quantum and Nuclear Physics | IB"
 description: "IB Physics — photoelectric effect, photon model, de Broglie wavelength, energy levels, spectra, radioactive decay, nuclear reactions, and binding energy."
 date: 2024-01-01T00:00:00Z
 tags:

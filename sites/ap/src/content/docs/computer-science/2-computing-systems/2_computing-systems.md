@@ -1,6 +1,6 @@
 ---
 
-title: Computing Systems
+title: "Computing Systems | AP - Wyatt's Notes"
 description: "| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM"
 date: 2026-04-14
 tags:

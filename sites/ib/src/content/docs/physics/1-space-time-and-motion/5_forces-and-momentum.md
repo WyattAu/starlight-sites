@@ -1,6 +1,6 @@
 ---
 
-title: Forces and Momentums
+title: "Forces and Momentums | IB - Wyatt's Notes"
 description: "Rigorous IB physics notes covering Forces and Momentums. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:

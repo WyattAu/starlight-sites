@@ -1,6 +1,6 @@
 ---
 
-title: delegation and result
+title: "delegation and result | Kotlin"
 date: 2026-05-30
 tags:
   - Kotlin

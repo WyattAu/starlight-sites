@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Diagnostic Test: Physics"
+title: "Diagnostic Test: Physics | HSC"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"hsc\", \"url\": \"https://hsc.wyattau.com\"}, {\"name\": \"Diagnostics\", \"url\":"
 sidebar_position: 61
 tableOfContents: false

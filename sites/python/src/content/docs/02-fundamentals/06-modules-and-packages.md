@@ -1,6 +1,6 @@
 ---
 
-title: Modules and Packages
+title: "Modules and Packages | Python - Wyatt's Notes"
 description: "The import system is the mechanism by which Python locates, loads, and binds module objects into the Current namespace. It is one of the most critical"
 date: 2026-04-05T00:00:00.000Z
 tags:

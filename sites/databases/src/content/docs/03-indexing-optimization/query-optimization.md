@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Query Optimization
+title: "Query Optimization | Databases"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"databases\", \"url\": \"https://databases.wyattau.com\"}, {\"name\": \"03 Indexing"
 ---
 

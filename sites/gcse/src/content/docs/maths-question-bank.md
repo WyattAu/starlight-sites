@@ -1,6 +1,6 @@
 ---
 
-title: Maths Question Bank
+title: "Maths Question Bank | GCSE - Wyatt's Notes"
 date: 2026-05-30
 description: "20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,"
 tags:

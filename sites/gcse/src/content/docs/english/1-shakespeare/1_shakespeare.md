@@ -1,6 +1,6 @@
 ---
 
-title: Shakespeare
+title: "Shakespeare | GCSE - Wyatt's Notes"
 description: "(with Pre-1900 Poetry) | WJEC/Eduqas Paper 1 Section A Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-22
 tags:

@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: Practical Skills
+title: "Practical Skills | A-Level - Wyatt's Notes"
 description: 'A-Level Physics Practical Skills notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'
 ---
 

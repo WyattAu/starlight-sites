@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Connectedness
+title: "Connectedness | Mathematics - Wyatt's Notes"
 tags:
   - University Maths
 description: "A topological space is if there exist nonempty disjoint open sets with . Such a  Comprehensive educational content coverage with definitions and practice proble"

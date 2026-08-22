@@ -1,5 +1,5 @@
 ---
-title: Language Proficiency Tests
+title: "Language Proficiency Tests | language-tests"
 description: Complete preparation for language proficiency tests from A1 to C2 levels.
 date: 2026-01-01T00:00:00Z
 tags:

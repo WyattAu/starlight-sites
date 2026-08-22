@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | A-Level - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes A-Level resources — experience, expertise, and credentials behind UK A-Level qualification study materials."
 tags:

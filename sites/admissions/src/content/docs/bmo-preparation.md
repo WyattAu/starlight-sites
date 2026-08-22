@@ -1,6 +1,6 @@
 ---
 
-title: BMO Preparation
+title: "BMO Preparation | admissions - Wyatt's Notes"
 description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-05-05T00:00:00.000Z
 tags:

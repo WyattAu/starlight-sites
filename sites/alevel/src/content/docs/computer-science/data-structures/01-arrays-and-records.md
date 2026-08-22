@@ -1,6 +1,6 @@
 ---
 
-title: Arrays and Records
+title: "Arrays and Records | A-Level - Wyatt's Notes"
 description: 'A (or vector) is a finite, ordered sequence of elements of the same data Type, stored in . Each element is accessed by an integer index.'
 date: 2025-06-02T16:25:28.480Z
 tags:

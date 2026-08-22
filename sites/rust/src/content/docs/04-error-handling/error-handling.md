@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Error Handling
+title: "Error Handling | Rust - Wyatt's Notes"
 description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems."
 
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: Development Enviroment
+title: "Development Enviroment | Dart - Wyatt's Notes"
 description: "Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is"
 date: 2025-07-13T19:11:38.762Z
 tags:

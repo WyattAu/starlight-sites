@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Adolescent Development
+title: "Adolescent Development | IB - Wyatt's Notes"
 description: "Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary"
 
 ---

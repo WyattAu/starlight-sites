@@ -1,6 +1,6 @@
 ---
 
-title: Organic Chemistry
+title: "Organic Chemistry | Highers - Wyatt's Notes"
 description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14
 tags:

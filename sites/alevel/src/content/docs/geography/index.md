@@ -1,7 +1,7 @@
 ---
 
 
-title: A-Level Geography
+title: "A-Level Geography - Wyatt's Notes"
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography]

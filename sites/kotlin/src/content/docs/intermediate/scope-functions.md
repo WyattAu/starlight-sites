@@ -1,6 +1,6 @@
 ---
 
-title: scope functions
+title: "scope functions | Kotlin - Wyatt's Notes"
 date: 2026-05-30
 tags:
   - Kotlin

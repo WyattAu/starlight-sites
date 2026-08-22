@@ -1,6 +1,6 @@
 ---
 
-title: Functions (Advanced)
+title: "Functions (Advanced) | DSE - Wyatt's Notes"
 description: "This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-18T00:00:00.000Z
 tags:

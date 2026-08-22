@@ -1,6 +1,6 @@
 ---
 
-title: Physics - Kinematics
+title: "Physics - Kinematics | DSE - Wyatt's Notes"
 description: "DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision."
 tags: [DSE, Physics]
 categories: [DSE, Physics]

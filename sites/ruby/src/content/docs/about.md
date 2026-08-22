@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Ruby - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes offers comprehensive study materials for Ruby programming. These notes cover Ruby's object model, metaprogramming, Rails framework, and web"
 tags:

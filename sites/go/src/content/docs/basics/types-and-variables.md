@@ -1,6 +1,6 @@
 ---
 
-title: Types and Variables
+title: "Types and Variables | Go - Wyatt's Notes"
 description: "Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18
 tags:

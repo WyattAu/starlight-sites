@@ -1,6 +1,6 @@
 ---
 
-title: Advanced Git Commands
+title: "Advanced Git Commands | Tools - Wyatt's Notes"
 description: "Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice."
 date: 2026-04-07T00:00:00.000Z
 tags:

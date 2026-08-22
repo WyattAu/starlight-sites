@@ -1,6 +1,6 @@
 ---
 
-title: DSE Physics
+title: "DSE Physics - Wyatt's Notes"
 description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
 date: 2026-04-23T00:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: Network Security
+title: "Network Security | A-Level - Wyatt's Notes"
 description: "| Threat | Description | | ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software"
 date: 2025-06-02T16:25:28.480Z
 tags:

@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Linux - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Linux resources — experience, expertise, and credentials behind Linux administration study materials."
 tags:

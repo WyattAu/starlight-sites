@@ -1,6 +1,6 @@
 ---
 
-title: Immunology
+title: "Immunology | A-Level - Wyatt's Notes"
 description: "The immune system can be divided into two broad categories based on specificity  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z
 tags:

@@ -1,6 +1,6 @@
 ---
 
-title: AP Physics
+title: "AP Physics - Wyatt's Notes"
 description: "Comprehensive revision notes for AP Physics C, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

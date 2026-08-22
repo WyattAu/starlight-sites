@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Schema Migrations
+title: "Schema Migrations | Databases - Wyatt's Notes"
 description: "Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or"
 
 ---

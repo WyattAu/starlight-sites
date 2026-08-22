@@ -1,5 +1,5 @@
 ---
-title: EU Traffic Signs
+title: "EU Traffic Signs | driving-eu - Wyatt's Notes"
 description: "EU Traffic Signs - Complete study guide and practice questions"
 date: 2026-01-01T00:00:00Z
 tags:

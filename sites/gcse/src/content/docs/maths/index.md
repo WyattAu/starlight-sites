@@ -1,7 +1,7 @@
 ---
 
 
-title: GCSE Maths
+title: "GCSE Maths - Wyatt's Notes"
 description: "Comprehensive revision notes for GCSE Maths, covering all major exam boards (AQA Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

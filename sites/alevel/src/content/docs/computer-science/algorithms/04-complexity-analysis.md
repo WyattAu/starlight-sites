@@ -1,6 +1,6 @@
 ---
 
-title: Complexity Analysis
+title: "Complexity Analysis | A-Level - Wyatt's Notes"
 description: "Complexity Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:

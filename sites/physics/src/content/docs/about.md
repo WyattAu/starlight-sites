@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Physics - Wyatt's Notes"
 date: 2026-07-24
 description: "About Wyatt's Notes Physics resources — experience, expertise, and credentials behind university-level physics study materials."
 tags:

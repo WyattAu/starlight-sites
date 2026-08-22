@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: "About This Site | Java - Wyatt's Notes"
 date: 2026-07-24
 description: "Wyatt's Notes offers comprehensive study materials for Java programming. These notes cover the language from core syntax through OOP principles, concurrency,"
 tags:

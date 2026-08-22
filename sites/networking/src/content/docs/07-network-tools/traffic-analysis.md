@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Traffic Analysis
+title: "Traffic Analysis | Networking - Wyatt's Notes"
 description: "Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize"
 tags:
   - Networking

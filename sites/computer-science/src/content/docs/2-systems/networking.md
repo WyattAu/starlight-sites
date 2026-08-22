@@ -1,6 +1,6 @@
 ---
 
-title: Networking
+title: "Networking | Computer Science - Wyatt's Notes"
 description: "| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User"
 date: 2026-05-31T00:00:00.000Z
 tags:

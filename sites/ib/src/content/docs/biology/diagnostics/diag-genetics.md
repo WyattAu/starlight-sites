@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Genetics -- Diagnostic Tests"
+title: "Genetics -- Diagnostic Tests | IB"
 description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: abstract algebra
+title: "abstract algebra | Mathematics"
 date: 2026-05-30
 tags:
   - University Maths

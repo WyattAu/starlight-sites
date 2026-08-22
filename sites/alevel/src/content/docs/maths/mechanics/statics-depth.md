@@ -1,6 +1,6 @@
 ---
 
-title: Statics (Extended)
+title: "Statics (Extended) | A-Level - Wyatt's Notes"
 description: "This document covers moments, equilibrium conditions, centres of mass, ladder problems, and Frameworks with a rigorous, proof-based approach."
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]

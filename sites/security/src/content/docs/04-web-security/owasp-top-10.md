@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: OWASP Top 10 (2021) Detailed
+title: "OWASP Top 10 (2021) Detailed | Security"
 description: "Broken access control is the most critical web application security risk. It occurs when users can Act outside their intended permissions."
 
 ---
