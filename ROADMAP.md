@@ -101,7 +101,7 @@ Estimated total: 1-2 weeks.
   files per site (current finding: 1-2 stubs each).
 - [x] For sites with < 5 real zh pages: set `enabled: false` in
   `astro.config.mjs` and remove hreflang zh entries from Head.astro.
-- [ ] For gaokao (genuine Chinese content): keep zh enabled.
+- [x] For gaokao (genuine Chinese content): keep zh enabled.
 - **Effort:** 0.5 day.
 - **Exit criteria:** No site serves hreflang zh pairs pointing at stub pages.
 
@@ -113,7 +113,7 @@ Estimated total: 1-2 months.
 
 ### P1-6: Diagrams (top-200 pages)
 
-- [ ] Audit which of the top-200 content pages by file size lack any visual
+- [x] Audit which of the top-200 content pages by file size lack any visual
   element (image, Mermaid, Desmos, PhET).
 - [ ] Add Mermaid diagrams to pages that already use `mermaid` integration
   (physics, chemistry, computer-science).
@@ -189,15 +189,15 @@ Estimated total: quarter+.
 
 - [x] Add `--experimental-test-coverage` to existing node:test invocations
   for `scripts/` and `search-api/`.
-- [ ] Set initial ratchet thresholds based on measured baseline.
+- [x] Set initial ratchet thresholds based on measured baseline.
 - **Effort:** 0.5 day.
 - **Exit criteria:** `scripts/` and `search-api/` show coverage % in CI output.
 
 ### P2-11: Workspace package evaluation
 
-- [ ] Benchmark a `@wyattsnotes/components` npm workspace package against
+- [x] Benchmark a `@wyattsnotes/components` npm workspace package against
   current sync-shared approach at 46 and 60 sites.
-- [ ] Decision: keep sync or migrate to importable package.
+- [x] Decision: keep sync or migrate to importable package.
 - **Effort:** 1-2 days investigation.
 - **Exit criteria:** Decision recorded as ADR with measured data.
 
