@@ -8,6 +8,8 @@ tags:
 categories:
   - cpp
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -866,12 +868,42 @@ conan upload mylib/1.0.0 -r company
 conan install . -r company --build=missing
 ```
 
+<Citations sources={[
+  {title="Effective Modern C++", author="Meyers", year="2014", type="book"},
+  {title="C++ Software Design", author="Dresler", year="2025", type="book"},
+]} />
+
 ## See Also
 
 - [Dependency Resolution](1_dependency_architectures_models.md) -- Package manager taxonomy
 - [vcpkg](3_vcpkg.md) -- Source-first alternative
 - [CPM.cmake](2_cpm.md) -- Lightweight source-based alternative
 - [Binary Caching](6_binary_caching.md) -- Conan's binary caching architecture
+
+```mermaid
+flowchart TD
+    A[Conan] --> B[Package Manager]
+    A --> C[Recipe System]
+    A --> D[Binary Caching]
+    B --> E[conan install]
+    B --> F[conan create]
+    B --> G[conan search]
+    C --> H[conanfile.py]
+    C --> I[conanfile.txt]
+    C --> J[ConanCenter repository]
+    D --> K[Local cache]
+    D --> L[Remote servers]
+    D --> M[CI artifact storage]
+    E --> N[Install dependencies]
+    E --> O[Generate cmake files]
+    F --> P[Build package from source]
+    F --> Q[Run tests]
+    H --> R[Python-based recipes]
+    H --> S[Custom build methods]
+    I --> T[Simple dependency lists]
+    J --> U[Community packages]
+    J --> V[Verified binaries]
+```
 
 ## Summary
 

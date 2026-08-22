@@ -5,6 +5,8 @@ title: "Error Handling | Rust - Wyatt's Notes"
 description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems."
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -849,6 +851,28 @@ fn handle_error(err: &dyn Error) {
     every `Result` is verbose and error-prone. The `?` operator is the idiomatic way to propagate
     errors. Use `match` only when you need to handle specific error variants differently.
 
+```mermaid
+flowchart TD
+    A[Rust Error Handling] --> B[Result<T, E>]
+    A --> C[Option<T>]
+    A --> D[panic!]
+    B --> E[Ok(T) / Err(E)]
+    B --> F[? operator for propagation]
+    B --> G[unwrap / expect]
+    C --> Some(T) / None
+    C --> H[? operator for propagation]
+    C --> I[unwrap / expect]
+    D --> J[Unrecoverable errors]
+    D --> K[Stack unwinding or abort]
+    E --> L[Recoverable errors]
+    L --> M[Use match for handling]
+    L --> N[Use if let for single case]
+    F --> O[Propagate error up the call stack]
+    F --> P[Convert error types with From]
+    G --> Q[Panics on None/Err]
+    G --> R[Use in tests or known-good paths]
+```
+
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -874,6 +898,11 @@ linked above.
 ## Intuition
 
 Rust splits errors into two bins: bugs (panics) and expected failures (Results). Panics are for things that should never happen, like indexing out of bounds. Results are for things that might fail, like reading a file. The `?` operator is the magic wand: it either unwraps the success value or propagates the error upward. Think of Result as a postal package that is either delivered (Ok) or returned to sender (Err). The type system forces you to acknowledge every possible failure, so forgotten error handling is impossible.
+
+<Citations sources={[
+  {title="The Rust Programming Language", author="Klabnik and Nichols", year="2024", type="book", url="https://doc.rust-lang.org/book/"},
+  {title="Rust for Rustaceans", author="Gjengset", year="2021", type="book"},
+]} />
 
 ## Cross-References
 

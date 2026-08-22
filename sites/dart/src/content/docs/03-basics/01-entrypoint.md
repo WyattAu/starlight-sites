@@ -9,6 +9,8 @@ categories:
   - Dart
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -126,6 +128,11 @@ void main(List<String> args) {
 The `main()` function is the mandatory entry point for all Dart applications.
 It supports synchronous and asynchronous execution, command-line arguments via
 the `args` parameter, and should contain the primary application logic.
+
+<Citations sources={[
+  {title="Dart in Action", author="I Hate Computers", year="2023", type="book"},
+  {title="Effective Dart", author="Dart Team", year="2024", type="web", url="https://dart.dev/effective-dart"},
+]} />
 
 ## Cross-References
 

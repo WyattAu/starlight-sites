@@ -866,6 +866,30 @@ Argument deduction is the compiler playing detective — it looks at the functio
 - [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs.md)
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
 
+```mermaid
+flowchart TD
+    A[Template Argument Deduction] --> B[Function Templates]
+    A --> C[Class Templates]
+    A --> D[Deduction Guides]
+    B --> E[Compiler deduces T from arguments]
+    B --> F[template<T> void f(T x)]
+    B --> G[f(42) -> T=int]
+    C --> H[Must be explicitly specified]
+    C --> I[vector<int> v]
+    C --> J[Cannot deduce from constructor alone]
+    D --> K[Guide: template<T> vector(T) -> vector<T>]
+    D --> L[CTAD: Class Template Argument Deduction]
+    M[Deduction Rules] --> N[Reference collapsing]
+    M --> O[const/volatile preservation]
+    M --> P[Universal references]
+    M --> Q[Brace elision]
+    N --> R[T& + T&& -> T&]
+    P --> S[T&& with deduced T -> forwarding ref]
+    T[Edge Cases] --> U[Ambiguous deduction]
+    T --> V[No deduction possible]
+    T --> W[Non-deduced contexts]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to argument deduction (class and

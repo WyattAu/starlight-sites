@@ -5,6 +5,8 @@ title: Context Managers and the with Statement
 description: "The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource"
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -850,6 +852,29 @@ async with get_resource():
     pass
 ```
 
+```mermaid
+flowchart TD
+    A[Context Managers] --> B[with statement]
+    A --> C[__enter__ / __exit__]
+    A --> D[contextlib]
+    B --> E[Guaranteed cleanup]
+    B --> F[Exception-safe resource management]
+    C --> G[__enter__ returns resource]
+    C --> H[__exit__ handles cleanup]
+    C --> I[__exit__ receives exception info]
+    D --> J[@contextmanager decorator]
+    D --> K[ExitStack]
+    D --> L[nullcontext]
+    J --> M[yield in generator]
+    J --> N[try/finally for cleanup]
+    K --> O[Manage multiple context managers]
+    K --> P[Dynamic context management]
+    F --> Q[File I/O]
+    F --> R[Database connections]
+    F --> S[Locks and semaphores]
+    F --> T[Network connections]
+```
+
 ## Summary
 
 This topic covers the core concepts of context managers and the with statement, including underlying
@@ -875,6 +900,11 @@ linked above.
 ## Intuition
 
 Context managers are Python's way of ensuring cleanup happens. The `with` statement guarantees that resources are released when the block exits, even if an exception occurs. Think of a context manager as a hotel check-in/check-out: you get the room (resource acquisition) on entry and return the key (cleanup) on exit. The `@contextmanager` decorator lets you write context managers as generators, making them easy to create for custom resources like database connections or temporary files.
+
+<Citations sources={[
+  {title="Fluent Python", author="Ramalho", year="2022", type="book"},
+  {title="Python Cookbook", author="Beazley and Jones", year="2013", type="book"},
+]} />
 
 ## Cross-References
 

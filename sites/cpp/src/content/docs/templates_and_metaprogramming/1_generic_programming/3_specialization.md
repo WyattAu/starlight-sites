@@ -859,6 +859,28 @@ Template specialization is like having a general recipe and a special version fo
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
 
+```mermaid
+flowchart TD
+    A[Template Specialisation] --> B[Explicit Specialisation]
+    A --> C[Partial Specialisation]
+    A --> D[Member Specialisation]
+    B --> E[template<> for specific type]
+    B --> F[template<> void f<int>(int)]
+    B --> G[Complete override of generic version]
+    C --> H[Partial type specification]
+    C --> I[template<typename T> class C<T*>]
+    C --> J[template<typename T> class C<T, int>]
+    D --> K[Specialise individual members]
+    D --> L[Keep generic class, specialise method]
+    M[Use Cases] --> N[Optimise for specific types]
+    M --> O[Handle pointer/reference types]
+    M --> P[Platform-specific implementations]
+    E --> Q[Zero-overhead abstraction]
+    F --> R[Compiler prefers specialisation]
+    I --> S[Pointer type handling]
+    I --> T[Reference type handling]
+```
+
 ## Summary
 
 This topic covers the core concepts of explicit and partial specialization, including underlying

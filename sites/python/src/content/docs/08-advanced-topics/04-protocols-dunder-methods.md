@@ -856,6 +856,28 @@ class User:
         return f"User({self.name!r}, {self.email!r})"
 ```
 
+```mermaid
+flowchart TD
+    A[Python Protocols] --> B[Structural Subtyping]
+    A --> C[Runtime Checkable]
+    A --> D[ABC]
+    B --> E[No explicit inheritance needed]
+    B --> F[Duck typing formalised]
+    C --> G[@runtime_checkable decorator]
+    C --> H[isinstance checks]
+    D --> I[abc.ABC]
+    D --> J[@abstractmethod]
+    D --> K[register method]
+    L[Key Dunder Methods] --> M[__init__ / __new__]
+    L --> N[__str__ / __repr__]
+    L --> O[__eq__ / __hash__]
+    L --> P[__getitem__ / __setitem__]
+    L --> Q[__enter__ / __exit__]
+    L --> R[__iter__ / __next__]
+    E --> S[Structural typing]
+    F --> D[Tell if it walks like a duck]
+```
+
 ## Summary
 
 This topic covers the core concepts of protocols and dunder methods, including underlying theory,
