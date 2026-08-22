@@ -15,6 +15,7 @@
 
 import { createEffect, createMemo, createSignal, onCleanup } from 'solid-js'
 import { t } from '../i18n/config'
+import { trackEvent } from '../utils/analytics'
 import type { View } from './flashcard/constants'
 import DeckView from './flashcard/DeckView'
 import ReviewView from './flashcard/ReviewView'
@@ -242,6 +243,16 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     }
 
     persistData(next)
+
+    trackEvent({
+      event: 'flashcard_rate',
+      component: 'FlashcardDeck',
+      action: 'rate',
+      rating,
+      cardId,
+      deckId: props.deckId || 'unknown',
+      streak: newStreak,
+    })
 
     if (getCurrentIndex() + 1 < getDueQueue().length) {
       setCurrentIndex(getCurrentIndex() + 1)

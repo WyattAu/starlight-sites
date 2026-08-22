@@ -38,3 +38,82 @@ Android devices can be use for running builds by enabling `USB debugging` from
 
 Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
 Appear.
+
+
+## IDE Setup
+
+### VS Code
+
+1. Install the Dart extension (dart-code.dart-code)
+2. Install the Flutter extension (flutter.flutter-vs-code)
+3. Open a Dart file -- the extension auto-detects the SDK
+
+### IntelliJ / Android Studio
+
+1. Install the Dart plugin from the marketplace
+2. Configure the Dart SDK path in Settings > Languages & Frameworks > Dart
+
+### Command Line
+
+Use `dart analyze` for static analysis and `dart format` for code formatting:
+
+```bash
+dart analyze          # static analysis
+dart format .         # format all files
+dart run              # run the main entry point
+dart test             # run tests
+```
+
+## Project Structure
+
+A typical Dart project:
+
+```
+my_project/
+  bin/              # Entry point scripts
+    main.dart
+  lib/              # Library code (imported by other packages)
+    my_project.dart
+  test/             # Unit and integration tests
+    my_project_test.dart
+  pubspec.yaml      # Package metadata and dependencies
+  analysis_options.yaml  # Linter and analyzer settings
+```
+
+## Common Pitfalls
+
+1. **Wrong SDK path**: Ensure `dart --version` works in your terminal before
+   configuring your IDE.
+2. **Missing pub get**: Always run `dart pub get` after changing `pubspec.yaml`.
+3. **Conflicting SDK versions**: Use `dart --version` to verify you're on the
+   expected Dart version across all tools.
+
+## Worked Examples
+
+### Example 1: Creating a new project
+
+```bash
+dart create my_app
+cd my_app
+dart run
+```
+
+### Example 2: Running tests
+
+```bash
+dart test                    # run all tests
+dart test test/my_test.dart  # run a specific test
+dart test --reporter expanded  # verbose output
+```
+
+## Summary
+
+Setting up a Dart development environment requires the Dart SDK, an IDE with
+Dart support, and understanding the standard project structure. Use `dart pub
+get` to manage dependencies and `dart analyze` to catch issues early.
+
+## Cross-References
+
+- [Introduction to Dart](../01-intro) - Language overview
+- [Entry Point](../03-basics/01-entrypoint) - The main() function
+- [Variables and Types](../03-basics/02-variables) - Type system

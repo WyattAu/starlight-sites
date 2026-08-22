@@ -1634,6 +1634,19 @@ Names that include parts of the input.
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
 | `insta`                 | Snapshot testing (useful for proc macro output)            |
 
+```mermaid
+flowchart TD
+    A[Rust Macros] --> B[Declarative: macro_rules!]
+    A --> C[Procedural: derive/attribute/function-like]
+    B --> D[Pattern Matching on Token Trees]
+    B --> E[Repetition: $()*]
+    C --> F[Derive Macros: #[derive Clone]]
+    C --> G[Attribute Macros: #[route GET /]]
+    C --> H[Function-like: sql!()]
+    D --> I[Compile-time Code Generation]
+    F --> I
+```
+
 ## Summary
 
 This topic covers the core concepts of macros, including underlying theory, practical

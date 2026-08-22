@@ -1486,6 +1486,22 @@ fully_unwrapped = inspect.unwrap(flaky_operation)
 Those cases, `inspect.unwrap` stops at the first undocumented layer. This is yet another reason to
 Always use `functools.wraps`.
 
+```mermaid
+flowchart TD
+    A[Python Functions] --> B[def keyword]
+    A --> C[Lambda: lambda]
+    B --> D[Parameters: positional, keyword, *args, **kwargs]
+    B --> E[Default Values]
+    B --> F[Type Hints]
+    A --> G[Scope: LEGB Rule]
+    G --> H[Local]
+    G --> I[Enclosing]
+    G --> J[Global]
+    G --> K[Built-in]
+    A --> L[Decorators: @decorator]
+    A --> M[Generators: yield]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, closures, and

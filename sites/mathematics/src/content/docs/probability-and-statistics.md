@@ -2151,6 +2151,23 @@ $$P(\bar{X} > 3.7) = P\left(Z > \frac{3.7 - 3.5}{0.1708}\right) = P(Z > 1.17) = 
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Probability] --> B[Discrete: PMF]
+    A --> C[Continuous: PDF]
+    B --> D[Bernoulli / Binomial]
+    B --> E[Poisson]
+    B --> F[Geometric]
+    C --> G[Normal / Gaussian]
+    C --> H[Exponential]
+    C --> I[Uniform]
+    A --> J[Joint / Conditional]
+    J --> K[Bayes Theorem]
+    A --> L[Expectation & Variance]
+    L --> M[Law of Large Numbers]
+    L --> N[Central Limit Theorem]
+```
+
 ## Summary
 
 - Probability axioms: non-negativity, normalisation, additivity for disjoint events; conditional

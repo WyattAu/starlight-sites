@@ -31,3 +31,104 @@ void main(){
 ```
 
 This can be find in `lib/main.dart` along with other source code.
+
+## Overview
+
+Every Dart application starts at the `main()` function. This is the entry point
+that the Dart VM or AOT compiler invokes when the program runs.
+
+## Key Concepts
+
+### The main Function
+
+The `main()` function is required in every Dart application. It can be
+synchronous or asynchronous:
+
+```dart
+void main() {
+  print('Hello, Dart!');
+}
+
+// Or async:
+Future<void> main() async {
+  final data = await fetchData();
+  print(data);
+}
+```
+
+### Command-Line Arguments
+
+Access command-line arguments via the top-level `List<String> args` constant
+from `dart:core`:
+
+```dart
+void main(List<String> arguments) {
+  if (arguments.isNotEmpty) {
+    print('First argument: ${arguments[0]}');
+  }
+}
+```
+
+### Library-Level Code
+
+Code outside functions runs before `main()` but is generally discouraged for
+application logic. It is useful for static initialisation:
+
+```dart
+final config = loadConfig(); // runs before main()
+
+void main() {
+  print(config);
+}
+```
+
+## Common Pitfalls
+
+1. **Missing main()**: The Dart compiler will reject any file without a `main()`
+   function as an entry point.
+2. **Forgetting async**: If `main()` calls async functions without `await`, the
+   program may exit before futures complete.
+3. **Top-level side effects**: Code outside `main()` runs unpredictably relative
+   to imports and can cause order-dependent bugs.
+
+## Worked Examples
+
+### Example 1: Async main with error handling
+
+```dart
+Future<void> main() async {
+  try {
+    final result = await riskyOperation();
+    print('Success: $result');
+  } catch (e) {
+    print('Error: $e');
+    exit(1);
+  }
+}
+```
+
+### Example 2: Command-line tool
+
+```dart
+void main(List<String> args) {
+  if (args.length < 2) {
+    print('Usage: dart tool.dart <input> <output>');
+    exit(2);
+  }
+  final input = args[0];
+  final output = args[1];
+  processFile(input, output);
+}
+```
+
+## Summary
+
+The `main()` function is the mandatory entry point for all Dart applications.
+It supports synchronous and asynchronous execution, command-line arguments via
+the `args` parameter, and should contain the primary application logic.
+
+## Cross-References
+
+- [Introduction to Dart](../01-intro) - Language overview
+- [Functions](03-functions) - Function syntax and closures
+- [Variables and Types](02-variables) - Type system deep dive

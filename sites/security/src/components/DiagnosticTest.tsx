@@ -8,6 +8,7 @@
 import { RadioGroup } from '@kobalte/core'
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { t } from '../i18n/config'
+import { trackEvent } from '../utils/analytics'
 import { COLORS } from '../utils/colors'
 import { formatTime } from '../utils/format'
 import { sanitizeHtml } from '../utils/sanitize'
@@ -228,6 +229,17 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
     newAnswers.set(q.id, sel)
     setAnswers(newAnswers)
 
+    const isCorrect = sel === q.correctIndex
+    trackEvent({
+      event: 'diagnostic_answer',
+      component: 'DiagnosticTest',
+      action: 'answer',
+      correct: isCorrect ? 1 : 0,
+      topic: q.topic,
+      difficulty: q.difficulty,
+      subject: props.subject,
+    })
+
     const newAsked = new Set(getAskedIds())
     newAsked.add(q.id)
     setAskedIds(newAsked)
@@ -244,6 +256,16 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   const handleNext = () => {
     if (isComplete()) {
       const results = computeResults(getAnswers(), props.questions, getElapsed(), props.subject)
+      trackEvent({
+        event: 'diagnostic_complete',
+        component: 'DiagnosticTest',
+        action: 'complete',
+        subject: props.subject,
+        totalQuestions: props.questions.length,
+        answered: getAskedIds().size,
+        elapsed: getElapsed(),
+        score: results.score,
+      })
       setShowResults(true)
       props.onComplete(results)
       return

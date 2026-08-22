@@ -2814,6 +2814,17 @@ _If you get this wrong, revise: [Queues](#queues) and
 | [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures)       |
 | [Algorithms and Data Structures (Advanced)] | University | [View](https://university.wyattau.com/docs/computing/2-algorithms-and-data-structures/1_algorithms-and-data-structures) |
 
+```mermaid
+flowchart TD
+    A[Problem] --> B[Decomposition]
+    B --> C[Pattern Recognition]
+    C --> D[Abstraction]
+    D --> E[Algorithm Design]
+    E --> F[Pseudocode / Flowchart]
+    F --> G[Implementation]
+    G --> H[Testing & Debugging]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
