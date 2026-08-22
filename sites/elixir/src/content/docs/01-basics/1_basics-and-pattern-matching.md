@@ -9,6 +9,8 @@ categories:
   - Elixir
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1037,6 +1039,11 @@ The pin operator is like pointing at a value instead of replacing it. Without th
 **Not using pattern matching for conditional logic.** Pattern matching with `case` or function clauses is preferred over nested `if/else` for dispatching on data structure shapes. Writing `case result do {:ok, value} -> ... end` is more expressive and safer than checking tuple elements manually.
 
 **Confusing the pin operator `^` with the match operator `=`.** Without the pin, the left side of a match is rebound. With `^x = value`, the current value of `x` is compared against `value`. Forgetting the pin in guard clauses or function heads causes silent rebinding instead of comparison.
+
+<Citations sources={[
+  {title="Programming Elixir", author="Thomas", year="2018", type="book"},
+  {title="Elixir in Action", author="Jurić", year="2019", type="book"},
+]} />
 
 ## Cross-References
 

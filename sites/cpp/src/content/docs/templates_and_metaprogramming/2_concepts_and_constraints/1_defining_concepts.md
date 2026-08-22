@@ -903,6 +903,29 @@ Constrained template parameter.
 - [Standard Library Concepts](./3_standard_concepts.md)
 - [SFINAE vs Concepts](./4_sfinae_vs_concepts.md)
 
+```mermaid
+flowchart TD
+    A[Concepts] --> B[requires clause]
+    A --> C[requires expression]
+    A --> D[concept definition]
+    B --> E[template<T> requires Sortable<T>]
+    B --> F[auto x requires Catable<decltype(x)>]
+    C --> G[requires { expr; }]
+    C --> H[requires(T a, T b) { a + b; }]
+    D --> I[template<typename T>]
+    D --> J[concept Sortable = ...]
+    K[Built-in concepts] --> L[std::integral]
+    K --> M[std::floating_point]
+    K --> N[std::same_as]
+    K --> O[std::derived_from]
+    K --> P[std::convertible_to]
+    K --> Q[std::equality_comparable]
+    K --> R[std::totally_ordered]
+    D --> S[Compose concepts]
+    S --> T[Sortable = std::regular && has_swap]
+    S --> U[Container = requires range operations]
+```
+
 ## Summary
 
 This topic covers the core concepts of defining concepts and requires clauses, including underlying

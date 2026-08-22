@@ -918,6 +918,30 @@ void shouldWriteToTempFile() throws IOException {
 }
 ```
 
+```mermaid
+flowchart TD
+    A[Java Testing] --> B[Unit Testing]
+    A --> C[Integration Testing]
+    A --> D[E2E Testing]
+    B --> E[JUnit 5]
+    B --> F[Mockito]
+    B --> G[AssertJ]
+    E --> H[@Test annotation]
+    E --> I[BeforeEach/AfterEach]
+    E --> J[Assertions]
+    F --> K[mock() / when() / verify()]
+    F --> L[doReturn / doThrow]
+    C --> M[Selenium]
+    C --> N[Testcontainers]
+    C --> O[WireMock]
+    D --> P[Playwright]
+    D --> Q[Cypress]
+    R[Best Practices] --> S[Test isolation]
+    R --> T[Arrange-Act-Assert]
+    R --> U[One assertion per test]
+    R --> V[Fast feedback loop]
+```
+
 ## Summary
 
 This topic covers the core concepts of testing in java, including underlying theory, practical

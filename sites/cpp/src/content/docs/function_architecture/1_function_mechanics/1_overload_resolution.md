@@ -890,6 +890,28 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 - [Calling Conventions and Stack Management](2_calling_conventions.md)
 - [C-Interop and FFI](5_c_interop.md)
 
+```mermaid
+flowchart TD
+    A[Overload Resolution] --> B[Name Lookup]
+    A --> C[Argument Deduction]
+    A --> D[Best Viable Function]
+    B --> E[ADL: Argument-Dependent Lookup]
+    B --> F[Regular lookup]
+    C --> G[Template argument deduction]
+    C --> H[Default argument deduction]
+    D --> I[Exact match wins]
+    D --> J[Promotion conversions]
+    D --> K[Standard conversions]
+    D --> L[User-defined conversions]
+    I --> M[No conversion needed]
+    J --> N[int -> long, float -> double]
+    K --> O[Array -> pointer, function -> pointer]
+    L --> P[User-defined conversion operators]
+    E --> Q[Look in namespace of argument type]
+    D --> R[Ambiguity: compile error]
+    D --> S[No viable function: compile error]
+```
+
 ## Summary
 
 This topic covers the fundamental principles of overload resolution, including the key equations,

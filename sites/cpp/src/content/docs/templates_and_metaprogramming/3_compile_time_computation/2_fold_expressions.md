@@ -896,6 +896,29 @@ int main() {
 - [Compile-Time Branching (if constexpr)](./3_if_constexpr.md)
 - [Type Traits and Static Reflection Patterns](./4_type_traits.md)
 
+```mermaid
+flowchart TD
+    A[Fold Expressions] --> B[Unary Left Fold]
+    A --> C[Unary Right Fold]
+    A --> D[Binary Left Fold]
+    A --> E[Binary Right Fold]
+    B --> F[(... op pack)]
+    B --> G[op e1 op e2 op e3]
+    C --> H[(pack op ...)]
+    C --> I[e1 op e2 op e3 op ...]
+    D --> J[(init op ... op pack)]
+    D --> K[init op e1 op e2 op ...]
+    E --> L[(pack op ... op init)]
+    E --> M[e1 op e2 op ... op init]
+    N[Use Cases] --> O[Variadic template expansion]
+    N --> P[Parameter pack operations]
+    N --> Q[Compile-time computation]
+    O --> R[print(args...): expand to cout << args]
+    O --> S[sum(args...): expand to (args + ...)]
+    P --> T[forEach(args..., func): expand to func(args) for each]
+    Q --> U[compile-time sum, product, all_of]
+```
+
 ## Summary
 
 This topic covers the core concepts of fold expressions and pack expansion, including underlying

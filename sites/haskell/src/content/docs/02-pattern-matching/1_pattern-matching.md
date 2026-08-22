@@ -9,6 +9,8 @@ categories:
   - Haskell
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -906,6 +908,11 @@ json = JObj
 **Using variable patterns where wildcards are intended.** Writing `f x = ...` in multiple equations means `x` is rebound in each equation, not compared. If you want to match a specific value, use a literal pattern. If you want to ignore a value, use `_`. Mixing up variables and wildcards leads to unexpected behaviour.
 
 **Forgetting that pattern matching is top-to-bottom.** Patterns are evaluated in order, and the first match wins. Placing a general pattern before specific ones shadows the specific cases. For example, `f _ = "default"` before `f 0 = "zero"` makes the zero case unreachable.
+
+<Citations sources={[
+  {title="Learn You a Haskell for Great Good", author="Lipovaca", year="2011", type="book"},
+  {title="Programming in Haskell", author="Hutton", year="2016", type="book"},
+]} />
 
 ## Cross-References
 

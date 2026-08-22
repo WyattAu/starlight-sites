@@ -908,6 +908,31 @@ The module system restricts reflective access to non-exported packages, affectin
 Into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
 Classes. The long-term fix is to use public APIs instead of reaching into internals via reflection.
 
+```mermaid
+flowchart TD
+    A[Annotations] --> B[Meta-annotations]
+    A --> C[Runtime annotations]
+    A --> D[Compile-time annotations]
+    B --> E[@Retention]
+    B --> F[@Target]
+    B --> G[@Inherited]
+    B --> H[@Repeatable]
+    C --> I[Reflection API]
+    C --> J[getAnnotation]
+    C --> K[isAnnotationPresent]
+    D --> L[@Override]
+    D --> M[@SuppressWarnings]
+    D --> N[@FunctionalInterface]
+    I --> O[Class.forName]
+    I --> P[getMethod / getDeclaredMethod]
+    I --> Q[getField / getDeclaredField]
+    I --> R[newInstance]
+    S[Frameworks] --> T[Spring: @Autowired, @Component]
+    S --> U[JPA: @Entity, @Column]
+    S --> V[Junit: @Test, @BeforeEach]
+    S --> W[Lombok: @Data, @Builder]
+```
+
 ## Summary
 
 This topic covers the core concepts of annotations and reflection, including underlying theory,

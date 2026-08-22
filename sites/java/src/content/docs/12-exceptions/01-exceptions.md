@@ -898,6 +898,30 @@ When `InterruptedException` is caught, the thread's interrupt flag is **automati
 You do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
 Cooperative cancellation in the caller breaks.
 
+```mermaid
+flowchart TD
+    A[Java Exceptions] --> B[Throwable]
+    B --> C[Error: unrecoverable]
+    B --> D[Exception]
+    D --> E[Checked: must catch/declare]
+    D --> F[Unchecked: RuntimeException]
+    C --> G[OutOfMemoryError]
+    C --> H[StackOverflowError]
+    E --> I[IOException]
+    E --> J[SQLException]
+    F --> K[NullPointerException]
+    F --> L[IndexOutOfBoundsException]
+    F --> M[IllegalArgumentException]
+    N[Handling] --> O[try-catch-finally]
+    N --> P[try-with-resources]
+    N --> Q[throw / throws]
+    N --> R[Custom exceptions]
+    O --> S[catch block order: specific first]
+    P --> T[AutoCloseable resources]
+    R --> U[extends Exception for checked]
+    R --> V[extends RuntimeException for unchecked]
+```
+
 ## Summary
 
 This topic covers the core concepts of exception handling, including underlying theory, practical

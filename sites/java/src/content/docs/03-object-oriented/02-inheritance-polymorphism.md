@@ -885,6 +885,31 @@ public class Stack&lt;E&gt; {
 }
 ```
 
+```mermaid
+flowchart TD
+    A[Inheritance] --> B[extends]
+    A --> C[implements]
+    A --> D[super]
+    B --> E[Single inheritance only]
+    B --> F[Method overriding]
+    B --> G[@Override annotation]
+    C --> H[Multiple interfaces]
+    C --> I[Default methods in interfaces]
+    D --> J[Call parent constructor]
+    D --> K[Call parent method]
+    L[Polymorphism] --> M[Compile-time: method overloading]
+    L --> N[Runtime: method overriding]
+    M --> O[Same name, different parameters]
+    N --> P[Dynamic dispatch via vtable]
+    N --> Q[instanceof check]
+    N --> R[ClassCastException risk]
+    S[Design Patterns] --> T[Template Method]
+    S --> U[Strategy Pattern]
+    S --> V[Factory Pattern]
+    F --> W[Covariant return types]
+    H --> X[Interface segregation]
+```
+
 ## Summary
 
 This topic covers the core concepts of inheritance and polymorphism, including underlying theory,

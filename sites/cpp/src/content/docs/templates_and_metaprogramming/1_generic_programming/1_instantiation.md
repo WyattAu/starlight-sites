@@ -909,6 +909,28 @@ public:
 - [Explicit Instantiation and Extern Templates](./5_explicit_instantiation.md)
 - [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs.md)
 
+```mermaid
+flowchart TD
+    A[Template Instantiation] --> B[Implicit]
+    A --> C[Explicit]
+    A --> D[Monomorphisation]
+    B --> E[Compiler deduces types]
+    B --> F[vec<int> created on use]
+    C --> G[template vector<int>]
+    C --> H[Force specific instantiation]
+    D --> I[Generate separate code per type]
+    D --> J[Larger binary size]
+    D --> K[Faster execution: no virtual dispatch]
+    E --> L[Any type satisfying constraints]
+    F --> M[Multiple instantiations for multiple types]
+    I --> N[Code bloat: each type gets own copy]
+    I --> O[Deduplicate with void* or type erasure]
+    P[Strategies] --> Q[Include model]
+    P --> R[Explicit instantiation]
+    P --> S[Type erasure: std::any, std::function]
+    P --> T[Concepts: constrain template parameters]
+```
+
 ## Summary
 
 This topic covers the core concepts of template instantiation, monomorphization, and code bloat,

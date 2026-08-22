@@ -897,6 +897,28 @@ public class MyList implements List<String>, List<Integer> {
 When extending a generic class, you can fix the type parameter, pass it through, or add constraints
 — but you cannot have conflicting erasures.
 
+```mermaid
+flowchart TD
+    A[Java Generics] --> B[Type Parameters]
+    A --> C[Wildcards]
+    A --> D[Bounded Types]
+    A --> E[Type Erasure]
+    B --> F[<T>]
+    B --> G[<K, V>]
+    B --> H[Generic classes/methods]
+    C --> I[? extends T: upper bound]
+    C --> J[? super T: lower bound]
+    C --> K[PECS: Producer Extends, Consumer Super]
+    D --> L[<T extends Comparable>]
+    D --> M[<T extends Number & Comparable>]
+    E --> N[Runtime type erased]
+    E --> O[Cannot use instanceof with generics]
+    E --> P[Cannot create new T()]
+    F --> Q[Type safety at compile time]
+    K --> R[Read from producer, write to consumer]
+    E --> S[Covariance/Contravariance emulation]
+```
+
 ## Summary
 
 This topic covers the core concepts of generics and type erasure, including underlying theory,

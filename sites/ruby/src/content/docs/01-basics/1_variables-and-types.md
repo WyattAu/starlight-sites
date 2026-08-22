@@ -9,6 +9,8 @@ categories:
   - Ruby
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -877,6 +879,11 @@ Symbols in Ruby are like permanent labels. Unlike strings, which can be modified
 **Not using blocks for iteration.** Ruby emphasises iterator methods with blocks (`each`, `map`, `select`) over manual `for` loops. Blocks create proper variable scoping, while `for` loops leak the loop variable into the enclosing scope. Prefer `[1, 2, 3].each { |x| ... }` over `for x in [1, 2, 3]`.
 
 **Forgetting that only `nil` and `false` are falsy.** In Ruby, `0`, `""`, `[]`, and `{}` are all truthy. This differs from JavaScript and Python where `0` and empty collections are falsy. Writing `if value` where `value` is `0` will execute the block, which may not be the intended behaviour.
+
+<Citations sources={[
+  {title="Programming Ruby", author="Thomas, Fowler and Hunt", year="2020", type="book"},
+  {title="The Well-Grounded Rubyist", author="Black", year="2018", type="book"},
+]} />
 
 ## Cross-References
 

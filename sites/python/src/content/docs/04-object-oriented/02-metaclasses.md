@@ -870,6 +870,28 @@ def add_field(cls):
     return cls
 ```
 
+```mermaid
+flowchart TD
+    A[Python Metaclasses] --> B[type]
+    A --> C[__new__]
+    A --> D[__init_subclass__]
+    B --> E[type(name, bases, dict)]
+    B --> F[Default metaclass for all classes]
+    C --> G[Controls class creation]
+    C --> H[Returns new class object]
+    C --> I[Called before __init__]
+    D --> J[Hook when subclass created]
+    D --> K[No metaclass needed]
+    L[Use Cases] --> M[Singleton pattern]
+    L --> N[Registry pattern]
+    L --> O[Validation at class creation]
+    L --> P[ORM mapping]
+    E --> Q[Dynamic class creation]
+    F --> R[Everything is an object]
+    I --> S[metaclass.__new__]
+    I --> T[metaclass.__init__]
+```
+
 ## Summary
 
 This topic covers the core concepts of metaclasses and class creation, including underlying theory,

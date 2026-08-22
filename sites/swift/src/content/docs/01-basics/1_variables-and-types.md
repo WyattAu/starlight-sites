@@ -9,6 +9,8 @@ categories:
   - Swift
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -825,6 +827,11 @@ struct DataView: View {
 **Confusing `==` with `===`.** The `==` operator checks value equality (are the contents the same?), while `===` checks reference identity (are they the same object in memory?). For structs, `==` compares all stored properties. For classes, `==` compares values only if `Equatable` is conformed; `===` checks if two references point to the same instance.
 
 **Forgetting that Swift arrays are value types.** When you assign an array to a new variable, it is copied. Modifying the copy does not affect the original. This is different from Objective-C's `NSArray` which uses reference semantics. If you need shared mutable state, use a class or a reference wrapper.
+
+<Citations sources={[
+  {title="The Swift Programming Language", author="Apple", year="2024", type="book", url="https://docs.swift.org/swift-book/"},
+  {title="Swift Programming: The Big Nerd Ranch Guide", author="Mahaffey", year="2020", type="book"},
+]} />
 
 ## Cross-References
 
