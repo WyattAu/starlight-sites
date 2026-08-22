@@ -33,3 +33,28 @@ stashes and pop them in LIFO order.
 - Pulling remote changes that conflict with your local work.
 - Running a quick test on a clean working directory.
 - Context-switching between tasks.
+
+## Common Commands
+
+```bash
+git stash                    # Stash all modified tracked files
+git stash -u                 # Stash including untracked files
+git stash -m "WIP: auth"     # Stash with a descriptive message
+git stash list               # Show all stashes
+git stash pop                # Apply and remove most recent stash
+git stash apply              # Apply without removing
+git stash drop               # Remove most recent stash
+git stash clear              # Remove all stashes
+git stash show -p            # Show diff of most recent stash
+```
+
+## Common Pitfalls
+
+1. **Forgetting stash is branch-specific**: Stashes live in the repository,
+   not on a branch. You can apply a stash from any branch, but merge
+   conflicts may arise if the working tree has diverged.
+2. **Stashing dirty state**: Stash only saves tracked file changes. Untracked
+   files require `git stash -u`. New files added after a stash are not
+   captured.
+3. **Losing stashes**: `git stash clear` is destructive and irreversible.
+   Use `git stash list` before clearing to verify what you are discarding.

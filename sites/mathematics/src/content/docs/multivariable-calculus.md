@@ -2070,6 +2070,24 @@ $\oint_C \mathbf{F} \cdot d\mathbf{r} = \int_0^{2\pi} (-1)\,dt = -2\pi$. ✓
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Multivariable Calculus] --> B[Partial Derivatives]
+    A --> C[Multiple Integrals]
+    A --> D[Vector Calculus]
+    B --> D[f_x, f_y, f_z]
+    B --> E[Directional Derivative]
+    B --> F[Gradient: grad f]
+    C --> G[Double/Triple Integrals]
+    C --> H[Change of Variables]
+    D --> I[Line Integrals]
+    D --> J[Surface Integrals]
+    I --> K[Green's Theorem]
+    J --> L[Stokes' Theorem]
+    I --> M[Divergence Theorem]
+    K --> N[Fundamental Theorem of Line Integrals]
+```
+
 ## Summary
 
 - Partial derivatives: $f_x = \frac{\partial f}{\partial x}$; gradient $\nabla f = (f_x, f_y, f_z)$

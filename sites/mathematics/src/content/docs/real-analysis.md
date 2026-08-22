@@ -2137,6 +2137,25 @@ Therefore $a_n \to 2$ by definition.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Real Analysis] --> B[Real Number System]
+    A --> C[Sequences and Series]
+    A --> D[Continuity]
+    A --> E[Differentiation]
+    A --> F[Integration]
+    B --> G[Completeness Axiom]
+    B --> H[Supremum/Infimum]
+    C --> I[Convergence Tests]
+    C --> J[Power Series]
+    D --> K[epsilon-delta Definition]
+    D --> L[Uniform Continuity]
+    E --> M[Mean Value Theorems]
+    F --> N[Riemann Integral]
+    F --> O[Lebesgue Integral]
+    G --> P[Cantor Set / Uncountability]
+```
+
 ## Summary
 
 - Completeness of $\mathbb{R}$: every non-empty bounded-above set has a supremum; equivalent to the

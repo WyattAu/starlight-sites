@@ -1834,6 +1834,26 @@ Transmitted frame: `11010011101100100`. Receiver divides by `1011`; remainder 0 
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Computer Networks] --> B[Physical Layer]
+    A --> C[Data Link Layer]
+    A --> D[Network Layer]
+    A --> E[Transport Layer]
+    A --> F[Application Layer]
+    B --> G[Cables, Switches, Hubs]
+    C --> H[Ethernet, MAC Addresses]
+    C --> I[ARP]
+    D --> J[IP Addressing]
+    D --> K[Routing: OSPF, BGP]
+    D --> L[NAT, DHCP]
+    E --> M[TCP: Reliable, Connection-Oriented]
+    E --> N[UDP: Unreliable, Connectionless]
+    F --> O[HTTP, DNS, SMTP, FTP]
+    M --> P[Three-Way Handshake]
+    M --> Q[Congestion Control]
+```
+
 ## Summary
 
 - OSI 7-layer model: Physical → Data Link → Network → Transport → Session → Presentation →

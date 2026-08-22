@@ -2434,6 +2434,22 @@ $\{(1,1,0),\,(\frac{1}{2},-\frac{1}{2},1),\,(-\frac{2}{3},\frac{2}{3},\frac{2}{3
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Linear Algebra] --> B[Vector Spaces]
+    A --> C[Linear Maps]
+    A --> D[Matrix Theory]
+    B --> E[Basis and Dimension]
+    B --> F[Subspaces]
+    C --> G[Kernel and Image]
+    C --> H[Rank-Nullity Theorem]
+    D --> I[Eigenvalues/Eigenvectors]
+    D --> J[Diagonalisation]
+    I --> K[Spectral Theorem]
+    J --> L[Matrix Decompositions]
+    L --> M[LU, QR, SVD]
+```
+
 ## Summary
 
 - Vector spaces: span, linear independence, basis, dimension; subspaces (null space, column space,

@@ -1908,6 +1908,24 @@ primary key.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Database Systems] --> B[Relational Model]
+    A --> C[SQL]
+    A --> D[NoSQL]
+    B --> E[Normalisation: 1NF-BCNF]
+    B --> F[ACID Properties]
+    C --> DML[SELECT, INSERT, UPDATE, DELETE]
+    C --> DDL[CREATE, ALTER, DROP]
+    C --> G[Joins, Subqueries, Views]
+    D --> H[Document: MongoDB]
+    D --> I[Key-Value: Redis]
+    D --> J[Column-Family: Cassandra]
+    E --> K[Functional Dependencies]
+    F --> L[Transaction Isolation Levels]
+    G --> M[Query Optimisation]
+```
+
 ## Summary
 
 - Relational model: data stored in tables (relations) with attributes; keys (primary, foreign)

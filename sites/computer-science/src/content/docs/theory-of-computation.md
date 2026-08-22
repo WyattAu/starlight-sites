@@ -1892,6 +1892,25 @@ also in NP, it's NP-complete.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Theory of Computation] --> B[Automata Theory]
+    A --> C[Computability Theory]
+    A --> D[Complexity Theory]
+    B --> E[Finite Automata: DFA/NFA]
+    B --> F[Pushdown Automata]
+    B --> G[Turing Machines]
+    C --> H[Decidability]
+    C --> I[Halting Problem]
+    C --> J[Reducibility]
+    D --> K[P vs NP]
+    D --> L[NP-Complete Problems]
+    D --> M[PSPACE, EXPTIME]
+    E --> N[Regular Languages]
+    F --> O[Context-Free Languages]
+    G --> P[Recursively Enumerable]
+```
+
 ## Summary
 
 - Finite automata: DFA (deterministic, $O(n)$ recognition) and NFA (non-deterministic); equivalent

@@ -1820,6 +1820,26 @@ conflict. With 3 colours: colour vertices cyclically 1, 2, 3, 1, 2. $\chi(C_5) =
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Discrete Mathematics] --> B[Logic and Proofs]
+    A --> C[Set Theory]
+    A --> D[Combinatorics]
+    A --> E[Graph Theory]
+    A --> F[Number Theory]
+    B --> G[Propositional Logic]
+    B --> H[Predicate Logic]
+    B --> I[Proof Techniques]
+    C --> J[Union, Intersection, Complement]
+    C --> K[Power Sets, Cartesian Products]
+    D --> L[Permutations, Combinations]
+    D --> M[Binomial Theorem]
+    E --> N[Paths, Cycles, Trees]
+    E --> O[Graph Colouring]
+    F --> P[Divisibility, GCD]
+    F --> Q[Modular Arithmetic]
+```
+
 ## Summary
 
 - Logic: propositions, predicates, quantifiers ($\forall$, $\exists$); truth tables and inference

@@ -1375,6 +1375,26 @@ Consumed.
 For more on `contextlib.contextmanager`See
 [Essential Modules](../05-standard-library/01-essential-modules.md).
 
+```mermaid
+flowchart TD
+    A[Python Iteration] --> B[Iterables]
+    A --> C[Iterators]
+    A --> D[Generators]
+    B --> E[__iter__ method]
+    B --> F[Containers: list, tuple, dict]
+    C --> G[__next__ method]
+    C --> H[StopIteration]
+    D --> I[yield keyword]
+    D --> J[Generator Expressions]
+    I --> K[Lazy Evaluation]
+    I --> M[State Preservation]
+    J --> L[Memory Efficient]
+    D --> N[Use Cases]
+    N --> O[Pipelines]
+    N --> P[Infinite Sequences]
+    N --> Q[Large Dataset Processing]
+```
+
 ## Summary
 
 This topic covers the core concepts of generators and iterators, including underlying theory,

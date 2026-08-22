@@ -2211,6 +2211,23 @@ resources. P0 can then finish. Safe sequence exists. Request granted.
 
 $\blacksquare$
 
+```mermaid
+flowchart TD
+    A[Operating System] --> B[Process Management]
+    A --> C[Memory Management]
+    A --> D[File Systems]
+    A --> E[I/O Management]
+    B --> F[Scheduling: FCFS, SJF, Round Robin]
+    B --> G[Synchronisation: Mutex, Semaphore]
+    C --> H[Paging and Segmentation]
+    C --> I[Virtual Memory]
+    D --> J[inodes, Journaling]
+    D --> K[File System Types: ext4, NTFS, ZFS]
+    E --> L[Device Drivers]
+    E --> M[DMA and Interrupts]
+    G --> N[Deadlock: Prevention, Avoidance, Detection]
+```
+
 ## Summary
 
 - Process management: states (ready, running, waiting, terminated); context switching overhead; PCB
