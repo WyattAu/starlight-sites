@@ -823,6 +823,28 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
     slower. Use `#[repr(C)]` or `#[repr(align(N))]` when interfacing with C or when alignment
     matters.
 
+```mermaid
+flowchart TD
+    A[Rust Types] --> B[Primitives]
+    A --> C[Compound]
+    A --> D[Custom]
+    A --> E[Smart Pointers]
+    B --> F[i8-i128, u8-u128]
+    B --> G[f32, f64]
+    B --> H[bool, char]
+    C --> J[Tuple]
+    C --> K[Array]
+    C --> L[Slice]
+    C --> M[Struct]
+    C --> N[Enum]
+    D --> O[struct with methods]
+    D --> P[enum with variants]
+    E --> R[Box]
+    E --> S[Rc]
+    E --> T[Arc]
+    E --> U[RefCell]
+```
+
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical

@@ -788,6 +788,27 @@ int* q = p + 1;  // UB: arithmetic on null pointer
 - [Reference Lifetime](2_reference_lifetime.mdx)
 - [Type Punning](3_type_punning.mdx)
 
+```mermaid
+flowchart TD
+    A[Pointers] --> B[Raw Pointers]
+    A --> C[Smart Pointers]
+    A --> D[References]
+    B --> E[T* ptr]
+    B --> F[nullptr]
+    B --> H[new / delete]
+    C --> I[std::unique_ptr]
+    C --> J[std::shared_ptr]
+    C --> K[std::weak_ptr]
+    D --> L[T& ref]
+    D --> M[T&& rvalue ref]
+    I --> O[Exclusive ownership]
+    I --> P[Move-only]
+    J --> R[Shared ownership]
+    K --> U[Observes shared_ptr]
+    L --> W[Must be initialised]
+    H --> Y[Manual memory management]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to pointers, including key

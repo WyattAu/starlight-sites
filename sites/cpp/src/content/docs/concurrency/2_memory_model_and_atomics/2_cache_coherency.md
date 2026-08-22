@@ -839,6 +839,26 @@ Eliminating false sharing entirely. The total is computed by summing all shards.
 - [Atomic Operations and Lock-Free Programming](./3_atomic_operations.md)
 - [Memory Orderings](./4_memory_orderings.md)
 
+```mermaid
+flowchart TD
+    A[Cache Coherency] --> B[MESI Protocol]
+    A --> C[False Sharing]
+    A --> D[Memory Ordering]
+    B --> E[Modified]
+    B --> F[Exclusive]
+    B --> G[Shared]
+    B --> H[Invalid]
+    C --> M[Adjacent bytes on same cache line]
+    C --> N[Unnecessary invalidation traffic]
+    C --> O[Fix: align to cache line boundary]
+    D --> P[relaxed]
+    D --> Q[acquire / release]
+    D --> R[seq_cst]
+    P --> S[No ordering guarantees]
+    Q --> T[Establish happens-before]
+    R --> U[Total order across all threads]
+```
+
 ## Summary
 
 This topic covers the core concepts of cache coherency (mesi) and false sharing, including

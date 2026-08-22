@@ -785,6 +785,24 @@ Parallel-capable algorithms.
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
+```mermaid
+flowchart TD
+    A[Parallel Algorithms] --> B[Execution Policies]
+    A --> C[Parallel Algorithms Library]
+    B --> E[std::execution::seq]
+    B --> F[std::execution::par]
+    B --> G[std::execution::par_unseq]
+    E --> I[Sequential, default]
+    F --> J[Parallel, multi-threaded]
+    G --> K[Parallel + vectorised]
+    C --> M[std::sort with par policy]
+    C --> N[std::for_each with par]
+    C --> O[std::reduce with par]
+    M --> S[Automatic parallelisation]
+    N --> T[Embarrassingly parallel loops]
+    O --> U[Parallel reduction]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

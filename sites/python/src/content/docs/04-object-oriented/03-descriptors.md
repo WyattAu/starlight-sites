@@ -892,6 +892,22 @@ print(t.value)  # None — was it set to None or never set?
 # There's no way to tell with property alone. Track state explicitly if needed.
 ```
 
+```mermaid
+flowchart TD
+    A[Python Descriptors] --> B[Data Descriptor]
+    A --> C[Non-data Descriptor]
+    B --> D[__get__ + __set__ + __delete__]
+    B --> E[Has priority over instance dict]
+    C --> F[__get__ only]
+    C --> G[Instance dict takes priority]
+    H[Examples] --> I[property: data descriptor]
+    H --> J[classmethod: non-data descriptor]
+    H --> K[staticmethod: non-data descriptor]
+    D --> M[Controls attribute access]
+    D --> N[Used for validation]
+    I --> R[@property decorator]
+```
+
 ## Summary
 
 This topic covers the core concepts of descriptors and properties, including underlying theory,

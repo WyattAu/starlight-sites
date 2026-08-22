@@ -785,6 +785,21 @@ Type tags.
 - [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing.md)
 - [Devirtualization and Final Specifiers](./3_devirtualization.md)
 
+```mermaid
+flowchart TD
+    A[RTTI] --> B[typeid]
+    A --> C[dynamic_cast]
+    B --> D[Returns std::type_info]
+    B --> E[typeid(expr).name()]
+    C --> G[Safe downcast at runtime]
+    C --> H[Returns nullptr on failure]
+    C --> I[Requires polymorphic base]
+    K[vs static_cast] --> L[static_cast: compile-time, no check]
+    K --> M[dynamic_cast: runtime, safe]
+    O[Use cases] --> P[Plugin systems]
+    O --> Q[Generic container traversal]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to rtti, dynamic_cast, and typeid,

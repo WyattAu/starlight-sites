@@ -835,6 +835,23 @@ int main() {
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
+```mermaid
+flowchart TD
+    A[Range Adaptors] --> B[Views]
+    A --> D[Pipelines]
+    B --> E[std::views::filter]
+    B --> F[std::views::transform]
+    B --> G[std::views::take]
+    B --> H[std::views::drop]
+    D --> L[pipe operator]
+    D --> M[Composable chain]
+    D --> N[Lazy evaluation]
+    E --> O[Filter elements by predicate]
+    F --> P[Map/transform elements]
+    L --> S[auto result = data | filter | transform | take]
+    N --> T[No intermediate allocation]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

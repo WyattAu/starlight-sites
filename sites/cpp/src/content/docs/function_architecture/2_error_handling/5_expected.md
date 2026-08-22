@@ -803,6 +803,26 @@ int main() {
 - [The noexcept Specifier](3_noexcept.md)
 - [Exception Safety Guarantees](2_exception_safety.md)
 
+```mermaid
+flowchart TD
+    A[std::expected] --> B[Value or Error]
+    A --> C[Monadic Error Handling]
+    A --> D[No exceptions]
+    B --> E[expected<T, E>]
+    B --> F[value() or error()]
+    C --> H[and_then()]
+    C --> I[or_else()]
+    C --> J[transform()]
+    D --> K[All error paths explicit]
+    D --> L[No hidden control flow]
+    H --> O[Chain operations on success]
+    I --> P[Handle error, return new expected]
+    J --> Q[Transform value on success]
+    R[vs exceptions] --> S[No stack unwinding]
+    R --> T[No performance overhead]
+    R --> U[Explicit in function signature]
+```
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to monadic error handling —

@@ -793,6 +793,22 @@ Also inherits from `Base`Allowing access to `b.value_` would violate encapsulati
 - [Operator Overloading](./4_operator_overloading.md)
 - [Deducing This and CRTP](../2_runtime_polymorphism/5_deducing_this_crtp.md)
 
+```mermaid
+flowchart TD
+    A[Access Control] --> B[public]
+    A --> C[protected]
+    A --> D[private]
+    A --> E[friend]
+    B --> F[Accessible from anywhere]
+    B --> G[Interface of the class]
+    C --> H[Accessible in derived classes]
+    D --> J[Accessible only in class]
+    E --> L[Grants access to specific functions]
+    O[Best Practices] --> P[Minimise public interface]
+    O --> Q[Prefer private data]
+    O --> S[Avoid friend when possible]
+```
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to access control and friendship,

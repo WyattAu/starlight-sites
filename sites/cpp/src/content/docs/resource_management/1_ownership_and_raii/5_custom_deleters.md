@@ -741,6 +741,22 @@ Lambda.
 
 **The key insight:** Lambdas are perfect for custom deleters — they capture cleanup logic inline and have zero overhead.
 
+```mermaid
+flowchart TD
+    A[Custom Deleters] --> B[unique_ptr with deleter]
+    A --> C[shared_ptr with deleter]
+    A --> D[RAII wrappers]
+    B --> E[unique_ptr<T, Deleter>]
+    B --> F[Lambda as deleter]
+    C --> H[shared_ptr<T>(ptr, deleter)]
+    C --> I[Deleter stored in control block]
+    D --> K[FILE* wrapper]
+    D --> L[Socket wrapper]
+    E --> N[Compile-time deleter type]
+    E --> O[Zero overhead if stateless]
+    H --> P[Runtime deleter]
+```
+
 ## Summary
 
 | Ownership Model    | Smart Pointer        | Size (x86_64) | Semantics                   | Thread-Safe Refcount |

@@ -850,6 +850,24 @@ d2 = {}
 Use `defaultdict` when you intentionally want default values. For configuration or structured data
 Access, prefer regular dicts to catch typos early.
 
+```mermaid
+flowchart TD
+    A[Python Collections] --> B[dict]
+    A --> C[set]
+    A --> D[frozenset]
+    A --> E[Counter]
+    A --> F[defaultdict]
+    B --> H[key-value pairs]
+    B --> I[O_1 lookup]
+    B --> J[dict comprehension]
+    C --> L[unordered unique elements]
+    C --> M[set operations: union, intersection]
+    D --> O[immutable set]
+    E --> Q[counts hashable objects]
+    F --> S[default factory]
+    F --> T[auto-creates missing keys]
+```
+
 ## Summary
 
 This topic covers the core concepts of dicts, sets, and collections deep dive, including underlying

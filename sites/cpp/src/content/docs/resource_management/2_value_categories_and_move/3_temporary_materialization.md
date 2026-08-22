@@ -786,6 +786,23 @@ void new_demo() {
   but `std::move(T{args})` produces an xvalue, forcing materialization and a move. Just write
   `return T{args};`.
 
+```mermaid
+flowchart TD
+    A[Temporary Materialisation] --> B[Prvalue]
+    A --> C[Xvalue]
+    A --> D[Lvalue]
+    B --> E[Pure rvalue: result of expression]
+    B --> F[Materialises to temporary object]
+    C --> H[Expiration value]
+    C --> I[Result of std::move]
+    D --> K[Location value]
+    D --> L[Named variable]
+    F --> N[Materialisation conversion]
+    F --> P[Bound to const reference extends lifetime]
+    Q[Use cases] --> R[Pass by value: materialise once]
+    Q --> S[Return by value: NRVO eliminates]
+```
+
 ## Summary
 
 This topic covers the core concepts of temporary materialization, including underlying theory,

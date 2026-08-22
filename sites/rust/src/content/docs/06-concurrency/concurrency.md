@@ -902,6 +902,29 @@ Cannot see).
     If you need to retry a branch, you must restructure your code to loop and recreate the future.
     Consider using `tokio::select!` with a loop pattern for repeated selection.
 
+```mermaid
+flowchart TD
+    A[Rust Concurrency] --> B[Threads]
+    A --> C[Message Passing]
+    A --> D[Shared State]
+    A --> E[Async/Await]
+    B --> F[std::thread::spawn]
+    B --> G[JoinHandle]
+    C --> I[mpsc channels]
+    C --> J[sync_channel]
+    D --> L[Mutex]
+    D --> M[RwLock]
+    D --> N[Atomic]
+    D --> O[Arc]
+    E --> P[Future trait]
+    E --> Q[async fn]
+    E --> R[.await]
+    E --> S[tokio runtime]
+    L --> T[lock().unwrap()]
+    N --> V[load/store/compare_exchange]
+    O --> W[Reference-counted shared ownership]
+```
+
 ## Summary
 
 This topic covers the core concepts of concurrency, including underlying theory, practical

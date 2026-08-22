@@ -777,6 +777,25 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 
 6. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
+```mermaid
+flowchart TD
+    A[Sequence Containers] --> B[std::vector]
+    A --> C[std::deque]
+    A --> D[std::list]
+    A --> E[std::array]
+    A --> F[std::forward_list]
+    B --> G[Dynamic array]
+    B --> H[Contiguous memory]
+    B --> I[O_1 amortised push_back]
+    C --> K[Double-ended queue]
+    C --> L[O_1 push/pop front and back]
+    D --> N[Doubly-linked list]
+    D --> O[O_1 insert/remove anywhere]
+    E --> Q[Fixed-size array]
+    E --> R[Contiguous, stack-allocated]
+    G --> W[Most common container]
+```
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

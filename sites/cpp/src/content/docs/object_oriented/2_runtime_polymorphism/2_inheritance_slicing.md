@@ -777,6 +777,22 @@ Additional vptrs (from multiple inheritance), and virtual base pointers all add 
 - [Devirtualization and Final Specifiers](./3_devirtualization.md)
 - [RTTI, dynamic_cast, and typeid](./4_rtti_dynamic_cast.md)
 
+```mermaid
+flowchart TD
+    A[Inheritance] --> B[Public/Protected/Private]
+    A --> C[Virtual Functions]
+    A --> D[Object Slicing]
+    A --> E[Virtual Destructors]
+    C --> I[vtable dispatch]
+    C --> J[override keyword]
+    D --> L[Base x = Derived{}]
+    D --> M[Derived part lost]
+    D --> N[Use references/pointers to avoid]
+    E --> O[Always virtual destructor in base]
+    E --> P[Delete via base pointer]
+    I --> R[One vtable per class]
+```
+
 ## Summary
 
 This topic covers the core concepts of inheritance, object slicing, and virtual destructors,
