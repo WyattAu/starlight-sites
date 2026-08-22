@@ -62,6 +62,18 @@ Start with Swift basics: variables, optionals, functions, and control flow. Then
 
 **Not using guard statements for early exits:** guard is like if but for conditions that must be true for the rest of the function to work. Using guard with else { return } makes preconditions explicit and reduces nesting.
 
+
+## Summary
+
+Swift is a modern, compiled language for Apple platform development (iOS, macOS,
+watchOS, tvOS) with expanding server-side support. It combines strong type safety
+(optionals enforce nil safety at compile time), value types (structs, enums) for
+predictable behaviour, and protocol-oriented programming for composition over
+inheritance. Memory management uses Automatic Reference Counting (ARC) with
+strong/weak/unowned references. Concurrency is handled via async/await and actors
+for safe parallel execution. Start with Xcode (Mac) or Swift.org toolchain
+(Linux), use Swift Playgrounds for experimentation.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for swift notes.
