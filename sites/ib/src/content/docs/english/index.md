@@ -4,7 +4,11 @@ description: "Study notes and resources for English"
 date: 2026-01-01T00:00:00Z
 ---
 
+This section covers literary analysis, language techniques, and critical writing skills. Strong performance requires close reading, evidence-based argumentation, and awareness of historical and cultural contexts.
+
 # English
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
 
 ## Topics
 

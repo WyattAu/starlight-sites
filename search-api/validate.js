@@ -31,6 +31,7 @@ const TRACK_EVENTS = new Set([
   'search_query',
   'search_result_click',
   'search_suggestion_click',
+  'client_error',
 ])
 
 /**

@@ -4,7 +4,11 @@ description: "Study notes and resources for Typescript"
 date: 2026-01-01T00:00:00Z
 ---
 
+This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
+
 # Typescript
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
 
 ## Topics
 

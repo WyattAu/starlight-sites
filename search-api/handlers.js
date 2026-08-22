@@ -175,6 +175,60 @@ async function handleHealth(env, corsHeaders) {
   const metadata = await env.SEARCH_KV?.get('metadata', { type: 'json' })
   const metrics = await env.SEARCH_KV?.get('search-metrics', { type: 'json' })
 
+  const avgLatencyMs =
+    metrics && metrics.latencyCount > 0
+      ? Math.round(metrics.latencySum / metrics.latencyCount)
+      : null
+
+  return jsonResponse(
+    {
+      status: 'ok',
+      indexVersion: metadata?.version || 'unknown',
+      lastUpdated: metadata?.lastUpdated || 'unknown',
+      siteCount: metadata?.siteCount || 0,
+      totalEntries: metadata?.totalEntries || 0,
+      search: {
+        totalSearches: metrics?.totalSearches || 0,
+        zeroResults: metrics?.zeroResults || 0,
+        zeroResultRate:
+          metrics && metrics.totalSearches > 0
+            ? `${((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1)}%`
+            : '0%',
+        avgLatencyMs,
+        maxLatencyMs: metrics?.latencyMax || 0,
+        slo: {
+          zeroResultRate: '<5%',
+          avgLatencyMs: '<200',
+        },
+      },
+    },
+    corsHeaders,
+  )
+}
+
+async function handleErrors(env, corsHeaders) {
+  // Surface recent client errors from KV for dashboard visibility.
+  const keys = await env.SEARCH_KV?.list({ prefix: 'track:', limit: 100 }) || { keys: [] }
+  const errors = []
+  for (const key of keys.keys) {
+    if (!key.name.includes('client_error')) continue
+    const data = await env.SEARCH_KV?.get(key.name, { type: 'json' })
+    if (data && data.event === 'client_error') {
+      errors.push({
+        error: data.error,
+        component: data.component,
+        page: data.page,
+        timestamp: data.timestamp,
+      })
+    }
+  }
+  // Sort newest first, limit to 50
+  errors.sort((a, b) => (b.timestamp || '').localeCompare(a.timestamp || ''))
+  return jsonResponse({ errors: errors.slice(0, 50), total: errors.length }, corsHeaders)
+}
+  const metadata = await env.SEARCH_KV?.get('metadata', { type: 'json' })
+  const metrics = await env.SEARCH_KV?.get('search-metrics', { type: 'json' })
+
   // Compute search SLO metrics from stored data.
   const avgLatencyMs =
     metrics && metrics.latencyCount > 0
@@ -315,6 +369,7 @@ export {
   handleABTest,
   handleAnalytics,
   handleDashboard,
+  handleErrors,
   handleHealth,
   handleSearch,
   handleSites,

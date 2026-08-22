@@ -4,7 +4,12 @@ description: "Study notes and resources for Remotes And Workflows"
 date: 2026-01-01T00:00:00Z
 ---
 
+
+This section provides study materials and resources for remotes and workflows. Browse the topics below to find the specific area you need to revise.
+
 # Remotes And Workflows
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
 
 ## Topics
 
@@ -13,3 +18,14 @@ date: 2026-01-01T00:00:00Z
 - [Pull Requests](./03-pull-requests)
 - [Transfer Protocols And Auth](./04-transfer-protocols-and-auth)
 - [Github Actions Ci Cd Patterns](./05-github-actions-ci-cd-patterns)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the cross-references to link related concepts across subjects where applicable.

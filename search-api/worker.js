@@ -20,6 +20,7 @@ import {
   handleABTest,
   handleAnalytics,
   handleDashboard,
+  handleErrors,
   handleHealth,
   handleSearch,
   handleSites,
@@ -70,6 +71,9 @@ export default {
       }
       if (url.pathname === '/api/analytics') {
         return await handleAnalytics(env, corsHeaders)
+      }
+      if (url.pathname === '/api/errors') {
+        return await handleErrors(env, corsHeaders)
       }
       if (url.pathname === '/api/ab-test') {
         return await handleABTest(env, corsHeaders)

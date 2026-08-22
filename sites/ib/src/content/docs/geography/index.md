@@ -4,7 +4,11 @@ description: "Study notes and resources for Geography"
 date: 2026-01-01T00:00:00Z
 ---
 
+This section provides study materials and resources for geography. Browse the topics below to find the specific area you need to revise.
+
 # Geography
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
 
 ## Topics
 

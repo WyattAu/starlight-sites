@@ -4,7 +4,12 @@ description: "Study notes and resources for 2_runtime_polymorphism"
 date: 2026-01-01T00:00:00Z
 ---
 
+
+This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
+
 # 2_runtime_polymorphism
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
 
 ## Topics
 
@@ -13,3 +18,14 @@ date: 2026-01-01T00:00:00Z
 - [3_devirtualization](./3_devirtualization)
 - [4_rtti_dynamic_cast](./4_rtti_dynamic_cast)
 - [5_deducing_this_crtp](./5_deducing_this_crtp)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the cross-references to link related concepts across subjects where applicable.

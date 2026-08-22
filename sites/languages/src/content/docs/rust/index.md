@@ -4,7 +4,12 @@ description: "Study notes and resources for Rust"
 date: 2026-01-01T00:00:00Z
 ---
 
+
+This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
+
 # Rust
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
 
 ## Topics
 
@@ -13,3 +18,14 @@ date: 2026-01-01T00:00:00Z
 - [Intro](./intro)
 - [Practice Ownership](./practice-ownership)
 - [Practice Rust Basics](./practice-rust-basics)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the cross-references to link related concepts across subjects where applicable.
