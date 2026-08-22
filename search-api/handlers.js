@@ -22,7 +22,7 @@ async function handleSearch(request, url, env, corsHeaders) {
   const startTime = Date.now()
 
   // Simple IP-based rate limiting (100 req/60s per IP).
-  const rl = checkRateLimit(request)
+  const rl = await checkRateLimit(request, env)
   if (!rl.allowed) {
     return jsonResponse({ error: 'Rate limit exceeded. Try again later.' }, corsHeaders, {
       status: 429,

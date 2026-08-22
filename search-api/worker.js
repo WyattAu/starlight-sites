@@ -37,9 +37,14 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url)
 
-    // CORS headers
+    // CORS headers: restrict to wyattau.com subdomains for API endpoints,
+    // but allow * for static assets (page-search.js, cross-site-search.js)
+    // since they are injected into third-party pages via script tags.
+    const origin = request.headers.get('origin') || ''
+    const isWyattauOrigin = origin.endsWith('.wyattau.com') || origin === 'https://wyattsnotes.wyattau.com'
+    const corsOrigin = isWyattauOrigin ? origin : '*'
     const corsHeaders = {
-      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Origin': corsOrigin,
       'Access-Control-Allow-Methods': 'GET, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type',
       'Cache-Control': 'public, max-age=300, s-maxage=300',

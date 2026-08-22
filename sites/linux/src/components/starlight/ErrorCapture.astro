@@ -1,0 +1,35 @@
+---
+/**
+ * ErrorCapture: captures unhandled errors and promise rejections,
+ * posting them to the search API /api/track endpoint for visibility.
+ */
+---
+
+<script is:inline>
+(function() {
+  function postError(type, message, source, lineno, colno, error) {
+    try {
+      var payload = {
+        event: 'client_error',
+        type: type,
+        message: String(message || ''),
+        source: String(source || ''),
+        page: location.href,
+        timestamp: new Date().toISOString()
+      }
+      if (lineno) payload.line = lineno
+      if (colno) payload.column = colno
+      if (error && error.stack) payload.stack = String(error.stack).slice(0, 500)
+      navigator.sendBeacon('/api/track', JSON.stringify(payload))
+    } catch(e) {}
+  }
+
+  window.onerror = function(message, source, lineno, colno, error) {
+    postError('error', message, source, lineno, colno, error)
+  }
+
+  window.addEventListener('unhandledrejection', function(e) {
+    postError('unhandledrejection', e.reason ? e.reason.message || String(e.reason) : 'unknown')
+  })
+})()
+</script>

@@ -3,6 +3,7 @@ import ClientRouter from "astro/components/ClientRouter.astro"
 import JsonLd from './JsonLd.astro'
 import SiteNavigator from './SiteNavigator.astro'
 import ServiceWorker from './ServiceWorker.astro'
+import ErrorCapture from './ErrorCapture.astro'
 
 const { starlightRoute } = Astro.locals;
 const { entry, head, id } = starlightRoute;
@@ -219,5 +220,7 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 <JsonLd entry={entry} pageTitle={pageTitle} description={description} pageUrl={pageUrl} datePublished={datePublished} dateModified={dateModified} siteTitle={siteTitle} subdomain={subdomain} breadcrumbItems={breadcrumbItems} />
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="Wyatt's Notes RSS" href="/rss.xml" />
+
+<ErrorCapture />
 
 <ClientRouter />
