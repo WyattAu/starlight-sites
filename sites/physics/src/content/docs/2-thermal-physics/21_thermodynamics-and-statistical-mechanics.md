@@ -10,6 +10,8 @@ categories:
   - Physics
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -2513,6 +2515,25 @@ Thermodynamics is the universe's accounting system. The first law is a balance s
   Microstate: specific arrangement of particles. **Fix:** $S = k_B \ln \Omega$ where $\Omega$ is the
   number of microstates.
 
+```mermaid
+flowchart TD
+    A[Thermodynamics] --> B[Macroscopic: Laws of Thermodynamics]
+    A --> C[Microscopic: Statistical Mechanics]
+    B --> D[Zeroth: Thermal Equilibrium]
+    B --> E[First: Energy Conservation]
+    B --> F[Second: Entropy Increases]
+    B --> G[Third: T=0 Unattainability]
+    C --> H[Microstates and Multiplicity]
+    C --> I[Boltzmann Distribution]
+    C --> J[Ensembles]
+    J --> K[Microcanonical: Fixed E,N,V]
+    J --> L[Canonical: Fixed T,N,V]
+    J --> M[Grand Canonical: Fixed T,V,mu]
+    I --> N[Partition Function Z]
+    N --> O[Free Energy: F = -kT ln Z]
+    O --> P[All Thermodynamic Quantities]
+```
+
 ## Summary
 
 - First law: $\Delta U = Q - W$; conservation of energy.
@@ -2520,6 +2541,14 @@ Thermodynamics is the universe's accounting system. The first law is a balance s
 - Carnot efficiency: $\eta = 1 - T_C/T_H$ (maximum possible for given temperatures).
 - Statistical mechanics: $S = k_B \ln \Omega$; Boltzmann distribution:
   $p_i \propto e^{-E_i/(k_BT)}$.
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Thermodynamics and an Introduction to Thermostatistics", author="Callen", year="1985", type="book"},
+  {title="Statistical Mechanics", author="Pathria", year="2017", type="book"},
+  {title="An Introduction to Thermal Physics", author="Schroeder", year="2021", type="book"},
+]} />
 
 ## Cross-References
 

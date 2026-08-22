@@ -9,6 +9,8 @@ categories:
   - Rust
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1657,6 +1659,13 @@ linked above.
 ## Intuition
 
 Macros are Rust's compile-time code generators. Think of them as copy-paste with intelligence: you write a pattern once, and the compiler expands it into the full code wherever you use it. Declarative macros (macro_rules!) are like templates: they match token patterns and produce new tokens. Procedural macros are like mini-programs that run during compilation and can inspect types and generate arbitrary code. Macros solve the "variadic arguments" problem (println! takes any number of arguments) and eliminate boilerplate (derive macros generate trait implementations automatically).
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="The Rust Programming Language", author="Klabnik and Nichols", year="2024", type="book", url="https://doc.rust-lang.org/book/"},
+  {title="Rust for Rustaceans", author="Gjengset", year="2021", type="book"},
+]} />
 
 ## Cross-References
 

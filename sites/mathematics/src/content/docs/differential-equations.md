@@ -10,6 +10,8 @@ categories:
   - Mathematics
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -2544,6 +2546,22 @@ Let $u = x \implies \frac{du}{dx} = 1$ and $\frac{dv}{dx} = e^{2x} \implies v = 
 
 $$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + c = \frac{e^{2x}(2x - 1)}{4} + c$$
 
+```mermaid
+flowchart TD
+    A[ODE/PDE Problem] --> B{Order?}
+    B -->|First order| C[Separable / Exact / Linear]
+    B -->|Second order| D[Constant Coefficients / Variation of Parameters]
+    B -->|Higher order| E[System of ODEs via Eigenvalues]
+    C --> F[Integral or Integrating Factor]
+    D --> G[Characteristic Equation]
+    E --> H[Phase Plane Analysis]
+    A --> I{Type?}
+    I -->|ODE| J[Analytical: Laplace, Series, Fourier]
+    I -->|PDE| K[Separation of Variables, Transform Methods]
+    J --> L[Stability Analysis]
+    K --> M[Boundary Value Problems]
+```
+
 ## Summary
 
 - First-order ODEs: separable ($\frac{dy}{dx} = g(x)h(y)$), linear (integrating factor
@@ -2556,6 +2574,14 @@ $$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \
   plane analysis for 2D systems.
 - PDEs: separation of variables for heat equation ($u_t = ku_{xx}$), wave equation
   ($u_{tt} = c^2 u_{xx}$), and Laplace equation ($\nabla^2 u = 0$).
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Elementary Differential Equations and Boundary Value Problems", author="Boyce and DiPrima", year="2017", type="book"},
+  {title="Ordinary Differential Equations", author="Arnold", year="1992", type="book"},
+  {title="Partial Differential Equations for Scientists and Engineers", author="Farlow", year="1993", type="book"},
+]} />
 
 ## Cross-References
 

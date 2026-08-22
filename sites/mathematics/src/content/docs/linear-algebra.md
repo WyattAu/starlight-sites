@@ -10,6 +10,8 @@ categories:
   - Mathematics
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -2444,6 +2446,13 @@ $\blacksquare$
   basis; spectral theorem for symmetric matrices.
 - Inner products: orthogonality, Gram-Schmidt process, orthogonal projections, least-squares
   solutions.
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Linear Algebra Done Right", author="Axler", year="2024", type="book"},
+  {title="Introduction to Linear Algebra", author="Strang", year="2016", type="book"},
+]} />
 
 ## Cross-References
 

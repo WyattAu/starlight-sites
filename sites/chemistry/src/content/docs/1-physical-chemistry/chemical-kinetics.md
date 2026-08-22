@@ -9,6 +9,8 @@ tags:
 categories:
   - Chemistry
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -502,6 +504,13 @@ $\blacksquare$
 ## Intuition
 
 Chemical kinetics is the study of how fast reactions happen and what controls their speed. Think of activation energy as a hill that molecules must climb before they can react. Temperature gives molecules more kinetic energy, helping more of them clear the hill, which is why reactions speed up when heated. The Arrhenius equation quantifies this: higher temperature means more molecules have enough energy to overcome the barrier. Catalysts work by building a tunnel through the hill rather than going over it, lowering the activation energy without being consumed. Enzymes are nature's catalysts, binding substrates in exactly the right orientation to react. The rate law tells us which ingredients matter most: doubling the concentration of a reactant that appears squared in the rate law quadruples the speed, while a reactant with zero order has no effect at all. Reaction mechanisms reveal the step-by-step choreography behind the overall transformation, with the slowest step acting as the bottleneck that determines the overall pace.
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Physical Chemistry", author="Atkins and de Paula", year="2014", type="book"},
+  {title="Chemical Kinetics and Dynamics", author="Steinfeld, Francisco and Hase", year="1998", type="book"},
+]} />
 
 ## Cross-References
 

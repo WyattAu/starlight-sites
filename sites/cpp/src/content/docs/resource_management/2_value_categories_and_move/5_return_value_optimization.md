@@ -8,6 +8,8 @@ tags:
 categories:
   - Cpp
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -938,6 +940,13 @@ NRVO is not guaranteed. If your code relies on NRVO to avoid calling a move cons
 Observable side effects (e.g., releasing a lock, logging), your code is non-portable. The only
 Guaranteed elision is URVO (prvalue returns). For named returns, always ensure your move constructor
 Is correct.
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Effective Modern C++", author="Meyers", year="2014", type="book"},
+  {title="C++ Templates: The Complete Guide", author="Vandevoorde, Josuttis and Gregor", year="2017", type="book"},
+]} />
 
 ## See Also
 

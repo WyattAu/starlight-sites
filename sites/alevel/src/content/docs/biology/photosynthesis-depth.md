@@ -2391,6 +2391,21 @@ $\blacksquare$
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
 
+```mermaid
+flowchart LR
+    A[Sunlight] --> B[Photosystem II]
+    B --> C[Electron Transport Chain]
+    C --> D[Photosystem I]
+    D --> E[NADPH]
+    B --> F[H2O Split -> O2]
+    C --> G[ATP Synthase -> ATP]
+    E --> H[Calvin Cycle]
+    G --> H
+    H --> I[CO2 Fixation: RuBisCO]
+    I --> J[G3P -> Glucose]
+    J --> K[Starch / Sucrose]
+```
+
 ## Summary
 
 - Photosynthesis converts light energy to chemical energy: light-dependent reactions (thylakoid)

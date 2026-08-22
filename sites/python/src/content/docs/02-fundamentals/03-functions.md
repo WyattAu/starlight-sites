@@ -9,6 +9,8 @@ categories:
   - Python
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1508,6 +1510,13 @@ linked above.
 ## Intuition
 
 Functions in Python are first-class objects: they can be passed as arguments, returned from other functions, and stored in data structures. Decorators are functions that wrap other functions, adding behaviour without modifying the original code. Think of a decorator as gift wrap: the present inside (the original function) stays the same, but the wrapping adds something extra. Default arguments are evaluated once at function definition time, which is why mutable defaults like `[]` are a common pitfall.
+
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Python Crash Course", author="Matthes", year="2023", type="book"},
+  {title="Fluent Python", author="Ramalho", year="2022", type="book"},
+]} />
 
 ## Cross-References
 

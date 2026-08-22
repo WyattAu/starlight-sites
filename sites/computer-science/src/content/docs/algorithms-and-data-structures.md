@@ -10,6 +10,8 @@ categories:
   - Computing
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -2293,6 +2295,14 @@ $\blacksquare$
 - Algorithm design paradigms: divide-and-conquer, greedy, dynamic programming — choose based on
   optimal substructure and overlapping subproblems.
 
+import { Citation } from "@components/Citations.astro"
+
+<Citations sources={[
+  {title="Introduction to Algorithms", author="CLRS", year="2022", type="book", url="https://mitpress.mit.edu/9780262046305/"},
+  {title="The Algorithm Design Manual", author="Skiena", year="2020", type="book"},
+  {title="Algorithm Design", author="Kleinberg and Tardos", year="2005", type="book"},
+]} />
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                            |
@@ -2306,6 +2316,27 @@ $\blacksquare$
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+```mermaid
+flowchart TD
+    A[Algorithm Design Problem] --> B{Optimal Substructure?}
+    B -->|Yes| C{Overlapping Subproblems?}
+    B -->|No| D{Greedy Choice Property?}
+    C -->|Yes| E[Dynamic Programming]
+    C -->|No| F[Divide and Conquer]
+    D -->|Yes| G[Greedy Algorithm]
+    D -->|No| H[Brute Force / Backtracking]
+    E --> I[Tabulation or Memoization]
+    F --> J[Split, Solve, Combine]
+    G --> K[Local Optimum -> Global Optimum]
+    H --> L[Prune Search Space]
+    A --> M{Data Structure?}
+    M -->|Fast Lookup| N[Hash Table O_1]
+    M -->|Ordered Operations| O[BST / Balanced Tree O_log n]
+    M -->|FIFO| P[Queue]
+    M -->|Priority| Q[Heap / Priority Queue]
+    M -->|LIFO| R[Stack]
+```
 
 ## Intuition
 
