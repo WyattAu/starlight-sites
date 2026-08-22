@@ -201,7 +201,7 @@ Commercial greenhouse operators manipulate limiting factors to maximise crop yie
   can be raised to 0.1% or higher.
 - **Temperature:** Heating systems maintain the optimum temperature year-round.
 
-**The economic argument.** The cost of providing additional light, $\mathrm{CO_2$And heat must be
+**The economic argument.** The cost of providing additional light, $\mathrm{CO_2$ And heat must be
 Weighed against the value of the increased crop yield. There is a point of diminishing returns where
 The cost of increasing a factor exceeds the value of the additional growth.
 
@@ -812,7 +812,7 @@ seeds. Explain the purpose of the soda lime and the control.
 
 Germinating seeds are placed in a respirometer with soda lime (to absorb $\mathrm{CO_2$). As seeds
 respire, they consume $\mathrm{O_2$ and release $\mathrm{CO_2$. The soda lime absorbs the
-$\mathrm{CO_2$So the only gas change is a reduction in $\mathrm{O_2$. The coloured liquid in the
+$\mathrm{CO_2$ So the only gas change is a reduction in $\mathrm{O_2$. The coloured liquid in the
 capillary tube moves towards the seeds as oxygen is consumed. The rate of movement gives the
 respiration rate.
 

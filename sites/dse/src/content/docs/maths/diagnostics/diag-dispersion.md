@@ -246,7 +246,7 @@ Within 2 standard deviations: $20 \pm 2(4) = [12,\; 28]$.
 By Chebyshev's inequality, at least $1 - \dfrac{1}{k^2} = 1 - \dfrac{1}{4} = \dfrac{3}{4} = 75\%$ of
 data lies within $k = 2$ standard deviations.
 
-If the data is approximately normally distributed, the empirical rule gives approximately $95\%$But
+If the data is approximately normally distributed, the empirical rule gives approximately $95\%$ But
 Chebyshev gives the guaranteed minimum of $75\%$.
 
 ---
@@ -379,7 +379,7 @@ $s_y^2 = 4.8$. Find the mean and standard deviation of the original data.
 
 **Solution:**
 
-The coding is $y = \dfrac{x - 25}{5} = \dfrac{1}{5}x - 5$So $a = \dfrac{1}{5}$ and $b = -5$.
+The coding is $y = \dfrac{x - 25}{5} = \dfrac{1}{5}x - 5$ So $a = \dfrac{1}{5}$ and $b = -5$.
 
 Original mean: $\bar{x} = \dfrac{\bar{y} - b}{a} = \dfrac{1.2 + 5}{1/5} = 6.2 \times 5 = 31$.
 

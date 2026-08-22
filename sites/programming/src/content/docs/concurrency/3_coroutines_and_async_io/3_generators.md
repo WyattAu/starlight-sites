@@ -1,7 +1,7 @@
 ---
 
 title: Generators (std::generator)
-description: "C++23 generators and lazy evaluation semantics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\": \"Concurrency\","
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -53,7 +53,7 @@ Determining subsumption between constraint conjunctions and disjunctions are [N4
 
 ## Proof: Partially-Ordered Overloads Are Preferred
 
-**Claim:** When two viable function templates have constraints $P$ and $Q$And $P$ subsumes $Q$ but
+**Claim:** When two viable function templates have constraints $P$ and $Q$ And $P$ subsumes $Q$ but
 $Q$ does not subsume $P$The overload with constraint $P$ is unambiguously preferred.
 
 **Proof:**
@@ -67,7 +67,7 @@ $Q$ does not subsume $P$The overload with constraint $P$ is unambiguously prefer
    total order --- some constraints are incomparable.
 
 3. The partial ordering of constraints induces a partial ordering on the set of viable function
-   templates. If $f_1$ has constraint $P$ and $f_2$ has constraint $Q$And $P \succ Q$ (strict
+   templates. If $f_1$ has constraint $P$ and $f_2$ has constraint $Q$ And $P \succ Q$ (strict
    subsumption), then $f_1$ is _more constrained_ than $f_2$ [N4950 §13.10.3.2/1].
 
 4. [N4950 §13.10.3.2/1] states: "a viable function $F_1$ is defined to be a better function than
@@ -498,7 +498,7 @@ For `Sortable = Container && RandomAccess && TotallyOrdered`The atomic constrain
 3. `std::totally_ordered<typename C::value_type>`
 
 Subsumption checks each atomic constraint individually: if every atomic constraint of $P$ is
-Subsumed by at least one atomic constraint of $Q$Then $P$ is subsumed by $Q$.
+Subsumed by at least one atomic constraint of $Q$ Then $P$ is subsumed by $Q$.
 
 ### Parameter Mapping in Subsumption
 

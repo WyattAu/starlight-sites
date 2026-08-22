@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Async Deep Dive
-description: "Rust async programming deep dive."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"rust\", \"url\": \"https://rust.wyattau.com\"}, {\"name\": \"06 Concurrency\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

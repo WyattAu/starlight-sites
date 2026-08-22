@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes Ruby resources — experience, expertise, and credentials behind Ruby programming study materials."
+description: "Wyatt's Notes offers comprehensive study materials for Ruby programming. These notes cover Ruby's object model, metaprogramming, Rails framework, and web"
 tags:
   - about
   - ruby

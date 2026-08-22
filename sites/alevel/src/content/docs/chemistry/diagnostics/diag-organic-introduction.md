@@ -95,12 +95,12 @@ double bond:** $-\text{Cl}$ (priority 1, highest atomic number) vs $-\text{CH}_2
 - **E isomer:** Higher priority groups on opposite sides
 
 (b) Lactic acid ($\text{CH}_3\text{CH}(\text{OH})\text{COOH}$) has a **chiral centre** at the second
-carbon. This carbon is bonded to four different groups: $-\text{H}$$-\text{OH}$$-\text{CH}_3$And
+carbon. This carbon is bonded to four different groups: $-\text{H}$$-\text{OH}$$-\text{CH}_3$ And
 $-\text{COOH}$. A chiral centre (asymmetric carbon) gives rise to two non-superimposable mirror
 images (enantiomers).
 
 Ethanoic acid ($\text{CH}_3\text{COOH}$) has no chiral centre. The carbonyl carbon is bonded to
-$-\text{CH}_3$$=\text{O}$And $-\text{OH}$ (three different groups, but with the double bond, it is
+$-\text{CH}_3$$=\text{O}$ And $-\text{OH}$ (three different groups, but with the double bond, it is
 not $sp^3$ hybridised and cannot be a chiral centre). The methyl carbon is bonded to three hydrogens
 and one carbon (not four different groups).
 
@@ -161,7 +161,7 @@ oxygen).
 phosphoric acid ($\text{H}_3\text{PO}_4$) catalyst at $300\,^\circ\text{C}$ and $60\,\text{atm}$**.
 This gives predominantly propan-2-ol via Markovnikov addition. For propan-1-ol specifically, use
 **hydroboration-oxidation** (not on A-Level syllabus in detail). Alternatively, react propene with
-$\text{HBr}$Then $\text{NaOH}(aq)$ to get propan-2-ol (Markovnikov product).
+$\text{HBr}$ Then $\text{NaOH}(aq)$ to get propan-2-ol (Markovnikov product).
 
 (ii) **Propan-1-ol to propanal:** Oxidise with **acidified potassium dichromate(VI)**
 ($\text{K}_2\text{Cr}_2\text{O}_7/\text{H}^+$) under **distillation** conditions to prevent

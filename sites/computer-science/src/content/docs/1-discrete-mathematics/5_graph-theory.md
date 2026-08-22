@@ -79,8 +79,8 @@ $\blacksquare$
 
 **Corollary 5.7.** $K_5$ and $K_{3,3}$ are not planar.
 
-_Proof._ $K_5$ has $V = 5$, $E = 10$But $10 \gt 3(5) - 6 = 9$. For $K_{3,3}$, $V = 6$, $E = 9$.
-Since $K_{3,3}$ has no triangles, every face has at least 4 edges, giving $4F \leq 2E$So
+_Proof._ $K_5$ has $V = 5$, $E = 10$ But $10 \gt 3(5) - 6 = 9$. For $K_{3,3}$, $V = 6$, $E = 9$.
+Since $K_{3,3}$ has no triangles, every face has at least 4 edges, giving $4F \leq 2E$ So
 $F \leq E/2 = 4.5$. But $V - E + F = 2$ gives $F = 2 - 6 + 9 = 5 \gt 4.5$. Contradiction.
 $\blacksquare$
 
@@ -217,7 +217,7 @@ Returns to the start.
 $\deg(v) \geq n/2$ for every vertex, then $G$ has a Hamilton circuit.
 
 **Theorem 5.16 (Ore's Theorem).** If $G$ is a simple graph with $n \geq 3$ vertices and
-$\deg(u) + \deg(v) \geq n$ for every pair of non-adjacent vertices $u, v$Then $G$ has a Hamilton
+$\deg(u) + \deg(v) \geq n$ for every pair of non-adjacent vertices $u, v$ Then $G$ has a Hamilton
 Circuit.
 
 Note that Dirac's theorem is a corollary of Ore’s theorem.
@@ -230,14 +230,14 @@ Note that Dirac's theorem is a corollary of Ore’s theorem.
 $K_{2,3}$ has 5 vertices. A Hamilton circuit must visit all 5 vertices and return. Label the
 Partitions as $A = \\{a_1, a_2\\}$ and $B = \\{b_1, b_2, b_3\\}$. Any cycle in a bipartite graph
 alternates Between the two partitions. A Hamilton cycle would alternate between $A$ and $B$Requiring
-$|A| = |B|$. But $|A| = 2 \neq 3 = |B|$So no Hamilton circuit exists.
+$|A| = |B|$. But $|A| = 2 \neq 3 = |B|$ So no Hamilton circuit exists.
 
 However, $K_{2,3}$ does have Hamilton paths (e.g., $a_1, b_1, a_2, b_2, b_3$ -- wait, this doesn't
 Alternate properly). Actually, in $K_{2,3}$ edges only exist between $A$ and $B$. A path must
 alternate $A, B, A, B, \ldots$ or $B, A, B, A, \ldots$. A Hamilton path visits all 5 vertices, so it
 has the Form $a, b, a, b, a$ (length 5, starting and ending in $A$) or $b, a, b, a, b$ (length 5,
-starting And ending in $B$). The first requires 3 vertices from $A$But $|A| = 2$. The second
-requires 3 Vertices from $B$And $|B| = 3$. So a Hamilton path exists: e.g.,
+starting And ending in $B$). The first requires 3 vertices from $A$ But $|A| = 2$. The second
+requires 3 Vertices from $B$ And $|B| = 3$. So a Hamilton path exists: e.g.,
 $b_1, a_1, b_2, a_2, b_3$.
 
 </details>
@@ -294,7 +294,7 @@ Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
 By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
-$N_{G''}(S) = N_G(S \cup T) \setminus N(T)$So
+$N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|$$
 
@@ -324,7 +324,7 @@ $d$--$4$.
 
 ### 5.8 Network Flows
 
-A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$A **sink** $t$And a
+A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$A **sink** $t$ And a
 **capacity** function $c : E \to \mathbb{R}_{\geq 0}$. A **flow**
 $f : E \to \mathbb{R}_{\geq 0}$ Satisfies:
 

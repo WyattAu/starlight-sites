@@ -137,7 +137,7 @@ $$I_D = \frac{1}{2} \times 450 \times 34.5 \times 10^{-9} \times 10 \times (1.3)
 
 A Type II superconductor has $\xi_0 = 5$ nm and $\lambda_0 = 50$ nm at $T = 0$. At $T = 0.9\,T_c$:
 
-(a) Calculate $\xi(T)$, $\lambda(T)$And $\kappa(T)$.
+(a) Calculate $\xi(T)$, $\lambda(T)$ And $\kappa(T)$.
 
 (b) Calculate $B_{c1}$ and $B_{c2}$ at $T = 0.9\,T_c$.
 

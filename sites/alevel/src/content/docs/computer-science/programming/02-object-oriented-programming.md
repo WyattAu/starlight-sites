@@ -212,7 +212,7 @@ Meow
 Some sound
 ```
 
-**Theorem (Liskov Substitution Principle).** If $S$ is a subtype of $T$Then objects of type $T$ May
+**Theorem (Liskov Substitution Principle).** If $S$ is a subtype of $T$ Then objects of type $T$ May
 be replaced with objects of type $S$ without altering any of the desirable properties of the
 Program.
 

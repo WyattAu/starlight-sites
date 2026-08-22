@@ -121,7 +121,7 @@ maximum power for a single battery.
 
 **Solution:**
 
-(a) Short circuit: $R_L = 0$So $I_{\max} = \varepsilon/r = 12.0/1.5 = 8.0\,\text{A}$.
+(a) Short circuit: $R_L = 0$ So $I_{\max} = \varepsilon/r = 12.0/1.5 = 8.0\,\text{A}$.
 
 Terminal PD: $V = \varepsilon - Ir = 12.0 - 8.0 \times 1.5 = 12.0 - 12.0 = 0\,\text{V}$.
 
@@ -176,13 +176,13 @@ equals the internal resistance.
 A potential divider consists of two resistors $R_1$ and $R_2$ in series across a $12\,\text{V}$
 supply. The output voltage is taken across $R_2$. A load resistor $R_L$ is connected across $R_2$.
 
-(a) Calculate the output voltage with $R_1 = 10\,\text{k}\Omega$, $R_2 = 10\,\text{k}\Omega$And no
+(a) Calculate the output voltage with $R_1 = 10\,\text{k}\Omega$, $R_2 = 10\,\text{k}\Omega$ And no
 load.
 
-(b) Calculate the output voltage when $R_L = 10\,\text{k}\Omega$ is connected across $R_2$And
+(b) Calculate the output voltage when $R_L = 10\,\text{k}\Omega$ is connected across $R_2$ And
 calculate the percentage change.
 
-(c) Determine the condition on $R_1$, $R_2$And $R_L$ for the potential divider to be "stiff" (output
+(c) Determine the condition on $R_1$, $R_2$ And $R_L$ for the potential divider to be "stiff" (output
 voltage unaffected by loading), and calculate the minimum value of $R_2$ for the output to change by
 less than $1\%$ when $R_L = 100\,\text{k}\Omega$ is connected.
 
@@ -366,7 +366,7 @@ A capacitor of capacitance $C = 100\,\mu\text{F}$ is initially uncharged. It is 
 with a resistor $R = 50\,\text{k}\Omega$ and a battery of EMF $\varepsilon = 20\,\text{V}$
 (negligible internal resistance) at $t = 0$.
 
-(a) Calculate the time constant, the current at $t = 0$And the charge on the capacitor at
+(a) Calculate the time constant, the current at $t = 0$ And the charge on the capacitor at
 $t = 10\,\text{s}$.
 
 (b) Calculate the energy stored in the capacitor when it is fully charged and the total energy
@@ -423,7 +423,7 @@ fundamental result for RC charging circuits.
 
 **Question:**
 
-A Wheatstone bridge has arms $R_1 = 100\,\Omega$$R_2 = 200\,\Omega$$R_3 = 150\,\Omega$And
+A Wheatstone bridge has arms $R_1 = 100\,\Omega$$R_2 = 200\,\Omega$$R_3 = 150\,\Omega$ And
 $R_4 = 300\,\Omega$. A galvanometer of resistance $R_g = 50\,\Omega$ is connected between the
 junction of $R_1$--$R_2$ and the junction of $R_3$--$R_4$. The supply voltage is $V = 10\,\text{V}$.
 

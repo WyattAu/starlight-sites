@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Types and Variables
-description: "Rust types and variables fundamentals."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"rust\", \"url\": \"https://rust.wyattau.com\"}, {\"name\": \"01 Fundamentals\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

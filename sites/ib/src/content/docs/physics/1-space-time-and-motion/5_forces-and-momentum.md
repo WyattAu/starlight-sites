@@ -600,14 +600,14 @@ $$
 
 This principle explains a wide range of phenomena:
 
-- **Spinning ice skater:** Pulling arms in reduces $I$So $\omega$ must increase.
+- **Spinning ice skater:** Pulling arms in reduces $I$ So $\omega$ must increase.
 - **Spinning neutron star:** When a star collapses, its moment of inertia decreases enormously,
   causing extremely rapid rotation (pulsars can spin at hundreds of revolutions per second).
 - **Orbital mechanics:** A planet in an elliptical orbit moves faster at perihelion (closer to the
   star, smaller effective $r$) and slower at aphelion (farther, larger effective $r$).
 
 **Important distinction:** Angular momentum is conserved when the net **external torque** is zero.
-Internal forces (like the skater's muscles) can change $I$ and $\omega$But not the total $L$.
+Internal forces (like the skater's muscles) can change $I$ and $\omega$ But not the total $L$.
 However, internal forces **can** change the rotational kinetic energy (as seen in the skater problem
 Where $E_k$ increased).
 

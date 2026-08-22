@@ -434,7 +434,7 @@ iterations.
 | 2    | 5   | 9    | 7   | 56       | 56 `&gt;` 23 | high = 6 |
 | 3    | 5   | 6    | 5   | 23       | 23 = 23      | Return 5 |
 
-Found at index 5 in 3 iterations. The array has 10 elements, and $\lvert \log_2 10 \rvert = 4$So 3
+Found at index 5 in 3 iterations. The array has 10 elements, and $\lvert \log_2 10 \rvert = 4$ So 3
 iterations is within the expected $O(\log n)$ bound.
 
 </details>
@@ -2513,7 +2513,7 @@ END FOR
 <summary>Solution</summary>
 
 Outer loop: $n$ iterations. Inner loop: `j` doubles each time (1, 2, 4, ..., $2^k$), terminates when
-$2^k \geq n$So $O(\log n)$ iterations.
+$2^k \geq n$ So $O(\log n)$ iterations.
 
 Total: $O(n \times \log n) = O(n \log n)$.
 

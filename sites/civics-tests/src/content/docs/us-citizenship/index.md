@@ -1,6 +1,6 @@
 ---
 title: Us Citizenship
-description: "Study notes and resources for Us Citizenship"
+description: "This section covers civic knowledge, governance structures, and responsible citizenship. Understanding these concepts is essential for informed participation"
 date: 2026-01-01T00:00:00Z
 ---
 

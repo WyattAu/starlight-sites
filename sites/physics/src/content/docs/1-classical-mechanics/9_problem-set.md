@@ -57,7 +57,7 @@ $$T = \frac{1}{2}(m_1 + m_2)\dot{x}^2, \quad V = -m_2 g x$$
 
 $$L = \frac{1}{2}(m_1 + m_2)\dot{x}^2 + m_2 g x$$
 
-Euler-Lagrange: $(m_1 + m_2)\ddot{x} = m_2 g$So
+Euler-Lagrange: $(m_1 + m_2)\ddot{x} = m_2 g$ So
 $a = m_2 g / (m_1 + m_2) = g/3 \approx 3.27\,\mathrm{m}/s^2$.
 
 **If you get this wrong, revise:** Section 3.5 (Atwood machine example), Section 3.1 (Lagrangian
@@ -188,7 +188,7 @@ dependence of the period of oscillation on the amplitude $A$.
 The Lagrangian is $L = \frac{1}{2}m\dot{x}^2 - V_0\lvert x/a\rvert^n$. For oscillation with
 amplitude $A$The energy is $E = V_0(A/a)^n$.
 
-By dimensional analysis, the period $T$ can only depend on $m$, $V_0$, $a$, $n$And $A$. Writing
+By dimensional analysis, the period $T$ can only depend on $m$, $V_0$, $a$, $n$ And $A$. Writing
 $[T] = [m]^\alpha [V_0]^\beta [a]^\gamma [A]^\delta$ and noting $[V_0] = ML^2T^{-2}$:
 
 $$T = M^{-\alpha}L^{-2\beta-\gamma-\delta}T^{2\beta} \cdot M^\alpha(V_0)^\beta a^\gamma A^\delta$$
@@ -207,8 +207,8 @@ For $n = 2$ (harmonic oscillator): $T$ is independent of $A$ (isochronous). For 
 $T \propto A^{-4/5}$.
 
 Alternatively, via the virial theorem for $V \propto x^n$:
-$\langle T \rangle = \frac{n}{2}\langle V \rangle$And
-$E = \langle T \rangle + \langle V \rangle = \frac{n+2}{2}\langle V \rangle$So the average kinetic
+$\langle T \rangle = \frac{n}{2}\langle V \rangle$ And
+$E = \langle T \rangle + \langle V \rangle = \frac{n+2}{2}\langle V \rangle$ So the average kinetic
 energy scales as $\langle T \rangle \propto E \propto A^n$. The period scales as
 $T \propto \sqrt{\langle T \rangle} / A \propto A^{n/2 - 1} = A^{-(2-n)/2}$. Wait --- let me redo
 this more carefully.
@@ -385,7 +385,7 @@ radial coordinate.
 <details>
 <summary>Solution</summary>
 
-In cylindrical coordinates, the constraint is $z = \alpha r$So $\dot{z} = \alpha\dot{r}$. The
+In cylindrical coordinates, the constraint is $z = \alpha r$ So $\dot{z} = \alpha\dot{r}$. The
 Lagrangian has two degrees of freedom, $r$ and $\phi$:
 
 $$T = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\phi}^2 + \alpha^2\dot{r}^2) = \frac{1}{2}m(1+\alpha^2)\dot{r}^2 + \frac{1}{2}mr^2\dot{\phi}^2$$
@@ -578,7 +578,7 @@ $V(r) \propto r^{-n}$. Then:
 
 $$\beta^2 = 3 - n$$
 
-For the orbit to close for all energies, $\beta^2$ must be rational for all $r_0$And since it is
+For the orbit to close for all energies, $\beta^2$ must be rational for all $r_0$ And since it is
 energy-independent for power laws, we need $\beta^2 = p^2/q^2$ for integers $p, q$.
 
 The apsidal angle is $\Delta\phi = \pi/\beta = \pi q/p$. For the orbit to close, $\Delta\phi$ must

@@ -22,7 +22,7 @@ categories:
 
 A polynomial in one variable $x$ is an expression of the form
 $a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0$Where $n \in \mathbb{N}_0$
-$a_n, a_{n-1}, \ldots, a_0 \in \mathbb{R}$And $a_n \neq 0$. Polynomials and their manipulation Form
+$a_n, a_{n-1}, \ldots, a_0 \in \mathbb{R}$ And $a_n \neq 0$. Polynomials and their manipulation Form
 a core part of the DSE compulsory mathematics syllabus, with applications ranging from Algebraic
 identities to combinatorial coefficient extraction.
 
@@ -289,8 +289,8 @@ $$
 
 $(x - c)$ is a factor of $f(x)$ if and only if $f(c) = 0$.
 
-This follows directly from the Remainder Theorem: if the remainder $f(c) = 0$Then
-$f(x) = (x-c) \cdot q(x)$So $(x-c)$ divides $f(x)$ exactly.
+This follows directly from the Remainder Theorem: if the remainder $f(c) = 0$ Then
+$f(x) = (x-c) \cdot q(x)$ So $(x-c)$ divides $f(x)$ exactly.
 
 **Corollary.** $(ax - b)$ is a factor of $f(x)$ if and only if $f\!\left(\dfrac{b}{a}\right) = 0$.
 
@@ -298,7 +298,7 @@ $f(x) = (x-c) \cdot q(x)$So $(x-c)$ divides $f(x)$ exactly.
 <summary>Example: Factor theorem</summary>
 Show that $(x - 3)$ is a factor of $f(x) = x^3 - 4x^2 + x + 6$ and hence factorize $f(x)$ completely.
 
-$f(3) = 27 - 36 + 3 + 6 = 0$So $(x - 3)$ is a factor.
+$f(3) = 27 - 36 + 3 + 6 = 0$ So $(x - 3)$ is a factor.
 
 By division (or by comparing coefficients), $f(x) = (x - 3)(x^2 - x - 2) = (x-3)(x-2)(x+1)$.
 
@@ -398,7 +398,7 @@ $f(1) = 2 + 1 - 13 + 6 = -4 \neq 0$
 
 Try $x = 2$:
 
-$f(2) = 16 + 4 - 26 + 6 = 0$So $(x-2)$ is a factor.
+$f(2) = 16 + 4 - 26 + 6 = 0$ So $(x-2)$ is a factor.
 
 Dividing: $f(x) = (x-2)(2x^2 + 5x - 3) = (x-2)(2x-1)(x+3)$.
 
@@ -537,7 +537,7 @@ Adding (i) and (ii): $3a = 26 \implies a = \dfrac{26}{3}$.
 From (i): $b = -\dfrac{26}{3}$.
 
 1. **Question:** Given that $(x - 3)$ and $(x + 1)$ are factors of $f(x) = x^3 + ax^2 + bx + c$ Find
-$a$, $b$And $c$. Hence factorize $f(x)$ completely.
+$a$, $b$ And $c$. Hence factorize $f(x)$ completely.
 
 </details>
 <summary>Answer</summary>
@@ -579,14 +579,14 @@ $$
 
 We need one more condition. Since the leading coefficient is $1$ and $f(x) = (x-3)(x+1)(x - d)$We
 Must have the constant term $c = 3d$. But $f(x)$ has constant term $c$. Comparing: $c = 3d$. We have
-One free parameter, so let us use $f(0) = c = 3d$But we need another constraint.
+One free parameter, so let us use $f(0) = c = 3d$ But we need another constraint.
 
 Let us equate the $x^2$ coefficient: $a = -(d+2)$. The $x$ coefficient: $b = 2d - 3$. Substituting
 Into (iii): $7 + 2(-d-2) + (2d-3) = 7 - 2d - 4 + 2d - 3 = 0$. Again automatically satisfied.
 
 Without additional information, $d$ is undetermined. However, since $(x-3)$ and $(x+1)$ are the
 _only_ stated factors, and the problem asks us to factorize completely, we observe that a cubic with
-Two known linear factors has a third linear factor. By Vieta, $\alpha + \beta + \gamma = -a$And
+Two known linear factors has a third linear factor. By Vieta, $\alpha + \beta + \gamma = -a$ And
 $\alpha\beta\gamma = -c$. With $\alpha = 3, \beta = -1$:
 
 $$
@@ -601,7 +601,7 @@ There are infinitely many cubics with $(x-3)$ and $(x+1)$ as factors. Assuming t
 Monic cubic (which it is, with leading coefficient $1$), we write $f(x) = (x-3)(x+1)(x - d)$ where
 $d$ is the third root. Since no further condition is given, the general answer is:
 
-$a = -(d+2)$$b = 2d - 3$$c = 3d$And $f(x) = (x-3)(x+1)(x-d)$ for any real $d$.
+$a = -(d+2)$$b = 2d - 3$$c = 3d$ And $f(x) = (x-3)(x+1)(x-d)$ for any real $d$.
 
 1. **Question:** Factorize $x^4 - 5x^2 + 4$ completely.
 
@@ -717,7 +717,7 @@ The equation is $x^2 - \dfrac{7}{3}x + \dfrac{1}{3} = 0$Or $3x^2 - 7x + 1 = 0$.
 <summary>Answer</summary>
 Test integer factors of $4$: try $x = -1$.
 
-$f(-1) = -1 - 3 + 4 = 0$So $(x+1)$ is a factor.
+$f(-1) = -1 - 3 + 4 = 0$ So $(x+1)$ is a factor.
 
 Dividing: $f(x) = (x+1)(x^2 - 4x + 4) = (x+1)(x-2)^2$.
 
@@ -794,7 +794,7 @@ should be left in exact form.
 **Worked Example 13: Cubic with given conditions**
 
 The polynomial $f(x) = x^3 + ax^2 + bx - 12$ is divisible by $(x - 3)$ and $f(1) = -18$. Find
-$a$$b$And factorise $f(x)$ completely.
+$a$$b$ And factorise $f(x)$ completely.
 
 <details>
 <summary>Solution</summary>
@@ -899,7 +899,7 @@ $$\frac{n}{6} = \frac{3}{2} \implies n = 9$$
 
 **DSE Practice 1.** When $f(x) = x^3 + ax^2 + bx + c$ is divided by $(x - 1)$The remainder is $4$.
 When divided by $(x + 1)$The remainder is $-2$. When divided by $(x - 2)$The remainder is $14$. Find
-$a$, $b$And $c$.
+$a$, $b$ And $c$.
 
 <details>
 <summary>Solution</summary>
@@ -926,7 +926,7 @@ From (i): $\dfrac{1}{3} + 2 + c = 3 \implies c = \dfrac{2}{3}$.
 We need to find all ways to get $x^3$ from expanding $(1 + 2x - x^2)^5$ using the multinomial
 theorem.
 
-The general term from choosing $a$ ones, $b$ copies of $2x$And $c$ copies of $-x^2$ where
+The general term from choosing $a$ ones, $b$ copies of $2x$ And $c$ copies of $-x^2$ where
 $a + b + c = 5$:
 
 $$\frac{5!}{a!\,b!\,c!} \cdot 1^a \cdot (2x)^b \cdot (-x^2)^c = \frac{5!}{a!\,b!\,c!} \cdot 2^b \cdot (-1)^c \cdot x^{b + 2c}$$

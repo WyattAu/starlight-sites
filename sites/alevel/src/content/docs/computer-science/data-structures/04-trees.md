@@ -72,7 +72,7 @@ $\square$
 
 **Corollary.** The minimum height of a binary tree with $n$ nodes is $\lfloor \log_2 n \rfloor$.
 
-**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$So $h + 1 \gt \log_2 n$Giving
+**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$ So $h + 1 \gt \log_2 n$Giving
 $h \geq \lceil \log_2(n+1) \rceil - 1 = \lfloor \log_2 n \rfloor$. $\square$
 
 ### Full, Complete, and Perfect Binary Trees
@@ -109,7 +109,7 @@ def bst_search(root, key):
 **Theorem.** BST search takes $O(h)$ time, where $h$ is the height of the tree.
 
 **Proof.** At each step, the algorithm descends one level, eliminating half of the remaining subtree
-(in a balanced tree). The path length is at most $h$And each step does $O(1)$ work. Total: $O(h)$.
+(in a balanced tree). The path length is at most $h$ And each step does $O(1)$ work. Total: $O(h)$.
 $\square$
 
 ### Insertion
@@ -227,7 +227,7 @@ def levelorder(root):
 
 **Proof.** By structural induction. For a leaf, the in-order traversal outputs just the leaf's key.
 For an internal node with key $k$: in-order first traverses the left subtree (all keys $\lt k$ by
-BST property), then outputs $k$Then traverses the right subtree (all keys $\gt k$). By the Inductive
+BST property), then outputs $k$ Then traverses the right subtree (all keys $\gt k$). By the Inductive
 hypothesis, each subtree's output is sorted. Hence the full output is sorted. $\square$
 
 <summary>Example: Traversals of a BST</summary>

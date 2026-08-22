@@ -154,14 +154,14 @@ With favourable cache behaviour. Always benchmark.
 
 ### Sum Rule
 
-If $f_1(n) = O(g_1(n))$ and $f_2(n) = O(g_2(n))$Then $f_1(n) + f_2(n) = O(\max(g_1(n),
+If $f_1(n) = O(g_1(n))$ and $f_2(n) = O(g_2(n))$ Then $f_1(n) + f_2(n) = O(\max(g_1(n),
 G_2(n)))$.
 
 This is why we drop lower-order terms: $O(n^2 + n \log n + 3n) = O(n^2)$ because $n^2$ dominates.
 
 ### Product Rule
 
-If $f_1(n) = O(g_1(n))$ and $f_2(n) = O(g_2(n))$Then $f_1(n) \cdot f_2(n) = O(g_1(n) \cdot
+If $f_1(n) = O(g_1(n))$ and $f_2(n) = O(g_2(n))$ Then $f_1(n) \cdot f_2(n) = O(g_1(n) \cdot
 G_2(n))$.
 
 ### Polynomial Rule
@@ -188,32 +188,32 @@ Where $a \ge 1$ and $b \gt 1$. Let $c_{crit} = \log_b a$ (the critical exponent)
 
 ### Case 1: Work Dominated by Leaves
 
-If $f(n) = O(n^{c_{crit} - \epsilon})$ for some $\epsilon \gt 0$Then $T(n) = \Theta(n^{c_{crit}})$.
+If $f(n) = O(n^{c_{crit} - \epsilon})$ for some $\epsilon \gt 0$ Then $T(n) = \Theta(n^{c_{crit}})$.
 
 The recursive work at the leaves dominates the combine step.
 
 **Example:** $T(n) = 8T(n/2) + O(n)$
 
-- $a = 8$, $b = 2$So $c_{crit} = \log_2 8 = 3$
-- $f(n) = O(n) = O(n^{3-2})$So $\epsilon = 2$
+- $a = 8$, $b = 2$ So $c_{crit} = \log_2 8 = 3$
+- $f(n) = O(n) = O(n^{3-2})$ So $\epsilon = 2$
 - $T(n) = \Theta(n^3)$
 
 ### Case 2: Work Equal Across Levels
 
-If $f(n) = \Theta(n^{c_{crit}} \log^k n)$ for some $k \ge 0$Then
+If $f(n) = \Theta(n^{c_{crit}} \log^k n)$ for some $k \ge 0$ Then
 $T(n) = \Theta(n^{c_{crit}} \log^{k+1} n)$.
 
 The work is the same at each level of the recursion tree.
 
 **Example:** $T(n) = 2T(n/2) + O(n)$
 
-- $a = 2$, $b = 2$So $c_{crit} = \log_2 2 = 1$
-- $f(n) = O(n) = \Theta(n^1 \log^0 n)$So $k = 0$
+- $a = 2$, $b = 2$ So $c_{crit} = \log_2 2 = 1$
+- $f(n) = O(n) = \Theta(n^1 \log^0 n)$ So $k = 0$
 - $T(n) = \Theta(n \log n)$ — this is merge sort
 
 ### Case 3: Work Dominated by Root
 
-If $f(n) = \Omega(n^{c_{crit} + \epsilon})$ for some $\epsilon \gt 0$And
+If $f(n) = \Omega(n^{c_{crit} + \epsilon})$ for some $\epsilon \gt 0$ And
 $a \cdot f(n/b) \le
 C \cdot f(n)$ for some $C \lt 1$ and all sufficiently large $N$ (regularity
 Condition), then $T(n)
@@ -223,8 +223,8 @@ The combine step dominates the recursive work.
 
 **Example:** $T(n) = 2T(n/2) + O(n^2)$
 
-- $a = 2$, $b = 2$So $c_{crit} = 1$
-- $f(n) = O(n^2) = \Omega(n^{1+1})$So $\epsilon = 1$
+- $a = 2$, $b = 2$ So $c_{crit} = 1$
+- $f(n) = O(n^2) = \Omega(n^{1+1})$ So $\epsilon = 1$
 - Regularity: $2 \cdot (n/2)^2 = n^2/2 \le 0.5 \cdot n^2$ — satisfied
 - $T(n) = \Theta(n^2)$
 
@@ -397,7 +397,7 @@ Any comparison-based sorting algorithm requires $\Omega(n \log n)$ comparisons i
 - Each internal node represents a comparison, each leaf represents a permutation
 - There are $n!$ possible permutations of $n$ elements
 - A binary tree of height $h$ has at most $2^h$ leaves
-- Therefore: $2^h \ge n!$So $h \ge \log_2(n!) = \Omega(n \log n)$ (by Stirling's approximation)
+- Therefore: $2^h \ge n!$ So $h \ge \log_2(n!) = \Omega(n \log n)$ (by Stirling's approximation)
 
 This is why non-comparison sorts (counting sort, radix sort) can beat $O(n \log n)$ — they do not
 Compare elements pairwise, so the decision tree argument does not apply.
@@ -451,7 +451,7 @@ graph TD
 ### Reductions
 
 A problem $A$ **reduces to** problem $B$ (written $A \le_p B$) if an algorithm for $B$ can be used
-To solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$Then $B$ is also NP-hard. If
+To solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
 $B$ is also in NP, then $B$ is NP-complete.
 
 **Cook-Levin Theorem:** SAT (Boolean satisfiability) is NP-complete. Every other NP-complete problem
@@ -606,7 +606,7 @@ The Akra-Bazzi theorem generalises the Master Theorem for recurrences of the for
 
 $$T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)$$
 
-Where $a_i \gt 0$, $0 \lt b_i \lt 1$And $h_i(x) = O(x / \log^2 x)$. Find $p$ such that
+Where $a_i \gt 0$, $0 \lt b_i \lt 1$ And $h_i(x) = O(x / \log^2 x)$. Find $p$ such that
 $\sum_{i=1}^{k} a_i b_i^p = 1$. Then:
 
 $$T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)$$
@@ -720,7 +720,7 @@ Use induction to verify your answer. This catches errors in the tree analysis.
 **Example: $T(n) = 2T(n/2) + n \log n$**
 
 The Master Theorem does not directly apply because $f(n) = n \log n$ is not of the form
-$n^c \log^k n$ for the critical exponent (Case 2 requires the same exponent as $c_{crit}$But
+$n^c \log^k n$ for the critical exponent (Case 2 requires the same exponent as $c_{crit}$ But
 $\log n$ is not a power of $n$).
 
 Recursion tree:
@@ -754,7 +754,7 @@ Some algorithms reduce the problem size by a constant rather than a factor.
 **Example:** Binary search — $T(n) = T(n/2) + O(1)$
 
 This is a degenerate case of the Master Theorem with $a = 1$, $b = 2$: $c_{crit} = \log_2 1 = 0$
-$f(n) = O(1) = O(n^0)$So Case 2 gives $T(n) = O(\log n)$.
+$f(n) = O(1) = O(n^0)$ So Case 2 gives $T(n) = O(\log n)$.
 
 **Example:** Euclidean GCD — $T(a, b) = T(b, a \bmod b) + O(1)$
 

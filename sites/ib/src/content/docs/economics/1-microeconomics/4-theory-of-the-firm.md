@@ -609,7 +609,7 @@ The first-order condition is:
 
 $$\mathrm{MR}_i = MC \quad \forall \; i$$
 
-Since $\mathrm{MR}_i = P_i(1 + 1/\mathrm{PED}_i)$And $\mathrm{MR}_i = MC$ for all segments:
+Since $\mathrm{MR}_i = P_i(1 + 1/\mathrm{PED}_i)$ And $\mathrm{MR}_i = MC$ for all segments:
 
 $$P_i(1 + 1/\mathrm{PED}_i) = P_j(1 + 1/\mathrm{PED}_j) = MC$$
 
@@ -622,7 +622,7 @@ If $|\mathrm{PED}_i| < |\mathrm{PED}_j|$ (market $i$ has less elastic demand), t
 **Worked example:** A monopolist serves two markets with demand curves:
 
 Market 1 (adults): $P_1 = 40 - Q_1$, $\mathrm{PED}_1 = -2$ at equilibrium Market 2 (students):
-$P_2 = 25 - Q_2$, $\mathrm{PED}_2 = -3$ at equilibrium Total cost: $\mathrm{TC} = 50 + 5(Q_1 + Q_2)$So
+$P_2 = 25 - Q_2$, $\mathrm{PED}_2 = -3$ at equilibrium Total cost: $\mathrm{TC} = 50 + 5(Q_1 + Q_2)$ So
 $MC = 5$.
 
 For each market: $MR = MC = 5$.
@@ -719,7 +719,7 @@ $$\mathrm{TC}_L = w \cdot L = (a + bL) \cdot L = aL + bL^2$$
 $$\mathrm{MRC}_L = \frac{d\mathrm{TC}_L}{dL} = a + 2bL$$
 
 The MRC curve lies above the supply (average cost of labour) curve. The monopsonist hires where
-$\mathrm{MRP}_L = \mathrm{MRC}_L$But pays the wage indicated by the supply curve at that Quantity.
+$\mathrm{MRP}_L = \mathrm{MRC}_L$ But pays the wage indicated by the supply curve at that Quantity.
 
 **Comparison with competitive labour market:**
 
@@ -737,7 +737,7 @@ $$100 - 2L = 20 + 4L \implies 80 = 6L \implies L^* = 13.33$$
 
 Wage paid $= 20 + 2(13.33) = 46.67$
 
-Under competitive conditions: $\mathrm{MRP}_L = w$So
+Under competitive conditions: $\mathrm{MRP}_L = w$ So
 $100 - 2L = 20 + 2L \implies 80 = 4L \implies L_c = 20$ $w_c = 20 + 2(20) = 60$.
 
 The monopsony hires 13.33 workers at a wage of 46.67, compared to 20 workers at a wage of 60 under
@@ -905,7 +905,7 @@ Total profit $= 338 + 128 = 466$
 $P = 20 - 0.5(Q - 20) = 30 - 0.5Q$ For $Q > 20$. Actually, we need to sum horizontally.
 
 For $P \geq 20$: only adults buy. $Q_A = 60 - 2P$$Q_S = 0$. For $P < 20$: both buy.
-$Q_A = 60 - 2P$$Q_S = 40 - 2P$. Total $Q = 100 - 4P$So $P = 25 - 0.25Q$.
+$Q_A = 60 - 2P$$Q_S = 40 - 2P$. Total $Q = 100 - 4P$ So $P = 25 - 0.25Q$.
 
 $\mathrm{MR} = 25 - 0.5Q = 4 \implies Q = 42$
 
@@ -941,7 +941,7 @@ $50 - 2L = 10 + 2L \implies 40 = 4L \implies L^* = 10$
 
 Wage $= 10 + 10 = 20$
 
-(b) Competitive equilibrium: $\mathrm{MRP}_L = w$So
+(b) Competitive equilibrium: $\mathrm{MRP}_L = w$ So
 $50 - 2L = 10 + L \implies 40 = 3L \implies L_c = 13.33$ $w_c = 23.33$.
 
 The monopsony under-employs by $13.33 - 10 = 3.33$ workers. The DWL is:
@@ -961,7 +961,7 @@ The firm now faces: $\mathrm{MRC} = 22$ for $L \leq 12$.
 
 $\mathrm{MRP}_L = 22 \implies 50 - 2L = 22 \implies 2L = 28 \implies L = 14$.
 
-But at $L = 14$The supply wage would be $10 + 14 = 24 > 22$So the firm must pay $24$ for The 14th
+But at $L = 14$The supply wage would be $10 + 14 = 24 > 22$ So the firm must pay $24$ for The 14th
 worker. The $\mathrm{MRC}$ jumps at $L = 12$.
 
 For $L > 12$: $\mathrm{MRC}_L = 10 + 2L$ (back to the original supply curve).
@@ -971,10 +971,10 @@ $w = \max(22, 10 + 14) = 24$ for the 14th worker. But the minimum wage is only b
 $L = 12$.
 
 More precisely, the firm faces $\mathrm{MRC} = 22$ for the first 12 workers. The $\mathrm{MRP}$ At
-$L = 12$ is $50 - 24 = 26 > 22$So the firm wants to hire more. For $L > 12$The $\mathrm{MRC}$
+$L = 12$ is $50 - 24 = 26 > 22$ So the firm wants to hire more. For $L > 12$The $\mathrm{MRC}$
 reverts to $10 + 2L$.
 
-Setting $50 - 2L = 10 + 2L \implies L = 10$But this is at the original equilibrium. The firm Hires
+Setting $50 - 2L = 10 + 2L \implies L = 10$ But this is at the original equilibrium. The firm Hires
 where the horizontal portion of MRC (at 22) intersects MRP:
 
 $50 - 2L = 22 \implies L = 14$
@@ -1036,7 +1036,7 @@ Spending is `USD 625`.
 (c) Subsidy of $s = 10$: new supply is $Q_s = P - 20 + 10$Or $P = Q_s + 10$. The supply curve Shifts
 down.
 
-In demand-supply form: $Q_d = 100 - P$$P = Q_s + 10$So $Q_s = P - 10$.
+In demand-supply form: $Q_d = 100 - P$$P = Q_s + 10$ So $Q_s = P - 10$.
 
 $100 - P = P - 10 \implies 2P = 110 \implies P_d = 55$$P_s = 45$.
 
@@ -1132,7 +1132,7 @@ $V(A) = 0.8 \times 1484 = 1187.2$
 
 $V(B) = (3000)^{0.88} = e^{0.88 \times 8.006} = e^{7.045} = 1148$
 
-$V(A) = 1187.2 > V(B) = 1148$So prospect theory also predicts A.
+$V(A) = 1187.2 > V(B) = 1148$ So prospect theory also predicts A.
 
 (c) Framed as losses:
 
@@ -1143,7 +1143,7 @@ $V(A) = 0.8 \times (-2 \times 4000^{0.88}) + 0.2 \times 0 = 0.8 \times (-2968) =
 
 $V(B) = -2 \times 3000^{0.88} = -2 \times 1148 = -2296$
 
-$V(A) = -2374.4 < V(B) = -2296$So prospect theory predicts B (the certain loss).
+$V(A) = -2374.4 < V(B) = -2296$ So prospect theory predicts B (the certain loss).
 
 This demonstrates the **reflection effect:** people are risk-averse for gains but risk-seeking for
 Losses. Expected utility theory predicts A in both frames (same expected value).

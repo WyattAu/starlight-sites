@@ -30,7 +30,7 @@ tableOfContents: false
 ### UT-1: VSEPR and Molecular Geometry
 
 **Question:** Draw the Lewis structures and predict the shapes and bond angles of
-$\text{XeF}_4$, $\text{SF}_4$And $\text{ClF}_3$. Identify the deviation from ideal bond angles where
+$\text{XeF}_4$, $\text{SF}_4$ And $\text{ClF}_3$. Identify the deviation from ideal bond angles where
 applicable.
 
 **Solution:**
@@ -63,7 +63,7 @@ angles: $\approx 87.5^\circ$ (slightly less than $90^\circ$ due to lone pair rep
 ### UT-2: Hybridisation Determination
 
 **Question:** Determine the hybridisation of the central atom in
-$\text{BF}_3$$\text{NH}_3$$\text{H}_2\text{O}$$\text{XeF}_2$And $\text{BrF}_5$. For each, state the
+$\text{BF}_3$$\text{NH}_3$$\text{H}_2\text{O}$$\text{XeF}_2$ And $\text{BrF}_5$. For each, state the
 number of electron domains and the predicted geometry.
 
 **Solution:**
@@ -157,7 +157,7 @@ overall interaction highly favourable.
 ### IT-2: Hybridisation and Bond Strength (with Energetics)
 
 **Question:** The bond enthalpy of a C--C single bond is $347\ \text{kJ mol}^{-1}$A C=C double bond
-is $614\ \text{kJ mol}^{-1}$And a C$\equiv$C triple bond is $839\ \text{kJ mol}^{-1}$. The second
+is $614\ \text{kJ mol}^{-1}$ And a C$\equiv$C triple bond is $839\ \text{kJ mol}^{-1}$. The second
 bond (first $\pi$ bond) adds $267\ \text{kJ mol}^{-1}$ but the third bond (second $\pi$ bond) only
 adds $225\ \text{kJ mol}^{-1}$. Explain this trend using hybridisation concepts.
 

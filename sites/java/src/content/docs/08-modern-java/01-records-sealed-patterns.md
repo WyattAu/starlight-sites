@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Records, Sealed Classes, and Pattern Matching
-description: "Java records, sealed classes, and pattern matching."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"java\", \"url\": \"https://java.wyattau.com\"}, {\"name\": \"08 Modern Java\", \"url\":"
 categories: ["java"]
 ---
 

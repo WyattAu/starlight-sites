@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "数学诊断测试"
-description: "高考数学自测"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gaokao\", \"url\": \"https://gaokao.wyattau.com\"}, {\"name\": \"Diagnostics\", \"url\":"
 sidebar_position: 60
 tableOfContents: false
 ---

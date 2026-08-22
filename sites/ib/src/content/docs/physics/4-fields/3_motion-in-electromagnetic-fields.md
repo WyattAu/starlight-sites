@@ -807,7 +807,7 @@ Velocity.
 <summary>Answer 5</summary>
 
 The magnetic force is always perpendicular to the velocity of the charged particle (by definition,
-$\bm{F} = q(\bm{v} \times \bm{B})$). The work done by a force is $W = \bm{F} \cdot \bm{d}$And Since
+$\bm{F} = q(\bm{v} \times \bm{B})$). The work done by a force is $W = \bm{F} \cdot \bm{d}$ And Since
 the displacement $\bm{d}$ is parallel to $\bm{v}$The dot product $\bm{F} \cdot \bm{d} = 0$. By the
 work-energy theorem, $W = \Delta E_k = 0$Meaning the kinetic energy (and therefore the Speed) of the
 particle does not change. The magnetic force only changes the **direction** of the Velocity, causing
@@ -827,7 +827,7 @@ Circular path. ($m_p = 1.67 \times 10^{-27}$ kg, $q = 1.60 \times 10^{-19}$ C)
 <details>
 <summary>Answer 6</summary>
 
-From the accelerating potential: $qV = \frac{1}{2}mv^2$So $v = \sqrt{\frac{2qV}{m}}$.
+From the accelerating potential: $qV = \frac{1}{2}mv^2$ So $v = \sqrt{\frac{2qV}{m}}$.
 $v = \sqrt{\frac{2(1.60 \times 10^{-19})(2000)}{1.67 \times 10^{-27}}} = \sqrt{\frac{6.40 \times 10^{-16}}{1.67 \times 10^{-27}}} = \sqrt{3.83 \times 10^{11}} = 6.19 \times 10^5$
 M/s.
 $r = \frac{mv}{qB} = \frac{(1.67 \times 10^{-27})(6.19 \times 10^5)}{(1.60 \times 10^{-19})(0.10)} = \frac{1.03 \times 10^{-21}}{1.60 \times 10^{-20}} = 0.0646$

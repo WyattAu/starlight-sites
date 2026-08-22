@@ -33,12 +33,12 @@ Provided the limit exists. This is the rate of change of $f$ in the direction of
 Holding all other variables fixed.
 
 **Notation.** Common notations for the partial derivative with respect to $x_i$ include $f_{x_i}$,
-$\partial_i f$And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
+$\partial_i f$ And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
 
 ### 1.2 Clairaut"s Theorem
 
 **Theorem 1.1 (Clairaut's Theorem / Schwarz’s Theorem).** If $f_{xy}$ and $f_{yx}$ are continuous on
-an Open set containing $(a, b)$Then
+an Open set containing $(a, b)$ Then
 
 $$\frac{\partial^2 f}{\partial x \partial y}(a,b) = \frac{\partial^2 f}{\partial y \partial x}(a,b)$$
 
@@ -100,13 +100,13 @@ The linear approximation of $f$ near $\mathbf{a}$ is
 $$f(\mathbf{a} + \mathbf{h}) \approx f(\mathbf{a}) + \nabla f(\mathbf{a}) \cdot \mathbf{h}$$
 
 **Theorem 1.2.** If all partial derivatives of $f$ exist and are continuous in a neighbourhood of
-$\mathbf{a}$Then $f$ is differentiable at $\mathbf{a}$.
+$\mathbf{a}$ Then $f$ is differentiable at $\mathbf{a}$.
 
 _Remark._ Functions whose partial derivatives exist and are continuous on an open set $U$ are called
 $C^1(U)$. Theorem 1.2 says $C^1 \implies$ differentiable. The converse is false: there exist
 Differentiable functions whose partial derivatives are not continuous.
 
-**Proposition.** If $f$ is differentiable at $\mathbf{a}$Then $f$ is continuous at $\mathbf{a}$.
+**Proposition.** If $f$ is differentiable at $\mathbf{a}$ Then $f$ is continuous at $\mathbf{a}$.
 
 _Proof._ From the definition of differentiability:
 
@@ -123,7 +123,7 @@ is
 
 $$D_{\mathbf{u}} f(\mathbf{a}) = \lim_{h \to 0} \frac{f(\mathbf{a} + h\mathbf{u}) - f(\mathbf{a})}{h}$$
 
-**Theorem 1.3.** If $f$ is differentiable at $\mathbf{a}$Then
+**Theorem 1.3.** If $f$ is differentiable at $\mathbf{a}$ Then
 
 $$D_{\mathbf{u}} f(\mathbf{a}) = \nabla f(\mathbf{a}) \cdot \mathbf{u}$$
 
@@ -147,7 +147,7 @@ With equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
 
 **Theorem 1.5 (Multivariable Chain Rule).** If $\mathbf{g} : \mathbb{R}^m \to \mathbb{R}^n$ is
 Differentiable at $\mathbf{a}$ and $f : \mathbb{R}^n \to \mathbb{R}$ is differentiable at
-$\mathbf{g}(\mathbf{a})$Then
+$\mathbf{g}(\mathbf{a})$ Then
 
 $$\nabla (f \circ \mathbf{g})(\mathbf{a}) = J\mathbf{g}(\mathbf{a})^T \nabla f(\mathbf{g}(\mathbf{a}))$$
 
@@ -159,7 +159,7 @@ Then
 $$\frac{h(t) - h(0)}{t} = \frac{f(\mathbf{g}(\mathbf{a} + t\mathbf{v})) - f(\mathbf{g}(\mathbf{a}))}{t}$$
 
 Let $\mathbf{k} = \mathbf{g}(\mathbf{a} + t\mathbf{v}) - \mathbf{g}(\mathbf{a})$. By
-differentiability of $\mathbf{g}$ $\mathbf{k} = J\mathbf{g}(\mathbf{a})(t\mathbf{v}) + o(t)$And
+differentiability of $\mathbf{g}$ $\mathbf{k} = J\mathbf{g}(\mathbf{a})(t\mathbf{v}) + o(t)$ And
 $\mathbf{k} \to \mathbf{0}$ as $t \to 0$. By Differentiability of $f$:
 
 $$f(\mathbf{g}(\mathbf{a}) + \mathbf{k}) - f(\mathbf{g}(\mathbf{a})) = \nabla f(\mathbf{g}(\mathbf{a})) \cdot \mathbf{k} + o(\lVert \mathbf{k} \rVert)$$
@@ -241,7 +241,7 @@ $\mathbf{v} = (3, -4)$.
 <details>
 <summary>Solution</summary>
 
-First normalise $\mathbf{v}$: $\lVert \mathbf{v} \rVert = \sqrt{9 + 16} = 5$So
+First normalise $\mathbf{v}$: $\lVert \mathbf{v} \rVert = \sqrt{9 + 16} = 5$ So
 $\mathbf{u} = (3/5,\, -4/5)$.
 
 $$\nabla f = (2xy^3,\, 3x^2 y^2)$$
@@ -268,7 +268,7 @@ $$F_x + F_z \cdot \frac{\partial z}{\partial x} = 0 \implies \frac{\partial z}{\
 Similarly, $\frac{\partial z}{\partial y} = -\frac{F_y}{F_z}$.
 
 **Proposition 1.6 (Implicit Function Theorem, special case).** If $F : \mathbb{R}^3 \to \mathbb{R}$
-is $C^1$ and $F(a,b,c) = 0$ with $F_z(a,b,c) \neq 0$Then there exist neighbourhoods $U$ of $(a,b)$
+is $C^1$ and $F(a,b,c) = 0$ with $F_z(a,b,c) \neq 0$ Then there exist neighbourhoods $U$ of $(a,b)$
 and $V$ of $c$ and a unique $C^1$ function $\varphi : U \to V$ with $\varphi(a,b) = c$ and
 $F(x, y, \varphi(x,y)) = 0$ for all $(x,y) \in U$.
 
@@ -292,7 +292,7 @@ $\blacksquare$
 ### 1.11 Taylor's Theorem for Multivariable Functions
 
 **Theorem 1.7 (Taylor's Theorem).** Let $f : U \subseteq \mathbb{R}^n \to \mathbb{R}$ be of class
-$C^{k+1}$ On an open convex set $U$And let $\mathbf{a} \in U$. Then for all $\mathbf{x} \in U$:
+$C^{k+1}$ On an open convex set $U$ And let $\mathbf{a} \in U$. Then for all $\mathbf{x} \in U$:
 
 $$f(\mathbf{x}) = f(\mathbf{a}) + \nabla f(\mathbf{a}) \cdot (\mathbf{x} - \mathbf{a}) + \frac{1}{2!}(\mathbf{x} - \mathbf{a})^T H_f(\mathbf{a})(\mathbf{x} - \mathbf{a}) + \cdots + R_k$$
 
@@ -316,7 +316,7 @@ Apply the single-variable Taylor theorem to $\phi$ at $t = 0$:
 $$\phi(1) = \phi(0) + \phi'(0) + \frac{1}{2!}\phi''(0) + \cdots + \frac{1}{k!}\phi^{(k)}(0) + \frac{1}{(k+1)!}\phi^{(k+1)}(\tau)$$
 
 For some $\tau \in (0, 1)$. By the multivariable chain rule,
-$\phi'(t) = \nabla f(\mathbf{a} + t(\mathbf{x}-\mathbf{a})) \cdot (\mathbf{x}-\mathbf{a})$And higher
+$\phi'(t) = \nabla f(\mathbf{a} + t(\mathbf{x}-\mathbf{a})) \cdot (\mathbf{x}-\mathbf{a})$ And higher
 Derivatives involve higher-order partial derivatives of $f$. Substituting
 $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\blacksquare$
 
@@ -343,7 +343,7 @@ Riemann sums:
 
 $$\iint_R f(x,y)\, dA = \lim_{\lVert P \rVert \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}$$
 
-**Theorem 2.1 (Fubini's Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$Then
+**Theorem 2.1 (Fubini's Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$ Then
 
 $$\iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy$$
 
@@ -378,7 +378,7 @@ $y = x + 2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$So $(x-2)(x+1) = 0$Giving $x = -1$ and
+The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$Giving $x = -1$ and
 $x = 2$. As a Type I region, $D = \\{(x,y) : -1 \leq x \leq 2,\, x^2 \leq y \leq x+2\\}$.
 
 $$\iint_D xy\, dA = \int_{-1}^{2} \int_{x^2}^{x+2} xy\, dy\, dx = \int_{-1}^{2} x \left[\frac{y^2}{2}\right]_{x^2}^{x+2}\, dx$$
@@ -397,7 +397,7 @@ $\blacksquare$
 
 </details>
 
-**Problem.** Evaluate $\iint_D x\, dA$ where $D$ is the region bounded by $y = x$, $y = 2x$And
+**Problem.** Evaluate $\iint_D x\, dA$ where $D$ is the region bounded by $y = x$, $y = 2x$ And
 $x + y = 2$.
 
 <details>
@@ -417,10 +417,10 @@ Wait, this is getting messy. Let me use Type II instead. For each $y$, $x$ range
 (for $0 \leq y \leq 4/3$) and from $y/2$ to $2 - y$ (for $4/3 \leq y \leq 1$). Actually, the
 simplest approach is to split $D$ at $y = 4/3$.
 
-For $0 \leq y \leq 1$: $y/2 \leq x \leq y$ (between $y = x$ and $y = 2x$But only up to $x + y = 2$).
-Actually $y = 2x$ gives $x = y/2$And $y = x$ gives $x = y$. But $x + y = 2$ gives $x = 2 - y$. For
-$y \leq 1$: both $y \leq 2 - y$ (since $y \leq 1$) and $y/2 \leq y$So the right boundary is $y$. But
-we also need $x + y \leq 2$I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$So the constraint
+For $0 \leq y \leq 1$: $y/2 \leq x \leq y$ (between $y = x$ and $y = 2x$ But only up to $x + y = 2$).
+Actually $y = 2x$ gives $x = y/2$ And $y = x$ gives $x = y$. But $x + y = 2$ gives $x = 2 - y$. For
+$y \leq 1$: both $y \leq 2 - y$ (since $y \leq 1$) and $y/2 \leq y$ So the right boundary is $y$. But
+we also need $x + y \leq 2$I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$ So the constraint
 $x \leq y$ is tighter.
 
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$.
@@ -523,7 +523,7 @@ $x^2 + y^2 + z^2 = 2$ and below by the paraboloid $z = x^2 + y^2$.
 <summary>Solution</summary>
 
 The surfaces intersect when $x^2 + y^2 + (x^2 + y^2)^2 = 2$. Let $r^2 = x^2 + y^2$. Then
-$r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$So $r = 1$ (positive root). Use Cylindrical
+$r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
 coordinates. The region $E'$ is
 
 $$0 \leq r \leq 1, \quad 0 \leq \theta \leq 2\pi, \quad r^2 \leq z \leq \sqrt{2 - r^2}$$
@@ -544,7 +544,7 @@ $x^2 + y^2 + z^2 \leq a^2$.
 <details>
 <summary>Solution</summary>
 
-Use spherical coordinates. In spherical: $x^2 + y^2 + z^2 = \rho^2$And $E'$ is $0 \leq \rho \leq a$,
+Use spherical coordinates. In spherical: $x^2 + y^2 + z^2 = \rho^2$ And $E'$ is $0 \leq \rho \leq a$,
 $0 \leq \phi \leq \pi$, $0 \leq \theta \leq 2\pi$.
 
 $$\iiint_E (x^2 + y^2 + z^2)\, dV = \int_0^{2\pi} \int_0^{\pi} \int_0^a \rho^2 \cdot \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta$$
@@ -569,7 +569,7 @@ $$= \int_0^{2\pi} \left[\frac{r^4}{4}\right]_0^2 d\theta = \int_0^{2\pi} 4\, d\t
 
 $\blacksquare$
 
-**Problem.** Evaluate $\iint_D \frac{y}{x}\, dA$ where $D$ is bounded by $y = x$, $y = 2x$And
+**Problem.** Evaluate $\iint_D \frac{y}{x}\, dA$ where $D$ is bounded by $y = x$, $y = 2x$ And
 $x = 1$.
 
 <details>
@@ -638,10 +638,10 @@ scalar Potential $\phi$ such that $\mathbf{F} = \nabla \phi$.
 **Theorem 3.1.** $\mathbf{F}$ is conservative (on a connected domain) if and only if
 $\nabla \times \mathbf{F} = \mathbf{0}$.
 
-_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$Then by Clairaut's theorem
+_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$ Then by Clairaut's theorem
 $f_{xy} = f_{yx}$Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
 
-($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$Then for any
+($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$ Then for any
 Closed curve $C$ in $D$Stokes' theorem gives
 $\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = 0$.
 This means line integrals are path-independent, so we can define
@@ -656,7 +656,7 @@ by $\mathbf{r}(t)$ for $a \leq t \leq b$ is
 $$\int_C \mathbf{F} \cdot d\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t)\, dt$$
 
 **Theorem 3.2 (Fundamental Theorem for Line Integrals).** If $\mathbf{F} = \nabla \phi$ and $C$ is a
-Piecewise smooth curve from $A$ to $B$Then
+Piecewise smooth curve from $A$ to $B$ Then
 
 $$\int_C \mathbf{F} \cdot d\mathbf{r} = \phi(B) - \phi(A)$$
 
@@ -706,19 +706,19 @@ $\blacksquare$
 
 **Theorem 3.4 (Green's Theorem).** Let $C$ be a positively oriented, piecewise smooth, simple closed
 Curve bounding a region $D$. If $P$ and $Q$ have continuous partial derivatives on an open set
-Containing $D$Then
+Containing $D$ Then
 
 $$\oint_C P\, dx + Q\, dy = \iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA$$
 
 _Proof (for a Type I region)._ Assume $D$ is a Type I region:
 $D = \\{(x,y) : a \leq x \leq b,\, g_1(x) \leq y \leq g_2(x)\\}$. The boundary $C$ consists of Four
-pieces: bottom $C_1$Right $C_2$Top $C_3$And left $C_4$.
+pieces: bottom $C_1$Right $C_2$Top $C_3$ And left $C_4$.
 
 We first prove $\oint_C P\, dx = -\iint_D \frac{\partial P}{\partial y}\, dA$.
 
-On $C_1$: $y = g_1(x)$, $x$ goes from $a$ to $b$So $\int_{C_1} P\, dx = \int_a^b P(x, g_1(x))\, dx$.
+On $C_1$: $y = g_1(x)$, $x$ goes from $a$ to $b$ So $\int_{C_1} P\, dx = \int_a^b P(x, g_1(x))\, dx$.
 
-On $C_3$: $y = g_2(x)$, $x$ goes from $b$ to $a$So
+On $C_3$: $y = g_2(x)$, $x$ goes from $b$ to $a$ So
 $\int_{C_3} P\, dx = \int_b^a P(x, g_2(x))\, dx = -\int_a^b P(x, g_2(x))\, dx$.
 
 On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$Hence $\int_{C_2} P\, dx = \int_{C_4} P\, dx = 0$.
@@ -790,7 +790,7 @@ $\blacksquare$
 
 **Theorem 3.6 (Stokes' Theorem).** Let $S$ be an oriented surface with piecewise smooth boundary
 curve $C$ (positively oriented). If $\mathbf{F}$ has continuous partial derivatives on an open set
-containing $S$Then
+containing $S$ Then
 
 $$\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}$$
 
@@ -856,7 +856,7 @@ $\blacksquare$
 
 **Theorem 3.7 (Divergence Theorem / Gauss's Theorem).** Let $E$ be a solid region bounded by a
 closed Surface $S$ with outward normal $\mathbf{n}$. If $\mathbf{F}$ has continuous partial
-derivatives on an Open set containing $E$Then
+derivatives on an Open set containing $E$ Then
 
 $$\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E \nabla \cdot \mathbf{F}\, dV$$
 
@@ -974,7 +974,7 @@ $$\frac{\partial \phi}{\partial y} = x^2 + g_y(y,z) = x^2 + 2yz \implies g_y(y,z
 
 $$\frac{\partial \phi}{\partial z} = 2xz + y^2 + h'(z)$$
 
-This must equal $2xz + y^2$So $h'(z) = 0$Giving $h(z) = C$.
+This must equal $2xz + y^2$ So $h'(z) = 0$Giving $h(z) = C$.
 
 Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 
@@ -1059,11 +1059,11 @@ Where $H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{xy} & f_{yy} \end{pmatrix}$ is 
 
 By Sylvester's criterion for $2 \times 2$ symmetric matrices:
 
-- If $\det(H) = D \gt 0$ and $f_{xx} \gt 0$Then $H$ is positive definite, so $Q \gt 0$ for all
+- If $\det(H) = D \gt 0$ and $f_{xx} \gt 0$ Then $H$ is positive definite, so $Q \gt 0$ for all
   $(h,k) \neq (0,0)$Giving a local minimum.
-- If $\det(H) = D \gt 0$ and $f_{xx} \lt 0$Then $H$ is negative definite, so $Q \lt 0$ for all
+- If $\det(H) = D \gt 0$ and $f_{xx} \lt 0$ Then $H$ is negative definite, so $Q \lt 0$ for all
   $(h,k) \neq (0,0)$Giving a local maximum.
-- If $\det(H) = D \lt 0$Then $H$ is indefinite, so $Q$ takes both positive and negative values,
+- If $\det(H) = D \lt 0$ Then $H$ is indefinite, so $Q$ takes both positive and negative values,
   giving a saddle point.
 
 When $D = 0$The quadratic form is degenerate and the sign is determined by higher-order terms.
@@ -1081,7 +1081,7 @@ More generally, for $k$ constraints $g_1 = 0, \ldots, g_k = 0$:
 $$\nabla f = \lambda_1 \nabla g_1 + \cdots + \lambda_k \nabla g_k$$
 
 _Proof (single constraint, geometric justification)._ Let $M = \\{(x,y,z) : g(x,y,z) = 0\\}$ be the
-constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$Then the directional
+constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$ Then the directional
 derivative $D_{\mathbf{v}} f(\mathbf{p}) = 0$ for every tangent Vector $\mathbf{v}$ to $M$ at
 $\mathbf{p}$. Since $\nabla f(\mathbf{p}) \cdot \mathbf{v} = 0$ for all Such $\mathbf{v}$The
 gradient $\nabla f(\mathbf{p})$ must be orthogonal to the tangent space of $M$ At $\mathbf{p}$. But
@@ -1099,11 +1099,11 @@ $\nabla f = \lambda \nabla g \implies (y, x) = \lambda(2x, 2y)$
 
 This gives $y = 2\lambda x$ and $x = 2\lambda y$. Multiplying: $xy = 4\lambda^2 xy$.
 
-Case 1: $xy \neq 0$. Then $4\lambda^2 = 1$So $\lambda = \pm 1/2$.
+Case 1: $xy \neq 0$. Then $4\lambda^2 = 1$ So $\lambda = \pm 1/2$.
 
-- $\lambda = 1/2$: $y = x$And $x^2 + x^2 = 1$So $x = \pm 1/\sqrt{2}$. Points:
+- $\lambda = 1/2$: $y = x$ And $x^2 + x^2 = 1$ So $x = \pm 1/\sqrt{2}$. Points:
   $(1/\sqrt{2}, 1/\sqrt{2})$ and $(-1/\sqrt{2}, -1/\sqrt{2})$ with $f = 1/2$.
-- $\lambda = -1/2$: $y = -x$And $x^2 + x^2 = 1$So $x = \pm 1/\sqrt{2}$. Points:
+- $\lambda = -1/2$: $y = -x$ And $x^2 + x^2 = 1$ So $x = \pm 1/\sqrt{2}$. Points:
   $(1/\sqrt{2}, -1/\sqrt{2})$ and $(-1/\sqrt{2}, 1/\sqrt{2})$ with $f = -1/2$.
 
 Case 2: $xy = 0$. Then either $x = 0$ or $y = 0$. From the constraint: $(0, \pm 1)$ or $(\pm 1, 0)$
@@ -1159,7 +1159,7 @@ Set $\nabla f = (0,0)$:
 
 $$3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x$$
 
-Substituting: $(x^2)^2 = x$So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$So $x = 0$ or $x = 1$.
+Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
 
 - $x = 0$: $y = 0$. Critical point: $(0, 0)$.
 - $x = 1$: $y = 1$. Critical point: $(1, 1)$.
@@ -1214,15 +1214,15 @@ Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$Giving $(y - x)(z + 2\l
 
 Similarly, $(z - y)(x + 2\lambda_2) = 0$ and $(x - z)(y + 2\lambda_2) = 0$.
 
-If $x = y = z$: From $g_1$: $3x = 1$So $x = 1/3$. From $g_2$: $3(1/9) = 1/3$. This satisfies both
+If $x = y = z$: From $g_1$: $3x = 1$ So $x = 1/3$. From $g_2$: $3(1/9) = 1/3$. This satisfies both
 constraints.
 
 At $(1/3, 1/3, 1/3)$: $f = 1/27$.
 
-If $x \neq y$: Then $z + 2\lambda_2 = 0$. If also $y \neq z$: $x + 2\lambda_2 = 0$So $x = z$.
+If $x \neq y$: Then $z + 2\lambda_2 = 0$. If also $y \neq z$: $x + 2\lambda_2 = 0$ So $x = z$.
 
 With $x = z$: from $x + y + z = 1$: $2x + y = 1$. From $2x^2 + y^2 = 1/3$: Substituting
-$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$I.e., $(3x - 1)^2 = 0$So $x = 1/3$ $y = 1/3$. This reduces to the
+$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$I.e., $(3x - 1)^2 = 0$ So $x = 1/3$ $y = 1/3$. This reduces to the
 symmetric case.
 
 Therefore the only critical point is $(1/3, 1/3, 1/3)$Which gives $f = 1/27$.
@@ -1261,12 +1261,12 @@ $$L = \int_a^b \lVert \mathbf{r}'(t) \rVert\, dt = \int_a^b \sqrt{\left(\frac{dx
 
 **Proposition 5.1.** The arc length function
 $s(t) = \int_a^t \lVert \mathbf{r}'(\tau) \rVert\, d\tau$ Satisfies
-$\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$And reparametrising by arc length gives a Unit-speed
+$\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$ And reparametrising by arc length gives a Unit-speed
 curve: $\lVert \frac{d\mathbf{r}}{ds} \rVert = 1$.
 
 _Proof._ By the Fundamental Theorem of Calculus, $\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$. If
-we reparametrise by $s$I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$Then by the chain rule
-$\frac{d\mathbf{r}}{ds} = \mathbf{r}'(t) \cdot \frac{dt}{ds}$So
+we reparametrise by $s$I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$ Then by the chain rule
+$\frac{d\mathbf{r}}{ds} = \mathbf{r}'(t) \cdot \frac{dt}{ds}$ So
 $\lVert \frac{d\mathbf{r}}{ds} \rVert = \lVert \mathbf{r}'(t) \rVert \cdot \left\lvert \frac{dt}{ds} \right\rvert = 1$.
 $\blacksquare$
 
@@ -1298,7 +1298,7 @@ $0 \leq t \leq 4\pi$.
 <details>
 <summary>Solution</summary>
 
-$\mathbf{r}'(t) = (-\sin t,\, \cos t,\, 1)$So
+$\mathbf{r}'(t) = (-\sin t,\, \cos t,\, 1)$ So
 $\lVert \mathbf{r}'(t) \rVert = \sqrt{\sin^2 t + \cos^2 t + 1} = \sqrt{2}$.
 
 $$L = \int_0^{4\pi} \sqrt{2}\, dt = 4\sqrt{2}\,\pi$$
@@ -1326,13 +1326,13 @@ orthonormal Basis that moves with the curve.
 
 $$\mathbf{T}' = \kappa\, \mathbf{N}, \quad \mathbf{N}' = -\kappa\, \mathbf{T} + \tau\, \mathbf{B}, \quad \mathbf{B}' = -\tau\, \mathbf{N}$$
 
-_Proof._ Since $\mathbf{T}$ is a unit vector, $\mathbf{T} \cdot \mathbf{T} = 1$So
-$\mathbf{T}' \cdot \mathbf{T} = 0$. Therefore $\mathbf{T}'$ is orthogonal to $\mathbf{T}$So
+_Proof._ Since $\mathbf{T}$ is a unit vector, $\mathbf{T} \cdot \mathbf{T} = 1$ So
+$\mathbf{T}' \cdot \mathbf{T} = 0$. Therefore $\mathbf{T}'$ is orthogonal to $\mathbf{T}$ So
 $\mathbf{T}'$ is parallel to $\mathbf{N}$ (when $\kappa \neq 0$). This gives
 $\mathbf{T}' = \kappa\,\mathbf{N}$.
 
 Similarly, $\mathbf{B} = \mathbf{T} \times \mathbf{N}$ is a unit vector, so
-$\mathbf{B}' \cdot \mathbf{B} = 0$. Also $\mathbf{B} \cdot \mathbf{T} = 0$So
+$\mathbf{B}' \cdot \mathbf{B} = 0$. Also $\mathbf{B} \cdot \mathbf{T} = 0$ So
 $\mathbf{B}' \cdot \mathbf{T} + \mathbf{B} \cdot \mathbf{T}' = 0$ Giving
 $\mathbf{B}' \cdot \mathbf{T} = -\mathbf{B} \cdot \kappa\,\mathbf{N} = 0$. So $\mathbf{B}'$ is
 Parallel to $\mathbf{N}$Giving $\mathbf{B}' = -\tau\,\mathbf{N}$.
@@ -1482,7 +1482,7 @@ $$= 2V + 2\iiint_E z\, dV$$
 
 Where $V = \frac{1}{2} \cdot \frac{4}{3}\pi(2^3) = \frac{16\pi}{3}$.
 
-By symmetry, the centroid of a hemisphere of radius $R = 2$ is at $z = 3R/8 = 3/4$So
+By symmetry, the centroid of a hemisphere of radius $R = 2$ is at $z = 3R/8 = 3/4$ So
 
 $$\iiint_E z\, dV = \bar{z} \cdot V = \frac{3}{4} \cdot \frac{16\pi}{3} = 4\pi$$
 
@@ -1562,11 +1562,11 @@ Derivative test.
 
 $f_x = 3x^2 - 3y^2 = 0$ and $f_y = -6xy + 3y^2 = 3y(-2x + y) = 0$.
 
-From $f_x = 0$: $x^2 = y^2$So $y = \pm x$.
+From $f_x = 0$: $x^2 = y^2$ So $y = \pm x$.
 
-If $y = x$: $f_y = 3x(-2x + x) = -3x^2 = 0$So $x = 0$. Point: $(0,0)$.
+If $y = x$: $f_y = 3x(-2x + x) = -3x^2 = 0$ So $x = 0$. Point: $(0,0)$.
 
-If $y = -x$: $f_y = 3(-x)(2x + x) = -9x^2 = 0$So $x = 0$. Point: $(0,0)$.
+If $y = -x$: $f_y = 3(-x)(2x + x) = -9x^2 = 0$ So $x = 0$. Point: $(0,0)$.
 
 The only critical point is $(0, 0)$. Now $f_{xx} = 6x$, $f_{yy} = -6x + 6y$, $f_{xy} = -6y$.
 
@@ -1588,7 +1588,7 @@ $\mathbf{v} = (1, 1)$.
 <details>
 <summary>Solution</summary>
 
-Normalise: $\lVert \mathbf{v} \rVert = \sqrt{2}$So $\mathbf{u} = (1/\sqrt{2},\, 1/\sqrt{2})$.
+Normalise: $\lVert \mathbf{v} \rVert = \sqrt{2}$ So $\mathbf{u} = (1/\sqrt{2},\, 1/\sqrt{2})$.
 
 $f_x = e^x \cos y$, $f_y = -e^x \sin y$.
 
@@ -1624,9 +1624,9 @@ Write the second-order Taylor expansion of $f(x,y) = \sin(x + y)$ at $(0, 0)$.
 <details>
 <summary>Solution</summary>
 
-$f(0,0) = 0$, $f_x = \cos(x+y)$, $f_y = \cos(x+y)$So $f_x(0,0) = f_y(0,0) = 1$.
+$f(0,0) = 0$, $f_x = \cos(x+y)$, $f_y = \cos(x+y)$ So $f_x(0,0) = f_y(0,0) = 1$.
 
-$f_{xx} = -\sin(x+y)$, $f_{xy} = -\sin(x+y)$, $f_{yy} = -\sin(x+y)$So
+$f_{xx} = -\sin(x+y)$, $f_{xy} = -\sin(x+y)$, $f_{yy} = -\sin(x+y)$ So
 $f_{xx}(0,0) = f_{xy}(0,0) = f_{yy}(0,0) = 0$.
 
 $$f(x,y) = 0 + x + y + \frac{1}{2}(0 \cdot x^2 + 2 \cdot 0 \cdot xy + 0 \cdot y^2) + R_2 = x + y + R_2$$
@@ -1644,8 +1644,8 @@ Evaluate $\iint_D (x + y)\, dA$ where $D$ is bounded by $y = x$ and $y = x^2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x = x^2$I.e., $x(x-1) = 0$So $x = 0$ and $x = 1$. For $x \in (0,1)$
-$x^2 \lt x$So $D = \\{(x,y) : 0 \leq x \leq 1,\, x^2 \leq y \leq x\\}$.
+The curves intersect when $x = x^2$I.e., $x(x-1) = 0$ So $x = 0$ and $x = 1$. For $x \in (0,1)$
+$x^2 \lt x$ So $D = \\{(x,y) : 0 \leq x \leq 1,\, x^2 \leq y \leq x\\}$.
 
 $$\iint_D (x + y)\, dA = \int_0^1 \int_{x^2}^x (x + y)\, dy\, dx = \int_0^1 \left[xy + \frac{y^2}{2}\right]_{x^2}^x\, dx$$
 
@@ -1880,9 +1880,9 @@ Find the minimum value of $f(x,y,z) = x^2 + y^2 + z^2$ subject to $x + y - z = 1
 
 $\nabla f = (2x, 2y, 2z)$, $\nabla g = (1, 1, -1)$ where $g = x + y - z - 1$.
 
-$2x = \lambda$, $2y = \lambda$, $2z = -\lambda$So $x = y = -z$.
+$2x = \lambda$, $2y = \lambda$, $2z = -\lambda$ So $x = y = -z$.
 
-From $x + y - z = 1$: $2x - (-x) = 3x = 1$So $x = 1/3$, $y = 1/3$, $z = -1/3$.
+From $x + y - z = 1$: $2x - (-x) = 3x = 1$ So $x = 1/3$, $y = 1/3$, $z = -1/3$.
 
 $$f(1/3, 1/3, -1/3) = \frac{1}{9} + \frac{1}{9} + \frac{1}{9} = \frac{1}{3}$$
 
@@ -1900,7 +1900,7 @@ Find the arc length of the curve $\mathbf{r}(t) = (t^2,\, 2t,\, \ln t)$ for $1 \
 <details>
 <summary>Solution</summary>
 
-$\mathbf{r}'(t) = (2t,\, 2,\, 1/t)$So $\lVert \mathbf{r}'(t) \rVert = \sqrt{4t^2 + 4 + 1/t^2}$.
+$\mathbf{r}'(t) = (2t,\, 2,\, 1/t)$ So $\lVert \mathbf{r}'(t) \rVert = \sqrt{4t^2 + 4 + 1/t^2}$.
 
 Note: $4t^2 + 4 + t^{-2} = (2t + 1/t)^2$. So $\lVert \mathbf{r}' \rVert = 2t + 1/t$.
 
@@ -1942,7 +1942,7 @@ $z = 1$.
 <summary>Solution</summary>
 
 Use spherical coordinates. The sphere has $\rho = 2$. The plane $z = 1$ intersects when
-$2\cos\phi = 1$So $\cos\phi = 1/2$Giving $\phi = \pi/3$.
+$2\cos\phi = 1$ So $\cos\phi = 1/2$Giving $\phi = \pi/3$.
 
 The region: $0 \leq \rho \leq 2$, $0 \leq \phi \leq \pi/3$, $0 \leq \theta \leq 2\pi$.
 

@@ -316,7 +316,7 @@ The work done **on** the gas is $345$ J (positive, since volume decreases).
 
 A 12.0 V battery with negligible internal resistance is connected to two resistors: $R_1 = 4.0$ ohms
 In series with a parallel combination of $R_2 = 6.0$ ohms and $R_3 = 3.0$ ohms. Find (a) the total
-Resistance, (b) the current from the battery, (c) the potential difference across $R_1$And (d) the
+Resistance, (b) the current from the battery, (c) the potential difference across $R_1$ And (d) the
 Current through $R_2$.
 
 <details>
@@ -403,7 +403,7 @@ maximum to The third bright fringe.
 - $s = \dfrac{(590 \times 10^{-9})(1.20)}{0.050 \times 10^{-3}} = \dfrac{7.08 \times 10^{-7}}{5.0 \times 10^{-5}} = 0.01416$
   m $\approx 14.2$ mm
 - **(b) Distance to the third bright fringe:**
-- The $n$Th bright fringe is at $y_n = ns$So $y_3 = 3 \times 14.2 = 42.6$ mm
+- The $n$Th bright fringe is at $y_n = ns$ So $y_3 = 3 \times 14.2 = 42.6$ mm
 
 </details>
 
@@ -480,15 +480,15 @@ Length that is closed at one end.
 
 **Open pipe (both ends open):**
 
-- Fundamental: $L = \lambda/2$So $\lambda_1 = 2L = 1.70$ m.
+- Fundamental: $L = \lambda/2$ So $\lambda_1 = 2L = 1.70$ m.
 - $f_1 = v/\lambda_1 = 340/1.70 = 200$ Hz
-- Second harmonic: $L = \lambda$So $\lambda_2 = L = 0.85$ m.
+- Second harmonic: $L = \lambda$ So $\lambda_2 = L = 0.85$ m.
 - $f_2 = v/\lambda_2 = 340/0.85 = 400$ Hz
 - Open pipes produce all harmonics: $f_n = n f_1$ for $n = 1, 2, 3, \ldots$
 
 **Closed pipe (one end closed):**
 
-- Fundamental: $L = \lambda/4$So $\lambda_1 = 4L = 3.40$ m.
+- Fundamental: $L = \lambda/4$ So $\lambda_1 = 4L = 3.40$ m.
 - $f_1 = v/\lambda_1 = 340/3.40 = 100$ Hz
 - A closed pipe only produces odd harmonics. The "second harmonic" does not exist. The next
   resonance is the **third harmonic**: $f_3 = 3 f_1 = 300$ Hz.
@@ -1246,7 +1246,7 @@ If you get this wrong, revise: Gas laws and the ideal gas law (Theme B.3).
 <details>
 <summary>Solution</summary>
 
-- **(a) Wave speed:** For the fundamental, $L = \lambda/2$So $\lambda = 2L = 1.50$ m.
+- **(a) Wave speed:** For the fundamental, $L = \lambda/2$ So $\lambda = 2L = 1.50$ m.
 - $v = f\lambda = (220)(1.50) = 330$ m/s
 - **(b) Second harmonic frequency:** $f_2 = 2f_1 = 2 \times 220 = 440$ Hz
 
@@ -1446,7 +1446,7 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
   Multi-stage heating problems require both.
 - **First law sign convention:** $\Delta U = Q - W$. The IB convention defines $W$ as work done
   **by** the system. During compression, $W$ is negative and $\Delta U$ increases.
-- **Ideal gas law units:** Pressure must be in pascals, volume in $\mathrm{m^3}$And temperature in
+- **Ideal gas law units:** Pressure must be in pascals, volume in $\mathrm{m^3}$ And temperature in
   kelvin. Never use Celsius in the ideal gas equation.
 - **Internal resistance:** The terminal PD is always less than the emf when current flows:
   $V = \varepsilon - Ir$. Many students forget to subtract the internal potential drop.

@@ -3,7 +3,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Dual Nature of Radiation and Matter"
-description: "CBSE Class 12 physics: Dual nature of radiation with photoelectric effect, de Broglie wavelength, and worked examples."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

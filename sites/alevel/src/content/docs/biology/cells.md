@@ -855,7 +855,7 @@ Water moves out of the cell (from higher to lower water potential).
 (c) As water leaves, the cell loses turgor. At equilibrium,
 $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{solution}} = -853\ \mathrm{kPa}$:
 
-$-850 + \Psi_p = -853$So $\Psi_p = -3\ \mathrm{kPa}$.
+$-850 + \Psi_p = -853$ So $\Psi_p = -3\ \mathrm{kPa}$.
 
 A negative $\Psi_p$ means the protoplast is pulling away from the cell wall (incipient plasmolysis
 or Full plasmolysis, depending on the cell wall). The cell is plasmolysed.

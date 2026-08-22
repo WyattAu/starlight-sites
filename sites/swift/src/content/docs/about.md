@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes Swift resources — experience, expertise, and credentials behind Swift programming study materials."
+description: "Wyatt's Notes offers comprehensive study materials for Swift programming. These notes cover Swift's type system, protocol-oriented design, SwiftUI, and iOS"
 tags:
   - about
   - swift

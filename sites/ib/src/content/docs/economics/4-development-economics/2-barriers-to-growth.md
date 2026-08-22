@@ -1,7 +1,7 @@
 ---
 
 title: Barriers to Growth
-description: "Barriers to economic growth in development economics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

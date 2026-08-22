@@ -1,7 +1,7 @@
 ---
 
 title: Complex Numbers (Extended)
-description: "Extended treatment of complex numbers for A-Level Further Maths."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Further Maths\", \"url\":"
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
@@ -41,7 +41,7 @@ Argument** $\mathrm{Arg}(z)$ satisfies $-\pi \lt \mathrm{Arg}(z) \leq \pi$.
 
 ### 1.2 Multiplication and division in polar form
 
-If $z_1 = r_1(\cos\theta_1 + i\sin\theta_1)$ and $z_2 = r_2(\cos\theta_2 + i\sin\theta_2)$Then:
+If $z_1 = r_1(\cos\theta_1 + i\sin\theta_1)$ and $z_2 = r_2(\cos\theta_2 + i\sin\theta_2)$ Then:
 
 $$z_1 z_2 = r_1 r_2\bigl(\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)\bigr)$$
 
@@ -253,7 +253,7 @@ This connects the exponential function with trigonometric functions via the imag
 
 $$e^{i\theta} = \sum_{n=0}^{\infty}\frac{(i\theta)^n}{n!} = 1 + i\theta + \frac{(i\theta)^2}{2!} + \frac{(i\theta)^3}{3!} + \cdots$$
 
-Since $i^2 = -1$$i^3 = -i$$i^4 = 1$And this pattern repeats with period 4:
+Since $i^2 = -1$$i^3 = -i$$i^4 = 1$ And this pattern repeats with period 4:
 
 $$= \left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right) + i\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)$$
 
@@ -265,7 +265,7 @@ $$= \cos\theta + i\sin\theta \quad \blacksquare$$
 
 $$e^{i\pi} + 1 = 0$$
 
-This connects five fundamental constants: $e$$i$$\pi$$1$And $0$.
+This connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 
 **Complex exponential form:** Any complex number can be written as:
 
@@ -384,7 +384,7 @@ $\cos^4\theta = \dfrac{3 + 4\cos 2\theta + \cos 4\theta}{8}$.
 <details>
 <summary>Solution</summary>
 
-$\cos\theta = \dfrac{e^{i\theta} + e^{-i\theta}}{2}$So
+$\cos\theta = \dfrac{e^{i\theta} + e^{-i\theta}}{2}$ So
 $\cos^4\theta = \dfrac{1}{16}(e^{i\theta} + e^{-i\theta})^4$.
 
 $= \dfrac{1}{16}(e^{4i\theta} + 4e^{2i\theta} + 6 + 4e^{-2i\theta} + e^{-4i\theta})$
@@ -419,7 +419,7 @@ $$\prod_{k=0}^{n-1} z_k = (-1)^n \cdot \frac{-1}{1} = (-1)^{n-1} \quad \blacksqu
 
 ### 6.2 Proof: conjugate root theorem for real polynomials
 
-**Theorem.** If $p(z)$ is a polynomial with real coefficients and $p(\alpha) = 0$Then
+**Theorem.** If $p(z)$ is a polynomial with real coefficients and $p(\alpha) = 0$ Then
 $p(\overline{\alpha}) = 0$.
 
 **Proof.** Let $p(z) = a_n z^n + \cdots + a_1 z + a_0$ with all $a_i \in \mathbb{R}$.
@@ -510,7 +510,7 @@ Consecutive roots.
 <details>
 <summary>Solution</summary>
 
-**(a)** $z^4 = -16 = 16\,e^{i\pi}$So $z = 16^{1/4}\,e^{i(\pi + 2k\pi)/4} = 2\,e^{i(\pi + 2k\pi)/4}$
+**(a)** $z^4 = -16 = 16\,e^{i\pi}$ So $z = 16^{1/4}\,e^{i(\pi + 2k\pi)/4} = 2\,e^{i(\pi + 2k\pi)/4}$
 for $k = 0, 1, 2, 3$.
 
 Note: $\sqrt{2}$ in the question is incorrect; it should be $2$ (since $16^{1/4} = 2$).
@@ -633,7 +633,7 @@ $$w = \frac{2 + iy + 1}{2 + iy - 1} = \frac{3 + iy}{1 + iy} = \frac{(3 + iy)(1 -
 
 So $u = \dfrac{3 + y^2}{1 + y^2}$ and $v = \dfrac{-2y}{1 + y^2}$.
 
-Note that $u = 1 + \dfrac{2}{1 + y^2}$So $u \geq 1$ (since $1 + y^2 \geq 1$).
+Note that $u = 1 + \dfrac{2}{1 + y^2}$ So $u \geq 1$ (since $1 + y^2 \geq 1$).
 
 Also $u - 1 = \dfrac{2}{1 + y^2}$ and $v^2 = \dfrac{4y^2}{(1+y^2)^2} = \dfrac{4y^2}{(1+y^2)^2}$.
 
@@ -641,7 +641,7 @@ $$v^2 = (u-1)\cdot\frac{2y^2}{1+y^2}$$
 
 From $v = \dfrac{-2y}{1+y^2}$: $v^2 = \dfrac{4y^2}{(1+y^2)^2}$.
 
-Since $u - 1 = \dfrac{2}{1+y^2}$: $(u-1)(1+y^2) = 2$So $1+y^2 = \dfrac{2}{u-1}$.
+Since $u - 1 = \dfrac{2}{1+y^2}$: $(u-1)(1+y^2) = 2$ So $1+y^2 = \dfrac{2}{u-1}$.
 
 $$v^2 = \frac{4y^2}{(1+y^2)^2} = \frac{4\!\left(\frac{2}{u-1} - 1\right)}{\frac{4}{(u-1)^2}} = \frac{\frac{8 - 2(u-1)}{u-1}}{\frac{4}{(u-1)^2}} = \frac{(10 - 2u)(u-1)}{4} = \frac{(5-u)(u-1)}{2}$$
 
@@ -652,7 +652,7 @@ With centre $(3, 0)$ and radius $2$ in the $w$-plane.
 
 **Problem.** Find all solutions to $z^5 = 4\sqrt{2}(1 + i)$.
 
-**Solution.** $1 + i = \sqrt{2}\,e^{i\pi/4}$So $4\sqrt{2}(1 + i) = 8\,e^{i\pi/4}$.
+**Solution.** $1 + i = \sqrt{2}\,e^{i\pi/4}$ So $4\sqrt{2}(1 + i) = 8\,e^{i\pi/4}$.
 
 $$z_k = 8^{1/5}\,e^{i(\pi/4 + 2k\pi)/5} = 2^{3/5}\,e^{i(\pi + 8k\pi)/20}, \quad k = 0, 1, 2, 3, 4$$
 
@@ -661,7 +661,7 @@ The five roots lie on a circle of radius $2^{3/5}$Equally spaced starting from a
 ### Example 9.6: Complex conjugate roots and polynomial equations
 
 **Problem.** The cubic equation $z^3 + az^2 + bz + 12 = 0$ has a root $z = 1 + 2i$ where $a, b$ are
-Real. Find $a$, $b$And all roots.
+Real. Find $a$, $b$ And all roots.
 
 **Solution.** Since $a, b$ are real, the conjugate $1 - 2i$ is also a root.
 
@@ -673,16 +673,16 @@ $$z^3 + az^2 + bz + 12 = (z^2 - 2z + 5)(z - c)$$
 
 Expanding: $z^3 - cz^2 - 2z^2 + 2cz + 5z - 5c = z^3 + (-c-2)z^2 + (2c+5)z - 5c$.
 
-Comparing coefficients: $-c - 2 = a$$2c + 5 = b$$-5c = 12$So $c = -12/5$.
+Comparing coefficients: $-c - 2 = a$$2c + 5 = b$$-5c = 12$ So $c = -12/5$.
 
 $a = 12/5 - 2 = 2/5$$b = -24/5 + 5 = 1/5$.
 
 The third root is $z = c = -12/5$.
 
 Check: $(2/5)(-12/5)(12/5) \neq -12$ ... Let me recheck. Product of roots
-$= (1+2i)(1-2i)(-12/5) = 5 \times (-12/5) = -12$. Constant term $= -12$So product $= -(-12)/1 = 12$.
-Wait, the product should be $-d/a = -12/1 = -12$But we got $12$. The equation Is
-$z^3 + az^2 + bz + 12 = 0$So $d = 12$ and $\alpha\beta\gamma = -12/1 = -12$. But
+$= (1+2i)(1-2i)(-12/5) = 5 \times (-12/5) = -12$. Constant term $= -12$ So product $= -(-12)/1 = 12$.
+Wait, the product should be $-d/a = -12/1 = -12$ But we got $12$. The equation Is
+$z^3 + az^2 + bz + 12 = 0$ So $d = 12$ and $\alpha\beta\gamma = -12/1 = -12$. But
 $5 \times (-12/5) = -12$. Correct. $\blacksquare$
 
 ### Example 9.7: Geometry in the Argand diagram
@@ -818,7 +818,7 @@ $\cos(\pi/6) = \dfrac{\sqrt{3}}{2}$ and $\sin(\pi/6) = \dfrac{1}{2}$.
 Let $\cos(\pi/12) + i\sin(\pi/12) = a + bi$ where $a > 0$. Then
 $(a + bi)^2 = \dfrac{\sqrt{3}}{2} + \dfrac{i}{2}$.
 
-$a^2 - b^2 = \dfrac{\sqrt{3}}{2}$ and $2ab = \dfrac{1}{2}$So $b = \dfrac{1}{4a}$.
+$a^2 - b^2 = \dfrac{\sqrt{3}}{2}$ and $2ab = \dfrac{1}{2}$ So $b = \dfrac{1}{4a}$.
 
 $a^2 - \dfrac{1}{16a^2} = \dfrac{\sqrt{3}}{2}$.
 
@@ -1117,7 +1117,7 @@ $w = \dfrac{1+iy}{3+iy} = \dfrac{(1+iy)(3-iy)}{9+y^2} = \dfrac{3+y^2+i(3y-y)}{9+
 
 Let $w = u+iv$: $u = \dfrac{3+y^2}{9+y^2}$$v = \dfrac{2y}{9+y^2}$.
 
-Eliminating $y$: note that $u = 1 - \dfrac{6}{9+y^2}$So $9+y^2 = \dfrac{6}{1-u}$.
+Eliminating $y$: note that $u = 1 - \dfrac{6}{9+y^2}$ So $9+y^2 = \dfrac{6}{1-u}$.
 
 $v^2 = \dfrac{4y^2}{(9+y^2)^2}$. Substituting
 $y^2 = \dfrac{6}{1-u}-9 = \dfrac{6-9+9u}{1-u} = \dfrac{9u-3}{1-u}$:

@@ -24,8 +24,8 @@ Mapping preserves angles (both magnitude and orientation) between curves.
 
 ### 10.2 Geometric Interpretation
 
-If $f'(z_0) = re^{i\theta}$Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
-By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$So orientation is preserved.
+If $f'(z_0) = re^{i\theta}$ Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
+By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
 
 ### 10.3 Common Conformal Mappings
 
@@ -88,7 +88,7 @@ $T(z) = \frac{-idz + id}{dz + d} = \frac{i(1 - z)}{z + 1}$.
 
 **Problem.** Show that $T(z) = \frac{z - 1}{z + 1}$ maps the right half-plane to the unit disk.
 
-If $\mathrm{Re}(z) \gt 0$Then $|z - 1| \lt |z + 1|$So $|T(z)| \lt 1$.
+If $\mathrm{Re}(z) \gt 0$ Then $|z - 1| \lt |z + 1|$ So $|T(z)| \lt 1$.
 
 Check boundary: $T(i) = \frac{i - 1}{i + 1} = \frac{(i-1)(-i+1)}{(i+1)(-i+1)} = \frac{2}{2} = 1$.
 $|T(i)| = 1$. $\checkmark$

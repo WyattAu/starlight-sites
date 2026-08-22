@@ -28,12 +28,12 @@ $$L = \int_a^b \lVert \mathbf{r}"(t) \rVert\, dt = \int_a^b \sqrt{\left(\frac{dx
 
 **Proposition 5.1.** The arc length function
 $s(t) = \int_a^t \lVert \mathbf{r}'(\tau) \rVert\, d\tau$ Satisfies
-$\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$And reparametrising by arc length gives a Unit-speed
+$\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$ And reparametrising by arc length gives a Unit-speed
 curve: $\lVert \frac{d\mathbf{r}}{ds} \rVert = 1$.
 
 _Proof._ By the Fundamental Theorem of Calculus, $\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$. If
-we reparametrise by $s$I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$Then by the chain rule
-$\frac{d\mathbf{r}}{ds} = \mathbf{r}'(t) \cdot \frac{dt}{ds}$So
+we reparametrise by $s$I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$ Then by the chain rule
+$\frac{d\mathbf{r}}{ds} = \mathbf{r}'(t) \cdot \frac{dt}{ds}$ So
 $\lVert \frac{d\mathbf{r}}{ds} \rVert = \lVert \mathbf{r}'(t) \rVert \cdot \left\lvert \frac{dt}{ds} \right\rvert = 1$.
 $\blacksquare$
 
@@ -65,7 +65,7 @@ $0 \leq t \leq 4\pi$.
 <details>
 <summary>Solution</summary>
 
-$\mathbf{r}'(t) = (-\sin t,\, \cos t,\, 1)$So
+$\mathbf{r}'(t) = (-\sin t,\, \cos t,\, 1)$ So
 $\lVert \mathbf{r}'(t) \rVert = \sqrt{\sin^2 t + \cos^2 t + 1} = \sqrt{2}$.
 
 $$L = \int_0^{4\pi} \sqrt{2}\, dt = 4\sqrt{2}\,\pi$$
@@ -93,13 +93,13 @@ orthonormal Basis that moves with the curve.
 
 $$\mathbf{T}' = \kappa\, \mathbf{N}, \quad \mathbf{N}' = -\kappa\, \mathbf{T} + \tau\, \mathbf{B}, \quad \mathbf{B}' = -\tau\, \mathbf{N}$$
 
-_Proof._ Since $\mathbf{T}$ is a unit vector, $\mathbf{T} \cdot \mathbf{T} = 1$So
-$\mathbf{T}' \cdot \mathbf{T} = 0$. Therefore $\mathbf{T}'$ is orthogonal to $\mathbf{T}$So
+_Proof._ Since $\mathbf{T}$ is a unit vector, $\mathbf{T} \cdot \mathbf{T} = 1$ So
+$\mathbf{T}' \cdot \mathbf{T} = 0$. Therefore $\mathbf{T}'$ is orthogonal to $\mathbf{T}$ So
 $\mathbf{T}'$ is parallel to $\mathbf{N}$ (when $\kappa \neq 0$). This gives
 $\mathbf{T}' = \kappa\,\mathbf{N}$.
 
 Similarly, $\mathbf{B} = \mathbf{T} \times \mathbf{N}$ is a unit vector, so
-$\mathbf{B}' \cdot \mathbf{B} = 0$. Also $\mathbf{B} \cdot \mathbf{T} = 0$So
+$\mathbf{B}' \cdot \mathbf{B} = 0$. Also $\mathbf{B} \cdot \mathbf{T} = 0$ So
 $\mathbf{B}' \cdot \mathbf{T} + \mathbf{B} \cdot \mathbf{T}' = 0$ Giving
 $\mathbf{B}' \cdot \mathbf{T} = -\mathbf{B} \cdot \kappa\,\mathbf{N} = 0$. So $\mathbf{B}'$ is
 Parallel to $\mathbf{N}$Giving $\mathbf{B}' = -\tau\,\mathbf{N}$.
@@ -249,7 +249,7 @@ $$= 2V + 2\iiint_E z\, dV$$
 
 Where $V = \frac{1}{2} \cdot \frac{4}{3}\pi(2^3) = \frac{16\pi}{3}$.
 
-By symmetry, the centroid of a hemisphere of radius $R = 2$ is at $z = 3R/8 = 3/4$So
+By symmetry, the centroid of a hemisphere of radius $R = 2$ is at $z = 3R/8 = 3/4$ So
 
 $$\iiint_E z\, dV = \bar{z} \cdot V = \frac{3}{4} \cdot \frac{16\pi}{3} = 4\pi$$
 

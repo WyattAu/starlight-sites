@@ -34,7 +34,7 @@ Let $y = \sin^2\!\left(e^{3x^2 + 1}\right)$. Find $\dfrac{d^2y}{dx^2}$ and evalu
 
 **Solution:**
 
-Let $u = e^{3x^2 + 1}$Then $y = \sin^2(u) = (\sin u)^2$.
+Let $u = e^{3x^2 + 1}$ Then $y = \sin^2(u) = (\sin u)^2$.
 
 $$\frac{dy}{dx} = 2\sin(u) \cdot \cos(u) \cdot \frac{du}{dx} = \sin(2u) \cdot e^{3x^2+1} \cdot 6x$$
 
@@ -55,7 +55,7 @@ $$\frac{d^2y}{dx^2} = 6e^{3x^2+1}\sin(2e^{3x^2+1}) + 6x \cdot 6x\,e^{3x^2+1}\sin
 
 $$= 6e^{3x^2+1}\sin(2e^{3x^2+1}) + 36x^2\,e^{3x^2+1}\sin(2e^{3x^2+1}) + 72x^2\,e^{2(3x^2+1)}\cos(2e^{3x^2+1})$$
 
-At $x = 0$: $3(0)^2 + 1 = 1$So $e^1 = e$ and $2e^{1} = 2e$.
+At $x = 0$: $3(0)^2 + 1 = 1$ So $e^1 = e$ and $2e^{1} = 2e$.
 
 $$\frac{d^2y}{dx^2}\bigg|_{x=0} = 6e\sin(2e) + 0 + 0 = 6e\sin(2e)$$
 
@@ -129,7 +129,7 @@ differentiable and explain why this does not contradict the MVT.
 
 **Solution:**
 
-(a) $f(x) = x^{1/3}$ is a root function, continuous on all of $\mathbb{R}$So it is continuous on
+(a) $f(x) = x^{1/3}$ is a root function, continuous on all of $\mathbb{R}$ So it is continuous on
 $[-1, 8]$.
 
 (b) $\dfrac{f(8) - f(-1)}{8 - (-1)} = \dfrac{2 - (-1)}{9} = \dfrac{3}{9} = \dfrac{1}{3}$.
@@ -278,7 +278,7 @@ $$= 2\left(\frac{16}{3} - \frac{72\sqrt{3} - 8\sqrt{3}}{27}\right) = 2\left(\fra
 Let $\displaystyle F(x) = \int_{x^2}^{x^3} \frac{t}{1 + \sin^2 t} \, dt$. Find $F'(1)$.
 
 A student reasons: "By the Fundamental Theorem of Calculus,
-$F'(x) = \dfrac{x^3}{1 + \sin^2(x^3)} - \dfrac{x^2}{1 + \sin^2(x^2)}$So
+$F'(x) = \dfrac{x^3}{1 + \sin^2(x^3)} - \dfrac{x^2}{1 + \sin^2(x^2)}$ So
 $F'(1) = \dfrac{1}{1 + \sin^2 1} - \dfrac{1}{1 + \sin^2 1} = 0$."
 
 Identify the error in the student's reasoning and compute the correct value.

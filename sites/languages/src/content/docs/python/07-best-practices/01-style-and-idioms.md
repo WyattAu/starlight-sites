@@ -1,7 +1,7 @@
 ---
 
 title: Style and Idioms
-description: "This is not merely aesthetic"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Python\", \"url\":"
 date: 2025-06-04T16:00:00.000Z
 tags:
   - Python

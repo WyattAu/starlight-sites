@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "3 Databases"
-description: "Database concepts for Scottish Highers Computer Science."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"highers\", \"url\": \"https://highers.wyattau.com\"}, {\"name\": \"Computer Science\","
 ---
 
 <!-- Breadcrumb Schema for SEO -->

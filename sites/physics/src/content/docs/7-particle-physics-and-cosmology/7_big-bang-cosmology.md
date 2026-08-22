@@ -123,7 +123,7 @@ $$a(t) = \left(\frac{3}{2}\sqrt{\frac{8\pi G\rho_0}{3}}\right)^{2/3} t^{2/3}$$
 
 $$a(t) \propto t^{2/3} \quad \blacksquare$$
 
-The Hubble parameter: $H = \dot{a}/a = (2/3)t^{-1}$So the age of a matter-dominated Universe is
+The Hubble parameter: $H = \dot{a}/a = (2/3)t^{-1}$ So the age of a matter-dominated Universe is
 $t_0 = 2/(3H_0)$. For $H_0 = 70$ km/s/Mpc, this gives $t_0 \approx 9.3$ Gyr, which is less than the
 age of the oldest stars --- this Inconsistency was one of the motivations for introducing dark
 energy.
@@ -146,7 +146,7 @@ $\lambda_{\mathrm{peak} \approx 1.9}$ mm (microwave).
 $$T(z) = T_0(1 + z)$$
 
 This follows from the adiabatic expansion of a photon gas: $\rho_\gamma \propto a^{-4}$ and
-$\rho_\gamma \propto T^4$So $T \propto a^{-1} \propto (1+z)$.
+$\rho_\gamma \propto T^4$ So $T \propto a^{-1} \propto (1+z)$.
 
 ### 7.5 CMB Anisotropy
 

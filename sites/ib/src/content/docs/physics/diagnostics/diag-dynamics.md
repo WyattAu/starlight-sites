@@ -97,7 +97,7 @@ surface, preventing relative motion).
 **Question:**
 
 A block of mass $5.0\,\text{kg}$ rests on a rough plane inclined at $35^\circ$ to the horizontal.
-The coefficient of static friction between the block and the plane is $\mu_s = 0.45$And the
+The coefficient of static friction between the block and the plane is $\mu_s = 0.45$ And the
 coefficient of kinetic friction is $\mu_k = 0.35$.
 
 (a) A horizontal force $P$ is applied to the block, pushing it up the slope. Calculate the minimum

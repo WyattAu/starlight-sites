@@ -56,7 +56,7 @@ To prove that a problem has optimal substructure:
    it with an optimal one would improve the overall solution.
 
 **Example (Shortest Path).** If $p$ is a shortest path from $u$ to $v$ and $w$ is an intermediate
-vertex on $p$Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
+vertex on $p$ Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
 
 _Proof._ If not, there exists a shorter path $p"$ from $u$ to $w$. Then $p'$ concatenated with the
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
@@ -80,7 +80,7 @@ Optimal BST, matrix chain multiplication.
 
 ### 5.5 Worked Example: 0/1 Knapsack
 
-**Problem.** Given $n$ items with weights $w_1, \ldots, w_n$ and values $v_1, \ldots, v_n$And a
+**Problem.** Given $n$ items with weights $w_1, \ldots, w_n$ and values $v_1, \ldots, v_n$ And a
 knapsack of capacity $W$Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
@@ -217,7 +217,7 @@ $$dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
 _Proof of correctness._ To make change for amount $c > 0$The last coin used must be some
-$d_i \leq c$. The remaining amount is $c - d_i$And the optimal solution for $c$ uses
+$d_i \leq c$. The remaining amount is $c - d_i$ And the optimal solution for $c$ uses
 $1 + dp[c - d_i]$ coins. Taking the minimum over all valid $d_i$ gives the optimal solution.
 $\blacksquare$
 

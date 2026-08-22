@@ -653,7 +653,7 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 
 15. A mixture of $\mathrm{NaHCO_3$ and $\mathrm{NaCl$ has a mass of $5.00 \mathrm{ g$. When heated,
     the $\mathrm{NaHCO_3$ decomposes completely to $\mathrm{Na_2\mathrm{CO_3$
-    $\mathrm{H_2\mathrm{O$And $\mathrm{CO_2$. The mass of the residue is $3.95 \mathrm{ g$.
+    $\mathrm{H_2\mathrm{O$ And $\mathrm{CO_2$. The mass of the residue is $3.95 \mathrm{ g$.
     Calculate the mass of $\mathrm{NaCl$ in the original mixture.
 
 16. What volume of $0.250 \mathrm{ M  \mathrm{H_2\mathrm{SO_4$ is needed to completely neutralise
@@ -802,7 +802,7 @@ added.
 $[\mathrm{H^+] = 2 \times 0.100 = 0.200 \mathrm{ M$ (ignoring the second dissociation constant for A
 rough calculation). $\mathrm{pH = -\log(0.200) = 0.70$.
 
-More precisely, $[\mathrm{H^+]$ from complete first dissociation is $0.100 \mathrm{ M$And the Second
+More precisely, $[\mathrm{H^+]$ from complete first dissociation is $0.100 \mathrm{ M$ And the Second
 dissociation contributes some additional $\mathrm{H^+$. But since $\mathrm{H_2\mathrm{SO_4$ is
 strong for the first proton: $[\mathrm{H^+] \approx 0.100 + 0.010 = 0.110 \mathrm{ M$ (the second
 $K_a = 0.012$). $\mathrm{pH \approx -\log(0.110) = 0.96$.
@@ -836,7 +836,7 @@ Neutralise $25.0 \mathrm{ mL$ of the diluted solution.
 <details>
 <summary>Answer</summary>
 
-Using $M_1V_1 = M_2V_2$: $(12.0)(V_1) = (0.500)(500.0)$So $V_1 = 250.0 / 12.0 = 20.8 \mathrm{ mL$.
+Using $M_1V_1 = M_2V_2$: $(12.0)(V_1) = (0.500)(500.0)$ So $V_1 = 250.0 / 12.0 = 20.8 \mathrm{ mL$.
 
 Moles of $\mathrm{HCl$ in $25.0 \mathrm{ mL$ of $0.500 \mathrm{ M$:
 $0.0250 \times 0.500 = 0.0125 \mathrm{ mol$.

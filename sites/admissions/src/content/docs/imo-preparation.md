@@ -85,11 +85,11 @@ $n$. For prime $p$: $\phi(p) = p - 1$. For $n = p_1^{a_1} \cdots p_k^{a_k}$:
 
 $$\phi(n) = n \prod_{p \mid n}\left(1 - \frac{1}{p}\right)$$
 
-**Euler's Theorem.** If $\gcd(a, n) = 1$Then $a^{\phi(n)} \equiv 1 \pmod{n}$.
+**Euler's Theorem.** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod{n}$.
 
 **Corollary: the order of $a$ modulo $n$.** The smallest positive integer $d$ such that
 $a^d \equiv 1 \pmod{n}$ Is called the order of $a$ modulo $n$Denoted $\text{ord_n(a)$. The order
-divides $\phi(n)$And more Generally divides any exponent $k$ for which $a^k \equiv 1 \pmod{n}$.
+divides $\phi(n)$ And more Generally divides any exponent $k$ for which $a^k \equiv 1 \pmod{n}$.
 
 **Technique: orders in Diophantine equations.** If $a^m \equiv a^n \pmod{p}$ with $\gcd(a, p) = 1$
 Then $m \equiv n \pmod{\text{ord_p(a)}$. This is often more precise than working modulo $p - 1$.
@@ -201,7 +201,7 @@ Randomly chosen object has a positive probability of having those properties.
 With no bad events.
 
 **Lovasz Local Lemma.** If events $A_1, \ldots, A_n$ each have probability at most $p$Each event is
-Independent of all but at most $d$ other events, and $ep(d+1) \leq 1$Then there is a nonzero
+Independent of all but at most $d$ other events, and $ep(d+1) \leq 1$ Then there is a nonzero
 Probability that none of the events occur.
 
 **Technique: linearity of expectation.** The expected value of a sum equals the sum of expected
@@ -259,7 +259,7 @@ $$\sum_{i=1}^{n}\prod_{j=1}^{k} a_{ij} \leq \prod_{j=1}^{k}\left(\sum_{i=1}^{n} 
 Is denoted $[a_1, a_2, \ldots, a_n]$. We say $(a_1, \ldots, a_n)$ majorises $(b_1, \ldots, b_n)$ If
 the sum of the $k$ largest $a_i$ is at least the sum of the $k$ largest $b_i$ for all $k$With
 Equality when $k = n$. Muirhead's inequality states that if $(a)$ majorises $(b)$ and
-$x_1, \ldots, x_n > 0$Then $[a] \geq [b]$.
+$x_1, \ldots, x_n > 0$ Then $[a] \geq [b]$.
 
 **Schur's Inequality.** For $r \geq 0$ and $x, y, z \geq 0$:
 
@@ -278,7 +278,7 @@ Where $m = \deg P$ and $n = \deg Q$.
 
 **Technique: irreducibility.** Eisenstein's criterion: if
 $f(x) = a_n x^n + \cdots + a_0 \in \mathbb{Z}[x]$ And there exists a prime $p$ such that
-$p \nmid a_n$, $p \mid a_i$ for $i < n$And $p^2 \nmid a_0$ Then $f$ is irreducible over $\mathbb{Q}$.
+$p \nmid a_n$, $p \mid a_i$ for $i < n$ And $p^2 \nmid a_0$ Then $f$ is irreducible over $\mathbb{Q}$.
 
 **Technique: roots of unity.** The $n$-th roots of unity are $\zeta_n^k = e^{2\pi i k/n}$ for
 $k = 0, 1, \ldots, n-1$. The cyclotomic polynomial
@@ -297,7 +297,7 @@ chain of relations: $f^n(x) = f(f^{n-1}(x))$.
 **Cauchy's equation over rationals.** $f(x + y) = f(x) + f(y)$ for all rational $x, y$. Setting
 $x = y = 0$ Gives $f(0) = 0$. Setting $y = -x$ gives $f(-x) = -f(x)$. By induction, $f(nx) = nf(x)$
 for integers $n$. Setting $x = 1$ and $y = m/n$: $f(m/n) = m \cdot f(1/n)$ and
-$f(1) = n \cdot f(1/n)$So $f(m/n) = (m/n) \cdot f(1)$.
+$f(1) = n \cdot f(1/n)$ So $f(m/n) = (m/n) \cdot f(1)$.
 
 ### 4.4 Vieta Jumping
 
@@ -308,8 +308,8 @@ $(x', y)$ with $x' < x$ using Vieta’s formulas, then descend to a minimal Solu
 **Standard setup.** Suppose $x^2 + y^2 + 1 = kxy$ for some fixed positive integer $k$ and positive
 Integers $x, y$. View this as a quadratic in $x$: $x^2 - (ky)x + (y^2 + 1) = 0$. If $(x, y)$ is a
 Solution, then by Vieta's formulas, the other root is $x' = ky - x$. Since $x + x' = ky$ and
-$xx' = y^2 + 1$We have $x' = (y^2 + 1)/x$Which is a positive integer. If $x > y$Then
-$x' = (y^2 + 1)/x < (x^2 + 1)/x = x + 1/x < x + 1$So $x' \leq x$. If $x > y$Then $x' < x$Giving a
+$xx' = y^2 + 1$We have $x' = (y^2 + 1)/x$Which is a positive integer. If $x > y$ Then
+$x' = (y^2 + 1)/x < (x^2 + 1)/x = x + 1/x < x + 1$ So $x' \leq x$. If $x > y$ Then $x' < x$Giving a
 descent.
 
 ---
@@ -334,7 +334,7 @@ are Fixed.
 **Properties.**
 
 - Inversion preserves angles (it is a conformal map).
-- A line not through $O$ inverts to a circle through $O$And vice versa.
+- A line not through $O$ inverts to a circle through $O$ And vice versa.
 - A circle not through $O$ inverts to another circle not through $O$.
 - The image of a circle through $O$ is a line not through $O$ (perpendicular to the line through $O$
   and the centre of the original circle).
@@ -443,11 +443,11 @@ Since $a \geq b > 0$ and $k \geq 1$We have $a' = kb - a$. Also, $a' = (b^2 - k)/
 **Claim:** $a' \geq 0$ and $(a', b)$ is also a valid pair with the same $k$.
 
 First, if $a' < 0$ then $b^2 < k$. But then $k = (a^2 + b^2)/(ab+1) < (a^2 + k)/(ab+1)$Giving
-$kab < a^2$So $kb < a$. But $a' = kb - a < 0$ is consistent with this. In this case, we have
+$kab < a^2$ So $kb < a$. But $a' = kb - a < 0$ is consistent with this. In this case, we have
 $b^2 < k$ and $a > kb$. Since $a$ is the larger root of the quadratic,
-$a = (kb + \sqrt{D})/2 > kb/2$. If $kb < a$Then $a' = kb - a < 0$.
+$a = (kb + \sqrt{D})/2 > kb/2$. If $kb < a$ Then $a' = kb - a < 0$.
 
-If $a' = 0$: then $b^2 = k$So $k$ is a perfect square, contradicting our assumption.
+If $a' = 0$: then $b^2 = k$ So $k$ is a perfect square, contradicting our assumption.
 
 If $a' > 0$: then $(a', b)$ is a valid pair (by Vieta, $a'^2 + b^2 = k(a'b + 1)$) with
 $a' + b < a + b$ (since $a' = kb - a < a$ because $a = (kb + \sqrt{D})/2 > kb/2$ implies
@@ -472,7 +472,7 @@ Means $k$ must be a perfect square.
 > A graph $G$ on $n$ vertices has no cycles of length 3 (i.e., $G$ is triangle-free). Prove that $G$
 > has at most $\lfloor n^2/4 \rfloor$ edges.
 
-**Solution.** Let $d_v$ denote the degree of vertex $v$And let $m = |E|$ be the number of edges.
+**Solution.** Let $d_v$ denote the degree of vertex $v$ And let $m = |E|$ be the number of edges.
 
 For any edge $uv$Since $G$ is triangle-free, no neighbour of $u$ is adjacent to $v$. Therefore
 $d_u + d_v \leq n$ (the $d_u$ neighbours of $u$ and $d_v$ neighbours of $v$ are all distinct, plus
@@ -489,7 +489,7 @@ By Cauchy-Schwarz:
 
 $$\sum_v d_v^2 \geq \frac{\left(\sum_v d_v\right)^2}{n} = \frac{(2m)^2}{n} = \frac{4m^2}{n}$$
 
-Combining: $4m^2/n \leq mn$So $4m \leq n^2$Giving $m \leq n^2/4$.
+Combining: $4m^2/n \leq mn$ So $4m \leq n^2$Giving $m \leq n^2/4$.
 
 Since $m$ is an integer, $m \leq \lfloor n^2/4 \rfloor$.
 
@@ -573,8 +573,8 @@ Equality holds when $a = b = c$.
 
 **Solution.** Perform an inversion about $P$ with arbitrary radius $r$.
 
-Under inversion, $\omega_1$ (passing through $P$) maps to a line $\ell_1$And $\omega_2$ maps to a
-Line $\ell_2$. The point $Q$ maps to $Q'$Which lies on both $\ell_1$ and $\ell_2$So $\ell_1$ and
+Under inversion, $\omega_1$ (passing through $P$) maps to a line $\ell_1$ And $\omega_2$ maps to a
+Line $\ell_2$. The point $Q$ maps to $Q'$Which lies on both $\ell_1$ and $\ell_2$ So $\ell_1$ and
 $\ell_2$ intersect at $Q'$.
 
 The variable line through $P$ maps to itself. The points $A$ and $B$ map to $A'$ on $\ell_1$ and
@@ -614,10 +614,10 @@ pencil of lines through $P$. The inverse of $R'$ is a fixed point $R$ such that 
 of $\triangle QAB$ passes Through $R$.
 
 A cleaner characterisation: the point $R$ is the Miquel point of the complete quadrilateral formed
-By $\omega_1$, $\omega_2$And the line $PQ$. By the Miquel theorem, the circumcircles of the four
+By $\omega_1$, $\omega_2$ And the line $PQ$. By the Miquel theorem, the circumcircles of the four
 Triangles formed by any three of these four lines/circles concur at $R$.
 
-In particular, the circumcircle of $\triangle QAB$ (formed by $\omega_1$, $\omega_2$And the line
+In particular, the circumcircle of $\triangle QAB$ (formed by $\omega_1$, $\omega_2$ And the line
 Through $P$) always passes through the Miquel point $R$Which is fixed.
 
 ---
@@ -685,7 +685,7 @@ $\alpha + \beta + \gamma = 1$.
 
 **Lemma.** $\frac{PD}{AD} = \frac{[PBC]}{[ABC]}$Where $[X]$ denotes the area of $X$.
 
-**Proof.** Triangles $PBD$ and $ABD$ share the altitude from $B$ to $AD$So
+**Proof.** Triangles $PBD$ and $ABD$ share the altitude from $B$ to $AD$ So
 $\frac{[PBD]}{[ABD]} = \frac{PD}{AD}$. Similarly, $\frac{[PCD]}{[ACD]} = \frac{PD}{AD}$. Therefore:
 
 $$\frac{PD}{AD} = \frac{[PBD]}{[ABD]} = \frac{[PCD]}{[ACD]} = \frac{[PBD] + [PCD]}{[ABD] + [ACD]} = \frac{[PBC]}{[ABC]}$$
@@ -696,7 +696,7 @@ Therefore:
 
 $$\frac{PD}{AD} + \frac{PE}{BE} + \frac{PF}{CF} = \frac{[PBC] + [PCA] + [PAB]}{[ABC]} = \frac{[ABC]}{[ABC]} = 1$$
 
-The last equality holds because $P$ lies in the interior of $\triangle ABC$So the three triangles
+The last equality holds because $P$ lies in the interior of $\triangle ABC$ So the three triangles
 $PBC$, $PCA$, $PAB$ partition $\triangle ABC$ without overlap.
 
 ---

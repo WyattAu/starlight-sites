@@ -30,7 +30,7 @@ Where $\delta_l$ is the phase shift for partial wave $l$.
 
 $$\sigma_{\text{total} = \frac{4\pi}{k}\,\text{Im}\,f(0) = \frac{4\pi}{k^2}\sum_{l=0}^{\infty}(2l+1)\sin^2\delta_l}$$
 
-**Partial wave unitarity bound:** $\sin^2\delta_l \leq 1$So the maximum contribution of partial wave
+**Partial wave unitarity bound:** $\sin^2\delta_l \leq 1$ So the maximum contribution of partial wave
 $l$ to the cross section is:
 
 $$\sigma_l^{\max} = \frac{4\pi}{k^2}(2l + 1)$$
@@ -201,16 +201,16 @@ $$ka + \delta_0 = \arccot\!\left(\frac{\kappa}{k}\cot(\kappa a)\right) = \arctan
 
 $$\delta_0 = -ka + \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)$$
 
-(b) A bound state has $E < 0$So $k = i\kappa'$ where $\kappa' = \sqrt{2m|E|}/\hbar$. The bound state
+(b) A bound state has $E < 0$ So $k = i\kappa'$ where $\kappa' = \sqrt{2m|E|}/\hbar$. The bound state
 condition is that the exterior solution decays exponentially: $u(r) = Be^{-\kappa' r}$. Matching:
 
 $$\kappa\cot(\kappa a) = -\kappa'$$
 
-As $|E| \to 0$: $\kappa' \to 0$So $\kappa\cot(\kappa a) \to 0$Giving $\kappa a = \pi/2$ (the
+As $|E| \to 0$: $\kappa' \to 0$ So $\kappa\cot(\kappa a) \to 0$Giving $\kappa a = \pi/2$ (the
 threshold for the first bound state).
 
 (c) The scattering length $a_s = -\lim_{k \to 0}(\delta_0/k)$. As $\kappa a \to \pi/2$,
-$\tan(\kappa a) \to \infty$So:
+$\tan(\kappa a) \to \infty$ So:
 
 $$\delta_0 \approx -ka + \arctan(\infty) = -ka + \pi/2$$
 

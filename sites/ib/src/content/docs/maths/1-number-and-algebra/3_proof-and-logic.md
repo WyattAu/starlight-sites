@@ -103,15 +103,15 @@ Truth values for every possible assignment of truth values to their component pr
 
 **Key equivalences (Laws of Logic):**
 
-1. **Commutative:** $P \wedge Q \equiv Q \wedge P$And $P \vee Q \equiv Q \vee P$
-2. **Associative:** $(P \wedge Q) \wedge R \equiv P \wedge (Q \wedge R)$And similarly for $\vee$
-3. **Distributive:** $P \wedge (Q \vee R) \equiv (P \wedge Q) \vee (P \wedge R)$And
+1. **Commutative:** $P \wedge Q \equiv Q \wedge P$ And $P \vee Q \equiv Q \vee P$
+2. **Associative:** $(P \wedge Q) \wedge R \equiv P \wedge (Q \wedge R)$ And similarly for $\vee$
+3. **Distributive:** $P \wedge (Q \vee R) \equiv (P \wedge Q) \vee (P \wedge R)$ And
    $P \vee (Q \wedge R) \equiv (P \vee Q) \wedge (P \vee R)$
-4. **Identity:** $P \wedge T \equiv P$And $P \vee F \equiv P$
-5. **Domination:** $P \vee T \equiv T$And $P \wedge F \equiv F$
-6. **Idempotent:** $P \wedge P \equiv P$And $P \vee P \equiv P$
+4. **Identity:** $P \wedge T \equiv P$ And $P \vee F \equiv P$
+5. **Domination:** $P \vee T \equiv T$ And $P \wedge F \equiv F$
+6. **Idempotent:** $P \wedge P \equiv P$ And $P \vee P \equiv P$
 7. **Double Negation:** $\neg(\neg P) \equiv P$
-8. **Absorption:** $P \vee (P \wedge Q) \equiv P$And $P \wedge (P \vee Q) \equiv P$
+8. **Absorption:** $P \vee (P \wedge Q) \equiv P$ And $P \wedge (P \vee Q) \equiv P$
 
 ### 1.4 De Morgan"s Laws
 
@@ -173,12 +173,12 @@ A **tautology** is a compound proposition that is true for every possible truth 
 
 **Another key tautology — Modus Ponens:** $((P \implies Q) \wedge P) \implies Q$
 
-This says: if you know $P \implies Q$ and you know $P$Then you can conclude $Q$. This is the
+This says: if you know $P \implies Q$ and you know $P$ Then you can conclude $Q$. This is the
 Fundamental rule of direct .../1-number-and-algebra/3_proof-and-logic.
 
 **Modus Tollens:** $((P \implies Q) \wedge \neg Q) \implies \neg P$
 
-This says: if you know $P \implies Q$ and you know $\neg Q$Then you can conclude $\neg P$. This is
+This says: if you know $P \implies Q$ and you know $\neg Q$ Then you can conclude $\neg P$. This is
 The fundamental rule of .../1-number-and-algebra/3_proof-and-logic by contrapositive.
 
 ### 1.7 Quantifiers
@@ -316,14 +316,14 @@ Middle ($P \vee \neg P$ must be true).
 Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$ where $a, b \in \mathbb{Z}^+$
 $\gcd(a, b) = 1$ (the fraction is in lowest terms).
 
-Squaring both sides: $2 = \frac{a^2}{b^2}$So $a^2 = 2b^2$.
+Squaring both sides: $2 = \frac{a^2}{b^2}$ So $a^2 = 2b^2$.
 
 Since $a^2 = 2b^2$We have $a^2$ is even. Therefore $a$ is even (by the lemma: if $a^2$ is even, Then
 $a$ is even — proved below).
 
 Write $a = 2k$ for some $k \in \mathbb{Z}^+$. Substituting:
 
-$(2k)^2 = 2b^2$So $4k^2 = 2b^2$So $b^2 = 2k^2$.
+$(2k)^2 = 2b^2$ So $4k^2 = 2b^2$ So $b^2 = 2k^2$.
 
 Therefore $b^2$ is even, so $b$ is even.
 
@@ -337,11 +337,11 @@ $a^2$ is Even, $a$ cannot be odd, so $a$ is even.
 <details>
 <summary>Exercise: Prove that $\sqrt{3}$ is irrational.</summary>
 
-Assume $\sqrt{3} = \frac{a}{b}$ in lowest terms. Then $a^2 = 3b^2$So $a^2$ is divisible by 3. By The
-lemma (if $3 \mid a^2$Then $3 \mid a$), write $a = 3k$. Then $9k^2 = 3b^2$So $b^2 = 3k^2$ Hence
-$3 \mid b^2$So $3 \mid b$. Both $a$ and $b$ are divisible by 3, contradicting lowest terms.
+Assume $\sqrt{3} = \frac{a}{b}$ in lowest terms. Then $a^2 = 3b^2$ So $a^2$ is divisible by 3. By The
+lemma (if $3 \mid a^2$ Then $3 \mid a$), write $a = 3k$. Then $9k^2 = 3b^2$ So $b^2 = 3k^2$ Hence
+$3 \mid b^2$ So $3 \mid b$. Both $a$ and $b$ are divisible by 3, contradicting lowest terms.
 
-The supporting lemma "if $p \mid a^2$ for prime $p$Then $p \mid a$" follows from the Fundamental
+The supporting lemma "if $p \mid a^2$ for prime $p$ Then $p \mid a$" follows from the Fundamental
 Theorem of Arithmetic: if $p$ appears in the prime factorization of $a^2$It must appear in the
 Factorization of $a$.
 
@@ -357,7 +357,7 @@ But the negation of the conclusion $\neg Q$ gives you something concrete to grab
 
 **Template:**
 
-1. We prove the contrapositive: if $\neg Q$Then $\neg P$.
+1. We prove the contrapositive: if $\neg Q$ Then $\neg P$.
 2. Assume $\neg Q$.
 3. [Logical steps...]
 4. Therefore $\neg P$.
@@ -561,7 +561,7 @@ This is brute-force but rigorous. It is only practical when the number of cases 
 $n = 0$: $0 + 0 + 17 = 17$ (prime) $n = 1$: $1 + 1 + 17 = 19$ (prime) $n = 2$: $4 + 2 + 17 = 23$
 (prime) $n = 3$: $9 + 3 + 17 = 29$ (prime) $n = 4$: $16 + 4 + 17 = 37$ (prime)
 
-All five cases verified. (Note: this polynomial produces primes for $n = 0$ through $n = 15$But
+All five cases verified. (Note: this polynomial produces primes for $n = 0$ through $n = 15$ But
 Fails at $n = 16$ since $16^2 + 16 + 17 = 289 = 17^2$.)
 
 ### 2.6 Counterexamples
@@ -584,7 +584,7 @@ disprove it requires only one Counterexample. This asymmetry is fundamental to m
 <details>
 <summary>Exercise: Disprove: "For all positive integers $a$ and $b$$\gcd(a+b, a-b) = \gcd(a, b)$."</summary>
 
-Take $a = 3$$b = 1$. Then $\gcd(3+1, 3-1) = \gcd(4, 2) = 2$But $\gcd(3, 1) = 1$. Since $2 \ne 1$The
+Take $a = 3$$b = 1$. Then $\gcd(3+1, 3-1) = \gcd(4, 2) = 2$ But $\gcd(3, 1) = 1$. Since $2 \ne 1$The
 statement is false.
 
 </details>
@@ -619,7 +619,7 @@ $\sqrt{2} = \frac{a}{b}$.
 The requirement that $\gcd(a, b) = 1$ is without loss of generality: any rational number can be
 Expressed as a fraction in lowest terms.
 
-Squaring: $2 = \frac{a^2}{b^2}$So $a^2 = 2b^2$. Equation (1).
+Squaring: $2 = \frac{a^2}{b^2}$ So $a^2 = 2b^2$. Equation (1).
 
 From (1): $a^2$ is divisible by 2, so $a^2$ is even. By the contrapositive of "odd implies square is
 Odd," $a$ is even.
@@ -650,7 +650,7 @@ Since $N \gt 1$By the Fundamental Theorem of Arithmetic, $N$ has a prime factor 
 
 This prime $p$ must be one of $p_1, p_2, \ldots, p_n$ (since we assumed these are all the primes).
 
-But $N = p_1 p_2 \cdots p_n + 1$And for each $p_i$:
+But $N = p_1 p_2 \cdots p_n + 1$ And for each $p_i$:
 
 $$N \equiv 0 + 1 \equiv 1 \pmod{p_i}$$
 
@@ -672,7 +672,7 @@ We proceed by contradiction. Assume $\log_2{3}$ is rational.
 
 Then $\log_2{3} = \frac{p}{q}$ for some coprime positive integers $p, q$ with $q \ge 1$.
 
-This means $2^{p/q} = 3$So $2^p = 3^q$.
+This means $2^{p/q} = 3$ So $2^p = 3^q$.
 
 Since $p \ge 1$$2^p$ is a power of 2. Its only prime factor is 2.
 
@@ -680,7 +680,7 @@ Since $q \ge 1$$3^q$ is a power of 3. Its only prime factor is 3.
 
 By the Fundamental Theorem of Arithmetic, prime factorizations are unique. The number $2^p = 3^q$
 Would need to have prime factorization consisting of only 2's AND only 3's simultaneously. This is
-Impossible unless $p = q = 0$But $p \ge 1$.
+Impossible unless $p = q = 0$ But $p \ge 1$.
 
 Contradiction. Hence $\log_2{3}$ is irrational. $\blacksquare$
 
@@ -735,7 +735,7 @@ This is $P(k+1)$. By induction, $P(n)$ holds for all $n \ge 1$.
 
 We proved this by contrapositive in Section 2.3. Here are additional divisibility results.
 
-**Theorem:** If $a \mid b$ and $b \mid c$Then $a \mid c$ (transitivity of divisibility).
+**Theorem:** If $a \mid b$ and $b \mid c$ Then $a \mid c$ (transitivity of divisibility).
 
 **Proof:**
 
@@ -746,7 +746,7 @@ Therefore $c = bn = (am)n = a(mn)$.
 
 Since $mn \in \mathbb{Z}$We have $a \mid c$. $\blacksquare$
 
-**Theorem:** If $d \mid a$ and $d \mid b$Then $d \mid (ax + by)$ for all $x, y \in \mathbb{Z}$.
+**Theorem:** If $d \mid a$ and $d \mid b$ Then $d \mid (ax + by)$ for all $x, y \in \mathbb{Z}$.
 
 **Proof:**
 
@@ -773,7 +773,7 @@ With equality if and only if $a = b$.
 
 Note that $(\sqrt{a} - \sqrt{b})^2 \ge 0$ for all $a, b \ge 0$.
 
-Expanding: $a - 2\sqrt{ab} + b \ge 0$So $a + b \ge 2\sqrt{ab}$.
+Expanding: $a - 2\sqrt{ab} + b \ge 0$ So $a + b \ge 2\sqrt{ab}$.
 
 Dividing by 2: $\frac{a+b}{2} \ge \sqrt{ab}$. Equality holds when $\sqrt{a} = \sqrt{b}$I.e.,
 $a = b$. $\blacksquare$
@@ -787,7 +787,7 @@ With equality when the vectors are proportional ($a_i = \lambda b_i$ for all $i$
 $\lambda$).
 
 The .../1-number-and-algebra/3_proof-and-logic is beyond the scope of this note but uses the fact
-that $\sum (a_i x + b_i)^2 \ge 0$ for All $x \in \mathbb{R}$And a quadratic in $x$ that is always
+that $\sum (a_i x + b_i)^2 \ge 0$ for All $x \in \mathbb{R}$ And a quadratic in $x$ that is always
 non-negative must have a non-positive Discriminant.
 
 <details>
@@ -834,15 +834,15 @@ $b = ak$.
 
 1. $a \mid 0$ for all $a \ne 0$ (since $0 = a \cdot 0$)
 2. $1 \mid b$ for all $b$ (since $b = 1 \cdot b$)
-3. If $a \mid b$ and $b \mid a$Then $a = \pm b$
-4. If $a \mid b$ and $a \mid c$Then $a \mid (b + c)$ and $a \mid (b - c)$
+3. If $a \mid b$ and $b \mid a$ Then $a = \pm b$
+4. If $a \mid b$ and $a \mid c$ Then $a \mid (b + c)$ and $a \mid (b - c)$
 
 **Proof of property 3:**
 
 $a \mid b$ implies $b = ma$ for some $m \in \mathbb{Z}$. $b \mid a$ implies $a = nb$ for some
 $n \in \mathbb{Z}$.
 
-Substituting: $a = n(ma) = (nm)a$So $(nm - 1)a = 0$. Since $a \ne 0$We have $nm = 1$.
+Substituting: $a = n(ma) = (nm)a$ So $(nm - 1)a = 0$. Since $a \ne 0$We have $nm = 1$.
 
 In integers, $nm = 1$ implies $(n, m) = (1, 1)$ or $(n, m) = (-1, -1)$.
 
@@ -855,7 +855,7 @@ $k \in \mathbb{Z}$.
 
 **Key properties of congruences:**
 
-If $a \equiv b \pmod{n}$ and $c \equiv d \pmod{n}$Then:
+If $a \equiv b \pmod{n}$ and $c \equiv d \pmod{n}$ Then:
 
 1. $a + c \equiv b + d \pmod{n}$
 2. $a - c \equiv b - d \pmod{n}$
@@ -868,7 +868,7 @@ $a \equiv b \pmod{n}$ means $a - b = kn$. $c \equiv d \pmod{n}$ means $c - d = l
 
 $(a+c) - (b+d) = (a-b) + (c-d) = kn + ln = (k+l)n$.
 
-Therefore $n \mid [(a+c) - (b+d)]$So $a+c \equiv b+d \pmod{n}$. $\blacksquare$
+Therefore $n \mid [(a+c) - (b+d)]$ So $a+c \equiv b+d \pmod{n}$. $\blacksquare$
 
 **Proof of property 3:**
 
@@ -876,22 +876,22 @@ $a = b + kn$ and $c = d + ln$ for some $k, l \in \mathbb{Z}$.
 
 $ac = (b + kn)(d + ln) = bd + bln + dkn + kln^2 = bd + n(bl + dk + kln)$.
 
-Therefore $n \mid (ac - bd)$So $ac \equiv bd \pmod{n}$. $\blacksquare$
+Therefore $n \mid (ac - bd)$ So $ac \equiv bd \pmod{n}$. $\blacksquare$
 
 :::caution
 conclude $a \equiv b \pmod{n}$ if $\gcd(c, n) = 1$. For example, $6 \equiv 0 \pmod{3}$ and
-$3 \equiv 0 \pmod{3}$But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
+$3 \equiv 0 \pmod{3}$ But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
 :::
 <details>
 <summary>Worked Example: Find the last two digits of $7^{100}$.</summary>
 
 We need $7^{100} \pmod{100}$.
 
-First, find $7^{100} \pmod{4}$: $7 \equiv 3 \equiv -1 \pmod{4}$So
+First, find $7^{100} \pmod{4}$: $7 \equiv 3 \equiv -1 \pmod{4}$ So
 $7^{100} \equiv (-1)^{100} = 1 \pmod{4}$.
 
 Next, find $7^{100} \pmod{25}$: By Euler's theorem (or Fermat's Little Theorem since 25 is a prime
-Power and $\gcd(7, 25) = 1$), $\phi(25) = 20$So $7^{20} \equiv 1 \pmod{25}$Hence
+Power and $\gcd(7, 25) = 1$), $\phi(25) = 20$ So $7^{20} \equiv 1 \pmod{25}$Hence
 $7^{100} = (7^{20})^5 \equiv 1^5 = 1 \pmod{25}$.
 
 We need $x$ such that $x \equiv 1 \pmod{4}$ and $x \equiv 1 \pmod{25}$. By CRT,
@@ -903,7 +903,7 @@ The last two digits are 01.
 
 ### 4.3 Fermat's Little Theorem
 
-**Theorem (Fermat's Little Theorem):** If $p$ is prime and $\gcd(a, p) = 1$Then:
+**Theorem (Fermat's Little Theorem):** If $p$ is prime and $\gcd(a, p) = 1$ Then:
 
 $$a^{p-1} \equiv 1 \pmod{p}$$
 
@@ -915,8 +915,8 @@ $\{1, 2, \ldots, p-1\}$ modulo $p$):**
 Consider the product $1 \cdot 2 \cdot 3 \cdots (p-1) = (p-1)!$.
 
 Modulo $p$The numbers $a, 2a, 3a, \ldots, (p-1)a$ are all nonzero and pairwise non-congruent Modulo
-$p$ (since $ja \equiv ka \pmod{p}$ implies $p \mid (j-k)a$And since $p \nmid a$We get
-$p \mid (j-k)$Which means $j \equiv k \pmod{p}$And since $1 \le j, k \le p-1$We get $j = k$).
+$p$ (since $ja \equiv ka \pmod{p}$ implies $p \mid (j-k)a$ And since $p \nmid a$We get
+$p \mid (j-k)$Which means $j \equiv k \pmod{p}$ And since $1 \le j, k \le p-1$We get $j = k$).
 
 Therefore $\{a, 2a, \ldots, (p-1)a\}$ is a complete residue system modulo $p$ excluding 0, so:
 
@@ -933,7 +933,7 @@ $$a^{p-1} \equiv 1 \pmod{p} \quad \blacksquare$$
 
 Since 13 is prime and $\gcd(2, 13) = 1$By Fermat: $2^{12} \equiv 1 \pmod{13}$.
 
-$100 = 8 \cdot 12 + 4$So
+$100 = 8 \cdot 12 + 4$ So
 $2^{100} = (2^{12})^8 \cdot 2^4 \equiv 1^8 \cdot 16 \equiv 16 \equiv 3 \pmod{13}$.
 
 <details>
@@ -941,7 +941,7 @@ $2^{100} = (2^{12})^8 \cdot 2^4 \equiv 1^8 \cdot 16 \equiv 16 \equiv 3 \pmod{13}
 
 By Fermat: $3^{10} \equiv 1 \pmod{11}$.
 
-$50 = 5 \cdot 10$So $3^{50} = (3^{10})^5 \equiv 1^5 = 1 \pmod{11}$.
+$50 = 5 \cdot 10$ So $3^{50} = (3^{10})^5 \equiv 1^5 = 1 \pmod{11}$.
 
 Answer: $3^{50} \equiv 1 \pmod{11}$.
 
@@ -1027,8 +1027,8 @@ Decrease, the process must eventually reach remainder 0 (by the well-ordering pr
 **Claim 3:** $\gcd(a, b) = \gcd(b, r_1) = \gcd(r_1, r_2) = \cdots = \gcd(r_{n-1}, r_n)$. This
 Follows from the key lemma: $\gcd(a, b) = \gcd(b, a - bq)$ for any integer $q$.
 
-Proof of the key lemma: if $d \mid a$ and $d \mid b$Then $d \mid (a - bq)$. Conversely, if
-$d \mid b$ and $d \mid (a - bq)$Then $d \mid (a - bq + bq) = a$. So $d$ divides both $a$ and $b$ If
+Proof of the key lemma: if $d \mid a$ and $d \mid b$ Then $d \mid (a - bq)$. Conversely, if
+$d \mid b$ and $d \mid (a - bq)$ Then $d \mid (a - bq + bq) = a$. So $d$ divides both $a$ and $b$ If
 and only if $d$ divides both $b$ and $a - bq$. Therefore $\gcd(a, b) = \gcd(b, a - bq)$.
 
 **Claim 4:** $\gcd(r_{n-1}, r_n) = r_n$. Since $r_n \mid r_{n-1}$ (the last step is
@@ -1096,9 +1096,9 @@ Checking reversibility.
 
 **Example:**
 
-"Prove: If $x^2 = 4$Then $x = 2$."
+"Prove: If $x^2 = 4$ Then $x = 2$."
 
-Bad .../1-number-and-algebra/3_proof-and-logic: $x^2 = 4$So $x = \sqrt{4} = 2$. Done.
+Bad .../1-number-and-algebra/3_proof-and-logic: $x^2 = 4$ So $x = \sqrt{4} = 2$. Done.
 
 This is wrong because $x = -2$ also satisfies $x^2 = 4$. The step $x = \sqrt{4}$ implicitly assumes
 $x \ge 0$.
@@ -1205,7 +1205,7 @@ Number is positive, then it is prime." False ($4$ is positive but not prime).
 
 The implication $P \implies Q$ is true whenever $P$ is false, regardless of $Q$.
 
-**Example:** "If $1 = 0$Then the moon is made of cheese." This is TRUE (vacuously), because the
+**Example:** "If $1 = 0$ Then the moon is made of cheese." This is TRUE (vacuously), because the
 Premise "$1 = 0$" is false.
 
 **Practical consequence:** To disprove $P \implies Q$You must show $P$ is true AND $Q$ is false.
@@ -1269,15 +1269,15 @@ Preserved.
 
 9. Find $\gcd(372, 84)$ using the Euclidean algorithm, and express it as a linear combination.
 
-10. Prove that if $a \equiv b \pmod{m}$ and $n \mid m$Then $a \equiv b \pmod{n}$.
+10. Prove that if $a \equiv b \pmod{m}$ and $n \mid m$ Then $a \equiv b \pmod{n}$.
 
 </details>
 
 <details>
 <summary>Answers to Selected Exercises</summary>
 
-**Exercise 1:** Assume $\sqrt{6} = \frac{a}{b}$ in lowest terms. Then $a^2 = 6b^2$So $a^2$ is even
-(divisible by 2), hence $a$ is even. Write $a = 2k$. Then $4k^2 = 6b^2$So $2k^2 = 3b^2$. This Means
+**Exercise 1:** Assume $\sqrt{6} = \frac{a}{b}$ in lowest terms. Then $a^2 = 6b^2$ So $a^2$ is even
+(divisible by 2), hence $a$ is even. Write $a = 2k$. Then $4k^2 = 6b^2$ So $2k^2 = 3b^2$. This Means
 $3b^2$ is even, so $b^2$ is even, so $b$ is even. Both $a$ and $b$ are even, contradicting Lowest
 terms.
 
@@ -1286,9 +1286,9 @@ Of $n, n+1, n+2$ is a multiple of 3), and at least one is even (among any two co
 One is even, and we have three). Since 2 and 3 are coprime, the product is divisible by
 $2 \cdot 3 = 6$.
 
-**Exercise 4:** By contrapositive. If $3 \nmid n$Then $n \equiv 1 \pmod{3}$ or
-$n \equiv 2 \pmod{3}$. If $n \equiv 1$Then $n^2 \equiv 1 \pmod{3}$. If $n \equiv 2$Then
-$n^2 \equiv 4 \equiv 1 \pmod{3}$. In either case $n^2 \not\equiv 0 \pmod{3}$So $3 \nmid n^2$.
+**Exercise 4:** By contrapositive. If $3 \nmid n$ Then $n \equiv 1 \pmod{3}$ or
+$n \equiv 2 \pmod{3}$. If $n \equiv 1$ Then $n^2 \equiv 1 \pmod{3}$. If $n \equiv 2$ Then
+$n^2 \equiv 4 \equiv 1 \pmod{3}$. In either case $n^2 \not\equiv 0 \pmod{3}$ So $3 \nmid n^2$.
 
 **Exercise 5:** Counterexample: $x = 0.5$. Then $x^2 = 0.25 \not\gt 0.5$. Also $x = 0$:
 $0^2 = 0 \not\gt 0$.

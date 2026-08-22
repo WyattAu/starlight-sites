@@ -74,7 +74,7 @@ subtended at the circumference.
 
 (b) Angle ABC $= \frac{1}{2} \times$ angle AOC $= \frac{130}{2} = 65^\circ$.
 
-(c) Angle in a semicircle $= 90^\circ$So angle ABC $= 90^\circ$. Angle BAC $= 32^\circ$. In triangle
+(c) Angle in a semicircle $= 90^\circ$ So angle ABC $= 90^\circ$. Angle BAC $= 32^\circ$. In triangle
 ABC: angle ACB $= 180 - 90 - 32 = 58^\circ$. Angle ADC $=$ angle ABC (angles in the same segment)
 $= 90^\circ$.
 

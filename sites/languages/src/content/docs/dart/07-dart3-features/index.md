@@ -1,6 +1,6 @@
 ---
 title: Dart3 Features
-description: "Study notes and resources for Dart3 Features"
+description: "This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language"
 date: 2026-01-01T00:00:00Z
 ---
 

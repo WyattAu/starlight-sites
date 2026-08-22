@@ -259,7 +259,7 @@ $v_{\max} = A\omega = 0.05 \times \sqrt{k/m} = 0.05 \times \sqrt{40} = 0.05 \tim
 
 A mechanical oscillator (mass $m$Spring constant $k$Damping constant $b$) is driven by a force
 $F = F_0\cos(\omega t)$. The analogous electrical circuit consists of an inductor $L$Capacitor
-$C$And resistor $R$ in series driven by an AC voltage $V = V_0\cos(\omega t)$.
+$C$ And resistor $R$ in series driven by an AC voltage $V = V_0\cos(\omega t)$.
 
 Given:
 $m = 0.50\,\text{kg}$$k = 200\,\text{N}\,\text{m}^{-1}$$b = 2.0\,\text{N}\,\text{s}\,\text{m}^{-1}$$L = 0.10\,\text{H}$$C = 25\,\mu\text{F}$$R = 40\,\Omega$.

@@ -466,7 +466,7 @@ $\overline{A \cdot B} = \bar{A} + \bar{B}$.
 <summary>Hint</summary>
 
 Construct a truth table with columns for $A$$B$$A \cdot B$$\overline{A \cdot B}$$\bar{A}$
-$\bar{B}$And $\bar{A} + \bar{B}$.
+$\bar{B}$ And $\bar{A} + \bar{B}$.
 
 </details>
 
@@ -699,7 +699,7 @@ Since $D = \bar{Q}$ and $Q_{next} = D$What happens to $Q$ on each clock edge?
 
 $Q_{next} = D = \bar{Q}$
 
-On each rising clock edge, $Q$ toggles: if $Q = 0$Then $Q_{next} = 1$; if $Q = 1$Then
+On each rising clock edge, $Q$ toggles: if $Q = 0$ Then $Q_{next} = 1$; if $Q = 1$ Then
 $Q_{next} = 0$.
 
 This creates a **toggle flip-flop** (T-flip-flop), which divides the clock frequency by 2. It is the

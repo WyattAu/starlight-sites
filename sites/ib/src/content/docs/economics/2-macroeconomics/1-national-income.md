@@ -177,7 +177,7 @@ Raise of `USD 2,000`Purchasing power decreased because the raise ($4\%$) was les
 <summary>Problem 3: Fiscal Multiplier with Taxes and Imports</summary>
 
 The government increases spending by `USD 50` billion. The marginal propensity to consume is $0.75$
-The marginal tax rate is $0.2$And the marginal propensity to import is $0.15$.
+The marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
 
 (a) Calculate the multiplier.
 
@@ -236,7 +236,7 @@ for Addressing the underlying cause.
 <details>
 <summary>Problem 5: Phillips Curve Analysis</summary>
 
-An economy has a natural rate of unemployment of $5\%$. The current unemployment rate is $3\%$And
+An economy has a natural rate of unemployment of $5\%$. The current unemployment rate is $3\%$ And
 Inflation is $4\%$. The expected inflation rate is $2\%$.
 
 (a) Using the expectations-augmented Phillips curve, explain whether inflation is likely to
@@ -297,7 +297,7 @@ Maximum increase in money supply $= \$200 \text{ million} \times 10 = \$2\,000 \
 <summary>Problem 7: Supply-Side Policy Evaluation</summary>
 
 A government is considering two supply-side policies to promote long-run growth: (a) reducing the
-Corporate tax rate from $30\%$ to $20\%$And (b) increasing public spending on vocational training By
+Corporate tax rate from $30\%$ to $20\%$ And (b) increasing public spending on vocational training By
 `USD 10` billion per year.
 
 Evaluate both policies using economic theory.

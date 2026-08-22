@@ -31,14 +31,14 @@ $\mathbf{v}_1, \ldots, \mathbf{v}_k \in V$:
 
 1. $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ is linearly independent.
 2. No $\mathbf{v}_j$ can be written as a linear combination of the remaining vectors.
-3. If $\sum_{i=1}^k \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$Then
+3. If $\sum_{i=1}^k \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ Then
    $\alpha_i = \beta_i$ for all $i$.
 
-_Proof._ (1 $\Rightarrow$ 2): If $\mathbf{v}_j = \sum_{i \neq j} \alpha_i \mathbf{v}_i$Then
+_Proof._ (1 $\Rightarrow$ 2): If $\mathbf{v}_j = \sum_{i \neq j} \alpha_i \mathbf{v}_i$ Then
 $\sum_{i \neq j} \alpha_i \mathbf{v}_i - \mathbf{v}_j = \mathbf{0}$ gives a non-trivial linear
 Dependence, contradicting (1).
 
-(2 $\Rightarrow$ 3): If $\sum (\alpha_i - \beta_i)\mathbf{v}_i = \mathbf{0}$Then by linear
+(2 $\Rightarrow$ 3): If $\sum (\alpha_i - \beta_i)\mathbf{v}_i = \mathbf{0}$ Then by linear
 Independence (which follows from (2)), $\alpha_i = \beta_i$ for all $i$.
 
 (3 $\Rightarrow$ 1): If $\sum \alpha_i \mathbf{v}_i = \mathbf{0} = \sum 0 \cdot \mathbf{v}_i$ Then
@@ -52,7 +52,7 @@ Combinations of elements of $S$:
 $$\mathrm{span}(S) = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i : k \in \mathbb{N},\, \alpha_i \in F,\, \mathbf{v}_i \in S \right\}$$
 
 **Proposition 2.2.** $\mathrm{span}(S)$ is always a subspace of $V$. In fact, $\mathrm{span}(S)$ is
-The smallest subspace containing $S$: if $W$ is any subspace with $S \subseteq W$Then
+The smallest subspace containing $S$: if $W$ is any subspace with $S \subseteq W$ Then
 $\mathrm{span}(S) \subseteq W$.
 
 _Proof._ $\mathrm{span}(S)$ is non-empty since $\mathbf{0} = 0 \cdot \mathbf{v}$ for any
@@ -76,8 +76,8 @@ The **dimension** of $V$Denoted $\dim(V)$Is the cardinality of any basis for $V$
 ### 2.4 Steinitz Exchange Lemma
 
 **Lemma 2.3 (Steinitz Exchange Lemma).** Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a linearly
-Independent set in $V$And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
-Then $k \leq m$And after relabelling the $\mathbf{w}_j$The set
+Independent set in $V$ And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
+Then $k \leq m$ And after relabelling the $\mathbf{w}_j$The set
 
 $$\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}$$
 
@@ -88,7 +88,7 @@ _Proof._ We proceed by induction on $k$. For $k = 0$ there is nothing to prove.
 Assume the result holds for $k - 1$. Since $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ is linearly
 Independent, $\mathbf{u}_k \neq \mathbf{0}$ and
 $\mathbf{u}_k \in \mathrm{span}\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ Since the $\mathbf{w}_j$ span
-$V$. Therefore $\mathbf{u}_k = \sum_{j=1}^m \alpha_j \mathbf{w}_j$ for some $\alpha_j \in F$And not
+$V$. Therefore $\mathbf{u}_k = \sum_{j=1}^m \alpha_j \mathbf{w}_j$ for some $\alpha_j \in F$ And not
 all $\alpha_j$ are zero.
 
 After relabelling, assume $\alpha_1 \neq 0$. Then
@@ -117,7 +117,7 @@ $m \leq k$. Hence $k = m$. $\blacksquare$
 ### 2.5 Dimension Formula
 
 **Theorem 2.5 (Dimension Formula).** If $U$ and $W$ are subspaces of a finite-dimensional vector
-Space $V$Then
+Space $V$ Then
 
 $$\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W)$$
 
@@ -142,8 +142,8 @@ $$\mathbf{y} = A\left(\sum_{i=1}^n \alpha_i \mathbf{v}_i\right) = \sum_{i=1}^n \
 
 Since $A\mathbf{v}_i = \mathbf{0}$ for $i \leq k$.
 
-_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$Then
-$A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$So
+_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$ Then
+$A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i \in \mathrm{null}(A)$. Since
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ Is a basis for the null space,
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$Giving
@@ -221,11 +221,11 @@ Write $p(x) = ax^3 + bx^2 + cx + d$. The conditions are:
 
 $p(1) = a + b + c + d = 0$ and $p(-1) = -a + b - c + d = 0$.
 
-Adding: $2b + 2d = 0$So $d = -b$. Subtracting: $2a + 2c = 0$So $c = -a$.
+Adding: $2b + 2d = 0$ So $d = -b$. Subtracting: $2a + 2c = 0$ So $c = -a$.
 
 Therefore $p(x) = ax^3 + bx^2 - ax - b = a(x^3 - x) + b(x^2 - 1)$.
 
-A basis for $W$ is $\{x^3 - x, x^2 - 1\}$And $\dim(W) = 2$.
+A basis for $W$ is $\{x^3 - x, x^2 - 1\}$ And $\dim(W) = 2$.
 
 _If you get this wrong, revise: Section 2.7 (Worked Examples)._
 

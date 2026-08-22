@@ -26,7 +26,7 @@ conditions are built into the transform. Forgetting them leads to incorrect solu
 :::
 :::caution
 Separate, check whether $h(y) = 0$ gives any valid solutions. For example, solving $y' = y^2$ by
-Separating gives $y = -1/(x + C)$But misses the solution $y = 0$.
+Separating gives $y = -1/(x + C)$ But misses the solution $y = 0$.
 :::
 :::caution
 Of continuity. At jump discontinuities, it converges to the midpoint of the jump. The Gibbs

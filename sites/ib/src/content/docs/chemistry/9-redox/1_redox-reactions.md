@@ -44,21 +44,21 @@ description: "1. The oxidation state of an element in its standard state is (e.g
 <details>
 <summary>Worked Example 1: Assigning Oxidation States</summary>
 
-(a) Mn in KMnO$_4$: K = +1, O = -2 (four oxygens = -8). Sum = 0: $+1 + \mathrm{Mn} + 4(-2) = 0$So Mn
+(a) Mn in KMnO$_4$: K = +1, O = -2 (four oxygens = -8). Sum = 0: $+1 + \mathrm{Mn} + 4(-2) = 0$ So Mn
 = +7.
 
 (b) Cr in K$_2$Cr$_2$O$_7$: K = +1 (two K = +2), O = -2 (seven O = -14). Sum = 0:
-$+2 + 2\mathrm{Cr} + 7(-2) = 0$So $2\mathrm{Cr} = +12$Cr = +6.
+$+2 + 2\mathrm{Cr} + 7(-2) = 0$ So $2\mathrm{Cr} = +12$Cr = +6.
 
 (c) S in H$_2$SO$_4$: H = +1 (two H = +2), O = -2 (four O = -8). Sum = 0:
-$+2 + \mathrm{S} + 4(-2) = 0$So S = +6.
+$+2 + \mathrm{S} + 4(-2) = 0$ So S = +6.
 
 (d) S in H$_2$SO$_3$: H = +1 (two H = +2), O = -2 (three O = -6). Sum = 0:
-$+2 + \mathrm{S} + 3(-2) = 0$So S = +4.
+$+2 + \mathrm{S} + 3(-2) = 0$ So S = +4.
 
-(e) N in HNO$_3$: H = +1, O = -2 (three O = -6). Sum = 0: $+1 + \mathrm{N} + 3(-2) = 0$So N = +5.
+(e) N in HNO$_3$: H = +1, O = -2 (three O = -6). Sum = 0: $+1 + \mathrm{N} + 3(-2) = 0$ So N = +5.
 
-(f) Fe in Fe$_3$O$_4$: O = -2 (four O = -8). Sum = 0: $3\mathrm{Fe} - 8 = 0$So Fe = +8/3 = +2.67.
+(f) Fe in Fe$_3$O$_4$: O = -2 (four O = -8). Sum = 0: $3\mathrm{Fe} - 8 = 0$ So Fe = +8/3 = +2.67.
 This is a mixed oxidation state compound (Fe$_2$O$_3$ $\cdot$ FeO, with Fe(III) and Fe(II)).
 
 </details>
@@ -433,7 +433,7 @@ $\mathrm{Fe}^{3+}(aq) + \mathrm{I}^-(aq) \to \mathrm{Fe}^{2+}(aq) + \frac{1}{2}\
 **Cathode (reduction -- more positive $E^\circ$):** $\mathrm{Fe}^{3+} + e^- \to \mathrm{Fe}^{2+}$
 $E^\circ = +0.77\mathrm{ V}$
 
-**Anode (oxidation -- less positive $E^\circ$):** $2\mathrm{I}^- \to \mathrm{I}_2 + 2e^-$So
+**Anode (oxidation -- less positive $E^\circ$):** $2\mathrm{I}^- \to \mathrm{I}_2 + 2e^-$ So
 $E^\circ = +0.54\mathrm{ V}$ (reduction potential of I$_2$)
 
 $$
@@ -544,7 +544,7 @@ Number of electrons transferred).
 A current of $2.50\mathrm{ A}$ is passed through molten Al$_2$O$_3$ for $30.0$ minutes. Calculate
 The mass of aluminium produced. ($M_r(\mathrm{Al}) = 27.0\mathrm{ g/mol}$)
 
-Cathode half-reaction: $\mathrm{Al}^{3+} + 3e^- \to \mathrm{Al}$So $n = 3$.
+Cathode half-reaction: $\mathrm{Al}^{3+} + 3e^- \to \mathrm{Al}$ So $n = 3$.
 
 $$
 Q = I \times t = 2.50 \times 30.0 \times 60 = 4500\mathrm{ C}
@@ -925,7 +925,7 @@ Note: With **inert** electrodes (e.g., graphite), oxygen is produced at the anod
 Oxidation, not from copper dissolution. The question specifies copper electrodes, so copper
 Oxidation occurs.
 
-(c) With **copper electrodes**, the anode reaction is $\mathrm{Cu} \to \mathrm{Cu}^{2+} + 2e^-$And
+(c) With **copper electrodes**, the anode reaction is $\mathrm{Cu} \to \mathrm{Cu}^{2+} + 2e^-$ And
 No O$_2$ is produced. If the electrodes were inert (graphite), then:
 
 At the anode: $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$

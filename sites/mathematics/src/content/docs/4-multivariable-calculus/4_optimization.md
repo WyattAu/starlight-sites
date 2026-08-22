@@ -54,11 +54,11 @@ Where $H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{xy} & f_{yy} \end{pmatrix}$ is 
 
 By Sylvester's criterion for $2 \times 2$ symmetric matrices:
 
-- If $\det(H) = D \gt 0$ and $f_{xx} \gt 0$Then $H$ is positive definite, so $Q \gt 0$ for all
+- If $\det(H) = D \gt 0$ and $f_{xx} \gt 0$ Then $H$ is positive definite, so $Q \gt 0$ for all
   $(h,k) \neq (0,0)$Giving a local minimum.
-- If $\det(H) = D \gt 0$ and $f_{xx} \lt 0$Then $H$ is negative definite, so $Q \lt 0$ for all
+- If $\det(H) = D \gt 0$ and $f_{xx} \lt 0$ Then $H$ is negative definite, so $Q \lt 0$ for all
   $(h,k) \neq (0,0)$Giving a local maximum.
-- If $\det(H) = D \lt 0$Then $H$ is indefinite, so $Q$ takes both positive and negative values,
+- If $\det(H) = D \lt 0$ Then $H$ is indefinite, so $Q$ takes both positive and negative values,
   giving a saddle point.
 
 When $D = 0$The quadratic form is degenerate and the sign is determined by higher-order terms.
@@ -76,7 +76,7 @@ More generally, for $k$ constraints $g_1 = 0, \ldots, g_k = 0$:
 $$\nabla f = \lambda_1 \nabla g_1 + \cdots + \lambda_k \nabla g_k$$
 
 _Proof (single constraint, geometric justification)._ Let $M = \\{(x,y,z) : g(x,y,z) = 0\\}$ be the
-constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$Then the directional
+constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$ Then the directional
 derivative $D_{\mathbf{v}} f(\mathbf{p}) = 0$ for every tangent Vector $\mathbf{v}$ to $M$ at
 $\mathbf{p}$. Since $\nabla f(\mathbf{p}) \cdot \mathbf{v} = 0$ for all Such $\mathbf{v}$The
 gradient $\nabla f(\mathbf{p})$ must be orthogonal to the tangent space of $M$ At $\mathbf{p}$. But
@@ -94,11 +94,11 @@ $\nabla f = \lambda \nabla g \implies (y, x) = \lambda(2x, 2y)$
 
 This gives $y = 2\lambda x$ and $x = 2\lambda y$. Multiplying: $xy = 4\lambda^2 xy$.
 
-Case 1: $xy \neq 0$. Then $4\lambda^2 = 1$So $\lambda = \pm 1/2$.
+Case 1: $xy \neq 0$. Then $4\lambda^2 = 1$ So $\lambda = \pm 1/2$.
 
-- $\lambda = 1/2$: $y = x$And $x^2 + x^2 = 1$So $x = \pm 1/\sqrt{2}$. Points:
+- $\lambda = 1/2$: $y = x$ And $x^2 + x^2 = 1$ So $x = \pm 1/\sqrt{2}$. Points:
   $(1/\sqrt{2}, 1/\sqrt{2})$ and $(-1/\sqrt{2}, -1/\sqrt{2})$ with $f = 1/2$.
-- $\lambda = -1/2$: $y = -x$And $x^2 + x^2 = 1$So $x = \pm 1/\sqrt{2}$. Points:
+- $\lambda = -1/2$: $y = -x$ And $x^2 + x^2 = 1$ So $x = \pm 1/\sqrt{2}$. Points:
   $(1/\sqrt{2}, -1/\sqrt{2})$ and $(-1/\sqrt{2}, 1/\sqrt{2})$ with $f = -1/2$.
 
 Case 2: $xy = 0$. Then either $x = 0$ or $y = 0$. From the constraint: $(0, \pm 1)$ or $(\pm 1, 0)$
@@ -154,7 +154,7 @@ Set $\nabla f = (0,0)$:
 
 $$3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x$$
 
-Substituting: $(x^2)^2 = x$So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$So $x = 0$ or $x = 1$.
+Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
 
 - $x = 0$: $y = 0$. Critical point: $(0, 0)$.
 - $x = 1$: $y = 1$. Critical point: $(1, 1)$.
@@ -209,15 +209,15 @@ Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$Giving $(y - x)(z + 2\l
 
 Similarly, $(z - y)(x + 2\lambda_2) = 0$ and $(x - z)(y + 2\lambda_2) = 0$.
 
-If $x = y = z$: From $g_1$: $3x = 1$So $x = 1/3$. From $g_2$: $3(1/9) = 1/3$. This satisfies both
+If $x = y = z$: From $g_1$: $3x = 1$ So $x = 1/3$. From $g_2$: $3(1/9) = 1/3$. This satisfies both
 constraints.
 
 At $(1/3, 1/3, 1/3)$: $f = 1/27$.
 
-If $x \neq y$: Then $z + 2\lambda_2 = 0$. If also $y \neq z$: $x + 2\lambda_2 = 0$So $x = z$.
+If $x \neq y$: Then $z + 2\lambda_2 = 0$. If also $y \neq z$: $x + 2\lambda_2 = 0$ So $x = z$.
 
 With $x = z$: from $x + y + z = 1$: $2x + y = 1$. From $2x^2 + y^2 = 1/3$: Substituting
-$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$I.e., $(3x - 1)^2 = 0$So $x = 1/3$ $y = 1/3$. This reduces to the
+$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$I.e., $(3x - 1)^2 = 0$ So $x = 1/3$ $y = 1/3$. This reduces to the
 symmetric case.
 
 Therefore the only critical point is $(1/3, 1/3, 1/3)$Which gives $f = 1/27$.

@@ -189,7 +189,7 @@ $3s$ subshell.
 Aluminium has electron configuration $1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$. The electron is removed
 From the $3p$ subshell.
 
-The $3p$ subshell is at a slightly higher energy level than $3s$So the $3p$ electron is less Tightly
+The $3p$ subshell is at a slightly higher energy level than $3s$ So the $3p$ electron is less Tightly
 held and requires less energy to remove.
 
 ### Electronegativity
@@ -288,7 +288,7 @@ Pulled towards the more electronegative atom, creating a **polar bond** with a d
 ### Worked Example: Predicting Bond Polarity
 
 Use electronegativity values to predict the bond polarity of (a) $\mathrm{H_2O}$(b)
-$\mathrm{CCl_4}$And (c) $\mathrm{KBr}$. Given:
+$\mathrm{CCl_4}$ And (c) $\mathrm{KBr}$. Given:
 $\mathrm{H} = 2.1$$\mathrm{O} = 3.5$$\mathrm{C} = 2.5$$\mathrm{Cl} = 3.0$$\mathrm{K} = 0.8$$\mathrm{Br} = 2.8$.
 
 <details>
@@ -1287,7 +1287,7 @@ the layers.
 </details>
 
 **Problem 11:** Determine the hybridisation of the central atom in $\mathrm{BF_3}$ and
-$\mathrm{NF_3}$And explain why their bond angles differ.
+$\mathrm{NF_3}$ And explain why their bond angles differ.
 
 _If you get this wrong, revise: Hybridisation and VSEPR Theory_
 

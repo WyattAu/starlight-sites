@@ -54,7 +54,7 @@ Work on the surroundings ($w \lt 0$).
 
 ### Work at Constant Pressure: Enthalpy
 
-At constant pressure, $w = -P\Delta V$So:
+At constant pressure, $w = -P\Delta V$ So:
 
 $$
 \Delta U = q_P - P\Delta V \implies q_P = \Delta U + P\Delta V = \Delta H
@@ -379,7 +379,7 @@ Calculate $\Delta S$ for the vaporisation of $1.00 \mathrm{ mol$ of water at $10
 
 $$\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol$$
 
-At the boiling point, $\Delta G = 0$So $\Delta H = T\Delta S$:
+At the boiling point, $\Delta G = 0$ So $\Delta H = T\Delta S$:
 
 $$\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)$$
 
@@ -511,7 +511,7 @@ $$\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^
 
 $$= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol$$
 
-$\Delta G \lt 0$So the reaction is spontaneous under these conditions. The high pressure of
+$\Delta G \lt 0$ So the reaction is spontaneous under these conditions. The high pressure of
 Reactants and low pressure of product drive the reaction forward.
 
 ## Summary Table: Thermodynamic Quantities
@@ -682,7 +682,7 @@ Reactants and low pressure of product drive the reaction forward.
     final volume of $8.00 \mathrm{ L$.
 
 32. Given $\Delta H_f^\circ(\mathrm{NH_3, g) = -46.1 \mathrm{ kJ/mol$
-    $\Delta H_f^\circ(\mathrm{NO, g) = 90.3 \mathrm{ kJ/mol$And
+    $\Delta H_f^\circ(\mathrm{NO, g) = 90.3 \mathrm{ kJ/mol$ And
     $\Delta H_f^\circ(\mathrm{H_2\mathrm{O, g) = -241.8 \mathrm{ kJ/mol$Calculate $\Delta H^\circ$
     for the reaction
     $4\mathrm{NH_3(g) + 5\mathrm{O_2(g) \to 4\mathrm{NO(g) + 6\mathrm{H_2\mathrm{O(g)$.
@@ -796,7 +796,7 @@ Unknown metal may be iron.
 For the vaporisation of water at $100^\circ\mathrm{C$ and $1 \mathrm{ atm$:
 $\mathrm{H_2\mathrm{O(l) \to \mathrm{H_2\mathrm{O(g)$
 $\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol$. Calculate $\Delta S_{\mathrm{system}$
-$\Delta S_{\mathrm{surroundings}$And $\Delta S_{\mathrm{universe}$. Is the process spontaneous At
+$\Delta S_{\mathrm{surroundings}$ And $\Delta S_{\mathrm{universe}$. Is the process spontaneous At
 this temperature?
 
 </details>

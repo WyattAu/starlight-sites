@@ -88,7 +88,7 @@ $u(x, t) = e^{-4t}\sin(2x) + 3e^{-25t}\sin(5x)$. $\blacksquare$
 
 $$u_{tt} = c^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0$$
 
-With boundary conditions $u(0, t) = u(L, t) = 0$And initial conditions $u(x, 0) = f(x)$
+With boundary conditions $u(0, t) = u(L, t) = 0$ And initial conditions $u(x, 0) = f(x)$
 $u_t(x, 0) = g(x)$.
 
 ### 8.7 Derivation of the Wave Equation
@@ -98,7 +98,7 @@ small segment $[x, x + \Delta x]$Newton's second law in the vertical direction g
 
 $$\rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)$$
 
-For small displacements, $\sin\theta \approx \tan\theta = u_x$So:
+For small displacements, $\sin\theta \approx \tan\theta = u_x$ So:
 
 $$\rho \, u_{tt} = T \frac{u_x(x + \Delta x) - u_x(x)}{\Delta x} \xrightarrow{\Delta x \to 0} T u_{xx}$$
 
@@ -218,7 +218,7 @@ Conditions**. For the heat equation:
 $$u_x(0, t) = 0, \quad u_x(L, t) = 0$$
 
 (insulated ends). The separation of variables gives $X'(0) = X'(L) = 0$Yielding eigenvalues
-$\lambda_0 = 0$ with $X_0 = 1$And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
+$\lambda_0 = 0$ with $X_0 = 1$ And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
 $X_n = \cos(n\pi x/L)$.
 
 The solution is

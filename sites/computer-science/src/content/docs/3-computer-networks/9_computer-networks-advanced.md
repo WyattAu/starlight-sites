@@ -1,7 +1,7 @@
 ---
 
 title: Computer Networks (Advanced)
-description: "Advanced computer networks topics including routing protocols."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"computer-science\", \"url\": \"https://computer-science.wyattau.com\"}, {\"name\": \"3"
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing
@@ -173,7 +173,7 @@ A company has been allocated the network 172.16.0.0/16. It needs to create subne
 Total addresses: $2^{16} = 65536$.
 
 Headquarters: 16000 hosts needs $\lceil \log_2(16002) \rceil = 15$ bits for hosts, so $/17$
-($32 - 15 = 17$). But 16000 < $2^{14} = 16384$So $/18$ suffices (16382 usable hosts). Allocate
+($32 - 15 = 17$). But 16000 < $2^{14} = 16384$ So $/18$ suffices (16382 usable hosts). Allocate
 172.16.0.0/18.
 
 Data centres: 8000 hosts needs $\lceil \log_2(8002) \rceil = 14$ bits, so $/18$ suffices. Allocate
@@ -253,7 +253,7 @@ $\blacksquare$
 $$\text{cwnd}(t) = W_{\max} + \beta \cdot \left(\frac{t}{K}\right)^3 - (W_{\max} - \text{cwnd_}{\text{low})}$$
 
 Where $W_{\max}$ is the window size at the last loss event,
-$K = \sqrt[3]{W_{\max} \cdot \beta / C}$, $\beta = 0.4$And $C = 0.4$.
+$K = \sqrt[3]{W_{\max} \cdot \beta / C}$, $\beta = 0.4$ And $C = 0.4$.
 
 The cubic function grows slowly near $W_{\max}$ (probing) and rapidly far from it (quick recovery),
 making it suitable for high-BDP (bandwidth-delay product) networks.

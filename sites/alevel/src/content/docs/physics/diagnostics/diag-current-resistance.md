@@ -96,11 +96,11 @@ cross-sectional area $1.0 \times 10^{-6}\,\text{m}^2$.
 $$5.80 = 5.00[1 + \alpha(80)]$$ $$1 + 80\alpha = 1.160$$ $$80\alpha = 0.160$$
 $$\alpha = 0.00200\,\text{K}^{-1}$$
 
-The accepted value is approximately $0.00393\,\text{K}^{-1}$But we use the data given.
+The accepted value is approximately $0.00393\,\text{K}^{-1}$ But we use the data given.
 
 (b) $\rho = RA/l = 5.00 \times 1.0 \times 10^{-6}/10.0 = 5.00 \times 10^{-7}\,\Omega\,\text{m}$
 
-The accepted value is $1.68 \times 10^{-8}\,\Omega\,\text{m}$So this copper has a much higher
+The accepted value is $1.68 \times 10^{-8}\,\Omega\,\text{m}$ So this copper has a much higher
 resistivity than pure copper, suggesting impurities or an alloy.
 
 (c) $R_3 = R_1[1 + \alpha(T_3 - T_1)]$
@@ -128,7 +128,7 @@ A semiconductor diode has the I-V characteristic approximated by the Shockley di
 $$I = I_0\left(e^{eV/(nkT)} - 1\right)$$
 
 Where $I_0 = 5.0 \times 10^{-9}\,\text{A}$, $n = 1.5$ (ideality factor),
-$e = 1.60 \times 10^{-19}\,\text{C}$, $k = 1.38 \times 10^{-23}\,\text{J}\,\text{K}^{-1}$And
+$e = 1.60 \times 10^{-19}\,\text{C}$, $k = 1.38 \times 10^{-23}\,\text{J}\,\text{K}^{-1}$ And
 $T = 300\,\text{K}$.
 
 (a) Calculate the current when $V = 0.60\,\text{V}$ is applied in the forward direction.
@@ -185,7 +185,7 @@ $100/200 = 150/R_L \Rightarrow R_L = 300\,\Omega$
 But we are told $R_L = 100\,\Omega$ at the operating point, and $R_1/R_2 = 100/200 = 0.5$While
 $R_3/R_L = 150/100 = 1.5$. Since $0.5 \ne 1.5$The bridge is **not balanced**.
 
-For the bridge to be balanced with $R_L = 100\,\Omega$: $R_1/R_2 = R_3/R_L = 150/100 = 1.5$So
+For the bridge to be balanced with $R_L = 100\,\Omega$: $R_1/R_2 = R_3/R_L = 150/100 = 1.5$ So
 $R_1 = 1.5 \times 200 = 300\,\Omega$.
 
 Since the bridge is not balanced, the galvanometer will carry current. This is actually the point of
@@ -238,7 +238,7 @@ without additional circuitry to control the operating point.
 
 **Question:**
 
-A student determines the resistivity of a material using a wire of length $l$Diameter $d$And
+A student determines the resistivity of a material using a wire of length $l$Diameter $d$ And
 measuring the resistance $R$ with a digital multimeter. They use $\rho = \pi d^2 R/(4l)$.
 
 Their measurements are:
@@ -247,7 +247,7 @@ $l = (1.000 \pm 0.001)\,\text{m}$$d = (0.500 \pm 0.005)\,\text{mm}$$R = (8.50 \p
 (a) Calculate the resistivity and its percentage uncertainty.
 
 (b) The student notices that the resistance measurement was made with the wire at
-$25^\circ\text{C}$But the specification gives the resistivity at $20^\circ\text{C}$. If
+$25^\circ\text{C}$ But the specification gives the resistivity at $20^\circ\text{C}$. If
 $\alpha = 0.004\,\text{K}^{-1}$Calculate the corrected resistivity at $20^\circ\text{C}$.
 
 (c) The student then uses a micrometer screw gauge (resolution $0.01\,\text{mm}$) to re-measure the
@@ -281,7 +281,7 @@ $$\rho' = \frac{\pi \times (4.98 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} 
 $$\frac{\Delta\rho'}{\rho'} = 2 \times \frac{0.003}{0.498} + 0.00588 + 0.001 = 0.01205 + 0.00588 + 0.001 = 0.01893 = 1.89\%$$
 
 The percentage uncertainty improved from $2.69\%$ to $1.89\%$. The micrometer reduced the fractional
-uncertainty in diameter from $1.0\%$ to $0.60\%$And since diameter enters as $d^2$This contributed
+uncertainty in diameter from $1.0\%$ to $0.60\%$ And since diameter enters as $d^2$This contributed
 $2 \times 0.40\% = 0.80\%$ improvement.
 
 ---
@@ -326,7 +326,7 @@ New efficiency $= (500 - 0.10)/500 \times 100 = 99.98\%$
 
 The power loss is reduced by a factor of $(10/100)^2 = 1/100$ when the voltage is increased by a
 factor of 10. This demonstrates why high-voltage transmission is essential for efficient power
-distribution: power loss scales as $I^2R$And $I = P/V$So $P_{\text{loss}} = P^2R/V^2$.
+distribution: power loss scales as $I^2R$ And $I = P/V$ So $P_{\text{loss}} = P^2R/V^2$.
 
 ## Common Mistakes
 

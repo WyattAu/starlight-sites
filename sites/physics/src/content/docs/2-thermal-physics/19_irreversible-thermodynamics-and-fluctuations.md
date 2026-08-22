@@ -58,7 +58,7 @@ state $A$ to equilibrium state $B$ in time $\tau$.
   free energy change).
 - For quasi-static processes: $\langle W \rangle = \Delta F$ and the distribution of $W$ is a delta
   function.
-- For fast (far-from-equilibrium) processes: $\langle W \rangle > \Delta F$But the exponential
+- For fast (far-from-equilibrium) processes: $\langle W \rangle > \Delta F$ But the exponential
   average still equals $e^{-\beta\Delta F}$.
 
 This remarkable result has been verified experimentally in single-molecule pulling experiments (RNA,

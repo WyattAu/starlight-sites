@@ -54,7 +54,7 @@ $$P_i \propto \Omega_R(E_{\mathrm{tot} - E_i) = \exp\left(\frac{S_R(E_{\mathrm{t
 Expanding $S_R$ around $E_{\mathrm{tot}}$:
 $S_R(E_{\mathrm{tot} - E_i) \approx S_R(E_{\mathrm{tot}) - E_i \left(\frac{\partial S_R}{\partial E}\right) = S_R(E_{\mathrm{tot}) - \frac{E_i}{T}}}}$
 
-Since $(\partial S_R / \partial E) = 1/T$. Therefore $P_i \propto e^{-E_i / (k_BT)}$And normalising
+Since $(\partial S_R / \partial E) = 1/T$. Therefore $P_i \propto e^{-E_i / (k_BT)}$ And normalising
 gives the result. $\blacksquare$
 
 ### 2.3 Thermodynamic Quantities from the Partition Function
@@ -200,7 +200,7 @@ Before mixing: the total entropy is
 $2 \times Nk_B\left[\ln\left(\frac{V}{N\lambda^3}\right) + \frac{5}{2}\right]$ (for a monatomic
 gas).
 
-After mixing: each gas occupies volume $2V$So the total entropy is:
+After mixing: each gas occupies volume $2V$ So the total entropy is:
 
 $$S_f = 2 \times Nk_B\left[\ln\left(\frac{2V}{N\lambda^3}\right) + \frac{5}{2}\right]$$
 

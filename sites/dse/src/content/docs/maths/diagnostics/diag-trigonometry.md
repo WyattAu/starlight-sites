@@ -34,7 +34,7 @@ By the sine rule:
 
 $$\frac{\sin \angle ABC}{AC} = \frac{\sin 30°}{BC}$$
 
-We need $AC$ first. We only have $AB$, $BC$And $\angle A$ -- this is the SSA (ambiguous) case.
+We need $AC$ first. We only have $AB$, $BC$ And $\angle A$ -- this is the SSA (ambiguous) case.
 
 Using the sine rule: $\dfrac{\sin C}{8} = \dfrac{\sin 30°}{6}$
 
@@ -327,7 +327,7 @@ $$\angle VMO = \arctan\left(\frac{4}{3}\right) \approx 53.1°$$
 
 **Question:**
 
-In triangle $ABC$$\angle A = 45°$$\angle B = 60°$And $a = 8$ cm. Find the length of side $c$.
+In triangle $ABC$$\angle A = 45°$$\angle B = 60°$ And $a = 8$ cm. Find the length of side $c$.
 
 **Solution:**
 
@@ -496,7 +496,7 @@ The absolute shortest is the space diagonal $\sqrt{61}$ m.
 
 **Question:**
 
-A ship sails from port $A$ on a bearing of $060°$ for $15$ km to point $B$Then on a bearing of
+A ship sails from port $A$ on a bearing of $060°$ for $15$ km to point $B$ Then on a bearing of
 $150°$ for $20$ km to point $C$. Find the distance and bearing of $C$ from $A$.
 
 **Solution:**

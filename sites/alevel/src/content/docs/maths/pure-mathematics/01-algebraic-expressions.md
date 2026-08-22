@@ -37,7 +37,7 @@ categories:
 Is, an expression of the form $\sqrt{n}$ where $n \in \mathbb{Q}^+$ and
 $\sqrt{n} \notin \mathbb{Q}$.
 
-The most familiar surds are $\sqrt{2}$$\sqrt{3}$$\sqrt{5}$And so on. The set of surds is a Subset of
+The most familiar surds are $\sqrt{2}$$\sqrt{3}$$\sqrt{5}$ And so on. The set of surds is a Subset of
 the algebraic numbers, and they arise whenever we solve equations of degree 2 or Higher.
 
 ### 1.1 Laws of Surds
@@ -83,7 +83,7 @@ distribute the Denominator correctly.
 **Theorem.** $\sqrt{2}$ is irrational.
 
 _Proof._ We proceed by contradiction. Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{p}{q}$
-Where $p, q \in \mathbb{Z}^+$$q \neq 0$And $\gcd(p, q) = 1$ (i.e., the fraction is in lowest Terms).
+Where $p, q \in \mathbb{Z}^+$$q \neq 0$ And $\gcd(p, q) = 1$ (i.e., the fraction is in lowest Terms).
 
 $$
 \begin{aligned}
@@ -96,7 +96,7 @@ $$
 Since $p^2 = 2q^2$We have that $p^2$ is even. A standard result (proved below) tells us that if
 $p^2$ is even, then $p$ is even. So $p = 2k$ for some integer $k$.
 
-Substituting: $(2k)^2 = 2q^2$So $4k^2 = 2q^2$Hence $q^2 = 2k^2$.
+Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$Hence $q^2 = 2k^2$.
 
 By the same argument, $q^2$ is even, so $q$ is even. But this contradicts $\gcd(p, q) = 1$ since
 Both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
@@ -104,7 +104,7 @@ Irrational. $\blacksquare$
 
 _Lemma._ If $p^2$ is even, then $p$ is even.
 
-_Proof._ The contrapositive: if $p$ is odd, then $p^2$ is odd. If $p = 2k + 1$Then
+_Proof._ The contrapositive: if $p$ is odd, then $p^2$ is odd. If $p = 2k + 1$ Then
 $p^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd. $\blacksquare$
 
 _Intuition._ This proof exploits the structure of divisibility: the number 2 has a unique prime
@@ -278,7 +278,7 @@ _Proof._
 ($\Rightarrow$) If $(x - a)$ is a factor, then $f(x) = (x - a) \cdot q(x)$. Setting $x = a$:
 $f(a) = (a - a) \cdot q(a) = 0$.
 
-($\Leftarrow$) If $f(a) = 0$Then by the Remainder Theorem, the remainder upon division by $(x - a)$
+($\Leftarrow$) If $f(a) = 0$ Then by the Remainder Theorem, the remainder upon division by $(x - a)$
 is $f(a) = 0$. So $f(x) = (x - a) \cdot q(x)$Meaning $(x - a)$ is a factor. $\blacksquare$
 
 _Intuition._ The Factor Theorem connects algebra (polynomials) to geometry (roots on the $x$-axis).
@@ -418,7 +418,7 @@ $$
 \end{aligned}
 $$
 
-Adding (1) and (2): $3a = 18$So $a = 6$. Then $b = 4 - 6 = -2$.
+Adding (1) and (2): $3a = 18$ So $a = 6$. Then $b = 4 - 6 = -2$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Remainder theorem](#51-the-remainder-theorem)
@@ -457,9 +457,9 @@ $$
 \end{aligned}
 $$
 
-Setting $x = -3$: $-6 + 1 = A(-5)$So $A = 1$.
+Setting $x = -3$: $-6 + 1 = A(-5)$ So $A = 1$.
 
-Setting $x = 2$: $4 + 1 = B(5)$So $B = 1$.
+Setting $x = 2$: $4 + 1 = B(5)$ So $B = 1$.
 
 $$\frac{2x + 1}{(x + 3)(x - 2)} = \frac{1}{x + 3} + \frac{1}{x - 2}$$
 
@@ -468,7 +468,7 @@ $$\frac{2x + 1}{(x + 3)(x - 2)} = \frac{1}{x + 3} + \frac{1}{x - 2}$$
 
 <hr />
 
-**Problem 7.** Given $f(x) = x^4 - x^3 - 7x^2 + x + 6$Show that $(x - 1)$, $(x + 1)$And $(x - 3)$
+**Problem 7.** Given $f(x) = x^4 - x^3 - 7x^2 + x + 6$Show that $(x - 1)$, $(x + 1)$ And $(x - 3)$
 are all factors, and hence factorise $f(x)$ completely.
 
 <details>
@@ -491,7 +491,7 @@ The product $(x-1)(x+1)(x-3) = (x^2-1)(x-3) = x^3 - 3x^2 - x + 3$.
 
 Comparing leading coefficients: $p = 1$.
 
-Comparing constant terms: $(-1)(1)(-3)(q) = 6$So $3q = 6$, $q = 2$.
+Comparing constant terms: $(-1)(1)(-3)(q) = 6$ So $3q = 6$, $q = 2$.
 
 $$f(x) = (x - 1)(x + 1)(x - 3)(x + 2)$$
 
@@ -574,7 +574,7 @@ Discriminant: $\Delta = 9 - 20 = -11 < 0$. No real solutions.
 <hr />
 
 **Problem 11.** Given that $x^3 + ax^2 + bx + c$ is exactly divisible by $(x - 1)^2$ and leaves
-Remainder $12$ when divided by $(x + 2)$Find $a$, $b$And $c$.
+Remainder $12$ when divided by $(x + 2)$Find $a$, $b$ And $c$.
 
 <details>
 <summary>Solution</summary>

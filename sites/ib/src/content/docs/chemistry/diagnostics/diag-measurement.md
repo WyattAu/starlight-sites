@@ -126,7 +126,7 @@ Gradient $= 0.0445\ \text{g kPa}^{-1} = 4.45 \times 10^{-5}\ \text{kg Pa}^{-1}$.
 
 $M = \frac{4.45 \times 10^{-5} \times 8.314 \times 298}{2.50 \times 10^{-4}} = \frac{0.1103}{2.50 \times 10^{-4}} = 441\ \text{g mol}^{-1}$
 
-(Checking: $\text{CO}_2$ is $44\ \text{g mol}^{-1}$So this is likely $\text{CO}_2$ with a unit
+(Checking: $\text{CO}_2$ is $44\ \text{g mol}^{-1}$ So this is likely $\text{CO}_2$ with a unit
 issue. Rechecking: gradient should be $0.0445\ \text{g kPa}^{-1}$. Using
 $R = 8.314\ \text{J K}^{-1}\text{mol}^{-1} = 8.314 \times 10^{-3}\ \text{kJ K}^{-1}\text{mol}^{-1}$
 but with pressure in kPa and volume in dm$^3$: $V = 0.250\ \text{dm}^3$.)
@@ -197,7 +197,7 @@ $25.0 \pm 0.5$Calculate $A$ and its uncertainty.
 
 **Solution:**
 
-$\text{Gradient} = -E_a/R$So $E_a = -\text{gradient} \times R$.
+$\text{Gradient} = -E_a/R$ So $E_a = -\text{gradient} \times R$.
 
 $E_a = 8500 \times 8.314 = 70669\ \text{J mol}^{-1} = 70.7\ \text{kJ mol}^{-1}$
 

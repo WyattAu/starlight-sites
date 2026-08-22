@@ -1,7 +1,7 @@
 ---
 
 title: Concurrency and OTP
-description: "Elixir concurrency and OTP fundamentals."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Elixir\", \"url\":"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

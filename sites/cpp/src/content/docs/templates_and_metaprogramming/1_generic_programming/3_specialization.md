@@ -197,7 +197,7 @@ int main() {
 
 When multiple partial specializations match, the compiler uses **partial ordering** to select the
 Most specialized one [N4950 S13.7.5.5]. Informally, specialization $A$ is more specialized than $B$
-If every type accepted by $A$ is also accepted by $B$But not vice versa.
+If every type accepted by $A$ is also accepted by $B$ But not vice versa.
 
 ```cpp
 #include <iostream>
@@ -241,7 +241,7 @@ The partial ordering algorithm [N4950 S13.7.5.5/2] works by **synthetic substitu
 3. The compiler then performs the same test in the other direction: replace each template parameter
    of $B$ with a unique synthetic type and check whether it matches $A$.
 
-4. If $A$ matches $B$ but $B$ does not match $A$Then $A$ is more specialized. If both match each
+4. If $A$ matches $B$ but $B$ does not match $A$ Then $A$ is more specialized. If both match each
    other, they are ambiguous. If neither matches the other, neither is more specialized.
 
 **Proof that `T* const` is more specialized than `T*`.** Replace the `T` in `T* const` with a unique

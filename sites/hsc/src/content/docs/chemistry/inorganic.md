@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Inorganic"
-description: "HSC chemistry: Inorganic"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"hsc\", \"url\": \"https://hsc.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

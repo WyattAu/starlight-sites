@@ -34,7 +34,7 @@ $(g^k)^{n'} = e$ and that $n'$ is the smallest such positive exponent.
 $(g^k)^{n'} = g^{kn'} = g^{dk'n'} = g^{n'k}$. Since $n = dn'$We have
 $g^{kn'} = g^{dk'n'} = (g^{dn'})^{k'} = e^{k'} = e$. So $|g^k|$ divides $n' = n/d$.
 
-Conversely, if $(g^k)^m = g^{km} = e$Then $n$ divides $km$So $dn'$ divides $dk'm$ Hence $n'$ divides
+Conversely, if $(g^k)^m = g^{km} = e$ Then $n$ divides $km$ So $dn'$ divides $dk'm$ Hence $n'$ divides
 $k'm$. Since $\gcd(n', k') = 1$We get $n'$ divides $m$. Thus $|g^k| = n' = n / \gcd(n, k)$.
 $\blacksquare$
 
@@ -55,9 +55,9 @@ Elements of order $2$: $r^2$, $s$, $rs$, $r^2s$, $r^3s$. So there are five subgr
 $\langle r^2 \rangle$, $\langle s \rangle$, $\langle rs \rangle$, $\langle r^2s \rangle$,
 $\langle r^3s \rangle$.
 
-For normality: $r r^2 r^{-1} = r^2$ and $s r^2 s = r^{-2} = r^2$So
+For normality: $r r^2 r^{-1} = r^2$ and $s r^2 s = r^{-2} = r^2$ So
 $\langle r^2 \rangle \trianglelefteq D_4$. But
-$s(rs)s = sr = r^{-1}s = r^3s \notin \langle rs \rangle$So $\langle rs \rangle$ is not normal.
+$s(rs)s = sr = r^{-1}s = r^3s \notin \langle rs \rangle$ So $\langle rs \rangle$ is not normal.
 Similarly, the other reflection subgroups are not normal. Only $\langle r^2 \rangle = Z(D_4)$ is
 normal. $\blacksquare$
 
@@ -70,9 +70,9 @@ _If you get this wrong, revise: Section 1.3, 1.7; Section 4.1, Proposition 4.1._
 <details>
 <summary>Solution</summary>
 
-_Solution._ $H \cap K$ is non-empty since $e \in H$ and $e \in K$So $e \in H \cap K$. If
-$a, b \in H \cap K$Then $a, b \in H$ and $a, b \in K$. Since $H$ and $K$ are subgroups,
-$ab^{-1} \in H$ and $ab^{-1} \in K$So $ab^{-1} \in H \cap K$. By the subgroup criterion,
+_Solution._ $H \cap K$ is non-empty since $e \in H$ and $e \in K$ So $e \in H \cap K$. If
+$a, b \in H \cap K$ Then $a, b \in H$ and $a, b \in K$. Since $H$ and $K$ are subgroups,
+$ab^{-1} \in H$ and $ab^{-1} \in K$ So $ab^{-1} \in H \cap K$. By the subgroup criterion,
 $H \cap K \leq G$. $\blacksquare$
 
 </details>
@@ -120,15 +120,15 @@ $(1\ 3\ 4\ 2)$ is not among the four elements of $H$ listed above). $\blacksquar
 
 _If you get this wrong, revise: Section 3.1, 3.4; Section 4.1._
 
-**Problem 6.** Prove that if $[G : H] = 2$Then $H \trianglelefteq G$.
+**Problem 6.** Prove that if $[G : H] = 2$ Then $H \trianglelefteq G$.
 
 <details>
 <summary>Solution</summary>
 
 _Solution._ Since $[G : H] = 2$There are exactly two left cosets: $H$ and $gH$ for some
-$g \notin H$. These partition $G$So $gH = G \setminus H$. Similarly, the two right cosets are $H$
+$g \notin H$. These partition $G$ So $gH = G \setminus H$. Similarly, the two right cosets are $H$
 and $Hg$ And $Hg = G \setminus H$. Therefore $gH = Hg$ for all $g \in G$. For $h \in H$:
-$hH = H = Hh$. For $g \notin H$: $gH = G \setminus H = Hg$. Thus $gH = Hg$ for all $g \in G$So
+$hH = H = Hh$. For $g \notin H$: $gH = G \setminus H = Hg$. Thus $gH = Hg$ for all $g \in G$ So
 $H \trianglelefteq G$. $\blacksquare$
 
 </details>
@@ -145,7 +145,7 @@ _If you get this wrong, revise: Section 3.5, Corollary 3.7._
 _Solution._ $Q_8 = \{1, -1, i, -i, j, -j, k, -k\}$ with $|Q_8| = 8$ and $Z(Q_8) = \{1, -1\}$ of
 order $2$. The quotient has order $4$. The cosets are $Z = \{1, -1\}$, $iZ = \{i, -i\}$,
 $jZ = \{j, -j\}$, $kZ = \{k, -k\}$. Every non-identity element satisfies
-$(iZ)^2 = i^2Z = (-1)Z = Z$So every element has order $1$ or $2$. The quotient is abelian (since
+$(iZ)^2 = i^2Z = (-1)Z = Z$ So every element has order $1$ or $2$. The quotient is abelian (since
 $Z(Q_8)$ contains the commutator subgroup). Thus
 $Q_8 / Z(Q_8) \cong V_4 \cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$. $\blacksquare$
 
@@ -208,7 +208,7 @@ Their sizes:
 4. $(a\ b)(c\ d)$. Double transpositions. Count: $\frac{\binom{4}{2}}{2} = 3$.
 5. $(a\ b\ c\ d)$ — 4-cycles. Count: $3! = 6$.
 
-Class equation: $|S_4| = 1 + 6 + 8 + 3 + 6 = 24$. ✓ $Z(S_4) = \{e\}$So $|Z(S_4)| = 1$And the sum of
+Class equation: $|S_4| = 1 + 6 + 8 + 3 + 6 = 24$. ✓ $Z(S_4) = \{e\}$ So $|Z(S_4)| = 1$ And the sum of
 $[S_4 : C_G(x_i)]$ over non-central classes is $6 + 8 + 3 + 6 = 23$. $\blacksquare$
 
 </details>
@@ -222,7 +222,7 @@ subgroup of index $p$.
 <summary>Solution</summary>
 
 _Solution._ Let $x \in X$. Since $G$ acts transitively, $|\mathrm{Orb}(x)| = |X| = p$. By the
-orbit-stabilizer theorem, $[G : \mathrm{Stab}(x)] = p$So $\mathrm{Stab}(x)$ has index $p$ in $G$.
+orbit-stabilizer theorem, $[G : \mathrm{Stab}(x)] = p$ So $\mathrm{Stab}(x)$ has index $p$ in $G$.
 Since $\mathrm{Stab}(x)$ is a subgroup (Proposition 6.1), we are done. $\blacksquare$
 
 </details>
@@ -235,7 +235,7 @@ _If you get this wrong, revise: Section 6.2, Theorem 6.2._
 <summary>Solution</summary>
 
 _Solution._ $|S_3| = 6 = 2 \cdot 3$. Sylow $2$-subgroups have order $2$. $n_2 \equiv 1 \pmod{2}$ and
-$n_2$ divides $3$So $n_2 \in \{1, 3\}$. The elements of order $2$ in $S_3$ are the three
+$n_2$ divides $3$ So $n_2 \in \{1, 3\}$. The elements of order $2$ in $S_3$ are the three
 transpositions: $(1\ 2)$, $(1\ 3)$, $(2\ 3)$. Each generates a subgroup of order $2$:
 $\langle (1\ 2) \rangle$, $\langle (1\ 3) \rangle$, $\langle (2\ 3) \rangle$. So $n_2 = 3$ and the
 three Sylow $2$-subgroups are these. $\blacksquare$
@@ -250,7 +250,7 @@ _If you get this wrong, revise: Section 7.1, 7.6; Theorem 7.3._
 <summary>Solution</summary>
 
 _Solution._ $|G| = 15 = 3 \cdot 5$. By Sylow's third theorem: $n_5 \equiv 1 \pmod{5}$ and $n_5$
-divides $3$So $n_5 = 1$. $n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $5$So $n_3 = 1$.
+divides $3$ So $n_5 = 1$. $n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $5$ So $n_3 = 1$.
 
 Both the Sylow $3$-subgroup $P \cong \mathbb{Z}/3\mathbb{Z}$ and the Sylow $5$-subgroup
 $Q \cong \mathbb{Z}/5\mathbb{Z}$ are normal. Since $P \cap Q = \{e\}$ (their orders are coprime) And
@@ -272,7 +272,7 @@ $7$-subgroup. Must $G$ be abelian?
 _Solution._ $n_7 \equiv 1 \pmod{7}$ and $n_7$ divides $3$. Since $7 \nmid (3 - 1)$We must have
 $n_7 = 1$. So the Sylow $7$-subgroup $Q \cong \mathbb{Z}/7\mathbb{Z}$ is normal.
 
-$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $7$So $n_3 \in \{1, 7\}$. If $n_3 = 1$Both Sylow subgroups
+$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $7$ So $n_3 \in \{1, 7\}$. If $n_3 = 1$Both Sylow subgroups
 are normal and $G \cong \mathbb{Z}/21\mathbb{Z}$ (abelian). If $n_3 = 7$, $G$ is a semidirect
 product $\mathbb{Z}/7\mathbb{Z} \rtimes \mathbb{Z}/3\mathbb{Z}$ Which is non-abelian. This group
 exists: it is the unique non-abelian group of order $21$. So $G$ need not be abelian. $\blacksquare$
@@ -306,7 +306,7 @@ $\mathbb{C}[x]$.
 <summary>Solution</summary>
 
 _Solution._ In $\mathbb{R}[x]$: suppose $x^2 + 1 = (x + a)(x + b)$ with $a, b \in \mathbb{R}$. Then
-$a + b = 0$ and $ab = 1$So $-a^2 = 1$Giving $a^2 = -1$Which has no real solution. Thus $x^2 + 1$ is
+$a + b = 0$ and $ab = 1$ So $-a^2 = 1$Giving $a^2 = -1$Which has no real solution. Thus $x^2 + 1$ is
 irreducible in $\mathbb{R}[x]$.
 
 In $\mathbb{C}[x]$: $x^2 + 1 = (x + i)(x - i)$. $\blacksquare$
@@ -344,7 +344,7 @@ _Solution._ **UFD:** By Gauss's lemma, since $\mathbb{Z}$ is a UFD, $\mathbb{Z}[
 **Not a PID:** The ideal $I = (2, x) = \{2f + xg : f, g \in \mathbb{Z}[x]\}$ is not principal.
 Suppose $I = (h)$ for some $h \in \mathbb{Z}[x]$. Then $h$ divides both $2$ and $x$. Since $h$
 divides $2 \in \mathbb{Z}$, $h$ is a constant polynomial, say $h = c \in \mathbb{Z}$. Then
-$(c) = (2, x)$So $c$ divides $2$ and $c$ divides $x$Hence $c = \pm 1$. But
+$(c) = (2, x)$ So $c$ divides $2$ and $c$ divides $x$Hence $c = \pm 1$. But
 $(1) = \mathbb{Z}[x] \neq (2, x)$ since $1 \notin (2, x)$ (every element of $(2, x)$ has even
 constant term). Contradiction. Therefore $(2, x)$ is not principal, and $\mathbb{Z}[x]$ is not a
 PID. $\blacksquare$
@@ -392,7 +392,7 @@ $(a + I)(b + I) = ab + I = 0 + I$ The zero element of $R/I$. Since $R/I$ has no 
 either $a + I = 0 + I$ or $b + I = 0 + I$ I.e., $a \in I$ or $b \in I$. So $I$ is prime.
 
 ($\Leftarrow$) Suppose $I$ is prime. $R/I$ is a commutative ring with unity (since $R$ is). If
-$(a + I)(b + I) = 0 + I$Then $ab \in I$So $a \in I$ or $b \in I$ (since $I$ is prime). Thus
+$(a + I)(b + I) = 0 + I$ Then $ab \in I$ So $a \in I$ or $b \in I$ (since $I$ is prime). Thus
 $a + I = 0 + I$ or $b + I = 0 + I$Meaning $R/I$ has no zero divisors. Also $1 + I \neq 0 + I$ since
 $I \neq R$. Therefore $R/I$ is an integral domain. $\blacksquare$
 
@@ -502,10 +502,10 @@ By the division algorithm, $g = qf + r$ where $\deg(r) \lt n$ or $r = 0$. Then $
 So every element of $E$ can be written as
 $r(\bar{x}) = a_0 + a_1\bar{x} + \cdots + a_{n-1}\bar{x}^{n-1}$ With $a_i \in F$. This
 representation is unique: if $\sum_{i=0}^{n-1} a_i \bar{x}^i = \sum_{i=0}^{n-1} b_i \bar{x}^i$ Then
-$\sum (a_i - b_i)\bar{x}^i = 0$So $\sum (a_i - b_i)x^i \in (f)$Meaning $f$ divides a polynomial Of
+$\sum (a_i - b_i)\bar{x}^i = 0$ So $\sum (a_i - b_i)x^i \in (f)$Meaning $f$ divides a polynomial Of
 degree $\lt n = \deg(f)$Which forces all $a_i - b_i = 0$.
 
-Therefore $\{1, \bar{x}, \ldots, \bar{x}^{n-1}\}$ is a basis for $E$ over $F$And $[E : F] = n$.
+Therefore $\{1, \bar{x}, \ldots, \bar{x}^{n-1}\}$ is a basis for $E$ over $F$ And $[E : F] = n$.
 $\blacksquare$
 
 </details>

@@ -1,6 +1,6 @@
 ---
 title: US Civics Questions
-description: "US Civics Questions - Complete study guide and practice questions"
+description: "- New Year's Day, Martin Luther King Jr. Day, Presidents' Day, Memorial Day, Independence Day, Labor Day, Columbus Day, Veterans Day, Thanksgiving, Christmas"
 date: 2026-01-01T00:00:00Z
 tags:
   - test-prep

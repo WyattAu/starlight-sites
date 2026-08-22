@@ -42,13 +42,13 @@ argument that "if $p^2$ is even then $p$ is even."]
 **Solution:**
 
 **(a)** Suppose, for contradiction, that $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{p}{q}$ where
-$p, q \in \mathbb{Z}$, $q \neq 0$And $\gcd(p, q) = 1$ (i.e. The fraction is in its lowest terms).
+$p, q \in \mathbb{Z}$, $q \neq 0$ And $\gcd(p, q) = 1$ (i.e. The fraction is in its lowest terms).
 
-Squaring: $2 = \frac{p^2}{q^2}$So $p^2 = 2q^2$.
+Squaring: $2 = \frac{p^2}{q^2}$ So $p^2 = 2q^2$.
 
 Since $p^2 = 2q^2$, $p^2$ is even. Since the square of an odd number is odd, $p$ must be even.
 
-Write $p = 2k$ for some integer $k$. Then $(2k)^2 = 2q^2$So $4k^2 = 2q^2$Giving $q^2 = 2k^2$.
+Write $p = 2k$ for some integer $k$. Then $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$Giving $q^2 = 2k^2$.
 
 Since $q^2 = 2k^2$, $q^2$ is even, and by the same argument, $q$ is even.
 
@@ -71,7 +71,7 @@ contrapositive, the original statement is also proved.
 
 **(c)** Suppose $\sqrt{3} = \frac{p}{q}$ in lowest terms.
 
-$p^2 = 3q^2$So $p^2$ is divisible by 3.
+$p^2 = 3q^2$ So $p^2$ is divisible by 3.
 
 We need: "If $p^2$ is divisible by 3, then $p$ is divisible by 3."
 
@@ -82,9 +82,9 @@ If $p$ is not divisible by 3, then $p \equiv 1 \pmod 3$ or $p \equiv 2 \pmod 3$.
 - If $p \equiv 1 \pmod 3$: $p^2 \equiv 1 \pmod 3$.
 - If $p \equiv 2 \pmod 3$: $p^2 \equiv 4 \equiv 1 \pmod 3$.
 
-In either case, $p^2 \not\equiv 0 \pmod 3$So $p^2$ is not divisible by 3.
+In either case, $p^2 \not\equiv 0 \pmod 3$ So $p^2$ is not divisible by 3.
 
-Therefore $p$ is divisible by 3. Write $p = 3k$. Then $9k^2 = 3q^2$So $q^2 = 3k^2$And by the same
+Therefore $p$ is divisible by 3. Write $p = 3k$. Then $9k^2 = 3q^2$ So $q^2 = 3k^2$ And by the same
 argument, $q$ is divisible by 3.
 
 Both $p$ and $q$ divisible by 3 contradicts $\gcd(p,q) = 1$. Therefore $\sqrt{3}$ is irrational.
@@ -210,11 +210,11 @@ which students confuse persistently.]
 **(a)** "$x \gt 2$" implies "$x^2 \gt 4$": if $x \gt 2$ then $x^2 \gt 4$. So "$x \gt 2$" is
 **sufficient** for "$x^2 \gt 4$".
 
-However, "$x \gt 2$" is not necessary: $x = -3$ gives $x^2 = 9 \gt 4$But $x \lt 2$.
+However, "$x \gt 2$" is not necessary: $x = -3$ gives $x^2 = 9 \gt 4$ But $x \lt 2$.
 
 Answer: **sufficient but not necessary**.
 
-**(b)** If $n$ is prime and $n \neq 2$Then $n$ is odd. But $n = 2$ is prime and even.
+**(b)** If $n$ is prime and $n \neq 2$ Then $n$ is odd. But $n = 2$ is prime and even.
 
 So "prime" does not imply "odd" (counterexample: 2). Also, "odd" does not imply "prime"
 (counterexample: 9).
@@ -293,7 +293,7 @@ So $a_{k+1} \lt 3$. By induction, $a_n \lt 3$ for all $n \geq 1$.
 
 $a_{k+2} - a_{k+1} = \frac{a_{k+1} + 3}{2} - a_{k+1} = \frac{3 - a_{k+1}}{2}$.
 
-By part (a), $a_{k+1} \lt 3$So $3 - a_{k+1} \gt 0$Giving $a_{k+2} - a_{k+1} \gt 0$.
+By part (a), $a_{k+1} \lt 3$ So $3 - a_{k+1} \gt 0$Giving $a_{k+2} - a_{k+1} \gt 0$.
 
 So $a_{k+1} \lt a_{k+2}$. By induction, $a_n \lt a_{n+1}$ for all $n \geq 1$ (strictly increasing).
 
@@ -304,7 +304,7 @@ Let $L = \lim_{n \to \infty} a_n$. Then $L = \frac{L+3}{2} \implies 2L = L + 3 \
 
 **(d)** The recurrence can be solved: $a_{n+1} - 3 = \frac{a_n - 3}{2}$.
 
-This gives $a_n - 3 = \frac{a_1 - 3}{2^{n-1}} = \frac{-1}{2^{n-1}}$So $a_n = 3 - \frac{1}{2^{n-1}}$.
+This gives $a_n - 3 = \frac{a_1 - 3}{2^{n-1}} = \frac{-1}{2^{n-1}}$ So $a_n = 3 - \frac{1}{2^{n-1}}$.
 
 $$\sum_{r=1}^{n} a_r = \sum_{r=1}^{n}\left(3 - \frac{1}{2^{r-1}}\right) = 3n - \sum_{r=0}^{n-1}\frac{1}{2^r}$$
 
@@ -362,15 +362,15 @@ Theorem, $f(b) - f(a) = f'(c)(b-a) \gt 0$ for some $c \in (a, b)$.
 
 If $a \lt 0 \lt b$: $f(a) = a^3 \lt 0 \lt b^3 = f(b)$.
 
-Therefore $a \lt b \implies f(a) \lt f(b)$ for all $a, b \in \mathbb{R}$So $f$ is strictly
+Therefore $a \lt b \implies f(a) \lt f(b)$ for all $a, b \in \mathbb{R}$ So $f$ is strictly
 increasing and hence injective.
 
-**(b)** $g(1) = 1^2 = 1 = (-1)^2 = g(-1)$But $1 \neq -1$. Therefore $g$ is not injective on
+**(b)** $g(1) = 1^2 = 1 = (-1)^2 = g(-1)$ But $1 \neq -1$. Therefore $g$ is not injective on
 $\mathbb{R}$.
 
 **(c)** Claim: $g(x) = x^2$ is injective on $[0, \infty)$.
 
-**Proof:** If $a, b \geq 0$ and $a^2 = b^2$Then $a^2 - b^2 = (a-b)(a+b) = 0$. Since $a + b \geq 0$We
+**Proof:** If $a, b \geq 0$ and $a^2 = b^2$ Then $a^2 - b^2 = (a-b)(a+b) = 0$. Since $a + b \geq 0$We
 need $a - b = 0$Giving $a = b$.
 
 Similarly, $g$ is injective on $(-\infty, 0]$.

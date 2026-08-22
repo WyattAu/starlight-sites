@@ -1,6 +1,6 @@
 ---
 title: "Mathematics Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of mathematical terms covering algebra, calculus, linear algebra, analysis, and probability."
+description: "Binomial: An algebraic expression with two terms, such as (a + b). The binomial theorem provides a formula for expanding (a + b)ⁿ."
 date: 2026-07-24
 tags: [glossary]
 ---

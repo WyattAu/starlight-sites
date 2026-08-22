@@ -43,11 +43,11 @@ The following are conserved in all known interactions:
 ### 2.3 The Gell-Mann--Nishijima Formula
 
 The Gell-Mann--Nishijima formula relates the electric charge of a hadron to its isospin Projection
-$I_3$Baryon number $B$And strangeness $S$:
+$I_3$Baryon number $B$ And strangeness $S$:
 
 $$Q = I_3 + \frac{B + S}{2}$$
 
-This can be generalised to include charm $C$Bottomness $B"$And topness $T$:
+This can be generalised to include charm $C$Bottomness $B"$ And topness $T$:
 
 $$Q = I_3 + \frac{1}{2}(B + S + C + B' + T)$$
 

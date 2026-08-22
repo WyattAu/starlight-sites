@@ -45,7 +45,7 @@ displaced by $x$ from equilibrium in one arm. The cross-sectional area of each a
 
 (a) The restoring force is $F = -kx + bx^3$.
 
-Newton"s second law: $ma = -kx + bx^3$So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
+Newton"s second law: $ma = -kx + bx^3$ So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
 
 This is **not** SHM because the acceleration is not proportional to displacement. The $bx^3$ term
 makes it anharmonic. The motion is approximately SHM only when $bx^3 \ll kx$I.e. $x \ll \sqrt{k/b}$
@@ -260,7 +260,7 @@ Maximum acceleration: $a_{\max} = A\omega^2 = 0.05 \times 250 = 12.5\,\text{m}\,
 
 **Question:**
 
-A mass-spring system has $m = 0.50\,\text{kg}$, $k = 50\,\text{N}\,\text{m}^{-1}$And is subject to a
+A mass-spring system has $m = 0.50\,\text{kg}$, $k = 50\,\text{N}\,\text{m}^{-1}$ And is subject to a
 damping force $F_d = -bv$ where $b = 0.50\,\text{N}\,\text{s}\,\text{m}^{-1}$. A driving force
 $F = F_0\cos(\omega_d t)$ is applied.
 
@@ -337,7 +337,7 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 **Solution:**
 
-(a) At equilibrium: $T = mg$So $kx_0 = mg$:
+(a) At equilibrium: $T = mg$ So $kx_0 = mg$:
 
 $$x_0 = \frac{mg}{k} = \frac{2.0 \times 9.81}{100} = 0.1962\,\text{m}$$
 

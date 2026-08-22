@@ -130,7 +130,7 @@ Column 7: 0 + 0 + 1 (carry) = 1, carry 0
 
 Result: $1100\ 1000_2$
 
-Verification: $107 + 93 = 200$And $11001000_2 = 128 + 64 + 8 = 200$. Correct.
+Verification: $107 + 93 = 200$ And $11001000_2 = 128 + 64 + 8 = 200$. Correct.
 
 </details>
 

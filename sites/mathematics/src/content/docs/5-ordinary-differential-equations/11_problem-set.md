@@ -40,7 +40,7 @@ Solve $\frac{dy}{dx} = \frac{x}{y}$, $y(0) = 2$.
 
 _Solution._ Separating: $y\, dy = x\, dx$. Integrating: $\frac{y^2}{2} = \frac{x^2}{2} + C$.
 
-$y(0) = 2 \implies C = 2$So $y^2 = x^2 + 4$Giving $y = \sqrt{x^2 + 4}$ (positive branch Since
+$y(0) = 2 \implies C = 2$ So $y^2 = x^2 + 4$Giving $y = \sqrt{x^2 + 4}$ (positive branch Since
 $y(0) = 2 > 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.1 (Separable Equations).
@@ -96,13 +96,13 @@ Solve $y' - y = xy^2$.
 
 _Solution._ This is Bernoulli with $n = 2$, $P(x) = -1$, $Q(x) = x$.
 
-Substitution $v = y^{-1}$: $v' = -y^{-2}y'$So $-v' - v = x$I.e., $v' + v = -x$.
+Substitution $v = y^{-1}$: $v' = -y^{-2}y'$ So $-v' - v = x$I.e., $v' + v = -x$.
 
 Integrating factor: $e^x$. $(ve^x)' = -xe^x$.
 
 $ve^x = -xe^x + e^x + C = e^x(1 - x) + C$.
 
-$v = 1 - x + Ce^{-x}$So $y = \frac{1}{1 - x + Ce^{-x}}$. $\blacksquare$
+$v = 1 - x + Ce^{-x}$ So $y = \frac{1}{1 - x + Ce^{-x}}$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.7 (Bernoulli Equations).
 
@@ -444,7 +444,7 @@ Find and classify the critical points of $x' = y - x^2$, $y' = x - y^2$.
 <summary>Solution</summary>
 
 _Solution._ Set $y - x^2 = 0$ and $x - y^2 = 0$. From the first equation $y = x^2$Substituting Into
-the second: $x - x^4 = 0$So $x(1 - x^3) = 0$.
+the second: $x - x^4 = 0$ So $x(1 - x^3) = 0$.
 
 $x = 0 \implies y = 0$. Critical point: $(0, 0)$. $x = 1 \implies y = 1$. Critical point: $(1, 1)$.
 

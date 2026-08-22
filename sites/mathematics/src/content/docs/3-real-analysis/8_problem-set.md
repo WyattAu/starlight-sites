@@ -23,8 +23,8 @@ $\sup(A \cup B) = \max(\sup A, \sup B)$.
 <details>
 <summary>Solution</summary>
 
-_Solution._ Let $M = \max(\sup A, \sup B)$. Without loss, assume $\sup A \geq \sup B$So
-$M = \sup A$. For all $x \in A \cup B$: either $x \in A$So $x \leq \sup A = M$; or $x \in B$So
+_Solution._ Let $M = \max(\sup A, \sup B)$. Without loss, assume $\sup A \geq \sup B$ So
+$M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$; or $x \in B$ So
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
 For the least property: since $M = \sup A$ and $A \subseteq A \cup B$Every upper bound of $A \cup B$
@@ -40,9 +40,9 @@ $A \subseteq \mathbb{R}$.
 <details>
 <summary>Solution</summary>
 
-_Solution._ Let $u = \sup(-A)$. For all $a \in A$: $-a \in -A$So $-a \leq u$Giving $a \geq -u$. Thus
-$-u$ is a lower bound for $A$. If $v$ is any lower bound for $A$Then $-v$ is an upper bound for
-$-A$So $u \leq -v$I.e., $-u \geq v$. Hence $-u$ is the greatest lower bound, so
+_Solution._ Let $u = \sup(-A)$. For all $a \in A$: $-a \in -A$ So $-a \leq u$Giving $a \geq -u$. Thus
+$-u$ is a lower bound for $A$. If $v$ is any lower bound for $A$ Then $-v$ is an upper bound for
+$-A$ So $u \leq -v$I.e., $-u \geq v$. Hence $-u$ is the greatest lower bound, so
 $\inf A = -u = -\sup(-A)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.5 (Properties of Supremum and Infimum).
@@ -59,7 +59,7 @@ _Solution._ Let $\varepsilon > 0$. Compute:
 
 $$\left|\frac{n^2 + 3n}{2n^2 + 1} - \frac{1}{2}\right| = \left|\frac{2(n^2 + 3n) - (2n^2 + 1)}{2(2n^2 + 1)}\right| = \left|\frac{6n - 1}{2(2n^2 + 1)}\right|$$
 
-For $n \geq 1$: $6n - 1 \lt 6n$ and $2n^2 + 1 > 2n^2$So
+For $n \geq 1$: $6n - 1 \lt 6n$ and $2n^2 + 1 > 2n^2$ So
 
 $$\frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}$$
 
@@ -82,11 +82,11 @@ $a_{n+1} = \frac{1}{2}(a_n + 2/a_n) \geq \sqrt{a_n \cdot 2/a_n} = \sqrt{2}$.
 
 **Step 2:** $(a_n)$ is decreasing for $n \geq 2$. Note $a_1 = 1$, $a_2 = 3/2$.
 $a_{n+1} - a_n = \frac{1}{2}(a_n + 2/a_n) - a_n = \frac{1}{2}(2/a_n - a_n) = \frac{2 - a_n^2}{2a_n}$.
-Since $a_n \geq \sqrt{2}$ for $n \geq 2$, $a_n^2 \geq 2$So $a_{n+1} - a_n \leq 0$.
+Since $a_n \geq \sqrt{2}$ for $n \geq 2$, $a_n^2 \geq 2$ So $a_{n+1} - a_n \leq 0$.
 
 **Step 3:** By the Monotone Convergence Theorem, $L = \lim a_n$ exists. Taking limits:
-$L = \frac{1}{2}(L + 2/L)$Giving $2L = L + 2/L$So $L = 2/L$Hence $L^2 = 2$. Since
-$a_n \geq \sqrt{2}$ for $n \geq 2$, $L \geq 0$So $L = \sqrt{2}$. $\blacksquare$
+$L = \frac{1}{2}(L + 2/L)$Giving $2L = L + 2/L$ So $L = 2/L$Hence $L^2 = 2$. Since
+$a_n \geq \sqrt{2}$ for $n \geq 2$, $L \geq 0$ So $L = \sqrt{2}$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.2 (Monotone Convergence Theorem), Section 2.7 (recursive
 sequences).
@@ -203,7 +203,7 @@ _Solution._ Let $a \in \mathbb{R}$ and $\varepsilon > 0$. Compute:
 
 $$|f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|$$
 
-Restrict to $|x - a| \lt 1$So $|x| \lt |a| + 1$Giving
+Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$Giving
 $|x^2 + ax + a^2| \leq (|a|+1)^2 + |a|(|a|+1) + a^2 = 3a^2 + 3|a| + 1$. Let $M = 3a^2 + 3|a| + 1$.
 
 Choose $\delta = \min(1, \varepsilon/M)$. Then $|x - a| \lt \delta$ implies:
@@ -229,7 +229,7 @@ continuous.
 
 **On uniform continuity:** Actually, $f(x) = x\sin(1/x)$ **is** uniformly continuous on $(0, 1)$!
 Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the Heine-Cantor theorem
-(Theorem 4.5), $f$ is uniformly continuous on $[0, 1]$And hence on the subset $(0, 1)$.
+(Theorem 4.5), $f$ is uniformly continuous on $[0, 1]$ And hence on the subset $(0, 1)$.
 
 The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$Which does not
 Extend continuously to $0$. Or $h(x) = 1/x$Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
@@ -239,7 +239,7 @@ _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (
 
 </details>
 
-**Problem 12.** Prove that if $f"(x) = g'(x)$ for all $x \in (a, b)$Then $f(x) = g(x) + C$ for some
+**Problem 12.** Prove that if $f"(x) = g'(x)$ for all $x \in (a, b)$ Then $f(x) = g(x) + C$ for some
 Constant $C$.
 
 <details>
@@ -264,7 +264,7 @@ _Solution._ The fourth-degree Maclaurin polynomial of $e^x$ is:
 $$T_4(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24}$$
 
 By Taylor's theorem, $R_4(x) = \frac{e^{\xi}}{5!} x^5$ for some $\xi$ between $0$ and $x$. For
-$x = 0.2$: $\xi \in (0, 0.2)$So $e^{\xi} \lt e^{0.2} \lt e^{1/4} \lt 1.3$.
+$x = 0.2$: $\xi \in (0, 0.2)$ So $e^{\xi} \lt e^{0.2} \lt e^{1/4} \lt 1.3$.
 
 $$|R_4(0.2)| = \frac{e^{\xi}}{120} (0.2)^5 \lt \frac{1.3}{120} \cdot 0.00032 = \frac{1.3 \times 0.00032}{120} \approx 3.47 \times 10^{-6}$$
 
@@ -308,7 +308,7 @@ $M_i = \sup f = 1$ and $m_i = \inf f = 0$ for every subinterval.
 
 For any partition $P$: $U(f, P) = \sum 1 \cdot \Delta x_i = 1$ and
 $L(f, P) = \sum 0 \cdot \Delta x_i = 0$. Hence
-$\overline{\int_0^1} f = 1 \neq 0 = \underline{\int_0^1} f$So $f$ is not Riemann integrable.
+$\overline{\int_0^1} f = 1 \neq 0 = \underline{\int_0^1} f$ So $f$ is not Riemann integrable.
 
 This also follows from Lebesgue's criterion: $f$ is discontinuous everywhere, and $[0,1]$ does not
 Have measure zero. $\blacksquare$
@@ -353,7 +353,7 @@ To maximize, differentiate with respect to $x$ (treating $n$ as fixed):
 
 $$\frac{d}{dx}\left(\frac{nx}{1 + n^2 x^2}\right) = \frac{n(1 + n^2 x^2) - nx \cdot 2n^2 x}{(1 + n^2 x^2)^2} = \frac{n - n^3 x^2}{(1 + n^2 x^2)^2}$$
 
-Setting to zero: $n - n^3 x^2 = 0$So $x = 1/n$. The maximum value is
+Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
 Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$This does not tend to $0$. Therefore the convergence
@@ -375,7 +375,7 @@ $$\left|\frac{a_{n+1}}{a_n}\right| = \frac{(2(n+1))!}{((n+1)!)^2} \cdot \frac{(n
 
 $$= \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty$$
 
-The series converges when $4|x| \lt 1$I.e., $|x| \lt 1/4$And diverges when $4|x| > 1$. The radius of
+The series converges when $4|x| \lt 1$I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
 convergence is $R = 1/4$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.7 (Power Series), Section 3.2 (Ratio Test).
@@ -396,7 +396,7 @@ $0 \leq x \lt 1$ and $g(1) = 1$. So
 $\sup_{x \in [0,1]} |f_n'(x) - g(x)| \geq |f_n'(1) - g(1)| = |1 - 1| = 0$.
 
 Actually, check $\sup_{x \in [0,1)} |x^{n-1}| = 1$ (approached as $x \to 1^-$). But $g(x) = 0$ on
-$[0, 1)$So $\sup_{x \in [0,1)} |x^{n-1} - 0| = 1$ for all $n$. This does not Tend to $0$So $f_n'$
+$[0, 1)$ So $\sup_{x \in [0,1)} |x^{n-1} - 0| = 1$ for all $n$. This does not Tend to $0$ So $f_n'$
 does not converge uniformly on $[0, 1)$.
 
 This illustrates that uniform convergence of functions does not imply uniform convergence of
@@ -445,7 +445,7 @@ However, by the alternating series test, the series converges pointwise for ever
 the Taylor series of $\arctan$ about $0$.
 
 For uniform convergence, we use **Abel's test for uniform convergence of series**: if $\sum f_n(x)$
-has uniformly bounded partial sums and $g_n(x)$ decreases uniformly to $0$Then $\sum f_n(x) g_n(x)$
+has uniformly bounded partial sums and $g_n(x)$ decreases uniformly to $0$ Then $\sum f_n(x) g_n(x)$
 converges uniformly. Here $f_n(x) = (-1)^n x^{2n+1}$ and $g_n(x) = 1/(2n+1)$ Is independent of $x$.
 
 The partial sums

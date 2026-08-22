@@ -36,7 +36,7 @@ $$P(-2) = (-2)^3 + 3(-2)^2 - 4(-2) - 8 = -8 + 12 + 8 - 8 = 4$$
 Since $P(-2) = 4 \neq 0$, $x + 2$ is **not** a factor.
 
 A common mistake is testing $P(2)$ instead of $P(-2)$. The factor theorem states that $(x - a)$ is a
-factor if $P(a) = 0$. Here the factor is $x + 2 = x - (-2)$So we test $a = -2$.
+factor if $P(a) = 0$. Here the factor is $x + 2 = x - (-2)$ So we test $a = -2$.
 
 ---
 
@@ -162,7 +162,7 @@ $$\alpha\beta\gamma = -r = -8$$
 
 **Question:**
 
-$P(x) = x^3 + ax^2 + bx - 12$ has factors $(x - 1)$ and $(x + 4)$. Find $a$, $b$And the remaining
+$P(x) = x^3 + ax^2 + bx - 12$ has factors $(x - 1)$ and $(x + 4)$. Find $a$, $b$ And the remaining
 factor.
 
 **Solution:**
@@ -239,7 +239,7 @@ Therefore $x \in (-\infty,\; 3]$.
 **Question:**
 
 Let $f(x) = x^3 - 3x^2 - 4x + 12$. Given that $(x - 2)$ is a factor, find all $x$ for which
-$f(x) = 0$And hence state the domain on which $f$ is one-to-one.
+$f(x) = 0$ And hence state the domain on which $f$ is one-to-one.
 
 **Solution:**
 
@@ -289,7 +289,7 @@ points) or $(-\infty,\; -2]$.
 
 **Question:**
 
-The cubic curve $y = x^3 - 6x^2 + 11x - 6$ intersects the $x$-axis at points $A$, $B$And $C$. Find the
+The cubic curve $y = x^3 - 6x^2 + 11x - 6$ intersects the $x$-axis at points $A$, $B$ And $C$. Find the
 coordinates of $A$, $B$, $C$ and the area of triangle $ABC$.
 
 **Solution:**
@@ -324,11 +324,11 @@ $0$.
 
 **Question:**
 
-Given that $x - 1$$x + 2$And $x - 3$ are factors of $P(x) = x^3 + ax^2 + bx + c$Find $a$$b$And $c$.
+Given that $x - 1$$x + 2$ And $x - 3$ are factors of $P(x) = x^3 + ax^2 + bx + c$Find $a$$b$ And $c$.
 
 **Solution:**
 
-Since $x - 1$$x + 2$And $x - 3$ are all factors of the cubic $P(x)$We can write:
+Since $x - 1$$x + 2$ And $x - 3$ are all factors of the cubic $P(x)$We can write:
 
 $$P(x) = (x - 1)(x + 2)(x - 3)$$
 
@@ -574,7 +574,7 @@ $x$-intercepts: $(-\sqrt{3}, 0), (-1, 0), (1, 0), (\sqrt{3}, 0)$.
 
 (c) Let $v = x^2 \geq 0$. $P(x) = -(v^2 - 4v + 3) = -(v - 2)^2 + 4 - 3 = -(v-2)^2 + 1$.
 
-Maximum is $1$ when $v = 2$I.e. $x^2 = 2$So $x = \pm\sqrt{2}$.
+Maximum is $1$ when $v = 2$I.e. $x^2 = 2$ So $x = \pm\sqrt{2}$.
 
 ---
 
@@ -701,10 +701,10 @@ Remainder $= 7x + 7$.
 ### DSE-3
 
 The equation $x^3 + ax^2 + bx + c = 0$ has roots $\alpha$$\beta$$\gamma$ where
-$\alpha + \beta + \gamma = 6$$\alpha\beta + \beta\gamma + \gamma\alpha = 11$And
+$\alpha + \beta + \gamma = 6$$\alpha\beta + \beta\gamma + \gamma\alpha = 11$ And
 $\alpha\beta\gamma = 6$.
 
-(a) Find $a$$b$And $c$. (2 marks) (b) Find the values of $\alpha^2 + \beta^2 + \gamma^2$. (2 marks)
+(a) Find $a$$b$ And $c$. (2 marks) (b) Find the values of $\alpha^2 + \beta^2 + \gamma^2$. (2 marks)
 (c) Find the equation whose roots are $\alpha + 1$$\beta + 1$$\gamma + 1$. (3 marks)
 
 **Solution:**

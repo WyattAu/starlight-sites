@@ -1,6 +1,6 @@
 ---
 title: Newtons Laws
-description: "Study notes and resources for Newtons Laws"
+description: "This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural"
 date: 2026-01-01T00:00:00Z
 ---
 

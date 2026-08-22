@@ -123,7 +123,7 @@ $$
 P(A \cup B) = P(A) + P(B) - P(A \cap B)
 $$
 
-For mutually exclusive events: $P(A \cap B) = 0$So $P(A \cup B) = P(A) + P(B)$.
+For mutually exclusive events: $P(A \cap B) = 0$ So $P(A \cup B) = P(A) + P(B)$.
 
 For independent events: $P(A \cap B) = P(A) \times P(B)$.
 
@@ -160,7 +160,7 @@ $$
 
 (c) Are the events "studies Maths" and "studies Physics" independent?
 
-$P(M) \times P(P) = 0.6 \times 0.4 = 0.24$But $P(M \cap P) = 0.25$. Since $0.24 \ne 0.25$The Events
+$P(M) \times P(P) = 0.6 \times 0.4 = 0.24$ But $P(M \cap P) = 0.25$. Since $0.24 \ne 0.25$The Events
 are **not** independent.
 
 **Example:** A medical test has a 95% true positive rate
@@ -642,8 +642,8 @@ Critical value for $t$-distribution with 19 df at 5% (one-tailed): approximately
 Since $-2.236 < -1.729$We reject $H_0$. There is sufficient evidence that the machine is
 Underfilling.
 
-Note: If this were a two-tailed test, the critical value would be approximately $\pm 2.093$And
-$|-2.236| = 2.236 > 2.093$So we would still reject $H_0$ in this case. However, the one-tailed Test
+Note: If this were a two-tailed test, the critical value would be approximately $\pm 2.093$ And
+$|-2.236| = 2.236 > 2.093$ So we would still reject $H_0$ in this case. However, the one-tailed Test
 has a lower threshold, making it easier to detect a difference in the specified direction.
 
 ### Coefficient of Determination
@@ -657,7 +657,7 @@ $$
 
 Where $\hat{y}_i$ are the predicted values from the regression line.
 
-**Interpretation:** If $r^2 = 0.85$Then 85% of the variation in $y$ is accounted for by the linear
+**Interpretation:** If $r^2 = 0.85$ Then 85% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 15% is due to other factors or random variation.
 
 ---

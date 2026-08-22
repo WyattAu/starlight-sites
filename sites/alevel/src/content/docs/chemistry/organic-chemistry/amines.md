@@ -295,7 +295,7 @@ neutral organic compounds.
 
 ### Hinsberg Test
 
-The Hinsberg test distinguishes between $1^\circ$, $2^\circ$And $3^\circ$ amines using
+The Hinsberg test distinguishes between $1^\circ$, $2^\circ$ And $3^\circ$ amines using
 benzenesulphonyl chloride:
 
 | Amine type            | Observation with $\mathrm{C}_6\mathrm{H}_5\mathrm{SO}_2\mathrm{Cl}$             |

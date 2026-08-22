@@ -491,11 +491,11 @@ $V = \dfrac{nRT}{P} = \dfrac{0.156 \times 0.0821 \times 300}{2.0} = \dfrac{3.842
 
 ### Converting Between Mass, Moles, and Volume of Gas
 
-The "mole triangle" connects $n$, $m$And $M$:
+The "mole triangle" connects $n$, $m$ And $M$:
 
 $$n = \frac{m}{M} \quad ; \quad m = n \times M \quad ; \quad M = \frac{m}{n}$$
 
-For gases, also connect $n$, $V$And $V_m$:
+For gases, also connect $n$, $V$ And $V_m$:
 
 $$n = \frac{V}{V_m} \quad ; \quad V = n \times V_m$$
 
@@ -509,7 +509,7 @@ $$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} +
 
 Moles of $\mathrm{CaCO}_3 = 25.0 / 100.1 = 0.250 \mathrm{ mol}$
 
-1 mol $\mathrm{CaCO}_3$ produces 1 mol $\mathrm{CO}_2$So moles of
+1 mol $\mathrm{CaCO}_3$ produces 1 mol $\mathrm{CO}_2$ So moles of
 $\mathrm{CO}_2 = 0.250 \mathrm{ mol}$
 
 Volume at RTP = $0.250 \times 24.0 = 6.00 \mathrm{ dm}^3$
@@ -560,7 +560,7 @@ $$\mathrm{NaOH} + \mathrm{HCl} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}$$
 
 Moles of $\mathrm{HCl} = 0.100 \times 20.0 / 1000 = 0.00200 \mathrm{ mol}$
 
-Mole ratio $\mathrm{NaOH}:\mathrm{HCl} = 1:1$So moles of $\mathrm{NaOH} = 0.00200 \mathrm{ mol}$
+Mole ratio $\mathrm{NaOH}:\mathrm{HCl} = 1:1$ So moles of $\mathrm{NaOH} = 0.00200 \mathrm{ mol}$
 
 $c(\mathrm{NaOH}) = \dfrac{0.00200}{25.0 / 1000} = \dfrac{0.00200}{0.0250} = 0.0800 \mathrm{ mol/dm}^3$
 
@@ -714,7 +714,7 @@ $x = 0.211 / 0.0100 = 21.1$
 
 This is unrealistic for magnesium sulfate. The expected value is $x = 7$ for Epsom salt. The data
 Likely has an issue. For $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$:
-$M_r = 120.4 + 7(18.0) = 246.4$. 5.00 g would give $5.00/246.4 = 0.0203 \mathrm{ mol}$And 25 Cm$^3$
+$M_r = 120.4 + 7(18.0) = 246.4$. 5.00 g would give $5.00/246.4 = 0.0203 \mathrm{ mol}$ And 25 Cm$^3$
 aliquot would need $0.00203 \times 2 = 0.00406 \mathrm{ mol}$ $\mathrm{NaOH}$I.e. 40.6 Cm$^3$ of
 0.100 M NaOH.
 
@@ -970,7 +970,7 @@ Mass of O = $0.120 - 0.0720 - 0.0120 = 0.0360 \mathrm{ g}$
 
 Multiply all by 8 to clear the fraction: C : H : O = 8 : 16 : 3
 
-Wait, $0.00225 / 0.00600 = 0.375 = 3/8$So multiply by 8:
+Wait, $0.00225 / 0.00600 = 0.375 = 3/8$ So multiply by 8:
 
 C : H : O = $1 \times 8 : 2 \times 8 : 0.375 \times 8$ = 8 : 16 : 3
 

@@ -78,7 +78,7 @@ Roles of enzymes:
   by adding nucleotides complementary to the template strand, following the base-pairing rules (A
   with T, C with G).
 
-(c) Since A pairs with T (complementary base pairing), if A = $28\%$Then T = $28\%$.
+(c) Since A pairs with T (complementary base pairing), if A = $28\%$ Then T = $28\%$.
 
 The total percentage of A + T = $28\% + 28\% = 56\%$.
 

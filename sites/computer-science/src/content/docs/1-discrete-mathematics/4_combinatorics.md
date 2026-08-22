@@ -123,7 +123,7 @@ Directly by stars and bars: $\binom{20 + 4 - 1}{4 - 1} = \binom{23}{3} = 1771$. 
 
 ### 4.5 The Pigeonhole Principle
 
-**Theorem 4.5 (Pigeonhole Principle).** If $n$ objects are placed into $k$ boxes and $n \gt k$Then
+**Theorem 4.5 (Pigeonhole Principle).** If $n$ objects are placed into $k$ boxes and $n \gt k$ Then
 at Least one box contains at least $\lceil n/k \rceil$ objects.
 
 _Proof._ If every box contained at most $\lceil n/k \rceil - 1$ objects, the total would be at most
@@ -151,7 +151,7 @@ $\\{n, 2n\\}$. Each pair sums to $n + (n+k) = 2n + k$... Let me rephrase.
 
 Partition into $\\{1, n+1\\}$, $\\{2, n+2\\}$, $\ldots$, $\\{n, 2n\\}$. These are $n$ disjoint sets.
 If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$By the pigeonhole principle two must lie in
-the Same set $\\{i, n+i\\}$And their difference is $(n + i) - i = n$. $\blacksquare$
+the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksquare$
 
 </details>
 
@@ -162,18 +162,18 @@ the Same set $\\{i, n+i\\}$And their difference is $(n + i) - i = n$. $\blacksqu
 <summary>Solution</summary>
 
 Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$Let $d_i$ be the length of the
-Longest increasing subsequence starting at $a_i$And $e_i$ the length of the longest decreasing
+Longest increasing subsequence starting at $a_i$ And $e_i$ the length of the longest decreasing
 Subsequence starting at $a_i$.
 
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
-$1 \leq d_i \leq n$ and $1 \leq e_i \leq n$So there are at most $n^2$ distinct ordered pairs
+$1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
 Have $(d_i, e_i) = (d_j, e_j)$.
 
-If $a_i \lt a_j$Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
+If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
 
-If $a_i \gt a_j$Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
+If $a_i \gt a_j$ Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
 
 Either way we have a contradiction. $\blacksquare$
 
@@ -190,7 +190,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$So $n/3 \gt{} 3$Giving
+At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -276,7 +276,7 @@ $$G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \under
 $$= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}$$
 
 The coefficient of $x^n$ in the expansion gives the number of ways. For example, expanding the First
-few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$So there are 4 ways to make 5p (5×1p; 3×1p +
+few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to make 5p (5×1p; 3×1p +
 1×2p; 1×1p + 2×2p; 1×5p).
 
 </details>

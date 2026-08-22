@@ -92,7 +92,7 @@ export default defineConfig({
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },
         { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
-        { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#bc4749' } },
         {
           tag: 'link',
           attrs: {

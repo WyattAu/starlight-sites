@@ -44,7 +44,7 @@ Where $F'(x) = f(x)$ and $C$ is the constant of integration. The symbol $\int$ i
 ### Definition
 
 A function $F$ is an antiderivative of $f$ on an interval $I$ if $F'(x) = f(x)$ for all $x \in I$.
-If $F$ is an antiderivative of $f$Then so is $F + C$ for any constant $C \in \mathbb{R}$.
+If $F$ is an antiderivative of $f$ Then so is $F + C$ for any constant $C \in \mathbb{R}$.
 
 ### Basic Rules
 
@@ -151,7 +151,7 @@ This establishes that differentiation and integration are inverse operations.
 
 ### Fundamental Theorem of Calculus -- Part 2 (Evaluation Theorem)
 
-If $f$ is continuous on $[a, b]$ and $F$ is any antiderivative of $f$Then:
+If $f$ is continuous on $[a, b]$ and $F$ is any antiderivative of $f$ Then:
 
 $$
 \int_a^b f(x)\,dx = F(b) - F(a)
@@ -165,7 +165,7 @@ $$
 
 ### Area Under a Curve
 
-If $f(x) \geq 0$ on $[a, b]$Then $\int_a^b f(x)\,dx$ gives the area between the curve $y = f(x)$ The
+If $f(x) \geq 0$ on $[a, b]$ Then $\int_a^b f(x)\,dx$ gives the area between the curve $y = f(x)$ The
 $x$-axis, and the vertical lines $x = a$ and $x = b$.
 
 If $f(x)$ changes sign on $[a, b]$The integral gives the **net** (signed) area. The total area is
@@ -239,7 +239,7 @@ $$
  <summary>Expand</summary>
  **Find $\int 2x\sqrt{x^2 + 1}\,dx$**
 
-Let $u = x^2 + 1$Then $du = 2x\,dx$.
+Let $u = x^2 + 1$ Then $du = 2x\,dx$.
 
 $$
 \int 2x\sqrt\{x^2 + 1\}\,dx = \int \sqrt\{u\}\,du = \frac\{2\}\{3\}u^\{3/2\} + C = \frac\{2\}\{3\}(x^2 + 1)^\{3/2\} + C
@@ -290,13 +290,13 @@ $$
 
 Apply integration by parts twice.
 
-First: $u = x^2$$dv = \sin x\,dx$So $du = 2x\,dx$$v = -\cos x$.
+First: $u = x^2$$dv = \sin x\,dx$ So $du = 2x\,dx$$v = -\cos x$.
 
 $$
 \int x^2 \sin x\,dx = -x^2 \cos x + 2\int x \cos x\,dx
 $$
 
-Second: $u = x$$dv = \cos x\,dx$So $du = dx$$v = \sin x$.
+Second: $u = x$$dv = \cos x\,dx$ So $du = dx$$v = \sin x$.
 
 $$
 \begin`\{aligned}`
@@ -571,14 +571,14 @@ For any $c \in [a, b]$.
 
 ### Comparison Properties
 
-If $f(x) \geq 0$ for all $x \in [a, b]$Then $\displaystyle\int_a^b f(x)\,dx \geq 0$.
+If $f(x) \geq 0$ for all $x \in [a, b]$ Then $\displaystyle\int_a^b f(x)\,dx \geq 0$.
 
-If $f(x) \geq g(x)$ for all $x \in [a, b]$Then
+If $f(x) \geq g(x)$ for all $x \in [a, b]$ Then
 $\displaystyle\int_a^b f(x)\,dx \geq \int_a^b g(x)\,dx$.
 
 ### Bounds on the Integral
 
-If $m \leq f(x) \leq M$ for all $x \in [a, b]$Then:
+If $m \leq f(x) \leq M$ for all $x \in [a, b]$ Then:
 
 $$
 M(b - a) \leq \int_a^b f(x)\,dx \leq M(b - a)
@@ -657,7 +657,7 @@ $$
 
 Similarly, $\displaystyle\int_0^1 \frac{1}{x^p}\,dx$ converges if and only if $p < 1$.
 
-**Comparison test:** If $0 \leq f(x) \leq g(x)$ for all $x \geq a$And $\int_a^{\infty} g(x)\,dx$
+**Comparison test:** If $0 \leq f(x) \leq g(x)$ for all $x \geq a$ And $\int_a^{\infty} g(x)\,dx$
 Converges, then $\int_a^{\infty} f(x)\,dx$ also converges. Conversely, if $\int_a^{\infty} f(x)\,dx$
 Diverges, then $\int_a^{\infty} g(x)\,dx$ also diverges.
 :::
@@ -720,7 +720,7 @@ $$
 <strong>Problem 2</strong>
 <details>
  <summary>Evaluate $\int_0^{\pi/2} x\sin x\,dx$</summary>
- Integration by parts: $u = x$$dv = \sin x\,dx$So $du = dx$$v = -\cos x$.
+ Integration by parts: $u = x$$dv = \sin x\,dx$ So $du = dx$$v = -\cos x$.
 
 $$
 \begin`\{aligned}`
@@ -752,7 +752,7 @@ $$
 :::note
 <strong>Problem 4</strong>
 <details>
- <summary>Find the volume of revolution when the region bounded by $y = \ln x$$x = e$And the $x$-axis is rotated about the $x$-axis.</summary>
+ <summary>Find the volume of revolution when the region bounded by $y = \ln x$$x = e$ And the $x$-axis is rotated about the $x$-axis.</summary>
  The curve $y = \ln x$ meets the $x$-axis at $x = 1$.
 
 $$
@@ -769,7 +769,7 @@ $$
 \end`\{aligned}`
 $$
 
-Apply parts again for $\int \ln x\,dx$: $u = \ln x$$dv = dx$So $\int \ln x\,dx = x\ln x - x$.
+Apply parts again for $\int \ln x\,dx$: $u = \ln x$$dv = dx$ So $\int \ln x\,dx = x\ln x - x$.
 
 $$
 \begin`\{aligned}`
@@ -895,13 +895,13 @@ $$
  <summary>Find $\int e^x \cos x\,dx$ using integration by parts twice.</summary>
  Let $I = \displaystyle\int e^x \cos x\,dx$.
 
-First application: $u = e^x$$dv = \cos x\,dx$So $du = e^x\,dx$$v = \sin x$.
+First application: $u = e^x$$dv = \cos x\,dx$ So $du = e^x\,dx$$v = \sin x$.
 
 $$
 I = e^x \sin x - \int e^x \sin x\,dx
 $$
 
-Second application on $\int e^x \sin x\,dx$: $u = e^x$$dv = \sin x\,dx$So $du = e^x\,dx$
+Second application on $\int e^x \sin x\,dx$: $u = e^x$$dv = \sin x\,dx$ So $du = e^x\,dx$
 $v = -\cos x$.
 
 $$

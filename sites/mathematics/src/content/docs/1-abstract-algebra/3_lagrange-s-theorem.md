@@ -5,7 +5,7 @@ title: Lagrange's Theorem
 tags:
   - Mathematics
   - University
-description: "description: Lagrange's theorem in abstract algebra."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"1 Abstract"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -38,27 +38,27 @@ _Proof._ The map $\phi : H \to aH$ given by $\phi(h) = ah$ is a bijection. $\bla
 
 ### 3.2 Lagrange's Theorem
 
-**Theorem 3.3 (Lagrange's Theorem).** If $H$ is a subgroup of a finite group $G$Then $|H|$ divides
+**Theorem 3.3 (Lagrange's Theorem).** If $H$ is a subgroup of a finite group $G$ Then $|H|$ divides
 $|G|$.
 
 _Proof._ The cosets of $H$ partition $G$ into disjoint sets, each of size $|H|$. If there are $k$
-cosets, Then $|G| = k \cdot |H|$So $|H|$ divides $|G|$. $\blacksquare$
+cosets, Then $|G| = k \cdot |H|$ So $|H|$ divides $|G|$. $\blacksquare$
 
 The number of cosets is called the **index** of $H$ in $G$Denoted $[G : H]$.
 
 **Corollary 3.4.** The order of any element of $G$ divides $|G|$.
 
-_Proof._ $|g| = |\langle g \rangle|$And $\langle g \rangle \leq G$So $|g|$ divides $|G|$ by
+_Proof._ $|g| = |\langle g \rangle|$ And $\langle g \rangle \leq G$ So $|g|$ divides $|G|$ by
 Lagrange. $\blacksquare$
 
-**Corollary 3.5 (Fermat's Little Theorem).** If $p$ is prime and $\gcd(a, p) = 1$Then
+**Corollary 3.5 (Fermat's Little Theorem).** If $p$ is prime and $\gcd(a, p) = 1$ Then
 $a^{p-1} \equiv 1 \pmod{p}$.
 
 _Proof._ $\mathbb{Z}/p\mathbb{Z}$ has $p$ elements. The multiplicative group
-$(\mathbb{Z}/p\mathbb{Z})^*$ has order $p - 1$. The order of $[a]$ divides $p - 1$So
+$(\mathbb{Z}/p\mathbb{Z})^*$ has order $p - 1$. The order of $[a]$ divides $p - 1$ So
 $[a]^{p-1} = [1]$. $\blacksquare$
 
-**Corollary 3.6 (Euler's Theorem).** If $\gcd(a, n) = 1$Then $a^{\phi(n)} \equiv 1 \pmod{n}$Where
+**Corollary 3.6 (Euler's Theorem).** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod{n}$Where
 $\phi$ Is Euler's totient function.
 
 ### 3.3 Worked Example
@@ -67,7 +67,7 @@ $\phi$ Is Euler's totient function.
 
 _Solution._ Let $G$ be a group of order $p$ and $g \in G$ with $g \neq e$. By Corollary 3.4, $|g|$
 divides $p$. Since $g \neq e$, $|g| \neq 1$. Since $p$ is prime, $|g| = p$. Thus
-$\langle g \rangle = G$And $G$ is cyclic. $\blacksquare$
+$\langle g \rangle = G$ And $G$ is cyclic. $\blacksquare$
 
 ### 3.4 Worked Examples: Computing Cosets
 
@@ -76,7 +76,7 @@ $\langle g \rangle = G$And $G$ is cyclic. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-_Solution._ $H = \{e, (1\ 2\ 3), (1\ 3\ 2)\}$ has order $3$And $|S_3| = 6$So $[S_3 : H] = 2$. Pick
+_Solution._ $H = \{e, (1\ 2\ 3), (1\ 3\ 2)\}$ has order $3$ And $|S_3| = 6$ So $[S_3 : H] = 2$. Pick
 any $\sigma \notin H$E.g., $\sigma = (1\ 2)$. Then:
 
 $$S_3 = H \cup (1\ 2)H = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (1\ 2)(1\ 2\ 3), (1\ 2)(1\ 3\ 2)\}$$
@@ -94,7 +94,7 @@ Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-_Solution._ $H = \langle 4 \rangle = \{0, 4, 8\}$ has order $3$And $|\mathbb{Z}/12\mathbb{Z}| = 12$
+_Solution._ $H = \langle 4 \rangle = \{0, 4, 8\}$ has order $3$ And $|\mathbb{Z}/12\mathbb{Z}| = 12$
 So $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
 
 $$0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}$$
@@ -106,9 +106,9 @@ $\mathbb{Z}/12\mathbb{Z}\,/\,H \cong \mathbb{Z}/4\mathbb{Z}$. $\blacksquare$
 
 ### 3.5 Further Corollaries of Lagrange's Theorem
 
-**Corollary 3.7.** If $[G : H] = 2$Then $H \trianglelefteq G$.
+**Corollary 3.7.** If $[G : H] = 2$ Then $H \trianglelefteq G$.
 
-_Proof._ There are exactly two left cosets $H$ and $aH$And exactly two right cosets $H$ and $Ha$.
+_Proof._ There are exactly two left cosets $H$ and $aH$ And exactly two right cosets $H$ and $Ha$.
 Since the cosets partition $G$We have $aH = G \setminus H = Ha$. Thus $gH = Hg$ for all $g \in G$ So
 $H$ is normal. $\blacksquare$
 

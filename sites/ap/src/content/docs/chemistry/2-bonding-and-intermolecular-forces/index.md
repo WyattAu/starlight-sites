@@ -1,6 +1,6 @@
 ---
 title: Bonding And Intermolecular Forces
-description: "Study notes and resources for Bonding And Intermolecular Forces"
+description: "This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Mastery of these concepts enables"
 date: 2026-01-01T00:00:00Z
 ---
 

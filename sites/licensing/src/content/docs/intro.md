@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Licensing
-description: "Introduction to licensing notes."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"licensing\", \"url\": \"https://licensing.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

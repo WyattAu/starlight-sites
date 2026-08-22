@@ -54,12 +54,12 @@ fermion mass hierarchy?
 $[\lambda^1, \lambda^2]$ and showing it equals $2i\lambda^3$.
 
 **Problem 12.** Use the Gell-Mann--Okubo mass formula for the baryon octet,
-$\frac{1}{2}(m_N + m_\Xi) = \frac{1}{4}(3m_\Lambda + m_\Sigma)$And the experimental masses
+$\frac{1}{2}(m_N + m_\Xi) = \frac{1}{4}(3m_\Lambda + m_\Sigma)$ And the experimental masses
 $m_p = 938.3$ MeV, $m_n = 939.6$ MeV, $m_{\Xi^0} = 1314.9$ MeV, $m_{\Xi^-} = 1321.7$ MeV,
 $m_\Lambda = 1115.7$ MeV, $m_{\Sigma^+} = 1189.4$ MeV, $m_{\Sigma^0} = 1192.6$ MeV,
 $m_{\Sigma^-} = 1197.4$ MeV. Compute both sides and find the percentage discrepancy.
 
-**Problem 13.** Compute the QCD beta function coefficient $b_0 = 11 - 2n_f/3$ for $n_f = 4$, $5$And
+**Problem 13.** Compute the QCD beta function coefficient $b_0 = 11 - 2n_f/3$ for $n_f = 4$, $5$ And
 $6$ active flavours. At what number of flavours does asymptotic freedom Break down?
 
 **Problem 14.** For a flat, matter-dominated universe with $H_0 = 70$ km/s/Mpc, compute: (a) the

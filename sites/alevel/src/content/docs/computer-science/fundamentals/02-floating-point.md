@@ -107,7 +107,7 @@ Hex: $41280000_{16}$
 Binary: `0 10000010 01010000000000000000000`
 
 - $S = 0$ (positive)
-- $E = 10000010_2 = 130$So $e = 130 - 127 = 3$
+- $E = 10000010_2 = 130$ So $e = 130 - 127 = 3$
 - $M = 01010000000000000000000$
 
 Value: $(-1)^0 \times 1.0101 \times 2^3$
@@ -124,7 +124,7 @@ $1.3125 \times 8 = 10.5$
 $6.5_{10} = 110.1_2 = 1.101 \times 2^2$
 
 - $S = 1$
-- $e = 2$So $E = 2 + 127 = 129 = 10000001_2$
+- $e = 2$ So $E = 2 + 127 = 129 = 10000001_2$
 - $M = 10100000000000000000000$
 
 Result: `1 10000001 10100000000000000000000`
@@ -173,7 +173,7 @@ In IEEE 754: $e = -3$, $E = -3 + 127 = 124 = 01111100_2$.
 $0.1_{10} = \frac{1}{10} = \frac{1}{2 \times 5}$
 
 For a number to have a finite representation in base $b$When reduced to lowest terms
-$\frac{p}{q}$The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$And $5$
+$\frac{p}{q}$The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$ And $5$
 does not divide any power of $2$. Therefore $0.1_{10}$ has no finite binary expansion. $\square$
 
 When stored in IEEE 754, $0.1_{10}$ is approximated by the nearest representable binary value.
@@ -675,7 +675,7 @@ Hex: `4039000000000000`
 Binary: `0100000000111001000000000000000000000000000000000000000000000000`
 
 - $S = 0$ (positive)
-- $E = 10000000011_2 = 1027$So $e = 1027 - 1023 = 4$
+- $E = 10000000011_2 = 1027$ So $e = 1027 - 1023 = 4$
 - $M = 1001000000...0$
 
 Value: $(-1)^0 \times 1.1001_2 \times 2^4$
@@ -722,8 +722,8 @@ def quadratic(a, b, c):
 <summary>Answer</summary>
 
 **Problem: Catastrophic cancellation.** When $4ac$ is small compared to $b^2$The discriminant is
-Close to $b^2$. Then $\sqrt{b^2 - 4ac} \approx |b|$And one of the numerators becomes $-b + |b|$ or
-$-b - |b|$. If $b \gt 0$Then $-b + \sqrt{b^2 - 4ac}$ subtracts nearly equal numbers, losing
+Close to $b^2$. Then $\sqrt{b^2 - 4ac} \approx |b|$ And one of the numerators becomes $-b + |b|$ or
+$-b - |b|$. If $b \gt 0$ Then $-b + \sqrt{b^2 - 4ac}$ subtracts nearly equal numbers, losing
 Precision.
 
 **Fix:** Compute one root with the standard formula and the other using the identity
@@ -741,7 +741,7 @@ def quadratic(a, b, c):
     return x1, x2
 ```
 
-By choosing the sign that avoids cancellation in $x_1$And computing $x_2$ from the product
+By choosing the sign that avoids cancellation in $x_1$ And computing $x_2$ from the product
 Relationship, both roots maintain full precision.
 
 </details>

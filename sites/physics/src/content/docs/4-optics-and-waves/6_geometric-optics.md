@@ -109,7 +109,7 @@ Equation. $\blacksquare$
 Placed 25 cm from the mirror. Find the image position, magnification, and nature.
 
 **Solution.** $f = R/2 = 20$ cm. Using $1/s + 1/s' = 1/f$:
-$1/s' = 1/20 - 1/25 = (5 - 4)/100 = 1/100$So $s' = 100$ cm.
+$1/s' = 1/20 - 1/25 = (5 - 4)/100 = 1/100$ So $s' = 100$ cm.
 
 The image is real (positive $s'$) and on the same side as the object.
 

@@ -130,7 +130,7 @@ $P(0.98 \lt X \lt 1.05) = P\!\left(\dfrac{0.98 - 1.02}{0.03} \lt Z \lt \dfrac{1.
 
 $= \Phi(1.000) - \Phi(-1.333) = 0.8413 - (1 - 0.9088) = 0.8413 - 0.0912 = 0.7501$
 
-(c) We need $\Phi\!\left(\dfrac{m - 1.02}{0.03}\right) = 0.90$So $\dfrac{m - 1.02}{0.03} = 1.282$.
+(c) We need $\Phi\!\left(\dfrac{m - 1.02}{0.03}\right) = 0.90$ So $\dfrac{m - 1.02}{0.03} = 1.282$.
 
 $m = 1.02 + 0.03 \times 1.282 = 1.058\;\mathrm{kg}$
 
@@ -271,7 +271,7 @@ $X$.
 
 (b) $P(3 \leq X \leq 7) = P(X \leq 7) - P(X \leq 2) \approx 0.9506 - 0.0355 = 0.9151$.
 
-(c) Mode $\approx (n+1)p = 16 \times 0.35 = 5.6$So check $r = 5$ and $r = 6$.
+(c) Mode $\approx (n+1)p = 16 \times 0.35 = 5.6$ So check $r = 5$ and $r = 6$.
 
 $P(X = 5) \approx 0.2123$, $P(X = 6) \approx 0.2186$. The mode is $X = 6$.
 

@@ -148,8 +148,8 @@ Corresponding hyperbolic identity by:
 1. Replacing $\cos$ with $\cosh$ and $\sin$ with $\sinh$.
 2. Changing the sign of **every** term that contains a product of two $\sinh$ factors.
 
-This works because $\cos(ix) = \cosh x$ and $\sin(ix) = i\sinh x$So each $\sin$ introduces a Factor
-of $i$And $\sin^2$ introduces $i^2 = -1$.
+This works because $\cos(ix) = \cosh x$ and $\sin(ix) = i\sinh x$ So each $\sin$ introduces a Factor
+of $i$ And $\sin^2$ introduces $i^2 = -1$.
 
 **Example.** $\cos^2 x + \sin^2 x = 1 \xrightarrow{\mathrm{Osborn}} \cosh^2 x - \sinh^2 x = 1$. (The
 $\sinh^2$ term flips sign.)
@@ -192,7 +192,7 @@ This is a quadratic in $e^y$:
 $$e^y = \frac{2x \pm \sqrt{4x^2+4}}{2} = x \pm \sqrt{x^2+1}$$
 
 Since $e^y > 0$ for all $y$We need $x + \sqrt{x^2+1} > 0$Which is always true. And
-$x - \sqrt{x^2+1} < 0$ for all $x$So we take the positive root:
+$x - \sqrt{x^2+1} < 0$ for all $x$ So we take the positive root:
 
 $$e^y = x + \sqrt{x^2+1}$$
 
@@ -228,7 +228,7 @@ $$x = \frac{\sinh y}{\cosh y} \implies \frac{\sinh y}{\cosh y} = x \implies \sin
 
 $$\cosh^2 y - x^2\cosh^2 y = 1 \implies \cosh^2 y = \frac{1}{1-x^2}$$
 
-Also $\tanh y = \dfrac{e^{2y}-1}{e^{2y}+1}$So:
+Also $\tanh y = \dfrac{e^{2y}-1}{e^{2y}+1}$ So:
 
 $$x = \frac{e^{2y}-1}{e^{2y}+1} \implies x(e^{2y}+1) = e^{2y}-1 \implies xe^{2y}+x = e^{2y}-1$$
 
@@ -535,7 +535,7 @@ $\mathrm{arsinh}\,x = \ln(x+\sqrt{x^2+1})$. Compare this with $\ln(\sqrt{2}+1)$.
 <summary>Answer 8</summary>
 $\mathrm{arsinh}\,1 = \ln(1+\sqrt{2}) = \ln(\sqrt{2}+1)$.
 
-Therefore $\ln(\sqrt{2}+1) = \mathrm{arsinh}\,1$So $k = 1$ and $m = 1$.
+Therefore $\ln(\sqrt{2}+1) = \mathrm{arsinh}\,1$ So $k = 1$ and $m = 1$.
 
 </details>
 
@@ -646,7 +646,7 @@ $= 2\cosh^2 x \sinh((k-1)x) - \sinh((k-2)x)\cosh x + \cosh(kx)\sinh x$.
 This requires the inductive hypothesis for $\cosh(kx)$ as well. An alternative cleaner approach:
 
 $\sinh((k+1)x) = 2\cosh x \sinh(kx) - \sinh((k-1)x)$ follows from
-$\sinh(A+B) = \sinh A\cosh B + \cosh A\sinh B$ with $A = kx$, $B = x$And the fact that
+$\sinh(A+B) = \sinh A\cosh B + \cosh A\sinh B$ with $A = kx$, $B = x$ And the fact that
 $\cosh x \cdot \sinh(kx) + \sinh x \cdot \cosh(kx) = 2\cosh x \sinh(kx) - [2\cosh x \sinh(kx) - \sinh((k+1)x)]$
 Which is circular. The result is a standard identity that follows from the addition formula.
 $\blacksquare$
@@ -685,14 +685,14 @@ $$\int\frac{dx}{\sqrt{(x+1)^2 + 4}} = \operatorname{arsinh}\!\left(\frac{x+1}{2}
 **Problem.** Derive $\dfrac{d}{dx}\operatorname{arcosh}\,x = \dfrac{1}{\sqrt{x^2 - 1}}$
 By implicit differentiation without using the logarithmic form.
 
-**Solution.** Let $y = \operatorname{arcosh}\,x$So $x = \cosh y$ and $y \geq 0$.
+**Solution.** Let $y = \operatorname{arcosh}\,x$ So $x = \cosh y$ and $y \geq 0$.
 
-Differentiating implicitly: $1 = \sinh y \cdot \dfrac{dy}{dx}$So
+Differentiating implicitly: $1 = \sinh y \cdot \dfrac{dy}{dx}$ So
 $\dfrac{dy}{dx} = \dfrac{1}{\sinh y}$.
 
 Since $\cosh^2 y - \sinh^2 y = 1$: $\sinh^2 y = \cosh^2 y - 1 = x^2 - 1$.
 
-For $y \geq 0$We have $\sinh y \geq 0$So $\sinh y = \sqrt{x^2 - 1}$.
+For $y \geq 0$We have $\sinh y \geq 0$ So $\sinh y = \sqrt{x^2 - 1}$.
 
 $$\frac{dy}{dx} = \frac{1}{\sqrt{x^2-1}} \quad \blacksquare$$
 
@@ -907,7 +907,7 @@ $\blacksquare$
 
 | Pitfall                                                               | Correct Approach                                                           |
 | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Using $x = a\cosh u$ when $x < a$                                     | $\cosh u \geq 1$So this requires $x \geq a$                                |
+| Using $x = a\cosh u$ when $x < a$                                     | $\cosh u \geq 1$ So this requires $x \geq a$                                |
 | Confusing $\operatorname{arsinh}$ and $\operatorname{arcosh}$ domains | $\operatorname{arsinh}$: all real $x$; $\operatorname{arcosh}$: $x \geq 1$ |
 | Forgetting $\cosh^2 x - \sinh^2 x = 1$                                | This is the fundamental identity, analogous to $\cos^2 x + \sin^2 x = 1$   |
 
@@ -954,7 +954,7 @@ Express $\sinh^{-1} x$ in terms of natural logarithms.
 <details>
 <summary>Solution</summary>
 
-Let $y = \sinh^{-1} x$So $x = \sinh y = \dfrac{e^y - e^{-y}}{2}$.
+Let $y = \sinh^{-1} x$ So $x = \sinh y = \dfrac{e^y - e^{-y}}{2}$.
 
 $2x = e^y - e^{-y} \implies e^{2y} - 2xe^y - 1 = 0$.
 
@@ -1087,7 +1087,7 @@ $\dfrac{d}{dx}[\operatorname{artanh}\, x] = \dfrac{1}{1-x^2}$ for $|x| < 1$.
 
 $\dfrac{d}{dx}[\operatorname{arcoth}\, x] = \dfrac{1}{1-x^2}$ for $|x| > 1$.
 
-Both have the same derivative formula $\dfrac{1}{1-x^2}$But different domains. They differ by a
+Both have the same derivative formula $\dfrac{1}{1-x^2}$ But different domains. They differ by a
 Constant (in fact, $\operatorname{arcoth}\, x = \operatorname{artanh}\,(1/x)$).
 
 </details>

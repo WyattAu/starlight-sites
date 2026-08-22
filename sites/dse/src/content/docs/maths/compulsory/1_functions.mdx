@@ -110,7 +110,7 @@ $
 
 The graphs of $y = f(x)$ and $y = f^{-1}(x)$ are reflections of each other in the line $y = x$.
 
-To find $f^{-1}(x)$Set $y = f(x)$Solve for $x$ in terms of $y$Then interchange $x$ and $y$.
+To find $f^{-1}(x)$Set $y = f(x)$Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
 
 A necessary condition for a function to have an inverse is that it is one-to-one (injective). If the
 Original function is not injective on its given domain, one may restrict the domain to make it
@@ -130,7 +130,7 @@ Injective.
 
 - Let $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + 1$. Find the domain of $f \circ g$:
 - $\mathrm{dom}(g) = \mathbb{R}$
-- $\mathrm{dom}(f) = \{x : x \geq 1\}$So we require $g(x) \geq 1$I.e.
+- $\mathrm{dom}(f) = \{x : x \geq 1\}$ So we require $g(x) \geq 1$I.e.
   $x^2 + 1 \geq 1 \implies x^2 \geq 0$Which holds for all real $x$.
 - Therefore $\mathrm{dom}(f \circ g) = \mathbb{R}$.
 
@@ -144,7 +144,7 @@ $
 F(x) = ax^2 + bx + c, \quad a \neq 0
 $
 
-Where $a$, $b$And $c$ are real constants.
+Where $a$, $b$ And $c$ are real constants.
 
 ### Vertex Form
 
@@ -352,7 +352,7 @@ $$
 <DesmosGraph client:only="solid-js" title="Graph Transformations" expressions={["a\cdot f(x+b)+c", "f(x)=x^2"]} width={800}
 height={500}  />
 
-Use the sliders to explore how the parameters $a$$b$And $c$ transform the parent function, and
+Use the sliders to explore how the parameters $a$$b$ And $c$ transform the parent function, and
 Observe the order in which each transformation is applied.
 
 ### Individual Transformations
@@ -399,8 +399,8 @@ Shift has the "opposite sign" effect: $f(x + b)$ shifts left by $b$ (not right).
 
 - Given $f(x) = \sqrt{x}$Sketch $y = \sqrt{-x + 4} - 2$:
 - Rewrite as $y = f(-(x - 4)) - 2 = f(-x + 4) - 2$.
-- From $y = \sqrt{x}$: reflect in the $y$-axis to get $y = \sqrt{-x}$Then shift right by 4 to get
-  $y = \sqrt{-(x - 4)} = \sqrt{-x + 4}$Then shift down by 2.
+- From $y = \sqrt{x}$: reflect in the $y$-axis to get $y = \sqrt{-x}$ Then shift right by 4 to get
+  $y = \sqrt{-(x - 4)} = \sqrt{-x + 4}$ Then shift down by 2.
 - Domain: $-x + 4 \geq 0 \implies x \leq 4$. Range: $[-2, \infty)$.
 
 ---
@@ -454,9 +454,9 @@ $a \lt 0$There is no solution.
 
 **Proof of $\|f(x)\| \lt a \iff -a \lt f(x) \lt a$** (for $a \gt 0$):
 
-$(\Rightarrow)$ If $|f(x)| \lt a$Then by definition of modulus, $-a \lt f(x) \lt a$.
+$(\Rightarrow)$ If $|f(x)| \lt a$ Then by definition of modulus, $-a \lt f(x) \lt a$.
 
-$(\Leftarrow)$ If $-a \lt f(x) \lt a$Then $f(x) \lt a$ and $-f(x) \lt a$So $|f(x)| \lt a$. $\qed$
+$(\Leftarrow)$ If $-a \lt f(x) \lt a$ Then $f(x) \lt a$ and $-f(x) \lt a$ So $|f(x)| \lt a$. $\qed$
 
 ### Graphs Involving Modulus
 
@@ -618,8 +618,8 @@ Remaining factors. Analyse using a sign chart or by evaluating test points on ea
 - Domain: $x \neq \pm 2$. Vertical asymptotes: $x = 2$ and $x = -2$.
 - Degrees equal (both 2), horizontal asymptote at $y = \frac{1}{1} = 1$.
 - $x$-intercepts: $x = \pm 1$. $y$-intercept: $f(0) = \frac{-1}{-4} = \frac{1}{4}$.
-- As $x \to 2^+$Numerator $\to 3 \gt 0$Denominator $\to 0^+$So $f(x) \to +\infty$.
-- As $x \to -2^+$Numerator $\to -3 \lt 0$Denominator $\to 0^-$So $f(x) \to +\infty$.
+- As $x \to 2^+$Numerator $\to 3 \gt 0$Denominator $\to 0^+$ So $f(x) \to +\infty$.
+- As $x \to -2^+$Numerator $\to -3 \lt 0$Denominator $\to 0^-$ So $f(x) \to +\infty$.
 
 ---
 
@@ -660,7 +660,7 @@ Key observations:
 - At $x = 2$: $2^2 = 4 \lt 5 = g(2)$.
 - At $x = 3$: $2^3 = 8 \gt 6 = g(3)$.
 - By the intermediate value theorem, there is a root in $(2, 3)$.
-- For large negative $x$: $2^x \to 0$ and $x + 3 \to -\infty$So $2^x \gt x + 3$.
+- For large negative $x$: $2^x \to 0$ and $x + 3 \to -\infty$ So $2^x \gt x + 3$.
 - Since $2^x$ grows faster than any linear function, there is exactly one more crossing for some
   $x \lt 0$.
 - Total: exactly 2 solutions.
@@ -678,7 +678,7 @@ Key observations:
   Confusing these produces wrong solution sets.
 - **Squaring both sides carelessly.** Squaring $|f(x)| = |g(x)|$ to get $f(x)^2 = g(x)^2$ is valid,
   But squaring $f(x) = g(x)$ can introduce extraneous solutions (e.g., $x = \sqrt{x}$ squares to
-  $x^2 = x$Giving $x = 0$ or $x = 1$But $x = 1$ is extraneous).
+  $x^2 = x$Giving $x = 0$ or $x = 1$ But $x = 1$ is extraneous).
 
 <summary>Rational function errors</summary>
 
@@ -708,7 +708,7 @@ Key observations:
 <summary>Answer</summary>
 - $(f \circ g)(x) = f(g(x)) = f(x^2 - 4) = \dfrac{2(x^2 - 4) - 6}{(x^2 - 4) + 1} = \dfrac{2x^2 - 14}{x^2 - 3}$
 - $\mathrm{dom}(g) = \mathbb{R}$.
-- $\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -1\}$So we require $g(x) \neq -1$I.e. $x^2 - 4 \neq -1 \implies x^2 \neq 3 \implies x \neq \pm\sqrt{3}$.
+- $\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -1\}$ So we require $g(x) \neq -1$I.e. $x^2 - 4 \neq -1 \implies x^2 \neq 3 \implies x \neq \pm\sqrt{3}$.
 - $\mathrm{dom}(f \circ g) = \mathbb{R} \setminus \{\sqrt{3},\; -\sqrt{3}\}$.
 
 1. **Question:** Let $f(x) = 3x - 5$. Find $f^{-1}(x)$ and verify that $f^{-1}(f(x)) = x$.
@@ -719,7 +719,7 @@ Key observations:
 - Interchanging $x$ and $y$: $f^{-1}(x) = \dfrac{x + 5}{3}$.
 - Verification: $f^{-1}(f(x)) = \dfrac{(3x - 5) + 5}{3} = \dfrac{3x}{3} = x$. Confirmed.
 
-1. **Question:** A quadratic function $f(x)$ has a maximum value of $7$ at $x = 2$And $f(0) = -5$.
+1. **Question:** A quadratic function $f(x)$ has a maximum value of $7$ at $x = 2$ And $f(0) = -5$.
    Find $f(x)$.
 
 <summary>Answer</summary>
@@ -766,7 +766,7 @@ Key observations:
 <summary>Answer</summary>
 
 - For a point $(a, b)$ on $y = f(x)$ (so $f(a) = b$), the corresponding point on $y = 2f(x - 1) + 3$
-  is found by setting $x - 1 = a$I.e. $x = a + 1$And $y = 2b + 3$.
+  is found by setting $x - 1 = a$I.e. $x = a + 1$ And $y = 2b + 3$.
 - $(1, 4) \mapsto (1 + 1,\; 2 \times 4 + 3) = (2, 11)$.
 - $(3, 10) \mapsto (3 + 1,\; 2 \times 10 + 3) = (4, 23)$.
 
@@ -776,7 +776,7 @@ Key observations:
 <summary>Answer</summary>
 
 - $(f \circ g)(x) = f(g(x)) = f(2^x - 1) = \log_2((2^x - 1) + 3) = \log_2(2^x + 2)$.
-- Wait -- let us verify properly. $g(x) = 2^x - 1$So
+- Wait -- let us verify properly. $g(x) = 2^x - 1$ So
   $f(g(x)) = \log_2(2^x - 1 + 3) = \log_2(2^x + 2)$. This does not simplify to $x$ directly.
 - Let us re-examine. For $f$ and $g$ to be inverses, we need $f(g(x)) = x$.
 - $f(g(x)) = \log_2(2^x + 2) \neq x$ . Let us check: at $x = 0$
@@ -791,7 +791,7 @@ Key observations:
 - $\mathrm{range}(f^{-1}) = \mathrm{dom}(f) = (-3, \infty)$.
 
 1. **Question:** Given $f(x) = x^2 + 2x - 3$Find the range of $f$ when (a) the domain is
-   $\mathbb{R}$And (b) the domain is $[0, 4]$.
+   $\mathbb{R}$ And (b) the domain is $[0, 4]$.
 
 <summary>Answer</summary>
 
@@ -803,7 +803,7 @@ Key observations:
 - On $[0, 4]$The function is increasing (vertex at $x = -1$ is to the left of the interval).
 - Range: $[-3, 21]$.
 
-1. **Question:** Let $f(x) = \dfrac{x}{x - 2}$ for $x \neq 2$. Find $f^{-1}$And evaluate
+1. **Question:** Let $f(x) = \dfrac{x}{x - 2}$ for $x \neq 2$. Find $f^{-1}$ And evaluate
     $f^{-1}(3) + f(3)$.
 
 <summary>Answer</summary>
@@ -883,7 +883,7 @@ Is $f(x) = x^2 + 1$ surjective if the codomain is $\mathbb{R}$?
 No. Since $x^2 \geq 0$ for all real $x$We have $f(x) = x^2 + 1 \geq 1$. The value $0 \in \mathbb{R}$
 is not attained. Therefore $f$ is not surjective onto $\mathbb{R}$.
 
-If the codomain is restricted to $[1, \infty)$Then $f$ is surjective.
+If the codomain is restricted to $[1, \infty)$ Then $f$ is surjective.
 
 **Worked Example 11: Graph of a piecewise function**
 
@@ -902,7 +902,7 @@ At $x = 2^+$: $f(2) = 4 - 4 = 0$.
 
 There is a jump discontinuity at $x = 2$: $f(2) = 2$ but $\lim_{x \to 2^+} f(x) = 0$.
 
-For $x > 2$The function is a parabola with vertex at $(1, -1)$But since $x > 2$We only see the right
+For $x > 2$The function is a parabola with vertex at $(1, -1)$ But since $x > 2$We only see the right
 branch, which is strictly increasing.
 
 **Worked Example 12: Even and odd function properties**
@@ -927,7 +927,7 @@ whether $f$ is injective.
 
 <summary>Solution</summary>
 
-Domain: $x \neq 1$So $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$.
+Domain: $x \neq 1$ So $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$.
 
 $f(x) = 2 + \dfrac{5}{x - 1}$.
 
@@ -956,7 +956,7 @@ Range: $[2, \infty)$.
 Since $f$ is strictly increasing (hence injective) on $[1, \infty)$It has an inverse.
 
 **DSE Practice 3.** A function is defined by $f(x) = \lfloor x \rfloor$ (the greatest integer less
-than or equal to $x$). Find $f(3.7)$f(-2.1)$And $f(0)$.
+than or equal to $x$). Find $f(3.7)$f(-2.1)$ And $f(0)$.
 
 <summary>Solution</summary>
 
@@ -971,7 +971,7 @@ $f(-x) = (-x)^3 + (-x) = -x^3 - x = -(x^3 + x) = -f(x)$
 Since $f(-x) = -f(x)$, $f$ is odd.
 
 **DSE Practice 5.** The function $f$ is defined on $\mathbb{R}$ by $f(x) = ax^2 + bx + c$. Given
-that $f(0) = 5$f(1) = 4$And $f(-1) = 10$Find $a$b$And $c$.
+that $f(0) = 5$f(1) = 4$ And $f(-1) = 10$Find $a$b$ And $c$.
 
 <summary>Solution</summary>
 

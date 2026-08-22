@@ -38,29 +38,29 @@ $f(n) \geq c \cdot g(n)$ for all $n \geq n_0$.
 **Theorem 1.1.** $f(n) = O(g(n))$ if and only if $g(n) = \Omega(f(n))$.
 
 _Proof._ Suppose $f(n) = O(g(n))$. Then there exist $c, n_0$ such that $f(n) \leq c \cdot g(n)$ for
-all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$So $g(n) = \Omega(f(n))$. The
+all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$ So $g(n) = \Omega(f(n))$. The
 converse follows by symmetry. $\blacksquare$
 
 **Theorem 1.2.** $f(n) = \Theta(g(n))$ if and only if there exist constants $c_1, c_2 > 0$ and $n_0$
 such that $c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)$ for all $n \geq n_0$.
 
 _Proof._ By definition, $f(n) = \Theta(g(n))$ means $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$. The
-former gives $f(n) \leq c_2 \cdot g(n)$ for some $c_2 > 0$And the latter gives
+former gives $f(n) \leq c_2 \cdot g(n)$ for some $c_2 > 0$ And the latter gives
 $f(n) \geq c_1 \cdot g(n)$ for some $c_1 > 0$. Combining yields the stated inequality.
 $\blacksquare$
 
-**Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$Then
-$f(n) = \Theta(g(n))$. If $c = 0$Then $f(n) = O(g(n))$. If $c = \infty$Then $g(n) = O(f(n))$.
+**Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$ Then
+$f(n) = \Theta(g(n))$. If $c = 0$ Then $f(n) = O(g(n))$. If $c = \infty$ Then $g(n) = O(f(n))$.
 
-_Proof._ If $c = 0$Then for any $\varepsilon > 0$There exists $n_0$ such that
-$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$So $f(n) \leq \varepsilon \cdot g(n)$Establishing
+_Proof._ If $c = 0$ Then for any $\varepsilon > 0$There exists $n_0$ such that
+$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$ So $f(n) \leq \varepsilon \cdot g(n)$Establishing
 $f(n) = O(g(n))$. If $0 < c < \infty$Take $\varepsilon = c/2$; then
 $(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$Giving $\Theta$. The
 $c = \infty$ case is symmetric. $\blacksquare$
 
-**Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$Then $f = O(h)$.
+**Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$ Then $f = O(h)$.
 
-_Proof._ There exist $c_1, n_1$ with $f(n) \leq c_1 g(n)$ for $n \geq n_1$And $c_2, n_2$ with
+_Proof._ There exist $c_1, n_1$ with $f(n) \leq c_1 g(n)$ for $n \geq n_1$ And $c_2, n_2$ with
 $g(n) \leq c_2 h(n)$ for $n \geq n_2$. Then $f(n) \leq c_1 c_2 h(n)$ for $n \geq \max(n_1, n_2)$.
 $\blacksquare$
 
@@ -79,7 +79,7 @@ $3n \leq 3n^2$ and $1 \leq n^2$).
 
 So take $c = 5$ and $n_0 = 1$.
 
-To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n + 1 = \Theta(n^2)$.
+To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$ So $n^2 + 3n + 1 = \Theta(n^2)$.
 
 </details>
 
@@ -88,7 +88,7 @@ To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n +
 
 By the limit rule: $\lim_{n \to \infty} 2^n / n^k = \infty$ for any fixed $k$ (this follows from
 repeated application of L"Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
-than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$And in particular
+than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$ And in particular
 $2^n \neq O(n^k)$.
 
 </details>
@@ -178,9 +178,9 @@ and let $T(n)$ be defined on the nonnegative integers by the recurrence $T(n) = 
 we interpret $n/b$ to mean either $\lfloor n/b \rfloor$ or $\lceil n/b \rceil$. Let $c = \log_b a$.
 Then:
 
-1. If $f(n) = O(n^{c - \varepsilon})$ for some $\varepsilon > 0$Then $T(n) = \Theta(n^c)$.
-2. If $f(n) = \Theta(n^c \log^k n)$ for some $k \geq 0$Then $T(n) = \Theta(n^c \log^{k+1} n)$.
-3. If $f(n) = \Omega(n^{c + \varepsilon})$ for some $\varepsilon > 0$And if $a f(n/b) \leq q f(n)$
+1. If $f(n) = O(n^{c - \varepsilon})$ for some $\varepsilon > 0$ Then $T(n) = \Theta(n^c)$.
+2. If $f(n) = \Theta(n^c \log^k n)$ for some $k \geq 0$ Then $T(n) = \Theta(n^c \log^{k+1} n)$.
+3. If $f(n) = \Omega(n^{c + \varepsilon})$ for some $\varepsilon > 0$ And if $a f(n/b) \leq q f(n)$
    for some constant $q < 1$ and all sufficiently large $n$ (the _regularity condition_), then
    $T(n) = \Theta(f(n))$.
 
@@ -189,7 +189,7 @@ each costing $f(n/b^i)$. Since $f(n) = O(n^{c - \varepsilon})$The cost at level 
 $a^i \cdot (n/b^i)^{c - \varepsilon} = n^{c - \varepsilon} \cdot (a / b^{c - \varepsilon})^i$. The
 total cost is dominated by the leaves (level $\log_b n$), which contribute $a^{\log_b n} = n^c$. The
 internal levels contribute a geometric series with ratio
-$a / b^{c - \varepsilon} = b^\varepsilon > 1$So the leaf level dominates. $\blacksquare$
+$a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\blacksquare$
 
 <details>
 <summary>Worked Example: Merge Sort Recurrence</summary>
@@ -198,7 +198,7 @@ Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
 $$T(n) = 2T(n/2) + \Theta(n)$$
 
-Here $a = 2$, $b = 2$So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
+Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
 is Case 2 with $k = 0$.
 
 Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
@@ -210,7 +210,7 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 
 $$T(n) = T(n/2) + O(1)$$
 
-Here $a = 1$, $b = 2$So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
+Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
 
 Therefore $T(n) = \Theta(\log n)$.
@@ -224,7 +224,7 @@ Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O
 
 $$T(n) = 7T(n/2) + O(n^2)$$
 
-Here $a = 7$, $b = 2$So $c = \log_2 7 \approx 2.807$. We have
+Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
 $f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
 
 Therefore $T(n) = \Theta(n^{\log_2 7}) = \Theta(n^{2.807})$.
@@ -244,7 +244,7 @@ Individual operations may be expensive.
 3. **Potential method:** Define a potential function $\Phi$; the amortised cost of the $i$-th
    operation is $\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$.
 
-**Theorem 1.8 (Potential Method).** If $\Phi(D_i) \geq \Phi(D_0)$ for all $i \geq 1$Then the total
+**Theorem 1.8 (Potential Method).** If $\Phi(D_i) \geq \Phi(D_0)$ for all $i \geq 1$ Then the total
 amortised cost $\sum_{i=1}^{n} \hat{c}_i$ is an upper bound on the total actual cost
 $\sum_{i=1}^{n} c_i$.
 
@@ -253,7 +253,7 @@ $\sum_{i=1}^{n} \hat{c}_i = \sum_{i=1}^{n} (c_i + \Phi(D_i) - \Phi(D_{i-1})) = \
 $\blacksquare$
 
 **Example (Dynamic Array).** A dynamic array doubles in size when full. Insertion is $O(1)$
-Amortised: most insertions cost $O(1)$; occasional resizing costs $O(n)$But is paid for by the
+Amortised: most insertions cost $O(1)$; occasional resizing costs $O(n)$ But is paid for by the
 Surplus from previous $O(1)$ insertions.
 
 <details>
@@ -279,7 +279,7 @@ actual costs.
 <summary>Worked Example: Dynamic Array Amortised Analysis (Potential Method)</summary>
 
 Define the potential function $\Phi(D) = 2n - m$ where $n$ is the number of elements and $m$ is the
-capacity. We require $m \geq n$So $\Phi \geq 0$ (since $2n - n = n \geq 0$).
+capacity. We require $m \geq n$ So $\Phi \geq 0$ (since $2n - n = n \geq 0$).
 
 Case 1: No resize. $\hat{c} = 1 + (2(n+1) - m) - (2n - m) = 1 + 2 = 3$.
 

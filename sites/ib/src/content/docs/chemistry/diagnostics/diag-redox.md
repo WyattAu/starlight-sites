@@ -153,7 +153,7 @@ to $0.50\ \text{V}$?
 
 **Solution:**
 
-At equilibrium, $E_{\text{cell}} = 0$And $\Delta G^\circ = -RT\ln K$.
+At equilibrium, $E_{\text{cell}} = 0$ And $\Delta G^\circ = -RT\ln K$.
 
 $nFE^\circ = RT\ln K$
 

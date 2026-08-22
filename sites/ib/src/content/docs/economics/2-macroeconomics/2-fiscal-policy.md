@@ -74,7 +74,7 @@ $$k_{T,M} = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}}$$
 
 Where MPM is the marginal propensity to import. Imports are a leakage from the circular flow.
 
-**Worked example:** if $\mathrm{MPC} = 0.75$, $t = 0.2$And $\mathrm{MPM} = 0.1$:
+**Worked example:** if $\mathrm{MPC} = 0.75$, $t = 0.2$ And $\mathrm{MPM} = 0.1$:
 
 $$k = \frac{1}{0.25 + 0.2 \times 0.75 + 0.1} = \frac{1}{0.25 + 0.15 + 0.1} = \frac{1}{0.50} = 2$$
 
@@ -284,7 +284,7 @@ Raising the real interest rate and reducing private investment.
 **The degree of crowding out:**
 
 1. **Complete crowding out:** in the classical model (vertical AS), an increase in $G$ exactly
-   offsets $\Delta I$So $\Delta Y = 0$. This occurs when the economy is at full employment
+   offsets $\Delta I$ So $\Delta Y = 0$. This occurs when the economy is at full employment
 2. **Partial crowding out:** in the Keynesian model (upward-sloping AS), some investment is
    displaced but output still increases
 3. **No crowding out:** at the zero lower bound (horizontal LM curve), government borrowing does not
@@ -303,7 +303,7 @@ Exports. Small open economies with mobile capital are particularly vulnerable.
 
 **Numerical example:**
 
-An economy has MPC $= 0.75$MPM $= 0.2$And a 1 percentage point increase in $r$ reduces Investment by
+An economy has MPC $= 0.75$MPM $= 0.2$ And a 1 percentage point increase in $r$ reduces Investment by
 USD 2 billion. The government increases spending by USD 10 billion.
 
 Closed-economy multiplier: $\frac{1}{1 - \text{MPC}} = \frac{1}{0.25} = 4$.

@@ -45,10 +45,10 @@ $$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\parti
 **Problem.** A parallel-plate capacitor with circular plates of radius $R$ is being charged by a
 Current $I$. Find the magnetic field between the plates at distance $r$ from the axis.
 
-_Solution._ Between the plates, $\mathbf{J} = 0$But there is a changing electric field. The
+_Solution._ Between the plates, $\mathbf{J} = 0$ But there is a changing electric field. The
 Displacement current density is $J_d = \varepsilon_0 \frac{\partial E}{\partial t}$.
 
-$E = \frac{\sigma}{\varepsilon_0} = \frac{Q}{\pi R^2 \varepsilon_0}$So
+$E = \frac{\sigma}{\varepsilon_0} = \frac{Q}{\pi R^2 \varepsilon_0}$ So
 $\frac{\partial E}{\partial t} = \frac{I}{\pi R^2 \varepsilon_0}$.
 
 By symmetry, use an Amperian loop of radius $r \lt R$:
@@ -122,7 +122,7 @@ $\mathbf{J} = 0$ but $\partial\mathbf{E}/\partial t \neq 0$.
 <details>
 <summary>Example: Loop falling through a magnetic field</summary>
 
-A rectangular loop of width $w$Height $\ell$And resistance $R$ falls vertically under Gravity
+A rectangular loop of width $w$Height $\ell$ And resistance $R$ falls vertically under Gravity
 through a region of uniform magnetic field $\mathbf{B} = B\,\hat{\mathbf{x}}$ confined To a
 horizontal strip of height $h$.
 

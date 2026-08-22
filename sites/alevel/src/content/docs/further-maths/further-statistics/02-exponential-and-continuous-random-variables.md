@@ -222,7 +222,7 @@ $x_{0.5} = -\dfrac{\ln(0.5)}{\lambda} = \dfrac{\ln 2}{\lambda}$.
 
 ### 3.1 Finding probabilities
 
-**Example.** $X \sim \mathrm{Exp}(0.5)$. Find $P(X > 3)$, $P(1 < X < 4)$And the median.
+**Example.** $X \sim \mathrm{Exp}(0.5)$. Find $P(X > 3)$, $P(1 < X < 4)$ And the median.
 
 $P(X > 3) = e^{-0.5 \times 3} = e^{-1.5} \approx 0.2231$.
 
@@ -269,7 +269,7 @@ Approximately.
 
 $z = \dfrac{420 - 200}{\sqrt{4000}} = \dfrac{220}{63.25} = 3.48$.
 
-$|z| = 3.48 > 1.96$So reject $H_0$.
+$|z| = 3.48 > 1.96$ So reject $H_0$.
 
 <hr />
 
@@ -277,7 +277,7 @@ $|z| = 3.48 > 1.96$So reject $H_0$.
 
 <details>
 <summary>Problem 1</summary>
-$X \sim \mathrm{Exp}(2)$. Find $P(X > 1)$, $P(0.5 < X < 2)$And the 90th percentile.
+$X \sim \mathrm{Exp}(2)$. Find $P(X > 1)$, $P(0.5 < X < 2)$ And the 90th percentile.
 </details>
 
 <details>
@@ -295,7 +295,7 @@ $F(x) = 0.9 \implies 1 - e^{-2x} = 0.9 \implies x = -\dfrac{\ln(0.1)}{2} \approx
 
 <details>
 <summary>Problem 2</summary>
-A continuous random variable $X$ has PDF $f(x) = \dfrac{3x^2}{8}$ for $0 \leq x \leq 2$. Find $E(X)$, $\mathrm{Var}(X)$And the median.
+A continuous random variable $X$ has PDF $f(x) = \dfrac{3x^2}{8}$ for $0 \leq x \leq 2$. Find $E(X)$, $\mathrm{Var}(X)$ And the median.
 </details>
 
 <details>
@@ -348,7 +348,7 @@ Section 2.6.
 
 <details>
 <summary>Problem 5</summary>
-$X$ has PDF $f(x) = \dfrac{1}{2}x$ for $0 \leq x \leq 2$. Find the CDF, $E(X)$And $\mathrm{Var}(X)$.
+$X$ has PDF $f(x) = \dfrac{1}{2}x$ for $0 \leq x \leq 2$. Find the CDF, $E(X)$ And $\mathrm{Var}(X)$.
 </details>
 
 <details>
@@ -381,7 +381,7 @@ By the memoryless property: $P(X > 500+200 \mid X > 500) = P(X > 200) = e^{-0.01
 
 <details>
 <summary>Problem 7</summary>
-A continuous random variable $X$ has CDF $F(x) = \dfrac{x^3}{27}$ for $0 \leq x \leq 3$. Find the PDF, $E(X)$And the upper quartile.
+A continuous random variable $X$ has CDF $F(x) = \dfrac{x^3}{27}$ for $0 \leq x \leq 3$. Find the PDF, $E(X)$ And the upper quartile.
 </details>
 
 <details>
@@ -407,7 +407,7 @@ Prove that $E(X) = 1/\lambda$ for $X \sim \mathrm{Exp}(\lambda)$Using integratio
 <summary>Solution 8</summary>
 $E(X) = \int_0^{\infty}x\lambda e^{-\lambda x}\,dx$.
 
-Let $u = x$$dv = \lambda e^{-\lambda x}\,dx$So $du = dx$$v = -e^{-\lambda x}$.
+Let $u = x$$dv = \lambda e^{-\lambda x}\,dx$ So $du = dx$$v = -e^{-\lambda x}$.
 
 $E(X) = \left[-xe^{-\lambda x}\right]_0^{\infty} + \int_0^{\infty}e^{-\lambda x}\,dx = 0 + \left[-\dfrac{1}{\lambda}e^{-\lambda x}\right]_0^{\infty} = \dfrac{1}{\lambda}$.
 $\blacksquare$
@@ -437,7 +437,7 @@ Section 2.6.
 
 <details>
 <summary>Problem 10</summary>
-$X$ has PDF $f(x) = 4x^3$ for $0 \leq x \leq 1$. Find $P(X > 0.5)$$E(X)$$\mathrm{Var}(X)$And the mode.
+$X$ has PDF $f(x) = 4x^3$ for $0 \leq x \leq 1$. Find $P(X > 0.5)$$E(X)$$\mathrm{Var}(X)$ And the mode.
 </details>
 
 <details>
@@ -450,7 +450,7 @@ $E(X^2) = \int_0^1 4x^5\,dx = \left[\dfrac{4x^6}{6}\right]_0^1 = \dfrac{2}{3}$.
 
 $\mathrm{Var}(X) = \dfrac{2}{3} - \left(\dfrac{4}{5}\right)^2 = \dfrac{2}{3} - \dfrac{16}{25} = \dfrac{50 - 48}{75} = \dfrac{2}{75}$.
 
-Mode: $f(x) = 4x^3$ is increasing on $[0,1]$So the mode is at $x = 1$.
+Mode: $f(x) = 4x^3$ is increasing on $[0,1]$ So the mode is at $x = 1$.
 
 **If you get this wrong, revise:** [Median, mode, and quartiles](#15-median-mode-and-quartiles) —
 Section 1.5.
@@ -463,7 +463,7 @@ Section 1.5.
 
 ### 5.1 Rigorous proof using conditional probability
 
-**Theorem.** If $X \sim \mathrm{Exp}(\lambda)$Then for all $s, t > 0$:
+**Theorem.** If $X \sim \mathrm{Exp}(\lambda)$ Then for all $s, t > 0$:
 
 $$P(X > s + t \mid X > s) = P(X > t)$$
 
@@ -482,7 +482,7 @@ $$\frac{P(X > s + t)}{P(X > s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{
 ### 5.2 Converse: exponential is the only continuous memoryless distribution
 
 **Theorem.** If a continuous random variable $X$ on $(0, \infty)$ satisfies
-$P(X > s+t \mid X > s) = P(X > t)$ for all $s, t > 0$Then $X \sim \mathrm{Exp}(\lambda)$ for some
+$P(X > s+t \mid X > s) = P(X > t)$ for all $s, t > 0$ Then $X \sim \mathrm{Exp}(\lambda)$ for some
 $\lambda > 0$.
 
 ### Proof
@@ -538,7 +538,7 @@ $\blacksquare$
 ### 6.2 Sum of inter-arrival times
 
 If $T_1, T_2, \ldots, T_n$ are $n$ independent inter-arrival times, each
-$\sim \mathrm{Exp}(\lambda)$Then the total time until the $n$-th event is:
+$\sim \mathrm{Exp}(\lambda)$ Then the total time until the $n$-th event is:
 
 $$S_n = T_1 + T_2 + \cdots + T_n \sim \mathrm{Gamma}(n, \lambda)$$
 
@@ -633,7 +633,7 @@ $\approx 0.2575 + 0.2456 = 0.5031$.
 ### Confusing PDF with CDF
 
 The PDF $f(x)$ gives the **density** of probability at $x$. It is not a probability itself — $f(x)$
-Can be greater than 1. The CDF $F(x)$ gives the **accumulated** probability up to $x$And always
+Can be greater than 1. The CDF $F(x)$ gives the **accumulated** probability up to $x$ And always
 Satisfies $0 \leq F(x) \leq 1$.
 
 Common error: writing $P(X = a) = f(a)$ for a continuous RV. This is wrong — $P(X = a) = 0$ always.
@@ -668,7 +668,7 @@ Essentially zero and wrong.
 ## 10. Problem Set
 
 <details>
-<summary>Q1. $X \sim \mathrm{Exp}(\lambda)$. Find the value of $\lambda$ such that $P(X > 2) = 0.3$And hence find $E(X)$ and the 80th percentile.</summary>
+<summary>Q1. $X \sim \mathrm{Exp}(\lambda)$. Find the value of $\lambda$ such that $P(X > 2) = 0.3$ And hence find $E(X)$ and the 80th percentile.</summary>
 
 $P(X > 2) = e^{-2\lambda} = 0.3 \implies -2\lambda = \ln(0.3) \implies \lambda = \dfrac{-\ln(0.3)}{2} = \dfrac{1.204}{2} = 0.602$.
 
@@ -680,7 +680,7 @@ $F(x) = 0.8 \implies 1 - e^{-0.602x} = 0.8 \implies e^{-0.602x} = 0.2 \implies x
 </details>
 
 <details>
-<summary>Q2. A continuous random variable $X$ has PDF $f(x) = kx(4-x)$ for $0 \leq x \leq 4$. Find $k$, $E(X)$, $\mathrm{Var}(X)$And the median.</summary>
+<summary>Q2. A continuous random variable $X$ has PDF $f(x) = kx(4-x)$ for $0 \leq x \leq 4$. Find $k$, $E(X)$, $\mathrm{Var}(X)$ And the median.</summary>
 
 $\int_0^4 kx(4-x)\,dx = k\int_0^4 (4x - x^2)\,dx = k\left[2x^2 - \dfrac{x^3}{3}\right]_0^4 = k(32 - 64/3) = k(32/3) = 1 \implies k = 3/32$.
 
@@ -797,7 +797,7 @@ $P(T > 100) = e^{-0.005 \times 100} = e^{-0.5} = \boxed{0.607}$ (3 s.f.).
 **Solution.**
 $P(X > 6 \mid X > 3) = \dfrac{P(X > 6)}{P(X > 3)} = \dfrac{0.4}{0.7} = \dfrac{4}{7} \approx \boxed{0.571}$.
 
-Alternatively: conditional on $X > 3$The distribution is $\mathrm{U}(3, 10)$So
+Alternatively: conditional on $X > 3$The distribution is $\mathrm{U}(3, 10)$ So
 $P(X > 6 \mid X > 3) = \dfrac{10-6}{10-3} = \dfrac{4}{7}$.
 
 ### Example 8.3: Sum of independent exponential random variables
@@ -857,7 +857,7 @@ So $Y \sim \mathrm{U}(0,1)$.
 $f(x) = \begin{cases}2x & 0 \leq x \leq 1 \\ 2(2-x) & 1 < x \leq 2\end{cases}$. Find the mode,
 Median, mean, and variance.
 
-**Solution.** **Mode:** The PDF peaks at $x = 1$So mode $= \boxed{1}$.
+**Solution.** **Mode:** The PDF peaks at $x = 1$ So mode $= \boxed{1}$.
 
 **Median:** For $m \leq 1$: $\displaystyle\int_0^m 2x\,dx = m^2$. Set
 $m^2 = 0.5 \implies m = \dfrac{1}{\sqrt{2}} \approx 0.707$.
@@ -886,7 +886,7 @@ $\mathrm{Var}(X) = \dfrac{7}{3} - 4 = -\dfrac{5}{3}$. This still cannot be right
 $E(X) = 1$ (not 2) since the distribution is on $[0,2]$ with peak at 1.
 
 Let me redo: $E(X) = \dfrac{2}{3} + \dfrac{4}{3} = 2$. But the distribution is symmetric about
-$x=1$So $E(X)$ should be $1$.
+$x=1$ So $E(X)$ should be $1$.
 
 Rechecking the second integral: $\int_1^2 2(2-x)x\,dx$. At $x=1$: $2(1)(1) = 2$. At $x=2$: $0$. This
 Integral should give $2/3$ by symmetry.
@@ -951,7 +951,7 @@ $P(T > 0.75) = e^{-4 \times 0.75} = e^{-3} \approx \boxed{0.0498}$.
 ### Question 9
 
 $X$ is a continuous random variable with PDF $f(x) = \dfrac{3}{4}(2x - x^2)$ for $0 \leq x \leq 2$.
-Find $E(X)$, $\mathrm{Var}(X)$And the median.
+Find $E(X)$, $\mathrm{Var}(X)$ And the median.
 
 <details>
 <summary>Solution</summary>
@@ -1161,7 +1161,7 @@ $\mathrm{Var}(X) = \dfrac{2}{\lambda^2} - \dfrac{1}{\lambda^2} = \boxed{\dfrac{1
 
 ### Question 14
 
-**Prove that** if $X \sim \mathrm{U}(0,1)$Then $Y = -\dfrac{1}{\lambda}\ln X$ follows
+**Prove that** if $X \sim \mathrm{U}(0,1)$ Then $Y = -\dfrac{1}{\lambda}\ln X$ follows
 $\mathrm{Exp}(\lambda)$.
 
 <details>

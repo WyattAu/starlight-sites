@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Relational Theory
-description: "The relational model provides a mathematically rigorous foundation for data management."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"databases\", \"url\": \"https://databases.wyattau.com\"}, {\"name\": \"01 Relational"
 tags:
   - Databases
 categories:
@@ -310,15 +310,15 @@ For a relation `Student(student_id, name, email, major, advisor_id, advisor_name
 Armstrong's axioms are a sound and complete set of inference rules for deriving all valid functional
 Dependencies from a given set:
 
-1. **Reflexivity:** If $Y \subseteq X$Then $X \rightarrow Y$
-2. **Augmentation:** If $X \rightarrow Y$Then $XZ \rightarrow YZ$ for any $Z$
-3. **Transitivity:** If $X \rightarrow Y$ and $Y \rightarrow Z$Then $X \rightarrow Z$
+1. **Reflexivity:** If $Y \subseteq X$ Then $X \rightarrow Y$
+2. **Augmentation:** If $X \rightarrow Y$ Then $XZ \rightarrow YZ$ for any $Z$
+3. **Transitivity:** If $X \rightarrow Y$ and $Y \rightarrow Z$ Then $X \rightarrow Z$
 
 Derived rules (provable from the three axioms above):
 
-1. **Union:** If $X \rightarrow Y$ and $X \rightarrow Z$Then $X \rightarrow YZ$
-2. **Decomposition:** If $X \rightarrow YZ$Then $X \rightarrow Y$ and $X \rightarrow Z$
-3. **Pseudotransitivity:** If $X \rightarrow Y$ and $YW \rightarrow Z$Then $XW \rightarrow Z$
+1. **Union:** If $X \rightarrow Y$ and $X \rightarrow Z$ Then $X \rightarrow YZ$
+2. **Decomposition:** If $X \rightarrow YZ$ Then $X \rightarrow Y$ and $X \rightarrow Z$
+3. **Pseudotransitivity:** If $X \rightarrow Y$ and $YW \rightarrow Z$ Then $XW \rightarrow Z$
 
 ### Attribute Closure
 

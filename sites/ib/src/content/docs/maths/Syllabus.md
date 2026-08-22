@@ -348,7 +348,7 @@ $x = 2$.
 - **Quotient rule:** $u = x^2 + 1$$v = x - 1$. Then $u' = 2x$$v' = 1$.
 - $\dfrac{dy}{dx} = \dfrac{2x(x - 1) - (x^2 + 1)}{(x - 1)^2} = \dfrac{2x^2 - 2x - x^2 - 1}{(x - 1)^2} = \dfrac{x^2 - 2x - 1}{(x - 1)^2}$
 - At $x = 2$: $\dfrac{dy}{dx} = \dfrac{4 - 4 - 1}{1} = -1$
-- **Point:** $y(2) = (4 + 1)/(2 - 1) = 5$So the point is $(2, 5)$.
+- **Point:** $y(2) = (4 + 1)/(2 - 1) = 5$ So the point is $(2, 5)$.
 - **Normal gradient:** $m_{\mathrm{normal}} = 1$ (negative reciprocal of $-1$).
 - **Normal equation:** $y - 5 = 1(x - 2) \implies y = x + 3$
 

@@ -69,12 +69,12 @@ Setting $AX = XA$:
 - $(1,1)$: $a + 2c = a \implies c = 0$
 - $(2,1)$: $-c = c \implies c = 0$ (consistent)
 - $(1,2)$: $b + 2d = 2a + b \implies 2d = 2a \implies d = a$
-- $(2,2)$: $-d = 2c + d \implies -d = d \implies d = 0$And therefore $a = 0$.
+- $(2,2)$: $-d = 2c + d \implies -d = d \implies d = 0$ And therefore $a = 0$.
 
 So $X = \begin{pmatrix} 0 & b \\ 0 & 0 \end{pmatrix}$ for any $b \in \mathbb{R}$.
 
 **(c)** The student"s error is a logical fallacy: the fact that $B$ does not commute with $A$ does
-not imply that _no_ matrix commutes with $A$. The identity matrix $I$The zero matrix $O$And all
+not imply that _no_ matrix commutes with $A$. The identity matrix $I$The zero matrix $O$ And all
 scalar multiples of $I$ commute with every matrix. Part (b) shows that there is in fact a
 one-parameter family of matrices commuting with $A$.
 

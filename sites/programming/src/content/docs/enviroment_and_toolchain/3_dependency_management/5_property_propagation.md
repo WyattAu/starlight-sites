@@ -1,7 +1,7 @@
 ---
 
 title: Property Propagation
-description: "Understanding property propagation in C++ build systems."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\":"
 date: 2025-12-11T05:21:57.536Z
 tags:
   - cpp

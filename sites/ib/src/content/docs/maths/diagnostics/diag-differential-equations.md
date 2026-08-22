@@ -86,13 +86,13 @@ Solve $\dfrac{dy}{dx} = 2y + e^{3x}$ with $y(0) = 1$.
 **(a)** Find the general solution using an integrating factor.
 
 **(b)** A student rewrites the equation as $\dfrac{dy}{dx} - 2y = e^{3x}$Computes the integrating
-factor as $\mu = e^{-2x}$And gets the wrong answer. Identify the error in their working:
+factor as $\mu = e^{-2x}$ And gets the wrong answer. Identify the error in their working:
 
 Their working: $\dfrac{d}{dx}(ye^{-2x}) = e^{3x} \cdot e^{-2x} = e^x$.
 
 So $ye^{-2x} = e^x + C \implies y = e^{3x} + Ce^{2x}$.
 
-With $y(0) = 1$: $1 = 1 + C \implies C = 0$So $y = e^{3x}$.
+With $y(0) = 1$: $1 = 1 + C \implies C = 0$ So $y = e^{3x}$.
 
 Verify: $\dfrac{dy}{dx} = 3e^{3x}$ and $2y + e^{3x} = 2e^{3x} + e^{3x} = 3e^{3x}$. Confirmed.
 

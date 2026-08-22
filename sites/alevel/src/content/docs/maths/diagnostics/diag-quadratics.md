@@ -109,14 +109,14 @@ So for positive roots, we need $1 - 2\sqrt{3}/3 \leq p < 0$ (approximately $-0.1
 **(a)** Solve the equation $x^{2/3} - x^{1/3} - 6 = 0$Giving all real solutions.
 
 **(b)** The curve $C$ has equation $y = 2\sqrt{x+1} - x - 1$. Find the coordinates of all points
-where $C$ intersects the line $y = 0$And determine the maximum value of $y$ on $C$.
+where $C$ intersects the line $y = 0$ And determine the maximum value of $y$ on $C$.
 
 [Difficulty: hard. Tests recognition of hidden quadratic structure and the domain constraints that
 students commonly miss.]
 
 **Solution:**
 
-**(a)** Let $u = x^{1/3}$. Then $u^2 = x^{2/3}$And the equation becomes:
+**(a)** Let $u = x^{1/3}$. Then $u^2 = x^{2/3}$ And the equation becomes:
 
 $$u^2 - u - 6 = 0$$ $$(u-3)(u+2) = 0$$ $$u = 3 \quad \text{or} \quad u = -2$$
 
@@ -131,7 +131,7 @@ Both solutions are valid.
 
 $$2\sqrt{x+1} - x - 1 = 0$$ $$2\sqrt{x+1} = x + 1$$
 
-Let $u = \sqrt{x+1}$. The domain requires $x + 1 \geq 0$So $x \geq -1$Meaning $u \geq 0$.
+Let $u = \sqrt{x+1}$. The domain requires $x + 1 \geq 0$ So $x \geq -1$Meaning $u \geq 0$.
 
 $$2u = u^2$$ $$u^2 - 2u = 0$$ $$u(u-2) = 0$$
 
@@ -216,7 +216,7 @@ $$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} +
 
 **Question:**
 
-A quadratic function $f$ satisfies $f(x+2) - f(x) = 4x + 6$ for all real $x$And $f(0) = 3$.
+A quadratic function $f$ satisfies $f(x+2) - f(x) = 4x + 6$ for all real $x$ And $f(0) = 3$.
 
 **(a)** Find the expression for $f(x)$.
 
@@ -235,7 +235,7 @@ $$f(x+2) = a(x+2)^2 + b(x+2) + c = ax^2 + 4ax + 4a + bx + 2b + c$$
 
 $$f(x+2) - f(x) = 4ax + 4a + 2b$$
 
-We are given $f(x+2) - f(x) = 4x + 6$So:
+We are given $f(x+2) - f(x) = 4x + 6$ So:
 
 $$4ax + 4a + 2b = 4x + 6$$
 
@@ -369,10 +369,10 @@ $(-2+(-2))/2 = -2$ in $y$.
 
 Actually, the four points form a symmetric arrangement. The perpendicular bisector of $(0,1)$ and
 $(4,1)$ is $x = 2$. The perpendicular bisector of $(1,-2)$ and $(3,-2)$ is $x = 2$. The
-perpendicular bisector of $(0,1)$ and $(1,-2)$ has midpoint $(1/2, -1/2)$ and slope $3$So the
+perpendicular bisector of $(0,1)$ and $(1,-2)$ has midpoint $(1/2, -1/2)$ and slope $3$ So the
 perpendicular has slope $-1/3$: $y + 1/2 = -1/3(x - 1/2)$.
 
-At $x = 2$: $y + 1/2 = -1/3 \cdot 3/2 = -1/2$So $y = -1$. Centre is $(2, -1)$.
+At $x = 2$: $y + 1/2 = -1/3 \cdot 3/2 = -1/2$ So $y = -1$. Centre is $(2, -1)$.
 
 Radius: distance from $(2,-1)$ to $(0,1) = \sqrt{4+4} = 2\sqrt{2}$.
 
@@ -464,7 +464,7 @@ analysis.]
 
 **(a)** Let $x$ be the length perpendicular to the wall and $y$ be the length parallel to the wall.
 
-Fencing used: $2x + y = 60$So $y = 60 - 2x$.
+Fencing used: $2x + y = 60$ So $y = 60 - 2x$.
 
 $$A = xy = x(60 - 2x) = 60x - 2x^2$$
 

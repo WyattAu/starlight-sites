@@ -443,7 +443,7 @@ closer together and shortening the sarcomere. The filaments themselves do not ch
 5. **ATP binding and cross-bridge detachment**: a new ATP molecule binds to the myosin head, causing
    it to detach from actin.
 
-6. **ATP hydrolysis and re-cocking**: ATP is hydrolysed to ADP + $P_i$And the energy released
+6. **ATP hydrolysis and re-cocking**: ATP is hydrolysed to ADP + $P_i$ And the energy released
    re-cocks the myosin head to its high-energy position, ready for another cycle.
 
 This cycle continues as long as $\mathrm{Ca^{2+}}$ and ATP are available. One power stroke moves the
@@ -1329,7 +1329,7 @@ per second, or one every 10 ms), the EPSPs overlap and summate because each EPSP
 at the postsynaptic membrane.
 
 **Worked Example.** A single EPSP depolarises the postsynaptic membrane by $5\ \mathrm{mV}$. The
-threshold for an action potential is $-55\ \mathrm{mV}$And the resting potential is
+threshold for an action potential is $-55\ \mathrm{mV}$ And the resting potential is
 $-70\ \mathrm{mV}$. The membrane needs to be depolarised by $15\ \mathrm{mV}$ to reach threshold.
 
 - Temporal summation: at least 3 rapid EPSPs from a single presynaptic neuron

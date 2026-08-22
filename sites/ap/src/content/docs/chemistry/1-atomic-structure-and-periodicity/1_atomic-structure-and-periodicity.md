@@ -127,7 +127,7 @@ Each electron also has $m_s = \pm\frac{1}{2}$.
 
 The Pauli exclusion principle limits how many electrons can share the same quantum numbers: no two
 Electrons in an atom can have the same set of four quantum numbers. Since an orbital is defined by
-$n$, $\ell$And $m_\ell$It can hold at most two electrons (differing in $m_s$).
+$n$, $\ell$ And $m_\ell$It can hold at most two electrons (differing in $m_s$).
 
 ### Example: Valid vs. Invalid Quantum Number Sets
 
@@ -140,7 +140,7 @@ For $n = 2$:
 
 **Worked Example.** List all possible sets of quantum numbers for the electrons in a 2p subshell.
 
-For $n = 2$$\ell = 1$$m_\ell = -1, 0, +1$And $m_s = \pm\frac{1}{2}$:
+For $n = 2$$\ell = 1$$m_\ell = -1, 0, +1$ And $m_s = \pm\frac{1}{2}$:
 
 $(2, 1, -1, +1/2)$$(2, 1, -1, -1/2)$$(2, 1, 0, +1/2)$$(2, 1, 0, -1/2)$$(2, 1, 1, +1/2)$
 $(2, 1, 1, -1/2)$.
@@ -552,7 +552,7 @@ Transition metals can lose different numbers of electrons, giving multiple oxida
 
 ### Worked Example: Transition Metal Ion Configurations
 
-Write the electron configurations for Fe, $\mathrm{Fe^{2+}$And $\mathrm{Fe^{3+}$. Explain why
+Write the electron configurations for Fe, $\mathrm{Fe^{2+}$ And $\mathrm{Fe^{3+}$. Explain why
 $\mathrm{Fe^{3+}$ is particularly stable.
 
 Fe: $[\mathrm{Ar]\,4s^2 3d^6$.
@@ -606,7 +606,7 @@ The increase in $Z_{\mathrm{eff}$.
    angular momentum quantum number (subshell shape).
 2. **Writing $4s$ before $3d$ in configurations for transition metal cations.** When forming
    cations, remove $4s$ electrons first (even though $4s$ fills before $3d$).
-3. **Incorrect quantum numbers.** The valid range of $\ell$ is $0$ to $n-1$And $m_\ell$ ranges from
+3. **Incorrect quantum numbers.** The valid range of $\ell$ is $0$ to $n-1$ And $m_\ell$ ranges from
    $-\ell$ to $+\ell$.
 4. **Confounding atomic radius with ionic radius.** Cations are smaller than their parent atoms;
    anions are larger.

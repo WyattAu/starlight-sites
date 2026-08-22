@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Newton's Laws of Motion"
-description: "CBSE Class 12 Physics: Newton's three laws of motion with worked examples and practice problems."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,6 +1,6 @@
 ---
 title: "Computer Science Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of computer science terms covering algorithms, data structures, theory, databases, and networks."
+description: "Abstract Data Type (ADT): A theoretical model of a data type defined by its behavior (operations and semantics) without implementation details. Examples:"
 date: 2026-07-24
 tags: [glossary]
 ---

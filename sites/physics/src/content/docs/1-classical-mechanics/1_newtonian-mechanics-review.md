@@ -170,7 +170,7 @@ to $\mathbf{r}_i - \mathbf{r}_j$), the internal torques cancel in pairs. Hence:
 
 $$\dot{\mathbf{L}} = \boldsymbol{\tau}^{(\mathrm{ext})}$$
 
-If $\boldsymbol{\tau}^{(\mathrm{ext})} = \mathbf{0}$Then $\mathbf{L} = \mathrm{const}$.
+If $\boldsymbol{\tau}^{(\mathrm{ext})} = \mathbf{0}$ Then $\mathbf{L} = \mathrm{const}$.
 $\blacksquare$
 
 ### 1.8 The Rocket Equation

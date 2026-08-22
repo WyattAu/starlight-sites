@@ -73,7 +73,7 @@ $$F = P = 20 \text{ N}$$
 The frictional force acts in the direction opposite to $P$ (i.e., opposing the tendency to move).
 
 **(c)** The student writes $F = 31.36$ N, but the actual friction is only $20$ N. The student has
-assumed the block is on the point of sliding, but $P = 20 \text{ N} \lt 31.36 \text{ N}$So the block
+assumed the block is on the point of sliding, but $P = 20 \text{ N} \lt 31.36 \text{ N}$ So the block
 is not even close to sliding. The friction adjusts to match the applied force.
 
 $$\text{Percentage overestimate} = \frac{31.36 - 20}{20} \times 100\% = 56.8\%$$
@@ -121,7 +121,7 @@ acceleration and the tension in the string.
 **(b)** If the system does move, find the speed of $B$ when it has descended $1.5$ m.
 
 **(c)** A student assumes $A$ moves up the plane and writes the equation
-$T - 5g\sin 30° - \mu(5g\cos 30°) = 5a$. Show that this assumption leads to $a \lt 0$And explain
+$T - 5g\sin 30° - \mu(5g\cos 30°) = 5a$. Show that this assumption leads to $a \lt 0$ And explain
 what this means physically.
 
 [Difficulty: hard. Tests the full connected-particle-on-inclined-plane problem including the initial
@@ -293,7 +293,7 @@ at rest at the origin.
 
 **(c)** Find the total distance travelled from $t = 0$ to $t = 4$.
 
-**(d)** Find the work done by the force from $t = 0$ to $t = 4$And verify that it equals the change
+**(d)** Find the work done by the force from $t = 0$ to $t = 4$ And verify that it equals the change
 in kinetic energy.
 
 [Difficulty: hard. Combines variable force with integration for velocity, identification of turning
@@ -301,7 +301,7 @@ points, distance calculation, and verification of the work-energy theorem.]
 
 **Solution:**
 
-**(a)** By Newton's Second Law: $F = ma$So $a = \frac{F}{m} = \frac{3t^2 - 12t + 9}{2}$.
+**(a)** By Newton's Second Law: $F = ma$ So $a = \frac{F}{m} = \frac{3t^2 - 12t + 9}{2}$.
 
 $$v = \int a\,dt = \int \frac{3t^2 - 12t + 9}{2}\,dt = \frac{t^3}{2} - 3t^2 + \frac{9t}{2} + C$$
 
@@ -312,7 +312,7 @@ $$v = \frac{t^3}{2} - 3t^2 + \frac{9t}{2} = \frac{t}{2}(t^2 - 6t + 9) = \frac{t}
 **(b)** $v = 0 \implies \frac{t}{2}(t-3)^2 = 0 \implies t = 0$ or $t = 3$.
 
 The particle is at rest at $t = 0$ and $t = 3$ s. For $0 \lt t \lt 3$: $v \gt 0$ (the particle moves
-in the positive direction). For $t \gt 3$: $(t-3)^2 \gt 0$ and $t \gt 0$So $v \gt 0$. The particle
+in the positive direction). For $t \gt 3$: $(t-3)^2 \gt 0$ and $t \gt 0$ So $v \gt 0$. The particle
 never reverses direction.
 
 **(c)** Since the particle never reverses direction, the total distance equals the magnitude of the

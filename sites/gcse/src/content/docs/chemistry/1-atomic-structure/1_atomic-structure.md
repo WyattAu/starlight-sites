@@ -1,7 +1,7 @@
 ---
 
 title: Atomic Structure
-description: "Atoms are the smallest particles of an element that can take part in chemical reactions."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gcse\", \"url\": \"https://gcse.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 date: 2026-04-14
 tags:
   - gcse
@@ -193,8 +193,8 @@ $$\mathrm{Activity = 800 \times \frac{1}{2^3} = 800 \times \frac{1}{8} = 100 \ma
 **Worked Example.** A radioactive sample starts at 40 g. After 90 minutes, 5 g remain. Calculate the
 Half-life.
 
-After $n$ half-lives: $40 \times \frac{1}{2^n} = 5$So
-$\frac{1}{2^n} = \frac{5}{40} = \frac{1}{8}$Which gives $2^n = 8$So $n = 3$. The half-life is
+After $n$ half-lives: $40 \times \frac{1}{2^n} = 5$ So
+$\frac{1}{2^n} = \frac{5}{40} = \frac{1}{8}$Which gives $2^n = 8$ So $n = 3$. The half-life is
 $t_{1/2} = \frac{90}{3} = 30$ minutes.
 
 ### 2.5 Derivation: The Half-Life Formula

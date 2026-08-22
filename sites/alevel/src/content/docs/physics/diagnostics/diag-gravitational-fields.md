@@ -223,12 +223,12 @@ $$r = \sqrt[3]{7.488 \times 10^{22}} = 4.216 \times 10^7\,\text{m}$$
 
 $$E = -\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 1000}{2 \times 4.216 \times 10^7} = -\frac{3.982 \times 10^{17}}{8.432 \times 10^7} = -4.723 \times 10^9\,\text{J}$$
 
-(c) For circular orbits: $v = \sqrt{GM/r}$So $v \propto r^{-1/2}$.
+(c) For circular orbits: $v = \sqrt{GM/r}$ So $v \propto r^{-1/2}$.
 
 Ratio of speeds:
 $\frac{v_{\text{inner}}}{v_{\text{geo}}} = \sqrt{\frac{r_{\text{geo}}}{r_{\text{inner}}}} = \sqrt{\frac{r}{r/2}} = \sqrt{2}$
 
-Total energy per unit mass: $E/m = -\frac{GM}{2r}$So $E/m \propto r^{-1}$.
+Total energy per unit mass: $E/m = -\frac{GM}{2r}$ So $E/m \propto r^{-1}$.
 
 Ratio:
 $\frac{E_{\text{inner}}/m_{\text{inner}}}{E_{\text{geo}}/m_{\text{geo}}} = \frac{r_{\text{geo}}}{r_{\text{inner}}} = \frac{r}{r/2} = 2$

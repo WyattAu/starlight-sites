@@ -1,6 +1,6 @@
 ---
 title: Written Test
-description: "Study notes and resources for Written Test"
+description: "This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling"
 date: 2026-01-01T00:00:00Z
 ---
 

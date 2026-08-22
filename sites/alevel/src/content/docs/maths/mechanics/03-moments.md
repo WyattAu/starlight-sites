@@ -100,7 +100,7 @@ Of weight $P$ is on the bridge at distance $a$ from the left pier, the reaction 
 Are found by taking moments about each pier in turn.
 
 Taking moments about the left pier:
-$R_{\mathrm{right}} \times L = W \times \dfrac{L}{2} + P \times a$So
+$R_{\mathrm{right}} \times L = W \times \dfrac{L}{2} + P \times a$ So
 $R_{\mathrm{right}} = \dfrac{W}{2} + \dfrac{Pa}{L}$.
 
 By symmetry (vertical equilibrium):
@@ -134,7 +134,7 @@ These three conditions are both necessary and sufficient for equilibrium.
 **Definition.** A **couple** is a pair of equal and opposite forces whose lines of action do not
 Coincide. A couple produces a **turning effect** (rotation) without any translational effect.
 
-Since the forces are equal and opposite, $\sum \mathbf{F} = \mathbf{0}$So there is no net force And
+Since the forces are equal and opposite, $\sum \mathbf{F} = \mathbf{0}$ So there is no net force And
 no acceleration of the centre of mass. However, the net moment (torque) is non-zero.
 
 ### 3.1.2 Moment of a couple
@@ -233,7 +233,7 @@ $\alpha L$ from the base), the moment equation becomes:
 
 $$R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta + P \times \alpha L\cos\theta$$
 
-This gives $R_w = \left(\dfrac{W}{2} + P\alpha\right)\cot\theta$And the required friction Increases
+This gives $R_w = \left(\dfrac{W}{2} + P\alpha\right)\cot\theta$ And the required friction Increases
 accordingly. The higher the person climbs (larger $\alpha$), the more friction is needed — Climb too
 high and the ladder slips.
 
@@ -355,7 +355,7 @@ Re-examine.
 Let us use the **subtraction method** for clarity. Place $A$ at $(0,0)$$B$ at $(6,0)$$C$ at
 $(6,4)$$D$ at $(0,4)$. The triangle $BCE$ has $E$ above the line $BC$.
 
-Midpoint of $BC$ is $(6, 2)$. The triangle extends $2\sqrt{3}$ upward from $BC$So $E$ is at
+Midpoint of $BC$ is $(6, 2)$. The triangle extends $2\sqrt{3}$ upward from $BC$ So $E$ is at
 $(6, 4 + 2\sqrt{3})$.
 
 Triangle centroid:
@@ -469,7 +469,7 @@ $T = \dfrac{12(9.8)(1.5)}{3\cos 30°} = \dfrac{176.4}{2.598} \approx 67.9\,\math
 
 <details>
 <summary>Problem 3</summary>
-Find the centre of mass of three particles of masses $2\,\mathrm{kg}$$3\,\mathrm{kg}$And $5\,\mathrm{kg}$ placed at $(0,0)$$(4,0)$And $(2,3)$ respectively.
+Find the centre of mass of three particles of masses $2\,\mathrm{kg}$$3\,\mathrm{kg}$ And $5\,\mathrm{kg}$ placed at $(0,0)$$(4,0)$ And $(2,3)$ respectively.
 </details>
 
 <details>
@@ -547,7 +547,7 @@ $F = R_w = 46.6\,\mathrm{N}$. $\mu_{\min} = F/R_g = 46.6/200 = 0.233$.
 
 <details>
 <summary>Problem 7</summary>
-Find the centre of mass of a uniform lamina in the shape of a triangle with vertices at $(0,0)$$(6,0)$And $(0,4)$.
+Find the centre of mass of a uniform lamina in the shape of a triangle with vertices at $(0,0)$$(6,0)$ And $(0,4)$.
 </details>
 
 <details>
@@ -586,7 +586,7 @@ $\arctan(71.13/50) \approx 54.9^\circ$ below horizontal.
 
 <details>
 <summary>Problem 9</summary>
-A uniform lamina is made from a rectangle $ABCD$ with $AB = 8\,\mathrm{cm}$$AD = 6\,\mathrm{cm}$And a square of side $3\,\mathrm{cm}$ removed from corner $C$. Find the centre of mass of the remaining lamina.
+A uniform lamina is made from a rectangle $ABCD$ with $AB = 8\,\mathrm{cm}$$AD = 6\,\mathrm{cm}$ And a square of side $3\,\mathrm{cm}$ removed from corner $C$. Find the centre of mass of the remaining lamina.
 </details>
 
 <details>
@@ -595,7 +595,7 @@ Place $A$ at the origin, $AB$ along the $x$-axis, $AD$ along the $y$-axis.
 
 Rectangle: area $= 48$Centre at $(4, 3)$.
 
-Removed square: corner at $C(8,6)$So the square occupies $x \in [5, 8]$$y \in [3, 6]$. Area
+Removed square: corner at $C(8,6)$ So the square occupies $x \in [5, 8]$$y \in [3, 6]$. Area
 $= 9$Centre at $(6.5, 4.5)$.
 
 Using the subtraction method:
@@ -630,7 +630,7 @@ $R_w \times 6\sin 55° = 150 \times 3\cos 55° + 800 \times 4\cos 55^\circ$.
 
 $R_w = \dfrac{(450 + 3200)\cos 55°}{6\sin 55°} = \dfrac{3650\cos 55°}{6\sin 55°} = \dfrac{3650}{6}\cot 55^\circ$.
 
-$\cot 55° \approx 0.7002$So
+$\cot 55° \approx 0.7002$ So
 $R_w = \dfrac{3650 \times 0.7002}{6} \approx 426.0\,\mathrm{N}$.
 
 $\mu_{\min} = F/R_g = R_w/R_g = 426.0/950 = 0.448$.
@@ -761,7 +761,7 @@ A uniform rod $AB$ of length $4\,\mathrm{m}$ and weight $120\,\mathrm{N}$ is hin
 <summary>Solution 15</summary>
 The strut $BC$ is a rod under compression (thrust). Let the thrust be $T$ along $BC$.
 
-First, find the geometry. $AC = 3\,\mathrm{m}$$AB = 4\,\mathrm{m}$So
+First, find the geometry. $AC = 3\,\mathrm{m}$$AB = 4\,\mathrm{m}$ So
 $BC = \sqrt{3^2 + 4^2} = 5\,\mathrm{m}$.
 
 The angle between $BC$ and the horizontal is $\alpha$ where $\sin\alpha = 3/5$ and

@@ -331,7 +331,7 @@ marks]
 (b) Explain why the double circulatory system in mammals is more efficient than the single
 circulatory system found in fish. [3 marks]
 
-(c) A person has a resting heart rate of 75 beats per minute, a stroke volume of 70 cm$^{3}$And a
+(c) A person has a resting heart rate of 75 beats per minute, a stroke volume of 70 cm$^{3}$ And a
 blood pressure of 120/80 mmHg. Calculate the cardiac output. If the person begins vigorous exercise
 and the cardiac output increases to 15 dm$^{3}$/min while the stroke volume increases to 120
 cm$^{3}$Calculate the new heart rate. [3 marks]

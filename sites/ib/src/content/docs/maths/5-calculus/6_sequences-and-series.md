@@ -181,7 +181,7 @@ $$\sum_{k=m}^{n}(a_k + b_k) = \sum_{k=m}^{n} a_k + \sum_{k=m}^{n} b_k$$
 
 ### The $n$-th Term Test (Divergence Test)
 
-If $\displaystyle\lim_{n \to \infty} a_n \ne 0$Then $\displaystyle\sum a_n$ diverges.
+If $\displaystyle\lim_{n \to \infty} a_n \ne 0$ Then $\displaystyle\sum a_n$ diverges.
 
 **Caution.** If $\lim_{n \to \infty} a_n = 0$The series **may or may not** converge. The harmonic
 series $\sum \dfrac{1}{n}$ diverges despite its terms tending to zero.
@@ -211,7 +211,7 @@ The series converges.
 
 ### Integral Test
 
-If $f$ is continuous, positive, and decreasing on $[1, \infty)$Then $\sum f(n)$ converges if and
+If $f$ is continuous, positive, and decreasing on $[1, \infty)$ Then $\sum f(n)$ converges if and
 Only if $\displaystyle\int_1^{\infty} f(x)\,dx$ converges.
 
 **Example.** The harmonic series diverges because:
@@ -491,7 +491,7 @@ Since $L \gt 1$The series diverges by the ratio test.
 
 **Worked Example: Maclaurin Series of a Composite Function**
 
-Find the Maclaurin series of $f(x) = e^{-x^2}$ up to the term in $x^6$And use it to approximate
+Find the Maclaurin series of $f(x) = e^{-x^2}$ up to the term in $x^6$ And use it to approximate
 $\displaystyle\int_0^{0.5} e^{-x^2}\,dx$.
 
 <details>

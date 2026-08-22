@@ -61,7 +61,7 @@ Shut-down price $= \pounds 20$.
 
 (d) Minimum AC: $\text{AC} = \frac{200 + 20Q + 2Q^2}{Q} = \frac{200}{Q} + 20 + 2Q$.
 
-$\frac{d(\text{AC})}{dQ} = -\frac{200}{Q^2} + 2 = 0$So $Q^2 = 100$$Q = 10$.
+$\frac{d(\text{AC})}{dQ} = -\frac{200}{Q^2} + 2 = 0$ So $Q^2 = 100$$Q = 10$.
 
 $\text{AC}_{\min} = \frac{200}{10} + 20 + 20 = 20 + 20 + 20 = \pounds 40$.
 
@@ -188,7 +188,7 @@ endpoint), cooperative outcomes can be sustained through trigger strategies:
 
 If the discount factor (weight placed on future payoffs) is sufficiently high, the present value of
 future cooperation exceeds the one-time gain from defecting. For the grim trigger: the gain from
-defecting once is $12 - 8 = 4$But the future loss is $8 - 5 = 3$ per period forever. The firm will
+defecting once is $12 - 8 = 4$ But the future loss is $8 - 5 = 3$ per period forever. The firm will
 cooperate if $3/(1 - \delta) \gt 4$I.e., $\delta \gt 1/4$. Since most firms value future profits,
 repeated interaction sustains cooperative pricing (as observed in real-world oligopolies where
 prices remain stable for long periods).
@@ -315,7 +315,7 @@ $P = 160 - (Q_H + Q_F)$.
 
 Firm H's profit: $\pi_H = (160 - Q_H - Q_F)Q_H - 40Q_H = (120 - Q_F)Q_H - Q_H^2$.
 
-$\frac{d\pi_H}{dQ_H} = 120 - Q_F - 2Q_H = 0$So $Q_H = 60 - Q_F/2$. (Best response
+$\frac{d\pi_H}{dQ_H} = 120 - Q_F - 2Q_H = 0$ So $Q_H = 60 - Q_F/2$. (Best response
 function)
 
 By symmetry: $Q_F = 60 - Q_H/2$.

@@ -150,7 +150,7 @@ of energy.
 **Solution:**
 
 (a) Let $I_1$ flow from $\varepsilon_1$ (out of positive terminal), $I_2$ flow from
-$\varepsilon_2$And $I_R$ flow through $R$ (downward). Apply Kirchhoff's current law at the top
+$\varepsilon_2$ And $I_R$ flow through $R$ (downward). Apply Kirchhoff's current law at the top
 junction:
 
 $$I_1 + I_2 = I_R$$

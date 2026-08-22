@@ -901,7 +901,7 @@ sort, (2) performs binary search on the sorted array $n$ times. What is the over
 
 Step 1: Merge sort takes $O(n \log n)$.
 
-Step 2: Each binary search takes $O(\log n)$And it is performed $n$ times:
+Step 2: Each binary search takes $O(\log n)$ And it is performed $n$ times:
 $n \times O(\log n) = O(n \log n)$.
 
 Overall: $O(n \log n) + O(n \log n) = O(n \log n)$.

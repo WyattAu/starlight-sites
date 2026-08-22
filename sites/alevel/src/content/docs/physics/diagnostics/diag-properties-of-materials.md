@@ -70,7 +70,7 @@ $$= \frac{1}{2}\left[50 + 150 + 250 + 195 + 375 + 574 + 1275\right] \times 10^3$
 $$= \frac{1}{2} \times 2869 \times 10^3 = 1.435 \times 10^6\,\text{J}\,\text{m}^{-3}$$
 
 The elastic energy recoverable (if unloaded from $300\,\text{MPa}$) is only
-$2.25 \times 10^5\,\text{J}\,\text{m}^{-3}$So the majority of the energy is dissipated as heat
+$2.25 \times 10^5\,\text{J}\,\text{m}^{-3}$ So the majority of the energy is dissipated as heat
 during plastic deformation.
 
 ---
@@ -199,14 +199,14 @@ energy stored in it.
 
 **Question:**
 
-A steel wire of length $3.0\,\text{m}$Cross-sectional area $2.0 \times 10^{-6}\,\text{m}^2$And
+A steel wire of length $3.0\,\text{m}$Cross-sectional area $2.0 \times 10^{-6}\,\text{m}^2$ And
 Young's modulus $2.0 \times 10^{11}\,\text{Pa}$ is fixed between two rigid supports. The linear
 expansivity of steel is $1.2 \times 10^{-5}\,\text{K}^{-1}$.
 
 (a) The temperature increases by $40\,\text{K}$. Calculate the stress that develops in the wire if
 it is not allowed to expand.
 
-(b) The wire is now allowed to expand freely by $\Delta T = 40\,\text{K}$And then a mass of
+(b) The wire is now allowed to expand freely by $\Delta T = 40\,\text{K}$ And then a mass of
 $50\,\text{kg}$ is hung from it. Calculate the total extension.
 
 (c) Calculate the elastic potential energy stored in the wire in part (b).
@@ -311,7 +311,7 @@ The circumference also increases by $0.10\%$.
 **Question:**
 
 A steel wire of length $10\,\text{m}$Cross-sectional area $1.0 \times 10^{-6}\,\text{m}^2$Young's
-modulus $2.0 \times 10^{11}\,\text{Pa}$And density $7800\,\text{kg}\,\text{m}^{-3}$ hangs vertically
+modulus $2.0 \times 10^{11}\,\text{Pa}$ And density $7800\,\text{kg}\,\text{m}^{-3}$ hangs vertically
 from a fixed support.
 
 (a) Calculate the total extension of the wire under its own weight.

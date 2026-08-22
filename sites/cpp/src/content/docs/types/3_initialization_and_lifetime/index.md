@@ -1,6 +1,6 @@
 ---
 title: 3_initialization_and_lifetime
-description: "Study notes and resources for 3_initialization_and_lifetime"
+description: "This section provides study materials and resources for 3_initialization_and_lifetime. Browse the topics below to find the specific area you need to revise."
 date: 2026-01-01T00:00:00Z
 ---
 

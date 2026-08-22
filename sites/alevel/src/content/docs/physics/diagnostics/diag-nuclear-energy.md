@@ -383,7 +383,7 @@ source. The challenge is achieving the conditions (temperature $\approx 10^8\,\t
 and density) for sustained fusion reactions.
 
 Note: In practice, tritium must be "bred" from lithium using the fusion neutrons, and the achievable
-efficiency is much lower than $100\%$But the resource is still effectively limitless on human
+efficiency is much lower than $100\%$ But the resource is still effectively limitless on human
 timescales.
 
 ## Common Mistakes

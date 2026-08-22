@@ -29,7 +29,7 @@ One type of problems supervised learning targets is classification, a labeling p
 Pattern recognition. This maps a input set of data to be classfied to a output set known as classes,
 this will result in a discrete probability distribution that shows how probable each classes Are to
 be correct when predicting the labels on the input. When there are only $2$ classes they are Denoted
-as $y \in {0,1}, y \in{-1,+1}$And given the name binary classification. An example of Classification
+as $y \in {0,1}, y \in{-1,+1}$ And given the name binary classification. An example of Classification
 would be determining the car model from an image.
 
 ### Design Matrix

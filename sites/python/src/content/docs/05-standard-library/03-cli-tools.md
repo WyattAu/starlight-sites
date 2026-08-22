@@ -1,7 +1,7 @@
 ---
 
 title: CLI Tools
-description: "decision. The standard library Gives you (bare metal) and (batteries-included), while"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"python\", \"url\": \"https://python.wyattau.com\"}, {\"name\": \"05 Standard Library\","
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

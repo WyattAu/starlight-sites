@@ -43,7 +43,7 @@ _Cross-reference:_ Section 1.3, Section 4.5.
 </details>
 
 **Problem 2.** A point charge $q$ is placed at the centre of a dielectric sphere of radius $R$ And
-permittivity $\varepsilon$. Find $\mathbf{D}$, $\mathbf{E}$And $\mathbf{P}$ everywhere. Determine
+permittivity $\varepsilon$. Find $\mathbf{D}$, $\mathbf{E}$ And $\mathbf{P}$ everywhere. Determine
 the bound surface charge density.
 
 <details>
@@ -119,7 +119,7 @@ $b \lt r \lt c$: $\mathbf{E} = \mathbf{0}$ (conductor), so $V = V_b$ (constant).
 
 $V_b = \frac{Q}{4\pi\varepsilon_0}\!\left(\frac{1}{b} - \frac{1}{a}\right) + V_a$.
 
-$r \gt c$: $E \cdot 4\pi r^2 = (Q - Q)/\varepsilon_0 = 0 \implies \mathbf{E} = \mathbf{0}$So $V = 0$
+$r \gt c$: $E \cdot 4\pi r^2 = (Q - Q)/\varepsilon_0 = 0 \implies \mathbf{E} = \mathbf{0}$ So $V = 0$
 (choosing $V(\infty) = 0$).
 
 Since $V_c = 0$ and $V_c = V_b$ (same conductor), $V_b = 0$:
@@ -184,7 +184,7 @@ Apply Green's first identity with $\phi = \psi = U$:
 $$\int_{\mathcal{V}}\lvert\nabla U\rvert^2\,dV = \oint_{\mathcal{S}} U\,\frac{\partial U}{\partial n}\,dA = 0$$
 
 Since the integrand $\lvert\nabla U\rvert^2 \geq 0$We conclude $\nabla U = \mathbf{0}$ In
-$\mathcal{V}$So $U$ is constant throughout $\mathcal{V}$.
+$\mathcal{V}$ So $U$ is constant throughout $\mathcal{V}$.
 
 $V_1 = V_2 + C$ for some constant $C$. The solution is unique up to an additive constant. (The
 constant is physically irrelevant since only potential differences matter.) $\blacksquare$
@@ -289,7 +289,7 @@ $I$ using the Biot-Savart law.
 
 By symmetry, each side contributes equally. Consider one side from $(a/2, -a/2, 0)$ to
 $(a/2, a/2, 0)$. For this side, $d\mathbf{l} = dy\,\hat{\mathbf{y}}$ and
-$\mathbf{r} = (a/2)\hat{\mathbf{x}} - y\hat{\mathbf{y}}$So $r = \sqrt{(a/2)^2 + y^2}$.
+$\mathbf{r} = (a/2)\hat{\mathbf{x}} - y\hat{\mathbf{y}}$ So $r = \sqrt{(a/2)^2 + y^2}$.
 
 $$d\mathbf{B} = \frac{\mu_0 I}{4\pi}\frac{d\mathbf{l} \times \mathbf{r}}{r^3} = \frac{\mu_0 I}{4\pi}\frac{dy\,\hat{\mathbf{y}} \times [(a/2)\hat{\mathbf{x}} - y\hat{\mathbf{y}}]}{r^3}$$
 
@@ -312,7 +312,7 @@ _Cross-reference:_ Section 3.1.
 
 </details>
 
-**Problem 11.** A toroid with $N$ turns, inner radius $a$And outer radius $b$ carries current $I$.
+**Problem 11.** A toroid with $N$ turns, inner radius $a$ And outer radius $b$ carries current $I$.
 Find the magnetic field everywhere.
 
 <details>
@@ -327,7 +327,7 @@ For $a \lt r \lt b$: the Amperian loop encloses all $N$ turns.
 
 $$B \cdot 2\pi r = \mu_0 N I \implies \mathbf{B} = \frac{\mu_0 N I}{2\pi r}\,\hat{\boldsymbol{\phi}}$$
 
-For $r \gt b$: the net enclosed current is $NI - NI = 0$So $\mathbf{B} = \mathbf{0}$.
+For $r \gt b$: the net enclosed current is $NI - NI = 0$ So $\mathbf{B} = \mathbf{0}$.
 
 The field is confined entirely within the toroid, unlike a solenoid where the field extends Beyond
 the ends. $\blacksquare$
@@ -395,7 +395,7 @@ _Cross-reference:_ Section 3.3, Section 3.6.
 
 **Problem 14.** An iron ring of mean radius $R = 10$ cm, cross-sectional area $A = 4\ \mathrm{cm}^2$
 And relative permeability $\mu_r = 500$ has $N = 200$ turns carrying current $I = 2$ A. Find $B$,
-$H$, $M$And the total flux through the ring.
+$H$, $M$ And the total flux through the ring.
 
 <details>
 <summary>Solution</summary>

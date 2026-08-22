@@ -800,7 +800,7 @@ Oxygen:
 
 (a) Plot both curves on the same axes. (b) Explain the physiological advantage of fetal haemoglobin
 Having a higher affinity for oxygen at any given $\mathrm{pO}_2$. (c) Calculate the difference in
-$\mathrm{O}_2$ saturation between normal and fetal Hb at $\mathrm{pO}_2 = 4\;\mathrm{kPa}$And
+$\mathrm{O}_2$ saturation between normal and fetal Hb at $\mathrm{pO}_2 = 4\;\mathrm{kPa}$ And
 Explain the significance of this difference at the placental interface.
 
 </details>
@@ -957,12 +957,12 @@ nephrons.
 - **Descending limb**: permeable to water (aquaporins); impermeable to solutes. Water exits by
   osmosis as the filtrate descends into the increasingly concentrated medulla.
 - **Ascending limb** (thin then thick segment): impermeable to water; actively transports
-  $\mathrm{Na}^+$$\mathrm{K}^+$And $\mathrm{Cl}^-$ out (diluting the filtrate). The **countercurrent
+  $\mathrm{Na}^+$$\mathrm{K}^+$ And $\mathrm{Cl}^-$ out (diluting the filtrate). The **countercurrent
   multiplier** mechanism concentrates the medullary interstitium to $\approx 1200\;\mathrm{mOsm/kg}$
   (four times plasma osmolarity).
 
 1. **Distal convoluted tubule (DCT)**: fine-tunes ion balance. Reabsorbs $\mathrm{Na}^+$
-   $\mathrm{Ca}^{2+}$And $\mathrm{HCO}_3^-$ under the control of aldosterone. Secretes
+   $\mathrm{Ca}^{2+}$ And $\mathrm{HCO}_3^-$ under the control of aldosterone. Secretes
    $\mathrm{K}^+$ and $\mathrm{H}^+$.
 2. **Collecting duct**: permeable to water under the control of ADH. Water exits by osmosis into the
    concentrated medulla, producing concentrated urine.
@@ -1249,7 +1249,7 @@ pressure.
 (a)
 $\text{CO} = \text{HR} \times \text{SV} = 72 \times 70 = 5040\;\mathrm{mL/min} = 5.04\;\mathrm{L/min}$.
 
-(b) $\text{MAP} = \text{CO} \times \text{TPR}$So $\text{TPR} = \text{MAP} / \text{CO}$. Need
+(b) $\text{MAP} = \text{CO} \times \text{TPR}$ So $\text{TPR} = \text{MAP} / \text{CO}$. Need
 consistent units. $\text{CO} = 5040\;\mathrm{mL/min} = 0.084\;\mathrm{L/s}$.
 $\text{TPR} = 93 / 0.084 = 1107\;\mathrm{mmHg \cdot s/L}$ (or $\text{PRU}$Peripheral resistance
 units). Normal TPR $= 1000$--$1200\;\mathrm{PRU}$.
@@ -1294,7 +1294,7 @@ glucose (from the carbohydrate).
 Approximately $2$--$3\;\mathrm{L}$ of gastric juice per meal. The question as stated cannot be
 precisely Answered without additional information (the buffering capacity of the meal, the initial
 pH of the Stomach contents). The key point is that parietal cells secrete $\mathrm{HCl}$ at
-approximately $0.15\;\mathrm{mol/L}$And approximately $2$--$3\;\mathrm{L}$ is produced per meal.
+approximately $0.15\;\mathrm{mol/L}$ And approximately $2$--$3\;\mathrm{L}$ is produced per meal.
 
 (c) Volume of bile $= 20 \times 10 = 200\;\mathrm{mL}$. Note: the liver produces approximately
 $500$--$1000\;\mathrm{mL}$ of bile per day, stored and concentrated In the gallbladder. The
@@ -1642,7 +1642,7 @@ the presence and absence Of ADH.
 - The **thin ascending limb** is impermeable to water but permeable to $\mathrm{Na}^+$ and
   $\mathrm{Cl}^-$ which diffuse passively into the medullary interstitium (countercurrent
   multiplication).
-- The **thick ascending limb** actively transports $\mathrm{Na}^+$, $\mathrm{K}^+$And $\mathrm{Cl}^-$
+- The **thick ascending limb** actively transports $\mathrm{Na}^+$, $\mathrm{K}^+$ And $\mathrm{Cl}^-$
   out of the filtrate via the $\mathrm{Na}^+/2\mathrm{Cl}^-/\mathrm{K}^+$ co-transporter (NKCC2),
   further diluting the filtrate and concentrating the medulla. This segment is impermeable to water.
 - The result is a gradient from approximately $300\;\mathrm{mOsm}$ (cortex) to $1200\;\mathrm{mOsm}$
@@ -1840,7 +1840,7 @@ frequently than aldosterone (half-life $\approx 20\;\mathrm{minutes}$).
 After $6$ hours ($360\;\mathrm{minutes}$): number of half-lives $= 360 / 90 = 4$.
 $C = C_0 \times (0.5)^4 = 20 \times 0.0625 = 1.25\;\mathrm{mg/L}$.
 
-(b) We need $C < 5\;\mathrm{mg/L}$: $20 \times (0.5)^n < 5$. $(0.5)^n < 0.25$So $n > 2$ half-lives.
+(b) We need $C < 5\;\mathrm{mg/L}$: $20 \times (0.5)^n < 5$. $(0.5)^n < 0.25$ So $n > 2$ half-lives.
 Time $= 2 \times 90 = 180\;\mathrm{minutes} = 3\;\mathrm{hours}$.
 
 (c) Aldosterone has a shorter half-life ($20\;\mathrm{min}$) than cortisol ($90\;\mathrm{min}$), So

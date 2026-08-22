@@ -178,7 +178,7 @@ tax per unit of income) exactly equals the marginal loss from a smaller tax base
 $$\frac{dR}{dt} = Y(t) + t \cdot \frac{dY}{dt} = 0 \quad \mathrm{at } t^*$$
 
 The key debate is **where** $t^*$ lies. Supply-side economists (e.g., Arthur Laffer) argue that many
-Economies are already to the right of $t^*$So cutting rates would increase revenue. Empirical
+Economies are already to the right of $t^*$ So cutting rates would increase revenue. Empirical
 Evidence is mixed.
 
 ## 4. Budget Deficit and National Debt

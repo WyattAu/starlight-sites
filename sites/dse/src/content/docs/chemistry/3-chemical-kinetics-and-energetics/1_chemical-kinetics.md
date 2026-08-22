@@ -798,7 +798,7 @@ Equilibrium.
 
 A catalyst provides an alternative reaction pathway with a lower activation energy ($E_a$). On the
 Maxwell-Boltzmann distribution, the $E_a$ threshold moves to the left. A larger fraction of
-Particles now has energy $\geq E_a$So the proportion of successful collisions increases, and the
+Particles now has energy $\geq E_a$ So the proportion of successful collisions increases, and the
 Rate increases.
 
 The catalyst lowers $E_a$ equally for both the forward and reverse reactions. Therefore, both the

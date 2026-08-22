@@ -61,7 +61,7 @@ For $n \geq 3$, $D_n$ is non-abelian (e.g., $rs \neq sr$ since $sr = r^{-1}s \ne
 
 **Example 1.6.** $D_3$ (symmetries of an equilateral triangle) has $6$ elements:
 $\{e, r, r^2, s, rs, r^2s\}$. The map sending each symmetry to its permutation of the three vertices
-Gives an isomorphism $D_3 \cong S_3$. The rotations $\{e, r, r^2\}$ correspond to $A_3$And the three
+Gives an isomorphism $D_3 \cong S_3$. The rotations $\{e, r, r^2\}$ correspond to $A_3$ And the three
 Reflections correspond to the three transpositions.
 
 **Example 1.7.** $D_4$ (symmetries of a square) has $8$ elements. Its center is
@@ -108,13 +108,13 @@ _Proof._ Suppose $e$ and $e"$ are both identity elements. Then $e = e * e' = e'$
 
 **Proposition 1.9.** The inverse of each element is unique.
 
-_Proof._ If $b$ and $c$ are both inverses of $a$Then
+_Proof._ If $b$ and $c$ are both inverses of $a$ Then
 $b = b * e = b * (a * c) = (b * a) * c = e * c = c$. $\blacksquare$
 
-**Proposition 1.10 (Cancellation Law).** If $a * b = a * c$Then $b = c$. Similarly, if
-$b * a = c * a$Then $b = c$.
+**Proposition 1.10 (Cancellation Law).** If $a * b = a * c$ Then $b = c$. Similarly, if
+$b * a = c * a$ Then $b = c$.
 
-_Proof._ Multiply on the left by $a^{-1}$: $a^{-1} * (a * b) = a^{-1} * (a * c)$So
+_Proof._ Multiply on the left by $a^{-1}$: $a^{-1} * (a * b) = a^{-1} * (a * c)$ So
 $(a^{-1} * a) * b = (a^{-1} * a) * c$Giving $e * b = e * c$I.e., $b = c$. $\blacksquare$
 
 **Proposition 1.11.** $(a^{-1})^{-1} = a$ and $(a * b)^{-1} = b^{-1} * a^{-1}$.
@@ -128,8 +128,8 @@ $g^n = e$. If no such $n$ exists, $|g| = \infty$.
 
 _Proof._ Write $k = q|g| + r$ with $0 \leq r \lt |g|$. Then
 $e = g^k = g^{q|g| + r} = (g^{|g|})^q * g^r = e^q * g^r = g^r$. Since $r \lt |g|$ and $|g|$ is the
-smallest positive exponent giving $e$We must have $r = 0$So $|g|$ divides $k$. Conversely, if $|g|$
-divides $k$Say $k = m|g|$Then $g^k = (g^{|g|})^m = e^m = e$. $\blacksquare$
+smallest positive exponent giving $e$We must have $r = 0$ So $|g|$ divides $k$. Conversely, if $|g|$
+divides $k$Say $k = m|g|$ Then $g^k = (g^{|g|})^m = e^m = e$. $\blacksquare$
 
 ### 1.7 Subgroup Lattices
 
@@ -234,7 +234,7 @@ $1$ generates the entire group: $\langle 1 \rangle = \{0, 1, 2, 3\} = \mathbb{Z}
 :::caution
 $d$ of $n$. The converse of Lagrange's theorem is false. For example, $A_4$ has order $12$ but no
 subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ has order dividing
-$n$And for each divisor There is exactly one such subgroup.
+$n$ And for each divisor There is exactly one such subgroup.
 :::
 
 ## Cross-References

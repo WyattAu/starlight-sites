@@ -1,7 +1,7 @@
 ---
 
 title: Human Physiology
-description: "A balanced diet provides all essential nutrients in the correct proportions to maintain health."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Biology\", \"url\":"
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]
 categories: [DSE, Biology]

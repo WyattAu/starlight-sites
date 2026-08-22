@@ -20,7 +20,7 @@ description: "The Cauchy-Riemann Equations: comprehensive educational content no
 ### 3.1 Statement
 
 **Theorem 3.1 (Cauchy-Riemann Equations).** If $f(z) = u(x, y) + iv(x, y)$ is differentiable at
-$z = x + iy$Then
+$z = x + iy$ Then
 
 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$$
 
@@ -38,7 +38,7 @@ And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksqu
 ### 3.2 Sufficiency Condition
 
 **Theorem 3.2.** If $u$ and $v$ have continuous first partial derivatives on an open set $U$ and
-Satisfy the Cauchy-Riemann equations on $U$Then $f = u + iv$ is analytic on $U$.
+Satisfy the Cauchy-Riemann equations on $U$ Then $f = u + iv$ is analytic on $U$.
 
 _Proof._ Since $u_x, u_y, v_x, v_y$ are continuous on $U$, $u$ and $v$ are (real) differentiable.
 Let $\Delta z = \Delta x + i\Delta y$. By real differentiability:
@@ -76,7 +76,7 @@ $u_{xx} + u_{yy} = v_{yx} - v_{xy} = 0$. Similarly for $v$. $\blacksquare$
 **Definition.** If $u$ and $v$ are harmonic on $U$ and satisfy the Cauchy-Riemann equations, then
 $v$ is the **harmonic conjugate** of $u$.
 
-**Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$Then $u$ has A harmonic
+**Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$ Then $u$ has A harmonic
 conjugate on $U$Unique up to an additive constant.
 
 _Proof._ Define $v(x, y) = \int_{(x_0, y_0)}^{(x, y)} (-u_y\, dx + u_x\, dy)$. The integrand is
@@ -89,10 +89,10 @@ CR equations. $\blacksquare$
 
 **Problem.** Find the harmonic conjugate of $u(x, y) = x^3 - 3xy^2$.
 
-Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$So $u_{xx} + u_{yy} = 0$. $\checkmark$
+Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$ So $u_{xx} + u_{yy} = 0$. $\checkmark$
 
-By CR: $v_y = u_x = 3x^2 - 3y^2$So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$So
-$6xy = 6xy + g'(x)$Giving $g'(x) = 0$So $g(x) = C$.
+By CR: $v_y = u_x = 3x^2 - 3y^2$ So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$ So
+$6xy = 6xy + g'(x)$Giving $g'(x) = 0$ So $g(x) = C$.
 
 Harmonic conjugate: $v(x, y) = 3x^2 y - y^3 + C$.
 

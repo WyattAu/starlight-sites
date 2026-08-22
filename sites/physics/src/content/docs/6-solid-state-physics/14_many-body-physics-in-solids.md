@@ -60,7 +60,7 @@ renormalised parameters:
 - Effective mass $m^*$ (renormalised by interactions)
 - Residual quasiparticle--quasiparticle interactions described by Landau parameters $F_l$
 
-The quasiparticle lifetime goes as $\tau \propto 1/(\varepsilon - \varepsilon_F)^2$So quasiparticles
+The quasiparticle lifetime goes as $\tau \propto 1/(\varepsilon - \varepsilon_F)^2$ So quasiparticles
 near the Fermi surface are well-defined (long-lived).
 
 **Experimental signatures of Fermi liquid behaviour:**

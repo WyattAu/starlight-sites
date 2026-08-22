@@ -83,7 +83,7 @@ This proof extends to negative and fractional powers using the limit definition 
 Binomial theorem or logarithmic differentiation.
 
 **Intuition.** The power rule says: "bring the power down and reduce it by one." This works because
-The leading-order term in $(x+h)^n - x^n$ is $nx^{n-1}h$And dividing by $h$ leaves $nx^{n-1}$.
+The leading-order term in $(x+h)^n - x^n$ is $nx^{n-1}h$ And dividing by $h$ leaves $nx^{n-1}$.
 
 <hr />
 
@@ -122,7 +122,7 @@ Strips along the edges; the corner piece $\delta u\,\delta v$ is negligible).
 
 ## 4. The Quotient Rule
 
-**Theorem.** If $u = f(x)$ and $v = g(x)$ are differentiable with $v \neq 0$Then
+**Theorem.** If $u = f(x)$ and $v = g(x)$ are differentiable with $v \neq 0$ Then
 
 $$\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{v\frac{du}{dx} - u\frac{dv}{dx}}{v^2}$$
 
@@ -145,7 +145,7 @@ The wrong way around is one of the most common errors in A Level mathematics.
 
 ## 5. The Chain Rule
 
-**Theorem.** If $y = f(g(x))$Then
+**Theorem.** If $y = f(g(x))$ Then
 
 $$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$$
 
@@ -153,7 +153,7 @@ Where $u = g(x)$.
 
 ### 5.1 Proof (informal)
 
-If $x$ changes by $\delta x$Then $u$ changes by approximately $g'(x)\,\delta x$And $y$ changes By
+If $x$ changes by $\delta x$ Then $u$ changes by approximately $g'(x)\,\delta x$ And $y$ changes By
 approximately $f'(u) \cdot g'(x)\,\delta x$. Dividing by $\delta x$ and taking the limit:
 
 $$\frac{dy}{dx} = f'(g(x)) \cdot g'(x)$$
@@ -162,7 +162,7 @@ A fully rigorous proof uses the mean value theorem to handle the case when $g'(x
 
 **Intuition.** The chain rule handles composite functions: "differentiate the outer function, then
 Multiply by the derivative of the inner function." Think of it as a gearing mechanism: a small turn
-In $x$ causes a turn in $u$Which causes a turn in $y$And the overall effect is the product of The
+In $x$ causes a turn in $u$Which causes a turn in $y$ And the overall effect is the product of The
 two gear ratios.
 
 <hr />
@@ -255,8 +255,8 @@ Since $f'(a) = 0$ at a stationary point:
 
 $$f(x) - f(a) \approx \frac{f''(a)}{2}(x-a)^2$$
 
-- If $f''(a) \gt 0$: $f(x) - f(a) \gt 0$ for $x \neq a$So $f(a)$ is a **minimum**.
-- If $f''(a) \lt 0$: $f(x) - f(a) \lt 0$ for $x \neq a$So $f(a)$ is a **maximum**.
+- If $f''(a) \gt 0$: $f(x) - f(a) \gt 0$ for $x \neq a$ So $f(a)$ is a **minimum**.
+- If $f''(a) \lt 0$: $f(x) - f(a) \lt 0$ for $x \neq a$ So $f(a)$ is a **maximum**.
 - If $f''(a) = 0$: the test is inconclusive; use a nature table or higher derivatives.
 
 :::caution
@@ -305,7 +305,7 @@ $$\frac{dA}{dt} = 2\pi(5)(2) = 20\pi \,\mathrm{cm}^2\mathrm{/s}$$
 
 $f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x-1)(x+1)$.
 
-For $x \gt 1$: $(x-1) \gt 0$ and $(x+1) \gt 0$So $f'(x) \gt 0$. Hence $f$ is strictly Increasing for
+For $x \gt 1$: $(x-1) \gt 0$ and $(x+1) \gt 0$ So $f'(x) \gt 0$. Hence $f$ is strictly Increasing for
 $x \gt 1$.
 
 :::tip
@@ -321,7 +321,7 @@ A **point of inflection** is where the curve changes concavity (from concave up 
 Vice versa). This occurs where $f''(x) = 0$ and the sign of $f''(x)$ changes.
 
 :::caution
-<strong>Warning Point of inflection at $x = 0$But $f'(0) = 0$ in this case. Consider</strong>
+<strong>Warning Point of inflection at $x = 0$ But $f'(0) = 0$ in this case. Consider</strong>
 
 $f(x) = x^3 + x$: $f''(x) = 6x = 0$ at $x = 0$Giving a point of inflection, but $f'(0) = 1 \neq 0$.
 :::
@@ -329,7 +329,7 @@ $f(x) = x^3 + x$: $f''(x) = 6x = 0$ at $x = 0$Giving a point of inflection, but 
 
 ## 11. Differentiation of Parametric Equations
 
-If $x = x(t)$ and $y = y(t)$Then
+If $x = x(t)$ and $y = y(t)$ Then
 
 $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt}$$
 
@@ -350,7 +350,7 @@ $x$Treating $y$ as a function of $x$.
 
 **Example.** Find $\dfrac{dy}{dx}$ where $x^2 + y^2 = 25$.
 
-Differentiating: $2x + 2y\dfrac{dy}{dx} = 0$So $\dfrac{dy}{dx} = -\dfrac{x}{y}$.
+Differentiating: $2x + 2y\dfrac{dy}{dx} = 0$ So $\dfrac{dy}{dx} = -\dfrac{x}{y}$.
 
 <hr />
 
@@ -381,8 +381,8 @@ $f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$.
 
 Stationary points at $x = 1$ and $x = 3$.
 
-$f''(x) = 6x - 12$. At $x = 1$: $f''(1) = -6 \lt 0$So **local maximum**. $f(1) = 1 - 6 + 9 + 1 = 5$.
-At $x = 3$: $f''(3) = 6 \gt 0$So **local minimum**. $f(3) = 27 - 54 + 27 + 1 = 1$.
+$f''(x) = 6x - 12$. At $x = 1$: $f''(1) = -6 \lt 0$ So **local maximum**. $f(1) = 1 - 6 + 9 + 1 = 5$.
+At $x = 3$: $f''(3) = 6 \gt 0$ So **local minimum**. $f(3) = 27 - 54 + 27 + 1 = 1$.
 
 **If you get this wrong, revise:**
 [Second Derivatives and Stationary Points](#7-second-derivatives-and-stationary-points) — Section 7.
@@ -453,8 +453,8 @@ Show that $f(x) = e^x + e^{-x}$ is strictly increasing for $x \gt 0$.
 <summary>Solution 6</summary>
 $f'(x) = e^x - e^{-x}$.
 
-For $x \gt 0$: $e^x \gt 1 \gt e^{-x}$So $e^x - e^{-x} \gt 0$. Hence $f'(x) \gt 0$ for All
-$x \gt 0$So $f$ is strictly increasing on $(0, \infty)$.
+For $x \gt 0$: $e^x \gt 1 \gt e^{-x}$ So $e^x - e^{-x} \gt 0$. Hence $f'(x) \gt 0$ for All
+$x \gt 0$ So $f$ is strictly increasing on $(0, \infty)$.
 
 **If you get this wrong, revise:**
 [Increasing and Decreasing Functions](#9-increasing-and-decreasing-functions) — Section 9.
@@ -470,7 +470,7 @@ Find the equation of the tangent to $y = \ln x$ at the point where $x = e$.
 <summary>Solution 7</summary>
 At $x = e$: $y = \ln e = 1$. The point is $(e, 1)$.
 
-$\dfrac{dy}{dx} = \dfrac{1}{x}$So at $x = e$: gradient $m = \dfrac{1}{e}$.
+$\dfrac{dy}{dx} = \dfrac{1}{x}$ So at $x = e$: gradient $m = \dfrac{1}{e}$.
 
 $$y - 1 = \frac{1}{e}(x - e) \implies y = \frac{x}{e}$$
 
@@ -529,7 +529,7 @@ Find the minimum value of $f(x) = x + \dfrac{4}{x}$ for $x \gt 0$.
 <summary>Solution 10</summary>
 $f'(x) = 1 - \dfrac{4}{x^2} = \dfrac{x^2 - 4}{x^2} = 0 \implies x^2 = 4 \implies x = 2$ (since $x \gt 0$).
 
-$f''(x) = \dfrac{8}{x^3}$. At $x = 2$: $f''(2) = 1 \gt 0$So minimum.
+$f''(x) = \dfrac{8}{x^3}$. At $x = 2$: $f''(2) = 1 \gt 0$ So minimum.
 
 $f(2) = 2 + \dfrac{4}{2} = 4$.
 
@@ -545,7 +545,7 @@ Differentiate $y = \sin^3(2x^2 + 1)$.
 
 <details>
 <summary>Solution 11</summary>
-Let $u = \sin(2x^2+1)$So $y = u^3$.
+Let $u = \sin(2x^2+1)$ So $y = u^3$.
 
 $\dfrac{dy}{du} = 3u^2$, $\dfrac{du}{dx} = \cos(2x^2+1) \cdot 4x$.
 

@@ -204,7 +204,7 @@ assessed:
   sometimes require the quadratic formula when the $5\%$ approximation fails.
 - **Logarithms:** $\mathrm{pH} = -\log[\mathrm{H}^+]$;
   $\ln k = -\frac{E_a}{R} \cdot \frac{1}{T} + \ln A$. You must be able to convert between $\log$ and
-  $\ln$And between logarithmic and exponential forms.
+  $\ln$ And between logarithmic and exponential forms.
 
 ### Graphical Analysis
 

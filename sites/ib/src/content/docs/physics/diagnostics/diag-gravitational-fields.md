@@ -196,7 +196,7 @@ $$v_e \approx 2.37\,\text{km}\,\text{s}^{-1}$$
    It never truly "reaches infinity."
 
 2. More precisely, escape velocity is the speed at which the total energy (KE + PE) is exactly zero.
-   The object asymptotically approaches zero speed as $r \to \infty$But never actually stops at any
+   The object asymptotically approaches zero speed as $r \to \infty$ But never actually stops at any
    finite distance. At any finite distance, the object still has some residual KE.
 
 The escape velocity is a **threshold**: above this speed, the object is unbound (hyperbolic
@@ -232,7 +232,7 @@ $$\frac{GMm}{r^2} = m\omega^2 r$$
 
 $$r^3 = \frac{GM}{\omega^2}$$
 
-The orbital period is $T = 2\pi/\omega$So $\omega = 2\pi/T$ where $T = 86164\,\text{s}$ (one
+The orbital period is $T = 2\pi/\omega$ So $\omega = 2\pi/T$ where $T = 86164\,\text{s}$ (one
 sidereal day).
 
 $$r^3 = \frac{GMT^2}{4\pi^2}$$

@@ -177,7 +177,7 @@ to dominate.
 **Question:** (a) Explain how increasing atmospheric CO$_2$ contributes to global warming, including
 the mechanism of the greenhouse effect. (b) The concentration of CO$_2$ has increased from 280 ppm
 to 420 ppm since pre-industrial times. Calculate the percentage increase. (c) Explain how ocean
-acidification occurs as a result of increased CO$_2$And its effect on marine organisms with calcium
+acidification occurs as a result of increased CO$_2$ And its effect on marine organisms with calcium
 carbonate shells. (d) Describe two biological consequences of global warming on ecosystems.
 
 **Solution:**

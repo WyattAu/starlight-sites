@@ -74,10 +74,10 @@ Modular arithmetic is the single most important tool in BMO number theory.
 if $m \mid (a - b)$. Congruences are compatible with addition, subtraction, and multiplication.
 Division requires care: $ac \equiv bc \pmod{m}$ implies $a \equiv b \pmod{m/\gcd(c,m)}$.
 
-**Fermat"s Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$Then $a^{p-1} \equiv 1 \pmod{p}$.
+**Fermat"s Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$ Then $a^{p-1} \equiv 1 \pmod{p}$.
 More generally, for any integer $a$ and prime $p$: $a^p \equiv a \pmod{p}$.
 
-**Euler's Theorem.** If $\gcd(a, m) = 1$Then $a^{\phi(m)} \equiv 1 \pmod{m}$Where $\phi$ is Euler's
+**Euler's Theorem.** If $\gcd(a, m) = 1$ Then $a^{\phi(m)} \equiv 1 \pmod{m}$Where $\phi$ is Euler's
 totient function.
 
 **Technique: choosing the modulus.** If a problem involves squares, working modulo 4 or modulo 8 is
@@ -96,7 +96,7 @@ $n = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$ with primes $p_1 < p_2 < \cdots < p_k
 **Technique: infinite descent.** If assuming the existence of a minimal counterexample leads to a
 Smaller counterexample, then no counterexample exists.
 
-**Technique: Lifting the Exponent (LTE).** If $p$ is an odd prime, $p \mid a - b$And $p \nmid ab$
+**Technique: Lifting the Exponent (LTE).** If $p$ is an odd prime, $p \mid a - b$ And $p \nmid ab$
 Then $v_p(a^n - b^n) = v_p(a - b) + v_p(n)$Where $v_p(m)$ denotes the exponent of $p$ in $m$.
 
 ### 2.3 Diophantine Equations
@@ -188,7 +188,7 @@ With equality iff all $x_i$ are equal.
 
 $$\left(\sum_{i=1}^{n} a_i b_i\right)^2 \leq \left(\sum_{i=1}^{n} a_i^2\right)\left(\sum_{i=1}^{n} b_i^2\right)$$
 
-**Rearrangement Inequality.** If $a_1 \leq \cdots \leq a_n$ and $b_1 \leq \cdots \leq b_n$Then:
+**Rearrangement Inequality.** If $a_1 \leq \cdots \leq a_n$ and $b_1 \leq \cdots \leq b_n$ Then:
 
 $$\sum_{i=1}^{n} a_i b_{n+1-i} \leq \sum_{i=1}^{n} a_i b_{\sigma(i)} \leq \sum_{i=1}^{n} a_i b_i$$
 
@@ -207,7 +207,7 @@ Occurs when all variables are equal.
 **Rational Root Theorem.** If $P(x) = a_n x^n + \cdots + a_0 \in \mathbb{Z}[x]$ and $p/q$ is a
 Rational root (in lowest terms), then $p \mid a_0$ and $q \mid a_n$.
 
-**Vieta's formulas.** If $P(x) = a_n(x - r_1)\cdots(x - r_n)$Then $\sum r_i = -a_{n-1}/a_n$ And
+**Vieta's formulas.** If $P(x) = a_n(x - r_1)\cdots(x - r_n)$ Then $\sum r_i = -a_{n-1}/a_n$ And
 $\prod r_i = (-1)^n a_0 / a_n$.
 
 ### 4.3 Functional Equations
@@ -239,7 +239,7 @@ Continuity is $f(x) = cx$. Without regularity conditions, pathological solutions
 **Angle properties.** The angle at the centre is twice the angle at the circumference. Angles in The
 same segment are equal. The angle in a semicircle is a right angle.
 
-**Power of a point.** If a line through $P$ meets a circle at $A$ and $B$Then $PA \cdot PB$ is
+**Power of a point.** If a line through $P$ meets a circle at $A$ and $B$ Then $PA \cdot PB$ is
 Constant (the power of $P$). If $PT$ is a tangent, then $PA \cdot PB = PT^2$.
 
 **Cyclic quadrilaterals.** $ABCD$ is cyclic iff $\angle ABC + \angle ADC = 180°$.
@@ -250,7 +250,7 @@ radical axes of three pairwise circles are concurrent (at the radical centre).
 ### 5.2 Coordinate and Complex Number Methods
 
 **Technique: complex numbers on the unit circle.** Place the circumcircle on $|z| = 1$. If Vertices
-are $a, b, c$ with $|a| = |b| = |c| = 1$Then the orthocentre is $a + b + c$ and the Circumcentre is
+are $a, b, c$ with $|a| = |b| = |c| = 1$ Then the orthocentre is $a + b + c$ and the Circumcentre is
 $0$.
 
 **Collinearity.** Points $p, q, r$ are collinear iff $\frac{p - q}{p - r} \in \mathbb{R}$.
@@ -289,10 +289,10 @@ lies on all three medians by symmetry.
 The product $(n-1)n(n+1)$ is the product of three consecutive integers, so it is divisible by
 $3! = 6$.
 
-By Fermat's Little Theorem, $n^5 \equiv n \pmod{5}$So $n^5 - n \equiv 0 \pmod{5}$.
+By Fermat's Little Theorem, $n^5 \equiv n \pmod{5}$ So $n^5 - n \equiv 0 \pmod{5}$.
 
-Alternatively, checking residues modulo 5: if $n \equiv 0$Done. If $n \equiv \pm 1$Then
-$n^2 \equiv 1$So $n^2 - 1 \equiv 0$. If $n \equiv \pm 2$Then $n^2 \equiv 4$So $n^2 + 1 \equiv 0$. In
+Alternatively, checking residues modulo 5: if $n \equiv 0$Done. If $n \equiv \pm 1$ Then
+$n^2 \equiv 1$ So $n^2 - 1 \equiv 0$. If $n \equiv \pm 2$ Then $n^2 \equiv 4$ So $n^2 + 1 \equiv 0$. In
 all cases, $5 \mid n^5 - n$.
 
 Since $\gcd(6, 5) = 1$ and both divide $n^5 - n$We conclude $30 \mid (n^5 - n)$.
@@ -315,13 +315,13 @@ Since $\gcd(6, 5) = 1$ and both divide $n^5 - n$We conclude $30 \mid (n^5 - n)$.
 **Solution.** Suppose for contradiction that there are only finitely many such primes. List them as
 $p_1 = 3, p_2 = 7, p_3 = 11, \ldots, p_n$.
 
-Consider $N = 4p_1 p_2 \cdots p_n - 1$. Then $N \equiv 3 \pmod{4}$And $N$ is odd and $N > 1$.
+Consider $N = 4p_1 p_2 \cdots p_n - 1$. Then $N \equiv 3 \pmod{4}$ And $N$ is odd and $N > 1$.
 
 Not all prime factors of $N$ can be of the form $4k + 1$Because the product of numbers of the Form
 $4k + 1$ is also of that form: $(4a+1)(4b+1) = 4(4ab + a + b) + 1$.
 
 Therefore $N$ has at least one prime factor $p$ of the form $4k + 3$. Since $p \mid N$ and
-$N = 4p_1 \cdots p_n - 1$We have $p \nmid 4p_1 \cdots p_n$So $p \neq p_i$ for any $i$.
+$N = 4p_1 \cdots p_n - 1$We have $p \nmid 4p_1 \cdots p_n$ So $p \neq p_i$ for any $i$.
 
 This contradicts the assumption that $p_1, \ldots, p_n$ are all primes of the form $4k + 3$.
 
@@ -344,7 +344,7 @@ This contradicts the assumption that $p_1, \ldots, p_n$ are all primes of the fo
 $\{0, 1, 2, \ldots, n - 1\}$Giving $n$ residue classes.
 
 By the pigeonhole principle, since we have $n + 1$ integers and $n$ residue classes, at least two
-Integers share the same residue. If these are $a$ and $b$Then $n \mid (a - b)$.
+Integers share the same residue. If these are $a$ and $b$ Then $n \mid (a - b)$.
 
 ---
 
@@ -362,28 +362,28 @@ Integers share the same residue. If these are $a$ and $b$Then $n \mid (a - b)$.
 > Find all functions $f : \mathbb{R} \to \mathbb{R}$ such that $f(x^2 + y) = f(x)^2 + f(y)$ for all
 > real $x, y$.
 
-**Solution.** Setting $x = 0$: $f(y) = f(0)^2 + f(y)$So $f(0) = 0$.
+**Solution.** Setting $x = 0$: $f(y) = f(0)^2 + f(y)$ So $f(0) = 0$.
 
-Setting $y = 0$: $f(x^2) = f(x)^2 \geq 0$ for all $x$So $f$ is non-negative on $[0, \infty)$.
+Setting $y = 0$: $f(x^2) = f(x)^2 \geq 0$ for all $x$ So $f$ is non-negative on $[0, \infty)$.
 
-Setting $y = -x^2$: $f(-x^2) = -f(x)^2 \leq 0$So $f$ is non-positive on $(-\infty, 0]$.
+Setting $y = -x^2$: $f(-x^2) = -f(x)^2 \leq 0$ So $f$ is non-positive on $(-\infty, 0]$.
 
 Setting $x = 1$: $f(1 + y) = f(1)^2 + f(y)$. Since $f(1) = f(1)^2$We have $f(1) = 0$ or $f(1) = 1$.
 
-**Case 1:** $f(1) = 0$. Then $f(y + 1) = f(y)$ for all $y$So $f$ is 1-periodic. Combined with
+**Case 1:** $f(1) = 0$. Then $f(y + 1) = f(y)$ for all $y$ So $f$ is 1-periodic. Combined with
 $f(x^2) = f(x)^2$The function is bounded. The only bounded function satisfying both is $f \equiv 0$.
 
 **Case 2:** $f(1) = 1$. Then $f(y + 1) = f(y) + 1$. By induction, $f(n) = n$ for all integers $n$.
 
-Setting $y = 1 - x^2$: $f(1) = f(x)^2 + f(1 - x^2)$So $f(1 - t) = 1 - f(t)$ for $t \geq 0$.
+Setting $y = 1 - x^2$: $f(1) = f(x)^2 + f(1 - x^2)$ So $f(1 - t) = 1 - f(t)$ for $t \geq 0$.
 
-Combined with $f(1 - t) = f(-t) + 1$: $f(-t) = -f(t)$ for $t \geq 0$So $f$ is odd.
+Combined with $f(1 - t) = f(-t) + 1$: $f(-t) = -f(t)$ for $t \geq 0$ So $f$ is odd.
 
 Now, $f((x+1)^2) = f(x+1)^2 = (f(x) + 1)^2 = f(x)^2 + 2f(x) + 1$. Also,
 $f((x+1)^2) = f(x^2 + 2x + 1) = f(x)^2 + f(2x) + 1$. Equating: $f(2x) = 2f(x)$.
 
 By induction, $f(nx) = nf(x)$ for all integers $n$. Setting $x = m/n$ ($n > 0$):
-$nf(m/n) = f(m) = m$So $f(m/n) = m/n$ for all rationals.
+$nf(m/n) = f(m) = m$ So $f(m/n) = m/n$ for all rationals.
 
 Since $f$ agrees with the identity on the rationals (a dense set), $f$ is monotone on $[0, \infty)$
 (because $f(x^2) = f(x)^2$ with $f \geq 0$ on $[0, \infty)$), and $f(x + 1) = f(x) + 1$The Function
@@ -417,7 +417,7 @@ Each region has at least 3 sides (the smallest region is a triangle). Counting t
 $3(d + 1) \leq 2n + 2d$ (left: minimum sides of all regions; right: $2n$ polygon edges plus $2d$
 Diagonal-sides, each diagonal shared by 2 regions).
 
-This gives $3d + 3 \leq 2n + 2d$So $d \leq 2n - 3$.
+This gives $3d + 3 \leq 2n + 2d$ So $d \leq 2n - 3$.
 
 This bound is achieved by any triangulation of the $2n$-gon, which uses exactly $2n - 3$ diagonals.
 
@@ -435,7 +435,7 @@ This bound is achieved by any triangulation of the $2n$-gon, which uses exactly 
 ### Question 6 (Geometry: Angle Chase)
 
 > Let $ABC$ be a triangle with circumcircle $\Gamma$. Let $D$ be the foot of the altitude from $A$
-> to $BC$And let $M$ be the midpoint of $BC$. The line $AM$ meets $\Gamma$ again at $N$. Prove that
+> to $BC$ And let $M$ be the midpoint of $BC$. The line $AM$ meets $\Gamma$ again at $N$. Prove that
 > $\angle BND = \angle CBA$.
 
 **Solution.** By the power of $M$ with respect to $\Gamma$:
@@ -452,11 +452,11 @@ Let $H$ be the orthocentre of $\triangle ABC$. A well-known fact: the reflection
 lies on $\Gamma$. Call this reflection $A'$.
 
 Since $A'$ is on $\Gamma$ and $A$ is on $\Gamma$The line $A'A$ is a chord of $\Gamma$. Since $A'$ is
-the reflection of $H$ across $BC$And $AH \perp A'$... Actually, $\angle ABA' = \angle ABH$ (since
+the reflection of $H$ across $BC$ And $AH \perp A'$... Actually, $\angle ABA' = \angle ABH$ (since
 $BA' = BH$ by reflection) and $\angle ABH = 90° - \angle BAH$. The key is that $A'A \perp BC$... No,
 that is not true .
 
-The cleaner approach: from the similarities, $NB/AB = MN/MA = NC/AC$So $NB \cdot AC = NC \cdot AB$.
+The cleaner approach: from the similarities, $NB/AB = MN/MA = NC/AC$ So $NB \cdot AC = NC \cdot AB$.
 
 This means the spiral similarity centred at $N$ that sends $B$ to $A$ also sends $C$ to... A point
 $C'$ with $NC'/NB = AC/AB = NC/NA'$... We need $C' = A$ for this to work, which requires
@@ -464,7 +464,7 @@ $NB \cdot AC = NC \cdot AB$ and the angle condition $\angle BNC = \angle BAC$.
 
 Indeed, $\angle BNC = \angle BAC$ (cyclic quadrilateral $ABNC$). So the spiral similarity centred At
 $N$ with angle $\angle BNA$ sends $B \to A$ and $C$ to a point $C'$ on ray $NA$ with
-$NC' = (NA/NB) \cdot NC$. For $C' = A$: $NA = (NA/NB) \cdot NC$So $NB = NC$. But $NB = NC$ Only when
+$NC' = (NA/NB) \cdot NC$. For $C' = A$: $NA = (NA/NB) \cdot NC$ So $NB = NC$. But $NB = NC$ Only when
 $N$ is equidistant from $B$ and $C$I.e., $N$ lies on the perpendicular bisector of $BC$ Which is the
 line $AM$... And $N$ does lie on $AM$. So $NB = NC$ if and only if $N$ is the Circumcentre, which is
 not generally true.

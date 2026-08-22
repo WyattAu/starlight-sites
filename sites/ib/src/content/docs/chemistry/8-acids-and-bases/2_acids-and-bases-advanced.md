@@ -783,7 +783,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 - **Using $\mathrm{pOH} = 14 - \mathrm{pH}$ without specifying temperature**:
   $K_w = 1.0 \times 10^{-14}$ only at $25\degree\mathrm{C}$. At
-  $37\degree\mathrm{C}$, $K_w \approx 2.4 \times 10^{-14}$So $\mathrm{pH} + \mathrm{pOH} = 13.62$.
+  $37\degree\mathrm{C}$, $K_w \approx 2.4 \times 10^{-14}$ So $\mathrm{pH} + \mathrm{pOH} = 13.62$.
   Always state the temperature assumption explicitly.
 
 - **Applying Henderson-Hasselbalch to strong acid--base mixtures**: The equation requires a weak
@@ -796,7 +796,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 - **Comparing $K_{sp}$ values across different stoichiometries**:
   $K_{sp}(\mathrm{AgCl}) = 1.8 \times 10^{-10}$ and
-  $K_{sp}(\mathrm{Ag}_2\mathrm{CrO}_4) = 1.1 \times 10^{-12}$But $\mathrm{Ag}_2\mathrm{CrO}_4$ is
+  $K_{sp}(\mathrm{Ag}_2\mathrm{CrO}_4) = 1.1 \times 10^{-12}$ But $\mathrm{Ag}_2\mathrm{CrO}_4$ is
   more soluble in water because its $K_{sp}$ expression contains $[\mathrm{Ag}^+]^2$. Always
   calculate molar solubility from $K_{sp}$ before comparing.
 

@@ -79,7 +79,7 @@ $$1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419_{10}$$
 Produces the correct base-$b$ representation.
 
 _Base case._ After the first step, $d_0 = N \bmod b$ and $N" = \lfloor N / b \rfloor$. We have
-$N = d_0 + b \cdot N'$So $d_0$ is indeed the coefficient of $b^0$.
+$N = d_0 + b \cdot N'$ So $d_0$ is indeed the coefficient of $b^0$.
 
 _Inductive step._ Assume after $k$ steps we have
 $N = d_0 + d_1 b + \cdots + d_{k-1}b^{k-1} + b^k \cdot N_k$ where $N_k = \lfloor N / b^k \rfloor$.
@@ -211,7 +211,7 @@ $$\mathrm{TwosComp}_n(-x) = 2^n - x$$
 
 **Theorem.** For any $n$-bit positive integer $x$ ($1 \leq x \leq 2^{n-1} - 1$), the two's
 Complement representation of $-x$ equals $\bar{x} + 1$ (where $\bar{x}$ is the bitwise NOT of the
-$n$-bit representation of $x$And $+1$ is binary addition).
+$n$-bit representation of $x$ And $+1$ is binary addition).
 
 **Proof.** The $n$-bit representation of $x$ has bits $x_{n-1}\ldots x_0$. The bitwise complement
 $\bar{x}$ has bits $\bar{x}_{n-1}\ldots\bar{x}_0$Where $\bar{x}_i = 1 - x_i$. The value of $\bar{x}$

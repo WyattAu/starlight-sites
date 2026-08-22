@@ -1,7 +1,7 @@
 ---
 
 title: DSE Physics
-description: "DSE Physics revision notes covering key concepts and practice problems."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Physics
@@ -373,7 +373,7 @@ $$a = \frac{F\cos 30^\circ - f_k}{m} = \frac{34.64 - 11.62}{5} = \frac{23.02}{5}
 
 If you get this wrong, revise: Mechanics / Newton's Laws and Friction
 
-**Problem 3.** Three resistors of $2 \Omega$, $3 \Omega$And $6 \Omega$ are connected in Parallel. A
+**Problem 3.** Three resistors of $2 \Omega$, $3 \Omega$ And $6 \Omega$ are connected in Parallel. A
 $6 \mathrm{ V}$ battery with internal resistance $0.5 \Omega$ is connected across The combination.
 Find the total current from the battery.
 

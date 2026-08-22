@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: World War II"
-description: "Self-assessment quiz on WWII in the Pacific and Hong Kong"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"History\", \"url\":"
 sidebar_position: 10
 ---
 

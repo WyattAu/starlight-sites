@@ -59,7 +59,7 @@ Non-negative integers $n, r$ with $r \leq n$ by:
 
 $$\binom{n}{r} = \frac{n!}{r!(n - r)!}$$
 
-Where $n! = n(n-1)(n-2)\cdots 1$ is the factorial of $n$And $0! = 1$.
+Where $n! = n(n-1)(n-2)\cdots 1$ is the factorial of $n$ And $0! = 1$.
 
 **Theorem.** $\binom{n}{r}$ counts the number of ways to choose $r$ objects from $n$ distinct
 Objects (order does not matter).
@@ -215,7 +215,7 @@ In the expansion of $(a + bx)^n$The $(r+1)$Th term is:
 
 $$T_{r+1} = \binom{n}{r} a^{n-r}(bx)^r$$
 
-The index $r$ counts from $0$So the first term corresponds to $r = 0$ and the last term (when $n$ Is
+The index $r$ counts from $0$ So the first term corresponds to $r = 0$ and the last term (when $n$ Is
 a positive integer) corresponds to $r = n$.
 
 ### 5.2 Strategy for Finding a Specific Term
@@ -240,7 +240,7 @@ $$T_{r+1} = \binom{8}{r} (x^2)^{8-r}\left(\frac{2}{x}\right)^r = \binom{8}{r} 2^
 For the constant term, set $16 - 3r = 0$Giving $r = \frac{16}{3}$. Since $r$ must be a Non-negative
 integer, there is no constant term.
 
-(If the power had been $9$We would get $r = \frac{18}{3} = 6$And the constant term would be
+(If the power had been $9$We would get $r = \frac{18}{3} = 6$ And the constant term would be
 $\binom{9}{6} 2^6 = 84 \cdot 64 = 5376$.)
 
 </details>
@@ -301,7 +301,7 @@ This applies when $n \lt 0$ and $x \gt 0$Or when $n$ is fractional with alternat
 
 <details>
 <summary>Example: Approximating $\sqrt[3]{28}$</summary>
-We write $28 = 27 + 1 = 27(1 + 1/27)$So:
+We write $28 = 27 + 1 = 27(1 + 1/27)$ So:
 
 $$\sqrt[3]{28} = \left(27\left(1 + \frac{1}{27}\right)\right)^{1/3} = 3\left(1 + \frac{1}{27}\right)^{1/3}$$
 
@@ -323,7 +323,7 @@ Has magnitude:
 
 $$\left|\frac{\frac{1}{3}\cdot\left(-\frac{2}{3}\right)\cdot\left(-\frac{5}{3}\right)\cdot\left(-\frac{8}{3}\right)}{4!}\cdot\frac{1}{27^4}\right| = \frac{80}{243 \cdot 531441} \approx 6.2 \times 10^{-7}$$
 
-So the error in the expansion of $(1 + 1/27)^{1/3}$ is at most $\approx 6.2 \times 10^{-7}$And the
+So the error in the expansion of $(1 + 1/27)^{1/3}$ is at most $\approx 6.2 \times 10^{-7}$ And the
 Error in $\sqrt[3]{28}$ is at most $3 \times 6.2 \times 10^{-7} \approx 1.9 \times 10^{-6}$.
 
 </details>
@@ -404,7 +404,7 @@ Consider a set of $n$ people, of which $r$ are women and $n - r$ are men. The ri
 $\binom{n}{m}$ counts the number of ways to choose a committee of $m$ people from all $n$.
 
 Alternatively, we can count by cases: choose $k$ women and $m - k$ men. The number of ways to choose
-$k$ women is $\binom{r}{k}$And the number of ways to choose $m - k$ men is $\binom{n-r}{m-k}$.
+$k$ women is $\binom{r}{k}$ And the number of ways to choose $m - k$ men is $\binom{n-r}{m-k}$.
 Summing over all valid $k$ gives the left-hand side. $\blacksquare$
 
 <hr />
@@ -584,7 +584,7 @@ To 5 d.p.: $1.02470$.
 
 <hr />
 
-**Problem 6.** In the expansion of $(1 + ax)^n$The coefficients of $x$, $x^2$And $x^3$ are in The
+**Problem 6.** In the expansion of $(1 + ax)^n$The coefficients of $x$, $x^2$ And $x^3$ are in The
 ratio $1 : 4 : 12$. Find $a$ and $n$.
 
 <details>
@@ -844,7 +844,7 @@ $$n = \frac{6 \pm \sqrt{36 + 144}}{8} = \frac{6 \pm \sqrt{180}}{8} = \frac{6 \pm
 Since $n$ must be a positive integer, there is no integer solution. The ratio $11 : 1$ cannot be
 Achieved for any positive integer $n$ with $(2+3x)^{2n}$.
 
-(The closest integer value is $n = 4$ giving ratio $\approx 15.75$And $n = 3$ giving $7.5$.)
+(The closest integer value is $n = 4$ giving ratio $\approx 15.75$ And $n = 3$ giving $7.5$.)
 
 </details>
 <b>If you get this wrong, revise:</b> [Finding specific terms](#5-finding-specific-terms)
@@ -862,11 +862,11 @@ $$\frac{2}{(1+x)^2(1-2x)} = \frac{A}{1+x} + \frac{B}{(1+x)^2} + \frac{C}{1-2x}$$
 
 $$2 = A(1+x)(1-2x) + B(1-2x) + C(1+x)^2$$
 
-Setting $x = -2$: $2 = C(-1)^2 = C$So $C = 2$.
+Setting $x = -2$: $2 = C(-1)^2 = C$ So $C = 2$.
 
-Setting $x = -1$: $2 = B(3)$So $B = \frac{2}{3}$.
+Setting $x = -1$: $2 = B(3)$ So $B = \frac{2}{3}$.
 
-Setting $x = 0$: $2 = A + B + C = A + 2/3 + 2$So $A = 2 - 8/3 = -2/3$.
+Setting $x = 0$: $2 = A + B + C = A + 2/3 + 2$ So $A = 2 - 8/3 = -2/3$.
 
 So:
 

@@ -147,7 +147,7 @@ $F(s)G(s) = \int_0^{\infty} e^{-s\tau} f(\tau)\, d\tau \cdot \int_0^{\infty} e^{
 
 $= \int_0^{\infty} \int_0^{\infty} e^{-s(\tau+u)} f(\tau) g(u)\, du\, d\tau$
 
-Substitute $t = \tau + u$, $u = t - \tau$. For fixed $\tau$, $u$ ranges from $0$ to $\infty$So $t$
+Substitute $t = \tau + u$, $u = t - \tau$. For fixed $\tau$, $u$ ranges from $0$ to $\infty$ So $t$
 ranges From $\tau$ to $\infty$.
 
 $= \int_0^{\infty} f(\tau)\left[\int_{\tau}^{\infty} e^{-st} g(t - \tau)\, dt\right] d\tau$
@@ -223,7 +223,7 @@ It models a sudden switch being turned on at time $t = c$. The second shifting t
 
 $$\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)$$
 
-Conversely, if $Y(s) = e^{-cs}G(s)$Then $y(t) = u_c(t) \cdot g(t - c)$ where
+Conversely, if $Y(s) = e^{-cs}G(s)$ Then $y(t) = u_c(t) \cdot g(t - c)$ where
 $g = \mathcal{L}^{-1}\{G\}$.
 
 ### 5.11 The Dirac Delta Function

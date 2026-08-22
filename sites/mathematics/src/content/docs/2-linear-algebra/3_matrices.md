@@ -81,7 +81,7 @@ $$\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}$$
 Where $M_{1j}$ is the $(1,j)$-minor (the determinant of the $(n-1) \times (n-1)$ matrix obtained by
 Deleting row 1 and column $j$).
 
-The $(i,j)$-**cofactor** is $C_{ij} = (-1)^{i+j} M_{ij}$So $\det(A) = \sum_{j=1}^n a_{ij} C_{ij}$
+The $(i,j)$-**cofactor** is $C_{ij} = (-1)^{i+j} M_{ij}$ So $\det(A) = \sum_{j=1}^n a_{ij} C_{ij}$
 for any fixed row $i$.
 
 ### 3.5 Properties of Determinants
@@ -104,7 +104,7 @@ $\det$ is multiplied by $\alpha$.
 $$\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix}~with~rows~i\mathrm{~and~j\mathrm}{~equal)}$$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
-Unchanged but multiplies $\det$ by $-1$So $\det = -\det$Hence $\det = 0$). Therefore
+Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
 $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
@@ -126,9 +126,9 @@ $$\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \de
 
 Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
-**Corollary 3.4.** $\det(A^T) = \det(A)$And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
+**Corollary 3.4.** $\det(A^T) = \det(A)$ And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
 
-_Proof._ $AA^{-1} = I$So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
+_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
 the transpose, use the Leibniz formula or observe that row Operations and column operations have the
 same effects on the determinant. $\blacksquare$
 
@@ -145,7 +145,7 @@ Cofactor matrix.
 
 $$A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n$$
 
-In particular, if $\det(A) \neq 0$Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
+In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
 _Proof._ The $(i,j)$-entry of $A \cdot \mathrm{adj}(A)$ is $\sum_{k=1}^n a_{ik} C_{jk}$. When
 $i = j$This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
@@ -206,7 +206,7 @@ $$A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$$
 <details>
 <summary>Solution</summary>
 
-$\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$So $A$ is invertible.
+$\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$ So $A$ is invertible.
 
 Cofactors: $C_{11} = 4$, $C_{12} = -3$, $C_{21} = -2$, $C_{22} = 1$.
 

@@ -66,7 +66,7 @@ $\square$
 
 ### 1.2 The factor theorem
 
-**Definition.** If $P(c) = 0$Then $(x - c)$ is a factor of $P(x)$. This is the _factor theorem_.
+**Definition.** If $P(c) = 0$ Then $(x - c)$ is a factor of $P(x)$. This is the _factor theorem_.
 
 This follows directly from the remainder theorem: if the remainder is zero, the divisor is a factor.
 
@@ -258,7 +258,7 @@ This is a _telescoping sum_ — all intermediate terms cancel.
 
 ### Proof
 
-Note that $r^3 - (r-1)^3 = 3r^2 - 3r + 1$So $r^2 = \dfrac{r^3 - (r-1)^3 + 3r - 1}{3}$.
+Note that $r^3 - (r-1)^3 = 3r^2 - 3r + 1$ So $r^2 = \dfrac{r^3 - (r-1)^3 + 3r - 1}{3}$.
 
 Summing from $r = 1$ to $n$:
 
@@ -471,7 +471,7 @@ $$\frac{3x + 1}{(x^2 + 1)(x^2 + 4)} = \frac{x + 1/3}{x^2 + 1} + \frac{-x - 1/3}{
 <summary>Hint</summary>
 
 Use partial fractions to show that
-$\dfrac{2}{r(r+1)(r+2)} = \dfrac{1}{r(r+1)} - \dfrac{1}{(r+1)(r+2)}$Then apply the method of
+$\dfrac{2}{r(r+1)(r+2)} = \dfrac{1}{r(r+1)} - \dfrac{1}{(r+1)(r+2)}$ Then apply the method of
 Differences.
 
 </details>
@@ -492,7 +492,7 @@ $$= \frac{1}{2} - \frac{1}{(n+1)(n+2)}$$
 <hr />
 
 **Problem 5.** The equation $3x^3 + px^2 + qx + 12 = 0$ has roots $\alpha, \beta, \gamma$ such that
-$\alpha + \beta + \gamma = 4$ and $\alpha\beta\gamma = -4$. Find $p$, $q$And
+$\alpha + \beta + \gamma = 4$ and $\alpha\beta\gamma = -4$. Find $p$, $q$ And
 $\alpha\beta + \alpha\gamma + \beta\gamma$.
 
 <details>
@@ -509,7 +509,7 @@ $\alpha + \beta + \gamma = -\dfrac{p}{3} = 4 \implies p = -12$.
 
 $\alpha\beta\gamma = -\dfrac{12}{3} = -4$. This is consistent with the given information. ✓
 
-$\alpha\beta + \alpha\gamma + \beta\gamma = \dfrac{q}{3}$So
+$\alpha\beta + \alpha\gamma + \beta\gamma = \dfrac{q}{3}$ So
 $q = 3(\alpha\beta + \alpha\gamma + \beta\gamma)$.
 
 We need additional information. Note that
@@ -642,29 +642,29 @@ $$\frac{x^2 + 3x + 2}{(x^2 + 2x + 3)^2} = \frac{1}{x^2 + 2x + 3} + \frac{x - 1}{
 <hr />
 
 **Problem 10.** The cubic equation $x^3 + px^2 + qx + r = 0$ has roots $\alpha, \beta, \gamma$ where
-$\beta = 2\alpha$ and $\gamma = 3\alpha$. Express $p$, $q$And $r$ in terms of $\alpha$And hence Find
+$\beta = 2\alpha$ and $\gamma = 3\alpha$. Express $p$, $q$ And $r$ in terms of $\alpha$ And hence Find
 the roots when $p = -6$.
 
 <details>
 <summary>Hint</summary>
 
 Substitute the root relationships into $\alpha + \beta + \gamma = -p$
-$\alpha\beta + \alpha\gamma + \beta\gamma = q$And $\alpha\beta\gamma = -r$.
+$\alpha\beta + \alpha\gamma + \beta\gamma = q$ And $\alpha\beta\gamma = -r$.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-$\alpha + 2\alpha + 3\alpha = 6\alpha = -p$So $p = -6\alpha$.
+$\alpha + 2\alpha + 3\alpha = 6\alpha = -p$ So $p = -6\alpha$.
 
 $\alpha(2\alpha) + \alpha(3\alpha) + (2\alpha)(3\alpha) = 2\alpha^2 + 3\alpha^2 + 6\alpha^2 = 11\alpha^2 = q$.
 
-$\alpha(2\alpha)(3\alpha) = 6\alpha^3 = -r$So $r = -6\alpha^3$.
+$\alpha(2\alpha)(3\alpha) = 6\alpha^3 = -r$ So $r = -6\alpha^3$.
 
 When $p = -6$: $-6\alpha = -6 \implies \alpha = 1$.
 
-Then $q = 11$, $r = -6$And the roots are $1, 2, 3$.
+Then $q = 11$, $r = -6$ And the roots are $1, 2, 3$.
 
 Verification: $(x-1)(x-2)(x-3) = x^3 - 6x^2 + 11x - 6$. ✓
 
@@ -758,9 +758,9 @@ $\displaystyle\sum_{r=1}^{n} u_r$.
 **Solution.** Write $u_r$ in closed form. From the recurrence:
 $\dfrac{1}{u_{n+1}} = \dfrac{u_n + 1}{u_n} = 1 + \dfrac{1}{u_n}$.
 
-Let $v_n = \dfrac{1}{u_n}$. Then $v_{n+1} = 1 + v_n$So $v_n = v_1 + (n-1)$.
+Let $v_n = \dfrac{1}{u_n}$. Then $v_{n+1} = 1 + v_n$ So $v_n = v_1 + (n-1)$.
 
-Since $v_1 = \dfrac{1}{u_1} = 1$: $v_n = n$So $u_n = \dfrac{1}{n}$.
+Since $v_1 = \dfrac{1}{u_1} = 1$: $v_n = n$ So $u_n = \dfrac{1}{n}$.
 
 $$\sum_{r=1}^{n} u_r = \sum_{r=1}^{n} \frac{1}{r} = H_n$$
 
@@ -774,7 +774,7 @@ The $n$-th harmonic number. No simpler closed form exists.
 
 $$\mathbf{M} = \begin{pmatrix}1&2&-1\\2&-1&1\\3&1&2\end{pmatrix}$$
 
-$\det(\mathbf{M}) = 1(2-1) - 2(4-3) + (-1)(2+3) = 1 - 2 - 5 = -6 \neq 0$So the system has a unique
+$\det(\mathbf{M}) = 1(2-1) - 2(4-3) + (-1)(2+3) = 1 - 2 - 5 = -6 \neq 0$ So the system has a unique
 Solution.
 
 Using Cramer's rule:
@@ -1009,7 +1009,7 @@ $2k^3 - 3k^2 - 3k - 1 > 0$ for $k \geq 4$.
 
 At $k=4$: $128-48-12-1 = 67 > 0$. ✓
 
-For $k > 4$: $2k^3$ grows faster than $3k^2 + 3k + 1$So the inequality holds. $\blacksquare$
+For $k > 4$: $2k^3$ grows faster than $3k^2 + 3k + 1$ So the inequality holds. $\blacksquare$
 
 </details>
 

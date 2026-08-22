@@ -33,7 +33,7 @@ tableOfContents: false
 
 **Question:**
 
-For a dataset, the quartiles are $Q_1 = 42$, $Q_2 = 55$And $Q_3 = 70$.
+For a dataset, the quartiles are $Q_1 = 42$, $Q_2 = 55$ And $Q_3 = 70$.
 
 **(a)** Determine whether the data is positively skewed, negatively skewed, or symmetric.
 
@@ -108,9 +108,9 @@ $$s_x = 10 \times 2.58 = 25.8$$
 
 **(b)** The student's error is concluding $s_x = s_y$. The coding $y = \frac{x-50}{10}$ scales by a
 factor of $\frac{1}{10}$ and shifts by $50$. Scaling by $c$ multiplies the standard deviation by
-$|c|$So $s_x = 10s_y$Not $s_y$. The student forgot to account for the scaling factor. Additionally,
+$|c|$ So $s_x = 10s_y$Not $s_y$. The student forgot to account for the scaling factor. Additionally,
 the student used $\frac{285}{9} \approx 31.67$ and then subtracted $25$ (where $25 = 5^2$), which is
-correct for computing $s_y$But then incorrectly applied the result to $s_x$.
+correct for computing $s_y$ But then incorrectly applied the result to $s_x$.
 
 ---
 
@@ -132,7 +132,7 @@ correct for computing $s_y$But then incorrectly applied the result to $s_x$.
 **Question:**
 
 Given five data points $(x_i, y_i)$ with
-$\sum x_i = 15$$\sum y_i = 20$$\sum x_i^2 = 55$$\sum x_iy_i = 68$And $\sum y_i^2 = 90$:
+$\sum x_i = 15$$\sum y_i = 20$$\sum x_i^2 = 55$$\sum x_iy_i = 68$ And $\sum y_i^2 = 90$:
 
 **(a)** Find the equation of the least squares regression line of $y$ on $x$ in the form
 $y = a + bx$.

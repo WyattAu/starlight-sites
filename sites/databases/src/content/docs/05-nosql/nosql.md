@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: NoSQL Databases
-description: "NoSQL databases and the CAP theorem."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"databases\", \"url\": \"https://databases.wyattau.com\"}, {\"name\": \"05 Nosql\", \"url\":"
 tags:
   - Databases
 categories:

@@ -213,7 +213,7 @@ Let me verify more carefully. At $t = 0$: all tasks arrive. Task 1 (highest prio
 units (0--2). Task 2 runs for 2 units (2--4). Task 3 runs for 3 units (4--7).
 
 At $t = 5$: Task 1 released again. Preempt Task 3 (at $t = 7$... Wait, Task 3 finishes at $t = 7$).
-Task 1 runs at $t = 5$But Task 3 is still running (4--7). Preempt Task 3 at $t = 5$. Task 1 runs
+Task 1 runs at $t = 5$ But Task 3 is still running (4--7). Preempt Task 3 at $t = 5$. Task 1 runs
 5--7. Task 3 resumes at $t = 7$... But Task 1 already used 5--7. Task 3 had completed 1 unit (4--5),
 needs 2 more.
 
@@ -225,7 +225,7 @@ Let me redo:
 - $t = 5$: T1 arrives (period 5), preempts T3. T1 runs 5--7.
 - $t = 7$: T3 resumes. T3 needs 2 more units (1 done at 4--5). T3 runs 7--9.
 - $t = 9$: T2? No, T2 next arrives at $t = 10$. T3 finishes at $t = 9$. Idle 9--10.
-- $t = 10$: T1 arrives, runs 10--12. T2 arrives at $t = 10$But T1 has higher priority.
+- $t = 10$: T1 arrives, runs 10--12. T2 arrives at $t = 10$ But T1 has higher priority.
 - $t = 12$: T2 runs 12--14.
 - $t = 14$: T3? T3 next arrives at $t = 20$. Idle 14--15.
 - $t = 15$: T1 arrives, runs 15--17.

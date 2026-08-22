@@ -20,7 +20,7 @@ description: "If is analytic on a connected domain Containing a simple closed po
 ### 6.1 Statement
 
 **Theorem 6.1 (Cauchy"s Integral Formula).** If $f$ is analytic on a connected domain Containing a
-simple closed positively oriented contour $\gamma$And $z_0$ is inside $\gamma$Then
+simple closed positively oriented contour $\gamma$ And $z_0$ is inside $\gamma$ Then
 
 $$f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz$$
 
@@ -75,14 +75,14 @@ $\blacksquare$
 
 **Theorem 6.5 (Liouville's Theorem).** Every bounded entire function is constant.
 
-_Proof._ If $|f(z)| \leq M$ for all $z$Then by Cauchy's estimates with $R$ arbitrarily large:
+_Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
 $|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
 Constant. $\blacksquare$
 
 **Corollary 6.6.** If $f$ is entire and $|f(z)| \geq M$ for all $z$ (bounded away from zero), then
 $f$ is constant.
 
-_Proof._ $1/f$ is entire and bounded by $1/M$So constant by Liouville. $\blacksquare$
+_Proof._ $1/f$ is entire and bounded by $1/M$ So constant by Liouville. $\blacksquare$
 
 ### 6.5 Fundamental Theorem of Algebra
 
@@ -90,7 +90,7 @@ _Proof._ $1/f$ is entire and bounded by $1/M$So constant by Liouville. $\blacksq
 $p(z) \in \mathbb{C}[z]$ has a root in $\mathbb{C}$.
 
 _Proof._ Suppose $p(z)$ has no root. Then $f(z) = 1/p(z)$ is entire. Since $|p(z)| \to \infty$ as
-$|z| \to \infty$, $f(z) \to 0$So $f$ is bounded. By Liouville's theorem, $f$ is constant, so $p$ Is
+$|z| \to \infty$, $f(z) \to 0$ So $f$ is bounded. By Liouville's theorem, $f$ is constant, so $p$ Is
 constant, a contradiction. $\blacksquare$
 
 **Corollary 6.8.** Every polynomial of degree $n \geq 1$ has exactly $n$ roots in $\mathbb{C}$

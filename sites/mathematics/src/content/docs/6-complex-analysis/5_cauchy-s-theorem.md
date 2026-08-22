@@ -20,7 +20,7 @@ description: "If is analytic on a connected domain and Is a simple closed contou
 ### 5.1 Statement
 
 **Theorem 5.1 (Cauchy"s Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
-simple closed contour in $D$Then
+simple closed contour in $D$ Then
 
 $$\int_\gamma f(z)\, dz = 0$$
 
@@ -45,12 +45,12 @@ Excludes the singularity at $z = 0$).
 
 ### 5.3 Path Independence
 
-**Corollary 5.2.** If $f$ is analytic on a connected domain $D$Then the integral
+**Corollary 5.2.** If $f$ is analytic on a connected domain $D$ Then the integral
 $\int_{z_0}^{z_1} f(z)\, dz$ is independent of the path from $z_0$ to $z_1$ in $D$.
 
 ### 5.4 Antiderivatives
 
-**Theorem 5.3.** If $f$ is analytic on a connected domain $D$Then $f$ has an antiderivative $F$ in
+**Theorem 5.3.** If $f$ is analytic on a connected domain $D$ Then $f$ has an antiderivative $F$ in
 $D$ (i.e., $F'(z) = f(z)$), and
 
 $$\int_\gamma f(z)\, dz = F(z_1) - F(z_0)$$
@@ -70,7 +70,7 @@ $$\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz$$
 
 **Theorem 5.5 (Deformation of Contours).** If $f$ is analytic on a domain containing two simple
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
-Within the domain of analyticity of $f$Then
+Within the domain of analyticity of $f$ Then
 
 $$\int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz$$
 

@@ -30,7 +30,7 @@ description: "Sets, Relations, and Functions: comprehensive educational content 
 
 $$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
 
-**Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$Then
+**Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$ Then
 $|\mathcal{P}(A)| = 2^n$.
 
 ### 2.2 Relations
@@ -59,12 +59,12 @@ $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence class
 <details>
 <summary>Solution</summary>
 
-_Reflexive:_ $a - a = 0 = 5 \cdot 0$So $a \equiv a \pmod{5}$ for all $a$.
+_Reflexive:_ $a - a = 0 = 5 \cdot 0$ So $a \equiv a \pmod{5}$ for all $a$.
 
-_Symmetric:_ If $a \equiv b \pmod{5}$Then $5 \mid (a - b)$So $5 \mid (b - a)$Giving
+_Symmetric:_ If $a \equiv b \pmod{5}$ Then $5 \mid (a - b)$ So $5 \mid (b - a)$Giving
 $b \equiv a \pmod{5}$.
 
-_Transitive:_ If $5 \mid (a - b)$ and $5 \mid (b - c)$Then $5 \mid (a - b) + (b - c) = a - c$So
+_Transitive:_ If $5 \mid (a - b)$ and $5 \mid (b - c)$ Then $5 \mid (a - b) + (b - c) = a - c$ So
 $a \equiv c \pmod{5}$.
 
 The equivalence classes are $[0] = \\{5k : k \in \mathbb{Z}\\}$
@@ -82,10 +82,10 @@ iff $a \mid b$. Verify this is a partial order and identify the cover relations.
 
 _Reflexive:_ $a \mid a$ for all $a \in A$. ✓
 
-_Antisymmetric:_ If $a \mid b$ and $b \mid a$Then $b = ka$ and $a = lb$ for positive $k, l$ So
+_Antisymmetric:_ If $a \mid b$ and $b \mid a$ Then $b = ka$ and $a = lb$ for positive $k, l$ So
 $a = lka$Giving $lk = 1$ and $l = k = 1$Hence $a = b$. ✓
 
-_Transitive:_ If $a \mid b$ and $b \mid c$Then $c = lb = l(ka) = (lk)a$So $a \mid c$. ✓
+_Transitive:_ If $a \mid b$ and $b \mid c$ Then $c = lb = l(ka) = (lk)a$ So $a \mid c$. ✓
 
 Cover relations ($b$ covers $a$ when $a \mid b$ and no element lies strictly between):
 
@@ -114,7 +114,7 @@ A function $f : A \to B$ is a relation where each $a \in A$ appears exactly once
 - Surjective if and only if $|A| \geq |B|$.
 - Bijective if and only if $|A| = |B|$.
 
-**Theorem 2.2 (Pigeonhole Principle).** If $|A| \gt{} |B|$Then no function $f : A \to B$ is
+**Theorem 2.2 (Pigeonhole Principle).** If $|A| \gt{} |B|$ Then no function $f : A \to B$ is
 injective. Equivalently, placing $n$ items into $m$ boxes with $n \gt{} m$ forces at least one box
 to contain at least $\lceil n/m \rceil$ items.
 

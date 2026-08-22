@@ -251,7 +251,7 @@ Where $e^{i\theta} \equiv \cos\theta + i\sin\theta$ by Euler's formula.
 
 ### Proof of Euler's Formula (from Maclaurin series)
 
-The Maclaurin series for $e^x$, $\cos x$And $\sin x$ are:
+The Maclaurin series for $e^x$, $\cos x$ And $\sin x$ are:
 
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots$$
 
@@ -269,7 +269,7 @@ E^{i\theta} &= 1 + i\theta + \frac{(i\theta)^2}{2!} + \frac{(i\theta)^3}{3!} + \
 \end{aligned}
 $$
 
-Using $i^2 = -1$$i^3 = -i$$i^4 = 1$$i^5 = i$And so on. Grouping real and imaginary parts:
+Using $i^2 = -1$$i^3 = -i$$i^4 = 1$$i^5 = i$ And so on. Grouping real and imaginary parts:
 
 $$e^{i\theta} = \underbrace{\left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right)}_{=\,\cos\theta} + i\underbrace{\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)}_{=\,\sin\theta}$$
 
@@ -281,7 +281,7 @@ Setting $\theta = \pi$:
 
 $$\boxed{e^{i\pi} + 1 = 0}$$
 
-This celebrated identity connects five fundamental constants: $e$$i$$\pi$$1$And $0$.
+This celebrated identity connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 
 **Intuition.** Euler's identity says that starting at the point $1$ on the real axis and rotating by
 $\pi$ radians (half a turn) on the unit circle lands you at $-1$. The exponential $e^{i\theta}$
@@ -387,7 +387,7 @@ Writing $a = \lambda e^{i\alpha}$ and $b = \mu e^{i\beta}$:
 2. $\arg(a) = \alpha$ produces a _rotation_ through angle $\alpha$ about the origin.
 3. $b$ produces a _translation_ by the vector representing $b$.
 
-The composition is: enlarge by $|a|$Rotate by $\arg(a)$Then translate by $b$.
+The composition is: enlarge by $|a|$Rotate by $\arg(a)$ Then translate by $b$.
 
 ### 6.3 Inversion: $w = \dfrac{1}{z}$
 
@@ -413,13 +413,13 @@ $f'(z_0) = 0$. At a critical point, the mapping is not conformal (angles are not
 
 Find the image of the line $\operatorname{Re}(z) = 1$ under the transformation $w = \dfrac{1}{z}$.
 
-Let $z = x + yi$ with $x = 1$So $z = 1 + yi$ and $y \in \mathbb{R}$.
+Let $z = x + yi$ with $x = 1$ So $z = 1 + yi$ and $y \in \mathbb{R}$.
 
 $$w = \frac{1}{1 + yi} = \frac{1 - yi}{1 + y^2} = \frac{1}{1 + y^2} - \frac{y}{1 + y^2}\,i$$
 
 Let $w = u + vi$. Then $u = \dfrac{1}{1 + y^2}$ and $v = \dfrac{-y}{1 + y^2}$.
 
-Note that $v = -uy$So $y = -\dfrac{v}{u}$ (when $u \neq 0$).
+Note that $v = -uy$ So $y = -\dfrac{v}{u}$ (when $u \neq 0$).
 
 Substituting: $u = \dfrac{1}{1 + v^2/u^2} = \dfrac{u^2}{u^2 + v^2}$Giving $u^2 + v^2 = u$I.e.:
 
@@ -595,7 +595,7 @@ Part (a) is a perpendicular bisector. Part (b) is a half-line. Find their inters
 
 **(a)** $|z - (1 + i)| = |z - (3 - i)|$ is the perpendicular bisector of the segment joining
 $(1, 1)$ and $(3, -1)$. The midpoint is $(2, 0)$ and the slope of the segment is
-$\dfrac{-1 - 1}{3 - 1} = -1$So the perpendicular bisector has slope $1$ and equation $y = x - 2$.
+$\dfrac{-1 - 1}{3 - 1} = -1$ So the perpendicular bisector has slope $1$ and equation $y = x - 2$.
 
 **(b)** $\arg(z - 2) = \dfrac{\pi}{3}$ is a half-line from $(2, 0)$ at angle
 $\dfrac{\pi}{3}$ to the positive real axis. Its equation is $y = \sqrt{3}(x - 2)$ for
@@ -603,7 +603,7 @@ $x > 2$.
 
 **Intersection:** Setting $x - 2 = \sqrt{3}(x - 2)$:
 
-$(x - 2)(1 - \sqrt{3}) = 0$So $x = 2$ (gives $y = 0$But the half-line requires $x > 2$) or
+$(x - 2)(1 - \sqrt{3}) = 0$ So $x = 2$ (gives $y = 0$ But the half-line requires $x > 2$) or
 $1 = \sqrt{3}$Which is false.
 
 There is no intersection. The half-line from $(2, 0)$ at angle $\pi/3$ has slope $\sqrt{3}$While The
@@ -701,9 +701,9 @@ Under $w = z^2$The modulus squares and the argument doubles.
 <details>
 <summary>Answer</summary>
 
-If $z = re^{i\theta}$Then $w = r^2 e^{2i\theta}$.
+If $z = re^{i\theta}$ Then $w = r^2 e^{2i\theta}$.
 
-- Modulus: $1 \leq r \leq 2 \implies 1 \leq r^2 \leq 4$So $1 \leq |w| \leq 4$.
+- Modulus: $1 \leq r \leq 2 \implies 1 \leq r^2 \leq 4$ So $1 \leq |w| \leq 4$.
 - Argument:
   $0 \leq \theta \leq \dfrac{\pi}{4} \implies 0 \leq 2\theta \leq \dfrac{\pi}{2}$
   so $0 \leq \arg(w) \leq \dfrac{\pi}{2}$.
@@ -731,7 +731,7 @@ Factor $z^3 + z^2 + z + 1 = (z+1)(z^2+1)$. The roots are the 4th roots of unity 
 
 $z^3 + z^2 + z + 1 = \dfrac{z^4 - 1}{z - 1} = 0 \implies z^4 = 1$ with $z \neq 1$.
 
-The 4th roots of unity are $1, i, -1, -i$So the solutions are $z = i, -1, -i$.
+The 4th roots of unity are $1, i, -1, -i$ So the solutions are $z = i, -1, -i$.
 
 Equivalently, the roots are $e^{k\pi i/2}$ for $k = 1, 2, 3$.
 
@@ -787,7 +787,7 @@ $\dfrac{1}{1 - \omega^k} = -\dfrac{1}{e^{2k\pi i/n} - 1} = \dfrac{1}{2} + \dfrac
 $$\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \sum_{k=1}^{n-1}\!\left(\frac{1}{2} + \frac{i}{2}\cot\frac{k\pi}{n}\right) = \frac{n-1}{2} + \frac{i}{2}\sum_{k=1}^{n-1}\cot\frac{k\pi}{n}$$
 
 The cotangent sum is zero by symmetry:
-$\cot\dfrac{k\pi}{n} = -\cot\dfrac{(n-k)\pi}{n}$So terms cancel in pairs.
+$\cot\dfrac{k\pi}{n} = -\cot\dfrac{(n-k)\pi}{n}$ So terms cancel in pairs.
 
 Therefore: $\displaystyle\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \frac{n - 1}{2}$.
 
@@ -901,7 +901,7 @@ $\blacksquare$
 **Solution.** The $n$-th roots of unity are the roots of $z^n - 1 = 0$. By Vieta's formulae, the
 Product of all roots is $(-1)^n \times (-1) = (-1)^{n+1}$.
 
-Alternatively: the roots are $1, \omega, \omega^2, \ldots, \omega^{n-1}$So the product is
+Alternatively: the roots are $1, \omega, \omega^2, \ldots, \omega^{n-1}$ So the product is
 $\omega^{0+1+2+\cdots+(n-1)} = \omega^{n(n-1)/2} = e^{\pi i(n-1)} = (-1)^{n-1} = (-1)^{n+1}$.
 $\blacksquare$
 
@@ -1114,7 +1114,7 @@ This form makes multiplication and division particularly simple:
 
 Setting $\theta = \pi$ in Euler's formula: $e^{i\pi} + 1 = 0$.
 
-This connects five fundamental constants: $e$$i$$\pi$$1$And $0$.
+This connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 
 ### 14.3 Complex conjugate and roots of polynomials
 
@@ -1294,7 +1294,7 @@ Equal. $\blacksquare$
 
 ### Question 18
 
-The complex numbers $z$ and $w$ satisfy $|z| = 3$$|w| = 4$And $|z+w| = 5$. Find $|z-w|$.
+The complex numbers $z$ and $w$ satisfy $|z| = 3$$|w| = 4$ And $|z+w| = 5$. Find $|z-w|$.
 
 <details>
 <summary>Solution</summary>

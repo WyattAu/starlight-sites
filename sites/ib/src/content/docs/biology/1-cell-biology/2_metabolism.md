@@ -630,7 +630,7 @@ regulation**:
 <summary>Question 1: Michaelis-Menten Calculation</summary>
 
 An enzyme has $V_{\max} = 60\;\mathrm{\mu mol/min}$ and $K_m = 8\;\mathrm{mM}$. Calculate the
-Reaction velocity at $[S] = 4\;\mathrm{mM}$, $8\;\mathrm{mM}$And $20\;\mathrm{mM}$. A Competitive
+Reaction velocity at $[S] = 4\;\mathrm{mM}$, $8\;\mathrm{mM}$ And $20\;\mathrm{mM}$. A Competitive
 inhibitor is added that increases the apparent $K_m$ to $24\;\mathrm{mM}$. Calculate the velocity at
 $[S] = 20\;\mathrm{mM}$ with the inhibitor. At what substrate Concentration does the inhibited
 reaction reach $90\%$ of $V_{\max}$?
@@ -1042,7 +1042,7 @@ Step 2: $\beta$-oxidation cycles.
 
 - Palmitoyl-CoA (16C) undergoes $16/2 - 1 = 7$ cycles of $\beta$-oxidation.
 - Each cycle produces: 1 $\mathrm{FADH}\_2$1 NADH, and 1 acetyl-CoA (2C).
-- After 7 cycles: $7\;\mathrm{FADH}_2$, $7\;\mathrm{NADH}$And $8$ acetyl-CoA.
+- After 7 cycles: $7\;\mathrm{FADH}_2$, $7\;\mathrm{NADH}$ And $8$ acetyl-CoA.
 
 Step 3: Oxidation of products through the ETC and Krebs cycle.
 
@@ -1109,7 +1109,7 @@ presence and Absence of the inhibitor?
 This is characteristic of a **competitive inhibitor**.
 
 (b) For competitive inhibition: $\alpha = \frac{K_m^{app}}{K_m} = \frac{12.0}{4.0} = 3$.
-$\alpha = 1 + \frac{[I]}{K_i}$So $3 = 1 + \frac{2.0}{K_i}$Giving $K_i = 1.0\;\mathrm{mM}$.
+$\alpha = 1 + \frac{[I]}{K_i}$ So $3 = 1 + \frac{2.0}{K_i}$Giving $K_i = 1.0\;\mathrm{mM}$.
 
 (c) Lineweaver-Burk plot ($1/v$ vs $1/[S]$):
 
@@ -1255,7 +1255,7 @@ $= 2(12) + 6(1) + 16 = 46\;\mathrm{g/mol}$. Mass: $15 \times 46 = 690\;\mathrm{g
 <summary>Problem 6: Extended Response -- Control of Respiration</summary>
 
 Describe how the rate of cellular respiration is controlled, explaining the roles of: (a) ATP/ADP
-ratio, (b) feedback inhibition of phosphofructokinase (PFK), (c) availability of $\mathrm{NAD}^+$And
+ratio, (b) feedback inhibition of phosphofructokinase (PFK), (c) availability of $\mathrm{NAD}^+$ And
 (d) oxygen availability. Explain how each mechanism ensures that ATP production matches cellular
 demand.
 
@@ -1418,7 +1418,7 @@ curves Are sigmoidal (S-shaped).
 
 (b) At $5.0\;\mathrm{kPa}$:
 
-- Normal saturation: $60\%$. If arterial saturation is $97\%$Then $97 - 60 = 37\%$ of $\mathrm{O}_2$
+- Normal saturation: $60\%$. If arterial saturation is $97\%$ Then $97 - 60 = 37\%$ of $\mathrm{O}_2$
   is unloaded.
 - - 2,3-BPG: $42\%$. $\mathrm{O}_2$ unloaded: $92 - 42 = 50\%$.
 - Additional unloading: $50 - 37 = 13\%$ more $\mathrm{O}_2$ is unloaded in the presence of 2,3-BPG.

@@ -1,6 +1,6 @@
 ---
 title: A1 Beginner
-description: "A1 Beginner - Complete study guide and practice questions"
+description: "The A1 level is the first level of the Common European Framework of Reference for Languages (CEFR). At this level, you can understand and use familiar everyday"
 date: 2026-01-01T00:00:00Z
 tags:
   - test-prep

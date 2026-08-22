@@ -1,7 +1,7 @@
 ---
 
 title: Error Handling
-description: "Go error handling patterns and conventions."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"go\", \"url\": \"https://go.wyattau.com\"}, {\"name\": \"Intermediate\", \"url\":"
 date: 2026-04-18
 tags:
   - Go

@@ -86,7 +86,7 @@ $\mathrm{CH}_3\mathrm{COOH}$$\mathrm{HCOOH}$$\mathrm{HCN}$$\mathrm{H}_2\mathrm{C
 
 ### Strong Bases
 
-Common strong bases: Group 1 hydroxides ($\mathrm{NaOH}$$\mathrm{KOH}$), $\mathrm{Ba(OH)}_2$And
+Common strong bases: Group 1 hydroxides ($\mathrm{NaOH}$$\mathrm{KOH}$), $\mathrm{Ba(OH)}_2$ And
 $\mathrm{Ca(OH)}_2$ (sparingly soluble but fully dissociated).
 
 ### Weak Bases
@@ -132,7 +132,7 @@ At $25^\circ\mathrm{C}$: $K_w = 1.0 \times 10^{-14}\,\mathrm{mol^2\,dm^{-6}}$.
 Since $[\mathrm{H}^+] = [\mathrm{OH}^-]$ in pure water:
 $[\mathrm{H}^+] = \sqrt{K_w} = 1.0 \times 10^{-7}\,\mathrm{mol/dm}^3$.
 
-$K_w$ is temperature-dependent. At $50^\circ\mathrm{C}$$K_w = 5.5 \times 10^{-14}$So neutral
+$K_w$ is temperature-dependent. At $50^\circ\mathrm{C}$$K_w = 5.5 \times 10^{-14}$ So neutral
 $\mathrm{pH} = 6.63$. The solution is still neutral ($[\mathrm{H}^+] = [\mathrm{OH}^-]$) but the pH
 is lower because $K_w$ has increased.
 
@@ -387,7 +387,7 @@ Example: $\mathrm{CH}_3\mathrm{COOH}$ vs $\mathrm{NaOH}$.
   $\mathrm{CH}_3\mathrm{COO}^-$ hydrolyses).
 - Suitable indicator: phenolphthalein (range 8.3--10.0).
 
-**Half-equivalence point:** At half-neutralisation, $[\mathrm{HA}] = [\mathrm{A}^-]$So
+**Half-equivalence point:** At half-neutralisation, $[\mathrm{HA}] = [\mathrm{A}^-]$ So
 $\mathrm{pH} = \mathrm{p}K_a$. This allows experimental determination of $\mathrm{p}K_a$ from a
 titration curve.
 
@@ -436,7 +436,7 @@ weak base.
    titration curve at the equivalence point.
 
 4. **Forgetting that $K_w$ changes with temperature.** At temperatures other than
-   $25^\circ\mathrm{C}$$\mathrm{p}K_w \ne 14$So $\mathrm{pH} + \mathrm{pOH} \ne 14$.
+   $25^\circ\mathrm{C}$$\mathrm{p}K_w \ne 14$ So $\mathrm{pH} + \mathrm{pOH} \ne 14$.
 
 5. **Adding strong acid/base to a buffer in quantities exceeding its capacity.** The buffer can only
    resist small additions; large additions will overwhelm it.
@@ -578,7 +578,7 @@ $$
 \mathrm{HA} + \mathrm{OH}^- \to \mathrm{A}^- + \mathrm{H}_2\mathrm{O}
 $$
 
-If the initial amount of $\mathrm{HA}$ is $n_0$Then at the half-equivalence point:
+If the initial amount of $\mathrm{HA}$ is $n_0$ Then at the half-equivalence point:
 
 $n(\mathrm{HA})_\mathrm{remaining} = n_0/2$
 
@@ -654,7 +654,7 @@ The indicator must change colour at the pH of the equivalence point:
 ### The Buffer Region on a Titration Curve
 
 In a weak acid-strong base titration, the buffer region is the flat portion of the curve before the
-equivalence point. In this region, added base converts $\mathrm{HA}$ to $\mathrm{A}^-$And the pH
+equivalence point. In this region, added base converts $\mathrm{HA}$ to $\mathrm{A}^-$ And the pH
 changes only slowly because the buffer resists pH change. At the half-equivalence point,
 $\mathrm{pH} = \mathrm{p}K_a$.
 
@@ -728,7 +728,7 @@ $$
 \mathrm{pH} = -\log_{10}(1.32 \times 10^{-3}) = 2.88
 $$
 
-Note that $1.32 \times 10^{-3}$ is approximately $1.3\%$ of $0.100$So the approximation is valid.
+Note that $1.32 \times 10^{-3}$ is approximately $1.3\%$ of $0.100$ So the approximation is valid.
 For weaker acids or higher concentrations, the full quadratic expression must be solved:
 
 $$

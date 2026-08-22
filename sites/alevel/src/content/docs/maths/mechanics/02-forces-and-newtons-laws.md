@@ -1,7 +1,7 @@
 ---
 
 title: Forces and Newton's Laws
-description: "Forces and Newton's Laws for A-Level Mathematics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -236,7 +236,7 @@ A block of mass $m$ sits on the floor of a lift which is accelerating upward at 
 2. Lift floor pushes block up with $R$ $\longleftrightarrow$ block pushes lift floor down with $R$.
 
 Note that $W$ and $R$ are **not** a Third Law pair (both act on the block, and they are different
-Types of force). In this case, applying Newton's Second Law to the block gives $R - mg = ma$So
+Types of force). In this case, applying Newton's Second Law to the block gives $R - mg = ma$ So
 $R = m(g + a) \gt mg$.
 
 <hr />
@@ -494,8 +494,8 @@ If a body in equilibrium is acted upon by exactly three coplanar forces, then:
 ### 11.3 Lami's theorem
 
 If three coplanar forces $F_1$, $F_2$, $F_3$ act on a body in equilibrium, and $\theta_1$ is the
-Angle between $F_2$ and $F_3$, $\theta_2$ is the angle between $F_1$ and $F_3$And $\theta_3$ is The
-angle between $F_1$ and $F_2$Then:
+Angle between $F_2$ and $F_3$, $\theta_2$ is the angle between $F_1$ and $F_3$ And $\theta_3$ is The
+angle between $F_1$ and $F_2$ Then:
 
 $$\frac{F_1}{\sin\theta_1} = \frac{F_2}{\sin\theta_2} = \frac{F_3}{\sin\theta_3}$$
 
@@ -1005,7 +1005,7 @@ Check: the force trying to pull the $5\,\mathrm{kg}$ block up the slope is $3g =
 The force opposing this is $5g\sin 30° + \mu(5g\cos 30°) = 24.5 + 16.99 = 41.49\,\mathrm{N}$.
 
 Since $29.4 \lt 41.49$The system remains in equilibrium. The tension is
-$T = 3g = 29.4\,\mathrm{N}$And friction $= T - 5g\sin 30° = 29.4 - 24.5 = 4.9\,\mathrm{N}$ (which Is
+$T = 3g = 29.4\,\mathrm{N}$ And friction $= T - 5g\sin 30° = 29.4 - 24.5 = 4.9\,\mathrm{N}$ (which Is
 $\lt \mu R = 16.99\,\mathrm{N}$Confirming equilibrium).
 
 **If you get this wrong, revise:**

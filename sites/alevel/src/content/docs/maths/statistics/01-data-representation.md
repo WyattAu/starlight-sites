@@ -56,7 +56,7 @@ $$\frac{dS}{da} = -2\sum x_i + 2na$$
 Setting $\dfrac{dS}{da} = 0$:
 $2na = 2\sum x_i \implies a = \dfrac{\sum x_i}{n} = \bar{x}$.
 
-Check: $\dfrac{d^2S}{da^2} = 2n \gt 0$So this is a minimum. $\blacksquare$
+Check: $\dfrac{d^2S}{da^2} = 2n \gt 0$ So this is a minimum. $\blacksquare$
 
 **Intuition.** The mean is the "centre of mass" of the data. It is the single value that best
 Represents all the data points in the sense of least squares — no other value produces a smaller
@@ -162,7 +162,7 @@ Values outside these fences are potential outliers.
 
 ### 4.2 Effect on summary statistics
 
-If $y_i = \dfrac{x_i - a}{c}$Then:
+If $y_i = \dfrac{x_i - a}{c}$ Then:
 
 $$\bar{y} = \frac{\bar{x} - a}{c}, \qquad \sigma_y = \frac{\sigma_x}{|c|}$$
 
@@ -469,7 +469,7 @@ $\sigma_y = \sigma_x/5 = 3 \implies \sigma_x = 15$.
 
 <details>
 <summary>Problem 4</summary>
-For the ordered dataset $\{2, 3, 5, 7, 8, 11, 14, 18, 23\}$Find $Q_1$, $Q_2$, $Q_3$And the IQR. Identify any outliers.
+For the ordered dataset $\{2, 3, 5, 7, 8, 11, 14, 18, 23\}$Find $Q_1$, $Q_2$, $Q_3$ And the IQR. Identify any outliers.
 </details>
 
 <details>
@@ -483,7 +483,7 @@ $\mathrm{IQR} = 16 - 4 = 12$.
 
 Lower fence: $4 - 1.5(12) = -14$. Upper fence: $16 + 1.5(12) = 34$.
 
-All values are within $[-14, 34]$So no outliers.
+All values are within $[-14, 34]$ So no outliers.
 
 **If you get this wrong, revise:** [Quartiles, IQR, and Box Plots](#3-quartiles-iqr-and-box-plots) —
 Section 3.
@@ -552,7 +552,7 @@ Given that $\bar{x} = 20$ and $\sum(x_i - 20)^2 = 360$ for $n = 10$ observations
 
 <details>
 <summary>Solution 8</summary>
-$\sigma^2 = 360/10 = 36$So $\sigma = 6$.
+$\sigma^2 = 360/10 = 36$ So $\sigma = 6$.
 
 $s^2 = 360/9 = 40$.
 
@@ -591,7 +591,7 @@ Income distributions are right-skewed — a small number of very high earners pu
 
 <details>
 <summary>Problem 11</summary>
-For the dataset $\{2, 4, 5, 6, 7, 8, 12, 15, 28\}$Find $Q_1$, $Q_2$, $Q_3$, $\bar{x}$And $\sigma$. Hence calculate Pearson's first coefficient of skewness and interpret the result.
+For the dataset $\{2, 4, 5, 6, 7, 8, 12, 15, 28\}$Find $Q_1$, $Q_2$, $Q_3$, $\bar{x}$ And $\sigma$. Hence calculate Pearson's first coefficient of skewness and interpret the result.
 </details>
 
 <details>
@@ -607,7 +607,7 @@ $\bar{x} = (2+4+5+6+7+8+12+15+28)/9 = 87/9 = 9.67$.
 
 $\sum x^2 = 4 + 16 + 25 + 36 + 49 + 64 + 144 + 225 + 784 = 1347$.
 
-$\sigma^2 = 1347/9 - 9.67^2 = 149.67 - 93.51 = 56.16$So $\sigma = 7.49$.
+$\sigma^2 = 1347/9 - 9.67^2 = 149.67 - 93.51 = 56.16$ So $\sigma = 7.49$.
 
 Pearson's first coefficient:
 $$S_1 = \frac{3(9.67 - 7)}{7.49} = \frac{3 \times 2.67}{7.49} = \frac{8.01}{7.49} \approx 1.07$$
@@ -775,7 +775,7 @@ $\bar{x} = (3+5+6+7+8+9+10+12+45)/9 = 105/9 = 11.67$.
 
 $\sum x^2 = 9 + 25 + 36 + 49 + 64 + 81 + 100 + 144 + 2025 = 2533$.
 
-$\sigma^2 = 2533/9 - 11.67^2 = 281.44 - 136.19 = 145.25$So $\sigma = 12.05$.
+$\sigma^2 = 2533/9 - 11.67^2 = 281.44 - 136.19 = 145.25$ So $\sigma = 12.05$.
 
 **Pearson's first coefficient:**
 $$S_1 = \frac{3(11.67 - 8)}{12.05} = \frac{11.01}{12.05} \approx 0.91$$

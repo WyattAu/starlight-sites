@@ -91,7 +91,7 @@ $$\frac{d}{dx}e^x = \lim_{h\to 0}\frac{e^{x+h}-e^x}{h} = \lim_{h\to 0}\frac{e^x(
 
 So we need to show that $\displaystyle\lim_{h\to 0}\frac{e^h - 1}{h} = 1$.
 
-Let $e^h - 1 = t$So that $h = \ln(1+t)$. As $h \to 0$We have $t \to 0$. Then:
+Let $e^h - 1 = t$ So that $h = \ln(1+t)$. As $h \to 0$We have $t \to 0$. Then:
 
 $$\lim_{h\to 0}\frac{e^h - 1}{h} = \lim_{t\to 0}\frac{t}{\ln(1+t)} = \lim_{t\to 0}\frac{1}{\frac{\ln(1+t)}{t}}$$
 
@@ -137,7 +137,7 @@ The **natural logarithm** is the logarithm with base $e$Written $\ln x = \log_e 
 
 ### 3.2 Proof that $a^{\log_a x} = x$ and $\log_a(a^x) = x$
 
-**Theorem.** For all $a \gt 0$, $a \neq 1$And all $x \gt 0$:
+**Theorem.** For all $a \gt 0$, $a \neq 1$ And all $x \gt 0$:
 
 $$(\mathrm i)\quad a^{\log_a x} = x \qquad (\mathrm{ii})\quad \log_a(a^x) = x$$
 
@@ -155,7 +155,7 @@ Inverse, $\log_a(a^x) = x$. $\blacksquare$
 
 **Theorem.** $\log_a(xy) = \log_a x + \log_a y$
 
-**Proof.** Let $p = \log_a x$ and $q = \log_a y$So $a^p = x$ and $a^q = y$.
+**Proof.** Let $p = \log_a x$ and $q = \log_a y$ So $a^p = x$ and $a^q = y$.
 
 $$xy = a^p \cdot a^q = a^{p+q}$$
 
@@ -175,7 +175,7 @@ Therefore $\log_a(x/y) = p - q = \log_a x - \log_a y$. $\blacksquare$
 
 **Theorem.** $\log_a(x^n) = n\log_a x$
 
-**Proof.** Let $p = \log_a x$So $a^p = x$. Then:
+**Proof.** Let $p = \log_a x$ So $a^p = x$. Then:
 
 $$x^n = (a^p)^n = a^{pn}$$
 
@@ -282,7 +282,7 @@ $$
 
 Sometimes we can use a substitution. For example, $e^{2x} + 3e^x - 4 = 0$.
 
-Let $u = e^x$ (note $u \gt 0$). Then $u^2 + 3u - 4 = 0$Giving $(u+4)(u-1) = 0$So $u = 1$ (rejecting
+Let $u = e^x$ (note $u \gt 0$). Then $u^2 + 3u - 4 = 0$Giving $(u+4)(u-1) = 0$ So $u = 1$ (rejecting
 $u = -4$). Hence $e^x = 1$Giving $x = 0$.
 
 :::caution
@@ -302,7 +302,7 @@ $$N = N_0 e^{kt}, \quad k > 0$$
 
 Where $N_0$ is the initial quantity and $k$ is the growth constant.
 
-The **doubling time** $T_d$ satisfies $N_0 e^{kT_d} = 2N_0$So:
+The **doubling time** $T_d$ satisfies $N_0 e^{kT_d} = 2N_0$ So:
 
 $$e^{kT_d} = 2 \implies T_d = \frac{\ln 2}{k}$$
 
@@ -310,7 +310,7 @@ $$e^{kT_d} = 2 \implies T_d = \frac{\ln 2}{k}$$
 
 $$N = N_0 e^{-kt}, \quad k > 0$$
 
-The **half-life** $t_{1/2}$ satisfies $N_0 e^{-kt_{1/2}} = \frac{N_0}{2}$So:
+The **half-life** $t_{1/2}$ satisfies $N_0 e^{-kt_{1/2}} = \frac{N_0}{2}$ So:
 
 $$e^{-kt_{1/2}} = \frac{1}{2} \implies t_{1/2} = \frac{\ln 2}{k}$$
 
@@ -404,7 +404,7 @@ Evaluate $\displaystyle\lim_{n\to\infty}\left(1+\frac{3}{n}\right)^n$.
 
 <details>
 <summary>Solution 1</summary>
-Let $m = n/3$So $n = 3m$. As $n \to \infty$, $m \to \infty$.
+Let $m = n/3$ So $n = 3m$. As $n \to \infty$, $m \to \infty$.
 
 $$\left(1+\frac{3}{n}\right)^n = \left(1+\frac{1}{m}\right)^{3m} = \left[\left(1+\frac{1}{m}\right)^m\right]^3 \to e^3$$
 
@@ -419,7 +419,7 @@ Prove that $\dfrac{d}{dx}(e^{3x^2}) = 6x\, e^{3x^2}$ using the chain rule.
 
 <details>
 <summary>Solution 2</summary>
-Let $u = 3x^2$So $y = e^u$ and $\dfrac{dy}{du} = e^u$, $\dfrac{du}{dx} = 6x$.
+Let $u = 3x^2$ So $y = e^u$ and $\dfrac{dy}{du} = e^u$, $\dfrac{du}{dx} = 6x$.
 
 By the chain rule:
 $\dfrac{dy}{dx} = \dfrac{dy}{du} \cdot \dfrac{du}{dx} = e^u \cdot 6x = 6x\, e^{3x^2}$.
@@ -440,7 +440,7 @@ $$\log_2[(x+3)(x-1)] = 4 \implies (x+3)(x-1) = 16$$
 $$x^2 + 2x - 3 = 16 \implies x^2 + 2x - 19 = 0$$
 $$x = \frac{-2 \pm \sqrt{4+76}}{2} = \frac{-2 \pm \sqrt{80}}{2} = -1 \pm 2\sqrt{5}$$
 
-Domain: $x \gt 1$So $x = -1 + 2\sqrt{5}$.
+Domain: $x \gt 1$ So $x = -1 + 2\sqrt{5}$.
 
 **If you get this wrong, revise:** [Laws of Logarithms](#4-laws-of-logarithms) — Section 4.
 
@@ -467,7 +467,7 @@ Solve $5^{2x} - 6 \cdot 5^x + 5 = 0$.
 
 <details>
 <summary>Solution 5</summary>
-Let $u = 5^x$ ($u \gt 0$). Then $u^2 - 6u + 5 = 0$So $(u-1)(u-5) = 0$.
+Let $u = 5^x$ ($u \gt 0$). Then $u^2 - 6u + 5 = 0$ So $(u-1)(u-5) = 0$.
 
 $u = 1$: $5^x = 1 \implies x = 0$. $u = 5$: $5^x = 5 \implies x = 1$.
 

@@ -23,9 +23,9 @@ description: "Show that has no normal subgroup of order 8. Comprehensive educati
 
 _Solution._ Suppose $N \trianglelefteq S_4$ with $|N| = 8$. By Lagrange, $[S_4 : N] = 24/8 = 3$. The
 action of $S_4$ on the cosets of $N$ gives a homomorphism $\phi : S_4 \to S_3$. Since $N$ is normal,
-$\ker(\phi) \subseteq N$So $|\ker(\phi)|$ divides $8$. Since $\mathrm{im}(\phi) \subseteq S_3$ has
-order dividing $6$, $|\ker(\phi)|$ divides $24/6 = 4$. But $|\ker(\phi)|$ divides $8$So
-$|\ker(\phi)|$ divides $\gcd(8, 4) = 4$. Since $\ker(\phi) \subseteq N$ and $|N| = 8$And
+$\ker(\phi) \subseteq N$ So $|\ker(\phi)|$ divides $8$. Since $\mathrm{im}(\phi) \subseteq S_3$ has
+order dividing $6$, $|\ker(\phi)|$ divides $24/6 = 4$. But $|\ker(\phi)|$ divides $8$ So
+$|\ker(\phi)|$ divides $\gcd(8, 4) = 4$. Since $\ker(\phi) \subseteq N$ and $|N| = 8$ And
 $|\ker(\phi)|$ divides $4$This is possible. However, we need $\ker(\phi) = N$ (since $N$ is the
 kernel of the action on cosets). Then $|\ker(\phi)| = 8$Contradicting $|\ker(\phi)| \leq 4$. So no
 such $N$ exists. $\blacksquare$
@@ -88,7 +88,7 @@ $H$ is abelian. Let $|H| = m$ and $[G : H] = n$ with $\gcd(m, n) = 1$.
 
 Consider the action of $G$ on $H$ by conjugation. Since $H$ is abelian and normal, $G$ acts by
 Automorphisms on $H$. The group of automorphisms of $H$, $\mathrm{Aut}(H)$Has order dividing
-$|H|!$But we need a more refined argument.
+$|H|!$ But we need a more refined argument.
 
 Here is a cleaner approach for the case when one factor is cyclic. Let $G/H = \langle gH \rangle$ be
 cyclic (which always holds when $[G : H]$ is the smallest prime dividing $|G|$). Pick a
@@ -113,7 +113,7 @@ $r > q > p$We have $r > pq$ is possible but $n_r = pq + 1, 2pq + 1, \ldots$ woul
 $pq$. The only divisors of $pq$ are $1, p, q, pq$. If $n_r = 1$We are done (Sylow $r$-subgroup is
 normal).
 
-If $n_r \neq 1$Then $n_r \geq r + 1 > q + 1 > p + 1$. Since $n_r$ divides $pq$ We must have
+If $n_r \neq 1$ Then $n_r \geq r + 1 > q + 1 > p + 1$. Since $n_r$ divides $pq$ We must have
 $n_r = pq$. This means there are $pq(r - 1)$ non-identity elements in Sylow $r$-subgroups.
 
 Similarly, $n_q \equiv 1 \pmod{q}$ and $n_q$ divides $pr$. If $n_q = pr$There are $pr(q - 1)$
@@ -131,20 +131,20 @@ at least one of $n_r = 1$ or $n_q = 1$ must hold, giving a normal Sylow subgroup
 <summary>Solution</summary>
 
 _Solution._ $|G| = 10 = 2 \cdot 5$. By Sylow"s third theorem: $n_5 \equiv 1 \pmod{5}$ and $n_5$
-Divides $2$So $n_5 = 1$. The Sylow $5$-subgroup $P = \langle a \rangle \cong \mathbb{Z}/5\mathbb{Z}$
+Divides $2$ So $n_5 = 1$. The Sylow $5$-subgroup $P = \langle a \rangle \cong \mathbb{Z}/5\mathbb{Z}$
 is normal.
 
-$n_2 \equiv 1 \pmod{2}$ and $n_2$ divides $5$So $n_2 = 1$ or $5$.
+$n_2 \equiv 1 \pmod{2}$ and $n_2$ divides $5$ So $n_2 = 1$ or $5$.
 
 Let $b$ be an element of order $2$ (exists by Cauchy's theorem). Since $P \trianglelefteq G$
 $bab^{-1} \in P$. So $bab^{-1} = a^k$ for some $k \in \{0, 1, 2, 3, 4\}$. Applying conjugation
-twice: $b^2ab^{-2} = a^{k^2}$I.e., $a = a^{k^2}$So $k^2 \equiv 1 \pmod{5}$ Giving $k \equiv 1$ or
+twice: $b^2ab^{-2} = a^{k^2}$I.e., $a = a^{k^2}$ So $k^2 \equiv 1 \pmod{5}$ Giving $k \equiv 1$ or
 $k \equiv 4 \pmod{5}$.
 
-**Case $k = 1$:** $bab^{-1} = a$So $a$ and $b$ commute.
+**Case $k = 1$:** $bab^{-1} = a$ So $a$ and $b$ commute.
 $G \cong \mathbb{Z}/5\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z} \cong \mathbb{Z}/10\mathbb{Z}$.
 
-**Case $k = 4$:** $bab^{-1} = a^4 = a^{-1}$So $ba = a^{-1}b$. This gives the dihedral group $D_5$.
+**Case $k = 4$:** $bab^{-1} = a^4 = a^{-1}$ So $ba = a^{-1}b$. This gives the dihedral group $D_5$.
 
 These are the only two possibilities, so there are exactly two groups of order $10$. $\blacksquare$
 

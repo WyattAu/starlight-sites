@@ -50,7 +50,7 @@ moment is $M = Fd\sin\theta$Where $d$ is the distance from the pivot to the poin
 
 **Proof.** Resolve the force into components parallel and perpendicular to the line from the pivot
 To the point of application. The parallel component passes through the pivot and produces zero
-Moment. The perpendicular component is $F\sin\theta$And its moment is $F\sin\theta \times d$.
+Moment. The perpendicular component is $F\sin\theta$ And its moment is $F\sin\theta \times d$.
 $\blacksquare$
 
 ### 1.3 Worked example: beam on two supports
@@ -170,7 +170,7 @@ $$\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{
 **Uniform triangular lamina:** At the intersection of the medians, which is at a distance
 $\dfrac{2}{3}$ of the median length from each vertex.
 
-**Proof for a triangle.** Place the triangle with vertices at $(0,0)$, $(a,0)$And $(0,b)$. A strip
+**Proof for a triangle.** Place the triangle with vertices at $(0,0)$, $(a,0)$ And $(0,b)$. A strip
 parallel to the base at height $y$ has width $a\!\left(1 - \dfrac{y}{b}\right)$ and mass
 Proportional to this width.
 

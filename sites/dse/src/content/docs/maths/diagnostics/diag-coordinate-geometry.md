@@ -244,11 +244,11 @@ $OA = OB = OC = 1$ (all on unit circle).
 
 Angle $AOB$: $\angle AOB$ where $A = (1, 0)$ and $B = (0, 1)$.
 
-$\cos \angle AOB = \dfrac{\vec{OA} \cdot \vec{OB}}{|OA||OB|} = \dfrac{0 + 0}{1} = 0$So
+$\cos \angle AOB = \dfrac{\vec{OA} \cdot \vec{OB}}{|OA||OB|} = \dfrac{0 + 0}{1} = 0$ So
 $\angle AOB = 90°$.
 
 For an equilateral triangle inscribed in a circle, each angle is $60°$. But
-$\angle AOB = 90° \neq 60°$So there is **no** equilateral triangle with vertices $A$, $B$, $C$ all on
+$\angle AOB = 90° \neq 60°$ So there is **no** equilateral triangle with vertices $A$, $B$, $C$ all on
 the unit circle.
 
 This tests the misconception of assuming any three points on a circle can form an equilateral
@@ -269,7 +269,7 @@ triangle.
 
 **Question:**
 
-The parabola $y = x^2 - 4x + 7$ has vertex $V$. Find the coordinates of $V$And the equation of the
+The parabola $y = x^2 - 4x + 7$ has vertex $V$. Find the coordinates of $V$ And the equation of the
 axis of symmetry. If the parabola is reflected in the $y$-axis, find the equation of the reflected
 parabola.
 
@@ -304,7 +304,7 @@ The reflected parabola has vertex $(-2, 3)$ and axis $x = -2$.
 
 **Question:**
 
-$A(3, -1)$, $B(7, 5)$And $C(11, -1)$ are three points.
+$A(3, -1)$, $B(7, 5)$ And $C(11, -1)$ are three points.
 
 (a) Show that triangle $ABC$ is isosceles. (2 marks) (b) Find the area of triangle $ABC$. (3 marks)
 
@@ -521,7 +521,7 @@ Sum of radii: $r_1 + r_2 = 2 + 5 = 7$.
 
 $\sqrt{41} \neq 7$ ($\sqrt{41} \approx 6.4$), so $C_1$ and $C_2$ do NOT touch externally.
 
-In fact, $O_1 O_2 = \sqrt{41} < 7 = r_1 + r_2$So the circles **overlap** (intersect at two points).
+In fact, $O_1 O_2 = \sqrt{41} < 7 = r_1 + r_2$ So the circles **overlap** (intersect at two points).
 
 ---
 
@@ -581,7 +581,7 @@ Equation: $y - 2 = 1(x - 1) \implies y = x + 1$Or $x - y + 1 = 0$.
 
 3. **Confusing the radius with the diameter in circle equations.** The standard form
    $(x - h)^2 + (y - k)^2 = r^2$ gives the radius squared on the right side. If the equation is
-   $(x-h)^2 + (y-k)^2 = d^2$Then $d$ is the diameter, not the radius.
+   $(x-h)^2 + (y-k)^2 = d^2$ Then $d$ is the diameter, not the radius.
 
 4. **Wrong slope for perpendicular lines.** If a line has slope $m$The perpendicular line has slope
    $-\dfrac{1}{m}$Not $\dfrac{1}{m}$. This sign error is extremely common in DSE.
@@ -671,7 +671,7 @@ for all $m$.
 
 $x = \dfrac{-1 \pm \sqrt{1 + 16}}{2} = \dfrac{-1 \pm \sqrt{17}}{2}$.
 
-$y$-coordinates: $y = x + 1$So $y = \dfrac{1 \pm \sqrt{17}}{2}$.
+$y$-coordinates: $y = x + 1$ So $y = \dfrac{1 \pm \sqrt{17}}{2}$.
 
 Chord length
 $= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = \sqrt{(\sqrt{17})^2 + (\sqrt{17})^2} = \sqrt{34}$.
@@ -726,7 +726,7 @@ $x + y - 7 = 0$.
 
 ### DSE-4
 
-The vertices of a triangle are $A(0, 0)$, $B(8, 0)$And $C(4, 6)$.
+The vertices of a triangle are $A(0, 0)$, $B(8, 0)$ And $C(4, 6)$.
 
 (a) Find the equation of the median from $C$ to $AB$. (2 marks) (b) Find the equation of the
 altitude from $A$ to $BC$. (3 marks) (c) Find the coordinates of the intersection of the median and

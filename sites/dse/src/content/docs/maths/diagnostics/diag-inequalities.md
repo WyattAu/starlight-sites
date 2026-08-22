@@ -73,8 +73,8 @@ Since the RHS involves $x$We cannot split into two cases without considering the
 
 **Case 1:** $3x + 1 \leq 0$I.e. $x \leq -\dfrac{1}{3}$.
 
-$|2x - 5| \geq 0$ and $3x + 1 \leq 0$So $|2x - 5| \geq 0 > 3x + 1$ is possible only if
-$|2x - 5| < 3x + 1$. But $3x + 1 \leq 0$ while $|2x - 5| \geq 0$So $|2x - 5| < 3x + 1$ is impossible
+$|2x - 5| \geq 0$ and $3x + 1 \leq 0$ So $|2x - 5| \geq 0 > 3x + 1$ is possible only if
+$|2x - 5| < 3x + 1$. But $3x + 1 \leq 0$ while $|2x - 5| \geq 0$ So $|2x - 5| < 3x + 1$ is impossible
 when $3x + 1 \leq 0$ (since LHS $\geq 0$ and RHS $\leq 0$Equality requires both zero, but
 $|2x-5|=0 \implies x=5/2 \not\leq -1/3$).
 
@@ -149,7 +149,7 @@ Find the maximum value of $P = 3x + 2y$ in this region.
 
 Corner points of the feasible region:
 
-1. Intersection of $x + y = 6$ and $2x - y = 1$: adding gives $3x = 7$So
+1. Intersection of $x + y = 6$ and $2x - y = 1$: adding gives $3x = 7$ So
    $x = \dfrac{7}{3}$, $y = 6 - \dfrac{7}{3} = \dfrac{11}{3}$. Point:
    $\left(\dfrac{7}{3},\; \dfrac{11}{3}\right)$.
 
@@ -369,7 +369,7 @@ $\Delta < 0$.
 
 $$\Delta = 36 - 4k < 0 \implies k > 9$$
 
-When $k = 9$: $\Delta = 0$And $x^2 - 6x + 9 = (x-3)^2 \geq 0$. The inequality is strict ($>$), so
+When $k = 9$: $\Delta = 0$ And $x^2 - 6x + 9 = (x-3)^2 \geq 0$. The inequality is strict ($>$), so
 $x = 3$ gives $0 \not> 0$.
 
 Therefore $k > 9$ (strictly).
@@ -653,7 +653,7 @@ positive. (4 marks)
 
 There are NEVER two distinct real roots. The answer is: no such value of $k$ exists.
 
-(b) $\Delta < 0$ for all $k$So there are no real roots for all values of $k$.
+(b) $\Delta < 0$ for all $k$ So there are no real roots for all values of $k$.
 
 (c) Since the equation never has real roots, there is no value of $k$ for which both roots are
 positive.

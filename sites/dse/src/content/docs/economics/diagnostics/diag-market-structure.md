@@ -29,7 +29,7 @@ The shutdown price.
 **Solution:**
 
 (a) Profit maximisation: $MC = MR = P$. $MC = \frac{\text{dTC}}{    ext{dQ}} = 10 + Q$. Set
-$10 + Q = 50$So $Q^* = 40$.
+$10 + Q = 50$ So $Q^* = 40$.
 
 (b) Profit
 $= TR - TC = 50(40) - [200 + 10(40) + 0.5(40)^2] = 2000 - [200 + 400 + 800] = 2000 - 1400 = \$600$.
@@ -37,7 +37,7 @@ $= TR - TC = 50(40) - [200 + 10(40) + 0.5(40)^2] = 2000 - [200 + 400 + 800] = 20
 (c) Since profit $\gt 0$The firm is **not** in long-run equilibrium. In long-run equilibrium under
 Perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
 
-(d) Shutdown price $= $ minimum AVC. $VC = 10Q + 0.5Q^2$So $AVC = 10 + 0.5Q$. Minimum AVC occurs
+(d) Shutdown price $= $ minimum AVC. $VC = 10Q + 0.5Q^2$ So $AVC = 10 + 0.5Q$. Minimum AVC occurs
 Where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
 Shutdown price is $\$10$. If price falls below $\$10$The firm shuts down because it cannot even
 Cover its variable costs.
@@ -209,7 +209,7 @@ $P = 20 - 0.2(q_A + q_B)$.
 
 Firm A: $\pi_A = P \cdot q_A - 4q_A = (20 - 0.2q_A - 0.2q_B - 4)q_A = (16 - 0.2q_A - 0.2q_B)q_A$.
 
-FOC: $\frac{\partial \pi_A}{\partial q_A} = 16 - 0.4q_A - 0.2q_B = 0$So $q_A = 40 - 0.5q_B$.
+FOC: $\frac{\partial \pi_A}{\partial q_A} = 16 - 0.4q_A - 0.2q_B = 0$ So $q_A = 40 - 0.5q_B$.
 
 By symmetry: $q_B = 40 - 0.5q_A$. Solving:
 $q_A = 40 - 0.5(40 - 0.5q_A) = 40 - 20 + 0.25q_A = 20 + 0.25q_A$. $0.75q_A = 20$
@@ -235,7 +235,7 @@ Equals marginal cost.
 
 **Solution:**
 
-(a) Competitive: $P = MC = 2 + 0.2Q = 12$So $0.2Q = 10$$Q_c = 50$.
+(a) Competitive: $P = MC = 2 + 0.2Q = 12$ So $0.2Q = 10$$Q_c = 50$.
 
 Monopoly: $MC = 2 + 0.2Q$. Need demand: at $P = 12$$Q = 50$. Assume linear demand through this Point
 with choke price. $P = a - bQ$. From $MC$ curve: at $Q = 0$$MC = 2$. Let demand pass through
@@ -263,7 +263,7 @@ $DWL = \frac{1}{2}(P_m - MC_m)(Q_c - Q_m) = \frac{1}{2}(15.33 - 8.67)(50 - 33.33
 
 (d) Allocative efficiency requires $P = MC$Meaning marginal benefit (reflected in willingness to
 Pay) equals marginal cost. In perfect competition, firms produce where $P = MC$Maximising total
-Surplus. The monopoly restricts output to $Q_m \lt Q_c$So for the units between $Q_m$ and $Q_c$
+Surplus. The monopoly restricts output to $Q_m \lt Q_c$ So for the units between $Q_m$ and $Q_c$
 Consumers' marginal benefit exceeds the marginal cost of production. These mutually beneficial
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
 Total social surplus, leading to an underallocation of resources to this good.
@@ -368,10 +368,10 @@ The increase in demand leads to 7 new firms entering the market, while the price
 remain unchanged.
 
 (c) **Short-run response:** In the short run, the number of firms is fixed at 24. Each firm's supply
-is its MC curve above minimum AVC (which is at $Q = 0$, $AVC = 2$So minimum AVC $= 2$). Total market
+is its MC curve above minimum AVC (which is at $Q = 0$, $AVC = 2$ So minimum AVC $= 2$). Total market
 supply $= 24 \times (2 + Q_i) = 48 + 24Q_i$ where $Q_i$ is per-firm output.
 
-Setting $P = MC$ for each firm: $2 + Q_i = P$So $Q_i = P - 2$. Total supply $= 24(P - 2)$.
+Setting $P = MC$ for each firm: $2 + Q_i = P$ So $Q_i = P - 2$. Total supply $= 24(P - 2)$.
 
 Market equilibrium: $24(P - 2) = (60 - P)/0.1 = 600 - 10P$. $24P - 48 = 600 - 10P$. $34P = 648$.
 $P = 19.06$.

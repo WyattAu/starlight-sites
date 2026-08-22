@@ -28,10 +28,10 @@ scalar Potential $\phi$ such that $\mathbf{F} = \nabla \phi$.
 **Theorem 3.1.** $\mathbf{F}$ is conservative (on a connected domain) if and only if
 $\nabla \times \mathbf{F} = \mathbf{0}$.
 
-_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$Then by Clairaut"s theorem
+_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$ Then by Clairaut"s theorem
 $f_{xy} = f_{yx}$Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
 
-($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$Then for any
+($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$ Then for any
 Closed curve $C$ in $D$Stokes' theorem gives
 $\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = 0$.
 This means line integrals are path-independent, so we can define
@@ -46,7 +46,7 @@ by $\mathbf{r}(t)$ for $a \leq t \leq b$ is
 $$\int_C \mathbf{F} \cdot d\mathbf{r} = \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t)\, dt$$
 
 **Theorem 3.2 (Fundamental Theorem for Line Integrals).** If $\mathbf{F} = \nabla \phi$ and $C$ is a
-Piecewise smooth curve from $A$ to $B$Then
+Piecewise smooth curve from $A$ to $B$ Then
 
 $$\int_C \mathbf{F} \cdot d\mathbf{r} = \phi(B) - \phi(A)$$
 
@@ -96,19 +96,19 @@ $\blacksquare$
 
 **Theorem 3.4 (Green's Theorem).** Let $C$ be a positively oriented, piecewise smooth, simple closed
 Curve bounding a region $D$. If $P$ and $Q$ have continuous partial derivatives on an open set
-Containing $D$Then
+Containing $D$ Then
 
 $$\oint_C P\, dx + Q\, dy = \iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA$$
 
 _Proof (for a Type I region)._ Assume $D$ is a Type I region:
 $D = \\{(x,y) : a \leq x \leq b,\, g_1(x) \leq y \leq g_2(x)\\}$. The boundary $C$ consists of Four
-pieces: bottom $C_1$Right $C_2$Top $C_3$And left $C_4$.
+pieces: bottom $C_1$Right $C_2$Top $C_3$ And left $C_4$.
 
 We first prove $\oint_C P\, dx = -\iint_D \frac{\partial P}{\partial y}\, dA$.
 
-On $C_1$: $y = g_1(x)$, $x$ goes from $a$ to $b$So $\int_{C_1} P\, dx = \int_a^b P(x, g_1(x))\, dx$.
+On $C_1$: $y = g_1(x)$, $x$ goes from $a$ to $b$ So $\int_{C_1} P\, dx = \int_a^b P(x, g_1(x))\, dx$.
 
-On $C_3$: $y = g_2(x)$, $x$ goes from $b$ to $a$So
+On $C_3$: $y = g_2(x)$, $x$ goes from $b$ to $a$ So
 $\int_{C_3} P\, dx = \int_b^a P(x, g_2(x))\, dx = -\int_a^b P(x, g_2(x))\, dx$.
 
 On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$Hence $\int_{C_2} P\, dx = \int_{C_4} P\, dx = 0$.
@@ -180,7 +180,7 @@ $\blacksquare$
 
 **Theorem 3.6 (Stokes' Theorem).** Let $S$ be an oriented surface with piecewise smooth boundary
 curve $C$ (positively oriented). If $\mathbf{F}$ has continuous partial derivatives on an open set
-containing $S$Then
+containing $S$ Then
 
 $$\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}$$
 
@@ -246,7 +246,7 @@ $\blacksquare$
 
 **Theorem 3.7 (Divergence Theorem / Gauss's Theorem).** Let $E$ be a solid region bounded by a
 closed Surface $S$ with outward normal $\mathbf{n}$. If $\mathbf{F}$ has continuous partial
-derivatives on an Open set containing $E$Then
+derivatives on an Open set containing $E$ Then
 
 $$\iint_S \mathbf{F} \cdot d\mathbf{S} = \iiint_E \nabla \cdot \mathbf{F}\, dV$$
 
@@ -364,7 +364,7 @@ $$\frac{\partial \phi}{\partial y} = x^2 + g_y(y,z) = x^2 + 2yz \implies g_y(y,z
 
 $$\frac{\partial \phi}{\partial z} = 2xz + y^2 + h'(z)$$
 
-This must equal $2xz + y^2$So $h'(z) = 0$Giving $h(z) = C$.
+This must equal $2xz + y^2$ So $h'(z) = 0$Giving $h(z) = C$.
 
 Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 

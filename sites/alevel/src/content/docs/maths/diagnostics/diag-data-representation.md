@@ -230,14 +230,14 @@ The data is coded using the formula $y = \frac{x - 10}{5}$.
 **(a)** Find the mean and standard deviation of the coded data $y$.
 
 **(b)** A student claims that the standard deviation of $y$ equals the standard deviation of $x$
-divided by 5. Another student claims it equals the standard deviation of $x$ divided by $|5| = 5$So
+divided by 5. Another student claims it equals the standard deviation of $x$ divided by $|5| = 5$ So
 they agree. A third student says the standard deviation of $y$ equals the standard deviation of $x$
-divided by $b$ where $y = \frac{x - a}{b}$And asks: "Does it matter whether $b$ is positive or
+divided by $b$ where $y = \frac{x - a}{b}$ And asks: "Does it matter whether $b$ is positive or
 negative?" Resolve this dispute with a clear explanation.
 
 **(c)** A second weather station uses the coding $z = 3 - 2x$. Without recalculating from the raw
 data, find the mean and variance of $z$. Show that the variance of $z$ is the same as the variance
-of $w$ where $w = 2x - 3$And explain why this is the case.
+of $w$ where $w = 2x - 3$ And explain why this is the case.
 
 [Difficulty: hard. Tests the precise effect of coding on variance, particularly the role of $b^2$ vs
 $b$.]
@@ -258,7 +258,7 @@ For the coded data $y = \frac{x - 10}{5} = \frac{1}{5}x - 2$:
 
 $$\bar{y} = \frac{1}{5}\bar{x} - 2 = \frac{19}{5} - 2 = 3.8 - 2 = 1.8$$
 
-For the standard deviation: if $y = \frac{x - a}{b}$Then
+For the standard deviation: if $y = \frac{x - a}{b}$ Then
 $\text{SD}(y) = \frac{\text{SD}(x)}{|b|}$.
 
 $$\text{SD}(y) = \frac{1}{|5|} \times \sqrt{\frac{185}{7}} = \frac{1}{5}\sqrt{\frac{185}{7}} = \sqrt{\frac{185}{175}} = \sqrt{\frac{37}{35}}$$
@@ -281,7 +281,7 @@ $$\text{Var}(y) = \left(\frac{1}{5}\right)^2 \text{Var}(x) = \frac{1}{25}\text{V
 So $\text{SD}(y) = \frac{1}{5}\text{SD}(x)$.
 
 The question about whether $b$ being positive or negative matters: **it does not**. Since the
-variance scales by $a^2 = \left(\frac{1}{b}\right)^2 = \frac{1}{b^2}$And $b^2 = (-b)^2$The sign of
+variance scales by $a^2 = \left(\frac{1}{b}\right)^2 = \frac{1}{b^2}$ And $b^2 = (-b)^2$The sign of
 $b$ is irrelevant. If we had coded as $y = \frac{x - 10}{-5}$The variance would be the same. The
 mean would flip ($\bar{y}$ becomes $-1.8$ instead of $1.8$), but the spread is identical.
 

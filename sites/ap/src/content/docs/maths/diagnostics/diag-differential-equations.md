@@ -33,7 +33,7 @@ categories:
 Solve the initial value problem $\dfrac{dy}{dx} = y^{2/3}$ with $y(0) = 0$.
 
 A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$Obtaining
-$3y^{1/3} = x + C$. Using $y(0) = 0$: $C = 0$So $y = \left(\dfrac{x}{3}\right)^3$.
+$3y^{1/3} = x + C$. Using $y(0) = 0$: $C = 0$ So $y = \left(\dfrac{x}{3}\right)^3$.
 
 (a) Verify that $y(x) = 0$ (the constant zero function) is also a solution to the IVP. (b) Explain
 why the existence and uniqueness theorem for first-order ODEs does not apply here. (c) Find a third
@@ -41,11 +41,11 @@ solution to the IVP (showing the solution is not unique).
 
 **Solution:**
 
-(a) If $y(x) = 0$ for all $x$Then $\dfrac{dy}{dx} = 0$ and $y^{2/3} = 0$So the ODE is satisfied.
+(a) If $y(x) = 0$ for all $x$ Then $\dfrac{dy}{dx} = 0$ and $y^{2/3} = 0$ So the ODE is satisfied.
 Also $y(0) = 0$. So $y = 0$ is a solution.
 
 (b) The existence and uniqueness theorem (Picard-Lindelof) requires $\dfrac{dy}{dx} = f(x, y)$ where
-$f$ and $\dfrac{\partial f}{\partial y}$ are continuous near $(0, 0)$. Here $f(x, y) = y^{2/3}$And
+$f$ and $\dfrac{\partial f}{\partial y}$ are continuous near $(0, 0)$. Here $f(x, y) = y^{2/3}$ And
 $\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$Which is **undefined** at $y = 0$. Therefore
 the theorem does not guarantee uniqueness.
 
@@ -226,7 +226,7 @@ nearly horizontal near $x = 0$. The solution through $(1, 2)$ lies in quadrant I
 $\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$Which
 is positive for $y > |x|$).
 
-(b) $f(x, y) = \dfrac{x}{y}$ is undefined when $y = 0$So the existence and uniqueness theorem does
+(b) $f(x, y) = \dfrac{x}{y}$ is undefined when $y = 0$ So the existence and uniqueness theorem does
 not apply on the $x$-axis. A solution curve approaching $y = 0$ would have
 $\dfrac{dy}{dx} \to \pm\infty$Meaning the curve becomes vertical. Since the ODE is not defined on
 $y = 0$No solution curve can cross it.
@@ -287,7 +287,7 @@ here specifically $y = 0$ makes $f$ undefined). The existence and uniqueness the
 In fact, no solution exists on any interval containing $x = 1$ because the ODE is undefined when
 $y = 0$.
 
-(c) With $y(1) = 1$: $f(x, y) = \dfrac{1}{xy}$ is continuous near $(1, 1)$So a unique solution
+(c) With $y(1) = 1$: $f(x, y) = \dfrac{1}{xy}$ is continuous near $(1, 1)$ So a unique solution
 exists.
 
 $$\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}$$
@@ -343,7 +343,7 @@ Let $f(y) = y(y-2)^2(y+1)$. Test the sign of $f(y)$ in each region:
 
 Stability classification:
 
-- $y = -1$: $f$ changes from $+$ to $-$So solutions approach $y = -1$ from above and leave from
+- $y = -1$: $f$ changes from $+$ to $-$ So solutions approach $y = -1$ from above and leave from
   below. For $y < -1$: $f > 0$ means $y$ increases toward $-1$. For $-1 < y < 0$: $f < 0$ means $y$
   decreases toward $-1$. So $y = -1$ is **stable** (asymptotically stable).
 - $y = 0$: $f$ changes from $-$ (just below 0, i.e., $-0.5$) to $+$ (just above 0, i.e., $1$). So
@@ -358,7 +358,7 @@ equilibrium is a **node** -- semistable, with solutions approaching from one sid
 the other. The "double root" makes $f'(2) = 0$Which means the linearization test is inconclusive and
 we must use the sign chart instead.
 
-(c) $y(0) = 1$ is in the region $0 < y < 2$ where $f(y) > 0$So $y$ increases. Since $y = 2$ is
+(c) $y(0) = 1$ is in the region $0 < y < 2$ where $f(y) > 0$ So $y$ increases. Since $y = 2$ is
 semistable (solutions pass through from below), $y(t)$ increases toward $y = 2$ asymptotically (it
 never actually reaches it in finite time). As $t \to \infty$: $y(t) \to 2$.
 

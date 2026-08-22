@@ -127,7 +127,7 @@ $= (400 - 250) - (160 - 40) = 150 - 120 = 30\,\text{m}$
 
 At $t = 10$: $v = 40 - 50 = -10\,\text{m}\,\text{s}^{-1}$.
 
-**Region III** ($10 \lt t \le 14$): $v = -10$So $s_{III} = -10 \times 4 = -40\,\text{m}$
+**Region III** ($10 \lt t \le 14$): $v = -10$ So $s_{III} = -10 \times 4 = -40\,\text{m}$
 
 **Total displacement:** $s = 32 + 30 - 40 = 22\,\text{m}$
 

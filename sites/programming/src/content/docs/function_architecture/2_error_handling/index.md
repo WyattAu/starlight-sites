@@ -1,6 +1,6 @@
 ---
 title: 2_error_handling
-description: "Study notes and resources for 2_error_handling"
+description: "This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables"
 date: 2026-01-01T00:00:00Z
 ---
 

@@ -48,7 +48,7 @@ $\mathbf{b} \cdot (\mathbf{a} \times \mathbf{b}) = 1(5) + 3(-5) + 2(5) = 5 - 15 
 
 ### UT-2: Equation of a Plane
 
-**Question:** A plane passes through points $A(1, 0, 2)$, $B(3, 1, -1)$And $C(0, 2, 1)$. (a) Find the
+**Question:** A plane passes through points $A(1, 0, 2)$, $B(3, 1, -1)$ And $C(0, 2, 1)$. (a) Find the
 normal vector to the plane. (b) Find the Cartesian equation of the plane. (c) Find the distance from
 the origin to the plane. (d) Determine whether the point $D(1, 1, 1)$ lies on the plane.
 

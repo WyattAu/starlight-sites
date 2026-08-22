@@ -239,13 +239,13 @@ $3/2$$9/4$$5/2$. These aren"t constant, so it's not a geometric series.
 
 Consider $(2-3x)^{-2}$ at $x = 1/2$: $(2 - 3/2)^{-2} = (1/2)^{-2} = 4$.
 
-The expansion at $x = 1/2$ (note $|1/2| < 2/3$So valid):
+The expansion at $x = 1/2$ (note $|1/2| < 2/3$ So valid):
 
 $$\frac{1}{4} + \frac{3}{8} + \frac{27}{64} + \frac{27}{64} + \cdots$$
 
 This sums to 4, but doesn't match the given series.
 
-The given series is $(1 - 3/2)^{-2}$ evaluated via the expansion of $(1 + y)^{-2}$ at $y = -3/2$But
+The given series is $(1 - 3/2)^{-2}$ evaluated via the expansion of $(1 + y)^{-2}$ at $y = -3/2$ But
 this is outside the radius of convergence ($|y| < 1$ required).
 
 Let me reconsider: the series might correspond to $(1 - x)^{-3}$ evaluated at some point.

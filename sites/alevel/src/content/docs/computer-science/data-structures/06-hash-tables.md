@@ -430,7 +430,7 @@ Load factor: $\alpha = 500/1000 = 0.5$.
 $1 + \frac{\alpha}{2} - \frac{\alpha}{2n} \approx 1 + \frac{\alpha}{2} = 1 + 0.25 = 1.25$.
 
 More precisely: for successful search, we examine half the chain on average (the target is equally
-Likely to be at any position in the chain). Expected chain length = $\alpha = 0.5$So expected Probes
+Likely to be at any position in the chain). Expected chain length = $\alpha = 0.5$ So expected Probes
 = $1 + 0.5/2 = 1.25$.
 
 </details>
@@ -533,7 +533,7 @@ Probing with $h(k) = k \bmod 7$. Show the state of the table after each insertio
 <details>
 <summary>Hint</summary>
 
-For linear probing, if index $h(k)$ is occupied, try $h(k)+1$Then $h(k)+2$Etc., wrapping around
+For linear probing, if index $h(k)$ is occupied, try $h(k)+1$ Then $h(k)+2$Etc., wrapping around
 Using modulo 7.
 
 </details>
@@ -655,7 +655,7 @@ Current state: 5 keys in table of size 7. Load factor $\alpha = 5/7 \approx 0.71
 
 After inserting 42: 6 keys, $\alpha = 6/7 \approx 0.857 > 0.7$. Rehashing is needed.
 
-**Step 1: Choose new table size.** Double and find nearest prime: $2 \times 7 = 14$But 14 is not
+**Step 1: Choose new table size.** Double and find nearest prime: $2 \times 7 = 14$ But 14 is not
 Prime. Nearest prime ≥ 14 is 17. New $m = 17$.
 
 **Step 2: Rehash all keys using $h(k) = k \bmod 17$.**
@@ -707,7 +707,7 @@ Load factor $\alpha = n/m$. For chaining with unsuccessful search, expected comp
 - Expected comparisons for unsuccessful search: $\alpha \approx 0.350$
 
 **For successful search**, the expected comparisons before resizing is
-$1 + \alpha/2 = 1 + 0.35 = 1.35$And after resizing is $1 + 0.175 = 1.175$.
+$1 + \alpha/2 = 1 + 0.35 = 1.35$ And after resizing is $1 + 0.175 = 1.175$.
 
 Resizing roughly halves the expected search time, demonstrating why maintaining a low load factor is
 Important for performance.

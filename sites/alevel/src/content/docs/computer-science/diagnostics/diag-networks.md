@@ -88,9 +88,9 @@ network and broadcast addresses).
 
 (b) 4 subnets each with at least 50 hosts:
 
-For 50 hosts: need $2^h - 2 \geq 50$So $h \geq 6$ (since $2^6 - 2 = 62 \geq 50$). Use 6 host bits.
+For 50 hosts: need $2^h - 2 \geq 50$ So $h \geq 6$ (since $2^6 - 2 = 62 \geq 50$). Use 6 host bits.
 
-For 4 subnets: need $2^s \geq 4$So $s \geq 2$ subnet bits.
+For 4 subnets: need $2^s \geq 4$ So $s \geq 2$ subnet bits.
 
 Total bits: $s + h = 2 + 6 = 8$ (matches the 8 available host bits). Subnet mask: `/26`
 (255.255.255.192).

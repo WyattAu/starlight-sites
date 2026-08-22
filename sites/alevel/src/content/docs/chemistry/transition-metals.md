@@ -125,7 +125,7 @@ $\mathrm{CN}^-$).
 ### d-Orbital Splitting
 
 In a free ion, all five $d$ orbitals are degenerate (same energy). In an octahedral complex, the six
-ligands approach along the $x$$y$And $z$ axes. The $d$ orbitals that point along these axes
+ligands approach along the $x$$y$ And $z$ axes. The $d$ orbitals that point along these axes
 ($d_{z^2}$ and $d_{x^2-y^2}$Collectively the $e_g$ set) experience greater electrostatic repulsion
 from the ligand lone pairs than those that point between the axes
 ($d_{xy}$$d_{xz}$$d_{yz}$Collectively the $t_{2g}$ set).
@@ -283,7 +283,7 @@ $$
 $$
 
 $\mathrm{V}_2\mathrm{O}_5$ provides a surface for the reaction. The mechanism involves reduction of
-$\mathrm{V}^{5+}$ to $\mathrm{V}^{4+}$ by $\mathrm{SO}_2$Then reoxidation of $\mathrm{V}^{4+}$ to
+$\mathrm{V}^{5+}$ to $\mathrm{V}^{4+}$ by $\mathrm{SO}_2$ Then reoxidation of $\mathrm{V}^{4+}$ to
 $\mathrm{V}^{5+}$ by $\mathrm{O}_2$.
 
 ### Homogeneous Catalysis
@@ -398,7 +398,7 @@ $$
 \Delta E = \frac{hc}{\lambda}
 $$
 
-Where $h = 6.626 \times 10^{-34}\,\mathrm{J\,s}$$c = 3.00 \times 10^8\,\mathrm{m/s}$And $\lambda$ is
+Where $h = 6.626 \times 10^{-34}\,\mathrm{J\,s}$$c = 3.00 \times 10^8\,\mathrm{m/s}$ And $\lambda$ is
 the wavelength in metres.
 
 **Worked Example.** $[\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{3+}$ absorbs at
@@ -632,7 +632,7 @@ $\mathrm{O}_2$ binding.
 | $\mathrm{Fe}^{2+}$ | Add $\mathrm{NaOH}$                                     | Green precipitate of $\mathrm{Fe(OH)}_2$; turns brown on standing (oxidised to $\mathrm{Fe(OH)}_3$)                            |
 | $\mathrm{Fe}^{3+}$ | Add $\mathrm{NaOH}$                                     | Red-brown precipitate of $\mathrm{Fe(OH)}_3$                                                                                   |
 | $\mathrm{Fe}^{3+}$ | Add $\mathrm{KSCN}$                                     | Blood red solution of $[\mathrm{Fe}(\mathrm{SCN})(\mathrm{H}_2\mathrm{O})_5]^{2+}$                                             |
-| $\mathrm{Mn}^{2+}$ | Add $\mathrm{NaOH}$Then $\mathrm{H}_2\mathrm{O}_2$      | White precipitate darkens to brown $\mathrm{MnO}_2$                                                                            |
+| $\mathrm{Mn}^{2+}$ | Add $\mathrm{NaOH}$ Then $\mathrm{H}_2\mathrm{O}_2$      | White precipitate darkens to brown $\mathrm{MnO}_2$                                                                            |
 | $\mathrm{Cr}^{3+}$ | Add $\mathrm{NaOH}$ then $\mathrm{H}_2\mathrm{O}_2$Heat | Green solution turns yellow ($\mathrm{CrO}_4^{2-}$)                                                                            |
 | $\mathrm{Ni}^{2+}$ | Add dimethylglyoxime + $\mathrm{NH}_3$                  | Bright red precipitate                                                                                                         |
 | $\mathrm{Co}^{2+}$ | Add $\mathrm{SCN}^-$ in acetone                         | Blue organic layer of $[\mathrm{Co}(\mathrm{SCN})_4]^{2-}$                                                                     |
@@ -674,7 +674,7 @@ no $d$-$d$ transitions possible, so no visible light is absorbed and the complex
 <summary>Problem 2</summary>
 
 Write equations for the reactions of $[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ with (a) excess
-$\mathrm{NH}_3$(b) concentrated $\mathrm{HCl}$And (c) $\mathrm{NaOH}$. State any observations.
+$\mathrm{NH}_3$(b) concentrated $\mathrm{HCl}$ And (c) $\mathrm{NaOH}$. State any observations.
 
 **Solution:**
 
@@ -833,7 +833,7 @@ $10\mathrm{Dq}$).
 
 The CFSE is the net energy lowering of the $d$-electrons relative to the hypothetical spherical
 field (where all five $d$-orbitals are degenerate). Each $t_{2g}$ electron stabilises the complex by
-$-0.4\Delta_o$And each $e_g$ electron destabilises it by $+0.6\Delta_o$.
+$-0.4\Delta_o$ And each $e_g$ electron destabilises it by $+0.6\Delta_o$.
 
 **Worked Example: CFSE of $[\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{2+}$**
 
@@ -922,7 +922,7 @@ deep blue when $\mathrm{NH}_3$ is added.
 ### Factors Affecting Ligand Exchange
 
 1. **Ligand field strength:** Stronger ligands (higher in the spectrochemical series) displace
-   weaker ligands. $\mathrm{CN}^-$ displaces $\mathrm{H}_2\mathrm{O}$But $\mathrm{H}_2\mathrm{O}$
+   weaker ligands. $\mathrm{CN}^-$ displaces $\mathrm{H}_2\mathrm{O}$ But $\mathrm{H}_2\mathrm{O}$
    does not displace $\mathrm{CN}^-$.
 
 2. **Concentration:** Adding a large excess of the incoming ligand drives the equilibrium towards
@@ -1081,11 +1081,11 @@ paramagnetic with four unpaired electrons. Explain these observations using crys
 $\mathrm{Co}^{3+}$ has the electron configuration $[\mathrm{Ar}]\,3d^6$ (1 mark).
 
 $\mathrm{NH}_3$ is a strong-field ligand (high in the spectrochemical series), so $\Delta_o$ is
-large (1 mark). The pairing energy is less than $\Delta_o$So all six $d$-electrons pair in the
+large (1 mark). The pairing energy is less than $\Delta_o$ So all six $d$-electrons pair in the
 $t_{2g}$ orbitals: $t_{2g}^6\,e_g^0$ (low-spin, diamagnetic) (1 mark).
 
 $\mathrm{F}^-$ is a weak-field ligand, so $\Delta_o$ is small (1 mark). The pairing energy is
-greater than $\Delta_o$So the electrons occupy both $t_{2g}$ and $e_g$ orbitals following Hund's
+greater than $\Delta_o$ So the electrons occupy both $t_{2g}$ and $e_g$ orbitals following Hund's
 rule: $t_{2g}^4\,e_g^2$ (high-spin, paramagnetic with four unpaired electrons) (1 mark).
 
 </details>

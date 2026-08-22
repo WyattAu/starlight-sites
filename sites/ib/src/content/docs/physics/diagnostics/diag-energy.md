@@ -96,7 +96,7 @@ $3.0\,\text{m}\,\text{s}^{-1}$ in the same direction.
 
 (b) Verify that the collision is elastic by checking conservation of kinetic energy.
 
-(c) A student claims that if $m_2$ were much larger than $m_1$Then $m_1$ would rebound with nearly
+(c) A student claims that if $m_2$ were much larger than $m_1$ Then $m_1$ would rebound with nearly
 the same speed. Show that this claim is correct for the limiting case $m_2 \to \infty$.
 
 **Solution:**
@@ -116,7 +116,7 @@ $$m_2 = \frac{6.0}{3.0} = 2.0\,\text{kg}$$
 Kinetic energy after:
 $KE_f = \frac{1}{2}(2.0)(1.0)^2 + \frac{1}{2}(2.0)(3.0)^2 = 1.0 + 9.0 = 10.0\,\text{J}$
 
-$KE_i \neq KE_f$So the collision is **not** elastic.
+$KE_i \neq KE_f$ So the collision is **not** elastic.
 
 This is a critical trap: the problem statement says to "verify" elasticity, but the calculation
 shows it is inelastic. The student must trust the calculation over the implication of the wording.
@@ -393,7 +393,7 @@ $P = Fv$. As speed increases:
 
 - The driving force from the cyclist's power decreases ($F = P/v$)
 - The resistive force increases ($F_r = 15 + 0.5v^2$)
-- Eventually, $F_d + mg\sin\theta_{\text{down}} = F_r$And acceleration becomes zero
+- Eventually, $F_d + mg\sin\theta_{\text{down}} = F_r$ And acceleration becomes zero
 
 The cyclist reaches a terminal velocity where the power output equals the rate of energy dissipation
 against resistance. The quadratic nature of the air resistance term ensures this equilibrium always

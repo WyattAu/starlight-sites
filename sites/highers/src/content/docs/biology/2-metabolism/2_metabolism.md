@@ -549,7 +549,7 @@ Nephrons.
   the increasingly concentrated medulla. The filtrate becomes more concentrated.
 - **Thin ascending limb:** Impermeable to water. $\mathrm{Na^+$ and $\mathrm{Cl^-$ diffuse out
   passively.
-- **Thick ascending limb:** Actively pumps out $\mathrm{Na^+$, $\mathrm{K^+$And $\mathrm{Cl^-$.
+- **Thick ascending limb:** Actively pumps out $\mathrm{Na^+$, $\mathrm{K^+$ And $\mathrm{Cl^-$.
   Impermeable to water. The medulla becomes increasingly concentrated from cortex to papilla
   (approximately 300 mOsm at the cortex to 1200 mOsm at the papilla).
 

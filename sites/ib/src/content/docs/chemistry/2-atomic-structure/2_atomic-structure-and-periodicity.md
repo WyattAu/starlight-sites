@@ -344,7 +344,7 @@ Nuclei of adjacent atoms in the solid or liquid), which is significantly larger 
 $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \mathrm{Al}^{3+}$
 
 All have the neon configuration ($1s^2\, 2s^2\, 2p^6$$10$ electrons). The nuclear charge increases
-From $Z = 8$ to $Z = 13$So the radius decreases.
+From $Z = 8$ to $Z = 13$ So the radius decreases.
 
 ### Ionization Energy
 

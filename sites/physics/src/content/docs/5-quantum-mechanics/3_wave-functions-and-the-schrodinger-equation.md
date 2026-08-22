@@ -47,11 +47,11 @@ This is an eigenvalue problem: $E$ is the energy eigenvalue, $\phi$ is the energ
 2. **Completeness.** The energy eigenstates form a complete basis: any state can be expanded as
    $\psi(x,0) = \sum_n c_n\phi_n(x)$ where $c_n = \int \phi_n^*(x)\psi(x,0)\,dx$.
 
-3. **Stationary states.** If $\psi(x,0) = \phi_n(x)$Then $\psi(x,t) = \phi_n(x)e^{-iE_nt/\hbar}$.
+3. **Stationary states.** If $\psi(x,0) = \phi_n(x)$ Then $\psi(x,t) = \phi_n(x)e^{-iE_nt/\hbar}$.
    The probability density $|\psi|^2 = |\phi_n|^2$ is time-independent.
 
 4. **Reality of $\phi$.** If $V(x)$ is real and there is no magnetic field, $\phi_n(x)$ can be
-   chosen to be real. This is because if $\phi_n$ is a solution, so is $\phi_n^*$And degenerate
+   chosen to be real. This is because if $\phi_n$ is a solution, so is $\phi_n^*$ And degenerate
    solutions can be combined into real linear combinations.
 
 ### 3.4 Probability Current
@@ -71,7 +71,7 @@ $$i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\psi + V\
 
 $$-i\hbar \frac{\partial \psi^*}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\psi^* + V\psi^*$$
 
-Multiply the first by $\psi^*$ and the second by $\psi$Then subtract:
+Multiply the first by $\psi^*$ and the second by $\psi$ Then subtract:
 
 $$i\hbar\!\left(\psi^*\frac{\partial \psi}{\partial t} + \psi\frac{\partial \psi^*}{\partial t}\right) = -\frac{\hbar^2}{2m}\!\left(\psi^*\nabla^2\psi - \psi\nabla^2\psi^*\right)$$
 
@@ -147,7 +147,7 @@ $-\infty \lt x \lt \infty$ Where $\alpha \gt 0$.
 
 $$\int_{-\infty}^{\infty} |A|^2 e^{-2\alpha|x|}\,dx = 2|A|^2 \int_0^{\infty} e^{-2\alpha x}\,dx = 2|A|^2 \cdot \frac{1}{2\alpha} = \frac{|A|^2}{\alpha} = 1$$
 
-Therefore $|A| = \sqrt{\alpha}$And we choose $A = \sqrt{\alpha}$:
+Therefore $|A| = \sqrt{\alpha}$ And we choose $A = \sqrt{\alpha}$:
 
 $$\psi(x) = \sqrt{\alpha}\,e^{-\alpha|x|}$$
 

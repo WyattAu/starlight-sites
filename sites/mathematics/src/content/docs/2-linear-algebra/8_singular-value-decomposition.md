@@ -61,10 +61,10 @@ $$AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A
 
 So $\mathbf{u}_i$ is an eigenvector of $AA^T$ with eigenvalue $\sigma_i^2$. The non-zero eigenvalues
 of $A^T A$ and $AA^T$ coincide (since if $A^T A \mathbf{v} = \lambda \mathbf{v}$ with
-$\lambda \neq 0$Then $AA^T(A\mathbf{v}) = A(A^T A \mathbf{v}) = \lambda(A\mathbf{v})$ and
+$\lambda \neq 0$ Then $AA^T(A\mathbf{v}) = A(A^T A \mathbf{v}) = \lambda(A\mathbf{v})$ and
 $A\mathbf{v} \neq \mathbf{0}$). $\blacksquare$
 
-**Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$Then the
+**Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$ Then the
 singular values of $A$ are $|\lambda_1|, \ldots, |\lambda_n|$.
 
 _Proof._ $A^T A = A^2$Whose eigenvalues are $\lambda_i^2$. The singular values are
@@ -97,7 +97,7 @@ $$\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad 
 
 _Proof (Frobenius norm)._ Any rank-$k$ matrix $B$ can be written in terms of an orthonormal basis of
 its column space. Let $W \in \mathcal{M}_{n \times k}(\mathbb{R})$ have orthonormal columns spanning
-the column space of $B$. Then $B = CW^T$ for some $C$And:
+the column space of $B$. Then $B = CW^T$ for some $C$ And:
 
 $$\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2$$
 
@@ -152,7 +152,7 @@ $$\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sig
 Where $\sigma_1$ is the largest and $\sigma_r$ is the smallest non-zero singular value.
 
 **Theorem 8.7 (Sensitivity of Linear Systems).** If $A\mathbf{x} = \mathbf{b}$ and
-$A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$Then
+$A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$ Then
 
 $$\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}$$
 
@@ -183,10 +183,10 @@ $\det\begin{pmatrix} 17 - \lambda & 4 \\ 4 & 17 - \lambda \end{pmatrix} = (17 - 
 
 So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
 
-**Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$So $v_1 = v_2$.
+**Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$ So $v_1 = v_2$.
 Normalised: $\mathbf{v}_1 = \frac{1}{\sqrt{2}}(1, 1)^T$.
 
-For $\lambda = 13$: $4v_1 + (17 - 13)v_2 = 0$So $v_1 = -v_2$. Normalised:
+For $\lambda = 13$: $4v_1 + (17 - 13)v_2 = 0$ So $v_1 = -v_2$. Normalised:
 $\mathbf{v}_2 = \frac{1}{\sqrt{2}}(1, -1)^T$.
 
 $V = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$.
@@ -238,7 +238,7 @@ recompute.
 
 $A^T A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 1 & 0 \\ 1 & 0 & 2 \end{pmatrix}$.
 
-$\mathrm{tr}(A^T A) = 5$So $\lambda_1 + \lambda_2 + \lambda_3 = 5$.
+$\mathrm{tr}(A^T A) = 5$ So $\lambda_1 + \lambda_2 + \lambda_3 = 5$.
 
 $\det(A^T A) = 2(2) - 1(2) - 1(-1) = 4 - 2 + 1 = 3$.
 

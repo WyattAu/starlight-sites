@@ -71,7 +71,7 @@ $$\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
 $$\sigma_x\sigma_y - \sigma_y\sigma_x = 2i\sigma_z$$
 
 Writing $\sigma_y = \begin{pmatrix} c & d \\ d^* & -c \end{pmatrix}$ and imposing $\sigma_y^2 = I$,
-$\sigma_y^\dagger = \sigma_y$ And the commutation relation, we find $c = 0$, $|d| = 1$And the
+$\sigma_y^\dagger = \sigma_y$ And the commutation relation, we find $c = 0$, $|d| = 1$ And the
 commutator gives $d - d^* = 2i$ So $d = i$:
 
 $$\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$$
@@ -227,7 +227,7 @@ are:
 The triplet states are symmetric under particle exchange; the singlet is antisymmetric.
 
 **Total spin operator.**
-$\hat{S}^2 = \hat{S}_1^2 + \hat{S}_2^2 + 2\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2$So:
+$\hat{S}^2 = \hat{S}_1^2 + \hat{S}_2^2 + 2\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2$ So:
 
 $$\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2 = \frac{1}{2}(\hat{S}^2 - \hat{S}_1^2 - \hat{S}_2^2)$$
 

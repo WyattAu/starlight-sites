@@ -64,7 +64,7 @@ $$2 + \lambda = 1 - \mu \implies \lambda + \mu = -1 \quad \text{(ii)}$$
 
 $$0 - \lambda = 4 + 2\mu \implies -\lambda - 2\mu = 4 \quad \text{(iii)}$$
 
-From (i) and (ii): adding gives $3\lambda = 1$So $\lambda = \frac{1}{3}$Then $\mu = -\frac{4}{3}$.
+From (i) and (ii): adding gives $3\lambda = 1$ So $\lambda = \frac{1}{3}$ Then $\mu = -\frac{4}{3}$.
 
 Check (iii):
 $-\frac{1}{3} - 2\!\left(-\frac{4}{3}\right) = -\frac{1}{3} + \frac{8}{3} = \frac{7}{3} \neq 4$.
@@ -104,9 +104,9 @@ pass at different "heights" and never meet. The student has incorrectly generali
 
 **Question:**
 
-Three points are given: $A(1, 0, 2)$, $B(3, 1, -1)$And $C(2, 2, 3)$.
+Three points are given: $A(1, 0, 2)$, $B(3, 1, -1)$ And $C(2, 2, 3)$.
 
-**(a)** Find the Cartesian equation of the plane $\Pi$ passing through $A$, $B$And $C$.
+**(a)** Find the Cartesian equation of the plane $\Pi$ passing through $A$, $B$ And $C$.
 
 **(b)** Find the perpendicular distance from the origin to $\Pi$.
 
@@ -166,7 +166,7 @@ Specifically:
 
 **Question:**
 
-Four points are given: $O(0, 0, 0)$$A(2, 1, 0)$$B(1, 3, 2)$And $C(0, 1, 4)$.
+Four points are given: $O(0, 0, 0)$$A(2, 1, 0)$$B(1, 3, 2)$ And $C(0, 1, 4)$.
 
 **(a)** Find the volume of tetrahedron $OABC$.
 
@@ -193,7 +193,7 @@ $$V = \frac{16}{6} = \frac{8}{3}$$
 
 **(b)** The scalar triple product
 $[\mathbf{a}, \mathbf{b}, \mathbf{c}] = \mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ equals the
-volume of the parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$And $\mathbf{c}$.
+volume of the parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$ And $\mathbf{c}$.
 
 If the four points are coplanar, the three vectors
 $\overrightarrow{OA}$$\overrightarrow{OB}$$\overrightarrow{OC}$ all lie in the same plane, meaning

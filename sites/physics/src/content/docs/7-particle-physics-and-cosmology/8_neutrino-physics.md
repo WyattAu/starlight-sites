@@ -19,7 +19,7 @@ description: "Neutrinos are produced and detected in flavour eigenstates But pro
 
 ### 8.1 Neutrino Oscillations
 
-Neutrinos are produced and detected in flavour eigenstates $(\nu_e, \nu_\mu, \nu_\tau)$But propagate
+Neutrinos are produced and detected in flavour eigenstates $(\nu_e, \nu_\mu, \nu_\tau)$ But propagate
 As mass eigenstates $(\nu_1, \nu_2, \nu_3)$ related by the **PMNS mixing matrix** $U$:
 
 $$|\nu_\alpha\rangle = \sum_i U_{\alpha i}^* |\nu_i\rangle$$

@@ -136,7 +136,7 @@ $$
 \end`\{pmatrix}`
 $$
 
-Where $v_x$, $v_y$$v_z$ are the components along the $x$$y$And $z$ axes respectively.
+Where $v_x$, $v_y$$v_z$ are the components along the $x$$y$ And $z$ axes respectively.
 
 ### Magnitude (Modulus)
 
@@ -460,7 +460,7 @@ In the cross product and forgetting to take the absolute value in distance formu
 ## Worked Example 5: Finding the Equation of a Plane
 
 **Problem:** Find the Cartesian equation of the plane passing through the points $A(1, 2, -1)$
-$B(3, 0, 1)$And $C(0, 1, 3)$.
+$B(3, 0, 1)$ And $C(0, 1, 3)$.
 
 **Solution:**
 
@@ -669,7 +669,7 @@ $\theta = \arccos(-0.0630) \approx 93.6^\circ$.
 <details>
 <summary>Question 2</summary>
 
-Find the Cartesian equation of the plane containing the points $P(2, 1, 0)$$Q(1, -1, 3)$And
+Find the Cartesian equation of the plane containing the points $P(2, 1, 0)$$Q(1, -1, 3)$ And
 $R(4, 0, -1)$.
 
 </details>
@@ -784,7 +784,7 @@ $\bm{F} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + \frac{19}{14}\begin{pmatr
 <details>
 <summary>Question 8</summary>
 
-Show that the points $A(1, 2, 3)$$B(3, 5, 7)$And $C(5, 8, 11)$ are collinear.
+Show that the points $A(1, 2, 3)$$B(3, 5, 7)$ And $C(5, 8, 11)$ are collinear.
 
 </details>
 
@@ -793,7 +793,7 @@ Show that the points $A(1, 2, 3)$$B(3, 5, 7)$And $C(5, 8, 11)$ are collinear.
 
 $\overrightarrow{AB} = \begin{pmatrix} 2 \\ 3 \\ 4 \end{pmatrix}$
 $\overrightarrow{AC} = \begin{pmatrix} 4 \\ 6 \\ 8 \end{pmatrix}$.
-$\overrightarrow{AC} = 2\overrightarrow{AB}$So $\overrightarrow{AC} = k\overrightarrow{AB}$ with
+$\overrightarrow{AC} = 2\overrightarrow{AB}$ So $\overrightarrow{AC} = k\overrightarrow{AB}$ with
 $k = 2$. Since one vector is a scalar multiple of the other, the points are collinear.
 
 </details>

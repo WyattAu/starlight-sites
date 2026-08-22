@@ -1158,7 +1158,7 @@ The following substances have the boiling points shown:
 **Markscheme:**
 
 - Both are non-polar molecules with only London dispersion forces (1 mark).
-- SiH$_4$ has more electrons than CH$_4$So London dispersion forces are stronger (1 mark).
+- SiH$_4$ has more electrons than CH$_4$ So London dispersion forces are stronger (1 mark).
 
 (b) Explain why H$_2$O has a much higher boiling point than H$_2$S, but NH$_3$ and PH$_3$ show the
 Expected trend. (3 marks)
@@ -1304,7 +1304,7 @@ Higher boiling point.
 <details>
 <summary>Question 4: MO Theory and Bond Order</summary>
 
-Use molecular orbital theory to determine the bond order of $\mathrm{O}_2$, $\mathrm{O}_2^+$And
+Use molecular orbital theory to determine the bond order of $\mathrm{O}_2$, $\mathrm{O}_2^+$ And
 $\mathrm{O}_2^{2-}$. Arrange them in order of increasing bond length.
 
 </details>
@@ -1351,7 +1351,7 @@ Each carbon in ethene has 3 electron domains (2 C-H bonds + 1 C=C bond), so each
 Hybridised. The three $sp^2$ hybrid orbitals form sigma bonds: two C-H sigma bonds and one C-C sigma
 Bond. The remaining unhybridized $p$ orbital on each carbon overlaps side-to-side to form a pi
 ($\pi$) bond. The molecule is trigonal planar around each carbon with bond angles of approximately
-$120^\circ$And the entire molecule is planar. The C=C double bond consists of one sigma bond and One
+$120^\circ$ And the entire molecule is planar. The C=C double bond consists of one sigma bond and One
 pi bond. The pi bond restricts rotation about the C=C bond.
 
 For the A-Level treatment of this topic, see

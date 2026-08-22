@@ -5,7 +5,7 @@ title: Interference
 tags:
   - Physics
   - University
-description: "Wave interference and superposition principles."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"4 Optics And Waves\","
 ---
 
 <!-- Breadcrumb Schema for SEO -->

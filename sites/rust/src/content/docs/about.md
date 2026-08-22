@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes Rust resources — experience, expertise, and credentials behind Rust programming study materials."
+description: "Wyatt's Notes provides thorough study materials for Rust programming. These notes cover ownership and borrowing, the type system, async programming, and"
 tags:
   - about
   - rust

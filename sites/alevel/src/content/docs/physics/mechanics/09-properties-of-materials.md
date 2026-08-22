@@ -174,7 +174,7 @@ Define $\sigma = F/A$, $\varepsilon = \Delta x/L$:
 
 $$\frac{\sigma}{\varepsilon} = \frac{kL}{A} = E$$
 
-Since $k$, $L$And $A$ are all constants for a given sample (within the proportional limit), $E$ is A
+Since $k$, $L$ And $A$ are all constants for a given sample (within the proportional limit), $E$ is A
 constant of the material — it does not depend on the dimensions of the sample. $\square$
 
 ## 4. Stress-Strain Graphs
@@ -437,7 +437,7 @@ A steel wire and a rubber cord have the same dimensions and are subjected to the
 The Young's modulus of steel is $2.0 \times 10^{11}$ Pa and of rubber is $5.0 \times 10^6$ Pa.
 Calculate the ratio of their extensions.
 
-**Answer.** For the same $F$, $L$And $A$: $\Delta L = FL/(AE)$So $\Delta L \propto 1/E$.
+**Answer.** For the same $F$, $L$ And $A$: $\Delta L = FL/(AE)$ So $\Delta L \propto 1/E$.
 
 Ratio:
 $\frac{\Delta L_{\mathrm{rubber}}}{\Delta L_{\mathrm{steel}}} = \frac{E_{\mathrm{steel}}}{E_{\mathrm{rubber}}} = \frac{2.0 \times 10^{11}}{5.0 \times 10^6} = 4.0 \times 10^4$.

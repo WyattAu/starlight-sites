@@ -111,7 +111,7 @@ total surplus. Illustrate the deadweight loss that would result from a price cei
 
 $20 - 0.5Q = 2 + 0.5Q$
 
-$18 = Q$So $Q^* = 18$.
+$18 = Q$ So $Q^* = 18$.
 
 $P^* = 20 - 0.5(18) = 20 - 9 = \pounds 11$.
 
@@ -169,11 +169,11 @@ the deadweight loss occurs.
 
 **Solution:**
 
-(a) Pre-tax equilibrium: $50 - Q = 10 + Q$So $40 = 2Q$$Q^* = 20$$P^* = \pounds 30$.
+(a) Pre-tax equilibrium: $50 - Q = 10 + Q$ So $40 = 2Q$$Q^* = 20$$P^* = \pounds 30$.
 
 Post-tax: supply shifts up by $\pounds 4$. New supply: $P = 14 + Q$.
 
-$50 - Q = 14 + Q$So $36 = 2Q$$Q_t = 18$$P_{\text{buyer}} = 50 - 18 = \pounds 32$.
+$50 - Q = 14 + Q$ So $36 = 2Q$$Q_t = 18$$P_{\text{buyer}} = 50 - 18 = \pounds 32$.
 
 $P_{\text{seller}} = P_{\text{buyer}} - \text{tax} = 32 - 4 = \pounds 28$.
 
@@ -220,7 +220,7 @@ overproduction.
 Pre-subsidy equilibrium: $40 - 0.5Q = 4 + 0.5Q$$36 = Q$$Q^* = 36$$P^* = \pounds 22$.
 
 With subsidy: effective supply shifts down by $\pounds 6$. New supply (from seller"s perspective,
-the price they receive): $P_{\text{seller}} = 4 + 0.5Q$But they receive $P_{\text{buyer}} + 6$.
+the price they receive): $P_{\text{seller}} = 4 + 0.5Q$ But they receive $P_{\text{buyer}} + 6$.
 
 Equilibrium: $40 - 0.5Q = 4 + 0.5Q - 6 = -2 + 0.5Q$. So $42 = Q$$Q_s = 42$.
 

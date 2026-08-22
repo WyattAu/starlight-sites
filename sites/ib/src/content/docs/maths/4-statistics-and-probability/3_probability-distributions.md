@@ -184,9 +184,9 @@ $$
 Let $X_1, \ldots, X_n$ be indicator variables: $X_i = 1$ if trial $i$ succeeds, $X_i = 0$ otherwise.
 Then $X = X_1 + \cdots + X_n$.
 
-$E(X_i) = 1 \cdot p + 0 \cdot (1-p) = p$So $E(X) = np$ by linearity of expectation.
+$E(X_i) = 1 \cdot p + 0 \cdot (1-p) = p$ So $E(X) = np$ by linearity of expectation.
 
-$\mathrm{Var}(X_i) = E(X_i^2) - [E(X_i)]^2 = p - p^2 = p(1-p)$So $\mathrm{Var}(X) = np(1-p)$ by
+$\mathrm{Var}(X_i) = E(X_i^2) - [E(X_i)]^2 = p - p^2 = p(1-p)$ So $\mathrm{Var}(X) = np(1-p)$ by
 Independence.
 
 </details>
@@ -252,7 +252,7 @@ $P(X \ge 8) = 1 - P(X \le 7) \approx 0.0042$
 
 To set a pass mark so that guessing gives at most 1% chance of passing:
 
-$P(X \ge 7) \approx 0.0181$ and $P(X \ge 8) \approx 0.0042$So the minimum pass mark is 8 correct.
+$P(X \ge 7) \approx 0.0181$ and $P(X \ge 8) \approx 0.0042$ So the minimum pass mark is 8 correct.
 
 <details>
 <summary>Worked Example: Binomial Probability with Normal Approximation</summary>
@@ -323,7 +323,7 @@ $E(X) = \displaystyle\sum_{x=0}^{\infty} x \cdot \frac{e^{-\lambda}\lambda^x}{x!
 Substituting $k = x-1$:
 $= e^{-\lambda} \sum_{k=0}^{\infty} \frac{\lambda^{k+1}}{k!} = \lambda e^{-\lambda} \cdot e^{\lambda} = \lambda$.
 
-For variance, use $x^2 = x(x-1) + x$: $E(X^2) = E[X(X-1)] + E(X) = \lambda^2 + \lambda$So
+For variance, use $x^2 = x(x-1) + x$: $E(X^2) = E[X(X-1)] + E(X) = \lambda^2 + \lambda$ So
 $\mathrm{Var}(X) = \lambda^2 + \lambda - \lambda^2 = \lambda$.
 
 </details>
@@ -483,7 +483,7 @@ Bags of flour: $X \sim N(1000, 225)$ (mean 1000 g, $\sigma = 15$ g).
 
 $P(985 \lt X \lt 1020) = P(-1 \lt Z \lt 1.333) = \Phi(1.333) - \Phi(-1) \approx 0.9088 - 0.1587 = 0.7501$
 
-$P(X \lt 970) = P(Z \lt -2) = 0.0228$So about 2.28% are rejected.
+$P(X \lt 970) = P(Z \lt -2) = 0.0228$ So about 2.28% are rejected.
 
 For the mass exceeded by only 5%: $P(X \le x) = 0.95$, $x = 1000 + 1.645(15) = 1024.67$ g.
 :::
@@ -493,7 +493,7 @@ Test scores are normal. 15% score above 80, 10% score below 45. Find $\mu$ and $
 
 $\dfrac{80 - \mu}{\sigma} = 1.036$ and $\dfrac{45 - \mu}{\sigma} = -1.282$.
 
-Subtracting: $35 = 2.318\sigma$So $\sigma \approx 15.1$ and $\mu = 80 - 1.036(15.1) \approx 64.4$.
+Subtracting: $35 = 2.318\sigma$ So $\sigma \approx 15.1$ and $\mu = 80 - 1.036(15.1) \approx 64.4$.
 :::
 :::note
 <strong>Example: Normal approximation to Binomial</strong>
@@ -737,7 +737,7 @@ $E(X) = 3/0.4 = 7.5$, $\mathrm{Var}(X) = 3(0.6)/0.16 = 11.25$ $\sigma = \sqrt{11
 ### Statement
 
 If $X_1, X_2, \ldots, X_n$ are independent and identically distributed with mean $\mu$ and variance
-$\sigma^2$Then for large $n$:
+$\sigma^2$ Then for large $n$:
 
 $$
 \bar{X}_n \sim N\!\left(\mu, \frac{\sigma^2}{n}\right)
@@ -820,7 +820,7 @@ Required sample size for margin $E$: $n = \left(\dfrac{z_{\alpha/2} \cdot \sigma
 <strong>Example</strong>
 Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498$ ml.
 
-95% CI: $498 \pm 1.960 \times 5/\sqrt{25} = 498 \pm 1.96$So $(496.04, 499.96)$ ml.
+95% CI: $498 \pm 1.960 \times 5/\sqrt{25} = 498 \pm 1.96$ So $(496.04, 499.96)$ ml.
 
 For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$Round up to 97.
 
@@ -986,13 +986,13 @@ $X \sim \mathrm{Geo}(0.15)$. Find the smallest $n$ with $P(X \le n) \ge 0.8$.
 
 $P(X \le n) = 1 - 0.85^n \ge 0.8 \implies 0.85^n \le 0.2$
 
-$n \ge \ln(0.2)/\ln(0.85) \approx 9.90$So $n = 10$.
+$n \ge \ln(0.2)/\ln(0.85) \approx 9.90$ So $n = 10$.
 
 ### Question 6 (Paper 2, AHL)
 
 Component lengths: $N(\mu, 0.25)$$\sigma = 0.5$ mm. Sample of 30 gives $\bar{x} = 100.2$ mm.
 
-90% CI: $100.2 \pm 1.645 \times 0.5/\sqrt{30} = 100.2 \pm 0.150$So $(100.05, 100.35)$ mm.
+90% CI: $100.2 \pm 1.645 \times 0.5/\sqrt{30} = 100.2 \pm 0.150$ So $(100.05, 100.35)$ mm.
 
 The claim $\mu = 100$ mm is not supported at 90% confidence, since 100 falls below the interval.
 
@@ -1119,7 +1119,7 @@ whether independence is assumed. For confidence intervals, state the level and I
 ### Problem 1
 
 A discrete random variable $X$ has PMF $P(X = x) = \frac{x + 1}{15}$ for $x = 0, 1, 2, 3, 4$. Find
-$E(X)$$\mathrm{Var}(X)$And $P(X \ge 2)$.
+$E(X)$$\mathrm{Var}(X)$ And $P(X \ge 2)$.
 
 <details>
 <summary>Solution</summary>
@@ -1142,7 +1142,7 @@ $$P(X \ge 2) = \frac{3}{15} + \frac{4}{15} + \frac{5}{15} = \frac{12}{15} = \fra
 
 ### Problem 2
 
-$X \sim B(25, 0.35)$. Find $P(X = 10)$$P(X \le 5)$And $P(X \ge 15)$.
+$X \sim B(25, 0.35)$. Find $P(X = 10)$$P(X \le 5)$ And $P(X \ge 15)$.
 
 <details>
 <summary>Solution</summary>
@@ -1160,7 +1160,7 @@ $$P(X \ge 15) = 1 - P(X \le 14) \approx 1 - 0.9752 = 0.0248$$
 ### Problem 3
 
 A bookshop sells an average of 3.2 rare books per week. $X \sim \mathrm{Po}(3.2)$ is the number sold
-In a week. Find $P(X = 4)$, $P(X = 0)$And $P(X \gt 5)$.
+In a week. Find $P(X = 4)$, $P(X = 0)$ And $P(X \gt 5)$.
 
 <details>
 <summary>Solution</summary>
@@ -1324,7 +1324,7 @@ This corresponds to approximately 84% confidence, not 95%.
 ### Problem 10
 
 $X \sim B(15, 0.4)$ and $Y \sim B(20, 0.3)$ are independent. Find $E(X + Y)$
-$\mathrm{Var}(X - Y)$And $P(X + Y = 10)$.
+$\mathrm{Var}(X - Y)$ And $P(X + Y = 10)$.
 
 <details>
 <summary>Solution</summary>
@@ -1399,7 +1399,7 @@ $$= 1 - 61e^{-10} = 1 - 61(0.0000454) = 1 - 0.00277 = 0.9972$$
 Exact binomial:
 $P(X \le 2) = \binom{60}{0}(5/6)^{60} + \binom{60}{1}(1/6)(5/6)^{59} + \binom{60}{2}(1/6)^2(5/6)^{58}$
 
-This gives approximately $P(X \le 2) \approx 0.00268$So $P(X \ge 3) \approx 0.9973$. The
+This gives approximately $P(X \le 2) \approx 0.00268$ So $P(X \ge 3) \approx 0.9973$. The
 Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moderate.
 
 **If you get this wrong, revise:** Poisson as a Limit of the Binomial section.

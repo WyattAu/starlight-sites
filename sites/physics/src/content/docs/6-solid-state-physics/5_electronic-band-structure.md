@@ -5,7 +5,7 @@ title: Electronic Band Structure
 tags:
   - Physics
   - University
-description: "Electronic band structure in solid state physics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"6 Solid State"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -120,7 +120,7 @@ theory gives:
 
 $$\det\begin{pmatrix} \varepsilon_{\mathbf{k}}^0 - E & V_{\mathbf{G}} \\ V_{\mathbf{G}}^* & \varepsilon_{\mathbf{k} - \mathbf{G}}^0 - E \end{pmatrix} = 0$$
 
-At $\mathbf{k} = \mathbf{G}/2$: $E = \varepsilon_{\mathbf{G}/2}^0 \pm \lvert V_{\mathbf{G}}\rvert$So
+At $\mathbf{k} = \mathbf{G}/2$: $E = \varepsilon_{\mathbf{G}/2}^0 \pm \lvert V_{\mathbf{G}}\rvert$ So
 the gap is $2\lvert V_{\mathbf{G}}\rvert$. $\blacksquare$
 
 ### 5.5 Drude Model
@@ -205,7 +205,7 @@ Define $H(\varepsilon) = \int_0^\varepsilon h(\varepsilon')\,d\varepsilon'$. The
 
 $$I = \int_0^\infty h(\varepsilon)f(\varepsilon)\,d\varepsilon = \int_0^\infty \frac{dH}{d\varepsilon}\,f\,d\varepsilon = [Hf]_0^\infty + \int_0^\infty H(\varepsilon)\left(-\frac{\partial f}{\partial \varepsilon}\right)d\varepsilon$$
 
-Since $f(0) \approx 1$ and $f(\infty) = 0$And $-\partial f/\partial \varepsilon$ is sharply peaked
+Since $f(0) \approx 1$ and $f(\infty) = 0$ And $-\partial f/\partial \varepsilon$ is sharply peaked
 At $\varepsilon = \mu$ with width $\sim k_B T$We expand $H(\varepsilon)$ about $\mu$:
 
 $$I = \int_0^\mu h(\varepsilon)\,d\varepsilon + \frac{\pi^2}{6}(k_B T)^2 h'(\mu) + \cdots$$

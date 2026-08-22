@@ -41,7 +41,7 @@ to right To read all $k$ heads, then left to right again to update them. This co
 simulated Step. Over $t(n)$ steps, the total is $O(t(n)^2)$. $\blacksquare$
 
 **Theorem 6.1a (Time Hierarchy Theorem).** If $t_1, t_2$ are time-constructible functions with
-$t_1(n) \log t_1(n) = o(t_2(n))$Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
+$t_1(n) \log t_1(n) = o(t_2(n))$ Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
 
 *Proof (idea).* Use diagonalisation. Construct a TM $D$ that on input $x$ of length $n$:
 
@@ -101,7 +101,7 @@ The string $c$ is called a **certificate** (or witness).
 *Proof.* Every deterministic polynomial-time algorithm is a special case of a nondeterministic one
 (with exactly one choice at each step). Alternatively, the certificate can be empty. $\blacksquare$
 
-**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$Then $A \in \mathrm{NP$.
+**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$ Then $A \in \mathrm{NP$.
 
 *Proof.* Let $V_B$ be the polynomial-time verifier for $B$ and $f$ be the polynomial-time reduction.
 Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksquare$
@@ -109,7 +109,7 @@ Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksq
 **Open question:** $\mathrm{P = \mathrm{NP$? This is the most important open problem in computer
 Science. Most researchers believe $\mathrm{P \neq \mathrm{NP$.
 
-**Consequences of P = NP.** If $\mathrm{P = \mathrm{NP$Then every problem in NP (including SAT,
+**Consequences of P = NP.** If $\mathrm{P = \mathrm{NP$ Then every problem in NP (including SAT,
 Travelling Salesman, graph colouring, protein folding, etc.) would have polynomial-time algorithms.
 This would revolutionise optimisation, cryptography (RSA and most public-key systems would be
 broken), And artificial intelligence. However, after decades of research, no polynomial-time
@@ -120,7 +120,7 @@ $\mathrm{P \neq \mathrm{NP$.
 
 A language $B$ is **NP-complete** if:
 
-1. $B \in \mathrm{NP$And
+1. $B \in \mathrm{NP$ And
 2. $A \leq_p B$ for every $A \in \mathrm{NP$ (polynomial-time mapping reduction).
 
 A language is **NP-hard** if condition (2) holds (it need not be in NP).
@@ -169,7 +169,7 @@ position $(0,0)$ contains the start state. The constraints enforce:
 - Transition windows: each $2 \times 3$ block must be consistent with $\delta$.
 - Row 3: at least one cell contains $q_{\mathrm{accept}$.
 
-If $N$ accepts $w$Then the accepting computation path provides a satisfying assignment (the tableau
+If $N$ accepts $w$ Then the accepting computation path provides a satisfying assignment (the tableau
 records that path). If $\phi_{N,w}$ is satisfiable, the satisfying assignment Encodes a valid
 accepting computation.
 
@@ -177,7 +177,7 @@ accepting computation.
 
 **Corollary 6.4.** If any NP-complete problem is in P, then P = NP.
 
-**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$Then $A \in \mathrm{P$.
+**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$ Then $A \in \mathrm{P$.
 
 *Proof.* To decide $A$ on input $w$: compute $f(w)$ in polynomial time (the reduction), then decide
 $B$ on $f(w)$ in polynomial time. Total: polynomial time. $\blacksquare$
@@ -232,7 +232,7 @@ Has at most one vertex already excluded. $\blacksquare$
 **Reduction:** Vertex Cover $\leq_p$ Clique. $G = (V, E)$ has a vertex cover of size $k$ iff
 $\overline{G} = (V, \overline{E})$ has a clique of size $|V| - k$.
 
-*Proof.* If $C \subseteq V$ is a vertex cover of size $k$ in $G$Then every edge of $G$ has at Least
+*Proof.* If $C \subseteq V$ is a vertex cover of size $k$ in $G$ Then every edge of $G$ has at Least
 one endpoint in $C$. So $V \setminus C$ is an independent set in $G$Meaning every pair in
 $V \setminus C$ is an edge in $\overline{G}$. Hence $\overline{G}$ has a clique of size $|V| - k$.
 The converse is analogous. $\blacksquare$
@@ -394,10 +394,10 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 $$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
 
-**Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$Then $\mathrm{PH} = \Sigma_k^P$ (the
+**Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
 
-*Proof.* If $\Sigma_k^P = \Sigma_{k+1}^P = \mathrm{NP}^{\Sigma_k^P}$Then the $\Sigma_k^P$ oracle
+*Proof.* If $\Sigma_k^P = \Sigma_{k+1}^P = \mathrm{NP}^{\Sigma_k^P}$ Then the $\Sigma_k^P$ oracle
 Provides no additional power. By induction, $\Sigma_{k+i}^P = \Sigma_k^P$ for all $i \geq 0$ So
 $\mathrm{PH} = \Sigma_k^P$. $\blacksquare$
 
@@ -410,12 +410,12 @@ Instance has a polynomial-time verifiable certificate.
 
 - Example: "Is this formula a tautology?" (the certificate for "no" would be a failing assignment).
 - $\mathrm{P} \subseteq \mathrm{NP} \cap \mathrm{coNP}$.
-- It is unknown whether $\mathrm{NP} = \mathrm{coNP}$. If $\mathrm{P} = \mathrm{NP}$Then
+- It is unknown whether $\mathrm{NP} = \mathrm{coNP}$. If $\mathrm{P} = \mathrm{NP}$ Then
   $\mathrm{NP} = \mathrm{coNP}$.
 
-**Theorem 6.11.** If $\mathrm{NP} \neq \mathrm{coNP}$Then $\mathrm{P} \neq \mathrm{NP}$.
+**Theorem 6.11.** If $\mathrm{NP} \neq \mathrm{coNP}$ Then $\mathrm{P} \neq \mathrm{NP}$.
 
-*Proof.* If $\mathrm{P} = \mathrm{NP}$Then $\mathrm{P} = \mathrm{coNP}$ (since $\mathrm{P}$ Is
+*Proof.* If $\mathrm{P} = \mathrm{NP}$ Then $\mathrm{P} = \mathrm{coNP}$ (since $\mathrm{P}$ Is
 closed under complement), so $\mathrm{NP} = \mathrm{coNP}$. The contrapositive gives the Result.
 $\blacksquare$
 

@@ -36,7 +36,7 @@ export default defineConfig({
       defaultLocale: 'root',
       locales: {
         root: { label: 'English', lang: 'en' },
-        zh: { label: '简体中文', lang: 'zh' },
+        // zh: { label: '简体中文', lang: 'zh' },  // gated: no zh content
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
@@ -57,7 +57,7 @@ export default defineConfig({
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },
         { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
-        { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#118ab2' } },
         {
           tag: 'link',
           attrs: {

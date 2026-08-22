@@ -23,17 +23,17 @@ From Maxwell's equations, the following properties hold for plane EM waves:
 
 1. **Transversality:** $\mathbf{E}$ and $\mathbf{B}$ are perpendicular to $\mathbf{k}$ and to each
    other.
-2. **Orthogonality:** $\mathbf{E} \perp \mathbf{B}$And $|\mathbf{E}| = c|\mathbf{B}|$.
+2. **Orthogonality:** $\mathbf{E} \perp \mathbf{B}$ And $|\mathbf{E}| = c|\mathbf{B}|$.
 3. **In-phase:** $\mathbf{E}$ and $\mathbf{B}$ oscillate in phase.
 4. **Dispersion relation:** $\omega = ck$ in vacuum.
 
 **Proof of transversality.** For a plane wave
 $\mathbf{E} = \mathbf{E}_0 e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}$ Gauss's law gives
-$i\mathbf{k}\cdot\mathbf{E}_0 = 0$So $\mathbf{k} \perp \mathbf{E}_0$. Similarly From
+$i\mathbf{k}\cdot\mathbf{E}_0 = 0$ So $\mathbf{k} \perp \mathbf{E}_0$. Similarly From
 $\nabla \cdot \mathbf{B} = 0$: $\mathbf{k} \perp \mathbf{B}_0$. $\blacksquare$
 
 **Proof of $|\mathbf{E}| = c|\mathbf{B}|$.** From Faraday's law for a plane wave:
-$\mathbf{k} \times \mathbf{E}_0 = \omega\mathbf{B}_0$. Taking magnitudes: $kE_0 = \omega B_0$So
+$\mathbf{k} \times \mathbf{E}_0 = \omega\mathbf{B}_0$. Taking magnitudes: $kE_0 = \omega B_0$ So
 $E_0/B_0 = \omega/k = c$. $\blacksquare$
 
 <details>
@@ -129,7 +129,7 @@ At the front surface.
 
 (c) At normal incidence:
 $R = [(n_1 - n_2)/(n_1 + n_2)]^2 = [(1 - 1.5)/(1 + 1.5)]^2 = (0.5/2.5)^2 = 0.04$. Transmittance:
-$T = 1 - R = 0.96$. The intensity inside the glass is $I_{\mathrm{inside} = 0.96\,I_0}$But the power
+$T = 1 - R = 0.96$. The intensity inside the glass is $I_{\mathrm{inside} = 0.96\,I_0}$ But the power
 per unit area Referenced to the vacuum intensity is
 $I_{\mathrm{inside} = (n_2/n_1)\,T\,I_0 = 1.5 \times 0.96 \times I_0 = 1.44\,I_0}$ If we compare the
 electric field amplitudes squared times the respective impedances.
@@ -193,9 +193,9 @@ $R = [(n_1 - n_2)/(n_1 + n_2)]^2$.
 <summary>Worked Example: Fresnel coefficients at a glass-air interface</summary>
 
 **Problem.** Light is incident from air ($n_1 = 1.00$) onto glass ($n_2 = 1.50$) at
-$\theta_i = 30°$. Calculate $r_s$, $r_p$, $R_s$And $R_p$.
+$\theta_i = 30°$. Calculate $r_s$, $r_p$, $R_s$ And $R_p$.
 
-**Solution.** From Snell's law: $\sin\theta_t = \sin 30°/1.50 = 0.333$So $\theta_t = 19.47°$.
+**Solution.** From Snell's law: $\sin\theta_t = \sin 30°/1.50 = 0.333$ So $\theta_t = 19.47°$.
 $\cos\theta_i = \cos 30° = 0.866$, $\cos\theta_t = \cos 19.47° = 0.943$.
 
 $r_s = \frac{1.00 \times 0.866 - 1.50 \times 0.943}{1.00 \times 0.866 + 1.50 \times 0.943} = \frac{0.866 - 1.414}{0.866 + 1.414} = \frac{-0.549}{2.280} = -0.241$
@@ -224,7 +224,7 @@ Exceeds the **critical angle**:
 
 $$\theta_c = \arcsin\!\left(\frac{n_2}{n_1}\right)$$
 
-Snell's law gives $\sin\theta_t = (n_1/n_2)\sin\theta_i \gt 1$So $\theta_t$ becomes complex. Writing
+Snell's law gives $\sin\theta_t = (n_1/n_2)\sin\theta_i \gt 1$ So $\theta_t$ becomes complex. Writing
 $\cos\theta_t = i\sqrt{\sin^2\theta_t - 1}$The Fresnel coefficients become complex with
 $|r_s|^2 = |r_p|^2 = 1$: all energy is reflected.
 

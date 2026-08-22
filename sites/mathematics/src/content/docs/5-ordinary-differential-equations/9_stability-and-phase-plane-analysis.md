@@ -47,8 +47,8 @@ $t \to \infty$.
 
 **Theorem 9.1 (Lyapunov).** If there exists a continuously differentiable function $V$ (a **Lyapunov
 Function**) such that $V(\mathbf{x}^*) = 0$, $V(\mathbf{x}) > 0$ for $\mathbf{x} \neq \mathbf{x}^*$
-And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$Then $\mathbf{x}^*$ is stable. If
-$\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$Then $\mathbf{x}^*$ is asymptotically stable.
+And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
+$\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$ Then $\mathbf{x}^*$ is asymptotically stable.
 
 ### 9.4 Worked Example: Linearization
 
@@ -156,7 +156,7 @@ The competing species model is:
 $$x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)$$
 
 Where $r_i > 0$ are growth rates and $a_{ij} > 0$ are competition coefficients. The four critical
-Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$And the coexistence point $(x^*, y^*)$
+Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$ And the coexistence point $(x^*, y^*)$
 where both $x'$ and $y'$ vanish.
 
 The stability of the coexistence point determines whether both species survive. If

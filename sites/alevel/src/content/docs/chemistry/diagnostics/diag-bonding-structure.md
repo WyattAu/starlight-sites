@@ -28,7 +28,7 @@ tableOfContents: false
 **Question:**
 
 (a) Draw the Lewis structures and predict the shapes and bond angles of
-$\text{XeF}_4$, $\text{BrF}_3$And $\text{ICl}_4^-$.
+$\text{XeF}_4$, $\text{BrF}_3$ And $\text{ICl}_4^-$.
 
 (b) Explain why the bond angle in $\text{NH}_3$ ($107^\circ$) is greater than in
 $\text{H}_2\text{O}$ ($104.5^\circ$), even though both molecules have four electron domains around
@@ -122,7 +122,7 @@ For $\text{HCl}$ and $\text{HBr}$Neither can form significant hydrogen bonding (
 electronegative, and the H--Cl bond is not polar enough). Therefore, the normal trend of increasing
 boiling point with increasing $M_r$ (due to stronger van der Waals forces from more electrons and
 larger electron clouds) applies. The hydrogen bonding anomaly only applies to
-$\text{HF}$, $\text{H}_2\text{O}$And $\text{NH}_3$ in Period 2.
+$\text{HF}$, $\text{H}_2\text{O}$ And $\text{NH}_3$ in Period 2.
 
 ---
 

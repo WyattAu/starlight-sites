@@ -246,7 +246,7 @@ The trade-off is that the small piston must move 50 times farther than the large
 Conservation).
 
 > **Exam Tip:** When asked about hydraulic systems, always mention that energy is conserved:
-> $F_1 d_1 = F_2 d_2$So a large force multiplication comes at the cost of a large distance on the
+> $F_1 d_1 = F_2 d_2$ So a large force multiplication comes at the cost of a large distance on the
 > input side.
 
 ---

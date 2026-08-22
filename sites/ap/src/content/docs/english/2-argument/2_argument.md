@@ -1,7 +1,7 @@
 ---
 
 title: Argument
-description: "An argument is a reasoned attempt to persuade an audience to accept a claim."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"English\", \"url\":"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

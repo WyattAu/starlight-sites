@@ -180,7 +180,7 @@ Introduce $T_a \to a$ and $T_b \to b$:
 - $S \to AT_bB \mid AT_b \mid T_aB \mid T_aT_b$
 - $S_0 \to AT_bB \mid AT_b \mid T_aB \mid T_aT_b$
 
-Handle $AT_bB$ (length 3): introduce $C_1 \to AT_b$Then $S \to C_1B$ and $S_0 \to C_1B$.
+Handle $AT_bB$ (length 3): introduce $C_1 \to AT_b$ Then $S \to C_1B$ and $S_0 \to C_1B$.
 
 Final CNF grammar:
 
@@ -364,8 +364,8 @@ String: $w = ba$.
 
 **Length 1:**
 
-- $T[1,1]$: $w_1 = b$So $T[1,1] = \{B\}$ (since $B \to b$).
-- $T[2,2]$: $w_2 = a$So $T[2,2] = \{A, C\}$ (since $A \to a$ and $C \to a$).
+- $T[1,1]$: $w_1 = b$ So $T[1,1] = \{B\}$ (since $B \to b$).
+- $T[2,2]$: $w_2 = a$ So $T[2,2] = \{A, C\}$ (since $A \to a$ and $C \to a$).
 
 **Length 2:**
 

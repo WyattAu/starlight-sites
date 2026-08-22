@@ -29,7 +29,7 @@ tableOfContents: false
 
 **Question:**
 
-Find the equation of the circle passing through the three points $A(1, 2)$, $B(5, 4)$And $C(3, 8)$.
+Find the equation of the circle passing through the three points $A(1, 2)$, $B(5, 4)$ And $C(3, 8)$.
 
 Express your answer in the form $(x-a)^2 + (y-b)^2 = r^2$ and in the expanded form
 $x^2 + y^2 + px + qy + r = 0$.
@@ -251,7 +251,7 @@ $$2x^3 - 12x^2 + 15x + 3 = 0$$
 $-2 - 12 - 15 + 3 = -26$. Testing $x = 3$: $54 - 108 + 45 + 3 = -6$. Testing $x = \frac{1}{2}$:
 $\frac{1}{4} - 3 + \frac{15}{2} + 3 = 7.25$. Testing $x = 0$: $3$.
 
-By the intermediate value theorem, there is a root between $x = -1$ and $x = 0$And possibly others.
+By the intermediate value theorem, there is a root between $x = -1$ and $x = 0$ And possibly others.
 
 Testing $x = -\frac{1}{2}$:
 $-\frac{1}{4} - 3 - \frac{15}{2} + 3 = -\frac{1}{4} - \frac{15}{2} = -\frac{31}{4}$. Between $x = 0$
@@ -289,14 +289,14 @@ The closest point is approximately $(2.11, 3.01)$.
 In triangle $ABC$The point $D$ lies on $BC$ such that $BD : DC = 2 : 1$. The point $E$ is the
 midpoint of $AC$. The lines $AD$ and $BE$ intersect at point $F$.
 
-Using position vectors with origin at $A$And taking $\overrightarrow{AB} = \mathbf{b}$ and
+Using position vectors with origin at $A$ And taking $\overrightarrow{AB} = \mathbf{b}$ and
 $\overrightarrow{AC} = \mathbf{c}$:
 
 **(a)** Find the position vector of $F$ in terms of $\mathbf{b}$ and $\mathbf{c}$.
 
 **(b)** Find the ratio $AF : FD$.
 
-**(c)** If $|\mathbf{b}| = 5$, $|\mathbf{c}| = 7$And $\mathbf{b} \cdot \mathbf{c} = 15$Find
+**(c)** If $|\mathbf{b}| = 5$, $|\mathbf{c}| = 7$ And $\mathbf{b} \cdot \mathbf{c} = 15$Find
 $|\overrightarrow{AF}|$.
 
 [Difficulty: hard. Tests vector methods for concurrency problems and application of the dot
@@ -324,7 +324,7 @@ $$\frac{s}{3} = 1 - t \quad \text{and} \quad \frac{2s}{3} = \frac{t}{2}$$
 
 From the second equation: $t = \frac{4s}{3}$.
 
-Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$Giving $\frac{5s}{3} = 1$So
+Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$Giving $\frac{5s}{3} = 1$ So
 $s = \frac{3}{5}$.
 
 $$\overrightarrow{OF} = \frac{3}{5}\left(\frac{1}{3}\mathbf{b} + \frac{2}{3}\mathbf{c}\right) = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}$$

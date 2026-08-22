@@ -1,7 +1,7 @@
 ---
 
 title: Metaprogramming
-description: "Ruby metaprogramming techniques."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Ruby\", \"url\":"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

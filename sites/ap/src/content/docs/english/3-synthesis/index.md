@@ -1,6 +1,6 @@
 ---
 title: Synthesis
-description: "Study notes and resources for Synthesis"
+description: "This section covers literary analysis, language techniques, and critical writing skills. Strong performance requires close reading, evidence-based"
 date: 2026-01-01T00:00:00Z
 ---
 

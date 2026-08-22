@@ -1379,7 +1379,7 @@ If you get this wrong, revise: [Government Intervention Methods](#government-int
 
 Hong Kong's fishing grounds are open access. The relationship between the number of fishing boats
 $B$ and the total catch $C$ (in tonnes per month) is $C = 100B - 0.5B^2$. The cost per boat per
-month is HK$200,000$And the market price of fish is HK$10,000 per tonne.
+month is HK$200,000$ And the market price of fish is HK$10,000 per tonne.
 
 (a) Calculate the number of boats under open access. (b) Calculate the socially optimal number of
 boats. (c) Calculate the maximum sustainable yield. (d) Design a policy to achieve the socially

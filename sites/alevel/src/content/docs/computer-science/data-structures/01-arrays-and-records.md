@@ -31,7 +31,7 @@ Formally, an array $A$ of type $T$ with $n$ elements maps indices to memory:
 
 $$A: \{0, 1, \ldots, n-1\} \to \mathrm{Memory addresses}$$
 
-Where $A[i]$ is stored at base address $b + i \times s$And $s$ is the size (in bytes) of one Element
+Where $A[i]$ is stored at base address $b + i \times s$ And $s$ is the size (in bytes) of one Element
 of type $T$.
 
 ### Memory Layout
@@ -468,7 +468,7 @@ Work backwards from the address: find the index using the address formula, then 
 
 Given $\mathrm{addr}(A[i]) = 500 + i \times 4 = 512$:
 
-$i \times 4 = 12$So $i = 3$.
+$i \times 4 = 12$ So $i = 3$.
 
 $A[3] = 41$.
 

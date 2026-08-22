@@ -66,7 +66,7 @@ $f'(z)$.
 <details>
 <summary>Solution</summary>
 
-$f(z) = 1/(z^2 + 1)$ is a rational function with denominator non-zero away from $\pm i$So $f$ Is
+$f(z) = 1/(z^2 + 1)$ is a rational function with denominator non-zero away from $\pm i$ So $f$ Is
 analytic on $\mathbb{C} \setminus \{i, -i\}$.
 
 By the quotient rule: $f'(z) = \frac{-2z}{(z^2 + 1)^2}$.
@@ -125,7 +125,7 @@ the circle $|z| = 1$.
 <details>
 <summary>Solution</summary>
 
-On $\gamma$: $|z| = 1$So $|e^z| \leq e$ and $|z - 2| \geq 1$.
+On $\gamma$: $|z| = 1$ So $|e^z| \leq e$ and $|z - 2| \geq 1$.
 
 $\left|\frac{e^z}{z - 2}\right| \leq e$. $L = 2\pi$.
 
@@ -161,7 +161,7 @@ Classify all singularities of $f(z) = \frac{e^{1/z}}{z^2 + 1}$ and find all resi
 <details>
 <summary>Solution</summary>
 
-$z = 0$: $e^{1/z}$ has an essential singularity at $0$So $z = 0$ is an essential singularity of $f$.
+$z = 0$: $e^{1/z}$ has an essential singularity at $0$ So $z = 0$ is an essential singularity of $f$.
 $z = i$: simple pole. $z = -i$: simple pole.
 
 At $z = i$: $\mathrm{Res} = \frac{e^{1/i}}{2i} = \frac{e^{-i}}{2i}$. At $z = -i$:
@@ -361,7 +361,7 @@ $\sin z = z - z^3/6 + z^5/120 - \cdots$
 
 $f(z) = \frac{z - z^3/6 + z^5/120 - \cdots}{z^4} = \frac{1}{z^3} - \frac{1}{6z} + \frac{z}{120} - \cdots$
 
-The coefficient of $1/z$ is $-1/6$So $\mathrm{Res}(f, 0) = -\frac{1}{6}$.
+The coefficient of $1/z$ is $-1/6$ So $\mathrm{Res}(f, 0) = -\frac{1}{6}$.
 
 _If you get this wrong, revise:_ Section 8.4 (Computing Residues).
 
@@ -396,7 +396,7 @@ $f(z) = x^2 + y^2 + 2x - 2iy$. So $u = x^2 + y^2 + 2x$, $v = -2y$.
 
 $u_x = 2x + 2$, $u_y = 2y$, $v_x = 0$, $v_y = -2$.
 
-CR: $2x + 2 = -2 \Rightarrow x = -2$And $2y = 0 \Rightarrow y = 0$.
+CR: $2x + 2 = -2 \Rightarrow x = -2$ And $2y = 0 \Rightarrow y = 0$.
 
 $f$ is differentiable only at $z = -2$.
 

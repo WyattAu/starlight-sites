@@ -31,7 +31,7 @@ tableOfContents: false
 
 **Question:**
 
-A circular coil of $N = 200$ turns, radius $r = 0.05\,\text{m}$And total resistance $R = 10\,\Omega$
+A circular coil of $N = 200$ turns, radius $r = 0.05\,\text{m}$ And total resistance $R = 10\,\Omega$
 is placed in a uniform magnetic field. The field is directed perpendicular to the plane of the coil
 and varies with time as $B(t) = (0.04 + 0.02t)\,\text{T}$ where $t$ is in seconds.
 
@@ -193,7 +193,7 @@ of its original speed.
 **Question:**
 
 A bar magnet of mass $0.050\,\text{kg}$ falls from rest through a vertical coil of $N = 100$ turns,
-mean radius $r = 0.02\,\text{m}$And resistance $R = 5.0\,\Omega$. The magnet produces an average
+mean radius $r = 0.02\,\text{m}$ And resistance $R = 5.0\,\Omega$. The magnet produces an average
 flux of $\Phi = 2.0 \times 10^{-4}\,\text{Wb}$ through the coil when it is centred.
 
 (a) Estimate the average current induced in the coil as the magnet passes through.
@@ -206,7 +206,7 @@ terminal velocity.
 
 **Solution:**
 
-(a) As the magnet enters the coil, the flux changes from approximately 0 to $\Phi$And as it exits,
+(a) As the magnet enters the coil, the flux changes from approximately 0 to $\Phi$ And as it exits,
 from $\Phi$ to approximately 0. The time for the magnet to pass through depends on its speed, but
 for an estimate, assume the magnet length is $\ell = 0.05\,\text{m}$ and it enters at speed $v$:
 

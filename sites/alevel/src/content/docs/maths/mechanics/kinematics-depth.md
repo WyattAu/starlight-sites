@@ -210,7 +210,7 @@ $R_{\max} = \dfrac{u^2}{g}$.
 
 ### 3.5 Proof that complementary angles give the same range
 
-If $\theta_1 + \theta_2 = 90^\circ$Then
+If $\theta_1 + \theta_2 = 90^\circ$ Then
 $\sin 2\theta_1 = \sin(180^\circ - 2\theta_2) = \sin 2\theta_2$.
 
 Therefore $R(\theta_1) = R(\theta_2)$.
@@ -406,11 +406,11 @@ Origin. Find its displacement when $t = 3\;\mathrm{s}$.
 
 $$v = \int 12t\,dt = 6t^2 + C_1$$
 
-When $t = 0$, $v = 0$: $C_1 = 0$So $v = 6t^2$.
+When $t = 0$, $v = 0$: $C_1 = 0$ So $v = 6t^2$.
 
 $$s = \int 6t^2\,dt = 2t^3 + C_2$$
 
-When $t = 0$, $s = 0$: $C_2 = 0$So $s = 2t^3$.
+When $t = 0$, $s = 0$: $C_2 = 0$ So $s = 2t^3$.
 
 At $t = 3$: $s = 2(27) = 54\;\mathrm{m}$.
 

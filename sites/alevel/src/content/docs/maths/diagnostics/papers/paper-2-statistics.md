@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
-description: "Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 tableOfContents: false
 ---
 
@@ -114,7 +114,7 @@ minimum prevalence of the disease required to achieve this, keeping the test cha
 same. [3 marks]
 
 **(d)** Explain why
-$\mathrm{P}(\text{disease} \mid \text{positive}) \neq \mathrm{P}(\text{positive} \mid \text{disease})$And
+$\mathrm{P}(\text{disease} \mid \text{positive}) \neq \mathrm{P}(\text{positive} \mid \text{disease})$ And
 state the condition under which they would be equal. [2 marks]
 
 ### Q4 [10 marks] — Statistical Distributions
@@ -389,7 +389,7 @@ hold.
 
 **(a)** The binomial distribution is **NOT** appropriate. The condition violated is **independence
 of trials**: since balls are drawn without replacement, the probability of drawing a red ball
-changes after each draw. The probability of red on the first draw is $\frac{5}{8}$But if the first
+changes after each draw. The probability of red on the first draw is $\frac{5}{8}$ But if the first
 ball is blue, the probability of red on the second draw becomes $\frac{5}{7}$.
 
 The correct distribution is the **geometric distribution** (number of failures before the first
@@ -426,7 +426,7 @@ So $W \sim B(50, 0.3)$.
 The fact that there are 100 total rolls is irrelevant --- we are only considering the first 50.
 
 **(e)** The binomial distribution is **NOT** appropriate. The condition violated is **constant
-probability of success**: for the first 5 questions, $\mathrm{P}(\text{correct}) = 1$But for the
+probability of success**: for the first 5 questions, $\mathrm{P}(\text{correct}) = 1$ But for the
 last 5 questions, $\mathrm{P}(\text{correct}) = \frac{1}{4}$. The probability of success changes
 partway through.
 
@@ -446,7 +446,7 @@ and $V_2 \sim B(5, 0.25)$. Then $V = 5 + V_2$ and $V_2 \sim B(5, 0.25)$.
 
 ### Q5 — Solution
 
-**(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$So
+**(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$ So
 $\sigma_{\bar{X}} = 3$.
 
 $$z = \frac{\bar{x} - 0}{3} = \frac{-5.2}{3} = -1.733$$
@@ -484,7 +484,7 @@ probability that $H_0$ is true. The p-value is:
 The p-value is a conditional probability: $\mathrm{P}(\text{data} \mid H_0)$Not
 $\mathrm{P}(H_0 \mid \text{data})$.
 
-A large p-value means the observed data is consistent with $H_0$But it does not mean $H_0$ is
+A large p-value means the observed data is consistent with $H_0$ But it does not mean $H_0$ is
 probably true. The data could also be consistent with a small but non-zero effect. For example, if
 the true effect is a reduction of 2 mmHg (which is clinically meaningful), a small sample might
 still produce a large p-value.
@@ -492,7 +492,7 @@ still produce a large p-value.
 To determine $\mathrm{P}(H_0 \mid \text{data})$ would require Bayesian methods (prior
 probabilities), which go beyond the scope of classical hypothesis testing.
 
-**(d)** With $n = 50$: $\bar{X} \sim N\left(0, \frac{15^2}{50}\right) = N(0, 4.5)$So
+**(d)** With $n = 50$: $\bar{X} \sim N\left(0, \frac{15^2}{50}\right) = N(0, 4.5)$ So
 $\sigma_{\bar{X}} = \sqrt{4.5} \approx 2.121$.
 
 $$z = \frac{-5.2}{\sqrt{4.5}} = \frac{-5.2}{2.121} = -2.451$$

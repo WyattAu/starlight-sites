@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes C++ resources — experience, expertise, and credentials behind C++ programming study materials."
+description: "Wyatt's Notes provides thorough study materials for C++ programming. These notes cover the language from modern C++17/20 features through templates, move"
 tags:
   - about
   - cpp

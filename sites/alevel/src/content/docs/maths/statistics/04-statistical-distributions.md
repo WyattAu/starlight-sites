@@ -166,7 +166,7 @@ $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 
 ### 3.4 Standard normal
 
-If $X \sim N(\mu, \sigma^2)$Then $Z = \dfrac{X - \mu}{\sigma} \sim N(0, 1)$.
+If $X \sim N(\mu, \sigma^2)$ Then $Z = \dfrac{X - \mu}{\sigma} \sim N(0, 1)$.
 
 Probabilities are found using the standard normal table or a calculator"s inverse normal function.
 
@@ -316,7 +316,7 @@ shifting and scaling a distribution.
 
 ### 6.2 Effect on expectation
 
-**Theorem.** If $Y = aX + b$Then $E(Y) = aE(X) + b$.
+**Theorem.** If $Y = aX + b$ Then $E(Y) = aE(X) + b$.
 
 **Proof.** Applying the definition of expectation to $Y$:
 
@@ -326,7 +326,7 @@ The key step is $\sum p_i = 1$Since the probabilities sum to 1.
 
 ### 6.3 Effect on variance
 
-**Theorem.** If $Y = aX + b$Then $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$.
+**Theorem.** If $Y = aX + b$ Then $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$.
 
 **Proof.**
 
@@ -362,7 +362,7 @@ $a$.
 
 <details>
 <summary>Problem 1</summary>
-$X \sim B(10, 0.3)$. Find $P(X = 4)$, $P(X \leq 3)$And $P(X \geq 7)$.
+$X \sim B(10, 0.3)$. Find $P(X = 4)$, $P(X \leq 3)$ And $P(X \geq 7)$.
 </details>
 
 <details>
@@ -638,7 +638,7 @@ $X \sim B(120, 0.025)$. (a) Show that the Poisson approximation is appropriate. 
 
 <details>
 <summary>Solution 16</summary>
-(a) $n = 120 \gt 50$ and $p = 0.025 \lt 0.1$So the Poisson approximation is appropriate.
+(a) $n = 120 \gt 50$ and $p = 0.025 \lt 0.1$ So the Poisson approximation is appropriate.
 $\lambda = np = 120 \times 0.025 = 3$.
 
 (b) $X \approx \mathrm{Po}(3)$.
@@ -657,7 +657,7 @@ is small.
 <details>
 <summary>Problem 17</summary>
 Temperatures in a city are modelled by $X \sim N(15, 9)$ in degrees Celsius. The temperature in
-Fahrenheit is $F = \frac{9}{5}X + 32$. Find $E(F)$, $\mathrm{Var}(F)$And $P(F \gt 68)$.
+Fahrenheit is $F = \frac{9}{5}X + 32$. Find $E(F)$, $\mathrm{Var}(F)$ And $P(F \gt 68)$.
 </details>
 
 <details>

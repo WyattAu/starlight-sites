@@ -36,7 +36,7 @@ tableOfContents: false
 **(a)** Evaluate $\displaystyle\int e^{2x}\sin x\,dx$.
 
 **(b)** A student sets up $I = \int e^{2x}\sin x\,dx$Applies integration by parts twice, and gets
-$I = \text{(something)} - I$Then concludes $I = 0$. Explain the error.
+$I = \text{(something)} - I$ Then concludes $I = 0$. Explain the error.
 
 [Difficulty: hard. Tests cyclic integration by parts and the algebraic step of collecting the $I$
 terms.]
@@ -63,7 +63,7 @@ $$3I = e^{2x}(2\sin x - \cos x)$$
 $$I = \frac{e^{2x}(2\sin x - \cos x)}{3} + C$$
 
 **(b)** The student"s error is that when they got $I = \text{(something)} - I$They incorrectly
-concluded $I = 0$. The correct step is to add $I$ to both sides to get $2I = \text{(something)}$Then
+concluded $I = 0$. The correct step is to add $I$ to both sides to get $2I = \text{(something)}$ Then
 divide by $2$ (or in this case $3$). The cyclic nature of the integral means $I$ appears on both
 sides, but this does not mean $I = 0$ — it means $I$ can be solved for algebraically.
 
@@ -126,7 +126,7 @@ $$= -2\ln\lvert x + 1 \rvert + \int \frac{2x}{x^2 + 1}\,dx + \int \frac{1}{x^2 +
 
 $$= -2\ln\lvert x + 1 \rvert + \ln(x^2 + 1) + \arctan x + C$$
 
-**(c)** If the student uses $\dfrac{A}{x + 1} + \dfrac{B}{x^2 + 1}$Then:
+**(c)** If the student uses $\dfrac{A}{x + 1} + \dfrac{B}{x^2 + 1}$ Then:
 
 $$3x - 1 = A(x^2 + 1) + B(x + 1) = Ax^2 + A + Bx + B$$
 
@@ -170,8 +170,8 @@ Case $p \neq 1$:
 
 $$= \lim_{b \to \infty}\left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty}\left(\frac{b^{1-p}}{1-p} - \frac{1}{1-p}\right)$$
 
-- If $p \gt 1$: $1 - p \lt 0$So $b^{1-p} \to 0$ and the integral converges to $\dfrac{1}{p - 1}$.
-- If $p \lt 1$: $1 - p \gt 0$So $b^{1-p} \to \infty$ and the integral diverges.
+- If $p \gt 1$: $1 - p \lt 0$ So $b^{1-p} \to 0$ and the integral converges to $\dfrac{1}{p - 1}$.
+- If $p \lt 1$: $1 - p \gt 0$ So $b^{1-p} \to \infty$ and the integral diverges.
 
 Case $p = 1$:
 
@@ -258,7 +258,7 @@ $$\text{Area} = (\sqrt{2} - 1) + (1 + \sqrt{2}) = 2\sqrt{2}$$
 
 **Question:**
 
-The region bounded by $y = \dfrac{1}{\sqrt{x + 1}}$, $x = 0$, $x = 3$And the $x$-axis is rotated
+The region bounded by $y = \dfrac{1}{\sqrt{x + 1}}$, $x = 0$, $x = 3$ And the $x$-axis is rotated
 $360\degree$ about the $x$-axis. Find the volume generated.
 
 [Difficulty: hard. Combines volume of revolution with algebraic substitution and definite integral

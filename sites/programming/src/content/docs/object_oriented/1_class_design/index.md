@@ -1,6 +1,6 @@
 ---
 title: 1_class_design
-description: "Study notes and resources for 1_class_design"
+description: "This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables"
 date: 2026-01-01T00:00:00Z
 ---
 

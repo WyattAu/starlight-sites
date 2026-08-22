@@ -276,7 +276,7 @@ For $-5/3 \lt x \lt 1$: test $x = 0$$F = -5 \lt 0$ (force in negative $x$-direct
 
 For $x \gt 1$: test $x = 2$$F = 12 + 4 - 5 = 11 \gt 0$ (force in positive $x$-direction).
 
-The force does positive work in $(-\infty, -5/3)$ and $(1, \infty)$And negative work in $(-5/3, 1)$.
+The force does positive work in $(-\infty, -5/3)$ and $(1, \infty)$ And negative work in $(-5/3, 1)$.
 
 **(d)** $$W = \int_{-2}^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_{-2}^3$$
 
@@ -330,12 +330,12 @@ Multiply both sides by $ds$ (the infinitesimal displacement):
 
 $$F\,ds = m\frac{dv}{dt}\,ds$$
 
-Since $v = \frac{ds}{dt}$We have $ds = v\,dt$So $\frac{ds}{dt} = v$. Rearranging:
+Since $v = \frac{ds}{dt}$We have $ds = v\,dt$ So $\frac{ds}{dt} = v$. Rearranging:
 
 $$F\,ds = m\frac{dv}{dt} \cdot v\,dt = mv\,dv$$
 
 This step uses the chain rule:
-$\frac{dv}{dt} = \frac{dv}{ds} \cdot \frac{ds}{dt} = v\frac{dv}{ds}$So $F = mv\frac{dv}{ds}$ and
+$\frac{dv}{dt} = \frac{dv}{ds} \cdot \frac{ds}{dt} = v\frac{dv}{ds}$ So $F = mv\frac{dv}{ds}$ and
 $F\,ds = mv\,dv$.
 
 Integrating both sides from the initial state $(s_1, v_1)$ to the final state $(s_2, v_2)$:
@@ -363,7 +363,7 @@ $$W = \frac{1}{2}m(v_{x,2}^2 + v_{y,2}^2) - \frac{1}{2}m(v_{x,1}^2 + v_{y,1}^2) 
 **(c)** The work-energy theorem $W_{\text{net}} = \Delta\mathrm{KE}$ is a direct consequence of
 $F = ma$ (as proven above). It accounts for **all** forces, whether conservative or
 non-conservative. When friction acts, the work done by friction (which is negative) is included in
-$W_{\text{net}}$And the change in KE correctly reflects this energy loss.
+$W_{\text{net}}$ And the change in KE correctly reflects this energy loss.
 
 Conservation of mechanical energy ($\mathrm{KE} + \mathrm{PE} = \text{constant}$) applies only when
 all forces are conservative. A conservative force is one whose work done is path-independent

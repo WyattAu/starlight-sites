@@ -89,7 +89,7 @@ chain rule wherever $y$ appears.
 
 ### Parametric Differentiation
 
-If $x = f(t)$ and $y = g(t)$Then:
+If $x = f(t)$ and $y = g(t)$ Then:
 
 $$
 \frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{g'(t)}{f'(t)}
@@ -144,7 +144,7 @@ $$
 \frac{d}{dx}[\arctan x] = \frac{1}{1 + x^2}
 $$
 
-**Proof that $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$.** Let $y = \arctan x$So $x = \tan y$.
+**Proof that $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$.** Let $y = \arctan x$ So $x = \tan y$.
 Differentiating implicitly: $1 = \sec^2 y \cdot \frac{dy}{dx}$Giving
 $\frac{dy}{dx} = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1 + x^2}$.
 
@@ -229,7 +229,7 @@ $$
 \int u \, dv = uv - \int v \, du
 $$
 
-**Proof.** By the product rule: $\frac{d}{dx}[uv] = u'v + uv'$So $uv' = \frac{d}{dx}[uv] - u'v$.
+**Proof.** By the product rule: $\frac{d}{dx}[uv] = u'v + uv'$ So $uv' = \frac{d}{dx}[uv] - u'v$.
 Integrating both sides: $\int uv'\,dx = uv - \int u'v\,dx$.
 
 **LIATE rule** for choosing $u$ (in order of priority): Logarithmic, Inverse trig, Algebraic,
@@ -305,7 +305,7 @@ $$
 
 **Example:** Evaluate $\int \dfrac{x}{x^2 + 1} \, dx$.
 
-Let $u = x^2 + 1$So $du = 2x \, dx$Giving $\dfrac{1}{2} du = x \, dx$.
+Let $u = x^2 + 1$ So $du = 2x \, dx$Giving $\dfrac{1}{2} du = x \, dx$.
 
 $$
 \int \frac{x}{x^2 + 1} \, dx = \frac{1}{2}\int \frac{du}{u} = \frac{1}{2}\ln|u| + C = \frac{1}{2}\ln(x^2 + 1) + C
@@ -337,9 +337,9 @@ $$
 2x + 1 = A(x - 2) + B(x + 1)
 $$
 
-$x = -1$: $-2 + 1 = A(-3)$So $A = \dfrac{1}{3}$.
+$x = -1$: $-2 + 1 = A(-3)$ So $A = \dfrac{1}{3}$.
 
-$x = 2$: $4 + 1 = B(3)$So $B = \dfrac{5}{3}$.
+$x = 2$: $4 + 1 = B(3)$ So $B = \dfrac{5}{3}$.
 
 $$
 \int \frac{2x + 1}{(x + 1)(x - 2)} \, dx = \frac{1}{3}\int \frac{dx}{x + 1} + \frac{5}{3}\int \frac{dx}{x - 2} = \frac{1}{3}\ln|x + 1| + \frac{5}{3}\ln|x - 2| + C
@@ -440,7 +440,7 @@ $$
 Y^2 = x^2 + 2C
 $$
 
-Using $y(0) = 2$: $4 = 0 + 2C$So $C = 2$.
+Using $y(0) = 2$: $4 = 0 + 2C$ So $C = 2$.
 
 $$
 Y^2 = x^2 + 4
@@ -525,14 +525,14 @@ $$
 Y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)
 $$
 
-**Why the complex case produces sines and cosines.** If $m = \alpha + \beta i$Then
+**Why the complex case produces sines and cosines.** If $m = \alpha + \beta i$ Then
 $e^{(\alpha+\beta i)x} = e^{\alpha x}(\cos\beta x + i\sin\beta x)$. Since the original DE has real
 Coefficients, both $e^{(\alpha+\beta i)x}$ and $e^{(\alpha-\beta i)x}$ are solutions. Their linear
 Combinations give $e^{\alpha x}\cos\beta x$ and $e^{\alpha x}\sin\beta x$.
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} - 5\dfrac{dy}{dx} + 6y = 0$.
 
-Auxiliary equation: $m^2 - 5m + 6 = 0$So $(m - 2)(m - 3) = 0$Giving $m = 2, 3$.
+Auxiliary equation: $m^2 - 5m + 6 = 0$ So $(m - 2)(m - 3) = 0$Giving $m = 2, 3$.
 
 $$
 Y = Ae^{2x} + Be^{3x}
@@ -540,7 +540,7 @@ $$
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} + 4y = 0$.
 
-Auxiliary equation: $m^2 + 4 = 0$So $m = \pm 2i$.
+Auxiliary equation: $m^2 + 4 = 0$ So $m = \pm 2i$.
 
 $$
 Y = A\cos 2x + B\sin 2x
@@ -548,7 +548,7 @@ $$
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} + 6\dfrac{dy}{dx} + 9y = 0$.
 
-Auxiliary equation: $m^2 + 6m + 9 = 0$So $(m + 3)^2 = 0$Giving $m = -3$ (repeated).
+Auxiliary equation: $m^2 + 6m + 9 = 0$ So $(m + 3)^2 = 0$Giving $m = -3$ (repeated).
 
 $$
 Y = (Ax + B)e^{-3x}
@@ -572,7 +572,7 @@ $$
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} - 3\dfrac{dy}{dx} + 2y = 4e^{3x}$.
 
-Complementary function: $m^2 - 3m + 2 = 0$So $m = 1, 2$.
+Complementary function: $m^2 - 3m + 2 = 0$ So $m = 1, 2$.
 
 $$
 Y_h = Ae^x + Be^{2x}

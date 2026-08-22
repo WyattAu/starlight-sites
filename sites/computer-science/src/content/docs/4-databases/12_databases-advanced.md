@@ -56,11 +56,11 @@ Where $A$ is the set of attributes of $R$ not in $S$.
 _Proof._ Let $t \in \pi_A(R)$. We need to show $t \in R \div S$ if and only if
 $t \notin \pi_A(\pi_A(R) \times S - R)$.
 
-($\Rightarrow$) If $t \in R \div S$Then for every $s \in S$, $(t, s) \in R$. So
+($\Rightarrow$) If $t \in R \div S$ Then for every $s \in S$, $(t, s) \in R$. So
 $(t, s) \notin \pi_A(R) \times S - R$ for any $s$Hence $t \notin \pi_A(\pi_A(R) \times S - R)$.
 
-($\Leftarrow$) If $t \notin \pi_A(\pi_A(R) \times S - R)$Then there is no $s \in S$ such that
-$(t, s) \notin R$. This means for every $s \in S$, $(t, s) \in R$So $t \in R \div S$. $\blacksquare$
+($\Leftarrow$) If $t \notin \pi_A(\pi_A(R) \times S - R)$ Then there is no $s \in S$ such that
+$(t, s) \notin R$. This means for every $s \in S$, $(t, s) \in R$ So $t \in R \div S$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Relational Division</summary>
@@ -478,11 +478,11 @@ conflict-serialisable**.
 
 A schedule is **view-serialisable** if it is equivalent to a serial schedule under view equivalence:
 
-1. **Initial read:** If $T_i$ reads the initial value of $A$Then in the serial schedule, $T_i$ must
+1. **Initial read:** If $T_i$ reads the initial value of $A$ Then in the serial schedule, $T_i$ must
    also read the initial value.
-2. **Updated read:** If $T_i$ reads the value of $A$ written by $T_j$Then in the serial schedule,
+2. **Updated read:** If $T_i$ reads the value of $A$ written by $T_j$ Then in the serial schedule,
    $T_i$ must read the value written by $T_j$.
-3. **Final write:** If $T_i$ performs the final write of $A$Then in the serial schedule, $T_i$ must
+3. **Final write:** If $T_i$ performs the final write of $A$ Then in the serial schedule, $T_i$ must
    perform the final write.
 
 **Theorem 5.2.** Every conflict-serialisable schedule is view-serialisable, but not vice versa.
@@ -1239,7 +1239,7 @@ So $AB$ is a candidate key. Similarly:
 
 $BC^+ = \{B, C, D, E, A\}$ (via $C \to D$, $D \to E$, $E \to A$). So $BC$ is a candidate key.
 
-$CD^+ = \{C, D, E, A\}$ (no $B$So not a candidate key).
+$CD^+ = \{C, D, E, A\}$ (no $B$ So not a candidate key).
 
 $DE^+ = \{D, E, A\}$ (no $B$Not a key).
 
@@ -1270,7 +1270,7 @@ $E \to A$ violates BCNF (LHS $E$ is not a superkey of $R_2$). Superkeys of $R_2$
 (since $BC \to D$ is lost but $BC$ in $R_2$: $BC \to C$Not useful). Actually, $BC$ is not a key in
 $R_2$ because we lost $D$.
 
-Keys of $R_2$: $AB$ is a key ($AB \to C$And with $C$ we need... $ABC \to ?$ in $R_2$: $C$ doesn't
+Keys of $R_2$: $AB$ is a key ($AB \to C$ And with $C$ we need... $ABC \to ?$ in $R_2$: $C$ doesn't
 give us $E$ in $R_2$. So $AB$ gives $\{A, B, C\}$Not $\{A, B, C, E\}$. So $AB$ is NOT a key in
 $R_2$!
 
@@ -1295,7 +1295,7 @@ $E \to A$ violates BCNF. Decompose $R_2$ into:
 - $R_{2b}(B, C, E)$ with restricted FDs: $BE \to C$, $CE \to B$... Wait, $BE \to C$ comes from
   $AB \to C$ restricted to $\{B, C, E\}$: we lose the dependency since $A$ is not in $R_{2b}$.
 
-Actually, $AB \to C$ restricted to $R_{2b}(B, C, E)$: the LHS is $AB$ but $A \notin R_{2b}$So this
+Actually, $AB \to C$ restricted to $R_{2b}(B, C, E)$: the LHS is $AB$ but $A \notin R_{2b}$ So this
 FD is lost. The only remaining FDs in $R_{2b}$ are trivial. So $R_{2b}$ is in BCNF with key $BE$ (or
 $CE$).
 

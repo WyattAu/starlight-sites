@@ -262,7 +262,7 @@ rate at 0.04% CO$_{2}$. Explain this observation. [2 marks]
 (c) This experiment uses oxygen bubble count as a measure of photosynthesis rate. Evaluate the
 reliability of this method and suggest **one** improvement. [3 marks]
 
-(d) The plant was then transferred to conditions of high light intensity and 0.10% CO$_{2}$And the
+(d) The plant was then transferred to conditions of high light intensity and 0.10% CO$_{2}$ And the
 temperature was gradually increased from $20^{\circ}C$ to $45^{\circ}C$. Describe and explain the
 expected change in photosynthesis rate. [4 marks]
 

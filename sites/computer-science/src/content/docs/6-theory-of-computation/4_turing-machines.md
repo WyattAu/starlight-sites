@@ -183,7 +183,7 @@ correctly simulates $M$. $\blacksquare$
 **Significance.** The UTM is the theoretical foundation for the stored-program computer: hardware
 (the UTM) is fixed, and software (the encoded TM) provides the specific computation.
 
-**Simulation overhead.** If $M$ runs in time $t(n)$Then $U$ simulates $M$ in time
+**Simulation overhead.** If $M$ runs in time $t(n)$ Then $U$ simulates $M$ in time
 $O(t(n) \cdot |M|)$Where $|M|$ is the size of $M$'s description.
 
 <details>

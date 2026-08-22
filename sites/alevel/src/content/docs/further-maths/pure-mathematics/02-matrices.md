@@ -160,7 +160,7 @@ _cofactor matrix_.
 
 **Definition.** The _cofactor_ $C_{ij}$ of entry $a_{ij}$ is $(-1)^{i+j}$ times the determinant of
 The submatrix obtained by deleting row $i$ and column $j$. The _cofactor matrix_ has entries
-$C_{ij}$And $\operatorname{adj}(\mathbf{A}) = (C_{ij})^T$.
+$C_{ij}$ And $\operatorname{adj}(\mathbf{A}) = (C_{ij})^T$.
 
 ### Proof that the inverse is unique
 
@@ -394,7 +394,7 @@ $\mathbf{P}$ and a diagonal matrix $\mathbf{D}$ such that:
 
 $$\boxed{\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}}$$
 
-The columns of $\mathbf{P}$ are the eigenvectors of $\mathbf{A}$And the diagonal entries of
+The columns of $\mathbf{P}$ are the eigenvectors of $\mathbf{A}$ And the diagonal entries of
 $\mathbf{D}$ are the corresponding eigenvalues.
 
 A matrix is diagonalisable if and only if it has $n$ linearly independent eigenvectors (always true
@@ -512,7 +512,7 @@ $$\mathbf{A}^{-1} = \frac{1}{3}\begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 &
 
 <hr />
 
-**Problem 3.** Find the matrix representing a reflection in the line $y = \sqrt{3}\,x$And verify
+**Problem 3.** Find the matrix representing a reflection in the line $y = \sqrt{3}\,x$ And verify
 That $\mathbf{M}^2 = \mathbf{I}$.
 
 <details>
@@ -560,7 +560,7 @@ Original area: $\dfrac{1}{2} \times 2 \times 1 = 1$.
 Image area using the determinant formula:
 $\dfrac{1}{2}\left|6 \cdot 2 - 0 \cdot 1\right| = \dfrac{1}{2} \times 12 = 6$.
 
-$\det(\mathbf{T}) = 6$And $|\det(\mathbf{T})| \times \mathrm{original area} = 6 \times 1 = 6$. ✓
+$\det(\mathbf{T}) = 6$ And $|\det(\mathbf{T})| \times \mathrm{original area} = 6 \times 1 = 6$. ✓
 
 </details>
 
@@ -636,13 +636,13 @@ Irrelevant because scalar multiples of the identity commute with all matrices.
 <hr />
 
 **Problem 7.** AQA only. Find the eigenvalues and corresponding eigenvectors of
-$\mathbf{A} = \begin{pmatrix} 5 & 4 \\ 1 & 2 \end{pmatrix}$And write down a matrix $\mathbf{P}$ And
+$\mathbf{A} = \begin{pmatrix} 5 & 4 \\ 1 & 2 \end{pmatrix}$ And write down a matrix $\mathbf{P}$ And
 diagonal matrix $\mathbf{D}$ such that $\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}$.
 
 <details>
 <summary>Hint</summary>
 
-Solve $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$ for $\lambda$Then find eigenvectors.
+Solve $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$ for $\lambda$ Then find eigenvectors.
 
 </details>
 
@@ -676,7 +676,7 @@ Eigenvalues 1 and 2. Use this to compute $\mathbf{A}^5$ without multiplying matr
 <details>
 <summary>Hint</summary>
 
-Diagonalise $\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}$Then
+Diagonalise $\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}$ Then
 $\mathbf{A}^5 = \mathbf{P}\mathbf{D}^5\mathbf{P}^{-1}$.
 
 </details>
@@ -695,7 +695,7 @@ $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
 $\mathbf{P} = \begin{pmatrix} 1 & 2 \\ 1 & 1 \end{pmatrix}$
 $\mathbf{D} = \begin{pmatrix} 1 & 0 \\ 0 & 2 \end{pmatrix}$.
 
-$\det(\mathbf{P}) = 1 - 2 = -1$So
+$\det(\mathbf{P}) = 1 - 2 = -1$ So
 $\mathbf{P}^{-1} = \begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix}$.
 
 $\mathbf{D}^5 = \begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}$.
@@ -784,7 +784,7 @@ $$\det\begin{pmatrix}2-\lambda&1&0\\0&2-\lambda&0\\0&1&3-\lambda\end{pmatrix} = 
 $\lambda_1 = 2$ (repeated), $\lambda_2 = 3$.
 
 For $\lambda = 2$: $(\mathbf{A}-2\mathbf{I})\mathbf{v} = \mathbf{0}$ gives
-$\begin{pmatrix}0&1&0\\0&0&0\\0&1&1\end{pmatrix}\mathbf{v} = \mathbf{0}$So $v_2 = 0$ and
+$\begin{pmatrix}0&1&0\\0&0&0\\0&1&1\end{pmatrix}\mathbf{v} = \mathbf{0}$ So $v_2 = 0$ and
 $v_3 = 0$With $v_1$ free. Only one eigenvector: $(1,0,0)$. Since the geometric multiplicity (1) is
 Less than the algebraic multiplicity (2), $\mathbf{A}$ is **not diagonalisable**.
 
@@ -792,7 +792,7 @@ Less than the algebraic multiplicity (2), $\mathbf{A}$ is **not diagonalisable**
 
 **Problem.** For $\mathbf{A} = \begin{pmatrix}1&2\\0&3\end{pmatrix}$Find $\mathbf{A}^5$.
 
-**Solution.** By Cayley--Hamilton, $\mathbf{A}^2 - 4\mathbf{A} + 3\mathbf{I} = \mathbf{O}$So
+**Solution.** By Cayley--Hamilton, $\mathbf{A}^2 - 4\mathbf{A} + 3\mathbf{I} = \mathbf{O}$ So
 $\mathbf{A}^2 = 4\mathbf{A} - 3\mathbf{I}$.
 
 $\mathbf{A}^3 = \mathbf{A}(4\mathbf{A}-3\mathbf{I}) = 4(4\mathbf{A}-3\mathbf{I}) - 3\mathbf{A} = 13\mathbf{A} - 12\mathbf{I}$.
@@ -816,7 +816,7 @@ $$\begin{pmatrix}2&1\\0&1\end{pmatrix}\mathbf{x} = \mathbf{0} \implies x_2 = 0, 
 Only the origin $(0,0)$ is an invariant point.
 
 **Invariant lines through the origin:** These are the eigenspaces. Eigenvalues:
-$(3-\lambda)(2-\lambda) = 0$So $\lambda = 3$ and $\lambda = 2$.
+$(3-\lambda)(2-\lambda) = 0$ So $\lambda = 3$ and $\lambda = 2$.
 
 For $\lambda = 3$: $\begin{pmatrix}0&1\\0&-1\end{pmatrix}\mathbf{v} = \mathbf{0} \implies v_2 = 0$.
 Line: $y = 0$ (the $x$-axis).
@@ -933,7 +933,7 @@ $\mathbf{D} = \begin{pmatrix}2&0\\0&3\end{pmatrix}$.
 
 ### Question 9
 
-**Prove that** if $\lambda$ is an eigenvalue of $\mathbf{A}$ with eigenvector $\mathbf{v}$Then
+**Prove that** if $\lambda$ is an eigenvalue of $\mathbf{A}$ with eigenvector $\mathbf{v}$ Then
 $\lambda^2$ is an eigenvalue of $\mathbf{A}^2$ with the same eigenvector.
 
 <details>
@@ -1162,7 +1162,7 @@ Eigenvector: $(1,1,1)$.
 <details>
 <summary>Solution</summary>
 
-If $\mathbf{B} = \mathbf{P}^{-1}\mathbf{AP}$Then:
+If $\mathbf{B} = \mathbf{P}^{-1}\mathbf{AP}$ Then:
 
 $\det(\mathbf{B}-\lambda\mathbf{I}) = \det(\mathbf{P}^{-1}\mathbf{AP}-\lambda\mathbf{I}) = \det(\mathbf{P}^{-1}(\mathbf{A}-\lambda\mathbf{I})\mathbf{P})$
 

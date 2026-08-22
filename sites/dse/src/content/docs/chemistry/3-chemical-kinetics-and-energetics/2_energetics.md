@@ -315,10 +315,10 @@ Bonds formed:
 
 $\Delta H = 2253 - 2346 = -93 \mathrm{ kJ/mol}$
 
-For 2 mol $\mathrm{NH}_3$: $\Delta H = -93 \mathrm{ kJ}$So per mole of reaction:
+For 2 mol $\mathrm{NH}_3$: $\Delta H = -93 \mathrm{ kJ}$ So per mole of reaction:
 $-93 \mathrm{ kJ/mol}$.
 
-Accepted $\Delta H_f^\circ(\mathrm{NH}_{3(g)}) = -46.0 \mathrm{ kJ/mol}$So
+Accepted $\Delta H_f^\circ(\mathrm{NH}_{3(g)}) = -46.0 \mathrm{ kJ/mol}$ So
 $\Delta H = 2 \times (-46.0) = -92.0 \mathrm{ kJ/mol}$. The estimate is close.
 
 </details>
@@ -811,7 +811,7 @@ Calculate the lattice energy of $\mathrm{Na}_2\mathrm{O}$ given:
 <details>
 <summary>Answer</summary>
 
-Born-Haber cycle (for 1 mol $\mathrm{Na}_2\mathrm{O}$So 2 mol Na):
+Born-Haber cycle (for 1 mol $\mathrm{Na}_2\mathrm{O}$ So 2 mol Na):
 
 $$\Delta H_f^\circ = 2[\Delta H_{\mathrm{at}}(\mathrm{Na}) + \mathrm{IE}_1 + \mathrm{IE}_2] + [\Delta H_{\mathrm{at}}(\mathrm{O}) + \mathrm{EA}_1 + \mathrm{EA}_2] + \Delta H_{\mathrm{latt}}$$
 

@@ -64,7 +64,7 @@ $\blacksquare$
 ### 5.4 Cayley--Hamilton Theorem
 
 **Theorem 5.5 (Cayley--Hamilton).** Every square matrix satisfies its own characteristic polynomial:
-If $p(\lambda) = \det(\lambda I - A)$Then $p(A) = 0$ (the zero matrix).
+If $p(\lambda) = \det(\lambda I - A)$ Then $p(A) = 0$ (the zero matrix).
 
 _Proof sketch._ Let $p(\lambda) = \lambda^n + c_{n-1}\lambda^{n-1} + \cdots + c_1\lambda + c_0$. By
 the adjugate formula (Theorem 3.5),
@@ -109,7 +109,7 @@ $$A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
 <details>
 <summary>Solution</summary>
 
-The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$So $\lambda = 3$ is the Only
+The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$ So $\lambda = 3$ is the Only
 eigenvalue with algebraic multiplicity 2.
 
 $A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$Which has rank 1, so the geometric
@@ -140,12 +140,12 @@ $\mathbf{v} \neq \mathbf{0}$. Then
 
 $$\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}$$
 
-Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$So
+Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$ So
 
 $$\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}$$
 
 Therefore $(\lambda - \overline{\lambda})\overline{\mathbf{v}}^T\mathbf{v} = 0$. Since
-$\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$So
+$\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$ So
 $\lambda \in \mathbb{R}$.
 
 **(2) and (3)** By induction. For $n = 1$ the result is trivial. Assume it holds for
@@ -277,7 +277,7 @@ $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$So by Cayley--Hamilton,
+The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$ So by Cayley--Hamilton,
 $A^2 = 7A - 10I$.
 
 To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
@@ -292,7 +292,7 @@ $\lambda^{10}\big|_{\lambda=5} = 5^{10} = 9765625 = 5a + b$
 
 $\lambda^{10}\big|_{\lambda=2} = 2^{10} = 1024 = 2a + b$
 
-Subtracting: $3a = 9765625 - 1024 = 9764601$So $a = 3254867$.
+Subtracting: $3a = 9765625 - 1024 = 9764601$ So $a = 3254867$.
 
 $b = 1024 - 2 \cdot 3254867 = 1024 - 6509734 = -6508710$.
 

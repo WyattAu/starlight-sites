@@ -30,13 +30,13 @@ $z_0$).
    finite.
 3. **Essential singularity**: infinitely many non-zero $a_n$ with $n \lt 0$.
 
-**Proposition 8.1 (Riemann"s Removable Singularity Theorem).** If $f$ is bounded near $z_0$Then
+**Proposition 8.1 (Riemann"s Removable Singularity Theorem).** If $f$ is bounded near $z_0$ Then
 $z_0$ is a removable singularity.
 
 **Proposition 8.2.** $z_0$ is a pole of order $m$ if and only if $\lim_{z \to z_0} (z - z_0)^m f(z)$
 Exists and is non-zero.
 
-**Theorem 8.3 (Casorati-Weierstrass).** If $z_0$ is an essential singularity of $f$Then $f$ takes
+**Theorem 8.3 (Casorati-Weierstrass).** If $z_0$ is an essential singularity of $f$ Then $f$ takes
 Values arbitrarily close to any complex number in every neighbourhood of $z_0$.
 
 ### 8.2 Classification with Worked Examples
@@ -46,13 +46,13 @@ Values arbitrarily close to any complex number in every neighbourhood of $z_0$.
 
 **Problem.** Classify the singularities of $f(z) = \frac{\sin z}{z}$.
 
-$z = 0$: $\sin z = z - z^3/6 + \cdots$So $f(z) = 1 - z^2/6 + \cdots$. No negative powers, so $z = 0$
+$z = 0$: $\sin z = z - z^3/6 + \cdots$ So $f(z) = 1 - z^2/6 + \cdots$. No negative powers, so $z = 0$
 is a removable singularity. $f(0) = 1$ by continuity.
 
 **Problem.** Classify the singularities of $f(z) = \frac{e^z - 1}{z^2}$.
 
-$z = 0$: $e^z - 1 = z + z^2/2 + \cdots$So $f(z) = \frac{1}{z} + \frac{1}{2} + \cdots$. Principal
-part is $1/z$So $z = 0$ is a simple pole with residue $1$.
+$z = 0$: $e^z - 1 = z + z^2/2 + \cdots$ So $f(z) = \frac{1}{z} + \frac{1}{2} + \cdots$. Principal
+part is $1/z$ So $z = 0$ is a simple pole with residue $1$.
 
 **Problem.** Classify the singularity of $f(z) = e^{1/z}$ at $z = 0$.
 
@@ -66,7 +66,7 @@ $z = 0$: pole of order $3$. $z = i$: simple pole. $z = -i$: simple pole.
 
 **Problem.** Determine the type of singularity of $f(z) = \frac{z}{\sin z}$ at $z = 0$.
 
-$\sin z = z - z^3/6 + \cdots$So $f(z) = \frac{1}{1 - z^2/6 + \cdots}
+$\sin z = z - z^3/6 + \cdots$ So $f(z) = \frac{1}{1 - z^2/6 + \cdots}
 = 1 + \frac{z^2}{6} + \cdots$.
 
 No negative powers, so $z = 0$ is a removable singularity with $f(0) = 1$.
@@ -101,7 +101,7 @@ $$\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1
 
 **Problem.** Find the residue of $f(z) = \frac{z}{z^2 + 4z + 3}$ at each pole.
 
-$z^2 + 4z + 3 = (z + 1)(z + 3)$So simple poles at $z = -1$ and $z = -3$.
+$z^2 + 4z + 3 = (z + 1)(z + 3)$ So simple poles at $z = -1$ and $z = -3$.
 
 At $z = -1$: $\mathrm{Res} = \lim_{z \to -1} \frac{z}{z + 3} = \frac{-1}{2}$. At $z = -3$:
 $\mathrm{Res} = \lim_{z \to -3} \frac{z}{z + 1} = \frac{-3}{-2} = \frac{3}{2}$.
@@ -152,7 +152,7 @@ _Solution._ The poles are the fourth roots of $-1$: $z_k = e^{i\pi/4 + ik\pi/2}$
 $k = 0, 1, 2, 3$. All four lie inside $|z| = 2$.
 
 Each is a simple pole with $\mathrm{Res}(f, z_k) = \frac{1}{4z_k^3}$. Since $z_k^4 = -1$:
-$z_k^{-3} = -z_k$So the sum equals $-\frac{1}{4}\sum z_k = 0$.
+$z_k^{-3} = -z_k$ So the sum equals $-\frac{1}{4}\sum z_k = 0$.
 
 $\int_\gamma \frac{dz}{z^4 + 1} = 2\pi i \cdot 0 = 0$. $\blacksquare$
 

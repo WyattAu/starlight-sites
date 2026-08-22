@@ -113,7 +113,7 @@ $\text{Ba-141}$ (mass $140.9144\,\text{u}$) and $\text{Kr-92}$ (mass $91.9262\,\
 
 (a) Calculate the mass defect of the fission products and the energy released.
 
-(b) Calculate the binding energy per nucleon of $\text{U-235}$, $\text{Ba-141}$And $\text{Kr-92}$And
+(b) Calculate the binding energy per nucleon of $\text{U-235}$, $\text{Ba-141}$ And $\text{Kr-92}$ And
 explain why fission releases energy.
 
 (c) A student claims that "nuclear fission converts mass directly into energy, which is why it
@@ -324,7 +324,7 @@ radiation detection.
 - No electric force ($q = 0$).
 - Travel in a straight line, undeflected.
 
-(b) Magnetic force provides centripetal force: $qvB = mv^2/r$So $r = mv/(qB)$.
+(b) Magnetic force provides centripetal force: $qvB = mv^2/r$ So $r = mv/(qB)$.
 
 For alpha: $r_\alpha = m_\alpha v/(2eB) = 0.20\,\text{m}$
 

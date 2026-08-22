@@ -5,7 +5,7 @@ title: Lebesgue Outer Measure and Caratheodory Extension
 tags:
   - Mathematics
   - University
-description: "Comprehensive educational content notes on lebesgue outer measure and caratheodory extension with precise definitions, worked examples, and common pitfalls."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"10 Measure"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

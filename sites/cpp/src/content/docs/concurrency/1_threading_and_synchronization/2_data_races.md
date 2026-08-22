@@ -116,7 +116,7 @@ for (int i = 0; i < num_threads; ++i) {
 
 ```
 
-The expected result is $10 \times 100\,000 = 1\,000\,000$But the actual result will Be less because
+The expected result is $10 \times 100\,000 = 1\,000\,000$ But the actual result will Be less because
 `++counter` is not atomic. The increment operation consists of three machine Instructions:
 
 1. Load `counter` from memory into a register.

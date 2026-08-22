@@ -88,7 +88,7 @@ A 2DEG in a GaAs/AlGaAs heterostructure has $n_{2D} = 3 \times 10^{15}$ m$^{-2}$
 (a) At $B = 10$ T:
 $\nu = n_{2D}h/(eB) = 3 \times 10^{15} \times 6.626 \times 10^{-34}/(1.6 \times 10^{-19} \times 10) = 3 \times 10^{15} \times 4.14 \times 10^{-16} = 1.24$.
 
-The filling factor $\nu \approx 1.24$ is close to $\nu = 1$So the $\nu = 1$ plateau is observed
+The filling factor $\nu \approx 1.24$ is close to $\nu = 1$ So the $\nu = 1$ plateau is observed
 with:
 
 $$R_{xy} = \frac{h}{e^2} = 25812.8\,\Omega$$

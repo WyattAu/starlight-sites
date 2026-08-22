@@ -295,7 +295,7 @@ When $n$ is large and $p$ is small such that $np \leq 10$:
 
 $$B(n, p) \approx \mathrm{Po}(np)$$
 
-**Example.** $X \sim B(200, 0.02)$. Then $\lambda = np = 4$So $X \approx \mathrm{Po}(4)$.
+**Example.** $X \sim B(200, 0.02)$. Then $\lambda = np = 4$ So $X \approx \mathrm{Po}(4)$.
 
 $P(X \leq 2) \approx e^{-4}\left(1 + 4 + \frac{16}{2}\right) = 13e^{-4} \approx 0.2381$.
 
@@ -1131,7 +1131,7 @@ $= P(-0.919 < Z < 1.327) = \Phi(1.327) - \Phi(-0.919) = 0.908 - 0.179 = \boxed{0
 ### Question 14
 
 **Prove that** if $X$ and $Y$ are independent with $X \sim \mathrm{Geo}(p)$ and
-$Y \sim \mathrm{Geo}(p)$Then $\min(X,Y) \sim \mathrm{Geo}(1-(1-p)^2)$.
+$Y \sim \mathrm{Geo}(p)$ Then $\min(X,Y) \sim \mathrm{Geo}(1-(1-p)^2)$.
 
 <details>
 <summary>Solution</summary>

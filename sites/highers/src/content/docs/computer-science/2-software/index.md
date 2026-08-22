@@ -1,6 +1,6 @@
 ---
 title: Software
-description: "Study notes and resources for Software"
+description: "This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and"
 date: 2026-01-01T00:00:00Z
 ---
 

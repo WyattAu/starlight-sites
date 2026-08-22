@@ -1,6 +1,6 @@
 ---
 title: "IB Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of International Baccalaureate (IB) terms covering the Diploma Programme."
+description: "Core: The central component of the IB Diploma Programme, consisting of Theory of Knowledge (TOK), Extended Essay (EE), and Creativity, Activity, Service (CAS)."
 date: 2026-07-24
 tags: [glossary]
 ---

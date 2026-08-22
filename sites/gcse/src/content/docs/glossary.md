@@ -1,6 +1,6 @@
 ---
 title: "GCSE Glossary — Key Terms Across All Subjects"
-description: "Comprehensive glossary of key terms for the General Certificate of Secondary Education (GCSE) examinations."
+description: "Assessment Objective (AO): The skills and knowledge being assessed. Different subjects have different AOs (e.g., AO1: demonstrate knowledge, AO2: apply"
 date: 2026-07-24
 tags: [glossary]
 ---

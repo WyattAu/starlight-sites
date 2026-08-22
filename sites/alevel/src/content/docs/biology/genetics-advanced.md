@@ -166,7 +166,7 @@ $25 + 20 + 80 + 85 + 15 + 25 = 250$. Distance = $250/1000 \times 100 = 25\ \math
 $aBd$Total 40). The map distance A--D calculated directly (25 cM) is less than A--B + B--D (41.5 cM)
 because double cross-overs between A and D are counted as non-recombinant for the A--D comparison
 but are recombinant for both A--B and B--D. The corrected A--D distance = A--B + B--D + 2 $\times$
-(double cross-over frequency) = $21 + 20.5 + 2 \times 4 = 49.5\ \mathrm{cM}$But this exceeds 50 cM,
+(double cross-over frequency) = $21 + 20.5 + 2 \times 4 = 49.5\ \mathrm{cM}$ But this exceeds 50 cM,
 indicating multiple cross-overs.
 
 ### 2.3 Sex Linkage with Linkage
@@ -728,7 +728,7 @@ clotting factor VIII. The gene is located at Xq28.
 **Worked Example: Pedigree analysis.** A normal woman whose father was haemophilic marries a normal
 man. What is the probability that their first son will be haemophilic?
 
-The woman's father was $X^hY$So she must have inherited $X^h$ from him. Her mother was presumably
+The woman's father was $X^hY$ So she must have inherited $X^h$ from him. Her mother was presumably
 $X^HX^H$ or $X^HX^h$. The woman is $X^HX^h$ (carrier). The man is $X^HY$.
 
 Cross: $X^HX^h \times X^HY$
@@ -741,7 +741,7 @@ Cross: $X^HX^h \times X^HY$
 Probability of a haemophiliac son $= \frac{1}{4}$.
 
 However, the question asks specifically about the first son. The probability of having a son is
-$\frac{1}{2}$And given it is a son, the probability he is haemophiliac is $\frac{1}{2}$. So
+$\frac{1}{2}$ And given it is a son, the probability he is haemophiliac is $\frac{1}{2}$. So
 $P = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$.
 
 ## 11. Selection and Fitness
@@ -819,7 +819,7 @@ reproductively isolated.
 
 ### 12.1 The ABO Blood Group System
 
-The ABO blood group is determined by a single gene ($I$) with three alleles: $I^A$$I^B$And $i$.
+The ABO blood group is determined by a single gene ($I$) with three alleles: $I^A$$I^B$ And $i$.
 
 | Genotype             | Blood Group | Antigens on RBC | Antibodies in Plasma |
 | -------------------- | ----------- | --------------- | -------------------- |
@@ -1051,7 +1051,7 @@ The excess of parental types and deficiency of recombinant types indicate linkag
 Some genes have more than two alleles in the population. The Hardy-Weinberg principle can be
 extended to multiple alleles.
 
-**Worked Example: ABO blood groups.** The alleles are $I^A$$I^B$And $i$With frequencies $p$$q$And
+**Worked Example: ABO blood groups.** The alleles are $I^A$$I^B$ And $i$With frequencies $p$$q$ And
 $r$ respectively, where $p + q + r = 1$.
 
 Genotype frequencies: $p^2$ ($I^A I^A$), $q^2$ ($I^B I^B$), $r^2$ ($ii$), $2pq$ ($I^A I^B$), $2pr$
@@ -1062,7 +1062,7 @@ Blood group frequencies: $p^2 + 2pr$ (A), $q^2 + 2qr$ (B), $2pq$ (AB), $r^2$ (O)
 **Worked Example.** In a population of 10,000, the blood group frequencies are: A = 4200, B = 1500,
 AB = 300, O = 4000.
 
-$r^2 = \frac{4000}{10000} = 0.40$So $r = \sqrt{0.40} = 0.632$.
+$r^2 = \frac{4000}{10000} = 0.40$ So $r = \sqrt{0.40} = 0.632$.
 
 $p^2 + 2pr = 0.42$.
 
@@ -1145,7 +1145,7 @@ developmental biology (evo-devo).
 ### 19.1 Measuring the Strength of Selection
 
 The **selection coefficient** ($s$) measures the reduction in fitness of a genotype relative to the
-fittest genotype. If the fittest genotype has fitness $w = 1.0$Then:
+fittest genotype. If the fittest genotype has fitness $w = 1.0$ Then:
 
 $$s = 1 - w$$
 

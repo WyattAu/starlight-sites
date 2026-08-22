@@ -221,7 +221,7 @@ $= \frac{1}{2}\int_{-\pi/3}^{\pi/3} (4 + 4\cos 2\theta - 2\cos\theta - 1)\,d\the
 $= \frac{1}{2}\left[3\theta + 2\sin 2\theta - 2\sin\theta\right]_{-\pi/3}^{\pi/3} = \frac{1}{2}(2\pi) = \pi$.
 
 (c) Area inside cardioid but outside circle (the remaining part of the circle,
-$\theta \in [\pi/3, 5\pi/3]$ -- but the cardioid only goes to $\pi$And for
+$\theta \in [\pi/3, 5\pi/3]$ -- but the cardioid only goes to $\pi$ And for
 $\theta \in [\pi/3, \pi]$The circle is $r = 3\cos\theta$ which can be negative).
 
 Actually, the area inside the cardioid minus the overlap with the circle: Total cardioid area

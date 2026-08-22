@@ -5,7 +5,7 @@ title: "Hamiltonian Mechanics: Advanced Topics"
 tags:
   - Physics
   - University
-description: "Content notes."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"1 Classical"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -19,7 +19,7 @@ description: "If is a prime dividing Then has an element of Order . Comprehensiv
 
 ### 14.1 Cauchy"s Theorem
 
-**Theorem 14.1 (Cauchy's Theorem).** If $p$ is a prime dividing $|G|$Then $G$ has an element of
+**Theorem 14.1 (Cauchy's Theorem).** If $p$ is a prime dividing $|G|$ Then $G$ has an element of
 Order $p$.
 
 _Proof._ Consider the set $X = \{(g_1, g_2, \ldots, g_p) \in G^p : g_1 g_2 \cdots g_p = e\}$.
@@ -42,7 +42,7 @@ $\mathbb{Z}/6\mathbb{Z}$ or $S_3$.
 _Solution._ Let $|G| = 6 = 2 \cdot 3$. By Cauchy's theorem, $G$ has an element $a$ of order $2$ And
 an element $b$ of order $3$.
 
-The subgroup $H = \langle b \rangle$ has index $2$So $H \trianglelefteq G$ (Corollary 3.7). The
+The subgroup $H = \langle b \rangle$ has index $2$ So $H \trianglelefteq G$ (Corollary 3.7). The
 quotient $G/H$ has order $2$.
 
 Since $a \notin H$ (as $|a| = 2$ and $|b| = 3$), every element of $G$ is either $b^k$ or $ab^k$. The
@@ -70,7 +70,7 @@ $G = \langle g \rangle \cong \mathbb{Z}/4\mathbb{Z}$.
 
 **Case 2:** Every non-identity element has order $2$. Let $a, b \in G$ with $a \neq b$ and
 $a, b \neq e$. Then $G = \{e, a, b, ab\}$ (there are only $4$ elements). We have
-$a^2 = b^2 = (ab)^2 = e$. From $(ab)^2 = e$: $abab = e$So $ba = a^{-1}b^{-1} = ab$ (since
+$a^2 = b^2 = (ab)^2 = e$. From $(ab)^2 = e$: $abab = e$ So $ba = a^{-1}b^{-1} = ab$ (since
 $a^{-1} = a$ and $b^{-1} = b$). Thus $G$ is abelian:
 $G \cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z} = V_4$.
 

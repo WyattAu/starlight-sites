@@ -423,7 +423,7 @@ Step 3: Name substituents alphabetically: chloro- (before methyl-).
 The name is **3-chloro-2-methylpentane**.
 
 Step 4: Check for chirality. C-2 is bonded to
-$-\mathrm{Cl}$$-\mathrm{CH}_3$$-\mathrm{CH}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{CH}_3$And
+$-\mathrm{Cl}$$-\mathrm{CH}_3$$-\mathrm{CH}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{CH}_3$ And
 $-\mathrm{H}$. All four groups are different, so C-2 is a chiral centre. The compound exists as a
 pair of enantiomers: (2R)-3-chloro-2-methylpentane and (2S)-3-chloro-2-methylpentane.
 
@@ -722,18 +722,18 @@ $\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$ (2-hydroxypropanoic acid, l
 **Solution:**
 
 (a) **Not chiral.** The central carbon (C-2) is bonded to
-$\mathrm{CH}_3$$\mathrm{CH}_3$$\mathrm{Cl}$And $\mathrm{H}$. Two of the substituents are the same
+$\mathrm{CH}_3$$\mathrm{CH}_3$$\mathrm{Cl}$ And $\mathrm{H}$. Two of the substituents are the same
 ($\mathrm{CH}_3$), so there is a plane of symmetry through C-2, Cl, and H. The molecule has a
 superimposable mirror image.
 
 (b) **Chiral.** The central carbon (C-2) is bonded to
-$\mathrm{CH}_3$$\mathrm{C}_2\mathrm{H}_5$$\mathrm{Cl}$And $\mathrm{H}$. All four substituents are
+$\mathrm{CH}_3$$\mathrm{C}_2\mathrm{H}_5$$\mathrm{Cl}$ And $\mathrm{H}$. All four substituents are
 different. The molecule has a non-superimposable mirror image (exists as $R$ and $S$ enantiomers).
 
 (c) **Not chiral.** No carbon atom is bonded to four different groups. C-2 is bonded to two
 $\mathrm{CH}_2\mathrm{Cl}$ groups (identical).
 
-(d) **Chiral.** C-2 is bonded to $\mathrm{CH}_3$$\mathrm{OH}$$\mathrm{COOH}$And $\mathrm{H}$. All
+(d) **Chiral.** C-2 is bonded to $\mathrm{CH}_3$$\mathrm{OH}$$\mathrm{COOH}$ And $\mathrm{H}$. All
 four substituents are different. Lactic acid exists as two enantiomers. L-(+)-lactic acid is the
 occurring form found in muscle tissue.
 
@@ -961,11 +961,11 @@ for each:
 
 (a) 2,3-dibromobutane:
 $\mathrm{CH}_3-\mathrm{CH}(\mathrm{Br})-\mathrm{CH}(\mathrm{Br})-\mathrm{CH}_3$. Both C-2 and C-3
-are chiral centres (each bonded to $\mathrm{CH}_3$$\mathrm{H}$$\mathrm{Br}$And
+are chiral centres (each bonded to $\mathrm{CH}_3$$\mathrm{H}$$\mathrm{Br}$ And
 $\mathrm{CH}(\mathrm{Br})\mathrm{CH}_3$) (1 mark for each chiral centre, 2 marks total).
 
 Maximum number of stereoisomers $= 2^n = 2^2 = 4$. However, there is a meso compound (the $RS$
-isomer has a plane of symmetry), so there are **3 stereoisomers** ($RR$$SS$And $RS$ meso) (1 mark).
+isomer has a plane of symmetry), so there are **3 stereoisomers** ($RR$$SS$ And $RS$ meso) (1 mark).
 
 (b) 2,3-dibromopentane:
 $\mathrm{CH}_3-\mathrm{CH}_2-\mathrm{CH}(\mathrm{Br})-\mathrm{CH}(\mathrm{Br})-\mathrm{CH}_3$. Both

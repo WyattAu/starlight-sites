@@ -1,7 +1,7 @@
 ---
 
 title: Rhetorical Analysis
-description: "Before analysing any text, identify the context in which the text was produced."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"English\", \"url\":"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

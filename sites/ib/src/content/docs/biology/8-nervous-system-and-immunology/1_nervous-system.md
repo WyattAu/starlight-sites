@@ -1106,7 +1106,7 @@ lead to involuntary movements (dyskinesias).
 
 A neuron receives three simultaneous excitatory postsynaptic potentials (EPSPs) and one inhibitory
 Postsynaptic potential (IPSP). EPSP1 depolarises the membrane by $+8\;\mathrm{mV}$EPSP2 by
-$+5\;\mathrm{mV}$ EPSP3 by $+3\;\mathrm{mV}$And IPSP1 hyperpolarises by $-6\;\mathrm{mV}$. The
+$+5\;\mathrm{mV}$ EPSP3 by $+3\;\mathrm{mV}$ And IPSP1 hyperpolarises by $-6\;\mathrm{mV}$. The
 resting potential is $-70\;\mathrm{mV}$ and the threshold is $-55\;\mathrm{mV}$. (a) Calculate the
 net change in membrane Potential. (b) Will an action potential be generated? (c) If EPSP2 arrives
 $2\;\mathrm{ms}$ after the Others (the membrane time constant is $5\;\mathrm{ms}$), recalculate and
@@ -1393,7 +1393,7 @@ changes that occur during LTP maintenance. (e) Explain how LTP relates to the He
 $\mathrm{K}^+$). It mediates fast excitatory postsynaptic potentials (EPSPs). It is responsible for
 the Initial depolarisation that removes the $\mathrm{Mg}^{2+}$ block from the NMDA receptor.
 
-**NMDA receptor**: an ionotropic glutamate receptor permeable to $\mathrm{Na}^+$$\mathrm{K}^+$And
+**NMDA receptor**: an ionotropic glutamate receptor permeable to $\mathrm{Na}^+$$\mathrm{K}^+$ And
 $\mathrm{Ca}^{2+}$. It requires both glutamate binding AND sufficient depolarisation (to remove the
 $\mathrm{Mg}^{2+}$ block). The $\mathrm{Ca}^{2+}$ influx through NMDA receptors is the trigger for
 LTP Induction.

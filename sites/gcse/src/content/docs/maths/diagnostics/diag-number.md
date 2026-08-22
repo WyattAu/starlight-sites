@@ -33,7 +33,7 @@ your working.
 $\frac{3}{8} = \frac{9}{24}$$\frac{5}{6} = \frac{20}{24}$$\frac{1}{4} = \frac{6}{24}$.
 $\frac{9}{24} + \frac{20}{24} - \frac{6}{24} = \frac{23}{24}$.
 
-(b) Let $x = 0.363636...$. Then $100x = 36.3636...$. Subtracting: $99x = 36$So
+(b) Let $x = 0.363636...$. Then $100x = 36.3636...$. Subtracting: $99x = 36$ So
 $x = \frac{36}{99} = \frac{4}{11}$.
 
 (c) After 20% discount: $45 \times 0.80 = \pounds 36$. After 20% increase:
@@ -140,7 +140,7 @@ minimises cost and calculate the total cost.
 
 **Solution:**
 
-(a) $t = \frac{k}{n}$. When $n = 4$$t = 6$: $6 = k/4$So $k = 24$. Formula: $t = \frac{24}{n}$.
+(a) $t = \frac{k}{n}$. When $n = 4$$t = 6$: $6 = k/4$ So $k = 24$. Formula: $t = \frac{24}{n}$.
 
 (b) $t = 24/10 = 2.4$ hours $= 2$ hours 24 minutes.
 

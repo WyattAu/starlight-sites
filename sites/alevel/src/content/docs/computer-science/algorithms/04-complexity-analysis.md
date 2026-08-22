@@ -100,7 +100,7 @@ Performance. **Edexcel** covers time and space complexity with Big-O notation.
 
 ### Definitions
 
-For an algorithm with input size $n$Let $D_n$ be the set of all possible inputs of size $n$And Let
+For an algorithm with input size $n$Let $D_n$ be the set of all possible inputs of size $n$ And Let
 $T(A, I)$ be the running time of algorithm $A$ on input $I$.
 
 - **Best case:** $T_{\mathrm{best}}(n) = \min_{I \in D_n} T(A, I)$
@@ -265,7 +265,7 @@ For all $n \geq n_0$.
 This implies $n \leq c$ for all $n \geq n_0$. But $n$ grows without bound, so this is impossible for
 Any fixed $c$. Contradiction. $\square$
 
-Equivalently: $\lim_{n \to \infty} n^2 / n = \lim_{n \to \infty} n = \infty \neq 0$So
+Equivalently: $\lim_{n \to \infty} n^2 / n = \lim_{n \to \infty} n = \infty \neq 0$ So
 $n^2 \neq O(n)$.
 
 </details>
@@ -423,10 +423,10 @@ $h_1(n) \leq c_1 f(n)$ and $h_2(n) \leq c_2 g(n)$ for all $n \geq n_0$.
 
 Then: $h_1(n) + h_2(n) \leq c_1 f(n) + c_2 g(n) \leq (c_1 + c_2) \cdot \max(f(n), g(n))$.
 
-Let $c = c_1 + c_2$. Then $h_1 + h_2 \leq c \cdot \max(f, g)$So $h_1 + h_2 \in O(\max(f, g))$.
+Let $c = c_1 + c_2$. Then $h_1 + h_2 \leq c \cdot \max(f, g)$ So $h_1 + h_2 \in O(\max(f, g))$.
 $\square$
 
-**Corollary.** If $f = O(g)$Then $O(f + g) = O(g)$.
+**Corollary.** If $f = O(g)$ Then $O(f + g) = O(g)$.
 
 For revision on specific algorithm complexities, see
 [Sorting Algorithms](02-sorting-algorithms) and
@@ -461,7 +461,7 @@ The inner loop runs `i` times for each value of `i` from 0 to n−1.
 
 Total iterations = $0 + 1 + 2 + \cdots + (n-1) = \frac{n(n-1)}{2} = \frac{n^2 - n}{2}$
 
-The dominant term is $\frac{n^2}{2}$So the time complexity is $O(n^2)$.
+The dominant term is $\frac{n^2}{2}$ So the time complexity is $O(n^2)$.
 
 The $\frac{1}{2}$ constant and the $-n$ term are dropped because Big-O ignores constant factors and
 Lower-order terms.
@@ -540,7 +540,7 @@ $O(n^3)$(c) $O(n)$ vs $O(\log n)$.
 <details>
 <summary>Hint</summary>
 
-Use the limit test: if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$Then $f(n) = o(g(n))$Meaning $f$
+Use the limit test: if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$ Then $f(n) = o(g(n))$Meaning $f$
 grows strictly slower than $g$.
 
 </details>

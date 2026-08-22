@@ -242,7 +242,7 @@ DNF.
 
 **Conversion to CNF:**
 
-1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$And
+1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$ And
    $A \iff B \equiv (\neg A \lor B) \land (A \lor \neg B)$.
 2. Push $\neg$ inward using De Morgan"s laws and double negation ($\neg\neg A \equiv A$) until every
    $\neg$ applies to a single variable.
@@ -362,7 +362,7 @@ Checking validity is Co-NP-complete, not NP-complete.
 
 $$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
 
-**Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$Then
+**Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$ Then
 $|\mathcal{P}(A)| = 2^n$.
 
 ### 2.2 Relations
@@ -391,12 +391,12 @@ $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence class
 <details>
 <summary>Solution</summary>
 
-_Reflexive:_ $a - a = 0 = 5 \cdot 0$So $a \equiv a \pmod{5}$ for all $a$.
+_Reflexive:_ $a - a = 0 = 5 \cdot 0$ So $a \equiv a \pmod{5}$ for all $a$.
 
-_Symmetric:_ If $a \equiv b \pmod{5}$Then $5 \mid (a - b)$So $5 \mid (b - a)$Giving
+_Symmetric:_ If $a \equiv b \pmod{5}$ Then $5 \mid (a - b)$ So $5 \mid (b - a)$Giving
 $b \equiv a \pmod{5}$.
 
-_Transitive:_ If $5 \mid (a - b)$ and $5 \mid (b - c)$Then $5 \mid (a - b) + (b - c) = a - c$So
+_Transitive:_ If $5 \mid (a - b)$ and $5 \mid (b - c)$ Then $5 \mid (a - b) + (b - c) = a - c$ So
 $a \equiv c \pmod{5}$.
 
 The equivalence classes are $[0] = \\{5k : k \in \mathbb{Z}\\}$
@@ -414,10 +414,10 @@ iff $a \mid b$. Verify this is a partial order and identify the cover relations.
 
 _Reflexive:_ $a \mid a$ for all $a \in A$. ✓
 
-_Antisymmetric:_ If $a \mid b$ and $b \mid a$Then $b = ka$ and $a = lb$ for positive $k, l$ So
+_Antisymmetric:_ If $a \mid b$ and $b \mid a$ Then $b = ka$ and $a = lb$ for positive $k, l$ So
 $a = lka$Giving $lk = 1$ and $l = k = 1$Hence $a = b$. ✓
 
-_Transitive:_ If $a \mid b$ and $b \mid c$Then $c = lb = l(ka) = (lk)a$So $a \mid c$. ✓
+_Transitive:_ If $a \mid b$ and $b \mid c$ Then $c = lb = l(ka) = (lk)a$ So $a \mid c$. ✓
 
 Cover relations ($b$ covers $a$ when $a \mid b$ and no element lies strictly between):
 
@@ -446,7 +446,7 @@ A function $f : A \to B$ is a relation where each $a \in A$ appears exactly once
 - Surjective if and only if $|A| \geq |B|$.
 - Bijective if and only if $|A| = |B|$.
 
-**Theorem 2.2 (Pigeonhole Principle).** If $|A| \gt{} |B|$Then no function $f : A \to B$ is
+**Theorem 2.2 (Pigeonhole Principle).** If $|A| \gt{} |B|$ Then no function $f : A \to B$ is
 injective. Equivalently, placing $n$ items into $m$ boxes with $n \gt{} m$ forces at least one box
 to contain at least $\lceil n/m \rceil$ items.
 
@@ -574,7 +574,7 @@ Contradiction. $\blacksquare$
 <summary>Solution</summary>
 
 Suppose $\sqrt{2} = p/q$ in lowest terms, with $p, q \in \mathbb{Z}^+$ and $\gcd(p, q) = 1$.
-Then $2q^2 = p^2$So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$So
+Then $2q^2 = p^2$ So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$ So
 $q^2 = 2r^2$Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
 $\blacksquare$
 
@@ -650,16 +650,16 @@ Induction.
 
 _Proof (WOP implies induction)._ Let $P(n)$ be a property with $P(0)$ true and
 $P(k) \implies P(k+1)$. Suppose for contradiction that $P(n)$ fails for some $n \geq 0$. Let
-$S = \\{n \geq 0 : P(n)\; \mathrm{is\; false{}\\}$. By assumption $S \neq \emptyset$So by WOP, $S$
+$S = \\{n \geq 0 : P(n)\; \mathrm{is\; false{}\\}$. By assumption $S \neq \emptyset$ So by WOP, $S$
 has a least Element $m$. Since $P(0)$ is true, $m \geq 1$. Then $P(m - 1)$ is true (by minimality of
 $m$), And $P(m - 1) \implies P(m)$ by the inductive hypothesis, so $P(m)$ is true, contradicting
 $m \in S$. Therefore $S = \emptyset$ and $P(n)$ holds for all $n \geq 0$.
 
 _Proof (induction implies WOP)._ Let $S \subseteq \mathbb{N}$ be nonempty. We prove by
-induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$Then $S$ has a least element. For
+induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$ Then $S$ has a least element. For
 $n = 0$, $S$ Contains $0$Which is the least element. Assume the claim for $n = k$. If
 $0 \in S \cap \\{0, \ldots, k+1\\}$ Then $0$ is the least element. Otherwise
-$S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$And by The induction hypothesis applied
+$S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$ And by The induction hypothesis applied
 to the shifted set, a least element exists. $\blacksquare$
 
 **Worked Example.** Use the WOP to prove that every $n \geq 1$ can be written as a sum of distinct
@@ -672,8 +672,8 @@ Let $S$ be the set of positive integers that _cannot_ be written as a sum of dis
 Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
-$m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$Then $m = 2^k$ is a single power of 2,
-Contradicting $m \in S$. If $m - 2^k \gt 0$Then $m - 2^k \lt m$So $m - 2^k \notin S$ (by minimality
+$m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
+Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
 Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$
@@ -788,7 +788,7 @@ Directly by stars and bars: $\binom{20 + 4 - 1}{4 - 1} = \binom{23}{3} = 1771$. 
 
 ### 4.5 The Pigeonhole Principle
 
-**Theorem 4.5 (Pigeonhole Principle).** If $n$ objects are placed into $k$ boxes and $n \gt k$Then
+**Theorem 4.5 (Pigeonhole Principle).** If $n$ objects are placed into $k$ boxes and $n \gt k$ Then
 at Least one box contains at least $\lceil n/k \rceil$ objects.
 
 _Proof._ If every box contained at most $\lceil n/k \rceil - 1$ objects, the total would be at most
@@ -816,7 +816,7 @@ $\\{n, 2n\\}$. Each pair sums to $n + (n+k) = 2n + k$... Let me rephrase.
 
 Partition into $\\{1, n+1\\}$, $\\{2, n+2\\}$, $\ldots$, $\\{n, 2n\\}$. These are $n$ disjoint sets.
 If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$By the pigeonhole principle two must lie in
-the Same set $\\{i, n+i\\}$And their difference is $(n + i) - i = n$. $\blacksquare$
+the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksquare$
 
 </details>
 
@@ -827,18 +827,18 @@ the Same set $\\{i, n+i\\}$And their difference is $(n + i) - i = n$. $\blacksqu
 <summary>Solution</summary>
 
 Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$Let $d_i$ be the length of the
-Longest increasing subsequence starting at $a_i$And $e_i$ the length of the longest decreasing
+Longest increasing subsequence starting at $a_i$ And $e_i$ the length of the longest decreasing
 Subsequence starting at $a_i$.
 
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
-$1 \leq d_i \leq n$ and $1 \leq e_i \leq n$So there are at most $n^2$ distinct ordered pairs
+$1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
 Have $(d_i, e_i) = (d_j, e_j)$.
 
-If $a_i \lt a_j$Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
+If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
 
-If $a_i \gt a_j$Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
+If $a_i \gt a_j$ Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
 
 Either way we have a contradiction. $\blacksquare$
 
@@ -855,7 +855,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$So $n/3 \gt{} 3$Giving
+At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -941,7 +941,7 @@ $$G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \under
 $$= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}$$
 
 The coefficient of $x^n$ in the expansion gives the number of ways. For example, expanding the First
-few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$So there are 4 ways to make 5p (5×1p; 3×1p +
+few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to make 5p (5×1p; 3×1p +
 1×2p; 1×1p + 2×2p; 1×5p).
 
 </details>
@@ -1010,8 +1010,8 @@ $\blacksquare$
 
 **Corollary 5.7.** $K_5$ and $K_{3,3}$ are not planar.
 
-_Proof._ $K_5$ has $V = 5$, $E = 10$But $10 \gt 3(5) - 6 = 9$. For $K_{3,3}$, $V = 6$, $E = 9$.
-Since $K_{3,3}$ has no triangles, every face has at least 4 edges, giving $4F \leq 2E$So
+_Proof._ $K_5$ has $V = 5$, $E = 10$ But $10 \gt 3(5) - 6 = 9$. For $K_{3,3}$, $V = 6$, $E = 9$.
+Since $K_{3,3}$ has no triangles, every face has at least 4 edges, giving $4F \leq 2E$ So
 $F \leq E/2 = 4.5$. But $V - E + F = 2$ gives $F = 2 - 6 + 9 = 5 \gt 4.5$. Contradiction.
 $\blacksquare$
 
@@ -1148,7 +1148,7 @@ Returns to the start.
 $\deg(v) \geq n/2$ for every vertex, then $G$ has a Hamilton circuit.
 
 **Theorem 5.16 (Ore's Theorem).** If $G$ is a simple graph with $n \geq 3$ vertices and
-$\deg(u) + \deg(v) \geq n$ for every pair of non-adjacent vertices $u, v$Then $G$ has a Hamilton
+$\deg(u) + \deg(v) \geq n$ for every pair of non-adjacent vertices $u, v$ Then $G$ has a Hamilton
 Circuit.
 
 Note that Dirac's theorem is a corollary of Ore’s theorem.
@@ -1161,14 +1161,14 @@ Note that Dirac's theorem is a corollary of Ore’s theorem.
 $K_{2,3}$ has 5 vertices. A Hamilton circuit must visit all 5 vertices and return. Label the
 Partitions as $A = \\{a_1, a_2\\}$ and $B = \\{b_1, b_2, b_3\\}$. Any cycle in a bipartite graph
 alternates Between the two partitions. A Hamilton cycle would alternate between $A$ and $B$Requiring
-$|A| = |B|$. But $|A| = 2 \neq 3 = |B|$So no Hamilton circuit exists.
+$|A| = |B|$. But $|A| = 2 \neq 3 = |B|$ So no Hamilton circuit exists.
 
 However, $K_{2,3}$ does have Hamilton paths (e.g., $a_1, b_1, a_2, b_2, b_3$ -- wait, this doesn't
 Alternate properly). Actually, in $K_{2,3}$ edges only exist between $A$ and $B$. A path must
 alternate $A, B, A, B, \ldots$ or $B, A, B, A, \ldots$. A Hamilton path visits all 5 vertices, so it
 has the Form $a, b, a, b, a$ (length 5, starting and ending in $A$) or $b, a, b, a, b$ (length 5,
-starting And ending in $B$). The first requires 3 vertices from $A$But $|A| = 2$. The second
-requires 3 Vertices from $B$And $|B| = 3$. So a Hamilton path exists: e.g.,
+starting And ending in $B$). The first requires 3 vertices from $A$ But $|A| = 2$. The second
+requires 3 Vertices from $B$ And $|B| = 3$. So a Hamilton path exists: e.g.,
 $b_1, a_1, b_2, a_2, b_3$.
 
 </details>
@@ -1225,7 +1225,7 @@ Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
 By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
-$N_{G''}(S) = N_G(S \cup T) \setminus N(T)$So
+$N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|$$
 
@@ -1255,7 +1255,7 @@ $d$--$4$.
 
 ### 5.8 Network Flows
 
-A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$A **sink** $t$And a
+A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$A **sink** $t$ And a
 **capacity** function $c : E \to \mathbb{R}_{\geq 0}$. A **flow**
 $f : E \to \mathbb{R}_{\geq 0}$ Satisfies:
 
@@ -1329,7 +1329,7 @@ Solving: $B = 2$, $A = -1$. So $a_n = -2^n + 2 \cdot 3^n = 2 \cdot 3^n - 2^n$. $
 <details>
 <summary>Solution</summary>
 
-Characteristic equation: $r^2 - 4r + 4 = 0$So $(r - 2)^2 = 0$. Root $r = 2$ with multiplicity 2.
+Characteristic equation: $r^2 - 4r + 4 = 0$ So $(r - 2)^2 = 0$. Root $r = 2$ with multiplicity 2.
 
 $a_n = (A + Bn) \cdot 2^n$.
 
@@ -1386,7 +1386,7 @@ $$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
-$x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$So $B = -A$. Setting $x = 1$: $1 = -A$So
+$x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$ So $B = -A$. Setting $x = 1$: $1 = -A$ So
 $A = -1$, $B = 1$.
 
 $G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
@@ -1408,13 +1408,13 @@ $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
 
 **Theorem 6.1 (Master Theorem).** Let $T(n)$ be defined as above.
 
-**Case 1:** If $f(n) = O(n^c)$ for some $c \lt c_{\mathrm{crit{}}$Then
+**Case 1:** If $f(n) = O(n^c)$ for some $c \lt c_{\mathrm{crit{}}$ Then
 $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.
 
-**Case 2:** If $f(n) = \Theta(n^{c_{\mathrm{crit{}}} \log^k n)$ for some $k \geq 0$Then
+**Case 2:** If $f(n) = \Theta(n^{c_{\mathrm{crit{}}} \log^k n)$ for some $k \geq 0$ Then
 $T(n) = \Theta(n^{c_{\mathrm{crit{}}} \log^{k+1} n)$.
 
-**Case 3:** If $f(n) = \Omega(n^c)$ for some $c \gt c_{\mathrm{crit{}}$And
+**Case 3:** If $f(n) = \Omega(n^c)$ for some $c \gt c_{\mathrm{crit{}}$ And
 $a\,f(n/b) \leq \delta\, f(n)$ For some $\delta \lt 1$ and sufficiently large $n$ (the **regularity
 condition**), then $T(n) = \Theta(f(n))$.
 
@@ -1425,7 +1425,7 @@ condition**), then $T(n) = \Theta(f(n))$.
 
 $a = 3$, $b = 2$, $f(n) = n^2$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 3 \approx 1.585$.
 
-Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
+Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
 Case 3 (provided the regularity condition holds). Check:
 $3 \cdot (n/2)^2 = 3n^2/4 = 0.75\, n^2 \leq \delta\, n^2$ For $\delta = 0.75 \lt 1$. ✓
 
@@ -1440,7 +1440,7 @@ Therefore $T(n) = \Theta(n^2)$.
 
 $a = 2$, $b = 2$, $f(n) = n$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 2 = 1$.
 
-$f(n) = n = \Theta(n^1 \log^0 n)$So we are in Case 2 with $k = 0$.
+$f(n) = n = \Theta(n^1 \log^0 n)$ So we are in Case 2 with $k = 0$.
 
 Therefore $T(n) = \Theta(n \log n)$.
 
@@ -1453,7 +1453,7 @@ Therefore $T(n) = \Theta(n \log n)$.
 
 $a = 4$, $b = 2$, $f(n) = n$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 4 = 2$.
 
-$f(n) = n = O(n^c)$ for any $c \gt 0$ with $c \lt 2$So we are in Case 1.
+$f(n) = n = O(n^c)$ for any $c \gt 0$ with $c \lt 2$ So we are in Case 1.
 
 Therefore $T(n) = \Theta(n^2)$.
 
@@ -1490,7 +1490,7 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
 | F   | T   | T              | F              | T           |
 | F   | F   | T              | T              | T           |
 
-All rows give $T$So it is a tautology.
+All rows give $T$ So it is a tautology.
 
 If you get this wrong, revise: Section 1.1 and Section 1.4.
 
@@ -1532,7 +1532,7 @@ If you get this wrong, revise: Section 1.2.
 ($\Rightarrow$) Assume $A \subseteq B$. Let $x \in A \cap B^c$. Then $x \in A$ and $x \notin B$. But
 $A \subseteq B$ implies $x \in B$Contradiction. So $A \cap B^c = \emptyset$.
 
-($\Leftarrow$) Assume $A \cap B^c = \emptyset$. Let $x \in A$. If $x \notin B$Then $x \in B^c$So
+($\Leftarrow$) Assume $A \cap B^c = \emptyset$. Let $x \in A$. If $x \notin B$ Then $x \in B^c$ So
 $x \in A \cap B^c = \emptyset$Contradiction. Hence $x \in B$Proving $A \subseteq B$. $\blacksquare$
 
 If you get this wrong, revise: Section 2.1.
@@ -1566,7 +1566,7 @@ $(g \circ f)(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 = 4x^2 + 4x + 1$.
 
 $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 
-Note $g \circ f \neq f \circ g$So composition is not commutative.
+Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
 But $0 \neq -1$.
@@ -1621,8 +1621,8 @@ If you get this wrong, revise: Section 3.2.
 <details>
 <summary>Solution</summary>
 
-Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$So $3 \mid p^2$Hence $3 \mid p$. Write
-$p = 3r$. Then $3q^2 = 9r^2$So $q^2 = 3r^2$Giving $3 \mid q^2$ and $3 \mid q$. But then
+Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$ So $3 \mid p^2$Hence $3 \mid p$. Write
+$p = 3r$. Then $3q^2 = 9r^2$ So $q^2 = 3r^2$Giving $3 \mid q^2$ and $3 \mid q$. But then
 $\gcd(p, q) \geq 3$Contradicting lowest terms. $\blacksquare$
 
 If you get this wrong, revise: Section 3.3.
@@ -1771,7 +1771,7 @@ If you get this wrong, revise: Section 5.7.
 <details>
 <summary>Solution</summary>
 
-Characteristic equation: $r^2 - 3r + 2 = 0$Giving $(r - 1)(r - 2) = 0$So $r_1 = 1$, $r_2 = 2$.
+Characteristic equation: $r^2 - 3r + 2 = 0$Giving $(r - 1)(r - 2) = 0$ So $r_1 = 1$, $r_2 = 2$.
 
 $a_n = A \cdot 1^n + B \cdot 2^n = A + B \cdot 2^n$.
 

@@ -440,7 +440,7 @@ $$\mathrm{Producer burden} = P_{\mathrm{before tax}} - P_{\mathrm{after tax (net
 Given $Q_D = 100 - P$ and $Q_S = P - 20$A specific tax of USD 10 per unit is imposed. Find the new
 Equilibrium, tax revenue, and the burden on consumers and producers.
 
-Original equilibrium: $100 - P = P - 20$So $2P = 120$$P = 60$$Q = 40$.
+Original equilibrium: $100 - P = P - 20$ So $2P = 120$$P = 60$$Q = 40$.
 
 With tax, the supply becomes $Q_S = (P - 10) - 20 = P - 30$ (producers receive $P - 10$):
 

@@ -352,7 +352,7 @@ $$= \sqrt{\frac{3.982 \times 10^{14}}{7.0 \times 10^6}} = \sqrt{5.689 \times 10^
 
 New speed: $v' = 7543 + 120 = 7663\,\text{m}\,\text{s}^{-1}$
 
-For a circular orbit: $v = \sqrt{GM/r}$So $r = GM/v^2$
+For a circular orbit: $v = \sqrt{GM/r}$ So $r = GM/v^2$
 
 $$r' = \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{7663^2} = \frac{3.982 \times 10^{14}}{5.872 \times 10^7} = 6.782 \times 10^6\,\text{m}$$
 

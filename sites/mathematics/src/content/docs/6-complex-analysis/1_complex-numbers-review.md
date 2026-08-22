@@ -74,7 +74,7 @@ Where $r = |z| = \sqrt{a^2 + b^2}$ is the **modulus** and $\theta = \arg(z)$ is 
 Such that $z = |z|e^{i\theta}$. The **argument** $\arg(z)$ is multi-valued:
 $\arg(z) = \mathrm{Arg}(z) + 2\pi k$ for $k \in \mathbb{Z}$.
 
-**Proposition 1.4.** If $z_1 = r_1 e^{i\theta_1}$ and $z_2 = r_2 e^{i\theta_2}$Then
+**Proposition 1.4.** If $z_1 = r_1 e^{i\theta_1}$ and $z_2 = r_2 e^{i\theta_2}$ Then
 $z_1 z_2 = r_1 r_2 e^{i(\theta_1 + \theta_2)}$ and
 $z_1/z_2 = (r_1/r_2)\, e^{i(\theta_1 - \theta_2)}$.
 
@@ -87,7 +87,7 @@ $z_1/z_2 = (r_1/r_2)\, e^{i(\theta_1 - \theta_2)}$.
 
 $|z| = \sqrt{(-1)^2 + (\sqrt{3})^2} = \sqrt{1 + 3} = 2$.
 
-$\mathrm{Re}(z) = -1 \lt 0$ and $\mathrm{Im}(z) = \sqrt{3} \gt 0$So $z$ is in the second quadrant.
+$\mathrm{Re}(z) = -1 \lt 0$ and $\mathrm{Im}(z) = \sqrt{3} \gt 0$ So $z$ is in the second quadrant.
 
 $\theta = \arctan\!\left(\frac{\sqrt{3}}{-1}\right) = \frac{2\pi}{3}$ (adjusting to second
 quadrant).
@@ -117,7 +117,7 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$.
 
-**De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$So
+**De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$ So
 
 $$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$$
 
@@ -133,7 +133,7 @@ $\blacksquare$
 
 **Example.** Compute $(1 + i)^{20}$.
 
-$1 + i = \sqrt{2}\,e^{i\pi/4}$So
+$1 + i = \sqrt{2}\,e^{i\pi/4}$ So
 $(1 + i)^{20} = (\sqrt{2})^{20}\, e^{20\pi i/4} = 2^{10}\, e^{5\pi i} = 1024\,e^{\pi i} = -1024$.
 
 <details>
@@ -172,7 +172,7 @@ Taking real parts gives the result.
 **Definition.** An $n$-th root of $w \in \mathbb{C}$ is a complex number $z$ such that $z^n = w$.
 
 **Proposition 1.6.** Every non-zero $w \in \mathbb{C}$ has exactly $n$ distinct $n$-th roots. If
-$w = \rho\, e^{i\phi}$Then
+$w = \rho\, e^{i\phi}$ Then
 
 $$z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1$$
 

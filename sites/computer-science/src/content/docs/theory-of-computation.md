@@ -126,7 +126,7 @@ This follows because there are uncountably many languages but only countably man
 Turing-recognisable languages is a countable subset of the uncountable set of all languages.
 
 **Cantor's diagonalisation.** The classic proof of Theorem 1.1 uses diagonalisation: assume the Set
-of all languages is countable, list them as $L_1, L_2, L_3, \ldots$And construct a language $D$ that
+of all languages is countable, list them as $L_1, L_2, L_3, \ldots$ And construct a language $D$ that
 differs from each $L_i$ on the $i$-th string. Then $D$ is not in the list — contradiction. This
 technique reappears in the proof of undecidability of $A_{\mathrm{TM}}$ (Section 5.2).
 
@@ -241,7 +241,7 @@ Start state: $\{q_0\}$.
 | $\{q_0, q_1\}$ | $\{q_0, q_1\}$      | $\{q_0, q_2\}$      | No      |
 | $\{q_0, q_2\}$ | $\{q_0, q_1\}$      | $\{q_0\}$           | Yes     |
 
-The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$And $\{q_1, q_2\}$ are unreachable.
+The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unreachable.
 
 </details>
 
@@ -250,7 +250,7 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$And $\{q_1, q_2\}$ are unrea
 **Definition.** Regular expressions over $\Sigma$ are defined inductively:
 
 1. $\emptyset$ (empty set), $\varepsilon$ (empty string), and $a$ for each $a \in \Sigma$ are regex.
-2. If $R_1$ and $R_2$ are regex, then $(R_1 \cup R_2)$, $(R_1 \cdot R_2)$And $(R_1^*)$ are regex.
+2. If $R_1$ and $R_2$ are regex, then $(R_1 \cup R_2)$, $(R_1 \cdot R_2)$ And $(R_1^*)$ are regex.
 3. Nothing else is a regex.
 
 **Shorthand:** $R^+$ means $R \cdot R^*$. $R?$ means $(R \cup \varepsilon)$.
@@ -309,7 +309,7 @@ State, connected by $\varepsilon$-transitions. The construction guarantees that 
 One accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
-$\Sigma$Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$And $N_R$ has $O(|R|)$
+$\Sigma$Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
 States and transitions.
 
 _Proof._ By structural induction on $R$.
@@ -325,14 +325,14 @@ _Proof._ By structural induction on $R$.
 - **Inductive cases:**
 - $R = R_1 \cup R_2$: By IH, $L(N_{R_1}) = L(R_1)$ and $L(N_{R_2}) = L(R_2)$. Thompson adds a new
   start $s$ and accept $f$ with $\varepsilon$-transitions to the start states of $N_{R_1}$ and
-  $N_{R_2}$And $\varepsilon$-transitions from their accept states to $f$. Any accepting path goes
+  $N_{R_2}$ And $\varepsilon$-transitions from their accept states to $f$. Any accepting path goes
   through exactly one sub-NFA, so $L(N_R) = L(R_1) \cup L(R_2) = L(R)$.
 - $R = R_1 \cdot R_2$: Thompson connects the accept state of $N_{R_1}$ to the start state of
   $N_{R_2}$ via $\varepsilon$-transitions. A string $w \in L(N_R)$ iff $w = w_1 w_2$ where
   $w_1 \in L(N_{R_1})$ and $w_2 \in L(N_{R_2})$I.e., $w \in L(R_1) \cdot L(R_2) = L(R)$.
 - $R = R_1^*$: Thompson adds a new start $s$ and accept $f$With $\varepsilon$-transitions from $s$
-  to $f$ (allowing zero repetitions) and from $s$ to the start of $N_{R_1}$And from the accept of
-  $N_{R_1}$ back to $s$. Any accepting path corresponds to zero or more traversals of $N_{R_1}$So
+  to $f$ (allowing zero repetitions) and from $s$ to the start of $N_{R_1}$ And from the accept of
+  $N_{R_1}$ back to $s$. Any accepting path corresponds to zero or more traversals of $N_{R_1}$ So
   $L(N_R) = L(R_1)^* = L(R)$.
 
 In all cases, the number of states added is a constant per operator, so $|N_R| = O(|R|)$.
@@ -354,8 +354,8 @@ _Proof of Theorem 2.4._
 
 **(1) $\Rightarrow$ (2):** Let $D = (Q, \Sigma, \delta, q_0, F)$ be a DFA for $L$. Define $x \sim y$
 iff $\delta^*(q_0, x) = \delta^*(q_0, y)$ (i.e., $D$ reaches the same state on $x$ and $y$). Then
-$\sim$ has at most $|Q|$ equivalence classes. We show $\sim = \equiv_L$. If $x \sim y$Then for All
-$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$So $xz \in L$ iff $yz \in L$Meaning $x \equiv_L y$.
+$\sim$ has at most $|Q|$ equivalence classes. We show $\sim = \equiv_L$. If $x \sim y$ Then for All
+$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$ So $xz \in L$ iff $yz \in L$Meaning $x \equiv_L y$.
 Conversely, if $x \not\equiv_L y$There exists $z$ with $xz \in L$ and $yz \notin L$ (or vice versa),
 so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$Hence $x \not\sim y$.
 
@@ -364,9 +364,9 @@ That contains at least one string in $L$.
 
 **(3) $\Rightarrow$ (1):** Suppose $\equiv_L$ has finitely many equivalence classes
 $C_1, \ldots, C_k$. Construct a DFA with one state per equivalence class, start state
-$[x]_{\equiv_L}$ for $x = \varepsilon$ Transition $\delta'([x], a) = [xa]$And accept states = those
+$[x]_{\equiv_L}$ for $x = \varepsilon$ Transition $\delta'([x], a) = [xa]$ And accept states = those
 classes contained in $L$. This DFA is Well-defined because $\equiv_L$ is a right congruence: if
-$x \equiv_L y$Then $xa \equiv_L ya$ for all $a \in \Sigma$. $\blacksquare$
+$x \equiv_L y$ Then $xa \equiv_L ya$ for all $a \in \Sigma$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Myhill-Nerode classes for $L = \{0^n 1^n : n \geq 0\}$</summary>
@@ -427,7 +427,7 @@ Decomposition $w = xyz$ satisfying (1) and (2) has some $i$ with $xy^iz \notin L
 **Example.** $L = \{0^n 1^n : n \geq 0\}$ is not regular.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
+$|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
 (since $p - k \neq p$). Contradiction. $\blacksquare$
 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
@@ -450,8 +450,8 @@ regular — Contradiction. $\blacksquare$
 Let $L = \{w \in \{0,1\}^* : n_0(w) = n_1(w)\}$.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$Which has $p - k$ zeros and
-$p$ ones. Since $k \geq 1$ $p - k \neq p$So $xy^0z \notin L$. Contradiction. $\blacksquare$
+$|xy| \leq p$ So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$Which has $p - k$ zeros and
+$p$ ones. Since $k \geq 1$ $p - k \neq p$ So $xy^0z \notin L$. Contradiction. $\blacksquare$
 
 </details>
 
@@ -459,7 +459,7 @@ $p$ ones. Since $k \geq 1$ $p - k \neq p$So $xy^0z \notin L$. Contradiction. $\b
 <summary>Worked Example: $L = \{a^{n!} : n \geq 0\}$ is not regular</summary>
 
 _Proof._ Assume pumping length $p$. Let $w = a^{p!} \in L$ with $|w| = p! \geq p$. By (2),
-$|xy| \leq p$So $y = a^k$ for some $1 \leq k \leq p$. Choose $i = (p! + k) / k = p!/k + 1$ (an
+$|xy| \leq p$ So $y = a^k$ for some $1 \leq k \leq p$. Choose $i = (p! + k) / k = p!/k + 1$ (an
 integer since $k \leq p$). Then $xy^iz = a^{p! + (i-1)k} = a^{p! + p!} = a^{2 \cdot p!}$. But
 $2 \cdot p!$ is not a factorial for $p \geq 2$ (since $(p+1)! / (p!)^2 = (p+1)/p! \lt 1$ for
 $p \geq 3$ And $2 \cdot 2! = 4 \neq n!$ for any $n$). Hence $xy^iz \notin L$. $\blacksquare$
@@ -657,7 +657,7 @@ Introduce $T_a \to a$ and $T_b \to b$:
 - $S \to AT_bB \mid AT_b \mid T_aB \mid T_aT_b$
 - $S_0 \to AT_bB \mid AT_b \mid T_aB \mid T_aT_b$
 
-Handle $AT_bB$ (length 3): introduce $C_1 \to AT_b$Then $S \to C_1B$ and $S_0 \to C_1B$.
+Handle $AT_bB$ (length 3): introduce $C_1 \to AT_b$ Then $S \to C_1B$ and $S_0 \to C_1B$.
 
 Final CNF grammar:
 
@@ -841,8 +841,8 @@ String: $w = ba$.
 
 **Length 1:**
 
-- $T[1,1]$: $w_1 = b$So $T[1,1] = \{B\}$ (since $B \to b$).
-- $T[2,2]$: $w_2 = a$So $T[2,2] = \{A, C\}$ (since $A \to a$ and $C \to a$).
+- $T[1,1]$: $w_1 = b$ So $T[1,1] = \{B\}$ (since $B \to b$).
+- $T[2,2]$: $w_2 = a$ So $T[2,2] = \{A, C\}$ (since $A \to a$ and $C \to a$).
 
 **Length 2:**
 
@@ -1016,7 +1016,7 @@ correctly simulates $M$. $\blacksquare$
 **Significance.** The UTM is the theoretical foundation for the stored-program computer: hardware
 (the UTM) is fixed, and software (the encoded TM) provides the specific computation.
 
-**Simulation overhead.** If $M$ runs in time $t(n)$Then $U$ simulates $M$ in time
+**Simulation overhead.** If $M$ runs in time $t(n)$ Then $U$ simulates $M$ in time
 $O(t(n) \cdot |M|)$Where $|M|$ is the size of $M$'s description.
 
 <details>
@@ -1095,9 +1095,9 @@ Construct a TM $D$ that on input $\langle M \rangle$:
 
 Consider $D$ on input $\langle D \rangle$:
 
-- If $D$ accepts $\langle D \rangle$Then by construction $D$ rejects $\langle D \rangle$.
+- If $D$ accepts $\langle D \rangle$ Then by construction $D$ rejects $\langle D \rangle$.
   Contradiction.
-- If $D$ rejects $\langle D \rangle$Then by construction $D$ accepts $\langle D \rangle$.
+- If $D$ rejects $\langle D \rangle$ Then by construction $D$ accepts $\langle D \rangle$.
   Contradiction.
 
 Therefore $H$ cannot exist. $\blacksquare$
@@ -1115,7 +1115,7 @@ of $A$ to instances of $B$ such that $w \in A \iff f(w) \in B$.
 
 **Theorem 5.3.** If $A \leq_m B$ and $B$ is decidable, then $A$ is decidable.
 
-_Proof._ To decide $A$ on input $w$: compute $f(w)$Then decide $B$ on $f(w)$. Since both steps are
+_Proof._ To decide $A$ on input $w$: compute $f(w)$ Then decide $B$ on $f(w)$. Since both steps are
 Computable, $A$ is decidable. $\blacksquare$
 
 **Corollary 5.4.** If $A \leq_m B$ and $A$ is undecidable, then $B$ is undecidable.
@@ -1145,7 +1145,7 @@ _Proof._ Given $\langle M, w \rangle$Construct a TM $M_w$ that on input $x$:
 2. If $M$ accepts $w$Accept $x$.
 3. If $M$ rejects $w$Reject $x$.
 
-Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
+Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$ And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
 
 Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$ Iff
 $\langle M_w \rangle \notin E_{\mathrm{TM}$.
@@ -1182,15 +1182,15 @@ neither Empty nor the set of all Turing-recognisable languages.
 
 _Proof (sketch)._ Let $P$ be a non-trivial property. Since $P$ is non-trivial, there exists a TM
 $M_0$ with $L(M_0) \in P$ and a TM $M_1$ with $L(M_1) \notin P$. Given an arbitrary TM $M$ and input
-$w$Construct $M_w$ that on input $x$: first simulates $M$ on $w$Then simulates $M_0$ on $x$. If $M$
-accepts $w$Then $L(M_w) = L(M_0) \in P$; if $M$ does not accept $w$, $L(M_w) = \emptyset$. If
-$\emptyset \notin P$Then $M_w \in P$ iff $M$ accepts $w$So deciding $P$ would decide
+$w$Construct $M_w$ that on input $x$: first simulates $M$ on $w$ Then simulates $M_0$ on $x$. If $M$
+accepts $w$ Then $L(M_w) = L(M_0) \in P$; if $M$ does not accept $w$, $L(M_w) = \emptyset$. If
+$\emptyset \notin P$ Then $M_w \in P$ iff $M$ accepts $w$ So deciding $P$ would decide
 $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
 
 **Corollary.** The following are undecidable: "Does $M$ accept at least one string?", "Is $L(M)$ Finite?", "Is $L(M)$ regular?", "Is $L(M)$ context-free?"
 
 :::caution
-properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$And is in fact decidable (just simulate for 100
+properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$ And is in fact decidable (just simulate for 100
 steps).
 :::
 ### 5.5 Post Correspondence Problem
@@ -1253,7 +1253,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 
 **Definition.** $A^O = \{w : M^O \mathrm{ accepts}  w\}$ for a fixed oracle TM $M$ and oracle $O$.
 
-**Theorem 5.7.** There exists an oracle $A$ such that $P^A \neq NP^A$And an oracle $B$ such That
+**Theorem 5.7.** There exists an oracle $A$ such that $P^A \neq NP^A$ And an oracle $B$ such That
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
@@ -1295,7 +1295,7 @@ to right To read all $k$ heads, then left to right again to update them. This co
 simulated Step. Over $t(n)$ steps, the total is $O(t(n)^2)$. $\blacksquare$
 
 **Theorem 6.1a (Time Hierarchy Theorem).** If $t_1, t_2$ are time-constructible functions with
-$t_1(n) \log t_1(n) = o(t_2(n))$Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
+$t_1(n) \log t_1(n) = o(t_2(n))$ Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
 
 _Proof (idea)._ Use diagonalisation. Construct a TM $D$ that on input $x$ of length $n$:
 
@@ -1355,7 +1355,7 @@ The string $c$ is called a **certificate** (or witness).
 _Proof._ Every deterministic polynomial-time algorithm is a special case of a nondeterministic one
 (with exactly one choice at each step). Alternatively, the certificate can be empty. $\blacksquare$
 
-**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$Then $A \in \mathrm{NP$.
+**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$ Then $A \in \mathrm{NP$.
 
 _Proof._ Let $V_B$ be the polynomial-time verifier for $B$ and $f$ be the polynomial-time reduction.
 Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksquare$
@@ -1363,7 +1363,7 @@ Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksq
 **Open question:** $\mathrm{P = \mathrm{NP$? This is the most important open problem in computer
 Science. Most researchers believe $\mathrm{P \neq \mathrm{NP$.
 
-**Consequences of P = NP.** If $\mathrm{P = \mathrm{NP$Then every problem in NP (including SAT,
+**Consequences of P = NP.** If $\mathrm{P = \mathrm{NP$ Then every problem in NP (including SAT,
 Travelling Salesman, graph colouring, protein folding, etc.) would have polynomial-time algorithms.
 This would revolutionise optimisation, cryptography (RSA and most public-key systems would be
 broken), And artificial intelligence. However, after decades of research, no polynomial-time
@@ -1374,7 +1374,7 @@ $\mathrm{P \neq \mathrm{NP$.
 
 A language $B$ is **NP-complete** if:
 
-1. $B \in \mathrm{NP$And
+1. $B \in \mathrm{NP$ And
 2. $A \leq_p B$ for every $A \in \mathrm{NP$ (polynomial-time mapping reduction).
 
 A language is **NP-hard** if condition (2) holds (it need not be in NP).
@@ -1423,7 +1423,7 @@ position $(0,0)$ contains the start state. The constraints enforce:
 - Transition windows: each $2 \times 3$ block must be consistent with $\delta$.
 - Row 3: at least one cell contains $q_{\mathrm{accept}$.
 
-If $N$ accepts $w$Then the accepting computation path provides a satisfying assignment (the tableau
+If $N$ accepts $w$ Then the accepting computation path provides a satisfying assignment (the tableau
 records that path). If $\phi_{N,w}$ is satisfiable, the satisfying assignment Encodes a valid
 accepting computation.
 
@@ -1431,7 +1431,7 @@ accepting computation.
 
 **Corollary 6.4.** If any NP-complete problem is in P, then P = NP.
 
-**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$Then $A \in \mathrm{P$.
+**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$ Then $A \in \mathrm{P$.
 
 _Proof._ To decide $A$ on input $w$: compute $f(w)$ in polynomial time (the reduction), then decide
 $B$ on $f(w)$ in polynomial time. Total: polynomial time. $\blacksquare$
@@ -1486,7 +1486,7 @@ Has at most one vertex already excluded. $\blacksquare$
 **Reduction:** Vertex Cover $\leq_p$ Clique. $G = (V, E)$ has a vertex cover of size $k$ iff
 $\overline{G} = (V, \overline{E})$ has a clique of size $|V| - k$.
 
-_Proof._ If $C \subseteq V$ is a vertex cover of size $k$ in $G$Then every edge of $G$ has at Least
+_Proof._ If $C \subseteq V$ is a vertex cover of size $k$ in $G$ Then every edge of $G$ has at Least
 one endpoint in $C$. So $V \setminus C$ is an independent set in $G$Meaning every pair in
 $V \setminus C$ is an edge in $\overline{G}$. Hence $\overline{G}$ has a clique of size $|V| - k$.
 The converse is analogous. $\blacksquare$
@@ -1648,10 +1648,10 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 $$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
 
-**Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$Then $\mathrm{PH} = \Sigma_k^P$ (the
+**Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
 
-_Proof._ If $\Sigma_k^P = \Sigma_{k+1}^P = \mathrm{NP}^{\Sigma_k^P}$Then the $\Sigma_k^P$ oracle
+_Proof._ If $\Sigma_k^P = \Sigma_{k+1}^P = \mathrm{NP}^{\Sigma_k^P}$ Then the $\Sigma_k^P$ oracle
 Provides no additional power. By induction, $\Sigma_{k+i}^P = \Sigma_k^P$ for all $i \geq 0$ So
 $\mathrm{PH} = \Sigma_k^P$. $\blacksquare$
 
@@ -1664,12 +1664,12 @@ Instance has a polynomial-time verifiable certificate.
 
 - Example: "Is this formula a tautology?" (the certificate for "no" would be a failing assignment).
 - $\mathrm{P} \subseteq \mathrm{NP} \cap \mathrm{coNP}$.
-- It is unknown whether $\mathrm{NP} = \mathrm{coNP}$. If $\mathrm{P} = \mathrm{NP}$Then
+- It is unknown whether $\mathrm{NP} = \mathrm{coNP}$. If $\mathrm{P} = \mathrm{NP}$ Then
   $\mathrm{NP} = \mathrm{coNP}$.
 
-**Theorem 6.11.** If $\mathrm{NP} \neq \mathrm{coNP}$Then $\mathrm{P} \neq \mathrm{NP}$.
+**Theorem 6.11.** If $\mathrm{NP} \neq \mathrm{coNP}$ Then $\mathrm{P} \neq \mathrm{NP}$.
 
-_Proof._ If $\mathrm{P} = \mathrm{NP}$Then $\mathrm{P} = \mathrm{coNP}$ (since $\mathrm{P}$ Is
+_Proof._ If $\mathrm{P} = \mathrm{NP}$ Then $\mathrm{P} = \mathrm{coNP}$ (since $\mathrm{P}$ Is
 closed under complement), so $\mathrm{NP} = \mathrm{coNP}$. The contrapositive gives the Result.
 $\blacksquare$
 
@@ -1772,7 +1772,7 @@ a solution by finding one, or prove it has no solution.
 
 ### 7.4 Complexity Theory
 
-**Problem 13.** Show that if $\mathrm{P} = \mathrm{NP}$Then $\mathrm{NP} = \mathrm{coNP}$.
+**Problem 13.** Show that if $\mathrm{P} = \mathrm{NP}$ Then $\mathrm{NP} = \mathrm{coNP}$.
 
 **Problem 14.** A **3-colouring** of a graph $G = (V, E)$ is a function $c : V \to \{1, 2, 3\}$ Such
 that $c(u) \neq c(v)$ for every edge $(u, v) \in E$. Show that 3-SAT $\leq_p$ 3-Colouring By
@@ -1831,7 +1831,7 @@ a string not in $L$.
 $L(M_1) \cap L(M_2) \neq \emptyset$ iff $M$ accepts $\varepsilon$ iff
 $\langle M \rangle \notin E_{\mathrm{TM}}$ (after adjusting for the specific reduction).
 
-**Problem 13.** If $\mathrm{P} = \mathrm{NP}$Then for any $L \in \mathrm{NP}$We have
+**Problem 13.** If $\mathrm{P} = \mathrm{NP}$ Then for any $L \in \mathrm{NP}$We have
 $L \in \mathrm{P}$. Since $\mathrm{P}$ is closed under complement,
 $\overline{L} \in \mathrm{P}
 \subseteq \mathrm{NP}$. So $\overline{L} \in \mathrm{NP}$ for every

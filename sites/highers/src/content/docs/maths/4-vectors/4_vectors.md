@@ -89,7 +89,7 @@ $$
 Where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$.
 
 **Proof of the dot product formula.** By the cosine rule in the triangle formed by $\mathbf{a}$
-$\mathbf{b}$And $\mathbf{a} - \mathbf{b}$:
+$\mathbf{b}$ And $\mathbf{a} - \mathbf{b}$:
 
 $$
 |\mathbf{a} - \mathbf{b}|^2 = |\mathbf{a}|^2 + |\mathbf{b}|^2 - 2|\mathbf{a}||\mathbf{b}|\cos\theta
@@ -194,7 +194,7 @@ $$
 Three points $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ is parallel to
 $\overrightarrow{AC}$I.e., $\overrightarrow{AB} = k\overrightarrow{AC}$ for some scalar $k$.
 
-**Example:** Determine whether $A(1, 2, -1)$, $B(3, 5, 1)$And $C(5, 8, 3)$ are collinear.
+**Example:** Determine whether $A(1, 2, -1)$, $B(3, 5, 1)$ And $C(5, 8, 3)$ are collinear.
 
 $\overrightarrow{AB} = (2, 3, 2)$
 $\overrightarrow{AC} = (4, 6, 4) = 2(2, 3, 2) = 2\overrightarrow{AB}$.
@@ -227,7 +227,7 @@ $$
 
 **Scalar Multiplication:** $kA$ has entries $ka_{ij}$.
 
-**Matrix Multiplication:** If $A$ is $m \times n$ and $B$ is $n \times p$Then $C = AB$ is
+**Matrix Multiplication:** If $A$ is $m \times n$ and $B$ is $n \times p$ Then $C = AB$ is
 $m \times p$ where:
 
 $$
@@ -388,7 +388,7 @@ $$
 [\mathbf{a}, \mathbf{b}, \mathbf{c}] = \mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})
 $$
 
-This equals the volume of the parallelepiped formed by vectors $\mathbf{a}$, $\mathbf{b}$And
+This equals the volume of the parallelepiped formed by vectors $\mathbf{a}$, $\mathbf{b}$ And
 $\mathbf{c}$.
 
 The three vectors are coplanar if and only if $[\mathbf{a}, \mathbf{b}, \mathbf{c}] = 0$.
@@ -400,7 +400,7 @@ The three vectors are coplanar if and only if $[\mathbf{a}, \mathbf{b}, \mathbf{
 - $[\mathbf{a}, \mathbf{b}, \mathbf{c}] = -[\mathbf{b}, \mathbf{a}, \mathbf{c}]$ (swapping two
   vectors negates)
 
-**Example:** Show that the vectors $(1, 2, -1)$, $(3, 1, 2)$And $(0, 5, -5)$ are coplanar.
+**Example:** Show that the vectors $(1, 2, -1)$, $(3, 1, 2)$ And $(0, 5, -5)$ are coplanar.
 
 $$
 \mathbf{b} \times \mathbf{c} = \begin{pmatrix} 1 \cdot (-5) - 2 \cdot 5 \\ 2 \cdot 0 - (-1) \cdot (-5) \\ 3 \cdot 5 - 1 \cdot 0 \end{pmatrix} = \begin{pmatrix} -5 - 10 \\ 0 - 5 \\ 15 - 0 \end{pmatrix} = \begin{pmatrix} -15 \\ -5 \\ 15 \end{pmatrix}
@@ -456,7 +456,7 @@ $$
 Where $\mathbf{r}_0$ is the position vector of the point and $d_0$ is the constant in the plane
 Equation.
 
-**Example:** Find the equation of the plane through $(1, 2, -1)$, $(3, 0, 2)$And $(0, 1, 4)$.
+**Example:** Find the equation of the plane through $(1, 2, -1)$, $(3, 0, 2)$ And $(0, 1, 4)$.
 
 $$
 \overrightarrow{AB} = (2, -2, 3), \quad \overrightarrow{AC} = (-1, -1, 5)
@@ -484,7 +484,7 @@ Two non-parallel planes intersect in a line. To find the line of intersection:
 
 Direction: $\mathbf{d} = (1, 1, 1) \times (2, -1, 1) = (1+1, 2-1, -1-2) = (2, 1, -3)$.
 
-Set $z = 0$: $x + y = 6$ and $2x - y = 3$. Adding: $3x = 9$So $x = 3$, $y = 3$.
+Set $z = 0$: $x + y = 6$ and $2x - y = 3$. Adding: $3x = 9$ So $x = 3$, $y = 3$.
 
 Line: $\mathbf{r} = (3, 3, 0) + t(2, 1, -3)$.
 
@@ -618,7 +618,7 @@ $$
 \begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
 $$
 
-$-v_1 + v_2 = 0$So $v_1 = v_2$. Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
+$-v_1 + v_2 = 0$ So $v_1 = v_2$. Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 For $\lambda = 2$: $(A - 2I)\mathbf{v} = \mathbf{0}$:
 
@@ -626,7 +626,7 @@ $$
 \begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
 $$
 
-$2v_1 + v_2 = 0$So $v_2 = -2v_1$. Eigenvector: $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
+$2v_1 + v_2 = 0$ So $v_2 = -2v_1$. Eigenvector: $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
 
 **Example:** Find the eigenvalues and eigenvectors of
 $\begin{pmatrix} 5 & 2 \\ 1 & 4 \end{pmatrix}$.
@@ -728,9 +728,9 @@ See the examples integrated throughout the sections above.
 ## Practice Questions
 
 1. Given $\mathbf{a} = (2, -1, 3)$ and $\mathbf{b} = (4, 2, -1)$Find
-   $\mathbf{a} \cdot \mathbf{b}$$|\mathbf{a}|$$|\mathbf{b}|$And the angle between them.
+   $\mathbf{a} \cdot \mathbf{b}$$|\mathbf{a}|$$|\mathbf{b}|$ And the angle between them.
 
-2. Find the equation of the plane containing the points $(1, 0, 2)$$(3, 1, -1)$And $(0, 2, 4)$.
+2. Find the equation of the plane containing the points $(1, 0, 2)$$(3, 1, -1)$ And $(0, 2, 4)$.
 
 3. Calculate $\mathbf{a} \times \mathbf{b}$ for $\mathbf{a} = (1, 3, -2)$ and
    $\mathbf{b} = (4, -1, 5)$. Verify that $\mathbf{a} \times \mathbf{b}$ is perpendicular to both
@@ -741,7 +741,7 @@ See the examples integrated throughout the sections above.
 5. Compute the determinant and inverse of
    $\begin{pmatrix} 2 & 0 & 1 \\ -1 & 3 & 2 \\ 1 & 1 & -1 \end{pmatrix}$.
 
-6. Show that the vectors $(1, 2, -1)$$(3, 1, 2)$And $(0, 5, -5)$ are coplanar.
+6. Show that the vectors $(1, 2, -1)$$(3, 1, 2)$ And $(0, 5, -5)$ are coplanar.
 
 7. Find the shortest distance from the point $(2, 1, 3)$ to the plane $2x - y + 2z = 5$.
 
@@ -756,7 +756,7 @@ $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 3. Use the matrix $\begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}$ to describe the transformation.
     What is the relationship between this matrix and $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$?
 
-4. Find the area of the triangle with vertices $A(1, 0, 2)$, $B(3, -1, 4)$And $C(0, 2, -1)$.
+4. Find the area of the triangle with vertices $A(1, 0, 2)$, $B(3, -1, 4)$ And $C(0, 2, -1)$.
 
 5. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$Find the position
     vector of the point $P$ on $AB$ such that $AP : PB = 3 : 1$.

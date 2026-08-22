@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Algebra and Functions -- Diagnostic Tests"
-description: "Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"highers\", \"url\": \"https://highers.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 tableOfContents: false
 ---
 

@@ -137,7 +137,7 @@ The **Lienard-Wiechert potentials** are the exact solutions:
 $$V(\mathbf{r}, t) = \frac{q}{4\pi\varepsilon_0}\frac{1}{(\kappa R)}\bigg|_{t_r}, \quad \mathbf{A}(\mathbf{r}, t) = \frac{q\mathbf{v}}{4\pi\varepsilon_0 c^2}\frac{1}{(\kappa R)}\bigg|_{t_r}$$
 
 Where $\mathbf{R} = \mathbf{r} - \mathbf{r}_s(t_r)$, $R = \lvert\mathbf{R}\rvert$
-$\mathbf{v} = \dot{\mathbf{r}}_s(t_r)$And $\kappa = 1 - \hat{\mathbf{R}} \cdot \mathbf{v}/c$.
+$\mathbf{v} = \dot{\mathbf{r}}_s(t_r)$ And $\kappa = 1 - \hat{\mathbf{R}} \cdot \mathbf{v}/c$.
 
 The factor $\kappa$ corrects for the **Doppler effect**: when the charge moves toward the
 Observation point, the radiation is compressed (higher density of field lines).

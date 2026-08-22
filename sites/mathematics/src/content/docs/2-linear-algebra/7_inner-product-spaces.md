@@ -74,7 +74,7 @@ _Proof._
 $$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \langle \mathbf{u} + \mathbf{v}, \mathbf{u} + \mathbf{v} \rangle = \lVert \mathbf{u} \rVert^2 + 2\,\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2$$
 
 By Cauchy--Schwarz,
-$\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle \leq \lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$So
+$\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle \leq \lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$ So
 
 $$\lVert \mathbf{u} + \mathbf{v} \rVert^2 \leq \lVert \mathbf{u} \rVert^2 + 2\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert + \lVert \mathbf{v} \rVert^2 = (\lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert)^2$$
 
@@ -87,7 +87,7 @@ $\langle \mathbf{u}, \mathbf{v} \rangle = 0$. We write $\mathbf{u} \perp \mathbf
 
 An **orthonormal set** $\{e_1, \ldots, e_k\}$ satisfies $\langle e_i, e_j \rangle = \delta_{ij}$.
 
-**Theorem 7.3 (Pythagorean Theorem).** If $\mathbf{u} \perp \mathbf{v}$Then
+**Theorem 7.3 (Pythagorean Theorem).** If $\mathbf{u} \perp \mathbf{v}$ Then
 
 $$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$$
 
@@ -97,7 +97,7 @@ $\blacksquare$
 
 **Proposition 7.4.** Every orthonormal set is linearly independent.
 
-_Proof._ If $\sum_{i=1}^k \alpha_i e_i = \mathbf{0}$Then taking the inner product with $e_j$:
+_Proof._ If $\sum_{i=1}^k \alpha_i e_i = \mathbf{0}$ Then taking the inner product with $e_j$:
 $\alpha_j = \langle \sum \alpha_i e_i, e_j \rangle = \langle \mathbf{0}, e_j \rangle = 0$ for each
 $j$. $\blacksquare$
 
@@ -219,7 +219,7 @@ $\mathrm{proj_W}(\mathbf{v}) = \frac{5}{\sqrt{2}} \cdot \frac{1}{\sqrt{2}}(1, 0,
 
 $= \frac{5}{2}(1, 0, 1) + \frac{-3}{6}(-1, 2, 1) = (\frac{5}{2}, 0, \frac{5}{2}) + (\frac{1}{2}, -1, -\frac{1}{2}) = (3, -1, 2)$
 
-The residual is $\mathbf{v} - \mathrm{proj_W}(\mathbf{v}) = (0, 0, 0)$So the distance is 0. This
+The residual is $\mathbf{v} - \mathrm{proj_W}(\mathbf{v}) = (0, 0, 0)$ So the distance is 0. This
 means $\mathbf{v} \in W$ itself. Indeed,
 $\mathbf{v} = 3(1, 0, 1) - (0, 1, 1) \in \mathrm{span}\{(1,0,1), (0,1,1)\}$. $\blacksquare$
 
@@ -242,7 +242,7 @@ $\mathrm{proj_W}(f) = \langle f, 1 \rangle \cdot 1 = \left(\int_0^1 e^x\,dx\righ
 So the best constant approximation is $c = e - 1 \approx 1.718$.
 
 **Verification:** The error is $e^x - (e-1)$. Expanding $e^x$ as a Taylor series around $x = 1/2$:
-The constant term is $e^{1/2} \approx 1.649$But our answer $e - 1 \approx 1.718$ is the
+The constant term is $e^{1/2} \approx 1.649$ But our answer $e - 1 \approx 1.718$ is the
 $L^2$-optimal constant, not the Taylor approximation. The two optimisation criteria differ.
 $\blacksquare$
 

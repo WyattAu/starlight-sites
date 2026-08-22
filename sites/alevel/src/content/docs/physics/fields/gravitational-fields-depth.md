@@ -76,7 +76,7 @@ Points ($r \lt R$).
 
 **Proof (external, $r \gt R$).** Consider a test mass $m$ at distance $r$ from the centre. Divide
 the Shell into thin annular rings perpendicular to the line from the centre to $m$. A ring at polar
-angle $\theta$ has radius $R\sin\theta$Width $R\,d\theta$And mass:
+angle $\theta$ has radius $R\sin\theta$Width $R\,d\theta$ And mass:
 
 $$dM = \frac{M}{4\pi R^2} \cdot 2\pi R^2 \sin\theta\,d\theta = \frac{M}{2}\sin\theta\,d\theta$$
 
@@ -233,7 +233,7 @@ Gravitational systems: $2E_k + E_p = 0$. $\square$
 
 **Key insight.** The total energy is negative — the satellite is gravitationally bound. To move to a
 Higher orbit, energy must be added (the orbit becomes less negative). The kinetic energy _decreases_
-With increasing $r$But the total energy _increases_ (potential energy increase dominates).
+With increasing $r$ But the total energy _increases_ (potential energy increase dominates).
 
 ### The Vis-Viva Equation
 
@@ -458,7 +458,7 @@ $= E_2 - E_1 = -GMm/(4r) + GMm/(2r) = GMm/(4r)$. $\square$
 <summary>Problem 8</summary>
 Derive $v_e = \sqrt{2gR}$ for a planet of radius $R$ and surface field strength $g$.
 
-**Answer.** $g = GM/R^2$So $GM = gR^2$. $v_e = \sqrt{2GM/R} = \sqrt{2gR^2/R} = \sqrt{2gR}$.
+**Answer.** $g = GM/R^2$ So $GM = gR^2$. $v_e = \sqrt{2GM/R} = \sqrt{2gR^2/R} = \sqrt{2gR}$.
 $\square$
 
 </details>

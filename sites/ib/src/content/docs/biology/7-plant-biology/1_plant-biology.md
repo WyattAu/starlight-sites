@@ -1076,7 +1076,7 @@ Examples: chrysanthemum, poinsettia, soybean, strawberry.
   ($660\;\mathrm{nm}$) at the midpoint: flowering is **inhibited** (red light creates
   $\mathrm{P}_{\mathrm{fr}}$Shortening the perceived night length).
 - If the red flash is immediately followed by a **far-red flash** ($730\;\mathrm{nm}$):
-  $\mathrm{P}_{\mathrm{fr}}$ is converted back to $\mathrm{P}_{\mathrm{r}}$And flowering
+  $\mathrm{P}_{\mathrm{fr}}$ is converted back to $\mathrm{P}_{\mathrm{r}}$ And flowering
   **proceeds** (the far-red flash "cancels" the red flash).
 
 This demonstrated that the **last light exposure** determines the phytochrome state.
@@ -1144,7 +1144,7 @@ Rate of transpiration increases with wind speed. Explain why very tall trees (e.
 $>100\;\mathrm{m}$) Pose a challenge to the cohesion-tension theory and discuss how root pressure
 and capillary Action contribute. Calculate whether capillary action alone can account for water
 transport in a $100\;\mathrm{m}$ tall tree given a xylem vessel radius of
-$25\;\mathrm{\mu m}$Surface tension $0.073\;\mathrm{N/m}$And contact angle $0^\circ$.
+$25\;\mathrm{\mu m}$Surface tension $0.073\;\mathrm{N/m}$ And contact angle $0^\circ$.
 
 </details>
 

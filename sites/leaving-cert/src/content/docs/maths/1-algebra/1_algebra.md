@@ -466,7 +466,7 @@ A matrix $A$ of order $m \times n$ has $m$ rows and $n$ columns.
 
 **Scalar multiplication:** Multiply every element by the scalar.
 
-**Matrix multiplication:** If $A$ is $m \times p$ and $B$ is $p \times n$Then $AB$ is $m \times n$.
+**Matrix multiplication:** If $A$ is $m \times p$ and $B$ is $p \times n$ Then $AB$ is $m \times n$.
 
 The $(i, j)$ entry of $AB$ is:
 
@@ -624,7 +624,7 @@ Where $Q(x)$ is the quotient and $R$ is the remainder. By the **Remainder Theore
 
 **Example:** Factorise $x^3 - 3x + 2$.
 
-Try $P(1) = 1 - 3 + 2 = 0$So $(x - 1)$ is a factor.
+Try $P(1) = 1 - 3 + 2 = 0$ So $(x - 1)$ is a factor.
 
 Dividing: $x^3 - 3x + 2 = (x - 1)(x^2 + x - 2) = (x - 1)(x + 2)(x - 1) = (x - 1)^2(x + 2)$.
 

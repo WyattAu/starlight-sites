@@ -43,7 +43,7 @@ _Proof._ By invariant 4, on any path from root to leaf, at most half the nodes (
 red. So the length of any root-to-leaf path is at most twice the black-height $bh$ of the root. We
 now bound $bh$ in terms of $n$.
 
-Consider the subtree rooted at any node $x$. If this subtree has height $h_x$Then it contains at
+Consider the subtree rooted at any node $x$. If this subtree has height $h_x$ Then it contains at
 least $2^{bh(x)} - 1$ internal nodes (.../1-number-and-algebra/3_proof-and-logic by induction on
 $h_x$: if $x$ is a leaf, it has $0 = 2^0 - 1$ internal nodes; otherwise, each child has black-height
 at least $bh(x) - 1$ if it is red, or $bh(x)$ if it is black, so each child has at least
@@ -66,7 +66,7 @@ and $g$ its grandparent):
 | ---- | ------------ | ---------------------------------------------------------- | --------------------------------------------------------------------- |
 | 1    | Red          | Any                                                        | Recolour $p$ and $u$ black, $g$ red; push problem up to $g$           |
 | 2    | Black        | $z$ and $p$ same direction (left-left or right-right)      | Single rotation at $g$; recolour $p$ black, $g$ red                   |
-| 3    | Black        | $z$ and $p$ opposite directions (left-right or right-left) | Double rotation: first at $p$Then at $g$; recolour $z$ black, $g$ red |
+| 3    | Black        | $z$ and $p$ opposite directions (left-right or right-left) | Double rotation: first at $p$ Then at $g$; recolour $z$ black, $g$ red |
 
 **Theorem 1.2.** Insertion into a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
 at most 2 rotations.
@@ -286,7 +286,7 @@ at least $t - 1$ keys, so $n \geq 2t^{h-1}(t-1) \geq 2t^{h-1} - 1$ (for $t \geq 
 **Corollary.** The height of a B-tree storing $n$ keys is
 $h \leq \log_t \frac{n+1}{2} = O(\log_t n)$.
 
-For example, with $t = 1001$ and $n = 10^9$, $h \leq \log_{1001}(5 \times 10^8) \approx 2.8$So at
+For example, with $t = 1001$ and $n = 10^9$, $h \leq \log_{1001}(5 \times 10^8) \approx 2.8$ So at
 most 3 disk accesses.
 
 #### 1.2.2 B-Tree Operations
@@ -377,7 +377,7 @@ Delete key 12. Key 12 is in an internal node. Find predecessor: 10 (in the same 
 Replace 12 with 10, then delete 10 from its position.
 
 Wait -- actually in this B-tree, 12 is in an internal node [10, 12, 17] which is also a leaf (it has
-no children). So case 1 applies: [10, 12, 17] has 3 keys > $t - 1 = 1$So remove 12.
+no children). So case 1 applies: [10, 12, 17] has 3 keys > $t - 1 = 1$ So remove 12.
 
 ```
         [6, 20]
@@ -386,7 +386,7 @@ no children). So case 1 applies: [10, 12, 17] has 3 keys > $t - 1 = 1$So remove 
 ```
 
 Now delete key 20. Key 20 is in the root [6, 20]. Replace with successor: 30 (from [30]). Delete 30
-from its leaf: [30] has 1 key = $t - 1$So we need to handle carefully.
+from its leaf: [30] has 1 key = $t - 1$ So we need to handle carefully.
 
 Actually, we replace 20 with 30, and the leaf [30] becomes []. Since [30] is now empty and its
 sibling [10, 17] has 2 keys > $t - 1$We can borrow. But [10, 17] is not an immediate sibling of [30]
@@ -905,7 +905,7 @@ A **Fibonacci heap** is a collection of min-heap-ordered trees supporting:
 | Find-min     | $O(1)$         | Pointer to min root                       |
 | Extract-min  | $O(\log n)$    | Consolidate trees                         |
 | Decrease-key | $O(1)$         | Cut and cascade                           |
-| Delete       | $O(\log n)$    | Decrease-key to $-\infty$Then extract-min |
+| Delete       | $O(\log n)$    | Decrease-key to $-\infty$ Then extract-min |
 | Union        | $O(1)$         | Concatenate root lists                    |
 
 **Key difference from binomial heaps:** Fibonacci heaps allow trees to have any structure (not just
@@ -968,7 +968,7 @@ an $n \times m$ matrix where:
 $$M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}$$
 
 For directed graphs, $M_{v,e} = 1$ if $v$ is the tail of $e$, $M_{v,e} = -1$ if $v$ is the head of
-$e$And $0$ otherwise.
+$e$ And $0$ otherwise.
 
 **Properties:**
 
@@ -1163,7 +1163,7 @@ A **Fenwick tree** (BIT) is a space-efficient alternative to the segment tree fo
 and point updates.
 
 **Structure.** An array `BIT[1..n]` where `BIT[i]` stores the sum of a specific range ending at
-index $i$. The range is determined by the lowest set bit of $i$: if $\mathrm{lsb}(i) = 2^k$Then
+index $i$. The range is determined by the lowest set bit of $i$: if $\mathrm{lsb}(i) = 2^k$ Then
 `BIT[i]` stores the sum of $A[i - 2^k + 1..i]$.
 
 **Operations:**
@@ -1352,7 +1352,7 @@ max-heap property). The priorities are assigned randomly at insertion time.
 **Theorem 8.1.** Split and merge in a treap take $O(\log n)$ expected time.
 
 _Proof._ Split traverses a root-to-leaf path, performing rotations. The expected depth of any node
-is $O(\log n)$So the expected path length is $O(\log n)$. Merge follows a single path from the root
+is $O(\log n)$ So the expected path length is $O(\log n)$. Merge follows a single path from the root
 of one treap downward. $\blacksquare$
 
 <details>
@@ -1675,10 +1675,10 @@ order): 5, 1, 8, 4. Show the two-pass merge process step by step.
 ### 8.3 Advanced Structures (Problems 8--11)
 
 **Problem 8.** Given an array $A = [7, 2, 5, 1, 8, 3, 6, 4]$Build a segment tree for range minimum
-queries. Then query $\min(A[2..5])$Update $A[3] = 0$And query $\min(A[1..6])$.
+queries. Then query $\min(A[2..5])$Update $A[3] = 0$ And query $\min(A[1..6])$.
 
 **Problem 9.** Build a Fenwick tree for the array $A = [5, 3, 7, 1, 4, 6, 2]$. Compute the prefix
-sum up to index 5, the range sum $A[2..6]$And show the effect of adding 10 to $A[4]$.
+sum up to index 5, the range sum $A[2..6]$ And show the effect of adding 10 to $A[4]$.
 
 **Problem 10.** Compute the suffix array and LCP array for the string "mississippi$". Use the result
 to find the longest repeated substring.

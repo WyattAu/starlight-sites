@@ -414,7 +414,7 @@ A B-tree of order $m$ (minimum degree) satisfies:
 
 A database index stored as a binary tree with 10 million rows has height $\approx 24$. Each node
 Access is a disk seek (~10ms), so a lookup costs ~240ms. A B-tree with order $m = 100$ (fitting in a
-4KB disk page) has height $\approx 3$So a lookup costs ~30ms. This 8x improvement is why every Major
+4KB disk page) has height $\approx 3$ So a lookup costs ~30ms. This 8x improvement is why every Major
 database uses B-tree variants (B+ trees) for indexing.
 
 | Structure          | Height for $n = 10^7$ | Disk seeks |

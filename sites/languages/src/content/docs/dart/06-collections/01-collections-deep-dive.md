@@ -1,7 +1,7 @@
 ---
 
 title: Collections Deep Dive
-description: "Dart collections deep dive and hierarchy."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Dart\", \"url\":"
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

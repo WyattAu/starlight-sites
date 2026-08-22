@@ -34,11 +34,11 @@ Transformations, and many applications in science and engineering.
 An $m \times n$ **matrix** $A$ is a rectangular array of numbers with $m$ rows and $n$ columns. The
 Entry in row $i$Column $j$ is written $a_{ij}$.
 
-**Addition.** If $A$ and $B$ are both $m \times n$Then $(A + B)_{ij} = a_{ij} + b_{ij}$.
+**Addition.** If $A$ and $B$ are both $m \times n$ Then $(A + B)_{ij} = a_{ij} + b_{ij}$.
 
 **Scalar multiplication.** $(cA)_{ij} = ca_{ij}$.
 
-**Matrix multiplication.** If $A$ is $m \times n$ and $B$ is $n \times p$Then $C = AB$ is
+**Matrix multiplication.** If $A$ is $m \times n$ and $B$ is $n \times p$ Then $C = AB$ is
 $m \times p$ with:
 
 $$c_{ij} = \sum_{k=1}^{n} a_{ik}\,b_{kj}$$
@@ -190,7 +190,7 @@ Key property: the origin is always mapped to the origin.
 
 If transformation $A$ is followed by transformation $B$The combined transformation is $BA$.
 
-**Proof.** If $\mathbf{v}' = A\mathbf{v}$ and $\mathbf{v}'' = B\mathbf{v}'$Then
+**Proof.** If $\mathbf{v}' = A\mathbf{v}$ and $\mathbf{v}'' = B\mathbf{v}'$ Then
 $\mathbf{v}'' = B(A\mathbf{v}) = (BA)\mathbf{v}$. $\blacksquare$
 
 ### 4.4 Worked example
@@ -415,9 +415,9 @@ $$= ad(eh - fg) - bc(eh - fg) = (ad - bc)(eh - fg) = \det(A)\det(B) \quad \black
 ### 7.2 Proof: $\det(A) \neq 0 \iff A$ is invertible
 
 **Proof.** ($\Rightarrow$) If $\det(A) \neq 0$The adjugate formula gives
-$A^{-1} = \dfrac{1}{\det A}\mathrm{adj}(A)$So $A$ is invertible.
+$A^{-1} = \dfrac{1}{\det A}\mathrm{adj}(A)$ So $A$ is invertible.
 
-($\Leftarrow$) If $A$ is invertible with $A^{-1}$Then
+($\Leftarrow$) If $A$ is invertible with $A^{-1}$ Then
 $\det(A)\det(A^{-1}) = \det(AA^{-1}) = \det(I) = 1$. Since $1 \neq 0$We must have $\det(A) \neq 0$.
 $\blacksquare$
 
@@ -573,7 +573,7 @@ The transformation $T$ is defined by the matrix $A = \begin{pmatrix} 2 & 3 \\ 0 
 
 $\begin{pmatrix} 2 & 3 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x \\ y \end{pmatrix}$
 
-$2x + 3y = x \implies x + 3y = 0$And $2y = y \implies y = 0$.
+$2x + 3y = x \implies x + 3y = 0$ And $2y = y \implies y = 0$.
 
 So $x = 0$ and $y = 0$. The only invariant point is the origin.
 
@@ -581,7 +581,7 @@ So $x = 0$ and $y = 0$. The only invariant point is the origin.
 
 $\begin{pmatrix} 2 & 3 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} x \\ 0 \end{pmatrix} = \begin{pmatrix} 2x \\ 0 \end{pmatrix}$
 
-The image $(2x, 0)$ also lies on $y = 0$So $y = 0$ is an invariant line.
+The image $(2x, 0)$ also lies on $y = 0$ So $y = 0$ is an invariant line.
 
 **(c)** For an invariant line $y = mx$We need
 $A\begin{pmatrix} 1 \\ m \end{pmatrix} = \lambda\begin{pmatrix} 1 \\ m \end{pmatrix}$:
@@ -710,7 +710,7 @@ $\lambda = 1$ (repeated). Eigenvector: $(A-I)\mathbf{v} = \mathbf{0}$:
 
 $$\begin{pmatrix} 2 & -4 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \mathbf{0} \implies x - 2y = 0$$
 
-Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$So the line $y = x/2$ is invariant.
+Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$ So the line $y = x/2$ is invariant.
 
 For non-trivial invariant lines not through the origin, try $y = mx + c$ with $c \neq 0$:
 
@@ -870,7 +870,7 @@ Homogeneous coordinates.
 <details>
 <summary>Solution</summary>
 
-In homogeneous coordinates, this is the composite of translate by $(-1, -2)$Enlarge by $3$And
+In homogeneous coordinates, this is the composite of translate by $(-1, -2)$Enlarge by $3$ And
 Translate back by $(1, 2)$:
 
 $$M = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 3 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 & -1 \\ 0 & 1 & -2 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 3 & 0 & -2 \\ 0 & 3 & -4 \\ 0 & 0 & 1 \end{pmatrix}$$
@@ -879,7 +879,7 @@ $$M = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}\begin{pm
 
 ### Question 10
 
-**Prove that** if $A$ has eigenvalues $\lambda_1, \lambda_2$ with $\lambda_1 \neq \lambda_2$Then $A$
+**Prove that** if $A$ has eigenvalues $\lambda_1, \lambda_2$ with $\lambda_1 \neq \lambda_2$ Then $A$
 is diagonalisable.
 
 <details>
@@ -1039,7 +1039,7 @@ $M^4+3M = -5M+6I+3M = -2M+6I = -2\begin{pmatrix}2&-1\\4&-3\end{pmatrix}+6\begin{
 <details>
 <summary>Solution</summary>
 
-If $B = P^{-1}AP$Then $\det(B) = \det(P^{-1}AP) = \det(P^{-1})\det(A)\det(P) = \det(A)$.
+If $B = P^{-1}AP$ Then $\det(B) = \det(P^{-1}AP) = \det(P^{-1})\det(A)\det(P) = \det(A)$.
 
 $\text{tr}(B) = \text{tr}(P^{-1}AP)$. Using the cyclic property of trace:
 $\text{tr}(ABC) = \text{tr}(CAB)$.
@@ -1111,7 +1111,7 @@ If $A$ has $n$ linearly independent eigenvectors, then $A = PDP^{-1}$ where:
 
 Every square matrix satisfies its own characteristic equation.
 
-If $p(\lambda) = \det(\lambda I - A)$Then $p(A) = O$.
+If $p(\lambda) = \det(\lambda I - A)$ Then $p(A) = O$.
 
 This can be used to express $A^n$ for large $n$ in terms of lower powers of $A$.
 
@@ -1137,7 +1137,7 @@ This can be used to express $A^n$ for large $n$ in terms of lower powers of $A$.
 
 $\det(Q^TQ) = \det(Q^T)\det(Q) = (\det Q)^2$.
 
-But $Q^TQ = I$So $\det(I) = 1$.
+But $Q^TQ = I$ So $\det(I) = 1$.
 
 Therefore $(\det Q)^2 = 1 \implies \det Q = \pm 1$. $\blacksquare$
 
@@ -1145,7 +1145,7 @@ Therefore $(\det Q)^2 = 1 \implies \det Q = \pm 1$. $\blacksquare$
 
 ### Question 17
 
-Find the eigenvalues and eigenvectors of $A = \begin{pmatrix}4&1\\2&3\end{pmatrix}$And hence find
+Find the eigenvalues and eigenvectors of $A = \begin{pmatrix}4&1\\2&3\end{pmatrix}$ And hence find
 $A^5$.
 
 <details>

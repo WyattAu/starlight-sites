@@ -95,7 +95,7 @@ $$J_{1s,2s} \approx 0.42\ \text{Ry} = 5.7\ \text{eV}$$
 
 $$K_{1s,2s} \approx 0.032\ \text{Ry} = 0.43\ \text{eV}$$
 
-The singlet (parahelium) has energy $E = E_0 + J + K$And the triplet (orthohelium) has
+The singlet (parahelium) has energy $E = E_0 + J + K$ And the triplet (orthohelium) has
 $E = E_0 + J - K$.
 
 The splitting: $E_{\text{singlet} - E_{\text{triplet} = 2K \approx 0.86}}$ eV. This is the exchange

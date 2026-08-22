@@ -307,7 +307,7 @@ $C_{\text{out}} = C_1 + C_2 = AB + (A \oplus B)C_{\text{in}}$.
 Each full-adder uses 2 half-adders (5 ns each) and 1 OR gate (3 ns). But the critical path is the
 carry propagation.
 
-Stage 1: $C_{\text{in}} = 0$So $C_2 = S_1 \cdot C_{\text{in}} = 0$ and $C_{\text{out}} = C_1 = AB$.
+Stage 1: $C_{\text{in}} = 0$ So $C_2 = S_1 \cdot C_{\text{in}} = 0$ and $C_{\text{out}} = C_1 = AB$.
 Carry out is ready after the first half-adder produces $C_1$I.e., 5 ns.
 
 For subsequent stages: the carry-in must propagate through. The longest path for carry:

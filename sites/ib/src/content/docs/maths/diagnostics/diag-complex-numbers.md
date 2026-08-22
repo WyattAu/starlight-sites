@@ -35,7 +35,7 @@ tableOfContents: false
 
 **(a)** Find all values of $z$ such that $z^4 = -16$.
 
-**(b)** Express each solution in the form $a + bi$In polar form $re^{i\theta}$And state the
+**(b)** Express each solution in the form $a + bi$In polar form $re^{i\theta}$ And state the
 principal argument of each.
 
 **(c)** A student computes one root as $2e^{i\pi/4}$ and claims the other roots are obtained by
@@ -62,7 +62,7 @@ $$z_k = 16^{1/4} \cdot e^{i(\pi + 2k\pi)/4} = 2e^{i(2k+1)\pi/4}, \quad k = 0, 1,
 - $k = 3$:
   $z_3 = 2e^{i7\pi/4} = 2\left(\cos\frac{7\pi}{4} + i\sin\frac{7\pi}{4}\right) = \sqrt{2} - i\sqrt{2}$, $\arg = -\frac{\pi}{4}$
 
-Note: $\frac{5\pi}{4}$ is normalised to $-\frac{3\pi}{4}$And $\frac{7\pi}{4}$ is normalised to
+Note: $\frac{5\pi}{4}$ is normalised to $-\frac{3\pi}{4}$ And $\frac{7\pi}{4}$ is normalised to
 $-\frac{\pi}{4}$To satisfy the principal argument range $(-\pi, \pi]$.
 
 **(c)** The student is correct that the arguments differ by $\frac{\pi}{2}$. Starting from
@@ -104,7 +104,7 @@ concludes that $\arg(z) = \frac{\pi}{3}$.
 **(a)** The point $(-1, -\sqrt{3})$ lies in the **third quadrant** (both coordinates negative). The
 student used $\arctan\!\left(\frac{b}{a}\right) = \arctan\!\left(\frac{-\sqrt{3}}{-1}\right)$Which
 gives $\frac{\pi}{3}$ — a first-quadrant angle. The $\arctan$ function always returns values in
-$(-\frac{\pi}{2}, \frac{\pi}{2})$So it cannot distinguish between first and third quadrants.
+$(-\frac{\pi}{2}, \frac{\pi}{2})$ So it cannot distinguish between first and third quadrants.
 
 **(b)** In the third quadrant:
 
@@ -216,9 +216,9 @@ $$\cos 3\theta = 4\cos^3\theta - 3\cos\theta$$
 
 $$\cos^3\theta = \frac{1}{4}\cos 3\theta + \frac{3}{4}\cos\theta$$
 
-**(b)** Note that $\frac{\pi}{9}$, $\frac{5\pi}{9}$And $\frac{7\pi}{9}$ are the three distinct
+**(b)** Note that $\frac{\pi}{9}$, $\frac{5\pi}{9}$ And $\frac{7\pi}{9}$ are the three distinct
 solutions to $\cos 3\theta = \cos\frac{\pi}{3} = \frac{1}{2}$Since
-$3 \cdot \frac{\pi}{9} = \frac{\pi}{3}$, $3 \cdot \frac{5\pi}{9} = \frac{5\pi}{3}$And
+$3 \cdot \frac{\pi}{9} = \frac{\pi}{3}$, $3 \cdot \frac{5\pi}{9} = \frac{5\pi}{3}$ And
 $3 \cdot \frac{7\pi}{9} = \frac{7\pi}{3} = \frac{\pi}{3} - 2\pi$.
 
 So $\cos 3\theta = \frac{1}{2}$ for all three angles. Using the identity:
@@ -258,7 +258,7 @@ Let $\omega = e^{2\pi i/3}$ be a primitive cube root of unity.
 $R = \begin{pmatrix} \cos\frac{2\pi}{3} & -\sin\frac{2\pi}{3} \\ \sin\frac{2\pi}{3} & \cos\frac{2\pi}{3} \end{pmatrix}$
 represents a rotation by $120^\circ$ anticlockwise.
 
-**(b)** Find $R^2$ and $R^3$And explain the connection to the cube roots of unity.
+**(b)** Find $R^2$ and $R^3$ And explain the connection to the cube roots of unity.
 
 [Difficulty: hard. Connects complex roots of unity to $2 \times 2$ rotation matrices.]
 
@@ -278,7 +278,7 @@ $$R^2 = \begin{pmatrix} \cos\frac{4\pi}{3} & -\sin\frac{4\pi}{3} \\ \sin\frac{4\
 $R^3 = I$ (the identity matrix), since rotating by $2\pi$ returns to the original position.
 
 The connection: $\omega = e^{2\pi i/3}$ corresponds to $R$, $\omega^2 = e^{4\pi i/3}$ corresponds to
-$R^2$And $\omega^3 = 1$ corresponds to $R^3 = I$. The cube roots of unity $\{1, \omega, \omega^2\}$
+$R^2$ And $\omega^3 = 1$ corresponds to $R^3 = I$. The cube roots of unity $\{1, \omega, \omega^2\}$
 correspond to the matrices $\{I, R, R^2\}$.
 
 ## Common Mistakes

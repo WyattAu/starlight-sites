@@ -4,7 +4,7 @@ date: 2026-07-23T21:57:32+01:00
 title: Separation Axioms
 tags:
   - University Maths
-description: "Separation axioms in topology and their properties."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"9 Topology\","
 ---
 
 <!-- Breadcrumb Schema for SEO -->

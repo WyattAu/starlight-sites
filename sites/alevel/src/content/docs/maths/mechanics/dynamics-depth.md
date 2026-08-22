@@ -44,7 +44,7 @@ For constant mass $m$:
 
 $$\boxed{\mathbf{F} = m\mathbf{a}}$$
 
-**Newton's Third Law.** If body $A$ exerts a force on body $B$Then body $B$ exerts an equal and
+**Newton's Third Law.** If body $A$ exerts a force on body $B$ Then body $B$ exerts an equal and
 Opposite force on body $A$:
 
 $$\mathbf{F}_{AB} = -\mathbf{F}_{BA}$$
@@ -284,7 +284,7 @@ $$m_1\mathbf{u}_1 + m_2\mathbf{u}_2 = m_1\mathbf{v}_1 + m_2\mathbf{v}_2$$
 **Proof.** Newton's second law for the system:
 $\mathbf{F}_{\mathrm{ext}} = \dfrac{d\mathbf{p}_{\mathrm{total}}}{dt}$.
 
-If $\mathbf{F}_{\mathrm{ext}} = \mathbf{0}$Then $\mathbf{p}_{\mathrm{total}}$ is constant.
+If $\mathbf{F}_{\mathrm{ext}} = \mathbf{0}$ Then $\mathbf{p}_{\mathrm{total}}$ is constant.
 $\blacksquare$
 
 ### 5.3 Impulse
@@ -353,7 +353,7 @@ $$2v_1 + 3(v_1 + 5) = 0 \implies 5v_1 = -15 \implies v_1 = -3\;\mathrm{m\,s^{-1}
 $$v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}$$
 
 :::caution
-speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$But the signs in the
+speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$ But the signs in the
 formula must Be consistent with your chosen positive direction.
 :::
 <hr />
@@ -454,7 +454,7 @@ For the $6\;\mathrm{kg}$ mass: $6g - T = 6a$.
 
 For the $4\;\mathrm{kg}$ mass (up the plane): $T - 4g\sin 30^\circ - F = 4a$.
 
-$R = 4g\cos 30^\circ$So
+$R = 4g\cos 30^\circ$ So
 $F = 0.2 \times 4g\cos 30^\circ = 0.8g\cos 30^\circ \approx 6.80\;\mathrm{N}$.
 
 Adding: $6g - 4g\sin 30^\circ - F = 10a$

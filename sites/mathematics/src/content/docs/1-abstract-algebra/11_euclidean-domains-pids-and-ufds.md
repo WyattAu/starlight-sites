@@ -42,10 +42,10 @@ An integral domain $R$ is a **principal ideal domain (PID)** if every ideal of $
 
 _Proof._ Let $I$ be a non-zero ideal of the Euclidean domain $R$. Choose $d \in I \setminus \{0\}$
 Minimising $\delta(d)$. We claim $I = (d)$. For any $a \in I$Write $a = qd + r$ with $r = 0$ or
-$\delta(r) \lt \delta(d)$. Since $r = a - qd \in I$Minimality of $\delta(d)$ Forces $r = 0$So
+$\delta(r) \lt \delta(d)$. Since $r = a - qd \in I$Minimality of $\delta(d)$ Forces $r = 0$ So
 $a = qd \in (d)$. $\blacksquare$
 
-**Corollary 11.2.** $\mathbb{Z}$, $F[x]$And $\mathbb{Z}[i]$ are PIDs.
+**Corollary 11.2.** $\mathbb{Z}$, $F[x]$ And $\mathbb{Z}[i]$ are PIDs.
 
 ### 11.3 Unique Factorization Domains
 
@@ -78,10 +78,10 @@ $\mathbb{Z}[\sqrt{-5}]$ and that $2, 3$ are not associates of $1 \pm \sqrt{-5}$.
 The norm is $N(a + b\sqrt{-5}) = a^2 + 5b^2$. Note $N(\alpha\beta) = N(\alpha)N(\beta)$ and $\alpha$
 is a unit iff $N(\alpha) = 1$.
 
-$N(2) = 4$. If $2 = \alpha\beta$ with neither a unit, then $N(\alpha)N(\beta) = 4$So
+$N(2) = 4$. If $2 = \alpha\beta$ with neither a unit, then $N(\alpha)N(\beta) = 4$ So
 $N(\alpha) = N(\beta) = 2$. But $a^2 + 5b^2 = 2$ has no integer solutions. So $2$ is irreducible.
 
-Similarly, $N(3) = 9$And $a^2 + 5b^2 = 3$ has no solutions, so $3$ is irreducible.
+Similarly, $N(3) = 9$ And $a^2 + 5b^2 = 3$ has no solutions, so $3$ is irreducible.
 
 $N(1 \pm \sqrt{-5}) = 6$. If $1 + \sqrt{-5} = \alpha\beta$ with neither a unit, then
 $N(\alpha), N(\beta) \in \{2, 3\}$. But $a^2 + 5b^2 = 2$ and $a^2 + 5b^2 = 3$ have no solutions. So

@@ -65,7 +65,7 @@ pair Has charge $2e$ and spin 0 (boson).
 $$\Delta = V_{\mathrm{pair} \sum_{\mathbf{k}} \frac{\Delta}{2E_{\mathbf{k}}} \tanh\left(\frac{E_{\mathbf{k}}}{2k_B T}\right)}$$
 
 Where $E_{\mathbf{k}} = \sqrt{\xi_{\mathbf{k}}^2 + \Delta^2}$ is the quasiparticle energy,
-$\xi_{\mathbf{k}}$ Is the normal-state energy relative to $E_F$And $\Delta$ is the superconducting
+$\xi_{\mathbf{k}}$ Is the normal-state energy relative to $E_F$ And $\Delta$ is the superconducting
 energy gap.
 
 At $T = 0$: $\Delta(0) = 2\hbar\omega_D\, e^{-1/(N(E_F)V_{\mathrm{pair})}}$ (BCS formula).

@@ -24,8 +24,8 @@ tableOfContents: false
 **Question:**
 
 In the circuit shown, three cells with EMFs $E_1 = 12$ V, $E_2 = 6$ V, and $E_3 = 4$ V are connected
-with resistors $R_1 = 4$ $\Omega$, $R_2 = 6$ $\Omega$And $R_3 = 2$ $\Omega$. Cell $E_1$ is in series
-with $R_1$Cell $E_2$ is in series with $R_2$And $R_3$ is the shared branch connecting the junctions.
+with resistors $R_1 = 4$ $\Omega$, $R_2 = 6$ $\Omega$ And $R_3 = 2$ $\Omega$. Cell $E_1$ is in series
+with $R_1$Cell $E_2$ is in series with $R_2$ And $R_3$ is the shared branch connecting the junctions.
 $E_1$ and $E_2$ have their positive terminals facing the same junction (opposing each other). $E_3$
 is in the shared branch with its positive terminal facing the $E_1$ side. All cells have negligible
 internal resistance. Find the current in each branch.
@@ -58,7 +58,7 @@ $$2 - 6I_2 - 2I_3 = 0 \quad \text{--- (3)}$$
 
 From (3): $I_2 = \frac{2 - 2I_3}{6} = \frac{1 - I_3}{3}$
 
-From (2): $4I_1 = 8 - 2I_3$So $I_1 = 2 - 0.5I_3$
+From (2): $4I_1 = 8 - 2I_3$ So $I_1 = 2 - 0.5I_3$
 
 Substituting into (1):
 
@@ -228,7 +228,7 @@ the terminal PD of each cell, and (d) the power dissipated in $R$.
 
 **Equivalent circuit analysis using KVL:**
 
-Let the junction where both cells meet be at potential $V_A$And the other end of $R$ be at $V_B$.
+Let the junction where both cells meet be at potential $V_A$ And the other end of $R$ be at $V_B$.
 
 Current from cell 1: $I_1 = \frac{E_1 - V}{r_1}$ (flowing out of cell 1)
 
@@ -286,7 +286,7 @@ its EMF is much lower).
 **Question:**
 
 A Wheatstone bridge has the following resistances: $P = 100$ $\Omega$$Q = 200$ $\Omega$$R = 150$
-$\Omega$And the unknown resistance $S$. A galvanometer of resistance $50$ $\Omega$ is connected
+$\Omega$ And the unknown resistance $S$. A galvanometer of resistance $50$ $\Omega$ is connected
 between the junction of $P$ and $Q$ and the junction of $R$ and $S$. A battery of EMF $6$ V
 (negligible internal resistance) is connected across the bridge. The galvanometer shows zero
 deflection. Find the value of $S$ and the current through each resistor.

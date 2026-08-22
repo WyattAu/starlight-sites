@@ -83,7 +83,7 @@ constant $k$ connecting the bobs. Find the normal modes and frequencies.
 <summary>Solution</summary>
 
 Let $\theta_1$ and $\theta_2$ be the small angles from vertical. The separation between bobs (to
-first order) is approximately $l(\theta_2 - \theta_1)$So the spring potential energy is
+first order) is approximately $l(\theta_2 - \theta_1)$ So the spring potential energy is
 $\frac{1}{2}k l^2(\theta_2 - \theta_1)^2$.
 
 Kinetic energy:

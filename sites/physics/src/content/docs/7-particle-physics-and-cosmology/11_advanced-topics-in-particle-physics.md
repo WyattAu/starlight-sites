@@ -126,7 +126,7 @@ strength tensor.
 
 **Strong CP problem.** QCD allows a term
 $\mathcal{L}_\theta = \theta\frac{g_s^2}{32\pi^2}F_{\mu\nu}^a\tilde{F}^{a\mu\nu}$ in the Lagrangian.
-This gives the neutron an electric dipole moment $d_n \propto \theta$But experiments find
+This gives the neutron an electric dipole moment $d_n \propto \theta$ But experiments find
 $d_n < 1.8 \times 10^{-26}\,e\cdot\text{cm}$Implying $|\theta| < 10^{-10}$. Why is $\theta$ so
 small?
 

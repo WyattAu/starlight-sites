@@ -1,6 +1,6 @@
 ---
 title: Macroeconomic Indicators
-description: "Study notes and resources for Macroeconomic Indicators"
+description: "This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for"
 date: 2026-01-01T00:00:00Z
 ---
 

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Paper 3 -- Mechanics -- Full Diagnostic Exam"
-description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 tableOfContents: false
 ---
 
@@ -164,7 +164,7 @@ segment.
 
 $$s(t) = \int v\,dt = \int (6t - t^2 - 5)\,dt = 3t^2 - \frac{t^3}{3} - 5t + C$$
 
-With $s(0) = 0$: $C = 0$So $s(t) = 3t^2 - \frac{t^3}{3} - 5t$.
+With $s(0) = 0$: $C = 0$ So $s(t) = 3t^2 - \frac{t^3}{3} - 5t$.
 
 $s(1) = 3 - \frac{1}{3} - 5 = -\frac{7}{3}$ m.
 

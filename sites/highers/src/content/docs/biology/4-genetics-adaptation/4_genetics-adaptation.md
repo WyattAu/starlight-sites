@@ -368,7 +368,7 @@ Where $p$ = frequency of dominant allele, $q$ = frequency of recessive allele.
 **Example:** In a population, 16% of individuals show the recessive phenotype. Find the allele
 Frequencies.
 
-$q^2 = 0.16$So $q = 0.4$.
+$q^2 = 0.16$ So $q = 0.4$.
 
 $p = 1 - q = 0.6$.
 
@@ -781,7 +781,7 @@ In the population. The most fit genotype has $w = 1$; less fit genotypes have $w
 **Worked Example: Selection against a recessive allele.**
 
 In a population, the recessive allele $a$ has frequency $q = 0.4$. Individuals with genotype $aa$
-Have reduced fitness ($w = 0.5$So $s = 0.5$).
+Have reduced fitness ($w = 0.5$ So $s = 0.5$).
 
 After one generation of selection:
 

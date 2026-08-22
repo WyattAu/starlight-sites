@@ -160,7 +160,7 @@ Answer to the economic concept of scarcity and resource allocation.
 
 **Solution:**
 
-(a) Equilibrium: $500 - 2P = 100 + 3P$So $400 = 5P$, $P^* = 80$ ($\$80,000$),
+(a) Equilibrium: $500 - 2P = 100 + 3P$ So $400 = 5P$, $P^* = 80$ ($\$80,000$),
 $Q^* = 500 - 2(80) = 340$.
 
 (b) Since healthcare has **positive externalities**, the social benefit exceeds the private benefit,
@@ -170,7 +170,7 @@ the Social optimum at $Q_o = 400$.
 
 To achieve $Q_o = 400$: The subsidy shifts the effective demand curve. New demand:
 $Q_d = 500 - 2(P - s) = 500 - 2P + 2s$ (where $s$ is the per-unit subsidy). Set equal to supply:
-$500 - 2P + 2s = 100 + 3P$So $400 + 2s = 5P$$P = (400 + 2s)/5$.
+$500 - 2P + 2s = 100 + 3P$ So $400 + 2s = 5P$$P = (400 + 2s)/5$.
 
 Quantity: $Q = 100 + 3P = 100 + 3(400 + 2s)/5 = (1700 + 6s)/5$.
 

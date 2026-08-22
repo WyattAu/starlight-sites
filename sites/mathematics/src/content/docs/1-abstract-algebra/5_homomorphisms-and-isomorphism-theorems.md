@@ -5,7 +5,7 @@ title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
-description: "Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"1 Abstract"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -28,8 +28,8 @@ $a, b \in G$.
 2. $\phi(a^{-1}) = \phi(a)^{-1}$ for all $a \in G$.
 3. $\phi(a^n) = \phi(a)^n$ for all $n \in \mathbb{Z}$.
 
-_Proof._ (1) $\phi(e_G) = \phi(e_G \cdot e_G) = \phi(e_G)\phi(e_G)$So by cancellation in $H$
-$\phi(e_G) = e_H$. (2) $e_H = \phi(e_G) = \phi(aa^{-1}) = \phi(a)\phi(a^{-1})$So
+_Proof._ (1) $\phi(e_G) = \phi(e_G \cdot e_G) = \phi(e_G)\phi(e_G)$ So by cancellation in $H$
+$\phi(e_G) = e_H$. (2) $e_H = \phi(e_G) = \phi(aa^{-1}) = \phi(a)\phi(a^{-1})$ So
 $\phi(a^{-1}) = \phi(a)^{-1}$. $\blacksquare$
 
 ### 5.2 Kernel and Image
@@ -42,10 +42,10 @@ The **image** of $\phi$ is $\mathrm{im}(\phi) = \{\phi(g) : g \in G\}$.
 
 _Proof._ We show $\ker(\phi)$ is a normal subgroup.
 
-- $\phi(e) = e_H$So $e \in \ker(\phi)$.
-- If $a, b \in \ker(\phi)$Then $\phi(ab^{-1}) = \phi(a)\phi(b)^{-1} = e_H e_H = e_H$So
+- $\phi(e) = e_H$ So $e \in \ker(\phi)$.
+- If $a, b \in \ker(\phi)$ Then $\phi(ab^{-1}) = \phi(a)\phi(b)^{-1} = e_H e_H = e_H$ So
   $ab^{-1} \in \ker(\phi)$.
-- If $a \in \ker(\phi)$ and $g \in G$Then
+- If $a \in \ker(\phi)$ and $g \in G$ Then
   $\phi(gag^{-1}) = \phi(g)\phi(a)\phi(g)^{-1} = \phi(g)e_H\phi(g)^{-1} = e_H$ so
   $gag^{-1} \in \ker(\phi)$.
 
@@ -61,7 +61,7 @@ $$G / \ker(\phi) \cong H$$
 More generally (even if $\phi$ is not surjective), $G / \ker(\phi) \cong \mathrm{im}(\phi)$.
 
 _Proof._ Define $\overline{\phi} : G/\ker(\phi) \to H$ by $\overline{\phi}(g \ker(\phi)) = \phi(g)$.
-This is well-defined: if $g \ker(\phi) = g" \ker(\phi)$Then $g'^{-1}g \in \ker(\phi)$ So
+This is well-defined: if $g \ker(\phi) = g" \ker(\phi)$ Then $g'^{-1}g \in \ker(\phi)$ So
 $\phi(g'^{-1}g) = e_H$Giving $\phi(g) = \phi(g')$. It is a homomorphism:
 $\overline{\phi}((a\ker(\phi))(b\ker(\phi))) = \overline{\phi}(ab\ker(\phi)) = \phi(ab) = \phi(a)\phi(b) = \overline{\phi}(a\ker(\phi))\overline{\phi}(b\ker(\phi))$.
 It is injective:
@@ -70,8 +70,8 @@ By construction, $\mathrm{im}(\overline{\phi}) = \mathrm{im}(\phi)$. $\blacksqua
 
 ### 5.4 Second and Third Isomorphism Theorems
 
-**Theorem 5.4 (Second Isomorphism Theorem).** If $N \trianglelefteq G$ and $H \leq G$Then
-$HN \leq G$ $N \trianglelefteq HN$, $H \cap N \trianglelefteq H$And
+**Theorem 5.4 (Second Isomorphism Theorem).** If $N \trianglelefteq G$ and $H \leq G$ Then
+$HN \leq G$ $N \trianglelefteq HN$, $H \cap N \trianglelefteq H$ And
 
 $$H / (H \cap N) \cong HN / N$$
 
@@ -81,12 +81,12 @@ $\{h \in H : hN = N\} = \{h \in H : h \in N\} = H \cap N$. By the first isomorph
 $H/(H \cap N) \cong HN/N$. $\blacksquare$
 
 **Theorem 5.5 (Third Isomorphism Theorem).** If $K \trianglelefteq N \trianglelefteq G$ with
-$K \trianglelefteq G$Then
+$K \trianglelefteq G$ Then
 
 $$(G/K)/(N/K) \cong G/N$$
 
 _Proof._ Define $\phi : G/K \to G/N$ by $\phi(gK) = gN$. Well-defined: $gK = g'K$ implies
-$g^{-1}g' \in K \subseteq N$So $gN = g'N$. Surjective and $\ker(\phi) = N/K$. Apply the first
+$g^{-1}g' \in K \subseteq N$ So $gN = g'N$. Surjective and $\ker(\phi) = N/K$. Apply the first
 Isomorphism theorem. $\blacksquare$
 
 ### 5.5 Worked Example
@@ -151,13 +151,13 @@ _Proof._ Define $\Phi(U) = \phi(U)$ and $\Psi(V) = \phi^{-1}(V) = \{g \in G : \p
 
 - $\Phi \circ \Psi = \mathrm{id}$: $\Phi(\Psi(V)) = \phi(\phi^{-1}(V)) = V$ (since $\phi$ is
   surjective).
-- $\Psi \circ \Phi = \mathrm{id}$ on subgroups containing $K$: if $U \supseteq K$Then
+- $\Psi \circ \Phi = \mathrm{id}$ on subgroups containing $K$: if $U \supseteq K$ Then
   $\Psi(\Phi(U)) = \phi^{-1}(\phi(U)) = U$ (since $\ker(\phi) = K \subseteq U$).
 
-For normality: if $U \trianglelefteq G$Then for any $h \in H$ and $u \in U$ Write $h = \phi(g)$.
+For normality: if $U \trianglelefteq G$ Then for any $h \in H$ and $u \in U$ Write $h = \phi(g)$.
 Then $h\phi(u)h^{-1} = \phi(g)\phi(u)\phi(g)^{-1} = \phi(gug^{-1}) \in \phi(U)$ Since
-$gug^{-1} \in U$. Conversely, if $\phi(U) \trianglelefteq H$Then for any $g \in G$ and $u \in U$
-$\phi(gug^{-1}) = \phi(g)\phi(u)\phi(g)^{-1} \in \phi(U)$So $gug^{-1} \in \phi^{-1}(\phi(U)) = U$.
+$gug^{-1} \in U$. Conversely, if $\phi(U) \trianglelefteq H$ Then for any $g \in G$ and $u \in U$
+$\phi(gug^{-1}) = \phi(g)\phi(u)\phi(g)^{-1} \in \phi(U)$ So $gug^{-1} \in \phi^{-1}(\phi(U)) = U$.
 
 For the index: $\phi$ restricts to a surjection $U \to \phi(U)$ with kernel $K$ So
 $|U/K| = |\phi(U)|$Giving $|G|/|U| = |H|/|\phi(U)|$. $\blacksquare$
@@ -174,7 +174,7 @@ $\mathrm{Aut}(G)$.
 **Proposition 5.7.** $\mathrm{Inn}(G) \cong G/Z(G)$.
 
 _Proof._ Define $\psi : G \to \mathrm{Aut}(G)$ by $\psi(g) = c_g$. This is a homomorphism:
-$\psi(gh) = c_{gh}$And
+$\psi(gh) = c_{gh}$ And
 $c_{gh}(x) = ghx(gh)^{-1} = g(hxh^{-1})g^{-1} = c_g(c_h(x)) = (c_g \circ c_h)(x)$. The image is
 $\mathrm{Inn}(G)$. The kernel is
 $\{g \in G : c_g = \mathrm{id}\} = \{g \in G : gxg^{-1} = x
@@ -187,13 +187,13 @@ the three elements of order $2$), And $\mathrm{Inn}(S_3)$ already has $6$ elemen
 $\mathrm{Aut}(S_3) = \mathrm{Inn}(S_3) \cong S_3$.
 
 **Example.** $\mathrm{Aut}(\mathbb{Z}/n\mathbb{Z}) \cong (\mathbb{Z}/n\mathbb{Z})^*$The group of
-units Modulo $n$. An automorphism of $\mathbb{Z}/n\mathbb{Z}$ is determined by where it sends $1$And
+units Modulo $n$. An automorphism of $\mathbb{Z}/n\mathbb{Z}$ is determined by where it sends $1$ And
 $1$ can map to any generator, i.e., any $[k]$ with $\gcd(k, n) = 1$.
 
 **Example.**
 $\mathrm{Aut}(\mathbb{Z}/8\mathbb{Z}) \cong (\mathbb{Z}/8\mathbb{Z})^* = \{1, 3, 5, 7\} \cong V_4$.
 The four automorphisms are $x \mapsto x$, $x \mapsto 3x$, $x \mapsto 5x$, $x \mapsto 7x$. Note that
-$3^2 = 9 \equiv 1 \pmod{8}$So every non-identity automorphism has order $2$.
+$3^2 = 9 \equiv 1 \pmod{8}$ So every non-identity automorphism has order $2$.
 
 ### 5.8a Intuition: What Does the First Isomorphism Theorem Really Say?
 
@@ -252,7 +252,7 @@ $S_3$.
 <summary>Solution</summary>
 
 _Solution._ $|G| = 6 = 2 \cdot 3$. By Sylow's third theorem: $n_3 \equiv 1 \pmod{3}$ and $n_3$
-Divides $2$So $n_3 = 1$. The Sylow $3$-subgroup $H = \langle a \rangle \cong \mathbb{Z}/3\mathbb{Z}$
+Divides $2$ So $n_3 = 1$. The Sylow $3$-subgroup $H = \langle a \rangle \cong \mathbb{Z}/3\mathbb{Z}$
 is normal.
 
 Let $b$ be an element of order $2$ (exists by Cauchy). Since $H \trianglelefteq G$ $bab^{-1} \in H$.
@@ -275,10 +275,10 @@ These are the only two possibilities, up to isomorphism. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-_Solution._ $n_7 \equiv 1 \pmod{7}$ and $n_7$ divides $3$So $n_7 = 1$. The Sylow $7$-subgroup
+_Solution._ $n_7 \equiv 1 \pmod{7}$ and $n_7$ divides $3$ So $n_7 = 1$. The Sylow $7$-subgroup
 $H = \langle a \rangle \cong \mathbb{Z}/7\mathbb{Z}$ is normal.
 
-$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $7$So $n_3 = 1$ or $7$.
+$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $7$ So $n_3 = 1$ or $7$.
 
 The action of a Sylow $3$-subgroup $K = \langle b \rangle \cong \mathbb{Z}/3\mathbb{Z}$ on $H$ by
 conjugation Is a homomorphism

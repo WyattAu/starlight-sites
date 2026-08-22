@@ -24,8 +24,8 @@ categories:
 
 ### 1.1 Zeroth Law
 
-**Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$And $B$ is in thermal
-Equilibrium with system $C$Then $A$ is in thermal equilibrium with $C$.
+**Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$ And $B$ is in thermal
+Equilibrium with system $C$ Then $A$ is in thermal equilibrium with $C$.
 
 This law establishes the existence of **temperature** as an equivalence relation. Two systems are in
 Thermal equilibrium if and only if they are at the same temperature.
@@ -66,10 +66,10 @@ Efficient than a Carnot engine. All reversible engines operating between the sam
 Have the same efficiency.
 
 **Proof.** Suppose engine $A$ (claimed more efficient than Carnot) operates between reservoirs at
-$T_h$ and $T_c$. Let $A$ extract heat $Q_h$ from the hot reservoir, do work $W$And reject heat
+$T_h$ and $T_c$. Let $A$ extract heat $Q_h$ from the hot reservoir, do work $W$ And reject heat
 $Q_c = Q_h - W$ to the cold reservoir. Run a Carnot engine $C$ in reverse as a refrigerator using
 Work $W$ from $A$: it extracts $Q_c'$ from the cold reservoir and delivers $Q_h' = W + Q_c'$ to the
-Hot reservoir. If $\eta_A \gt \eta_C$Then $Q_c \lt Q_c'$So the combined system transfers net Heat
+Hot reservoir. If $\eta_A \gt \eta_C$ Then $Q_c \lt Q_c'$ So the combined system transfers net Heat
 from cold to hot with no external work, violating the Clausius statement. $\blacksquare$
 
 ### 1.4 Entropy and the Clausius Inequality
@@ -85,7 +85,7 @@ $$\oint \frac{\delta Q}{T} \leq 0$$
 With equality if and only if the process is reversible.
 
 **Proof of entropy increase for irreversible processes.** Consider a system undergoing an
-Irreversible process from state $1$ to state $2$Then returning via a reversible process. By the
+Irreversible process from state $1$ to state $2$ Then returning via a reversible process. By the
 Clausius inequality:
 
 $$\int_1^2 \frac{\delta Q_{\mathrm{irrev}}{T} + \int_2^1 \frac{\delta Q_{\mathrm{rev}}{T} \leq 0}}$$
@@ -134,7 +134,7 @@ of $dT$ and $dP$ along a constant-$P$ path:
 
 $$\left(\frac{\partial S}{\partial T}\right)_P = \left(\frac{\partial S}{\partial T}\right)_V + \left(\frac{\partial S}{\partial V}\right)_T \left(\frac{\partial V}{\partial T}\right)_P$$
 
-Multiply by $T$ and use $C_V = T(\partial S/\partial T)_V$, $C_P = T(\partial S/\partial T)_P$And
+Multiply by $T$ and use $C_V = T(\partial S/\partial T)_V$, $C_P = T(\partial S/\partial T)_P$ And
 the Maxwell relation $(\partial S/\partial V)_T = (\partial P/\partial T)_V$:
 
 $$C_P - C_V = T\left(\frac{\partial P}{\partial T}\right)_V \left(\frac{\partial V}{\partial T}\right)_P$$
@@ -170,7 +170,7 @@ gives $\gamma = \kappa_T/\kappa_S$. $\blacksquare$
 **Theorem 1.4 (Statistical basis of the second law).** For an isolated system, the entropy
 $S = k_B \ln \Omega$ can only increase or remain constant.
 
-**Proof.** Consider an isolated system with fixed energy $E$Volume $V$And particle number $N$. The
+**Proof.** Consider an isolated system with fixed energy $E$Volume $V$ And particle number $N$. The
 system evolves through accessible microstates. If the system starts in a non-equilibrium Macrostate
 $A$ with $\Omega_A$ microstates and evolves to macrostate $B$ with $\Omega_B$ microstates, The
 evolution is driven by the ergodic exploration of phase space.
@@ -182,7 +182,7 @@ $\Omega_B \geq
 
 More rigorously: suppose the system starts in a subset of $w_0$ microstates out of a total $\Omega$.
 The probability that the system remains in this subset after randomising over all Microstates is
-$w_0/\Omega \ll 1$. The system therefore evolves toward the macrostate that Maximises $\Omega$And
+$w_0/\Omega \ll 1$. The system therefore evolves toward the macrostate that Maximises $\Omega$ And
 hence maximises $S$. $\blacksquare$
 
 This shows that the second law is not absolute but statistical: fluctuations can temporarily
@@ -226,18 +226,18 @@ Starting from the first law for a reversible process:
 
 $$dU = T\,dS - P\,dV + \mu\,dN$$
 
-This tells us $T = (\partial U/\partial S)_{V,N}$, $P = -(\partial U/\partial V)_{S,N}$And
+This tells us $T = (\partial U/\partial S)_{V,N}$, $P = -(\partial U/\partial V)_{S,N}$ And
 $\mu = (\partial U/\partial N)_{S,V}$.
 
-For enthalpy, $H = U + PV$So:
+For enthalpy, $H = U + PV$ So:
 
 $$dH = dU + P\,dV + V\,dP = T\,dS + V\,dP + \mu\,dN$$
 
-For Helmholtz free energy, $F = U - TS$So:
+For Helmholtz free energy, $F = U - TS$ So:
 
 $$dF = dU - T\,dS - S\,dT = -S\,dT - P\,dV + \mu\,dN$$
 
-For Gibbs free energy, $G = U - TS + PV$So:
+For Gibbs free energy, $G = U - TS + PV$ So:
 
 $$dG = -S\,dT + V\,dP + \mu\,dN$$
 
@@ -308,7 +308,7 @@ And by energy conservation $\delta Q_R = -\delta Q = -(dU + P_0\,dV)$:
 
 $$\delta S_{\mathrm{tot} = \delta S - \frac{1}{T_0}(dU + P_0\,dV) = -\frac{1}{T_0}\delta G \leq 0}$$
 
-Where $\delta G = \delta U + P_0\,\delta V - T_0\,\delta S$. Hence $\delta G \geq 0$So $G$ is
+Where $\delta G = \delta U + P_0\,\delta V - T_0\,\delta S$. Hence $\delta G \geq 0$ So $G$ is
 Minimised. $\blacksquare$
 
 ## 3. Maxwell Relations
@@ -316,7 +316,7 @@ Minimised. $\blacksquare$
 ### 3.1 Derivation from Exact Differentials
 
 Since $U, H, F, G$ are state functions, their differentials are exact. By the symmetry of second
-Derivatives (Euler's reciprocity), if $dz = M\,dx + N\,dy$Then:
+Derivatives (Euler's reciprocity), if $dz = M\,dx + N\,dy$ Then:
 
 $$\left(\frac{\partial M}{\partial y}\right)_x = \left(\frac{\partial N}{\partial x}\right)_y$$
 
@@ -396,7 +396,7 @@ For a van der Waals gas $\left(P + a/v^2\right)(v - b) = RT$ where $v = V/n$:
 
 Using $(\partial U/\partial V)_T = T(\partial P/\partial T)_V - P$:
 
-From the EOS: $P = RT/(v - b) - a/v^2$So $(\partial P/\partial T)_V = R/(v - b) = (P + a/v^2)/T$.
+From the EOS: $P = RT/(v - b) - a/v^2$ So $(\partial P/\partial T)_V = R/(v - b) = (P + a/v^2)/T$.
 
 Therefore:
 
@@ -434,7 +434,7 @@ $$\eta = 1 - \frac{Q_c}{Q_h} = 1 - \frac{T_c}{T_h}$$
 
 **Derivation.** For the isothermal steps, $\Delta S_{\mathrm{hot} = Q_h/T_h}$ and
 $\Delta S_{\mathrm{cold} = -Q_c/T_c}$. Since entropy is a state function and the cycle returns to
-The initial state, $\Delta S_{\mathrm{total} = 0}$So $Q_h/T_h = Q_c/T_c$. $\blacksquare$
+The initial state, $\Delta S_{\mathrm{total} = 0}$ So $Q_h/T_h = Q_c/T_c$. $\blacksquare$
 
 ### 4.2 Heat Pumps and Refrigerators
 
@@ -852,7 +852,7 @@ $$f(v)\,dv = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}
 **Theorem 9.1 (Equipartition).** Each quadratic degree of freedom in the Hamiltonian contributes
 $\frac{1}{2}k_B T$ to the average energy.
 
-**Proof.** If $H$ contains a term $aq_i^2$ or $bp_i^2$ with $a, b \gt 0$Then:
+**Proof.** If $H$ contains a term $aq_i^2$ or $bp_i^2$ with $a, b \gt 0$ Then:
 
 $$\langle q_i^2 \rangle = \frac{\int q_i^2 e^{-\beta a q_i^2}\,dq_i}{\int e^{-\beta a q_i^2}\,dq_i} = \frac{1}{2a\beta} = \frac{k_B T}{2a}$$
 
@@ -877,9 +877,9 @@ Where $n = N/V$ is the number density.
 
 **Proof.** A molecule of diameter $d$ sweeps out a cylinder of cross-section $\sigma = \pi d^2$ (per
 collision cross-section for identical particles, the effective cross-section is
-$\pi(2d/2)^2 = \pi d^2$But the relative velocity correction introduces the factor $\sqrt{2}$). In
+$\pi(2d/2)^2 = \pi d^2$ But the relative velocity correction introduces the factor $\sqrt{2}$). In
 time $\Delta t$The molecule travels $v\,\Delta t$ and sweeps volume $\sigma v\,\Delta t$. The Number
-of collisions is $n\sigma v\,\Delta t$So the mean free path is:
+of collisions is $n\sigma v\,\Delta t$ So the mean free path is:
 
 $$\lambda_{\mathrm{mfp} = \frac{v\,\Delta t}{n\sigma v\,\Delta t} = \frac{1}{n\sigma}}$$
 
@@ -1075,7 +1075,7 @@ $$\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3} \approx 7.0 \times 10^{-1
 
 $$T_F = \frac{\varepsilon_F}{k_B} \approx 51000\ \mathrm{K}$$
 
-At room temperature ($T = 300$ K), $T/T_F \approx 0.006$So the gas is deeply degenerate. The heat
+At room temperature ($T = 300$ K), $T/T_F \approx 0.006$ So the gas is deeply degenerate. The heat
 Capacity is:
 
 $$C_V \approx \frac{\pi^2}{2}Nk_B\frac{T}{T_F}$$
@@ -1160,7 +1160,7 @@ The **spectral energy density** (energy per unit volume per unit frequency):
 $$u(\omega) = \frac{\hbar \omega^3}{\pi^2 c^3} \cdot \frac{1}{e^{\beta\hbar\omega} - 1}$$
 
 **Derivation.** The density of photon states in a cavity of volume $V$ is
-$g(\omega) = V\omega^2/(\pi^2 c^3)$. Each photon has energy $\hbar\omega$And the mean occupation
+$g(\omega) = V\omega^2/(\pi^2 c^3)$. Each photon has energy $\hbar\omega$ And the mean occupation
 Number is the Bose-Einstein distribution with $\mu = 0$:
 
 $$u(\omega) = \frac{g(\omega)}{V} \cdot \hbar\omega \cdot \langle n(\omega) \rangle = \frac{\omega^2}{\pi^2 c^3} \cdot \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1}$$
@@ -1323,7 +1323,7 @@ The magnetisation per spin is:
 
 $$m = \frac{1}{\beta}\frac{\partial \ln \lambda_+}{\partial h}$$
 
-For $h = 0$: $\lambda_+ = e^{\beta J} + e^{-\beta J} = 2\cosh(\beta J)$And $m = 0$ for all
+For $h = 0$: $\lambda_+ = e^{\beta J} + e^{-\beta J} = 2\cosh(\beta J)$ And $m = 0$ for all
 $T \gt 0$. There is no spontaneous magnetisation, hence no phase transition. $\blacksquare$
 
 ### 14.3 Mean-Field Approximation
@@ -1390,7 +1390,7 @@ Solution shows no transition at $T \gt 0$. Mean-field theory is only reliable in
 
 ### 15.1 Definition and Fundamental Postulate
 
-The **microcanonical ensemble** describes an isolated system with fixed energy $E$Volume $V$And
+The **microcanonical ensemble** describes an isolated system with fixed energy $E$Volume $V$ And
 Particle number $N$. The fundamental postulate of statistical mechanics states:
 
 > All accessible microstates of an isolated system are equally probable.
@@ -1550,7 +1550,7 @@ $P = Nk_B T/V$, $S = Nk_B[\ln(V/N\lambda^3) + 5/2]$.
 **Problem.** One mole of ideal gas doubles its volume in a free expansion (no heat exchange, no Work
 done). Calculate $\Delta S$. Does this violate the second law?
 
-**Solution.** For a free expansion, $Q = 0$ and $W = 0$So $\Delta U = 0$ and $\Delta T = 0$ (ideal
+**Solution.** For a free expansion, $Q = 0$ and $W = 0$ So $\Delta U = 0$ and $\Delta T = 0$ (ideal
 gas). The entropy change is:
 
 $$\Delta S = nR\ln\frac{V_f}{V_i} = R\ln 2 \approx 5.76\ \mathrm{J}/K$$
@@ -1569,7 +1569,7 @@ Entropy).
 <summary>Problem 2: Carnot efficiency with given temperatures</summary>
 
 **Problem.** A Carnot engine operates between $T_h = 500$ K and $T_c = 300$ K, absorbing 1000 J per
-Cycle from the hot reservoir. Find $Q_c$, $W$And $\eta$.
+Cycle from the hot reservoir. Find $Q_c$, $W$ And $\eta$.
 
 **Solution.**
 
@@ -1627,7 +1627,7 @@ For a solid at room temperature, $C_P - C_V$ is small (a few percent of $C_P$).
 <summary>Problem 5: Helmholtz free energy of a paramagnet</summary>
 
 **Problem.** A paramagnetic system of $N$ non-interacting spin-1/2 particles in a magnetic field $B$
-Has energy levels $E = \pm \mu_B B$ per particle ($\mu_B$ is the Bohr magneton). Find $F$, $S$And
+Has energy levels $E = \pm \mu_B B$ per particle ($\mu_B$ is the Bohr magneton). Find $F$, $S$ And
 $M = -(\partial F/\partial B)_T$.
 
 **Solution.** Single-particle partition function:
@@ -1652,7 +1652,7 @@ System).
 <summary>Problem 6: Partition function of a quantum harmonic oscillator</summary>
 
 **Problem.** A 1D quantum harmonic oscillator has $E_n = \hbar\omega(n + 1/2)$. Calculate $Z$, $U$
-$C_V$And $S$. Find the high- and low-temperature limits.
+$C_V$ And $S$. Find the high- and low-temperature limits.
 
 **Solution.**
 
@@ -2242,7 +2242,7 @@ $$-\ln p_n - 1 - \lambda - \beta n = 0 \implies p_n = e^{-1-\lambda}\,e^{-\beta 
 
 Normalising $\sum_n p_n = 1$: $p_n = (1 - e^{-\beta})\,e^{-\beta n}$ (geometric distribution).
 
-The constraint $\mu = \sum n\,p_n = e^{-\beta}/(1 - e^{-\beta}) = 1/(e^\beta - 1)$So
+The constraint $\mu = \sum n\,p_n = e^{-\beta}/(1 - e^{-\beta}) = 1/(e^\beta - 1)$ So
 $\beta = \ln(1 + 1/\mu)$.
 
 For $\mu = 5$: $\beta = \ln(1.2) = 0.182$, $p_n = 0.167 \times e^{-0.182n}$.
@@ -2359,7 +2359,7 @@ $$= -\frac{1}{\tau}\int(f - f_0)\ln(f/f_0)\,d^3v - \frac{\ln f_0}{\tau}\int(f - 
 $$= -\frac{1}{\tau}\int(f - f_0)\ln(f/f_0)\,d^3v$$
 
 Since $x\ln x \geq x - 1$ for $x > 0$ (with equality at $x = 1$), the integrand
-$(f/f_0)\ln(f/f_0) - (f/f_0) + 1 \geq 0$So $\int(f - f_0)\ln(f/f_0)\,d^3v \geq 0$.
+$(f/f_0)\ln(f/f_0) - (f/f_0) + 1 \geq 0$ So $\int(f - f_0)\ln(f/f_0)\,d^3v \geq 0$.
 
 Therefore $\frac{dH}{dt} \leq 0$. $\blacksquare$
 

@@ -64,7 +64,7 @@ segment.
 
 $$s(t) = \int v\,dt = \int (6t - t^2 - 5)\,dt = 3t^2 - \frac{t^3}{3} - 5t + C$$
 
-With $s(0) = 0$: $C = 0$So $s(t) = 3t^2 - \frac{t^3}{3} - 5t$.
+With $s(0) = 0$: $C = 0$ So $s(t) = 3t^2 - \frac{t^3}{3} - 5t$.
 
 $s(1) = 3 - \frac{1}{3} - 5 = -\frac{7}{3}$ m.
 
@@ -186,7 +186,7 @@ show that a student who instead tries $a = \frac{d^2s}{dt^2} = 12 - 3s$ and atte
 second-order ODE directly will obtain the same result but with significantly more work.
 
 [Difficulty: hard. Tests the chain rule identity $a = v\,\frac{dv}{ds}$ for acceleration given in
-terms of displacement, identification of the turning point from $v = 0$And understanding of why the
+terms of displacement, identification of the turning point from $v = 0$ And understanding of why the
 separable ODE approach is preferred.]
 
 **Solution:**
@@ -240,7 +240,7 @@ $v = \frac{ds}{dt} = 4\sqrt{3}\sin(\sqrt{3}\,t) + B\sqrt{3}\cos(\sqrt{3}\,t)$.
 
 Applying $v(0) = 2$: $B\sqrt{3} = 2 \implies B = \frac{2}{\sqrt{3}}$.
 
-This gives the full $s(t)$ and $v(t)$But to find $v^2$ in terms of $s$ you must then eliminate $t$
+This gives the full $s(t)$ and $v(t)$ But to find $v^2$ in terms of $s$ you must then eliminate $t$
 between them -- which requires substituting back and using $\sin^2 + \cos^2 = 1$. The chain rule
 method bypasses this entirely and is the intended technique for the A-Level specification.
 
@@ -279,7 +279,7 @@ distance via calculus or the perpendicularity condition.]
 
 **Solution:**
 
-**(a)** Horizontal: $x = 8t$So $v_x = 8$ (constant).
+**(a)** Horizontal: $x = 8t$ So $v_x = 8$ (constant).
 
 Vertical: $v_y = 4 - 9.8t$, $y = 10 + 4t - 4.9t^2$.
 
@@ -384,7 +384,7 @@ approach, testing whether the student understands when each method is appropriat
 
 **(a)** Work-energy principle: the work done by all forces equals the change in kinetic energy.
 
-At maximum height, $v = 0$So $\Delta\mathrm{KE} = 0 - \frac{1}{2}(0.5)(20^2) = -100$ J.
+At maximum height, $v = 0$ So $\Delta\mathrm{KE} = 0 - \frac{1}{2}(0.5)(20^2) = -100$ J.
 
 Forces acting on the particle during the ascent:
 
@@ -457,11 +457,11 @@ velocity).]
 
 **Solution:**
 
-**(a)** Testing $t = 1$: $v(1) = 1 - 6 + 11 - 6 = 0$So $(t - 1)$ is a factor.
+**(a)** Testing $t = 1$: $v(1) = 1 - 6 + 11 - 6 = 0$ So $(t - 1)$ is a factor.
 
 $$t^3 - 6t^2 + 11t - 6 = (t - 1)(t^2 - 5t + 6) = (t - 1)(t - 2)(t - 3)$$
 
-The particle is at rest at $t = 1$, $t = 2$And $t = 3$ s.
+The particle is at rest at $t = 1$, $t = 2$ And $t = 3$ s.
 
 **(b)** The cubic $(t-1)(t-2)(t-3)$ has positive leading coefficient and roots at $1, 2, 3$.
 
@@ -499,7 +499,7 @@ $\frac{d^2a}{dt^2} = 6 \gt 0$Confirming a minimum of acceleration at $t = 2$.
 
 Since $\frac{da}{dt} = 6t - 12$ and the coefficient of $t$ is positive, the acceleration has a
 minimum (not maximum) at $t = 2$. The acceleration decreases for $0 \lt t \lt 2$ and increases for
-$t \gt 2$So the maximum acceleration on the interval $[0, 5]$ occurs at an endpoint.
+$t \gt 2$ So the maximum acceleration on the interval $[0, 5]$ occurs at an endpoint.
 
 $a(0) = 11$ m/s$^2$, $a(5) = 75 - 60 + 11 = 26$ m/s$^2$.
 

@@ -69,7 +69,7 @@ Abelian group $\mathrm{U}(1)$ gives a non-self-interacting photon.
 The electroweak theory, developed by Glashow, Weinberg, and Salam (Nobel Prize 1979), unifies the
 Electromagnetic and weak interactions into a single $\mathrm{SU}(2)_L \times \mathrm{U}(1)_Y$
 Framework. The unification is **hidden** at low energies because the Higgs mechanism breaks the
-Symmetry and gives different masses to the $W^\pm$, $Z^0$And photon.
+Symmetry and gives different masses to the $W^\pm$, $Z^0$ And photon.
 
 At energies well above the electroweak scale ($E \gg v \approx 246$ GeV), the four gauge bosons
 $W^1, W^2, W^3, B$ have equal status and the symmetry is manifest. At low energies, the mixing:
@@ -147,7 +147,7 @@ strange quark, so all three quarks must be strange:
 
 $$\Omega^- = sss$$
 
-**Check the charge:** Each strange quark has $Q = -1/3$So $Q(sss) = 3 \times (-1/3) = -1$. **Check
+**Check the charge:** Each strange quark has $Q = -1/3$ So $Q(sss) = 3 \times (-1/3) = -1$. **Check
 the baryon number:** $B(sss) = 3 \times (1/3) = 1$. Both agree.
 
 </details>
@@ -161,7 +161,7 @@ The kaon $K^+$ has quark content $u\bar{s}$ ($Q = +1$, $S = +1$). The pion $\pi^
 $d\bar{u}$ ($Q = -1$, $S = 0$).
 
 Since $X^0$ is a neutral meson ($q\bar{q}$), its quark content must combine the quarks From the
-decay products. The decay conserves strangeness if $X^0$ has $S = +1$So It contains one $\bar{s}$.
+decay products. The decay conserves strangeness if $X^0$ has $S = +1$ So It contains one $\bar{s}$.
 
 The quantum numbers of $X^0$: $Q = 0$, $S = +1$. A meson with these properties Containing a
 $\bar{s}$ quark must be:
@@ -186,7 +186,7 @@ The Standard Model is like a periodic table for fundamental particles. It tells 
 - **Gluons ($g$):** Eight massless gluons mediate the strong force. They carry colour charge
   themselves, leading to self-interaction (non-Abelian gauge theory).
 - **Higgs boson ($H$):** Scalar particle ($m_H \approx 125$ GeV/$c^2$), responsible for giving mass
-  to $W^\pm$, $Z^0$And fermions through the Higgs mechanism.
+  to $W^\pm$, $Z^0$ And fermions through the Higgs mechanism.
 
 ### 1.8 Worked Example: CKM Matrix and Flavour Mixing
 

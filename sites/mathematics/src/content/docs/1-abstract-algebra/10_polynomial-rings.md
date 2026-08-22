@@ -22,7 +22,7 @@ description: "Polynomial Rings: comprehensive educational content notes with pre
 The **polynomial ring** $R[x]$ consists of all formal sums $\sum_{i=0}^{n} a_i x^i$ with
 $a_i \in R$. It is a ring under the usual addition and multiplication of polynomials.
 
-**Theorem 10.1 (Division Algorithm).** If $F$ is a field and $f, g \in F[x]$ with $g \neq 0$Then
+**Theorem 10.1 (Division Algorithm).** If $F$ is a field and $f, g \in F[x]$ with $g \neq 0$ Then
 There exist unique $q, r \in F[x]$ such that $f = qg + r$ with $\deg(r) \lt \deg(g)$ or $r = 0$.
 
 **Theorem 10.2 (Factor Theorem).** $a \in F$ is a root of $f \in F[x]$ if and only if $(x - a)$
@@ -62,7 +62,7 @@ condition (3). $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-_Solution._ In $\mathbb{R}[x]$: if $x^2 + 1 = (x + a)(x + b)$ with $a, b \in \mathbb{R}$Then
+_Solution._ In $\mathbb{R}[x]$: if $x^2 + 1 = (x + a)(x + b)$ with $a, b \in \mathbb{R}$ Then
 $a + b = 0$ and $ab = 1$Giving $-a^2 = 1$Which has no real solution. So $x^2 + 1$ is irreducible In
 $\mathbb{R}[x]$.
 
@@ -97,11 +97,11 @@ $f(-1) = 7$, $f(3) = 216$, $f(-3) = -269$. No rational roots.
 
 Since $\deg(f) = 5$If $f$ is reducible, it must have an irreducible factor of degree $1$ or $2$. No
 degree-$1$ factor means no rational root. We check for degree-$2$ factors by reducing modulo $2$:
-$\bar{f} = x^5 + x + 1$ in $\mathbb{F}_2[x]$. $\bar{f}(0) = 1$, $\bar{f}(1) = 1$So no roots in
+$\bar{f} = x^5 + x + 1$ in $\mathbb{F}_2[x]$. $\bar{f}(0) = 1$, $\bar{f}(1) = 1$ So no roots in
 $\mathbb{F}_2$. The only irreducible quadratic in $\mathbb{F}_2[x]$ is $x^2 + x + 1$. Division gives
-$x^5 + x + 1 = (x^2+x+1)(x^3 + x^2) + 1$So $x^2 + x + 1$ does not divide $\bar{f}$.
+$x^5 + x + 1 = (x^2+x+1)(x^3 + x^2) + 1$ So $x^2 + x + 1$ does not divide $\bar{f}$.
 
-Thus $f$ has no factor of degree $1$ or $2$So $f$ is irreducible in $\mathbb{Q}[x]$. $\blacksquare$
+Thus $f$ has no factor of degree $1$ or $2$ So $f$ is irreducible in $\mathbb{Q}[x]$. $\blacksquare$
 
 </details>
 

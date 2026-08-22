@@ -182,7 +182,7 @@ Repeatable; an accurate measurement is close to the true value. You can have one
 :::
 ### Absolute, Fractional, and Percentage Uncertainty
 
-**Definition.** If a quantity is measured as $x \pm \Delta x$Then:
+**Definition.** If a quantity is measured as $x \pm \Delta x$ Then:
 
 - **Absolute uncertainty**: $\Delta x$
 - **Fractional uncertainty**: $\frac{\Delta x}{x}$
@@ -195,12 +195,12 @@ $z = f(x, y)$ where $x$ and $y$ have uncertainties $\Delta x$ and $\Delta y$.
 
 #### Rule 1: Addition and Subtraction
 
-If $z = x + y$ or $z = x - y$Then:
+If $z = x + y$ or $z = x - y$ Then:
 
 $$\Delta z = \Delta x + \Delta y$$
 
 **Derivation.** The worst-case scenario for $z = x + y$ is that both errors push $z$ in the same
-Direction. The maximum possible value is $z_{\max} = (x + \Delta x) + (y + \Delta y)$And the Minimum
+Direction. The maximum possible value is $z_{\max} = (x + \Delta x) + (y + \Delta y)$ And the Minimum
 is $z_{\min} = (x - \Delta x) + (y - \Delta y)$. Hence:
 
 $$\Delta z = \frac{z_{\max} - z_{\min}}{2} = \Delta x + \Delta y$$
@@ -209,7 +209,7 @@ The same argument applies for subtraction. $\square$
 
 #### Rule 2: Multiplication and Division
 
-If $z = xy$ or $z = x/y$Then:
+If $z = xy$ or $z = x/y$ Then:
 
 $$\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}$$
 
@@ -237,7 +237,7 @@ $\square$
 
 #### Rule 3: Powers
 
-If $z = x^n$Then:
+If $z = x^n$ Then:
 
 $$\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}$$
 
@@ -334,7 +334,7 @@ A force $F = 12.0 \pm 0.3$ N acts over a distance $d = 3.45 \pm 0.05$ m. Calcula
 
 **Answer.** $W = Fd = 12.0 \times 3.45 = 41.4$ J. The fractional uncertainties are
 $\frac{0.3}{12.0} = 0.025$ and $\frac{0.05}{3.45} = 0.0145$. By the multiplication rule:
-$\frac{\Delta W}{W} = 0.025 + 0.0145 = 0.0395$So
+$\frac{\Delta W}{W} = 0.025 + 0.0145 = 0.0395$ So
 $\Delta W = 41.4 \times 0.0395 \approx 1.6$ J. Result: $W = 41.4 \pm 1.6$ J (3.9% uncertainty).
 
 <b>If you get this wrong, revise:</b>
@@ -484,7 +484,7 @@ Interpreting measurements correctly.
 | Luminous intensity  | candela (cd)  | Defined by fixing the luminous efficacy $K_{cd} = 683$ lm W$^{-1}$                       |
 
 :::note
-The values of $c$$h$$e$$k_B$$N_A$And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
+The values of $c$$h$$e$$k_B$$N_A$ And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
 unit values are derived from them.
 :::
 ## 9. Dimensional Analysis: Extended Worked Examples
@@ -510,13 +510,13 @@ $[PV] = (\mathsf{M}\mathsf{L}^{-1}\mathsf{T}^{-2})(\mathsf{L}^3) = \mathsf{M}\ma
 
 $[nRT] = (\mathrm{mol})(\mathsf{M}\mathsf{L}^2\mathsf{T}^{-2}\mathrm{ mol}^{-1}\mathsf{\Theta}^{-1})(\mathsf{\Theta}) = \mathsf{M}\mathsf{L}^2\mathsf{T}^{-2}$.
 
-Both sides have dimensions $\mathsf{M}\mathsf{L}^2\mathsf{T}^{-2}$So the equation is dimensionally
+Both sides have dimensions $\mathsf{M}\mathsf{L}^2\mathsf{T}^{-2}$ So the equation is dimensionally
 Consistent. $\square$
 
 ### 9.3 Determining the Form of an Equation
 
 **Example.** The centripetal force on an object moving in a circle of radius $r$ at speed $v$ is
-Assumed to depend on mass $m$Speed $v$And radius $r$. Find the form of the equation.
+Assumed to depend on mass $m$Speed $v$ And radius $r$. Find the form of the equation.
 
 **Answer.** Assume $F = k \cdot m^a \cdot v^b \cdot r^c$.
 
@@ -637,7 +637,7 @@ Result: $A = 1.00 \pm 0.04$ m$^2$.
    subtracting, use absolute uncertainties. When multiplying or dividing, use fractional (or
    percentage) uncertainties. Applying the wrong rule is a frequent source of error.
 
-2. **Forgetting the power rule.** If $z = x^3$Then $\Delta z / z = 3(\Delta x / x)$Not
+2. **Forgetting the power rule.** If $z = x^3$ Then $\Delta z / z = 3(\Delta x / x)$Not
    $\Delta z / z = \Delta x / x$. A common mistake is treating all operations as simple
    multiplication.
 

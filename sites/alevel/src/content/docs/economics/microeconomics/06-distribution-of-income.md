@@ -112,7 +112,7 @@ $$G = 1 - 2B$$
 - Inheritance concentrates wealth in fewer hands
 
 **Thomas Piketty (2014)**: if the rate of return on capital ($r$) exceeds the rate of economic
-Growth ($g$), i.e., $r > g$Then wealth inequality will tend to increase over time. Historically,
+Growth ($g$), i.e., $r > g$ Then wealth inequality will tend to increase over time. Historically,
 $r \approx 4\mathrm{--}5\%$ while $g \approx 1\mathrm{--}2\%$Suggesting growing inequality.
 
 ### 2.3 Global Inequality
@@ -297,8 +297,8 @@ $$\boxed{G = 1 - 2\int_0^1 L(p)\,dp}$$
 _Verification for discrete data._ Given cumulative shares $L_k$ at population proportions
 $p_k = k/n$The trapezoidal approximation gives
 $B = \sum_{k=1}^{n} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$Which is the formula used in Practice.
-For perfect equality ($L(p) = p$): $B = \int_0^1 p\,dp = \frac{1}{2}$So $G = 0$. For Maximum
-inequality ($L(p) = 0$ for $p < 1$, $L(1) = 1$): $B = 0$So $G = 1$.
+For perfect equality ($L(p) = p$): $B = \int_0^1 p\,dp = \frac{1}{2}$ So $G = 0$. For Maximum
+inequality ($L(p) = 0$ for $p < 1$, $L(1) = 1$): $B = 0$ So $G = 1$.
 
 ### 7.2 Derivation of Lorenz Curve Properties
 

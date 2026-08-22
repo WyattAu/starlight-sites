@@ -79,19 +79,19 @@ Left limit $= -1$Right limit $= 1$. The limit does not exist.
 This is proved using the squeeze theorem and the geometric inequality $\sin x \lt x \lt \tan x$ for
 $0 \lt x \lt \frac{\pi}{2}$Which gives $\cos x \lt \frac{\sin x}{x} \lt 1$.
 
-As $x \to 0^+$, $\cos x \to 1$So by the squeeze theorem, $\frac{\sin x}{x} \to 1$. A similar
+As $x \to 0^+$, $\cos x \to 1$ So by the squeeze theorem, $\frac{\sin x}{x} \to 1$. A similar
 Argument applies from the left. $\blacksquare$
 
 **Proof of the geometric inequality $\sin x \lt x \lt \tan x$ for $0 \lt x \lt \frac{\pi}{2}$.**
 Consider a unit circle sector with angle $x$. The area of triangle $OAP$ (with altitude $\sin x$) is
-$\frac{1}{2}\sin x$The area of the sector is $\frac{1}{2}x$And the area of triangle $OAT$ (with
+$\frac{1}{2}\sin x$The area of the sector is $\frac{1}{2}x$ And the area of triangle $OAT$ (with
 Altitude $\tan x$) is $\frac{1}{2}\tan x$. Since the sector contains the first triangle and is
 Contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$Hence
 $\sin x \lt x \lt \tan x$. $\blacksquare$
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x} = 1$.**
 
-Let $h = e^x - 1$So $e^x = 1 + h$ and $x = \ln(1+h)$. As $x \to 0$, $h \to 0$.
+Let $h = e^x - 1$ So $e^x = 1 + h$ and $x = \ln(1+h)$. As $x \to 0$, $h \to 0$.
 
 $$
 \frac{e^x - 1}{x} = \frac{h}{\ln(1+h)} = \frac{1}{\frac{\ln(1+h)}{h}}
@@ -103,7 +103,7 @@ Inverses), we obtain the result. $\blacksquare$
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{\ln(1+x)}{x} = 1$.**
 
-Let $u = \ln(1+x)$So $e^u = 1 + x$ and $x = e^u - 1$. As $x \to 0$, $u \to 0$.
+Let $u = \ln(1+x)$ So $e^u = 1 + x$ and $x = e^u - 1$. As $x \to 0$, $u \to 0$.
 
 $$
 \frac{\ln(1+x)}{x} = \frac{u}{e^u - 1} = \frac{1}{\frac{e^u - 1}{u}}
@@ -121,7 +121,7 @@ $$
 
 Then $\displaystyle\lim_{x \to a} f(x) = L$.
 
-**Intuition:** If $f$ is sandwiched between two functions that both approach $L$Then $f$ must also
+**Intuition:** If $f$ is sandwiched between two functions that both approach $L$ Then $f$ must also
 Approach $L$. The squeeze theorem is particularly useful when $f$ oscillates or is otherwise hard to
 Evaluate directly.
 :::
@@ -165,7 +165,7 @@ By the squeeze theorem, the limit is $0$.
 
 ## Algebraic Limit Properties
 
-If $\displaystyle\lim_{x \to a} f(x) = L$ and $\displaystyle\lim_{x \to a} g(x) = M$Then:
+If $\displaystyle\lim_{x \to a} f(x) = L$ and $\displaystyle\lim_{x \to a} g(x) = M$ Then:
 
 1. $\displaystyle\lim_{x \to a} [f(x) + g(x)] = L + M$
 2. $\displaystyle\lim_{x \to a} [f(x) - g(x)] = L - M$
@@ -387,7 +387,7 @@ $0 \lt |x - 3| \lt \delta \implies |(2x-1) - 5| \lt \epsilon$.
 
 Working backwards: $|(2x-1) - 5| = |2x - 6| = 2|x - 3|$.
 
-We want $2|x - 3| \lt \epsilon$So choose $\delta = \frac{\epsilon}{2}$.
+We want $2|x - 3| \lt \epsilon$ So choose $\delta = \frac{\epsilon}{2}$.
 
 **Proof.** Let $\epsilon \gt 0$. Choose $\delta = \frac{\epsilon}{2}$. Then:
 
@@ -405,14 +405,14 @@ We need $|x^2 - 4| \lt \epsilon$ whenever $0 \lt |x - 2| \lt \delta$.
 
 Note that $|x^2 - 4| = |x - 2| \cdot |x + 2|$.
 
-If we restrict $\delta \le 1$Then $|x - 2| \lt 1$So $1 \lt x \lt 3$ and $|x + 2| \lt 5$.
+If we restrict $\delta \le 1$ Then $|x - 2| \lt 1$ So $1 \lt x \lt 3$ and $|x + 2| \lt 5$.
 
 Thus $|x^2 - 4| = |x - 2| \cdot |x + 2| \lt 5|x - 2|$.
 
 Choose $\delta = \min\!\left(1, \frac{\epsilon}{5}\right)$.
 
 **Proof.** Let $\epsilon \gt 0$. Choose $\delta = \min\!\left(1, \frac{\epsilon}{5}\right)$. If
-$0 \lt |x - 2| \lt \delta$Then:
+$0 \lt |x - 2| \lt \delta$ Then:
 
 $$
 |x^2 - 4| = |x - 2| \cdot |x + 2| \lt \delta \cdot 5 \le \frac{\epsilon}{5} \cdot 5 = \epsilon
@@ -429,13 +429,13 @@ We need $|\sqrt{x} - \sqrt{a}| \lt \epsilon$ whenever $0 \lt |x - a| \lt \delta$
 Rationalise:
 $|\sqrt{x} - \sqrt{a}| = \frac{|x - a|}{\sqrt{x} + \sqrt{a}} \le \frac{|x - a|}{\sqrt{a}}$.
 
-We want $\frac{|x - a|}{\sqrt{a}} \lt \epsilon$So $|x - a| \lt \epsilon\sqrt{a}$.
+We want $\frac{|x - a|}{\sqrt{a}} \lt \epsilon$ So $|x - a| \lt \epsilon\sqrt{a}$.
 
 Choose $\delta = \min(a, \epsilon\sqrt{a})$. The condition $\delta \le a$ ensures $x \gt 0$ so that
 $\sqrt{x}$ is defined.
 
 **Proof.** Let $\epsilon \gt 0$. Choose $\delta = \min(a, \epsilon\sqrt{a})$. If
-$0 \lt |x - a| \lt \delta$Then $x \gt 0$ and:
+$0 \lt |x - a| \lt \delta$ Then $x \gt 0$ and:
 
 $$
 |\sqrt{x} - \sqrt{a}| = \frac{|x - a|}{\sqrt{x} + \sqrt{a}} \le \frac{|x - a|}{\sqrt{a}} \lt \frac{\epsilon\sqrt{a}}{\sqrt{a}} = \epsilon
@@ -465,7 +465,7 @@ A function $f$ is **continuous at $a$** if all three conditions hold:
 Continuous on its domain.
 
 **Theorem (Continuity of compositions).** If $g$ is continuous at $a$ and $f$ is continuous at
-$g(a)$Then $f \circ g$ is continuous at $a$.
+$g(a)$ Then $f \circ g$ is continuous at $a$.
 
 This theorem justifies statements like "$\sqrt{x^2 + 1}$ is continuous everywhere" -- $x^2 + 1$ is a
 Polynomial (continuous everywhere) and $\sqrt{x}$ is continuous at all positive values (and
@@ -482,7 +482,7 @@ $x^2 + 1 \ge 1 \gt 0$).
 
 ### Intermediate Value Theorem (IVT)
 
-If $f$ is continuous on $[a, b]$ and $k$ is any number between $f(a)$ and $f(b)$Then there exists At
+If $f$ is continuous on $[a, b]$ and $k$ is any number between $f(a)$ and $f(b)$ Then there exists At
 least one $c \in (a, b)$ such that $f(c) = k$.
 :::
 :::note
@@ -507,12 +507,12 @@ $f(1) = e - 4 \approx -1.282 \lt 0$ and $f(2) = e^2 - 5 \approx 2.389 \gt 0$.
 Since $f$ is continuous (as a sum of continuous functions) on $[1, 2]$By the IVT there exists
 $c \in (1, 2)$ such that $f(c) = 0$. $\blacksquare$
 
-**Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$Then $f$ has
+**Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$ Then $f$ has
 At least one zero in $(a, b)$.
 :::
 ### Extreme Value Theorem
 
-If $f$ is continuous on a closed interval $[a, b]$Then $f$ attains both an absolute maximum and an
+If $f$ is continuous on a closed interval $[a, b]$ Then $f$ attains both an absolute maximum and an
 Absolute minimum on $[a, b]$.
 
 :::caution
@@ -520,7 +520,7 @@ On $(0, 1)$ has no maximum, despite being continuous.
 :::
 ### Boundedness Theorem
 
-If $f$ is continuous on a closed interval $[a, b]$Then $f$ is bounded on $[a, b]$ -- that is, There
+If $f$ is continuous on a closed interval $[a, b]$ Then $f$ is bounded on $[a, b]$ -- that is, There
 exist real numbers $m$ and $M$ such that $m \le f(x) \le M$ for all $x \in [a, b]$.
 
 This follows directly from the EVT: the absolute minimum and maximum serve as the bounds.
@@ -530,14 +530,14 @@ This follows directly from the EVT: the absolute minimum and maximum serve as th
 ### Vertical Asymptotes
 
 If $\displaystyle\lim_{x \to a^+} f(x) = \pm\infty$ or
-$\displaystyle\lim_{x \to a^-} f(x) = \pm\infty$Then $x = a$ is a vertical asymptote.
+$\displaystyle\lim_{x \to a^-} f(x) = \pm\infty$ Then $x = a$ is a vertical asymptote.
 
 For rational functions $\frac{P(x)}{Q(x)}$Vertical asymptotes occur at zeros of $Q(x)$ that are Not
 also zeros of $P(x)$ (after cancellation).
 
 ### Horizontal Asymptotes
 
-- If $\displaystyle\lim_{x \to \pm\infty} f(x) = L$Then $y = L$ is a horizontal asymptote.
+- If $\displaystyle\lim_{x \to \pm\infty} f(x) = L$ Then $y = L$ is a horizontal asymptote.
 - A function can have at most two horizontal asymptotes (one as $x \to \infty$One as
   $x \to -\infty$).
 
@@ -581,8 +581,8 @@ Horizontal asymptotes: $y = 3$ (as $x \to \infty$) and $y = 0$ (as $x \to -\inft
 ## L"Hopital's Rule (CED BC and AB Unit 1.15)
 
 If $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)}$ produces the indeterminate form $\frac{0}{0}$ or
-$\frac{\pm\infty}{\pm\infty}$And $f$ and $g$ are differentiable near $a$ with $g'(x) \ne 0$ near
-$a$Then:
+$\frac{\pm\infty}{\pm\infty}$ And $f$ and $g$ are differentiable near $a$ with $g'(x) \ne 0$ near
+$a$ Then:
 
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
@@ -779,11 +779,11 @@ Using the epsilon-delta definition, prove that $\displaystyle\lim_{x \to 2} (3x 
 <summary>Answer</summary>
 
 We need to show: for every $\epsilon \gt 0$There exists a $\delta \gt 0$ such that if
-$0 \lt |x - 2| \lt \delta$Then $|(3x - 1) - 5| \lt \epsilon$.
+$0 \lt |x - 2| \lt \delta$ Then $|(3x - 1) - 5| \lt \epsilon$.
 
 $|(3x - 1) - 5| = |3x - 6| = 3|x - 2|$.
 
-We need $3|x - 2| \lt \epsilon$So $|x - 2| \lt \epsilon/3$.
+We need $3|x - 2| \lt \epsilon$ So $|x - 2| \lt \epsilon/3$.
 
 Choose $\delta = \epsilon/3$. Then if $0 \lt |x - 2| \lt \delta$:
 

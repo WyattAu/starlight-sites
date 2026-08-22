@@ -1,6 +1,6 @@
 ---
 title: "Chemistry Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of chemistry terms covering physical, organic, and inorganic chemistry."
+description: "Atom: The smallest unit of an element that retains the chemical properties of that element. Consists of a nucleus (protons + neutrons) and electrons."
 date: 2026-07-24
 tags: [glossary]
 ---

@@ -85,7 +85,7 @@ S_n &= (a + (n-1)d) + (a + (n-2)d) + \cdots + a
 \end{aligned}
 $$
 
-Adding vertically, each pair sums to $2a + (n-1)d$And there are $n$ such pairs:
+Adding vertically, each pair sums to $2a + (n-1)d$ And there are $n$ such pairs:
 
 $$2S_n = n(2a + (n - 1)d)$$
 
@@ -163,14 +163,14 @@ Since $|r| < 1$We have $\lim_{n \to \infty} r^n = 0$ (a standard limit; see belo
 
 $$S_\infty = \lim_{n \to \infty} S_n = \frac{a(1 - 0)}{1 - r} = \frac{a}{1 - r} \quad \blacksquare$$
 
-**Lemma.** If $|r| < 1$Then $\lim_{n \to \infty} r^n = 0$.
+**Lemma.** If $|r| < 1$ Then $\lim_{n \to \infty} r^n = 0$.
 
 _Proof._ Write $r^n = e^{n \ln|r|}$. Since $|r| < 1$We have $\ln|r| < 0$. As $n \to \infty$
-$n \ln|r| \to -\infty$So $e^{n \ln|r|} \to 0$. $\blacksquare$
+$n \ln|r| \to -\infty$ So $e^{n \ln|r|} \to 0$. $\blacksquare$
 
 **Theorem.** If $|r| \geq 1$The geometric series $\sum_{n=1}^{\infty} ar^{n-1}$ diverges.
 
-_Proof._ If $|r| > 1$Then $|r^n| \to \infty$So $|a_n| \to \infty$. Since the terms don"t tend to
+_Proof._ If $|r| > 1$ Then $|r^n| \to \infty$ So $|a_n| \to \infty$. Since the terms don"t tend to
 Zero, the series diverges by the divergence test.
 
 If $r = 1$: $S_n = na \to \pm\infty$ (unless $a = 0$).
@@ -283,7 +283,7 @@ $$\frac{x + \frac{4}{x}}{2} \geq \sqrt{x \cdot \frac{4}{x}} = \sqrt{4} = 2$$
 
 So $x + \frac{4}{x} \geq 4$.
 
-Equality when $x = \frac{4}{x}$I.e., $x^2 = 4$So $x = 2$ (since $x \gt 0$).
+Equality when $x = \frac{4}{x}$I.e., $x^2 = 4$ So $x = 2$ (since $x \gt 0$).
 
 Minimum value is 4, achieved at $x = 2$.
 
@@ -296,11 +296,11 @@ Minimum value is 4, achieved at $x = 2$.
 **Definition.** A _telescoping sum_ is a series where most terms cancel when written out, leaving
 Only a few terms at the beginning and end.
 
-**Key Idea.** If we can express the general term $u_k$ as a difference $f(k) - f(k+1)$Then:
+**Key Idea.** If we can express the general term $u_k$ as a difference $f(k) - f(k+1)$ Then:
 
 $$\sum_{k=1}^{n} u_k = \sum_{k=1}^{n} [f(k) - f(k+1)] = f(1) - f(n+1)$$
 
-This is because the sum expands as $[f(1) - f(2)] + [f(2) - f(3)] + \cdots + [f(n) - f(n+1)]$And All
+This is because the sum expands as $[f(1) - f(2)] + [f(2) - f(3)] + \cdots + [f(n) - f(n+1)]$ And All
 intermediate terms cancel.
 
 ### 7.1 Partial Fractions as the Decomposition Tool
@@ -390,7 +390,7 @@ Ratio of the GP part.
 
 $$S_n = \frac{a - [a + (n-1)d]\,r^n}{1 - r} + \frac{dr(1 - r^{n-1})}{(1-r)^2}$$
 
-_Proof._ Write out $S_n$ and $rS_n$Then subtract:
+_Proof._ Write out $S_n$ and $rS_n$ Then subtract:
 
 $$
 \begin{aligned}
@@ -713,7 +713,7 @@ $$\frac{x^2 + \frac{9}{x^2}}{2} \geq \sqrt{x^2 \cdot \frac{9}{x^2}} = \sqrt{9} =
 
 So $x^2 + \frac{9}{x^2} \geq 6$.
 
-Equality when $x^2 = \frac{9}{x^2}$I.e., $x^4 = 9$So $x^2 = 3$Giving $x = \sqrt{3}$ (positive Root).
+Equality when $x^2 = \frac{9}{x^2}$I.e., $x^4 = 9$ So $x^2 = 3$Giving $x = \sqrt{3}$ (positive Root).
 
 Minimum value is 6, achieved at $x = \sqrt{3}$.
 
@@ -806,7 +806,7 @@ Expression for $u_n$ and verify it for $n = 1, 2, 3$.
 <summary>Solution</summary>
 This is a first-order linear recurrence relation. We solve it by finding the equilibrium and subtracting.
 
-At equilibrium, $u = 3u + 2$Giving $-2u = 2$So $u = -1$.
+At equilibrium, $u = 3u + 2$Giving $-2u = 2$ So $u = -1$.
 
 Define $v_n = u_n - (-1) = u_n + 1$. Then:
 

@@ -148,7 +148,7 @@ def bfs(graph, start):
 Shortest-path distance $d(s, v)$ for every vertex $v$.
 
 **Proof.** We prove by induction on the distance $d$ that all vertices at distance $d$ from $s$ are
-Discovered (enqueued) at distance $d$And no vertex is discovered at a distance greater than its True
+Discovered (enqueued) at distance $d$ And no vertex is discovered at a distance greater than its True
 shortest distance.
 
 _Base case ($d = 0$)._ $s$ is at distance 0 and is discovered at distance 0.
@@ -240,7 +240,7 @@ _Base case._ $s$ is extracted first with $\mathrm{dist}[s] = 0 = d(s, s)$. ✓
 
 _Inductive step._ Let $u$ be the next vertex extracted. Assume for contradiction that
 $\mathrm{dist}[u] \gt d(s, u)$. Then there exists a shortest path $P$ from $s$ to $u$. Let $x$ be
-The first vertex on $P$ not in $S$And let $y$ be the predecessor of $x$ on $P$ ($y \in S$). Then:
+The first vertex on $P$ not in $S$ And let $y$ be the predecessor of $x$ on $P$ ($y \in S$). Then:
 
 $$\mathrm{dist}[x] \leq \mathrm{dist}[y] + w(y, x) = d(s, y) + w(y, x) = d(s, x) \leq d(s, u) < \mathrm{dist}[u]$$
 
@@ -269,7 +269,7 @@ To **some** MST.
 In MST $T$. Adding $e$ to $T$ creates a cycle. This cycle must cross the cut at least twice (once
 Via $e$), so there exists another edge $e'$ in the cycle crossing the cut. Since $e$ is the
 Minimum-weight crossing edge, $w(e) \leq w(e')$. Replacing $e'$ with $e$ in $T$ yields a spanning
-Tree with weight $\leq w(T)$. Since $T$ is minimum, $w(e) = w(e')$And the new tree is also an MST
+Tree with weight $\leq w(T)$. Since $T$ is minimum, $w(e) = w(e')$ And the new tree is also an MST
 Containing $e$. $\square$
 
 ### Kruskal's Algorithm
@@ -482,7 +482,7 @@ Vertices at the maximum depth, which is at most $V - 1$. Hence the space is $O(V
 
 Topological sort is only defined for DAGs (graphs without directed cycles). If a directed cycle
 Exists, there is no valid topological ordering because for any edge $(u, v)$ in the cycle, $u$ must
-Come before $v$And following the cycle leads to a contradiction.
+Come before $v$ And following the cycle leads to a contradiction.
 
 For shortest paths: in an unweighted graph with cycles, BFS still works correctly because BFS visits
 Each vertex at most once (it marks vertices as visited). The shortest path distance is still
@@ -606,7 +606,7 @@ Base case: $n = 1$. A single vertex has 0 edges. $0 = 1 - 1$. ✓
 
 Inductive step: Assume all trees with $k$ vertices have $k - 1$ edges. Consider a tree $T$ with
 $k + 1$ vertices. Since $T$ has at least 2 vertices (for $k \geq 1$), it has at least one leaf $v$
-(a tree with $\geq 2$ vertices always has a leaf — otherwise every vertex has degree $\geq 1$And
+(a tree with $\geq 2$ vertices always has a leaf — otherwise every vertex has degree $\geq 1$ And
 With no cycles, we'd need $\geq n$ edges, contradicting $|E| = n - 1$). Remove leaf $v$ and its
 Single incident edge. The resulting graph $T'$ is still a tree (removing a leaf cannot create a
 Cycle, and $T'$ is still connected since $v$ was only connected to one vertex). $T'$ has $k$

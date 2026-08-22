@@ -29,7 +29,7 @@ tableOfContents: false
 
 **Question:**
 
-In triangle $ABC$, $a = 8$, $b = 10$And $A = 35°$.
+In triangle $ABC$, $a = 8$, $b = 10$ And $A = 35°$.
 
 **(a)** Find the two possible values of angle $B$Giving your answers to 1 decimal place.
 
@@ -289,7 +289,7 @@ From $x\frac{dx}{dt} + y\frac{dy}{dt} = 0$: $\frac{dy}{dt} = -\frac{x}{y}\frac{d
 
 $$\left\lvert-\frac{x}{y} \cdot 0.5\right\rvert = 0.5 \implies \frac{x}{y} = 1 \implies x = y$$
 
-Since $x^2 + y^2 = 25$ and $x = y$: $2x^2 = 25$So $x = \frac{5}{\sqrt{2}}$.
+Since $x^2 + y^2 = 25$ and $x = y$: $2x^2 = 25$ So $x = \frac{5}{\sqrt{2}}$.
 
 $\cos\theta = \frac{x}{5} = \frac{1}{\sqrt{2}}$Giving
 $\theta = \frac{\pi}{4}$.
@@ -347,7 +347,7 @@ integration for area under a parametric curve.]
 
 At $t = 2\pi$: $x = a(\cos 2\pi + \cos 4\pi) = a(1+1) = 2a$, $y = a(\sin 2\pi + \sin 4\pi) = 0$.
 
-The curve starts and ends at $(2a, 0)$So it is closed.
+The curve starts and ends at $(2a, 0)$ So it is closed.
 
 **(b)** The area enclosed by a parametric curve $(x(t), y(t))$ traced once anticlockwise is:
 
@@ -441,9 +441,9 @@ careful attention to domain and range restrictions.]
 **Solution:**
 
 **(a)** On $\left[0, \frac{\pi}{2}\right]$, $f'(x) = -\sin x \lt 0$ for
-$0 \lt x \lt \frac{\pi}{2}$So $f$ is strictly decreasing and therefore injective.
+$0 \lt x \lt \frac{\pi}{2}$ So $f$ is strictly decreasing and therefore injective.
 
-$f(0) = 1$ and $f\!\left(\frac{\pi}{2}\right) = 0$So the range is $[0, 1]$.
+$f(0) = 1$ and $f\!\left(\frac{\pi}{2}\right) = 0$ So the range is $[0, 1]$.
 
 Since $f$ is injective, $f^{-1}$ exists. Its domain is $[0, 1]$ and its range is
 $\left[0, \frac{\pi}{2}\right]$.
@@ -465,7 +465,7 @@ $f \circ g$ has domain $[0, 1]$.
 **(c)** $\pi$ is not in the domain of $f$ (which is $\left[0, \frac{\pi}{2}\right]$), so
 $f(\pi)$ is undefined. The expression $f^{-1}(f(\pi))$ is therefore meaningless.
 
-Even if $f$ were extended to $\mathbb{R}$Then $f(\pi) = -1$But $-1$ is not in the domain of $f^{-1}$
+Even if $f$ were extended to $\mathbb{R}$ Then $f(\pi) = -1$ But $-1$ is not in the domain of $f^{-1}$
 (which is $[0, 1]$The range of $f$ on its original domain). So $f^{-1}(-1)$ would also be undefined.
 
 **(d)** $h(x) = \arcsin(\cos x)$. Using $\cos x = \sin\!\left(\frac{\pi}{2} - x\right)$:
@@ -479,7 +479,7 @@ $\theta \in \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$:
 $-\frac{\pi}{2} \leq \frac{\pi}{2} - x \leq \frac{\pi}{2}$I.e.
 $0 \leq x \leq \pi$: $h(x) = \frac{\pi}{2} - x$.
 
-**When** $\pi \leq x \leq 2\pi$: $\cos x = \cos(2\pi - x)$ and $2\pi - x \in [0, \pi]$So
+**When** $\pi \leq x \leq 2\pi$: $\cos x = \cos(2\pi - x)$ and $2\pi - x \in [0, \pi]$ So
 $h(x) = \frac{\pi}{2} - (2\pi - x) = x - \frac{3\pi}{2}$.
 
 By periodicity (period $2\pi$):

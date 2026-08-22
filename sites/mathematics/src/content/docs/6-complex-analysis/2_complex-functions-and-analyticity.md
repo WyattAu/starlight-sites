@@ -53,8 +53,8 @@ limit depends on the direction of approach, it does not exist.
 
 **Problem.** Determine whether $f(z) = \frac{z^2 - 1}{z - 1}$ is continuous at $z = 1$.
 
-For $z \neq 1$: $f(z) = z + 1$. The limit as $z \to 1$ is $2$But $f(1)$ is undefined (division by
-zero). If we define $f(1) = 2$Then $f$ becomes continuous at $z = 1$.
+For $z \neq 1$: $f(z) = z + 1$. The limit as $z \to 1$ is $2$ But $f(1)$ is undefined (division by
+zero). If we define $f(1) = 2$ Then $f$ becomes continuous at $z = 1$.
 
 </details>
 
@@ -85,17 +85,17 @@ $z = 0$ if we define it, but still not analytic there).
 
 **Problem.** Show that $f(z) = |z|^2$ is differentiable only at $z = 0$.
 
-$f(z) = x^2 + y^2$So $u = x^2 + y^2$ and $v = 0$. $u_x = 2x$, $u_y = 2y$, $v_x = 0$, $v_y = 0$. The
-Cauchy-Riemann equations require $2x = 0$ and $2y = 0$So $x = y = 0$. Thus $f$ satisfies CR only at
+$f(z) = x^2 + y^2$ So $u = x^2 + y^2$ and $v = 0$. $u_x = 2x$, $u_y = 2y$, $v_x = 0$, $v_y = 0$. The
+Cauchy-Riemann equations require $2x = 0$ and $2y = 0$ So $x = y = 0$. Thus $f$ satisfies CR only at
 $z = 0$.
 
-At $z = 0$: $f'(0) = \lim_{h \to 0} \frac{|h|^2}{h} = \lim_{h \to 0} \bar{h} = 0$So $f$ is
+At $z = 0$: $f'(0) = \lim_{h \to 0} \frac{|h|^2}{h} = \lim_{h \to 0} \bar{h} = 0$ So $f$ is
 Differentiable at $0$ but not analytic anywhere (no neighbourhood of $0$ is analytic).
 
 **Problem.** Show that $f(z) = z\bar{z} + z$ is differentiable only at $z = 0$.
 
 $f(z) = |z|^2 + z = (x^2 + y^2 + x) + iy$. $u_x = 2x + 1$, $u_y = 2y$, $v_x = 0$, $v_y = 1$. CR
-equations: $2x + 1 = 1 \Rightarrow x = 0$And $2y = 0 \Rightarrow y = 0$. At $(0, 0)$:
+equations: $2x + 1 = 1 \Rightarrow x = 0$ And $2y = 0 \Rightarrow y = 0$. At $(0, 0)$:
 $f'(0) = \lim_{h \to 0} \frac{h\bar{h} + h}{h} = \lim_{h \to 0} (\bar{h} + 1) = 1$. So $f$ is
 differentiable at $z = 0$ only, hence nowhere analytic.
 
@@ -145,7 +145,7 @@ $e^{i5\pi/4} = -\frac{\sqrt{2}}{2}(1 + i)$. These are the two square roots of $i
 
 **Problem.** Find the domain of analyticity of $f(z) = \mathrm{Log}(z^2 + 1)$.
 
-$\mathrm{Log}\, w$ is analytic on $\mathbb{C} \setminus (-\infty, 0]$So we need
+$\mathrm{Log}\, w$ is analytic on $\mathbb{C} \setminus (-\infty, 0]$ So we need
 $z^2 + 1 \notin (-\infty, 0]$.
 
 $z^2 + 1 \leq 0$ when $z^2 \leq -1$I.e., $z \in [-i, 0] \cup [0, i]$ (the imaginary axis Segment

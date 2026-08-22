@@ -120,7 +120,7 @@ at the time $d[u]$ is discovered, there is a path from $u$ to $v$ consisting ent
 vertices.
 
 _Proof._ ($\Rightarrow$) By induction on the depth of $v$ in the DFS tree. If $v$ is a child of
-$u$Then $v$ was white when discovered from $u$. If $v$ is a deeper descendant, the path goes through
+$u$ Then $v$ was white when discovered from $u$. If $v$ is a deeper descendant, the path goes through
 intermediate white vertices.
 
 ($\Leftarrow$) Suppose there is a white path from $u$ to $v$ at time $d[u]$. Let $w$ be the first
@@ -139,7 +139,7 @@ edge $(u, v)$, $u$ appears before $v$.
 
 _Proof._ Suppose there is an edge $(u, v)$ but $u$ appears after $v$ in the ordering (i.e.,
 $f[u] \lt f[v]$). Since $(u, v)$ is an edge, when $u$ is being explored (coloured GREY), if $v$ is
-WHITE, then $v$ is discovered as a descendant of $u$So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
+WHITE, then $v$ is discovered as a descendant of $u$ So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
 we have a back edge, implying a cycle, contradicting that the graph is acyclic. If $v$ is BLACK,
 then $f[v] \lt d[u] \lt f[u]$Contradicting $f[u] \lt f[v]$. $\blacksquare$
 
@@ -200,11 +200,11 @@ Base case: $s$ is the first vertex added, and $d[s] = 0 = \delta(s, s)$.
 
 Inductive step: Suppose all vertices in $S$ have correct distances. Let $u$ be the next vertex
 extracted from $Q$. Suppose for contradiction that $d[u] > \delta(s, u)$. Consider a shortest path
-$P$ from $s$ to $u$And let $(x, y)$ be the first edge on $P$ where $x \in S$ and $y \notin S$. Then
+$P$ from $s$ to $u$ And let $(x, y)$ be the first edge on $P$ where $x \in S$ and $y \notin S$. Then
 $\delta(s, y) = \delta(s, x) + w(x, y) = d[x] + w(x, y)$ (by induction). When $x$ was added to
 $S$The edge $(x, y)$ was relaxed, so $d[y] \leq d[x] + w(x, y) = \delta(s, y)$. Since edge weights
 are non-negative, $\delta(s, y) \leq \delta(s, u)$. But
-$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$And $y$ is in $Q$Contradicting that $u$ has the
+$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$ And $y$ is in $Q$Contradicting that $u$ has the
 minimum $d$-value in $Q$. $\blacksquare$
 
 **Theorem 4.8.** Dijkstra's algorithm with a binary heap runs in $O((V + E)\log V)$ time. With a

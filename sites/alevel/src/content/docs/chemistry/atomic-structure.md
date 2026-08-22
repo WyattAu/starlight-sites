@@ -429,7 +429,7 @@ The mass spectrum of an element shows three peaks at $m/z = 52$54, and 56 with r
 **Solution:**
 
 (a) The element is chromium ($\mathrm{Cr}$$Z = 24$$A_r \approx 52$). The peaks correspond to
-$^{52}\mathrm{Cr}$$^{54}\mathrm{Cr}$And $^{56}\mathrm{Cr}$.
+$^{52}\mathrm{Cr}$$^{54}\mathrm{Cr}$ And $^{56}\mathrm{Cr}$.
 
 (b) Chromium has four stable isotopes: $^{50}\mathrm{Cr}$ (4.3%), $^{52}\mathrm{Cr}$ (83.8%),
 $^{53}\mathrm{Cr}$ (9.5%), and $^{54}\mathrm{Cr}$ (2.4%). However, the data shows three peaks at 52,
@@ -500,7 +500,7 @@ $$
 
 The compound likely contains 9 carbon atoms. $12 \times 9 = 108$. Remaining mass = $150 - 108 = 42$.
 This could correspond to $\mathrm{C}_2\mathrm{H}_2\mathrm{O}$ (or other combinations). The rule of
-13 confirms: $150 = 13 \times 11 + 7$So the base formula is $\mathrm{C}_{11}\mathrm{H}_7$. With 9
+13 confirms: $150 = 13 \times 11 + 7$ So the base formula is $\mathrm{C}_{11}\mathrm{H}_7$. With 9
 carbons, the formula becomes $\mathrm{C}_9\mathrm{H}_{10}\mathrm{O}$
 ($M_r = 9 \times 12 + 10 + 16 = 138$Which does not match). The calculation illustrates the method
 but requires additional information (like the M+2 peak for halogens) for unambiguous determination.
@@ -537,7 +537,7 @@ from exchange stabilisation can exceed the energy difference between $4s$ and $3
 **Exceptions across Period 2:**
 
 - Be ($\mathrm{IE} \gt \mathrm{B}$): Be has a filled $2s$ subshell ($2s^2$), which is relatively
-  stable. B has $2s^2 2p^1$And the $2p$ electron is higher in energy and easier to remove.
+  stable. B has $2s^2 2p^1$ And the $2p$ electron is higher in energy and easier to remove.
 - N ($\mathrm{IE} \gt \mathrm{O}$): N has a half-filled $2p$ subshell ($2p^3$), which is stabilised
   by exchange energy. O has $2p^4$ with pairing repulsion in one orbital.
 
@@ -596,7 +596,7 @@ and Al) show similar properties due to similar charge-to-radius ratios.
 <details>
 <summary>Problem 4</summary>
 
-The first four ionisation energies of an element X are: $738$$1451$$7733$And
+The first four ionisation energies of an element X are: $738$$1451$$7733$ And
 $10540\,\mathrm{kJ/mol}$. Identify the element and explain the pattern.
 
 **Solution:**
@@ -772,7 +772,7 @@ The drop from Be to B:
 - $\mathrm{IE}_1(\mathrm{B}) = 801\,\mathrm{kJ/mol}$ ($2s^2 2p^1$)
 
 The $2p$ electron in boron is shielded by the two $2s$ electrons (which have the same $n$ value but
-different $\ell$). The $2s$ orbital penetrates more effectively than $2p$So the $2s$ electrons are
+different $\ell$). The $2s$ orbital penetrates more effectively than $2p$ So the $2s$ electrons are
 held more tightly and shield the $2p$ electron more effectively than $2p$ electrons shield each
 other. This reduces $Z_\mathrm{eff}$ for the $2p$ electron, making it easier to remove.
 

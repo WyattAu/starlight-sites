@@ -1,6 +1,6 @@
 ---
 title: AWS Cloud Practitioner
-description: "AWS Cloud Practitioner - Complete study guide and practice questions"
+description: "The AWS Cloud Practitioner certification is an entry-level certification that validates foundational knowledge of AWS Cloud services and concepts."
 date: 2026-01-01T00:00:00Z
 tags:
   - test-prep

@@ -1,7 +1,7 @@
 ---
 
 title: Sequences and Series
-description: "A sequence is an ordered list of numbers."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 date: 2026-04-14
 tags:
   - ap
@@ -74,7 +74,7 @@ $$
 0 \lt \frac{n!}{n^n} = \frac{1 \cdot 2 \cdot 3 \cdots n}{n \cdot n \cdot n \cdots n} = \frac{1}{n} \cdot \frac{2}{n} \cdot \frac{3}{n} \cdots \frac{n}{n}
 $$
 
-The first $\lfloor n/2 \rfloor$ factors are each at most $\frac{1}{2}$So:
+The first $\lfloor n/2 \rfloor$ factors are each at most $\frac{1}{2}$ So:
 
 $$
 0 \lt \frac{n!}{n^n} \le \left(\frac{1}{2}\right)^{\lfloor n/2 \rfloor} \to 0
@@ -86,7 +86,7 @@ By the squeeze theorem, $\frac{n!}{n^n} \to 0$.
 
 Since $\ln n$ grows slower than any positive power of $n$We have $\ln n \lt \sqrt{n}$ for
 Sufficiently large $n$. Therefore
-$0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$And $\frac{1}{\sqrt{n}} \to 0$ So
+$0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$ And $\frac{1}{\sqrt{n}} \to 0$ So
 by the squeeze theorem, $\frac{\ln n}{n} \to 0$.
 
 ## Series (CED BC Unit 10)
@@ -110,9 +110,9 @@ If $\{S_n\}$ diverges, the series diverges.
 
 ### The $n$Th-Term Test (Divergence Test)
 
-If $\displaystyle\lim_{n \to \infty} a_n \ne 0$Then $\displaystyle\sum a_n$ diverges.
+If $\displaystyle\lim_{n \to \infty} a_n \ne 0$ Then $\displaystyle\sum a_n$ diverges.
 
-**Proof (by contrapositive):** If $\sum a_n$ converges to $L$Then $S_n \to L$ and $S_{n-1} \to L$.
+**Proof (by contrapositive):** If $\sum a_n$ converges to $L$ Then $S_n \to L$ and $S_{n-1} \to L$.
 Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
 
 **Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
@@ -141,7 +141,7 @@ $$
 $$
 
 Each group exceeds $\frac{1}{2}$:
-$\frac{1}{3} + \frac{1}{4} \gt \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$And so on. Since we can Form
+$\frac{1}{3} + \frac{1}{4} \gt \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$ And so on. Since we can Form
 infinitely many groups each exceeding $\frac{1}{2}$The partial sums diverge to $+\infty$.
 
 ## Geometric Series (CED BC Unit 10.2)
@@ -166,7 +166,7 @@ $$
 S_n = \frac{a(1 - r^n)}{1 - r}
 $$
 
-When $|r| \lt 1$, $r^n \to 0$So $S_n \to \frac{a}{1 - r}$.
+When $|r| \lt 1$, $r^n \to 0$ So $S_n \to \frac{a}{1 - r}$.
 :::
 :::note
 <strong>Example</strong>
@@ -238,7 +238,7 @@ $$
 
 ## The Integral Test (CED BC Unit 10.3)
 
-If $f$ is continuous, positive, and decreasing on $[1, \infty)$And $a_n = f(n)$Then:
+If $f$ is continuous, positive, and decreasing on $[1, \infty)$ And $a_n = f(n)$ Then:
 
 $$
 \sum_{n=1}^{\infty} a_n \quad \mathrm{and \quad \int_1^{\infty} f(x)\, dx
@@ -292,13 +292,13 @@ Larger one must too.
 
 ### Limit Comparison Test
 
-Suppose $a_n \gt 0$ and $b_n \gt 0$ for all $n$And:
+Suppose $a_n \gt 0$ and $b_n \gt 0$ for all $n$ And:
 
 $$
 L = \lim_{n \to \infty} \frac{a_n}{b_n}
 $$
 
-- If $0 \lt L \lt \infty$Then $\sum a_n$ and $\sum b_n$ either both converge or both diverge.
+- If $0 \lt L \lt \infty$ Then $\sum a_n$ and $\sum b_n$ either both converge or both diverge.
 - If $L = 0$ and $\sum b_n$ converges, then $\sum a_n$ converges.
 - If $L = \infty$ and $\sum b_n$ diverges, then $\sum a_n$ diverges.
 
@@ -346,8 +346,8 @@ $$
 The ratio test is especially useful when the terms involve factorials or exponentials, because the
 Ratio tends to simplify dramatically.
 
-**Why it connects to geometric series.** If $\left|\frac{a_{n+1}}{a_n}\right| \to L \lt 1$Then for
-Large $n$ the terms behave like a geometric series with ratio $L$And geometric series converge When
+**Why it connects to geometric series.** If $\left|\frac{a_{n+1}}{a_n}\right| \to L \lt 1$ Then for
+Large $n$ the terms behave like a geometric series with ratio $L$ And geometric series converge When
 the ratio is less than 1.
 :::
 :::note
@@ -404,7 +404,7 @@ The sum with error less than $0.001$?
 
 The terms are $a_n = \frac{1}{n}$Which decrease and approach 0.
 
-We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$So $n + 1 \gt 1000$Meaning $n \ge 1000$.
+We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$Meaning $n \ge 1000$.
 
 At least 1000 terms are needed.
 
@@ -416,7 +416,7 @@ At least 1000 terms are needed.
 
 **Theorem.** If a series converges absolutely, it converges.
 
-**Proof sketch.** $-|a_n| \le a_n \le |a_n|$So $0 \le a_n + |a_n| \le 2|a_n|$. Since $\sum 2|a_n|$
+**Proof sketch.** $-|a_n| \le a_n \le |a_n|$ So $0 \le a_n + |a_n| \le 2|a_n|$. Since $\sum 2|a_n|$
 Converges, $\sum (a_n + |a_n|)$ converges by the comparison test. Therefore
 $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two convergent series.
 
@@ -492,7 +492,7 @@ Interval of convergence: $[0, 2)$.
 
 ### Term-by-Term Differentiation and Integration
 
-If $\displaystyle f(x) = \sum_{n=0}^{\infty} c_n(x-a)^n$ with radius $R$Then:
+If $\displaystyle f(x) = \sum_{n=0}^{\infty} c_n(x-a)^n$ with radius $R$ Then:
 
 $$
 F"(x) = \sum_{n=1}^{\infty} n c_n (x-a)^{n-1}, \quad \mathrm{same radius  R
@@ -519,7 +519,7 @@ When $a = 0$This is called a **Maclaurin series**.
 
 The Taylor polynomial $T_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k$ is the unique
 Polynomial of degree $\le n$ whose value and first $n$ derivatives at $x = a$ match those of $f$. As
-$n \to \infty$If the remainder $R_n(x) = f(x) - T_n(x) \to 0$Then the Taylor series converges to
+$n \to \infty$If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
 $f(x)$.
 
 ### Common Maclaurin Series
@@ -607,7 +607,7 @@ $$
 
 ### Multiplication of Power Series
 
-If $\sum a_n x^n$ and $\sum b_n x^n$ both have radius $R$Then their Cauchy product also has radius
+If $\sum a_n x^n$ and $\sum b_n x^n$ both have radius $R$ Then their Cauchy product also has radius
 $R$:
 
 $$
@@ -774,7 +774,7 @@ absolutely, converges conditionally, or diverges.
 Alternating series test: $a_n = \frac{1}{\sqrt{n}}$ is positive, decreasing, and
 $\lim_{n \to \infty} \frac{1}{\sqrt{n}} = 0$. The alternating series converges.
 
-Absolute convergence: $\sum \frac{1}{\sqrt{n}}$ is a p-series with $p = 1/2 \lt 1$So it diverges.
+Absolute convergence: $\sum \frac{1}{\sqrt{n}}$ is a p-series with $p = 1/2 \lt 1$ So it diverges.
 
 Therefore, the series converges conditionally (but not absolutely).
 

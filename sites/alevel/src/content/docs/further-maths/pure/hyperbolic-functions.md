@@ -111,7 +111,7 @@ Every trigonometric identity has a corresponding hyperbolic identity, obtained b
 Negated).
 
 **Example:** $\sin 2x = 2\sin x\cos x$ becomes $\sinh 2x = 2\sinh x\cosh x$ (the product
-$\sinh x \cosh x$ is negated since it contains $\sinh$But $\sinh 2x$ on the left is not a product,
+$\sinh x \cosh x$ is negated since it contains $\sinh$ But $\sinh 2x$ on the left is not a product,
 So the overall sign changes on both sides cancel).
 
 ### 2.4 Double angle formulas
@@ -164,7 +164,7 @@ $$\operatorname{artanh}\,x = \frac{1}{2}\ln\!\left(\frac{1 + x}{1 - x}\right), \
 
 ### 3.2 Derivation of $\operatorname{arsinh}\,x = \ln(x + \sqrt{x^2 + 1})$
 
-Let $y = \operatorname{arsinh}\,x$So $x = \sinh y = \dfrac{e^y - e^{-y}}{2}$.
+Let $y = \operatorname{arsinh}\,x$ So $x = \sinh y = \dfrac{e^y - e^{-y}}{2}$.
 
 $$2x = e^y - e^{-y} \implies e^{2y} - 2xe^y - 1 = 0$$
 
@@ -178,7 +178,7 @@ $$e^y = x + \sqrt{x^2 + 1} \implies y = \ln\!\left(x + \sqrt{x^2 + 1}\right) \qu
 
 ### 3.3 Derivation of $\operatorname{arcosh}\,x = \ln(x + \sqrt{x^2 - 1})$
 
-Let $y = \operatorname{arcosh}\,x$So $x = \cosh y = \dfrac{e^y + e^{-y}}{2}$.
+Let $y = \operatorname{arcosh}\,x$ So $x = \cosh y = \dfrac{e^y + e^{-y}}{2}$.
 
 $$2x = e^y + e^{-y} \implies e^{2y} - 2xe^y + 1 = 0$$
 
@@ -191,7 +191,7 @@ $$y = \ln\!\left(x + \sqrt{x^2 - 1}\right) \quad \blacksquare$$
 
 ### 3.4 Derivation of $\operatorname{artanh}\,x$
 
-Let $y = \operatorname{artanh}\,x$So $x = \tanh y$.
+Let $y = \operatorname{artanh}\,x$ So $x = \tanh y$.
 
 $$x = \frac{e^y - e^{-y}}{e^y + e^{-y}} = \frac{e^{2y} - 1}{e^{2y} + 1}$$
 
@@ -242,11 +242,11 @@ $$\frac{d}{dx}(\operatorname{arcosh}\,x) = \frac{1}{\sqrt{x^2 - 1}}, \quad x \gt
 
 $$\frac{d}{dx}(\operatorname{artanh}\,x) = \frac{1}{1 - x^2}, \quad |x| \lt 1$$
 
-**Proof for $\operatorname{arsinh}\,x$.** Let $y = \operatorname{arsinh}\,x$So $x = \sinh y$.
+**Proof for $\operatorname{arsinh}\,x$.** Let $y = \operatorname{arsinh}\,x$ So $x = \sinh y$.
 
 $$\frac{dy}{dx} = \frac{1}{\dfrac{dx}{dy}} = \frac{1}{\cosh y} = \frac{1}{\sqrt{1 + \sinh^2 y}} = \frac{1}{\sqrt{1 + x^2}} \quad \blacksquare$$
 
-**Proof for $\operatorname{artanh}\,x$.** Let $y = \operatorname{artanh}\,x$So $x = \tanh y$.
+**Proof for $\operatorname{artanh}\,x$.** Let $y = \operatorname{artanh}\,x$ So $x = \tanh y$.
 
 $$\frac{dy}{dx} = \frac{1}{\mathrm{sech}^2\,y} = \frac{1}{1 - \tanh^2 y} = \frac{1}{1 - x^2} \quad \blacksquare$$
 
@@ -388,11 +388,11 @@ $f'(x) = \operatorname{arcosh}\,x + x \cdot \dfrac{1}{\sqrt{x^2 - 1}} = \operato
 
 ### 6.1 Proof: $\int \frac{1}{\sqrt{x^2 - a^2}}\,dx = \operatorname{arcosh}\!\left(\frac{x}{a}\right) + C$
 
-**Proof.** Let $u = x/a$So $dx = a\,du$:
+**Proof.** Let $u = x/a$ So $dx = a\,du$:
 
 $$\int \frac{dx}{\sqrt{x^2 - a^2}} = \int \frac{a\,du}{a\sqrt{u^2 - 1}} = \int \frac{du}{\sqrt{u^2 - 1}}$$
 
-Now let $u = \cosh t$So $du = \sinh t\,dt$:
+Now let $u = \cosh t$ So $du = \sinh t\,dt$:
 
 $$= \int \frac{\sinh t\,dt}{\sqrt{\cosh^2 t - 1}} = \int \frac{\sinh t\,dt}{\sinh t} = \int 1\,dt = t + C = \operatorname{arcosh}\,u + C$$
 
@@ -400,7 +400,7 @@ $$= \operatorname{arcosh}\!\left(\frac{x}{a}\right) + C \quad \blacksquare$$
 
 ### 6.2 Proof: $\int \frac{1}{a^2 - x^2}\,dx = \frac{1}{a}\operatorname{artanh}\!\left(\frac{x}{a}\right) + C$
 
-**Proof.** Let $u = x/a$So $dx = a\,du$:
+**Proof.** Let $u = x/a$ So $dx = a\,du$:
 
 $$\int \frac{dx}{a^2 - x^2} = \frac{1}{a}\int \frac{du}{1 - u^2} = \frac{1}{a}\operatorname{artanh}\,u + C = \frac{1}{a}\operatorname{artanh}\!\left(\frac{x}{a}\right) + C \quad \blacksquare$$
 
@@ -420,7 +420,7 @@ Since $T = T_0\sec\theta$ and $T\sin\theta = T_0\tan\theta$:
 
 $$\frac{d}{dx}(T_0\tan\theta) = w \implies T_0\sec^2\theta\,\frac{d\theta}{dx} = w$$
 
-Let $y' = \tan\theta$So
+Let $y' = \tan\theta$ So
 $\dfrac{dy'}{dx} = \sec^2\theta\,\dfrac{d\theta}{dx} = \dfrac{w}{T_0}$.
 
 Integrating: $y' = \dfrac{w}{T_0}\,x + C_1$. Taking $C_1 = 0$ by symmetry:
@@ -504,9 +504,9 @@ For $x > 1$.
 <details>
 <summary>Solution</summary>
 
-**(a)** Let $y = \operatorname{arcosh}\,x$So $x = \cosh y$.
+**(a)** Let $y = \operatorname{arcosh}\,x$ So $x = \cosh y$.
 
-$\dfrac{dx}{dy} = \sinh y$So $\dfrac{dy}{dx} = \dfrac{1}{\sinh y}$.
+$\dfrac{dx}{dy} = \sinh y$ So $\dfrac{dy}{dx} = \dfrac{1}{\sinh y}$.
 
 Since $\cosh^2 y - \sinh^2 y = 1$: $\sinh y = \sqrt{\cosh^2 y - 1} = \sqrt{x^2 - 1}$.
 
@@ -740,7 +740,7 @@ Form.
 <details>
 <summary>Solution</summary>
 
-**(a)** $\cosh^2 x = 1 + \sinh^2 x = 1 + \dfrac{144}{25} = \dfrac{169}{25}$So
+**(a)** $\cosh^2 x = 1 + \sinh^2 x = 1 + \dfrac{144}{25} = \dfrac{169}{25}$ So
 $\cosh x = \dfrac{13}{5}$ (positive root).
 
 $\tanh x = \dfrac{\sinh x}{\cosh x} = \dfrac{12/5}{13/5} = \dfrac{12}{13}$.
@@ -889,7 +889,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
    $x = a\sinh u$ for $\sqrt{x^2 + a^2}$ and $x = a\cosh u$ for $\sqrt{x^2 - a^2}$.
 2. **Confusing $\operatorname{artanh}$ and $\ln$ forms:** The formula
    $\displaystyle\int\frac{dx}{a^2 - x^2} = \frac{1}{2a}\ln\!\left|\frac{a+x}{a-x}\right|$ is valid
-   for all $|x| \neq a$But $\dfrac{1}{a}\operatorname{artanh}(x/a)$ is only valid for $|x| < a$. For
+   for all $|x| \neq a$ But $\dfrac{1}{a}\operatorname{artanh}(x/a)$ is only valid for $|x| < a$. For
    $|x| > a$Use the logarithmic form or $\operatorname{arcoth}$.
 3. **No absolute value needed for $\cosh$:** Unlike $|\cos x|$, $\sqrt{\cosh^2 x} = \cosh x$
    (no absolute value needed) since $\cosh x \geq 1 > 0$ for all real $x$.
@@ -1017,7 +1017,7 @@ Find $\dfrac{d}{dx}[\operatorname{arcosh}\, x]$ and state the domain.
 <details>
 <summary>Solution</summary>
 
-Let $y = \operatorname{arcosh}\, x$So $x = \cosh y$ and $x \geq 1$.
+Let $y = \operatorname{arcosh}\, x$ So $x = \cosh y$ and $x \geq 1$.
 
 $1 = \sinh y \cdot \dfrac{dy}{dx}$.
 
@@ -1054,7 +1054,7 @@ $\dfrac{d}{dx}\mathrm{gd}(x) = \mathrm{sech}\,x$.
 ### 16.2 Hyperbolic functions and the Lorentz transformation
 
 In special relativity, the Lorentz transformation uses hyperbolic functions. If $\beta = v/c$ and
-$\gamma = (1-\beta^2)^{-1/2} = \cosh\phi$ where $\tanh\phi = \beta$Then:
+$\gamma = (1-\beta^2)^{-1/2} = \cosh\phi$ where $\tanh\phi = \beta$ Then:
 
 $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 
@@ -1120,7 +1120,7 @@ Since $3-\sqrt{6} > 0$Both are valid.
 <details>
 <summary>Solution</summary>
 
-Let $y = \operatorname{arcosh}\,x$So $x = \cosh y = \dfrac{e^y+e^{-y}}{2}$.
+Let $y = \operatorname{arcosh}\,x$ So $x = \cosh y = \dfrac{e^y+e^{-y}}{2}$.
 
 $2x = e^y + e^{-y} \implies e^{2y} - 2xe^y + 1 = 0$.
 
@@ -1198,7 +1198,7 @@ Arc length from the vertex: $s = a\sinh\!\left(\dfrac{x}{a}\right)$.
 <details>
 <summary>Solution</summary>
 
-Let $y = \operatorname{arsinh}\,x$So $x = \sinh y = \dfrac{e^y-e^{-y}}{2}$.
+Let $y = \operatorname{arsinh}\,x$ So $x = \sinh y = \dfrac{e^y-e^{-y}}{2}$.
 
 $2x = e^y - e^{-y} \implies e^{2y} - 2xe^y - 1 = 0$.
 

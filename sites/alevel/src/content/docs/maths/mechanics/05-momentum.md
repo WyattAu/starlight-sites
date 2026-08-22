@@ -170,7 +170,7 @@ $0 \leq e \leq 1$.
 **Proof of $e \geq 0$.** After collision, the two bodies must be separating (or at rest relative to
 Each other). If $u_1 \gt u_2$ (body 1 approaches body 2), then after collision we require
 $v_2 \geq v_1$ (body 2 moves away from body 1). Therefore $v_2 - v_1 \geq 0$ and
-$u_1 - u_2 \gt 0$So:
+$u_1 - u_2 \gt 0$ So:
 
 $$e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0$$
 
@@ -253,7 +253,7 @@ $$\sum m_i u_{x,i} = \sum m_i v_{x,i} \qquad \mathrm{(x-momentum conserved)}$$
 
 $$\sum m_i u_{y,i} = \sum m_i v_{y,i} \qquad \mathrm{(y-momentum conserved)}$$
 
-**Justification.** If $\mathbf{F}_{\mathrm{net}} = \mathbf{0}$Then $F_x = 0$ and $F_y = 0$
+**Justification.** If $\mathbf{F}_{\mathrm{net}} = \mathbf{0}$ Then $F_x = 0$ and $F_y = 0$
 Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$It follows that $p_x$ is constant. Similarly for
 $p_y$.
 
@@ -280,7 +280,7 @@ $\cos\theta = \dfrac{12 - 4.5\sqrt{3}}{6} = \dfrac{12 - 7.794}{6} \approx 0.701$
 $\theta \approx 45.5^\circ$.
 
 $y$-momentum check:
-$3(1.5) + 2(-3\sin\theta) = 0 \implies 4.5 = 6\sin\theta \implies \sin\theta = 0.75$So
+$3(1.5) + 2(-3\sin\theta) = 0 \implies 4.5 = 6\sin\theta \implies \sin\theta = 0.75$ So
 $\theta \approx 48.6^\circ$.
 
 The slight discrepancy arises from rounding $1.5\sqrt{3}$. Using exact values:
@@ -606,7 +606,7 @@ Momentum: $mu + 2m(-2u) = mv_1 + 2mv_2 \implies -3mu = m(v_1 + 2v_2) \implies v_
 
 For them to move in the same direction after: $v_1, v_2 \gt 0$ (in the direction of $2mu$).
 
-From $v_1 = -3u - 2v_2$: for $v_1 \gt 0$: $-3u \gt 2v_2$But $v_2 \gt 0$ implies
+From $v_1 = -3u - 2v_2$: for $v_1 \gt 0$: $-3u \gt 2v_2$ But $v_2 \gt 0$ implies
 $v_2 \lt -3u/2 \lt 0$. Contradiction.
 
 Let me reconsider: "same direction" means both in the direction of the $2m$ body.
@@ -639,7 +639,7 @@ $v_1 \lt v_2 \implies 3u - 2v_2 \lt v_2 \implies v_2 \gt 1.5u$... But then $v_1 
 Actually $e = (v_2 - v_1)/(u_1 - u_2) = (v_2 - v_1)/(-3u)$. For $v_1, v_2 \gt 0$ (same direction As
 $2u$):
 
-$v_2 - v_1 \gt 0$ (needed for $e \gt 0$) and $u_1 - u_2 = -3u \lt 0$So $e = (v_2-v_1)/(-3u) \lt 0$
+$v_2 - v_1 \gt 0$ (needed for $e \gt 0$) and $u_1 - u_2 = -3u \lt 0$ So $e = (v_2-v_1)/(-3u) \lt 0$
 if $v_2 \gt v_1$. This gives $e \lt 0$ which isn't physical.
 
 Let me re-examine. With original convention (positive = direction of $m$ body before collision):
@@ -656,8 +656,8 @@ From $v_1 = -3u - 2v_2$: $v_2 - v_1 = v_2 + 3u + 2v_2 = 3v_2 + 3u = 3(u + v_2)$.
 $e = \dfrac{3(u+v_2)}{3u} = 1 + v_2/u$.
 
 For $v_2 \lt 0$: $e = 1 + v_2/u \lt 1$. ✓ For $v_1 \lt 0$:
-$-3u - 2v_2 \lt 0 \implies v_2 \gt -3u/2$So $e \gt 1 + (-3/2) = -1/2$. Since $e \geq 0$:
-$v_2 \geq -u$So $e \geq 0$.
+$-3u - 2v_2 \lt 0 \implies v_2 \gt -3u/2$ So $e \gt 1 + (-3/2) = -1/2$. Since $e \geq 0$:
+$v_2 \geq -u$ So $e \geq 0$.
 
 If the problem says $e \leq 1/3$There may be additional constraints. Given the complexity, the key
 Idea is shown.
@@ -779,7 +779,7 @@ Suppose $e \gt 1$. From the energy loss formula:
 
 $$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)$$
 
-If $e \gt 1$Then $e^2 \gt 1$ and $1 - e^2 \lt 0$.
+If $e \gt 1$ Then $e^2 \gt 1$ and $1 - e^2 \lt 0$.
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
 $(u_1-u_2)^2 \geq 0$We get $\Delta\mathrm{KE} \lt 0$.
@@ -881,7 +881,7 @@ The angle between $\mathbf{v}_B$ and the line of centres is $0$ (it moves along 
 Centres).
 
 So the angle between $\mathbf{v}_A$ and $\mathbf{v}_B$ is $\alpha$. For them to be perpendicular, we
-Need $\alpha = 90^\circ$But $\tan\alpha$ is finite for $0 \lt e \lt 1$.
+Need $\alpha = 90^\circ$ But $\tan\alpha$ is finite for $0 \lt e \lt 1$.
 
 The claim that the spheres move at right angles is only true for $e = 1$ (perfectly elastic
 Collision). In that case $v_{A,\parallel} = 0$ and $\mathbf{v}_A = u\sin\theta$ (perpendicular to

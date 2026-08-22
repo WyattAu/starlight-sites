@@ -1,7 +1,7 @@
 ---
 
 title: vcpkg
-description: "), modern C++"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\":"
 date: 2025-12-11T04:55:37.164Z
 tags:
   - cpp

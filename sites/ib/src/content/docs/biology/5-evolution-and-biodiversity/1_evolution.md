@@ -516,7 +516,7 @@ genotype has $w = 1.0$.
 **Selection coefficient ($s$)**: the reduction in fitness of a genotype relative to the fittest:
 $w = 1 - s$.
 
-**Example**: if the fitness of genotypes $AA$$Aa$And $aa$ are $1.0$$1.0$And $0.8$: $s = 0.2$ for the
+**Example**: if the fitness of genotypes $AA$$Aa$ And $aa$ are $1.0$$1.0$ And $0.8$: $s = 0.2$ for the
 $aa$ genotype. The selection acts against the $aa$ homozygote.
 
 **Rate of change of a deleterious allele under selection:**
@@ -787,7 +787,7 @@ original size of $10^8$.
 **Generations for $99.9\%$ resistance in a population of $10^8$**: After $n$ generations, the
 resistant population = $1000 \times 2^n$. We need
 $1000 \times 2^n = 0.999 \times 10^8 = 9.99 \times 10^7$. $2^n = 99900$
-$n = \frac{\ln(99900)}{\ln(2)} = \frac{11.513}{0.693} \approx 16.6$So $17$ generations.
+$n = \frac{\ln(99900)}{\ln(2)} = \frac{11.513}{0.693} \approx 16.6$ So $17$ generations.
 
 After $17$ generations, $\approx 1000 \times 2^{17} = 1.31 \times 10^8$ bacteria, virtually all
 Carrying the resistance gene. This demonstrates how quickly resistance can spread under antibiotic
@@ -859,7 +859,7 @@ $\sigma^2_q = \frac{pq}{2N_e} = \frac{0.8 \times 0.2}{2 \times 50} = \frac{0.16}
 
 The standard deviation: $\sigma_q = \sqrt{0.0016} = 0.04$
 
-After the bottleneck, the expected $c$ frequency is still $q = 0.2$But there is a $95\%$ chance It
+After the bottleneck, the expected $c$ frequency is still $q = 0.2$ But there is a $95\%$ chance It
 falls within $0.2 \pm 2(0.04) = 0.12$ to $0.28$. In some bottleneck events, the $c$ allele Frequency
 could change substantially, and over many repeated bottlenecks, the probability of Eventual loss
 approaches $1$.
@@ -876,7 +876,7 @@ frequency of the $c$ allele after many generations.
 <details>
 <summary>Solution</summary>
 
-**Current equilibrium** ($w_{cc} = 0$Lethal): $q^2 = 1/2500$So $q = 1/50 = 0.02$. $p = 0.98$.
+**Current equilibrium** ($w_{cc} = 0$Lethal): $q^2 = 1/2500$ So $q = 1/50 = 0.02$. $p = 0.98$.
 Carrier frequency: $2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx 1/25.5$.
 
 **New equilibrium** ($w_{CC} = 1.0$$w_{Cc} = 1.0$$w_{cc} = 0.5$): At equilibrium, the frequency of
@@ -1523,7 +1523,7 @@ This is complex to solve analytically. Using the approximate formula for one gen
 $\Delta q \approx -sq^2(1-q)$
 
 From year 0 to 2: $\Delta q = 0.90 - 0.75 = 0.15$$q \approx 0.90$.
-$0.15 \approx s \times 0.81 \times 0.10 = 0.081s$So $s \approx 1.85$.
+$0.15 \approx s \times 0.81 \times 0.10 = 0.081s$ So $s \approx 1.85$.
 
 This is greater than 1, which is impossible. This suggests the selection is very strong (near-lethal
 Against $mm$ on dark bark) or that more than one generation occurred in 2 years.
@@ -1881,7 +1881,7 @@ original ancestor.
 (a) Rate of change:
 $\frac{50\;\mathrm{kg} - 5\;\mathrm{kg}}{10 \times 10^6\;\mathrm{years}} = \frac{45}{10^7} = 4.5 \times 10^{-6}\;\mathrm{kg/year} = 4.5\;\mathrm{mg/year}$.
 
-(b) $M_t = M_0 e^{rt}$: $50 = 5 e^{10r}$. $e^{10r} = 10$So
+(b) $M_t = M_0 e^{rt}$: $50 = 5 e^{10r}$. $e^{10r} = 10$ So
 $10r = \ln(10) = 2.303$$r = 0.230\;\mathrm{Ma}^{-1}$.
 
 (c) After $20\;\mathrm{Ma}$:

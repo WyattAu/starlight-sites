@@ -51,7 +51,7 @@ The sign change theorem tells us a root **exists** but says nothing about:
 :::caution
 $f(-1) = f(1) = 1$ (no sign change), but there is a root at $x = 0$. Additionally, a sign change
 Could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
-$f(1) = 1$But no root.
+$f(1) = 1$ But no root.
 :::
 **Intuition.** The sign change theorem is the Intermediate Value Theorem applied to the special case
 Of crossing zero. If you walk from a point below sea level to one above sea level, you must cross
@@ -67,12 +67,12 @@ To solve $f(x) = 0$Rewrite as $x = g(x)$ and iterate:
 
 $$x_{n+1} = g(x_n)$$
 
-Starting from an initial guess $x_0$. If the sequence converges to $\alpha$Then $f(\alpha) = 0$.
+Starting from an initial guess $x_0$. If the sequence converges to $\alpha$ Then $f(\alpha) = 0$.
 
 ### 2.2 Convergence condition
 
 **Theorem.** If $g$ is continuously differentiable near a fixed point $\alpha$ and
-$|g'(\alpha)| \lt 1$Then the iteration $x_{n+1} = g(x_n)$ converges to $\alpha$ for all starting
+$|g'(\alpha)| \lt 1$ Then the iteration $x_{n+1} = g(x_n)$ converges to $\alpha$ for all starting
 Values sufficiently close to $\alpha$.
 
 If $|g'(\alpha)| \gt 1$The iteration diverges.
@@ -89,13 +89,13 @@ For $x_n$ close to $\alpha$:
 
 $$|x_{n+1} - \alpha| \approx |g'(\alpha)| \cdot |x_n - \alpha|$$
 
-If $|g'(\alpha)| \lt 1$Then $|x_{n+1} - \alpha| \lt |x_n - \alpha|$: the error shrinks, so the
+If $|g'(\alpha)| \lt 1$ Then $|x_{n+1} - \alpha| \lt |x_n - \alpha|$: the error shrinks, so the
 Iteration converges. If $|g'(\alpha)| \gt 1$The error grows and the iteration diverges.
 $\blacksquare$
 
 ### 2.3 Rearrangement choices
 
-Different rearrangements of $f(x) = 0$ give different $g(x)$And some converge while others Diverge.
+Different rearrangements of $f(x) = 0$ give different $g(x)$ And some converge while others Diverge.
 
 **Example.** Solve $x^3 + x - 1 = 0$.
 
@@ -112,7 +112,7 @@ $|g'(\alpha)| \gt 1$.
 
 The fixed-point iteration $x_{n+1} = g(x_n)$ can be visualised using the cobweb diagram. Plot
 $y = g(x)$ and $y = x$. Starting from $x_0$ on the $x$-axis, go vertically to $y = g(x_0) = x_1$
-Then horizontally to $y = x$Then vertically to $y = g(x_1) = x_2$And so on.
+Then horizontally to $y = x$ Then vertically to $y = g(x_1) = x_2$ And so on.
 
 - If $0 \lt g'(\alpha) \lt 1$: the cobweb spirals inward (monotone convergence).
 - If $-1 \lt g'(\alpha) \lt 0$: the cobweb zigzags inward (oscillatory convergence).
@@ -143,8 +143,8 @@ This is the **Newton-Raphson formula**.
 
 ### 3.2 Proof of local quadratic convergence
 
-**Theorem.** If $f$ is twice continuously differentiable, $f(\alpha) = 0$, $f'(\alpha) \neq 0$And
-$x_0$ is sufficiently close to $\alpha$Then Newton-Raphson converges **quadratically**:
+**Theorem.** If $f$ is twice continuously differentiable, $f(\alpha) = 0$, $f'(\alpha) \neq 0$ And
+$x_0$ is sufficiently close to $\alpha$ Then Newton-Raphson converges **quadratically**:
 $|x_{n+1} - \alpha| \leq C|x_n - \alpha|^2$.
 
 **Proof (sketch).** By Taylor's theorem about $x_n$:
@@ -184,7 +184,7 @@ When $f'(x_n) = 0$ at some iterate, the Newton-Raphson formula requires division
 Method breaks down entirely. Even when $f'(x_n)$ is merely small, the step
 $x_{n+1} = x_n - f(x_n)/f'(x_n)$ becomes very large, sending the iterate far from the root.
 
-**Example.** Let $f(x) = x^3 - 3x + 3$. Then $f'(x) = 3x^2 - 3$So $f'(1) = 0$. Starting at
+**Example.** Let $f(x) = x^3 - 3x + 3$. Then $f'(x) = 3x^2 - 3$ So $f'(1) = 0$. Starting at
 $x_0 = 1$:
 
 The formula gives $x_1 = 1 - f(1)/f'(1) = 1 - 1/0$Which is undefined.
@@ -192,7 +192,7 @@ The formula gives $x_1 = 1 - f(1)/f'(1) = 1 - 1/0$Which is undefined.
 Even starting at $x_0 = 0.9$: $f(0.9) = 0.729 - 2.7 + 3 = 1.029$, $f'(0.9) = 2.43 - 3 = -0.57$.
 $x_1 = 0.9 - 1.029/(-0.57) = 0.9 + 1.805 = 2.705$.
 
-The root is near $\alpha \approx -2.10$So the iterate has been sent in the wrong direction. The Next
+The root is near $\alpha \approx -2.10$ So the iterate has been sent in the wrong direction. The Next
 iterate $x_2$ will be pulled back, but convergence is erratic compared to a well-chosen Starting
 point.
 
@@ -203,8 +203,8 @@ point.
 The quadratic convergence proof in Section 3.2 requires $f'(\alpha) \neq 0$. When the root coincides
 With an inflection point, so that $f'(\alpha) = 0$Convergence degrades from quadratic to **linear**.
 
-**Theorem.** If $f(\alpha) = 0$$f'(\alpha) = 0$$f''(\alpha) \neq 0$And $x_0$ is sufficiently Close
-to $\alpha$Then Newton-Raphson converges linearly with rate $1/2$:
+**Theorem.** If $f(\alpha) = 0$$f'(\alpha) = 0$$f''(\alpha) \neq 0$ And $x_0$ is sufficiently Close
+to $\alpha$ Then Newton-Raphson converges linearly with rate $1/2$:
 
 $$|x_{n+1} - \alpha| \approx \frac{1}{2}|x_n - \alpha|$$
 
@@ -313,7 +313,7 @@ $|E_T| \lt \varepsilon$We need:
 $$n \gt \sqrt{\frac{(b-a)^3\, M}{12\,\varepsilon}}$$
 
 **Example.** Approximate $\displaystyle\int_0^1 e^{-x^2}\,dx$ with the trapezium rule. Here
-$f(x) = e^{-x^2}$So $f'(x) = -2x\,e^{-x^2}$ and $f''(x) = (4x^2 - 2)e^{-x^2}$. On $[0,1]$:
+$f(x) = e^{-x^2}$ So $f'(x) = -2x\,e^{-x^2}$ and $f''(x) = (4x^2 - 2)e^{-x^2}$. On $[0,1]$:
 $|f''(x)| \leq 2$ (achieved at $x = 0$Where $f''(0) = -2$).
 
 For error $\lt 10^{-4}$:
@@ -515,7 +515,7 @@ $f'(x) = 0 \implies x = \ln 3 \approx 1.099$.
 $f(\ln 3) = 3 - 3\ln 3 \approx 3 - 3.296 = -0.296 \lt 0$.
 
 Since $f''(x) = e^x \gt 0$This is a global minimum. The minimum value is negative, and
-$f(x) \to \infty$ as $x \to \pm\infty$So $f(x) = 0$ has exactly two roots.
+$f(x) \to \infty$ as $x \to \pm\infty$ So $f(x) = 0$ has exactly two roots.
 
 $f(0) = 1 \gt 0$$f(1) = e-3 \lt 0$: root in $(0,1)$. $f(1) \lt 0$$f(2) = e^2-6 \gt 0$: Root in
 $(1,2)$.
@@ -590,7 +590,7 @@ Explain why the sign change theorem does not guarantee a root of $f(x) = \dfrac{
 
 <details>
 <summary>Solution 10</summary>
-$f(1) = -1 \lt 0$ and $f(3) = 1 \gt 0$So there is a sign change. However, $f$ is **not continuous** on $[1,3]$ — it has a vertical asymptote at $x = 2$. The sign change theorem requires continuity, so it does not apply here. There is no root of $1/(x-2) = 0$.
+$f(1) = -1 \lt 0$ and $f(3) = 1 \gt 0$ So there is a sign change. However, $f$ is **not continuous** on $[1,3]$ — it has a vertical asymptote at $x = 2$. The sign change theorem requires continuity, so it does not apply here. There is no root of $1/(x-2) = 0$.
 
 **If you get this wrong, revise:** [Limitations](#12-limitations) — Section 1.2.
 
@@ -620,7 +620,7 @@ Ratio: $e_{n+1}/e_n = 2/3$ for all $n$. This is linear convergence with rate $2/
 Quadratic convergence is lost because $f'(\alpha) = f'(2) = 0$. The root coincides with a stationary
 Point (inflection point), violating the condition $f'(\alpha) \neq 0$ in the quadratic convergence
 Theorem. As shown in Section 3.5, when $f'(\alpha) = 0$ and $f''(\alpha) \neq 0$Newton-Raphson
-Degrades to linear convergence with rate $1/2$. Here $f''(x) = 6(x-2)$So $f''(2) = 0$ as well
+Degrades to linear convergence with rate $1/2$. Here $f''(x) = 6(x-2)$ So $f''(2) = 0$ as well
 (triple root), giving rate $2/3$ instead of $1/2$.
 
 **If you get this wrong, revise:**
@@ -702,7 +702,7 @@ Both rearrangements solve the same equation, but only $x_{n+1} = e^{-x_n}$ conve
 <details>
 <summary>Problem 14</summary>
 Newton-Raphson is applied to $f(x) = x^3 - 3x + 2$ (which has a double root at $x = 1$ and a single
-Root at $x = -2$). Starting from $x_0 = 0.5$Compute $x_1$ and $x_2$And comment on the rate of
+Root at $x = -2$). Starting from $x_0 = 0.5$Compute $x_1$ and $x_2$ And comment on the rate of
 Convergence towards $x = 1$.
 </details>
 
@@ -717,7 +717,7 @@ $x_1 = 0.7778$: $f(0.7778) = 0.4703 - 2.3334 + 2 = 0.1369$$f'(0.7778) = 1.8151 -
 $x_2 = 0.7778 - 0.1369/(-1.1849) = 0.7778 + 0.1155 = 0.8933$.
 
 The iterates are approaching $x = 1$ but slowly. Errors: $e_0 = 0.5$$e_1 \approx 0.2222$
-$e_2 \approx 0.1067$. The ratio $e_2/e_1 \approx 0.48$And $e_1/e_0 \approx 0.44$. This is
+$e_2 \approx 0.1067$. The ratio $e_2/e_1 \approx 0.48$ And $e_1/e_0 \approx 0.44$. This is
 Approximately linear convergence.
 
 At the double root $x = 1$: $f(1) = 0$$f'(1) = 0$. Since $f'(\alpha) = 0$Quadratic convergence Is
@@ -751,7 +751,7 @@ $$\mathrm{Approx} = \frac{0.5}{2}[0 + 2(0.7071) + 1] = 0.25 \times 2.4142 = 0.60
 (c) $f(x) = x^{1/2}$$f'(x) = \frac{1}{2}x^{-1/2}$$f''(x) = -\frac{1}{4}x^{-3/2}$.
 
 On $(0, 1]$: $|f''(x)| = \frac{1}{4}x^{-3/2}$Which is unbounded as $x \to 0^+$. The error bound
-Requires $f''$ to be bounded on $[a,b]$But $f''(x) \to \infty$ as $x \to 0$.
+Requires $f''$ to be bounded on $[a,b]$ But $f''(x) \to \infty$ as $x \to 0$.
 
 If we instead apply the bound on $[\varepsilon, 1]$ for small $\varepsilon \gt 0$:
 $M = \frac{1}{4}\varepsilon^{-3/2}$Which blows up as $\varepsilon \to 0$. This illustrates a
@@ -768,7 +768,7 @@ For the equation $\cos x = x$Let $g(x) = \cos x$.
 
 (a) Verify that a fixed point $\alpha$ exists in $(0, \pi/2)$.
 
-(b) Show that $|g'(\alpha)| \lt 1$And hence that the iteration $x_{n+1} = \cos x_n$ converges.
+(b) Show that $|g'(\alpha)| \lt 1$ And hence that the iteration $x_{n+1} = \cos x_n$ converges.
 
 (c) Starting from $x_0 = 0.5$Find $x_3$ to 6 decimal places.
 

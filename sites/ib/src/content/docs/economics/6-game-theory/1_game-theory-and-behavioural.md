@@ -1,7 +1,7 @@
 ---
 
 title: Game Theory and Behavioural Economics
-description: "Game theory and behavioural economics for IB Economics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -339,7 +339,7 @@ Check each cell:
 4. (No Ad, No Ad): Alpha gets 6. If Alpha switches to Ad, Alpha gets 8 (better). Not an equilibrium.
 
 The only Nash equilibrium is (Ad, Ad) with payoffs $(4, 4)$. This is a prisoner's dilemma: both
-Would be better off at (No Ad, No Ad) with $(6, 6)$But neither has the incentive to unilaterally
+Would be better off at (No Ad, No Ad) with $(6, 6)$ But neither has the incentive to unilaterally
 Stop advertising.
 
 <summary>Problem 2: Mixed Strategy Nash Equilibrium</summary>
@@ -726,7 +726,7 @@ forever
 $$\delta \geq \frac{4}{4 + 3} = \frac{4}{7} \approx 0.571$$
 
 The discount factor must be at least 0.571. If firms interact weekly and use a weekly discount Rate
-of $r$Then $\delta = 1/(1 + r)$. For $\delta = 0.571$: $r \leq 0.751$ (75.1% per week), Which is
+of $r$ Then $\delta = 1/(1 + r)$. For $\delta = 0.571$: $r \leq 0.751$ (75.1% per week), Which is
 satisfied. Collusion is sustainable as long as firms expect the market to persist.
 
 (c) More frequent interactions (daily vs. Weekly) have two opposing effects:
@@ -1111,7 +1111,7 @@ believes each is equally likely ($p = 0.5$).
 **Analysis:**
 
 For the **strong** incumbent: if the entrant enters, compare Accommodate (5) vs. Fight (3). The
-Strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$So the strong incumbent
+Strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$ So the strong incumbent
 Accommodates). Wait -- let me re-examine. With payoffs as stated:
 
 For the **strong** incumbent: Accommodate $= 5$Fight $= 3$. Since $5 > 3$The strong Incumbent
@@ -1269,7 +1269,7 @@ For the high-cost type: $b_H = 15$
 Firm 2 believes Firm 1's cost is uniformly distributed on $[10, 20]$. Firm 1's bidding function Is
 $b_1(c) = (c + 10)/2$.
 
-Since $b_1$ is monotonically increasing in $c$And $c$ is uniform on $[10, 20]$:
+Since $b_1$ is monotonically increasing in $c$ And $c$ is uniform on $[10, 20]$:
 
 $b_1$ is uniform on $[10, 15]$.
 
@@ -1529,7 +1529,7 @@ exact value), the winner tends to be the bidder who most overestimated the value
 
 **Formal model:**
 
-Suppose the true value of an oil field is $V$And each bidder receives a signal
+Suppose the true value of an oil field is $V$ And each bidder receives a signal
 $s_i = V + \epsilon_i$ Where $\epsilon_i$ is noise.
 
 The expected value of $V$ given that you won the auction is:
@@ -2144,7 +2144,7 @@ The **Nash bargaining solution** maximises the product of the players' gains ove
 
 $$\max_{(u_1, u_2)} (u_1 - d_1)(u_2 - d_2)$$
 
-Subject to $u_1 \geq d_1$, $u_2 \geq d_2$And $(u_1, u_2)$ being feasible.
+Subject to $u_1 \geq d_1$, $u_2 \geq d_2$ And $(u_1, u_2)$ being feasible.
 
 Where $d_1$ and $d_2$ are the payoffs each player receives if negotiations break down (the threat
 point or disagreement point).

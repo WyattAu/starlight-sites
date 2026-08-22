@@ -382,7 +382,7 @@ $v_B = \sqrt{v_{Bx}^2 + v_{By}^2} = \sqrt{\left(\frac{35 - 4\sqrt{3}}{3}\right)^
 
 $$= \sqrt{\frac{(35 - 4\sqrt{3})^2 + 16}{9}} = \sqrt{\frac{1225 - 280\sqrt{3} + 48 + 16}{9}} = \sqrt{\frac{1289 - 280\sqrt{3}}{9}}$$
 
-$\sqrt{3} \approx 1.732$So $1289 - 484.96 = 804.04$.
+$\sqrt{3} \approx 1.732$ So $1289 - 484.96 = 804.04$.
 
 $$v_B = \sqrt{\frac{804.04}{9}} = \sqrt{89.34} \approx 9.45 \text{ m/s}$$
 

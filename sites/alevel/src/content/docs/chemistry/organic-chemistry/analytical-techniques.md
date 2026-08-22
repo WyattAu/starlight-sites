@@ -240,7 +240,7 @@ Acids).
 
 When a mixture contains many components with similar $R_f$ values, one-dimensional TLC may not
 resolve all of them. Two-dimensional TLC involves running the plate in one solvent system, rotating
-it $90^\circ$Then running it in a second solvent system with different polarity. Components that
+it $90^\circ$ Then running it in a second solvent system with different polarity. Components that
 co-migrated in the first dimension may separate in the second. This is particularly useful for amino
 acid analysis.
 
@@ -619,7 +619,7 @@ singlet, 6H). The data showing two singlets of 3H each is inconsistent with prop
 
 The correct compound is **propanal** ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$), but this would show
 a triplet, quartet, and aldehyde proton, not two singlets. The data is most consistent with **ethyl
-methyl ketone (butanone)**, $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCH}_3$But this has
+methyl ketone (butanone)**, $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCH}_3$ But this has
 $M_r = 72$Not 58.
 
 Given the constraint $M_r = 58$ and $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$: the only ketone is
@@ -841,7 +841,7 @@ $R_f$ values are always between 0 and 1. A compound with a higher $R_f$ is less 
 less with the polar stationary phase and travels further with the non-polar mobile phase).
 
 **Worked Example:** In a TLC experiment, the solvent front travels $12.0\,\mathrm{cm}$. Three
-compounds travel $3.6\,\mathrm{cm}$$7.2\,\mathrm{cm}$And $10.8\,\mathrm{cm}$ from the origin.
+compounds travel $3.6\,\mathrm{cm}$$7.2\,\mathrm{cm}$ And $10.8\,\mathrm{cm}$ from the origin.
 
 $$R_f(\mathrm{A}) = \frac{3.6}{12.0} = 0.30$$
 

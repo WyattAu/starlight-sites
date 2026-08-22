@@ -161,7 +161,7 @@ calculate the new allele frequency after one generation of selection.
 
 (a) Let $p$ = frequency of normal allele, $q$ = frequency of CF allele $= 0.02$.
 
-$p + q = 1$So $p = 0.98$.
+$p + q = 1$ So $p = 0.98$.
 
 Carrier frequency ($2pq$): $2 \times 0.98 \times 0.02 = 0.0392$.
 

@@ -146,7 +146,7 @@ $s = xyz$ where:
 3. $xy^iz \in L$ for all $i \geq 0$
 
 Choose $s = a^p b^p$. By condition 1, $y$ consists only of $a$'s. Pumping ($i = 0$):
-$xz = a^{p-|y|}b^p$. Since $|y| \geq 1$, $p - |y| \neq p$So $a^{p-|y|}b^p \notin L$. Contradiction.
+$xz = a^{p-|y|}b^p$. Since $|y| \geq 1$, $p - |y| \neq p$ So $a^{p-|y|}b^p \notin L$. Contradiction.
 $\square$
 
 <hr />
@@ -242,7 +242,7 @@ $$D(M) = \begin{cases} \mathrm{loop forever} & \mathrm{if } H(M, M) = \mathrm{ac
 Both cases lead to contradictions, so $H$ cannot exist. $\square$
 
 **Corollary.** The halting problem is semi-decidable (recursively enumerable): we can build a
-Machine that accepts when $M$ halts on $w$But it cannot always reject when $M$ doesn't halt (it
+Machine that accepts when $M$ halts on $w$ But it cannot always reject when $M$ doesn't halt (it
 Would have to run forever).
 
 <hr />
@@ -422,7 +422,7 @@ $k$ is odd, so it cannot be $ww$ (which always has even length). But even when $
 First half is $0^{(p-k/2)+1}$... Actually, for $xz = 0^{p-k}10^p1$ to be in $L = \{ww\}$We need The
 first half to equal the second half. The total length is $2p + 2 - k$. The first half is the First
 $p + 1 - k/2$ characters: $0^{p-k}1$. The second half is: $0^{k/2}0^p1 = 0^{p+k/2}1$. For These to
-be equal, $p-k = p+k/2$Giving $k = -k/2$So $k = 0$. But $k \geq 1$. Contradiction. ✓
+be equal, $p-k = p+k/2$Giving $k = -k/2$ So $k = 0$. But $k \geq 1$. Contradiction. ✓
 
 Therefore, $L$ is not regular. $\square$
 

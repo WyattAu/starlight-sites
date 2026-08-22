@@ -325,7 +325,7 @@ $$
    NADH.
 
 3. **Krebs cycle** (mitochondrial matrix): acetyl-CoA enters the cycle. Produces $\mathrm{CO_2$
-   NADH, FADH$_2$And 2 ATP per glucose.
+   NADH, FADH$_2$ And 2 ATP per glucose.
 
 4. **Electron transport chain** (inner mitochondrial membrane): NADH and FADH$_2$ donate electrons.
    Oxygen is the final electron acceptor. Produces approximately 28-34 ATP.

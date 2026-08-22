@@ -61,8 +61,8 @@ $\phi(h) = \phi_0 + \chi h + \cdots$:
 
 $$a\phi + b\phi^3 - h = 0 \implies (a + 3b\phi_0^2)\chi = 1$$
 
-- **$T > T_c$**: $\phi_0 = 0$So $\chi = 1/a = 1/[a_0(T - T_c)]$Giving $\gamma = 1$.
-- **$T < T_c$**: $\phi_0^2 = -a/b$So $\chi = 1/(-2a) = 1/[2a_0(T_c - T)]$Giving $\gamma" = 1$.
+- **$T > T_c$**: $\phi_0 = 0$ So $\chi = 1/a = 1/[a_0(T - T_c)]$Giving $\gamma = 1$.
+- **$T < T_c$**: $\phi_0^2 = -a/b$ So $\chi = 1/(-2a) = 1/[2a_0(T_c - T)]$Giving $\gamma" = 1$.
 
 ### 11.4 Specific Heat
 

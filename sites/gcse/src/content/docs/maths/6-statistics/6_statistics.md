@@ -55,7 +55,7 @@ Car).
 | Quota         | Interviewer fills quotas             | Quick                 | Not truly random             |
 | Opportunity   | Whoever is available                 | Convenient            | Highly biased                |
 
-**Stratified sampling formula.** If a population of size $N$ contains a subgroup of size $n$Then The
+**Stratified sampling formula.** If a population of size $N$ contains a subgroup of size $n$ Then The
 sample from that subgroup should be:
 
 $$\mathrm{sample size = \frac{n}{N} \times \mathrm{total sample size$$
@@ -197,14 +197,14 @@ For $n$ data values in order:
 
 ### 3.3 Box Plots
 
-A **box plot** displays the minimum, $Q_1$Median, $Q_3$And maximum.
+A **box plot** displays the minimum, $Q_1$Median, $Q_3$ And maximum.
 
 **Worked Example.** Data set: $2, 5, 7, 8, 10, 12, 15, 18, 22, 25$.
 
 - Minimum: 2
-- $Q_1$ position: $\frac{11}{4} = 2.75$So $Q_1 = 7 + 0.75(8 - 7) = 7.75$
+- $Q_1$ position: $\frac{11}{4} = 2.75$ So $Q_1 = 7 + 0.75(8 - 7) = 7.75$
 - Median position: 5.5, so median $= \frac{10 + 12}{2} = 11$
-- $Q_3$ position: $\frac{33}{4} = 8.25$So $Q_3 = 18 + 0.25(22 - 18) = 19$
+- $Q_3$ position: $\frac{33}{4} = 8.25$ So $Q_3 = 18 + 0.25(22 - 18) = 19$
 - Maximum: 25
 - $\mathrm{IQR = 19 - 7.75 = 11.25$
 
@@ -314,7 +314,7 @@ The exam score for a student who revised for 7 hours.
 
 Gradient: $m = \frac{85 - 35}{10 - 2} = \frac{50}{8} = 6.25$.
 
-Equation: $y - 35 = 6.25(x - 2)$So $y = 6.25x + 22.5$.
+Equation: $y - 35 = 6.25(x - 2)$ So $y = 6.25x + 22.5$.
 
 At $x = 7$: $y = 6.25 \times 7 + 22.5 = 43.75 + 22.5 = 66.25$.
 
@@ -336,7 +336,7 @@ The probability of any event satisfies $0 \leq P(E) \leq 1$.
 
 **Theorem.** For any events $A$ and $B$: $0 \leq P(A \cap B) \leq \min(P(A), P(B))$.
 
-**Proof.** $A \cap B \subseteq A$So $P(A \cap B) \leq P(A)$. Similarly $P(A \cap B) \leq P(B)$.
+**Proof.** $A \cap B \subseteq A$ So $P(A \cap B) \leq P(A)$. Similarly $P(A \cap B) \leq P(B)$.
 Since probabilities are non-negative, $P(A \cap B) \geq 0$. $\blacksquare$
 
 ### 5.2 Combined Events
@@ -538,7 +538,7 @@ Independent (because $P(A \cap B) = 0 \neq P(A) \times P(B)$ when both are posit
 
 **Example.** A card is drawn from a standard 52-card deck. Let $A$ be "the card is a heart" and $B$
 Be "the card is a king". These events are NOT mutually exclusive (the king of hearts is both), but
-They ARE independent: $P(A) = 13/52 = 1/4$, $P(B) = 4/52 = 1/13$And
+They ARE independent: $P(A) = 13/52 = 1/4$, $P(B) = 4/52 = 1/13$ And
 $P(A \cap B) = 1/52 = (1/4)(1/13)$.
 
 ### 9.2 Why the Standard Deviation Uses Squared Differences
@@ -661,7 +661,7 @@ The area under a frequency polygon equals the total frequency (just like a histo
 
 8. A histogram has a bar of width 4 and height 3.5. What frequency does this bar represent?
 
-9. Two events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.5$And $P(A \cup B) = 0.8$. Are $A$ and
+9. Two events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.5$ And $P(A \cup B) = 0.8$. Are $A$ and
    $B$ independent? Justify your answer.
 
 10. The heights of 100 students are summarised in a cumulative frequency table. Explain how you
@@ -678,7 +678,7 @@ The area under a frequency polygon equals the total frequency (just like a histo
 14. Two classes took the same test. Class A: median 55, IQR 20. Class B: median 52, IQR 30. Compare
     the performance of the two classes.
 
-15. In a Venn diagram for events $A$ and $B$$P(A) = 0.7$$P(B) = 0.5$And $P(A \mid B) = 0.6$. Find
+15. In a Venn diagram for events $A$ and $B$$P(A) = 0.7$$P(B) = 0.5$ And $P(A \mid B) = 0.6$. Find
     $P(A \cap B)$ and $P(A \cup B)$.
 
 16. A fair coin is tossed 5 times. Find the probability of getting at least 3 heads.

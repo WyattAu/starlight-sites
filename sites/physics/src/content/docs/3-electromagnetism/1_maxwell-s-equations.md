@@ -128,7 +128,7 @@ Gauss's law says that the total "outflow" of the electric field through any clos
 ### 1.5 Worked Example: Deriving the Electromagnetic Wave Equation
 
 **Problem.** Starting from Maxwell's equations in free space ($\rho = 0$,
-$\mathbf{J} = \mathbf{0}$), Derive the wave equations for $\mathbf{E}$ and $\mathbf{B}$And show that
+$\mathbf{J} = \mathbf{0}$), Derive the wave equations for $\mathbf{E}$ and $\mathbf{B}$ And show that
 the wave speed is $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
 
 <details>

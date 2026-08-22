@@ -194,14 +194,14 @@ $$\mathrm{Acetyl\ CoA + oxaloacetate + H_2O \to citrate + CoA + H^+}$$
 rearrangement makes the molecule more reactive for the next step.
 
 **Step 3: First oxidative decarboxylation.** Isocitrate is oxidised and decarboxylated by isocitrate
-dehydrogenase, producing $\alpha$-ketoglutarate (5-carbon), $\mathrm{CO_2}$And NADH. This is a key
+dehydrogenase, producing $\alpha$-ketoglutarate (5-carbon), $\mathrm{CO_2}$ And NADH. This is a key
 regulatory step.
 
 $$\mathrm{Isocitrate + NAD^+ \to \alpha\text{-}ketoglutarate + CO_2 + NADH + H^+}$$
 
 **Step 4: Second oxidative decarboxylation.** $\alpha$-Ketoglutarate is oxidised and decarboxylated
 by the $\alpha$-ketoglutarate dehydrogenase complex, producing succinyl CoA (4-carbon),
-$\mathrm{CO_2}$And NADH.
+$\mathrm{CO_2}$ And NADH.
 
 $$\mathrm{\alpha\text{-}Ketoglutarate + CoA + NAD^+ \to succinyl\ CoA + CO_2 + NADH + H^+}$$
 
@@ -823,7 +823,7 @@ protein as a respiratory substrate (average protein $RQ \approx 0.8$) or experim
 
 **Worked Example: Palmitic acid ($\mathrm{C_{16}H_{32}O_2}$).**
 
-Palmitic acid undergoes 7 rounds of beta-oxidation, producing 7 acetyl CoA, 7 $\mathrm{FADH_2}$And 7
+Palmitic acid undergoes 7 rounds of beta-oxidation, producing 7 acetyl CoA, 7 $\mathrm{FADH_2}$ And 7
 NADH:
 
 - Beta-oxidation products: 7 $\mathrm{FADH_2} \times 1.5 = 10.5$ ATP; 7 NADH $\times 2.5 = 17.5$
@@ -1722,9 +1722,9 @@ The three irreversible steps (1, 3, and 9) are the regulatory points:
 | Complex I (NADH dehydrogenase)       | 44 subunits; contains FMN and Fe-S clusters                     | Accepts electrons from NADH; passes to ubiquinone                                 | 4                     |
 | Complex II (succinate dehydrogenase) | 4 subunits; contains FAD and Fe-S clusters                      | Accepts electrons from $\mathrm{FADH_2}$ (from Krebs cycle); passes to ubiquinone | 0                     |
 | Ubiquinone (Q / coenzyme Q)          | Lipid-soluble carrier (mobile in inner membrane)                | Carries electrons from Complex I/II to Complex III                                | 0                     |
-| Complex III (cytochrome $bc_1$)      | 11 subunits; contains cytochromes $b$ and $c_1$And Fe-S cluster | Passes electrons from ubiquinone to cytochrome $c$                                | 4                     |
+| Complex III (cytochrome $bc_1$)      | 11 subunits; contains cytochromes $b$ and $c_1$ And Fe-S cluster | Passes electrons from ubiquinone to cytochrome $c$                                | 4                     |
 | Cytochrome $c$                       | Small soluble protein (mobile in intermembrane space)           | Carries electrons from Complex III to Complex IV                                  | 0                     |
-| Complex IV (cytochrome c oxidase)    | 14 subunits; contains cytochromes $a$ and $a_3$And Cu ions      | Accepts electrons from cytochrome $c$; reduces $\mathrm{O_2}$ to $\mathrm{H_2O}$  | 2                     |
+| Complex IV (cytochrome c oxidase)    | 14 subunits; contains cytochromes $a$ and $a_3$ And Cu ions      | Accepts electrons from cytochrome $c$; reduces $\mathrm{O_2}$ to $\mathrm{H_2O}$  | 2                     |
 | ATP synthase (Complex V)             | F$_0$ (membrane-embedded) + F$_1$ (matrix side)                 | Uses proton gradient to phosphorylate ADP to ATP                                  | 0 (utilises gradient) |
 
 ### 28.2 Proton Motive Force and ATP Yield

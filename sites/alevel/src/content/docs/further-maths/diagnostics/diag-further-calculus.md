@@ -53,7 +53,7 @@ meaning the area under the curve is infinite.
 **Question:** (a) Find the volume generated when the curve $y = \sqrt{x}$ is rotated $2\pi$ radians
 about the $x$-axis between $x = 0$ and $x = 4$. (b) Find the volume generated when $x = y^2$ (for
 $y \ge 0$) is rotated about the $y$-axis between $y = 0$ and $y = 2$. (c) The region bounded by
-$y = x^2$, $y = 0$And $x = 1$ is rotated about the $y$-axis. Calculate the volume using the shell
+$y = x^2$, $y = 0$ And $x = 1$ is rotated about the $y$-axis. Calculate the volume using the shell
 method: $V = 2\pi\int_a^b xy\,dx$.
 
 **Solution:**
@@ -78,7 +78,7 @@ normal to the curve at the point where $t = 2$.
 
 (a) $\frac{dx}{dt} = 2t$, $\frac{dy}{dt} = 3t^2 - 1$. $\frac{dy}{dx} = \frac{3t^2 - 1}{2t}$.
 
-(b) Stationary points: $\frac{dy}{dx} = 0$So $3t^2 - 1 = 0$, $t = \pm\frac{1}{\sqrt{3}}$.
+(b) Stationary points: $\frac{dy}{dx} = 0$ So $3t^2 - 1 = 0$, $t = \pm\frac{1}{\sqrt{3}}$.
 
 $t = \frac{1}{\sqrt{3}}$:
 $x = \frac{4}{3}$, $y = \frac{1}{3\sqrt{3}} - \frac{1}{\sqrt{3}} = -\frac{2}{3\sqrt{3}}$.
@@ -99,7 +99,7 @@ $\frac{d^2y}{dx^2} = \frac{6/3 + 2}{8/(-3\sqrt{3})} = -\frac{3\sqrt{3}}{2} \lt 0
 (d) At $t = 2$: $x = 5$, $y = 6$. $\frac{dy}{dx} = \frac{12-1}{4} = \frac{11}{4}$.
 
 Normal gradient $= -\frac{4}{11}$. Equation: $y - 6 = -\frac{4}{11}(x - 5)$I.e.,
-$11y - 66 = -4x + 20$So $4x + 11y = 86$.
+$11y - 66 = -4x + 20$ So $4x + 11y = 86$.
 
 ---
 
@@ -131,7 +131,7 @@ $\frac{1}{P(1000-P)} = \frac{1/1000}{P} + \frac{1/1000}{1000-P}$.
 $\frac{1}{1000}\ln\left|\frac{P}{1000-P}\right| = 0.001t + C$.
 $\ln\left|\frac{P}{1000-P}\right| = t + C"$.
 
-$\frac{P}{1000-P} = Ae^t$. At $t = 0$: $\frac{100}{900} = A$So $A = 1/9$.
+$\frac{P}{1000-P} = Ae^t$. At $t = 0$: $\frac{100}{900} = A$ So $A = 1/9$.
 
 $\frac{P}{1000-P} = \frac{e^t}{9}$. $P = \frac{1000e^t}{9 + e^t}$.
 
@@ -185,7 +185,7 @@ $= 2\pi\int_0^3 y\sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = 2\pi\int_0^3 \fra
 
 Let $u = 1 + x$$du = dx$$x = u - 1$: $= \frac{4\pi}{3}\int_1^4 (u-1)^{3/2}u^{1/2}\,du$.
 
-This integral requires expanding $(u-1)^{3/2} = u^{3/2} - 3u^{1/2} + 3u^{-1/2} - u^{-3/2}$Then
+This integral requires expanding $(u-1)^{3/2} = u^{3/2} - 3u^{1/2} + 3u^{-1/2} - u^{-3/2}$ Then
 multiplying by $u^{1/2}$ and integrating term by term.
 
 $= \frac{4\pi}{3}\int_1^4 (u^2 - 3u + 3 - u^{-1})\,du = \frac{4\pi}{3}\left[\frac{u^3}{3} - \frac{3u^2}{2} + 3u - \ln u\right]_1^4$

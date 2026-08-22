@@ -1,7 +1,7 @@
 ---
 date: 2026-07-23T14:42:26+01:00
 title: AP Computer Science A
-description: Complete guide to AP Computer Science A covering Java programming, data structures, algorithms, and exam preparation.
+description: "AP Computer Science A is a college-level course that introduces students to computer science through Java programming. The course covers fundamental"
 ---
 
 # AP Computer Science A

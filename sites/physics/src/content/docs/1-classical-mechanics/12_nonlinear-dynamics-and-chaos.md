@@ -149,7 +149,7 @@ rad/s$^2$.
 (c) The initial $\omega_2 = 0.5$ is the largest component, so the rotation is predominantly about
 the intermediate axis. Since $I_1 < I_2 < I_3$Rotation about the intermediate axis is **unstable**
 (tennis racket theorem). The body will exhibit periodic flipping, with $\omega_1$ and $\omega_3$
-growing at the expense of $\omega_2$Then reversing. This is the Dzhanibekov effect.
+growing at the expense of $\omega_2$ Then reversing. This is the Dzhanibekov effect.
 
 </details>
 

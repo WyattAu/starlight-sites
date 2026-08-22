@@ -39,7 +39,7 @@ The **mean free path:** $\ell = v_F\tau$.
 **Successes:** Explains Ohm"s law ($\mathbf{J} = \sigma\mathbf{E}$) and the Wiedemann--Franz law
 ($\kappa/\sigma = LT$ with $L = \pi^2 k_B^2/(3e^2)$).
 
-**Failures:** Predicts the wrong temperature dependence ($\rho \propto T$But experiments show
+**Failures:** Predicts the wrong temperature dependence ($\rho \propto T$ But experiments show
 $\rho \propto T^5$ at low $T$ for pure metals). Predicts
 $\gamma_{\mathrm{electron} = \frac{3}{2}nk_B}$ But experiments give
 $\gamma_{\mathrm{electron} = \frac{\pi^2}{2}nk_B(T/T_F)}$ (much smaller).
@@ -64,7 +64,7 @@ The conductivity becomes:
 
 $$\sigma = \frac{e^2}{3}\int \tau(\varepsilon)\,v^2(\varepsilon)\,g(\varepsilon)\left(-\frac{\partial f_0}{\partial\varepsilon}\right) d\varepsilon$$
 
-At low $T$, $-\partial f_0/\partial\varepsilon \approx \delta(\varepsilon - \varepsilon_F)$So only
+At low $T$, $-\partial f_0/\partial\varepsilon \approx \delta(\varepsilon - \varepsilon_F)$ So only
 states Near $E_F$ contribute to transport. This explains why impurity scattering dominates at low
 $T$ (even a small concentration of impurities affects states near $E_F$).
 

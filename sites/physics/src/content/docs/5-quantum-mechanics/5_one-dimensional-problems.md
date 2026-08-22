@@ -31,7 +31,7 @@ $$\phi(x) = A\sin(kx) + B\cos(kx)$$
 
 **Boundary conditions:** $\phi(0) = \phi(L) = 0$.
 
-From $\phi(0) = 0$: $B = 0$So $\phi(x) = A\sin(kx)$.
+From $\phi(0) = 0$: $B = 0$ So $\phi(x) = A\sin(kx)$.
 
 From $\phi(L) = 0$: $\sin(kL) = 0$Which requires $kL = n\pi$ for $n = 1, 2, 3, \ldots$
 
@@ -82,7 +82,7 @@ $$\hat{H} = \hbar\omega\!\left(\hat{a}^\dagger\hat{a} + \frac{1}{2}\right)$$
 Where we used
 $\hat{a}\hat{a}^\dagger = [\hat{a}, \hat{a}^\dagger] + \hat{a}^\dagger\hat{a} = 1 + \hat{a}^\dagger\hat{a}$.
 
-**Number operator.** $\hat{N} = \hat{a}^\dagger\hat{a}$So $\hat{H} = \hbar\omega(\hat{N} + 1/2)$.
+**Number operator.** $\hat{N} = \hat{a}^\dagger\hat{a}$ So $\hat{H} = \hbar\omega(\hat{N} + 1/2)$.
 
 _Proof that $\hat{a}$ and $\hat{a}^\dagger$ lower and raise the energy._ Compute
 $[\hat{H}, \hat{a}]$:
@@ -151,10 +151,10 @@ The **parity operator** $\hat{\Pi}$ reflects the coordinate: $\hat{\Pi}\psi(x) =
 
 **Properties:**
 
-- $\hat{\Pi}^2 = \hat{I}$So eigenvalues are $\pm 1$.
+- $\hat{\Pi}^2 = \hat{I}$ So eigenvalues are $\pm 1$.
 - Even functions ($\psi(-x) = \psi(x)$) have parity $+1$.
 - Odd functions ($\psi(-x) = -\psi(x)$) have parity $-1$.
-- If $V(x) = V(-x)$ (symmetric potential), then $[\hat{H}, \hat{\Pi}] = 0$So energy eigenstates can
+- If $V(x) = V(-x)$ (symmetric potential), then $[\hat{H}, \hat{\Pi}] = 0$ So energy eigenstates can
   be chosen to have definite parity.
 
 **Theorem 5.1.** For a symmetric potential $V(x) = V(-x)$The energy eigenstates are either even Or
@@ -194,7 +194,7 @@ $$-2\langle T \rangle + \langle x\,V'(x) \rangle = 0 \implies 2\langle T \rangle
 
 **Applications.** For the harmonic oscillator ($V \propto x^2$):
 $2\langle T \rangle = 2\langle V \rangle$ So $\langle T \rangle = \langle V \rangle = E/2$. For the
-hydrogen atom ($V \propto -1/r$): $2\langle T \rangle = -\langle V \rangle$So
+hydrogen atom ($V \propto -1/r$): $2\langle T \rangle = -\langle V \rangle$ So
 $\langle T \rangle = -E$ and $\langle V \rangle = 2E$.
 
 ### 5.4 The Finite Square Well
@@ -275,7 +275,7 @@ $x \gt 0$ Where $\kappa = \sqrt{-2mE}/\hbar$.
 
 $$\psi'(0^+) - \psi'(0^-) = -\frac{2m\alpha}{\hbar^2}\psi(0)$$
 
-This gives $-\kappa B - \kappa A = -2m\alpha A/\hbar^2$And since $A = B$:
+This gives $-\kappa B - \kappa A = -2m\alpha A/\hbar^2$ And since $A = B$:
 
 $$\kappa = \frac{m\alpha}{\hbar^2}$$
 

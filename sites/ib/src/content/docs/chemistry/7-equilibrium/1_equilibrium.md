@@ -629,7 +629,7 @@ Which salt is most soluble?
 A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($K_{sp} = 5.0 \times 10^{-13}$) C. AgI
 ($K_{sp} = 8.3 \times 10^{-17}$) D. BaSO$_4$ ($K_{sp} = 1.1 \times 10^{-10}$)
 
-**Answer: D** — BaSO$_4$ has the highest $K_{sp}$But this comparison is only valid for salts with
+**Answer: D** — BaSO$_4$ has the highest $K_{sp}$ But this comparison is only valid for salts with
 The same stoichiometry (1:1). For a fair comparison of solubility, convert to molar solubility. All
 Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_4$.
 
@@ -779,7 +779,7 @@ $$
 \mathrm{HCO}_3^- \rightleftharpoons \mathrm{H}^+ + \mathrm{CO}_3^{2-} \quad K_{a2} = 4.8 \times 10^{-11}
 $$
 
-Note: $K_{a1} \gg K_{a2}$So the first dissociation dominates.
+Note: $K_{a1} \gg K_{a2}$ So the first dissociation dominates.
 
 ### pH of Salt Solutions
 

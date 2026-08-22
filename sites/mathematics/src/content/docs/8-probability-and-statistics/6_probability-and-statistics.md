@@ -36,8 +36,8 @@ A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
 collection of subsets Of $\Omega$ satisfying:
 
 1. $\Omega \in \mathcal{F}$.
-2. If $A \in \mathcal{F}$Then $A^c \in \mathcal{F}$ (closed under complementation).
-3. If $A_1, A_2, A_3, \ldots \in \mathcal{F}$Then $\bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$
+2. If $A \in \mathcal{F}$ Then $A^c \in \mathcal{F}$ (closed under complementation).
+3. If $A_1, A_2, A_3, \ldots \in \mathcal{F}$ Then $\bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$
    (closed under countable unions).
 
 _Remark._ From (2) and (3), $\mathcal{F}$ is also closed under countable intersections (by De
@@ -58,8 +58,8 @@ intersections, and complements of open Sets. We write $(\mathbb{R}, \mathcal{B})
 sigma-algebra.
 
 _Proof._ Let `\\{\\mathcal{F}_\\alpha\\}` be a collection of sigma-algebras. Then: (1)
-$\Omega \in \mathcal{F}_\alpha$ for all $\alpha$So $\Omega \in \bigcap_\alpha \mathcal{F}_\alpha$.
-(2) If $A \in \bigcap_\alpha \mathcal{F}_\alpha$Then $A \in \mathcal{F}_\alpha$ for all $\alpha$So
+$\Omega \in \mathcal{F}_\alpha$ for all $\alpha$ So $\Omega \in \bigcap_\alpha \mathcal{F}_\alpha$.
+(2) If $A \in \bigcap_\alpha \mathcal{F}_\alpha$ Then $A \in \mathcal{F}_\alpha$ for all $\alpha$ So
 $A^c \in \mathcal{F}_\alpha$ for all $\alpha$Hence $A^c \in \bigcap_\alpha \mathcal{F}_\alpha$. (3)
 Countable unions follow similarly. $\blacksquare$
 
@@ -84,7 +84,7 @@ $P(\Omega) = P(\Omega) + P(\emptyset)$ Hence $P(\emptyset) = 0$. $\blacksquare$
 
 **Proposition 1.2 (Complement).** $P(A^c) = 1 - P(A)$.
 
-**Proposition 1.3 (Monotonicity).** If $A \subseteq B$Then $P(A) \leq P(B)$.
+**Proposition 1.3 (Monotonicity).** If $A \subseteq B$ Then $P(A) \leq P(B)$.
 
 _Proof._ Write $B = A \cup (B \setminus A)$A disjoint union. By countable additivity,
 $P(B) = P(A) + P(B \setminus A) \geq P(A)$ since $P(B \setminus A) \geq 0$. $\blacksquare$
@@ -95,7 +95,7 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
 _Proof._ Write $A \cup B = A \cup (B \setminus A)$ as a disjoint union. Then
 $P(A \cup B) = P(A) + P(B \setminus A)$. Since $B = (B \setminus A) \cup (A \cap B)$ is also
-disjoint, $P(B) = P(B \setminus A) + P(A \cap B)$So $P(B \setminus A) = P(B) - P(A \cap B)$.
+disjoint, $P(B) = P(B \setminus A) + P(A \cap B)$ So $P(B \setminus A) = P(B) - P(A \cap B)$.
 Substituting gives the Result. $\blacksquare$
 
 **Proposition 1.5 (General Inclusion-Exclusion).** For events $A_1, \ldots, A_n$:
@@ -232,7 +232,7 @@ $\mathrm{Var}(\mathbf{1}_A) = P(A)(1 - P(A))$.
 $(0, 1)$ with PDF $f(x) = 1$ for $x \in (0, 1)$ and $f(x) = 0$ otherwise.
 
 **Example 2.4 (Mixed).** A random variable can be neither purely discrete nor purely continuous. For
-instance, if $X = 0$ with probability $1/2$ and $X \sim \mathrm{Exp}(1)$ with probability $1/2$Then
+instance, if $X = 0$ with probability $1/2$ and $X \sim \mathrm{Exp}(1)$ with probability $1/2$ Then
 $X$ has an atom at 0 And a continuous part on $(0, \infty)$.
 
 ### 2.2 Cumulative Distribution Function
@@ -244,17 +244,17 @@ $$F_X(x) = P(X \leq x)$$
 **Theorem 2.1 (Properties of the CDF).**
 
 1. $\lim_{x \to -\infty} F(x) = 0$, $\lim_{x \to +\infty} F(x) = 1$.
-2. $F$ is non-decreasing: if $a \lt b$Then $F(a) \leq F(b)$.
+2. $F$ is non-decreasing: if $a \lt b$ Then $F(a) \leq F(b)$.
 3. $F$ is right-continuous: $\lim_{x \to a^+} F(x) = F(a)$.
 4. $P(a \lt X \leq b) = F(b) - F(a)$.
 5. $P(X = a) = F(a) - F(a^-)$ where $F(a^-) = \lim_{x \to a^-} F(x)$.
 6. $F$ has at most countably many points of discontinuity.
 
 _Proof._ (1) By monotonicity of $P$: $F(x) = P(X \leq x) \leq P(\Omega) = 1$ and as $x \to \infty$
-$\{X \leq x\} \uparrow \Omega$So by continuity from below, $F(x) \to 1$. Similarly as
+$\{X \leq x\} \uparrow \Omega$ So by continuity from below, $F(x) \to 1$. Similarly as
 $x \to -\infty$ $\{X \leq x\} \downarrow \emptyset$ and $F(x) \to 0$.
 
-(2) If $a \lt b$Then $\{X \leq a\} \subseteq \{X \leq b\}$So by monotonicity of $P$
+(2) If $a \lt b$ Then $\{X \leq a\} \subseteq \{X \leq b\}$ So by monotonicity of $P$
 $F(a) \leq F(b)$.
 
 (3) Let $x_n \downarrow a$. Then $\{X \leq x_n\} \downarrow \{X \leq a\}$ (since
@@ -341,7 +341,7 @@ $$F^{-1}(p) = \inf\{x : F(x) \geq p\}, \quad 0 \lt p \lt 1$$
 _Remark._ If $F$ is strictly increasing, then $F^{-1}(p)$ is the unique $x$ such that $F(x) = p$.
 For discrete Distributions, $F^{-1}$ is the generalised inverse.
 
-**Theorem 2.2 (Probability Integral Transform).** If $X$ has a continuous CDF $F$Then
+**Theorem 2.2 (Probability Integral Transform).** If $X$ has a continuous CDF $F$ Then
 $F(X) \sim \mathrm{Uniform}(0, 1)$.
 
 _Proof._ For $u \in (0, 1)$: $P(F(X) \leq u) = P(X \leq F^{-1}(u)) = F(F^{-1}(u)) = u$.
@@ -361,7 +361,7 @@ the sorted values.
 $$f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!}\, [F(x)]^{k-1}\, [1 - F(x)]^{n-k}\, f(x)$$
 
 _Proof._ For $X_{(k)} \leq x$ to hold, at least $k$ of the $X_i$ must be $\leq x$. The event
-$X_{(k)} \in (x, x + dx)$ Requires exactly $k - 1$ observations below $x$One in $(x, x + dx)$And
+$X_{(k)} \in (x, x + dx)$ Requires exactly $k - 1$ observations below $x$One in $(x, x + dx)$ And
 $n - k$ above $x + dx$:
 
 $$f_{X_{(k)}}(x)\, dx = \binom{n}{k-1, 1, n-k}\, [F(x)]^{k-1}\, f(x)\, dx\, [1 - F(x)]^{n-k}$$
@@ -516,7 +516,7 @@ $$f(x) = \begin{cases} \lambda e^{-\lambda x} & \mathrm{if}  x \geq 0 \\ 0 & \ma
 
 $$E[X] = \frac{1}{\lambda}, \quad \mathrm{Var}(X) = \frac{1}{\lambda^2}$$
 
-**Theorem 3.1 (Memoryless Property).** If $X \sim \mathrm{Exp}(\lambda)$Then for all $s, t \gt 0$:
+**Theorem 3.1 (Memoryless Property).** If $X \sim \mathrm{Exp}(\lambda)$ Then for all $s, t \gt 0$:
 
 $$P(X \gt s + t \mid X \gt s) = P(X \gt t)$$
 
@@ -553,7 +553,7 @@ $\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty} e^{-x^2/2}\, dx = 1$. For the gene
 $N(\mu, \sigma^2)$The substitution $z = (x - \mu)/\sigma$ reduces to the standard case.
 
 _Verification that $E[X] = \mu$ for $Z \sim N(0, 1)$:_ The integrand $z \cdot \phi(z)$ is an odd
-function of $z$So $\int_{-\infty}^{\infty} z\, \phi(z)\, dz = 0$. For $X = \mu + \sigma Z$:
+function of $z$ So $\int_{-\infty}^{\infty} z\, \phi(z)\, dz = 0$. For $X = \mu + \sigma Z$:
 $E[X] = \mu + \sigma \cdot 0 = \mu$.
 
 _Verification that $\mathrm{Var}(Z) = 1$:_ Integration by parts with $u = z$,
@@ -565,7 +565,7 @@ _Proof of MGF for $Z \sim N(0, 1)$:_
 
 $$M_Z(t) = \int_{-\infty}^{\infty} e^{tz} \frac{1}{\sqrt{2\pi}} e^{-z^2/2}\, dz = \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-(z^2 - 2tz)/2}\, dz$$
 
-Completing the square: $z^2 - 2tz = (z - t)^2 - t^2$So:
+Completing the square: $z^2 - 2tz = (z - t)^2 - t^2$ So:
 
 $$M_Z(t) = e^{t^2/2} \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-(z-t)^2/2}\, dz = e^{t^2/2} \cdot 1 = e^{t^2/2}$$
 
@@ -640,7 +640,7 @@ hours?
 <details>
 <summary>Solution</summary>
 
-The mean is $1/\lambda = 500$So $\lambda = 1/500$. By the memoryless property:
+The mean is $1/\lambda = 500$ So $\lambda = 1/500$. By the memoryless property:
 
 $$P(X \gt 300 + 200 \mid X \gt 300) = P(X \gt 200) = e^{-200/500} = e^{-0.4} \approx 0.6703$$
 
@@ -710,13 +710,13 @@ $$M_X(t) = E[e^{tX}]$$
 
 (provided the expectation exists in a neighbourhood of $t = 0$).
 
-**Theorem 4.3.** If $M_X(t)$ exists in a neighbourhood of $0$Then $E[X^n] = M_X^{(n)}(0)$.
+**Theorem 4.3.** If $M_X(t)$ exists in a neighbourhood of $0$ Then $E[X^n] = M_X^{(n)}(0)$.
 
 _Proof._ $M_X(t) = E[e^{tX}] = \sum_{n=0}^{\infty} \frac{t^n}{n!} E[X^n]$ (by expanding the Taylor
 series and exchanging Summation and expectation, justified by dominated convergence). The
-coefficient of $t^n/n!$ is $E[X^n]$So $E[X^n] = M_X^{(n)}(0)$. $\blacksquare$
+coefficient of $t^n/n!$ is $E[X^n]$ So $E[X^n] = M_X^{(n)}(0)$. $\blacksquare$
 
-**Theorem 4.4 (Uniqueness).** If $M_X(t) = M_Y(t)$ for all $t$ in a neighbourhood of $0$Then $X$ And
+**Theorem 4.4 (Uniqueness).** If $M_X(t) = M_Y(t)$ for all $t$ in a neighbourhood of $0$ Then $X$ And
 $Y$ have the same distribution.
 
 **Theorem 4.5.** If $X$ and $Y$ are independent, $M_{X+Y}(t) = M_X(t) M_Y(t)$.
@@ -830,7 +830,7 @@ $$M_X(t) = E[e^{tX}] = \int_0^{\infty} e^{tx} \lambda e^{-\lambda x}\, dx = \lam
 
 For $t \lt \lambda$: $M_X(t) = \frac{\lambda}{\lambda - t}$.
 
-$M_X'(t) = \frac{\lambda}{(\lambda - t)^2}$So $E[X] = M_X'(0) = 1/\lambda$. $\blacksquare$
+$M_X'(t) = \frac{\lambda}{(\lambda - t)^2}$ So $E[X] = M_X'(0) = 1/\lambda$. $\blacksquare$
 
 **Problem 4.1.** Find $E[X^2]$ and $\mathrm{Var}(X)$ for $X \sim \mathrm{Exp}(\lambda)$ using the
 MGF.
@@ -838,14 +838,14 @@ MGF.
 <details>
 <summary>Solution</summary>
 
-$M_X''(t) = \frac{2\lambda}{(\lambda - t)^3}$So
+$M_X''(t) = \frac{2\lambda}{(\lambda - t)^3}$ So
 $E[X^2] = M_X''(0) = \frac{2\lambda}{\lambda^3} = \frac{2}{\lambda^2}$.
 
 $$\mathrm{Var}(X) = E[X^2] - (E[X])^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2}$$
 
 </details>
 
-**Problem 4.2.** A fair die is rolled. Let $X$ be the value shown. Compute $E[X]$, $E[X^2]$And
+**Problem 4.2.** A fair die is rolled. Let $X$ be the value shown. Compute $E[X]$, $E[X^2]$ And
 $\mathrm{Var}(X)$.
 
 <details>
@@ -1022,7 +1022,7 @@ $$P(Y \gt 1 \mid X = 0.5) = P\left(Z \gt \frac{1 - 0.25}{\sqrt{3}/2}\right) = P\
 ### 5.8 Worked Examples
 
 **Problem 5.2.** Let $f_{X,Y}(x,y) = 8xy$ for $0 \leq x \leq 1, 0 \leq y \leq x$. Find the marginal
-distributions of $X$ And $Y$And determine whether $X$ and $Y$ are independent.
+distributions of $X$ And $Y$ And determine whether $X$ and $Y$ are independent.
 
 <details>
 <summary>Solution</summary>
@@ -1042,7 +1042,7 @@ Therefore $X$ and $Y$ are **not** independent. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-$E[X] = 0$, $E[Y] = E[X^2] = 1$And $E[XY] = E[X^3] = 0$ (since $X^3$ is an odd function of a
+$E[X] = 0$, $E[Y] = E[X^2] = 1$ And $E[XY] = E[X^3] = 0$ (since $X^3$ is an odd function of a
 symmetric distribution).
 
 $$\mathrm{Cov}(X, Y) = E[XY] - E[X]E[Y] = 0 - 0 = 0$$
@@ -1069,7 +1069,7 @@ _Remark._ Convergence in probability implies convergence in distribution. The co
 
 **Proposition 6.1.** If $X_n \xrightarrow{p} c$ (a constant), then $X_n \xrightarrow{d} c$.
 
-_Proof._ If $F_c(x)$ is the CDF of the constant $c$Then $F_c(x) = 0$ for $x \lt c$ and $F_c(x) = 1$
+_Proof._ If $F_c(x)$ is the CDF of the constant $c$ Then $F_c(x) = 0$ for $x \lt c$ and $F_c(x) = 1$
 for $x \gt c$. For $x \gt c$:
 $F_{X_n}(x) = P(X_n \leq x) = 1 - P(X_n \gt x) \to 1 - 0 = 1 = F_c(x)$. For $x \lt c$:
 $F_{X_n}(x) = P(X_n \leq x) \leq P(|X_n - c| \gt c - x) \to 0 = F_c(x)$. Since $F_c$ is continuous
@@ -1110,7 +1110,7 @@ That is, for all $a \lt b$:
 
 $$\lim_{n \to \infty} P\left(a \lt \frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \lt b\right) = \Phi(b) - \Phi(a)$$
 
-_Proof (sketch using MGFs)._ Let $Y_i = (X_i - \mu)/\sigma$So $E[Y_i] = 0$ and
+_Proof (sketch using MGFs)._ Let $Y_i = (X_i - \mu)/\sigma$ So $E[Y_i] = 0$ and
 $\mathrm{Var}(Y_i) = 1$. Define $Z_n = \frac{1}{\sqrt{n}} \sum_{i=1}^n Y_i$. We show
 $M_{Z_n}(t) \to e^{t^2/2}$ (the standard normal MGF).
 
@@ -1142,7 +1142,7 @@ limit inside Expressions that converge in distribution. This is essential for de
 asymptotic distribution of $t$-.../4-statistics-and-probability/2_statistics, for instance.
 
 **Corollary 6.1 (Asymptotic distribution of the t-statistic).** If $X_1, \ldots, X_n$ are i.i.d.
-With mean $\mu$ Variance $\sigma^2$And fourth moment, then
+With mean $\mu$ Variance $\sigma^2$ And fourth moment, then
 
 $$\frac{\bar{X}_n - \mu}{S_n / \sqrt{n}} \xrightarrow{d} N(0, 1)$$
 
@@ -1157,7 +1157,7 @@ $$\frac{\sqrt{n}(\bar{X}_n - \mu)}{\sigma} \cdot \frac{\sigma}{S_n} \xrightarrow
 ### 6.5 Delta Method
 
 **Theorem 6.5 (Delta Method).** If $\sqrt{n}(T_n - \theta) \xrightarrow{d} N(0, \sigma^2)$ and $g$
-is differentiable At $\theta$ with $g'(\theta) \neq 0$Then
+is differentiable At $\theta$ with $g'(\theta) \neq 0$ Then
 
 $$\sqrt{n}(g(T_n) - g(\theta)) \xrightarrow{d} N(0, \sigma^2 [g'(\theta)]^2)$$
 
@@ -1176,7 +1176,7 @@ distribution of $\sqrt{n}(\bar{X}_n - e^{-\bar{X}_n})$ using the delta method.
 By the CLT, $\sqrt{n}(\bar{X}_n - \lambda) \xrightarrow{d} N(0, \lambda)$ (since
 $\mathrm{Var}(X_i) = \lambda$).
 
-Let $g(t) = t - e^{-t}$. Then $g'(t) = 1 + e^{-t}$So $g'(\lambda) = 1 + e^{-\lambda}$.
+Let $g(t) = t - e^{-t}$. Then $g'(t) = 1 + e^{-t}$ So $g'(\lambda) = 1 + e^{-\lambda}$.
 
 By the delta method:
 
@@ -1206,7 +1206,7 @@ heads is between 4,900 and 5,100.
 <details>
 <summary>Solution</summary>
 
-Let $X \sim \mathrm{Bin}(10000, 0.5)$So $E[X] = 5000$ and $\mathrm{Var}(X) = 2500$. By the normal
+Let $X \sim \mathrm{Bin}(10000, 0.5)$ So $E[X] = 5000$ and $\mathrm{Var}(X) = 2500$. By the normal
 approximation With continuity correction:
 
 $$P(4900 \leq X \leq 5100) \approx P\left(\frac{4899.5 - 5000}{50} \leq Z \leq \frac{5100.5 - 5000}{50}\right)$$
@@ -1324,7 +1324,7 @@ interval for the True proportion $p$.
 <details>
 <summary>Solution</summary>
 
-$\hat{p} = 220/400 = 0.55$. For a Bernoulli: $I(p) = 1/[p(1-p)]$So
+$\hat{p} = 220/400 = 0.55$. For a Bernoulli: $I(p) = 1/[p(1-p)]$ So
 $\widehat{\mathrm{SE} = \sqrt{\hat{p}(1 - \hat{p})/n}
 = \sqrt{0.55 \times 0.45 / 400} = \sqrt{0.000619} \approx 0.02488}$.
 
@@ -1363,7 +1363,7 @@ $$\ell(p) = \sum_{j=1}^m \left[\log \binom{n}{x_j} + x_j \log p + (n - x_j) \log
 
 $$\frac{d\ell}{dp} = \sum_{j=1}^m \left[\frac{x_j}{p} - \frac{n - x_j}{1 - p}\right] = \frac{\sum x_j}{p} - \frac{mn - \sum x_j}{1 - p} = 0$$
 
-Solving: $(1 - p)\sum x_j = p(mn - \sum x_j)$So $\sum x_j = pmn$Hence
+Solving: $(1 - p)\sum x_j = p(mn - \sum x_j)$ So $\sum x_j = pmn$Hence
 $\hat{p} = \frac{\sum x_j}{mn} = \frac{\bar{x}}{n}$.
 
 Verify: $\frac{d^2\ell}{dp^2} = -\frac{\sum x_j}{p^2} - \frac{mn - \sum x_j}{(1-p)^2} \lt 0$.
@@ -1377,7 +1377,7 @@ a 95% confidence Interval.
 <details>
 <summary>Solution</summary>
 
-For $X \sim \mathrm{Exp}(\lambda)$: $f(x \mid \lambda) = \lambda e^{-\lambda x}$So
+For $X \sim \mathrm{Exp}(\lambda)$: $f(x \mid \lambda) = \lambda e^{-\lambda x}$ So
 $\log f = \log \lambda - \lambda x$.
 
 $$\frac{\partial}{\partial \lambda} \log f = \frac{1}{\lambda} - x$$
@@ -1600,7 +1600,7 @@ Under $H_1 \cup H_0$: $\sup_\mu L(\mu, \sigma^2) = L(\bar{x}, \sigma^2)$.
 
 $$\Lambda = \frac{L(\mu_0, \sigma^2)}{L(\bar{x}, \sigma^2)} = \exp\left(-\frac{1}{2\sigma^2}\left[\sum(x_i - \mu_0)^2 - \sum(x_i - \bar{x})^2\right]\right)$$
 
-Now $\sum(x_i - \mu_0)^2 = \sum(x_i - \bar{x})^2 + n(\bar{x} - \mu_0)^2$So:
+Now $\sum(x_i - \mu_0)^2 = \sum(x_i - \bar{x})^2 + n(\bar{x} - \mu_0)^2$ So:
 
 $$\Lambda = \exp\left(-\frac{n(\bar{x} - \mu_0)^2}{2\sigma^2}\right)$$
 
@@ -1617,7 +1617,7 @@ distinction is critical in scientific Reasoning.
 ## 9. Problem Set
 
 **Problem 1.** Let $A, B, C$ be events with $P(A) = 0.4$, $P(B) = 0.5$, $P(C) = 0.3$,
-$P(A \cap B) = 0.2$ $P(A \cap C) = 0.1$, $P(B \cap C) = 0.15$And $P(A \cap B \cap C) = 0.05$.
+$P(A \cap B) = 0.2$ $P(A \cap C) = 0.1$, $P(B \cap C) = 0.15$ And $P(A \cap B \cap C) = 0.05$.
 Compute $P(A \cup B \cup C)$.
 
 <details>
@@ -1664,12 +1664,12 @@ This is known as the **Bonferroni inequality**.
 If you get this wrong, revise: Section 1.4 (Basic Properties).
 
 **Problem 4.** Let $X$ be a continuous random variable with PDF $f(x) = cx^2$ for $0 \leq x \leq 1$
-and $f(x) = 0$ Otherwise. Find $c$The CDF, $E[X]$And $\mathrm{Var}(X)$.
+and $f(x) = 0$ Otherwise. Find $c$The CDF, $E[X]$ And $\mathrm{Var}(X)$.
 
 <details>
 <summary>Solution</summary>
 
-Normalisation: $\int_0^1 cx^2\, dx = c/3 = 1$So $c = 3$.
+Normalisation: $\int_0^1 cx^2\, dx = c/3 = 1$ So $c = 3$.
 
 CDF: $F(x) = \int_0^x 3t^2\, dt = x^3$ for $0 \leq x \leq 1$.
 
@@ -1805,7 +1805,7 @@ If you get this wrong, revise: Section 4.3 (MGFs).
 <details>
 <summary>Solution</summary>
 
-$X \sim \mathrm{Bin}(100, 0.3)$So $E[X] = 30$, $\mathrm{Var}(X) = 21$,
+$X \sim \mathrm{Bin}(100, 0.3)$ So $E[X] = 30$, $\mathrm{Var}(X) = 21$,
 $\sigma = \sqrt{21} \approx 4.583$.
 
 With continuity correction:
@@ -1934,7 +1934,7 @@ $$\Lambda = \frac{L(\mu_0)}{L(\bar{x})} = \exp\left(-\frac{1}{2}\left[\sum(x_i -
 
 $$-2\log \Lambda = n(\bar{x} - \mu_0)^2 = \left(\frac{\bar{x} - \mu_0}{1/\sqrt{n}}\right)^2 = Z^2$$
 
-Under $H_0$, $Z^2 \sim \chi^2_1$So we reject when $|Z| \gt z_{\alpha/2}$. This is exactly the
+Under $H_0$, $Z^2 \sim \chi^2_1$ So we reject when $|Z| \gt z_{\alpha/2}$. This is exactly the
 Z-test. $\blacksquare$
 
 </details>
@@ -1974,7 +1974,7 @@ where $\hat{p} = \frac{1}{n}\sum_{i=1}^n X_i$ and $X_i \sim \mathrm{Bernoulli}(p
 
 By the CLT, $\sqrt{n}(\hat{p} - p) \xrightarrow{d} N(0, p(1-p))$.
 
-Let $g(t) = t(1 - t) = t - t^2$. Then $g'(t) = 1 - 2t$So $g'(p) = 1 - 2p$.
+Let $g(t) = t(1 - t) = t - t^2$. Then $g'(t) = 1 - 2t$ So $g'(p) = 1 - 2p$.
 
 By the delta method:
 
@@ -2024,7 +2024,7 @@ Compute $E[X \mid Y = y]$ And verify the law of iterated expectations.
 <details>
 <summary>Solution</summary>
 
-The marginal of $Y$: $f_Y(y) = \int_0^{\infty} e^{-x-y}\, dx = e^{-y}$So $Y \sim \mathrm{Exp}(1)$.
+The marginal of $Y$: $f_Y(y) = \int_0^{\infty} e^{-x-y}\, dx = e^{-y}$ So $Y \sim \mathrm{Exp}(1)$.
 
 The conditional PDF: $f_{X \mid Y}(x \mid y) = \frac{e^{-x-y}}{e^{-y}} = e^{-x}$ for $x \gt 0$.
 
@@ -2055,11 +2055,11 @@ Integrating out $v$:
 
 $$f_U(u) = \int_{-\infty}^{\infty} \frac{|v|}{2\pi} e^{-v^2(1+u^2)/2}\, dv = \frac{1}{\pi} \int_0^{\infty} v\, e^{-v^2(1+u^2)/2}\, dv$$
 
-Let $w = v^2(1+u^2)/2$So $dw = v(1+u^2)\, dv$:
+Let $w = v^2(1+u^2)/2$ So $dw = v(1+u^2)\, dv$:
 
 $$f_U(u) = \frac{1}{\pi(1+u^2)} \int_0^{\infty} e^{-w}\, dw = \frac{1}{\pi(1+u^2)}$$
 
-This is the standard Cauchy distribution. Note that $E[|X/Y|] = \infty$So the mean does not exist.
+This is the standard Cauchy distribution. Note that $E[|X/Y|] = \infty$ So the mean does not exist.
 $\blacksquare$
 
 </details>

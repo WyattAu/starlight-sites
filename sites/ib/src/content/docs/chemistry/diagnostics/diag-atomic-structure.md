@@ -160,7 +160,7 @@ $E_i = E_f + \Delta E = -3.40 + 2.857 = -0.543\ \text{eV}$.
 
 $n_i = \sqrt{13.6/0.543} = \sqrt{25.04} \approx 5$. The transition is $n = 5 \to n = 2$.
 
-Uncertainty: $\frac{\Delta E}{E} = \frac{\Delta\lambda}{\lambda}$ (from $E \propto 1/\lambda$So
+Uncertainty: $\frac{\Delta E}{E} = \frac{\Delta\lambda}{\lambda}$ (from $E \propto 1/\lambda$ So
 $\Delta E = \frac{hc\,\Delta\lambda}{\lambda^2}$).
 
 $\Delta E = \frac{hc \times 0.5 \times 10^{-9}}{(434.0 \times 10^{-9})^2} = \frac{9.936 \times 10^{-34}}{1.884 \times 10^{-13}} = 5.27 \times 10^{-21}\ \text{J} \approx 0.033\ \text{eV}$.
@@ -180,7 +180,7 @@ $\Delta E = \frac{hc \times 0.5 \times 10^{-9}}{(434.0 \times 10^{-9})^2} = \fra
 
 **Question:** Sodium ($Z = 11$) readily forms $\text{Na}^+$Whereas neon ($Z = 10$) is chemically
 inert. Use electron configuration and ionisation energy data to explain this difference. The first
-three ionisation energies of sodium are $496$$4562$And $6912\ \text{kJ mol}^{-1}$. What do these
+three ionisation energies of sodium are $496$$4562$ And $6912\ \text{kJ mol}^{-1}$. What do these
 values reveal about the stability of the $\text{Na}^+$ ion?
 
 **Solution:** Na: $[Ne]\, 3s^1$. Ne: $1s^2\, 2s^2\, 2p^6 = [Ne]$.

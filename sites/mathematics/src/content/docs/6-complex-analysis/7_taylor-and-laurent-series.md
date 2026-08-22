@@ -19,7 +19,7 @@ description: "Taylor and Laurent Series: comprehensive educational content notes
 
 ### 7.1 Taylor Series
 
-**Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$Then
+**Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$ Then
 
 $$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n$$
 
@@ -113,7 +113,7 @@ In $|z| \lt 1$: $\frac{1}{z - 1} = -\frac{1}{1 - z} = -\sum_{n=0}^{\infty} z^n$.
 
 So $f(z) = -\sum_{n=0}^{\infty} z^n - \frac{1}{z} = \cdots - z^2 - z - 1 - \frac{1}{z}$.
 
-The principal part is $-1/z$So $z = 0$ is a simple pole. $\blacksquare$
+The principal part is $-1/z$ So $z = 0$ is a simple pole. $\blacksquare$
 
 **Problem.** Find the Laurent series of $f(z) = \frac{1}{z(z-1)}$ in $1 \lt |z| \lt \infty$.
 
@@ -124,7 +124,7 @@ $f(z) = \sum_{n=2}^{\infty} z^{-n} - \frac{1}{z} = \frac{1}{z^2} + \frac{1}{z^3}
 
 **Problem.** Find the Laurent series of $f(z) = \frac{e^z}{z^2}$ in $0 \lt |z| \lt \infty$.
 
-$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!}$So
+$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!}$ So
 $f(z) = \sum_{n=0}^{\infty} \frac{z^{n-2}}{n!}
 = \frac{1}{z^2} + \frac{1}{z} + \frac{1}{2} + \frac{z}{6} + \cdots$
 
@@ -161,7 +161,7 @@ _Proof._ By the residue theorem applied to $|z| = R$ enclosing all finite singul
 
 $\int_{|z|=R} f\, dz = 2\pi i \sum_{\mathrm{finite} \mathrm{Res}(f, z_k)}$.
 
-But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$So the sum is zero.
+But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$ So the sum is zero.
 $\blacksquare$
 
 ## Intuition

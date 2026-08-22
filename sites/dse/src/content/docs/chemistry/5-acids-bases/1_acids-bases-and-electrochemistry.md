@@ -2,8 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Chemistry - Acids, Bases, and Electrochemistry
-description: "Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls."
-
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -88,7 +87,7 @@ Where $[\mathrm{H}^+]$ is the concentration of hydrogen ions in mol/dm$^3$.
 
 ### pH of Water
 
-Pure water at $25^\circ\mathrm{C}$: $[\mathrm{H}^+] = [\mathrm{OH}^-] = 10^{-7}$ mol/dm$^3$So
+Pure water at $25^\circ\mathrm{C}$: $[\mathrm{H}^+] = [\mathrm{OH}^-] = 10^{-7}$ mol/dm$^3$ So
 $\mathrm{pH} = 7$.
 
 The ionic product of water:
@@ -578,7 +577,7 @@ A cell is constructed from a $\mathrm{Zn}^{2+}/\mathrm{Zn}$ half-cell
 ($E^\circ = -0.76 \mathrm{ V}$) and a $\mathrm{Cu}^{2+}/\mathrm{Cu}$ half-cell
 ($E^\circ = +0.34 \mathrm{ V}$). Find the cell potential and write the overall equation.
 
-Copper has the more positive $E^\circ$So reduction occurs at the copper electrode (cathode).
+Copper has the more positive $E^\circ$ So reduction occurs at the copper electrode (cathode).
 
 $$E^\circ_{\mathrm{cell}} = 0.34 - (-0.76) = 1.10 \mathrm{ V}$$
 
@@ -713,7 +712,7 @@ $2\mathrm{MnO}_4^- + 5\mathrm{C}_2\mathrm{O}_4^{2-} + 16\mathrm{H}^+ \to 2\mathr
 And $\mathrm{Ag}^+/\mathrm{Ag}$ ($E^\circ = +0.80 \mathrm{ V}$). Write the overall equation and
 Calculate the cell potential.
 
-Silver has the more positive $E^\circ$So it is the cathode.
+Silver has the more positive $E^\circ$ So it is the cathode.
 
 $$E^\circ_{\mathrm{cell}} = 0.80 - (-0.76) = 1.56 \mathrm{ V}$$
 
@@ -1144,7 +1143,7 @@ _If you get this wrong, revise: Electrolysis of Aqueous Solutions_
 
 <summary>Solution</summary>
 
-Cathode: $\mathrm{Na^+}$ is above $\mathrm{H^+}$So $\mathrm{H_2}$ is produced:
+Cathode: $\mathrm{Na^+}$ is above $\mathrm{H^+}$ So $\mathrm{H_2}$ is produced:
 
 $$2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 2\mathrm{OH^-}$$
 

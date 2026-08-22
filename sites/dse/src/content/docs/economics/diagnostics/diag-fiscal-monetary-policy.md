@@ -68,7 +68,7 @@ Explain why monetary policy may be less effective during a deep recession (liqui
    reduces consumption through the wealth effect.
 
 (b) Change in money supply $= Money multiplier \times Change in monetary base$.
-$\Delta M = m \times \Delta B$. $100 = 5 \times \Delta B$So $\Delta B = \$20$ billion.
+$\Delta M = m \times \Delta B$. $100 = 5 \times \Delta B$ So $\Delta B = \$20$ billion.
 
 The central bank should sell $\$20$ billion of government bonds, reducing bank reserves by $\$20$
 billion, which contracts the money supply by $\$100$ billion through the money multiplier.
@@ -255,11 +255,11 @@ $\Delta d = (r - g) \cdot d_0 + p = (0.03 - 0.04) \times 0.60 + 0.032 = -0.006 +
 The debt ratio is **rising** by approximately 2.6 percentage points per year. Despite the favourable
 interest-growth differential ($g \gt r$), the large primary deficit drives the debt ratio upward.
 
-(d) For a stable debt ratio, $\Delta d = 0$: $(r - g) \cdot d_0 + p = 0$So
+(d) For a stable debt ratio, $\Delta d = 0$: $(r - g) \cdot d_0 + p = 0$ So
 $p = -(r - g) \cdot d_0 = -(0.03 - 0.04) \times 0.60 = 0.006 = 0.6\%$.
 
 The government needs a **primary deficit** of at most $0.6\%$ of GDP, or equivalently a primary
-surplus of $-0.6\%$. Current primary deficit is $3.2\%$So it must reduce spending or increase
+surplus of $-0.6\%$. Current primary deficit is $3.2\%$ So it must reduce spending or increase
 revenue by $(3.2\% - 0.6\%) \times 3000 = HK\$78$ billion.
 
 ### EQ-2: Discretionary Fiscal Policy with the AD-AS Model

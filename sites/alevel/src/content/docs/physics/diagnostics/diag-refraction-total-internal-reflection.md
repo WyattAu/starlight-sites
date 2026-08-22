@@ -179,7 +179,7 @@ $$d_{\text{app}} = \frac{d_g}{n_g} = \frac{3.0}{1.52} = 1.97\,\text{cm}$$
 The apparent depth formula uses the refractive index of the object's medium relative to the
 observer's medium. The liquid layer does not change the apparent thickness of the glass block
 itself; it only affects the apparent depth of objects within or below the liquid. The total apparent
-depth of the bottom of the glass from the liquid surface would be $d_l/n_l + d_g/n_g$But the
+depth of the bottom of the glass from the liquid surface would be $d_l/n_l + d_g/n_g$ But the
 apparent thickness of the glass alone is $d_g/n_g = 1.97\,\text{cm}$.
 
 (c) The apparent depth formula $d_{\text{app}} = d/n$ is derived using the small-angle (paraxial)

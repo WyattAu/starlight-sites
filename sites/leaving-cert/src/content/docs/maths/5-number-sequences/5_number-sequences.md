@@ -44,7 +44,7 @@ $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \ma
 
 The real numbers satisfy the following axioms:
 
-**Closure:** If $a, b \in \mathbb{R}$Then $a + b \in \mathbb{R}$ and $a \cdot b \in \mathbb{R}$.
+**Closure:** If $a, b \in \mathbb{R}$ Then $a + b \in \mathbb{R}$ and $a \cdot b \in \mathbb{R}$.
 
 **Commutativity:** $a + b = b + a$ and $a \cdot b = b \cdot a$.
 
@@ -66,18 +66,18 @@ A number is irrational if it cannot be expressed as a ratio of integers.
 
 **Proof that $\sqrt{2}$ is irrational:**
 
-Assume $\sqrt{2} = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$And the fraction is in Lowest
+Assume $\sqrt{2} = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ And the fraction is in Lowest
 terms ($\gcd(p, q) = 1$).
 
-Then $p^2 = 2q^2$So $p^2$ is even, which means $p$ is even. Let $p = 2k$. Then $4k^2 = 2q^2$ Giving
-$q^2 = 2k^2$So $q$ is also even. But this contradicts $\gcd(p, q) = 1$. Therefore $\sqrt{2}$ is
+Then $p^2 = 2q^2$ So $p^2$ is even, which means $p$ is even. Let $p = 2k$. Then $4k^2 = 2q^2$ Giving
+$q^2 = 2k^2$ So $q$ is also even. But this contradicts $\gcd(p, q) = 1$. Therefore $\sqrt{2}$ is
 irrational.
 
 ### Proofs Involving Irrationals (HL)
 
 **Example:** Prove that $\sqrt{2} + \sqrt{3}$ is irrational.
 
-Assume $\sqrt{2} + \sqrt{3} = r$ where $r \in \mathbb{Q}$. Then $\sqrt{3} = r - \sqrt{2}$So
+Assume $\sqrt{2} + \sqrt{3} = r$ where $r \in \mathbb{Q}$. Then $\sqrt{3} = r - \sqrt{2}$ So
 $3 = r^2 - 2r\sqrt{2} + 2$Giving:
 
 $$
@@ -89,12 +89,12 @@ $\sqrt{2}$.
 
 **Example:** Prove that $\sqrt{2} \cdot \sqrt{3} = \sqrt{6}$ is irrational.
 
-Assume $\sqrt{6} = \frac{p}{q}$ in lowest terms. Then $p^2 = 6q^2$So $p$ is even. Let $p = 2k$. Then
-$4k^2 = 6q^2$Giving $2k^2 = 3q^2$So $q$ is even. Contradiction.
+Assume $\sqrt{6} = \frac{p}{q}$ in lowest terms. Then $p^2 = 6q^2$ So $p$ is even. Let $p = 2k$. Then
+$4k^2 = 6q^2$Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
 
 **Example (HL):** Prove that $\sqrt{2} + \sqrt{5}$ is irrational.
 
-Assume $\sqrt{2} + \sqrt{5} = r \in \mathbb{Q}$. Then $\sqrt{5} = r - \sqrt{2}$So
+Assume $\sqrt{2} + \sqrt{5} = r \in \mathbb{Q}$. Then $\sqrt{5} = r - \sqrt{2}$ So
 $5 = r^2 - 2r\sqrt{2} + 2$Giving:
 
 $$
@@ -106,7 +106,7 @@ This contradicts the irrationality of $\sqrt{2}$.
 **Example (HL):** Prove that $\log_2 3$ is irrational.
 
 Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$In lowest terms. Then
-$2^{p/q} = 3$So $2^p = 3^q$.
+$2^{p/q} = 3$ So $2^p = 3^q$.
 
 The left side is even (since $p \ge 1$) but the right side is odd. Contradiction.
 
@@ -229,7 +229,7 @@ $S_n = a + (a+d) + (a+2d) + \cdots + (l-d) + l$
 
 $S_n = l + (l-d) + (l-2d) + \cdots + (a+d) + a$
 
-Adding: $2S_n = n(a+l)$So $S_n = \frac{n}{2}(a+l)$.
+Adding: $2S_n = n(a+l)$ So $S_n = \frac{n}{2}(a+l)$.
 
 **Example (OL):** Find the sum of the first 20 terms of 3, 7, 11, 15, ...
 
@@ -250,7 +250,7 @@ $$
 T_{12} = a + 11d = 38
 $$
 
-Subtracting: $7d = 21$So $d = 3$. Then $a = 17 - 12 = 5$.
+Subtracting: $7d = 21$ So $d = 3$. Then $a = 17 - 12 = 5$.
 
 ### Arithmetic Mean (HL)
 
@@ -281,7 +281,7 @@ $$
 
 $rS_n = ar + ar^2 + \cdots + ar^{n-1} + ar^n$
 
-Subtracting: $S_n - rS_n = a - ar^n$So $S_n(1-r) = a(1 - r^n)$Giving
+Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$Giving
 $S_n = \frac{a(1-r^n)}{1-r} = \frac{a(r^n-1)}{r-1}$.
 
 **Example (OL):** Find the sum of the first 8 terms of 2, 6, 18, 54, ...
@@ -309,7 +309,7 @@ $$
 
 With equality if and only if $a = b$.
 
-**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$We have $a - 2\sqrt{ab} + b \geq 0$So
+**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$We have $a - 2\sqrt{ab} + b \geq 0$ So
 $a + b \geq 2\sqrt{ab}$Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
 
 ### Sum to Infinity (HL)
@@ -320,7 +320,7 @@ $$
 S_\infty = \frac{a}{1 - r}
 $$
 
-**Why $|r| \ge 1$ diverges.** If $|r| \ge 1$Then $|T_n| = |a||r|^{n-1} \ge |a| > 0$ for all $n$ So
+**Why $|r| \ge 1$ diverges.** If $|r| \ge 1$ Then $|T_n| = |a||r|^{n-1} \ge |a| > 0$ for all $n$ So
 $T_n$ does not approach zero, and the partial sums diverge.
 
 **Example (HL):** Find the sum to infinity of $1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$
@@ -589,7 +589,7 @@ The general solution is $T_n = L + (T_1 - L)a^{n-1}$.
 
 **Why this works.** Let $U_n = T_n - L$. Then
 $U_{n+1} = T_{n+1} - L = aT_n + b - L = aT_n + b - \frac{b}{1-a} = aT_n + \frac{b - b + ab}{1-a} = aT_n + \frac{ab}{1-a}$.
-Since $L = \frac{b}{1-a}$We have $aL = \frac{ab}{1-a}$So $U_{n+1} = aT_n - aL = aU_n$. This is a
+Since $L = \frac{b}{1-a}$We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
 Geometric sequence with ratio $a$.
 
 **Example:** Solve $T_1 = 3$, $T_{n+1} = 2T_n + 5$.
@@ -697,7 +697,7 @@ See the examples integrated throughout the sections above.
 17. Prove that $n! > 2^n$ for all $n \ge 4$ by induction.
 18. A loan of EUR 150,000 is repaid over 20 years at a monthly rate of 0.4%. Find the monthly
     repayment and the total amount paid.
-19. The first three terms of a geometric sequence are $x - 2$$x + 2$And $x + 8$. Find $x$ and the
+19. The first three terms of a geometric sequence are $x - 2$$x + 2$ And $x + 8$. Find $x$ and the
     common ratio.
 20. Prove that the sum of an odd number and an even number is always odd.
 
@@ -767,7 +767,7 @@ $\phi = \frac{1+\sqrt{5}}{2} \approx 1.618$.
 
 #### Deducing the Formula for $T_n$ Given $S_n$
 
-If $S_n = 3n^2 + n$Then:
+If $S_n = 3n^2 + n$ Then:
 
 $$
 T_n = S_n - S_{n-1} = (3n^2 + n) - [3(n-1)^2 + (n-1)]

@@ -142,8 +142,8 @@ def sum_n(n):
 **Proof:**
 
 - _Init:_ Before the first iteration, $i = 1$`total = 0`. Sum of empty set = 0. ✓
-- _Maintenance:_ `total` increases by $i$Then $i$ increases by 1. After: `total = 1 + ... + i` and
-  next $i" = i + 1$So invariant holds.
+- _Maintenance:_ `total` increases by $i$ Then $i$ increases by 1. After: `total = 1 + ... + i` and
+  next $i" = i + 1$ So invariant holds.
 - _Termination:_ $i = n + 1$. `total = 1 + 2 + ... + n = n(n+1)/2`. ✓
 
 ### Do-While / Repeat-Until
@@ -447,10 +447,10 @@ $b = 0$. ✓
 
 **Correctness.** We prove $\gcd(a, b) = \gcd(b, a \bmod b)$.
 
-Let $d = \gcd(a, b)$. Then $d | a$ and $d | b$So $d | (a - q \cdot b) = a \bmod b$. Hence
+Let $d = \gcd(a, b)$. Then $d | a$ and $d | b$ So $d | (a - q \cdot b) = a \bmod b$. Hence
 $d | \gcd(b, a \bmod b)$.
 
-Conversely, let $e = \gcd(b, a \bmod b)$. Then $e | b$ and $e | (a \bmod b)$So
+Conversely, let $e = \gcd(b, a \bmod b)$. Then $e | b$ and $e | (a \bmod b)$ So
 $e | (q \cdot b + a \bmod b) = a$. Hence $e | \gcd(a, b)$.
 
 Since $d | e$ and $e | d$, $d = e$. ✓

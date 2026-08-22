@@ -1217,7 +1217,7 @@ $t \in \mathbb{R}^d$.
 
 :::note
 **Generalization to Banach Spaces:** For a random variable $X$ taking values in a Banach
-space $B$ (which may lack an inner product), $t$ belongs to the _dual space_ $B^*$And the
+space $B$ (which may lack an inner product), $t$ belongs to the _dual space_ $B^*$ And the
 characteristic function is defined as $\varphi_X(t) = \mathbb{E}\left[ e^{i t(X)} \right]$
 where $t: B \to \mathbb{R}$ is a continuous linear functional. For Hilbert spaces, the
 Riesz Representation Theorem identifies $B^*$ with $B$, recovering the inner product formulation.

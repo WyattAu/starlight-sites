@@ -126,7 +126,7 @@ Number showing the recessive phenotype: $q^2 \times 5000 = 0.09 \times 5000 = 45
 <strong>Worked Example 3</strong>
 16% of individuals in a population show the recessive phenotype. What percentage is heterozygous?
 
-$q^2 = 0.16$So $q = 0.4$, $p = 0.6$.
+$q^2 = 0.16$ So $q = 0.4$, $p = 0.6$.
 
 $2pq = 2(0.6)(0.4) = 0.48 = 48\%$.
 :::

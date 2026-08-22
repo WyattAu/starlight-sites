@@ -251,7 +251,7 @@ $R = 1 \times 24000 = 24000$
 
 Since $R = 24000 \gg 982$The grating can resolve the sodium doublet in the first order.
 
-(c) For the second order, $R = 2N \ge 982$So $N \ge 491$ lines.
+(c) For the second order, $R = 2N \ge 982$ So $N \ge 491$ lines.
 
 The minimum width of grating needed: $491/6000 = 0.082\,\text{cm} = 0.82\,\text{mm}$.
 

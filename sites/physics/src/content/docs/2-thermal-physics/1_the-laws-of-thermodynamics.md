@@ -19,8 +19,8 @@ description: "If system is in thermal equilibrium with system And is in thermal 
 
 ### 1.1 Zeroth Law and Temperature
 
-**Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$And $B$ is in thermal
-equilibrium with system $C$Then $A$ is in thermal equilibrium with $C$.
+**Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$ And $B$ is in thermal
+equilibrium with system $C$ Then $A$ is in thermal equilibrium with $C$.
 
 This establishes **temperature** as a transitive equivalence relation: two systems are in thermal
 equilibrium if and only if they have the same temperature.
@@ -135,7 +135,7 @@ _Solution._ We use the thermodynamic identity $dU = TdS - PdV$. Dividing by $dV$
 $$\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial S}{\partial V}\right)_T - P$$
 
 By the third Maxwell relation: $(\partial S/\partial V)_T = (\partial P/\partial T)_V$. For an ideal
-gas, $P = Nk_BT/V$So $(\partial P/\partial T)_V = Nk_B/V$.
+gas, $P = Nk_BT/V$ So $(\partial P/\partial T)_V = Nk_B/V$.
 
 Therefore:
 

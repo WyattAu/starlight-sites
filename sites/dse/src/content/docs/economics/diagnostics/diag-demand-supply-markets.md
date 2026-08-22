@@ -66,7 +66,7 @@ Surplus, and deadweight loss.
 
 **Solution:**
 
-(a) Equilibrium: $8000 - 20Q = 2000 + 20Q$So $6000 = 40Q$$Q^* = 150$ (thousand units),
+(a) Equilibrium: $8000 - 20Q = 2000 + 20Q$ So $6000 = 40Q$$Q^* = 150$ (thousand units),
 $P^* = 8000 - 20(150) = HK\$5000$.
 
 (b) Consumer surplus

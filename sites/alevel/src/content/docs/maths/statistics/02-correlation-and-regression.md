@@ -246,7 +246,7 @@ commenting on the limitation.
 
 ## 6. Coding in Regression
 
-If we code $u = \dfrac{x-p}{q}$ and $v = \dfrac{y-r}{s}$And find the regression line $v = c + du$
+If we code $u = \dfrac{x-p}{q}$ and $v = \dfrac{y-r}{s}$ And find the regression line $v = c + du$
 Then:
 
 - The gradient in terms of original variables: $b = \dfrac{s}{q}d$
@@ -270,7 +270,7 @@ Determination $r^2$ is also invariant under coding.
 An economist records quarterly revenue and advertising spend. To simplify calculations, she codes
 $u = x/10$ (where $x$ is advertising in GBP) and $v = y/1000$ (where $y$ is revenue in GBP).
 
-If the coded regression line is $v = 2.3 + 0.7u$Then in original variables:
+If the coded regression line is $v = 2.3 + 0.7u$ Then in original variables:
 
 $$\frac{y}{1000} = 2.3 + 0.7\left(\frac{x}{10}\right)$$
 
@@ -393,7 +393,7 @@ Correlation does not imply causation. Both ice cream sales and drowning deaths a
 
 <details>
 <summary>Problem 7</summary>
-Given $S_{xx} = 80$$S_{yy} = 200$And $S_{xy} = 100$Find $r$$b$ (gradient of $y$ on $x$), and the proportion of variance in $y$ explained by $x$.
+Given $S_{xx} = 80$$S_{yy} = 200$ And $S_{xy} = 100$Find $r$$b$ (gradient of $y$ on $x$), and the proportion of variance in $y$ explained by $x$.
 </details>
 
 <details>
@@ -574,8 +574,8 @@ A dataset of 15 observations has regression line $y = 5 + 2x$ with $\bar{x} = 10
 <details>
 <summary>Solution 14</summary>
 
-The point $(25, 70)$ has $x = 25$Which is far from $\bar{x} = 10$So it has **high leverage**. Its
-predicted $y$-value from the current line would be $\hat{y} = 5 + 2(25) = 55$But the actual Value is
+The point $(25, 70)$ has $x = 25$Which is far from $\bar{x} = 10$ So it has **high leverage**. Its
+predicted $y$-value from the current line would be $\hat{y} = 5 + 2(25) = 55$ But the actual Value is
 $70$. The residual is $70 - 55 = 15$Which is positive and large.
 
 (a) Since the point lies above the regression line and has high leverage, it will **increase** the

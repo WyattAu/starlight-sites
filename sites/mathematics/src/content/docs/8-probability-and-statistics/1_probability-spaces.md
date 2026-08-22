@@ -28,8 +28,8 @@ A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
 **Definition.** A **sigma-algebra** $\mathcal{F}$ on $\Omega$ is a collection of subsets satisfying:
 
 1. $\Omega \in \mathcal{F}$.
-2. If $A \in \mathcal{F}$Then $A^c \in \mathcal{F}$ (closed under complementation).
-3. If $A_1, A_2, \ldots \in \mathcal{F}$Then $\bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$ (closed
+2. If $A \in \mathcal{F}$ Then $A^c \in \mathcal{F}$ (closed under complementation).
+3. If $A_1, A_2, \ldots \in \mathcal{F}$ Then $\bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$ (closed
    under countable unions).
 
 **Definition.** A **probability measure** $P$ satisfies:
@@ -45,7 +45,7 @@ A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
 
 1. $P(\emptyset) = 0$.
 2. $P(A^c) = 1 - P(A)$.
-3. If $A \subseteq B$Then $P(A) \leq P(B)$.
+3. If $A \subseteq B$ Then $P(A) \leq P(B)$.
 4. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ (inclusion-exclusion).
 5. **Boole"s inequality:** $P\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)$.
 6. **Bonferroni inequality:**
@@ -53,7 +53,7 @@ A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
 
 _Proof._ (1) Apply countable additivity to the disjoint union
 $\Omega = \Omega \cup \emptyset \cup \emptyset \cup \cdots$:
-$1 = 1 + P(\emptyset) + P(\emptyset) + \cdots$So $P(\emptyset) = 0$.
+$1 = 1 + P(\emptyset) + P(\emptyset) + \cdots$ So $P(\emptyset) = 0$.
 
 (3) $B = A \cup (B \setminus A)$ is a disjoint union, so $P(B) = P(A) + P(B \setminus A) \geq P(A)$.
 
@@ -66,7 +66,7 @@ $1 = 1 + P(\emptyset) + P(\emptyset) + \cdots$So $P(\emptyset) = 0$.
 $$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
 
 **Theorem 1.2 (Law of Total Probability).** If $B_1, \ldots, B_n$ form a partition of $\Omega$ with
-$P(B_i) > 0$ for all $i$Then
+$P(B_i) > 0$ for all $i$ Then
 
 $$P(A) = \sum_{i=1}^{n} P(A \mid B_i)\, P(B_i)$$
 
@@ -76,7 +76,7 @@ $$P(B_j \mid A) = \frac{P(A \mid B_j)\, P(B_j)}{\sum_{i=1}^{n} P(A \mid B_i)\, P
 
 **Definition.** Events $A$ and $B$ are **independent** if $P(A \cap B) = P(A)\,P(B)$.
 
-**Proposition 1.4.** If $A$ and $B$ are independent with $P(B) > 0$Then $P(A \mid B) = P(A)$.
+**Proposition 1.4.** If $A$ and $B$ are independent with $P(B) > 0$ Then $P(A \mid B) = P(A)$.
 
 _Proof._ $P(A \mid B) = P(A \cap B)/P(B) = P(A)P(B)/P(B) = P(A)$. $\blacksquare$
 

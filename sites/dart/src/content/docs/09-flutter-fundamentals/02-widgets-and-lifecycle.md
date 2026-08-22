@@ -1,7 +1,7 @@
 ---
 
 title: Widgets and Lifecycle
-description: "Flutter widgets and lifecycle management."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dart\", \"url\": \"https://dart.wyattau.com\"}, {\"name\": \"09 Flutter Fundamentals\","
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

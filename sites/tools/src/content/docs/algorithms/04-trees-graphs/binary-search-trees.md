@@ -26,7 +26,7 @@ description: "A binary search tree (BST) is a binary tree where every node satis
 ## Binary Search Tree Fundamentals
 
 A binary search tree (BST) is a binary tree where every node satisfies the **BST property**: for any
-Node with key $k$All keys in its left subtree are strictly less than $k$And all keys in its Right
+Node with key $k$All keys in its left subtree are strictly less than $k$ And all keys in its Right
 subtree are strictly greater than $k$.
 
 ### Node Definition
@@ -269,7 +269,7 @@ graph TD
     T2  T3       T1  T2
 ```
 
-**LR (Left-Right) Case**: Left rotation on $y$Then right rotation on $z$.
+**LR (Left-Right) Case**: Left rotation on $y$ Then right rotation on $z$.
 
 ```
      z                z                x
@@ -281,7 +281,7 @@ graph TD
     T2  T3      T1  T2
 ```
 
-**RL (Right-Left) Case**: Right rotation on $y$Then left rotation on $z$.
+**RL (Right-Left) Case**: Right rotation on $y$ Then left rotation on $z$.
 
 ```
    z                z                  x
@@ -1105,7 +1105,7 @@ Priorities are equal). In competitive programming, 32-bit random priorities are 
 ### 7. Skip List Memory Overhead
 
 A skip list with probability $p = 0.5$ uses approximately $2n$ pointers on average (each element
-Appears in level $i$ with probability $1/2^i$So expected pointers per element is
+Appears in level $i$ with probability $1/2^i$ So expected pointers per element is
 $\sum_{i=0}^{\infty} 1/2^i = 2$). This is more than a balanced tree (which uses $n$ pointers). For
 Memory-constrained applications, use a lower probability (e.g., $p = 1/4$) at the cost of slower
 Lookups.

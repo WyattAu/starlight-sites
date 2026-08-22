@@ -696,7 +696,7 @@ This is a deep recessionary gap: $500 - 133.33 = 366.67$.
 **Step 2: Positive demand shock (AD shifts right by 200).** New AD: $Y = 1000 - 4P$.
 $1000 - 4P = 2P - 200 \Rightarrow 1200 = 6P \Rightarrow P = 200$$Y = 200$.
 
-Still below $Y^* = 500$But the output gap has narrowed.
+Still below $Y^* = 500$ But the output gap has narrowed.
 
 **Step 3: AD shifts right by 600 (to reach potential output).** New AD: $Y = 1400 - 4P$.
 $1400 - 4P = 2P - 200 \Rightarrow 1600 = 6P \Rightarrow P = 266.67$$Y = 333.33$. Still a gap. The AD
@@ -770,7 +770,7 @@ inflation increase.
 
 If unemployment falls to 1%: $\pi = 3 - 0.5(1 - 5) = 3 + 2 = 5\%$. The inflation cost is larger.
 
-In the long run, expected inflation adjusts: $\pi^e = 5\%$So the Phillips curve shifts up:
+In the long run, expected inflation adjusts: $\pi^e = 5\%$ So the Phillips curve shifts up:
 $\pi = 5 - 0.5(u - 5)$. Unemployment returns to 5% but inflation is now 5%.
 
 ## 9. Exam-Style Questions with Full Mark Schemes

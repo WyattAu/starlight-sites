@@ -68,7 +68,7 @@ The jump is $\Delta C_V = C_V(T_c^-) - C_V(T_c^+) \approx 0.426\,Nk_B$.
 ### Problem 3
 
 Derive the virial expansion for a non-ideal gas in terms of the second virial coefficient
-$B_2(T)$And show that $B_2(T)$ can be expressed in terms of the two-particle interaction potential
+$B_2(T)$ And show that $B_2(T)$ can be expressed in terms of the two-particle interaction potential
 $V(r)$.
 
 <details>

@@ -103,7 +103,7 @@ Since $OACB$ is a parallelogram, $\overrightarrow{AC} = \overrightarrow{OB} = \m
 By the triangle law:
 $\overrightarrow{OC} = \overrightarrow{OA} + \overrightarrow{AC} = \mathbf{a} + \mathbf{b}$.
 
-Similarly, $\overrightarrow{BC} = \overrightarrow{OA} = \mathbf{a}$So
+Similarly, $\overrightarrow{BC} = \overrightarrow{OA} = \mathbf{a}$ So
 $\overrightarrow{OC} = \overrightarrow{OB} + \overrightarrow{BC} = \mathbf{b} + \mathbf{a}$.
 
 This proves $\mathbf{a} + \mathbf{b} = \mathbf{b} + \mathbf{a}$ (vector addition is commutative) and
@@ -284,9 +284,9 @@ The angle between two **lines** is found using the direction vectors.
 To find the shortest distance from point $P$ to line $\mathbf{r} = \mathbf{a} + t\mathbf{b}$:
 
 1. Let $Q$ be the closest point on the line to $P$.
-2. $\overrightarrow{PQ}$ is perpendicular to $\mathbf{b}$So
+2. $\overrightarrow{PQ}$ is perpendicular to $\mathbf{b}$ So
    $\overrightarrow{PQ}\cdot\mathbf{b} = 0$.
-3. If $P$ has position vector $\mathbf{p}$Then
+3. If $P$ has position vector $\mathbf{p}$ Then
    $\overrightarrow{PQ} = \mathbf{a} + t\mathbf{b} - \mathbf{p}$.
 4. $(\mathbf{a} + t\mathbf{b} - \mathbf{p})\cdot\mathbf{b} = 0$ gives $t$.
 5. Substitute back to find $Q$ and compute $|\overrightarrow{PQ}|$.
@@ -339,13 +339,13 @@ $$[\mathbf{a},\, \mathbf{b},\, \mathbf{c}] = \begin{vmatrix} a_1 & a_2 & a_3 \\ 
 ### 9.2 Geometric interpretation: volume of a parallelepiped
 
 **Theorem.** The absolute value of the scalar triple product equals the volume of the parallelepiped
-With edges defined by $\mathbf{a}$, $\mathbf{b}$And $\mathbf{c}$.
+With edges defined by $\mathbf{a}$, $\mathbf{b}$ And $\mathbf{c}$.
 
 $$V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|$$
 
 **Proof.** The vector $\mathbf{b}\times\mathbf{c}$ has magnitude
 $|\mathbf{b}||\mathbf{c}|\sin\theta$ equal to the area of the parallelogram with sides $\mathbf{b}$
-And $\mathbf{c}$And direction perpendicular to both. The height of the parallelepiped is the
+And $\mathbf{c}$ And direction perpendicular to both. The height of the parallelepiped is the
 Projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$Which is $|\mathbf{a}|\cos\phi$ where
 $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}\times\mathbf{c}$.
 
@@ -461,7 +461,7 @@ $\blacksquare$
 
 <details>
 <summary>Problem 1</summary>
-Given $\mathbf{a} = 3\mathbf{i} - 2\mathbf{j} + \mathbf{k}$ and $\mathbf{b} = \mathbf{i} + 4\mathbf{j} - 3\mathbf{k}$Find $\mathbf{a} + \mathbf{b}$$\mathbf{a} - \mathbf{b}$$|\mathbf{a}|$And a unit vector in the direction of $\mathbf{a}$.
+Given $\mathbf{a} = 3\mathbf{i} - 2\mathbf{j} + \mathbf{k}$ and $\mathbf{b} = \mathbf{i} + 4\mathbf{j} - 3\mathbf{k}$Find $\mathbf{a} + \mathbf{b}$$\mathbf{a} - \mathbf{b}$$|\mathbf{a}|$ And a unit vector in the direction of $\mathbf{a}$.
 </details>
 
 <details>
@@ -651,7 +651,7 @@ Find the angle between the line $\mathbf{r} = \begin{pmatrix}1\\2\\-1\end{pmatri
 
 <details>
 <summary>Solution 11</summary>
-The normal to the plane is $\mathbf{n} = \begin{pmatrix}2\\-1\\1\end{pmatrix}$And the direction of the line is $\mathbf{d} = \begin{pmatrix}3\\-1\\2\end{pmatrix}$.
+The normal to the plane is $\mathbf{n} = \begin{pmatrix}2\\-1\\1\end{pmatrix}$ And the direction of the line is $\mathbf{d} = \begin{pmatrix}3\\-1\\2\end{pmatrix}$.
 
 The angle between the line and the plane equals $90^\circ$ minus the angle between $\mathbf{d}$ and
 $\mathbf{n}$.
@@ -669,7 +669,7 @@ Section 7.
 
 <details>
 <summary>Problem 12</summary>
-Find the direction cosines of the vector $\mathbf{v} = \begin{pmatrix}1\\-2\\2\end{pmatrix}$And verify that they satisfy $\cos^2\alpha + \cos^2\beta + \cos^2\gamma = 1$.
+Find the direction cosines of the vector $\mathbf{v} = \begin{pmatrix}1\\-2\\2\end{pmatrix}$ And verify that they satisfy $\cos^2\alpha + \cos^2\beta + \cos^2\gamma = 1$.
 </details>
 
 <details>
@@ -762,7 +762,7 @@ Then $s = 1 - 2/5 = 3/5$.
 
 Check equation 3: $3(1/5) = 3/5$ and $-1 + 3/5 = -2/5$.
 
-$3/5 \neq -2/5$So the third equation is **inconsistent**. The lines are skew. $\blacksquare$
+$3/5 \neq -2/5$ So the third equation is **inconsistent**. The lines are skew. $\blacksquare$
 
 **If you get this wrong, revise:** [Skew Lines](#62-skew-lines) — Section 6.2.
 

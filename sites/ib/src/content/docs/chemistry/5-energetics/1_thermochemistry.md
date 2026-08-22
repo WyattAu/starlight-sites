@@ -1012,7 +1012,7 @@ Bonds formed: $6(\mathrm{N}-\mathrm{H}) = 6 \times 391 = 2346\mathrm{ kJ/mol}$
 
 $$\Delta H = 2253 - 2346 = -93\mathrm{ kJ/mol}$$
 
-The actual value is $-92\mathrm{ kJ/mol}$So the bond enthalpy approximation is close.
+The actual value is $-92\mathrm{ kJ/mol}$ So the bond enthalpy approximation is close.
 
 </details>
 

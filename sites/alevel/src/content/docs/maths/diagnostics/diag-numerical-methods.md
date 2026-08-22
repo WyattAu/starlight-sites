@@ -33,7 +33,7 @@ The function $f(x) = x^3 - 2x + 2$ has a root near $x = -1.77$.
 
 **(a)** Show that $f(x) = 0$ has exactly one real root.
 
-**(b)** Apply the Newton-Raphson formula with initial value $x_0 = 0$. Compute $x_1$, $x_2$And $x_3$.
+**(b)** Apply the Newton-Raphson formula with initial value $x_0 = 0$. Compute $x_1$, $x_2$ And $x_3$.
 Describe the behaviour of the iteration.
 
 **(c)** Explain why the iteration fails to converge, referring to the value of $f"(x_0)$ and the
@@ -113,7 +113,7 @@ This converges rapidly to the root.
 The equation $x = g(x)$ is to be solved by fixed-point iteration $x_{n+1} = g(x_n)$Where
 $g(x) = \frac{1}{2}(x + \frac{3}{x})$.
 
-**(a)** Show that the equation $x = g(x)$ is equivalent to $x^2 = 3$And hence state the positive
+**(a)** Show that the equation $x = g(x)$ is equivalent to $x^2 = 3$ And hence state the positive
 root $\alpha$.
 
 **(b)** Compute $x_1$, $x_2$, $x_3$ starting from $x_0 = 2$.
@@ -121,7 +121,7 @@ root $\alpha$.
 **(c)** Verify the convergence criterion $\lvert g'(\alpha) \rvert \lt 1$ at the root.
 
 **(d)** A student proposes the rearrangement $x = x^2 - 3 + x$ (i.e. $g(x) = x^2 - 3 + x$) to solve
-$x^2 = 3$. Show that this iteration diverges when $x_0 = 2$And explain why by evaluating
+$x^2 = 3$. Show that this iteration diverges when $x_0 = 2$ And explain why by evaluating
 $\lvert g'(\sqrt{3}) \rvert$.
 
 [Difficulty: hard. Tests the fixed-point iteration convergence theorem and the dependence of
@@ -320,7 +320,7 @@ $x_2 = 1.143 - \frac{0.588}{4.240} \approx 1.004$.
 
 $x_3 \approx 1.000$. Converges to $x = 1$.
 
-**(c)** $f''(1) = 12 - 24 + 16 = 4 \gt 0$So $x = 1$ is a local minimum.
+**(c)** $f''(1) = 12 - 24 + 16 = 4 \gt 0$ So $x = 1$ is a local minimum.
 
 $f(1) = 1 - 4 + 8 - 8 + 3 = 0$.
 
@@ -337,7 +337,7 @@ These are different. The question's claim is incorrect.
 The actual stationary point structure:
 $f'(x) = 4x^3 - 12x^2 + 16x - 8 = 4(x^3 - 3x^2 + 4x - 2) = 4(x-1)(x^2 - 2x + 2)$.
 
-$x^2 - 2x + 2 = (x-1)^2 + 1 \gt 0$ for all real $x$So $x = 1$ is the only stationary point.
+$x^2 - 2x + 2 = (x-1)^2 + 1 \gt 0$ for all real $x$ So $x = 1$ is the only stationary point.
 
 The Newton-Raphson method converges rapidly because $f'(x) = 4(x-1)((x-1)^2+1)$ has a simple root at
 $x = 1$ (multiplicity 1), so $g'(1) = f''(1) = 4 \neq 0$Ensuring quadratic convergence near the
@@ -508,9 +508,9 @@ $f''(x) = -2e^{-x^2} + 4x^2 e^{-x^2} = e^{-x^2}(4x^2 - 2)$.
 
 $f''(x) = 0$ when $4x^2 = 2$I.e. $x = \frac{1}{\sqrt{2}} \approx 0.707$.
 
-For $0 \leq x \lt \frac{1}{\sqrt{2}}$: $4x^2 - 2 \lt 0$So $f''(x) \lt 0$ (concave down).
+For $0 \leq x \lt \frac{1}{\sqrt{2}}$: $4x^2 - 2 \lt 0$ So $f''(x) \lt 0$ (concave down).
 
-For $\frac{1}{\sqrt{2}} \lt x \leq 1$: $4x^2 - 2 \gt 0$So $f''(x) \gt 0$ (concave up).
+For $\frac{1}{\sqrt{2}} \lt x \leq 1$: $4x^2 - 2 \gt 0$ So $f''(x) \gt 0$ (concave up).
 
 Since the concavity changes within the interval, the trapezium rule will overestimate on the
 concave-down portion and underestimate on the concave-up portion. The net effect depends on the

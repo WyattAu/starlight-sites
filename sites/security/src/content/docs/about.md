@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes Security resources — experience, expertise, and credentials behind cybersecurity study materials."
+description: "Wyatt's Notes delivers thorough study materials for cybersecurity. These notes cover network security, cryptography, vulnerability analysis, and secure"
 tags:
   - about
   - security

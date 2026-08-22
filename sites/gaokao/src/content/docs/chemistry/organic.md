@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Organic"
-description: "高考 chemistry: Organic"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gaokao\", \"url\": \"https://gaokao.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

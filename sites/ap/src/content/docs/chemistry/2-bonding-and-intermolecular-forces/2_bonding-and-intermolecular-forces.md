@@ -836,12 +836,12 @@ Lattice energy depends on: (1) the charges on the ions (higher charge = higher l
 (2) the ionic radii (smaller ions = higher lattice energy, by Coulomb's law).
 
 $\mathrm{NaBr$ and $\mathrm{NaCl$ have $+1/-1$ charges. $\mathrm{Br^-$ is larger than
-$\mathrm{Cl^-$So $\mathrm{NaBr$ has the lowest lattice energy.
+$\mathrm{Cl^-$ So $\mathrm{NaBr$ has the lowest lattice energy.
 
 $\mathrm{MgO$ and $\mathrm{MgS$ have $+2/-2$ charges. The $+2/-2$ compounds have much higher Lattice
 energy than the $+1/-1$ compounds (lattice energy is proportional to the product of the Charges).
 
-Between $\mathrm{MgO$ and $\mathrm{MgS$: $\mathrm{O^{2-}$ is smaller than $\mathrm{S^{2-}$So
+Between $\mathrm{MgO$ and $\mathrm{MgS$: $\mathrm{O^{2-}$ is smaller than $\mathrm{S^{2-}$ So
 $\mathrm{MgO$ has the highest lattice energy.
 
 </details>

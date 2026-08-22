@@ -67,11 +67,11 @@ Components:
 
 $$\Delta\phi = \frac{2\pi}{\lambda}(n_o - n_e)\,t$$
 
-**Quarter-wave plate (QWP):** $\Delta\phi = \pi/2$So $t_{\mathrm{QWP} = \lambda/(4|n_o - n_e|)}$.
+**Quarter-wave plate (QWP):** $\Delta\phi = \pi/2$ So $t_{\mathrm{QWP} = \lambda/(4|n_o - n_e|)}$.
 Converts linear polarisation at $45°$ to the fast/slow axes into circular polarisation, and vice
 Versa.
 
-**Half-wave plate (HWP):** $\Delta\phi = \pi$So $t_{\mathrm{HWP} = \lambda/(2|n_o - n_e|)}$. Rotates
+**Half-wave plate (HWP):** $\Delta\phi = \pi$ So $t_{\mathrm{HWP} = \lambda/(2|n_o - n_e|)}$. Rotates
 the plane of linear polarisation by $2\theta$Where $\theta$ is the angle between the Input
 polarisation and the fast axis.
 
@@ -128,7 +128,7 @@ $n_1\sin\theta_i = n_2\sin\theta_t$:
 
 $$\frac{\cos\theta_i}{\sin\theta_i} = \frac{\cos\theta_t}{\sin\theta_t} \implies \cot\theta_i = \cot\theta_t \implies \theta_i = \theta_t'$$
 
-Where $\theta_t' = 90° - \theta_t$. This gives $\theta_i + \theta_t = 90°$So:
+Where $\theta_t' = 90° - \theta_t$. This gives $\theta_i + \theta_t = 90°$ So:
 
 $$\tan\theta_i = \frac{n_2}{n_1} \quad \blacksquare$$
 
@@ -177,7 +177,7 @@ activity, Faraday Rotation is **non-reciprocal**: if the beam is reflected back 
 the rotation Doubles rather than cancelling.
 
 **Applications.** Optical isolators (one-way light valves), optical circulators, and magneto-optical
-Sensors. An optical isolator consists of a polariser, a Faraday rotator set to rotate by $45°$And An
+Sensors. An optical isolator consists of a polariser, a Faraday rotator set to rotate by $45°$ And An
 analyser at $45°$ to the polariser. Forward-propagating light is transmitted; backward light Is
 rotated by another $45°$ (total $90°$) and blocked by the analyser.
 

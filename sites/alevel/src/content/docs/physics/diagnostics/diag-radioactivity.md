@@ -32,7 +32,7 @@ tableOfContents: false
 **Question:**
 
 A sample contains two radioactive isotopes: isotope $A$ with half-life $t_{A} = 5.0\,\text{days}$
-and initial activity $R_{A0} = 400\,\text{Bq}$And isotope $B$ with half-life
+and initial activity $R_{A0} = 400\,\text{Bq}$ And isotope $B$ with half-life
 $t_{B} = 20.0\,\text{days}$ and initial activity $R_{B0} = 600\,\text{Bq}$.
 
 (a) Calculate the total activity of the sample after $10\,\text{days}$.
@@ -73,10 +73,10 @@ $$t = 9.43\,\text{days}$$
 
 $$e^{-0.10395t} = 600/400 = 1.5$$
 
-This requires $e$ raised to a positive power to equal $1.5$But $-0.10395t \lt 0$ for all $t \gt 0$So
+This requires $e$ raised to a positive power to equal $1.5$ But $-0.10395t \lt 0$ for all $t \gt 0$ So
 $e^{-0.10395t} \lt 1$ always.
 
-The activities are **never equal** for $t \gt 0$. At $t = 0$, $R_A = 400 \lt R_B = 600$And $R_A$
+The activities are **never equal** for $t \gt 0$. At $t = 0$, $R_A = 400 \lt R_B = 600$ And $R_A$
 always decays faster than $R_B$ (larger decay constant), so $R_A$ is always less than $R_B$ for
 $t \gt 0$.
 
@@ -128,7 +128,7 @@ $$= \frac{0.10 \times 1000}{0.05 - 0.10}(e^{-2} - e^{-1}) = \frac{100}{-0.05}(0.
 So approximately $465$ atoms of $Y$ at $t = 20\,\text{s}$.
 
 (c) Secular equilibrium occurs when $\lambda_X \ll \lambda_Y$ (the parent decays much more slowly
-than the daughter). In this case, $\lambda_X = 0.10$ and $\lambda_Y = 0.05$So
+than the daughter). In this case, $\lambda_X = 0.10$ and $\lambda_Y = 0.05$ So
 $\lambda_X \gt \lambda_Y$. This is the opposite of secular equilibrium -- it is **transient
 equilibrium** ($\lambda_Y \lt \lambda_X$).
 
@@ -329,7 +329,7 @@ $120\,\text{counts}\,\text{min}^{-1}$ above background. Calculate the count rate
 
 (a) $I = I_0 e^{-\mu x}$
 
-At HVT: $I = I_0/2$So $e^{-\mu x_{1/2}} = 0.5 \Rightarrow x_{1/2} = \ln 2/\mu$
+At HVT: $I = I_0/2$ So $e^{-\mu x_{1/2}} = 0.5 \Rightarrow x_{1/2} = \ln 2/\mu$
 
 Lead: $x_{1/2} = 0.693/1.20 = 0.578\,\text{cm}$
 

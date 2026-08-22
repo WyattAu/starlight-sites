@@ -63,7 +63,7 @@ export default defineConfig({
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },
         { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
-        { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#f89820' } },
         {
           tag: 'link',
           attrs: {
@@ -96,7 +96,7 @@ export default defineConfig({
           tag: 'meta',
           attrs: {
             property: 'og:image',
-            content: 'https://languages.wyattau.com/img/social-card.svg',
+            content: 'https://java.wyattau.com/img/social-card.svg',
           },
         },
         { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },

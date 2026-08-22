@@ -3,7 +3,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Relations and Functions"
-description: "CBSE Class 12 mathematics: Relations, functions, types of relations, and worked examples."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Mathematics\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -21,7 +21,7 @@ description: "In many physical situations, a system exchanges both energy and pa
 
 In many physical situations, a system exchanges both energy and particles with a reservoir. The
 **grand canonical ensemble** describes such open systems. The macroscopic variables are the chemical
-potential $\mu$The volume $V$And the temperature $T$.
+potential $\mu$The volume $V$ And the temperature $T$.
 
 **Definition.** The **grand partition function** is
 
@@ -66,7 +66,7 @@ _Proof._
 $\langle N^2 \rangle - \langle N \rangle^2 = \frac{1}{\beta^2}\frac{\partial^2 \ln \Xi}{\partial \mu^2} = \frac{1}{\beta}\frac{\partial}{\partial \mu}\left(\frac{1}{\beta}\frac{\partial \ln \Xi}{\partial \mu}\right) = \frac{1}{\beta}\frac{\partial \langle N \rangle}{\partial \mu}$.
 $\blacksquare$
 
-For an ideal gas, $\langle N \rangle = z e^{\beta \mu}$So
+For an ideal gas, $\langle N \rangle = z e^{\beta \mu}$ So
 $\partial \langle N \rangle / \partial \mu = \beta \langle N \rangle$Giving relative fluctuations:
 
 $$\frac{\langle N^2 \rangle - \langle N \rangle^2}{\langle N \rangle^2} = \frac{1}{\langle N \rangle}$$
@@ -76,7 +76,7 @@ $1/\sqrt{N}$Negligible for macroscopic systems.
 
 ### 3.4 Worked Example: Ideal Gas in the Grand Canonical Ensemble
 
-**Problem.** Compute $\Xi$, $\langle N \rangle$And $\langle E \rangle$ for a classical ideal gas in
+**Problem.** Compute $\Xi$, $\langle N \rangle$ And $\langle E \rangle$ for a classical ideal gas in
 the grand canonical ensemble.
 
 <details>

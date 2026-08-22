@@ -29,7 +29,7 @@ description: "Prove that is a tautology using a truth table. Comprehensive educa
 | F   | T   | T              | F              | T           |
 | F   | F   | T              | T              | T           |
 
-All rows give $T$So it is a tautology.
+All rows give $T$ So it is a tautology.
 
 If you get this wrong, revise: Section 1.1 and Section 1.4.
 
@@ -71,7 +71,7 @@ If you get this wrong, revise: Section 1.2.
 ($\Rightarrow$) Assume $A \subseteq B$. Let $x \in A \cap B^c$. Then $x \in A$ and $x \notin B$. But
 $A \subseteq B$ implies $x \in B$Contradiction. So $A \cap B^c = \emptyset$.
 
-($\Leftarrow$) Assume $A \cap B^c = \emptyset$. Let $x \in A$. If $x \notin B$Then $x \in B^c$So
+($\Leftarrow$) Assume $A \cap B^c = \emptyset$. Let $x \in A$. If $x \notin B$ Then $x \in B^c$ So
 $x \in A \cap B^c = \emptyset$Contradiction. Hence $x \in B$Proving $A \subseteq B$. $\blacksquare$
 
 If you get this wrong, revise: Section 2.1.
@@ -105,7 +105,7 @@ $(g \circ f)(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 = 4x^2 + 4x + 1$.
 
 $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 
-Note $g \circ f \neq f \circ g$So composition is not commutative.
+Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
 But $0 \neq -1$.
@@ -160,8 +160,8 @@ If you get this wrong, revise: Section 3.2.
 <details>
 <summary>Solution</summary>
 
-Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$So $3 \mid p^2$Hence $3 \mid p$. Write
-$p = 3r$. Then $3q^2 = 9r^2$So $q^2 = 3r^2$Giving $3 \mid q^2$ and $3 \mid q$. But then
+Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$ So $3 \mid p^2$Hence $3 \mid p$. Write
+$p = 3r$. Then $3q^2 = 9r^2$ So $q^2 = 3r^2$Giving $3 \mid q^2$ and $3 \mid q$. But then
 $\gcd(p, q) \geq 3$Contradicting lowest terms. $\blacksquare$
 
 If you get this wrong, revise: Section 3.3.
@@ -310,7 +310,7 @@ If you get this wrong, revise: Section 5.7.
 <details>
 <summary>Solution</summary>
 
-Characteristic equation: $r^2 - 3r + 2 = 0$Giving $(r - 1)(r - 2) = 0$So $r_1 = 1$, $r_2 = 2$.
+Characteristic equation: $r^2 - 3r + 2 = 0$Giving $(r - 1)(r - 2) = 0$ So $r_1 = 1$, $r_2 = 2$.
 
 $a_n = A \cdot 1^n + B \cdot 2^n = A + B \cdot 2^n$.
 

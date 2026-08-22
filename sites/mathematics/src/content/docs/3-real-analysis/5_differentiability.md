@@ -25,7 +25,7 @@ $$f"(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
 
 Exists (as a finite real number).
 
-**Proposition 5.1.** If $f$ is differentiable at $c$Then $f$ is continuous at $c$.
+**Proposition 5.1.** If $f$ is differentiable at $c$ Then $f$ is continuous at $c$.
 
 _Proof._
 $\lim_{x \to c} (f(x) - f(c)) = \lim_{x \to c} \frac{f(x) - f(c)}{x - c} \cdot (x - c) = f'(c) \cdot 0 = 0$.
@@ -35,7 +35,7 @@ The converse is false: $f(x) = |x|$ is continuous at $0$ but not differentiable 
 
 ### 5.2 Differentiation Rules
 
-**Theorem 5.1.** If $f$ and $g$ are differentiable at $c$Then:
+**Theorem 5.1.** If $f$ and $g$ are differentiable at $c$ Then:
 
 1. $(f + g)'(c) = f'(c) + g'(c)$
 2. $(fg)'(c) = f'(c)g(c) + f(c)g'(c)$
@@ -45,16 +45,16 @@ The converse is false: $f(x) = |x|$ is continuous at $0$ but not differentiable 
 ### 5.3 Mean Value Theorem
 
 **Theorem 5.2 (Rolle's Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on
-$[a,b]$Differentiable On $(a,b)$And $f(a) = f(b)$Then there exists $c \in (a,b)$ such that
+$[a,b]$Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
 $f'(c) = 0$.
 
 _Proof._ By the Extreme Value Theorem, $f$ attains its maximum $M$ and minimum $m$ on $[a,b]$. If
-$M = m$Then $f$ is constant and $f'(c) = 0$ for all $c \in (a,b)$. Otherwise, at least one Of $M$ or
+$M = m$ Then $f$ is constant and $f'(c) = 0$ for all $c \in (a,b)$. Otherwise, at least one Of $M$ or
 $m$ is attained at some $c \in (a,b)$ (since $f(a) = f(b)$). By Fermat's theorem, $f'(c) = 0$.
 $\blacksquare$
 
 **Theorem 5.3 (Mean Value Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on $[a,b]$ and
-Differentiable on $(a,b)$Then there exists $c \in (a,b)$ such that
+Differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
 $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
@@ -62,16 +62,16 @@ _Proof._ Define $g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x - a)$. Then $g(a) = g(b)$
 the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$Which gives the result.
 $\blacksquare$
 
-**Corollary 5.4.** If $f'(x) = 0$ for all $x \in (a,b)$Then $f$ is constant on $[a,b]$.
+**Corollary 5.4.** If $f'(x) = 0$ for all $x \in (a,b)$ Then $f$ is constant on $[a,b]$.
 
-**Corollary 5.5.** If $f'(x) > 0$ for all $x \in (a,b)$Then $f$ is strictly increasing on $[a,b]$.
+**Corollary 5.5.** If $f'(x) > 0$ for all $x \in (a,b)$ Then $f$ is strictly increasing on $[a,b]$.
 
 **Theorem 5.3a (Cauchy's Mean Value Theorem).** If $f, g : [a,b] \to \mathbb{R}$ are continuous on
-$[a,b]$ and differentiable on $(a,b)$Then there exists $c \in (a,b)$ such that
+$[a,b]$ and differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
 $$(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)$$
 
-_Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$So by Rolle's
+_Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$ So by Rolle's
 Theorem, $h'(c) = 0$ for some $c \in (a,b)$Which gives the result. $\blacksquare$
 
 _Remark._ When $g(x) = x$Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
@@ -86,7 +86,7 @@ _Proof._ Apply the MVT to $f$ on the interval between $x$ and $y$. $\blacksquare
 ### 5.4 Taylor's Theorem
 
 **Theorem 5.6 (Taylor's Theorem with Lagrange Remainder).** If $f$ is $(n+1)$-times differentiable
-on An open interval containing $a$Then for each $x$ in that interval:
+on An open interval containing $a$ Then for each $x$ in that interval:
 
 $$f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)$$
 
@@ -112,7 +112,7 @@ Cleaner approach uses the standard MVT applied to $g$ on $[a, x]$. $\blacksquare
 ### 5.5 L'Hôpital’s Rule
 
 **Theorem 5.7 (L'Hôpital’s Rule, $\frac{0}{0}$ case).** Suppose $f$ and $g$ are differentiable on An
-open interval containing $c$ (except possibly at $c$ itself), $g'(x) \neq 0$ near $c$And
+open interval containing $c$ (except possibly at $c$ itself), $g'(x) \neq 0$ near $c$ And
 $\lim_{x \to c} f(x) = \lim_{x \to c} g(x) = 0$. If $\lim_{x \to c} f'(x)/g'(x) = L$ exists (as a
 finite Number or $\pm\infty$), then $\lim_{x \to c} f(x)/g(x) = L$.
 
@@ -126,7 +126,7 @@ trapped between $c$ and $x$). Therefore
 $\lim_{x \to c} f(x)/g(x) = \lim_{\xi \to c} f'(\xi)/g'(\xi) = L$. $\blacksquare$
 
 **Theorem 5.7b (L'Hôpital’s Rule, $\frac{\infty}{\infty}$ case).** Suppose $f$ and $g$ are
-Differentiable on $(a, b)$ (except possibly at $c$), $g'(x) \neq 0$ near $c$And
+Differentiable on $(a, b)$ (except possibly at $c$), $g'(x) \neq 0$ near $c$ And
 $\lim_{x \to c} |f(x)| = \lim_{x \to c} |g(x)| = \infty$. If $\lim_{x \to c} f'(x)/g'(x) = L$
 exists, Then $\lim_{x \to c} f(x)/g(x) = L$.
 
@@ -139,7 +139,7 @@ For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ 
 $$\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}$$
 
 Since $f(x), g(x) \to \infty$By fixing $y$ and letting $x \to c$The fractions $f(y)/f(x)$ and
-$g(y)/g(x)$ tend to $0$So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
+$g(y)/g(x)$ tend to $0$ So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
 MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
 <details>
@@ -149,7 +149,7 @@ _Solution._ Both numerator and denominator approach $0$ as $x \to 0$. Applying L
 
 $$\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}$$
 
-This is still $\frac{0}{0}$So apply L'Hôpital again:
+This is still $\frac{0}{0}$ So apply L'Hôpital again:
 
 $$= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}$$
 
@@ -159,7 +159,7 @@ $\blacksquare$
 
 ### 5.6 Darboux's Theorem
 
-**Theorem 5.8 (Darboux's Theorem).** If $f$ is differentiable on $[a, b]$Then $f'$ has the
+**Theorem 5.8 (Darboux's Theorem).** If $f$ is differentiable on $[a, b]$ Then $f'$ has the
 Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$There exists $c \in (a, b)$ With
 $f'(c) = y$.
 
@@ -177,7 +177,7 @@ near $a$Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$There exists $
 $g(x_2) \lt g(b)$.
 
 Therefore $g$ attains its minimum at some $c \in (a, b)$. By Fermat's theorem on interior extrema,
-$g'(c) = 0$So $f'(c) = y$. $\blacksquare$
+$g'(c) = 0$ So $f'(c) = y$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Apply Darboux's theorem to $f(x) = x^2 \sin(1/x)$ ($f(0) = 0$)</summary>
@@ -186,7 +186,7 @@ _Solution._ For $x \neq 0$: $f'(x) = 2x \sin(1/x) - \cos(1/x)$. At $x = 0$:
 $f'(0) = \lim_{h \to 0} \frac{h^2 \sin(1/h)}{h} = \lim_{h \to 0} h \sin(1/h) = 0$.
 
 So $f'(0) = 0$. For any $\delta > 0$The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
-$(0, \delta)$So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
+$(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
 At $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be

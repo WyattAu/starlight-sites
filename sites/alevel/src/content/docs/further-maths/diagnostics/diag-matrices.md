@@ -36,7 +36,7 @@ Calculate $(\mathbf{AB})^{-1}$ and verify it equals $\mathbf{B}^{-1}\mathbf{A}^{
 (a)
 $\mathbf{AB} = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 0 & 2 \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ 2 & 6 \end{pmatrix}$.
 $\mathbf{BA} = \begin{pmatrix} 1 & -1 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 1 & -3 \\ 4 & 8 \end{pmatrix}$.
-$\mathbf{AB} \ne \mathbf{BA}$So matrix multiplication is **not** commutative.
+$\mathbf{AB} \ne \mathbf{BA}$ So matrix multiplication is **not** commutative.
 
 (b) $\det(\mathbf{A}) = 3(4) - 1(2) = 12 - 2 = 10$.
 $\mathbf{A}^{-1} = \frac{1}{10}\begin{pmatrix} 4 & -1 \\ -2 & 3 \end{pmatrix} = \begin{pmatrix} 0.4 & -0.1 \\ -0.2 & 0.3 \end{pmatrix}$.
@@ -129,7 +129,7 @@ rotation. (a) Find the angle and direction of rotation. (b) The point $(3, 4)$ i
 $\mathbf{T}$. Calculate the image. (c) If
 $\mathbf{S} = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$ (reflection in the $y$-axis), find
 $\mathbf{TS}$ and describe the combined transformation. (d) Calculate $\det(\mathbf{T})$ and
-$\det(\mathbf{S})$And explain how determinants relate to area scale factors.
+$\det(\mathbf{S})$ And explain how determinants relate to area scale factors.
 
 **Solution:**
 

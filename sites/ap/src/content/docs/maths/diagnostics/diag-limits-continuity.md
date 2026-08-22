@@ -35,7 +35,7 @@ Prove using an epsilon-delta argument that $\displaystyle\lim_{x \to 2} x^3 = 8$
 A student writes the following "proof":
 
 > For any $\varepsilon > 0$Choose $\delta = \varepsilon / 12$. Then
-> $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4|$. If $|x - 2| \lt \delta$Then
+> $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4|$. If $|x - 2| \lt \delta$ Then
 > $|x^3 - 8| \lt 12 \cdot \delta = \varepsilon$.
 
 Identify the logical gap in this proof and provide a correct epsilon-delta proof.
@@ -55,7 +55,7 @@ $$x^2 + 2x + 4 \lt 9 + 6 + 4 = 19$$
 
 Therefore $|x^2 + 2x + 4| \lt 19$ when $|x - 2| \lt 1$.
 
-Now choose $\delta = \min\left(1, \dfrac{\varepsilon}{19}\right)$. If $|x - 2| \lt \delta$Then:
+Now choose $\delta = \min\left(1, \dfrac{\varepsilon}{19}\right)$. If $|x - 2| \lt \delta$ Then:
 
 $$|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \frac{\varepsilon}{19} \cdot 19 = \varepsilon$$
 
@@ -122,7 +122,7 @@ Since $-1 \leq \sin x \leq 1$We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \
 
 $$\lim_{x \to \infty} \frac{x + \sin x}{x} = 1$$
 
-**Method 2 (Squeeze theorem):** $-1/x \leq \sin x / x \leq 1/x$And both bounds $\to 0$So
+**Method 2 (Squeeze theorem):** $-1/x \leq \sin x / x \leq 1/x$ And both bounds $\to 0$ So
 $\sin x / x \to 0$.
 
 (c) The original limit $\displaystyle\lim_{x \to 0} \frac{x + \sin x}{x}$: L'Hopital gives the
@@ -220,7 +220,7 @@ such that $g(c) = 0$.
 
 $$g'(x) = 3x^2 + 2 - \pi \sin(\pi x)$$
 
-We need to show $g'(x) > 0$ for all $x$. Note that $-\pi \sin(\pi x) \geq -\pi$So:
+We need to show $g'(x) > 0$ for all $x$. Note that $-\pi \sin(\pi x) \geq -\pi$ So:
 
 $$g'(x) \geq 3x^2 + 2 - \pi$$
 
@@ -239,7 +239,7 @@ $g'(x) \geq 2 - 3.14 = -1.14$Which does not prove positivity.
 Let us check directly:
 $g'(0) = 2$$g'(1) = 3 + 2 - 0 = 5$$g'(0.5) = 0.75 + 2 - \pi \approx 2.75 - 3.14 = -0.39$.
 
-Since $g'$ changes sign, $g$ is not strictly increasing on all of $[0, 2]$So Rolle's theorem alone
+Since $g'$ changes sign, $g$ is not strictly increasing on all of $[0, 2]$ So Rolle's theorem alone
 cannot guarantee uniqueness on this interval. The IVT guarantees at least one root, but uniqueness
 cannot be established without a more refined analysis. This is the key insight: the IVT guarantees
 existence, but uniqueness requires additional structure.
@@ -330,7 +330,7 @@ $L = \displaystyle\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt$ as $x \to \inf
 
 (b) Let $L = \displaystyle\lim_{x \to \infty} F(x)$. Since $F(x) \to L \neq 0$We have
 $x \cdot F(x) \to \infty$. A more interesting limit is obtained by considering the tail: let
-$G(x) = L - F(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$And evaluate
+$G(x) = L - F(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$ And evaluate
 $\displaystyle\lim_{x \to \infty} x \cdot G(x)$.
 
 $$x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$$

@@ -233,7 +233,7 @@ $= \mathrm{P}(B > 75.16 \mid \mu = 50) = \mathrm{P}(Z > 3.145) \approx 0.08\%$.
 As $c$ increases, Type I error decreases and Type II error increases. There is no value of $c$ where
 both are at most 5% simultaneously.
 
-**(d)** With $n = 4$ independent tests, $\bar{B} \sim N(\mu, \frac{64}{4}) = N(\mu, 16)$So
+**(d)** With $n = 4$ independent tests, $\bar{B} \sim N(\mu, \frac{64}{4}) = N(\mu, 16)$ So
 $\sigma_{\bar{B}} = 4$.
 
 For Type I error $\leq 5\%$: $c \geq 50 + 1.6449 \times 4 = 56.58$
@@ -245,7 +245,7 @@ Wait --- for Type II error $\leq 5\%$: we need $\mathrm{P}(\bar{B} \leq c \mid \
 $$\mathrm{P}\left(Z \leq \frac{c - 62}{4}\right) \leq 0.05 \implies \frac{c - 62}{4} \geq 1.6449 \implies c \geq 68.58$$
 
 But at $c = 68.58$: Type I error
-$= \mathrm{P}(\bar{B} > 68.58 \mid \mu = 50) = \mathrm{P}(Z > 4.645) \approx 0$And Type II error
+$= \mathrm{P}(\bar{B} > 68.58 \mid \mu = 50) = \mathrm{P}(Z > 4.645) \approx 0$ And Type II error
 $= 5\%$.
 
 At $c = 56.58$: Type I error $= 5\%$Type II error
@@ -311,7 +311,7 @@ interpretation and the language of conclusions.]
 
 **Solution:**
 
-**(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$So
+**(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$ So
 $\sigma_{\bar{X}} = 3$.
 
 $$z = \frac{\bar{x} - 0}{3} = \frac{-5.2}{3} = -1.733$$
@@ -349,7 +349,7 @@ probability that $H_0$ is true. The p-value is:
 The p-value is a conditional probability: $\mathrm{P}(\text{data} \mid H_0)$Not
 $\mathrm{P}(H_0 \mid \text{data})$.
 
-A large p-value means the observed data is consistent with $H_0$But it does not mean $H_0$ is
+A large p-value means the observed data is consistent with $H_0$ But it does not mean $H_0$ is
 probably true. The data could also be consistent with a small but non-zero effect. For example, if
 the true effect is a reduction of 2 mmHg (which is clinically meaningful), a small sample might
 still produce a large p-value.
@@ -357,7 +357,7 @@ still produce a large p-value.
 To determine $\mathrm{P}(H_0 \mid \text{data})$ would require Bayesian methods (prior
 probabilities), which go beyond the scope of classical hypothesis testing.
 
-**(d)** With $n = 50$: $\bar{X} \sim N\left(0, \frac{15^2}{50}\right) = N(0, 4.5)$So
+**(d)** With $n = 50$: $\bar{X} \sim N\left(0, \frac{15^2}{50}\right) = N(0, 4.5)$ So
 $\sigma_{\bar{X}} = \sqrt{4.5} \approx 2.121$.
 
 $$z = \frac{-5.2}{\sqrt{4.5}} = \frac{-5.2}{2.121} = -2.451$$
@@ -404,7 +404,7 @@ randomly selected 10-second intervals:
 $$6, 7, 5, 8, 4, 9, 6, 7, 5, 8, 6, 7, 4, 9, 5, 8, 6, 7, 5, 8$$
 
 **(a)** The engineer proposes to use a Poisson distribution to model the data. Before the new
-system, the number of vehicles $X \sim \text{Po}(8)$. State the mean and variance of $X$And explain
+system, the number of vehicles $X \sim \text{Po}(8)$. State the mean and variance of $X$ And explain
 why the Poisson distribution is a reasonable model for this scenario.
 
 **(b)** The engineer wants to test whether the new traffic light system has changed the mean number
@@ -723,10 +723,10 @@ extremely so, because with only 15 observations, a correlation of $-0.52$ could 
 chance with moderate probability.
 
 Study 2 ($n = 40$, $r = -0.31$): Weaker correlation but larger sample. Despite the weaker correlation,
-the larger sample provides more evidence against $H_0$And the p-value may be comparable or even
+the larger sample provides more evidence against $H_0$ And the p-value may be comparable or even
 smaller.
 
-The relationship between $r$, $n$And the p-value is governed by the test statistic
+The relationship between $r$, $n$ And the p-value is governed by the test statistic
 $t = r\sqrt{\frac{n-2}{1-r^2}}$Which follows a $t$-distribution with $n-2$ degrees of freedom
 under $H_0$.
 

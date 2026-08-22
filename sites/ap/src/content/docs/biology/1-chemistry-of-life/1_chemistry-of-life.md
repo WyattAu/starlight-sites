@@ -863,7 +863,7 @@ of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as
 <summary>Question 5: Protein structure and denaturation</summary>
 
 A researcher discovers that a protein loses its biological activity when heated to
-$45^\circ\mathrm{C$But regains full activity when cooled back to $25^\circ\mathrm{C$. When Heated to
+$45^\circ\mathrm{C$ But regains full activity when cooled back to $25^\circ\mathrm{C$. When Heated to
 $70^\circ\mathrm{C$The protein permanently loses activity even after cooling. Explain These
 observations with reference to the levels of protein structure.
 

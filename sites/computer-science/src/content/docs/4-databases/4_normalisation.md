@@ -24,15 +24,15 @@ $t_1[X] = t_2[X]$ implies $t_1[Y] = t_2[Y]$.
 
 **Armstrong"s axioms:**
 
-1. **Reflexivity:** If $Y \subseteq X$Then $X \to Y$.
-2. **Augmentation:** If $X \to Y$Then $XZ \to YZ$.
-3. **Transitivity:** If $X \to Y$ and $Y \to Z$Then $X \to Z$.
+1. **Reflexivity:** If $Y \subseteq X$ Then $X \to Y$.
+2. **Augmentation:** If $X \to Y$ Then $XZ \to YZ$.
+3. **Transitivity:** If $X \to Y$ and $Y \to Z$ Then $X \to Z$.
 
 **Derived rules:**
 
-1. **Union:** If $X \to Y$ and $X \to Z$Then $X \to YZ$.
-2. **Decomposition:** If $X \to YZ$Then $X \to Y$ and $X \to Z$.
-3. **Pseudotransitivity:** If $X \to Y$ and $YW \to Z$Then $XW \to Z$.
+1. **Union:** If $X \to Y$ and $X \to Z$ Then $X \to YZ$.
+2. **Decomposition:** If $X \to YZ$ Then $X \to Y$ and $X \to Z$.
+3. **Pseudotransitivity:** If $X \to Y$ and $YW \to Z$ Then $XW \to Z$.
 
 **Attribute closure.** $X^+$ is the set of all attributes functionally determined by $X$. Computed
 By starting with $X$ and repeatedly applying Armstrong's axioms until no new attributes can be
@@ -82,13 +82,13 @@ _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
 Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
-$t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$And by the condition
+$t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
 R_1$ (WLOG), there exists $T' \in r$ with
 $T'[R_1 \cap R_2] = t_1[R_1 \cap R_2] = t_2[R_1 \cap
 R_2]$. Since
 $T'[R_1 \cap R_2] = t_1[R_1 \cap R_2]$ and $R_1 \cap R_2 \to R_1$, we have $t'[R_1] = t_1[R_1]$.
-Similarly $t'[R_2] = t_2[R_2]$. Thus $(t_1, t_2)$ corresponds to a real tuple $t' \in r$So no
+Similarly $t'[R_2] = t_2[R_2]$. Thus $(t_1, t_2)$ corresponds to a real tuple $t' \in r$ So no
 spurious tuple exists. $\blacksquare$
 
 **Dependency preservation.** Let $F$ be the set of FDs for $R$. The decomposition $R_1, \ldots, R_k$
@@ -163,7 +163,7 @@ Decompose on $A \to B$: $R_1 = \\{A, B\\}$ and $R_2 = \\{A, C, D, E\\}$.
 **Step 3.** $R_1 = \\{A, B\\}$ is in BCNF (FD $A \to B$ with $A$ as superkey).
 
 For $R_2 = \\{A, C, D, E\\}$ with FDs restricted to $R_2$: $BC \to E$ involves $B$ which is not in
-$R_2$ So it is dropped. $ED \to A$ holds. Also, $A \to B$ involves $B$ not in $R_2$So it is dropped.
+$R_2$ So it is dropped. $ED \to A$ holds. Also, $A \to B$ involves $B$ not in $R_2$ So it is dropped.
 Check for implied FDs: $A \to B$ in $R$ implies $AC \to BC$ (augmentation), so $AC \to E$ in $R$
 (since $BC \to E$). But $AC$ is not a superkey of $R_2$... Wait, let us recheck.
 

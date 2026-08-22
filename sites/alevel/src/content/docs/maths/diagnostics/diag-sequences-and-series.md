@@ -33,7 +33,7 @@ Evaluate the sum:
 
 $$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
 
-Express your answer in terms of $n$And hence find $\lim_{n \to \infty} S_n$.
+Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
 [Difficulty: hard. Tests partial fraction decomposition for a telescoping series with three factors
 in the denominator, where the cancellation pattern is commonly misidentified.]
@@ -171,7 +171,7 @@ $$u_{n+2} = 5u_{n+1} - 6u_n, \quad n \geq 1$$
 
 With $u_1 = 1$ and $u_2 = 5$.
 
-**(a)** Find $u_3$, $u_4$And $u_5$.
+**(a)** Find $u_3$, $u_4$ And $u_5$.
 
 **(b)** Find a closed-form expression for $u_n$ in terms of $n$.
 
@@ -301,7 +301,7 @@ The function $f$ is defined by $f(x) = \cos x$ where $x$ is in radians.
 
 A sequence is defined by $x_0 = 1$ and $x_{n+1} = f(x_n) = \cos(x_n)$ for $n \geq 0$.
 
-**(a)** Find $x_1$, $x_2$, $x_3$And $x_4$ to 6 decimal places.
+**(a)** Find $x_1$, $x_2$, $x_3$ And $x_4$ to 6 decimal places.
 
 **(b)** Prove that the sequence $(x_n)$ is convergent.
 
@@ -323,7 +323,7 @@ $$x_4 = \cos(0.654290) = 0.793480$$
 **(b)** To prove convergence, we use the contraction mapping theorem. We need $|f'(x)| < 1$ on the
 relevant interval.
 
-$f'(x) = -\sin x$So $|f'(x)| = |\sin x| \leq \sin(1) \approx 0.841 < 1$ for all $x \in [0, 1]$.
+$f'(x) = -\sin x$ So $|f'(x)| = |\sin x| \leq \sin(1) \approx 0.841 < 1$ for all $x \in [0, 1]$.
 
 Since $x_0 = 1 \in [0, 1]$ and $f$ maps $[0, 1]$ into itself (because $\cos(0) = 1 \leq 1$ and
 $\cos(1) \approx 0.54 \geq 0$), and $|f'(x)| \leq k < 1$ for all $x \in [0, 1]$ where
@@ -334,7 +334,7 @@ $k = \sin 1$The sequence converges by the Banach fixed-point theorem.
 By the intermediate value theorem, there exists $L \in (0, \pi/2)$ with $g(L) = 0$.
 
 For uniqueness: $g'(x) = 1 + \sin x > 0$ for all $x \in [0, \pi/2]$ (since $\sin x \geq 0$ in this
-interval). Therefore $g$ is strictly increasing on $[0, \pi/2]$So $g(x) = 0$ has at most one
+interval). Therefore $g$ is strictly increasing on $[0, \pi/2]$ So $g(x) = 0$ has at most one
 solution in this interval.
 
 Combined: there is exactly one solution $L \in (0, \pi/2)$.

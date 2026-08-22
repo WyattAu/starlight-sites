@@ -76,9 +76,9 @@ Construct a TM $D$ that on input $\langle M \rangle$:
 
 Consider $D$ on input $\langle D \rangle$:
 
-- If $D$ accepts $\langle D \rangle$Then by construction $D$ rejects $\langle D \rangle$.
+- If $D$ accepts $\langle D \rangle$ Then by construction $D$ rejects $\langle D \rangle$.
   Contradiction.
-- If $D$ rejects $\langle D \rangle$Then by construction $D$ accepts $\langle D \rangle$.
+- If $D$ rejects $\langle D \rangle$ Then by construction $D$ accepts $\langle D \rangle$.
   Contradiction.
 
 Therefore $H$ cannot exist. $\blacksquare$
@@ -96,7 +96,7 @@ of $A$ to instances of $B$ such that $w \in A \iff f(w) \in B$.
 
 **Theorem 5.3.** If $A \leq_m B$ and $B$ is decidable, then $A$ is decidable.
 
-_Proof._ To decide $A$ on input $w$: compute $f(w)$Then decide $B$ on $f(w)$. Since both steps are
+_Proof._ To decide $A$ on input $w$: compute $f(w)$ Then decide $B$ on $f(w)$. Since both steps are
 Computable, $A$ is decidable. $\blacksquare$
 
 **Corollary 5.4.** If $A \leq_m B$ and $A$ is undecidable, then $B$ is undecidable.
@@ -126,7 +126,7 @@ _Proof._ Given $\langle M, w \rangle$Construct a TM $M_w$ that on input $x$:
 2. If $M$ accepts $w$Accept $x$.
 3. If $M$ rejects $w$Reject $x$.
 
-Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
+Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$ And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
 
 Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$ Iff
 $\langle M_w \rangle \notin E_{\mathrm{TM}$.
@@ -163,15 +163,15 @@ neither Empty nor the set of all Turing-recognisable languages.
 
 _Proof (sketch)._ Let $P$ be a non-trivial property. Since $P$ is non-trivial, there exists a TM
 $M_0$ with $L(M_0) \in P$ and a TM $M_1$ with $L(M_1) \notin P$. Given an arbitrary TM $M$ and input
-$w$Construct $M_w$ that on input $x$: first simulates $M$ on $w$Then simulates $M_0$ on $x$. If $M$
-accepts $w$Then $L(M_w) = L(M_0) \in P$; if $M$ does not accept $w$, $L(M_w) = \emptyset$. If
-$\emptyset \notin P$Then $M_w \in P$ iff $M$ accepts $w$So deciding $P$ would decide
+$w$Construct $M_w$ that on input $x$: first simulates $M$ on $w$ Then simulates $M_0$ on $x$. If $M$
+accepts $w$ Then $L(M_w) = L(M_0) \in P$; if $M$ does not accept $w$, $L(M_w) = \emptyset$. If
+$\emptyset \notin P$ Then $M_w \in P$ iff $M$ accepts $w$ So deciding $P$ would decide
 $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
 
 **Corollary.** The following are undecidable: "Does $M$ accept at least one string?", "Is $L(M)$ Finite?", "Is $L(M)$ regular?", "Is $L(M)$ context-free?"
 
 :::caution
-properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$And is in fact decidable (just simulate for 100
+properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$ And is in fact decidable (just simulate for 100
 steps).
 
 ### 5.5 Post Correspondence Problem
@@ -234,7 +234,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 
 **Definition.** $A^O = \{w : M^O \mathrm{ accepts}  w\}$ for a fixed oracle TM $M$ and oracle $O$.
 
-**Theorem 5.7.** There exists an oracle $A$ such that $P^A \neq NP^A$And an oracle $B$ such That
+**Theorem 5.7.** There exists an oracle $A$ such that $P^A \neq NP^A$ And an oracle $B$ such That
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require

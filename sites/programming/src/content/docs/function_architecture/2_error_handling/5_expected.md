@@ -1,7 +1,7 @@
 ---
 
 title: Monadic Error Handling — std::expected
-description: "C++23 std::expected for monadic error handling."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\":"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

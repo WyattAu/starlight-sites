@@ -6,7 +6,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "This page contains five full practice passages modelled after the digital SAT Reading "
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"sat\", \"url\": \"https://sat.wyattau.com\"}, {\"name\": \"Practice Reading\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

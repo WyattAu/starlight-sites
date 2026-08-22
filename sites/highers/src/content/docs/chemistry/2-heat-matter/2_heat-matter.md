@@ -81,7 +81,7 @@ $$\mathrm{S(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{SO_2\mathrm{(g) \quad \Delta
 $$\mathrm{CS_2\mathrm{(l) + 3\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{SO_2\mathrm{(g) \quad \Delta H = -1075 \mathrm{ kJ/mol$$
 
 Route 1: $\mathrm{C + 2\mathrm{S \to \mathrm{CS_2$ (direct, $\Delta H_f$) Route 2:
-$\mathrm{C + \mathrm{O_2 \to \mathrm{CO_2$ and $2\mathrm{S + 2\mathrm{O_2 \to 2\mathrm{SO_2$Then
+$\mathrm{C + \mathrm{O_2 \to \mathrm{CO_2$ and $2\mathrm{S + 2\mathrm{O_2 \to 2\mathrm{SO_2$ Then
 $\mathrm{CO_2 + 2\mathrm{SO_2 \to \mathrm{CS_2 + 3\mathrm{O_2$ (reverse the combustion)
 
 $$\Delta H_f = -393.5 + 2(-296.8) - (-1075) = -393.5 - 593.6 + 1075 = 87.9 \mathrm{ kJ/mol$$
@@ -596,7 +596,7 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 | 4          | 0.40              | 0.20              | $8.0 \times 10^{-4}$ |
 
 1. Sketch an energy profile diagram for an endothermic reaction, showing the effect of adding a
-    catalyst. Label the activation energies, $\Delta H$And the transition state.
+    catalyst. Label the activation energies, $\Delta H$ And the transition state.
 
 2. For the equilibrium
     $\mathrm{CO(g) + \mathrm{H_2\mathrm{O(g) \rightleftharpoons \mathrm{CO_2\mathrm{(g) + \mathrm{H_2\mathrm{(g)$

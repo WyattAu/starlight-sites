@@ -29,7 +29,7 @@ $$N_{2}(g) + 3H_{2}(g) \rightleftharpoons 2NH_{3}(g)$$
 and allowed to reach equilibrium at a certain temperature. At equilibrium, 0.40 mol of $NH_{3}$ was
 present.
 
-(a) Calculate the equilibrium concentrations of $N_{2}$, $H_{2}$And $NH_{3}$. [2 marks]
+(a) Calculate the equilibrium concentrations of $N_{2}$, $H_{2}$ And $NH_{3}$. [2 marks]
 
 (b) Calculate the equilibrium constant $K_{c}$ for this reaction at this temperature. [3 marks]
 
@@ -388,7 +388,7 @@ $$H_{2}(g) + I_{2}(g) \rightleftharpoons 2HI(g)$$
 $K_{c} = 49.0$ at a certain temperature. 2.00 mol of $HI$ is placed in a 1.0 dm$^{3}$ container and
 allowed to reach equilibrium.
 
-(a) Calculate the equilibrium concentrations of $H_{2}$, $I_{2}$And $HI$. [5 marks]
+(a) Calculate the equilibrium concentrations of $H_{2}$, $I_{2}$ And $HI$. [5 marks]
 
 (b) At equilibrium, an additional 1.00 mol of $I_{2}$ is added to the container. Calculate the new
 equilibrium concentrations after the system re-equilibrates. [4 marks]

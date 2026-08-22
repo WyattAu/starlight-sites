@@ -28,7 +28,7 @@ $F$.
 **Proposition 12.1.** If $F \subseteq E \subseteq K$ are field extensions, then
 $[K : F] = [K : E][E : F]$.
 
-_Proof._ If $\{\alpha_i\}$ is a basis for $E/F$ and $\{\beta_j\}$ is a basis for $K/E$Then
+_Proof._ If $\{\alpha_i\}$ is a basis for $E/F$ and $\{\beta_j\}$ is a basis for $K/E$ Then
 $\{\alpha_i \beta_j\}$ is a basis for $K/F$. Count dimensions. $\blacksquare$
 
 ### 12.2 Algebraic Extensions
@@ -41,14 +41,14 @@ Having $\alpha$ as a root.
 
 **Proposition 12.2.** The minimal polynomial of $\alpha$ over $F$ is irreducible in $F[x]$.
 
-_Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$Then $f(\alpha)g(\alpha) = 0$
+_Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$ Then $f(\alpha)g(\alpha) = 0$
 So either $f(\alpha) = 0$ or $g(\alpha) = 0$Contradicting the minimality of $\deg(m_\alpha)$.
 $\blacksquare$
 
 **Theorem 12.3.** $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] \lt \infty$. In
 this case, $[F(\alpha) : F] = \deg(m_\alpha)$.
 
-_Proof._ If $\alpha$ is algebraic with minimal polynomial $m_\alpha$ of degree $n$Then
+_Proof._ If $\alpha$ is algebraic with minimal polynomial $m_\alpha$ of degree $n$ Then
 $\{1, \alpha, \alpha^2, \ldots, \alpha^{n-1}\}$ is a basis for $F(\alpha)/F$ (every element can be
 Reduced modulo $m_\alpha$), so $[F(\alpha) : F] = n$. Conversely, if
 $[F(\alpha) : F] = n \lt \infty$ Then $\{1, \alpha, \ldots, \alpha^n\}$ is linearly dependent,
@@ -109,7 +109,7 @@ $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] = 2$.
 By the tower law: $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4$.
 
 For the minimal polynomial of $\alpha = \sqrt{2} + \sqrt{3}$: compute powers.
-$\alpha^2 = 5 + 2\sqrt{6}$So $\alpha^2 - 5 = 2\sqrt{6}$Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
+$\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
 Hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
 $\mathbb{Q}$ (no rational roots, no quadratic factor), so $m_\alpha = x^4 - 10x^2 + 1$.
 $\blacksquare$
@@ -126,7 +126,7 @@ $p = 2$), So $[\mathbb{Q}(\sqrt[4]{2}) : \mathbb{Q}] = 4$. The roots of $x^4 - 2
 $i\sqrt[4]{2}$ $-\sqrt[4]{2}$, $-i\sqrt[4]{2}$. The root $i\sqrt[4]{2}$ is not in
 $\mathbb{Q}(\sqrt[4]{2}) \subset \mathbb{R}$.
 
-Therefore $\mathbb{Q}(\sqrt[4]{2})$ is not the splitting field of $x^4 - 2$And
+Therefore $\mathbb{Q}(\sqrt[4]{2})$ is not the splitting field of $x^4 - 2$ And
 $|\mathrm{Aut}(\mathbb{Q}(\sqrt[4]{2})/\mathbb{Q})| = 2 < 4$. The extension is not Galois.
 $\blacksquare$
 
@@ -141,7 +141,7 @@ _Solution._ We need an irreducible polynomial of degree $2$ in $\mathbb{F}_3[x]$
 $f(0) = 1$, $f(1) = 2$, $f(2) = 4 + 1 = 5 \equiv 2 \pmod{3}$. No roots, so irreducible. Thus
 $\mathbb{F}_9 = \mathbb{F}_3[x]/(x^2 + 1)$.
 
-Let $\alpha = x + (x^2 + 1)$So $\alpha^2 = -1 = 2$ in $\mathbb{F}_3$. Then:
+Let $\alpha = x + (x^2 + 1)$ So $\alpha^2 = -1 = 2$ in $\mathbb{F}_3$. Then:
 $\mathbb{F}_9 = \{a + b\alpha : a, b \in \mathbb{F}_3\} = \{0, 1, 2, \alpha, 1+\alpha, 2+\alpha, 2\alpha, 1+2\alpha, 2+2\alpha\}$.
 
 Multiplication: $(a + b\alpha)(c + d\alpha) = (ac + 2bd) + (ad + bc)\alpha$. $\blacksquare$

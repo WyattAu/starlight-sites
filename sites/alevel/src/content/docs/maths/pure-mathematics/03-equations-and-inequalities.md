@@ -64,7 +64,7 @@ Subtracting: $(a_1 b_2 - a_2 b_1)x = c_1 b_2 - c_2 b_1$.
 
 If $a_1 b_2 - a_2 b_1 \neq 0$We obtain a unique $x$. Similarly for $y$.
 
-If $a_1 b_2 - a_2 b_1 = 0$Then either $c_1 b_2 - c_2 b_1 = 0$ (infinitely many solutions) or
+If $a_1 b_2 - a_2 b_1 = 0$ Then either $c_1 b_2 - c_2 b_1 = 0$ (infinitely many solutions) or
 $c_1 b_2 - c_2 b_1 \neq 0$ (no solution). $\blacksquare$
 
 _Intuition._ The quantity $a_1 b_2 - a_2 b_1$ is the _determinant_ of the coefficient matrix.
@@ -91,9 +91,9 @@ $$
 \end{aligned}
 $$
 
-Add: $19x = 38$So $x = 2$.
+Add: $19x = 38$ So $x = 2$.
 
-Substitute into (1): $6 + 2y = 12$So $y = 3$.
+Substitute into (1): $6 + 2y = 12$ So $y = 3$.
 
 Solution: $x = 2$, $y = 3$.
 
@@ -138,7 +138,7 @@ $$
 
 $$x = \frac{4 \pm \sqrt{16 + 480}}{10} = \frac{4 \pm \sqrt{496}}{10} = \frac{4 \pm 4\sqrt{31}}{10} = \frac{2 \pm 2\sqrt{31}}{5}$$
 
-$\Delta = 496 > 0$So the line intersects the circle at two points.
+$\Delta = 496 > 0$ So the line intersects the circle at two points.
 
 </details>
 
@@ -151,7 +151,7 @@ $\Delta = 496 > 0$So the line intersects the circle at two points.
 
 The rules for manipulating inequalities are the same as for equations, with one crucial exception.
 
-**Theorem (Order-Reversing Property).** If $a < b$ and $c < 0$Then $ac > bc$.
+**Theorem (Order-Reversing Property).** If $a < b$ and $c < 0$ Then $ac > bc$.
 
 _Proof._ From $a < b$We have $b - a > 0$. Since $c < 0$ and $b - a > 0$: $c(b - a) < 0$ (product Of
 positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
@@ -211,7 +211,7 @@ To represent $ax + by + c \geq 0$ graphically:
 2. Test a point not on the line ( the origin).
 3. If the point satisfies the inequality, shade the region containing it.
 4. If the point does not satisfy the inequality, shade the other region.
-5. Use a **solid line** for $\geq$ or $\leq$And a **dashed line** for $>$ or $<$.
+5. Use a **solid line** for $\geq$ or $\leq$ And a **dashed line** for $>$ or $<$.
 
 ### 4.2 Systems of Inequalities
 
@@ -231,8 +231,8 @@ Y &\geq 2x
 \end{aligned}
 $$
 
-This defines a polygon bounded by the lines $x + y = 6$, $x = 0$, $y = 0$And $y = 2x$. The Vertices
-are $(0, 0)$$(0, 6)$And the intersection of $x + y = 6$ with $y = 2x$: $3x = 6$ $x = 2$$y = 4$. So
+This defines a polygon bounded by the lines $x + y = 6$, $x = 0$, $y = 0$ And $y = 2x$. The Vertices
+are $(0, 0)$$(0, 6)$ And the intersection of $x + y = 6$ with $y = 2x$: $3x = 6$ $x = 2$$y = 4$. So
 the third vertex is $(2, 4)$.
 
 </details>
@@ -243,28 +243,28 @@ the third vertex is $(2, 4)$.
 
 ### 5.1 Transitive Property
 
-If $a < b$ and $b < c$Then $a < c$.
+If $a < b$ and $b < c$ Then $a < c$.
 
 _Proof._ $b - a > 0$ and $c - b > 0$. Adding: $(c - b) + (b - a) = c - a > 0$. So $a < c$.
 $\blacksquare$
 
 ### 5.2 Addition Preserves Order
 
-If $a < b$ and $c < d$Then $a + c < b + d$.
+If $a < b$ and $c < d$ Then $a + c < b + d$.
 
 _Proof._ $b - a > 0$ and $d - c > 0$. Adding: $(b - a) + (d - c) = (b + d) - (a + c) > 0$. So
 $a + c < b + d$. $\blacksquare$
 
 ### 5.3 Multiplication by Positive Preserves Order
 
-If $a < b$ and $c > 0$Then $ac < bc$.
+If $a < b$ and $c > 0$ Then $ac < bc$.
 
-_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$So $cb - ca > 0$Giving $ac < bc$.
+_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$ So $cb - ca > 0$Giving $ac < bc$.
 $\blacksquare$
 
 ### 5.4 Reciprocals Reverse Order (for Positive Numbers)
 
-If $0 < a < b$Then $\frac{1}{a} > \frac{1}{b}$.
+If $0 < a < b$ Then $\frac{1}{a} > \frac{1}{b}$.
 
 _Proof._ Since $a, b > 0$ and $a < b$: $\frac{1}{a} - \frac{1}{b} = \frac{b - a}{ab}$. Since
 $b - a > 0$ and $ab > 0$The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
@@ -279,7 +279,7 @@ Smaller.
 
 ### 6.1 The Factor Theorem
 
-**Theorem (Factor Theorem).** If $f(a) = 0$Then $(x - a)$ is a factor of $f(x)$.
+**Theorem (Factor Theorem).** If $f(a) = 0$ Then $(x - a)$ is a factor of $f(x)$.
 
 _Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$There exist a quotient
 Polynomial $Q(x)$ and a constant remainder $R$ such that:
@@ -288,7 +288,7 @@ $$f(x) = (x - a)Q(x) + R$$
 
 Setting $x = a$: $f(a) = (a - a)Q(a) + R = R$.
 
-If $f(a) = 0$Then $R = 0$So $f(x) = (x - a)Q(x)$. Hence $(x - a)$ divides $f(x)$ exactly.
+If $f(a) = 0$ Then $R = 0$ So $f(x) = (x - a)Q(x)$. Hence $(x - a)$ divides $f(x)$ exactly.
 $\blacksquare$
 
 ### 6.2 The Remainder Theorem
@@ -421,7 +421,7 @@ $$
 
 $-5y + 3z + 5y - 15z = -30$
 
-$-12z = -30$So $z = \frac{5}{2}$.
+$-12z = -30$ So $z = \frac{5}{2}$.
 
 **Step 3:** Back-substitute into (5):
 
@@ -464,13 +464,13 @@ Since $|2x - 1| \geq 0$We require $x + 3 \gt 0$I.e. $x \gt -3$.
 
 **Case 1:** $2x - 1 \geq 0$I.e. $x \geq \frac{1}{2}$.
 
-Then $|2x - 1| = 2x - 1$So $2x - 1 \lt x + 3$Giving $x \lt 4$.
+Then $|2x - 1| = 2x - 1$ So $2x - 1 \lt x + 3$Giving $x \lt 4$.
 
 Combined with $x \geq \frac{1}{2}$: $\frac{1}{2} \leq x \lt 4$.
 
 **Case 2:** $2x - 1 \lt 0$I.e. $x \lt \frac{1}{2}$.
 
-Then $|2x - 1| = 1 - 2x$So $1 - 2x \lt x + 3$Giving $-2 \lt 3x$I.e. $x \gt -\frac{2}{3}$.
+Then $|2x - 1| = 1 - 2x$ So $1 - 2x \lt x + 3$Giving $-2 \lt 3x$I.e. $x \gt -\frac{2}{3}$.
 
 Combined with $x \lt \frac{1}{2}$: $-\frac{2}{3} \lt x \lt \frac{1}{2}$.
 
@@ -484,7 +484,7 @@ Solve $|x^2 - 4| \gt 5$.
 
 **Case 1:** $x^2 - 4 \geq 0$I.e. $|x| \geq 2$.
 
-Then $x^2 - 4 \gt 5$Giving $x^2 \gt 9$So $x \gt 3$ or $x \lt -3$.
+Then $x^2 - 4 \gt 5$Giving $x^2 \gt 9$ So $x \gt 3$ or $x \lt -3$.
 
 **Case 2:** $x^2 - 4 \lt 0$I.e. $-2 \lt x \lt 2$.
 
@@ -507,9 +507,9 @@ preserves the Direction since $a \lt b$ implies $a^2 \lt b^2$ for $a, b \geq 0$.
 
 **Proposition.** $|x|^2 = x^2$ for all real $x$.
 
-_Proof._ If $x \geq 0$Then $|x| = x$So $|x|^2 = x^2$.
+_Proof._ If $x \geq 0$ Then $|x| = x$ So $|x|^2 = x^2$.
 
-If $x \lt 0$Then $|x| = -x$So $|x|^2 = (-x)^2 = x^2$.
+If $x \lt 0$ Then $|x| = -x$ So $|x|^2 = (-x)^2 = x^2$.
 
 In both cases $|x|^2 = x^2$. $\blacksquare$
 
@@ -520,9 +520,9 @@ In both cases $|x|^2 = x^2$. $\blacksquare$
 _Proof._ Exhaustive case analysis on the signs of $a$ and $b$:
 
 - $a \geq 0, \; b \geq 0$: $|ab| = ab = |a| \cdot |b|$.
-- $a \geq 0, \; b \lt 0$: $ab \lt 0$So $|ab| = -(ab) = a(-b) = |a| \cdot |b|$.
-- $a \lt 0, \; b \geq 0$: $ab \lt 0$So $|ab| = -(ab) = (-a)b = |a| \cdot |b|$.
-- $a \lt 0, \; b \lt 0$: $ab \gt 0$So $|ab| = ab = (-a)(-b) = |a| \cdot |b|$.
+- $a \geq 0, \; b \lt 0$: $ab \lt 0$ So $|ab| = -(ab) = a(-b) = |a| \cdot |b|$.
+- $a \lt 0, \; b \geq 0$: $ab \lt 0$ So $|ab| = -(ab) = (-a)b = |a| \cdot |b|$.
+- $a \lt 0, \; b \lt 0$: $ab \gt 0$ So $|ab| = ab = (-a)(-b) = |a| \cdot |b|$.
 
 In all four cases, $|ab| = |a||b|$. $\blacksquare$
 
@@ -536,7 +536,7 @@ _Proof._ We split into cases based on the signs of $a$ and $b$.
 
 **Case 1:** $a \geq 0, \; b \geq 0$.
 
-Then $a + b \geq 0$So $|a + b| = a + b = |a| + |b|$. Equality holds.
+Then $a + b \geq 0$ So $|a + b| = a + b = |a| + |b|$. Equality holds.
 
 **Case 2:** $a \geq 0, \; b \lt 0$.
 
@@ -553,7 +553,7 @@ $$|a + b| = -a + (-b) = -a + |b| \leq |a| + |b|$$
 
 **Case 4:** $a \lt 0, \; b \lt 0$.
 
-Then $a + b \lt 0$So $|a + b| = -(a + b) = (-a) + (-b) = |a| + |b|$. Equality holds.
+Then $a + b \lt 0$ So $|a + b| = -(a + b) = (-a) + (-b) = |a| + |b|$. Equality holds.
 
 In all cases, $|a + b| \leq |a| + |b|$. $\blacksquare$
 
@@ -632,7 +632,7 @@ $$2(1 - 2y) + 4y = 3 \implies 2 - 4y + 4y = 3 \implies 2 = 3$$
 
 This is a contradiction, so there is no solution.
 
-Alternatively: $a_1 b_2 - a_2 b_1 = 1 \times 4 - 2 \times 2 = 0$So the lines are parallel. Since
+Alternatively: $a_1 b_2 - a_2 b_1 = 1 \times 4 - 2 \times 2 = 0$ So the lines are parallel. Since
 $c_1 \cdot 2 \neq c_2 \cdot 1$ ($2 \neq 3$), they are distinct parallel lines.
 
 </details>
@@ -697,14 +697,14 @@ Multiply first by 2: $4x + 2y = 16$. Subtract: $3x = 8$$x = \frac{8}{3}$.
 
 $y = 8 - 2 \cdot \frac{8}{3} = \frac{24 - 16}{3} = \frac{8}{3}$.
 
-Vertices: $(0, 0)$$(4, 0)$$(0, 4)$And $\left(\frac{8}{3}, \frac{8}{3}\right)$.
+Vertices: $(0, 0)$$(4, 0)$$(0, 4)$ And $\left(\frac{8}{3}, \frac{8}{3}\right)$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Graphical inequalities](#4-graphical-inequalities)
 
 <hr />
 
-**Problem 7.** Prove that if $a > b > 0$Then $a^2 > b^2$.
+**Problem 7.** Prove that if $a > b > 0$ Then $a^2 > b^2$.
 
 <details>
 <summary>Solution</summary>
@@ -735,7 +735,7 @@ Dividing by 2: $-1 \leq x \leq 4$.
 
 <hr />
 
-**Problem 9.** Given that $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$And $\alpha + \beta = 6$
+**Problem 9.** Given that $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$ And $\alpha + \beta = 6$
 and $\alpha\beta = 8$Find $p$ and $q$.
 
 <details>
@@ -773,7 +773,7 @@ Solutions: $x = -2, -1, 1, 2$.
 
 <hr />
 
-**Problem 11.** Given that $(x - 2)$ is a factor of $f(x) = x^3 + ax^2 + bx - 12$And $f(1) = -6$
+**Problem 11.** Given that $(x - 2)$ is a factor of $f(x) = x^3 + ax^2 + bx - 12$ And $f(1) = -6$
 Find $a$ and $b$. Hence fully factorise $f(x)$.
 
 <details>
@@ -786,7 +786,7 @@ Also $f(1) = -6$:
 
 $$f(1) = 1 + a + b - 12 = a + b - 11 = -6 \implies a + b = 5 \quad \mathrm{--- (ii)}$$
 
-Subtracting (i) from (ii): $-a = 3$So $a = -3$.
+Subtracting (i) from (ii): $-a = 3$ So $a = -3$.
 
 From (ii): $b = 5 - (-3) = 8$.
 
@@ -794,7 +794,7 @@ So $f(x) = x^3 - 3x^2 + 8x - 12$.
 
 Divide by $(x - 2)$: $f(x) = (x - 2)(x^2 - x + 6)$.
 
-The discriminant of $x^2 - x + 6$ is $\Delta = 1 - 24 = -23 \lt 0$So no further real factorisation
+The discriminant of $x^2 - x + 6$ is $\Delta = 1 - 24 = -23 \lt 0$ So no further real factorisation
 Is possible.
 
 $$f(x) = (x - 2)(x^2 - x + 6)$$
@@ -904,23 +904,23 @@ $$= \frac{1}{2}\left| 9 - 24 \right| = \frac{15}{2}$$
 <summary>Solution</summary>
 **Key insight:** add and subtract the equations.
 
-Adding: $x^2 + 2xy + y^2 = 25$So $(x + y)^2 = 25$.
+Adding: $x^2 + 2xy + y^2 = 25$ So $(x + y)^2 = 25$.
 
 This gives $x + y = 5$ or $x + y = -5$.
 
-Subtracting: $y^2 - x^2 = 5$So $(y - x)(y + x) = 5$.
+Subtracting: $y^2 - x^2 = 5$ So $(y - x)(y + x) = 5$.
 
 **Case 1:** $x + y = 5$.
 
 Then $(y - x)(5) = 5$Giving $y - x = 1$.
 
-From $x + y = 5$ and $y - x = 1$: adding gives $2y = 6$So $y = 3$, $x = 2$.
+From $x + y = 5$ and $y - x = 1$: adding gives $2y = 6$ So $y = 3$, $x = 2$.
 
 **Case 2:** $x + y = -5$.
 
 Then $(y - x)(-5) = 5$Giving $y - x = -1$.
 
-From $x + y = -5$ and $y - x = -1$: adding gives $2y = -6$So $y = -3$, $x = -2$.
+From $x + y = -5$ and $y - x = -1$: adding gives $2y = -6$ So $y = -3$, $x = -2$.
 
 **Verification:** $(2, 3)$: $4 + 6 = 10$ ✓ and $9 + 6 = 15$ ✓.
 

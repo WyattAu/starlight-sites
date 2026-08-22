@@ -134,7 +134,7 @@ Start state: $\{q_0\}$.
 | $\{q_0, q_1\}$ | $\{q_0, q_1\}$      | $\{q_0, q_2\}$      | No      |
 | $\{q_0, q_2\}$ | $\{q_0, q_1\}$      | $\{q_0\}$           | Yes     |
 
-The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$And $\{q_1, q_2\}$ are unreachable.
+The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unreachable.
 
 </details>
 
@@ -143,7 +143,7 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$And $\{q_1, q_2\}$ are unrea
 **Definition.** Regular expressions over $\Sigma$ are defined inductively:
 
 1. $\emptyset$ (empty set), $\varepsilon$ (empty string), and $a$ for each $a \in \Sigma$ are regex.
-2. If $R_1$ and $R_2$ are regex, then $(R_1 \cup R_2)$, $(R_1 \cdot R_2)$And $(R_1^*)$ are regex.
+2. If $R_1$ and $R_2$ are regex, then $(R_1 \cup R_2)$, $(R_1 \cdot R_2)$ And $(R_1^*)$ are regex.
 3. Nothing else is a regex.
 
 **Shorthand:** $R^+$ means $R \cdot R^*$. $R?$ means $(R \cup \varepsilon)$.
@@ -202,7 +202,7 @@ State, connected by $\varepsilon$-transitions. The construction guarantees that 
 One accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
-$\Sigma$Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$And $N_R$ has $O(|R|)$
+$\Sigma$Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
 States and transitions.
 
 _Proof._ By structural induction on $R$.
@@ -218,14 +218,14 @@ _Proof._ By structural induction on $R$.
 - **Inductive cases:**
 - $R = R_1 \cup R_2$: By IH, $L(N_{R_1}) = L(R_1)$ and $L(N_{R_2}) = L(R_2)$. Thompson adds a new
   start $s$ and accept $f$ with $\varepsilon$-transitions to the start states of $N_{R_1}$ and
-  $N_{R_2}$And $\varepsilon$-transitions from their accept states to $f$. Any accepting path goes
+  $N_{R_2}$ And $\varepsilon$-transitions from their accept states to $f$. Any accepting path goes
   through exactly one sub-NFA, so $L(N_R) = L(R_1) \cup L(R_2) = L(R)$.
 - $R = R_1 \cdot R_2$: Thompson connects the accept state of $N_{R_1}$ to the start state of
   $N_{R_2}$ via $\varepsilon$-transitions. A string $w \in L(N_R)$ iff $w = w_1 w_2$ where
   $w_1 \in L(N_{R_1})$ and $w_2 \in L(N_{R_2})$I.e., $w \in L(R_1) \cdot L(R_2) = L(R)$.
 - $R = R_1^*$: Thompson adds a new start $s$ and accept $f$With $\varepsilon$-transitions from $s$
-  to $f$ (allowing zero repetitions) and from $s$ to the start of $N_{R_1}$And from the accept of
-  $N_{R_1}$ back to $s$. Any accepting path corresponds to zero or more traversals of $N_{R_1}$So
+  to $f$ (allowing zero repetitions) and from $s$ to the start of $N_{R_1}$ And from the accept of
+  $N_{R_1}$ back to $s$. Any accepting path corresponds to zero or more traversals of $N_{R_1}$ So
   $L(N_R) = L(R_1)^* = L(R)$.
 
 In all cases, the number of states added is a constant per operator, so $|N_R| = O(|R|)$.
@@ -247,8 +247,8 @@ _Proof of Theorem 2.4._
 
 **(1) $\Rightarrow$ (2):** Let $D = (Q, \Sigma, \delta, q_0, F)$ be a DFA for $L$. Define $x \sim y$
 iff $\delta^*(q_0, x) = \delta^*(q_0, y)$ (i.e., $D$ reaches the same state on $x$ and $y$). Then
-$\sim$ has at most $|Q|$ equivalence classes. We show $\sim = \equiv_L$. If $x \sim y$Then for All
-$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$So $xz \in L$ iff $yz \in L$Meaning $x \equiv_L y$.
+$\sim$ has at most $|Q|$ equivalence classes. We show $\sim = \equiv_L$. If $x \sim y$ Then for All
+$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$ So $xz \in L$ iff $yz \in L$Meaning $x \equiv_L y$.
 Conversely, if $x \not\equiv_L y$There exists $z$ with $xz \in L$ and $yz \notin L$ (or vice versa),
 so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$Hence $x \not\sim y$.
 
@@ -257,9 +257,9 @@ That contains at least one string in $L$.
 
 **(3) $\Rightarrow$ (1):** Suppose $\equiv_L$ has finitely many equivalence classes
 $C_1, \ldots, C_k$. Construct a DFA with one state per equivalence class, start state
-$[x]_{\equiv_L}$ for $x = \varepsilon$ Transition $\delta'([x], a) = [xa]$And accept states = those
+$[x]_{\equiv_L}$ for $x = \varepsilon$ Transition $\delta'([x], a) = [xa]$ And accept states = those
 classes contained in $L$. This DFA is Well-defined because $\equiv_L$ is a right congruence: if
-$x \equiv_L y$Then $xa \equiv_L ya$ for all $a \in \Sigma$. $\blacksquare$
+$x \equiv_L y$ Then $xa \equiv_L ya$ for all $a \in \Sigma$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Myhill-Nerode classes for $L = \{0^n 1^n : n \geq 0\}$</summary>
@@ -320,7 +320,7 @@ Decomposition $w = xyz$ satisfying (1) and (2) has some $i$ with $xy^iz \notin L
 **Example.** $L = \{0^n 1^n : n \geq 0\}$ is not regular.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
+$|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
 (since $p - k \neq p$). Contradiction. $\blacksquare$
 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
@@ -343,8 +343,8 @@ regular — Contradiction. $\blacksquare$
 Let $L = \{w \in \{0,1\}^* : n_0(w) = n_1(w)\}$.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$Which has $p - k$ zeros and
-$p$ ones. Since $k \geq 1$ $p - k \neq p$So $xy^0z \notin L$. Contradiction. $\blacksquare$
+$|xy| \leq p$ So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$Which has $p - k$ zeros and
+$p$ ones. Since $k \geq 1$ $p - k \neq p$ So $xy^0z \notin L$. Contradiction. $\blacksquare$
 
 </details>
 
@@ -352,7 +352,7 @@ $p$ ones. Since $k \geq 1$ $p - k \neq p$So $xy^0z \notin L$. Contradiction. $\b
 <summary>Worked Example: $L = \{a^{n!} : n \geq 0\}$ is not regular</summary>
 
 _Proof._ Assume pumping length $p$. Let $w = a^{p!} \in L$ with $|w| = p! \geq p$. By (2),
-$|xy| \leq p$So $y = a^k$ for some $1 \leq k \leq p$. Choose $i = (p! + k) / k = p!/k + 1$ (an
+$|xy| \leq p$ So $y = a^k$ for some $1 \leq k \leq p$. Choose $i = (p! + k) / k = p!/k + 1$ (an
 integer since $k \leq p$). Then $xy^iz = a^{p! + (i-1)k} = a^{p! + p!} = a^{2 \cdot p!}$. But
 $2 \cdot p!$ is not a factorial for $p \geq 2$ (since $(p+1)! / (p!)^2 = (p+1)/p! \lt 1$ for
 $p \geq 3$ And $2 \cdot 2! = 4 \neq n!$ for any $n$). Hence $xy^iz \notin L$. $\blacksquare$

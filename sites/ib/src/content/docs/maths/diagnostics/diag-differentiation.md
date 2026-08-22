@@ -142,7 +142,7 @@ Still $\frac{0}{0}$:
 
 $$\lim_{x \to 0}\frac{e^x}{6} = \frac{1}{6}$$
 
-**(b)** Direct substitution of $x \to \infty$ gives $\frac{\infty}{\infty}$So L'Hopital technically
+**(b)** Direct substitution of $x \to \infty$ gives $\frac{\infty}{\infty}$ So L'Hopital technically
 applies.
 
 $$\lim_{x \to \infty}\frac{1 + \cos x}{1} = \lim_{x \to \infty}(1 + \cos x)$$

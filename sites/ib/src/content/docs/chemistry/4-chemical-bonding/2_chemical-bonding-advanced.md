@@ -194,7 +194,7 @@ Molecular orbitals that are delocalised over the entire molecule.
 
 ### MO Diagrams for Diatomic Molecules
 
-For homonuclear diatomics ($\mathrm{O}_2$, $\mathrm{F}_2$And beyond):
+For homonuclear diatomics ($\mathrm{O}_2$, $\mathrm{F}_2$ And beyond):
 
 $$
 \sigma_{1s} \lt \sigma_{1s}^* \lt \sigma_{2s} \lt \sigma_{2s}^* \lt \sigma_{2p_z} \lt \pi_{2p_x} = \pi_{2p_y} \lt \pi_{2p_x}^* = \pi_{2p_y}^* \lt \sigma_{2p_z}^*
@@ -403,7 +403,7 @@ Sodium ($98\degree\mathrm{C}$).
 Aluminium has the electron configuration $[\mathrm{Ne}]\, 3s^2\, 3p^1$ and contributes **three**
 Delocalised electrons to the metallic bond. Sodium has $[\mathrm{Ne}]\, 3s^1$ and contributes only
 **one**. More delocalised electrons produce stronger electrostatic attraction between the cations
-And the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$So the Charge
+And the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$ So the Charge
 density is higher and the ions are closer together. Both factors increase the strength of the
 Metallic bond and therefore the melting point.
 
@@ -749,7 +749,7 @@ $$\mu_{\mathrm{ionic}} = q \times d = (1.602 \times 10^{-19}\;\mathrm{C}) \times
 Converting to debye:
 $$\mu_{\mathrm{ionic}} = \frac{2.035 \times 10^{-29}}{3.336 \times 10^{-30}} = 6.10\;\mathrm{D}$$
 
-The actual dipole moment is $1.08\;\mathrm{D}$So the percent ionic character is:
+The actual dipole moment is $1.08\;\mathrm{D}$ So the percent ionic character is:
 
 $$\%\;\text{ionic} = \frac{1.08}{6.10} \times 100 = 17.7\%$$
 
@@ -947,7 +947,7 @@ approximately $30\%$ and discuss one approach to exceeding this limit.
 The standard enthalpy of atomisation of methane is $+1660\;\mathrm{kJ/mol}$ (i.e.,
 $\mathrm{CH}_4(g) \to \mathrm{C}(g) + 4\mathrm{H}(g)$). Given that the standard enthalpy of
 formation of $\mathrm{CH}_4(g)$ is $-75\;\mathrm{kJ/mol}$The bond dissociation energy of
-$\mathrm{H}_2$ is $+436\;\mathrm{kJ/mol}$And the enthalpy of sublimation of graphite is
+$\mathrm{H}_2$ is $+436\;\mathrm{kJ/mol}$ And the enthalpy of sublimation of graphite is
 $+717\;\mathrm{kJ/mol}$: (a) Calculate the mean C--H bond enthalpy in methane. (b) Explain why the
 first C--H bond dissociation energy ($+439\;\mathrm{kJ/mol}$) differs from the mean value. (c) The
 C--H bond enthalpy in $\mathrm{CHCl}_3$ is $413\;\mathrm{kJ/mol}$. Explain why this is different
@@ -973,7 +973,7 @@ from the value in methane.
   valence electrons (6 bonds, 0 lone pairs). Do not force an octet on central atoms that can
   accommodate more.
 
-- **Assuming that polar bonds always make a molecule polar**: $\mathrm{CCl}_4$$\mathrm{CO}_2$And
+- **Assuming that polar bonds always make a molecule polar**: $\mathrm{CCl}_4$$\mathrm{CO}_2$ And
   $\mathrm{BF}_3$ all have polar bonds but are non-polar molecules because the bond dipoles cancel
   due to molecular symmetry. Always check the geometry before assigning polarity.
 

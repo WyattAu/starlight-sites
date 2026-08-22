@@ -106,11 +106,11 @@ $$y - y_1 = m(x - x_1) \quad \blacksquare$$
 - **Perpendicular** if and only if $m_1 m_2 = -1$.
 
 _Proof (Perpendicular case)._ Consider two perpendicular lines through the origin with gradients
-$m_1$ and $m_2$. A point on the first line is $(1, m_1)$And a point on the second is $(1, m_2)$. The
-vector from the origin to $(1, m_1)$ is $\mathbf{u} = (1, m_1)$And the vector from the origin To
+$m_1$ and $m_2$. A point on the first line is $(1, m_1)$ And a point on the second is $(1, m_2)$. The
+vector from the origin to $(1, m_1)$ is $\mathbf{u} = (1, m_1)$ And the vector from the origin To
 $(1, m_2)$ is $\mathbf{v} = (1, m_2)$.
 
-Since the lines are perpendicular, $\mathbf{u} \perp \mathbf{v}$So their dot product is zero:
+Since the lines are perpendicular, $\mathbf{u} \perp \mathbf{v}$ So their dot product is zero:
 
 $$1 \cdot 1 + m_1 \cdot m_2 = 0 \implies m_1 m_2 = -1 \quad \blacksquare$$
 
@@ -118,7 +118,7 @@ $$1 \cdot 1 + m_1 \cdot m_2 = 0 \implies m_1 m_2 = -1 \quad \blacksquare$$
 <summary>Example</summary>
 Find the equation of the line perpendicular to $2x - 3y + 7 = 0$ passing through $(4, -1)$.
 
-Rearranging: $3y = 2x + 7$So $y = \frac{2}{3}x + \frac{7}{3}$. Gradient: $m_1 = \frac{2}{3}$.
+Rearranging: $3y = 2x + 7$ So $y = \frac{2}{3}x + \frac{7}{3}$. Gradient: $m_1 = \frac{2}{3}$.
 
 Perpendicular gradient: $m_2 = -\frac{3}{2}$.
 
@@ -271,7 +271,7 @@ The gradient of $BP$ (from $(r, 0)$ to $(x, y)$) is $\frac{y}{x - r}$.
 
 The product of gradients: $\frac{y}{x + r} \cdot \frac{y}{x - r} = \frac{y^2}{x^2 - r^2}$.
 
-Since $P$ lies on the circle: $x^2 + y^2 = r^2$So $y^2 = r^2 - x^2 = -(x^2 - r^2)$.
+Since $P$ lies on the circle: $x^2 + y^2 = r^2$ So $y^2 = r^2 - x^2 = -(x^2 - r^2)$.
 
 Product: $\frac{-(x^2 - r^2)}{x^2 - r^2} = -1$ (for $x \neq \pm r$).
 
@@ -353,7 +353,7 @@ $ax_0 + by_0 + c$ tells you which side of the line the point lies on.
 
 ## 7. Intersection of Two Circles
 
-**Theorem.** Two circles $C_1$ with centre $O_1$ and radius $r_1$And $C_2$ with centre $O_2$ and
+**Theorem.** Two circles $C_1$ with centre $O_1$ and radius $r_1$ And $C_2$ with centre $O_2$ and
 Radius $r_2$Intersect if and only if the distance $d = |O_1 O_2|$ between their centres satisfies:
 
 - **Two intersection points** when $|r_1 - r_2| < d < r_1 + r_2$;
@@ -408,7 +408,7 @@ Since $|r_1 - r_2| = 2 < 5 < 6 = r_1 + r_2$The circles intersect at two points a
 Three.
 
 **Method.** Substitute each point into the general form $x^2 + y^2 + Dx + Ey + F = 0$ to obtain
-Three simultaneous equations in $D$, $E$And $F$:
+Three simultaneous equations in $D$, $E$ And $F$:
 
 $$
 \begin{aligned}
@@ -419,14 +419,14 @@ X_3^2 + y_3^2 + D x_3 + E y_3 + F &= 0
 $$
 
 Subtracting the first equation from the second and third eliminates $F$Yielding a $2 \times 2$
-System in $D$ and $E$. Solve for $D$ and $E$Then substitute back to find $F$.
+System in $D$ and $E$. Solve for $D$ and $E$ Then substitute back to find $F$.
 
 :::caution
 gradient between the first Two points equals the gradient between the second two.
 :::
 <details>
 <summary>Worked example</summary>
-Find the equation of the circle through $A(1, 2)$, $B(3, 4)$And $C(5, 2)$.
+Find the equation of the circle through $A(1, 2)$, $B(3, 4)$ And $C(5, 2)$.
 
 Substituting into $x^2 + y^2 + Dx + Ey + F = 0$:
 
@@ -448,9 +448,9 @@ Substituting into (1): $-6 + 2(-4) + F = -5 \implies -6 - 8 + F = -5 \implies F 
 
 The circle is $x^2 + y^2 - 6x - 4y + 9 = 0$.
 
-Completing the square: $(x-3)^2 + (y-2)^2 = 4$So centre $(3, 2)$ with radius $2$.
+Completing the square: $(x-3)^2 + (y-2)^2 = 4$ So centre $(3, 2)$ with radius $2$.
 
-Note that the midpoint of $AC$ is $(3, 2)$ and $|AC| = 4$So the diameter is along the line $AC$
+Note that the midpoint of $AC$ is $(3, 2)$ and $|AC| = 4$ So the diameter is along the line $AC$
 Consistent with $AC$ being a diameter.
 
 </details>
@@ -500,7 +500,7 @@ The parametric form is useful for:
 <summary>Worked example</summary>
 A circle has centre $(2, -1)$ and radius $3$. Find the two points on the circle where $x = 4$.
 
-Parametrically: $x = 2 + 3\cos\theta = 4$So $\cos\theta = \frac{2}{3}$.
+Parametrically: $x = 2 + 3\cos\theta = 4$ So $\cos\theta = \frac{2}{3}$.
 
 $$\sin\theta = \pm\sqrt{1 - \frac{4}{9}} = \pm\frac{\sqrt{5}}{3}$$
 
@@ -510,7 +510,7 @@ $$\left(4, -1 + 3 \cdot \frac{\sqrt{5}}{3}\right) = \left(4, -1 + \sqrt{5}\right
 
 $$\left(4, -1 + 3 \cdot \left(-\frac{\sqrt{5}}{3}\right)\right) = \left(4, -1 - \sqrt{5}\right)$$
 
-Verification using the Cartesian equation $(x-2)^2 + (y+1)^2 = 9$: when $x = 4$, $(y+1)^2 = 5$So
+Verification using the Cartesian equation $(x-2)^2 + (y+1)^2 = 9$: when $x = 4$, $(y+1)^2 = 5$ So
 $y = -1 \pm \sqrt{5}$.
 
 </details>
@@ -602,7 +602,7 @@ Intersection: $\left(\frac{9}{5}, \frac{4}{5}\right)$.
 
 <hr />
 
-**Problem 5.** The points $A(1, 2)$, $B(5, 4)$And $C(3, 8)$ form a triangle. Show that $ABC$ is a
+**Problem 5.** The points $A(1, 2)$, $B(5, 4)$ And $C(3, 8)$ form a triangle. Show that $ABC$ is a
 Right-angled triangle.
 
 <details>
@@ -613,7 +613,7 @@ Gradient of $BC$: $\frac{8 - 4}{3 - 5} = \frac{4}{-2} = -2$.
 
 Product: $\frac{1}{2} \times (-2) = -1$.
 
-Since $m_{AB} \cdot m_{BC} = -1$, $AB \perp BC$So $\angle B = 90^\circ$. $\blacksquare$
+Since $m_{AB} \cdot m_{BC} = -1$, $AB \perp BC$ So $\angle B = 90^\circ$. $\blacksquare$
 
 </details>
 <b>If you get this wrong, revise:</b> [Parallel and perpendicular lines](#23-parallel-and-perpendicular-lines)
@@ -698,7 +698,7 @@ $$x^2 - x^2 + 10x - 25 = 5 \implies 10x = 30 \implies x = 3$$
 
 So $PQ$ is the vertical line $x = 3$. The $y$-coordinates satisfy $9 + y^2 = 9 \implies y = 0$.
 
-Wait, $x = 3$ in $C_1$: $9 + y^2 = 9$So $y = 0$. The circles intersect at a single point $(3, 0)$ —
+Wait, $x = 3$ in $C_1$: $9 + y^2 = 9$ So $y = 0$. The circles intersect at a single point $(3, 0)$ —
 they are tangent to each other.
 
 So $PQ = 0$; the circles touch at exactly one point.
@@ -777,9 +777,9 @@ This is the equation of the common chord $PQ$.
 
 To find the length $PQ$First find the centres and radii.
 
-$C_1$: $(x+1)^2 + (y-4)^2 = 1+16-8 = 9$So centre $(-1, 4)$Radius $3$.
+$C_1$: $(x+1)^2 + (y-4)^2 = 1+16-8 = 9$ So centre $(-1, 4)$Radius $3$.
 
-$C_2$: $(x-2)^2 + (y+2)^2 = 4+4+8 = 16$So centre $(2, -2)$Radius $4$.
+$C_2$: $(x-2)^2 + (y+2)^2 = 4+4+8 = 16$ So centre $(2, -2)$Radius $4$.
 
 Distance between centres: $d = \sqrt{(2-(-1))^2 + (-2-4)^2} = \sqrt{9+36} = \sqrt{45} = 3\sqrt{5}$.
 
@@ -800,7 +800,7 @@ $$PQ = 2\sqrt{\frac{236}{45}} = 2 \cdot \frac{2\sqrt{59}}{3\sqrt{5}} = \frac{4\s
 <hr />
 
 **Problem 13.** Find the equation of the circle passing through the three points $A(0, 1)$
-$B(2, 3)$And $C(4, 1)$.
+$B(2, 3)$ And $C(4, 1)$.
 
 <details>
 <summary>Solution</summary>
@@ -845,7 +845,7 @@ $\theta = \frac{\pi}{3}$.
 <summary>Solution</summary>
 (a) Centre: $(1, -2)$Radius: $5$.
 
-(b) Set $y = -2 + 5\sin\theta = 1$So $\sin\theta = \frac{3}{5}$.
+(b) Set $y = -2 + 5\sin\theta = 1$ So $\sin\theta = \frac{3}{5}$.
 
 $$\cos\theta = \pm\sqrt{1 - \frac{9}{25}} = \pm\frac{4}{5}$$
 
@@ -889,7 +889,7 @@ The points of tangency.
 
 <details>
 <summary>Solution</summary>
-Completing the square: $(x-3)^2 + (y-2)^2 = 4$So centre $(3, 2)$ and radius $2$.
+Completing the square: $(x-3)^2 + (y-2)^2 = 4$ So centre $(3, 2)$ and radius $2$.
 
 Let $L$ have equation $y = mx$ (passing through the origin). For $L$ to be tangent to $C$ Substitute
 into the circle equation:

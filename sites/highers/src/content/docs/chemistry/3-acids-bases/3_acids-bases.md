@@ -119,7 +119,7 @@ From the autoionisation equilibrium:
 
 $$K_w = [\mathrm{H^+][\mathrm{OH^-]$$
 
-In pure water at $25°C$: $[\mathrm{H^+] = [\mathrm{OH^-] = 10^{-7} \mathrm{ M$So
+In pure water at $25°C$: $[\mathrm{H^+] = [\mathrm{OH^-] = 10^{-7} \mathrm{ M$ So
 $K_w = 10^{-7} \times 10^{-7} = 10^{-14}$.
 
 $K_w$ is temperature-dependent. At higher temperatures, more water molecules dissociate, so $K_w$
@@ -247,7 +247,7 @@ $$\log\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 0.24$$
 
 $$\frac{[\mathrm{A^-]}{[\mathrm{HA]} = 10^{0.24} = 1.74$$
 
-Let $[\mathrm{HA] = x$Then $[\mathrm{A^-] = 1.74x$.
+Let $[\mathrm{HA] = x$ Then $[\mathrm{A^-] = 1.74x$.
 
 $x + 1.74x = 0.30 \implies 2.74x = 0.30 \implies x = 0.109 \mathrm{ M$
 
@@ -464,7 +464,7 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 2. **$[\mathrm{H^+]$ approximation:** For weak acids, $[\mathrm{H^+] = \sqrt{K_a \times c}$ is valid
    only when $[\mathrm{H^+]$ is small compared to $c$ ( when $c/K_a > 100$).
 
-3. **pH of water:** Pure water has pH 7 at $25°C$But this changes with temperature because $K_w$
+3. **pH of water:** Pure water has pH 7 at $25°C$ But this changes with temperature because $K_w$
    changes.
 
 4. **Buffer calculations:** The Henderson-Hasselbalch equation uses concentrations, not moles

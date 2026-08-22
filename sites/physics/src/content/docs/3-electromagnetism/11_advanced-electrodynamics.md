@@ -99,9 +99,9 @@ This is tiny compared to atmospheric pressure ($10^5$ Pa), but is significant fo
 
 ## Common Pitfalls (Additional)
 
-1. **$v_p > c$ does not violate relativity:** The phase velocity in a waveguide exceeds $c$But no
+1. **$v_p > c$ does not violate relativity:** The phase velocity in a waveguide exceeds $c$ But no
    information or energy travels faster than $c$. The group velocity (signal velocity) is always
-   $v_g < c$. Similarly, the refracted phase front in a prism can appear to move faster than $c$But
+   $v_g < c$. Similarly, the refracted phase front in a prism can appear to move faster than $c$ But
    the actual signal does not.
 
 2. **Gauge choice matters for potentials, not fields:** Different gauges give different $\mathbf{A}$

@@ -62,7 +62,7 @@ $$P(A \cup A') = P(A) + P(A') = P(\Omega) = 1 \implies P(A') = 1 - P(A). \quad \
 
 **Proof.** $P(\emptyset) = P(\Omega') = 1 - P(\Omega) = 1 - 1 = 0$. $\blacksquare$
 
-**Corollary.** If $A \subseteq B$Then $P(A) \leq P(B)$.
+**Corollary.** If $A \subseteq B$ Then $P(A) \leq P(B)$.
 
 **Proof.** Write $B = A \cup (B \cap A')$ where the two sets are disjoint. Then
 $P(B) = P(A) + P(B \cap A') \geq P(A)$ since $P(B \cap A') \geq 0$. $\blacksquare$
@@ -71,7 +71,7 @@ $P(B) = P(A) + P(B \cap A') \geq P(A)$ since $P(B \cap A') \geq 0$. $\blacksquar
 
 **Theorem.** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
 
-**Proof.** $A \cup B$ can be partitioned into three disjoint sets: $A \cap B'$, $A \cap B$And
+**Proof.** $A \cup B$ can be partitioned into three disjoint sets: $A \cap B'$, $A \cap B$ And
 $A' \cap B$.
 
 $$P(A \cup B) = P(A \cap B') + P(A \cap B) + P(A' \cap B)$$
@@ -111,7 +111,7 @@ $$P\!\left(\bigcap_{i=1}^{n} A_i\right) = P(A_1) \cdot P(A_2|A_1) \cdot P(A_3|A_
 $$P(A|B) = \frac{P(A \cap B)}{P(B)} \quad \mathrm{for } P(B) > 0$$
 
 **Intuition.** $P(A|B)$ is the probability of $A$ occurring **given that we already know $B$ has
-Occurred**. Knowing $B$ has happened changes our sample space from $\Omega$ to $B$And we measure
+Occurred**. Knowing $B$ has happened changes our sample space from $\Omega$ to $B$ And we measure
 What fraction of $B$ is also in $A$.
 
 ### 3.2 Properties of conditional probability
@@ -123,7 +123,7 @@ $B$ (with $P(B) > 0$).
 
 1. $P(A|B) = P(A \cap B)/P(B) \geq 0$ since $P(A \cap B) \geq 0$ and $P(B) > 0$.
 2. $P(\Omega|B) = P(\Omega \cap B)/P(B) = P(B)/P(B) = 1$.
-3. If $A_1, A_2, \ldots$ are mutually exclusive, then so are $A_1 \cap B, A_2 \cap B, \ldots$And
+3. If $A_1, A_2, \ldots$ are mutually exclusive, then so are $A_1 \cap B, A_2 \cap B, \ldots$ And
 
 $$P\!\left(\bigcup_i A_i \,\middle|\, B\right) = \frac{P\!\left(\left(\bigcup_i A_i\right) \cap B\right)}{P(B)} = \frac{\sum_i P(A_i \cap B)}{P(B)} = \sum_i P(A_i|B). \quad \blacksquare$$
 
@@ -176,10 +176,10 @@ $$P(A \cap B) = P(A) \cdot P(B)$$
 
 **Proof.**
 
-($\Rightarrow$) If $P(A \cap B) = P(A)P(B)$Then
+($\Rightarrow$) If $P(A \cap B) = P(A)P(B)$ Then
 $P(A|B) = \dfrac{P(A \cap B)}{P(B)} = \dfrac{P(A)P(B)}{P(B)} = P(A)$.
 
-($\Leftarrow$) If $P(A|B) = P(A)$Then $\dfrac{P(A \cap B)}{P(B)} = P(A)$So
+($\Leftarrow$) If $P(A|B) = P(A)$ Then $\dfrac{P(A \cap B)}{P(B)} = P(A)$ So
 $P(A \cap B) = P(A)P(B)$. $\blacksquare$
 
 **Intuition.** Independence means knowing $B$ occurred gives you **no information** about $A$. The
@@ -261,8 +261,8 @@ $$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap
 
 $$P(A \cup B \cup C) = P(A) + P(B \cup C) - P(A \cap (B \cup C))$$
 
-Now $P(B \cup C) = P(B) + P(C) - P(B \cap C)$And by the distributive law of set theory
-$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$So:
+Now $P(B \cup C) = P(B) + P(C) - P(B \cap C)$ And by the distributive law of set theory
+$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$ So:
 
 $$P(A \cap (B \cup C)) = P(A \cap B) + P(A \cap C) - P(A \cap B \cap C)$$
 
@@ -383,7 +383,7 @@ Real number to each outcome in the sample space.
 (i.e. Finite or countably infinite).
 
 **Example.** If a fair die is rolled, define $X$ = "the number shown". Then $X$ takes values in
-$\\{1, 2, 3, 4, 5, 6\\}$So $X$ is discrete.
+$\\{1, 2, 3, 4, 5, 6\\}$ So $X$ is discrete.
 
 **Example.** If a coin is tossed until the first head appears, define $X$ = "number of tosses". Then
 $X$ takes values in $\\{1, 2, 3, \ldots\\}$Which is countably infinite.
@@ -399,7 +399,7 @@ Function $p(x) = P(X = x)$Defined for all $x \in \mathbb{R}$.
 2. $\displaystyle\sum_{\mathrm{all } x} p(x) = 1$.
 
 **Proof.** Property 1 follows from non-negativity of probability. Property 2 follows because the
-Events $\\{X = x\\}$ for all possible values of $x$ form a partition of $\Omega$So their
+Events $\\{X = x\\}$ for all possible values of $x$ form a partition of $\Omega$ So their
 Probabilities sum to 1 by the normalisation axiom. $\blacksquare$
 
 ### 10.3 Cumulative distribution function (CDF)
@@ -460,7 +460,7 @@ concentrated around the Centre.
 
 <details>
 <summary>Problem 1</summary>
-Events $A$ and $B$ are such that $P(A) = 0.4$, $P(B) = 0.5$And $P(A \cup B) = 0.7$. Find $P(A \cap B)$ and $P(A|B)$.
+Events $A$ and $B$ are such that $P(A) = 0.4$, $P(B) = 0.5$ And $P(A \cup B) = 0.7$. Find $P(A \cap B)$ and $P(A|B)$.
 </details>
 
 <details>
@@ -530,7 +530,7 @@ $P = 24/84 = 2/7$.
 
 <details>
 <summary>Problem 5</summary>
-Events $A$$B$$C$ are such that $P(A) = 0.3$$P(B) = 0.4$$P(C) = 0.5$$P(A \cap B) = 0.1$$P(A \cap C) = 0.15$$P(B \cap C) = 0.2$And $P(A \cap B \cap C) = 0.05$. Find $P(A \cup B \cup C)$.
+Events $A$$B$$C$ are such that $P(A) = 0.3$$P(B) = 0.4$$P(C) = 0.5$$P(A \cap B) = 0.1$$P(A \cap C) = 0.15$$P(B \cap C) = 0.2$ And $P(A \cap B \cap C) = 0.05$. Find $P(A \cup B \cup C)$.
 </details>
 
 <details>
@@ -661,12 +661,12 @@ $P(\mathrm{flush}) = 5148/2598960 \approx 0.00198 \approx 0.2\%$.
 
 <details>
 <summary>Problem 13</summary>
-A discrete random variable $X$ has PMF $p(x) = kx$ for $x \in \{1, 2, 3, 4, 5\}$ and $p(x) = 0$ otherwise. Find the constant $k$Then find $E(X)$ and $\mathrm{Var}(X)$.
+A discrete random variable $X$ has PMF $p(x) = kx$ for $x \in \{1, 2, 3, 4, 5\}$ and $p(x) = 0$ otherwise. Find the constant $k$ Then find $E(X)$ and $\mathrm{Var}(X)$.
 </details>
 
 <details>
 <summary>Solution 13</summary>
-For a valid PMF: $\sum_{x=1}^{5} kx = k(1 + 2 + 3 + 4 + 5) = 15k = 1$So $k = 1/15$.
+For a valid PMF: $\sum_{x=1}^{5} kx = k(1 + 2 + 3 + 4 + 5) = 15k = 1$ So $k = 1/15$.
 
 $$E(X) = \sum_{x=1}^{5} x \cdot \frac{x}{15} = \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}$$
 
@@ -757,7 +757,7 @@ $$P(A) = 1 - P(A') = 1 - \left(\frac{1}{2}\right)^5 = 1 - \frac{1}{32} = \frac{3
 
 <details>
 <summary>Problem 18</summary>
-Two events $A$ and $B$ satisfy $P(A) = 0.6$$P(B|A) = 0.4$And $P(B|A') = 0.7$. Find $P(B)$$P(A|B)$And determine whether $A$ and $B$ are independent.
+Two events $A$ and $B$ satisfy $P(A) = 0.6$$P(B|A) = 0.4$ And $P(B|A') = 0.7$. Find $P(B)$$P(A|B)$ And determine whether $A$ and $B$ are independent.
 </details>
 
 <details>
@@ -780,7 +780,7 @@ Check independence: $P(A)P(B) = 0.6 \times 0.52 = 0.312 \neq 0.24 = P(A \cap B)$
 
 <details>
 <summary>Problem 19</summary>
-A discrete random variable $X$ has CDF $F(x) = 0$ for $x \lt 0$$F(x) = x/4$ for $0 \leq x \lt 1$$F(x) = 1/2$ for $1 \leq x \lt 2$$F(x) = 3/4$ for $2 \leq x \lt 3$And $F(x) = 1$ for $x \geq 3$. Find the PMF of $X$ and verify it sums to 1.
+A discrete random variable $X$ has CDF $F(x) = 0$ for $x \lt 0$$F(x) = x/4$ for $0 \leq x \lt 1$$F(x) = 1/2$ for $1 \leq x \lt 2$$F(x) = 3/4$ for $2 \leq x \lt 3$ And $F(x) = 1$ for $x \geq 3$. Find the PMF of $X$ and verify it sums to 1.
 </details>
 
 <details>
@@ -797,7 +797,7 @@ More carefully, the jumps occur at:
 - $x = 2$: $p(2) = F(2) - F(2^-) = 3/4 - 1/2 = 1/4$
 - $x = 3$: $p(3) = F(3) - F(3^-) = 1 - 3/4 = 1/4$
 
-There is also a continuous component on $[0, 1)$But since $X$ is discrete, the CDF must be a step
+There is also a continuous component on $[0, 1)$ But since $X$ is discrete, the CDF must be a step
 Function. The given CDF has a linear portion, which indicates this CDF actually corresponds to a
 **mixed** distribution. For a purely discrete $X$The CDF should be piecewise constant with jumps.
 

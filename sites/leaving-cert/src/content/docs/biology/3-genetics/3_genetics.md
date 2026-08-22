@@ -266,18 +266,18 @@ Compare to the critical value at the appropriate degrees of freedom
 
 **Worked Example: Hardy-Weinberg with multiple alleles.**
 
-The ABO blood group system has three alleles: $I^A$, $I^B$And $i$. In a population, the allele
-Frequencies are $p$, $q$And $r$ respectively, with $p + q + r = 1$.
+The ABO blood group system has three alleles: $I^A$, $I^B$ And $i$. In a population, the allele
+Frequencies are $p$, $q$ And $r$ respectively, with $p + q + r = 1$.
 
 Genotype frequencies are:
 
 $$(I^A I^A) = p^2, \quad (I^A i) = 2pr, \quad (I^B I^B) = q^2, \quad (I^B i) = 2qr, \quad (ii) = r^2$$
 
-If the blood type O frequency is 36%, then $r^2 = 0.36$So $r = 0.6$.
+If the blood type O frequency is 36%, then $r^2 = 0.36$ So $r = 0.6$.
 
-If the blood type AB frequency is 10%, then $q^2 = 0.10$So $q = 0.316$.
+If the blood type AB frequency is 10%, then $q^2 = 0.10$ So $q = 0.316$.
 
-$p + q + r = 1$So $p = 1 - 0.6 - 0.316 = 0.084$.
+$p + q + r = 1$ So $p = 1 - 0.6 - 0.316 = 0.084$.
 
 Carrier frequency for blood type A (I$^A$I$): $2pr = 2(0.084)(0.6) = 0.101 = 10.1\%$.
 

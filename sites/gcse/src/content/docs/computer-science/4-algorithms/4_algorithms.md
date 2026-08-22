@@ -167,13 +167,13 @@ Step 1: low=0, high=6, mid=3, array[3]=7. Found. Return 3.
 
 **Worked Example.** Search for 8 in [1, 3, 5, 7, 9, 11, 13].
 
-Step 1: low=0, high=6, mid=3, array[3]=7. $7 \lt 8$So low=4. Step 2: low=4, high=6, mid=5,
-Array[5]=11. $11 \gt 8$So high=4. Step 3: low=4, high=4, mid=4, array[4]=9. $9 \gt 8$So high=3. Step
+Step 1: low=0, high=6, mid=3, array[3]=7. $7 \lt 8$ So low=4. Step 2: low=4, high=6, mid=5,
+Array[5]=11. $11 \gt 8$ So high=4. Step 3: low=4, high=4, mid=4, array[4]=9. $9 \gt 8$ So high=3. Step
 4: low=4, high=3. $4 \gt 3$Loop ends. Return -1 (not found).
 
 **Worked Example.** Search for 3 in [1, 3, 5, 7, 9, 11, 13].
 
-Step 1: low=0, high=6, mid=3, array[3]=7. $7 \gt 3$So high=2. Step 2: low=0, high=2, mid=1,
+Step 1: low=0, high=6, mid=3, array[3]=7. $7 \gt 3$ So high=2. Step 2: low=0, high=2, mid=1,
 Array[1]=3. Found. Return 1.
 
 **Python implementation:**
@@ -224,8 +224,8 @@ Discarding either half.
 
 **Proof sketch.** Let the sorted array be $a_0 \le a_1 \le \cdots \le a_{n-1}$. Suppose the target
 $t$ exists at index $k$. At each step, the algorithm maintains the invariant that
-$a_{\mathrm{low} \le t \le a_{\mathrm{high}$. If $a_{\mathrm{mid} \lt t$Then by monotonicity every
-Element at index $\le \mathrm{mid$ is also $\lt t$So $k \gt \mathrm{mid$ and we safely set
+$a_{\mathrm{low} \le t \le a_{\mathrm{high}$. If $a_{\mathrm{mid} \lt t$ Then by monotonicity every
+Element at index $\le \mathrm{mid$ is also $\lt t$ So $k \gt \mathrm{mid$ and we safely set
 $\mathrm{low = \mathrm{mid - 1$. The argument is symmetric for the other case. The loop terminates
 When $\mathrm{low \gt
 \mathrm{high$, meaning the search space is empty and $T$ does not exist in the

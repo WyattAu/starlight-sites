@@ -43,7 +43,7 @@ $\psi(\mathbf{r},t) = \phi(\mathbf{r})e^{-iEt/\hbar}$The probability current is 
 What does this imply about the probability distribution?
 
 **6.** (Normalisation) Normalise the wave function $\psi(x) = N\,x(a-x)$ for $0 \lt x \lt a$ (and
-zero Otherwise). Find $\langle x \rangle$, $\langle x^2 \rangle$And $\langle p^2 \rangle$.
+zero Otherwise). Find $\langle x \rangle$, $\langle x^2 \rangle$ And $\langle p^2 \rangle$.
 
 **7.** (Hermitian operators) Prove that the momentum operator $\hat{p} = -i\hbar\,d/dx$ is Hermitian
 On the space of wave functions that vanish at infinity. What boundary conditions are required? Show
@@ -51,7 +51,7 @@ by counterexample that $\hat{p}$ is not Hermitian if the boundary terms do not v
 
 **8.** (Uncertainty principle) For the harmonic oscillator ground state
 $\psi_0(x) = (m\omega/\pi\hbar)^{1/4}e^{-m\omega x^2/(2\hbar)}$Calculate $\langle x \rangle$
-$\langle x^2 \rangle$, $\langle p \rangle$, $\langle p^2 \rangle$And verify that
+$\langle x^2 \rangle$, $\langle p \rangle$, $\langle p^2 \rangle$ And verify that
 $\sigma_x\,\sigma_p = \hbar/2$. Also show that $\langle x \rangle = \langle p \rangle = 0$ by
 symmetry.
 
@@ -66,8 +66,8 @@ probability that the particle is found in the ground state of the new well. Also
 probability that it is found in the first excited state.
 
 **11.** (Harmonic oscillator) Using the ladder operators, compute $\langle x^2 \rangle$
-$\langle p^2 \rangle$And $\langle x^4 \rangle$ for the state $|n\rangle$ of the harmonic Oscillator.
-Express your answers in terms of $n$, $m$, $\omega$And $\hbar$.
+$\langle p^2 \rangle$ And $\langle x^4 \rangle$ for the state $|n\rangle$ of the harmonic Oscillator.
+Express your answers in terms of $n$, $m$, $\omega$ And $\hbar$.
 
 **12.** (Delta potential) A particle of mass $m$ and energy $E \gt 0$ is incident on the potential
 $V(x) = \alpha[\delta(x+a) + \delta(x-a)]$. Find the transmission coefficient. In the limit
@@ -81,7 +81,7 @@ decay of a typical heavy nucleus and comment on the exponential dependence on ba
 Raising/lowering operators, prove that $[\hat{L}^2, \hat{L}_\pm] = 0$. Then show that
 $\hat{L}_+|l,l\rangle = 0$ and hence derive the normalisation constant for $\hat{L}_+|l,m\rangle$.
 
-**15.** (Hydrogen atom) Calculate $\langle r \rangle$, $\langle r^2 \rangle$And
+**15.** (Hydrogen atom) Calculate $\langle r \rangle$, $\langle r^2 \rangle$ And
 $\langle 1/r \rangle$ for the hydrogen atom ground state $\psi_{100}$. Compare $\langle r \rangle$
 With the Bohr radius $a_0$. Use the virial theorem to relate $\langle T \rangle$ and
 $\langle V \rangle$ for The Coulomb potential.

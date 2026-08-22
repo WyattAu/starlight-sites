@@ -88,7 +88,7 @@ long run, there is no trade-off between inflation and unemployment -- the long-r
 (c) The natural rate of unemployment ($u^*$) is the rate at which $\pi = \pi^e$ with no supply shock
 ($x = 0$):
 
-$\pi = \pi^e - 3(u^* - 5) + 0$. For $\pi = \pi^e$: $-3(u^* - 5) = 0$So $u^* = 5\%$.
+$\pi = \pi^e - 3(u^* - 5) + 0$. For $\pi = \pi^e$: $-3(u^* - 5) = 0$ So $u^* = 5\%$.
 
 The natural rate is 5%.
 
@@ -231,7 +231,7 @@ simultaneously.
 
 Initial: $P_0 \times 2000 = \text{AD}$New: $P_1 \times 2100 = \text{AD}$.
 
-$P_1 \times 2100 = P_0 \times 2000$So $P_1 = P_0 \times \frac{2000}{2100} = P_0 \times 0.9524$.
+$P_1 \times 2100 = P_0 \times 2000$ So $P_1 = P_0 \times \frac{2000}{2100} = P_0 \times 0.9524$.
 
 The price level falls by approximately 4.76%. The supply-side improvement simultaneously:
 
@@ -360,7 +360,7 @@ balanced budget multiplier is NOT 1 here because of proportional taxation and im
 </script>
 
 **UT-5 (Extension): AD/AS with Simultaneous Shocks.** An economy has AD: $Y = 600 - 2P$SRAS:
-$Y = 4P - 200$And LRAS: $Y^* = 500$. (a) Find the current equilibrium and identify any output gap.
+$Y = 4P - 200$ And LRAS: $Y^* = 500$. (a) Find the current equilibrium and identify any output gap.
 (b) A positive supply shock shifts SRAS right by 80 units (new SRAS: $Y = 4P - 280$). Calculate the
 new equilibrium. (c) Simultaneously, consumer confidence falls, shifting AD left by 100 (new AD:
 $Y = 500 - 2P$). Calculate the combined effect. (d) Is the economy now in a recessionary or

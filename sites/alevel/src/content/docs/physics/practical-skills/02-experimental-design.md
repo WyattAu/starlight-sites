@@ -498,7 +498,7 @@ Temperature.
 **Method:** Measure the diameter with a micrometer at several points and average. Set up the wire in
 A circuit with an ammeter in series and a voltmeter in parallel. Vary the length from 0.10 m to 1.00
 M in 0.10 m steps. Record $V$ and $I$ at each length, calculate $R = V/I$. Plot $R$ vs $L$. Gradient
-$= \rho/A$So $\rho = \mathrm{gradient} \times A$.
+$= \rho/A$ So $\rho = \mathrm{gradient} \times A$.
 
 **Improvements:** Use a low current to avoid heating. Ensure good contact at the crocodile clips.
 Measure diameter at multiple positions.

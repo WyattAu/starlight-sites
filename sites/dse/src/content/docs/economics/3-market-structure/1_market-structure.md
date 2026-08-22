@@ -1899,7 +1899,7 @@ If you get this wrong, revise: [Monopolistic Competition](#monopolistic-competit
 ### Problem 13: Cartel Stability and Game Theory
 
 Three firms (A, B, C) form a cartel to fix the market price. The competitive market price is
-$P_c = 20$And the cartel price is $P_m = 50$. Each firm's marginal cost is $MC = 20$. At the cartel
+$P_c = 20$ And the cartel price is $P_m = 50$. Each firm's marginal cost is $MC = 20$. At the cartel
 price, each firm's quota is 100 units.
 
 (a) Calculate each firm's profit from complying with the cartel. (b) If one firm cheats by producing

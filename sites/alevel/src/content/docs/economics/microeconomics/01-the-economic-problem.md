@@ -26,7 +26,7 @@ categories:
 
 We define **scarcity** as the condition in which human wants exceed the resources available to
 Satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
-The set of all producible goods and services by $\mathcal{P}$Then scarcity is the statement that
+The set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
 $\mathcal{W} \supsetneq \mathcal{P}$. This is not a temporary condition — it is a permanent feature
 Of human existence, because wants are effectively unlimited while resources (land, labour, capital,
 Entrepreneurship) are finite.
@@ -552,7 +552,7 @@ Economics?
 
 <details>
 <summary>Hint</summary>
-Set up the Lagrangian: $\mathcal{L} = 20\sqrt{t_E} + 15\sqrt{t_M} + \lambda(6 - t_E - t_M)$. Take derivatives and set to zero: $\frac{10}{\sqrt{t_E}} = \lambda$ and $\frac{7.5}{\sqrt{t_M}} = \lambda$. So $\frac{10}{\sqrt{t_E}} = \frac{7.5}{\sqrt{t_M}}$Giving $\frac{t_E}{t_M} = \frac{16}{9}$So $t_E = \frac{96}{25} = 3.84$ hours, $t_M = 2.16$ hours.
+Set up the Lagrangian: $\mathcal{L} = 20\sqrt{t_E} + 15\sqrt{t_M} + \lambda(6 - t_E - t_M)$. Take derivatives and set to zero: $\frac{10}{\sqrt{t_E}} = \lambda$ and $\frac{7.5}{\sqrt{t_M}} = \lambda$. So $\frac{10}{\sqrt{t_E}} = \frac{7.5}{\sqrt{t_M}}$Giving $\frac{t_E}{t_M} = \frac{16}{9}$ So $t_E = \frac{96}{25} = 3.84$ hours, $t_M = 2.16$ hours.
 </details>
 
 **Problem 8.** Evaluate the argument that "scarcity can be eliminated through technological
@@ -622,7 +622,7 @@ Effect on car production, explain how the PPF changes.
 <details>
 <summary>Hint</summary>
 (a) The PPF connects (0, 200) to (100, 0). Assuming increasing opportunity cost (concave shape), the curve bows outward from the origin. This reflects that resources are not perfectly adaptable between car manufacturing and wheat farming.
-(b) The opportunity cost depends on the shape of the PPF. If we assume a linear PPF for simplicity (constant opportunity cost), the slope is $-200/100 = -2$So each car costs 2 units of wheat. If the PPF is concave, the opportunity cost at 50 cars is greater than at 0 cars — resources less suited to car production must be transferred from wheat farming.
+(b) The opportunity cost depends on the shape of the PPF. If we assume a linear PPF for simplicity (constant opportunity cost), the slope is $-200/100 = -2$ So each car costs 2 units of wheat. If the PPF is concave, the opportunity cost at 50 cars is greater than at 0 cars — resources less suited to car production must be transferred from wheat farming.
 (c) This is an asymmetric outward shift. The wheat intercept doubles from 200 to 400, but the car intercept remains at 100. The new PPF connects (0, 400) to (100, 0), pivoting outward on the vertical axis. This represents a sector-specific technological improvement.
 </details>
 
@@ -708,7 +708,7 @@ used, requiring larger sacrifices of consumer goods.
 
 **Example.** The PPF shifts outward due to economic growth.
 
-**Capital accumulation.** If the economy produces at $K = 60$, $C = 64$And the capital stock grows
+**Capital accumulation.** If the economy produces at $K = 60$, $C = 64$ And the capital stock grows
 at 5% per year:
 
 $$K_{t+1} = K_t + 0.05K_t = 1.05K_t$$

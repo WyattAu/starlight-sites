@@ -254,7 +254,7 @@ Right-angled. The triangle is **scalene**.
 
 **Question:**
 
-The points $(1, 2)$$(3, 6)$And $(k, 10)$ are collinear. Find $k$.
+The points $(1, 2)$$(3, 6)$ And $(k, 10)$ are collinear. Find $k$.
 
 **Solution:**
 
@@ -295,7 +295,7 @@ alternate segment.
 
 Therefore the angle in the alternate segment $= 42°$.
 
-If $C$ is any point on the circle on the opposite side of $AB$ from $T$Then $\angle ACB = 42°$.
+If $C$ is any point on the circle on the opposite side of $AB$ from $T$ Then $\angle ACB = 42°$.
 
 **DSE Exam Technique:** When stating circle theorems, name the theorem explicitly. The HKEAA
 requires you to cite the specific theorem being used, e.g. "By the alternate segment theorem."
@@ -481,7 +481,7 @@ $$\vec{AD} = \vec{AB} + \frac{1}{2}(-\vec{AB} + \vec{AC}) = \vec{AB} - \frac{1}{
 
 **Question:**
 
-Find the equation of the circle passing through the points $(0, 0)$, $(4, 0)$And $(0, 6)$.
+Find the equation of the circle passing through the points $(0, 0)$, $(4, 0)$ And $(0, 6)$.
 
 **Solution:**
 
@@ -562,7 +562,7 @@ $$x = 25°$$
    chord bisects the chord, but this is a different property.
 
 3. **Forgetting that cyclic quadrilateral conditions work both ways.** If opposite angles sum to
-   $180°$Then the quadrilateral is cyclic. But you can also use this property in reverse: if you
+   $180°$ Then the quadrilateral is cyclic. But you can also use this property in reverse: if you
    know a quadrilateral is cyclic, you can conclude that opposite angles sum to $180°$.
 
 4. **Incorrect vector notation in geometry ./1-number-and-algebra/3_proof-and-logics.** When writing
@@ -622,7 +622,7 @@ Since $ABCD$ is cyclic: $\angle ADC = 180° - \angle ABC = 180° - 65° = 115°$
 
 ### DSE-2
 
-The vertices of triangle $ABC$ are $A(1, 2)$, $B(5, 4)$And $C(3, 8)$.
+The vertices of triangle $ABC$ are $A(1, 2)$, $B(5, 4)$ And $C(3, 8)$.
 
 (a) Find the equation of the perpendicular bisector of $AB$. (4 marks) (b) The perpendicular
 bisector of $AB$ meets the perpendicular bisector of $AC$ at point $O$. Find the coordinates of
@@ -724,7 +724,7 @@ $$\vec{AE} = \vec{OE} - \vec{OA} = \frac{1}{2}(\mathbf{b} + \mathbf{c}) - \mathb
 $$\vec{AD} = \frac{1}{3}(\mathbf{c} - \mathbf{a})$$
 
 For collinearity, $\vec{AE}$ must be a scalar multiple of $\vec{AD}$. This requires more information
-about the relationship between $\mathbf{a}$, $\mathbf{b}$And $\mathbf{c}$. If $D$ divides $AE$ in some
+about the relationship between $\mathbf{a}$, $\mathbf{b}$ And $\mathbf{c}$. If $D$ divides $AE$ in some
 ratio, we can show:
 
 $\vec{AD} = \dfrac{1}{3}\vec{AC}$ means $D$ divides $AC$ in ratio $1:2$.

@@ -27,7 +27,7 @@ A $200$ g block of ice at $-15°$C is heated by a $500$ W heater until it become
 The specific heat capacity of ice is $2100 \text{ J kg}^{-1}\text{K}^{-1}$The specific heat capacity
 of water is $4200 \text{ J kg}^{-1}\text{K}^{-1}$The specific heat capacity of steam is
 $2010 \text{ J kg}^{-1}\text{K}^{-1}$The specific latent heat of fusion of ice is
-$3.34 \times 10^5 \text{ J kg}^{-1}$And the specific latent heat of vaporisation of water is
+$3.34 \times 10^5 \text{ J kg}^{-1}$ And the specific latent heat of vaporisation of water is
 $2.26 \times 10^6 \text{ J kg}^{-1}$. Find (a) the total energy required, and (b) the total time
 taken.
 
@@ -150,7 +150,7 @@ RMS speed of the molecules and the density of the gas.
 Consider $N$ molecules in a cubical container of side $L$Each of mass $m$.
 
 A single molecule with velocity component $v_x$ in the $x$-direction travels between opposite walls
-in time $\Delta t = 2L / v_x$. Each collision with a wall reverses $v_x$So the change in momentum
+in time $\Delta t = 2L / v_x$. Each collision with a wall reverses $v_x$ So the change in momentum
 per collision $= 2mv_x$.
 
 Force on the wall from this molecule:
@@ -312,7 +312,7 @@ $$T_2 = T_1 \left(\frac{V_1}{V_2}\right)^{\gamma - 1} = 300 \times 2.5^{2/3} = 3
 
 **(c) Work done on the gas:**
 
-For an adiabatic process, $Q = 0$So $W = -\Delta U$.
+For an adiabatic process, $Q = 0$ So $W = -\Delta U$.
 
 $$W = \frac{P_1 V_1 - P_2 V_2}{\gamma - 1} = \frac{1 \times 10^5 \times 10 \times 10^{-3} - 4.605 \times 10^5 \times 4 \times 10^{-3}}{5/3 - 1}$$
 

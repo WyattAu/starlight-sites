@@ -5,7 +5,7 @@ title: Fermi Gas at Finite Temperature
 tags:
   - Physics
   - University
-description: "Fermi gas at finite temperature and the Sommerfeld expansion."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"2 Thermal Physics\","
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -97,7 +97,7 @@ $$\frac{C_V^{\mathrm{el}}{C_V^{\mathrm{lat}} \approx \frac{0.018}{3} \approx 0.0
 
 The electronic heat capacity is only about $0.6\%$ of the lattice contribution at room temperature.
 At very low temperatures ($T \ll \Theta_D$), the lattice contribution falls as $T^3$ while the
-electronic contribution falls as $T$So the electronic term eventually dominates below a few kelvin.
+electronic contribution falls as $T$ So the electronic term eventually dominates below a few kelvin.
 
 $\blacksquare$
 

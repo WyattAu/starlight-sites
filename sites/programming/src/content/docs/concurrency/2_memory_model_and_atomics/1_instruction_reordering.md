@@ -226,7 +226,7 @@ $$A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side 
 ## Happens-Before Relationship
 
 The **happens-before** relation [N4950 §6.9.4.1] is a strict partial order ($\prec$) on evaluations
-Within a single execution. If evaluation $A$ happens-before evaluation $B$Then $B$ observes all Side
+Within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
 effects of $A$.
 
 The happens-before relation is the **transitive closure** of:
@@ -237,7 +237,7 @@ The happens-before relation is the **transitive closure** of:
    **synchronizes-with** an acquire operation on $M$ in thread $B$ if $B$ reads a value written (or
    released) by $A$.
 3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B$ and
-   $B \xrightarrow{\mathrm{seq} C$Then $A \xrightarrow{\mathrm{seq} C$.
+   $B \xrightarrow{\mathrm{seq} C$ Then $A \xrightarrow{\mathrm{seq} C$.
 
 $$A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B$$
 
@@ -250,8 +250,8 @@ Then $B$ observes the side effects of $A$ (there is no data race).
 
 ### Proof: Happens-Before Prevents Data Races
 
-**Claim:** If two evaluations $A$ and $B$ access the same memory location $M$And at least one is a
-Write, and $A \prec B$Then there is no data race [N4950 §6.9.4.1].
+**Claim:** If two evaluations $A$ and $B$ access the same memory location $M$ And at least one is a
+Write, and $A \prec B$ Then there is no data race [N4950 §6.9.4.1].
 
 **Proof:**
 

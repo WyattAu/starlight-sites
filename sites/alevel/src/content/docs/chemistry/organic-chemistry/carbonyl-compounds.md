@@ -484,7 +484,7 @@ compound. This is a standard qualitative organic analysis technique.
 A compound $\mathrm{A}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}$) gives a silver mirror with Tollens'
 Reagent and reacts with $\mathrm{NaBH}_4$ to give compound $\mathrm{B}$. Compound $\mathrm{B}$ can
 Be oxidised to compound $\mathrm{C}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$), which reacts with
-Sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$And $\mathrm{C}$.
+Sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
 
 **Solution:**
 
@@ -577,7 +577,7 @@ $$
 $$
 
 **Stereochemistry:** The product (2-hydroxy-2-methylpropanenitrile) has a chiral centre at the
-carbon bearing the $-\mathrm{OH}$$-\mathrm{CN}$$-\mathrm{CH}_3$And $-\mathrm{CH}_3$ groups. The
+carbon bearing the $-\mathrm{OH}$$-\mathrm{CN}$$-\mathrm{CH}_3$ And $-\mathrm{CH}_3$ groups. The
 nucleophile attacks from either face of the planar carbonyl, giving a racemic mixture (50:50 mixture
 of enantiomers).
 
@@ -829,7 +829,7 @@ formed as a racemic mixture.
 - The alkoxide is protonated by $\mathrm{HCN}$ (or water during work-up) to give the cyanohydrin (1
   mark).
 - The carbonyl carbon is prochiral (after addition, it bears four different groups:
-  $-\mathrm{OH}$$-\mathrm{CN}$$-\mathrm{CH}_3$And $-\mathrm{CH}_2\mathrm{CH}_3$) (1 mark).
+  $-\mathrm{OH}$$-\mathrm{CN}$$-\mathrm{CH}_3$ And $-\mathrm{CH}_2\mathrm{CH}_3$) (1 mark).
 - The $\mathrm{CN}^-$ can attack from either face of the planar carbonyl with equal probability,
   producing a 50:50 mixture of enantiomers (racemate) (1 mark).
 

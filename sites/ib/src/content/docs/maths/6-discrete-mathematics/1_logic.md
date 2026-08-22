@@ -26,8 +26,8 @@ categories:
 - A statement is a sentence which is definitely true or definitely false. A statement can never be
   both true and false.
 - Examples:
-- "If $x = 3$Then $x^2 = 9$." This is certainly true, so it is a statement.
-- "If $x = 3$Then $x^2 = 4$." This is certainly false, so it is a statement.
+- "If $x = 3$ Then $x^2 = 9$." This is certainly true, so it is a statement.
+- "If $x = 3$ Then $x^2 = 4$." This is certainly false, so it is a statement.
 - "The sum of two odd numbers is an even number." This is certainly true, so it is a statement.
 
 ### Truth values
@@ -351,7 +351,7 @@ Negation: "There exists an integer $n$ such that $n$ is even and $n^2$ is not ev
 
 Notice that negating an implication $P \Rightarrow Q$ produces $\neg Q$ alongside $P$: the negation
 Is "$P$ and not $Q$", not "$P \Rightarrow \neg Q$". This is because $P \Rightarrow Q$ is logically
-Equivalent to $\neg P \lor Q$And negating gives $P \land \neg Q$.
+Equivalent to $\neg P \lor Q$ And negating gives $P \land \neg Q$.
 
 **Example 4.** Negate: "For all real numbers $x$ there exists a real number $y$ such that
 $x + y = 0$."
@@ -535,22 +535,22 @@ Counterexample: $x = 0.5$ gives $x^2 = 0.25 \lt 0.5 = x$.
 **Worked example 3.** Disprove: "If $a$ and $b$ are positive integers, then
 $a^2 + b^2 \ge 2ab + 1$."
 
-Counterexample: $a = 1$, $b = 1$ gives $1 + 1 = 2$ but $2(1)(1) + 1 = 3$And $2 \lt 3$.
+Counterexample: $a = 1$, $b = 1$ gives $1 + 1 = 2$ but $2(1)(1) + 1 = 3$ And $2 \lt 3$.
 
 ### Common errors in .../1-number-and-algebra/3_proof-and-logics (Err1, Err2)
 
 Several tempting deductions are invalid. The TMUA specification specifically highlights two:
 
-**Error 1:** "If $ab = ac$Then $b = c$."
+**Error 1:** "If $ab = ac$ Then $b = c$."
 
 This implicitly assumes $a \neq 0$. Counterexample: $a = 0$, $b = 3$, $c = 7$. Then
-$0 \cdot 3 = 0 \cdot 7 = 0$But $3 \neq 7$. The correct deduction is: if $ab = ac$ and $a \neq 0$
+$0 \cdot 3 = 0 \cdot 7 = 0$ But $3 \neq 7$. The correct deduction is: if $ab = ac$ and $a \neq 0$
 Then $b = c$.
 
-**Error 2:** "If $\sin A = \sin B$Then $A = B$."
+**Error 2:** "If $\sin A = \sin B$ Then $A = B$."
 
-Counterexample: $\sin 30^{\circ} = \sin 150^{\circ} = 0.5$But $30^{\circ} \neq 150^\circ$. The
-correct statement is: if $\sin A = \sin B$ and $A, B \in [-90^{\circ}, 90^{\circ}]$Then $A = B$. ,
+Counterexample: $\sin 30^{\circ} = \sin 150^{\circ} = 0.5$ But $30^{\circ} \neq 150^\circ$. The
+correct statement is: if $\sin A = \sin B$ and $A, B \in [-90^{\circ}, 90^{\circ}]$ Then $A = B$. ,
 $\sin A = \sin B$ implies $A = B + 360^{\circ}k$ or $A = 180^{\circ} - B + 360^{\circ}k$ for some
 integer $k$.
 
@@ -646,7 +646,7 @@ Assume $\sqrt{3} = \frac{a}{b}$ where $a, b$ are coprime integers and $b \neq 0$
 
 $$3 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 3b^2$$
 
-So $a^2$ is a multiple of 3, which means $a$ is a multiple of 3 (if 3 divides $a^2$Then 3 must
+So $a^2$ is a multiple of 3, which means $a$ is a multiple of 3 (if 3 divides $a^2$ Then 3 must
 Divide $a$). Write $a = 3k$. Substituting:
 
 $$9k^2 = 3b^2 \quad \Rightarrow \quad b^2 = 3k^2$$
@@ -723,7 +723,7 @@ In both cases $n^2 + n$ is even. $\square$
 
 A student writes the following ".../1-number-and-algebra/3_proof-and-logic". Identify the error.
 
-"Claim: If $x^2 = y^2$Then $x = y$.
+"Claim: If $x^2 = y^2$ Then $x = y$.
 
 Proof: $x^2 = y^2$. Taking square roots, $x = y$. QED."
 
@@ -733,9 +733,9 @@ Proof: $x^2 = y^2$. Taking square roots, $x = y$. QED."
 The error is in the step "taking square roots gives $x = y$". This is invalid because
 $\sqrt{x^2} = |x|$Not $x$. From $x^2 = y^2$ we get $|x| = |y|$Which means $x = y$ or $x = -y$.
 
-Counterexample: $x = 3$, $y = -3$. Then $x^2 = 9 = y^2$But $3 \neq -3$.
+Counterexample: $x = 3$, $y = -3$. Then $x^2 = 9 = y^2$ But $3 \neq -3$.
 
-The correct statement is: "If $x^2 = y^2$Then $x = y$ or $x = -y$."
+The correct statement is: "If $x^2 = y^2$ Then $x = y$ or $x = -y$."
 
 </details>
 
@@ -791,7 +791,7 @@ Determine whether each condition is necessary, sufficient, both, or neither for 
 While $15 \nmid 6$ (so not sufficient).
 
 (b) **Necessary and sufficient.** $3 \mid n$ and $5 \mid n$ together mean $n$ is a common multiple
-Of 3 and 5. Since $\gcd(3, 5) = 1$The least common multiple is $15$So $15 \mid n$.
+Of 3 and 5. Since $\gcd(3, 5) = 1$The least common multiple is $15$ So $15 \mid n$.
 
 (c) **Sufficient but not necessary.** If $30 \mid n$ then $15 \mid n$ (since $30 = 2 \times 15$).
 But $15 \mid 15$ while $30 \nmid 15$.

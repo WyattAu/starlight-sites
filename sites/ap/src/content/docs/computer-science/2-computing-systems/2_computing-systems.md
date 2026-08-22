@@ -112,7 +112,7 @@ There is no separate subtraction circuit needed.
 
 **Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Overflow detection.** If adding two positive numbers produces a negative result (or vice versa),

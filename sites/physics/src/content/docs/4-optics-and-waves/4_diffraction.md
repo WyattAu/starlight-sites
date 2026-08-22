@@ -26,7 +26,7 @@ the Envelope of these wavelets, accounting for both amplitude and phase.
 
 $$E(P) = \frac{i}{\lambda}\iint_{\mathrm{aperture} E(Q)\,\frac{e^{-ikr}}{r}\cos\theta\,dS}$$
 
-Where $E(Q)$ is the field at the aperture point $Q$, $r$ is the distance from $Q$ to $P$And $\theta$
+Where $E(Q)$ is the field at the aperture point $Q$, $r$ is the distance from $Q$ to $P$ And $\theta$
 Is the angle between the normal to the aperture and the direction to $P$. The obliquity factor
 $\cos\theta$ ensures that wavelets do not propagate backwards. In the Fraunhofer limit
 ($r \to \infty$), This integral reduces to the Fourier transform of the aperture function (see

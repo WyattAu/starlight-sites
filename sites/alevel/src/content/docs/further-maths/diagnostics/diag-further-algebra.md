@@ -173,11 +173,11 @@ $\{0, 1, -1\}$?
 $M^2 = \begin{pmatrix} a^2+bc & ab+bd \\ ac+cd & bc+d^2 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
 So $a^2 + bc = 1$$b(a+d) = 0$$c(a+d) = 0$$bc + d^2 = 1$.
 
-(b) From $a^2 + bc = 1$ and $d^2 + bc = 1$: $a^2 = d^2$So $d = \pm a$.
+(b) From $a^2 + bc = 1$ and $d^2 + bc = 1$: $a^2 = d^2$ So $d = \pm a$.
 
 Case 1: $d = a$. Then $b(a+a) = 2ab = 0$ and $c(a+a) = 2ac = 0$. So either $a = 0$ or $b = c = 0$.
 
-- If $a = 0$: $bc = 1$So $(b, c) = (1, 1)$ or $(-1, -1)$. Matrices:
+- If $a = 0$: $bc = 1$ So $(b, c) = (1, 1)$ or $(-1, -1)$. Matrices:
   $\begin{pmatrix}0&1\\1&0\end{pmatrix}$$\begin{pmatrix}0&-1\\-1&0\end{pmatrix}$.
 - If $a \ne 0$: $b = c = 0$$a^2 = 1$$a = \pm 1$. Matrices: $\pm\mathbf{I}$.
 
@@ -190,7 +190,7 @@ If $a = -1$: $bc = 0$.
   $\begin{pmatrix}1&0\\0&-1\end{pmatrix}$$\begin{pmatrix}1&1\\0&-1\end{pmatrix}$$\begin{pmatrix}1&-1\\0&-1\end{pmatrix}$$\begin{pmatrix}1&0\\1&-1\end{pmatrix}$$\begin{pmatrix}1&0\\-1&-1\end{pmatrix}$.
 - $a = -1, d = 1$: similarly, 5 matrices with $(-1, 1)$ diagonal.
 
-(c) From $M^2 = \mathbf{I}$: $\det(M)^2 = 1$So $\det(M) = \pm 1$. Also $\text{tr}(M) = a + d$. From
+(c) From $M^2 = \mathbf{I}$: $\det(M)^2 = 1$ So $\det(M) = \pm 1$. Also $\text{tr}(M) = a + d$. From
 $d = \pm a$: $\text{tr} = 2a$ or $\text{tr} = 0$. If $d = a$: $\text{tr} = 2a \in \{-2, 0, 2\}$. If
 $d = -a$: $\text{tr} = 0$. So $\text{tr}(M) \in \{-2, 0, 2\}$.
 

@@ -155,7 +155,7 @@ $\text{MnO}_4^-/\text{Mn}^{2+} = +1.51\,\text{V}$$\text{Cr}_2\text{O}_7^{2-}/\te
 (a) Calculate the concentration of $\text{Fe}^{2+}$ in the solution.
 
 (b) Explain why both $\text{MnO}_4^-$ and $\text{Cr}_2\text{O}_7^{2-}$ can oxidise $\text{Fe}^{2+}$
-to $\text{Fe}^{3+}$And state which is the stronger oxidising agent.
+to $\text{Fe}^{3+}$ And state which is the stronger oxidising agent.
 
 (c) The $\text{MnO}_4^-$ titration does not require an indicator. Explain why.
 

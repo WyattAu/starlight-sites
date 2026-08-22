@@ -75,7 +75,7 @@ non-unitary** Collapse. This is the **measurement problem**.
 **The conflict.** Consider a system in a superposition
 $|\psi\rangle = \alpha|a_1\rangle + \beta|a_2\rangle$. Under unitary evolution, the state remains a
 superposition. But a measurement of $\hat{A}$ yields Either $a_1$ or $a_2$ with probabilities
-$|\alpha|^2$ and $|\beta|^2$And the state collapses to The corresponding eigenstate. No unitary
+$|\alpha|^2$ and $|\beta|^2$ And the state collapses to The corresponding eigenstate. No unitary
 operator can map a superposition to a single eigenstate With the correct probabilities.
 
 **Major interpretational approaches:**

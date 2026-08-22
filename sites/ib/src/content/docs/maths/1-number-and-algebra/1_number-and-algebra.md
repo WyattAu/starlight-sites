@@ -66,10 +66,10 @@ $$(A \cap B)' = A' \cup B'$$
 
 _Proof of the first law._ We show mutual inclusion.
 
-($\subseteq$) Suppose $x \in (A \cup B)'$. Then $x \notin A \cup B$So $x \notin A$ and $x \notin B$.
+($\subseteq$) Suppose $x \in (A \cup B)'$. Then $x \notin A \cup B$ So $x \notin A$ and $x \notin B$.
 Hence $x \in A'$ and $x \in B'$Which means $x \in A' \cap B'$.
 
-($\supseteq$) Suppose $x \in A' \cap B'$. Then $x \in A'$ and $x \in B'$So $x \notin A$ and
+($\supseteq$) Suppose $x \in A' \cap B'$. Then $x \in A'$ and $x \in B'$ So $x \notin A$ and
 $x \notin B$. Therefore $x \notin A \cup B$Giving $x \in (A \cup B)'$.
 
 The second law follows by symmetry or by applying the first law to $A'$ and $B'$. $\blacksquare$
@@ -79,7 +79,7 @@ The second law follows by symmetry or by applying the first law to $A'$ and $B'$
 The **power set** $\mathcal{P}(A)$ of a set $A$ is the set of all subsets of $A$Including
 $\emptyset$ and $A$ itself.
 
-If $|A| = n$Then $|\mathcal{P}(A)| = 2^n$.
+If $|A| = n$ Then $|\mathcal{P}(A)| = 2^n$.
 
 <details>
 <summary>Worked example: Power set</summary>
@@ -166,10 +166,10 @@ $$A = \{f(x) \mid x \in X\}, \quad A \subseteq Y$$
 
 Let $f: \mathbb{R} \to \mathbb{R},\; f(x) = x^2$.
 
-_Injective?_ No. $f(1) = f(-1) = 1$So distinct inputs map to the same output. (This is also an Even
+_Injective?_ No. $f(1) = f(-1) = 1$ So distinct inputs map to the same output. (This is also an Even
 function.)
 
-_Surjective?_ No. There is no $x \in \mathbb{R}$ such that $f(x) = -1$So
+_Surjective?_ No. There is no $x \in \mathbb{R}$ such that $f(x) = -1$ So
 $-1 \notin \mathrm{range}(f)$.
 
 The range is $[0, \infty)$A proper subset of $\mathbb{R}$.
@@ -181,7 +181,7 @@ The range is $[0, \infty)$A proper subset of $\mathbb{R}$.
 
 Let $f: \mathbb{R} \to \mathbb{R},\; f(x) = 2x + 3$.
 
-_Injective:_ Suppose $f(x_1) = f(x_2)$. Then $2x_1 + 3 = 2x_2 + 3$So $x_1 = x_2$.
+_Injective:_ Suppose $f(x_1) = f(x_2)$. Then $2x_1 + 3 = 2x_2 + 3$ So $x_1 = x_2$.
 
 _Surjective:_ Let $y \in \mathbb{R}$. We need $2x + 3 = y$I.e. $x = \frac{y - 3}{2}$. Since
 $\frac{y-3}{2} \in \mathbb{R}$Every $y$ is in the range.
@@ -196,7 +196,7 @@ If $f: X \to Y$ is bijective, the **inverse function** $f^{-1}: Y \to X$ exists 
 
 $$f^{-1}(f(x)) = x \quad \mathrm{for all } x \in X, \qquad f(f^{-1}(y)) = y \quad \mathrm{for all } y \in Y$$
 
-To find $f^{-1}$: write $y = f(x)$Solve for $x$ in terms of $y$Then interchange $x$ and $y$.
+To find $f^{-1}$: write $y = f(x)$Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
 
 **Existence condition:** A function has an inverse (on its given domain and codomain) if and only if
 It is bijective.
@@ -207,7 +207,7 @@ It is bijective.
 Let $f: \mathbb{R} \to \mathbb{R},\; f(x) = \frac{2x + 1}{x - 3}$With domain
 $\mathbb{R} \setminus \{3\}$.
 
-Set $y = \frac{2x+1}{x-3}$. Then $y(x-3) = 2x+1$So $yx - 3y = 2x + 1$Hence $x(y-2) = 3y+1$ Giving
+Set $y = \frac{2x+1}{x-3}$. Then $y(x-3) = 2x+1$ So $yx - 3y = 2x + 1$Hence $x(y-2) = 3y+1$ Giving
 $x = \frac{3y+1}{y-2}$.
 
 Therefore $f^{-1}(x) = \frac{3x+1}{x-2}$ with domain $\mathbb{R} \setminus \{2\}$.
@@ -322,14 +322,14 @@ Sigma notation obeys the following rules (where $c$ is a constant independent of
 $$\sum_{n=1}^{k} (au_n + bv_n) = a\sum_{n=1}^{k} u_n + b\sum_{n=1}^{k} v_n$$
 
 _Proof._ Distribute the sum over each term and factor constants out. Each term $au_n$ appears
-Exactly once in the expansion, so grouping gives $a$ times the sum of $u_n$And similarly for $bv_n$.
+Exactly once in the expansion, so grouping gives $a$ times the sum of $u_n$ And similarly for $bv_n$.
 $\blacksquare$
 
 **Index shifting:** Replacing $n$ with $n + m$ shifts the bounds:
 
 $$\sum_{n=p}^{q} u_n = \sum_{n=p+m}^{q+m} u_{n-m}$$
 
-**Telescoping:** If $u_n = v_n - v_{n-1}$Then $\sum_{n=1}^{k} u_n = v_k - v_0$.
+**Telescoping:** If $u_n = v_n - v_{n-1}$ Then $\sum_{n=1}^{k} u_n = v_k - v_0$.
 
 <details>
 <summary>Worked example: Sigma manipulation</summary>
@@ -357,7 +357,7 @@ $$S_k = a_1 + (a_1 + d) + (a_1 + 2d) + \cdots + (a_1 + (k-1)d)$$
 
 $$S_k = a_k + (a_k - d) + (a_k - 2d) + \cdots + (a_k - (k-1)d)$$
 
-Adding term-by-term, each pair sums to $a_1 + a_k$And there are $k$ such pairs:
+Adding term-by-term, each pair sums to $a_1 + a_k$ And there are $k$ such pairs:
 
 $$2S_k = k(a_1 + a_k) \implies S_k = \frac{k}{2}(a_1 + a_k)$$
 
@@ -396,7 +396,7 @@ $$S_k = \frac{u_1(1 - r^k)}{1 - r} \qquad \blacksquare$$
 
 ### Convergence of Geometric Series
 
-If $|r| \lt 1$Then $\lim_{k \to \infty} r^k = 0$So:
+If $|r| \lt 1$ Then $\lim_{k \to \infty} r^k = 0$ So:
 
 $$S_{\infty} = \frac{u_1}{1 - r}$$
 
@@ -489,7 +489,7 @@ $\log_a(x/y) = m - n = \log_a x - \log_a y$. $\blacksquare$
 
 **Law 3 (Power rule):** $\log_a(x^m) = m\log_a x$
 
-_Proof._ Let $n = \log_a x$So $a^n = x$. Then $x^m = (a^n)^m = a^{mn}$. Taking $\log_a$:
+_Proof._ Let $n = \log_a x$ So $a^n = x$. Then $x^m = (a^n)^m = a^{mn}$. Taking $\log_a$:
 $\log_a(x^m) = mn = m\log_a x$. $\blacksquare$
 
 ### Change of Base Formula
@@ -497,7 +497,7 @@ $\log_a(x^m) = mn = m\log_a x$. $\blacksquare$
 **Theorem.** $\log_a x = \dfrac{\log_b x}{\log_b a}$ for any valid bases $a, b \gt 0$, $a, b \ne 1$.
 
 _Proof._ Let $y = \log_a x$. Then $a^y = x$. Taking $\log_b$ of both sides:
-$\log_b(a^y) = \log_b x$. By the power rule, $y\log_b a = \log_b x$So
+$\log_b(a^y) = \log_b x$. By the power rule, $y\log_b a = \log_b x$ So
 $y = \frac{\log_b x}{\log_b a}$. $\blacksquare$
 
 This is particularly useful for computing logarithms in bases other than $10$ or $e$ using a
@@ -533,7 +533,7 @@ Solve $\log_2(x + 3) + \log_2(x - 3) = 4$.
 
 By the product rule: $\log_2\!\big((x+3)(x-3)\big) = 4$I.e. $\log_2(x^2 - 9) = 4$.
 
-$x^2 - 9 = 2^4 = 16$So $x^2 = 25$Giving $x = 5$ or $x = -5$.
+$x^2 - 9 = 2^4 = 16$ So $x^2 = 25$Giving $x = 5$ or $x = -5$.
 
 Check domain: $x + 3 \gt 0$ and $x - 3 \gt 0$ requires $x \gt 3$. So $x = -5$ is rejected.
 
@@ -558,9 +558,9 @@ A bacteria culture doubles every 3 hours. If the initial population is $500$When
 
 $P(t) = 500 \cdot 2^{t/3}$. Set $500 \cdot 2^{t/3} = 32000$:
 
-$2^{t/3} = 64 = 2^6$So $t/3 = 6$Giving $t = 18$ hours.
+$2^{t/3} = 64 = 2^6$ So $t/3 = 6$Giving $t = 18$ hours.
 
-Alternatively, using logarithms: $\frac{t}{3}\ln 2 = \ln 64 = 6\ln 2$So $t = 18$.
+Alternatively, using logarithms: $\frac{t}{3}\ln 2 = \ln 64 = 6\ln 2$ So $t = 18$.
 
 </details>
 

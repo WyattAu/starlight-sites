@@ -315,7 +315,7 @@ $$
 
 **Proof that $E(X) = np$ for $X \sim \mathrm{Bin(n, p)$.** Let $X_i$ be the indicator variable for
 Success on trial $i$ (so $X_i = 1$ with probability $p$$X_i = 0$ with probability $1-p$). Then
-$X = X_1 + X_2 + \cdots + X_n$ and $E(X_i) = p$So $E(X) = np$.
+$X = X_1 + X_2 + \cdots + X_n$ and $E(X_i) = p$ So $E(X) = np$.
 
 **Example (HL):** A multiple-choice test has 20 questions, each with 4 options. A student guesses
 Every answer. Find the probability of getting exactly 5 correct.
@@ -394,7 +394,7 @@ Apply a **continuity correction**:
 $P(X \le k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
 
 **Why continuity correction is needed.** The binomial is discrete (defined on integers) while the
-Normal is continuous. Without the correction, we would compute $P(X \le 5) = P(X \lt 6)$But the
+Normal is continuous. Without the correction, we would compute $P(X \le 5) = P(X \lt 6)$ But the
 Normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
 
 ### Bernoulli Trials (HL)
@@ -577,7 +577,7 @@ Correlation (but there may be a non-linear relationship).
 The coefficient of determination $r^2$ represents the proportion of variance in $y$ explained by the
 Linear relationship with $x$.
 
-If $r = 0.8$Then $r^2 = 0.64$Meaning 64% of the variation in $y$ is accounted for by the linear
+If $r = 0.8$ Then $r^2 = 0.64$Meaning 64% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 36% is due to other factors.
 
 ### Line of Best Fit (Least Squares) (HL)
@@ -680,7 +680,7 @@ See the examples integrated throughout the sections above.
 10. A 95% confidence interval for a mean is $(12.3, 15.7)$ based on a sample of size $n = 25$. Find
     $\bar{x}$ and the margin of error.
 11. Prove that $\mathrm{Var(aX + b) = a^2\mathrm{Var(X)$.
-12. Two events $A$ and $B$ satisfy $P(A) = 0.4$$P(B) = 0.5$And $P(A \cup B) = 0.7$. Determine
+12. Two events $A$ and $B$ satisfy $P(A) = 0.4$$P(B) = 0.5$ And $P(A \cup B) = 0.7$. Determine
     whether $A$ and $B$ are independent.
 13. Find the coefficient of $x^4$ in the expansion of $(1 - 2x)^8$.
 14. Explain the difference between Type I and Type II errors in hypothesis testing.
@@ -713,7 +713,7 @@ See the examples integrated throughout the sections above.
 
 1. Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
 2. The regression line of $y$ on $x$ is $y = 2.5x - 3.0$ and the regression line of $x$ on $y$ is
-    $x = 0.35y + 1.2$. Find $\bar{x}$$\bar{y}$And the correlation coefficient $r$.
+    $x = 0.35y + 1.2$. Find $\bar{x}$$\bar{y}$ And the correlation coefficient $r$.
 
 ### 8.4 Poisson Approximation to the Binomial
 

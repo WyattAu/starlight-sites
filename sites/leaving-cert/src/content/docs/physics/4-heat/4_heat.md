@@ -282,7 +282,7 @@ $$
 Notice that the latent heat of vaporisation ($226\mathrm{ kJ$) dominates the total energy. This is
 Why steam burns are so much more dangerous than water burns at the same temperature: steam at
 $100^\circ\mathrm{C$ contains an additional $2260\mathrm{ kJ/kg$ of energy compared to water at
-$100^\circ\mathrm{C$And this Energy is released when the steam condenses on the skin.
+$100^\circ\mathrm{C$ And this Energy is released when the steam condenses on the skin.
 
 ## Gas Laws
 
@@ -459,7 +459,7 @@ P = \frac{m}{V}\overline{v_x^2}
 $$
 
 Where $\overline{v_x^2}$ is the mean square x-velocity. By symmetry,
-$\overline{v_x^2} = \overline{v_y^2} = \overline{v_z^2}$And:
+$\overline{v_x^2} = \overline{v_y^2} = \overline{v_z^2}$ And:
 
 $$
 \overline{v^2} = \overline{v_x^2} + \overline{v_y^2} + \overline{v_z^2} = 3\overline{v_x^2}
@@ -572,7 +572,7 @@ $$
 $$
 
 All heat added to the system is converted to work, and vice versa. For an ideal gas,
-$pV = \mathrm{constant$And the work done is:
+$pV = \mathrm{constant$ And the work done is:
 
 $$
 W = nRT\ln\left(\frac{V_2}{V_1}\right)
@@ -707,7 +707,7 @@ $$
 $$
 
 For a system undergoing a reversible process, $\Delta S_{\mathrm{system} = Q/T$ and
-$\Delta S_{\mathrm{surroundings} = -Q/T$So $\Delta S_{\mathrm{total} = 0$.
+$\Delta S_{\mathrm{surroundings} = -Q/T$ So $\Delta S_{\mathrm{total} = 0$.
 
 For an irreversible process (all real processes), $\Delta S_{\mathrm{total} \gt 0$.
 
@@ -720,7 +720,7 @@ $$
 \Delta S = \frac{-Q}{T_H} + \frac{Q}{T_C} = Q\left(\frac{1}{T_C} - \frac{1}{T_H}\right)
 $$
 
-Since $T_C \lt T_H$We have $1/T_C \gt 1/T_H$So $\Delta S \gt 0$. The reverse (heat flowing from Cold
+Since $T_C \lt T_H$We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
 to hot) would give $\Delta S \lt 0$Violating the second law. This is why heat spontaneously Flows
 only from hot to cold.
 

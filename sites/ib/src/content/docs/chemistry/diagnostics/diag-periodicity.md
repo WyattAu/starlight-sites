@@ -39,7 +39,7 @@ configuration.
 
 At Al: Mg has configuration $[Ne]\, 3s^2$ (fully filled $3s$Stable). Al has $[Ne]\, 3s^2\, 3p^1$.
 The electron removed from Al is in the higher-energy $3p$ subshell, which experiences greater
-shielding and less penetration than $3s$So less energy is needed despite the extra proton.
+shielding and less penetration than $3s$ So less energy is needed despite the extra proton.
 
 At S: P has $[Ne]\, 3s^2\, 3p^3$ (half-filled $3p$ with three unpaired electrons -- extra exchange
 energy stability). S has $[Ne]\, 3s^2\, 3p^4$ where the fourth $3p$ electron must pair with an

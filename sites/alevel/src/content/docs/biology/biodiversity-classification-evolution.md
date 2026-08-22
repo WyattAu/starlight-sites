@@ -59,7 +59,7 @@ Evenness:
 
 $$D = 1 - \sum_{i=1}^{S} \frac{n_i(n_i - 1)}{N(N - 1)}$$
 
-Where $S$ is the number of species, $n_i$ is the number of individuals of species $i$And $N$ is The
+Where $S$ is the number of species, $n_i$ is the number of individuals of species $i$ And $N$ is The
 total number of individuals.
 
 $D$ ranges from $0$ (no diversity: all individuals belong to a single species) to approaching $1$
@@ -322,7 +322,7 @@ Recovers in size, the reduced genetic diversity persists.
 
 **Quantitative example.** A population of 1000 individuals has an allele frequency $p = 0.5$ for
 allele $A$. A bottleneck reduces the population to 10 individuals. By chance, only 2 of the
-survivors carry Allele $A$So the new frequency is $p = 2/20 = 0.1$ (assuming diploid). The
+survivors carry Allele $A$ So the new frequency is $p = 2/20 = 0.1$ (assuming diploid). The
 population has lost 80% of The $A$ allele frequency purely through drift. Recovery of the population
 to its original size will not Restore the lost alleles.
 
@@ -402,13 +402,13 @@ combined With fossil evidence.
 ### 7.1 Multiple Alleles
 
 When a gene has more than two alleles, the Hardy-Weinberg principle is extended. For three alleles
-with Frequencies $p$, $q$And $r$:
+with Frequencies $p$, $q$ And $r$:
 
 $$p + q + r = 1$$
 
 $$p^2 + q^2 + r^2 + 2pq + 2pr + 2qr = 1$$
 
-**Worked Example.** The ABO blood group system has three alleles: $I^A$, $I^B$And $i$. Their
+**Worked Example.** The ABO blood group system has three alleles: $I^A$, $I^B$ And $i$. Their
 frequencies In a population are $p = 0.3$$q = 0.1$$r = 0.6$.
 
 Genotype frequencies:
@@ -589,7 +589,7 @@ A researcher studying a population of 200 beetles finds that 18 are homozygous r
 Gene causing striped wings ($aa$). Calculate the frequency of the recessive allele, the dominant
 Allele, and the number of heterozygous beetles.
 
-**Answer.** $q^2 = 18/200 = 0.09$So $q = \sqrt{0.09} = 0.3$.
+**Answer.** $q^2 = 18/200 = 0.09$ So $q = \sqrt{0.09} = 0.3$.
 
 $p = 1 - q = 1 - 0.3 = 0.7$.
 

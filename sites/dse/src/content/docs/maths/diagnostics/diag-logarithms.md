@@ -62,7 +62,7 @@ Solve $\log_3(x - 2) + \log_3(x + 1) = 1$.
 
 **Solution:**
 
-Domain: $x - 2 > 0$ and $x + 1 > 0$So $x > 2$.
+Domain: $x - 2 > 0$ and $x + 1 > 0$ So $x > 2$.
 
 Using the product law:
 
@@ -161,7 +161,7 @@ Solve $2\log_x 4 - \log_4 x = 1$.
 
 Using change of base: $\log_x 4 = \dfrac{\log_4 4}{\log_4 x} = \dfrac{1}{\log_4 x}$.
 
-Let $u = \log_4 x$ (domain: $x > 0$, $x \neq 1$So $u \neq 0$).
+Let $u = \log_4 x$ (domain: $x > 0$, $x \neq 1$ So $u \neq 0$).
 
 $$\frac{2}{u} - u = 1$$
 
@@ -299,7 +299,7 @@ Solve $\log_2(x + 4) + \log_2(x - 2) = 3$.
 
 **Solution:**
 
-Domain: $x + 4 > 0$ and $x - 2 > 0$So $x > 2$.
+Domain: $x + 4 > 0$ and $x - 2 > 0$ So $x > 2$.
 
 Using the product law:
 
@@ -423,7 +423,7 @@ Solve $\log_{0.5}(2x - 1) > \log_{0.5}(x + 2)$.
 
 **Solution:**
 
-Domain: $2x - 1 > 0$ and $x + 2 > 0$Giving $x > \dfrac{1}{2}$ and $x > -2$So $x > \dfrac{1}{2}$.
+Domain: $2x - 1 > 0$ and $x + 2 > 0$Giving $x > \dfrac{1}{2}$ and $x > -2$ So $x > \dfrac{1}{2}$.
 
 Since the base $0.5$ is between 0 and 1, the logarithmic function is **decreasing**. Therefore the
 inequality **reverses**:
@@ -564,10 +564,10 @@ $$x = \frac{\ln 10}{\ln(4/5)} \approx \frac{2.303}{-0.223} \approx -10.33$$
    rejected.
 
 2. **Not reversing the inequality for bases between 0 and 1.** If $\log_b A > \log_b B$ and
-   $0 < b < 1$Then $A < B$ (not $A > B$). This is because the log function is decreasing when the
+   $0 < b < 1$ Then $A < B$ (not $A > B$). This is because the log function is decreasing when the
    base is between 0 and 1.
 
-3. **Incorrectly applying the power law.** $\log(a^b) = b \log a$But $(\log a)^b \neq b \log a$. The
+3. **Incorrectly applying the power law.** $\log(a^b) = b \log a$ But $(\log a)^b \neq b \log a$. The
    power law applies to the argument, not to the logarithm itself.
 
 4. **Assuming $\log a + \log b = \log(a + b)$.** This is false. The correct law is
@@ -654,7 +654,7 @@ $f(x) = \log_3(x - 1)^2 - \log_3(x^2 - 1) = \log_3 \dfrac{(x-1)^2}{(x-1)(x+1)} =
 (c)
 $\log_3 \dfrac{x - 1}{x + 1} = 1 \implies \dfrac{x - 1}{x + 1} = 3 \implies x - 1 = 3x + 3 \implies -2x = 4 \implies x = -2$.
 
-But $x > 1$So $x = -2$ is rejected. No solution.
+But $x > 1$ So $x = -2$ is rejected. No solution.
 
 ---
 
@@ -737,7 +737,7 @@ Solve the inequality $\log_2(x + 3) + \log_2(x - 1) \leq 3$.
 
 **Solution:**
 
-Domain: $x + 3 > 0$ and $x - 1 > 0$So $x > 1$.
+Domain: $x + 3 > 0$ and $x - 1 > 0$ So $x > 1$.
 
 $$\log_2[(x+3)(x-1)] \leq 3$$
 

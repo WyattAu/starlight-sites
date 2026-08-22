@@ -368,7 +368,7 @@ See the examples integrated throughout the sections above.
    $\mathrm{NH_3 \gt \mathrm{PH_3$.
 5. Compare and contrast the properties of ionic, covalent, and metallic bonding in a table.
 6. Explain the term "hybridisation" and describe how it accounts for the shapes of $\mathrm{CH_4$
-    $\mathrm{C_2\mathrm{H_4$And $\mathrm{C_2\mathrm{H_2$.
+    $\mathrm{C_2\mathrm{H_4$ And $\mathrm{C_2\mathrm{H_2$.
 7. Describe the structure and bonding in sodium chloride, including a description of the ionic
     lattice.
 8. Explain why $\mathrm{BeCl_2$ is covalent while $\mathrm{CaCl_2$ is ionic, referring to the
@@ -815,7 +815,7 @@ Structure: S is central with four S=O bonds (each oxygen has 4 non-bonding elect
 Formal charge on S: $6 - 0 - \frac{1}{2}(8) = +2$. Formal charge on each O:
 $6 - 4 - \frac{1}{2}(4) = 0$.
 
-Total formal charge: $+2 + 4(0) = +2$But the ion has charge $-2$. This suggests the simple Structure
+Total formal charge: $+2 + 4(0) = +2$ But the ion has charge $-2$. This suggests the simple Structure
 with four double bonds is not ideal.
 
 Alternative: Two S=O double bonds and two S-O single bonds (with the single-bonded oxygens carrying
@@ -847,7 +847,7 @@ In reality, all four S-O bonds are equivalent due to resonance.
 2. Explain the trend in boiling points for the noble gases and relate this to intermolecular
     forces.
 
-3. Use MO theory to determine the bond order of $\mathrm{F_2$$\mathrm{O_2$And $\mathrm{N_2$. How
+3. Use MO theory to determine the bond order of $\mathrm{F_2$$\mathrm{O_2$ And $\mathrm{N_2$. How
     does bond order relate to bond length and bond strength?
 
 4. Describe how the properties of graphite make it useful as a lubricant and as an electrode

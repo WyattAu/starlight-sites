@@ -229,7 +229,7 @@ $$n \to p + e^- + \bar{\nu}_e$$
 **Diagram:** A $d$ quark line enters, emits a $W^-$ boson (wavy line), and continues as a $u$ quark
 Line. The $W^-$ decays into an electron line and an antineutrino line.
 
-At the quark level: $d \to u + W^-$Then $W^- \to e^- + \bar{\nu}_e$.
+At the quark level: $d \to u + W^-$ Then $W^- \to e^- + \bar{\nu}_e$.
 
 ### Electron--Positron Annihilation
 
@@ -272,7 +272,7 @@ Where $E_k^{\max}$ is the maximum kinetic energy of the emitted photoelectrons.
 
 ### Proof of the Threshold Frequency
 
-At the threshold, $E_k^{\max} = 0$So $hf_0 = \phi$:
+At the threshold, $E_k^{\max} = 0$ So $hf_0 = \phi$:
 
 $$\boxed{f_0 = \frac{\phi}{h}}$$
 

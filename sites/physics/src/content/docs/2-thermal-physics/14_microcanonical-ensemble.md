@@ -18,7 +18,7 @@ description: "The describes an isolated system with fixed total energy Particle 
 </script>
 
 The **microcanonical ensemble** describes an isolated system with fixed total energy $E$Particle
-number $N$And volume $V$.
+number $N$ And volume $V$.
 
 ### 14.1 Density of States
 

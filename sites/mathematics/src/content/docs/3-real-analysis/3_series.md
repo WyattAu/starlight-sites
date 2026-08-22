@@ -27,22 +27,22 @@ Theorem, $\sum a_n$ converges if and only if $(S_N)$ is bounded above.
 
 ### 3.2 Convergence Tests
 
-**Theorem 3.1 (Comparison Test).** If $0 \leq a_n \leq b_n$ for all $n$Then:
+**Theorem 3.1 (Comparison Test).** If $0 \leq a_n \leq b_n$ for all $n$ Then:
 
 - If $\sum b_n$ converges, then $\sum a_n$ converges.
 - If $\sum a_n$ diverges, then $\sum b_n$ diverges.
 
-**Theorem 3.2 (Limit Comparison Test).** If $a_n > 0$, $b_n > 0$And
-$\lim_{n \to \infty} a_n / b_n = L$ where $0 \lt L \lt \infty$Then $\sum a_n$ converges if and only
+**Theorem 3.2 (Limit Comparison Test).** If $a_n > 0$, $b_n > 0$ And
+$\lim_{n \to \infty} a_n / b_n = L$ where $0 \lt L \lt \infty$ Then $\sum a_n$ converges if and only
 if $\sum b_n$ converges.
 
-**Theorem 3.3 (Ratio Test).** If $\lim_{n \to \infty} |a_{n+1}/a_n| = L$Then:
+**Theorem 3.3 (Ratio Test).** If $\lim_{n \to \infty} |a_{n+1}/a_n| = L$ Then:
 
 - If $L \lt 1$, $\sum a_n$ converges absolutely.
 - If $L > 1$, $\sum a_n$ diverges.
 - If $L = 1$The test is inconclusive.
 
-**Theorem 3.4 (Root Test).** If $\limsup_{n \to \infty} \sqrt[n]{|a_n|} = L$Then:
+**Theorem 3.4 (Root Test).** If $\limsup_{n \to \infty} \sqrt[n]{|a_n|} = L$ Then:
 
 - If $L \lt 1$, $\sum a_n$ converges absolutely.
 - If $L > 1$, $\sum a_n$ diverges.
@@ -52,7 +52,7 @@ _Proof._ If $L \lt 1$Choose $r$ with $L \lt r \lt 1$. By definition of $\limsup$
 such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$I.e., $|a_n| \lt r^n$. Since $\sum r^n$
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
-If $L > 1$Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$So $|a_n| > 1$. Hence $a_n \not\to 0$
+If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
 And the series diverges. $\blacksquare$
 
 **Theorem 3.5 (Integral Test).** If $f : [1, \infty) \to [0, \infty)$ is positive, continuous, and
@@ -72,14 +72,14 @@ If $\int_1^{\infty} f$ converges, the left inequality shows $\sum f(k)$ is bound
 converges. If $\int_1^{\infty} f$ diverges, the right inequality shows $\sum f(k)$ is unbounded,
 hence diverges. $\blacksquare$
 
-**Theorem 3.6 (Alternating Series Test).** If $a_n > 0$, $a_n$ decreases, and $a_n \to 0$Then
+**Theorem 3.6 (Alternating Series Test).** If $a_n > 0$, $a_n$ decreases, and $a_n \to 0$ Then
 $\sum_{n=1}^{\infty} (-1)^{n+1} a_n$ converges.
 
 _Proof._ The partial sums of the even-indexed subsequence satisfy
 $S_{2n} = S_{2n-2} - a_{2n-1} + a_{2n}$. Since $a_{2n-1} \geq a_{2n}$We have
-$S_{2n} \leq S_{2n-2}$So $(S_{2n})$ is decreasing. Similarly, $(S_{2n+1})$ is increasing. Also
+$S_{2n} \leq S_{2n-2}$ So $(S_{2n})$ is decreasing. Similarly, $(S_{2n+1})$ is increasing. Also
 $S_{2n+1} = S_{2n} + a_{2n+1} \geq S_{2n}$. Both sequences are bounded (since $(S_{2n})$ is
-decreasing and bounded below by $S_1$And $(S_{2n+1})$ is increasing and bounded Above by $S_2$).
+decreasing and bounded below by $S_1$ And $(S_{2n+1})$ is increasing and bounded Above by $S_2$).
 Hence both converge. Since $a_{2n+1} \to 0$Their limits coincide. $\blacksquare$
 
 ### 3.3 Absolute and Conditional Convergence
@@ -92,7 +92,7 @@ conditionally** If $\sum a_n$ converges but $\sum |a_n|$ diverges.
 _Proof._ Since $\sum |a_n|$ converges, the partial sums of $\sum |a_n|$ satisfy the Cauchy
 criterion. Given $\varepsilon > 0$There exists $N$ such that for $m > n \geq N$:
 $\sum_{k=n+1}^{m} |a_k| \lt \varepsilon$. Then
-$\left|\sum_{k=n+1}^{m} a_k\right| \leq \sum_{k=n+1}^{m} |a_k| \lt \varepsilon$So $\sum a_n$
+$\left|\sum_{k=n+1}^{m} a_k\right| \leq \sum_{k=n+1}^{m} |a_k| \lt \varepsilon$ So $\sum a_n$
 satisfies The Cauchy criterion and converges. $\blacksquare$
 
 ### 3.4 The Alternating Series Estimation Theorem
@@ -137,7 +137,7 @@ _Proof (outline)._ Let $P = \{n : a_n > 0\}$ and $N = \{n : a_n \lt 0\}$. Since 
 Conditionally, both $\sum_{n \in P} a_n = +\infty$ and $\sum_{n \in N} a_n = -\infty$.
 
 To achieve sum $L \in \mathbb{R}$: take positive terms in order until the partial sum exceeds $L$
-Then take negative terms until it falls below $L$Then positive terms again, and so on. Since both
+Then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
 The positive and negative subseries diverge, this process can always continue. The terms tend to
 Zero (since the series converges), so the oscillations around $L$ shrink to zero. $\blacksquare$
 
@@ -162,7 +162,7 @@ a Telescoping series. The $N$-th partial sum is:
 
 $$S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$$
 
-Therefore $\lim_{N \to \infty} S_N = 1$And the series converges to $1$. $\blacksquare$
+Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\blacksquare$
 
 </details>
 
@@ -182,7 +182,7 @@ The integral diverges, so by the integral test, the series diverges. $\blacksqua
 <summary>Worked Example: Approximate $\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n}$ to within $0.01$</summary>
 
 _Solution._ This is the alternating harmonic series, with $a_n = 1/n$. By the alternating series
-Estimation theorem, $|S - S_N| \leq a_{N+1} = 1/(N+1)$. We need $1/(N+1) \leq 0.01$So
+Estimation theorem, $|S - S_N| \leq a_{N+1} = 1/(N+1)$. We need $1/(N+1) \leq 0.01$ So
 $N + 1 \geq 100$I.e., $N \geq 99$.
 
 So $S_{99} = \sum_{n=1}^{99} \frac{(-1)^{n+1}}{n}$ approximates $\ln 2$ to within $0.01$. (The exact
@@ -193,7 +193,7 @@ sum is $\ln 2 \approx 0.6931$.) $\blacksquare$
 <details>
 <summary>Worked Example: Determine convergence of $\sum_{n=1}^{\infty} \frac{1}{n^2 + 1}$</summary>
 
-_Solution._ Since $\frac{1}{n^2 + 1} \leq \frac{1}{n^2}$ for all $n$And $\sum 1/n^2$ converges
+_Solution._ Since $\frac{1}{n^2 + 1} \leq \frac{1}{n^2}$ for all $n$ And $\sum 1/n^2$ converges
 ($p$-series with $p = 2 > 1$), the comparison test implies $\sum \frac{1}{n^2 + 1}$ converges.
 $\blacksquare$
 

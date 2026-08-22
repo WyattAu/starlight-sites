@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Query Optimization
-description: "Query optimization techniques for database performance."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"databases\", \"url\": \"https://databases.wyattau.com\"}, {\"name\": \"03 Indexing"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

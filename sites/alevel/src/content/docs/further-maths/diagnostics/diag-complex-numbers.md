@@ -26,7 +26,7 @@ tableOfContents: false
 ### UT-1: Modulus, Argument, and Argand Diagrams
 
 **Question:** (a) Plot $z_1 = 3 + 4i$ and $z_2 = -2 + i$ on an Argand diagram. (b) Calculate
-$|z_1|$$\arg(z_1)$$|z_2|$And $\arg(z_2)$. (c) Express $z_1$ and $z_2$ in modulus-argument form
+$|z_1|$$\arg(z_1)$$|z_2|$ And $\arg(z_2)$. (c) Express $z_1$ and $z_2$ in modulus-argument form
 $r(\cos\theta + i\sin\theta)$. (d) Calculate $z_1 z_2$ and $z_1/z_2$ using modulus-argument form.
 
 **Solution:**
@@ -97,7 +97,7 @@ $1 + \omega + \omega^2 + \omega^3 + \omega^4$ where $\omega = \cos(2\pi/5) + i\s
 circle at angles $2\pi k/5$ for $k = 0, 1, 2, 3, 4$.
 
 (b) The sum of all $n$Th roots of unity is zero for $n \gt 1$. This follows from the fact that they
-are the roots of $z^n - 1 = 0$And the coefficient of $z^{n-1}$ is zero (by Vieta's formulas).
+are the roots of $z^n - 1 = 0$ And the coefficient of $z^{n-1}$ is zero (by Vieta's formulas).
 
 (c) $z_k = \cos(2\pi k/5) + i\sin(2\pi k/5)$ for $k = 0, 1, 2, 3, 4$.
 
@@ -190,7 +190,7 @@ the left.
 (b)
 $w = z^4 = (2e^{i\pi/6})^4 = 2^4 e^{i4\pi/6} = 16e^{i2\pi/3} = 16(\cos 2\pi/3 + i\sin 2\pi/3) = 16(-1/2 + i\sqrt{3}/2) = -8 + 8\sqrt{3}i$.
 
-(c) Under $w = z^3$: $|w| = |z|^3 \le 8$And $\arg(w) = 3\arg(z) \in [0, 3\pi/4]$. The image is the
+(c) Under $w = z^3$: $|w| = |z|^3 \le 8$ And $\arg(w) = 3\arg(z) \in [0, 3\pi/4]$. The image is the
 sector $|w| \le 8$$0 \le \arg(w) \le 3\pi/4$.
 
 (d) $|z - 1 - 2i|^2 = |z - 3 - 4i|^2$. Let $z = x + iy$: $(x-1)^2 + (y-2)^2 = (x-3)^2 + (y-4)^2$.

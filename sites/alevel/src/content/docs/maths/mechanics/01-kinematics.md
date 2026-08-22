@@ -261,7 +261,7 @@ At the highest point ($t = v\sin\theta / g$), the velocity is purely horizontal:
 $\mathbf{v} = (v\cos\theta,\, 0)$. The speed at the highest point equals the horizontal component
 $v\cos\theta$.
 
-On landing ($t = 2v\sin\theta / g$), the vertical component is $-v\sin\theta$So the speed equals The
+On landing ($t = 2v\sin\theta / g$), the vertical component is $-v\sin\theta$ So the speed equals The
 initial speed $v$. The landing angle with the horizontal equals the launch angle $\theta$ (by
 Symmetry).
 
@@ -367,7 +367,7 @@ $a = 6t - 4\,\mathrm{m/s}^2$. When $t = 0$The particle is at rest at the origin.
 
 $$v = \int (6t - 4)\,dt = 3t^2 - 4t + C$$
 
-Since $v = 0$ when $t = 0$: $C = 0$So $v = 3t^2 - 4t$.
+Since $v = 0$ when $t = 0$: $C = 0$ So $v = 3t^2 - 4t$.
 
 **(b)** When the particle is at rest:
 
@@ -377,7 +377,7 @@ $v = 0 \implies 3t^2 - 4t = 0 \implies t(3t - 4) = 0 \implies t = 0$ or $t = 4/3
 
 $$s = \int (3t^2 - 4t)\,dt = t^3 - 2t^2 + K$$
 
-Since $s = 0$ when $t = 0$: $K = 0$So $s = t^3 - 2t^2$.
+Since $s = 0$ when $t = 0$: $K = 0$ So $s = t^3 - 2t^2$.
 
 **(d)** The total distance travelled in the first 3 seconds:
 
@@ -614,9 +614,9 @@ A particle moves with acceleration $a = 4 - 2t\,\mathrm{m/s}^2$. When $t = 0$$v 
 
 <details>
 <summary>Solution 13</summary>
-$v = \int (4 - 2t)\,dt = 4t - t^2 + C$. Since $v(0) = 3$: $C = 3$So $v = 4t - t^2 + 3$.
+$v = \int (4 - 2t)\,dt = 4t - t^2 + C$. Since $v(0) = 3$: $C = 3$ So $v = 4t - t^2 + 3$.
 
-$s = \int (4t - t^2 + 3)\,dt = 2t^2 - t^3/3 + 3t + K$. Since $s(0) = 0$: $K = 0$So
+$s = \int (4t - t^2 + 3)\,dt = 2t^2 - t^3/3 + 3t + K$. Since $s(0) = 0$: $K = 0$ So
 $s = 2t^2 - t^3/3 + 3t$.
 
 At $t = 5$: $v = 20 - 25 + 3 = -2\,\mathrm{m/s}$
@@ -757,7 +757,7 @@ A particle $P$ is projected from a point $A$ on horizontal ground with speed $u$
 Highest point of $P$'s trajectory: $x = \dfrac{u^2\sin 2\theta}{2g}$, $y = \dfrac{u^2\sin^2\theta}{2g}$At time
 $t_1 = \dfrac{u\sin\theta}{g}$.
 
-After $t_1$, $P$ is in free fall with $v_y = 0$ at $t_1$So for $t \geq t_1$:
+After $t_1$, $P$ is in free fall with $v_y = 0$ at $t_1$ So for $t \geq t_1$:
 
 $y_P = \dfrac{u^2\sin^2\theta}{2g} - \dfrac{1}{2}g(t - t_1)^2$.
 
@@ -767,7 +767,7 @@ For collision, $Q$ must be at the same $(x, y)$. Since $Q$ is projected vertical
 Below the highest point, $Q$'s horizontal position is always $x = u^2\sin 2\theta / (2g)$.
 
 For $P$ to be at this $x$-coordinate at time $t$:
-$u\cos\theta \cdot t = u^2\sin 2\theta / (2g) = u^2\sin\theta\cos\theta / g$So
+$u\cos\theta \cdot t = u^2\sin 2\theta / (2g) = u^2\sin\theta\cos\theta / g$ So
 $t = u\sin\theta / g = t_1$.
 
 This means collision occurs at $t = t_1$The instant of the highest point. But $Q$ is projected at
@@ -789,7 +789,7 @@ $u\cos\theta(t_1 + \Delta t) = u^2\sin\theta\cos\theta/g + u\cos\theta\,\Delta t
 For all $\Delta t$ since $u\cos\theta \cdot t_1 = u^2\sin\theta\cos\theta/g$.
 
 So any $w$ and $\Delta t$ with $w\,\Delta t = H$ gives a collision. The minimum speed is
-$w = H/\Delta t$ for $\Delta t \to 0^+$But in practice we need a finite time.
+$w = H/\Delta t$ for $\Delta t \to 0^+$ But in practice we need a finite time.
 
 If we require collision at the highest point itself ($\Delta t \to 0$), then $w \to \infty$Which Is
 unphysical. The problem states they collide at some time after projection. Since no further

@@ -673,7 +673,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
   molar volume introduces a $\approx 1.3\%$ error.
 
 - **Claiming hydrogen bonding without checking all criteria:** A molecule must have H bonded
-  directly to N, O, or F. $\mathrm{CH}_4$$\mathrm{HCl}$And $\mathrm{PH}_3$ do **not** exhibit
+  directly to N, O, or F. $\mathrm{CH}_4$$\mathrm{HCl}$ And $\mathrm{PH}_3$ do **not** exhibit
   hydrogen bonding. $\mathrm{H}$ bonded to C is never sufficient, regardless of molecular polarity.
 
 - **Misapplying Graham's law to mixtures:** Graham's law compares rates of effusion for two pure
@@ -711,8 +711,8 @@ The trend is entirely consistent with increasing LDF strength down the group.
    $a = 4.17\mathrm{ L}^2 \cdot \mathrm{atm/mol}^2$ and $b = 0.037\mathrm{ L/mol}$. Compare with the
    ideal gas prediction and explain the direction of the deviation.
 
-4. **[Hard]** A gas mixture contains $\mathrm{He}$$\mathrm{Ne}$And $\mathrm{Ar}$ with mole fractions
-   $0.40$$0.35$And $0.25$ respectively. The total pressure is $120\mathrm{ kPa}$. Calculate the
+4. **[Hard]** A gas mixture contains $\mathrm{He}$$\mathrm{Ne}$ And $\mathrm{Ar}$ with mole fractions
+   $0.40$$0.35$ And $0.25$ respectively. The total pressure is $120\mathrm{ kPa}$. Calculate the
    partial pressure of each component and the total mass of gas in a $10.0\mathrm{ L}$ container at
    $300\mathrm{ K}$.
 
@@ -786,7 +786,7 @@ $T_c$ and $P_c$No phase boundary exists between liquid and gas — the substance
 dense phase called a supercritical fluid. The meniscus between liquid and gas disappears.
 
 **(b)** The conditions are $T = 40\degree\mathrm{C} = 313\;\mathrm{K}$Which is above
-$T_c = 304\;\mathrm{K}$And $P = 80\;\mathrm{atm}$Which is above $P_c = 72.8\;\mathrm{atm}$. Since
+$T_c = 304\;\mathrm{K}$ And $P = 80\;\mathrm{atm}$Which is above $P_c = 72.8\;\mathrm{atm}$. Since
 both $T > T_c$ and $P > P_c$The $\mathrm{CO}_2$ is in the supercritical state.
 
 **(c)** Supercritical $\mathrm{CO}_2$ has a density similar to a liquid (good solvating power) but a
@@ -934,7 +934,7 @@ $500\;\mathrm{K}$ and $100\;\mathrm{atm}$ for the same gas.
 <summary>Problem 14: Extended Response -- Phase Diagram Interpretation</summary>
 
 The phase diagram of a substance shows a triple point at $T = 150\;\mathrm{K}$,
-$P = 0.5\;\mathrm{atm}$A normal melting point of $180\;\mathrm{K}$And a critical point at
+$P = 0.5\;\mathrm{atm}$A normal melting point of $180\;\mathrm{K}$ And a critical point at
 $T = 350\;\mathrm{K}$, $P = 45\;\mathrm{atm}$. The solid-liquid boundary has a positive slope. (a)
 Sketch the phase diagram. (b) Describe what happens when the substance at $200\;\mathrm{K}$ and
 $1.0\;\mathrm{atm}$ is compressed to $50\;\mathrm{atm}$ at constant temperature. (c) Explain why the
@@ -958,7 +958,7 @@ what minimum temperature can the substance be liquefied by pressure alone?
 
 - **Confusing rms speed, average speed, and most probable speed**: For the Maxwell-Boltzmann
   distribution, $v_{\mathrm{mp}} < \bar{v} < v_{\mathrm{rms}}$. The relationships are
-  $v_{\mathrm{rms}} = \sqrt{3RT/M}$, $\bar{v} = \sqrt{8RT/(\pi M)}$And
+  $v_{\mathrm{rms}} = \sqrt{3RT/M}$, $\bar{v} = \sqrt{8RT/(\pi M)}$ And
   $v_{\mathrm{mp}} = \sqrt{2RT/M}$. Each differs by a constant factor.
 
 - **Using the Clausius-Clapeyron equation outside its validity range**: The equation assumes
@@ -980,7 +980,7 @@ what minimum temperature can the substance be liquefied by pressure alone?
 
 - **Ignoring the role of unit conversions in gas density calculations**: Gas density
   $\rho = PM/(RT)$ requires $P$ in $\mathrm{Pa}$, $M$ in $\mathrm{kg/mol}$,
-  $R = 8.314\;\mathrm{J/(mol \cdot K)}$And $T$ in $\mathrm{K}$ to get density in $\mathrm{kg/m}^3$.
+  $R = 8.314\;\mathrm{J/(mol \cdot K)}$ And $T$ in $\mathrm{K}$ to get density in $\mathrm{kg/m}^3$.
   Using $M$ in $\mathrm{g/mol}$ gives a result that is off by a factor of 1000.
 
 ---

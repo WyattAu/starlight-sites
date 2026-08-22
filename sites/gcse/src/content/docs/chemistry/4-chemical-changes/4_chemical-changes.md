@@ -665,13 +665,13 @@ Oxidation state rules:
 
 K = $+1$O = $-2$ (four oxygens: $4 \times -2 = -8$).
 
-$+1 + \mathrm{Mn + (-8) = 0$So Mn = $+7$.
+$+1 + \mathrm{Mn + (-8) = 0$ So Mn = $+7$.
 
 **Worked Example.** Determine the oxidation state of chromium in Cr$_2$O$_7^{2-}$.
 
 O = $-2$ (seven oxygens: $7 \times -2 = -14$).
 
-$2\mathrm{Cr + (-14) = -2$So $2\mathrm{Cr = +12$Giving Cr = $+6$.
+$2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$Giving Cr = $+6$.
 
 ## Common Pitfalls
 

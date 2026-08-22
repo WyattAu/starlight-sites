@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Comprehension"
-description: "SAT reading: Comprehension"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"sat\", \"url\": \"https://sat.wyattau.com\"}, {\"name\": \"Reading\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

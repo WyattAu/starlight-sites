@@ -74,10 +74,10 @@ Domain of $g \circ f$: $\left[\frac{1}{2}, 5\right) \cup (5, \infty)$.
 
 **(c)** The domains differ because of the direction of composition:
 
-- For $f \circ g$: the input to $f$ is $g(x) = \frac{1}{x-3}$And we need $g(x) \geq 1/2$ (since $f$
+- For $f \circ g$: the input to $f$ is $g(x) = \frac{1}{x-3}$ And we need $g(x) \geq 1/2$ (since $f$
   requires $2 \cdot g(x) - 1 \geq 0$I.e. $g(x) \geq 1/2$). This constrains $x$ to a finite interval
   $(3, 5]$.
-- For $g \circ f$: the input to $g$ is $f(x) = \sqrt{2x-1}$And we need $f(x) \neq 3$. Since
+- For $g \circ f$: the input to $g$ is $f(x) = \sqrt{2x-1}$ And we need $f(x) \neq 3$. Since
   $f(x) \geq 0$ for all $x$ in its domain, we only exclude $x = 5$. The domain is almost the entire
   domain of $f$.
 
@@ -121,22 +121,22 @@ $$f"(x) = 2x + 4$$
 
 For $x \leq -2$: $2x + 4 \leq 0$With equality only at $x = -2$.
 
-For $x < -2$: $f'(x) < 0$So $f$ is strictly decreasing on $(-\infty, -2]$.
+For $x < -2$: $f'(x) < 0$ So $f$ is strictly decreasing on $(-\infty, -2]$.
 
 Since $f$ is strictly decreasing, it is one-to-one, and therefore has an inverse.
 
 **(b)** Let $y = x^2 + 4x$. Completing the square: $y = (x+2)^2 - 4$.
 
-Solving for $x$: $(x+2)^2 = y + 4$So $x + 2 = \pm\sqrt{y+4}$.
+Solving for $x$: $(x+2)^2 = y + 4$ So $x + 2 = \pm\sqrt{y+4}$.
 
-Since $x \leq -2$We have $x + 2 \leq 0$So we take the negative root:
+Since $x \leq -2$We have $x + 2 \leq 0$ So we take the negative root:
 
 $$x = -2 - \sqrt{y+4}$$
 
 Therefore $f^{-1}(x) = -2 - \sqrt{x+4}$.
 
-Domain of $f^{-1}$: We need $x + 4 \geq 0$So $x \geq -4$. Also, the range of $f$ on $x \leq -2$:
-since $f$ is decreasing, as $x \to -\infty$, $f(x) \to +\infty$And $f(-2) = 0$. So the range of $f$ is
+Domain of $f^{-1}$: We need $x + 4 \geq 0$ So $x \geq -4$. Also, the range of $f$ on $x \leq -2$:
+since $f$ is decreasing, as $x \to -\infty$, $f(x) \to +\infty$ And $f(-2) = 0$. So the range of $f$ is
 $[0, \infty)$.
 
 Wait: completing the square gives $f(x) = (x+2)^2 - 4$. At $x = -2$: $f(-2) = -4$. As
@@ -147,7 +147,7 @@ Therefore domain of $f^{-1}$ is $[-4, \infty)$Confirming $x + 4 \geq 0$.
 
 Range of $f^{-1}$ equals domain of $f$: $(-\infty, -2]$.
 
-**(c)** If the domain were $x \geq 0$: $f'(x) = 2x + 4 > 0$ for all $x \geq 0$So $f$ is strictly
+**(c)** If the domain were $x \geq 0$: $f'(x) = 2x + 4 > 0$ for all $x \geq 0$ So $f$ is strictly
 increasing.
 
 Range of $f$: $f(0) = 0$ and $f(x) \to +\infty$ as $x \to +\infty$. So range is $[0, \infty)$.
@@ -172,7 +172,7 @@ Range of $f^{-1}$ equals domain of $f$: $[0, \infty)$.
 
 **Question:**
 
-Let $f(x) = \frac{2}{x+1}$, $g(x) = x^2 - 1$And $h(x) = \sqrt{x}$.
+Let $f(x) = \frac{2}{x+1}$, $g(x) = x^2 - 1$ And $h(x) = \sqrt{x}$.
 
 **(a)** Find $f \circ g \circ h$ in its simplest form, stating its domain.
 
@@ -199,7 +199,7 @@ $$(f \circ g \circ h)(x) = \frac{2}{x}, \quad \text{domain: } x > 0$$
 
 **(b)** $\frac{2}{x} = 1 \implies x = 2$.
 
-Check: $x = 2 > 0$So it is in the domain. Also verify through each layer:
+Check: $x = 2 > 0$ So it is in the domain. Also verify through each layer:
 
 - $h(2) = \sqrt{2}$
 - $g(\sqrt{2}) = 2 - 1 = 1$
@@ -209,7 +209,7 @@ Check: $x = 2 > 0$So it is in the domain. Also verify through each layer:
 
 $h(x) = \sqrt{x}$
 
-$f(h(x)) = \frac{2}{\sqrt{x}+1}$ (domain: $x \geq 0$, $x \neq 0$So $x > 0$)
+$f(h(x)) = \frac{2}{\sqrt{x}+1}$ (domain: $x \geq 0$, $x \neq 0$ So $x > 0$)
 
 $g(f(h(x))) = \left(\frac{2}{\sqrt{x}+1}\right)^2 - 1 = \frac{4}{(\sqrt{x}+1)^2} - 1 = \frac{4 - (\sqrt{x}+1)^2}{(\sqrt{x}+1)^2}$
 
@@ -249,7 +249,7 @@ applied in different orders. Since $f$ and $g$ do not commute, the results diffe
 
 The function $f$ is defined by $f(x) = e^{2x} + e^{-2x}$ for $x \in \mathbb{R}$.
 
-**(a)** Show that $f(x) \geq 2$ for all $x \in \mathbb{R}$And find the value of $x$ for which
+**(a)** Show that $f(x) \geq 2$ for all $x \in \mathbb{R}$ And find the value of $x$ for which
 equality holds.
 
 **(b)** The function $g$ is defined by $g(x) = \ln(x + \sqrt{x^2 + 1})$ for $x \in \mathbb{R}$. Find
@@ -268,9 +268,9 @@ $$\frac{a + b}{2} \geq \sqrt{ab} = \sqrt{e^{2x} \cdot e^{-2x}} = \sqrt{1} = 1$$
 
 So $f(x) = e^{2x} + e^{-2x} \geq 2$.
 
-Equality holds when $a = b$I.e. $e^{2x} = e^{-2x}$Giving $4x = 0$So $x = 0$.
+Equality holds when $a = b$I.e. $e^{2x} = e^{-2x}$Giving $4x = 0$ So $x = 0$.
 
-Alternatively, $f(x) = 2\cosh(2x)$And since $\cosh(u) \geq 1$ for all $u$ with equality at $u = 0$We
+Alternatively, $f(x) = 2\cosh(2x)$ And since $\cosh(u) \geq 1$ for all $u$ with equality at $u = 0$We
 get $f(x) \geq 2$ with equality at $x = 0$.
 
 **(b)** Let $u = g(x) = \ln(x + \sqrt{x^2 + 1})$.
@@ -313,7 +313,7 @@ $0 < \alpha < \frac{\pi}{2}$.
 
 **(b)** Solve the equation $f(\theta) = g(\theta)$ for $\theta \in [0, 2\pi)$.
 
-**(c)** A triangle has sides $a = 3$, $b = 4$And the angle between them is $C$. The area of the
+**(c)** A triangle has sides $a = 3$, $b = 4$ And the angle between them is $C$. The area of the
 triangle is $A = \frac{1}{2}ab\sin C = f\left(\frac{C}{2}\right) \cdot g\left(\frac{C}{2}\right)$.
 Find the exact value of $C$.
 
@@ -373,7 +373,7 @@ $\frac{\sqrt{2} - \sqrt{10}}{4} \approx \frac{1.414 - 3.162}{4} \approx -0.437$.
 
 So $\sin t = \frac{\sqrt{2} - \sqrt{10}}{4}$.
 
-$t = \theta + \frac{\pi}{4}$So
+$t = \theta + \frac{\pi}{4}$ So
 $\sin\left(\theta + \frac{\pi}{4}\right) = \frac{\sqrt{2} - \sqrt{10}}{4}$.
 
 $$\theta + \frac{\pi}{4} = \arcsin\left(\frac{\sqrt{2}-\sqrt{10}}{4}\right) \approx -0.452 \text{ or } \pi + 0.452 \approx 3.594$$
@@ -428,11 +428,11 @@ The function $f$ is defined by $f(x) = \frac{1}{2}\left(x + \frac{3}{x}\right)$ 
 
 A sequence $(a_n)$ is defined by $a_1 = 1$ and $a_{n+1} = f(a_n)$ for $n \geq 1$.
 
-**(a)** Find $a_2$, $a_3$And $a_4$ as exact fractions.
+**(a)** Find $a_2$, $a_3$ And $a_4$ as exact fractions.
 
 **(b)** Prove by induction that $a_n > 0$ for all $n \geq 1$.
 
-**(c)** Prove that if $a_n > \sqrt{3}$ then $a_{n+1} < a_n$And if $a_n < \sqrt{3}$ then
+**(c)** Prove that if $a_n > \sqrt{3}$ then $a_{n+1} < a_n$ And if $a_n < \sqrt{3}$ then
 $a_{n+1} > a_n$.
 
 **(d)** State the limit of the sequence $(a_n)$ as $n \to \infty$ and justify your answer.
@@ -461,8 +461,8 @@ $a_{n+1} - a_n = \frac{1}{2}\left(a_n + \frac{3}{a_n}\right) - a_n = \frac{1}{2}
 
 Since $a_n > 0$ (by part (b)), the sign of $a_{n+1} - a_n$ is determined by $3 - a_n^2$:
 
-- If $a_n > \sqrt{3}$: $a_n^2 > 3$So $3 - a_n^2 < 0$Giving $a_{n+1} - a_n < 0$I.e. $a_{n+1} < a_n$.
-- If $a_n < \sqrt{3}$: $a_n^2 < 3$So $3 - a_n^2 > 0$Giving $a_{n+1} - a_n > 0$I.e. $a_{n+1} > a_n$.
+- If $a_n > \sqrt{3}$: $a_n^2 > 3$ So $3 - a_n^2 < 0$Giving $a_{n+1} - a_n < 0$I.e. $a_{n+1} < a_n$.
+- If $a_n < \sqrt{3}$: $a_n^2 < 3$ So $3 - a_n^2 > 0$Giving $a_{n+1} - a_n > 0$I.e. $a_{n+1} > a_n$.
 
 **(d)** The limit $L$ must satisfy $L = f(L) = \frac{1}{2}(L + 3/L)$:
 

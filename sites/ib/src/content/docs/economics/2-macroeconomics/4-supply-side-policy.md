@@ -468,7 +468,7 @@ Rate.
 - $(n + \delta)k$: break-even investment (the investment needed to maintain the existing
   capital-labour ratio as the labour force grows and capital depreciates)
 
-**Steady state:** where $\dot{k} = 0$So $s \cdot f(k^*) = (n + \delta)k^*$.
+**Steady state:** where $\dot{k} = 0$ So $s \cdot f(k^*) = (n + \delta)k^*$.
 
 At the steady state, capital per worker and output per worker are constant.
 
@@ -476,8 +476,8 @@ At the steady state, capital per worker and output per worker are constant.
 
 Starting from any $k_0$The economy converges to $k^*$ because:
 
-- If $k < k^*$: $s \cdot f(k) > (n + \delta)k$So $k$ rises
-- If $k > k^*$: $s \cdot f(k) < (n + \delta)k$So $k$ falls
+- If $k < k^*$: $s \cdot f(k) > (n + \delta)k$ So $k$ rises
+- If $k > k^*$: $s \cdot f(k) < (n + \delta)k$ So $k$ falls
 
 **Effect of parameter changes:**
 
@@ -667,7 +667,7 @@ Alone.
 <summary>Problem 11: Solow Model Comparative Statics</summary>
 
 An economy has a Cobb-Douglas production function $y = k^{0.3}$ (per-worker terms). The savings Rate
-is $s = 0.2$The population growth rate is $n = 0.02$And the depreciation rate is $\delta = 0.05$.
+is $s = 0.2$The population growth rate is $n = 0.02$ And the depreciation rate is $\delta = 0.05$.
 
 (a) Find the steady-state capital per worker and output per worker.
 
@@ -1136,7 +1136,7 @@ Structural deficit as % of potential GDP $= 12.25 / 1000 = 1.23\%$
 (b) The structural deficit is 1.23% of GDP, which exceeds the 0.5% ceiling. The government is NOT
 complying with the fiscal rule.
 
-(c) New government spending $= 300$ billion. Spending multiplier $= 2$So $\Delta Y = 40$ billion.
+(c) New government spending $= 300$ billion. Spending multiplier $= 2$ So $\Delta Y = 40$ billion.
 
 New actual GDP $= 950 + 40 = 990$. New output gap $= (990 - 1000)/1000 = -1\%$.
 
@@ -1287,7 +1287,7 @@ The equilibrium moves to $r = 11\%$, $Y = 950$.
 Fiscal expansion is **effective** under fixed rates: output increases from 1167 to... Wait, this
 Seems wrong. Let me re-examine.
 
-Actually, at the initial equilibrium $Y = 1167 > Y_{BP} = 633$So the economy has a BoP Surplus.
+Actually, at the initial equilibrium $Y = 1167 > Y_{BP} = 633$ So the economy has a BoP Surplus.
 Under fixed rates, the money supply increases, shifting LM right, which lowers $r$ and Raises $Y$
 further. The process continues until IS = LM = BP.
 

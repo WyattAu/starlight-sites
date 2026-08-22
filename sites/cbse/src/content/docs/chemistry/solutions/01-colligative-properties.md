@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Colligative properties"
-description: "CBSE Class 12 chemistry: Colligative properties"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -100,7 +100,7 @@ All three effects reinforce the downward slope. The only exception is Giffen goo
 ### Topic 3: Market Failure
 
 **Q7.** A factory produces steel and pollutes a river. The private marginal cost is $MPC = 20 + 2Q$
-The marginal benefit (demand) is $MB = 100 - Q$And the marginal external cost of pollution is
+The marginal benefit (demand) is $MB = 100 - Q$ And the marginal external cost of pollution is
 $MEC = 10 + Q$. (a) Calculate the market equilibrium quantity and price. (b) Calculate the socially
 Optimal quantity and price. (c) Calculate the deadweight loss of the market outcome.
 
@@ -451,7 +451,7 @@ Overall: globalisation has lifted billions out of poverty (especially in East As
 
 ### Topic 7: Macroeconomic Policy Debates
 
-**Q36.** Using the Taylor Rule with $r^* = 1.5\%$, $\pi^* = 2\%$And equal weights of 0.5, Calculate
+**Q36.** Using the Taylor Rule with $r^* = 1.5\%$, $\pi^* = 2\%$ And equal weights of 0.5, Calculate
 the prescribed policy rate when inflation is 1% and the output gap is –2%. What does this Tell you
 about the central bank's dilemma at the ZLB?
 
@@ -594,7 +594,7 @@ per capita, (e) the current account balance.
 </details>
 
 **Q47.** The consumption function is $C = 150 + 0.75Y_d$Investment $I = 100$Government spending
-$G = 200$Taxes $T = 0.2Y$And imports $M = 40 + 0.1Y$. Exports $X = 60$. Calculate: (a) the
+$G = 200$Taxes $T = 0.2Y$ And imports $M = 40 + 0.1Y$. Exports $X = 60$. Calculate: (a) the
 equilibrium level of income, (b) the government spending multiplier, (c) the tax multiplier, (d)
 whether the government budget is in surplus or deficit.
 
@@ -777,7 +777,7 @@ the rest of the world (capital inflows of USD 170bn).
 </details>
 
 **Q54.** Using the Solow growth model, an economy has savings rate $s = 0.25$Depreciation
-$\delta = 0.05$Population growth $n = 0.02$And production function $y = k^{0.5}$ (per worker).
+$\delta = 0.05$Population growth $n = 0.02$ And production function $y = k^{0.5}$ (per worker).
 Calculate: (a) the steady-state capital per worker, (b) steady-state output per worker, (c)
 steady-state consumption per worker, (d) the golden rule savings rate.
 
@@ -802,7 +802,7 @@ saving too little -- consumption per worker could be higher if the savings rate 
 
 </details>
 
-**Q55.** A bond has a face value of $\pounds 100$Pays an annual coupon of $\pounds 4$And has 3 years
+**Q55.** A bond has a face value of $\pounds 100$Pays an annual coupon of $\pounds 4$ And has 3 years
 to maturity. Market interest rates are 5%. Calculate: (a) the current price of the bond, (b) the
 current yield, (c) the yield to maturity, (d) what happens to the price if market interest rates
 rise to 6%.

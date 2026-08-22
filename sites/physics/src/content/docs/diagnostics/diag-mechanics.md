@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Mechanics"
-description: "Self-assessment quiz on classical mechanics"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"Diagnostics\", \"url\":"
 sidebar_position: 60
 tableOfContents: false
 ---

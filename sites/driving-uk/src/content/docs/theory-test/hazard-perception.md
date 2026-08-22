@@ -1,6 +1,6 @@
 ---
 title: Hazard Perception
-description: "Hazard Perception - Complete study guide and practice questions"
+description: "The hazard perception test shows 14 video clips of everyday driving scenes. You need to score 44 out of 75 (59%) to pass."
 date: 2026-01-01T00:00:00Z
 tags:
   - test-prep

@@ -213,7 +213,7 @@ _Proof._ The action from $t_0$ to $t$ is $S = \int_{t_0}^{t} L\, dt'$. The total
 
 $$\frac{dS}{dt} = L$$
 
-But $S = S(q_1(t), \ldots, q_n(t), t)$So by the chain rule:
+But $S = S(q_1(t), \ldots, q_n(t), t)$ So by the chain rule:
 
 $$\frac{dS}{dt} = \sum_j \frac{\partial S}{\partial q_j}\dot{q}_j + \frac{\partial S}{\partial t} = L$$
 
@@ -258,7 +258,7 @@ Integrating:
 
 $$W(x) = \int \sqrt{2mE - mkx^2}\, dx$$
 
-Let $x = \sqrt{2E/k}\sin\alpha$Then $dx = \sqrt{2E/k}\cos\alpha\, d\alpha$:
+Let $x = \sqrt{2E/k}\sin\alpha$ Then $dx = \sqrt{2E/k}\cos\alpha\, d\alpha$:
 
 $$W = \frac{2E}{\omega}\int_0^\alpha \cos^2\alpha'\, d\alpha' = \frac{E}{\omega}\left(\alpha + \frac{1}{2}\sin 2\alpha\right)$$
 

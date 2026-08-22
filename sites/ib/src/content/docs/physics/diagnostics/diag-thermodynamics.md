@@ -266,7 +266,7 @@ Adiabatic relation: $P_1V_1^\gamma = P_2V_2^\gamma$
 
 $$P_2 = P_1\left(\frac{V_1}{V_2}\right)^\gamma = 4.0 \times 10^5 \times \left(\frac{1}{2}\right)^{5/3} = 4.0 \times 10^5 \times 0.3150 = 1.26 \times 10^5\,\text{Pa}$$
 
-(b) For an adiabatic process, $Q = 0$So $W = -\Delta U$:
+(b) For an adiabatic process, $Q = 0$ So $W = -\Delta U$:
 
 $$\Delta U = nC_v(T_2 - T_1) = 3.0 \times \frac{3}{2}R \times (252 - 400)$$
 
@@ -326,9 +326,9 @@ $T_1 = P_1V_1/(nR) = 3.0 \times 10^5 \times 1.0 \times 10^{-3}/(nR) = 300/(nR)$
 Temperature at state 2:
 $T_2 = P_2V_2/(nR) = 3.0 \times 10^5 \times 3.0 \times 10^{-3}/(nR) = 900/(nR)$
 
-Since $T_2 = 3T_1$And $\Delta U = nC_v(T_2 - T_1)$:
+Since $T_2 = 3T_1$ And $\Delta U = nC_v(T_2 - T_1)$:
 
-Without knowing $n$ or the gas type, let $nR = 300/T_1$So $nR = 300/T_1$. Let $T_1$ be the
+Without knowing $n$ or the gas type, let $nR = 300/T_1$ So $nR = 300/T_1$. Let $T_1$ be the
 reference. We can work in ratios.
 
 $\Delta U_{12} = nC_v(T_2 - T_1) = nC_v \times 2T_1$
@@ -337,7 +337,7 @@ $Q_{12} = nC_p(T_2 - T_1) = nC_p \times 2T_1$
 
 For a monatomic ideal gas: $C_v = 3R/2$, $C_p = 5R/2$.
 
-$nR = P_1V_1/T_1 = 300/T_1$So $n = 300/(RT_1)$.
+$nR = P_1V_1/T_1 = 300/T_1$ So $n = 300/(RT_1)$.
 
 Let us use specific values. Let $T_1 = 100\,\text{K}$ (choosing for convenience, the ratios will be
 the same).

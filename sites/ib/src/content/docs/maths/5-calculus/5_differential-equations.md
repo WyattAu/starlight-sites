@@ -125,7 +125,7 @@ $\mu = \exp\!\left(\displaystyle\int P(x)\,dx\right)$.
 
 **Example.** Solve $\dfrac{dy}{dx} + \dfrac{y}{x} = x^2$, $x \gt 0$.
 
-Here $P(x) = \dfrac{1}{x}$So:
+Here $P(x) = \dfrac{1}{x}$ So:
 
 $$\mu(x) = \exp\!\left(\int \frac{1}{x}\,dx\right) = e^{\ln x} = x$$
 
@@ -493,13 +493,13 @@ Solve $\dfrac{dy}{dx} + y\tan x = \cos x$ for $-\dfrac{\pi}{2} \lt x \lt \dfrac{
 <details>
 <summary>Solution</summary>
 
-Here $P(x) = \tan x$So:
+Here $P(x) = \tan x$ So:
 
 $$\mu(x) = \exp\!\left(\int \tan x\,dx\right) = \exp(-\ln|\cos x|) = \frac{1}{\cos x} = \sec x$$
 
 Multiply through: $\sec x \dfrac{dy}{dx} + y\sec x \tan x = \sec x \cos x = 1$.
 
-The left side is $\dfrac{d}{dx}(y \sec x)$So:
+The left side is $\dfrac{d}{dx}(y \sec x)$ So:
 
 $$\frac{d}{dx}(y \sec x) = 1 \implies y \sec x = x + C$$
 
@@ -537,7 +537,7 @@ $$y = e^{2x}\!\left(\cos 3x + \frac{4}{3}\sin 3x\right)$$
 **Worked Example: Newton's Law of Cooling with Two Data Points**
 
 A cup of coffee at $85\,^{\circ}\mathrm{C}$ is placed in a room at $22\,^{\circ}\mathrm{C}$. After
-$5$ minutes the temperature is $70\,^{\circ}\mathrm{C}$And after $10$ minutes it is
+$5$ minutes the temperature is $70\,^{\circ}\mathrm{C}$ And after $10$ minutes it is
 $60\,^{\circ}\mathrm{C}$. Find the temperature after $20$ minutes.
 
 <details>
@@ -549,7 +549,7 @@ From the first data point: $70 = 22 + 63e^{-5k} \implies e^{-5k} = \dfrac{48}{63
 
 From the second data point: $60 = 22 + 63e^{-10k} \implies e^{-10k} = \dfrac{38}{63}$.
 
-Check consistency: $\left(\dfrac{16}{21}\right)^2 = \dfrac{256}{441} \approx 0.5805$And
+Check consistency: $\left(\dfrac{16}{21}\right)^2 = \dfrac{256}{441} \approx 0.5805$ And
 $\dfrac{38}{63} \approx 0.6032$. These are close but not exactly equal, indicating measurement
 Imprecision. Using the $10$-minute data point:
 
@@ -608,7 +608,7 @@ A differential equation is a sentence about change. It does not tell you where y
 ## Common Pitfalls
 
 1. **Forgetting the constant of integration.** When solving a separable equation, each side of the
-   separated equation produces its own constant. These combine into a single constant $C$But
+   separated equation produces its own constant. These combine into a single constant $C$ But
    omitting it entirely loses the generality of the solution.
 
 2. **Losing solutions during separation.** Dividing by $g(y)$ implicitly assumes $g(y) \ne 0$. The

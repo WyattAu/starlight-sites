@@ -712,7 +712,7 @@ $1400\;\mathrm{bp}$.
   transcription ($3' \to 5'$); the sense (coding) strand has the same sequence as the mRNA (with T
   instead of U).
 - **Writing DNA replication in the 3' to 5' direction**: DNA polymerase synthesises exclusively in
-  the $5' \to 3'$ direction. The template is read $3' \to 5'$But the new strand is built
+  the $5' \to 3'$ direction. The template is read $3' \to 5'$ But the new strand is built
   $5' \to 3'$.
 - **Stating that "enzymes are used up in reactions"**: enzymes are catalysts that lower activation
   energy and are regenerated at the end of each catalytic cycle.
@@ -1391,13 +1391,13 @@ Mechanisms.
 
 - No inhibitor: $[S] = 5.0\;\mathrm{mM}$
 - Competitive: $[S] = K_m^{app} = 15.0\;\mathrm{mM}$
-- Non-competitive: $[S] = K_m^{app} = 5.0\;\mathrm{mM}$ (same $K_m$But $50\%$ of the reduced
+- Non-competitive: $[S] = K_m^{app} = 5.0\;\mathrm{mM}$ (same $K_m$ But $50\%$ of the reduced
   $V_{max}^{app} = 25$Achieved at $[S] = 5.0\;\mathrm{mM}$).
 
 For the non-competitive inhibitor, to reach $50\%$ of the original $V_{max}$
 ($= 50\;\mathrm{\mu mol/min}$): $v = \frac{50[S]}{5 + [S]} = 50$Which requires $[S] \to \infty$ (the
 enzyme can never reach the Original $V_{max}$). This illustrates a key difference: competitive
-inhibition can be overcome by Increasing $[S]$But non-competitive cannot.
+inhibition can be overcome by Increasing $[S]$ But non-competitive cannot.
 
 </details>
 
@@ -1766,7 +1766,7 @@ $1500$). Disease allele: single fragment of $3001\;\mathrm{bp}$ (3000 bp gene + 
 
 - If the patient is homozygous normal: 2 bands at $1500\;\mathrm{bp}$.
 - If the patient is homozygous disease: 1 band at $3001\;\mathrm{bp}$.
-- If the patient is heterozygous: 3 bands at $3001$$1500$And $1500\;\mathrm{bp}$.
+- If the patient is heterozygous: 3 bands at $3001$$1500$ And $1500\;\mathrm{bp}$.
 
 This is a simple form of RFLP analysis. In practice, PCR amplification of the region followed by
 Restriction digestion (PCR-RFLP) is more commonly used for diagnostic testing, as it requires less

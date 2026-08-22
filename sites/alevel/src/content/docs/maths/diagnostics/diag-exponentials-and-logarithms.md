@@ -36,7 +36,7 @@ correct solution set and the (incorrect) solution set the student would obtain.
 
 **(c)** Solve the equation $2^x = x^2$ for real $x$Giving exact answers where possible.
 
-[Difficulty: hard. Tests the fundamental distinction between $\ln(a^b) = b\ln a$ and $(\ln a)^b$And
+[Difficulty: hard. Tests the fundamental distinction between $\ln(a^b) = b\ln a$ and $(\ln a)^b$ And
 requires analytical comparison of transcendental expressions.]
 
 **Solution:**
@@ -62,7 +62,7 @@ $\ln(x^2) = 4 \implies 2\ln\lvert x \rvert = 4 \implies \ln\lvert x \rvert = 2 \
 
 Correct solution set: $\{e^2, -e^2\}$.
 
-The student's incorrect equation $(\ln x)^2 = 4$ gives $\ln x = \pm 2$So $x = e^2$ or $x = e^{-2}$.
+The student's incorrect equation $(\ln x)^2 = 4$ gives $\ln x = \pm 2$ So $x = e^2$ or $x = e^{-2}$.
 
 Student's (incorrect) solution set: $\{e^2, e^{-2}\}$.
 
@@ -71,13 +71,13 @@ The student loses $x = -e^2$ (because $\ln x$ is undefined for $x \lt 0$) and ga
 
 **(c)** By inspection, $x = 2$ and $x = 4$ are solutions: $2^2 = 4 = 2^2$ and $2^4 = 16 = 4^2$.
 
-For $x \lt 0$: $2^x \gt 0$ and $x^2 \gt 0$So solutions may exist. At $x = -0.7666...$:
+For $x \lt 0$: $2^x \gt 0$ and $x^2 \gt 0$ So solutions may exist. At $x = -0.7666...$:
 $2^{-0.7666} \approx 0.587$ and $(-0.7666)^2 \approx 0.588$. This is a solution, which we denote
 $x = -\frac{W(-2\ln 2)}{2\ln 2}$ where $W$ is the Lambert $W$-function. For A-Level
-purposes, we note there are exactly three solutions: $x \approx -0.767$, $x = 2$And $x = 4$.
+purposes, we note there are exactly three solutions: $x \approx -0.767$, $x = 2$ And $x = 4$.
 
 To show there are no other solutions for $x \geq 0$: consider $g(x) = 2^x - x^2$. We have
-$g(0) = 1$$g(1) = 1$$g(2) = 0$$g(3) = -1$$g(4) = 0$$g(5) = 7$. Since $g''(x) = 2^x(\ln 2)^2 - 2$And
+$g(0) = 1$$g(1) = 1$$g(2) = 0$$g(3) = -1$$g(4) = 0$$g(5) = 7$. Since $g''(x) = 2^x(\ln 2)^2 - 2$ And
 $2^x(\ln 2)^2 \gt 2$ for $x \gt 5$ (because $2^5 \cdot (\ln 2)^2 \approx 2.14$), $g$ is convex for
 $x \geq 5$ and grows without bound. By Rolle's theorem, there can be at most one root in $(3, 4)$
 and at most one in $(4, \infty)$. Since $g(4) = 0$ and $g$ is increasing at $x = 4$There are no
@@ -102,8 +102,8 @@ further roots beyond $x = 4$.
 
 **(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$Giving exact answers.
 
-**(c)** A student solving part (b) writes $e^{2x} - 5e^x + 5 = 0$Substitutes $u = e^x$And gets
-$u^2 - 5u + 5 = 0$. Find the values of $u$And explain why the student must check that $u \gt 0$
+**(c)** A student solving part (b) writes $e^{2x} - 5e^x + 5 = 0$Substitutes $u = e^x$ And gets
+$u^2 - 5u + 5 = 0$. Find the values of $u$ And explain why the student must check that $u \gt 0$
 before taking natural logarithms.
 
 [Difficulty: hard. Tests recognition of the hidden quadratic substitution and the positivity
@@ -136,9 +136,9 @@ $$x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\l
 
 **(c)** The student obtains $u = \frac{5 \pm \sqrt{5}}{2}$Both positive. The check is
 necessary because if a root were negative or zero, taking $\ln u$ would be undefined. For example,
-if the equation were $e^{2x} - 3e^x - 4 = 0$Then $u = -1$ or $u = 4$And $u = -1$ would give
+if the equation were $e^{2x} - 3e^x - 4 = 0$ Then $u = -1$ or $u = 4$ And $u = -1$ would give
 $e^x = -1$Which has no real solution. This is a common trap: the substitution $u = e^x$ implicitly
-constrains $u \gt 0$And students who forget this constraint accept spurious solutions.
+constrains $u \gt 0$ And students who forget this constraint accept spurious solutions.
 
 ---
 
@@ -165,7 +165,7 @@ $f(-x)$ and $g(-x)$.
 **(d)** The function $h(x) = \ln(x^2 + 2x + 1)$ is defined for all $x \neq -1$. Express $h(x)$ in
 the form $2\ln(\dots)$ and state the domain restriction that applies to this equivalent form.
 
-[Difficulty: hard. Tests the critical domain difference between $\ln(x^2)$ and $2\ln x$And the
+[Difficulty: hard. Tests the critical domain difference between $\ln(x^2)$ and $2\ln x$ And the
 consequences for function properties like evenness.]
 
 **Solution:**
@@ -346,7 +346,7 @@ $$\frac{2x}{x^2+1} = \ln(x^2+1)$$
 
 Let $u = x^2 + 1$ ($u \geq 1$): $\frac{2x}{u} = \ln u$.
 
-This requires numerical solution. By inspection, $x = 0$ gives $0 = \ln 1 = 0$So $x = 0$ is a
+This requires numerical solution. By inspection, $x = 0$ gives $0 = \ln 1 = 0$ So $x = 0$ is a
 solution.
 
 For $x \gt 0$: the function $f(x) = \frac{2x}{x^2+1} - \ln(x^2+1)$ starts at $f(0) = 0$ and is
@@ -372,7 +372,7 @@ The function $f$ is defined by $f(x) = e^{2x-1}$ for $x \in \mathbb{R}$.
 
 **(a)** Find $f^{-1}(x)$Stating its domain and range.
 
-**(b)** Find the domain of $f^{-1} \circ f$ and the domain of $f \circ f^{-1}$And verify that
+**(b)** Find the domain of $f^{-1} \circ f$ and the domain of $f \circ f^{-1}$ And verify that
 $(f^{-1} \circ f)(x) = x$ and $(f \circ f^{-1})(x) = x$ on their respective domains.
 
 **(c)** The function $g$ is defined by $g(x) = \ln(x-1) + \ln(x+1)$ for $x \in (1, \infty)$. Express
@@ -383,7 +383,7 @@ requiring careful domain tracking.]
 
 **Solution:**
 
-**(a)** Let $y = e^{2x-1}$. Then $\ln y = 2x - 1$So $x = \frac{\ln y + 1}{2}$.
+**(a)** Let $y = e^{2x-1}$. Then $\ln y = 2x - 1$ So $x = \frac{\ln y + 1}{2}$.
 
 $$f^{-1}(x) = \frac{\ln x + 1}{2}$$
 
@@ -405,7 +405,7 @@ $(0, \infty)$ (the domain of $f^{-1}$).
 
 **(c)** $g(x) = \ln(x-1) + \ln(x+1) = \ln((x-1)(x+1)) = \ln(x^2 - 1)$ for $x \in (1, \infty)$.
 
-To find $g^{-1}$: let $y = \ln(x^2 - 1)$. Then $e^y = x^2 - 1$So $x^2 = e^y + 1$.
+To find $g^{-1}$: let $y = \ln(x^2 - 1)$. Then $e^y = x^2 - 1$ So $x^2 = e^y + 1$.
 
 Since $x \gt 1$We take the positive root: $x = \sqrt{e^y + 1}$.
 

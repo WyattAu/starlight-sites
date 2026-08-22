@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Introduction to Linux
-description: "Introduction to Linux operating system fundamentals."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"linux\", \"url\": \"https://linux.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

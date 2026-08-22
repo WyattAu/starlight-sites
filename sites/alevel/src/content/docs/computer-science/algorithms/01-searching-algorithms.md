@@ -42,7 +42,7 @@ $x$ is not present.
 
 **Proof.** The algorithm examines elements $A[0], A[1], \ldots$ in order. If $A[i] = x$It
 Immediately returns $i$Which is the first occurrence since all earlier elements were checked and
-Found not equal to $x$. If the loop completes without finding $x$Then $x \notin A$And $-1$ is
+Found not equal to $x$. If the loop completes without finding $x$ Then $x \notin A$ And $-1$ is
 Returned. $\square$
 
 ### Complexity Analysis
@@ -97,7 +97,7 @@ not present.
 
 **Proof.** We prove by invariant.
 
-**Invariant:** At the start of each loop iteration, if $x$ exists in $A$Then
+**Invariant:** At the start of each loop iteration, if $x$ exists in $A$ Then
 $x \in A[\mathrm{low}..\mathrm{high}]$.
 
 **Base case.** Initially, `low = 0` and `high = n-1`So
@@ -106,10 +106,10 @@ $A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$The invariant hold
 **Maintenance.** Three cases:
 
 1. $A[\mathrm{mid}] = x$: Return mid. Correct. ✓
-2. $A[\mathrm{mid}] \lt x$: Since $A$ is sorted, $A[0..\mathrm{mid}] \leq A[\mathrm{mid}] \lt x$So
+2. $A[\mathrm{mid}] \lt x$: Since $A$ is sorted, $A[0..\mathrm{mid}] \leq A[\mathrm{mid}] \lt x$ So
    $x \notin A[0..\mathrm{mid}]$. Setting `low = mid + 1` restricts the search to
    $A[\mathrm{mid}+1..\mathrm{high}]$. If $x$ was in the old range, it is in the new range.
-3. $A[\mathrm{mid}] \gt x$: Since $A$ is sorted, $A[\mathrm{mid}..n-1] \geq A[\mathrm{mid}] \gt x$So
+3. $A[\mathrm{mid}] \gt x$: Since $A$ is sorted, $A[\mathrm{mid}..n-1] \geq A[\mathrm{mid}] \gt x$ So
    $x \notin A[\mathrm{mid}..n-1]$. Setting `high = mid - 1` restricts the search to
    $A[\mathrm{low}..\mathrm{mid}-1]$. If $x$ was in the old range, it is in the new range.
 

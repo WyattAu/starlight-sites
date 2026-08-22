@@ -189,7 +189,7 @@ Writes per thread.
 
 **Proof:**
 
-1. Let `var_a` and `var_b` reside on the same cache line $L$And let thread $T_1$ write to `var_a`
+1. Let `var_a` and `var_b` reside on the same cache line $L$ And let thread $T_1$ write to `var_a`
    while thread $T_2$ writes to `var_b`.
 2. Initially, both threads may hold $L$ in **Shared** state (after the first read).
 3. When $T_1$ writes to `var_a`The cache controller issues an RFO for $L$Invalidating $T_2$'s copy.

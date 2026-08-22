@@ -34,7 +34,7 @@ Direction is given by the right-hand rule.
 ### Key Properties
 
 - The magnetic force is always perpendicular to both $\vec{v}$ and $\vec{B}$.
-- The magnetic force does no work ($\vec{F} \perp \vec{v}$So $W = \int \vec{F} \cdot d\vec{l} = 0$).
+- The magnetic force does no work ($\vec{F} \perp \vec{v}$ So $W = \int \vec{F} \cdot d\vec{l} = 0$).
 - The magnetic force changes the direction of motion, not the speed.
 
 ### Circular Motion in a Magnetic Field
@@ -475,7 +475,7 @@ $$
 \Phi_E = E \cdot \pi r^2 = \frac{V}{d}\pi r^2
 $$
 
-Since $V = Q/C = Qd/(\epsilon_0 A)$We have $E = Q/(\epsilon_0 A)$So
+Since $V = Q/C = Qd/(\epsilon_0 A)$We have $E = Q/(\epsilon_0 A)$ So
 $\Phi_E = Q\pi r^2/(\epsilon_0 A)$.
 
 Apply Ampere-Maxwell law with a circular Amperian loop of radius $r$:

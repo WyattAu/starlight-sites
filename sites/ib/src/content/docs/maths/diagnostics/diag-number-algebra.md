@@ -39,7 +39,7 @@ $$\sum_{n=1}^{5} n = \sum_{n=0}^{4} n$$
 
 **(a)** Identify the error and write the correct identity for shifting the index by $-1$.
 
-**(b)** Evaluate $\displaystyle\sum_{k=3}^{20} (k - 2)$ by reindexing to start from $k = 1$And
+**(b)** Evaluate $\displaystyle\sum_{k=3}^{20} (k - 2)$ by reindexing to start from $k = 1$ And
 verify your answer using the formula for the sum of the first $N$ positive integers.
 
 **(c)** Evaluate $\displaystyle\sum_{n=1}^{10} n(n+1) - \sum_{n=2}^{11} (n-1)^2$.
@@ -49,7 +49,7 @@ verify your answer using the formula for the sum of the first $N$ positive integ
 **Solution:**
 
 **(a)** When shifting the index from $n$ to $n" = n - 1$ (so $n = n' + 1$), the bounds change from
-$n = 1$ to $n' = 0$ and $n = 5$ to $n' = 4$But the general term must also change. The correct
+$n = 1$ to $n' = 0$ and $n = 5$ to $n' = 4$ But the general term must also change. The correct
 identity is:
 
 $$\sum_{n=1}^{5} n = \sum_{n'=0}^{4} (n' + 1)$$
@@ -57,7 +57,7 @@ $$\sum_{n=1}^{5} n = \sum_{n'=0}^{4} (n' + 1)$$
 The student's error was writing $\sum_{n=0}^{4} n$ instead of $\sum_{n=0}^{4} (n + 1)$. The LHS
 equals $15$ but the student's RHS equals $10$.
 
-**(b)** Let $j = k - 2$So when $k = 3$$j = 1$And when $k = 20$$j = 18$:
+**(b)** Let $j = k - 2$ So when $k = 3$$j = 1$ And when $k = 20$$j = 18$:
 
 $$\sum_{k=3}^{20} (k - 2) = \sum_{j=1}^{18} j = \frac{18 \times 19}{2} = 171$$
 
@@ -67,7 +67,7 @@ Verification: the original sum has 18 terms from $1$ to $18$Confirming the resul
 
 $$\sum_{n=1}^{10} n(n+1) = \sum_{n=1}^{10}(n^2 + n) = \frac{10 \times 11 \times 21}{6} + \frac{10 \times 11}{2} = 385 + 55 = 440$$
 
-For the second sum, let $m = n - 1$So when $n = 2$$m = 1$And when $n = 11$$m = 10$:
+For the second sum, let $m = n - 1$ So when $n = 2$$m = 1$ And when $n = 11$$m = 10$:
 
 $$\sum_{n=2}^{11} (n-1)^2 = \sum_{m=1}^{10} m^2 = \frac{10 \times 11 \times 21}{6} = 385$$
 
@@ -118,7 +118,7 @@ $$\binom{-1/2}{3}(-2)^3 = -\frac{5}{16} \times (-8) = \frac{5}{2}$$
 So the coefficient of $x^3$ is $\dfrac{5}{2}$.
 
 **(b)** The expansion $(1 + x)^n$ for non-integer $n$ converges when $|x| \lt 1$. Here we have
-$(1 - 2x)^{-1/2}$So we need $|-2x| \lt 1$I.e., $|x| \lt \dfrac{1}{2}$.
+$(1 - 2x)^{-1/2}$ So we need $|-2x| \lt 1$I.e., $|x| \lt \dfrac{1}{2}$.
 
 **(c)** The student computed $\frac{n(n-1)}{2!}(-2)^2$ but used $n = -\frac{1}{2}$ incorrectly. The
 correct computation for the coefficient of $x^2$:
@@ -239,7 +239,7 @@ $$S_{\infty} = \frac{1}{1 - \frac{1}{4}} = \frac{4}{3}$$
 
 This is a geometric series with first term $1$ and common ratio $r = \dfrac{x^2}{3}$.
 
-Convergence requires $|r| \lt 1$So $\left|\dfrac{x^2}{3}\right| \lt 1$Giving $x^2 \lt 3$I.e.,
+Convergence requires $|r| \lt 1$ So $\left|\dfrac{x^2}{3}\right| \lt 1$Giving $x^2 \lt 3$I.e.,
 $-\sqrt{3} \lt x \lt \sqrt{3}$.
 
 $$S_{\infty} = \frac{1}{1 - \frac{x^2}{3}} = \frac{3}{3 - x^2}$$
@@ -290,9 +290,9 @@ Both solutions are valid: $x = \sqrt{10}$ and $x = -\sqrt{10}$.
 
 **(c)** The student solved $\log_3(x^2 - 1) = 2$ correctly, but without checking the domain. In this
 case both solutions are valid. However, if the equation were $\log_3(x - 1) = 2$Solving gives
-$x - 1 = 9 \implies x = 10$But the domain requires $x \gt 1$So $x = 10$ is valid. If instead the
-equation were $\log_3(1 - x) = 2$Then $1 - x = 9 \implies x = -8$But the domain requires
-$1 - x \gt 0 \implies x \lt 1$So $x = -8$ is valid. The key point is that logarithm arguments must
+$x - 1 = 9 \implies x = 10$ But the domain requires $x \gt 1$ So $x = 10$ is valid. If instead the
+equation were $\log_3(1 - x) = 2$ Then $1 - x = 9 \implies x = -8$ But the domain requires
+$1 - x \gt 0 \implies x \lt 1$ So $x = -8$ is valid. The key point is that logarithm arguments must
 always be positive, and extraneous solutions arise when the algebraic solution violates this
 constraint.
 

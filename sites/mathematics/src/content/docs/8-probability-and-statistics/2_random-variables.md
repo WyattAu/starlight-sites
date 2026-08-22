@@ -26,15 +26,15 @@ $$F_X(x) = P(X \leq x)$$
 
 **Proposition 2.1 (Properties of the CDF).**
 
-1. $F$ is non-decreasing: if $a \leq b$Then $F(a) \leq F(b)$.
+1. $F$ is non-decreasing: if $a \leq b$ Then $F(a) \leq F(b)$.
 2. $\lim_{x \to -\infty} F(x) = 0$ and $\lim_{x \to +\infty} F(x) = 1$.
 3. $F$ is right-continuous: $\lim_{x \to a^+} F(x) = F(a)$.
 
-_Proof._ (1) If $a \leq b$Then $\{X \leq a\} \subseteq \{X \leq b\}$So
+_Proof._ (1) If $a \leq b$ Then $\{X \leq a\} \subseteq \{X \leq b\}$ So
 $F(a) = P(X \leq a) \leq P(X \leq b) = F(b)$ by Proposition 1.1(3).
 
-(2) As $x \to -\infty$The events $\{X \leq x\}$ decrease to $\emptyset$So by continuity from above
-of probability measures, $F(x) \to 0$. As $x \to +\infty$The events increase to $\Omega$So
+(2) As $x \to -\infty$The events $\{X \leq x\}$ decrease to $\emptyset$ So by continuity from above
+of probability measures, $F(x) \to 0$. As $x \to +\infty$The events increase to $\Omega$ So
 $F(x) \to 1$.
 
 (3) As $x \to a^+$The events $\{X \leq x\}$ decrease to $\{X \leq a\}$Giving right-continuity.
@@ -100,7 +100,7 @@ $$F_X(x) = \int_{-\infty}^{x} f_X(t)\, dt$$
 **Definition.** $X \sim N(\mu, \sigma^2)$ if $X$ has PDF
 $f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$.
 
-**Theorem 2.3 (Standardisation).** If $X \sim N(\mu, \sigma^2)$Then
+**Theorem 2.3 (Standardisation).** If $X \sim N(\mu, \sigma^2)$ Then
 $Z = (X - \mu)/\sigma \sim N(0, 1)$.
 
 _Proof._ The CDF of $Z$:
@@ -109,7 +109,7 @@ Substituting $u = (t - \mu)/\sigma$:
 $= \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-u^2/2}\, du$Which is the CDF of $N(0, 1)$.
 $\blacksquare$
 
-**Theorem 2.4 (Moment Generating Function).** If $X \sim N(\mu, \sigma^2)$Then
+**Theorem 2.4 (Moment Generating Function).** If $X \sim N(\mu, \sigma^2)$ Then
 
 $$M_X(t) = E[e^{tX}] = \exp\left(\mu t + \frac{\sigma^2 t^2}{2}\right)$$
 

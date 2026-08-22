@@ -417,7 +417,7 @@ Find the middle term in the expansion of $\left(2x - \dfrac{1}{x}\right)^{10}$.
 
 **Solution:**
 
-$n = 10$So there are 11 terms. The middle term is the 6th term ($r = 5$).
+$n = 10$ So there are 11 terms. The middle term is the 6th term ($r = 5$).
 
 $$T_6 = \dbinom{10}{5}(2x)^5\left(-\frac{1}{x}\right)^5 = 252 \times 32x^5 \times \left(-\frac{1}{x^5}\right) = 252 \times 32 \times (-1) = -8064$$
 

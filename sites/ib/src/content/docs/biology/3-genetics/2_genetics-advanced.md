@@ -923,7 +923,7 @@ maximum number Of amino acids in the protein?
 
 If strand 1 has $300$ A, then:
 
-- Strand 1: $A = 300$And strand 2 (complementary) has $T = 300$ at those positions.
+- Strand 1: $A = 300$ And strand 2 (complementary) has $T = 300$ at those positions.
 - Total $T$ in the molecule: the $300$ T on strand 2 that pair with the $300$ A on strand 1. But
   strand 1 also has its own T bases.
 
@@ -939,13 +939,13 @@ $A_{total} + G_{total} = 1200$
 But we only know $A_1 = 300$Not $A_{total}$. We need more information. If the problem states that
 one strand has $300$ A bases, then:
 
-- Strand 1 has $A_1 = 300$So strand 2 has $T_2 = 300$ at those positions.
-- Strand 1 has $1200 - 300 = 900$ remaining positions. If $G_1 = x$Then $C_1 = y$ and $T_1 = z$
+- Strand 1 has $A_1 = 300$ So strand 2 has $T_2 = 300$ at those positions.
+- Strand 1 has $1200 - 300 = 900$ remaining positions. If $G_1 = x$ Then $C_1 = y$ and $T_1 = z$
   where $x + y + z = 900$.
 - Without additional information about the GC content, we cannot determine unique values. However,
   the key relationships are:
 - $A_{total} = T_{total}$ and $G_{total} = C_{total}$.
-- If the GC content is $40\%$Then $G_{total} = C_{total} = 0.20 \times 2400 = 480$ each, and
+- If the GC content is $40\%$ Then $G_{total} = C_{total} = 0.20 \times 2400 = 480$ each, and
   $A_{total} = T_{total} = 240$ each.
 
 (b) A--T pairs have 2 hydrogen bonds; G--C pairs have 3 hydrogen bonds. If GC content is $40\%$:
@@ -1011,7 +1011,7 @@ BamHI fragment. The $3500\;\mathrm{bp}$ region is cut by 2 EcoRI sites into 3 pi
 these pieces plus the intact $1500\;\mathrm{bp}$ fragment to give the double digest fragments.
 
 The $3500\;\mathrm{bp}$ BamHI fragment, when cut by 2 EcoRI sites, produces 3 fragments that sum to
-$3500$. From the double digest, the fragments within this region would be $500$$1000$And $2000$
+$3500$. From the double digest, the fragments within this region would be $500$$1000$ And $2000$
 ($500 + 1000 + 2000 = 3500$).
 
 So the order around the circular plasmid is: BamHI -- $500$ -- EcoRI -- $1000$ -- EcoRI -- $2000$ --
@@ -1272,13 +1272,13 @@ copies/$\mathrm{\mu L}$. (d) Explain why PCR efficiency is less than $100\%$.
 <summary>Answer 7</summary>
 
 (a) At $100\%$ efficiency, copies double each cycle: $N = N_0 \times 2^n = 10^4 \times 2^{30}$.
-$2^{10} = 1024 \approx 10^3$So $2^{30} = (2^{10})^3 \approx 10^9$.
+$2^{10} = 1024 \approx 10^3$ So $2^{30} = (2^{10})^3 \approx 10^9$.
 $N = 10^4 \times 1.074 \times 10^9 = 1.074 \times 10^{13}$ copies.
 
 More precisely: $2^{30} = 1073741824$. $N = 10000 \times 1073741824 = 1.074 \times 10^{13}$ copies.
 
 (b) At $92\%$ efficiency: $N = N_0 \times (1 + E)^n = 10^4 \times (1.92)^{30}$. $(1.92)^{30}$:
-$\ln(1.92) = 0.6523$So $30 \times 0.6523 = 19.569$$e^{19.569} = 3.17 \times 10^8$.
+$\ln(1.92) = 0.6523$ So $30 \times 0.6523 = 19.569$$e^{19.569} = 3.17 \times 10^8$.
 $N = 10^4 \times 3.17 \times 10^8 = 3.17 \times 10^{12}$ copies.
 
 (c) Concentration: $\frac{3.17 \times 10^{12}}{100} = 3.17 \times 10^{10}$ copies/$\mu\mathrm{L}$.
@@ -1474,7 +1474,7 @@ where Cas cleaves The DNA, destroying the phage genome and protecting the bacter
 A forensic DNA sample is analysed using a VNTR (variable number tandem repeat) probe. The suspect's
 DNA Produces two bands at $3200\;\mathrm{bp}$ and $5600\;\mathrm{bp}$. A crime scene sample produces
 two Bands at $3200\;\mathrm{bp}$ and $5600\;\mathrm{bp}$. The VNTR allele frequencies in the
-population are: $3200\;\mathrm{bp} = 0.15$$5600\;\mathrm{bp} = 0.08$And the remaining alleles
+population are: $3200\;\mathrm{bp} = 0.15$$5600\;\mathrm{bp} = 0.08$ And the remaining alleles
 collectively have a Combined frequency of $0.77$. (a) Assuming Hardy-Weinberg equilibrium, calculate
 the probability of this Specific genotype in the population. (b) If three independent VNTR loci are
 tested and all match between The suspect and the crime scene sample, and the match probabilities for

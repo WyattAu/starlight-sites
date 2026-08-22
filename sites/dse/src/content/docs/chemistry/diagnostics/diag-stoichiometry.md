@@ -333,7 +333,7 @@ $$m = 0.01250 \times 277.9 = 3.474 \text{ g}$$
 $$\%\text{ purity} = \frac{3.474}{5.00} \times 100\% = 69.5\%$$
 
 (c) The reaction requires $H^{+}$ ions as a reactant (see the equation). Without an acidic medium,
-$MnO_{4}^{-}$ would be reduced to $MnO_{2}$ instead of $Mn^{2+}$And the stoichiometry would change.
+$MnO_{4}^{-}$ would be reduced to $MnO_{2}$ instead of $Mn^{2+}$ And the stoichiometry would change.
 The acid also prevents the formation of insoluble $MnO_{2}$.
 
 ---

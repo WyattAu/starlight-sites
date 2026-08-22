@@ -60,7 +60,7 @@ Therefore $\angle A + \angle B + \angle C = 180^{\circ}$. $\blacksquare$
 $360^{\circ}$.
 
 **Proof.** Draw a diagonal, dividing the quadrilateral into two triangles. Each triangle has angles
-Summing to $180^{\circ}$So the total is $360^{\circ}$. $\blacksquare$
+Summing to $180^{\circ}$ So the total is $360^{\circ}$. $\blacksquare$
 
 **Corollary.** The interior angles of any $n$-sided polygon sum to $180(n - 2)^{\circ}$.
 
@@ -335,7 +335,7 @@ The centre and angle $\angle ACB = \theta$ at a point $C$ on the circumference.
 Draw the radius $OC$. Since $OA = OC$ (radii), $\triangle OAC$ is isosceles, so
 $\angle OAC = \angle OCA$.
 
-Similarly, $OB = OC$So $\triangle OBC$ is isosceles, and $\angle OBC = \angle OCB$.
+Similarly, $OB = OC$ So $\triangle OBC$ is isosceles, and $\angle OBC = \angle OCB$.
 
 The exterior angle at $O$ for $\triangle OAC$: $2\angle OCA = \angle AOC$.
 
@@ -371,7 +371,7 @@ Adding: $\angle ABC + \angle ADC = \frac{1}{2} \times 360^{\circ} = 180^{\circ}$
 
 ### 3.5 Worked Examples with Circle Theorems
 
-**Worked Example.** $A$, $B$, $C$And $D$ lie on a circle. $\angle ABC = 75^{\circ}$ and
+**Worked Example.** $A$, $B$, $C$ And $D$ lie on a circle. $\angle ABC = 75^{\circ}$ and
 $\angle CAD = 40^{\circ}$. Find $\angle ABD$.
 
 $\angle ABC$ and $\angle ADC$ are opposite angles of cyclic quadrilateral $ABCD$:
@@ -395,7 +395,7 @@ Since $OA = OC$ (radii), $\triangle OAC$ is isosceles: $\angle OCA = \angle OAC 
 **Worked Example (Higher Tier).** $AB$ and $AC$ are tangents to a circle at points $B$ and $C$
 Respectively. Prove that $AB = AC$.
 
-Join $O$ to $A$, $B$And $C$. Since $OB$ and $OC$ are radii, and tangents are perpendicular to Radii
+Join $O$ to $A$, $B$ And $C$. Since $OB$ and $OC$ are radii, and tangents are perpendicular to Radii
 at the point of contact, $\angle OBA = \angle OCA = 90^{\circ}$.
 
 $OA$ is common, and $OB = OC$ (radii). By RHS (right angle, hypotenuse, side),
@@ -443,7 +443,7 @@ $$\mathrm{SA = 2\pi \times 25 + 2\pi \times 5 \times 12 = 50\pi + 120\pi = 170\p
 **Worked Example (Higher Tier).** A cone has base radius 6 cm and slant height 10 cm. Find its
 Volume.
 
-The height $h$: $h^2 + 6^2 = 10^2$So $h = 8$ cm.
+The height $h$: $h^2 + 6^2 = 10^2$ So $h = 8$ cm.
 
 $$V = \frac{1}{3}\pi \times 36 \times 8 = 96\pi \approx 301.6 \mathrm{ cm^3$$
 
@@ -461,7 +461,7 @@ Frustum.
 
 The large cone has volume $\frac{1}{3}\pi \times 25 \times 12 = 100\pi$.
 
-The small cone has height 4 cm. By similar triangles, the radius ratio is $4/12 = 1/3$So the small
+The small cone has height 4 cm. By similar triangles, the radius ratio is $4/12 = 1/3$ So the small
 Cone has radius $5/3$ cm.
 
 Volume of small cone: $\frac{1}{3}\pi \times \frac{25}{9} \times 4 = \frac{100\pi}{27}$.
@@ -500,13 +500,13 @@ $k\begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} ka \\ kb \end{pmatrix}$
 **Parallel vectors:** $\mathbf{a}$ and $\mathbf{b}$ are parallel if $\mathbf{a} = k\mathbf{b}$ for
 Some scalar $k$.
 
-**Worked Example.** Points $A$$B$And $C$ have position vectors
-$\begin{pmatrix} 2 \\ 3 \end{pmatrix}$$\begin{pmatrix} 8 \\ 7 \end{pmatrix}$And
-$\begin{pmatrix} 14 \\ 11 \end{pmatrix}$. Show that $A$$B$And $C$ are collinear.
+**Worked Example.** Points $A$$B$ And $C$ have position vectors
+$\begin{pmatrix} 2 \\ 3 \end{pmatrix}$$\begin{pmatrix} 8 \\ 7 \end{pmatrix}$ And
+$\begin{pmatrix} 14 \\ 11 \end{pmatrix}$. Show that $A$$B$ And $C$ are collinear.
 
 $$\overrightarrow{AB} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}, \qquad \overrightarrow{BC} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}$$
 
-Since $\overrightarrow{AB} = \overrightarrow{BC}$The vectors are parallel and share point $B$So $A$,
+Since $\overrightarrow{AB} = \overrightarrow{BC}$The vectors are parallel and share point $B$ So $A$,
 $B$, $C$ are collinear. $\blacksquare$
 
 ### 5.3 Column Vectors in Geometry
@@ -669,7 +669,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
 6. Two similar cones have heights in the ratio $3 : 5$. The volume of the smaller cone is 108
    cm$^3$. Find the volume of the larger cone.
 
-7. $A$, $B$And $C$ are points on a circle with centre $O$. Angle $ABC = 55^{\circ}$. Find angle
+7. $A$, $B$ And $C$ are points on a circle with centre $O$. Angle $ABC = 55^{\circ}$. Find angle
    $AOC$.
 
 8. A triangle has sides 7 cm, 8 cm, and 10 cm. Determine whether it is acute, right-angled, or
@@ -718,7 +718,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
 1. A cylinder and a cone have the same base radius and the same height. Prove that the volume of
     the cylinder is three times the volume of the cone.
 
-2. Triangle $\triangle ABC$ has vertices at $(2, 3)$$(8, 7)$And $(6, 1)$. Find: (a) the length of
+2. Triangle $\triangle ABC$ has vertices at $(2, 3)$$(8, 7)$ And $(6, 1)$. Find: (a) the length of
     side $AB$(b) the area of the triangle, (c) the equation of the line through $C$ perpendicular to
     $AB$.
 
@@ -726,7 +726,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
 
 4. Prove that if two chords of a circle are equal in length, they are equidistant from the centre.
 
-5. The points $A(1, 2)$$B(5, 6)$And $C(3, k)$ are collinear. Find $k$.
+5. The points $A(1, 2)$$B(5, 6)$ And $C(3, k)$ are collinear. Find $k$.
 
 6. A sphere has surface area $144\pi$ cm$^2$. Find its volume.
 

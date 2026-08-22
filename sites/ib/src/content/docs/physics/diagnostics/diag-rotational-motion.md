@@ -72,7 +72,7 @@ $$|\vec{r}| = \sqrt{9 + 16 + 4} = \sqrt{29} = 5.385\,\text{m}$$
 $$|\vec{F}| \times |\vec{r}| = 15.26 \times 5.385 = 82.2\,\text{N}\,\text{m}$$
 
 In this case the product of magnitudes equals the torque magnitude. This occurs because
-$\vec{r} \cdot \vec{F} = 3(12) + 4(-5) + (-2)(8) = 36 - 20 - 16 = 0$So $\vec{r}$ and $\vec{F}$ are
+$\vec{r} \cdot \vec{F} = 3(12) + 4(-5) + (-2)(8) = 36 - 20 - 16 = 0$ So $\vec{r}$ and $\vec{F}$ are
 perpendicular ($\theta = 90^\circ$). The perpendicular distance is
 $d = |\vec{r}| = 5.385\,\text{m}$.
 
@@ -332,7 +332,7 @@ energy after the collision exceeds the gravitational PE needed for a complete ro
 
 Check: PE for full rotation (rod to become horizontal, $\theta = 90^\circ$):
 
-$\Delta h = 1.016\,\text{m}$So
+$\Delta h = 1.016\,\text{m}$ So
 $PE = 3.050 \times 9.81 \times 1.016 = 30.42\,\text{J} \lt 190.3\,\text{J}$.
 
 The rod swings over the top (makes complete circles).
@@ -396,7 +396,7 @@ Translational: $mg - T = ma$
 
 Rotational about the centre: $Tr = I\alpha$
 
-For rolling without slipping (string unwinding): $a = r\alpha$So $\alpha = a/r$.
+For rolling without slipping (string unwinding): $a = r\alpha$ So $\alpha = a/r$.
 
 $$T = \frac{I\alpha}{r} = \frac{Ia}{r^2}$$
 

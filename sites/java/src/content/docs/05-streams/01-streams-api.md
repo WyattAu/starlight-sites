@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Streams API
-description: "Java Streams API fundamentals."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"java\", \"url\": \"https://java.wyattau.com\"}, {\"name\": \"05 Streams\", \"url\":"
 categories: ["java"]
 ---
 

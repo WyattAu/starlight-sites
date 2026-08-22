@@ -423,7 +423,7 @@ The two reflected rays can interfere. Key points:
 
 - A **phase change of $\pi$** occurs when light reflects off a medium with a higher refractive index
 - The condition for constructive/destructive interference depends on the film thickness $t$
-  refractive index $n$And wavelength $\lambda$:
+  refractive index $n$ And wavelength $\lambda$:
 - Constructive: $2nt = (m + \frac{1}{2})\lambda$ (if one reflection has phase change)
 - Destructive: $2nt = m\lambda$ (if one reflection has phase change)
 

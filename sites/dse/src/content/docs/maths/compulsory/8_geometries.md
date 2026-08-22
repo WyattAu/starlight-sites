@@ -64,7 +64,7 @@ The midpoint is the average of the respective coordinates of the two endpoints.
 </details>
 <summary>Examples</summary>
 - Midpoint of $A(2, 6)$ and $B(8, -4)$: $M = \left( \frac{2+8}{2}, \frac{6+(-4)}{2} \right) = (5, 1)$
-- If $M(4, -1)$ is the midpoint of $A(1, 3)$ and $B$Then $B = (2 \times 4 - 1, 2 \times (-1) - 3) = (7, -5)$
+- If $M(4, -1)$ is the midpoint of $A(1, 3)$ and $B$ Then $B = (2 \times 4 - 1, 2 \times (-1) - 3) = (7, -5)$
 
 ### Gradient (Slope)
 
@@ -217,7 +217,7 @@ $$
 <details>
 <summary>Examples</summary>
 - Find the equation of the line through $(1, -2)$ parallel to $2x - 3y + 5 = 0$: The gradient of the given line is $m = \frac{2}{3}$. The parallel line is $y + 2 = \frac{2}{3}(x - 1)$I.e., $2x - 3y - 8 = 0$.
-- Find the equation of the line through $(3, 1)$ perpendicular to $4x + y - 7 = 0$: The gradient of the given line is $m_1 = -4$So $m_2 = \frac{1}{4}$. The perpendicular line is $y - 1 = \frac{1}{4}(x - 3)$I.e., $x - 4y + 1 = 0$.
+- Find the equation of the line through $(3, 1)$ perpendicular to $4x + y - 7 = 0$: The gradient of the given line is $m_1 = -4$ So $m_2 = \frac{1}{4}$. The perpendicular line is $y - 1 = \frac{1}{4}(x - 3)$I.e., $x - 4y + 1 = 0$.
 - Determine whether $3x + 2y - 1 = 0$ and $6x + 4y + 5 = 0$ are parallel: Since $\frac{3}{6} = \frac{2}{4} = \frac{1}{2} \neq \frac{-1}{5}$The lines are parallel but not coincident.
 
 ### Intersection of Two Lines
@@ -228,7 +228,7 @@ The intersection satisfy both equations.
 
 </details>
 <summary>Examples</summary>
-- Find the intersection of $x + y = 5$ and $2x - y = 1$: Adding gives $3x = 6$So $x = 2$$y = 3$. The intersection is $(2, 3)$.
+- Find the intersection of $x + y = 5$ and $2x - y = 1$: Adding gives $3x = 6$ So $x = 2$$y = 3$. The intersection is $(2, 3)$.
 
 ## Circles
 
@@ -334,7 +334,7 @@ $$
 
 </details>
 <summary>Examples</summary>
-- Find the equation of the tangent to $x^2 + y^2 = 25$ at $P(3, 4)$: The radius gradient is $\frac{4}{3}$So the tangent gradient is $-\frac{3}{4}$. Equation: $y - 4 = -\frac{3}{4}(x - 3)$I.e., $3x + 4y - 25 = 0$. Alternatively, using the formula: $3x + 4y = 25$.
+- Find the equation of the tangent to $x^2 + y^2 = 25$ at $P(3, 4)$: The radius gradient is $\frac{4}{3}$ So the tangent gradient is $-\frac{3}{4}$. Equation: $y - 4 = -\frac{3}{4}(x - 3)$I.e., $3x + 4y - 25 = 0$. Alternatively, using the formula: $3x + 4y = 25$.
 - Determine whether the line $3x - 4y + 10 = 0$ is tangent to $(x-1)^2 + (y+2)^2 = 9$: Substitute $y = \frac{3x+10}{4}$ into the circle. The resulting quadratic has discriminant $\Delta = 0$Confirming tangency.
 
 ## 2D Measurements
@@ -468,7 +468,7 @@ $$
 \end{aligned}
 $$
 
-- **Intercept form**: If the plane has $x$-intercept $a$$y$-intercept $b$And $z$-intercept $c$ (all
+- **Intercept form**: If the plane has $x$-intercept $a$$y$-intercept $b$ And $z$-intercept $c$ (all
   non-zero):
 
 $$
@@ -527,7 +527,7 @@ $$
 <summary>Examples</summary>
 - Find the distance from $P(1, 2, -1)$ to the plane $2x - y + 2z + 3 = 0$: $d = \frac{|2(1) - 1(2) + 2(-1) + 3|}{\sqrt{4 + 1 + 4}} = \frac{|2 - 2 - 2 + 3|}{3} = \frac{1}{3}$.
 - Find the angle between the planes $x + y + z = 1$ and $2x - y + z = 0$: $\cos\theta = \frac{|1\cdot 2 + 1\cdot(-1) + 1\cdot 1|}{\sqrt{3}\sqrt{6}} = \frac{2}{3\sqrt{2}} = \frac{\sqrt{2}}{3}$. So $\theta = \arccos\left(\frac{\sqrt{2}}{3}\right) \approx 61.9^\circ$.
-- Find the equation of the plane through $(1, 0, 2)$$(0, 1, -1)$And $(2, 1, 1)$: direction vectors $\overrightarrow{AB} = (-1, 1, -3)$ and $\overrightarrow{AC} = (1, 1, -1)$. Cross product: $\overrightarrow{AB} \times \overrightarrow{AC} = (2, -4, -2)$So normal $\mathbf{n} = (1, -2, -1)$. The plane is $x - 2y - z = -1$.
+- Find the equation of the plane through $(1, 0, 2)$$(0, 1, -1)$ And $(2, 1, 1)$: direction vectors $\overrightarrow{AB} = (-1, 1, -3)$ and $\overrightarrow{AC} = (1, 1, -1)$. Cross product: $\overrightarrow{AB} \times \overrightarrow{AC} = (2, -4, -2)$ So normal $\mathbf{n} = (1, -2, -1)$. The plane is $x - 2y - z = -1$.
 
 ---
 
@@ -552,7 +552,7 @@ $$
 - Equation: $y - 2 = -\frac{2}{3}(x - 5)$I.e., $2x + 3y - 16 = 0$.
 
 1. **Question:** Find the equation of the circle passing through the three points $A(0, 0)$
-$B(4, 0)$And $C(0, 3)$.
+$B(4, 0)$ And $C(0, 3)$.
 
 <details>
 <summary>Answer</summary>
@@ -606,13 +606,13 @@ $x + y + z = 1$.
 - Direction vector of the line: $\mathbf{d} = (4-1, 5-2, 6-3) = (3, 3, 3)$Simplified to $(1, 1, 1)$.
 - Normal of the plane: $\mathbf{n} = (1, 1, 1)$.
 - The angle $\alpha$ between $\mathbf{d}$ and $\mathbf{n}$:
-  $\cos\alpha = \frac{|1+1+1|}{\sqrt{3}\sqrt{3}} = \frac{3}{3} = 1$So $\alpha = 0^\circ$.
+  $\cos\alpha = \frac{|1+1+1|}{\sqrt{3}\sqrt{3}} = \frac{3}{3} = 1$ So $\alpha = 0^\circ$.
 - The angle $\phi$ between the line and the plane is the complement:
   $\phi = 90^\circ - 0^\circ = 90^\circ$.
 - The line is parallel to the plane (perpendicular to the normal).
 
-1. **Question:** Points $A(1, 2)$$B(4, 6)$And $C(7, 4)$ are vertices of a triangle. Find the
-Equation of the altitude from $A$ to $BC$The area of triangle $ABC$And the length of the Altitude
+1. **Question:** Points $A(1, 2)$$B(4, 6)$ And $C(7, 4)$ are vertices of a triangle. Find the
+Equation of the altitude from $A$ to $BC$The area of triangle $ABC$ And the length of the Altitude
 from $A$.
 
 <details>
@@ -643,7 +643,7 @@ Through $(1, 4)$.
 - Equation: $(x-3)^2 + \left(y - \frac{5}{2}\right)^2 = \frac{25}{4}$I.e.,
   $x^2 + y^2 - 6x - 5y + 9 = 0$.
 
-1. **Question:** The vertices of a triangle are $A(2, 1, -1)$$B(0, 3, -4)$And $C(5, 0, 2)$. Find (a)
+1. **Question:** The vertices of a triangle are $A(2, 1, -1)$$B(0, 3, -4)$ And $C(5, 0, 2)$. Find (a)
 the length of each side, (b) the area of the triangle, and (c) the equation of the plane Containing
 the triangle.
 
@@ -678,18 +678,18 @@ Chord $AB$ and the coordinates of $A$ and $B$.
 - $16(x^2 - 4x + 4) + 9x^2 + 54x + 81 = 144$.
 - $25x^2 - 10x + 145 = 144$.
 - $25x^2 - 10x + 1 = 0$.
-- Discriminant $= 100 - 100 = 0$So the circles are tangent (touch at exactly one point).
+- Discriminant $= 100 - 100 = 0$ So the circles are tangent (touch at exactly one point).
 - $x = \frac{10}{50} = \frac{1}{5}$$y = \frac{3(1/5) + 5}{4} = \frac{28}{20} = \frac{7}{5}$.
 - The circles touch at $\left(\frac{1}{5}, \frac{7}{5}\right)$.
 
-1. **Question:** A rectangle $ABCD$ has vertices $A(1, 1)$$B(5, 1)$And $C(5, 4)$. Find the
+1. **Question:** A rectangle $ABCD$ has vertices $A(1, 1)$$B(5, 1)$ And $C(5, 4)$. Find the
 Coordinates of $D$ and the area of the rectangle.
 
 <details>
 <summary>Answer</summary>
 
 - $AB$ is horizontal: $AB = 5 - 1 = 4$. $BC$ is vertical: $BC = 4 - 1 = 3$.
-- Verify: $AB^2 + BC^2 = 16 + 9 = 25 = AC^2$So $\angle ABC = 90^\circ$. ✓
+- Verify: $AB^2 + BC^2 = 16 + 9 = 25 = AC^2$ So $\angle ABC = 90^\circ$. ✓
 - The diagonal is $AC$ with midpoint $M = \left(\frac{1+5}{2}, \frac{1+4}{2}\right) = (3, 2.5)$.
 - $D$ is such that $M$ is also the midpoint of $CD$:
   $D = (2M_x - C_x, 2M_y - C_y) = (6 - 5, 5 - 4) = (1, 4)$.
@@ -709,7 +709,7 @@ $10\mathrm{ cm}$. A sector is cut from a circular sheet of metal to form the cur
 - (c) Area of sector:
   $A = \frac{1}{2}r^2\theta = \frac{1}{2}(100)\left(\frac{6\pi}{5}\right) = 60\pi \mathrm{ cm}^2$.
 
-1. **Question:** Prove that the points $A(-2, 0)$$B(0, 4)$$C(6, 2)$And $D(4, -2)$ are the Vertices
+1. **Question:** Prove that the points $A(-2, 0)$$B(0, 4)$$C(6, 2)$ And $D(4, -2)$ are the Vertices
 of a rectangle. Find the equation of the circle passing through all four vertices.
 
 <details>
@@ -943,7 +943,7 @@ Equation: $x^2 + (y - 2)^2 = 4$Or $x^2 + y^2 - 4y = 0$.
 
 </details>
 
-**DSE Practice 2.** In $\triangle ABC$$A = (1, -2)$$B = (5, 4)$And $C = (8, 1)$. Find the equation
+**DSE Practice 2.** In $\triangle ABC$$A = (1, -2)$$B = (5, 4)$ And $C = (8, 1)$. Find the equation
 of the median from $A$ and the equation of the altitude from $B$.
 
 <details>

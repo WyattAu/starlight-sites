@@ -322,13 +322,13 @@ Equilibrium concentrations:
 $[A] = [B] = 0.167\,\text{mol dm}^{-3}$, $[C] = [D] = 0.333\,\text{mol dm}^{-3}$.
 
 (c) If $K_c$ increases from $4.0$ to $8.0$The equilibrium shifts to the right, meaning the forward
-reaction is more favoured. Since $K_c = k_f/k_r$And $K_c$ has increased:
+reaction is more favoured. Since $K_c = k_f/k_r$ And $K_c$ has increased:
 
 - Either $k_f$ has increased, or $k_r$ has decreased, or both.
 - Since $K_c$ increased with temperature, the forward reaction is **endothermic** (Le Chatelier"s
   principle: increasing temperature favours the endothermic direction).
 - Both rate constants increase with temperature (Arrhenius), but $k_f$ increases proportionally more
-  than $k_r$So the ratio $k_f/k_r$ increases.
+  than $k_r$ So the ratio $k_f/k_r$ increases.
 
 ---
 
@@ -363,7 +363,7 @@ whether a catalyst changes the enthalpy change of the reaction.
 
 (a) $\text{MnO}_2$ provides an alternative reaction pathway with a **lower activation energy**. On
 the Maxwell-Boltzmann distribution, this means a larger proportion of molecules now have energy
-$\geq$ the (lowered) $E_a$So more successful collisions occur per unit time. The catalyst is not
+$\geq$ the (lowered) $E_a$ So more successful collisions occur per unit time. The catalyst is not
 consumed because it participates in the reaction mechanism (reacting with $\text{H}_2\text{O}_2$ and
 then being regenerated in a subsequent step). The overall reaction is unchanged, and the catalyst is
 recovered in its original form.

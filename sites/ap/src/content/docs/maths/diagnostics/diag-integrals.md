@@ -204,7 +204,7 @@ at intersection points, which would give wrong answers .
 
 **Question:**
 
-Let $R$ be the region bounded by $y = \sqrt{x}$, $y = 0$And $x = 4$.
+Let $R$ be the region bounded by $y = \sqrt{x}$, $y = 0$ And $x = 4$.
 
 (a) Find the volume generated when $R$ is revolved about the line $x = 6$ using the **shell
 method**. (b) Verify your answer using the **washer method**. (c) A student claims the volume about
@@ -225,7 +225,7 @@ $$V = 2\pi\int_0^4 (6-x)\sqrt{x}\,dx = 2\pi\int_0^4 (6x^{1/2} - x^{3/2})\,dx$$
 
 $$= 2\pi\left[4x^{3/2} - \frac{2}{5}x^{5/2}\right]_0^4 = 2\pi\left(4 \cdot 8 - \frac{2}{5} \cdot 32\right) = 2\pi\left(32 - \frac{64}{5}\right) = 2\pi \cdot \frac{96}{5} = \frac{192\pi}{5}$$
 
-(b) Washer method: washers perpendicular to $x = 6$So we integrate with respect to $y$.
+(b) Washer method: washers perpendicular to $x = 6$ So we integrate with respect to $y$.
 
 Outer radius: $R = 6 - 0 = 6$ (from $x = 6$ to the $y$-axis). More precisely, for washers
 perpendicular to the axis $x = 6$: at height $y$The region extends from $x = y^2$ to $x = 4$.
@@ -275,7 +275,7 @@ comparison with $p$-integrals.
 Split at $x = 1$:
 $\displaystyle\int_0^{\infty} \frac{x^{p-1}}{1+x}\,dx = \int_0^1 \frac{x^{p-1}}{1+x}\,dx + \int_1^{\infty} \frac{x^{p-1}}{1+x}\,dx$
 
-**Near $x = 0$** (first integral): When $x \in (0, 1)$, $\frac{1}{2} \lt \frac{1}{1+x} \lt 1$So:
+**Near $x = 0$** (first integral): When $x \in (0, 1)$, $\frac{1}{2} \lt \frac{1}{1+x} \lt 1$ So:
 
 $$\frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-1}$$
 
@@ -284,7 +284,7 @@ By comparison with $\displaystyle\int_0^1 x^{p-1}\,dx$ (converges iff $p - 1 > -
 The first integral converges iff $p > 0$.
 
 **As $x \to \infty$** (second integral): When $x > 1$,
-$\frac{1}{2} \lt \frac{1}{1+x} \lt \frac{1}{x}$So:
+$\frac{1}{2} \lt \frac{1}{1+x} \lt \frac{1}{x}$ So:
 
 $$\frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-2}$$
 

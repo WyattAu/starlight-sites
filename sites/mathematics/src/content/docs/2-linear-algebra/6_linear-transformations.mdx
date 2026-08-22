@@ -42,7 +42,7 @@ Induction. $\blacksquare$
 
 If $V$ and $W$ are finite-dimensional with bases
 $\mathcal{B}_V = \{\mathbf{v}_1, \ldots, \mathbf{v}_n\}$ and
-$\mathcal{B}_W = \{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$Then every $T \in \mathcal{L}(V, W)$ is
+$\mathcal{B}_W = \{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ Then every $T \in \mathcal{L}(V, W)$ is
 Uniquely represented by a matrix
 $[T]_{\mathcal{B}_V}^{\mathcal{B}_W} \in \mathcal{M}_{m \times n}(F)$ Where the $j$-th column is the
 coordinate vector of $T(\mathbf{v}_j)$ with respect to $\mathcal{B}_W$.
@@ -76,8 +76,8 @@ $$\mathbf{w} = T\left(\sum_{i=1}^n \alpha_i \mathbf{u}_i\right) = \sum_{i=1}^n \
 
 Since $T(\mathbf{u}_i) = \mathbf{0}$ for $i \leq k$.
 
-_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i) = \mathbf{0}$Then
-$T\left(\sum_{i=k+1}^n \alpha_i \mathbf{u}_i\right) = \mathbf{0}$So
+_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i) = \mathbf{0}$ Then
+$T\left(\sum_{i=k+1}^n \alpha_i \mathbf{u}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i \in \ker(T)$. Thus
 $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i = \sum_{j=1}^k \beta_j \mathbf{u}_j$ For some $\beta_j$. By
 linear independence of the full basis, all coefficients are zero.
@@ -93,18 +93,18 @@ $V \cong W$.
 **Theorem 6.4.** $T$ is an isomorphism if and only if $\ker(T) = \{\mathbf{0}\}$ and
 $\mathrm{im}(T) = W$.
 
-**Corollary 6.5.** If $\dim(V) = \dim(W) \lt \infty$Then $T$ is injective if and only if $T$ is
+**Corollary 6.5.** If $\dim(V) = \dim(W) \lt \infty$ Then $T$ is injective if and only if $T$ is
 surjective.
 
-_Proof._ If $T$ is injective, $\ker(T) = \{\mathbf{0}\}$So
+_Proof._ If $T$ is injective, $\ker(T) = \{\mathbf{0}\}$ So
 $\dim(\mathrm{im}(T)) = \dim(V) = \dim(W)$ Hence $\mathrm{im}(T) = W$ (a subspace of full dimension
 equals the whole space). Conversely, If $T$ is surjective,
-$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$So $\dim(\ker(T)) = 0$Giving $\ker(T) = \{\mathbf{0}\}$.
+$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$ So $\dim(\ker(T)) = 0$Giving $\ker(T) = \{\mathbf{0}\}$.
 $\blacksquare$
 
 ### 6.6 Change of Basis
 
-If $P$ is the change-of-basis matrix from basis $\mathcal{B}$ to basis $\mathcal{B}'$Then for a
+If $P$ is the change-of-basis matrix from basis $\mathcal{B}$ to basis $\mathcal{B}'$ Then for a
 Linear transformation $T$ with matrix representations $[T]_{\mathcal{B}}$ and $[T]_{\mathcal{B}'}$:
 
 $$[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}} P$$
@@ -122,16 +122,16 @@ $[T]_{\mathcal{B}} = P^{-1}[T]_{\mathcal{E}} P$.
 <details>
 <summary>Solution</summary>
 
-**(a)** $T(1, 0) = (2, 1)$ and $T(0, 1) = (1, 2)$So
+**(a)** $T(1, 0) = (2, 1)$ and $T(0, 1) = (1, 2)$ So
 
 $$[T]_{\mathcal{E}} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$$
 
 **(b)** Compute $T$ on the basis $\mathcal{B}$:
 
-$T(1, 1) = (3, 3) = 3(1, 1) + 0(1, -1)$So coordinates are
+$T(1, 1) = (3, 3) = 3(1, 1) + 0(1, -1)$ So coordinates are
 $\begin{pmatrix} 3 \\ 0 \end{pmatrix}_{\mathcal{B}}$.
 
-$T(1, -1) = (1, -1) = 0(1, 1) + 1(1, -1)$So coordinates are
+$T(1, -1) = (1, -1) = 0(1, 1) + 1(1, -1)$ So coordinates are
 $\begin{pmatrix} 0 \\ 1 \end{pmatrix}_{\mathcal{B}}$.
 
 $$[T]_{\mathcal{B}} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}$$
@@ -152,12 +152,12 @@ $\blacksquare$
 **Definition.** The **dual space** of a vector space $V$ over $F$Denoted $V^*$Is the space of all
 Linear functionals $f : V \to F$. Elements of $V^*$ are called **covectors**.
 
-**Proposition 6.6.** If $\dim(V) = n \lt \infty$Then $\dim(V^*) = n$.
+**Proposition 6.6.** If $\dim(V) = n \lt \infty$ Then $\dim(V^*) = n$.
 
 _Proof._ Let $\{\mathbf{e}_1, \ldots, \mathbf{e}_n\}$ be a basis for $V$. Define the **dual basis**
 $\{\varphi_1, \ldots, \varphi_n\} \subseteq V^*$ by $\varphi_i(\mathbf{e}_j) = \delta_{ij}$ (the
 Kronecker Delta). Each $\varphi_i$ is a well-defined linear functional since it is defined on a
-basis and Extended linearly. These are linearly independent: if $\sum c_i \varphi_i = 0$Then
+basis and Extended linearly. These are linearly independent: if $\sum c_i \varphi_i = 0$ Then
 applying to $\mathbf{e}_j$ gives $c_j = 0$. They span $V^*$: for any $f \in V^*$,
 $f = \sum_{i=1}^n f(\mathbf{e}_i)\varphi_i$. $\blacksquare$
 
@@ -183,11 +183,11 @@ Isomorphism is a special feature of finite-dimensional spaces.
 
 $$S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}$$
 
-**Proposition 6.8.** $S^0$ is a subspace of $V^*$And if $W$ is a subspace of $V$ with
-$\dim(V) = n$Then $\dim(W^0) = n - \dim(W)$.
+**Proposition 6.8.** $S^0$ is a subspace of $V^*$ And if $W$ is a subspace of $V$ with
+$\dim(V) = n$ Then $\dim(W^0) = n - \dim(W)$.
 
 _Proof._ $S^0$ is the intersection of the kernels $\ker(s)$ as $s$ ranges over $S$Where each $s$ Is
-viewed as an element of $V^{**}$ via $\Phi$. Each $\ker(s)$ is a subspace of $V^*$And any
+viewed as an element of $V^{**}$ via $\Phi$. Each $\ker(s)$ is a subspace of $V^*$ And any
 Intersection of subspaces is a subspace.
 
 For the dimension: let $\dim(W) = k$ and extend a basis $\{\mathbf{w}_1, \ldots, \mathbf{w}_k\}$ Of

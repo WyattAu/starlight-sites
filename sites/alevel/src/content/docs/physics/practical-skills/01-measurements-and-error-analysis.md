@@ -281,7 +281,7 @@ Result: $g = 9.75 \pm 0.24$ m s$^{-2}$.
 
 <details>
 <summary>Problem 5</summary>
-A quantity $y$ is calculated as $y = ax^3/b$ where $a = 4.0 \pm 0.2$, $b = 2.0 \pm 0.1$And
+A quantity $y$ is calculated as $y = ax^3/b$ where $a = 4.0 \pm 0.2$, $b = 2.0 \pm 0.1$ And
 $x = 3.0 \pm 0.1$. Calculate $y$ and its percentage uncertainty.
 
 **Answer.** $y = 4.0 \times 27 / 2.0 = 54.0$.
@@ -546,7 +546,7 @@ Result: $d = 0.52 \pm 0.01$ mm (after correcting for the zero error).
 
 <details>
 <summary>Problem 2</summary>
-The resistivity of a wire is $\rho = \pi d^2 R / (4L)$. Given $d = 0.52 \pm 0.01$ mm, $R = 8.5 \pm 0.2$ $\Omega$And $L = 1.200 \pm 0.005$ m, calculate $\rho$ and its percentage uncertainty.
+The resistivity of a wire is $\rho = \pi d^2 R / (4L)$. Given $d = 0.52 \pm 0.01$ mm, $R = 8.5 \pm 0.2$ $\Omega$ And $L = 1.200 \pm 0.005$ m, calculate $\rho$ and its percentage uncertainty.
 
 **Answer.** Convert $d$ to metres: $d = 5.2 \times 10^{-4}$ m.
 
@@ -605,12 +605,12 @@ Uncertainty is dominated by the instrument resolution. The best estimate is $22.
 
 <details>
 <summary>Problem 5</summary>
-A graph of $\ln V$ against $t$ gives a gradient of $-0.025 \pm 0.002$ s$^{-1}$ and a $y$-intercept of $2.30 \pm 0.05$. The relationship is $\ln V = -kt + \ln V_0$. Determine $k$, $V_0$And their uncertainties.
+A graph of $\ln V$ against $t$ gives a gradient of $-0.025 \pm 0.002$ s$^{-1}$ and a $y$-intercept of $2.30 \pm 0.05$. The relationship is $\ln V = -kt + \ln V_0$. Determine $k$, $V_0$ And their uncertainties.
 
 **Answer.** From the gradient: $k = 0.025$ s$^{-1}$, $\Delta k = 0.002$ s$^{-1}$. Result:
 $k = 0.025 \pm 0.002$ s$^{-1}$.
 
-From the intercept: $\ln V_0 = 2.30$So $V_0 = e^{2.30} = 9.97 \approx 10.0$.
+From the intercept: $\ln V_0 = 2.30$ So $V_0 = e^{2.30} = 9.97 \approx 10.0$.
 
 $\Delta(\ln V_0) = 0.05$. Since $V_0 = e^{\ln V_0}$: $\Delta V_0/V_0 = \Delta(\ln V_0) = 0.05$.
 

@@ -264,7 +264,7 @@ pressure (at fixed $T$) _decreases_ dissociation because the reaction produces 2
 <details>
 <summary>Problem 5: Grand Canonical Ensemble</summary>
 
-Consider a system in the grand canonical ensemble with chemical potential $\mu$Temperature $T$And
+Consider a system in the grand canonical ensemble with chemical potential $\mu$Temperature $T$ And
 volume $V$.
 
 (a) Derive the relation between the average particle number fluctuations and the isothermal
@@ -301,7 +301,7 @@ $$\frac{\langle(\Delta N)^2\rangle}{\langle N \rangle} = k_BT \frac{\partial n}{
 
 Where $\kappa_T = -\frac{1}{V}(\partial V/\partial P)_T = \frac{1}{n}(\partial n/\partial P)_T$.
 
-(b) For ideal gas: $\kappa_T = 1/P = 1/(nk_BT)$So:
+(b) For ideal gas: $\kappa_T = 1/P = 1/(nk_BT)$ So:
 
 $$\frac{\langle(\Delta N)^2\rangle}{\langle N \rangle} = nk_BT \cdot \frac{1}{nk_BT} = 1 \implies \langle(\Delta N)^2\rangle = \langle N \rangle$$
 
@@ -310,7 +310,7 @@ non-interacting particles.
 
 (c) At $T = 0$The Fermi gas is in its ground state with exactly $N$ particles filling all states up
 to $\epsilon_F$. There are no particle number fluctuations: $\langle(\Delta N)^2\rangle = 0$.
-Physically, this is because adding or removing a particle costs a finite energy $\epsilon_F$So the
+Physically, this is because adding or removing a particle costs a finite energy $\epsilon_F$ So the
 chemical potential is infinitely sharp.
 
 ## Intuition

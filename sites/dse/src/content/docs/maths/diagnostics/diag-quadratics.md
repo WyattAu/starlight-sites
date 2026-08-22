@@ -243,7 +243,7 @@ Therefore $k \in (4,\; \infty)$.
 **Question:**
 
 The line $y = 2x + 1$ intersects the parabola $y = x^2 - 3x + 7$ at points $A$ and $B$. Find the
-coordinates of $A$ and $B$And the length of $AB$.
+coordinates of $A$ and $B$ And the length of $AB$.
 
 **Solution:**
 
@@ -560,7 +560,7 @@ The minimum value approaches $1$ but is never attained.
 
 3. **Incorrect sign when completing the square.** A common error is writing
    $x^2 - 6x = (x - 3)^2 - 9$ but mistakenly writing $-9$ as $+9$. Always verify by expanding back:
-   $(x - 3)^2 = x^2 - 6x + 9$So $x^2 - 6x = (x - 3)^2 - 9$.
+   $(x - 3)^2 = x^2 - 6x + 9$ So $x^2 - 6x = (x - 3)^2 - 9$.
 
 4. **Assuming all quadratics can be factorised with integer coefficients.** If the discriminant is
    not a perfect square, the roots are irrational. In such cases, use the quadratic formula and
@@ -757,7 +757,7 @@ $$k = \frac{-4 \pm \sqrt{16 + 64}}{2} = \frac{-4 \pm \sqrt{80}}{2} = -2 \pm 2\sq
 Both are valid provided the original equation has real roots: $\Delta = 16 - 8k > 0 \implies k < 2$.
 Since $-2 + 2\sqrt{5} \approx 2.47 > 2$Only $k = -2 - 2\sqrt{5}$ gives real roots. Check:
 $\Delta = 16 - 8(-2 - 2\sqrt{5}) = 16 + 16 + 16\sqrt{5} = 32 + 16\sqrt{5} > 0$. Both values give
-$\Delta > 0$So both are valid.
+$\Delta > 0$ So both are valid.
 
 ## Cross-References
 

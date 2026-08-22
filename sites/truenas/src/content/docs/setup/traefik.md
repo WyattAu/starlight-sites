@@ -1,7 +1,7 @@
 ---
 
 title: Setup Traefik
-description: "Traefik reverse proxy and load balancer setup."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"truenas\", \"url\": \"https://truenas.wyattau.com\"}, {\"name\": \"Setup\", \"url\":"
 date: 2025-07-21T18:30:46.381Z
 tags:
   - truenas

@@ -142,7 +142,7 @@ The annealing temperature must be carefully chosen because:
 - If too high: primers may not bind at all to the target, resulting in no amplification.
 - The ideal annealing temperature is $3$--$5\ ^\circ\text{C}$ below the melting temperature ($T_m$)
   of the primers, where $T_m$ depends on primer length and GC content. For a 20-mer with 50% GC
-  content, $T_m \approx 60\ ^\circ\text{C}$So annealing at $55$--$57\ ^\circ\text{C}$ is
+  content, $T_m \approx 60\ ^\circ\text{C}$ So annealing at $55$--$57\ ^\circ\text{C}$ is
   appropriate.
 
 ## Integration Tests
@@ -261,7 +261,7 @@ effect enhance oxygen delivery to active tissues?
 **Solution:**
 
 **Cooperative binding:** Haemoglobin exists in two main conformational states: the T-state (tense,
-deoxygenated) with low affinity for $\text{O}_2$And the R-state (relaxed, oxygenated) with high
+deoxygenated) with low affinity for $\text{O}_2$ And the R-state (relaxed, oxygenated) with high
 affinity for $\text{O}_2$.
 
 When the first $\text{O}_2$ molecule binds to a haem group in one subunit, it causes a

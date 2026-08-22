@@ -287,7 +287,7 @@ $$f_n = \frac{(2n - 1)v}{4L} = \frac{(2n - 1) \times 350}{3.4} = (2n - 1) \times
 - $n = 3$: $f_3 = 514.7\,\text{Hz}$
 
 The third harmonic at $514.7\,\text{Hz}$ is now very close to the tuning fork frequency of
-$512\,\text{Hz}$And near-resonance would occur.
+$512\,\text{Hz}$ And near-resonance would occur.
 
 ---
 

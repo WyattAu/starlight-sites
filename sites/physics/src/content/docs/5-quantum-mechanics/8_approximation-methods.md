@@ -108,7 +108,7 @@ Then:
 
 $$\langle\phi|\hat{H}|\phi\rangle = \sum_n |c_n|^2 E_n \geq E_0\sum_n |c_n|^2 = E_0$$
 
-Since $E_n \geq E_0$ for all $n$And the inequality is strict unless $c_n = 0$ for all $n \geq 1$.
+Since $E_n \geq E_0$ for all $n$ And the inequality is strict unless $c_n = 0$ for all $n \geq 1$.
 $\blacksquare$
 
 **Procedure.** Choose a trial wave function $\phi(x; \alpha_1, \alpha_2, \ldots)$ depending on

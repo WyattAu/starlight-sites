@@ -497,7 +497,7 @@ Electrophilic attack.
 :::
 ### Worked Example: Predicting EAS Products
 
-Predict the products when benzene undergoes (a) chlorination with $\mathrm{Cl_2}/\mathrm{AlCl_3}$And
+Predict the products when benzene undergoes (a) chlorination with $\mathrm{Cl_2}/\mathrm{AlCl_3}$ And
 (b) Friedel-Crafts alkylation with $\mathrm{CH_3CH_2Cl}/\mathrm{AlCl_3}$.
 
 <details>
@@ -1067,7 +1067,7 @@ There are four structural isomers:
 
 A hydrocarbon $\mathrm{A}$ with molecular formula $\mathrm{C}_4\mathrm{H}_8$ decolourises bromine
 Water and reacts with $\mathrm{HBr}$ to give two products, $\mathrm{B}$ (major) and $\mathrm{C}$
-(minor). Identify $\mathrm{A}$, $\mathrm{B}$And $\mathrm{C}$.
+(minor). Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
 
 **Solution:**
 
@@ -1482,7 +1482,7 @@ A mixture of products ($\mathrm{CH}_3\mathrm{Cl}$$\mathrm{CH}_2\mathrm{Cl}_2$$\m
 $\mathrm{CCl}_4$) is obtained because once a chlorine radical abstracts a hydrogen from
 $\mathrm{CH}_3\mathrm{Cl}$ (the product), a new $\mathrm{CH}_2\mathrm{Cl}^\bullet$ radical is formed
 In the propagation step. This radical can then react with more $\mathrm{Cl}_2$ to form
-$\mathrm{CH}_2\mathrm{Cl}_2$And the process continues. Each successive chlorination makes the
+$\mathrm{CH}_2\mathrm{Cl}_2$ And the process continues. Each successive chlorination makes the
 Remaining C-H bonds slightly weaker (due to the electron-withdrawing effect of Cl), so further
 Substitution is progressively easier.
 

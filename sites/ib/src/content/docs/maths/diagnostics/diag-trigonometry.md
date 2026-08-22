@@ -84,7 +84,7 @@ non-zero.
 
 **(c)** Find the exact value of $\cos^4\!\left(\dfrac{\pi}{8}\right)$.
 
-[Difficulty: hard. Tests the common confusion between $\sin(2x)$ and $\sin^2 x$And applies double
+[Difficulty: hard. Tests the common confusion between $\sin(2x)$ and $\sin^2 x$ And applies double
 angle identities.]
 
 **Solution:**
@@ -122,7 +122,7 @@ $$\cos^4\!\left(\frac{\pi}{8}\right) = \left(\frac{2 + \sqrt{2}}{4}\right)^2 = \
 
 **Question:**
 
-Express $3\sin x - 4\cos x$ in the form $R\sin(x - \alpha)$And hence find the maximum value of
+Express $3\sin x - 4\cos x$ in the form $R\sin(x - \alpha)$ And hence find the maximum value of
 $\dfrac{1}{3\sin x - 4\cos x + 5}$.
 
 [Difficulty: hard. Combines harmonic form with function analysis to find the minimum of a
@@ -133,7 +133,7 @@ reciprocal.]
 $$R = \sqrt{3^2 + (-4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5$$
 
 For $3\sin x - 4\cos x = R\sin(x - \alpha)$We need $\tan\alpha = \frac{4}{3}$ (note: the coefficient
-of $\cos x$ is $-4$And $\sin(x - \alpha) = \sin x\cos\alpha - \cos x\sin\alpha$So $R\cos\alpha = 3$
+of $\cos x$ is $-4$ And $\sin(x - \alpha) = \sin x\cos\alpha - \cos x\sin\alpha$ So $R\cos\alpha = 3$
 and $R\sin\alpha = 4$).
 
 $$\alpha = \arctan\!\left(\frac{4}{3}\right)$$
@@ -152,7 +152,7 @@ The maximum value of the reciprocal occurs when the denominator is at its minimu
 $$\text{Maximum} = \frac{1}{0}$$
 
 Wait — when $\sin(x - \alpha) = -1$The denominator is $0$Which is undefined. The range of the
-denominator is $(0, 10]$So:
+denominator is $(0, 10]$ So:
 
 $$\frac{1}{3\sin x - 4\cos x + 5} \in \left[\frac{1}{10}, \infty\right)$$
 
@@ -210,10 +210,10 @@ valid, but the computation $\frac{2}{15} \neq \frac{\pi}{16}$ reveals an error: 
 $\sin^2 x \cos^2 x = u^2(1-u^2)$ is correct, but $\int_0^{\pi/2} \sin^2 x\cos^2 x\,dx$ via
 $u$-substitution should use $du = \cos x\,dx$Giving $\int_0^1 u^2\cos x\,dx$Not $\int_0^1 u^2\,du$.
 The student incorrectly replaced $\cos x\,dx$ with $du$ while also replacing $\cos^2 x$ with
-$1-u^2$. This is only correct if we use $du = \cos x\,dx$But then we can't also replace the
+$1-u^2$. This is only correct if we use $du = \cos x\,dx$ But then we can't also replace the
 remaining $\cos x$ with $\sqrt{1-u^2}$ unless we are careful about signs.
 
-The correct $u$-substitution: $du = \cos x\,dx$So:
+The correct $u$-substitution: $du = \cos x\,dx$ So:
 
 $$\int_0^{\pi/2} \sin^2 x \cos^2 x\,dx = \int_0^1 u^2 \cos x\,du$$
 

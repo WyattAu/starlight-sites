@@ -39,29 +39,29 @@ $f(n) \geq c \cdot g(n)$ for all $n \geq n_0$.
 **Theorem 1.1.** $f(n) = O(g(n))$ if and only if $g(n) = \Omega(f(n))$.
 
 _Proof._ Suppose $f(n) = O(g(n))$. Then there exist $c, n_0$ such that $f(n) \leq c \cdot g(n)$ for
-all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$So $g(n) = \Omega(f(n))$. The
+all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$ So $g(n) = \Omega(f(n))$. The
 converse follows by symmetry. $\blacksquare$
 
 **Theorem 1.2.** $f(n) = \Theta(g(n))$ if and only if there exist constants $c_1, c_2 > 0$ and $n_0$
 such that $c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)$ for all $n \geq n_0$.
 
 _Proof._ By definition, $f(n) = \Theta(g(n))$ means $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$. The
-former gives $f(n) \leq c_2 \cdot g(n)$ for some $c_2 > 0$And the latter gives
+former gives $f(n) \leq c_2 \cdot g(n)$ for some $c_2 > 0$ And the latter gives
 $f(n) \geq c_1 \cdot g(n)$ for some $c_1 > 0$. Combining yields the stated inequality.
 $\blacksquare$
 
-**Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$Then
-$f(n) = \Theta(g(n))$. If $c = 0$Then $f(n) = O(g(n))$. If $c = \infty$Then $g(n) = O(f(n))$.
+**Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$ Then
+$f(n) = \Theta(g(n))$. If $c = 0$ Then $f(n) = O(g(n))$. If $c = \infty$ Then $g(n) = O(f(n))$.
 
-_Proof._ If $c = 0$Then for any $\varepsilon > 0$There exists $n_0$ such that
-$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$So $f(n) \leq \varepsilon \cdot g(n)$Establishing
+_Proof._ If $c = 0$ Then for any $\varepsilon > 0$There exists $n_0$ such that
+$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$ So $f(n) \leq \varepsilon \cdot g(n)$Establishing
 $f(n) = O(g(n))$. If $0 < c < \infty$Take $\varepsilon = c/2$; then
 $(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$Giving $\Theta$. The
 $c = \infty$ case is symmetric. $\blacksquare$
 
-**Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$Then $f = O(h)$.
+**Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$ Then $f = O(h)$.
 
-_Proof._ There exist $c_1, n_1$ with $f(n) \leq c_1 g(n)$ for $n \geq n_1$And $c_2, n_2$ with
+_Proof._ There exist $c_1, n_1$ with $f(n) \leq c_1 g(n)$ for $n \geq n_1$ And $c_2, n_2$ with
 $g(n) \leq c_2 h(n)$ for $n \geq n_2$. Then $f(n) \leq c_1 c_2 h(n)$ for $n \geq \max(n_1, n_2)$.
 $\blacksquare$
 
@@ -80,7 +80,7 @@ $3n \leq 3n^2$ and $1 \leq n^2$).
 
 So take $c = 5$ and $n_0 = 1$.
 
-To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n + 1 = \Theta(n^2)$.
+To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$ So $n^2 + 3n + 1 = \Theta(n^2)$.
 
 </details>
 
@@ -89,7 +89,7 @@ To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n +
 
 By the limit rule: $\lim_{n \to \infty} 2^n / n^k = \infty$ for any fixed $k$ (this follows from
 repeated application of L"Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
-than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$And in particular
+than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$ And in particular
 $2^n \neq O(n^k)$.
 
 </details>
@@ -179,9 +179,9 @@ and let $T(n)$ be defined on the nonnegative integers by the recurrence $T(n) = 
 we interpret $n/b$ to mean either $\lfloor n/b \rfloor$ or $\lceil n/b \rceil$. Let $c = \log_b a$.
 Then:
 
-1. If $f(n) = O(n^{c - \varepsilon})$ for some $\varepsilon > 0$Then $T(n) = \Theta(n^c)$.
-2. If $f(n) = \Theta(n^c \log^k n)$ for some $k \geq 0$Then $T(n) = \Theta(n^c \log^{k+1} n)$.
-3. If $f(n) = \Omega(n^{c + \varepsilon})$ for some $\varepsilon > 0$And if $a f(n/b) \leq q f(n)$
+1. If $f(n) = O(n^{c - \varepsilon})$ for some $\varepsilon > 0$ Then $T(n) = \Theta(n^c)$.
+2. If $f(n) = \Theta(n^c \log^k n)$ for some $k \geq 0$ Then $T(n) = \Theta(n^c \log^{k+1} n)$.
+3. If $f(n) = \Omega(n^{c + \varepsilon})$ for some $\varepsilon > 0$ And if $a f(n/b) \leq q f(n)$
    for some constant $q < 1$ and all sufficiently large $n$ (the _regularity condition_), then
    $T(n) = \Theta(f(n))$.
 
@@ -190,7 +190,7 @@ each costing $f(n/b^i)$. Since $f(n) = O(n^{c - \varepsilon})$The cost at level 
 $a^i \cdot (n/b^i)^{c - \varepsilon} = n^{c - \varepsilon} \cdot (a / b^{c - \varepsilon})^i$. The
 total cost is dominated by the leaves (level $\log_b n$), which contribute $a^{\log_b n} = n^c$. The
 internal levels contribute a geometric series with ratio
-$a / b^{c - \varepsilon} = b^\varepsilon > 1$So the leaf level dominates. $\blacksquare$
+$a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\blacksquare$
 
 <details>
 <summary>Worked Example: Merge Sort Recurrence</summary>
@@ -199,7 +199,7 @@ Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
 $$T(n) = 2T(n/2) + \Theta(n)$$
 
-Here $a = 2$, $b = 2$So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
+Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
 is Case 2 with $k = 0$.
 
 Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
@@ -211,7 +211,7 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 
 $$T(n) = T(n/2) + O(1)$$
 
-Here $a = 1$, $b = 2$So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
+Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
 
 Therefore $T(n) = \Theta(\log n)$.
@@ -225,7 +225,7 @@ Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O
 
 $$T(n) = 7T(n/2) + O(n^2)$$
 
-Here $a = 7$, $b = 2$So $c = \log_2 7 \approx 2.807$. We have
+Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
 $f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
 
 Therefore $T(n) = \Theta(n^{\log_2 7}) = \Theta(n^{2.807})$.
@@ -245,7 +245,7 @@ Individual operations may be expensive.
 3. **Potential method:** Define a potential function $\Phi$; the amortised cost of the $i$-th
    operation is $\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$.
 
-**Theorem 1.8 (Potential Method).** If $\Phi(D_i) \geq \Phi(D_0)$ for all $i \geq 1$Then the total
+**Theorem 1.8 (Potential Method).** If $\Phi(D_i) \geq \Phi(D_0)$ for all $i \geq 1$ Then the total
 amortised cost $\sum_{i=1}^{n} \hat{c}_i$ is an upper bound on the total actual cost
 $\sum_{i=1}^{n} c_i$.
 
@@ -254,7 +254,7 @@ $\sum_{i=1}^{n} \hat{c}_i = \sum_{i=1}^{n} (c_i + \Phi(D_i) - \Phi(D_{i-1})) = \
 $\blacksquare$
 
 **Example (Dynamic Array).** A dynamic array doubles in size when full. Insertion is $O(1)$
-Amortised: most insertions cost $O(1)$; occasional resizing costs $O(n)$But is paid for by the
+Amortised: most insertions cost $O(1)$; occasional resizing costs $O(n)$ But is paid for by the
 Surplus from previous $O(1)$ insertions.
 
 <details>
@@ -280,7 +280,7 @@ actual costs.
 <summary>Worked Example: Dynamic Array Amortised Analysis (Potential Method)</summary>
 
 Define the potential function $\Phi(D) = 2n - m$ where $n$ is the number of elements and $m$ is the
-capacity. We require $m \geq n$So $\Phi \geq 0$ (since $2n - n = n \geq 0$).
+capacity. We require $m \geq n$ So $\Phi \geq 0$ (since $2n - n = n \geq 0$).
 
 Case 1: No resize. $\hat{c} = 1 + (2(n+1) - m) - (2n - m) = 1 + 2 = 3$.
 
@@ -451,16 +451,16 @@ rotations:
 - **Left rotation (RR case):** Mirror of right rotation.
 
 - **Left-Right rotation (LR case):** Balance factor $+2$ at $A$Balance factor $-1$ at left child
-  $B$. First left-rotate $B$Then right-rotate $A$.
+  $B$. First left-rotate $B$ Then right-rotate $A$.
 
 - **Right-Left rotation (RL case):** Mirror of LR case.
 
 **Theorem 2.4.** An AVL tree with $n$ nodes has height $h \leq 1.4404 \cdot \log_2(n + 2) - 1.3277$.
 
 _Proof._ Let $N(h)$ be the minimum number of nodes in an AVL tree of height $h$. We have $N(0) = 1$,
-$N(1) = 2$And $N(h) = 1 + N(h-1) + N(h-2)$ for $h \geq 2$. This is the Fibonacci recurrence, giving
+$N(1) = 2$ And $N(h) = 1 + N(h-1) + N(h-2)$ for $h \geq 2$. This is the Fibonacci recurrence, giving
 $N(h) = F_{h+3} - 1$. Using $F_h = \frac{\phi^h - \hat{\phi}^h}{\sqrt{5}}$ where
-$\phi = \frac{1+\sqrt{5}}{2}$We get $N(h) > \phi^h / \sqrt{5} - 1$So
+$\phi = \frac{1+\sqrt{5}}{2}$We get $N(h) > \phi^h / \sqrt{5} - 1$ So
 $h \lt \log_\phi(\sqrt{5}(n + 1)) \approx 1.4404 \log_2(n + 1)$. $\blacksquare$
 
 **Corollary 2.5.** All AVL tree operations (search, insert, delete) run in $O(\log n)$ time.
@@ -649,9 +649,9 @@ From the formula: $(1 - e^{-kn/m})^k \leq 0.01$.
 Optimal $k = (m/n) \ln 2$. At the optimal point, the false positive rate is
 $(1/2)^k \approx 0.6185^{m/n}$.
 
-We need $0.6185^{m/n} \leq 0.01$So $m/n \geq \ln(0.01) / \ln(0.6185) \approx 9.585$.
+We need $0.6185^{m/n} \leq 0.01$ So $m/n \geq \ln(0.01) / \ln(0.6185) \approx 9.585$.
 
-Take $m = 95850$ bits $\approx 11.5$ KB. Then $k = (95850 / 10000) \ln 2 \approx 6.64$So use $k = 7$
+Take $m = 95850$ bits $\approx 11.5$ KB. Then $k = (95850 / 10000) \ln 2 \approx 6.64$ So use $k = 7$
 hash functions.
 
 This requires only 11.5 KB of memory versus approximately 600 KB for storing the URLs as 60-byte
@@ -837,7 +837,7 @@ MergeSort(A, l, r):
 **Theorem 3.1.** Merge sort runs in $O(n \log n)$ time in all cases (best, average, worst).
 
 _Proof._ The recurrence is $T(n) = 2T(n/2) + O(n)$. By the Master theorem (case 2): $a = 2$,
-$b = 2$, $f(n) = O(n) = O(n^{\log_b a})$So $T(n) = O(n \log n)$. $\blacksquare$
+$b = 2$, $f(n) = O(n) = O(n^{\log_b a})$ So $T(n) = O(n \log n)$. $\blacksquare$
 
 **Theorem 3.2.** Merge sort is stable and requires $O(n)$ auxiliary space.
 
@@ -906,7 +906,7 @@ of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
 $$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
 
-The total number of comparisons is $X = \sum_{i < j} X_{ij}$So:
+The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
 $$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
 
@@ -993,7 +993,7 @@ in $O(n)$ time.
 
 Sort the array $[4, 2, 2, 8, 3, 3, 1]$ using counting sort.
 
-Range of values: $[1, 8]$So $k = 8$.
+Range of values: $[1, 8]$ So $k = 8$.
 
 **Step 1 — Count:** $C = [0, 1, 2, 2, 1, 0, 0, 0]$ (indices 1 through 8).
 
@@ -1164,7 +1164,7 @@ at the time $d[u]$ is discovered, there is a path from $u$ to $v$ consisting ent
 vertices.
 
 _Proof._ ($\Rightarrow$) By induction on the depth of $v$ in the DFS tree. If $v$ is a child of
-$u$Then $v$ was white when discovered from $u$. If $v$ is a deeper descendant, the path goes through
+$u$ Then $v$ was white when discovered from $u$. If $v$ is a deeper descendant, the path goes through
 intermediate white vertices.
 
 ($\Leftarrow$) Suppose there is a white path from $u$ to $v$ at time $d[u]$. Let $w$ be the first
@@ -1183,7 +1183,7 @@ edge $(u, v)$, $u$ appears before $v$.
 
 _Proof._ Suppose there is an edge $(u, v)$ but $u$ appears after $v$ in the ordering (i.e.,
 $f[u] \lt f[v]$). Since $(u, v)$ is an edge, when $u$ is being explored (coloured GREY), if $v$ is
-WHITE, then $v$ is discovered as a descendant of $u$So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
+WHITE, then $v$ is discovered as a descendant of $u$ So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
 we have a back edge, implying a cycle, contradicting that the graph is acyclic. If $v$ is BLACK,
 then $f[v] \lt d[u] \lt f[u]$Contradicting $f[u] \lt f[v]$. $\blacksquare$
 
@@ -1244,11 +1244,11 @@ Base case: $s$ is the first vertex added, and $d[s] = 0 = \delta(s, s)$.
 
 Inductive step: Suppose all vertices in $S$ have correct distances. Let $u$ be the next vertex
 extracted from $Q$. Suppose for contradiction that $d[u] > \delta(s, u)$. Consider a shortest path
-$P$ from $s$ to $u$And let $(x, y)$ be the first edge on $P$ where $x \in S$ and $y \notin S$. Then
+$P$ from $s$ to $u$ And let $(x, y)$ be the first edge on $P$ where $x \in S$ and $y \notin S$. Then
 $\delta(s, y) = \delta(s, x) + w(x, y) = d[x] + w(x, y)$ (by induction). When $x$ was added to
 $S$The edge $(x, y)$ was relaxed, so $d[y] \leq d[x] + w(x, y) = \delta(s, y)$. Since edge weights
 are non-negative, $\delta(s, y) \leq \delta(s, u)$. But
-$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$And $y$ is in $Q$Contradicting that $u$ has the
+$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$ And $y$ is in $Q$Contradicting that $u$ has the
 minimum $d$-value in $Q$. $\blacksquare$
 
 **Theorem 4.8.** Dijkstra's algorithm with a binary heap runs in $O((V + E)\log V)$ time. With a
@@ -1575,7 +1575,7 @@ To prove that a problem has optimal substructure:
    it with an optimal one would improve the overall solution.
 
 **Example (Shortest Path).** If $p$ is a shortest path from $u$ to $v$ and $w$ is an intermediate
-vertex on $p$Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
+vertex on $p$ Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
 
 _Proof._ If not, there exists a shorter path $p'$ from $u$ to $w$. Then $p'$ concatenated with the
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
@@ -1599,7 +1599,7 @@ Optimal BST, matrix chain multiplication.
 
 ### 5.5 Worked Example: 0/1 Knapsack
 
-**Problem.** Given $n$ items with weights $w_1, \ldots, w_n$ and values $v_1, \ldots, v_n$And a
+**Problem.** Given $n$ items with weights $w_1, \ldots, w_n$ and values $v_1, \ldots, v_n$ And a
 knapsack of capacity $W$Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
@@ -1736,7 +1736,7 @@ $$dp[c] = \begin{cases} 0 & \mathrm{if}  c = 0 \\ \min_{i: d_i \leq c}(dp[c - d_
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
 _Proof of correctness._ To make change for amount $c > 0$The last coin used must be some
-$d_i \leq c$. The remaining amount is $c - d_i$And the optimal solution for $c$ uses
+$d_i \leq c$. The remaining amount is $c - d_i$ And the optimal solution for $c$ uses
 $1 + dp[c - d_i]$ coins. Taking the minimum over all valid $d_i$ gives the optimal solution.
 $\blacksquare$
 
@@ -1813,7 +1813,7 @@ Time.
 A **polynomial-time reduction** from problem $A$ to problem $B$ is a polynomial-time algorithm that
 Transforms instances of $A$ into instances of $B$Preserving the answer.
 
-**Lemma 6.1.** If $A \leq_p B$ and $B \in P$Then $A \in P$.
+**Lemma 6.1.** If $A \leq_p B$ and $B \in P$ Then $A \in P$.
 
 **Lemma 6.2.** If $A \leq_p B$ and $A$ is NP-hard, then $B$ is NP-hard.
 
@@ -1934,8 +1934,8 @@ no polynomial-time approximation algorithm with any constant ratio.
 _Proof sketch._ If a $c$-approximation existed for TSP, we could use it to solve the Hamiltonian
 cycle problem (which is NP-complete): given a graph $G$Construct a TSP instance with edge weight 1
 for existing edges and weight $cn + 1$ for non-edges. If the approximation returns a tour of weight
-$n$Then $G$ has a Hamiltonian cycle. Otherwise, the tour weight is at least
-$n - 1 + cn + 1 \gt cn$So the approximation ratio would exceed $c$Contradiction. $\blacksquare$
+$n$ Then $G$ has a Hamiltonian cycle. Otherwise, the tour weight is at least
+$n - 1 + cn + 1 \gt cn$ So the approximation ratio would exceed $c$Contradiction. $\blacksquare$
 
 **Theorem 6.6 (SET COVER).** The greedy algorithm for SET COVER is a $(\ln n + O(1))$-approximation,
 where $n$ is the size of the universe.
@@ -2009,14 +2009,14 @@ Pivot = randomly chosen. Suppose pivot = 5 (index 5).
 
 Partition: $[7, 2, 1, 6, 8, 5, 3, 4] \to [2, 1, 3, 4, 5, 6, 8, 7]$.
 
-Pivot 5 is at index 4 (0-indexed). We want rank 3 (0-indexed rank 2). $4 > 2$So recurse on left:
+Pivot 5 is at index 4 (0-indexed). We want rank 3 (0-indexed rank 2). $4 > 2$ So recurse on left:
 $[2, 1, 3, 4]$.
 
 Pivot = randomly chosen. Suppose pivot = 3.
 
 Partition: $[2, 1, 3, 4] \to [2, 1, 3, 4]$.
 
-Pivot 3 is at index 2. We want rank 2. $2 = 2$So return 3.
+Pivot 3 is at index 2. We want rank 2. $2 = 2$ So return 3.
 
 The 3rd smallest element is 3.
 
@@ -2027,7 +2027,7 @@ The 3rd smallest element is 3.
 
 Test whether $n = 561$ is prime (it is not; $561 = 3 \times 11 \times 17$A Carmichael number).
 
-Write $n - 1 = 560 = 2^4 \times 35$So $s = 4$, $d = 35$.
+Write $n - 1 = 560 = 2^4 \times 35$ So $s = 4$, $d = 35$.
 
 Choose random base $a = 2$.
 
@@ -2081,7 +2081,7 @@ at most once.
 **Theorem 6.9.** The amortised cost per operation for a multi-pop stack is $O(1)$.
 
 _Proof._ In a sequence of $n$ operations, each element is pushed at most once and popped at most
-once. The total cost is at most $2n = O(n)$So the amortised cost per operation is $O(n)/n = O(1)$.
+once. The total cost is at most $2n = O(n)$ So the amortised cost per operation is $O(n)/n = O(1)$.
 $\blacksquare$
 
 #### 6.4.2 Accounting Method
@@ -2106,7 +2106,7 @@ $\blacksquare$
 The **potential function** $\Phi$ maps data structure states to non-negative real numbers. The
 amortised cost of the $i$-th operation is $\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$.
 
-**Theorem 6.11.** If $\Phi(D_i) \geq 0$ for all $i$Then
+**Theorem 6.11.** If $\Phi(D_i) \geq 0$ for all $i$ Then
 $\sum_{i=1}^{n} \hat{c}_i \geq \sum_{i=1}^{n} c_i$.
 
 <details>
@@ -2228,7 +2228,7 @@ technique. Prove the approximation ratio.
 
 **Problem 20.** A randomised algorithm for MINIMUM CUT works by repeatedly contracting random edges
 until two vertices remain. Prove that the probability that any specific minimum cut survives is at
-least $2 / (n(n-1))$And hence that $O(n^2 \log n)$ repetitions suffice to find a minimum cut with
+least $2 / (n(n-1))$ And hence that $O(n^2 \log n)$ repetitions suffice to find a minimum cut with
 high probability (Karger's algorithm).
 
 ## Common Pitfalls

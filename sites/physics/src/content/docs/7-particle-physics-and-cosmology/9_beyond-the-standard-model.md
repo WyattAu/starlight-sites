@@ -47,7 +47,7 @@ corrections from virtual particles. For a fermion loop (e.g., top quark):
 
 $$\delta m_H^2 = -\frac{\lvert y_t\rvert^2}{8\pi^2}\Lambda^2 + \mathrm{finite}$$
 
-Where $\Lambda$ is the ultraviolet cutoff. If $\Lambda \sim M_{\mathrm{Pl}}$Then
+Where $\Lambda$ is the ultraviolet cutoff. If $\Lambda \sim M_{\mathrm{Pl}}$ Then
 $\delta m_H^2 \sim 10^{38}$ GeV$^2$Requiring an incredible fine-tuning of the bare mass To cancel
 this and yield $m_H^2 \sim 10^4$ GeV$^2$.
 
@@ -67,7 +67,7 @@ SUSY models impose **R-parity**, a discrete symmetry defined as:
 
 $$R = (-1)^{3(B-L)+2s}$$
 
-All SM particles have $R = +1$And all superpartners have $R = -1$. R-parity conservation has Two
+All SM particles have $R = +1$ And all superpartners have $R = -1$. R-parity conservation has Two
 important consequences:
 
 1. **The lightest supersymmetric particle (LSP) is stable**, since there is no lighter $R = -1$

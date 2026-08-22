@@ -154,7 +154,7 @@ To subnet a network, borrow bits from the host portion to create additional netw
 
 **Example: Subnet 192.168.1.0/24 into 4 subnets**
 
-1. Determine how many bits to borrow: $2^n \ge 4$So $n = 2$ bits
+1. Determine how many bits to borrow: $2^n \ge 4$ So $n = 2$ bits
 2. New prefix length: /24 + 2 = /26
 3. New subnet mask: 255.255.255.192
 4. Subnet size: $2^{32-26} = 2^6 = 64$ addresses per subnet (62 usable, minus network and broadcast)

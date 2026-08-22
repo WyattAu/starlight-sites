@@ -245,7 +245,7 @@ $$\det A = a_{11}(a_{22}a_{33} - a_{23}a_{32}) - a_{12}(a_{21}a_{33} - a_{23}a_{
 **Inverse.** $A^{-1} = \frac{1}{\det A}\text{adj(A)$. A matrix is invertible if and only if
 $\det A \neq 0$.
 
-**Eigenvalues and eigenvectors.** Solve $\det(A - \lambda I) = 0$ for eigenvalues $\lambda$Then
+**Eigenvalues and eigenvectors.** Solve $\det(A - \lambda I) = 0$ for eigenvalues $\lambda$ Then
 solve $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for eigenvectors $\mathbf{v}$.
 
 **Transformation matrices.** Reflection in the line $y = x\tan\theta$Rotation by angle $\theta$ And
@@ -303,7 +303,7 @@ integers Is $\binom{n + k - 1}{k - 1}$.
 **Bijection arguments.** Show that the objects being counted are in one-to-one correspondence with a
 Simpler set.
 
-**Generating functions.** The coefficient of $x^n$ in $(1 + x)^N$ is $\binom{N}{n}$And in
+**Generating functions.** The coefficient of $x^n$ in $(1 + x)^N$ is $\binom{N}{n}$ And in
 $(1 + x + x^2 + \cdots)^k$ is $\binom{n + k - 1}{k - 1}$.
 
 ---
@@ -442,7 +442,7 @@ Since $I_0 = \pi/2$:
 $$I_n = \frac{2n-1}{2n} \cdot \frac{2n-3}{2n-2} \cdots \frac{3}{4} \cdot \frac{1}{2} \cdot \frac{\pi}{2} = \frac{(2n)!}{4^n(n!)^2} \cdot \frac{\pi}{2}$$
 
 Where the last equality follows by writing the product of odd terms as $(2n)!/(2^n \cdot n!)$ and
-the Product of even terms as $2^n \cdot n!$So:
+the Product of even terms as $2^n \cdot n!$ So:
 
 $$\frac{(2n)!}{2^n n! \cdot 2^n n!} = \frac{(2n)!}{4^n (n!)^2}$$
 
@@ -473,7 +473,7 @@ Divide by $y^2$ (valid where $y \neq 0$):
 
 $$y^{-2}\frac{dy}{dx} + \frac{y^{-1}}{x} = x$$
 
-Let $u = y^{-1}$So $\frac{du}{dx} = -y^{-2}\frac{dy}{dx}$:
+Let $u = y^{-1}$ So $\frac{du}{dx} = -y^{-2}\frac{dy}{dx}$:
 
 $$-\frac{du}{dx} + \frac{u}{x} = x$$
 
@@ -492,14 +492,14 @@ Since $u = 1/y$:
 
 $$y = \frac{1}{x(C - x)}$$
 
-Applying $y(1) = 1$: $1 = \frac{1}{1 \cdot (C - 1)}$So $C = 2$.
+Applying $y(1) = 1$: $1 = \frac{1}{1 \cdot (C - 1)}$ So $C = 2$.
 
 Therefore:
 
 $$y = \frac{1}{x(2 - x)} = \frac{1}{2x - x^2}$$
 
 The denominator $2x - x^2 = x(2 - x)$ must be non-zero, so $x \neq 0$ and $x \neq 2$. For the
-Solution through $(1, 1)$We have $y > 0$ at $x = 1$And the solution is defined on $(0, 2)$.
+Solution through $(1, 1)$We have $y > 0$ at $x = 1$ And the solution is defined on $(0, 2)$.
 
 ---
 
@@ -532,10 +532,10 @@ $n \geq 2$.
 
 $$a_{n+1} - a_n = \frac{1}{2}\left(a_n + \frac{2}{a_n}\right) - a_n = \frac{2 - a_n^2}{2a_n}$$
 
-Since $a_n \geq \sqrt{2}$We have $a_n^2 \geq 2$So $2 - a_n^2 \leq 0$ and $2a_n > 0$Giving
+Since $a_n \geq \sqrt{2}$We have $a_n^2 \geq 2$ So $2 - a_n^2 \leq 0$ and $2a_n > 0$Giving
 $a_{n+1} - a_n \leq 0$. Hence $(a_n)$ is decreasing for $n \geq 2$.
 
-**(iii)** The sequence $(a_n)_{n \geq 2}$ is decreasing and bounded below by $\sqrt{2}$So by the
+**(iii)** The sequence $(a_n)_{n \geq 2}$ is decreasing and bounded below by $\sqrt{2}$ So by the
 Monotone convergence theorem it converges to some limit $L \geq \sqrt{2}$.
 
 Taking limits in the recurrence:
@@ -588,7 +588,7 @@ For the expectation, we use a different approach. Consider the blue balls in the
 Red balls creating $r + 1$ "gaps" (before the first red, between consecutive reds, after the last
 red). The blue balls are distributed uniformly at random among these $r + 1$ gaps.
 
-Let $B_i$ be the number of blue balls in gap $i$. Then $B_1 + B_2 + \cdots + B_{r+1} = n - r$And by
+Let $B_i$ be the number of blue balls in gap $i$. Then $B_1 + B_2 + \cdots + B_{r+1} = n - r$ And by
 Symmetry $\mathbb{E}(B_i) = \frac{n - r}{r + 1}$ for each $i$.
 
 The number of draws $X$ equals $B_1 + 1$ (the blue balls before the first red, plus one for the

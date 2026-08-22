@@ -395,8 +395,8 @@ Are optimal on matroids.
 A matroid $M = (S, \mathcal{I})$ consists of a finite set $S$ and a collection $\mathcal{I}$ of
 Independent subsets of $S$ satisfying:
 
-1. **Hereditary property**: if $A \in \mathcal{I}$ and $B \subseteq A$Then $B \in \mathcal{I}$
-2. **Exchange property**: if $A, B \in \mathcal{I}$ and $|A| \lt |B|$Then there exists
+1. **Hereditary property**: if $A \in \mathcal{I}$ and $B \subseteq A$ Then $B \in \mathcal{I}$
+2. **Exchange property**: if $A, B \in \mathcal{I}$ and $|A| \lt |B|$ Then there exists
    $x \in B \setminus A$ such that $A \cup \{x\} \in \mathcal{I}$
 
 ### Matroid Greedy Theorem

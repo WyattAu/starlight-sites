@@ -44,11 +44,11 @@ Derivative test.
 
 $f_x = 3x^2 - 3y^2 = 0$ and $f_y = -6xy + 3y^2 = 3y(-2x + y) = 0$.
 
-From $f_x = 0$: $x^2 = y^2$So $y = \pm x$.
+From $f_x = 0$: $x^2 = y^2$ So $y = \pm x$.
 
-If $y = x$: $f_y = 3x(-2x + x) = -3x^2 = 0$So $x = 0$. Point: $(0,0)$.
+If $y = x$: $f_y = 3x(-2x + x) = -3x^2 = 0$ So $x = 0$. Point: $(0,0)$.
 
-If $y = -x$: $f_y = 3(-x)(2x + x) = -9x^2 = 0$So $x = 0$. Point: $(0,0)$.
+If $y = -x$: $f_y = 3(-x)(2x + x) = -9x^2 = 0$ So $x = 0$. Point: $(0,0)$.
 
 The only critical point is $(0, 0)$. Now $f_{xx} = 6x$, $f_{yy} = -6x + 6y$, $f_{xy} = -6y$.
 
@@ -70,7 +70,7 @@ $\mathbf{v} = (1, 1)$.
 <details>
 <summary>Solution</summary>
 
-Normalise: $\lVert \mathbf{v} \rVert = \sqrt{2}$So $\mathbf{u} = (1/\sqrt{2},\, 1/\sqrt{2})$.
+Normalise: $\lVert \mathbf{v} \rVert = \sqrt{2}$ So $\mathbf{u} = (1/\sqrt{2},\, 1/\sqrt{2})$.
 
 $f_x = e^x \cos y$, $f_y = -e^x \sin y$.
 
@@ -106,9 +106,9 @@ Write the second-order Taylor expansion of $f(x,y) = \sin(x + y)$ at $(0, 0)$.
 <details>
 <summary>Solution</summary>
 
-$f(0,0) = 0$, $f_x = \cos(x+y)$, $f_y = \cos(x+y)$So $f_x(0,0) = f_y(0,0) = 1$.
+$f(0,0) = 0$, $f_x = \cos(x+y)$, $f_y = \cos(x+y)$ So $f_x(0,0) = f_y(0,0) = 1$.
 
-$f_{xx} = -\sin(x+y)$, $f_{xy} = -\sin(x+y)$, $f_{yy} = -\sin(x+y)$So
+$f_{xx} = -\sin(x+y)$, $f_{xy} = -\sin(x+y)$, $f_{yy} = -\sin(x+y)$ So
 $f_{xx}(0,0) = f_{xy}(0,0) = f_{yy}(0,0) = 0$.
 
 $$f(x,y) = 0 + x + y + \frac{1}{2}(0 \cdot x^2 + 2 \cdot 0 \cdot xy + 0 \cdot y^2) + R_2 = x + y + R_2$$
@@ -126,8 +126,8 @@ Evaluate $\iint_D (x + y)\, dA$ where $D$ is bounded by $y = x$ and $y = x^2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x = x^2$I.e., $x(x-1) = 0$So $x = 0$ and $x = 1$. For $x \in (0,1)$
-$x^2 \lt x$So $D = \\{(x,y) : 0 \leq x \leq 1,\, x^2 \leq y \leq x\\}$.
+The curves intersect when $x = x^2$I.e., $x(x-1) = 0$ So $x = 0$ and $x = 1$. For $x \in (0,1)$
+$x^2 \lt x$ So $D = \\{(x,y) : 0 \leq x \leq 1,\, x^2 \leq y \leq x\\}$.
 
 $$\iint_D (x + y)\, dA = \int_0^1 \int_{x^2}^x (x + y)\, dy\, dx = \int_0^1 \left[xy + \frac{y^2}{2}\right]_{x^2}^x\, dx$$
 
@@ -362,9 +362,9 @@ Find the minimum value of $f(x,y,z) = x^2 + y^2 + z^2$ subject to $x + y - z = 1
 
 $\nabla f = (2x, 2y, 2z)$, $\nabla g = (1, 1, -1)$ where $g = x + y - z - 1$.
 
-$2x = \lambda$, $2y = \lambda$, $2z = -\lambda$So $x = y = -z$.
+$2x = \lambda$, $2y = \lambda$, $2z = -\lambda$ So $x = y = -z$.
 
-From $x + y - z = 1$: $2x - (-x) = 3x = 1$So $x = 1/3$, $y = 1/3$, $z = -1/3$.
+From $x + y - z = 1$: $2x - (-x) = 3x = 1$ So $x = 1/3$, $y = 1/3$, $z = -1/3$.
 
 $$f(1/3, 1/3, -1/3) = \frac{1}{9} + \frac{1}{9} + \frac{1}{9} = \frac{1}{3}$$
 
@@ -382,7 +382,7 @@ Find the arc length of the curve $\mathbf{r}(t) = (t^2,\, 2t,\, \ln t)$ for $1 \
 <details>
 <summary>Solution</summary>
 
-$\mathbf{r}'(t) = (2t,\, 2,\, 1/t)$So $\lVert \mathbf{r}'(t) \rVert = \sqrt{4t^2 + 4 + 1/t^2}$.
+$\mathbf{r}'(t) = (2t,\, 2,\, 1/t)$ So $\lVert \mathbf{r}'(t) \rVert = \sqrt{4t^2 + 4 + 1/t^2}$.
 
 Note: $4t^2 + 4 + t^{-2} = (2t + 1/t)^2$. So $\lVert \mathbf{r}' \rVert = 2t + 1/t$.
 
@@ -424,7 +424,7 @@ $z = 1$.
 <summary>Solution</summary>
 
 Use spherical coordinates. The sphere has $\rho = 2$. The plane $z = 1$ intersects when
-$2\cos\phi = 1$So $\cos\phi = 1/2$Giving $\phi = \pi/3$.
+$2\cos\phi = 1$ So $\cos\phi = 1/2$Giving $\phi = \pi/3$.
 
 The region: $0 \leq \rho \leq 2$, $0 \leq \phi \leq \pi/3$, $0 \leq \theta \leq 2\pi$.
 

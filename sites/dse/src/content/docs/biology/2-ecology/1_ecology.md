@@ -1000,7 +1000,7 @@ levels. Both terms can Appear in the same question.
    explain the change in allele frequency over generations.
 
 2. **Calculate allele and genotype frequencies using Hardy-Weinberg.** Always start by identifying
-   the homozygous recessive frequency ($q^2$), then calculate $q$Then $p$Then all genotype
+   the homozygous recessive frequency ($q^2$), then calculate $q$ Then $p$ Then all genotype
    frequencies.
 
 3. **Interpret ecological data from graphs and tables.** Look for trends, correlations, and causal
@@ -1027,7 +1027,7 @@ If producers have 10,000 kJ of energy:
 1. Identify $q^2$ from the homozygous recessive frequency
 2. Take the square root to get $q$
 3. Calculate $p = 1 - q$
-4. Calculate $p^2$, $2pq$And verify $p^2 + 2pq + q^2 = 1$
+4. Calculate $p^2$, $2pq$ And verify $p^2 + 2pq + q^2 = 1$
 
 **Population growth:**
 
@@ -1304,7 +1304,7 @@ slow-release fertilisers).
 - In natural selection questions, always identify the **specific** selection pressure and explain
   how it creates differential survival and reproduction. Generic answers without a concrete example
   score poorly.
-- For Hardy-Weinberg, always state your working: show $q^2$Then $q$Then $p$Then the genotype
+- For Hardy-Weinberg, always state your working: show $q^2$ Then $q$ Then $p$ Then the genotype
   frequencies. Examiners award marks for the process.
 - When describing nutrient cycles, name the specific processes (nitrification, denitrification,
   etc.) and the organisms involved (specific bacteria names earn extra marks).
@@ -1339,7 +1339,7 @@ If you get this wrong, revise: Genetics of Evolution -- Allele Frequency Calcula
 <details>
 <summary>Solution</summary>
 
-$q^2 = 0.64$So $q = \sqrt{0.64} = 0.8$.
+$q^2 = 0.64$ So $q = \sqrt{0.64} = 0.8$.
 
 $p = 1 - 0.8 = 0.2$.
 

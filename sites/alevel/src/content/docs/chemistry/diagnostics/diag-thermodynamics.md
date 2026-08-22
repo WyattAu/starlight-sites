@@ -91,7 +91,7 @@ energy to overcome repulsion.
 **Question:**
 
 The standard enthalpy change of combustion of ethanol is $-1367\,\text{kJ mol}^{-1}$. The standard
-enthalpy change of combustion of carbon is $-394\,\text{kJ mol}^{-1}$And the standard enthalpy
+enthalpy change of combustion of carbon is $-394\,\text{kJ mol}^{-1}$ And the standard enthalpy
 change of combustion of hydrogen is $-286\,\text{kJ mol}^{-1}$.
 
 (a) Use Hess's law to calculate the standard enthalpy change of formation of ethanol,
@@ -164,7 +164,7 @@ $$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$$
 
 $$\Delta G^\circ = 178000 - 298 \times 161 = 178000 - 47978 = +130022\,\text{J mol}^{-1} = +130\,\text{kJ mol}^{-1}$$
 
-$\Delta G^\circ \gt 0$So the reaction is **not spontaneous** at $298\,\text{K}$.
+$\Delta G^\circ \gt 0$ So the reaction is **not spontaneous** at $298\,\text{K}$.
 
 (b) The reaction becomes feasible when $\Delta G^\circ \leq 0$:
 
@@ -291,7 +291,7 @@ The large positive $\Delta S$ makes $-T\Delta S$ more negative than $\Delta H$ i
 $\Delta G \lt 0$ (spontaneous). This demonstrates that enthalpy alone does not determine
 spontaneity.
 
-(c) At the melting point, $\Delta G = 0$So $\Delta S = \Delta H/T$:
+(c) At the melting point, $\Delta G = 0$ So $\Delta S = \Delta H/T$:
 
 $$\Delta S = \frac{6010}{273} = 22.0\,\text{J K}^{-1}\text{ mol}^{-1}$$
 

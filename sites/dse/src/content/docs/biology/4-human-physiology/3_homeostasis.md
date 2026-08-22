@@ -378,7 +378,7 @@ $$\mathrm{H}^+ + \mathrm{HCO}_3^- \rightleftharpoons \mathrm{H}_2\mathrm{CO}_3 \
   $\mathrm{HCO}_3^-$ and $\mathrm{H}^+$ by carbonic anhydrase. Haemoglobin binds the
   $\mathrm{H}^+$Preventing a large pH drop.
 - In the lungs: the reaction reverses; $\mathrm{H}^+$ is released, combines with
-  $\mathrm{HCO}_3^-$And $\mathrm{CO}_2$ is exhaled.
+  $\mathrm{HCO}_3^-$ And $\mathrm{CO}_2$ is exhaled.
 
 ### Respiratory Regulation of pH
 
@@ -936,7 +936,7 @@ medulla:
 2. **Thin ascending limb:** Permeable to ions (Na$^+$Cl$^-$) but NOT to water. Na$^+$ and Cl$^-$
    diffuse out into the medulla, making the medullary interstitial fluid more concentrated; the
    filtrate becomes less concentrated
-3. **Thick ascending limb:** Impermeable to water; actively transports Na$^+$K$^+$And Cl$^-$ OUT of
+3. **Thick ascending limb:** Impermeable to water; actively transports Na$^+$K$^+$ And Cl$^-$ OUT of
    the filtrate (using Na$^+$/K$^+$-ATPase and the Na$^+$-K$^+$-2Cl$^-$ co-transporter). This
    further increases the concentration of the medullary interstitial fluid
 4. The countercurrent flow (descending and ascending limbs flowing in opposite directions) amplifies

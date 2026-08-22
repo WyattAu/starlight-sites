@@ -35,7 +35,7 @@ problem** (IVP).
 In time is modelled by a DE: orbital mechanics, circuit analysis, fluid dynamics, population
 Biology, heat transfer, and pharmacokinetics all reduce to DEs at their core. The reason is simple:
 If a quantity $y$ changes at a rate that depends on the current state, then by definition
-$\frac{dy}{dt} = f(t, y)$And that is a differential equation.
+$\frac{dy}{dt} = f(t, y)$ And that is a differential equation.
 
 ## First-Order Separable Equations
 
@@ -53,7 +53,7 @@ $$
 $$
 
 This works because $dy$ and $dx$ are related through the chain rule: $\frac{dy}{dx} = g(x)h(y)$
-Rewrites as $\frac{1}{h(y)}\frac{dy}{dx} = g(x)$And integrating both sides with respect to $x$ Gives
+Rewrites as $\frac{1}{h(y)}\frac{dy}{dx} = g(x)$ And integrating both sides with respect to $x$ Gives
 $\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$Which is exactly the separated form Above.
 
 ### Separability Test
@@ -110,7 +110,7 @@ $$
 
 Apply $y(1) = 1$: $\arctan 1 = \arctan 1 + C \implies C = 0$.
 
-Therefore $\arctan y = \arctan x$So $y = x$.
+Therefore $\arctan y = \arctan x$ So $y = x$.
 
 ### Worked Example: Trigonometric Separation
 
@@ -128,7 +128,7 @@ $$
 \frac{y}{2} - \frac{\sin 2y}{4} = \sin x + C
 $$
 
-Apply $y(0) = \frac{\pi}{4}$: $\frac{\pi}{8} - \frac{1}{4} = 0 + C$So
+Apply $y(0) = \frac{\pi}{4}$: $\frac{\pi}{8} - \frac{1}{4} = 0 + C$ So
 $C = \frac{\pi}{8} - \frac{1}{4}$.
 
 The particular solution is:
@@ -202,7 +202,7 @@ $$
 T = \frac{\ln 0.25}{k} = \frac{-1.386}{-0.000121} \approx 11460 \mathrm{ years
 $$
 
-(Equivalently, $25\% = \frac{1}{4} = 2^{-2}$So $t = 2 \times 5730 = 11460$ years.)
+(Equivalently, $25\% = \frac{1}{4} = 2^{-2}$ So $t = 2 \times 5730 = 11460$ years.)
 
 ### Doubling Time
 
@@ -262,7 +262,7 @@ $$
 \frac{y}{L - y} = Ce^{kt}
 $$
 
-Solving for $y$: $y = Ce^{kt}(L - y) \implies y(1 + Ce^{kt}) = Ce^{kt}L$So:
+Solving for $y$: $y = Ce^{kt}(L - y) \implies y(1 + Ce^{kt}) = Ce^{kt}L$ So:
 
 $$
 Y = \frac{Ce^{kt}L}{1 + Ce^{kt}} = \frac{L}{1 + \frac{1}{C}e^{-kt}} = \frac{L}{1 + Ae^{-kt}}
@@ -364,7 +364,7 @@ Approximating the curve locally by its tangent line at each step.
 ### Error Analysis
 
 - Euler's method is **first-order accurate**: the global error is proportional to $\Delta x$.
-- **Local truncation error** per step is $O(\Delta x^2)$But errors accumulate over
+- **Local truncation error** per step is $O(\Delta x^2)$ But errors accumulate over
   $n = \frac{b-a}{\Delta x}$ steps, giving a global error of $O(\Delta x)$.
 - Smaller step sizes produce more accurate approximations but require more computation.
 - The method can diverge if the step size is too large, especially for rapidly changing solutions.
@@ -534,7 +534,7 @@ $Q(60) = 0.3(260) - \frac{0.3 \cdot 200^4}{260^3} = 78 - \frac{0.3 \cdot 1.6 \ti
 ### Existence and Uniqueness
 
 If $f(x, y)$ and $\frac{\partial f}{\partial y}$ are continuous on a rectangle containing
-$(x_0, y_0)$Then the IVP $\frac{dy}{dx} = f(x, y)$, $y(x_0) = y_0$ has a unique solution in some
+$(x_0, y_0)$ Then the IVP $\frac{dy}{dx} = f(x, y)$, $y(x_0) = y_0$ has a unique solution in some
 Interval around $x_0$.
 
 **Consequences:**
@@ -676,7 +676,7 @@ $k_4 = (1.0) + (2.0833 + 1.8516) = 4.9349$
 
 $y_2 = 2.0833 + \frac{0.5}{6}(2.5833 + 6.9582 + 7.4062 + 9.8698) = 2.0833 + 2.2263 = 4.3096$
 
-So $y(1) \approx 4.3096$. The exact answer is $y = 2e^x - x - 1$So $y(1) = 2e - 2 \approx 3.4366$.
+So $y(1) \approx 4.3096$. The exact answer is $y = 2e^x - x - 1$ So $y(1) = 2e - 2 \approx 3.4366$.
 Even RK4 with this large step size has significant error, but it is far more accurate than Euler's
 Method would be.
 :::
@@ -691,8 +691,8 @@ Method would be.
    $g(x)h(y)$The equation is not separable and you need a different technique.
 
 3. **Not checking the domain** of the solution. Some solutions may only be valid on a restricted
-   interval. For example, the solution to $\frac{dy}{dx} = \frac{x}{y}$ is $y^2 = x^2 + C$But if
-   $C \lt 0$Then $y$ is undefined for $|x| \lt \sqrt{-C}$.
+   interval. For example, the solution to $\frac{dy}{dx} = \frac{x}{y}$ is $y^2 = x^2 + C$ But if
+   $C \lt 0$ Then $y$ is undefined for $|x| \lt \sqrt{-C}$.
 
 4. **Confusing the logistic growth equation** with exponential growth. The logistic equation has the
    additional factor $\left(1 - \frac{y}{L}\right)$ that caps growth at the carrying capacity.
@@ -767,7 +767,7 @@ Integrate: $\ln|y| = \frac{1}{2}\ln(x^2 + 1) + C$.
 
 $y = e^C \sqrt{x^2 + 1} = A\sqrt{x^2 + 1}$ where $A = e^C$.
 
-Using $y(0) = 2$: $2 = A\sqrt{1} = A$So $A = 2$.
+Using $y(0) = 2$: $2 = A\sqrt{1} = A$ So $A = 2$.
 
 $y = 2\sqrt{x^2 + 1}$.
 
@@ -778,7 +778,7 @@ $y = 2\sqrt{x^2 + 1}$.
 
 A population grows according to the logistic equation
 $\frac{dP}{dt} = 0.05P\!\left(1 - \frac{P}{1000}\right)$ with $P(0) = 100$. Find (a) the population
-at $t = 50$And (b) the time when the population reaches half the carrying capacity.
+at $t = 50$ And (b) the time when the population reaches half the carrying capacity.
 
 </details>
 
@@ -837,11 +837,11 @@ where slopes are zero) and describe the long-term behaviour of solutions.
 <details>
 <summary>Answer</summary>
 
-Zero slopes: $x - y = 0$So $y = x$. This is the isocline where all slopes are zero (horizontal).
+Zero slopes: $x - y = 0$ So $y = x$. This is the isocline where all slopes are zero (horizontal).
 
-For $y \gt x$ (above the line $y = x$): $dy/dx = x - y \lt 0$So solutions decrease.
+For $y \gt x$ (above the line $y = x$): $dy/dx = x - y \lt 0$ So solutions decrease.
 
-For $y \lt x$ (below the line $y = x$): $dy/dx = x - y \gt 0$So solutions increase.
+For $y \lt x$ (below the line $y = x$): $dy/dx = x - y \gt 0$ So solutions increase.
 
 All solutions approach the line $y = x - 1$ as $x \to \infty$ (this can be verified by solving the
 DE: the general solution is $y = x - 1 + Ce^{-x}$Which approaches $x - 1$).

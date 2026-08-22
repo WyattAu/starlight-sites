@@ -122,7 +122,7 @@ $E_b/A = 28.3/4 = 7.08$ MeV per nucleon.
 The binding energy per nucleon plotted against mass number shows:
 
 - **Light nuclei** ($A \lt 20$): Low binding energy per nucleon, with peaks at
-  $\prescript{4}{2}\mathrm{He}$, $\prescript{12}{6}\mathrm{C}$And $\prescript{16}{8}\mathrm{O}$
+  $\prescript{4}{2}\mathrm{He}$, $\prescript{12}{6}\mathrm{C}$ And $\prescript{16}{8}\mathrm{O}$
   (magic numbers).
 - **Iron-56** ($\prescript{56}{26}\mathrm{Fe}$): Maximum binding energy per nucleon ($\sim 8.8$ MeV)
   — the most stable nucleus.

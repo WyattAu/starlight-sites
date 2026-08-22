@@ -163,7 +163,7 @@ $$
 $$
 
 Each mole of H$_2$SO$_4$ gives 1 mole of H$^+$ from the first dissociation. At this concentration,
-The second dissociation contributes additional H$^+$But for most IB exam questions, it is Acceptable
+The second dissociation contributes additional H$^+$ But for most IB exam questions, it is Acceptable
 to consider only the first dissociation unless told otherwise:
 
 $$
@@ -182,7 +182,7 @@ $$
 K_{a2} = \frac{[\mathrm{H}^+][\mathrm{SO}_4^{2-}]}{[\mathrm{HSO}_4^-]} = \frac{(0.010 + x)(x)}{0.010 - x} = 1.0 \times 10^{-2}
 $$
 
-This gives $x \approx 0.0045$So $[\mathrm{H}^+] \approx 0.0145$ and $\mathrm{pH} \approx 1.84$.
+This gives $x \approx 0.0045$ So $[\mathrm{H}^+] \approx 0.0145$ and $\mathrm{pH} \approx 1.84$.
 
 </details>
 
@@ -948,7 +948,7 @@ $$
 (b) NH$_4^+$ is the conjugate acid of the weak base NH$_3$. Since NH$_3$ is a weak base, its
 Conjugate acid NH$_4^+$ will donate protons in water, making the solution acidic. This is confirmed
 By the relatively large $K_a$ value ($5.56 \times 10^{-10} \gg K_b$ of NH$_4^+$ which would be
-$K_w/K_a = 1.8 \times 10^{-5}$But wait -- we already have $K_a$ for NH$_4^+$So we can see it is An
+$K_w/K_a = 1.8 \times 10^{-5}$ But wait -- we already have $K_a$ for NH$_4^+$ So we can see it is An
 acid). A $0.1\mathrm{ mol/L}$ NH$_4$Cl solution would have pH \lt 7.
 
 </details>
@@ -1043,7 +1043,7 @@ Red** (4.4--6.2), which has a transition range that includes pH 5.28. From the c
 Listed in the IB syllabus, methyl orange is the closest suitable indicator for a strong acid -- weak
 Base titration.
 
-(c) At the half-equivalence point, $[\mathrm{NH}_3] = [\mathrm{NH}_4^+]$So:
+(c) At the half-equivalence point, $[\mathrm{NH}_3] = [\mathrm{NH}_4^+]$ So:
 
 $$
 \mathrm{pH} = \mathrm{p}K_a(\mathrm{NH}_4^+) = 14 - \mathrm{p}K_b = 14 - (-\log(1.8 \times 10^{-5}))

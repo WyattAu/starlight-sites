@@ -59,14 +59,14 @@ Let $S \subseteq \mathbb{R}$ be a non-empty set that is bounded above.
 $u$ satisfying:
 
 1. $u$ is an upper bound: $s \leq u$ for all $s \in S$.
-2. $u$ is the least upper bound: if $v$ is any upper bound of $S$Then $u \leq v$.
+2. $u$ is the least upper bound: if $v$ is any upper bound of $S$ Then $u \leq v$.
 
 Similarly, the **infimum** (or greatest lower bound), $\inf(S)$Is the greatest number $l$ such that
 $l \leq s$ for all $s \in S$.
 
 **Proposition 1.1.** $\sup(S)$ exists if and only if $S$ is non-empty and bounded above.
 
-**Proposition 1.2 (Approximation Property).** If $u = \sup(S)$Then for every $\varepsilon > 0$There
+**Proposition 1.2 (Approximation Property).** If $u = \sup(S)$ Then for every $\varepsilon > 0$There
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
@@ -97,29 +97,29 @@ Exists a rational number $q \in \mathbb{Q}$ with $a \lt q \lt b$.
 
 _Proof._ Since $b - a > 0$By Corollary 1.2 there exists $n \in \mathbb{N}$ with $1/n \lt b - a$ So
 $1 \lt n(b - a) = nb - na$. Let $m = \lfloor na \rfloor + 1 \in \mathbb{Z}$. Then
-$m - 1 \leq na \lt m$ Giving $m \leq na + 1 \lt na + n(b - a) = nb$. Hence $a \lt m/n \lt b$And
+$m - 1 \leq na \lt m$ Giving $m \leq na + 1 \lt na + n(b - a) = nb$. Hence $a \lt m/n \lt b$ And
 $m/n \in \mathbb{Q}$. $\blacksquare$
 
 ### 1.5 Properties of Supremum and Infimum
 
-**Proposition 1.4.** If $A$ and $B$ are non-empty bounded subsets of $\mathbb{R}$Then
+**Proposition 1.4.** If $A$ and $B$ are non-empty bounded subsets of $\mathbb{R}$ Then
 $\sup(A + B) = \sup(A) + \sup(B)$Where $A + B = \{a + b : a \in A, b \in B\}$.
 
-_Proof._ For all $a \in A$ and $b \in B$: $a \leq \sup(A)$ and $b \leq \sup(B)$So
-$a + b \leq \sup(A) + \sup(B)$. Thus $\sup(A) + \sup(B)$ is an upper bound for $A + B$So
+_Proof._ For all $a \in A$ and $b \in B$: $a \leq \sup(A)$ and $b \leq \sup(B)$ So
+$a + b \leq \sup(A) + \sup(B)$. Thus $\sup(A) + \sup(B)$ is an upper bound for $A + B$ So
 $\sup(A + B) \leq \sup(A) + \sup(B)$.
 
 For the reverse inequality, let $\varepsilon > 0$. By the approximation property, there exist
 $a \in A$ And $b \in B$ with $a > \sup(A) - \varepsilon/2$ and $b > \sup(B) - \varepsilon/2$. Then
-$a + b > \sup(A) + \sup(B) - \varepsilon$So $\sup(A + B) \geq \sup(A) + \sup(B) - \varepsilon$.
+$a + b > \sup(A) + \sup(B) - \varepsilon$ So $\sup(A + B) \geq \sup(A) + \sup(B) - \varepsilon$.
 Since $\varepsilon > 0$ is arbitrary, $\sup(A + B) \geq \sup(A) + \sup(B)$. $\blacksquare$
 
 **Proposition 1.5.** For any non-empty bounded set $S \subseteq \mathbb{R}$, $\inf(S) = -\sup(-S)$
 Where $-S = \{-s : s \in S\}$.
 
-_Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$So $s \geq -u$ for all $s \in S$
-Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$Then $-v$ is an upper bound
-For $-S$So $u \leq -v$I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+_Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
+Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
+For $-S$ So $u \leq -v$I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
@@ -129,8 +129,8 @@ _Solution._ The first few terms are $0, 3/2, -2/3, 5/4, -4/5, 7/6, \ldots$.
 For even $n = 2k$: $(-1)^{2k} + 1/(2k) = 1 + 1/(2k)$Which decreases toward $1$ from above. For odd
 $n = 2k-1$: $(-1)^{2k-1} + 1/(2k-1) = -1 + 1/(2k-1)$Which increases toward $-1$ from below.
 
-The even terms form the sequence $3/2, 5/4, 7/6, \ldots$ with limit $1$So $\sup(S) = 3/2$ (the first
-even term). The odd terms form $0, -2/3, -4/5, \ldots$ with limit $-1$And since $0$ Is an
+The even terms form the sequence $3/2, 5/4, 7/6, \ldots$ with limit $1$ So $\sup(S) = 3/2$ (the first
+even term). The odd terms form $0, -2/3, -4/5, \ldots$ with limit $-1$ And since $0$ Is an
 odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 
 </details>

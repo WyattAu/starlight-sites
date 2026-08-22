@@ -601,7 +601,7 @@ $$
 $$
 
 This is the **Nernst equation**. At $298\mathrm{ K}$Substituting $R = 8.314\mathrm{ J/(mol K)}$
-$F = 96485\mathrm{ C/mol}$And converting to $\log_{10}$:
+$F = 96485\mathrm{ C/mol}$ And converting to $\log_{10}$:
 
 $$
 E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{0.0592}{n}\log_{10} Q
@@ -649,7 +649,7 @@ More spontaneous).
 
 ### Equilibrium Connection
 
-At equilibrium, $\Delta G = 0$So $E_{\mathrm{cell}} = 0$ and $Q = K$ (the equilibrium constant).
+At equilibrium, $\Delta G = 0$ So $E_{\mathrm{cell}} = 0$ and $Q = K$ (the equilibrium constant).
 Substituting into the Nernst equation:
 
 $$
@@ -667,7 +667,7 @@ Determines the equilibrium constant.
 <strong>IB Exam Tip</strong>
 A useful relationship: a larger positive $E^\circ_{\mathrm{cell}}$ means a larger equilibrium
 Constant $K$Meaning the reaction proceeds further to completion. For
-$E^\circ_{\mathrm{cell}} \gt 0.3\mathrm{ V}$ (approximately), $K \gt 1$And the reaction can be
+$E^\circ_{\mathrm{cell}} \gt 0.3\mathrm{ V}$ (approximately), $K \gt 1$ And the reaction can be
 Considered to go essentially to completion.
 
 ### Nernst Equation for Half-Cells
@@ -684,7 +684,7 @@ $$
 E = E^\circ - \frac{0.0592}{1}\log_{10}\frac{[\mathrm{Fe}^{2+}]}{[\mathrm{Fe}^{3+}]}
 $$
 
-If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$Then $E \lt E^\circ$ (less tendency to be reduced).
+If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$ Then $E \lt E^\circ$ (less tendency to be reduced).
 :::
 :::caution
 <strong>Common Mistake</strong>
@@ -786,7 +786,7 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 <strong>Common Mistake</strong>
 When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
 Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
-$2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$Then $n = 2$Not $n = 1$.
+$2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$Not $n = 1$.
 
 ---
 
@@ -1228,7 +1228,7 @@ Key features:
 :::note
 <strong>IB Exam Tip</strong>
 Know the half-reactions for the lead-acid battery. The key insight is that during discharge, both
-Electrodes are converted to $\mathrm{PbSO}_4$And during charging, the reaction is reversed. This
+Electrodes are converted to $\mathrm{PbSO}_4$ And during charging, the reaction is reversed. This
 Reversibility is what makes the battery rechargeable.
 
 ---
@@ -1444,7 +1444,7 @@ $\Delta H^\circ = -286\mathrm{ kJ/mol}$$\Delta G^\circ = -237\mathrm{ kJ/mol}$
 **(a)** $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$
 
 From the half-reactions, $n = 2$ (for the equation
-$\mathrm{H}_2 + \mathrm{O}_2 \to 2\mathrm{H}_2\mathrm{O}$ with $n = 4$But per mole of $\mathrm{H}_2$
+$\mathrm{H}_2 + \mathrm{O}_2 \to 2\mathrm{H}_2\mathrm{O}$ with $n = 4$ But per mole of $\mathrm{H}_2$
 as written, $n = 2$).
 
 $E^\circ_{\mathrm{cell}} = \frac{-\Delta G^\circ}{nF} = \frac{237\,000}{2 \times 96500} = +1.23\mathrm{ V}$

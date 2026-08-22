@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Virtual Threads and Structured Concurrency
-description: "Java virtual threads and structured concurrency."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"java\", \"url\": \"https://java.wyattau.com\"}, {\"name\": \"08 Modern Java\", \"url\":"
 categories: ["java"]
 ---
 

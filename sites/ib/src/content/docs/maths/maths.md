@@ -77,7 +77,7 @@ Find the coefficient of $x^3$ in the expansion of $(2x - 3)^7$.
 <summary>Solution</summary>
 
 - **General term:** $T_{r+1} = \dbinom{7}{r} (2x)^{7-r} (-3)^r$
-- **For $x^3$:** need $7 - r = 3$So $r = 4$.
+- **For $x^3$:** need $7 - r = 3$ So $r = 4$.
 - $T_5 = \dbinom{7}{4} (2x)^3 (-3)^4 = 35 \times 8x^3 \times 81 = 35 \times 648 x^3 = 22680 x^3$
 - **Coefficient:** $22680$
 
@@ -143,7 +143,7 @@ Let $f(x) = 2x + 1$ and $g(x) = x^2 - 3$. Find $(f \circ g)(x)$ and $f^{-1}(x)$.
 
 - \*\*$(f \circ g)(x) = f(g(x)) = f(x^2 - 3) = 2(x^2 - 3) + 1 = 2x^2 - 5$
 - **$f^{-1}(x)$:** Set $y = 2x + 1$Swap $x$ and $y$: $x = 2y + 1$.
-- $y = \dfrac{x - 1}{2}$So $f^{-1}(x) = \dfrac{x - 1}{2}$
+- $y = \dfrac{x - 1}{2}$ So $f^{-1}(x) = \dfrac{x - 1}{2}$
 
 </details>
 
@@ -312,7 +312,7 @@ Find the equation of the tangent to $y = (x^2 + 1)^3$ at the point where $x = 1$
 
 - **Differentiate using the chain rule:** $\dfrac{dy}{dx} = 3(x^2 + 1)^2 \cdot 2x = 6x(x^2 + 1)^2$
 - **At $x = 1$:**
-- $y = (1 + 1)^3 = 8$So the point is $(1, 8)$
+- $y = (1 + 1)^3 = 8$ So the point is $(1, 8)$
 - $\dfrac{dy}{dx} = 6(1)(1 + 1)^2 = 6 \times 4 = 24$
 - **Tangent line:** $y - 8 = 24(x - 1) \implies y = 24x - 16$
 
@@ -418,7 +418,7 @@ $(a + b)^n = \displaystyle\sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k$
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$
 
-**Fundamental theorem of calculus:** If $F'(x) = f(x)$Then
+**Fundamental theorem of calculus:** If $F'(x) = f(x)$ Then
 $\displaystyle\int_a^b f(x)\,dx = F(b) - F(a)$
 
 **Derivative of $\sin x$:** $\dfrac{d}{dx}(\sin x) = \cos x$
@@ -521,7 +521,7 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 
 **Vertex form:** $f(x) = a(x - h)^2 + k$Where $(h, k)$ is the vertex.
 
-**Finding inverse:** Replace $f(x)$ with $y$Swap $x$ and $y$Solve for $y$Then write $f^{-1}(x)$.
+**Finding inverse:** Replace $f(x)$ with $y$Swap $x$ and $y$Solve for $y$ Then write $f^{-1}(x)$.
 
 ### Calculus -- Key Results
 
@@ -820,7 +820,7 @@ If you get this wrong, revise: Cosine rule for finding a side (Topic 3).
 
 ### Probability and Statistics
 
-1. Two events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.4$And $P(A \mid B) = 0.5$. Find
+1. Two events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.4$ And $P(A \mid B) = 0.5$. Find
    $P(A \cap B)$ and determine whether $A$ and $B$ are independent.
 
 <details>
@@ -840,7 +840,7 @@ If you get this wrong, revise: Conditional probability and independence (Topic 4
 <summary>Solution</summary>
 
 - Standardise: $P(Z \lt (22 - \mu)/3) = 0.8413$
-- From tables, $P(Z \lt 1.00) = 0.8413$So $(22 - \mu)/3 = 1$
+- From tables, $P(Z \lt 1.00) = 0.8413$ So $(22 - \mu)/3 = 1$
 - $22 - \mu = 3 \implies \mu = 19$
 
 If you get this wrong, revise: Standardisation $Z = (X - \mu)/\sigma$ and inverse normal (Topic 4).
@@ -854,7 +854,7 @@ If you get this wrong, revise: Standardisation $Z = (X - \mu)/\sigma$ and invers
 <details>
 <summary>Solution</summary>
 
-- **Substitution:** Let $u = 1 + x^2$$du = 2x\,dx$So $x\,dx = du/2$.
+- **Substitution:** Let $u = 1 + x^2$$du = 2x\,dx$ So $x\,dx = du/2$.
 - When $x = 0$$u = 1$; when $x = 1$$u = 2$.
 - $\displaystyle\int_1^2 \sqrt{u} \cdot \dfrac{du}{2} = \dfrac{1}{2}\left[\dfrac{2}{3}u^{3/2}\right]_1^2 = \dfrac{1}{3}(2\sqrt{2} - 1)$
 
@@ -882,7 +882,7 @@ If you get this wrong, revise: Implicit differentiation (HL, Topic 5).
 <details>
 <summary>Solution</summary>
 
-- **Find intersections:** $x^2 = 2x \implies x^2 - 2x = 0 \implies x(x - 2) = 0$So $x = 0$ and
+- **Find intersections:** $x^2 = 2x \implies x^2 - 2x = 0 \implies x(x - 2) = 0$ So $x = 0$ and
   $x = 2$.
 - **On $[0, 2]$$2x \ge x^2$.**
 - **Area:**

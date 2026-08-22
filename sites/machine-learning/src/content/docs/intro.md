@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Machine Learning
-description: "Introduction to machine learning fundamentals, supervised and unsupervised learning, and neural networks."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"machine-learning\", \"url\": \"https://machine-learning.wyattau.com\"}, {\"name\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -94,7 +94,7 @@ technique. Prove the approximation ratio.
 
 **Problem 20.** A randomised algorithm for MINIMUM CUT works by repeatedly contracting random edges
 until two vertices remain. Prove that the probability that any specific minimum cut survives is at
-least $2 / (n(n-1))$And hence that $O(n^2 \log n)$ repetitions suffice to find a minimum cut with
+least $2 / (n(n-1))$ And hence that $O(n^2 \log n)$ repetitions suffice to find a minimum cut with
 high probability (Karger's algorithm).
 
 ## Common Pitfalls

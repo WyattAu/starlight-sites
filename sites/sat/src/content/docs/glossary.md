@@ -1,6 +1,6 @@
 ---
 title: "SAT Glossary — Key Terms for Math and Verbal"
-description: "Essential vocabulary and concepts for the SAT exam, covering math, reading, writing, and evidence-based reasoning."
+description: "Scholastic Assessment Test (SAT): A standardized college admissions test developed by the College Board, measuring reading, writing, and math skills."
 date: 2026-07-24
 tags: [glossary]
 ---

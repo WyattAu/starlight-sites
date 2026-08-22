@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Cold War"
-description: "Self-assessment quiz on Cold War history"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"History\", \"url\":"
 sidebar_position: 11
 ---
 

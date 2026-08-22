@@ -1715,7 +1715,7 @@ Using the same processes as Problem 3, compute the schedule under non-preemptive
 **Solution.** (Revision: §2.4)
 
 At $t = 0$Only $P_1$ is available. $P_1$ runs 0--10. At $t = 10$, $P_2$ (burst 5) and $P_3$
-(burst 2) are both ready. SJF selects $P_3$Then $P_2$.
+(burst 2) are both ready. SJF selects $P_3$ Then $P_2$.
 
 Gantt: $\lvert P_1(10) \rvert P_3(2) \rvert P_2(5) \rvert$ at times 0, 10, 12, 17.
 

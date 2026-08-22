@@ -87,7 +87,7 @@ Ford-Fulkerson(G, s, t, c):
 flow after at most $|f^*|$ augmentations, where $|f^*|$ is the value of the maximum flow.
 
 _Proof._ Each augmentation increases the flow value by at least 1 (since capacities are integers,
-the residual capacity of any path is at least 1). The flow value cannot exceed $|f^*|$So at most
+the residual capacity of any path is at least 1). The flow value cannot exceed $|f^*|$ So at most
 $|f^*|$ augmentations occur. $\blacksquare$
 
 **Corollary.** With integer capacities, the running time is $O(E \cdot |f^*|)$.
@@ -430,12 +430,12 @@ $k$ is monotone in $j$We can use divide and conquer to compute each row in $O(n 
 $O(n^2)$.
 
 **Theorem 2.4 (Monge / Quadrangle Inequality).** If $C$ satisfies the quadrangle inequality
-$C(a, c) + C(b, d) \leq C(a, d) + C(b, c)$ for all $a \leq b \leq c \leq d$Then the optimal split
+$C(a, c) + C(b, d) \leq C(a, d) + C(b, c)$ for all $a \leq b \leq c \leq d$ Then the optimal split
 point is monotone.
 
 #### 2.4.2 Convex Hull Trick
 
-When the recurrence is $dp[i] = \min_j \{dp[j] + a[i] \cdot b[j] + c[j]\}$And the lines
+When the recurrence is $dp[i] = \min_j \{dp[j] + a[i] \cdot b[j] + c[j]\}$ And the lines
 $y = b[j] \cdot x + (dp[j] + c[j])$ are added in order of slope, we can maintain a convex hull of
 lines and query in $O(\log n)$ per step.
 
@@ -985,7 +985,7 @@ String: $S = \text{aabcaab}$, $n = 7$.
 
 $Z[0]$ is undefined (the entire string matches itself).
 
-$i = 1$: $i > r = 0$. Set $l = r = 1$. Compare: $S[0] = \text{a} = S[1] = \text{a}$So $r = 2$.
+$i = 1$: $i > r = 0$. Set $l = r = 1$. Compare: $S[0] = \text{a} = S[1] = \text{a}$ So $r = 2$.
 $S[1] = \text{a} \neq S[2] = \text{b}$Stop. $Z[1] = r - l = 2 - 1 = 1$. Decrement $r$: $r = 1$.
 
 $i = 2$: $i > r = 1$. Set $l = r = 2$. Compare: $S[0] = \text{a} \neq S[2] = \text{b}$Stop
@@ -999,10 +999,10 @@ $S[1] = \text{a} = S[5] = \text{a}$, $r = 6$. $S[2] = \text{b} = S[6] = \text{b}
 $r = n = 7$Stop. $Z[4] = 7 - 4 = 3$. Decrement $r$: $r = 6$.
 
 $i = 5$: $i = 5 \leq r = 6$. $k = i - l = 5 - 4 = 1$. $Z[k] = Z[1] = 1$.
-$r - i + 1 = 6 - 5 + 1 = 2$. $Z[k] = 1 < 2$So $Z[5] = 1$.
+$r - i + 1 = 6 - 5 + 1 = 2$. $Z[k] = 1 < 2$ So $Z[5] = 1$.
 
 $i = 6$: $i = 6 \leq r = 6$. $k = i - l = 6 - 4 = 2$. $Z[k] = Z[2] = 0$.
-$Z[k] = 0 < r - i + 1 = 1$So $Z[6] = 0$.
+$Z[k] = 0 < r - i + 1 = 1$ So $Z[6] = 0$.
 
 $Z = [\_, 1, 0, 0, 3, 1, 0]$.
 
@@ -1151,7 +1151,7 @@ generalised chess/checkers, Go.
 ### 9.5 Polynomial-Time Reductions
 
 A **polynomial-time reduction** $f: \Sigma^* \to \Sigma^*$ from language $A$ to language $B$
-satisfies: $x \in A \iff f(x) \in B$And $f$ is computable in polynomial time.
+satisfies: $x \in A \iff f(x) \in B$ And $f$ is computable in polynomial time.
 
 **Types of reductions:**
 
@@ -1202,7 +1202,7 @@ r  [                        1]
 
 Let me compute key entries:
 
-- $dp[0][4]$ ($c..a$I.e., "chara"): $c \neq a$So $\max(dp[1][4], dp[0][3])$. $dp[1][4]$ ("hara"):
+- $dp[0][4]$ ($c..a$I.e., "chara"): $c \neq a$ So $\max(dp[1][4], dp[0][3])$. $dp[1][4]$ ("hara"):
   $h \neq a$, $\max(dp[2][4], dp[1][3])$. $dp[2][4]$ ("ara"): $a = a$, $2 + dp[3][3] = 2 + 1 = 3$.
   $dp[1][3]$ ("har"): $h \neq r$, $\max(dp[2][3], dp[1][2])$. $dp[2][3]$ ("ar"): $a \neq r$,
   $\max(1, 1) = 1$. $dp[1][2]$ ("ha"): $h \neq a$, $\max(1, 1) = 1$. So $dp[1][3] = 1$,
@@ -1275,9 +1275,9 @@ also divides $b \cdot \lfloor a/b \rfloor + (a \bmod b) = a$. $\blacksquare$
 
 ### 12.2 Modular Arithmetic
 
-**Fermat's Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$Then $a^{p-1} \equiv 1 \pmod p$.
+**Fermat's Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$ Then $a^{p-1} \equiv 1 \pmod p$.
 
-**Euler's theorem.** If $\gcd(a, n) = 1$Then $a^{\phi(n)} \equiv 1 \pmod n$Where $\phi(n)$ is
+**Euler's theorem.** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod n$Where $\phi(n)$ is
 Euler's totient function.
 
 **Modular inverse.** The inverse of $a$ modulo $m$ (if it exists) is $a^{-1}$ such that
@@ -1351,7 +1351,7 @@ Multiply $A(x) = 1 + 2x + 3x^2$ and $B(x) = 2 + x$.
 
 Coefficient vectors (padded to length 4): $a = [1, 2, 3, 0]$, $b = [2, 1, 0, 0]$.
 
-4th roots of unity: $\omega = e^{-2\pi i / 4} = -i$So
+4th roots of unity: $\omega = e^{-2\pi i / 4} = -i$ So
 $\omega^0 = 1, \omega^1 = -i, \omega^2 = -1, \omega^3 = i$.
 
 DFT of $a$: $A_0 = 1 + 2 + 3 + 0 = 6$ $A_1 = 1 + 2(-i) + 3(-1) + 0(i) = -2 - 2i$

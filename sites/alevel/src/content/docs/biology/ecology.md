@@ -1334,7 +1334,7 @@ sizes.
 ### 21.1 Calculating Net Primary Productivity
 
 **Worked Example.** A forest has a biomass of $20,000\ \mathrm{kg\ ha^{-1}}$. Over one year, the
-biomass increased by $2,500\ \mathrm{kg\ ha^{-1}}$And the plants respired
+biomass increased by $2,500\ \mathrm{kg\ ha^{-1}}$ And the plants respired
 $8,000\ \mathrm{kg\ ha^{-1}}$ of carbon (measured as $\mathrm{CO_2}$ equivalent).
 
 $\text{NPP} = \text{biomass increase} = 2,500\ \mathrm{kg\ ha^{-1}\ yr^{-1}}$.

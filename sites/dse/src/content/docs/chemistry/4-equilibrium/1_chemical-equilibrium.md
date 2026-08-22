@@ -80,7 +80,7 @@ $\mathrm{N}_2$ is added?
 The system opposes the increase in $\mathrm{N}_2$ by consuming some of it. The forward reaction is
 Favoured, shifting equilibrium to the right. More $\mathrm{NH}_3$ is produced, and some
 $\mathrm{H}_2$ is consumed. The new equilibrium has higher $[\mathrm{N}_2]$Higher
-$[\mathrm{NH}_3]$And lower $[\mathrm{H}_2]$ compared to the original equilibrium.
+$[\mathrm{NH}_3]$ And lower $[\mathrm{H}_2]$ compared to the original equilibrium.
 
 </details>
 
@@ -234,7 +234,7 @@ $$\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$$
 | Change      | $-x$           | $-x$           | $+2x$         |
 | Equilibrium | $1.00 - x$     | $1.00 - x$     | $2x$          |
 
-Since 0.78 mol of $\mathrm{HI}$ formed: $2x = 0.78$So $x = 0.39$.
+Since 0.78 mol of $\mathrm{HI}$ formed: $2x = 0.78$ So $x = 0.39$.
 
 Equilibrium concentrations: $[\mathrm{H}_2] = 1.00 - 0.39 = 0.61 \mathrm{ mol/dm}^3$
 $[\mathrm{I}_2] = 1.00 - 0.39 = 0.61 \mathrm{ mol/dm}^3$ $[\mathrm{HI}] = 0.78 \mathrm{ mol/dm}^3$
@@ -260,7 +260,7 @@ $[\mathrm{Cl}_2] = 1.00 / 2.00 = 0.500 \mathrm{ mol/dm}^3$ $[\mathrm{NOCl}] = 0$
 | Change               | $-y$          | $-y/2$          | $+y$            |
 | Equilibrium          | $1.00 - y$    | $0.500 - y/2$   | $y$             |
 
-$[\mathrm{NOCl}]_{\mathrm{eq}} = 0.60 / 2.00 = 0.30 \mathrm{ mol/dm}^3$So $y = 0.30$.
+$[\mathrm{NOCl}]_{\mathrm{eq}} = 0.60 / 2.00 = 0.30 \mathrm{ mol/dm}^3$ So $y = 0.30$.
 
 $[\mathrm{NO}]_{\mathrm{eq}} = 1.00 - 0.30 = 0.70 \mathrm{ mol/dm}^3$
 $[\mathrm{Cl}_2]_{\mathrm{eq}} = 0.500 - 0.15 = 0.350 \mathrm{ mol/dm}^3$
@@ -329,7 +329,7 @@ $\mathrm{NH}_3$ form or will it decompose?
 
 $$Q_c = \frac{[\mathrm{NH}_3]^2}{[\mathrm{N}_2][\mathrm{H}_2]^3} = \frac{(0.500)^2}{(1.00)(1.00)^3} = \frac{0.250}{1.00} = 0.250$$
 
-$Q_c = 0.250 \lt K_c = 0.500$So the forward reaction is favoured. More $\mathrm{NH}_3$ will form.
+$Q_c = 0.250 \lt K_c = 0.500$ So the forward reaction is favoured. More $\mathrm{NH}_3$ will form.
 
 </details>
 
@@ -450,7 +450,7 @@ Condense.
 $$4\mathrm{NH}_{3(g)} + 5\mathrm{O}_{2(g)} \rightleftharpoons 4\mathrm{NO}_{(g)} + 6\mathrm{H}_2\mathrm{O}_{(g)} \quad \Delta H = -905 \mathrm{ kJ/mol}$$
 
 - Catalyst: Platinum-rhodium alloy at 850$^\circ$C, 8 atm.
-- The $\mathrm{NO}$ produced is further oxidised to $\mathrm{NO}_2$Then absorbed in water to form
+- The $\mathrm{NO}$ produced is further oxidised to $\mathrm{NO}_2$ Then absorbed in water to form
   $\mathrm{HNO}_3$.
 
 ### Ethanol Production by Hydration
@@ -597,7 +597,7 @@ $\Delta n = 2 - 4 = -2$.
 
 $$K_p = K_c(RT)^{-2} = \frac{K_c}{(RT)^2}$$
 
-If $\Delta n = 0$Then $K_p = K_c$.
+If $\Delta n = 0$ Then $K_p = K_c$.
 
 **Worked example 8:** For
 $\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$, $K_c = 50.0$ at 700
@@ -752,7 +752,7 @@ Percentage of $\mathrm{CO}$ reacted = $0.279 / 0.500 \times 100\% = 55.8\%$
 
 For the exothermic reaction
 $\mathrm{A}_{(g)} + \mathrm{B}_{(g)} \rightleftharpoons 2\mathrm{C}_{(g)}$Explain the effect of Each
-of the following changes on (i) the equilibrium position, (ii) the value of $K_c$And (iii) The rate
+of the following changes on (i) the equilibrium position, (ii) the value of $K_c$ And (iii) The rate
 of attainment of equilibrium:
 
 (a) Increasing temperature (b) Adding more $\mathrm{A}$ (c) Adding a catalyst (d) Decreasing the
@@ -941,7 +941,7 @@ $[\mathrm{H}_2] = 0.100$$[\mathrm{I}_2] = 0.100$$[\mathrm{HI}] = 0.700 + 0.200 =
 
 $Q_c = \dfrac{(0.900)^2}{(0.100)(0.100)} = \dfrac{0.810}{0.0100} = 81.0$
 
-$Q_c = 81.0 \gt K_c = 49.0$So the system shifts left.
+$Q_c = 81.0 \gt K_c = 49.0$ So the system shifts left.
 
 | Species           | $\mathrm{H}_2$ | $\mathrm{I}_2$ | $\mathrm{HI}$ |
 | ----------------- | -------------- | -------------- | ------------- |

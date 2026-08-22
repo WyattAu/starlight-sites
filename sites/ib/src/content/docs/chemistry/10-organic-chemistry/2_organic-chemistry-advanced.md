@@ -448,7 +448,7 @@ The carbocation intermediate is stable.
 An unknown compound has molecular formula $\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$. Its IR spectrum
 Shows a broad peak at $3000\mathrm{ cm}^{-1}$ and a strong peak at $1710\mathrm{ cm}^{-1}$. Its
 $\mathrm{^1H}$ NMR spectrum shows: $\delta\ 1.2\ (d,\ 3\mathrm{H})$
-$\delta\ 4.1\ (q,\ 1\mathrm{H})$, $\delta\ 11.0\ (s,\ 1\mathrm{H})$And a singlet at $\delta\ 2.0$ That
+$\delta\ 4.1\ (q,\ 1\mathrm{H})$, $\delta\ 11.0\ (s,\ 1\mathrm{H})$ And a singlet at $\delta\ 2.0$ That
 integrates to $1\mathrm{H}$.
 
 Wait — the formula only has 6 H. Let me correct: $\delta\ 1.2\ (d,\ 3\mathrm{H})$
@@ -495,7 +495,7 @@ Identify the compound.
 
 - $\mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$: $\mathrm{DBE} = 5 + 1 - 10/2 = 1$ (one C=O).
 - IR: $1700\mathrm{ cm}^{-1}$ (C=O), no O--H = ketone or aldehyde. No aldehyde peak around
-  $\delta\ 9$--$10$So it is a ketone.
+  $\delta\ 9$--$10$ So it is a ketone.
 - NMR: triplet + multiplet + triplet = propyl chain ($\mathrm{CH_3CH_2CH_2}$--). Singlet at
   $\delta\ 2.1$ ($3\mathrm{H}$) = $\mathrm{CH_3CO}$--.
 - Structure: $\mathrm{CH_3COCH_2CH_2CH_3$ (pentan-2-one).
@@ -671,7 +671,7 @@ DBE = 5 is consistent with a benzene ring (DBE = 4) plus one additional unsatura
   aromatic ring).
 - $1600$, $1580\mathrm{ cm}^{-1}$: aromatic C=C stretches.
 - $750\mathrm{ cm}^{-1}$: mono-substituted benzene (ortho-disubstituted shows near
-  $750\mathrm{ cm}^{-1}$But combined with other evidence, this suggests a single substituent on the
+  $750\mathrm{ cm}^{-1}$ But combined with other evidence, this suggests a single substituent on the
   benzene ring).
 
 **Step 3: Analyse NMR data.**

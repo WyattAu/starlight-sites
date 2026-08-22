@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Graph Algorithms
-description: "Graph algorithms including shortest paths and minimum spanning trees."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"Algorithms\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

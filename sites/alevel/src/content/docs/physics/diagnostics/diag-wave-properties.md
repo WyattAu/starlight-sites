@@ -30,7 +30,7 @@ tableOfContents: false
 A plane electromagnetic wave in vacuum has an electric field amplitude of
 $E_0 = 48\,\text{V}\,\text{m}^{-1}$ and frequency $f = 5.0 \times 10^{14}\,\text{Hz}$.
 
-(a) Calculate the wavelength, the magnetic field amplitude $B_0$And the intensity of the wave.
+(a) Calculate the wavelength, the magnetic field amplitude $B_0$ And the intensity of the wave.
 
 (b) The wave is incident normally on a surface of area $0.010\,\text{m}^2$. Calculate the radiation
 pressure on the surface if it is (i) perfectly absorbing and (ii) perfectly reflecting.
@@ -203,7 +203,7 @@ $$\Delta\lambda = \frac{3.0 \times 10^6}{3.00 \times 10^8} \times 656 = 0.010 \t
 
 Observed wavelength: $\lambda' = 656 + 6.56 = 662.56 \approx 663\,\text{nm}$ (redshifted)
 
-(b) $f = c/\lambda$So $\Delta f/f = -\Delta\lambda/\lambda = -v/c = -1.0\%$
+(b) $f = c/\lambda$ So $\Delta f/f = -\Delta\lambda/\lambda = -v/c = -1.0\%$
 
 The frequency decreases by $1.0\%$.
 

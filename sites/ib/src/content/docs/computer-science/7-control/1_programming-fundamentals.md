@@ -1593,7 +1593,7 @@ END FUNCTION
 **Optimizations:**
 
 - Check divisibility by 2 separately, then only test odd divisors (step by 2).
-- Only test up to $\sqrt{n}$ (since if $n = a \times b$ and $a \leq b$Then $a \leq \sqrt{n}$). In
+- Only test up to $\sqrt{n}$ (since if $n = a \times b$ and $a \leq b$ Then $a \leq \sqrt{n}$). In
   pseudocode, `i * i $\le$` n avoids needing a square root function.
 - Time complexity: $O(\sqrt{n})$Which is efficient for the values tested in IB exams.
 
@@ -1666,7 +1666,7 @@ END FUNCTION
 **Final return value:** 120
 
 Returns are resolved bottom-up: `factorial(1)` returns 1, then `factorial(2)` returns
-$2 \times 1 = 2$Then `factorial(3)` returns $3 \times 2 = 6$And so on up to `factorial(5)` Returning
+$2 \times 1 = 2$ Then `factorial(3)` returns $3 \times 2 = 6$ And so on up to `factorial(5)` Returning
 $5 \times 24 = 120$.
 
 **Revision:** Recursion, Call Stack, Functions

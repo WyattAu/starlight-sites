@@ -282,7 +282,7 @@ equilibrium moles of $\text{SO}_3$ and calculate the new equilibrium moles of al
 (a) Let $x$ be the moles of $\text{O}_2$ that react. From stoichiometry, $2x$ mol of $\text{SO}_2$
 reacts and $2x$ mol of $\text{SO}_3$ forms.
 
-$2x = 1.20$So $x = 0.600$
+$2x = 1.20$ So $x = 0.600$
 
 Equilibrium moles:
 
@@ -373,7 +373,7 @@ incorrect and calculate the actual pH.
 
 $$K_a = \frac{x^2}{0.100 - x} = 1.74 \times 10^{-5}$$
 
-**Approximation:** Since $K_a$ is very small, $x \ll 0.100$So $0.100 - x \approx 0.100$:
+**Approximation:** Since $K_a$ is very small, $x \ll 0.100$ So $0.100 - x \approx 0.100$:
 
 $$x^2 = 1.74 \times 10^{-5} \times 0.100 = 1.74 \times 10^{-6}$$
 
@@ -381,7 +381,7 @@ $$x = \sqrt{1.74 \times 10^{-6}} = 1.319 \times 10^{-3}\,\text{mol dm}^{-3}$$
 
 $$\text{pH} = -\log(1.319 \times 10^{-3}) = 2.88$$
 
-Verification: $x/0.100 = 0.01319 = 1.32\%$So the approximation is valid (less than 5%).
+Verification: $x/0.100 = 0.01319 = 1.32\%$ So the approximation is valid (less than 5%).
 
 (b)
 

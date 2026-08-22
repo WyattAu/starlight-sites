@@ -57,7 +57,7 @@ if For all $a, b \in S$:
 ### 8.4 Integral Domains
 
 An **integral domain** is a commutative ring $R$ with unity $1 \neq 0$ in which there are no **zero
-divisors**: if $ab = 0$ for $a, b \in R$Then $a = 0$ or $b = 0$.
+divisors**: if $ab = 0$ for $a, b \in R$ Then $a = 0$ or $b = 0$.
 
 **Proposition 8.2.** Every field is an integral domain.
 
@@ -67,11 +67,11 @@ $b = a^{-1}(ab) = a^{-1} \cdot 0 = 0$. $\blacksquare$
 **Proposition 8.3.** $\mathbb{Z}/n\mathbb{Z}$ is an integral domain if and only if $n$ is prime.
 
 _Proof._ If $n = p$ is prime, then $\mathbb{Z}/p\mathbb{Z}$ is a field, hence an integral domain. If
-$n = ab$ with $1 \lt a, b \lt n$Then $[a][b] = [ab] = [n] = [0]$ in $\mathbb{Z}/n\mathbb{Z}$ But
-$[a] \neq [0]$ and $[b] \neq [0]$So $\mathbb{Z}/n\mathbb{Z}$ has zero divisors. $\blacksquare$
+$n = ab$ with $1 \lt a, b \lt n$ Then $[a][b] = [ab] = [n] = [0]$ in $\mathbb{Z}/n\mathbb{Z}$ But
+$[a] \neq [0]$ and $[b] \neq [0]$ So $\mathbb{Z}/n\mathbb{Z}$ has zero divisors. $\blacksquare$
 
 **Proposition 8.4 (Cancellation Law for Integral Domains).** In an integral domain, if $ab = ac$ and
-$a \neq 0$Then $b = c$.
+$a \neq 0$ Then $b = c$.
 
 _Proof._ $ab = ac$ implies $a(b - c) = 0$. Since $a \neq 0$ and there are no zero divisors,
 $b - c = 0$. $\blacksquare$
@@ -108,11 +108,11 @@ A ring homomorphism that is bijective is a **ring isomorphism**.
 2. $\phi(-a) = -\phi(a)$ for all $a \in R$.
 3. $\ker(\phi) = \{r \in R : \phi(r) = 0_S\}$ is an ideal of $R$.
 
-_Proof._ (1) $\phi(0) = \phi(0 + 0) = \phi(0) + \phi(0)$So $\phi(0) = 0$ by cancellation in
-$(S, +)$. (2) $\phi(a) + \phi(-a) = \phi(a + (-a)) = \phi(0) = 0$So $\phi(-a) = -\phi(a)$. (3)
+_Proof._ (1) $\phi(0) = \phi(0 + 0) = \phi(0) + \phi(0)$ So $\phi(0) = 0$ by cancellation in
+$(S, +)$. (2) $\phi(a) + \phi(-a) = \phi(a + (-a)) = \phi(0) = 0$ So $\phi(-a) = -\phi(a)$. (3)
 $\ker(\phi)$ Is an ideal: it is a subgroup of $(R, +)$ by the group homomorphism property, and for
 any $r \in R$ and $a \in \ker(\phi)$, $\phi(ra) = \phi(r)\phi(a) = \phi(r) \cdot 0 = 0$ and
-$\phi(ar) = \phi(a)\phi(r) = 0$So $ra, ar \in \ker(\phi)$. $\blacksquare$
+$\phi(ar) = \phi(a)\phi(r) = 0$ So $ra, ar \in \ker(\phi)$. $\blacksquare$
 
 **Example.** The map $\phi : \mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ given by $\phi(k) = [k]$ is a
 surjective Ring homomorphism with kernel $n\mathbb{Z}$.
@@ -146,7 +146,7 @@ These differ by $5bd + 5\mathbb{Z} = 0 + 5\mathbb{Z}$ since $5bd$ is a multiple 
 preserves Multiplication. Additivity is clear. Also $\phi(1) = 1 + 5\mathbb{Z}$. ✓
 
 Surjectivity: $\phi(1) = 1$, $\phi(i) = 2$, $\phi(2) = 2$, $\phi(2i) = 4$, $\phi(1+i) = 3$,
-$\phi(1+2i) = 5 \equiv 0$. We get all residues $0, 1, 2, 3, 4$So $\phi$ is surjective.
+$\phi(1+2i) = 5 \equiv 0$. We get all residues $0, 1, 2, 3, 4$ So $\phi$ is surjective.
 
 Kernel: $\ker(\phi) = \{a + bi : a + 2b \equiv 0 \pmod{5}\}$. For example, $1 + 2i \in \ker(\phi)$
 since $1 + 4 = 5 \equiv 0 \pmod{5}$. Also $(1 + 2i)(1 - 2i) = 5 \in \ker(\phi)$. In fact,
@@ -164,7 +164,7 @@ zero divisors.
 _Solution._ In $R$We have $x^2 = x$. Every element can be written as $[a + bx]$ where
 $a, b \in \mathbb{Z}$ Since higher powers reduce: $x^2 = x$, $x^3 = x^2 = x$Etc.
 
-$R$ has zero divisors: $[x][x - 1] = [x^2 - x] = [0]$But $[x] \neq [0]$ and $[x - 1] \neq [0]$. So
+$R$ has zero divisors: $[x][x - 1] = [x^2 - x] = [0]$ But $[x] \neq [0]$ and $[x - 1] \neq [0]$. So
 $R$ is not an integral domain.
 
 Note that $R \cong \mathbb{Z} \times \mathbb{Z}$ via the map $[a + bx] \mapsto (a, a + b)$. The

@@ -91,7 +91,7 @@ $-\mathbf{u} = (-1)\mathbf{u} \in W$ By closure under scalar multiplication, and
 $\mathbf{u} + (-\mathbf{u}) = \mathbf{0} \in W$ by closure Under addition. The remaining axioms are
 inherited from $V$. $\blacksquare$
 
-**Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$Then $W$ is
+**Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$ Then $W$ is
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
 All $\alpha_1, \ldots, \alpha_k \in F$
 
@@ -103,7 +103,7 @@ Scalar multiplication. Assume the result holds for $k - 1$ vectors. Then
 $$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k$$
 
 By the inductive hypothesis,
-$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$And
+$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$ And
 $\alpha_k \mathbf{v}_k \in W$ by closure under scalar multiplication. Their sum is in $W$ by Closure
 under addition. $\blacksquare$
 
@@ -123,7 +123,7 @@ a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
 <details>
 <summary>Solution</summary>
 
-**(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$So
+**(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$ So
 $x_1 + 2y_1 - z_1 = 0$ and $x_2 + 2y_2 - z_2 = 0$. Then
 
 $$(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0$$
@@ -135,7 +135,7 @@ $$(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alph
 So $\alpha \mathbf{u} \in W_1$. Since $W_1$ is non-empty (e.g., $\mathbf{0} \in W_1$), it is a
 subspace.
 
-**(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$But
+**(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$ But
 $2 \cdot (1, 0, 0) = (2, 0, 0) \notin W_2$ since $2^2 + 0^2 = 4 \neq 1$. So $W_2$ is not closed
 Under scalar multiplication.
 

@@ -753,7 +753,7 @@ Elements) of a set using very little memory — 12 KB for an error rate of about
 $$\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}$$
 
 Where $m = 2^b$ is the number of registers, $M[j]$ is the maximum position of the leftmost 1-bit
-Seen in register $j$And $\alpha_m$ is a bias correction constant.
+Seen in register $j$ And $\alpha_m$ is a bias correction constant.
 
 ```python
 class HyperLogLog:

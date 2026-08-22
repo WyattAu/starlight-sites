@@ -270,9 +270,9 @@ $M_r = 2.00/0.01275 = 156.9$; $A_r(\mathrm{M}) = 156.9 - 12.0 - 48.0 = 96.9$Whic
 **molybdenum**. However, for Group 2 metal carbonates, this suggests a miscalculation. Let us
 recheck.)
 
-Actually: $\mathrm{MCO}_3$: $M_r = M + 12 + 48 = M + 60$. So $M = 96.9$But this is not a Group 2
+Actually: $\mathrm{MCO}_3$: $M_r = M + 12 + 48 = M + 60$. So $M = 96.9$ But this is not a Group 2
 metal. The issue is that the carbonate is $\mathrm{MCO}_3$ where
-$n(\mathrm{HCl}) = 2n(\mathrm{MCO}_3)$ is correct. If the data yields $A_r = 96.9$Then this is not a
+$n(\mathrm{HCl}) = 2n(\mathrm{MCO}_3)$ is correct. If the data yields $A_r = 96.9$ Then this is not a
 standard Group 2 carbonate. In practice, the exam question would yield a clean result such as
 $\mathrm{CaCO}_3$ or $\mathrm{MgCO}_3$.
 
@@ -660,7 +660,7 @@ N(\mathrm{O}_2) = \frac{40.0}{32.0} = 1.25\,\mathrm{mol}
 $$
 
 Stoichiometry requires 1 mol $\mathrm{O}_2$ per mol C. Carbon is limiting (1.00 mol C requires 1.00
-mol $\mathrm{O}_2$And 1.25 mol $\mathrm{O}_2$ is available).
+mol $\mathrm{O}_2$ And 1.25 mol $\mathrm{O}_2$ is available).
 
 $$
 M(\mathrm{CO}_2) = 1.00 \times 44.0 = 44.0\,\mathrm{g}
@@ -773,7 +773,7 @@ PV = nRT
 $$
 
 Where $p$ is pressure ($\mathrm{Pa}$), $V$ is volume ($\mathrm{m}^3$), $n$ is moles,
-$R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$And $T$ is temperature ($\mathrm{K}$).
+$R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ And $T$ is temperature ($\mathrm{K}$).
 
 **Unit conversions:**
 $1\,\mathrm{dm}^3 = 10^{-3}\,\mathrm{m}^3$$100\,\mathrm{kPa} = 10^5\,\mathrm{Pa}$.

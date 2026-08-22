@@ -184,7 +184,7 @@ $\text{Fe}^{3+}/\text{Fe}^{2+}$ is reversed (oxidation, $E^\circ = +0.77\,\text{
 
 $$E^\circ_{\text{cell}} = 1.51 - 0.77 = +0.74\,\text{V}$$
 
-$E^\circ_{\text{cell}} \gt 0.3\,\text{V}$So this reaction is **feasible**. This is the basis of
+$E^\circ_{\text{cell}} \gt 0.3\,\text{V}$ So this reaction is **feasible**. This is the basis of
 redox titrations using potassium manganate(VII).
 
 (b) $\text{Cl}_2/\text{Cl}^-$ is reduced ($E^\circ = +1.36\,\text{V}$), $\text{Br}_2/\text{Br}^-$ is
@@ -202,7 +202,7 @@ reversed (oxidation, $E^\circ = +0.54\,\text{V}$).
 
 $$E^\circ_{\text{cell}} = 1.07 - 0.54 = +0.53\,\text{V}$$
 
-$E^\circ_{\text{cell}} \gt 0.3\,\text{V}$So this reaction is **feasible**. Bromine can oxidise
+$E^\circ_{\text{cell}} \gt 0.3\,\text{V}$ So this reaction is **feasible**. Bromine can oxidise
 iodide to iodine. This explains the trend in reactivity:
 $\text{Cl}_2 \gt \text{Br}_2 \gt \text{I}_2$ as oxidising agents.
 
@@ -268,7 +268,7 @@ reaction).
 
 **Question:**
 
-A solution containing $\text{Cu}^{2+}$, $\text{Ag}^+$And $\text{Zn}^{2+}$ ions (all at
+A solution containing $\text{Cu}^{2+}$, $\text{Ag}^+$ And $\text{Zn}^{2+}$ ions (all at
 $0.10\,\text{mol dm}^{-3}$) is electrolysed using carbon electrodes.
 
 Relevant electrode potentials:
@@ -451,10 +451,10 @@ $E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\,\mathrm{V}$$E^\circ(\mathrm{Cu}^
 
 **Solution:**
 
-(a) $E^\circ_{\text{cell}} = 0.34 - (-0.76) = +1.10\,\mathrm{V}$. $E^\circ_{\text{cell}} > 0$So the
+(a) $E^\circ_{\text{cell}} = 0.34 - (-0.76) = +1.10\,\mathrm{V}$. $E^\circ_{\text{cell}} > 0$ So the
 reaction is **feasible** (1 mark).
 
-(b) $E^\circ_{\text{cell}} = 0.80 - 0.34 = +0.46\,\mathrm{V}$. $E^\circ_{\text{cell}} > 0$So the
+(b) $E^\circ_{\text{cell}} = 0.80 - 0.34 = +0.46\,\mathrm{V}$. $E^\circ_{\text{cell}} > 0$ So the
 reaction is **feasible** (1 mark).
 
 (c) $E^\circ_{\text{cell}} = 0.80 - 0.77 = +0.03\,\mathrm{V}$. $E^\circ_{\text{cell}} > 0$ but very

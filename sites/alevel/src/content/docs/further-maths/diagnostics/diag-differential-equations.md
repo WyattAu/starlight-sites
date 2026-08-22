@@ -35,7 +35,7 @@ given that $y = 0$ when $x = 0$. (d) Explain what is meant by a "particular solu
 (a) $y\,dy = x\,dx$. $\frac{y^2}{2} = \frac{x^2}{2} + C$. $y^2 = x^2 + C$. At $(1,2)$:
 $4 = 1 + C$$C = 3$. $y^2 = x^2 + 3$$y = \sqrt{x^2 + 3}$ (taking positive root).
 
-(b) $\frac{dy}{y} = x\,dx$. $\ln|y| = \frac{x^2}{2} + C$. $y = Ae^{x^2/2}$. At $(0,1)$: $1 = A$So
+(b) $\frac{dy}{y} = x\,dx$. $\ln|y| = \frac{x^2}{2} + C$. $y = Ae^{x^2/2}$. At $(0,1)$: $1 = A$ So
 $y = e^{x^2/2}$.
 
 (c) $\frac{y}{y^2 + 1}\,dy = dx$. Integrating: $\frac{1}{2}\ln(y^2 + 1) = x + C$.
@@ -121,7 +121,7 @@ $ve^{\alpha t} = \frac{g}{\alpha}e^{\alpha t} + C$.
 $v = \frac{g}{\alpha} + Ce^{-\alpha t} = \frac{mg}{k} + Ce^{-kt/m}$. At $t = 0$:
 $0 = mg/k + C$$C = -mg/k$. $v = \frac{mg}{k}(1 - e^{-kt/m})$.
 
-(b) Terminal velocity: as $t \to \infty$$e^{-kt/m} \to 0$So $v_{\text{term}} = \frac{mg}{k}$.
+(b) Terminal velocity: as $t \to \infty$$e^{-kt/m} \to 0$ So $v_{\text{term}} = \frac{mg}{k}$.
 
 (c) At $t = m/k$: $v = \frac{mg}{k}(1 - e^{-1}) = \frac{mg}{k}(1 - 0.368) = 0.632 v_{\text{term}}$.
 The particle reaches approximately 63.2% of terminal velocity.
@@ -148,7 +148,7 @@ $\begin{pmatrix}1\\-1\end{pmatrix}$).
 $\begin{pmatrix}x\\y\end{pmatrix} = c_1 e^{3t}\begin{pmatrix}1\\1\end{pmatrix} + c_2 e^{t}\begin{pmatrix}1\\-1\end{pmatrix}$.
 
 $\begin{pmatrix}1\\0\end{pmatrix} = c_1\begin{pmatrix}1\\1\end{pmatrix} + c_2\begin{pmatrix}1\\-1\end{pmatrix}$.
-$c_1 + c_2 = 1$ and $c_1 - c_2 = 0$So $c_1 = c_2 = 1/2$.
+$c_1 + c_2 = 1$ and $c_1 - c_2 = 0$ So $c_1 = c_2 = 1/2$.
 
 $x = \frac{e^{3t} + e^t}{2}$$y = \frac{e^{3t} - e^t}{2}$.
 
@@ -172,14 +172,14 @@ The PI requires $I_p = A\cos(\omega t) + B\sin(\omega t)$.
 $I_p' = -A\omega\sin(\omega t) + B\omega\cos(\omega t)$.
 $\alpha I_p + I_p' = \alpha A\cos + \alpha B\sin - A\omega\sin + B\omega\cos = \frac{V_0}{L}\cos(\omega t)$.
 
-$\alpha A + B\omega = V_0/L$ and $\alpha B - A\omega = 0$So $B = A\omega/\alpha$.
+$\alpha A + B\omega = V_0/L$ and $\alpha B - A\omega = 0$ So $B = A\omega/\alpha$.
 
 $A\alpha + A\omega^2/\alpha = V_0/L$.
 $A = \frac{V_0\alpha}{L(\alpha^2 + \omega^2)} = \frac{V_0 R}{L^2(\omega^2 + R^2/L^2)} = \frac{V_0 R}{R^2 + \omega^2 L^2}$.
 
 $I = Ce^{-Rt/L} + \frac{V_0}{R^2 + \omega^2 L^2}[R\cos(\omega t) + \omega L\sin(\omega t)]$.
 
-At $t = 0$: $0 = C + \frac{V_0 R}{R^2 + \omega^2 L^2}$So
+At $t = 0$: $0 = C + \frac{V_0 R}{R^2 + \omega^2 L^2}$ So
 $C = -\frac{V_0 R}{R^2 + \omega^2 L^2}$.
 
 (b) **Transient:** $Ce^{-Rt/L}$ (decays to zero as $t \to \infty$). **Steady-state:**

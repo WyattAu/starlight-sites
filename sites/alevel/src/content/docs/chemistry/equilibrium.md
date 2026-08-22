@@ -405,7 +405,7 @@ K_p = K_c(RT)^{\Delta n}
 $$
 
 Where $\Delta n = (c + d) - (a + b)$ is the change in the number of moles of gas,
-$R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$And $T$ is in Kelvin.
+$R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ And $T$ is in Kelvin.
 
 **Important:** When $\Delta n = 0$ (equal moles of gas on both sides), $K_p = K_c$.
 
@@ -432,7 +432,7 @@ K_\mathrm{partition} = \frac{[\text{solute}]_\mathrm{organic}}{[\text{solute}]_\
 $$
 
 This is constant at a given temperature and is used in solvent extraction. If a solute is more
-soluble in the organic phase, $K_\mathrm{partition} \gt 1$And extraction with an organic solvent is
+soluble in the organic phase, $K_\mathrm{partition} \gt 1$ And extraction with an organic solvent is
 efficient.
 
 ### Worked Example: Multiple Extractions
@@ -697,7 +697,7 @@ vessel at $298\,\mathrm{K}$. Calculate the equilibrium partial pressures of both
 **Solution:**
 
 (a) Increasing total pressure favours the side with fewer moles of gas. Here, 1 mole of
-$\mathrm{N}_2\mathrm{O}_4$ produces 2 moles of $\mathrm{NO}_2$So increasing pressure shifts
+$\mathrm{N}_2\mathrm{O}_4$ produces 2 moles of $\mathrm{NO}_2$ So increasing pressure shifts
 equilibrium to the left (favouring $\mathrm{N}_2\mathrm{O}_4$).
 
 (b) The forward reaction is endothermic ($\Delta H > 0$). Increasing temperature shifts equilibrium

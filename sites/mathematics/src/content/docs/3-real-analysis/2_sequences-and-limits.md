@@ -30,7 +30,7 @@ We write $a_n \to L$ or $\lim_{n \to \infty} a_n = L$. A sequence that does not 
 **Proposition 2.1 (Uniqueness of Limits).** If $(a_n)$ converges, its limit is unique.
 
 _Proof._ Suppose $a_n \to L$ and $a_n \to M$ with $L \neq M$. Let $\varepsilon = |L - M|/2 > 0$.
-There Exists $N_1$ such that $|a_n - L| \lt \varepsilon$ for $n \geq N_1$And $N_2$ such that
+There Exists $N_1$ such that $|a_n - L| \lt \varepsilon$ for $n \geq N_1$ And $N_2$ such that
 $|a_n - M| \lt \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 
 $$|L - M| \leq |a_n - L| + |a_n - M| \lt 2\varepsilon = |L - M|$$
@@ -46,14 +46,14 @@ $\blacksquare$
 
 ### 2.2 Convergence Theorems
 
-**Theorem 2.1 (Algebra of Limits).** If $a_n \to L$ and $b_n \to M$Then:
+**Theorem 2.1 (Algebra of Limits).** If $a_n \to L$ and $b_n \to M$ Then:
 
 1. $a_n + b_n \to L + M$
 2. $a_n b_n \to LM$
 3. $a_n / b_n \to L/M$ (provided $M \neq 0$ and $b_n \neq 0$ for all $n$)
 
 **Theorem 2.2 (Squeeze Theorem).** If $a_n \leq b_n \leq c_n$ for all $n$ and $a_n \to L$
-$c_n \to L$Then $b_n \to L$.
+$c_n \to L$ Then $b_n \to L$.
 
 **Theorem 2.3 (Monotone Convergence Theorem).** Every bounded monotone sequence in $\mathbb{R}$
 converges. Specifically:
@@ -101,7 +101,7 @@ $\blacksquare$
 A **subsequence** of $(a_n)$ is a sequence $(a_{n_k})_{k=1}^{\infty}$ where
 $n_1 \lt n_2 \lt n_3 \lt \cdots$.
 
-**Proposition 2.3.** If $a_n \to L$Then every subsequence $(a_{n_k}) \to L$.
+**Proposition 2.3.** If $a_n \to L$ Then every subsequence $(a_{n_k}) \to L$.
 
 **Proposition 2.4.** If $(a_n)$ has two subsequences converging to different limits, then $(a_n)$
 diverges.
@@ -123,7 +123,7 @@ $\bigcap_{k=0}^{\infty} I_k = \{c\}$ for some $c \in [A, B]$.
 
 Construct the subsequence inductively: pick $n_1$ with $a_{n_1} \in I_1$. Having chosen
 $n_1 \lt n_2 \lt \cdots \lt n_{k-1}$Pick $n_k > n_{k-1}$ with $a_{n_k} \in I_k$ (possible since
-$I_k$ contains infinitely many terms). Then $a_{n_k} \in I_k$ for all $k$So
+$I_k$ contains infinitely many terms). Then $a_{n_k} \in I_k$ for all $k$ So
 $|a_{n_k} - c| \leq \mathrm{length}(I_k) \to 0$. Hence $a_{n_k} \to c$. $\blacksquare$
 
 ### 2.6 Limit Superior and Limit Inferior
@@ -142,18 +142,18 @@ The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 **Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$In which case the
 Common value equals $\lim a_n$.
 
-_Proof._ If $a_n \to L$Then for every $\varepsilon > 0$There exists $N$ such that
+_Proof._ If $a_n \to L$ Then for every $\varepsilon > 0$There exists $N$ such that
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ for $n \geq N$. Hence
-$\sup_{k \geq n} a_k \leq L + \varepsilon$ For $n \geq N$So $\limsup a_n \leq L + \varepsilon$.
+$\sup_{k \geq n} a_k \leq L + \varepsilon$ For $n \geq N$ So $\limsup a_n \leq L + \varepsilon$.
 Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a_n \geq L$. Combined
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
-Conversely, if $\liminf a_n = \limsup a_n = L$Then for every $\varepsilon > 0$There exists $N_1$
-With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$And $N_2$ with
+Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$There exists $N_1$
+With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
-$L - \varepsilon \lt a_n \lt L + \varepsilon$So $a_n \to L$. $\blacksquare$
+$L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 
-**Proposition 2.7.** $\limsup a_n$ is the largest subsequential limit of $(a_n)$And $\liminf a_n$ Is
+**Proposition 2.7.** $\limsup a_n$ is the largest subsequential limit of $(a_n)$ And $\liminf a_n$ Is
 the smallest.
 
 _Proof._ Let $L^* = \limsup a_n = \inf_n \sup_{k \geq n} a_k$. Define $s_n = \sup_{k \geq n} a_k$.
@@ -162,7 +162,7 @@ $a_{k_n} > s_n - 1/n$. Then $a_{k_n} \to L^*$ (by squeeze), producing a subseque
 $L^*$.
 
 If $L > L^*$ were a subsequential limit, choose a subsequence $a_{n_j} \to L$. For large $j$:
-$a_{n_j} > (L + L^*)/2 > L^*$. But $a_{n_j} \leq s_{n_j}$ for all $j$And $s_{n_j} \to L^*$ So
+$a_{n_j} > (L + L^*)/2 > L^*$. But $a_{n_j} \leq s_{n_j}$ for all $j$ And $s_{n_j} \to L^*$ So
 $a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$A contradiction. $\blacksquare$
 
 **Proposition 2.8 (Algebra of $\limsup$/$\liminf$).** If $(a_n)$ and $(b_n)$ are bounded sequences:
@@ -172,7 +172,7 @@ $a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$A contradiction. $\blacksqua
 3. If $a_n \geq 0$ and $b_n \geq 0$: $\limsup(a_n b_n) \leq (\limsup a_n)(\limsup b_n)$
 
 _Remark._ Equality in (1) does not hold . For example, $a_n = (-1)^n$ and $b_n = (-1)^{n+1}$ Give
-$a_n + b_n = 0$So $\limsup(a_n + b_n) = 0 \lt 1 + 1 = \limsup a_n + \limsup b_n$.
+$a_n + b_n = 0$ So $\limsup(a_n + b_n) = 0 \lt 1 + 1 = \limsup a_n + \limsup b_n$.
 
 **Proposition 2.9.** A sequence $(a_n)$ is convergent if and only if it is Cauchy, if and only if
 $\limsup a_n = \liminf a_n$.

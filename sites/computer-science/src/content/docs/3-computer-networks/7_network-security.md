@@ -42,7 +42,7 @@ Must share the key securely before communication.
 **Theorem 7.1.** ECB mode is insecure for messages longer than one block because identical plaintext
 Blocks produce identical ciphertext blocks, revealing patterns.
 
-_Proof._ If the plaintext contains repeated blocks $P_i = P_j$Then under ECB,
+_Proof._ If the plaintext contains repeated blocks $P_i = P_j$ Then under ECB,
 $C_i = E_K(P_i) =
 E_K(P_j) = C_j$. An attacker observing identical ciphertext blocks knows the
 corresponding Plaintext blocks are identical, regardless of the key. $\blacksquare$

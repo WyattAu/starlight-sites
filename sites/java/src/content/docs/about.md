@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes Java resources — experience, expertise, and credentials behind Java programming study materials."
+description: "Wyatt's Notes offers comprehensive study materials for Java programming. These notes cover the language from core syntax through OOP principles, concurrency,"
 tags:
   - about
   - java

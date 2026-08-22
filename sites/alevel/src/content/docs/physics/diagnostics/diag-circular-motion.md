@@ -122,14 +122,14 @@ Substituting into the vertical equation:
 
 $$m\omega^2 l\cos\theta = mg \Rightarrow \cos\theta = \frac{g}{\omega^2 l}$$
 
-(b) Period $T_p = 1.2\,\text{s}$So $\omega = 2\pi/T_p = 2\pi/1.2 = 5.236\,\text{rad}\,\text{s}^{-1}$
+(b) Period $T_p = 1.2\,\text{s}$ So $\omega = 2\pi/T_p = 2\pi/1.2 = 5.236\,\text{rad}\,\text{s}^{-1}$
 
 $$\cos\theta = \frac{9.81}{(5.236)^2 \times 1.0} = \frac{9.81}{27.42} = 0.3577$$
 $$\theta = \cos^{-1}(0.3577) = 69.0^\circ$$
 
 Tension: $T = m\omega^2 l = 0.50 \times 27.42 \times 1.0 = 13.7\,\text{N}$
 
-Check vertically: $T\cos\theta = 13.7 \times 0.3577 = 4.90\,\text{N}$And
+Check vertically: $T\cos\theta = 13.7 \times 0.3577 = 4.90\,\text{N}$ And
 $mg = 0.50 \times 9.81 = 4.91\,\text{N}$. Consistent.
 
 (c) Speed
@@ -306,7 +306,7 @@ $$v_{\min} = \sqrt{\frac{rg}{\mu_s}} = \sqrt{\frac{8.0 \times 9.81}{0.80}} = \sq
 (b)
 $R = \frac{mv_{\min}^2}{r} = \frac{250 \times 98.1}{8.0} = 3066\,\text{N}$
 
-Check: $\mu_s R = 0.80 \times 3066 = 2453\,\text{N}$And $mg = 250 \times 9.81 = 2453\,\text{N}$.
+Check: $\mu_s R = 0.80 \times 3066 = 2453\,\text{N}$ And $mg = 250 \times 9.81 = 2453\,\text{N}$.
 Consistent.
 
 (c) New speed: $v' = 1.20 \times 9.90 = 11.88\,\text{m}\,\text{s}^{-1}$
@@ -318,7 +318,7 @@ Maximum friction: $F'_{\max} = 0.80 \times 4409 = 3527\,\text{N}$
 
 Since $3527 \gt 2453\,\text{N}$ (weight), friction prevents sliding. At higher speeds, the
 motorcyclist has a larger safety margin. The friction required to prevent sliding is still only
-$mg = 2453\,\text{N}$But the maximum available friction has increased to $3527\,\text{N}$.
+$mg = 2453\,\text{N}$ But the maximum available friction has increased to $3527\,\text{N}$.
 
 ---
 
@@ -364,7 +364,7 @@ force and the block flies off).
 
 $$r_0 = \frac{50 \times 0.10}{50 - 0.30 \times 225} = \frac{5.0}{50 - 67.5} = \frac{5.0}{-17.5} = -0.286\,\text{m}$$
 
-Since $r_0$ is negative, this means $k \lt m\omega^2$So the spring cannot provide sufficient
+Since $r_0$ is negative, this means $k \lt m\omega^2$ So the spring cannot provide sufficient
 centripetal force and the block slides outward. The critical angular velocity is:
 
 $$\omega_c = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.30}} = 12.9\,\text{rad}\,\text{s}^{-1}$$

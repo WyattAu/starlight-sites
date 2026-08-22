@@ -169,7 +169,7 @@ Net GPE lost $= (5 - 3)(9.8)(2) = 39.2\,\mathrm{J}$. This equals total KE gained
 
 $$\frac{1}{2}(3 + 5)v^2 = 39.2 \implies 4v^2 = 39.2 \implies v \approx 3.13\,\mathrm{m/s}$$
 
-Compare with the force method: $a = \frac{5-3}{5+3}(9.8) = 2.45\,\mathrm{m/s}^2$Then
+Compare with the force method: $a = \frac{5-3}{5+3}(9.8) = 2.45\,\mathrm{m/s}^2$ Then
 $v = \sqrt{2(2.45)(2)} \approx 3.13\,\mathrm{m/s}$. The energy method avoids solving for tension.
 
 <hr />
@@ -252,7 +252,7 @@ Extension from the natural length:
 
 $$T = kx$$
 
-Where $k$ is the stiffness (spring constant) in $\mathrm{N/m}$And $x$ is the extension.
+Where $k$ is the stiffness (spring constant) in $\mathrm{N/m}$ And $x$ is the extension.
 
 The force-extension graph is a straight line through the origin. The area under this graph equals
 The work done stretching the spring.
@@ -488,7 +488,7 @@ Find the speed when the spring returns to its natural length.
 <summary>Solution 11</summary>
 EPE at release $= \tfrac{1}{2}(200)(0.3)^2 = 9\,\mathrm{J}$.
 
-At natural length, EPE $= 0$So all EPE converts to KE:
+At natural length, EPE $= 0$ So all EPE converts to KE:
 
 $\tfrac{1}{2}(0.5)v^2 = 9 \implies v^2 = 36 \implies v = 6\,\mathrm{m/s}$.
 

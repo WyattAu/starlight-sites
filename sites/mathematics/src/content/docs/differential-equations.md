@@ -169,12 +169,12 @@ The ODE $M(x, y)\, dx + N(x, y)\, dy = 0$ is **exact** if
 $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$.
 
 When exact, there exists $\Psi(x, y)$ such that $\frac{\partial \Psi}{\partial x} = M$ and
-$\frac{\partial \Psi}{\partial y} = N$And the solution is $\Psi(x, y) = C$.
+$\frac{\partial \Psi}{\partial y} = N$ And the solution is $\Psi(x, y) = C$.
 
-**Theorem 2.2.** If $M$ and $N$ have continuous partial derivatives on a connected domain $D$Then
+**Theorem 2.2.** If $M$ and $N$ have continuous partial derivatives on a connected domain $D$ Then
 $M\, dx + N\, dy = 0$ is exact if and only if $M_y = N_x$.
 
-_Proof._ If exact, $M = \Psi_x$ and $N = \Psi_y$So $M_y = \Psi_{xy} = \Psi_{yx} = N_x$ by Clairaut.
+_Proof._ If exact, $M = \Psi_x$ and $N = \Psi_y$ So $M_y = \Psi_{xy} = \Psi_{yx} = N_x$ by Clairaut.
 Conversely, if $M_y = N_x$Define
 $\Psi(x, y) = \int_{x_0}^x M(t, y)\, dt + \int_{y_0}^y N(x_0, s)\, ds$. Then $\Psi_x = M(x, y)$ and
 $\Psi_y = \int_{x_0}^x M_y(t, y)\, dt + N(x_0, y) = \int_{x_0}^x N_x(t, y)\, dt + N(x_0, y) = N(x, y) - N(x_0, y) + N(x_0, y) = N(x, y)$.
@@ -197,10 +197,10 @@ Solution: $x^2 y + 3x - y = C$. $\blacksquare$
 If $M_y \neq N_x$One can sometimes find an **integrating factor** $\mu(x, y)$ such that
 $(\mu M)_y = (\mu N)_x$.
 
-**Case 1:** If $\frac{M_y - N_x}{N}$ depends only on $x$Then
+**Case 1:** If $\frac{M_y - N_x}{N}$ depends only on $x$ Then
 $\mu(x) = e^{\int \frac{M_y - N_x}{N}\, dx}$.
 
-**Case 2:** If $\frac{N_x - M_y}{M}$ depends only on $y$Then
+**Case 2:** If $\frac{N_x - M_y}{M}$ depends only on $y$ Then
 $\mu(y) = e^{\int \frac{N_x - M_y}{M}\, dy}$.
 
 ### 2.7 Bernoulli Equations
@@ -215,14 +215,14 @@ $$\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)$$
 
 **Example.** Solve $y' + y = y^2 e^x$.
 
-Here $n = 2$So set $v = y^{-1}$. Then $v' = -y^{-2}y'$And the equation becomes $v' - v = -e^x$.
+Here $n = 2$ So set $v = y^{-1}$. Then $v' = -y^{-2}y'$ And the equation becomes $v' - v = -e^x$.
 Integrating factor: $e^{-x}$. So $(v e^{-x})' = -1$Giving $ve^{-x} = -x + C$, $v = -xe^x + Ce^x$ And
 $y = 1/(C - x)e^x$.
 
 ### 2.8 Existence and Uniqueness
 
 **Theorem 2.3 (Picard-Lindelöf).** If $f$ and $\partial f/\partial y$ are continuous on a rectangle
-Containing $(x_0, y_0)$Then the IVP $y' = f(x, y)$, $y(x_0) = y_0$ has a unique solution in some
+Containing $(x_0, y_0)$ Then the IVP $y' = f(x, y)$, $y(x_0) = y_0$ has a unique solution in some
 Neighbourhood of $x_0$.
 
 ### 2.9 Substitution Methods
@@ -285,7 +285,7 @@ $1 - v'/v^2 = 1 + 1/v^2$
 
 $-v'/v^2 = 1/v^2 \implies v' = -1$
 
-So $v = -x + C$And $y = x + \frac{1}{C - x}$.
+So $v = -x + C$ And $y = x + \frac{1}{C - x}$.
 
 ### 2.13 Worked Example: Newton's Law of Cooling
 
@@ -301,7 +301,7 @@ This is separable: $\frac{dT}{T - 20} = -k\, dt$.
 
 $\ln(T - 20) = -kt + C \implies T = 20 + Ce^{-kt}$.
 
-$T(0) = 90 \implies C = 70$So $T = 20 + 70e^{-kt}$.
+$T(0) = 90 \implies C = 70$ So $T = 20 + 70e^{-kt}$.
 
 $T(10) = 60 \implies 60 = 20 + 70e^{-10k} \implies e^{-10k} = 4/7$.
 
@@ -353,7 +353,7 @@ $M_y = 3x + 4y$, $N_x = 2x + 2y$. Since $M_y \neq N_x$Not exact.
 Check Case 1:
 $\frac{M_y - N_x}{N} = \frac{x + 2y}{x^2 + 2xy} = \frac{x + 2y}{x(x + 2y)} = \frac{1}{x}$.
 
-This depends only on $x$So $\mu(x) = e^{\int 1/x\, dx} = x$.
+This depends only on $x$ So $\mu(x) = e^{\int 1/x\, dx} = x$.
 
 Multiply: $(3x^2y + 2xy^2)\, dx + (x^3 + 2x^2y)\, dy = 0$.
 
@@ -510,7 +510,7 @@ $x^2$ if already multiplied by $x$).
 _Solution._ Homogeneous: $r^2 - 1 = 0$Roots $\pm 1$. $y_h = c_1 e^x + c_2 e^{-x}$.
 
 Since $e^x$ is a homogeneous solution, guess $y_p = Axe^x$. $y_p' = Ae^x + Axe^x$
-$y_p'' = 2Ae^x + Axe^x$. $y_p'' - y_p = (2Ae^x + Axe^x) - Axe^x = 2Ae^x = 2e^x$So $A = 1$.
+$y_p'' = 2Ae^x + Axe^x$. $y_p'' - y_p = (2Ae^x + Axe^x) - Axe^x = 2Ae^x = 2e^x$ So $A = 1$.
 
 $y = c_1 e^x + c_2 e^{-x} + xe^x$. $\blacksquare$
 
@@ -554,7 +554,7 @@ _Solution._ Homogeneous: $r^2 + 2r + 1 = (r+1)^2 = 0$. Repeated root $r = -1$.
 
 $y_h = c_1 e^{-x} + c_2 xe^{-x}$.
 
-The forcing is $e^{-x}\sin x$So guess $y_p = e^{-x}(A\sin x + B\cos x)$.
+The forcing is $e^{-x}\sin x$ So guess $y_p = e^{-x}(A\sin x + B\cos x)$.
 
 $y_p' = -e^{-x}(A\sin x + B\cos x) + e^{-x}(A\cos x - B\sin x) = e^{-x}((A - B)\cos x - (A + B)\sin x)$.
 
@@ -568,7 +568,7 @@ $= e^{-x}[(-2A + 2A - 2B + B)\cos x + (2B - 2A - 2B + A)\sin x]$
 
 $= e^{-x}[(-B)\cos x + (-A)\sin x]$.
 
-Setting equal to $3e^{-x}\sin x$: $-B = 0$ and $-A = 3$So $A = -3$, $B = 0$.
+Setting equal to $3e^{-x}\sin x$: $-B = 0$ and $-A = 3$ So $A = -3$, $B = 0$.
 
 $y = c_1 e^{-x} + c_2 xe^{-x} - 3e^{-x}\sin x$. $\blacksquare$
 
@@ -599,7 +599,7 @@ energy From the periodic forcing at its natural frequency, causing unbounded osc
 <details>
 <summary>Solution</summary>
 
-_Solution._ $\omega_0 = 3$, $\omega = 3$So this is the resonant case.
+_Solution._ $\omega_0 = 3$, $\omega = 3$ So this is the resonant case.
 
 Homogeneous: $r^2 + 9 = 0$, $r = \pm 3i$. $y_h = c_1 \cos(3t) + c_2 \sin(3t)$.
 
@@ -680,7 +680,7 @@ Since $w = v'$We obtain the result. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-_Solution._ Here $p(x) = -2$So $e^{-\int p\, dx} = e^{2x}$.
+_Solution._ Here $p(x) = -2$ So $e^{-\int p\, dx} = e^{2x}$.
 
 $y_2 = e^x \int \frac{e^{2x}}{e^{2x}}\, dx = e^x \int 1\, dx = xe^x$.
 
@@ -792,7 +792,7 @@ $= y_1(-py_2' - qy_2) - (-py_1' - qy_1)y_2$
 
 $= -p(y_1 y_2' - y_1' y_2) = -pW$.
 
-So $W' + pW = 0$Giving $W = Ce^{-\int p\, dx}$And evaluating at $x_0$ gives the result.
+So $W' + pW = 0$Giving $W = Ce^{-\int p\, dx}$ And evaluating at $x_0$ gives the result.
 $\blacksquare$
 
 _Corollary._ $W(x)$ is either identically zero or never zero.
@@ -861,7 +861,7 @@ $e^{\alpha t}(\mathbf{a}\sin(\beta t) + \mathbf{b}\cos(\beta t))$.
 **Theorem 4.1.** The solution to $\mathbf{x}' = A\mathbf{x}$ with $\mathbf{x}(0) = \mathbf{x}_0$ is
 $\mathbf{x}(t) = e^{At}\mathbf{x}_0$.
 
-**Proposition 4.2.** If $A$ is diagonalizable as $A = PDP^{-1}$Then $e^{At} = Pe^{Dt}P^{-1}$ Where
+**Proposition 4.2.** If $A$ is diagonalizable as $A = PDP^{-1}$ Then $e^{At} = Pe^{Dt}P^{-1}$ Where
 $e^{Dt} = \mathrm{diag}(e^{\lambda_1 t}, \ldots, e^{\lambda_n t})$.
 
 ### 4.4 Worked Example: Distinct Real Eigenvalues
@@ -895,7 +895,7 @@ _Solution._ $\det(A - \lambda I) = \lambda^2 + 2 = 0$. Eigenvalues: $\lambda = \
 For $\lambda = i\sqrt{2}$:
 $\begin{pmatrix} -i\sqrt{2} & -2 \\ 1 & -i\sqrt{2} \end{pmatrix}\mathbf{v} = \mathbf{0}$.
 
-From the first row: $-i\sqrt{2}\, v_1 - 2v_2 = 0$So $v_2 = -\frac{i\sqrt{2}}{2}v_1$.
+From the first row: $-i\sqrt{2}\, v_1 - 2v_2 = 0$ So $v_2 = -\frac{i\sqrt{2}}{2}v_1$.
 
 With $v_1 = 2$:
 $\mathbf{v} = \begin{pmatrix} 2 \\ 0 \end{pmatrix} + i\begin{pmatrix} 0 \\ -\sqrt{2} \end{pmatrix}$.
@@ -932,7 +932,7 @@ $(A - 3I)\mathbf{w} = \mathbf{v}_1 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$:
 
 $\begin{pmatrix} -1 & 1 \\ -1 & 1 \end{pmatrix}\begin{pmatrix} w_1 \\ w_2 \end{pmatrix} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
 
-$-w_1 + w_2 = 1$. Choose $w_1 = 0$Then $w_2 = 1$. So
+$-w_1 + w_2 = 1$. Choose $w_1 = 0$ Then $w_2 = 1$. So
 $\mathbf{w} = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$.
 
 $\mathbf{x}(t) = c_1 \begin{pmatrix} 1 \\ 1 \end{pmatrix} e^{3t} + c_2 \left[\begin{pmatrix} 1 \\ 1 \end{pmatrix} t e^{3t} + \begin{pmatrix} 0 \\ 1 \end{pmatrix} e^{3t}\right]$
@@ -947,7 +947,7 @@ $\blacksquare$
 **Definition.** A **fundamental matrix** $\Phi(t)$ for the system $\mathbf{x}' = A\mathbf{x}$ is an
 $n \times n$ matrix whose columns form a fundamental set of solutions.
 
-**Proposition 4.3.** $\Phi(t)$ satisfies $\Phi' = A\Phi$And the general solution is
+**Proposition 4.3.** $\Phi(t)$ satisfies $\Phi' = A\Phi$ And the general solution is
 $\mathbf{x}(t) = \Phi(t)\mathbf{c}$ for $\mathbf{c} \in \mathbb{R}^n$.
 
 **Proposition 4.4.** The matrix exponential $e^{At}$ is a fundamental matrix with
@@ -961,7 +961,7 @@ $e^{A \cdot 0} = I$. Any fundamental matrix can be written as $\Phi(t) = e^{At}\
 2. $\frac{d}{dt}e^{At} = Ae^{At} = e^{At}A$
 3. $e^{At}e^{As} = e^{A(t+s)}$
 4. $(e^{At})^{-1} = e^{-At}$
-5. If $AB = BA$Then $e^{A+B} = e^A e^B$
+5. If $AB = BA$ Then $e^{A+B} = e^A e^B$
 
 _Proof of (1)._ $e^{A \cdot 0} = \sum_{k=0}^{\infty} \frac{A^k 0^k}{k!} = I$. $\blacksquare$
 
@@ -987,7 +987,7 @@ Behaviour near the origin is determined by the eigenvalues:
 
 _Remark._ The **trace-determinant plane** provides a convenient classification. Let
 $\tau = \mathrm{tr}(A)$ and $\Delta = \det(A)$. The eigenvalues satisfy
-$\lambda^2 - \tau\lambda + \Delta = 0$So:
+$\lambda^2 - \tau\lambda + \Delta = 0$ So:
 
 $$\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}$$
 
@@ -1157,7 +1157,7 @@ $F(s)G(s) = \int_0^{\infty} e^{-s\tau} f(\tau)\, d\tau \cdot \int_0^{\infty} e^{
 
 $= \int_0^{\infty} \int_0^{\infty} e^{-s(\tau+u)} f(\tau) g(u)\, du\, d\tau$
 
-Substitute $t = \tau + u$, $u = t - \tau$. For fixed $\tau$, $u$ ranges from $0$ to $\infty$So $t$
+Substitute $t = \tau + u$, $u = t - \tau$. For fixed $\tau$, $u$ ranges from $0$ to $\infty$ So $t$
 ranges From $\tau$ to $\infty$.
 
 $= \int_0^{\infty} f(\tau)\left[\int_{\tau}^{\infty} e^{-st} g(t - \tau)\, dt\right] d\tau$
@@ -1233,7 +1233,7 @@ It models a sudden switch being turned on at time $t = c$. The second shifting t
 
 $$\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)$$
 
-Conversely, if $Y(s) = e^{-cs}G(s)$Then $y(t) = u_c(t) \cdot g(t - c)$ where
+Conversely, if $Y(s) = e^{-cs}G(s)$ Then $y(t) = u_c(t) \cdot g(t - c)$ where
 $g = \mathcal{L}^{-1}\{G\}$.
 
 ### 5.11 The Dirac Delta Function
@@ -1656,7 +1656,7 @@ $u(x, t) = e^{-4t}\sin(2x) + 3e^{-25t}\sin(5x)$. $\blacksquare$
 
 $$u_{tt} = c^2 u_{xx}, \quad 0 \lt x \lt L, \quad t > 0$$
 
-With boundary conditions $u(0, t) = u(L, t) = 0$And initial conditions $u(x, 0) = f(x)$
+With boundary conditions $u(0, t) = u(L, t) = 0$ And initial conditions $u(x, 0) = f(x)$
 $u_t(x, 0) = g(x)$.
 
 ### 8.7 Derivation of the Wave Equation
@@ -1666,7 +1666,7 @@ small segment $[x, x + \Delta x]$Newton's second law in the vertical direction g
 
 $$\rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)$$
 
-For small displacements, $\sin\theta \approx \tan\theta = u_x$So:
+For small displacements, $\sin\theta \approx \tan\theta = u_x$ So:
 
 $$\rho \, u_{tt} = T \frac{u_x(x + \Delta x) - u_x(x)}{\Delta x} \xrightarrow{\Delta x \to 0} T u_{xx}$$
 
@@ -1786,7 +1786,7 @@ Conditions**. For the heat equation:
 $$u_x(0, t) = 0, \quad u_x(L, t) = 0$$
 
 (insulated ends). The separation of variables gives $X'(0) = X'(L) = 0$Yielding eigenvalues
-$\lambda_0 = 0$ with $X_0 = 1$And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
+$\lambda_0 = 0$ with $X_0 = 1$ And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
 $X_n = \cos(n\pi x/L)$.
 
 The solution is
@@ -1866,8 +1866,8 @@ $t \to \infty$.
 
 **Theorem 9.1 (Lyapunov).** If there exists a continuously differentiable function $V$ (a **Lyapunov
 Function**) such that $V(\mathbf{x}^*) = 0$, $V(\mathbf{x}) > 0$ for $\mathbf{x} \neq \mathbf{x}^*$
-And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$Then $\mathbf{x}^*$ is stable. If
-$\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$Then $\mathbf{x}^*$ is asymptotically stable.
+And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
+$\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$ Then $\mathbf{x}^*$ is asymptotically stable.
 
 ### 9.4 Worked Example: Linearization
 
@@ -1969,7 +1969,7 @@ The competing species model is:
 $$x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)$$
 
 Where $r_i > 0$ are growth rates and $a_{ij} > 0$ are competition coefficients. The four critical
-Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$And the coexistence point $(x^*, y^*)$
+Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$ And the coexistence point $(x^*, y^*)$
 where both $x'$ and $y'$ vanish.
 
 The stability of the coexistence point determines whether both species survive. If
@@ -1987,7 +1987,7 @@ conditions are built into the transform. Forgetting them leads to incorrect solu
 :::
 :::caution
 Separate, check whether $h(y) = 0$ gives any valid solutions. For example, solving $y' = y^2$ by
-Separating gives $y = -1/(x + C)$But misses the solution $y = 0$.
+Separating gives $y = -1/(x + C)$ But misses the solution $y = 0$.
 :::
 :::caution
 Of continuity. At jump discontinuities, it converges to the midpoint of the jump. The Gibbs
@@ -2100,7 +2100,7 @@ Solve $\frac{dy}{dx} = \frac{x}{y}$, $y(0) = 2$.
 
 _Solution._ Separating: $y\, dy = x\, dx$. Integrating: $\frac{y^2}{2} = \frac{x^2}{2} + C$.
 
-$y(0) = 2 \implies C = 2$So $y^2 = x^2 + 4$Giving $y = \sqrt{x^2 + 4}$ (positive branch Since
+$y(0) = 2 \implies C = 2$ So $y^2 = x^2 + 4$Giving $y = \sqrt{x^2 + 4}$ (positive branch Since
 $y(0) = 2 > 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.1 (Separable Equations).
@@ -2156,13 +2156,13 @@ Solve $y' - y = xy^2$.
 
 _Solution._ This is Bernoulli with $n = 2$, $P(x) = -1$, $Q(x) = x$.
 
-Substitution $v = y^{-1}$: $v' = -y^{-2}y'$So $-v' - v = x$I.e., $v' + v = -x$.
+Substitution $v = y^{-1}$: $v' = -y^{-2}y'$ So $-v' - v = x$I.e., $v' + v = -x$.
 
 Integrating factor: $e^x$. $(ve^x)' = -xe^x$.
 
 $ve^x = -xe^x + e^x + C = e^x(1 - x) + C$.
 
-$v = 1 - x + Ce^{-x}$So $y = \frac{1}{1 - x + Ce^{-x}}$. $\blacksquare$
+$v = 1 - x + Ce^{-x}$ So $y = \frac{1}{1 - x + Ce^{-x}}$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.7 (Bernoulli Equations).
 
@@ -2504,7 +2504,7 @@ Find and classify the critical points of $x' = y - x^2$, $y' = x - y^2$.
 <summary>Solution</summary>
 
 _Solution._ Set $y - x^2 = 0$ and $x - y^2 = 0$. From the first equation $y = x^2$Substituting Into
-the second: $x - x^4 = 0$So $x(1 - x^3) = 0$.
+the second: $x - x^4 = 0$ So $x(1 - x^3) = 0$.
 
 $x = 0 \implies y = 0$. Critical point: $(0, 0)$. $x = 1 \implies y = 1$. Critical point: $(1, 1)$.
 

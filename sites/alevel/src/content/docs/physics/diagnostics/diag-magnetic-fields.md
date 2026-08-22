@@ -67,7 +67,7 @@ $I_1$ varies and the field direction changes.
 
 For a wire perpendicular to $I_1$ with one end at distance $r = 0.05\,\text{m}$The field varies
 along its length and the direction of the force also varies. The total force requires integration.
-The key difference from part (b) is that the field is no longer uniform along $I_2$And the angle
+The key difference from part (b) is that the field is no longer uniform along $I_2$ And the angle
 between the field and current changes along the wire.
 
 The force on a perpendicular wire is generally larger per unit length near the close end but the

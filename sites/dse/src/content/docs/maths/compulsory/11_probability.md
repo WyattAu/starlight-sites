@@ -122,7 +122,7 @@ $$
 \end{aligned}
 $$
 
-By Axiom 2, $P(S) = 1$So $1 = 1 + P(\emptyset)$Hence $P(\emptyset) = 0$. $\square$
+By Axiom 2, $P(S) = 1$ So $1 = 1 + P(\emptyset)$Hence $P(\emptyset) = 0$. $\square$
 
 **Theorem 2.** $P(A') = 1 - P(A)$.
 
@@ -136,7 +136,7 @@ $$
 
 Therefore $P(A') = 1 - P(A)$. $\square$
 
-**Theorem 3.** If $A \subseteq B$Then $P(A) \leq P(B)$.
+**Theorem 3.** If $A \subseteq B$ Then $P(A) \leq P(B)$.
 
 _Proof._ Decompose $B = A \cup (B \cap A')$. Since $A$ and $B \cap A'$ are mutually exclusive, by
 Axiom 3:
@@ -147,7 +147,7 @@ $$
 \end{aligned}
 $$
 
-By Axiom 1, $P(B \cap A') \geq 0$So $P(B) \geq P(A)$. $\square$
+By Axiom 1, $P(B \cap A') \geq 0$ So $P(B) \geq P(A)$. $\square$
 
 **Corollary.** $0 \leq P(A) \leq 1$ for any event $A$.
 
@@ -185,7 +185,7 @@ $$
 \end{aligned}
 $$
 
-Now $A \cup B = A \cup (B \cap A')$And $A$ and $B \cap A'$ are mutually exclusive:
+Now $A \cup B = A \cup (B \cap A')$ And $A$ and $B \cap A'$ are mutually exclusive:
 
 $$
 \begin{aligned}
@@ -195,7 +195,7 @@ $$
 $$
 
 The subtraction of $P(A \cap B)$ corrects for double-counting: outcomes in both $A$ and $B$ are
-Counted once in $P(A)$ and once in $P(B)$So we subtract one copy.
+Counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
 
 ### Mutually Exclusive Events
 
@@ -325,12 +325,12 @@ This is equivalent to $\frac{P(A \cap B)}{P(B)}$ when all outcomes are equally l
 
 A fair die is rolled. Given that the result is even, find the probability that it is greater than 4.
 
-- $B$ = "even" = $\\{2, 4, 6\\}$So $P(B) = \frac{3}{6} = \frac{1}{2}$.
+- $B$ = "even" = $\\{2, 4, 6\\}$ So $P(B) = \frac{3}{6} = \frac{1}{2}$.
 - $A$ = "greater than 4" = $\\{5, 6\\}$.
-- $A \cap B = \\{6\\}$So $P(A \cap B) = \frac{1}{6}$.
+- $A \cap B = \\{6\\}$ So $P(A \cap B) = \frac{1}{6}$.
 - $P(A \mid B) = \frac{1/6}{1/2} = \frac{1}{3}$.
 
-Verification by shrinking: within $\\{2, 4, 6\\}$Only $6$ is greater than $4$So $\frac{1}{3}$.
+Verification by shrinking: within $\\{2, 4, 6\\}$Only $6$ is greater than $4$ So $\frac{1}{3}$.
 $\checkmark$
 
 ### Fundamental Properties
@@ -422,7 +422,7 @@ $P(B) \gt 0$).
 
 _Proof._
 
-($\Rightarrow$) If independent, $P(A \cap B) = P(A) \cdot P(B)$So:
+($\Rightarrow$) If independent, $P(A \cap B) = P(A) \cdot P(B)$ So:
 
 $$
 \begin{aligned}
@@ -430,7 +430,7 @@ $$
 \end{aligned}
 $$
 
-($\Leftarrow$) If $P(A \mid B) = P(A)$Then:
+($\Leftarrow$) If $P(A \mid B) = P(A)$ Then:
 
 $$
 \begin{aligned}
@@ -473,11 +473,11 @@ Now $A'$ = "first coin is tails" and $B'$ = "second coin is heads":
 
 ### Common Pitfall: Mutually Exclusive $\neq$ Independent
 
-**Theorem.** If $A$ and $B$ are mutually exclusive with $P(A) \gt 0$ and $P(B) \gt 0$Then $A$ And
+**Theorem.** If $A$ and $B$ are mutually exclusive with $P(A) \gt 0$ and $P(B) \gt 0$ Then $A$ And
 $B$ are **not** independent.
 
-_Proof._ If $A \cap B = \emptyset$Then $P(A \cap B) = 0$. But $P(A) \cdot P(B) \gt 0$ since both
-Factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$So $A$ and $B$ are not
+_Proof._ If $A \cap B = \emptyset$ Then $P(A \cap B) = 0$. But $P(A) \cdot P(B) \gt 0$ since both
+Factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$ So $A$ and $B$ are not
 Independent. $\square$
 
 Intuition: mutually exclusive events carry strong negative information about each other -- knowing
@@ -792,7 +792,7 @@ $$
 \end{aligned}
 $$
 
-1. **Question:** Events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.5$And $P(A \mid B) = 0.4$.
+1. **Question:** Events $A$ and $B$ are such that $P(A) = 0.6$$P(B) = 0.5$ And $P(A \mid B) = 0.4$.
 Find $P(A \cup B)$.
 
 </details>
@@ -838,7 +838,7 @@ $$
 \end{aligned}
 $$
 
-1. **Question:** Two events $A$ and $B$ satisfy $P(A) = \frac{1}{3}$$P(B) = \frac{1}{4}$And
+1. **Question:** Two events $A$ and $B$ satisfy $P(A) = \frac{1}{3}$$P(B) = \frac{1}{4}$ And
 $P(A \cup B) = \frac{5}{12}$. Determine whether $A$ and $B$ are independent.
 
 </details>
@@ -927,7 +927,7 @@ Sample space: $6 \times 6 = 36$ equally likely outcomes.
 
 $|B| = 4 \times 6 = 24$ (first die shows 3, 4, 5, or 6).
 
-$A \cap B$ = outcomes with first $\geq$ 3 and sum 8: $\\{(3,5), (4,4), (5,3), (6,2)\\}$So
+$A \cap B$ = outcomes with first $\geq$ 3 and sum 8: $\\{(3,5), (4,4), (5,3), (6,2)\\}$ So
 $|A \cap B| = 4$.
 
 $$
@@ -940,8 +940,8 @@ For comparison, the unconditional probability: $P(A) = \frac{5}{36}$ (pairs
 $(2,6), (3,5), (4,4), (5,3), (6,2)$). Conditioning on the first die being $\geq$ 3 eliminates
 $(2,6)$Reducing the count from 5 to 4.
 
-1. **Question:** $A$$B$And $C$ are three events with $P(A) = P(B) = P(C) = \frac{1}{3}$
-$P(A \cap B) = P(A \cap C) = P(B \cap C) = \frac{1}{6}$And $P(A \cap B \cap C) = \frac{1}{12}$. Find
+1. **Question:** $A$$B$ And $C$ are three events with $P(A) = P(B) = P(C) = \frac{1}{3}$
+$P(A \cap B) = P(A \cap C) = P(B \cap C) = \frac{1}{6}$ And $P(A \cap B \cap C) = \frac{1}{12}$. Find
 $P(A \cup B \cup C)$.
 
 <details>
@@ -966,7 +966,7 @@ $P(\mathrm{condition} \mid \mathrm{positive})$.
 <summary>Answer</summary>
 
 - Sensitivity: $P(+ \mid C) = 0.90$.
-- Specificity: $P(- \mid C') = 0.95$So $P(+ \mid C') = 1 - 0.95 = 0.05$.
+- Specificity: $P(- \mid C') = 0.95$ So $P(+ \mid C') = 1 - 0.95 = 0.05$.
 - Prevalence: $P(C) = 0.01$$P(C') = 0.99$.
 
 By Bayes' theorem:

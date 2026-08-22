@@ -285,7 +285,7 @@ $Q(1) = C\mathcal{E}(1 - e^{-1}) = (5 \times 10^{-6})(12)(1 - 0.368) = 60 \times
 
 (c) $I(1) = \frac{\mathcal{E}}{R}e^{-1} = \frac{12}{200000} \times 0.368 = 22.1\,\mu\text{A$
 
-(d) $0.95 = 1 - e^{-t}$So $e^{-t} = 0.05$, $t = -\ln(0.05) = 3.0\,\text{s = 3\tau$.
+(d) $0.95 = 1 - e^{-t}$ So $e^{-t} = 0.05$, $t = -\ln(0.05) = 3.0\,\text{s = 3\tau$.
 :::
 :::note
 <strong>Example: Discharging through two parallel resistors</strong>
@@ -385,7 +385,7 @@ Circuits are **networks of energy transfer** — charges gain energy from batter
 <details>
 <summary>Question 7: AP Exam-Style -- RC circuit with a switch</summary>
 
-In the circuit shown, $R_1 = 10\,\text{k\Omega$$R_2 = 20\,\text{k\Omega$$C = 5\,\mu\text{F$And
+In the circuit shown, $R_1 = 10\,\text{k\Omega$$R_2 = 20\,\text{k\Omega$$C = 5\,\mu\text{F$ And
 $\mathcal{E} = 30$ V. Switch S is closed at $t = 0$ with the capacitor initially uncharged. Find (a)
 the Initial current through the battery, (b) the current through the battery at steady state, (c)
 the charge On the capacitor at steady state, and (d) the time constant of the circuit.

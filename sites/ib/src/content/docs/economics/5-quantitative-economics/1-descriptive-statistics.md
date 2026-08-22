@@ -70,7 +70,7 @@ A worker whose nominal wage rises from `USD 40000` to `USD 42000` while the CPI 
 $$\text{Real wage}_{\text{old}} = \frac{40000}{200} \times 100 = 200$$
 $$\text{Real wage}_{\text{new}} = \frac{42000}{220} \times 100 = 190.91$$
 
-The nominal increase of $5\%$ is more than offset by inflation of $10\%$So purchasing power falls.
+The nominal increase of $5\%$ is more than offset by inflation of $10\%$ So purchasing power falls.
 
 ## Compound Interest and Present Value
 
@@ -474,7 +474,7 @@ Since $Y_d = C + S$:
 
 $$S = Y_d - C = Y_d - (a + bY_d) = -a + (1 - b)Y_d$$
 
-Where $-a$ is autonomous dissaving (when income is zero, households must consume $a$So they Dissave
+Where $-a$ is autonomous dissaving (when income is zero, households must consume $a$ So they Dissave
 by $a$), and $(1 - b) = \mathrm{MPS}$.
 
 ### Factors Shifting the Consumption Function
@@ -922,7 +922,7 @@ $Y = 1400 - 50(10) = 900$
 
 Output increased from $811.1$ to $900$ (an increase of $88.9$). The interest rate rose from $7.78\%$
 To $10.0\%$. The rise in interest rates partially crowds out private investment -- without crowding
-Out, the output increase would have been larger (the horizontal shift of IS is $200$But actual
+Out, the output increase would have been larger (the horizontal shift of IS is $200$ But actual
 Output increased by only $88.9$).
 
 (c) New LM $=$ IS: $1200 - 50r = 600 + 40r \implies 600 = 90r \implies r = 6.67\%$
@@ -1023,7 +1023,7 @@ $$PV = -10\,000 + \frac{2\,000}{1.08} + \frac{4\,000}{1.08^2} + \frac{5\,000}{1.
 
 $$PV = -10\,000 + 1851.9 + 3429.4 + 3969.2 + 2205.1 = -10\,000 + 11\,455.6 = \$1455.6$$
 
-NPV $> 0$So the project is viable.
+NPV $> 0$ So the project is viable.
 
 ### Internal Rate of Return (IRR)
 
@@ -1144,7 +1144,7 @@ In an open economy with government:
 
 $$Y = C + I + G + X - M$$
 
-Substituting $C = a + b(Y - T)$, $T = tY + T_0$And $M = mY + M_0$:
+Substituting $C = a + b(Y - T)$, $T = tY + T_0$ And $M = mY + M_0$:
 
 $$Y = a + b(Y - tY - T_0) + I + G + X - mY - M_0$$
 
@@ -1737,7 +1737,7 @@ New break-even: $Q_{\text{BE}} = 120\,000/(30 - 15) = 8000$ units
 
 Profit falls from `USD 120,000` to `USD 75,000`. The firm should NOT proceed with the price cut.
 Although revenue increases ($30 \times 13\,000 = \$390\,000$ vs. $35 \times 10\,000 = \$350\,000$),
-The contribution margin per unit falls from $20$ to $15$And the profit decline outweighs the Volume
+The contribution margin per unit falls from $20$ to $15$ And the profit decline outweighs the Volume
 gain.
 
 (d) Margin of safety $= (10\,000 - 6000)/10\,000 \times 100 = 40\%$
@@ -2284,7 +2284,7 @@ To establish causation, economists use:
 ### Omitted Variable Bias: Formal Treatment
 
 If the true model is $Y = \beta_0 + \beta_1 X + \beta_2 Z + \epsilon$ but we estimate
-$\tilde{Y} = \tilde{\beta}_0 + \tilde{\beta}_1 X + u$Then:
+$\tilde{Y} = \tilde{\beta}_0 + \tilde{\beta}_1 X + u$ Then:
 
 $$\tilde{\beta}_1 = \beta_1 + \beta_2 \frac{\text{Cov}(X, Z)}{\text{Var}(X)}$$
 

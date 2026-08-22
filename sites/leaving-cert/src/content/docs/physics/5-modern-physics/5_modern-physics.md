@@ -104,7 +104,7 @@ $$
 
 This equation explains all three key observations:
 
-- Below $f_0$Each photon has insufficient energy to overcome $\phi$So no emission occurs.
+- Below $f_0$Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
 - Above $f_0$Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
 - Increasing intensity means more photons per second, so more electrons are emitted, but each photon
   still carries the same energy.
@@ -219,7 +219,7 @@ Struck by an alpha particle.
 - The vast majority of alpha particles passed straight through the foil with little or no
   deflection.
 - A small fraction were deflected through moderate angles.
-- A very small number (about 1 in 8000) were deflected through angles greater than $90^\circ$And
+- A very small number (about 1 in 8000) were deflected through angles greater than $90^\circ$ And
   some bounced nearly straight back.
 
 **Conclusions:**
@@ -311,7 +311,7 @@ $$
 E = \frac{1}{2}mv^2 - \frac{ke^2}{r}
 $$
 
-From the force equation, $\frac{1}{2}mv^2 = \frac{ke^2}{2r}$So:
+From the force equation, $\frac{1}{2}mv^2 = \frac{ke^2}{2r}$ So:
 
 $$
 E = \frac{ke^2}{2r} - \frac{ke^2}{r} = -\frac{ke^2}{2r}
@@ -329,7 +329,7 @@ $$
 E_n = -\frac{13.6\mathrm{ eV}{n^2}
 $$
 
-The ground state ($n = 1$) has energy $-13.6\mathrm{ eV$And the energy approaches zero as
+The ground state ($n = 1$) has energy $-13.6\mathrm{ eV$ And the energy approaches zero as
 $n \to \infty$ (ionisation).
 
 ### Energy Levels of Hydrogen (HL)
@@ -467,7 +467,7 @@ Diffraction pattern. The angles at which the electrons were diffracted matched t
 Broglie's equation, providing direct experimental confirmation of wave-particle duality for matter.
 
 This was analogous to X-ray diffraction from crystals: if electrons behave as waves with wavelength
-$\lambda = h/(mv)$Then they should diffract from the crystal lattice planes according to Bragg's
+$\lambda = h/(mv)$ Then they should diffract from the crystal lattice planes according to Bragg's
 Law:
 
 $$
@@ -711,7 +711,7 @@ $$
 \ln N = -\lambda t + C
 $$
 
-At $t = 0$$N = N_0$So $C = \ln N_0$:
+At $t = 0$$N = N_0$ So $C = \ln N_0$:
 
 $$
 \ln\left(\frac{N}{N_0}\right) = -\lambda t
@@ -827,7 +827,7 @@ See the examples integrated throughout the sections above.
 5. **Alpha vs beta decay** -- alpha decreases $A$ by 4 and $Z$ by 2; beta-minus increases $Z$ by 1
    with no change in $A$.
 6. **Unit conversions** -- $1\mathrm{ eV = 1.6 \times 10^{-19}\mathrm{ J$. Always work in SI units
-   (joules) for calculations involving $h$$c$And $m$And convert to eV at the end if needed.
+   (joules) for calculations involving $h$$c$ And $m$ And convert to eV at the end if needed.
 7. **Nuclear equations** -- always check conservation of $Z$ and $A$ on both sides.
 8. **De Broglie wavelength** -- use the relativistic momentum $p = \gamma mv$ for particles moving
    at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$The

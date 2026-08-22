@@ -51,13 +51,13 @@ test extensively.]
 
 **Solution:**
 
-**(a)** **Both necessary and sufficient.** If $n$ is divisible by $4$Then $n = 4k$So
+**(a)** **Both necessary and sufficient.** If $n$ is divisible by $4$ Then $n = 4k$ So
 $n^2 = 16k^2$Which is divisible by $16$ (sufficient). Conversely, if $n^2$ is divisible by
-$16 = 2^4$Then $n^2$ has at least $4$ factors of $2$So $n$ has at least $2$ factors of $2$Meaning
+$16 = 2^4$ Then $n^2$ has at least $4$ factors of $2$ So $n$ has at least $2$ factors of $2$Meaning
 $n$ is divisible by $4$ (necessary).
 
 **(b)** **Sufficient but not necessary.** If $f''(x) \gt 0$ everywhere, then $f'(x)$ is strictly
-increasing. If $f'(c) = 0$ for some $c$Then $f'(x) \lt 0$ for $x \lt c$ and $f'(x) \gt 0$ for
+increasing. If $f'(c) = 0$ for some $c$ Then $f'(x) \lt 0$ for $x \lt c$ and $f'(x) \gt 0$ for
 $x \gt c$Making $f$ strictly convex with a unique global minimum. This means $f$ is injective
 (sufficient). However, $f(x) = x^3$ is injective but $f''(0) = 0 \not\gt 0$ (not necessary).
 
@@ -129,11 +129,11 @@ $$\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R
 
 **Question:**
 
-Prove that if $n^3 + 5n$ is even for some integer $n$Then $n$ is even.
+Prove that if $n^3 + 5n$ is even for some integer $n$ Then $n$ is even.
 
 A student writes:
 
-> We prove the contrapositive: if $n$ is odd, then $n^3 + 5n$ is odd. If $n = 2k + 1$Then
+> We prove the contrapositive: if $n$ is odd, then $n^3 + 5n$ is odd. If $n = 2k + 1$ Then
 > $n^3 + 5n = (2k+1)^3 + 5(2k+1) = 8k^3 + 12k^2 + 8k + 1 + 10k + 5 = 8k^3 + 12k^2 + 18k + 6 = 2(4k^3 + 6k^2 + 9k + 3)$Which
 > is even.
 
@@ -240,7 +240,7 @@ Theorem of Arithmetic.]
 Assume $\sqrt{2} + \sqrt{3}$ is rational. Then $\sqrt{2} + \sqrt{3} = \frac{a}{b}$ for some coprime
 positive integers $a, b$.
 
-Squaring: $2 + 2\sqrt{6} + 3 = \frac{a^2}{b^2}$So:
+Squaring: $2 + 2\sqrt{6} + 3 = \frac{a^2}{b^2}$ So:
 
 $$2\sqrt{6} = \frac{a^2}{b^2} - 5$$
 
@@ -248,7 +248,7 @@ $$\sqrt{6} = \frac{a^2 - 5b^2}{2b^2}$$
 
 Since $a, b$ are integers, the RHS is rational. So $\sqrt{6}$ is rational. But $\sqrt{6}$ is
 irrational (proved by the standard contradiction proof: if $\sqrt{6} = \frac{p}{q}$ in lowest terms,
-then $p^2 = 6q^2$So $p$ is even, $p = 2r$$4r^2 = 6q^2$$2r^2 = 3q^2$So $q$ is even, contradicting
+then $p^2 = 6q^2$ So $p$ is even, $p = 2r$$4r^2 = 6q^2$$2r^2 = 3q^2$ So $q$ is even, contradicting
 lowest terms).
 
 This contradiction means our assumption is false. Therefore $\sqrt{2} + \sqrt{3}$ is irrational.

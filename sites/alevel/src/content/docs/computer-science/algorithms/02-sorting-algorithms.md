@@ -421,7 +421,7 @@ Theoretically possible to sort 5 elements in 7 comparisons. However, this requir
 Balanced decision tree (each comparison splits the remaining possibilities roughly in half), which
 Is achievable by an optimal comparison-based sorting algorithm.
 
-Note: $2^6 = 64 \lt 120$So 6 comparisons are insufficient. The minimum is
+Note: $2^6 = 64 \lt 120$ So 6 comparisons are insufficient. The minimum is
 $\lceil \log_2 120 \rceil = 7$ comparisons.
 
 </details>

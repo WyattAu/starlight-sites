@@ -37,7 +37,7 @@ Framework.
 
 ### 0/1 Knapsack
 
-Given $n$ items with weights $w_i$ and values $v_i$And a knapsack of capacity $W$Maximise the Total
+Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$Maximise the Total
 value of items selected. Each item can be taken at most once.
 
 $$dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i$$

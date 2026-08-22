@@ -47,7 +47,7 @@ Taking the complex conjugate:
 
 $$\langle a|\hat{A}|a\rangle^* = \langle a|\hat{A}^\dagger|a\rangle = \langle a|\hat{A}|a\rangle = a^*$$
 
-Where the second equality uses $\hat{A} = \hat{A}^\dagger$. Therefore $a = a^*$So $a$ is real.
+Where the second equality uses $\hat{A} = \hat{A}^\dagger$. Therefore $a = a^*$ So $a$ is real.
 $\blacksquare$
 
 _Proof that eigenstates are orthogonal._ Let $\hat{A}|a\rangle = a|a\rangle$ and
@@ -101,7 +101,7 @@ $$\langle\psi|(\Delta\hat{A} - i\lambda\Delta\hat{B})(\Delta\hat{A} + i\lambda\D
 
 $$= \sigma_A^2 + i\lambda\langle[\Delta\hat{A}, \Delta\hat{B}]\rangle + \lambda^2\sigma_B^2 \geq 0$$
 
-This is a quadratic in $\lambda$ that is non-negative for all $\lambda$So its discriminant must be
+This is a quadratic in $\lambda$ that is non-negative for all $\lambda$ So its discriminant must be
 Non-positive:
 
 $$(\langle[\Delta\hat{A}, \Delta\hat{B}]\rangle)^2 - 4\sigma_A^2\sigma_B^2 \leq 0$$
@@ -162,7 +162,7 @@ $\blacksquare$
 **Correspondence principle.** Ehrenfest's theorem embodies the **correspondence principle**: in the
 Classical limit (large quantum numbers or $\hbar \to 0$), quantum expectation values follow
 Classical trajectories. However, this is only exact for linear or quadratic potentials; for general
-Potentials, $\langle V'(x) \rangle \neq V'(\langle x \rangle)$So quantum corrections persist even
+Potentials, $\langle V'(x) \rangle \neq V'(\langle x \rangle)$ So quantum corrections persist even
 For large systems.
 
 ### 4.6 Solving Eigenvalue Equations

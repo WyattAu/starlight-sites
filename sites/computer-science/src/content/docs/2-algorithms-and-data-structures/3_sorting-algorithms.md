@@ -33,7 +33,7 @@ MergeSort(A, l, r):
 **Theorem 3.1.** Merge sort runs in $O(n \log n)$ time in all cases (best, average, worst).
 
 _Proof._ The recurrence is $T(n) = 2T(n/2) + O(n)$. By the Master theorem (case 2): $a = 2$,
-$b = 2$, $f(n) = O(n) = O(n^{\log_b a})$So $T(n) = O(n \log n)$. $\blacksquare$
+$b = 2$, $f(n) = O(n) = O(n^{\log_b a})$ So $T(n) = O(n \log n)$. $\blacksquare$
 
 **Theorem 3.2.** Merge sort is stable and requires $O(n)$ auxiliary space.
 
@@ -102,7 +102,7 @@ of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
 $$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
 
-The total number of comparisons is $X = \sum_{i < j} X_{ij}$So:
+The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
 $$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
 
@@ -189,7 +189,7 @@ in $O(n)$ time.
 
 Sort the array $[4, 2, 2, 8, 3, 3, 1]$ using counting sort.
 
-Range of values: $[1, 8]$So $k = 8$.
+Range of values: $[1, 8]$ So $k = 8$.
 
 **Step 1 — Count:** $C = [0, 1, 2, 2, 1, 0, 0, 0]$ (indices 1 through 8).
 

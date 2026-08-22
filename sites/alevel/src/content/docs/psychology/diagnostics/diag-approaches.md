@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Approaches"
-description: "Self-assessment quiz on A-Level Psychology approaches"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Psychology\", \"url\":"
 tableOfContents: false
 sidebar_position: 40
 ---

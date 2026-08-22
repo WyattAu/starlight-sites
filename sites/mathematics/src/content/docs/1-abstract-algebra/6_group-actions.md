@@ -45,7 +45,7 @@ element of $\mathrm{Orb}(x)$. $\blacksquare$
 
 ### 6.3 Burnside"s Lemma
 
-**Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$Then the number Of
+**Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$ Then the number Of
 orbits is
 
 $$\frac{1}{|G|} \sum_{g \in G} |\mathrm{Fix}(g)|$$
@@ -124,8 +124,8 @@ Since $e \in Z(G)$We have $|Z(G)| \geq 1$. Therefore $|Z(G)| \geq p$. $\blacksqu
 
 **Corollary 6.6.** Every group of order $p^2$ (where $p$ is prime) is abelian.
 
-_Proof._ By Theorem 6.5, $|Z(G)| \geq p$. Since $Z(G) \leq G$, $|Z(G)|$ divides $p^2$So $|Z(G)| = p$
-or $|Z(G)| = p^2$. If $|Z(G)| = p^2$Then $G = Z(G)$ is abelian. If $|Z(G)| = p$ Then $G/Z(G)$ has
+_Proof._ By Theorem 6.5, $|Z(G)| \geq p$. Since $Z(G) \leq G$, $|Z(G)|$ divides $p^2$ So $|Z(G)| = p$
+or $|Z(G)| = p^2$. If $|Z(G)| = p^2$ Then $G = Z(G)$ is abelian. If $|Z(G)| = p$ Then $G/Z(G)$ has
 order $p$ and is therefore cyclic, say $G/Z(G) = \langle gZ(G) \rangle$. Then every element of $G$
 has the form $g^k z$ for some $k \in \mathbb{Z}$ and $z \in Z(G)$. For any two such elements
 $(g^{k_1}z_1)(g^{k_2}z_2) = g^{k_1+k_2}z_1z_2 = g^{k_2+k_1}z_2z_1 = (g^{k_2}z_2)(g^{k_1}z_1)$ So $G$

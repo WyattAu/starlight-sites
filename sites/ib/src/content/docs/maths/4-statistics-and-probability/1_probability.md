@@ -609,7 +609,7 @@ $$
 
 ### Question 1 (Paper 1 style)
 
-Events `A` and `B` are such that $P(A) = 0.6$, $P(B) = 0.4$And $P(A|B) = 0.3$.
+Events `A` and `B` are such that $P(A) = 0.6$, $P(B) = 0.4$ And $P(A|B) = 0.3$.
 
 **(a)** Find $P(A \cap B)$.
 

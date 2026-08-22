@@ -1,7 +1,7 @@
 ---
 
 title: Control Flow
-description: "Go control flow statements and syntax."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"go\", \"url\": \"https://go.wyattau.com\"}, {\"name\": \"Basics\", \"url\":"
 date: 2026-04-18
 tags:
   - Go

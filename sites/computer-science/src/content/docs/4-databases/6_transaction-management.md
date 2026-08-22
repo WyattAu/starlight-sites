@@ -162,7 +162,7 @@ OCC performs well when conflicts are rare but degrades under high contention (ma
 4. **$T_2$ write phase:** Writes $A = 75$. $T_2$ commits.
 5. **$T_1$ validation phase:** Checks if $A$ or $B$ was modified by any committed transaction since
    $T_1$ started. $T_2$ committed and modified $A$. Validation fails.
-6. **$T_1$ is aborted and restarted.** On restart, $T_1$ reads $A = 75$, $B = 200$And correctly
+6. **$T_1$ is aborted and restarted.** On restart, $T_1$ reads $A = 75$, $B = 200$ And correctly
    computes $A = 125$, $B = 150$.
 
 </details>

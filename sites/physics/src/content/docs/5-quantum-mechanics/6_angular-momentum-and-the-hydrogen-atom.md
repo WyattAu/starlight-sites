@@ -5,7 +5,7 @@ title: Angular Momentum and the Hydrogen Atom
 tags:
   - Physics
   - University
-description: "Comprehensive educational content notes on angular momentum and the hydrogen atom with precise definitions, worked examples, and common pitfalls."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"5 Quantum Mechanics\","
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -102,13 +102,13 @@ $$l(l+1) - m_{\min}(m_{\min} - 1) = 0$$
 
 Subtracting: $m_{\max}(m_{\max}+1) - m_{\min}(m_{\min}-1) = 0$. Since we reach $m_{\max}$ from
 $m_{\min}$ in $N$ steps: $m_{\max} = m_{\min} + N$. Solving gives $m_{\max} = l$ and
-$m_{\min} = -l$So $N = 2l$Meaning $2l$ must be a non-negative integer. Therefore
+$m_{\min} = -l$ So $N = 2l$Meaning $2l$ must be a non-negative integer. Therefore
 $l = 0, 1/2, 1, 3/2, \ldots$ and $m$ takes $2l+1$ values from $-l$ to $l$. $\blacksquare$
 
 For orbital angular momentum (defined as
 $\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$), The wave function must be
 single-valued under a full rotation $\phi \to \phi + 2\pi$. This requires
-$e^{im\phi} = e^{im(\phi+2\pi)}$So $m$ must be an integer, which restricts $l$ to integers.
+$e^{im\phi} = e^{im(\phi+2\pi)}$ So $m$ must be an integer, which restricts $l$ to integers.
 
 ### 6.4 Spherical Harmonics
 
@@ -190,7 +190,7 @@ radius.
 
 #### 6.5.3 Expectation Values for the Ground State
 
-**Example 6.1.** Calculate $\langle r \rangle$, $\langle r^2 \rangle$And $\langle 1/r \rangle$ for
+**Example 6.1.** Calculate $\langle r \rangle$, $\langle r^2 \rangle$ And $\langle 1/r \rangle$ for
 the Hydrogen ground state.
 
 <details>

@@ -28,12 +28,12 @@ Provided the limit exists. This is the rate of change of $f$ in the direction of
 Holding all other variables fixed.
 
 **Notation.** Common notations for the partial derivative with respect to $x_i$ include $f_{x_i}$,
-$\partial_i f$And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
+$\partial_i f$ And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
 
 ### 1.2 Clairaut"s Theorem
 
 **Theorem 1.1 (Clairaut's Theorem / Schwarz’s Theorem).** If $f_{xy}$ and $f_{yx}$ are continuous on
-an Open set containing $(a, b)$Then
+an Open set containing $(a, b)$ Then
 
 $$\frac{\partial^2 f}{\partial x \partial y}(a,b) = \frac{\partial^2 f}{\partial y \partial x}(a,b)$$
 
@@ -95,13 +95,13 @@ The linear approximation of $f$ near $\mathbf{a}$ is
 $$f(\mathbf{a} + \mathbf{h}) \approx f(\mathbf{a}) + \nabla f(\mathbf{a}) \cdot \mathbf{h}$$
 
 **Theorem 1.2.** If all partial derivatives of $f$ exist and are continuous in a neighbourhood of
-$\mathbf{a}$Then $f$ is differentiable at $\mathbf{a}$.
+$\mathbf{a}$ Then $f$ is differentiable at $\mathbf{a}$.
 
 _Remark._ Functions whose partial derivatives exist and are continuous on an open set $U$ are called
 $C^1(U)$. Theorem 1.2 says $C^1 \implies$ differentiable. The converse is false: there exist
 Differentiable functions whose partial derivatives are not continuous.
 
-**Proposition.** If $f$ is differentiable at $\mathbf{a}$Then $f$ is continuous at $\mathbf{a}$.
+**Proposition.** If $f$ is differentiable at $\mathbf{a}$ Then $f$ is continuous at $\mathbf{a}$.
 
 _Proof._ From the definition of differentiability:
 
@@ -118,7 +118,7 @@ is
 
 $$D_{\mathbf{u}} f(\mathbf{a}) = \lim_{h \to 0} \frac{f(\mathbf{a} + h\mathbf{u}) - f(\mathbf{a})}{h}$$
 
-**Theorem 1.3.** If $f$ is differentiable at $\mathbf{a}$Then
+**Theorem 1.3.** If $f$ is differentiable at $\mathbf{a}$ Then
 
 $$D_{\mathbf{u}} f(\mathbf{a}) = \nabla f(\mathbf{a}) \cdot \mathbf{u}$$
 
@@ -142,7 +142,7 @@ With equality when $\mathbf{u}$ is parallel to $\nabla f$. $\blacksquare$
 
 **Theorem 1.5 (Multivariable Chain Rule).** If $\mathbf{g} : \mathbb{R}^m \to \mathbb{R}^n$ is
 Differentiable at $\mathbf{a}$ and $f : \mathbb{R}^n \to \mathbb{R}$ is differentiable at
-$\mathbf{g}(\mathbf{a})$Then
+$\mathbf{g}(\mathbf{a})$ Then
 
 $$\nabla (f \circ \mathbf{g})(\mathbf{a}) = J\mathbf{g}(\mathbf{a})^T \nabla f(\mathbf{g}(\mathbf{a}))$$
 
@@ -154,7 +154,7 @@ Then
 $$\frac{h(t) - h(0)}{t} = \frac{f(\mathbf{g}(\mathbf{a} + t\mathbf{v})) - f(\mathbf{g}(\mathbf{a}))}{t}$$
 
 Let $\mathbf{k} = \mathbf{g}(\mathbf{a} + t\mathbf{v}) - \mathbf{g}(\mathbf{a})$. By
-differentiability of $\mathbf{g}$ $\mathbf{k} = J\mathbf{g}(\mathbf{a})(t\mathbf{v}) + o(t)$And
+differentiability of $\mathbf{g}$ $\mathbf{k} = J\mathbf{g}(\mathbf{a})(t\mathbf{v}) + o(t)$ And
 $\mathbf{k} \to \mathbf{0}$ as $t \to 0$. By Differentiability of $f$:
 
 $$f(\mathbf{g}(\mathbf{a}) + \mathbf{k}) - f(\mathbf{g}(\mathbf{a})) = \nabla f(\mathbf{g}(\mathbf{a})) \cdot \mathbf{k} + o(\lVert \mathbf{k} \rVert)$$
@@ -236,7 +236,7 @@ $\mathbf{v} = (3, -4)$.
 <details>
 <summary>Solution</summary>
 
-First normalise $\mathbf{v}$: $\lVert \mathbf{v} \rVert = \sqrt{9 + 16} = 5$So
+First normalise $\mathbf{v}$: $\lVert \mathbf{v} \rVert = \sqrt{9 + 16} = 5$ So
 $\mathbf{u} = (3/5,\, -4/5)$.
 
 $$\nabla f = (2xy^3,\, 3x^2 y^2)$$
@@ -263,7 +263,7 @@ $$F_x + F_z \cdot \frac{\partial z}{\partial x} = 0 \implies \frac{\partial z}{\
 Similarly, $\frac{\partial z}{\partial y} = -\frac{F_y}{F_z}$.
 
 **Proposition 1.6 (Implicit Function Theorem, special case).** If $F : \mathbb{R}^3 \to \mathbb{R}$
-is $C^1$ and $F(a,b,c) = 0$ with $F_z(a,b,c) \neq 0$Then there exist neighbourhoods $U$ of $(a,b)$
+is $C^1$ and $F(a,b,c) = 0$ with $F_z(a,b,c) \neq 0$ Then there exist neighbourhoods $U$ of $(a,b)$
 and $V$ of $c$ and a unique $C^1$ function $\varphi : U \to V$ with $\varphi(a,b) = c$ and
 $F(x, y, \varphi(x,y)) = 0$ for all $(x,y) \in U$.
 
@@ -287,7 +287,7 @@ $\blacksquare$
 ### 1.11 Taylor's Theorem for Multivariable Functions
 
 **Theorem 1.7 (Taylor's Theorem).** Let $f : U \subseteq \mathbb{R}^n \to \mathbb{R}$ be of class
-$C^{k+1}$ On an open convex set $U$And let $\mathbf{a} \in U$. Then for all $\mathbf{x} \in U$:
+$C^{k+1}$ On an open convex set $U$ And let $\mathbf{a} \in U$. Then for all $\mathbf{x} \in U$:
 
 $$f(\mathbf{x}) = f(\mathbf{a}) + \nabla f(\mathbf{a}) \cdot (\mathbf{x} - \mathbf{a}) + \frac{1}{2!}(\mathbf{x} - \mathbf{a})^T H_f(\mathbf{a})(\mathbf{x} - \mathbf{a}) + \cdots + R_k$$
 
@@ -311,7 +311,7 @@ Apply the single-variable Taylor theorem to $\phi$ at $t = 0$:
 $$\phi(1) = \phi(0) + \phi'(0) + \frac{1}{2!}\phi''(0) + \cdots + \frac{1}{k!}\phi^{(k)}(0) + \frac{1}{(k+1)!}\phi^{(k+1)}(\tau)$$
 
 For some $\tau \in (0, 1)$. By the multivariable chain rule,
-$\phi'(t) = \nabla f(\mathbf{a} + t(\mathbf{x}-\mathbf{a})) \cdot (\mathbf{x}-\mathbf{a})$And higher
+$\phi'(t) = \nabla f(\mathbf{a} + t(\mathbf{x}-\mathbf{a})) \cdot (\mathbf{x}-\mathbf{a})$ And higher
 Derivatives involve higher-order partial derivatives of $f$. Substituting
 $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\blacksquare$
 

@@ -119,7 +119,7 @@ These three categories are critical for understanding the progression from 2NF t
   subset of $K$. There exists some $K' \subset K$ such that $K' \rightarrow A$ holds.
 - A **transitive dependency** occurs when $X \rightarrow Y$ and $Y \rightarrow Z$ both hold, and $Z$
   depends on $X$ only through the intermediate $Y$. Formally, $X \rightarrow Z$ holds because
-  $X \rightarrow Y$ and $Y \rightarrow Z$But neither $Y \subseteq X$ nor $Z \subseteq XY$.
+  $X \rightarrow Y$ and $Y \rightarrow Z$ But neither $Y \subseteq X$ nor $Z \subseteq XY$.
 
 ```text
 Relation: OrderItem(order_id, product_id, quantity, product_name, category_name)
@@ -142,9 +142,9 @@ Dependencies that are logically implied by a given set $F$.
 **Definition.** Given a set of functional dependencies $F$ on a relation schema $R$The three Axioms
 are:
 
-1. **Reflexivity (A1):** If $Y \subseteq X$Then $X \rightarrow Y$.
-2. **Augmentation (A2):** If $X \rightarrow Y$Then $XZ \rightarrow YZ$ for any attribute set $Z$.
-3. **Transitivity (A3):** If $X \rightarrow Y$ and $Y \rightarrow Z$Then $X \rightarrow Z$.
+1. **Reflexivity (A1):** If $Y \subseteq X$ Then $X \rightarrow Y$.
+2. **Augmentation (A2):** If $X \rightarrow Y$ Then $XZ \rightarrow YZ$ for any attribute set $Z$.
+3. **Transitivity (A3):** If $X \rightarrow Y$ and $Y \rightarrow Z$ Then $X \rightarrow Z$.
 
 These three axioms alone are sound (every derived dependency is correct) and complete (every correct
 Dependency can be derived from them).
@@ -156,10 +156,10 @@ Constantly in normalization proofs:
 
 | Rule               | Statement                                                          | Proof Strategy              |
 | ------------------ | ------------------------------------------------------------------ | --------------------------- |
-| Union              | If $X \rightarrow Y$ and $X \rightarrow Z$Then $X \rightarrow YZ$  | Augmentation + Transitivity |
-| Decomposition      | If $X \rightarrow YZ$Then $X \rightarrow Y$ and $X \rightarrow Z$  | Reflexivity + Transitivity  |
-| Pseudotransitivity | If $X \rightarrow Y$ and $YW \rightarrow Z$Then $XW \rightarrow Z$ | Augmentation + Transitivity |
-| Composition        | If $X \rightarrow Y$ and $W \rightarrow Z$Then $XW \rightarrow YZ$ | Augmentation + Union        |
+| Union              | If $X \rightarrow Y$ and $X \rightarrow Z$ Then $X \rightarrow YZ$  | Augmentation + Transitivity |
+| Decomposition      | If $X \rightarrow YZ$ Then $X \rightarrow Y$ and $X \rightarrow Z$  | Reflexivity + Transitivity  |
+| Pseudotransitivity | If $X \rightarrow Y$ and $YW \rightarrow Z$ Then $XW \rightarrow Z$ | Augmentation + Transitivity |
+| Composition        | If $X \rightarrow Y$ and $W \rightarrow Z$ Then $XW \rightarrow YZ$ | Augmentation + Union        |
 
 Proof of the Union rule:
 
@@ -548,11 +548,11 @@ Multivalued dependency $X \twoheadrightarrow Y$ that holds in $R$, $X$ is a supe
 
 **Definition.** A multivalued dependency (MVD) $X \twoheadrightarrow Y$ holds in $R$ if and only if,
 For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$There exists a tuple $t_3$ in $R$
-That agrees with $t_1$ on $X$With $t_1$ on $Y$And with $t_2$ on $R - X - Y$.
+That agrees with $t_1$ on $X$With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
 
 A multivalued dependency $X \twoheadrightarrow Y$ means that the values of $Y$ are independent of
 The values of $R - X - Y$Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
-$X \twoheadrightarrow Y$But not every MVD implies an FD.
+$X \twoheadrightarrow Y$ But not every MVD implies an FD.
 
 ```text
 Relation: EmployeeSkill(emp_id, skill, language)

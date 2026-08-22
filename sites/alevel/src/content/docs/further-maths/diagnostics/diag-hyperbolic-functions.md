@@ -120,7 +120,7 @@ $\frac{d}{dx}\text{cosech}\,x$. (d) Evaluate $\int_0^{\ln 2} \text{sech}\,x\,dx$
 **Solution:**
 
 (a) **Osborn's rule:** Replace every $\sin$ in a trigonometric identity with $\sinh$ and every
-$\cos$ with $\cosh$And change the sign of every term containing a product of two $\sinh$S. The
+$\cos$ with $\cosh$ And change the sign of every term containing a product of two $\sinh$S. The
 resulting identity holds for hyperbolic functions.
 
 (b) From $\cos 3x = 4\cos^3 x - 3\cos x$: replace $\cos \to \cosh$ (no $\sin$ terms):

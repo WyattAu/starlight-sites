@@ -633,7 +633,7 @@ The option to wait is worth USD 110 million. The government should wait 2 years 
 
 Wait, that contradicts. Let me recheck:
 
-Immediate NPV $= +1668$. Wait NPV $= 1778$. $1778 > 1668$So waiting is better.
+Immediate NPV $= +1668$. Wait NPV $= 1778$. $1778 > 1668$ So waiting is better.
 
 The option value is $1778 - 1668 = 110$ million. The government gains USD 110 million in Expected
 value by waiting, because it avoids investing in the unfavourable scenario.

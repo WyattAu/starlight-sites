@@ -243,7 +243,7 @@ is smooth (no friction).
 
 Block A (mass $4$ kg) rests on top of block B (mass $6$ kg), which rests on a smooth horizontal
 floor. A horizontal force of $30$ N is applied to block B. The coefficient of static friction
-between A and B is $0.3$And the coefficient of kinetic friction is $0.25$. Determine whether the
+between A and B is $0.3$ And the coefficient of kinetic friction is $0.25$. Determine whether the
 blocks move together or slide relative to each other, and find the acceleration of each block.
 
 **Solution:**

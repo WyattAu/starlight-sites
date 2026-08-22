@@ -157,7 +157,7 @@ $$
 \Delta G = -nFE_{\mathrm{cell}}
 $$
 
-At equilibrium, $E_{\mathrm{cell}} = 0$ and $\Delta G = 0$So:
+At equilibrium, $E_{\mathrm{cell}} = 0$ and $\Delta G = 0$ So:
 
 $$
 E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
@@ -544,7 +544,7 @@ $0.500\mathrm{ g}$ of silver on the cathode?
 <details>
 <summary>Solution</summary>
 
-Reduction half-reaction: $\mathrm{Ag}^+ + e^- \to \mathrm{Ag}$So $n = 1$.
+Reduction half-reaction: $\mathrm{Ag}^+ + e^- \to \mathrm{Ag}$ So $n = 1$.
 
 Molar mass of silver: $M = 107.87\mathrm{ g/mol}$.
 
@@ -820,7 +820,7 @@ $$m(\mathrm{O}_2) = 0.0305 \times 32.0 = 0.976\;\mathrm{g}$$
 
 For the reaction
 $\mathrm{Cu}(s) + 2\mathrm{Ag}^+(aq) \rightleftharpoons \mathrm{Cu}^{2+}(aq) + 2\mathrm{Ag}(s)$: (a)
-Calculate $E_{\mathrm{cell}}^\circ$, $\Delta G^\circ$And $K$ at $298\;\mathrm{K}$. (b) Calculate
+Calculate $E_{\mathrm{cell}}^\circ$, $\Delta G^\circ$ And $K$ at $298\;\mathrm{K}$. (b) Calculate
 $\Delta G$ when $[\mathrm{Ag}^+] = 0.010\;\mathrm{M}$ and $[\mathrm{Cu}^{2+}] = 0.10\;\mathrm{M}$.
 ($E^\circ(\mathrm{Ag}^+/\mathrm{Ag}) = +0.80\;\mathrm{V}$, $E^\circ(\mathrm{Cu}^{2+}/\mathrm{Cu}) = +0.34\;\mathrm{V}$)
 
@@ -880,7 +880,7 @@ consumed at the anode. ($M_r(\mathrm{Pb}) = 207.2$)
 <summary>Problem 10: Extended Response -- Overpotential and Industrial Electrolysis</summary>
 
 In the industrial chlor-alkali process (membrane cell), the theoretical voltage required to
-electrolyse concentrated $\mathrm{NaCl}(aq)$ is approximately $2.2\;\mathrm{V}$But in practice the
+electrolyse concentrated $\mathrm{NaCl}(aq)$ is approximately $2.2\;\mathrm{V}$ But in practice the
 cell operates at $3.5$--$4.0\;\mathrm{V}$. (a) Define overpotential and explain its origin at the
 electrode surfaces. (b) Identify two additional sources of voltage loss in an industrial cell
 (besides overpotential). (c) Calculate the energy cost per kg of $\mathrm{Cl}_2$ produced if the
@@ -942,7 +942,7 @@ Calculate $\Delta G$ for the cell reaction at $80\degree\mathrm{C}$ ($353\;\math
 enthalpy change for $\mathrm{H}_2$ combustion is $\Delta H = -286\;\mathrm{kJ/mol}$. Calculate the
 thermodynamic efficiency of the fuel cell ($\Delta G / \Delta H$). (c) Explain why the actual
 operating voltage ($1.15\;\mathrm{V}$) is less than the theoretical
-$E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$And calculate the voltage efficiency.
+$E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficiency.
 
 </details>
 

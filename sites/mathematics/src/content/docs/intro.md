@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Mathematics
-description: "Introduction to mathematics notes."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -335,7 +335,7 @@ Moles of gas products, but the solid is consumed). At the blast furnace temperat
 
 2. **Using $\Delta G \lt 0$ to predict rate.** Thermodynamics says nothing about kinetics. A
    reaction with $\Delta G \ll 0$ may be immeasurably slow (e.g. Diamond conversion to graphite at
-   room temperature: $\Delta G^\circ \approx -2.9\,\mathrm{kJ/mol}$But the half-life is effectively
+   room temperature: $\Delta G^\circ \approx -2.9\,\mathrm{kJ/mol}$ But the half-life is effectively
    infinite).
 
 3. **Forgetting that $\Delta S^\circ$ values are absolute.** Unlike $\Delta H_f^\circ$ (which is
@@ -390,7 +390,7 @@ $$
 K = \exp\left(\frac{-\Delta G^\circ}{RT}\right) = \exp\left(\frac{3000}{8.314 \times 1000}\right) = \exp(0.361) = 1.43
 $$
 
-$K = 1.43$So products are slightly favoured at $1000\,\mathrm{K}$.
+$K = 1.43$ So products are slightly favoured at $1000\,\mathrm{K}$.
 
 </details>
 
@@ -460,7 +460,7 @@ temperature. This is consistent with Le Chatelier's principle.
 
 ### Entropy of Phase Changes
 
-At a phase transition, $\Delta G = 0$So $\Delta S = \Delta H / T$.
+At a phase transition, $\Delta G = 0$ So $\Delta S = \Delta H / T$.
 
 For vaporisation: $\Delta S_\mathrm{vap} = \Delta H_\mathrm{vap} / T_\mathrm{boil}$
 
@@ -548,7 +548,7 @@ Born-Haber cycles apply Hess's Law to ionic compound formation. They are covered
 ### Enthalpy-Entropy Compensation
 
 Some reactions show enthalpy-entropy compensation: a more exothermic $\Delta H$ is offset by a more
-negative $\Delta S$So $\Delta G$ changes less than expected. This is common in:
+negative $\Delta S$ So $\Delta G$ changes less than expected. This is common in:
 
 - Solvent reorganisation around dissolved species.
 - Protein folding (hydrophobic effect).
@@ -615,7 +615,7 @@ $$
 \Delta G^\circ = 82000 - 500 \times 170 = 82000 - 85000 = -3000\,\mathrm{J/mol}
 $$
 
-$\Delta G^\circ < 0$So the decomposition is spontaneous at $500\,\mathrm{K}$. (The threshold
+$\Delta G^\circ < 0$ So the decomposition is spontaneous at $500\,\mathrm{K}$. (The threshold
 temperature is $T = 82000/170 = 482\,\mathrm{K}$.)
 
 ## Advanced Entropy and Gibbs Energy
@@ -689,7 +689,7 @@ $$\Delta G_\text{overall} = +20.0 + (-30.5) = -10.5\,\mathrm{kJ/mol}$$
 
 ### Gibbs Energy and Equilibrium: Quantitative Treatment
 
-The relationship between $\Delta G$The reaction quotient $Q$And the equilibrium constant $K$:
+The relationship between $\Delta G$The reaction quotient $Q$ And the equilibrium constant $K$:
 
 $$\Delta G = \Delta G^\circ + RT\ln Q$$
 
@@ -765,7 +765,7 @@ marks)
 $\Delta G^\circ = 131000 - 298 \times 134 = 131000 - 39932 = +91068\,\mathrm{J/mol} = +91.1\,\mathrm{kJ/mol}$
 (2 marks for calculation).
 
-$\Delta G^\circ > 0$So the reaction is **not feasible** at $298\,\mathrm{K}$ (1 mark).
+$\Delta G^\circ > 0$ So the reaction is **not feasible** at $298\,\mathrm{K}$ (1 mark).
 
 (b) $\Delta G^\circ = 0$ when $T = \Delta H^\circ / \Delta S^\circ = 131000 / 134 = 978\,\mathrm{K}$
 (2 marks).

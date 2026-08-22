@@ -34,7 +34,7 @@ $(2, x)$ is not principal, But $\mathbb{Z}[x]$ is a UFD (since $\mathbb{Z}$ is a
 :::
 :::caution
 polynomial is a subgroup Of $S_n$ (acting on the roots), but it may be a proper subgroup. For
-example, the Galois group of $x^3 - 2$ over $\mathbb{Q}$ is $S_3$But the Galois group of
+example, the Galois group of $x^3 - 2$ over $\mathbb{Q}$ is $S_3$ But the Galois group of
 $x^3 - 3x + 1$ over $\mathbb{Q}$ is $A_3 \cong \mathbb{Z}/3\mathbb{Z}$ (the discriminant is a
 square).
 :::
@@ -54,7 +54,7 @@ element.
 :::
 :::caution
 $n_p \equiv 1 \pmod{p}$ AND $n_p$ divides $m$ (where $|G| = p^n m$). Both conditions must be checked
-simultaneously. For example, if $|G| = 12 = 2^2 \cdot 3$Then $n_3 \equiv 1 \pmod{3}$ and $n_3$
+simultaneously. For example, if $|G| = 12 = 2^2 \cdot 3$ Then $n_3 \equiv 1 \pmod{3}$ and $n_3$
 divides $4$ Giving $n_3 = 1$ or $4$ (not $7$Even though $7 \equiv 1 \pmod{3}$).
 :::
 :::caution

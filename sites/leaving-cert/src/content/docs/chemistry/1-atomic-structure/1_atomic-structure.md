@@ -238,7 +238,7 @@ $\mathrm{Mg$$\mathrm{Al$$\mathrm{K$.
 
 $\mathrm{Al < \mathrm{Mg < \mathrm{Na < \mathrm{K$.
 
-$\mathrm{Na$$\mathrm{Mg$And $\mathrm{Al$ are in period 3: radius decreases from left to right.
+$\mathrm{Na$$\mathrm{Mg$ And $\mathrm{Al$ are in period 3: radius decreases from left to right.
 $\mathrm{K$ is in period 4 (below $\mathrm{Na$) and has a much larger radius.
 
 ### Ionisation Energy (OL/HL)
@@ -489,7 +489,7 @@ Electron positions.
 ### Orbitals as Probability Distributions
 
 An orbital is a region of space where there is a high probability ( 90%) of finding an Electron.
-Each orbital is described by a wave function $\psi$And $|\psi|^2$ gives the probability Density.
+Each orbital is described by a wave function $\psi$ And $|\psi|^2$ gives the probability Density.
 
 ### Shapes of Orbitals
 

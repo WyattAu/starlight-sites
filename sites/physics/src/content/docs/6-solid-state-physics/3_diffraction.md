@@ -109,10 +109,10 @@ The structure factor is:
 
 $$S_{hkl} = f\left[1 + e^{2\pi i(h/3 + k/3 + l/2)}\right] = f\left[1 + e^{2\pi i(2h+k)/3}\,e^{i\pi l}\right]$$
 
-For $l$ even: $e^{i\pi l} = 1$So $S = f[1 + e^{2\pi i(2h+k)/3}]$. For $l$ odd: $e^{i\pi l} = -1$So
+For $l$ even: $e^{i\pi l} = 1$ So $S = f[1 + e^{2\pi i(2h+k)/3}]$. For $l$ odd: $e^{i\pi l} = -1$ So
 $S = f[1 - e^{2\pi i(2h+k)/3}]$.
 
-When $2h + k = 3n$: $S = 2f$ (strong) for even $l$And $S = 0$ (absent) for odd $l$. When
+When $2h + k = 3n$: $S = 2f$ (strong) for even $l$ And $S = 0$ (absent) for odd $l$. When
 $2h + k = 3n \pm 1$: both even and odd $l$ give reflections but with different intensities.
 
 </details>

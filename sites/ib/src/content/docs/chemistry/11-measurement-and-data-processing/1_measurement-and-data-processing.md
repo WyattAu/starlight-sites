@@ -282,7 +282,7 @@ Used to confirm identity by comparison with a reference spectrum.
 :::note
 <strong>Example</strong>
 An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$Sharp absorption at
-$1700\mathrm{ cm}^{-1}$And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
+$1700\mathrm{ cm}^{-1}$ And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
 Carboxylic acid.
 
 ---
@@ -707,7 +707,7 @@ $\mathrm{C}_6\mathrm{H}_6$.
 **Worked Example: Combined spectroscopic identification**
 
 An unknown compound has $\mathrm{M}^+ = 88$. IR: strong broad peak at
-$2500$--$3300\mathrm{ cm}^{-1}$Strong peak at $1715\mathrm{ cm}^{-1}$And a C--O stretch at
+$2500$--$3300\mathrm{ cm}^{-1}$Strong peak at $1715\mathrm{ cm}^{-1}$ And a C--O stretch at
 $1050\mathrm{ cm}^{-1}$. $^{1}\mathrm{H}$ NMR: $\delta\ 0.9\ (t,\ 3\mathrm{H})$
 $\delta\ 1.6\ (sextet,\ 2\mathrm{H})$, $\delta\ 2.3\ (t,\ 2\mathrm{H})$
 $\delta\ 11.0\ (s,\ 1\mathrm{H})$. $^{13}\mathrm{C}$ NMR: 4 signals. Identify the compound.
@@ -838,7 +838,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
   add absolute uncertainties. For multiplication/division, add percentage uncertainties. Applying
   the wrong rule gives a quantitatively incorrect result.
 
-- **Including constants in uncertainty calculations**: $\pi$, $R$, $N_A$And other defined constants have
+- **Including constants in uncertainty calculations**: $\pi$, $R$, $N_A$ And other defined constants have
   no uncertainty. Do not include them in percentage uncertainty propagation. Only measured
   quantities contribute.
 
@@ -885,7 +885,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 
 1. A student measures the density of a metal cylinder using a vernier caliper (absolute uncertainty
    $\pm 0.02\mathrm{ mm}$) and a balance (absolute uncertainty $\pm 0.01\mathrm{ g}$). The diameter
-   is $12.50\mathrm{ mm}$The height is $25.00\mathrm{ mm}$And the mass is $20.00\mathrm{ g}$.
+   is $12.50\mathrm{ mm}$The height is $25.00\mathrm{ mm}$ And the mass is $20.00\mathrm{ g}$.
    Calculate the density and its percentage uncertainty. The density formula is
    $\rho = \dfrac{m}{\pi(d/2)^2 h}$. **[Medium]**
 
@@ -907,7 +907,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 
 5. The mass spectrum of a compound shows the molecular ion at $m/z\ 94$ (base peak) and a prominent
    fragment at $m/z\ 77$. The IR spectrum shows absorptions at $3050\mathrm{ cm}^{-1}$
-   $1600\mathrm{ cm}^{-1}$$1500\mathrm{ cm}^{-1}$And $750\mathrm{ cm}^{-1}$. Deduce the structure of
+   $1600\mathrm{ cm}^{-1}$$1500\mathrm{ cm}^{-1}$ And $750\mathrm{ cm}^{-1}$. Deduce the structure of
    the compound and explain the fragmentation. **[Medium]**
 
 6. In a colorimetry experiment, a student measures the absorbance of five standard solutions and

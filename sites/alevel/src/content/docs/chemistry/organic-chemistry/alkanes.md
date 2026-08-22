@@ -1,7 +1,7 @@
 ---
 
 title: Alkanes
-description: "Alkanes are saturated hydrocarbons where every carbon atom is bonded to the maximum possible number of hydrogen atoms."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -29,7 +29,7 @@ Are $\sigma$ bonds, formed by head-on overlap of hybridised orbitals ($sp^3$ for
 ## Structure and Bonding
 
 Each carbon in an alkane is $sp^3$ hybridised with tetrahedral geometry (bond angles approximately
-$109.5^\circ$). The C--C bond length is approximately $154\,\mathrm{pm}$And the C--H bond length Is
+$109.5^\circ$). The C--C bond length is approximately $154\,\mathrm{pm}$ And the C--H bond length Is
 approximately $109\,\mathrm{pm}$.
 
 Free rotation about C--C $\sigma$ bonds produces an infinite set of molecular conformations. The

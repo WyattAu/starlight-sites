@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Poetry Analysis"
-description: "Self-assessment quiz on IB English poetry analysis skills"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"English\", \"url\":"
 sidebar_position: 30
 ---
 

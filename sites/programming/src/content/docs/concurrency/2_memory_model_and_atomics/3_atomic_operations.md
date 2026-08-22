@@ -147,7 +147,7 @@ int main() {
 ## ABA Problem and CAS
 
 The **ABA problem** occurs in lock-free algorithms when a value changes from $A$ to $B$ and back to
-$A$ between a thread's load and its CAS. The CAS succeeds because the value is still $A$But the
+$A$ between a thread's load and its CAS. The CAS succeeds because the value is still $A$ But the
 Intermediate change may have invalidated invariants:
 
 $$\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds — incorrectly$$

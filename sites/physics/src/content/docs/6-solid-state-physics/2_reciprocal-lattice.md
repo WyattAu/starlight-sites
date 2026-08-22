@@ -31,7 +31,7 @@ Every reciprocal lattice point is at:
 
 $$\mathbf{G} = m_1\mathbf{b}_1 + m_2\mathbf{b}_2 + m_3\mathbf{b}_3, \quad m_i \in \mathbb{Z}$$
 
-**Key property:** $\mathbf{G} \cdot \mathbf{R} = 2\pi \times \mathrm{integer}$So
+**Key property:** $\mathbf{G} \cdot \mathbf{R} = 2\pi \times \mathrm{integer}$ So
 $e^{i\mathbf{G}\cdot\mathbf{R}} = 1$.
 
 **Proof of key property.**
@@ -66,7 +66,7 @@ $V_{\mathrm{BZ} = (2\pi)^3 / V_{\mathrm{cell}}}$.
 
 **Theorem 2.1.** The reciprocal lattice vector
 $\mathbf{G}_{hkl} = h\mathbf{b}_1 + k\mathbf{b}_2 + l\mathbf{b}_3$ Is perpendicular to the
-real-space planes $(hkl)$And $\lvert\mathbf{G}_{hkl}\rvert = 2\pi/d_{hkl}$ where $d_{hkl}$ is the
+real-space planes $(hkl)$ And $\lvert\mathbf{G}_{hkl}\rvert = 2\pi/d_{hkl}$ where $d_{hkl}$ is the
 interplanar spacing.
 
 **Proof.** The plane $(hkl)$ has intercepts $\mathbf{a}_1/h$, $\mathbf{a}_2/k$, $\mathbf{a}_3/l$.

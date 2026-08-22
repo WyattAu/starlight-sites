@@ -104,7 +104,7 @@ The LRAC is U-shaped, reflecting economies of scale at low output and diseconomi
 
 ### 2.2 Deriving MR from Demand
 
-If demand is $P = a - bQ$Then:
+If demand is $P = a - bQ$ Then:
 
 $$TR = P \times Q = aQ - bQ^2$$
 
@@ -251,7 +251,7 @@ Adult MR: $MR_A = 20 - 2Q_A$. Set $MR_A = MC$: $20 - 2Q_A = 2 \Rightarrow Q_A = 
 Student MR: $MR_S = 14 - 2Q_S$. Set $MR_S = MC$: $14 - 2Q_S = 2 \Rightarrow Q_S = 6$, $P_S = 8$.
 
 Without discrimination (single price, aggregate demand): total demand
-$Q = Q_A + Q_S = (20 - P) + (14 - P) = 34 - 2P$So $P = 17 - Q/2$. $MR = 17 - Q$. Set
+$Q = Q_A + Q_S = (20 - P) + (14 - P) = 34 - 2P$ So $P = 17 - Q/2$. $MR = 17 - Q$. Set
 $MR = 2 \Rightarrow Q = 15$, $P = 9.50$.
 
 With discrimination: revenue = $11 \times 9 + 8 \times 6 = 99 + 48 = 147$. Without:
@@ -340,7 +340,7 @@ It is efficient, or because it has successfully blocked competition?_
 
 #### Equilibrium
 
-**Short run**: like monopoly — the firm faces a downward-sloping demand curve, sets $MR = MC$And May
+**Short run**: like monopoly — the firm faces a downward-sloping demand curve, sets $MR = MC$ And May
 earn supernormal profit.
 
 **Long run**: free entry eliminates supernormal profit, but $P > MC$ and $P > AC_{min}$.
@@ -653,7 +653,7 @@ Discrimination. Compare total profit with the single-price monopoly outcome.
 
 <details>
 <summary>Hint</summary>
-$MR_1 = 24 - 2Q_1 = 2 \Rightarrow Q_1 = 11$$P_1 = 13$. $MR_2 = 16 - 2Q_2 = 2 \Rightarrow Q_2 = 7$$P_2 = 9$. Profit $= 13(11) + 9(7) - 40 - 2(18) = 143 + 63 - 40 - 36 = 130$. Without discrimination: aggregate $P = 24 - Q_1 = 16 - Q_2$ for $P \leq 16$So $Q = Q_1 + Q_2 = (24 - P) + (16 - P) = 40 - 2P$$P = 20 - Q/2$. $MR = 20 - Q = 2 \Rightarrow Q = 18$$P = 11$. Profit $= 11(18) - 40 - 36 = 198 - 76 = 122$. Discrimination yields higher profit (£130 vs £122).
+$MR_1 = 24 - 2Q_1 = 2 \Rightarrow Q_1 = 11$$P_1 = 13$. $MR_2 = 16 - 2Q_2 = 2 \Rightarrow Q_2 = 7$$P_2 = 9$. Profit $= 13(11) + 9(7) - 40 - 2(18) = 143 + 63 - 40 - 36 = 130$. Without discrimination: aggregate $P = 24 - Q_1 = 16 - Q_2$ for $P \leq 16$ So $Q = Q_1 + Q_2 = (24 - P) + (16 - P) = 40 - 2P$$P = 20 - Q/2$. $MR = 20 - Q = 2 \Rightarrow Q = 18$$P = 11$. Profit $= 11(18) - 40 - 36 = 198 - 76 = 122$. Discrimination yields higher profit (£130 vs £122).
 </details>
 
 **Problem 5.** In a monopolistically competitive market, each firm has demand $P = 40 - Q$ and cost
@@ -989,7 +989,7 @@ $\frac{dATC}{dQ} = -100/Q^2 + 0.5 = 0 \Rightarrow Q = \sqrt{200} = 14.14$.
 $\min ATC = 100/14.14 + 10 + 0.5(14.14) = 7.07 + 10 + 7.07 = 24.14$.
 
 Long-run price $= 24.14$. Market demand: $Q = 150 - 24.14 = 125.86$. Number of firms:
-$125.86 / 14.14 = 8.9$So approximately 9 firms.
+$125.86 / 14.14 = 8.9$ So approximately 9 firms.
 
 **81 firms have exited** (from 100 to 9). The industry has undergone massive consolidation due to
 significant fixed costs (GBP 100 per firm).

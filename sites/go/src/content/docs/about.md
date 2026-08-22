@@ -1,7 +1,7 @@
 ---
 title: About This Site
 date: 2026-07-24
-description: "About Wyatt's Notes Go resources — experience, expertise, and credentials behind Go programming study materials."
+description: "Wyatt's Notes delivers comprehensive study materials for Go programming. These notes cover Go's concurrency model, standard library, interfaces, and systems"
 tags:
   - about
   - go

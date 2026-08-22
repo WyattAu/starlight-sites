@@ -24,7 +24,7 @@ that $W$ is a subspace of $V$ and find its dimension.
 <summary>Solution</summary>
 
 $W$ is non-empty since $\mathbf{0} = (0, 0, 0) \in W$. If
-$(x_1, y_1, z_1), (x_2, y_2, z_2) \in W$Then $(x_1 - y_1 + z_1) + (x_2 - y_2 + z_2) = 0 + 0 = 0$So
+$(x_1, y_1, z_1), (x_2, y_2, z_2) \in W$ Then $(x_1 - y_1 + z_1) + (x_2 - y_2 + z_2) = 0 + 0 = 0$ So
 their sum is in $W$. Similarly, $\alpha(x - y + z) = 0$ for any scalar $\alpha$. Hence $W$ is a
 subspace.
 
@@ -40,7 +40,7 @@ _If you get this wrong, revise: Section 1.3 (Subspace Criterion)._
 <details>
 <summary>Solution</summary>
 
-No. $(1, 0) \in S$ and $(0, 1) \in S$But $(1, 0) + (0, 1) = (1, 1) \notin S$ since
+No. $(1, 0) \in S$ and $(0, 1) \in S$ But $(1, 0) + (0, 1) = (1, 1) \notin S$ since
 $1 \cdot 1 \neq 0$. $S$ is not closed under addition.
 
 _If you get this wrong, revise: Section 1.3 (Subspace Criterion)._
@@ -53,8 +53,8 @@ $\mathcal{P}_2(\mathbb{R})$.
 <details>
 <summary>Solution</summary>
 
-Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$So
-$a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$So $a = 0$Then $b = 0$.
+Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$ So
+$a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$ So $a = 0$ Then $b = 0$.
 Since $a = b = c = 0$The set is linearly independent.
 
 _If you get this wrong, revise: Section 2.1 (Linear Independence)._
@@ -86,11 +86,11 @@ in $\mathbb{R}^3$. Verify the dimension formula $\dim(U + W) = \dim(U) + \dim(W)
 <summary>Solution</summary>
 
 $\dim(U) = 2$ (the two spanning vectors are linearly independent), $\dim(W) = 1$. Since
-$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$So $\dim(U + W) = 3$. By
-the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$So $U \cap W = \{\mathbf{0}\}$.
+$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
+the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$ So $U \cap W = \{\mathbf{0}\}$.
 
-We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$Then $a = c$, $b = c$, $a + b = 0$ Giving
-$c = 0$So only the zero vector is in the intersection.
+We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$ Then $a = c$, $b = c$, $a + b = 0$ Giving
+$c = 0$ So only the zero vector is in the intersection.
 
 _If you get this wrong, revise: Section 2.5 (Dimension Formula)._
 
@@ -123,7 +123,7 @@ _If you get this wrong, revise: Section 3.4 (Determinants)._
 <summary>Solution</summary>
 
 $\det(A) = \det(A^T) = \det(-A) = (-1)^n \det(A) = -\det(A)$ (since $n$ is odd). Therefore
-$\det(A) = -\det(A)$So $2\det(A) = 0$Giving $\det(A) = 0$.
+$\det(A) = -\det(A)$ So $2\det(A) = 0$Giving $\det(A) = 0$.
 
 _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
@@ -160,8 +160,8 @@ $$\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix
 
 $$\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}$$
 
-From row 3: $-6z = -1$So $z = 1/6$. From row 2: $y + 3(1/6) = 2$So $y = 3/2$. From row 1:
-$x + 2(3/2) - 1/6 = 3$So $x = 3 - 3 + 1/6 = 1/6$.
+From row 3: $-6z = -1$ So $z = 1/6$. From row 2: $y + 3(1/6) = 2$ So $y = 3/2$. From row 1:
+$x + 2(3/2) - 1/6 = 3$ So $x = 3 - 3 + 1/6 = 1/6$.
 
 Solution: $x = 1/6$, $y = 3/2$, $z = 1/6$.
 
@@ -240,7 +240,7 @@ Is $A$ diagonalisable?
 <details>
 <summary>Solution</summary>
 
-$\det(A - \lambda I) = (2 - \lambda)^3$So $\lambda = 2$ with algebraic multiplicity 3.
+$\det(A - \lambda I) = (2 - \lambda)^3$ So $\lambda = 2$ with algebraic multiplicity 3.
 
 $A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$Which has rank 2. The
 null space is spanned by $(1, 0, 0)^T$. So the geometric multiplicity is 1.
@@ -287,7 +287,7 @@ $A$ And $I$Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
 
 $\det(A - \lambda I) = (1 - \lambda)(3 - \lambda) + 2 = \lambda^2 - 4\lambda + 5$.
 
-By Cayley--Hamilton: $A^2 - 4A + 5I = 0$So $A^2 = 4A - 5I$.
+By Cayley--Hamilton: $A^2 - 4A + 5I = 0$ So $A^2 = 4A - 5I$.
 
 $A^3 = A \cdot A^2 = A(4A - 5I) = 4A^2 - 5A = 4(4A - 5I) - 5A = 16A - 20I - 5A = 11A - 20I$.
 
@@ -307,10 +307,10 @@ $T(1, 0, 0) = (1, 0)$, $T(0, 1, 0) = (1, 1)$, $T(0, 0, 1) = (0, 1)$.
 
 $[T]_{\mathcal{E}} = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \end{pmatrix}$.
 
-$\ker(T) = \{(x, y, z) : x + y = 0, y + z = 0\} = \{(t, -t, t) : t \in \mathbb{R}\}$So
+$\ker(T) = \{(x, y, z) : x + y = 0, y + z = 0\} = \{(t, -t, t) : t \in \mathbb{R}\}$ So
 $\dim(\ker(T)) = 1$.
 
-$\mathrm{im}(T) = \mathrm{span}\{(1, 0), (1, 1)\} = \mathbb{R}^2$So $\dim(\mathrm{im}(T)) = 2$.
+$\mathrm{im}(T) = \mathrm{span}\{(1, 0), (1, 1)\} = \mathbb{R}^2$ So $\dim(\mathrm{im}(T)) = 2$.
 
 Verify: $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = 1 + 2 = 3 = \dim(\mathbb{R}^3)$. $\blacksquare$
 
@@ -330,7 +330,7 @@ $e_1 = \frac{1}{\sqrt{2}}(1, -1, 0)$.
 
 $\mathbf{u}_2 = (1, 0, -1) - \langle (1, 0, -1), e_1 \rangle e_1 = (1, 0, -1) - \frac{1}{\sqrt{2}} \cdot \frac{1}{\sqrt{2}}(1, -1, 0) = (\frac{1}{2}, \frac{1}{2}, -1)$.
 
-$\lVert \mathbf{u}_2 \rVert = \sqrt{1/4 + 1/4 + 1} = \sqrt{3/2}$So
+$\lVert \mathbf{u}_2 \rVert = \sqrt{1/4 + 1/4 + 1} = \sqrt{3/2}$ So
 $e_2 = \frac{1}{\sqrt{6}}(1, 1, -2)$.
 
 $\mathrm{proj_W}(\mathbf{v}) = \langle (1,2,3), e_1 \rangle e_1 + \langle (1,2,3), e_2 \rangle e_2$
@@ -366,7 +366,7 @@ its discriminant satisfies $\Delta \leq 0$:
 $4(\mathbf{x} \cdot \mathbf{y})^2 - 4\lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2 \leq 0$
 
 Therefore
-$(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$And
+$(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$ And
 taking square roots gives the result.
 
 Equality holds iff $\Delta = 0$Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
@@ -405,25 +405,25 @@ _If you get this wrong, revise: Section 5.4 (Cayley--Hamilton Theorem)._
 
 **Problem 20.** Let $T : \mathcal{P}_2(\mathbb{R}) \to \mathcal{P}_2(\mathbb{R})$ be defined by
 $T(p) = p"$ (the derivative). Find the matrix of $T$ with respect to the basis
-$\mathcal{B} = \{1, x, x^2\}$And determine $\ker(T)$ and $\mathrm{im}(T)$.
+$\mathcal{B} = \{1, x, x^2\}$ And determine $\ker(T)$ and $\mathrm{im}(T)$.
 
 <details>
 <summary>Solution</summary>
 
-$T(1) = 0 = 0 \cdot 1 + 0 \cdot x + 0 \cdot x^2$So coordinates are
+$T(1) = 0 = 0 \cdot 1 + 0 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$.
 
-$T(x) = 1 = 1 \cdot 1 + 0 \cdot x + 0 \cdot x^2$So coordinates are
+$T(x) = 1 = 1 \cdot 1 + 0 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$.
 
-$T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$So coordinates are
+$T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 2 \\ 0 \end{pmatrix}$.
 
 $$[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}$$
 
-$\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$So $\dim(\ker(T)) = 1$.
+$\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$ So $\dim(\ker(T)) = 1$.
 
-$\mathrm{im}(T) = \{p' : p \in \mathcal{P}_2\} = \mathrm{span}\{1, x\}$So
+$\mathrm{im}(T) = \{p' : p \in \mathcal{P}_2\} = \mathrm{span}\{1, x\}$ So
 $\dim(\mathrm{im}(T)) = 2$.
 
 Verify: $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = 1 + 2 = 3 = \dim(\mathcal{P}_2)$. $\blacksquare$

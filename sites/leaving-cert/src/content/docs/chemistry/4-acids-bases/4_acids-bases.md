@@ -389,7 +389,7 @@ Using the quadratic formula: $x = 9.9 \times 10^{-3} \mathrm{ M$.
 
 $$\mathrm{pH = -\log(9.9 \times 10^{-3}) = 2.00$$
 
-Check: $c/K_a = 0.15/(6.8 \times 10^{-4}) = 220 > 100$So the approximation
+Check: $c/K_a = 0.15/(6.8 \times 10^{-4}) = 220 > 100$ So the approximation
 $[\mathrm{H^+] \approx \sqrt{K_a \times c}$ gives essentially the same result.
 
 ---

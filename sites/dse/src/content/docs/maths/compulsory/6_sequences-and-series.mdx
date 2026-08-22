@@ -258,7 +258,7 @@ For $r = 1$The sequence is constant and $S_n = n a_1$.
 
 ### Sum to Infinity
 
-**Theorem.** If $|r| \lt 1$Then:
+**Theorem.** If $|r| \lt 1$ Then:
 
 $$
 S_\infty = \sum_\{n=1\}^\{\infty\} a_1 r^\{n-1\} = \frac\{a_1\}\{1 - r\}
@@ -383,7 +383,7 @@ Arithmetic and geometric sequences are special cases:
 
 ### Finding the Limit: Fixed Point Method
 
-If a sequence defined by $a_{n+1} = f(a_n)$ converges to a limit $L$Then $L$ must satisfy:
+If a sequence defined by $a_{n+1} = f(a_n)$ converges to a limit $L$ Then $L$ must satisfy:
 
 $$
 L = f(L)
@@ -450,13 +450,13 @@ Since $a_n \gt 0$, $L = 2$.
 <summary>Answer</summary>
 - This is a two-part problem. First, an arithmetic series to find the total saved, then a geometric sequence for the compound interest.
 - **Part 1: Calculate total savings (Arithmetic Series)**
- - The deposits are an arithmetic sequence with $a_1 = 1200$, $d = 300$And $n=5$ years of deposits.
+ - The deposits are an arithmetic sequence with $a_1 = 1200$, $d = 300$ And $n=5$ years of deposits.
  - The total amount deposited is the sum of the series, $S_5$.
  - First, find the deposit in the 5th year: $a_5 = a_1 + (5-1)d = 1200 + 4(300) = 2400$.
  - Now, find the sum: $S_5 = \frac{n}{2}(a_1 + a_5) = \frac{5}{2}(1200 + 2400) = 2.5(3600) = \mathrm{USD } 9,000$.
 - **Part 2: Calculate investment growth (Geometric Sequence)**
  - The principal for the investment is $P = \mathrm{USD } 9,000$.
- - The annual interest rate is $i = 0.06$So the common ratio is $r = 1.06$.
+ - The annual interest rate is $i = 0.06$ So the common ratio is $r = 1.06$.
  - The time period is $t = 10$ years.
  - The future value is given by the compound interest formula $FV = P(1+i)^t$.
  - $FV = 9000(1.06)^{10} \approx 9000(1.790847) \approx \mathrm{USD } 16,117.62$.
@@ -654,7 +654,7 @@ Definite integral.
 - **Step 4: Sum the infinite series for the time of the bounces.**
  - Total time for bounces is $\sum_{n=1}^{\infty} T_n = \sum_{n=1}^{\infty} 2\sqrt{2}(\sqrt{0.75})^n$.
  - This is a geometric series with first term $a = 2\sqrt{2}\sqrt{0.75}$ and common ratio $r = \sqrt{0.75}$.
- - $r = \sqrt{3/4} = \frac{\sqrt{3}}{2} \approx 0.866 \lt 1$So the series converges.
+ - $r = \sqrt{3/4} = \frac{\sqrt{3}}{2} \approx 0.866 \lt 1$ So the series converges.
  - Sum = $\frac{a}{1-r} = \frac{2\sqrt{2}\sqrt{0.75}}{1-\sqrt{0.75}} = \frac{2\sqrt{1.5}}{1-\sqrt{0.75}} \approx \frac{2(1.2247)}{1-0.866} \approx \frac{2.4494}{0.134} \approx 18.28$ seconds.
 - **Step 5: Calculate total time.**
  - Total Time = Initial Drop Time + Bounce Time
@@ -700,7 +700,7 @@ Suitable bounding function (like comparing $\ln(n)$ to a power of $n$).
   - $$ L = \lim_{n\to\infty} \left| \frac{a_{n+1}}{a_n} \right| = \lim_{n\to\infty} \left| \frac{(2x-5)^{n+1}}{(n+1)3^{n+1}} \cdot \frac{n \cdot 3^n}{(2x-5)^n} \right| $$
   - $$ L = \lim_{n\to\infty} \left| \frac{2x-5}{3} \cdot \frac{n}{n+1} \right| = \frac{|2x-5|}{3} \lim_{n\to\infty} \frac{n}{n+1} = \frac{|2x-5|}{3} $$
 - **Step 2: Solve for the interval where the series converges.**
- - The series converges when $L \lt 1$So $\frac{|2x-5|}{3} \lt 1 \implies |2x-5| \lt 3$.
+ - The series converges when $L \lt 1$ So $\frac{|2x-5|}{3} \lt 1 \implies |2x-5| \lt 3$.
  - This gives $-3 \lt 2x-5 \lt 3$.
  - Add 5 to all parts: $2 \lt 2x \lt 8$.
  - Divide by 2: $1 \lt x \lt 4$.

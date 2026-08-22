@@ -54,7 +54,7 @@ S_n &= (a+(n-1)d) + (a+(n-2)d) + \cdots + a
 \end{aligned}
 $$
 
-Adding the two rows term by term, each pair sums to $2a + (n-1)d$And there are $n$ such pairs:
+Adding the two rows term by term, each pair sums to $2a + (n-1)d$ And there are $n$ such pairs:
 
 $$2S_n = n[2a + (n-1)d] \implies S_n = \frac{n}{2}[2a + (n-1)d] \quad \blacksquare$$
 
@@ -87,7 +87,7 @@ $p_1, p_2, \ldots, p_n$.
 
 Consider $N = p_1 p_2 \cdots p_n + 1$.
 
-- $N$ is not divisible by any $p_i$: if $p_i \mid N$Then $p_i \mid (N - p_1 \cdots p_n) = 1$ which
+- $N$ is not divisible by any $p_i$: if $p_i \mid N$ Then $p_i \mid (N - p_1 \cdots p_n) = 1$ which
   is impossible since $p_i \geq 2$.
 
 So $N$ is either prime itself or divisible by a prime not in our list. Either way, there exists a
@@ -98,7 +98,7 @@ $\blacksquare$
 
 **Theorem.** $\sqrt{2}$ is irrational.
 
-**Proof.** Suppose $\sqrt{2} = \dfrac{a}{b}$ where $a, b \in \mathbb{Z}$, $b \neq 0$And
+**Proof.** Suppose $\sqrt{2} = \dfrac{a}{b}$ where $a, b \in \mathbb{Z}$, $b \neq 0$ And
 $\gcd(a,b) = 1$ (the fraction is in lowest terms).
 
 $$2 = \frac{a^2}{b^2} \implies a^2 = 2b^2$$
@@ -383,9 +383,9 @@ Prove that $\sqrt{3}$ is irrational.
 <summary>Solution 4</summary>
 Suppose $\sqrt{3} = a/b$ in lowest terms with $a, b \in \mathbb{Z}^+$, $\gcd(a,b) = 1$.
 
-$3 = a^2/b^2 \implies a^2 = 3b^2$So $3 \mid a^2$Hence $3 \mid a$. Write $a = 3k$.
+$3 = a^2/b^2 \implies a^2 = 3b^2$ So $3 \mid a^2$Hence $3 \mid a$. Write $a = 3k$.
 
-$9k^2 = 3b^2 \implies b^2 = 3k^2$So $3 \mid b^2$Hence $3 \mid b$.
+$9k^2 = 3b^2 \implies b^2 = 3k^2$ So $3 \mid b^2$Hence $3 \mid b$.
 
 But $\gcd(a,b) \geq 3$Contradicting $\gcd(a,b) = 1$. $\blacksquare$
 
@@ -490,7 +490,7 @@ $(k+1)^3 - (k+1) = 6m + 6n = 6(m+n)$. ✓ $\blacksquare$
 
 <details>
 <summary>Problem 10</summary>
-Prove that if $a^2 + b^2 = c^2$ for integers $a, b, c$Then at least one of $a, b$ is even.
+Prove that if $a^2 + b^2 = c^2$ for integers $a, b, c$ Then at least one of $a, b$ is even.
 </details>
 
 <details>

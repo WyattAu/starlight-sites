@@ -922,7 +922,7 @@ Minimum energy:
 $$E_{\min} = 2m_e c^2 = 2(0.511\,\mathrm{MeV}) = 1.022\,\mathrm{MeV}$$
 
 If the photon has exactly $1.022\,\mathrm{MeV}$Pair production **cannot** occur in free space
-Because momentum cannot be conserved. The photon has momentum $p = E/c$But the electron-positron
+Because momentum cannot be conserved. The photon has momentum $p = E/c$ But the electron-positron
 Pair at rest has zero momentum. A nearby nucleus must be present to absorb the recoil momentum. The
 Photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production to actually occur.
 

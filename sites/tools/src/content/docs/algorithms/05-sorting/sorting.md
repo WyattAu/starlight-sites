@@ -925,14 +925,14 @@ A comparison-based sorting algorithm can be modelled as a binary decision tree:
 1. There are $n!$ possible permutations of $n$ elements, so the decision tree has at least $n!$
    leaves
 2. A binary tree of height $h$ has at most $2^h$ leaves
-3. Therefore: $2^h \ge n!$So $h \ge \log_2(n!)$
+3. Therefore: $2^h \ge n!$ So $h \ge \log_2(n!)$
 4. By Stirling's approximation:
    $\log_2(n!) = n \log_2 n - n \log_2 e + O(\log n) = \Omega(n \log n)$
 5. Therefore, any comparison-based sort requires $\Omega(n \log n)$ comparisons in the worst case
 
 ### Tightness
 
-Merge sort, heapsort, and quicksort (average case) all achieve $O(n \log n)$So the lower bound is
+Merge sort, heapsort, and quicksort (average case) all achieve $O(n \log n)$ So the lower bound is
 Tight — you cannot do asymptotically better with comparisons alone.
 
 ### Information-Theoretic Argument

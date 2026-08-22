@@ -167,7 +167,7 @@ First term: $a = \sqrt{2}$.
 
 Common ratio: $r = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}$.
 
-$|r| = \dfrac{\sqrt{2}}{2} \approx 0.707 \lt 1$So the series converges.
+$|r| = \dfrac{\sqrt{2}}{2} \approx 0.707 \lt 1$ So the series converges.
 
 $$S_\infty = \frac{a}{1 - r} = \frac{\sqrt{2}}{1 - \frac{\sqrt{2}}{2}} = \frac{\sqrt{2}}{\frac{2 - \sqrt{2}}{2}} = \frac{2\sqrt{2}}{2 - \sqrt{2}}$$
 
@@ -201,7 +201,7 @@ ratio and the sum of the first 10 terms.
 
 $r = \dfrac{\log_2 9}{\log_2 3} = \dfrac{\log_2 3^2}{\log_2 3} = \dfrac{2\log_2 3}{\log_2 3} = 2$.
 
-Checking the ratio: $\dfrac{\log_2 9}{\log_2 3} = \dfrac{2\log_2 3}{\log_2 3} = 2$But
+Checking the ratio: $\dfrac{\log_2 9}{\log_2 3} = \dfrac{2\log_2 3}{\log_2 3} = 2$ But
 $\dfrac{\log_2 27}{\log_2 9} = \dfrac{3\log_2 3}{2\log_2 3} = \dfrac{3}{2}$.
 
 Since the ratio is not constant, this is **not** a geometric sequence. The terms are $\log_2 3$
@@ -360,7 +360,7 @@ Find the sum to infinity of $\dfrac{1}{2} + \dfrac{1}{4} + \dfrac{1}{8} + \dfrac
 
 This is a geometric series with $a = \dfrac{1}{2}$ and $r = \dfrac{1}{2}$.
 
-$|r| = \dfrac{1}{2} < 1$So the series converges.
+$|r| = \dfrac{1}{2} < 1$ So the series converges.
 
 $$S_\infty = \frac{a}{1 - r} = \frac{1/2}{1 - 1/2} = \frac{1/2}{1/2} = 1$$
 
@@ -466,7 +466,7 @@ $A_8 = 10000 \times (1.06)^8 = 10000 \times \left(\dfrac{106}{100}\right)^8 = 10
 **Question:**
 
 If three positive numbers $a$$b$$c$ form a geometric sequence and $a + b + c = 26$ and
-$a + 2b - c = 10$Find $a$$b$And $c$.
+$a + 2b - c = 10$Find $a$$b$ And $c$.
 
 **Solution:**
 

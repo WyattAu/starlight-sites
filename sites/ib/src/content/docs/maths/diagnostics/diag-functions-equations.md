@@ -71,14 +71,14 @@ Domain of $f \circ g$: $\left(1, \frac{4}{3}\right]$.
 
 Domain restrictions:
 
-1. From $f$: $x - 3 \geq 0$So $x \geq 3$.
-2. From $g$: $\sqrt{x-3} \neq 1$So $x - 3 \neq 1$Giving $x \neq 4$.
+1. From $f$: $x - 3 \geq 0$ So $x \geq 3$.
+2. From $g$: $\sqrt{x-3} \neq 1$ So $x - 3 \neq 1$Giving $x \neq 4$.
 
 Domain of $g \circ f$: $[3, 4) \cup (4, \infty)$.
 
 **(c)** The student is incorrect. $\mathrm{dom}(f \circ g)$ is not $\mathrm{dom}(g)$. It is the
 subset of $\mathrm{dom}(g)$ for which $g(x)$ falls within $\mathrm{dom}(f)$. Here
-$\mathrm{dom}(g) = \mathbb{R} \setminus \{1\}$But
+$\mathrm{dom}(g) = \mathbb{R} \setminus \{1\}$ But
 $\mathrm{dom}(f \circ g) = \left(1, \frac{4}{3}\right]$Which is a proper subset.
 
 ---
@@ -115,7 +115,7 @@ $$y(x - 1) = 2x + 3 \implies xy - y = 2x + 3 \implies xy - 2x = y + 3 \implies x
 $$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
 
 The domain of $f^{-1}$ equals the range of $f$. Since
-$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$As $x \to \pm\infty$, $f(x) \to 2$But
+$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$As $x \to \pm\infty$, $f(x) \to 2$ But
 $f(x) \neq 2$. The horizontal asymptote at $y = 2$ is never reached. Domain:
 $\mathbb{R} \setminus \{2\}$.
 
@@ -162,7 +162,7 @@ up by 3, so $b = 2 \times 5 + 3 = 13$."
 
 **(a)** The student's error is in the horizontal transformation. The transformation $f(x - 1)$
 shifts the graph to the **right** by 1 (not left). The student said "translate left by 1" and set
-$a = 2 - 1 = 1$But the correct calculation would give $a = 2 + 1 = 3$.
+$a = 2 - 1 = 1$ But the correct calculation would give $a = 2 + 1 = 3$.
 
 **(b)** For $y = -2f(x - 1) + 3$:
 
@@ -196,7 +196,7 @@ The function $f$ is defined by $f(x) = \dfrac{2x + 3}{x + 2}$.
 
 **(a)** Find the fixed points of $f$ (values where $f(x) = x$).
 
-**(b)** Show that $f(f(x)) = x$ for all $x \neq -2$And hence state $f^{-1}(x)$.
+**(b)** Show that $f(f(x)) = x$ for all $x \neq -2$ And hence state $f^{-1}(x)$.
 
 [Difficulty: hard. Combines function iteration with inverse function identification.]
 

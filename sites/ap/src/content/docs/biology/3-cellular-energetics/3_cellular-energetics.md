@@ -510,7 +510,7 @@ Creating the electrochemical gradient that drives ATP synthesis.
 
 Cyanide blocks Complex IV (cytochrome c oxidase) of the ETC. When Complex IV is blocked:
 
-1. Electrons cannot be passed to $\mathrm{O_2$So the entire ETC backs up.
+1. Electrons cannot be passed to $\mathrm{O_2$ So the entire ETC backs up.
 2. NADH and $\mathrm{FADH_2$ cannot be oxidised because there is no electron acceptor available.
 3. Without NAD$^+$ regeneration, glycolysis, the link reaction, and the Krebs cycle all stop.
 4. The proton gradient is not maintained, so ATP synthase cannot produce ATP.
@@ -850,7 +850,7 @@ Photorespiration and 80% undergo normal carbon fixation.
 
 Total RuBisCO reactions per minute: Let this be $R$.
 
-Carbon-fixing reactions: $0.8R = 1000$So $R = 1250$.
+Carbon-fixing reactions: $0.8R = 1000$ So $R = 1250$.
 
 Photorespiration reactions: $0.2R = 0.2 \times 1250 = 250$.
 

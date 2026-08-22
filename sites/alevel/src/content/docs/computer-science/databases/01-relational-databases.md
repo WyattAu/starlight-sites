@@ -545,7 +545,7 @@ Is not in BCNF.
 - $R_1(C, B)$ with FD: $C \to B$. Key: $C$. BCNF: ✓ ($C$ is a superkey of $R_1$).
 - $R_2(A, C)$ with FD: $AC \to C$ (trivial). Key: $AC$. BCNF: ✓ ($AC$ is a superkey of $R_2$).
 
-**Step 4: Verify lossless join.** $R_1 \cap R_2 = \\{C\\}$And $C \to B$ holds in $R_1$So the Join is
+**Step 4: Verify lossless join.** $R_1 \cap R_2 = \\{C\\}$ And $C \to B$ holds in $R_1$ So the Join is
 lossless (by the chase test / BCNF decomposition theorem). ✓
 
 **Step 5: Dependency preservation.** The original FDs are $\\{AB \to C,\; C \to B\\}$.

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Machine Learning"
-description: "Self-assessment quiz on ML fundamentals"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"machine-learning\", \"url\": \"https://machine-learning.wyattau.com\"}, {\"name\":"
 sidebar_position: 60
 tableOfContents: false
 ---

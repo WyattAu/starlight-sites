@@ -1,6 +1,6 @@
 ---
 title: C1 Advanced Level
-description: "C1 Advanced Level - Complete study guide and practice questions"
+description: "The C1 level is the fifth level of CEFR. At this level, you can understand a wide range of demanding, longer texts, and recognise implicit meaning."
 date: 2026-01-01T00:00:00Z
 tags:
   - test-prep

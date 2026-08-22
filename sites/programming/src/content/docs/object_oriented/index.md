@@ -1,6 +1,6 @@
 ---
 title: Object_oriented
-description: "Study notes and resources for Object_oriented"
+description: "This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables"
 date: 2026-01-01T00:00:00Z
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Chemistry Of Life
-description: "Study notes and resources for Chemistry Of Life"
+description: "This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Understanding these foundations is essential for tackling"
 date: 2026-01-01T00:00:00Z
 ---
 

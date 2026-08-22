@@ -29,7 +29,7 @@ tableOfContents: false
 
 **Question:**
 
-Events $A$ and $B$ are such that $\mathrm{P}(A) = 0.4$, $\mathrm{P}(B) = 0.5$And
+Events $A$ and $B$ are such that $\mathrm{P}(A) = 0.4$, $\mathrm{P}(B) = 0.5$ And
 $\mathrm{P}(A \cap B) = 0.1$.
 
 **(a)** Determine whether $A$ and $B$ are mutually exclusive. Justify your answer.
@@ -49,14 +49,14 @@ confuse, and requires a proof.]
 
 **(a)** Events $A$ and $B$ are mutually exclusive if $\mathrm{P}(A \cap B) = 0$.
 
-Here $\mathrm{P}(A \cap B) = 0.1 \neq 0$So $A$ and $B$ are **not mutually exclusive**.
+Here $\mathrm{P}(A \cap B) = 0.1 \neq 0$ So $A$ and $B$ are **not mutually exclusive**.
 
 **(b)** Events $A$ and $B$ are independent if
 $\mathrm{P}(A \cap B) = \mathrm{P}(A) \times \mathrm{P}(B)$.
 
 $$\mathrm{P}(A) \times \mathrm{P}(B) = 0.4 \times 0.5 = 0.20$$
 
-But $\mathrm{P}(A \cap B) = 0.1 \neq 0.20$So $A$ and $B$ are **not independent**.
+But $\mathrm{P}(A \cap B) = 0.1 \neq 0.20$ So $A$ and $B$ are **not independent**.
 
 **(c)** Let $C$ and $D$ be events with
 $\mathrm{P}(C) = 0.3$$\mathrm{P}(D) = 0.4$$\mathrm{P}(C \cap D) = 0.15$.
@@ -118,7 +118,7 @@ minimum prevalence of the disease required to achieve this, keeping the test cha
 same.
 
 **(d)** Explain why
-$\mathrm{P}(\text{disease} \mid \text{positive}) \neq \mathrm{P}(\text{positive} \mid \text{disease})$And
+$\mathrm{P}(\text{disease} \mid \text{positive}) \neq \mathrm{P}(\text{positive} \mid \text{disease})$ And
 state the condition under which they would be equal.
 
 [Difficulty: hard. Tests conditional probability, Bayes' theorem, and the critical distinction
@@ -396,7 +396,7 @@ than $k$" and let $B$ be the event "at least one of the scores is prime."
 **(c)** For $k = 7$Determine whether events $A$ and $B$ are independent. Show all your working.
 
 **(d)** Find the range of values of $k$ for which
-$\mathrm{P}(A \cap B) \lt \mathrm{P}(A) \cdot \mathrm{P}(B)$And explain the significance of this
+$\mathrm{P}(A \cap B) \lt \mathrm{P}(A) \cdot \mathrm{P}(B)$ And explain the significance of this
 inequality in terms of dependence.
 
 [Difficulty: hard. Combines probability with algebraic equation solving and formal independence
@@ -537,7 +537,7 @@ shows a prime slightly decreases the probability of a large sum. This is because
 
 $$\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)$$
 
-**(b)** Hence prove that for three events $A$, $B$And $C$:
+**(b)** Hence prove that for three events $A$, $B$ And $C$:
 
 $$\mathrm{P}(A \cup B \cup C) = \mathrm{P}(A) + \mathrm{P}(B) + \mathrm{P}(C) - \mathrm{P}(A \cap B) - \mathrm{P}(A \cap C) - \mathrm{P}(B \cap C) + \mathrm{P}(A \cap B \cap C)$$
 
@@ -546,7 +546,7 @@ study both Mathematics and Physics, 5 study both Mathematics and Chemistry, 4 st
 Chemistry, and 2 study all three subjects. A student is chosen at random. Find the probability that
 the student studies exactly one of the three subjects.
 
-**(d)** A student claims that if $\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B)$Then $A$ and
+**(d)** A student claims that if $\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B)$ Then $A$ and
 $B$ must be independent. Determine whether this claim is true, justifying with a counterexample or
 proof.
 
@@ -633,7 +633,7 @@ Total studying exactly one: $8 + 6 + 5 = 19$
 
 $$\mathrm{P}(\text{exactly one}) = \frac{19}{40}$$
 
-**(d)** The claim is **false**. If $\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B)$Then from
+**(d)** The claim is **false**. If $\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B)$ Then from
 the inclusion-exclusion principle:
 
 $$\mathrm{P}(A) + \mathrm{P}(B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)$$

@@ -79,7 +79,7 @@ Where $r = |z| = \sqrt{a^2 + b^2}$ is the **modulus** and $\theta = \arg(z)$ is 
 Such that $z = |z|e^{i\theta}$. The **argument** $\arg(z)$ is multi-valued:
 $\arg(z) = \mathrm{Arg}(z) + 2\pi k$ for $k \in \mathbb{Z}$.
 
-**Proposition 1.4.** If $z_1 = r_1 e^{i\theta_1}$ and $z_2 = r_2 e^{i\theta_2}$Then
+**Proposition 1.4.** If $z_1 = r_1 e^{i\theta_1}$ and $z_2 = r_2 e^{i\theta_2}$ Then
 $z_1 z_2 = r_1 r_2 e^{i(\theta_1 + \theta_2)}$ and
 $z_1/z_2 = (r_1/r_2)\, e^{i(\theta_1 - \theta_2)}$.
 
@@ -92,7 +92,7 @@ $z_1/z_2 = (r_1/r_2)\, e^{i(\theta_1 - \theta_2)}$.
 
 $|z| = \sqrt{(-1)^2 + (\sqrt{3})^2} = \sqrt{1 + 3} = 2$.
 
-$\mathrm{Re}(z) = -1 \lt 0$ and $\mathrm{Im}(z) = \sqrt{3} \gt 0$So $z$ is in the second quadrant.
+$\mathrm{Re}(z) = -1 \lt 0$ and $\mathrm{Im}(z) = \sqrt{3} \gt 0$ So $z$ is in the second quadrant.
 
 $\theta = \arctan\!\left(\frac{\sqrt{3}}{-1}\right) = \frac{2\pi}{3}$ (adjusting to second
 quadrant).
@@ -122,7 +122,7 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$.
 
-**De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$So
+**De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$ So
 
 $$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$$
 
@@ -138,7 +138,7 @@ $\blacksquare$
 
 **Example.** Compute $(1 + i)^{20}$.
 
-$1 + i = \sqrt{2}\,e^{i\pi/4}$So
+$1 + i = \sqrt{2}\,e^{i\pi/4}$ So
 $(1 + i)^{20} = (\sqrt{2})^{20}\, e^{20\pi i/4} = 2^{10}\, e^{5\pi i} = 1024\,e^{\pi i} = -1024$.
 
 <details>
@@ -177,7 +177,7 @@ Taking real parts gives the result.
 **Definition.** An $n$-th root of $w \in \mathbb{C}$ is a complex number $z$ such that $z^n = w$.
 
 **Proposition 1.6.** Every non-zero $w \in \mathbb{C}$ has exactly $n$ distinct $n$-th roots. If
-$w = \rho\, e^{i\phi}$Then
+$w = \rho\, e^{i\phi}$ Then
 
 $$z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1$$
 
@@ -273,8 +273,8 @@ limit depends on the direction of approach, it does not exist.
 
 **Problem.** Determine whether $f(z) = \frac{z^2 - 1}{z - 1}$ is continuous at $z = 1$.
 
-For $z \neq 1$: $f(z) = z + 1$. The limit as $z \to 1$ is $2$But $f(1)$ is undefined (division by
-zero). If we define $f(1) = 2$Then $f$ becomes continuous at $z = 1$.
+For $z \neq 1$: $f(z) = z + 1$. The limit as $z \to 1$ is $2$ But $f(1)$ is undefined (division by
+zero). If we define $f(1) = 2$ Then $f$ becomes continuous at $z = 1$.
 
 </details>
 
@@ -305,17 +305,17 @@ $z = 0$ if we define it, but still not analytic there).
 
 **Problem.** Show that $f(z) = |z|^2$ is differentiable only at $z = 0$.
 
-$f(z) = x^2 + y^2$So $u = x^2 + y^2$ and $v = 0$. $u_x = 2x$, $u_y = 2y$, $v_x = 0$, $v_y = 0$. The
-Cauchy-Riemann equations require $2x = 0$ and $2y = 0$So $x = y = 0$. Thus $f$ satisfies CR only at
+$f(z) = x^2 + y^2$ So $u = x^2 + y^2$ and $v = 0$. $u_x = 2x$, $u_y = 2y$, $v_x = 0$, $v_y = 0$. The
+Cauchy-Riemann equations require $2x = 0$ and $2y = 0$ So $x = y = 0$. Thus $f$ satisfies CR only at
 $z = 0$.
 
-At $z = 0$: $f'(0) = \lim_{h \to 0} \frac{|h|^2}{h} = \lim_{h \to 0} \bar{h} = 0$So $f$ is
+At $z = 0$: $f'(0) = \lim_{h \to 0} \frac{|h|^2}{h} = \lim_{h \to 0} \bar{h} = 0$ So $f$ is
 Differentiable at $0$ but not analytic anywhere (no neighbourhood of $0$ is analytic).
 
 **Problem.** Show that $f(z) = z\bar{z} + z$ is differentiable only at $z = 0$.
 
 $f(z) = |z|^2 + z = (x^2 + y^2 + x) + iy$. $u_x = 2x + 1$, $u_y = 2y$, $v_x = 0$, $v_y = 1$. CR
-equations: $2x + 1 = 1 \Rightarrow x = 0$And $2y = 0 \Rightarrow y = 0$. At $(0, 0)$:
+equations: $2x + 1 = 1 \Rightarrow x = 0$ And $2y = 0 \Rightarrow y = 0$. At $(0, 0)$:
 $f'(0) = \lim_{h \to 0} \frac{h\bar{h} + h}{h} = \lim_{h \to 0} (\bar{h} + 1) = 1$. So $f$ is
 differentiable at $z = 0$ only, hence nowhere analytic.
 
@@ -365,7 +365,7 @@ $e^{i5\pi/4} = -\frac{\sqrt{2}}{2}(1 + i)$. These are the two square roots of $i
 
 **Problem.** Find the domain of analyticity of $f(z) = \mathrm{Log}(z^2 + 1)$.
 
-$\mathrm{Log}\, w$ is analytic on $\mathbb{C} \setminus (-\infty, 0]$So we need
+$\mathrm{Log}\, w$ is analytic on $\mathbb{C} \setminus (-\infty, 0]$ So we need
 $z^2 + 1 \notin (-\infty, 0]$.
 
 $z^2 + 1 \leq 0$ when $z^2 \leq -1$I.e., $z \in [-i, 0] \cup [0, i]$ (the imaginary axis Segment
@@ -380,7 +380,7 @@ Domain: $\mathbb{C} \setminus \{z : z = iy,\, y \in [-1, 1]\}$.
 ### 3.1 Statement
 
 **Theorem 3.1 (Cauchy-Riemann Equations).** If $f(z) = u(x, y) + iv(x, y)$ is differentiable at
-$z = x + iy$Then
+$z = x + iy$ Then
 
 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$$
 
@@ -398,7 +398,7 @@ And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksqu
 ### 3.2 Sufficiency Condition
 
 **Theorem 3.2.** If $u$ and $v$ have continuous first partial derivatives on an open set $U$ and
-Satisfy the Cauchy-Riemann equations on $U$Then $f = u + iv$ is analytic on $U$.
+Satisfy the Cauchy-Riemann equations on $U$ Then $f = u + iv$ is analytic on $U$.
 
 _Proof._ Since $u_x, u_y, v_x, v_y$ are continuous on $U$, $u$ and $v$ are (real) differentiable.
 Let $\Delta z = \Delta x + i\Delta y$. By real differentiability:
@@ -436,7 +436,7 @@ $u_{xx} + u_{yy} = v_{yx} - v_{xy} = 0$. Similarly for $v$. $\blacksquare$
 **Definition.** If $u$ and $v$ are harmonic on $U$ and satisfy the Cauchy-Riemann equations, then
 $v$ is the **harmonic conjugate** of $u$.
 
-**Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$Then $u$ has A harmonic
+**Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$ Then $u$ has A harmonic
 conjugate on $U$Unique up to an additive constant.
 
 _Proof._ Define $v(x, y) = \int_{(x_0, y_0)}^{(x, y)} (-u_y\, dx + u_x\, dy)$. The integrand is
@@ -449,10 +449,10 @@ CR equations. $\blacksquare$
 
 **Problem.** Find the harmonic conjugate of $u(x, y) = x^3 - 3xy^2$.
 
-Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$So $u_{xx} + u_{yy} = 0$. $\checkmark$
+Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$ So $u_{xx} + u_{yy} = 0$. $\checkmark$
 
-By CR: $v_y = u_x = 3x^2 - 3y^2$So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$So
-$6xy = 6xy + g'(x)$Giving $g'(x) = 0$So $g(x) = C$.
+By CR: $v_y = u_x = 3x^2 - 3y^2$ So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$ So
+$6xy = 6xy + g'(x)$Giving $g'(x) = 0$ So $g(x) = C$.
 
 Harmonic conjugate: $v(x, y) = 3x^2 y - y^3 + C$.
 
@@ -550,7 +550,7 @@ $$\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f
 ### 4.4 ML Inequality
 
 **Proposition 4.4 (ML Inequality).** If $|f(z)| \leq M$ for all $z$ on a contour $\gamma$ of length
-$L$Then
+$L$ Then
 
 $$\left|\int_\gamma f(z)\, dz\right| \leq ML$$
 
@@ -668,7 +668,7 @@ $\int_\gamma e^{2z}\, dz = \frac{1}{2}(e^{2i} - e^{2})$.
 ### 5.1 Statement
 
 **Theorem 5.1 (Cauchy's Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
-simple closed contour in $D$Then
+simple closed contour in $D$ Then
 
 $$\int_\gamma f(z)\, dz = 0$$
 
@@ -693,12 +693,12 @@ Excludes the singularity at $z = 0$).
 
 ### 5.3 Path Independence
 
-**Corollary 5.2.** If $f$ is analytic on a connected domain $D$Then the integral
+**Corollary 5.2.** If $f$ is analytic on a connected domain $D$ Then the integral
 $\int_{z_0}^{z_1} f(z)\, dz$ is independent of the path from $z_0$ to $z_1$ in $D$.
 
 ### 5.4 Antiderivatives
 
-**Theorem 5.3.** If $f$ is analytic on a connected domain $D$Then $f$ has an antiderivative $F$ in
+**Theorem 5.3.** If $f$ is analytic on a connected domain $D$ Then $f$ has an antiderivative $F$ in
 $D$ (i.e., $F'(z) = f(z)$), and
 
 $$\int_\gamma f(z)\, dz = F(z_1) - F(z_0)$$
@@ -718,7 +718,7 @@ $$\int_\gamma f(z)\, dz = \sum_{k=1}^n \int_{\gamma_k} f(z)\, dz$$
 
 **Theorem 5.5 (Deformation of Contours).** If $f$ is analytic on a domain containing two simple
 Closed contours $\gamma_1$ and $\gamma_2$ where one can be continuously deformed into the other
-Within the domain of analyticity of $f$Then
+Within the domain of analyticity of $f$ Then
 
 $$\int_{\gamma_1} f(z)\, dz = \int_{\gamma_2} f(z)\, dz$$
 
@@ -760,7 +760,7 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 ### 6.1 Statement
 
 **Theorem 6.1 (Cauchy's Integral Formula).** If $f$ is analytic on a connected domain Containing a
-simple closed positively oriented contour $\gamma$And $z_0$ is inside $\gamma$Then
+simple closed positively oriented contour $\gamma$ And $z_0$ is inside $\gamma$ Then
 
 $$f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz$$
 
@@ -815,14 +815,14 @@ $\blacksquare$
 
 **Theorem 6.5 (Liouville's Theorem).** Every bounded entire function is constant.
 
-_Proof._ If $|f(z)| \leq M$ for all $z$Then by Cauchy's estimates with $R$ arbitrarily large:
+_Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
 $|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
 Constant. $\blacksquare$
 
 **Corollary 6.6.** If $f$ is entire and $|f(z)| \geq M$ for all $z$ (bounded away from zero), then
 $f$ is constant.
 
-_Proof._ $1/f$ is entire and bounded by $1/M$So constant by Liouville. $\blacksquare$
+_Proof._ $1/f$ is entire and bounded by $1/M$ So constant by Liouville. $\blacksquare$
 
 ### 6.5 Fundamental Theorem of Algebra
 
@@ -830,7 +830,7 @@ _Proof._ $1/f$ is entire and bounded by $1/M$So constant by Liouville. $\blacksq
 $p(z) \in \mathbb{C}[z]$ has a root in $\mathbb{C}$.
 
 _Proof._ Suppose $p(z)$ has no root. Then $f(z) = 1/p(z)$ is entire. Since $|p(z)| \to \infty$ as
-$|z| \to \infty$, $f(z) \to 0$So $f$ is bounded. By Liouville's theorem, $f$ is constant, so $p$ Is
+$|z| \to \infty$, $f(z) \to 0$ So $f$ is bounded. By Liouville's theorem, $f$ is constant, so $p$ Is
 constant, a contradiction. $\blacksquare$
 
 **Corollary 6.8.** Every polynomial of degree $n \geq 1$ has exactly $n$ roots in $\mathbb{C}$
@@ -886,7 +886,7 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
 
 ### 7.1 Taylor Series
 
-**Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$Then
+**Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$ Then
 
 $$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n$$
 
@@ -980,7 +980,7 @@ In $|z| \lt 1$: $\frac{1}{z - 1} = -\frac{1}{1 - z} = -\sum_{n=0}^{\infty} z^n$.
 
 So $f(z) = -\sum_{n=0}^{\infty} z^n - \frac{1}{z} = \cdots - z^2 - z - 1 - \frac{1}{z}$.
 
-The principal part is $-1/z$So $z = 0$ is a simple pole. $\blacksquare$
+The principal part is $-1/z$ So $z = 0$ is a simple pole. $\blacksquare$
 
 **Problem.** Find the Laurent series of $f(z) = \frac{1}{z(z-1)}$ in $1 \lt |z| \lt \infty$.
 
@@ -991,7 +991,7 @@ $f(z) = \sum_{n=2}^{\infty} z^{-n} - \frac{1}{z} = \frac{1}{z^2} + \frac{1}{z^3}
 
 **Problem.** Find the Laurent series of $f(z) = \frac{e^z}{z^2}$ in $0 \lt |z| \lt \infty$.
 
-$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!}$So
+$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!}$ So
 $f(z) = \sum_{n=0}^{\infty} \frac{z^{n-2}}{n!}
 = \frac{1}{z^2} + \frac{1}{z} + \frac{1}{2} + \frac{z}{6} + \cdots$
 
@@ -1024,7 +1024,7 @@ _Proof._ By the residue theorem applied to $|z| = R$ enclosing all finite singul
 
 $\int_{|z|=R} f\, dz = 2\pi i \sum_{\mathrm{finite} \mathrm{Res}(f, z_k)}$.
 
-But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$So the sum is zero.
+But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$ So the sum is zero.
 $\blacksquare$
 
 ## 8. Singularities and Residue Theory
@@ -1042,13 +1042,13 @@ $z_0$).
    finite.
 3. **Essential singularity**: infinitely many non-zero $a_n$ with $n \lt 0$.
 
-**Proposition 8.1 (Riemann's Removable Singularity Theorem).** If $f$ is bounded near $z_0$Then
+**Proposition 8.1 (Riemann's Removable Singularity Theorem).** If $f$ is bounded near $z_0$ Then
 $z_0$ is a removable singularity.
 
 **Proposition 8.2.** $z_0$ is a pole of order $m$ if and only if $\lim_{z \to z_0} (z - z_0)^m f(z)$
 Exists and is non-zero.
 
-**Theorem 8.3 (Casorati-Weierstrass).** If $z_0$ is an essential singularity of $f$Then $f$ takes
+**Theorem 8.3 (Casorati-Weierstrass).** If $z_0$ is an essential singularity of $f$ Then $f$ takes
 Values arbitrarily close to any complex number in every neighbourhood of $z_0$.
 
 ### 8.2 Classification with Worked Examples
@@ -1058,13 +1058,13 @@ Values arbitrarily close to any complex number in every neighbourhood of $z_0$.
 
 **Problem.** Classify the singularities of $f(z) = \frac{\sin z}{z}$.
 
-$z = 0$: $\sin z = z - z^3/6 + \cdots$So $f(z) = 1 - z^2/6 + \cdots$. No negative powers, so $z = 0$
+$z = 0$: $\sin z = z - z^3/6 + \cdots$ So $f(z) = 1 - z^2/6 + \cdots$. No negative powers, so $z = 0$
 is a removable singularity. $f(0) = 1$ by continuity.
 
 **Problem.** Classify the singularities of $f(z) = \frac{e^z - 1}{z^2}$.
 
-$z = 0$: $e^z - 1 = z + z^2/2 + \cdots$So $f(z) = \frac{1}{z} + \frac{1}{2} + \cdots$. Principal
-part is $1/z$So $z = 0$ is a simple pole with residue $1$.
+$z = 0$: $e^z - 1 = z + z^2/2 + \cdots$ So $f(z) = \frac{1}{z} + \frac{1}{2} + \cdots$. Principal
+part is $1/z$ So $z = 0$ is a simple pole with residue $1$.
 
 **Problem.** Classify the singularity of $f(z) = e^{1/z}$ at $z = 0$.
 
@@ -1078,7 +1078,7 @@ $z = 0$: pole of order $3$. $z = i$: simple pole. $z = -i$: simple pole.
 
 **Problem.** Determine the type of singularity of $f(z) = \frac{z}{\sin z}$ at $z = 0$.
 
-$\sin z = z - z^3/6 + \cdots$So $f(z) = \frac{1}{1 - z^2/6 + \cdots}
+$\sin z = z - z^3/6 + \cdots$ So $f(z) = \frac{1}{1 - z^2/6 + \cdots}
 = 1 + \frac{z^2}{6} + \cdots$.
 
 No negative powers, so $z = 0$ is a removable singularity with $f(0) = 1$.
@@ -1113,7 +1113,7 @@ $$\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1
 
 **Problem.** Find the residue of $f(z) = \frac{z}{z^2 + 4z + 3}$ at each pole.
 
-$z^2 + 4z + 3 = (z + 1)(z + 3)$So simple poles at $z = -1$ and $z = -3$.
+$z^2 + 4z + 3 = (z + 1)(z + 3)$ So simple poles at $z = -1$ and $z = -3$.
 
 At $z = -1$: $\mathrm{Res} = \lim_{z \to -1} \frac{z}{z + 3} = \frac{-1}{2}$. At $z = -3$:
 $\mathrm{Res} = \lim_{z \to -3} \frac{z}{z + 1} = \frac{-3}{-2} = \frac{3}{2}$.
@@ -1164,7 +1164,7 @@ _Solution._ The poles are the fourth roots of $-1$: $z_k = e^{i\pi/4 + ik\pi/2}$
 $k = 0, 1, 2, 3$. All four lie inside $|z| = 2$.
 
 Each is a simple pole with $\mathrm{Res}(f, z_k) = \frac{1}{4z_k^3}$. Since $z_k^4 = -1$:
-$z_k^{-3} = -z_k$So the sum equals $-\frac{1}{4}\sum z_k = 0$.
+$z_k^{-3} = -z_k$ So the sum equals $-\frac{1}{4}\sum z_k = 0$.
 
 $\int_\gamma \frac{dz}{z^4 + 1} = 2\pi i \cdot 0 = 0$. $\blacksquare$
 
@@ -1204,7 +1204,7 @@ $\int_{-\infty}^{\infty} \frac{dx}{x^2 + 1} = 2\pi i \cdot \frac{1}{2i} = \pi$. 
 ### 9.4 Integrals Involving Trigonometric Functions
 
 For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$Substitute
-$z = e^{i\theta}$So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
+$z = e^{i\theta}$ So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
 $\sin\theta = \frac{z - z^{-1}}{2i}$.
 
 The integral becomes $\int_{|z|=1} f(z)\, dz$ where $f(z)$ is a rational function.
@@ -1231,7 +1231,7 @@ $\blacksquare$
 ### 9.6 Jordan's Lemma
 
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
-Half-plane and $a \gt 0$Then
+Half-plane and $a \gt 0$ Then
 
 $$\lim_{R \to \infty} \int_{C_R} e^{iaz}f(z)\, dz = 0$$
 
@@ -1297,7 +1297,7 @@ $$\mathrm{PV}\!\int_{-\infty}^{\infty} f(x)\, dx = \lim_{\varepsilon \to 0^+} \l
 **Problem.** Evaluate $\mathrm{PV}\!\int_{-\infty}^{\infty} \frac{\sin x}{x}\, dx$.
 
 Consider $\oint_\gamma \frac{e^{iz}}{z}\, dz$ where $\gamma$ consists of $[-R, -\varepsilon]$
-$[\varepsilon, R]$ on the real axis, small upper semicircle $C_\varepsilon$ around $0$And large
+$[\varepsilon, R]$ on the real axis, small upper semicircle $C_\varepsilon$ around $0$ And large
 Upper semicircle $C_R$.
 
 No poles inside the contour, so the integral is $0$.
@@ -1323,8 +1323,8 @@ Mapping preserves angles (both magnitude and orientation) between curves.
 
 ### 10.2 Geometric Interpretation
 
-If $f'(z_0) = re^{i\theta}$Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
-By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$So orientation is preserved.
+If $f'(z_0) = re^{i\theta}$ Then near $z_0$ the mapping $f$ acts as a rotation by $\theta$ followed
+By a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientation is preserved.
 
 ### 10.3 Common Conformal Mappings
 
@@ -1387,7 +1387,7 @@ $T(z) = \frac{-idz + id}{dz + d} = \frac{i(1 - z)}{z + 1}$.
 
 **Problem.** Show that $T(z) = \frac{z - 1}{z + 1}$ maps the right half-plane to the unit disk.
 
-If $\mathrm{Re}(z) \gt 0$Then $|z - 1| \lt |z + 1|$So $|T(z)| \lt 1$.
+If $\mathrm{Re}(z) \gt 0$ Then $|z - 1| \lt |z + 1|$ So $|T(z)| \lt 1$.
 
 Check boundary: $T(i) = \frac{i - 1}{i + 1} = \frac{(i-1)(-i+1)}{(i+1)(-i+1)} = \frac{2}{2} = 1$.
 $|T(i)| = 1$. $\checkmark$
@@ -1420,7 +1420,7 @@ Formula for the conformal map .
 
 **Theorem 11.1 (Liouville's Theorem).** Every bounded entire function is constant.
 
-_Proof._ If $|f(z)| \leq M$ for all $z$Then by Cauchy's estimates with $R$ arbitrarily large:
+_Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
 $|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
 Constant. $\blacksquare$
 
@@ -1430,7 +1430,7 @@ Constant. $\blacksquare$
 $p(z) \in \mathbb{C}[z]$ has a root in $\mathbb{C}$.
 
 _Proof._ Suppose $p(z)$ has no root. Then $f(z) = 1/p(z)$ is entire. Since $|p(z)| \to \infty$ as
-$|z| \to \infty$, $f(z) \to 0$So $f$ is bounded. By Liouville's theorem, $f$ is constant, so $p$ Is
+$|z| \to \infty$, $f(z) \to 0$ So $f$ is bounded. By Liouville's theorem, $f$ is constant, so $p$ Is
 constant, a contradiction. $\blacksquare$
 
 ### 11.3 The Maximum Modulus Principle
@@ -1439,14 +1439,14 @@ constant, a contradiction. $\blacksquare$
 Then $|f|$ has no local maximum in $D$.
 
 **Corollary 11.4.** If $f$ is analytic on a bounded domain $D$ and continuous on
-$\bar{D} = D \cup \partial D$Then $|f|$ attains its maximum on $\partial D$.
+$\bar{D} = D \cup \partial D$ Then $|f|$ attains its maximum on $\partial D$.
 
 ### 11.4 Minimum Modulus Principle
 
 **Theorem 11.5 (Minimum Modulus Principle).** If $f$ is analytic and non-zero on a bounded domain
-$D$ And continuous on $\bar{D}$Then $|f|$ attains its minimum on $\partial D$.
+$D$ And continuous on $\bar{D}$ Then $|f|$ attains its minimum on $\partial D$.
 
-_Remark._ If $f$ has zeros in $D$Then $|f|$ attains its minimum of $0$ at those zeros. The minimum
+_Remark._ If $f$ has zeros in $D$ Then $|f|$ attains its minimum of $0$ at those zeros. The minimum
 modulus principle requires the non-vanishing hypothesis.
 
 ### 11.5 Schwarz Lemma
@@ -1460,8 +1460,8 @@ And $|f'(0)| \leq 1$. Equality in either case implies $f(z) = e^{i\theta} z$ for
 
 _Proof._ Define $g(z) = f(z)/z$ for $z \neq 0$ and $g(0) = f'(0)$. Then $g$ is analytic on
 $\mathbb{D}$. For $|z| = r \lt 1$: $|g(z)| = |f(z)|/|z| \leq 1/r$. By the maximum modulus Principle,
-$|g(z)| \leq 1/r$ for $|z| \leq r$. Letting $r \to 1$: $|g(z)| \leq 1$So $|f(z)| \leq |z|$. Also
-$|f'(0)| = |g(0)| \leq 1$. If $|f'(0)| = 1$Then $|g|$ attains its maximum At an interior point, so
+$|g(z)| \leq 1/r$ for $|z| \leq r$. Letting $r \to 1$: $|g(z)| \leq 1$ So $|f(z)| \leq |z|$. Also
+$|f'(0)| = |g(0)| \leq 1$. If $|f'(0)| = 1$ Then $|g|$ attains its maximum At an interior point, so
 $g$ is constant: $g(z) = e^{i\theta}$. $\blacksquare$
 
 ## 12. Argument Principle and Rouché's Theorem
@@ -1469,7 +1469,7 @@ $g$ is constant: $g(z) = e^{i\theta}$. $\blacksquare$
 ### 12.1 The Argument Principle
 
 **Theorem 12.1 (Argument Principle).** If $f$ is meromorphic inside and on a simple closed contour
-$\gamma$ with no zeros or poles on $\gamma$Then
+$\gamma$ with no zeros or poles on $\gamma$ Then
 
 $$\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P$$
 
@@ -1479,13 +1479,13 @@ Multiplicities).
 ### 12.2 Rouché's Theorem
 
 **Theorem 12.2 (Rouché's Theorem).** If $f$ and $g$ are analytic inside and on a simple closed
-Contour $\gamma$And $|f(z)| \gt |g(z)|$ on $\gamma$Then $f$ and $f + g$ have the same number of
+Contour $\gamma$ And $|f(z)| \gt |g(z)|$ on $\gamma$ Then $f$ and $f + g$ have the same number of
 Zeros inside $\gamma$.
 
 _Proof._ On $\gamma$: $|g(z)/f(z)| \lt 1$. The function $h(z) = 1 + g(z)/f(z)$ satisfies
-$|h(z) - 1| \lt 1$ on $\gamma$So $h(\gamma)$ does not wind around $0$. By the argument principle
+$|h(z) - 1| \lt 1$ on $\gamma$ So $h(\gamma)$ does not wind around $0$. By the argument principle
 Applied to $h$: $0 = N_h - P_h$Meaning $h$ has the same number of zeros and poles inside $\gamma$.
-But $h = (f + g)/f$So zeros of $h$ are zeros of $f + g$ and poles of $h$ are zeros of $f$. Therefore
+But $h = (f + g)/f$ So zeros of $h$ are zeros of $f + g$ and poles of $h$ are zeros of $f$. Therefore
 $f$ and $f + g$ have the same number of zeros. $\blacksquare$
 
 ### 12.3 Worked Example
@@ -1517,13 +1517,13 @@ $3z^2 + 1 = 0 \Rightarrow z = \pm i/\sqrt{3}$Both in $|z| \lt 1$. So $2$ zeros.
 ### 13.1 Definition
 
 **Definition.** If $f_1$ is analytic on $D_1$ and $f_2$ is analytic on $D_2$ with
-$D_1 \cap D_2 \neq \emptyset$ and $f_1 = f_2$ on $D_1 \cap D_2$Then $f_2$ is an **analytic
+$D_1 \cap D_2 \neq \emptyset$ and $f_1 = f_2$ on $D_1 \cap D_2$ Then $f_2$ is an **analytic
 Continuation** of $f_1$.
 
 ### 13.2 Identity Theorem
 
 **Theorem 13.1 (Identity Theorem).** If $f$ and $g$ are analytic on a domain $D$ and agree on a set
-With a limit point in $D$Then $f = g$ on all of $D$.
+With a limit point in $D$ Then $f = g$ on all of $D$.
 
 _Proof._ Let $E = \{z \in D : f^{(n)}(z) = g^{(n)}(z) \mathrm{\ for\ all\ } n \geq 0\}$. $E$ is
 Non-empty (it contains the limit point by continuity of derivatives). $E$ is closed (by continuity).
@@ -1551,7 +1551,7 @@ function that is analytic everywhere in the finite plane except for finitely man
 sum of all residues (including the residue at infinity) is zero.
 :::
 :::caution
-Mapping $w = z^2$ is conformal at every $z \neq 0$But it doubles the angle between curves at each
+Mapping $w = z^2$ is conformal at every $z \neq 0$ But it doubles the angle between curves at each
 Point. At $z = 0$It is not conformal because $f'(0) = 0$.
 :::
 :::caution
@@ -1619,7 +1619,7 @@ $f'(z)$.
 <details>
 <summary>Solution</summary>
 
-$f(z) = 1/(z^2 + 1)$ is a rational function with denominator non-zero away from $\pm i$So $f$ Is
+$f(z) = 1/(z^2 + 1)$ is a rational function with denominator non-zero away from $\pm i$ So $f$ Is
 analytic on $\mathbb{C} \setminus \{i, -i\}$.
 
 By the quotient rule: $f'(z) = \frac{-2z}{(z^2 + 1)^2}$.
@@ -1678,7 +1678,7 @@ the circle $|z| = 1$.
 <details>
 <summary>Solution</summary>
 
-On $\gamma$: $|z| = 1$So $|e^z| \leq e$ and $|z - 2| \geq 1$.
+On $\gamma$: $|z| = 1$ So $|e^z| \leq e$ and $|z - 2| \geq 1$.
 
 $\left|\frac{e^z}{z - 2}\right| \leq e$. $L = 2\pi$.
 
@@ -1714,7 +1714,7 @@ Classify all singularities of $f(z) = \frac{e^{1/z}}{z^2 + 1}$ and find all resi
 <details>
 <summary>Solution</summary>
 
-$z = 0$: $e^{1/z}$ has an essential singularity at $0$So $z = 0$ is an essential singularity of $f$.
+$z = 0$: $e^{1/z}$ has an essential singularity at $0$ So $z = 0$ is an essential singularity of $f$.
 $z = i$: simple pole. $z = -i$: simple pole.
 
 At $z = i$: $\mathrm{Res} = \frac{e^{1/i}}{2i} = \frac{e^{-i}}{2i}$. At $z = -i$:
@@ -1914,7 +1914,7 @@ $\sin z = z - z^3/6 + z^5/120 - \cdots$
 
 $f(z) = \frac{z - z^3/6 + z^5/120 - \cdots}{z^4} = \frac{1}{z^3} - \frac{1}{6z} + \frac{z}{120} - \cdots$
 
-The coefficient of $1/z$ is $-1/6$So $\mathrm{Res}(f, 0) = -\frac{1}{6}$.
+The coefficient of $1/z$ is $-1/6$ So $\mathrm{Res}(f, 0) = -\frac{1}{6}$.
 
 _If you get this wrong, revise:_ Section 8.4 (Computing Residues).
 
@@ -1949,7 +1949,7 @@ $f(z) = x^2 + y^2 + 2x - 2iy$. So $u = x^2 + y^2 + 2x$, $v = -2y$.
 
 $u_x = 2x + 2$, $u_y = 2y$, $v_x = 0$, $v_y = -2$.
 
-CR: $2x + 2 = -2 \Rightarrow x = -2$And $2y = 0 \Rightarrow y = 0$.
+CR: $2x + 2 = -2 \Rightarrow x = -2$ And $2y = 0 \Rightarrow y = 0$.
 
 $f$ is differentiable only at $z = -2$.
 

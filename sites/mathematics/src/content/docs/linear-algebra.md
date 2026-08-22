@@ -105,7 +105,7 @@ $-\mathbf{u} = (-1)\mathbf{u} \in W$ By closure under scalar multiplication, and
 $\mathbf{u} + (-\mathbf{u}) = \mathbf{0} \in W$ by closure Under addition. The remaining axioms are
 inherited from $V$. $\blacksquare$
 
-**Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$Then $W$ is
+**Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$ Then $W$ is
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
 All $\alpha_1, \ldots, \alpha_k \in F$
 
@@ -117,7 +117,7 @@ Scalar multiplication. Assume the result holds for $k - 1$ vectors. Then
 $$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k$$
 
 By the inductive hypothesis,
-$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$And
+$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$ And
 $\alpha_k \mathbf{v}_k \in W$ by closure under scalar multiplication. Their sum is in $W$ by Closure
 under addition. $\blacksquare$
 
@@ -137,7 +137,7 @@ a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
 <details>
 <summary>Solution</summary>
 
-**(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$So
+**(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$ So
 $x_1 + 2y_1 - z_1 = 0$ and $x_2 + 2y_2 - z_2 = 0$. Then
 
 $$(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0$$
@@ -149,7 +149,7 @@ $$(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alph
 So $\alpha \mathbf{u} \in W_1$. Since $W_1$ is non-empty (e.g., $\mathbf{0} \in W_1$), it is a
 subspace.
 
-**(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$But
+**(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$ But
 $2 \cdot (1, 0, 0) = (2, 0, 0) \notin W_2$ since $2^2 + 0^2 = 4 \neq 1$. So $W_2$ is not closed
 Under scalar multiplication.
 
@@ -223,14 +223,14 @@ $\mathbf{v}_1, \ldots, \mathbf{v}_k \in V$:
 
 1. $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ is linearly independent.
 2. No $\mathbf{v}_j$ can be written as a linear combination of the remaining vectors.
-3. If $\sum_{i=1}^k \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$Then
+3. If $\sum_{i=1}^k \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ Then
    $\alpha_i = \beta_i$ for all $i$.
 
-_Proof._ (1 $\Rightarrow$ 2): If $\mathbf{v}_j = \sum_{i \neq j} \alpha_i \mathbf{v}_i$Then
+_Proof._ (1 $\Rightarrow$ 2): If $\mathbf{v}_j = \sum_{i \neq j} \alpha_i \mathbf{v}_i$ Then
 $\sum_{i \neq j} \alpha_i \mathbf{v}_i - \mathbf{v}_j = \mathbf{0}$ gives a non-trivial linear
 Dependence, contradicting (1).
 
-(2 $\Rightarrow$ 3): If $\sum (\alpha_i - \beta_i)\mathbf{v}_i = \mathbf{0}$Then by linear
+(2 $\Rightarrow$ 3): If $\sum (\alpha_i - \beta_i)\mathbf{v}_i = \mathbf{0}$ Then by linear
 Independence (which follows from (2)), $\alpha_i = \beta_i$ for all $i$.
 
 (3 $\Rightarrow$ 1): If $\sum \alpha_i \mathbf{v}_i = \mathbf{0} = \sum 0 \cdot \mathbf{v}_i$ Then
@@ -244,7 +244,7 @@ Combinations of elements of $S$:
 $$\mathrm{span}(S) = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i : k \in \mathbb{N},\, \alpha_i \in F,\, \mathbf{v}_i \in S \right\}$$
 
 **Proposition 2.2.** $\mathrm{span}(S)$ is always a subspace of $V$. In fact, $\mathrm{span}(S)$ is
-The smallest subspace containing $S$: if $W$ is any subspace with $S \subseteq W$Then
+The smallest subspace containing $S$: if $W$ is any subspace with $S \subseteq W$ Then
 $\mathrm{span}(S) \subseteq W$.
 
 _Proof._ $\mathrm{span}(S)$ is non-empty since $\mathbf{0} = 0 \cdot \mathbf{v}$ for any
@@ -268,8 +268,8 @@ The **dimension** of $V$Denoted $\dim(V)$Is the cardinality of any basis for $V$
 ### 2.4 Steinitz Exchange Lemma
 
 **Lemma 2.3 (Steinitz Exchange Lemma).** Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a linearly
-Independent set in $V$And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
-Then $k \leq m$And after relabelling the $\mathbf{w}_j$The set
+Independent set in $V$ And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
+Then $k \leq m$ And after relabelling the $\mathbf{w}_j$The set
 
 $$\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}$$
 
@@ -280,7 +280,7 @@ _Proof._ We proceed by induction on $k$. For $k = 0$ there is nothing to prove.
 Assume the result holds for $k - 1$. Since $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ is linearly
 Independent, $\mathbf{u}_k \neq \mathbf{0}$ and
 $\mathbf{u}_k \in \mathrm{span}\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ Since the $\mathbf{w}_j$ span
-$V$. Therefore $\mathbf{u}_k = \sum_{j=1}^m \alpha_j \mathbf{w}_j$ for some $\alpha_j \in F$And not
+$V$. Therefore $\mathbf{u}_k = \sum_{j=1}^m \alpha_j \mathbf{w}_j$ for some $\alpha_j \in F$ And not
 all $\alpha_j$ are zero.
 
 After relabelling, assume $\alpha_1 \neq 0$. Then
@@ -309,7 +309,7 @@ $m \leq k$. Hence $k = m$. $\blacksquare$
 ### 2.5 Dimension Formula
 
 **Theorem 2.5 (Dimension Formula).** If $U$ and $W$ are subspaces of a finite-dimensional vector
-Space $V$Then
+Space $V$ Then
 
 $$\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W)$$
 
@@ -334,8 +334,8 @@ $$\mathbf{y} = A\left(\sum_{i=1}^n \alpha_i \mathbf{v}_i\right) = \sum_{i=1}^n \
 
 Since $A\mathbf{v}_i = \mathbf{0}$ for $i \leq k$.
 
-_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$Then
-$A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$So
+_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$ Then
+$A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i \in \mathrm{null}(A)$. Since
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ Is a basis for the null space,
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$Giving
@@ -413,11 +413,11 @@ Write $p(x) = ax^3 + bx^2 + cx + d$. The conditions are:
 
 $p(1) = a + b + c + d = 0$ and $p(-1) = -a + b - c + d = 0$.
 
-Adding: $2b + 2d = 0$So $d = -b$. Subtracting: $2a + 2c = 0$So $c = -a$.
+Adding: $2b + 2d = 0$ So $d = -b$. Subtracting: $2a + 2c = 0$ So $c = -a$.
 
 Therefore $p(x) = ax^3 + bx^2 - ax - b = a(x^3 - x) + b(x^2 - 1)$.
 
-A basis for $W$ is $\{x^3 - x, x^2 - 1\}$And $\dim(W) = 2$.
+A basis for $W$ is $\{x^3 - x, x^2 - 1\}$ And $\dim(W) = 2$.
 
 _If you get this wrong, revise: Section 2.7 (Worked Examples)._
 
@@ -510,7 +510,7 @@ $$\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}$$
 Where $M_{1j}$ is the $(1,j)$-minor (the determinant of the $(n-1) \times (n-1)$ matrix obtained by
 Deleting row 1 and column $j$).
 
-The $(i,j)$-**cofactor** is $C_{ij} = (-1)^{i+j} M_{ij}$So $\det(A) = \sum_{j=1}^n a_{ij} C_{ij}$
+The $(i,j)$-**cofactor** is $C_{ij} = (-1)^{i+j} M_{ij}$ So $\det(A) = \sum_{j=1}^n a_{ij} C_{ij}$
 for any fixed row $i$.
 
 ### 3.5 Properties of Determinants
@@ -533,7 +533,7 @@ $\det$ is multiplied by $\alpha$.
 $$\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix~with~rows~i~and~j~equal})$$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
-Unchanged but multiplies $\det$ by $-1$So $\det = -\det$Hence $\det = 0$). Therefore
+Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
 $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
@@ -555,9 +555,9 @@ $$\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \de
 
 Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
-**Corollary 3.4.** $\det(A^T) = \det(A)$And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
+**Corollary 3.4.** $\det(A^T) = \det(A)$ And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
 
-_Proof._ $AA^{-1} = I$So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
+_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
 the transpose, use the Leibniz formula or observe that row Operations and column operations have the
 same effects on the determinant. $\blacksquare$
 
@@ -574,7 +574,7 @@ Cofactor matrix.
 
 $$A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n$$
 
-In particular, if $\det(A) \neq 0$Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
+In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
 _Proof._ The $(i,j)$-entry of $A \cdot \mathrm{adj}(A)$ is $\sum_{k=1}^n a_{ik} C_{jk}$. When
 $i = j$This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
@@ -635,7 +635,7 @@ $$A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$$
 <details>
 <summary>Solution</summary>
 
-$\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$So $A$ is invertible.
+$\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$ So $A$ is invertible.
 
 Cofactors: $C_{11} = 4$, $C_{12} = -3$, $C_{21} = -2$, $C_{22} = 1$.
 
@@ -669,7 +669,7 @@ $$\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10
 $$\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
 All operations were type 3 (adding a multiple of one row to another), so the determinant is
-Unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$So $\det(A) = 1$.
+Unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$ So $\det(A) = 1$.
 $\blacksquare$
 
 </details>
@@ -684,7 +684,7 @@ Only the product of diagonal entries. $\blacksquare$
 ### 3.9 Common Pitfalls
 
 - **$\det(A + B) \neq \det(A) + \det(B)$ .** For example, with $A = B = I_2$
-  $\det(A + B) = \det(2I_2) = 4$But $\det(A) + \det(B) = 2$.
+  $\det(A + B) = \det(2I_2) = 4$ But $\det(A) + \det(B) = 2$.
 - **The adjugate formula is theoretically important but computationally inefficient.** For large
   matrices, use Gaussian elimination or LU decomposition to compute inverses.
 - **A matrix with $\det(A) = 0$ has no inverse.** Do not attempt to divide by zero.
@@ -705,7 +705,7 @@ Only the product of diagonal entries. $\blacksquare$
 ### 4.1 Gaussian Elimination
 
 A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$Where
-$A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$And
+$A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$ And
 $\mathbf{b} \in \mathbb{R}^m$.
 
 **Gaussian elimination** transforms the augmented matrix $[A \mid \mathbf{b}]$ into **row echelon
@@ -756,7 +756,7 @@ Lower triangular with 1s on the diagonal, and $U$ is upper triangular.
 Admits an LU decomposition.
 
 **Algorithm.** Store the multipliers $m_{ij}$ (used to eliminate entry $a_{ij}$) in the lower
-Triangular portion. The resulting upper triangular matrix is $U$And the multipliers form $L$.
+Triangular portion. The resulting upper triangular matrix is $U$ And the multipliers form $L$.
 
 **Worked Example.** Find the LU decomposition of
 
@@ -815,12 +815,12 @@ $R_3 \to R_3 - \frac{5}{7}R_2$:
 
 $$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}$$
 
-**Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$So $x_3 = 3$.
+**Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$ So $x_3 = 3$.
 
-From row 2: $\frac{7}{3}x_2 + \frac{14}{3}(3) = \frac{29}{3}$So
+From row 2: $\frac{7}{3}x_2 + \frac{14}{3}(3) = \frac{29}{3}$ So
 $\frac{7}{3}x_2 = \frac{29}{3} - 14 = -\frac{13}{3}$ Giving $x_2 = -\frac{13}{7}$.
 
-From row 1: $3x_1 + (-\frac{13}{7}) - 3 = 2$So $3x_1 = 2 + 3 + \frac{13}{7} = \frac{48}{7}$ Giving
+From row 1: $3x_1 + (-\frac{13}{7}) - 3 = 2$ So $3x_1 = 2 + 3 + \frac{13}{7} = \frac{48}{7}$ Giving
 $x_1 = \frac{16}{7}$.
 
 **Solution:** $x_1 = \frac{16}{7}$, $x_2 = -\frac{13}{7}$, $x_3 = 3$. $\blacksquare$
@@ -887,7 +887,7 @@ $$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 
 
 $$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}$$
 
-The last row reads $0 = -1$So the system is **inconsistent** (no solution).
+The last row reads $0 = -1$ So the system is **inconsistent** (no solution).
 
 **Revised problem:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 2$:
 
@@ -984,7 +984,7 @@ $\blacksquare$
 ### 5.4 Cayley--Hamilton Theorem
 
 **Theorem 5.5 (Cayley--Hamilton).** Every square matrix satisfies its own characteristic polynomial:
-If $p(\lambda) = \det(\lambda I - A)$Then $p(A) = 0$ (the zero matrix).
+If $p(\lambda) = \det(\lambda I - A)$ Then $p(A) = 0$ (the zero matrix).
 
 _Proof sketch._ Let $p(\lambda) = \lambda^n + c_{n-1}\lambda^{n-1} + \cdots + c_1\lambda + c_0$. By
 the adjugate formula (Theorem 3.5),
@@ -1029,7 +1029,7 @@ $$A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
 <details>
 <summary>Solution</summary>
 
-The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$So $\lambda = 3$ is the Only
+The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$ So $\lambda = 3$ is the Only
 eigenvalue with algebraic multiplicity 2.
 
 $A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$Which has rank 1, so the geometric
@@ -1060,12 +1060,12 @@ $\mathbf{v} \neq \mathbf{0}$. Then
 
 $$\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}$$
 
-Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$So
+Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$ So
 
 $$\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}$$
 
 Therefore $(\lambda - \overline{\lambda})\overline{\mathbf{v}}^T\mathbf{v} = 0$. Since
-$\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$So
+$\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$ So
 $\lambda \in \mathbb{R}$.
 
 **(2) and (3)** By induction. For $n = 1$ the result is trivial. Assume it holds for
@@ -1130,7 +1130,7 @@ $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$So by Cayley--Hamilton,
+The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$ So by Cayley--Hamilton,
 $A^2 = 7A - 10I$.
 
 To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
@@ -1145,7 +1145,7 @@ $\lambda^{10}\big|_{\lambda=5} = 5^{10} = 9765625 = 5a + b$
 
 $\lambda^{10}\big|_{\lambda=2} = 2^{10} = 1024 = 2a + b$
 
-Subtracting: $3a = 9765625 - 1024 = 9764601$So $a = 3254867$.
+Subtracting: $3a = 9765625 - 1024 = 9764601$ So $a = 3254867$.
 
 $b = 1024 - 2 \cdot 3254867 = 1024 - 6509734 = -6508710$.
 
@@ -1250,7 +1250,7 @@ Induction. $\blacksquare$
 
 If $V$ and $W$ are finite-dimensional with bases
 $\mathcal{B}_V = \{\mathbf{v}_1, \ldots, \mathbf{v}_n\}$ and
-$\mathcal{B}_W = \{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$Then every $T \in \mathcal{L}(V, W)$ is
+$\mathcal{B}_W = \{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ Then every $T \in \mathcal{L}(V, W)$ is
 Uniquely represented by a matrix
 $[T]_{\mathcal{B}_V}^{\mathcal{B}_W} \in \mathcal{M}_{m \times n}(F)$ Where the $j$-th column is the
 coordinate vector of $T(\mathbf{v}_j)$ with respect to $\mathcal{B}_W$.
@@ -1284,8 +1284,8 @@ $$\mathbf{w} = T\left(\sum_{i=1}^n \alpha_i \mathbf{u}_i\right) = \sum_{i=1}^n \
 
 Since $T(\mathbf{u}_i) = \mathbf{0}$ for $i \leq k$.
 
-_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i) = \mathbf{0}$Then
-$T\left(\sum_{i=k+1}^n \alpha_i \mathbf{u}_i\right) = \mathbf{0}$So
+_Linear independence:_ If $\sum_{i=k+1}^n \alpha_i T(\mathbf{u}_i) = \mathbf{0}$ Then
+$T\left(\sum_{i=k+1}^n \alpha_i \mathbf{u}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i \in \ker(T)$. Thus
 $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i = \sum_{j=1}^k \beta_j \mathbf{u}_j$ For some $\beta_j$. By
 linear independence of the full basis, all coefficients are zero.
@@ -1301,18 +1301,18 @@ $V \cong W$.
 **Theorem 6.4.** $T$ is an isomorphism if and only if $\ker(T) = \{\mathbf{0}\}$ and
 $\mathrm{im}(T) = W$.
 
-**Corollary 6.5.** If $\dim(V) = \dim(W) \lt \infty$Then $T$ is injective if and only if $T$ is
+**Corollary 6.5.** If $\dim(V) = \dim(W) \lt \infty$ Then $T$ is injective if and only if $T$ is
 surjective.
 
-_Proof._ If $T$ is injective, $\ker(T) = \{\mathbf{0}\}$So
+_Proof._ If $T$ is injective, $\ker(T) = \{\mathbf{0}\}$ So
 $\dim(\mathrm{im}(T)) = \dim(V) = \dim(W)$ Hence $\mathrm{im}(T) = W$ (a subspace of full dimension
 equals the whole space). Conversely, If $T$ is surjective,
-$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$So $\dim(\ker(T)) = 0$Giving $\ker(T) = \{\mathbf{0}\}$.
+$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$ So $\dim(\ker(T)) = 0$Giving $\ker(T) = \{\mathbf{0}\}$.
 $\blacksquare$
 
 ### 6.6 Change of Basis
 
-If $P$ is the change-of-basis matrix from basis $\mathcal{B}$ to basis $\mathcal{B}'$Then for a
+If $P$ is the change-of-basis matrix from basis $\mathcal{B}$ to basis $\mathcal{B}'$ Then for a
 Linear transformation $T$ with matrix representations $[T]_{\mathcal{B}}$ and $[T]_{\mathcal{B}'}$:
 
 $$[T]_{\mathcal{B}'} = P^{-1}[T]_{\mathcal{B}} P$$
@@ -1330,16 +1330,16 @@ $[T]_{\mathcal{B}} = P^{-1}[T]_{\mathcal{E}} P$.
 <details>
 <summary>Solution</summary>
 
-**(a)** $T(1, 0) = (2, 1)$ and $T(0, 1) = (1, 2)$So
+**(a)** $T(1, 0) = (2, 1)$ and $T(0, 1) = (1, 2)$ So
 
 $$[T]_{\mathcal{E}} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$$
 
 **(b)** Compute $T$ on the basis $\mathcal{B}$:
 
-$T(1, 1) = (3, 3) = 3(1, 1) + 0(1, -1)$So coordinates are
+$T(1, 1) = (3, 3) = 3(1, 1) + 0(1, -1)$ So coordinates are
 $\begin{pmatrix} 3 \\ 0 \end{pmatrix}_{\mathcal{B}}$.
 
-$T(1, -1) = (1, -1) = 0(1, 1) + 1(1, -1)$So coordinates are
+$T(1, -1) = (1, -1) = 0(1, 1) + 1(1, -1)$ So coordinates are
 $\begin{pmatrix} 0 \\ 1 \end{pmatrix}_{\mathcal{B}}$.
 
 $$[T]_{\mathcal{B}} = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}$$
@@ -1360,12 +1360,12 @@ $\blacksquare$
 **Definition.** The **dual space** of a vector space $V$ over $F$Denoted $V^*$Is the space of all
 Linear functionals $f : V \to F$. Elements of $V^*$ are called **covectors**.
 
-**Proposition 6.6.** If $\dim(V) = n \lt \infty$Then $\dim(V^*) = n$.
+**Proposition 6.6.** If $\dim(V) = n \lt \infty$ Then $\dim(V^*) = n$.
 
 _Proof._ Let $\{\mathbf{e}_1, \ldots, \mathbf{e}_n\}$ be a basis for $V$. Define the **dual basis**
 $\{\varphi_1, \ldots, \varphi_n\} \subseteq V^*$ by $\varphi_i(\mathbf{e}_j) = \delta_{ij}$ (the
 Kronecker Delta). Each $\varphi_i$ is a well-defined linear functional since it is defined on a
-basis and Extended linearly. These are linearly independent: if $\sum c_i \varphi_i = 0$Then
+basis and Extended linearly. These are linearly independent: if $\sum c_i \varphi_i = 0$ Then
 applying to $\mathbf{e}_j$ gives $c_j = 0$. They span $V^*$: for any $f \in V^*$,
 $f = \sum_{i=1}^n f(\mathbf{e}_i)\varphi_i$. $\blacksquare$
 
@@ -1391,11 +1391,11 @@ Isomorphism is a special feature of finite-dimensional spaces.
 
 $$S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}$$
 
-**Proposition 6.8.** $S^0$ is a subspace of $V^*$And if $W$ is a subspace of $V$ with
-$\dim(V) = n$Then $\dim(W^0) = n - \dim(W)$.
+**Proposition 6.8.** $S^0$ is a subspace of $V^*$ And if $W$ is a subspace of $V$ with
+$\dim(V) = n$ Then $\dim(W^0) = n - \dim(W)$.
 
 _Proof._ $S^0$ is the intersection of the kernels $\ker(s)$ as $s$ ranges over $S$Where each $s$ Is
-viewed as an element of $V^{**}$ via $\Phi$. Each $\ker(s)$ is a subspace of $V^*$And any
+viewed as an element of $V^{**}$ via $\Phi$. Each $\ker(s)$ is a subspace of $V^*$ And any
 Intersection of subspaces is a subspace.
 
 For the dimension: let $\dim(W) = k$ and extend a basis $\{\mathbf{w}_1, \ldots, \mathbf{w}_k\}$ Of
@@ -1474,7 +1474,7 @@ _Proof._
 $$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \langle \mathbf{u} + \mathbf{v}, \mathbf{u} + \mathbf{v} \rangle = \lVert \mathbf{u} \rVert^2 + 2\,\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle + \lVert \mathbf{v} \rVert^2$$
 
 By Cauchy--Schwarz,
-$\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle \leq \lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$So
+$\mathrm{Re}\langle \mathbf{u}, \mathbf{v} \rangle \leq \lvert\langle \mathbf{u}, \mathbf{v} \rangle\rvert \leq \lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert$ So
 
 $$\lVert \mathbf{u} + \mathbf{v} \rVert^2 \leq \lVert \mathbf{u} \rVert^2 + 2\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert + \lVert \mathbf{v} \rVert^2 = (\lVert \mathbf{u} \rVert + \lVert \mathbf{v} \rVert)^2$$
 
@@ -1487,7 +1487,7 @@ $\langle \mathbf{u}, \mathbf{v} \rangle = 0$. We write $\mathbf{u} \perp \mathbf
 
 An **orthonormal set** $\{e_1, \ldots, e_k\}$ satisfies $\langle e_i, e_j \rangle = \delta_{ij}$.
 
-**Theorem 7.3 (Pythagorean Theorem).** If $\mathbf{u} \perp \mathbf{v}$Then
+**Theorem 7.3 (Pythagorean Theorem).** If $\mathbf{u} \perp \mathbf{v}$ Then
 
 $$\lVert \mathbf{u} + \mathbf{v} \rVert^2 = \lVert \mathbf{u} \rVert^2 + \lVert \mathbf{v} \rVert^2$$
 
@@ -1497,7 +1497,7 @@ $\blacksquare$
 
 **Proposition 7.4.** Every orthonormal set is linearly independent.
 
-_Proof._ If $\sum_{i=1}^k \alpha_i e_i = \mathbf{0}$Then taking the inner product with $e_j$:
+_Proof._ If $\sum_{i=1}^k \alpha_i e_i = \mathbf{0}$ Then taking the inner product with $e_j$:
 $\alpha_j = \langle \sum \alpha_i e_i, e_j \rangle = \langle \mathbf{0}, e_j \rangle = 0$ for each
 $j$. $\blacksquare$
 
@@ -1619,7 +1619,7 @@ $\mathrm{proj_W}(\mathbf{v}) = \frac{5}{\sqrt{2}} \cdot \frac{1}{\sqrt{2}}(1, 0,
 
 $= \frac{5}{2}(1, 0, 1) + \frac{-3}{6}(-1, 2, 1) = (\frac{5}{2}, 0, \frac{5}{2}) + (\frac{1}{2}, -1, -\frac{1}{2}) = (3, -1, 2)$
 
-The residual is $\mathbf{v} - \mathrm{proj_W}(\mathbf{v}) = (0, 0, 0)$So the distance is 0. This
+The residual is $\mathbf{v} - \mathrm{proj_W}(\mathbf{v}) = (0, 0, 0)$ So the distance is 0. This
 means $\mathbf{v} \in W$ itself. Indeed,
 $\mathbf{v} = 3(1, 0, 1) - (0, 1, 1) \in \mathrm{span}\{(1,0,1), (0,1,1)\}$. $\blacksquare$
 
@@ -1642,7 +1642,7 @@ $\mathrm{proj_W}(f) = \langle f, 1 \rangle \cdot 1 = \left(\int_0^1 e^x\,dx\righ
 So the best constant approximation is $c = e - 1 \approx 1.718$.
 
 **Verification:** The error is $e^x - (e-1)$. Expanding $e^x$ as a Taylor series around $x = 1/2$:
-The constant term is $e^{1/2} \approx 1.649$But our answer $e - 1 \approx 1.718$ is the
+The constant term is $e^{1/2} \approx 1.649$ But our answer $e - 1 \approx 1.718$ is the
 $L^2$-optimal constant, not the Taylor approximation. The two optimisation criteria differ.
 $\blacksquare$
 
@@ -1717,10 +1717,10 @@ $$AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A
 
 So $\mathbf{u}_i$ is an eigenvector of $AA^T$ with eigenvalue $\sigma_i^2$. The non-zero eigenvalues
 of $A^T A$ and $AA^T$ coincide (since if $A^T A \mathbf{v} = \lambda \mathbf{v}$ with
-$\lambda \neq 0$Then $AA^T(A\mathbf{v}) = A(A^T A \mathbf{v}) = \lambda(A\mathbf{v})$ and
+$\lambda \neq 0$ Then $AA^T(A\mathbf{v}) = A(A^T A \mathbf{v}) = \lambda(A\mathbf{v})$ and
 $A\mathbf{v} \neq \mathbf{0}$). $\blacksquare$
 
-**Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$Then the
+**Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$ Then the
 singular values of $A$ are $|\lambda_1|, \ldots, |\lambda_n|$.
 
 _Proof._ $A^T A = A^2$Whose eigenvalues are $\lambda_i^2$. The singular values are
@@ -1753,7 +1753,7 @@ $$\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad 
 
 _Proof (Frobenius norm)._ Any rank-$k$ matrix $B$ can be written in terms of an orthonormal basis of
 its column space. Let $W \in \mathcal{M}_{n \times k}(\mathbb{R})$ have orthonormal columns spanning
-the column space of $B$. Then $B = CW^T$ for some $C$And:
+the column space of $B$. Then $B = CW^T$ for some $C$ And:
 
 $$\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2$$
 
@@ -1808,7 +1808,7 @@ $$\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sig
 Where $\sigma_1$ is the largest and $\sigma_r$ is the smallest non-zero singular value.
 
 **Theorem 8.7 (Sensitivity of Linear Systems).** If $A\mathbf{x} = \mathbf{b}$ and
-$A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$Then
+$A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$ Then
 
 $$\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}$$
 
@@ -1839,10 +1839,10 @@ $\det\begin{pmatrix} 17 - \lambda & 4 \\ 4 & 17 - \lambda \end{pmatrix} = (17 - 
 
 So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
 
-**Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$So $v_1 = v_2$.
+**Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$ So $v_1 = v_2$.
 Normalised: $\mathbf{v}_1 = \frac{1}{\sqrt{2}}(1, 1)^T$.
 
-For $\lambda = 13$: $4v_1 + (17 - 13)v_2 = 0$So $v_1 = -v_2$. Normalised:
+For $\lambda = 13$: $4v_1 + (17 - 13)v_2 = 0$ So $v_1 = -v_2$. Normalised:
 $\mathbf{v}_2 = \frac{1}{\sqrt{2}}(1, -1)^T$.
 
 $V = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$.
@@ -1894,7 +1894,7 @@ recompute.
 
 $A^T A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 1 & 0 \\ 1 & 0 & 2 \end{pmatrix}$.
 
-$\mathrm{tr}(A^T A) = 5$So $\lambda_1 + \lambda_2 + \lambda_3 = 5$.
+$\mathrm{tr}(A^T A) = 5$ So $\lambda_1 + \lambda_2 + \lambda_3 = 5$.
 
 $\det(A^T A) = 2(2) - 1(2) - 1(-1) = 4 - 2 + 1 = 3$.
 
@@ -1977,7 +1977,7 @@ that $W$ is a subspace of $V$ and find its dimension.
 <summary>Solution</summary>
 
 $W$ is non-empty since $\mathbf{0} = (0, 0, 0) \in W$. If
-$(x_1, y_1, z_1), (x_2, y_2, z_2) \in W$Then $(x_1 - y_1 + z_1) + (x_2 - y_2 + z_2) = 0 + 0 = 0$So
+$(x_1, y_1, z_1), (x_2, y_2, z_2) \in W$ Then $(x_1 - y_1 + z_1) + (x_2 - y_2 + z_2) = 0 + 0 = 0$ So
 their sum is in $W$. Similarly, $\alpha(x - y + z) = 0$ for any scalar $\alpha$. Hence $W$ is a
 subspace.
 
@@ -1993,7 +1993,7 @@ _If you get this wrong, revise: Section 1.3 (Subspace Criterion)._
 <details>
 <summary>Solution</summary>
 
-No. $(1, 0) \in S$ and $(0, 1) \in S$But $(1, 0) + (0, 1) = (1, 1) \notin S$ since
+No. $(1, 0) \in S$ and $(0, 1) \in S$ But $(1, 0) + (0, 1) = (1, 1) \notin S$ since
 $1 \cdot 1 \neq 0$. $S$ is not closed under addition.
 
 _If you get this wrong, revise: Section 1.3 (Subspace Criterion)._
@@ -2006,8 +2006,8 @@ $\mathcal{P}_2(\mathbb{R})$.
 <details>
 <summary>Solution</summary>
 
-Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$So
-$a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$So $a = 0$Then $b = 0$.
+Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$ So
+$a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$ So $a = 0$ Then $b = 0$.
 Since $a = b = c = 0$The set is linearly independent.
 
 _If you get this wrong, revise: Section 2.1 (Linear Independence)._
@@ -2039,11 +2039,11 @@ in $\mathbb{R}^3$. Verify the dimension formula $\dim(U + W) = \dim(U) + \dim(W)
 <summary>Solution</summary>
 
 $\dim(U) = 2$ (the two spanning vectors are linearly independent), $\dim(W) = 1$. Since
-$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$So $\dim(U + W) = 3$. By
-the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$So $U \cap W = \{\mathbf{0}\}$.
+$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
+the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$ So $U \cap W = \{\mathbf{0}\}$.
 
-We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$Then $a = c$, $b = c$, $a + b = 0$ Giving
-$c = 0$So only the zero vector is in the intersection.
+We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$ Then $a = c$, $b = c$, $a + b = 0$ Giving
+$c = 0$ So only the zero vector is in the intersection.
 
 _If you get this wrong, revise: Section 2.5 (Dimension Formula)._
 
@@ -2076,7 +2076,7 @@ _If you get this wrong, revise: Section 3.4 (Determinants)._
 <summary>Solution</summary>
 
 $\det(A) = \det(A^T) = \det(-A) = (-1)^n \det(A) = -\det(A)$ (since $n$ is odd). Therefore
-$\det(A) = -\det(A)$So $2\det(A) = 0$Giving $\det(A) = 0$.
+$\det(A) = -\det(A)$ So $2\det(A) = 0$Giving $\det(A) = 0$.
 
 _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
@@ -2113,8 +2113,8 @@ $$\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix
 
 $$\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}$$
 
-From row 3: $-6z = -1$So $z = 1/6$. From row 2: $y + 3(1/6) = 2$So $y = 3/2$. From row 1:
-$x + 2(3/2) - 1/6 = 3$So $x = 3 - 3 + 1/6 = 1/6$.
+From row 3: $-6z = -1$ So $z = 1/6$. From row 2: $y + 3(1/6) = 2$ So $y = 3/2$. From row 1:
+$x + 2(3/2) - 1/6 = 3$ So $x = 3 - 3 + 1/6 = 1/6$.
 
 Solution: $x = 1/6$, $y = 3/2$, $z = 1/6$.
 
@@ -2193,7 +2193,7 @@ Is $A$ diagonalisable?
 <details>
 <summary>Solution</summary>
 
-$\det(A - \lambda I) = (2 - \lambda)^3$So $\lambda = 2$ with algebraic multiplicity 3.
+$\det(A - \lambda I) = (2 - \lambda)^3$ So $\lambda = 2$ with algebraic multiplicity 3.
 
 $A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$Which has rank 2. The
 null space is spanned by $(1, 0, 0)^T$. So the geometric multiplicity is 1.
@@ -2240,7 +2240,7 @@ $A$ And $I$Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
 
 $\det(A - \lambda I) = (1 - \lambda)(3 - \lambda) + 2 = \lambda^2 - 4\lambda + 5$.
 
-By Cayley--Hamilton: $A^2 - 4A + 5I = 0$So $A^2 = 4A - 5I$.
+By Cayley--Hamilton: $A^2 - 4A + 5I = 0$ So $A^2 = 4A - 5I$.
 
 $A^3 = A \cdot A^2 = A(4A - 5I) = 4A^2 - 5A = 4(4A - 5I) - 5A = 16A - 20I - 5A = 11A - 20I$.
 
@@ -2260,10 +2260,10 @@ $T(1, 0, 0) = (1, 0)$, $T(0, 1, 0) = (1, 1)$, $T(0, 0, 1) = (0, 1)$.
 
 $[T]_{\mathcal{E}} = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \end{pmatrix}$.
 
-$\ker(T) = \{(x, y, z) : x + y = 0, y + z = 0\} = \{(t, -t, t) : t \in \mathbb{R}\}$So
+$\ker(T) = \{(x, y, z) : x + y = 0, y + z = 0\} = \{(t, -t, t) : t \in \mathbb{R}\}$ So
 $\dim(\ker(T)) = 1$.
 
-$\mathrm{im}(T) = \mathrm{span}\{(1, 0), (1, 1)\} = \mathbb{R}^2$So $\dim(\mathrm{im}(T)) = 2$.
+$\mathrm{im}(T) = \mathrm{span}\{(1, 0), (1, 1)\} = \mathbb{R}^2$ So $\dim(\mathrm{im}(T)) = 2$.
 
 Verify: $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = 1 + 2 = 3 = \dim(\mathbb{R}^3)$. $\blacksquare$
 
@@ -2283,7 +2283,7 @@ $e_1 = \frac{1}{\sqrt{2}}(1, -1, 0)$.
 
 $\mathbf{u}_2 = (1, 0, -1) - \langle (1, 0, -1), e_1 \rangle e_1 = (1, 0, -1) - \frac{1}{\sqrt{2}} \cdot \frac{1}{\sqrt{2}}(1, -1, 0) = (\frac{1}{2}, \frac{1}{2}, -1)$.
 
-$\lVert \mathbf{u}_2 \rVert = \sqrt{1/4 + 1/4 + 1} = \sqrt{3/2}$So
+$\lVert \mathbf{u}_2 \rVert = \sqrt{1/4 + 1/4 + 1} = \sqrt{3/2}$ So
 $e_2 = \frac{1}{\sqrt{6}}(1, 1, -2)$.
 
 $\mathrm{proj_W}(\mathbf{v}) = \langle (1,2,3), e_1 \rangle e_1 + \langle (1,2,3), e_2 \rangle e_2$
@@ -2319,7 +2319,7 @@ its discriminant satisfies $\Delta \leq 0$:
 $4(\mathbf{x} \cdot \mathbf{y})^2 - 4\lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2 \leq 0$
 
 Therefore
-$(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$And
+$(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$ And
 taking square roots gives the result.
 
 Equality holds iff $\Delta = 0$Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
@@ -2358,25 +2358,25 @@ _If you get this wrong, revise: Section 5.4 (Cayley--Hamilton Theorem)._
 
 **Problem 20.** Let $T : \mathcal{P}_2(\mathbb{R}) \to \mathcal{P}_2(\mathbb{R})$ be defined by
 $T(p) = p'$ (the derivative). Find the matrix of $T$ with respect to the basis
-$\mathcal{B} = \{1, x, x^2\}$And determine $\ker(T)$ and $\mathrm{im}(T)$.
+$\mathcal{B} = \{1, x, x^2\}$ And determine $\ker(T)$ and $\mathrm{im}(T)$.
 
 <details>
 <summary>Solution</summary>
 
-$T(1) = 0 = 0 \cdot 1 + 0 \cdot x + 0 \cdot x^2$So coordinates are
+$T(1) = 0 = 0 \cdot 1 + 0 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$.
 
-$T(x) = 1 = 1 \cdot 1 + 0 \cdot x + 0 \cdot x^2$So coordinates are
+$T(x) = 1 = 1 \cdot 1 + 0 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$.
 
-$T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$So coordinates are
+$T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 2 \\ 0 \end{pmatrix}$.
 
 $$[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}$$
 
-$\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$So $\dim(\ker(T)) = 1$.
+$\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$ So $\dim(\ker(T)) = 1$.
 
-$\mathrm{im}(T) = \{p' : p \in \mathcal{P}_2\} = \mathrm{span}\{1, x\}$So
+$\mathrm{im}(T) = \{p' : p \in \mathcal{P}_2\} = \mathrm{span}\{1, x\}$ So
 $\dim(\mathrm{im}(T)) = 2$.
 
 Verify: $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = 1 + 2 = 3 = \dim(\mathcal{P}_2)$. $\blacksquare$

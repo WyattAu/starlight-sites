@@ -81,7 +81,7 @@ energy.
 **Question:** A leaf has a stomatal pore of dimensions $10\ \mu\text{m} \times 40\ \mu\text{m}$. The
 leaf has 200 stomata per $\text{mm}^2$ on the lower surface only. The water vapour concentration
 inside the leaf is $23\ \text{g m}^{-3}$ and outside is $10\ \text{g m}^{-3}$. The diffusion
-coefficient of water vapour in air is $2.4 \times 10^{-5}\ \text{m}^2\text{s}^{-1}$And the boundary
+coefficient of water vapour in air is $2.4 \times 10^{-5}\ \text{m}^2\text{s}^{-1}$ And the boundary
 layer thickness is $1\ \text{mm}$. Estimate the transpiration rate from $1\ \text{cm}^2$ of leaf
 surface in $\text{mg hr}^{-1}$.
 

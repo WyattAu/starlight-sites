@@ -149,7 +149,7 @@ $\mathbb{R} \setminus \{2\}$Which equals the domain of $f^{-1}$. ✓
 
 **Theorem.** The graph of $y = f^{-1}(x)$ is the reflection of $y = f(x)$ in the line $y = x$.
 
-_Proof._ If $(a, b)$ lies on $y = f(x)$Then $b = f(a)$So $a = f^{-1}(b)$Meaning $(b, a)$ lies On
+_Proof._ If $(a, b)$ lies on $y = f(x)$ Then $b = f(a)$ So $a = f^{-1}(b)$Meaning $(b, a)$ lies On
 $y = f^{-1}(x)$. Swapping coordinates is reflection in $y = x$. $\blacksquare$
 
 <hr />
@@ -178,7 +178,7 @@ _Proof._ We consider cases based on the signs of $a$ and $b$.
 
 Case 1: $a, b \geq 0$. Then $|a + b| = a + b = |a| + |b|$. Equality holds.
 
-Case 2: $a, b \leq 0$. Then $a + b \leq 0$So $|a + b| = -(a + b) = -a - b = |a| + |b|$. Equality
+Case 2: $a, b \leq 0$. Then $a + b \leq 0$ So $|a + b| = -(a + b) = -a - b = |a| + |b|$. Equality
 Holds.
 
 Case 3: $a \geq 0$, $b \leq 0$. If $a + b \geq 0$: $|a + b| = a + b \leq a + (-b) = |a| + |b|$. If
@@ -189,8 +189,8 @@ $a \geq -a$I.e., $2a \geq 0$). $\blacksquare$
 
 To solve $|f(x)| = g(x)$:
 
-1. Case 1: $f(x) \geq 0$So $f(x) = g(x)$.
-2. Case 2: $f(x) < 0$So $-f(x) = g(x)$.
+1. Case 1: $f(x) \geq 0$ So $f(x) = g(x)$.
+2. Case 2: $f(x) < 0$ So $-f(x) = g(x)$.
 3. Check solutions against the case conditions.
 
 <details>
@@ -236,8 +236,8 @@ Similarly, $y = f(x) + b$ translates up by $b$.
 | $y = f(-x)$    | Reflection in the $y$-axis |
 | $y = -f(x)$    | Reflection in the $x$-axis |
 
-**Proof for $y = f(-x)$ as reflection in the $y$-axis.** If $(x_0, y_0)$ is on $y = f(x)$Then
-$y_0 = f(x_0)$. The point $(-x_0, y_0)$ satisfies $y_0 = f(-(-x_0)) = f(x_0)$So it lies on
+**Proof for $y = f(-x)$ as reflection in the $y$-axis.** If $(x_0, y_0)$ is on $y = f(x)$ Then
+$y_0 = f(x_0)$. The point $(-x_0, y_0)$ satisfies $y_0 = f(-(-x_0)) = f(x_0)$ So it lies on
 $y = f(-x)$. Reflecting $(x_0, y_0)$ in the $y$-axis gives $(-x_0, y_0)$. $\blacksquare$
 
 ### 5.3 Stretches
@@ -247,7 +247,7 @@ $y = f(-x)$. Reflecting $(x_0, y_0)$ in the $y$-axis gives $(-x_0, y_0)$. $\blac
 | $y = f(ax)$    | Horizontal stretch, scale factor $\frac{1}{a}$ |
 | $y = af(x)$    | Vertical stretch, scale factor $a$             |
 
-**Proof for $y = f(ax)$ as horizontal stretch.** If $(x_0, y_0)$ is on $y = f(x)$Then on
+**Proof for $y = f(ax)$ as horizontal stretch.** If $(x_0, y_0)$ is on $y = f(x)$ Then on
 $y = f(ax)$The same $y$-value occurs when $ax = x_0$I.e., $x = \frac{x_0}{a}$. So
 $(\frac{x_0}{a}, y_0)$ is on the new graph — a horizontal stretch by factor $\frac{1}{a}$.
 $\blacksquare$
@@ -296,7 +296,7 @@ $(fg)(-x) = f(-x)g(-x) = f(x)(-g(x)) = -f(x)g(x) = -(fg)(x)$. $\blacksquare$
 **Theorem.** The only function that is both even and odd is $f(x) = 0$ (the zero function on a
 Symmetric domain).
 
-_Proof._ $f$ even: $f(-x) = f(x)$. $f$ odd: $f(-x) = -f(x)$. Therefore $f(x) = -f(x)$So
+_Proof._ $f$ even: $f(-x) = f(x)$. $f$ odd: $f(-x) = -f(x)$. Therefore $f(x) = -f(x)$ So
 $2f(x) = 0$Hence $f(x) = 0$ for all $x$. $\blacksquare$
 
 <details>
@@ -336,7 +336,7 @@ So $\mathrm{dom}(g \circ f) = \mathbb{R}$.
 <summary>Example</summary>
 Given $f(x) = \frac{1}{x - 1}$ with domain $\mathbb{R} \setminus \{1\}$ and $g(x) = \ln x$ with domain $(0, \infty)$Find the domain of $g \circ f$.
 
-We need $\frac{1}{x-1} > 0$So $x - 1 > 0$Giving $x > 1$.
+We need $\frac{1}{x-1} > 0$ So $x - 1 > 0$Giving $x > 1$.
 
 $\mathrm{dom}(g \circ f) = (1, \infty)$.
 
@@ -351,7 +351,7 @@ the domain of $f$.
 
 **Theorem.** If $f$ is self-inverse, then $f$ is bijective and $f = f^{-1}$.
 
-_Proof._ If $f(f(x)) = x$ for all $x$Then $f$ has an inverse (namely $f$ itself), so $f$ is
+_Proof._ If $f(f(x)) = x$ for all $x$ Then $f$ has an inverse (namely $f$ itself), so $f$ is
 Bijective. And by definition of inverse, $f^{-1} = f$. $\blacksquare$
 
 **Common self-inverse functions:**
@@ -391,7 +391,7 @@ This gives $-4 \lt x^2 - 3x \lt 4$I.e., two separate inequalities:
 
 $x^2 - 3x - 4 \lt 0 \implies (x-4)(x+1) \lt 0 \implies -1 \lt x \lt 4$.
 
-$x^2 - 3x + 4 \gt 0$: discriminant $\Delta = 9 - 16 = -7 \lt 0$And the coefficient of $x^2$ is
+$x^2 - 3x + 4 \gt 0$: discriminant $\Delta = 9 - 16 = -7 \lt 0$ And the coefficient of $x^2$ is
 Positive, so this is always true.
 
 Solution: $-1 \lt x \lt 4$.
@@ -424,7 +424,7 @@ Vertical transformations interact differently.
 
 1. Apply horizontal transformations **first**: the argument is $bx + c$Which is a horizontal stretch
    by factor $1/b$ then a horizontal shift of $-c/b$.
-2. Apply vertical transformations **second**: vertical stretch by $|a|$Reflection if $a < 0$Then
+2. Apply vertical transformations **second**: vertical stretch by $|a|$Reflection if $a < 0$ Then
    vertical shift $d$.
 
 :::caution
@@ -549,7 +549,7 @@ $\left(\frac{3}{2}, -2\right)$.
 <hr />
 
 **Problem 6.** The function $f$ is defined by $f(x) = x^3 - 3x + 1$. Show that $f$ is not injective
-On $\mathbb{R}$And find the largest interval containing $x = 0$ on which $f$ is injective.
+On $\mathbb{R}$ And find the largest interval containing $x = 0$ on which $f$ is injective.
 
 <details>
 <summary>Solution</summary>
@@ -594,7 +594,7 @@ $$-4 < x < \frac{2}{3}$$
 
 <hr />
 
-**Problem 8.** Given $f(x) = e^{2x}$ and $g(x) = \ln(x + 1)$Find $f^{-1}$$g^{-1}$And the Domain of
+**Problem 8.** Given $f(x) = e^{2x}$ and $g(x) = \ln(x + 1)$Find $f^{-1}$$g^{-1}$ And the Domain of
 $f \circ g$.
 
 <details>
@@ -644,11 +644,11 @@ Bijective, and find $f^{-1}$.
 
 <details>
 <summary>Solution</summary>
-**Injective:** $f(x) = x^2 + 4x = (x+2)^2 - 4$. For $x \geq 0$$x + 2 > 0$So $(x+2)^2$ is strictly increasing, hence $f$ is strictly increasing, hence injective.
+**Injective:** $f(x) = x^2 + 4x = (x+2)^2 - 4$. For $x \geq 0$$x + 2 > 0$ So $(x+2)^2$ is strictly increasing, hence $f$ is strictly increasing, hence injective.
 
 **Surjective:** For any $y \geq 0$: $x^2 + 4x - y = 0$. By the quadratic formula:
 $x = \frac{-4 + \sqrt{16 + 4y}}{2} = -2 + \sqrt{4 + y}$. Since $y \geq 0$:
-$\sqrt{4 + y} \geq 2$So $x \geq 0$. Thus every $y \geq 0$ has a preimage.
+$\sqrt{4 + y} \geq 2$ So $x \geq 0$. Thus every $y \geq 0$ has a preimage.
 
 **Inverse:**
 $y = x^2 + 4x \implies x^2 + 4x - y = 0 \implies x = \frac{-4 + \sqrt{16 + 4y}}{2}$
@@ -713,7 +713,7 @@ Since $f(f(x)) = x$$f$ is self-inverse. ✓
 <summary>Solution</summary>
 Factor: $x^2 - 5x + 6 = (x-2)(x-3)$. So $|(x-2)(x-3)| \geq |x-2|$.
 
-If $x = 2$: both sides are $0$So equality holds. $x = 2$ is a solution.
+If $x = 2$: both sides are $0$ So equality holds. $x = 2$ is a solution.
 
 If $x \neq 2$: divide both sides by $|x-2| > 0$:
 
@@ -735,7 +735,7 @@ Of the corresponding points on the graph of $y = 2f(3x - 1) + 4$.
 
 <details>
 <summary>Solution</summary>
-A point $(x_0, y_0)$ on $y = f(x)$ corresponds to a point on the new graph where $f(3x - 1) = y_0$I.e., $3x - 1 = x_0$So $x = (x_0 + 1)/3$. The new $y$-value is $2y_0 + 4$.
+A point $(x_0, y_0)$ on $y = f(x)$ corresponds to a point on the new graph where $f(3x - 1) = y_0$I.e., $3x - 1 = x_0$ So $x = (x_0 + 1)/3$. The new $y$-value is $2y_0 + 4$.
 
 For $(1, 3)$: new point is
 $\left(\frac{1+1}{3}, 2 \times 3 + 4\right) = \left(\frac{2}{3}, 10\right)$.

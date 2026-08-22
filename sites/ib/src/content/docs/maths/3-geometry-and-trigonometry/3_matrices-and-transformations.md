@@ -54,7 +54,7 @@ Matrix. When the dimensions are equal ($m = n$), the matrix is called **square**
 
 ### Matrix Addition and Scalar Multiplication
 
-**Addition.** If $A, B \in \mathcal{M}_{m \times n}(\mathbb{R})$Then $A + B$ is defined Entry-wise:
+**Addition.** If $A, B \in \mathcal{M}_{m \times n}(\mathbb{R})$ Then $A + B$ is defined Entry-wise:
 
 $$
 (A + B)_`\{ij}` = a_`\{ij}` + b_`\{ij}`
@@ -78,7 +78,7 @@ Vector space over $\mathbb{R}$):
 
 ### Matrix Multiplication
 
-If $A$ is $m \times p$ and $B$ is $p \times n$Then the product $C = AB$ is an $m \times n$ matrix
+If $A$ is $m \times p$ and $B$ is $p \times n$ Then the product $C = AB$ is an $m \times n$ matrix
 Whose entries are:
 
 $$
@@ -213,7 +213,7 @@ $$
 \det(A) = a_{11} C_{11} + a_{12} C_{12} + a_{13} C_{13}
 $$
 
-Where the **cofactor** $C_{ij} = (-1)^{i+j} M_{ij}$And $M_{ij}$ is the **minor** (determinant of The
+Where the **cofactor** $C_{ij} = (-1)^{i+j} M_{ij}$ And $M_{ij}$ is the **minor** (determinant of The
 $2 \times 2$ submatrix obtained by deleting row $i$ and column $j$).
 
 Explicitly:
@@ -498,7 +498,7 @@ $$
 E_k = \begin`\{pmatrix}` k & 0 \\ 0 & k \end`\{pmatrix}`
 $$
 
-- $\det(E_k) = k^2$So the area scale factor is $k^2$.
+- $\det(E_k) = k^2$ So the area scale factor is $k^2$.
 - For $k = 1$This is the identity transformation.
 - For $k = -1$This is equivalent to a rotation of $180^\circ$ about the origin.
 
@@ -514,7 +514,7 @@ $$
 S_y = \begin`\{pmatrix}` 1 & 0 \\ 0 & k \end`\{pmatrix}`
 $$
 
-For a stretch parallel to the $x$-axis, $\det(S_x) = k$So the area scale factor is $|k|$. If
+For a stretch parallel to the $x$-axis, $\det(S_x) = k$ So the area scale factor is $|k|$. If
 $0 \lt k \lt 1$The figure is compressed; if $k \gt 1$It is expanded.
 
 **Shears.** A horizontal shear with shear factor $k$ fixes every point on the $x$-axis and shifts
@@ -530,7 +530,7 @@ $$
 H_y = \begin`\{pmatrix}` 1 & 0 \\ k & 1 \end`\{pmatrix}`
 $$
 
-For any shear matrix, $\det = 1$So area is preserved. The $x$-axis (for $H_x$) or $y$-axis (for
+For any shear matrix, $\det = 1$ So area is preserved. The $x$-axis (for $H_x$) or $y$-axis (for
 $H_y$) is point-wise invariant.
 
 ### Composite Transformations
@@ -723,7 +723,7 @@ Not be diagonalisable.
 
 For a $2 \times 2$ matrix with a repeated eigenvalue $\lambda$:
 
-- If $A = \lambda I$Then every non-zero vector is an eigenvector (geometric multiplicity $= 2$), and
+- If $A = \lambda I$ Then every non-zero vector is an eigenvector (geometric multiplicity $= 2$), and
   $A$ is diagonalisable (it is already diagonal).
 - If $A \neq \lambda I$ but has a repeated eigenvalue, the geometric multiplicity is $1$ and $A$ is
   not diagonalisable.
@@ -766,7 +766,7 @@ $-v_1 = 0$$v_3 = 0$$v_2$ is free. Eigenvector: $\begin{pmatrix} 0 \\ 1 \\ 0 \end
 
 $\begin{pmatrix} 0 & 0 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 0 \end{pmatrix} \begin{pmatrix} v_1 \\ v_2 \\ v_3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$
 
-$v_2 + v_3 = 0$$v_3 = -v_2$And $v_1$ is free. Two linearly independent eigenvectors:
+$v_2 + v_3 = 0$$v_3 = -v_2$ And $v_1$ is free. Two linearly independent eigenvectors:
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0 \\ 1 \\ -1 \end{pmatrix}$.
 
 Since the geometric multiplicity of $\lambda_2 = 2$ equals its algebraic multiplicity (both $= 2$),
@@ -792,7 +792,7 @@ $\begin{pmatrix} 4 - 5 & 1 \\ 2 & 3 - 5 \end{pmatrix} \begin{pmatrix} v_1 \\ v_2
 
 $\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix} \begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$
 
-From the first row: $-v_1 + v_2 = 0$So $v_1 = v_2$. The eigenvector is
+From the first row: $-v_1 + v_2 = 0$ So $v_1 = v_2$. The eigenvector is
 $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$ (up to scalar multiples).
 
 **Eigenvector for $\lambda_2 = 2$:**
@@ -801,7 +801,7 @@ $\begin{pmatrix} 4 - 2 & 1 \\ 2 & 3 - 2 \end{pmatrix} \begin{pmatrix} v_1 \\ v_2
 
 $\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix} \begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$
 
-From the first row: $2v_1 + v_2 = 0$So $v_2 = -2v_1$. The eigenvector is
+From the first row: $2v_1 + v_2 = 0$ So $v_2 = -2v_1$. The eigenvector is
 $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
 
 ### Diagonalisation
@@ -813,7 +813,7 @@ $$
 A = PDP^{-1}
 $$
 
-The columns of $P$ are the eigenvectors of $A$And the diagonal entries of $D$ are the Corresponding
+The columns of $P$ are the eigenvectors of $A$ And the diagonal entries of $D$ are the Corresponding
 eigenvalues.
 
 **Theorem.** An $n \times n$ matrix is diagonalisable if and only if it has $n$ linearly independent
@@ -830,7 +830,7 @@ Eigenvectors. This is guaranteed when $A$ has $n$ distinct eigenvalues.
 ### Matrix Powers via Diagonalisation
 
 One of the most powerful applications of diagonalisation is computing large matrix powers. If
-$A = PDP^{-1}$Then:
+$A = PDP^{-1}$ Then:
 
 $$
 A^k = PD^k P^{-1}
@@ -943,7 +943,7 @@ $$
 X = \frac{\begin`\{vmatrix}` e & b \\ f & d \end`\{vmatrix}`}{\det(A)}, \qquad y = \frac{\begin`\{vmatrix}` a & e \\ c & f \end`\{vmatrix}`}{\det(A)}
 $$
 
-Where the numerator for $x$ replaces the first column of $A$ with $\mathbf{b}$And the numerator For
+Where the numerator for $x$ replaces the first column of $A$ with $\mathbf{b}$ And the numerator For
 $y$ replaces the second column.
 
 **General formula (Cramer's Rule):** For each variable $x_i$:
@@ -1029,7 +1029,7 @@ Transform (3D to 2D), and viewport transform (map to screen coordinates). Each s
 Multiplication.
 
 **Composition advantage.** Instead of applying $n$ separate transformations to each of $m$ vertices,
-The transformations are composed into a single matrix $M = T_n \cdots T_2 T_1$And each vertex is
+The transformations are composed into a single matrix $M = T_n \cdots T_2 T_1$ And each vertex is
 Transformed with a single multiplication $M\mathbf{v}$. This reduces the cost from $O(nm)$ to
 $O(n^3 + m)$ matrix operations.
 
@@ -1046,7 +1046,7 @@ Property).
 
 The entry $p_{ij}$ represents the probability of moving from state $i$ to state $j$ in one step.
 
-**State evolution.** If $\mathbf{s}^{(k)}$ is the state probability vector at step $k$Then:
+**State evolution.** If $\mathbf{s}^{(k)}$ is the state probability vector at step $k$ Then:
 
 $$
 \mathbf{s}^{(k)} = \mathbf{s}^{(0)} P^k
@@ -1077,7 +1077,7 @@ $P = \begin{pmatrix} 0.7 & 0.3 \\ 0.4 & 0.6 \end{pmatrix}$
 
 $\mathbf{s}P = \mathbf{s}$ gives $0.7s + 0.4r = s$ and $0.3s + 0.6r = r$.
 
-From the first equation: $-0.3s + 0.4r = 0$So $3s = 4r$.
+From the first equation: $-0.3s + 0.4r = 0$ So $3s = 4r$.
 
 Since $s + r = 1$: $s + \frac{3}{4}s = 1$Giving $s = \frac{4}{7}$ and $r = \frac{3}{7}$.
 
@@ -1409,12 +1409,12 @@ $M = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$.
 
 $$\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
 
-From row 2: $y = 0$. From row 1: $x + 0 = 0$So $x = 0$.
+From row 2: $y = 0$. From row 1: $x + 0 = 0$ So $x = 0$.
 
 The only invariant point is the origin $(0, 0)$.
 
 **Invariant lines:** For an invariant line through the origin, the direction vector must be an
-Eigenvector. Eigenvalues satisfy $(2-\lambda)^2 = 0$So $\lambda = 2$ (repeated).
+Eigenvector. Eigenvalues satisfy $(2-\lambda)^2 = 0$ So $\lambda = 2$ (repeated).
 
 For $\lambda = 2$:
 $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$Giving
@@ -1496,11 +1496,11 @@ $$(\lambda - 1)(\lambda - 3) = 0 \implies \lambda_1 = 1, \lambda_2 = 3$$
 **Eigenvectors:**
 
 $\lambda_1 = 1$:
-$\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \mathbf{0} \implies v_1 = -v_2$So
+$\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \mathbf{0} \implies v_1 = -v_2$ So
 $\mathbf{v}_1 = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 
 $\lambda_2 = 3$:
-$\begin{pmatrix} -1 & 1 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \mathbf{0} \implies v_1 = v_2$So
+$\begin{pmatrix} -1 & 1 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \mathbf{0} \implies v_1 = v_2$ So
 $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 **Diagonalisation:**

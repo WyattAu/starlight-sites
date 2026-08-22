@@ -814,7 +814,7 @@ Which contains the greatest number of molecules?
 A. $1\mathrm{ g}$ of H$_2$ B. $1\mathrm{ g}$ of O$_2$ C. $1\mathrm{ g}$ of N$_2$ D. $1\mathrm{ g}$
 Of CO$_2$
 
-**Answer: A.** Since $n = m/M$And H$_2$ has the smallest molar mass (2 g/mol), $1\mathrm{ g}$ of
+**Answer: A.** Since $n = m/M$ And H$_2$ has the smallest molar mass (2 g/mol), $1\mathrm{ g}$ of
 H$_2$ gives $0.5\mathrm{ mol}$Which is more moles (and thus more molecules) than the others.
 
 ### Question 7 (Paper 2 style)

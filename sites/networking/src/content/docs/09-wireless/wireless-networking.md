@@ -1,7 +1,7 @@
 ---
 
 title: Wireless Networking
-description: "Wireless networking fundamentals and protocols."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"networking\", \"url\": \"https://networking.wyattau.com\"}, {\"name\": \"09 Wireless\","
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Networking

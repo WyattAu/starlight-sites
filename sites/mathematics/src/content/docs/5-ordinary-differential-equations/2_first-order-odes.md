@@ -63,12 +63,12 @@ The ODE $M(x, y)\, dx + N(x, y)\, dy = 0$ is **exact** if
 $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$.
 
 When exact, there exists $\Psi(x, y)$ such that $\frac{\partial \Psi}{\partial x} = M$ and
-$\frac{\partial \Psi}{\partial y} = N$And the solution is $\Psi(x, y) = C$.
+$\frac{\partial \Psi}{\partial y} = N$ And the solution is $\Psi(x, y) = C$.
 
-**Theorem 2.2.** If $M$ and $N$ have continuous partial derivatives on a connected domain $D$Then
+**Theorem 2.2.** If $M$ and $N$ have continuous partial derivatives on a connected domain $D$ Then
 $M\, dx + N\, dy = 0$ is exact if and only if $M_y = N_x$.
 
-_Proof._ If exact, $M = \Psi_x$ and $N = \Psi_y$So $M_y = \Psi_{xy} = \Psi_{yx} = N_x$ by Clairaut.
+_Proof._ If exact, $M = \Psi_x$ and $N = \Psi_y$ So $M_y = \Psi_{xy} = \Psi_{yx} = N_x$ by Clairaut.
 Conversely, if $M_y = N_x$Define
 $\Psi(x, y) = \int_{x_0}^x M(t, y)\, dt + \int_{y_0}^y N(x_0, s)\, ds$. Then $\Psi_x = M(x, y)$ and
 $\Psi_y = \int_{x_0}^x M_y(t, y)\, dt + N(x_0, y) = \int_{x_0}^x N_x(t, y)\, dt + N(x_0, y) = N(x, y) - N(x_0, y) + N(x_0, y) = N(x, y)$.
@@ -91,10 +91,10 @@ Solution: $x^2 y + 3x - y = C$. $\blacksquare$
 If $M_y \neq N_x$One can sometimes find an **integrating factor** $\mu(x, y)$ such that
 $(\mu M)_y = (\mu N)_x$.
 
-**Case 1:** If $\frac{M_y - N_x}{N}$ depends only on $x$Then
+**Case 1:** If $\frac{M_y - N_x}{N}$ depends only on $x$ Then
 $\mu(x) = e^{\int \frac{M_y - N_x}{N}\, dx}$.
 
-**Case 2:** If $\frac{N_x - M_y}{M}$ depends only on $y$Then
+**Case 2:** If $\frac{N_x - M_y}{M}$ depends only on $y$ Then
 $\mu(y) = e^{\int \frac{N_x - M_y}{M}\, dy}$.
 
 ### 2.7 Bernoulli Equations
@@ -109,14 +109,14 @@ $$\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)$$
 
 **Example.** Solve $y' + y = y^2 e^x$.
 
-Here $n = 2$So set $v = y^{-1}$. Then $v' = -y^{-2}y'$And the equation becomes $v' - v = -e^x$.
+Here $n = 2$ So set $v = y^{-1}$. Then $v' = -y^{-2}y'$ And the equation becomes $v' - v = -e^x$.
 Integrating factor: $e^{-x}$. So $(v e^{-x})' = -1$Giving $ve^{-x} = -x + C$, $v = -xe^x + Ce^x$ And
 $y = 1/(C - x)e^x$.
 
 ### 2.8 Existence and Uniqueness
 
 **Theorem 2.3 (Picard-Lindelöf).** If $f$ and $\partial f/\partial y$ are continuous on a rectangle
-Containing $(x_0, y_0)$Then the IVP $y' = f(x, y)$, $y(x_0) = y_0$ has a unique solution in some
+Containing $(x_0, y_0)$ Then the IVP $y' = f(x, y)$, $y(x_0) = y_0$ has a unique solution in some
 Neighbourhood of $x_0$.
 
 ### 2.9 Substitution Methods
@@ -179,7 +179,7 @@ $1 - v'/v^2 = 1 + 1/v^2$
 
 $-v'/v^2 = 1/v^2 \implies v' = -1$
 
-So $v = -x + C$And $y = x + \frac{1}{C - x}$.
+So $v = -x + C$ And $y = x + \frac{1}{C - x}$.
 
 ### 2.13 Worked Example: Newton's Law of Cooling
 
@@ -195,7 +195,7 @@ This is separable: $\frac{dT}{T - 20} = -k\, dt$.
 
 $\ln(T - 20) = -kt + C \implies T = 20 + Ce^{-kt}$.
 
-$T(0) = 90 \implies C = 70$So $T = 20 + 70e^{-kt}$.
+$T(0) = 90 \implies C = 70$ So $T = 20 + 70e^{-kt}$.
 
 $T(10) = 60 \implies 60 = 20 + 70e^{-10k} \implies e^{-10k} = 4/7$.
 
@@ -247,7 +247,7 @@ $M_y = 3x + 4y$, $N_x = 2x + 2y$. Since $M_y \neq N_x$Not exact.
 Check Case 1:
 $\frac{M_y - N_x}{N} = \frac{x + 2y}{x^2 + 2xy} = \frac{x + 2y}{x(x + 2y)} = \frac{1}{x}$.
 
-This depends only on $x$So $\mu(x) = e^{\int 1/x\, dx} = x$.
+This depends only on $x$ So $\mu(x) = e^{\int 1/x\, dx} = x$.
 
 Multiply: $(3x^2y + 2xy^2)\, dx + (x^3 + 2x^2y)\, dy = 0$.
 

@@ -123,7 +123,7 @@ $$P = \frac{240}{1.2} = 200 \text{ N}$$
 Since $200 \lt 300$The block **topples first** at $P = 200$ N.
 
 **(c)** The student's reasoning is flawed because the critical comparison is not just the value of
-$\mu$But the ratio $\frac{h}{d}$ compared to $\frac{1}{\mu}$Where $h$ is the height of
+$\mu$ But the ratio $\frac{h}{d}$ compared to $\frac{1}{\mu}$Where $h$ is the height of
 force application and $d$ is half the base width. Here $\frac{h}{d} = \frac{1.2}{0.4} = 3$ and
 $\frac{1}{\mu} = 2$. Since $3 \gt 2$Toppling occurs first regardless of the specific
 value of $\mu$ being "large." A tall, narrow block with a force applied high up is always more
@@ -222,7 +222,7 @@ $110$ N, which are unequal) indicate it is not.
 
 A uniform ladder of length $6$ m and weight $400$ N rests against a rough vertical wall. The foot of
 the ladder is on rough horizontal ground. The ladder makes an angle of $55°$ with the horizontal.
-The coefficient of friction between the ladder and the wall is $\mu_w = 0.3$And the coefficient of
+The coefficient of friction between the ladder and the wall is $\mu_w = 0.3$ And the coefficient of
 friction between the ladder and the ground is $\mu_g = 0.4$.
 
 **(a)** Find the normal reaction from the wall and the normal reaction from the ground.
@@ -269,7 +269,7 @@ At the wall: $F_w = 0.3R_w$.
 
 At the ground: $F_g = \mu_g R_g = 0.4R_g$.
 
-From horizontal equilibrium: $R_w = F_g = 0.4R_g$So $R_g = \frac{R_w}{0.4} = 2.5R_w$.
+From horizontal equilibrium: $R_w = F_g = 0.4R_g$ So $R_g = \frac{R_w}{0.4} = 2.5R_w$.
 
 From vertical equilibrium: $R_g + F_w = 400 \implies 2.5R_w + 0.3R_w = 400 \implies 2.8R_w = 400$.
 
@@ -313,7 +313,7 @@ Also $R_w = F_g \leq 0.4R_g = 0.4(400 - F_w) = 160 - 0.4F_w$.
 
 And $F_w \leq 0.3R_w$.
 
-If the ground is at limiting friction: $R_w = 160 - 0.4F_w$And substituting into the moment
+If the ground is at limiting friction: $R_w = 160 - 0.4F_w$ And substituting into the moment
 equation:
 
 $$160 - 0.4F_w = (200 + F_w)\cot 55°$$
@@ -509,7 +509,7 @@ However, let me check if there is a different interpretation. Perhaps $R$ is not
 both configurations. Re-reading confirms $PR = 4$ m is fixed.
 
 **Conclusion:** The data is inconsistent. There is no solution. The values $T = 800$ N (with load)
-and $T = 250$ N (without load) cannot both be correct with the beam horizontal, weight $W$And centre
+and $T = 250$ N (without load) cannot both be correct with the beam horizontal, weight $W$ And centre
 of mass at distance $x$ from $P$.
 
 If instead $T = 250$ N in configuration 2 is changed so that the data is consistent, we need

@@ -40,7 +40,7 @@ $K_a = \frac{[\text{CH}_3\text{COO}^-][\text{H}^+]}{[\text{CH}_3\text{COOH}]}$
 Let $x = [\text{H}^+] = [\text{CH}_3\text{COO}^-]$. Then
 $[\text{CH}_3\text{COOH}] \approx 0.150 - x$.
 
-Approximation: since $K_a$ is very small, $x \ll 0.150$So $0.150 - x \approx 0.150$.
+Approximation: since $K_a$ is very small, $x \ll 0.150$ So $0.150 - x \approx 0.150$.
 
 $1.74 \times 10^{-5} = \frac{x^2}{0.150}$
 
@@ -145,7 +145,7 @@ volume of NaOH at the equivalence point. Identify a suitable indicator.
 $[\text{H}^+] = \sqrt{K_a \times c} = \sqrt{1.74 \times 10^{-5} \times 0.100} = 1.32 \times 10^{-3}$.
 $\text{pH} = 2.88$.
 
-(b) At half-equivalence, $[\text{HA}] = [\text{A}^-]$So $\text{pH} = \text{p}K_a = 4.76$.
+(b) At half-equivalence, $[\text{HA}] = [\text{A}^-]$ So $\text{pH} = \text{p}K_a = 4.76$.
 
 (c) At equivalence, all $\text{CH}_3\text{COOH}$ has been converted to $\text{CH}_3\text{COO}^-$.
 The concentration of $\text{CH}_3\text{COO}^-$ is:

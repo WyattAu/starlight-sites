@@ -49,7 +49,7 @@ $\int_{-\infty}^{\infty} \frac{dx}{x^2 + 1} = 2\pi i \cdot \frac{1}{2i} = \pi$. 
 ### 9.4 Integrals Involving Trigonometric Functions
 
 For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$Substitute
-$z = e^{i\theta}$So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
+$z = e^{i\theta}$ So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
 $\sin\theta = \frac{z - z^{-1}}{2i}$.
 
 The integral becomes $\int_{|z|=1} f(z)\, dz$ where $f(z)$ is a rational function.
@@ -76,7 +76,7 @@ $\blacksquare$
 ### 9.6 Jordan"s Lemma
 
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
-Half-plane and $a \gt 0$Then
+Half-plane and $a \gt 0$ Then
 
 $$\lim_{R \to \infty} \int_{C_R} e^{iaz}f(z)\, dz = 0$$
 
@@ -142,7 +142,7 @@ $$\mathrm{PV}\!\int_{-\infty}^{\infty} f(x)\, dx = \lim_{\varepsilon \to 0^+} \l
 **Problem.** Evaluate $\mathrm{PV}\!\int_{-\infty}^{\infty} \frac{\sin x}{x}\, dx$.
 
 Consider $\oint_\gamma \frac{e^{iz}}{z}\, dz$ where $\gamma$ consists of $[-R, -\varepsilon]$
-$[\varepsilon, R]$ on the real axis, small upper semicircle $C_\varepsilon$ around $0$And large
+$[\varepsilon, R]$ on the real axis, small upper semicircle $C_\varepsilon$ around $0$ And large
 Upper semicircle $C_R$.
 
 No poles inside the contour, so the integral is $0$.

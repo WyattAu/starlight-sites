@@ -5,7 +5,7 @@ title: Special Relativity and Electromagnetism
 tags:
   - Physics
   - University
-description: "Maxwell'   s equations in covariant form using the field tensor."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"3 Electromagnetism\","
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,7 +1,7 @@
 ---
 
 title: Projections and Callable Objects
-description: "C++20 projections and callable objects for ranges."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\":"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

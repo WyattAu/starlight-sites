@@ -20,7 +20,7 @@ description: 'A system of linear equations in unknowns can be written as Where C
 ### 4.1 Gaussian Elimination
 
 A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$Where
-$A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$And
+$A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$ And
 $\mathbf{b} \in \mathbb{R}^m$.
 
 **Gaussian elimination** transforms the augmented matrix $[A \mid \mathbf{b}]$ into **row echelon
@@ -71,7 +71,7 @@ Lower triangular with 1s on the diagonal, and $U$ is upper triangular.
 Admits an LU decomposition.
 
 **Algorithm.** Store the multipliers $m_{ij}$ (used to eliminate entry $a_{ij}$) in the lower
-Triangular portion. The resulting upper triangular matrix is $U$And the multipliers form $L$.
+Triangular portion. The resulting upper triangular matrix is $U$ And the multipliers form $L$.
 
 **Worked Example.** Find the LU decomposition of
 
@@ -130,12 +130,12 @@ $R_3 \to R_3 - \frac{5}{7}R_2$:
 
 $$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}$$
 
-**Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$So $x_3 = 3$.
+**Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$ So $x_3 = 3$.
 
-From row 2: $\frac{7}{3}x_2 + \frac{14}{3}(3) = \frac{29}{3}$So
+From row 2: $\frac{7}{3}x_2 + \frac{14}{3}(3) = \frac{29}{3}$ So
 $\frac{7}{3}x_2 = \frac{29}{3} - 14 = -\frac{13}{3}$ Giving $x_2 = -\frac{13}{7}$.
 
-From row 1: $3x_1 + (-\frac{13}{7}) - 3 = 2$So $3x_1 = 2 + 3 + \frac{13}{7} = \frac{48}{7}$ Giving
+From row 1: $3x_1 + (-\frac{13}{7}) - 3 = 2$ So $3x_1 = 2 + 3 + \frac{13}{7} = \frac{48}{7}$ Giving
 $x_1 = \frac{16}{7}$.
 
 **Solution:** $x_1 = \frac{16}{7}$, $x_2 = -\frac{13}{7}$, $x_3 = 3$. $\blacksquare$
@@ -202,7 +202,7 @@ $$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 
 
 $$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}$$
 
-The last row reads $0 = -1$So the system is **inconsistent** (no solution).
+The last row reads $0 = -1$ So the system is **inconsistent** (no solution).
 
 **Revised problem:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 2$:
 

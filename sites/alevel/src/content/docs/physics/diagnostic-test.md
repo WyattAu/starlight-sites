@@ -354,7 +354,7 @@ Release energy by fission — both processes move towards the iron peak.
 
 <details>
 <summary>Q34. The activity of a sample decreases from 400 Bq to 50 Bq in 30 minutes. What is the decay constant?</summary>
-**Answer.** $50/400 = 1/8 = 1/2^3$So 3 half-lives. $t_{1/2} = 30/3 = 10$ min $= 600$ s.
+**Answer.** $50/400 = 1/8 = 1/2^3$ So 3 half-lives. $t_{1/2} = 30/3 = 10$ min $= 600$ s.
 $\lambda = \ln 2/t_{1/2} = 0.693/600 = 1.16 \times 10^{-3}$ s$^{-1}$.
 
 <b>If you get this wrong, revise:</b>
@@ -470,7 +470,7 @@ Should ideally have zero resistance.)
 
 <details>
 <summary>Q45. A graph of $\ln I$ vs $t$ for a discharging capacitor gives a straight line with gradient $-0.125$ s$^{-1}$. What is the time constant?</summary>
-**Answer.** For discharging: $I = I_0 e^{-t/RC}$So $\ln I = \ln I_0 - t/(RC)$. Gradient
+**Answer.** For discharging: $I = I_0 e^{-t/RC}$ So $\ln I = \ln I_0 - t/(RC)$. Gradient
 $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 <b>If you get this wrong, revise:</b> [Capacitance](electricity/03-capacitance)

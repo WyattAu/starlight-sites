@@ -137,7 +137,7 @@ To 5 decimal places: $0.97176$.
 **Question:**
 
 **(a)** Differentiate both sides of the identity
-$\displaystyle\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n$ for $|x| \lt 1$ with respect to $x$And hence
+$\displaystyle\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n$ for $|x| \lt 1$ with respect to $x$ And hence
 find $\displaystyle\sum_{n=1}^{\infty} nx^{n-1}$.
 
 **(b)** Use your result to find the exact value of $\displaystyle\sum_{n=1}^{\infty} \frac{n}{2^n}$.

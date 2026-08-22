@@ -45,11 +45,11 @@ Classified as:
 Continuous wherever $q(x) \neq 0$. The functions $\sin x$, $\cos x$, $e^x$, $\ln x$ are continuous
 On their domains.
 
-**Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$Then $f+g$
-$f-g$, $fg$And (where defined) $f/g$ are continuous at $a$.
+**Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$ Then $f+g$
+$f-g$, $fg$ And (where defined) $f/g$ are continuous at $a$.
 
 **Theorem 4.2.** Compositions of continuous functions are continuous: if $f$ is continuous at $a$
-and $g$ is continuous at $f(a)$Then $g \circ f$ is continuous at $a$.
+and $g$ is continuous at $f(a)$ Then $g \circ f$ is continuous at $a$.
 
 ### 4.2a Sequential Characterization of Limits and Continuity
 
@@ -82,10 +82,10 @@ $f(b) \lt y \lt f(a)$), then there exists $c \in (a,b)$ such that $f(c) = y$.
 _Proof._ Assume $f(a) \lt y \lt f(b)$. Let $S = \{x \in [a,b] : f(x) \lt y\}$. Since $a \in S$ $S$
 is non-empty and bounded above by $b$. Let $c = \sup(S)$. We show $f(c) = y$.
 
-If $f(c) \lt y$Then by continuity at $c$There exists $\delta > 0$ such that $f(x) \lt y$ for
+If $f(c) \lt y$ Then by continuity at $c$There exists $\delta > 0$ such that $f(x) \lt y$ for
 $x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$Contradicting that $c = \sup(S)$.
 
-If $f(c) > y$Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
+If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
 $x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$Contradicting
 That $c = \sup(S)$.
 
@@ -96,7 +96,7 @@ Given $[a_n, b_n]$ with $f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If 
 $a_{n+1} = a_n$, $b_{n+1} = m_n$. If $f(m_n) \lt y$ Set $a_{n+1} = m_n$, $b_{n+1} = b_n$. Either
 way, $f(a_n) \lt y \leq f(b_n)$ and $b_n - a_n = (b-a)/2^n \to 0$. By the nested interval property,
 $a_n \to c$ and $b_n \to c$. By continuity, $f(c) = \lim f(a_n) \leq y$ And
-$f(c) = \lim f(b_n) \geq y$So $f(c) = y$. $\blacksquare$
+$f(c) = \lim f(b_n) \geq y$ So $f(c) = y$. $\blacksquare$
 
 ### 4.4 Extreme Value Theorem
 
@@ -106,7 +106,7 @@ all $x \in [a,b]$.
 
 _Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$There exists
 $x_n \in [a,b]$ with $|f(x_n)| > n$. By Bolzano-Weierstrass, $(x_n)$ has a convergent subsequence
-$x_{n_k} \to c \in [a,b]$. By continuity, $f(x_{n_k}) \to f(c)$So $(f(x_{n_k}))$ is bounded. But
+$x_{n_k} \to c \in [a,b]$. By continuity, $f(x_{n_k}) \to f(c)$ So $(f(x_{n_k}))$ is bounded. But
 $|f(x_{n_k})| > n_k \to \infty$A contradiction.
 
 Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$Choose
@@ -128,7 +128,7 @@ point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
 ### 4.6 The Heine-Cantor Theorem
 
 **Theorem 4.5 (Heine-Cantor).** If $f : [a,b] \to \mathbb{R}$ is continuous on the closed, bounded
-Interval $[a,b]$Then $f$ is uniformly continuous on $[a,b]$.
+Interval $[a,b]$ Then $f$ is uniformly continuous on $[a,b]$.
 
 _Proof._ Suppose $f$ is continuous on $[a,b]$ but not uniformly continuous. Then there exists
 $\varepsilon > 0$ such that for every $n \in \mathbb{N}$There exist $x_n, y_n \in [a,b]$ with
@@ -139,7 +139,7 @@ Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$We have $y_{n_k} \to c$ as well.
 
 By continuity of $f$ at $c$: there exists $\delta > 0$ such that $|x - c| \lt \delta$ implies
 $|f(x) - f(c)| \lt \varepsilon/2$. For $k$ sufficiently large, $|x_{n_k} - c| \lt \delta$ and
-$|y_{n_k} - c| \lt \delta$So:
+$|y_{n_k} - c| \lt \delta$ So:
 
 $$|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon$$
 
@@ -176,7 +176,7 @@ _Solution._ We have $f(3) = 9$. Let $\varepsilon > 0$. Compute:
 
 $$|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|$$
 
-Restrict to $\delta \leq 1$So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
+Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
 
 Choose $\delta = \min(1, \varepsilon/7)$. Then $|x - 3| \lt \delta$ implies:
 
@@ -191,7 +191,7 @@ $\blacksquare$
 
 _Solution._ We show the negation of uniform continuity. Take $\varepsilon = 1$. For any $\delta > 0$
 Choose $n \in \mathbb{N}$ with $1/n \lt \delta$. Set $x = 1/n$ and $y = 1/(2n)$. Then
-$|x - y| = 1/(2n) \lt 1/n \lt \delta$But:
+$|x - y| = 1/(2n) \lt 1/n \lt \delta$ But:
 
 $$|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon$$
 
@@ -249,7 +249,7 @@ _Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$Which 
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
 So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
-Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$So $x \lt a + 1$ and
+Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x \lt a + 1$ and
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
 $|x - a| \lt \delta$:
 

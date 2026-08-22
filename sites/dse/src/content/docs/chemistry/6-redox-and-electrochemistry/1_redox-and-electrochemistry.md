@@ -69,7 +69,7 @@ Oxidation numbers are assigned to atoms using the following rules:
 2. The oxidation number of a simple ion equals its charge.
 3. In compounds, the sum of all oxidation numbers equals the overall charge.
 4. In most compounds, hydrogen is $+1$ (except in metal hydrides where it is $-1$).
-5. In most compounds, oxygen is $-2$ (except in peroxides where it is $-1$And in $\mathrm{OF_2}$
+5. In most compounds, oxygen is $-2$ (except in peroxides where it is $-1$ And in $\mathrm{OF_2}$
    where it is $+2$).
 6. Fluorine is always $-1$ in its compounds.
 
@@ -209,7 +209,7 @@ are extracted by **electrolysis** of their molten compounds ( chlorides or Oxide
   point.
 - At the cathode: $\mathrm{Al^{3+}} + 3e^- \to \mathrm{Al}$
 - At the anode: $2\mathrm{O^{2-}} \to \mathrm{O_2} + 4e^-$
-- The oxygen reacts with the carbon anodes to form $\mathrm{CO_2}$So the anodes must be replaced
+- The oxygen reacts with the carbon anodes to form $\mathrm{CO_2}$ So the anodes must be replaced
   periodically.
 
 ### Metals Below Carbon in the Reactivity Series
@@ -537,7 +537,7 @@ whether the reaction is spontaneous.
 <details>
 <summary>Solution</summary>
 
-Iron has the more positive $E^\circ$So it undergoes reduction (cathode).
+Iron has the more positive $E^\circ$ So it undergoes reduction (cathode).
 
 $$E^\circ_{\mathrm{cell}} = -0.44 - (-2.37) = 1.93 \mathrm{ V}$$
 
@@ -622,7 +622,7 @@ of Molten $\mathrm{Al_2O_3}$ is required.
 **Question 4:** Predict the products of electrolysis of concentrated aqueous $\mathrm{NaCl}$ with
 Inert electrodes.
 
-Cathode: $\mathrm{Na}$ is more reactive than $\mathrm{H}$So $\mathrm{H_2}$ is produced:
+Cathode: $\mathrm{Na}$ is more reactive than $\mathrm{H}$ So $\mathrm{H_2}$ is produced:
 $2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 2\mathrm{OH^-}$
 
 Anode: $\mathrm{Cl^-}$ is a halide and is present in high concentration (concentrated), so

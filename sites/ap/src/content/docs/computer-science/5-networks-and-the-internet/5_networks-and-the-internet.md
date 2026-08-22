@@ -791,7 +791,7 @@ subnets.
 <details>
 <summary>Answer</summary>
 
-Current: /24 means 8 bits for hosts (256 addresses). To create 6 subnets, need $2^n \ge 6$So $n = 3$
+Current: /24 means 8 bits for hosts (256 addresses). To create 6 subnets, need $2^n \ge 6$ So $n = 3$
 bits borrowed (8 subnets).
 
 New subnet mask: /27 (24 + 3) = 255.255.255.224.

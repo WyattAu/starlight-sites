@@ -32,7 +32,7 @@ tableOfContents: false
 **Question:**
 
 Three point charges are placed on the $x$-axis: $q_1 = +4.0\,\mu\text{C}$ at
-$x = 0$, $q_2 = -3.0\,\mu\text{C}$ at $x = 0.10\,\text{m}$And $q_3 = +2.0\,\mu\text{C}$ at
+$x = 0$, $q_2 = -3.0\,\mu\text{C}$ at $x = 0.10\,\text{m}$ And $q_3 = +2.0\,\mu\text{C}$ at
 $x = 0.20\,\text{m}$. Take $k = 8.99 \times 10^9\,\text{N}\,\text{m}^2\,\text{C}^{-2}$.
 
 (a) Calculate the net electric field at $x = 0.15\,\text{m}$.
@@ -205,7 +205,7 @@ Period:
 $T = \frac{2\pi m_e}{eB} = \frac{2\pi \times 9.11 \times 10^{-31}}{1.6 \times 10^{-19} \times 0.50} = \frac{5.724 \times 10^{-30}}{8.0 \times 10^{-20}} = 7.16 \times 10^{-11}\,\text{s}$
 
 (c) The magnetic force is always perpendicular to the velocity
-($\vec{F} = q\vec{v} \times \vec{B}$And the cross product is perpendicular to $\vec{v}$). Since
+($\vec{F} = q\vec{v} \times \vec{B}$ And the cross product is perpendicular to $\vec{v}$). Since
 power $= \vec{F} \cdot \vec{v} = 0$The magnetic force does no work. The kinetic energy and therefore
 the speed remain constant.
 
@@ -260,7 +260,7 @@ since $E$ is in $-y$ and $q$ is positive)
 Magnetic force:
 $F_B = qvB = 1.6 \times 10^{-19} \times 1.0 \times 10^5 \times 0.10 = 1.6 \times 10^{-15}\,\text{N}$
 
-Using the right-hand rule for positive charge: $\vec{v} = v\hat{i}$, $\vec{B} = -B\hat{k}$So
+Using the right-hand rule for positive charge: $\vec{v} = v\hat{i}$, $\vec{B} = -B\hat{k}$ So
 $\vec{v} \times \vec{B} = vB(\hat{i} \times (-\hat{k})) = vB\hat{j}$. Force $= qvB\hat{j}$I.e. In
 the $+y$ direction.
 
@@ -357,7 +357,7 @@ confirming energy conservation.
 **Question:**
 
 A circuit contains a $12\,\text{V}$ battery with negligible internal resistance, a resistor
-$R = 100\,\Omega$And an inductor $L = 0.50\,\text{H}$ in series. A switch is closed at $t = 0$.
+$R = 100\,\Omega$ And an inductor $L = 0.50\,\text{H}$ in series. A switch is closed at $t = 0$.
 
 (a) Calculate the time constant of the circuit and the current at $t = 5.0\,\text{ms}$.
 

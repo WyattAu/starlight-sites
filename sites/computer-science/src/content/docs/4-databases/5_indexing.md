@@ -145,7 +145,7 @@ Root: [30]
   └── Leaf: [30]
 ```
 
-Wait -- after deleting 10, the leaf $[10]$ should become $[]$And merging with $[5]$ gives $[5]$. Let
+Wait -- after deleting 10, the leaf $[10]$ should become $[]$ And merging with $[5]$ gives $[5]$. Let
 me retrace. The point is that deletion can trigger cascading merges up the tree.
 
 </details>

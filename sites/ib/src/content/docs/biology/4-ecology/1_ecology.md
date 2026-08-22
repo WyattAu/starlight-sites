@@ -423,7 +423,7 @@ Of heterozygous individuals, and the percentage of the population that is homozy
 <details>
 <summary>Answer</summary>
 
-White flowers are homozygous recessive ($rr$): $q^2 = 0.16$So $q = 0.4$.
+White flowers are homozygous recessive ($rr$): $q^2 = 0.16$ So $q = 0.4$.
 
 $p = 1 - q = 1 - 0.4 = 0.6$.
 
@@ -685,7 +685,7 @@ cycles independently of predation.
 - **Confusing GPP and NPP**: GPP is total photosynthetic output; NPP is what remains after plant
   respiration. NPP is the energy available to consumers.
 - **Assuming all nitrogen is available to plants**: atmospheric $\mathrm{N}_2$ is inert and
-  unavailable. Plants can only use fixed forms: $\mathrm{NH}_4^+$$\mathrm{NO}_2^-$And
+  unavailable. Plants can only use fixed forms: $\mathrm{NH}_4^+$$\mathrm{NO}_2^-$ And
   $\mathrm{NO}_3^-$.
 
 ---

@@ -272,7 +272,7 @@ For the $3p$ orbital ($n = 3$$l = 1$):
 ### Penetration and Shielding
 
 **Penetration** describes the ability of an electron in an outer orbital to approach the nucleus.
-The $s$ orbitals have the greatest penetration, followed by $p$Then $d$Then $f$.
+The $s$ orbitals have the greatest penetration, followed by $p$ Then $d$ Then $f$.
 
 This explains why $4s$ fills before $3d$: the $4s$ electron has greater penetration and lower energy
 Than the $3d$ electron. However, once the $3d$ subshell is occupied, the increased shielding raises
@@ -720,7 +720,7 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 ## Common Pitfalls
 
 - **Writing electron configurations in the wrong order**: The filling order (Aufbau) differs from
-  the writing order for transition metals. $4s$ fills before $3d$But in the written configuration
+  the writing order for transition metals. $4s$ fills before $3d$ But in the written configuration
   $3d$ is listed before $4s$ for neutral atoms: $[\mathrm{Ar}]\, 3d^x\, 4s^y$.
 
 - **Removing the wrong electrons when forming cations**: Transition metal ions lose $4s$ electrons

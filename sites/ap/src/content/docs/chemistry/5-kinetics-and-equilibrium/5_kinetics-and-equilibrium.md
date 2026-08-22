@@ -225,7 +225,7 @@ Step 1 (fast equilibrium): $\mathrm{NO + \mathrm{NO \rightleftharpoons \mathrm{N
 
 Step 2 (slow): $\mathrm{N_2\mathrm{O_2 + \mathrm{O_2 \to 2\mathrm{NO_2$
 
-From step 1: $K = \frac{[\mathrm{N_2\mathrm{O_2]}{[\mathrm{NO]^2}$So
+From step 1: $K = \frac{[\mathrm{N_2\mathrm{O_2]}{[\mathrm{NO]^2}$ So
 $[\mathrm{N_2\mathrm{O_2] = K[\mathrm{NO]^2$.
 
 Rate from step 2:
@@ -537,7 +537,7 @@ Step 1 (fast equilibrium): $\mathrm{NO + \mathrm{NO \rightleftharpoons \mathrm{N
 
 Step 2 (slow): $\mathrm{N_2\mathrm{O_2 + \mathrm{O_2 \to 2\mathrm{NO_2$
 
-From step 1: $K = \frac{[\mathrm{N_2\mathrm{O_2]}{[\mathrm{NO]^2}$So
+From step 1: $K = \frac{[\mathrm{N_2\mathrm{O_2]}{[\mathrm{NO]^2}$ So
 $[\mathrm{N_2\mathrm{O_2] = K[\mathrm{NO]^2$.
 
 Rate from step 2:
@@ -726,7 +726,7 @@ Rate law: $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$.
 
 Overall order: $1 + 2 = 3$.
 
-Using experiment 1: $0.0020 = k(0.10)(0.10)^2 = k(0.001)$So
+Using experiment 1: $0.0020 = k(0.10)(0.10)^2 = k(0.001)$ So
 $k = 0.0020 / 0.001 = 2.0 \mathrm{ M^{-2}s^{-1}}$.
 
 </details>
@@ -847,7 +847,7 @@ $\mathrm{PbCl_2(s) \rightleftharpoons \mathrm{Pb^{2+}(aq) + 2\mathrm{Cl^-(aq)$
 
 $K_{sp} = [\mathrm{Pb^{2+}][\mathrm{Cl^-]^2 = s \times (2s)^2 = 4s^3 = 1.7 \times 10^{-5}$
 
-$s^3 = 4.25 \times 10^{-6}$So $s = 1.62 \times 10^{-2} \mathrm{ M$.
+$s^3 = 4.25 \times 10^{-6}$ So $s = 1.62 \times 10^{-2} \mathrm{ M$.
 
 (b) In $0.10 \mathrm{ M$ $\mathrm{NaCl$: $[\mathrm{Cl^-] = 0.10 \mathrm{ M$ initially.
 

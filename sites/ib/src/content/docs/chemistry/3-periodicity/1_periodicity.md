@@ -504,7 +504,7 @@ Is scandium a transition metal? Justify using the IB definition.
 <summary>Solution</summary>
 
 The IB defines a transition metal as an element with a partially filled $d$-subshell in the atom or
-any common oxidation state. Scandium has the electron configuration $[\mathrm{Ar}]\,3d^1\,4s^2$So
+any common oxidation state. Scandium has the electron configuration $[\mathrm{Ar}]\,3d^1\,4s^2$ So
 its atom has a partially filled $d$-subshell. However, its only common oxidation state is
 $\mathrm{Sc}^{3+}$ with configuration $[\mathrm{Ar}]\,3d^0$ — an empty $d$-subshell. Since no common
 ion of scandium has a partially filled $d$-subshell, scandium is **not** classified as a transition
@@ -594,7 +594,7 @@ $\mathrm{CO}_3^{2-}$ ion, so $\mathrm{Na}_2\mathrm{CO}_3$ does not decompose on 
 $851\degree\mathrm{C}$ without decomposition). $\mathrm{Mg}^{2+}$ has the highest charge density
 among these three (small radius, $+2$ charge), so it most effectively polarises the carbonate ion
 and destabilises it, giving the lowest decomposition temperature ($\approx 540\degree\mathrm{C}$).
-$\mathrm{Ca}^{2+}$ is larger than $\mathrm{Mg}^{2+}$So it has lower polarising power, making
+$\mathrm{Ca}^{2+}$ is larger than $\mathrm{Mg}^{2+}$ So it has lower polarising power, making
 $\mathrm{CaCO}_3$ more thermally stable ($\approx 840\degree\mathrm{C}$).
 
 </details>
@@ -677,7 +677,7 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
    charge.
 
 2. **[Medium]** A student adds aqueous silver nitrate to three separate test tubes containing
-   $\mathrm{NaCl}(aq)$$\mathrm{NaBr}(aq)$And $\mathrm{NaI}(aq)$. Describe the observations at each
+   $\mathrm{NaCl}(aq)$$\mathrm{NaBr}(aq)$ And $\mathrm{NaI}(aq)$. Describe the observations at each
    step, including what happens when dilute and concentrated ammonia are subsequently added.
 
 3. **[Hard]** Write balanced equations for the reactions of sulfur dioxide with: (a) water, (b)

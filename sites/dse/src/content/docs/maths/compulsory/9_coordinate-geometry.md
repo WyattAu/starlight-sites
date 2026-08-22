@@ -213,7 +213,7 @@ Using the tangent formula: $x_1 x + y_1 y = r^2$:
 
 $$3x + 4y = 25$$
 
-Alternatively, the radius has slope $4/3$So the tangent has slope $-3/4$:
+Alternatively, the radius has slope $4/3$ So the tangent has slope $-3/4$:
 
 $$y - 4 = -\frac{3}{4}(x - 3) \implies 4(y - 4) = -3(x - 3) \implies 4y - 16 = -3x + 9 \implies 3x + 4y - 25 = 0$$
 
@@ -317,7 +317,7 @@ Perpendicular slope: $m_\perp = -2/3$.
 
 $$y - 4 = -\frac{2}{3}(x - 4) \implies 3(y - 4) = -2(x - 4) \implies 3y - 12 = -2x + 8 \implies 2x + 3y - 20 = 0$$
 
-1. **Question:** Find the equation of the circle passing through $(1, 2)$, $(3, 4)$And $(5, 2)$.
+1. **Question:** Find the equation of the circle passing through $(1, 2)$, $(3, 4)$ And $(5, 2)$.
 
 General form: $x^2 + y^2 + Dx + Ey + F = 0$.
 
@@ -346,7 +346,7 @@ Substitute $y = x + 1$:
 $x^2 + (x + 1)^2 = 2 \implies x^2 + x^2 + 2x + 1 - 2 = 0 \implies 2x^2 + 2x - 1 = 0$.
 
 $\Delta = 4 + 8 = 12 \gt 0$. This is not a tangent -- there are two intersection points. Let me
-Re-check. Actually $\Delta = 4 - 4(2)(-1) = 4 + 8 = 12 \neq 0$So the line is not a tangent to this
+Re-check. Actually $\Delta = 4 - 4(2)(-1) = 4 + 8 = 12 \neq 0$ So the line is not a tangent to this
 Circle. Let me try the circle $x^2 + y^2 = 1$ instead:
 
 $x^2 + (x+1)^2 = 1 \implies 2x^2 + 2x = 0 \implies 2x(x + 1) = 0$. $\Delta = 4 - 0 = 4 \gt 0$. Still
@@ -362,7 +362,7 @@ Contact: $x = -1/2$, $y = 1/2$. Point: $(-1/2, 1/2)$.
 Distance
 $= \dfrac{|C_2 - C_1|}{\sqrt{A^2 + B^2}} = \dfrac{|11 - (-5)|}{\sqrt{9 + 16}} = \dfrac{16}{5} = 3.2$.
 
-1. **Question:** The points $A(-1, 3)$, $B(2, k)$And $C(5, -1)$ are collinear. Find $k$.
+1. **Question:** The points $A(-1, 3)$, $B(2, k)$ And $C(5, -1)$ are collinear. Find $k$.
 
 For collinearity, the slope of $AB$ equals the slope of $BC$:
 
@@ -370,7 +370,7 @@ $$\frac{k - 3}{2 - (-1)} = \frac{-1 - k}{5 - 2} \implies \frac{k - 3}{3} = \frac
 
 $$k - 3 = -1 - k \implies 2k = 2 \implies k = 1$$
 
-1. **Question:** Find the area of the quadrilateral with vertices $(0, 0)$$(4, 0)$$(5, 3)$And
+1. **Question:** Find the area of the quadrilateral with vertices $(0, 0)$$(4, 0)$$(5, 3)$ And
    $(1, 4)$.
 
 Using the shoelace formula with vertices in order:
@@ -473,7 +473,7 @@ $\dfrac{4}{\sqrt{2}} = 2\sqrt{2} = \sqrt{8}$. Correct.
 
 **Worked Example 10: Triangle formed by three lines**
 
-Find the area of the triangle formed by $\ell_1: x + y = 6$, $\ell_2: x - y = 2$And
+Find the area of the triangle formed by $\ell_1: x + y = 6$, $\ell_2: x - y = 2$ And
 $\ell_3: 2x + y = 9$.
 
 <details>
@@ -526,7 +526,7 @@ Reflection: $P'\!\left(\dfrac{8}{5}, \dfrac{24}{5}\right)$.
 
 **Worked Example 12: Circle through three points**
 
-Find the equation of the circle through $P(0, 1)$, $Q(2, 3)$And $R(4, 1)$.
+Find the equation of the circle through $P(0, 1)$, $Q(2, 3)$ And $R(4, 1)$.
 
 <details>
 <summary>Solution</summary>
@@ -603,7 +603,7 @@ Verification: $(4-2)^2 + (1-1)^2 = 4 = r^2$. Correct.
 
 ## Exam-Style Problems
 
-**Problem 1.** The points $A(-2, 3)$, $B(4, 7)$And $C(k, -1)$ form a triangle with area $30$. Find
+**Problem 1.** The points $A(-2, 3)$, $B(4, 7)$ And $C(k, -1)$ form a triangle with area $30$. Find
 the possible values of $k$.
 
 <details>
@@ -678,7 +678,7 @@ Expanding: $x^2 + y^2 - 4x - 3y = 0$.
 
 </details>
 
-**Problem 5.** Determine whether the triangle with vertices $P(1, 2)$, $Q(5, 5)$And $R(8, 1)$ is
+**Problem 5.** Determine whether the triangle with vertices $P(1, 2)$, $Q(5, 5)$ And $R(8, 1)$ is
 right-angled.
 
 <details>
@@ -697,7 +697,7 @@ Verification by Pythagoras: $PQ^2 = 25$$QR^2 = 25$$PR^2 = 49 + 1 = 50$. Indeed $
 </details>
 
 **Problem 6.** Find the equation of the perpendicular bisector of the segment joining $(-1, 5)$ and
-$(3, -1)$And verify that $(1, 2)$ lies on it.
+$(3, -1)$ And verify that $(1, 2)$ lies on it.
 
 <details>
 <summary>Solution</summary>
@@ -989,7 +989,7 @@ equation.
 <details>
 <summary>Solution</summary>
 
-Since the circle touches the $y$-axis at $(0, 3)$The centre lies on the horizontal line $y = 3$So
+Since the circle touches the $y$-axis at $(0, 3)$The centre lies on the horizontal line $y = 3$ So
 the centre is $C(r, 3)$ where $r$ is the radius.
 
 Equation: $(x - r)^2 + (y - 3)^2 = r^2$.
@@ -1003,7 +1003,7 @@ Equation: $(x - 2)^2 + (y - 3)^2 = 4$Or $x^2 + y^2 - 4x - 6y + 9 = 0$.
 
 </details>
 
-**DSE Practice 3.** Find the equation of the circle passing through $(1, 0)$, $(0, 1)$And $(-1, 0)$.
+**DSE Practice 3.** Find the equation of the circle passing through $(1, 0)$, $(0, 1)$ And $(-1, 0)$.
 
 <details>
 <summary>Solution</summary>

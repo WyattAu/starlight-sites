@@ -87,7 +87,7 @@ $$\delta\mathcal{L} = -i\epsilon\,\partial_\mu\!\left(\frac{\partial\mathcal{L}}
 Where $j^\mu = i[\phi^*(\partial^\mu\phi) - (\partial^\mu\phi^*)\phi]$ (using the complex
 Klein--Gordon Lagrangian for generality).
 
-By Noether's theorem: $\partial_\mu j^\mu = 0$And the conserved charge:
+By Noether's theorem: $\partial_\mu j^\mu = 0$ And the conserved charge:
 
 $$Q = \int j^0\,d^3x = \int i(\phi^*\dot{\phi} - \dot{\phi}^*\phi)\,d^3x$$
 

@@ -23,7 +23,7 @@ description: "For every continuous symmetry of the action, there is a Correspond
 Corresponding conserved quantity.
 
 More precisely: if the action is invariant (up to a boundary term) under the infinitesimal
-transformation $q_j \to q_j + \epsilon f_j(q, \dot{q}, t)$Then
+transformation $q_j \to q_j + \epsilon f_j(q, \dot{q}, t)$ Then
 
 $$Q = \sum_j \frac{\partial L}{\partial \dot{q}_j} f_j$$
 
@@ -71,7 +71,7 @@ Consider an infinitesimal translation $x \to x + \epsilon$I.e., $\delta x = 1$, 
 $\delta z = 0$.
 
 For a free particle, $L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$Which is invariant
-($\delta L = 0$So $F = 0$).
+($\delta L = 0$ So $F = 0$).
 
 By Noether's theorem:
 
@@ -94,7 +94,7 @@ Consider an infinitesimal rotation by angle $\epsilon$ about the $z$-axis:
 $$\delta x = -\epsilon y, \quad \delta y = \epsilon x, \quad \delta z = 0$$
 
 For a free particle,
-$\delta L = m(\dot{x}\,\delta\dot{x} + \dot{y}\,\delta\dot{y}) = m(\dot{x}(-\epsilon\dot{y}) + \dot{y}(\epsilon\dot{x})) = 0$So
+$\delta L = m(\dot{x}\,\delta\dot{x} + \dot{y}\,\delta\dot{y}) = m(\dot{x}(-\epsilon\dot{y}) + \dot{y}(\epsilon\dot{x})) = 0$ So
 $F = 0$.
 
 By Noether's theorem:
@@ -114,7 +114,7 @@ entire angular momentum vector $\mathbf{L} = \mathbf{r} \times \mathbf{p}$. $\bl
 <summary>Solution</summary>
 
 Consider an infinitesimal time translation $t \to t + \epsilon$. The coordinates transform as
-$q_j(t) \to q_j(t + \epsilon) \approx q_j(t) + \epsilon \dot{q}_j(t)$So $\delta q_j = \dot{q}_j$.
+$q_j(t) \to q_j(t + \epsilon) \approx q_j(t) + \epsilon \dot{q}_j(t)$ So $\delta q_j = \dot{q}_j$.
 
 If $L$ does not depend explicitly on time, then:
 

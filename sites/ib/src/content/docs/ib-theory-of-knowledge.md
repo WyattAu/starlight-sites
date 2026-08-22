@@ -1,7 +1,7 @@
 ---
 date: 2026-07-23T14:42:26+01:00
 title: IB Theory of Knowledge (TOK)
-description: Complete IB Theory of Knowledge guide covering knowledge questions, ways of knowing, and areas of knowledge.
+description: "Theory of Knowledge (TOK) is a core component of the IB Diploma Programme. It explores the nature of knowledge and how we know what we claim to know."
 ---
 
 # IB Theory of Knowledge (TOK)

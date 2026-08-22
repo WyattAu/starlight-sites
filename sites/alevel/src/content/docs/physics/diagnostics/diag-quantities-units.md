@@ -35,7 +35,7 @@ $$F_D = k \, r^n \, v^m \, \rho^p \, \eta^q$$
 Where $k$ is a dimensionless constant.
 
 Given that dynamic viscosity $\eta$ has dimensions $\text{M}\text{L}^{-1}\text{T}^{-1}$Use
-dimensional analysis to find the values of $n$, $m$, $p$And $q$ such that the equation is dimensionally
+dimensional analysis to find the values of $n$, $m$, $p$ And $q$ such that the equation is dimensionally
 consistent. Express the resulting formula with $n$ as the subject.
 
 **Solution:**
@@ -62,7 +62,7 @@ Equating exponents for each dimension:
 
 **Length:** $1 = n + m - 3p - q$
 
-**Time:** $-2 = -m - q$So $m + q = 2$
+**Time:** $-2 = -m - q$ So $m + q = 2$
 
 We have three equations with four unknowns, so we express in terms of one variable. Using $n$ as the
 subject:
@@ -185,7 +185,7 @@ fluctuations).
 
 Percentage component: $0.5\% \times 1.52 = 0.0076\,\text{V}$
 
-Last digit component: $2 \times 0.01 = 0.02\,\text{V}$ (the resolution is $\pm 0.01\,\text{V}$So 2
+Last digit component: $2 \times 0.01 = 0.02\,\text{V}$ (the resolution is $\pm 0.01\,\text{V}$ So 2
 in the last digit $= 0.02\,\text{V}$)
 
 Combined systematic (adding in quadrature):
@@ -258,7 +258,7 @@ The formula is dimensionally correct.
 
 In an experiment to determine the acceleration of free fall $g$A student drops a steel ball from
 rest through a light gate at a measured distance $d$ below the release point. The light gate records
-the speed $v$ of the ball as it passes through. The relationship is $v^2 = 2gd$So $g = v^2/(2d)$.
+the speed $v$ of the ball as it passes through. The relationship is $v^2 = 2gd$ So $g = v^2/(2d)$.
 
 The student records:
 $d = (1.500 \pm 0.003)\,\text{m}$, $v = (5.40 \pm 0.05)\,\text{m}\,\text{s}^{-1}$.
@@ -303,7 +303,7 @@ $$\Delta g_{\text{total}} = \sqrt{0.20^2 + 0.353^2} = \sqrt{0.0400 + 0.1246} = \
 So $g = (9.36 \pm 0.41)\,\text{m}\,\text{s}^{-2}$.
 
 The corrected value of $9.36\,\text{m}\,\text{s}^{-2}$ is closer to the accepted
-$9.81\,\text{m}\,\text{s}^{-2}$But the systematic correction reveals that the original reading was
+$9.81\,\text{m}\,\text{s}^{-2}$ But the systematic correction reveals that the original reading was
 an overestimate due to the finite ball size.
 
 ---

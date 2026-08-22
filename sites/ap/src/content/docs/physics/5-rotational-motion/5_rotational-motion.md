@@ -69,7 +69,7 @@ $$
 ### The Analogy Between Linear and Rotational Kinematics
 
 Every linear kinematic equation has a direct rotational analogue. Replace $x$ with $\theta$, $v$
-With $\omega$And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
+With $\omega$ And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
 a one-dimensional motion in the angular coordinate. The mathematics is identical.
 
 :::note
@@ -107,7 +107,7 @@ $$
 ### Why the Moment of Inertia Depends on the Axis
 
 Mass is a scalar, but moment of inertia depends on how the mass is distributed _relative to the axis
-Of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$But the same rod rotated
+Of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$ But the same rod rotated
 About one end has $I = \frac{1}{3}ML^2$ -- four times larger. The same physical object can have
 Different moments of inertia depending on the axis. This has no linear analogue: mass is mass,
 Regardless of the direction of motion.
@@ -126,7 +126,7 @@ Regardless of the direction of motion.
 
 ### Derivation: Moment of Inertia of a Solid Cylinder
 
-Consider a solid cylinder of mass $M$Radius $R$And length $L$Rotating about its central axis. Divide
+Consider a solid cylinder of mass $M$Radius $R$ And length $L$Rotating about its central axis. Divide
 the cylinder into thin cylindrical shells of radius $r$ and thickness $dr$.
 
 $$
@@ -148,7 +148,7 @@ Where $d$ is the distance from the center of mass to the new axis.
 ### Proof of the Parallel Axis Theorem
 
 Consider a body rotating about an axis parallel to an axis through the center of mass, at distance
-$d$. Let $r_i$ be the distance from the CM axis to mass element $m_i$And $R_i$ be the distance From
+$d$. Let $r_i$ be the distance from the CM axis to mass element $m_i$ And $R_i$ be the distance From
 the new axis. Then $R_i^2 = r_i^2 + d^2 - 2r_i d\cos\phi_i$.
 
 $$
@@ -245,10 +245,10 @@ $$
 
 ### Why Hollow Objects Roll Slower Than Solid Ones
 
-A hollow cylinder has $I = MR^2$So its kinetic energy is split as
+A hollow cylinder has $I = MR^2$ So its kinetic energy is split as
 $K = \frac{1}{2}Mv^2 +
 \frac{1}{2}(MR^2)(v/R)^2 = Mv^2$. Half the energy goes to translation and half
-To rotation. A solid cylinder has $I = \frac{1}{2}MR^2$So
+To rotation. A solid cylinder has $I = \frac{1}{2}MR^2$ So
 $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
 Solid cylinder moves faster.
@@ -273,7 +273,7 @@ V = \sqrt{\frac{10gh}{7}}
 $$
 
 Note: the answer is independent of both the mass and the radius. For a hollow sphere, the factor
-Would be $\frac{5}{6}$ instead of $\frac{7}{10}$So the solid sphere is always faster.
+Would be $\frac{5}{6}$ instead of $\frac{7}{10}$ So the solid sphere is always faster.
 
 ## Angular Momentum (CED Unit 7)
 
@@ -862,7 +862,7 @@ Clockwise torques: $20g \times 2 + 50g \times 4 = 40g + 200g = 240g = 2352 \math
 
 Anticlockwise torque: $T\sin(30^\circ) \times 3 = 1.5T$.
 
-$1.5T = 2352$So $T = 1568 \mathrm{ N$.
+$1.5T = 2352$ So $T = 1568 \mathrm{ N$.
 
 Hinge force: Horizontal = $T\cos(30^\circ) = 1568 \times 0.866 = 1358 \mathrm{ N$ (outward).
 Vertical = $70g - T\sin(30^\circ) = 686 - 784 = -98 \mathrm{ N$ (downward).

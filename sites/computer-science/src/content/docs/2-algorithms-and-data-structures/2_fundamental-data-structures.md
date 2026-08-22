@@ -170,16 +170,16 @@ rotations:
 - **Left rotation (RR case):** Mirror of right rotation.
 
 - **Left-Right rotation (LR case):** Balance factor $+2$ at $A$Balance factor $-1$ at left child
-  $B$. First left-rotate $B$Then right-rotate $A$.
+  $B$. First left-rotate $B$ Then right-rotate $A$.
 
 - **Right-Left rotation (RL case):** Mirror of LR case.
 
 **Theorem 2.4.** An AVL tree with $n$ nodes has height $h \leq 1.4404 \cdot \log_2(n + 2) - 1.3277$.
 
 _Proof._ Let $N(h)$ be the minimum number of nodes in an AVL tree of height $h$. We have $N(0) = 1$,
-$N(1) = 2$And $N(h) = 1 + N(h-1) + N(h-2)$ for $h \geq 2$. This is the Fibonacci recurrence, giving
+$N(1) = 2$ And $N(h) = 1 + N(h-1) + N(h-2)$ for $h \geq 2$. This is the Fibonacci recurrence, giving
 $N(h) = F_{h+3} - 1$. Using $F_h = \frac{\phi^h - \hat{\phi}^h}{\sqrt{5}}$ where
-$\phi = \frac{1+\sqrt{5}}{2}$We get $N(h) > \phi^h / \sqrt{5} - 1$So
+$\phi = \frac{1+\sqrt{5}}{2}$We get $N(h) > \phi^h / \sqrt{5} - 1$ So
 $h \lt \log_\phi(\sqrt{5}(n + 1)) \approx 1.4404 \log_2(n + 1)$. $\blacksquare$
 
 **Corollary 2.5.** All AVL tree operations (search, insert, delete) run in $O(\log n)$ time.
@@ -368,9 +368,9 @@ From the formula: $(1 - e^{-kn/m})^k \leq 0.01$.
 Optimal $k = (m/n) \ln 2$. At the optimal point, the false positive rate is
 $(1/2)^k \approx 0.6185^{m/n}$.
 
-We need $0.6185^{m/n} \leq 0.01$So $m/n \geq \ln(0.01) / \ln(0.6185) \approx 9.585$.
+We need $0.6185^{m/n} \leq 0.01$ So $m/n \geq \ln(0.01) / \ln(0.6185) \approx 9.585$.
 
-Take $m = 95850$ bits $\approx 11.5$ KB. Then $k = (95850 / 10000) \ln 2 \approx 6.64$So use $k = 7$
+Take $m = 95850$ bits $\approx 11.5$ KB. Then $k = (95850 / 10000) \ln 2 \approx 6.64$ So use $k = 7$
 hash functions.
 
 This requires only 11.5 KB of memory versus approximately 600 KB for storing the URLs as 60-byte

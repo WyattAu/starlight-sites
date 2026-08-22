@@ -45,7 +45,7 @@ Including oblique impacts.
 
 ### 1.1 Centre of mass by integration
 
-**Definition.** The _centre of mass_ of a lamina bounded by $y = f(x)$, $x = a$, $x = b$And the $x$-axis
+**Definition.** The _centre of mass_ of a lamina bounded by $y = f(x)$, $x = a$, $x = b$ And the $x$-axis
 is the point $(\bar{x}, \bar{y})$ where:
 
 $$\boxed{\bar{x} = \frac{\displaystyle\int_a^b x \cdot f(x)\,dx}{\displaystyle\int_a^b f(x)\,dx}}$$
@@ -58,7 +58,7 @@ The denominator is the total area of the lamina: $A = \displaystyle\int_a^b f(x)
 
 ### Proof
 
-Consider a triangle with vertices at $(0, 0)$, $(b, 0)$And $(c, h)$.
+Consider a triangle with vertices at $(0, 0)$, $(b, 0)$ And $(c, h)$.
 
 The line from $(0, 0)$ to $(c, h)$ is $y = \dfrac{h}{c}\,x$ and the line from $(b, 0)$ to $(c, h)$
 Is $y = \dfrac{h}{c - b}(x - b)$.
@@ -290,7 +290,7 @@ The angle of incidence $\alpha$ and angle of reflection $\beta$ satisfy:
 
 $$\tan\beta = \frac{u_y}{e \cdot u_x} = \frac{\tan\alpha}{e}$$
 
-Since $e \leq 1$We have $\tan\beta \geq \tan\alpha$So the angle of reflection is greater than or
+Since $e \leq 1$We have $\tan\beta \geq \tan\alpha$ So the angle of reflection is greater than or
 Equal to the angle of incidence.
 
 ### 7.2 Two spheres in oblique collision
@@ -352,7 +352,7 @@ $$\boxed{\mathrm{Oblique wall impact: } v_{\mathrm{normal}} = -e \cdot u_{\mathr
 
 <details>
 <summary>Problem 1</summary>
-A uniform triangular lamina has vertices at $(0, 0)$, $(6, 0)$And $(2, 4)$. Find the coordinates of the centre of mass.
+A uniform triangular lamina has vertices at $(0, 0)$, $(6, 0)$ And $(2, 4)$. Find the coordinates of the centre of mass.
 </details>
 
 <details>
@@ -462,7 +462,7 @@ $\theta = \arctan\!\left(\dfrac{4\sqrt{3}}{5}\right) = \arctan(1.386) \approx 54
 
 <details>
 <summary>Problem 6</summary>
-A uniform wire framework consists of three rods forming a right-angled triangle with vertices at $(0, 0)$, $(4, 0)$And $(0, 3)$. All rods are made of the same uniform material. Find the centre of mass of the framework.
+A uniform wire framework consists of three rods forming a right-angled triangle with vertices at $(0, 0)$, $(4, 0)$ And $(0, 3)$. All rods are made of the same uniform material. Find the centre of mass of the framework.
 </details>
 
 <details>
@@ -651,7 +651,7 @@ Equilateral triangle with side $2a$: area $= \dfrac{\sqrt{3}}{4}(2a)^2 = \sqrt{3
 
 Height $= \sqrt{3}\,a$. The triangle's centroid is at distance $\sqrt{3}\,a/3$ from the base.
 
-Assuming the square has vertices at $(0, 0)$$(6a, 0)$$(6a, 6a)$$(0, 6a)$And the triangle has Its
+Assuming the square has vertices at $(0, 0)$$(6a, 0)$$(6a, 6a)$$(0, 6a)$ And the triangle has Its
 base on the top edge $y = 6a$ with centroid at $(3a, 6a - \sqrt{3}\,a/3)$:
 
 Using negative mass:
@@ -1351,7 +1351,7 @@ $V = 2\pi\displaystyle\int_A x\,dA = 2\pi \cdot \bar{x} \cdot A$.
 
 Where $\bar{x} = \dfrac{1}{A}\displaystyle\int_A x\,dA$ is the centroid's $x$-coordinate.
 
-The centroid travels a distance $2\pi\bar{x}$So $V = 2\pi\bar{x}\cdot A$. $\blacksquare$
+The centroid travels a distance $2\pi\bar{x}$ So $V = 2\pi\bar{x}\cdot A$. $\blacksquare$
 
 </details>
 

@@ -29,7 +29,7 @@ when finding the [domain](1_functions.mdx#definition-of-a-function) and
 
 ### Basic Properties
 
-Let $a$, $b$And $c$ be real numbers. The following properties hold for inequalities:
+Let $a$, $b$ And $c$ be real numbers. The following properties hold for inequalities:
 
 **Addition property:**
 
@@ -62,9 +62,9 @@ $$
 
 ### Other Properties
 
-- If $a > b > 0$Then $a^2 > b^2$ and $\dfrac{1}{a} < \dfrac{1}{b}$.
-- If $a > b$ and $c > d$Then $a + c > b + d$.
-- If $a > b > 0$ and $c > d > 0$Then $ac > bd$.
+- If $a > b > 0$ Then $a^2 > b^2$ and $\dfrac{1}{a} < \dfrac{1}{b}$.
+- If $a > b$ and $c > d$ Then $a + c > b + d$.
+- If $a > b > 0$ and $c > d > 0$ Then $ac > bd$.
 
 <details>
 <summary>Examples</summary>
@@ -272,8 +272,8 @@ This gives two separate linear inequalities, each solved independently.
 
 ### Special Cases
 
-- If $c \leq 0$Then $|x| < c$ has no solution ($\varnothing$).
-- If $c < 0$Then $|x| > c$ is true for all real $x$ ($\mathbb{R}$).
+- If $c \leq 0$ Then $|x| < c$ has no solution ($\varnothing$).
+- If $c < 0$ Then $|x| > c$ is true for all real $x$ ($\mathbb{R}$).
 - $|x| \geq a$ and $|x| \leq a$ follow the same patterns with non-strict inequality signs.
 
 </details>
@@ -371,12 +371,12 @@ From $|x + 1| < 6$: $-6 < x + 1 < 6 \implies -7 < x < 5$.
 
 Intersection: $-7 < x < -2$I.e., $(-7, -2)$.
 
-(Note: the second branch $x > 4$ from the quadratic has no overlap with $x < 5$ beyond $(4, 5)$But
+(Note: the second branch $x > 4$ from the quadratic has no overlap with $x < 5$ beyond $(4, 5)$ But
 $x > 4$ and $x < 5$ gives $4 < x < 5$. The full intersection is $(-7, -2) \cup (4, 5)$.)
 
 - Find all $x$ satisfying $x^2 + 1 > 0$ and $x - 3 < 0$:
 
-From $x^2 + 1 > 0$: always true (discriminant $\Delta = -4 < 0$And $a = 1 > 0$).
+From $x^2 + 1 > 0$: always true (discriminant $\Delta = -4 < 0$ And $a = 1 > 0$).
 
 From $x - 3 < 0$: $x < 3$.
 
@@ -507,7 +507,7 @@ Since $a = 1 > 0$The parabola opens upward. The expression is positive outside t
 
 Solution: $k < -2$ or $k > 3$I.e., $(-\infty, -2) \cup (3, \infty)$.
 
-1. **Question:** Solve the system of inequalities $x^2 - 5x + 4 \leq 0$, $|x - 2| \leq 3$And
+1. **Question:** Solve the system of inequalities $x^2 - 5x + 4 \leq 0$, $|x - 2| \leq 3$ And
 $x > 0$.
 
 </details>

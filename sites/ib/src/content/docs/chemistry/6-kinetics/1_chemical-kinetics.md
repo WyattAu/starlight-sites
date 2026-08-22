@@ -804,7 +804,7 @@ For a reaction with rate equation Rate $= k[\mathrm{A}]^2[\mathrm{B}]^0$Which st
 A. Doubling [A] doubles the rate. B. Doubling [A] quadruples the rate. C. Doubling [B] quadruples
 The rate. D. The reaction is first order overall.
 
-**Answer: B.** The rate depends on $[\mathrm{A}]^2$So doubling [A] increases the rate by a factor Of
+**Answer: B.** The rate depends on $[\mathrm{A}]^2$ So doubling [A] increases the rate by a factor Of
 $2^2 = 4$. The reaction is second order overall.
 
 ### Question 7 (Paper 2 style)

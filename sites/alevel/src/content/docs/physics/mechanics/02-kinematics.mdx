@@ -43,7 +43,7 @@ Acceleration is also a vector. The SI unit is m s$^{-2}$.
 ## 2. Derivation of the SUVAT Equations
 
 For **uniform acceleration** (constant $a$), we derive five equations relating the kinematic
-Variables $s$, $u$, $v$, $a$And $t$.
+Variables $s$, $u$, $v$, $a$ And $t$.
 
 ### Equation 1: $v = u + at$
 
@@ -71,7 +71,7 @@ $$\boxed{s = \frac{1}{2}(u + v)t}$$
 
 $$s = \int_0^t (u + at')\,dt' = ut + \frac{1}{2}at^2$$
 
-From Equation 1, $v = u + at$So $at = v - u$Giving:
+From Equation 1, $v = u + at$ So $at = v - u$Giving:
 
 $$s = ut + \frac{1}{2}(v-u)t = \frac{1}{2}(u + v)t \quad \square$$
 
@@ -165,7 +165,7 @@ $\Delta y / \Delta x$.
 <summary>Example: Finding displacement from a curved v-t graph</summary>
 
 A particle has velocity $v = 6t - t^2$ m s$^{-1}$ for $0 \leq t \leq 6$ s. The $v$-$t$ graph is a
-Parabola opening downward, with $v = 0$ at $t = 0$ and $t = 6$And maximum $v = 9$ m s$^{-1}$ at
+Parabola opening downward, with $v = 0$ at $t = 0$ and $t = 6$ And maximum $v = 9$ m s$^{-1}$ at
 $t = 3$. The displacement over the full 6 seconds is
 $\int_0^6 (6t - t^2)\,dt = [3t^2 - t^3/3]_0^6 = 108 - 72 = 36$ m.
 
@@ -337,7 +337,7 @@ $t$.
 
 Displacement -- to decide which calculus method to use. If $a$ is a function of $t$Integrate $dv/dt$
 directly. If $a$ is a function of $s$Use $a = v\,dv/ds$ and integrate with respect to $s$. If $a$ is
-a function of $v$Rewrite as $dt/dv = 1/f(v)$ and integrate to find $t(v)$Then invert If possible.
+a function of $v$Rewrite as $dt/dv = 1/f(v)$ and integrate to find $t(v)$ Then invert If possible.
 :::
 ### Derivation of $v^2 = u^2 + 2as$ by Integration
 
@@ -359,13 +359,13 @@ This derivation relies only on the chain-rule identity $a = v\,dv/ds$.
 A particle moves in a straight line with acceleration $a = 6t$ m s$^{-2}$Starting from rest at the
 Origin.
 
-**(a)** Find $v$ as a function of $t$. $a = dv/dt = 6t$So $dv = 6t\,dt$. Integrating:
+**(a)** Find $v$ as a function of $t$. $a = dv/dt = 6t$ So $dv = 6t\,dt$. Integrating:
 $v = \int_0^t 6t'\,dt' = 3t^2 + C$. Since $v(0) = 0$: $C = 0$Giving $v = 3t^2$ m s$^{-1}$.
 
-**(b)** Find $s$ as a function of $t$. $v = ds/dt = 3t^2$So $ds = 3t^2\,dt$. Integrating:
+**(b)** Find $s$ as a function of $t$. $v = ds/dt = 3t^2$ So $ds = 3t^2\,dt$. Integrating:
 $s = \int_0^t 3t'^2\,dt' = t^3$ m.
 
-**(c)** Find the acceleration as a function of $s$. From $v = 3t^2$ and $s = t^3$: $t = s^{1/3}$So
+**(c)** Find the acceleration as a function of $s$. From $v = 3t^2$ and $s = t^3$: $t = s^{1/3}$ So
 $v = 3s^{2/3}$. Then $a = v\,dv/ds = 3s^{2/3} \cdot 2s^{-1/3} = 6s^{1/3} = 6t$Confirming
 Consistency.
 
@@ -431,7 +431,7 @@ $\mathbf{v}_{BA} = \mathbf{v}_B - \mathbf{v}_A = (10\ \mathrm{east}) - (10\ \mat
 M s$^{-1}$.
 
 The position of B relative to A is $(200, 0)$. The relative velocity $(10, -10)$ is **not** parallel
-To $(200, 0)$So they will not collide. The closest approach occurs when
+To $(200, 0)$ So they will not collide. The closest approach occurs when
 $\mathbf{r}_{BA} \cdot \mathbf{v}_{BA} = 0$.
 
 </details>
@@ -526,7 +526,7 @@ A particle moves along a straight line with velocity $v = 3t^2 - 6t$ m s$^{-1}$ 
 
 **Answer.** (a) $v = 0$: $3t^2 - 6t = 0 \implies t = 0$ or $t = 2$ s.
 
-(b) $s(t) = \int v\,dt = t^3 - 3t^2 + C$. Take $s(0) = 0$So $C = 0$.
+(b) $s(t) = \int v\,dt = t^3 - 3t^2 + C$. Take $s(0) = 0$ So $C = 0$.
 
 - At $t = 2$: $s = 8 - 12 = -4$ m.
 - At $t = 4$: $s = 64 - 48 = 16$ m. Total distance = $4 + 20 = 24$ m.
@@ -540,7 +540,7 @@ A particle moves along a straight line with velocity $v = 3t^2 - 6t$ m s$^{-1}$ 
 
 <details>
 <summary>Problem 7</summary>
-A projectile is fired with speed $v_0$ at angle $\theta$ from a height $h$ above level ground. Derive an expression for the time of flight in terms of $v_0$$\theta$$g$And $h$.
+A projectile is fired with speed $v_0$ at angle $\theta$ from a height $h$ above level ground. Derive an expression for the time of flight in terms of $v_0$$\theta$$g$ And $h$.
 
 **Answer.** $y = h + v_0\sin\theta \cdot t - \frac{1}{2}gt^2 = 0$ at landing. This gives
 $\frac{1}{2}gt^2 - v_0\sin\theta \cdot t - h = 0$. By the quadratic formula:
@@ -570,7 +570,7 @@ Using $v = u + at$: $30 = 10 + 2t$$t = 10$ s.
 <summary>Problem 9</summary>
 A golfer hits a ball from the ground with speed $40$ m s$^{-1}$. At what angle should she hit the ball to land it $120$ m away? (Give both possible angles.)
 
-**Answer.** $R = \frac{v_0^2\sin 2\theta}{g}$So
+**Answer.** $R = \frac{v_0^2\sin 2\theta}{g}$ So
 $\sin 2\theta = \frac{Rg}{v_0^2} = \frac{120 \times 9.81}{1600} = 0.736$.
 
 $2\theta = 47.4^\circ$ or $132.6^\circ$Giving $\theta = 23.7^\circ$ or $66.3^\circ$. Both angles
@@ -605,7 +605,7 @@ Greater range, consistent with the ratio $g_E/g_M \approx 6.1$.
 A ball rolls off a table of height $1.2$ m with a horizontal speed of $3.0$ m s$^{-1}$. A second ball is dropped from the same height at the same instant. Which ball hits the ground first? Justify your answer.
 
 **Answer.** Both balls hit the ground at the same time. The horizontal velocity of the first ball
-Does not affect its vertical motion. Both have $u_y = 0$$a_y = g$And $h = 1.2$ m, so both have
+Does not affect its vertical motion. Both have $u_y = 0$$a_y = g$ And $h = 1.2$ m, so both have
 $t = \sqrt{2h/g} = 0.495$ s.
 
 <b>If you get this wrong, revise:</b> [Independence of Components](#independence-of-components)
@@ -688,7 +688,7 @@ $\ln v = -0.5t + C$. At $t = 0$$v = 10$: $\ln 10 = C$. So $v = 10e^{-0.5t}$ m s$
 A particle moves with acceleration $a = 3s$ m s$^{-2}$Where $s$ is the displacement from the Origin.
 At $s = 0$The velocity is $4.0$ m s$^{-1}$. Find the velocity when $s = 2.0$ m.
 
-**Answer.** We are given $a = f(s)$So use $a = v\,dv/ds$:
+**Answer.** We are given $a = f(s)$ So use $a = v\,dv/ds$:
 
 $\int_{4}^{v} v'\,dv' = \int_{0}^{2} 3s'\,ds'$
 

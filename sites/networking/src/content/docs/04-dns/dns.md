@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: DNS
-description: "Domain Name System fundamentals and configuration."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"networking\", \"url\": \"https://networking.wyattau.com\"}, {\"name\": \"04 Dns\", \"url\":"
 tags:
   - Networking
 categories:

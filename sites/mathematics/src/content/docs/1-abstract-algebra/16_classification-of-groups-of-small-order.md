@@ -62,14 +62,14 @@ and $Q_8$ when $b^2 = a^2$. These are the only two non-abelian groups of order $
 
 _Proof sketch._ $|G| = 12 = 2^2 \cdot 3$.
 
-$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $4$So $n_3 = 1$ or $4$.
+$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $4$ So $n_3 = 1$ or $4$.
 
 **$n_3 = 1$:** The Sylow $3$-subgroup $P_3 \cong \mathbb{Z}/3\mathbb{Z}$ is normal. $G$ is a
 semidirect product $\mathbb{Z}/3\mathbb{Z} \rtimes K$ where $K$ is a Sylow $2$-subgroup
 ($\mathbb{Z}/4\mathbb{Z}$ or $V_4$). Computing the possible actions gives:
 $\mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/4\mathbb{Z} \cong \mathbb{Z}/12\mathbb{Z}$
 $\mathbb{Z}/3\mathbb{Z} \times V_4 \cong \mathbb{Z}/6\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$
-$\mathbb{Z}/3\mathbb{Z} \rtimes V_4 \cong D_6$And
+$\mathbb{Z}/3\mathbb{Z} \rtimes V_4 \cong D_6$ And
 $\mathbb{Z}/3\mathbb{Z} \rtimes \mathbb{Z}/4\mathbb{Z}$ (the dicyclic group of order $12$).
 
 **$n_3 = 4$:** The Sylow $3$-subgroup is not normal. There are four Sylow $3$-subgroups,

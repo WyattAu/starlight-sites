@@ -72,7 +72,7 @@ a solution by finding one, or prove it has no solution.
 
 ### 7.4 Complexity Theory
 
-**Problem 13.** Show that if $\mathrm{P} = \mathrm{NP}$Then $\mathrm{NP} = \mathrm{coNP}$.
+**Problem 13.** Show that if $\mathrm{P} = \mathrm{NP}$ Then $\mathrm{NP} = \mathrm{coNP}$.
 
 **Problem 14.** A **3-colouring** of a graph $G = (V, E)$ is a function $c : V \to \{1, 2, 3\}$ Such
 that $c(u) \neq c(v)$ for every edge $(u, v) \in E$. Show that 3-SAT $\leq_p$ 3-Colouring By
@@ -132,7 +132,7 @@ a string not in $L$.
 $L(M_1) \cap L(M_2) \neq \emptyset$ iff $M$ accepts $\varepsilon$ iff
 $\langle M \rangle \notin E_{\mathrm{TM}}$ (after adjusting for the specific reduction).
 
-**Problem 13.** If $\mathrm{P} = \mathrm{NP}$Then for any $L \in \mathrm{NP}$We have
+**Problem 13.** If $\mathrm{P} = \mathrm{NP}$ Then for any $L \in \mathrm{NP}$We have
 $L \in \mathrm{P}$. Since $\mathrm{P}$ is closed under complement,
 $\overline{L} \in \mathrm{P}
 \subseteq \mathrm{NP}$. So $\overline{L} \in \mathrm{NP}$ for every

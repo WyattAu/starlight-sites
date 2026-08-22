@@ -157,7 +157,7 @@ The area of the parallelogram is base $\times$ height
 $= |\mathbf{a}| \times |\mathbf{b}|\sin\theta$Which equals $|\mathbf{a}\times\mathbf{b}|$. $\square$
 
 The cross product $\mathbf{a}\times\mathbf{b}$ is **perpendicular** to both $\mathbf{a}$ and
-$\mathbf{b}$And its direction is given by the right-hand rule.
+$\mathbf{b}$ And its direction is given by the right-hand rule.
 
 ### 4.4 Properties
 
@@ -272,7 +272,7 @@ Satisfies:
 
 $$\sin\phi = \frac{|\mathbf{d}\cdot\mathbf{n}|}{|\mathbf{d}||\mathbf{n}|}$$
 
-Equivalently, if $\alpha$ is the angle between $\mathbf{d}$ and $\mathbf{n}$Then
+Equivalently, if $\alpha$ is the angle between $\mathbf{d}$ and $\mathbf{n}$ Then
 $\phi = 90° - \alpha$.
 
 ### 6.6 Line of intersection of two planes
@@ -557,7 +557,7 @@ $= 2(1\cdot 1-(-2)\cdot 2) - (-1)(1\cdot 1-(-2)(-1)) + (-1)(1\cdot 2-1\cdot(-1))
 
 $= 2(1+4) + 1(1-2) - 1(2+1) = 10 - 1 - 3 = 6 \neq 0$.
 
-Wait — $6 \neq 0$So the points are **not coplanar**. Let me verify.
+Wait — $6 \neq 0$ So the points are **not coplanar**. Let me verify.
 
 Actually, let me recompute $\overrightarrow{AC}\times\overrightarrow{AD}$:
 

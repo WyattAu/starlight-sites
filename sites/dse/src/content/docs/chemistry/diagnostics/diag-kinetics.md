@@ -55,13 +55,13 @@ mol/dm$^{3}$. [2 marks]
 
 $[A]$ doubles (0.10 to 0.20), rate doubles ($1.2 \times 10^{-4}$ to $2.4 \times 10^{-4}$).
 
-Rate $\propto [A]^{1}$So **order with respect to $A$ = 1**.
+Rate $\propto [A]^{1}$ So **order with respect to $A$ = 1**.
 
 **Order with respect to $B$**: Compare experiments 1 and 3 (where $[A]$ is constant).
 
 $[B]$ doubles (0.10 to 0.20), rate quadruples ($1.2 \times 10^{-4}$ to $4.8 \times 10^{-4}$).
 
-Rate $\propto [B]^{2}$So **order with respect to $B$ = 2**.
+Rate $\propto [B]^{2}$ So **order with respect to $B$ = 2**.
 
 **Verification with experiment 4:** With orders $A = 1$, $B = 2$: predicted rate
 $= 0.12 \times 0.30
@@ -96,7 +96,7 @@ $0.12 \times 0.15 \times (0.25)^{2} = 0.12 \times 0.15 \times 0.0625 = 1.125 \ti
 
 **Question**
 
-(a) Sketch a Maxwell-Boltzmann distribution curve for a gas at temperature $T_{1}$And on the same
+(a) Sketch a Maxwell-Boltzmann distribution curve for a gas at temperature $T_{1}$ And on the same
 axes, sketch the curve for the same gas at a higher temperature $T_{2}$ ($T_{2} \gt T_{1}$).
 Indicate the activation energy $E_{a}$ on both curves. [3 marks]
 
@@ -375,7 +375,7 @@ By tangent method: The gradient of the $[A]$ vs $t$ curve at $t = 200$ s gives
 $-d[A]/dt \approx 1.3 \times 10^{-3}$ mol dm$^{-3}$ s$^{-1}$.
 
 (c) The half-life is **increasing** with time. This is characteristic of a **second-order** reaction
-(where $t_{1/2} \propto 1/[A]_{0}$So as $[A]$ decreases, $t_{1/2}$ increases). However, from part
+(where $t_{1/2} \propto 1/[A]_{0}$ So as $[A]$ decreases, $t_{1/2}$ increases). However, from part
 (a) the reaction appears first-order.
 
 The resolution: For a first-order reaction, the half-life should be **constant**. The apparent

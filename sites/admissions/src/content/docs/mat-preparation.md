@@ -138,7 +138,7 @@ This form reveals the vertex, the minimum or maximum value, and the axis of symm
 **Polynomial division.** When dividing $P(x)$ by $Q(x)$Write $P(x) = Q(x)D(x) + R(x)$ where
 $\deg R < \deg Q$.
 
-**Factor theorem applications.** If $P(a) = 0$Then $(x - a)$ divides $P(x)$. This is frequently Used
+**Factor theorem applications.** If $P(a) = 0$ Then $(x - a)$ divides $P(x)$. This is frequently Used
 to find roots of polynomials that arise from algebraic manipulation.
 
 ### 3.2 Functions and Transformations
@@ -158,7 +158,7 @@ $y = f(x)$ and solve for $x$ in terms of $y$.
 
 ### 3.3 Inequalities
 
-**Technique: squaring both sides.** If $a, b \geq 0$Then $a \geq b \iff a^2 \geq b^2$. If the Signs
+**Technique: squaring both sides.** If $a, b \geq 0$ Then $a \geq b \iff a^2 \geq b^2$. If the Signs
 are unknown, squaring is not valid.
 
 **Technique: considering cases.** For absolute value inequalities, split into cases based on the
@@ -229,7 +229,7 @@ algebraic manipulation.
 
 - $\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$
 - $\int_a^b [f(x) + g(x)]\,dx = \int_a^b f(x)\,dx + \int_a^b g(x)\,dx$
-- If $f(x) \geq 0$ on $[a, b]$Then $\int_a^b f(x)\,dx \geq 0$
+- If $f(x) \geq 0$ on $[a, b]$ Then $\int_a^b f(x)\,dx \geq 0$
 
 ### 4.3 Geometry of Curves
 
@@ -300,7 +300,7 @@ For $r \neq 1$Where $A$ is determined by the initial condition.
 
 $$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
 
-**Method of differences.** If $a_k = f(k) - f(k-1)$Then $\sum_{k=1}^{n} a_k = f(n) - f(0)$. The key
+**Method of differences.** If $a_k = f(k) - f(k-1)$ Then $\sum_{k=1}^{n} a_k = f(n) - f(0)$. The key
 is finding $f$ given $a_k$Often by partial fraction decomposition.
 
 **Binomial expansion.** For $|x| < 1$ and $\alpha \in \mathbb{R}$:
@@ -435,8 +435,8 @@ $$n^5 - n = n(n^4 - 1) = n(n^2 - 1)(n^2 + 1) = n(n-1)(n+1)(n^2 + 1)$$
 
 Among any 5 consecutive integers, one is divisible by 5. The product $n(n-1)(n+1)$ gives three
 Consecutive integers. If none of these is divisible by 5, then $n \equiv 2 \pmod{5}$ or
-$n \equiv 3 \pmod{5}$. In the first case $n^2 \equiv 4 \pmod{5}$So $n^2 + 1 \equiv 0 \pmod{5}$. In
-the second case $n^2 \equiv 9 \equiv 4 \pmod{5}$So $n^2 + 1 \equiv 0 \pmod{5}$. Either way, The
+$n \equiv 3 \pmod{5}$. In the first case $n^2 \equiv 4 \pmod{5}$ So $n^2 + 1 \equiv 0 \pmod{5}$. In
+the second case $n^2 \equiv 9 \equiv 4 \pmod{5}$ So $n^2 + 1 \equiv 0 \pmod{5}$. Either way, The
 product is divisible by 5.
 
 **(ii)** We have $n^5 - n = (n-1)n(n+1)(n^2 + 1)$.
@@ -476,7 +476,7 @@ $2 \times 3 \times 5 = 30$.
 
 $$\frac{dy}{dx} = \frac{(2x)(x-1) - x^2(1)}{(x-1)^2} = \frac{2x^2 - 2x - x^2}{(x-1)^2} = \frac{x^2 - 2x}{(x-1)^2} = \frac{x(x-2)}{(x-1)^2}$$
 
-Setting $\frac{dy}{dx} = 0$: $x(x - 2) = 0$So $x = 0$ or $x = 2$.
+Setting $\frac{dy}{dx} = 0$: $x(x - 2) = 0$ So $x = 0$ or $x = 2$.
 
 At $x = 0$: $y = 0$. The second derivative:
 
@@ -493,7 +493,7 @@ a Local minimum.
 
 $$\frac{x^2}{x - 1} = x + 1 + \frac{1}{x - 1}$$
 
-As $x \to \pm\infty$, $\frac{1}{x-1} \to 0$So $y \approx x + 1$. The oblique asymptote is $y = x + 1$.
+As $x \to \pm\infty$, $\frac{1}{x-1} \to 0$ So $y \approx x + 1$. The oblique asymptote is $y = x + 1$.
 
 **(iii)** Key features for the sketch:
 
@@ -576,9 +576,9 @@ $\sum_{k=1}^{\infty} \frac{k}{2^k} = \lim_{n \to \infty} S_n = \lim_{n \to \inft
 
 **Solution.**
 
-**(i)** Setting $x = y = 0$: $f(0) = f(0) + f(0) = 2f(0)$So $f(0) = 0$.
+**(i)** Setting $x = y = 0$: $f(0) = f(0) + f(0) = 2f(0)$ So $f(0) = 0$.
 
-Setting $y = 1$: $f(x) = f(x) + f(1)$So $f(1) = 0$.
+Setting $y = 1$: $f(x) = f(x) + f(1)$ So $f(1) = 0$.
 
 Wait: $f(x \cdot 1) = f(x)f(1)$. Since $f(x \cdot 1) = f(x)$We have $f(x) = f(x)f(1)$ for all $x$.
 This means $f(x)(1 - f(1)) = 0$ for all $x$.
@@ -595,7 +595,7 @@ $f(n) = n$ for all $n \in \mathbb{N}$.
 
 For $n = 0$: $f(0) = 0 = 0 \cdot f(1)$.
 
-For negative integers: $0 = f(0) = f(n + (-n)) = f(n) + f(-n)$So $f(-n) = -f(n) = -n$.
+For negative integers: $0 = f(0) = f(n + (-n)) = f(n) + f(-n)$ So $f(-n) = -f(n) = -n$.
 
 Therefore $f(n) = n$ for all $n \in \mathbb{Z}$.
 

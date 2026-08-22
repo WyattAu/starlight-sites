@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Geographic Skills
-description: "Map scale expresses the relationship between distance on the map and distance on the ground."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Geography\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -417,7 +417,7 @@ light, infrared, microwave) reflected or emitted by Earth's surface and atmosphe
 | Flood monitoring                       | Sentinel-1 (SAR)           | Mapping flood extent using synthetic aperture radar, which penetrates cloud cover                           |
 | Sea surface temperature                | MODIS, NOAA AVHRR          | Monitoring ocean currents, upwelling, coral bleaching                                                       |
 | Glacier monitoring                     | Landsat, ASTER             | Tracking glacier extent, mass balance, and retreat rates                                                    |
-| Air quality                            | Sentinel-5P (TROPOMI)      | Monitoring atmospheric concentrations of $\mathrm{NO_2}$$\mathrm{SO_2}$$\mathrm{O_3}$And particulate matter |
+| Air quality                            | Sentinel-5P (TROPOMI)      | Monitoring atmospheric concentrations of $\mathrm{NO_2}$$\mathrm{SO_2}$$\mathrm{O_3}$ And particulate matter |
 
 ### Normalised Difference Vegetation Index (NDVI)
 

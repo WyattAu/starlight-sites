@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Inheritance and Polymorphism
-description: "Java inheritance and polymorphism fundamentals."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Java\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

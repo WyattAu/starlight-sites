@@ -266,7 +266,7 @@ For motion in one dimension: $P = Fv$. $\blacksquare$
 $40\;\mathrm{kW}$. The resistance to motion is $800\;\mathrm{N}$. Find the maximum speed of the car
 On a level road and the acceleration when the speed is $15\;\mathrm{m\,s^{-1}}$.
 
-**Maximum speed:** At maximum speed, acceleration $= 0$So driving force $=$ resistance.
+**Maximum speed:** At maximum speed, acceleration $= 0$ So driving force $=$ resistance.
 
 $$P = Fv_{\max} = Rv_{\max}$$
 
@@ -357,8 +357,8 @@ $$v^2 = 3.841 \implies v \approx 1.96\;\mathrm{m\,s^{-1}}$$
 ### 7.4 Worked example: two elastic strings
 
 **Problem.** A particle of mass $3\;\mathrm{kg}$ is attached to two elastic strings. One string has
-Natural length $0.8\;\mathrm{m}$ and modulus $40\;\mathrm{N}$And is fixed at a point $A$. The other
-Has natural length $1.0\;\mathrm{m}$ and modulus $50\;\mathrm{N}$And is fixed at a point $B$. The
+Natural length $0.8\;\mathrm{m}$ and modulus $40\;\mathrm{N}$ And is fixed at a point $A$. The other
+Has natural length $1.0\;\mathrm{m}$ and modulus $50\;\mathrm{N}$ And is fixed at a point $B$. The
 Distance $AB$ is $3\;\mathrm{m}$. The particle hangs in equilibrium. Find the distance of the
 particle From $A$.
 
@@ -467,7 +467,7 @@ The string first becomes slack; (b) the maximum height above the release point.
 <details>
 <summary>Solution</summary>
 
-(a) At the release point, extension $= 1.0\;\mathrm{m}$So EPE
+(a) At the release point, extension $= 1.0\;\mathrm{m}$ So EPE
 $= \dfrac{80(1.0)^2}{2(1.5)} = 26.67\;\mathrm{J}$. GPE (taking release point as reference) $= 0$. KE
 $= 0$.
 
@@ -483,7 +483,7 @@ $\frac{1}{2}(4)v^2 = 26.67 - 39.2 = -12.53$.
 Since this is negative, the string **never becomes slack** -- the particle oscillates without the
 String going slack. Let us verify: for the string to go slack, EPE $\gt$ GPE gain at natural length.
 
-$26.67 \lt 39.2$So indeed the string remains taut.
+$26.67 \lt 39.2$ So indeed the string remains taut.
 
 (b) At the lowest point (maximum extension), $v = 0$. The particle oscillates between two points
 Where all energy is EPE $+$ GPE. At the lowest point, all initial energy $+$ GPE lost $=$ EPE.

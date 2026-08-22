@@ -23,7 +23,7 @@ In vacuum, with no sources ($\rho = 0$, $\mathbf{J} = \mathbf{0}$), Maxwell's eq
 
 $$\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E} = -\nabla^2 \mathbf{E}$$
 
-From Faraday's law: $\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t$So:
+From Faraday's law: $\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t$ So:
 
 $$\nabla \times \left(-\frac{\partial \mathbf{B}}{\partial t}\right) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
 
@@ -67,7 +67,7 @@ propagation direction.
 $y = A\sin(kx - \omega t)$: $A = 0.03$ m, $k = 5$ rad/m, $\omega = 50$ rad/s.
 
 Verification: $\partial^2 y/\partial x^2 = -25 \times 0.03\sin(5x - 50t)$ and
-$\partial^2 y/\partial t^2 = -2500 \times 0.03\sin(5x - 50t)$So
+$\partial^2 y/\partial t^2 = -2500 \times 0.03\sin(5x - 50t)$ So
 $\partial^2 y/\partial t^2 = 100 \times \partial^2 y/\partial x^2$. $\checkmark$
 
 Wavelength: $\lambda = 2\pi/k = 2\pi/5 \approx 1.26$ m. Frequency:
@@ -130,7 +130,7 @@ This is a standing wave with the following properties:
 - The standing wave does not transport energy in either direction.
 
 **Standing waves on a string of length $L$ fixed at both ends.** The boundary conditions
-$u(0,t) = 0$ And $u(L,t) = 0$ require $\sin(kL) = 0$So:
+$u(0,t) = 0$ And $u(L,t) = 0$ require $\sin(kL) = 0$ So:
 
 $$k_n L = n\pi \implies \lambda_n = \frac{2L}{n}, \quad f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
 
@@ -140,7 +140,7 @@ general solution is a superposition of all normal modes:
 $$u(x,t) = \sum_{n=1}^{\infty} \left(A_n \sin k_n x \cos \omega_n t + B_n \sin k_n x \sin \omega_n t\right)$$
 
 **Standing waves on a string fixed at one end ($x = 0$) and free at the other ($x = L$).** The free
-end requires $\partial u/\partial x|_{x=L} = 0$Giving $\cos(kL) = 0$So:
+end requires $\partial u/\partial x|_{x=L} = 0$Giving $\cos(kL) = 0$ So:
 
 $$k_n L = (n + 1/2)\pi \implies f_n = \frac{(2n+1)v}{4L}, \quad n = 0, 1, 2, \ldots$$
 
@@ -250,7 +250,7 @@ Where $\sigma_x(t) = \sigma_x(0)\sqrt{1 + (\alpha t / 2\sigma_x^2(0))^2}$.
 The envelope moves at $v_g$While individual wave crests move at the **phase velocity**
 $v_p = \omega/k$. The packet **broadens** over time due to GVD.
 
-- In a **non-dispersive** medium ($\omega \propto k$So $v_g = v_p$): the packet propagates without
+- In a **non-dispersive** medium ($\omega \propto k$ So $v_g = v_p$): the packet propagates without
   distortion.
 - In a **normally dispersive** medium ($d^2\omega/dk^2 \gt 0$): $v_g \lt v_p$ and the packet
   broadens.

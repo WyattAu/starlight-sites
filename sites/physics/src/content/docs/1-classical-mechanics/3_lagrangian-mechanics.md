@@ -41,7 +41,7 @@ Express the virtual displacement in terms of generalised coordinates:
 $$\delta\mathbf{r}_i = \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j$$
 
 **First term (applied forces).** For a conservative system,
-$\mathbf{F}_i^{(\mathrm{app})} = -\nabla_i V$So:
+$\mathbf{F}_i^{(\mathrm{app})} = -\nabla_i V$ So:
 
 $$\sum_i \mathbf{F}_i^{(\mathrm{app})} \cdot \delta\mathbf{r}_i = -\sum_i \nabla_i V \cdot \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j = -\sum_j \frac{\partial V}{\partial q_j}\delta q_j$$
 
@@ -299,7 +299,7 @@ $\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j} = \frac{\partial L}{\partial 
 
 $$\frac{dh}{dt} = -\frac{\partial L}{\partial t}$$
 
-If $\partial L/\partial t = 0$Then $dh/dt = 0$.
+If $\partial L/\partial t = 0$ Then $dh/dt = 0$.
 
 For the second part, when $\mathbf{r}_i = \mathbf{r}_i(q)$ (scleronomic) and $V = V(q)$:
 

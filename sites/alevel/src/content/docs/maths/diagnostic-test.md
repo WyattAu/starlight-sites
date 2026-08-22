@@ -228,7 +228,7 @@ $\mathbf{r} = \begin{pmatrix}1\\2\\-1\end{pmatrix} + t\begin{pmatrix}2\\-1\\3\en
 
 <details>
 <summary>Q19. Prove by contradiction that $\sqrt{5}$ is irrational.</summary>
-Suppose $\sqrt{5} = a/b$ in lowest terms. $5b^2 = a^2$So $5 \mid a^2 \implies 5 \mid a$. Write $a = 5k$: $5b^2 = 25k^2 \implies b^2 = 5k^2$So $5 \mid b$. Contradicts $\gcd(a,b)=1$. $\blacksquare$
+Suppose $\sqrt{5} = a/b$ in lowest terms. $5b^2 = a^2$ So $5 \mid a^2 \implies 5 \mid a$. Write $a = 5k$: $5b^2 = 25k^2 \implies b^2 = 5k^2$ So $5 \mid b$. Contradicts $\gcd(a,b)=1$. $\blacksquare$
 
 **If you get this wrong, revise:** [Proof](pure-mathematics/13-proof)
 

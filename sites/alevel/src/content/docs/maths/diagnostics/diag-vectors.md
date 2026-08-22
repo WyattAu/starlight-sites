@@ -30,7 +30,7 @@ tableOfContents: false
 **Question:**
 
 The line $l$ has vector equation
-$\mathbf{r} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + t\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}$And
+$\mathbf{r} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + t\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}$ And
 the point $A$ has position vector $\begin{pmatrix} 4 \\ 0 \\ 5 \end{pmatrix}$.
 
 **(a)** Find the shortest distance from $A$ to $l$.
@@ -126,7 +126,7 @@ non-parallel directions).]
 **Solution:**
 
 **(a)** $\mathbf{d}_1$ and $\mathbf{d}_2$ are not proportional for any value of $a$ (since
-$\frac{2}{1} \neq \frac{-1}{a}$ for $a = -\frac{1}{2}$And checking: at
+$\frac{2}{1} \neq \frac{-1}{a}$ for $a = -\frac{1}{2}$ And checking: at
 $a = -\frac{1}{2}$, $\frac{2}{1} = 2$ but $\frac{1}{2} = \frac{1}{2} \neq 2$). So the lines are never
 parallel.
 
@@ -258,9 +258,9 @@ cosine formula.
 
 **Question:**
 
-Points $A$$B$$C$ lie on a circle. In a coordinate system, $A = (1, 2)$$B = (5, 4)$And $C = (3, 8)$.
+Points $A$$B$$C$ lie on a circle. In a coordinate system, $A = (1, 2)$$B = (5, 4)$ And $C = (3, 8)$.
 
-**(a)** Using vectors, find the centre and radius of the circle passing through $A$$B$And $C$.
+**(a)** Using vectors, find the centre and radius of the circle passing through $A$$B$ And $C$.
 
 **(b)** A point $D$ has position vector $\mathbf{d} = \begin{pmatrix} 7 \\ 6 \end{pmatrix}$. Use the
 scalar product to determine whether $D$ lies inside, on, or outside the circle.
@@ -273,7 +273,7 @@ applies vector dot products for point location.]
 
 **Solution:**
 
-**(a)** The centre $O$ of the circle is equidistant from $A$$B$And $C$. It lies on the perpendicular
+**(a)** The centre $O$ of the circle is equidistant from $A$$B$ And $C$. It lies on the perpendicular
 bisectors of $AB$ and $AC$.
 
 Midpoint of $AB$: $M_{AB} = \left(\frac{1+5}{2}, \frac{2+4}{2}\right) = (3, 3)$.
@@ -417,7 +417,7 @@ $ABC$ are concurrent at a point $G$ (the centroid), and that $G$ divides each me
 $2:1$.
 
 **(c)** Points $P$ and $Q$ have position vectors $\mathbf{p}$ and $\mathbf{q}$ respectively. Show
-that the midpoint of $PQ$ has position vector $\frac{\mathbf{p}+\mathbf{q}}{2}$And use
+that the midpoint of $PQ$ has position vector $\frac{\mathbf{p}+\mathbf{q}}{2}$ And use
 this result to prove that the line segment joining the midpoints of two sides of a triangle is
 parallel to the third side and half its length.
 

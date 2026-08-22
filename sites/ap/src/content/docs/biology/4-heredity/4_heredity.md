@@ -186,7 +186,7 @@ Antigens.
 ### Multiple Alleles
 
 More than two alleles exist for a gene in the population. Example: ABO blood group has three
-Alleles: $I^A$, $I^B$And $i$.
+Alleles: $I^A$, $I^B$ And $i$.
 
 | Genotype             | Blood Type       |
 | -------------------- | ---------------- |
@@ -783,7 +783,7 @@ Cystic fibrosis allele be after one generation of selection?
 <details>
 <summary>Answer</summary>
 
-Current frequency: $q^2 = 1/2500 = 0.0004$So $q = 0.02$ and $p = 0.98$.
+Current frequency: $q^2 = 1/2500 = 0.0004$ So $q = 0.02$ and $p = 0.98$.
 
 Genotype frequencies before selection: $p^2 = 0.9604$$2pq = 0.0392$$q^2 = 0.0004$.
 

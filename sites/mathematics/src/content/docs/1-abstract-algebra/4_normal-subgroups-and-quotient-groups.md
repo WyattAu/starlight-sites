@@ -36,7 +36,7 @@ $g \in G$ I.e., $gng^{-1} \in N$ for all $g \in G$ and all $n \in N$.
 
 _Proof of (1) $\Rightarrow$ (3)._ Let $a_1n_1 \in aN$ and $b_1 n_2 \in bN$. Then
 $(a_1 n_1)(b_1 n_2) = a_1 b_1 (b_1^{-1} n_1 b_1) n_2$. Since $N$ is normal,
-$b_1^{-1} n_1 b_1 \in N$So $(b_1^{-1} n_1 b_1) n_2 \in N$Giving $(a_1 n_1)(b_1 n_2) \in a_1 b_1 N$.
+$b_1^{-1} n_1 b_1 \in N$ So $(b_1^{-1} n_1 b_1) n_2 \in N$Giving $(a_1 n_1)(b_1 n_2) \in a_1 b_1 N$.
 $\blacksquare$
 
 ### 4.2 The Quotient Group
@@ -47,7 +47,7 @@ $$(aN)(bN) = (ab)N$$
 
 Called the **quotient group** of $G$ by $N$.
 
-**Theorem 4.3.** If $G$ is finite and $N \trianglelefteq G$Then $|G/N| = [G : N] = |G|/|N|$.
+**Theorem 4.3.** If $G$ is finite and $N \trianglelefteq G$ Then $|G/N| = [G : N] = |G|/|N|$.
 
 **Example.** $S_3 / A_3 \cong \mathbb{Z}/2\mathbb{Z}$.
 

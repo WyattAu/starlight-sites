@@ -455,7 +455,7 @@ A basic level of security by hiding internal addresses.
 <details>
 <summary>Answer</summary>
 
-RSA uses a public key $(e, n)$ to encrypt: $C = M^e \bmod n$And a private key $(d, n)$ to decrypt:
+RSA uses a public key $(e, n)$ to encrypt: $C = M^e \bmod n$ And a private key $(d, n)$ to decrypt:
 $M = C^d \bmod n$. The keys are derived from two large primes $p, q$ where $n = pq$ and
 $ed \equiv 1 \pmod{(p-1)(q-1)}$. Security relies on the difficulty of factoring $n$ into $p$ and
 $q$.

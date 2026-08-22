@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Optics"
-description: "高考 physics: Optics"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gaokao\", \"url\": \"https://gaokao.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

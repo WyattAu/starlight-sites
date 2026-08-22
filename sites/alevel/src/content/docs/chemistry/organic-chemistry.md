@@ -1,7 +1,7 @@
 ---
 
 title: Organic Chemistry
-description: "Organic chemistry is the study of carbon-containing compounds and their reactions."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -819,9 +819,9 @@ The quartet-triplet pattern indicates an ethyl group ($\mathrm{CH}_3\mathrm{CH}_
 3.6 (3H) is a $-\mathrm{OCH}_3$. The carboxylic acid proton at 11.0 confirms $-\mathrm{COOH}$.
 
 The compound is **2-methoxypropanoic acid**? Actually, with
-$-\mathrm{CH}_3$$-\mathrm{CH}_2-$$-\mathrm{OCH}_3$And $-\mathrm{COOH}$: that is
+$-\mathrm{CH}_3$$-\mathrm{CH}_2-$$-\mathrm{OCH}_3$ And $-\mathrm{COOH}$: that is
 $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_3$... The molecular formula is
-$\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$So the compound is **propanoic acid**
+$\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$ So the compound is **propanoic acid**
 ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$) with the singlet at 3.6 being an impurity or misread.
 Re-examining: for propanoic acid, we expect a triplet
 ($\mathrm{CH}_3$3H), quartet ($\mathrm{CH}\_2$2H), and a broad singlet ($\mathrm{COOH}$1H). The singlet at 3.6 (3H) is inconsistent with $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$

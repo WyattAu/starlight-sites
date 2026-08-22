@@ -182,7 +182,7 @@ At $f = 1$ MHz ($\omega = 2\pi \times 10^6$ rad/s):
 
 $$\delta = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi \times 10^6}} \approx 65\ \mu\mathrm{m}$$
 
-The skin depth decreases as $1/\sqrt{f}$So higher-frequency signals are confined to thinner Surface
+The skin depth decreases as $1/\sqrt{f}$ So higher-frequency signals are confined to thinner Surface
 layers. $\blacksquare$
 
 </details>

@@ -122,11 +122,11 @@ Shape). $\mathrm{CO_2$ is non-polar because the bond dipoles cancel (linear shap
 **Worked Example 3:** Determine whether $\mathrm{NH_3$ and $\mathrm{BF_3$ are polar or non-polar.
 
 $\mathrm{NH_3$: Nitrogen ($\mathrm{EN = 3.04$) and hydrogen ($\mathrm{EN = 2.20$) give
-$\Delta\mathrm{EN = 0.84$So each N-H bond is polar. The molecule has trigonal pyramidal shape (three
+$\Delta\mathrm{EN = 0.84$ So each N-H bond is polar. The molecule has trigonal pyramidal shape (three
 bonding pairs, one lone pair). The bond dipoles do not cancel, so $\mathrm{NH_3$ is polar.
 
 $\mathrm{BF_3$: Boron ($\mathrm{EN = 2.04$) and fluorine ($\mathrm{EN = 3.98$) give
-$\Delta\mathrm{EN = 1.94$So each B-F bond is polar. The molecule is trigonal planar and the bond
+$\Delta\mathrm{EN = 1.94$ So each B-F bond is polar. The molecule is trigonal planar and the bond
 Dipoles cancel perfectly, so $\mathrm{BF_3$ is non-polar.
 
 ### Molecular Shape (VSEPR Theory)
@@ -336,16 +336,16 @@ Net ionic equation: $\mathrm{Zn(s) + 2\mathrm{H^+(aq) \to \mathrm{Zn^{2+}(aq) + 
 
 **Worked Example 11:** Determine the oxidation states in $\mathrm{KMnO_4$.
 
-$\mathrm{K = +1$, $\mathrm{O = -2$So $\mathrm{Mn + 1 + 4(-2) = 0$Giving $\mathrm{Mn = +7$.
+$\mathrm{K = +1$, $\mathrm{O = -2$ So $\mathrm{Mn + 1 + 4(-2) = 0$Giving $\mathrm{Mn = +7$.
 
 **Worked Example 12:** Determine the oxidation states of each element in $\mathrm{H_2\mathrm{O_2$
 and $\mathrm{Na_2\mathrm{Cr_2\mathrm{O_7$.
 
-$\mathrm{H_2\mathrm{O_2$: $\mathrm{H = +1$, $2(+1) + 2(\mathrm{O) = 0$So $\mathrm{O = -1$. This is a
+$\mathrm{H_2\mathrm{O_2$: $\mathrm{H = +1$, $2(+1) + 2(\mathrm{O) = 0$ So $\mathrm{O = -1$. This is a
 Peroxide where oxygen has an unusual oxidation state of $-1$.
 
 $\mathrm{Na_2\mathrm{Cr_2\mathrm{O_7$: $\mathrm{Na = +1$, $\mathrm{O = -2$.
-$2(+1) + 2(\mathrm{Cr) + 7(-2) = 0$So $2(\mathrm{Cr) = 12$Giving $\mathrm{Cr = +6$.
+$2(+1) + 2(\mathrm{Cr) + 7(-2) = 0$ So $2(\mathrm{Cr) = 12$Giving $\mathrm{Cr = +6$.
 
 ### Redox Reactions
 

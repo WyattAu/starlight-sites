@@ -1,7 +1,7 @@
 ---
 
 title: National Income and Macroeconomic Indicators
-description: "National income and macroeconomic indicators for DSE Economics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -1601,7 +1601,7 @@ $\Delta GDP = 1.818 \times 50 = \text{HK}\$90.9$ billion.
 (d) In an open economy, some of the additional income from government spending leaks abroad as
 imports (MPM = 0.3 means 30 cents of every additional dollar is spent on imports). These imports do
 not generate domestic income, so the circular flow is smaller. In a closed economy (MPM = 0), the
-multiplier would be $\frac{1}{1 - 0.75} = 4$And the same HK$50 billion would generate HK$200
+multiplier would be $\frac{1}{1 - 0.75} = 4$ And the same HK$50 billion would generate HK$200
 billion. The import leakage reduces the multiplier from 4 to 1.818.
 
 </details>

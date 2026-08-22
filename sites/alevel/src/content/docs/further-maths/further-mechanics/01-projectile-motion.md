@@ -271,7 +271,7 @@ A projectile is launched from a cliff $80\,\mathrm{m}$ high at $20\,\mathrm{m s}
 
 <details>
 <summary>Solution 3</summary>
-$\theta = 0^\circ$So $v_x = 20$$v_y = 0$.
+$\theta = 0^\circ$ So $v_x = 20$$v_y = 0$.
 
 $y = -\dfrac{1}{2}gt^2 = -80 \implies t^2 = \dfrac{160}{9.8} \implies t \approx 4.04\,\mathrm{s}$.
 
@@ -343,7 +343,7 @@ Show that for a given initial speed $V$The maximum range on horizontal ground is
 
 <details>
 <summary>Solution 7</summary>
-$R = \dfrac{V^2\sin 2\theta}{g}$. The maximum value of $\sin 2\theta$ is 1, occurring when $2\theta = 90^\circ$So $\theta = 45^\circ$.
+$R = \dfrac{V^2\sin 2\theta}{g}$. The maximum value of $\sin 2\theta$ is 1, occurring when $2\theta = 90^\circ$ So $\theta = 45^\circ$.
 
 $R_{\max} = \dfrac{V^2 \times 1}{g} = \dfrac{V^2}{g}$. $\blacksquare$
 
@@ -367,7 +367,7 @@ $y = 60\tan 35° - \dfrac{9.8 \times 3600}{2 \times 784 \times \cos^2 35°} = 42
 
 $= 42.02 - 33.54 = 8.48\,\mathrm{m}$.
 
-The ball is at height $8.48\,\mathrm{m}$ when it passes $x = 60\,\mathrm{m}$So the fielder cannot
+The ball is at height $8.48\,\mathrm{m}$ when it passes $x = 60\,\mathrm{m}$ So the fielder cannot
 Catch it at the same height.
 
 **If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
@@ -410,7 +410,7 @@ $\tan\theta = \dfrac{9.8 \times 1200}{2V^2\cos^2\theta \times 20} = \dfrac{588}{
 From (i):
 $5 = 20\tan\theta - \dfrac{1960}{V^2\cos^2\theta} = 20\tan\theta - \dfrac{1960}{588}\tan\theta = \tan\theta\left(20 - \dfrac{10}{3}\right) = \dfrac{50}{3}\tan\theta$.
 
-$\tan\theta = \dfrac{15}{50} = 0.3$So $\theta \approx 16.7^\circ$.
+$\tan\theta = \dfrac{15}{50} = 0.3$ So $\theta \approx 16.7^\circ$.
 
 $V^2\cos^2\theta = \dfrac{588}{0.3} = 1960$.
 $V^2 = \dfrac{1960}{\cos^2 16.7°} = \dfrac{1960}{0.9163} \approx 2139$.
@@ -633,11 +633,11 @@ Always check that your answer makes physical sense:
 ## 11. Problem Set
 
 <details>
-<summary>Q1. A projectile is launched from ground level at $25\,\mathrm{m s}^{-1}$. Find the two angles that give a range of $50\,\mathrm{m}$And for each angle find the maximum height and time of flight.</summary>
+<summary>Q1. A projectile is launched from ground level at $25\,\mathrm{m s}^{-1}$. Find the two angles that give a range of $50\,\mathrm{m}$ And for each angle find the maximum height and time of flight.</summary>
 
 $R = \dfrac{V^2\sin 2\theta}{g} \implies 50 = \dfrac{625\sin 2\theta}{9.8} \implies \sin 2\theta = \dfrac{490}{625} = 0.784$.
 
-$2\theta = 51.6^\circ$ or $128.4^\circ$So $\theta = 25.8^\circ$ or $64.2^\circ$.
+$2\theta = 51.6^\circ$ or $128.4^\circ$ So $\theta = 25.8^\circ$ or $64.2^\circ$.
 
 For $\theta = 25.8^\circ$: $H = \dfrac{625\sin^2 25.8°}{19.6} \approx 5.83\,\mathrm{m}$
 $T = \dfrac{50\sin 25.8°}{9.8} \approx 2.19\,\mathrm{s}$.
@@ -661,7 +661,7 @@ $R = 10\cos 45° \times 1.002 \approx 7.09\,\mathrm{m}$.
 </details>
 
 <details>
-<summary>Q3. Prove that the maximum horizontal range from a height $h$ is achieved at an angle less than $45^\circ$And find the optimal angle when $V = 20\,\mathrm{m s}^{-1}$ and $h = 10\,\mathrm{m}$.</summary>
+<summary>Q3. Prove that the maximum horizontal range from a height $h$ is achieved at an angle less than $45^\circ$ And find the optimal angle when $V = 20\,\mathrm{m s}^{-1}$ and $h = 10\,\mathrm{m}$.</summary>
 
 From Section 7.4: $\theta = \arctan\!\left(\dfrac{V}{\sqrt{V^2 + 2gh}}\right)$.
 
@@ -926,7 +926,7 @@ Horizontal is $T = \dfrac{2u\sin(\theta+\alpha)}{g\cos\alpha}$.
 <summary>Solution</summary>
 
 Take axes parallel and perpendicular to the downward slope. The component of $g$ along the plane
-(upward positive) is $-g\sin\alpha$And perpendicular to the plane (outward positive) is
+(upward positive) is $-g\sin\alpha$ And perpendicular to the plane (outward positive) is
 $g\cos\alpha$.
 
 Actually, resolving along the plane: $a_\parallel = -g\sin\alpha$ and $a_\perp = g\cos\alpha$ (into

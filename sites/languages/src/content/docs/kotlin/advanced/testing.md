@@ -1,7 +1,7 @@
 ---
 
 title: Testing
-description: "Unit testing in Kotlin with JUnit5, Mockk, and Kotest frameworks"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Kotlin\", \"url\":"
 date: 2026-04-18
 tags:
   - Kotlin

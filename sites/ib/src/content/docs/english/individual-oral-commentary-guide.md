@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Individual Oral Commentary Guide
-description: "Guide for the IB English Individual Oral Commentary assessment."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"English\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -55,7 +55,7 @@ Solving: $B = 2$, $A = -1$. So $a_n = -2^n + 2 \cdot 3^n = 2 \cdot 3^n - 2^n$. $
 <details>
 <summary>Solution</summary>
 
-Characteristic equation: $r^2 - 4r + 4 = 0$So $(r - 2)^2 = 0$. Root $r = 2$ with multiplicity 2.
+Characteristic equation: $r^2 - 4r + 4 = 0$ So $(r - 2)^2 = 0$. Root $r = 2$ with multiplicity 2.
 
 $a_n = (A + Bn) \cdot 2^n$.
 
@@ -112,7 +112,7 @@ $$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
-$x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$So $B = -A$. Setting $x = 1$: $1 = -A$So
+$x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$ So $B = -A$. Setting $x = 1$: $1 = -A$ So
 $A = -1$, $B = 1$.
 
 $G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
@@ -134,13 +134,13 @@ $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
 
 **Theorem 6.1 (Master Theorem).** Let $T(n)$ be defined as above.
 
-**Case 1:** If $f(n) = O(n^c)$ for some $c \lt c_{\mathrm{crit{}}$Then
+**Case 1:** If $f(n) = O(n^c)$ for some $c \lt c_{\mathrm{crit{}}$ Then
 $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.
 
-**Case 2:** If $f(n) = \Theta(n^{c_{\mathrm{crit{}}} \log^k n)$ for some $k \geq 0$Then
+**Case 2:** If $f(n) = \Theta(n^{c_{\mathrm{crit{}}} \log^k n)$ for some $k \geq 0$ Then
 $T(n) = \Theta(n^{c_{\mathrm{crit{}}} \log^{k+1} n)$.
 
-**Case 3:** If $f(n) = \Omega(n^c)$ for some $c \gt c_{\mathrm{crit{}}$And
+**Case 3:** If $f(n) = \Omega(n^c)$ for some $c \gt c_{\mathrm{crit{}}$ And
 $a\,f(n/b) \leq \delta\, f(n)$ For some $\delta \lt 1$ and sufficiently large $n$ (the **regularity
 condition**), then $T(n) = \Theta(f(n))$.
 
@@ -151,7 +151,7 @@ condition**), then $T(n) = \Theta(f(n))$.
 
 $a = 3$, $b = 2$, $f(n) = n^2$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 3 \approx 1.585$.
 
-Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
+Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
 Case 3 (provided the regularity condition holds). Check:
 $3 \cdot (n/2)^2 = 3n^2/4 = 0.75\, n^2 \leq \delta\, n^2$ For $\delta = 0.75 \lt 1$. ✓
 
@@ -166,7 +166,7 @@ Therefore $T(n) = \Theta(n^2)$.
 
 $a = 2$, $b = 2$, $f(n) = n$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 2 = 1$.
 
-$f(n) = n = \Theta(n^1 \log^0 n)$So we are in Case 2 with $k = 0$.
+$f(n) = n = \Theta(n^1 \log^0 n)$ So we are in Case 2 with $k = 0$.
 
 Therefore $T(n) = \Theta(n \log n)$.
 
@@ -179,7 +179,7 @@ Therefore $T(n) = \Theta(n \log n)$.
 
 $a = 4$, $b = 2$, $f(n) = n$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 4 = 2$.
 
-$f(n) = n = O(n^c)$ for any $c \gt 0$ with $c \lt 2$So we are in Case 1.
+$f(n) = n = O(n^c)$ for any $c \gt 0$ with $c \lt 2$ So we are in Case 1.
 
 Therefore $T(n) = \Theta(n^2)$.
 

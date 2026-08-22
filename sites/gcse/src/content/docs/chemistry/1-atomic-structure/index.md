@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure
-description: "Study notes and resources for Atomic Structure"
+description: "This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Mastery of these concepts enables"
 date: 2026-01-01T00:00:00Z
 ---
 

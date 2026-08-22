@@ -38,7 +38,7 @@ Intensity.
 Transmission coefficients satisfy $t = 1 + r$. Prove this from the boundary conditions.
 
 **6.** Unpolarised light is incident from water ($n = 1.33$) onto glass ($n = 1.50$). Calculate the
-Reflectance for (a) normal incidence, (b) $\theta_i = 45°$And (c) Brewster"s angle. At which Angle
+Reflectance for (a) normal incidence, (b) $\theta_i = 45°$ And (c) Brewster"s angle. At which Angle
 is the reflected light most strongly polarised?
 
 **7.** An optical fibre has core index $n_1 = 1.48$ and cladding index $n_2 = 1.46$. Find the
@@ -118,10 +118,10 @@ $1 + (\alpha t/(2\sigma_0^2))^2 = 4$Giving $t = 2\sigma_0\sqrt{3}/\alpha$. Using
 $\sigma_0 = v_g/\Delta\omega$ and $v_g = \omega_0/k_0$ with $k_0 = \omega_0/c$ (assuming
 $v_g \approx c$ for Estimation): $\sigma_0 \approx 3 \times 10^8/10^{12} = 3 \times 10^{-4}$ m.
 $t = 2(3 \times 10^{-4})(\sqrt{3})/(2 \times 10^6) = 5.2 \times 10^{-10}$ s. Time to travel 1 m:
-$\sim 3.3 \times 10^{-9}$ s $\gg t$So the packet doubles well before reaching 1 m.
+$\sim 3.3 \times 10^{-9}$ s $\gg t$ So the packet doubles well before reaching 1 m.
 
 **Solution 5.** At normal incidence, $\theta_i = \theta_t = 0$ and
-$r_s = r_p = (n_1 - n_2)/(n_1 + n_2)$. Boundary condition on tangential $E$: $E_0(1 + r) = E_0 t$So
+$r_s = r_p = (n_1 - n_2)/(n_1 + n_2)$. Boundary condition on tangential $E$: $E_0(1 + r) = E_0 t$ So
 $t = 1 + r$. $\blacksquare$
 
 **Solution 8.**
@@ -148,7 +148,7 @@ $\delta\lambda = \lambda/\mathcal{R} = 500/38600 = 0.0130$ nm.
 **Solution 14.**
 $\theta_{\min} = 1.22\lambda/D = 1.22(500 \times 10^{-9})/2.4 = 2.54 \times 10^{-7}$ rad
 $= 0.0527''$. The ground-based $D = 8$ m telescope has a diffraction limit of
-$1.22(500 \times 10^{-9})/8 = 7.63 \times 10^{-8}$ rad $= 0.0158''$But atmospheric seeing of $1.0''$
+$1.22(500 \times 10^{-9})/8 = 7.63 \times 10^{-8}$ rad $= 0.0158''$ But atmospheric seeing of $1.0''$
 degrades this by a factor of $\sim 63$. Hubble, being above the atmosphere, achieves its
 diffraction-limited $0.053''$ resolution, far surpassing the ground-based telescope’s effective
 resolution.
@@ -193,7 +193,7 @@ output is elliptically polarised (not circular). After the HWP (same fast axis),
 difference doubles to $\pi$ and the slow-axis component is negated: the output is linearly polarised
 at $-30°$ to the fast axis (reflected about the fast axis).
 
-**Solution 18.** First lens: $1/s_1' = 1/20 - 1/30 = 1/60$So $s_1' = 60$ cm. The image forms at The
+**Solution 18.** First lens: $1/s_1' = 1/20 - 1/30 = 1/60$ So $s_1' = 60$ cm. The image forms at The
 position of the second lens. Object distance for second lens: $s_2 = 60 - 60 = 0$ cm (object at
 Infinity for the second lens). $1/s_2' = 1/f_2 - 1/s_2$: since $s_2 = 0$ (parallel rays enter the
 Second lens), $s_2' = f_2 = -15$ cm. The final image is virtual, 15 cm to the left of the diverging

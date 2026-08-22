@@ -1182,7 +1182,7 @@ $-800\;\mathrm{kPa}$.
 <details>
 <summary>Solution</summary>
 
-(a) $\Psi = \Psi_s + \Psi_p$So $\Psi_s = \Psi - \Psi_p = -400 - 100 = -500\;\mathrm{kPa}$.
+(a) $\Psi = \Psi_s + \Psi_p$ So $\Psi_s = \Psi - \Psi_p = -400 - 100 = -500\;\mathrm{kPa}$.
 
 (b) Water moves from higher water potential to lower water potential. External
 $= -200\;\mathrm{kPa}$; Cell $= -400\;\mathrm{kPa}$. Water moves **into** the cell (from $-200$ to
@@ -1195,7 +1195,7 @@ $-400\;\mathrm{kPa}$).
 - As $\Psi_p$ increases, the cell's water potential ($\Psi = \Psi_s + \Psi_p$) becomes less
   negative.
 - Equilibrium is reached when $\Psi_{cell} = \Psi_{external} = -200\;\mathrm{kPa}$:
-  $-500 + \Psi_p = -200$So $\Psi_p = +300\;\mathrm{kPa}$.
+  $-500 + \Psi_p = -200$ So $\Psi_p = +300\;\mathrm{kPa}$.
 - The cell is fully turgid.
 
 (d) External $= -800\;\mathrm{kPa}$; cell $= -400\;\mathrm{kPa}$. Water moves **out of** the cell.
@@ -1207,7 +1207,7 @@ $-400\;\mathrm{kPa}$).
   $= \Psi_s = -500\;\mathrm{kPa}$.
 - Since $-500 > -800$Water continues to leave until the solute potential becomes more negative
   (concentration increases). Equilibrium when $\Psi_{cell} = -800\;\mathrm{kPa}$:
-  $\Psi_s + 0 = -800\;\mathrm{kPa}$So $\Psi_s = -800\;\mathrm{kPa}$. The cell has lost significant
+  $\Psi_s + 0 = -800\;\mathrm{kPa}$ So $\Psi_s = -800\;\mathrm{kPa}$. The cell has lost significant
   water and is plasmolysed.
 
 </details>
@@ -1319,10 +1319,10 @@ $0.1$--$0.2\;\mathrm{nm}$ Which is sufficient to resolve individual atoms in cry
 
 (c) Ribosome diameter $= 25\;\mathrm{nm}$.
 
-- Light microscope: resolution $= 240\;\mathrm{nm}$. $25 < 240$So the ribosome is **smaller than the
+- Light microscope: resolution $= 240\;\mathrm{nm}$. $25 < 240$ So the ribosome is **smaller than the
   resolution limit**. It cannot be resolved (individual ribosomes are invisible under light
   microscopy).
-- TEM: resolution $= 0.153\;\mathrm{nm}$. $25 > 0.153$So the ribosome is **resolved**. TEM can
+- TEM: resolution $= 0.153\;\mathrm{nm}$. $25 > 0.153$ So the ribosome is **resolved**. TEM can
   visualise ribosomes and their subunits.
 
 (d) **TEM**: a beam of electrons passes through an ultra-thin specimen ($<100\;\mathrm{nm}$ thick).

@@ -71,7 +71,7 @@ $\blacksquare$
 
 ### 8.4 Principal Axes
 
-**Definition.** The **principal axes** are the eigenvectors of $\mathbf{I}$And the **principal
+**Definition.** The **principal axes** are the eigenvectors of $\mathbf{I}$ And the **principal
 moments of inertia** $I_1, I_2, I_3$ are the corresponding eigenvalues.
 
 In the principal axis frame, the inertia tensor is diagonal:

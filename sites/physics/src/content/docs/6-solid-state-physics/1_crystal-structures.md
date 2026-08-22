@@ -128,7 +128,7 @@ This matches the accepted experimental density of iron ($7.87\ \mathrm{g}/cm^3$)
 <details>
 <summary>Worked Example: HCP Packing Fraction</summary>
 
-For HCP with ideal $c/a = \sqrt{8/3}$Lattice constant $a$And atomic radius $R = a/2$:
+For HCP with ideal $c/a = \sqrt{8/3}$Lattice constant $a$ And atomic radius $R = a/2$:
 
 Two atoms per primitive cell. The cell volume is
 $V_{\mathrm{cell} = \frac{\sqrt{3}}{2}a^2 \cdot c = \frac{\sqrt{3}}{2}a^2 \cdot a\sqrt{8/3} = \sqrt{2}\,a^3}$.

@@ -110,7 +110,7 @@ $$= \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}$$
 
 The completely antisymmetric singlet $\mathbf{1}_A$ is the colour wavefunction of all Baryons. In
 the full baryon wavefunction, the colour part is antisymmetric, so the Combined flavour $\otimes$
-spin $\otimes$ space part must be symmetric (for ground-state Baryons, $L = 0$So the space part is
+spin $\otimes$ space part must be symmetric (for ground-state Baryons, $L = 0$ So the space part is
 symmetric).
 
 </details>

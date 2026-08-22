@@ -36,11 +36,11 @@ Is essential for working with the number system fluently.
 **integers** is $\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$.
 
 A **rational number** is any number that can be expressed as $\frac{p}{q}$ where $p \in \mathbb{Z}$
-$q \in \mathbb{Z} \setminus \{0\}$And $p$ and $q$ have no common factors other than 1 (i.e. The
+$q \in \mathbb{Z} \setminus \{0\}$ And $p$ and $q$ have no common factors other than 1 (i.e. The
 Fraction is in its **lowest terms**).
 
 An **irrational number** is a real number that cannot be expressed as a fraction of two integers.
-Key examples include $\sqrt{2}$, $\pi$And $e$.
+Key examples include $\sqrt{2}$, $\pi$ And $e$.
 
 **Theorem.** $\sqrt{2}$ is irrational.
 
@@ -58,8 +58,8 @@ Coprime. Therefore $\sqrt{2}$ is irrational. $\blacksquare$
 
 **Theorem.** $\sqrt{3}$ is irrational.
 
-**Proof.** Suppose $\sqrt{3} = \frac{p}{q}$ in lowest terms. Then $p^2 = 3q^2$So $3 \mid p^2$ Hence
-$3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$So $q^2 = 3k^2$Giving $3 \mid q$. This
+**Proof.** Suppose $\sqrt{3} = \frac{p}{q}$ in lowest terms. Then $p^2 = 3q^2$ So $3 \mid p^2$ Hence
+$3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$ So $q^2 = 3k^2$Giving $3 \mid q$. This
 contradicts coprimality. $\blacksquare$
 
 This technique generalises: for any prime $p$, $\sqrt{p}$ is irrational. The proof structure is
@@ -118,7 +118,7 @@ Divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest
 That is a multiple of both.
 
 If the prime factorisations are $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots$ and
-$b = p_1^{\beta_1} p_2^{\beta_2} \cdots$Then:
+$b = p_1^{\beta_1} p_2^{\beta_2} \cdots$ Then:
 
 $$\mathrm{HCF(a, b) = p_1^{\min(\alpha_1, \beta_1)} p_2^{\min(\alpha_2, \beta_2)} \cdots$$
 
@@ -142,7 +142,7 @@ $$\mathrm{LCM = 2^{\max(2,1)} \times 3^{\max(1,1)} \times 5^{\max(0,1)} \times 7
 
 **Verification:** $42 \times 420 = 17640 = 84 \times 210$. $\checkmark$
 
-**Worked Example (Higher Tier).** Find the HCF and LCM of $180$, $252$And $396$.
+**Worked Example (Higher Tier).** Find the HCF and LCM of $180$, $252$ And $396$.
 
 $$180 = 2^2 \times 3^2 \times 5, \qquad 252 = 2^2 \times 3^2 \times 7, \qquad 396 = 2^2 \times 3^2 \times 11$$
 
@@ -153,11 +153,11 @@ $$\mathrm{LCM = 2^2 \times 3^2 \times 5 \times 7 \times 11 = 4 \times 9 \times 3
 ### 1.4 Divisibility Tests and Prime Testing
 
 To test whether a number $n$ is prime, you only need to check divisibility by primes up to
-$\sqrt{n}$. If none divide $n$Then $n$ is prime.
+$\sqrt{n}$. If none divide $n$ Then $n$ is prime.
 
 **Worked Example.** Is $211$ prime?
 
-$\sqrt{211} \approx 14.5$So we check primes up to $13$: 2, 3, 5, 7, 11, 13.
+$\sqrt{211} \approx 14.5$ So we check primes up to $13$: 2, 3, 5, 7, 11, 13.
 
 - Not divisible by 2 (odd), 3 (digit sum $= 4$), or 5 (does not end in 0 or 5).
 - $211 = 30 \times 7 + 1$Not divisible by 7.
@@ -204,7 +204,7 @@ $$100x = 36.363636\ldots$$
 
 $$x = 0.363636\ldots$$
 
-Subtracting: $99x = 36$So $x = \frac{36}{99} = \frac{4}{11}$.
+Subtracting: $99x = 36$ So $x = \frac{36}{99} = \frac{4}{11}$.
 
 **General rule:** If the repeating block has $n$ digits, multiply by $10^n$Subtract the original,
 And simplify.
@@ -275,7 +275,7 @@ By the theorem: $\frac{20^2}{100} = 4\%$ decrease. $\checkmark$
 
 **Worked Example.** After a 20% increase, a price is 336 pounds. Find the original price.
 
-The original price is $100\%$And after the increase it is $120\%$. So:
+The original price is $100\%$ And after the increase it is $120\%$. So:
 
 $$\mathrm{original = \frac{336}{1.20} = 280 \mathrm{ pounds$$
 
@@ -305,7 +305,7 @@ $$A = 2000 \times 1.035^6 = 2000 \times 1.22925\ldots = 2458.51 \mathrm{ pounds$
 **Worked Example (Higher Tier).** A car bought for 18000 pounds depreciates at 12% per annum. After
 How many whole years will its value first fall below 8000 pounds?
 
-We need $18000 \times 0.88^n \lt 8000$So $0.88^n \lt \frac{8000}{18000} = \frac{4}{9}$.
+We need $18000 \times 0.88^n \lt 8000$ So $0.88^n \lt \frac{8000}{18000} = \frac{4}{9}$.
 
 Taking logarithms: $n \ln 0.88 \lt \ln\!\left(\frac{4}{9}\right)$.
 
@@ -325,7 +325,7 @@ Total interest $= 5624.32 - 5000 = 624.32$ pounds.
 
 ### 3.1 Laws of Indices
 
-For positive integers $m$ and $n$And non-zero base $a$:
+For positive integers $m$ and $n$ And non-zero base $a$:
 
 | Law                | Expression                             |
 | ------------------ | -------------------------------------- |
@@ -388,7 +388,7 @@ $$= 5\sqrt{2} + 2 \times 2\sqrt{2} - 3 \times 3\sqrt{2} = 5\sqrt{2} + 4\sqrt{2} 
 **Theorem.** If $a + b\sqrt{c} = d + e\sqrt{c}$ where $a, b, d, e$ are rational and $\sqrt{c}$ is
 Irrational, then $a = d$ and $b = e$.
 
-**Proof.** If $a + b\sqrt{c} = d + e\sqrt{c}$Then $(a - d) = (e - b)\sqrt{c}$. If $e \neq b$Then
+**Proof.** If $a + b\sqrt{c} = d + e\sqrt{c}$ Then $(a - d) = (e - b)\sqrt{c}$. If $e \neq b$ Then
 $\sqrt{c} = \frac{a - d}{e - b} \in \mathbb{Q}$Contradicting the irrationality of $\sqrt{c}$.
 Therefore $e = b$ and hence $a = d$. $\blacksquare$
 

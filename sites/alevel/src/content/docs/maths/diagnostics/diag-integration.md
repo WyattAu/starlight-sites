@@ -58,7 +58,7 @@ $$= \frac{x^4}{16}(4\ln x - 1) + C$$
 
 **(b)** If the student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$:
 
-$du = 3x^2\, dx$But $v = \int \ln x\, dx = x\ln x - x$ (which itself requires integration by parts
+$du = 3x^2\, dx$ But $v = \int \ln x\, dx = x\ln x - x$ (which itself requires integration by parts
 to find).
 
 Then:
@@ -122,7 +122,7 @@ versus when back-substitution rescues the answer, and lower-limit negligence.]
 
 **Solution:**
 
-**(a)** $u = 1 + x^2$, $du = 2x\, dx$So $x\, dx = \frac{1}{2}\, du$.
+**(a)** $u = 1 + x^2$, $du = 2x\, dx$ So $x\, dx = \frac{1}{2}\, du$.
 
 When $x = 0$: $u = 1$. When $x = 1$: $u = 2$.
 
@@ -176,7 +176,7 @@ integral is undefined. Explain the error and find the correct value.
 
 **(d)** Evaluate $\int_{-1}^{1} \frac{1}{x}\, dx$ or show that it does not exist.
 
-[Difficulty: hard. Tests the absolute value in the antiderivative of $\frac{1}{x}$And the improper
+[Difficulty: hard. Tests the absolute value in the antiderivative of $\frac{1}{x}$ And the improper
 integral when the integrand has a singularity within the interval.]
 
 **Solution:**
@@ -276,7 +276,7 @@ Then $t\, dt = \frac{du + 4\, dt}{2}$Which is not directly useful. Instead, writ
 
 $$\int_0^3 t\sqrt{(t-2)^2 + 4}\, dt$$
 
-Let $w = t - 2$So $t = w + 2$, $dt = dw$. When $t = 0$: $w = -2$. When $t = 3$: $w = 1$.
+Let $w = t - 2$ So $t = w + 2$, $dt = dw$. When $t = 0$: $w = -2$. When $t = 3$: $w = 1$.
 
 $$= \int_{-2}^{1} (w+2)\sqrt{w^2 + 4}\, dw = \int_{-2}^{1} w\sqrt{w^2+4}\, dw + 2\int_{-2}^{1}\sqrt{w^2+4}\, dw$$
 
@@ -377,7 +377,7 @@ A student claims that $\int \frac{x}{\sqrt{x+1}}\, dx = \frac{2}{3}(x-2)\sqrt{x+
 **(a)** Verify this result by differentiation.
 
 **(b)** Find the integral $\int \frac{x}{\sqrt{x+1}}\, dx$ using the substitution
-$u = \sqrt{x+1}$And confirm the student's answer.
+$u = \sqrt{x+1}$ And confirm the student's answer.
 
 **(c)** Hence evaluate $\int_0^3 \frac{x}{\sqrt{x+1}}\, dx$ exactly.
 
@@ -402,7 +402,7 @@ $$= \frac{2}{3} \cdot \frac{2(x+1) + (x-2)}{2(x+1)^{1/2}} = \frac{2}{3} \cdot \f
 
 Confirmed.
 
-**(b)** $u = \sqrt{x+1}$So $u^2 = x + 1$Giving $x = u^2 - 1$ and $dx = 2u\, du$.
+**(b)** $u = \sqrt{x+1}$ So $u^2 = x + 1$Giving $x = u^2 - 1$ and $dx = 2u\, du$.
 
 $$\int \frac{x}{\sqrt{x+1}}\, dx = \int \frac{u^2-1}{u} \cdot 2u\, du = 2\int(u^2 - 1)\, du$$
 

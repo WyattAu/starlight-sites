@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Macroeconomics"
-description: "Self-assessment quiz on IB macroeconomics"
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 tableOfContents: false
 sidebar_position: 40
 ---

@@ -1,6 +1,6 @@
 ---
 title: Cefr Levels
-description: "Study notes and resources for Cefr Levels"
+description: "This section covers language proficiency assessment across CEFR levels. These materials support preparation for standardised language examinations."
 date: 2026-01-01T00:00:00Z
 ---
 

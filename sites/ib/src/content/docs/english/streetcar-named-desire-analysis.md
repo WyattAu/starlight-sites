@@ -5,7 +5,7 @@ title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
-description: "Analysis of A Streetcar Named Desire by Tennessee Williams."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"English\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -164,7 +164,7 @@ $$
 
 **Why $n$ vs $n-1$?** Dividing by $n-1$ (Bessel"s correction) provides an _unbiased_ estimator of
 The population variance when working with a sample. Using only $n$ data points, the sample mean
-$\bar{x}$ is closer to the data points than the true population mean $\mu$So the squared Deviations
+$\bar{x}$ is closer to the data points than the true population mean $\mu$ So the squared Deviations
 tend to underestimate the true spread. Dividing by $n-1$ compensates for this. In the DSE Syllabus,
 unless the problem explicitly identifies the data as a sample, the population formula (dividing by
 $n$) is expected.
@@ -218,7 +218,7 @@ $$
 \end{aligned}
 $$
 
-Where $k$ is the number of classes, $f_i$ is the frequency of class $i$And $x_i$ is the class Mark.
+Where $k$ is the number of classes, $f_i$ is the frequency of class $i$ And $x_i$ is the class Mark.
 
 ### Assumed Mean Method (Coding Method)
 
@@ -306,12 +306,12 @@ For the mean: $\overline{aX+b} = a\bar{x} + b$.
 
 <details>
 <summary>Examples</summary>
-- If $\bar{x} = 50$ and $\sigma^2 = 16$Then for $Y = 3X - 4$: $\bar{y} = 3(50)-4 = 146$ and $\mathrm{Var}(Y) = 9 \times 16 = 144$.
+- If $\bar{x} = 50$ and $\sigma^2 = 16$ Then for $Y = 3X - 4$: $\bar{y} = 3(50)-4 = 146$ and $\mathrm{Var}(Y) = 9 \times 16 = 144$.
 - Temperatures recorded in Celsius have mean $25$ and standard deviation $3$. In Fahrenheit ($F = 1.8C + 32$): mean $= 1.8(25)+32 = 77$Standard deviation $= 1.8 \times 3 = 5.4$.
 
 ### Combined Variance
 
-Given two datasets $X$ and $Y$ with sizes $n_1$ and $n_2$Means $\bar{x}_1$ and $\bar{x}_2$And
+Given two datasets $X$ and $Y$ with sizes $n_1$ and $n_2$Means $\bar{x}_1$ and $\bar{x}_2$ And
 Variances $\sigma_1^2$ and $\sigma_2^2$The **combined variance** of the pooled dataset is:
 
 $$
@@ -369,7 +369,7 @@ A larger CV indicates greater relative dispersion.
 ### Box-and-Whisker Plots
 
 A **box-and-whisker plot** is a standardised graphical display of the five-number summary: minimum,
-$Q_1$$Q_2$ (median), $Q_3$And maximum.
+$Q_1$$Q_2$ (median), $Q_3$ And maximum.
 
 **Construction:**
 
@@ -597,7 +597,7 @@ Variance.
 <summary>Answer</summary>
 
 - Original: $\bar{x} = 0$$\sigma^2 = 25$$n = 6$.
-- $\sum x_i = 0$So $\sum x_i^2 = n\sigma^2 + \frac{(\sum x_i)^2}{n} = 6(25) + 0 = 150$.
+- $\sum x_i = 0$ So $\sum x_i^2 = n\sigma^2 + \frac{(\sum x_i)^2}{n} = 6(25) + 0 = 150$.
 - After removing $10$: new sum $= 0 - 10 = -10$New $n' = 5$.
 - New mean: $\bar{x}' = \frac{-10}{5} = -2$.
 - New sum of squares: $150 - 100 = 50$.
@@ -879,10 +879,10 @@ Adding a constant $k$ does not change the standard deviation. Therefore, the new
 should still be $\sigma = 4$Not $10$.
 
 There is no value of $k$ that changes the standard deviation from 4 to 10 by addition alone. To
-change the standard deviation, we would need to multiply by a constant. If $Y = aX + b$Then
+change the standard deviation, we would need to multiply by a constant. If $Y = aX + b$ Then
 $\sigma_Y = |a|\sigma_X$. For $\sigma_Y = 10$: $|a| = \dfrac{10}{4} = 2.5$.
 
-The question likely intends a multiplication, not just addition. If $Y = 2.5X + k$Then
+The question likely intends a multiplication, not just addition. If $Y = 2.5X + k$ Then
 $\sigma_Y = 10$ for any $k$.
 
 </details>

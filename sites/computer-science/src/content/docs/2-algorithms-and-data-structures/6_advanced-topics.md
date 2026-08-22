@@ -42,7 +42,7 @@ Time.
 A **polynomial-time reduction** from problem $A$ to problem $B$ is a polynomial-time algorithm that
 Transforms instances of $A$ into instances of $B$Preserving the answer.
 
-**Lemma 6.1.** If $A \leq_p B$ and $B \in P$Then $A \in P$.
+**Lemma 6.1.** If $A \leq_p B$ and $B \in P$ Then $A \in P$.
 
 **Lemma 6.2.** If $A \leq_p B$ and $A$ is NP-hard, then $B$ is NP-hard.
 
@@ -171,8 +171,8 @@ no polynomial-time approximation algorithm with any constant ratio.
 _Proof sketch._ If a $c$-approximation existed for TSP, we could use it to solve the Hamiltonian
 cycle problem (which is NP-complete): given a graph $G$Construct a TSP instance with edge weight 1
 for existing edges and weight $cn + 1$ for non-edges. If the approximation returns a tour of weight
-$n$Then $G$ has a Hamiltonian cycle. Otherwise, the tour weight is at least
-$n - 1 + cn + 1 \gt cn$So the approximation ratio would exceed $c$Contradiction. $\blacksquare$
+$n$ Then $G$ has a Hamiltonian cycle. Otherwise, the tour weight is at least
+$n - 1 + cn + 1 \gt cn$ So the approximation ratio would exceed $c$Contradiction. $\blacksquare$
 
 **Theorem 6.6 (SET COVER).** The greedy algorithm for SET COVER is a $(\ln n + O(1))$-approximation,
 where $n$ is the size of the universe.
@@ -246,14 +246,14 @@ Pivot = randomly chosen. Suppose pivot = 5 (index 5).
 
 Partition: $[7, 2, 1, 6, 8, 5, 3, 4] \to [2, 1, 3, 4, 5, 6, 8, 7]$.
 
-Pivot 5 is at index 4 (0-indexed). We want rank 3 (0-indexed rank 2). $4 > 2$So recurse on left:
+Pivot 5 is at index 4 (0-indexed). We want rank 3 (0-indexed rank 2). $4 > 2$ So recurse on left:
 $[2, 1, 3, 4]$.
 
 Pivot = randomly chosen. Suppose pivot = 3.
 
 Partition: $[2, 1, 3, 4] \to [2, 1, 3, 4]$.
 
-Pivot 3 is at index 2. We want rank 2. $2 = 2$So return 3.
+Pivot 3 is at index 2. We want rank 2. $2 = 2$ So return 3.
 
 The 3rd smallest element is 3.
 
@@ -264,7 +264,7 @@ The 3rd smallest element is 3.
 
 Test whether $n = 561$ is prime (it is not; $561 = 3 \times 11 \times 17$A Carmichael number).
 
-Write $n - 1 = 560 = 2^4 \times 35$So $s = 4$, $d = 35$.
+Write $n - 1 = 560 = 2^4 \times 35$ So $s = 4$, $d = 35$.
 
 Choose random base $a = 2$.
 
@@ -318,7 +318,7 @@ at most once.
 **Theorem 6.9.** The amortised cost per operation for a multi-pop stack is $O(1)$.
 
 _Proof._ In a sequence of $n$ operations, each element is pushed at most once and popped at most
-once. The total cost is at most $2n = O(n)$So the amortised cost per operation is $O(n)/n = O(1)$.
+once. The total cost is at most $2n = O(n)$ So the amortised cost per operation is $O(n)/n = O(1)$.
 $\blacksquare$
 
 #### 6.4.2 Accounting Method
@@ -343,7 +343,7 @@ $\blacksquare$
 The **potential function** $\Phi$ maps data structure states to non-negative real numbers. The
 amortised cost of the $i$-th operation is $\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$.
 
-**Theorem 6.11.** If $\Phi(D_i) \geq 0$ for all $i$Then
+**Theorem 6.11.** If $\Phi(D_i) \geq 0$ for all $i$ Then
 $\sum_{i=1}^{n} \hat{c}_i \geq \sum_{i=1}^{n} c_i$.
 
 <details>

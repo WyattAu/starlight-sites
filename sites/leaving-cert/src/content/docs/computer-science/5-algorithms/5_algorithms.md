@@ -682,7 +682,7 @@ class QueueTwoStacks:
 ```
 
 **Amortised time complexity:** Each element is pushed to `inbox` once and popped from `inbox` to
-`outbox` once. Over $n$ operations, total work is $O(n)$So amortised cost per operation is $O(1)$.
+`outbox` once. Over $n$ operations, total work is $O(n)$ So amortised cost per operation is $O(1)$.
 
 ## Algorithm Correctness Proofs (HL)
 

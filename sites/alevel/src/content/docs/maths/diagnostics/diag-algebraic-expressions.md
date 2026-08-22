@@ -78,7 +78,7 @@ $$= \frac{2x \cdot (x^2-1)^2}{-4x \cdot (x^2-1)} = \frac{(x^2-1)}{-2} = -\frac{x
 **Final restrictions:** $x \neq -1, 1, 0$.
 
 **Verification:** If $x = 2$The original expression gives
-$\frac{\frac{1}{3}+\frac{1}{1}}{\frac{1}{9}-\frac{1}{1}} = \frac{4/3}{-8/9} = -\frac{3}{2}$And
+$\frac{\frac{1}{3}+\frac{1}{1}}{\frac{1}{9}-\frac{1}{1}} = \frac{4/3}{-8/9} = -\frac{3}{2}$ And
 our result gives $-\frac{4-1}{2} = -\frac{3}{2}$. Consistent.
 
 ---
@@ -257,7 +257,7 @@ By writing $x = \frac{1}{y}$ for $y \geq 5$Find the exact rational expression fo
 
 $$\frac{y^4}{y + 2} - \frac{y^4}{y^2 + 2y}$$
 
-In the form $A y^3 + B y^2 + C y + D + \frac{E}{y + 2}$And hence verify that your result is
+In the form $A y^3 + B y^2 + C y + D + \frac{E}{y + 2}$ And hence verify that your result is
 consistent with the binomial expansion above.
 
 [Difficulty: hard. Requires algebraic manipulation combined with understanding binomial convergence
@@ -273,11 +273,11 @@ $$\frac{y^4}{y+2} - \frac{y^4}{y(y+2)} = \frac{y^4}{y+2} - \frac{y^3}{y+2} = \fr
 
 Using algebraic long division:
 
-- $y^4 \div y = y^3$So multiply: $y^3(y+2) = y^4 + 2y^3$. Subtract from $y^4 - y^3$: remainder is
+- $y^4 \div y = y^3$ So multiply: $y^3(y+2) = y^4 + 2y^3$. Subtract from $y^4 - y^3$: remainder is
   $-3y^3$.
-- $-3y^3 \div y = -3y^2$So multiply: $-3y^2(y+2) = -3y^3 - 6y^2$. Subtract: remainder is $6y^2$.
-- $6y^2 \div y = 6y$So multiply: $6y(y+2) = 6y^2 + 12y$. Subtract: remainder is $-12y$.
-- $-12y \div y = -12$So multiply: $-12(y+2) = -12y - 24$. Subtract: remainder is $24$.
+- $-3y^3 \div y = -3y^2$ So multiply: $-3y^2(y+2) = -3y^3 - 6y^2$. Subtract: remainder is $6y^2$.
+- $6y^2 \div y = 6y$ So multiply: $6y(y+2) = 6y^2 + 12y$. Subtract: remainder is $-12y$.
+- $-12y \div y = -12$ So multiply: $-12(y+2) = -12y - 24$. Subtract: remainder is $24$.
 
 Therefore:
 
@@ -292,7 +292,7 @@ $$\frac{y^3}{1 + 2/y} = y^3 \left(1 + \frac{2}{y}\right)^{-1} = y^3\left(1 - \fr
 
 $$= y^3 - 2y^2 + 4y - 8 + \cdots$$
 
-But our expression also has the term $-\frac{y^3}{y+2} = -y^3(1 + 2/y)^{-1}$So we get
+But our expression also has the term $-\frac{y^3}{y+2} = -y^3(1 + 2/y)^{-1}$ So we get
 $-(y^3 - 2y^2 + 4y - 8) = -y^3 + 2y^2 - 4y + 8$ plus the remainder terms. Adding $y^4/(y+2)$ back
 and collecting, the polynomial part is $y^3 - 3y^2 + 6y - 12$Consistent with our exact division.
 
@@ -404,7 +404,7 @@ By the quadratic formula:
 $$x = \frac{-6 \pm \sqrt{36-4}}{2} = \frac{-6 \pm 4\sqrt{2}}{2} = -3 \pm 2\sqrt{2}$$
 
 Checking restrictions: $x \neq -1$ (domain of $g$) and $x \neq 2$ (domain of $f$). Neither
-$-3+2\sqrt{2}$ nor $-3-2\sqrt{2}$ equals $-1$ or $2$So both solutions are valid.
+$-3+2\sqrt{2}$ nor $-3-2\sqrt{2}$ equals $-1$ or $2$ So both solutions are valid.
 
 ---
 
@@ -424,7 +424,7 @@ $-3+2\sqrt{2}$ nor $-3-2\sqrt{2}$ equals $-1$ or $2$So both solutions are valid.
 The expression $\left(\sqrt{a + \sqrt{b}} + \sqrt{a - \sqrt{b}}\right)^2$ simplifies to
 $2a + 2\sqrt{a^2 - b}$.
 
-Given that $a$ and $b$ are positive integers with $a^2 > b$And that:
+Given that $a$ and $b$ are positive integers with $a^2 > b$ And that:
 
 $$\sqrt{7 + 4\sqrt{3}} = \sqrt{m} + \sqrt{n}$$
 

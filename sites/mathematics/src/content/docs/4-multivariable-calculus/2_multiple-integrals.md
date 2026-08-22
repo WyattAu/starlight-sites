@@ -24,7 +24,7 @@ Riemann sums:
 
 $$\iint_R f(x,y)\, dA = \lim_{\lVert P \rVert \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}$$
 
-**Theorem 2.1 (Fubini"s Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$Then
+**Theorem 2.1 (Fubini"s Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$ Then
 
 $$\iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy$$
 
@@ -59,7 +59,7 @@ $y = x + 2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$So $(x-2)(x+1) = 0$Giving $x = -1$ and
+The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$Giving $x = -1$ and
 $x = 2$. As a Type I region, $D = \\{(x,y) : -1 \leq x \leq 2,\, x^2 \leq y \leq x+2\\}$.
 
 $$\iint_D xy\, dA = \int_{-1}^{2} \int_{x^2}^{x+2} xy\, dy\, dx = \int_{-1}^{2} x \left[\frac{y^2}{2}\right]_{x^2}^{x+2}\, dx$$
@@ -78,7 +78,7 @@ $\blacksquare$
 
 </details>
 
-**Problem.** Evaluate $\iint_D x\, dA$ where $D$ is the region bounded by $y = x$, $y = 2x$And
+**Problem.** Evaluate $\iint_D x\, dA$ where $D$ is the region bounded by $y = x$, $y = 2x$ And
 $x + y = 2$.
 
 <details>
@@ -98,10 +98,10 @@ Wait, this is getting messy. Let me use Type II instead. For each $y$, $x$ range
 (for $0 \leq y \leq 4/3$) and from $y/2$ to $2 - y$ (for $4/3 \leq y \leq 1$). Actually, the
 simplest approach is to split $D$ at $y = 4/3$.
 
-For $0 \leq y \leq 1$: $y/2 \leq x \leq y$ (between $y = x$ and $y = 2x$But only up to $x + y = 2$).
-Actually $y = 2x$ gives $x = y/2$And $y = x$ gives $x = y$. But $x + y = 2$ gives $x = 2 - y$. For
-$y \leq 1$: both $y \leq 2 - y$ (since $y \leq 1$) and $y/2 \leq y$So the right boundary is $y$. But
-we also need $x + y \leq 2$I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$So the constraint
+For $0 \leq y \leq 1$: $y/2 \leq x \leq y$ (between $y = x$ and $y = 2x$ But only up to $x + y = 2$).
+Actually $y = 2x$ gives $x = y/2$ And $y = x$ gives $x = y$. But $x + y = 2$ gives $x = 2 - y$. For
+$y \leq 1$: both $y \leq 2 - y$ (since $y \leq 1$) and $y/2 \leq y$ So the right boundary is $y$. But
+we also need $x + y \leq 2$I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$ So the constraint
 $x \leq y$ is tighter.
 
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$.
@@ -204,7 +204,7 @@ $x^2 + y^2 + z^2 = 2$ and below by the paraboloid $z = x^2 + y^2$.
 <summary>Solution</summary>
 
 The surfaces intersect when $x^2 + y^2 + (x^2 + y^2)^2 = 2$. Let $r^2 = x^2 + y^2$. Then
-$r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$So $r = 1$ (positive root). Use Cylindrical
+$r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
 coordinates. The region $E'$ is
 
 $$0 \leq r \leq 1, \quad 0 \leq \theta \leq 2\pi, \quad r^2 \leq z \leq \sqrt{2 - r^2}$$
@@ -225,7 +225,7 @@ $x^2 + y^2 + z^2 \leq a^2$.
 <details>
 <summary>Solution</summary>
 
-Use spherical coordinates. In spherical: $x^2 + y^2 + z^2 = \rho^2$And $E'$ is $0 \leq \rho \leq a$,
+Use spherical coordinates. In spherical: $x^2 + y^2 + z^2 = \rho^2$ And $E'$ is $0 \leq \rho \leq a$,
 $0 \leq \phi \leq \pi$, $0 \leq \theta \leq 2\pi$.
 
 $$\iiint_E (x^2 + y^2 + z^2)\, dV = \int_0^{2\pi} \int_0^{\pi} \int_0^a \rho^2 \cdot \rho^2 \sin\phi\, d\rho\, d\phi\, d\theta$$
@@ -250,7 +250,7 @@ $$= \int_0^{2\pi} \left[\frac{r^4}{4}\right]_0^2 d\theta = \int_0^{2\pi} 4\, d\t
 
 $\blacksquare$
 
-**Problem.** Evaluate $\iint_D \frac{y}{x}\, dA$ where $D$ is bounded by $y = x$, $y = 2x$And
+**Problem.** Evaluate $\iint_D \frac{y}{x}\, dA$ where $D$ is bounded by $y = x$, $y = 2x$ And
 $x = 1$.
 
 <details>

@@ -198,7 +198,7 @@ $$m_{\text{actual}} = 46.0 \times 0.855 = 39.3\,\text{kg}$$
 
 $0.480\,\text{g}$ of a hydrocarbon (containing only carbon and hydrogen) is completely burned in
 oxygen. The products are passed through concentrated $\text{H}_2\text{SO}_4$Which increases in mass
-by $0.720\,\text{g}$And then through limewater ($\text{Ca(OH)}_2$ solution), which produces
+by $0.720\,\text{g}$ And then through limewater ($\text{Ca(OH)}_2$ solution), which produces
 $2.20\,\text{g}$ of white precipitate ($\text{CaCO}_3$).
 
 (a) Calculate the empirical formula of the hydrocarbon.
@@ -229,7 +229,7 @@ Ratio C : H = $0.0220 : 0.0800 = 1 : 3.64$.
 
 Multiplying to find the simplest integer ratio: $0.0220 : 0.0800 = 5 : 18.2$. The ratio is
 approximately $5 : 18$Giving an empirical formula of **$\text{C}_5\text{H}_{18}$**. However, this is
-not a standard hydrocarbon formula (alkanes follow $\text{C}_n\text{H}_{2n+2}$So
+not a standard hydrocarbon formula (alkanes follow $\text{C}_n\text{H}_{2n+2}$ So
 $\text{C}_5\text{H}_{12}$ would be the alkane with 5 carbons). The discrepancy is within expected
 experimental rounding error.
 
@@ -371,7 +371,7 @@ This produces $\text{OH}^-$ ions, making the solution alkaline ($\text{pH} \gt 7
 
 The first equivalence point (at $10.0\,\text{cm}^3$) represents the point where all $\text{HCl}$ has
 been neutralised but the $\text{CH}_3\text{COOH}$ has not yet been titrated. The solution at this
-point contains $\text{CH}_3\text{COOH}$ and $\text{NaCl}$So the pH is determined by the weak acid
+point contains $\text{CH}_3\text{COOH}$ and $\text{NaCl}$ So the pH is determined by the weak acid
 alone ($\text{pH}$ approximately equal to $\frac{1}{2}\text{p}K_a - \frac{1}{2}\log[\text{HA}]$).
 
 ---
@@ -407,7 +407,7 @@ starting material is lost.
 #### UT-5: Ideal Gas Equation Unit Consistency
 
 **Question:** A student calculates the volume of gas produced using $V = nRT/p$ with
-$n = 0.050\,\mathrm{mol}$$R = 8.314$$T = 298$And $p = 100$. They obtain $V = 123.7$. Identify the
+$n = 0.050\,\mathrm{mol}$$R = 8.314$$T = 298$ And $p = 100$. They obtain $V = 123.7$. Identify the
 error and give the correct answer in $\mathrm{cm}^3$.
 
 **Solution:**

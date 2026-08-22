@@ -270,7 +270,7 @@ _Inductive step._ Assume the invariant holds after $k$ tokens.
   unprocessed sub-expression. The invariant holds.
 - If token $k+1$ is an operator $\oplus$: by the definition of valid RPN, the top two stack entries
   are the operands $a$ and $b$ for this operator (this follows from the well-formedness of RPN
-  expressions). Popping them, computing $a \oplus b$And pushing the result replaces the two
+  expressions). Popping them, computing $a \oplus b$ And pushing the result replaces the two
   sub-expressions with their combined result. The invariant holds.
 
 _Termination._ After processing all $n$ tokens of a valid RPN expression, exactly one value remains

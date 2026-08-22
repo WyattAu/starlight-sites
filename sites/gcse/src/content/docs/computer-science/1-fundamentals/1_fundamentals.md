@@ -517,7 +517,7 @@ MB. The small difference is due to file header overhead.
 Highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so a sample rate of
 44,100 Hz (just above $2 \times 20000$) is sufficient for CD quality.
 
-**Proof sketch of the Nyquist theorem.** If a signal has maximum frequency $f_{\max}$Then the Signal
+**Proof sketch of the Nyquist theorem.** If a signal has maximum frequency $f_{\max}$ Then the Signal
 completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$We Take at
 least 2 samples per cycle. Two samples per cycle are sufficient to uniquely determine the Amplitude
 and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$Different frequencies Produce the same
@@ -673,7 +673,7 @@ $$-2^{n-1} \mathrm{ to  2^{n-1} - 1$$
 
 **Why this asymmetry?** There is one more negative number than positive number because zero is
 Represented as all zeros (positive). The pattern $100\ldots0$ (MSB = 1, rest = 0) represents
-$-2^{n-1}$And there is no corresponding positive value $2^{n-1}$.
+$-2^{n-1}$ And there is no corresponding positive value $2^{n-1}$.
 
 ### 7.2 Binary Multiplication (Higher Tier)
 

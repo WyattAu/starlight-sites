@@ -114,7 +114,7 @@ Turing-recognisable languages is a countable subset of the uncountable set of al
 
 **Cantor's diagonalisation.** The classic .../1-number-and-algebra/3*proof-and-logic of Theorem 1.1
 uses diagonalisation: assume the Set of all languages is countable, list them as
-$L_1, L_2, L_3, \ldots$And construct a language $D$ that differs from each $L_i$ on the $i$-th
+$L_1, L_2, L_3, \ldots$ And construct a language $D$ that differs from each $L_i$ on the $i$-th
 string. Then $D$ is not in the list — contradiction. This technique reappears in the
 .../1-number-and-algebra/3_proof-and-logic of undecidability of $A*{\mathrm{TM}}$ (Section 5.2).
 

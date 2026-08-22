@@ -1,6 +1,6 @@
 ---
 title: C2 Proficiency Level
-description: "C2 Proficiency Level - Complete study guide and practice questions"
+description: "The C2 level is the highest level of CEFR. At this level, you can understand with ease virtually everything heard or read."
 date: 2026-01-01T00:00:00Z
 tags:
   - test-prep

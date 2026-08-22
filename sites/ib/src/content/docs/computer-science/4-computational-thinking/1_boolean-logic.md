@@ -151,7 +151,7 @@ SOP expression: $F = \overline{A}B\overline{C} + A\overline{B}\overline{C} + AB\
 
 This can be simplified: $F = (B + A) \cdot \overline{C}$ (which is the original expression,
 confirming Our truth table is correct). Further simplification: the three minterms share
-$\overline{C}$And the OR of the other terms is $B + A = A + B$So $F = (A + B) \cdot \overline{C}$.
+$\overline{C}$ And the OR of the other terms is $B + A = A + B$ So $F = (A + B) \cdot \overline{C}$.
 
 </details>
 
@@ -350,7 +350,7 @@ $$F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B 
 
 Using absorption, the term $A \cdot \overline{C}$ absorbs both
 $A \cdot \overline{B} \cdot \overline{C}$ and $A \cdot B \cdot \overline{C}$. We already have
-$\overline{A} \cdot \overline{B} \cdot \overline{C}$So $A \cdot \overline{B} \cdot \overline{C}$ Is
+$\overline{A} \cdot \overline{B} \cdot \overline{C}$ So $A \cdot \overline{B} \cdot \overline{C}$ Is
 generated when we expand $A \cdot \overline{C}$:
 
 $$A \cdot \overline{C} = A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}$$
@@ -404,7 +404,7 @@ NAND alone can implement all other gates:
 
 Apply De Morgan's in reverse: $F = \overline{\overline{A \cdot B} \cdot \overline{C \cdot D}}$
 
-This requires two NAND gates for $\overline{A \cdot B}$ and $\overline{C \cdot D}$And a third NAND
+This requires two NAND gates for $\overline{A \cdot B}$ and $\overline{C \cdot D}$ And a third NAND
 Gate to combine them. Total: 3 NAND gates.
 
 ### Worked Example: Implementing a Function with NAND Gates Only
@@ -479,7 +479,7 @@ $F = \overline{A} \cdot \overline{B} + \overline{A} \cdot B + A \cdot \overline{
 | `A`=0 | 1       | 1       |
 | `A`=1 | 1       | 0       |
 
-The cells for $(0,0)$, $(0,1)$And $(1,0)$ are 1.
+The cells for $(0,0)$, $(0,1)$ And $(1,0)$ are 1.
 
 Group the two cells in row `A`=0: this spans both columns, so `B` is eliminated. This group
 Represents $\overline{A}$.
@@ -531,9 +531,9 @@ Optimal grouping:
 - $\overline{B}C$: covers $m_1, m_5$
 - $\overline{A}\overline{B}$: covers $m_0, m_1$
 
-But $m_0$ is only covered by $\overline{A}\overline{B}$So that group is essential. $m_2$ is only
-Covered by $B\overline{C}$So that is essential. $m_5$ is only covered by $\overline{B}C$So that Is
-essential. $m_7$ is only covered by $AB$So that is essential.
+But $m_0$ is only covered by $\overline{A}\overline{B}$ So that group is essential. $m_2$ is only
+Covered by $B\overline{C}$ So that is essential. $m_5$ is only covered by $\overline{B}C$ So that Is
+essential. $m_7$ is only covered by $AB$ So that is essential.
 
 $$F = \overline{A}\overline{B} + B\overline{C} + \overline{B}C + AB$$
 
@@ -647,7 +647,7 @@ Not covered but that is OK).
 
 Actually, $\overline{A}C$ covers $m_1, m_3$ and $\overline{B}C$ covers $m_1, m_5$. Together they
 cover All required minterms ($m_1, m_3, m_5$). The don't care $m_0$ could be used to replace
-$\overline{A}C$ With $\overline{A}\overline{B}$But that only covers $m_0, m_1$Leaving $m_3$
+$\overline{A}C$ With $\overline{A}\overline{B}$ But that only covers $m_0, m_1$Leaving $m_3$
 uncovered.
 
 Best result with don't cares: $F = \overline{A}C + \overline{B}C$ (2 terms, 3 literals). Wait, let
@@ -850,7 +850,7 @@ Groups:
 
 - $(1,01), (1,11), (1,10)$: row `A`=1, columns 01, 11, 10. This is $A \cdot B + A \cdot C_{in}$
   (column 00 is excluded). The $2 \times 2$ group spanning $(1,01)$ and $(1,11)$ gives
-  $A \cdot C_{in}$And the $2 \times 2$ group spanning $(1,11)$ and $(1,10)$ gives $A \cdot B$.
+  $A \cdot C_{in}$ And the $2 \times 2$ group spanning $(1,11)$ and $(1,10)$ gives $A \cdot B$.
 - $(0,11), (1,11)$: column 11, both rows. This is $B \cdot C_{in}$.
 
 $$C_{out} = A \cdot B + A \cdot C_{in} + B \cdot C_{in}$$
@@ -1096,7 +1096,7 @@ Place minterms on the K-map:
 - $(0,10), (0,11), (1,10), (1,11)$: $2 \times 2$ square → $C$ (columns 10 and 11, variable B is
   eliminated; both rows, variable A is eliminated)
 - $(1,01), (1,11), (1,10)$: three cells in row A=1 → not a valid group (must be power of 2).
-  Instead: $(1,01), (1,11)$ → $AC$And $(1,10), (1,11)$ → $AB$
+  Instead: $(1,01), (1,11)$ → $AC$ And $(1,10), (1,11)$ → $AB$
 
 But the $2 \times 2$ group already covers $m_2, m_3, m_6, m_7$. The only uncovered minterm is $m_5$.
 

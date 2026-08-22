@@ -52,7 +52,7 @@ and the fringe spacing is $1.65$ mm. The entire interference pattern shifts by $
 fringe spacing remains unchanged.
 
 **Key insight:** An off-axis source shifts the entire fringe pattern but does NOT change the fringe
-spacing. The fringe spacing depends only on $\lambda$, $D$And $d$.
+spacing. The fringe spacing depends only on $\lambda$, $D$ And $d$.
 
 ---
 
@@ -96,8 +96,8 @@ _Violet ($\lambda = 400$ nm):_
 
 Maximum when $\sin\theta = 1$: $n_{\max} = \frac{d}{\lambda}$
 
-- Red: $n_{\max} = \frac{2 \times 10^{-6}}{700 \times 10^{-9}} = 2.86$So $n = 2$
-- Violet: $n_{\max} = \frac{2 \times 10^{-6}}{400 \times 10^{-9}} = 5.00$So $n = 5$
+- Red: $n_{\max} = \frac{2 \times 10^{-6}}{700 \times 10^{-9}} = 2.86$ So $n = 2$
+- Violet: $n_{\max} = \frac{2 \times 10^{-6}}{400 \times 10^{-9}} = 5.00$ So $n = 5$
 
 **(c) Overlap condition:**
 

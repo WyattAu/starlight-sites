@@ -44,7 +44,7 @@ $$
 
 **Proof (geometric).** In the unit circle, a point at angle $\theta$ has coordinates
 $(\cos\theta, \sin\theta)$. By the Pythagorean theorem, the distance from the origin is
-$\sqrt{\cos^2\theta + \sin^2\theta} = 1$So $\cos^2\theta + \sin^2\theta = 1$.
+$\sqrt{\cos^2\theta + \sin^2\theta} = 1$ So $\cos^2\theta + \sin^2\theta = 1$.
 
 Dividing through by $\cos^2\theta$:
 
@@ -126,7 +126,7 @@ $$
 $$
 
 **Proof of $\cos(A + B)$.** Consider two points on the unit circle: $P$ at angle $A$ with
-Coordinates $(\cos A, \sin A)$And $Q$ at angle $-(A+B)$ with coordinates $(\cos(A+B), -\sin(A+B))$.
+Coordinates $(\cos A, \sin A)$ And $Q$ at angle $-(A+B)$ with coordinates $(\cos(A+B), -\sin(A+B))$.
 Rotating the entire figure by angle $A$ maps $P$ to $(1, 0)$ and $Q$ to The point at angle
 $-B$Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
 
@@ -152,7 +152,7 @@ $$
 $$
 
 The three forms of $\cos 2A$ are all useful in different contexts. Use $\cos 2A = 2\cos^2 A - 1$
-When everything is in terms of $\cos$And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
+When everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
 $\sin$.
 
 **Proof that $\sin 2A = 2\sin A \cos A$.**
@@ -372,7 +372,7 @@ $$
 
 **Derivation.** We want
 $a\sin x + b\cos x = R\sin(x + \alpha) = R\sin x \cos\alpha + R\cos x \sin\alpha$. Matching
-Coefficients: $R\cos\alpha = a$ and $R\sin\alpha = b$. Squaring and adding: $R^2 = a^2 + b^2$So
+Coefficients: $R\cos\alpha = a$ and $R\sin\alpha = b$. Squaring and adding: $R^2 = a^2 + b^2$ So
 $R = \sqrt{a^2 + b^2}$. Dividing: $\tan\alpha = b/a$.
 
 **Applications:** The maximum value is $R$ and the minimum is $-R$.
@@ -402,11 +402,11 @@ $$
 2\sin\theta - \sqrt{3}\cos\theta = \sqrt{7}\sin(\theta + \alpha)
 $$
 
-Where $\tan\alpha = \dfrac{-\sqrt{3}}{2}$So
+Where $\tan\alpha = \dfrac{-\sqrt{3}}{2}$ So
 $\alpha = -\arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx -0.714 \mathrm{ rad$.
 
 Maximum value is $\sqrt{7}$Occurring when $\sin(\theta + \alpha) = 1$I.e.,
-$\theta + \alpha = \dfrac{\pi}{2}$So
+$\theta + \alpha = \dfrac{\pi}{2}$ So
 $\theta = \dfrac{\pi}{2} + \arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx 2.285 \mathrm{ rad$.
 
 **Example:** Express $5\sin\theta - 12\cos\theta$ in the form $R\sin(\theta - \alpha)$ and find its
@@ -420,7 +420,7 @@ $$
 5\sin\theta - 12\cos\theta = 13\sin(\theta - \alpha)
 $$
 
-Where $\tan\alpha = \dfrac{12}{5}$So $\alpha = \arctan\!\left(\dfrac{12}{5}\right)$.
+Where $\tan\alpha = \dfrac{12}{5}$ So $\alpha = \arctan\!\left(\dfrac{12}{5}\right)$.
 
 Maximum value is $13$.
 
@@ -431,7 +431,7 @@ $a\sin x + b\cos x = c$.
 
 **Example:** Solve $3\sin x + 4\cos x = 5$ for $0 \le x \lt 2\pi$.
 
-Since $R = 5$We have $5\sin(x + \alpha) = 5$So $\sin(x + \alpha) = 1$.
+Since $R = 5$We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
 
 $$
 X + \alpha = \frac{\pi}{2} + 2k\pi
@@ -587,7 +587,7 @@ D = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}
 $$
 
 **Proof.** Let $P = (x_0, y_0)$ and let $Q$ be the foot of the perpendicular from $P$ to the line.
-The line through $P$ perpendicular to $ax + by + c = 0$ has direction $(a, b)$So its parametric Form
+The line through $P$ perpendicular to $ax + by + c = 0$ has direction $(a, b)$ So its parametric Form
 is $(x_0 + at, y_0 + bt)$. Substituting into the line equation:
 $a(x_0 + at) + b(y_0 + bt) + c = 0$Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
 $|t|\sqrt{a^2 + b^2} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$. $\blacksquare$
@@ -653,7 +653,7 @@ $$s = 1 - t \quad (2)$$
 
 $$2 - s = -1 + 3t \quad (3)$$
 
-From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$So $3 - 2t = 3 + t$Giving $t = 0$,
+From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$Giving $t = 0$,
 $s = 1$.
 
 Check (3): $2 - 1 = -1 + 0$I.e., $1 = -1$. This is false, so the lines are **skew**.

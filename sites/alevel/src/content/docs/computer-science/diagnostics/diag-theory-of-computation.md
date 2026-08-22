@@ -307,7 +307,7 @@ problem.
 (terminates) when run on $I$.
 
 **Proof by contradiction:** Assume a function `halts(P, I)` exists that returns True if program $P$
-halts on input $I$And False otherwise.
+halts on input $I$ And False otherwise.
 
 Construct a paradoxical program `trouble(P)`:
 

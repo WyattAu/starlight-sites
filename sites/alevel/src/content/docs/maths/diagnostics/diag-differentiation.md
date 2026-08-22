@@ -102,7 +102,7 @@ A curve is defined implicitly by the equation $x^2 + xy + y^2 = 12$.
 **(a)** Find $\frac{dy}{dx}$ in terms of $x$ and $y$.
 
 **(b)** A student differentiates $xy$ as $1 \cdot y = y$Forgetting the product rule. Write down the
-incorrect expression the student would obtain for $\frac{dy}{dx}$And find the coordinates of the
+incorrect expression the student would obtain for $\frac{dy}{dx}$ And find the coordinates of the
 points where the student's answer agrees with the correct answer.
 
 **(c)** Find the coordinates of the points on the curve where the tangent is parallel to the
@@ -270,10 +270,10 @@ Sign of $f'(x)$:
 Since $f$ is not monotonic (it increases, then decreases, then increases), $f$ is not injective on
 $\mathbb{R}$.
 
-For example, $f(-1) = -1 + 3 + 1 = 3$ and $f(2) = 8 - 6 + 1 = 3$So $f(-1) = f(2)$ with $-1 \neq 2$.
+For example, $f(-1) = -1 + 3 + 1 = 3$ and $f(2) = 8 - 6 + 1 = 3$ So $f(-1) = f(2)$ with $-1 \neq 2$.
 
 **(b)** The largest interval containing $x = 0$ on which $f$ is monotonic is $[-1, 1]$ (where
-$f' \leq 0$With equality only at the endpoints). Actually, on $(-1, 1)$, $f' \lt 0$So $f$ is strictly
+$f' \leq 0$With equality only at the endpoints). Actually, on $(-1, 1)$, $f' \lt 0$ So $f$ is strictly
 decreasing and therefore injective.
 
 The largest such interval is $[-1, 1]$.
@@ -282,7 +282,7 @@ The largest such interval is $[-1, 1]$.
 
 Since $e^x \gt 0$ for all $x$, $g'(x) = 1 + e^x \gt 0$ for all $x \in \mathbb{R}$.
 
-Therefore $g$ is strictly increasing on $\mathbb{R}$And hence injective.
+Therefore $g$ is strictly increasing on $\mathbb{R}$ And hence injective.
 
 To find $g^{-1}(3)$: solve $x + e^x = 3$.
 
@@ -319,7 +319,7 @@ The curve $C_1$ has equation $y = x^2 - 4x + 5$ and the curve $C_2$ has equation
 
 **(a)** Find the equation of the tangent to $C_1$ at the point where $x = 1$.
 
-**(b)** Show that this tangent is also a tangent to $C_2$And find the coordinates of the point of
+**(b)** Show that this tangent is also a tangent to $C_2$ And find the coordinates of the point of
 tangency on $C_2$.
 
 **(c)** The two curves have a common normal (a line perpendicular to both tangents at the respective
@@ -432,7 +432,7 @@ The second derivative changes sign, so $\left(2, \frac{2}{e^2}\right)$ is a poin
 - Point of inflection at $(2, \frac{2}{e^2})$
 - As $x \to +\infty$: $e^{-x} \to 0$ dominates, so $y \to 0$ from above. The $x$-axis is a
   horizontal asymptote.
-- As $x \to -\infty$: $e^{-x} = e^{\lvert x \rvert} \to +\infty$ and $x \to -\infty$So
+- As $x \to -\infty$: $e^{-x} = e^{\lvert x \rvert} \to +\infty$ and $x \to -\infty$ So
   $y = xe^{-x} \to -\infty$.
 - For $x \lt 0$: $y \lt 0$ (below $x$-axis). For $x \gt 0$: $y \gt 0$ (above $x$-axis).
 
@@ -448,7 +448,7 @@ Substituting $e^{-x} = m$: $m(1 - (-\ln m)) = m \implies m(1 + \ln m) = m$.
 
 If $m \neq 0$: $1 + \ln m = 1 \implies \ln m = 0 \implies m = 1$.
 
-At $m = 1$: $x = -\ln 1 = 0$And the tangent at the origin has gradient $e^0(1-0) = 1 = m$.
+At $m = 1$: $x = -\ln 1 = 0$ And the tangent at the origin has gradient $e^0(1-0) = 1 = m$.
 Confirmed.
 
 The only solution is $m = 1$.

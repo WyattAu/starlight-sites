@@ -138,7 +138,7 @@ Spearman's rank would be preferred when:
 
 **Question:**
 
-The regression line of $y$ on $x$ for a dataset is given by $y = 4.2x - 3.1$And the regression line
+The regression line of $y$ on $x$ for a dataset is given by $y = 4.2x - 3.1$ And the regression line
 of $x$ on $y$ is $x = 0.21y + 1.8$. The dataset has $n = 20$ observations with $\bar{x} = 5.0$ and
 $\bar{y} = 17.9$.
 
@@ -150,7 +150,7 @@ $\bar{y} = 17.9$.
 $\hat{y} = 59.9$. Explain why this prediction may be unreliable, identifying the specific
 statistical concept that is violated.
 
-**(d)** Show that the two regression lines intersect at the point $(\bar{x}, \bar{y})$And explain
+**(d)** Show that the two regression lines intersect at the point $(\bar{x}, \bar{y})$ And explain
 geometrically why this must always be the case for any bivariate dataset.
 
 [Difficulty: hard. Tests understanding of regression line properties, the relationship between the
@@ -166,9 +166,9 @@ does **not** equal $\bar{x} = 5.0$.
 
 This discrepancy means the regression coefficients as stated are not consistent with $\bar{x} = 5.0$
 and $\bar{y} = 17.9$ simultaneously for both lines. Let me verify: if the regression line of $y$ on
-$x$ passes through $(5, 17.9)$Then $17.9 = 4.2(5) + c$So $c = 17.9 - 21 = -3.1$. This checks out.
+$x$ passes through $(5, 17.9)$ Then $17.9 = 4.2(5) + c$ So $c = 17.9 - 21 = -3.1$. This checks out.
 
-For the regression line of $x$ on $y$ to pass through $(5, 17.9)$: $5 = 0.21(17.9) + c$So
+For the regression line of $x$ on $y$ to pass through $(5, 17.9)$: $5 = 0.21(17.9) + c$ So
 $c = 5 - 3.759 = 1.241$. But the given line has intercept $1.8$Not $1.241$. The given regression
 lines are not consistent.
 
@@ -293,7 +293,7 @@ Since $\sum y_i = n\bar{y}$ and $\sum x_i = n\bar{x}$:
 
 $$= n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0$$
 
-The residuals always sum to zero because the regression line passes through $(\bar{x}, \bar{y})$And
+The residuals always sum to zero because the regression line passes through $(\bar{x}, \bar{y})$ And
 the deviations from the mean sum to zero.
 
 **(b)** Plotting residuals against $h$:
@@ -303,7 +303,7 @@ residual $= 2$ At $h = 5$: residual $= 3$ At $h = 6$: residual $= 4$ At $h = 7$:
 $h = 8$: residual $= -1$ At $h = 9$: residual $= -5$ At $h = 10$: residual $= 5$
 
 The residual plot shows a clear **curved pattern**: residuals are negative at low $h$Rise to
-positive around $h = 5$--$7$Then dip negative again at $h = 9$ before rising at $h = 10$. This
+positive around $h = 5$--$7$ Then dip negative again at $h = 9$ before rising at $h = 10$. This
 curved (U-shaped or S-shaped) pattern in the residuals indicates that the relationship between $h$
 and $s$ is **not purely linear**. A linear model is systematically under-predicting at the extremes
 and over-predicting in the middle (or vice versa), which is the hallmark of a non-linear
@@ -420,7 +420,7 @@ $H_0: \rho = 0$, $H_1: \rho > 0$
 
 Since $0.35 > 0.306$We reject $H_0$.
 
-**Comparison:** Both tests lead to rejection of $H_0$But in part (a) the correlation was stronger
+**Comparison:** Both tests lead to rejection of $H_0$ But in part (a) the correlation was stronger
 ($r = 0.58$) with a smaller sample ($n = 12$), while in part (c) the correlation is weaker
 ($r = 0.35$) but the larger sample ($n = 30$) provides more evidence. The critical value decreases
 as $n$ increases because with more data, even a weak correlation becomes statistically significant.
@@ -493,7 +493,7 @@ $$\mathrm{Var}(H) = \mathrm{E}(H^2) - [\mathrm{E}(H)]^2 = 11.35 - 3.15^2 = 11.35
 $$\mathrm{E}(M) = \mathrm{E}(5H + 20) = 5\mathrm{E}(H) + 20 = 5(3.15) + 20 = 15.75 + 20 = 35.75$$
 
 Alternatively, using the law of total expectation: the predicted mark for each value of $H$ is
-$5h + 20$And we average these predictions weighted by the probability of each $h$. This gives the
+$5h + 20$ And we average these predictions weighted by the probability of each $h$. This gives the
 same result.
 
 **(c)** The total variance of $M$ has two components:
@@ -583,7 +583,7 @@ evaluation of outlier removal.]
 | 30  | 50             | 267.3           | $-217.3$ |
 
 The residual for $T = 30$ is $-217.3$Which is enormously negative. The predicted sales for
-$T = 30^\circ$C should be around $\pounds 267$But the observed value is only $\pounds 50$. This is
+$T = 30^\circ$C should be around $\pounds 267$ But the observed value is only $\pounds 50$. This is
 almost certainly a data entry error (perhaps the sales were $\pounds 350$ or the temperature was
 recorded incorrectly). The residual of $-217.3$ is an extreme outlier compared to all other
 residuals (which range from $-2.2$ to $67.3$).

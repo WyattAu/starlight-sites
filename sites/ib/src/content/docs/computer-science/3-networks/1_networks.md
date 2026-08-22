@@ -556,7 +556,7 @@ Subnets.
 1. To create 6 subnets, we need at least 3 bits for the subnet portion ($2^3 = 8 \ge 6$).
 2. The new subnet mask borrows 3 bits from the host portion: `/24 + 3 = /27`.
 3. Subnet mask: `255.255.255.224` (since `11100000` in binary = 224 in decimal).
-4. Host bits remaining: $8 - 3 = 5$So $2^5 - 2 = 30$ usable hosts per subnet.
+4. Host bits remaining: $8 - 3 = 5$ So $2^5 - 2 = 30$ usable hosts per subnet.
 5. Subnet ranges (block size = $256 - 224 = 32$):
 
 | Subnet | Network Address | Usable Host Range               | Broadcast Address |

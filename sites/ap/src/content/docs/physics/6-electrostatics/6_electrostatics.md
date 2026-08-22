@@ -174,7 +174,7 @@ $$
 This is identical to a point charge.
 
 **Inside ($r < R$):** Only charge within radius $r$ is enclosed. If the charge density is uniform,
-$\rho = Q / (\tfrac{4}{3}\pi R^3)$So $Q_{\text{enc} = \rho \cdot \tfrac{4}{3}\pi r^3 = Q r^3/R^3$.
+$\rho = Q / (\tfrac{4}{3}\pi R^3)$ So $Q_{\text{enc} = \rho \cdot \tfrac{4}{3}\pi r^3 = Q r^3/R^3$.
 
 $$
 E \cdot 4\pi r^2 = \frac{Qr^3}{\epsilon_0 R^3} \implies E = \frac{Qr}{4\pi\epsilon_0 R^3}
@@ -190,7 +190,7 @@ $$
 \oint \vec{E} \cdot d\vec{A} = E \cdot 2\pi r L = \frac{\lambda L}{\epsilon_0} \implies E = \frac{\lambda}{2\pi\epsilon_0 r}
 $$
 
-**Inside ($r < R$):** $Q_{\text{enc} = 0$So $E = 0$.
+**Inside ($r < R$):** $Q_{\text{enc} = 0$ So $E = 0$.
 :::
 :::note
 <strong>Example: Non-conducting sphere with non-uniform charge density</strong>
@@ -306,7 +306,7 @@ $$
 
 **Derivation:** The field between infinite parallel plates is
 $E = \sigma/\epsilon_0 = Q/(\epsilon_0 A)$. The potential difference is
-$V = Ed = Qd/(\epsilon_0 A)$So $C = Q/V = \epsilon_0 A/d$.
+$V = Ed = Qd/(\epsilon_0 A)$ So $C = Q/V = \epsilon_0 A/d$.
 
 ### Cylindrical Capacitor
 

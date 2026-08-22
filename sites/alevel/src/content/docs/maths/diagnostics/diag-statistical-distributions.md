@@ -56,7 +56,7 @@ source of error in distribution questions.]
 
 **(a)** The binomial distribution is **NOT** appropriate. The condition violated is **independence
 of trials**: since balls are drawn without replacement, the probability of drawing a red ball
-changes after each draw. The probability of red on the first draw is $\frac{5}{8}$But if the first
+changes after each draw. The probability of red on the first draw is $\frac{5}{8}$ But if the first
 ball is blue, the probability of red on the second draw becomes $\frac{5}{7}$.
 
 The correct distribution is the **geometric distribution** (number of failures before the first
@@ -93,7 +93,7 @@ So $W \sim B(50, 0.3)$.
 The fact that there are 100 total rolls is irrelevant --- we are only considering the first 50.
 
 **(e)** The binomial distribution is **NOT** appropriate. The condition violated is **constant
-probability of success**: for the first 5 questions, $\mathrm{P}(\text{correct}) = 1$But for the
+probability of success**: for the first 5 questions, $\mathrm{P}(\text{correct}) = 1$ But for the
 last 5 questions, $\mathrm{P}(\text{correct}) = \frac{1}{4}$. The probability of success changes
 partway through.
 
@@ -136,7 +136,7 @@ and sign errors.]
 
 **Solution:**
 
-**(a)** $X \sim N(50, 12)$So $\mu = 50$, $\sigma = \sqrt{12} = 2\sqrt{3}$.
+**(a)** $X \sim N(50, 12)$ So $\mu = 50$, $\sigma = \sqrt{12} = 2\sqrt{3}$.
 
 Standardising:
 
@@ -174,7 +174,7 @@ $$\mathrm{P}(Z \leq 0.5704) = \Phi(0.5704) = 0.7158 \approx 0.716$$
    $\frac{50 - 48}{\sqrt{19.2}}$Which is actually correct for the standardisation
    formula (though without the continuity correction). However, if the student had meant to compute
    $\mathrm{P}(Y \geq 50)$ and wrote $\frac{48 - 50}{\sqrt{19.2}}$That would be a sign
-   error. The standardisation is $Z = \frac{X - \mu}{\sigma}$So the numerator must be
+   error. The standardisation is $Z = \frac{X - \mu}{\sigma}$ So the numerator must be
    $X - \mu = 50.5 - 48 = 2.5$ (or with continuity correction, $50.5 - 48$). The student"s version
    gives $\frac{50 - 48}{\sqrt{19.2}} = \frac{2}{\sqrt{19.2}} = 0.4564$Which
    underestimates the correct $z$-value of 0.5704.
@@ -207,7 +207,7 @@ good because both $np$ and $n(1-p)$ are well above 5 (they are 48 and 32 respect
 
 **Question:**
 
-The time (in minutes) that employee $A$ takes to complete a task is $A \sim N(25, 9)$And the time
+The time (in minutes) that employee $A$ takes to complete a task is $A \sim N(25, 9)$ And the time
 employee $B$ takes is $B \sim N(30, 16)$. The times are independent.
 
 **(a)** Find the probability that employee $A$ completes the task in less than 22 minutes.
@@ -225,7 +225,7 @@ standard deviations.]
 
 **Solution:**
 
-**(a)** $A \sim N(25, 9)$So $\mu_A = 25$, $\sigma_A = 3$.
+**(a)** $A \sim N(25, 9)$ So $\mu_A = 25$, $\sigma_A = 3$.
 
 $$\mathrm{P}(A \lt 22) = \mathrm{P}\left(Z \lt \frac{22 - 25}{3}\right) = \mathrm{P}(Z \lt -1) = 1 - \Phi(1) = 1 - 0.8413 = 0.1587$$
 
@@ -353,7 +353,7 @@ value that gives exactly 5%. The closest we can get is 4.80% (with critical regi
 11.33% (with critical region $X \geq 9$). We choose the critical region that does not exceed the
 stated significance level.
 
-**(c)** Under $H_0$: $X \sim B(50, 0.3)$So $\mu = 15$, $\sigma^2 = 10.5$.
+**(c)** Under $H_0$: $X \sim B(50, 0.3)$ So $\mu = 15$, $\sigma^2 = 10.5$.
 
 Using the normal approximation: $X \approx N(15, 10.5)$, $\sigma = \sqrt{10.5} \approx 3.24$.
 

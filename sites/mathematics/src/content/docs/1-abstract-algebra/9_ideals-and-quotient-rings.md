@@ -24,7 +24,7 @@ A subset $I \subseteq R$ is an **ideal** if:
 1. $(I, +)$ is a subgroup of $(R, +)$.
 2. For all $r \in R$ and $a \in I$: $ra \in I$ and $ar \in I$.
 
-If only $ra \in I$ for all $r \in R$ and $a \in I$Then $I$ is a **left ideal**. Similarly for
+If only $ra \in I$ for all $r \in R$ and $a \in I$ Then $I$ is a **left ideal**. Similarly for
 **right Ideals**. A **two-sided ideal** (or **ideal**) satisfies both.
 
 **Proposition 9.1.** Every ideal is a subring. The converse is false.
@@ -112,11 +112,11 @@ _Solution._ By the Chinese Remainder Theorem, since $\gcd(3, 5) = \gcd(3, 7) = \
 is a unique solution modulo $105$.
 
 First, solve $x \equiv 2 \pmod{3}$ and $x \equiv 3 \pmod{5}$. $x = 2 + 3k$: we need
-$2 + 3k \equiv 3 \pmod{5}$So $3k \equiv 1 \pmod{5}$Giving $k \equiv 2 \pmod{5}$. Thus
+$2 + 3k \equiv 3 \pmod{5}$ So $3k \equiv 1 \pmod{5}$Giving $k \equiv 2 \pmod{5}$. Thus
 $x \equiv 2 + 6 = 8 \pmod{15}$.
 
 Now solve $x \equiv 8 \pmod{15}$ and $x \equiv 1 \pmod{7}$. $x = 8 + 15k$: we need
-$8 + 15k \equiv 1 \pmod{7}$So $1 + k \equiv 1 \pmod{7}$Giving $k \equiv 0 \pmod{7}$. Thus
+$8 + 15k \equiv 1 \pmod{7}$ So $1 + k \equiv 1 \pmod{7}$Giving $k \equiv 0 \pmod{7}$. Thus
 $x \equiv 8 \pmod{105}$.
 
 The unique solution modulo $105$ is $x \equiv 8 \pmod{105}$. $\blacksquare$

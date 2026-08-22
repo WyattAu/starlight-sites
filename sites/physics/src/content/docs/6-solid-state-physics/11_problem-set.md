@@ -23,7 +23,7 @@ FCC, And explain why SC is rarely observed in elemental metals.
 **Problem 2.** Aluminium is FCC with $a = 0.405$ nm and $M = 26.98$ g/mol. Calculate the theoretical
 Density and compare with the experimental value ($2.70\ \mathrm{g}/cm^3$).
 
-**Problem 3.** A plane intercepts the crystallographic axes at $2a$, $3b$And $\infty c$. Determine
+**Problem 3.** A plane intercepts the crystallographic axes at $2a$, $3b$ And $\infty c$. Determine
 the Miller indices. A direction passes through the origin and the point $(1, -1, 0)$ in units of
 lattice Constants. Write the direction indices.
 
@@ -55,7 +55,7 @@ specific Heat at $T = 100$ K and $T = 500$ K. At what temperature does the Debye
 Accurate approximation?
 
 **Problem 12.** Compare the Einstein and Debye predictions for $C_V/C_{\mathrm{Dulong}--Petit}$ as a
-Function of $T/\Theta$ at $T/\Theta = 0.1$, $0.5$And $1.0$.
+Function of $T/\Theta$ at $T/\Theta = 0.1$, $0.5$ And $1.0$.
 
 **Problem 13.** Sodium has $n = 2.65 \times 10^{28}\ \mathrm{m}^{-3}$ conduction electrons.
 Calculate The Fermi energy, Fermi wave vector, Fermi velocity, and Fermi temperature.
@@ -78,7 +78,7 @@ $J = S = 1/2$ and $g = 2$. Calculate the magnetisation in a field of $B = 1$ T a
 $T = 4$ K.
 
 **Problem 18.** Using the mean-field theory, derive the Curie--Weiss law $\chi = C/(T - T_C)$ for a
-Ferromagnet above $T_C$. Express $C$ in terms of $N$, $\mu$And $k_B$.
+Ferromagnet above $T_C$. Express $C$ in terms of $N$, $\mu$ And $k_B$.
 
 **Hints and Selected Results:**
 

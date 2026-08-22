@@ -264,7 +264,7 @@ $$
 \mathrm{NaCl}\,(-788) \lt \mathrm{MgO}\,(-3844) \lt \mathrm{Al}_2\mathrm{O}_3\,(-15916\,\mathrm{kJ/mol})
 $$
 
-The Coulombic energy is proportional to $z^+ z^-$So doubling the charge roughly quadruples the
+The Coulombic energy is proportional to $z^+ z^-$ So doubling the charge roughly quadruples the
 Lattice enthalpy.
 
 ### Effect of Ion Size
@@ -462,7 +462,7 @@ $$
 $$
 
 For a salt to be soluble, $\Delta G_\mathrm{sol}^\circ$ must be negative. Since
-$\Delta G = \Delta H - T\Delta S$And $\Delta S_\mathrm{sol}$ is positive for simple salts (ions
+$\Delta G = \Delta H - T\Delta S$ And $\Delta S_\mathrm{sol}$ is positive for simple salts (ions
 dispersed in solution have more freedom than in the ordered lattice), the enthalpy term does not
 need to be negative -- it just needs to be sufficiently small.
 
@@ -866,7 +866,7 @@ that of $\mathrm{NaI}$ ($-704\,\mathrm{kJ/mol}$).
   ($220\,\mathrm{pm}$) (1 mark).
 - The smaller interionic distance in NaF means the ions are closer together, so the Coulombic
   attraction is stronger (1 mark).
-- From the Born-Lande equation, lattice enthalpy is proportional to $1/r_0$So a smaller $r_0$ gives
+- From the Born-Lande equation, lattice enthalpy is proportional to $1/r_0$ So a smaller $r_0$ gives
   a more exothermic value (1 mark).
 
 </details>

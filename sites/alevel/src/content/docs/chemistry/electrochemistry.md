@@ -1,7 +1,7 @@
 ---
 
 title: Electrochemistry
-description: "The oxidation state is a formalism that assigns a charge to an atom in a compound based on electronegativity."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -34,7 +34,7 @@ electronegativity. The rules for assigning oxidation states:
    charge.
 3. Group 1 metals: $+1$. Group 2 metals: $+2$. Al: $+3$.
 4. Hydrogen is $+1$ (except in metal hydrides, where it is $-1$).
-5. Oxygen is $-2$ (except in peroxides, where it is $-1$And in $\mathrm{OF}_2$Where it is $+2$).
+5. Oxygen is $-2$ (except in peroxides, where it is $-1$ And in $\mathrm{OF}_2$Where it is $+2$).
 6. Fluorine is always $-1$ in compounds.
 7. Halogens are $-1$Except when bonded to more electronegative elements or in polyatomic ions.
 
@@ -657,7 +657,7 @@ $E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\,\mathrm{V}$$E^\circ(\mathrm{Ag}^
 
 **Solution:**
 
-$\mathrm{Zn}$ has the more negative $E^\circ$So it is oxidised (anode). $\mathrm{Ag}^+$ is reduced
+$\mathrm{Zn}$ has the more negative $E^\circ$ So it is oxidised (anode). $\mathrm{Ag}^+$ is reduced
 (cathode).
 
 $E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode} = 0.80 - (-0.76) = +1.56\,\mathrm{V}$

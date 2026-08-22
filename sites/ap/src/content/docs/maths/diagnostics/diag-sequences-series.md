@@ -1,7 +1,7 @@
 ---
 
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
-description: "Tests edge cases, boundary conditions, and common misconceptions for sequences."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
 date: 2026-04-14
 tags:
   - ap
@@ -314,7 +314,7 @@ For comparison, even $p = 1.01$ gives:
 
 $$\int_N^{\infty}\frac{du}{u^{1.01}} = \frac{N^{-0.01}}{0.01} = 100N^{-0.01}$$
 
-Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$So $N^{0.01} > 100000$Giving
+Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$ So $N^{0.01} > 100000$Giving
 $N > 100000^{100}$. Still impractical. The series $\sum \frac{1}{n(\ln n)^p}$ converges very slowly
 for $p$ near $1$.
 

@@ -70,7 +70,7 @@ $$
 \Delta H = \Delta U + \Delta(pV)
 $$
 
-For reactions involving only solids and liquids, $\Delta(pV) \approx 0$So
+For reactions involving only solids and liquids, $\Delta(pV) \approx 0$ So
 $\Delta H \approx \Delta U$. For reactions involving gases:
 
 $$
@@ -419,7 +419,7 @@ $$
 K = \exp\left(\frac{-\Delta G^\circ}{RT}\right) = \exp\left(\frac{-4720}{8.314 \times 298}\right) = \exp(-1.904) = 0.149
 $$
 
-$K = 0.149$So reactants ($\mathrm{N}_2\mathrm{O}_4$) are favoured at equilibrium.
+$K = 0.149$ So reactants ($\mathrm{N}_2\mathrm{O}_4$) are favoured at equilibrium.
 
 **Using $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$ with the equilibrium expression:**
 
@@ -943,7 +943,7 @@ $\Delta S^\circ = +193\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}$
 
 $$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 877000 - 1500 \times 193 = 877000 - 289500 = 587500\,\mathrm{J/mol} = +588\,\mathrm{kJ/mol}$$
 
-$\Delta G^\circ > 0$So the reaction is not thermodynamically feasible at $1500\,\mathrm{K}$.
+$\Delta G^\circ > 0$ So the reaction is not thermodynamically feasible at $1500\,\mathrm{K}$.
 
 At what temperature does it become feasible?
 
@@ -999,7 +999,7 @@ $\Delta H^\circ = -85\,\mathrm{kJ/mol}$, $\Delta S^\circ = -120\,\mathrm{J\,K^{-
 $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = -85000 - 298 \times (-120) = -85000 + 35760 = -49240\,\mathrm{J/mol} = -49.2\,\mathrm{kJ/mol}$
 (1 mark for substitution, 1 mark for answer).
 
-(b) $\Delta G^\circ < 0$So the reaction is feasible (spontaneous) at $298\,\mathrm{K}$ (1 mark).
+(b) $\Delta G^\circ < 0$ So the reaction is feasible (spontaneous) at $298\,\mathrm{K}$ (1 mark).
 
 (c) $\Delta G^\circ = 0$:
 $T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{-85000}{-120} = 708\,\mathrm{K}$ (1

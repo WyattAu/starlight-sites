@@ -623,7 +623,7 @@ $$\boxed{T_{\mathrm{period}} = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha
 
 Key observations:
 
-- The period depends only on $L$, $\alpha$And $g$ — it is independent of mass
+- The period depends only on $L$, $\alpha$ And $g$ — it is independent of mass
 - As $\alpha \to 0$The period approaches $2\pi\sqrt{L/g}$ (simple pendulum for small angles)
 - As $\alpha \to 90^\circ$The period $\to 0$ (impractical: requires infinite speed)
 - A larger angle $\alpha$ means a faster rotation (shorter period)
@@ -778,7 +778,7 @@ $R + mg = \dfrac{mv_{\mathrm{top}}^2}{r}$ where $v_{\mathrm{top}}^2 = u^2 - 4gr$
 
 $R = \dfrac{m(u^2 - 4gr)}{r} - mg = \dfrac{mu^2}{r} - 4mg - mg = \dfrac{mu^2}{r} - 5mg$.
 
-If $u = 2\sqrt{gr}$Then $R = \dfrac{m \times 4gr}{r} - 5mg = 4mg - 5mg = -mg$.
+If $u = 2\sqrt{gr}$ Then $R = \dfrac{m \times 4gr}{r} - 5mg = 4mg - 5mg = -mg$.
 
 The negative sign means the wire pushes the bead **upward** (away from centre) to prevent it from
 Falling through, since the bead has zero speed at the top.
@@ -952,7 +952,7 @@ $$\boxed{\omega = 10e^{-0.2t}}$$
 | Confusing the centripetal force direction                   | It always points toward the centre of the circle                                 |
 | Forgetting that normal reaction changes on a banked surface | Resolve perpendicular to the surface                                             |
 | Using $v = r\omega$ with inconsistent units                 | $v$ in $\mathrm{m\,s^{-1}}$$r$ in $\mathrm{m}$$\omega$ in $\mathrm{rad\,s^{-1}}$ |
-| Assuming tension is constant in vertical motion             | $T$ varies; use energy conservation for $v$Then Newton's second law for $T$      |
+| Assuming tension is constant in vertical motion             | $T$ varies; use energy conservation for $v$ Then Newton's second law for $T$      |
 
 ---
 
@@ -970,12 +970,12 @@ $$\boxed{\omega = 10e^{-0.2t}}$$
 ### Question 8
 
 A particle of mass $m$ moves in a horizontal circle of radius $r$ on the inside of a smooth
-Hemispherical bowl of radius $R$. Find the speed $v$ in terms of $R$$r$And $g$.
+Hemispherical bowl of radius $R$. Find the speed $v$ in terms of $R$$r$ And $g$.
 
 <details>
 <summary>Solution</summary>
 
-$N\sin\theta = \dfrac{mv^2}{r}$ where $\sin\theta = \dfrac{r}{R}$And $N\cos\theta = mg$.
+$N\sin\theta = \dfrac{mv^2}{r}$ where $\sin\theta = \dfrac{r}{R}$ And $N\cos\theta = mg$.
 
 $\tan\theta = \dfrac{v^2}{rg} \implies \dfrac{r}{\sqrt{R^2-r^2}} = \dfrac{v^2}{rg}$.
 

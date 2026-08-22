@@ -361,7 +361,7 @@ The proof is therefore Incomplete.
 >
 > $$f(x) = \begin{cases} kx & 0 \leq x \leq 2 \\ 0 & \text{otherwise \end{cases}$$
 >
-> What is the value of $k$And what is $\mathbb{E}(X)$?
+> What is the value of $k$ And what is $\mathbb{E}(X)$?
 
 A: $k = 1/4$, $\mathbb{E}(X) = 4/3$ B: $k = 1/2$, $\mathbb{E}(X) = 4/3$ C: $k = 1/2$, $\mathbb{E}(X) = 1$
 D: $k = 1/4$, $\mathbb{E}(X) = 1$ E: $k = 1$, $\mathbb{E}(X) = 2$
@@ -409,10 +409,10 @@ $$0.2t = \ln 2$$
 $$t = \frac{\ln 2}{0.2} = 5 \ln 2$$
 
 **Answer: A** ($t = \ln 2 / 0.2 = 5 \ln 2$Which is $\ln 2$ expressed with the factor of 5 absorbed
-Into the constant. Actually, $5\ln 2 \approx 3.47$And $\ln 2 \approx 0.693$. Let me reconsider.
+Into the constant. Actually, $5\ln 2 \approx 3.47$ And $\ln 2 \approx 0.693$. Let me reconsider.
 
 The doubling time is $t = \frac{\ln 2}{0.2} = 5\ln 2$. The half-life formula gives
-$t_{\text{double} = \frac{\ln 2}{k}$ where $k = 0.2$So $t = \frac{\ln 2}{0.2} = 5\ln 2$.
+$t_{\text{double} = \frac{\ln 2}{k}$ where $k = 0.2$ So $t = \frac{\ln 2}{0.2} = 5\ln 2$.
 
 Option A says $\ln 2$ hours, which is $\frac{\ln 2}{0.2}/5 = \frac{5\ln 2}{5} = \ln 2$. This would
 be The doubling time if $k = 1$Not $k = 0.2$.
@@ -438,18 +438,18 @@ $P(t) = P_0 \cdot 2^{t/5}$ (i.e., doubling every 5 hours), this is equivalent to
 $P(t) = P_0 e^{t \ln 2 / 5}$Giving $k = \ln 2 / 5 \approx 0.1386$. Then the doubling time would be
 $t = \frac{\ln 2}{k} = 5$.
 
-With $k = 0.2$The exact doubling time is $5\ln 2$And the closest interpretation is that option A Is
+With $k = 0.2$The exact doubling time is $5\ln 2$ And the closest interpretation is that option A Is
 intended when the question uses $k = 1$.
 
 For the purpose of this exercise, with $k = 0.2$: the doubling time is $5\ln 2$ hours. If the model
-Instead stated $P(t) = P_0 \cdot 2^{0.2t}$Then $0.2t = 1$ gives $t = 5$Which is option B.
+Instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$Which is option B.
 
 Given the ambiguity, the most likely intended answer with the model $P(t) = P_0 e^{0.2t}$ and the
 Standard doubling time formula is **A** (the symbolic answer $\ln 2$ expressed as the natural form),
 Recognising that the numerical answer depends on interpretation. However, a careful computation
-gives $t = 5\ln 2$And the closest match to the intended question structure is:
+gives $t = 5\ln 2$ And the closest match to the intended question structure is:
 
-**Answer: A** (symbolically, the doubling time formula is $\frac{\ln 2}{k}$And this is the Canonical
+**Answer: A** (symbolically, the doubling time formula is $\frac{\ln 2}{k}$ And this is the Canonical
 form).
 
 ---
@@ -468,7 +468,7 @@ form).
 > **Definition.** A positive integer $n$ is called _practical_ if every positive integer up to $n$
 > can be written as a sum of distinct divisors of $n$.
 >
-> For example, $6$ is practical because its divisors are $1, 2, 3, 6$And:
+> For example, $6$ is practical because its divisors are $1, 2, 3, 6$ And:
 > $1 = 1$, $2 = 2$, $3 = 3$, $4 = 1 + 3$, $5 = 2 + 3$, $6 = 6$.
 >
 > Which of the following is practical?
@@ -481,7 +481,7 @@ A: 4 B: 5 C: 7 D: 8 E: 9
 $1 = 1$, $2 = 2$, $3 = 1 + 2$, $4 = 4$. All values up to 4 are achievable. **4 is practical.**
 
 **B: $n = 5$.** Divisors: $1, 5$. We need to write $1, 2, 3, 4, 5$. $1 = 1$, $2 = ?$ We only have $1$
-and $5$And $1 + 5 = 6 > 2$. We cannot make $2$. **5 is not practical.**
+and $5$ And $1 + 5 = 6 > 2$. We cannot make $2$. **5 is not practical.**
 
 **C: $n = 7$.** Divisors: $1, 7$. We cannot make $2$. **7 is not practical.**
 

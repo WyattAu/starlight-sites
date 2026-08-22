@@ -164,7 +164,7 @@ modes and Einstein for optical modes gives better agreement with experiment acro
 <details>
 <summary>Worked Example: Debye Temperature of Copper</summary>
 
-Copper has molar mass $M = 63.55$ g/mol, density $\rho = 8.96\ \mathrm{g}/cm^3$And measured Speed of
+Copper has molar mass $M = 63.55$ g/mol, density $\rho = 8.96\ \mathrm{g}/cm^3$ And measured Speed of
 sound $v_s = 3810$ m/s (average of longitudinal and transverse).
 
 Number density:
@@ -203,7 +203,7 @@ For the Einstein model, $\Theta_E \approx 0.75\,\Theta_D$ gives a good match at 
 Temperatures. The Einstein model overestimates $C_V$ at low $T$ and is less accurate overall, but It
 is simpler to evaluate analytically.
 
-At $T = 300$ K: $T/\Theta_D = 0.70$And both models give $C_V \approx 0.94 \times 3Nk_B$ Approaching
+At $T = 300$ K: $T/\Theta_D = 0.70$ And both models give $C_V \approx 0.94 \times 3Nk_B$ Approaching
 the Dulong--Petit limit.
 
 </details>

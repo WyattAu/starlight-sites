@@ -26,7 +26,7 @@ The **upper sum** and **lower sum** of $f$ with respect to $P$ are:
 
 $$U(f, P) = \sum_{i=1}^{n} M_i \Delta x_i, \quad L(f, P) = \sum_{i=1}^{n} m_i \Delta x_i$$
 
-Where $M_i = \sup\{f(x) : x \in [x_{i-1}, x_i]\}$, $m_i = \inf\{f(x) : x \in [x_{i-1}, x_i]\}$And
+Where $M_i = \sup\{f(x) : x \in [x_{i-1}, x_i]\}$, $m_i = \inf\{f(x) : x \in [x_{i-1}, x_i]\}$ And
 $\Delta x_i = x_i - x_{i-1}$.
 
 The **mesh** of $P$ is $\|P\| = \max_{1 \leq i \leq n} \Delta x_i$.
@@ -85,7 +85,7 @@ $$U(f, P) - L(f, P) \leq \frac{\varepsilon}{2(b-a)} \cdot (b - a) + 2M \cdot \fr
 $\blacksquare$
 
 **Proposition 6.4a.** The set of Riemann integrable functions on $[a,b]$ forms a vector space, and
-If $f$ and $g$ are integrable, then so are $|f|$, $f^2$And $\max(f, g)$.
+If $f$ and $g$ are integrable, then so are $|f|$, $f^2$ And $\max(f, g)$.
 
 **Theorem 6.4b (Lebesgue"s Criterion for Riemann Integrability).** A bounded function
 $f : [a,b] \to \mathbb{R}$ Is Riemann integrable if and only if the set of its discontinuities has
@@ -109,14 +109,14 @@ $\alpha, \beta \in \mathbb{R}$:
 
 $$\int_a^b (\alpha f + \beta g) = \alpha \int_a^b f + \beta \int_a^b g$$
 
-**Theorem 6.6 (Monotonicity).** If $f(x) \leq g(x)$ for all $x \in [a,b]$Then
+**Theorem 6.6 (Monotonicity).** If $f(x) \leq g(x)$ for all $x \in [a,b]$ Then
 $\int_a^b f \leq \int_a^b g$.
 
 **Theorem 6.7 (Triangle Inequality).** $\left|\int_a^b f\right| \leq \int_a^b |f|$.
 
 ### 6.4 The Fundamental Theorem of Calculus
 
-**Theorem 6.8 (FTC Part 1).** If $f$ is continuous on $[a,b]$Then the function
+**Theorem 6.8 (FTC Part 1).** If $f$ is continuous on $[a,b]$ Then the function
 
 $$F(x) = \int_a^x f(t)\, dt$$
 
@@ -285,7 +285,7 @@ _Solution._ This integral requires both a Type I and Type II limit:
 
 $$\int_0^{\infty} x e^{-x}\, dx = \lim_{a \to 0^+} \lim_{b \to \infty} \int_a^b x e^{-x}\, dx$$
 
-Integrate by parts with $u = x$, $dv = e^{-x}\, dx$So $du = dx$, $v = -e^{-x}$:
+Integrate by parts with $u = x$, $dv = e^{-x}\, dx$ So $du = dx$, $v = -e^{-x}$:
 
 $$\int x e^{-x}\, dx = -xe^{-x} + \int e^{-x}\, dx = -xe^{-x} - e^{-x} = -(x+1)e^{-x}$$
 

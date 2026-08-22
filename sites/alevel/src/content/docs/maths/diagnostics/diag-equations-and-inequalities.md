@@ -242,7 +242,7 @@ Domain of $f^{-1}$: Since the range of $f$ (for $x > 1$) needs to be determined 
 $x \to 1^+$$f(x) \to +\infty$. As $x \to +\infty$$f(x) \to 2$. So range of $f$ is
 $(2, +\infty)$Meaning domain of $f^{-1}$ is $x > 2$.
 
-Range of $f^{-1}$: This equals the domain of $f$So $(1, +\infty)$.
+Range of $f^{-1}$: This equals the domain of $f$ So $(1, +\infty)$.
 
 **(b)** Solve $\frac{2x+3}{x-1} = \frac{x+3}{x-2}$:
 
@@ -261,7 +261,7 @@ Now check the domain restriction $x > 1$:
 The solution is $x = \frac{3 + \sqrt{21}}{2}$.
 
 **(c)** For a function and its inverse, the solutions to $f(x) = f^{-1}(x)$ lie on the line $y = x$
-(the line of reflection). This is because $f(x) = f^{-1}(x)$ implies $f(f(x)) = x$And if $f(x) = c$
+(the line of reflection). This is because $f(x) = f^{-1}(x)$ implies $f(f(x)) = x$ And if $f(x) = c$
 then $f(c) = x$. When $f(x) = x$, $f^{-1}(x) = x = f(x)$.
 
 For this specific M\"obius transformation, since $f$ is a strictly decreasing function on
@@ -319,7 +319,7 @@ Roots of $n^2 - 99n - 200 = 0$:
 
 $$n = \frac{99 \pm \sqrt{9801 + 800}}{2} = \frac{99 \pm \sqrt{10601}}{2}$$
 
-$\sqrt{10601} \approx 102.96$So:
+$\sqrt{10601} \approx 102.96$ So:
 
 $$n \approx \frac{99 + 102.96}{2} \approx 100.98$$
 
@@ -328,7 +328,7 @@ $n > \frac{99+\sqrt{10601}}{2} \approx 100.98$.
 
 The smallest integer $N$ is $\boxed{101}$.
 
-**(c)** $N = 101$So we need $\sum_{n=1}^{100} a_n = \sum_{n=1}^{100} \frac{n^2+n}{n+2}$.
+**(c)** $N = 101$ So we need $\sum_{n=1}^{100} a_n = \sum_{n=1}^{100} \frac{n^2+n}{n+2}$.
 
 Perform the division $\frac{n^2+n}{n+2}$:
 
@@ -403,22 +403,22 @@ symmetry of the setup).
 
 **Intersection of Curve 1 and Curve 3:**
 
-For $x \geq 2$: $|x-2| = x-2$So $x^2-4x+3 = x-3$Giving $x^2-5x+6 = 0$So $x = 2$ or $x = 3$.
+For $x \geq 2$: $|x-2| = x-2$ So $x^2-4x+3 = x-3$Giving $x^2-5x+6 = 0$ So $x = 2$ or $x = 3$.
 
 - At $x = 2$: $y = -1$.
 - At $x = 3$: $y = 0$.
 
-For $x < 2$: $|x-2| = 2-x$So $x^2-4x+3 = 2-x-1 = 1-x$Giving $x^2-3x+2 = 0$So $x = 1$ or $x = 2$.
+For $x < 2$: $|x-2| = 2-x$ So $x^2-4x+3 = 2-x-1 = 1-x$Giving $x^2-3x+2 = 0$ So $x = 1$ or $x = 2$.
 
 - At $x = 1$: $y = 0$.
 
 **Intersection of Curve 2 and Curve 3:**
 
-For $x \geq 2$: $4-x^2 = x-3$Giving $x^2+x-7 = 0$So
+For $x \geq 2$: $4-x^2 = x-3$Giving $x^2+x-7 = 0$ So
 $x = \frac{-1+\sqrt{29}}{2} \approx 2.193$.
 $y = \frac{-1+\sqrt{29}}{2} - 3 = \frac{-7+\sqrt{29}}{2}$.
 
-For $x < 2$: $4-x^2 = 1-x$Giving $x^2-x-3 = 0$So
+For $x < 2$: $4-x^2 = 1-x$Giving $x^2-x-3 = 0$ So
 $x = \frac{1+\sqrt{13}}{2} \approx 2.303$. But this is $> 2$Contradicting $x < 2$. So
 $x = \frac{1-\sqrt{13}}{2} \approx -1.303$.
 $y = 1 - \frac{1-\sqrt{13}}{2} = \frac{1+\sqrt{13}}{2}$.

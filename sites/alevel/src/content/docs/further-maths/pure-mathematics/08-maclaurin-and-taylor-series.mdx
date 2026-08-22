@@ -77,7 +77,7 @@ Substituting back gives the Maclaurin series.
 
 ### Proof of the Maclaurin series for $e^x$
 
-Let $f(x) = e^x$. Then $f^{(n)}(x) = e^x$ for all $n$So $f^{(n)}(0) = 1$ for all $n$.
+Let $f(x) = e^x$. Then $f^{(n)}(x) = e^x$ for all $n$ So $f^{(n)}(0) = 1$ for all $n$.
 
 $$e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots = \sum_{n=0}^{\infty}\frac{x^n}{n!}$$
 
@@ -117,7 +117,7 @@ Let $f(x) = \ln(1+x)$ for $|x| < 1$.
 
 $f'(x) = \dfrac{1}{1+x}$$f''(x) = -\dfrac{1}{(1+x)^2}$$f'''(x) = \dfrac{2}{(1+x)^3}$...
 
-$f^{(n)}(x) = \dfrac{(-1)^{n-1}(n-1)!}{(1+x)^n}$So $f^{(n)}(0) = (-1)^{n-1}(n-1)!$.
+$f^{(n)}(x) = \dfrac{(-1)^{n-1}(n-1)!}{(1+x)^n}$ So $f^{(n)}(0) = (-1)^{n-1}(n-1)!$.
 
 $$\boxed{\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots = \sum_{n=1}^{\infty}\frac{(-1)^{n-1}x^n}{n}} \quad \mathrm{for } -1 < x \leq 1$$
 
@@ -167,7 +167,7 @@ The Maclaurin series is the special case $a = 0$.
 
 ### 3.2 Taylor\'s theorem with remainder
 
-**Theorem.** If $f$ is $(n+1)$-times differentiable on an interval containing $a$ and $x$Then
+**Theorem.** If $f$ is $(n+1)$-times differentiable on an interval containing $a$ and $x$ Then
 
 $$f(x) = \sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x-a)^k + R_n$$
 
@@ -178,7 +178,7 @@ $$\boxed{R_n = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}}$$
 For some $c$ between $a$ and $x$.
 
 **Intuition.** The remainder term tells us the error when truncating the series after $n$ terms. If
-$|R_n| \to 0$ as $n \to \infty$Then the Taylor series converges to $f(x)$.
+$|R_n| \to 0$ as $n \to \infty$ Then the Taylor series converges to $f(x)$.
 
 ### 3.3 Worked example
 
@@ -194,7 +194,7 @@ $$e^x = e + e(x-1) + \frac{e}{2}(x-1)^2 + \frac{e}{6}(x-1)^3 + \cdots = e\sum_{n
 
 **Example.** Find the Taylor series of $\ln x$ about $x = 1$.
 
-Let $u = x - 1$So $\ln x = \ln(1 + u)$.
+Let $u = x - 1$ So $\ln x = \ln(1 + u)$.
 
 $$\ln(1+u) = u - \frac{u^2}{2} + \frac{u^3}{3} - \cdots$$
 
@@ -259,13 +259,13 @@ The partial sum is $S_N = 1 + x + x^2 + \cdots + x^N$.
 
 $S_N = \dfrac{1 - x^{N+1}}{1 - x}$ (standard formula).
 
-Since $|x| < 1$: $x^{N+1} \to 0$ as $N \to \infty$So $S_N \to \dfrac{1}{1-x}$.
+Since $|x| < 1$: $x^{N+1} \to 0$ as $N \to \infty$ So $S_N \to \dfrac{1}{1-x}$.
 
 $$\boxed{\sum_{n=0}^{\infty}x^n = \frac{1}{1-x} \quad \mathrm{for } |x| < 1}$$
 
 $\square$
 
-> **Tip:** tip $\dfrac{1}{1+x}$, $\ln(1+x)$And $\arctan x$ all derive from it.
+> **Tip:** tip $\dfrac{1}{1+x}$, $\ln(1+x)$ And $\arctan x$ all derive from it.
 <hr />
 
 ## 5. Applications
@@ -276,13 +276,13 @@ $\square$
 
 $e^{0.1} \approx 1 + 0.1 + \dfrac{0.01}{2} + \dfrac{0.001}{6} = 1 + 0.1 + 0.005 + 0.000167 \approx 1.10517$.
 
-The actual value is $\approx 1.10517$So the error is negligible with just 4 terms.
+The actual value is $\approx 1.10517$ So the error is negligible with just 4 terms.
 
 **Example.** Approximate $\sin(0.1)$ and bound the error.
 
 $\sin(0.1) \approx 0.1 - \dfrac{0.001}{6} = 0.1 - 0.000167 = 0.099833$.
 
-The next term is $\dfrac{(0.1)^5}{120} \approx 8.3 \times 10^{-8}$So the error is at most this.
+The next term is $\dfrac{(0.1)^5}{120} \approx 8.3 \times 10^{-8}$ So the error is at most this.
 
 ### 5.2 Evaluating limits using series
 
@@ -322,7 +322,7 @@ $= 1 + 2x + \dfrac{5}{2}x^2 + \dfrac{8}{3}x^3 + \cdots$
 
 ### 5.4 L'Hôpital\'s rule and series
 
-**Intuition.** L'Hôpital\'s rule is a consequence of Taylor\'s theorem. If $f(a) = g(a) = 0$Then Near
+**Intuition.** L'Hôpital\'s rule is a consequence of Taylor\'s theorem. If $f(a) = g(a) = 0$ Then Near
 $a$:
 
 $$\frac{f(x)}{g(x)} \approx \frac{f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^2}{g'(a)(x-a) + \frac{g''(a)}{2}(x-a)^2} = \frac{f'(a) + \frac{f''(a)}{2}(x-a)}{g'(a) + \frac{g''(a)}{2}(x-a)}$$
@@ -1068,7 +1068,7 @@ $\displaystyle\lim_{x \to 0} \frac{\sin x}{x} = 1$ (the constant term).
 <details>
 <summary>Solution</summary>
 
-The $n$-th derivative of $\cos x$ is one of $\pm\cos x$ or $\pm\sin x$So $|f^{(n)}(c)| \leq 1$ for
+The $n$-th derivative of $\cos x$ is one of $\pm\cos x$ or $\pm\sin x$ So $|f^{(n)}(c)| \leq 1$ for
 All $c$ and $n$.
 
 By the Lagrange remainder: $|R_n(x)| \leq \dfrac{|x|^{n+1}}{(n+1)!}$.

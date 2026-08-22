@@ -36,7 +36,7 @@ function that is analytic everywhere in the finite plane except for finitely man
 sum of all residues (including the residue at infinity) is zero.
 :::
 :::caution
-Mapping $w = z^2$ is conformal at every $z \neq 0$But it doubles the angle between curves at each
+Mapping $w = z^2$ is conformal at every $z \neq 0$ But it doubles the angle between curves at each
 Point. At $z = 0$It is not conformal because $f'(0) = 0$.
 :::
 :::caution

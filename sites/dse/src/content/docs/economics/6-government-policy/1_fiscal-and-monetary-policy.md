@@ -1,7 +1,7 @@
 ---
 
 title: Fiscal and Monetary Policy
-description: "Fiscal and monetary policy for DSE Economics."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

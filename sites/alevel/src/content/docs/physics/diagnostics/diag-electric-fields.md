@@ -150,7 +150,7 @@ overcome the attractive force of $q_2$).
 An electron (mass $9.11 \times 10^{-31}\,\text{kg}$Charge $-1.60 \times 10^{-19}\,\text{C}$) enters
 the region between two parallel horizontal plates with velocity
 $3.0 \times 10^7\,\text{m}\,\text{s}^{-1}$ horizontally. The plates are $5.0\,\text{cm}$ long,
-separated by $2.0\,\text{cm}$And have a potential difference of $400\,\text{V}$ across them (top
+separated by $2.0\,\text{cm}$ And have a potential difference of $400\,\text{V}$ across them (top
 plate positive).
 
 (a) Calculate the electric field strength between the plates.

@@ -218,7 +218,7 @@ $E_{31} = \dfrac{40 \times 70}{200} = 14.0$
 $E_{32} = \dfrac{40 \times 90}{200} = 18.0$
 $E_{33} = \dfrac{40 \times 40}{200} = 8.0$
 
-All expected frequencies $\geq 5$So the test is valid.
+All expected frequencies $\geq 5$ So the test is valid.
 
 $$\chi^2 = \frac{(20-31.5)^2}{31.5} + \frac{(60-40.5)^2}{40.5} + \frac{(10-18)^2}{18} + \frac{(30-24.5)^2}{24.5} + \frac{(25-31.5)^2}{31.5} + \frac{(15-14)^2}{14} + \frac{(20-14)^2}{14} + \frac{(5-18)^2}{18} + \frac{(15-8)^2}{8}$$
 
@@ -387,7 +387,7 @@ $\chi^2 = \dfrac{(40-50)^2+(60-50)^2+(55-50)^2+(45-50)^2}{50} = \dfrac{100+100+2
 Yates' corrected:
 $\chi^2_Y = \dfrac{(10-0.5)^2+(10-0.5)^2+(5-0.5)^2+(5-0.5)^2}{50} = \dfrac{90.25+90.25+20.25+20.25}{50} = 4.42$.
 
-$\nu = 1$. Critical value: $3.841$. Both reject $H_0$But Yates' gives a more conservative result.
+$\nu = 1$. Critical value: $3.841$. Both reject $H_0$ But Yates' gives a more conservative result.
 
 **If you get this wrong, revise:** [Yates' correction](#25-yates-correction-continuity-correction) —
 Section 2.5.
@@ -654,7 +654,7 @@ Probability of the data given the hypothesis, not the probability of the hypothe
 
 ### 8.3 Context matters
 
-A significant chi-squared test tells you the observed data is unlikely under $H_0$But it does not
+A significant chi-squared test tells you the observed data is unlikely under $H_0$ But it does not
 Tell you **how** the data differs or whether the difference is meaningful. Always inspect the
 Observed vs expected frequencies to understand the nature of any discrepancy.
 
@@ -894,7 +894,7 @@ Test at the 5% level whether the die is fair.
 
 **Solution.** $H_0$: die is fair ($p_i = \frac{1}{6}$). Expected: $E_i = 20$ for each face.
 
-All $E_i = 20 \geq 5$So no merging needed.
+All $E_i = 20 \geq 5$ So no merging needed.
 
 $$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i} = \frac{25 + 9 + 25 + 9 + 4 + 4}{20} = \frac{76}{20} = 3.8$$
 
@@ -995,7 +995,7 @@ Expected: $P(X=k) = p(1-p)^k = 0.505 \times 0.495^k$.
 $E_0 = 200 \times 0.505 = 101$$E_1 = 200 \times 0.250 = 50$$E_2 = 200 \times 0.124 = 24.8$
 $E_3 = 200 \times 0.061 = 12.3$$E_{\geq 4} = 200 - 101 - 50 - 24.8 - 12.3 = 11.9$.
 
-All $E_i \geq 5$So no merging needed.
+All $E_i \geq 5$ So no merging needed.
 
 $$\chi^2 = \frac{(90-101)^2}{101} + \frac{(60-50)^2}{50} + \frac{(30-24.8)^2}{24.8} + \frac{(12-12.3)^2}{12.3} + \frac{(8-11.9)^2}{11.9}$$
 
@@ -1226,7 +1226,7 @@ Chi-squared test.
 Significance level $\alpha$.
 
 **Type II error:** Failing to reject $H_0$ when $H_0$ is false (false negative). The probability
-Depends on the true distribution and sample size; it is denoted $\beta$And $1-\beta$ is the power Of
+Depends on the true distribution and sample size; it is denoted $\beta$ And $1-\beta$ is the power Of
 the test.
 
 </details>
@@ -1312,7 +1312,7 @@ The power of the test.
 <summary>Solution</summary>
 
 Merging reduces the number of classes $k$Which reduces $\nu = k - 1 - m$. Fewer degrees of freedom
-Means the critical value is lower, making it easier to reject $H_0$But merging also discards
+Means the critical value is lower, making it easier to reject $H_0$ But merging also discards
 Information about the differences between the merged classes. If the true deviation from $H_0$ is in
 The merged classes, the test loses the ability to detect it, reducing power.
 
@@ -1405,7 +1405,7 @@ $\nu = 8 - 1 - 1 = 6$.
 
 From chi-squared tables: $\chi^2_{6,0.05} = 12.59$, $\chi^2_{6,0.10} = 10.64$.
 
-$10.64 < 11.3 < 12.59$So $0.05 < p < 0.10$.
+$10.64 < 11.3 < 12.59$ So $0.05 < p < 0.10$.
 
 The $p$-value is approximately 0.08.
 
@@ -1461,7 +1461,7 @@ $X^2 = \displaystyle\sum \frac{(O-E)^2}{E} = \frac{25+4+4+25+0+0}{20} = \frac{58
 
 $\nu = 6 - 1 = 5$. Critical value at 5%: $\chi^2_{5}(0.95) = 11.07$.
 
-$2.9 < 11.07$So we **do not reject** $H_0$. There is insufficient evidence to suggest the die is
+$2.9 < 11.07$ So we **do not reject** $H_0$. There is insufficient evidence to suggest the die is
 Unfair.
 
 </details>

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Swift
-description: "Introduction to swift notes."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"swift\", \"url\": \"https://swift.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -224,7 +224,7 @@ $$\mathrm{ran}(g \circ f) = [1,\; \infty)$$
 **Question:**
 
 Let $f(x) = ax^2 + bx + c$ where $a > 0$. The function $f$ has a minimum value of $-5$ at $x = 3$.
-Given that $f(1) = 3$Find $a$, $b$And $c$And hence find the range of $f^{-1}$.
+Given that $f(1) = 3$Find $a$, $b$ And $c$ And hence find the range of $f^{-1}$.
 
 **Solution:**
 
@@ -244,7 +244,7 @@ Therefore $a = 2$$b = -12$$c = 13$.
 
 Since $f$ has minimum value $-5$ and opens upward, $\mathrm{ran}(f) = [-5,\; \infty)$.
 
-Therefore $\mathrm{dom}(f^{-1}) = [-5,\; \infty)$And so $\mathrm{ran}(f^{-1}) = [3,\; \infty)$ (the
+Therefore $\mathrm{dom}(f^{-1}) = [-5,\; \infty)$ And so $\mathrm{ran}(f^{-1}) = [3,\; \infty)$ (the
 restricted domain where $f$ is injective, to the right of the vertex).
 
 ---
@@ -304,7 +304,7 @@ The solutions are $x = 0$ and $x = 1$.
 **Question:**
 
 The function $f(x) = \dfrac{k}{x}$$x > 0$Represents a rectangular hyperbola. The line $y = mx + c$
-is tangent to the curve at the point $(2,\; 4)$. Find $k$$m$And $c$.
+is tangent to the curve at the point $(2,\; 4)$. Find $k$$m$ And $c$.
 
 **Solution:**
 
@@ -326,7 +326,7 @@ So $m = -2$.
 
 From equation (1): $c = 4 - 2(-2) = 8$.
 
-Therefore $k = 8$$m = -2$$c = 8$And the tangent line is $y = -2x + 8$.
+Therefore $k = 8$$m = -2$$c = 8$ And the tangent line is $y = -2x + 8$.
 
 ---
 
@@ -353,7 +353,7 @@ Domain: $x^2 + 1 \neq 0$ for all real $x$ (since $x^2 \geq 0$).
 
 $$\mathrm{dom}(f) = \mathbb{R}$$
 
-Range: $x^2 + 1 \geq 1$ for all $x$So $0 < \dfrac{2}{x^2 + 1} \leq 2$.
+Range: $x^2 + 1 \geq 1$ for all $x$ So $0 < \dfrac{2}{x^2 + 1} \leq 2$.
 
 Maximum value $2$ occurs at $x = 0$. The function approaches $0$ as $|x| \to \infty$.
 
@@ -473,7 +473,7 @@ $(2, 5) \to (3, 7)$ and $(3, 1) \to (4, 3)$.
 Define
 $f(x) = \begin{cases} x^2 & \text{if } x < 0 \\ 2x + 1 & \text{if } 0 \leq x \leq 3 \\ 7 & \text{if } x > 3 \end{cases}$.
 
-Find $f(-2)$$f(0)$$f(3)$And $f(5)$.
+Find $f(-2)$$f(0)$$f(3)$ And $f(5)$.
 
 **Solution:**
 
@@ -537,7 +537,7 @@ Domain of $f \circ g$: we need $x - 4 \geq 0$I.e. $x \geq 4$.
 
 $$\mathrm{dom}(f \circ g) = [4,\; \infty)$$
 
-Note: $g(x) = x - 4$ is defined for all $x \in \mathbb{R}$But the range of $g$ must fall within the
+Note: $g(x) = x - 4$ is defined for all $x \in \mathbb{R}$ But the range of $g$ must fall within the
 domain of $f$ (which is $[0, \infty)$), so $g(x) \geq 0 \implies x \geq 4$.
 
 ---
@@ -715,7 +715,7 @@ $f(x) = \dfrac{1}{5}$. (2 marks)
 
 $$\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -2 \text{ and } x \neq 2\}$$
 
-(b) Let $y = \dfrac{1}{x^2 - 4}$. Then $x^2 - 4 = \dfrac{1}{y}$So
+(b) Let $y = \dfrac{1}{x^2 - 4}$. Then $x^2 - 4 = \dfrac{1}{y}$ So
 $x^2 = 4 + \dfrac{1}{y} = \dfrac{4y + 1}{y}$.
 
 For $x^2 \geq 0$: $\dfrac{4y + 1}{y} \geq 0$.
@@ -768,7 +768,7 @@ $g \circ f = \mathrm{id}$ on $\mathbb{R}$.
 
 ### DSE-5
 
-The graph of $y = f(x)$ is shown. It passes through $(-2, 0)$$(0, 4)$$(2, 0)$And has a maximum at
+The graph of $y = f(x)$ is shown. It passes through $(-2, 0)$$(0, 4)$$(2, 0)$ And has a maximum at
 $(0, 4)$.
 
 (a) Sketch the graph of $y = f(x + 1)$. (2 marks) (b) Sketch the graph of $y = f(-x)$. (2 marks) (c)

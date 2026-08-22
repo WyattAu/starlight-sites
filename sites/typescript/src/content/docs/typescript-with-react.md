@@ -1,7 +1,7 @@
 ---
 
 title: TypeScript with React
-description: "TypeScript with React fundamentals and best practices."
+description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"typescript\", \"url\": \"https://typescript.wyattau.com\"}, {\"name\": \"Typescript With"
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

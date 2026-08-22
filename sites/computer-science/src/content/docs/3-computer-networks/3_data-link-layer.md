@@ -136,7 +136,7 @@ Division steps:
 **Step 3:** Append remainder to original message. Transmitted codeword: `110100100`.
 
 **Verification.** The receiver divides `110100100` by `1011`. Since $x^2$ was chosen as the
-remainder, $(x^8 + x^7 + x^5) + x^2 = (x^5 + x^4 + x^3 + x^2) \cdot G(x)$So the division yields
+remainder, $(x^8 + x^7 + x^5) + x^2 = (x^5 + x^4 + x^3 + x^2) \cdot G(x)$ So the division yields
 remainder 0, Confirming no error.
 
 </details>

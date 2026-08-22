@@ -78,8 +78,8 @@ description: "1. A noiseless channel has bandwidth 8000 Hz. What is the maximum 
     `cwnd` through: slow start for 3 RTTs, then 2 RTTs of congestion avoidance, then a timeout. What
     is the value of `ssthresh` after the timeout?
 
-16. **RTT estimation.** Using $\alpha = 1/8$, $\beta = 1/4$And measured RTTs of 100 ms, 120 ms, 80
-    ms, compute $\mathrm{RTT_s}$, $\mathrm{RTT_d}$And RTO after each measurement (starting from
+16. **RTT estimation.** Using $\alpha = 1/8$, $\beta = 1/4$ And measured RTTs of 100 ms, 120 ms, 80
+    ms, compute $\mathrm{RTT_s}$, $\mathrm{RTT_d}$ And RTO after each measurement (starting from
     $\mathrm{RTT_s} = \mathrm{RTT_d} = 0$).
 
 17. **DNS resolution.** A client at `192.168.1.100` wants to resolve `www.example.com`. Describe the
@@ -107,8 +107,8 @@ _Hint:_ Total data = 630 KB = 5.04 Mb. Transmission time = 5.04 / 10 = 0.504 s.
     (a) allows external HTTP/HTTPS to the web server, (b) allows external SMTP to the mail server,
     (c) allows internal users to access any external service, (d) blocks all other inbound traffic.
 
-2. **RSA encryption.** Given primes $p = 5$, $q = 11$And public exponent $e = 3$: (a) Compute $n$,
-    $\phi(n)$And the private key $d$. (b) Encrypt the message $m = 7$. (c) Decrypt the ciphertext to
+2. **RSA encryption.** Given primes $p = 5$, $q = 11$ And public exponent $e = 3$: (a) Compute $n$,
+    $\phi(n)$ And the private key $d$. (b) Encrypt the message $m = 7$. (c) Decrypt the ciphertext to
     verify.
 
 3. **TCP throughput bound.** A TCP connection over a satellite link has RTT = 600 ms and bandwidth

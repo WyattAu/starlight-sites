@@ -94,14 +94,14 @@ Let $f(x) = \sqrt{x + 1}$ and $g(x) = x^2 - 4$. Find $\mathrm{dom}(f \circ g)$.
 
 $\mathrm{dom}(g) = \mathbb{R}$.
 
-$\mathrm{dom}(f) = [ -1, \infty)$So we need $g(x) \geqslant -1$I.e.,
+$\mathrm{dom}(f) = [ -1, \infty)$ So we need $g(x) \geqslant -1$I.e.,
 $x^2 - 4 \geqslant -1 \implies x^2 \geqslant 3$.
 
 $$\mathrm{dom}(f \circ g) = (-\infty, -\sqrt{3}] \cup [\sqrt{3}, \infty)$$
 
 ### Worked Example 3
 
-Let $f(x) = \dfrac{1}{x}$ and $g(x) = x + 1$. Find $f \circ g$, $g \circ f$And their domains.
+Let $f(x) = \dfrac{1}{x}$ and $g(x) = x + 1$. Find $f \circ g$, $g \circ f$ And their domains.
 
 $(f \circ g)(x) = f(g(x)) = f(x + 1) = \dfrac{1}{x + 1}$
 $\mathrm{dom} = \mathbb{R} \setminus \{-1\}$.
@@ -133,7 +133,7 @@ Natural domain of $f$ does not yield injectivity, restrict the domain.
 2. Solve for $x$ in terms of $y$.
 3. Interchange $x$ and $y$ to obtain $f^{-1}(x)$.
 
-The domain of $f^{-1}$ equals the range of $f$And vice versa.
+The domain of $f^{-1}$ equals the range of $f$ And vice versa.
 
 ### Graphical Relationship
 
@@ -223,7 +223,7 @@ A piecewise function is defined by different expressions on different intervals 
 
 $$f(x) = \begin{cases} x^2 & \mathrm{if } x \lt 0 \\ 2x + 1 & \mathrm{if } 0 \leqslant x \leqslant 3 \\ 10 - x & \mathrm{if } x \gt 3 \end{cases}$$
 
-Find $f(-2)$, $f(0)$, $f(3)$And $f(5)$.
+Find $f(-2)$, $f(0)$, $f(3)$ And $f(5)$.
 
 $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5$.
 
@@ -288,7 +288,7 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 
 $(f \circ g)(x) = f(2x - 3) = \dfrac{2x - 3 + 2}{2x - 3 - 1} = \dfrac{2x - 1}{2x - 4}$.
 
-$\mathrm{dom}(g) = \mathbb{R}$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$So $g(x) \neq 1$:
+$\mathrm{dom}(g) = \mathbb{R}$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$ So $g(x) \neq 1$:
 $2x - 3 \neq 1 \implies x \neq 2$. Also $2x - 4 \neq 0 \implies x \neq 2$.
 $\mathrm{dom}(f \circ g) = \mathbb{R} \setminus \{2\}$.
 
@@ -321,7 +321,7 @@ $(0, 3) \to$ set $2x = 0 \implies x = 0$$y = 3(3) + 1 = 10$. Point: $(0, 10)$.
 1. **Question:** A function $f$ is defined by $f(x) = 2 - x^2$ for $x \leqslant 0$. State the range
    of $f$ and find $f^{-1}$.
 
-Since $x \leqslant 0$: $x^2 \geqslant 0$So $f(x) = 2 - x^2 \leqslant 2$. As $x \to -\infty$
+Since $x \leqslant 0$: $x^2 \geqslant 0$ So $f(x) = 2 - x^2 \leqslant 2$. As $x \to -\infty$
 $f(x) \to -\infty$. Range: $(-\infty, 2]$.
 
 Set $y = 2 - x^2 \implies x^2 = 2 - y \implies x = -\sqrt{2 - y}$ (negative root since
@@ -341,7 +341,7 @@ Since $g$ has no domain restriction, $\mathrm{dom}(g \circ f) = \mathrm{dom}(f) 
 
 Domain: $x^2 + 1 \neq 0$ for all real $x$ (since $x^2 \geqslant 0$). $\mathrm{dom}(f) = \mathbb{R}$.
 
-Range: $x^2 + 1 \geqslant 1$So $0 \lt \dfrac{1}{x^2 + 1} \leqslant 1$. $\mathrm{range}(f) = (0, 1]$.
+Range: $x^2 + 1 \geqslant 1$ So $0 \lt \dfrac{1}{x^2 + 1} \leqslant 1$. $\mathrm{range}(f) = (0, 1]$.
 
 1. **Question:** Let $f(x) = |x - 3| + |x + 1|$. Express $f$ as a piecewise function and find its
    minimum value.
@@ -448,13 +448,13 @@ corresponding points on $y = 2f(3x - 6) + 5$.
 
 Rewrite: $y = 2f(3(x-2)) + 5$.
 
-**For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$So $x - 2 = \dfrac{1}{3}$Giving $x = \dfrac{7}{3}$.
+**For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$ So $x - 2 = \dfrac{1}{3}$Giving $x = \dfrac{7}{3}$.
 
 $$y = 2(4) + 5 = 13$$
 
 Corresponding point: $\left(\dfrac{7}{3},\; 13\right)$.
 
-**For the minimum at $(2, -1)$:** Set $3(x-2) = 2$So $x - 2 = \dfrac{2}{3}$Giving
+**For the minimum at $(2, -1)$:** Set $3(x-2) = 2$ So $x - 2 = \dfrac{2}{3}$Giving
 $x = \dfrac{8}{3}$.
 
 $$y = 2(-1) + 5 = 3$$
@@ -465,7 +465,7 @@ Corresponding point: $\left(\dfrac{8}{3},\; 3\right)$. This is the minimum of th
 
 **Worked Example 11: Composite with logarithm**
 
-Let $f(x) = \ln(x - 1)$ and $g(x) = x^2 + 1$. Find $(f \circ g)(x)$, $(g \circ f)(x)$And their
+Let $f(x) = \ln(x - 1)$ and $g(x) = x^2 + 1$. Find $(f \circ g)(x)$, $(g \circ f)(x)$ And their
 domains.
 
 <details>
@@ -649,7 +649,7 @@ Then:
 
 $$(f \circ g \circ f)(x) = f\!\left(\frac{1}{(x+1)^2}\right) = \frac{1}{\dfrac{1}{(x+1)^2} + 1} = \frac{(x+1)^2}{(x+1)^2 + 1} = \frac{(x+1)^2}{x^2 + 2x + 2}$$
 
-Domain: need $x + 1 \neq 0 \implies x \neq -1$And $\dfrac{1}{(x+1)^2} + 1 \neq 0$.
+Domain: need $x + 1 \neq 0 \implies x \neq -1$ And $\dfrac{1}{(x+1)^2} + 1 \neq 0$.
 
 Since $\dfrac{1}{(x+1)^2} \geq 0$ for all $x \neq -1$The second expression is always at least
 $1 > 0$.
@@ -663,7 +663,7 @@ $\mathrm{dom}(f \circ g \circ f) = \mathbb{R} \setminus \{-1\}$.
 <details>
 <summary>Solution</summary>
 
-Critical points: $2x - 1 = 0 \implies x = \dfrac{1}{2}$And $x + 3 = 0 \implies x = -3$.
+Critical points: $2x - 1 = 0 \implies x = \dfrac{1}{2}$ And $x + 3 = 0 \implies x = -3$.
 
 For $x \lt -3$: $f(x) = -(2x-1) + -(x+3) = -3x - 2$ (decreasing as $x$ increases).
 
@@ -776,7 +776,7 @@ For function problems in DSE Paper 1:
 
 1. When finding the domain of a composite function, explicitly state $\mathrm{dom}(g)$ and the
    condition $g(x) \in \mathrm{dom}(f)$.
-2. When finding an inverse, write $y = f(x)$Solve for $x$And then interchange.
+2. When finding an inverse, write $y = f(x)$Solve for $x$ And then interchange.
 3. When checking invertibility, verify that the function is one-to-one (strictly increasing or
    decreasing on the domain).
 4. For transformation problems, identify the sequence of transformations from inside out.
@@ -834,7 +834,7 @@ Let $f(x) = \dfrac{2x}{x - 3}$ for $x > 3$. Find $f^{-1}$.
 <details>
 <summary>Solution</summary>
 
-First, check one-to-one: $f(x) = 2 + \dfrac{6}{x - 3}$. For $x > 3$, $x - 3 > 0$So
+First, check one-to-one: $f(x) = 2 + \dfrac{6}{x - 3}$. For $x > 3$, $x - 3 > 0$ So
 $\dfrac{6}{x-3} > 0$ and is strictly decreasing. Therefore $f$ is strictly decreasing and hence
 one-to-one on $(3, \infty)$.
 
@@ -850,7 +850,7 @@ To find the domain of $f^{-1}$: since $\mathrm{range}(f)$ must equal $\mathrm{do
 
 As $x \to 3^+$$f(x) \to +\infty$. As $x \to +\infty$$f(x) \to 2^+$.
 
-$\mathrm{range}(f) = (2, \infty)$So $\mathrm{dom}(f^{-1}) = (2, \infty)$.
+$\mathrm{range}(f) = (2, \infty)$ So $\mathrm{dom}(f^{-1}) = (2, \infty)$.
 
 </details>
 
@@ -941,7 +941,7 @@ minimum at $\left(1,\; -1\right)$.
 
 </details>
 
-**DSE Practice 4.** Let $f(x) = x^3 - 3x$. Show that $f$ is not one-to-one on $\mathbb{R}$But is
+**DSE Practice 4.** Let $f(x) = x^3 - 3x$. Show that $f$ is not one-to-one on $\mathbb{R}$ But is
 one-to-one on $[1, \infty)$. Find $f^{-1}(0)$.
 
 <details>

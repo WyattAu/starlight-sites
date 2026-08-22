@@ -94,7 +94,7 @@ Evaluate the sum:
 
 $$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
 
-Express your answer in terms of $n$And hence find $\lim_{n \to \infty} S_n$.
+Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
 ### Q7 [7 marks] — Binomial Expansion
 
@@ -172,7 +172,7 @@ The function $f(x) = x^3 - 2x + 2$ has a root near $x = -1.77$.
 
 **(a)** Show that $f(x) = 0$ has exactly one real root.
 
-**(b)** Apply the Newton-Raphson formula with initial value $x_0 = 0$. Compute $x_1$, $x_2$And
+**(b)** Apply the Newton-Raphson formula with initial value $x_0 = 0$. Compute $x_1$, $x_2$ And
 $x_3$. Describe the behaviour of the iteration.
 
 **(c)** Explain why the iteration fails to converge.
@@ -372,9 +372,9 @@ Domain of $g \circ f$: $\left[\frac{1}{2}, 5\right) \cup (5, \infty)$.
 
 **(c)** The domains differ because:
 
-- For $f \circ g$: the input to $f$ is $g(x) = \frac{1}{x-3}$And we need $g(x) \geq \frac{1}{2}$
+- For $f \circ g$: the input to $f$ is $g(x) = \frac{1}{x-3}$ And we need $g(x) \geq \frac{1}{2}$
   (since $f$ requires $2 \cdot g(x) - 1 \geq 0$). This constrains $x$ to a finite interval $(3, 5]$.
-- For $g \circ f$: the input to $g$ is $f(x) = \sqrt{2x-1}$And we need $f(x) \neq 3$. Since
+- For $g \circ f$: the input to $g$ is $f(x) = \sqrt{2x-1}$ And we need $f(x) \neq 3$. Since
   $f(x) \geq 0$ for all $x$ in its domain, we only exclude $x = 5$. The domain is almost the entire
   domain of $f$.
 
@@ -561,9 +561,9 @@ $\frac{5 + \sqrt{5}}{2} \approx 3.618 \gt 0$.
 $$x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)$$
 
 **(c)** The check is necessary because if a root of the quadratic in $u$ were negative or zero,
-taking $\ln u$ would be undefined. For example, if the equation were $e^{2x} - 3e^x - 4 = 0$Then
-$u = -1$ or $u = 4$And $u = -1$ would give $e^x = -1$Which has no real solution. The substitution
-$u = e^x$ implicitly constrains $u \gt 0$And students who forget this constraint accept spurious
+taking $\ln u$ would be undefined. For example, if the equation were $e^{2x} - 3e^x - 4 = 0$ Then
+$u = -1$ or $u = 4$ And $u = -1$ would give $e^x = -1$Which has no real solution. The substitution
+$u = e^x$ implicitly constrains $u \gt 0$ And students who forget this constraint accept spurious
 solutions.
 
 ---
@@ -646,7 +646,7 @@ $$= \frac{x^4}{16}(4\ln x - 1) + C$$
 
 **(b)** If the student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$:
 
-$du = 3x^2\, dx$But $v = \int \ln x\, dx = x\ln x - x$ (which itself requires integration by parts
+$du = 3x^2\, dx$ But $v = \int \ln x\, dx = x\ln x - x$ (which itself requires integration by parts
 to find).
 
 This produces an equation involving the original integral on both sides, which eventually works but
@@ -674,7 +674,7 @@ $$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
 
 ### Q12 — Solution
 
-**(a)** $\mathbf{d}_1$ and $\mathbf{d}_2$ are not proportional for any value of $a$So the lines are
+**(a)** $\mathbf{d}_1$ and $\mathbf{d}_2$ are not proportional for any value of $a$ So the lines are
 never parallel.
 
 For intersection, there exist $s, t$ such that:
@@ -731,11 +731,11 @@ $$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19
 ### Q13 — Solution
 
 **(a)** "$x \gt 2$" implies "$x^2 \gt 4$": if $x \gt 2$ then $x^2 \gt 4$. However, "$x \gt 2$" is
-not necessary: $x = -3$ gives $x^2 = 9 \gt 4$But $x \lt 2$.
+not necessary: $x = -3$ gives $x^2 = 9 \gt 4$ But $x \lt 2$.
 
 Answer: **sufficient but not necessary**.
 
-**(b)** If $n$ is prime and $n \neq 2$Then $n$ is odd. But $n = 2$ is prime and even. Also, "odd"
+**(b)** If $n$ is prime and $n \neq 2$ Then $n$ is odd. But $n = 2$ is prime and even. Also, "odd"
 does not imply "prime" (counterexample: 9).
 
 Answer: **neither necessary nor sufficient**.

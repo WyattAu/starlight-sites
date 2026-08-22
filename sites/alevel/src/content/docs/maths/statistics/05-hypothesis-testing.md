@@ -285,7 +285,7 @@ $X \sim B(120, p)$. $H_0: p = 0.4$, $H_1: p \neq 0.4$. Two-tailed, $\alpha = 0.0
 Check conditions using $p_0 = 0.4$: $np_0 = 120 \times 0.4 = 48 \gt 5$ and
 $n(1 - p_0) = 120 \times 0.6 = 72 \gt 5$. Conditions satisfied.
 
-Under $H_0$: $X \approx N(48, 28.8)$So $\sigma = \sqrt{28.8} \approx 5.367$.
+Under $H_0$: $X \approx N(48, 28.8)$ So $\sigma = \sqrt{28.8} \approx 5.367$.
 
 Using continuity correction:
 
@@ -421,7 +421,7 @@ $\sigma = \sqrt{60 \times \frac{1}{6} \times \frac{5}{6}} = \sqrt{50/6} \approx 
 
 Using normal approximation: $z = \dfrac{16 - 10}{2.887} = 2.078$.
 
-Two-tailed: critical values $\pm 1.96$. $|2.078| \gt 1.96$So **reject** $H_0$.
+Two-tailed: critical values $\pm 1.96$. $|2.078| \gt 1.96$ So **reject** $H_0$.
 
 There is evidence at the 5% level that the die is biased.
 
@@ -546,7 +546,7 @@ $\bar{X} \sim N(70, 12^2/25) = N(70, 5.76)$ approximately.
 
 $z = \dfrac{66 - 70}{\sqrt{5.76}} = \dfrac{-4}{2.4} = -1.667$.
 
-Two-tailed critical values: $\pm 1.96$. $|-1.667| \lt 1.96$So **do not reject** $H_0$.
+Two-tailed critical values: $\pm 1.96$. $|-1.667| \lt 1.96$ So **do not reject** $H_0$.
 
 There is insufficient evidence at the 5% level that the mean score differs from 70%.
 
@@ -622,7 +622,7 @@ A researcher tests whether a new drug changes recovery time. She uses a two-tail
 
 <details>
 <summary>Solution 11</summary>
-(a) Two-tailed test: critical values $\pm 1.96$. $|1.85| = 1.85 \lt 1.96$So **do not reject** $H_0$. There is insufficient evidence that recovery time has changed.
+(a) Two-tailed test: critical values $\pm 1.96$. $|1.85| = 1.85 \lt 1.96$ So **do not reject** $H_0$. There is insufficient evidence that recovery time has changed.
 
 (b) One-tailed test: critical value $1.645$. Since $1.85 \gt 1.645$We **reject** $H_0$. There is
 Sufficient evidence that recovery time has increased.
@@ -655,7 +655,7 @@ Using continuity correction:
 
 $$z = \dfrac{45 - 0.5 - 40}{5.657} = \dfrac{4.5}{5.657} = 0.796$$
 
-Two-tailed critical values: $\pm 1.96$. $|0.796| \lt 1.96$So **do not reject** $H_0$.
+Two-tailed critical values: $\pm 1.96$. $|0.796| \lt 1.96$ So **do not reject** $H_0$.
 
 There is insufficient evidence at the 5% level that the recycling rate differs from 20%.
 
@@ -698,8 +698,8 @@ A 95% confidence interval for a population mean is $(48.2, 53.8)$. State whether
 A 95% confidence interval contains exactly those values of $\mu_0$ that would **not** be rejected
 By a two-tailed test at the 5% level.
 
-(a) $\mu_0 = 50$: $50 \in (48.2, 53.8)$So **do not reject** $H_0$. (b) $\mu_0 = 47$:
-$47 \notin (48.2, 53.8)$So **reject** $H_0$. (c) $\mu_0 = 54$: $54 \notin (48.2, 53.8)$So **reject**
+(a) $\mu_0 = 50$: $50 \in (48.2, 53.8)$ So **do not reject** $H_0$. (b) $\mu_0 = 47$:
+$47 \notin (48.2, 53.8)$ So **reject** $H_0$. (c) $\mu_0 = 54$: $54 \notin (48.2, 53.8)$ So **reject**
 $H_0$.
 
 **If you get this wrong, revise:** [Confidence Intervals](#10-confidence-intervals) — Section 10.
@@ -730,12 +730,12 @@ Against $H_0$.
 
 <details>
 <summary>Problem 16</summary>
-For a test of $H_0: \mu = 100$ vs $H_1: \mu \gt 100$ with $\sigma = 15$, $n = 25$And $\alpha = 0.05$: (a) Find the critical value in terms of $\bar{x}$. (b) Find the probability of a Type II error and the power of the test if the true mean is $\mu = 108$. (c) How would the power change if $\alpha$ were increased to 0.10?
+For a test of $H_0: \mu = 100$ vs $H_1: \mu \gt 100$ with $\sigma = 15$, $n = 25$ And $\alpha = 0.05$: (a) Find the critical value in terms of $\bar{x}$. (b) Find the probability of a Type II error and the power of the test if the true mean is $\mu = 108$. (c) How would the power change if $\alpha$ were increased to 0.10?
 </details>
 
 <details>
 <summary>Solution 16</summary>
-(a) Under $H_0$: $\bar{X} \sim N(100, 15^2/25) = N(100, 9)$So $\sigma_{\bar{X}} = 3$.
+(a) Under $H_0$: $\bar{X} \sim N(100, 15^2/25) = N(100, 9)$ So $\sigma_{\bar{X}} = 3$.
 
 Critical value: $c = 100 + 1.645 \times 3 = 104.935$. Reject $H_0$ if $\bar{X} \gt 104.935$.
 

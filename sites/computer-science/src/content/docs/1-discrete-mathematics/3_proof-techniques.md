@@ -76,7 +76,7 @@ Contradiction. $\blacksquare$
 <summary>Solution</summary>
 
 Suppose $\sqrt{2} = p/q$ in lowest terms, with $p, q \in \mathbb{Z}^+$ and $\gcd(p, q) = 1$.
-Then $2q^2 = p^2$So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$So
+Then $2q^2 = p^2$ So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$ So
 $q^2 = 2r^2$Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
 $\blacksquare$
 
@@ -152,16 +152,16 @@ Induction.
 
 _Proof (WOP implies induction)._ Let $P(n)$ be a property with $P(0)$ true and
 $P(k) \implies P(k+1)$. Suppose for contradiction that $P(n)$ fails for some $n \geq 0$. Let
-$S = \\{n \geq 0 : P(n)\; \mathrm{is\; false{}\\}$. By assumption $S \neq \emptyset$So by WOP, $S$
+$S = \\{n \geq 0 : P(n)\; \mathrm{is\; false{}\\}$. By assumption $S \neq \emptyset$ So by WOP, $S$
 has a least Element $m$. Since $P(0)$ is true, $m \geq 1$. Then $P(m - 1)$ is true (by minimality of
 $m$), And $P(m - 1) \implies P(m)$ by the inductive hypothesis, so $P(m)$ is true, contradicting
 $m \in S$. Therefore $S = \emptyset$ and $P(n)$ holds for all $n \geq 0$.
 
 _Proof (induction implies WOP)._ Let $S \subseteq \mathbb{N}$ be nonempty. We prove by
-induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$Then $S$ has a least element. For
+induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$ Then $S$ has a least element. For
 $n = 0$, $S$ Contains $0$Which is the least element. Assume the claim for $n = k$. If
 $0 \in S \cap \\{0, \ldots, k+1\\}$ Then $0$ is the least element. Otherwise
-$S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$And by The induction hypothesis applied
+$S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$ And by The induction hypothesis applied
 to the shifted set, a least element exists. $\blacksquare$
 
 **Worked Example.** Use the WOP to prove that every $n \geq 1$ can be written as a sum of distinct
@@ -174,8 +174,8 @@ Let $S$ be the set of positive integers that _cannot_ be written as a sum of dis
 Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
-$m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$Then $m = 2^k$ is a single power of 2,
-Contradicting $m \in S$. If $m - 2^k \gt 0$Then $m - 2^k \lt m$So $m - 2^k \notin S$ (by minimality
+$m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
+Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
 Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$

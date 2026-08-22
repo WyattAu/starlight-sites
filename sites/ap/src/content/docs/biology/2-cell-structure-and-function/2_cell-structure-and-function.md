@@ -312,7 +312,7 @@ Receptors in the cytoplasm or nucleus.
     the outcome depends on the specific pathway and cell type.
 11. **Confusing GPCRs and RTKs.** GPCRs use G-proteins and second messengers; RTKs dimerize and
     autophosphorylate, often activating the MAP kinase cascade.
-12. **Thinking all second messengers are the same.** cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$And DAG
+12. **Thinking all second messengers are the same.** cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$ And DAG
     have different roles and activate different downstream pathways.
 13. **Confusing exocytosis and endocytosis direction.** Exocytosis releases materials out of the
     cell; endocytosis brings materials in.

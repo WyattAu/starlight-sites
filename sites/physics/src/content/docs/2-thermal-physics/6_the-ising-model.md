@@ -111,7 +111,7 @@ and compare with the exact result $k_BT_c / J = 2/\ln(1 + \sqrt{2}) \approx 2.26
 <details>
 <summary>Solution</summary>
 
-Mean field: $T_c^{\mathrm{MF} = Jz/k_B = 4J/k_B}$So $k_BT_c^{\mathrm{MF}/J = 4}$.
+Mean field: $T_c^{\mathrm{MF} = Jz/k_B = 4J/k_B}$ So $k_BT_c^{\mathrm{MF}/J = 4}$.
 
 Exact (Onsager, 1944): $k_BT_c^{\mathrm{exact}/J = 2/\ln(1 + \sqrt{2}) \approx 2.269}$.
 

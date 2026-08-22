@@ -181,7 +181,7 @@ $$
 \tan\theta = \frac{v^2}`\{rg}` = \frac{9}{r \times 9.81}
 $$
 
-Also $r = L\sin\theta = \sin\theta$So:
+Also $r = L\sin\theta = \sin\theta$ So:
 
 $$
 \tan\theta = \frac{9}{9.81\sin\theta}
@@ -473,7 +473,7 @@ $$
 
 ### Applications
 
-- **Ice skater spinning**: Pulling arms in reduces $I$So $\omega$ increases.
+- **Ice skater spinning**: Pulling arms in reduces $I$ So $\omega$ increases.
 - **Diving**: Tucking reduces $I$Increasing angular velocity for flips.
 - **Figure skater**: Extending arms increases $I$Decreasing $\omega$ for a controlled landing.
 :::

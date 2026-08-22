@@ -24,7 +24,7 @@ potential $V_{\text{ext}(\mathbf{r})}$ (up to an additive constant), and hence t
 Hamiltonian and all ground-state properties.
 
 **Theorem 2:** The ground-state energy is a functional of the density:
-$E[n] = F_{\text{HK}[n] + \int V_{\text{ext}(\mathbf{r})n(\mathbf{r})\,d^3r}}$And the variational
+$E[n] = F_{\text{HK}[n] + \int V_{\text{ext}(\mathbf{r})n(\mathbf{r})\,d^3r}}$ And the variational
 principle applies: $E_0 \leq E[n]$ for any trial density $n(\mathbf{r})$.
 
 ### 14.2 Kohn--Sham Equations

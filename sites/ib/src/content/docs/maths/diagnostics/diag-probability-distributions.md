@@ -122,7 +122,7 @@ $$P(X \gt 185) = 1 - 0.8944 = 0.1056$$
 
 **(b)** The second student is correct. The student who got $0.8944$ looked up $P(Z \lt 1.25)$Which
 gives the probability of being **shorter** than $185\,\mathrm{cm}$Not taller. The question asks for
-$P(X \gt 185)$So the answer is $1 - 0.8944 = 0.1056$.
+$P(X \gt 185)$ So the answer is $1 - 0.8944 = 0.1056$.
 
 ---
 
@@ -161,8 +161,8 @@ binomial.]
 3. $np$ is moderate ( $np \leq 15$).
 
 For the call centre, if we model each second as a Bernoulli trial with
-$p = \frac{2}{60} = \frac{1}{30}$ and $n = 60$Then $np = 2$. The conditions are satisfied since
-$n = 60 \geq 50$, $p = \frac{1}{30} \lt 0.1$And $np = 2 \leq 15$.
+$p = \frac{2}{60} = \frac{1}{30}$ and $n = 60$ Then $np = 2$. The conditions are satisfied since
+$n = 60 \geq 50$, $p = \frac{1}{30} \lt 0.1$ And $np = 2 \leq 15$.
 
 However, the student"s claim that this is "directly $\mathrm{Poi}(2)$" is incomplete — the Poisson
 is an approximation that must be justified.

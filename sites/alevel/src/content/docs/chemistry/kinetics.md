@@ -518,7 +518,7 @@ The catalyst increases the rate by a factor of approximately 24,000 at room temp
    position is unchanged.
 
 5. **Plotting errors in Arrhenius plots.** The x-axis must be $1/T$ (in $\mathrm{K}^{-1}$), not $T$
-   in $^\circ\mathrm{C}$. The gradient is $-E_a/R$So $E_a = -\mathrm{gradient} \times R$.
+   in $^\circ\mathrm{C}$. The gradient is $-E_a/R$ So $E_a = -\mathrm{gradient} \times R$.
 
 6. **Misapplying the steady-state approximation.** The steady-state approximation applies to
    reactive intermediates, not to reactants or products. Intermediates are species that appear in
@@ -690,7 +690,7 @@ following data were obtained:
 The conductivity at $t = \infty$ (complete reaction) is $64.0$. The conductivity is proportional to
 the concentration of product.
 
-$[\mathrm{P}] \propto (\kappa_t - \kappa_0) = (\kappa_t - 12.0)$And
+$[\mathrm{P}] \propto (\kappa_t - \kappa_0) = (\kappa_t - 12.0)$ And
 $[\mathrm{R-X}] \propto (\kappa_\infty - \kappa_t) = (64.0 - \kappa_t)$.
 
 | Time (s) | $[\mathrm{R-X}]$ (arb. Units) | $\ln[\mathrm{R-X}]$ | $1/[\mathrm{R-X}]$ |
@@ -703,7 +703,7 @@ $[\mathrm{R-X}] \propto (\kappa_\infty - \kappa_t) = (64.0 - \kappa_t)$.
 
 Plotting $\ln[\mathrm{R-X}]$ vs $t$: the points (0, 3.951), (60, 3.643), (120, 3.318), (180, 2.986),
 (240, 2.653) give an approximately straight line. The gradient is approximately
-$-0.0054\,\mathrm{s}^{-1}$So $k \approx 0.0054\,\mathrm{s}^{-1}$ and the reaction is first-order
+$-0.0054\,\mathrm{s}^{-1}$ So $k \approx 0.0054\,\mathrm{s}^{-1}$ and the reaction is first-order
 with respect to $\mathrm{R-X}$.
 
 ## Practice Problems
@@ -1040,7 +1040,7 @@ $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{5.78 \times 10^{-3}} = 120\,\mathrm{s}
 (c) $0.025\,\mathrm{mol\,dm^{-3} = 0.200 \times \left(\frac{1}{2}\right)^n$ where $n$ is the number
 of half-lives.
 
-$\frac{0.025}{0.200} = 0.125 = \left(\frac{1}{2}\right)^3$So $n = 3$ half-lives.
+$\frac{0.025}{0.200} = 0.125 = \left(\frac{1}{2}\right)^3$ So $n = 3$ half-lives.
 
 $t = 3 \times 120 = 360\,\mathrm{s}$ (2 marks.)
 

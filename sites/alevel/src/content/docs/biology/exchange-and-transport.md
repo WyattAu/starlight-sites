@@ -560,7 +560,7 @@ The pressure curve is divided into phases:
 
 5. **Isovolumetric relaxation**: $P_{\mathrm{ventricle}}$ falls below $P_{\mathrm{aorta}}$SL valves
    close (the "dicrotic notch" on the aortic curve, caused by backflow against closed aortic valve).
-   $P_{\mathrm{ventricle}}$ continues to fall but is still above $P_{\mathrm{atrium}}$So AV valves
+   $P_{\mathrm{ventricle}}$ continues to fall but is still above $P_{\mathrm{atrium}}$ So AV valves
    remain closed. Volume is again constant.
 
 6. **Return to filling**: $P_{\mathrm{ventricle}}$ falls below $P_{\mathrm{atrium}}$AV valves open,
@@ -651,7 +651,7 @@ Along the gill plate, the $p\mathrm{O_2}$ in water exceeds that in blood, so the
 Diffusion gradient driving $\mathrm{O_2}$ from water into blood. If water enters with
 $p\mathrm{O_2}
 = 15\ \mathrm{kPa}$ and blood enters with $P\mathrm{O_2} = 5\ \mathrm{kPa}$, by the
-Time water exits its $p\mathrm{O_2}$ may be $7\ \mathrm{kPa}$But blood at that point has risen to
+Time water exits its $p\mathrm{O_2}$ may be $7\ \mathrm{kPa}$ But blood at that point has risen to
 Nearly $15\ \mathrm{kPa}$. In parallel flow, water and blood flow in the same direction; equilibrium
 Is reached partway along the gill, and no further $\mathrm{O_2}$ transfer occurs. The countercurrent
 System achieves approximately 80% oxygen extraction versus approximately 50% for parallel flow.
@@ -817,7 +817,7 @@ Cytoplasmic streaming and active transport along sieve tubes.
 <details>
 <summary>Problem 9</summary>
 A spirometer trace from a student shows the following measurements: tidal volume $= 450\ \mathrm{cm^3}$
-Vital capacity $= 4200\ \mathrm{cm^3}$Breathing rate $= 16\ \mathrm{breaths\ min^{-1}}$And
+Vital capacity $= 4200\ \mathrm{cm^3}$Breathing rate $= 16\ \mathrm{breaths\ min^{-1}}$ And
 Respiratory minute ventilation $= 7.2\ \mathrm{dm^3\ min^{-1}}$. After 5 minutes of exercise, the
 Breathing rate increases to $28\ \mathrm{breaths\ min^{-1}}$ and tidal volume to $750\ \mathrm{cm^3}$.
 (a) Verify the resting respiratory minute ventilation. (b) Calculate the respiratory minute ventilation
@@ -1039,7 +1039,7 @@ Adaptations for water transport:
 - **Lignified walls**: deposited in spirals, rings, or continuous layers, providing strength and
   preventing collapse under the tension (negative pressure) of transpiration.
 - **Wide lumen**: reduces resistance to water flow (Poiseuille's law: flow rate is proportional to
-  $r^4$So doubling the radius increases flow rate 16-fold).
+  $r^4$ So doubling the radius increases flow rate 16-fold).
 - **No end walls**: continuous tubes with no obstructions to flow.
 - **Pits**: thin areas in the lateral walls where lignin is absent, allowing lateral water movement
   between vessels.

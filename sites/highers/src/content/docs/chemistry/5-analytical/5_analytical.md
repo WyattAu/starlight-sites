@@ -123,8 +123,8 @@ In a 3:1 ratio. Identify the molecular ion.
 
 The 3:1 ratio is characteristic of one chlorine atom. If the compound contains one chlorine, then:
 
-- Peak at 78: contains $\mathrm{Cl^{35}$So the rest of the molecule has mass $78 - 35 = 43$.
-- Peak at 80: contains $\mathrm{Cl^{37}$So the rest has mass $80 - 37 = 43$.
+- Peak at 78: contains $\mathrm{Cl^{35}$ So the rest of the molecule has mass $78 - 35 = 43$.
+- Peak at 80: contains $\mathrm{Cl^{37}$ So the rest has mass $80 - 37 = 43$.
 
 The molecular formula is $\mathrm{C_2\mathrm{H_3\mathrm{Cl$ (mass: $24 + 3 + 35 = 62$... That does
 not Match). Let me recalculate.
@@ -354,7 +354,7 @@ Far. Therefore, substance A is more polar than substance B.
 
 **Worked Example 10:** Combined IR, mass spec, and NMR data for an unknown compound
 $\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at
-$m/z = 74$And $^1\mathrm{H$ NMR singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H).
+$m/z = 74$ And $^1\mathrm{H$ NMR singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H).
 
 **Step 1:** Molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O_2$, $M_r = 74$.
 
@@ -458,7 +458,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    8.0 cm. Calculate the $R_f$ values and identify which substance is more polar.
 
 8. Combined IR, mass spec, and NMR data for an unknown compound $\mathrm{C_3\mathrm{H_6\mathrm{O_2$
-   shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at $m/z = 74$And $^1\mathrm{H$ NMR
+   shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
    singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H). Identify the compound.
 
 9. Calculate the degree of unsaturation for each of the following molecular formulae: (a)
@@ -541,7 +541,7 @@ Carbons. The pattern is consistent with butanoic acid
 ### Combustion Analysis
 
 When an organic compound containing C, H, and possibly other elements is burned completely, the
-Products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$And other oxides.
+Products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
 
 **Worked Example 14:** A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Find its empirical
 Formula.

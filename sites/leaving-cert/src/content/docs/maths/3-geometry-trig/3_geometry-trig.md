@@ -90,7 +90,7 @@ $\tan 90^\circ$ Is undefined, so $1 - m_1 m_2 = 0$Giving $m_1 m_2 = -1$.
 
 **Example (OL):** Find the equation of the line through $(1, 3)$ perpendicular to $y = 2x + 1$.
 
-The slope of the given line is $m_1 = 2$So $m_2 = -\frac{1}{2}$.
+The slope of the given line is $m_1 = 2$ So $m_2 = -\frac{1}{2}$.
 
 $$
 Y - 3 = -\frac{1}{2}(x - 1) \implies y = -\frac{1}{2}x + \frac{7}{2}
@@ -124,7 +124,7 @@ $$
 **Proof sketch.** Let $P(x_0, y_0)$ be the point and $ax + by + c = 0$ the line. The closest point
 $Q$ on the line to $P$ lies along the perpendicular. The line through $P$ perpendicular to
 $ax + by + c = 0$ has equation $b(x - x_0) - a(y - y_0) = 0$. Solving the two equations
-Simultaneously gives $Q$And the distance $PQ$ simplifies to the formula above.
+Simultaneously gives $Q$ And the distance $PQ$ simplifies to the formula above.
 
 ### Area of a Triangle (HL)
 
@@ -223,7 +223,7 @@ Substitute the line into the circle equation. The discriminant of the resulting 
 
 ### Circle Through Three Points (HL)
 
-**Example (HL):** Find the equation of the circle through $(0, 0)$$(4, 0)$And $(0, 4)$.
+**Example (HL):** Find the equation of the circle through $(0, 0)$$(4, 0)$ And $(0, 4)$.
 
 Let the circle be $x^2 + y^2 + 2gx + 2fy + c = 0$.
 
@@ -285,7 +285,7 @@ $$
 \cos^2\theta = 1 - \sin^2\theta = 1 - \frac{9}{25} = \frac{16}{25}
 $$
 
-Since $\theta$ is in the second quadrant, $\cos\theta < 0$So $\cos\theta = -\frac{4}{5}$.
+Since $\theta$ is in the second quadrant, $\cos\theta < 0$ So $\cos\theta = -\frac{4}{5}$.
 
 $$
 \tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{3/5}{-4/5} = -\frac{3}{4}
@@ -437,7 +437,7 @@ $$
 
 $\sin\theta = 0$: $\theta = 0, \pi$.
 
-$2\cos\theta - 1 = 0$: $\cos\theta = \frac{1}{2}$So $\theta = \frac{\pi}{3}, \frac{5\pi}{3}$.
+$2\cos\theta - 1 = 0$: $\cos\theta = \frac{1}{2}$ So $\theta = \frac{\pi}{3}, \frac{5\pi}{3}$.
 
 Solutions: $0, \frac{\pi}{3}, \pi, \frac{5\pi}{3}$.
 
@@ -488,7 +488,7 @@ $\sin B = \frac{b \sin A}{a} = \frac{10 \sin 40°}{8} = \frac{10 \times 0.6428}{
 
 $B = \arcsin(0.8035) \approx 53.5^\circ$ or $B \approx 180° - 53.5° = 126.5^\circ$.
 
-Check: $A + B = 40° + 126.5° = 166.5° < 180^\circ$So both solutions are valid.
+Check: $A + B = 40° + 126.5° = 166.5° < 180^\circ$ So both solutions are valid.
 
 ### The Cosine Rule (OL/HL)
 
@@ -508,10 +508,10 @@ $$
 A = \frac{1}{2}ab\sin C
 $$
 
-**Proof.** Drop altitude $h$ from $B$ to side $b$. Then $h = a\sin C$So
+**Proof.** Drop altitude $h$ from $B$ to side $b$. Then $h = a\sin C$ So
 $A = \frac{1}{2} \times b \times h = \frac{1}{2}ab\sin C$.
 
-**Example (HL):** In $\triangle ABC$$a = 8$$b = 6$And $C = 50^\circ$. Find the area.
+**Example (HL):** In $\triangle ABC$$a = 8$$b = 6$ And $C = 50^\circ$. Find the area.
 
 $$
 A = \frac{1}{2}(8)(6)\sin 50° = 24 \times 0.766 = 18.39 \mathrm{ square units
@@ -532,7 +532,7 @@ $$
 3\sin\theta - 4\cos\theta = 5\sin(\theta + \alpha)
 $$
 
-Where $\tan\alpha = \frac{-4}{3}$So $\alpha = \arctan(-4/3) \approx -53.1^\circ$.
+Where $\tan\alpha = \frac{-4}{3}$ So $\alpha = \arctan(-4/3) \approx -53.1^\circ$.
 
 **Application -- finding maximum value:** The maximum of $R\sin(\theta + \alpha)$ is $R$ and the
 Minimum is $-R$. So the maximum of $3\sin\theta - 4\cos\theta$ is $5$ and the minimum is $-5$.
@@ -600,7 +600,7 @@ $\cos\theta = \frac{-3}{\sqrt{14}\sqrt{6}} = \frac{-3}{2\sqrt{21}}$.
 ### Scalar Triple Product (HL)
 
 The scalar triple product $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ gives the volume of the
-Parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$And $\mathbf{c}$.
+Parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$ And $\mathbf{c}$.
 
 $$
 \mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}
@@ -667,8 +667,8 @@ The angle at the centre of a circle is twice the angle at the circumference subt
 Arc.
 
 **Proof.** Let $O$ be the centre and $A, B$ points on the circumference. Join $OA$ and $OB$. If $C$
-Is on the circumference on the same side of $AB$ as $O$Then $\triangle OAC$ is isosceles with
-$OA = OC$So $\angle OAC = \angle OCA$. Similarly $\angle OBC = \angle OCB$. The exterior angle of
+Is on the circumference on the same side of $AB$ as $O$ Then $\triangle OAC$ is isosceles with
+$OA = OC$ So $\angle OAC = \angle OCA$. Similarly $\angle OBC = \angle OCB$. The exterior angle of
 $\triangle OAC$ at $O$ equals $\angle AOC = 2\angle OAC$. The full angle
 $AOB = 2\angle
 OAC + 2\angle OCB = 2\angle ACB$.
@@ -727,7 +727,7 @@ See the examples integrated throughout the sections above.
 3. Solve $2\sin\theta = 1$ for $0 \leq \theta \leq 360^\circ$.
 4. In $\triangle ABC$$a = 10$$b = 7$$C = 45^\circ$. Find $c$ using the cosine rule.
 5. Prove that $\sin^2\theta + \cos^2\theta = 1$.
-6. Find the area of $\triangle ABC$ where $a = 8$$b = 5$And $C = 60^\circ$.
+6. Find the area of $\triangle ABC$ where $a = 8$$b = 5$ And $C = 60^\circ$.
 7. Find the midpoint and length of the segment joining $(-2, 3)$ and $(4, -1)$.
 
 ### Higher Level
@@ -749,12 +749,12 @@ See the examples integrated throughout the sections above.
 11. Express $4\sin\theta + 3\cos\theta$ in the form $R\sin(\theta + \alpha)$ and hence find its
     maximum value.
 12. Find the area of the triangle with vertices at the points with position vectors
-    $\mathbf{i} + 2\mathbf{j} + 3\mathbf{k}$$2\mathbf{i} - \mathbf{j} + \mathbf{k}$And
+    $\mathbf{i} + 2\mathbf{j} + 3\mathbf{k}$$2\mathbf{i} - \mathbf{j} + \mathbf{k}$ And
     $3\mathbf{i} + \mathbf{j} - 2\mathbf{k}$.
 13. Solve $2\cos^2 x + \sin x = 2$ for $0 \le x \le 2\pi$.
-14. Find the equation of the circle passing through $(1, 0)$$(0, 1)$And $(2, 3)$.
+14. Find the equation of the circle passing through $(1, 0)$$(0, 1)$ And $(2, 3)$.
 15. Determine whether the vectors $\mathbf{i} + \mathbf{j} + \mathbf{k}$
-    $2\mathbf{i} - \mathbf{j} + \mathbf{k}$And $3\mathbf{i} + 4\mathbf{k}$ are coplanar.
+    $2\mathbf{i} - \mathbf{j} + \mathbf{k}$ And $3\mathbf{i} + 4\mathbf{k}$ are coplanar.
 
 ## Summary
 

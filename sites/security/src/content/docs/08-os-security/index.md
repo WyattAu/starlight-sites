@@ -1,6 +1,6 @@
 ---
 title: Os Security
-description: "Study notes and resources for Os Security"
+description: "This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and"
 date: 2026-01-01T00:00:00Z
 ---
 
