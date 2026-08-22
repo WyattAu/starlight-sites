@@ -206,7 +206,7 @@ Estimated total: quarter+.
 - [x] Add error event listener to shared Head.astro or a new ErrorBoundary
   component.
 - [x] Post errors to a Cloudflare Worker endpoint or D1 table.
-- [ ] Instrument flashcards/diagnostics funnel with usage analytics.
+- [x] Instrument flashcards/diagnostics funnel with usage analytics.
 - **Effort:** 1 week.
 - **Exit criteria:** Client errors visible in a dashboard; flashcard completion
   rate tracked.
