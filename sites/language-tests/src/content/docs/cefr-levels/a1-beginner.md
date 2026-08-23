@@ -1,126 +1,123 @@
 ---
-title: "A1 Beginner | language-tests - Wyatt's Notes"
-description: "The A1 level is the first level of the Common European Framework of Reference for Languages (CEFR). At this level, you can understand and use familiar everyday"
+title: "CEFR Level A1: Beginner"
+description: "Guide to CEFR level A1 beginner language proficiency including what you can do, vocabulary requirements, and preparation tips."
 date: 2026-01-01T00:00:00Z
 tags:
-  - test-prep
+  - language-tests
+  - CEFR
+  - A1
+  - beginner
+categories:
   - language-tests
 ---
 
-# A1 Beginner Level
-
 ## Overview
 
-The A1 level is the first level of the Common European Framework of Reference for Languages (CEFR). At this level, you can understand and use familiar everyday expressions and basic phrases.
+CEFR Level A1 is the lowest level of the Common European Framework of Reference
+for Languages. It represents a "breakthrough" or "beginner" level where you
+can understand and use familiar everyday expressions and very basic phrases.
 
-## What You Can Do
+## What You Can Do at A1
 
 ### Listening
 
-- Understand very short, simple questions
-- Recognize familiar words and basic phrases
-- Understand slow and clear speech
+- Understand very short, simple utterances
+- Recognise familiar words and very basic phrases about yourself, your family,
+  and immediate concrete surroundings when people speak slowly and clearly
 
 ### Reading
 
 - Understand familiar names, words, and very simple sentences
-- Read short, simple texts
-- Understand basic forms (e.g., hotel registration forms)
+- Understand very short, simple texts
+- Find specific, predictable information in simple everyday material such as
+  advertisements, menus, and timetables
 
 ### Speaking
 
-- Introduce yourself and others
-- Ask and answer basic personal questions
-- Interact in a simple way
-- Use basic greetings and farewells
+- Interact in a simple way provided the other person talks slowly and clearly
+  and is prepared to help
+- Ask and answer simple questions in areas of immediate need or on very
+  familiar topics
+- Use simple phrases and sentences to describe where you live and people you
+  know
 
 ### Writing
 
 - Write a short, simple postcard
-- Fill in forms with personal information
+- Fill in forms with personal details
 - Write simple phrases and sentences
 
-## Vocabulary Topics
+## Vocabulary Requirements
 
-### Personal Information
+A1 level typically requires knowledge of approximately 500-1,000 words,
+including:
 
-- Name, age, nationality, address
-- Family members
-- Jobs and professions
+- Basic greetings and introductions
+- Numbers, dates, and time
+- Family members and relationships
+- Common objects and places
+- Simple verbs (present tense)
+- Basic adjectives
 
-### Daily Routine
+## Preparation Tips
 
-- Wake up, eat, go to work/school
-- Times of the day
-- Days of the week, months
+1. **Start with high-frequency vocabulary**: Learn the most common 500 words
+   first. These cover 80% of everyday conversation.
 
-### Shopping
+2. **Focus on survival phrases**: Learn greetings, numbers, directions, and
+   basic questions. These are essential for daily communication.
 
-- Numbers, prices
-- Common items (food, clothes, household)
-- Basic phrases (How much? Where is?)
+3. **Use flashcards**: Spaced repetition systems (SRS) help you memorise
+   vocabulary efficiently.
 
-### Travel
+4. **Listen to simple audio**: Podcasts and videos for beginners help with
+   pronunciation and listening comprehension.
 
-- Directions (left, right, straight)
-- Transportation (bus, train, taxi)
-- Accommodation (hotel, room, key)
+5. **Practice speaking**: Find a language partner or use language exchange
+   apps to practise speaking from day one.
 
-## Grammar Points
+## Common Pitfalls
 
-### Present Tense
+1. **Trying to learn too much at once**: A1 is about mastering the basics.
+   Focus on a small vocabulary set and basic grammar patterns.
 
-- Regular verb conjugation
-- Common irregular verbs (be, have, do, go)
+2. **Ignoring pronunciation**: Bad pronunciation habits are hard to break
+   later. Start with correct pronunciation from the beginning.
 
-### Basic Sentence Structure
+3. **Not practising enough**: Language learning requires regular practice.
+   15-30 minutes daily is more effective than 2 hours once a week.
 
-- Subject + Verb + Object
-- Questions (What? Where? When? How?)
-- Negation (not, no)
+## Summary
 
-### Articles and Gender
+CEFR Level A1 is the beginner level where you can handle very basic
+communication. You need approximately 500-1,000 vocabulary words, basic
+present-tense grammar, and the ability to understand and produce simple
+phrases. Focus on high-frequency vocabulary, survival phrases, and regular
+practice. A1 is the foundation for all higher levels.
 
-- Definite and indefinite articles
-- Gender of nouns (masculine, feminine, neuter)
+## Worked Examples
 
-## Practice Exercises
+### Example 1: A1 Listening Test
 
-### Exercise 1: Self-Introduction
+You hear: "Bonjour, je m'appelle Marie. Je suis française."
 
-Write a short paragraph introducing yourself. Include:
+**Understanding**: "Hello, my name is Marie. I am French."
 
-- Your name
-- Your age
-- Your nationality
-- Your job
+**A1 skill demonstrated**: Understanding very short, simple sentences about
+oneself.
 
-### Exercise 2: Shopping Dialogue
+### Example 2: A1 Writing Task
 
-Practice asking and answering:
+Write a short postcard to a friend.
 
-- How much is this?
-- Do you have this in blue?
-- Where is the fitting room?
+**Example**: "Cher Paul, Je suis à Paris. Le temps est beau. À bientôt, Marie"
 
-### Exercise 3: Directions
+**Translation**: "Dear Paul, I am in Paris. The weather is beautiful.
+See you soon, Marie"
 
-Practice giving simple directions:
+**A1 skill demonstrated**: Writing a short, simple postcard.
 
-- Go straight
-- Turn left/right
-- It's on the left/right
+## Cross-References
 
-## Exam Tips
-
-1. **Practice speaking daily** - Even 10 minutes helps
-2. **Learn common phrases** - Focus on high-frequency vocabulary
-3. **Use flashcards** - For vocabulary retention
-4. **Listen to simple audio** - Children's shows, basic podcasts
-5. **Write daily** - Keep a simple journal
-
-## See Also
-
-- [Cefr Levels](./)
-- [A2 Elementary Level](./a2-elementary)
-- [B1 Intermediate Level](./b1-intermediate)
+- [A2 Elementary](./a2-elementary.md) - Next level
+- [Practice Tests](../practice/practice-a1.md) - Test your knowledge
