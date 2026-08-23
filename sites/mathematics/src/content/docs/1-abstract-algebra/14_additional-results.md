@@ -131,6 +131,17 @@ Taking all products, the six abelian groups of order 72 are:
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 
+
+```mermaid
+flowchart TD
+    A[14_Additional Results] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Galois Theory Fundamentals](./13_galois-theory-fundamentals.md)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.

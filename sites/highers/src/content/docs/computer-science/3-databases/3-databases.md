@@ -14,6 +14,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[3 Databases] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 A database is a structured collection of data organised for efficient retrieval and manipulation. Think of it as a highly organised filing cabinet where each drawer (table) contains related records, and each folder (row) holds specific information. The power of databases lies in their ability to store, retrieve, and update large amounts of data quickly and reliably, while maintaining relationships between different pieces of information.

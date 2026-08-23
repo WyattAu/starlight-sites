@@ -15,6 +15,17 @@ sidebar_position: 1
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Wwii] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Origins of the Pacific War
 
 The Pacific War emerged from decades of Japanese imperial expansion and escalating tensions with Western powers. Japan's modernisation following the Meiji Restoration (1868) produced a militaristic state that sought raw materials and markets across East Asia. The invasion of Manchuria in 1931 and the establishment of the puppet state Manchukuo signalled Japan's intention to build a self-sufficient empire.

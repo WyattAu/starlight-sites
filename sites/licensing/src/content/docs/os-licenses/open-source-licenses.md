@@ -12,6 +12,17 @@ categories:
   - licensing
 ---
 
+
+```mermaid
+flowchart TD
+    A[Open Source Licenses] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Open source licences define how software can be used, modified, and distributed.

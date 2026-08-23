@@ -21,6 +21,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[02 Stash] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## What is Stash
 
 `git stash` temporarily shelves changes in your working directory and index, restoring your
@@ -58,3 +69,43 @@ git stash show -p            # Show diff of most recent stash
    captured.
 3. **Losing stashes**: `git stash clear` is destructive and irreversible.
    Use `git stash list` before clearing to verify what you are discarding.
+
+## Summary
+
+`git stash` temporarily shelves changes in your working directory, restoring
+the repository to a clean state matching HEAD. It uses a stack-based mechanism
+(LIFO order) for multiple stashes. Key commands include `git stash` (create),
+`git stash pop` (apply and remove), `git stash apply` (apply without removing),
+and `git stash list` (show all stashes). Use `-u` to include untracked files
+and `-m` for descriptive messages. Stashes are stored in the repository, not
+on a branch, so they can be applied from any branch but may cause merge
+conflicts if the working tree has diverged.
+
+## Worked Examples
+
+### Example 1: Quick Task Switch
+
+You are working on feature A but need to fix a bug on main.
+
+```bash
+git stash -m "WIP: feature A"
+git checkout main
+# fix the bug, commit, push
+git checkout feature-branch
+git stash pop
+```
+
+### Example 2: Stashing Untracked Files
+
+You have new files that are not yet tracked by Git.
+
+```bash
+git stash -u -m "Include new files"
+# Now working directory is clean, including untracked files
+git stash pop
+```
+
+## Cross-References
+
+- [Git Fundamentals](../02-fundamentals/01-basics.md) - Basic Git commands
+- [Git Branching](../03-branching-and-merging/01-branching.md) - Branch management

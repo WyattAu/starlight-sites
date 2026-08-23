@@ -9,6 +9,17 @@ tags:
 
 # C2 Proficiency Level
 
+
+```mermaid
+flowchart TD
+    A[C2 Proficiency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The C2 level is the highest level of CEFR. At this level, you can understand with ease virtually everything heard or read.

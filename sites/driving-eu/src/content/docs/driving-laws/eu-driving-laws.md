@@ -10,6 +10,17 @@ categories:
   - driving-eu
 ---
 
+
+```mermaid
+flowchart TD
+    A[Eu Driving Laws] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 EU driving laws are harmonised through the Vienna Convention and EU directives,

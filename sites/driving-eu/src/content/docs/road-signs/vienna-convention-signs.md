@@ -11,6 +11,17 @@ categories:
   - driving-eu
 ---
 
+
+```mermaid
+flowchart TD
+    A[Vienna Convention Signs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The Vienna Convention on Road Signs and Signals (1968) establishes a standardised

@@ -11,6 +11,17 @@ categories:
   - professional-certs
 ---
 
+
+```mermaid
+flowchart TD
+    A[Cloud Practitioner Essentials] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The AWS Cloud Practitioner certification is an entry-level certification

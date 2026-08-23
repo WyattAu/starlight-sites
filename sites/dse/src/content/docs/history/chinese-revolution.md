@@ -15,6 +15,17 @@ sidebar_position: 3
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Chinese Revolution] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Fall of the Qing Dynasty
 
 The Qing Dynasty collapsed in 1911 after two and a half centuries of rule, ending over two thousand years of imperial governance in China. The dynasty's decline resulted from a combination of internal decay and external pressures.

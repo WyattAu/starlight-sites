@@ -10,6 +10,17 @@ categories:
   - driving-us
 ---
 
+
+```mermaid
+flowchart TD
+    A[Right Of Way] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Right-of-way rules determine who goes first at intersections, crosswalks, and

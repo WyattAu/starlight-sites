@@ -15,6 +15,17 @@ sidebar_position: 30
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Literary Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**

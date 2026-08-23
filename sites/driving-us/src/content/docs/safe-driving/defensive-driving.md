@@ -10,6 +10,17 @@ categories:
   - driving-us
 ---
 
+
+```mermaid
+flowchart TD
+    A[Defensive Driving] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Defensive driving is the practice of anticipating dangerous situations and

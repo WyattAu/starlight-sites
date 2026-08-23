@@ -10,6 +10,17 @@ categories:
   - driving-us
 ---
 
+
+```mermaid
+flowchart TD
+    A[Highway Driving] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Highway driving involves higher speeds, more complex lane dynamics, and

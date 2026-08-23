@@ -11,6 +11,17 @@ categories:
   - driving-uk
 ---
 
+
+```mermaid
+flowchart TD
+    A[Rules Of The Road] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The Highway Code sets out the rules of the road in the UK. These rules are

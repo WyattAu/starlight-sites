@@ -11,6 +11,17 @@ categories:
   - driving-uk
 ---
 
+
+```mermaid
+flowchart TD
+    A[Road Signs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 UK road signs are classified by shape and colour, making them instantly

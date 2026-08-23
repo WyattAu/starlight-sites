@@ -81,6 +81,17 @@ shell structure, no chemical bonding).
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[15_Density Functional Theory Conceptual Overview] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Worked Examples
 
 ### Example 1: Infinite square well

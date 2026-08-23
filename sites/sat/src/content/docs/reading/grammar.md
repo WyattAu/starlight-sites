@@ -14,6 +14,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Grammar] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Grammar
 
 SAT reading study notes - Grammar

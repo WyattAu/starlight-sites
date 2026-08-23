@@ -14,6 +14,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[01 Electric Charge] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Electric charge
 
 Electric charge is a fundamental property of matter. This topic covers Coulomb's law, the superposition principle, quantization, and conservation of charge.

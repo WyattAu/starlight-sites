@@ -20,6 +20,17 @@ description: "A-Level English revision notes on twentieth-century literature: mo
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Twentieth_Century] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**

@@ -9,6 +9,17 @@ tags:
 
 # A2 Elementary Level
 
+
+```mermaid
+flowchart TD
+    A[A2 Elementary] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The A2 level is the second level of CEFR. At this level, you can understand sentences and frequently used expressions related to areas of immediate relevance.

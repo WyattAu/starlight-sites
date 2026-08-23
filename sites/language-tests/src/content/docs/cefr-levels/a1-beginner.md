@@ -11,6 +11,17 @@ categories:
   - language-tests
 ---
 
+
+```mermaid
+flowchart TD
+    A[A1 Beginner] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 CEFR Level A1 is the lowest level of the Common European Framework of Reference

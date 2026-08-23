@@ -9,6 +9,17 @@ tags:
 
 # Hazard Perception Test
 
+
+```mermaid
+flowchart TD
+    A[Hazard Perception] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The hazard perception test shows 14 video clips of everyday driving scenes. You need to score 44 out of 75 (59%) to pass.

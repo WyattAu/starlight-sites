@@ -20,6 +20,17 @@ description: "A-Level English revision notes on F. Scott Fitzgerald's The Great 
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Great Gatsby] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **English literature explores the human experience through language — words painting pictures of life.**

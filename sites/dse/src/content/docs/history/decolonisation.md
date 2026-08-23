@@ -15,6 +15,17 @@ sidebar_position: 5
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Decolonisation] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Decolonisation After World War II
 
 Decolonisation accelerated rapidly after 1945, fundamentally transforming the international order. The process was driven by multiple factors, including the weakening of European colonial powers during the war, the rise of nationalist movements, and the ideological pressures of the Cold War.

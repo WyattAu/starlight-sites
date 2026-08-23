@@ -14,6 +14,17 @@ description: Methods for analyzing algorithm efficiency including asymptotic not
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Algorithm_Analysis] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 Algorithm analysis determines efficiency without implementation. Asymptotic notation (O, Omega, Theta) describes growth rates. Amortized analysis averages cost over operations. Space-time trade-offs balance memory against speed. The Master theorem solves divide-and-conquer recurrences. These techniques let you compare algorithms objectively and predict performance at scale.

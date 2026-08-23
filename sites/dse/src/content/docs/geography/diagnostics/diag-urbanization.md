@@ -15,6 +15,17 @@ sidebar_position: 10
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Diag Urbanization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Diagnostic Test: Urbanization
 
 Answer each question. Check your answers against the key at the end.

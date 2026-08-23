@@ -11,6 +11,17 @@ categories:
   - civics-tests
 ---
 
+
+```mermaid
+flowchart TD
+    A[Citizenship Process] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The US naturalisation process allows permanent residents to become US citizens.

@@ -9,6 +9,17 @@ tags:
 
 # US Citizenship English Test
 
+
+```mermaid
+flowchart TD
+    A[English Test] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The English test has three parts: speaking, reading, and writing. You must demonstrate basic English ability.

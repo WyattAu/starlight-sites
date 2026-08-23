@@ -9,6 +9,17 @@ tags:
 
 # B1 Intermediate Level
 
+
+```mermaid
+flowchart TD
+    A[B1 Intermediate] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The B1 level is the third level of CEFR. At this level, you can deal with most situations likely to arise while travelling and produce connected text on familiar topics.

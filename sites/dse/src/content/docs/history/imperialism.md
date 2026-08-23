@@ -15,6 +15,17 @@ sidebar_position: 4
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Imperialism] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## European Imperialism in Asia
 
 European imperialism in Asia accelerated dramatically during the nineteenth century, driven by industrialisation, military superiority, and ideological justifications of racial and cultural superiority. The expansion of European power into Asia fundamentally transformed political, economic, and social structures across the continent.

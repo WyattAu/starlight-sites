@@ -135,6 +135,17 @@ Therefore $\mathrm{Gal}(E/\mathbb{Q}) \cong D_4$ (dihedral group of order $8$). 
 
 </details>
 
+
+```mermaid
+flowchart TD
+    A[13_Galois Theory Fundamentals] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Cross-References
 
 - **[Additional Results](./14_additional-results.md)**: Extends the group theory toolkit with Cauchy's theorem and the structure theorem for abelian groups, which underpin the classification of Galois groups.

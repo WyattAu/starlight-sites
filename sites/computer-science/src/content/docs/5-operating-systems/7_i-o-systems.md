@@ -132,6 +132,17 @@ Transfer, interrupting the CPU only when complete.
 - Mixing up **virtual** and **physical** addresses when programming DMA controllers. The DMA
   controller operates on physical addresses.
 
+
+```mermaid
+flowchart TD
+    A[7_I O Systems] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 I/O systems are the nervous system connecting the CPU to the outside world. Polling is like checking the mailbox every minute — simple but wasteful. Interrupts are like a doorbell — the device signals when it needs attention, and the CPU drops what it is doing to respond. DMA is like hiring a delivery service — the device transfers data directly to memory without bothering the CPU for every byte. Buffering is the waiting room — data is collected in a holding area before being processed in bulk, smoothing out the mismatch between fast producers and slow consumers.

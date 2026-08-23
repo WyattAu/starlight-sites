@@ -17,6 +17,17 @@ description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Co
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[8_Virtualization] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## See Also
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

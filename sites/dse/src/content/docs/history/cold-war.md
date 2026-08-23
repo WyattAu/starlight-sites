@@ -15,6 +15,17 @@ sidebar_position: 2
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Cold War] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Origins of the Cold War
 
 The Cold War emerged from the ideological incompatibility between the United States and the Soviet Union and their competing visions for the post-war international order. The alliance between the two powers during World War II was always one of convenience against a common enemy, and fundamental disagreements over the future of Europe became apparent before the war's end.

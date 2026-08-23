@@ -10,6 +10,17 @@ categories:
   - driving-us
 ---
 
+
+```mermaid
+flowchart TD
+    A[Traffic Rules] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Traffic rules are the laws that govern how vehicles operate on public roads.

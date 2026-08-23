@@ -21,6 +21,17 @@ categories:
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[04 Submodules] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## What Are Submodules
 
 Git submodules allow you to embed one Git repository inside another. The parent repository records a

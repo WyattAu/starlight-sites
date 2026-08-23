@@ -9,6 +9,17 @@ tags:
 
 # B2 Upper Intermediate Level
 
+
+```mermaid
+flowchart TD
+    A[B2 Upper Intermediate] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The B2 level is the fourth level of CEFR. At this level, you can interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible.

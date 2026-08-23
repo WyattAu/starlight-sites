@@ -10,6 +10,17 @@ categories:
   - driving-uk
 ---
 
+
+```mermaid
+flowchart TD
+    A[Motorway Driving] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Motorway driving in the UK requires specific knowledge and skills. The

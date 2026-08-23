@@ -11,6 +11,17 @@ categories:
   - driving-us
 ---
 
+
+```mermaid
+flowchart TD
+    A[Regulatory Signs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 Regulatory signs inform road users of traffic laws and regulations. They are

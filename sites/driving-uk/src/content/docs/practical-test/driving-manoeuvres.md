@@ -9,6 +9,17 @@ tags:
 
 # Driving Manoeuvres
 
+
+```mermaid
+flowchart TD
+    A[Driving Manoeuvres] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The practical driving test includes several manoeuvres you must demonstrate. You'll be asked to perform 1-2 of these.

@@ -131,6 +131,17 @@ The antiderivative must be single-valued. For $1/z$ on $\mathbb{C}\setminus\{0\}
 analytic on the punctured plane.
 :::
 
+
+```mermaid
+flowchart TD
+    A[14_Common Pitfalls] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 The pitfalls in complex analysis stem from the deceptive similarity between real and complex differentiation. In the real world, differentiability is a mild condition; in the complex world, it is extraordinarily restrictive. A single complex derivative implies infinitely many real derivatives and forces the function to satisfy Laplace's equation. This rigidity means that seemingly innocent mistakes, like forgetting branch cuts or misidentifying residues, lead to fundamentally wrong answers. The complex logarithm is multi-valued, Laurent expansions depend on the annulus, and the residue at infinity requires a change of variable.

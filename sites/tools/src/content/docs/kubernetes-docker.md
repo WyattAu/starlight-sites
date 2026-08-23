@@ -4,6 +4,17 @@ title: "Kubernetes and Docker | Tools - Wyatt's Notes"
 description: Complete guide to container orchestration with Kubernetes and Docker for modern DevOps.
 ---
 
+
+```mermaid
+flowchart TD
+    A[Kubernetes Docker] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Introduction to Containers
 
 - What are containers?

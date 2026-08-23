@@ -9,6 +9,17 @@ tags:
 
 # EU Traffic Signs
 
+
+```mermaid
+flowchart TD
+    A[Traffic Signs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Vienna Convention on Road Signs and Signals
 
 ### Regulatory Signs (Circular)

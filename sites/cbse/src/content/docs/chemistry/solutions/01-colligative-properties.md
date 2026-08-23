@@ -14,6 +14,17 @@ description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyat
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[01 Colligative Properties] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Colligative properties
 
 Study notes for CBSE Class 12 chemistry - Colligative properties.

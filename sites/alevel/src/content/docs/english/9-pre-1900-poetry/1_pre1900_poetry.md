@@ -20,6 +20,17 @@ description: "A-Level English revision notes on Pre-1900 poetry: Romantic, Victo
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[1_Pre1900_Poetry] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Intuition
 
 **Poetry is like a musical composition — rhythm, imagery, and emotion woven into a few carefully chosen words.**

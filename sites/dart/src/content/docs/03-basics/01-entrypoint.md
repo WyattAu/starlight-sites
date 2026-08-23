@@ -21,6 +21,17 @@ import Citations from '@components/Citations.astro'
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[01 Entrypoint] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Program Entry
 
 When the project creates an executable, the entry point of the project is located in `main()`Where

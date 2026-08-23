@@ -4,6 +4,17 @@ title: "Machine Learning Deep Dive - Wyatt's Notes"
 description: Comprehensive machine learning guide covering algorithms, neural networks, and practical applications.
 ---
 
+
+```mermaid
+flowchart TD
+    A[Machine Learning Deep Dive] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Introduction to Machine Learning
 
 - What is ML?

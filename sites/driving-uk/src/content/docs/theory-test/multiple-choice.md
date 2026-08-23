@@ -9,6 +9,17 @@ tags:
 
 # Theory Test: Multiple Choice
 
+
+```mermaid
+flowchart TD
+    A[Multiple Choice] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Overview
 
 The UK theory test consists of 50 multiple choice questions. You need to score 43 out of 50 (86%) to pass.

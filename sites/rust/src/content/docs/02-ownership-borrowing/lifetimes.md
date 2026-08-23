@@ -15,6 +15,17 @@ description: "Rust' s borrow checker must ensure that every reference is valid f
 }
 </script>
 
+
+```mermaid
+flowchart TD
+    A[Lifetimes] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
 ## Why Lifetimes Exist
 
 Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime
