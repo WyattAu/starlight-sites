@@ -6,7 +6,7 @@ compatibility_date = "2024-01-01"
 # ID must be set via CLOUDFLARE_KV_NAMESPACE_ID secret in CI
 [[kv_namespaces]]
 binding = "SEARCH_KV"
-id = ""
+id = "b1c8e9c031cd404da7e8688c332d4374"
 
 # Environment variables
 [vars]
