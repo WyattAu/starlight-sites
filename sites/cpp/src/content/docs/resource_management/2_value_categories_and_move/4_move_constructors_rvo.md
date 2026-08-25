@@ -9,6 +9,8 @@ categories:
   - Cpp
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -933,6 +935,11 @@ Over `std::function` if copyability is not required. This avoids the internal he
   copy-and-swap idiom.
 - **Using `std::move` in a return statement for a local variable:** `return std::move(local);`
   prevents NRVO from applying and forces a move. Just write `return local;`.
+
+<Citations sources={[
+  {title="Effective Modern C++", author="Meyers", year="2014", type="book"},
+  {title="C++ Concurrency in Action", author="Williams", year="2019", type="book"},
+]} />
 
 ## See Also
 

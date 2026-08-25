@@ -5,6 +5,8 @@ title: "Concurrency | Rust - Wyatt's Notes"
 description: "Rust' s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating"
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -950,6 +952,11 @@ linked above.
 ## Intuition
 
 Rust's concurrency model is like a traffic system with strict rules. Each thread is a lane, and the type system is the traffic controller. Arc and Mutex are the traffic lights: Arc lets multiple threads share ownership of data, and Mutex ensures only one thread accesses it at a time. The compiler prevents data races before your program runs, which is like having a safety inspector who checks every vehicle before it enters the highway. Channels are the postal system: threads send messages instead of sharing memory, reducing contention.
+
+<Citations sources={[
+  {title="The Rust Programming Language", author="Klabnik and Nichols", year="2024", type="book", url="https://doc.rust-lang.org/book/"},
+  {title="Rust for Rustaceans", author="Gjengset", year="2021", type="book"},
+]} />
 
 ## Cross-References
 

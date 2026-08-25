@@ -5,6 +5,8 @@ title: Dicts, Sets, and Collections Deep Dive
 description: "Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in"
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -892,6 +894,11 @@ linked above.
 ## Intuition
 
 Dicts are hash tables: they map keys to values with O(1) average lookup time. Think of a dict as a real dictionary: you look up a word (key) and find its definition (value). Sets are dict keys without values, optimised for membership testing. Counter is a dict subclass that counts hashable objects. The order-preserving nature of modern Python dicts (3.7+) means you can rely on insertion order, which was not guaranteed in earlier versions.
+
+<Citations sources={[
+  {title="Fluent Python", author="Ramalho", year="2022", type="book"},
+  {title="Python Cookbook", author="Beazley and Jones", year="2013", type="book"},
+]} />
 
 ## Cross-References
 

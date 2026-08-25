@@ -5,6 +5,8 @@ title: "Testing in Java - Wyatt's Notes"
 description: "JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble"
 
 ---
+import Citations from '@components/Citations.astro'
+
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -941,6 +943,11 @@ flowchart TD
     R --> U[One assertion per test]
     R --> V[Fast feedback loop]
 ```
+
+<Citations sources={[
+  {title="Effective Java", author="Bloch", year="2018", type="book"},
+  {title="JUnit in Action", author="Cortina, Turcotte and Baruch", year="2020", type="book"},
+]} />
 
 ## Summary
 
