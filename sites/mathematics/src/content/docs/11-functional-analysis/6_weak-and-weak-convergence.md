@@ -5,7 +5,7 @@ title: "Weak and Weak\* Convergence | Mathematics"
 tags:
   - Mathematics
   - University
-description: 'A sequence in a normed space to (written Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A sequence in a normed space to (written Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
