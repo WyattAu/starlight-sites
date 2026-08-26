@@ -66,7 +66,7 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      'Thomas Jefferson's Declaration of Independence drew heavily on Enlightenment philosophy, particularly John Locke's theories of natural rights and the social contract. Locke argued that all people possess inalienable rights to life, liberty, and property, and that governments derive their just powers from the consent of the governed. Jefferson adapted these ideas (changing "property" to "the pursuit of happiness") to justify the American colonies' break from Britain, arguing that King George III had violated the colonists' natural rights.',
+      'Thomas Jefferson\'s Declaration of Independence drew heavily on Enlightenment philosophy, particularly John Locke\'s theories of natural rights and the social contract. Locke argued that all people possess inalienable rights to life, liberty, and property, and that governments derive their just powers from the consent of the governed. Jefferson adapted these ideas (changing "property" to "the pursuit of happiness") to justify the American colonies\' break from Britain, arguing that King George III had violated the colonists\' natural rights.',
   },
   {
     id: 'rv2',
@@ -128,7 +128,7 @@ export const questions = [
     ],
     correctIndex: 2,
     explanation:
-      "Lincoln’s Emancipation Proclamation (issued January 1, 1863) declared free all enslaved people in areas currently in rebellion against the Union. It did NOT free enslaved people in the border states (Maryland, Delaware, Kentucky, Missouri) that remained in the Union, nor in areas of the Confederacy already under Union control. The proclamation was a wartime measure under Lincoln's authority as commander-in-chief, and its practical effect depended on Union military advances. It transformed the Civil War into a war for freedom as well as union.",
+      "Lincoln’s Emancipation Proclamation (issued January 1, 1863) declared free all enslaved people in areas currently in rebellion against the Union. It did NOT free enslaved people in the border states (Maryland, Delaware, Kentucky, Missouri) that remained in the Union, nor in areas of the Confederacy already under Union control. The proclamation was a wartime measure under Lincoln\'s authority as commander-in-chief, and its practical effect depended on Union military advances. It transformed the Civil War into a war for freedom as well as union.",
   },
   {
     id: 'cw2',
@@ -190,7 +190,7 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      "The Populist (People's) Party emerged primarily from the economic distress of Southern and Western farmers who faced declining crop prices, rising railroad shipping rates, high interest rates, and mounting debt. Populists advocated for government regulation of railroads, a graduated income tax, free silver (increasing the money supply to cause inflation and ease debt burdens), and direct election of senators. While the party declined after the 1896 election, many of its reforms were later adopted by the Progressive movement.",
+      "The Populist (People\'s) Party emerged primarily from the economic distress of Southern and Western farmers who faced declining crop prices, rising railroad shipping rates, high interest rates, and mounting debt. Populists advocated for government regulation of railroads, a graduated income tax, free silver (increasing the money supply to cause inflation and ease debt burdens), and direct election of senators. While the party declined after the 1896 election, many of its reforms were later adopted by the Progressive movement.",
   },
   {
     id: 'gw3',
@@ -253,14 +253,14 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      'The Vietnam War was the first "television war," bringing images of combat into American living rooms and eroding public support. It created deep generational, political, and cultural divisions between "hawks" (supporters) and "doves" (opponents). The war undermined trust in government following the Pentagon Papers and revelations about misleading official statements. It fueled the anti-war movement, contributed to the youth counterculture, and led to the abolition of the draft (replaced by the all-volunteer force in 1973). The war's legacy continued to shape American foreign policy for decades.',
+      'The Vietnam War was the first "television war," bringing images of combat into American living rooms and eroding public support. It created deep generational, political, and cultural divisions between "hawks" (supporters) and "doves" (opponents). The war undermined trust in government following the Pentagon Papers and revelations about misleading official statements. It fueled the anti-war movement, contributed to the youth counterculture, and led to the abolition of the draft (replaced by the all-volunteer force in 1973). The war\'s legacy continued to shape American foreign policy for decades.',
   },
   {
     id: 'ma4',
     topic: 'Modern America',
     difficulty: 4,
     question:
-      'The Reagan administration's economic policy of "supply-side economics" (often called "Reaganomics") was based on which theoretical approach?',
+      'The Reagan administration\'s economic policy of "supply-side economics" (often called "Reaganomics") was based on which theoretical approach?',
     options: [
       'Keynesian demand-side economics with increased government spending',
       'Reducing taxes and government regulation to stimulate investment and economic growth',

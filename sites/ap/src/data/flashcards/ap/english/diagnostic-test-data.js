@@ -51,7 +51,7 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      'Satire uses exaggeration, irony, and absurdity to expose and criticise real problems or flawed approaches. By proposing ridiculous solutions, the satirist highlights how inadequate or irrational current practices are, forcing readers to question assumptions they might otherwise accept uncritically. Jonathan Swift's "A Modest Proposal" is the classic example -- his suggestion that the Irish sell their children as food was not literal but a devastating critique of British economic policies.',
+      'Satire uses exaggeration, irony, and absurdity to expose and criticise real problems or flawed approaches. By proposing ridiculous solutions, the satirist highlights how inadequate or irrational current practices are, forcing readers to question assumptions they might otherwise accept uncritically. Jonathan Swift\'s "A Modest Proposal" is the classic example -- his suggestion that the Irish sell their children as food was not literal but a devastating critique of British economic policies.',
   },
   {
     id: 'ra5',
@@ -199,7 +199,7 @@ export const questions = [
     ],
     correctIndex: 0,
     explanation:
-      'Denotation is the objective, literal dictionary definition of a word. Connotation refers to the emotional, cultural, or implied associations that a word carries beyond its literal meaning. For example, the words "thrifty" and "cheap" have similar denotations (spending little money) but very different connotations (positive vs negative). Understanding connotation is essential for close reading because word choice reveals the author's attitude and shapes the reader's response.',
+      'Denotation is the objective, literal dictionary definition of a word. Connotation refers to the emotional, cultural, or implied associations that a word carries beyond its literal meaning. For example, the words "thrifty" and "cheap" have similar denotations (spending little money) but very different connotations (positive vs negative). Understanding connotation is essential for close reading because word choice reveals the author\'s attitude and shapes the reader\'s response.',
   },
   {
     id: 'cr2',
@@ -215,14 +215,14 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      'The author uses personification by attributing the human act of "breathing" to the city, transforming the urban environment into something alive and organic. This makes the city feel like a living entity with its own natural rhythms, creating intimacy between the reader and the setting. "Breathed" suggests the city's sounds are as natural and rhythmic as breathing, normalising what might otherwise feel chaotic.',
+      'The author uses personification by attributing the human act of "breathing" to the city, transforming the urban environment into something alive and organic. This makes the city feel like a living entity with its own natural rhythms, creating intimacy between the reader and the setting. "Breathed" suggests the city\'s sounds are as natural and rhythmic as breathing, normalising what might otherwise feel chaotic.',
   },
   {
     id: 'cr3',
     topic: 'Close Reading',
     difficulty: 3,
     question:
-      'In the sentence "She was not unkind, nor was she particularly generous," what rhetorical device is being used and what does it reveal about the author's stance?',
+      'In the sentence "She was not unkind, nor was she particularly generous," what rhetorical device is being used and what does it reveal about the author\'s stance?',
     options: [
       'Litotes (double negative understatement); it creates a deliberately noncommittal, measured tone that avoids strong judgement',
       'Antithesis; it sharply contrasts two opposing ideas',
@@ -263,6 +263,6 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      '"Precipitate" carries connotations of suddenness, haste, and a forceful or even reckless triggering of events (the same root as precipitation -- something falling rapidly). Unlike the neutral "cause," "precipitated" implies the crisis came suddenly and with a sense of inevitability once set in motion. The word choice subtly evaluates the economic policy as not merely linked to the crisis but as having recklessly accelerated it, revealing the author's critical stance toward the policy without needing an explicit judgement.',
+      '"Precipitate" carries connotations of suddenness, haste, and a forceful or even reckless triggering of events (the same root as precipitation -- something falling rapidly). Unlike the neutral "cause," "precipitated" implies the crisis came suddenly and with a sense of inevitability once set in motion. The word choice subtly evaluates the economic policy as not merely linked to the crisis but as having recklessly accelerated it, revealing the author\'s critical stance toward the policy without needing an explicit judgement.',
   },
 ]

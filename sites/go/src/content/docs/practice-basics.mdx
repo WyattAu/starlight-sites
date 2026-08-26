@@ -223,7 +223,6 @@ All workers finished
 
 <PracticeProblem client:only="solid-js" question={"What does `func sum(nums ...int) int { total := 0; for _, n := range nums { total += n }; return total }` return when called as `sum(1, 2, 3)`?&quot; options={['3','Compilation error','6','panic']} correctAnswer={2} explanation=&quot;The `...int` syntax makes `nums` a variadic parameter of type `[]int`. Inside the function, it is treated as a slice. `sum(1, 2, 3)` passes the values 1, 2, 3, and the function sums them to 6."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question='In the code `func example() { defer fmt.Println("A"); fmt.Println("B") }`, what is printed?' options={['A\\nB','panic','B only','B\\nA']} correctAnswer={3} explanation='Deferred function calls are executed in LIFO order after the surrounding function returns. So `fmt.Println("B")` executes first, then the deferred `fmt.Println("A")` executes before the function returns.' difficulty="easy"  />
 
 ---
 
