@@ -33,7 +33,7 @@ export const practiceQuestions = [
     options: ['A) 6.67 V', 'B)\n15.0 V', 'C) 1.50 V', 'D) 0.0015 V'],
     correct: 1,
     explanation:
-      "Using Ohm's law V = IR = 0.15 × 100 = 15.0 V. Ohm’s law states that V is proportional to I for an ohmic conductor at constant\ntemperature.",
+      "Using Ohm\'s law V = IR = 0.15 × 100 = 15.0 V. Ohm’s law states that V is proportional to I for an ohmic conductor at constant\ntemperature.",
   },
   {
     question:
@@ -53,7 +53,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "An ohmic\nconductor has a constant resistance regardless of the applied voltage — its I-V graph is a straight\nline through the origin. A filament lamp's resistance increases with temperature. A diode only conducts in one direction. A thermistor’s resistance changes with temperature.",
+      "An ohmic\nconductor has a constant resistance regardless of the applied voltage — its I-V graph is a straight\nline through the origin. A filament lamp\'s resistance increases with temperature. A diode only conducts in one direction. A thermistor’s resistance changes with temperature.",
   },
   {
     question:
@@ -96,12 +96,12 @@ export const practiceQuestions = [
     options: [
       'A) Conservation of energy',
       'B) Conservation of charge',
-      "C) Ohm's law",
-      "D) Newton's\nthird law",
+      "C) Ohm\'s law",
+      "D) Newton\'s\nthird law",
     ],
     correct: 1,
     explanation:
-      "Kirchhoff’s first law states that the sum of currents entering a junction equals the sum of currents leaving it. This is a consequence of conservation of charge — charge cannot accumulate at a junction. Kirchhoff's second law (sum of EMFs = sum of PDs\naround a loop) follows from conservation of energy.",
+      "Kirchhoff’s first law states that the sum of currents entering a junction equals the sum of currents leaving it. This is a consequence of conservation of charge — charge cannot accumulate at a junction. Kirchhoff\'s second law (sum of EMFs = sum of PDs\naround a loop) follows from conservation of energy.",
   },
   {
     question:

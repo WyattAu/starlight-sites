@@ -152,7 +152,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "In a Spearman's rank\ncorrelation test, rₛ = -0.72 and n = 10. Test at the 5% significance level whether there is a\nnegative correlation. (Critical value at 5% for n=10 is 0.564)",
+      "In a Spearman\'s rank\ncorrelation test, rₛ = -0.72 and n = 10. Test at the 5% significance level whether there is a\nnegative correlation. (Critical value at 5% for n=10 is 0.564)",
     options: [
       'A) |rₛ| = 0.72 > 0.564,\nreject H₀. Evidence of negative correlation.',
       'B) |rₛ| = 0.72 > 0.564, do not reject H₀.\nInsufficient evidence.',

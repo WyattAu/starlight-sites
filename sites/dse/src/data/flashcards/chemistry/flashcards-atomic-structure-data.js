@@ -23,7 +23,7 @@ export const flashcards1 = [
   {
     id: 'dse-chemistry-atomic-structure-004',
     front: 'State Bohr’s model (1913) and its key assumptions.',
-    back: "Bohr proposed that: (1) electrons orbit the nucleus in fixed circular energy levels (shells) without radiating energy, (2) electrons can jump between shells by absorbing or emitting photons of energy delta E = hf, where h is Planck's constant and f is the photon frequency. This explained the discrete line emission spectra of hydrogen. Limitations: fails for atoms with more than one electron and cannot explain the Zeeman effect.",
+    back: "Bohr proposed that: (1) electrons orbit the nucleus in fixed circular energy levels (shells) without radiating energy, (2) electrons can jump between shells by absorbing or emitting photons of energy delta E = hf, where h is Planck\'s constant and f is the photon frequency. This explained the discrete line emission spectra of hydrogen. Limitations: fails for atoms with more than one electron and cannot explain the Zeeman effect.",
     tags: ['atomic-models'],
     difficulty: 'medium',
   },
@@ -86,7 +86,7 @@ export const flashcards3 = [
   {
     id: 'dse-chemistry-atomic-structure-012',
     front: 'State the Pauli exclusion principle and Hund’s rule.',
-    back: "Pauli exclusion principle: no two electrons in an atom can have the same set of four quantum numbers. In practice, each orbital can hold a maximum of 2 electrons, and they must have opposite spins (spin-up and spin-down). Hund's rule of maximum multiplicity: when filling degenerate orbitals (e.g., the three 2p orbitals), electrons occupy each orbital singly with parallel spins before pairing up in any orbital.",
+    back: "Pauli exclusion principle: no two electrons in an atom can have the same set of four quantum numbers. In practice, each orbital can hold a maximum of 2 electrons, and they must have opposite spins (spin-up and spin-down). Hund\'s rule of maximum multiplicity: when filling degenerate orbitals (e.g., the three 2p orbitals), electrons occupy each orbital singly with parallel spins before pairing up in any orbital.",
     tags: ['quantum-rules'],
     difficulty: 'medium',
   },

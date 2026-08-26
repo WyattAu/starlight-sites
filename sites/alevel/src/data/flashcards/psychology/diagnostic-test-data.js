@@ -63,7 +63,7 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      "Agency Theory (Milgram, 1973) proposes people operate in either an autonomous state (taking responsibility for their own actions) or an agentic state (acting as an agent of an authority, passing responsibility to them). In Milgram’s study, participants entered the agentic state, believing the experimenter was responsible for the learner's welfare. Factors facilitating this include perceived legitimacy of the authority and the institutional setting.",
+      "Agency Theory (Milgram, 1973) proposes people operate in either an autonomous state (taking responsibility for their own actions) or an agentic state (acting as an agent of an authority, passing responsibility to them). In Milgram’s study, participants entered the agentic state, believing the experimenter was responsible for the learner\'s welfare. Factors facilitating this include perceived legitimacy of the authority and the institutional setting.",
   },
   {
     id: 'si3',
@@ -158,7 +158,7 @@ export const questions = [
     ],
     correctIndex: 2,
     explanation:
-      "Insecure-avoidant infants (Type A, about 15% of Ainsworth’s sample) show little distress when the mother leaves, ignore her when she returns, and avoid physical contact. They often treat strangers similarly to the caregiver. Ainsworth linked this to caregivers who are rejecting or insensitive to the infant's needs. By contrast, securely attached infants (Type B) are distressed by separation and easily comforted on return.",
+      "Insecure-avoidant infants (Type A, about 15% of Ainsworth’s sample) show little distress when the mother leaves, ignore her when she returns, and avoid physical contact. They often treat strangers similarly to the caregiver. Ainsworth linked this to caregivers who are rejecting or insensitive to the infant\'s needs. By contrast, securely attached infants (Type B) are distressed by separation and easily comforted on return.",
   },
   {
     id: 'psy1',

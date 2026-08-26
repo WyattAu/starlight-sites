@@ -1,17 +1,17 @@
 export const flashcards1 = [
   {
     front: 'Indulgence',
-    back: "A certificate sold by the Catholic Church promising reduction of time in purgatory for the buyer or a named soul. Pope Leo X used indulgence sales to fund the construction of St. Peter's Basilica, provoking Luther's Ninety-Five Theses (1517).",
+    back: "A certificate sold by the Catholic Church promising reduction of time in purgatory for the buyer or a named soul. Pope Leo X used indulgence sales to fund the construction of St. Peter\'s Basilica, provoking Luther\'s Ninety-Five Theses (1517).",
     difficulty: 'easy',
   },
   {
     front: 'Ninety-Five Theses',
-    back: "Martin Luther's document (31 October 1517) criticising indulgence sales and challenging papal authority. Disputed whether it was nailed to the Castle Church door in Wittenberg. Sparked the Protestant Reformation through rapid dissemination via printing press.",
+    back: "Martin Luther\'s document (31 October 1517) criticising indulgence sales and challenging papal authority. Disputed whether it was nailed to the Castle Church door in Wittenberg. Sparked the Protestant Reformation through rapid dissemination via printing press.",
     difficulty: 'easy',
   },
   {
     front: 'Sola Fide',
-    back: 'Luther's doctrine of "faith alone" — salvation comes through faith in Christ, not through good works or purchase of indulgences. Derived from Romans 1:17. Became a foundational principle of Protestant theology.',
+    back: 'Luther\'s doctrine of "faith alone" — salvation comes through faith in Christ, not through good works or purchase of indulgences. Derived from Romans 1:17. Became a foundational principle of Protestant theology.',
     difficulty: 'medium',
   },
   {
@@ -44,12 +44,12 @@ export const flashcards2 = [
   },
   {
     front: 'Dissolution of the Monasteries (1536-1541)',
-    back: "Henry VIII's seizure of monastic lands and wealth, authorised by the Act of Supremacy (1534). Largest transfer of land since the Norman Conquest. Benefited the Crown, gentry, and merchants. Destroyed centuries of religious learning and charity.",
+    back: "Henry VIII\'s seizure of monastic lands and wealth, authorised by the Act of Supremacy (1534). Largest transfer of land since the Norman Conquest. Benefited the Crown, gentry, and merchants. Destroyed centuries of religious learning and charity.",
     difficulty: 'hard',
   },
   {
     front: 'Act of Supremacy (1534)',
-    back: "Parliamentary act declaring Henry VIII the Supreme Head of the Church of England, severing ties with Rome. Enabled the break with Rome, annulment of Henry's marriage to Catherine of Aragon, and the English Reformation.",
+    back: "Parliamentary act declaring Henry VIII the Supreme Head of the Church of England, severing ties with Rome. Enabled the break with Rome, annulment of Henry\'s marriage to Catherine of Aragon, and the English Reformation.",
     difficulty: 'easy',
   },
 ]
@@ -57,7 +57,7 @@ export const flashcards2 = [
 export const flashcards3 = [
   {
     front: 'Predestination',
-    back: 'Calvin's doctrine that God has predetermined who will be saved (the "elect") before the foundation of the world. Human action cannot influence salvation. Created anxiety about election and shaped Puritan moral rigorism.',
+    back: 'Calvin\'s doctrine that God has predetermined who will be saved (the "elect") before the foundation of the world. Human action cannot influence salvation. Created anxiety about election and shaped Puritan moral rigorism.',
     difficulty: 'hard',
   },
   {
@@ -67,12 +67,12 @@ export const flashcards3 = [
   },
   {
     front: 'Book of Common Prayer (1549)',
-    back: "Thomas Cranmer's vernacular liturgy replacing Latin services. Established a uniform Protestant worship across England. Revised in 1552 toward more radical Protestantism. Central to the Elizabethan Religious Settlement.",
+    back: "Thomas Cranmer\'s vernacular liturgy replacing Latin services. Established a uniform Protestant worship across England. Revised in 1552 toward more radical Protestantism. Central to the Elizabethan Religious Settlement.",
     difficulty: 'medium',
   },
   {
     front: 'Anabaptists',
-    back: "Radical Protestant group rejecting infant baptism, advocating believer's baptism only. Opposed state involvement in religion. Persecuted by both Catholics and Protestants. Associated with the Münster Rebellion (1534-1535).",
+    back: "Radical Protestant group rejecting infant baptism, advocating believer\'s baptism only. Opposed state involvement in religion. Persecuted by both Catholics and Protestants. Associated with the Münster Rebellion (1534-1535).",
     difficulty: 'hard',
   },
   {

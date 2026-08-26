@@ -1,7 +1,7 @@
 export const practiceQuestions = [
   {
     question:
-      "According to Atkinson and Shiffrin's Multi-Store Model\n(1968), how many memory stores does the model propose?",
+      "According to Atkinson and Shiffrin\'s Multi-Store Model\n(1968), how many memory stores does the model propose?",
     options: [
       'A) Two: short-term and\nlong-term',
       'B) Three: sensory, short-term, and long-term',
@@ -23,7 +23,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "Baddeley and Hitch's Working Memory Model (1974) includes the central executive as a supervisory\nsystem that allocates attention to the two slave systems (phonological loop and visuospatial\nsketchpad). It has limited capacity but is not precisely quantifiable, unlike the phonological loop\nwhich holds roughly 2 seconds of speech.",
+      "Baddeley and Hitch\'s Working Memory Model (1974) includes the central executive as a supervisory\nsystem that allocates attention to the two slave systems (phonological loop and visuospatial\nsketchpad). It has limited capacity but is not precisely quantifiable, unlike the phonological loop\nwhich holds roughly 2 seconds of speech.",
   },
   {
     question:
@@ -63,7 +63,7 @@ export const practiceQuestions = [
       'A schema is a cognitive framework -- a structured set of knowledge and expectations about people, objects, situations, and events. Schemas are built through experience and guide how we interpret, encode, and recall information. Bartlett’s research showed schemas actively\nshape memory rather than serving as passive storage.',
   },
   {
-    question: "Clive Wearing's case is significant for understanding memory because he:",
+    question: "Clive Wearing\'s case is significant for understanding memory because he:",
     options: [
       'A) Could not form any new long-term memories',
       'B) Lost both his episodic memory and the ability to transfer information from short-term to long-term memory, while retaining procedural memory',
@@ -88,7 +88,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Loftus and Palmer's (1974) study on the misinformation effect found that the verb used in a leading question affected participants' memory\nof a car accident. Which verb produced the highest estimated speed?",
+      "Loftus and Palmer\'s (1974) study on the misinformation effect found that the verb used in a leading question affected participants' memory\nof a car accident. Which verb produced the highest estimated speed?",
     options: ["A) 'Contacted'", "B) 'Hit'", "C) 'Smashed'", "D) 'Bumped'"],
     correct: 2,
     explanation:
@@ -154,7 +154,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Bartlett’s concept of reconstructive\nmemory, supported by Loftus and Palmer's misinformation research, shows that memory is not a recording but an active reconstruction. Each recall can introduce alterations from post-event information, existing schemas, and leading questions, meaning eyewitness testimony may be unreliable even when witnesses are confident in their accounts.",
+      "Bartlett’s concept of reconstructive\nmemory, supported by Loftus and Palmer\'s misinformation research, shows that memory is not a recording but an active reconstruction. Each recall can introduce alterations from post-event information, existing schemas, and leading questions, meaning eyewitness testimony may be unreliable even when witnesses are confident in their accounts.",
   },
   {
     question:
@@ -167,19 +167,19 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "While all options describe genuine issues with eyewitness testimony, the strongest argument is that\npost-event information can permanently alter memory. Loftus's research shows the misinformation effect creates a permanent memory trace rather than just temporarily influencing recall -- the original memory is overwritten, making it fundamentally impossible to distinguish accurate from inaccurate elements.",
+      "While all options describe genuine issues with eyewitness testimony, the strongest argument is that\npost-event information can permanently alter memory. Loftus\'s research shows the misinformation effect creates a permanent memory trace rather than just temporarily influencing recall -- the original memory is overwritten, making it fundamentally impossible to distinguish accurate from inaccurate elements.",
   },
   {
     question: 'Lazarus’s (1991) appraisal theory of emotion argues that\nemotions arise from:',
     options: [
       'A) Physiological arousal preceding cognitive evaluation',
-      "B) An\nindividual's cognitive appraisal (interpretation) of whether a situation is threatening or beneficial",
+      "B) An\nindividual\'s cognitive appraisal (interpretation) of whether a situation is threatening or beneficial",
       'C) Unconscious drives and instincts',
       'D) Social conditioning alone',
     ],
     correct: 1,
     explanation:
-      "Lazarus proposed that emotions result from cognitive appraisal -- the ongoing evaluation of whether a situation is relevant to one’s well-being and whether it threatens or\npromotes goals. This places cognition before emotion. Primary appraisal assesses significance\n(irrelevant, benign-positive, or stressful), while secondary appraisal evaluates coping options.\nThis contrasts with Zajonc's view that emotion can precede cognition.",
+      "Lazarus proposed that emotions result from cognitive appraisal -- the ongoing evaluation of whether a situation is relevant to one’s well-being and whether it threatens or\npromotes goals. This places cognition before emotion. Primary appraisal assesses significance\n(irrelevant, benign-positive, or stressful), while secondary appraisal evaluates coping options.\nThis contrasts with Zajonc\'s view that emotion can precede cognition.",
   },
   {
     question:
@@ -217,6 +217,6 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Laboratory experiments are the dominant method for studying emotion-cognition interactions because they allow researchers to manipulate one variable (e.g., cognitive appraisal, physiological arousal, emotional stimuli) while controlling confounds. The Schachter-Singer study, Lazarus's appraisal experiments, and LeDoux’s fear conditioning studies all used experimental methods. This approach provides the strongest evidence for causal relationships between cognitive and emotional processes.",
+      "Laboratory experiments are the dominant method for studying emotion-cognition interactions because they allow researchers to manipulate one variable (e.g., cognitive appraisal, physiological arousal, emotional stimuli) while controlling confounds. The Schachter-Singer study, Lazarus\'s appraisal experiments, and LeDoux’s fear conditioning studies all used experimental methods. This approach provides the strongest evidence for causal relationships between cognitive and emotional processes.",
   },
 ]

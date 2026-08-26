@@ -145,7 +145,7 @@ export const practiceQuestions = [
       'Above the optimum temperature (in most cases 35-40C in humans), the increased kinetic\nenergy breaks hydrogen bonds and other weak interactions maintaining the enzyme’s tertiary structure. This permanently changes the shape of the active site -- the enzyme is denatured. Denaturation is irreversible and destroys catalytic activity, unlike the reversible effect of low temperatures which directly reduce kinetic energy.',
   },
   {
-    question: "A positive Benedict's test for reducing sugars produces\nwhich colour change?",
+    question: "A positive Benedict\'s test for reducing sugars produces\nwhich colour change?",
     options: [
       'A) Blue to green/yellow/orange/red precipitate',
       'B) Colourless\nto purple',
@@ -166,7 +166,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Non-reducing sugars (e.g., sucrose) do not reduce Benedict’s reagent directly. They must first be hydrolysed into their component monosaccharides by heating with dilute HCl, which breaks the glycosidic bonds. The solution is then neutralised (e.g., with sodium hydroxide) to restore alkaline conditions before adding Benedict's reagent. The hydrolysis products (glucose and\nfructose from sucrose) are reducing sugars and will give a positive result.",
+      "Non-reducing sugars (e.g., sucrose) do not reduce Benedict’s reagent directly. They must first be hydrolysed into their component monosaccharides by heating with dilute HCl, which breaks the glycosidic bonds. The solution is then neutralised (e.g., with sodium hydroxide) to restore alkaline conditions before adding Benedict\'s reagent. The hydrolysis products (glucose and\nfructose from sucrose) are reducing sugars and will give a positive result.",
   },
   {
     question:

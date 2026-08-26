@@ -1,7 +1,7 @@
 export const practiceQuestions = [
   {
     question:
-      "A driver's reaction time is 0.8 s. When the driver sees a\nhazard while travelling at 25 m/s, what is the thinking distance?",
+      "A driver\'s reaction time is 0.8 s. When the driver sees a\nhazard while travelling at 25 m/s, what is the thinking distance?",
     options: ['A) 25 m', 'B) 12.5\nm', 'C) 20 m', 'D) 31.25 m'],
     correct: 2,
     explanation:

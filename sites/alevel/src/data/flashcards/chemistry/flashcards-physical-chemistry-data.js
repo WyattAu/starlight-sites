@@ -1,6 +1,6 @@
 export const flashcards1 = [
   {
-    front: "State Hess's Law and explain its significance in calculating enthalpy changes.",
+    front: "State Hess\'s Law and explain its significance in calculating enthalpy changes.",
     back: 'Hess’s Law states that the enthalpy change for a reaction is the same regardless of the route taken, provided initial and final conditions are the same. This allows indirect determination of enthalpy changes that cannot be measured directly (e.g. enthalpy of formation of methane from elements) by constructing enthalpy cycles using measurable data (e.g. combustion enthalpies).',
   },
   {
@@ -23,7 +23,7 @@ export const flashcards1 = [
 
 export const flashcards2 = [
   {
-    front: "State Le Chatelier's principle and give an example applied to the Haber process.",
+    front: "State Le Chatelier\'s principle and give an example applied to the Haber process.",
     back: 'Le Chatelier’s principle: if a system at equilibrium is subjected to a change in concentration, pressure, or temperature, the equilibrium shifts to oppose the change. Haber process: N2(g) + 3H2(g) <=> 2NH3(g), exothermic. Increasing pressure: equilibrium shifts right (fewer gas moles, 2 vs 4). Decreasing temperature: equilibrium shifts right (exothermic direction). In practice, compromise conditions used (200 atm, 450 degrees C, Fe catalyst).',
   },
   {
@@ -65,7 +65,7 @@ export const flashcards3 = [
   },
   {
     front: 'State Faraday’s first and second laws of electrolysis.',
-    back: "Faraday's First Law: the amount of substance deposited or liberated at an electrode is proportional to the quantity of charge passed. m = (Q x M) / (n x F) where Q = It, M = molar mass, n = electrons transferred, F = 96500 C mol-1. Faraday’s Second Law: when the same quantity of charge is passed through different electrolytes, the amounts of substances deposited are proportional to their equivalent weights (M/n).",
+    back: "Faraday\'s First Law: the amount of substance deposited or liberated at an electrode is proportional to the quantity of charge passed. m = (Q x M) / (n x F) where Q = It, M = molar mass, n = electrons transferred, F = 96500 C mol-1. Faraday’s Second Law: when the same quantity of charge is passed through different electrolytes, the amounts of substances deposited are proportional to their equivalent weights (M/n).",
   },
 ]
 

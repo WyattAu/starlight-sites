@@ -80,8 +80,8 @@ export const flashcard3 = [
   {
     id: 'ib-chem-redox-electrochemistry-011',
     front: 'State Faraday’s laws of electrolysis and the key equation.',
-    back: "Faraday's first law: the mass of substance deposited or liberated at an electrode is proportional to the quantity of charge passed. Faraday’s second law: the masses of different substances deposited by the same quantity of charge are proportional to their molar masses divided by the number of electrons transferred. Key equation: Q = It = nF, where Q = charge (C), I = current (A), t = time (s), n = moles of electrons, F = Faraday constant = 96500 C mol-1. Mass = (It x M) / (z x F), where z = electrons transferred per ion.",
-    tags: ["Faraday's laws"],
+    back: "Faraday\'s first law: the mass of substance deposited or liberated at an electrode is proportional to the quantity of charge passed. Faraday’s second law: the masses of different substances deposited by the same quantity of charge are proportional to their molar masses divided by the number of electrons transferred. Key equation: Q = It = nF, where Q = charge (C), I = current (A), t = time (s), n = moles of electrons, F = Faraday constant = 96500 C mol-1. Mass = (It x M) / (z x F), where z = electrons transferred per ion.",
+    tags: ["Faraday\'s laws"],
     difficulty: 'medium',
   },
   {

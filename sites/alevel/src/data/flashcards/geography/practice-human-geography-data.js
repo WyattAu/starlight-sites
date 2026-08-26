@@ -9,7 +9,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Urbanisation is the increasing proportion of a population living in urban areas, driven by rural-to-urban migration and the reclassification of rural areas as urban. It is a global trend: in 1800, approximately 3% of the world's population lived in cities; by 2050, it is projected to reach 68%. Urbanisation is associated with industrialisation, economic development, and improved infrastructure.",
+      "Urbanisation is the increasing proportion of a population living in urban areas, driven by rural-to-urban migration and the reclassification of rural areas as urban. It is a global trend: in 1800, approximately 3% of the world\'s population lived in cities; by 2050, it is projected to reach 68%. Urbanisation is associated with industrialisation, economic development, and improved infrastructure.",
   },
   {
     question: 'The Demographic Transition Model describes population change as a result of:',
@@ -21,7 +21,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The Demographic Transition Model (DTM) shows how a country's population changes as it develops economically. In Stage 1, both birth and death rates are high (stable population). In Stage 2, death rates fall due to improved sanitation and healthcare while birth rates remain high (rapid population growth). In Stage 3, birth rates fall due to urbanisation, education, and contraception. In Stage 4-5, both rates are low (stable or declining population).",
+      "The Demographic Transition Model (DTM) shows how a country\'s population changes as it develops economically. In Stage 1, both birth and death rates are high (stable population). In Stage 2, death rates fall due to improved sanitation and healthcare while birth rates remain high (rapid population growth). In Stage 3, birth rates fall due to urbanisation, education, and contraception. In Stage 4-5, both rates are low (stable or declining population).",
   },
   {
     question: 'A push factor for migration is most accurately described as:',
@@ -165,6 +165,6 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Migration has both positive and negative effects on destination countries. Positive effects include: filling labour shortages, contributing to economic growth, enriching cultural diversity, and paying taxes. Negative effects include: increased demand for housing, healthcare, and education; potential social tensions and cultural conflicts; and possible downward pressure on wages for low-skilled native workers. The overall impact depends on the skills of migrants, the receiving country's policies, and the speed of integration.",
+      "Migration has both positive and negative effects on destination countries. Positive effects include: filling labour shortages, contributing to economic growth, enriching cultural diversity, and paying taxes. Negative effects include: increased demand for housing, healthcare, and education; potential social tensions and cultural conflicts; and possible downward pressure on wages for low-skilled native workers. The overall impact depends on the skills of migrants, the receiving country\'s policies, and the speed of integration.",
   },
 ]

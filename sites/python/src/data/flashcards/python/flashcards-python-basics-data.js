@@ -44,7 +44,7 @@ export const flashcardData = [
   {
     id: 'python-functions-007',
     front: 'What is a closure in Python and why does it work?',
-    back: "A closure is a function that retains access to variables from its enclosing scope after the enclosing function has returned. Python implements this via cell objects -- when a nested function references a variable from the enclosing scope, that variable is stored in a cell rather than on the stack. The closure's `__closure__` attribute holds a\ntuple of these\ncells.",
+    back: "A closure is a function that retains access to variables from its enclosing scope after the enclosing function has returned. Python implements this via cell objects -- when a nested function references a variable from the enclosing scope, that variable is stored in a cell rather than on the stack. The closure\'s `__closure__` attribute holds a\ntuple of these\ncells.",
     tags: ['python', 'functions'],
     difficulty: 'medium',
   },
@@ -127,7 +127,7 @@ export const flashcardData = [
   },
   {
     id: 'python-errors-019',
-    front: "What is Python's\nexception hierarchy and how do `except` clauses match?",
+    front: "What is Python\'s\nexception hierarchy and how do `except` clauses match?",
     back: 'All exceptions inherit from\n`BaseException`. `Exception` is the base for all built-in, non-system-exiting exceptions.\n`except Exception` catches all standard errors but not `SystemExit` or `KeyboardInterrupt`. Python\nmatches `except` clauses top-down, so `except ValueError` before `except Exception` will catch only\nValueErrors. Bare `except:` catches everything including `SystemExit` and should almost never be\nused.',
     tags: ['python', 'errors'],
     difficulty: 'medium',

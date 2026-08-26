@@ -123,7 +123,7 @@ export const flashcard4 = [
   {
     id: 'ib-phys-nuclear-quantum-017',
     front: 'What evidence supports wave-particle duality?',
-    back: "Wave nature of light: diffraction (single-slit pattern), interference (Young’s double slit), polarization. Particle nature of light: photoelectric effect (Einstein), Compton scattering. Wave nature of matter: electron diffraction (Davisson-Germer experiment, 1927). Electrons produced interference patterns when directed through a crystal lattice, confirming de Broglie's hypothesis. Wave-particle duality applies to ALL matter and radiation.",
+    back: "Wave nature of light: diffraction (single-slit pattern), interference (Young’s double slit), polarization. Particle nature of light: photoelectric effect (Einstein), Compton scattering. Wave nature of matter: electron diffraction (Davisson-Germer experiment, 1927). Electrons produced interference patterns when directed through a crystal lattice, confirming de Broglie\'s hypothesis. Wave-particle duality applies to ALL matter and radiation.",
     tags: ['quantum', 'duality'],
     difficulty: 'hard',
   },

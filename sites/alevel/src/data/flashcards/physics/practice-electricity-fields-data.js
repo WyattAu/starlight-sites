@@ -39,7 +39,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Apply Kirchhoff's second law to find the current through a 4 Ω resistor in a circuit with two\ncells: 10 V in series with 2 Ω, and 6 V in series with 4 Ω, both connected in parallel opposing each\nother.",
+      "Apply Kirchhoff\'s second law to find the current through a 4 Ω resistor in a circuit with two\ncells: 10 V in series with 2 Ω, and 6 V in series with 4 Ω, both connected in parallel opposing each\nother.",
     options: ['A) 0.67 A', 'B) 1.33 A', 'C) 2.50 A', 'D) 0.33 A'],
     correct: 0,
     explanation:

@@ -84,7 +84,7 @@ export const practiceQuestions = [
     options: ['A) 1.0 × 10⁵ Pa', 'B) 2.25 × 10⁵ Pa', 'C) 2.0 × 10⁵ Pa', 'D) 1.5 × 10⁵ Pa'],
     correct: 1,
     explanation:
-      "Using Gay-Lussac's law (P/T = constant at constant V): P₂/T₂ = P₁/T₁. P₂ =\nP₁ × T₂/T₁ = 1.5 × 10⁵ × 450/300 = 2.25 × 10⁵ Pa.",
+      "Using Gay-Lussac\'s law (P/T = constant at constant V): P₂/T₂ = P₁/T₁. P₂ =\nP₁ × T₂/T₁ = 1.5 × 10⁵ × 450/300 = 2.25 × 10⁵ Pa.",
   },
   {
     question:

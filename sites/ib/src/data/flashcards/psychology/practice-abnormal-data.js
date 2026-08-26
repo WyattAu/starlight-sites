@@ -62,7 +62,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Wolpe's systematic desensitisation is based on\ncounterconditioning -- the principle that fear and relaxation are mutually incompatible states. The\ntreatment involves three steps: constructing an anxiety hierarchy (least to most feared situations),\nlearning relaxation techniques (progressive muscle relaxation or breathing exercises), and gradually\nexposing the patient to each stimulus on the hierarchy while maintaining relaxation. Research by\nMcGlynn et al. supports its effectiveness.",
+      "Wolpe\'s systematic desensitisation is based on\ncounterconditioning -- the principle that fear and relaxation are mutually incompatible states. The\ntreatment involves three steps: constructing an anxiety hierarchy (least to most feared situations),\nlearning relaxation techniques (progressive muscle relaxation or breathing exercises), and gradually\nexposing the patient to each stimulus on the hierarchy while maintaining relaxation. Research by\nMcGlynn et al. supports its effectiveness.",
   },
   {
     question:
@@ -88,7 +88,7 @@ export const practiceQuestions = [
     ],
     correct: 0,
     explanation:
-      "Beck's cognitive triad\nidentifies three types of negative cognition that maintain depression: negative views about the self\n(worthless, unlovable), the world (unfair, demanding, unrewarding), and the future (hopeless,\nnothing will improve). These negative automatic thoughts are activated by cognitive biases such as\novergeneralisation, catastrophising, and selective abstraction, which distort reality and perpetuate\nthe depressive state.",
+      "Beck\'s cognitive triad\nidentifies three types of negative cognition that maintain depression: negative views about the self\n(worthless, unlovable), the world (unfair, demanding, unrewarding), and the future (hopeless,\nnothing will improve). These negative automatic thoughts are activated by cognitive biases such as\novergeneralisation, catastrophising, and selective abstraction, which distort reality and perpetuate\nthe depressive state.",
   },
   {
     question: 'Ellis’s ABC model (1962) explains emotional disturbance as resulting from:',
@@ -100,7 +100,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Ellis's Rational Emotive Behaviour\nTherapy (REBT) uses the ABC model: A (Activating event) triggers B (Belief) which produces C\n(Consequence -- emotional and behavioural response). Ellis argued that it is not the event itself\nbut the irrational beliefs about the event that cause emotional distress. Common irrational beliefs\ninclude musturbation (demanding that things must be a certain way) and awfulising (believing\nconsequences will be catastrophic).",
+      "Ellis\'s Rational Emotive Behaviour\nTherapy (REBT) uses the ABC model: A (Activating event) triggers B (Belief) which produces C\n(Consequence -- emotional and behavioural response). Ellis argued that it is not the event itself\nbut the irrational beliefs about the event that cause emotional distress. Common irrational beliefs\ninclude musturbation (demanding that things must be a certain way) and awfulising (believing\nconsequences will be catastrophic).",
   },
   {
     question:
@@ -150,7 +150,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "CBT for depression combines cognitive techniques (identifying and challenging negative automatic thoughts and core beliefs using Beck's or Ellis’s frameworks) with behavioural strategies (behavioural activation -- scheduling pleasurable and mastery activities to counteract avoidance and withdrawal). The cognitive component addresses distorted thinking patterns, while the behavioural component breaks the cycle of inactivity and low mood. Meta-analyses show CBT is as effective as drug therapy for mild to moderate depression.",
+      "CBT for depression combines cognitive techniques (identifying and challenging negative automatic thoughts and core beliefs using Beck\'s or Ellis’s frameworks) with behavioural strategies (behavioural activation -- scheduling pleasurable and mastery activities to counteract avoidance and withdrawal). The cognitive component addresses distorted thinking patterns, while the behavioural component breaks the cycle of inactivity and low mood. Meta-analyses show CBT is as effective as drug therapy for mild to moderate depression.",
   },
   {
     question: 'TCAs (tricyclic antidepressants) differ from SSRIs in that TCAs:',
@@ -174,7 +174,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The monoamine hypothesis proposes that depression is caused by a deficiency of monoamine neurotransmitters (serotonin, noradrenaline, and dopamine) at synaptic clefts. This is supported by the effectiveness of drugs that increase monoamine availability (SSRIs, TCAs, MAOIs) in treating depression. However, the hypothesis has limitations: antidepressants increase monoamine levels within hours but therapeutic effects take weeks, suggesting more complex mechanisms. Recent research also implicates neurogenesis, inflammation, and HPA axis dysregulation in depression's\naetiology.",
+      "The monoamine hypothesis proposes that depression is caused by a deficiency of monoamine neurotransmitters (serotonin, noradrenaline, and dopamine) at synaptic clefts. This is supported by the effectiveness of drugs that increase monoamine availability (SSRIs, TCAs, MAOIs) in treating depression. However, the hypothesis has limitations: antidepressants increase monoamine levels within hours but therapeutic effects take weeks, suggesting more complex mechanisms. Recent research also implicates neurogenesis, inflammation, and HPA axis dysregulation in depression\'s\naetiology.",
   },
   {
     question:

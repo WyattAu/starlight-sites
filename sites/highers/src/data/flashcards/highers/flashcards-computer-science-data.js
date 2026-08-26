@@ -131,7 +131,7 @@ export const flashcard4 = [
     id: 'highers-computer-science-018',
     front:
       'Explain how data is represented in binary, including negative numbers using two’s complement.',
-    back: "Binary uses base 2 (digits 0 and 1). To convert from decimal: repeatedly divide by 2 and record remainders. To convert to decimal: multiply each digit by its place value (2^n from right to left, starting at 0). Two's complement: to represent negative numbers, invert all bits (1s complement) then add 1. The most significant bit (MSB) is the sign bit: 0 = positive, 1 = negative. Range for 8-bit two’s complement: -128 to +127. Addition and subtraction work the same regardless of sign, making two's complement efficient for hardware.",
+    back: "Binary uses base 2 (digits 0 and 1). To convert from decimal: repeatedly divide by 2 and record remainders. To convert to decimal: multiply each digit by its place value (2^n from right to left, starting at 0). Two\'s complement: to represent negative numbers, invert all bits (1s complement) then add 1. The most significant bit (MSB) is the sign bit: 0 = positive, 1 = negative. Range for 8-bit two’s complement: -128 to +127. Addition and subtraction work the same regardless of sign, making two\'s complement efficient for hardware.",
     tags: ['hardware'],
     difficulty: 'hard',
   },

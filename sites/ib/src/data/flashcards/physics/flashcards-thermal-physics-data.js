@@ -23,7 +23,7 @@ export const flashcard1 = [
   {
     id: 'ib-phys-thermal-004',
     front: 'State the ideal gas equation and define each variable.',
-    back: "PV = nRT. P = pressure (Pa). V = volume (m³). n = number of moles (mol). R = universal gas constant = 8.31 J mol⁻¹ K⁻¹. T = absolute temperature (K). This equation relates the state variables of an ideal gas. It combines Boyle’s, Charles's, and Gay-Lussac’s laws into one unified equation.",
+    back: "PV = nRT. P = pressure (Pa). V = volume (m³). n = number of moles (mol). R = universal gas constant = 8.31 J mol⁻¹ K⁻¹. T = absolute temperature (K). This equation relates the state variables of an ideal gas. It combines Boyle’s, Charles\'s, and Gay-Lussac’s laws into one unified equation.",
     tags: ['thermal', 'ideal gas'],
     difficulty: 'easy',
   },
@@ -61,14 +61,14 @@ export const flashcard2 = [
   {
     id: 'ib-phys-thermal-009',
     front: 'State Boyle’s law and explain it in terms of molecular motion.',
-    back: "Boyle's law: at constant temperature, P ∝ 1/V (or PV = constant). Microscopic explanation: if volume decreases, molecules hit the walls more frequently (same speed, less distance between collisions) → more collisions per second per unit area → higher pressure. Temperature constant means average KE unchanged, so collision force is unchanged.",
+    back: "Boyle\'s law: at constant temperature, P ∝ 1/V (or PV = constant). Microscopic explanation: if volume decreases, molecules hit the walls more frequently (same speed, less distance between collisions) → more collisions per second per unit area → higher pressure. Temperature constant means average KE unchanged, so collision force is unchanged.",
     tags: ['thermal', 'gas laws'],
     difficulty: 'medium',
   },
   {
     id: 'ib-phys-thermal-010',
-    front: "State Charles’s law and Gay-Lussac's law.",
-    back: "Charles’s law: at constant pressure, V ∝ T (V/T = constant). When heated at constant P, gas must expand. Microscopic: molecules move faster at higher T, exerting more force on walls; to keep P constant, V must increase to reduce collision frequency. Gay-Lussac's law: at constant volume, P ∝ T (P/T = constant). Faster molecules collide harder and more often with fixed walls, increasing pressure.",
+    front: "State Charles’s law and Gay-Lussac\'s law.",
+    back: "Charles’s law: at constant pressure, V ∝ T (V/T = constant). When heated at constant P, gas must expand. Microscopic: molecules move faster at higher T, exerting more force on walls; to keep P constant, V must increase to reduce collision frequency. Gay-Lussac\'s law: at constant volume, P ∝ T (P/T = constant). Faster molecules collide harder and more often with fixed walls, increasing pressure.",
     tags: ['thermal', 'gas laws'],
     difficulty: 'medium',
   },

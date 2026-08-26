@@ -93,7 +93,7 @@ export const flashcardData = [
   {
     id: 'ruby-metaprogramming-014',
     front: 'What are key metaprogramming techniques in Ruby?',
-    back: "Key techniques: `define_method` (create methods dynamically), `method_missing` (handle unknown methods), `class_eval`/`instance_eval` (evaluate code in a different context), `send` (call methods dynamically), `const_get`/`const_set` (access constants dynamically). Ruby's open class system makes metaprogramming natural.",
+    back: "Key techniques: `define_method` (create methods dynamically), `method_missing` (handle unknown methods), `class_eval`/`instance_eval` (evaluate code in a different context), `send` (call methods dynamically), `const_get`/`const_set` (access constants dynamically). Ruby\'s open class system makes metaprogramming natural.",
     tags: ['ruby', 'metaprogramming'],
     difficulty: 'medium',
   },

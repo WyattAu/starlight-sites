@@ -185,7 +185,7 @@ export const flashcardData = [
   {
     id: 'dart-futures-error-027',
     front: 'What happens if an async function throws an exception without a try-catch?',
-    back: "The exception is caught by the zone error handler or the zone's unhandled error callback. If no zone handler is set, the error is printed to stderr and the program continues. Future errors that are never listened to (unawaited futures) trigger the Zone.error handler. Always catch errors with try-catch in async code or handle them with catchError on Futures.",
+    back: "The exception is caught by the zone error handler or the zone\'s unhandled error callback. If no zone handler is set, the error is printed to stderr and the program continues. Future errors that are never listened to (unawaited futures) trigger the Zone.error handler. Always catch errors with try-catch in async code or handle them with catchError on Futures.",
     tags: ['dart', 'async', 'errors'],
     difficulty: 'medium',
   },

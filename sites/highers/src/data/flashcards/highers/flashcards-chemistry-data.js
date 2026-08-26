@@ -94,7 +94,7 @@ export const flashcard3 = [
   {
     id: 'highers-chemistry-013',
     front: 'Explain how to calculate enthalpy changes using Hess’s Law.',
-    back: "Hess's Law: the total enthalpy change for a reaction is the same regardless of the route taken, provided the initial and final conditions are the same. Uses: (1) Indirectly determining enthalpy changes that are difficult to measure directly. Method: draw a Hess cycle with the target reaction as the direct route and known enthalpy changes forming the indirect route. Arrows show the direction of the known reactions. Sum the enthalpy changes of the indirect steps. If going in the opposite direction to an arrow, reverse the sign of the enthalpy change.",
+    back: "Hess\'s Law: the total enthalpy change for a reaction is the same regardless of the route taken, provided the initial and final conditions are the same. Uses: (1) Indirectly determining enthalpy changes that are difficult to measure directly. Method: draw a Hess cycle with the target reaction as the direct route and known enthalpy changes forming the indirect route. Arrows show the direction of the known reactions. Sum the enthalpy changes of the indirect steps. If going in the opposite direction to an arrow, reverse the sign of the enthalpy change.",
     tags: ['enthalpy'],
     difficulty: 'medium',
   },
@@ -147,7 +147,7 @@ export const flashcard4 = [
   {
     id: 'highers-chemistry-020',
     front: 'Explain chemical equilibrium and Le Chatelier’s principle.',
-    back: "A reversible reaction reaches dynamic equilibrium when the rates of the forward and backward reactions are equal (concentrations remain constant). Le Chatelier's principle: if a system at equilibrium is subjected to a change, the system shifts to oppose that change. Effects: (1) Increasing concentration of a reactant shifts equilibrium towards products. (2) Increasing pressure favours the side with fewer gas moles. (3) Increasing temperature favours the endothermic direction. (4) A catalyst increases both forward and reverse rates equally, reaching equilibrium faster but not changing the equilibrium position.",
+    back: "A reversible reaction reaches dynamic equilibrium when the rates of the forward and backward reactions are equal (concentrations remain constant). Le Chatelier\'s principle: if a system at equilibrium is subjected to a change, the system shifts to oppose that change. Effects: (1) Increasing concentration of a reactant shifts equilibrium towards products. (2) Increasing pressure favours the side with fewer gas moles. (3) Increasing temperature favours the endothermic direction. (4) A catalyst increases both forward and reverse rates equally, reaching equilibrium faster but not changing the equilibrium position.",
     tags: ['enthalpy'],
     difficulty: 'hard',
   },

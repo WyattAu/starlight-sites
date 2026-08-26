@@ -40,7 +40,7 @@ export const flashcard2 = [
   {
     id: 'ib-phys-waves-006',
     front: 'State Snell’s law and explain refraction.',
-    back: "Snell's law: n₁ sin θ₁ = n₂ sin θ₂. n = refractive index, θ = angle from normal. Refraction is the bending of light at a boundary between media of different refractive indices. Light bends towards the normal when entering a denser medium (higher n) and away when entering a less dense medium. The frequency stays constant; speed and wavelength change.",
+    back: "Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. n = refractive index, θ = angle from normal. Refraction is the bending of light at a boundary between media of different refractive indices. Light bends towards the normal when entering a denser medium (higher n) and away when entering a less dense medium. The frequency stays constant; speed and wavelength change.",
     tags: ['waves', 'refraction'],
     difficulty: 'medium',
   },

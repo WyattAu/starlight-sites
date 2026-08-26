@@ -9,7 +9,7 @@ export const flashcards1 = [
   {
     id: 'alevel-phys-electricity-fields-002',
     front: 'State Ohm’s law. Under what conditions does it apply?',
-    back: "Ohm's law: V = IR. The current through an ohmic conductor is directly proportional to the potential difference across it, provided the temperature remains constant. A graph of V against I gives a straight line through the origin for an ohmic conductor. Non-ohmic components include filament lamps (resistance increases with temperature) and diodes.",
+    back: "Ohm\'s law: V = IR. The current through an ohmic conductor is directly proportional to the potential difference across it, provided the temperature remains constant. A graph of V against I gives a straight line through the origin for an ohmic conductor. Non-ohmic components include filament lamps (resistance increases with temperature) and diodes.",
     tags: ['electricity', 'resistance'],
     difficulty: 'easy',
   },
@@ -149,8 +149,8 @@ export const flashcards4 = [
   },
   {
     id: 'alevel-phys-electricity-fields-020',
-    front: "State Faraday’s law and Lenz's law. How are they related?",
-    back: "Faraday’s law: induced EMF epsilon = -N x d(Phi)/dt where N = number of turns, Phi = magnetic flux (Wb), d(Phi)/dt = rate of change of flux. Lenz's law: the direction of the induced EMF opposes the change causing it (hence the negative sign). Together: the magnitude of the induced EMF is proportional to the rate of flux linkage change, and its direction opposes the change. Magnetic flux Phi = B x A (for perpendicular field).",
+    front: "State Faraday’s law and Lenz\'s law. How are they related?",
+    back: "Faraday’s law: induced EMF epsilon = -N x d(Phi)/dt where N = number of turns, Phi = magnetic flux (Wb), d(Phi)/dt = rate of change of flux. Lenz\'s law: the direction of the induced EMF opposes the change causing it (hence the negative sign). Together: the magnitude of the induced EMF is proportional to the rate of flux linkage change, and its direction opposes the change. Magnetic flux Phi = B x A (for perpendicular field).",
     tags: ['electromagnetic-induction', 'faraday', 'lenz'],
     difficulty: 'hard',
   },

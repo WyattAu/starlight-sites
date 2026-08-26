@@ -24,7 +24,7 @@ export const flashcards1 = [
 export const flashcards2 = [
   {
     front: 'Define the budget deficit and the national debt. How are they related?',
-    back: "Budget deficit: the shortfall between government spending (G) and tax revenue (T) in a single year. G > T. National debt: the accumulated total of all past budget deficits minus surpluses. Each year’s deficit adds to the national debt. A primary budget deficit excludes interest payments on existing debt. The UK's national debt exceeded 100% of GDP after 2020 (COVID-19 spending). High debt raises concerns about sustainability, crowding out, and intergenerational equity.",
+    back: "Budget deficit: the shortfall between government spending (G) and tax revenue (T) in a single year. G > T. National debt: the accumulated total of all past budget deficits minus surpluses. Each year’s deficit adds to the national debt. A primary budget deficit excludes interest payments on existing debt. The UK\'s national debt exceeded 100% of GDP after 2020 (COVID-19 spending). High debt raises concerns about sustainability, crowding out, and intergenerational equity.",
   },
   {
     front: 'Evaluate expansionary fiscal policy as a tool for managing the economy.',

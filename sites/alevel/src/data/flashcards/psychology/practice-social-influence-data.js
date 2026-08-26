@@ -14,7 +14,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "In Asch's (1951) conformity experiment, what was the approximate conformity rate when participants gave their answers privately (writing them down)?",
+      "In Asch\'s (1951) conformity experiment, what was the approximate conformity rate when participants gave their answers privately (writing them down)?",
     options: [
       'A) Around 37%, the same as in the public condition',
       'B) Around 2.5%, much lower than the public condition',
@@ -44,7 +44,7 @@ export const practiceQuestions = [
     options: ['A) 0%', 'B) 35%', 'C) 65%', 'D) 100%'],
     correct: 2,
     explanation:
-      "In Milgram’s original study at Yale University, 65%\n(26 out of 40) of participants administered the full 450-volt shock, despite the learner's protests and eventual silence. All participants reached at least 300 volts. Participants showed signs of extreme stress -- sweating, trembling, stuttering, and nervous laughter. Milgram concluded that ordinary people are astonishingly obedient to authority, even when instructed to act against their conscience. This finding has been replicated across cultures and time periods (e.g., Burger, 2009 found similar rates with ethical modifications).",
+      "In Milgram’s original study at Yale University, 65%\n(26 out of 40) of participants administered the full 450-volt shock, despite the learner\'s protests and eventual silence. All participants reached at least 300 volts. Participants showed signs of extreme stress -- sweating, trembling, stuttering, and nervous laughter. Milgram concluded that ordinary people are astonishingly obedient to authority, even when instructed to act against their conscience. This finding has been replicated across cultures and time periods (e.g., Burger, 2009 found similar rates with ethical modifications).",
   },
   {
     question:
@@ -87,7 +87,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Zimbardo's Stanford Prison Experiment (1971) demonstrated how social roles can influence behaviour. What happened when Zimbardo asked a graduate student ( Christina Maslach) to observe the study?",
+      "Zimbardo\'s Stanford Prison Experiment (1971) demonstrated how social roles can influence behaviour. What happened when Zimbardo asked a graduate student ( Christina Maslach) to observe the study?",
     options: [
       'A) She agreed that the prisoners deserved their treatment and supported the guards',
       'B) She was distressed by the abuse and challenged Zimbardo to end the experiment, which he did shortly after',
@@ -109,7 +109,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Research consistently shows that social support from an ally significantly increases resistance to both conformity and obedience. In Asch’s experiments, having one confederate\ngive the correct answer reduced conformity from 37% to 5.5%. The ally works by: (1) providing social\nvalidation for dissenting views, (2) reducing the fear of social rejection (if someone else\ndisagrees too, the cost of dissenting is shared), and (3) breaking the informational influence of\nunanimity. In Milgram's study, a disobedious ally reduced obedience from 65% to 10%. The ally effect is one of the most robust findings in social influence research.",
+      "Research consistently shows that social support from an ally significantly increases resistance to both conformity and obedience. In Asch’s experiments, having one confederate\ngive the correct answer reduced conformity from 37% to 5.5%. The ally works by: (1) providing social\nvalidation for dissenting views, (2) reducing the fear of social rejection (if someone else\ndisagrees too, the cost of dissenting is shared), and (3) breaking the informational influence of\nunanimity. In Milgram\'s study, a disobedious ally reduced obedience from 65% to 10%. The ally effect is one of the most robust findings in social influence research.",
   },
   {
     question:
@@ -122,7 +122,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Moscovici's blue-green slide experiment (1969) found that a consistent minority (confederates calling blue slides green on every trial) influenced the real participant to give the minority response 8% of the time. Consistency was crucial: when the minority was inconsistent (sometimes saying blue, sometimes green), influence dropped to 1.25%. Moscovici identified consistency (also called the "behavioural style" of the minority) as the key factor. Other factors include: commitment (demonstrating willingness to suffer for the cause), flexibility (willing to compromise on less important points), and identification with the minority.',
+      'Moscovici\'s blue-green slide experiment (1969) found that a consistent minority (confederates calling blue slides green on every trial) influenced the real participant to give the minority response 8% of the time. Consistency was crucial: when the minority was inconsistent (sometimes saying blue, sometimes green), influence dropped to 1.25%. Moscovici identified consistency (also called the "behavioural style" of the minority) as the key factor. Other factors include: commitment (demonstrating willingness to suffer for the cause), flexibility (willing to compromise on less important points), and identification with the minority.',
   },
   {
     question: 'What is the "snowball effect" in the context of social influence?',
@@ -130,11 +130,11 @@ export const practiceQuestions = [
       'A) A rapid accumulation of snow during winter that prevents people from leaving their homes',
       'B) The process by which minority influence gradually spreads through a population as more people internalise the minority view and become part of the minority, eventually converting the majority',
       'C) The tendency for majority influence to increase exponentially with group size',
-      "D) The effect where one person's\nobedience causes everyone else to also obey",
+      "D) The effect where one person\'s\nobedience causes everyone else to also obey",
     ],
     correct: 1,
     explanation:
-      'The snowball effect (also\ncalled the "tipping point") occurs when minority influence gradually converts individuals from the\nmajority, who then join the minority. As more people adopt the minority position, the minority grows\nand eventually becomes the new majority opinion. This explains how social change occurs: a committed\nminority (e.g., civil rights activists, suffragettes) maintains a consistent position, some majority\nmembers internalise the view, and over time the minority view becomes the social norm. This is\nsupported by Moscovici's conversion theory and Nemeth's research on the diffusion of minority\ninfluence.',
+      'The snowball effect (also\ncalled the "tipping point") occurs when minority influence gradually converts individuals from the\nmajority, who then join the minority. As more people adopt the minority position, the minority grows\nand eventually becomes the new majority opinion. This explains how social change occurs: a committed\nminority (e.g., civil rights activists, suffragettes) maintains a consistent position, some majority\nmembers internalise the view, and over time the minority view becomes the social norm. This is\nsupported by Moscovici\'s conversion theory and Nemeth\'s research on the diffusion of minority\ninfluence.',
   },
   {
     question:
@@ -147,7 +147,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Moscovici's\nconversion theory argues that majority influence typically produces public compliance (going along\noutwardly while privately disagreeing) through normative pressure, whereas minority influence\nproduces genuine private attitude change (internalisation) through a process of deeper cognitive\nprocessing. When faced with a consistent minority, individuals scrutinise the minority’s arguments more carefully because the minority position is unexpected and creates cognitive conflict. This deeper processing can lead to genuine conversion. However, this process is slower and less visible than majority influence.",
+      "Moscovici\'s\nconversion theory argues that majority influence typically produces public compliance (going along\noutwardly while privately disagreeing) through normative pressure, whereas minority influence\nproduces genuine private attitude change (internalisation) through a process of deeper cognitive\nprocessing. When faced with a consistent minority, individuals scrutinise the minority’s arguments more carefully because the minority position is unexpected and creates cognitive conflict. This deeper processing can lead to genuine conversion. However, this process is slower and less visible than majority influence.",
   },
   {
     question:
@@ -186,12 +186,12 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Nemeth (1986)\nargued that minority dissent has a valuable social function beyond merely changing opinions. Even\nwhen the minority does not convert the majority, dissent encourages divergent thinking -- it prompts\nthe majority to consider alternative perspectives and search for better solutions. This "debiasing effect" of minority influence was demonstrated in Nemeth's colour perception studies and\nproblem-solving experiments. She proposed that minorities are effective when they are consistent but\nalso show some flexibility (willing to compromise on some points), which signals open-mindedness\nrather than rigidity. This contrasts with the view that minorities must simply be louder or more\nnumerous to succeed.',
+      'Nemeth (1986)\nargued that minority dissent has a valuable social function beyond merely changing opinions. Even\nwhen the minority does not convert the majority, dissent encourages divergent thinking -- it prompts\nthe majority to consider alternative perspectives and search for better solutions. This "debiasing effect" of minority influence was demonstrated in Nemeth\'s colour perception studies and\nproblem-solving experiments. She proposed that minorities are effective when they are consistent but\nalso show some flexibility (willing to compromise on some points), which signals open-mindedness\nrather than rigidity. This contrasts with the view that minorities must simply be louder or more\nnumerous to succeed.',
   },
   {
     question: 'What is deindividuation, and which theory best explains\nit?',
     options: [
-      "A) Deindividuation is the loss of personal identity and self-awareness in a crowd;\nLe Bon’s (1895) contagion theory and Zimbardo's (1969) research explain how anonymity and reduced\naccountability lead to antisocial behaviour",
+      "A) Deindividuation is the loss of personal identity and self-awareness in a crowd;\nLe Bon’s (1895) contagion theory and Zimbardo\'s (1969) research explain how anonymity and reduced\naccountability lead to antisocial behaviour",
       'B) Deindividuation is when individuals become more\nrational and thoughtful in group settings',
       'C) Deindividuation is the process of joining a group\nand adopting its positive norms',
       'D) Deindividuation only occurs in online settings and has no\nreal-world equivalent',
@@ -211,7 +211,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The bystander effect (Darley and Latane, 1968) is the finding that the more bystanders\npresent in an emergency, the less likely any individual is to help. Two key processes explain this:\n(1) Diffusion of responsibility -- each person assumes someone else will help. (2) Pluralistic\nignorance -- people look to others for cues on how to act; if nobody else acts, they assume it is\nnot an emergency. The Kitty Genovese case (1964) was widely reported as 38 witnesses watching her\nmurder without intervening, though later research (Manning, Levine and Collins, 2007) showed this\naccount was exaggerated. Darley and Latane's laboratory experiments confirmed the bystander effect empirically.",
+      "The bystander effect (Darley and Latane, 1968) is the finding that the more bystanders\npresent in an emergency, the less likely any individual is to help. Two key processes explain this:\n(1) Diffusion of responsibility -- each person assumes someone else will help. (2) Pluralistic\nignorance -- people look to others for cues on how to act; if nobody else acts, they assume it is\nnot an emergency. The Kitty Genovese case (1964) was widely reported as 38 witnesses watching her\nmurder without intervening, though later research (Manning, Levine and Collins, 2007) showed this\naccount was exaggerated. Darley and Latane\'s laboratory experiments confirmed the bystander effect empirically.",
   },
   {
     question:

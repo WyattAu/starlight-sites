@@ -51,7 +51,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Lee's push-pull model of migration proposes that the\ndecision to migrate is influenced by:",
+      "Lee\'s push-pull model of migration proposes that the\ndecision to migrate is influenced by:",
     options: [
       'A) Only economic factors in the destination\ncountry',
       'B) Push factors that repel people from origin areas and pull factors that attract them to\ndestination areas, moderated by intervening obstacles',
@@ -72,7 +72,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Ravenstein's laws, based on the 1881 UK Census, remain\ninfluential. Key laws include: most migration is over short distances; migration occurs in stages\n(rural to small town to city); urban areas are the main destination; women are more migratory over\nshort distances while men migrate further; most migrants are adults aged 20-35; and economic factors\nare the primary cause. These patterns are still observable today despite some modifications.",
+      "Ravenstein\'s laws, based on the 1881 UK Census, remain\ninfluential. Key laws include: most migration is over short distances; migration occurs in stages\n(rural to small town to city); urban areas are the main destination; women are more migratory over\nshort distances while men migrate further; most migrants are adults aged 20-35; and economic factors\nare the primary cause. These patterns are still observable today despite some modifications.",
   },
   {
     question:
@@ -109,7 +109,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "China's one-child policy was a strict anti-natalist policy introduced to address rapid\npopulation growth. It restricted most urban couples to one child, with enforcement through fines,\ncoercion, and incentives. The policy successfully reduced the total fertility rate from\napproximately 5.8 (1960s) to around 1.6, but caused significant social problems including an ageing\npopulation, gender imbalance due to sex-selective abortion, and a shrinking workforce.",
+      "China\'s one-child policy was a strict anti-natalist policy introduced to address rapid\npopulation growth. It restricted most urban couples to one child, with enforcement through fines,\ncoercion, and incentives. The policy successfully reduced the total fertility rate from\napproximately 5.8 (1960s) to around 1.6, but caused significant social problems including an ageing\npopulation, gender imbalance due to sex-selective abortion, and a shrinking workforce.",
   },
   {
     question: 'France’s pro-natalist population policies include:',
@@ -146,7 +146,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Thailand achieved one of the most rapid fertility\ndeclines in history without coercion. Mechai Viravaidya’s community-based approach used humorous public campaigns, trained village volunteers, promoted condom use, and made contraceptives widely available. The total fertility rate fell from 6.4 (1960) to 2.1 (1990) -- replacement level. Thailand's success demonstrates that voluntary family planning programmes can achieve rapid\nfertility transition.",
+      "Thailand achieved one of the most rapid fertility\ndeclines in history without coercion. Mechai Viravaidya’s community-based approach used humorous public campaigns, trained village volunteers, promoted condom use, and made contraceptives widely available. The total fertility rate fell from 6.4 (1960) to 2.1 (1990) -- replacement level. Thailand\'s success demonstrates that voluntary family planning programmes can achieve rapid\nfertility transition.",
   },
   {
     question: 'An aging population creates challenges including all of the\nfollowing except:',
@@ -183,7 +183,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Japan has the world's oldest\npopulation with over 28% aged 65+. Its multi-pronged response includes: gradually raising the\nretirement age from 60 to 65, promoting women’s workforce participation ('Womenomics' under Abe), accepting limited skilled immigration, investing heavily in robotics and automation to compensate for labour shortages, and encouraging community-based eldercare (the Long-Term Care Insurance system). Despite these measures, Japan’s population continues to decline.",
+      "Japan has the world\'s oldest\npopulation with over 28% aged 65+. Its multi-pronged response includes: gradually raising the\nretirement age from 60 to 65, promoting women’s workforce participation ('Womenomics' under Abe), accepting limited skilled immigration, investing heavily in robotics and automation to compensate for labour shortages, and encouraging community-based eldercare (the Long-Term Care Insurance system). Despite these measures, Japan’s population continues to decline.",
   },
   {
     question: 'The\ndemographic dividend refers to:',
@@ -195,6 +195,6 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The\ndemographic dividend occurs when a country's age structure shifts from a youthful population to one with a higher proportion of working-age adults (typically 15-64) relative to dependents. This creates a window for rapid economic growth IF accompanied by appropriate policies: investment in education, job creation, and health. East Asian economies like South Korea and Taiwan successfully capitalised on their demographic dividend during their rapid industrialisation.",
+      "The\ndemographic dividend occurs when a country\'s age structure shifts from a youthful population to one with a higher proportion of working-age adults (typically 15-64) relative to dependents. This creates a window for rapid economic growth IF accompanied by appropriate policies: investment in education, job creation, and health. East Asian economies like South Korea and Taiwan successfully capitalised on their demographic dividend during their rapid industrialisation.",
   },
 ]

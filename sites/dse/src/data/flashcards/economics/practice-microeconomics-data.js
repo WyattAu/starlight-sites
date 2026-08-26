@@ -27,7 +27,7 @@ export const practiceQuestions = [
     question: 'In an oligopoly market, firms are likely to be interdependent\nbecause:',
     options: [
       'A) There are many firms in the industry',
-      "B) Each firm's pricing and output\ndecisions significantly affect its rivals",
+      "B) Each firm\'s pricing and output\ndecisions significantly affect its rivals",
       'C) Products are homogeneous and identical',
       'D) Entry\nand exit are completely unrestricted',
     ],

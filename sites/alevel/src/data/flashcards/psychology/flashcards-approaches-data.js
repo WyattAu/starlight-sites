@@ -71,7 +71,7 @@ export const flashcards2 = [
   {
     id: 'hum-1',
     front: 'Describe Maslow’s hierarchy of needs and the five levels.',
-    back: "Maslow (1943) proposed a hierarchy of five motivational needs, arranged as a pyramid. From bottom to top: (1) Physiological needs (food, water, warmth). (2) Safety needs (security, stability). (3) Belongingness and love needs (relationships, friendship). (4) Esteem needs (self-respect, achievement, status). (5) Self-actualisation (fulfilling one's potential). Lower needs must be met before higher ones. Only a small proportion of people reach self-actualisation.",
+    back: "Maslow (1943) proposed a hierarchy of five motivational needs, arranged as a pyramid. From bottom to top: (1) Physiological needs (food, water, warmth). (2) Safety needs (security, stability). (3) Belongingness and love needs (relationships, friendship). (4) Esteem needs (self-respect, achievement, status). (5) Self-actualisation (fulfilling one\'s potential). Lower needs must be met before higher ones. Only a small proportion of people reach self-actualisation.",
     tags: ['humanistic', 'motivation'],
     difficulty: 'easy',
   },

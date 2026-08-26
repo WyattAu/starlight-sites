@@ -1,7 +1,7 @@
 export const practiceQuestions = [
   {
     question:
-      "In Atkinson and Shiffrin's multi-store model, which store has an unlimited capacity?",
+      "In Atkinson and Shiffrin\'s multi-store model, which store has an unlimited capacity?",
     options: [
       'A) Sensory register',
       'B) Short-term memory',
@@ -14,7 +14,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "According to Baddeley's working memory model, what is the function of the phonological loop?",
+      "According to Baddeley\'s working memory model, what is the function of the phonological loop?",
     options: [
       'A) Stores visual and spatial information',
       'B) Processes and stores auditory and verbal information',
@@ -23,11 +23,11 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The phonological loop is one of the four components of Baddeley's working memory model (Baddeley and Hitch, 1974). It is responsible for processing and storing auditory and verbal information. It consists of the phonological store (the inner ear, which holds acoustic information for about 2 seconds) and the articulatory control process (the inner voice, which rehearses information to prevent decay).",
+      "The phonological loop is one of the four components of Baddeley\'s working memory model (Baddeley and Hitch, 1974). It is responsible for processing and storing auditory and verbal information. It consists of the phonological store (the inner ear, which holds acoustic information for about 2 seconds) and the articulatory control process (the inner voice, which rehearses information to prevent decay).",
   },
   {
     question:
-      "Craik and Lockhart's levels of processing theory proposes that memory durability depends on:",
+      "Craik and Lockhart\'s levels of processing theory proposes that memory durability depends on:",
     options: [
       'A) The number of times information is rehearsed',
       'B) The depth at which information is processed',
@@ -36,10 +36,10 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Craik and Lockhart (1972) proposed that memory is a by-product of the depth of processing. Shallow processing (structural/physical features) leads to fragile memory traces that are easily forgotten. Deep processing (semantic meaning) creates strong, durable memory traces that are better retained. This challenged the multi-store model's emphasis on rehearsal as the key to memory durability.",
+      "Craik and Lockhart (1972) proposed that memory is a by-product of the depth of processing. Shallow processing (structural/physical features) leads to fragile memory traces that are easily forgotten. Deep processing (semantic meaning) creates strong, durable memory traces that are better retained. This challenged the multi-store model\'s emphasis on rehearsal as the key to memory durability.",
   },
   {
-    question: 'Bartlett's "War of the Ghosts" study demonstrated that memory is:',
+    question: 'Bartlett\'s "War of the Ghosts" study demonstrated that memory is:',
     options: [
       'A) A passive recording of events',
       'B) An active process of reconstruction',
@@ -51,7 +51,7 @@ export const practiceQuestions = [
       'Bartlett (1932) found that participants' recall of the Native American folk tale "War of the Ghosts" became increasingly distorted over time. Participants omitted unfamiliar details, rationalised unusual elements, and made the story conform to their own cultural schemas. This demonstrated that memory is not an exact recording but an active process of reconstruction influenced by existing knowledge, expectations, and cultural schemas.',
   },
   {
-    question: "Which type of forgetting does Ebbinghaus's savings method primarily measure?",
+    question: "Which type of forgetting does Ebbinghaus\'s savings method primarily measure?",
     options: [
       'A) Retrieval failure',
       'B) Proactive interference',
@@ -75,7 +75,7 @@ export const practiceQuestions = [
       'Proactive interference (pro = forward) occurs when previously learned material interferes with the ability to recall newer material. For example, forgetting a new phone number because the old one keeps coming to mind. Retroactive interference (retro = backward) is the opposite: new learning disrupts the recall of old information. Both are types of interference-based forgetting that challenge the simple decay theory.',
   },
   {
-    question: "Loftus and Palmer's (1974) study on leading questions demonstrated that:",
+    question: "Loftus and Palmer\'s (1974) study on leading questions demonstrated that:",
     options: [
       'A) Memory is immune to suggestion after an event',
       'B) The wording of questions can alter eyewitness recall',
@@ -96,7 +96,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The cognitive interview was developed by Fisher and Geiselman (1984) to improve the accuracy and completeness of eyewitness recall. It uses four key techniques: (1) reinstate the context (return mentally to the scene), (2) report everything (include all details, no matter how trivial), (3) recall in different orders (reverse chronological order, different starting points), (4) recall from different perspectives (imagine the event from another person's viewpoint). Research shows it significantly improves correct recall without increasing errors.",
+      "The cognitive interview was developed by Fisher and Geiselman (1984) to improve the accuracy and completeness of eyewitness recall. It uses four key techniques: (1) reinstate the context (return mentally to the scene), (2) report everything (include all details, no matter how trivial), (3) recall in different orders (reverse chronological order, different starting points), (4) recall from different perspectives (imagine the event from another person\'s viewpoint). Research shows it significantly improves correct recall without increasing errors.",
   },
   {
     question: 'The Peterson and Peterson (1959) study investigated:',
@@ -120,7 +120,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "The central executive is the most important but least understood component of Baddeley's working memory model. It acts as an attentional control system that coordinates the activities of the three subsystems (phonological loop, visuospatial sketchpad, and episodic buffer), allocates processing resources, and switches attention between tasks. It does not store information itself but manages the flow and processing of information.",
+      "The central executive is the most important but least understood component of Baddeley\'s working memory model. It acts as an attentional control system that coordinates the activities of the three subsystems (phonological loop, visuospatial sketchpad, and episodic buffer), allocates processing resources, and switches attention between tasks. It does not store information itself but manages the flow and processing of information.",
   },
   {
     question: 'Which of the following is a biological explanation for depression?',
@@ -144,7 +144,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The diathesis-stress model (Zubin and Spring, 1977) proposes that psychological disorders develop when a pre-existing vulnerability (diathesis) interacts with environmental stress. The diathesis may be genetic (family history), biological (neurochemical imbalance), or psychological (maladaptive cognitive schemas). The disorder only manifests when stress exceeds the individual's threshold. This model explains why not everyone exposed to stress develops a disorder.",
+      "The diathesis-stress model (Zubin and Spring, 1977) proposes that psychological disorders develop when a pre-existing vulnerability (diathesis) interacts with environmental stress. The diathesis may be genetic (family history), biological (neurochemical imbalance), or psychological (maladaptive cognitive schemas). The disorder only manifests when stress exceeds the individual\'s threshold. This model explains why not everyone exposed to stress develops a disorder.",
   },
   {
     question: 'Systematic desensitisation is a behavioural therapy used to treat:',

@@ -23,7 +23,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "An appreciation makes Hong Kong's exports more expensive in\nforeign currency terms (reducing export competitiveness) and imports cheaper in HKD terms. This\nwould worsen the trade balance (reducing net exports) and reduce aggregate demand. However, it also\nhelps reduce imported inflation. Hong Kong’s Linked Exchange Rate System pegs the HKD to the USD, so\nHKD movements are tied to USD movements.",
+      "An appreciation makes Hong Kong\'s exports more expensive in\nforeign currency terms (reducing export competitiveness) and imports cheaper in HKD terms. This\nwould worsen the trade balance (reducing net exports) and reduce aggregate demand. However, it also\nhelps reduce imported inflation. Hong Kong’s Linked Exchange Rate System pegs the HKD to the USD, so\nHKD movements are tied to USD movements.",
   },
   {
     question: 'Which of the following is NOT a function\nof money?',

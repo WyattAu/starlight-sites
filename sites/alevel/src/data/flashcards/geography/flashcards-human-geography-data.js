@@ -85,7 +85,7 @@ export const flashcards3 = [
   {
     id: 'alevel-geog-human-012',
     front: 'What is a sustainable city?',
-    back: "A city that meets current needs without compromising future generations' ability to meet theirs, balancing economic growth, social equity and environmental protection. Examples include Curitiba’s BRT system, Freiburg's solar energy, and Singapore’s water management.",
+    back: "A city that meets current needs without compromising future generations' ability to meet theirs, balancing economic growth, social equity and environmental protection. Examples include Curitiba’s BRT system, Freiburg\'s solar energy, and Singapore’s water management.",
     tags: ['urbanisation'],
     difficulty: 'medium',
   },
@@ -137,7 +137,7 @@ export const flashcards4 = [
   {
     id: 'alevel-geog-human-019',
     front: 'What is the difference between an anti-natalist and a pro-natalist population policy?',
-    back: "Anti-natalist policies aim to reduce birth rates (e.g. China’s One Child Policy, Iran's family planning programme). Pro-natalist policies aim to increase birth rates (e.g. France’s tax benefits and childcare subsidies, Singapore's Baby Bonus). Both aim to manage population size and structure.",
+    back: "Anti-natalist policies aim to reduce birth rates (e.g. China’s One Child Policy, Iran\'s family planning programme). Pro-natalist policies aim to increase birth rates (e.g. France’s tax benefits and childcare subsidies, Singapore\'s Baby Bonus). Both aim to manage population size and structure.",
     tags: ['population'],
     difficulty: 'medium',
   },

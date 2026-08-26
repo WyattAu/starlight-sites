@@ -53,8 +53,8 @@ export const flashcard2 = [
   },
   {
     id: 'cbse-mathematics-class12-008',
-    front: "State the Rolle’s theorem and the Mean Value Theorem (Lagrange's MVT).",
-    back: "Rolle's: If f is continuous on [a,b], differentiable on (a,b), and f(a)=f(b), then there exists c in (a,b) such that f'(c)=0. MVT: If f is continuous on [a,b] and differentiable on (a,b), then there exists c in (a,b) such that f'(c) = (f(b)-f(a))/(b-a).",
+    front: "State the Rolle’s theorem and the Mean Value Theorem (Lagrange\'s MVT).",
+    back: "Rolle\'s: If f is continuous on [a,b], differentiable on (a,b), and f(a)=f(b), then there exists c in (a,b) such that f'(c)=0. MVT: If f is continuous on [a,b] and differentiable on (a,b), then there exists c in (a,b) such that f'(c) = (f(b)-f(a))/(b-a).",
     tags: ['continuity and differentiability'],
     difficulty: 'medium',
   },

@@ -1,7 +1,7 @@
 export const practiceQuestions = [
   {
     question:
-      "In Rutherford's alpha scattering experiment, most alpha\nparticles passed straight through the gold foil. This led to the conclusion that:",
+      "In Rutherford\'s alpha scattering experiment, most alpha\nparticles passed straight through the gold foil. This led to the conclusion that:",
     options: [
       'A)\nAtoms are mostly empty space',
       'B) The nucleus is positively charged',

@@ -13,7 +13,7 @@ export const practiceQuestions = [
       'r = √(1² + (√3)²) = √(1+3) = 2. θ = arctan(√3/1) = π/3. So z = 2e^(iπ/3) = 2(cos(π/3) + i sin(π/3)).',
   },
   {
-    question: "Using De Moivre's theorem, find (1 + i)^8.",
+    question: "Using De Moivre\'s theorem, find (1 + i)^8.",
     options: ['A) 16', 'B) -16', 'C) 16i', 'D) 16√2'],
     correct: 0,
     explanation:

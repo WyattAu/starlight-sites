@@ -16,13 +16,13 @@ export const flashcard1 = [
   {
     id: 'atomic-structure-003',
     front: 'Describe Dalton’s atomic model and its key postulates.',
-    back: "Dalton's model (1803): 1) All matter is made of indivisible atoms. 2) Atoms of a given element are identical in mass and properties. 3) Atoms of different elements have different masses. 4) Compounds are formed by combinations of atoms in simple whole-number ratios. Limitation: did not account for subatomic particles or isotopes.",
+    back: "Dalton\'s model (1803): 1) All matter is made of indivisible atoms. 2) Atoms of a given element are identical in mass and properties. 3) Atoms of different elements have different masses. 4) Compounds are formed by combinations of atoms in simple whole-number ratios. Limitation: did not account for subatomic particles or isotopes.",
     tags: ['atomic models', 'Dalton'],
     difficulty: 'easy',
   },
   {
     id: 'atomic-structure-004',
-    front: 'Describe Thomson's "plum pudding" model and the evidence behind it.',
+    front: 'Describe Thomson\'s "plum pudding" model and the evidence behind it.',
     back: 'Thomson (1897) discovered the electron using cathode ray tubes (deflected by electric and magnetic fields). His model: atoms are positively charged spheres with negatively charged electrons embedded throughout (like plums in a pudding). This was the first model to include subatomic particles.',
     tags: ['atomic models', 'Thomson'],
     difficulty: 'easy',
@@ -54,7 +54,7 @@ export const flashcard2 = [
   {
     id: 'atomic-structure-008',
     front: 'State the Aufbau principle, Pauli exclusion principle, and Hund’s rule.',
-    back: "Aufbau principle: electrons fill orbitals from lowest energy to highest (1s → 2s → 2p → 3s → 3p → 4s → 3d...). Pauli exclusion principle: each orbital holds a maximum of two electrons with opposite spins (↑↓). Hund's rule: electrons occupy degenerate orbitals singly first with parallel spins before pairing up.",
+    back: "Aufbau principle: electrons fill orbitals from lowest energy to highest (1s → 2s → 2p → 3s → 3p → 4s → 3d...). Pauli exclusion principle: each orbital holds a maximum of two electrons with opposite spins (↑↓). Hund\'s rule: electrons occupy degenerate orbitals singly first with parallel spins before pairing up.",
     tags: ['electron configuration'],
     difficulty: 'medium',
   },
@@ -93,7 +93,7 @@ export const flashcard3 = [
   {
     id: 'atomic-structure-013',
     front: 'State the trends in first ionization energy across Period 2 and explain the anomalies.',
-    back: "General trend: increases across the period (increasing nuclear charge, same shielding). Anomalies: Be to B — drop because B’s outer electron is in a 2p orbital (higher energy, further from nucleus, easier to remove). N to O — drop because O's extra electron pairs in a 2p orbital, experiencing electron-electron repulsion (less energy needed to remove a paired electron).",
+    back: "General trend: increases across the period (increasing nuclear charge, same shielding). Anomalies: Be to B — drop because B’s outer electron is in a 2p orbital (higher energy, further from nucleus, easier to remove). N to O — drop because O\'s extra electron pairs in a 2p orbital, experiencing electron-electron repulsion (less energy needed to remove a paired electron).",
     tags: ['ionization energy', 'periodic trends'],
     difficulty: 'medium',
   },

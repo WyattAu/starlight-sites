@@ -48,7 +48,7 @@ export const flashcard2 = [
   {
     id: 'ilc-chemistry-007',
     front: 'State Hess’s law and explain its significance in thermochemistry.',
-    back: "Hess's law: The total enthalpy change of a reaction is the same regardless of the pathway taken; it depends only on the initial and final states. This allows calculation of enthalpy changes for reactions that are difficult to measure directly by using known enthalpy changes of intermediate steps.",
+    back: "Hess\'s law: The total enthalpy change of a reaction is the same regardless of the pathway taken; it depends only on the initial and final states. This allows calculation of enthalpy changes for reactions that are difficult to measure directly by using known enthalpy changes of intermediate steps.",
     tags: ['thermochemistry'],
     difficulty: 'medium',
   },

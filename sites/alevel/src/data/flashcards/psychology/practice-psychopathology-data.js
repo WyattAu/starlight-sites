@@ -13,7 +13,7 @@ export const practiceQuestions = [
       'The statistical infrequency definition classifies abnormality purely on the basis of how rarely a behaviour occurs. Any behaviour that is statistically rare (e.g. an IQ above 130 or below 70) is deemed abnormal regardless of whether it is desirable or undesirable. Deviating from cultural norms relates to the societal/cultural definition of abnormality, not the statistical definition. This approach has the problem of classifying rare positive traits (e.g. exceptional intelligence) as abnormal.',
   },
   {
-    question: "According to Beck's cognitive model, depression is maintained by:",
+    question: "According to Beck\'s cognitive model, depression is maintained by:",
     options: [
       'A) Excessive dopamine activity',
       'B) Negative automatic thoughts and maladaptive schemas',
@@ -22,7 +22,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Beck (1967) proposed that depression is maintained by a negative cognitive triad: negative views about the self, the world, the future. These are driven by deep-rooted negative schemas (formed in childhood) which produce negative automatic thoughts. The cognitive distortions (e.g. all-or-nothing thinking, overgeneralisation) maintain the depressive mood. Option D refers to Seligman's learned helplessness theory, which is a separate cognitive explanation.",
+      "Beck (1967) proposed that depression is maintained by a negative cognitive triad: negative views about the self, the world, the future. These are driven by deep-rooted negative schemas (formed in childhood) which produce negative automatic thoughts. The cognitive distortions (e.g. all-or-nothing thinking, overgeneralisation) maintain the depressive mood. Option D refers to Seligman\'s learned helplessness theory, which is a separate cognitive explanation.",
   },
   {
     question: 'The two-process model of phobias (Mowrer) proposes that:',
@@ -34,7 +34,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Mowrer's two-process model (1960) proposes that: (1) Classical conditioning creates the initial fear response (a neutral stimulus is paired with an unconditioned fear response, becoming a conditioned stimulus). (2) Operant conditioning maintains the phobia through negative reinforcement: avoidance of the feared stimulus reduces anxiety, which reinforces the avoidance behaviour. This explains why phobias persist even when the original conditioning event is long past.",
+      "Mowrer\'s two-process model (1960) proposes that: (1) Classical conditioning creates the initial fear response (a neutral stimulus is paired with an unconditioned fear response, becoming a conditioned stimulus). (2) Operant conditioning maintains the phobia through negative reinforcement: avoidance of the feared stimulus reduces anxiety, which reinforces the avoidance behaviour. This explains why phobias persist even when the original conditioning event is long past.",
   },
   {
     question:
@@ -62,7 +62,7 @@ export const practiceQuestions = [
       'The monoamine hypothesis proposes that depression is caused by a deficiency of monoamine neurotransmitters, particularly serotonin (5-HT), but also noradrenaline and dopamine. This is supported by: (1) the effectiveness of SSRIs which increase synaptic serotonin; (2) reserpine (which depletes monoamines) can cause depression; (3) tryptophan depletion (which reduces serotonin synthesis) can induce depressive symptoms in vulnerable individuals.',
   },
   {
-    question: "Ellis's Rational Em Behaviour Therapy (REBT) is based on the idea that:",
+    question: "Ellis\'s Rational Em Behaviour Therapy (REBT) is based on the idea that:",
     options: [
       'A) Behaviour is determined by reinforcement history',
       'B) Emotional disturbance is caused by irrational beliefs about events, not the events themselves',
@@ -124,7 +124,7 @@ export const practiceQuestions = [
       'Anxiety disorders are characterised by excessive, irrational fear and anxiety that is disproportionate to the actual threat and interferes with normal functioning. They include generalised anxiety disorder (GAD), phobias, panic disorder, and OCD. Option A describes depression, option C describes schizophrenia, and option D describes bipolar affective disorder.',
   },
   {
-    question: "Wolpe's concept of reciprocal inhibition underlies which therapy?",
+    question: "Wolpe\'s concept of reciprocal inhibition underlies which therapy?",
     options: [
       'A) Flooding',
       'B) Systematic desensitisation',

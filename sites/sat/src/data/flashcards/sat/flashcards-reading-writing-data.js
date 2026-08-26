@@ -55,7 +55,7 @@ export const flashcard2 = [
   {
     id: 'sat-reading-writing-008',
     front: 'Define author’s purpose and tone. What are common tone words tested on the SAT?',
-    back: "Purpose: why the author wrote the passage (to inform, persuade, entertain, critique). Tone: the author's attitude toward the subject. Common SAT tone words: objective, critical, nostalgic, skeptical, ambivalent, enthusiastic, pragmatic, didactic. Read for word choice and connotation to determine tone.",
+    back: "Purpose: why the author wrote the passage (to inform, persuade, entertain, critique). Tone: the author\'s attitude toward the subject. Common SAT tone words: objective, critical, nostalgic, skeptical, ambivalent, enthusiastic, pragmatic, didactic. Read for word choice and connotation to determine tone.",
     tags: ['author’s purpose'],
     difficulty: 'medium',
   },
@@ -69,7 +69,7 @@ export const flashcard2 = [
   {
     id: 'sat-reading-writing-010',
     front: 'How do you approach passage relationship (compare/contrast) questions on the SAT?',
-    back: "These questions involve two passages on the same topic. Strategy: Identify each author’s main claim, determine where they agree and disagree, and note differences in tone, evidence, or emphasis. Watch for answer choices that attribute one author's view to the other or claim agreement where there is disagreement.",
+    back: "These questions involve two passages on the same topic. Strategy: Identify each author’s main claim, determine where they agree and disagree, and note differences in tone, evidence, or emphasis. Watch for answer choices that attribute one author\'s view to the other or claim agreement where there is disagreement.",
     tags: ['passage relationships'],
     difficulty: 'medium',
   },
@@ -80,7 +80,7 @@ export const flashcard3 = [
     id: 'sat-reading-writing-011',
     front:
       'How should you interpret data (charts, graphs, tables) that accompany SAT reading passages?',
-    back: "Read the title, axis labels, and legend first. Identify the general trend before examining specifics. When answering questions, check whether the data supports, weakens, or is neutral toward the passage’s claims. Watch for answer choices that misrepresent the data's scale, timeframe, or causation versus correlation.",
+    back: "Read the title, axis labels, and legend first. Identify the general trend before examining specifics. When answering questions, check whether the data supports, weakens, or is neutral toward the passage’s claims. Watch for answer choices that misrepresent the data\'s scale, timeframe, or causation versus correlation.",
     tags: ['data interpretation'],
     difficulty: 'medium',
   },

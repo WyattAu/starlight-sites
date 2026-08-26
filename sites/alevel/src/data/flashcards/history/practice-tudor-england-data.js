@@ -12,7 +12,7 @@ export const practiceQuestions = [
       'Henry VII’s claim was tenuous -- a Lancastrian descendant through an\nillegitimate line. Victory at Bosworth gave de facto control. His marriage to Elizabeth of York\n(1486) united the warring houses of Lancaster and York, symbolised by the Tudor rose. The Tudor\ndynasty therefore rested on military success, dynastic marriage, and propaganda (including the\nchronicle of Polydore Vergil, commissioned by Henry).',
   },
   {
-    question: "Henry VII's approach to foreign policy was primarily characterised by:",
+    question: "Henry VII\'s approach to foreign policy was primarily characterised by:",
     options: [
       'A) Aggressive military expansion into France',
       'B) Dynastic marriage alliances and diplomacy to secure peace and international recognition',
@@ -39,8 +39,8 @@ export const practiceQuestions = [
     question: 'The break with Rome was primarily triggered by:',
     options: [
       'A) Henry VIII’s genuine theological objections to Catholic doctrine',
-      "B) Henry's need for a male\nheir and the Pope’s refusal to annul his marriage to Catherine of Aragon",
-      "C) Thomas More's\ninfluence on Henry’s religious convictions",
+      "B) Henry\'s need for a male\nheir and the Pope’s refusal to annul his marriage to Catherine of Aragon",
+      "C) Thomas More\'s\ninfluence on Henry’s religious convictions",
       'D) Pressure from Parliament to reform the English Church',
     ],
     correct: 1,
@@ -65,7 +65,7 @@ export const practiceQuestions = [
       'A) A religious radical who pushed for Calvinist\ntheology',
       'B) The chief architect of the legislative and administrative machinery that enacted the\nbreak with Rome and the dissolution',
       'C) A defender of Catholic tradition who resisted Henry’s religious changes',
-      "D) Henry VIII's chaplain who wrote the six articles",
+      "D) Henry VIII\'s chaplain who wrote the six articles",
     ],
     correct: 1,
     explanation:
@@ -75,13 +75,13 @@ export const practiceQuestions = [
     question: 'The religious changes under Edward VI were driven primarily by:',
     options: [
       'A) Edward’s personal religious convictions as a teenager',
-      "B) Edward Seymour\n(Somerset) and John Dudley (Northumberland) using the young king's minority to advance Protestant reform",
+      "B) Edward Seymour\n(Somerset) and John Dudley (Northumberland) using the young king\'s minority to advance Protestant reform",
       'C) Pressure from Mary Tudor to maintain Catholic tradition',
       'D) The Pope’s attempt to\nregain control of the English Church',
     ],
     correct: 1,
     explanation:
-      "During Edward's minority (1547-1553), the Duke of Somerset as Lord Protector pushed radical Protestant reforms: the introduction of the Book of Common Prayer (1549, revised 1552), removal of statues and stained glass, and permission for clergy to marry. After Somerset’s fall (1549), Northumberland continued\nthe reform programme. Guy (1988) in 'Tudor England' argues these changes outpaced public opinion,\ncreating deep religious division.",
+      "During Edward\'s minority (1547-1553), the Duke of Somerset as Lord Protector pushed radical Protestant reforms: the introduction of the Book of Common Prayer (1549, revised 1552), removal of statues and stained glass, and permission for clergy to marry. After Somerset’s fall (1549), Northumberland continued\nthe reform programme. Guy (1988) in 'Tudor England' argues these changes outpaced public opinion,\ncreating deep religious division.",
   },
   {
     question: 'Lady Jane Grey’s nine-day reign (1553) ended because:',
@@ -93,10 +93,10 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Northumberland orchestrated Jane's\naccession to prevent the Catholic Mary from taking the throne. However, Mary was popular, and the\nPrivy Council -- realising the political wind had changed -- declared for Mary on 19 July 1553. Jane\nwas imprisoned and later executed (February 1554) after Wyatt’s Rebellion. Ives (2009) in 'Lady Jane\nGrey: A Tudor Mystery' questions how willing Jane was to accept the crown.",
+      "Northumberland orchestrated Jane\'s\naccession to prevent the Catholic Mary from taking the throne. However, Mary was popular, and the\nPrivy Council -- realising the political wind had changed -- declared for Mary on 19 July 1553. Jane\nwas imprisoned and later executed (February 1554) after Wyatt’s Rebellion. Ives (2009) in 'Lady Jane\nGrey: A Tudor Mystery' questions how willing Jane was to accept the crown.",
   },
   {
-    question: "Kett's\nRebellion (1549) was primarily motivated by:",
+    question: "Kett\'s\nRebellion (1549) was primarily motivated by:",
     options: [
       'A) Religious demands for a return to\nCatholicism',
       'B) Economic grievances: enclosure of common land, rack-renting and the breakdown of\nsocial obligations by landlords',
@@ -120,7 +120,7 @@ export const practiceQuestions = [
       "Mary restored papal authority through Parliament: the repeal of Edwardian religious laws, the\nreunion with Rome (November 1554, formally confirmed by Cardinal Pole), and the revival of the\nheresy laws. Approximately 284 Protestants were burned at the stake, earning Mary the nickname\n'Bloody Mary'. Duffy (2009) in 'Fires of Faith' argues Mary’s programme was a genuine, intellectually coherent Catholic restoration, not mere reaction.",
   },
   {
-    question: "Mary's marriage\nto Philip II of Spain was significant because:",
+    question: "Mary\'s marriage\nto Philip II of Spain was significant because:",
     options: [
       'A) It secured a lasting Anglo-Spanish\nalliance that transformed English foreign policy',
       'B) It provoked anti-Spanish sentiment, fears of\nforeign domination, and contributed to Wyatt’s Rebellion (1554)',
@@ -161,11 +161,11 @@ export const practiceQuestions = [
       'A) Superior English ship design alone',
       'B) A combination of English naval tactics, fireships, superior gunnery, and severe storms in the Channel and North Sea',
       'C) The Spanish fleet’s inferior seamanship and lack of experience',
-      "D)\nElizabeth's personal command of the English fleet",
+      "D)\nElizabeth\'s personal command of the English fleet",
     ],
     correct: 1,
     explanation:
-      "The Armada’s defeat\nresulted from multiple factors: Medina Sidonia's inexperience in command, English fireships breaking the crescent formation at Calais, longer-range English guns preventing Spanish boarding tactics, and devastating storms off Scotland and Ireland that destroyed more ships than combat. Hanson (2013) in 'The Confident Hope of a Miracle' estimates only 67 of 130 Spanish ships returned. The victory was as much weather as warfare.",
+      "The Armada’s defeat\nresulted from multiple factors: Medina Sidonia\'s inexperience in command, English fireships breaking the crescent formation at Calais, longer-range English guns preventing Spanish boarding tactics, and devastating storms off Scotland and Ireland that destroyed more ships than combat. Hanson (2013) in 'The Confident Hope of a Miracle' estimates only 67 of 130 Spanish ships returned. The victory was as much weather as warfare.",
   },
   {
     question: 'Elizabeth I’s succession crisis was most problematic\nbecause:',
@@ -182,14 +182,14 @@ export const practiceQuestions = [
   {
     question: 'Luther’s 95 Theses (1517) were significant because they:',
     options: [
-      "A) Announced Luther's support for the Catholic doctrine of papal supremacy",
+      "A) Announced Luther\'s support for the Catholic doctrine of papal supremacy",
       'B) Challenged the sale of indulgences and initiated the Protestant Reformation in Europe',
       'C) Declared Luther’s intention to create a new political empire in Germany',
       'D) Were a peace treaty between\nCatholic and Protestant states',
     ],
     correct: 1,
     explanation:
-      "Luther’s 95 Theses attacked the theological basis of indulgences (Johann Tetzel's sale of indulgences to fund St Peter’s Basilica). Luther argued salvation was by faith alone (sola fide), not by purchasing pardons. The theses spread rapidly through printing press technology. MacCulloch (2003) in 'The Reformation: A History' identifies Luther’s stand as the pivotal moment that fractured Western Christendom.",
+      "Luther’s 95 Theses attacked the theological basis of indulgences (Johann Tetzel\'s sale of indulgences to fund St Peter’s Basilica). Luther argued salvation was by faith alone (sola fide), not by purchasing pardons. The theses spread rapidly through printing press technology. MacCulloch (2003) in 'The Reformation: A History' identifies Luther’s stand as the pivotal moment that fractured Western Christendom.",
   },
   {
     question: 'The social impact of the dissolution of the monasteries included:',

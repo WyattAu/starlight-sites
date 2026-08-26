@@ -100,7 +100,7 @@ export const flashcard3 = [
   {
     id: 'gaokao-mathematics-014',
     front: 'State the binomial theorem and Pascal’s triangle relationship.',
-    back: "Binomial theorem: (a + b)ⁿ = Σₖ₌₀ⁿ C(n,k) · aⁿ⁻ᵏ · bᵏ. The coefficients C(n,k) are the binomial coefficients (n choose k), which form the (n+1)th row of Pascal's triangle. Properties: ΣₖC(n,k) = 2ⁿ, C(n,k) = C(n, n-k). Used in combinatorics and probability.",
+    back: "Binomial theorem: (a + b)ⁿ = Σₖ₌₀ⁿ C(n,k) · aⁿ⁻ᵏ · bᵏ. The coefficients C(n,k) are the binomial coefficients (n choose k), which form the (n+1)th row of Pascal\'s triangle. Properties: ΣₖC(n,k) = 2ⁿ, C(n,k) = C(n, n-k). Used in combinatorics and probability.",
     tags: ['combinatorics'],
     difficulty: 'medium',
   },

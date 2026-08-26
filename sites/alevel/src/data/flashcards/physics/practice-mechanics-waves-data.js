@@ -31,7 +31,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "In Young's double slit\nexperiment, light of wavelength 600 nm is used. The slit separation is 0.5 mm and the screen is 1.5\nm away. Find the fringe spacing.",
+      "In Young\'s double slit\nexperiment, light of wavelength 600 nm is used. The slit separation is 0.5 mm and the screen is 1.5\nm away. Find the fringe spacing.",
     options: ['A) 1.8 mm', 'B) 0.9 mm', 'C) 3.6 mm', 'D) 0.45 mm'],
     correct: 0,
     explanation:

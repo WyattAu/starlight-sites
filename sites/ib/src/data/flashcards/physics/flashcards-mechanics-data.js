@@ -78,7 +78,7 @@ export const flashcard3 = [
   {
     id: 'energy-3',
     front: 'Define gravitational potential energy and its formula near Earth’s surface.',
-    back: "Gravitational PE is the energy stored due to an object's position in a gravitational field: E_p = mgh (near surface, uniform field). m = mass, g = gravitational field strength (~9.81 m s⁻²), h = height above reference level. It is a scalar. Reference level (h=0) is arbitrary — only ΔE_p matters.",
+    back: "Gravitational PE is the energy stored due to an object\'s position in a gravitational field: E_p = mgh (near surface, uniform field). m = mass, g = gravitational field strength (~9.81 m s⁻²), h = height above reference level. It is a scalar. Reference level (h=0) is arbitrary — only ΔE_p matters.",
     tags: ['work and energy', 'potential energy'],
     difficulty: 'easy',
   },
@@ -99,7 +99,7 @@ export const flashcard3 = [
   {
     id: 'momentum-2',
     front: 'State the law of conservation of momentum.',
-    back: 'In a closed system with no external forces, total momentum is conserved: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. This applies to all types of collisions (elastic, inelastic, explosions). "Closed system" means no net external force — internal forces between colliding objects cancel by Newton's 3rd law.',
+    back: 'In a closed system with no external forces, total momentum is conserved: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. This applies to all types of collisions (elastic, inelastic, explosions). "Closed system" means no net external force — internal forces between colliding objects cancel by Newton\'s 3rd law.',
     tags: ['momentum', 'conservation'],
     difficulty: 'medium',
   },

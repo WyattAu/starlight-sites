@@ -2,7 +2,7 @@ export const flashcard1 = [
   {
     id: 'dev-1',
     front: 'What is Bowlby’s evolutionary theory of attachment?',
-    back: "Bowlby (1969) proposed that attachment is an innate, biological system that evolved to ensure survival. Infants are born with social releasers (crying, smiling, clinging) that elicit caregiving from adults. The primary attachment figure provides a secure base from which the infant explores and a safe haven for comfort. Attachment is adaptive because proximity to a caregiver increases protection from predators and ensures the infant's survival. Bowlby argued there is a critical period (roughly 0-2.5 years) during which attachment must form, or it cannot be recovered.",
+    back: "Bowlby (1969) proposed that attachment is an innate, biological system that evolved to ensure survival. Infants are born with social releasers (crying, smiling, clinging) that elicit caregiving from adults. The primary attachment figure provides a secure base from which the infant explores and a safe haven for comfort. Attachment is adaptive because proximity to a caregiver increases protection from predators and ensures the infant\'s survival. Bowlby argued there is a critical period (roughly 0-2.5 years) during which attachment must form, or it cannot be recovered.",
     tags: ['attachment', 'Bowlby', 'evolutionary'],
     difficulty: 'easy',
   },
@@ -16,7 +16,7 @@ export const flashcard1 = [
   {
     id: 'dev-3',
     front:
-      "What evidence supports Bowlby’s theory? Describe Harlow's monkey study and its implications.",
+      "What evidence supports Bowlby’s theory? Describe Harlow\'s monkey study and its implications.",
     back: 'Harlow (1958) studied rhesus monkeys separated from their mothers at birth and raised with two surrogate mothers -- one wire with milk, one cloth without milk. Monkeys spent most time clinging to the cloth mother and only approached the wire mother to feed. When frightened, they ran to the cloth mother. Implications: attachment is not based solely on food (contradicts learning theory); contact comfort is the key driver of attachment. This supports Bowlby’s view that attachment is innate and based on comfort, not reinforcement. Limitations: animal research -- generalisability to humans is questionable; monkeys were isolated from peers, confounding the study.',
     tags: ['attachment', 'Harlow', 'animal-studies', 'Bowlby'],
     difficulty: 'medium',
@@ -33,7 +33,7 @@ export const flashcard1 = [
     id: 'dev-5',
     front:
       'What did Van IJzendoorn’s meta-analysis find about cross-cultural variations in attachment?',
-    back: "Van IJzendoorn & Kroonenberg (1988) conducted a meta-analysis of 32 Strange Situation studies across 8 countries. Key findings: (1) Secure attachment was the most common type in all countries studied. (2) Insecure-avoidant was most common in Western, individualist cultures (e.g. Germany, USA). (3) Insecure-resistant was more common in non-Western, collectivist cultures (e.g. Japan, Israel). (4) There was greater variation within cultures than between cultures. Conclusion: secure attachment appears universal, but cultural practices influence the distribution of insecure types. Evaluation: supports Bowlby's universality claim, but demonstrates cultural sensitivity in attachment expression.",
+    back: "Van IJzendoorn & Kroonenberg (1988) conducted a meta-analysis of 32 Strange Situation studies across 8 countries. Key findings: (1) Secure attachment was the most common type in all countries studied. (2) Insecure-avoidant was most common in Western, individualist cultures (e.g. Germany, USA). (3) Insecure-resistant was more common in non-Western, collectivist cultures (e.g. Japan, Israel). (4) There was greater variation within cultures than between cultures. Conclusion: secure attachment appears universal, but cultural practices influence the distribution of insecure types. Evaluation: supports Bowlby\'s universality claim, but demonstrates cultural sensitivity in attachment expression.",
     tags: ['attachment', 'cross-cultural', 'Van-IJzendoorn', 'meta-analysis'],
     difficulty: 'medium',
   },
@@ -72,7 +72,7 @@ export const flashcard2 = [
   {
     id: 'dev-10',
     front: 'Describe Kohlberg’s three levels of moral development.',
-    back: "Kohlberg (1958, 1981) developed a stage theory based on responses to moral dilemmas (e.g. Heinz dilemma). Three levels: (1) Pre-conventional (children): morality determined by external consequences -- Stage 1: obedience and punishment orientation; Stage 2: self-interest orientation (reward). (2) Conventional (adolescence/adulthood): morality based on social norms -- Stage 3: good boy/girl orientation (approval); Stage 4: law and order orientation. (3) Post-conventional (few reach this): morality based on abstract principles -- Stage 5: social contract orientation; Stage 6: universal ethical principles. Evaluation: cross-cultural bias (favours individualist values); based only on male participants (Gilligan's critique); dilemmas may not reflect real moral reasoning.",
+    back: "Kohlberg (1958, 1981) developed a stage theory based on responses to moral dilemmas (e.g. Heinz dilemma). Three levels: (1) Pre-conventional (children): morality determined by external consequences -- Stage 1: obedience and punishment orientation; Stage 2: self-interest orientation (reward). (2) Conventional (adolescence/adulthood): morality based on social norms -- Stage 3: good boy/girl orientation (approval); Stage 4: law and order orientation. (3) Post-conventional (few reach this): morality based on abstract principles -- Stage 5: social contract orientation; Stage 6: universal ethical principles. Evaluation: cross-cultural bias (favours individualist values); based only on male participants (Gilligan\'s critique); dilemmas may not reflect real moral reasoning.",
     tags: ['moral-development', 'Kohlberg', 'stages'],
     difficulty: 'medium',
   },
@@ -89,7 +89,7 @@ export const flashcard3 = [
   {
     id: 'dev-12',
     front: 'Describe Marcia’s four identity statuses and what determines each.',
-    back: "Marcia (1966) operationalised Erikson's identity crisis along two dimensions: (1) Crisis/Exploration -- has the individual actively explored identity options? (2) Commitment -- has the individual made firm choices about identity? Four statuses: (1) Identity Diffusion: no exploration, no commitment -- no clear sense of identity; aimless. (2) Foreclosure: no exploration, but strong commitment -- identity imposed by parents/society without personal questioning. (3) Moratorium: active exploration, no firm commitment -- in crisis, experimenting with roles. (4) Identity Achievement: exploration completed, strong commitment -- resolved identity after thoughtful consideration. Marcia argued achievement is the ideal status, but moratorium is a necessary step towards it.",
+    back: "Marcia (1966) operationalised Erikson\'s identity crisis along two dimensions: (1) Crisis/Exploration -- has the individual actively explored identity options? (2) Commitment -- has the individual made firm choices about identity? Four statuses: (1) Identity Diffusion: no exploration, no commitment -- no clear sense of identity; aimless. (2) Foreclosure: no exploration, but strong commitment -- identity imposed by parents/society without personal questioning. (3) Moratorium: active exploration, no firm commitment -- in crisis, experimenting with roles. (4) Identity Achievement: exploration completed, strong commitment -- resolved identity after thoughtful consideration. Marcia argued achievement is the ideal status, but moratorium is a necessary step towards it.",
     tags: ['identity', 'Marcia', 'identity-statuses'],
     difficulty: 'medium',
   },
@@ -135,8 +135,8 @@ export const flashcard4 = [
   {
     id: 'dev-18',
     front:
-      "What is Arnett’s theory of emerging adulthood and how does it extend Erikson's framework?",
-    back: 'Arnett (2000, 2006) proposed that emerging adulthood (approximately ages 18-25 in industrialised societies) is a distinct developmental period between adolescence and young adulthood, characterised by: (1) identity exploration (especially in love, work, and worldview), (2) instability (frequent changes in relationships, jobs, residence), (3) self-focus, (4) feeling "in-between" -- not fully adult but no longer adolescent, (5) possibilities/optimism. This extends Erikson's identity vs. role confusion stage, suggesting identity formation does not end at adolescence but continues into the mid-20s. Evaluation: culturally specific to industrialised, individualist societies; may not apply universally.',
+      "What is Arnett’s theory of emerging adulthood and how does it extend Erikson\'s framework?",
+    back: 'Arnett (2000, 2006) proposed that emerging adulthood (approximately ages 18-25 in industrialised societies) is a distinct developmental period between adolescence and young adulthood, characterised by: (1) identity exploration (especially in love, work, and worldview), (2) instability (frequent changes in relationships, jobs, residence), (3) self-focus, (4) feeling "in-between" -- not fully adult but no longer adolescent, (5) possibilities/optimism. This extends Erikson\'s identity vs. role confusion stage, suggesting identity formation does not end at adolescence but continues into the mid-20s. Evaluation: culturally specific to industrialised, individualist societies; may not apply universally.',
     tags: ['adolescence', 'emerging-adulthood', 'Arnett', 'Erikson'],
     difficulty: 'medium',
   },

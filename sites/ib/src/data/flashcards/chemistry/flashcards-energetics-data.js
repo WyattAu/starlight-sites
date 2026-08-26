@@ -31,7 +31,7 @@ export const flashcard1 = [
   {
     id: 'energetics-005',
     front: 'What is Hess’s Law and how is it used to calculate enthalpy changes?',
-    back: "Hess's Law: the total enthalpy change for a reaction is independent of the route taken — it depends only on the initial and final states. Used by constructing alternative pathways using known enthalpy values. Two common methods: 1) Using ΔHf° values: ΔHrxn = ΣΔHf°(products) − ΣΔHf°(reactants). 2) Using ΔHc° values: ΔHrxn = ΣΔHc°(reactants) − ΣΔHc°(products).",
+    back: "Hess\'s Law: the total enthalpy change for a reaction is independent of the route taken — it depends only on the initial and final states. Used by constructing alternative pathways using known enthalpy values. Two common methods: 1) Using ΔHf° values: ΔHrxn = ΣΔHf°(products) − ΣΔHf°(reactants). 2) Using ΔHc° values: ΔHrxn = ΣΔHc°(reactants) − ΣΔHc°(products).",
     tags: ['Hess’s Law'],
     difficulty: 'easy',
   },
@@ -80,7 +80,7 @@ export const flashcard3 = [
   {
     id: 'energetics-011',
     front: 'Why do bond enthalpy calculations differ from experimental (Hess’s Law) values?',
-    back: "Bond enthalpy calculations use mean values averaged over different molecules, whereas the actual bond strength varies depending on the molecular environment. Additionally, bond enthalpy data are for gaseous state only — state changes (e.g. solid → gas) are not accounted for. The difference is typically 5–10 kJ/mol but can be larger for reactions involving liquids or solids. Hess's Law gives more accurate results.",
+    back: "Bond enthalpy calculations use mean values averaged over different molecules, whereas the actual bond strength varies depending on the molecular environment. Additionally, bond enthalpy data are for gaseous state only — state changes (e.g. solid → gas) are not accounted for. The difference is typically 5–10 kJ/mol but can be larger for reactions involving liquids or solids. Hess\'s Law gives more accurate results.",
     tags: ['bond enthalpies', 'Hess’s Law', 'errors'],
     difficulty: 'medium',
   },
@@ -94,7 +94,7 @@ export const flashcard3 = [
   {
     id: 'energetics-013',
     front: 'Describe a Born-Haber cycle and list all the enthalpy changes involved.',
-    back: "A Born-Haber cycle is an application of Hess’s Law that calculates the lattice enthalpy of an ionic compound from other measurable enthalpy changes. Steps (for NaCl): 1) ΔHatom of metal (Na(s) → Na(g)). 2) ΔHatom of non-metal (½Cl₂(g) → Cl(g)). 3) Ionization energy of metal (Na(g) → Na⁺(g) + e⁻). 4) Electron affinity of non-metal (Cl(g) + e⁻ → Cl⁻(g)). 5) Lattice enthalpy (Na⁺(g) + Cl⁻(g) → NaCl(s)). Apply Hess's Law around the cycle.",
+    back: "A Born-Haber cycle is an application of Hess’s Law that calculates the lattice enthalpy of an ionic compound from other measurable enthalpy changes. Steps (for NaCl): 1) ΔHatom of metal (Na(s) → Na(g)). 2) ΔHatom of non-metal (½Cl₂(g) → Cl(g)). 3) Ionization energy of metal (Na(g) → Na⁺(g) + e⁻). 4) Electron affinity of non-metal (Cl(g) + e⁻ → Cl⁻(g)). 5) Lattice enthalpy (Na⁺(g) + Cl⁻(g) → NaCl(s)). Apply Hess\'s Law around the cycle.",
     tags: ['Born-Haber cycles'],
     difficulty: 'hard',
   },

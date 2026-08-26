@@ -23,7 +23,7 @@ export const flashcard1 = [
   {
     id: 'ib-phys-electricity-004',
     front: 'State Ohm’s law and explain its limitations.',
-    back: "Ohm's law: the current through a metallic conductor is directly proportional to the potential difference across it, provided the temperature remains constant. V = IR. Limitations: does not apply to non-ohmic components (diodes, thermistors, filament lamps). Does not apply when temperature changes significantly (resistance of metals increases with temperature). Valid only for metallic conductors at constant temperature.",
+    back: "Ohm\'s law: the current through a metallic conductor is directly proportional to the potential difference across it, provided the temperature remains constant. V = IR. Limitations: does not apply to non-ohmic components (diodes, thermistors, filament lamps). Does not apply when temperature changes significantly (resistance of metals increases with temperature). Valid only for metallic conductors at constant temperature.",
     tags: ['electricity', 'Ohm’s law'],
     difficulty: 'easy',
   },

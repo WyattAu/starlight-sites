@@ -1,7 +1,7 @@
 export const practiceQuestions = [
   {
     question:
-      "According to Tajfel's Social Identity Theory (1979),\nindividuals derive self-esteem from:",
+      "According to Tajfel\'s Social Identity Theory (1979),\nindividuals derive self-esteem from:",
     options: [
       'A) Their personal achievements and individual\ntraits alone',
       'B) Their membership in social groups and the positive comparison of their in-group\nto out-groups',
@@ -14,7 +14,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "In Tajfel's minimal group paradigm, participants showed in-group favouritism even\nwhen:",
+      "In Tajfel\'s minimal group paradigm, participants showed in-group favouritism even\nwhen:",
     options: [
       'A) Groups were formed based on real friendships',
       'B) Group membership was\narbitrary and meaningless',
@@ -39,7 +39,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Bandura's Bobo doll experiment (1961) demonstrated that\nchildren who observed an aggressive model were:",
+      "Bandura\'s Bobo doll experiment (1961) demonstrated that\nchildren who observed an aggressive model were:",
     options: [
       'A) Less likely to show aggression due\nto catharsis',
       'B) More likely to imitate the specific aggressive acts they observed, especially\nwhen the model was rewarded',
@@ -61,7 +61,7 @@ export const practiceQuestions = [
     ],
     correct: 0,
     explanation:
-      "Bandura proposed four mediational processes: attention (noticing and perceiving the model's behaviour), retention (encoding and storing the behaviour in memory),\nreproduction (having the physical and cognitive ability to replicate the behaviour), and motivation\n(having a reason to imitate, influenced by observed vicarious reinforcement or punishment).",
+      "Bandura proposed four mediational processes: attention (noticing and perceiving the model\'s behaviour), retention (encoding and storing the behaviour in memory),\nreproduction (having the physical and cognitive ability to replicate the behaviour), and motivation\n(having a reason to imitate, influenced by observed vicarious reinforcement or punishment).",
   },
   {
     question: 'Bandura’s concept of reciprocal determinism refers to the idea that:',
@@ -73,7 +73,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Reciprocal determinism is the central concept of Social Learning Theory: behaviour is not simply determined by the environment. Instead, cognitive factors, behaviour, and environment all influence each other in a dynamic, bidirectional way. An individual's behaviour shapes their environment, which in turn influences their cognition\nand subsequent behaviour.",
+      "Reciprocal determinism is the central concept of Social Learning Theory: behaviour is not simply determined by the environment. Instead, cognitive factors, behaviour, and environment all influence each other in a dynamic, bidirectional way. An individual\'s behaviour shapes their environment, which in turn influences their cognition\nand subsequent behaviour.",
   },
   {
     question: 'Hamilton and Gifford’s (1976) illusory correlation study demonstrated that:',
@@ -103,7 +103,7 @@ export const practiceQuestions = [
     question: 'Stereotype threat, as described by Steele and Aronson (1995), refers to:',
     options: [
       'A) The fear of being judged by stereotypes held by others, which can impair performance',
-      "B) The conscious belief in stereotypes about one's own group",
+      "B) The conscious belief in stereotypes about one\'s own group",
       'C) The\ntendency to stereotype others more under time pressure',
       'D) The process by which stereotypes are\ntransmitted across generations',
     ],
@@ -122,7 +122,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Sherif's Robbers Cave study randomly\nassigned boys at a summer camp into two groups. Competition for limited resources generated\nprejudice and hostility. However, introducing superordinate goals (tasks requiring both groups to\ncooperate, such as fixing a broken water tank) significantly reduced intergroup conflict. This\ndemonstrated realistic conflict theory and a practical method for reducing prejudice.",
+      "Sherif\'s Robbers Cave study randomly\nassigned boys at a summer camp into two groups. Competition for limited resources generated\nprejudice and hostility. However, introducing superordinate goals (tasks requiring both groups to\ncooperate, such as fixing a broken water tank) significantly reduced intergroup conflict. This\ndemonstrated realistic conflict theory and a practical method for reducing prejudice.",
   },
   {
     question: 'What was the key finding of Minard’s (1952) study of miners in West Virginia?',
@@ -147,11 +147,11 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Prejudice is an attitude (a cognitive and affective evaluation), while discrimination is a behaviour (acting on prejudice). While prejudice often leads to discrimination, the two are distinct constructs. Minard's study showed discrimination can occur even without personal prejudice when\nsocial norms demand it, and Allport’s (1954) research demonstrated that prejudice and discrimination do not always correspond directly.",
+      "Prejudice is an attitude (a cognitive and affective evaluation), while discrimination is a behaviour (acting on prejudice). While prejudice often leads to discrimination, the two are distinct constructs. Minard\'s study showed discrimination can occur even without personal prejudice when\nsocial norms demand it, and Allport’s (1954) research demonstrated that prejudice and discrimination do not always correspond directly.",
   },
   {
     question:
-      "Hofstede's (1980) research on cultural dimensions identified\nindividualism-collectivism as a key dimension. Individualist cultures tend to:",
+      "Hofstede\'s (1980) research on cultural dimensions identified\nindividualism-collectivism as a key dimension. Individualist cultures tend to:",
     options: [
       'A)\nPrioritise group harmony and collective welfare over individual goals',
       'B) Prioritise personal\nautonomy, individual achievement, and self-expression',
@@ -176,7 +176,7 @@ export const practiceQuestions = [
       'Bond and Smith and Bond conducted\nmeta-analyses of conformity studies using Asch’s paradigm across cultures. They found that conformity rates were significantly higher in collectivist cultures, where group harmony and social cohesion are strongly valued, compared to individualist cultures. Conformity has also decreased over time in all cultures, which they attributed to increasing individualism globally.',
   },
   {
-    question: "Berry's (1967) study of the Temne and Inuit communities demonstrated that:",
+    question: "Berry\'s (1967) study of the Temne and Inuit communities demonstrated that:",
     options: [
       'A) Both\ncommunities showed identical levels of conformity',
       'B) Conformity levels differed based on the\neconomic and social practices of each culture',
@@ -189,7 +189,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Asch's (1951) conformity experiments found that\napproximately what percentage of participants conformed at least once?",
+      "Asch\'s (1951) conformity experiments found that\napproximately what percentage of participants conformed at least once?",
     options: ['A) 25%', 'B)\n50%', 'C) 75%', 'D) 95%'],
     correct: 2,
     explanation:
@@ -197,7 +197,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Berry's research (1967) argued that conformity levels in different cultures are influenced by:",
+      "Berry\'s research (1967) argued that conformity levels in different cultures are influenced by:",
     options: [
       'A) The intelligence level of the population',
       'B) The ecological demands and economic\npractices of the society',

@@ -56,7 +56,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "In a singly linked list, deleting a node requires traversing from the head to find the predecessor (O(n) worst case) to update its next pointer. In a doubly linked list, each node stores a pointer to its predecessor, so deletion given a reference to the node is O(1) -- update the predecessor’s next\npointer and the successor's previous pointer. The trade-off is extra memory: each node stores two pointers instead of one.",
+      "In a singly linked list, deleting a node requires traversing from the head to find the predecessor (O(n) worst case) to update its next pointer. In a doubly linked list, each node stores a pointer to its predecessor, so deletion given a reference to the node is O(1) -- update the predecessor’s next\npointer and the successor\'s previous pointer. The trade-off is extra memory: each node stores two pointers instead of one.",
   },
   {
     question:
@@ -166,7 +166,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Dijkstra's algorithm and A* both find shortest paths. Which statement correctly describes the key difference?",
+      "Dijkstra\'s algorithm and A* both find shortest paths. Which statement correctly describes the key difference?",
     options: [
       'A) Dijkstra uses heuristics; A* does not. A* is preferable for dense graphs.',
       'B) A* uses a heuristic function h(n) combined with cost-so-far g(n) to guide the search, making it faster when a good heuristic exists',

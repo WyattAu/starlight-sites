@@ -71,7 +71,7 @@ export const flashcard2 = [
   {
     id: 'ib-chem-kinetics-equilibrium-010',
     front: 'State Le Chatelier’s principle and apply it to the Haber process.',
-    back: "Le Chatelier's principle: if a system at equilibrium is subjected to a change in conditions (concentration, pressure, temperature), the equilibrium shifts in the direction that counteracts the change. Haber process: N2(g) + 3H2(g) <-> 2NH3(g), delta H = -92 kJ mol-1. Increasing pressure: shifts right (fewer gas moles, 4 -> 2). Decreasing temperature: shifts right (exothermic). But lower temperature means slower rate. Compromise: 200 atm, 450 C with Fe catalyst. Iron catalyst increases rate without affecting equilibrium position.",
+    back: "Le Chatelier\'s principle: if a system at equilibrium is subjected to a change in conditions (concentration, pressure, temperature), the equilibrium shifts in the direction that counteracts the change. Haber process: N2(g) + 3H2(g) <-> 2NH3(g), delta H = -92 kJ mol-1. Increasing pressure: shifts right (fewer gas moles, 4 -> 2). Decreasing temperature: shifts right (exothermic). But lower temperature means slower rate. Compromise: 200 atm, 450 C with Fe catalyst. Iron catalyst increases rate without affecting equilibrium position.",
     tags: ['Le Chatelier’s principle', 'Haber process'],
     difficulty: 'medium',
   },

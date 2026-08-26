@@ -16,7 +16,7 @@ export const practiceQuestions = [
     options: [
       'A) The total value of all goods and services produced in a country',
       'B) Income inequality within a country on a scale from 0 (perfect equality) to 1 (perfect inequality)',
-      "C) The average income of a country's population",
+      "C) The average income of a country\'s population",
       'D) The percentage of people living below the poverty line',
     ],
     correct: 1,
@@ -88,7 +88,7 @@ export const practiceQuestions = [
     options: ['A) Three', 'B) Four', 'C) Five', 'D) Six'],
     correct: 2,
     explanation:
-      "Rostow's Modernisation Theory model proposes five stages: 1) Traditional society (subsistence\nagriculture, limited technology), 2) Pre-conditions for take-off (emerging transport, commerce, and\nmanufacturing), 3) Take-off (rapid industrialisation, investment, urbanisation), 4) Drive to\nmaturity (diversified economy, technological innovation), and 5) Age of high mass consumption (high\nGNI, consumer goods, service sector dominance). Rostow argued all countries progress through these\nstages in a linear fashion.",
+      "Rostow\'s Modernisation Theory model proposes five stages: 1) Traditional society (subsistence\nagriculture, limited technology), 2) Pre-conditions for take-off (emerging transport, commerce, and\nmanufacturing), 3) Take-off (rapid industrialisation, investment, urbanisation), 4) Drive to\nmaturity (diversified economy, technological innovation), and 5) Age of high mass consumption (high\nGNI, consumer goods, service sector dominance). Rostow argued all countries progress through these\nstages in a linear fashion.",
   },
   {
     question: 'A major criticism of Rostow’s model is that it:',
@@ -100,7 +100,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Rostow's model has been criticised on multiple\ngrounds: its ethnocentric assumption that Western industrialisation is the universal model of\ndevelopment; its failure to account for global power structures that maintain inequality (dependency\ntheory argues development in one region requires underdevelopment in another); its assumption that\nall countries can and will pass through the same stages; and the reality that many countries have\nexperienced development reversal through conflict, debt crises, or structural adjustment. Frank’s dependency theory and Gunder Frank's critique offer alternative perspectives.",
+      "Rostow\'s model has been criticised on multiple\ngrounds: its ethnocentric assumption that Western industrialisation is the universal model of\ndevelopment; its failure to account for global power structures that maintain inequality (dependency\ntheory argues development in one region requires underdevelopment in another); its assumption that\nall countries can and will pass through the same stages; and the reality that many countries have\nexperienced development reversal through conflict, debt crises, or structural adjustment. Frank’s dependency theory and Gunder Frank\'s critique offer alternative perspectives.",
   },
   {
     question: "In\nRostow’s model, the 'take-off' stage is characterised by:",
@@ -115,7 +115,7 @@ export const practiceQuestions = [
       'The take-off stage (Stage 3) is the critical transition period in Rostow’s model. It\nis characterised by rapid industrialisation led by a few key manufacturing sectors, rising\ninvestment rates (often exceeding 10% of national income), growing urbanisation, development of\ntransport infrastructure, and sustained economic growth. Rostow argued the UK experienced take-off\nin the late 18th century, the USA in the mid-19th century, and various developing countries at\ndifferent times in the 20th century. The model assumes this stage is self-sustaining once\ninitiated.',
   },
   {
-    question: "Dependency theory, as a critique of Rostow's model, argues that:",
+    question: "Dependency theory, as a critique of Rostow\'s model, argues that:",
     options: [
       'A) All countries develop independently of global economic relationships',
       'B) Underdevelopment in the Global South is maintained by the exploitative economic relationships with developed countries who extract resources and labour',
@@ -136,7 +136,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The Brundtland Commission's report 'Our Common Future' defined sustainable development as development that meets\nthe needs of the present generation without compromising the ability of future generations to meet\ntheir own needs. This definition integrates three pillars: economic growth (providing jobs and\nwealth), social equity (fair distribution of benefits), and environmental protection (conserving\nnatural resources and ecosystems). It became the foundation for the 1992 Rio Earth Summit and the UN\nSustainable Development Goals (SDGs).",
+      "The Brundtland Commission\'s report 'Our Common Future' defined sustainable development as development that meets\nthe needs of the present generation without compromising the ability of future generations to meet\ntheir own needs. This definition integrates three pillars: economic growth (providing jobs and\nwealth), social equity (fair distribution of benefits), and environmental protection (conserving\nnatural resources and ecosystems). It became the foundation for the 1992 Rio Earth Summit and the UN\nSustainable Development Goals (SDGs).",
   },
   {
     question: 'The ecological footprint measures:',
@@ -148,7 +148,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The ecological footprint (Wackernagel and Rees, 1996) measures the\nbiologically productive land and water area needed to produce all the resources a population\nconsumes and to absorb the waste it generates, including carbon emissions. It is expressed in global\nhectares per person. Current global ecological footprint is approximately 2.7 gha per person, but\nEarth’s biocapacity is only about 1.7 gha per person -- indicating humanity is consuming resources at 1.7 times the rate Earth can regenerate them (ecological overshoot). The USA's footprint is\napproximately 8 gha per person; Bangladesh’s is approximately 0.7 gha.",
+      "The ecological footprint (Wackernagel and Rees, 1996) measures the\nbiologically productive land and water area needed to produce all the resources a population\nconsumes and to absorb the waste it generates, including carbon emissions. It is expressed in global\nhectares per person. Current global ecological footprint is approximately 2.7 gha per person, but\nEarth’s biocapacity is only about 1.7 gha per person -- indicating humanity is consuming resources at 1.7 times the rate Earth can regenerate them (ecological overshoot). The USA\'s footprint is\napproximately 8 gha per person; Bangladesh’s is approximately 0.7 gha.",
   },
   {
     question:
@@ -161,7 +161,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Rapid economic development often generates significant environmental costs. Industrialisation without adequate regulation leads to air pollution (China's particulate matter crisis), water pollution (heavy metals, chemicals),\ndeforestation (Amazon clearing for agriculture and ranching), biodiversity loss (habitat\ndestruction), soil degradation, and rapidly increasing greenhouse gas emissions. China and India, as\nthe world’s fastest-growing large economies, exemplify the tension between economic growth and environmental protection. The Kuznets Environmental Curve hypothesis suggests pollution increases with industrialisation before declining at higher income levels, but this pattern is not universal for all pollutants.",
+      "Rapid economic development often generates significant environmental costs. Industrialisation without adequate regulation leads to air pollution (China\'s particulate matter crisis), water pollution (heavy metals, chemicals),\ndeforestation (Amazon clearing for agriculture and ranching), biodiversity loss (habitat\ndestruction), soil degradation, and rapidly increasing greenhouse gas emissions. China and India, as\nthe world’s fastest-growing large economies, exemplify the tension between economic growth and environmental protection. The Kuznets Environmental Curve hypothesis suggests pollution increases with industrialisation before declining at higher income levels, but this pattern is not universal for all pollutants.",
   },
   {
     question: 'The Environmental Kuznets Curve hypothesis suggests that:',

@@ -3,7 +3,7 @@ export const flashcards1 = [
     id: 'shm-derivation',
     front:
       'Derive the equation of SHM for a mass on a spring (Hooke’s law) and for a simple pendulum.',
-    back: "Mass-spring: F = -kx (Hooke's law), ma = -kx → d²x/dt² = -(k/m)x → ω² = k/m, T = 2π√(m/k). Simple pendulum: restoring force F = -mg sinθ ≈ -mgx/L for small angles. d²x/dt² = -(g/L)x → ω² = g/L, T = 2π√(L/g). Both give a = -ω²x confirming SHM.",
+    back: "Mass-spring: F = -kx (Hooke\'s law), ma = -kx → d²x/dt² = -(k/m)x → ω² = k/m, T = 2π√(m/k). Simple pendulum: restoring force F = -mg sinθ ≈ -mgx/L for small angles. d²x/dt² = -(g/L)x → ω² = g/L, T = 2π√(L/g). Both give a = -ω²x confirming SHM.",
     tags: ['shm'],
     difficulty: 'medium',
   },

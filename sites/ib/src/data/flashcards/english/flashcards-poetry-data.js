@@ -77,7 +77,7 @@ export const flashcards3 = [
   },
   {
     front: 'Tone',
-    back: "The poet's attitude as conveyed through word choice, syntax, imagery, and rhythm. Examples: melancholic, satirical, elegiac, celebratory. Identifiable through close reading of linguistic choices.",
+    back: "The poet\'s attitude as conveyed through word choice, syntax, imagery, and rhythm. Examples: melancholic, satirical, elegiac, celebratory. Identifiable through close reading of linguistic choices.",
     difficulty: 'medium',
   },
 ]

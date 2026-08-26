@@ -55,8 +55,8 @@ export const flashcard2 = [
   },
   {
     id: 'hsc-physics-008',
-    front: "Describe the motor effect, Faraday’s law of electromagnetic induction, and Lenz's law.",
-    back: "Motor effect: a current-carrying conductor in a magnetic field experiences a force. F = BIl sinθ (θ between conductor and field). Direction: right-hand rule or Fleming’s left-hand rule. Faraday's law: the induced EMF is proportional to the rate of change of magnetic flux: ε = −N(ΔΦ/Δt). Lenz’s law: the induced current opposes the change in flux that produced it (minus sign). Applications: generators, transformers, induction cooktops.",
+    front: "Describe the motor effect, Faraday’s law of electromagnetic induction, and Lenz\'s law.",
+    back: "Motor effect: a current-carrying conductor in a magnetic field experiences a force. F = BIl sinθ (θ between conductor and field). Direction: right-hand rule or Fleming’s left-hand rule. Faraday\'s law: the induced EMF is proportional to the rate of change of magnetic flux: ε = −N(ΔΦ/Δt). Lenz’s law: the induced current opposes the change in flux that produced it (minus sign). Applications: generators, transformers, induction cooktops.",
     tags: ['electromagnetism'],
     difficulty: 'hard',
   },
@@ -89,7 +89,7 @@ export const flashcard3 = [
   {
     id: 'hsc-physics-012',
     front: 'Describe the photoelectric effect and state Einstein’s equation.',
-    back: "Photoelectric effect: electrons are emitted from a metal surface when light of sufficient frequency (above the threshold frequency f₀) shines on it. Einstein's equation: E_k(max) = hf − φ where φ = hf₀ is the work function. Key observations: (1) Emission is instantaneous. (2) Increasing intensity increases number of photons but not their energy. (3) Increasing frequency increases KE of emitted electrons. (4) Below f₀: no emission regardless of intensity. Evidence for particle nature of light.",
+    back: "Photoelectric effect: electrons are emitted from a metal surface when light of sufficient frequency (above the threshold frequency f₀) shines on it. Einstein\'s equation: E_k(max) = hf − φ where φ = hf₀ is the work function. Key observations: (1) Emission is instantaneous. (2) Increasing intensity increases number of photons but not their energy. (3) Increasing frequency increases KE of emitted electrons. (4) Below f₀: no emission regardless of intensity. Evidence for particle nature of light.",
     tags: ['quantum-physics'],
     difficulty: 'medium',
   },
@@ -111,7 +111,7 @@ export const flashcard3 = [
   {
     id: 'hsc-physics-015',
     front: 'State Coulomb’s law and describe electric fields and potential difference.',
-    back: "Coulomb's law: F = kq₁q₂/r² = (1/4πε₀)q₁q₂/r² where k ≈ 8.99 × 10⁹ N·m²/C². Like charges repel, unlike charges attract. Electric field E = F/q = kQ/r² (radial, from positive charges). Electric potential V = kQ/r (scalar, zero at infinity). Potential difference (voltage): V = W/q, the work done per unit charge moving between two points. For uniform field between parallel plates: E = V/d. Electric potential energy: U = kq₁q₂/r.",
+    back: "Coulomb\'s law: F = kq₁q₂/r² = (1/4πε₀)q₁q₂/r² where k ≈ 8.99 × 10⁹ N·m²/C². Like charges repel, unlike charges attract. Electric field E = F/q = kQ/r² (radial, from positive charges). Electric potential V = kQ/r (scalar, zero at infinity). Potential difference (voltage): V = W/q, the work done per unit charge moving between two points. For uniform field between parallel plates: E = V/d. Electric potential energy: U = kq₁q₂/r.",
     tags: ['electric-fields'],
     difficulty: 'medium',
   },

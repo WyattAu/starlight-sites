@@ -86,7 +86,7 @@ export const flashcardData = [
   {
     id: 'swift-property-observers-013',
     front: 'What are property observers in Swift?',
-    back: "`willSet` and `didSet` observe changes to a property's value. `willSet` runs before the new value is stored; `didSet` runs after. They work on stored properties and property declarations (not `lazy` or `inout` parameters). Common use: triggering UI updates, logging, or validation.",
+    back: "`willSet` and `didSet` observe changes to a property\'s value. `willSet` runs before the new value is stored; `didSet` runs after. They work on stored properties and property declarations (not `lazy` or `inout` parameters). Common use: triggering UI updates, logging, or validation.",
     tags: ['swift', 'properties'],
     difficulty: 'medium',
   },

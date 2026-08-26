@@ -46,7 +46,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The Consumer Prices\nIndex (CPI) is the UK’s primary measure of inflation. It tracks the change in prices of a weighted basket of goods and services representative of household consumption. The CPI is used by the Bank of England's Monetary Policy Committee as the inflation target measure (2% target). The RPI is an older\nmeasure still used for some index-linked bonds and pensions. HDI measures living standards (health,\neducation, income). The Gini coefficient measures income inequality.",
+      "The Consumer Prices\nIndex (CPI) is the UK’s primary measure of inflation. It tracks the change in prices of a weighted basket of goods and services representative of household consumption. The CPI is used by the Bank of England\'s Monetary Policy Committee as the inflation target measure (2% target). The RPI is an older\nmeasure still used for some index-linked bonds and pensions. HDI measures living standards (health,\neducation, income). The Gini coefficient measures income inequality.",
   },
   {
     question: 'Distinguish\nbetween structural unemployment and frictional unemployment.',
@@ -183,7 +183,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "A country's currency appreciates. Analyse the likely impact on its current account balance in the short run.",
+      "A country\'s currency appreciates. Analyse the likely impact on its current account balance in the short run.",
     options: [
       'A) The current account improves because imports become more expensive',
       'B) The current account deteriorates because exports become more expensive and imports become cheaper',

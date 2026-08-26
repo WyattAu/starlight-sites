@@ -10,8 +10,8 @@ export const flashcard1 = [
   {
     id: 'ib-chem-stoichiometry-002',
     front: 'What is Avogadro’s constant and how is it used in calculations?',
-    back: "Avogadro's constant (NA) = 6.022 x 10^23 mol-1. It is the number of particles in one mole of any substance. Usage: n = N/NA, so N = n x NA. Example: 0.500 mol of CO2 contains 0.500 x 6.022 x 10^23 = 3.01 x 10^23 molecules of CO2. Each CO2 molecule contains 3 atoms, so total atoms = 3 x 3.01 x 10^23 = 9.03 x 10^23 atoms. Avogadro’s constant bridges the microscopic world of particles and the macroscopic world of measurable quantities.",
-    tags: ["Avogadro's number"],
+    back: "Avogadro\'s constant (NA) = 6.022 x 10^23 mol-1. It is the number of particles in one mole of any substance. Usage: n = N/NA, so N = n x NA. Example: 0.500 mol of CO2 contains 0.500 x 6.022 x 10^23 = 3.01 x 10^23 molecules of CO2. Each CO2 molecule contains 3 atoms, so total atoms = 3 x 3.01 x 10^23 = 9.03 x 10^23 atoms. Avogadro’s constant bridges the microscopic world of particles and the macroscopic world of measurable quantities.",
+    tags: ["Avogadro\'s number"],
     difficulty: 'easy',
   },
   {

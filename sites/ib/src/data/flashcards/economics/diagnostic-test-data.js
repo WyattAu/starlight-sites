@@ -137,16 +137,16 @@ export const questions = [
     topic: 'International Economics',
     difficulty: 2,
     question:
-      "If Country A’s inflation rate is significantly higher than Country B's, what is the likely effect on Country A’s exchange rate (assuming flexible rates)?",
+      "If Country A’s inflation rate is significantly higher than Country B\'s, what is the likely effect on Country A’s exchange rate (assuming flexible rates)?",
     options: [
-      "Country A's currency appreciates",
+      "Country A\'s currency appreciates",
       'Country A’s currency depreciates',
       'No effect on the exchange rate',
       'Both currencies depreciate equally',
     ],
     correctIndex: 1,
     explanation:
-      "Higher inflation in Country A makes its goods more expensive relative to Country B’s, reducing demand for Country A's exports and its currency. According to purchasing power parity (PPP), the currency of the higher-inflation country depreciates to restore equilibrium in the long run.",
+      "Higher inflation in Country A makes its goods more expensive relative to Country B’s, reducing demand for Country A\'s exports and its currency. According to purchasing power parity (PPP), the currency of the higher-inflation country depreciates to restore equilibrium in the long run.",
   },
   {
     id: 'intl3',

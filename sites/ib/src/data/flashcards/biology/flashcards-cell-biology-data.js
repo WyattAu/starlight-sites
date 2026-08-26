@@ -9,7 +9,7 @@ export const flashcard1 = [
   {
     id: 'cell-theory-2',
     front: 'What evidence supports the principle that all cells come from pre-existing cells?',
-    back: 'Pasteur's experiments disproved spontaneous generation, and modern observations of mitosis and meiosis show cells dividing to produce daughter cells. Virchow coined "omnis cellula e cellula."',
+    back: 'Pasteur\'s experiments disproved spontaneous generation, and modern observations of mitosis and meiosis show cells dividing to produce daughter cells. Virchow coined "omnis cellula e cellula."',
     tags: ['cell theory'],
     difficulty: 'medium',
   },

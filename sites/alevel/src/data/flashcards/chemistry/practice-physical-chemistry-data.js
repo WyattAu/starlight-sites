@@ -17,7 +17,7 @@ export const practiceQuestions = [
     options: ['A) -110 kJ\nmol-1', 'B) +110 kJ mol-1', 'C) -676 kJ mol-1', 'D) -393 kJ mol-1'],
     correct: 0,
     explanation:
-      "By\nHess’s Law: Route 1 (direct): C(s) + 0.5 O2(g) -> CO(g), delta H = ?. Route 2 (indirect): C(s) + O2(g) -> CO2(g) is -393, then reverse CO oxidation: CO2(g) -> CO(g) + 0.5 O2(g) is +283. Sum: -393 + 283 = -110 kJ mol-1. Hess's Law states that the enthalpy change for a reaction is independent of the\nroute taken, provided initial and final conditions are the same.",
+      "By\nHess’s Law: Route 1 (direct): C(s) + 0.5 O2(g) -> CO(g), delta H = ?. Route 2 (indirect): C(s) + O2(g) -> CO2(g) is -393, then reverse CO oxidation: CO2(g) -> CO(g) + 0.5 O2(g) is +283. Sum: -393 + 283 = -110 kJ mol-1. Hess\'s Law states that the enthalpy change for a reaction is independent of the\nroute taken, provided initial and final conditions are the same.",
   },
   {
     question:

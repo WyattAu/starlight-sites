@@ -7,7 +7,7 @@ export const flashcards1 = [
   },
   {
     front: 'Pathetic Fallacy -- definition, origin and example.',
-    back: "Coined by John Ruskin in 'Modern Painters' (1856): the attribution of human emotion to nature or weather. In A-Level usage, it describes weather mirroring emotional states. Shakespeare’s storm in 'King Lear' mirrors Lear’s mental disintegration. Bronte's use of the Yorkshire moors in 'Wuthering Heights' reflects Catherine and Heathcliff’s turbulent passion.",
+    back: "Coined by John Ruskin in 'Modern Painters' (1856): the attribution of human emotion to nature or weather. In A-Level usage, it describes weather mirroring emotional states. Shakespeare’s storm in 'King Lear' mirrors Lear’s mental disintegration. Bronte\'s use of the Yorkshire moors in 'Wuthering Heights' reflects Catherine and Heathcliff’s turbulent passion.",
     difficulty: 'easy',
   },
   {
@@ -63,7 +63,7 @@ export const flashcards3 = [
   },
   {
     front: 'Dramatic Monologue -- definition, key examples and relationship to voice.',
-    back: "A poem spoken by a single character to a silent audience, revealing their personality through what they say and how they say it. Browning perfected the form: 'My Last Duchess' reveals the Duke’s arrogance and cruelty through his controlling narration. Tennyson's 'Ulysses' and Eliot’s 'The Love Song of J. Alfred Prufrock' are major examples. The gap between what the speaker intends and what the reader perceives is central.",
+    back: "A poem spoken by a single character to a silent audience, revealing their personality through what they say and how they say it. Browning perfected the form: 'My Last Duchess' reveals the Duke’s arrogance and cruelty through his controlling narration. Tennyson\'s 'Ulysses' and Eliot’s 'The Love Song of J. Alfred Prufrock' are major examples. The gap between what the speaker intends and what the reader perceives is central.",
     difficulty: 'medium',
   },
   {

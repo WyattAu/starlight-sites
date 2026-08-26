@@ -58,7 +58,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The natural greenhouse effect keeps Earth habitable by trapping some outgoing longwave radiation -- without it, Earth's average temperature would be about -18 degrees C. The enhanced greenhouse effect occurs\nbecause human activities (burning fossil fuels, deforestation, agriculture) have increased\nconcentrations of CO2 from pre-industrial 280 ppm to over 420 ppm, methane from 722 ppb to over 1900\nppb, and nitrous oxide by approximately 30%. This intensifies heat trapping, causing global\nwarming.",
+      "The natural greenhouse effect keeps Earth habitable by trapping some outgoing longwave radiation -- without it, Earth\'s average temperature would be about -18 degrees C. The enhanced greenhouse effect occurs\nbecause human activities (burning fossil fuels, deforestation, agriculture) have increased\nconcentrations of CO2 from pre-industrial 280 ppm to over 420 ppm, methane from 722 ppb to over 1900\nppb, and nitrous oxide by approximately 30%. This intensifies heat trapping, causing global\nwarming.",
   },
   {
     question: 'Milankovitch cycles refer to:',
@@ -70,7 +70,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Milankovitch identified three orbital cycles that affect Earth's climate over timescales of tens to hundreds of thousands of years:\neccentricity (the shape of Earth’s orbit around the sun, varying over ~100,000 years), axial tilt (the angle of Earth's tilt, varying between 22.1 and 24.5 degrees over ~41,000 years), and\nprecession (the direction Earth’s axis points, cycling over ~23,000 years). These cycles trigger glacial-interglacial periods but cannot explain the current rapid warming trend.",
+      "Milankovitch identified three orbital cycles that affect Earth\'s climate over timescales of tens to hundreds of thousands of years:\neccentricity (the shape of Earth’s orbit around the sun, varying over ~100,000 years), axial tilt (the angle of Earth\'s tilt, varying between 22.1 and 24.5 degrees over ~41,000 years), and\nprecession (the direction Earth’s axis points, cycling over ~23,000 years). These cycles trigger glacial-interglacial periods but cannot explain the current rapid warming trend.",
   },
   {
     question: 'Volcanic eruptions affect climate primarily by:',
@@ -173,8 +173,8 @@ export const practiceQuestions = [
   {
     question: 'Solar variation as a cause of climate change refers to:',
     options: [
-      "A) Changes in the angle of the sun's rays reaching Earth’s surface",
-      "B) Fluctuations in the sun's energy output over its 11-year\ncycle and longer-term variations",
+      "A) Changes in the angle of the sun\'s rays reaching Earth’s surface",
+      "B) Fluctuations in the sun\'s energy output over its 11-year\ncycle and longer-term variations",
       'C) The seasonal variation in day length at different latitudes',
       'D) Changes in the reflectivity of solar panels',
     ],

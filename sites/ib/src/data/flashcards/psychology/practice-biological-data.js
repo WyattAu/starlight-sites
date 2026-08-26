@@ -8,7 +8,7 @@ export const practiceQuestions = [
       'Phineas Gage suffered damage to his left prefrontal cortex after an iron rod passed through his skull. The resulting personality changes -- including impulsivity and poor social judgement -- demonstrated the role of this region in executive function and emotional regulation.',
   },
   {
-    question: "Broca's area is located\nin which region of the brain?",
+    question: "Broca\'s area is located\nin which region of the brain?",
     options: [
       'A) Left temporal lobe',
       'B) Left frontal lobe',
@@ -17,7 +17,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Broca’s area is located in the left frontal lobe. Paul Broca identified this region through his work with patient Tan, who could understand language but could not produce fluent speech -- a condition now called Broca's\naphasia.",
+      "Broca’s area is located in the left frontal lobe. Paul Broca identified this region through his work with patient Tan, who could understand language but could not produce fluent speech -- a condition now called Broca\'s\naphasia.",
   },
   {
     question: 'Wernicke’s area is primarily associated with which cognitive function?',
@@ -29,7 +29,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Wernicke's area, located in the\nleft temporal lobe, is responsible for language comprehension. Damage to this area results in\nWernicke’s aphasia, where patients produce fluent but meaningless speech and cannot understand written or spoken language.",
+      "Wernicke\'s area, located in the\nleft temporal lobe, is responsible for language comprehension. Damage to this area results in\nWernicke’s aphasia, where patients produce fluent but meaningless speech and cannot understand written or spoken language.",
   },
   {
     question: 'What did Draganski et al. (2004) demonstrate in their study of medical students?',
@@ -60,7 +60,7 @@ export const practiceQuestions = [
     question: 'Which of the following best describes neuroplasticity?',
     options: [
       'A) The\nbrain’s ability to localise specific functions to fixed regions',
-      "B) The brain's ability to\nreorganise itself by forming new neural connections throughout life",
+      "B) The brain\'s ability to\nreorganise itself by forming new neural connections throughout life",
       'C) The degeneration of unused\nneural pathways in old age',
       'D) The transfer of functions from one hemisphere to the other after\ninjury',
     ],
@@ -86,7 +86,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "Dopamine plays a central role in the brain's reward pathway, motivating behaviour by signalling pleasure and reinforcement. It is\nalso critical for voluntary movement, as evidenced by the degeneration of dopamine-producing neurons\nin the substantia nigra in Parkinson’s disease.",
+      "Dopamine plays a central role in the brain\'s reward pathway, motivating behaviour by signalling pleasure and reinforcement. It is\nalso critical for voluntary movement, as evidenced by the degeneration of dopamine-producing neurons\nin the substantia nigra in Parkinson’s disease.",
   },
   {
     question: 'What is the primary function of acetylcholine (ACh) at the neuromuscular junction?',
@@ -165,7 +165,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Selective breeding studies, such as Tryon’s (1940) maze-bright and maze-dull rats, demonstrate that behavioural traits have a genetic basis. By selectively breeding animals for specific traits over generations, researchers show that genes influence behaviour -- supporting the biological level of analysis's principle that behaviour is genetically based.",
+      "Selective breeding studies, such as Tryon’s (1940) maze-bright and maze-dull rats, demonstrate that behavioural traits have a genetic basis. By selectively breeding animals for specific traits over generations, researchers show that genes influence behaviour -- supporting the biological level of analysis\'s principle that behaviour is genetically based.",
   },
   {
     question: 'According to Meddis (1977), what is the primary evolutionary\nfunction of sleep?',

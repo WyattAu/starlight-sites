@@ -16,7 +16,7 @@ export const flashcards1 = [
   {
     id: 'alevel-cs-fundamentals-003',
     front: 'How do you convert a number to its two’s complement negative form?',
-    back: "Invert all the bits (one's complement), then add 1 to the result.",
+    back: "Invert all the bits (one\'s complement), then add 1 to the result.",
     tags: ['number-systems'],
     difficulty: 'easy',
   },

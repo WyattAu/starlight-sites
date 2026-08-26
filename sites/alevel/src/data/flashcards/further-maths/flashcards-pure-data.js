@@ -10,7 +10,7 @@ export const flashcards1 = [
     id: 'complex-polar',
     front:
       'State Euler’s formula and convert between Cartesian and polar forms of a complex number.',
-    back: "Euler's formula: e^(iθ) = cosθ + i sinθ. Polar form: z = r(cosθ + i sinθ) = re^(iθ) where r = |z| and θ = arg(z). Cartesian to polar: r = √(a²+b²), θ = arctan(b/a). Polar to Cartesian: a = r cosθ, b = r sinθ.",
+    back: "Euler\'s formula: e^(iθ) = cosθ + i sinθ. Polar form: z = r(cosθ + i sinθ) = re^(iθ) where r = |z| and θ = arg(z). Cartesian to polar: r = √(a²+b²), θ = arctan(b/a). Polar to Cartesian: a = r cosθ, b = r sinθ.",
     tags: ['complex-numbers'],
     difficulty: 'easy',
   },

@@ -1,7 +1,7 @@
 export const flashcardData = [
   {
     id: 'rust-ownership-001',
-    front: "What are Rust's three ownership\nrules?",
+    front: "What are Rust\'s three ownership\nrules?",
     back: '1) Each value has exactly one owner. 2) When the owner goes out of scope, the value is\ndropped. 3) Values can be moved or copied to create new owners. The compiler enforces these rules at\ncompile time, preventing use-after-free, double-free, and dangling pointer bugs without a garbage\ncollector.',
     tags: ['rust', 'ownership'],
     difficulty: 'easy',
@@ -66,7 +66,7 @@ export const flashcardData = [
     id: 'rust-traits-010',
     front:
       'What are associated types in traits and how do they differ from generic type parameters?',
-    back: "Associated types (`type Item;` inside a trait) define a single concrete type that the implementing type chooses. Unlike generic parameters (`trait Foo<T>`), there is only one associated type per impl -- you cannot implement the trait multiple times with different associated types. This makes the API cleaner when there is a natural one-to-one relationship (e.g., Iterator's Item type). Use generics\nwhen callers need to choose the type, associated types when implementors determine\nit.",
+    back: "Associated types (`type Item;` inside a trait) define a single concrete type that the implementing type chooses. Unlike generic parameters (`trait Foo<T>`), there is only one associated type per impl -- you cannot implement the trait multiple times with different associated types. This makes the API cleaner when there is a natural one-to-one relationship (e.g., Iterator\'s Item type). Use generics\nwhen callers need to choose the type, associated types when implementors determine\nit.",
     tags: ['rust', 'traits'],
     difficulty: 'medium',
   },
@@ -108,7 +108,7 @@ export const flashcardData = [
   {
     id: 'rust-concurrency-016',
     front: 'What are Send and Sync traits in Rust?',
-    back: "Send means a type can be safely transferred to another thread (ownership can move across thread boundaries). Sync means a type can be safely shared between threads via shared references (&T). Most types are Send and Sync by default. Raw pointers are neither. Rc and RefCell are not Send/Sync (non-atomic). Arc<T> is Send + Sync when T: Send + Sync. Mutex<T> is Sync when T: Send. The compiler auto-implements these traits based on the type's\nfields.",
+    back: "Send means a type can be safely transferred to another thread (ownership can move across thread boundaries). Sync means a type can be safely shared between threads via shared references (&T). Most types are Send and Sync by default. Raw pointers are neither. Rc and RefCell are not Send/Sync (non-atomic). Arc<T> is Send + Sync when T: Send + Sync. Mutex<T> is Sync when T: Send. The compiler auto-implements these traits based on the type\'s\nfields.",
     tags: ['rust', 'concurrency'],
     difficulty: 'medium',
   },
@@ -178,7 +178,7 @@ export const flashcardData = [
   },
   {
     id: 'rust-ownership-026',
-    front: "What happens to a String's heap data when it is moved?",
+    front: "What happens to a String\'s heap data when it is moved?",
     back: 'The stack data (pointer, length, capacity) is copied to the new variable. The old variable becomes invalid. The heap data is NOT copied -- only the new owner manages it. When the new owner goes out of scope, the heap data is deallocated. This avoids double-free errors.',
     tags: ['rust', 'ownership'],
     difficulty: 'easy',

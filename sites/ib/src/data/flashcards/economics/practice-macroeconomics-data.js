@@ -146,7 +146,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The J-curve effect describes how a country's current account balance initially deteriorates after a currency devaluation before eventually improving. In the short run, import prices rise immediately (worsening the trade balance), but export volumes take time to adjust. Once export volumes respond and import volumes contract (assuming the Marshall-Lerner condition holds), the trade balance improves, tracing a J-shape on a graph.",
+      "The J-curve effect describes how a country\'s current account balance initially deteriorates after a currency devaluation before eventually improving. In the short run, import prices rise immediately (worsening the trade balance), but export volumes take time to adjust. Once export volumes respond and import volumes contract (assuming the Marshall-Lerner condition holds), the trade balance improves, tracing a J-shape on a graph.",
   },
   {
     question:
@@ -159,7 +159,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "LRAS shifts right when the economy's productive capacity increases. Technological improvement that increases labour productivity allows more output to be produced from the same quantity of inputs, shifting LRAS right. Consumer confidence and government spending on goods and services affect AD, not LRAS. A reduction in income tax may have supply-side effects if it increases work incentives, but it primarily affects AD in the short run.",
+      "LRAS shifts right when the economy\'s productive capacity increases. Technological improvement that increases labour productivity allows more output to be produced from the same quantity of inputs, shifting LRAS right. Consumer confidence and government spending on goods and services affect AD, not LRAS. A reduction in income tax may have supply-side effects if it increases work incentives, but it primarily affects AD in the short run.",
   },
   {
     question:

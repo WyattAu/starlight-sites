@@ -95,13 +95,13 @@ export const flashcard3 = [
   {
     id: 'abn-13',
     front: 'Describe Beck’s negative cognitive triad as an explanation of depression.',
-    back: 'Aaron Beck (1967, 1976) proposed that depression results from systematic negative thinking patterns. The negative cognitive triad has three components: (1) Negative views about the self ("I am worthless"), (2) Negative views about the world ("the world is unfair and hostile"), (3) Negative views about the future ("nothing will ever improve"). Depressed individuals also engage in cognitive distortions: catastrophising, overgeneralisation, all-or-nothing thinking, selective abstraction, and personalisation. Beck's Cognitive Therapy targets these distortions. Evaluation: strong empirical support (e.g. Lewinsohn et al., 1981 found cognitive vulnerabilities precede depression onset), but correlational.',
+    back: 'Aaron Beck (1967, 1976) proposed that depression results from systematic negative thinking patterns. The negative cognitive triad has three components: (1) Negative views about the self ("I am worthless"), (2) Negative views about the world ("the world is unfair and hostile"), (3) Negative views about the future ("nothing will ever improve"). Depressed individuals also engage in cognitive distortions: catastrophising, overgeneralisation, all-or-nothing thinking, selective abstraction, and personalisation. Beck\'s Cognitive Therapy targets these distortions. Evaluation: strong empirical support (e.g. Lewinsohn et al., 1981 found cognitive vulnerabilities precede depression onset), but correlational.',
     tags: ['depression', 'cognitive', 'Beck', 'cognitive-triad'],
     difficulty: 'medium',
   },
   {
     id: 'abn-14',
-    front: "Explain Ellis’s ABC model of depression and Seligman's learned helplessness theory.",
+    front: "Explain Ellis’s ABC model of depression and Seligman\'s learned helplessness theory.",
     back: 'Ellis (1962) -- ABC model: Activating event (A) leads to Belief (B) which leads to Consequence (C). Depression is caused by irrational beliefs (e.g. "I must be perfect") about activating events, not the events themselves. Therapy (REBT) challenges irrational beliefs. Seligman (1975) -- learned helplessness: individuals who experience uncontrollable negative events learn that their actions have no effect, leading to passivity, low motivation, and depressive symptoms. Expressed through attributional style: attributing failures to internal, stable, global causes (pessimistic explanatory style). Evidence: Abramson et al. (1978) reformulated the model.',
     tags: ['depression', 'cognitive', 'Ellis', 'Seligman', 'learned-helplessness'],
     difficulty: 'hard',

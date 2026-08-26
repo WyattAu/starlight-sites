@@ -56,7 +56,7 @@ export const flashcard2 = [
   {
     id: 'qual-8',
     front: 'What is narrative analysis and what does it reveal about psychological experience?',
-    back: "Narrative analysis examines the stories people tell about their lives and experiences, focusing on how experiences are structured, told, and made meaningful through narrative. It analyses plot, characters, temporal sequence, and the storyteller’s positioning. Key premise: humans make sense of their lives through stories, and the way a story is told reveals the person's identity, values, and understanding of events. Used in health psychology, trauma studies, and identity research. Strengths: captures personal meaning and the subjective construction of experience. Limitations: stories may be reconstructed or idealised (memory bias); difficult to compare across participants; interpretation is subjective.",
+    back: "Narrative analysis examines the stories people tell about their lives and experiences, focusing on how experiences are structured, told, and made meaningful through narrative. It analyses plot, characters, temporal sequence, and the storyteller’s positioning. Key premise: humans make sense of their lives through stories, and the way a story is told reveals the person\'s identity, values, and understanding of events. Used in health psychology, trauma studies, and identity research. Strengths: captures personal meaning and the subjective construction of experience. Limitations: stories may be reconstructed or idealised (memory bias); difficult to compare across participants; interpretation is subjective.",
     tags: ['narrative-analysis', 'methods'],
     difficulty: 'medium',
   },

@@ -257,6 +257,6 @@ export const questions = [
     question: 'What punctuation mark is used for a possessive noun?',
     options: ['Comma', 'Apostrophe', 'Full stop', 'Semi-colon'],
     correctIndex: 1,
-    explanation: "An apostrophe shows possession: the dog's bone.",
+    explanation: "An apostrophe shows possession: the dog\'s bone.",
   },
 ]

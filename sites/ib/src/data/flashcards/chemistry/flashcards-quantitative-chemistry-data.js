@@ -2,7 +2,7 @@ export const flashcard1 = [
   {
     id: 'ib-chem-quantitative-chemistry-001',
     front: 'Define the mole and state Avogadro’s number with its units.',
-    back: "The mole is the SI unit for amount of substance. One mole contains exactly 6.022 x 10^23 elementary entities (atoms, molecules, ions, or electrons). Avogadro's constant (NA) = 6.022 x 10^23 mol-1. One mole of any substance has a mass equal to its relative atomic or molecular mass in grams. For example, one mole of carbon-12 atoms has a mass of exactly 12.000 g and contains 6.022 x 10^23 atoms.",
+    back: "The mole is the SI unit for amount of substance. One mole contains exactly 6.022 x 10^23 elementary entities (atoms, molecules, ions, or electrons). Avogadro\'s constant (NA) = 6.022 x 10^23 mol-1. One mole of any substance has a mass equal to its relative atomic or molecular mass in grams. For example, one mole of carbon-12 atoms has a mass of exactly 12.000 g and contains 6.022 x 10^23 atoms.",
     tags: ['mole concept', 'Avogadro'],
     difficulty: 'easy',
   },
@@ -138,8 +138,8 @@ export const flashcard4 = [
   {
     id: 'ib-chem-quantitative-chemistry-019',
     front:
-      "How do you combine Avogadro’s law, Boyle's law, and Charles’s law into the combined gas equation?",
-    back: "Boyle's law: p is proportional to 1/V at constant T (p1V1 = p2V2). Charles’s law: V is proportional to T at constant p (V1/T1 = V2/T2). Avogadro's law: V is proportional to n at constant T and p. Combined: p1V1/T1 = p2V2/T2 (amount of gas constant). Full ideal gas equation: pV = nRT (combines all three). Use the combined gas equation when the amount of gas is constant but p, V, or T change. Use pV = nRT when the amount of gas is unknown or changes.",
+      "How do you combine Avogadro’s law, Boyle\'s law, and Charles’s law into the combined gas equation?",
+    back: "Boyle\'s law: p is proportional to 1/V at constant T (p1V1 = p2V2). Charles’s law: V is proportional to T at constant p (V1/T1 = V2/T2). Avogadro\'s law: V is proportional to n at constant T and p. Combined: p1V1/T1 = p2V2/T2 (amount of gas constant). Full ideal gas equation: pV = nRT (combines all three). Use the combined gas equation when the amount of gas is constant but p, V, or T change. Use pV = nRT when the amount of gas is unknown or changes.",
     tags: ['gas laws'],
     difficulty: 'hard',
   },

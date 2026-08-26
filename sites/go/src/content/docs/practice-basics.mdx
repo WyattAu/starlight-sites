@@ -213,32 +213,25 @@ All workers finished
 
 ### Types
 
-<PracticeProblem client:only="solid-js" question={"What is the type of `x` in `var x = 42`?&quot; options={['int64','rune','int','float64']} correctAnswer={2} explanation=&quot;When using `var x = 42` without an explicit type, Go infers the type as `int`, which is the default integer type. On 64-bit systems, `int` is 64-bit, but the type name is still `int`, not `int64`."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"Which of the following types satisfies the interface `type Stringer interface { String() string }`?&quot; options={[ 'type MyInt int with a String() string method', 'type MyInt int without methods', 'The built-in int type', 'type MyFloat float64 with a String() int method', ]} correctAnswer={0} explanation=&quot;In Go, any type that has all the methods of an interface implicitly satisfies it. A `MyInt` type with a `String() string` method satisfies the `Stringer` interface. Go uses structural typing, not explicit `implements` declarations."} difficulty="medium"  />
 
 ---
 
 ### Functions
 
-<PracticeProblem client:only="solid-js" question={"What does `func sum(nums ...int) int { total := 0; for _, n := range nums { total += n }; return total }` return when called as `sum(1, 2, 3)`?&quot; options={['3','Compilation error','6','panic']} correctAnswer={2} explanation=&quot;The `...int` syntax makes `nums` a variadic parameter of type `[]int`. Inside the function, it is treated as a slice. `sum(1, 2, 3)` passes the values 1, 2, 3, and the function sums them to 6."} difficulty="easy"  />
 
 
 ---
 
 ### Control Flow
 
-<PracticeProblem client:only="solid-js" question='What are the index and value variables when `for i, v := range []string{"a", "b", "c"}` reaches the second element?' options={['i = 1, v = 'b'','i = 2, v = 'c'','i = 1, v = 'a'','i = 0, v = 'b'']} correctAnswer={0} explanation='`range` over a slice returns (index, value) pairs. For `[]string{"a", "b", "c"}`, the second element (index 1) has index i = 1 and value v = "b".' difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"In a `select` statement with multiple ready cases, how does Go choose which case to execute?&quot; options={[ 'Pseudo-randomly among ready cases', 'The first ready case in source order', 'The case with the highest priority', 'All ready cases execute', ]} correctAnswer={0} explanation=&quot;If multiple cases in a `select` statement are ready, Go selects one pseudo-randomly. This prevents bias and is important for writing fair concurrent programs. If no cases are ready, the select blocks (unless there is a `default` case)."} difficulty="medium"  />
 
 ---
 
 ### Error Handling
 
-<PracticeProblem client:only="solid-js" question='What does `fmt.Errorf("task failed: %w", err)` do?' options={[ 'Wraps err with additional context, creating an error chain', 'Replaces err entirely', 'Panics with the error message', 'Logs the error to stderr', ]} correctAnswer={0} explanation="The `%w` verb in `fmt.Errorf` wraps the original error, creating a new error that contains the original. This allows using `errors.Is()` and `errors.As()` to inspect the error chain, which is Go's preferred error wrapping pattern." difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"How do you create a custom error type in Go?&quot; options={[ 'Define a struct implementing the `error` interface with an `Error() string` method', 'Use the `throw` keyword', 'Subclass the `Error` struct', 'Use `errors.New` only', ]} correctAnswer={0} explanation='To create a custom error, define a struct type and give it an `Error() string` method. For example: `type MyError struct { Code int }; func (e *MyError) Error() string { return fmt.Sprintf(&quot;error %d&quot;, e.Code) }`. This satisfies the built-in `error` interface.' difficulty=&quot;medium"}  />
 
 ## Intuition
 

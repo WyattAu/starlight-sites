@@ -174,7 +174,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "In free fall near Earth's surface with no air resistance, the only force is gravity,\ngiving constant acceleration g = 9.81 m s⁻² downward. Velocity increases linearly but acceleration\nremains constant.",
+      "In free fall near Earth\'s surface with no air resistance, the only force is gravity,\ngiving constant acceleration g = 9.81 m s⁻² downward. Velocity increases linearly but acceleration\nremains constant.",
   },
   {
     question:

@@ -227,7 +227,7 @@ export const questions = [
     ],
     correctIndex: 2,
     explanation:
-      "Darwin’s natural selection requires: (1) variation in traits, (2) heritability of those traits, (3) differential survival/reproduction based on those traits, and (4) overproduction of offspring. Option C describes Lamarckian inheritance (acquired characteristics), which is not part of Darwin's theory of natural selection.",
+      "Darwin’s natural selection requires: (1) variation in traits, (2) heritability of those traits, (3) differential survival/reproduction based on those traits, and (4) overproduction of offspring. Option C describes Lamarckian inheritance (acquired characteristics), which is not part of Darwin\'s theory of natural selection.",
   },
   {
     id: 'ns2',

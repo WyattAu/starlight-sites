@@ -47,7 +47,7 @@ export const questions = [
       'To sincerely advocate for the proposed solutions',
       'To expose the absurdity of current approaches by exaggeration, compelling readers to reconsider their assumptions',
       'To confuse the reader about the author’s true position',
-      "To demonstrate the author's superior knowledge of the subject",
+      "To demonstrate the author\'s superior knowledge of the subject",
     ],
     correctIndex: 1,
     explanation:

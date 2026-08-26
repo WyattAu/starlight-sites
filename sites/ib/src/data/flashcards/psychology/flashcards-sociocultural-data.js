@@ -78,7 +78,7 @@ export const flashcard3 = [
   {
     id: 'soc-11',
     front: 'What is acculturation and how does Berry’s framework explain it?',
-    back: "Acculturation is the process of psychological and cultural change resulting from contact between cultural groups. Berry (1997) proposed a two-dimensional framework based on attitudes towards one's own culture (maintaining heritage) and the host culture (adopting new culture), producing four strategies: (1) Integration -- maintaining own culture while adopting host culture (most adaptive). (2) Assimilation -- abandoning own culture for host culture. (3) Separation -- maintaining own culture, rejecting host culture. (4) Marginalisation -- rejecting both cultures (least adaptive). Research generally supports integration as the most successful strategy for psychological well-being.",
+    back: "Acculturation is the process of psychological and cultural change resulting from contact between cultural groups. Berry (1997) proposed a two-dimensional framework based on attitudes towards one\'s own culture (maintaining heritage) and the host culture (adopting new culture), producing four strategies: (1) Integration -- maintaining own culture while adopting host culture (most adaptive). (2) Assimilation -- abandoning own culture for host culture. (3) Separation -- maintaining own culture, rejecting host culture. (4) Marginalisation -- rejecting both cultures (least adaptive). Research generally supports integration as the most successful strategy for psychological well-being.",
     tags: ['acculturation', 'Berry', 'cultural adaptation'],
     difficulty: 'medium',
   },
@@ -130,7 +130,7 @@ export const flashcard4 = [
   {
     id: 'soc-18',
     front: 'What is the significance of Hofstede’s research and what are its limitations?',
-    back: "Hofstede's cultural dimensions are significant because they provide a quantitative framework for comparing cultures and have been widely applied in cross-cultural psychology, business, and education. They help predict cultural differences in management styles, communication, and social behaviour. However, limitations include: (1) The original IBM sample was not representative of all cultures (only employees from one company). (2) Ecological fallacy -- assuming cultural-level findings apply to individuals (some individuals in collectivist cultures may be highly individualistic). (3) The nation-state may not be the appropriate unit of cultural analysis. (4) The dimensions may oversimplify complex cultural dynamics. (5) Cultures change over time, but the original data is from the 1960s--70s.",
+    back: "Hofstede\'s cultural dimensions are significant because they provide a quantitative framework for comparing cultures and have been widely applied in cross-cultural psychology, business, and education. They help predict cultural differences in management styles, communication, and social behaviour. However, limitations include: (1) The original IBM sample was not representative of all cultures (only employees from one company). (2) Ecological fallacy -- assuming cultural-level findings apply to individuals (some individuals in collectivist cultures may be highly individualistic). (3) The nation-state may not be the appropriate unit of cultural analysis. (4) The dimensions may oversimplify complex cultural dynamics. (5) Cultures change over time, but the original data is from the 1960s--70s.",
     tags: ['Hofstede', 'cultural dimensions', 'evaluation'],
     difficulty: 'hard',
   },

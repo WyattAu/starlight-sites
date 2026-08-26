@@ -24,7 +24,7 @@ export const flashcard1 = [
     id: 'highers-physics-004',
     front:
       'State Ohm’s law and explain the relationships between voltage, current, and resistance.',
-    back: "Ohm's law: the current through a conductor is directly proportional to the voltage across it, provided temperature remains constant. V = IR, where V is voltage (volts), I is current (amperes), R is resistance (ohms). Rearranged: I = V/R and R = V/I. A V-I graph for an ohmic conductor is a straight line through the origin. Non-ohmic conductors (e.g. filament lamps, diodes) do not follow Ohm’s law because resistance changes with voltage/current or temperature.",
+    back: "Ohm\'s law: the current through a conductor is directly proportional to the voltage across it, provided temperature remains constant. V = IR, where V is voltage (volts), I is current (amperes), R is resistance (ohms). Rearranged: I = V/R and R = V/I. A V-I graph for an ohmic conductor is a straight line through the origin. Non-ohmic conductors (e.g. filament lamps, diodes) do not follow Ohm’s law because resistance changes with voltage/current or temperature.",
     tags: ['electricity'],
     difficulty: 'easy',
   },
@@ -71,7 +71,7 @@ export const flashcard2 = [
   {
     id: 'highers-physics-010',
     front: 'Describe gravitational fields and the factors affecting gravitational force.',
-    back: "A gravitational field is the region around a mass where another mass experiences a gravitational force. Newton’s law of universal gravitation: F = GMm/r squared, where G is the gravitational constant (6.67 x 10 to the power of -11 N m squared/kg squared), M and m are masses, r is the distance between their centres. Gravitational field strength: g = GM/r squared. The force is always attractive, acts along the line joining the centres of the masses, and obeys an inverse square law. On Earth's surface g is approximately 9.8 N/kg; it decreases with altitude.",
+    back: "A gravitational field is the region around a mass where another mass experiences a gravitational force. Newton’s law of universal gravitation: F = GMm/r squared, where G is the gravitational constant (6.67 x 10 to the power of -11 N m squared/kg squared), M and m are masses, r is the distance between their centres. Gravitational field strength: g = GM/r squared. The force is always attractive, acts along the line joining the centres of the masses, and obeys an inverse square law. On Earth\'s surface g is approximately 9.8 N/kg; it decreases with altitude.",
     tags: ['dynamics'],
     difficulty: 'medium',
   },

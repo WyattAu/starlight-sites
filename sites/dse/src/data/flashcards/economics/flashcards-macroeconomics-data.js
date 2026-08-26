@@ -23,7 +23,7 @@ export const flashcards1 = [
   {
     id: 'dse-economics-macroeconomics-004',
     front: 'Distinguish between GNP and GDP.',
-    back: "GDP measures output produced within a country’s borders regardless of nationality of producers. GNP (Gross National Product) measures output produced by a country's residents regardless of location. GNP = GDP + Net Factor Income from Abroad (NFIA). NFIA = income earned by residents from abroad minus income earned by non-residents domestically. For Hong Kong, NFIA is typically positive due to substantial overseas investment income.",
+    back: "GDP measures output produced within a country’s borders regardless of nationality of producers. GNP (Gross National Product) measures output produced by a country\'s residents regardless of location. GNP = GDP + Net Factor Income from Abroad (NFIA). NFIA = income earned by residents from abroad minus income earned by non-residents domestically. For Hong Kong, NFIA is typically positive due to substantial overseas investment income.",
     tags: ['gnp-vs-gdp'],
     difficulty: 'hard',
   },

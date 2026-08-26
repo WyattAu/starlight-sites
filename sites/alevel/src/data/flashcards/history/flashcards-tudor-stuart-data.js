@@ -11,7 +11,7 @@ export const flashcards1 = [
   },
   {
     front: 'Thomas Wolsey -- role, rise and fall under Henry VIII.',
-    back: "Lord Chancellor (1515-1529) and Henry VIII’s chief minister. Organised the Field of Cloth of Gold (1520) -- diplomatic summit with Francis I of France. Failed to secure Henry's annulment from Catherine of Aragon; the Pope’s refusal led to Wolsey's downfall. Accused of praemunire (undermining royal authority) and died en route to trial (1530). Ives (2009) argues Wolsey’s administrative innovations laid groundwork for Cromwell's reforms.",
+    back: "Lord Chancellor (1515-1529) and Henry VIII’s chief minister. Organised the Field of Cloth of Gold (1520) -- diplomatic summit with Francis I of France. Failed to secure Henry\'s annulment from Catherine of Aragon; the Pope’s refusal led to Wolsey\'s downfall. Accused of praemunire (undermining royal authority) and died en route to trial (1530). Ives (2009) argues Wolsey’s administrative innovations laid groundwork for Cromwell\'s reforms.",
     difficulty: 'medium',
   },
   {
@@ -34,7 +34,7 @@ export const flashcards2 = [
   },
   {
     front: "Lady Jane Grey -- the 'Nine Days Queen'.",
-    back: "Great-niece of Henry VIII. Named heir in Edward VI’s 'Devise for the Succession' (1553) to prevent Catholic Mary taking the throne. Crowned 10 July 1553, deposed 19 July 1553 when the Privy Council switched to Mary. Imprisoned in the Tower, executed February 1554 after Wyatt’s Rebellion. Ives (2009) questions the extent of Jane's willingness and argues she was manipulated by Northumberland. Aged 16-17 at death.",
+    back: "Great-niece of Henry VIII. Named heir in Edward VI’s 'Devise for the Succession' (1553) to prevent Catholic Mary taking the throne. Crowned 10 July 1553, deposed 19 July 1553 when the Privy Council switched to Mary. Imprisoned in the Tower, executed February 1554 after Wyatt’s Rebellion. Ives (2009) questions the extent of Jane\'s willingness and argues she was manipulated by Northumberland. Aged 16-17 at death.",
     difficulty: 'hard',
   },
   {

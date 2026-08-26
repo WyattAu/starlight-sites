@@ -112,7 +112,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Sustainable transport\nstrategies include: investing in high-quality public transit (bus rapid transit systems like\nCuritiba's, metro systems, integrated ticketing), dedicated cycling infrastructure (Copenhagen, Amsterdam), pedestrianisation of city centres, congestion charging (London, Singapore), car-free zones, and mixed-use zoning that reduces travel distances. These approaches aim to reduce emissions, improve air quality, promote health through active transport, and ensure equitable access to urban opportunities. Curitiba’s BRT system carries approximately 2 million passengers daily.",
+      "Sustainable transport\nstrategies include: investing in high-quality public transit (bus rapid transit systems like\nCuritiba\'s, metro systems, integrated ticketing), dedicated cycling infrastructure (Copenhagen, Amsterdam), pedestrianisation of city centres, congestion charging (London, Singapore), car-free zones, and mixed-use zoning that reduces travel distances. These approaches aim to reduce emissions, improve air quality, promote health through active transport, and ensure equitable access to urban opportunities. Curitiba’s BRT system carries approximately 2 million passengers daily.",
   },
   {
     question: 'Green cities as a sustainable urban strategy incorporate:',
@@ -178,7 +178,7 @@ export const practiceQuestions = [
     question: 'Primate cities differ from other large cities in that they:',
     options: [
       'A) Are always capital cities located on coastlines',
-      "B) Are disproportionately larger than all other cities in the country, dominating the country's economic, political, and cultural life",
+      "B) Are disproportionately larger than all other cities in the country, dominating the country\'s economic, political, and cultural life",
       'C) Have a population of exactly 10 million',
       'D)\nAre exclusively found in developed countries',
     ],

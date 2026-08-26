@@ -10,7 +10,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "A limited third-person narrator (also called focalised narration) restricts access to one character’s interiority. Wayne C. Booth's 'The Rhetoric of\nFiction' (1961) distinguishes between omniscient and limited narrators by degree of access to characters' consciousness.",
+      "A limited third-person narrator (also called focalised narration) restricts access to one character’s interiority. Wayne C. Booth\'s 'The Rhetoric of\nFiction' (1961) distinguishes between omniscient and limited narrators by degree of access to characters' consciousness.",
   },
   {
     question:
@@ -23,7 +23,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "The green light\nat the end of Daisy’s dock represents Gatsby's longing and, by extension, the elusive promise of the\nAmerican Dream. As Nick observes, Gatsby 'stretched out his arms toward the dark water in a curious way' -- the light embodies desire that recedes as one approaches it.",
+      "The green light\nat the end of Daisy’s dock represents Gatsby\'s longing and, by extension, the elusive promise of the\nAmerican Dream. As Nick observes, Gatsby 'stretched out his arms toward the dark water in a curious way' -- the light embodies desire that recedes as one approaches it.",
   },
   {
     question: 'A writer uses\npathetic fallacy when they:',
@@ -76,7 +76,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "In Arthur Miller's 'Death of a Salesman', what function do\nstage directions primarily serve?",
+      "In Arthur Miller\'s 'Death of a Salesman', what function do\nstage directions primarily serve?",
     options: [
       "A) They reveal characters' inner thoughts to the audience directly",
       'B) They provide only practical lighting and blocking instructions for performers',
@@ -121,7 +121,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Free indirect discourse (FID) was identified by the French critic\nCharles Bally in 1912 and popularised in English literary criticism by Dorrit Cohn in 'Transparent Minds' (1978). Jane Austen is a canonical practitioner: 'What could she mean by that?' merges the\nnarrator’s voice with Elizabeth Bennet's perspective without 'she thought' or 'she wondered'.",
+      "Free indirect discourse (FID) was identified by the French critic\nCharles Bally in 1912 and popularised in English literary criticism by Dorrit Cohn in 'Transparent Minds' (1978). Jane Austen is a canonical practitioner: 'What could she mean by that?' merges the\nnarrator’s voice with Elizabeth Bennet\'s perspective without 'she thought' or 'she wondered'.",
   },
   {
     question: 'A non-linear narrative structure is most likely employed by an author to:',
@@ -159,7 +159,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "'Macbeth'\n(c. 1606) was written during James I’s reign, shortly after the Gunpowder Plot (1605). The play's\nobsessive concern with legitimate succession, the divine right of kings, and the consequences of\nregicide directly reflect Jacobean anxieties. E. A. J. Honigmann in 'Shakespeare: Seven Tragedies'\n(1962) argues the play is a 'state tragedy' as much as a psychological one.",
+      "'Macbeth'\n(c. 1606) was written during James I’s reign, shortly after the Gunpowder Plot (1605). The play\'s\nobsessive concern with legitimate succession, the divine right of kings, and the consequences of\nregicide directly reflect Jacobean anxieties. E. A. J. Honigmann in 'Shakespeare: Seven Tragedies'\n(1962) argues the play is a 'state tragedy' as much as a psychological one.",
   },
   {
     question:
@@ -185,7 +185,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "Lear's\nhamartia -- following Aristotle’s 'Poetics' -- is his catastrophic misjudgement: dividing his kingdom based on a love test, banishing Cordelia and Kent. His inability to distinguish appearance from reality drives the tragedy. A. C. Bradley in 'Shakespearean Tragedy' (1904) identifies this as a failure of moral perception that leads to suffering and eventual anagnorisis (recognition).",
+      "Lear\'s\nhamartia -- following Aristotle’s 'Poetics' -- is his catastrophic misjudgement: dividing his kingdom based on a love test, banishing Cordelia and Kent. His inability to distinguish appearance from reality drives the tragedy. A. C. Bradley in 'Shakespearean Tragedy' (1904) identifies this as a failure of moral perception that leads to suffering and eventual anagnorisis (recognition).",
   },
   {
     question: 'When comparing two texts using AQA’s AO3, a student should\nprimarily focus on:',
@@ -222,6 +222,6 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "An effective comparative thesis identifies a precise argument about the relationship\nbetween texts -- for instance, 'While both Atwood and Orwell use dystopian settings to critique totalitarianism, Atwood’s focus on gendered oppression through Gilead's theocratic framework offers a distinctly feminist intervention that Orwell’s politically-oriented '1984' does not anticipate.' This moves beyond descriptive comparison to analytical argument.",
+      "An effective comparative thesis identifies a precise argument about the relationship\nbetween texts -- for instance, 'While both Atwood and Orwell use dystopian settings to critique totalitarianism, Atwood’s focus on gendered oppression through Gilead\'s theocratic framework offers a distinctly feminist intervention that Orwell’s politically-oriented '1984' does not anticipate.' This moves beyond descriptive comparison to analytical argument.",
   },
 ]

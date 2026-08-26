@@ -16,7 +16,7 @@ export const flashcards1 = [
   {
     id: 'swift-types-003',
     front: 'What are Swift’s integer types and how is Int sized?',
-    back: "Int8, Int16, Int32, Int64, and UInt variants. Int maps to the platform's native word size: Int64 on 64-bit, Int32 on 32-bit.",
+    back: "Int8, Int16, Int32, Int64, and UInt variants. Int maps to the platform\'s native word size: Int64 on 64-bit, Int32 on 32-bit.",
     tags: ['swift', 'types'],
     difficulty: 'easy',
   },
@@ -30,7 +30,7 @@ export const flashcards1 = [
   {
     id: 'swift-optionals-005',
     front: 'What is an optional in Swift and what values can it hold?',
-    back: 'An optional (written as T?) can hold either a value of type T or nil. Example: var name: String? = "Alice". It is Swift's mechanism for safely handling the absence of a value.',
+    back: 'An optional (written as T?) can hold either a value of type T or nil. Example: var name: String? = "Alice". It is Swift\'s mechanism for safely handling the absence of a value.',
     tags: ['swift', 'optionals'],
     difficulty: 'easy',
   },
@@ -44,7 +44,7 @@ export const flashcards1 = [
   {
     id: 'swift-optionals-007',
     front: 'What does the nil coalescing operator ?? do?',
-    back: 'The expression a ?? b returns a if it is non-nil; otherwise returns b. Example: let name = username ?? "Guest". b must match the type of a's unwrapped value.',
+    back: 'The expression a ?? b returns a if it is non-nil; otherwise returns b. Example: let name = username ?? "Guest". b must match the type of a\'s unwrapped value.',
     tags: ['swift', 'optionals'],
     difficulty: 'easy',
   },
@@ -179,7 +179,7 @@ export const flashcards2 = [
   },
   {
     id: 'swift-access-control-026',
-    front: "What are Swift's access control levels?",
+    front: "What are Swift\'s access control levels?",
     back: 'open (any module can access and subclass), public (any module can access, no subclassing outside), internal (same module, default), filePrivate (same file), private (same declaration/extension). Use the most restrictive level possible to enforce encapsulation.',
     tags: ['swift', 'access-control'],
     difficulty: 'easy',
@@ -194,7 +194,7 @@ export const flashcards2 = [
   {
     id: 'swift-deinit-028',
     front: 'What does deinit do in a Swift class?',
-    back: "deinit is called when an instance's reference count reaches zero and it is about to be deallocated. Use it to clean up resources (close file handles, invalidate timers, unregister observers). deinit is not called for value types. You cannot call deinit directly or use it with structs.",
+    back: "deinit is called when an instance\'s reference count reaches zero and it is about to be deallocated. Use it to clean up resources (close file handles, invalidate timers, unregister observers). deinit is not called for value types. You cannot call deinit directly or use it with structs.",
     tags: ['swift', 'memory'],
     difficulty: 'easy',
   },

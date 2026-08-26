@@ -46,7 +46,7 @@ export const practiceQuestions = [
     options: ['A) 19.5°', 'B) 45.0°', 'C) 20.0°', 'D) 30.0°'],
     correct: 0,
     explanation:
-      "Using Snell's\nlaw: n₁ sin θ₁ = n₂ sin θ₂. 1.00 × sin 30° = 1.50 × sin θ₂. 0.500 = 1.50 × sin θ₂. sin θ₂ = 0.333.\nθ₂ = 19.5°. Light bends towards the normal when entering a denser medium.",
+      "Using Snell\'s\nlaw: n₁ sin θ₁ = n₂ sin θ₂. 1.00 × sin 30° = 1.50 × sin θ₂. 0.500 = 1.50 × sin θ₂. sin θ₂ = 0.333.\nθ₂ = 19.5°. Light bends towards the normal when entering a denser medium.",
   },
   {
     question:

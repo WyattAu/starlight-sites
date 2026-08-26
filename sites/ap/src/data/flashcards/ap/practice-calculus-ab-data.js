@@ -16,7 +16,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Use Euler's method with step size\nh = 0.5 to approximate y(1) for dy/dx = x + y, y(0) = 1.",
+      "Use Euler\'s method with step size\nh = 0.5 to approximate y(1) for dy/dx = x + y, y(0) = 1.",
     options: ['A) 3.0', 'B) 3.25', 'C) 2.75', 'D) 3.5'],
     correct: 0,
     explanation:

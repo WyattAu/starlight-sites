@@ -23,7 +23,7 @@ export const flashcard1 = [
   {
     id: 'cbse-physics-class12-004',
     front: 'State Ohm’s law and define resistivity.',
-    back: "Ohm's law: The potential difference across a conductor is directly proportional to the current through it, provided physical conditions remain constant. V = IR. Resistivity ρ = RA/l is an intrinsic property of a material that quantifies how strongly it resists electric current.",
+    back: "Ohm\'s law: The potential difference across a conductor is directly proportional to the current through it, provided physical conditions remain constant. V = IR. Resistivity ρ = RA/l is an intrinsic property of a material that quantifies how strongly it resists electric current.",
     tags: ['current electricity', 'Ohm’s law'],
     difficulty: 'easy',
   },
@@ -40,7 +40,7 @@ export const flashcard2 = [
   {
     id: 'cbse-physics-class12-006',
     front: 'State Gauss’s law. What is its significance?',
-    back: "The net electric flux through any closed surface is equal to (1/ε₀) times the total charge enclosed by that surface. ∮E·dA = Q/ε₀. Gauss's law is useful for calculating electric fields in situations with high symmetry: spherical, cylindrical, or planar charge distributions.",
+    back: "The net electric flux through any closed surface is equal to (1/ε₀) times the total charge enclosed by that surface. ∮E·dA = Q/ε₀. Gauss\'s law is useful for calculating electric fields in situations with high symmetry: spherical, cylindrical, or planar charge distributions.",
     tags: ['electrostatics', 'Gauss’s law'],
     difficulty: 'medium',
   },
@@ -61,7 +61,7 @@ export const flashcard2 = [
   {
     id: 'cbse-physics-class12-009',
     front: 'State the Biot-Savart law. How does it differ from Coulomb’s law?',
-    back: "The magnetic field dB at a point due to a current element Idl is: dB = (μ₀/4π)(I dl × r̂/r²). Unlike Coulomb's law (which is central and spherically symmetric), the Biot-Savart law is non-central because dB is perpendicular to both Idl and the displacement vector.",
+    back: "The magnetic field dB at a point due to a current element Idl is: dB = (μ₀/4π)(I dl × r̂/r²). Unlike Coulomb\'s law (which is central and spherically symmetric), the Biot-Savart law is non-central because dB is perpendicular to both Idl and the displacement vector.",
     tags: ['magnetism', 'Biot-Savart law'],
     difficulty: 'medium',
   },
@@ -100,7 +100,7 @@ export const flashcard3 = [
   {
     id: 'cbse-physics-class12-014',
     front: 'State Einstein’s photoelectric equation and define the stopping potential.',
-    back: "Einstein's equation: KEmax = hf - φ, where hf is the photon energy and φ is the work function (minimum energy to liberate an electron). Stopping potential V₀ is the minimum reverse potential needed to stop the most energetic photoelectrons: eV₀ = KEmax = hf - φ.",
+    back: "Einstein\'s equation: KEmax = hf - φ, where hf is the photon energy and φ is the work function (minimum energy to liberate an electron). Stopping potential V₀ is the minimum reverse potential needed to stop the most energetic photoelectrons: eV₀ = KEmax = hf - φ.",
     tags: ['modern physics', 'photoelectric effect'],
     difficulty: 'medium',
   },
@@ -124,7 +124,7 @@ export const flashcard4 = [
   {
     id: 'cbse-physics-class12-017',
     front: 'Derive the expression for the magnetic field inside a solenoid using Ampere’s law.',
-    back: "Applying Ampere's circuital law to a rectangular amperian loop inside and outside an ideal solenoid with n turns per unit length carrying current I: ∮B·dl = BL = μ₀(nLI). Therefore B = μ₀nI inside the solenoid. Outside, the field is approximately zero. The field is uniform and parallel to the axis.",
+    back: "Applying Ampere\'s circuital law to a rectangular amperian loop inside and outside an ideal solenoid with n turns per unit length carrying current I: ∮B·dl = BL = μ₀(nLI). Therefore B = μ₀nI inside the solenoid. Outside, the field is approximately zero. The field is uniform and parallel to the axis.",
     tags: ['magnetism', 'solenoid'],
     difficulty: 'hard',
   },
@@ -146,7 +146,7 @@ export const flashcard4 = [
     id: 'cbse-physics-class12-020',
     front:
       'Describe the displacement current concept introduced by Maxwell. How does it lead to electromagnetic wave propagation?',
-    back: "Maxwell introduced displacement current I_d = ε₀(dΦ_E/dt) to make Ampere’s law consistent in non-steady situations. Modified Ampere's law: ∮B·dl = μ₀(I + I_d). Combined with Faraday’s law, this predicts self-sustaining oscillating electric and magnetic fields that propagate as electromagnetic waves at c = 1/√(μ₀ε₀).",
+    back: "Maxwell introduced displacement current I_d = ε₀(dΦ_E/dt) to make Ampere’s law consistent in non-steady situations. Modified Ampere\'s law: ∮B·dl = μ₀(I + I_d). Combined with Faraday’s law, this predicts self-sustaining oscillating electric and magnetic fields that propagate as electromagnetic waves at c = 1/√(μ₀ε₀).",
     tags: ['electromagnetic waves', 'Maxwell'],
     difficulty: 'hard',
   },

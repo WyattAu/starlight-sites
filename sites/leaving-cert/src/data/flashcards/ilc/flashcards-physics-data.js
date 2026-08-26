@@ -48,14 +48,14 @@ export const flashcard2 = [
   {
     id: 'ilc-physics-007',
     front: 'State Ohm’s law and describe how it relates current, voltage, and resistance.',
-    back: "Ohm's law: the current through a conductor is directly proportional to the voltage across it, provided temperature remains constant. Equation: V = IR (voltage = current times resistance). Rearrangements: I = V/R, R = V/I. A V-I graph for an ohmic conductor is a straight line through the origin. Non-ohmic components (e.g., filament lamps, diodes) do not follow Ohm’s law.",
+    back: "Ohm\'s law: the current through a conductor is directly proportional to the voltage across it, provided temperature remains constant. Equation: V = IR (voltage = current times resistance). Rearrangements: I = V/R, R = V/I. A V-I graph for an ohmic conductor is a straight line through the origin. Non-ohmic components (e.g., filament lamps, diodes) do not follow Ohm’s law.",
     tags: ['electricity'],
     difficulty: 'easy',
   },
   {
     id: 'ilc-physics-008',
     front: 'State Newton’s second law of motion and explain how to calculate resultant force.',
-    back: "The resultant force acting on an object is equal to the rate of change of its momentum. For constant mass: F = ma (force = mass times acceleration). Unit: newton (N), where 1 N = 1 kg times 1 m/s squared. Resultant force is the vector sum of all forces acting on an object. If forces are in the same direction, add them; if opposite, subtract. Net force of zero means constant velocity (Newton's first law).",
+    back: "The resultant force acting on an object is equal to the rate of change of its momentum. For constant mass: F = ma (force = mass times acceleration). Unit: newton (N), where 1 N = 1 kg times 1 m/s squared. Resultant force is the vector sum of all forces acting on an object. If forces are in the same direction, add them; if opposite, subtract. Net force of zero means constant velocity (Newton\'s first law).",
     tags: ['mechanics'],
     difficulty: 'medium',
   },
@@ -70,7 +70,7 @@ export const flashcard2 = [
   {
     id: 'ilc-physics-010',
     front: 'State Snell’s law and explain refraction.',
-    back: "Refraction: the bending of light as it passes from one medium to another due to a change in speed. Snell's law: n1 times sin(theta1) = n2 times sin(theta2), where n is refractive index and theta is the angle of incidence or refraction measured from the normal. Light slows down entering a denser medium and bends toward the normal. Total internal reflection occurs when light travels from a denser to a less dense medium and the angle of incidence exceeds the critical angle.",
+    back: "Refraction: the bending of light as it passes from one medium to another due to a change in speed. Snell\'s law: n1 times sin(theta1) = n2 times sin(theta2), where n is refractive index and theta is the angle of incidence or refraction measured from the normal. Light slows down entering a denser medium and bends toward the normal. Total internal reflection occurs when light travels from a denser to a less dense medium and the angle of incidence exceeds the critical angle.",
     tags: ['waves'],
     difficulty: 'medium',
   },
@@ -121,7 +121,7 @@ export const flashcard4 = [
   {
     id: 'ilc-physics-016',
     front: 'Describe the photoelectric effect and state Einstein’s equation.',
-    back: "When light of sufficient frequency shines on a metal surface, electrons are emitted (photoelectrons). Key observations: (1) No emission below a threshold frequency regardless of intensity. (2) Emission is instantaneous above threshold. (3) Higher frequency increases maximum kinetic energy. Einstein's equation: hf = phi + KE_max, where hf is photon energy, phi is the work function (minimum energy to release an electron), and KE_max is the maximum kinetic energy of emitted electrons. This supports the particle model of light.",
+    back: "When light of sufficient frequency shines on a metal surface, electrons are emitted (photoelectrons). Key observations: (1) No emission below a threshold frequency regardless of intensity. (2) Emission is instantaneous above threshold. (3) Higher frequency increases maximum kinetic energy. Einstein\'s equation: hf = phi + KE_max, where hf is photon energy, phi is the work function (minimum energy to release an electron), and KE_max is the maximum kinetic energy of emitted electrons. This supports the particle model of light.",
     tags: ['modern physics'],
     difficulty: 'medium',
   },

@@ -66,7 +66,7 @@ export const flashcard2 = [
     id: 'fw-9',
     front:
       'Evaluate two demand-side strategies for managing water scarcity: water metering and water recycling.',
-    back: 'Water metering: charges users based on volume consumed, creating economic incentive to reduce usage. Studies show metering reduces household consumption by 10-15%. Disadvantage: regressive impact on low-income households. Water recycling (greywater reuse, treated wastewater): Singapore's NEWater treats wastewater to potable standard using microfiltration, reverse osmosis, and UV disinfection. Supplies 40% of demand, reduces dependency on imported water from Malaysia. Israel recycles 85% of its wastewater, the highest rate globally. Disadvantages: public perception ("toilet to tap"), high infrastructure costs. Both strategies are more sustainable than supply-side alternatives as they reduce demand rather than increasing supply.',
+    back: 'Water metering: charges users based on volume consumed, creating economic incentive to reduce usage. Studies show metering reduces household consumption by 10-15%. Disadvantage: regressive impact on low-income households. Water recycling (greywater reuse, treated wastewater): Singapore\'s NEWater treats wastewater to potable standard using microfiltration, reverse osmosis, and UV disinfection. Supplies 40% of demand, reduces dependency on imported water from Malaysia. Israel recycles 85% of its wastewater, the highest rate globally. Disadvantages: public perception ("toilet to tap"), high infrastructure costs. Both strategies are more sustainable than supply-side alternatives as they reduce demand rather than increasing supply.',
     tags: ['demand-side', 'management'],
     difficulty: 'medium',
   },
@@ -100,7 +100,7 @@ export const flashcard3 = [
     id: 'fw-13',
     front:
       'How does afforestation function as a soft engineering flood management strategy? Use a specific case study.',
-    back: 'Afforestation (tree planting) in a drainage basin increases interception of rainfall by the canopy, enhances infiltration through root systems and improved soil structure, and increases transpiration. This reduces surface runoff, increases lag time, and lowers peak discharge. Case study: In the Yorkshire Dales, UK, planting 40,000 trees in the upper catchment of the River Ouse was estimated to reduce downstream flood peak by up to 5%. China's "Great Green Wall" afforestation programme in the Loess Plateau reduced soil erosion and downstream flooding in the Yellow River basin. Limitations: takes decades for trees to mature, land must be taken out of agriculture, effectiveness varies with tree species and planting density.',
+    back: 'Afforestation (tree planting) in a drainage basin increases interception of rainfall by the canopy, enhances infiltration through root systems and improved soil structure, and increases transpiration. This reduces surface runoff, increases lag time, and lowers peak discharge. Case study: In the Yorkshire Dales, UK, planting 40,000 trees in the upper catchment of the River Ouse was estimated to reduce downstream flood peak by up to 5%. China\'s "Great Green Wall" afforestation programme in the Loess Plateau reduced soil erosion and downstream flooding in the Yellow River basin. Limitations: takes decades for trees to mature, land must be taken out of agriculture, effectiveness varies with tree species and planting density.',
     tags: ['flood-management', 'soft-engineering', 'case-study'],
     difficulty: 'medium',
   },
@@ -114,7 +114,7 @@ export const flashcard3 = [
   },
   {
     id: 'fw-15',
-    front: 'Evaluate Singapore's "Four National Taps" strategy for water security.',
+    front: 'Evaluate Singapore\'s "Four National Taps" strategy for water security.',
     back: 'Singapore imports over 50% of its water from Malaysia under the 1962 Water Agreement (expires 2061), creating strategic vulnerability. The Four National Taps: (1) Local catchment -- 17 reservoirs collecting rainfall from two-thirds of the island. (2) Imported water -- from Malaysia. (3) NEWater -- ultra-pure recycled wastewater meeting WHO standards; currently supplies 40% of demand, planned to reach 55%. (4) Desalination -- four plants using reverse osmosis, supplying 30% of demand. Evaluation: demonstrates diversification reducing reliance on any single source. NEWater is a global model for recycling but requires significant energy. Desalination is expensive and energy-intensive. The strategy ensures water security for 5.7 million people on a small island with limited natural freshwater. Shows how technology and planning can overcome physical water scarcity.',
     tags: ['case-study', 'water-security', 'Singapore'],
     difficulty: 'hard',
@@ -134,7 +134,7 @@ export const flashcard4 = [
     id: 'fw-17',
     front:
       'Explain inter-basin transfer as a supply-side strategy. What are its advantages and disadvantages?',
-    back: "Inter-basin transfer involves diverting water from a water-rich basin to a water-deficient basin via canals, tunnels, or pipelines. Examples: China’s South-to-North Water Transfer Project (the largest ever, moving water from the Yangtze to the Yellow River basin, costing $62 billion), the Lesotho Highlands Water Project (supplying South Africa's Gauteng province). Advantages: addresses large-scale regional water imbalances, can support economic development in arid regions, reliable year-round supply. Disadvantages: massive cost and construction time, environmental disruption (altered flow regimes, habitat fragmentation), displacement of communities, potential for water quality conflicts between basins, and energy requirements for pumping over elevation changes. Case study: China’s project has displaced over 300,000 people and caused significant ecological concerns.",
+    back: "Inter-basin transfer involves diverting water from a water-rich basin to a water-deficient basin via canals, tunnels, or pipelines. Examples: China’s South-to-North Water Transfer Project (the largest ever, moving water from the Yangtze to the Yellow River basin, costing $62 billion), the Lesotho Highlands Water Project (supplying South Africa\'s Gauteng province). Advantages: addresses large-scale regional water imbalances, can support economic development in arid regions, reliable year-round supply. Disadvantages: massive cost and construction time, environmental disruption (altered flow regimes, habitat fragmentation), displacement of communities, potential for water quality conflicts between basins, and energy requirements for pumping over elevation changes. Case study: China’s project has displaced over 300,000 people and caused significant ecological concerns.",
     tags: ['supply-side', 'inter-basin-transfer'],
     difficulty: 'medium',
   },

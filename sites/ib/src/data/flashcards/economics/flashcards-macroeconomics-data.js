@@ -24,7 +24,7 @@ export const flashcard1 = [
     id: 'ib-macro-4',
     front:
       'Explain the difference between short-run aggregate supply (SRAS) and long-run aggregate supply (LRAS).',
-    back: "SRAS shows the total output firms are willing and able to produce at different price levels in the short run, when at least one factor of production is fixed (e.g. wages are sticky). It slopes upward because higher prices increase profitability when costs are fixed. LRAS represents the economy's potential output (full-employment level) when all factors are variable and all markets have cleared. It is vertical at the full-employment level of real GDP. LRAS shifts when the economy's productive capacity changes (e.g. technology, labour force, capital stock, education).",
+    back: "SRAS shows the total output firms are willing and able to produce at different price levels in the short run, when at least one factor of production is fixed (e.g. wages are sticky). It slopes upward because higher prices increase profitability when costs are fixed. LRAS represents the economy\'s potential output (full-employment level) when all factors are variable and all markets have cleared. It is vertical at the full-employment level of real GDP. LRAS shifts when the economy\'s productive capacity changes (e.g. technology, labour force, capital stock, education).",
     tags: ['aggregate-supply'],
     difficulty: 'medium',
   },
@@ -55,7 +55,7 @@ export const flashcard2 = [
   {
     id: 'ib-macro-8',
     front: 'Compare demand-pull inflation and cost-push inflation.',
-    back: "Demand-pull inflation occurs when AD increases faster than the economy's productive capacity, pulling prices upward. Causes include increased consumer spending, government stimulus, export growth, or monetary expansion. Shown as AD shifting right along the SRAS curve, causing higher prices and higher output. Cost-push inflation occurs when production costs rise, pushing prices upward even without increased demand. Causes include rising wages, commodity price increases, exchange rate depreciation, or supply shocks. Shown as SRAS shifting left, causing higher prices but lower output (stagflation). Demand-pull is generally associated with economic growth; cost-push creates the policy dilemma of inflation alongside unemployment.",
+    back: "Demand-pull inflation occurs when AD increases faster than the economy\'s productive capacity, pulling prices upward. Causes include increased consumer spending, government stimulus, export growth, or monetary expansion. Shown as AD shifting right along the SRAS curve, causing higher prices and higher output. Cost-push inflation occurs when production costs rise, pushing prices upward even without increased demand. Causes include rising wages, commodity price increases, exchange rate depreciation, or supply shocks. Shown as SRAS shifting left, causing higher prices but lower output (stagflation). Demand-pull is generally associated with economic growth; cost-push creates the policy dilemma of inflation alongside unemployment.",
     tags: ['inflation'],
     difficulty: 'medium',
   },

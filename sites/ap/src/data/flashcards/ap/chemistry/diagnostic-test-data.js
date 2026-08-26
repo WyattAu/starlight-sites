@@ -32,7 +32,7 @@ export const questions = [
     options: ['Na', 'Al', 'Mg', 'Si'],
     correctIndex: 3,
     explanation:
-      "Ionisation energy generally increases across a period. Si has the largest first ionisation energy among these options because it is furthest to the right. Na has the lowest (easily loses its single 3s electron), Al is lower than Mg because removing Al’s 3p electron is easier than Mg's 3s electron (Al has a lower effective nuclear charge for that electron compared to Mg).",
+      "Ionisation energy generally increases across a period. Si has the largest first ionisation energy among these options because it is furthest to the right. Na has the lowest (easily loses its single 3s electron), Al is lower than Mg because removing Al’s 3p electron is easier than Mg\'s 3s electron (Al has a lower effective nuclear charge for that electron compared to Mg).",
   },
   {
     id: 'pe1',

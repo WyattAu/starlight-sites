@@ -41,7 +41,7 @@ export const flashcards2 = [
   {
     id: 'dse-geography-006',
     front: 'State von Thunen’s model of agricultural location and its key assumptions.',
-    back: "Von Thunen's model (1826) explains agricultural land use patterns around a single market (isolated state). Key assumptions: (1) Isotropic plain (uniform flat land). (2) Single central market with equal access from all directions. (3) Uniform transport costs proportional to distance. The model predicts concentric rings: dairy and vegetables closest to market (perishable, high transport cost), then forestry, then grain farming, then livestock ranching furthest out. Land rent decreases with distance from the market.",
+    back: "Von Thunen\'s model (1826) explains agricultural land use patterns around a single market (isolated state). Key assumptions: (1) Isotropic plain (uniform flat land). (2) Single central market with equal access from all directions. (3) Uniform transport costs proportional to distance. The model predicts concentric rings: dairy and vegetables closest to market (perishable, high transport cost), then forestry, then grain farming, then livestock ranching furthest out. Land rent decreases with distance from the market.",
     tags: ['agriculture'],
     difficulty: 'medium',
   },

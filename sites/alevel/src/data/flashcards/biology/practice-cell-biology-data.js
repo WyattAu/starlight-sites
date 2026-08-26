@@ -125,7 +125,7 @@ export const practiceQuestions = [
     options: ['A) 120', 'B) 180', 'C) 240', 'D) 300'],
     correct: 1,
     explanation:
-      "Chargaff’s rules state that in DNA, A pairs\nwith T and G pairs with C. Therefore A = T = 120. The total bases = 600, so G + C = 600 - (A + T) =\n600 - 240 = 360. Since G = C, cytosine = 360 / 2 = 180. This is a standard A-Level calculation\nrequiring application of complementary base pairing and Chargaff's rules.",
+      "Chargaff’s rules state that in DNA, A pairs\nwith T and G pairs with C. Therefore A = T = 120. The total bases = 600, so G + C = 600 - (A + T) =\n600 - 240 = 360. Since G = C, cytosine = 360 / 2 = 180. This is a standard A-Level calculation\nrequiring application of complementary base pairing and Chargaff\'s rules.",
   },
   {
     question: 'Osmosis can be defined as:',

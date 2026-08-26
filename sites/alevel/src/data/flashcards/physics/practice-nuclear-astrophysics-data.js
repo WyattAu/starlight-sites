@@ -172,7 +172,7 @@ export const practiceQuestions = [
   },
   {
     question:
-      "Given Hubble's constant H_0 = 68\nkm/s/Mpc, estimate the age of the universe using t = 1/H_0. (1 Mpc = 3.086 x 10^19 km, 1 year =\n3.156 x 10^7 s)",
+      "Given Hubble\'s constant H_0 = 68\nkm/s/Mpc, estimate the age of the universe using t = 1/H_0. (1 Mpc = 3.086 x 10^19 km, 1 year =\n3.156 x 10^7 s)",
     options: [
       'A) 4.6 billion years',
       'B) 13.8 billion years',

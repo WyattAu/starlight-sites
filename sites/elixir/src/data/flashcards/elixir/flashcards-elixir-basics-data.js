@@ -2,14 +2,14 @@ export const flashcardData = [
   {
     id: 'elixir-creator-001',
     front: 'Who created Elixir and in what year?',
-    back: "Jose Valim created Elixir in 2011. He was a core Ruby on Rails contributor who wanted to combine the Erlang VM's proven concurrency and fault tolerance with a modern, Ruby-like syntax.",
+    back: "Jose Valim created Elixir in 2011. He was a core Ruby on Rails contributor who wanted to combine the Erlang VM\'s proven concurrency and fault tolerance with a modern, Ruby-like syntax.",
     tags: ['elixir', 'history'],
     difficulty: 'easy',
   },
   {
     id: 'elixir-beam-002',
     front: 'What is the BEAM and why is it important for Elixir?',
-    back: "BEAM (Bogdan's Erlang Abstract Machine) is the Erlang virtual machine that executes Elixir code. It provides lightweight preemptive scheduling, per-process garbage collection, transparent distribution, and hot code swapping -- enabling millions of concurrent processes.",
+    back: "BEAM (Bogdan\'s Erlang Abstract Machine) is the Erlang virtual machine that executes Elixir code. It provides lightweight preemptive scheduling, per-process garbage collection, transparent distribution, and hot code swapping -- enabling millions of concurrent processes.",
     tags: ['elixir', 'runtime'],
     difficulty: 'easy',
   },
@@ -127,7 +127,7 @@ export const flashcardData = [
   },
   {
     id: 'elixir-ast-019',
-    front: "What is the structure of Elixir's AST representation?",
+    front: "What is the structure of Elixir\'s AST representation?",
     back: 'The AST is a three-element tuple: {atom, metadata, arguments}. The first element is the operation (:def, :+, :if). The second is metadata (line numbers, context). The third is a list of arguments (themselves AST tuples or literals). Literals like integers and strings represent themselves.',
     tags: ['elixir', 'metaprogramming'],
     difficulty: 'hard',
@@ -135,7 +135,7 @@ export const flashcardData = [
   {
     id: 'elixir-hygiene-020',
     front: 'What is macro hygiene in Elixir and how can it be bypassed?',
-    back: "Hygiene prevents macros from accidentally capturing or overwriting the caller's variables. Variables defined in a macro have their own context. To intentionally access or set the caller's variables, use var!(variable_name) to break hygiene, or bind_quoted to safely inject values while preserving hygiene.",
+    back: "Hygiene prevents macros from accidentally capturing or overwriting the caller\'s variables. Variables defined in a macro have their own context. To intentionally access or set the caller\'s variables, use var!(variable_name) to break hygiene, or bind_quoted to safely inject values while preserving hygiene.",
     tags: ['elixir', 'metaprogramming'],
     difficulty: 'hard',
   },
