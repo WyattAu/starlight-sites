@@ -11,7 +11,7 @@
     "astro": "^6.4.8",
     "@astrojs/solid-js": "^6.0.1",
     "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/mdx": "^6.0.3",
+    "@astrojs/mdx": "^7.0.2",
     "solid-js": "^1.9.7"
   },
   "devDependencies": {
