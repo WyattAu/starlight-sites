@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Chemistry - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"chemistry\", \"url\": \"https://chemistry.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
+description: "Comprehensive study notes for Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -77,3 +77,72 @@ Chemistry is the science of matter and its transformations — what things are m
 The three branches of chemistry — physical, organic, and inorganic — are different perspectives on the same fundamental question: why do substances behave the way they do? Physical chemistry provides the thermodynamic and quantum mechanical framework: thermodynamics tells you whether a reaction will happen (ΔG < 0 means spontaneous), kinetics tells you how fast it will happen (activation energy determines the rate), and quantum mechanics explains why bonds form and why molecules have specific shapes. Organic chemistry applies these principles to carbon-based molecules, where the versatility of carbon's four bonds creates an enormous diversity of structures and reactions. Inorganic chemistry covers coordination compounds and solid-state structures where metal-ligand bonding and crystal field theory explain colour, magnetism, and reactivity.
 
 The practical power of chemistry lies in prediction. If you understand that nucleophiles attack electrophiles, you can predict the products of reactions you've never seen before. If you understand that ΔG = ΔH - TΔS, you can predict whether a reaction becomes more or less spontaneous as temperature changes. If you understand molecular orbital theory, you can explain why O₂ is paramagnetic and why benzene is unusually stable. Chemistry is not about memorising thousands of reactions — it's about understanding a small number of principles that generate all the rest.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.

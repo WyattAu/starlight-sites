@@ -120,7 +120,7 @@ pitfalls, and exam-style problems.
 
 - **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
 - **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/docs/dse/chemistry)
-- **University Chemistry:** [University Chemistry](https://university.wyattau.com/docs/chemistry)
+- **University Chemistry:** [University Chemistry](https://chemistry.wyattau.com/)
 
 ## Common Pitfalls
 

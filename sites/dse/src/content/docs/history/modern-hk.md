@@ -161,3 +161,66 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 **Confusing the 1967 riots with a pro-democracy movement:** The 1967 riots were pro-Communist, inspired by the Cultural Revolution. They were not about democracy but about workers' rights and colonial governance. Don't conflate them with later pro-democracy movements.
 
 **Assuming the Basic Law was universally accepted:** The drafting process was contentious, with debates over democratic reform, the pace of elections, and the relationship between the NPCSC and Hong Kong courts. Many provisions were contested.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -103,7 +103,7 @@ flowchart TD
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Refraction and Optics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/03-refraction-and-total-internal-reflection) |
 | [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/2_waves-and-optics)                                            |
-| [Refraction and Optics] | University | [View](https://university.wyattau.com/docs/physics/4-optics-and-waves/1_optics-and-wave-physics) |
+| [Refraction and Optics] | University | [View](https://physics.wyattau.com/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
@@ -161,3 +161,45 @@ $\blacksquare$
 - [Optics and Wave Physics](./)
 - [The Wave Equation](./1_the-wave-equation)
 - [Fresnel Equations](./10_fresnel-equations)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

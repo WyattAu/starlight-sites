@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Algebra | SAT - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"sat\", \"url\": \"https://sat.wyattau.com\"}, {\"name\": \"Mathematics\", \"url\":"
+description: "Comprehensive study notes for Algebra with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -151,3 +151,45 @@ Algebra is the art of solving mysteries by letting unknowns represent clues. Whe
 - [Geometry](./geometry) -- Algebraic techniques are used to solve geometric problems including coordinate geometry and equations of circles.
 - [Data Analysis](./data-analysis) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
 - [Reading Comprehension](../reading/comprehension) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -72,7 +72,10 @@
       "node scripts/lint-descriptions.js",
       "node scripts/lint-latex.js"
     ],
-    "sites/*/astro.config.mjs": "node scripts/lint-config.js",
+    "sites/*/astro.config.mjs": [
+      "node scripts/lint-config.js",
+      "node scripts/lint-config-parity.js"
+    ],
     "*.{js,mjs,ts,tsx,astro,yml,yaml,json,toml,html}": [
       "node scripts/lint-no-emoji.js",
       "node scripts/lint-secrets.js",

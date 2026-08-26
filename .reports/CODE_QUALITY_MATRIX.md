@@ -9,6 +9,35 @@ project is a 46-site static documentation platform with one Cloudflare Worker,
 maintained by a single developer with CI gates - the comparison is contextual:
 adopting what would genuinely help, explicitly declining what would not.
 
+> **Corrections (2026-08-26 verification pass).** This snapshot is superseded by
+> `STATUS.md` (2026-08-22) and partially inaccurate as follows; see
+> `CODE_QUALITY_VERIFICATION_2026-08-26.md` for the full audit.
+>
+> - **Stale:** "cspell/markdownlint are `continue-on-error` (non-blocking)"
+>   (\$1 row *Fail-fast*, \$2.1 row *Regression gates*, \$2.4 row *Gates*, Gap \#7).
+>   Both were promoted to blocking in `ci.yml` on 2026-08-20; only lychee
+>   (`fail: false`) remains non-blocking.
+> - **Stale:** "E2E not run in CI; config targets 3 defunct site URLs" (\$2.1).
+>   `e2e.yml` runs Playwright on a daily cron, pushes to main, and manual
+>   dispatch against a derived, ghost-free URL list.
+> - **False at time of writing:** "`lint-secrets.js` in CI" (\$2.5). No workflow
+>   invoked it until it was added to the `deploy.yml` gate job on 2026-08-26.
+> - **Overstated:** Gap \#1 "purge complete / 0 broken CI references". Ghost
+>   slugs survived in `tests/e2e/performance.config.ts`, `visual.config.ts`,
+>   `smoke.spec.ts`, dozens of content cross-links, and the committed
+>   `merged-index.js` artifact -- all outside the scanner's fixed file list.
+>   The scan list was extended and the config/spec/content surfaces purged on
+>   2026-08-26; the generated fallback index remains out of scope by design.
+> - **Optimistic:** "\$7 search index coverage 45 on next deploy". The KV
+>   namespace secret (`CLOUDFLARE_KV_NAMESPACE_ID`) is still unset, so the
+>   committed static fallback remains the 2026-07-11 nine-site build
+>   (STATUS.md P0-4).
+> - **Internally inconsistent:** the DIP evidence rows (\$1, \$2.2) still cite
+>   hardcoded data maps and unused `zod`/`@felte`, contradicting Gap \#3's DONE
+>   status (decomposition landed; deps removed; validation inverted into
+>   `validate.js`). "Bundle dry-run verified" (Gap \#3) is not reproducible from
+>   repository state.
+
 ---
 
 ## 0. What the four archetypes actually optimise for

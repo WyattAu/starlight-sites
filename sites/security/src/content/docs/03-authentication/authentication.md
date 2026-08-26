@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Authentication and Authorization
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"security\", \"url\": \"https://security.wyattau.com\"}, {\"name\": \"03 Authentication\","
+description: "Comprehensive study notes for Authentication and Authorization with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

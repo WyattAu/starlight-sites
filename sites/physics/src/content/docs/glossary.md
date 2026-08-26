@@ -144,3 +144,26 @@ tags: [glossary]
 - [Electromagnetism Guide](../../../../alevel/src/content/docs/physics/diagnostics/diag-electromagnetism-unification)
 - [Quantum Physics Overview](../../../../alevel/src/content/docs/physics/nuclear-physics/03-quantum-physics)
 - [Relativity Introduction](3-electromagnetism/12_special-relativity-and-electromagnetism-12)
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.

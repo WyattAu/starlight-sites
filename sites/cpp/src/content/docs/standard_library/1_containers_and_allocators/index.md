@@ -28,3 +28,35 @@ This section provides study materials and resources for 1_containers_and_allocat
 
 Begin with the topic summaries, then work through the practice problems to test your understanding.
 Use the cross-references to link related concepts across subjects where applicable.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

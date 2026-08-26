@@ -1,7 +1,7 @@
 ---
 
 title: "Generators (std::generator) | Programming"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\": \"Concurrency\","
+description: "Comprehensive study notes for Generators (std::generator) with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

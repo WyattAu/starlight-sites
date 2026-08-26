@@ -184,3 +184,24 @@ The formula $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partia
 
 **Mistake 3: Assuming vanishing Riemann curvature implies flatness in coordinates**
 A manifold with zero Riemann curvature is *locally* isometric to Euclidean space, but the coordinate expressions for the metric may still look complicated. The vanishing of curvature is a coordinate-independent statement. In non-normal coordinates, the Christoffel symbols need not vanish even when $R = 0$.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

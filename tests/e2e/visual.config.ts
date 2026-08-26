@@ -13,10 +13,9 @@ const SITES: Record<string, string> = {
   dse: 'https://dse.wyattau.com',
   ib: 'https://ib.wyattau.com',
   alevel: 'https://alevel.wyattau.com',
-  university: 'https://university.wyattau.com',
-  qualifications: 'https://qualifications.wyattau.com',
+  admissions: 'https://admissions.wyattau.com',
   programming: 'https://programming.wyattau.com',
-  infrastructure: 'https://infrastructure.wyattau.com',
+  mathematics: 'https://mathematics.wyattau.com',
   languages: 'https://languages.wyattau.com',
   tools: 'https://tools.wyattau.com',
 }

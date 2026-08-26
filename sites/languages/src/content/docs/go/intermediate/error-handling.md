@@ -1,7 +1,7 @@
 ---
 
 title: "Error Handling | Languages - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"languages\", \"url\": \"https://languages.wyattau.com\"}, {\"name\": \"Go\", \"url\":"
+description: "Comprehensive study notes for Error Handling with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-18
 tags:
   - Go

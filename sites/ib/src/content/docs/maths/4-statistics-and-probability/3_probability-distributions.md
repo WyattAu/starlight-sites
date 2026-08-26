@@ -1434,7 +1434,7 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 - **DSE Probability:**
   [Probability](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)
 - **University Probability and Statistics:**
-  [Probability and Statistics](https://university.wyattau.com/docs/mathematics/probability-and-.../4-statistics-and-probability/2_statistics)
+  [Probability and Statistics](https://mathematics.wyattau.com/)
 
 ---
 

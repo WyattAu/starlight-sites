@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Linear Algebra"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"Diagnostics\","
+description: "Comprehensive study notes for Diagnostic Test: Linear Algebra with worked examples, practice problems, and key concepts for exam preparation."
 sidebar_position: 60
 tableOfContents: false
 ---

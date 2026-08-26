@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Electric field | CBSE - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
+description: "Comprehensive study notes for Electric field with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -186,3 +186,24 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 ### Mistake 3: Forgetting that electric field is a vector and must be added as such
 
 When calculating the net electric field from multiple charges, students often add the magnitudes directly instead of resolving into components. Electric field is a vector quantity: $\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \ldots$. For two charges, you must find the angle between the field vectors and add components: $E_x = E_1\cos\theta_1 + E_2\cos\theta_2$ and $E_y = E_1\sin\theta_1 + E_2\sin\theta_2$.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

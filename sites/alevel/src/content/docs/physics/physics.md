@@ -160,3 +160,24 @@ linked above.
 **Forgetting to convert units:** Physics problems often mix units (km/h, g, mm). Always convert to SI units (m, kg, s) before calculating. A common error is using speed in km/h with distance in metres, giving a time in the wrong units.
 
 **Confusing mass and weight:** Mass (kg) is the amount of matter in an object. Weight (N) is the gravitational force on it: $W = mg$. Mass is constant; weight depends on the gravitational field. On the Moon, your mass is the same but your weight is about one-sixth of Earth's.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

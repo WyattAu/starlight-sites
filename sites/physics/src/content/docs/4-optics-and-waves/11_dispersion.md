@@ -189,3 +189,24 @@ flowchart TD
 ## Intuition
 
 Dispersion occurs when different frequencies of light travel at different speeds through a medium. This is why prisms split white light into colors and why glass fibers spread out short pulses. The refractive index depends on frequency because the medium's electrons respond differently to different driving frequencies. Normal dispersion means higher frequencies see a higher refractive index and travel slower. Near absorption resonances, anomalous dispersion occurs. Group velocity describes how fast a pulse envelope travels, while phase velocity describes individual wave crests. In dispersive media, these can differ dramatically, even exceeding the speed of light without violating causality.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

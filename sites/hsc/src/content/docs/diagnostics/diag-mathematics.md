@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Mathematics | HSC"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"hsc\", \"url\": \"https://hsc.wyattau.com\"}, {\"name\": \"Diagnostics\", \"url\":"
+description: "Comprehensive study notes for Diagnostic Test: Mathematics with worked examples, practice problems, and key concepts for exam preparation."
 sidebar_position: 60
 tableOfContents: false
 ---

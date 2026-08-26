@@ -1,0 +1,130 @@
+---
+/**
+ * RelatedSites: shows visible "Related Content" links to peer sites
+ * on the same topic. Uses the same group logic as Head.astro's
+ * cross-site alternate links but renders them as clickable cards.
+ *
+ * This component is injected at the bottom of content pages via
+ * the MarkdownContent.astro override.
+ */
+const { starlightRoute } = Astro.locals;
+const { entry, id } = starlightRoute;
+
+const pageUrl = Astro.url.href;
+const urlParts = new URL(pageUrl).hostname.split('.');
+const subdomain = urlParts.length > 2 ? urlParts[0] : 'www';
+
+// Cross-site topic groups (mirrors Head.astro)
+const relatedSiteGroups: Record<string, string[]> = {
+  'exam-boards': ['dse', 'ib', 'alevel', 'gcse', 'ap', 'highers', 'leaving-cert', 'cbse', 'gaokao', 'hsc', 'sat'],
+  'programming': ['cpp', 'python', 'java', 'rust', 'go', 'kotlin', 'swift', 'typescript', 'dart', 'ruby', 'haskell', 'elixir'],
+  'cs-infrastructure': ['databases', 'networking', 'linux', 'security', 'tools', 'truenas', 'tuning', 'licensing'],
+  'sciences': ['physics', 'chemistry', 'mathematics', 'computer-science', 'machine-learning'],
+};
+
+// Shared topics that exist across peer sites
+const sharedExamTopics = [
+  'physics', 'chemistry', 'maths', 'mathematics', 'biology', 'computer-science',
+  'economics', 'english', 'geography', 'history', 'ict',
+];
+
+function getRelatedSites(subdomain: string, pathSegments: string[]): { peers: string[], topic: string } {
+  const topPath = pathSegments[0] || '';
+
+  for (const [, sites] of Object.entries(relatedSiteGroups)) {
+    if (!sites.includes(subdomain)) continue;
+
+    const peers = sites.filter(s => s !== subdomain);
+    const sharedTopics =
+      sites === relatedSiteGroups['exam-boards'] ? sharedExamTopics :
+      sites === relatedSiteGroups.programming ? [] :
+      sites === relatedSiteGroups['cs-infrastructure'] ? [] :
+      [];
+
+    if (topPath && sharedTopics.includes(topPath)) {
+      return { peers, topic: topPath };
+    }
+  }
+  return { peers: [], topic: '' };
+}
+
+const pagePathSegments = id.split('/').filter(Boolean);
+const { peers, topic } = getRelatedSites(subdomain, pagePathSegments);
+
+if (peers.length === 0) return null;
+
+const siteNames: Record<string, string> = {
+  dse: 'DSE', ib: 'IB', alevel: 'A-Level', gcse: 'GCSE', ap: 'AP',
+  highers: 'Highers', 'leaving-cert': 'Leaving Cert', cbse: 'CBSE',
+  gaokao: 'Gaokao', hsc: 'HSC', sat: 'SAT',
+  cpp: 'C++', python: 'Python', java: 'Java', rust: 'Rust', go: 'Go',
+  kotlin: 'Kotlin', swift: 'Swift', typescript: 'TypeScript', dart: 'Dart',
+  ruby: 'Ruby', haskell: 'Haskell', elixir: 'Elixir',
+  databases: 'Databases', networking: 'Networking', linux: 'Linux',
+  security: 'Security', tools: 'Tools', truenas: 'TrueNAS', tuning: 'Tuning',
+  licensing: 'Licensing',
+  physics: 'Physics', chemistry: 'Chemistry', mathematics: 'Mathematics',
+  'computer-science': 'Computer Science', 'machine-learning': 'Machine Learning',
+};
+---
+
+<aside class="related-sites" aria-label="Related content on other sites">
+  <h3>Related Content</h3>
+  <p>Study the same topic on other exam boards and sites:</p>
+  <div class="related-sites-grid">
+    {peers.map(peer => {
+      const relatedPath = `/${pagePathSegments.join('/')}`;
+      const url = `https://${peer}.wyattau.com${relatedPath === '/' ? '/' : relatedPath + '/'}`;
+      return (
+        <a href={url} class="related-site-card" target="_blank" rel="noopener">
+          <strong>{siteNames[peer] || peer}</strong>
+          <span class="related-site-domain">{peer}.wyattau.com</span>
+        </a>
+      );
+    })}
+  </div>
+</aside>
+
+<style>
+  .related-sites {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    background: var(--sl-color-bg-nav);
+  }
+  .related-sites h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+  }
+  .related-sites p {
+    margin: 0 0 1rem;
+    color: var(--sl-color-gray-3);
+    font-size: 0.9rem;
+  }
+  .related-sites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+  }
+  .related-site-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.375rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s;
+  }
+  .related-site-card:hover {
+    border-color: var(--sl-color-accent);
+  }
+  .related-site-card strong {
+    font-size: 0.95rem;
+  }
+  .related-site-domain {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-3);
+  }
+</style>

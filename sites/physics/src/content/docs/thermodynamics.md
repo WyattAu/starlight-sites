@@ -651,4 +651,4 @@ mol^-1. The entropy increases because the solid (ordered) becomes liquid (more d
 | Topic                | Link                                                  |
 | -------------------- | ----------------------------------------------------- |
 | Quantum Mechanics II | [View](5-quantum-mechanics/18_quantum-mechanics-ii) |
-| Kinetic Theory       | [View](/university/physics/kinetic-theory)       |
+| Kinetic Theory       | [View](/physics/kinetic-theory)       |

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Approaches | A-Level"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Psychology\", \"url\":"
+description: "Comprehensive study notes for Diagnostic Test: Approaches with worked examples, practice problems, and key concepts for exam preparation."
 tableOfContents: false
 sidebar_position: 40
 ---

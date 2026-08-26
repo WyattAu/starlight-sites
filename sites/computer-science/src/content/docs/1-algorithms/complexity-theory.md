@@ -412,7 +412,7 @@ Complexity theory classifies problems by their inherent difficulty. P contains p
 | Topic | Link |
 | ------- | ------ |
 | Algorithm Design | [View](algorithm-design) |
-| Data Structures | [View](/university/computer-science/data-structures) |
+| Data Structures | [View](/computer-science/data-structures) |
 | Graph Algorithms | [View](../../../../../alevel/src/content/docs/computer-science/algorithms/03-graph-algorithms) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

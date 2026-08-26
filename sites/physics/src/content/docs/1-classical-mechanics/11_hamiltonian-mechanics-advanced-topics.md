@@ -5,7 +5,7 @@ title: "Hamiltonian Mechanics: Advanced Topics"
 tags:
   - Physics
   - University
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"1 Classical"
+description: "Comprehensive study notes for Hamiltonian Mechanics: Advanced Topics with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

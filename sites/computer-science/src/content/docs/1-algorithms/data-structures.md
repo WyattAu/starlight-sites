@@ -674,7 +674,7 @@ Data structures organize data for efficient access and modification. Arrays prov
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
 | Algorithm Design  | [View](algorithm-design)  |
-| Graph Algorithms  | [View](/university/computer-science/graph-algorithms)  |
+| Graph Algorithms  | [View](/computer-science/graph-algorithms)  |
 | Complexity Theory | [View](complexity-theory) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

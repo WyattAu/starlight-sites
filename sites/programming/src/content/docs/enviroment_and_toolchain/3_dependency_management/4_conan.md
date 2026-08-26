@@ -1,7 +1,7 @@
 ---
 
 title: "Conan | Programming - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\":"
+description: "Comprehensive study notes for Conan with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-12-11T05:01:52.356Z
 tags:
   - cpp

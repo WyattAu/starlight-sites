@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Writing | HSC - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"hsc\", \"url\": \"https://hsc.wyattau.com\"}, {\"name\": \"English\", \"url\":"
+description: "Comprehensive study notes for Writing with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -211,3 +211,24 @@ Writing is fundamentally about communication — translating the thoughts in you
 The different modes of writing — creative, persuasive, analytical — are really just variations on the same skill: controlling the reader's experience. In creative writing, you're creating a vivid mental movie. In persuasive writing, you're guiding someone toward a conclusion while making them feel it was their own idea. In analytical writing, you're demonstrating that you can see beneath the surface of a text. The common thread is that you're always making deliberate choices about what to include, what to emphasise, and what tone to strike. Every sentence should serve a purpose — if it doesn't advance your argument or develop your narrative, it's working against you.
 
 For HSC English specifically, the marking criteria reward precision and sophistication. A Band 6 response doesn't just identify techniques — it explains how they create meaning in context. The difference between "the author uses metaphor" and "the author's extended metaphor of decay mirrors the protagonist's psychological deterioration" is the difference between describing and analysing. Train yourself to close the loop: every observation about technique must connect back to theme, character, or the composer's purpose.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

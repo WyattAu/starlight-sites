@@ -5,7 +5,7 @@ title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"English\", \"url\":"
+description: "Comprehensive study notes for A Streetcar Named Desire — Close Reading and Analysis with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -10,6 +10,19 @@ describe('sanitizeHtml', () => {
       const result = sanitizeHtml(input)
       expect(result).toContain('safe')
     })
+
+    it('should bypass sanitisation when window is undefined (SSR path)', () => {
+      const origWindow = globalThis.window
+      // @ts-expect-error -- testing SSR branch
+      delete globalThis.window
+      try {
+        const input = '<script>alert("xss")</script>'
+        const result = sanitizeHtml(input)
+        expect(result).toBe(input)
+      } finally {
+        globalThis.window = origWindow
+      }
+    })
   })
 
   describe('Allowed HTML tags preservation', () => {

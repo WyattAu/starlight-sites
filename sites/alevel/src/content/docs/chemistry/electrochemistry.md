@@ -1,7 +1,7 @@
 ---
 
 title: "Electrochemistry | A-Level - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
+description: "Comprehensive study notes for Electrochemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

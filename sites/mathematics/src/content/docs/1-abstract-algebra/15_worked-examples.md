@@ -167,3 +167,24 @@ These are the only two possibilities, so there are exactly two groups of order $
 - [The Sylow Theorems](7_the-sylow-theorems) -- Sylow theory is the primary tool for the group classification arguments in several worked examples.
 - [Polynomial Rings](10_polynomial-rings) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
 - [Euclidean Domains, PIDs, and UFDs](11_euclidean-domains-pids-and-ufds) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -27,3 +27,35 @@ This section provides study materials and resources for history. Browse the topi
 - [Superpower Relations](./superpower-relations)
 - [The Cold War](./the-cold-war)
 - [The Move To Global War](./the-move-to-global-war)
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"alevel\", \"url\": \"https://alevel.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
+description: "Comprehensive study notes for Paper 2 -- Statistics -- Full Diagnostic Exam with worked examples, practice problems, and key concepts for exam preparation."
 tableOfContents: false
 ---
 

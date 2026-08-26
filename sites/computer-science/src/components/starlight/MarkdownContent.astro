@@ -1,5 +1,7 @@
 ---
-// Custom MarkdownContent that adds progress tracking at the bottom
+// Custom MarkdownContent that adds progress tracking, related sites, and references
+import RelatedSites from './RelatedSites.astro'
+import References from './References.astro'
 const { starlightRoute } = Astro.locals;
 const pageId = starlightRoute.entry.id;
 ---
@@ -14,6 +16,9 @@ const pageId = starlightRoute.entry.id;
     <span class="progress-text">Mark this page as reviewed</span>
   </label>
 </div>
+
+<References />
+<RelatedSites />
 
 <script>
   document.querySelectorAll('.progress-tracker').forEach(tracker => {

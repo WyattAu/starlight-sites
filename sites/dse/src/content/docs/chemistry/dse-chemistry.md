@@ -1,7 +1,7 @@
 ---
 
 title: "DSE Chemistry - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
+description: "Comprehensive study notes for DSE Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Chemistry

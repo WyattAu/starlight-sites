@@ -1,7 +1,7 @@
 ---
 
 title: "Conflict Resolution | Tools - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"Git\", \"url\":"
+description: "Comprehensive study notes for Conflict Resolution with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T05:00:00.000Z
 tags:
   - git

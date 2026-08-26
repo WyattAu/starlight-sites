@@ -1078,10 +1078,10 @@ linked above.
 
 ## Cross-References
 
-- [Git Fundamentals](../../git/02-core-concepts/01-basics) -- Version control workflows integrate with productivity practices for efficient development.
+- [Git Fundamentals](../../git/02-fundamentals/01-the-three-trees) -- Version control workflows integrate with productivity practices for efficient development.
 - [Pre-commit Framework](../../git/05-advanced-topics/09-pre-commit-framework) -- Automated code quality checks reduce manual review time and improve productivity.
 - [GitHub Actions CI/CD](../../git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns) -- CI/CD automation eliminates repetitive manual testing and deployment tasks.
-- [Code Review](collaboration/code-review) -- Effective code review practices complement individual productivity for team outcomes.
+- [Code Review](dev-environment/code-review) -- Effective code review practices complement individual productivity for team outcomes.
 
 ## Intuition
 

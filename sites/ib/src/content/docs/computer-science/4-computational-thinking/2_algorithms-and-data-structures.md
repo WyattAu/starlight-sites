@@ -2791,8 +2791,8 @@ _If you get this wrong, revise: [Queues](#queues) and
 
 - **A-Level Algorithms:**
   [Computer Science](https://alevel.wyattau.com/docs/computer-science/computer-science)
-- **University Algorithms:**
-  [Algorithms and Data Structures](https://university.wyattau.com/docs/computin.../4-computational-thinking/2_algorithms-and-data-structures)
+- **Computer Science Algorithms:**
+  [Algorithms and Data Structures](https://computer-science.wyattau.com/)
 
 ## Common Pitfalls
 
@@ -2812,7 +2812,7 @@ _If you get this wrong, revise: [Queues](#queues) and
 | Topic                                       | Site       | Link                                                                                                                    |
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
 | [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures)       |
-| [Algorithms and Data Structures (Advanced)] | University | [View](https://university.wyattau.com/docs/computing/2-algorithms-and-data-structures/1_algorithms-and-data-structures) |
+| [Algorithms and Data Structures (Advanced)] | University | [View](https://computer-science.wyattau.com/) |
 
 ```mermaid
 flowchart TD

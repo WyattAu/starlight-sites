@@ -1,7 +1,7 @@
 ---
 
 title: "The Three Trees | Tools - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"Git\", \"url\":"
+description: "Comprehensive study notes for The Three Trees with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-02T22:00:00.000Z
 tags:
   - git

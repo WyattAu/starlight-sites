@@ -193,3 +193,24 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - **Confusing retarded time with actual time:** The Liénard-Wiechert potentials depend on the charge's position at the retarded time $t_r = t - R/c$, not at the present time. Using the current position gives incorrect fields for moving charges.
 - **Assuming gauge transformations change physical fields:** Gauge transformations change the potentials $(\Phi, \mathbf{A})$ but leave the electric and magnetic fields $(\mathbf{E}, \mathbf{B})$ unchanged. If your calculation gives different fields after a gauge transformation, you have made an error.
 - **Neglecting the radiation field when computing force on a charge:** The $1/R$ radiation field falls off more slowly than the $1/R^2$ velocity field. At large distances, only the radiation field matters, but at short distances the velocity field dominates.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

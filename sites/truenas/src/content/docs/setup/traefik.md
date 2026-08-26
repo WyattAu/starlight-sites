@@ -1,7 +1,7 @@
 ---
 
 title: "Setup Traefik | TrueNAS - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"truenas\", \"url\": \"https://truenas.wyattau.com\"}, {\"name\": \"Setup\", \"url\":"
+description: "Comprehensive study notes for Setup Traefik with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-07-21T18:30:46.381Z
 tags:
   - truenas

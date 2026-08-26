@@ -165,3 +165,24 @@ linked above.
 - **[Classes and Inheritance](../../../../../dart/src/content/docs/04-object-oriented/01-classes-and-inheritance):** Object-oriented design patterns for immutable data classes.
 - **[Async and Futures](../../../../../dart/src/content/docs/05-async/01-async-and-futures):** Concurrency best practices including async/await and isolate usage.
 - **[Class Modifiers](../../../../../dart/src/content/docs/07-dart3-features/03-class-modifiers):** Dart 3 modifier patterns for API boundary enforcement.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

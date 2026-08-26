@@ -1,7 +1,7 @@
 ---
 
 title: "Computer Networks (Advanced) | Computer Science"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"computer-science\", \"url\": \"https://computer-science.wyattau.com\"}, {\"name\": \"3"
+description: "Comprehensive study notes for Computer Networks (Advanced) with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing

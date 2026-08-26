@@ -1043,8 +1043,8 @@ $\blacksquare$
 :::
 ## Related Topics
 
-- [Linear Algebra: Vector Spaces](https://university.wyattau.com/mathematics/linear-algebra/) — Generalisation of functions to vector-space morphisms.
-- [Real Analysis: Continuity](https://university.wyattau.com/mathematics/3-real-analysis/4_continuity/) — Rigorous epsilon-delta definition of the continuity studied informally here.
+- [Linear Algebra: Vector Spaces](https://mathematics.wyattau.com/) — Generalisation of functions to vector-space morphisms.
+- [Real Analysis: Continuity](https://mathematics.wyattau.com/) — Rigorous epsilon-delta definition of the continuity studied informally here.
 
 ## Intuition
 

@@ -3,7 +3,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Aldehydes, Ketones, and Carboxylic Acids"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Chemistry\", \"url\":"
+description: "Comprehensive study notes for Aldehydes, Ketones, and Carboxylic Acids with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -5,7 +5,7 @@ title: Angular Momentum and the Hydrogen Atom
 tags:
   - Physics
   - University
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"5 Quantum Mechanics\","
+description: "Comprehensive study notes for Angular Momentum and the Hydrogen Atom with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

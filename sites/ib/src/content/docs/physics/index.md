@@ -103,7 +103,7 @@ pitfalls, and exam-style problems.
 
 - **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/docs/physics)
 - **DSE Physics:** [DSE Physics](https://dse.wyattau.com/docs/dse/physics)
-- **University Physics:** [University Physics](https://university.wyattau.com/docs/physics)
+- **University Physics:** [University Physics](https://physics.wyattau.com/)
 
 ## Common Pitfalls
 

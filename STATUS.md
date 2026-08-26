@@ -1,6 +1,6 @@
 # STATUS.md
 
-**Last verified:** 2026-08-22
+**Last verified:** 2026-08-26
 **Purpose:** Single source of truth for project state, competitive positioning, and prioritised work.
 Supersedes: `CODE_QUALITY_VS_FAANG.md`, `SITE_COMPARISON_MATRIX.md`, `PATH_FORWARD.md`, `CODE_QUALITY_MATRIX.md`, `SESSION_SUMMARY.md` (all archived to `.reports/`).
 
@@ -14,13 +14,13 @@ Supersedes: `CODE_QUALITY_VS_FAANG.md`, `SITE_COMPARISON_MATRIX.md`, `PATH_FORWA
 | Content files (md/mdx) | 3,331 |
 | Content lines | ~1,444,460 |
 | Test files | 41 |
-| Tests | 439+ (219 node:test + 220+ vitest) |
+| Tests | 815+ (526 node:test + 289 vitest) |
 | ADRs | 13 (.adrs/) |
-| Custom lint scripts | 11 (scripts/lint-*.js) |
+| Custom lint scripts | 12 (scripts/lint-*.js) |
 | Shared code | 7,219 LOC (src) + 1,799 (CSS) + 2,546 (public) |
-| CI workflows | 9 (.github/workflows/) |
-| Coverage (components) | 69% stmts / 52% branches (ratchet floor 65/50) |
-| Coverage (utils) | 96.4% stmts / 98.2% branches |
+| CI workflows | 10 (.github/workflows/) |
+| Coverage (components) | 70.6% stmts / 50.8% branches (ratchet floor 65/50) |
+| Coverage (utils) | 100% stmts / 96.5% branches |
 | Lighthouse min score | 0.9 (performance/a11y/best-practices/SEO) |
 | Content files below tier minimums | 750 |
 | Files with capitalisation corruption | 664 |
@@ -58,7 +58,7 @@ Scale: 1-5 (5 = best-in-class).
 |---|---|---|
 | DRY | 3/5 | 435k duplicated lines (ADR-002 deliberate trade-off). Zero drift today (SHA-256 sync + CI gate). Every refactor fans out x45 -- expensive at scale. |
 | KISS | 3.5/5 | Sync mechanism is elegant. 30+ root strategy docs with contradictory numbers is accidental complexity. |
-| SOLID (DIP) | 2/5 | Worst score. Hardcoded data maps in search-api, unused zod/@felte deps. |
+| SOLID (DIP) | 2.5/5 | Improved. `zod`/`@felte` removed; validation inverted into `validate.js` allow-list schema; data maps extracted to `config.js`. Residual: magic TTLs/penalties scattered in handlers/ranking/analytics; CORS "restriction" falls back to `*`. |
 | SOLID (SRP) | 3/5 | FlashcardDeck split to 4 modules helped; Head.astro still 388 lines with mixed concerns. |
 | SOLID (OCP/LSP/ISP) | 4/5 | Starlight component overrides are a clean open-closed pattern. |
 | Separation of concerns | 4/5 | Content/code split is clean; search-api is properly isolated; shared components are well-scoped. |
@@ -115,6 +115,7 @@ The repo over-invests in process and under-invests in what users and search engi
 
 - **2026-08-22:** STATUS.md is the single source of truth for project status. All prior audit/matrix docs archived to `.reports/`.
 - **2026-08-22:** Stub sites (driving-*, civics, licensing, professional-certs, language-tests) will be built out to CONTENT_STANDARD tiers rather than noindexed or deleted. Build sequence: driving-us/uk first, licensing/professional-certs last.
+- **2026-08-26:** Verification pass corrected stale claims across CODE_QUALITY_MATRIX.md, README, STATUS.md. Fixed: rollback.yml typo, deploy.yml summary bug, coverage ratchet regression (error-tracker.ts untested), ghost-site purges extended to e2e configs/content. See `.reports/CODE_QUALITY_VERIFICATION_2026-08-26.md`.
 
 ---
 

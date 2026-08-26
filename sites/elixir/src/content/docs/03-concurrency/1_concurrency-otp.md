@@ -1,7 +1,7 @@
 ---
 
 title: "Concurrency and OTP | Elixir - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"elixir\", \"url\": \"https://elixir.wyattau.com\"}, {\"name\": \"03 Concurrency\", \"url\":"
+description: "Comprehensive study notes for Concurrency and OTP with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

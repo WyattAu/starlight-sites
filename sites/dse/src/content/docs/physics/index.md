@@ -91,7 +91,7 @@ efficient revision.
 
 ## Related Content
 
-- **IB Physics:** [IB Physics](https://academics.wyattau.com/docs/ib/physics)
+- **IB Physics:** [IB Physics](https://ib.wyattau.com/docs/physics)
 - **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/docs/physics)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where

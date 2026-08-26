@@ -3,7 +3,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Inverse Trigonometric Functions"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Mathematics\", \"url\":"
+description: "Comprehensive study notes for Inverse Trigonometric Functions with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

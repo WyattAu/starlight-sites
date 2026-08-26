@@ -92,7 +92,7 @@ HKEAA curriculum structure.
 ## Related Content
 
 - **IB Computer Science:**
-  [IB Computer Science](https://academics.wyattau.com/docs/ib/computer-science)
+  [IB Computer Science](https://ib.wyattau.com/docs/computer-science)
 - **A-Level Computer Science:**
   [A-Level Computer Science](https://alevel.wyattau.com/docs/computer-science)
 

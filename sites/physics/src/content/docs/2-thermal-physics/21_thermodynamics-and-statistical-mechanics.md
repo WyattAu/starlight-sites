@@ -2556,7 +2556,7 @@ import { Citation } from "@components/Citations.astro"
 | ---------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Thermodynamics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/02-thermodynamics)           |
 | [Thermodynamics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)                   |
-| [Thermodynamics] | University | [View](https://university.wyattau.com/docs/physics/2-thermal-physics/2_thermodynamics-and-statistical-mechanics) |
+| [Thermodynamics] | University | [View](https://physics.wyattau.com/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

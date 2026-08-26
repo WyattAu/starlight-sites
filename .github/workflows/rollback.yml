@@ -148,9 +148,9 @@ jobs:
     steps:
       - name: Rollback summary
         run: |
-          echo "## Rollback Result" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUM
-          echo "| Component | Status |" >> $GITHUB_STEP_SUM
-          echo "|-----------|--------|" >> $GITHUB_STEP_SUM
-          echo "| Sites | ${{ needs.rollback.result }} |" >> $GITHUB_STEP_SUM
-          echo "| Landing | ${{ needs.rollback-landing.result }} |" >> $GITHUB_STEP_SUM
+          echo "## Rollback Result" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Component | Status |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|-----------|--------|" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Sites | ${{ needs.rollback.result }} |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Landing | ${{ needs.rollback-landing.result }} |" >> "$GITHUB_STEP_SUMMARY"

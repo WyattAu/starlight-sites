@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Mathematics - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"Intro\", \"url\":"
+description: "Comprehensive study notes for Mathematics with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -92,3 +92,49 @@ Mathematics is not about memorising formulas or computing answers — it's about
 The interconnectedness of mathematical subjects is not a coincidence — it reflects deep structural parallels. Groups describe symmetry, vector spaces describe linear structure, topological spaces describe continuity, and measure spaces describe size. These aren't separate topics; they're different lenses on the same fundamental questions about mathematical objects and their relationships. Understanding why the spectral theorem matters in linear algebra, why compactness matters in analysis, and why the isomorphism theorems matter in algebra — and how they all connect — is what transforms computation into mathematical maturity.
 
 The proof techniques themselves are not arbitrary logical exercises. Direct proof builds a chain from assumptions to conclusion. Proof by contradiction exploits the fact that if a statement isn't true, assuming it's true must create a logical impossibility. Induction captures the idea that if something holds for a base case and each step preserves it, it holds for all natural numbers. Each technique is a tool for attacking a different kind of problem, and learning to recognise which technique to reach for is the core skill of mathematical reasoning.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.

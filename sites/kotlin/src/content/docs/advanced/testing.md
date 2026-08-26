@@ -1,7 +1,7 @@
 ---
 
 title: "Testing | Kotlin - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"kotlin\", \"url\": \"https://kotlin.wyattau.com\"}, {\"name\": \"Advanced\", \"url\":"
+description: "Comprehensive study notes for Testing with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-18
 tags:
   - Kotlin

@@ -1,7 +1,7 @@
 ---
 
 title: "Remote Operations | Tools - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"tools\", \"url\": \"https://tools.wyattau.com\"}, {\"name\": \"Git\", \"url\":"
+description: "Comprehensive study notes for Remote Operations with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T06:00:00.000Z
 tags:
   - git
@@ -220,7 +220,7 @@ gitGraph
 :::
 :::caution
 those commits to a shared branch. If you have, see the
-[Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing.md#the-golden-rule-of-rebasing).
+[Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing#the-golden-rule-of-rebasing).
 
 ## Push
 

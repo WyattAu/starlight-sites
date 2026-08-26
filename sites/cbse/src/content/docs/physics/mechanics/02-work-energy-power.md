@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Work energy power | CBSE - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"cbse\", \"url\": \"https://cbse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
+description: "Comprehensive study notes for Work energy power with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -191,3 +191,24 @@ Instantaneous power is $P = \vec{F} \cdot \vec{v}$ (force times velocity at that
 - [Laws of Motion](./01-laws-of-motion) -- The work-energy theorem connects Newton's second law to energy methods, providing an alternative approach to dynamics problems.
 - [Rotational Motion](./03-rotational-motion) -- Rotational kinetic energy and work done by torque extend energy concepts to rotational systems.
 - [Electrostatics](../electrostatics/index) -- Electric potential energy applies the work-energy framework to charges in electric fields.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

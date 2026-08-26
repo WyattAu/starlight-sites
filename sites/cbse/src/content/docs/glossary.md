@@ -140,3 +140,26 @@ tags: [glossary]
 - See [University Chemistry Glossary](/chemistry/glossary) for deeper chemistry
 - See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
 - See [University Admissions Glossary](/admissions/glossary) for university application process
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.

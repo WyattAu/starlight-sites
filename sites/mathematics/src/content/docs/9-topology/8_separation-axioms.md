@@ -4,7 +4,7 @@ date: 2026-07-23T21:57:32+01:00
 title: "Separation Axioms | Mathematics"
 tags:
   - University Maths
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"9 Topology\","
+description: "Comprehensive study notes for Separation Axioms with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

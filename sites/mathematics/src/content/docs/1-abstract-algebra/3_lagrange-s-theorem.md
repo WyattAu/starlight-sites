@@ -5,7 +5,7 @@ title: "Lagrange's Theorem | Mathematics"
 tags:
   - Mathematics
   - University
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"1 Abstract"
+description: "Comprehensive study notes for Lagranges Theorem with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

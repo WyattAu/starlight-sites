@@ -1,7 +1,7 @@
 ---
 
 title: "Platform Integration | Dart - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dart\", \"url\": \"https://dart.wyattau.com\"}, {\"name\": \"11 Networking And Data\","
+description: "Comprehensive study notes for Platform Integration with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

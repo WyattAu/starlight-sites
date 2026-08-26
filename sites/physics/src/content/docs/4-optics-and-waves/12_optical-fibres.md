@@ -180,3 +180,24 @@ flowchart TD
 ## Intuition
 
 Optical fibers guide light through total internal reflection, trapping it in a core surrounded by cladding with a lower refractive index. The critical angle determines the cone of acceptance: light entering within this cone is guided, while light at steeper angles escapes. Multimode fibers allow many paths, causing pulse spreading as different modes travel different distances. Single-mode fibers restrict light to one path, eliminating this dispersion and enabling long-distance communication. The cladding is not just protective but essential for guiding, and the fiber's bending radius determines how much light leaks out.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

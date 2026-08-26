@@ -89,6 +89,7 @@ export function generateArticleSchema(props: ArticleSchemaProps) {
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': props.url,
+      name: props.headline,
     },
   }
 }

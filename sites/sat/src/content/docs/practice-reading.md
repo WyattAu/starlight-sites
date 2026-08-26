@@ -6,7 +6,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"sat\", \"url\": \"https://sat.wyattau.com\"}, {\"name\": \"Practice Reading\", \"url\":"
+description: "Comprehensive study notes for reading and writing practice with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

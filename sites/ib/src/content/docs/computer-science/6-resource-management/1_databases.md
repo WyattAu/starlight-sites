@@ -2036,8 +2036,8 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
   [Computer Science](https://alevel.wyattau.com/docs/computer-science/computer-science)
 - **DSE Programming and Databases:**
   [Programming and Databases](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases)
-- **University Databases:**
-  [Database Systems](https://university.wyattau.com/docs/computin.../6-resource-management/1_databases)
+- **Computer Science Databases:**
+  [Database Systems](https://computer-science.wyattau.com/)
 
 ## Cross-References
 
@@ -2046,7 +2046,7 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 | [Databases] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/databases/01-relational-databases) |
 | [Databases] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/6-resource-management/1_databases)                  |
 | [Databases] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/3_data-management)                 |
-| [Databases] | University | [View](https://university.wyattau.com/docs/computing/4-databases/1_databases)                              |
+| [Databases] | University | [View](https://computer-science.wyattau.com/)                              |
 
 ## Worked Examples
 

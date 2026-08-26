@@ -1,13 +1,7 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://mathematics.wyattau.com/sitemap-index.xml
-
-# Crawl-delay for polite bots
-Crawl-delay: 1
-
-# Disallow admin/utility paths
+# Block utility/service worker paths
 Disallow: /api/
 Disallow: /sw.js
 Disallow: /reader.js
@@ -16,14 +10,12 @@ Disallow: /page-search.js
 Disallow: /mermaid-render.js
 Disallow: /manifest.json
 
-# Allow all other resources
+# Allow content and assets
 Allow: /img/
 Allow: /docs/
 
-# Googlebot
-User-agent: Googlebot
-Allow: /
+# Sitemaps
+Sitemap: https://mathematics.wyattau.com/sitemap-index.xml
 
-# Bingbot
-User-agent: Bingbot
-Allow: /
+# Crawl-delay for polite bots
+Crawl-delay: 1

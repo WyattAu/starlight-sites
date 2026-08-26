@@ -5,7 +5,7 @@ title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"mathematics\", \"url\": \"https://mathematics.wyattau.com\"}, {\"name\": \"1 Abstract"
+description: "Comprehensive study notes for Homomorphisms and Isomorphism Theorems with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

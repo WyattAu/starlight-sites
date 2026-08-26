@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Optics | Gaokao - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gaokao\", \"url\": \"https://gaokao.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
+description: "Comprehensive study notes for Optics with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

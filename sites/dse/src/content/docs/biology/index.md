@@ -107,7 +107,7 @@ structure.
 
 ## Related Content
 
-- **IB Biology:** [IB Biology](https://academics.wyattau.com/docs/ib/biology)
+- **IB Biology:** [IB Biology](https://ib.wyattau.com/docs/biology)
 - **A-Level Biology:** [A-Level Biology](https://alevel.wyattau.com/docs/biology)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where

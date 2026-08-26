@@ -1,7 +1,7 @@
 ---
 
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
+description: "Comprehensive study notes for Sequences and Series -- Diagnostic Tests [BC Only] with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-14
 tags:
   - ap

@@ -122,6 +122,7 @@ describe('JSON-LD structured-data generators', () => {
       expect(schema.mainEntityOfPage).toEqual({
         '@type': 'WebPage',
         '@id': 'https://dse.wyattau.com/physics/newton/',
+        name: 'H',
       })
     })
   })

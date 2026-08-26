@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Macroeconomics"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
+description: "Comprehensive study notes for Diagnostic Test: Macroeconomics with worked examples, practice problems, and key concepts for exam preparation."
 tableOfContents: false
 sidebar_position: 40
 ---

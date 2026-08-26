@@ -99,7 +99,6 @@ pitfalls, and exam-style problems.
 
 - **A-Level Biology:** [A-Level Biology](https://alevel.wyattau.com/docs/biology)
 - **DSE Biology:** [DSE Biology](https://dse.wyattau.com/docs/dse/biology)
-- **University Biology:** [University Biology](https://university.wyattau.com/docs/biology)
 
 ## Common Pitfalls
 

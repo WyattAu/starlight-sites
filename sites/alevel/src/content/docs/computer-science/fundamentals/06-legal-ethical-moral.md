@@ -1470,6 +1470,6 @@ linked above.
 
 - [Data Representation](../../maths/statistics/01-data-representation) -- Understanding binary data and encoding is essential for evaluating privacy and data protection legislation.
 - [Communication and Networking](../../../../../../computer-science/src/content/docs/2-systems/networking) -- Internet governance and cybersecurity laws directly relate to network protocols and data transmission.
-- [Programming Paradigms](../programming/programming-paradigms) -- Software development practices raise ethical questions about AI, automation, and algorithmic bias.
+- [Programming Paradigms](https://programming.wyattau.com/fundamentals/programming-paradigms/) -- Software development practices raise ethical questions about AI, automation, and algorithmic bias.
 - [Data Types and Structures](../data/data-types-structures) -- Data storage and processing techniques have legal implications under data protection regulations.
 :::

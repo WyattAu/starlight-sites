@@ -5,7 +5,7 @@ title: "Interference | Physics - Wyatt's Notes"
 tags:
   - Physics
   - University
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"4 Optics And Waves\","
+description: "Comprehensive study notes for Interference with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

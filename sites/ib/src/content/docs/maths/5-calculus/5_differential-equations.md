@@ -720,7 +720,7 @@ and building a personal test matrix.
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
 | [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
-| [Differential Equations] | University | [View](https://university.wyattau.com/docs/mathematics/4-ordinary-differential-equations/1_differential-equations)    |
+| [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
 
 
 ```mermaid
@@ -752,5 +752,5 @@ applying these mathematical techniques. | [Differential Equations] | A-Level |
 | | [Differential Equations] | IB |
 [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations) | | [Differential
 Equations] | University |
-[View](https://university.wyattau.com/docs/mathematics/4-ordinary-differential-equations/1_differential-equations)
+[View](https://mathematics.wyattau.com/)
 |

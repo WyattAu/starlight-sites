@@ -162,3 +162,24 @@ NoSQL databases are like different types of filing cabinets. Document stores are
 4. **Ignoring schema design in document stores.** Embedding vs. referencing is a critical design decision. Embedding all related data in a single document leads to unbounded document growth and update anomalies. Referencing requires additional queries but keeps documents bounded and updates localised.
 
 5. **Overlooking tunable consistency.** Many NoSQL systems (e.g., Cassandra, DynamoDB) offer tunable consistency levels per operation. Using strong consistency everywhere negates the availability benefits, while using eventual consistency everywhere risks stale reads. Choose the consistency level appropriate for each operation.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

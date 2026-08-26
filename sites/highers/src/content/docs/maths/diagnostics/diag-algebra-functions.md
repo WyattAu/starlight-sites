@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Algebra and Functions -- Diagnostic Tests"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"highers\", \"url\": \"https://highers.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
+description: "Comprehensive study notes for Algebra and Functions -- Diagnostic Tests with worked examples, practice problems, and key concepts for exam preparation."
 tableOfContents: false
 ---
 

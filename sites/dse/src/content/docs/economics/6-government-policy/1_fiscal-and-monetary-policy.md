@@ -1,7 +1,7 @@
 ---
 
 title: "Fiscal and Monetary Policy | DSE"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
+description: "Comprehensive study notes for Fiscal and Monetary Policy with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

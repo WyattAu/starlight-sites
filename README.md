@@ -4,84 +4,82 @@
 [![Deploy](https://github.com/WyattAu/starlight-sites/actions/workflows/deploy.yml/badge.svg)](https://github.com/WyattAu/starlight-sites/actions/workflows/deploy.yml)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Monorepo of 40+ static documentation sites, a landing page, and a cross-site
+Monorepo of 45 static documentation sites, a landing page, and a cross-site
 search API. Each site is built with [Astro](https://astro.build) +
 [Starlight](https://starlight.astro.build), uses SolidJS for interactive
 components, and is deployed to Cloudflare Pages.
 
 ## Sites
 
-### Exam Boards
-| Site | Domain |
-|------|--------|
-| DSE | [dse.wyattau.com](https://dse.wyattau.com) |
-| IB | [ib.wyattau.com](https://ib.wyattau.com) |
-| A-Level | [alevel.wyattau.com](https://alevel.wyattau.com) |
-| GCSE | [gcse.wyattau.com](https://gcse.wyattau.com) |
-| AP | [ap.wyattau.com](https://ap.wyattau.com) |
-| Highers | [highers.wyattau.com](https://highers.wyattau.com) |
-| Leaving Cert | [leaving-cert.wyattau.com](https://leaving-cert.wyattau.com) |
-| CBSE | [cbse.wyattau.com](https://cbse.wyattau.com) |
-| Gaokao | [gaokao.wyattau.com](https://gaokao.wyattau.com) |
-| HSC | [hsc.wyattau.com](https://hsc.wyattau.com) |
-| SAT | [sat.wyattau.com](https://sat.wyattau.com) |
+Site list is derived from `sites/` via the SSOT module
+(`scripts/lib/sites.cjs`, ADR-011). Never hand-copy site lists.
 
-### Computer Science
 | Site | Domain |
 |------|--------|
-| C++ | [cpp.wyattau.com](https://cpp.wyattau.com) |
-| Java | [java.wyattau.com](https://java.wyattau.com) |
-| Python | [python.wyattau.com](https://python.wyattau.com) |
-| Rust | [rust.wyattau.com](https://rust.wyattau.com) |
-| Go | [go.wyattau.com](https://go.wyattau.com) |
-| Kotlin | [kotlin.wyattau.com](https://kotlin.wyattau.com) |
-| TypeScript | [typescript.wyattau.com](https://typescript.wyattau.com) |
-| Dart | [dart.wyattau.com](https://dart.wyattau.com) |
-| Swift | [swift.wyattau.com](https://swift.wyattau.com) |
-| Ruby | [ruby.wyattau.com](https://ruby.wyattau.com) |
-| Haskell | [haskell.wyattau.com](https://haskell.wyattau.com) |
-| Elixir | [elixir.wyattau.com](https://elixir.wyattau.com) |
-| Language Hub | [languages.wyattau.com](https://languages.wyattau.com) |
-| Tools | [tools.wyattau.com](https://tools.wyattau.com) |
-
-### Further Studies
-| Site | Domain |
-|------|--------|
-| Mathematics | [mathematics.wyattau.com](https://mathematics.wyattau.com) |
-| Physics | [physics.wyattau.com](https://physics.wyattau.com) |
-| Chemistry | [chemistry.wyattau.com](https://chemistry.wyattau.com) |
-| CS Theory | [computer-science.wyattau.com](https://computer-science.wyattau.com) |
-| Admissions | [admissions.wyattau.com](https://admissions.wyattau.com) |
-
-### Infrastructure
-| Site | Domain |
-|------|--------|
-| Networking | [networking.wyattau.com](https://networking.wyattau.com) |
-| Linux | [linux.wyattau.com](https://linux.wyattau.com) |
-| Security | [security.wyattau.com](https://security.wyattau.com) |
-| Databases | [databases.wyattau.com](https://databases.wyattau.com) |
-| TrueNAS | [truenas.wyattau.com](https://truenas.wyattau.com) |
-| Tuning | [tuning.wyattau.com](https://tuning.wyattau.com) |
-| Licensing | [licensing.wyattau.com](https://licensing.wyattau.com) |
-| ML | [machine-learning.wyattau.com](https://machine-learning.wyattau.com) |
+| Admissions | https://admissions.wyattau.com |
+| A-Level | https://alevel.wyattau.com |
+| AP | https://ap.wyattau.com |
+| CBSE | https://cbse.wyattau.com |
+| Chemistry | https://chemistry.wyattau.com |
+| Civics Tests | https://civics-tests.wyattau.com |
+| Computer Science | https://computer-science.wyattau.com |
+| C++ | https://cpp.wyattau.com |
+| Dart | https://dart.wyattau.com |
+| Databases | https://databases.wyattau.com |
+| Driving (EU) | https://driving-eu.wyattau.com |
+| Driving (UK) | https://driving-uk.wyattau.com |
+| Driving (US) | https://driving-us.wyattau.com |
+| DSE | https://dse.wyattau.com |
+| Elixir | https://elixir.wyattau.com |
+| Gaokao | https://gaokao.wyattau.com |
+| GCSE | https://gcse.wyattau.com |
+| Go | https://go.wyattau.com |
+| Haskell | https://haskell.wyattau.com |
+| Highers | https://highers.wyattau.com |
+| HSC | https://hsc.wyattau.com |
+| IB | https://ib.wyattau.com |
+| Java | https://java.wyattau.com |
+| Kotlin | https://kotlin.wyattau.com |
+| Language Tests | https://language-tests.wyattau.com |
+| Languages | https://languages.wyattau.com |
+| Leaving Cert | https://leaving-cert.wyattau.com |
+| Licensing | https://licensing.wyattau.com |
+| Linux | https://linux.wyattau.com |
+| Machine Learning | https://machine-learning.wyattau.com |
+| Mathematics | https://mathematics.wyattau.com |
+| Networking | https://networking.wyattau.com |
+| Physics | https://physics.wyattau.com |
+| Professional Certs | https://professional-certs.wyattau.com |
+| Programming | https://programming.wyattau.com |
+| Python | https://python.wyattau.com |
+| Ruby | https://ruby.wyattau.com |
+| Rust | https://rust.wyattau.com |
+| SAT | https://sat.wyattau.com |
+| Security | https://security.wyattau.com |
+| Swift | https://swift.wyattau.com |
+| Tools | https://tools.wyattau.com |
+| TrueNAS | https://truenas.wyattau.com |
+| Tuning | https://tuning.wyattau.com |
+| TypeScript | https://typescript.wyattau.com |
 
 ### Hub
+
 | Site | Domain |
 |------|--------|
-| Landing | [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) |
-| Search | [search.wyattau.com](https://search.wyattau.com) |
+| Landing | https://wyattsnotes.wyattau.com |
+| Search | https://search.wyattau.com |
 
 ## Architecture
 
 ```
 starlight-sites/
-  sites/          40+ Starlight sub-sites + landing page (main/)
+  sites/          45 Starlight sub-sites + landing page (main/)
   shared/         Canonical source for components, utils, styles, integrations
   search-api/     Cloudflare Worker (search) + canonical client search scripts
   packages/       Rust WASM widgets (starlight-widgets)
-  scripts/        Linters, sync tool, site generators
+  scripts/        Linters, sync tool, site generators, archived one-offs
   tests/          unit, integration, component (Vitest), e2e (Playwright)
-  .github/        ci.yml, deploy.yml, preview.yml, uptime.yml
+  .github/        ci.yml, deploy.yml, preview.yml, e2e.yml, uptime.yml, ...
 ```
 
 ### Single-source-of-truth model
@@ -113,7 +111,7 @@ and `:::danger` directives have been converted to:
 ## Prerequisites
 
 - Node.js 20+
-- Bun 1.2+
+- Bun 1.3+
 
 ## Development
 
@@ -143,8 +141,9 @@ Never edit per-site copies directly; they are regenerated.
 ## Testing
 
 ```bash
-bun run test           # unit + integration tests (465+ tests)
+bun run test           # unit + integration tests
 bun run test:components # Vitest component tests (SolidJS components)
+bun run test:coverage  # with v8 coverage thresholds
 ```
 
 ## Linting
@@ -154,17 +153,27 @@ bun run lint              # Biome lint + format check
 bun run lint:fix          # Biome auto-fix
 bun run lint:content      # Markdown/MDX content validation
 bun run lint:config       # Astro config validation
+bun run lint:config-parity # Astro config parity (ADR-013)
 bun run lint:no-emoji     # Pictograph prohibition (code, docs, config)
 bun run lint:links        # Internal link integrity
+bun run lint:secrets      # Secret pattern scan
 bun run lint:all          # Everything
 ```
 
 ## CI/CD
 
-- **ci.yml** -- On PR: Biome lint, content validation, shared-asset integrity, tests, build matrix.
-- **deploy.yml** -- On push to main: quality gate + deploy all sites to Cloudflare Pages.
+- **ci.yml** -- On PR: Biome lint, content validation, sync integrity,
+  typecheck, tests, config parity.
+- **deploy.yml** -- On push to main: staged deploy -- canary (2 sites) ->
+  rollout (43 sites) -> landing -> search index. Includes `mark-good` tag
+  and auto-rollback on failure (ADR-014).
 - **preview.yml** -- On PR: builds preview versions, posts URL as PR comment.
+- **e2e.yml** -- Daily + on push to main: Playwright visual regression and
+  smoke tests against live URLs.
 - **uptime.yml** -- Every 6 hours: probes all sites, opens issues on failures.
+- **slo-alert.yml** -- Every 30 minutes: monitors search API health
+  (zero-result rate, latency), opens issues on SLO breach.
+- **audit.yml** -- Weekly: `bun audit` opens dependency vulnerability issues.
 
 Pre-commit (Husky v9 + lint-staged) enforces per-file checks, shared-asset
 integrity, and tests before each commit.
@@ -175,7 +184,7 @@ integrity, and tests before each commit.
 |--------|---------|
 | `CLOUDFLARE_API_TOKEN` | Cloudflare Pages + Worker deployment |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare account identifier |
-| `CLOUDFLARE_KV_NAMESPACE_ID` | Search index KV namespace |
+| `CLOUDFLARE_KV_NAMESPACE_ID` | Search index KV namespace (optional -- static fallback when unset) |
 
 ## Search API
 
@@ -183,12 +192,16 @@ Cross-site search at search.wyattau.com:
 
 | Endpoint | Method | Parameters | Description |
 |----------|--------|------------|-------------|
-| `/api/search` | GET | `q`, `limit`, `site`, `subject` | Full-text search across all sites |
+| `/api/search` | GET | `q`, `limit`, `site`, `subject`, `variant`, `lang`, `preview` | Full-text search across all sites |
 | `/api/sites` | GET | -- | List all indexed sites |
-| `/api/health` | GET | -- | Index health |
+| `/api/health` | GET | -- | Index health and SLO metrics |
 | `/api/trending` | GET | -- | Top trending queries |
 | `/api/suggest` | GET | `q` | Query autocomplete |
-| `/api/analytics` | GET | -- | Search analytics |
+| `/api/analytics` | GET | -- | Search analytics dashboard data |
+| `/api/track` | POST | JSON body | Client-side event tracking |
+| `/api/errors` | GET | -- | Client error log |
+| `/api/ab-test` | GET | -- | A/B test variant status |
+| `/` | GET | -- | Analytics dashboard |
 
 ## Content conventions
 

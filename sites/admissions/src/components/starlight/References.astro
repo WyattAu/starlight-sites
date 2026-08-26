@@ -1,0 +1,61 @@
+---
+/**
+ * References: renders a "References" section from the sources frontmatter.
+ * Add sources to any content file's frontmatter:
+ *
+ * sources:
+ *   - text: "Author, Title, Publisher, Year"
+ *     url: "https://example.com"
+ *   - text: "Author, Title, Publisher, Year"
+ *
+ * The component renders these as a styled list at the bottom of the page.
+ */
+const { starlightRoute } = Astro.locals;
+const { entry } = starlightRoute;
+
+const sources = entry?.data?.sources;
+if (!sources || sources.length === 0) return null;
+---
+
+<section class="references" aria-label="References and sources">
+  <h2>References</h2>
+  <ol class="references-list">
+    {sources.map((src: { text: string; url?: string }) => (
+      <li>
+        {src.url ? (
+          <a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>
+        ) : (
+          <span>{src.text}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</section>
+
+<style>
+  .references {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+  .references h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .references-list {
+    padding-left: 1.5rem;
+  }
+  .references-list li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--sl-color-gray-2);
+    line-height: 1.5;
+  }
+  .references-list a {
+    color: var(--sl-color-accent);
+    text-decoration: none;
+  }
+  .references-list a:hover {
+    text-decoration: underline;
+  }
+</style>

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Classes and Inheritance | Java"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"java\", \"url\": \"https://java.wyattau.com\"}, {\"name\": \"03 Object Oriented\", \"url\":"
+description: "Comprehensive study notes for Classes and Inheritance with worked examples, practice problems, and key concepts for exam preparation."
 categories: ['java']
 ---
 import Citations from '@components/Citations.astro'

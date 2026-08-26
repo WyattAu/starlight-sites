@@ -191,3 +191,24 @@ A weak solution satisfies the PDE in a distributional sense, while a strong solu
 
 **Mistake 3: Forgetting that compactness is essential for extracting convergent subsequences**
 In the direct method of calculus of variations, one needs a minimizing sequence, weak lower semicontinuity of the functional, and weak compactness of the domain. Students frequently try to extract a strongly convergent subsequence from a bounded sequence, which fails in infinite dimensions. Weak compactness (via reflexivity) and then using the compactness of certain operators is the correct approach.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

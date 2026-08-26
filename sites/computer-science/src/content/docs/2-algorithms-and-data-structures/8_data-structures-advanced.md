@@ -1878,7 +1878,7 @@ flowchart TD
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Data Structures] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/data-structures/01-arrays-and-records)       |
 | [Data Structures] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/5-abstract-data-structures/1_abstraction-and-data-management) |
-| [Data Structures] | University | [View](https://university.wyattau.com/docs/computing/2-algorithms-and-data-structures/2_data-structures-advanced)    |
+| [Data Structures] | University | [View](https://computer-science.wyattau.com/)    |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

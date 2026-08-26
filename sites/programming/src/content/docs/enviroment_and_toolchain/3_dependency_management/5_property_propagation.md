@@ -1,7 +1,7 @@
 ---
 
 title: "Property Propagation | Programming"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"programming\", \"url\": \"https://programming.wyattau.com\"}, {\"name\":"
+description: "Comprehensive study notes for Property Propagation with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-12-11T05:21:57.536Z
 tags:
   - cpp

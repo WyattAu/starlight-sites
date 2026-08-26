@@ -5,7 +5,7 @@ title: "Electronic Band Structure | Physics"
 tags:
   - Physics
   - University
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"physics\", \"url\": \"https://physics.wyattau.com\"}, {\"name\": \"6 Solid State"
+description: "Comprehensive study notes for Electronic Band Structure with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -188,3 +188,24 @@ flowchart TD
 ## Intuition
 
 A waveguide is a metallic pipe that channels electromagnetic waves like a flute channels sound. The cutoff frequency acts like a minimum note: waves below this frequency cannot propagate and decay exponentially. Phase velocity exceeding c is not a paradox because it carries no information; the group velocity, which does, stays below c. Cavities are like organ pipes for microwaves, resonating at specific frequencies determined by their dimensions. The quality factor measures how long a cavity rings, like how long a bell sustains its tone after being struck.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

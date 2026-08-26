@@ -2,7 +2,7 @@
  * Live-site smoke tests: navigation, landmarks, search modal, breadcrumbs.
  *
  * Each test runs against the production URL configured in playwright.config.ts.
- * These validate critical user flows across all nine sites.
+ * These validate critical user flows across the live sites.
  */
 import { expect, test } from '@playwright/test'
 
@@ -10,10 +10,9 @@ const SITE_IDS = [
   'dse',
   'ib',
   'alevel',
-  'university',
-  'qualifications',
+  'python',
+  'physics',
   'programming',
-  'infrastructure',
   'languages',
   'tools',
 ]
@@ -67,8 +66,8 @@ test.describe('Cross-site navigation', () => {
     await expect(page.locator('h1').first()).toBeVisible()
   })
 
-  test('university computer-science section loads', async ({ page }) => {
-    await page.goto('https://university.wyattau.com/computer-science/')
+  test('computer-science hub loads', async ({ page }) => {
+    await page.goto('https://computer-science.wyattau.com/')
     await expect(page.locator('h1').first()).toBeVisible()
   })
 

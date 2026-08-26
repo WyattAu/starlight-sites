@@ -1,7 +1,7 @@
 ---
 
 title: "TypeScript with React - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"typescript\", \"url\": \"https://typescript.wyattau.com\"}, {\"name\": \"Typescript With"
+description: "Comprehensive study notes for TypeScript with React with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

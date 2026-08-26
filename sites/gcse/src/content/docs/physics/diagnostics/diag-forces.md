@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Forces -- Diagnostic Tests | GCSE"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"gcse\", \"url\": \"https://gcse.wyattau.com\"}, {\"name\": \"Physics\", \"url\":"
+description: "Comprehensive study notes for Forces -- Diagnostic Tests with worked examples, practice problems, and key concepts for exam preparation."
 tableOfContents: false
 ---
 

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Urbanization | DSE"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"dse\", \"url\": \"https://dse.wyattau.com\"}, {\"name\": \"Geography\", \"url\":"
+description: "Comprehensive study notes for Diagnostic Test: Urbanization with worked examples, practice problems, and key concepts for exam preparation."
 sidebar_position: 10
 ---
 

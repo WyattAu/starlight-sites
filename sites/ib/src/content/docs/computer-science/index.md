@@ -98,7 +98,7 @@ common pitfalls, and exam-style problems.
 - **DSE Computer Science:**
   [DSE Computer Science](https://dse.wyattau.com/docs/dse/computer-science)
 - **University Computer Science:**
-  [University Computer Science](https://university.wyattau.com/docs/computer-science)
+  [University Computer Science](https://computer-science.wyattau.com/)
 
 ## Common Pitfalls
 

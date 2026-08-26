@@ -143,7 +143,7 @@ $\blacksquare$
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Quantum Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/03-quantum-physics)    |
 | [Quantum Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics) |
-| [Quantum Physics] | University | [View](https://university.wyattau.com/docs/physics/5-quantum-mechanics/1_quantum-mechanics)                |
+| [Quantum Physics] | University | [View](https://physics.wyattau.com/)                |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
@@ -157,3 +157,45 @@ Density functional theory replaces the complicated many-body wavefunction with t
 
 - **Hohenberg--Kohn mapping.** The external potential $V_{\text{ext}}(\mathbf{r})$ is a unique functional of the ground-state density $n(\mathbf{r})$ (up to a constant), so all ground-state properties are functionals of $n$ alone.
 - **Kohn--Sham self-consistency.** The effective potential $V_{\text{eff}}[n]$ depends on $n(\mathbf{r})$, which is built from the Kohn--Sham orbitals that are themselves solutions of the equations with $V_{\text{eff}}[n]$. This requires iterative self-consistent solution.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

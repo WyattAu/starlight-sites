@@ -1,7 +1,7 @@
 ---
 
 title: "Sequences and Series | AP - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ap\", \"url\": \"https://ap.wyattau.com\"}, {\"name\": \"Maths\", \"url\":"
+description: "Comprehensive study notes for Sequences and Series with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-14
 tags:
   - ap

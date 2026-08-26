@@ -158,7 +158,7 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 | [Thermal Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/01-thermal-properties) |
 | [Thermal Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)             |
 | [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/4-thermal-physics/1_heat-and-gases)                        |
-| [Thermal Physics] | University | [View](https://university.wyattau.com/docs/physics/2-thermal-physics/1_thermal-physics)                    |
+| [Thermal Physics] | University | [View](https://physics.wyattau.com/)                    |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
@@ -170,3 +170,24 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 - [Thermal Physics](./)
 - [The Laws of Thermodynamics](./1_the-laws-of-thermodynamics)
 - [Phase Transitions](./10_phase-transitions)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

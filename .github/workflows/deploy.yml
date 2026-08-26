@@ -70,8 +70,14 @@ jobs:
       - name: Config validation
         run: node scripts/lint-config.js
 
+      - name: Astro config parity validation (ADR-013)
+        run: node scripts/lint-config-parity.js
+
       - name: Shared-asset integrity
         run: node scripts/sync-shared.mjs --check
+
+      - name: Secret pattern scan
+        run: node scripts/lint-secrets.js
 
       - name: Link validation
         run: node scripts/lint-links.js
@@ -527,7 +533,8 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Component | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|-----------|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Sites (all Astro sites, derived) | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Canary wave (2 sites) | ${{ needs.deploy-canary.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Rollout wave (43 sites) | ${{ needs.deploy-rollout.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Landing | ${{ needs.deploy-landing.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Search Index | ${{ needs.update-search-index.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY

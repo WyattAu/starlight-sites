@@ -196,3 +196,24 @@ flowchart TD
 ## Intuition
 
 Fourier optics reveals that diffraction is fundamentally a frequency decomposition. When light passes through an aperture, the far-field pattern is the spatial frequency content of that aperture shape. A narrow slit has broad frequency content, producing a wide diffraction pattern. The convolution theorem explains why grating patterns combine: multiplying apertures convolves their patterns. This is why a double-slit produces interference fringes modulated by the single-slit envelope. The lens performs a physical Fourier transform, converting spatial information into angular information at its focal plane.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

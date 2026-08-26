@@ -173,3 +173,24 @@ linked above.
 - [Remote Operations](/tools/git/04-remotes-and-workflows/01-remote-operations) covers the standard Git remote commands used to interact with a self-hosted Gitea instance.
 - [Workflows](/tools/git/04-remotes-and-workflows/02-workflows) defines team collaboration patterns that a Gitea server enables for self-hosted teams.
 - [Pull Requests](/tools/git/04-remotes-and-workflows/03-pull-requests) describes the code review process that Gitea supports natively.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

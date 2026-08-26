@@ -580,6 +580,6 @@ Cryptography is the science of keeping secrets. Symmetric encryption (AES) is li
 
 | Topic | Link |
 | ------- | ------ |
-| Algorithms Overview | [View](/docs_infrastructure/cs/algorithms-overview) |
+| Algorithms Overview | [View](/computer-science/algorithms-overview) |
 | Network Security | [View](../2-systems/networking) |
 | Distributed Systems | [View](../2-systems/distributed-systems) |

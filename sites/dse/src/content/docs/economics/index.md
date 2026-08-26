@@ -82,7 +82,7 @@ curriculum structure.
 
 ## Related Content
 
-- **IB Economics:** [IB Economics](https://academics.wyattau.com/docs/ib/economics)
+- **IB Economics:** [IB Economics](https://ib.wyattau.com/docs/economics)
 - **A-Level Economics:** [A-Level Economics](https://alevel.wyattau.com/docs/economics)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where

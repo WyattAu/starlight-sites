@@ -1,7 +1,7 @@
 ---
 
 title: "Control Flow | Go - Wyatt's Notes"
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"go\", \"url\": \"https://go.wyattau.com\"}, {\"name\": \"Basics\", \"url\":"
+description: "Comprehensive study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-18
 tags:
   - Go

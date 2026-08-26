@@ -1,7 +1,7 @@
 ---
 
 title: Game Theory and Behavioural Economics
-description: "\"itemListElement\": [{\"name\": \"Home\", \"url\": \"https://wyattau.com\"}, {\"name\": \"ib\", \"url\": \"https://ib.wyattau.com\"}, {\"name\": \"Economics\", \"url\":"
+description: "Comprehensive study notes for Game Theory and Behavioural Economics with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
