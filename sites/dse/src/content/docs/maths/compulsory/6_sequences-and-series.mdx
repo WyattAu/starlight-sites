@@ -476,7 +476,7 @@ Sequence application).
 - $A_0 = 20$ (initial dose).
 - **Day 1:** Before the dose, the amount is $20 \times 0.5 = 10$. After the dose, $A_1 = (20 \times 0.5) + 10 = 20$.
 - **Day 2:** Before the dose, the amount is $A_1 \times 0.5 = 20 \times 0.5 = 10$. After the dose, $A_2 = (A_1 \times 0.5) + 10 = (20 \times 0.5) + 10 = 20$.
-- It seems the amount right after each dose is always 20mg. Let\'s write a general recurrence relation.
+- It seems the amount right after each dose is always 20mg. Let's write a general recurrence relation.
 - Let $Q_n$ be the amount in the body just _after_ the $n$-th dose (for $n \ge 1$). Let $Q_0=20$ be the initial amount.
 - The amount just before the $(n+1)$-th dose is $0.5 \cdot Q_n$.
 - The amount just after the $(n+1)$-th dose is $Q_{n+1} = 0.5 \cdot Q_n + 10$.
@@ -520,7 +520,7 @@ Denominators and identifying the cancellation pattern in telescoping series.
 
 1. **Question:** The area of a Koch snowflake can be found by summing an infinite series. Start with
    an equilateral triangle of area $A$. At each step, a new equilateral triangle is added to the
-   middle third of each existing side. The new triangle\'s side length is 1/3 of the side it\'s added
+   middle third of each existing side. The new triangle's side length is 1/3 of the side it's added
    to. Find the total area of the snowflake after an infinite number of steps in terms of the
    initial area $A$.
 
@@ -535,7 +535,7 @@ Denominators and identifying the cancellation pattern in telescoping series.
  - New number of sides: $S_1 = S_0 \cdot 4 = 12$.
 - **Step 2 (k=2):**
  - We add one new triangle to each of the $S_1=12$ sides.
- - The side length of these new triangles is $1/3$ of the previous step\'s triangles, so their area is $1/9$ of the previous step\'s triangles, which is $(1/9)^2 A = A/81$.
+ - The side length of these new triangles is $1/3$ of the previous step's triangles, so their area is $1/9$ of the previous step's triangles, which is $(1/9)^2 A = A/81$.
  - Area added: $A_2 = S_1 \cdot \frac{A}{81} = 12 \cdot \frac{A}{81} = \frac{4A}{27}$.
 - **Step 3 (k=3):**
  - Number of sides is now $S_2 = S_1 \cdot 4 = 48$. Area of new triangles is $A/81 \cdot 1/9 = A/729$.
@@ -572,7 +572,7 @@ First term and common ratio of the resulting geometric series, and calculating t
  - Since the limit is 1, the Ratio Test is inconclusive.
 - **Part 2: Use a more appropriate test.**
  - The Limit Comparison Test is ideal here. The term $a_n$ behaves like $\frac{n^2}{n^3} = \frac{1}{n}$ for large $n$.
- - Let\'s compare our series to the harmonic series $\sum b_n = \sum \frac{1}{n}$Which is known to diverge.
+ - Let's compare our series to the harmonic series $\sum b_n = \sum \frac{1}{n}$Which is known to diverge.
  - Compute the limit of the ratio of the terms:
     $$ L = \lim_{n\to\infty} \frac{a_n}{b_n} = \lim_{n\to\infty} \frac{\frac{n^2+n}{n^3+2}}{\frac{1}{n}} = \lim_{n\to\infty} \frac{n(n^2+n)}{n^3+2} = \lim_{n\to\infty} \frac{n^3+n^2}{n^3+2} $$
  - Divide numerator and denominator by $n^3$:
@@ -592,7 +592,7 @@ Appropriate p-series to compare with.
 - This problem requires using the Taylor Remainder Theorem, specifically the error bound for an alternating series, as the Maclaurin series for cosine is alternating.
 - The Maclaurin series for $\cos(x)$ is $\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots$.
 - For $x=0.2$This is an alternating series. The Alternating Series Estimation Theorem states that the error $|R_n|$ in approximating the sum by the $n$-th partial sum is less than the absolute value of the first unused term, $|a_{n+1}|$.
-- Let\'s calculate the absolute values of the terms for $x=0.2$:
+- Let's calculate the absolute values of the terms for $x=0.2$:
  - Term 0 ($1$): Used in $P_0$.
  - Term 1 ($-\frac{0.2^2}{2!}$): $|a_1| = \frac{0.04}{2} = 0.02$. Used in $P_2$.
  - Term 2 ($+\frac{0.2^4}{4!}$): $|a_2| = \frac{0.0016}{24} \approx 6.67 \times 10^{-5}$. Used in $P_4$.
@@ -800,16 +800,16 @@ The terms are not consecutive.
     of the month, they add a USD 1 bonus at the end of the month. If you deposit USD 100 on the
     first day of the next month, they add a USD 2 bonus, and so on, with the bonus increasing by USD
     1 each month. You deposit USD 100 each month for 2 years (24 months). What is the total amount
-    of money in the account immediately after the 24th month\'s bonus is paid? (Assume no other
+    of money in the account immediately after the 24th month's bonus is paid? (Assume no other
     interest is paid).
 
 <details>
 <summary>Answer</summary>
-- This problem can be broken into two parts: the sum of your deposits and the sum of the bank\'s bonuses.
+- This problem can be broken into two parts: the sum of your deposits and the sum of the bank's bonuses.
 - **Part 1: Sum of your deposits.**
  - You deposit 100 each month for 24 months.
  - Total Deposits = $100 \times 24 = \mathrm{USD } 2,400$.
-- **Part 2: Sum of the bank\'s bonuses.**
+- **Part 2: Sum of the bank's bonuses.**
  - The bonuses form an arithmetic sequence: 1, 2, 3, ..., 24.
  - We need to find the sum of this arithmetic series, $S_{24}$.
  - $a_1 = 1$$a_{24} = 24$$n=24$.
@@ -873,7 +873,7 @@ Change the starting and ending indices of a sum to match a known formula.
 <summary>Answer</summary>
 - This series can be tested with the Ratio Test, but a simpler approach is the Test for Divergence.
 - **Method 1: Test for Divergence**
- - Let\'s examine the limit of the terms $a_n = \frac{n^n}{n!}$.
+ - Let's examine the limit of the terms $a_n = \frac{n^n}{n!}$.
  - Write out the term: $a_n = \frac{n \cdot n \cdot n \cdots n}{1 \cdot 2 \cdot 3 \cdots n} = \left(\frac{n}{1}\right) \left(\frac{n}{2}\right) \cdots \left(\frac{n}{n}\right)$.
  - Each factor $(\frac{n}{k})$ is $\ge 1$. The first factor is $n$.
  - So, $a_n = \frac{n}{1} \cdot (\mathrm{product of terms } \ge 1) \ge n$.

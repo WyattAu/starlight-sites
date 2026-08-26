@@ -66,7 +66,7 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      'Thomas Jefferson\'s Declaration of Independence drew heavily on Enlightenment philosophy, particularly John Locke\'s theories of natural rights and the social contract. Locke argued that all people possess inalienable rights to life, liberty, and property, and that governments derive their just powers from the consent of the governed. Jefferson adapted these ideas (changing "property" to "the pursuit of happiness") to justify the American colonies\' break from Britain, arguing that King George III had violated the colonists\' natural rights.',
+      'Thomas Jefferson's Declaration of Independence drew heavily on Enlightenment philosophy, particularly John Locke's theories of natural rights and the social contract. Locke argued that all people possess inalienable rights to life, liberty, and property, and that governments derive their just powers from the consent of the governed. Jefferson adapted these ideas (changing "property" to "the pursuit of happiness") to justify the American colonies' break from Britain, arguing that King George III had violated the colonists' natural rights.',
   },
   {
     id: 'rv2',
@@ -253,14 +253,14 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      'The Vietnam War was the first "television war," bringing images of combat into American living rooms and eroding public support. It created deep generational, political, and cultural divisions between "hawks" (supporters) and "doves" (opponents). The war undermined trust in government following the Pentagon Papers and revelations about misleading official statements. It fueled the anti-war movement, contributed to the youth counterculture, and led to the abolition of the draft (replaced by the all-volunteer force in 1973). The war\'s legacy continued to shape American foreign policy for decades.',
+      'The Vietnam War was the first "television war," bringing images of combat into American living rooms and eroding public support. It created deep generational, political, and cultural divisions between "hawks" (supporters) and "doves" (opponents). The war undermined trust in government following the Pentagon Papers and revelations about misleading official statements. It fueled the anti-war movement, contributed to the youth counterculture, and led to the abolition of the draft (replaced by the all-volunteer force in 1973). The war's legacy continued to shape American foreign policy for decades.',
   },
   {
     id: 'ma4',
     topic: 'Modern America',
     difficulty: 4,
     question:
-      'The Reagan administration\'s economic policy of "supply-side economics" (often called "Reaganomics") was based on which theoretical approach?',
+      'The Reagan administration's economic policy of "supply-side economics" (often called "Reaganomics") was based on which theoretical approach?',
     options: [
       'Keynesian demand-side economics with increased government spending',
       'Reducing taxes and government regulation to stimulate investment and economic growth',

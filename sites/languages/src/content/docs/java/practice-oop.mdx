@@ -26,7 +26,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ### Classes
 
-<PracticeProblem client:only="solid-js" question='Given `class Animal { void speak() { System.out.println("..."); } }` and `class Dog extends Animal { void speak() { System.out.println("Woof"); } }`, what does `((Animal) new Dog()).speak()` print?' options={['\'...\'','Compilation error','\'Woof\'','ClassCastException']} correctAnswer={2} explanation='Java uses dynamic dispatch for instance methods. Even though the reference type is `Animal`, the actual object is a `Dog`. At runtime, Java calls `Dog`&apos;s overridden `speak()` method, printing "Woof". This is polymorphism in action.' difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question='Given `class Animal { void speak() { System.out.println("..."); } }` and `class Dog extends Animal { void speak() { System.out.println("Woof"); } }`, what does `((Animal) new Dog()).speak()` print?' options={[''...'','Compilation error',''Woof'','ClassCastException']} correctAnswer={2} explanation='Java uses dynamic dispatch for instance methods. Even though the reference type is `Animal`, the actual object is a `Dog`. At runtime, Java calls `Dog`&apos;s overridden `speak()` method, printing "Woof". This is polymorphism in action.' difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What is the output of `System.out.println(new int[]{1,2,3}.length)`?&quot; options={['Compilation error','length() not defined','3','undefined']} correctAnswer={2} explanation=&quot;Arrays in Java have a `length` property (not a method — no parentheses). For `int[]{1,2,3}`, the length is 3. Note: this is different from `String.length()` which is a method."} difficulty="easy"  />
 
@@ -52,13 +52,13 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"What does `List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5); nums.stream().filter(n -> n % 2 == 0).map(n -> n * n).collect(Collectors.toList())` return?&quot; options={['[2, 4]','[1, 9, 25]','[4, 16]','[4]']} correctAnswer={2} explanation=&quot;The stream filters for even numbers (2, 4), then squares them (4, 16), then collects to a list: `[4, 16]`. `filter` keeps elements matching the predicate, `map` transforms each element, and `collect` gathers results into a list."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question='What does `Optional.ofNullable(null).orElse("default")` return?' options={['\'default\'','null','Optional[default]','NoSuchElementException']} correctAnswer={0} explanation='`Optional.ofNullable(null)` creates an empty Optional. `orElse("default")` returns the provided default value when the Optional is empty. So the result is the string "default".' difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question='What does `Optional.ofNullable(null).orElse("default")` return?' options={[''default'','null','Optional[default]','NoSuchElementException']} correctAnswer={0} explanation='`Optional.ofNullable(null)` creates an empty Optional. `orElse("default")` returns the provided default value when the Optional is empty. So the result is the string "default".' difficulty="easy"  />
 
 ---
 
 ### Interfaces and Abstract Classes
 
-<PracticeProblem client:only="solid-js" question={"Given `interface Describable { default String describe() { return \"default\"; } }` and `class Widget implements Describable { }`, what does `new Widget().describe()` return?&quot; options={['Compilation error','null','\'default\'','Empty string']} correctAnswer={2} explanation=&quot;Since Widget does not override describe(), it inherits the default method from the Describable interface. The default method returns \"default\"."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"Given `interface Describable { default String describe() { return \"default\"; } }` and `class Widget implements Describable { }`, what does `new Widget().describe()` return?&quot; options={['Compilation error','null',''default'','Empty string']} correctAnswer={2} explanation=&quot;Since Widget does not override describe(), it inherits the default method from the Describable interface. The default method returns \"default\"."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"Can an abstract class have a constructor?&quot; options={[ 'Yes, to initialize fields or enforce setup in subclasses', 'No, abstract classes cannot have constructors', 'Only if it has no abstract methods', 'Only if declared public', ]} correctAnswer={0} explanation=&quot;Abstract classes can have constructors. They are called via super() from subclass constructors to initialize inherited fields or perform common setup. Abstract classes cannot be instantiated directly, but their constructors are essential for subclass initialization."} difficulty="medium"  />
 

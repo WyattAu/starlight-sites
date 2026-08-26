@@ -96,8 +96,8 @@ export const practiceQuestions = [
     question:
       'Which algorithm is used to find a minimum spanning tree (MST) and what principle does it follow?',
     options: [
-      'A) Dijkstra\'s algorithm; it follows the "shortest path first" principle',
-      'B) Kruskal\'s or Prim\'s algorithm; they follow the "greedy cut\nproperty" principle by always adding the cheapest edge that does not create a cycle',
+      'A) Dijkstra's algorithm; it follows the "shortest path first" principle',
+      'B) Kruskal's or Prim's algorithm; they follow the "greedy cut\nproperty" principle by always adding the cheapest edge that does not create a cycle',
       'C) BFS; it follows the "level by level" principle',
       'D) A* search; it follows the "heuristic guidance" principle',
     ],

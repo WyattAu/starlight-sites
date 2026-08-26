@@ -156,7 +156,7 @@ Prefer discriminated unions (see below) over heterogenous enums.
 ## Union Enum Pattern
 
 The **union enum pattern** uses string enums to create a type-safe, self-documenting set of values
-That integrates with TypeScript\'s narrowing system:
+That integrates with TypeScript's narrowing system:
 
 ```ts
 enum ShapeKind \{
@@ -196,7 +196,7 @@ function area(shape: Shape): number \{
 ```
 
 The compiler verifies that the `switch` is exhaustive (all enum members are handled) because
-`shape.kind` is a union of the enum\'s literal types.
+`shape.kind` is a union of the enum's literal types.
 
 ### Union of Literal Types (Without Enum)
 

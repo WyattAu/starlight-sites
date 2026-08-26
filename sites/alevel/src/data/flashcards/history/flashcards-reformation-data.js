@@ -11,7 +11,7 @@ export const flashcards1 = [
   },
   {
     front: 'Sola Fide',
-    back: 'Luther\'s doctrine of "faith alone" — salvation comes through faith in Christ, not through good works or purchase of indulgences. Derived from Romans 1:17. Became a foundational principle of Protestant theology.',
+    back: 'Luther's doctrine of "faith alone" — salvation comes through faith in Christ, not through good works or purchase of indulgences. Derived from Romans 1:17. Became a foundational principle of Protestant theology.',
     difficulty: 'medium',
   },
   {
@@ -57,7 +57,7 @@ export const flashcards2 = [
 export const flashcards3 = [
   {
     front: 'Predestination',
-    back: 'Calvin\'s doctrine that God has predetermined who will be saved (the "elect") before the foundation of the world. Human action cannot influence salvation. Created anxiety about election and shaped Puritan moral rigorism.',
+    back: 'Calvin's doctrine that God has predetermined who will be saved (the "elect") before the foundation of the world. Human action cannot influence salvation. Created anxiety about election and shaped Puritan moral rigorism.',
     difficulty: 'hard',
   },
   {

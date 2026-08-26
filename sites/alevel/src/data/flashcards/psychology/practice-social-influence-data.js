@@ -122,7 +122,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Moscovici\'s blue-green slide experiment (1969) found that a consistent minority (confederates calling blue slides green on every trial) influenced the real participant to give the minority response 8% of the time. Consistency was crucial: when the minority was inconsistent (sometimes saying blue, sometimes green), influence dropped to 1.25%. Moscovici identified consistency (also called the "behavioural style" of the minority) as the key factor. Other factors include: commitment (demonstrating willingness to suffer for the cause), flexibility (willing to compromise on less important points), and identification with the minority.',
+      'Moscovici's blue-green slide experiment (1969) found that a consistent minority (confederates calling blue slides green on every trial) influenced the real participant to give the minority response 8% of the time. Consistency was crucial: when the minority was inconsistent (sometimes saying blue, sometimes green), influence dropped to 1.25%. Moscovici identified consistency (also called the "behavioural style" of the minority) as the key factor. Other factors include: commitment (demonstrating willingness to suffer for the cause), flexibility (willing to compromise on less important points), and identification with the minority.',
   },
   {
     question: 'What is the "snowball effect" in the context of social influence?',
@@ -134,7 +134,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'The snowball effect (also\ncalled the "tipping point") occurs when minority influence gradually converts individuals from the\nmajority, who then join the minority. As more people adopt the minority position, the minority grows\nand eventually becomes the new majority opinion. This explains how social change occurs: a committed\nminority (e.g., civil rights activists, suffragettes) maintains a consistent position, some majority\nmembers internalise the view, and over time the minority view becomes the social norm. This is\nsupported by Moscovici\'s conversion theory and Nemeth\'s research on the diffusion of minority\ninfluence.',
+      'The snowball effect (also\ncalled the "tipping point") occurs when minority influence gradually converts individuals from the\nmajority, who then join the minority. As more people adopt the minority position, the minority grows\nand eventually becomes the new majority opinion. This explains how social change occurs: a committed\nminority (e.g., civil rights activists, suffragettes) maintains a consistent position, some majority\nmembers internalise the view, and over time the minority view becomes the social norm. This is\nsupported by Moscovici's conversion theory and Nemeth's research on the diffusion of minority\ninfluence.',
   },
   {
     question:
@@ -186,7 +186,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Nemeth (1986)\nargued that minority dissent has a valuable social function beyond merely changing opinions. Even\nwhen the minority does not convert the majority, dissent encourages divergent thinking -- it prompts\nthe majority to consider alternative perspectives and search for better solutions. This "debiasing effect" of minority influence was demonstrated in Nemeth\'s colour perception studies and\nproblem-solving experiments. She proposed that minorities are effective when they are consistent but\nalso show some flexibility (willing to compromise on some points), which signals open-mindedness\nrather than rigidity. This contrasts with the view that minorities must simply be louder or more\nnumerous to succeed.',
+      'Nemeth (1986)\nargued that minority dissent has a valuable social function beyond merely changing opinions. Even\nwhen the minority does not convert the majority, dissent encourages divergent thinking -- it prompts\nthe majority to consider alternative perspectives and search for better solutions. This "debiasing effect" of minority influence was demonstrated in Nemeth's colour perception studies and\nproblem-solving experiments. She proposed that minorities are effective when they are consistent but\nalso show some flexibility (willing to compromise on some points), which signals open-mindedness\nrather than rigidity. This contrasts with the view that minorities must simply be louder or more\nnumerous to succeed.',
   },
   {
     question: 'What is deindividuation, and which theory best explains\nit?',

@@ -538,7 +538,7 @@ echo '$VAR'    # outputs: $VAR
 echo "cost: \"\$5\""   # outputs: cost: "$5"
 
 # Nesting quotes
-echo 'it'\''s'          # outputs: it's (end single, escaped single, start single)
+echo 'it'''s'          # outputs: it's (end single, escaped single, start single)
 ```
 
 ### Conditionals

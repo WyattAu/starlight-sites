@@ -39,7 +39,7 @@ export const practiceQuestions = [
       "Craik and Lockhart (1972) proposed that memory is a by-product of the depth of processing. Shallow processing (structural/physical features) leads to fragile memory traces that are easily forgotten. Deep processing (semantic meaning) creates strong, durable memory traces that are better retained. This challenged the multi-store model's emphasis on rehearsal as the key to memory durability.",
   },
   {
-    question: 'Bartlett\'s "War of the Ghosts" study demonstrated that memory is:',
+    question: 'Bartlett's "War of the Ghosts" study demonstrated that memory is:',
     options: [
       'A) A passive recording of events',
       'B) An active process of reconstruction',
@@ -48,7 +48,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Bartlett (1932) found that participants\' recall of the Native American folk tale "War of the Ghosts" became increasingly distorted over time. Participants omitted unfamiliar details, rationalised unusual elements, and made the story conform to their own cultural schemas. This demonstrated that memory is not an exact recording but an active process of reconstruction influenced by existing knowledge, expectations, and cultural schemas.',
+      'Bartlett (1932) found that participants' recall of the Native American folk tale "War of the Ghosts" became increasingly distorted over time. Participants omitted unfamiliar details, rationalised unusual elements, and made the story conform to their own cultural schemas. This demonstrated that memory is not an exact recording but an active process of reconstruction influenced by existing knowledge, expectations, and cultural schemas.',
   },
   {
     question: "Which type of forgetting does Ebbinghaus's savings method primarily measure?",

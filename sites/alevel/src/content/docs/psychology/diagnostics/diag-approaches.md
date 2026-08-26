@@ -40,7 +40,7 @@ sidebar_position: 40
 (C) Free will and self-actualisation
 (D) The structure of the mind as interacting components
 
-**2.** Bandura\'s Bobo doll experiment (1963) demonstrated that:
+**2.** Bandura's Bobo doll experiment (1963) demonstrated that:
 
 (A) Children only learn behaviours through direct reinforcement
 (B) Children can learn aggressive behaviours through observational learning
@@ -89,7 +89,7 @@ sidebar_position: 40
 (C) Relying too heavily on case studies
 (D) Overemphasising the influence of genetics
 
-**9.** Maslow\'s hierarchy of needs proposes that:
+**9.** Maslow's hierarchy of needs proposes that:
 
 (A) All human behaviour is motivated by the desire to avoid punishment
 (B) Self-actualisation is the highest human need, achievable only after lower needs are met
@@ -158,7 +158,7 @@ sidebar_position: 40
 
 **8. (B)** A major criticism of behaviourism is that it ignores internal mental processes (cognition). By focusing exclusively on observable stimuli and responses, it fails to account for how people process, interpret, and store information internally.
 
-**9. (B)** Maslow proposed a hierarchy of needs: physiological, safety, love/belonging, esteem, and self-actualisation. Lower-level needs must be substantially satisfied before an individual can progress to higher-level needs. Self-actualisation is the fulfilment of one\'s potential.
+**9. (B)** Maslow proposed a hierarchy of needs: physiological, safety, love/belonging, esteem, and self-actualisation. Lower-level needs must be substantially satisfied before an individual can progress to higher-level needs. Self-actualisation is the fulfilment of one's potential.
 
 **10. (C)** The cognitive approach (Beck) explains depression in terms of negative cognitive schemas, distorted thinking patterns, and maladaptive automatic thoughts. These cognitive distortions maintain depressive symptoms and are the target of cognitive therapy.
 

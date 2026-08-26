@@ -30,7 +30,7 @@ export const flashcards1 = [
   {
     id: 'swift-optionals-005',
     front: 'What is an optional in Swift and what values can it hold?',
-    back: 'An optional (written as T?) can hold either a value of type T or nil. Example: var name: String? = "Alice". It is Swift\'s mechanism for safely handling the absence of a value.',
+    back: 'An optional (written as T?) can hold either a value of type T or nil. Example: var name: String? = "Alice". It is Swift's mechanism for safely handling the absence of a value.',
     tags: ['swift', 'optionals'],
     difficulty: 'easy',
   },
@@ -44,7 +44,7 @@ export const flashcards1 = [
   {
     id: 'swift-optionals-007',
     front: 'What does the nil coalescing operator ?? do?',
-    back: 'The expression a ?? b returns a if it is non-nil; otherwise returns b. Example: let name = username ?? "Guest". b must match the type of a\'s unwrapped value.',
+    back: 'The expression a ?? b returns a if it is non-nil; otherwise returns b. Example: let name = username ?? "Guest". b must match the type of a's unwrapped value.',
     tags: ['swift', 'optionals'],
     difficulty: 'easy',
   },

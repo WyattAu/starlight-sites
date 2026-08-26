@@ -48,11 +48,11 @@ flowchart TD
 
 ## Questions
 
-**1.** The theory of plate tectonics states that the Earth\'s lithosphere is divided into:
+**1.** The theory of plate tectonics states that the Earth's lithosphere is divided into:
 
 (A) Five major layers of the atmosphere
 (B) Several rigid plates that move over the asthenosphere
-(C) Three distinct layers of the Earth\'s interior
+(C) Three distinct layers of the Earth's interior
 (D) Two hemispheres separated by the equator
 
 **2.** A destructive (convergent) plate boundary occurs when:
@@ -157,13 +157,13 @@ flowchart TD
 
 ## Explanations
 
-**1. (B)** The theory of plate tectonics proposes that the Earth\'s lithosphere (crust and upper mantle) is broken into several rigid tectonic plates that float on and move over the semi-molten asthenosphere. There are seven major plates and several minor plates, moving at rates of 1-15 cm per year.
+**1. (B)** The theory of plate tectonics proposes that the Earth's lithosphere (crust and upper mantle) is broken into several rigid tectonic plates that float on and move over the semi-molten asthenosphere. There are seven major plates and several minor plates, moving at rates of 1-15 cm per year.
 
 **2. (B)** At a destructive (convergent) boundary, two plates move towards each other. When an oceanic plate meets a continental plate, the denser oceanic plate subducts beneath the continental plate, forming a deep ocean trench and volcanic mountain ranges (e.g. the Andes). Earthquakes and volcanism are common.
 
-**3. (B)** The Ring of Fire is a horseshoe-shaped zone around the Pacific Ocean where approximately 75% of the world\'s active volcanoes are located and where approximately 90% of earthquakes occur. It marks the boundaries of several tectonic plates, including the Pacific, Nazca, and Philippine plates.
+**3. (B)** The Ring of Fire is a horseshoe-shaped zone around the Pacific Ocean where approximately 75% of the world's active volcanoes are located and where approximately 90% of earthquakes occur. It marks the boundaries of several tectonic plates, including the Pacific, Nazca, and Philippine plates.
 
-**4. (A)** P-waves (primary/compressional waves) are the fastest seismic waves and can travel through solids, liquids, and gases. S-waves (secondary/shear waves) are slower and can only travel through solids. This difference is used to determine the composition of the Earth\'s interior; S-waves cannot pass through the liquid outer core.
+**4. (A)** P-waves (primary/compressional waves) are the fastest seismic waves and can travel through solids, liquids, and gases. S-waves (secondary/shear waves) are slower and can only travel through solids. This difference is used to determine the composition of the Earth's interior; S-waves cannot pass through the liquid outer core.
 
 **5. (B)** The Richter scale (now largely replaced by the moment magnitude scale) measures the magnitude of an earthquake, which is proportional to the logarithm of the energy released. Each whole number increase represents approximately 32 times more energy. It does not measure damage, casualties, or duration directly.
 

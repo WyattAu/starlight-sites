@@ -66,7 +66,7 @@ class User {
   }
 
   // Method
-  String greet() => 'Hello, I\'m $name';
+  String greet() => 'Hello, I'm $name';
 }
 ```
 

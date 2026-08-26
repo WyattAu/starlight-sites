@@ -249,7 +249,7 @@ INSERT INTO Students (StudentID, FirstName, LastName, DateOfBirth, Grade)
 VALUES
     (1, 'Alice', 'Murphy', '2007-06-20', 'HL'),
     (2, 'Bob', 'Kelly', '2008-01-15', 'OL'),
-    (3, 'Clara', 'O\'Brien', '2007-09-03', 'HL');
+    (3, 'Clara', 'O'Brien', '2007-09-03', 'HL');
 ```
 
 ### Queries (DQL)

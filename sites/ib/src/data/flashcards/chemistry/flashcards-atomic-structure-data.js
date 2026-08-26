@@ -22,7 +22,7 @@ export const flashcard1 = [
   },
   {
     id: 'atomic-structure-004',
-    front: 'Describe Thomson\'s "plum pudding" model and the evidence behind it.',
+    front: 'Describe Thomson's "plum pudding" model and the evidence behind it.',
     back: 'Thomson (1897) discovered the electron using cathode ray tubes (deflected by electric and magnetic fields). His model: atoms are positively charged spheres with negatively charged electrons embedded throughout (like plums in a pudding). This was the first model to include subatomic particles.',
     tags: ['atomic models', 'Thomson'],
     difficulty: 'easy',

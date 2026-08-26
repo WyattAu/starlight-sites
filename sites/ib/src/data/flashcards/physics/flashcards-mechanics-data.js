@@ -99,7 +99,7 @@ export const flashcard3 = [
   {
     id: 'momentum-2',
     front: 'State the law of conservation of momentum.',
-    back: 'In a closed system with no external forces, total momentum is conserved: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. This applies to all types of collisions (elastic, inelastic, explosions). "Closed system" means no net external force — internal forces between colliding objects cancel by Newton\'s 3rd law.',
+    back: 'In a closed system with no external forces, total momentum is conserved: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. This applies to all types of collisions (elastic, inelastic, explosions). "Closed system" means no net external force — internal forces between colliding objects cancel by Newton's 3rd law.',
     tags: ['momentum', 'conservation'],
     difficulty: 'medium',
   },

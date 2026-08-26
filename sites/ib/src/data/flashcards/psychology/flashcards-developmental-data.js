@@ -136,7 +136,7 @@ export const flashcard4 = [
     id: 'dev-18',
     front:
       "What is Arnett’s theory of emerging adulthood and how does it extend Erikson's framework?",
-    back: 'Arnett (2000, 2006) proposed that emerging adulthood (approximately ages 18-25 in industrialised societies) is a distinct developmental period between adolescence and young adulthood, characterised by: (1) identity exploration (especially in love, work, and worldview), (2) instability (frequent changes in relationships, jobs, residence), (3) self-focus, (4) feeling "in-between" -- not fully adult but no longer adolescent, (5) possibilities/optimism. This extends Erikson\'s identity vs. role confusion stage, suggesting identity formation does not end at adolescence but continues into the mid-20s. Evaluation: culturally specific to industrialised, individualist societies; may not apply universally.',
+    back: 'Arnett (2000, 2006) proposed that emerging adulthood (approximately ages 18-25 in industrialised societies) is a distinct developmental period between adolescence and young adulthood, characterised by: (1) identity exploration (especially in love, work, and worldview), (2) instability (frequent changes in relationships, jobs, residence), (3) self-focus, (4) feeling "in-between" -- not fully adult but no longer adolescent, (5) possibilities/optimism. This extends Erikson's identity vs. role confusion stage, suggesting identity formation does not end at adolescence but continues into the mid-20s. Evaluation: culturally specific to industrialised, individualist societies; may not apply universally.',
     tags: ['adolescence', 'emerging-adulthood', 'Arnett', 'Erikson'],
     difficulty: 'medium',
   },
