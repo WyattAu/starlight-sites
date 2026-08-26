@@ -887,8 +887,8 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 
 ## See Also
 
-- [Calling Conventions and Stack Management](2_calling_conventions.md)
-- [C-Interop and FFI](5_c_interop.md)
+- [Calling Conventions and Stack Management](2_calling_conventions)
+- [C-Interop and FFI](5_c_interop)
 
 ```mermaid
 flowchart TD

@@ -638,7 +638,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Data Representation](../statistics/01-data-representation.md) — The mean, standard deviation, and quartiles used here are defined in the data representation topic.
-- [Probability](../statistics/03-probability.md) — Understanding probability distributions is essential for interpreting correlation in a statistical context.
-- [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Regression residuals and PMCC values are tested for significance using hypothesis testing methods.
+- [Data Representation](../statistics/01-data-representation) — The mean, standard deviation, and quartiles used here are defined in the data representation topic.
+- [Probability](../statistics/03-probability) — Understanding probability distributions is essential for interpreting correlation in a statistical context.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing) — Regression residuals and PMCC values are tested for significance using hypothesis testing methods.
 :::

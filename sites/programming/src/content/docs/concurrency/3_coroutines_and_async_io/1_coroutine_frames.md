@@ -762,9 +762,9 @@ int main() {
 
 ## See Also
 
-- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
-- [Generators (std::generator)](./3_generators.md)
-- [Task Scheduling and Executors](./4_task_scheduling.md)
+- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter)
+- [Generators (std::generator)](./3_generators)
+- [Task Scheduling and Executors](./4_task_scheduling)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

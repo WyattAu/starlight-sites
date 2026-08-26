@@ -240,9 +240,9 @@ is Overly restrictive.
 
 ## Cross-References
 
-- **[Synchronisation](./3_synchronisation.md):** Mutexes, semaphores, and condition variables.
-- **[Process Management](./2_process-management.md):** Process scheduling and lifecycle.
-- **[I/O Systems](./7_i-o-systems.md):** I/O resource allocation and deadlock.
+- **[Synchronisation](./3_synchronisation):** Mutexes, semaphores, and condition variables.
+- **[Process Management](./2_process-management):** Process scheduling and lifecycle.
+- **[I/O Systems](./7_i-o-systems):** I/O resource allocation and deadlock.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

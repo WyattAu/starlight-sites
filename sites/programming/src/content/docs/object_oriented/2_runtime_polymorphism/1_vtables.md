@@ -325,7 +325,7 @@ int main() {
 
 :::caution
 Branch prediction accuracy, and whether the compiler can **devirtualize** the call (see
-[Devirtualization](./3_devirtualization.md)). With `-O2` or `-O3`Modern compilers may eliminate The
+[Devirtualization](./3_devirtualization)). With `-O2` or `-O3`Modern compilers may eliminate The
 virtual dispatch entirely if the dynamic type is provable.
 :::
 ## 1.5 The `final` Keyword
@@ -732,9 +732,9 @@ Has no data members. This is the fundamental cost of runtime polymorphism.
 
 ## See Also
 
-- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing.md)
-- [Devirtualization and Final Specifiers](./3_devirtualization.md)
-- [Deducing This and CRTP](./5_deducing_this_crtp.md)
+- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
+- [Devirtualization and Final Specifiers](./3_devirtualization)
+- [Deducing This and CRTP](./5_deducing_this_crtp)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

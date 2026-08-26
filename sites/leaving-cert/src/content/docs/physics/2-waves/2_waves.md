@@ -737,7 +737,7 @@ Different densities.
 
 ## Cross-References
 
-- **[Mechanics](../1-mechanics/1_mechanics.mdx):** Covers forces, motion, and energy concepts that provide the foundation for understanding wave phenomena.
-- **[Electricity](../3-electricity/3_electricity.mdx):** Explores electromagnetic induction and AC circuits, connecting to the electromagnetic spectrum covered here.
-- **[Modern Physics](../5-modern-physics/5_modern-physics.md):** Covers the photoelectric effect and wave-particle duality, extending the wave concepts from this topic.
-- **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering waves, optics, and other physics topics.
+- **[Mechanics](../1-mechanics/1_mechanics):** Covers forces, motion, and energy concepts that provide the foundation for understanding wave phenomena.
+- **[Electricity](../3-electricity/3_electricity):** Explores electromagnetic induction and AC circuits, connecting to the electromagnetic spectrum covered here.
+- **[Modern Physics](../5-modern-physics/5_modern-physics):** Covers the photoelectric effect and wave-particle duality, extending the wave concepts from this topic.
+- **[Practice Physics](../practice-physics):** Interactive practice problems covering waves, optics, and other physics topics.

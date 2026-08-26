@@ -360,6 +360,6 @@ linked above.
 
 ## Cross-References
 
-- **[I/O](io.md):** File and stream operations that work with string data.
-- **[Net/HTTP](net-http.md):** HTTP client and server that use string and time utilities.
+- **[I/O](io):** File and stream operations that work with string data.
+- **[Net/HTTP](net-http):** HTTP client and server that use string and time utilities.
 - **[Basics](../basics/):** Fundamental Go concepts including string and time types.

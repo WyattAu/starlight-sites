@@ -265,7 +265,7 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 
 - **[Partial Derivatives](1_partial-derivatives)**: The gradient and Hessian matrices used in optimisation are constructed from first and second partial derivatives.
 - **[Vector Calculus](3_vector-calculus)**: Lagrange multipliers use the geometric relationship between gradients and tangent spaces, which is formalised in the study of conservative fields.
-- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The extreme value theorem and convergence of iterative optimisation methods rely on completeness and compactness from real analysis.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits)**: The extreme value theorem and convergence of iterative optimisation methods rely on completeness and compactness from real analysis.
 - **[Multiple Integrals](2_multiple-integrals)**: Computing volumes and moments over constraint surfaces uses the multiple integration techniques developed in this chapter.
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -180,9 +180,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Compactness](5_compactness.md)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
-- **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the framework for defining connectedness through separation properties.
-- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions preserve connectedness, and homeomorphisms preserve all topological invariants.
+- **[Compactness](5_compactness)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
+- **[Topological Spaces](2_topological-spaces)**: Topological spaces provide the framework for defining connectedness through separation properties.
+- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms)**: Continuous functions preserve connectedness, and homeomorphisms preserve all topological invariants.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

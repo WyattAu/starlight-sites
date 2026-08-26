@@ -598,7 +598,7 @@ $$x = \frac{4}{5} + 1 = \frac{9}{5}$$
 Intersection: $\left(\frac{9}{5}, \frac{4}{5}\right)$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Linear simultaneous equations](./03-equations-and-inequalities.md)
+<b>If you get this wrong, revise:</b> [Linear simultaneous equations](./03-equations-and-inequalities)
 
 <hr />
 
@@ -967,9 +967,9 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions.md) — Completing the square and factorisation are used to find centres and radii of circles.
-- [Equations and Inequalities](03-equations-and-inequalities.md) — Simultaneous equations and discriminant analysis determine intersections of lines and circles.
-- [Vectors](12-vectors.md) — The vector equation of a line and the dot product are applied in coordinate geometry proofs.
+- [Algebraic Expressions](01-algebraic-expressions) — Completing the square and factorisation are used to find centres and radii of circles.
+- [Equations and Inequalities](03-equations-and-inequalities) — Simultaneous equations and discriminant analysis determine intersections of lines and circles.
+- [Vectors](12-vectors) — The vector equation of a line and the dot product are applied in coordinate geometry proofs.
 - [Trigonometry](08-trigonometry) — Parametric equations of a circle use sine and cosine functions from trigonometry.
 
 

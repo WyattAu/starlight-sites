@@ -269,5 +269,5 @@ linked above.
 
 ## Cross-References
 
-- **[Cell Biology](./diag-cell-biology.md):** Cell structures and their functions.
-- **[Bioenergetics](./diag-bioenergetics.md):** Energy processes in living organisms.
+- **[Cell Biology](./diag-cell-biology):** Cell structures and their functions.
+- **[Bioenergetics](./diag-bioenergetics):** Energy processes in living organisms.

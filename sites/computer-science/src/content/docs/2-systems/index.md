@@ -117,3 +117,5 @@ Each section includes:
 - **Ignoring deadlock conditions:** Deadlock requires all four conditions (mutual exclusion, hold-and-wait, no preemption, circular wait). Students often focus on mutual exclusion while ignoring the other three, leading to incomplete deadlock prevention strategies.
 - **Assuming virtual memory eliminates performance concerns:** Virtual memory provides abstraction but not free performance. Page faults are expensive (100x slower than cache hits), and thrashing occurs when the working set exceeds physical memory. Memory locality still matters.
 - **Confusing caching with buffering:** Caching stores frequently accessed data for faster retrieval; buffering accumulates data before batch processing. Using a cache where a buffer is needed (or vice versa) leads to incorrect performance analysis.
+
+Keep practising and reviewing to master this topic.

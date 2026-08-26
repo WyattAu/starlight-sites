@@ -270,9 +270,9 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 
 ## Cross-References
 
-- **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and their commutation relations determine the structure of angular momentum.
-- **[Spin](7_spin.md)**: Spin is an intrinsic angular momentum that extends the orbital angular momentum formalism.
-- **[Scattering Theory](13_scattering-theory.md)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
+- **[Operators and Observables](4_operators-and-observables)**: Operators represent physical observables and their commutation relations determine the structure of angular momentum.
+- **[Spin](7_spin)**: Spin is an intrinsic angular momentum that extends the orbital angular momentum formalism.
+- **[Scattering Theory](13_scattering-theory)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -841,13 +841,13 @@ public UserData fetchUserData(String userId) throws Exception {
 
 ## See Also
 
-- [Concurrency](../06-concurrency/01-concurrency.md) -- traditional concurrency primitives,
+- [Concurrency](../06-concurrency/01-concurrency) -- traditional concurrency primitives,
   `ReentrantLock``CompletableFuture`
-- [Collections Framework](../04-collections/01-collections-framework.md) -- thread-safe collections
+- [Collections Framework](../04-collections/01-collections-framework) -- thread-safe collections
   for concurrent access
-- [Records, Sealed Classes, and Pattern Matching](../08-modern-java/01-records-sealed-patterns.md)
+- [Records, Sealed Classes, and Pattern Matching](../08-modern-java/01-records-sealed-patterns)
   -- pattern matching used in structured concurrency
-- [Class Loading and Memory Model](../09-jvm-internals/01-class-loading-memory.md) -- how the JVM
+- [Class Loading and Memory Model](../09-jvm-internals/01-class-loading-memory) -- how the JVM
   manages threads and memory
 
 

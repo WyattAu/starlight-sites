@@ -82,7 +82,7 @@ Depends.
 - **A.5 Galilean and Special Relativity:** Reference frames; the postulates of special relativity;
   time dilation; length contraction; the Lorentz factor.
 
-> See [Forces and Momentum](1-space-time-and-motion/5_forces-and-momentum.md) for detailed notes.
+> See [Forces and Momentum](1-space-time-and-motion/5_forces-and-momentum) for detailed notes.
 
 ### Worked Example: Projectile Motion (A.1)
 
@@ -248,7 +248,7 @@ Gases, and the structure of matter.
 - **B.7 Discrete Energy and Radioactivity:** Atomic spectra; the Bohr model; radioactive decay;
   half-life; nuclear reactions.
 
-> See [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics.mdx) for detailed notes.
+> See [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics) for detailed notes.
 
 ### Worked Example: Specific and Latent Heat (B.1)
 
@@ -387,7 +387,7 @@ Motion.
 - **C.5 Standing Waves and Resonance:** Standing wave patterns in strings and pipes; boundary
   conditions; resonance and harmonics.
 
-> See [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion.mdx) for detailed notes.
+> See [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion) for detailed notes.
 
 ### Worked Example: Double-Slit Interference (C.3)
 
@@ -547,10 +547,10 @@ Between charged particles and masses.
 - **D.5 RLC Circuits and Kirchhoff's Laws:** Kirchhoff's junction and loop rules; capacitance;
   inductance; impedance in AC circuits; resonance in series and parallel RLC circuits.
 
-> See [Gravitational Fields](4-fields/1_gravitational-fields.mdx),
-> [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields.mdx),
-> [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields.md), and
-> [Induction](4-fields/4_induction.mdx) for detailed notes.
+> See [Gravitational Fields](4-fields/1_gravitational-fields),
+> [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields),
+> [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields), and
+> [Induction](4-fields/4_induction) for detailed notes.
 
 ### Worked Example: Gravitational Field Strength (D.1)
 
@@ -1136,10 +1136,10 @@ The physics data booklet is your most important tool in the exam. To use it effe
 
 ## How to Use These Notes
 
-- Begin with the [Syllabus](Syllabus.md) page for a detailed breakdown of all topics, sub-topics,
+- Begin with the [Syllabus](Syllabus) page for a detailed breakdown of all topics, sub-topics,
   and the relevant equations from the data booklet.
 - Navigate to the relevant theme section for topic-specific notes and worked examples.
-- The [Wrap-up](wrap-up.md) page provides a summary of key concepts across the course.
+- The [Wrap-up](wrap-up) page provides a summary of key concepts across the course.
 - When preparing for examinations, ensure familiarity with the physics data booklet and practise
   both calculation and explanation-style questions.
 - Focus revision time on the most-tested topics listed above, and always practise under timed
@@ -1516,10 +1516,10 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 
 ## How to Use These Notes
 
-- Begin with the [Syllabus](Syllabus.md) page for a detailed breakdown of all topics, sub-topics,
+- Begin with the [Syllabus](Syllabus) page for a detailed breakdown of all topics, sub-topics,
   and the relevant equations from the data booklet.
 - Navigate to the relevant theme section for topic-specific notes and worked examples.
-- The [Wrap-up](wrap-up.md) page provides a summary of key concepts across the course.
+- The [Wrap-up](wrap-up) page provides a summary of key concepts across the course.
 - When preparing for examinations, ensure familiarity with the physics data booklet and practise
   both calculation and explanation-style questions.
 - Focus revision time on the most-tested topics listed above, and always practise under timed

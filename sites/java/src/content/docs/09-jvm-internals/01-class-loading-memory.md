@@ -680,12 +680,12 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 
 ## See Also
 
-- [Concurrency](../06-concurrency/01-concurrency.md) -- how threads interact with JVM memory
-- [Style and Patterns](../07-best-practices/01-style-and-patterns.md) -- memory management best
+- [Concurrency](../06-concurrency/01-concurrency) -- how threads interact with JVM memory
+- [Style and Patterns](../07-best-practices/01-style-and-patterns) -- memory management best
   practices
-- [JIT Compilation](../09-jvm-internals/02-jit-compilation.md) -- how the JIT compiler optimizes hot
+- [JIT Compilation](../09-jvm-internals/02-jit-compilation) -- how the JIT compiler optimizes hot
   code
-- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency.md)
+- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency)
   -- virtual thread memory characteristics
 
 

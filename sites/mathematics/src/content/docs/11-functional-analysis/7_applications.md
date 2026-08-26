@@ -155,9 +155,9 @@ The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite funct
 
 ## Cross-References
 
-- **[The Fundamental Theorems](./4_the-fundamental-theorems.md)**: Provides the Lax-Milgram theorem and Hahn-Banach extension used to establish existence and uniqueness of weak solutions.
-- **[Compact Operators](./5_compact-operators.md)**: The Fredholm alternative for compact operators is applied to solve integral equations arising in physics.
-- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Weak compactness is essential for extracting convergent subsequences in the calculus of variations and PDE theory.
+- **[The Fundamental Theorems](./4_the-fundamental-theorems)**: Provides the Lax-Milgram theorem and Hahn-Banach extension used to establish existence and uniqueness of weak solutions.
+- **[Compact Operators](./5_compact-operators)**: The Fredholm alternative for compact operators is applied to solve integral equations arising in physics.
+- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence)**: Weak compactness is essential for extracting convergent subsequences in the calculus of variations and PDE theory.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

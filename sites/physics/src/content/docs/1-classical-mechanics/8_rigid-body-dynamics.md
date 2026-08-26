@@ -264,8 +264,8 @@ The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{
 
 ## Cross-References
 
-- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism gives the total energy and phase space representation of rigid body dynamics.
-- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Rotational symmetry leads to angular momentum conservation, which is fundamental to rigid body motion.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics)**: The Hamiltonian formalism gives the total energy and phase space representation of rigid body dynamics.
+- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws)**: Rotational symmetry leads to angular momentum conservation, which is fundamental to rigid body motion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

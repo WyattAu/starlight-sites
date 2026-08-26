@@ -150,9 +150,9 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 
 ## Cross-References
 
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: The canonical ensemble fixes particle number and derives thermodynamics from the partition function $Z$.
-- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Sommerfeld expansion describes how Fermi-Dirac statistics modify the ideal gas at low temperatures.
-- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation arises from Bose statistics in the grand canonical ensemble when $\mu$ approaches the ground state energy.
+- **[Statistical Mechanics](2_statistical-mechanics)**: The canonical ensemble fixes particle number and derives thermodynamics from the partition function $Z$.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature)**: The Sommerfeld expansion describes how Fermi-Dirac statistics modify the ideal gas at low temperatures.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation)**: Bose-Einstein condensation arises from Bose statistics in the grand canonical ensemble when $\mu$ approaches the ground state energy.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

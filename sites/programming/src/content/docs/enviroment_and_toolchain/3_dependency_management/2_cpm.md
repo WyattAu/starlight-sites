@@ -703,13 +703,13 @@ set(CPM_DOWNLOAD_VERSION 0.40.0)
 
 ## See Also
 
-- [Dependency Resolution](1_dependency_architectures_models.md) -- Package manager taxonomy and
+- [Dependency Resolution](1_dependency_architectures_models) -- Package manager taxonomy and
   version resolution
-- [vcpkg](3_vcpkg.md) -- Full-featured alternative for larger projects
-- [Conan](4_conan.md) -- Binary-first package manager for teams
-- [Property Propagation](5_property_propagation.md) -- How `add_subdirectory` merges build
+- [vcpkg](3_vcpkg) -- Full-featured alternative for larger projects
+- [Conan](4_conan) -- Binary-first package manager for teams
+- [Property Propagation](5_property_propagation) -- How `add_subdirectory` merges build
   properties
-- [Binary Caching](6_binary_caching.md) -- Why CPM lacks binary caching and how to compensate
+- [Binary Caching](6_binary_caching) -- Why CPM lacks binary caching and how to compensate
 
 
 ```mermaid

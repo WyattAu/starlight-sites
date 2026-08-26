@@ -203,7 +203,7 @@ Since $\Delta G < 0$, the reaction is spontaneous.
 
 ## Cross-References
 
-- **[Chemical Kinetics](../chemical-kinetics/index.md):** Reaction rates and activation energy — electrochemistry tells you whether a reaction happens, kinetics tells you how fast.
-- **[Solutions](../solutions/index.md):** Concentration affects cell potential through the Nernst equation, linking solution chemistry to electrochemistry.
-- **[Current Electricity (Physics)](../../physics/current-electricity/index.md):** The flow of electrons in circuits connects electrochemical concepts to electrical measurements.
-- **[D-Block Elements](../d-block/index.md):** Transition metals are used as electrodes and catalysts in electrochemical cells, connecting coordination chemistry to redox processes.
+- **[Chemical Kinetics](../chemical-kinetics/index):** Reaction rates and activation energy — electrochemistry tells you whether a reaction happens, kinetics tells you how fast.
+- **[Solutions](../solutions/index):** Concentration affects cell potential through the Nernst equation, linking solution chemistry to electrochemistry.
+- **[Current Electricity (Physics)](../../physics/current-electricity/index):** The flow of electrons in circuits connects electrochemical concepts to electrical measurements.
+- **[D-Block Elements](../d-block/index):** Transition metals are used as electrodes and catalysts in electrochemical cells, connecting coordination chemistry to redox processes.

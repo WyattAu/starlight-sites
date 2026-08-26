@@ -352,6 +352,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](./types-and-variables.md):** Type system fundamentals used in control flow expressions.
-- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive.md):** Null-safe branching and safe-call operators in control flow.
-- **[Kotlin Practice](../practice-kotlin-basics.mdx):** Auto-graded problems testing control flow patterns.
+- **[Types and Variables](./types-and-variables):** Type system fundamentals used in control flow expressions.
+- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive):** Null-safe branching and safe-call operators in control flow.
+- **[Kotlin Practice](../practice-kotlin-basics):** Auto-graded problems testing control flow patterns.

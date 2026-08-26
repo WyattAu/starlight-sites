@@ -560,9 +560,9 @@ Index `-1`.
 
 ## See Also
 
-- [Filesystem Library](./1_filesystem.md)
-- [Chrono Library](./2_chrono.md)
-- [Random Number Generation](./3_random_numbers.md)
+- [Filesystem Library](./1_filesystem)
+- [Chrono Library](./2_chrono)
+- [Random Number Generation](./3_random_numbers)
 
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 

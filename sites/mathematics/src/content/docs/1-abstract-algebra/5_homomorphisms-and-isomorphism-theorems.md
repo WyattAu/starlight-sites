@@ -321,6 +321,6 @@ flowchart TD
 
 ## Cross-References
 
-- **[Groups](1_groups.md)**: Groups are the structures that homomorphisms map between while preserving the group operation.
-- **[Normal Subgroups and Quotient Groups](4_normal-subgroups-and-quotient-groups.md)**: The kernel of every homomorphism is a normal subgroup, enabling quotient constructions.
-- **[Rings](8_rings.md)**: Ring homomorphisms extend the concept of structure-preserving maps to rings.
+- **[Groups](1_groups)**: Groups are the structures that homomorphisms map between while preserving the group operation.
+- **[Normal Subgroups and Quotient Groups](4_normal-subgroups-and-quotient-groups)**: The kernel of every homomorphism is a normal subgroup, enabling quotient constructions.
+- **[Rings](8_rings)**: Ring homomorphisms extend the concept of structure-preserving maps to rings.

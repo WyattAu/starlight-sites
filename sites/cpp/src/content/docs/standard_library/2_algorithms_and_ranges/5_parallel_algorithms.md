@@ -767,10 +767,10 @@ Parallel-capable algorithms.
 
 ## See Also
 
-- [Iterator-Sentinel Model](./1_iterator_sentinel.md)
-- [Range Adaptors, Views, Composition](./2_range_adaptors.md)
-- [Projections and Callable Objects](./3_projections.md)
-- [Range Materialization](./4_range_materialization.md)
+- [Iterator-Sentinel Model](./1_iterator_sentinel)
+- [Range Adaptors, Views, Composition](./2_range_adaptors)
+- [Projections and Callable Objects](./3_projections)
+- [Range Materialization](./4_range_materialization)
 
 ## Common Pitfalls
 

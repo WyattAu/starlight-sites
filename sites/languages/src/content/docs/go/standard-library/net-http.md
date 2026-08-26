@@ -627,6 +627,6 @@ linked above.
 
 ## Cross-References
 
-- **[I/O](./io.md):** Reader/Writer interfaces underlying HTTP request and response bodies.
-- **[Testing](../advanced/testing.md):** HTTP handler testing with httptest and middleware verification.
-- **[Channels](../concurrency/channels.md):** Goroutine-based concurrent request handling patterns.
+- **[I/O](./io):** Reader/Writer interfaces underlying HTTP request and response bodies.
+- **[Testing](../advanced/testing):** HTTP handler testing with httptest and middleware verification.
+- **[Channels](../concurrency/channels):** Goroutine-based concurrent request handling patterns.

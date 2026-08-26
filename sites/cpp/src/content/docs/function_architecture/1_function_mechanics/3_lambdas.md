@@ -718,6 +718,6 @@ linked above.
 
 ## Cross-References
 
-- **[Type Erasure](4_type_erasure.md):** Technique that often uses lambdas to store callable objects.
+- **[Type Erasure](4_type_erasure):** Technique that often uses lambdas to store callable objects.
 - **[Error Handling](../2_error_handling/):** Exception handling patterns used within lambda bodies.
 - **[Object-Oriented Programming](../../object_oriented/):** OOP concepts that lambdas complement as lightweight function objects.

@@ -188,9 +188,9 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 
 ## Cross-References
 
-- **[Superconductivity](./7_superconductivity.md)**: Provides the basic BCS theory and phenomenology that the Ginzburg-Landau theory generalises near the critical temperature.
-- **[Electronic Band Structure](./5_electronic-band-structure.md)**: The density of states at the Fermi level and the Fermi velocity enter the BCS expressions for the coherence length and penetration depth.
-- **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals.md)**: Majorana zero modes at the interface of a superconductor and a topological insulator provide a platform for topological quantum computing.
+- **[Superconductivity](./7_superconductivity)**: Provides the basic BCS theory and phenomenology that the Ginzburg-Landau theory generalises near the critical temperature.
+- **[Electronic Band Structure](./5_electronic-band-structure)**: The density of states at the Fermi level and the Fermi velocity enter the BCS expressions for the coherence length and penetration depth.
+- **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals)**: Majorana zero modes at the interface of a superconductor and a topological insulator provide a platform for topological quantum computing.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

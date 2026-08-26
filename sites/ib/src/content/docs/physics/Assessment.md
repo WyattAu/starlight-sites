@@ -277,25 +277,25 @@ Understanding the assessment structure is like knowing the rules of a game befor
 
 ## Cross-References
 
-- **[Syllabus](Syllabus.md)** -- Full topic-by-topic syllabus breakdown with key understandings and
+- **[Syllabus](Syllabus)** -- Full topic-by-topic syllabus breakdown with key understandings and
   equations.
-- **[Course Overview](physics.md)** -- Overview of all five themes and their sub-topics.
-- **[Wrap Up](wrap-up.md)** -- Practice questions and solutions covering all themes.
+- **[Course Overview](physics)** -- Overview of all five themes and their sub-topics.
+- **[Wrap Up](wrap-up)** -- Practice questions and solutions covering all themes.
 - **Theme A: Space, Time and Motion**
-- [Forces and Momentums](1-space-time-and-motion/5_forces-and-momentum.md)
+- [Forces and Momentums](1-space-time-and-motion/5_forces-and-momentum)
 - **Theme B: The Particulate Nature of Matter**
-- [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics.mdx)
-- [Matter Behavior Wrap Up](2-particulate-nature-of-matter/9_wrap-up.md)
+- [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics)
+- [Matter Behavior Wrap Up](2-particulate-nature-of-matter/9_wrap-up)
 - **Theme C: Wave Behaviour**
-- [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion.mdx)
-- [Waves Wrap Up](3-wave-behaviour/9_wrap-up.md)
+- [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion)
+- [Waves Wrap Up](3-wave-behaviour/9_wrap-up)
 - **Theme D: Fields**
-- [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields.mdx)
-- [Gravitational Fields](4-fields/1_gravitational-fields.mdx)
-- [Electromagnetic Induction](4-fields/4_induction.mdx)
-- [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields.md)
+- [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields)
+- [Gravitational Fields](4-fields/1_gravitational-fields)
+- [Electromagnetic Induction](4-fields/4_induction)
+- [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields)
 - **Theme E: Nuclear and Quantum Physics**
-- [Nuclear and Quantum Wrap Up](5-nuclear-and-quantum-physics/9_wrap-up.md)
+- [Nuclear and Quantum Wrap Up](5-nuclear-and-quantum-physics/9_wrap-up)
 
 ## Common Pitfalls
 

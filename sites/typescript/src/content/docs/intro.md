@@ -77,7 +77,7 @@ types from context. Start with strict mode enabled, use `unknown` instead of
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for typescript notes.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.
 
 
 ## Detailed Content

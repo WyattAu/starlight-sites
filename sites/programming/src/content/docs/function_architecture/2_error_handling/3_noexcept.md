@@ -563,8 +563,8 @@ int main() {
 
 ## See Also
 
-- [Exception Safety Guarantees](2_exception_safety.md)
-- [The Itanium Exception ABI](1_exception_abi.md)
+- [Exception Safety Guarantees](2_exception_safety)
+- [The Itanium Exception ABI](1_exception_abi)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 

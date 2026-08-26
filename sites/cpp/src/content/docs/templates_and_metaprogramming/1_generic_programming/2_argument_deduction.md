@@ -861,10 +861,10 @@ Argument deduction is the compiler playing detective — it looks at the functio
 
 ## See Also
 
-- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation.md)
-- [Explicit and Partial Specialization](./3_specialization.md)
-- [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs.md)
-- [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
+- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation)
+- [Explicit and Partial Specialization](./3_specialization)
+- [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs)
+- [Dependent Names and Two-Phase Lookup](./4_dependent_names)
 
 ```mermaid
 flowchart TD

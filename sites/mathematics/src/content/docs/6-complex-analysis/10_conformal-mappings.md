@@ -199,9 +199,9 @@ The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformation
 
 ## Cross-References
 
-- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analytic functions with non-zero derivatives provide the foundation for conformal mappings.
-- **[Applications of Contour Integration](9_applications-of-contour-integration.md)**: Conformal mappings transform difficult integrals into simpler ones that are easier to evaluate.
-- **[Argument Principle and Rouché's Theorem](12_argument-principle-and-rouch-s-theorem.md)**: The argument principle counts zeros and poles using the change in argument along contours.
+- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity)**: Analytic functions with non-zero derivatives provide the foundation for conformal mappings.
+- **[Applications of Contour Integration](9_applications-of-contour-integration)**: Conformal mappings transform difficult integrals into simpler ones that are easier to evaluate.
+- **[Argument Principle and Rouché's Theorem](12_argument-principle-and-rouch-s-theorem)**: The argument principle counts zeros and poles using the change in argument along contours.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -189,9 +189,9 @@ The Huygens-Fresnel integral includes a $\cos\theta$ obliquity factor that suppr
 
 ## Cross-References
 
-- **[Diffraction](./4_diffraction.md)**: Establishes the Huygens-Fresnel principle and Fraunhofer diffraction patterns that the detailed theory formalises with Fresnel integrals and Kirchhoff theory.
-- **[Fourier Optics](./14_fourier-optics-10.md)**: The Fraunhofer diffraction pattern is the Fourier transform of the aperture function, connecting diffraction to frequency analysis.
-- **[Fresnel Equations](./10_fresnel-equations.md)**: Determines the boundary conditions for electromagnetic fields at aperture edges, affecting the Kirchhoff diffraction integral.
+- **[Diffraction](./4_diffraction)**: Establishes the Huygens-Fresnel principle and Fraunhofer diffraction patterns that the detailed theory formalises with Fresnel integrals and Kirchhoff theory.
+- **[Fourier Optics](./14_fourier-optics-10)**: The Fraunhofer diffraction pattern is the Fourier transform of the aperture function, connecting diffraction to frequency analysis.
+- **[Fresnel Equations](./10_fresnel-equations)**: Determines the boundary conditions for electromagnetic fields at aperture edges, affecting the Kirchhoff diffraction integral.
 
 **Mistake 3: Confusing the Cornu spiral representation with the actual diffraction pattern**
 The Cornu spiral is a parametric plot of $(C(u), S(u))$ whose arc length and tangent angle encode the amplitude and phase of Fresnel diffraction. Students sometimes interpret the spiral itself as the intensity pattern, when in fact the intensity at each point is found by computing the chord length from the spiral's endpoint to the origin.

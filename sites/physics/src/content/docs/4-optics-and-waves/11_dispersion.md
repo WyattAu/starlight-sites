@@ -167,9 +167,9 @@ The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material dispe
 
 ## Cross-References
 
-- **[Electromagnetic Waves](./2_electromagnetic-waves.md)**: The dispersion relation $\omega = ck$ in vacuum is modified in dispersive media where the refractive index depends on frequency.
-- **[Optical Fibres](./12_optical-fibres.md)**: Material and waveguide dispersion broaden pulses in fibre communication, limiting the bit rate and requiring dispersion compensation.
-- **[Geometric Optics](./6_geometric-optics.md)**: Chromatic aberration in lenses arises from wavelength-dependent refraction, requiring achromatic doublets for correction.
+- **[Electromagnetic Waves](./2_electromagnetic-waves)**: The dispersion relation $\omega = ck$ in vacuum is modified in dispersive media where the refractive index depends on frequency.
+- **[Optical Fibres](./12_optical-fibres)**: Material and waveguide dispersion broaden pulses in fibre communication, limiting the bit rate and requiring dispersion compensation.
+- **[Geometric Optics](./6_geometric-optics)**: Chromatic aberration in lenses arises from wavelength-dependent refraction, requiring achromatic doublets for correction.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

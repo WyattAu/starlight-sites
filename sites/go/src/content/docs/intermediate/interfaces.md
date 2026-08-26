@@ -327,6 +327,6 @@ linked above.
 
 ## Cross-References
 
-- **[Generics](generics.md):** Generic programming as an alternative to interface-based abstraction.
-- **[Error Handling](error-handling.md):** Error handling patterns using the error interface.
-- **[Practice Interfaces](../practice-interfaces.mdx):** Practice problems covering interface design and implementation.
+- **[Generics](generics):** Generic programming as an alternative to interface-based abstraction.
+- **[Error Handling](error-handling):** Error handling patterns using the error interface.
+- **[Practice Interfaces](../practice-interfaces):** Practice problems covering interface design and implementation.

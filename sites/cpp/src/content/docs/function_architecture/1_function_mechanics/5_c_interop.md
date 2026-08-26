@@ -760,8 +760,8 @@ Static initialization order problem entirely.
 
 ## See Also
 
-- [Calling Conventions and Stack Management](2_calling_conventions.md)
-- [Type Erasure](4_type_erasure.md)
+- [Calling Conventions and Stack Management](2_calling_conventions)
+- [Type Erasure](4_type_erasure)
 
 ## Intuition
 

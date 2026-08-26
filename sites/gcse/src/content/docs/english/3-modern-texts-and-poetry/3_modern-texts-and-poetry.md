@@ -620,6 +620,6 @@ performance in this area.
 
 ## Cross-References
 
-- **[Shakespeare](../1-shakespeare/1_shakespeare.md):** Covers drama analysis techniques that complement modern text analysis.
-- **[19th Century Novel](../2-19th-century-novel/2_19th-century-novel.md):** Explores prose analysis methods for Victorian literature.
-- **[Practice English](../practice-english.mdx):** Interactive practice problems covering literary analysis and essay writing.
+- **[Shakespeare](../1-shakespeare/1_shakespeare):** Covers drama analysis techniques that complement modern text analysis.
+- **[19th Century Novel](../2-19th-century-novel/2_19th-century-novel):** Explores prose analysis methods for Victorian literature.
+- **[Practice English](../practice-english):** Interactive practice problems covering literary analysis and essay writing.

@@ -713,9 +713,9 @@ runApp config state action =
 
 ## Cross-References
 
-- **[Types and Functions](../01-basics/1_types-and-functions.md):** Type classes and function composition underlying functor and monad operations.
-- **[Pattern Matching](../02-pattern-matching/1_pattern-matching.md):** Pattern matching on Maybe, Either, and list constructors in monadic code.
-- **[Advanced Types](../05-advanced/1_advanced-types.md):** Type families and GADTs used to implement custom monad transformers.
+- **[Types and Functions](../01-basics/1_types-and-functions):** Type classes and function composition underlying functor and monad operations.
+- **[Pattern Matching](../02-pattern-matching/1_pattern-matching):** Pattern matching on Maybe, Either, and list constructors in monadic code.
+- **[Advanced Types](../05-advanced/1_advanced-types):** Type families and GADTs used to implement custom monad transformers.
 
 ## Common Mistakes
 

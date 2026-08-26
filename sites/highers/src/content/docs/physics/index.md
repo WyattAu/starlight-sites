@@ -38,7 +38,7 @@ Kinematics, forces, energy, power, projectiles, and Newton"s laws of motion.
 
 Momentum, impulse, collisions, gravitation, orbital mechanics, and space physics.
 
-→ **[Full notes](2-dynamics-space/2_dynamics-space.mdx)**
+→ **[Full notes](2-dynamics-space/2_dynamics-space)**
 
 ### Electricity
 
@@ -51,13 +51,13 @@ Circuit analysis, Ohm's law, power, internal resistance, AC circuits, and semico
 Wave properties, refraction, diffraction, interference, the photoelectric effect, and particle
 physics.
 
-→ **[Full notes](4-particles-waves/4_particles-waves.md)**
+→ **[Full notes](4-particles-waves/4_particles-waves)**
 
 ### Waves & Radiation
 
 Electromagnetic spectrum, nuclear radiation, half-life, nuclear reactions, and dosimetry.
 
-→ **[Full notes](5-waves-radiation/5_waves-radiation.md)**
+→ **[Full notes](5-waves-radiation/5_waves-radiation)**
 
 ## Study Tips
 

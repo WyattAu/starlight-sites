@@ -208,8 +208,8 @@ int main() {
 
 ## See Also
 
-- [Operator Overloading](./4_operator_overloading.md)
-- [The Spaceship Operator](./5_spaceship_operator.md)
+- [Operator Overloading](./4_operator_overloading)
+- [The Spaceship Operator](./5_spaceship_operator)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 

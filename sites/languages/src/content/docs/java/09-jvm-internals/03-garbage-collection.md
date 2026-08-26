@@ -825,9 +825,9 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../02-fundamentals/01-types-and-variables.md):** Object lifecycle and reference types that GC manages.
-- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Thread-safe memory access and GC pause impact on concurrent applications.
-- **[I/O and NIO](../10-io-nio/01-io-nio.md):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
+- **[Types and Variables](../02-fundamentals/01-types-and-variables):** Object lifecycle and reference types that GC manages.
+- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive):** Thread-safe memory access and GC pause impact on concurrent applications.
+- **[I/O and NIO](../10-io-nio/01-io-nio):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
 
 
 ```mermaid

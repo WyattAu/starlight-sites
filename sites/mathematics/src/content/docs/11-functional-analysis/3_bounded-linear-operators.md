@@ -139,9 +139,9 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 
 ## Cross-References
 
-- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces.md)**: Defines the domain and codomain spaces for bounded linear operators and establishes the dual space framework.
-- **[The Fundamental Theorems](./4_the-fundamental-theorems.md)**: Presents the Hahn-Banach, open mapping, and closed graph theorems that govern the behaviour of bounded operators between Banach spaces.
-- **[Compact Operators](./5_compact-operators.md)**: Studies a subclass of bounded operators with finite-dimensional-like properties, crucial for spectral theory.
+- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces)**: Defines the domain and codomain spaces for bounded linear operators and establishes the dual space framework.
+- **[The Fundamental Theorems](./4_the-fundamental-theorems)**: Presents the Hahn-Banach, open mapping, and closed graph theorems that govern the behaviour of bounded operators between Banach spaces.
+- **[Compact Operators](./5_compact-operators)**: Studies a subclass of bounded operators with finite-dimensional-like properties, crucial for spectral theory.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

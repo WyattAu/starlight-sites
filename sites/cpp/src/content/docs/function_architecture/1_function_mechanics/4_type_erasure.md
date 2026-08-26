@@ -756,6 +756,6 @@ linked above.
 
 ## Cross-References
 
-- **[Lambdas](3_lambdas.md):** Lambda expressions used to implement type-erased callable wrappers.
+- **[Lambdas](3_lambdas):** Lambda expressions used to implement type-erased callable wrappers.
 - **[Templates and Metaprogramming](../../templates_and_metaprogramming/):** Template techniques that type erasure often replaces.
 - **[Standard Library](../../standard_library/):** Standard library components like std::function that use type erasure.

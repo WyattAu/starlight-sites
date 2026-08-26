@@ -258,7 +258,7 @@ flowchart TD
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for physics notes.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

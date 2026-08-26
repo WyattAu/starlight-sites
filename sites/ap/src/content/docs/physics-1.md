@@ -616,4 +616,4 @@ AP Physics 1 is the **algebra-based introduction to mechanics** — it describes
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for ap notes.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.

@@ -149,7 +149,7 @@ Saving the commit hash.
 ### Tags
 
 Tags are references stored at `.git/refs/tags/<tag-name>`. Unlike branches, tags **do not move**
-When new commits are created — they are static pointers. See [Git Objects](./02-git-objects.md) for
+When new commits are created — they are static pointers. See [Git Objects](./02-git-objects) for
 The distinction between lightweight and annotated tags.
 
 ### Remote References
@@ -291,7 +291,7 @@ $ git config gc.reflogExpire 30.days
 $ git reflog --date=iso
 ```
 
-See [Reflog](../05-advanced-topics/01-reflog.md) for a deeper treatment.
+See [Reflog](../05-advanced-topics/01-reflog) for a deeper treatment.
 
 ## Symbolic References
 
@@ -374,6 +374,6 @@ linked above.
 
 ## Cross-References
 
-- **[Git Objects](02-git-objects.md):** Covers the underlying object model (commits, trees, blobs) that references point to.
-- **[The Three Trees](01-the-three-trees.md):** Explains the working directory, staging area, and repository lifecycle.
-- **[Branching](../03-branching-and-merging/01-branching.md):** Branch creation and management that uses references to track commit history.
+- **[Git Objects](02-git-objects):** Covers the underlying object model (commits, trees, blobs) that references point to.
+- **[The Three Trees](01-the-three-trees):** Explains the working directory, staging area, and repository lifecycle.
+- **[Branching](../03-branching-and-merging/01-branching):** Branch creation and management that uses references to track commit history.

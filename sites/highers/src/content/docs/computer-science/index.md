@@ -38,7 +38,7 @@ Processor architecture, memory, input/output, operating systems, and system perf
 
 Programming constructs, software development lifecycle, testing, and modular design.
 
-→ **[Full notes](2-software/2_software.md)**
+→ **[Full notes](2-software/2_software)**
 
 ### Database Design & Development
 
@@ -50,13 +50,13 @@ Relational databases, SQL, normalisation, entity-relationship modelling, and dat
 
 Searching, sorting, complexity analysis, abstract data types, and algorithm design.
 
-→ **[Full notes](4-algorithms/4_algorithms.md)**
+→ **[Full notes](4-algorithms/4_algorithms)**
 
 ### Web Design & Development
 
 HTML, CSS, JavaScript, web architecture, HTTP, and client-server model.
 
-→ **[Full notes](5-networks/5_networks.md)**
+→ **[Full notes](5-networks/5_networks)**
 
 ## Study Tips
 

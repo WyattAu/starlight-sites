@@ -416,6 +416,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../basics/types-and-variables.md):** Type system fundamentals that reflection inspects at runtime.
-- **[Null Safety Deep Dive](./null-safety-deep-dive.md):** Contracts and safe-call operators used in reflective null handling.
-- **[Control Flow](../basics/control-flow.md):** When expressions and sealed class patterns that reflection can enumerate.
+- **[Types and Variables](../basics/types-and-variables):** Type system fundamentals that reflection inspects at runtime.
+- **[Null Safety Deep Dive](./null-safety-deep-dive):** Contracts and safe-call operators used in reflective null handling.
+- **[Control Flow](../basics/control-flow):** When expressions and sealed class patterns that reflection can enumerate.

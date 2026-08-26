@@ -213,5 +213,5 @@ linked above.
 
 ## Cross-References
 
-- **[Number](./diag-number.md):** Number operations and calculations.
-- **[Algebra](./diag-algebra.md):** Equations and expressions.
+- **[Number](./diag-number):** Number operations and calculations.
+- **[Algebra](./diag-algebra):** Equations and expressions.

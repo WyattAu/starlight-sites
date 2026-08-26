@@ -860,10 +860,10 @@ conan install . -r company --build=missing
 
 ## See Also
 
-- [Dependency Resolution](1_dependency_architectures_models.md) -- Package manager taxonomy
-- [vcpkg](3_vcpkg.md) -- Source-first alternative
-- [CPM.cmake](2_cpm.md) -- Lightweight source-based alternative
-- [Binary Caching](6_binary_caching.md) -- Conan's binary caching architecture
+- [Dependency Resolution](1_dependency_architectures_models) -- Package manager taxonomy
+- [vcpkg](3_vcpkg) -- Source-first alternative
+- [CPM.cmake](2_cpm) -- Lightweight source-based alternative
+- [Binary Caching](6_binary_caching) -- Conan's binary caching architecture
 
 
 ```mermaid

@@ -376,9 +376,9 @@ One-dimensional quantum problems are the laboratory where quantum weirdness beco
 
 ## Cross-References
 
-- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for solving 1D quantum problems.
-- **[Operators and Observables](4_operators-and-observables.md)**: Operators like the Hamiltonian act on wave functions to extract energy eigenvalues.
-- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: The hydrogen atom extends 1D techniques to three dimensions with central potentials.
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation)**: The Schrodinger equation provides the foundation for solving 1D quantum problems.
+- **[Operators and Observables](4_operators-and-observables)**: Operators like the Hamiltonian act on wave functions to extract energy eigenvalues.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom)**: The hydrogen atom extends 1D techniques to three dimensions with central potentials.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -315,7 +315,7 @@ gitGraph
 **Rebase**: Rewrites history to create a linear sequence. The original commits `C` and `D` are
 Replaced by new commits `C'` and `D'` with different hashes.
 
-See [Rebasing](./03-rebasing.md) for the complete treatment.
+See [Rebasing](./03-rebasing) for the complete treatment.
 
 ## Best Practices
 
@@ -329,7 +329,7 @@ git switch feature-auth
 git merge main
 ```
 
-Or use rebase (see [Rebasing](./03-rebasing.md)):
+Or use rebase (see [Rebasing](./03-rebasing)):
 
 ```bash
 git rebase main

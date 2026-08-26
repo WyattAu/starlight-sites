@@ -369,9 +369,9 @@ Band structure is like a highway system for electrons. In free space, electrons 
 
 ## Cross-References
 
-- **[Transport Properties](./8_transport-properties.md)**: Uses the band structure and Fermi surface to explain electrical and thermal conductivity via the Drude and Boltzmann models.
-- **[Superconductivity](./7_superconductivity.md)**: Cooper pairing and the superconducting gap arise from the electronic structure at the Fermi surface.
-- **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals.md)**: Extends band theory to include topological invariants that classify insulating and semimetallic phases.
+- **[Transport Properties](./8_transport-properties)**: Uses the band structure and Fermi surface to explain electrical and thermal conductivity via the Drude and Boltzmann models.
+- **[Superconductivity](./7_superconductivity)**: Cooper pairing and the superconducting gap arise from the electronic structure at the Fermi surface.
+- **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals)**: Extends band theory to include topological invariants that classify insulating and semimetallic phases.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -950,8 +950,8 @@ import { Citation } from "@components/Citations.astro"
 
 ## See Also
 
-- [Temporary Materialization](3_temporary_materialization.md)
-- [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo.md)
+- [Temporary Materialization](3_temporary_materialization)
+- [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo)
 
 ```mermaid
 flowchart TD

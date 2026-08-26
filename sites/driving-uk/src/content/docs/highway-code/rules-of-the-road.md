@@ -151,9 +151,9 @@ until the green man appears and the road is clear of pedestrians.
 
 ## Cross-References
 
-- [Road Signs](./road-signs.md) - Sign identification
-- [Theory Test](../theory-test/practice-theory.md) - Practice questions
-- [Safe Driving](../safe-driving/safe-driving-tips.md) - Driving techniques
+- [Road Signs](./road-signs) - Sign identification
+- [Theory Test](../theory-test/practice-theory) - Practice questions
+- [Safe Driving](../safe-driving/safe-driving-tips) - Driving techniques
 
 
 ## Advanced Content

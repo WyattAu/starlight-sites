@@ -165,9 +165,9 @@ A Riemannian metric is like a flexible, position-dependent ruler laid across spa
 
 ## Cross-References
 
-- **[Smooth Manifolds](1_smooth-manifolds.md)**: A Riemannian metric is defined on a smooth manifold and assigns an inner product to each tangent space.
-- **[Differential Forms](4_differential-forms.md)**: The Levi-Civita connection and curvature can be expressed using differential forms and the exterior derivative.
-- **[Geodesics](6_geodesics.md)**: Geodesics are curves on a Riemannian manifold that locally minimise length, determined by the Christoffel symbols of the metric.
+- **[Smooth Manifolds](1_smooth-manifolds)**: A Riemannian metric is defined on a smooth manifold and assigns an inner product to each tangent space.
+- **[Differential Forms](4_differential-forms)**: The Levi-Civita connection and curvature can be expressed using differential forms and the exterior derivative.
+- **[Geodesics](6_geodesics)**: Geodesics are curves on a Riemannian manifold that locally minimise length, determined by the Christoffel symbols of the metric.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

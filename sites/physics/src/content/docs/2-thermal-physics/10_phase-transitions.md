@@ -174,9 +174,9 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 
 ## Cross-References
 
-- **[The Ising Model](6_the-ising-model.md)**: The Ising model is the simplest model exhibiting a second-order phase transition with well-characterised critical exponents.
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: Phase transitions are understood through the partition function and free energy minima in statistical mechanics.
-- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation is a quantum phase transition driven purely by Bose statistics.
+- **[The Ising Model](6_the-ising-model)**: The Ising model is the simplest model exhibiting a second-order phase transition with well-characterised critical exponents.
+- **[Statistical Mechanics](2_statistical-mechanics)**: Phase transitions are understood through the partition function and free energy minima in statistical mechanics.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation)**: Bose-Einstein condensation is a quantum phase transition driven purely by Bose statistics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

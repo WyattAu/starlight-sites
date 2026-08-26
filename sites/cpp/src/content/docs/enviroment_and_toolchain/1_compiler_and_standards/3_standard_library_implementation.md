@@ -770,12 +770,12 @@ extern "C" {
 
 ## See Also
 
-- [Installing a Compiler](1_installing_compiler.mdx) -- Setting up GCC, Clang, or MSVC
-- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.mdx) -- How ABI
+- [Installing a Compiler](1_installing_compiler) -- Setting up GCC, Clang, or MSVC
+- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility) -- How ABI
   changes across standard versions
-- [Cross-compilation Toolchains](4_crosscompilation_toolchains.md) -- Choosing the right standard
+- [Cross-compilation Toolchains](4_crosscompilation_toolchains) -- Choosing the right standard
   library for cross-compilation
-- [Linker Configuration](5_linker_configuration.mdx) -- Linking against the standard library
+- [Linker Configuration](5_linker_configuration) -- Linking against the standard library
 
 
 ```mermaid

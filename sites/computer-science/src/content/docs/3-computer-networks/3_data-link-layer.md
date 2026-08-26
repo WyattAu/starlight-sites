@@ -386,6 +386,6 @@ Cannot detect corrupted frames before forwarding them.
 
 ## Cross-References
 
-- **[Network Layer](./4_network-layer.md):** IP addressing and routing protocols.
-- **[Transport Layer](./5_transport-layer.md):** TCP and UDP protocols.
-- **[Network Security](./7_network-security.md):** Encryption and authentication at the data link layer.
+- **[Network Layer](./4_network-layer):** IP addressing and routing protocols.
+- **[Transport Layer](./5_transport-layer):** TCP and UDP protocols.
+- **[Network Security](./7_network-security):** Encryption and authentication at the data link layer.

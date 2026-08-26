@@ -408,19 +408,19 @@ Manipulation.
 
 ### Links to Existing Content
 
-- [Number and Algebra](1-number-and-algebra/1_number-and-algebra.md) -- arithmetic and geometric
+- [Number and Algebra](1-number-and-algebra/1_number-and-algebra) -- arithmetic and geometric
   sequences, sigma notation, binomial theorem
-- [Complex Numbers](1-number-and-algebra/2_complex-numbers.mdx) -- complex numbers in Cartesian,
+- [Complex Numbers](1-number-and-algebra/2_complex-numbers) -- complex numbers in Cartesian,
   polar, and Euler form; De Moivre's theorem; roots of polynomials
-- [Trigonometry](3-geometry-and-trigonometry/1_trigonometry.mdx) -- trigonometric functions,
+- [Trigonometry](3-geometry-and-trigonometry/1_trigonometry) -- trigonometric functions,
   identities, sine and cosine rules
-- [Vectors](3-geometry-and-trigonometry/2_vectors.md) -- vector operations, scalar and cross
+- [Vectors](3-geometry-and-trigonometry/2_vectors) -- vector operations, scalar and cross
   products, lines and planes
 - [Integration](5-calculus/4_integration) -- antiderivatives, definite integration, area,
   integration techniques
-- [Logic (Discrete Maths)](6-discrete-mathematics/1_logic.md) -- propositional logic, truth tables,
+- [Logic (Discrete Maths)](6-discrete-mathematics/1_logic) -- propositional logic, truth tables,
   proof
-- [Maths Index](maths.md) -- overview of all mathematics notes
+- [Maths Index](maths) -- overview of all mathematics notes
 
 ---
 

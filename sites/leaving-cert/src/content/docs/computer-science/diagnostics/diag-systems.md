@@ -383,6 +383,6 @@ linked above.
 
 ## Cross-References
 
-- **[Computer Systems](../1-hardware/1_hardware.md):** Detailed notes on hardware components and the Von Neumann architecture covered in these diagnostics.
-- **[Data Representation](../3-databases/3_databases.md):** Covers data organisation and binary representation that underpins the data representation questions.
-- **[Flashcards: Computer Science](../../flashcards-computer-science.mdx):** Interactive flashcards for quick revision of key computer science terminology.
+- **[Computer Systems](../1-hardware/1_hardware):** Detailed notes on hardware components and the Von Neumann architecture covered in these diagnostics.
+- **[Data Representation](../3-databases/3_databases):** Covers data organisation and binary representation that underpins the data representation questions.
+- **[Flashcards: Computer Science](../../flashcards-computer-science):** Interactive flashcards for quick revision of key computer science terminology.

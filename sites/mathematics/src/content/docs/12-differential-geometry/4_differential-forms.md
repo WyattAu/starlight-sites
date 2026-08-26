@@ -183,9 +183,9 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 
 ## Cross-References
 
-- **[Smooth Manifolds](1_smooth-manifolds.md)**: Differential forms are defined on smooth manifolds and require the smooth structure for their construction.
-- **[Riemannian Geometry](5_riemannian-geometry.md)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
-- **[Curvature](7_curvature.md)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
+- **[Smooth Manifolds](1_smooth-manifolds)**: Differential forms are defined on smooth manifolds and require the smooth structure for their construction.
+- **[Riemannian Geometry](5_riemannian-geometry)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
+- **[Curvature](7_curvature)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

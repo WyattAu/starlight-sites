@@ -929,10 +929,10 @@ Introspected).
 
 ## See Also
 
-- [Parameter Packs and Variadic Templates](./1_parameter_packs.md)
-- [Fold Expressions and Pack Expansion](./2_fold_expressions.md)
-- [Compile-Time Branching and Constexpr Functions](./3_if_constexpr.md)
-- [SFINAE vs Concepts](../2_concepts_and_constraints/4_sfinae_vs_concepts.md)
+- [Parameter Packs and Variadic Templates](./1_parameter_packs)
+- [Fold Expressions and Pack Expansion](./2_fold_expressions)
+- [Compile-Time Branching and Constexpr Functions](./3_if_constexpr)
+- [SFINAE vs Concepts](../2_concepts_and_constraints/4_sfinae_vs_concepts)
 
 ## Intuition
 

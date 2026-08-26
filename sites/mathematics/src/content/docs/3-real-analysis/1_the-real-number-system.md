@@ -270,7 +270,7 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **[Site Home](../../):** Main landing page for Mathematics notes.
 - **[Linear Algebra](../linear-algebra):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](../real-analysis):** Rigorous treatment of real numbers and calculus.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

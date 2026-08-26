@@ -317,8 +317,8 @@ bounded by a constant.
 
 ## Cross-References
 
-- **[Dynamic Programming](./5_dynamic-programming.md):** Memoisation and tabulation patterns that build on complexity analysis.
-- **[Algorithms Flashcards](../1-algorithms/flashcards-algorithms.mdx):** Interactive flashcards covering algorithm complexity.
+- **[Dynamic Programming](./5_dynamic-programming):** Memoisation and tabulation patterns that build on complexity analysis.
+- **[Algorithms Flashcards](../1-algorithms/flashcards-algorithms):** Interactive flashcards covering algorithm complexity.
 - **[Systems](../../../../../typescript/src/content/docs/index):** Hardware and software systems that impose real-world performance constraints.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -194,7 +194,7 @@ git push origin fix/memory-leak-in-parser
 
 ### Commit Message Conventions
 
-Follow the project's convention (check CONTRIBUTING.md). Common formats:
+Follow the project's convention (check CONTRIBUTING). Common formats:
 
 **Conventional Commits:**
 

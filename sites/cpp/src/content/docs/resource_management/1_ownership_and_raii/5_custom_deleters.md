@@ -805,10 +805,10 @@ To debug.
 
 ## See Also
 
-- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr.md)
-- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr.md)
-- [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr.md)
-- [RAII Patterns](1_raii_patterns.md)
+- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr)
+- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr)
+- [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr)
+- [RAII Patterns](1_raii_patterns)
 
 ## Worked Examples
 

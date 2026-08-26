@@ -89,9 +89,9 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 
 ## Cross-References
 
-- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Provides the framework of bounded linear maps between Banach spaces within which compact operators are defined.
-- **[The Fundamental Theorems](./4_the-fundamental-theorems.md)**: The bounded inverse theorem and closed graph theorem are used in the Fredholm alternative for compact operators.
-- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Compact operators map weakly convergent sequences to strongly convergent sequences, linking these two modes of convergence.
+- **[Bounded Linear Operators](./3_bounded-linear-operators)**: Provides the framework of bounded linear maps between Banach spaces within which compact operators are defined.
+- **[The Fundamental Theorems](./4_the-fundamental-theorems)**: The bounded inverse theorem and closed graph theorem are used in the Fredholm alternative for compact operators.
+- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence)**: Compact operators map weakly convergent sequences to strongly convergent sequences, linking these two modes of convergence.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

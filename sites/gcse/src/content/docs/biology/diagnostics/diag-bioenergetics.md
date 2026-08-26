@@ -257,5 +257,5 @@ linked above.
 
 ## Cross-References
 
-- **[Cell Biology](./diag-cell-biology.md):** Cell structures and organelles involved in energy processes.
-- **[Inheritance and Variation](./diag-inheritance-variation-evolution.md):** Genetics and evolution linked to energy metabolism.
+- **[Cell Biology](./diag-cell-biology):** Cell structures and organelles involved in energy processes.
+- **[Inheritance and Variation](./diag-inheritance-variation-evolution):** Genetics and evolution linked to energy metabolism.

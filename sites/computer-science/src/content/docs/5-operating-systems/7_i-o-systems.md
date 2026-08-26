@@ -149,9 +149,9 @@ I/O systems are the nervous system connecting the CPU to the outside world. Poll
 
 ## Cross-References
 
-- **[Synchronisation](./3_synchronisation.md):** I/O synchronisation and interrupt handling.
-- **[File Systems](./6_file-systems.md):** File system I/O operations.
-- **[Process Management](./2_process-management.md):** Process scheduling and I/O wait states.
+- **[Synchronisation](./3_synchronisation):** I/O synchronisation and interrupt handling.
+- **[File Systems](./6_file-systems):** File system I/O operations.
+- **[Process Management](./2_process-management):** Process scheduling and I/O wait states.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

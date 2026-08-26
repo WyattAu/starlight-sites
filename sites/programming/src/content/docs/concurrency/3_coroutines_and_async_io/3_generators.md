@@ -177,9 +177,9 @@ one element.
 
 ## See Also
 
-- [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
-- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
-- [Task Scheduling and Executors](./4_task_scheduling.md)
+- [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames)
+- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter)
+- [Task Scheduling and Executors](./4_task_scheduling)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

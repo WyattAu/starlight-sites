@@ -817,10 +817,10 @@ int main() {
 
 ## See Also
 
-- [Iterator-Sentinel Model](./1_iterator_sentinel.md)
-- [Projections and Callable Objects](./3_projections.md)
-- [Range Materialization](./4_range_materialization.md)
-- [Parallel Algorithms](./5_parallel_algorithms.md)
+- [Iterator-Sentinel Model](./1_iterator_sentinel)
+- [Projections and Callable Objects](./3_projections)
+- [Range Materialization](./4_range_materialization)
+- [Parallel Algorithms](./5_parallel_algorithms)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

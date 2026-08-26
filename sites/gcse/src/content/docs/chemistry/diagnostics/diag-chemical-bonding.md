@@ -318,6 +318,6 @@ linked above.
 
 ## Cross-References
 
-- **[Chemical Bonding](../2-bonding/2_bonding.md):** Detailed notes on ionic, covalent, and metallic bonding.
-- **[Atomic Structure](../1-atomic-structure/1_atomic-structure.md):** Covers electron configuration that determines bonding behaviour.
-- **[Practice Chemistry](../practice-chemistry.mdx):** Interactive practice problems covering bonding and atomic structure.
+- **[Chemical Bonding](../2-bonding/2_bonding):** Detailed notes on ionic, covalent, and metallic bonding.
+- **[Atomic Structure](../1-atomic-structure/1_atomic-structure):** Covers electron configuration that determines bonding behaviour.
+- **[Practice Chemistry](../practice-chemistry):** Interactive practice problems covering bonding and atomic structure.

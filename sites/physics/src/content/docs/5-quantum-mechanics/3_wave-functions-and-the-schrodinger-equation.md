@@ -331,9 +331,9 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 
 ## Cross-References
 
-- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates provide the mathematical framework for wave functions and the Schrodinger equation.
-- **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and act on wave functions to extract measurable quantities.
-- **[One-Dimensional Problems](5_one-dimensional-problems.md)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
+- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics)**: The postulates provide the mathematical framework for wave functions and the Schrodinger equation.
+- **[Operators and Observables](4_operators-and-observables)**: Operators represent physical observables and act on wave functions to extract measurable quantities.
+- **[One-Dimensional Problems](5_one-dimensional-problems)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

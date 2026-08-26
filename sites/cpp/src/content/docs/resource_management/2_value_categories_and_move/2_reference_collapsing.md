@@ -286,9 +286,9 @@ Combinatorial explosion.
 :::
 ## See Also
 
-- [Value Taxonomy](1_value_taxonomy.md)
-- [Temporary Materialization](3_temporary_materialization.md)
-- [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo.md)
+- [Value Taxonomy](1_value_taxonomy)
+- [Temporary Materialization](3_temporary_materialization)
+- [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo)
 
 ## 5.1 Reference Collapsing Under the Hood
 

@@ -223,5 +223,5 @@ linked above.
 
 ## Cross-References
 
-- **[Geometry](./diag-geometry.md):** Shapes, angles, and trigonometry.
-- **[Number](./diag-number.md):** Number operations and calculations.
+- **[Geometry](./diag-geometry):** Shapes, angles, and trigonometry.
+- **[Number](./diag-number):** Number operations and calculations.

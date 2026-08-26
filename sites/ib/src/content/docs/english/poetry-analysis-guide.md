@@ -782,8 +782,8 @@ Significant.
 | Theme               | What is the poem's central concern? What proposition does it advance about that concern? How does the form shape the expression of the theme? |
 
 :::note
-[A Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis.md) and
-[Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis.md).
+[A Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis) and
+[Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis).
 The analytical techniques described in this guide apply equally to prose and drama.
 
 

@@ -580,9 +580,9 @@ flowchart TD
 
 ## See Also
 
-- [Task Scheduling and Executors](./4_task_scheduling.md)
-- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
-- [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
+- [Task Scheduling and Executors](./4_task_scheduling)
+- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter)
+- [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames)
 
 ## Common Pitfalls
 

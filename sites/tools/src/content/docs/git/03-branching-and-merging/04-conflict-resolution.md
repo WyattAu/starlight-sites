@@ -365,6 +365,6 @@ linked above.
 
 ## Cross-References
 
-- **[Merging](02-merging.md):** Integration strategy that can produce conflicts requiring resolution.
-- **[Rebasing](03-rebasing.md):** Alternative integration strategy that avoids merge commits but replays commits.
-- **[Branching](01-branching.md):** Branch creation and management fundamentals that lead to parallel development.
+- **[Merging](02-merging):** Integration strategy that can produce conflicts requiring resolution.
+- **[Rebasing](03-rebasing):** Alternative integration strategy that avoids merge commits but replays commits.
+- **[Branching](01-branching):** Branch creation and management fundamentals that lead to parallel development.

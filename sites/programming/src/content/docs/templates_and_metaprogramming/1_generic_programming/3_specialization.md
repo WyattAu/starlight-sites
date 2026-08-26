@@ -858,10 +858,10 @@ int main() {
 
 ## See Also
 
-- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation.md)
-- [Argument Deduction (Class and Function)](./2_argument_deduction.md)
-- [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
-- [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
+- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation)
+- [Argument Deduction (Class and Function)](./2_argument_deduction)
+- [Dependent Names and Two-Phase Lookup](./4_dependent_names)
+- [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

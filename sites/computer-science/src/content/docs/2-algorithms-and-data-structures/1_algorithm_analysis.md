@@ -72,7 +72,7 @@ Using more memory can make an algorithm faster, and vice versa:
 
 ## Cross-References
 
-- **[Algorithms and Data Structures](10_flashcards-algorithms-and-data-structures.mdx):** Data structure operations and algorithm design techniques.
+- **[Algorithms and Data Structures](10_flashcards-algorithms-and-data-structures):** Data structure operations and algorithm design techniques.
 - **[Discrete Mathematics](../1-discrete-mathematics/8_flashcards-discrete-mathematics):** Recurrence relations and combinatorics underpin algorithm analysis.
 - **[Theory of Computation](../3-theory/flashcards-theory):** Complexity classes classify problems by their algorithmic difficulty.
 - **[Operating Systems](../5-operating-systems/12_flashcards-operating-systems):** OS scheduling and resource management depend on algorithm efficiency.

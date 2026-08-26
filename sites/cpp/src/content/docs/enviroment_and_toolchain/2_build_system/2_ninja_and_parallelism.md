@@ -727,10 +727,10 @@ Each CMake target to have its own set of rules and variables without polluting t
 
 ## See Also
 
-- [CMake Targets, Properties, and Generators](./1_cmake_targets_properties_generator.md)
-- [CMake Presets and Toolchain Files](./3_cmake_presets_and_toolchain_files.md)
-- [Build Caching](4_build_caching.mdx)
-- [Unit Tests](5_unit_tests.mdx)
+- [CMake Targets, Properties, and Generators](./1_cmake_targets_properties_generator)
+- [CMake Presets and Toolchain Files](./3_cmake_presets_and_toolchain_files)
+- [Build Caching](4_build_caching)
+- [Unit Tests](5_unit_tests)
 
 
 ```mermaid

@@ -723,12 +723,12 @@ export VCPKG_ROOT=/opt/vcpkg
 
 ## See Also
 
-- [Dependency Resolution](1_dependency_architectures_models.md) -- How vcpkg resolves the dependency
+- [Dependency Resolution](1_dependency_architectures_models) -- How vcpkg resolves the dependency
   graph
-- [CPM.cmake](2_cpm.md) -- Lightweight alternative for smaller projects
-- [Conan](4_conan.md) -- Alternative package manager with Python-based portfiles
-- [Binary Caching](6_binary_caching.md) -- Detailed binary caching strategies
-- [Property Propagation](5_property_propagation.md) -- How vcpkg-integrated libraries propagate
+- [CPM.cmake](2_cpm) -- Lightweight alternative for smaller projects
+- [Conan](4_conan) -- Alternative package manager with Python-based portfiles
+- [Binary Caching](6_binary_caching) -- Detailed binary caching strategies
+- [Property Propagation](5_property_propagation) -- How vcpkg-integrated libraries propagate
   build properties
 
 

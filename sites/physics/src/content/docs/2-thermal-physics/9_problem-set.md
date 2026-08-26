@@ -269,9 +269,9 @@ Thermal physics connects the microscopic world of individual particles to the ma
 
 ## Cross-References
 
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: The Fermi energy and partition function calculations in this problem set apply the canonical ensemble methods from this chapter.
-- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi energy problems are direct applications of the finite-temperature electron gas theory.
-- **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The high-temperature limit of quantum statistics recovers the classical ideal gas results tested in several problems.
+- **[Statistical Mechanics](2_statistical-mechanics)**: The Fermi energy and partition function calculations in this problem set apply the canonical ensemble methods from this chapter.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature)**: The Fermi energy problems are direct applications of the finite-temperature electron gas theory.
+- **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution)**: The high-temperature limit of quantum statistics recovers the classical ideal gas results tested in several problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

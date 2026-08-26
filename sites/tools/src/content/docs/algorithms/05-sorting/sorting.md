@@ -960,9 +960,9 @@ Time complexity: $O(n^2)$ worst case, $O(n)$ best case (already sorted with opti
 
 ## Cross-References
 
-- **[Hashing and Hash Tables](../02-arrays-strings/hashing-and-hash-tables.md):** Hash-based data structures that enable O(1) lookup, complementing comparison-based sorting.
-- **[Linked Lists, Stacks, and Queues](../03-linked-lists-stacks-queues/linked-lists-stacks-queues.md):** Linear data structures that serve as building blocks for sorting algorithm implementations.
-- **[Dynamic Programming](../06-dynamic-programming/dynamic-programming.md):** Explores optimisation techniques that sometimes use sorting as a preprocessing step.
+- **[Hashing and Hash Tables](../02-arrays-strings/hashing-and-hash-tables):** Hash-based data structures that enable O(1) lookup, complementing comparison-based sorting.
+- **[Linked Lists, Stacks, and Queues](../03-linked-lists-stacks-queues/linked-lists-stacks-queues):** Linear data structures that serve as building blocks for sorting algorithm implementations.
+- **[Dynamic Programming](../06-dynamic-programming/dynamic-programming):** Explores optimisation techniques that sometimes use sorting as a preprocessing step.
 
 ## Intuition
 

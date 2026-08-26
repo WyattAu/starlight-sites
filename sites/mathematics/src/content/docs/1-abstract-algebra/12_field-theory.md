@@ -192,8 +192,8 @@ flowchart TD
 
 ## Cross-References
 
-- **[Rings](8_rings.md)**: Fields are special commutative rings where every nonzero element is a unit.
-- **[Ideals and Quotient Rings](9_ideals-and-quotient-rings.md)**: Quotienting a polynomial ring by an irreducible ideal yields a field, the fundamental construction of field extensions.
+- **[Rings](8_rings)**: Fields are special commutative rings where every nonzero element is a unit.
+- **[Ideals and Quotient Rings](9_ideals-and-quotient-rings)**: Quotienting a polynomial ring by an irreducible ideal yields a field, the fundamental construction of field extensions.
 - **[Number Theory](../number-theory)**: Number theory uses finite fields and field extensions in the study of Diophantine equations and cryptography.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

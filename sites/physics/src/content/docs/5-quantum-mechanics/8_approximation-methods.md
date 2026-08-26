@@ -241,9 +241,9 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 
 ## Cross-References
 
-- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for approximation methods.
-- **[One-Dimensional Problems](5_one-dimensional-problems.md)**: Exactly solvable 1D problems provide test cases for approximation methods.
-- **[Variational Methods](11_variational-methods.md)**: The variational principle provides a systematic approach to estimating ground state energies.
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation)**: The Schrodinger equation provides the foundation for approximation methods.
+- **[One-Dimensional Problems](5_one-dimensional-problems)**: Exactly solvable 1D problems provide test cases for approximation methods.
+- **[Variational Methods](11_variational-methods)**: The variational principle provides a systematic approach to estimating ground state energies.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

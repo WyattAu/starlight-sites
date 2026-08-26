@@ -594,7 +594,7 @@ flowchart TD
 
 ## Cross-References
 
-- [Forces and Newton's Laws](02-forces-and-newtons-laws.md) -- This extended treatment builds on the core forces syllabus with deeper analysis of friction, pulleys, and inclined planes.
-- [Kinematics](01-kinematics.md) -- Dynamics applies forces to explain the accelerations and motions described kinematically.
-- [Moments](03-moments.md) -- The equilibrium conditions for rigid bodies extend Newton's laws to rotational dynamics.
-- [Energy and Work](04-energy-and-work.md) -- The work-energy principle provides an alternative to F=ma for solving dynamics problems involving displacement.
+- [Forces and Newton's Laws](02-forces-and-newtons-laws) -- This extended treatment builds on the core forces syllabus with deeper analysis of friction, pulleys, and inclined planes.
+- [Kinematics](01-kinematics) -- Dynamics applies forces to explain the accelerations and motions described kinematically.
+- [Moments](03-moments) -- The equilibrium conditions for rigid bodies extend Newton's laws to rotational dynamics.
+- [Energy and Work](04-energy-and-work) -- The work-energy principle provides an alternative to F=ma for solving dynamics problems involving displacement.

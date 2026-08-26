@@ -271,9 +271,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Magnetostatics](3_magnetostatics.md)**: Magnetostatics is the static limit of Maxwell's equations where time derivatives vanish, describing steady currents and magnetic fields.
-- **[Electrodynamics](4_electrodynamics.md)**: Electrodynamics extends Maxwell's equations to time-varying fields, with Faraday's law and the displacement current.
-- **[The Wave Equation](../4-optics-and-waves/1_the-wave-equation.md)**: Electromagnetic waves are solutions to Maxwell's equations in free space, with speed $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
+- **[Magnetostatics](3_magnetostatics)**: Magnetostatics is the static limit of Maxwell's equations where time derivatives vanish, describing steady currents and magnetic fields.
+- **[Electrodynamics](4_electrodynamics)**: Electrodynamics extends Maxwell's equations to time-varying fields, with Faraday's law and the displacement current.
+- **[The Wave Equation](../4-optics-and-waves/1_the-wave-equation)**: Electromagnetic waves are solutions to Maxwell's equations in free space, with speed $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

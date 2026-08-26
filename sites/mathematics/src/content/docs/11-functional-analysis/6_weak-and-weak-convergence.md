@@ -132,9 +132,9 @@ $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not c
 
 ## Cross-References
 
-- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces.md)**: Defines the dual spaces and weak topologies that underpin the notions of weak and weak* convergence.
-- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Bounded operators are weakly continuous, and compact operators upgrade weak convergence to strong convergence.
-- **[Compact Operators](./5_compact-operators.md)**: Compact operators map weakly convergent sequences to strongly convergent sequences, connecting the two convergence modes.
+- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces)**: Defines the dual spaces and weak topologies that underpin the notions of weak and weak* convergence.
+- **[Bounded Linear Operators](./3_bounded-linear-operators)**: Bounded operators are weakly continuous, and compact operators upgrade weak convergence to strong convergence.
+- **[Compact Operators](./5_compact-operators)**: Compact operators map weakly convergent sequences to strongly convergent sequences, connecting the two convergence modes.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

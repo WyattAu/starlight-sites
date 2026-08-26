@@ -386,7 +386,7 @@ flowchart TD
 
 - **[Second-Order Linear ODEs](3_second-order-linear-odes)**: The Laplace transform converts the characteristic equation approach into algebraic manipulation in the frequency domain.
 - **[Fourier Series](7_fourier-series)**: Both Fourier and Laplace transforms decompose signals into frequency components, but Laplace handles transient and aperiodic signals.
-- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: The Laplace variable $s$ is complex, and poles and zeros in the complex plane determine system behaviour.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review)**: The Laplace variable $s$ is complex, and poles and zeros in the complex plane determine system behaviour.
 - **[Systems of ODEs](4_systems-of-odes)**: The Laplace transform extends logically to systems of ODEs, converting coupled differential equations into algebraic systems.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

@@ -119,10 +119,10 @@ $$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \
 
 ## Cross-References
 
-- **[Current Electricity](../current-electricity/index.md):** Electric currents produce magnetic fields — understanding circuits is prerequisite to understanding magnetic effects.
-- **[Electrostatics](../electrostatics/index.md):** Charges at rest produce electric fields; charges in motion produce magnetic fields — they're the electromagnetic duality.
-- **[Atoms and Nuclei](../atoms-nuclei/index.md):** The Bohr model uses magnetic fields to explain atomic spectra and the Zeeman effect.
-- **[Optics](../optics/index.md):** Electromagnetic waves include visible light — Maxwell's equations unify magnetic effects with optics.
+- **[Current Electricity](../current-electricity/index):** Electric currents produce magnetic fields — understanding circuits is prerequisite to understanding magnetic effects.
+- **[Electrostatics](../electrostatics/index):** Charges at rest produce electric fields; charges in motion produce magnetic fields — they're the electromagnetic duality.
+- **[Atoms and Nuclei](../atoms-nuclei/index):** The Bohr model uses magnetic fields to explain atomic spectra and the Zeeman effect.
+- **[Optics](../optics/index):** Electromagnetic waves include visible light — Maxwell's equations unify magnetic effects with optics.
 
 ## Practice Problems
 

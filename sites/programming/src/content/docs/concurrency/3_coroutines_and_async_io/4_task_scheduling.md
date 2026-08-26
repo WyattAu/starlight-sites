@@ -835,9 +835,9 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 
 ## See Also
 
-- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
-- [Generators (std::generator)](./3_generators.md)
-- [Futures, Promises, and Async Flows](./5_futures_promises.md)
+- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter)
+- [Generators (std::generator)](./3_generators)
+- [Futures, Promises, and Async Flows](./5_futures_promises)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

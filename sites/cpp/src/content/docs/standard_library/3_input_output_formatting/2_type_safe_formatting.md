@@ -711,8 +711,8 @@ int main() {
 
 ## See Also
 
-- [Stream Buffers and Locale Facets](./1_stream_buffers.md)
-- [Unicode Support](./3_unicode_support.md)
+- [Stream Buffers and Locale Facets](./1_stream_buffers)
+- [Unicode Support](./3_unicode_support)
 
 ## Common Pitfalls
 

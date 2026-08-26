@@ -148,7 +148,7 @@ linked above.
 
 ## Cross-References
 
-- **[Leaving Cert Home](index.mdx):** Landing page with links to all five subjects and common exam mistakes.
+- **[Leaving Cert Home](index):** Landing page with links to all five subjects and common exam mistakes.
 - **[Maths](maths/):** Algebra, calculus, geometry, trigonometry, probability, and statistics notes.
 - **[Physics](physics/):** Mechanics, waves, electricity, heat, and modern physics notes.
 - **[Chemistry](chemistry/):** Atomic structure, bonding, stoichiometry, and organic chemistry notes.

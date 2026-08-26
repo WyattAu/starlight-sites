@@ -181,9 +181,9 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 
 ## Cross-References
 
-- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula provides the coefficients for Taylor and Laurent series expansions.
-- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: Laurent series reveal the structure of singularities and enable residue computation.
-- **[Analytic Continuation](13_analytic-continuation.md)**: Laurent series can extend functions beyond their original domain through analytic continuation.
+- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula)**: The integral formula provides the coefficients for Taylor and Laurent series expansions.
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory)**: Laurent series reveal the structure of singularities and enable residue computation.
+- **[Analytic Continuation](13_analytic-continuation)**: Laurent series can extend functions beyond their original domain through analytic continuation.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

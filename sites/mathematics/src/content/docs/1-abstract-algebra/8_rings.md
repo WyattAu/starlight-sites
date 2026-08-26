@@ -197,9 +197,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Ideals and Quotient Rings](9_ideals-and-quotient-rings.md)**: Ideals are the ring-theoretic analogue of normal subgroups and enable quotient ring constructions.
-- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: Ring homomorphisms preserve both addition and multiplication, generalising group homomorphisms.
-- **[Field Theory](12_field-theory.md)**: Fields are commutative rings in which every nonzero element has a multiplicative inverse.
+- **[Ideals and Quotient Rings](9_ideals-and-quotient-rings)**: Ideals are the ring-theoretic analogue of normal subgroups and enable quotient ring constructions.
+- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems)**: Ring homomorphisms preserve both addition and multiplication, generalising group homomorphisms.
+- **[Field Theory](12_field-theory)**: Fields are commutative rings in which every nonzero element has a multiplicative inverse.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

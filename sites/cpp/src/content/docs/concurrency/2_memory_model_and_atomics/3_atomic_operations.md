@@ -294,9 +294,9 @@ low. For Longer critical sections, prefer `std::mutex` which blocks the thread a
 :::
 ## See Also
 
-- [Memory Orderings](./4_memory_orderings.md)
-- [Compare-and-Swap (CAS) Loops](./5_cas_loops.md)
-- [Cache Coherency (MESI) and False Sharing](./2_cache_coherency.md)
+- [Memory Orderings](./4_memory_orderings)
+- [Compare-and-Swap (CAS) Loops](./5_cas_loops)
+- [Cache Coherency (MESI) and False Sharing](./2_cache_coherency)
 
 ## Memory Order Arguments and Their Semantics
 

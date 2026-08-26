@@ -320,7 +320,7 @@ This leads to merge conflicts when you eventually merge. To rebase your feature 
 git rebase main
 ```
 
-See [Rebasing](./03-rebasing.md) for the full treatment.
+See [Rebasing](./03-rebasing) for the full treatment.
 
 ### 3. Accumulating Merged Branches
 

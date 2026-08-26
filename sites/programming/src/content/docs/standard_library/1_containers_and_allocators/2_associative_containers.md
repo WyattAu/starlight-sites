@@ -740,9 +740,9 @@ For performance-critical code where ordered iteration is not needed, consider al
 
 ## See Also
 
-- [Sequence Containers](./1_sequence_containers.md)
-- [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
-- [Polymorphic Memory Resources (PMR)](./4_pmr.md)
+- [Sequence Containers](./1_sequence_containers)
+- [Iterator Categories, Traversal, Invalidation](./3_iterators)
+- [Polymorphic Memory Resources (PMR)](./4_pmr)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

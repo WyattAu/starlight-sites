@@ -138,9 +138,9 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 
 ## Cross-References
 
-- **[Electronic Band Structure](./5_electronic-band-structure.md)**: Provides the band theory foundation from which topological invariants are computed, including Berry phase and band inversions.
-- **[Superconductivity](./7_superconductivity.md)**: Proximity-induced superconductivity at the interface with a topological insulator can host Majorana zero modes for topological quantum computation.
-- **[Transport Properties](./8_transport-properties.md)**: The quantized conductance of topological edge states and the chiral anomaly in Weyl semimetals are transport phenomena beyond the Drude model.
+- **[Electronic Band Structure](./5_electronic-band-structure)**: Provides the band theory foundation from which topological invariants are computed, including Berry phase and band inversions.
+- **[Superconductivity](./7_superconductivity)**: Proximity-induced superconductivity at the interface with a topological insulator can host Majorana zero modes for topological quantum computation.
+- **[Transport Properties](./8_transport-properties)**: The quantized conductance of topological edge states and the chiral anomaly in Weyl semimetals are transport phenomena beyond the Drude model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

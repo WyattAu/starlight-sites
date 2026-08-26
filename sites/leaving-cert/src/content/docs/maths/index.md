@@ -32,31 +32,31 @@ attracting bonus CAO points.
 
 Expressions, equations, inequalities, complex numbers, matrices, and algebraic proof.
 
-→ **[Full notes](1-algebra/1_algebra.md)**
+→ **[Full notes](1-algebra/1_algebra)**
 
 ### Calculus
 
 Differentiation, integration, rates of change, area under curves, and differential equations.
 
-→ **[Full notes](2-calculus/2_calculus.mdx)**
+→ **[Full notes](2-calculus/2_calculus)**
 
 ### Geometry & Trigonometry
 
 Coordinate geometry, theorems, trigonometric functions, identities, and solving triangles.
 
-→ **[Full notes](3-geometry-trig/3_geometry-trig.md)**
+→ **[Full notes](3-geometry-trig/3_geometry-trig)**
 
 ### Probability & Statistics
 
 Probability theory, permutations, combinations, statistical distributions, and data analysis.
 
-→ **[Full notes](4-probability-statistics/4_probability-statistics.md)**
+→ **[Full notes](4-probability-statistics/4_probability-statistics)**
 
 ### Number Sets & Sequences
 
 Sets, number systems, sequences, series, arithmetic and geometric progressions, and financial maths.
 
-→ **[Full notes](5-number-sequences/5_number-sequences.md)**
+→ **[Full notes](5-number-sequences/5_number-sequences)**
 
 ## Study Tips
 

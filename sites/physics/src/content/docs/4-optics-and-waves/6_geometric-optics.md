@@ -162,9 +162,9 @@ The negative sign indicates the image is inverted.
 
 ## Cross-References
 
-- **[Electromagnetic Waves](./2_electromagnetic-waves.md)**: Derives the wave equations and boundary conditions from which Snell's law and the Fresnel equations emerge in the high-frequency limit.
-- **[Fresnel Equations](./10_fresnel-equations.md)**: Provides the amplitude reflection and transmission coefficients that govern the intensity of reflected and refracted rays.
-- **[Optical Fibres](./12_optical-fibres.md)**: Applies total internal reflection to guide light in fibre cores, a direct application of the ray optics developed here.
+- **[Electromagnetic Waves](./2_electromagnetic-waves)**: Derives the wave equations and boundary conditions from which Snell's law and the Fresnel equations emerge in the high-frequency limit.
+- **[Fresnel Equations](./10_fresnel-equations)**: Provides the amplitude reflection and transmission coefficients that govern the intensity of reflected and refracted rays.
+- **[Optical Fibres](./12_optical-fibres)**: Applies total internal reflection to guide light in fibre cores, a direct application of the ray optics developed here.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 

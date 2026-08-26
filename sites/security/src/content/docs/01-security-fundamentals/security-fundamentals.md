@@ -449,7 +449,7 @@ The OWASP Top 10 is a standard awareness document for web application security. 
 | A10 | Server-Side Request Forgery (SSRF)         | Server coerced into accessing unintended resources     |
 
 Each of these is covered in detail in subsequent sections. See
-[Web Security](../04-web-security/web-security.md) for mitigation details.
+[Web Security](../04-web-security/web-security) for mitigation details.
 
 ## CVE and CVSS
 

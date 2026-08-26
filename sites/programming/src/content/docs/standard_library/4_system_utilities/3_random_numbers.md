@@ -287,9 +287,9 @@ Values in pairs, so the distribution object may cache one value internally for e
 :::
 ## See Also
 
-- [Filesystem Library](./1_filesystem.md)
-- [Chrono Library](./2_chrono.md)
-- [Regular Expressions](./4_regular_expressions.md)
+- [Filesystem Library](./1_filesystem)
+- [Chrono Library](./2_chrono)
+- [Regular Expressions](./4_regular_expressions)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

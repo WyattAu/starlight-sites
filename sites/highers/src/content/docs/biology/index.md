@@ -38,25 +38,25 @@ Cell structure, membrane transport, cell division, DNA replication, and protein 
 
 Enzymes, respiration, metabolic pathways, homeostasis, and cellular energy.
 
-→ **[Full notes](2-metabolism/2_metabolism.md)**
+→ **[Full notes](2-metabolism/2_metabolism)**
 
 ### Multicellular Organisms
 
 Tissue organisation, plant and animal physiology, transport systems, and reproduction.
 
-→ **[Full notes](3-multicellular/3_multicellular.md)**
+→ **[Full notes](3-multicellular/3_multicellular)**
 
 ### Genetics & Adaptation
 
 Mendelian genetics, mutations, natural selection, adaptation, and population genetics.
 
-→ **[Full notes](4-genetics-adaptation/4_genetics-adaptation.md)**
+→ **[Full notes](4-genetics-adaptation/4_genetics-adaptation)**
 
 ### Life on Earth
 
 Evolution, biodiversity, classification, ecosystems, and environmental biology.
 
-→ **[Full notes](5-evolution/5_evolution.md)**
+→ **[Full notes](5-evolution/5_evolution)**
 
 ## Study Tips
 

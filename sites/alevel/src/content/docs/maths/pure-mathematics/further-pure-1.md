@@ -468,7 +468,7 @@ essential before progressing to Further Pure 2.
 
 ## Cross-References
 
-- [Further Pure Mathematics 2](further-pure-2.md) -- FP2 extends FP1 topics through Euler's relation, group theory, Maclaurin series, and vectors in 3D.
-- [Trigonometry](08-trigonometry.mdx) -- Complex number arguments and polar coordinates build directly on trigonometric identities.
-- [Integration](11-integration.mdx) -- Integration by parts and standard integrals are essential prerequisites for the further calculus in FP1.
-- [Differentiation](10-differentiation.mdx) -- Derivatives of exponential and trigonometric functions underpin the differential equations covered here.
+- [Further Pure Mathematics 2](further-pure-2) -- FP2 extends FP1 topics through Euler's relation, group theory, Maclaurin series, and vectors in 3D.
+- [Trigonometry](08-trigonometry) -- Complex number arguments and polar coordinates build directly on trigonometric identities.
+- [Integration](11-integration) -- Integration by parts and standard integrals are essential prerequisites for the further calculus in FP1.
+- [Differentiation](10-differentiation) -- Derivatives of exponential and trigonometric functions underpin the differential equations covered here.

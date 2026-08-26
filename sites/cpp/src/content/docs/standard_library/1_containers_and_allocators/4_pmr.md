@@ -503,9 +503,9 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 
 ## See Also
 
-- [Sequence Containers](./1_sequence_containers.md)
-- [Associative and Unordered Containers](./2_associative_containers.md)
-- [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
+- [Sequence Containers](./1_sequence_containers)
+- [Associative and Unordered Containers](./2_associative_containers)
+- [Iterator Categories, Traversal, Invalidation](./3_iterators)
 
 ## Common Pitfalls
 

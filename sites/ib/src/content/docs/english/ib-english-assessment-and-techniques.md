@@ -901,11 +901,11 @@ Before submitting any essay, perform a structural audit:
 | Extended Essay | Both    | N/A       | N/A                                                | 4,000-word independent research essay                 |
 
 :::note
-[A Streetcar Named Desire](a-street-car-named-desire.md),
-[Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis.md),
-[Chronicle of a Death Foretold](chronicle-of-a-death-foretold.md),
-[Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis.md),
-And the [comparative analysis](comparitives/chronicle-streetcar.md).
+[A Streetcar Named Desire](a-street-car-named-desire),
+[Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis),
+[Chronicle of a Death Foretold](chronicle-of-a-death-foretold),
+[Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis),
+And the [comparative analysis](comparitives/chronicle-streetcar).
 
 ## Worked Examples
 

@@ -160,9 +160,9 @@ The variational principle states that any trial wavefunction gives an energy est
 
 ## Cross-References
 
-- **[Approximation Methods](8_approximation-methods.md)**: The variational principle is one of the key approximation methods in quantum mechanics.
-- **[Identical Particles and Exchange Symmetry](10_identical-particles-and-exchange-symmetry.md)**: Exchange symmetry and Slater determinants are essential for variational calculations of many-body systems.
-- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: The hydrogen atom provides exact solutions that test variational methods.
+- **[Approximation Methods](8_approximation-methods)**: The variational principle is one of the key approximation methods in quantum mechanics.
+- **[Identical Particles and Exchange Symmetry](10_identical-particles-and-exchange-symmetry)**: Exchange symmetry and Slater determinants are essential for variational calculations of many-body systems.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom)**: The hydrogen atom provides exact solutions that test variational methods.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

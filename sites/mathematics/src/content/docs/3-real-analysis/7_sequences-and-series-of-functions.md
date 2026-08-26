@@ -267,8 +267,8 @@ When applying the ratio or root test, students find $R$ but assume the series co
 
 - **[Series](3_series)**: The Weierstrass M-test and convergence criteria for function series build directly on the numerical series tests from this chapter.
 - **[Sequences and Limits](2_sequences-and-limits)**: Pointwise and uniform convergence are generalisations of the sequence convergence concepts from the first chapter.
-- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: Taylor series convergence and analyticity connect real analysis to the partial derivative computations in multivariable calculus.
-- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Fourier series are function series whose convergence properties are analysed using the uniform convergence theory developed here.
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives)**: Taylor series convergence and analyticity connect real analysis to the partial derivative computations in multivariable calculus.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series)**: Fourier series are function series whose convergence properties are analysed using the uniform convergence theory developed here.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

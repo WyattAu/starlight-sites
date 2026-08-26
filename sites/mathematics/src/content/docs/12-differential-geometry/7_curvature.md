@@ -171,9 +171,9 @@ Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
 
 ## Cross-References
 
-- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles.md)**: Defines the tangent bundle and connections on which the Riemann curvature tensor is built.
-- **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem.md)**: Connects the total Gaussian curvature of a surface to its Euler characteristic, a deep link between local geometry and global topology.
-- **[Applications](./9_applications.md)**: Applies curvature concepts to general relativity, gauge theory, and minimal surfaces.
+- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles)**: Defines the tangent bundle and connections on which the Riemann curvature tensor is built.
+- **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem)**: Connects the total Gaussian curvature of a surface to its Euler characteristic, a deep link between local geometry and global topology.
+- **[Applications](./9_applications)**: Applies curvature concepts to general relativity, gauge theory, and minimal surfaces.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

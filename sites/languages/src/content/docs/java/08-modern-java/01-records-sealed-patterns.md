@@ -709,13 +709,13 @@ Always prefer arrow syntax unless you deliberately need fall-through.
 
 ## See Also
 
-- [Concurrency](../06-concurrency/01-concurrency.md) -- pattern matching and sealed classes
+- [Concurrency](../06-concurrency/01-concurrency) -- pattern matching and sealed classes
   integrate with concurrent data structures
-- [Collections Framework](../04-collections/01-collections-framework.md) -- records as collection
+- [Collections Framework](../04-collections/01-collections-framework) -- records as collection
   element types
-- [Style and Patterns](../07-best-practices/01-style-and-patterns.md) -- when to use records vs
+- [Style and Patterns](../07-best-practices/01-style-and-patterns) -- when to use records vs
   regular classes in production code
-- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency.md)
+- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency)
   -- modern concurrency features
 
 

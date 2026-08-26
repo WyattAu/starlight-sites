@@ -358,6 +358,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](./interfaces.md):** Type constraints in generics build on interface satisfaction.
-- **[Error Handling](./error-handling.md):** Generic error handling patterns with type parameters.
-- **[Arrays, Slices, and Maps](../basics/arrays-slices-maps.md):** Generic collection operations replacing type-specific implementations.
+- **[Interfaces](./interfaces):** Type constraints in generics build on interface satisfaction.
+- **[Error Handling](./error-handling):** Generic error handling patterns with type parameters.
+- **[Arrays, Slices, and Maps](../basics/arrays-slices-maps):** Generic collection operations replacing type-specific implementations.

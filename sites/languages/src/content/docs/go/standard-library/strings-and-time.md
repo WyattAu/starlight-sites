@@ -360,6 +360,6 @@ linked above.
 
 ## Cross-References
 
-- **[I/O](./io.md):** Buffered I/O and stream processing for string manipulation.
-- **[net/http](./net-http.md):** HTTP header parsing and time-based cache headers.
-- **[Types and Variables](../basics/types-and-variables.md):** String and time type fundamentals.
+- **[I/O](./io):** Buffered I/O and stream processing for string manipulation.
+- **[net/http](./net-http):** HTTP header parsing and time-based cache headers.
+- **[Types and Variables](../basics/types-and-variables):** String and time type fundamentals.

@@ -145,8 +145,8 @@ covers all 100 questions organised by category.
 
 ## Cross-References
 
-- [Civics Questions](./civics-questions.md) - All 100 questions
-- [US Citizenship Process](../us-citizenship/citizenship-process.md) - Overview
+- [Civics Questions](./civics-questions) - All 100 questions
+- [US Citizenship Process](../us-citizenship/citizenship-process) - Overview
 
 
 ## Advanced Content

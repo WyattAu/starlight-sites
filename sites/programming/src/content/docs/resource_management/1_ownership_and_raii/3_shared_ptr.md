@@ -441,7 +441,7 @@ Bob created
 ```
 
 Neither destructor runs. The fix is to break the cycle using `weak_ptr` (see
-[Weak Pointers and Cyclic Reference Breaking](4_weak_ptr.md)).
+[Weak Pointers and Cyclic Reference Breaking](4_weak_ptr)).
 
 ## 3.7 Copy-on-Write Pattern
 
@@ -774,10 +774,10 @@ int main() {
 
 ## See Also
 
-- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr.md)
-- [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr.md)
-- [Common Pitfalls](5_custom_deleters.md)
-- [RAII Patterns](1_raii_patterns.md) :::
+- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr)
+- [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr)
+- [Common Pitfalls](5_custom_deleters)
+- [RAII Patterns](1_raii_patterns) :::
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

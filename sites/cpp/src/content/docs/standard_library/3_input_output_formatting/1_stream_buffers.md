@@ -300,8 +300,8 @@ State.
 
 ## See Also
 
-- [Type-Safe Formatting](./2_type_safe_formatting.md)
-- [Unicode Support](./3_unicode_support.md)
+- [Type-Safe Formatting](./2_type_safe_formatting)
+- [Unicode Support](./3_unicode_support)
 
 ### Put Area and Get Area Pointer Model
 

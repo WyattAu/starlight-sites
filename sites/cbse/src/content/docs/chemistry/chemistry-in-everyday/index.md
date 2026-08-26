@@ -152,7 +152,7 @@ Analgesics relieve pain, antipyretics reduce fever, and anti-inflammatory drugs 
 
 ## Cross-References
 
-- **[Biomolecules](../biomolecules/index.md):** Drug design targets biomolecules (enzymes, receptors) — understanding protein structure explains how drugs work.
-- **[Haloalkanes](../haloalkanes/index.md):** Many drugs are synthesized using haloalkane intermediates — connecting organic synthesis to pharmaceutical chemistry.
-- **[Solutions](../solutions/index.md):** Drug solubility and dosage depend on solution chemistry — understanding concentration is essential for pharmacology.
-- **[Surface Chemistry](../surface-chemistry/index.md):** Drug delivery systems use colloids and micelles — connecting surface chemistry to pharmaceutical formulations.
+- **[Biomolecules](../biomolecules/index):** Drug design targets biomolecules (enzymes, receptors) — understanding protein structure explains how drugs work.
+- **[Haloalkanes](../haloalkanes/index):** Many drugs are synthesized using haloalkane intermediates — connecting organic synthesis to pharmaceutical chemistry.
+- **[Solutions](../solutions/index):** Drug solubility and dosage depend on solution chemistry — understanding concentration is essential for pharmacology.
+- **[Surface Chemistry](../surface-chemistry/index):** Drug delivery systems use colloids and micelles — connecting surface chemistry to pharmaceutical formulations.

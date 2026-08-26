@@ -106,9 +106,9 @@ product.
 
 ## Cross-References
 
-- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces.md)**: Provides the general framework of normed vector spaces that inner product spaces specialise with additional geometric structure.
-- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Develops the theory of continuous linear maps on Hilbert spaces, where the adjoint operator plays a central role.
-- **[Compact Operators](./5_compact-operators.md)**: Uses the spectral theorem for compact self-adjoint operators on Hilbert spaces to decompose operators via orthonormal bases.
+- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces)**: Provides the general framework of normed vector spaces that inner product spaces specialise with additional geometric structure.
+- **[Bounded Linear Operators](./3_bounded-linear-operators)**: Develops the theory of continuous linear maps on Hilbert spaces, where the adjoint operator plays a central role.
+- **[Compact Operators](./5_compact-operators)**: Uses the spectral theorem for compact self-adjoint operators on Hilbert spaces to decompose operators via orthonormal bases.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

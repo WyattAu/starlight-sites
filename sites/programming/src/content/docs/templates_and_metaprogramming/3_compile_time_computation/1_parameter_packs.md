@@ -417,7 +417,7 @@ int main() {
 ## Fold Expressions: The Modern Alternative
 
 C++17 fold expressions replace most recursive template patterns with a single line of code. For
-Details, see [Fold Expressions and Pack Expansion](./2_fold_expressions.md).
+Details, see [Fold Expressions and Pack Expansion](./2_fold_expressions).
 
 ```cpp
 #include <iostream>
@@ -585,11 +585,11 @@ int main() {
 
 ## See Also
 
-- [Fold Expressions and Pack Expansion](./2_fold_expressions.md)
-- [Compile-Time Branching (if constexpr)](./3_if_constexpr.md)
-- [Type Traits and Static Reflection Patterns](./4_type_traits.md)
-- [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction.md)
-- [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation.md)
+- [Fold Expressions and Pack Expansion](./2_fold_expressions)
+- [Compile-Time Branching (if constexpr)](./3_if_constexpr)
+- [Type Traits and Static Reflection Patterns](./4_type_traits)
+- [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction)
+- [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

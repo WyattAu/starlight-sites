@@ -77,7 +77,7 @@ for safe parallel execution. Start with Xcode (Mac) or Swift.org toolchain
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for swift notes.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.
 
 
 ## Detailed Content

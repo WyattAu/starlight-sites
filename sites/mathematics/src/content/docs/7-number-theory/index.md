@@ -113,9 +113,11 @@ _Proof._ The set $D = \\{d \in \mathbb{N} : d \mid a \mathrm{\ and\ } d \mid b\\
 
 ## Cross-References
 
-- **[Probability Spaces](../8-probability-and-statistics/1_probability-spaces.md)**: Probability theory uses number-theoretic concepts like divisibility and modular arithmetic in cryptographic applications.
-- **[Random Variables](../8-probability-and-statistics/2_random-variables.md)**: Random variables in number theory include the Mobius function and Euler's totient function.
-- **[Complex Numbers Review](../6-complex-analysis/1_complex-numbers-review.md)**: Complex numbers extend the integers to Gaussian integers, enabling deeper number-theoretic results.
+- **[Probability Spaces](../8-probability-and-statistics/1_probability-spaces)**: Probability theory uses number-theoretic concepts like divisibility and modular arithmetic in cryptographic applications.
+- **[Random Variables](../8-probability-and-statistics/2_random-variables)**: Random variables in number theory include the Mobius function and Euler's totient function.
+- **[Complex Numbers Review](../6-complex-analysis/1_complex-numbers-review)**: Complex numbers extend the integers to Gaussian integers, enabling deeper number-theoretic results.
 
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+Keep practising and reviewing to master this topic.

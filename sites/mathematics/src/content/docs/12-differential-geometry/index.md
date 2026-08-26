@@ -52,16 +52,16 @@ A smooth manifold is a topological space that locally resembles Euclidean space 
 
 ## Contents
 
-1. [Smooth Manifolds](1_smooth-manifolds.md)
-2. [Tangent Spaces and Tangent Bundles](2_tangent-spaces-and-tangent-bundles.md)
-3. [Vector Fields and Flows](3_vector-fields-and-flows.md)
-4. [Differential Forms](4_differential-forms.md)
-5. [Riemannian Geometry](5_riemannian-geometry.md)
-6. [Geodesics](6_geodesics.md)
-7. [Curvature](7_curvature.md)
-8. [The Gauss-Bonnet Theorem](8_the-gauss-bonnet-theorem.md)
-9. [Applications](9_applications.md)
-10. [Summary](10_summary.md)
+1. [Smooth Manifolds](1_smooth-manifolds)
+2. [Tangent Spaces and Tangent Bundles](2_tangent-spaces-and-tangent-bundles)
+3. [Vector Fields and Flows](3_vector-fields-and-flows)
+4. [Differential Forms](4_differential-forms)
+5. [Riemannian Geometry](5_riemannian-geometry)
+6. [Geodesics](6_geodesics)
+7. [Curvature](7_curvature)
+8. [The Gauss-Bonnet Theorem](8_the-gauss-bonnet-theorem)
+9. [Applications](9_applications)
+10. [Summary](10_summary)
 
 ## Overview
 

@@ -445,4 +445,4 @@ linked above.
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for kotlin notes.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.

@@ -324,9 +324,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Vectors and Vector Spaces](1_vectors-and-vector-spaces.md)**: Linear independence, span, and basis are fundamental properties of vector spaces.
-- **[Matrices](3_matrices.md)**: The rank of a matrix equals the dimension of its column space, connecting matrix theory to basis theory.
-- **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
+- **[Vectors and Vector Spaces](1_vectors-and-vector-spaces)**: Linear independence, span, and basis are fundamental properties of vector spaces.
+- **[Matrices](3_matrices)**: The rank of a matrix equals the dimension of its column space, connecting matrix theory to basis theory.
+- **[Systems of Linear Equations](4_systems-of-linear-equations)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
 :::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

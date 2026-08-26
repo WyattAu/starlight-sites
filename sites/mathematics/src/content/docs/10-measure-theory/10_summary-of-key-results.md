@@ -182,9 +182,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension.md)**: The foundational construction of Lebesgue measure upon which all these results depend.
-- **[Measurable Functions](./5_measurable-functions.md)**: Defines the function classes to which the convergence theorems and inequalities apply.
-- **[$L^p$ Spaces](./7_l-p-spaces.md)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.
+- **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension)**: The foundational construction of Lebesgue measure upon which all these results depend.
+- **[Measurable Functions](./5_measurable-functions)**: Defines the function classes to which the convergence theorems and inequalities apply.
+- **[$L^p$ Spaces](./7_l-p-spaces)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

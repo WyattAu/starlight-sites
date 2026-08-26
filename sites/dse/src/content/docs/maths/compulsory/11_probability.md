@@ -23,8 +23,8 @@ categories:
 Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the
 DSE compulsory syllabus, we focus on discrete probability spaces, combinatorial counting,
 Conditional probability, and independence. This page connects to
-[Permutations and Combinations](13_permutations-and-combinations.md)
-For counting techniques and [Dispersion](12_dispersion.md) for the statistical interpretation of
+[Permutations and Combinations](13_permutations-and-combinations)
+For counting techniques and [Dispersion](12_dispersion) for the statistical interpretation of
 Probability distributions.
 
 ## Notations

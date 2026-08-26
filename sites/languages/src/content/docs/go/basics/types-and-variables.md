@@ -367,6 +367,6 @@ linked above.
 
 ## Cross-References
 
-- **[Arrays, Slices, and Maps](./arrays-slices-maps.md):** Collection types that build on scalar type foundations.
-- **[Interfaces](../intermediate/interfaces.md):** Structural typing and interface satisfaction for custom types.
-- **[Pointers and Memory](../advanced/pointers-and-memory.md):** Pointer semantics and escape analysis for variable storage.
+- **[Arrays, Slices, and Maps](./arrays-slices-maps):** Collection types that build on scalar type foundations.
+- **[Interfaces](../intermediate/interfaces):** Structural typing and interface satisfaction for custom types.
+- **[Pointers and Memory](../advanced/pointers-and-memory):** Pointer semantics and escape analysis for variable storage.

@@ -706,11 +706,11 @@ The following table lists commonly used generator expressions for property propa
 
 ## See Also
 
-- [Dependency Resolution](1_dependency_architectures_models.md) -- How the dependency graph is
+- [Dependency Resolution](1_dependency_architectures_models) -- How the dependency graph is
   constructed
-- [vcpkg](3_vcpkg.md) -- How vcpkg manages property propagation for installed packages
-- [CPM.cmake](2_cpm.md) -- How `add_subdirectory` merges dependency properties
-- [Binary Caching](6_binary_caching.md) -- Binary artifacts and their dependency metadata
+- [vcpkg](3_vcpkg) -- How vcpkg manages property propagation for installed packages
+- [CPM.cmake](2_cpm) -- How `add_subdirectory` merges dependency properties
+- [Binary Caching](6_binary_caching) -- Binary artifacts and their dependency metadata
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

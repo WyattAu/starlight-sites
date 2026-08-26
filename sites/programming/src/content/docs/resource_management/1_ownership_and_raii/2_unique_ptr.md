@@ -670,10 +670,10 @@ std::unique_ptr<int> make_value_alt() {
 
 ## See Also
 
-- [RAII Patterns](1_raii_patterns.md)
-- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr.md)
-- [Weak References (std::weak_ptr)](4_weak_ptr.md)
-- [Common Pitfalls](5_custom_deleters.md)
+- [RAII Patterns](1_raii_patterns)
+- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr)
+- [Weak References (std::weak_ptr)](4_weak_ptr)
+- [Common Pitfalls](5_custom_deleters)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -257,6 +257,6 @@ flowchart TD
 
 ## Cross-References
 
-- **[Sorting Algorithms](../algorithms/05-sorting/sorting.md):** Detailed notes on comparison-based and non-comparison sorting algorithms.
-- **[Dynamic Programming](../algorithms/06-dynamic-programming/dynamic-programming.md):** Core DP concepts including memoisation and tabulation.
-- **[Hashing and Hash Tables](../algorithms/02-arrays-strings/hashing-and-hash-tables.md):** Hash-based data structures for O(1) average-case operations.
+- **[Sorting Algorithms](../algorithms/05-sorting/sorting):** Detailed notes on comparison-based and non-comparison sorting algorithms.
+- **[Dynamic Programming](../algorithms/06-dynamic-programming/dynamic-programming):** Core DP concepts including memoisation and tabulation.
+- **[Hashing and Hash Tables](../algorithms/02-arrays-strings/hashing-and-hash-tables):** Hash-based data structures for O(1) average-case operations.

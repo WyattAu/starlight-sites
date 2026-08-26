@@ -91,7 +91,7 @@ class MyListenable implements Listenable {
 ## `sealed`
 
 Restricts all subtyping (extend, implement, mixin) to the same library. This is covered in detail in
-[sealed-classes.md](02-sealed-classes.md).
+[sealed-classes.md](02-sealed-classes).
 
 ### Brief Recap
 

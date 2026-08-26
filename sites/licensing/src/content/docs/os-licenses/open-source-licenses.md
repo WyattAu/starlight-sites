@@ -173,8 +173,8 @@ source code under GPL.
 
 ## Cross-References
 
-- [OSI Licences](../osi-licenses.md) - OSI-approved licence list
-- [Commercial Use](./commercial-use.md) - Using open source commercially
+- [OSI Licences](../osi-licenses) - OSI-approved licence list
+- [Commercial Use](./commercial-use) - Using open source commercially
 
 
 ## Advanced Content

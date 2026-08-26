@@ -192,9 +192,9 @@ The coherence time $\tau_c \approx 1/\Delta\nu$ characterises how long the field
 
 ## Cross-References
 
-- **[Diffraction](./4_diffraction.md)**: The formation of diffraction fringes depends on the coherence of the source; partially coherent light produces reduced-visibility fringes.
-- **[Fourier Optics](./7_fourier-optics.md)**: Uses the Wiener-Khinchin theorem to relate the power spectrum of the source to the mutual coherence function via Fourier transforms.
-- **[Polarization](./5_polarization.md)**: The coherence matrix extends to vector fields, connecting coherence theory to the polarisation state of partially polarised light.
+- **[Diffraction](./4_diffraction)**: The formation of diffraction fringes depends on the coherence of the source; partially coherent light produces reduced-visibility fringes.
+- **[Fourier Optics](./7_fourier-optics)**: Uses the Wiener-Khinchin theorem to relate the power spectrum of the source to the mutual coherence function via Fourier transforms.
+- **[Polarization](./5_polarization)**: The coherence matrix extends to vector fields, connecting coherence theory to the polarisation state of partially polarised light.
 
 **Mistake 3: Assuming that spatial coherence requires a point source**
 The van Cittert-Zernike theorem shows that even an extended incoherent source produces spatially coherent light over a finite area $A_c \approx \lambda^2/\Omega$. The coherence area increases as the source becomes more compact. Students sometimes think only lasers or point sources produce spatially coherent light, when in fact any source produces some degree of spatial coherence over sufficiently small transverse distances.

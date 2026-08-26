@@ -595,7 +595,7 @@ linked above.
 
 ## Cross-References
 
-- [Numerical Methods](14-numerical-methods.md) -- Proof techniques complement numerical verification methods, with proof by exhaustion analogous to finite iteration.
-- [Binomial Expansion](07-binomial-expansion.md) -- Induction proofs frequently rely on binomial coefficient identities and summation formulas.
-- [Functions](05-functions.md) -- Understanding domain restrictions and logical quantifiers supports the rigorous setup of proof arguments.
-- [Differentiation](10-differentiation.mdx) -- First principles proofs of derivative rules apply the same deductive structure covered in this topic.
+- [Numerical Methods](14-numerical-methods) -- Proof techniques complement numerical verification methods, with proof by exhaustion analogous to finite iteration.
+- [Binomial Expansion](07-binomial-expansion) -- Induction proofs frequently rely on binomial coefficient identities and summation formulas.
+- [Functions](05-functions) -- Understanding domain restrictions and logical quantifiers supports the rigorous setup of proof arguments.
+- [Differentiation](10-differentiation) -- First principles proofs of derivative rules apply the same deductive structure covered in this topic.

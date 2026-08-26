@@ -854,10 +854,10 @@ Template specialization is like having a general recipe and a special version fo
 
 ## See Also
 
-- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation.md)
-- [Argument Deduction (Class and Function)](./2_argument_deduction.md)
-- [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
-- [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
+- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation)
+- [Argument Deduction (Class and Function)](./2_argument_deduction)
+- [Dependent Names and Two-Phase Lookup](./4_dependent_names)
+- [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits)
 
 ```mermaid
 flowchart TD

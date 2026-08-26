@@ -702,9 +702,9 @@ Loop or cache it in a register, without emitting any CPU barrier instructions.
 
 ## See Also
 
-- [Cache Coherency (MESI) and False Sharing](./2_cache_coherency.md)
-- [Memory Orderings](./4_memory_orderings.md)
-- [Atomic Operations and Lock-Free Programming](./3_atomic_operations.md)
+- [Cache Coherency (MESI) and False Sharing](./2_cache_coherency)
+- [Memory Orderings](./4_memory_orderings)
+- [Atomic Operations and Lock-Free Programming](./3_atomic_operations)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

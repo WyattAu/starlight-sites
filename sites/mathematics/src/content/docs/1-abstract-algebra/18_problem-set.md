@@ -570,10 +570,10 @@ Groups of order $p^2$ (for prime $p$) are always abelian, but groups of order $p
 
 ## Cross-References
 
-- **[Groups](1_groups.md)**: Problem 1 directly applies group order and element order from the foundational groups chapter.
-- **[Rings](8_rings.md)**: Several problems involve ring-theoretic constructions such as polynomial rings and ideals.
-- **[Field Theory](12_field-theory.md)**: The field extension problems in this set build on irreducibility and algebraic closure.
-- **[Sylow Theorems](7_the-sylow-theorems.md)**: Problems on group classification rely on Sylow analysis for determining subgroup structure.
+- **[Groups](1_groups)**: Problem 1 directly applies group order and element order from the foundational groups chapter.
+- **[Rings](8_rings)**: Several problems involve ring-theoretic constructions such as polynomial rings and ideals.
+- **[Field Theory](12_field-theory)**: The field extension problems in this set build on irreducibility and algebraic closure.
+- **[Sylow Theorems](7_the-sylow-theorems)**: Problems on group classification rely on Sylow analysis for determining subgroup structure.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -292,9 +292,9 @@ Confirmation. Never call it with a path derived from untrusted user input withou
 :::
 ## See Also
 
-- [Chrono Library](./2_chrono.md)
-- [Random Number Generation](./3_random_numbers.md)
-- [Regular Expressions](./4_regular_expressions.md)
+- [Chrono Library](./2_chrono)
+- [Random Number Generation](./3_random_numbers)
+- [Regular Expressions](./4_regular_expressions)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 

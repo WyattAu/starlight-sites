@@ -145,7 +145,7 @@ Implications of write-back:
   data.
 - The MESI protocol ensures that any read from another core triggers a write-back before sharing.
 - Store buffers exist between the CPU core and the L1 cache to hide write latency (see
-  [Instruction Reordering](./1_instruction_reordering.md)).
+  [Instruction Reordering](./1_instruction_reordering)).
 
 ## Cache Line Ownership and Coherence Traffic
 
@@ -835,9 +835,9 @@ Eliminating false sharing entirely. The total is computed by summing all shards.
 
 ## See Also
 
-- [Instruction Reordering and Happens-Before](./1_instruction_reordering.md)
-- [Atomic Operations and Lock-Free Programming](./3_atomic_operations.md)
-- [Memory Orderings](./4_memory_orderings.md)
+- [Instruction Reordering and Happens-Before](./1_instruction_reordering)
+- [Atomic Operations and Lock-Free Programming](./3_atomic_operations)
+- [Memory Orderings](./4_memory_orderings)
 
 ```mermaid
 flowchart TD

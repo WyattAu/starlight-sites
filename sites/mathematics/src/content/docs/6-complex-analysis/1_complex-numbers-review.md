@@ -266,10 +266,10 @@ The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $
 
 ## Cross-References
 
-- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The epsilon-delta definition of limits extends logically to complex sequences and the topology of the complex plane.
-- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: Complex differentiability relates to the Cauchy-Riemann equations, which involve partial derivatives of real and imaginary parts.
-- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
-- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits)**: The epsilon-delta definition of limits extends logically to complex sequences and the topology of the complex plane.
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives)**: Complex differentiability relates to the Cauchy-Riemann equations, which involve partial derivatives of real and imaginary parts.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
+- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

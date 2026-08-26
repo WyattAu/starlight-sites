@@ -74,7 +74,7 @@ Regimes. Key areas of focus include:
 - **Ideological foundations:** Marxist-Leninist-Maoist thought versus National Socialism, and how
   each ideology shaped policy decisions and the relationship between state and citizen.
 
-> See [Mao and Hitler Comparative Analysis](comparitives/mao-hitler.md) for detailed notes.
+> See [Mao and Hitler Comparative Analysis](comparitives/mao-hitler) for detailed notes.
 
 ### The Spanish Civil War and the Chinese Civil War
 
@@ -92,7 +92,7 @@ Origins, the nature of the fighting, and their international dimensions. Key are
   conflict during the Cold War.
 
 > See
-> [Spanish Civil War and Chinese Civil War Comparative Analysis](comparitives/spanish-civil-war-chinese-civil-war.md)
+> [Spanish Civil War and Chinese Civil War Comparative Analysis](comparitives/spanish-civil-war-chinese-civil-war)
 > for detailed notes.
 
 ---

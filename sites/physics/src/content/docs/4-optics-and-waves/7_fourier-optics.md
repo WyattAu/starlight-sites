@@ -189,9 +189,9 @@ A thin lens adds a quadratic phase factor $\exp(-ik(x^2+y^2)/(2f))$. The Fourier
 
 ## Cross-References
 
-- **[Diffraction](./4_diffraction.md)**: Establishes the Huygens-Fresnel principle and Fraunhofer diffraction integral that the Fourier transform relationship formalises.
-- **[Coherence](./8_coherence.md)**: The spatial and temporal coherence of the source determines whether the Fourier transform relationship between aperture and far-field pattern holds.
-- **[Fourier Optics](./14_fourier-optics-10.md)**: Provides the mathematical framework for diffraction as Fourier decomposition, including the convolution theorem and Airy pattern.
+- **[Diffraction](./4_diffraction)**: Establishes the Huygens-Fresnel principle and Fraunhofer diffraction integral that the Fourier transform relationship formalises.
+- **[Coherence](./8_coherence)**: The spatial and temporal coherence of the source determines whether the Fourier transform relationship between aperture and far-field pattern holds.
+- **[Fourier Optics](./14_fourier-optics-10)**: Provides the mathematical framework for diffraction as Fourier decomposition, including the convolution theorem and Airy pattern.
 
 **Mistake 3: Forgetting that the 4f system inverts the image**
 The second lens in a 4f system performs another Fourier transform, which introduces a coordinate inversion: $U_{\text{out}}(x,y) \propto U_{\text{in}}(-x,-y)$ when no filter is present. Students sometimes forget this inversion when designing spatial filtering experiments, leading to unexpectedly mirrored output images.

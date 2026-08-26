@@ -156,8 +156,8 @@ The Borel sigma-algebra is foundational for modern probability theory. Kolmogoro
 
 ## Cross-References
 
-- **[Measures](2_measures.md)**: Measures are countably additive set functions defined on sigma-algebras, assigning sizes to measurable sets.
-- **[Lebesgue Integration](6_lebesgue-integration.md)**: Lebesgue integration is built on measures defined on sigma-algebras, generalising the Riemann integral.
+- **[Measures](2_measures)**: Measures are countably additive set functions defined on sigma-algebras, assigning sizes to measurable sets.
+- **[Lebesgue Integration](6_lebesgue-integration)**: Lebesgue integration is built on measures defined on sigma-algebras, generalising the Riemann integral.
 - **[Continuity](../3-real-analysis/4_continuity)**: Continuous functions generate Borel sigma-algebras, and continuity is a measurable property.
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

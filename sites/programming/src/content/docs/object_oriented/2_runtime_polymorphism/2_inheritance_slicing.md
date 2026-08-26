@@ -777,9 +777,9 @@ Additional vptrs (from multiple inheritance), and virtual base pointers all add 
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables.md)
-- [Devirtualization and Final Specifiers](./3_devirtualization.md)
-- [RTTI, dynamic_cast, and typeid](./4_rtti_dynamic_cast.md)
+- [Virtual Functions and vtables](./1_vtables)
+- [Devirtualization and Final Specifiers](./3_devirtualization)
+- [RTTI, dynamic_cast, and typeid](./4_rtti_dynamic_cast)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

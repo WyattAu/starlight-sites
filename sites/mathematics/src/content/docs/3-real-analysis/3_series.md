@@ -247,8 +247,8 @@ The Riemann rearrangement theorem states that any conditionally convergent serie
 
 - **[Sequences and Limits](2_sequences-and-limits)**: Series convergence is defined through the convergence of partial sums, which are sequences studied in the preceding chapter.
 - **[Sequences and Series of Functions](7_sequences-and-series-of-functions)**: The convergence tests for numerical series extend to function series through the Weierstrass M-test and uniform convergence.
-- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: Complex series and power series in the complex plane extend the convergence theory to two dimensions.
-- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Fourier series are infinite series of trigonometric functions whose convergence depends on the tests developed in this chapter.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review)**: Complex series and power series in the complex plane extend the convergence theory to two dimensions.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series)**: Fourier series are infinite series of trigonometric functions whose convergence depends on the tests developed in this chapter.
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

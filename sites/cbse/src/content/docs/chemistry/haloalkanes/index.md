@@ -141,7 +141,7 @@ Haloalkanes are key intermediates in organic synthesis. Grignard reagents, forme
 
 ## Cross-References
 
-- **[Biomolecules](../biomolecules/index.md):** Haloalkanes are alkylating agents used in organic synthesis of biomolecules — connecting haloalkane reactivity to biological chemistry.
-- **[Polymers](../polymers/index.md):** Vinyl chloride (a haloalkane) polymerizes to PVC — linking haloalkane chemistry to polymer production.
-- **[Electrochemistry](../electrochemistry/index.md):** The C-X bond in haloalkanes can undergo electrochemical reduction, connecting organic reactivity to electrochemistry.
-- **[Coordination Compounds](../coordination/index.md):** Halide ions (Cl⁻, Br⁻, I⁻) are common ligands in coordination complexes.
+- **[Biomolecules](../biomolecules/index):** Haloalkanes are alkylating agents used in organic synthesis of biomolecules — connecting haloalkane reactivity to biological chemistry.
+- **[Polymers](../polymers/index):** Vinyl chloride (a haloalkane) polymerizes to PVC — linking haloalkane chemistry to polymer production.
+- **[Electrochemistry](../electrochemistry/index):** The C-X bond in haloalkanes can undergo electrochemical reduction, connecting organic reactivity to electrochemistry.
+- **[Coordination Compounds](../coordination/index):** Halide ions (Cl⁻, Br⁻, I⁻) are common ligands in coordination complexes.

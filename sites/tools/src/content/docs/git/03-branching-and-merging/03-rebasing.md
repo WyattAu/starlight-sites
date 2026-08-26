@@ -437,6 +437,6 @@ linked above.
 
 ## Cross-References
 
-- **[Merging](02-merging.md):** Alternative integration strategy to rebasing, preserving full branch history.
-- **[Conflict Resolution](04-conflict-resolution.md):** Handles merge conflicts that arise during both merging and rebasing.
-- **[Branching](01-branching.md):** Branch creation and management fundamentals that underpin rebasing workflows.
+- **[Merging](02-merging):** Alternative integration strategy to rebasing, preserving full branch history.
+- **[Conflict Resolution](04-conflict-resolution):** Handles merge conflicts that arise during both merging and rebasing.
+- **[Branching](01-branching):** Branch creation and management fundamentals that underpin rebasing workflows.

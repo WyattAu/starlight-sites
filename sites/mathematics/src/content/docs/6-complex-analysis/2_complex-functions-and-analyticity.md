@@ -189,9 +189,9 @@ A complex function maps the plane to the plane, but requiring differentiability 
 
 ## Cross-References
 
-- **[Complex Numbers Review](1_complex-numbers-review.md)**: Complex arithmetic and polar form provide the foundation for understanding complex functions.
-- **[Cauchy-Riemann Equations](3_the-cauchy-riemann-equations.md)**: The Cauchy-Riemann equations are necessary and sufficient conditions for analyticity.
-- **[Complex Integration](4_complex-integration.md)**: Integration of analytic functions leads to powerful results like Cauchy's integral theorem.
+- **[Complex Numbers Review](1_complex-numbers-review)**: Complex arithmetic and polar form provide the foundation for understanding complex functions.
+- **[Cauchy-Riemann Equations](3_the-cauchy-riemann-equations)**: The Cauchy-Riemann equations are necessary and sufficient conditions for analyticity.
+- **[Complex Integration](4_complex-integration)**: Integration of analytic functions leads to powerful results like Cauchy's integral theorem.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

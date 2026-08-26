@@ -155,9 +155,9 @@ legally enforceable.
 
 ## Cross-References
 
-- [Road Signs](../highway-code/road-signs.md) - Motorway signs
-- [Rules of the Road](../highway-code/rules-of-the-road.md) - General rules
-- [Theory Test](../theory-test/practice-theory.md) - Practice questions
+- [Road Signs](../highway-code/road-signs) - Motorway signs
+- [Rules of the Road](../highway-code/rules-of-the-road) - General rules
+- [Theory Test](../theory-test/practice-theory) - Practice questions
 
 
 ## Advanced Content

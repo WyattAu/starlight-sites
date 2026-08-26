@@ -117,3 +117,5 @@ Each section includes:
 - **Assuming P ≠ NP without understanding the implications:** The P vs NP question is one of the biggest unsolved problems in mathematics. Claiming a proof without understanding the consequences for cryptography, optimisation, and complexity theory is a red flag.
 - **Forgetting that reductions prove hardness, not easiness:** If problem A reduces to problem B, it means B is at least as hard as A. Students often confuse the direction: reducing A to B shows B is hard, not that A is easy.
 - **Mixing up deterministic and non-deterministic automata:** Deterministic finite automata (DFA) have exactly one transition per state-symbol pair. Non-deterministic automata (NFA) can have multiple, and epsilon transitions. NFAs are exponentially more compact but accept the same regular languages as DFAs.
+
+Keep practising and reviewing to master this topic.

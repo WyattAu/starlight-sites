@@ -127,9 +127,9 @@ when clear.
 
 ## Cross-References
 
-- [Traffic Rules](./traffic-rules.md) - General traffic laws
-- [Signs](../signs/regulatory-signs.md) - Stop and yield signs
-- [Safe Driving Tips](../safe-driving/safe-driving.md) - Defensive driving
+- [Traffic Rules](./traffic-rules) - General traffic laws
+- [Signs](../signs/regulatory-signs) - Stop and yield signs
+- [Safe Driving Tips](../safe-driving/safe-driving) - Defensive driving
 
 
 ## Advanced Content

@@ -160,9 +160,9 @@ The value $2.405$ is the first zero of $J_0$, which determines the cutoff of the
 
 ## Cross-References
 
-- **[Geometric Optics](./6_geometric-optics.md)**: Total internal reflection and the critical angle derived in geometric optics are the guiding mechanism for light in optical fibres.
-- **[Dispersion](./11_dispersion.md)**: Material and waveguide dispersion limit the data rate in fibre communication by broadening optical pulses.
-- **[Electromagnetic Waves](./2_electromagnetic-waves.md)**: The wave equation and boundary conditions for electromagnetic fields in cylindrical waveguides determine the fibre modes.
+- **[Geometric Optics](./6_geometric-optics)**: Total internal reflection and the critical angle derived in geometric optics are the guiding mechanism for light in optical fibres.
+- **[Dispersion](./11_dispersion)**: Material and waveguide dispersion limit the data rate in fibre communication by broadening optical pulses.
+- **[Electromagnetic Waves](./2_electromagnetic-waves)**: The wave equation and boundary conditions for electromagnetic fields in cylindrical waveguides determine the fibre modes.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 

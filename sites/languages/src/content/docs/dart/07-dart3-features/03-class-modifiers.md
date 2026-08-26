@@ -91,7 +91,7 @@ class MyListenable implements Listenable {
 ## `sealed`
 
 Restricts all subtyping (extend, implement, mixin) to the same library. This is covered in detail in
-[sealed-classes.md](02-sealed-classes.md).
+[sealed-classes.md](02-sealed-classes).
 
 ### Brief Recap
 
@@ -970,7 +970,7 @@ linked above.
 
 ## Cross-References
 
-- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Foundational OOP concepts that class modifiers extend and restrict.
-- **[Error Handling](../08-error-handling.md):** Sealed class hierarchies for exhaustive exception handling patterns.
-- **[Variables](../03-basics/02-variables.md):** Type specifiers and null safety concepts underlying modifier design.
-- **[Best Practices](../04-best-practices.md):** API boundary best practices that motivate modifier usage.
+- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance):** Foundational OOP concepts that class modifiers extend and restrict.
+- **[Error Handling](../08-error-handling):** Sealed class hierarchies for exhaustive exception handling patterns.
+- **[Variables](../03-basics/02-variables):** Type specifiers and null safety concepts underlying modifier design.
+- **[Best Practices](../04-best-practices):** API boundary best practices that motivate modifier usage.

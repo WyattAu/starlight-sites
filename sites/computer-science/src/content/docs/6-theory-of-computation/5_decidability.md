@@ -273,8 +273,8 @@ about $B$.
 
 ## Cross-References
 
-- **[Turing Machines](./4_turing-machines.md):** Turing machine formalism and computability.
-- **[Theory of Computation Flashcards](./8_flashcards-theory-of-computation.mdx):** Interactive flashcards covering complexity classes.
+- **[Turing Machines](./4_turing-machines):** Turing machine formalism and computability.
+- **[Theory of Computation Flashcards](./8_flashcards-theory-of-computation):** Interactive flashcards covering complexity classes.
 - **[Algorithms](../../../../../typescript/src/content/docs/index):** Algorithm design and complexity theory.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

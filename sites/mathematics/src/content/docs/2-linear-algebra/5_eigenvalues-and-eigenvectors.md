@@ -380,9 +380,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Matrices](3_matrices.md)**: The characteristic polynomial whose roots are eigenvalues is defined via the determinant of $A - \lambda I$.
-- **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The SVD relates singular values to eigenvalues of $A^T A$ and provides a diagonal-like decomposition for non-square matrices.
-- **[Inner Product Spaces](7_inner-product-spaces.md)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
+- **[Matrices](3_matrices)**: The characteristic polynomial whose roots are eigenvalues is defined via the determinant of $A - \lambda I$.
+- **[Singular Value Decomposition](8_singular-value-decomposition)**: The SVD relates singular values to eigenvalues of $A^T A$ and provides a diagonal-like decomposition for non-square matrices.
+- **[Inner Product Spaces](7_inner-product-spaces)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
 :::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

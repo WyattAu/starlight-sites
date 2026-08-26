@@ -389,6 +389,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](./types-and-variables.md):** Scalar types that compose into slices, maps, and arrays.
-- **[I/O](../standard-library/io.md):** Buffer and stream operations on byte slices and strings.
-- **[Interfaces](../intermediate/interfaces.md):** How slices and maps implement standard library interfaces.
+- **[Types and Variables](./types-and-variables):** Scalar types that compose into slices, maps, and arrays.
+- **[I/O](../standard-library/io):** Buffer and stream operations on byte slices and strings.
+- **[Interfaces](../intermediate/interfaces):** How slices and maps implement standard library interfaces.

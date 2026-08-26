@@ -126,10 +126,10 @@ $$y = \frac{x^3}{4} + \frac{C}{x}$$
 
 ## Cross-References
 
-- **[Integrals](../integrals/index.md):** Solving differential equations requires integration — the antiderivative is the tool that reverses differentiation.
-- **[Derivatives](../derivatives/index.md):** Differentiation rules underpin how you verify solutions by substituting back into the original equation.
-- **[Probability](../probability/index.md):** Probability distributions and expected values involve differential equations in their continuous forms.
-- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index.md):** Rate laws in chemistry are differential equations — the connection between math and real chemical systems.
+- **[Integrals](../integrals/index):** Solving differential equations requires integration — the antiderivative is the tool that reverses differentiation.
+- **[Derivatives](../derivatives/index):** Differentiation rules underpin how you verify solutions by substituting back into the original equation.
+- **[Probability](../probability/index):** Probability distributions and expected values involve differential equations in their continuous forms.
+- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index):** Rate laws in chemistry are differential equations — the connection between math and real chemical systems.
 
 ## Practice Problems
 

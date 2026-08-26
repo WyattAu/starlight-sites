@@ -115,10 +115,10 @@ Bond angles: approximately $90°$ and $180°$ (slightly less due to lone pair re
 
 ## Cross-References
 
-- **[Coordination Compounds](../coordination/index.md):** P-block elements form ligands (NH₃, CN⁻, Cl⁻) in coordination complexes, connecting group chemistry to coordination chemistry.
-- **[D-Block Elements](../d-block/index.md):** Comparing p-block and d-block trends reveals why transition metals have variable oxidation states while p-block elements follow stricter rules.
-- **[Solutions](../solutions/index.md):** Many p-block compounds dissolve to form electrolytic solutions, linking their chemistry to colligative properties and conductivity.
-- **[Surface Chemistry](../surface-chemistry/index.md):** Adsorption of p-block gases on surfaces is central to industrial catalysis (e.g., SO₃ in sulfuric acid manufacture).
+- **[Coordination Compounds](../coordination/index):** P-block elements form ligands (NH₃, CN⁻, Cl⁻) in coordination complexes, connecting group chemistry to coordination chemistry.
+- **[D-Block Elements](../d-block/index):** Comparing p-block and d-block trends reveals why transition metals have variable oxidation states while p-block elements follow stricter rules.
+- **[Solutions](../solutions/index):** Many p-block compounds dissolve to form electrolytic solutions, linking their chemistry to colligative properties and conductivity.
+- **[Surface Chemistry](../surface-chemistry/index):** Adsorption of p-block gases on surfaces is central to industrial catalysis (e.g., SO₃ in sulfuric acid manufacture).
 
 ## Practice Problems
 

@@ -38,25 +38,25 @@ Atomic models, electron configuration, periodic trends, and radioactivity.
 
 Ionic, covalent, and metallic bonding, intermolecular forces, and molecular geometry.
 
-→ **[Full notes](2-bonding/2_bonding.md)**
+→ **[Full notes](2-bonding/2_bonding)**
 
 ### Stoichiometry & Formulae
 
 Mole calculations, balanced equations, empirical formulae, and gas laws.
 
-→ **[Full notes](3-stoichiometry/3_stoichiometry.md)**
+→ **[Full notes](3-stoichiometry/3_stoichiometry)**
 
 ### Acids, Bases & Salts
 
 pH, indicators, neutralisation, salt preparation, and buffer solutions.
 
-→ **[Full notes](4-acids-bases/4_acids-bases.md)**
+→ **[Full notes](4-acids-bases/4_acids-bases)**
 
 ### Organic Chemistry
 
 Hydrocarbons, functional groups, reaction mechanisms, and organic analysis.
 
-→ **[Full notes](5-organic/5_organic.md)**
+→ **[Full notes](5-organic/5_organic)**
 
 ## Study Tips
 

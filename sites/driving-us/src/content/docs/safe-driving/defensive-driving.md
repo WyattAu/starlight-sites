@@ -159,9 +159,9 @@ nap or switch drivers. Do not continue driving while drowsy.
 
 ## Cross-References
 
-- [Right-of-Way](../rules/right-of-way.md) - Who goes first
-- [Traffic Rules](../rules/traffic-rules.md) - Speed and lane rules
-- [Signs](../signs/regulatory-signs.md) - Traffic signs
+- [Right-of-Way](../rules/right-of-way) - Who goes first
+- [Traffic Rules](../rules/traffic-rules) - Speed and lane rules
+- [Signs](../signs/regulatory-signs) - Traffic signs
 
 
 ## Advanced Content

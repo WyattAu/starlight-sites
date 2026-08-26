@@ -476,6 +476,6 @@ linked above.
 
 ## Cross-References
 
-- **[net/http](../standard-library/net-http.md):** HTTP server and client patterns that build on networking fundamentals.
-- **[I/O](../standard-library/io.md):** Reader/Writer interfaces used in network stream processing.
-- **[Interfaces](../intermediate/interfaces.md):** Interface-based abstraction patterns for network protocol handlers.
+- **[net/http](../standard-library/net-http):** HTTP server and client patterns that build on networking fundamentals.
+- **[I/O](../standard-library/io):** Reader/Writer interfaces used in network stream processing.
+- **[Interfaces](../intermediate/interfaces):** Interface-based abstraction patterns for network protocol handlers.

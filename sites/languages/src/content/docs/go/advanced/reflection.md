@@ -319,6 +319,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](../intermediate/interfaces.md):** Interface satisfaction and type assertions underlying reflection.
-- **[Generics](../intermediate/generics.md):** Compile-time type parameters as an alternative to runtime reflection.
-- **[Types and Variables](../basics/types-and-variables.md):** Go's type system fundamentals that reflection inspects at runtime.
+- **[Interfaces](../intermediate/interfaces):** Interface satisfaction and type assertions underlying reflection.
+- **[Generics](../intermediate/generics):** Compile-time type parameters as an alternative to runtime reflection.
+- **[Types and Variables](../basics/types-and-variables):** Go's type system fundamentals that reflection inspects at runtime.

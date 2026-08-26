@@ -143,9 +143,9 @@ $\blacksquare$
 
 ## Cross-References
 
-- **[Introduction to Topology](1_introduction-to-topology.md)**: Foundational concepts including open sets, continuity, and the motivation for topology.
-- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions between topological spaces preserve structure without requiring metrics.
-- **[Compactness](5_compactness.md)**: Compactness is a key property of topological spaces related to finite subcovers and sequential convergence.
+- **[Introduction to Topology](1_introduction-to-topology)**: Foundational concepts including open sets, continuity, and the motivation for topology.
+- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms)**: Continuous functions between topological spaces preserve structure without requiring metrics.
+- **[Compactness](5_compactness)**: Compactness is a key property of topological spaces related to finite subcovers and sequential convergence.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

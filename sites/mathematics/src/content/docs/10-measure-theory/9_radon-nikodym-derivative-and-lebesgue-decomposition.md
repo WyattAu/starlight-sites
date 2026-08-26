@@ -144,9 +144,9 @@ $\nu = m + \delta_0$ with $m \ll m$ and $\delta_0 \perp m$. $\blacksquare$
 
 ## Cross-References
 
-- **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension.md)**: Constructs the Lebesgue measure that serves as the reference measure for the Radon-Nikodym derivative.
-- **[Lebesgue Measurable Sets and Non-Measurable Sets](./4_lebesgue-measurable-sets-and-non-measurable-sets.md)**: Establishes the $\sigma$-algebra of measurable sets needed for the decomposition of measures.
-- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems.md)**: Product measures and integration techniques used in applications of the Radon-Nikodym derivative.
+- **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension)**: Constructs the Lebesgue measure that serves as the reference measure for the Radon-Nikodym derivative.
+- **[Lebesgue Measurable Sets and Non-Measurable Sets](./4_lebesgue-measurable-sets-and-non-measurable-sets)**: Establishes the $\sigma$-algebra of measurable sets needed for the decomposition of measures.
+- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems)**: Product measures and integration techniques used in applications of the Radon-Nikodym derivative.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

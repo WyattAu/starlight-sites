@@ -1075,7 +1075,7 @@ linked above.
 
 ## Cross-References
 
-- [Kinematics](01-kinematics.md) -- Forces cause the accelerations described by kinematic equations; Newton's second law connects the two topics.
-- [Dynamics (Extended)](dynamics-depth.md) -- The extended dynamics treatment provides deeper analysis of connected particles, pulleys, and friction on inclined planes.
-- [Moments](03-moments.md) -- Moments extend Newton's laws to rotational equilibrium, complementing the translational equilibrium covered here.
-- [Energy and Work](04-energy-and-work.md) -- The work-energy principle provides an alternative formulation of Newton's second law in terms of energy.
+- [Kinematics](01-kinematics) -- Forces cause the accelerations described by kinematic equations; Newton's second law connects the two topics.
+- [Dynamics (Extended)](dynamics-depth) -- The extended dynamics treatment provides deeper analysis of connected particles, pulleys, and friction on inclined planes.
+- [Moments](03-moments) -- Moments extend Newton's laws to rotational equilibrium, complementing the translational equilibrium covered here.
+- [Energy and Work](04-energy-and-work) -- The work-energy principle provides an alternative formulation of Newton's second law in terms of energy.

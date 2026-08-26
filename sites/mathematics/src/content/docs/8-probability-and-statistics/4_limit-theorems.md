@@ -175,9 +175,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Random Variables](2_random-variables.md)**: Random variables provide the building blocks for understanding convergence in distribution and probability.
-- **[Joint Distributions and Independence](3_joint-distributions-and-independence.md)**: Independence of random variables is essential for the law of large numbers and central limit theorem.
-- **[Probability Spaces](1_probability-spaces.md)**: Probability spaces provide the measure-theoretic foundation for defining convergence concepts.
+- **[Random Variables](2_random-variables)**: Random variables provide the building blocks for understanding convergence in distribution and probability.
+- **[Joint Distributions and Independence](3_joint-distributions-and-independence)**: Independence of random variables is essential for the law of large numbers and central limit theorem.
+- **[Probability Spaces](1_probability-spaces)**: Probability spaces provide the measure-theoretic foundation for defining convergence concepts.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -150,8 +150,8 @@ before driving abroad.
 
 ## Cross-References
 
-- [Vienna Convention Signs](../road-signs/vienna-convention-signs.md) - Sign system
-- [EU Driving Laws](../driving-laws/eu-driving-laws.md) - Rules of the road
+- [Vienna Convention Signs](../road-signs/vienna-convention-signs) - Sign system
+- [EU Driving Laws](../driving-laws/eu-driving-laws) - Rules of the road
 
 
 ## Advanced Content

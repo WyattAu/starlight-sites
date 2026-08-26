@@ -59,7 +59,7 @@ the ten core modules to each board"s paper structure.
    the ideal gas equation, thermochemical calculations.
 4. **[Chemical Kinetics](../../../../../chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics)** -- Rate equations, the Arrhenius equation, collision
    theory, Maxwell-Boltzmann distributions, catalysis.
-5. **[Chemical Equilibrium](../../../../../dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium.md)** -- $K_c$, $K_p$Le Chatelier's principle,
+5. **[Chemical Equilibrium](../../../../../dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium)** -- $K_c$, $K_p$Le Chatelier's principle,
    solubility products, industrial processes.
 6. **[Acids, Bases & Buffers](./acids-bases)** -- pH, $K_a$, $K_b$, $K_w$Buffer solutions, titration
    curves, indicators.

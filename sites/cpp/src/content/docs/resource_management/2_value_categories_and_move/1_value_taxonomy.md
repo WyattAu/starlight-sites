@@ -189,8 +189,8 @@ Traits or SFINAE constraints.
 :::
 ## See Also
 
-- [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
-- [Temporary Materialization](3_temporary_materialization.md)
+- [Reference Collapsing and Forwarding References](2_reference_collapsing)
+- [Temporary Materialization](3_temporary_materialization)
 
 ## 3.1 Expression Classification Rules
 
@@ -770,7 +770,7 @@ Outcomes.
 
 In C++17 and later, a prvalue is **materialized** into a temporary object when it needs an identity
 (address, lifetime, or to bind to a reference). After materialization, the expression becomes an
-Xvalue [N4950 S7.3.5]. See [Temporary Materialization](3_temporary_materialization.md) for details.
+Xvalue [N4950 S7.3.5]. See [Temporary Materialization](3_temporary_materialization) for details.
 
 ### Lvalue-to-Rvalue Conversion
 
@@ -856,10 +856,10 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
 
 ## See Also
 
-- [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
-- [Temporary Materialization](3_temporary_materialization.md)
-- [Move Constructors and RVO](4_move_constructors_rvo.md)
-- [Return Value Optimization](5_return_value_optimization.md)
+- [Reference Collapsing and Forwarding References](2_reference_collapsing)
+- [Temporary Materialization](3_temporary_materialization)
+- [Move Constructors and RVO](4_move_constructors_rvo)
+- [Return Value Optimization](5_return_value_optimization)
 
 ## Worked Examples
 

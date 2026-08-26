@@ -292,9 +292,9 @@ the Hamiltonian formulation requires special treatment (Dirac brackets or Constr
 
 ## Cross-References
 
-- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the foundation for deriving the Hamiltonian via Legendre transform.
-- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Noether's theorem connects symmetries to conserved quantities, which are expressed as Poisson brackets in Hamiltonian mechanics.
-- **[Quantum Mechanics](../5-quantum-mechanics/2_postulates-of-quantum-mechanics.md)**: The Hamiltonian becomes an operator in quantum mechanics, and Poisson brackets become commutators.
+- **[Lagrangian Mechanics](3_lagrangian-mechanics)**: The Lagrangian formulation provides the foundation for deriving the Hamiltonian via Legendre transform.
+- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws)**: Noether's theorem connects symmetries to conserved quantities, which are expressed as Poisson brackets in Hamiltonian mechanics.
+- **[Quantum Mechanics](../5-quantum-mechanics/2_postulates-of-quantum-mechanics)**: The Hamiltonian becomes an operator in quantum mechanics, and Poisson brackets become commutators.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

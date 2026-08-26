@@ -223,5 +223,5 @@ linked above.
 
 ## Cross-References
 
-- **[Algebra](./diag-algebra.md):** Equations and expressions.
-- **[Geometry](./diag-geometry.md):** Shapes and measurements.
+- **[Algebra](./diag-algebra):** Equations and expressions.
+- **[Geometry](./diag-geometry):** Shapes and measurements.

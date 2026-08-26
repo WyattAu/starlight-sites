@@ -339,6 +339,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](interfaces.md):** Interface patterns that complement error handling design.
-- **[Generics](generics.md):** Generic functions that can work with error types.
-- **[Practice Error Handling](../practice-interfaces.mdx):** Practice problems that include error handling scenarios.
+- **[Interfaces](interfaces):** Interface patterns that complement error handling design.
+- **[Generics](generics):** Generic functions that can work with error types.
+- **[Practice Error Handling](../practice-interfaces):** Practice problems that include error handling scenarios.

@@ -183,8 +183,8 @@ When the Lagrangian depends explicitly on time, the action is not invariant unde
 
 ## Cross-References
 
-- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism expresses conserved quantities as functions of phase space variables.
-- **[Central Force Problems](6_central-force-problems.mdx)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics)**: The Hamiltonian formalism expresses conserved quantities as functions of phase space variables.
+- **[Central Force Problems](6_central-force-problems)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

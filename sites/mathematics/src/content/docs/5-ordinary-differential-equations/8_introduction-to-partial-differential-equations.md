@@ -293,7 +293,7 @@ Partial differential equations extend ODEs to functions of multiple variables, d
 - **[Fourier Series](7_fourier-series)**: Fourier series provide the eigenfunction expansions needed to solve PDEs by separation of variables.
 - **[Second-Order Linear ODEs](3_second-order-linear-odes)**: The spatial ODEs arising from separation of variables are second-order linear equations with boundary conditions.
 - **[Laplace Transforms](5_laplace-transforms)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
-- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.
+- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

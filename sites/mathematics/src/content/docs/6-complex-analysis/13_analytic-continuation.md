@@ -187,9 +187,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Power series provide local representations that can be analytically continued to larger domains.
-- **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle.md)**: Liouville's theorem characterizes entire functions and is used in proving uniqueness of analytic continuation.
-- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analyticity is the essential property that enables continuation beyond the original domain.
+- **[Taylor and Laurent Series](7_taylor-and-laurent-series)**: Power series provide local representations that can be analytically continued to larger domains.
+- **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle)**: Liouville's theorem characterizes entire functions and is used in proving uniqueness of analytic continuation.
+- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity)**: Analyticity is the essential property that enables continuation beyond the original domain.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

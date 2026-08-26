@@ -178,9 +178,9 @@ $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
 
 ## Cross-References
 
-- **[$L^p$ Spaces](../10-measure-theory/7_l-p-spaces.md)**: Provides concrete examples of Banach spaces that are fundamental throughout analysis, with the completeness result proved here.
-- **[Inner Product Spaces and Hilbert Spaces](./2_inner-product-spaces-and-hilbert-spaces.md)**: Specialises the normed space theory to spaces where the norm comes from an inner product, enabling orthogonal projections.
-- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Develops the theory of continuous linear maps between normed spaces, building on the dual space concept.
+- **[$L^p$ Spaces](../10-measure-theory/7_l-p-spaces)**: Provides concrete examples of Banach spaces that are fundamental throughout analysis, with the completeness result proved here.
+- **[Inner Product Spaces and Hilbert Spaces](./2_inner-product-spaces-and-hilbert-spaces)**: Specialises the normed space theory to spaces where the norm comes from an inner product, enabling orthogonal projections.
+- **[Bounded Linear Operators](./3_bounded-linear-operators)**: Develops the theory of continuous linear maps between normed spaces, building on the dual space concept.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

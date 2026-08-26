@@ -747,8 +747,8 @@ Register arguments must be written to memory before the callee can access them.
 
 ## See Also
 
-- [Overload Resolution](1_overload_resolution.md)
-- [C-Interop and FFI](5_c_interop.md)
+- [Overload Resolution](1_overload_resolution)
+- [C-Interop and FFI](5_c_interop)
 
 
 ```mermaid

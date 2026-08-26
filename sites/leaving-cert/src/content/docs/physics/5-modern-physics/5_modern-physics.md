@@ -903,10 +903,10 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
-- **[Light and Waves](../2-waves/2_waves.md):** Covers wave properties and the electromagnetic spectrum, connecting to wave-particle duality and the photoelectric effect.
-- **[Heat and Thermodynamics](../4-heat/4_heat.md):** Explores kinetic theory and temperature concepts that relate to atomic and nuclear physics.
-- **[Atomic Structure](../../chemistry/1-atomic-structure/1_atomic-structure.md):** Chemistry notes on electronic configuration and periodic trends that complement the atomic models covered here.
-- **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering modern physics, mechanics, and other topics.
+- **[Light and Waves](../2-waves/2_waves):** Covers wave properties and the electromagnetic spectrum, connecting to wave-particle duality and the photoelectric effect.
+- **[Heat and Thermodynamics](../4-heat/4_heat):** Explores kinetic theory and temperature concepts that relate to atomic and nuclear physics.
+- **[Atomic Structure](../../chemistry/1-atomic-structure/1_atomic-structure):** Chemistry notes on electronic configuration and periodic trends that complement the atomic models covered here.
+- **[Practice Physics](../practice-physics):** Interactive practice problems covering modern physics, mechanics, and other topics.
 
 ## Common Mistakes
 

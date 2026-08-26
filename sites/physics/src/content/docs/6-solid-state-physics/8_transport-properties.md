@@ -172,9 +172,9 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 
 ## Cross-References
 
-- **[Electronic Band Structure](./5_electronic-band-structure.md)**: The Fermi surface geometry and effective mass from band theory determine the transport coefficients measured in the Drude and Boltzmann frameworks.
-- **[Defects in Crystals](./9_defects-in-crystals.md)**: Point defects and dislocations act as scattering centres that contribute to the residual resistivity in Matthiessen's rule.
-- **[Superconductivity](./7_superconductivity.md)**: Represents the extreme limit where scattering vanishes entirely, producing zero resistivity below the critical temperature.
+- **[Electronic Band Structure](./5_electronic-band-structure)**: The Fermi surface geometry and effective mass from band theory determine the transport coefficients measured in the Drude and Boltzmann frameworks.
+- **[Defects in Crystals](./9_defects-in-crystals)**: Point defects and dislocations act as scattering centres that contribute to the residual resistivity in Matthiessen's rule.
+- **[Superconductivity](./7_superconductivity)**: Represents the extreme limit where scattering vanishes entirely, producing zero resistivity below the critical temperature.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -419,6 +419,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](../intermediate/interfaces.md):** Interface-based mock design for test doubles.
-- **[Error Handling](../intermediate/error-handling.md):** Error wrapping and inspection patterns used in test assertions.
-- **[net/http](../standard-library/net-http.md):** HTTP handler testing with httptest and middleware chains.
+- **[Interfaces](../intermediate/interfaces):** Interface-based mock design for test doubles.
+- **[Error Handling](../intermediate/error-handling):** Error wrapping and inspection patterns used in test assertions.
+- **[net/http](../standard-library/net-http):** HTTP handler testing with httptest and middleware chains.

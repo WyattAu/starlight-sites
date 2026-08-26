@@ -197,9 +197,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the framework for defining compactness through open covers.
-- **[Connectedness](6_connectedness.md)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
-- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
+- **[Topological Spaces](2_topological-spaces)**: Topological spaces provide the framework for defining compactness through open covers.
+- **[Connectedness](6_connectedness)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
+- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

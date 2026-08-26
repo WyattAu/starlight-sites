@@ -826,9 +826,9 @@ flowchart TD
 
 ## See Also
 
-- [Thread Execution (std::jthread) and Hardware Mapping](./1_threads_jthread.md)
-- [Data Races and Critical Sections](./2_data_races.md)
-- [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks.md)
+- [Thread Execution (std::jthread) and Hardware Mapping](./1_threads_jthread)
+- [Data Races and Critical Sections](./2_data_races)
+- [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

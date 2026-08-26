@@ -378,9 +378,9 @@ A fallback).
 :::
 ## See Also
 
-- [Value Taxonomy](1_value_taxonomy.md)
-- [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
-- [Return Value Optimization (RVO) and NRVO](5_return_value_optimization.md)
+- [Value Taxonomy](1_value_taxonomy)
+- [Reference Collapsing and Forwarding References](2_reference_collapsing)
+- [Return Value Optimization (RVO) and NRVO](5_return_value_optimization)
 
 ## 5.4 Materialization Points
 

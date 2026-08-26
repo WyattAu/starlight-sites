@@ -707,8 +707,8 @@ int main() {
 
 ## See Also
 
-- [Stream Buffers and Locale Facets](./1_stream_buffers.md)
-- [Unicode Support](./3_unicode_support.md)
+- [Stream Buffers and Locale Facets](./1_stream_buffers)
+- [Unicode Support](./3_unicode_support)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -627,6 +627,6 @@ linked above.
 
 ## Cross-References
 
-- **[I/O](io.md):** File and stream operations used in HTTP handlers.
-- **[Strings and Time](strings-and-time.md):** String and time utilities used in HTTP processing.
+- **[I/O](io):** File and stream operations used in HTTP handlers.
+- **[Strings and Time](strings-and-time):** String and time utilities used in HTTP processing.
 - **[Concurrency](../concurrency/):** Goroutines and channels for handling concurrent HTTP requests.

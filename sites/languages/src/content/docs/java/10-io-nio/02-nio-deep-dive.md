@@ -994,6 +994,6 @@ linked above.
 
 ## Cross-References
 
-- **[I/O and NIO](./01-io-nio.md):** Foundational streams, channels, and buffer operations.
-- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Selector-based event loops and thread pool integration.
-- **[Garbage Collection](../09-jvm-internals/03-garbage-collection.md):** MappedByteBuffer lifecycle and native memory management.
+- **[I/O and NIO](./01-io-nio):** Foundational streams, channels, and buffer operations.
+- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive):** Selector-based event loops and thread pool integration.
+- **[Garbage Collection](../09-jvm-internals/03-garbage-collection):** MappedByteBuffer lifecycle and native memory management.

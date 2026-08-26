@@ -824,9 +824,9 @@ is central to the language.
 
 ## Cross-References
 
-- **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching.md):** Explores the pattern matching and data type fundamentals introduced here.
-- **[Metaprogramming](../04-advanced/1_metaprogramming.md):** Advanced compile-time code generation using macros and quote/unquote.
-- **[Elixir Flashcards](../flashcards-elixir-basics.mdx):** Interactive flashcards testing the core concepts from this introduction.
+- **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching):** Explores the pattern matching and data type fundamentals introduced here.
+- **[Metaprogramming](../04-advanced/1_metaprogramming):** Advanced compile-time code generation using macros and quote/unquote.
+- **[Elixir Flashcards](../flashcards-elixir-basics):** Interactive flashcards testing the core concepts from this introduction.
 
 ## Common Mistakes
 

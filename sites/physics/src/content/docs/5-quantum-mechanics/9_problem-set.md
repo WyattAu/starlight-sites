@@ -172,9 +172,9 @@ Working through quantum mechanics problems builds physical intuition about the c
 
 ## Cross-References
 
-- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates provide the mathematical framework for solving quantum problems.
-- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for the problems in this set.
-- **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and their properties are tested in these problems.
+- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics)**: The postulates provide the mathematical framework for solving quantum problems.
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation)**: The Schrodinger equation provides the foundation for the problems in this set.
+- **[Operators and Observables](4_operators-and-observables)**: Operators represent physical observables and their properties are tested in these problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

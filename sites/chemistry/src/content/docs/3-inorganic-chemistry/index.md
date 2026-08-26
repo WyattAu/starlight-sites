@@ -113,7 +113,7 @@ The trans effect governs the rate of ligand substitution in square planar comple
 
 - **[Physical Chemistry](../1-physical-chemistry/):** Covers thermodynamics, kinetics, and quantum chemistry that underpin inorganic chemistry concepts.
 - **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that complement inorganic coordination chemistry.
-- **[Coordination Chemistry](coordination-chemistry.md):** Detailed notes on transition metal complexes and ligand field theory.
+- **[Coordination Chemistry](coordination-chemistry):** Detailed notes on transition metal complexes and ligand field theory.
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

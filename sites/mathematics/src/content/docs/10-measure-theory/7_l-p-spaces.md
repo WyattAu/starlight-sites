@@ -161,10 +161,10 @@ Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\
 
 ## Cross-References
 
-- **[Measurable Functions](./5_measurable-functions.md)**: Defines the measurability requirement for functions in $L^p$ spaces and the convergence modes that connect to $L^p$ convergence.
-- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems.md)**: Justifies iterated integration over product spaces, essential for computing integrals of functions in $L^p(\mu \times \nu)$.
-- **[Normed Spaces and Banach Spaces](../11-functional-analysis/1_normed-spaces-and-banach-spaces.md)**: Places $L^p$ spaces in the broader framework of Banach space theory, where they serve as fundamental examples.
-- **[Inner Product Spaces and Hilbert Spaces](../11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces.md)**: Specialises the theory to $L^2$, where the inner product structure enables orthogonal projections and spectral theory.
+- **[Measurable Functions](./5_measurable-functions)**: Defines the measurability requirement for functions in $L^p$ spaces and the convergence modes that connect to $L^p$ convergence.
+- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems)**: Justifies iterated integration over product spaces, essential for computing integrals of functions in $L^p(\mu \times \nu)$.
+- **[Normed Spaces and Banach Spaces](../11-functional-analysis/1_normed-spaces-and-banach-spaces)**: Places $L^p$ spaces in the broader framework of Banach space theory, where they serve as fundamental examples.
+- **[Inner Product Spaces and Hilbert Spaces](../11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces)**: Specialises the theory to $L^2$, where the inner product structure enables orthogonal projections and spectral theory.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

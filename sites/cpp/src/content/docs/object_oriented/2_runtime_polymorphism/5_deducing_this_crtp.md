@@ -734,9 +734,9 @@ CRTP is a compile-time trick where a derived class passes itself as a template p
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables.md)
-- [Devirtualization and Final Specifiers](./3_devirtualization.md)
-- [Access Control and Friendship](../1_class_design/2_access_control.md)
+- [Virtual Functions and vtables](./1_vtables)
+- [Devirtualization and Final Specifiers](./3_devirtualization)
+- [Access Control and Friendship](../1_class_design/2_access_control)
 
 ## Worked Examples
 

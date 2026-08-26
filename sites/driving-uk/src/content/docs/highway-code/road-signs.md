@@ -130,9 +130,9 @@ the junction.
 
 ## Cross-References
 
-- [Highway Code Rules](./highway-code-rules.md) - Rules of the road
-- [Theory Test](../theory-test/practice-theory.md) - Practice questions
-- [Safe Driving](../safe-driving/safe-driving-tips.md) - Driving techniques
+- [Highway Code Rules](./highway-code-rules) - Rules of the road
+- [Theory Test](../theory-test/practice-theory) - Practice questions
+- [Safe Driving](../safe-driving/safe-driving-tips) - Driving techniques
 
 
 ## Advanced Content

@@ -25,7 +25,7 @@ Interpretation of data. In the DSE compulsory syllabus, we focus on **descriptiv
 ./4-statistics-and-probability/2_statistics** -- Summarising a dataset through measures of central
 tendency and measures of dispersion. This page Also covers grouped data techniques and graphical
 representations such as box-and-whisker plots. These tools are frequently combined with
-[probability](11_probability.md) concepts in exam questions.
+[probability](11_probability) concepts in exam questions.
 
 ## Measures of Central Tendency
 

@@ -640,6 +640,6 @@ linked above.
 
 ## Cross-References
 
-- **[Submodules](04-submodules.md):** Alternative approach to managing external dependencies within a Git repository.
-- **[Cherry-Pick](06-cherry-pick.md):** Selective commit application technique that complements subtree operations.
-- **[Worktrees](05-worktrees.md):** Multiple working directories for parallel development alongside subtree management.
+- **[Submodules](04-submodules):** Alternative approach to managing external dependencies within a Git repository.
+- **[Cherry-Pick](06-cherry-pick):** Selective commit application technique that complements subtree operations.
+- **[Worktrees](05-worktrees):** Multiple working directories for parallel development alongside subtree management.

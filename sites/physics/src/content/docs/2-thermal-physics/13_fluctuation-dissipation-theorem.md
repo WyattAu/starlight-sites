@@ -168,9 +168,9 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 
 ## Cross-References
 
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: The fluctuation-dissipation theorem connects equilibrium statistical mechanics to transport coefficients measured in non-equilibrium settings.
-- **[Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations.md)**: Linear response theory is extended to irreversible processes and entropy production in this chapter.
-- **[Common Pitfalls](8_common-pitfalls.md)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
+- **[Statistical Mechanics](2_statistical-mechanics)**: The fluctuation-dissipation theorem connects equilibrium statistical mechanics to transport coefficients measured in non-equilibrium settings.
+- **[Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations)**: Linear response theory is extended to irreversible processes and entropy production in this chapter.
+- **[Common Pitfalls](8_common-pitfalls)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

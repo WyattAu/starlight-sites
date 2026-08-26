@@ -174,10 +174,10 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- [Radioactivity](./01-radioactivity.mdx): Introduces radioactive decay, half-life, and the nuclear model that underpins all nuclear physics.
-- [Nuclear Energy](./02-nuclear-energy.mdx): Explores fission and fusion reactions, connecting mass-energy equivalence to practical energy generation.
-- [Quantum Physics](./03-quantum-physics.mdx): Extends nuclear phenomena to the quantum realm, explaining electron behaviour and wave-particle duality.
-- [Particle Physics](./04-particle-physics.md): Investigates the fundamental particles and forces that govern nuclear interactions.
+- [Radioactivity](./01-radioactivity): Introduces radioactive decay, half-life, and the nuclear model that underpins all nuclear physics.
+- [Nuclear Energy](./02-nuclear-energy): Explores fission and fusion reactions, connecting mass-energy equivalence to practical energy generation.
+- [Quantum Physics](./03-quantum-physics): Extends nuclear phenomena to the quantum realm, explaining electron behaviour and wave-particle duality.
+- [Particle Physics](./04-particle-physics): Investigates the fundamental particles and forces that govern nuclear interactions.
 
 ---
 

@@ -239,9 +239,9 @@ Optics problems revolve around a central theme: light behaves as a wave when the
 
 ## Cross-References
 
-- **[The Wave Equation](1_the-wave-equation.md)**: The string and wave problems here apply the classical wave equation solutions derived in this chapter.
-- **[Interference](3_interference.md)**: The thin-film and double-slit problems use the path difference and phase shift principles from interference theory.
-- **[Diffraction](4_diffraction.md)**: The grating and single-slit problems require the Fraunhofer diffraction formulas developed in this chapter.
+- **[The Wave Equation](1_the-wave-equation)**: The string and wave problems here apply the classical wave equation solutions derived in this chapter.
+- **[Interference](3_interference)**: The thin-film and double-slit problems use the path difference and phase shift principles from interference theory.
+- **[Diffraction](4_diffraction)**: The grating and single-slit problems require the Fraunhofer diffraction formulas developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

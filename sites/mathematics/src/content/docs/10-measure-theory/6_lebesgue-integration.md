@@ -157,8 +157,8 @@ flowchart TD
 
 ## Cross-References
 
-- **[Measures](2_measures.md)**: Lebesgue integration is built on measure theory, with the integral defined as a supremum over simple functions.
-- **[Sigma-Algebras and Measurable Spaces](1_sigma-algebras-and-measurable-spaces.md)**: Measurable functions and their integrals are defined with respect to a sigma-algebra on the domain.
+- **[Measures](2_measures)**: Lebesgue integration is built on measure theory, with the integral defined as a supremum over simple functions.
+- **[Sigma-Algebras and Measurable Spaces](1_sigma-algebras-and-measurable-spaces)**: Measurable functions and their integrals are defined with respect to a sigma-algebra on the domain.
 - **[Riemann Integration](../3-real-analysis/6_riemann-integration)**: Every Riemann integrable function is Lebesgue integrable, but the Lebesgue integral handles a strictly larger class of functions.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

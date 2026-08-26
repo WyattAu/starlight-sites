@@ -144,7 +144,7 @@ Destructive power of honour codes embedded in patriarchal Latin American society
 Narrator compiles testimony decades after the event, exposing the complicity of an entire community
 In a death that was simultaneously public and inevitable.
 
-> See the full analysis: [Chronicle of a Death Foretold](chronicle-of-a-death-foretold.md)
+> See the full analysis: [Chronicle of a Death Foretold](chronicle-of-a-death-foretold)
 
 ### A Streetcar Named Desire -- Tennessee Williams
 
@@ -155,7 +155,7 @@ Construction and destruction of identity, the violence embedded in gender and cl
 The thin line between sanity and madness. Williams' technique of "plastic theatre" integrates music,
 Lighting, and stagecraft into the dramatic language itself.
 
-> See the full analysis: [A Streetcar Named Desire](a-street-car-named-desire.md)
+> See the full analysis: [A Streetcar Named Desire](a-street-car-named-desire)
 
 ### Chronicle of a Death Foretold and A Streetcar Named Desire -- Comparative Study
 
@@ -166,7 +166,7 @@ Orders. Both employ unreliable narration or subjective perspective to destabilis
 Access to truth. Gender, power, and the policing of female sexuality are central concerns in each
 Text.
 
-> See the full comparative analysis: [Chronicle / Streetcar](comparitives/chronicle-streetcar.md)
+> See the full comparative analysis: [Chronicle / Streetcar](comparitives/chronicle-streetcar)
 
 ## Key Literary Criticism Frameworks
 

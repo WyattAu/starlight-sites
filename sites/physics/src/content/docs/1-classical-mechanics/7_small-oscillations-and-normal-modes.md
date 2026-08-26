@@ -174,9 +174,9 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 
 ## Cross-References
 
-- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the foundation for analyzing small oscillations and normal modes.
-- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism gives the total energy and phase space representation of normal mode oscillations.
-- **[Rigid Body Dynamics](8_rigid-body-dynamics.md)**: Rigid body rotations exhibit normal modes that describe small oscillations about equilibrium orientations.
+- **[Lagrangian Mechanics](3_lagrangian-mechanics)**: The Lagrangian formulation provides the foundation for analyzing small oscillations and normal modes.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics)**: The Hamiltonian formalism gives the total energy and phase space representation of normal mode oscillations.
+- **[Rigid Body Dynamics](8_rigid-body-dynamics)**: Rigid body rotations exhibit normal modes that describe small oscillations about equilibrium orientations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

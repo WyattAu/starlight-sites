@@ -144,7 +144,7 @@ flowchart TD
 
 ## Cross-References
 
-- **[Galois Theory Fundamentals](./13_galois-theory-fundamentals.md)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.
+- **[Galois Theory Fundamentals](./13_galois-theory-fundamentals)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.
 
 ## Intuition
 

@@ -167,9 +167,9 @@ uses Calabi-Yau manifolds, and manifold learning algorithms exploit geometry for
 
 ## Cross-References
 
-- **[Curvature](./7_curvature.md)**: Defines the Riemann curvature tensor and Ricci curvature used in Einstein field equations and gauge theory.
-- **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem.md)**: Relates total Gaussian curvature to the Euler characteristic, explaining cartographic constraints and serving as a prototype for index theorems.
-- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles.md)**: Provides the tangent bundle and connection theory needed to formulate geodesics as a rule relativity and gauge fields.
+- **[Curvature](./7_curvature)**: Defines the Riemann curvature tensor and Ricci curvature used in Einstein field equations and gauge theory.
+- **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem)**: Relates total Gaussian curvature to the Euler characteristic, explaining cartographic constraints and serving as a prototype for index theorems.
+- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles)**: Provides the tangent bundle and connection theory needed to formulate geodesics as a rule relativity and gauge fields.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

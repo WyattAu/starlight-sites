@@ -147,10 +147,10 @@ Maximum profit is Rs. 2200 by producing 3 units of A and 2 units of B.
 
 ## Cross-References
 
-- **[Matrices](../matrices/index.md):** The simplex method uses matrix operations to solve linear programming problems systematically.
-- **[Derivatives](../derivatives/index.md):** Optimization without constraints uses derivatives; linear programming handles constrained optimization.
-- **[Probability](../probability/index.md):** Decision theory and expected value problems sometimes lead to linear programming formulations.
-- **[Biomolecules (Chemistry)](../../chemistry/biomolecules/index.md):** Diet optimization problems in linear programming often involve nutritional constraints from biochemistry.
+- **[Matrices](../matrices/index):** The simplex method uses matrix operations to solve linear programming problems systematically.
+- **[Derivatives](../derivatives/index):** Optimization without constraints uses derivatives; linear programming handles constrained optimization.
+- **[Probability](../probability/index):** Decision theory and expected value problems sometimes lead to linear programming formulations.
+- **[Biomolecules (Chemistry)](../../chemistry/biomolecules/index):** Diet optimization problems in linear programming often involve nutritional constraints from biochemistry.
 
 ## Practice Problems
 

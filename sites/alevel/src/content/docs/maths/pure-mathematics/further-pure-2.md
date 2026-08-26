@@ -477,7 +477,7 @@ properties, parametric and Cartesian equations, tangents and normals).
 
 ## Cross-References
 
-- [Further Pure Mathematics 1](further-pure-1.md) -- FP2 builds on FP1 foundations in complex numbers, matrices, and further calculus techniques.
-- [Vectors](12-vectors.md) -- The 3D vector geometry in FP2 extends the 2D vector work covered in the core syllabus.
-- [Trigonometry](08-trigonometry.mdx) -- Euler's relation and parametric equations of conics rely heavily on trigonometric identities.
-- [Integration](11-integration.mdx) -- Reduction formulae and series solutions require advanced integration by parts and standard integral techniques.
+- [Further Pure Mathematics 1](further-pure-1) -- FP2 builds on FP1 foundations in complex numbers, matrices, and further calculus techniques.
+- [Vectors](12-vectors) -- The 3D vector geometry in FP2 extends the 2D vector work covered in the core syllabus.
+- [Trigonometry](08-trigonometry) -- Euler's relation and parametric equations of conics rely heavily on trigonometric identities.
+- [Integration](11-integration) -- Reduction formulae and series solutions require advanced integration by parts and standard integral techniques.

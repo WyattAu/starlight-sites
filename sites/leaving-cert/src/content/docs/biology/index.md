@@ -32,31 +32,31 @@ significant emphasis on mandatory practical activities.
 
 Cell structure, membrane transport, cell division, enzymes, and respiration.
 
-→ **[Full notes](1-cell/1_cell.md)**
+→ **[Full notes](1-cell/1_cell)**
 
 ### Ecology
 
 Ecosystems, food webs, nutrient cycles, population dynamics, and human impact.
 
-→ **[Full notes](2-ecology/2_ecology.md)**
+→ **[Full notes](2-ecology/2_ecology)**
 
 ### Genetics & Evolution
 
 Mendelian genetics, DNA, mutations, natural selection, and evidence for evolution.
 
-→ **[Full notes](3-genetics/3_genetics.md)**
+→ **[Full notes](3-genetics/3_genetics)**
 
 ### Plant Biology
 
 Plant structure, photosynthesis, transport, reproduction, and plant responses.
 
-→ **[Full notes](4-plant-biology/4_plant-biology.md)**
+→ **[Full notes](4-plant-biology/4_plant-biology)**
 
 ### Human Body Systems
 
 Digestive, circulatory, respiratory, nervous, endocrine, and excretory systems.
 
-→ **[Full notes](5-human-body/5_human-body.md)**
+→ **[Full notes](5-human-body/5_human-body)**
 
 ## Study Tips
 

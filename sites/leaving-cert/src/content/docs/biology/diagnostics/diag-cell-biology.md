@@ -410,6 +410,6 @@ linked above.
 
 ## Cross-References
 
-- **[Cell Biology](../1-cell/1_cell.md):** Covers the foundational cell structure and organelle content that these diagnostic tests assess.
-- **[Practice Biology](../practice-biology.mdx):** Interactive practice problems that complement the diagnostic format with auto-graded questions.
-- **[Chemistry Diagnostic: Atomic Structure](../../chemistry/diagnostics/diag-atomic-structure.md):** Explores atomic-level concepts underpinning biological molecules like proteins and lipids.
+- **[Cell Biology](../1-cell/1_cell):** Covers the foundational cell structure and organelle content that these diagnostic tests assess.
+- **[Practice Biology](../practice-biology):** Interactive practice problems that complement the diagnostic format with auto-graded questions.
+- **[Chemistry Diagnostic: Atomic Structure](../../chemistry/diagnostics/diag-atomic-structure):** Explores atomic-level concepts underpinning biological molecules like proteins and lipids.

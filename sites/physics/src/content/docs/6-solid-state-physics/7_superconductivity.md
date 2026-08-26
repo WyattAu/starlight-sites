@@ -142,9 +142,9 @@ The Josephson effects are the basis for SQUIDs, voltage standards, and supercond
 
 ## Cross-References
 
-- **[Electronic Band Structure](./5_electronic-band-structure.md)**: The density of states at the Fermi level determines the superconducting gap and critical temperature via the BCS formula.
-- **[Transport Properties](./8_transport-properties.md)**: The zero resistance of superconductors contrasts with the finite resistivity arising from scattering in normal metals.
-- **[Advanced Topics in Superconductivity](./12_advanced-topics-in-superconductivity.md)**: Develops the Ginzburg-Landau phenomenological theory and Abrikosov vortex physics beyond the basic BCS framework.
+- **[Electronic Band Structure](./5_electronic-band-structure)**: The density of states at the Fermi level determines the superconducting gap and critical temperature via the BCS formula.
+- **[Transport Properties](./8_transport-properties)**: The zero resistance of superconductors contrasts with the finite resistivity arising from scattering in normal metals.
+- **[Advanced Topics in Superconductivity](./12_advanced-topics-in-superconductivity)**: Develops the Ginzburg-Landau phenomenological theory and Abrikosov vortex physics beyond the basic BCS framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -147,7 +147,7 @@ Algebraic topology translates geometric questions into algebra. A loop that cann
 - **[Metric Spaces](7_metric-spaces)**: The metric space structure provides the foundation for topological concepts like continuity and convergence used throughout algebraic topology.
 - **[Closed Sets, Closure, Interior, and Boundary](3_closed-sets-closure-interior-and-boundary)**: Understanding open and closed sets is essential for defining covering spaces and CW-complexes.
 - **[Separation Axioms](8_separation-axioms)**: The separation axioms determine which topological spaces have well-behaved fundamental groups and classification results.
-- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The notion of convergence underpins the definition of homotopy and the fundamental group.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits)**: The notion of convergence underpins the definition of homotopy and the fundamental group.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

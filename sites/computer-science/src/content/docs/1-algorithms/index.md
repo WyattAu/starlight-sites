@@ -116,3 +116,5 @@ Each section includes:
 - **Misapplying Big-O notation:** $O(n)$ describes an upper bound, not an exact growth rate. Saying "this algorithm is $O(n^2)$" does not mean it always takes quadratic time — it could be faster. Use $\Theta(n)$ when you mean tight bound.
 - **Assuming a greedy algorithm is optimal:** Greedy algorithms work for matroids and certain optimisation problems but fail for many others (e.g., knapsack, Huffman coding requires a proof of correctness). Always prove or cite why a greedy strategy works.
 - **Forgetting that recursion depth matters:** Recursive algorithms can cause stack overflow for deep recursions. Convert to iteration or use tail-call optimisation (where the language supports it) for problems with recursion depth exceeding a few thousand.
+
+Keep practising and reviewing to master this topic.

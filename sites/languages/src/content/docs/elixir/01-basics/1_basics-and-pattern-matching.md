@@ -1045,10 +1045,10 @@ and process data. Key takeaways:
 
 ## Cross-References
 
-- **[Elixir Introduction](../00-intro/1_elixir-intro.md):** Language overview and motivation before diving into data types.
-- **[Metaprogramming](../04-advanced/1_metaprogramming.md):** Uses pattern matching with quote/unquote for compile-time code generation.
-- **[Elixir Flashcards](../flashcards-elixir-basics.mdx):** Interactive flashcards covering pattern matching and type concepts.
-- **[Elixir Practice](../practice-elixir-basics.mdx):** Auto-graded problems testing pattern matching and guard clauses.
+- **[Elixir Introduction](../00-intro/1_elixir-intro):** Language overview and motivation before diving into data types.
+- **[Metaprogramming](../04-advanced/1_metaprogramming):** Uses pattern matching with quote/unquote for compile-time code generation.
+- **[Elixir Flashcards](../flashcards-elixir-basics):** Interactive flashcards covering pattern matching and type concepts.
+- **[Elixir Practice](../practice-elixir-basics):** Auto-graded problems testing pattern matching and guard clauses.
 
 ## Common Mistakes
 

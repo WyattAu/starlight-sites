@@ -182,10 +182,10 @@ testing when lawfully arrested for DUI.
 
 ## Cross-References
 
-- [Traffic Signs](../signs/regulatory-signs.md) - Sign identification
-- [Traffic Rules](../rules/traffic-rules.md) - Traffic laws
-- [Right-of-Way](../rules/right-of-way.md) - Intersection rules
-- [Defensive Driving](../safe-driving/defensive-driving.md) - Safe techniques
+- [Traffic Signs](../signs/regulatory-signs) - Sign identification
+- [Traffic Rules](../rules/traffic-rules) - Traffic laws
+- [Right-of-Way](../rules/right-of-way) - Intersection rules
+- [Defensive Driving](../safe-driving/defensive-driving) - Safe techniques
 
 
 ## Advanced Content

@@ -275,7 +275,7 @@ A reverse proxy provides:
 - **TLS termination:** HTTPS for all apps with automatic certificate management (Let's Encrypt).
 - **Load balancing:** Distribute traffic across multiple app instances.
 
-Refer to the dedicated [Traefik guide](../setup/traefik.md) for TrueNAS Traefik configuration.
+Refer to the dedicated [Traefik guide](../setup/traefik) for TrueNAS Traefik configuration.
 
 ---
 

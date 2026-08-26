@@ -361,7 +361,7 @@ Shared concerns: the violence of honour codes, the commodification of women, and
 The individual by social forces.
 
 For a full dedicated comparative guide, see
-[chronicle-streetcar](comparitives/chronicle-streetcar.md).
+[chronicle-streetcar](comparitives/chronicle-streetcar).
 
 ### Honour and Reputation vs Individual Desire
 

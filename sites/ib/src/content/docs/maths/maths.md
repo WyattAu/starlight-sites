@@ -52,8 +52,8 @@ Topics.
   complex numbers), and proof by mathematical induction (extended cases including divisibility and
   inequalities).
 
-> See [Number and Algebra notes](1-number-and-algebra/1_number-and-algebra.md) and
-> [Complex Numbers](1-number-and-algebra/2_complex-numbers.mdx).
+> See [Number and Algebra notes](1-number-and-algebra/1_number-and-algebra) and
+> [Complex Numbers](1-number-and-algebra/2_complex-numbers).
 
 ### Worked Example: Geometric Series (SL)
 
@@ -176,8 +176,8 @@ Identities, and an introduction to vector geometry.
   dimensions, and further trigonometric identities. HL students also study the reciprocal
   trigonometric functions and the inverse trigonometric functions in greater depth.
 
-> See [Vectors notes](3-geometry-and-trigonometry/2_vectors.md) and
-> [Trigonometry notes](3-geometry-and-trigonometry/1_trigonometry.mdx).
+> See [Vectors notes](3-geometry-and-trigonometry/2_vectors) and
+> [Trigonometry notes](3-geometry-and-trigonometry/1_trigonometry).
 
 ### Worked Example: Sine and Cosine Rules (SL)
 
@@ -374,7 +374,7 @@ Algorithms.
   including adjacency matrices, walks, paths, circuits, trees, and algorithms (Kruskal's and Prim's
   algorithms for minimum spanning trees, Dijkstra's algorithm for shortest path).
 
-> See [Logic notes](6-discrete-mathematics/1_logic.md).
+> See [Logic notes](6-discrete-mathematics/1_logic).
 
 ---
 

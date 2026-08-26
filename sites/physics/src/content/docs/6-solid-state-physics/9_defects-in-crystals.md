@@ -174,9 +174,9 @@ MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-
 
 ## Cross-References
 
-- **[Electronic Band Structure](./5_electronic-band-structure.md)**: Defects introduce localized states within the band gap and modify the electronic structure, affecting conductivity and optical properties.
-- **[Transport Properties](./8_transport-properties.md)**: Defects contribute to electron scattering and residual resistivity, entering Matthiessen's rule as the temperature-independent component.
-- **[Superconductivity](./7_superconductivity.md)**: Defects can pin Abrikosov vortices in Type II superconductors, enhancing the critical current density.
+- **[Electronic Band Structure](./5_electronic-band-structure)**: Defects introduce localized states within the band gap and modify the electronic structure, affecting conductivity and optical properties.
+- **[Transport Properties](./8_transport-properties)**: Defects contribute to electron scattering and residual resistivity, entering Matthiessen's rule as the temperature-independent component.
+- **[Superconductivity](./7_superconductivity)**: Defects can pin Abrikosov vortices in Type II superconductors, enhancing the critical current density.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

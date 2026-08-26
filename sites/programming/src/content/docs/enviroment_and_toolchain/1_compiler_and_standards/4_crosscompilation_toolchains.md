@@ -748,12 +748,12 @@ Use the following checklist to diagnose cross-compilation failures:
 
 ## See Also
 
-- [Installing a Compiler](1_installing_compiler.mdx) -- Setting up native and cross-compilers
-- [Standard Library Implementation](3_standard_library_implementation.md) -- Choosing the right
+- [Installing a Compiler](1_installing_compiler) -- Setting up native and cross-compilers
+- [Standard Library Implementation](3_standard_library_implementation) -- Choosing the right
   standard library for the target
-- [Linker Configuration](5_linker_configuration.mdx) -- Cross-linking considerations
-- [vcpkg](../3_dependency_management/3_vcpkg.md) -- Cross-compiling dependencies with triplets
-- [Conan](../3_dependency_management/4_conan.md) -- Cross-compilation with Conan profiles
+- [Linker Configuration](5_linker_configuration) -- Cross-linking considerations
+- [vcpkg](../3_dependency_management/3_vcpkg) -- Cross-compiling dependencies with triplets
+- [Conan](../3_dependency_management/4_conan) -- Cross-compilation with Conan profiles
 
 
 ```mermaid

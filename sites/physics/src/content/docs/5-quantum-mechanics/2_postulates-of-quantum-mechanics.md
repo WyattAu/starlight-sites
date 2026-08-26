@@ -135,7 +135,7 @@ Matrices via partial trace), open quantum systems, and decoherence.
 
 ## Cross-References
 
-- **[Electronic Band Structure](../6-solid-state-physics/5_electronic-band-structure.md)**: Applies the quantum postulates to electrons in periodic potentials, yielding Bloch states and energy bands.
+- **[Electronic Band Structure](../6-solid-state-physics/5_electronic-band-structure)**: Applies the quantum postulates to electrons in periodic potentials, yielding Bloch states and energy bands.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

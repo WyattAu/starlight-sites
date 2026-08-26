@@ -221,9 +221,9 @@ Feynman diagrams are like sheet music for particle interactions. Each note repre
 
 ## Cross-References
 
-- **[The Standard Model](1_the-standard-model.md)**: Feynman diagrams encode the interaction vertices defined by the Standard Model Lagrangian.
-- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries.md)**: Each vertex in a Feynman diagram must conserve the quantum numbers governed by the symmetry principles in this chapter.
-- **[Running Coupling Constants](6_running-coupling-constants.md)**: Loop corrections in Feynman diagrams drive the energy dependence of coupling constants through renormalisation group evolution.
+- **[The Standard Model](1_the-standard-model)**: Feynman diagrams encode the interaction vertices defined by the Standard Model Lagrangian.
+- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)**: Each vertex in a Feynman diagram must conserve the quantum numbers governed by the symmetry principles in this chapter.
+- **[Running Coupling Constants](6_running-coupling-constants)**: Loop corrections in Feynman diagrams drive the energy dependence of coupling constants through renormalisation group evolution.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -410,6 +410,6 @@ linked above.
 
 ## Cross-References
 
-- **[Race Conditions](./race-conditions.md):** Mutex-based synchronization as an alternative to channel communication.
-- **[Networking](../advanced/networking.md):** Goroutine-based network servers using channel patterns.
-- **[I/O](../standard-library/io.md):** Stream processing with io.Reader/Writer in concurrent pipelines.
+- **[Race Conditions](./race-conditions):** Mutex-based synchronization as an alternative to channel communication.
+- **[Networking](../advanced/networking):** Goroutine-based network servers using channel patterns.
+- **[I/O](../standard-library/io):** Stream processing with io.Reader/Writer in concurrent pipelines.

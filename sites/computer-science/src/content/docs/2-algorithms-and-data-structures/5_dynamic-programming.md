@@ -297,8 +297,8 @@ Dynamic programming is solving complex problems by breaking them into overlappin
 
 ## Cross-References
 
-- **[Algorithm Analysis](./1_algorithm-analysis.md):** Complexity analysis fundamentals for dynamic programming.
-- **[Algorithms Flashcards](../1-algorithms/flashcards-algorithms.mdx):** Algorithm design paradigms including dynamic programming.
+- **[Algorithm Analysis](./1_algorithm-analysis):** Complexity analysis fundamentals for dynamic programming.
+- **[Algorithms Flashcards](../1-algorithms/flashcards-algorithms):** Algorithm design paradigms including dynamic programming.
 - **[Databases](../../../../../typescript/src/content/docs/index):** Query optimization using dynamic programming for join ordering.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

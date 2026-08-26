@@ -334,6 +334,6 @@ abundances.
 
 ## Cross-References
 
-- **[Atomic Structure](../1-atomic-structure/1_atomic-structure.md):** Detailed notes on atomic structure and the periodic table.
-- **[Chemical Bonding](../2-bonding/2_bonding.md):** Covers ionic, covalent, and metallic bonding that builds on atomic structure.
-- **[Practice Chemistry](../practice-chemistry.mdx):** Interactive practice problems covering atomic structure and bonding.
+- **[Atomic Structure](../1-atomic-structure/1_atomic-structure):** Detailed notes on atomic structure and the periodic table.
+- **[Chemical Bonding](../2-bonding/2_bonding):** Covers ionic, covalent, and metallic bonding that builds on atomic structure.
+- **[Practice Chemistry](../practice-chemistry):** Interactive practice problems covering atomic structure and bonding.

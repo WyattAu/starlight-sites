@@ -196,9 +196,9 @@ The coherence length $L_c = \lambda^2/\Delta\lambda$ depends on the spectral ban
 
 ## Cross-References
 
-- **[Coherence](./8_coherence.md)**: Provides the foundational definitions of temporal and spatial coherence, the mutual coherence function, and the Wiener-Khinchin theorem.
-- **[Diffraction](./4_diffraction.md)**: The formation of diffraction fringes depends on source coherence; partially coherent illumination reduces fringe visibility.
-- **[Fourier Optics](./7_fourier-optics.md)**: The van Cittert-Zernike theorem relates source intensity distributions to spatial coherence via Fourier transforms.
+- **[Coherence](./8_coherence)**: Provides the foundational definitions of temporal and spatial coherence, the mutual coherence function, and the Wiener-Khinchin theorem.
+- **[Diffraction](./4_diffraction)**: The formation of diffraction fringes depends on source coherence; partially coherent illumination reduces fringe visibility.
+- **[Fourier Optics](./7_fourier-optics)**: The van Cittert-Zernike theorem relates source intensity distributions to spatial coherence via Fourier transforms.
 
 **Mistake 3: Assuming fringe visibility of 1 requires perfect coherence**
 Fringe visibility also depends on the intensity ratio of the two beams. For equal intensities $I_1 = I_2$, the visibility equals $|\gamma_{12}|$. But if $I_1 \neq I_2$, the visibility is reduced even for fully coherent light. The correct formula is $V = (2\sqrt{I_1 I_2}/(I_1 + I_2))|\gamma_{12}|$.

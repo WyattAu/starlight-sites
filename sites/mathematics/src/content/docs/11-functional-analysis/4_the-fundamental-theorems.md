@@ -165,9 +165,9 @@ Prove that if $x_n \to 0$ and $Tx_n \to y$ implies $y = 0$, then $T$ is bounded.
 
 ## Cross-References
 
-- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Defines the operator spaces and norms that the fundamental theorems operate on, including the open mapping and closed graph theorems.
-- **[Compact Operators](./5_compact-operators.md)**: Applies the Fredholm alternative, which relies on the bounded inverse theorem established here.
-- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Uses the Banach-Alaoglu theorem, a consequence of Hahn-Banach, to establish weak* compactness of the dual unit ball.
+- **[Bounded Linear Operators](./3_bounded-linear-operators)**: Defines the operator spaces and norms that the fundamental theorems operate on, including the open mapping and closed graph theorems.
+- **[Compact Operators](./5_compact-operators)**: Applies the Fredholm alternative, which relies on the bounded inverse theorem established here.
+- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence)**: Uses the Banach-Alaoglu theorem, a consequence of Hahn-Banach, to establish weak* compactness of the dual unit ball.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

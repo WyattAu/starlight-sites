@@ -466,6 +466,6 @@ linked above.
 
 ## Cross-References
 
-- **[Channels](./channels.md):** Channel-based concurrency as an alternative to shared-memory synchronization.
-- **[Pointers and Memory](../advanced/pointers-and-memory.md):** Memory layout and escape analysis relevant to concurrent access.
-- **[Testing](../advanced/testing.md):** Race detector and concurrency testing patterns.
+- **[Channels](./channels):** Channel-based concurrency as an alternative to shared-memory synchronization.
+- **[Pointers and Memory](../advanced/pointers-and-memory):** Memory layout and escape analysis relevant to concurrent access.
+- **[Testing](../advanced/testing):** Race detector and concurrency testing patterns.

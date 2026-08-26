@@ -416,7 +416,7 @@ For a detailed comparative study of A Streetcar Named Desire and Chronicle of a 
 Including analysis of shared themes such as honour, gender, violence, and the role of the community,
 See:
 
-> [Chronicle / Streetcar -- Comparative Analysis](comparitives/chronicle-streetcar.md)
+> [Chronicle / Streetcar -- Comparative Analysis](comparitives/chronicle-streetcar)
 
 Both texts examine the destruction of the individual by social forces that operate through coded
 Norms rather than open violence. In Chronicle, the entire town participates in Santiago Nasar's

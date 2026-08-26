@@ -278,6 +278,6 @@ The application layer is the interface between your code and the network, like t
 
 ## Cross-References
 
-- **[Transport Layer](./5_transport-layer.md):** TCP and UDP protocols.
-- **[Network Security](./7_network-security.md):** HTTPS and TLS encryption.
-- **[Data Link Layer](./3_data-link-layer.md):** MAC addressing and Ethernet.
+- **[Transport Layer](./5_transport-layer):** TCP and UDP protocols.
+- **[Network Security](./7_network-security):** HTTPS and TLS encryption.
+- **[Data Link Layer](./3_data-link-layer):** MAC addressing and Ethernet.

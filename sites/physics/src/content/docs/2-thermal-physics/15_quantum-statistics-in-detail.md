@@ -169,9 +169,9 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 
 ## Cross-References
 
-- **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
-- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: BEC is the macroscopic occupation of the ground state predicted by Bose-Einstein statistics at low temperatures.
-- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
+- **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation)**: BEC is the macroscopic occupation of the ground state predicted by Bose-Einstein statistics at low temperatures.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

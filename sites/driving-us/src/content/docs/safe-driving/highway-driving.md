@@ -162,9 +162,9 @@ with your seatbelt on until help arrives.
 
 ## Cross-References
 
-- [Traffic Rules](../rules/traffic-rules.md) - Speed and lane rules
-- [Defensive Driving](./defensive-driving.md) - Hazard perception
-- [Signs](../signs/regulatory-signs.md) - Highway signs
+- [Traffic Rules](../rules/traffic-rules) - Speed and lane rules
+- [Defensive Driving](./defensive-driving) - Hazard perception
+- [Signs](../signs/regulatory-signs) - Highway signs
 
 
 ## Advanced Content

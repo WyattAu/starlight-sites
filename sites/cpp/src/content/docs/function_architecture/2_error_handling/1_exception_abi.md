@@ -684,8 +684,8 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 
 ## See Also
 
-- [Exception Safety Guarantees](2_exception_safety.md)
-- [The noexcept Specifier](3_noexcept.md)
+- [Exception Safety Guarantees](2_exception_safety)
+- [The noexcept Specifier](3_noexcept)
 
 
 ```mermaid

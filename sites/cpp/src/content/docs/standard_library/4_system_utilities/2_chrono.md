@@ -292,9 +292,9 @@ A system update.
 :::
 ## See Also
 
-- [Filesystem Library](./1_filesystem.md)
-- [Random Number Generation](./3_random_numbers.md)
-- [Regular Expressions](./4_regular_expressions.md)
+- [Filesystem Library](./1_filesystem)
+- [Random Number Generation](./3_random_numbers)
+- [Regular Expressions](./4_regular_expressions)
 
 ### Clock Precision and `is_steady`
 

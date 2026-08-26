@@ -888,7 +888,7 @@ linked above.
 
 ## Cross-References
 
-- [Forces and Newton's Laws](02-forces-and-newtons-laws.md) -- Moments extend the equilibrium conditions from translational force balance to rotational balance.
-- [Dynamics (Extended)](dynamics-depth.md) -- Extended dynamics covers force resolution on inclined planes and connected particles, prerequisites for many moment problems.
-- [Kinematics](01-kinematics.md) -- Understanding displacement and acceleration provides context for the static equilibrium studied in moments.
-- [Vectors](../pure-mathematics/12-vectors.md) -- Vector resolution and the cross product are the mathematical tools behind calculating moments.
+- [Forces and Newton's Laws](02-forces-and-newtons-laws) -- Moments extend the equilibrium conditions from translational force balance to rotational balance.
+- [Dynamics (Extended)](dynamics-depth) -- Extended dynamics covers force resolution on inclined planes and connected particles, prerequisites for many moment problems.
+- [Kinematics](01-kinematics) -- Understanding displacement and acceleration provides context for the static equilibrium studied in moments.
+- [Vectors](../pure-mathematics/12-vectors) -- Vector resolution and the cross product are the mathematical tools behind calculating moments.

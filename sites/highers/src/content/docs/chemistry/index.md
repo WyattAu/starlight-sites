@@ -32,31 +32,31 @@ and mathematical content.
 
 Chemical bonding, intermolecular forces, reaction rates, equilibrium, and enthalpy changes.
 
-→ **[Full notes](1-structure-bonding/1_structure-bonding.md)**
+→ **[Full notes](1-structure-bonding/1_structure-bonding)**
 
 ### Energy & Matter
 
 Energy changes in reactions, Hess"s law, bond enthalpies, and properties of matter.
 
-→ **[Full notes](2-heat-matter/2_heat-matter.md)**
+→ **[Full notes](2-heat-matter/2_heat-matter)**
 
 ### Acids & Bases
 
 pH calculations, strong and weak acids, buffers, neutralisation, and titration analysis.
 
-→ **[Full notes](3-acids-bases/3_acids-bases.md)**
+→ **[Full notes](3-acids-bases/3_acids-bases)**
 
 ### Organic Chemistry
 
 Hydrocarbons, functional groups, reaction mechanisms, isomerism, and organic synthesis.
 
-→ **[Full notes](4-organic/4_organic.md)**
+→ **[Full notes](4-organic/4_organic)**
 
 ### Analytical Chemistry
 
 Chromatography, spectroscopy, volumetric analysis, and instrumental methods.
 
-→ **[Full notes](5-analytical/5_analytical.md)**
+→ **[Full notes](5-analytical/5_analytical)**
 
 ## Study Tips
 

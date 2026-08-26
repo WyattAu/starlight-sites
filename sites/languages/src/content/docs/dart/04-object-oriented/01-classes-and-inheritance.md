@@ -405,8 +405,8 @@ linked above.
 
 ## Cross-References
 
-- **[Variables](../03-basics/02-variables.md):** Field specifiers (`final`, `const`, `late`) used in class declarations.
-- **[Class Modifiers](../07-dart3-features/03-class-modifiers.md):** Dart 3 `sealed`, `base`, `interface`, and `final` modifiers for class hierarchies.
-- **[Error Handling](../08-error-handling.md):** Custom exception classes using sealed class hierarchies.
-- **[Async and Futures](../05-async/01-async-and-futures.md):** Asynchronous factory constructors and mixin patterns in async contexts.
+- **[Variables](../03-basics/02-variables):** Field specifiers (`final`, `const`, `late`) used in class declarations.
+- **[Class Modifiers](../07-dart3-features/03-class-modifiers):** Dart 3 `sealed`, `base`, `interface`, and `final` modifiers for class hierarchies.
+- **[Error Handling](../08-error-handling):** Custom exception classes using sealed class hierarchies.
+- **[Async and Futures](../05-async/01-async-and-futures):** Asynchronous factory constructors and mixin patterns in async contexts.
 :::

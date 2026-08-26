@@ -339,6 +339,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](./interfaces.md):** The error interface and custom error type design patterns.
-- **[Testing](../advanced/testing.md):** Error assertion and inspection patterns in test suites.
-- **[net/http](../standard-library/net-http.md):** HTTP error handling and middleware error propagation.
+- **[Interfaces](./interfaces):** The error interface and custom error type design patterns.
+- **[Testing](../advanced/testing):** Error assertion and inspection patterns in test suites.
+- **[net/http](../standard-library/net-http):** HTTP error handling and middleware error propagation.

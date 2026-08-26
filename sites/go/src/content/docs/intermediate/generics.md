@@ -358,6 +358,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](interfaces.md):** Interface patterns that generics can complement or replace.
-- **[Error Handling](error-handling.md):** Error handling patterns that work with generic functions.
-- **[Practice Generics](../practice-interfaces.mdx):** Practice problems covering generic programming.
+- **[Interfaces](interfaces):** Interface patterns that generics can complement or replace.
+- **[Error Handling](error-handling):** Error handling patterns that work with generic functions.
+- **[Practice Generics](../practice-interfaces):** Practice problems covering generic programming.

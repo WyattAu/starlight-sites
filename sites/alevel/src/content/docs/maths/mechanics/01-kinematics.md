@@ -861,7 +861,7 @@ linked above.
 
 ## Cross-References
 
-- [Forces and Newton's Laws](02-forces-and-newtons-laws.md) -- Forces cause the accelerations described by kinematic equations; Newton's second law connects the two topics.
-- [Dynamics (Extended)](dynamics-depth.md) -- The extended dynamics treatment applies Newton's laws to connected particles, friction, and inclined planes.
-- [Energy and Work](04-energy-and-work.md) -- The work-energy theorem relates forces and displacement to changes in kinetic energy, linking dynamics to kinematics.
-- [Differentiation](../pure-mathematics/10-differentiation.mdx) -- Velocity is the derivative of displacement and acceleration is the derivative of velocity, connecting calculus to motion.
+- [Forces and Newton's Laws](02-forces-and-newtons-laws) -- Forces cause the accelerations described by kinematic equations; Newton's second law connects the two topics.
+- [Dynamics (Extended)](dynamics-depth) -- The extended dynamics treatment applies Newton's laws to connected particles, friction, and inclined planes.
+- [Energy and Work](04-energy-and-work) -- The work-energy theorem relates forces and displacement to changes in kinetic energy, linking dynamics to kinematics.
+- [Differentiation](../pure-mathematics/10-differentiation) -- Velocity is the derivative of displacement and acceleration is the derivative of velocity, connecting calculus to motion.

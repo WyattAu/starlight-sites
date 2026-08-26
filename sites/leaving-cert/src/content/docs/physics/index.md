@@ -32,31 +32,31 @@ phenomena.
 
 Kinematics, forces, momentum, energy, circular motion, and gravity.
 
-→ **[Full notes](1-mechanics/1_mechanics.mdx)**
+→ **[Full notes](1-mechanics/1_mechanics)**
 
 ### Light & Waves
 
 Wave properties, refraction, diffraction, interference, sound, and the electromagnetic spectrum.
 
-→ **[Full notes](2-waves/2_waves.md)**
+→ **[Full notes](2-waves/2_waves)**
 
 ### Electricity
 
 Static electricity, circuits, Ohm"s law, electromagnetism, and semiconductor devices.
 
-→ **[Full notes](3-electricity/3_electricity.mdx)**
+→ **[Full notes](3-electricity/3_electricity)**
 
 ### Heat & Thermodynamics
 
 Temperature scales, specific heat, latent heat, gas laws, and thermodynamic processes.
 
-→ **[Full notes](4-heat/4_heat.md)**
+→ **[Full notes](4-heat/4_heat)**
 
 ### Modern Physics
 
 The atom, radioactivity, nuclear energy, the photoelectric effect, and particle physics.
 
-→ **[Full notes](5-modern-physics/5_modern-physics.md)**
+→ **[Full notes](5-modern-physics/5_modern-physics)**
 
 ## Study Tips
 

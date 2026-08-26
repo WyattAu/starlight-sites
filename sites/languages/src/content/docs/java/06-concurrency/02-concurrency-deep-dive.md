@@ -916,6 +916,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../02-fundamentals/01-types-and-variables.md):** Thread-safe variable access using volatile and final.
-- **[Garbage Collection](../09-jvm-internals/03-garbage-collection.md):** GC interaction with concurrent collections and memory visibility.
-- **[Generics](../11-generics-reflection/01-generics.md):** Generic concurrent data structures and type-safe synchronization.
+- **[Types and Variables](../02-fundamentals/01-types-and-variables):** Thread-safe variable access using volatile and final.
+- **[Garbage Collection](../09-jvm-internals/03-garbage-collection):** GC interaction with concurrent collections and memory visibility.
+- **[Generics](../11-generics-reflection/01-generics):** Generic concurrent data structures and type-safe synchronization.

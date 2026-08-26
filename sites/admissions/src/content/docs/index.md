@@ -104,7 +104,7 @@ Each admissions test has its own personality. The MAT is a careful conversation,
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for admissions notes.
-- **[Practice](../../practice-admissions.mdx):** Practice problems for revision.
+- **[Practice](../../practice-admissions):** Practice problems for revision.
 
 ## Common Mistakes
 
@@ -117,3 +117,5 @@ Each admissions test has its own personality. The MAT is a careful conversation,
 4. **Skipping "easy" questions to focus on hard ones.** Many students lose marks on straightforward questions they could have answered correctly, while spending disproportionate time on problems they cannot solve. Securing easy marks first builds confidence and ensures a baseline score before tackling challenging problems.
 
 5. **Not reviewing mistakes from past papers.** Directly checking an answer against the mark scheme is insufficient. You must understand *why* your approach was wrong and what the correct reasoning is. Keeping an error log and revisiting patterns of mistakes is the most effective way to improve.
+
+Keep practising and reviewing to master this topic.

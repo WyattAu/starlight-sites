@@ -115,3 +115,5 @@ Each section includes:
 - **Treating computer science as just coding:** Computer science is about algorithms, abstraction, and problem-solving — coding is the tool, not the discipline. Understanding complexity, formal languages, and systems design distinguishes a computer scientist from a programmer.
 - **Ignoring the mathematical foundations of algorithms:** Algorithm analysis requires understanding recurrences, summations, and probabilistic methods. Without these tools, you cannot reason about why an algorithm is correct or efficient.
 - **Not practising with pen and paper:** Many CS concepts (automata, proofs, graph algorithms) are easier to understand when drawn. Working on paper first helps you see the structure before implementing in code.
+
+Keep practising and reviewing to master this topic.

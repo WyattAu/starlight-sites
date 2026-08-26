@@ -24,7 +24,7 @@ Methodological foundations underlying all historical inquiry. It covers the stru
 Requirements of the IA, source evaluation techniques (OPVL), research methods, historiographical
 Approaches, essay writing, and citation practices.
 
-For an overview of the IA structure within the broader IB History course, see [History](history.md).
+For an overview of the IA structure within the broader IB History course, see [History](history).
 
 ---
 

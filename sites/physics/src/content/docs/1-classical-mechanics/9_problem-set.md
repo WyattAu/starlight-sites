@@ -615,9 +615,9 @@ Classical mechanics is the foundation of physics: it describes how objects move 
 
 ## Cross-References
 
-- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: Many problems here apply the Euler-Lagrange equations and generalised coordinates from the Lagrangian formalism.
-- **[Central Force Problems](6_central-force-problems.mdx)**: The orbital mechanics and scattering problems draw on central force theory and the effective potential.
-- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Phase space analysis and canonical transformations are needed for the more advanced problems in this set.
+- **[Lagrangian Mechanics](3_lagrangian-mechanics)**: Many problems here apply the Euler-Lagrange equations and generalised coordinates from the Lagrangian formalism.
+- **[Central Force Problems](6_central-force-problems)**: The orbital mechanics and scattering problems draw on central force theory and the effective potential.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics)**: Phase space analysis and canonical transformations are needed for the more advanced problems in this set.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

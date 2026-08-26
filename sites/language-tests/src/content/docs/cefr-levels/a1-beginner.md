@@ -130,8 +130,8 @@ See you soon, Marie"
 
 ## Cross-References
 
-- [A2 Elementary](./a2-elementary.md) - Next level
-- [Practice Tests](../practice/practice-a1.md) - Test your knowledge
+- [A2 Elementary](./a2-elementary) - Next level
+- [Practice Tests](../practice/practice-a1) - Test your knowledge
 
 
 ## Advanced Content

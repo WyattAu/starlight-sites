@@ -173,9 +173,9 @@ Cauchy's theorem says the integral of an analytic function around a closed conto
 
 ## Cross-References
 
-- **[Complex Integration](4_complex-integration.md)**: Contour integration provides the foundation for understanding Cauchy's theorem.
-- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula extends Cauchy's theorem to express function values via boundary integrals.
-- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem computes integrals by summing contributions from singularities inside contours.
+- **[Complex Integration](4_complex-integration)**: Contour integration provides the foundation for understanding Cauchy's theorem.
+- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula)**: The integral formula extends Cauchy's theorem to express function values via boundary integrals.
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory)**: The residue theorem computes integrals by summing contributions from singularities inside contours.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -1086,6 +1086,6 @@ public class Example {
 
 ## Cross-References
 
-- **[NIO Deep Dive](./02-nio-deep-dive.md):** Advanced NIO channels, selectors, and non-blocking I/O patterns.
-- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Thread-safe I/O operations and buffer pooling in concurrent contexts.
-- **[Garbage Collection](../09-jvm-internals/03-garbage-collection.md):** Direct buffer management and GC interaction with NIO memory.
+- **[NIO Deep Dive](./02-nio-deep-dive):** Advanced NIO channels, selectors, and non-blocking I/O patterns.
+- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive):** Thread-safe I/O operations and buffer pooling in concurrent contexts.
+- **[Garbage Collection](../09-jvm-internals/03-garbage-collection):** Direct buffer management and GC interaction with NIO memory.

@@ -189,7 +189,7 @@ This is controlled via a preprocessor macro:
 
 **Hazard:** Linking a library built with ABI=0 against an application built with ABI=1 will fail to
 Link because the symbol names for `std::string` are mangled differently. This is explained in
-Further detail in the [Standard Library Implementation](3_standard_library_implementation.md)
+Further detail in the [Standard Library Implementation](3_standard_library_implementation)
 Section.
 
 The root cause is that C++11 prohibited Copy-On-Write semantics for `std::basic_string` [N4950
@@ -704,10 +704,10 @@ When distributing a C++ library that must work across platforms, verify the foll
 
 ## See Also
 
-- [Installing a Compiler](1_installing_compiler.mdx)
-- [Standard Library Implementation](3_standard_library_implementation.md)
-- [Cross-compilation Toolchains](4_crosscompilation_toolchains.md)
-- [Linker Configuration](5_linker_configuration.mdx)
+- [Installing a Compiler](1_installing_compiler)
+- [Standard Library Implementation](3_standard_library_implementation)
+- [Cross-compilation Toolchains](4_crosscompilation_toolchains)
+- [Linker Configuration](5_linker_configuration)
 
 ## Further Reading
 

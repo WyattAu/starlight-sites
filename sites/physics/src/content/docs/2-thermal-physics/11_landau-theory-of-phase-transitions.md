@@ -174,9 +174,9 @@ Landau theory is a mathematical framework for understanding how systems choose b
 
 ## Cross-References
 
-- **[Phase Transitions](10_phase-transitions.md)**: Landau theory provides the phenomenological foundation for the critical exponents and scaling relations discussed in the phase transitions chapter.
-- **[The Ising Model](12_ising-model-and-mean-field-theory.md)**: The Ising model's mean-field solution recovers Landau free energy predictions near the critical point.
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: Landau theory connects the microscopic partition function to macroscopic thermodynamic behaviour through the free energy expansion.
+- **[Phase Transitions](10_phase-transitions)**: Landau theory provides the phenomenological foundation for the critical exponents and scaling relations discussed in the phase transitions chapter.
+- **[The Ising Model](12_ising-model-and-mean-field-theory)**: The Ising model's mean-field solution recovers Landau free energy predictions near the critical point.
+- **[Statistical Mechanics](2_statistical-mechanics)**: Landau theory connects the microscopic partition function to macroscopic thermodynamic behaviour through the free energy expansion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

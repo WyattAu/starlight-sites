@@ -193,9 +193,9 @@ Contour integration exploits the fact that analytic functions have path-independ
 
 ## Cross-References
 
-- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem provides the computational tool for evaluating contour integrals.
-- **[Complex Integration](4_complex-integration.md)**: Contour integration techniques form the foundation for evaluating real integrals.
-- **[Conformal Mappings](10_conformal-mappings.md)**: Conformal mappings can transform difficult integrals into simpler ones that are easier to evaluate.
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory)**: The residue theorem provides the computational tool for evaluating contour integrals.
+- **[Complex Integration](4_complex-integration)**: Contour integration techniques form the foundation for evaluating real integrals.
+- **[Conformal Mappings](10_conformal-mappings)**: Conformal mappings can transform difficult integrals into simpler ones that are easier to evaluate.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

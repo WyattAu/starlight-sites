@@ -125,8 +125,8 @@ You are driving from the UK to France via the Channel Tunnel.
 
 ## Cross-References
 
-- [Vienna Convention Signs](../road-signs/vienna-convention-signs.md) - Road signs
-- [Theory Test](../theory-test/practice-eu-theory.md) - Practice questions
+- [Vienna Convention Signs](../road-signs/vienna-convention-signs) - Road signs
+- [Theory Test](../theory-test/practice-eu-theory) - Practice questions
 
 
 ## Advanced Content

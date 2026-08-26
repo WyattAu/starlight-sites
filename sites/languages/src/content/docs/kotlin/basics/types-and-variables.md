@@ -318,6 +318,6 @@ linked above.
 
 ## Cross-References
 
-- **[Control Flow](./control-flow.md):** If-expressions, when, and loops that use the types defined here.
-- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive.md):** Nullable type specifiers and safe-call operators.
-- **[Kotlin Practice](../practice-kotlin-basics.mdx):** Auto-graded problems testing type system fundamentals.
+- **[Control Flow](./control-flow):** If-expressions, when, and loops that use the types defined here.
+- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive):** Nullable type specifiers and safe-call operators.
+- **[Kotlin Practice](../practice-kotlin-basics):** Auto-graded problems testing type system fundamentals.

@@ -148,8 +148,8 @@ materials and practice tests. Focus on questions John finds difficult.
 
 ## Cross-References
 
-- [Civics Questions](./civics-questions.md) - Practice all 100 questions
-- [Practice Test](./practice-test.md) - Test your knowledge
+- [Civics Questions](./civics-questions) - Practice all 100 questions
+- [Practice Test](./practice-test) - Test your knowledge
 
 
 ## Advanced Content

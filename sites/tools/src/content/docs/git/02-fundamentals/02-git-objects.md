@@ -259,7 +259,7 @@ fields.
 
 An object is **reachable** if there exists a path from at least one reference (branch, tag, HEAD,
 stash, reflog entry) to that object. Unreachable objects are candidates for garbage collection (see
-[Packing and Garbage Collection](../06-internals/02-packing-and-garbage-collection.md)).
+[Packing and Garbage Collection](../06-internals/02-packing-and-garbage-collection)).
 
 ```bash
 # Show all objects reachable from HEAD
@@ -340,7 +340,7 @@ contains the remaining 38 characters as a suffix:
 
 When the number of loose objects exceeds a threshold (configurable via `gc.auto`Default 6700), Git
 packs them into a **packfile** (`.git/objects/pack/pack-<hash>.pack`) with delta compression. See
-[Packing and Garbage Collection](../06-internals/02-packing-and-garbage-collection.md) for details.
+[Packing and Garbage Collection](../06-internals/02-packing-and-garbage-collection) for details.
 
 ## Practical Implications
 
@@ -422,6 +422,6 @@ linked above.
 
 ## Cross-References
 
-- **[References](03-references.md):** Covers Git refs including branches and tags that point to commit objects.
-- **[The Three Trees](01-the-three-trees.md):** Explains the working directory, staging area, and repository where objects are stored.
-- **[Branching](../03-branching-and-merging/01-branching.md):** Branch creation and management that relies on the commit object model.
+- **[References](03-references):** Covers Git refs including branches and tags that point to commit objects.
+- **[The Three Trees](01-the-three-trees):** Explains the working directory, staging area, and repository where objects are stored.
+- **[Branching](../03-branching-and-merging/01-branching):** Branch creation and management that relies on the commit object model.

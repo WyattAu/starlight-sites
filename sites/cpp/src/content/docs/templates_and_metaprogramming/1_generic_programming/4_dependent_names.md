@@ -819,10 +819,10 @@ Dependent names are names that depend on a template parameter, and the compiler 
 
 ## See Also
 
-- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation.md)
-- [Explicit and Partial Specialization](./3_specialization.md)
-- [Explicit Instantiation and Extern Templates](./5_explicit_instantiation.md)
-- [Argument Deduction (Class and Function)](./2_argument_deduction.md)
+- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation)
+- [Explicit and Partial Specialization](./3_specialization)
+- [Explicit Instantiation and Extern Templates](./5_explicit_instantiation)
+- [Argument Deduction (Class and Function)](./2_argument_deduction)
 
 
 ```mermaid

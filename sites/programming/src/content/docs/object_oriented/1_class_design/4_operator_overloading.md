@@ -762,9 +762,9 @@ The built-in comma operator but not for the overloaded version. This is almost a
 
 ## See Also
 
-- [Special Member Function Generation Rules](./3_special_member_functions.md)
-- [The Spaceship Operator](./5_spaceship_operator.md)
-- [Object Layout and the vptr](./1_object_layout_vptr.md)
+- [Special Member Function Generation Rules](./3_special_member_functions)
+- [The Spaceship Operator](./5_spaceship_operator)
+- [Object Layout and the vptr](./1_object_layout_vptr)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

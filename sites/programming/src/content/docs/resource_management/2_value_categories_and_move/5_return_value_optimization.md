@@ -949,8 +949,8 @@ Is correct.
 
 ## See Also
 
-- [Temporary Materialization](3_temporary_materialization.md)
-- [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo.md)
+- [Temporary Materialization](3_temporary_materialization)
+- [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

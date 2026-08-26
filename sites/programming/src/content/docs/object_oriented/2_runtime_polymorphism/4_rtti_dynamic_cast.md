@@ -785,9 +785,9 @@ Type tags.
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables.md)
-- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing.md)
-- [Devirtualization and Final Specifiers](./3_devirtualization.md)
+- [Virtual Functions and vtables](./1_vtables)
+- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
+- [Devirtualization and Final Specifiers](./3_devirtualization)
 
 
 ```mermaid

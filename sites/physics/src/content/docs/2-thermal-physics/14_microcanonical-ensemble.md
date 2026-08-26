@@ -207,9 +207,9 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 
 ## Cross-References
 
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: The canonical ensemble is the fixed-temperature counterpart to the microcanonical ensemble, with equivalent predictions in the thermodynamic limit.
-- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The microcanonical entropy $S = k_B \ln \Omega$ provides the microscopic foundation for the second law of thermodynamics.
-- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
+- **[Statistical Mechanics](2_statistical-mechanics)**: The canonical ensemble is the fixed-temperature counterpart to the microcanonical ensemble, with equivalent predictions in the thermodynamic limit.
+- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics)**: The microcanonical entropy $S = k_B \ln \Omega$ provides the microscopic foundation for the second law of thermodynamics.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

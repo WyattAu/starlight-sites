@@ -417,6 +417,6 @@ linked above.
 
 ## Cross-References
 
-- **[Algorithms](../4-algorithms/4_algorithms.md):** Detailed notes on searching, sorting, and algorithm efficiency.
-- **[Programming](../5-programming/5_programming.md):** Covers programming concepts and pseudocode used in algorithm design.
-- **[Practice Computer Science](../practice-computer-science.mdx):** Interactive practice problems covering algorithms and programming.
+- **[Algorithms](../4-algorithms/4_algorithms):** Detailed notes on searching, sorting, and algorithm efficiency.
+- **[Programming](../5-programming/5_programming):** Covers programming concepts and pseudocode used in algorithm design.
+- **[Practice Computer Science](../practice-computer-science):** Interactive practice problems covering algorithms and programming.

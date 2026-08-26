@@ -314,6 +314,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../basics/types-and-variables.md):** Value types and variable declarations that interact with pointer semantics.
-- **[Networking](./networking.md):** Network buffer management using pointer-based I/O patterns.
-- **[Race Conditions](../concurrency/race-conditions.md):** Synchronization primitives for safe concurrent memory access.
+- **[Types and Variables](../basics/types-and-variables):** Value types and variable declarations that interact with pointer semantics.
+- **[Networking](./networking):** Network buffer management using pointer-based I/O patterns.
+- **[Race Conditions](../concurrency/race-conditions):** Synchronization primitives for safe concurrent memory access.

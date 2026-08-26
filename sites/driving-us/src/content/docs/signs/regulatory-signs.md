@@ -125,9 +125,9 @@ way is clear.
 
 ## Cross-References
 
-- [Traffic Rules](../rules/traffic-rules.md) - Right-of-way and traffic laws
-- [Safe Driving Tips](../safe-driving/safe-driving.md) - Defensive driving
-- [Practice Test](../written-test/practice-test.md) - Test your knowledge
+- [Traffic Rules](../rules/traffic-rules) - Right-of-way and traffic laws
+- [Safe Driving Tips](../safe-driving/safe-driving) - Defensive driving
+- [Practice Test](../written-test/practice-test) - Test your knowledge
 
 
 ## Advanced Content

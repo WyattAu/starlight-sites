@@ -371,6 +371,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../basics/types-and-variables.md):** Nullable type declarations and type inference fundamentals.
-- **[Control Flow](../basics/control-flow.md):** When expressions and null-safe branching patterns.
-- **[Metaprogramming](./metaprogramming.md):** Reflection-based null handling and contract annotations.
+- **[Types and Variables](../basics/types-and-variables):** Nullable type declarations and type inference fundamentals.
+- **[Control Flow](../basics/control-flow):** When expressions and null-safe branching patterns.
+- **[Metaprogramming](./metaprogramming):** Reflection-based null handling and contract annotations.

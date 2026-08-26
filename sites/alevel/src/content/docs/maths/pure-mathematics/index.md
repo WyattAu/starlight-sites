@@ -160,10 +160,10 @@ the next.
 
 ## Cross-References
 
-- [Mechanics Index](../mechanics/index.md) -- Mechanics applies the algebraic, calculus, and vector skills developed in Pure Mathematics to physical problems.
-- [Statistics Index](../statistics/index.md) -- Statistics uses algebraic manipulation, functions, and numerical methods to analyse data and probability.
-- [Further Pure Mathematics 1](further-pure-1.md) -- Extends the core Pure content into complex numbers, matrices, and advanced calculus.
-- [Proof](13-proof.md) -- Proof techniques unify all pure mathematics topics through rigorous logical argument.
+- [Mechanics Index](../mechanics/index) -- Mechanics applies the algebraic, calculus, and vector skills developed in Pure Mathematics to physical problems.
+- [Statistics Index](../statistics/index) -- Statistics uses algebraic manipulation, functions, and numerical methods to analyse data and probability.
+- [Further Pure Mathematics 1](further-pure-1) -- Extends the core Pure content into complex numbers, matrices, and advanced calculus.
+- [Proof](13-proof) -- Proof techniques unify all pure mathematics topics through rigorous logical argument.
 
 ## Common Mistakes
 

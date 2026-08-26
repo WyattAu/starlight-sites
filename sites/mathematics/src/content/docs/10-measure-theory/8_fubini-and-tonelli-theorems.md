@@ -146,9 +146,9 @@ and integration when differentiating under the integral to compute moments.
 
 ## Cross-References
 
-- **[Measurable Functions](./5_measurable-functions.md)**: Provides the measurability framework for functions on product spaces required by Fubini and Tonelli theorems.
-- **[$L^p$ Spaces](./7_l-p-spaces.md)**: The integrability conditions in Fubini's theorem connect to the $L^1$ norm and the broader theory of function spaces.
-- **[Radon-Nikodym Derivative and Lebesgue Decomposition](./9_radon-nikodym-derivative-and-lebesgue-decomposition.md)**: Uses the measure-theoretic foundations that make product measures and iterated integrals well-defined.
+- **[Measurable Functions](./5_measurable-functions)**: Provides the measurability framework for functions on product spaces required by Fubini and Tonelli theorems.
+- **[$L^p$ Spaces](./7_l-p-spaces)**: The integrability conditions in Fubini's theorem connect to the $L^1$ norm and the broader theory of function spaces.
+- **[Radon-Nikodym Derivative and Lebesgue Decomposition](./9_radon-nikodym-derivative-and-lebesgue-decomposition)**: Uses the measure-theoretic foundations that make product measures and iterated integrals well-defined.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

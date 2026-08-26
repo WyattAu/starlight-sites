@@ -146,7 +146,7 @@ Biomolecules are the basis of biochemistry, molecular biology, and medicine. Und
 
 ## Cross-References
 
-- **[Polymers](../polymers/index.md):** Biomolecules are natural polymers — proteins are amino acid polymers, polysaccharides are sugar polymers, and nucleic acids are nucleotide polymers.
-- **[Coordination Compounds](../coordination/index.md):** Metal ions coordinate to biomolecules — hemoglobin (Fe²⁺ with heme), chlorophyll (Mg²⁺ with chlorin), and enzyme active sites often contain coordinated metals.
-- **[Solutions](../solutions/index.md):** Biomolecules dissolve in aqueous solutions, and their osmotic pressure is critical for biological function.
-- **[Surface Chemistry](../surface-chemistry/index.md):** Enzyme-substrate interactions involve surface adsorption, and cell membranes are organized by amphiphilic biomolecules.
+- **[Polymers](../polymers/index):** Biomolecules are natural polymers — proteins are amino acid polymers, polysaccharides are sugar polymers, and nucleic acids are nucleotide polymers.
+- **[Coordination Compounds](../coordination/index):** Metal ions coordinate to biomolecules — hemoglobin (Fe²⁺ with heme), chlorophyll (Mg²⁺ with chlorin), and enzyme active sites often contain coordinated metals.
+- **[Solutions](../solutions/index):** Biomolecules dissolve in aqueous solutions, and their osmotic pressure is critical for biological function.
+- **[Surface Chemistry](../surface-chemistry/index):** Enzyme-substrate interactions involve surface adsorption, and cell membranes are organized by amphiphilic biomolecules.

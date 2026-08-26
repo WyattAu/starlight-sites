@@ -466,6 +466,6 @@ linked above.
 
 ## Cross-References
 
-- **[Goroutines](goroutines.md):** Lightweight threads that can introduce race conditions when accessing shared state.
-- **[Channels](channels.md):** Communication mechanism that helps prevent race conditions through message passing.
-- **[Interfaces](../intermediate/interfaces.md):** Interface design patterns that affect concurrency safety.
+- **[Goroutines](goroutines):** Lightweight threads that can introduce race conditions when accessing shared state.
+- **[Channels](channels):** Communication mechanism that helps prevent race conditions through message passing.
+- **[Interfaces](../intermediate/interfaces):** Interface design patterns that affect concurrency safety.

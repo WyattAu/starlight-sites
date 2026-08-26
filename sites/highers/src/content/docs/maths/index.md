@@ -33,33 +33,33 @@ statistics, assessed through an SQA examination and coursework.
 Functions, notation, domain/range, quadratic functions, composite and inverse functions, graph
 transformations, and polynomial algebra.
 
-→ **[Full notes](1-algebra-functions/1_algebra-functions.mdx)**
+→ **[Full notes](1-algebra-functions/1_algebra-functions)**
 
 ### Trigonometry & Geometry
 
 Trigonometric functions, identities, equations, addition formulae, wave functions, and geometric
 applications.
 
-→ **[Full notes](2-trigonometry/2_trigonometry.md)**
+→ **[Full notes](2-trigonometry/2_trigonometry)**
 
 ### Calculus
 
 Differentiation and integration of polynomial, trigonometric, and exponential functions,
 applications to rates of change and areas.
 
-→ **[Full notes](3-calculus/3_calculus.md)**
+→ **[Full notes](3-calculus/3_calculus)**
 
 ### Vectors & Matrices
 
 Vector components, scalar product, angle between vectors, vector geometry, and matrix operations.
 
-→ **[Full notes](4-vectors/4_vectors.md)**
+→ **[Full notes](4-vectors/4_vectors)**
 
 ### Statistics & Probability
 
 Probability distributions, statistical analysis, data interpretation, and hypothesis testing.
 
-→ **[Full notes](5-statistics/5_statistics.md)**
+→ **[Full notes](5-statistics/5_statistics)**
 
 ## Study Tips
 

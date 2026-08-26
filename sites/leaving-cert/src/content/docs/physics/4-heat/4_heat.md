@@ -956,7 +956,7 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
-- **[Mechanics](../1-mechanics/1_mechanics.mdx):** Covers work, energy, and power concepts that connect to heat transfer and thermodynamic processes.
-- **[Electricity](../3-electricity/3_electricity.mdx):** Explores electrical circuits and energy dissipation, relating to heat generation in resistors.
-- **[Modern Physics](../5-modern-physics/5_modern-physics.md):** Covers nuclear physics and radioactivity, connecting to the energy and temperature concepts in thermodynamics.
-- **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering heat, thermodynamics, and other physics topics.
+- **[Mechanics](../1-mechanics/1_mechanics):** Covers work, energy, and power concepts that connect to heat transfer and thermodynamic processes.
+- **[Electricity](../3-electricity/3_electricity):** Explores electrical circuits and energy dissipation, relating to heat generation in resistors.
+- **[Modern Physics](../5-modern-physics/5_modern-physics):** Covers nuclear physics and radioactivity, connecting to the energy and temperature concepts in thermodynamics.
+- **[Practice Physics](../practice-physics):** Interactive practice problems covering heat, thermodynamics, and other physics topics.

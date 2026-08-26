@@ -118,8 +118,8 @@ intersection. Vehicles on other roads must yield to you.
 
 ## Cross-References
 
-- [Driving Laws](../driving-laws/eu-driving-laws.md) - EU driving regulations
-- [Theory Test](../theory-test/practice-eu-theory.md) - Practice questions
+- [Driving Laws](../driving-laws/eu-driving-laws) - EU driving regulations
+- [Theory Test](../theory-test/practice-eu-theory) - Practice questions
 
 
 ## Advanced Content

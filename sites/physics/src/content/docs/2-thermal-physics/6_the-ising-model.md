@@ -171,9 +171,9 @@ The Ising model is the simplest system showing how local interactions create glo
 
 ## Cross-References
 
-- **[Statistical Mechanics](2_statistical-mechanics.md)**: The Ising model partition function is computed using the same statistical mechanics framework as the canonical ensemble.
-- **[Phase Transitions](10_phase-transitions.md)**: The Ising model exhibits a second-order phase transition with universal critical exponents described by Landau theory.
-- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The Ising model free energy minimisation at equilibrium follows from the second law of thermodynamics.
+- **[Statistical Mechanics](2_statistical-mechanics)**: The Ising model partition function is computed using the same statistical mechanics framework as the canonical ensemble.
+- **[Phase Transitions](10_phase-transitions)**: The Ising model exhibits a second-order phase transition with universal critical exponents described by Landau theory.
+- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics)**: The Ising model free energy minimisation at equilibrium follows from the second law of thermodynamics.
 
 ---
 

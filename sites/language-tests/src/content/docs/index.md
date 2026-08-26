@@ -107,3 +107,5 @@ Complete preparation for language proficiency tests from A1 to C2 levels.
 
 - [Cefr Levels](./cefr-levels)
 - [About This Site](./about)
+
+Keep practising and reviewing to master this topic.

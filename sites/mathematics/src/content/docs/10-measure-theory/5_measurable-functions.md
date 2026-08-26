@@ -142,9 +142,9 @@ $\mu(A_n) \to \mu(A)$. This is continuity from above.
 
 ## Cross-References
 
-- **[Lebesgue Measurable Sets and Non-Measurable Sets](./4_lebesgue-measurable-sets-and-non-measurable-sets.md)**: Establishes the measurable sets upon which the definition of measurable functions depends.
-- **[$L^p$ Spaces](./7_l-p-spaces.md)**: Defines function spaces using measurable functions with finite $p$-norms, directly building on the convergence modes studied here.
-- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems.md)**: Applies measurability of functions on product spaces to justify interchanging the order of integration.
+- **[Lebesgue Measurable Sets and Non-Measurable Sets](./4_lebesgue-measurable-sets-and-non-measurable-sets)**: Establishes the measurable sets upon which the definition of measurable functions depends.
+- **[$L^p$ Spaces](./7_l-p-spaces)**: Defines function spaces using measurable functions with finite $p$-norms, directly building on the convergence modes studied here.
+- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems)**: Applies measurability of functions on product spaces to justify interchanging the order of integration.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

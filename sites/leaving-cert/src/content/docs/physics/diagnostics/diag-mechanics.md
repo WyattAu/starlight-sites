@@ -409,7 +409,7 @@ linked above.
 
 ## Cross-References
 
-- **[Mechanics](../1-mechanics/1_mechanics.mdx):** Full notes on kinematics, forces, energy, and circular motion covered by these diagnostics.
-- **[Light and Waves](../2-waves/2_waves.md):** Covers wave properties and optics, complementing the mechanics content.
-- **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering mechanics and other physics topics.
-- **[Flashcards: Physics](../../flashcards-physics.mdx):** Interactive flashcards for quick revision of key physics concepts.
+- **[Mechanics](../1-mechanics/1_mechanics):** Full notes on kinematics, forces, energy, and circular motion covered by these diagnostics.
+- **[Light and Waves](../2-waves/2_waves):** Covers wave properties and optics, complementing the mechanics content.
+- **[Practice Physics](../practice-physics):** Interactive practice problems covering mechanics and other physics topics.
+- **[Flashcards: Physics](../../flashcards-physics):** Interactive flashcards for quick revision of key physics concepts.

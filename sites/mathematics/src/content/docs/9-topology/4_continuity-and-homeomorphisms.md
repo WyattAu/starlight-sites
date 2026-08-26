@@ -182,6 +182,6 @@ flowchart TD
 
 ## Cross-References
 
-- **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the foundation for defining continuity and homeomorphisms.
-- **[Compactness](5_compactness.md)**: Compactness is preserved by continuous functions and characterizes spaces where extreme value theorem holds.
-- **[Connectedness](6_connectedness.md)**: Connectedness is a topological invariant preserved by homeomorphisms and continuous images.
+- **[Topological Spaces](2_topological-spaces)**: Topological spaces provide the foundation for defining continuity and homeomorphisms.
+- **[Compactness](5_compactness)**: Compactness is preserved by continuous functions and characterizes spaces where extreme value theorem holds.
+- **[Connectedness](6_connectedness)**: Connectedness is a topological invariant preserved by homeomorphisms and continuous images.

@@ -118,7 +118,7 @@ Entropy is a quantitative thermodynamic quantity measured in $\text{J K}^{-1}$, 
 
 - **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that build on physical chemistry principles.
 - **[Inorganic Chemistry](../3-inorganic-chemistry/):** Explores coordination chemistry and solid-state chemistry that use thermodynamic and kinetic concepts.
-- **[Chemical Kinetics](chemical-kinetics.md):** Detailed notes on reaction rates, rate laws, and activation energy.
+- **[Chemical Kinetics](chemical-kinetics):** Detailed notes on reaction rates, rate laws, and activation energy.
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

@@ -169,6 +169,6 @@ Number theory is the study of whole numbers and their hidden patterns. The integ
 
 ## Cross-References
 
-- **[Groups](1-abstract-algebra/1_groups.md)**: The integers under addition form a group, and modular arithmetic arises from quotient groups.
-- **[Rings](1-abstract-algebra/8_rings.md)**: The integers form a Euclidean domain, and polynomial rings share analogous factorisation properties.
-- **[Field Theory](1-abstract-algebra/12_field-theory.md)**: Finite fields are constructed from prime powers, and field extensions underpin algebraic number theory.
+- **[Groups](1-abstract-algebra/1_groups)**: The integers under addition form a group, and modular arithmetic arises from quotient groups.
+- **[Rings](1-abstract-algebra/8_rings)**: The integers form a Euclidean domain, and polynomial rings share analogous factorisation properties.
+- **[Field Theory](1-abstract-algebra/12_field-theory)**: Finite fields are constructed from prime powers, and field extensions underpin algebraic number theory.

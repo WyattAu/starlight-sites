@@ -784,10 +784,10 @@ export template class DataBuffer<double>;
 
 ## See Also
 
-- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation.md)
-- [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
-- [Template Argument Deduction and CTAD](./2_argument_deduction.md)
-- [SFINAE and Partial Specialization](./3_specialization.md)
+- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation)
+- [Dependent Names and Two-Phase Lookup](./4_dependent_names)
+- [Template Argument Deduction and CTAD](./2_argument_deduction)
+- [SFINAE and Partial Specialization](./3_specialization)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

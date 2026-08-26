@@ -716,7 +716,7 @@ c.c = 3  # AttributeError
 
 The Global Interpreter Lock is a mutex that protects access to CPython's internal state. Only the
 Thread holding the GIL can execute Python bytecode or manipulate Python objects. See
-[the async chapter](../06-async/01-async-await.md) for a detailed treatment of the concurrency
+[the async chapter](../06-async/01-async-await) for a detailed treatment of the concurrency
 Implications. This section focuses on the implementation details.
 
 ### How the GIL Is Implemented

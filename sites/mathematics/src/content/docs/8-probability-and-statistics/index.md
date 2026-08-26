@@ -46,11 +46,11 @@ tags:
 
 ## Contents
 
-1. [Probability Spaces](1_probability-spaces.md)
-2. [Random Variables](2_random-variables.md)
-3. [Joint Distributions and Independence](3_joint-distributions-and-independence.md)
-4. [Limit Theorems](4_limit-theorems.md)
-5. [Transformations and Convolutions](5_transformations-and-convolutions.md)
+1. [Probability Spaces](1_probability-spaces)
+2. [Random Variables](2_random-variables)
+3. [Joint Distributions and Independence](3_joint-distributions-and-independence)
+4. [Limit Theorems](4_limit-theorems)
+5. [Transformations and Convolutions](5_transformations-and-convolutions)
 
 ## Overview
 
@@ -116,3 +116,5 @@ The law of large numbers says the sample mean converges to the population mean a
 
 **Mistake 3: Misapplying Bayes' theorem by ignoring the prior**
 Bayes' theorem requires a prior probability distribution, not just the likelihood. Students often compute $P(A|B) = P(B|A)P(A)/P(B)$ but forget to specify or update the prior $P(A)$. Without a well-defined prior, Bayesian inference reduces to computing conditional probabilities rather than performing full posterior updates.
+
+Keep practising and reviewing to master this topic.

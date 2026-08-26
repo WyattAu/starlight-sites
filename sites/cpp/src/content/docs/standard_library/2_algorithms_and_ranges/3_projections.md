@@ -563,10 +563,10 @@ int main() {
 
 ## See Also
 
-- [Iterator-Sentinel Model](./1_iterator_sentinel.md)
-- [Range Adaptors, Views, Composition](./2_range_adaptors.md)
-- [Range Materialization](./4_range_materialization.md)
-- [Parallel Algorithms](./5_parallel_algorithms.md)
+- [Iterator-Sentinel Model](./1_iterator_sentinel)
+- [Range Adaptors, Views, Composition](./2_range_adaptors)
+- [Range Materialization](./4_range_materialization)
+- [Parallel Algorithms](./5_parallel_algorithms)
 
 
 ```mermaid

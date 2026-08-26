@@ -139,10 +139,10 @@ $$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
 
 ## Cross-References
 
-- **[Atoms and Nuclei](../atoms-nuclei/index.md):** The Bohr model uses quantized energy levels that connect directly to photon energies — dual nature extends this to matter waves.
-- **[Electrostatics](../electrostatics/index.md):** The photoelectric effect involves electric fields stopping photoelectrons, connecting wave-particle duality to electrostatics.
-- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index.md):** Photochemical reactions are driven by photon absorption — the same photoelectric principle applied to chemistry.
-- **[Derivatives (Mathematics)](../../mathematics/derivatives/index.md):** The photoelectric equation and de Broglie wavelength involve functions that connect to calculus concepts.
+- **[Atoms and Nuclei](../atoms-nuclei/index):** The Bohr model uses quantized energy levels that connect directly to photon energies — dual nature extends this to matter waves.
+- **[Electrostatics](../electrostatics/index):** The photoelectric effect involves electric fields stopping photoelectrons, connecting wave-particle duality to electrostatics.
+- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index):** Photochemical reactions are driven by photon absorption — the same photoelectric principle applied to chemistry.
+- **[Derivatives (Mathematics)](../../mathematics/derivatives/index):** The photoelectric equation and de Broglie wavelength involve functions that connect to calculus concepts.
 
 ## Practice Problems
 

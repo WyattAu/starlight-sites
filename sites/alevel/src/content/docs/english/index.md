@@ -163,4 +163,4 @@ Check your exam board's specification for the exact set texts. Common set texts 
 
 - **[Poetry](../english/2-poetry/1_poetry-analysis):** Poetry is a major form in English literature
 - **[Literary Terms](../english/flashcards-literary-terms):** Literary analysis develops through study
-- **[Practice](../english/practice-literary-analysis.mdx):** Practice builds analytical skills
+- **[Practice](../english/practice-literary-analysis):** Practice builds analytical skills

@@ -176,7 +176,7 @@ flowchart TD
 
 - **[Closed Sets, Closure, Interior, and Boundary](3_closed-sets-closure-interior-and-boundary)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.
 - **[Separation Axioms](8_separation-axioms)**: Every metric space is Hausdorff and normal, placing it high in the separation axiom hierarchy.
-- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
 - **[Introduction to Algebraic Topology](9_introduction-to-algebraic-topology)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

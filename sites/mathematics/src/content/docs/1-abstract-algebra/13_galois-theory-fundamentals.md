@@ -148,7 +148,7 @@ flowchart TD
 
 ## Cross-References
 
-- **[Additional Results](./14_additional-results.md)**: Extends the group theory toolkit with Cauchy's theorem and the structure theorem for abelian groups, which underpin the classification of Galois groups.
+- **[Additional Results](./14_additional-results)**: Extends the group theory toolkit with Cauchy's theorem and the structure theorem for abelian groups, which underpin the classification of Galois groups.
 
 ## Intuition
 

@@ -178,9 +178,9 @@ The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occ
 
 ## Cross-References
 
-- **[Diffraction](./4_diffraction.md)**: Provides the physical foundation for Fraunhofer diffraction through the Huygens-Fresnel principle and Kirchhoff integral.
-- **[Fourier Optics](./7_fourier-optics.md)**: Develops the 4f imaging system, optical transfer function, and spatial filtering applications that build on the Fourier transform framework.
-- **[Coherence](./15_coherence-theory.md)**: The coherence properties of the source determine whether the Fourier transform relationship between aperture and far-field pattern is valid.
+- **[Diffraction](./4_diffraction)**: Provides the physical foundation for Fraunhofer diffraction through the Huygens-Fresnel principle and Kirchhoff integral.
+- **[Fourier Optics](./7_fourier-optics)**: Develops the 4f imaging system, optical transfer function, and spatial filtering applications that build on the Fourier transform framework.
+- **[Coherence](./15_coherence-theory)**: The coherence properties of the source determine whether the Fourier transform relationship between aperture and far-field pattern is valid.
 
 
 ```mermaid

@@ -331,9 +331,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Matrices](3_matrices.md)**: The coefficient matrix of a linear system determines its solvability via rank and determinant.
-- **[Linear Transformations](6_linear-transformations.mdx)**: A system $A\mathbf{x} = \mathbf{b}$ can be viewed as finding the preimage of $\mathbf{b}$ under the linear transformation defined by $A$.
-- **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The pseudoinverse derived from the SVD provides the minimum-norm least squares solution to inconsistent systems.
+- **[Matrices](3_matrices)**: The coefficient matrix of a linear system determines its solvability via rank and determinant.
+- **[Linear Transformations](6_linear-transformations)**: A system $A\mathbf{x} = \mathbf{b}$ can be viewed as finding the preimage of $\mathbf{b}$ under the linear transformation defined by $A$.
+- **[Singular Value Decomposition](8_singular-value-decomposition)**: The pseudoinverse derived from the SVD provides the minimum-norm least squares solution to inconsistent systems.
 
 ---
 

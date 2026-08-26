@@ -922,7 +922,7 @@ linked above.
 
 ## Cross-References
 
-- **[Control Flow](./02-control-flow.md):** If-else, switch, and loop constructs that use the types defined here.
+- **[Control Flow](./02-control-flow):** If-else, switch, and loop constructs that use the types defined here.
 - **[Concurrency Deep Dive](../../../../../../java/src/content/docs/06-concurrency/02-concurrency-deep-dive):** Thread-safe variable access and synchronization patterns.
 - **[Generics](../../../../../../kotlin/src/content/docs/intermediate/generics):** Type parameterization extending the basic type system.
 :::

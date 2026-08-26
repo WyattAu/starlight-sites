@@ -258,4 +258,4 @@ flowchart TD
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for tuning notes.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.

@@ -1009,7 +1009,7 @@ Of the parsing process.
 ## itertools Consumption Patterns
 
 For a full reference to the `itertools` module, see
-[Essential Modules](../05-standard-library/01-essential-modules.md).
+[Essential Modules](../05-standard-library/01-essential-modules).
 
 ### Built-in Consumers
 
@@ -1373,7 +1373,7 @@ In a `with` statement ensures cleanup happens at the right time regardless of ho
 Consumed.
 
 For more on `contextlib.contextmanager`See
-[Essential Modules](../05-standard-library/01-essential-modules.md).
+[Essential Modules](../05-standard-library/01-essential-modules).
 
 ```mermaid
 flowchart TD

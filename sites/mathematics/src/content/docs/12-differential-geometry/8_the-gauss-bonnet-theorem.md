@@ -145,9 +145,9 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 
 ## Cross-References
 
-- **[Curvature](./7_curvature.md)**: Defines the Gaussian curvature whose integral appears in the Gauss-Bonnet formula, along with the Riemann tensor that generalises it to higher dimensions.
-- **[Applications](./9_applications.md)**: Uses the Gauss-Bonnet theorem to explain cartographic constraints and as a special case of the Atiyah-Singer index theorem.
-- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles.md)**: Provides the tangent bundle structure needed to define curvature and geodesics on surfaces.
+- **[Curvature](./7_curvature)**: Defines the Gaussian curvature whose integral appears in the Gauss-Bonnet formula, along with the Riemann tensor that generalises it to higher dimensions.
+- **[Applications](./9_applications)**: Uses the Gauss-Bonnet theorem to explain cartographic constraints and as a special case of the Atiyah-Singer index theorem.
+- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles)**: Provides the tangent bundle structure needed to define curvature and geodesics on surfaces.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

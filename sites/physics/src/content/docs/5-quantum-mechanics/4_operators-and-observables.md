@@ -225,9 +225,9 @@ Quantum operators are the machinery that extracts measurable information from a 
 
 ## Cross-References
 
-- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates establish that observables are represented by Hermitian operators.
-- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: Wave functions are the state vectors that operators act upon to extract physical information.
-- **[Spin](7_spin.md)**: Spin operators illustrate the algebraic properties of angular momentum in quantum mechanics.
+- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics)**: The postulates establish that observables are represented by Hermitian operators.
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation)**: Wave functions are the state vectors that operators act upon to extract physical information.
+- **[Spin](7_spin)**: Spin operators illustrate the algebraic properties of angular momentum in quantum mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -799,9 +799,9 @@ int main() {
 
 ## See Also
 
-- [Algebraic Error Handling — std::optional and std::variant](4_optional_variant.md)
-- [The noexcept Specifier](3_noexcept.md)
-- [Exception Safety Guarantees](2_exception_safety.md)
+- [Algebraic Error Handling — std::optional and std::variant](4_optional_variant)
+- [The noexcept Specifier](3_noexcept)
+- [Exception Safety Guarantees](2_exception_safety)
 
 ```mermaid
 flowchart TD

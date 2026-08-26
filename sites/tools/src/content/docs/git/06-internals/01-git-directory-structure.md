@@ -140,7 +140,7 @@ tracked):
 ## The Object Store (`.git/objects/`)
 
 The object store is the content-addressable filesystem at the core of Git. It contains four types of
-objects: blobs, trees, commits, and tags. See [Git Objects](../02-fundamentals/02-git-objects.md)
+objects: blobs, trees, commits, and tags. See [Git Objects](../02-fundamentals/02-git-objects)
 for the full treatment.
 
 ### Loose Objects
@@ -186,7 +186,7 @@ The pack format stores objects more efficiently than loose objects by:
 2. **Single file**: All objects in one file, reducing filesystem overhead.
 3. **Index file**: A binary index (.idx) enables $O(1)$ object lookup by SHA-1.
 
-See [Packing and Garbage Collection](./02-packing-and-garbage-collection.md) for details.
+See [Packing and Garbage Collection](./02-packing-and-garbage-collection) for details.
 
 ## The Hooks Directory (`.git/hooks/`)
 
@@ -239,7 +239,7 @@ hooks in the repository) or a symlink to a tracked scripts directory.
 
 ## The Refs Directory (`.git/refs/`)
 
-See [References](../02-fundamentals/03-references.md) for the full treatment. In summary:
+See [References](../02-fundamentals/03-references) for the full treatment. In summary:
 
 - `.git/refs/heads/` — branch references
 - `.git/refs/tags/` — tag references

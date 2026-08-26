@@ -292,9 +292,9 @@ Diffraction arises because every point on a wavefront acts as a new source of sp
 
 ## Cross-References
 
-- **[Fourier Optics](./7_fourier-optics.md)**: Formalises the Fourier transform relationship between aperture functions and far-field diffraction patterns introduced in the Fraunhofer limit.
-- **[Coherence](./8_coherence.md)**: The visibility and formation of diffraction fringes depend on the temporal and spatial coherence of the source.
-- **[Fresnel Equations](./10_fresnel-equations.md)**: Determines the amplitude and phase of reflected and transmitted waves at boundaries, affecting diffraction from layered structures.
+- **[Fourier Optics](./7_fourier-optics)**: Formalises the Fourier transform relationship between aperture functions and far-field diffraction patterns introduced in the Fraunhofer limit.
+- **[Coherence](./8_coherence)**: The visibility and formation of diffraction fringes depend on the temporal and spatial coherence of the source.
+- **[Fresnel Equations](./10_fresnel-equations)**: Determines the amplitude and phase of reflected and transmitted waves at boundaries, affecting diffraction from layered structures.
 
 ## Common Mistakes
 

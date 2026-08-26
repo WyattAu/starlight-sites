@@ -956,7 +956,7 @@ $$
 
 ## Cross-References
 
-- [Sequences and Series](06-sequences-and-series.md) -- Binomial expansions for negative or fractional powers produce infinite series, directly linking to convergence of series.
-- [Proof](13-proof.md) -- The binomial theorem is proved by induction, and binomial coefficient identities appear frequently in proof questions.
-- [Differentiation](10-differentiation.mdx) -- The derivative of $x^n$ is proved using the binomial theorem applied to $(x+h)^n$.
-- [Integration](11-integration.mdx) -- Binomial expansions are used to integrate functions that cannot be handled by standard rules.
+- [Sequences and Series](06-sequences-and-series) -- Binomial expansions for negative or fractional powers produce infinite series, directly linking to convergence of series.
+- [Proof](13-proof) -- The binomial theorem is proved by induction, and binomial coefficient identities appear frequently in proof questions.
+- [Differentiation](10-differentiation) -- The derivative of $x^n$ is proved using the binomial theorem applied to $(x+h)^n$.
+- [Integration](11-integration) -- Binomial expansions are used to integrate functions that cannot be handled by standard rules.

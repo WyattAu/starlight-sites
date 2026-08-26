@@ -203,8 +203,8 @@ int main() {
 
 ## See Also
 
-- [The noexcept Specifier](3_noexcept.md)
-- [Monadic Error Handling — std::expected](5_expected.md)
+- [The noexcept Specifier](3_noexcept)
+- [Monadic Error Handling — std::expected](5_expected)
 
 ## 4.5 `std::optional` API Deep Dive
 

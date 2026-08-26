@@ -193,9 +193,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Differential Forms](4_differential-forms.md)**: Differential forms are sections of exterior powers of the cotangent bundle on a smooth manifold.
-- **[Riemannian Geometry](5_riemannian-geometry.md)**: A Riemannian metric assigns an inner product to each tangent space of a smooth manifold.
-- **[Vector Fields and Flows](3_vector-fields-and-flows.md)**: Vector fields assign a tangent vector to each point of a manifold and generate flows via integral curves.
+- **[Differential Forms](4_differential-forms)**: Differential forms are sections of exterior powers of the cotangent bundle on a smooth manifold.
+- **[Riemannian Geometry](5_riemannian-geometry)**: A Riemannian metric assigns an inner product to each tangent space of a smooth manifold.
+- **[Vector Fields and Flows](3_vector-fields-and-flows)**: Vector fields assign a tangent vector to each point of a manifold and generate flows via integral curves.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

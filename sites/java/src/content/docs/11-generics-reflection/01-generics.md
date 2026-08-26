@@ -949,4 +949,4 @@ linked above.
 - **[Site Home](../../):** Main landing page for Java notes.
 - **[Java Basics](../flashcards-java-basics):** Fundamental Java concepts including types and control flow.
 - **[Concurrency](../06-concurrency/01-concurrency):** Multithreading and concurrent programming.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.

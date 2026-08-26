@@ -471,8 +471,8 @@ linked above.
 
 ## Cross-References
 
-- **[Error Handling](../08-error-handling.md):** Try-catch patterns for Future errors and zone error handlers.
-- **[Entry Point](../03-basics/01-entrypoint.md):** How the event loop initializes from `main()`.
-- **[Variables](../03-basics/02-variables.md):** Nullable and late variables in asynchronous code.
-- **[Best Practices](../04-best-practices.md):** Recommended patterns for async/await and isolate usage.
+- **[Error Handling](../08-error-handling):** Try-catch patterns for Future errors and zone error handlers.
+- **[Entry Point](../03-basics/01-entrypoint):** How the event loop initializes from `main()`.
+- **[Variables](../03-basics/02-variables):** Nullable and late variables in asynchronous code.
+- **[Best Practices](../04-best-practices):** Recommended patterns for async/await and isolate usage.
 :::

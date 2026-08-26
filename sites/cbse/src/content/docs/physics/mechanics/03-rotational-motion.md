@@ -184,7 +184,7 @@ Angular momentum is conserved only when the net external torque is zero. Student
 - **[Site Home](../../):** Main landing page for CBSE notes.
 - **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
 - **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
-- **[Practice](../../practice-*.mdx):** Practice problems for revision.
+- **[Practice](../../practice-*):** Practice problems for revision.
 
 
 ## Advanced Content
