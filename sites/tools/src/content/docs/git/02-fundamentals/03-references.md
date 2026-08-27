@@ -1,7 +1,7 @@
 ---
 
 title: "References | Tools - Wyatt's Notes"
-description: "Comprehensive study notes for References with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for References with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T01:00:00.000Z
 tags:
   - git

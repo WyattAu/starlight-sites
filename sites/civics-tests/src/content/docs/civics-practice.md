@@ -1,6 +1,6 @@
 ---
 title: "Civics Practice | Civics Tests - Wyatt's Notes"
-description: "Comprehensive civics practice study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Civics Practice with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Civics Practice

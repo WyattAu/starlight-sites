@@ -1,6 +1,6 @@
 ---
 title: "Amendments | Civics Tests - Wyatt's Notes"
-description: "Comprehensive amendments study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Amendments with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Amendments

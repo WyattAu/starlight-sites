@@ -6,7 +6,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "Comprehensive study notes for reading and writing practice with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for reading and writing practice with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

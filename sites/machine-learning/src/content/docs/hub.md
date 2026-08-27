@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Fundamentals Study Guide"
-description: "Comprehensive machine learning study guide covering supervised learning, unsupervised learning, neural networks, deep learning, model evaluation, and advanced topics. Practical guides with mathematical foundations and implementation examples."
+description: "Study notes for Machine Learning Fundamentals Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - machine-learning

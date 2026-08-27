@@ -4,7 +4,7 @@ sources:
 title: "Thermal Physics | DSE - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 4 thermal physics study notes for dse with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers thermal physics concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

@@ -1,6 +1,6 @@
 ---
 title: "Complete Elixir Programming Study Guide"
-description: "Comprehensive Elixir programming study guide covering functional concurrency, the Phoenix framework, OTP, processes, and distributed systems with practical examples."
+description: "Study notes for Complete Elixir Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - elixir

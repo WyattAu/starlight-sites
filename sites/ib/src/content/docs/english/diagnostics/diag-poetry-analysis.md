@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Poetry Analysis"
-description: "Comprehensive study notes for Diagnostic Test: Poetry Analysis with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for ib Diagnostic Test: Poetry Analysis covering key concepts, worked examples, and practice problems for exam preparation."
 sidebar_position: 30
 ---
 

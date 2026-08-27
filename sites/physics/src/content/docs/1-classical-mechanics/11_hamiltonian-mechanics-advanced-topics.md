@@ -19,7 +19,7 @@ sources:
   - University
 sources:
   - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
-description: "Comprehensive study notes for Hamiltonian Mechanics: Advanced Topics with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Hamiltonian Mechanics: Advanced Topics with worked examples, practice problems, and key concepts for exam preparation."
 sources:
   - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 ---

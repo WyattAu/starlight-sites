@@ -1,6 +1,6 @@
 ---
 title: "Complete Dart/Flutter Programming Study Guide"
-description: "Comprehensive Dart and Flutter programming study guide covering Dart language features, Flutter framework, widget system, state management, and cross-platform development with practical examples."
+description: "Study notes for Complete Dart/Flutter Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - dart

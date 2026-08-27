@@ -5,7 +5,7 @@ title: Lebesgue Outer Measure and Caratheodory Extension
 tags:
   - Mathematics
   - University
-description: "Comprehensive study notes for Lebesgue Outer Measure and Caratheodory Extension with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Lebesgue Outer Measure and Caratheodory Extension with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,6 +1,6 @@
 ---
 title: "Complete Kotlin Programming Study Guide"
-description: "Comprehensive Kotlin programming study guide covering language fundamentals, null safety, coroutines, Android development, Spring Boot, and multiplatform projects with practical examples."
+description: "Study notes for Complete Kotlin Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - kotlin

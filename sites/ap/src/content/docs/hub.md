@@ -1,6 +1,6 @@
 ---
 title: "Complete AP Course Guide — All Subjects"
-description: "Comprehensive hub for every AP course: Biology, Chemistry, Computer Science, English, History, Maths, Physics, and Statistics. Study guides, exam strategies, and practice resources."
+description: "Study notes for Complete AP Course Guide — All Subjects with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - study-guide

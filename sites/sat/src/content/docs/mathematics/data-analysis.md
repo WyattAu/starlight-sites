@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Data analysis | SAT - Wyatt's Notes"
-description: "Comprehensive study notes for Data analysis with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Data analysis with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

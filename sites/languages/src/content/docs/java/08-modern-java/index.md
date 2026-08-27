@@ -4,7 +4,7 @@ sources:
 title: "Modern Java | Languages - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 08 modern java study notes for languages with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers modern java concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

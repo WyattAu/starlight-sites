@@ -1,7 +1,7 @@
 ---
 
 title: "Thread-Local Storage (TLS) | C++"
-description: "This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical"
+description: "Study notes for Thread-Local Storage (TLS) with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

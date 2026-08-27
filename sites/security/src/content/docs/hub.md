@@ -1,6 +1,6 @@
 ---
 title: "Complete Cybersecurity Study Guide"
-description: "Comprehensive cybersecurity study guide covering security fundamentals, cryptography, authentication, web security, network security, incident response, cloud security, OS security, malware analysis, and penetration testing. From foundations to advanced topics with practical examples."
+description: "Study notes for Complete Cybersecurity Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - security

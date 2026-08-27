@@ -1,6 +1,6 @@
 ---
 title: "Software Licenses | Licensing - Wyatt's Notes"
-description: "Comprehensive software licenses study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Software Licenses with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Software Licenses

@@ -4,7 +4,7 @@ sources:
 title: "Diagnostics | Mathematics - Wyatt's Notes"
 sources:
   - text: Spivak - Calculus
-description: "Comprehensive diagnostic test notes for MATHEMATICS covering key concepts and practice problems."
+description: "Diagnostic test notes for mathematics Diagnostics covering key concepts, worked examples, and practice problems for exam preparation."
 sources:
   - text: Spivak - Calculus
 date: 2026-01-01T00:00:00Z

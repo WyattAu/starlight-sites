@@ -1,7 +1,7 @@
 ---
 
 title: "Barriers to Growth | IB - Wyatt's Notes"
-description: "Comprehensive study notes for Barriers to Growth with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Barriers to Growth with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

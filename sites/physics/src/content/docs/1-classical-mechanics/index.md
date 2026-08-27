@@ -64,6 +64,14 @@ sources:
 
 ## Classical Mechanics
 
+```mermaid
+graph TD
+    A[Newton's Laws] --> B[Force Analysis]
+    B --> C[Motion Equations]
+    C --> D[Energy Methods]
+```
+
+
 ## Contents
 
 1. [Newtonian Mechanics Review](1_newtonian-mechanics-review)

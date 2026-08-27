@@ -1,6 +1,6 @@
 ---
 title: "Immigration Process | Civics Tests - Wyatt's Notes"
-description: "Comprehensive immigration process study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Immigration Process with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Immigration Process

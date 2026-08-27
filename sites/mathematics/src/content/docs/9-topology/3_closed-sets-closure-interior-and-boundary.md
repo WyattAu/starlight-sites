@@ -4,7 +4,7 @@ date: 2026-07-23T21:57:32+01:00
 title: Closed Sets, Closure, Interior, and Boundary
 tags:
   - University Maths
-description: 'Comprehensive educational content notes on closed sets, closure, interior, and boundary with precise definitions, worked examples, and common pitfalls.'
+description: "Study notes for Closed Sets, Closure, Interior, and Boundary with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

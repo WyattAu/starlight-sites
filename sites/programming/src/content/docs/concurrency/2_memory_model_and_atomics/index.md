@@ -4,7 +4,7 @@ sources:
 title: "2_memory_model_and_atomics | Programming"
 sources:
   - text: McConnell - Code Complete
-description: "Comprehensive 2_memory_model_and_atomics study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers 2_memory_model_and_atomics concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z

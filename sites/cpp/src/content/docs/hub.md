@@ -1,6 +1,6 @@
 ---
 title: "Complete C++ Programming Study Guide"
-description: "Comprehensive C++ programming study guide covering types, resource management, object-oriented programming, templates, standard library, concurrency, and function architecture. Modern C++ (C++20/23) with practical examples."
+description: "Study notes for Complete C++ Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - c++

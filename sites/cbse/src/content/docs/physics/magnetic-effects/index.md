@@ -13,7 +13,7 @@ sources:
 title: "Magnetic Effects of Current and Magnetism"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Magnetic Effects of Current and Magnetism with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers magnetic effects of current and magnetism concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

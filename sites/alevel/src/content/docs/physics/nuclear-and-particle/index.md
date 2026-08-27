@@ -4,7 +4,7 @@ sources:
 title: "Nuclear And Particle | A-Level"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive nuclear and particle study notes for alevel with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers nuclear and particle concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

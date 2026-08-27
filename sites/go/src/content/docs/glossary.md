@@ -1,6 +1,6 @@
 ---
 title: "Go Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Go programming concepts, including goroutines, channels, interfaces, slices, error handling, and the Go toolchain."
+description: "Study notes for Go Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

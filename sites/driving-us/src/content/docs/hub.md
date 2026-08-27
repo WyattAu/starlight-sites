@@ -1,6 +1,6 @@
 ---
 title: "Complete US DMV Driving Test Study Guide"
-description: "Comprehensive US DMV driving test study guide covering the written knowledge test, road signs, state-specific rules, and driving techniques. Topic notes, practice questions, flashcards, and state-specific preparation."
+description: "Study notes for Complete US DMV Driving Test Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - driving-us

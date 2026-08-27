@@ -1,6 +1,6 @@
 ---
 title: "Complete IB Study Guide — All Subjects & Papers"
-description: "Comprehensive IB Diploma Programme study guide covering Biology, Chemistry, Physics, Mathematics, Computer Science, Economics, Geography, History, English, and Psychology. Topic notes, flashcards, practice questions, and diagnostics."
+description: "Study notes for Complete IB Study Guide — All Subjects & Papers with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - ib

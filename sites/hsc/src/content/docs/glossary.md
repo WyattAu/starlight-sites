@@ -1,6 +1,6 @@
 ---
 title: "HSC Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of NSW HSC terms covering the Higher School Certificate, ATAR, assessment, and university admissions in Australia."
+description: "Study notes for HSC Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

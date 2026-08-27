@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Mathematics | HSC"
-description: "Comprehensive study notes for Diagnostic Test: Mathematics with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for hsc Diagnostic Test: Mathematics covering key concepts, worked examples, and practice problems for exam preparation."
 sidebar_position: 60
 tableOfContents: false
 ---

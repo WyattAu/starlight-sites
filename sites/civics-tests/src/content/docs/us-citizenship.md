@@ -1,6 +1,6 @@
 ---
 title: "Us Citizenship | Civics Tests - Wyatt's Notes"
-description: "Comprehensive us citizenship study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Us Citizenship with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Us Citizenship

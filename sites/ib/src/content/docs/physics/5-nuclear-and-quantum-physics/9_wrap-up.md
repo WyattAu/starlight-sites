@@ -1,7 +1,7 @@
 ---
 
 title: "Wrap Up | IB - Wyatt's Notes"
-description: "Comprehensive IB physics notes on Wrap Up key concepts and principles. Covers key definitions, worked examples, and practice problems for revision."
+description: "Study notes for Wrap Up with worked examples, practice problems, and key concepts for exam preparation."
 date: 2024-01-01T00:00:00Z
 tags:
   - physics

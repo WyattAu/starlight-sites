@@ -1,7 +1,7 @@
 ---
 
 title: "AP Biology Study Guide - Wyatt's Notes"
-description: "Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four"
+description: "Study notes for AP Biology Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-31
 tags:
   - ap

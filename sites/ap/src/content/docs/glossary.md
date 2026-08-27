@@ -1,6 +1,6 @@
 ---
 title: "AP Exam Glossary — Key Terms Across All Subjects"
-description: "Comprehensive glossary of key terms for AP exams across all subjects, including AP Biology, Chemistry, Physics, History, English, and more."
+description: "Study notes for AP Exam Glossary — Key Terms Across All Subjects with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

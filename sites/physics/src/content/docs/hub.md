@@ -1,6 +1,6 @@
 ---
 title: "Complete University Physics Study Guide"
-description: "Comprehensive university physics study guide covering Classical Mechanics, Thermal Physics, Electromagnetism, Optics, Quantum Mechanics, Solid State Physics, and Particle Physics. Derivations, problem sets, and advanced topics."
+description: "Study notes for Complete University Physics Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - physics

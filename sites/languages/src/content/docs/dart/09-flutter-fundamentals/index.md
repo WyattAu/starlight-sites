@@ -4,7 +4,7 @@ sources:
 title: "Flutter Fundamentals | Languages"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 09 flutter fundamentals study notes for languages with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers flutter fundamentals concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

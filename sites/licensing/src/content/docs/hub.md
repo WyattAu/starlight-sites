@@ -1,6 +1,6 @@
 ---
 title: "Software Licensing Guide — GPL, MIT, Apache, BSD"
-description: "Comprehensive software licensing guide covering open-source licenses (GPL, MIT, Apache, BSD), proprietary licenses, copyleft vs permissive, license compatibility, and compliance. Practical guidance for developers choosing and using software licenses."
+description: "Study notes for Software Licensing Guide — GPL, MIT, Apache, BSD with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - licensing

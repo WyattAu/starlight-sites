@@ -1,7 +1,7 @@
 ---
 
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
-description: "Comprehensive study notes for Sequences and Series -- Diagnostic Tests [BC Only] with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for ap Sequences and Series -- Diagnostic Tests [BC Only] covering key concepts, worked examples, and practice problems for exam preparation."
 date: 2026-04-14
 tags:
   - ap

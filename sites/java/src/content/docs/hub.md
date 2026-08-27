@@ -1,6 +1,6 @@
 ---
 title: "Complete Java Programming Study Guide"
-description: "Comprehensive Java programming study guide covering core language features, object-oriented programming, collections framework, concurrency, Spring ecosystem, and modern Java (17+) with practical examples."
+description: "Study notes for Complete Java Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - java

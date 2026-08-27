@@ -4,7 +4,7 @@ sources:
 title: "Algorithms And Programming | AP"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 3 algorithms and programming study notes for ap with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers algorithms and programming concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

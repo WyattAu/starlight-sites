@@ -1,6 +1,6 @@
 ---
 title: "Complete Haskell Programming Study Guide"
-description: "Comprehensive Haskell programming study guide covering functional programming, type system, monads, type classes, and advanced Haskell patterns with practical examples."
+description: "Study notes for Complete Haskell Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - haskell

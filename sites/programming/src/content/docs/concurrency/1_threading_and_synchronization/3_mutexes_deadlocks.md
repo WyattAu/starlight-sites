@@ -1,7 +1,7 @@
 ---
 
 title: Mutexes, Shared Locks, and Deadlock Prevention
-description: "This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies."
+description: "Study notes for Mutexes, Shared Locks, and Deadlock Prevention with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

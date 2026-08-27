@@ -1,6 +1,6 @@
 ---
 title: "Complete CBSE Study Guide — Physics, Chemistry, Maths"
-description: "Comprehensive CBSE study guide covering Class 11–12 Physics, Chemistry, and Mathematics. Topic notes, practice questions, flashcards, and diagnostics aligned with the CBSE curriculum and JEE/NEET preparation."
+description: "Study notes for Complete CBSE Study Guide — Physics, Chemistry, Maths with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - cbse

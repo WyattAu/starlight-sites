@@ -1,6 +1,6 @@
 ---
 title: "Ruby Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Ruby programming concepts, including OOP, blocks, Rails, metaprogramming, and the Ruby ecosystem."
+description: "Study notes for Ruby Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Apache License | Licensing - Wyatt's Notes"
-description: "Comprehensive apache license study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Apache License with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Apache License

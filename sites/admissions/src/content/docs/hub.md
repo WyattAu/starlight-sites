@@ -1,6 +1,6 @@
 ---
 title: "University Admissions Guide — Applications, Essays, Interviews"
-description: "Comprehensive university admissions guide covering application strategy, personal statements, supplementary essays, interview preparation, standardised testing, extracurricular profiles, and decision-making. Step-by-step guidance for US, UK, and international admissions."
+description: "Study notes for University Admissions Guide — Applications, Essays, Interviews with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - admissions

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
-description: "Comprehensive study notes for Paper 2 -- Statistics -- Full Diagnostic Exam with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for alevel Paper 2 -- Statistics -- Full Diagnostic Exam covering key concepts, worked examples, and practice problems for exam preparation."
 tableOfContents: false
 ---
 

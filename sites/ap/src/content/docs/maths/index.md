@@ -7,7 +7,7 @@ sources:
 title: "AP Calculus - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Boa Comprehensive educational content coverage with definitions and practice proble"
+description: "This section covers ap calculus concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-04-14

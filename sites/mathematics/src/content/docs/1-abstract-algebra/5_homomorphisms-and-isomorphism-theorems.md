@@ -5,7 +5,7 @@ title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
-description: "Comprehensive study notes for Homomorphisms and Isomorphism Theorems with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Homomorphisms and Isomorphism Theorems with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

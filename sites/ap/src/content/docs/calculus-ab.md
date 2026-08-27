@@ -1,7 +1,7 @@
 ---
 
 title: "AP Calculus AB Study Guide - Wyatt's Notes"
-description: "Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,"
+description: "Study notes for AP Calculus AB Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-31
 tags:
   - ap

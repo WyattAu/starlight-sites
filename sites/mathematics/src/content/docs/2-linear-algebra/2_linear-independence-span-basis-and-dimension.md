@@ -5,7 +5,7 @@ title: Linear Independence, Span, Basis, and Dimension
 tags:
   - Mathematics
   - University
-description: 'Comprehensive educational content notes on linear independence, span, basis, and dimension with precise definitions, worked examples, and common pitfalls.'
+description: "Study notes for Linear Independence, Span, Basis, and Dimension with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

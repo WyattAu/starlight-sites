@@ -2,8 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Urban Environments | IB - Wyatt's Notes"
-description: "This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,"
-
+description: "Study notes for Urban Environments with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

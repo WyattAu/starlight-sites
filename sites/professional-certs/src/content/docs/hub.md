@@ -1,6 +1,6 @@
 ---
 title: "Professional Certification Study Guides"
-description: "Comprehensive professional certification study guides covering AWS, CompTIA, Cisco, and other IT certifications. Topic notes, practice questions, flashcards, exam strategies, and certification path guidance for cloud computing, cybersecurity, and IT infrastructure."
+description: "Study notes for Professional Certification Study Guides with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - professional-certs

@@ -5,7 +5,7 @@ title: "Fourier Optics | Physics - Wyatt's Notes"
 tags:
   - Physics
   - University
-description: "Comprehensive study notes for Fourier Optics with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Fourier Optics with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

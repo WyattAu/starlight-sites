@@ -1,6 +1,6 @@
 ---
 title: "Complete Gaokao Study Guide — Math, Physics, Chemistry"
-description: "Comprehensive Gaokao study guide covering Mathematics, Physics, Chemistry, English, and Chinese. Topic-by-topic notes, practice questions, and exam strategies for the National College Entrance Examination."
+description: "Study notes for Complete Gaokao Study Guide — Math, Physics, Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - gaokao

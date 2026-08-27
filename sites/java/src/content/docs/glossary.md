@@ -1,6 +1,6 @@
 ---
 title: "Java Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Java programming concepts, including syntax, OOP, collections, concurrency, JVM, and enterprise Java."
+description: "Study notes for Java Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

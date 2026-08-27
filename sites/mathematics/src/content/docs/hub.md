@@ -1,6 +1,6 @@
 ---
 title: "Complete University Mathematics Study Guide"
-description: "Comprehensive university mathematics study guide covering Abstract Algebra, Linear Algebra, Real Analysis, Multivariable Calculus, ODEs, Complex Analysis, Number Theory, Probability, Topology, Measure Theory, Functional Analysis, and Differential Geometry. Proof-based notes with prerequisite map."
+description: "Study notes for Complete University Mathematics Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - mathematics

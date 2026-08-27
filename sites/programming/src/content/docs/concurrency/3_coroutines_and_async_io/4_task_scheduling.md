@@ -1,7 +1,7 @@
 ---
 
 title: "Task Scheduling and Executors | Programming"
-description: "This section covers the task concept, coroutine-based pipeline processing, async/await patterns Across languages, structured concurrency with /A complete"
+description: "Study notes for Task Scheduling and Executors with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

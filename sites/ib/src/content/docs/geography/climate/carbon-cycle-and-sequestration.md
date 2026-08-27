@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Carbon Cycle and Sequestration
-description: "Comprehensive study notes for Carbon Cycle and Sequestration with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Carbon Cycle and Sequestration with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

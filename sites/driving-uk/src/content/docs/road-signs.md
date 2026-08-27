@@ -1,6 +1,6 @@
 ---
 title: "Road Signs | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive road signs study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Road Signs with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Road Signs

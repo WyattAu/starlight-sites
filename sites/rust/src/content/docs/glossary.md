@@ -1,6 +1,6 @@
 ---
 title: "Rust Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Rust programming concepts, including ownership, lifetimes, traits, macros, async, and the Rust ecosystem."
+description: "Study notes for Rust Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

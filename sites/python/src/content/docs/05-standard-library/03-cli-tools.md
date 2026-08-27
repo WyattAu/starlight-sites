@@ -1,7 +1,7 @@
 ---
 
 title: "CLI Tools | Python - Wyatt's Notes"
-description: "Comprehensive study notes for CLI Tools with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for CLI Tools with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

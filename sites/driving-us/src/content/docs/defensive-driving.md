@@ -1,6 +1,6 @@
 ---
 title: "Defensive Driving | Driving (US) - Wyatt's Notes"
-description: "Comprehensive defensive driving study notes with practice questions and key concepts for driving (us) preparation."
+description: "Study notes for Defensive Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Defensive Driving

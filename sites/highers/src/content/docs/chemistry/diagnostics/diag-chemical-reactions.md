@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Chemical Reactions -- Diagnostic Tests"
-description: "Comprehensive study notes for Chemical Reactions -- Diagnostic Tests with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for highers Chemical Reactions -- Diagnostic Tests covering key concepts, worked examples, and practice problems for exam preparation."
 tableOfContents: false
 ---
 

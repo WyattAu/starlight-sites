@@ -4,7 +4,7 @@ sources:
 title: "Email And App Protocols | Networking"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 10 email and app protocols study notes for networking with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers email and app protocols concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

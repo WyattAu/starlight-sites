@@ -1,6 +1,6 @@
 ---
 title: "Attribution | Licensing - Wyatt's Notes"
-description: "Comprehensive attribution study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Attribution with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Attribution

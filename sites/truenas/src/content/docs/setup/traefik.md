@@ -1,7 +1,7 @@
 ---
 
 title: "Setup Traefik | TrueNAS - Wyatt's Notes"
-description: "Comprehensive study notes for Setup Traefik with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Setup Traefik with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-07-21T18:30:46.381Z
 tags:
   - truenas

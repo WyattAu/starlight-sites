@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: World War II | DSE"
-description: "Comprehensive study notes for Diagnostic Test: World War II with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for dse Diagnostic Test: World War II covering key concepts, worked examples, and practice problems for exam preparation."
 sidebar_position: 10
 ---
 

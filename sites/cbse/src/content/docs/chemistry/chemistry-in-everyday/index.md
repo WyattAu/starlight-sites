@@ -13,7 +13,7 @@ sources:
 title: "Chemistry in Everyday Life | CBSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Chemistry in Everyday Life with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers chemistry in everyday life concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

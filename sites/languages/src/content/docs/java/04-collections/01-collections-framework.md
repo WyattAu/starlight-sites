@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Collections Framework | Languages"
-description: "Comprehensive study notes for Collections Framework with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Collections Framework with worked examples, practice problems, and key concepts for exam preparation."
 categories: ["java"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Fuel Efficiency | Driving (US) - Wyatt's Notes"
-description: "Comprehensive fuel efficiency study notes with practice questions and key concepts for driving (us) preparation."
+description: "Study notes for Fuel Efficiency with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Fuel Efficiency

@@ -1,7 +1,7 @@
 ---
 
 title: Cache Coherency (MESI) and False Sharing
-description: "This section covers the MESI cache coherence protocol, cache line ownership and coherence traffic, False sharing, and padding/alignment techniques to"
+description: "Study notes for Cache Coherency (MESI) and False Sharing with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

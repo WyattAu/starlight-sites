@@ -64,6 +64,15 @@ sources:
 
 ## Optics and Wave Physics
 
+```mermaid
+graph TD
+    S[Source] --> W[Wave]
+    W --> I[Interference]
+    W --> D[Diffraction]
+    W --> P[Polarization]
+```
+
+
 ## Contents
 
 1. [The Wave Equation](1_the-wave-equation)

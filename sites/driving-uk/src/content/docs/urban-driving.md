@@ -1,6 +1,6 @@
 ---
 title: "Urban Driving | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive urban driving study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Urban Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Urban Driving

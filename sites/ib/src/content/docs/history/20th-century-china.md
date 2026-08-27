@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "20th Century China | IB - Wyatt's Notes"
-description: "Comprehensive IB History coverage of 20th-century China: the fall of the Qing Dynasty, warlord period, CCP-KMT rivalry, Nanjing decade, Second Sino-Japanese War, Civil War, PRC establishment, Mao's China, and Reform and Opening Up."
+description: "Study notes for 20th Century China with worked examples, practice problems, and key concepts for exam preparation."
 sidebar_position: 21
 tags:
   - IB History

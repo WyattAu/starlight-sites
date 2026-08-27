@@ -2,8 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Population Distribution - Wyatt's Notes"
-description: "This section covers the IB Geography core extension on population distribution -- changing population. It examines the factors that influence where people"
-
+description: "Study notes for Population Distribution with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

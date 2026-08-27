@@ -1,6 +1,6 @@
 ---
 title: "Complete Irish Leaving Certificate Study Guide"
-description: "Comprehensive Irish Leaving Certificate study guide covering Biology, Chemistry, Computer Science, Mathematics, and Physics. Topic notes, practice questions, flashcards, and diagnostics for the Irish state examinations."
+description: "Study notes for Complete Irish Leaving Certificate Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - leaving-cert

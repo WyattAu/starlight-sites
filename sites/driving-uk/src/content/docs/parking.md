@@ -1,6 +1,6 @@
 ---
 title: "Parking | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive parking study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Parking with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Parking

@@ -1,6 +1,6 @@
 ---
 title: "Constitution History | Civics Tests - Wyatt's Notes"
-description: "Comprehensive constitution history study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Constitution History with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Constitution History

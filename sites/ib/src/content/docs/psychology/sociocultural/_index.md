@@ -2,8 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Sociocultural Level of Analysis
-description: "This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour."
-
+description: "Study notes for Sociocultural Level of Analysis with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

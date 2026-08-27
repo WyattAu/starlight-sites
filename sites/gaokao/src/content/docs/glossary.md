@@ -1,6 +1,6 @@
 ---
 title: "Gaokao Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Gaokao terms covering the Chinese National College Entrance Examination, scoring, subjects, and university admissions."
+description: "Study notes for Gaokao Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

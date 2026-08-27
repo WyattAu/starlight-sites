@@ -5,7 +5,7 @@ title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
-description: "Comprehensive study notes for A Streetcar Named Desire — Close Reading and Analysis with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for A Streetcar Named Desire — Close Reading and Analysis with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,7 +1,7 @@
 ---
 
 title: Condition Variables, Latches, and Barriers
-description: "This section covers and Spurious wakeups, Producer-consumer patterns, and the C++20 synchronization primitives and For one-shot and reusable phase"
+description: "Study notes for Condition Variables, Latches, and Barriers with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

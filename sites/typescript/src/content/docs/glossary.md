@@ -1,6 +1,6 @@
 ---
 title: "TypeScript Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of TypeScript programming concepts, including type system, generics, utility types, React patterns, and advanced type-level programming."
+description: "Study notes for TypeScript Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

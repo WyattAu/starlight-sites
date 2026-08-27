@@ -1,6 +1,6 @@
 ---
 title: "Dual Licensing | Licensing - Wyatt's Notes"
-description: "Comprehensive dual licensing study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Dual Licensing with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Dual Licensing

@@ -1,6 +1,6 @@
 ---
 title: "License Compatibility | Licensing - Wyatt's Notes"
-description: "Comprehensive license compatibility study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for License Compatibility with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # License Compatibility

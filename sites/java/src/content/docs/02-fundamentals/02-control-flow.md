@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Control Flow | Java - Wyatt's Notes"
-description: "Comprehensive study notes covering control flow concepts with worked examples and practice problems for exam preparation."
+description: "Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation."
 categories: ['java']
 ---
 

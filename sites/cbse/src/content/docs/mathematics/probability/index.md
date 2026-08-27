@@ -13,7 +13,7 @@ sources:
 title: "Probability | CBSE - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Probability with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers probability concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

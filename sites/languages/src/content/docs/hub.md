@@ -1,6 +1,6 @@
 ---
 title: "Programming Language Comparison Guide"
-description: "Comprehensive comparison of programming languages: Python, Java, C++, Rust, Go, TypeScript, Kotlin, Swift, Dart, Ruby, Haskell, and Elixir. Paradigms, type systems, and a decision tree to help you choose."
+description: "Study notes for Programming Language Comparison Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - study-guide

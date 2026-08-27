@@ -1,7 +1,7 @@
 ---
 
 title: Monadic Error Handling — std::expected
-description: "Comprehensive study notes for Monadic Error Handling — std::expected with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Monadic Error Handling — std::expected with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

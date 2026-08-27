@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Kotlin programming concepts, including null safety, coroutines, lambdas, extension functions, and the JVM ecosystem."
+description: "Study notes for Kotlin Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

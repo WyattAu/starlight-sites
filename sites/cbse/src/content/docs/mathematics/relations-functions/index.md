@@ -13,7 +13,7 @@ sources:
 title: "Relations and Functions | CBSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Relations and Functions with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers relations and functions concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

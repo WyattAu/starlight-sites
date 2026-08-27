@@ -1,6 +1,6 @@
 ---
 title: "Trade Secret | Licensing - Wyatt's Notes"
-description: "Comprehensive trade secret study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Trade Secret with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Trade Secret

@@ -7,7 +7,7 @@ sources:
 title: "AP Physics - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive revision notes for AP Physics C, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble"
+description: "This section covers ap physics concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-04-14

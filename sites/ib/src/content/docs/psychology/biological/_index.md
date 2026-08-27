@@ -2,8 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Biological Level of Analysis | IB"
-description: "This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and"
-
+description: "Study notes for Biological Level of Analysis with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

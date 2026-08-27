@@ -1,6 +1,6 @@
 ---
 title: "Dart Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Dart and Flutter programming concepts, including null safety, widgets, state management, and cross-platform development."
+description: "Study notes for Dart Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

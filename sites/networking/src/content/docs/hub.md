@@ -1,6 +1,6 @@
 ---
 title: "Complete Computer Networking Study Guide"
-description: "Comprehensive computer networking study guide covering the OSI model, IP addressing, TCP/UDP, DNS, HTTP/HTTPS, TLS, network tools, Layer 2, wireless networking, and application protocols. From fundamentals to advanced topics with practical examples."
+description: "Study notes for Complete Computer Networking Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - networking

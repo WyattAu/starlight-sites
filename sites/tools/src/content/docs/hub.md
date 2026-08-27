@@ -1,6 +1,6 @@
 ---
 title: "Developer Tools Guide — Testing, Debugging, CI/CD"
-description: "Comprehensive developer tools guide covering version control, testing frameworks, debugging techniques, CI/CD pipelines, code quality tools, containerisation, and productivity workflows. Practical guides for modern software development."
+description: "Study notes for Developer Tools Guide — Testing, Debugging, CI/CD with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - developer-tools

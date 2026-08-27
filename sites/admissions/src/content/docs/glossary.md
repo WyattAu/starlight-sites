@@ -1,6 +1,6 @@
 ---
 title: "University Admissions Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of university admissions terms covering applications, essays, interviews, standardised testing, financial aid, and decision-making."
+description: "Study notes for University Admissions Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

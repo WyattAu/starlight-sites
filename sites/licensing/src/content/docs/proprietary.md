@@ -1,6 +1,6 @@
 ---
 title: "Proprietary | Licensing - Wyatt's Notes"
-description: "Comprehensive proprietary study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Proprietary with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Proprietary

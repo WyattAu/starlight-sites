@@ -13,7 +13,7 @@ sources:
 title: "Continuity and Differentiability"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Continuity and Differentiability with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers continuity and differentiability concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

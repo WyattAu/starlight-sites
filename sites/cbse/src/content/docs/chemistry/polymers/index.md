@@ -13,7 +13,7 @@ sources:
 title: "Polymers | CBSE - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Polymers with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers polymers concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

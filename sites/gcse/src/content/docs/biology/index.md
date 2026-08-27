@@ -10,7 +10,7 @@ sources:
 title: "GCSE Biology - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: 'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'
+description: "This section covers gcse biology concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-04-14

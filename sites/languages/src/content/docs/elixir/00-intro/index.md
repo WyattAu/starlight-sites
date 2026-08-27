@@ -4,7 +4,7 @@ sources:
 title: "Intro | Languages - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 00 intro study notes for languages with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers intro concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

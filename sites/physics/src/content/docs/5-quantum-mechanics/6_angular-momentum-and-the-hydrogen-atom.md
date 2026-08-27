@@ -5,7 +5,7 @@ title: Angular Momentum and the Hydrogen Atom
 tags:
   - Physics
   - University
-description: "Comprehensive study notes for Angular Momentum and the Hydrogen Atom with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Angular Momentum and the Hydrogen Atom with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

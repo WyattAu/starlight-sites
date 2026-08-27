@@ -1,6 +1,6 @@
 ---
 title: "CBSE Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of CBSE terms covering the Indian education system, board examinations, JEE/NEET preparation, and study strategies."
+description: "Study notes for CBSE Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

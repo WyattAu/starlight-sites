@@ -4,7 +4,7 @@ sources:
 title: "Authentication | Security - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 03 authentication study notes for security with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers authentication concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

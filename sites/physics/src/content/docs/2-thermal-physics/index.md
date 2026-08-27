@@ -64,6 +64,14 @@ sources:
 
 ## Thermal Physics
 
+```mermaid
+graph TD
+    T[Temperature] --> E[Energy]
+    E --> S[Entropy]
+    S --> Q[Heat Transfer]
+```
+
+
 ## Contents
 
 1. [The Laws of Thermodynamics](1_the-laws-of-thermodynamics)

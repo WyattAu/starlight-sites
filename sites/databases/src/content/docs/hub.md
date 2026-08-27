@@ -1,6 +1,6 @@
 ---
 title: "Complete Database Design Study Guide"
-description: "Comprehensive database design study guide covering relational theory, SQL, indexing and optimisation, transactions, NoSQL, and database design patterns. From fundamentals to advanced topics with practical examples."
+description: "Study notes for Complete Database Design Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - databases

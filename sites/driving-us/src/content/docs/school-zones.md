@@ -1,6 +1,6 @@
 ---
 title: "School Zones | Driving (US) - Wyatt's Notes"
-description: "Comprehensive school zones study notes with practice questions and key concepts for driving (us) preparation."
+description: "Study notes for School Zones with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # School Zones

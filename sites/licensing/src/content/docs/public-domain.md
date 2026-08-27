@@ -1,6 +1,6 @@
 ---
 title: "Public Domain | Licensing - Wyatt's Notes"
-description: "Comprehensive public domain study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Public Domain with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Public Domain

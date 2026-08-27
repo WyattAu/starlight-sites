@@ -1,6 +1,6 @@
 ---
 title: "Complete Ruby Programming Study Guide"
-description: "Comprehensive Ruby programming study guide covering language fundamentals, object-oriented design, Rails framework, testing, metaprogramming, and Ruby ecosystem with practical examples."
+description: "Study notes for Complete Ruby Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - ruby

@@ -13,7 +13,7 @@ sources:
 title: "Atoms and Nuclei | CBSE - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Atoms and Nuclei with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers atoms and nuclei concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

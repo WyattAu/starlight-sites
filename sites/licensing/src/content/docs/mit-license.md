@@ -1,6 +1,6 @@
 ---
 title: "Mit License | Licensing - Wyatt's Notes"
-description: "Comprehensive mit license study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Mit License with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Mit License

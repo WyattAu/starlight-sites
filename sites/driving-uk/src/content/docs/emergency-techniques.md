@@ -1,6 +1,6 @@
 ---
 title: "Emergency Techniques | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive emergency techniques study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Emergency Techniques with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Emergency Techniques

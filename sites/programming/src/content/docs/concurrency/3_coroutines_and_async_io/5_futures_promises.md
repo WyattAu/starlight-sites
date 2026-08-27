@@ -1,7 +1,7 @@
 ---
 
 title: Futures, Promises, and Async Flows
-description: "This section covers launch policies, the Future/promise pair as a basic async primitive, composability limitations, async file reading, Parallel computation"
+description: "Study notes for Futures, Promises, and Async Flows with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -1,6 +1,6 @@
 ---
 title: "Programming Concepts Glossary — Key Terms"
-description: "Comprehensive glossary of general programming concepts, including paradigms, data structures, algorithms, design patterns, and software engineering principles."
+description: "Study notes for Programming Concepts Glossary — Key Terms with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

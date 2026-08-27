@@ -4,7 +4,7 @@ sources:
 title: "Cefr Levels | language-tests - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "This section covers language proficiency assessment across CEFR levels. These materials support preparation for standardised language examinations."
+description: "This section covers cefr levels concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

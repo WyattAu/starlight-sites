@@ -4,7 +4,7 @@ sources:
 title: "Templates_and_metaprogramming | C++"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive templates_and_metaprogramming study notes for cpp with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers templates_and_metaprogramming concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

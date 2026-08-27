@@ -1,6 +1,6 @@
 ---
 title: "Performance Tuning and Optimization Guide"
-description: "Comprehensive performance tuning guide covering CPU tuning, memory optimisation, GPU overclocking, storage performance, cooling systems, stress testing, and BIOS configuration. Practical techniques for maximising system performance."
+description: "Study notes for Performance Tuning and Optimization Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - performance-tuning

@@ -1,7 +1,7 @@
 ---
 
 title: "Biodiversity and Conservation | DSE"
-description: "Comprehensive study notes for Biodiversity and Conservation with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Biodiversity and Conservation with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

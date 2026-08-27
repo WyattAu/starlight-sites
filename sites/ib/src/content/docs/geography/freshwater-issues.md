@@ -2,8 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Freshwater Issues | IB - Wyatt's Notes"
-description: "This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It examines the hydrological cycle, the characteristics and"
-
+description: "Study notes for Freshwater Issues with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,6 +1,6 @@
 ---
 title: "Complete Python Programming Study Guide"
-description: "Comprehensive Python programming study guide covering fundamentals, data structures, object-oriented programming, standard library, async programming, best practices, and advanced topics. Modern Python 3.12+ with practical examples."
+description: "Study notes for Complete Python Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - python

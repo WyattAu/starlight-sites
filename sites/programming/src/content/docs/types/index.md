@@ -4,7 +4,7 @@ sources:
 title: "Types | Programming - Wyatt's Notes"
 sources:
   - text: McConnell - Code Complete
-description: "Comprehensive types study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers types concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z

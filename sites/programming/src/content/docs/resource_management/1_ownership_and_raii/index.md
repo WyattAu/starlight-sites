@@ -4,7 +4,7 @@ sources:
 title: "1_ownership_and_raii | Programming"
 sources:
   - text: McConnell - Code Complete
-description: "Comprehensive 1_ownership_and_raii study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers 1_ownership_and_raii concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z

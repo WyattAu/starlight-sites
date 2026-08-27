@@ -1,6 +1,6 @@
 ---
 title: "Complete UK Driving Theory Test Study Guide"
-description: "Comprehensive UK driving theory test study guide covering the Highway Code, road signs, rules of the road, hazard perception, and theory test preparation. Topic notes, practice questions, flashcards, and mock tests for the DVSA theory test."
+description: "Study notes for Complete UK Driving Theory Test Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - driving-uk

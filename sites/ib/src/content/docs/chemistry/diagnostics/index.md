@@ -4,7 +4,7 @@ sources:
 title: "Diagnostics | IB - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive diagnostics study notes for ib with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for ib Diagnostics covering key concepts, worked examples, and practice problems for exam preparation."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

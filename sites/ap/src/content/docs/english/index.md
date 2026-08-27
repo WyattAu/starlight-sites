@@ -7,7 +7,7 @@ sources:
 title: "AP English Language - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description."
+description: "This section covers ap english language concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-04-14

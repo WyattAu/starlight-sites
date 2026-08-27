@@ -1,6 +1,6 @@
 ---
 title: "Gnu Gpl | Licensing - Wyatt's Notes"
-description: "Comprehensive gnu gpl study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Gnu Gpl with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Gnu Gpl

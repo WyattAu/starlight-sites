@@ -1,7 +1,7 @@
 ---
 
 title: "Atomic Structure | GCSE - Wyatt's Notes"
-description: "Comprehensive study notes for Atomic Structure with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Atomic Structure with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-14
 tags:
   - gcse

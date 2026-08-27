@@ -1,6 +1,6 @@
 ---
 title: "Complete HSC Study Guide — Physics and Maths"
-description: "Comprehensive NSW HSC study guide covering Physics and Mathematics. Topic notes, practice questions, flashcards, and diagnostics aligned with the NSW HSC curriculum."
+description: "Study notes for Complete HSC Study Guide — Physics and Maths with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - hsc

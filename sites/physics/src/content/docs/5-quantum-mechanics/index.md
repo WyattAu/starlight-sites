@@ -64,6 +64,14 @@ sources:
 
 ## Quantum Mechanics
 
+```mermaid
+graph TD
+    W[Wave Function] --> P[Probability]
+    P --> M[Measurement]
+    M --> O[Observable]
+```
+
+
 ## Contents
 
 1. [Historical Motivation](1_historical-motivation)

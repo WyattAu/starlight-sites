@@ -4,7 +4,7 @@ sources:
 title: "Demos | Mathematics - Wyatt's Notes"
 sources:
   - text: Spivak - Calculus
-description: "Comprehensive demos study notes for mathematics with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers demos concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Spivak - Calculus
 date: 2026-01-01T00:00:00Z

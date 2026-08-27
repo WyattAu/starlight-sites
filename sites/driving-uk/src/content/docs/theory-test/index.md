@@ -4,7 +4,7 @@ sources:
 title: "Theory Test | driving-uk - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling"
+description: "This section covers theory test concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

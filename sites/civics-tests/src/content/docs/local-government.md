@@ -1,6 +1,6 @@
 ---
 title: "Local Government | Civics Tests - Wyatt's Notes"
-description: "Comprehensive local government study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Local Government with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Local Government

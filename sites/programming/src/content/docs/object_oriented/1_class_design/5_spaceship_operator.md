@@ -1,7 +1,7 @@
 ---
 
 title: "The Spaceship Operator | Programming"
-description: "Comprehensive study notes for The Spaceship Operator with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for The Spaceship Operator with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

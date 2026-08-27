@@ -1,6 +1,6 @@
 ---
 title: "Landmark Cases | Civics Tests - Wyatt's Notes"
-description: "Comprehensive landmark cases study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Landmark Cases with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Landmark Cases

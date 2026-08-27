@@ -1,7 +1,7 @@
 ---
 
 title: Stackless Coroutine Frames and Heap Allocation
-description: "This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off, Coroutine frame layout, heap allocation and elision,"
+description: "Study notes for Stackless Coroutine Frames and Heap Allocation with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

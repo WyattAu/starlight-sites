@@ -1,7 +1,7 @@
 ---
 
 title: "Sequences and Series | AP - Wyatt's Notes"
-description: "Comprehensive study notes for Sequences and Series with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Sequences and Series with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-14
 tags:
   - ap

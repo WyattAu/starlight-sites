@@ -5,7 +5,7 @@ title: "Lagrange's Theorem | Mathematics"
 tags:
   - Mathematics
   - University
-description: "Comprehensive study notes for Lagranges Theorem with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Lagrange's Theorem with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

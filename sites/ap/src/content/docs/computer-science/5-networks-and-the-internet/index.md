@@ -4,7 +4,7 @@ sources:
 title: "Networks And The Internet | AP"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 5 networks and the internet study notes for ap with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers networks and the internet concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

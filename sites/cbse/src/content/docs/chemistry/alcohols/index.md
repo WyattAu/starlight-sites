@@ -13,7 +13,7 @@ sources:
 title: "Alcohols, Phenols, and Ethers | CBSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Alcohols, Phenols, and Ethers with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers alcohols, phenols, and ethers concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

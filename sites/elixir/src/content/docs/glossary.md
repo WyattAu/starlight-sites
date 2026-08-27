@@ -1,6 +1,6 @@
 ---
 title: "Elixir Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Elixir and Erlang/OTP concepts, including processes, supervision, Phoenix, and distributed systems."
+description: "Study notes for Elixir Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

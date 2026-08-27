@@ -5,7 +5,7 @@ title: "Interference | Physics - Wyatt's Notes"
 tags:
   - Physics
   - University
-description: "Comprehensive study notes for Interference with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Interference with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

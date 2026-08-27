@@ -64,6 +64,14 @@ sources:
 
 ## Electromagnetism
 
+```mermaid
+graph TD
+    E[Electric Field] --> M[Magnetic Field]
+    M --> W[Electromagnetic Wave]
+    W --> L[Light]
+```
+
+
 ## Contents
 
 1. [Maxwell"s Equations](1_maxwell-s-equations)

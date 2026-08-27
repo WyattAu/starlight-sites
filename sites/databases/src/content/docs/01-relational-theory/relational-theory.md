@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Relational Theory | Databases - Wyatt's Notes"
-description: "Comprehensive study notes for Relational Theory with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Relational Theory with worked examples, practice problems, and key concepts for exam preparation."
 tags:
   - Databases
 categories:

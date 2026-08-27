@@ -13,7 +13,7 @@ sources:
 title: "Inverse Trigonometric Functions"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Inverse Trigonometric Functions with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers inverse trigonometric functions concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

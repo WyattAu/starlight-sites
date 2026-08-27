@@ -1,6 +1,6 @@
 ---
 title: "Complete GCSE Study Guide — All Subjects"
-description: "Comprehensive GCSE study guide covering Biology, Chemistry, Computer Science, English, Maths, and Physics. Topic notes, practice questions, flashcards, and diagnostics aligned with AQA, Edexcel, and OCR exam boards."
+description: "Study notes for Complete GCSE Study Guide — All Subjects with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - gcse

@@ -1,6 +1,6 @@
 ---
 title: "Complete TrueNAS Administration Guide"
-description: "Comprehensive TrueNAS administration guide covering ZFS storage, sharing and permissions, backup and replication, apps and services, monitoring, and performance tuning. Practical guides for TrueNAS CORE and SCALE."
+description: "Study notes for Complete TrueNAS Administration Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - truenas

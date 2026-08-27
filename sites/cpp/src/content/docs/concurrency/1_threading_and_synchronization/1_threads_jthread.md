@@ -1,7 +1,7 @@
 ---
 
 title: Thread Execution (std::jthread) and Hardware Mapping
-description: "This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via"
+description: "Study notes for Thread Execution (std::jthread) and Hardware Mapping with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

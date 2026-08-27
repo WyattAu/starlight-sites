@@ -5,7 +5,7 @@ title: Special Relativity and Electromagnetism
 tags:
   - Physics
   - University
-description: "Comprehensive study notes for Special Relativity and Electromagnetism with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Special Relativity and Electromagnetism with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

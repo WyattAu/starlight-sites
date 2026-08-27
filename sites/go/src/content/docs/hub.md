@@ -1,6 +1,6 @@
 ---
 title: "Complete Go Programming Study Guide"
-description: "Comprehensive Go programming study guide covering language fundamentals, goroutines, channels, interfaces, web services, and production practices with practical examples."
+description: "Study notes for Complete Go Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - go

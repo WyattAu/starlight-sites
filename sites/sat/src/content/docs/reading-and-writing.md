@@ -2,7 +2,7 @@
 
 title: "Reading and Writing | SAT - Wyatt's Notes"
 date: 2026-05-30
-description: "Comprehensive study notes for Reading and Writing with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Reading and Writing with worked examples, practice problems, and key concepts for exam preparation."
 tags:
   - sat
   - reading

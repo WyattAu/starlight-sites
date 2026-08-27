@@ -1,7 +1,7 @@
 ---
 
 title: "AP Physics 1 Study Guide - Wyatt's Notes"
-description: "Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational"
+description: "Study notes for AP Physics 1 Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-31
 tags:
   - ap

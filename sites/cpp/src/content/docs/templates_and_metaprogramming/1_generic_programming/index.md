@@ -4,7 +4,7 @@ sources:
 title: "1_generic_programming | C++ - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 1_generic_programming study notes for cpp with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers 1_generic_programming concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

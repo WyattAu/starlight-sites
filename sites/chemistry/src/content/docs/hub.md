@@ -1,6 +1,6 @@
 ---
 title: "Complete University Chemistry Study Guide"
-description: "Comprehensive hub for university-level chemistry: Physical Chemistry, Organic Chemistry, and Inorganic Chemistry. Study guides, lab skills, and problem-solving strategies."
+description: "Study notes for Complete University Chemistry Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - study-guide

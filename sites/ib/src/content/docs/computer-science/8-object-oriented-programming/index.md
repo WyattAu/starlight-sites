@@ -4,7 +4,7 @@ sources:
 title: "Object Oriented Programming | IB"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 8 object oriented programming study notes for ib with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers object oriented programming concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

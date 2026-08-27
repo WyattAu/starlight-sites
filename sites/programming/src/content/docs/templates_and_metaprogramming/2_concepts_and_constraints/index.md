@@ -4,7 +4,7 @@ sources:
 title: "2_concepts_and_constraints | Programming"
 sources:
   - text: McConnell - Code Complete
-description: "Comprehensive 2_concepts_and_constraints study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers 2_concepts_and_constraints concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z

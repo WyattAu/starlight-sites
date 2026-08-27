@@ -1,7 +1,7 @@
 ---
 
 title: "Branching Strategies | Tools - Wyatt's Notes"
-description: "Comprehensive study notes for Branching Strategies with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Branching Strategies with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T07:00:00.000Z
 tags:
   - git

@@ -1,6 +1,6 @@
 ---
 title: "Hazard Perception | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive hazard perception study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Hazard Perception with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Hazard Perception

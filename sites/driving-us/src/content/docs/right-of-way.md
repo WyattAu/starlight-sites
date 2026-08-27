@@ -1,6 +1,6 @@
 ---
 title: "Right Of Way | Driving (US) - Wyatt's Notes"
-description: "Comprehensive right of way study notes with practice questions and key concepts for driving (us) preparation."
+description: "Study notes for Right Of Way with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Right Of Way

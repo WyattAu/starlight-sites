@@ -1,7 +1,7 @@
 ---
 
 title: "Physical Chemistry | A-Level - Wyatt's Notes"
-description: "Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards."
+description: "Study notes for Physical Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry

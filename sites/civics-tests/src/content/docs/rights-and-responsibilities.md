@@ -1,6 +1,6 @@
 ---
 title: "Rights And Responsibilities | Civics Tests - Wyatt's Notes"
-description: "Comprehensive rights and responsibilities study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Rights And Responsibilities with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Rights And Responsibilities

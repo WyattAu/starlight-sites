@@ -1,7 +1,7 @@
 ---
 
 title: "Forces and Newton's Laws | A-Level"
-description: "Comprehensive study notes for Forces and Newtons Laws with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Forces and Newton's Laws with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

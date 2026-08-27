@@ -1,6 +1,6 @@
 ---
 title: "Motorway Driving | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive motorway driving study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Motorway Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Motorway Driving

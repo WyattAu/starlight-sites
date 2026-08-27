@@ -1,6 +1,6 @@
 ---
 title: "Complete SAT Study Guide — Math, Reading, Writing"
-description: "Comprehensive SAT study guide covering the Mathematics section, Reading and Writing section, test-taking strategies, and exam preparation. Digital SAT preparation with topic notes, practice questions, flashcards, and diagnostics."
+description: "Study notes for Complete SAT Study Guide — Math, Reading, Writing with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - sat

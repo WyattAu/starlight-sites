@@ -1,6 +1,6 @@
 ---
 title: "Roundabouts | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive roundabouts study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Roundabouts with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Roundabouts

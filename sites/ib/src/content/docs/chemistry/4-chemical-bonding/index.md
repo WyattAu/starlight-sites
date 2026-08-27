@@ -4,7 +4,7 @@ sources:
 title: "Chemical Bonding | IB - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 4 chemical bonding study notes for ib with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers chemical bonding concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

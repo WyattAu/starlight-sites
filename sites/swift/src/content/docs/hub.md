@@ -1,6 +1,6 @@
 ---
 title: "Complete Swift Programming Study Guide"
-description: "Comprehensive Swift programming study guide covering language fundamentals, SwiftUI, iOS development, protocol-oriented programming, and modern Swift (5.9+) with practical examples."
+description: "Study notes for Complete Swift Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - swift

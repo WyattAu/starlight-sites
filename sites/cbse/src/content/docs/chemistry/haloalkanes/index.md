@@ -13,7 +13,7 @@ sources:
 title: "Haloalkanes and Haloarenes | CBSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Haloalkanes and Haloarenes with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers haloalkanes and haloarenes concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

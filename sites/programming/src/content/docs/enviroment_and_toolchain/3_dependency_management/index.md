@@ -4,7 +4,7 @@ sources:
 title: "3_dependency_management | Programming"
 sources:
   - text: McConnell - Code Complete
-description: "Comprehensive 3_dependency_management study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers 3_dependency_management concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z

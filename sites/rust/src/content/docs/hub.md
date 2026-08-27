@@ -1,6 +1,6 @@
 ---
 title: "Complete Rust Programming Study Guide"
-description: "Comprehensive Rust programming study guide covering ownership, lifetimes, traits, async programming, systems programming, and the Rust ecosystem with practical examples."
+description: "Study notes for Complete Rust Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - rust

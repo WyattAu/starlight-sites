@@ -1,7 +1,7 @@
 ---
 
 title: "Control Flow | Go - Wyatt's Notes"
-description: "Comprehensive study notes covering control flow concepts with worked examples and practice problems for exam preparation."
+description: "Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-18
 tags:
   - Go

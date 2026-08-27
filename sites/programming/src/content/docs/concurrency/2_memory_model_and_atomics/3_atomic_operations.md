@@ -1,7 +1,7 @@
 ---
 
 title: Atomic Operations and Lock-Free Programming
-description: "This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack"
+description: "Study notes for Atomic Operations and Lock-Free Programming with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

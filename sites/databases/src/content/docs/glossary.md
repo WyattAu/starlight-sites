@@ -1,6 +1,6 @@
 ---
 title: "Database Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of database concepts, including SQL, normalization, indexing, transactions, and modern database technologies."
+description: "Study notes for Database Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

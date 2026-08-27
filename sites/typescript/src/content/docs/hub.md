@@ -1,6 +1,6 @@
 ---
 title: "Complete TypeScript Programming Study Guide"
-description: "Comprehensive TypeScript programming study guide covering type system, generics, utility types, React patterns, and advanced TypeScript features with practical examples."
+description: "Study notes for Complete TypeScript Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - typescript

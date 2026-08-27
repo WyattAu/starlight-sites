@@ -13,7 +13,7 @@ sources:
 title: "P-Block Elements | CBSE - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for P-Block Elements with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers p-block elements concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

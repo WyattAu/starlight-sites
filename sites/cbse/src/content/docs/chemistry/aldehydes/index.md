@@ -13,7 +13,7 @@ sources:
 title: "Aldehydes, Ketones, and Carboxylic Acids"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Aldehydes, Ketones, and Carboxylic Acids with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers aldehydes, ketones, and carboxylic acids concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

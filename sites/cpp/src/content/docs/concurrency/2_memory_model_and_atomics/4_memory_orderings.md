@@ -1,7 +1,7 @@
 ---
 
 title: "Memory Orderings | C++ - Wyatt's Notes"
-description: "This section covers the enum values, relaxed ordering, acquire/release Semantics, sequentially consistent ordering, a producer-consumer example with"
+description: "Study notes for Memory Orderings with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

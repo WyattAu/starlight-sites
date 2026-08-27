@@ -7,7 +7,7 @@ sources:
 title: "AP US History - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description."
+description: "This section covers ap us history concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-04-14

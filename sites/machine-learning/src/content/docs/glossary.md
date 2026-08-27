@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of machine learning concepts, including algorithms, metrics, neural networks, and ML infrastructure."
+description: "Study notes for Machine Learning Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

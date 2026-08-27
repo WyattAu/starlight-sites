@@ -5,7 +5,7 @@ title: Fermi Gas at Finite Temperature
 tags:
   - Physics
   - University
-description: "Comprehensive study notes for Fermi Gas at Finite Temperature with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Fermi Gas at Finite Temperature with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

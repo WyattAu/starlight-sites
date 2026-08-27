@@ -1,6 +1,6 @@
 ---
 title: "Complete DSE Study Guide — Everything You Need to Pass"
-description: "Comprehensive DSE study guide covering all 8 subjects — Biology, Chemistry, Economics, Geography, History, ICT, Maths, and Physics. Topic notes, practice questions, flashcards, and diagnostics for the Hong Kong Diploma of Secondary Education."
+description: "Study notes for Complete DSE Study Guide — Everything You Need to Pass with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - dse

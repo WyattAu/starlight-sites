@@ -1,6 +1,6 @@
 ---
 title: "Overtaking | Driving (UK) - Wyatt's Notes"
-description: "Comprehensive overtaking study notes with practice questions and key concepts for driving (uk) preparation."
+description: "Study notes for Overtaking with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Overtaking

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Organic | Gaokao - Wyatt's Notes"
-description: "Comprehensive study notes for Organic with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Organic with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

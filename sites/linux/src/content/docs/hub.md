@@ -1,6 +1,6 @@
 ---
 title: "Linux Administration Study Guide"
-description: "Comprehensive Linux administration study guide covering CLI fundamentals, file systems, process management, networking, systemd, security, package management, LVM, and disk partitioning. Practical guides for Linux system administrators."
+description: "Study notes for Linux Administration Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - linux

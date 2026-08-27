@@ -4,7 +4,7 @@ sources:
 title: Bonding And Intermolecular Forces
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 2 bonding and intermolecular forces study notes for ap with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers bonding and intermolecular forces concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

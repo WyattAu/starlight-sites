@@ -4,7 +4,7 @@ sources:
 title: "Human Body | Leaving Cert - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 5 human body study notes for leaving-cert with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers human body concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

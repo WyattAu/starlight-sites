@@ -1,6 +1,6 @@
 ---
 title: "C++ Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of C++ programming concepts, including syntax, OOP, memory management, templates, and modern C++ features."
+description: "Study notes for C++ Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

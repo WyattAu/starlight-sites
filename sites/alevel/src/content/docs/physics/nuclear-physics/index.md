@@ -13,7 +13,7 @@ sources:
 title: "Nuclear & Quantum Physics | A-Level"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Nuclear & Quantum Physics with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers nuclear & quantum physics concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

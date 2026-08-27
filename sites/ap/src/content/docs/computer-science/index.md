@@ -7,7 +7,7 @@ sources:
 title: "AP Computer Science - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive revision notes for AP Computer Science, aligned with the College B Comprehensive educational content coverage with definitions and practice proble"
+description: "This section covers ap computer science concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-04-14

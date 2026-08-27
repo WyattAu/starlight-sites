@@ -13,7 +13,7 @@ sources:
 title: "Semiconductor Electronics | CBSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive study notes for Semiconductor Electronics with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers semiconductor electronics concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Irish Leaving Certificate Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Irish Leaving Certificate terms covering the SEC examination system, CAO points, study strategies, and university admissions."
+description: "Study notes for Irish Leaving Certificate Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

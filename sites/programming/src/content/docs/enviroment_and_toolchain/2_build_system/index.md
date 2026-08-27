@@ -4,7 +4,7 @@ sources:
 title: "2_build_system | Programming - Wyatt's Notes"
 sources:
   - text: McConnell - Code Complete
-description: "Comprehensive 2_build_system study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers 2_build_system concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z

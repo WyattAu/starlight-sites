@@ -4,7 +4,7 @@ sources:
 title: "Electricity And Magnetism | DSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 3 electricity and magnetism study notes for dse with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers electricity and magnetism concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

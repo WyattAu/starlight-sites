@@ -1,6 +1,6 @@
 ---
 title: "Haskell Glossary — Key Terms and Definitions"
-description: "Comprehensive glossary of Haskell programming concepts, including functional programming, type system, monads, type classes, and advanced patterns."
+description: "Study notes for Haskell Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

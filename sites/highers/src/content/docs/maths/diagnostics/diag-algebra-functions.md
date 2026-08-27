@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Algebra and Functions -- Diagnostic Tests"
-description: "Comprehensive study notes for Algebra and Functions -- Diagnostic Tests with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for highers Algebra and Functions -- Diagnostic Tests covering key concepts, worked examples, and practice problems for exam preparation."
 tableOfContents: false
 ---
 

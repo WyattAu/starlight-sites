@@ -1,6 +1,6 @@
 ---
 title: "Complete US Civics Test Study Guide"
-description: "Comprehensive US civics test study guide covering the 100 official USCIS civics questions, US government structure, American history, and citizenship preparation. Topic notes, practice questions, flashcards, and study plans for the naturalisation test."
+description: "Study notes for Complete US Civics Test Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - civics-tests

@@ -5,7 +5,7 @@ title: "Electronic Band Structure | Physics"
 tags:
   - Physics
   - University
-description: "Comprehensive study notes for Electronic Band Structure with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Electronic Band Structure with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

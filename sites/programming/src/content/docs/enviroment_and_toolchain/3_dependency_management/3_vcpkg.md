@@ -1,7 +1,7 @@
 ---
 
 title: "vcpkg | Programming - Wyatt's Notes"
-description: "Comprehensive study notes for vcpkg with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for vcpkg with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-12-11T04:55:37.164Z
 tags:
   - cpp

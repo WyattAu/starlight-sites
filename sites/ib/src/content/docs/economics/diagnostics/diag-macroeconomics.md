@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Diagnostic Test: Macroeconomics"
-description: "Comprehensive study notes for Diagnostic Test: Macroeconomics with worked examples, practice problems, and key concepts for exam preparation."
+description: "Diagnostic test notes for ib Diagnostic Test: Macroeconomics covering key concepts, worked examples, and practice problems for exam preparation."
 tableOfContents: false
 sidebar_position: 40
 ---

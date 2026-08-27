@@ -1,6 +1,6 @@
 ---
 title: "Naturalisation | Civics Tests - Wyatt's Notes"
-description: "Comprehensive naturalisation study notes with practice questions and key concepts for civics tests preparation."
+description: "Study notes for Naturalisation with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Naturalisation

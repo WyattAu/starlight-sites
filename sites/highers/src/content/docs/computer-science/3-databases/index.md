@@ -4,7 +4,7 @@ sources:
 title: "Databases | Highers - Wyatt's Notes"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 3 databases study notes for highers with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers databases concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z

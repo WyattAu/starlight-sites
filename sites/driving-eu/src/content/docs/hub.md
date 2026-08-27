@@ -1,6 +1,6 @@
 ---
 title: "Complete EU Driving Test Study Guide"
-description: "Comprehensive EU driving test study guide covering European driving regulations, road signs, international driving permits, and test preparation across EU member states. Topic notes, practice questions, flashcards, and cross-border driving guidance."
+description: "Study notes for Complete EU Driving Test Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - driving-eu

@@ -1,7 +1,7 @@
 ---
 
 title: "Remote Operations | Tools - Wyatt's Notes"
-description: "Comprehensive study notes for Remote Operations with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for Remote Operations with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T06:00:00.000Z
 tags:
   - git

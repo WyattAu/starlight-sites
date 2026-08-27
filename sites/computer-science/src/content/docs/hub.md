@@ -1,6 +1,6 @@
 ---
 title: "Complete Computer Science Study Guide"
-description: "Comprehensive hub for computer science theory: Algorithms, Data Structures, Theory of Computation, Databases, Operating Systems, and Networks. Foundations, practice, and cross-disciplinary connections."
+description: "Study notes for Complete Computer Science Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - study-guide

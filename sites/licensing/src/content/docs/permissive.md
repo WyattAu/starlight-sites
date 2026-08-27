@@ -1,6 +1,6 @@
 ---
 title: "Permissive | Licensing - Wyatt's Notes"
-description: "Comprehensive permissive study notes with practice questions and key concepts for licensing preparation."
+description: "Study notes for Permissive with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 # Permissive

@@ -4,7 +4,7 @@ sources:
 title: "Modern Texts And Poetry | GCSE"
 sources:
   - text: Standard textbook reference
-description: "Comprehensive 3 modern texts and poetry study notes for gcse with worked examples, practice problems, and key concepts for exam preparation."
+description: "This section covers modern texts and poetry concepts, definitions, and applications with worked examples and practice problems."
 sources:
   - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
