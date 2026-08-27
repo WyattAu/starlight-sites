@@ -1,91 +1,43 @@
-import { expect, test } from '@playwright/test'
-import { SITES } from './playwright.config'
-
 /**
- * Visual regression tests for Wyatt's Notes.
+ * Visual Regression Tests
  *
- * Takes screenshots of key pages and compares them to baseline images.
- * Run with: npx playwright test --project=visual-regression
- *
- * To update baselines: npx playwright test --update-snapshots
+ * Tests visual consistency across themes, viewports, and components.
+ * Captures screenshots and compares against baseline.
  */
 
-// Configure visual regression project
-const SITES_CONFIG = Object.entries(SITES).slice(0, 3) // Test first 3 sites for speed
+import { test, expect } from '@playwright/test'
 
-test.describe('Visual Regression', () => {
-  for (const [siteId, baseUrl] of SITES_CONFIG) {
-    test.describe(siteId, () => {
-      test('homepage matches snapshot', async ({ page }) => {
-        await page.goto(baseUrl)
-        await page.waitForLoadState('networkidle')
+const THEMES = ['dark', 'light', 'sepia', 'contrast', 'nord', 'dracula', 'solarized', 'monokai', 'ayu-mirage', 'papercolor']
 
-        // Hide dynamic content
-        await page.evaluate(() => {
-          // Hide search modal, time-based content, and analytics
-          const style = document.createElement('style')
-          style.textContent = `
-            #page-search-modal { display: none !important; }
-            time { visibility: hidden !important; }
-            [data-cf-beacon] { display: none !important; }
-          `
-          document.head.appendChild(style)
-        })
+const TEST_PAGES = [
+  { name: 'physics', url: 'https://physics.wyattau.com/' },
+  { name: 'mathematics', url: 'https://mathematics.wyattau.com/' },
+  { name: 'computer-science', url: 'https://computer-science.wyattau.com/' },
+  { name: 'ib', url: 'https://ib.wyattau.com/' },
+  { name: 'dse', url: 'https://dse.wyattau.com/' },
+]
 
-        await expect(page).toHaveScreenshot(`${siteId}-homepage.png`, {
-          fullPage: false, // Viewport only
-          maxDiffPixelRatio: 0.01, // 1% tolerance
-        })
-      })
+for (const page of TEST_PAGES) {
+  test.describe(`${page.name} site`, () => {
+    for (const theme of THEMES) {
+      test(`theme: ${theme}`, async ({ page: p }) => {
+        await p.goto(page.url)
+        await p.waitForLoadState('networkidle')
 
-      test('homepage full page matches snapshot', async ({ page }) => {
-        await page.goto(baseUrl)
-        await page.waitForLoadState('networkidle')
+        // Set theme
+        await p.evaluate((t) => {
+          document.documentElement.setAttribute('data-theme', t)
+        }, theme)
 
-        await page.evaluate(() => {
-          const style = document.createElement('style')
-          style.textContent = `
-            #page-search-modal { display: none !important; }
-            time { visibility: hidden !important; }
-            [data-cf-beacon] { display: none !important; }
-          `
-          document.head.appendChild(style)
-        })
+        // Wait for theme transition
+        await p.waitForTimeout(500)
 
-        await expect(page).toHaveScreenshot(`${siteId}-homepage-full.png`, {
-          fullPage: true,
-          maxDiffPixelRatio: 0.02, // 2% tolerance for full page
+        // Take screenshot
+        await expect(p).toHaveScreenshot(`${page.name}-${theme}.png`, {
+          fullPage: false,
+          maxDiffPixelRatio: 0.01,
         })
       })
-
-      // Test first content page if available
-      test('first content page matches snapshot', async ({ page }) => {
-        // Try to find a content page from the sidebar
-        await page.goto(baseUrl)
-        await page.waitForLoadState('networkidle')
-
-        // Click first sidebar link
-        const firstLink = page.locator('nav[aria-label="Sidebar"] a').first()
-        if (await firstLink.isVisible()) {
-          await firstLink.click()
-          await page.waitForLoadState('networkidle')
-
-          await page.evaluate(() => {
-            const style = document.createElement('style')
-            style.textContent = `
-              #page-search-modal { display: none !important; }
-              time { visibility: hidden !important; }
-              [data-cf-beacon] { display: none !important; }
-            `
-            document.head.appendChild(style)
-          })
-
-          await expect(page).toHaveScreenshot(`${siteId}-content.png`, {
-            fullPage: false,
-            maxDiffPixelRatio: 0.01,
-          })
-        }
-      })
-    })
-  }
-})
+    }
+  })
+}

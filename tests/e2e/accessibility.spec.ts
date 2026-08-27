@@ -1,141 +1,97 @@
-import { expect, test } from '@playwright/test'
-
 /**
- * Accessibility tests for key pages.
+ * Accessibility Tests
  *
- * These tests validate basic accessibility requirements.
- * For full WCAG 2.1 AA compliance, use axe-core or Lighthouse.
+ * Tests WCAG AA compliance across all themes and components.
+ * Uses axe-core for automated accessibility testing.
  */
 
-test.describe('Accessibility', () => {
-  test('homepage has lang attribute', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
+import { test, expect } from '@playwright/test'
+import AxeBuilder from '@axe-core/playwright'
 
-    const html = page.locator('html')
-    const lang = await html.getAttribute('lang')
-    expect(lang).toBeTruthy()
-  })
+const THEMES = ['dark', 'light', 'sepia', 'contrast', 'nord', 'dracula', 'solarized', 'monokai', 'ayu-mirage', 'papercolor']
 
-  test('homepage has title', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
+const TEST_PAGES = [
+  { name: 'physics', url: 'https://physics.wyattau.com/' },
+  { name: 'mathematics', url: 'https://mathematics.wyattau.com/' },
+  { name: 'computer-science', url: 'https://computer-science.wyattau.com/' },
+  { name: 'ib', url: 'https://ib.wyattau.com/' },
+  { name: 'dse', url: 'https://dse.wyattau.com/' },
+]
 
-    const title = await page.title()
-    expect(title).toBeTruthy()
-    expect(title.length).toBeGreaterThan(0)
-  })
+for (const page of TEST_PAGES) {
+  test.describe(`${page.name} accessibility`, () => {
+    for (const theme of THEMES) {
+      test(`theme: ${theme} - WCAG AA`, async ({ page }) => {
+        await page.goto(page.url)
+        await page.waitForLoadState('networkidle')
 
-  test('homepage has h1', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
+        // Set theme
+        await page.evaluate((t) => {
+          document.documentElement.setAttribute('data-theme', t)
+        }, theme)
 
-    const h1 = page.locator('h1')
-    const count = await h1.count()
-    expect(count).toBeGreaterThanOrEqual(1)
-  })
+        // Wait for theme transition
+        await page.waitForTimeout(500)
 
-  test('navigation has landmark roles', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
+        // Run axe-core accessibility scan
+        const results = await new AxeBuilder({ page })
+          .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+          .analyze()
 
-    // Check for nav element or role="navigation" or sidebar
-    const nav = page.locator('nav, [role="navigation"], .sidebar, aside')
-    const count = await nav.count()
-    // Navigation may be in sidebar or nav element
-    expect(count).toBeGreaterThanOrEqual(0)
-  })
+        // Log violations for debugging
+        if (results.violations.length > 0) {
+          console.log(`\n=== ${page.name} (${theme}) violations ===`)
+          for (const violation of results.violations) {
+            console.log(`  ${violation.id}: ${violation.description}`)
+            console.log(`    Impact: ${violation.impact}`)
+            console.log(`    Nodes: ${violation.nodes.length}`)
+          }
+        }
 
-  test('images have alt text', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
-
-    const images = page.locator('img')
-    const count = await images.count()
-
-    for (let i = 0; i < count; i++) {
-      const img = images.nth(i)
-      const alt = await img.getAttribute('alt')
-      const ariaHidden = await img.getAttribute('aria-hidden')
-
-      // Images should have alt text or be decorative (aria-hidden)
-      if (ariaHidden !== 'true') {
-        expect(alt).toBeTruthy()
-      }
+        // Expect no violations
+        expect(results.violations).toEqual([])
+      })
     }
   })
+}
 
-  test('links have accessible names', async ({ page }) => {
-    await page.goto('/')
+// Test keyboard navigation
+test.describe('Keyboard Navigation', () => {
+  test('skip link is visible on focus', async ({ page }) => {
+    await page.goto('https://physics.wyattau.com/')
     await page.waitForLoadState('networkidle')
 
-    const links = page.locator('a')
-    const count = await links.count()
+    // Press Tab to focus skip link
+    await page.keyboard.press('Tab')
 
-    for (let i = 0; i < Math.min(count, 20); i++) {
-      const link = links.nth(i)
-      const text = await link.textContent()
-      const ariaLabel = await link.getAttribute('aria-label')
-
-      // Links should have text or aria-label
-      expect(text || ariaLabel).toBeTruthy()
-    }
+    // Check if skip link is visible
+    const skipLink = page.locator('.skip-link')
+    await expect(skipLink).toBeVisible()
   })
 
-  test('buttons have accessible names', async ({ page }) => {
-    await page.goto('/')
+  test('search modal opens with Cmd+K', async ({ page }) => {
+    await page.goto('https://physics.wyattau.com/')
     await page.waitForLoadState('networkidle')
 
-    const buttons = page.locator('button')
-    const count = await buttons.count()
+    // Open search modal
+    await page.keyboard.press('Meta+k')
 
-    for (let i = 0; i < Math.min(count, 20); i++) {
-      const button = buttons.nth(i)
-      const text = await button.textContent()
-      const ariaLabel = await button.getAttribute('aria-label')
-
-      // Buttons should have text or aria-label
-      expect(text || ariaLabel).toBeTruthy()
-    }
+    // Check if modal is visible
+    const modal = page.locator('.search-modal-backdrop')
+    await expect(modal).toBeVisible()
   })
 
-  test('form inputs have labels', async ({ page }) => {
-    await page.goto('/')
+  test('search modal closes with Escape', async ({ page }) => {
+    await page.goto('https://physics.wyattau.com/')
     await page.waitForLoadState('networkidle')
 
-    const inputs = page.locator('input:not([type="hidden"])')
-    const count = await inputs.count()
+    // Open search modal
+    await page.keyboard.press('Meta+k')
+    const modal = page.locator('.search-modal-backdrop')
+    await expect(modal).toBeVisible()
 
-    // Some inputs may not have labels (search, etc)
-    // Just check that the page loads without errors
-    expect(count).toBeGreaterThanOrEqual(0)
-  })
-
-  test('skip link exists', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
-
-    // Look for skip link (common pattern)
-    const skipLink = page.locator('a[href="#content"], a[href="#main"], .skip-link')
-    const count = await skipLink.count()
-
-    // Skip link is recommended but not required
-    expect(count).toBeGreaterThanOrEqual(0)
-  })
-
-  test('color contrast is sufficient', async ({ page }) => {
-    await page.goto('/')
-    await page.waitForLoadState('networkidle')
-
-    // Check that text is visible (basic contrast check)
-    const body = page.locator('body')
-    const color = await body.evaluate(el => {
-      const style = window.getComputedStyle(el)
-      return style.color
-    })
-
-    // Color should not be transparent or same as background
-    expect(color).toBeTruthy()
-    expect(color).not.toBe('rgba(0, 0, 0, 0)')
+    // Close with Escape
+    await page.keyboard.press('Escape')
+    await expect(modal).not.toBeVisible()
   })
 })
