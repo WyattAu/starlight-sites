@@ -138,3 +138,10 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - [Diagnostics](./)
 - [Biodiversity, Classification and Evolution -- Diagnostic Tests](./diag-biodiversity-classification-evolution)
 - [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

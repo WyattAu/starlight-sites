@@ -155,3 +155,10 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

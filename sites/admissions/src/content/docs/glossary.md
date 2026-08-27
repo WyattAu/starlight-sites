@@ -194,3 +194,10 @@ tags: [glossary]
 - See [Gaokao Glossary](/gaokao/glossary) for Chinese university admissions
 - See [Leaving Certificate Glossary](/leaving-cert/glossary) for Irish university admissions
 - See [Scottish Highers Glossary](/highers/glossary) for Scottish university admissions
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

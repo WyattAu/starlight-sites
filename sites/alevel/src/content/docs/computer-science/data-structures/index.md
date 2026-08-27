@@ -208,3 +208,10 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - [Computer Science](..)
 - [Arrays and Records](./01-arrays-and-records)
 - [Linked Lists](./02-linked-lists)
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

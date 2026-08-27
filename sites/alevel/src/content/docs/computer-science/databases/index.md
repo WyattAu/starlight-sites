@@ -216,3 +216,10 @@ Transactions and ACID properties ensure that even when things go wrong — power
 - [Computer Science](..)
 - [Relational Databases](./01-relational-databases)
 - [Diagnostics](../../biology/diagnostics)
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

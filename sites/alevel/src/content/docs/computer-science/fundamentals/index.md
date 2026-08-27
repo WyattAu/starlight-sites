@@ -212,3 +212,10 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - [Computer Science](..)
 - [Number Systems](./01-number-systems)
 - [Floating Point Representation](./02-floating-point)
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

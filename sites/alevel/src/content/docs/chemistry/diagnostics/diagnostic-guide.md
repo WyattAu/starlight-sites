@@ -283,3 +283,10 @@ linked above.
 - [Diagnostics](./)
 - [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
 - [Alkanes and Alkenes -- Diagnostic Tests](./diag-alkanes-alkenes)
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```

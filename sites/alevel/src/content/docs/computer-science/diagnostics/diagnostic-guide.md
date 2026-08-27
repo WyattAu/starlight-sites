@@ -137,3 +137,10 @@ linked above.
 - [Diagnostics](./)
 - [Algorithms -- Diagnostic Tests](./diag-algorithms)
 - [Data Structures -- Diagnostic Tests](./diag-data-structures)
+
+```mermaid
+graph TD
+    A[Concept] --> B[Definition]
+    B --> C[Example]
+    C --> D[Practice]
+```
