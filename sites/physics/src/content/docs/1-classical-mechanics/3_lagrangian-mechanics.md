@@ -7,6 +7,9 @@ tags:
   - University
 description: "Lagrangian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+sources:
+  - text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
+  - text: "Landau, L. D., & Lifshitz, E. M. (1976). Mechanics (3rd ed.). Butterworth-Heinemann."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

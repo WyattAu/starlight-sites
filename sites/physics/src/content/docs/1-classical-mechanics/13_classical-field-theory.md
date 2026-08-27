@@ -1,12 +1,30 @@
 ---
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 title: "Classical Field Theory | Physics"
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 tags:
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
   - Physics
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
   - University
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 description: "For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems."
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 ---
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
