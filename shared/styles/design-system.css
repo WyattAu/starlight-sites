@@ -1,0 +1,230 @@
+/* === Design System Tokens === */
+/* Spatial Materialism + Amoebic UI — the unified design language for Wyatt's Notes.
+ *
+ * This file defines:
+ * - Tailwind CSS import
+ * - Self-hosted font faces
+ * - Color tokens (accent, status)
+ * - Spatial Materialism (elevation tiers)
+ * - Amoebic UI (radii, spacing, motion)
+ * - User setting defaults
+ */
+
+@import "tailwindcss";
+
+/* === Custom Utilities === */
+@layer utilities {
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
+/* === Self-hosted Fonts === */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Inter-latin.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/JetBrainsMono-latin.woff2") format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* === Tailwind Theme Extension === */
+@theme {
+  --color-accent: #ff6b35;
+  --color-accent-low: #ff6b3520;
+  --color-accent-high: #ff8c4a;
+
+  --color-success: #2ecc71;
+  --color-warning: #f39c12;
+  --color-error: #e74c3c;
+  --color-info: #3498db;
+  --color-neutral: #95a5a6;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* === Root Design Tokens === */
+:root {
+  /* Accent/Brand */
+  --sl-color-accent: #ff6b35;
+  --sl-color-accent-low: #ff6b3520;
+  --sl-color-accent-high: #ff8c4a;
+
+  /* Typography */
+  --wn-font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --wn-font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --wn-font-weight: 400;
+
+  /* Semantic status colors */
+  --wn-success: #2ecc71;
+  --wn-warning: #f39c12;
+  --wn-error: #e74c3c;
+  --wn-info: #3498db;
+  --wn-neutral: #95a5a6;
+
+  /* Spatial Materialism: layered elevation, weighted surfaces, z-axis depth.
+   * The five elevation tiers model the design as a stack of physical planes:
+   *   tier 0 -- flush with the canvas (no shadow)
+   *   tier 1 -- resting card (subtle lift)
+   *   tier 2 -- popovers, dropdowns
+   *   tier 3 -- dialogs, modals
+   *   tier 4 -- toast + temporary overlays (max separation) */
+  --wn-elevation-0: none;
+  --wn-elevation-1: 0 1px 2px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.06);
+  --wn-elevation-2: 0 4px 8px rgba(15, 23, 42, 0.1), 0 2px 4px rgba(15, 23, 42, 0.08);
+  --wn-elevation-3: 0 12px 24px rgba(15, 23, 42, 0.14), 0 4px 8px rgba(15, 23, 42, 0.1);
+  --wn-elevation-4: 0 24px 48px rgba(15, 23, 42, 0.2), 0 8px 16px rgba(15, 23, 42, 0.12);
+  --wn-elevation-accent: 0 8px 24px color-mix(in srgb, var(--sl-color-accent) 28%, transparent);
+
+  /* Amoebic UI: organic curvature, fluid radii, asymmetric breathing room. */
+  --wn-radius-xs: 6px;
+  --wn-radius-sm: 10px;
+  --wn-radius-md: 14px;
+  --wn-radius-lg: 18px;
+  --wn-radius-xl: 28px;
+  --wn-radius-pill: 999px;
+
+  /* Fluid spacing scale */
+  --wn-space-fluid-xs: clamp(0.5rem, 0.45rem + 0.25vw, 0.75rem);
+  --wn-space-fluid-sm: clamp(0.75rem, 0.65rem + 0.5vw, 1rem);
+  --wn-space-fluid-md: clamp(1rem, 0.85rem + 0.75vw, 1.5rem);
+  --wn-space-fluid-lg: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);
+  --wn-space-fluid-xl: clamp(2.5rem, 2rem + 2.5vw, 4rem);
+
+  /* Motion: organic easing curves */
+  --wn-ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
+  --wn-ease-organic-in: cubic-bezier(0.66, 0, 0.34, 1);
+  --wn-duration-fast: 140ms;
+  --wn-duration-base: 220ms;
+  --wn-duration-slow: 360ms;
+
+  /* User settings defaults */
+  --wn-font-size-scale: 1;
+  --wn-line-height: 1.7;
+  --wn-content-width: 48rem;
+  --wn-para-gap: 1;
+  --wn-letter-spacing: 0px;
+
+  /* Derived tokens */
+  --wn-bg-alt: var(--wn-bg-elevated);
+  --wn-accent: var(--sl-color-accent);
+  --sl-color-asides-text-accent: var(--sl-color-text);
+}
+
+/* === Typography === */
+body {
+  font-family: var(--wn-font-body);
+  font-weight: var(--wn-font-weight, 400);
+}
+
+/* === User Settings Integration === */
+html {
+  font-size: calc(100% * var(--wn-font-size-scale, 1));
+}
+
+body {
+  line-height: var(--wn-line-height, 1.7);
+}
+
+.sl-container {
+  max-width: var(--wn-content-width, 48rem);
+}
+
+[data-justify="true"] .sl-markdown-content {
+  text-align: justify;
+}
+
+[data-justify="false"] .sl-markdown-content {
+  text-align: left;
+}
+
+/* === Theme Transition === */
+html {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* === Font Family Variants === */
+[style*="--wn-font-body"] body {
+  font-family: var(--wn-font-body);
+}
+
+/* === Amoebic UI Radius Application === */
+button,
+input,
+select,
+textarea {
+  border-radius: var(--wn-radius-sm, 10px);
+}
+
+pre,
+code {
+  border-radius: var(--wn-radius-sm, 10px);
+}
+
+/* === Focus Styles === */
+:focus-visible {
+  outline: 2px solid var(--sl-color-accent);
+  outline-offset: 2px;
+}
+
+/* === Reduced Motion === */
+[data-reduce-motion="true"] *,
+[data-reduce-motion="true"] *::before,
+[data-reduce-motion="true"] *::after {
+  animation-duration: 0.01ms;
+  animation-iteration-count: 1;
+  transition-duration: 0.01ms;
+  scroll-behavior: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
+
+/* === Loading State Tokens === */
+:root {
+  --wn-skeleton-base: var(--wn-bg-elevated, #12121a);
+  --wn-skeleton-shine: var(--wn-bg-hover, #242436);
+}
+
+/* === Z-index Scale === */
+:root {
+  --wn-z-dropdown: 50;
+  --wn-z-modal: 100;
+  --wn-z-toast: 150;
+}
+
+/* === Interactive State Tokens === */
+:root {
+  --wn-pressed-scale: 0.98;
+  --wn-hover-lift: -2px;
+}
