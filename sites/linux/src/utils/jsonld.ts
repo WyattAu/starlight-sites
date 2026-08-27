@@ -325,6 +325,7 @@ export function generateSpeakableSchema(props: SpeakableSchemaProps) {
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['.markdown-content', 'h1'],
+      xpath: ['/html/body/main//h1', '/html/body/main//p[1]'],
     },
   }
 }

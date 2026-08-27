@@ -22,14 +22,29 @@ const relatedSiteGroups: Record<string, string[]> = {
   'sciences': ['physics', 'chemistry', 'mathematics', 'computer-science', 'machine-learning'],
 };
 
-// Shared topics that exist across peer sites
+// Shared topics that exist across peer sites (both numbered and unnumbered)
 const sharedExamTopics = [
   'physics', 'chemistry', 'maths', 'mathematics', 'biology', 'computer-science',
   'economics', 'english', 'geography', 'history', 'ict',
+  'classical-mechanics', 'thermal-physics', 'electromagnetism', 'optics', 'quantum-mechanics',
+  'calculus', 'algebra', 'statistics', 'probability', 'geometry',
+  'algorithms', 'data-structures', 'databases', 'networking', 'operating-systems',
+  'fundamentals', 'concurrency', 'object-oriented', 'standard-library',
 ];
 
+// Shared topics across programming sites
+const sharedProgrammingTopics = [
+  'fundamentals', 'concurrency', 'object-oriented', 'standard-library',
+  'data-structures', 'error-handling', 'best-practices', 'async',
+];
+
+// Shared topics across science sites
+const sharedScienceTopics = ['about'];
+
 function getRelatedSites(subdomain: string, pathSegments: string[]): { peers: string[], topic: string } {
+  // Try exact match first, then partial match
   const topPath = pathSegments[0] || '';
+  const fullPath = pathSegments.join('/');
 
   for (const [, sites] of Object.entries(relatedSiteGroups)) {
     if (!sites.includes(subdomain)) continue;
@@ -37,11 +52,19 @@ function getRelatedSites(subdomain: string, pathSegments: string[]): { peers: st
     const peers = sites.filter(s => s !== subdomain);
     const sharedTopics =
       sites === relatedSiteGroups['exam-boards'] ? sharedExamTopics :
-      sites === relatedSiteGroups.programming ? [] :
+      sites === relatedSiteGroups.programming ? sharedProgrammingTopics :
       sites === relatedSiteGroups['cs-infrastructure'] ? [] :
-      [];
+      sharedScienceTopics;
 
-    if (topPath && sharedTopics.includes(topPath)) {
+    // Check if any shared topic matches (exact or partial)
+    for (const topic of sharedTopics) {
+      if (topPath === topic || fullPath.includes(topic)) {
+        return { peers, topic };
+      }
+    }
+
+    // If no specific topic match, show all peers for the site group
+    if (topPath && peers.length > 0) {
       return { peers, topic: topPath };
     }
   }

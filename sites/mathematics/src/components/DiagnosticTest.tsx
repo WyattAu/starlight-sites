@@ -12,6 +12,7 @@ import { trackEvent } from '../utils/analytics'
 import { COLORS } from '../utils/colors'
 import { formatTime } from '../utils/format'
 import { sanitizeHtml } from '../utils/sanitize'
+import ErrorBoundary from './ErrorBoundary'
 import QuestionDialog from './QuestionDialog'
 
 export interface DiagnosticQuestion {
@@ -400,7 +401,8 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   if (!q) return null
 
   return (
-    <QuestionDialog
+    <ErrorBoundary component="DiagnosticTest">
+      <QuestionDialog
       open={true}
       onOpenChange={() => {}}
       title={`Question ${progress() + 1} of ${maxQ}`}
@@ -478,5 +480,6 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
         </Show>
       </div>
     </QuestionDialog>
+    </ErrorBoundary>
   )
 }

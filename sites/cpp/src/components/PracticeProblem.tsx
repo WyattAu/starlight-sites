@@ -3,6 +3,7 @@ import { createSignal, For } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { escapeHtml } from '../utils/escape'
 import { sanitizeHtml } from '../utils/sanitize'
+import ErrorBoundary from './ErrorBoundary'
 import QuestionDialog from './QuestionDialog'
 
 export interface PracticeQuestionData {
@@ -108,7 +109,8 @@ function PracticeProblemItem(props: {
   }
 
   return (
-    <QuestionDialog
+    <ErrorBoundary component="PracticeProblem">
+      <QuestionDialog
       open={true}
       onOpenChange={() => {}}
       title={`Practice Problem - ${props.difficulty}`}
@@ -190,5 +192,6 @@ function PracticeProblemItem(props: {
         </QuestionDialog>
       )}
     </QuestionDialog>
+    </ErrorBoundary>
   )
 }

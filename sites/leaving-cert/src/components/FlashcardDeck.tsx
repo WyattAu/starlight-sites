@@ -16,6 +16,7 @@
 import { createEffect, createMemo, createSignal, onCleanup } from 'solid-js'
 import { t } from '../i18n/config'
 import { trackEvent } from '../utils/analytics'
+import ErrorBoundary from './ErrorBoundary'
 import type { View } from './flashcard/constants'
 import DeckView from './flashcard/DeckView'
 import ReviewView from './flashcard/ReviewView'
@@ -341,10 +342,11 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   }
 
   return (
-    <section
-      aria-label={props.title ? `Flashcard deck: ${props.title}` : 'Flashcard deck'}
-      class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
-    >
+    <ErrorBoundary component="FlashcardDeck">
+      <section
+        aria-label={props.title ? `Flashcard deck: ${props.title}` : 'Flashcard deck'}
+        class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
+      >
       <ReviewQueue
         open={getReviewQueueOpen()}
         onOpenChange={setReviewQueueOpen}
@@ -414,5 +416,6 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
         </SettingsDialog>
       )}
     </section>
+    </ErrorBoundary>
   )
 }

@@ -1,39 +1,56 @@
-// ErrorBoundary: minimal SolidJS wrapper for component-level error reporting.
+// ErrorBoundary: SolidJS wrapper for component-level error reporting.
 //
-// The actual error capture happens via installGlobalErrorCapture() which
-// sets up window.onerror and unhandledrejection handlers. This component
-// provides a per-component fallback UI and an additional error reporting
-// hook for child-level errors.
+// Uses SolidJS's built-in ErrorBoundary for proper error catching.
+// Integrates with error-tracker for error reporting.
 //
 // @ts-check
 
-import { createSignal, type JSX } from 'solid-js'
+import { ErrorBoundary as SolidErrorBoundary } from 'solid-js'
 import { captureClientError } from '../utils/error-tracker'
+import type { JSX } from 'solid-js'
 
 interface ErrorBoundaryProps {
   children: JSX.Element
-  fallback?: (error: Error) => JSX.Element
+  fallback?: (error: Error, reset: () => void) => JSX.Element
   component?: string
 }
 
 export default function ErrorBoundary(props: ErrorBoundaryProps) {
-  const [error, setError] = createSignal<Error | null>(null)
+  const defaultFallback = (error: Error, reset: () => void) => (
+    <div class="error-boundary-fallback" style={{
+      'padding': '1rem',
+      'border': '1px solid var(--wn-error, #e74c3c)',
+      'border-radius': 'var(--wn-radius-sm, 10px)',
+      'background': 'rgba(231, 76, 60, 0.05)',
+      'color': 'var(--wn-error, #e74c3c)',
+    }}>
+      <p style={{ 'font-weight': '600', 'margin-bottom': '0.5rem' }}>Something went wrong</p>
+      <p style={{ 'font-size': '0.875rem', 'opacity': '0.7', 'margin-bottom': '0.75rem' }}>{error.message}</p>
+      <button
+        onClick={reset}
+        style={{
+          'padding': '0.375rem 0.75rem',
+          'border': '1px solid var(--wn-error, #e74c3c)',
+          'border-radius': 'var(--wn-radius-xs, 6px)',
+          'background': 'transparent',
+          'color': 'var(--wn-error, #e74c3c)',
+          'cursor': 'pointer',
+          'font-size': '0.875rem',
+        }}
+      >
+        Try again
+      </button>
+    </div>
+  )
 
-  // Report errors that we catch (from window.onerror integration)
-  if (error()) {
-    captureClientError(error()!, props.component || 'ErrorBoundary')
-  }
-
-  if (error()) {
-    return props.fallback
-      ? props.fallback(error()!)
-      : (
-        <div class="rounded-lg border border-red-300 bg-red-50 p-4 text-sm text-red-800 dark:border-red-800 dark:bg-red-950 dark:text-red-200">
-          <p class="font-medium">Something went wrong</p>
-          <p class="mt-1 text-xs opacity-70">{error()?.message}</p>
-        </div>
-      )
-  }
-
-  return <>{props.children}</>
+  return (
+    <SolidErrorBoundary
+      fallback={props.fallback || defaultFallback}
+      onError={(error) => {
+        captureClientError(error, props.component || 'ErrorBoundary')
+      }}
+    >
+      {props.children}
+    </SolidErrorBoundary>
+  )
 }
