@@ -1,24 +1,11 @@
 ---
-sources:
-  - text: Standard textbook reference
-title: "EU Driving Test | driving-eu - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
-description: Complete EU driving test preparation covering theory and practical tests across European countries.
-sources:
-  - text: Standard textbook reference
-date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
+title: "EU Driving Test | Driving (EU) - Wyatt's Notes"
+description: "Complete EU driving test preparation covering theory and practical tests across European countries with practice questions and study guides."
 tags:
-sources:
-  - text: Standard textbook reference
   - test-prep
-sources:
-  - text: Standard textbook reference
+  - driving
+  - eu
 ---
-sources:
-  - text: Standard textbook reference
 
 # EU Driving Test
 
@@ -26,46 +13,43 @@ Complete EU driving test preparation covering theory and practical tests across 
 
 ## Topics
 
-## Theory Test
+### Theory Test
+- EU driving regulations
+- Road signs and markings
+- Speed limits by country
+- Right-of-way rules
 
-- Traffic Signs
-- Road Rules
-- Safe Driving
-- Environmental Driving
+### Practical Test
+- Vehicle control
+- Maneuvres
+- Emergency procedures
+- Road positioning
 
-## Practical Test
+## Country-Specific Information
 
-- Urban Driving
-- Rural Driving
-- Highway Driving
-- Night Driving
+### Germany
+- Theory test in German or English
+- Practical test includes Autobahn driving
+- Strict vehicle inspection (TÜV)
 
-## Country Guides
+### France
+- Theory test in French
+- Practical test includes mountain roads
+- Compulsory first-aid certificate
 
-- Germany
-- France
-- Spain
-- Italy
-- Netherlands
+### Spain
+- Theory test in Spanish
+- Practical test includes parking manoeuvres
+- Medical certificate required
 
-## How to Use These Notes
+## Study Tips
 
-1. **Start with the fundamentals** - build a solid foundation before moving to advanced topics
-2. **Work through examples** - follow along with the worked examples to build intuition
-3. **Test yourself** - use the practice problems and mock tests to check your understanding
-4. **Review regularly** - spaced repetition helps retain what you have learned
+1. Focus on country-specific regulations
+2. Practice theory test questions
+3. Understand road sign differences
+4. Learn speed limits for each country
 
-## Common Mistakes
+## Related Sites
 
-**Not practicing with official materials:** Use official practice tests and study materials from the testing authority.
-
-**Ignoring weak areas:** Focus extra time on topics you find difficult rather than reviewing what you already know.
-
-**Rushing through content:** Take time to understand concepts thoroughly rather than memorizing answers.
-
-## See Also
-
-- [Theory Test](./theory-test)
-- [About This Site](./about)
-
-Keep practising and reviewing to master this topic.
+- **[Driving (UK)](https://driving-uk.wyattau.com)** - UK driving test preparation
+- **[Driving (US)](https://driving-us.wyattau.com)** - US driving test preparation
