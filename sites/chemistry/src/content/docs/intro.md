@@ -20,6 +20,13 @@ Browse the content using the sidebar navigation on the left.
 
 ## How to Use These Notes
 
+```mermaid
+graph TD
+    R[Reactants] -->|energy| P[Products]
+    R -->|catalyst| P
+```
+
+
 Chemistry is a cumulative subject — each concept builds on previous knowledge. Work through physical chemistry first (thermodynamics, kinetics, quantum mechanics), then organic chemistry (mechanisms, synthesis), then inorganic chemistry (coordination compounds, solid-state).
 
 **Problem-solving approach:** Chemistry problems require both conceptual understanding and numerical skill. For mechanism questions, always draw electron-pushing arrows. For calculation questions, track units through every step and verify your answer makes physical sense.

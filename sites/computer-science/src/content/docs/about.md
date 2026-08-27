@@ -11,6 +11,14 @@ categories:
 
 ## About Wyatt's Notes — Computer Science
 
+```mermaid
+graph TD
+    O[Problem] --> A[Algorithm]
+    A --> B[Data Structure]
+    B --> C[Solution]
+```
+
+
 Wyatt's Notes provides comprehensive study materials for computer science theory. These notes cover algorithms, data structures, computational complexity, formal languages, and discrete mathematics, building the theoretical foundation essential for computer scientists.
 
 ### Why Trust These Resources?

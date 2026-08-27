@@ -11,6 +11,13 @@ categories:
 
 ## About Wyatt's Notes — Chemistry
 
+```mermaid
+graph TD
+    R[Reactants] -->|energy| P[Products]
+    R -->|catalyst| P
+```
+
+
 Wyatt's Notes delivers thorough study materials for university-level chemistry. These notes cover physical chemistry, organic chemistry, inorganic chemistry, and analytical chemistry, providing the conceptual depth and problem-solving skills essential for chemistry students.
 
 ### Why Trust These Resources?

@@ -11,6 +11,14 @@ categories:
 
 ## About Wyatt's Notes — Programming
 
+```mermaid
+graph TD
+    V[Variables] --> C[Control Flow]
+    C --> F[Functions]
+    F --> O[Objects]
+```
+
+
 Wyatt's Notes offers comprehensive study materials for programming across multiple languages and paradigms. These notes cover C++ as the primary focus, with additional resources for Python, Java, and other major languages, building from fundamentals to advanced systems programming.
 
 ### Why Trust These Resources?

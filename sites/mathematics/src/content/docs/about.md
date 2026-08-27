@@ -11,6 +11,14 @@ categories:
 
 ## About Wyatt's Notes — Mathematics
 
+```mermaid
+graph TD
+    A[Limits] --> B[Continuity]
+    B --> C[Differentiation]
+    C --> D[Integration]
+```
+
+
 Wyatt's Notes provides comprehensive study materials for university-level mathematics. These notes cover linear algebra, calculus, differential equations, abstract algebra, and more, building from foundational concepts to advanced mathematical theory.
 
 ### Why Trust These Resources?

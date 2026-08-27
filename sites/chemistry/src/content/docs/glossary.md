@@ -7,6 +7,13 @@ tags: [glossary]
 
 ## General Chemistry
 
+```mermaid
+graph TD
+    R[Reactants] -->|energy| P[Products]
+    R -->|catalyst| P
+```
+
+
 **Accuracy**: How close a measurement is to the true or accepted value. Related to [Precision](#precision).
 
 **Atom**: The smallest unit of an element that retains the chemical properties of that element. Consists of a nucleus (protons + neutrons) and electrons.

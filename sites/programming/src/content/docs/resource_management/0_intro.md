@@ -46,6 +46,14 @@ Covered in detail in Module 13.
 
 ## Common Pitfalls
 
+```mermaid
+graph TD
+    V[Variables] --> C[Control Flow]
+    C --> F[Functions]
+    F --> O[Objects]
+```
+
+
 1. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
 2. Memorising content without understanding the underlying principles. This leads to poor
