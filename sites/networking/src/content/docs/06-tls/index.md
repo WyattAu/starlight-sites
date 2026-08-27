@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Tls | Networking - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 06 tls study notes for networking with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.

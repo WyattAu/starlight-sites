@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Security Fundamentals - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 01 security fundamentals study notes for security with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.

@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Diagnostics | GCSE - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive diagnostics study notes for gcse with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and practical programming assessments.

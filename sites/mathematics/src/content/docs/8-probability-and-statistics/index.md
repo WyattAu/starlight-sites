@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Spivak - Calculus
 title: "Probability Theory | Mathematics"
+sources:
+  - text: Spivak - Calculus
 description: 'UNIVERSITY Mathematics notes: Probability Theory. Comprehensive study material with definitions, examples, and assessment tools.'
+sources:
+  - text: Spivak - Calculus
 tags:
+sources:
+  - text: Spivak - Calculus
   - Mathematics
+sources:
+  - text: Spivak - Calculus
   - University
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

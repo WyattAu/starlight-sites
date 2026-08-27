@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Language Proficiency Tests | language-tests"
+sources:
+  - text: Standard textbook reference
 description: Complete preparation for language proficiency tests from A1 to C2 levels.
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - test-prep
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 # Language Proficiency Tests
 

@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 title: Algorithms and Data Structures
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 description: "Algorithms and data structures form the core of practical computer science. An algorithm is a step-by-step procedure for solving a problem, while a data"
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 tags:
+sources:
+  - text: Cormen et al - Introduction to Algorithms
   - Computing
+sources:
+  - text: Cormen et al - Introduction to Algorithms
   - University
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 ---
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

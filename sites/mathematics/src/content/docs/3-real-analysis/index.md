@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Spivak - Calculus
 title: "Real Analysis | Mathematics - Wyatt's Notes"
+sources:
+  - text: Spivak - Calculus
 tags:
+sources:
+  - text: Spivak - Calculus
   - Mathematics
+sources:
+  - text: Spivak - Calculus
   - University
+sources:
+  - text: Spivak - Calculus
 description: "Real analysis reconstructs the calculus on a rigorous foundation. Where the introductory calculus takes the real numbers, limits, and continuity as informal"
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

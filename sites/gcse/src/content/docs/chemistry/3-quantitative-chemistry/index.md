@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Quantitative Chemistry | GCSE - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 3 quantitative chemistry study notes for gcse with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Mastery of these concepts enables you to analyse quantitative problems and predict reaction outcomes systematically.

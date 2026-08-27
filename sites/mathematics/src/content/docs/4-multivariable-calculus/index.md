@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Spivak - Calculus
 title: "Multivariable Calculus | Mathematics"
+sources:
+  - text: Spivak - Calculus
 tags:
+sources:
+  - text: Spivak - Calculus
   - Mathematics
+sources:
+  - text: Spivak - Calculus
   - University
+sources:
+  - text: Spivak - Calculus
 description: "Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the"
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

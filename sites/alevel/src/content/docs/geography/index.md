@@ -1,12 +1,30 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 title: "A-Level Geography - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 date: 2026-05-21
+sources:
+  - text: Standard textbook reference
 tags: [alevel, alevel-geography]
+sources:
+  - text: Standard textbook reference
 categories: [alevel, geography]
+sources:
+  - text: Standard textbook reference
 description: 'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -97,88 +115,254 @@ A-Level Geography is assessed through three written papers and a non-examined fi
    answers across all papers.
 
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 <!-- Breadcrumb Schema for SEO -->
+sources:
+  - text: Standard textbook reference
 <script type="application/ld+json">
+sources:
+  - text: Standard textbook reference
 {
+sources:
+  - text: Standard textbook reference
   "@context": "https://schema.org",
+sources:
+  - text: Standard textbook reference
   "@type": "BreadcrumbList",
+sources:
+  - text: Standard textbook reference
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Index", "url": "https://alevel.wyattau.com/geography/index"}]
+sources:
+  - text: Standard textbook reference
 }
+sources:
+  - text: Standard textbook reference
 </script>
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 <!-- Course Schema for SEO -->
+sources:
+  - text: Standard textbook reference
 <script type="application/ld+json">
+sources:
+  - text: Standard textbook reference
 {
+sources:
+  - text: Standard textbook reference
   "@context": "https://schema.org",
+sources:
+  - text: Standard textbook reference
   "@type": "Course",
+sources:
+  - text: Standard textbook reference
   "name": "A-Level Geography",
+sources:
+  - text: Standard textbook reference
   "description": "'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'",
+sources:
+  - text: Standard textbook reference
   "provider": {
+sources:
+  - text: Standard textbook reference
     "@type": "Organization",
+sources:
+  - text: Standard textbook reference
     "name": "Wyatt's Notes",
+sources:
+  - text: Standard textbook reference
     "url": "https://alevel.wyattau.com"
+sources:
+  - text: Standard textbook reference
   },
+sources:
+  - text: Standard textbook reference
   "url": "https://alevel.wyattau.com",
+sources:
+  - text: Standard textbook reference
   "educationalLevel": "Secondary",
+sources:
+  - text: Standard textbook reference
   "inLanguage": "en",
+sources:
+  - text: Standard textbook reference
   "isAccessibleForFree": true,
+sources:
+  - text: Standard textbook reference
   "hasCourseInstance": {
+sources:
+  - text: Standard textbook reference
     "@type": "CourseInstance",
+sources:
+  - text: Standard textbook reference
     "courseMode": "online",
+sources:
+  - text: Standard textbook reference
     "courseWorkload": "PT1H"
+sources:
+  - text: Standard textbook reference
   }
+sources:
+  - text: Standard textbook reference
 }
+sources:
+  - text: Standard textbook reference
 </script>
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 > **Source**: Content aligned with AQA Geography (7037) specification. Case studies drawn from
+sources:
+  - text: Standard textbook reference
 > widely-used textbooks and publicly available data.
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Overview
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 This section provides comprehensive A-Level Geography content for Geography, covering all specification points with detailed explanations, worked examples, and practice questions.
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Content Structure
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 Each page in this section includes:
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 - **Definitions**: Clear, precise explanations of key concepts
+sources:
+  - text: Standard textbook reference
 - **Worked Examples**: Step-by-step solutions with annotations
+sources:
+  - text: Standard textbook reference
 - **Practice Questions**: Multiple-choice and structured questions with mark schemes
+sources:
+  - text: Standard textbook reference
 - **Common Pitfalls**: Errors to avoid and how to fix them
+sources:
+  - text: Standard textbook reference
 - **Exam Tips**: Strategies for maximising marks in this topic
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## How to Use These Notes
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 1. Read the introductory page to understand the topic overview
+sources:
+  - text: Standard textbook reference
 2. Work through each sub-topic in order
+sources:
+  - text: Standard textbook reference
 3. Attempt the practice questions before checking solutions
+sources:
+  - text: Standard textbook reference
 4. Use the flashcards to revise key terminology
+sources:
+  - text: Standard textbook reference
 5. Complete the diagnostic test to identify remaining gaps
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Key Topics
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 - Core definitions and principles
+sources:
+  - text: Standard textbook reference
 - Application to examination-style questions
+sources:
+  - text: Standard textbook reference
 - Links to related topics across the specification
+sources:
+  - text: Standard textbook reference
 - Assessment objective alignment (AO1, AO2, AO3)
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Revision Strategies
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 - **Active Recall**: Test yourself regularly rather than re-reading notes
+sources:
+  - text: Standard textbook reference
 - **Spaced Practice**: Revisit this topic at increasing intervals
+sources:
+  - text: Standard textbook reference
 - **Interleaving**: Mix with other topics during revision sessions
+sources:
+  - text: Standard textbook reference
 - **Elaboration**: Explain concepts in your own words
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Exam Preparation
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Intuition
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 Geography is the study of how people and places interact. Physical geography examines the natural systems that shape our planet, while human geography explores how societies organize and modify those systems. The subject connects local observations to global patterns: a single flood event in Cumbria reveals the same hydrological principles that govern river systems worldwide. Understanding geography means seeing connections between topics that appear unrelated, such as how climate change affects both coastal erosion and food security.
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

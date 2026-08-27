@@ -1,16 +1,42 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 title: "A-Level English - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 date: 2026-01-15T00:00:00.000Z
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - alevel
+sources:
+  - text: Standard textbook reference
   - alevel-english
+sources:
+  - text: Standard textbook reference
 categories:
+sources:
+  - text: Standard textbook reference
   - alevel-english
+sources:
+  - text: Standard textbook reference
 description: "A-Level English notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision and examination preparation."
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

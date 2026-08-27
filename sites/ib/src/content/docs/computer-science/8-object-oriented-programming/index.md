@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Object Oriented Programming | IB"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 8 object oriented programming study notes for ib with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and practical programming assessments.

@@ -1,12 +1,30 @@
 ---
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Spivak - Calculus
 title: "Topology | Mathematics - Wyatt's Notes"
+sources:
+  - text: Spivak - Calculus
 tags:
+sources:
+  - text: Spivak - Calculus
   - University Maths
+sources:
+  - text: Spivak - Calculus
 description: 'Topology: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 title: "Solid State Physics - Wyatt's Notes"
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 tags:
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
   - Physics
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
   - University
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Civics and Citizenship Tests | civics-tests"
+sources:
+  - text: Standard textbook reference
 description: Complete preparation for civics and citizenship tests across countries.
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - test-prep
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 # Civics and Citizenship Tests
 

@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "2_concepts_and_constraints | C++"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 2_concepts_and_constraints study notes for cpp with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.

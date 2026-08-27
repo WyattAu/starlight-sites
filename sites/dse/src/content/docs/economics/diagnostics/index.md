@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Diagnostics | DSE - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive diagnostics study notes for dse with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.

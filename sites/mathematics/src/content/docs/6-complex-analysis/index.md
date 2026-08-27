@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Spivak - Calculus
 title: "Complex Analysis | Mathematics"
+sources:
+  - text: Spivak - Calculus
 tags:
+sources:
+  - text: Spivak - Calculus
   - Mathematics
+sources:
+  - text: Spivak - Calculus
   - University
+sources:
+  - text: Spivak - Calculus
 description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

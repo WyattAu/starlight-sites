@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Standard textbook reference
 title: "Electrostatics | CBSE - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive study notes for Electrostatics with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

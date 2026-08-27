@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Spivak - Calculus
 title: "Demos | Mathematics - Wyatt's Notes"
+sources:
+  - text: Spivak - Calculus
 description: "Comprehensive demos study notes for mathematics with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Spivak - Calculus
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 
 This section covers essential mathematical techniques and theories. These foundations underpin quantitative reasoning across the sciences and are tested in both pure and applied contexts.

@@ -1,15 +1,39 @@
 ---
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 
+sources:
+  - text: Spivak - Calculus
 title: "Number Theory | Mathematics - Wyatt's Notes"
+sources:
+  - text: Spivak - Calculus
 description: "For any integers and with There exist unique Integers and such that with . Comprehensive educational content coverage with definitions and practice problems."
+sources:
+  - text: Spivak - Calculus
 date: 2026-04-24T00:00:00.000Z
+sources:
+  - text: Spivak - Calculus
 tags:
+sources:
+  - text: Spivak - Calculus
   - Mathematics
+sources:
+  - text: Spivak - Calculus
   - University
+sources:
+  - text: Spivak - Calculus
 categories:
+sources:
+  - text: Spivak - Calculus
   - Mathematics
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

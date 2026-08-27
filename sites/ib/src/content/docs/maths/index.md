@@ -1,12 +1,30 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 title: "IB Mathematics - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Complete IB Mathematics revision notes covering algebra, functions, trigonometry, calculus, probability, statistics, vectors, and matrices. Worked examples,"
+sources:
+  - text: Standard textbook reference
 date: 2024-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - ib
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

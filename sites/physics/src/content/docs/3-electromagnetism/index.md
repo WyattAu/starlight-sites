@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 title: "Electromagnetism | Physics - Wyatt's Notes"
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 tags:
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
   - Physics
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
   - University
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools."
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

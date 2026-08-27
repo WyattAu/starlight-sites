@@ -1,16 +1,42 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 title: "GCSE Biology - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: 'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'
+sources:
+  - text: Standard textbook reference
 date: 2026-04-14
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - gcse
+sources:
+  - text: Standard textbook reference
   - gcse-biology
+sources:
+  - text: Standard textbook reference
 categories:
+sources:
+  - text: Standard textbook reference
   - gcse-biology
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

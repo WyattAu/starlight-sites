@@ -1,15 +1,39 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 title: "AP Calculus - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Boa Comprehensive educational content coverage with definitions and practice proble"
+sources:
+  - text: Standard textbook reference
 date: 2026-04-14
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - ap
+sources:
+  - text: Standard textbook reference
   - ap-maths
+sources:
+  - text: Standard textbook reference
 categories:
+sources:
+  - text: Standard textbook reference
   - ap-maths
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

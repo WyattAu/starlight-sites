@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "US Driving Test | driving-us - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: Complete US driving test preparation covering DMV written test, road test, and driving rules by state.
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - test-prep
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 # US Driving Test
 

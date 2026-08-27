@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "EU Driving Test | driving-eu - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: Complete EU driving test preparation covering theory and practical tests across European countries.
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - test-prep
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 # EU Driving Test
 

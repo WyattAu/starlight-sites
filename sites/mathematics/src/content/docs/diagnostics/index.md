@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Spivak - Calculus
 title: "Diagnostics | Mathematics - Wyatt's Notes"
+sources:
+  - text: Spivak - Calculus
 description: "Comprehensive diagnostic test notes for MATHEMATICS covering key concepts and practice problems."
+sources:
+  - text: Spivak - Calculus
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Spivak - Calculus
 ---
+sources:
+  - text: Spivak - Calculus
 
 
 This section covers essential mathematical techniques and theories. These foundations underpin quantitative reasoning across the sciences and are tested in both pure and applied contexts.

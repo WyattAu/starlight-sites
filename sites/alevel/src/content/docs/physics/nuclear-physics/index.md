@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Standard textbook reference
 title: "Nuclear & Quantum Physics | A-Level"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive study notes for Nuclear & Quantum Physics with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -180,42 +194,122 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - [Particle Physics](./04-particle-physics): Investigates the fundamental particles and forces that govern nuclear interactions.
 
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 <!-- Breadcrumb Schema for SEO -->
+sources:
+  - text: Standard textbook reference
 <script type="application/ld+json">
+sources:
+  - text: Standard textbook reference
 {
+sources:
+  - text: Standard textbook reference
   "@context": "https://schema.org",
+sources:
+  - text: Standard textbook reference
   "@type": "BreadcrumbList",
+sources:
+  - text: Standard textbook reference
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Nuclear Physics", "url": "https://alevel.wyattau.com/physics/nuclear-physics"}, {"name": "Index", "url": "https://alevel.wyattau.com/physics/nuclear-physics/index"}]
+sources:
+  - text: Standard textbook reference
 }
+sources:
+  - text: Standard textbook reference
 </script>
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 <!-- Course Schema for SEO -->
+sources:
+  - text: Standard textbook reference
 <script type="application/ld+json">
+sources:
+  - text: Standard textbook reference
 {
+sources:
+  - text: Standard textbook reference
   "@context": "https://schema.org",
+sources:
+  - text: Standard textbook reference
   "@type": "Course",
+sources:
+  - text: Standard textbook reference
   "name": "Nuclear & Quantum Physics",
+sources:
+  - text: Standard textbook reference
   "description": "A-Level Nuclear ",
+sources:
+  - text: Standard textbook reference
   "provider": {
+sources:
+  - text: Standard textbook reference
     "@type": "Organization",
+sources:
+  - text: Standard textbook reference
     "name": "Wyatt's Notes",
+sources:
+  - text: Standard textbook reference
     "url": "https://alevel.wyattau.com"
+sources:
+  - text: Standard textbook reference
   },
+sources:
+  - text: Standard textbook reference
   "url": "https://alevel.wyattau.com",
+sources:
+  - text: Standard textbook reference
   "educationalLevel": "Secondary",
+sources:
+  - text: Standard textbook reference
   "inLanguage": "en",
+sources:
+  - text: Standard textbook reference
   "isAccessibleForFree": true,
+sources:
+  - text: Standard textbook reference
   "hasCourseInstance": {
+sources:
+  - text: Standard textbook reference
     "@type": "CourseInstance",
+sources:
+  - text: Standard textbook reference
     "courseMode": "online",
+sources:
+  - text: Standard textbook reference
     "courseWorkload": "PT1H"
+sources:
+  - text: Standard textbook reference
   }
+sources:
+  - text: Standard textbook reference
 }
+sources:
+  - text: Standard textbook reference
 </script>
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ## Intuition
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 Nuclear and quantum physics is about the very small — atoms, nuclei, and subatomic particles. At this scale, the rules of everyday life break down. Particles can behave like waves. Electrons can be in multiple places at once. Radioactive decay is fundamentally random — you can predict how many atoms will decay, but not which ones.
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 The binding energy curve is the key to understanding nuclear energy. Iron-56 sits at the peak — it's the most stable nucleus. Splitting heavier nuclei (fission) releases energy because the products are more tightly bound. Combining lighter nuclei (fusion) also releases energy for the same reason. This is why the Sun shines (fusion) and why nuclear power plants work (fission). Einstein's $E = mc^2$ tells you how much energy is released: even a tiny mass defect corresponds to enormous energy because $c^2$ is so large.
+sources:
+  - text: Standard textbook reference

@@ -1,15 +1,39 @@
 ---
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 title: "AP US History - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description."
+sources:
+  - text: Standard textbook reference
 date: 2026-04-14
+sources:
+  - text: Standard textbook reference
 tags:
+sources:
+  - text: Standard textbook reference
   - ap
+sources:
+  - text: Standard textbook reference
   - ap-history
+sources:
+  - text: Standard textbook reference
 categories:
+sources:
+  - text: Standard textbook reference
   - ap-history
+sources:
+  - text: Standard textbook reference
 
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

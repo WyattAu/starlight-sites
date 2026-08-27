@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Particulate Nature Of Matter | IB"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 2 particulate nature of matter study notes for ib with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.

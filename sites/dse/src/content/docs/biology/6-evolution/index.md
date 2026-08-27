@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Evolution | DSE - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 6 evolution study notes for dse with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Understanding these foundations is essential for tackling exam questions that require application of biological principles to unfamiliar contexts.

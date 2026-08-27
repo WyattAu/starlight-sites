@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: McConnell - Code Complete
 title: "1_data_layout | Programming - Wyatt's Notes"
+sources:
+  - text: McConnell - Code Complete
 description: "Comprehensive 1_data_layout study notes for programming with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: McConnell - Code Complete
 ---
+sources:
+  - text: McConnell - Code Complete
 
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.

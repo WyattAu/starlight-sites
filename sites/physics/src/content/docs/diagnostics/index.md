@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 title: "Diagnostics | Physics - Wyatt's Notes"
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 description: "Comprehensive diagnostic test notes for PHYSICS covering key concepts and practice problems."
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 
 This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.

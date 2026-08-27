@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 title: "Physics - Wyatt's Notes"
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 description: "This section develops university-level physics from first principles, with emphasis on mathematical derivation and the explicit statement of assumptions."
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 ---
+sources:
+  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

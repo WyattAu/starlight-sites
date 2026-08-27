@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Mathematics | HSC - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive mathematics study notes for hsc with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers essential mathematical techniques and theories. These foundations underpin quantitative reasoning across the sciences and are tested in both pure and applied contexts.

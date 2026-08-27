@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Async | Languages - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 06 async study notes for languages with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.

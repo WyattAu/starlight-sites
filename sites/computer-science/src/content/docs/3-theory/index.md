@@ -1,10 +1,24 @@
 ---
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 title: "Theory | Computer Science - Wyatt's Notes"
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 description: "Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how"
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 ---
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

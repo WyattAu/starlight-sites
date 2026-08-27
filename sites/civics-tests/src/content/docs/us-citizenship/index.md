@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Us Citizenship | civics-tests - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "This section covers civic knowledge, governance structures, and responsible citizenship. Understanding these concepts is essential for informed participation"
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers civic knowledge, governance structures, and responsible citizenship. Understanding these concepts is essential for informed participation in democratic societies.

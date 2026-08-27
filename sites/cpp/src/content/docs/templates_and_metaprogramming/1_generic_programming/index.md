@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "1_generic_programming | C++ - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 1_generic_programming study notes for cpp with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.

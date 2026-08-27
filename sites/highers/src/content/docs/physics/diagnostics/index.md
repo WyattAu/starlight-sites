@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Diagnostics | Highers - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive diagnostics study notes for highers with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.

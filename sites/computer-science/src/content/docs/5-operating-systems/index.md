@@ -1,13 +1,33 @@
 ---
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 date: 2026-07-23T21:57:32+01:00
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 title: "Operating Systems | Computer Science"
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 description: 'Topics in operating systems including process management, synchronisation, memory management, file systems, and virtualization.'
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 tags:
+sources:
+  - text: Cormen et al - Introduction to Algorithms
   - Computing
+sources:
+  - text: Cormen et al - Introduction to Algorithms
   - University
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 ---
+sources:
+  - text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

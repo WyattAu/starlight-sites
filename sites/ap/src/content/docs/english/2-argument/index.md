@@ -1,8 +1,18 @@
 ---
+sources:
+  - text: Standard textbook reference
 title: "Argument | AP - Wyatt's Notes"
+sources:
+  - text: Standard textbook reference
 description: "Comprehensive 2 argument study notes for ap with worked examples, practice problems, and key concepts for exam preparation."
+sources:
+  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
+sources:
+  - text: Standard textbook reference
 ---
+sources:
+  - text: Standard textbook reference
 
 
 This section covers literary analysis, language techniques, and critical writing skills. Strong performance requires close reading, evidence-based argumentation, and awareness of historical and cultural contexts.
