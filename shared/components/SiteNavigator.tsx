@@ -8,70 +8,17 @@
  * - Search filter
  * - Keyboard navigation (↑↓ Enter Escape)
  * - Responsive (bottom sheet on mobile)
+ *
+ * URLs are derived from sites.meta.json (SSOT) via site-data.ts.
  */
 
 import { createSignal, For, Show, createEffect, onCleanup } from 'solid-js'
+import { sites, categories } from '../lib/site-data'
 
 interface SiteNavigatorProps {
   open: boolean
   onOpenChange: (open: boolean) => void
 }
-
-interface Site {
-  name: string
-  url: string
-  category: string
-}
-
-const SITES: Site[] = [
-  // Exam Boards
-  { name: 'DSE', url: 'https://dse.wyattau.com', category: 'Exam Boards' },
-  { name: 'IB', url: 'https://ib.wyattau.com', category: 'Exam Boards' },
-  { name: 'A-Level', url: 'https://alevel.wyattau.com', category: 'Exam Boards' },
-  { name: 'GCSE', url: 'https://gcse.wyattau.com', category: 'Exam Boards' },
-  { name: 'AP', url: 'https://ap.wyattau.com', category: 'Exam Boards' },
-  { name: 'Highers', url: 'https://highers.wyattau.com', category: 'Exam Boards' },
-  { name: 'Leaving Cert', url: 'https://leaving-cert.wyattau.com', category: 'Exam Boards' },
-  { name: 'CBSE', url: 'https://cbse.wyattau.com', category: 'Exam Boards' },
-  { name: 'Gaokao', url: 'https://gaokao.wyattau.com', category: 'Exam Boards' },
-  { name: 'HSC', url: 'https://hsc.wyattau.com', category: 'Exam Boards' },
-  { name: 'SAT', url: 'https://sat.wyattau.com', category: 'Exam Boards' },
-
-  // Computer Science
-  { name: 'C++', url: 'https://cpp.wyattau.com', category: 'Computer Science' },
-  { name: 'Java', url: 'https://java.wyattau.com', category: 'Computer Science' },
-  { name: 'Python', url: 'https://python.wyattau.com', category: 'Computer Science' },
-  { name: 'Rust', url: 'https://rust.wyattau.com', category: 'Computer Science' },
-  { name: 'Go', url: 'https://go.wyattau.com', category: 'Computer Science' },
-  { name: 'Kotlin', url: 'https://kotlin.wyattau.com', category: 'Computer Science' },
-  { name: 'TypeScript', url: 'https://typescript.wyattau.com', category: 'Computer Science' },
-  { name: 'Dart', url: 'https://dart.wyattau.com', category: 'Computer Science' },
-  { name: 'Swift', url: 'https://swift.wyattau.com', category: 'Computer Science' },
-  { name: 'Ruby', url: 'https://ruby.wyattau.com', category: 'Computer Science' },
-  { name: 'Haskell', url: 'https://haskell.wyattau.com', category: 'Computer Science' },
-  { name: 'Elixir', url: 'https://elixir.wyattau.com', category: 'Computer Science' },
-  { name: 'Languages', url: 'https://languages.wyattau.com', category: 'Computer Science' },
-  { name: 'Tools', url: 'https://tools.wyattau.com', category: 'Computer Science' },
-
-  // Further Studies
-  { name: 'Mathematics', url: 'https://mathematics.wyattau.com', category: 'Further Studies' },
-  { name: 'Physics', url: 'https://physics.wyattau.com', category: 'Further Studies' },
-  { name: 'Chemistry', url: 'https://chemistry.wyattau.com', category: 'Further Studies' },
-  { name: 'CS Theory', url: 'https://computer-science.wyattau.com', category: 'Further Studies' },
-  { name: 'Admissions', url: 'https://admissions.wyattau.com', category: 'Further Studies' },
-
-  // Infrastructure
-  { name: 'Networking', url: 'https://networking.wyattau.com', category: 'Infrastructure' },
-  { name: 'Linux', url: 'https://linux.wyattau.com', category: 'Infrastructure' },
-  { name: 'Security', url: 'https://security.wyattau.com', category: 'Infrastructure' },
-  { name: 'Databases', url: 'https://databases.wyattau.com', category: 'Infrastructure' },
-  { name: 'TrueNAS', url: 'https://truenas.wyattau.com', category: 'Infrastructure' },
-  { name: 'Tuning', url: 'https://tuning.wyattau.com', category: 'Infrastructure' },
-  { name: 'Licensing', url: 'https://licensing.wyattau.com', category: 'Infrastructure' },
-  { name: 'ML', url: 'https://machine-learning.wyattau.com', category: 'Infrastructure' },
-]
-
-const CATEGORIES = ['Exam Boards', 'Computer Science', 'Further Studies', 'Infrastructure']
 
 export default function SiteNavigator(props: SiteNavigatorProps) {
   const [filter, setFilter] = createSignal('')
@@ -79,13 +26,13 @@ export default function SiteNavigator(props: SiteNavigatorProps) {
 
   const filteredSites = () => {
     const q = filter().toLowerCase()
-    if (!q) return SITES
-    return SITES.filter(s => s.name.toLowerCase().includes(q) || s.category.toLowerCase().includes(q))
+    if (!q) return sites
+    return sites.filter(s => s.name.toLowerCase().includes(q) || s.category.toLowerCase().includes(q))
   }
 
   const groupedSites = () => {
-    const groups: Record<string, Site[]> = {}
-    for (const cat of CATEGORIES) {
+    const groups: Record<string, typeof sites> = {}
+    for (const cat of categories) {
       groups[cat] = filteredSites().filter(s => s.category === cat)
     }
     return groups
@@ -148,7 +95,7 @@ export default function SiteNavigator(props: SiteNavigatorProps) {
               onKeyDown={handleKeyDown}
             />
 
-            <For each={CATEGORIES}>
+            <For each={categories}>
               {(cat) => (
                 <Show when={groupedSites()[cat]?.length > 0}>
                   <div class="site-nav-category">
