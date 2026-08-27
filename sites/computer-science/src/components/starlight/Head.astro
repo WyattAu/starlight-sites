@@ -166,8 +166,7 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 
 <!-- Hreflang for i18n — Starlight generates hreflang tags from the locales
      config in astro.config.mjs. Do NOT add explicit hreflang tags here;
-     they duplicate Starlight's output and trigger HREF003 warnings. -->
-<link rel="alternate" hreflang="x-default" href={canonicalBase} />
+     they duplicate Starlight's output and trigger HREF003/ISEO003 warnings. -->
 
 <!-- Cross-site alternate links for related sites (SEO: signals content relationship) -->
 {relatedSites.map(relatedSub => {

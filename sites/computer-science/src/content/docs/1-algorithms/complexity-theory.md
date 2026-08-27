@@ -9,6 +9,9 @@ tags:
 categories:
   - Computer Science
 ---
+sources:
+  - text: "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to Algorithms (4th ed.). MIT Press."
+  - text: "Knuth, D. E. (1997). The Art of Computer Programming, Volumes 1-3. Addison-Wesley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

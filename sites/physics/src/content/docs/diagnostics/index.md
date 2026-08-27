@@ -1,6 +1,6 @@
 ---
 title: "Diagnostics | Physics - Wyatt's Notes"
-description: "Comprehensive diagnostics study notes for physics with worked examples, practice problems, and key concepts for exam preparation."
+description: "Comprehensive diagnostic test notes for PHYSICS covering key concepts and practice problems."
 date: 2026-01-01T00:00:00Z
 ---
 

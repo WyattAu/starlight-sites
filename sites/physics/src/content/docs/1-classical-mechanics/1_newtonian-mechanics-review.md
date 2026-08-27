@@ -7,6 +7,9 @@ tags:
   - University
 description: "1. A body remains at rest or in uniform motion unless acted upon by a net force. 2. where . 3. For every action, there is an equal and opposite reaction."
 ---
+sources:
+  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+  - text: "Serway, R. A., & Jewett, J. W. (2018). Physics for Scientists and Engineers (10th ed.). Cengage Learning."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

@@ -1,6 +1,6 @@
 ---
 title: "Diagnostics | Mathematics - Wyatt's Notes"
-description: "Comprehensive diagnostics study notes for mathematics with worked examples, practice problems, and key concepts for exam preparation."
+description: "Comprehensive diagnostic test notes for MATHEMATICS covering key concepts and practice problems."
 date: 2026-01-01T00:00:00Z
 ---
 

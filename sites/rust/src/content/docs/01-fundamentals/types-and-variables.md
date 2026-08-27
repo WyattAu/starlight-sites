@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Types and Variables | Rust - Wyatt's Notes"
-description: "Comprehensive study notes for Types and Variables with worked examples, practice problems, and key concepts for exam preparation."
+description: "Comprehensive study notes covering types and variables with worked examples and practice problems."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
