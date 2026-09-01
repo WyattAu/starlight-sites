@@ -136,19 +136,19 @@ export default function ThemeCreator(props: ThemeCreatorProps) {
               <div class="contrast-row">
                 <span>Text on Background:</span>
                 <span class={isWCAAPass(textOnBg(), false) ? 'contrast-pass' : 'contrast-fail'}>
-                  {textOnBg().toFixed(1)}:1 {isWCAAPass(textOnBg(), false) ? '✓ Pass' : '✗ Fail'}
+                  {textOnBg().toFixed(1)}:1 {isWCAAPass(textOnBg(), false) ? '[PASS]' : '[FAIL]'}
                 </span>
               </div>
               <div class="contrast-row">
                 <span>Muted on Background:</span>
                 <span class={isWCAAPass(mutedOnBg(), false) ? 'contrast-pass' : 'contrast-fail'}>
-                  {mutedOnBg().toFixed(1)}:1 {isWCAAPass(mutedOnBg(), false) ? '✓ Pass' : '✗ Fail'}
+                  {mutedOnBg().toFixed(1)}:1 {isWCAAPass(mutedOnBg(), false) ? '[PASS]' : '[FAIL]'}
                 </span>
               </div>
               <div class="contrast-row">
                 <span>Accent on Background:</span>
                 <span class={isWCAAPass(accentOnBg(), false) ? 'contrast-pass' : 'contrast-fail'}>
-                  {accentOnBg().toFixed(1)}:1 {isWCAAPass(accentOnBg(), false) ? '✓ Pass' : '✗ Fail'}
+                  {accentOnBg().toFixed(1)}:1 {isWCAAPass(accentOnBg(), false) ? '[PASS]' : '[FAIL]'}
                 </span>
               </div>
             </div>
