@@ -186,7 +186,7 @@ Resource management is the central challenge in C++ programming: who owns a reso
 ## Cross-References
 
 - [RAII Patterns](1_ownership_and_raii/1_raii_patterns)
-- [Unique Ptr](/programming/resource_management/1_ownership_and_raii/2_unique_ptr)
+- [Unique Ptr](1_ownership_and_raii/2_unique_ptr)
 - [Value Taxonomy](2_value_categories_and_move/1_value_taxonomy)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)

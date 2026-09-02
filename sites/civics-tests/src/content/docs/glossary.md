@@ -193,5 +193,5 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Admissions Glossary](/admissions/glossary) for US university application terms
-- See [SAT Glossary](/sat/glossary) for college admissions testing
+- See [Admissions Glossary](../../../../typescript/src/content/docs/glossary) for US university application terms
+- See [SAT Glossary](../../../../typescript/src/content/docs/glossary) for college admissions testing

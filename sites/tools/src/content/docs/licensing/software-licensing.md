@@ -975,4 +975,4 @@ Software licensing is like choosing how to share a recipe. Permissive licenses a
 
 ## Cross-References
 
-- [Introduction to Licensing](/tools/licensing/intro) - Conceptual foundations and the licensing spectrum
+- [Introduction to Licensing](../zh/algorithms/intro) - Conceptual foundations and the licensing spectrum

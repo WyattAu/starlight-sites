@@ -109,12 +109,12 @@ European road signs follow the Vienna Convention system, creating a broadly reco
 - [Mandatory Signs](road-signs/mandatory) -- blue circular signs giving positive instructions
 - [Information and Direction Signs](../../../../physics/src/content/docs/2-thermal-physics/20_thermodynamics-of-information-processing) -- rectangular signs for guidance and services
 - [Country-Specific Signs](road-signs/country-specific) -- signs unique to individual EU nations
-- [Motorway Signs](road-signs/motorway) -- the blue or green motorway sign system and on-ramp markings
+- [Motorway Signs](../../../../driving-uk/src/content/docs/highway-code/motorway-driving) -- the blue or green motorway sign system and on-ramp markings
 
 ### Practice and Review
 
-- [Flashcards: European Road Signs](flashcards-european-road-signs)
-- [Practice Questions: European Road Signs](practice-european-road-signs)
+- [Flashcards: European Road Signs](../../../../driving-uk/src/content/docs/highway-code/road-signs)
+- [Practice Questions: European Road Signs](../../../../driving-uk/src/content/docs/highway-code/road-signs)
 
 ### Key Test Focus
 
@@ -128,8 +128,8 @@ While the EU harmonises many regulations, the rules of the road vary between cou
 
 ### Topic Notes
 
-- [Speed Limits by Country](rules/speed-limits) -- urban, rural, and motorway limits across all EU states
-- [Right of Way](rules/right-of-way) -- priority rules, roundabouts, and unmarked junctions
+- [Speed Limits by Country](../../../../driving-us/src/content/docs/speed-limits) -- urban, rural, and motorway limits across all EU states
+- [Right of Way](../../../../driving-us/src/content/docs/right-of-way) -- priority rules, roundabouts, and unmarked junctions
 - [Drunk Driving Limits](../../../../alevel/src/content/docs/chemistry/diagnostics/diag-halogenoalkanes-alcohols) -- BAC limits across Europe (0.0% in some countries, 0.5% in most)
 - [Mandatory Equipment](rules/equipment) -- warning triangles, high-visibility vests, first-aid kits, and breathalysers
 - [Winter Tyres and Chains](rules/winter) -- when winter tyres are required and snow chain regulations
@@ -164,7 +164,7 @@ Each EU member state has its own driving test system. The theory test format, nu
 ### Practice and Review
 
 - [Country-Specific Flashcards](flashcards-country-specific)
-- [Country-Specific Practice Tests](practice-tests-country)
+- [Country-Specific Practice Tests](../../../../civics-tests/src/content/docs/us-citizenship/practice-test)
 
 ### Key Test Focus
 
@@ -201,7 +201,7 @@ Driving across EU borders requires awareness of different rules, toll systems, a
 ### Topic Notes
 
 - [Cross-Border Basics](cross-border) -- what changes when you cross an EU border
-- [Emergency Numbers](cross-border/emergency) -- 112 (EU-wide) and country-specific emergency numbers
+- [Emergency Numbers](../../../../driving-uk/src/content/docs/emergency-techniques) -- 112 (EU-wide) and country-specific emergency numbers
 - [European Accident Statement](cross-border/accident) -- the standardised form for reporting accidents abroad
 - [Insurance Green Card](cross-border/insurance) -- when you need a Green Card and how to obtain one
 - [Breakdown Cover](cross-border/breakdown) -- European breakdown assistance and the European Emergency Number

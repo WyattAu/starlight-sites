@@ -240,5 +240,5 @@ rather than penalty terms.
 
 ## Cross-References
 
-- [Definitions](/tools/probabilisticml/1_fundamentals/2_definitions) - Formal mathematical definitions for the concepts used in supervised learning
-- [Probabilistic ML Introduction](/tools/probabilisticml/0_intro) - Overview of probabilistic approaches to machine learning
+- [Definitions](2_definitions) - Formal mathematical definitions for the concepts used in supervised learning
+- [Probabilistic ML Introduction](../0_intro) - Overview of probabilistic approaches to machine learning

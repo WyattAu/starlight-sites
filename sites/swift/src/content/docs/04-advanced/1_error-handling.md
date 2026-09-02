@@ -783,6 +783,6 @@ languages.
 
 ## Cross-References
 
-- [Variables and Types](/swift/01-basics/1_variables-and-types) - How optionals relate to error handling with try? and optional chaining
-- [Functions](/swift/02-functions-closures/1_functions) - How throwing functions and rethrows extend the function type system
-- [Concurrency](/swift/04-advanced/2_concurrency) - How async/await integrates with try/catch for concurrent error handling
+- [Variables and Types](../01-basics/1_variables-and-types) - How optionals relate to error handling with try? and optional chaining
+- [Functions](../02-functions-closures/1_functions) - How throwing functions and rethrows extend the function type system
+- [Concurrency](2_concurrency) - How async/await integrates with try/catch for concurrent error handling

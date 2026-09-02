@@ -639,6 +639,6 @@ linked above.
 
 ## Cross-References
 
-- [Types and Annotations](/typescript/types-and-annotations) - How function signatures use type annotations for parameter and return types
-- [Generics](/typescript/generics) - How generic functions enable type-safe reusable utilities
-- [Advanced Types](/typescript/advanced-types) - How conditional types and infer extend function type manipulation
+- [Types and Annotations](types-and-annotations) - How function signatures use type annotations for parameter and return types
+- [Generics](generics) - How generic functions enable type-safe reusable utilities
+- [Advanced Types](advanced-types) - How conditional types and infer extend function type manipulation

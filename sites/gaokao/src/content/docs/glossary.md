@@ -177,8 +177,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [University Mathematics Glossary](/mathematics/glossary) for deeper mathematics
-- See [University Physics Glossary](/physics/glossary) for deeper physics
-- See [University Chemistry Glossary](/chemistry/glossary) for deeper chemistry
-- See [University Admissions Glossary](/admissions/glossary) for international university applications
-- See [SAT Glossary](/sat/glossary) for comparison with US admissions testing
+- See [University Mathematics Glossary](glossary) for deeper mathematics
+- See [University Physics Glossary](glossary) for deeper physics
+- See [University Chemistry Glossary](glossary) for deeper chemistry
+- See [University Admissions Glossary](glossary) for international university applications
+- See [SAT Glossary](glossary) for comparison with US admissions testing

@@ -362,6 +362,6 @@ Branching in Git is like creating a parallel universe: you can experiment freely
 
 ## Cross-References
 
-- [Introduction to Git](/tools/git/01-intro)
+- [Introduction to Git](../../zh/algorithms/intro)
 - [Merging](/tools/git/03-branching-and-merging/02-merging)
 - [Git Workflows](/tools/git/04-remotes-and-workflows/02-workflows)

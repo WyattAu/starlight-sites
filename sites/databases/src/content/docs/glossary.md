@@ -397,8 +397,8 @@ SELECT id, name, email FROM users WHERE active = true;
 
 ## Related Terms
 
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [Python Glossary](/python/glossary) for Python database libraries
-- See [Java Glossary](/java/glossary) for Java database connectivity
-- See [Machine Learning Glossary](/machine-learning/glossary) for data in ML pipelines
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
+- See [Programming Glossary](../../../../typescript/src/content/docs/glossary) for general programming concepts
+- See [Python Glossary](../../../../typescript/src/content/docs/glossary) for Python database libraries
+- See [Java Glossary](../../../../typescript/src/content/docs/glossary) for Java database connectivity
+- See [Machine Learning Glossary](../../../../typescript/src/content/docs/glossary) for data in ML pipelines
+- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for CS fundamentals

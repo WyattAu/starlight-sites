@@ -108,7 +108,7 @@ Each admissions test has its own personality. The MAT is a careful conversation,
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for admissions notes.
-- **[Practice](../../practice-admissions):** Practice problems for revision.
+- **[Practice](practice-admissions):** Practice problems for revision.
 
 ## Common Mistakes
 

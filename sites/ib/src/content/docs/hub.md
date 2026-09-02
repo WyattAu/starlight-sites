@@ -185,12 +185,12 @@ IB Mathematics covers number and algebra, functions, geometry and trigonometry, 
 
 ### Topic Notes
 
-- [Number and Algebra](maths/1-number-and-algebra/index)
+- [Number and Algebra](zh/index)
 - [Functions](maths/2-functions/index)
-- [Geometry and Trigonometry](maths/3-geometry-and-trigonometry/index)
+- [Geometry and Trigonometry](zh/index)
 - [Statistics and Probability](maths/4-statistics-and-probability/index)
 - [Calculus](maths/5-calculus/index)
-- [Discrete Mathematics](maths/6-discrete-mathematics/index)
+- [Discrete Mathematics](zh/index)
 - [Analysis and Approaches Question Bank](mathematics/analysis-and-approaches-question-bank)
 
 ### Practice and Review
@@ -264,11 +264,11 @@ IB Geography covers climate change and hazards, freshwater issues, population di
 
 ### Topic Notes
 
-- [Climate Change and Hazards](geography/climate/index) — climate systems, global warming, and natural hazards
-- [Freshwater Issues](geography/freshwater/index) — water resources, drainage basins, and water management
-- [Population Distribution](geography/population/index) — demographics, migration, and population policies
-- [Urban Environments](geography/urban/index) — urbanisation, land use, and sustainable cities
-- [Economic Development](geography/development/index) — development indicators, industrialisation, and inequality
+- [Climate Change and Hazards](zh/index) — climate systems, global warming, and natural hazards
+- [Freshwater Issues](zh/index) — water resources, drainage basins, and water management
+- [Population Distribution](zh/index) — demographics, migration, and population policies
+- [Urban Environments](zh/index) — urbanisation, land use, and sustainable cities
+- [Economic Development](zh/index) — development indicators, industrialisation, and inequality
 
 ### Practice and Review
 
@@ -291,7 +291,7 @@ IB History examines the Cold War, authoritarian states, and comparative studies.
 
 ### Topic Notes
 
-- [Comparative Studies](history/comparitives/index) — comparing regimes, movements, and events
+- [Comparative Studies](zh/index) — comparing regimes, movements, and events
 - [Diagnostics](history/diagnostics)
 
 ### Practice and Review
@@ -323,10 +323,10 @@ IB Psychology covers biological, cognitive, developmental, social, and abnormal 
 ### Topic Notes
 
 - [Biological Psychology](psychology/biological/index) — neuroscience, genetics, and behaviour
-- [Cognitive Psychology](psychology/cognitive/index) — memory, thinking, and decision-making
-- [Developmental Psychology](psychology/developmental/index) — attachment, Piaget, and Vygotsky
+- [Cognitive Psychology](zh/index) — memory, thinking, and decision-making
+- [Developmental Psychology](zh/index) — attachment, Piaget, and Vygotsky
 - [Social Psychology](psychology/sociocultural/index) — conformity, obedience, and group behaviour
-- [Abnormal Psychology](psychology/abnormal/index) — psychological disorders and treatment
+- [Abnormal Psychology](zh/index) — psychological disorders and treatment
 
 ### Practice and Review
 

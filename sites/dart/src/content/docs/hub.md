@@ -189,7 +189,7 @@ State management is one of the most important architectural decisions in a Flutt
 - [Provider](07-state-management/01-provider) — ChangeNotifier, ProxyProvider, and Consumer
 - [Riverpod](07-state-management/02-riverpod) — Provider, StateProvider, and modern dependency injection
 - [BLoC](../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) — Business Logic Component, events, and streams
-- [Other Approaches](07-state-management/04-other-approaches) — GetX, MobX, and Redux
+- [Other Approaches](../../../../ib/src/content/docs/psychology/approaches) — GetX, MobX, and Redux
 
 ### Key Concepts
 

@@ -239,8 +239,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Linux Glossary](/linux/glossary) for Linux fundamentals
-- See [Networking Glossary](/networking/glossary) for network configuration
-- See [Security Glossary](/security/glossary) for security hardening
-- See [Databases Glossary](/databases/glossary) for database storage
-- See [Tools Glossary](/tools/glossary) for Docker and Kubernetes
+- See [Linux Glossary](glossary) for Linux fundamentals
+- See [Networking Glossary](glossary) for network configuration
+- See [Security Glossary](glossary) for security hardening
+- See [Databases Glossary](glossary) for database storage
+- See [Tools Glossary](glossary) for Docker and Kubernetes

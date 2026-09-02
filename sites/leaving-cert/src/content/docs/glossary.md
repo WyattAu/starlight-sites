@@ -229,8 +229,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [GCSE Glossary](/gcse/glossary) for UK qualification comparison
-- See [A-Level Glossary](/alevel/glossary) for UK university entry
-- See [IB Glossary](/ib/glossary) for international qualification
-- See [University Physics Glossary](/physics/glossary) for deeper physics coverage
-- See [Mathematics Glossary](/mathematics/glossary) for university-level mathematics
+- See [GCSE Glossary](glossary) for UK qualification comparison
+- See [A-Level Glossary](glossary) for UK university entry
+- See [IB Glossary](glossary) for international qualification
+- See [University Physics Glossary](glossary) for deeper physics coverage
+- See [Mathematics Glossary](glossary) for university-level mathematics

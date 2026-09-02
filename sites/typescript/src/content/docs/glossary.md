@@ -177,8 +177,8 @@ interface User {
 
 ## Related Terms
 
-- See [JavaScript Reference](/programming/glossary) for JavaScript fundamentals
-- See [Dart Glossary](/dart/glossary) for typed language comparison
-- See [Kotlin Glossary](/kotlin/glossary) for another statically-typed language
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
+- See [JavaScript Reference](glossary) for JavaScript fundamentals
+- See [Dart Glossary](glossary) for typed language comparison
+- See [Kotlin Glossary](glossary) for another statically-typed language
+- See [Programming Glossary](glossary) for general programming concepts
+- See [Computer Science Glossary](glossary) for CS fundamentals

@@ -761,6 +761,6 @@ linked above.
 
 ## Cross-References
 
-- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How CPU architecture determines voltage-frequency curves
-- [Cooling](/tuning/05-cooling-systems/cooling) - How thermal headroom limits the voltage and frequency ceiling
-- [Stress Testing](/tuning/06-stress-testing/stress-testing) - How to validate stability after voltage and clock adjustments
+- [CPU Fundamentals](01-cpu-tuning/cpu-fundamentals) - How CPU architecture determines voltage-frequency curves
+- [Cooling](05-cooling-systems/cooling) - How thermal headroom limits the voltage and frequency ceiling
+- [Stress Testing](06-stress-testing/stress-testing) - How to validate stability after voltage and clock adjustments

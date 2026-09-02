@@ -104,7 +104,7 @@ The largest category of civics questions covers the structure and function of US
 
 ### Topic Notes
 
-- [The Constitution](government/constitution) -- the supreme law, the Bill of Rights, and amendments
+- [The Constitution](constitution-history) -- the supreme law, the Bill of Rights, and amendments
 - [The Legislative Branch](government/legislative) -- Congress, the Senate, the House of Representatives, and lawmaking
 - [The Executive Branch](government/executive) -- the President, the Cabinet, and federal agencies
 - [The Judicial Branch](government/judicial) -- the Supreme Court, federal courts, and judicial review
@@ -194,10 +194,10 @@ The civics test covers the rights guaranteed by the Constitution and the respons
 
 ### Topic Notes
 
-- [The Bill of Rights](rights/bill-of-rights) -- the first 10 amendments and the freedoms they protect
+- [The Bill of Rights](bill-of-rights) -- the first 10 amendments and the freedoms they protect
 - [Freedom of Speech and Religion](rights/freedoms) -- the First Amendment and its scope
 - [The Right to Vote](rights/voting) -- who can vote, how voting works, and voter protections
-- [Responsibilities of Citizenship](rights/responsibilities) -- jury duty, voting, and civic participation
+- [Responsibilities of Citizenship](rights-and-responsibilities) -- jury duty, voting, and civic participation
 - [Equal Protection](rights/equal-protection) -- the 14th Amendment and anti-discrimination principles
 
 ### Practice and Review
@@ -225,7 +225,7 @@ Understanding the naturalisation process helps you prepare for the interview bey
 
 ### Practice and Review
 
-- [Flashcards: Naturalisation Process](flashcards-naturalisation)
+- [Flashcards: Naturalisation Process](naturalisation)
 - [Practice Questions: Naturalisation](practice-naturalisation)
 
 ### Key Test Focus

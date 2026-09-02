@@ -177,7 +177,7 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [IB Glossary](/ib/glossary) for International Baccalaureate comparison
-- See [AP Glossary](/ap/glossary) for Advanced Placement comparison
-- See [University Physics Glossary](/physics/glossary) for deeper physics
-- See [Mathematics Glossary](/mathematics/glossary) for university-level mathematics
+- See [IB Glossary](glossary) for International Baccalaureate comparison
+- See [AP Glossary](glossary) for Advanced Placement comparison
+- See [University Physics Glossary](glossary) for deeper physics
+- See [Mathematics Glossary](glossary) for university-level mathematics

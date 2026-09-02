@@ -286,7 +286,7 @@ Sorting is arranging data in a specific order. It is one of the most studied pro
 ## Cross-References
 
 - [Algorithm Analysis](1_algorithm_analysis)
-- [Data Structures](/computer-science/2-algorithms-and-data-structures/2_fundamental-data-structures)
+- [Data Structures](2_fundamental-data-structures)
 - [Dynamic Programming](5_dynamic-programming)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

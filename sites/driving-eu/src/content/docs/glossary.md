@@ -129,5 +129,5 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Driving UK Glossary](/driving-uk/glossary) for UK Highway Code terms
-- See [Driving US Glossary](/driving-us/glossary) for US DMV test terms
+- See [Driving UK Glossary](../../../../typescript/src/content/docs/glossary) for UK Highway Code terms
+- See [Driving US Glossary](../../../../typescript/src/content/docs/glossary) for US DMV test terms

@@ -148,7 +148,7 @@ Theory of computation asks: what can computers do, and how efficiently? The hier
 ## Cross-References
 
 - [Regular Languages](2_regular-languages)
-- [Context-Free Languages](/computer-science/6-theory-of-computation/3_context-free-languages)
+- [Context-Free Languages](3_context-free-languages)
 - [Turing Machines](4_turing-machines)
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -575,7 +575,7 @@ Networking connects computers through layered protocols. TCP provides reliable, 
 | ------------------- | ------------------------------------------------------------- |
 | Databases           | [View](databases)           |
 | Distributed Systems | [View](distributed-systems) |
-| Operating Systems   | [View](/computer-science/operating-systems)   |
+| Operating Systems   | [View](../../../../../alevel/src/content/docs/computer-science/fundamentals/05-operating-systems)   |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

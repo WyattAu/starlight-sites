@@ -125,9 +125,9 @@ Algorithms are step-by-step recipes for solving problems. The key question is ef
 
 ## Cross-References
 
-- [Complexity Analysis](/tools/algorithms/01-complexity-analysis/complexity-analysis)
+- [Complexity Analysis](01-complexity-analysis/complexity-analysis)
 - [Arrays and Strings](/tools/algorithms/02-arrays-strings/arrays-and-strings)
-- [Sorting](/tools/algorithms/05-sorting/sorting)
+- [Sorting](05-sorting/sorting)
 
 
 ## Advanced Content

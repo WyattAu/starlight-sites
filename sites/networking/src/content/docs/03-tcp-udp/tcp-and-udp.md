@@ -816,5 +816,5 @@ TCP and UDP are the two main transport protocols. TCP is the reliable courier: i
 ## Cross-References
 
 - [TCP State Machine](tcp-state-machine)
-- [UDP Deep Dive](/networking/03-tcp-udp/udp-deep-dive)
+- [UDP Deep Dive](udp-deep-dive)
 - [HTTP](../05-http-https/http)

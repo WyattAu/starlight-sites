@@ -558,8 +558,8 @@ greeting = f"Hello, {name}! 2 + 2 = {2 + 2}"
 
 ## Related Terms
 
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
-- See [Machine Learning Glossary](/machine-learning/glossary) for Python in ML
-- See [Database Glossary](/databases/glossary) for Python database interactions
-- See [C++ Glossary](/cpp/glossary) for compiled language comparison
+- See [Programming Glossary](glossary) for general programming concepts
+- See [Computer Science Glossary](glossary) for CS fundamentals
+- See [Machine Learning Glossary](glossary) for Python in ML
+- See [Database Glossary](glossary) for Python database interactions
+- See [C++ Glossary](glossary) for compiled language comparison

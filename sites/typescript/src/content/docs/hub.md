@@ -188,7 +188,7 @@ TypeScript and React are a powerful combination. TypeScript provides type safety
 - [Hooks](07-react/02-hooks) — useState, useEffect, useRef, and custom hooks
 - [Event Handlers](07-react/03-event-handlers) — typing click, change, and form events
 - [Context and Providers](07-react/04-context-and-providers) — typing React context and providers
-- [Advanced Patterns](07-react/05-advanced-patterns) — generics, compound components, and render props
+- [Advanced Patterns](advanced-patterns) — generics, compound components, and render props
 
 ### Key Concepts
 

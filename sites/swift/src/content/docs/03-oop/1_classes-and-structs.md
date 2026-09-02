@@ -956,6 +956,6 @@ print(stack.pop())       // Optional("third")
 
 ## Cross-References
 
-- [Functions](/swift/02-functions-closures/1_functions) - How closures and function types define protocol witness tables
-- [Error Handling](/swift/04-advanced/1_error-handling) - How classes and structs implement throwing initializers and methods
-- [Concurrency](/swift/04-advanced/2_concurrency) - How actors protect shared mutable state in concurrent class instances
+- [Functions](../02-functions-closures/1_functions) - How closures and function types define protocol witness tables
+- [Error Handling](../04-advanced/1_error-handling) - How classes and structs implement throwing initializers and methods
+- [Concurrency](../04-advanced/2_concurrency) - How actors protect shared mutable state in concurrent class instances

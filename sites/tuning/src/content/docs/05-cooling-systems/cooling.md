@@ -1060,6 +1060,6 @@ linked above.
 
 ## Cross-References
 
-- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How CPU TDP and thermal design power dictate cooling requirements
-- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How cooling capacity limits overclocking headroom and voltage stability
-- [PSU and BIOS Guide](/tuning/psu-and-bios-guide) - How BIOS fan curves and power delivery interact with cooling systems
+- [CPU Fundamentals](../01-cpu-tuning/cpu-fundamentals) - How CPU TDP and thermal design power dictate cooling requirements
+- [Undervolting and Overclocking](../undervolting-and-overclocking) - How cooling capacity limits overclocking headroom and voltage stability
+- [PSU and BIOS Guide](../psu-and-bios-guide) - How BIOS fan curves and power delivery interact with cooling systems

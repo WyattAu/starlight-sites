@@ -154,5 +154,5 @@ Our minds are prediction machines, constantly building models of the world to gu
 ## Cross-References
 
 - [Research Methods](../research-methods)
-- [Approaches in Psychology](/ib/psychology/approaches)
+- [Approaches in Psychology](../approaches)
 - [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)

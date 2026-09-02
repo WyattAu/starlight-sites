@@ -139,5 +139,5 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Driving UK Glossary](/driving-uk/glossary) for UK Highway Code terms
-- See [Driving EU Glossary](/driving-eu/glossary) for European driving regulations
+- See [Driving UK Glossary](glossary) for UK Highway Code terms
+- See [Driving EU Glossary](glossary) for European driving regulations

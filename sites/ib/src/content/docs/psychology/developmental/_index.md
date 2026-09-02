@@ -143,7 +143,7 @@ explanation and empirical evaluation.
 | ---------------------- | ---------------------------------------------------------------- |
 | Attachment Theory      | [View](attachment-theory)      |
 | Cognitive Development  | [View](cognitive-development)  |
-| Adolescent Development | [View](/ib/psychology/developmental/adolescent-development) |
+| Adolescent Development | [View](adolescent-development) |
 
 ## Intuition
 

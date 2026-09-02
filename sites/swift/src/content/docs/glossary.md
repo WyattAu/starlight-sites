@@ -204,8 +204,8 @@ protocol Drawable {
 
 ## Related Terms
 
-- See [Kotlin Glossary](/kotlin/glossary) for mobile development comparison
-- See [Dart Glossary](/dart/glossary) for cross-platform comparison
-- See [TypeScript Glossary](/typescript/glossary) for language comparison
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
+- See [Kotlin Glossary](glossary) for mobile development comparison
+- See [Dart Glossary](glossary) for cross-platform comparison
+- See [TypeScript Glossary](glossary) for language comparison
+- See [Programming Glossary](glossary) for general programming concepts
+- See [Computer Science Glossary](glossary) for CS fundamentals

@@ -152,7 +152,7 @@ until the green man appears and the road is clear of pedestrians.
 ## Cross-References
 
 - [Road Signs](./road-signs) - Sign identification
-- [Theory Test](../theory-test/practice-theory) - Practice questions
+- [Theory Test](../../../../../computer-science/src/content/docs/3-theory/practice-theory) - Practice questions
 - [Safe Driving](../safe-driving/safe-driving-tips) - Driving techniques
 
 

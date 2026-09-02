@@ -658,6 +658,6 @@ for item in items {
 
 ## Cross-References
 
-- [Variables and Types](/swift/01-basics/1_variables-and-types) - Swift's type inference system and optionals that underpin safe coding
-- [Functions](/swift/02-functions-closures/1_functions) - How closures and function types enable functional programming patterns
-- [Classes and Structs](/swift/03-oop/1_classes-and-structs) - Swift's value and reference type system for object-oriented design
+- [Variables and Types](../01-basics/1_variables-and-types) - Swift's type inference system and optionals that underpin safe coding
+- [Functions](../02-functions-closures/1_functions) - How closures and function types enable functional programming patterns
+- [Classes and Structs](../03-oop/1_classes-and-structs) - Swift's value and reference type system for object-oriented design

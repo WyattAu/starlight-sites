@@ -430,7 +430,7 @@ $\square$
 
 For revision on specific algorithm complexities, see
 [Sorting Algorithms](02-sorting-algorithms) and
-[Searching Algorithms](/computer-science/algorithms/searching-algorithms).
+[Searching Algorithms](01-searching-algorithms).
 
 </details>
 

@@ -846,6 +846,6 @@ struct DataView: View {
 
 ## Cross-References
 
-- [Functions](/swift/02-functions-closures/1_functions) - How optionals integrate with function return types and error handling
-- [Error Handling](/swift/04-advanced/1_error-handling) - How try/try?/try! interact with optional types
-- [Classes and Structs](/swift/03-oop/1_classes-and-structs) - How value types and reference types affect variable semantics
+- [Functions](../02-functions-closures/1_functions) - How optionals integrate with function return types and error handling
+- [Error Handling](../04-advanced/1_error-handling) - How try/try?/try! interact with optional types
+- [Classes and Structs](../03-oop/1_classes-and-structs) - How value types and reference types affect variable semantics

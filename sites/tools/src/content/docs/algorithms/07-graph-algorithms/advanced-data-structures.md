@@ -1097,4 +1097,4 @@ $\blacksquare$
 - [Binary Search Trees](../04-trees-graphs/binary-search-trees) -- BSTs provide the foundation for understanding tree-based data structures like segment trees.
 - [Trie and Pattern Matching](../04-trees-graphs/trie-and-pattern-matching) -- Tries are specialised string data structures that complement the general-purpose structures here.
 - [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- Segment trees are often combined with DP for efficient range query solutions.
-- [Deques and Priority Queues](../../03-linked-lists-stacks-queues/deques-and-priority-queues) -- Priority queues underpin Dijkstra's algorithm when combined with segment trees.
+- [Deques and Priority Queues](../03-linked-lists-stacks-queues/deques-and-priority-queues) -- Priority queues underpin Dijkstra's algorithm when combined with segment trees.

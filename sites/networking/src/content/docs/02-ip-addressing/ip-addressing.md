@@ -933,5 +933,5 @@ IP addressing is like the postal address system for the internet. Every device n
 ## Cross-References
 
 - [Subnetting Workshop](subnetting-workshop)
-- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [TCP and UDP](../03-tcp-udp/tcp-and-udp)
 - [Layer 2 and Ethernet](../08-layer2/layer2-and-ethernet)

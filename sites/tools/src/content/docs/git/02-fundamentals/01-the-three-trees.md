@@ -320,6 +320,6 @@ Git's three trees are the working directory (your desk), the staging area (your 
 
 ## Cross-References
 
-- [Introduction to Git](/tools/git/01-intro)
+- [Introduction to Git](../../zh/algorithms/intro)
 - [Branching](/tools/git/03-branching-and-merging/01-branching)
 - [References](/tools/git/02-fundamentals/03-references)

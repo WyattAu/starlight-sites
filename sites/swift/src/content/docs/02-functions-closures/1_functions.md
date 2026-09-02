@@ -867,6 +867,6 @@ enable concise, expressive data transformations.
 
 ## Cross-References
 
-- [Variables and Types](/swift/01-basics/1_variables-and-types) - How closures capture variables and how optionals affect function signatures
-- [Error Handling](/swift/04-advanced/1_error-handling) - How throwing functions extend the function type system
-- [Classes and Structs](/swift/03-oop/1_classes-and-structs) - How methods, initializers, and deinitializers structure object behavior
+- [Variables and Types](../01-basics/1_variables-and-types) - How closures capture variables and how optionals affect function signatures
+- [Error Handling](../04-advanced/1_error-handling) - How throwing functions extend the function type system
+- [Classes and Structs](../03-oop/1_classes-and-structs) - How methods, initializers, and deinitializers structure object behavior

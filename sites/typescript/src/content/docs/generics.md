@@ -757,6 +757,6 @@ linked above.
 
 ## Cross-References
 
-- [Advanced Types](/typescript/advanced-types) - How mapped types and conditional types extend generic programming
-- [Functions](/typescript/functions) - How generic functions and function overloads work together
-- [Classes](/typescript/classes) - How generic classes and interfaces enable type-safe component design
+- [Advanced Types](advanced-types) - How mapped types and conditional types extend generic programming
+- [Functions](functions) - How generic functions and function overloads work together
+- [Classes](classes) - How generic classes and interfaces enable type-safe component design

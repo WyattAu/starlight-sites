@@ -163,6 +163,6 @@ linked above.
 
 ## Cross-References
 
-- [Types and Annotations](/typescript/types-and-annotations) - How TypeScript's type system builds on JavaScript's dynamic typing
-- [Tooling and Configuration](/typescript/tooling-and-configuration) - How the TypeScript compiler and tsconfig.json configure the development workflow
-- [Functions](/typescript/functions) - How TypeScript adds type safety to JavaScript's function expressions and declarations
+- [Types and Annotations](types-and-annotations) - How TypeScript's type system builds on JavaScript's dynamic typing
+- [Tooling and Configuration](tooling-and-configuration) - How the TypeScript compiler and tsconfig.json configure the development workflow
+- [Functions](functions) - How TypeScript adds type safety to JavaScript's function expressions and declarations

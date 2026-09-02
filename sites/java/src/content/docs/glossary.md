@@ -632,8 +632,8 @@ String json = """
 
 ## Related Terms
 
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [C++ Glossary](/cpp/glossary) for compiled language comparison
-- See [Python Glossary](/python/glossary) for interpreted language comparison
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
-- See [Databases Glossary](/databases/glossary) for Java database interactions
+- See [Programming Glossary](glossary) for general programming concepts
+- See [C++ Glossary](glossary) for compiled language comparison
+- See [Python Glossary](glossary) for interpreted language comparison
+- See [Computer Science Glossary](glossary) for CS fundamentals
+- See [Databases Glossary](glossary) for Java database interactions

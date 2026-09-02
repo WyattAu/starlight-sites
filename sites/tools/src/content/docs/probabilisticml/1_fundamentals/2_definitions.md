@@ -2163,5 +2163,5 @@ vocabulary they draw on.
 
 ## Cross-References
 
-- [Supervised Learning](/tools/probabilisticml/1_fundamentals/1_supervised_learning) - How probability theory is applied to training predictive models
-- [Probabilistic ML Introduction](/tools/probabilisticml/0_intro) - Overview of probabilistic approaches to machine learning
+- [Supervised Learning](1_supervised_learning) - How probability theory is applied to training predictive models
+- [Probabilistic ML Introduction](../0_intro) - Overview of probabilistic approaches to machine learning

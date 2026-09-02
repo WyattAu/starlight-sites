@@ -628,6 +628,6 @@ linked above.
 
 ## Cross-References
 
-- [TypeScript](/typescript/typescript) - Core TypeScript language features that tsconfig.json controls
-- [Types and Annotations](/typescript/types-and-annotations) - How strict mode options affect type checking behavior
-- [Advanced Types](/typescript/advanced-types) - How compiler flags like strictNullChecks enable advanced type patterns
+- [TypeScript](typescript) - Core TypeScript language features that tsconfig.json controls
+- [Types and Annotations](types-and-annotations) - How strict mode options affect type checking behavior
+- [Advanced Types](advanced-types) - How compiler flags like strictNullChecks enable advanced type patterns

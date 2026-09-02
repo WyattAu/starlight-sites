@@ -127,8 +127,8 @@ Traffic laws vary by state but share common principles. The written test covers 
 
 ### Topic Notes
 
-- [Speed Limits](traffic-laws/speed-limits) -- residential, school zone, highway, and construction zone limits
-- [Right of Way](traffic-laws/right-of-way) -- intersections, roundabouts, pedestrians, and emergency vehicles
+- [Speed Limits](speed-limits) -- residential, school zone, highway, and construction zone limits
+- [Right of Way](rules/right-of-way) -- intersections, roundabouts, pedestrians, and emergency vehicles
 - [DUI and Impaired Driving](traffic-laws/dui) -- blood alcohol limits, implied consent, and penalties
 - [Seatbelt and Child Restraint Laws](traffic-laws/seatbelts) -- mandatory use, age requirements, and penalties
 - [Parking Laws](traffic-laws/parking) -- legal and illegal parking, handicapped spaces, and fire hydrants

@@ -128,9 +128,9 @@ Beyond the Highway Code, the theory test covers specific traffic regulations inc
 ### Topic Notes
 
 - [Speed Limits](rules/speed-limits) — urban, rural, and motorway limits for different vehicle types
-- [Overtaking](rules/overtaking) — when you may and may not overtake, including on dual carriageways
+- [Overtaking](overtaking) — when you may and may not overtake, including on dual carriageways
 - [Right of Way](rules/right-of-way) — roundabouts, junctions, pedestrian crossings, and emergency vehicles
-- [Parking Rules](rules/parking) — legal and illegal parking, controlled zones, and penalty charges
+- [Parking Rules](parking) — legal and illegal parking, controlled zones, and penalty charges
 - [Motorway Rules](rules/motorways) — lane discipline, hard shoulder use, and smart motorway regulations
 - [Rural Roads](rules/rural-roads) — single-track roads, passing places, and farm vehicles
 

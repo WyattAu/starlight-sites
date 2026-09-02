@@ -695,8 +695,8 @@ struct Array<T, const N: usize> {
 
 ## Related Terms
 
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [C++ Glossary](/cpp/glossary) for systems programming comparison
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
-- See [Linux Glossary](/linux/glossary) for Rust on Linux development
-- See [Machine Learning Glossary](/machine-learning/glossary) for Rust ML frameworks
+- See [Programming Glossary](glossary) for general programming concepts
+- See [C++ Glossary](glossary) for systems programming comparison
+- See [Computer Science Glossary](glossary) for CS fundamentals
+- See [Linux Glossary](glossary) for Rust on Linux development
+- See [Machine Learning Glossary](glossary) for Rust ML frameworks

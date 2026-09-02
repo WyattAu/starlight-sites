@@ -1039,7 +1039,7 @@ linked above.
 ## Cross-References
 
 - [Advanced Graph Algorithms](advanced-graph-algorithms) -- Bellman-Ford, Floyd-Warshall, and strongly connected components extend the shortest path and MST techniques here.
-- [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based BSTs.
+- [Binary Search Trees](../04-trees-graphs/binary-search-trees) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based BSTs.
 - [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- Shortest path problems can be solved with DP; Bellman-Ford is essentially a DP algorithm.
-- [Deques and Priority Queues](../../03-linked-lists-stacks-queues/deques-and-priority-queues) -- Priority queues are the key data structure for efficient Dijkstra and Prim implementations.
+- [Deques and Priority Queues](../03-linked-lists-stacks-queues/deques-and-priority-queues) -- Priority queues are the key data structure for efficient Dijkstra and Prim implementations.
 :::

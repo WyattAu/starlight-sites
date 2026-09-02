@@ -803,6 +803,6 @@ linked above.
 
 ## Cross-References
 
-- [Functions](/typescript/functions) - How throwing functions and result types model error propagation
-- [Types and Annotations](/typescript/types-and-annotations) - How union types and type guards handle error discrimination
-- [Advanced Types](/typescript/advanced-types) - How discriminated unions and never type model exhaustive error handling
+- [Functions](functions) - How throwing functions and result types model error propagation
+- [Types and Annotations](types-and-annotations) - How union types and type guards handle error discrimination
+- [Advanced Types](advanced-types) - How discriminated unions and never type model exhaustive error handling

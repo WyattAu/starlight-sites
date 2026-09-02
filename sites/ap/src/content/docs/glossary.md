@@ -211,8 +211,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Mathematics Glossary](/mathematics/glossary) for mathematical foundations
-- See [Chemistry Glossary](/chemistry/glossary) for detailed chemistry terms
-- See [Physics Glossary](/physics/glossary) for advanced physics concepts
-- See [Computer Science Glossary](/computer-science/glossary) for technology terms
-- See [Programming Glossary](/programming/glossary) for computational thinking
+- See [Mathematics Glossary](../../../../typescript/src/content/docs/glossary) for mathematical foundations
+- See [Chemistry Glossary](../../../../typescript/src/content/docs/glossary) for detailed chemistry terms
+- See [Physics Glossary](../../../../typescript/src/content/docs/glossary) for advanced physics concepts
+- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for technology terms
+- See [Programming Glossary](../../../../typescript/src/content/docs/glossary) for computational thinking

@@ -267,7 +267,7 @@ Economic welfare.
 <details>
 <summary>Answer</summary>
 Not necessarily. Natural monopoly: $AC$ falls over the relevant output range → one firm produces at lowest cost. Privatisation without regulation creates a private monopoly that maximises profit by restricting output and raising price → worse than public ownership. **Regulation is essential**: price cap regulation (RPI-X in UK utilities), rate-of-return regulation. But regulation itself has problems: regulatory capture, information asymmetry (the firm knows its costs better than the regulator), moral hazard. The UK experience: rail privatisation (fragmentation, subsidies increased), water privatisation (underinvestment, Thames Water crisis). Best answer: privatisation with strong, independent regulation can work, but is not always superior to well-run public ownership.
-<i>Revision: [Theory of the Firm](/economics/microeconomics/theory-of-the-firm) and [Supply-Side Policy](macro/05-supply-side-policy)</i>
+<i>Revision: [Theory of the Firm](microeconomics/04-theory-of-the-firm) and [Supply-Side Policy](macro/05-supply-side-policy)</i>
 </details>
 
 **Q21.** Using the concept of marginal revenue product, explain why a footballer might earn £300,000
@@ -276,7 +276,7 @@ Per week while a nurse earns £600 per week. Is this outcome economically effici
 <details>
 <summary>Answer</summary>
 In a competitive labour market, wage = $MRP_L = MP_L \times MR$. The footballer's $MRP_L$ is very high: (1) millions of viewers, ticket sales, merchandise, TV rights → $MR$ is enormous. (2) The footballer's marginal product is visible and measurable (goals, wins). The nurse's $MRP_L$ is lower: (1) healthcare is funded by the state (not directly profitable). (2) The marginal product of one nurse is hard to measure. **Efficiency**: in a narrow market sense, the wage reflects MRP → allocatively efficient (labour goes to its highest-valued use). But market imperfections (monopsony in nursing, monopoly power in football) distort this. **Equity**: most would argue the outcome is inequitable — a nurse's social contribution (health, life-saving) is arguably greater. The market rewards scarcity and revenue generation, not social value.
-<i>Revision: [Labour Markets](microeconomics/05-labour-markets) and [Distribution of Income](/economics/microeconomics/distribution-of-income)</i>
+<i>Revision: [Labour Markets](microeconomics/05-labour-markets) and [Distribution of Income](microeconomics/06-distribution-of-income)</i>
 </details>
 
 **Q22.** A government is considering banning a pollutant. Using cost-benefit analysis, explain how
@@ -285,7 +285,7 @@ To determine the optimal level of pollution (which is unlikely to be zero).
 <details>
 <summary>Answer</summary>
 The optimal level of pollution is where **marginal social cost of pollution = marginal abatement cost**. At this point, the cost of reducing pollution by one more unit equals the benefit of that reduction. Zero pollution would require eliminating all economic activity — the abatement cost would be infinite. The optimal level is positive because the first units of pollution abatement are cheap (high benefit, low cost), but the last units are extremely expensive. Formally: minimise $TC = C(abatement) + D(pollution)$ subject to $pollution + abatement = baseline$. FOC: $MC(abatement) = MD(pollution)$. This is the same as the Pigouvian tax result. Practical issues: measuring external costs, discounting future costs, uncertainty about health impacts.
-<i>Revision: [Market Failure](/economics/microeconomics/market-failure)</i>
+<i>Revision: [Market Failure](microeconomics/03-market-failure)</i>
 </details>
 
 <hr />
@@ -410,7 +410,7 @@ Discuss with reference to both market-oriented and interventionist supply-side p
 <details>
 <summary>Answer</summary>
 The statement is largely correct: only supply-side policies shift LRAS right, raising potential output and long-run living standards. Demand-side policy only closes output gaps temporarily. However: (1) "Only" is too strong — demand-side policy creates a stable macroeconomic environment that encourages investment (a prerequisite for supply-side improvements). (2) Supply-side policies take years to work — the economy needs demand-side support in the interim. (3) The effectiveness of supply-side policies varies: market-oriented (tax cuts, deregulation) may boost incentives but increase inequality; interventionist (education, infrastructure) address market failures but require government spending. (4) Some supply-side policies have demand-side effects too (infrastructure spending raises AD in the short run). (5) Institutional quality matters — supply-side reforms work best with strong property rights, rule of law, and low corruption. Best answer: supply-side policies are necessary but not sufficient — they must be complemented by sound demand management.
-<i>Revision: [Supply-Side Policy](/economics/macro/supply-side-policy)</i>
+<i>Revision: [Supply-Side Policy](macro/05-supply-side-policy)</i>
 </details>
 
 ### Topic 6: The International Economy
@@ -482,7 +482,7 @@ Private investment. Under what conditions might this policy be beneficial?
 **SR**: AD shifts right → $Y$ temporarily rises above $Y^*$, $P$ rises. Government borrowing → demand for loanable funds rises → $r$ rises → private investment falls (crowding out).<br />
 **LR**: If the economy was at full employment, wages rise → SRAS shifts left → $Y$ returns to $Y^*$, $P$ rises further. Crowding out may be substantial (full crowding out in the classical model).<br />
 **Beneficial conditions**: (1) The infrastructure has high social returns → LRAS shifts right in the long run (supply-side benefit) → potential output rises. (2) The spending replaces worn-out infrastructure (maintenance) rather than adding new capacity. (3) The central bank accommodates by increasing money supply (preventing $r$ from rising). (4) The economy has slack in specific sectors (e.g., construction unemployment). Without supply-side benefits, the policy is purely inflationary at full employment.
-<i>Revision: [Fiscal Policy](macro/04-fiscal-policy) and [Aggregate Demand and Aggregate Supply](/economics/macro/aggregate-demand-and-supply)</i>
+<i>Revision: [Fiscal Policy](macro/04-fiscal-policy) and [Aggregate Demand and Aggregate Supply](macro/02-aggregate-demand-and-supply)</i>
 </details>
 
 **Q39.** "The UK would benefit from joining the Eurozone." Evaluate using the theory of optimal
@@ -514,7 +514,7 @@ Policy was the wrong response." Evaluate this statement.
 <summary>Answer</summary>
 Supply-side factors: COVID supply chain disruptions, labour shortages, Ukraine war → energy prices surged → cost-push inflation (SRAS shifted left). Monetary policy (raising rates) reduces AD, which helps inflation but deepens the output gap.<br />
 However: (1) **Demand also surged** — fiscal stimulus, pent-up demand, savings glut from lockdowns → AD shifted right → demand-pull inflation. The inflation was BOTH demand and supply driven. (2) **Second-round effects**: initial supply shocks raised prices → workers demanded higher wages → wage-price spiral → inflation became embedded in expectations. Monetary policy was needed to anchor expectations. (3) **Central bank credibility**: failing to respond would have de-anchored expectations, making inflation harder to control later. (4) **Alternative**: supply-side policy (remove supply bottlenecks) would address the root cause but is too slow. (5) **Cost of inaction**: once inflation expectations rise, the cost of disinflation (higher unemployment) is much greater (Volcker recession, 1980–82). Conclusion: monetary tightening was necessary despite supply-side causes, to prevent inflation from becoming entrenched.
-<i>Revision: [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates) and [Aggregate Demand and Aggregate Supply](/economics/macro/aggregate-demand-and-supply)</i>
+<i>Revision: [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates) and [Aggregate Demand and Aggregate Supply](/economics/macro/aggregate-demand-and-supply)</i>
 </details>
 
 **Q42.** Compare the effectiveness of fiscal policy and monetary policy in (a) a deep recession with
@@ -525,7 +525,7 @@ The ZLB binding, and (b) an overheating economy with rising inflation.
 **(a) Deep recession + ZLB**: Monetary policy is constrained (rates at zero, QE has diminishing returns). **Fiscal policy is more effective**: (1) No crowding out (rates cannot rise). (2) Multiplier is large (estimated 1.0–1.5). (3) Direct spending (infrastructure, furlough) can target specific sectors. QE can support fiscal policy by keeping long-term rates low.<br />
 **(b) Overheating + inflation**: Monetary policy is more effective: (1) Interest rate hikes directly reduce borrowing and spending. (2) Quick to implement (MPC meets monthly). (3) Does not require political approval. Fiscal policy is slower (recognition, decision, implementation lags) and politically difficult (cutting spending or raising taxes before an election). However, fiscal tightening can reinforce monetary tightening.<br />
 **General principle**: at the ZLB, fiscal policy leads; away from the ZLB, monetary policy leads. The best approach is coordination between the two.
-<i>Revision: [Fiscal Policy](macro/04-fiscal-policy) and [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates)</i>
+<i>Revision: [Fiscal Policy](macro/04-fiscal-policy) and [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates)</i>
 </details>
 
 **Q43.** A developing country has high inflation (25%), a current account deficit (8% of GDP), and
@@ -540,7 +540,7 @@ This is a challenging situation — stagflation combined with external imbalance
 **Supply-side**: Structural reforms to improve productivity (education, infrastructure, governance), reduce business costs, and diversify exports (reducing dependence on primary commodities).<br />
 **Institutional**: Strengthen central bank independence to anchor inflation expectations.<br />
 The IMF would likely recommend a structural adjustment programme combining all of the above, but the social costs must be managed (social safety nets, targeted support).
-<i>Revision: [The International Economy](macro/06-the-international-economy) and [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates)</i>
+<i>Revision: [The International Economy](macro/06-the-international-economy) and [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates)</i>
 </details>
 
 **Q44.** Explain how the concept of hysteresis challenges the natural rate hypothesis. What are the
@@ -551,7 +551,7 @@ Implications for macroeconomic policy?
 **Natural rate hypothesis** (Friedman/Phelps): unemployment always returns to $u^*$ after a shock — cyclical unemployment is temporary. **Hysteresis** (Blanchard & Summers, 1986): prolonged cyclical unemployment can become structural, raising the natural rate itself.<br />
 **Mechanisms**: (1) Long-term unemployed workers lose skills and motivation → employability falls → $u_{structural}$ rises. (2) Firms reduce investment during recessions → capital stock shrinks → productive capacity falls. (3) Workers become discouraged and leave the labour force → labour force shrinks. (4) Insider-outsider theory: employed "insiders" set wages that prevent the unemployed "outsiders" from bidding down wages.<br />
 **Policy implications**: (1) "Leave it to the market" is dangerous — allowing deep recessions causes permanent damage. (2) Active fiscal and monetary policy is justified even on supply-side grounds (preventing hysteresis). (3) Active labour market policies (retraining, job search assistance) are essential. (4) The output gap is not self-correcting — it can become permanent. (5) There is no stable long-run Phillips curve — the natural rate is endogenous.
-<i>Revision: [Macroeconomic Performance](/economics/macro/macroeconomic-performance) and [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates)</i>
+<i>Revision: [Macroeconomic Performance](macro/01-macroeconomic-performance) and [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates)</i>
 </details>
 
 **Q45.** "The UK's decision to leave the EU has reduced its long-run economic growth rate." Evaluate
@@ -563,7 +563,7 @@ Using the concepts of comparative advantage, trade creation/diversion, and suppl
 **Trade creation/diversion**: the UK loses trade creation within the EU (the world's largest single market) and must negotiate new agreements. New trade deals with non-EU countries may partially compensate, but: (1) Distance matters (gravity model) — the EU is geographically proximate. (2) Services trade is harder to negotiate. (3) Regulatory divergence creates new non-tariff barriers.<br />
 **Supply-side effects**: (1) Reduced FDI (the UK was the top EU destination for FDI partly due to EU access). (2) Labour mobility restrictions — harder to recruit EU workers (nursing, agriculture, hospitality). (3) Regulatory divergence could boost competitiveness (if regulations are sensibly reformed) or reduce standards. (4) Potential benefits: regulatory autonomy, independent trade policy, control over fishing/agriculture.<br />
 **OBR estimate**: Brexit reduces long-run productivity by ~4%. Whether this is offset by new opportunities depends on the quality of post-Brexit policy.
-<i>Revision: [The International Economy](macro/06-the-international-economy), [Supply-Side Policy](/economics/macro/supply-side-policy), and [Fiscal Policy](macro/04-fiscal-policy)</i>
+<i>Revision: [The International Economy](macro/06-the-international-economy), [Supply-Side Policy](macro/05-supply-side-policy), and [Fiscal Policy](macro/04-fiscal-policy)</i>
 </details>
 
 ---

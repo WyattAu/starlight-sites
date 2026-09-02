@@ -534,7 +534,7 @@ $\mathrm{Compressed} = 30.9 \div 2 \approx 15.45 \mathrm{ GB}$
 
 For revision on number representation, see
 [Number Systems](../fundamentals/01-number-systems) and
-[Floating Point](/computer-science/fundamentals/floating-point).
+[Floating Point](../fundamentals/02-floating-point).
 
 ## Common Pitfalls
 

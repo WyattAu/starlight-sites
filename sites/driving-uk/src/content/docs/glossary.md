@@ -147,5 +147,5 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Driving US Glossary](/driving-us/glossary) for US DMV test terms
-- See [Driving EU Glossary](/driving-eu/glossary) for European driving regulations
+- See [Driving US Glossary](../../../../typescript/src/content/docs/glossary) for US DMV test terms
+- See [Driving EU Glossary](../../../../typescript/src/content/docs/glossary) for European driving regulations

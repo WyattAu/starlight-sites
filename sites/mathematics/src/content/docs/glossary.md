@@ -192,4 +192,4 @@ graph TD
 - [Algebra Tutorials](../../../../sat/src/content/docs/mathematics/algebra)
 - [Calculus Guide](../../../../hsc/src/content/docs/mathematics/calculus)
 - [Linear Algebra Course](linear-algebra)
-- [Probability Problems](/mathematics/probability/)
+- [Probability Problems](probability)

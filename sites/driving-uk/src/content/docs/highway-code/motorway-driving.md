@@ -157,7 +157,7 @@ legally enforceable.
 
 - [Road Signs](../highway-code/road-signs) - Motorway signs
 - [Rules of the Road](../highway-code/rules-of-the-road) - General rules
-- [Theory Test](../theory-test/practice-theory) - Practice questions
+- [Theory Test](../../../../../computer-science/src/content/docs/3-theory/practice-theory) - Practice questions
 
 
 ## Advanced Content

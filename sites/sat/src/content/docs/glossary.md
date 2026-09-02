@@ -207,8 +207,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Mathematics Glossary](/mathematics/glossary) for advanced math concepts
-- See [Programming Glossary](/programming/glossary) for computational thinking skills
-- See [Computer Science Glossary](/computer-science/glossary) for technology terms
-- See [Physics Glossary](/physics/glossary) for scientific reasoning
-- See [IB Glossary](/ib/glossary) for international education terms
+- See [Mathematics Glossary](glossary) for advanced math concepts
+- See [Programming Glossary](glossary) for computational thinking skills
+- See [Computer Science Glossary](glossary) for technology terms
+- See [Physics Glossary](glossary) for scientific reasoning
+- See [IB Glossary](glossary) for international education terms

@@ -293,6 +293,6 @@ linked above.
 
 ## Cross-References
 
-- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - Core concepts of CPU architecture and performance tuning
-- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - Techniques for optimizing voltage and frequency
-- [PSU and BIOS Guide](/tuning/psu-and-bios-guide) - Foundational knowledge for BIOS configuration and power management
+- [CPU Fundamentals](01-cpu-tuning/cpu-fundamentals) - Core concepts of CPU architecture and performance tuning
+- [Undervolting and Overclocking](undervolting-and-overclocking) - Techniques for optimizing voltage and frequency
+- [PSU and BIOS Guide](psu-and-bios-guide) - Foundational knowledge for BIOS configuration and power management

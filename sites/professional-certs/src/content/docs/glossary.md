@@ -159,6 +159,6 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Computer Science Glossary](/computer-science/glossary) for computer science fundamentals
-- See [Networking Glossary](/networking/glossary) for networking concepts
-- See [Security Glossary](/security/glossary) for cybersecurity terms
+- See [Computer Science Glossary](glossary) for computer science fundamentals
+- See [Networking Glossary](glossary) for networking concepts
+- See [Security Glossary](glossary) for cybersecurity terms

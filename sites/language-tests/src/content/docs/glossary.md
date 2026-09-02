@@ -143,6 +143,6 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [IB Glossary](/ib/glossary) for International Baccalaureate language requirements
-- See [Admissions Glossary](/admissions/glossary) for university language requirements
-- See [SAT Glossary](/sat/glossary) for US college admissions testing
+- See [IB Glossary](glossary) for International Baccalaureate language requirements
+- See [Admissions Glossary](glossary) for university language requirements
+- See [SAT Glossary](glossary) for US college admissions testing

@@ -184,8 +184,8 @@ end
 
 ## Related Terms
 
-- See [Python Glossary](/python/glossary) for dynamic language comparison
-- See [Java Glossary](/java/glossary) for static language comparison
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
-- See [Databases Glossary](/databases/glossary) for Rails database interactions
+- See [Python Glossary](glossary) for dynamic language comparison
+- See [Java Glossary](glossary) for static language comparison
+- See [Programming Glossary](glossary) for general programming concepts
+- See [Computer Science Glossary](glossary) for CS fundamentals
+- See [Databases Glossary](glossary) for Rails database interactions

@@ -878,6 +878,6 @@ linked above.
 
 ## Cross-References
 
-- [Functions](/typescript/functions) - How type annotations apply to function parameters and return types
-- [Generics](/typescript/generics) - How type parameters extend basic type annotations for reuse
-- [Classes](/typescript/classes) - How class members use type annotations for property and method typing
+- [Functions](functions) - How type annotations apply to function parameters and return types
+- [Generics](generics) - How type parameters extend basic type annotations for reuse
+- [Classes](classes) - How class members use type annotations for property and method typing

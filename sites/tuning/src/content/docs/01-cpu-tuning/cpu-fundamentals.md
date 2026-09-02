@@ -1104,6 +1104,6 @@ linked above.
 :::
 ## Cross-References
 
-- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How CPU voltage and frequency curves are tuned for performance
-- [Cooling](/tuning/05-cooling-systems/cooling) - How thermal solutions enable sustained boost clocks and prevent throttling
-- [Memory Tuning](/tuning/02-memory-tuning/memory-tuning) - How memory speed and timings interact with CPU performance
+- [Undervolting and Overclocking](../undervolting-and-overclocking) - How CPU voltage and frequency curves are tuned for performance
+- [Cooling](../05-cooling-systems/cooling) - How thermal solutions enable sustained boost clocks and prevent throttling
+- [Memory Tuning](../02-memory-tuning/memory-tuning) - How memory speed and timings interact with CPU performance

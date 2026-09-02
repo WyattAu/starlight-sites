@@ -552,8 +552,8 @@ assert(x > 0 && "x must be positive");
 
 ## Related Terms
 
-- See [Programming Glossary](/programming/glossary) for general programming concepts
-- See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
-- See [Java Glossary](/java/glossary) for Java-specific OOP concepts
-- See [Rust Glossary](/rust/glossary) for memory safety concepts
-- See [Python Glossary](/python/glossary) for dynamic typing concepts
+- See [Programming Glossary](../../../../typescript/src/content/docs/glossary) for general programming concepts
+- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for CS fundamentals
+- See [Java Glossary](../../../../typescript/src/content/docs/glossary) for Java-specific OOP concepts
+- See [Rust Glossary](../../../../typescript/src/content/docs/glossary) for memory safety concepts
+- See [Python Glossary](../../../../typescript/src/content/docs/glossary) for dynamic typing concepts

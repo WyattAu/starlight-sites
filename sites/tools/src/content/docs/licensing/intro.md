@@ -256,4 +256,4 @@ Software licensing is like setting the rules for a public park. By default, the 
 
 ## Cross-References
 
-- [Software Licensing](/tools/licensing/software-licensing) - Detailed reference for specific licenses and compliance obligations
+- [Software Licensing](software-licensing) - Detailed reference for specific licenses and compliance obligations

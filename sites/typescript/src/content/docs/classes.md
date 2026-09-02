@@ -810,6 +810,6 @@ linked above.
 
 ## Cross-References
 
-- [Types and Annotations](/typescript/types-and-annotations) - How TypeScript's structural typing affects class compatibility
-- [Generics](/typescript/generics) - How generic classes and interfaces enable type-safe reusable components
-- [Error Handling](/typescript/error-handling) - How class hierarchies structure custom error types
+- [Types and Annotations](types-and-annotations) - How TypeScript's structural typing affects class compatibility
+- [Generics](generics) - How generic classes and interfaces enable type-safe reusable components
+- [Error Handling](error-handling) - How class hierarchies structure custom error types
