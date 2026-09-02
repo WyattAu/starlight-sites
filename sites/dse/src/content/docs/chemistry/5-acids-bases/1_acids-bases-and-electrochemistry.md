@@ -1,5 +1,4 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: Chemistry - Acids, Bases, and Electrochemistry
 description: "Study notes for Chemistry - Acids, Bases, and Electrochemistry with worked examples, practice problems, and key concepts for exam preparation."

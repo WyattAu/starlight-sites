@@ -1,15 +1,11 @@
 ---
-
 title: "Evolution and Ecology | DSE - Wyatt's Notes"
 description: "Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural"
 date: 2026-04-07T00:00:00.000Z
 tags:
   - DSE
   - Biology
-categories:
-  - DSE
-  - Biology
-
+categories: "- DSE - Biology"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,15 +1,11 @@
 ---
-
 title: "Evolution | DSE - Wyatt's Notes"
 description: "The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - Biology
-categories:
-  - DSE
-  - Biology
-
+categories: "- DSE - Biology"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

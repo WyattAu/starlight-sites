@@ -1,9 +1,7 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: "The Chinese Revolution | DSE - Wyatt's Notes"
 description: "Fall of the Qing Dynasty, warlord era, rise of the CCP and KMT, Long March, Nanjing Decade, Second United Front, Chinese Civil War, and establishment of the PRC."
-sidebar_position: 3
 ---
 
 <!-- Breadcrumb Schema for SEO -->

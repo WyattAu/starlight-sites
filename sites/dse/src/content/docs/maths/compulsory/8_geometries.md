@@ -1,5 +1,4 @@
 ---
-
 title: "Geometries | DSE - Wyatt's Notes"
 description: "Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems"
 date: 2025-06-03T16:20:00.000Z
@@ -8,7 +7,6 @@ tags:
   - DSE
 categories:
   - Maths
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

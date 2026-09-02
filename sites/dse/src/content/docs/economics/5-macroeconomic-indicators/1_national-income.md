@@ -1,15 +1,11 @@
 ---
-
 title: National Income and Macroeconomic Indicators
 description: "Study notes for National Income and Macroeconomic Indicators with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - Economics
-categories:
-  - DSE
-  - Economics
-
+categories: "- DSE - Economics"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,5 +1,4 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: "Office Automation and Productivity -- Diagnostic Tests"
 description: "DSE Ict Office Automation and Productivity -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."

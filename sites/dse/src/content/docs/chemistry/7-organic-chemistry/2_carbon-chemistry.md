@@ -1,5 +1,4 @@
 ---
-
 title: "Chemistry - Carbon Chemistry | DSE"
 description: 'DSE Chemistry - Carbon Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 date: 2026-04-23T00:00:00.000Z
@@ -8,7 +7,6 @@ tags:
   - DSE
 categories:
   - Chemistry
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

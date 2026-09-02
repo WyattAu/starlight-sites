@@ -1,11 +1,9 @@
 ---
-
 title: "Money and Banking | DSE - Wyatt's Notes"
 description: "Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Economics]
 categories: [DSE, Economics]
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,15 +1,11 @@
 ---
-
 title: "Data Management | DSE - Wyatt's Notes"
 description: "This document covers data management topics for the DSE ICT examination, including data structures, Database models, data integrity, security, privacy"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - ICT
-categories:
-  - DSE
-  - ICT
-
+categories: "- DSE - ICT"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -1,5 +1,4 @@
 ---
-
 title: "Polynomials | DSE - Wyatt's Notes"
 description: "A polynomial in one variable is an expression of the form Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-03T13:29:40.310Z
@@ -8,7 +7,6 @@ tags:
   - DSE
 categories:
   - Maths
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

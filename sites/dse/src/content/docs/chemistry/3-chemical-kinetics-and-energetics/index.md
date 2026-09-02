@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Standard textbook reference
 title: Chemical Kinetics And Energetics
-sources:
-  - text: Standard textbook reference
 description: "This section covers chemical kinetics and energetics concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

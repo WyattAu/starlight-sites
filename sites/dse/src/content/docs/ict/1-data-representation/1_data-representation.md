@@ -1,15 +1,11 @@
 ---
-
 title: "Data Representation | DSE - Wyatt's Notes"
 description: "This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - ICT
-categories:
-  - DSE
-  - ICT
-
+categories: "- DSE - ICT"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

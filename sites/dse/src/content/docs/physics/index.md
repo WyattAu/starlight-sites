@@ -1,24 +1,11 @@
 ---
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Standard textbook reference
 title: "DSE Physics - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "DSE Physics notes covering key definitions, core concepts, worked examples, and practice questions for systematic study and examination practice."
-sources:
-  - text: Standard textbook reference
 tableOfContents: false
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

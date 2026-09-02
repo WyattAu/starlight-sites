@@ -1,5 +1,4 @@
 ---
-
 title: Chemistry - Energetics / Thermochemistry
 description: "The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems."
 tags: [DSE, Chemistry]

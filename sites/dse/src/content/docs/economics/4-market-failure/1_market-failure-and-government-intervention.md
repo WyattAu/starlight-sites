@@ -1,15 +1,11 @@
 ---
-
 title: Market Failure and Government Intervention
 description: "Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - Economics
-categories:
-  - DSE
-  - Economics
-
+categories: "- DSE - Economics"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

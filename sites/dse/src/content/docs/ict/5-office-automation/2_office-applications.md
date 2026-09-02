@@ -1,15 +1,11 @@
 ---
-
 title: "Office Applications in Depth | DSE"
 description: "This document extends the spreadsheet, database, and office automation topics in with advanced Spreadsheet functions, deeper database operations, and"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - ICT
-categories:
-  - DSE
-  - ICT
-
+categories: "- DSE - ICT"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

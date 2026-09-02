@@ -1,5 +1,4 @@
 ---
-
 title: Chemistry - Redox and Electrochemistry
 description: "DSE Chemistry - Redox and Electrochemistry notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-23T00:00:00.000Z
@@ -8,7 +7,6 @@ tags:
   - DSE
 categories:
   - Chemistry
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

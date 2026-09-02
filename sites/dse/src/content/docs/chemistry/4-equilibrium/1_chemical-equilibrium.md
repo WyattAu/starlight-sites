@@ -1,5 +1,4 @@
 ---
-
 title: Chemistry - Chemical Equilibrium
 description: "A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble"
 tags: [DSE, Chemistry]

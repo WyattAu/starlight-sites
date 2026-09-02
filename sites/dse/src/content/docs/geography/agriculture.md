@@ -1,9 +1,7 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: Agricultural Systems and Food Security
 description: "Subsistence and commercial farming, rice cultivation, agricultural change in the Pearl River Delta, food security in Hong Kong, urban agriculture, and fisheries for DSE Geography."
-sidebar_position: 6
 tags: [DSE, Geography, Agriculture, Food Security]
 categories: [DSE, Geography]
 tableOfContents: false

@@ -1,15 +1,11 @@
 ---
-
 title: Market Structure and Theory of the Firm
 description: "A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
   - Economics
-categories:
-  - DSE
-  - Economics
-
+categories: "- DSE - Economics"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

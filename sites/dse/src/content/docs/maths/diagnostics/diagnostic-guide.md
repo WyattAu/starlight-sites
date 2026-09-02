@@ -1,5 +1,4 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: DSE Mathematics Diagnostic Guide
 description: "Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure"

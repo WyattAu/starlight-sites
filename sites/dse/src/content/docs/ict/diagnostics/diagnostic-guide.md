@@ -1,8 +1,7 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: "DSE ICT -- Diagnostic Guide - Wyatt's Notes"
-description: "| Diagnostic File | Topics Covered | Source File | | ---------------------------------------------- | -------------------------------------------------------"
+description: "Study notes for DSE ICT -- Diagnostic Guide - Wyatt's Notes with worked examples and practice questions."
 tableOfContents: false
 ---
 

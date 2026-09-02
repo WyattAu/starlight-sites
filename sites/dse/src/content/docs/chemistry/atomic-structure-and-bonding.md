@@ -1,7 +1,7 @@
 ---
-
 title: Chemistry - Atomic Structure and Bonding
-description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------------ | ---------------- | --------------- | --------------- | |"
+description: "Particle properties and atomic structure for DSE Chemistry"
+-------- | ------------ | ---------------- | --------------- | --------------- | |"
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-05-31T00:00:00.000Z

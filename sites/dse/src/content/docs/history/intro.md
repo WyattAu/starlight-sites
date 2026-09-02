@@ -1,5 +1,4 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: "DSE History - Wyatt's Notes"
 description: "Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises"

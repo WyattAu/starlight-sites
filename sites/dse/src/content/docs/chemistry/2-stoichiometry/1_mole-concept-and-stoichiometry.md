@@ -1,5 +1,4 @@
 ---
-
 title: Chemistry - Mole Concept and Stoichiometry
 description: 'The relative atomic mass of an element is the weighted average mass of one atom of the element Relative to the mass of one atom of carbon-12.'
 tags: [DSE, Chemistry]

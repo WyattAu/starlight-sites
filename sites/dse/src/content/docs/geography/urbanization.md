@@ -1,9 +1,7 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: Urbanisation and Urban Processes
 description: "Urban land use models, Hong Kong new towns, urban sprawl, squatter settlements, container port development, and urban renewal strategies for DSE Geography."
-sidebar_position: 1
 tags: [DSE, Geography, Urbanisation]
 categories: [DSE, Geography]
 tableOfContents: false
