@@ -34,6 +34,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Algorithms', items: [{ autogenerate: { directory: '1-algorithms' } }] },
         {
           label: 'Discrete Mathematics',
