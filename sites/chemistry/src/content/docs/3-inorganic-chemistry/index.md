@@ -1,21 +1,11 @@
 ---
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 
 sources:
   - text: Atkins, de Paula - Physical Chemistry
 
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 title: "Inorganic Chemistry - Wyatt's Notes"
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 description: "Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that"
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 ---
 sources:
   - text: Atkins, de Paula - Physical Chemistry

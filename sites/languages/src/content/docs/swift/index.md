@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Standard textbook reference
 title: "Swift | Languages - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "This section covers swift concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

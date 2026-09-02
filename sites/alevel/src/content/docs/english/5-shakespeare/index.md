@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Standard textbook reference
 title: "Shakespeare | A-Level - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "This section covers shakespeare concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

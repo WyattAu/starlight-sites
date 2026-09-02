@@ -1,10 +1,12 @@
 ---
 
+
 date: 2026-07-23T21:57:32+01:00
 title: Mao and Hitler Authoritarian Regimes
 tags:
   - history
-description: "| | Hitler | Mao | | :--------------------- | :--------------------------------------------------------------------------------------------------------------"
+description: "Study notes for Mao and Hitler Authoritarian Regimes with worked examples and practice questions."
+--------------------- | :--------------------------------------------------------------------------------------------------------------"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

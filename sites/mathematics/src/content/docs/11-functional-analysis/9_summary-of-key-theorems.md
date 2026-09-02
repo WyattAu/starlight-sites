@@ -1,11 +1,13 @@
 ---
 
+
 date: 2026-07-23T21:57:32+01:00
 title: "Summary of Key Theorems | Mathematics"
 tags:
   - Mathematics
   - University
-description: "| Theorem | Statement | | -------------------- | --------------------------------------------------------------------------------------------------- | |"
+description: "Study notes for Summary of Key Theorems | Mathematics with worked examples and practice questions."
+-------------------- | --------------------------------------------------------------------------------------------------- | |"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

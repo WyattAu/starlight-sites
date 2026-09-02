@@ -1,21 +1,11 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Standard textbook reference
 title: "Chemistry in Everyday Life | CBSE"
-sources:
-  - text: Standard textbook reference
 description: "This section covers chemistry in everyday life concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

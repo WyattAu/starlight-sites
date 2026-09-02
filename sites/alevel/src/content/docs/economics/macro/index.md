@@ -1,21 +1,11 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Standard textbook reference
 title: "Macroeconomics | A-Level - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: 'A-Level Macroeconomics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision and exam readiness.'
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

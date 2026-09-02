@@ -1,7 +1,9 @@
 ---
 
+
 title: "Algebraic Expressions | A-Level"
-description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor"
+description: "Study notes for Algebraic Expressions | A-Level with worked examples and practice questions."
+---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

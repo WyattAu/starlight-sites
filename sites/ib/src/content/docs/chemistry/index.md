@@ -1,27 +1,13 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 title: "IB Chemistry - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Complete IB Chemistry revision notes covering stoichiometry, atomic theory, bonding, thermodynamics, kinetics, equilibrium, acids and bases, redox, and organic"
-sources:
-  - text: Standard textbook reference
 date: 2024-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ib
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

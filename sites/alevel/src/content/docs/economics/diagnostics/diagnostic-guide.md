@@ -1,8 +1,10 @@
 ---
 
+
 date: 2026-07-23T21:57:32+01:00
 title: "A-Level Economics -- Diagnostic Guide"
-description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------"
+description: "Study notes for A-Level Economics -- Diagnostic Guide with worked examples and practice questions."
+---------------------------- | ------------------------------------------------------------------------"
 tableOfContents: false
 ---
 

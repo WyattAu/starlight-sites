@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Irish LC Physics | Leaving Cert"
-sources:
-  - text: Standard textbook reference
 description: "Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ilc
-sources:
-  - text: Standard textbook reference
   - ilc-physics
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - ilc-physics
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

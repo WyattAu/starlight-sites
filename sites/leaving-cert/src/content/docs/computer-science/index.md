@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Irish LC Computer Science | Leaving Cert"
-sources:
-  - text: Standard textbook reference
 description: "Leaving Certificate Computer Science covers hardware, programming, databases, networking, and computational thinking. The course combines theoretical"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ilc
-sources:
-  - text: Standard textbook reference
   - ilc-computer-science
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - ilc-computer-science
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

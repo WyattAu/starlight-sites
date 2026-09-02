@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 title: "Diagnostics | Physics - Wyatt's Notes"
-sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 description: "Diagnostic test notes for physics Diagnostics covering key concepts, worked examples, and practice problems for exam preparation."
-sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
 ---
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics

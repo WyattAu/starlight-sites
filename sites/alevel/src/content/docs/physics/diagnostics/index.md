@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Standard textbook reference
 title: "Diagnostics | A-Level - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Study notes and resources for Diagnostics"
-sources:
-  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

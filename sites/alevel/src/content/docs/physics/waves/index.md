@@ -1,21 +1,11 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Standard textbook reference
 title: "Waves | A-Level - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "A-Level Physics Waves notes covering key definitions, core concepts, worked examples, and practice questions for complete exam preparation and revision."
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

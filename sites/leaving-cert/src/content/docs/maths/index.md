@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Irish LC Mathematics | Leaving Cert"
-sources:
-  - text: Standard textbook reference
 description: "Leaving Certificate Mathematics is a core subject covering algebra, calculus, geometry, probability, statistics, and number theory. The course is offered at"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ilc
-sources:
-  - text: Standard textbook reference
   - ilc-maths
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - ilc-maths
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

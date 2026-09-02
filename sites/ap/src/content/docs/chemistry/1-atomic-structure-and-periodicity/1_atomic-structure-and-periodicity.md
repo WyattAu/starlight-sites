@@ -1,7 +1,9 @@
 ---
 
+
 title: Atomic Structure and Periodicity
-description: "| Scientist | Contribution | | ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter"
+description: "Study notes for Atomic Structure and Periodicity with worked examples and practice questions."
+----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter"
 date: 2026-04-14
 tags:
   - ap

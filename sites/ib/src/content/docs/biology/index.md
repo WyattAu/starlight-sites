@@ -1,27 +1,13 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 title: "IB Biology - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,"
-sources:
-  - text: Standard textbook reference
 date: 2024-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ib
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

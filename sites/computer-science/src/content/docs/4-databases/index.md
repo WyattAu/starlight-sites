@@ -1,30 +1,14 @@
 ---
-sources:
-  - text: Cormen et al - Introduction to Algorithms
 
 sources:
   - text: Cormen et al - Introduction to Algorithms
 
-sources:
-  - text: Cormen et al - Introduction to Algorithms
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Cormen et al - Introduction to Algorithms
 title: "Database Systems | Computer Science"
-sources:
-  - text: Cormen et al - Introduction to Algorithms
 description: 'Topics in database systems including the relational model, SQL, normalisation, indexing, transactions, and distributed databases.'
-sources:
-  - text: Cormen et al - Introduction to Algorithms
 tags:
-sources:
-  - text: Cormen et al - Introduction to Algorithms
   - Computing
-sources:
-  - text: Cormen et al - Introduction to Algorithms
   - University
-sources:
-  - text: Cormen et al - Introduction to Algorithms
 ---
 sources:
   - text: Cormen et al - Introduction to Algorithms

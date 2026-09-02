@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Scottish Highers Mathematics - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Higher Mathematics develops algebraic, trigonometric, and calculus skills essential for STEM subjects and university entry. The course covers functions,"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - highers
-sources:
-  - text: Standard textbook reference
   - highers-maths
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - highers-maths
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

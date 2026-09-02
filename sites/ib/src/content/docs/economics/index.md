@@ -1,27 +1,13 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 title: "IB Economics - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness."
-sources:
-  - text: Standard textbook reference
 tags: [ib, ib-economics]
-sources:
-  - text: Standard textbook reference
 categories: [ib-economics]
-sources:
-  - text: Standard textbook reference
 date: 2026-05-21
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

@@ -1,7 +1,9 @@
 ---
 
+
 title: "Networks | GCSE - Wyatt's Notes"
-description: "| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------"
+description: "Study notes for Networks | GCSE - Wyatt's Notes with worked examples and practice questions."
+--------- | ----------------------------------- | --------------------------------------"
 date: 2026-04-14
 tags:
   - gcse

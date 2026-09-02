@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: McConnell - Code Complete
 title: "3_compile_time_computation | Programming"
-sources:
-  - text: McConnell - Code Complete
 description: "This section covers 3_compile_time_computation concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: McConnell - Code Complete
 ---
 sources:
   - text: McConnell - Code Complete

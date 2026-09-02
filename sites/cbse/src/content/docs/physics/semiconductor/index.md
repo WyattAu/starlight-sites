@@ -1,21 +1,11 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Standard textbook reference
 title: "Semiconductor Electronics | CBSE"
-sources:
-  - text: Standard textbook reference
 description: "This section covers semiconductor electronics concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

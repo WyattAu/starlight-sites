@@ -1,27 +1,14 @@
 ---
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 sources:
   - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 title: "Hamiltonian Mechanics: Advanced Topics"
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 tags:
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
   - Physics
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
   - University
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 description: "Study notes for Hamiltonian Mechanics: Advanced Topics with worked examples, practice problems, and key concepts for exam preparation."
-sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 ---
 sources:
   - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."

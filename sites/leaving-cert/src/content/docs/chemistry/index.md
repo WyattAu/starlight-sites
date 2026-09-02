@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Irish LC Chemistry | Leaving Cert"
-sources:
-  - text: Standard textbook reference
 description: "Leaving Certificate Chemistry covers atomic structure, bonding, stoichiometry, acids, bases, and organic chemistry. The course develops practical laboratory"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ilc
-sources:
-  - text: Standard textbook reference
   - ilc-chemistry
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - ilc-chemistry
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

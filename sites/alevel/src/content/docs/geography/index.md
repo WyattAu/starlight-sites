@@ -1,27 +1,13 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 title: "A-Level Geography - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 date: 2026-05-21
-sources:
-  - text: Standard textbook reference
 tags: [alevel, alevel-geography]
-sources:
-  - text: Standard textbook reference
 categories: [alevel, geography]
-sources:
-  - text: Standard textbook reference
 description: 'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

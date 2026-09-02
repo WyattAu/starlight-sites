@@ -1,11 +1,13 @@
 ---
 
+
 date: 2026-07-23T21:57:32+01:00
 title: "I/O Systems | Computer Science"
 tags:
   - Computing
   - University
-description: "| Category | Examples | Data rate | | ---------------- | -------------------------- | -------------- | | Human-readable | Keyboard, screen, printer | Low |"
+description: "Study notes for I/O Systems | Computer Science with worked examples and practice questions."
+---------------- | -------------------------- | -------------- | | Human-readable | Keyboard, screen, printer | Low |"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

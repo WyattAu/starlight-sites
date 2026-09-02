@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Scottish Highers Biology - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Higher Biology explores cell biology, metabolism, multicellular organisms, genetics, and evolution. The course emphasises scientific inquiry, data analysis,"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - highers
-sources:
-  - text: Standard textbook reference
   - highers-biology
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - highers-biology
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

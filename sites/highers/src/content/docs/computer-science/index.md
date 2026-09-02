@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: Scottish Highers Computer Science
-sources:
-  - text: Standard textbook reference
 description: "Higher Computer Science covers hardware, software development, databases, algorithms, and web technologies. The course combines theoretical understanding"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - highers
-sources:
-  - text: Standard textbook reference
   - highers-computer-science
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - highers-computer-science
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

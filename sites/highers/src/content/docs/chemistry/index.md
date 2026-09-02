@@ -1,36 +1,16 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
+
 title: "Scottish Highers Chemistry - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Higher Chemistry covers chemical reactions, bonding, energy changes, acids and bases, organic chemistry, and analytical techniques. The course builds on"
-sources:
-  - text: Standard textbook reference
 date: 2026-04-14
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - highers
-sources:
-  - text: Standard textbook reference
   - highers-chemistry
-sources:
-  - text: Standard textbook reference
 categories:
-sources:
-  - text: Standard textbook reference
   - highers-chemistry
-sources:
-  - text: Standard textbook reference
-
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

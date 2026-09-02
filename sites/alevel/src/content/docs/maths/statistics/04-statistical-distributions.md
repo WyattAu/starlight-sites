@@ -1,7 +1,9 @@
 ---
 
+
 title: "Statistical Distributions | A-Level"
-description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial and normal in P1; Poisson in"
+description: "Study notes for Statistical Distributions | A-Level with worked examples and practice questions."
+---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial and normal in P1; Poisson in"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

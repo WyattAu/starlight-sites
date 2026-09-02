@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Spivak - Calculus
 title: "Demos | Mathematics - Wyatt's Notes"
-sources:
-  - text: Spivak - Calculus
 description: "This section covers demos concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Spivak - Calculus
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Spivak - Calculus
 ---
 sources:
   - text: Spivak - Calculus

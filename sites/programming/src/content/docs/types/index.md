@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: McConnell - Code Complete
 title: "Types | Programming - Wyatt's Notes"
-sources:
-  - text: McConnell - Code Complete
 description: "This section covers types concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: McConnell - Code Complete
 ---
 sources:
   - text: McConnell - Code Complete

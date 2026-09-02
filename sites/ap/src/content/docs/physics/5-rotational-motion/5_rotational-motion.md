@@ -1,7 +1,9 @@
 ---
 
+
 title: "Rotational Motion | AP - Wyatt's Notes"
-description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |"
+description: "Study notes for Rotational Motion | AP - Wyatt's Notes with worked examples and practice questions."
+---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |"
 date: 2026-04-14
 tags:
   - ap

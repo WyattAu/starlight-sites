@@ -1,21 +1,11 @@
 ---
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 
 sources:
   - text: Atkins, de Paula - Physical Chemistry
 
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 title: "Chemistry - Wyatt's Notes"
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 description: 'University-level chemistry notes covering physical, organic, and inorganic chemistry with worked examples and key concepts.'
-sources:
-  - text: Atkins, de Paula - Physical Chemistry
 ---
 sources:
   - text: Atkins, de Paula - Physical Chemistry

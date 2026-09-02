@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: McConnell - Code Complete
 title: 4_development_enviroment_analysis
-sources:
-  - text: McConnell - Code Complete
 description: "This section covers 4_development_enviroment_analysis concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: McConnell - Code Complete
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: McConnell - Code Complete
 ---
 sources:
   - text: McConnell - Code Complete

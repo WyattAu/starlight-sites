@@ -1,11 +1,13 @@
 ---
 
+
 date: 2026-07-23T21:57:32+01:00
 title: "Summary | Mathematics - Wyatt's Notes"
 tags:
   - Mathematics
   - University
-description: "| Concept | Description | | ------------------------ | ---------------------------------------------------------------- | | Smooth manifold | Hausdorff,"
+description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked examples and practice questions."
+------------------------ | ---------------------------------------------------------------- | | Smooth manifold | Hausdorff,"
 ---
 
 <!-- Breadcrumb Schema for SEO -->

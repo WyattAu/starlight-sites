@@ -1,30 +1,14 @@
 ---
-sources:
-  - text: Spivak - Calculus
 
 sources:
   - text: Spivak - Calculus
 
-sources:
-  - text: Spivak - Calculus
 date: 2026-07-23T21:57:32+01:00
-sources:
-  - text: Spivak - Calculus
 title: "Linear Algebra | Mathematics - Wyatt's Notes"
-sources:
-  - text: Spivak - Calculus
 tags:
-sources:
-  - text: Spivak - Calculus
   - Mathematics
-sources:
-  - text: Spivak - Calculus
   - University
-sources:
-  - text: Spivak - Calculus
 description: 'Linear Algebra: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
-sources:
-  - text: Spivak - Calculus
 ---
 sources:
   - text: Spivak - Calculus

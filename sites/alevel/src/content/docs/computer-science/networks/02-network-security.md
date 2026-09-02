@@ -1,7 +1,9 @@
 ---
 
+
 title: "Network Security | A-Level - Wyatt's Notes"
-description: "| Threat | Description | | ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software"
+description: "Study notes for Network Security | A-Level - Wyatt's Notes with worked examples and practice questions."
+------------------ | -------------------------------------------------------------------- | | Malware | Malicious software"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

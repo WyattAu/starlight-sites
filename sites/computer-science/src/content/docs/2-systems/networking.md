@@ -1,7 +1,9 @@
 ---
 
+
 title: "Networking | Computer Science - Wyatt's Notes"
-description: "| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User"
+description: "Study notes for Networking | Computer Science - Wyatt's Notes with worked examples and practice questions."
+----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User"
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

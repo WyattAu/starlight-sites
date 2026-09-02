@@ -1,27 +1,13 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 title: "IB Physics - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style"
-sources:
-  - text: Standard textbook reference
 date: 2024-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - ib
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

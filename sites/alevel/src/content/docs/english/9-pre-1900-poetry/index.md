@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Standard textbook reference
 title: "Pre 1900 Poetry | A-Level - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "This section covers pre 1900 poetry concepts, definitions, and applications with worked examples and practice problems."
-sources:
-  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

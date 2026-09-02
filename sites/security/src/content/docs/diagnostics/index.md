@@ -1,15 +1,10 @@
 ---
+
 sources:
   - text: Standard textbook reference
 title: "Diagnostics | Security - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "Diagnostic test notes for security Diagnostics covering key concepts, worked examples, and practice problems for exam preparation."
-sources:
-  - text: Standard textbook reference
 date: 2026-01-01T00:00:00Z
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference

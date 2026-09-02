@@ -1,8 +1,10 @@
 ---
 
+
 date: 2026-07-23T21:57:32+01:00
 title: "GCSE Physics -- Diagnostic Guide"
-description: "| Diagnostic File | Topics Covered | Source File | | --------------------- | --------------------------------------------------------------------------------"
+description: "Study notes for GCSE Physics -- Diagnostic Guide with worked examples and practice questions."
+--------------------- | --------------------------------------------------------------------------------"
 tableOfContents: false
 ---
 

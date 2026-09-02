@@ -1,30 +1,14 @@
 ---
-sources:
-  - text: Standard textbook reference
 
 sources:
   - text: Standard textbook reference
 
-sources:
-  - text: Standard textbook reference
 title: "A-Level Psychology - Wyatt's Notes"
-sources:
-  - text: Standard textbook reference
 description: "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
-sources:
-  - text: Standard textbook reference
 date: 2026-05-12T00:00:00.000Z
-sources:
-  - text: Standard textbook reference
 tags:
-sources:
-  - text: Standard textbook reference
   - Psychology
-sources:
-  - text: Standard textbook reference
   - ALevel
-sources:
-  - text: Standard textbook reference
 ---
 sources:
   - text: Standard textbook reference
