@@ -1,6 +1,6 @@
 ---
-title: "Scottish Highers Glossary — Key Terms and Definitions"
-description: "Study notes for Scottish Highers Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Scottish Highers Glossary — Key Terms"
+description: "Comprehensive glossary of Scottish Highers terms covering the qualification system, SQA exams, assessment, university admissions, and study strategies."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -19,11 +19,13 @@ tags: [glossary]
 
 **S6**: The sixth year of secondary school, typically for Advanced Highers and university preparation.
 
-**Credit Level**: The SCQF (Scottish Credit and Qualifications Framework) level at which qualifications are classified. Highers are SCQF Level 6.
+**SCQF (Scottish Credit and Qualifications Framework)**: The national framework for defining qualification levels in Scotland. Highers are SCQF Level 6.
 
-**SCQF (Scottish Credit and Qualifications Framework)**: The national framework for defining qualification levels in Scotland.
+**Credit Level**: The SCQF level at which qualifications are classified, determining the level of difficulty and depth.
 
 **Unit-Based Assessment**: Highers include unit assessments alongside the final exam, providing ongoing evidence of learning.
+
+**Course Code**: A unique identifier assigned to each Higher subject by the SQA for registration and exam purposes.
 
 ## Assessment and Exams
 
@@ -37,13 +39,13 @@ tags: [glossary]
 
 **Grade A**: The highest grade, typically requiring 70%+ of available marks.
 
-**Grade B**: Typically requiring 60-69% of available marks.
+**Grade B**: Typically requiring 60–69% of available marks.
 
-**Grade C**: Typically requiring 50-59% of available marks.
+**Grade C**: Typically requiring 50–59% of available marks.
 
-**Grade D**: The minimum pass grade, typically requiring 40-49% of available marks.
+**Grade D**: The minimum pass grade, typically requiring 40–49% of available marks.
 
-**Grade Fail (No Award)**: Below the minimum pass threshold.
+**No Award**: Below the minimum pass threshold, indicating the candidate did not achieve a grade.
 
 **Band Descriptors**: Detailed descriptions of what students must demonstrate for each grade in each subject.
 
@@ -51,25 +53,7 @@ tags: [glossary]
 
 **Extended Response**: Longer questions requiring detailed explanations, evaluations, or arguments.
 
-**Data Analysis**: Interpreting and drawing conclusions from presented data (graphs, tables, experimental results).
-
-## Study Strategies
-
-**Active Recall**: Actively retrieving information from memory, such as through flashcards or practice questions, rather than passively reading notes.
-
-**Spaced Repetition**: Reviewing material at increasing intervals to strengthen long-term retention.
-
-**Flashcards**: Study cards with a question on one side and the answer on the other, used for active recall.
-
-**Diagnostic Quiz**: A short test to identify strengths and weaknesses across a subject's topics.
-
-**Practice Questions**: Questions modelled on SQA exam style, used to build exam technique.
-
-**Past Papers**: Official SQA exams from previous years, the most important revision resource.
-
-**Timed Practice**: Completing practice questions under exam conditions with a time limit.
-
-**Study Timetable**: A planned schedule allocating specific time blocks to each subject.
+**Data Analysis**: Interpreting and drawing conclusions from presented data such as graphs, tables, and experimental results.
 
 ## Biology Terms
 
@@ -89,11 +73,11 @@ tags: [glossary]
 
 **Evolution**: Change in the inherited characteristics of populations over successive generations.
 
-**Multicellular Organisms**: Organisms composed of many cells organised into tissues, organs, and systems.
-
 **Respiration**: The process of releasing energy from glucose, either aerobically or anaerobically.
 
 **Photosynthesis**: The process by which plants convert light energy into chemical energy (glucose).
+
+**Multicellular Organisms**: Organisms composed of many cells organised into tissues, organs, and systems.
 
 ## Chemistry Terms
 
@@ -117,7 +101,7 @@ tags: [glossary]
 
 **Organic Chemistry**: The study of carbon-containing compounds and their reactions.
 
-**Analytical Techniques**: Methods for identifying and quantifying substances (chromatography, spectroscopy, mass spectrometry).
+**Analytical Techniques**: Methods for identifying and quantifying substances, such as chromatography, spectroscopy, and mass spectrometry.
 
 ## Computer Science Terms
 
@@ -203,10 +187,32 @@ tags: [glossary]
 
 **Clearing**: The UCAS process for finding available places at universities after results day.
 
+**Extra**: The UCAS process for applying to courses that still have vacancies after the main application cycle.
+
+**SQA Results Day**: The day in August when SQA examination results are released, a key date for university admissions.
+
+## Study Strategies
+
+**Active Recall**: Actively retrieving information from memory, such as through flashcards or practice questions, rather than passively reading notes.
+
+**Spaced Repetition**: Reviewing material at increasing intervals to strengthen long-term retention.
+
+**Past Papers**: Official SQA exams from previous years, the single most important revision resource.
+
+**Timed Practice**: Completing practice questions under exam conditions with a time limit.
+
+**Diagnostic Quiz**: A short test to identify strengths and weaknesses across a subject's topics.
+
+**Revision Notes**: Concise summaries of key concepts for quick review.
+
+**Study Timetable**: A planned schedule allocating specific time blocks to each subject.
+
+**Flashcards**: Study cards for memorizing key facts, formulas, and definitions.
+
 ## Related Terms
 
 - See [GCSE Glossary](/gcse/glossary) for comparable UK qualifications
 - See [A-Level Glossary](/alevel/glossary) for the next level
 - See [IB Glossary](/ib/glossary) for the International Baccalaureate
-- See [University Physics Glossary](/physics/glossary) for deeper coverage
+- See [University Physics Glossary](/physics/glossary) for deeper physics coverage
 - See [Mathematics Glossary](/mathematics/glossary) for university-level mathematics

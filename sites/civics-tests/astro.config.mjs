@@ -48,6 +48,7 @@ export default defineConfig({
           items: [{ autogenerate: { directory: 'australian-citizenship' } }],
         },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

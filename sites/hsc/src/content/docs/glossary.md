@@ -1,6 +1,6 @@
 ---
-title: "HSC Glossary — Key Terms and Definitions"
-description: "Study notes for HSC Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "HSC Exam Glossary — Key Terms"
+description: "Comprehensive glossary of HSC Exam terms covering the NSW education system, assessment, ATAR, scaling, and university admissions."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -27,6 +27,8 @@ tags: [glossary]
 
 **School-Assessed Component (SAC)**: Assessment tasks completed at school, contributing to the HSC mark.
 
+**Preliminary Results**: Year 11 results that do not count towards the ATAR but are reported on the Record of Achievement.
+
 ## Mathematics Levels
 
 **General Mathematics**: Covers financial mathematics, measurement, statistical investigation, and algebraic modelling.
@@ -40,6 +42,14 @@ tags: [glossary]
 **Mathematics Extension 2**: Covers complex numbers, vectors, proof, mechanics, and harder calculus. The most challenging HSC maths course.
 
 **Scaling**: Adjustment of HSC marks based on subject difficulty to ensure fairness across different subjects.
+
+**Scaled Marks**: The marks adjusted by NESA to account for differences in subject difficulty when calculating the ATAR.
+
+**Raw Mark**: The mark a student receives before scaling is applied.
+
+**Internal Assessment**: School-based assessment contributing to the HSC mark, typically 50% of the final mark.
+
+**External Examination**: The final exam set and marked by NESA, typically contributing 50% of the final mark.
 
 ## Physics Topics
 
@@ -63,6 +73,8 @@ tags: [glossary]
 
 **Conservation of Momentum**: Total momentum in a closed system remains constant.
 
+**Thermodynamics**: Heat, work, and internal energy in physical systems.
+
 ## Physics Concepts
 
 **Newton's Laws**: Three laws describing the relationship between forces and motion.
@@ -85,6 +97,8 @@ tags: [glossary]
 
 **Nuclear Physics**: Radioactive decay, half-life, and nuclear reactions.
 
+**Quantum Mechanics**: The physics of the very small, describing particles as wavefunctions.
+
 ## Assessment and HSC Mark
 
 **HSC Examination**: The final examination set and marked by NESA.
@@ -106,6 +120,10 @@ tags: [glossary]
 **Band 4**: Marks 70–79, indicating competent performance.
 
 **Band 3**: Marks 60–69, indicating adequate performance.
+
+**Band 2**: Marks 50–59, indicating limited performance.
+
+**Band 1**: Marks below 50, indicating very limited performance.
 
 **In-depth Investigation**: A major research project in Physics, contributing to the HSC mark.
 
@@ -133,6 +151,8 @@ tags: [glossary]
 
 **Interview**: Some courses (medicine, arts) require interviews as part of the selection process.
 
+**Direct Entry**: Admission to university based on criteria other than ATAR, such as portfolio or interview.
+
 ## Study Strategies
 
 **Past Papers**: Official NESA exams from previous years, the single best exam preparation resource.
@@ -153,32 +173,11 @@ tags: [glossary]
 
 **In-depth Investigation Planning**: Start early, choose a topic with measurable outcomes, document everything.
 
+**Essay Plans**: Structured outlines for writing HSC essays, ensuring logical argument flow.
+
 ## Related Terms
 
 - See [IB Glossary](/ib/glossary) for International Baccalaureate comparison
 - See [AP Glossary](/ap/glossary) for Advanced Placement comparison
 - See [University Physics Glossary](/physics/glossary) for deeper physics
 - See [Mathematics Glossary](/mathematics/glossary) for university-level mathematics
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

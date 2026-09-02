@@ -42,6 +42,7 @@ export default defineConfig({
         { label: 'Practical Test', items: [{ autogenerate: { directory: 'practical-test' } }] },
         { label: 'Country Guides', items: [{ autogenerate: { directory: 'country-guides' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

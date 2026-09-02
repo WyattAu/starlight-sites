@@ -47,6 +47,7 @@ export default defineConfig({
         { label: 'JLPT', items: [{ autogenerate: { directory: 'jlpt' } }] },
         { label: 'TOPIK', items: [{ autogenerate: { directory: 'topik' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

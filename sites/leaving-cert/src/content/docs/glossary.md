@@ -1,6 +1,6 @@
 ---
-title: "Irish Leaving Certificate Glossary — Key Terms and Definitions"
-description: "Study notes for Irish Leaving Certificate Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Irish Leaving Certificate Glossary — Key Terms"
+description: "Comprehensive glossary of Irish Leaving Certificate terms covering the examination system, grading, CAO points, subjects, and university admissions."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -15,19 +15,19 @@ tags: [glossary]
 
 **Higher Level (H-Level)**: The more advanced level, required for competitive university courses.
 
-**HC (Higher Certificate)**: Achievement at Higher Level.
+**LC (Leaving Certificate)**: The qualification itself, with grades ranging from H1/O1 to H8/O8.
 
-**OC (Ordinary Certificate)**: Achievement at Ordinary Level.
+**Junior Certificate**: The examination taken at the end of Junior Cycle (age approximately 15), a prerequisite for the Leaving Certificate.
 
-**LC (Leaving Certificate)**: The qualification itself, with grades from H1/O1 to H8/O8.
-
-**Junior Certificate**: The examination taken at the end of Junior Cycle (age ~15), a prerequisite for the Leaving Certificate.
-
-**Transition Year (TY)**: An optional year between Junior and Senior Cycle focused on personal development.
+**Transition Year (TY)**: An optional year between Junior and Senior Cycle focused on personal development, work experience, and extracurricular activities.
 
 **Sixth Year**: The final year of secondary school when the Leaving Certificate is taken.
 
 **Subjects**: Students typically sit 6–7 subjects, with the best 6 counting for their CAO points score.
+
+**Foundation Level**: The lowest level of examination in some subjects, available at Junior Certificate but not typically at Leaving Certificate.
+
+**Senior Cycle**: The final two or three years of secondary school, including Transition Year, Fifth Year, and Sixth Year.
 
 ## Grading and Points
 
@@ -79,6 +79,8 @@ tags: [glossary]
 
 **Lab Work**: Practical laboratory exercises assessed as part of science subjects.
 
+**Project Assessment**: Extended research or practical projects assessed as part of certain subjects.
+
 ## Biology Terms
 
 **Cell Biology**: The study of cell structure, organelles, and membrane transport.
@@ -125,6 +127,8 @@ tags: [glossary]
 
 **Functional Group**: An atom or group of atoms defining the chemical properties of an organic compound.
 
+**Periodic Table**: A tabular arrangement of chemical elements organised by atomic number, electron configuration, and recurring chemical properties.
+
 ## Computer Science Terms
 
 **Hardware**: Physical components of a computer system.
@@ -146,6 +150,8 @@ tags: [glossary]
 **Pseudocode**: Human-readable description of an algorithm.
 
 **Recursion**: A function calling itself to solve smaller instances of a problem.
+
+**Abstraction**: The process of removing physical details to focus on essential features.
 
 ## Mathematics Terms
 
@@ -169,6 +175,8 @@ tags: [glossary]
 
 **Limits**: The value a function approaches as the input approaches a point.
 
+**Financial Mathematics**: Interest rates, depreciation, annuities, and amortisation.
+
 ## Physics Terms
 
 **Mechanics**: Motion, forces, and Newton's laws.
@@ -191,6 +199,8 @@ tags: [glossary]
 
 **Quantum**: Discrete packets of energy.
 
+**Optics**: The behaviour and properties of light, including reflection, refraction, and lenses.
+
 ## CAO and University Admissions
 
 **CAO (Central Applications Office)**: The organisation processing applications for Irish undergraduate courses.
@@ -209,14 +219,18 @@ tags: [glossary]
 
 **Mature Applicant**: Students applying to university based on work experience or mature years rather than Leaving Certificate results.
 
-**Non-CAO Application**: Direct applications to some institutions (e.g., private colleges, international universities).
+**Non-CAO Application**: Direct applications to some institutions such as private colleges and international universities.
 
 **Apprenticeship**: A work-based training programme combining on-the-job training with classroom learning.
+
+**PLC (Post-Leaving Certificate)**: A further education course taken after the Leaving Certificate, often used as a pathway to higher education.
+
+**Available Points**: The CAO points required for a specific course in a given year, published after each offer round.
 
 ## Related Terms
 
 - See [GCSE Glossary](/gcse/glossary) for UK qualification comparison
 - See [A-Level Glossary](/alevel/glossary) for UK university entry
 - See [IB Glossary](/ib/glossary) for international qualification
-- See [University Physics Glossary](/physics/glossary) for deeper coverage
+- See [University Physics Glossary](/physics/glossary) for deeper physics coverage
 - See [Mathematics Glossary](/mathematics/glossary) for university-level mathematics

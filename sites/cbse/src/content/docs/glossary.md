@@ -1,6 +1,6 @@
 ---
-title: "CBSE Glossary — Key Terms and Definitions"
-description: "Study notes for CBSE Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "CBSE Board Exam Glossary — Key Terms"
+description: "Comprehensive glossary of CBSE Board Exam terms covering the Indian education system, assessment, JEE, NEET, and competitive exams."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -15,7 +15,7 @@ tags: [glossary]
 
 **Class 12**: The final year of senior secondary school, when board examinations are taken.
 
-**Board Examination**: The end-of-year exams set and marked by CBSE, taken at the end of Class 12.
+**Board Examination**: The end-of-year exams set and marked by CBSE, taken at the end of Class 12 and Class 10.
 
 **Senior School Certificate (Class XII)**: The qualification awarded upon passing Class 12 board examinations.
 
@@ -44,6 +44,12 @@ tags: [glossary]
 **Elective Subjects**: Optional subjects students can choose alongside compulsory subjects.
 
 **Work Experience**: Practical subjects including Computer Science, Informatics Practices, and Engineering Graphics.
+
+**English Core**: The compulsory English language subject in CBSE, focusing on literature and language skills.
+
+**Hindi**: One of the major Indian language subjects offered in CBSE.
+
+**Physical Education**: An elective subject covering fitness, sports science, and health.
 
 ## Assessment and Grading
 
@@ -89,7 +95,7 @@ tags: [glossary]
 
 **Cutoff Score**: The minimum score required to qualify for JEE Advanced or specific college admissions.
 
-**counselling**: The process of selecting and confirming college seats based on JEE rank.
+**Counselling**: The process of selecting and confirming college seats based on JEE rank.
 
 **JoSAA (Joint Seat Allocation Authority)**: The body managing seat allocation for IITs, NITs, and other institutions.
 
@@ -110,6 +116,10 @@ tags: [glossary]
 **State Quota**: 85% of seats in government medical colleges allocated through state counselling.
 
 **Bond**: A commitment to serve in rural areas or a government institution after completing medical education.
+
+**AIIMS (All India Institute of Medical Sciences)**: India's premier medical institution, now accessible through NEET.
+
+**BUMS (Bachelor of Unani Medicine and Surgery)**: An undergraduate degree in Unani medicine.
 
 ## Study Strategies
 
@@ -133,6 +143,8 @@ tags: [glossary]
 
 **Doubt Clearing**: Sessions dedicated to resolving confusion on specific topics.
 
+**Sample Papers**: Practice papers released by CBSE before board exams, following the latest exam pattern.
+
 ## Related Terms
 
 - See [University Physics Glossary](/physics/glossary) for deeper physics coverage
@@ -140,26 +152,3 @@ tags: [glossary]
 - See [University Chemistry Glossary](/chemistry/glossary) for deeper chemistry
 - See [Computer Science Glossary](/computer-science/glossary) for CS fundamentals
 - See [University Admissions Glossary](/admissions/glossary) for university application process
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

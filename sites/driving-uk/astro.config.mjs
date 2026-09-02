@@ -42,6 +42,7 @@ export default defineConfig({
         { label: 'Practical Test', items: [{ autogenerate: { directory: 'practical-test' } }] },
         { label: 'Mock Tests', items: [{ autogenerate: { directory: 'mock-tests' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

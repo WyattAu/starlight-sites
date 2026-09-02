@@ -44,6 +44,7 @@ export default defineConfig({
         { label: 'Cisco', items: [{ autogenerate: { directory: 'cisco' } }] },
         { label: 'PMP', items: [{ autogenerate: { directory: 'pmp' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),

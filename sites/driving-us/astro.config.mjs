@@ -42,6 +42,7 @@ export default defineConfig({
         { label: 'Road Test', items: [{ autogenerate: { directory: 'road-test' } }] },
         { label: 'State Guides', items: [{ autogenerate: { directory: 'state-guides' } }] },
         { label: 'About', slug: 'about' },
+        { label: 'Glossary', slug: 'glossary' },
       ],
       head: [
         ...cloudflareAnalytics(),
