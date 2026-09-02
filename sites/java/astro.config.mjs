@@ -37,6 +37,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Fundamentals', items: [{ autogenerate: { directory: '02-fundamentals' } }] },
         {
           label: 'Object Oriented',

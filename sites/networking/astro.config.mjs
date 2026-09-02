@@ -35,6 +35,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Osi Model', items: [{ autogenerate: { directory: '01-osi-model' } }] },
         { label: 'Ip Addressing', items: [{ autogenerate: { directory: '02-ip-addressing' } }] },
         { label: 'Tcp Udp', items: [{ autogenerate: { directory: '03-tcp-udp' } }] },

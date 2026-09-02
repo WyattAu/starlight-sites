@@ -186,9 +186,9 @@ IB Mathematics covers number and algebra, functions, geometry and trigonometry, 
 ### Topic Notes
 
 - [Number and Algebra](zh/index)
-- [Functions](maths/2-functions/index)
+- [Functions](zh/index)
 - [Geometry and Trigonometry](zh/index)
-- [Statistics and Probability](maths/4-statistics-and-probability/index)
+- [Statistics and Probability](zh/index)
 - [Calculus](maths/5-calculus/index)
 - [Discrete Mathematics](zh/index)
 - [Analysis and Approaches Question Bank](mathematics/analysis-and-approaches-question-bank)
