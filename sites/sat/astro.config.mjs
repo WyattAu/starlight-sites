@@ -130,7 +130,7 @@ export default defineConfig({
           }),
         },
       ],
-      customCss: ['./src/styles/design-system.css', './src/styles/themes.css', './src/styles/components.css', './src/styles/utilities.css'],
+      customCss: ['./src/styles/custom.css', './src/styles/design-system.css', './src/styles/themes.css', './src/styles/components.css', './src/styles/utilities.css'],
     }),
     mdx({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }),
     solidJs(),
