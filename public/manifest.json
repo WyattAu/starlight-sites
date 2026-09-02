@@ -1,0 +1,16 @@
+{
+  "name": "Wyatt's Notes",
+  "short_name": "WyattsNotes",
+  "description": "Free study notes, revision guide, and exam preparation",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#ff6b35",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
