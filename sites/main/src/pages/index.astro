@@ -1,515 +1,443 @@
 ---
 import Layout from '../layouts/Layout.astro'
+
+const examBoards = [
+  { name: 'DSE', meta: '161 pages · 53 topics', url: 'https://dse.wyattau.com/' },
+  { name: 'IB', meta: '304 pages · 73 topics', url: 'https://ib.wyattau.com/' },
+  { name: 'A-Level', meta: '366 pages · 71 topics', url: 'https://alevel.wyattau.com/' },
+  { name: 'GCSE', meta: '80 pages · 41 topics', url: 'https://gcse.wyattau.com/' },
+  { name: 'AP', meta: '77 pages · 51 topics', url: 'https://ap.wyattau.com/' },
+  { name: 'Highers', meta: '47 pages · 35 topics', url: 'https://highers.wyattau.com/' },
+  { name: 'Leaving Cert', meta: '47 pages · 35 topics', url: 'https://leaving-cert.wyattau.com/' },
+  { name: 'CBSE', meta: '11 pages', url: 'https://cbse.wyattau.com/' },
+  { name: 'Gaokao', meta: '3 pages', url: 'https://gaokao.wyattau.com/' },
+  { name: 'HSC', meta: '3 pages', url: 'https://hsc.wyattau.com/' },
+  { name: 'SAT', meta: '11 pages', url: 'https://sat.wyattau.com/' },
+]
+const computerScience = [
+  { name: 'C++', meta: '130 pages · 34 topics', url: 'https://cpp.wyattau.com/' },
+  { name: 'Language Hub', meta: '190 pages · 78 topics', url: 'https://languages.wyattau.com/' },
+  { name: 'Tools', meta: '65 pages · 27 topics', url: 'https://tools.wyattau.com/' },
+  { name: 'Java', meta: '29 pages · 13 topics', url: 'https://java.wyattau.com/' },
+  { name: 'Python', meta: '30 pages · 7 topics', url: 'https://python.wyattau.com/' },
+  { name: 'Rust', meta: '21 pages · 7 topics', url: 'https://rust.wyattau.com/' },
+  { name: 'Go', meta: '24 pages · 5 topics', url: 'https://go.wyattau.com/' },
+  { name: 'Kotlin', meta: '19 pages · 3 topics', url: 'https://kotlin.wyattau.com/' },
+  { name: 'TypeScript', meta: '14 pages', url: 'https://typescript.wyattau.com/' },
+  { name: 'Dart', meta: '25 pages · 10 topics', url: 'https://dart.wyattau.com/' },
+  { name: 'Swift', meta: '9 pages · 5 topics', url: 'https://swift.wyattau.com/' },
+  { name: 'Ruby', meta: '10 pages · 6 topics', url: 'https://ruby.wyattau.com/' },
+  { name: 'Haskell', meta: '10 pages · 6 topics', url: 'https://haskell.wyattau.com/' },
+  { name: 'Elixir', meta: '9 pages · 5 topics', url: 'https://elixir.wyattau.com/' },
+]
+const furtherStudies = [
+  { name: 'Mathematics', meta: '160 pages · 13 topics', url: 'https://mathematics.wyattau.com/' },
+  { name: 'Physics', meta: '137 pages · 7 topics', url: 'https://physics.wyattau.com/' },
+  { name: 'Chemistry', meta: '30 pages · 3 topics', url: 'https://chemistry.wyattau.com/' },
+  { name: 'CS Theory', meta: '115 pages · 9 topics', url: 'https://computer-science.wyattau.com/' },
+  { name: 'Admissions', meta: '9 pages', url: 'https://admissions.wyattau.com/' },
+]
+const infrastructure = [
+  { name: 'Networking', meta: '22 pages · 10 topics', url: 'https://networking.wyattau.com/' },
+  { name: 'Linux', meta: '20 pages · 7 topics', url: 'https://linux.wyattau.com/' },
+  { name: 'Security', meta: '18 pages · 9 topics', url: 'https://security.wyattau.com/' },
+  { name: 'Databases', meta: '16 pages · 6 topics', url: 'https://databases.wyattau.com/' },
+  { name: 'TrueNAS', meta: '12 pages · 7 topics', url: 'https://truenas.wyattau.com/' },
+  { name: 'Tuning', meta: '10 pages · 6 topics', url: 'https://tuning.wyattau.com/' },
+  { name: 'Licensing', meta: '2 pages', url: 'https://licensing.wyattau.com/' },
+  { name: 'Machine Learning', meta: '2 pages', url: 'https://machine-learning.wyattau.com/' },
+]
+
+const groups = [
+  { label: 'Exam Boards', image: 'exam-prep', sites: examBoards },
+  { label: 'Computer Science', image: 'computer-science', sites: computerScience },
+  { label: 'Further Studies', image: 'mathematics', sites: furtherStudies },
+  { label: 'Infrastructure', image: 'infrastructure', sites: infrastructure },
+]
+const totalSites = groups.reduce((n, g) => n + g.sites.length, 0)
+let rowNumber = 0
+const dirSubjects = [
+  {
+    title: 'Mathematics',
+    links: [
+      { text: 'University Mathematics', url: 'https://mathematics.wyattau.com/' },
+      { text: 'IB Mathematics', url: 'https://ib.wyattau.com/docs/ib/maths/' },
+      { text: 'A-Level Mathematics', url: 'https://alevel.wyattau.com/docs/alevel/maths/' },
+      { text: 'DSE Mathematics', url: 'https://dse.wyattau.com/docs/dse/maths/' },
+    ],
+  },
+  {
+    title: 'Physics',
+    links: [
+      { text: 'University Physics', url: 'https://physics.wyattau.com/' },
+      { text: 'IB Physics', url: 'https://ib.wyattau.com/docs/ib/physics/' },
+      { text: 'A-Level Physics', url: 'https://alevel.wyattau.com/docs/alevel/physics/' },
+      { text: 'DSE Physics', url: 'https://dse.wyattau.com/docs/dse/physics/' },
+    ],
+  },
+  {
+    title: 'Computer Science',
+    links: [
+      { text: 'CS Theory', url: 'https://computer-science.wyattau.com/' },
+      { text: 'C++ Programming', url: 'https://cpp.wyattau.com/' },
+      { text: 'Python Programming', url: 'https://python.wyattau.com/' },
+      { text: 'Java Programming', url: 'https://java.wyattau.com/' },
+    ],
+  },
+  {
+    title: 'Chemistry',
+    links: [
+      { text: 'University Chemistry', url: 'https://chemistry.wyattau.com/' },
+      { text: 'IB Chemistry', url: 'https://ib.wyattau.com/docs/ib/chemistry/' },
+      { text: 'A-Level Chemistry', url: 'https://alevel.wyattau.com/docs/alevel/chemistry/' },
+      { text: 'DSE Chemistry', url: 'https://dse.wyattau.com/docs/dse/chemistry/' },
+    ],
+  },
+]
 ---
 
-<Layout 
-  title="Starlight Sites"
-  description="Undergraduate and advanced study notes in mathematics, physics, computer science, and engineering."
+<Layout
+  title="Wyatt's Notes | Free Study Notes for IB, A-Level, GCSE, AP, DSE, University STEM"
+  description="Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming. 2,860+ pages across 40+ subjects with worked examples, common mistakes, and exam-style problems."
 >
-  <section class="hero">
-    <h1>Study notes<br><span>in mathematics, physics,<br>computer science, and engineering</span></h1>
-    <p>IB, A-Level, GCSE, AP, DSE, university STEM, programming languages, and infrastructure reference.</p>
-    <div class="hero-search">
-      <svg class="hero-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <circle cx="11" cy="11" r="8"></circle>
-        <path d="m21 21-4.35-4.35"></path>
-      </svg>
-      <input type="text" class="hero-search-input" placeholder="Search all subjects..." aria-label="Search all subjects" id="hero-search-input">
-      <kbd class="hero-search-kbd">/</kbd>
-    </div>
-    <div class="hero-search-results" id="hero-search-results"></div>
-  </section>
+  <div class="ea-progress" id="ea-progress"></div>
 
-  <!-- Featured: Double pendulum + Fourier series -->
-  <section class="featured-demos">
-    <div class="featured-demo-card">
-      <h2>Fourier Series</h2>
-      <p>Approximating a square wave by summing sine waves. Drag the slider.</p>
-      <div class="featured-demo-canvas">
-        <canvas id="hero-fourier-canvas" width="280" height="200"></canvas>
+  <main>
+    <section class="ea-hero">
+      <div class="ea-hero-media" aria-hidden="true">
+        <picture>
+          <source srcset="/img/hero/library.avif" type="image/avif" />
+          <source srcset="/img/hero/library.webp" type="image/webp" />
+          <img
+            src="/img/hero/library.jpg"
+            alt=""
+            fetchpriority="high"
+            decoding="async"
+          />
+        </picture>
       </div>
-      <div class="featured-demo-controls" id="fourier-controls">
-        <span>Terms:</span>
-        <input type="range" min="1" max="50" value="10" id="fourier-slider">
-        <span id="fourier-label">10</span>
+      <div class="ea-hero-scrim" aria-hidden="true"></div>
+      <div class="ea-hero-content">
+        <p class="ea-kicker reveal">Wyatt&rsquo;s Notes &mdash; Open Study Library</p>
+        <h1>
+          <span class="reveal-line"><span>Study notes worth</span></span>
+          <span class="reveal-line"><span><em class="ea-accent-word">coming back</em> for.</span></span>
+        </h1>
+        <p class="ea-hero-sub reveal">
+          Rigorous, exam-aligned notes for IB, A-Level, GCSE, AP, DSE, university STEM, and
+          programming &mdash; with worked examples, common mistakes, and practice problems.
+        </p>
+        <div class="ea-search reveal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+          <input
+            type="text"
+            id="ea-search-input"
+            class="ea-search-input"
+            placeholder="Search all subjects..."
+            aria-label="Search all subjects"
+            autocomplete="off"
+          />
+          <kbd>/</kbd>
+        </div>
+        <div class="ea-search-results" id="ea-search-results"></div>
+        <p class="ea-search-hint">Free, forever. No accounts, no paywalls.</p>
       </div>
-    </div>
-    <div class="featured-demo-card">
-      <h2>Sine Wave</h2>
-      <p>Reference waveform rendered on canvas.</p>
-      <div class="featured-demo-canvas">
-        <canvas id="hero-sine-canvas" width="280" height="200"></canvas>
-      </div>
-    </div>
-    <div class="featured-demo-card">
-      <h2>Lissajous Curve</h2>
-      <p>Harmonic motion visualization. Interactive parameters.</p>
-      <div class="featured-demo-canvas">
-        <canvas id="hero-lissajous-canvas" width="280" height="200"></canvas>
-      </div>
-      <div class="featured-demo-controls" id="lissajous-controls">
-        <span>a/b:</span>
-        <input type="range" min="1" max="7" value="3" id="lissajous-a">
-        <span>:</span>
-        <input type="range" min="1" max="7" value="2" id="lissajous-b">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <script is:inline>
-    (function() {
-      // --- Search ---
-      var searchInput = document.getElementById('hero-search-input');
-      var searchResults = document.getElementById('hero-search-results');
-      if (searchInput) {
-        var timer = null;
-        searchInput.addEventListener('input', function() {
-          clearTimeout(timer);
-          var q = searchInput.value.trim();
-          if (q.length < 2) { searchResults.classList.remove('active'); return; }
-          timer = setTimeout(function() {
-            searchResults.innerHTML = '<div style="padding:0.5rem;color:#94a3b8;font-size:0.85rem">Searching...</div>';
-            searchResults.classList.add('active');
-            fetch('https://search.wyattau.com/api/search?q=' + encodeURIComponent(q) + '&limit=8')
-              .then(function(r) { return r.json(); })
-              .then(function(data) {
-                if (!data.results || data.results.length === 0) {
-                  searchResults.innerHTML = '<div style="padding:0.5rem;color:#94a3b8;font-size:0.85rem">No results found</div>';
-                  return;
-                }
-                searchResults.innerHTML = data.results.map(function(r) {
-                  var u = new URL(r.url);
-                  return '<a class="hero-search-result" href="' + r.url + '" target="_blank"><span class="hero-search-result-site" style="background:' + r.siteColor + '20;color:' + r.siteColor + '">' + r.siteName + '</span><span class="hero-search-result-title">' + r.title + '</span></a>';
-                }).join('');
-              }).catch(function() {
-                searchResults.innerHTML = '<div style="padding:0.5rem;color:#94a3b8;font-size:0.85rem">Search unavailable</div>';
-              });
-          }, 300);
-        });
-        searchInput.addEventListener('focus', function() {
-          if (searchInput.value.trim().length >= 2) searchResults.classList.add('active');
-        });
-        document.addEventListener('click', function(e) {
-          if (!e.target.closest('.hero-search')) searchResults.classList.remove('active');
-        });
-        searchInput.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape') searchResults.classList.remove('active');
-        });
+    <section class="ea-trust" aria-label="Library statistics">
+      <div class="ea-trust-inner">
+        <div class="ea-trust-item reveal">
+          <span class="ea-trust-value">2,860+</span>
+          <span class="ea-trust-label">Pages</span>
+        </div>
+        <div class="ea-trust-item reveal">
+          <span class="ea-trust-value">{totalSites}</span>
+          <span class="ea-trust-label">Subject Sites</span>
+        </div>
+        <div class="ea-trust-item reveal">
+          <span class="ea-trust-value">15+</span>
+          <span class="ea-trust-label">Languages</span>
+        </div>
+        <div class="ea-trust-item reveal">
+          <span class="ea-trust-value">100%</span>
+          <span class="ea-trust-label">Free Access</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ea-section" aria-label="Subject index">
+      <div class="ea-section-head reveal">
+        <span class="ea-section-num" aria-hidden="true">01</span>
+        <h2 class="ea-section-title">The Library</h2>
+      </div>
+      <div class="ea-index">
+        {
+          groups.map((group) => (
+            <div class="ea-group">
+              <div class="ea-section-head reveal" style="margin-bottom: 1rem;">
+                <h3 class="ea-section-title" style="color: var(--wn-text-dim);">{group.label}</h3>
+              </div>
+              {group.sites.map((site) => {
+                rowNumber += 1
+                const num = String(rowNumber).padStart(2, '0')
+                return (
+                  <a class="ea-row reveal" href={site.url} data-image={`/img/subjects/${group.image}.webp`}>
+                    <span class="ea-row-num">{num}</span>
+                    <span class="ea-row-name">
+                      {site.name}
+                      <span class="ea-row-leader" aria-hidden="true" />
+                    </span>
+                    <span class="ea-row-meta">{site.meta}</span>
+                  </a>
+                )
+              })}
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="ea-section" aria-label="About these notes">
+      <div class="ea-section-head reveal">
+        <span class="ea-section-num" aria-hidden="true">02</span>
+        <h2 class="ea-section-title">Why These Notes</h2>
+      </div>
+      <div class="ea-mission">
+        <div class="ea-mission-media reveal-img">
+          <picture>
+            <source srcset="/img/subjects/books.avif" type="image/avif" />
+            <img
+              src="/img/subjects/books.webp"
+              alt="Library shelves lit by warm hanging lamps"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <div class="ea-mission-copy reveal">
+          <h2>Written like a <em>textbook</em>, priced like nothing.</h2>
+          <p>
+            Every topic is built the same way: formal definitions alongside intuition, worked
+            examples with complete solutions, and a common-mistakes section drawn from real
+            examiner reports.
+          </p>
+          <p>
+            Notes are aligned to each board&rsquo;s specification &mdash; AQA, Edexcel, OCR, CIE, IB,
+            HKEAA &mdash; so what you revise is what gets examined.
+          </p>
+          <div class="ea-mission-rule" aria-hidden="true"></div>
+          <p>
+            No registration. No advertising. No premium tier. The entire library is open and
+            free, sustained by one educator and its readers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ea-quote" aria-label="Student testimonial">
+      <blockquote class="reveal">
+        The best free study notes I&rsquo;ve found online. The worked examples and common mistakes
+        sections saved me hours of exam preparation. I got a 43 in IB Maths thanks to these
+        notes.
+      </blockquote>
+      <cite>Priya K. &mdash; IB Student, Hong Kong</cite>
+    </section>
+
+    <section class="ea-directory" aria-label="Full site directory">
+      <div class="ea-directory-inner">
+        <h2 class="reveal">The full catalogue.</h2>
+        <p class="ea-directory-sub reveal">
+          Every site in the network, cross-referenced and searchable.
+        </p>
+        <div class="ea-dir-grid">
+          {
+            dirSubjects.map((subject) => (
+              <div class="ea-dir-col reveal">
+                <h3>{subject.title}</h3>
+                <ul>
+                  {subject.links.map((link) => (
+                    <li>
+                      <a href={link.url}>{link.text}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
+        </div>
+        <div class="ea-dir-cta reveal">
+          <p>Browse study guides, cheat sheets, and revision checklists.</p>
+          <a href="/study-guides" class="ea-btn"><span>Browse Study Guides</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-text">2026 Wyatt Au. Licensed under AGPLv3.</div>
+      <div class="footer-links">
+        <a href="https://github.com/WyattAu/starlight-sites" rel="noopener noreferrer" target="_blank">GitHub</a>
+        <a href="https://search.wyattau.com/" rel="noopener noreferrer" target="_blank">Search</a>
+        <a
+          href="https://github.com/WyattAu/starlight-sites/blob/main/LICENSE.md"
+          rel="noopener noreferrer"
+          target="_blank">License</a
+        >
+      </div>
+    </div>
+  </footer>
+
+  <figure class="ea-follow" id="ea-follow" aria-hidden="true">
+    {
+      groups.map((group) => (
+        <img
+          src={`/img/subjects/${group.image}.webp`}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          data-group={group.image}
+        />
+      ))
+    }
+  </figure>
+
+  <script>
+    ;(() => {
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+      // Scroll progress
+      const progress = document.getElementById('ea-progress')
+      const nav = document.querySelector('nav')
+      const onScroll = () => {
+        const max = document.documentElement.scrollHeight - window.innerHeight
+        if (progress) progress.style.width = (max > 0 ? (window.scrollY / max) * 100 : 0) + '%'
+        if (nav) nav.classList.toggle('nav-solid', window.scrollY > 80)
       }
-    })();
+      document.addEventListener('scroll', onScroll, { passive: true })
+      onScroll()
+
+      // Reveals
+      const targets = document.querySelectorAll('.reveal, .reveal-line, .reveal-img')
+      if (reduced || !('IntersectionObserver' in window)) {
+        targets.forEach((el) => el.classList.add('revealed'))
+      } else {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('revealed')
+                io.unobserve(entry.target)
+              }
+            })
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -40px 0px' },
+        )
+        targets.forEach((el) => io.observe(el))
+      }
+
+      // Cursor-following subject photo
+      const follow = document.getElementById('ea-follow')
+      if (follow && !reduced && window.matchMedia('(hover: hover)').matches) {
+        const imgs = follow.querySelectorAll('img')
+        let mx = 0
+        let my = 0
+        let cx = 0
+        let cy = 0
+        let raf = null
+        const tick = () => {
+          cx += (mx - cx) * 0.12
+          cy += (my - cy) * 0.12
+          follow.style.left = cx + 'px'
+          follow.style.top = cy + 'px'
+          raf = Math.abs(mx - cx) > 0.5 || Math.abs(my - cy) > 0.5 ? requestAnimationFrame(tick) : null
+        }
+        document.querySelectorAll('.ea-row').forEach((row) => {
+          row.addEventListener('mouseenter', (e) => {
+            mx = e.clientX
+            my = e.clientY
+            cx = mx
+            cy = my
+            const key = row.getAttribute('data-image') || ''
+            imgs.forEach((img) => {
+              const match = key.indexOf(img.getAttribute('data-group') || '___') !== -1
+              img.classList.toggle('on', match)
+            })
+            follow.classList.add('on')
+            if (!raf) raf = requestAnimationFrame(tick)
+          })
+          row.addEventListener('mousemove', (e) => {
+            mx = e.clientX
+            my = e.clientY
+            if (!raf) raf = requestAnimationFrame(tick)
+          })
+        })
+        document.addEventListener('mouseleave', () => follow.classList.remove('on'))
+      }
+
+      // Hero search
+      const input = document.getElementById('ea-search-input')
+      const results = document.getElementById('ea-search-results')
+      if (input && results) {
+        let timer = null
+        input.addEventListener('input', () => {
+          clearTimeout(timer)
+          const q = input.value.trim()
+          if (q.length < 2) {
+            results.classList.remove('active')
+            return
+          }
+          timer = setTimeout(() => {
+            results.textContent = 'Searching...'
+            results.classList.add('active')
+            fetch('https://search.wyattau.com/api/search?q=' + encodeURIComponent(q) + '&limit=8')
+              .then((r) => r.json())
+              .then((data) => {
+                if (!data.results || data.results.length === 0) {
+                  results.textContent = 'No results found'
+                  return
+                }
+                results.textContent = ''
+                data.results.forEach((r) => {
+                  const a = document.createElement('a')
+                  a.href = r.url
+                  a.target = '_blank'
+                  a.rel = 'noopener noreferrer'
+                  const site = document.createElement('span')
+                  site.className = 'ea-result-site'
+                  site.style.background = r.siteColor + '20'
+                  site.style.color = r.siteColor
+                  site.textContent = r.siteName
+                  const title = document.createElement('span')
+                  title.textContent = r.title
+                  a.append(site, title)
+                  results.append(a)
+                })
+              })
+              .catch(() => {
+                results.textContent = 'Search unavailable'
+              })
+          }, 300)
+        })
+        input.addEventListener('focus', () => {
+          if (input.value.trim().length >= 2) results.classList.add('active')
+        })
+        document.addEventListener('click', (e) => {
+          if (!e.target.closest('.ea-search')) results.classList.remove('active')
+        })
+        input.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') results.classList.remove('active')
+        })
+        document.addEventListener('keydown', (e) => {
+          if (e.key === '/' && document.activeElement !== input) {
+            e.preventDefault()
+            input.focus()
+          }
+        })
+      }
+    })()
   </script>
-
-  <script src="/hero-demos.js" defer></script>
-
-  <section>
-    <div class="section-header">
-      <div class="icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
-        </svg>
-      </div>
-      <h2>Exam Board Notes</h2>
-    </div>
-    <div class="site-grid" data-cols="3">
-      <a href="https://dse.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>DSE</h3>
-        <span class="site-card-meta">161 pages · 53 topics</span>
-      </a>
-      <a href="https://ib.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>IB</h3>
-        <span class="site-card-meta">304 pages · 73 topics</span>
-      </a>
-      <a href="https://alevel.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>A-Level</h3>
-        <span class="site-card-meta">366 pages · 71 topics</span>
-      </a>
-      <a href="https://gcse.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>GCSE</h3>
-        <span class="site-card-meta">80 pages · 41 topics</span>
-      </a>
-      <a href="https://ap.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>AP</h3>
-        <span class="site-card-meta">77 pages · 51 topics</span>
-      </a>
-      <a href="https://highers.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Highers</h3>
-        <span class="site-card-meta">47 pages · 35 topics</span>
-      </a>
-      <a href="https://leaving-cert.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Leaving Cert</h3>
-        <span class="site-card-meta">47 pages · 35 topics</span>
-      </a>
-      <a href="https://cbse.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>CBSE</h3>
-        <span class="site-card-meta">11 pages</span>
-      </a>
-      <a href="https://gaokao.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Gaokao</h3>
-        <span class="site-card-meta">3 pages</span>
-      </a>
-      <a href="https://hsc.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>HSC</h3>
-        <span class="site-card-meta">3 pages</span>
-      </a>
-      <a href="https://sat.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>SAT</h3>
-        <span class="site-card-meta">11 pages</span>
-      </a>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-header">
-      <div class="icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path d="m18 16 4-4-4-4"></path>
-          <path d="m6 8-4 4 4 4"></path>
-          <path d="m14.5 4-5 16"></path>
-        </svg>
-      </div>
-      <h2>Computer Science</h2>
-    </div>
-    <div class="site-grid" data-cols="3">
-      <a href="https://cpp.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>C++</h3>
-        <span class="site-card-meta">130 pages · 34 topics</span>
-      </a>
-      <a href="https://languages.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Language Hub</h3>
-        <span class="site-card-meta">190 pages · 78 topics</span>
-      </a>
-      <a href="https://tools.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Tools</h3>
-        <span class="site-card-meta">65 pages · 27 topics</span>
-      </a>
-      <a href="https://java.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Java</h3>
-        <span class="site-card-meta">29 pages · 13 topics</span>
-      </a>
-      <a href="https://python.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Python</h3>
-        <span class="site-card-meta">30 pages · 7 topics</span>
-      </a>
-      <a href="https://rust.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Rust</h3>
-        <span class="site-card-meta">21 pages · 7 topics</span>
-      </a>
-      <a href="https://go.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Go</h3>
-        <span class="site-card-meta">24 pages · 5 topics</span>
-      </a>
-      <a href="https://kotlin.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Kotlin</h3>
-        <span class="site-card-meta">19 pages · 3 topics</span>
-      </a>
-      <a href="https://typescript.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>TypeScript</h3>
-        <span class="site-card-meta">14 pages</span>
-      </a>
-      <a href="https://dart.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Dart</h3>
-        <span class="site-card-meta">25 pages · 10 topics</span>
-      </a>
-      <a href="https://swift.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Swift</h3>
-        <span class="site-card-meta">9 pages · 5 topics</span>
-      </a>
-      <a href="https://ruby.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Ruby</h3>
-        <span class="site-card-meta">10 pages · 6 topics</span>
-      </a>
-      <a href="https://haskell.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Haskell</h3>
-        <span class="site-card-meta">10 pages · 6 topics</span>
-      </a>
-      <a href="https://elixir.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Elixir</h3>
-        <span class="site-card-meta">9 pages · 5 topics</span>
-      </a>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-header">
-      <div class="icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-          <path d="M2 17l10 5 10-5"></path>
-          <path d="M2 12l10 5 10-5"></path>
-        </svg>
-      </div>
-      <h2>Further Studies</h2>
-    </div>
-    <div class="site-grid" data-cols="3">
-      <a href="https://mathematics.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Mathematics</h3>
-        <span class="site-card-meta">160 pages · 13 topics</span>
-      </a>
-      <a href="https://physics.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Physics</h3>
-        <span class="site-card-meta">137 pages · 7 topics</span>
-      </a>
-      <a href="https://chemistry.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Chemistry</h3>
-        <span class="site-card-meta">30 pages · 3 topics</span>
-      </a>
-      <a href="https://computer-science.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>CS Theory</h3>
-        <span class="site-card-meta">115 pages · 9 topics</span>
-      </a>
-      <a href="https://admissions.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Admissions</h3>
-        <span class="site-card-meta">9 pages</span>
-      </a>
-    </div>
-  </section>
-
-  <section>
-    <div class="section-header">
-      <div class="icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path d="m18 16 4-4-4-4"></path>
-          <path d="m6 8-4 4 4 4"></path>
-          <path d="m14.5 4-5 16"></path>
-        </svg>
-      </div>
-      <h2>Infrastructure</h2>
-    </div>
-    <div class="site-grid" data-cols="3">
-      <a href="https://networking.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Networking</h3>
-        <span class="site-card-meta">22 pages · 10 topics</span>
-      </a>
-      <a href="https://linux.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Linux</h3>
-        <span class="site-card-meta">20 pages · 7 topics</span>
-      </a>
-      <a href="https://security.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Security</h3>
-        <span class="site-card-meta">18 pages · 9 topics</span>
-      </a>
-      <a href="https://databases.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Databases</h3>
-        <span class="site-card-meta">16 pages · 6 topics</span>
-      </a>
-      <a href="https://truenas.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>TrueNAS</h3>
-        <span class="site-card-meta">12 pages · 7 topics</span>
-      </a>
-      <a href="https://tuning.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Tuning</h3>
-        <span class="site-card-meta">10 pages · 6 topics</span>
-      </a>
-      <a href="https://licensing.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>Licensing</h3>
-        <span class="site-card-meta">2 pages</span>
-      </a>
-      <a href="https://machine-learning.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
-        <h3>ML</h3>
-        <span class="site-card-meta">2 pages</span>
-      </a>
-    </div>
-  </section>
-
-  <!-- SEO-Optimized Footer with Internal Links -->
-  <section class="seo-footer">
-    <h2>Study Notes by Subject</h2>
-    <div class="seo-footer-grid">
-      <div class="seo-footer-column">
-        <h3>Mathematics</h3>
-        <ul>
-          <li><a href="https://mathematics.wyattau.com/">University Mathematics</a></li>
-          <li><a href="https://ib.wyattau.com/docs/ib/maths/">IB Mathematics</a></li>
-          <li><a href="https://alevel.wyattau.com/docs/alevel/maths/">A-Level Mathematics</a></li>
-          <li><a href="https://dse.wyattau.com/docs/dse/maths/">DSE Mathematics</a></li>
-        </ul>
-      </div>
-      <div class="seo-footer-column">
-        <h3>Physics</h3>
-        <ul>
-          <li><a href="https://physics.wyattau.com/">University Physics</a></li>
-          <li><a href="https://ib.wyattau.com/docs/ib/physics/">IB Physics</a></li>
-          <li><a href="https://alevel.wyattau.com/docs/alevel/physics/">A-Level Physics</a></li>
-          <li><a href="https://dse.wyattau.com/docs/dse/physics/">DSE Physics</a></li>
-        </ul>
-      </div>
-      <div class="seo-footer-column">
-        <h3>Computer Science</h3>
-        <ul>
-          <li><a href="https://computer-science.wyattau.com/">CS Theory</a></li>
-          <li><a href="https://cpp.wyattau.com/">C++ Programming</a></li>
-          <li><a href="https://python.wyattau.com/">Python Programming</a></li>
-          <li><a href="https://java.wyattau.com/">Java Programming</a></li>
-        </ul>
-      </div>
-      <div class="seo-footer-column">
-        <h3>Chemistry</h3>
-        <ul>
-          <li><a href="https://chemistry.wyattau.com/">University Chemistry</a></li>
-          <li><a href="https://ib.wyattau.com/docs/ib/chemistry/">IB Chemistry</a></li>
-          <li><a href="https://alevel.wyattau.com/docs/alevel/chemistry/">A-Level Chemistry</a></li>
-          <li><a href="https://dse.wyattau.com/docs/dse/chemistry/">DSE Chemistry</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Social Proof Section -->
-  <section class="social-proof">
-    <h2>Trusted by Students Worldwide</h2>
-    <div class="social-proof-grid">
-      <div class="social-proof-card">
-        <div class="social-proof-stat">2,860+</div>
-        <div class="social-proof-label">Pages of Content</div>
-      </div>
-      <div class="social-proof-card">
-        <div class="social-proof-stat">41</div>
-        <div class="social-proof-label">Subject Sites</div>
-      </div>
-      <div class="social-proof-card">
-        <div class="social-proof-stat">15+</div>
-        <div class="social-proof-label">Languages</div>
-      </div>
-      <div class="social-proof-card">
-        <div class="social-proof-stat">100%</div>
-        <div class="social-proof-label">Free Access</div>
-      </div>
-    </div>
-
-    <div class="social-proof-testimonials">
-      <blockquote>
-        "The best free study notes I've found online. The worked examples and common mistakes sections saved me hours of exam preparation. I got a 43 in IB Maths thanks to these notes."
-      </blockquote>
-      <cite>— Priya K., IB Student, Hong Kong</cite>
-    </div>
-    <div class="social-proof-testimonials">
-      <blockquote>
-        "As a computer science student, the C++ and Python notes are invaluable. The cross-referencing between topics makes complex concepts easy to follow."
-      </blockquote>
-      <cite>— Marcus L., CS Student, UK</cite>
-    </div>
-    <div class="social-proof-testimonials">
-      <blockquote>
-        "I switched from expensive textbook notes to this site. Same quality, completely free. The A-Level Maths notes helped me understand proof by contradiction in 10 minutes."
-      </blockquote>
-      <cite>— Sarah M., A-Level Student, Singapore</cite>
-    </div>
-    <div class="social-proof-testimonials">
-      <blockquote>
-        "Finally, someone explains university mathematics properly. The formal definitions alongside intuition is exactly what I needed for my degree."
-      </blockquote>
-      <cite>— James T., Mathematics Student, Australia</cite>
-    </div>
-
-    <div class="social-proof-trust">
-      <h3>Why Students Trust This Site</h3>
-      <div class="trust-indicators">
-        <div class="trust-indicator">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
-          <div>
-            <strong>100% Free</strong>
-            <span>No paywalls, no subscriptions, no hidden costs</span>
-          </div>
-        </div>
-        <div class="trust-indicator">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-          </svg>
-          <div>
-            <strong>Open Source</strong>
-            <span>Code on GitHub, contributions welcome</span>
-          </div>
-        </div>
-        <div class="trust-indicator">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-          <div>
-            <strong>No Registration</strong>
-            <span>Instant access, no accounts required</span>
-          </div>
-        </div>
-        <div class="trust-indicator">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
-          </svg>
-          <div>
-            <strong>Academically Rigorous</strong>
-            <span>Formal proofs, worked examples, cross-references</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="social-proof-share">
-      <h3>Share This Resource</h3>
-      <p>Help other students find quality free study notes.</p>
-      <div class="share-actions">
-        <a href="https://twitter.com/intent/tweet?text=Wyatt's%20Notes%20-%20Free%20Study%20Notes&url=https://wyattsnotes.wyattau.com" target="_blank" rel="noopener noreferrer" class="share-btn-icon" aria-label="Share on Twitter">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
-        </a>
-        <a href="https://reddit.com/submit?url=https://wyattsnotes.wyattau.com&title=Wyatt's%20Notes" target="_blank" rel="noopener noreferrer" class="share-btn-icon" aria-label="Share on Reddit">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.066 13.15c.044.307.066.618.066.934 0 3.192-3.621 5.783-8.09 5.783s-8.09-2.591-8.09-5.783c0-.316.022-.627.066-.934a1.757 1.757 0 0 1-.724-1.419c0-.973.788-1.76 1.758-1.76.463 0 .883.18 1.192.474 1.187-.833 2.778-1.362 4.53-1.432l.879-4.06a.385.385 0 0 1 .458-.298l2.875.61a1.25 1.25 0 1 1 2.396.39 1.25 1.25 0 1 1 2.396.39 1.25 1.25 0 1 1 2.396.39 1.25 1.25 0 1 1-.014 2.153 1.756 1.756 0 0 1 1.118 1.633c0 .973-.788 1.76-1.758 1.76-.366 0-.707-.112-.992-.303-.78.92-2.17 1.517-3.742 1.609zm-7.23 1.037c-.263-.263-.689-.263-.952 0-.263.263-.263.689 0 .952.263.263.689.263.952 0 .263-.263.263-.689 0-.952zm4.328 0c-.263-.263-.689-.263-.952 0-.263.263-.263.689 0 .952.263.263.689.263.952 0 .263-.263.263-.689 0-.952zM14.593 10.5c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm-5.186 0c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25z"/>
-          </svg>
-        </a>
-        <a href="https://linkedin.com/sharing/share-offsite/?url=https://wyattsnotes.wyattau.com" target="_blank" rel="noopener noreferrer" class="share-btn-icon" aria-label="Share on LinkedIn">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-          </svg>
-        </a>
-        <a href="mailto:?subject=Wyatt's%20Notes&body=Check%20out%20this%20free%20study%20notes%20website%3A%20https%3A%2F%2Fwyattsnotes.wyattau.com" class="share-btn-icon" aria-label="Share via Email">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Study Guides CTA -->
-  <section class="study-guides-cta">
-    <h2>Download Free Study Guides</h2>
-    <p>Get our comprehensive cheat sheets and study guides for all subjects.</p>
-    <a href="/study-guides" class="cta-button">Browse Study Guides</a>
-  </section>
-
-  <!-- Social Sharing Section -->
-  <section class="social-share">
-    <h2>Share Wyatt's Notes</h2>
-    <p>Help other students discover free study notes.</p>
-    <div class="share-buttons">
-      <a href="https://twitter.com/intent/tweet?text=Wyatt's Notes - Free Study Notes&url=https://wyattsnotes.wyattau.com" target="_blank" rel="noopener noreferrer" class="share-btn" aria-label="Share on Twitter">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-        </svg>
-        <span>Twitter</span>
-      </a>
-      <a href="https://reddit.com/submit?url=https://wyattsnotes.wyattau.com&title=Wyatt's Notes" target="_blank" rel="noopener noreferrer" class="share-btn" aria-label="Share on Reddit">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.066 13.15c.044.307.066.618.066.934 0 3.192-3.621 5.783-8.09 5.783s-8.09-2.591-8.09-5.783c0-.316.022-.627.066-.934a1.757 1.757 0 0 1-.724-1.419c0-.973.788-1.76 1.758-1.76.463 0 .883.18 1.192.474 1.187-.833 2.778-1.362 4.53-1.432l.879-4.06a.385.385 0 0 1 .458-.298l2.875.61a1.25 1.25 0 1 1 2.396.39 1.25 1.25 0 1 1 2.396.39 1.25 1.25 0 1 1 2.396.39 1.25 1.25 0 1 1-.014 2.153 1.756 1.756 0 0 1 1.118 1.633c0 .973-.788 1.76-1.758 1.76-.366 0-.707-.112-.992-.303-.78.92-2.17 1.517-3.742 1.609zm-7.23 1.037c-.263-.263-.689-.263-.952 0-.263.263-.263.689 0 .952.263.263.689.263.952 0 .263-.263.263-.689 0-.952zm4.328 0c-.263-.263-.689-.263-.952 0-.263.263-.263.689 0 .952.263.263.689.263.952 0 .263-.263.263-.689 0-.952zM14.593 10.5c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm-5.186 0c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25z"/>
-        </svg>
-        <span>Reddit</span>
-      </a>
-      <a href="https://linkedin.com/sharing/share-offsite/?url=https://wyattsnotes.wyattau.com" target="_blank" rel="noopener noreferrer" class="share-btn" aria-label="Share on LinkedIn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-        </svg>
-        <span>LinkedIn</span>
-      </a>
-      <a href="mailto:?subject=Wyatt's Notes&body=Check out this free study notes website: https://wyattsnotes.wyattau.com" class="share-btn" aria-label="Share via Email">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-        </svg>
-        <span>Email</span>
-      </a>
-    </div>
-  </section>
 </Layout>

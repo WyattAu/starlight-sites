@@ -50,13 +50,15 @@ const ogImage = `${siteUrl}/img/social-card.svg`
   <meta name="generator" content={Astro.generator}>
   
   <link rel="icon" href="/favicon.svg">
+  <link rel="preload" href="/fonts/CormorantGaramond-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/CormorantGaramond-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Merriweather-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Merriweather-latin-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-latin-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/JetBrainsMono-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <meta name="theme-color" content="#121f52">
+  <meta name="theme-color" content="#f5f1e8">
 
   <!-- Resource hints for Core Web Vitals -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -68,7 +70,6 @@ const ogImage = `${siteUrl}/img/social-card.svg`
   <script src="/page-search.js" defer></script>
   <script src="/cross-site-search.js" defer></script>
   <script src="/reader.js" defer></script>
-  <script src="/js/scroll-reveal.js" defer></script>
   
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -105,7 +106,7 @@ const ogImage = `${siteUrl}/img/social-card.svg`
   <script is:inline>
     (function() {
       var saved = localStorage.getItem('wn-theme');
-      var theme = saved && ['dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'].indexOf(saved) >= 0 ? saved : 'dark';
+      var theme = saved && ['paper','dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'].indexOf(saved) >= 0 ? saved : 'paper';
       document.documentElement.setAttribute('data-theme', theme);
       var fs = localStorage.getItem('wn-font-size');
       if (fs) document.documentElement.style.setProperty('--wn-font-size-scale', fs);
@@ -244,8 +245,8 @@ const ogImage = `${siteUrl}/img/social-card.svg`
 
     // Theme cycling
     document.querySelector('.nav-theme-btn')?.addEventListener('click', function() {
-      var themes = ['dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'];
-      var cur = localStorage.getItem('wn-theme') || 'dark';
+      var themes = ['paper','dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'];
+      var cur = localStorage.getItem('wn-theme') || 'paper';
       var idx = themes.indexOf(cur);
       var next = themes[(idx + 1) % themes.length];
       localStorage.setItem('wn-theme', next);
