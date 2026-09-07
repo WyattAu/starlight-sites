@@ -84,7 +84,7 @@ function walkFiles(dir) {
 }
 
 /** Sync one directory tree from srcDir to destDir (mirror semantics). */
-function syncDir(srcDir, destDir, report) {
+function syncDir(srcDir, destDir, report, opts = {}) {
   if (!existsSync(srcDir)) return
   mkdirSync(destDir, { recursive: true })
 
@@ -108,13 +108,16 @@ function syncDir(srcDir, destDir, report) {
     }
   }
 
-  // Remove files in dest that no longer exist in src (mirror).
-  for (const rel of destFiles) {
-    if (!srcFiles.includes(rel)) {
-      const d = join(destDir, rel)
-      report.removed.push(relative(ROOT, d))
-      if (!DRY_RUN && !CHECK_ONLY) {
-        rmSync(d, { force: true })
+  // Remove files in dest that no longer exist in src (mirror),
+  // unless this destination admits landing-only extras.
+  if (!opts.noMirror) {
+    for (const rel of destFiles) {
+      if (!srcFiles.includes(rel)) {
+        const d = join(destDir, rel)
+        report.removed.push(relative(ROOT, d))
+        if (!DRY_RUN && !CHECK_ONLY) {
+          rmSync(d, { force: true })
+        }
       }
     }
   }
@@ -149,7 +152,11 @@ function main() {
   }
 
   // Shared fonts -> landing page (main has no src/components but needs public/fonts).
-  syncDir(join(ROOT, 'shared/fonts'), join(ROOT, 'sites', 'main', 'public', 'fonts'), report)
+  // noMirror: the landing self-hosts extra fonts (e.g. Cormorant Garamond) that
+  // must not be treated as orphans.
+  syncDir(join(ROOT, 'shared/fonts'), join(ROOT, 'sites', 'main', 'public', 'fonts'), report, {
+    noMirror: true,
+  })
 
   // Public client scripts -> all sites.
   for (const site of ALL_SITES) {
