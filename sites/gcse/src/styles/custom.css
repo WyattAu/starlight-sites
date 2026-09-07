@@ -1371,8 +1371,9 @@ body.wn-focus-mode .sl-container {
 
 /* === Cinematic Visual Layer === */
 
-/* Film grain overlay - subtle noise texture */
-.wn-grain::before {
+/* Film grain overlay - subtle noise texture.
+   Applied at body level so every site gets it without markup changes. */
+body::before {
   content: "";
   position: fixed;
   inset: 0;
@@ -1385,7 +1386,7 @@ body.wn-focus-mode .sl-container {
 }
 
 /* Vignette effect - cinematic edge darkening */
-.wn-vignette::after {
+body::after {
   content: "";
   position: fixed;
   inset: 0;
