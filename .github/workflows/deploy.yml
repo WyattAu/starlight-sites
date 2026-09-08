@@ -30,6 +30,7 @@ jobs:
     outputs:
       canary: ${{ steps.sites.outputs.canary }}
       rollout: ${{ steps.sites.outputs.rollout }}
+      all: ${{ steps.sites.outputs.all }}
     steps:
       - uses: actions/checkout@v4
 
@@ -38,6 +39,7 @@ jobs:
         run: |
           echo "canary=$(node scripts/list-sites.js --canary-matrix)" >> "$GITHUB_OUTPUT"
           echo "rollout=$(node scripts/list-sites.js --rollout-matrix)" >> "$GITHUB_OUTPUT"
+          echo "all=$(node scripts/list-sites.js --all)" >> "$GITHUB_OUTPUT"
 
   # Gate: production deployments must not proceed unless the full quality
   # suite (lint + no-emoji + sync integrity + tests) passes.
@@ -97,10 +99,46 @@ jobs:
       - name: Vitest component tests
         run: npx vitest run
 
+  # Content-schema validation across every site, in parallel. `astro sync`
+  # parses and validates all content collections (frontmatter, schemas)
+  # without running the Vite build -- it catches InvalidContentEntryDataError
+  # class regressions in ~2 minutes instead of after a full canary+rollout.
+  content-sync:
+    needs: resolve-sites
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        site: ${{ fromJson(needs.resolve-sites.outputs.all) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Cache bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lock') }}
+          restore-keys: bun-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Astro content sync (${{ matrix.site }})
+        working-directory: sites/${{ matrix.site }}
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+        run: bunx astro sync
+
   # Wave 1 -- canary (2 sites, distinct structural variants). If this fails,
   # the rollout never starts and the blast radius is 2 sites, not 45.
   deploy-canary:
-    needs: [gate, resolve-sites]
+    needs: [gate, content-sync, resolve-sites]
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:

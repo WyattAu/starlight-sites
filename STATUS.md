@@ -6,6 +6,28 @@ Supersedes: `CODE_QUALITY_VS_FAANG.md`, `SITE_COMPARISON_MATRIX.md`, `PATH_FORWA
 
 ---
 
+## Build policy: CI-only builds
+
+Full Astro builds run exclusively in GitHub Actions. Do not run
+`bun run build` / `astro build` locally -- the `astro-compress` phase
+exceeds local memory on content-heavy sites (alevel, physics, dse), and
+CI provides consistent resources plus staged canary rollout with
+auto-rollback (ADR-014).
+
+Approved local verification (no build involved):
+
+- `node scripts/lint-*.js` (content, config, links, secrets, ...)
+- `node scripts/sync-shared.mjs --check`
+- `node --test tests/unit/*.test.js tests/integration/*.test.js`
+- `npx vitest run`
+- File inspection and git operations.
+
+Verification loop for changes: branch -> push -> PR preview builds
+(7-site subset) -> merge to main -> gate + per-site `astro sync`
+content-schema validation -> 2-site canary -> 43-site rollout.
+
+---
+
 ## Current state
 
 | Metric | Value |

@@ -113,6 +113,7 @@ function previewSites() {
   const subset = [
     'dse', // content-heavy exam site (original variant)
     'ib', // mermaid diagrams enabled
+    'ap', // splash-template landing; caught docs-schema regression in rollout
     'python', // programming-language site (Kobalte islands)
     'sat', // test-prep generator family
     'machine-learning', // WASM widgets
