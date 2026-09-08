@@ -4,8 +4,9 @@ sources:
   - text: Spivak - Calculus
 
 date: 2026-07-23T21:57:32+01:00
-title: "Mathematics - Wyatt's Notes"
+title: "Mathematics Overview"
 description: "This section presents proof-based undergraduate mathematics at the rigour expected of a university programme. The treatment emphasises precise definitions,"
+
 ---
 sources:
   - text: Spivak - Calculus
@@ -15,7 +16,7 @@ sources:
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Index", "url": "https://mathematics.wyattau.com/index"}]
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Overview", "url": "https://mathematics.wyattau.com/overview/"}]
 }
 </script>
 
