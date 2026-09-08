@@ -48,7 +48,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Bartlett (1932) found that participants' recall of the Native American folk tale "War of the Ghosts" became increasingly distorted over time. Participants omitted unfamiliar details, rationalised unusual elements, and made the story conform to their own cultural schemas. This demonstrated that memory is not an exact recording but an active process of reconstruction influenced by existing knowledge, expectations, and cultural schemas.',
+      'Bartlett (1932) found that participants\' recall of the Native American folk tale "War of the Ghosts" became increasingly distorted over time. Participants omitted unfamiliar details, rationalised unusual elements, and made the story conform to their own cultural schemas. This demonstrated that memory is not an exact recording but an active process of reconstruction influenced by existing knowledge, expectations, and cultural schemas.',
   },
   {
     question: "Which type of forgetting does Ebbinghaus\'s savings method primarily measure?",
