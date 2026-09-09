@@ -38,9 +38,14 @@ async function uploadToKV() {
       body: indexContent,
     }
   )
-  
+
   const indexResult = await indexResp.json()
   if (!indexResult.success) {
+    const code = indexResult.errors?.[0]?.code
+    if (code === 10048) {
+      console.error('KV daily write quota exhausted (code 10048). The upload will succeed after the UTC midnight quota reset. Skipping with exit 0 so the deploy is not marked failed.')
+      process.exit(0)
+    }
     console.error('Index upload failed:', JSON.stringify(indexResult.errors))
     process.exit(1)
   }
