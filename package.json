@@ -20,7 +20,7 @@
     "lint:spelling": "cspell \"shared/**/*.ts\" \"shared/**/*.tsx\" \"scripts/**/*.{js,mjs}\" \"search-api/**/*.{js,mjs}\"",
     "lint:capitalisation": "node scripts/lint-capitalisation.js",
     "lint:markdown": "markdownlint \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\"",
-    "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-config-parity.js && node scripts/lint-no-emoji.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js && node scripts/lint-latex.js && node scripts/lint-secrets.js",
+    "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-config-parity.js && node scripts/lint-no-emoji.js && node scripts/lint-practice-components.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js && node scripts/lint-latex.js && node scripts/lint-secrets.js",
     "lint:secrets": "node scripts/lint-secrets.js",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "sync": "node scripts/sync-shared.mjs",
@@ -36,7 +36,7 @@
     "test:all": "vitest run && node --test tests/unit/*.test.js tests/integration/*.test.js && node tests/e2e/gui-snapshot.js --all",
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
-    "verify": "biome check . && vitest run && node --test tests/unit/*.test.js tests/integration/*.test.js && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-no-emoji.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js",
+    "verify": "biome check . && vitest run && node --test tests/unit/*.test.js tests/integration/*.test.js && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-no-emoji.js && node scripts/lint-practice-components.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js",
     "generate": "node scripts/generate-site.mjs"
   },
   "workspaces": [

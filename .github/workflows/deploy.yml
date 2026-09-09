@@ -66,6 +66,9 @@ jobs:
       - name: No-emoji lint
         run: node scripts/lint-no-emoji.js
 
+      - name: PracticeProblem corruption lint
+        run: node scripts/lint-practice-components.js
+
       - name: Content validation
         run: node scripts/lint-content.js
 
