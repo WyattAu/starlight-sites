@@ -26,7 +26,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ### Ownership
 
-<PracticeProblem client:only="solid-js" question='What happens when you write `let x = String::from("hello"); let y = x; println!("{}", x);`?' options={[ 'Compilation error: value borrowed after move', 'It prints \"hello\"', 'It prints \"hello\" twice', 'Runtime panic', ]} correctAnswer={0} explanation='String is a heap-allocated type. Assigning `x` to `y` moves ownership of the string data to `y`, invalidating `x`. Attempting to use `x` after the move causes a compilation error: "value borrowed here after move".' difficulty="easy"  />
+\<PracticeProblem client:only="solid-js" question='What happens when you write `let x = String::from("hello"); let y = x; println!("{}", x);`?' options={[ 'Compilation error: value borrowed after move', 'It prints \"hello\"', 'It prints \"hello\" twice', 'Runtime panic', ]} correctAnswer={0} explanation='String is a heap-allocated type. Assigning `x` to `y` moves ownership of the string data to `y`, invalidating `x`. Attempting to use `x` after the move causes a compilation error: "value borrowed here after move".' difficulty="easy"  />
 
 **Q1. Which of the following will compile without errors?**
 
@@ -44,7 +44,7 @@ D. let r1 = &mut s; let r2 = &mut s;',
 
 ### Lifetimes
 
-**Q2. What does the lifetime annotation `'a` in `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str` signify?**
+**Q2. What does the lifetime annotation `'a` in `fn longest\<'a>(x: &'a str, y: &'a str) -> &'a str` signify?**
 
 A. The returned reference lives at least as long as the shorter of the two input lifetimes
 B. The returned reference lives exactly as long as both inputs
@@ -62,7 +62,7 @@ A. Lifetime elision rules automatically assign the same lifetime to all referenc
 
 **Answer: A**
 
-**Answer: A** — Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -> &str` is equivalent to `fn first_word<'a>(s: &'a str) -> &'a str`.
+**Answer: A** — Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -> &str` is equivalent to `fn first_word\<'a>(s: &'a str) -> &'a str`.
 
 
 ---
@@ -97,7 +97,7 @@ D. Casting a mutable reference to an immutable one',
 
 ### Smart Pointers
 
-**Q6. What is the key difference between `Box\<T>` and `Rc\<T>`?**
+**Q6. What is the key difference between `Box\<T\>` and `Rc\<T\>`?**
 
 A. Box has single ownership; Rc enables shared ownership via reference counting
 B. Box is for stack allocation; Rc is for heap allocation
@@ -106,10 +106,10 @@ D. There is no difference',
 
 **Answer: A**
 
-**Answer: A** — `Box\<T>` provides single ownership of heap data — only one owner at a time. `Rc\<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc\<T>` for shared ownership across threads.
+**Answer: A** — `Box\<T\>` provides single ownership of heap data — only one owner at a time. `Rc\<T\>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc\<T\>` for shared ownership across threads.
 
 
-**Q7. When should you use `Arc\<T>` instead of `Rc\<T>`?**
+**Q7. When should you use `Arc\<T\>` instead of `Rc\<T\>`?**
 
 A. When you need to share data across multiple threads
 B. When you need mutable access to shared data
@@ -118,7 +118,7 @@ D. When the data is very small',
 
 **Answer: A**
 
-**Answer: A** — `Arc\<T>` (Atomic Reference Counted) is the thread-safe version of `Rc\<T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex\<T>` or `RwLock\<T>`.
+**Answer: A** — `Arc\<T\>` (Atomic Reference Counted) is the thread-safe version of `Rc\<T\>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex\<T\>` or `RwLock\<T\>`.
 
 
 ---
@@ -144,36 +144,36 @@ D. push requires exclusive access but v is not mutable',
 **Q9. What lifetime annotation is needed for `fn first_or_default(s: &[str]) -> &str`?**
 
 A. None -- lifetime elision handles it
-B. fn first_or_default<'a>(s: &'a str) -> &'a str
-C. fn first_or_default<'a>(s: &[str]) -> &'a str
+B. fn first_or_default\<'a>(s: &'a str) -> &'a str
+C. fn first_or_default\<'a>(s: &[str]) -> &'a str
 D. fn first_or_default(s: &str) -> &str is invalid',
 
 **Answer: A**
 
-**Answer: A** — With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default<'a>(s: &'a str) -> &'a str, but the compiler handles it automatically.
+**Answer: A** — With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default\<'a>(s: &'a str) -> &'a str, but the compiler handles it automatically.
 
 
 ---
 
 ### Trait Objects
 
-**Q10. What is the size of a `Box\<dyn Display>` compared to a `Box\<i32>`?**
+**Q10. What is the size of a `Box\<dyn Display\>` compared to a `Box\<i32\>`?**
 
-A. Box\<dyn Display> is larger (fat pointer with vtable); Box\<i32> is a single pointer
+A. Box\<dyn Display\> is larger (fat pointer with vtable); Box\<i32\> is a single pointer
 B. They are the same size
-C. Box\<dyn Display> is smaller
+C. Box\<dyn Display\> is smaller
 D. dyn Display is unsized, so Box cannot hold it',
 
 **Answer: A**
 
-**Answer: A** — Box\<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box\<i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
+**Answer: A** — Box\<dyn Display\> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box\<i32\> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
 
 
 ---
 
 ### Smart Pointers
 
-**Q11. What does `RefCell\<T>` provide that `Box\<T>` does not?**
+**Q11. What does `RefCell\<T\>` provide that `Box\<T\>` does not?**
 
 A. Interior mutability with runtime borrow checking
 B. Compile-time borrow checking
@@ -182,7 +182,7 @@ D. Automatic garbage collection',
 
 **Answer: A**
 
-**Answer: A** — RefCell\<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\<T> enforces exclusive ownership with no interior mutability.
+**Answer: A** — RefCell\<T\> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\<T\> enforces exclusive ownership with no interior mutability.
 
 
 ---
@@ -226,7 +226,7 @@ D. The compiler guesses the lifetime',
 
 **Answer: A**
 
-**Answer: A** — Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word<'a>(s: &'a str) -> &'a str is automatically inferred.
+**Answer: A** — Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word\<'a>(s: &'a str) -> &'a str is automatically inferred.
 
 
 ---
