@@ -100,7 +100,7 @@ D. Casting a mutable reference to an immutable one',
 
 ### Smart Pointers
 
-**Q6. What is the key difference between `Box\<T>` and `Rc\<T>`?**
+**Q6. What is the key difference between `Box&lt;T>` and `Rc&lt;T>`?**
 
 A. Box has single ownership; Rc enables shared ownership via reference counting
 B. Box is for stack allocation; Rc is for heap allocation
@@ -108,11 +108,11 @@ C. Box is thread-safe; Rc is not
 D. There is no difference',
 
 **Answer: A**
-— `Box\<T>` provides single ownership of heap data — only one owner at a time. `Rc\<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc\<T>` for shared ownership across threads.
+— `Box&lt;T>` provides single ownership of heap data — only one owner at a time. `Rc&lt;T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc&lt;T>` for shared ownership across threads.
 *Difficulty: medium*
 
 
-**Q7. When should you use `Arc\<T>` instead of `Rc\<T>`?**
+**Q7. When should you use `Arc&lt;T>` instead of `Rc&lt;T>`?**
 
 A. When you need to share data across multiple threads
 B. When you need mutable access to shared data
@@ -120,7 +120,7 @@ C. When you want to avoid heap allocation
 D. When the data is very small',
 
 **Answer: A**
-— `Arc\<T>` (Atomic Reference Counted) is the thread-safe version of `Rc\<T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex\<T>` or `RwLock\<T>`.
+— `Arc&lt;T>` (Atomic Reference Counted) is the thread-safe version of `Rc&lt;T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex&lt;T>` or `RwLock&lt;T>`.
 *Difficulty: medium*
 
 
@@ -162,13 +162,13 @@ D. fn first_or_default(s: &str) -> &str is invalid',
 
 **Q10. What is the size of a `Box<dyn Display>` compared to a `Box<i32>`?**
 
-A. Box\<dyn Display> is larger (fat pointer with vtable); Box\<i32> is a single pointer
+A. Box&lt;dyn Display> is larger (fat pointer with vtable); Box&lt;i32> is a single pointer
 B. They are the same size
-C. Box\<dyn Display> is smaller
+C. Box&lt;dyn Display> is smaller
 D. dyn Display is unsized, so Box cannot hold it',
 
 **Answer: A**
-— Box\<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box\<i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
+— Box&lt;dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box&lt;i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
 *Difficulty: medium*
 
 
@@ -176,7 +176,7 @@ D. dyn Display is unsized, so Box cannot hold it',
 
 ### Smart Pointers
 
-**Q11. What does `RefCell\<T>` provide that `Box\<T>` does not?**
+**Q11. What does `RefCell&lt;T>` provide that `Box&lt;T>` does not?**
 
 A. Interior mutability with runtime borrow checking
 B. Compile-time borrow checking
@@ -184,7 +184,7 @@ C. Thread-safe shared ownership
 D. Automatic garbage collection',
 
 **Answer: A**
-— RefCell\\<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\\<T> enforces exclusive ownership with no interior mutability.
+— RefCell\&lt;T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\&lt;T> enforces exclusive ownership with no interior mutability.
 *Difficulty: medium*
 
 

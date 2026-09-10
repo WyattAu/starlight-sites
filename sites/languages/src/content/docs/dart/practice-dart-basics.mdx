@@ -40,7 +40,6 @@ D. It compiles successfully',
 
 **Answer: A** — With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
 
-</details>
 
 **Q2. What is the type of `List\&lt;int&gt;? numbers = [1, 2, 3];`?**
 
@@ -52,7 +51,7 @@ D. It is of type `dynamic`',
 &lt;details&gt;
 &lt;summary&gt;Show answer — A&lt;/summary&gt;
 
-**Answer: A** — `List\<int>?` is a nullable list type. The variable `numbers` can hold either a `List\&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List\&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
+**Answer: A** — `List&lt;int>?` is a nullable list type. The variable `numbers` can hold either a `List\&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List\&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
 
 &lt;/details&gt;
 
@@ -68,7 +67,6 @@ D. Set
 
 **Answer: D** — A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
 
-</details>
 
 ---
 
@@ -86,7 +84,6 @@ D. Compilation error
 
 **Answer: B** — `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
 
-</details>
 
 **Q5. Given `Future\&lt;String&gt; fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
@@ -95,12 +92,9 @@ B. `dynamic`
 C. `void`
 D. `Future\&lt;String&gt;`
 
-<details>
-<summary>Show answer — D</summary>
 
 **Answer: D** — Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future\&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
 
-</details>
 
 ---
 
@@ -118,7 +112,6 @@ D. switch (r) \{ case Result(): ... \}',
 
 **Answer: A** — Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
 
-</details>
 
 **Q7. In Dart 3 records, how do you access the first positional field of `var record = ('Alice', 30);`?**
 
@@ -132,7 +125,6 @@ D. record.0
 
 **Answer: B** — Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 
-</details>
 
 ---
 
@@ -147,7 +139,6 @@ A. &quot;Prints 'walking' -- Walker's method is mixed into Person&quot;, 'Throws
 
 **Answer: A** — Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
 
-</details>
 
 **Q1. What happens when you declare `String name;` in a Dart file with null safety enabled?**
 
