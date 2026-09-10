@@ -181,7 +181,7 @@ C. Queue
 D. Set
 
 **Answer: D**
-— A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `{'a', 'b', 'a'}` becomes `{'a', 'b'}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
+— A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
 *Difficulty: hard*
 
 
@@ -197,7 +197,7 @@ D. Compilation error
 *Difficulty: hard*
 
 
-**Q5. Given `Future<String> fetchName() async { await Future.delayed(Duration(seconds: 1)); return 'Alice'; }`, what is the type of `var result = fetchName();`?**
+**Q5. Given `Future<String> fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
 A. `String`
 B. `dynamic`
@@ -209,9 +209,9 @@ D. `Future<String>`
 *Difficulty: medium*
 
 
-**Q6. Given `sealed class Result {} class Success extends Result {} class Failure extends Result {}`, which switch expression is exhaustive without a default case?**
+**Q6. Given `sealed class Result \{\} class Success extends Result \{\} class Failure extends Result \{\}`, which switch expression is exhaustive without a default case?**
 
-A. switch (r) { case Success(): ... case Failure(): ... }
+A. switch (r) \{ case Success(): ... case Failure(): ... \}
 
 **Answer: A**
 — Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.

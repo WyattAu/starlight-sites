@@ -72,7 +72,7 @@ D. Compilation error
 *Difficulty: medium*
 
 
-**Q5. Given `Future<String> fetchName() async { await Future.delayed(Duration(seconds: 1)); return 'Alice'; }`, what is the type of `var result = fetchName();`?**
+**Q5. Given `Future<String> fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
 A. String
 B. dynamic
@@ -116,7 +116,7 @@ D. record.$1
 
 ### OOP and Extensions
 
-**Q8. Given `mixin Walker { void walk() => print('walking'); }` and `class Person extends Animal with Walker {}`, what is the result of calling `walk()` on a `Person` instance?**
+**Q8. Given `mixin Walker \{ void walk() => print('walking'); \}` and `class Person extends Animal with Walker \{\}`, what is the result of calling `walk()` on a `Person` instance?**
 
 A. "Prints 'walking' -- Walker's method is mixed into Person
 B. Calls Animal's walk method instead", 'Compilation error: Walker cannot be used with Person',
@@ -126,7 +126,7 @@ B. Calls Animal's walk method instead", 'Compilation error: Walker cannot be use
 *Difficulty: medium*
 
 
-\<PracticeProblem client:only="solid-js" question={`Given \`extension on String { String get reversed => split('').reversed.join(); }\`, what does \`"hello".reversed\` return?`} options={['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']} correctAnswer={0} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
+\<PracticeProblem client:only="solid-js" question=\{`Given \`extension on String \{ String get reversed => split('').reversed.join(); \}\`, what does \`"hello".reversed\` return?`\} options=\{['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']\} correctAnswer=\{0\} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
 
 ---
 

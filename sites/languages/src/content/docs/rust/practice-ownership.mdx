@@ -60,8 +60,8 @@ D. Memory is leaked after the function returns',
 
 **Q3. Why does `fn first_word(s: &str) -> &str` compile without explicit lifetime annotations?**
 
-A. Lifetime elision rules automatically assign the same lifetime to all references', "Rust doesn't check lifetimes for simple functions
-B. It won't compile without annotations",
+A. Lifetime elision rules automatically assign the same lifetime to all references', "Rust doesn\'t check lifetimes for simple functions
+B. It won\'t compile without annotations",
 
 **Answer: A**
 — Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -> &str` is equivalent to `fn first_word<'a>(s: &'a str) -> &'a str`.
@@ -100,7 +100,7 @@ D. Casting a mutable reference to an immutable one',
 
 ### Smart Pointers
 
-**Q6. What is the key difference between `Box<T>` and `Rc<T>`?**
+**Q6. What is the key difference between `Box\<T>` and `Rc\<T>`?**
 
 A. Box has single ownership; Rc enables shared ownership via reference counting
 B. Box is for stack allocation; Rc is for heap allocation
@@ -108,11 +108,11 @@ C. Box is thread-safe; Rc is not
 D. There is no difference',
 
 **Answer: A**
-— `Box<T>` provides single ownership of heap data — only one owner at a time. `Rc<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc<T>` for shared ownership across threads.
+— `Box\<T>` provides single ownership of heap data — only one owner at a time. `Rc\<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc\<T>` for shared ownership across threads.
 *Difficulty: medium*
 
 
-**Q7. When should you use `Arc<T>` instead of `Rc<T>`?**
+**Q7. When should you use `Arc\<T>` instead of `Rc\<T>`?**
 
 A. When you need to share data across multiple threads
 B. When you need mutable access to shared data
@@ -120,7 +120,7 @@ C. When you want to avoid heap allocation
 D. When the data is very small',
 
 **Answer: A**
-— `Arc<T>` (Atomic Reference Counted) is the thread-safe version of `Rc<T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex<T>` or `RwLock<T>`.
+— `Arc\<T>` (Atomic Reference Counted) is the thread-safe version of `Rc\<T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex\<T>` or `RwLock\<T>`.
 *Difficulty: medium*
 
 
@@ -176,7 +176,7 @@ D. dyn Display is unsized, so Box cannot hold it',
 
 ### Smart Pointers
 
-**Q11. What does `RefCell<T>` provide that `Box<T>` does not?**
+**Q11. What does `RefCell\<T>` provide that `Box\<T>` does not?**
 
 A. Interior mutability with runtime borrow checking
 B. Compile-time borrow checking
@@ -184,7 +184,7 @@ C. Thread-safe shared ownership
 D. Automatic garbage collection',
 
 **Answer: A**
-— RefCell\<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\<T> enforces exclusive ownership with no interior mutability.
+— RefCell\\<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\\<T> enforces exclusive ownership with no interior mutability.
 *Difficulty: medium*
 
 
@@ -263,7 +263,7 @@ D. Converts Option to Result',
 - **[Rust Basics](../rust/):** Core Rust language features including syntax, control flow, and functions.
 - **[Rust Traits](../../../../../programming/src/content/docs/templates_and_metaprogramming/3_compile_time_computation/4_type_traits):** Trait definitions, implementations, and generic constraints.
 - **[Rust Concurrency](../../../../../java/src/content/docs/06-concurrency/01-concurrency):** Threads, channels, and async/await patterns.
-- **[C++ Pointers](../../../../../programming/src/content/docs/types/2_pointers_references_views/1_pointers):** Manual memory management for comparison with Rust's ownership model.
+- **[C++ Pointers](../../../../../programming/src/content/docs/types/2_pointers_references_views/1_pointers):** Manual memory management for comparison with Rust\'s ownership model.
 - **[Go Basics](../../go/):** Simpler memory model with garbage collection for comparison.
 - **[Rust Book](https://doc.rust-lang.org/book/):** Official Rust documentation and tutorials.
 
