@@ -46,7 +46,7 @@ D. let r1 = &mut s; let r2 = &mut s;',
 
 ### Lifetimes
 
-**Q2. What does the lifetime annotation `'a` in `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str` signify?**
+**Q2. What does the lifetime annotation `'a` in `fn longest&lt;'a&gt;(x: &'a str, y: &'a str) -&gt; &'a str` signify?**
 
 A. The returned reference lives at least as long as the shorter of the two input lifetimes
 B. The returned reference lives exactly as long as both inputs
@@ -64,7 +64,7 @@ A. Lifetime elision rules automatically assign the same lifetime to all referenc
 B. It won\'t compile without annotations",
 
 **Answer: A**
-— Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -> &str` is equivalent to `fn first_word<'a>(s: &'a str) -> &'a str`.
+— Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -&gt; &str` is equivalent to `fn first_word&lt;'a&gt;(s: &'a str) -&gt; &'a str`.
 *Difficulty: easy*
 
 
@@ -147,12 +147,12 @@ D. push requires exclusive access but v is not mutable',
 **Q9. What lifetime annotation is needed for `fn first_or_default(s: &[str]) -> &str`?**
 
 A. None -- lifetime elision handles it
-B. fn first_or_default<'a>(s: &'a str) -> &'a str
-C. fn first_or_default<'a>(s: &[str]) -> &'a str
+B. fn first_or_default&lt;'a&gt;(s: &'a str) -&gt; &'a str
+C. fn first_or_default&lt;'a&gt;(s: &[str]) -&gt; &'a str
 D. fn first_or_default(s: &str) -> &str is invalid',
 
 **Answer: A**
-— With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default<'a>(s: &'a str) -> &'a str, but the compiler handles it automatically.
+— With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default&lt;'a&gt;(s: &'a str) -&gt; &'a str, but the compiler handles it automatically.
 *Difficulty: easy*
 
 
@@ -160,7 +160,7 @@ D. fn first_or_default(s: &str) -> &str is invalid',
 
 ### Trait Objects
 
-**Q10. What is the size of a `Box<dyn Display>` compared to a `Box<i32>`?**
+**Q10. What is the size of a `Box&lt;dyn Display&gt;` compared to a `Box&lt;i32&gt;`?**
 
 A. Box&lt;dyn Display> is larger (fat pointer with vtable); Box&lt;i32> is a single pointer
 B. They are the same size
@@ -228,7 +228,7 @@ C. It returns a static lifetime
 D. The compiler guesses the lifetime',
 
 **Answer: A**
-— Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word<'a>(s: &'a str) -> &'a str is automatically inferred.
+— Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word&lt;'a&gt;(s: &'a str) -&gt; &'a str is automatically inferred.
 *Difficulty: easy*
 
 
