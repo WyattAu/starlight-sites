@@ -25,12 +25,15 @@ description: "8 auto-graded practice problems covering Rust ownership, lifetimes
 
 ### Ownership
 
-<PracticeProblem client:only="solid-js" question='What happens when you write `let x = String::from("hello"); let y = x; println!("{}", x);`?' options={[ 'Compilation error: value borrowed after move', 'It prints \"hello\"', 'It prints \"hello\" twice', 'Runtime panic', ]} correctAnswer={0} explanation='String is a heap-allocated type. Assigning `x` to `y` moves ownership of the string data to `y`, invalidating `x`. Attempting to use `x` after the move causes a compilation error: "value borrowed here after move".' difficulty="easy"  />
+**Q1. What happens when you write `let x = String::from("hello"); let y = x; println!("{}", x);`?**
+
+**Answer: A**
+
 
 **Q1. Which of the following will compile without errors?**
 
-A. let x = 5; let y = x; println!(\"{}\
-B. hi\"); let y = x; println!(\"{}\", x);
+A. let x = 5; let y = x; println!(\"\{\}\
+B. hi\"); let y = x; println!(\"\{\}\", x);
 C. let x = vec![1]; let y = x; x.push(2);
 D. let r1 = &mut s; let r2 = &mut s;',
 
@@ -159,13 +162,13 @@ D. fn first_or_default(s: &str) -> &str is invalid',
 
 **Q10. What is the size of a `Box<dyn Display>` compared to a `Box<i32>`?**
 
-A. Box<dyn Display> is larger (fat pointer with vtable); Box<i32> is a single pointer
+A. Box\<dyn Display> is larger (fat pointer with vtable); Box\<i32> is a single pointer
 B. They are the same size
-C. Box<dyn Display> is smaller
+C. Box\<dyn Display> is smaller
 D. dyn Display is unsized, so Box cannot hold it',
 
 **Answer: A**
-— Box<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box<i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
+— Box\<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box\<i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
 *Difficulty: medium*
 
 
@@ -181,7 +184,7 @@ C. Thread-safe shared ownership
 D. Automatic garbage collection',
 
 **Answer: A**
-— RefCell<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box<T> enforces exclusive ownership with no interior mutability.
+— RefCell\<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\<T> enforces exclusive ownership with no interior mutability.
 *Difficulty: medium*
 
 

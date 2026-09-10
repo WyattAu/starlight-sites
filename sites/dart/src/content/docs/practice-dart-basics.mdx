@@ -34,9 +34,9 @@ D. It compiles successfully',
 
 **Q2. What is the type of `List<int>? numbers = [1, 2, 3];`?**
 
-A. The variable is of type `List<int>?` and currently holds a non-null `List<int>
+A. The variable is of type `List<int>?` and currently holds a non-null `List\<int>
 B. It is of type `List<int>` (the ? is ignored)
-C. Compilation error: cannot assign List<int> to List<int>?
+C. Compilation error: cannot assign List\<int> to List\<int>?
 D. It is of type `dynamic`',
 
 **Answer: A**
@@ -76,7 +76,7 @@ D. Compilation error
 
 A. String
 B. dynamic
-C. Future<String>
+C. Future\<String>
 D. void
 
 **Answer: C**
@@ -126,7 +126,7 @@ B. Calls Animal's walk method instead", 'Compilation error: Walker cannot be use
 *Difficulty: medium*
 
 
-<PracticeProblem client:only="solid-js" question={`Given \`extension on String { String get reversed => split('').reversed.join(); }\`, what does \`"hello".reversed\` return?`} options={['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']} correctAnswer={0} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
+\<PracticeProblem client:only="solid-js" question={`Given \`extension on String { String get reversed => split('').reversed.join(); }\`, what does \`"hello".reversed\` return?`} options={['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']} correctAnswer={0} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
 
 ---
 
