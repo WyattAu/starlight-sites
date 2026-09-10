@@ -464,7 +464,7 @@ Ensure you have mastered the prerequisite material before attempting this advanc
 
 <PracticeProblem client:only="solid-js" question={"Which sorting algorithm does Python's built-in `sorted()` use?"} options={["Quicksort", "Merge sort (Timsort)", "Heap sort", "Bubble sort"]} correctAnswer={1} explanation={"Python uses Timsort, a hybrid of merge sort and insertion sort. It is stable and has O(n log n) worst-case time complexity.\""} difficulty="medium" />
 
-<PracticeProblem client:only="solid-js" question={"What is the result of `type((1, 2, 3))`?"} options={["'<class 'list'>\"", "<class 'set'>", "<class 'tuple'>", "\"<class 'dict'>\"]}]} correctAnswer={2} explanation=\"(1, 2, 3) with parentheses and commas is a tuple, not a list or set.\"} difficulty=\"easy\"  />"} correctAnswer={2} explanation={"(1, 2, 3) with parentheses and commas is a tuple, not a list or set.\""} difficulty="easy" />
+**Q?. What is the result of type((1, 2, 3))?**
 
 <PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?"} options={["Returns [0, 1, 2]", "Raises SyntaxError", "Yields a single generator object", "Returns a generator that yields 0, 1, 2"]} correctAnswer={3} explanation={"This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated.\""} difficulty="medium" />
 
@@ -481,3 +481,4 @@ Ensure you have mastered the prerequisite material before attempting this advanc
 <PracticeProblem client:only="solid-js" question={"What is the output of `print(list(map(lambda x, y: x + y, [1,2,3], [4,5,6])))`?"} options={["[5, 7, 9]", "[1, 2, 3, 4, 5, 6]", "[4, 8, 12]", "TypeError: map() takes exactly one argument"]} correctAnswer={0} explanation={"map with two iterables passes corresponding elements as positional arguments to the lambda. It adds element-wise: 1+4=5, 2+5=7, 3+6=9.\""} difficulty="medium" />
 
 <PracticeProblem client:only="solid-js" question={"What does `*` unpacking do in `[1, *[2,3], 4]`?"} options={["Produces [1, 2, 3, 4]", "Produces [1, [2, 3], 4]", "Raises TypeError", "Produces [1, 2, 3, 4] with a nested list"]} correctAnswer={0} explanation={"The * operator unpacks an iterable into individual elements in the enclosing list. [2,3] is unpacked to 2,3, so the result is [1, 2, 3, 4].\""} difficulty="medium" />
+
