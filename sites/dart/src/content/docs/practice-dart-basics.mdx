@@ -90,10 +90,10 @@ D. void
 
 **Q6. Given `sealed class Result {} class Success extends Result {} class Failure extends Result {}`, which switch expression is exhaustive without a default case?**
 
-A. switch (r) { case Success(): ... case Failure(): ... }
-B. switch (r) { case Success(): ... }
-C. switch (r) { default: ... }
-D. switch (r) { case Result(): ... }',
+A. switch (r) \{ case Success(): ... case Failure(): ... \}
+B. switch (r) \{ case Success(): ... \}
+C. switch (r) \{ default: ... \}
+D. switch (r) \{ case Result(): ... \}',
 
 **Answer: A**
 — Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
