@@ -1,0 +1,130 @@
+/* ============================================================
+   DESIGN TOKENS — single source of truth
+   All sites import this. Themes override at [data-theme] level.
+   ============================================================ */
+
+:root {
+  /* --- Palette --- */
+  --wn-ivory: #f5f1e8;
+  --wn-ivory-warm: #f0ebdf;
+  --wn-cream: #fef9f2;
+  --wn-ink: #171512;
+  --wn-ink-deep: #0a0908;
+  --wn-ink-text: #1a1815;
+  --wn-ink-muted: #5c554d;
+  --wn-ink-dim: #8a7f74;
+  --wn-ink-faint: #b3a995;
+
+  /* --- Accent (per-site override via --ea-accent) --- */
+  --ea-accent: #8c2f2f;
+  --ea-accent-deep: #6f2424;
+  --ea-accent-low: rgba(140, 47, 47, 0.08);
+
+  /* --- Gold (display-only, never body text) --- */
+  --ea-gold: #b08d57;
+  --ea-gold-dim: rgba(176, 141, 87, 0.15);
+
+  /* --- Surface --- */
+  --ea-surface: var(--wn-ivory);
+  --ea-surface-warm: var(--wn-ivory-warm);
+  --ea-surface-card: var(--wn-cream);
+  --ea-surface-hover: #ede7da;
+
+  /* --- Typography --- */
+  --ea-font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --ea-font-body: "Atkinson Hyperlegible Next", "Inter", system-ui, sans-serif;
+  --ea-font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --ea-text: var(--wn-ink-text);
+  --ea-text-muted: var(--wn-ink-muted);
+  --ea-text-dim: var(--wn-ink-dim);
+  --ea-text-inverse: var(--wn-ivory);
+
+  /* --- Type scale (fluid) --- */
+  --ea-size-hero: clamp(2.8rem, 7vw, 5.5rem);
+  --ea-size-h1: clamp(1.8rem, 4vw, 2.8rem);
+  --ea-size-h2: clamp(1.3rem, 2.8vw, 1.8rem);
+  --ea-size-h3: clamp(1.1rem, 2vw, 1.3rem);
+  --ea-size-body: 0.95rem;
+  --ea-size-small: 0.85rem;
+  --ea-size-micro: 0.72rem;
+
+  /* --- Spacing --- */
+  --ea-space-section: clamp(4rem, 10vh, 7rem);
+  --ea-space-block: clamp(1.5rem, 4vh, 3rem);
+  --ea-space-inline: 1.5rem;
+
+  /* --- Motion --- */
+  --ea-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ea-duration-fast: 0.14s;
+  --ea-duration-base: 0.22s;
+  --ea-duration-slow: 0.9s;
+  --ea-duration-reveal: 1.1s;
+
+  /* --- Borders --- */
+  --ea-hairline: 1px solid rgba(23, 21, 18, 0.12);
+  --ea-hairline-strong: 1px solid rgba(23, 21, 18, 0.2);
+  --ea-radius: 0;
+
+  /* --- Shadows --- */
+  --ea-shadow-sm: 0 1px 3px rgba(23, 21, 18, 0.06);
+  --ea-shadow-md: 0 6px 18px rgba(23, 21, 18, 0.1);
+  --ea-shadow-lg: 0 18px 42px rgba(23, 21, 18, 0.16);
+
+  /* --- Z-index --- */
+  --z-bg: 0;
+  --z-card: 10;
+  --z-nav: 100;
+  --z-overlay: 500;
+  --z-modal: 1000;
+  --z-toast: 2000;
+}
+
+/* ============================================================
+   DARK THEME (per-site override)
+   ============================================================ */
+[data-theme="dark"] {
+  --ea-surface: #0a0a0f;
+  --ea-surface-warm: #12121a;
+  --ea-surface-card: #1a1a24;
+  --ea-surface-hover: #242436;
+  --ea-text: #e8e8ed;
+  --ea-text-muted: #8888a0;
+  --ea-text-dim: #5a5a70;
+  --ea-text-inverse: #0a0a0f;
+  --ea-hairline: 1px solid rgba(232, 232, 237, 0.1);
+  --ea-hairline-strong: 1px solid rgba(232, 232, 237, 0.18);
+  --ea-accent-low: rgba(255, 107, 53, 0.1);
+  --ea-gold: #fbbf24;
+  --ea-gold-dim: rgba(251, 191, 36, 0.12);
+  --ea-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --ea-shadow-md: 0 6px 18px rgba(0, 0, 0, 0.55);
+  --ea-shadow-lg: 0 18px 42px rgba(0, 0, 0, 0.65);
+}
+
+/* ============================================================
+   LEGACY THEME BRIDGE
+   Maps old --wn-* and --sl-color-* custom properties to the
+   new token system so existing components keep working.
+   ============================================================ */
+[data-theme="paper"],
+[data-theme="dark"],
+[data-theme="light"],
+[data-theme="sepia"],
+[data-theme="contrast"],
+[data-theme="nord"],
+[data-theme="dracula"],
+[data-theme="monokai"],
+[data-theme="ayu-mirage"],
+[data-theme="solarized"],
+[data-theme="papercolor"] {
+  --wn-bg: var(--ea-surface);
+  --wn-bg-card: var(--ea-surface-card);
+  --wn-bg-hover: var(--ea-surface-hover);
+  --wn-text: var(--ea-text);
+  --wn-text-muted: var(--ea-text-muted);
+  --wn-text-dim: var(--ea-text-dim);
+  --wn-border: var(--ea-hairline);
+  --sl-color-accent: var(--ea-accent);
+  --sl-color-text: var(--ea-text);
+}

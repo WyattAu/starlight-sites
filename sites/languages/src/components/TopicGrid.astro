@@ -1,0 +1,105 @@
+---
+/**
+ * TopicGrid — data-driven topic index for subject landing pages.
+ *
+ * Replaces hand-written CardGrid markdown with a structured,
+ * consistently rendered index. Accepts a JSON array of topics.
+ *
+ * Props:
+ *   topics — Array of { title, description, href, icon?, group? }
+ *   numbered? — Show ghost numerals (default: true)
+ */
+export interface Topic {
+  title: string;
+  description?: string;
+  href: string;
+  icon?: string;
+}
+interface Props {
+  topics: Topic[];
+  numbered?: boolean;
+  columns?: 2 | 3;
+}
+const { topics, numbered = true, columns = 3 } = Astro.props;
+---
+
+<div class="topic-grid" style={`--cols: ${columns}`}>
+  {topics.map((topic, i) => (
+    <a class="topic-card" href={topic.href}>
+      {numbered && <span class="topic-card__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>}
+      <div class="topic-card__body">
+        <h3 class="topic-card__title">{topic.title}</h3>
+        {topic.description && <p class="topic-card__desc">{topic.description}</p>}
+      </div>
+      <span class="topic-card__arrow" aria-hidden="true">→</span>
+    </a>
+  ))}
+</div>
+
+<style>
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 3), 1fr);
+    gap: 1rem;
+  }
+  .topic-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid rgba(23, 21, 18, 0.1);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--ea-text);
+    transition:
+      border-color 0.3s var(--ea-ease),
+      transform 0.3s var(--ea-ease),
+      box-shadow 0.3s var(--ea-ease);
+  }
+  .topic-card:hover {
+    border-color: var(--ea-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--ea-shadow-sm);
+  }
+  .topic-card__num {
+    font-family: var(--ea-font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--ea-text-dim);
+    line-height: 1.8;
+    flex-shrink: 0;
+  }
+  .topic-card__body {
+    flex: 1;
+    min-width: 0;
+  }
+  .topic-card__title {
+    font-family: var(--ea-font-display);
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin: 0 0 0.2rem;
+    color: var(--ea-text);
+  }
+  .topic-card__desc {
+    font-size: 0.82rem;
+    color: var(--ea-text-muted);
+    margin: 0;
+    line-height: 1.45;
+  }
+  .topic-card__arrow {
+    flex-shrink: 0;
+    align-self: center;
+    color: var(--ea-text-dim);
+    transition: color 0.3s var(--ea-ease), transform 0.3s var(--ea-ease);
+  }
+  .topic-card:hover .topic-card__arrow {
+    color: var(--ea-accent);
+    transform: translateX(3px);
+  }
+  @media (max-width: 900px) {
+    .topic-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .topic-grid { grid-template-columns: 1fr; }
+  }
+</style>

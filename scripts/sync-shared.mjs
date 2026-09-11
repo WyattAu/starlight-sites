@@ -47,6 +47,7 @@ const SHARED_DIRS = [
   ['shared/components', 'src/components'],
   ['shared/utils', 'src/utils'],
   ['shared/styles', 'src/styles'],
+  ['shared/design', 'src/design'],
   ['shared/fonts', 'public/fonts'],
   ['shared/i18n', 'src/i18n'],
 ]

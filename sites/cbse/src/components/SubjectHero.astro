@@ -1,0 +1,113 @@
+---
+/**
+ * SubjectHero — full-viewport hero for subject landing pages.
+ *
+ * Props:
+ *   title        — Site title (e.g. "DSE Physics")
+ *   tagline      — One-sentence description
+ *   image?       — Hero image path (default: /img/hero.jpg)
+ *   imageAlt?    — Alt text for the hero image
+ *   accent?      — Override accent color for this site
+ *
+ * Renders: film grain, Ken Burns image, scrim, micro-label, headline,
+ * tagline, and optional call-to-action slot.
+ */
+interface Props {
+  title: string;
+  tagline: string;
+  image?: string;
+  imageAlt?: string;
+  accent?: string;
+}
+const {
+  title,
+  tagline,
+  image = '/img/hero.jpg',
+  imageAlt = '',
+  accent,
+} = Astro.props;
+---
+
+<section class="subject-hero" style={accent ? `--ea-accent: ${accent}` : undefined}>
+  <div class="subject-hero__media" aria-hidden="true">
+    <img src={image} alt={imageAlt} loading="eager" fetchpriority="high" decoding="async" />
+  </div>
+  <div class="subject-hero__scrim" aria-hidden="true"></div>
+  <div class="subject-hero__content">
+    <p class="subject-hero__kicker reveal">{title}</p>
+    <h1 class="subject-hero__headline">
+      <span class="reveal-line"><span>{tagline}</span></span>
+    </h1>
+    <slot name="actions" />
+  </div>
+</section>
+
+<style>
+  .subject-hero {
+    position: relative;
+    min-height: 70vh;
+    min-height: 70svh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 6rem 1.5rem 3rem;
+    overflow: hidden;
+  }
+  .subject-hero__media,
+  .subject-hero__scrim {
+    position: absolute;
+    inset: 0;
+  }
+  .subject-hero__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: hero-kenburns 28s ease-in-out infinite alternate;
+  }
+  @keyframes hero-kenburns {
+    from { transform: scale(1) translate(0, 0); }
+    to { transform: scale(1.08) translate(-1.5%, 1%); }
+  }
+  .subject-hero__scrim {
+    background: linear-gradient(
+      180deg,
+      rgba(23, 21, 18, 0.6) 0%,
+      rgba(23, 21, 18, 0.3) 42%,
+      rgba(23, 21, 18, 0.7) 100%
+    );
+  }
+  .subject-hero__content {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .subject-hero__kicker {
+    font-family: var(--ea-font-mono);
+    font-size: var(--ea-size-micro);
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--ea-gold);
+    margin-bottom: 1.25rem;
+  }
+  .subject-hero__headline {
+    font-family: var(--ea-font-display);
+    font-weight: 300;
+    font-size: clamp(2.2rem, 6vw, 4.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    color: #f7f3ea;
+    margin: 0 0 1rem;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .subject-hero__media img { animation: none; }
+  }
+</style>
+
+<script>
+  // Activate reveal animations on load
+  document.querySelectorAll('.subject-hero .reveal, .subject-hero .reveal-line').forEach(el => {
+    el.classList.add('revealed');
+  });
+</script>
