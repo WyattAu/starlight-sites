@@ -49,7 +49,8 @@ export default defineConfig({
         { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
         { label: 'Psychology', items: [{ autogenerate: { directory: 'psychology' } }] },
         { label: 'About', slug: 'about' },
-      ],
+        { label: 'Glossary', slug: 'glossary' },
+],
       head: [
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },

@@ -52,7 +52,8 @@ export default defineConfig({
         { label: 'Swift', items: [{ autogenerate: { directory: 'swift' } }] },
         { label: 'Typescript', items: [{ autogenerate: { directory: 'typescript' } }] },
         { label: 'About', slug: 'about' },
-      ],
+              { label: 'Glossary', slug: 'glossary' },
+],
       head: [
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },

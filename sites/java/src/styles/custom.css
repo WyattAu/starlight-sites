@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Shared design system (tokens, base, components) */
+@import "../design/index.css";
+
 /* === Custom Utilities === */
 @layer utilities {
   .backface-hidden {

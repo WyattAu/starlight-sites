@@ -44,7 +44,8 @@ export default defineConfig({
         },
         { label: 'Stress Testing', items: [{ autogenerate: { directory: '06-stress-testing' } }] },
         { label: 'About', slug: 'about' },
-      ],
+              { label: 'Glossary', slug: 'glossary' },
+],
       head: [
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },

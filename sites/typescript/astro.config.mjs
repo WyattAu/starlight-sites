@@ -59,8 +59,8 @@ export default defineConfig({
           ],
         },
         { label: 'About', slug: 'about' },
-        { label: 'Glossary', slug: 'glossary' },
-      ],
+              { label: 'Glossary', slug: 'glossary' },
+],
       head: [
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },

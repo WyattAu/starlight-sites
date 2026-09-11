@@ -39,7 +39,8 @@ export default defineConfig({
           items: [{ label: 'Open Source Licenses', slug: 'osi-licenses' }],
         },
         { label: 'About', slug: 'about' },
-      ],
+        { label: 'Glossary', slug: 'glossary' },
+],
       head: [
         ...cloudflareAnalytics(),
         { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },

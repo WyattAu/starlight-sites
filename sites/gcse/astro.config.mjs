@@ -34,7 +34,8 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
         zh: { label: '简体中文', lang: 'zh' },
       },
-      sidebar: [
+      sidebar: [        { label: 'Study Hub', slug: 'hub' },
+
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
         { label: 'Practice Test', slug: 'practice-test-mega' },
         { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
