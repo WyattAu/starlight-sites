@@ -31,10 +31,26 @@ async function fetchWithTimeout(url, timeout = 10000) {
   }
 }
 
+// Retry wrapper: a single transient failure used to silently drop the
+// whole site from the search index (empty-array catch below).
+async function fetchWithRetry(url, timeout = 10000, attempts = 3) {
+  let lastErr
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fetchWithTimeout(url, timeout)
+    } catch (err) {
+      lastErr = err
+      await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1)))
+    }
+  }
+  throw lastErr
+}
+
 async function fetchSiteIndex(site) {
   try {
-    const sitemapResp = await fetchWithTimeout(`${site.url}/sitemap-0.xml`)
+    const sitemapResp = await fetchWithRetry(`${site.url}/sitemap-0.xml`)
     if (!sitemapResp.ok) {
+      console.warn(`[index] ${site.id}: sitemap fetch failed (HTTP ${sitemapResp.status}) -- site dropped from index`)
       return []
     }
 
@@ -119,8 +135,10 @@ async function fetchSiteIndex(site) {
       entries.push(...results.filter(Boolean))
     }
 
+    console.log(`[index] ${site.id}: ${urls.length} urls, ${entries.length} entries`)
     return entries
-  } catch (_err) {
+  } catch (err) {
+    console.warn(`[index] ${site.id}: crawl failed (${err && err.message ? err.message : err}) -- site dropped from index`)
     return []
   }
 }
@@ -133,12 +151,21 @@ async function buildIndex() {
 
   // Merge
   const allEntries = results.flat()
-  const _elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1)
 
-  // Stats per site
-  for (const site of SITES) {
-    const _count = allEntries.filter(e => e.site === site.id).length
+  // Loud summary: silent site drops are how the index silently shrank to
+  // 9 sites while the network grew to 45.
+  const perSite = {}
+  for (const entry of allEntries) {
+    perSite[entry.site] = (perSite[entry.site] || 0) + 1
   }
+  const dropped = SITES.filter(s => !perSite[s.id])
+  if (dropped.length > 0) {
+    console.warn(
+      `::warning::${dropped.length}/${SITES.length} sites produced zero search entries: ${dropped.map(s => s.id).join(', ')}`,
+    )
+  }
+  console.log(`[index] merged ${allEntries.length} entries from ${Object.keys(perSite).length}/${SITES.length} sites in ${elapsed}s`)
 
   // Create metadata
   const metadata = {

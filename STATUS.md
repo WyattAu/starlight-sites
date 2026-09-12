@@ -14,10 +14,16 @@ exceeds local memory on content-heavy sites (alevel, physics, dse), and
 CI provides consistent resources plus staged canary rollout with
 auto-rollback (ADR-014).
 
-Approved local verification (no build involved):
+Approved local verification (no build involved) — subject to the
+local execution policy in AGENTS.md. The machine runs ~26Gi zram swap
+at idle; full-tree node scripts stall in swap thrash (no OOM killer
+exists), so scope or substitute:
 
-- `node scripts/lint-*.js` (content, config, links, secrets, ...)
-- `node scripts/sync-shared.mjs --check`
+- Full-tree node lints (`lint-depth.js`, `sync-shared.mjs`/`--check`,
+  practice/emoji/secrets/links lints) — CI only; scoped per-file runs OK.
+- Read-only sweeps: prefer python3 one-shots (streaming allocators).
+- Unavoidable node: prefix `NODE_OPTIONS=--max-old-space-size=1024`,
+  wrap in `timeout`.
 - `node --test tests/unit/*.test.js tests/integration/*.test.js`
 - `npx vitest run`
 - File inspection and git operations.
