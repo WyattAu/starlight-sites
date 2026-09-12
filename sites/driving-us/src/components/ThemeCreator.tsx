@@ -90,7 +90,7 @@ export default function ThemeCreator(props: ThemeCreatorProps) {
         <div class="theme-creator-modal" onClick={(e) => e.stopPropagation()}>
           <div class="theme-creator-header">
             <h2>Theme Creator</h2>
-            <button class="theme-creator-close" onClick={() => props.onOpenChange(false)}>
+            <button type="button" class="theme-creator-close" aria-label="Close theme creator" onClick={() => props.onOpenChange(false)}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M18 6 6 18" /><path d="m6 6 12 12" />
               </svg>

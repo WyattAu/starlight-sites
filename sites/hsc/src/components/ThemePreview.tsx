@@ -54,7 +54,7 @@ export default function ThemePreview(props: ThemePreviewProps) {
         <div class="theme-preview-modal" onClick={(e) => e.stopPropagation()}>
           <div class="theme-preview-header">
             <h2>Theme Preview</h2>
-            <button class="theme-preview-close" onClick={() => props.onOpenChange(false)}>
+            <button type="button" class="theme-preview-close" aria-label="Close theme preview" onClick={() => props.onOpenChange(false)}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M18 6 6 18" /><path d="m6 6 12 12" />
               </svg>

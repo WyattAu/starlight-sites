@@ -78,7 +78,7 @@ export default function SiteNavigator(props: SiteNavigatorProps) {
         <div class="site-nav-panel" onClick={(e) => e.stopPropagation()}>
           <div class="site-nav-header">
             <h2>All Sites</h2>
-            <button class="site-nav-close" onClick={() => props.onOpenChange(false)}>
+            <button type="button" class="site-nav-close" aria-label="Close site navigation" onClick={() => props.onOpenChange(false)}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M18 6 6 18" /><path d="m6 6 12 12" />
               </svg>
