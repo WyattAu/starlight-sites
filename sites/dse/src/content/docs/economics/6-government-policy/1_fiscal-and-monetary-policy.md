@@ -1,5 +1,5 @@
 ---
-title: "Fiscal and Monetary Policy | DSE"
+title: "Fiscal and Monetary Policy"
 description: "Study notes for Fiscal and Monetary Policy with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-08T00:00:00.000Z
 tags:

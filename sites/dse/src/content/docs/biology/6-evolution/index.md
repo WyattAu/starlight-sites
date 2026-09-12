@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Evolution | DSE - Wyatt's Notes"
+title: "Evolution"
 description: "This section covers evolution concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

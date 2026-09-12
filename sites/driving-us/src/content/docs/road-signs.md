@@ -1,5 +1,5 @@
 ---
-title: "Road Signs | Driving (US) - Wyatt's Notes"
+title: "Road Signs | Driving (US)"
 description: "Study notes for Road Signs with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

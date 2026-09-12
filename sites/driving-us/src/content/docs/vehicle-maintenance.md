@@ -1,5 +1,5 @@
 ---
-title: "Vehicle Maintenance | Driving (US) - Wyatt's Notes"
+title: "Vehicle Maintenance"
 description: "Study notes for Vehicle Maintenance with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

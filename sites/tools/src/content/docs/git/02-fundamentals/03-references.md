@@ -1,6 +1,6 @@
 ---
 
-title: "References | Tools - Wyatt's Notes"
+title: "References"
 description: "Study notes for References with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T01:00:00.000Z
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Junctions | Driving (UK) - Wyatt's Notes"
+title: "Junctions | Driving (UK)"
 description: "Study notes for Junctions with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

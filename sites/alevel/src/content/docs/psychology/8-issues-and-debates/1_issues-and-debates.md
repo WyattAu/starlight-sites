@@ -1,6 +1,6 @@
 ---
 
-title: "Issues and Debates | A-Level - Wyatt's Notes"
+title: "Issues and Debates"
 date: 2026-05-12T00:00:00.000Z
 tags:
   - alevel

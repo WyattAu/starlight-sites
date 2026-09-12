@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Advanced Topics | Languages - Wyatt's Notes"
+title: "Advanced Topics"
 description: "This section covers advanced topics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

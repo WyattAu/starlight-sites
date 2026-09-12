@@ -1,6 +1,6 @@
 ---
 
-title: "Natural Selection | AP - Wyatt's Notes"
+title: "Natural Selection"
 description: "1. Individuals in a population exhibit heritable variation. 2. Populations produce more offspring than the environment can support. 3. Individuals compete"
 date: 2026-04-14
 tags:

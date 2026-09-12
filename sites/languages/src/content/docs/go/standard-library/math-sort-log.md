@@ -1,6 +1,6 @@
 ---
 
-title: "math, sort, and log/slog | Languages"
+title: "math, sort, and log/slog"
 date: 2026-05-30
 tags:
   - Go

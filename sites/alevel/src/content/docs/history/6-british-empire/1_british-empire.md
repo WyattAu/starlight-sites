@@ -1,6 +1,6 @@
 ---
 
-title: "The British Empire c1688-1763 | A-Level"
+title: "The British Empire c1688-1763"
 date: 2026-05-21T00:00:00.000Z
 tags:
   - alevel

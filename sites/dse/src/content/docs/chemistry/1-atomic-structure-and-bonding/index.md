@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Atomic Structure And Bonding | DSE"
+title: "Atomic Structure And Bonding"
 description: "This section covers atomic structure and bonding concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

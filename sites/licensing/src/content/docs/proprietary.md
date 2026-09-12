@@ -1,5 +1,5 @@
 ---
-title: "Proprietary | Licensing - Wyatt's Notes"
+title: "Proprietary"
 description: "Study notes for Proprietary with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

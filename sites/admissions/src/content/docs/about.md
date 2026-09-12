@@ -1,5 +1,5 @@
 ---
-title: "About This Site | admissions - Wyatt's Notes"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes Admissions resources — experience, expertise, and credentials behind university admissions study materials."
 tags:

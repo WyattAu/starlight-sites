@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Trade and Aid | IB - Wyatt's Notes"
+title: "Trade and Aid"
 description: "Study notes for Trade and Aid with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

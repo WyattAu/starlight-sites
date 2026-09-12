@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "IB Geography - Wyatt's Notes"
+title: "IB Geography"
 description: "IB Geography is a two-year course that examines the relationships between individuals, societies, and the physical environment at a range of scales, from"
 
 ---

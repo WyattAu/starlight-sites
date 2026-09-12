@@ -1,5 +1,5 @@
 ---
-title: "Emergency Procedures | Driving (US) - Wyatt's Notes"
+title: "Emergency Procedures"
 description: "Study notes for Emergency Procedures with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

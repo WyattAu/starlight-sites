@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Ownership Borrowing | Languages"
+title: "Ownership Borrowing"
 description: "This section covers ownership borrowing concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

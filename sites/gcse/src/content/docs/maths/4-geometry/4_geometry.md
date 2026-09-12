@@ -1,7 +1,7 @@
 ---
 
 
-title: "Geometry | GCSE - Wyatt's Notes"
+title: "Geometry"
 description: "Study notes for Geometry | GCSE - Wyatt's Notes with worked examples and practice questions."
 -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |"
 date: 2026-04-14

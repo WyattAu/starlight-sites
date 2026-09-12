@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "AP Physics - Wyatt's Notes"
+title: "AP Physics"
 description: "This section covers ap physics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

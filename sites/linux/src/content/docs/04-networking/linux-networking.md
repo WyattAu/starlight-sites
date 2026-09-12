@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Linux Networking - Wyatt's Notes"
+title: "Linux Networking"
 description: "The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,"
 
 ---

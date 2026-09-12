@@ -1,5 +1,5 @@
 ---
-title: "Amendments | Civics Tests - Wyatt's Notes"
+title: "Amendments | Civics Tests"
 description: "Study notes for Amendments with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

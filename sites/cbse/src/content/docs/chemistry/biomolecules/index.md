@@ -4,7 +4,7 @@ sources:
   - text: Standard textbook reference
 
 date: 2026-07-23T21:57:32+01:00
-title: "Biomolecules | CBSE - Wyatt's Notes"
+title: "Biomolecules"
 description: "This section covers biomolecules concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:

@@ -1,6 +1,6 @@
 ---
 
-title: "Metaprogramming | Languages - Wyatt's Notes"
+title: "Metaprogramming"
 description: "Study notes for Metaprogramming with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-06-04T10:00:00.000Z
 tags:

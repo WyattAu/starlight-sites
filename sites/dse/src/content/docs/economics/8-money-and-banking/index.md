@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Money And Banking | DSE - Wyatt's Notes"
+title: "Money And Banking"
 description: "This section covers money and banking concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Molecular Biology | IB - Wyatt's Notes"
+title: "Molecular Biology"
 description: "This section covers molecular biology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

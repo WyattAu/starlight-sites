@@ -1,5 +1,5 @@
 ---
-title: "Permissive | Licensing - Wyatt's Notes"
+title: "Permissive"
 description: "Study notes for Permissive with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

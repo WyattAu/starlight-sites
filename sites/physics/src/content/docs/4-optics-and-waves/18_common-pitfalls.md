@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Common Pitfalls | Physics - Wyatt's Notes"
+title: "Common Pitfalls"
 tags:
   - Physics
   - University

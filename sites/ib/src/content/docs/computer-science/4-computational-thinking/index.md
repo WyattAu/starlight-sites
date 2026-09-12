@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Computational Thinking | IB - Wyatt's Notes"
+title: "Computational Thinking"
 description: "This section covers computational thinking concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

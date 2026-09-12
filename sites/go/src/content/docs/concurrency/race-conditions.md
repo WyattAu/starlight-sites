@@ -1,6 +1,6 @@
 ---
 
-title: "race conditions | Go - Wyatt's Notes"
+title: "race conditions"
 date: 2026-05-30
 tags:
   - Go

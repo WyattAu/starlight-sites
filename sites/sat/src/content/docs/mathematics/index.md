@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Mathematics | SAT - Wyatt's Notes"
+title: "Mathematics"
 description: "This section covers mathematics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

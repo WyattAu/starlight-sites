@@ -4,7 +4,7 @@ sources:
   - text: Cormen et al - Introduction to Algorithms
 
 date: 2026-07-23T21:57:32+01:00
-title: "Systems | Computer Science - Wyatt's Notes"
+title: "Systems"
 description: 'Topics in computer systems including operating systems, computer architecture, concurrency, and networking fundamentals.'
 ---
 sources:

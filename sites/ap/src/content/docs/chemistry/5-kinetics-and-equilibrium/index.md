@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Kinetics And Equilibrium | AP - Wyatt's Notes"
+title: "Kinetics And Equilibrium"
 description: "This section covers kinetics and equilibrium concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

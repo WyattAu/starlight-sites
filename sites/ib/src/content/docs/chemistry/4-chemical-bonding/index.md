@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Chemical Bonding | IB - Wyatt's Notes"
+title: "Chemical Bonding"
 description: "This section covers chemical bonding concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

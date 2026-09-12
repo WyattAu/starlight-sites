@@ -1,5 +1,5 @@
 ---
-title: "Hazard Perception | Driving (UK) - Wyatt's Notes"
+title: "Hazard Perception"
 description: "Study notes for Hazard Perception with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

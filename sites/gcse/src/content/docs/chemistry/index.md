@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "GCSE Chemistry - Wyatt's Notes"
+title: "GCSE Chemistry"
 description: "This section covers gcse chemistry concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

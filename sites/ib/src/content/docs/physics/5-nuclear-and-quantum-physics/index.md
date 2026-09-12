@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Nuclear And Quantum Physics | IB"
+title: "Nuclear And Quantum Physics"
 description: "This section covers nuclear and quantum physics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

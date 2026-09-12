@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "US Driving Test | driving-us - Wyatt's Notes"
+title: "US Driving Test"
 description: Complete US driving test preparation covering DMV written test, road test, and driving rules by state.
 date: 2026-01-01T00:00:00Z
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "About This Site | Computer Science"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes Computer Science resources — experience, expertise, and credentials behind computer science theory study materials."
 tags:

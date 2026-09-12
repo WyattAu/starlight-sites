@@ -1,5 +1,5 @@
 ---
-title: "Parallel Parking | Driving (US) - Wyatt's Notes"
+title: "Parallel Parking"
 description: "Study notes for Parallel Parking with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

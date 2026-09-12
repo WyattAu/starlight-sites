@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Work Energy Power | AP - Wyatt's Notes"
+title: "Work Energy Power"
 description: "This section covers work energy power concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

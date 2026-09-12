@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Geographic Skills | IB - Wyatt's Notes"
+title: "Geographic Skills"
 description: "Study notes for Geographic Skills with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

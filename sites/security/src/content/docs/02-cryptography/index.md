@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Cryptography | Security - Wyatt's Notes"
+title: "Cryptography"
 description: "This section covers cryptography concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

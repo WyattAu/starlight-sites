@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Hardware | Leaving Cert - Wyatt's Notes"
+title: "Hardware"
 description: "This section covers hardware concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Nervous System | DSE - Wyatt's Notes"
+title: "Nervous System"
 description: "Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action"
 date: 2026-04-08T00:00:00.000Z
 tags:

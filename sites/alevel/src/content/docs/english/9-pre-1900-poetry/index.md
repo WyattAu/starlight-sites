@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Pre 1900 Poetry | A-Level - Wyatt's Notes"
+title: "Pre 1900 Poetry"
 description: "This section covers pre 1900 poetry concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

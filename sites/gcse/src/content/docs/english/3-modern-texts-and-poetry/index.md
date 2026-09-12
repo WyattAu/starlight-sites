@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Modern Texts And Poetry | GCSE"
+title: "Modern Texts And Poetry"
 description: "This section covers modern texts and poetry concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

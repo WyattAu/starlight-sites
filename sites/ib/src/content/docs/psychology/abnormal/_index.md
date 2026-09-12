@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Abnormal Psychology | IB - Wyatt's Notes"
+title: "Abnormal Psychology"
 description: "Study notes for Abnormal Psychology with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

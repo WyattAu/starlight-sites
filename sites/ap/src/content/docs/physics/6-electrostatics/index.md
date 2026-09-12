@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Electrostatics | AP - Wyatt's Notes"
+title: "Electrostatics"
 description: "This section covers electrostatics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

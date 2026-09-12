@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "3_dependency_management | Programming"
+title: "3_dependency_management"
 description: "This section covers 3_dependency_management concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

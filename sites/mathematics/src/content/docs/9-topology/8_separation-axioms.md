@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Separation Axioms | Mathematics"
+title: "Separation Axioms"
 tags:
   - University Maths
 description: "Study notes for Separation Axioms with worked examples, practice problems, and key concepts for exam preparation."

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Systems of Linear Equations | Mathematics"
+title: "Systems of Linear Equations"
 tags:
   - Mathematics
   - University

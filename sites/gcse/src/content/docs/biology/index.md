@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "GCSE Biology - Wyatt's Notes"
+title: "GCSE Biology"
 description: "This section covers gcse biology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

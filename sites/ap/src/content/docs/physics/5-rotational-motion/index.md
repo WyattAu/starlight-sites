@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Rotational Motion | AP - Wyatt's Notes"
+title: "Rotational Motion"
 description: "This section covers rotational motion concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

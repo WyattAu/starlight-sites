@@ -1,6 +1,6 @@
 ---
 
-title: "Iframe Integration | Tools - Wyatt's Notes"
+title: "Iframe Integration"
 description: "Study notes for Iframe Integration with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-07-11T23:22:50.056Z
 tags:

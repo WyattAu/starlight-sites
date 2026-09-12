@@ -1,5 +1,5 @@
 ---
-title: "Rural Driving | Driving (UK) - Wyatt's Notes"
+title: "Rural Driving"
 description: "Study notes for Rural Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

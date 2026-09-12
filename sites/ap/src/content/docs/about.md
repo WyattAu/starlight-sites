@@ -1,5 +1,5 @@
 ---
-title: "About This Site | AP - Wyatt's Notes"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes AP resources — experience, expertise, and credentials behind US Advanced Placement course study materials."
 tags:

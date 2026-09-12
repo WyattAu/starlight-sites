@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "Resource_management | Programming"
+title: "Resource_management"
 description: "This section covers resource_management concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

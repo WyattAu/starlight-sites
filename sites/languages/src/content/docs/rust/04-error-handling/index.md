@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Error Handling | Languages - Wyatt's Notes"
+title: "Error Handling"
 description: "This section covers error handling concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

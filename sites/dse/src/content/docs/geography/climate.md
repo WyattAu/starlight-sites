@@ -1,6 +1,6 @@
 ---
 date: 2026-07-23T21:57:32+01:00
-title: "Weather and Climate | DSE - Wyatt's Notes"
+title: "Weather and Climate"
 description: "Global atmospheric circulation, monsoon systems, tropical cyclone formation, climate change impacts on South China, and IPCC projections for DSE Geography."
 tags: [DSE, Geography, Climate, Weather]
 categories: [DSE, Geography]

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Standard Library | Languages - Wyatt's Notes"
+title: "Standard Library"
 description: "This section covers standard library concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

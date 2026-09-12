@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Object Oriented Programming | IB"
+title: "Object Oriented Programming"
 description: "This section covers object oriented programming concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

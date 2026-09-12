@@ -1,7 +1,7 @@
 ---
 
 
-title: "Energy and Work | A-Level - Wyatt's Notes"
+title: "Energy and Work"
 description: "Study notes for Energy and Work | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |"
 date: 2025-06-02T16:25:28.480Z

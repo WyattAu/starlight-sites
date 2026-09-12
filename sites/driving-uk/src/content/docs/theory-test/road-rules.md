@@ -1,5 +1,5 @@
 ---
-title: "Road Rules | driving-uk - Wyatt's Notes"
+title: "Road Rules | driving-uk"
 description: "Road Rules - Complete study guide and practice questions"
 date: 2026-01-01T00:00:00Z
 tags:

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Genetics Adaptation | Highers - Wyatt's Notes"
+title: "Genetics Adaptation"
 description: "This section covers genetics adaptation concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "GCSE Maths - Wyatt's Notes"
+title: "GCSE Maths"
 description: "This section covers gcse maths concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

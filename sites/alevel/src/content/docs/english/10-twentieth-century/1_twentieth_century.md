@@ -1,6 +1,6 @@
 ---
 
-title: "Twentieth-Century Literature | A-Level"
+title: "Twentieth-Century Literature"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 12
 tags:

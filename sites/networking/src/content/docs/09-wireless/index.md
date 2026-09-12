@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Wireless | Networking - Wyatt's Notes"
+title: "Wireless"
 description: "This section covers wireless concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

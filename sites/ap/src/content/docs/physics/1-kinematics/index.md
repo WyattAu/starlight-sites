@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Kinematics | AP - Wyatt's Notes"
+title: "Kinematics"
 description: "This section covers kinematics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -4,7 +4,7 @@ sources:
   - text: Cormen et al - Introduction to Algorithms
 
 date: 2026-07-23T21:57:32+01:00
-title: "Algorithms | Computer Science - Wyatt's Notes"
+title: "Algorithms"
 description: "The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem."
 ---
 sources:

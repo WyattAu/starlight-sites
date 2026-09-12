@@ -1,6 +1,6 @@
 ---
 
-title: "Alkanes | A-Level - Wyatt's Notes"
+title: "Alkanes"
 description: "Study notes for Alkanes with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-22T00:00:00.000Z
 tags:

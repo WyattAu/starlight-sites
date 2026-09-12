@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "AP Chemistry - Wyatt's Notes"
+title: "AP Chemistry"
 description: "This section covers ap chemistry concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

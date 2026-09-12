@@ -1,5 +1,5 @@
 ---
-title: "EU Driving Test | Driving (EU) - Wyatt's Notes"
+title: "EU Driving Test"
 description: "Complete EU driving test preparation covering theory and practical tests across European countries with practice questions and study guides."
 tags:
   - test-prep

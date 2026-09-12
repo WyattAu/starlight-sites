@@ -4,7 +4,7 @@ sources:
   - text: Cormen et al - Introduction to Algorithms
 
 date: 2026-07-23T21:57:32+01:00
-title: "Theory of Computation | Computer Science"
+title: "Theory of Computation"
 description: 'Topics in the theory of computation including automata, formal languages, Turing machines, and computational complexity.'
 tags:
   - Computing

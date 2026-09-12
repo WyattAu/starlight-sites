@@ -1,6 +1,6 @@
 ---
 
-title: "Mathematics | A-Level - Wyatt's Notes"
+title: "Mathematics"
 description: "A Level Mathematics is fundamentally a course in . The pure mathematics Syllabus develops the tools of calculus, algebra, and proof that underpin every"
 date: 2025-06-02T16:25:28.480Z
 tags:

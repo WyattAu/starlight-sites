@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "GCSE Computer Science - Wyatt's Notes"
+title: "GCSE Computer Science"
 description: "This section covers gcse computer science concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

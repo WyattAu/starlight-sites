@@ -1,5 +1,5 @@
 ---
-title: "Cyclist Awareness | Driving (UK) - Wyatt's Notes"
+title: "Cyclist Awareness"
 description: "Study notes for Cyclist Awareness with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

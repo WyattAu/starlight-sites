@@ -1,6 +1,6 @@
 ---
 
-title: "Further Algebra | A-Level - Wyatt's Notes"
+title: "Further Algebra"
 description: "Further algebra builds on the polynomial and algebraic techniques from A Level mathematics, Extending to partial fractions with irreducible quadratics, the"
 date: 2026-04-02T00:00:00.000Z
 tags:

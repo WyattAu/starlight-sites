@@ -1,6 +1,6 @@
 ---
 
-title: "Macroeconomic Performance | A-Level"
+title: "Macroeconomic Performance"
 description: "Study notes for Macroeconomic Performance with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-02T16:25:28.480Z
 tags:

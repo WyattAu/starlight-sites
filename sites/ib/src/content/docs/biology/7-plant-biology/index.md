@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Plant Biology | IB - Wyatt's Notes"
+title: "Plant Biology"
 description: "This section covers plant biology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: "Introduction to Go | Languages"
+title: "Introduction to Go"
 description: 'Go Introduction to Go notes covering key definitions, core concepts, worked examples, and practice questions for focused study and examination practice.'
 date: 2026-04-18
 tags:

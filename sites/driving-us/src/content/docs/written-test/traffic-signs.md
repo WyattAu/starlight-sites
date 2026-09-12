@@ -1,5 +1,5 @@
 ---
-title: "US Traffic Signs | driving-us - Wyatt's Notes"
+title: "US Traffic Signs"
 description: "US Traffic Signs - Complete study guide and practice questions"
 date: 2026-01-01T00:00:00Z
 tags:

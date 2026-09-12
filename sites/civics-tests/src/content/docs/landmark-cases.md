@@ -1,5 +1,5 @@
 ---
-title: "Landmark Cases | Civics Tests - Wyatt's Notes"
+title: "Landmark Cases"
 description: "Study notes for Landmark Cases with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

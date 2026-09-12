@@ -1,6 +1,6 @@
 ---
 
-title: "Stacks and Queues | A-Level - Wyatt's Notes"
+title: "Stacks and Queues"
 description: "A is a linear data structure that follows the principle: the Most recently added Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z
 tags:

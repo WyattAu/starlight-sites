@@ -1,6 +1,6 @@
 ---
 
-title: "Historical Skills | A-Level - Wyatt's Notes"
+title: "Historical Skills"
 date: 2026-05-21T00:00:00.000Z
 tags:
   - alevel

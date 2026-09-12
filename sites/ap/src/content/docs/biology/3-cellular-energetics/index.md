@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Cellular Energetics | AP - Wyatt's Notes"
+title: "Cellular Energetics"
 description: "This section covers cellular energetics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

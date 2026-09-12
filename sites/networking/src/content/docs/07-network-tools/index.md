@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Network Tools | Networking - Wyatt's Notes"
+title: "Network Tools"
 description: "This section covers network tools concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

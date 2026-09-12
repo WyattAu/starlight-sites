@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Equilibrium - Wyatt's Notes"
+title: "Equilibrium"
 description: "This section covers equilibrium concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

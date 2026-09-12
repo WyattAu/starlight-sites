@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Us Citizenship | civics-tests - Wyatt's Notes"
+title: "Us Citizenship"
 description: "This section covers us citizenship concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Forces -- Diagnostic Tests | GCSE"
+title: "Forces -- Diagnostic Tests"
 description: "Diagnostic test notes for gcse Forces -- Diagnostic Tests covering key concepts, worked examples, and practice problems for exam preparation."
 tableOfContents: false
 ---

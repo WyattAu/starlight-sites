@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Networks And The Internet | AP"
+title: "Networks And The Internet"
 description: "This section covers networks and the internet concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

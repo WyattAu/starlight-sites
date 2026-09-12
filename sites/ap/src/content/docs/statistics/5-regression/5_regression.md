@@ -1,6 +1,6 @@
 ---
 
-title: "Regression | AP - Wyatt's Notes"
+title: "Regression"
 description: "A scatterplot displays the relationship between two measured on the same individuals. The explanatory variable () is plotted on the horizontal axis and the"
 date: 2026-06-04T10:00:00.000Z
 tags:

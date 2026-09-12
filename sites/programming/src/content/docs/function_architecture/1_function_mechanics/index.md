@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "1_function_mechanics | Programming"
+title: "1_function_mechanics"
 description: "This section covers 1_function_mechanics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

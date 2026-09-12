@@ -1,6 +1,6 @@
 ---
 
-title: "net/http | Go - Wyatt's Notes"
+title: "net/http"
 date: 2026-05-30
 tags:
   - Go

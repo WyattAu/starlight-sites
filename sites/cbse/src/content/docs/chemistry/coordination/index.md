@@ -4,7 +4,7 @@ sources:
   - text: Standard textbook reference
 
 date: 2026-07-23T21:57:32+01:00
-title: "Coordination Compounds | CBSE - Wyatt's Notes"
+title: "Coordination Compounds"
 description: "This section covers coordination compounds concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:

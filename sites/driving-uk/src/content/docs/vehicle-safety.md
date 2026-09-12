@@ -1,5 +1,5 @@
 ---
-title: "Vehicle Safety | Driving (UK) - Wyatt's Notes"
+title: "Vehicle Safety"
 description: "Study notes for Vehicle Safety with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

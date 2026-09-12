@@ -1,7 +1,7 @@
 ---
 
 
-title: "Hypothesis Testing | A-Level - Wyatt's Notes"
+title: "Hypothesis Testing"
 description: "Study notes for Hypothesis Testing | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in"
 date: 2025-06-02T16:25:28.480Z

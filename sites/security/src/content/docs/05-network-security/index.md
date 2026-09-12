@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Network Security - Wyatt's Notes"
+title: "Network Security"
 description: "This section covers network security concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

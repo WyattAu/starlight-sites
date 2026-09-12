@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "Scottish Highers Physics - Wyatt's Notes"
+title: "Scottish Highers Physics"
 description: "Higher Physics covers mechanics, dynamics, electricity, waves, and radiation. The course emphasises both theoretical understanding and practical"
 date: 2026-04-14
 tags:

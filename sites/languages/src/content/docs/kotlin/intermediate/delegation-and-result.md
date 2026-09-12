@@ -1,6 +1,6 @@
 ---
 
-title: "delegation and result | Languages"
+title: "delegation and result"
 date: 2026-05-30
 tags:
   - Kotlin

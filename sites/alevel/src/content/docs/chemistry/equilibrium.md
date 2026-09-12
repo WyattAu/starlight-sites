@@ -1,6 +1,6 @@
 ---
 
-title: "Chemical Equilibrium | A-Level"
+title: "Chemical Equilibrium"
 description: "A reversible reaction reaches equilibrium when the rate of the forward reaction equals the rate of the reverse reaction."
 date: 2026-04-21T00:00:00.000Z
 tags:

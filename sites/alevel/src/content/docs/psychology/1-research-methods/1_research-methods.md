@@ -1,6 +1,6 @@
 ---
 
-title: "Research Methods | A-Level - Wyatt's Notes"
+title: "Research Methods"
 date: 2026-05-12T00:00:00.000Z
 tags:
   - alevel

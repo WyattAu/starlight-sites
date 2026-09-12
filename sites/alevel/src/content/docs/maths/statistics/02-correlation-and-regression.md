@@ -1,7 +1,7 @@
 ---
 
 
-title: "Correlation and Regression | A-Level"
+title: "Correlation and Regression"
 description: "Study notes for Correlation and Regression | A-Level with worked examples and practice questions."
 ---------- | ------- | ----------------------------------- | | AQA | Paper 1 | PMCC, regression lines | | Edexcel | P1 |"
 date: 2025-06-02T16:25:28.480Z

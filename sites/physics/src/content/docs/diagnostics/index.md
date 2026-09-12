@@ -2,7 +2,7 @@
 
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
-title: "Diagnostics | Physics - Wyatt's Notes"
+title: "Diagnostics"
 description: "Diagnostic test notes for physics Diagnostics covering key concepts, worked examples, and practice problems for exam preparation."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: "GCSE Maths Study Guide - Wyatt's Notes"
+title: "GCSE Maths Study Guide"
 date: 2026-05-31
 description: "GCSE Maths.Md Maths Study notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tags:

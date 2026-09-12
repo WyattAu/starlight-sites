@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "2_error_handling | Programming"
+title: "2_error_handling"
 description: "This section covers 2_error_handling concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

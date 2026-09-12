@@ -1,6 +1,6 @@
 ---
 
-title: "Functions | TypeScript - Wyatt's Notes"
+title: "Functions"
 description: "Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the"
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]

@@ -1,6 +1,6 @@
 ---
 
-title: "Collections Deep Dive | Languages"
+title: "Collections Deep Dive"
 description: "Study notes for Collections Deep Dive with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-05T00:00:00.000Z
 tags:

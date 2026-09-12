@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Thermal Physics | DSE - Wyatt's Notes"
+title: "Thermal Physics"
 description: "This section covers thermal physics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

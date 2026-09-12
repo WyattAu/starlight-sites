@@ -1,6 +1,6 @@
 ---
 
-title: "Complex Numbers (Extended) | A-Level"
+title: "Complex Numbers (Extended)"
 description: "Study notes for Complex Numbers (Extended) with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]

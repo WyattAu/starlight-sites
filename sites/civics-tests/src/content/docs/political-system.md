@@ -1,5 +1,5 @@
 ---
-title: "Political System | Civics Tests - Wyatt's Notes"
+title: "Political System"
 description: "Study notes for Political System with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

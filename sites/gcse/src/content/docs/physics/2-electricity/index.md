@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Electricity | GCSE - Wyatt's Notes"
+title: "Electricity"
 description: "This section covers electricity concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

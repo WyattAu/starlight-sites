@@ -1,5 +1,5 @@
 ---
-title: "Biology - Cell Biology | DSE - Wyatt's Notes"
+title: "Biology - Cell Biology"
 description: 'DSE Biology - Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
 tags: [DSE, Biology]
 categories: [DSE, Biology]

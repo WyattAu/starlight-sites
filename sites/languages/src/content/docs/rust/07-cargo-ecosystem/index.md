@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Cargo Ecosystem | Languages - Wyatt's Notes"
+title: "Cargo Ecosystem"
 description: "This section covers cargo ecosystem concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

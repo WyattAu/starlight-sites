@@ -1,6 +1,6 @@
 ---
 
-title: "testing | Dart - Wyatt's Notes"
+title: "testing"
 date: 2026-05-30
 tags:
   - Dart

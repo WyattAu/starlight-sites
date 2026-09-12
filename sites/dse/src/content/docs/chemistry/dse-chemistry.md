@@ -1,5 +1,5 @@
 ---
-title: "DSE Chemistry - Wyatt's Notes"
+title: "DSE Chemistry"
 description: "Study notes for DSE Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-23T00:00:00.000Z
 tags:

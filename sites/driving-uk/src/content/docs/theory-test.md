@@ -1,5 +1,5 @@
 ---
-title: "Theory Test | Driving (UK) - Wyatt's Notes"
+title: "Theory Test | Driving (UK)"
 description: "Study notes for Theory Test with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -1,6 +1,6 @@
 ---
 
-title: "Democratic States | IB - Wyatt's Notes"
+title: "Democratic States"
 date: 2026-05-31
 tags:
   - IB History

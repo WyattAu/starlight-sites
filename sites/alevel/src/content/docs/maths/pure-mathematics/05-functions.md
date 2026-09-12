@@ -1,7 +1,7 @@
 ---
 
 
-title: "Functions | A-Level - Wyatt's Notes"
+title: "Functions"
 description: "Study notes for Functions | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,"
 date: 2025-06-02T16:25:28.480Z

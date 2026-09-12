@@ -1,5 +1,5 @@
 ---
-title: "Parking Rules | Driving (US) - Wyatt's Notes"
+title: "Parking Rules"
 description: "Study notes for Parking Rules with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

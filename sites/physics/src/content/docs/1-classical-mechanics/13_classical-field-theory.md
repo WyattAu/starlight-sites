@@ -4,7 +4,7 @@ sources:
   - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 date: 2026-07-23T21:57:32+01:00
-title: "Classical Field Theory | Physics"
+title: "Classical Field Theory"
 tags:
   - Physics
   - University

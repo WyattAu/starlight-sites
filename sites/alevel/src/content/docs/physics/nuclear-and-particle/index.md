@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Nuclear And Particle | A-Level"
+title: "Nuclear And Particle"
 description: "This section covers nuclear and particle concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

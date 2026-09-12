@@ -1,6 +1,6 @@
 ---
 date: 2026-07-23T21:57:32+01:00
-title: "Diagnostic Test: Urbanization | DSE"
+title: "Diagnostic Test: Urbanization"
 description: "Diagnostic test notes for dse Diagnostic Test: Urbanization covering key concepts, worked examples, and practice problems for exam preparation."
 ---
 

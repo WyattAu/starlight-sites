@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "3_compile_time_computation | Programming"
+title: "3_compile_time_computation"
 description: "This section covers 3_compile_time_computation concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Traffic Rules | Driving (US) - Wyatt's Notes"
+title: "Traffic Rules"
 description: "Study notes for Traffic Rules with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

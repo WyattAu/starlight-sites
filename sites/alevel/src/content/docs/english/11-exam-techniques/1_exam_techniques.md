@@ -1,6 +1,6 @@
 ---
 
-title: "Exam Techniques | A-Level - Wyatt's Notes"
+title: "Exam Techniques"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 13
 tags:

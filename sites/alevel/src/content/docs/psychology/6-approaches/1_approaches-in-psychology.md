@@ -1,6 +1,6 @@
 ---
 
-title: "Approaches in Psychology | A-Level"
+title: "Approaches in Psychology"
 date: 2026-05-12T00:00:00.000Z
 tags:
   - alevel

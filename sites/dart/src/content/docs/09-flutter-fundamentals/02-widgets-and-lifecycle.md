@@ -1,6 +1,6 @@
 ---
 
-title: "Widgets and Lifecycle | Dart - Wyatt's Notes"
+title: "Widgets and Lifecycle"
 description: "Study notes for Widgets and Lifecycle with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-05T00:00:00.000Z
 tags:

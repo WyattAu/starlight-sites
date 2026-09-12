@@ -1,5 +1,5 @@
 ---
-title: "Open Source | Licensing - Wyatt's Notes"
+title: "Open Source"
 description: "Study notes for Open Source with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

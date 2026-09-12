@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Newton's Laws of Motion | CBSE"
+title: "Newton's Laws of Motion"
 description: "Study notes for Newton's Laws of Motion with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -1,6 +1,6 @@
 ---
 
-title: "Electrochemistry | A-Level - Wyatt's Notes"
+title: "Electrochemistry"
 description: "Study notes for Electrochemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-21T00:00:00.000Z
 tags:

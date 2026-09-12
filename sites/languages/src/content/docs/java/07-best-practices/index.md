@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Best Practices | Languages - Wyatt's Notes"
+title: "Best Practices"
 description: "This section covers best practices concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

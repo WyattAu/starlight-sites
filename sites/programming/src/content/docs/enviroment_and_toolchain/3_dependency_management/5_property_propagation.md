@@ -1,6 +1,6 @@
 ---
 
-title: "Property Propagation | Programming"
+title: "Property Propagation"
 description: "Study notes for Property Propagation with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-12-11T05:21:57.536Z
 tags:

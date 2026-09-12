@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Kinetics | IB - Wyatt's Notes"
+title: "Kinetics"
 description: "This section covers kinetics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

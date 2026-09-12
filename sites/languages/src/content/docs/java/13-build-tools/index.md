@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Build Tools | Languages - Wyatt's Notes"
+title: "Build Tools"
 description: "This section covers build tools concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

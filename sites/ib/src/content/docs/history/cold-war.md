@@ -1,6 +1,6 @@
 ---
 
-title: "The Cold War | IB - Wyatt's Notes"
+title: "The Cold War"
 date: 2026-05-31
 tags:
   - IB History

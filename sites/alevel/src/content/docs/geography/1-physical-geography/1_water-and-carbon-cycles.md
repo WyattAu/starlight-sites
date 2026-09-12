@@ -1,6 +1,6 @@
 ---
 
-title: "Water and Carbon Cycles | A-Level"
+title: "Water and Carbon Cycles"
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]

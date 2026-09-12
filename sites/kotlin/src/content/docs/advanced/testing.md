@@ -1,6 +1,6 @@
 ---
 
-title: "Testing | Kotlin - Wyatt's Notes"
+title: "Testing"
 description: "Study notes for Testing with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-18
 tags:

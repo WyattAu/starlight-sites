@@ -1,5 +1,5 @@
 ---
-title: "Electoral Process | Civics Tests - Wyatt's Notes"
+title: "Electoral Process"
 description: "Study notes for Electoral Process with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

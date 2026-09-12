@@ -4,7 +4,7 @@ sources:
   - text: Cormen et al - Introduction to Algorithms
 
 date: 2026-07-23T21:57:32+01:00
-title: "Discrete Mathematics | Computer Science"
+title: "Discrete Mathematics"
 description: "Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities"
 tags:
   - Computing

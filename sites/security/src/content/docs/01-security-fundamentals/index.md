@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Security Fundamentals - Wyatt's Notes"
+title: "Security Fundamentals"
 description: "This section covers security fundamentals concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

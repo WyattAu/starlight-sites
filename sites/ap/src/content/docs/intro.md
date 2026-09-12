@@ -1,6 +1,6 @@
 ---
 
-title: "Introduction to AP Notes - Wyatt's Notes"
+title: "Introduction to AP Notes"
 date: 2026-04-14
 description: "The Advanced Placement (AP) program, administered by the College Board, allows US high school Students to take college-level courses and earn credit or"
 tags:

@@ -75,7 +75,6 @@ function getRelatedSites(subdomain: string, pathSegments: string[]): string[] {
 
 const pagePathSegments = id.split('/').filter(Boolean);
 const relatedSites = getRelatedSites(subdomain, pagePathSegments);
-const canonicalBase = pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com');
 
 // Build breadcrumb trail from the page id (the slug) - matches PageTitle.astro logic
 function buildBreadcrumbs(id: string, siteTitle: string) {
@@ -161,8 +160,9 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 <!-- SEO Meta Tags -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="googlebot" content="index, follow" />
-<!-- Canonical URL: always point to wyattau.com to avoid duplicate content -->
-<link rel="canonical" href={canonicalBase} />
+<!-- Canonical: emitted by Starlight's built-in head (site + pathname).
+     Do NOT add a second canonical here -- duplicate canonical tags are
+     an ambiguous signal for crawlers. -->
 
 <!-- Hreflang for i18n — Starlight generates hreflang tags from the locales
      config in astro.config.mjs. Do NOT add explicit hreflang tags here;

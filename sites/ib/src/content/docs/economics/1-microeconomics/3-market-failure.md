@@ -1,6 +1,6 @@
 ---
 
-title: "Market Failure | IB - Wyatt's Notes"
+title: "Market Failure"
 description: "Market failure occurs when the free market fails to allocate resources efficiently, resulting in a Loss of social welfare. The condition for allocative"
 date: 2026-05-21
 tags: [ib, ib-economics]

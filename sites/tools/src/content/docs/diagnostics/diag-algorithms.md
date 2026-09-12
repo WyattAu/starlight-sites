@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Diagnostic Test: Algorithms | Tools"
+title: "Diagnostic Test: Algorithms"
 description: "Diagnostic test notes for tools Diagnostic Test: Algorithms covering key concepts, worked examples, and practice problems for exam preparation."
 sidebar_position: 60
 tableOfContents: false

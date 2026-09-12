@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "2_runtime_polymorphism | Programming"
+title: "2_runtime_polymorphism"
 description: "This section covers 2_runtime_polymorphism concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

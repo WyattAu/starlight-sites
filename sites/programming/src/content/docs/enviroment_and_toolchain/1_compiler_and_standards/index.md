@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "1_compiler_and_standards | Programming"
+title: "1_compiler_and_standards"
 description: "This section covers 1_compiler_and_standards concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

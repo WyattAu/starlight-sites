@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Diagnostics | GCSE Computer Science - Wyatt's Notes"
+title: "Diagnostics | GCSE Computer Science"
 description: "Diagnostic test notes for GCSE Computer Science covering key concepts, worked examples, and practice problems for exam preparation."
 date: 2026-01-01T00:00:00Z
 ---

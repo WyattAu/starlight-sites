@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "IB Economics - Wyatt's Notes"
+title: "IB Economics"
 description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness."
 tags: [ib, ib-economics]
 categories: [ib-economics]

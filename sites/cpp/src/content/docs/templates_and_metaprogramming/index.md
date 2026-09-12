@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Templates_and_metaprogramming | C++"
+title: "Templates_and_metaprogramming"
 description: "This section covers templates_and_metaprogramming concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

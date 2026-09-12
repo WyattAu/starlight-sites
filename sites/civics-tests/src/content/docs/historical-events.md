@@ -1,5 +1,5 @@
 ---
-title: "Historical Events | Civics Tests - Wyatt's Notes"
+title: "Historical Events"
 description: "Study notes for Historical Events with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

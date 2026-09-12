@@ -1,6 +1,6 @@
 ---
 
-title: "Generators (std::generator) | Programming"
+title: "Generators (std::generator)"
 description: "Study notes for Generators (std::generator) with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:

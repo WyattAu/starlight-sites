@@ -1,6 +1,6 @@
 ---
 
-title: "Redox Reactions | IB - Wyatt's Notes"
+title: "Redox Reactions"
 date: 2024-01-01T00:00:00Z
 tags:
   - IB

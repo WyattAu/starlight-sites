@@ -1,6 +1,6 @@
 ---
 
-title: "Vectors and Matrices | Highers"
+title: "Vectors and Matrices"
 description: 'Scottish Highers Maths Vectors and Matrices notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
 date: 2026-04-14
 tags:

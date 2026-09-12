@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Security | Linux - Wyatt's Notes"
+title: "Security"
 description: "This section covers security concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

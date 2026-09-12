@@ -1,5 +1,5 @@
 ---
-title: "M1: Algebra and Calculus | DSE"
+title: "M1: Algebra and Calculus"
 description: "Solving linear inequalities follows the same principles as solving linear equations, with one critical difference: multiplying or dividing both sides by a"
 date: 2026-06-04T10:00:00.000Z
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Big Bang Cosmology | Physics - Wyatt's Notes"
+title: "Big Bang Cosmology"
 tags:
   - Physics
   - University

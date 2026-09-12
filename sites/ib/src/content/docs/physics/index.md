@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "IB Physics - Wyatt's Notes"
+title: "IB Physics"
 description: "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style"
 date: 2024-01-01T00:00:00Z
 tags:

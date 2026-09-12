@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Psychology | IB - Wyatt's Notes"
+title: "Psychology"
 description: "Study notes and resources for Psychology"
 date: 2026-01-01T00:00:00Z
 ---

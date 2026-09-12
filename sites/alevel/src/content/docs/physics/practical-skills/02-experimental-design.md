@@ -1,6 +1,6 @@
 ---
 
-title: "Experimental Design | A-Level - Wyatt's Notes"
+title: "Experimental Design"
 description: "An independent variable is the variable that is deliberately manipulated or changed By the experimenter to observe its effect on the dependent variable."
 date: 2025-06-02T16:25:28.480Z
 tags:

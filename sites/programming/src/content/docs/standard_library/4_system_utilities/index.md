@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "4_system_utilities | Programming"
+title: "4_system_utilities"
 description: "This section covers 4_system_utilities concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

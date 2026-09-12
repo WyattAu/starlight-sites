@@ -1,6 +1,6 @@
 ---
 
-title: "coroutines advanced | Languages"
+title: "coroutines advanced"
 date: 2026-05-30
 tags:
   - Kotlin

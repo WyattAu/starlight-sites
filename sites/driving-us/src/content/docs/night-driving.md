@@ -1,5 +1,5 @@
 ---
-title: "Night Driving | Driving (US) - Wyatt's Notes"
+title: "Night Driving"
 description: "Study notes for Night Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

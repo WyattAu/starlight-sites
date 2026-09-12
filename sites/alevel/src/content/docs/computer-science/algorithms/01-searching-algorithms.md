@@ -1,6 +1,6 @@
 ---
 
-title: "Searching Algorithms | A-Level"
+title: "Searching Algorithms"
 description: 'Given an array and a target value Determine whether exists in And return its ind Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:

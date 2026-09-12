@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "Templates_and_metaprogramming - Wyatt's Notes"
+title: "Templates_and_metaprogramming"
 description: "This section covers templates_and_metaprogramming concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

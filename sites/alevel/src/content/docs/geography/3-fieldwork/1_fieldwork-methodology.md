@@ -1,6 +1,6 @@
 ---
 
-title: "Fieldwork Methodology | A-Level"
+title: "Fieldwork Methodology"
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, fieldwork]

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Matrix operations | CBSE - Wyatt's Notes"
+title: "Matrix operations"
 description: "Study notes for Matrix operations with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

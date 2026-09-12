@@ -4,7 +4,7 @@ sources:
   - text: Atkins, de Paula - Physical Chemistry
 
 date: 2026-07-23T21:57:32+01:00
-title: "Chemistry - Wyatt's Notes"
+title: "Chemistry"
 description: 'University-level chemistry notes covering physical, organic, and inorganic chemistry with worked examples and key concepts.'
 ---
 sources:

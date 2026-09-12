@@ -1,7 +1,7 @@
 ---
 
 
-title: "Networks | GCSE - Wyatt's Notes"
+title: "Networks"
 description: "Study notes for Networks | GCSE - Wyatt's Notes with worked examples and practice questions."
 --------- | ----------------------------------- | --------------------------------------"
 date: 2026-04-14

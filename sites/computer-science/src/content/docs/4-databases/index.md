@@ -4,7 +4,7 @@ sources:
   - text: Cormen et al - Introduction to Algorithms
 
 date: 2026-07-23T21:57:32+01:00
-title: "Database Systems | Computer Science"
+title: "Database Systems"
 description: 'Topics in database systems including the relational model, SQL, normalisation, indexing, transactions, and distributed databases.'
 tags:
   - Computing

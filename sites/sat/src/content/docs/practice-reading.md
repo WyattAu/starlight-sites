@@ -1,6 +1,6 @@
 ---
 
-title: "reading and writing practice | SAT"
+title: "reading and writing practice"
 date: 2026-05-30
 tags:
   - SAT

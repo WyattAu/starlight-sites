@@ -1,5 +1,5 @@
 ---
-title: "About This Site | TypeScript - Wyatt's Notes"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes TypeScript resources — experience, expertise, and credentials behind TypeScript programming study materials."
 tags:

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Diagnostic Test: Cold War | IB"
+title: "Diagnostic Test: Cold War"
 description: "Diagnostic test notes for ib Diagnostic Test: Cold War covering key concepts, worked examples, and practice problems for exam preparation."
 sidebar_position: 30
 ---

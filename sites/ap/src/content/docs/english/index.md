@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "AP English Language - Wyatt's Notes"
+title: "AP English Language"
 description: "This section covers ap english language concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

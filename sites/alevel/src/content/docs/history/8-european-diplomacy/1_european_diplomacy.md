@@ -1,6 +1,6 @@
 ---
 
-title: "European Diplomacy 1871-1914 | A-Level"
+title: "European Diplomacy 1871-1914"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 11
 tags:

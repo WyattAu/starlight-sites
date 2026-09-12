@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: "I/O Systems | Computer Science"
+title: "I/O Systems"
 tags:
   - Computing
   - University

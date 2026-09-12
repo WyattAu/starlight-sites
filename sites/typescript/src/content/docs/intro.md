@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Typescript - Wyatt's Notes"
+title: "Typescript"
 description: "Study notes for Typescript with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

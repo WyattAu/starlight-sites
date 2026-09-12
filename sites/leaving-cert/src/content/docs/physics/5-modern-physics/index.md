@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Modern Physics | Leaving Cert - Wyatt's Notes"
+title: "Modern Physics"
 description: "This section covers modern physics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

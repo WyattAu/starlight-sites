@@ -1,7 +1,7 @@
 ---
 
 
-title: "Binomial Expansion | A-Level - Wyatt's Notes"
+title: "Binomial Expansion"
 description: "Study notes for Binomial Expansion | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ---------------------------------------------------------------- | | AQA | Paper 1, 2 | Binomial"
 date: 2025-06-02T16:25:28.480Z

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Great Gatsby | A-Level - Wyatt's Notes"
+title: "Great Gatsby"
 description: "This section covers great gatsby concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

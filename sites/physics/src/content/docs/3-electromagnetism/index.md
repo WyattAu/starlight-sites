@@ -4,7 +4,7 @@ sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 date: 2026-07-23T21:57:32+01:00
-title: "Electromagnetism | Physics - Wyatt's Notes"
+title: "Electromagnetism"
 tags:
   - Physics
   - University

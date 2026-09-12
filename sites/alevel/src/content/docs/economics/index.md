@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Economics | A-Level - Wyatt's Notes"
+title: "Economics"
 description: "This section covers economics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

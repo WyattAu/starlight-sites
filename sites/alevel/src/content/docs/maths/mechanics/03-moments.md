@@ -1,7 +1,7 @@
 ---
 
 
-title: "Moments | A-Level - Wyatt's Notes"
+title: "Moments"
 description: "Study notes for Moments | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |"
 date: 2025-06-02T16:25:28.480Z

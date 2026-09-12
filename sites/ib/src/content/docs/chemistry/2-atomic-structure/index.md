@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Atomic Structure | IB - Wyatt's Notes"
+title: "Atomic Structure"
 description: "This section covers atomic structure concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Chemistry - Wyatt's Notes"
+title: "Chemistry"
 description: "Study notes for Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

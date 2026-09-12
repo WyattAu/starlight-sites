@@ -4,7 +4,7 @@ sources:
   - text: Standard textbook reference
 
 date: 2026-07-23T21:57:32+01:00
-title: "Theory of Computation | A-Level"
+title: "Theory of Computation"
 description: 'A-Level Computer Science Theory of Computation notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 ---
 sources:

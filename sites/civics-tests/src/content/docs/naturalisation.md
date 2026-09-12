@@ -1,5 +1,5 @@
 ---
-title: "Naturalisation | Civics Tests - Wyatt's Notes"
+title: "Naturalisation"
 description: "Study notes for Naturalisation with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

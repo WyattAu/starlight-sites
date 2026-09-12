@@ -1,7 +1,7 @@
 ---
 
 
-title: "Computing Systems | AP - Wyatt's Notes"
+title: "Computing Systems"
 description: "Study notes for Computing Systems | AP - Wyatt's Notes with worked examples and practice questions."
 ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM"
 date: 2026-04-14

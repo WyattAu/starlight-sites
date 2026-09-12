@@ -2,7 +2,7 @@
 
 sources:
   - text: Spivak - Calculus
-title: "Diagnostics | Mathematics - Wyatt's Notes"
+title: "Diagnostics"
 description: "Diagnostic test notes for mathematics Diagnostics covering key concepts, worked examples, and practice problems for exam preparation."
 date: 2026-01-01T00:00:00Z
 ---

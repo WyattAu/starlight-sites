@@ -1,6 +1,6 @@
 ---
 
-title: "Merging | Tools - Wyatt's Notes"
+title: "Merging"
 description: "Study notes for Merging with worked examples, practice problems, and key concepts for exam preparation."
 date: 2025-06-03T03:00:00.000Z
 tags:

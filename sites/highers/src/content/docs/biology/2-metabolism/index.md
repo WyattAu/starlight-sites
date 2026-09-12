@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Metabolism | Highers - Wyatt's Notes"
+title: "Metabolism"
 description: "This section covers metabolism concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

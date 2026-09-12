@@ -1,5 +1,5 @@
 ---
-title: "About This Site | Machine Learning"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes Machine Learning resources — experience, expertise, and credentials behind machine learning study materials."
 tags:

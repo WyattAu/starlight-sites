@@ -1,6 +1,6 @@
 ---
 
-title: "math, sort, and log/slog | Go - Wyatt's Notes"
+title: "math, sort, and log/slog"
 date: 2026-05-30
 tags:
   - Go

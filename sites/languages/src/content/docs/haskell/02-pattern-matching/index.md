@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Pattern Matching | Languages - Wyatt's Notes"
+title: "Pattern Matching"
 description: "This section covers pattern matching concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

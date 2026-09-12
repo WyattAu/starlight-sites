@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "VPN and Tunneling | Security - Wyatt's Notes"
+title: "VPN and Tunneling"
 description: "Study notes for VPN and Tunneling with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Organic | Leaving Cert - Wyatt's Notes"
+title: "Organic"
 description: "This section covers organic concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

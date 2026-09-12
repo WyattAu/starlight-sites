@@ -1,6 +1,6 @@
 ---
 
-title: "scope functions | Languages - Wyatt's Notes"
+title: "scope functions"
 date: 2026-05-30
 tags:
   - Kotlin

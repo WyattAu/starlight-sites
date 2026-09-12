@@ -1,5 +1,5 @@
 ---
-title: "Three Point Turn | Driving (US) - Wyatt's Notes"
+title: "Three Point Turn"
 description: "Study notes for Three Point Turn with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

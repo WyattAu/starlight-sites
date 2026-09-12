@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Rigid Body Dynamics | Physics - Wyatt's Notes"
+title: "Rigid Body Dynamics"
 tags:
   - Physics
   - University

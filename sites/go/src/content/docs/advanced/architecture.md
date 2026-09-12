@@ -1,6 +1,6 @@
 ---
 
-title: "go project architecture - Wyatt's Notes"
+title: "go project architecture"
 date: 2026-05-30
 tags:
   - Go

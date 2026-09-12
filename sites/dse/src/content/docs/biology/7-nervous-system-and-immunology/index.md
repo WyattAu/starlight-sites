@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Nervous System And Immunology | DSE"
+title: "Nervous System And Immunology"
 description: "This section covers nervous system and immunology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

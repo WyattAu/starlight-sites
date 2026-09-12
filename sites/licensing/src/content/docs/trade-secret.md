@@ -1,5 +1,5 @@
 ---
-title: "Trade Secret | Licensing - Wyatt's Notes"
+title: "Trade Secret"
 description: "Study notes for Trade Secret with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

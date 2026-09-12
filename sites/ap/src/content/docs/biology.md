@@ -1,6 +1,6 @@
 ---
 
-title: "AP Biology Study Guide - Wyatt's Notes"
+title: "AP Biology Study Guide"
 description: "Study notes for AP Biology Study Guide with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-31
 tags:

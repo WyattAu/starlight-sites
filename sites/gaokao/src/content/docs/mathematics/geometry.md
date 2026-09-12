@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Geometry | Gaokao - Wyatt's Notes"
+title: "Geometry"
 description: "Study notes for Geometry with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

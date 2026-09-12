@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "A-Level English - Wyatt's Notes"
+title: "A-Level English"
 date: 2026-01-15T00:00:00.000Z
 tags:
   - alevel

@@ -1,7 +1,7 @@
 ---
 
 
-title: "Further Pure Mathematics 2 | A-Level"
+title: "Further Pure Mathematics 2"
 description: "Study notes for Further Pure Mathematics 2 | A-Level with worked examples and practice questions."
 ---------- | ----------- | ------------------------------------------------------ | | AQA | Paper 2 | Groups, further complex,"
 date: 2026-05-31

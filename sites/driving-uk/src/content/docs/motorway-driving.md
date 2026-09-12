@@ -1,5 +1,5 @@
 ---
-title: "Motorway Driving | Driving (UK) - Wyatt's Notes"
+title: "Motorway Driving"
 description: "Study notes for Motorway Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

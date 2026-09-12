@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Climate Change | IB - Wyatt's Notes"
+title: "Climate Change"
 description: "Study notes for Climate Change with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

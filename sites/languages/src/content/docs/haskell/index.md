@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Haskell | Languages - Wyatt's Notes"
+title: "Haskell"
 description: "This section covers haskell concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Evolution And Biodiversity | IB"
+title: "Evolution And Biodiversity"
 description: "This section covers evolution and biodiversity concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

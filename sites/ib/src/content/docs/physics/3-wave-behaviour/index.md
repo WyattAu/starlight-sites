@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Wave Behaviour | IB - Wyatt's Notes"
+title: "Wave Behaviour"
 description: "This section covers wave behaviour concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

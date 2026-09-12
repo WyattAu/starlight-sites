@@ -1,5 +1,5 @@
 ---
-title: "State Government | Civics Tests - Wyatt's Notes"
+title: "State Government"
 description: "Study notes for State Government with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

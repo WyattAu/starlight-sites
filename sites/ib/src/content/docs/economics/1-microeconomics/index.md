@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Microeconomics | IB - Wyatt's Notes"
+title: "Microeconomics"
 description: "This section covers microeconomics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

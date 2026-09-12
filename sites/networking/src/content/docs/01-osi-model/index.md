@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Osi Model | Networking - Wyatt's Notes"
+title: "Osi Model"
 description: "This section covers osi model concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: "Rhetorical Analysis | AP - Wyatt's Notes"
+title: "Rhetorical Analysis"
 description: "Study notes for Rhetorical Analysis with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-06-04T10:00:00.000Z
 tags:

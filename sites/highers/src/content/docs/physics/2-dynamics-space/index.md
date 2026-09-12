@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Dynamics Space | Highers - Wyatt's Notes"
+title: "Dynamics Space"
 description: "This section covers dynamics space concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

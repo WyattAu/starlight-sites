@@ -1,6 +1,6 @@
 ---
 
-title: "Thread-Local Storage (TLS) | C++"
+title: "Thread-Local Storage (TLS)"
 description: "Study notes for Thread-Local Storage (TLS) with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:

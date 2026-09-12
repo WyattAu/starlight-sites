@@ -1,5 +1,5 @@
 ---
-title: "About This Site | Chemistry - Wyatt's Notes"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes Chemistry resources — experience, expertise, and credentials behind university-level chemistry study materials."
 tags:

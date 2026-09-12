@@ -1,7 +1,7 @@
 ---
 
 
-title: "Equations and Inequalities | A-Level"
+title: "Equations and Inequalities"
 description: "Study notes for Equations and Inequalities | A-Level with worked examples and practice questions."
 ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |"
 date: 2025-06-02T16:25:28.480Z

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Waves Radiation | Highers - Wyatt's Notes"
+title: "Waves Radiation"
 description: "This section covers waves radiation concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

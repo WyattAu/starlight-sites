@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Rhetorical Analysis | AP - Wyatt's Notes"
+title: "Rhetorical Analysis"
 description: "This section covers rhetorical analysis concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

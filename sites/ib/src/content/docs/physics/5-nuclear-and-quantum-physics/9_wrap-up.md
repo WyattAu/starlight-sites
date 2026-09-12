@@ -1,6 +1,6 @@
 ---
 
-title: "Wrap Up | IB - Wyatt's Notes"
+title: "Wrap Up"
 description: "Study notes for Wrap Up with worked examples, practice problems, and key concepts for exam preparation."
 date: 2024-01-01T00:00:00Z
 tags:

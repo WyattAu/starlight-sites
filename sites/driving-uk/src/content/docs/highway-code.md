@@ -1,5 +1,5 @@
 ---
-title: "Highway Code | Driving (UK) - Wyatt's Notes"
+title: "Highway Code"
 description: "Study notes for Highway Code with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Particulate Nature Of Matter | IB"
+title: "Particulate Nature Of Matter"
 description: "This section covers particulate nature of matter concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

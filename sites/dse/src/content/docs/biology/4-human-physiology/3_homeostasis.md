@@ -1,5 +1,5 @@
 ---
-title: "Homeostasis | DSE - Wyatt's Notes"
+title: "Homeostasis"
 description: "Homeostasis is the maintenance of a constant internal environment despite changes in the external environment. It is essential for the proper functioning of"
 date: 2026-04-08T00:00:00.000Z
 tags:

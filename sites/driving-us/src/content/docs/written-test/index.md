@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Written Test | driving-us - Wyatt's Notes"
+title: "Written Test"
 description: "This section covers written test concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

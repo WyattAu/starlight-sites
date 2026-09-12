@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "Irish LC Biology | Leaving Cert"
+title: "Irish LC Biology"
 description: "Leaving Certificate Biology explores cells, ecology, genetics, plants, and human body systems. The course covers a wide range of biological concepts from"
 date: 2026-04-14
 tags:

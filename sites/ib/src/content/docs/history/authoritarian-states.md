@@ -1,6 +1,6 @@
 ---
 
-title: "Authoritarian States | IB - Wyatt's Notes"
+title: "Authoritarian States"
 date: 2026-05-31
 tags:
   - IB History

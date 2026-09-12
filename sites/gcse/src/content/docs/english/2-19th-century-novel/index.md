@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "19th Century Novel | GCSE - Wyatt's Notes"
+title: "19th Century Novel"
 description: "This section covers 19th century novel concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

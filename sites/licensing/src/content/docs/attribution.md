@@ -1,5 +1,5 @@
 ---
-title: "Attribution | Licensing - Wyatt's Notes"
+title: "Attribution"
 description: "Study notes for Attribution with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

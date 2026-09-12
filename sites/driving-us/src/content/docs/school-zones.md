@@ -1,5 +1,5 @@
 ---
-title: "School Zones | Driving (US) - Wyatt's Notes"
+title: "School Zones"
 description: "Study notes for School Zones with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Dispersion | DSE - Wyatt's Notes"
+title: "Dispersion"
 description: "Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,"
 date: 2025-06-03T16:18:22.480Z
 tags:

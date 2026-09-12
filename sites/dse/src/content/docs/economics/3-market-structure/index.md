@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Market Structure | DSE - Wyatt's Notes"
+title: "Market Structure"
 description: "This section covers market structure concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

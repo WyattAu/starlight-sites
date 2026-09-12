@@ -1,5 +1,5 @@
 ---
-title: "Branches Of Government | Civics Tests - Wyatt's Notes"
+title: "Branches Of Government"
 description: "Study notes for Branches Of Government with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -1,6 +1,6 @@
 ---
 
-title: "Reading and Writing | SAT - Wyatt's Notes"
+title: "Reading and Writing"
 date: 2026-05-30
 description: "Study notes for Reading and Writing with worked examples, practice problems, and key concepts for exam preparation."
 tags:

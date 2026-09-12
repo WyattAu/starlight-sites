@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Email And App Protocols | Networking"
+title: "Email And App Protocols"
 description: "This section covers email and app protocols concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

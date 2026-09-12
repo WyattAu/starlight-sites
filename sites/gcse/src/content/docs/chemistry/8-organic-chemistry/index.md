@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Organic Chemistry | GCSE - Wyatt's Notes"
+title: "Organic Chemistry"
 description: "This section covers organic chemistry concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Mit License | Licensing - Wyatt's Notes"
+title: "Mit License"
 description: "Study notes for Mit License with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

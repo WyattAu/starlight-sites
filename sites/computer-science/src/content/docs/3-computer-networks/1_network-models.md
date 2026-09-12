@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Network Models | Computer Science"
+title: "Network Models"
 tags:
   - Computing
   - University

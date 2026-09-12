@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Natural Selection | AP - Wyatt's Notes"
+title: "Natural Selection"
 description: "This section covers natural selection concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: "Definitions | Tools - Wyatt's Notes"
+title: "Definitions"
 description: "Measure-theoretic definitions for probabilistic ML: sigma-algebras, random elements, Lebesgue integration, convergence, kernels, information geometry."
 date: 2026-01-15T09:31:35.184Z
 tags:

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Authentication | Security - Wyatt's Notes"
+title: "Authentication"
 description: "This section covers authentication concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

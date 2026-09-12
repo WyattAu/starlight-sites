@@ -1,6 +1,6 @@
 ---
 
-title: "Coursework Guide | A-Level - Wyatt's Notes"
+title: "Coursework Guide"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 14
 tags:

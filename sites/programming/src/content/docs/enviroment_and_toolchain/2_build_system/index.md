@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "2_build_system | Programming - Wyatt's Notes"
+title: "2_build_system"
 description: "This section covers 2_build_system concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

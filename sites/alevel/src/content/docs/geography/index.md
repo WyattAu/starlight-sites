@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "A-Level Geography - Wyatt's Notes"
+title: "A-Level Geography"
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography]

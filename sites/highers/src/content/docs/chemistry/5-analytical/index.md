@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Analytical | Highers - Wyatt's Notes"
+title: "Analytical"
 description: "This section covers analytical concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

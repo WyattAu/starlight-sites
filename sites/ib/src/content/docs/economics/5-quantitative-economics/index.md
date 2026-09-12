@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Quantitative Economics | IB - Wyatt's Notes"
+title: "Quantitative Economics"
 description: "This section covers quantitative economics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Inequalities | DSE - Wyatt's Notes"
+title: "Inequalities"
 description: "An inequality states that one expression is greater than or less than another. Inequalities arise when finding the and of functions, and are closely related"
 date: 2025-06-03T16:21:00.000Z
 tags:

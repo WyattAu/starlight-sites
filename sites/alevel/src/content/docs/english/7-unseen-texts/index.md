@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Unseen Texts | A-Level - Wyatt's Notes"
+title: "Unseen Texts"
 description: "This section covers unseen texts concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

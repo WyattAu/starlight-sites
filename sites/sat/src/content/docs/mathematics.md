@@ -1,6 +1,6 @@
 ---
 
-title: "Mathematics | SAT - Wyatt's Notes"
+title: "Mathematics"
 date: 2026-05-30
 description: "The Mathematics section of the digital SAT consists of across , split into two adaptive modules of 22 questions each (35 minutes per module). Approximately"
 tags:

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Web Security - Wyatt's Notes"
+title: "Web Security"
 description: "This section covers web security concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

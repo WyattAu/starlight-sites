@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "System Fundamentals | IB - Wyatt's Notes"
+title: "System Fundamentals"
 description: "This section covers system fundamentals concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

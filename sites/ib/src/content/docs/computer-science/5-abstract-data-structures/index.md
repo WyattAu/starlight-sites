@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Abstract Data Structures | IB - Wyatt's Notes"
+title: "Abstract Data Structures"
 description: "This section covers abstract data structures concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

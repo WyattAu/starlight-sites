@@ -1,6 +1,6 @@
 ---
 
-title: "Science Practice Questions | SAT"
+title: "Science Practice Questions"
 date: 2026-05-30
 tags:
   - SAT

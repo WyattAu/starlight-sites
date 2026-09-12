@@ -1,6 +1,6 @@
 ---
 
-title: "Argument | AP - Wyatt's Notes"
+title: "Argument"
 description: "Study notes for Argument with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-06-04T10:00:00.000Z
 tags:

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "3_compile_time_computation | C++"
+title: "3_compile_time_computation"
 description: "This section covers 3_compile_time_computation concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

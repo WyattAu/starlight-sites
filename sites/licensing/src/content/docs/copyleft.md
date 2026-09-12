@@ -1,5 +1,5 @@
 ---
-title: "Copyleft | Licensing - Wyatt's Notes"
+title: "Copyleft"
 description: "Study notes for Copyleft with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

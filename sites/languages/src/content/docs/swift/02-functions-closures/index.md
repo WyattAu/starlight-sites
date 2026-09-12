@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Functions Closures | Languages"
+title: "Functions Closures"
 description: "This section covers functions closures concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

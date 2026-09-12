@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Mechanics | Leaving Cert - Wyatt's Notes"
+title: "Mechanics"
 description: "This section covers mechanics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Best Practices | Python - Wyatt's Notes"
+title: "Best Practices"
 description: "This section provides study materials and resources for best practices. Browse the topics below to find the specific area you need to revise."
 date: 2026-01-01T00:00:00Z
 ---

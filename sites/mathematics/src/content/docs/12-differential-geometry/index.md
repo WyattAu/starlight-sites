@@ -4,7 +4,7 @@ sources:
   - text: Spivak - Calculus
 
 date: 2026-07-23T21:57:32+01:00
-title: "Differential Geometry | Mathematics"
+title: "Differential Geometry"
 description: "Topics in differential geometry including manifolds, tangent spaces, differential forms, Riemannian geometry, and curvature."
 tags:
   - Mathematics

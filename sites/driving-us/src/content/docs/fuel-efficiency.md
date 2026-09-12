@@ -1,5 +1,5 @@
 ---
-title: "Fuel Efficiency | Driving (US) - Wyatt's Notes"
+title: "Fuel Efficiency"
 description: "Study notes for Fuel Efficiency with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Modern Java | Languages - Wyatt's Notes"
+title: "Modern Java"
 description: "This section covers modern java concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

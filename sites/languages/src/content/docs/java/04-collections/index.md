@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Collections | Languages - Wyatt's Notes"
+title: "Collections"
 description: "This section covers collections concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "Object_oriented | Programming - Wyatt's Notes"
+title: "Object_oriented"
 description: "This section covers object_oriented concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

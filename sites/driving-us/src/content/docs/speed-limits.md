@@ -1,5 +1,5 @@
 ---
-title: "Speed Limits | Driving (US) - Wyatt's Notes"
+title: "Speed Limits"
 description: "Study notes for Speed Limits with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

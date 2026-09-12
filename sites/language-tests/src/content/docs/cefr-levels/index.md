@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Cefr Levels | language-tests - Wyatt's Notes"
+title: "Cefr Levels | language-tests"
 description: "This section covers cefr levels concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

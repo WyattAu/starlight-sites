@@ -1,5 +1,5 @@
 ---
-title: "Compliance | Licensing - Wyatt's Notes"
+title: "Compliance"
 description: "Study notes for Compliance with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

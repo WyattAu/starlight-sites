@@ -1,5 +1,5 @@
 ---
-title: "Highway Driving | Driving (US) - Wyatt's Notes"
+title: "Highway Driving"
 description: "Study notes for Highway Driving with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

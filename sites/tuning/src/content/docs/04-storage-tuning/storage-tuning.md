@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: "Storage Tuning - Wyatt's Notes"
+title: "Storage Tuning"
 description: "Study notes for Storage Tuning - Wyatt's Notes with worked examples and practice questions."
 ------------------- | ------------------ |"
 

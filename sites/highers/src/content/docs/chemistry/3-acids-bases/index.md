@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Acids Bases | Highers - Wyatt's Notes"
+title: "Acids Bases"
 description: "This section covers acids bases concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

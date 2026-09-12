@@ -1,5 +1,5 @@
 ---
-title: "About This Site | Tools - Wyatt's Notes"
+title: "About This Site"
 date: 2026-07-24
 description: "Wyatt's Notes provides comprehensive study materials for development tools. These notes cover version control, build systems, containerisation, CI/CD"
 tags:

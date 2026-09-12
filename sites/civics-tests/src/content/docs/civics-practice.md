@@ -1,5 +1,5 @@
 ---
-title: "Civics Practice | Civics Tests - Wyatt's Notes"
+title: "Civics Practice"
 description: "Study notes for Civics Practice with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

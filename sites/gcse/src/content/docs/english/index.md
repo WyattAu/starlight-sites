@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "GCSE English Literature - Wyatt's Notes"
+title: "GCSE English Literature"
 description: "GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires"
 date: 2026-04-22
 tags:

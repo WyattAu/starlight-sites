@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Electronic Band Structure | Physics"
+title: "Electronic Band Structure"
 tags:
   - Physics
   - University

@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "2_value_categories_and_move | Programming"
+title: "2_value_categories_and_move"
 description: "This section covers 2_value_categories_and_move concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

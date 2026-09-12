@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "IP Addressing | Networking - Wyatt's Notes"
+title: "IP Addressing"
 description: "IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in"
 tags:
   - Networking

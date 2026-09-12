@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Theory Test | driving-uk - Wyatt's Notes"
+title: "Theory Test | driving-uk"
 description: "This section covers theory test concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

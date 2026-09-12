@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Human Physiology | DSE - Wyatt's Notes"
+title: "Human Physiology"
 description: "This section covers human physiology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

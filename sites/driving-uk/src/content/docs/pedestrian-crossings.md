@@ -1,5 +1,5 @@
 ---
-title: "Pedestrian Crossings | Driving (UK) - Wyatt's Notes"
+title: "Pedestrian Crossings"
 description: "Study notes for Pedestrian Crossings with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

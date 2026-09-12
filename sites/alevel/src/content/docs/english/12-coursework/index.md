@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Coursework | A-Level - Wyatt's Notes"
+title: "Coursework"
 description: "This section covers coursework concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

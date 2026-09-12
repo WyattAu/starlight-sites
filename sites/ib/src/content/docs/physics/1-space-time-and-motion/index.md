@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Space Time And Motion | IB - Wyatt's Notes"
+title: "Space Time And Motion"
 description: "This section covers space time and motion concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

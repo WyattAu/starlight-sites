@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "AP US History - Wyatt's Notes"
+title: "AP US History"
 description: "This section covers ap us history concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

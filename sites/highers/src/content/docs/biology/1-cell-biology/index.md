@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Cell Biology | Highers - Wyatt's Notes"
+title: "Cell Biology"
 description: "This section covers cell biology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

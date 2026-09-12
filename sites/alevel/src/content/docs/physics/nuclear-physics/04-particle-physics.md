@@ -1,6 +1,6 @@
 ---
 
-title: "Particle Physics | A-Level - Wyatt's Notes"
+title: "Particle Physics"
 description: "ALEVEL Physics notes: Particle Physics. Comprehensive study material with definitions, examples, and assessment tools. particle physics study guide."
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]

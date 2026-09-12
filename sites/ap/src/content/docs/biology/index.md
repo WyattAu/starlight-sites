@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "AP Biology - Wyatt's Notes"
+title: "AP Biology"
 description: "This section covers ap biology concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

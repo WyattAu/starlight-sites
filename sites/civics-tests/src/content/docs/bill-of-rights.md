@@ -1,5 +1,5 @@
 ---
-title: "Bill Of Rights | Civics Tests - Wyatt's Notes"
+title: "Bill Of Rights"
 description: "Study notes for Bill Of Rights with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

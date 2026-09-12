@@ -1,7 +1,7 @@
 ---
 
 
-title: "Coordinates and Geometry | A-Level"
+title: "Coordinates and Geometry"
 description: "Study notes for Coordinates and Geometry | A-Level with worked examples and practice questions."
 ---------- | ------- | ---------------------------------------- | | AQA | Paper 1 | Straight lines, circles | | Edexcel | P1 |"
 date: 2025-06-02T16:25:28.480Z

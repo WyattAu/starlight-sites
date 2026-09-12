@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Basic Economic Concepts | DSE - Wyatt's Notes"
+title: "Basic Economic Concepts"
 description: "This section covers basic economic concepts concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

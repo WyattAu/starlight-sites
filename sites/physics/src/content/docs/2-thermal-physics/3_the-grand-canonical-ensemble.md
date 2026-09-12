@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "The Grand Canonical Ensemble | Physics"
+title: "The Grand Canonical Ensemble"
 tags:
   - Physics
   - University

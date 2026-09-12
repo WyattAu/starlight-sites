@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Algorithms | Leaving Cert - Wyatt's Notes"
+title: "Algorithms"
 description: "This section covers algorithms concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

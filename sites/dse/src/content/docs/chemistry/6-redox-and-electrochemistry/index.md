@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Redox And Electrochemistry | DSE"
+title: "Redox And Electrochemistry"
 description: "This section covers redox and electrochemistry concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "1_class_design | Programming - Wyatt's Notes"
+title: "1_class_design"
 description: "This section covers 1_class_design concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

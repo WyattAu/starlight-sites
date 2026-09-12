@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "International Trade | DSE - Wyatt's Notes"
+title: "International Trade"
 description: "This section covers international trade concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

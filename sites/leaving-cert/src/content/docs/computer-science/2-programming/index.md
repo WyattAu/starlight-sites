@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Programming | Leaving Cert - Wyatt's Notes"
+title: "Programming"
 description: "This section covers programming concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

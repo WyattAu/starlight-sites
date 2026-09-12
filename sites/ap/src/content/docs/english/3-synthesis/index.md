@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Synthesis | AP - Wyatt's Notes"
+title: "Synthesis"
 description: "This section covers synthesis concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

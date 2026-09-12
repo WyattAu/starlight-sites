@@ -1,7 +1,7 @@
 ---
 
 
-title: "Further Pure Mathematics 1 | A-Level"
+title: "Further Pure Mathematics 1"
 description: "Study notes for Further Pure Mathematics 1 | A-Level with worked examples and practice questions."
 ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,"
 date: 2026-05-31

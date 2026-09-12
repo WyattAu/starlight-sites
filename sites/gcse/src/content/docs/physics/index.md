@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "GCSE Physics - Wyatt's Notes"
+title: "GCSE Physics"
 description: "This section covers gcse physics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

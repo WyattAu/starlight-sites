@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "2_pointers_references_views | Programming"
+title: "2_pointers_references_views"
 description: "This section covers 2_pointers_references_views concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

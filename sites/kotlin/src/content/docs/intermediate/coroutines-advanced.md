@@ -1,6 +1,6 @@
 ---
 
-title: "coroutines advanced | Kotlin - Wyatt's Notes"
+title: "coroutines advanced"
 date: 2026-05-30
 tags:
   - Kotlin

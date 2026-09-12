@@ -3,7 +3,7 @@
 sources:
   - text: Standard textbook reference
 
-title: "AP Statistics - Wyatt's Notes"
+title: "AP Statistics"
 description: "This section covers ap statistics concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-04-14
 tags:

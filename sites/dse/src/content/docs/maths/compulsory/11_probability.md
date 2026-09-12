@@ -1,5 +1,5 @@
 ---
-title: "Probability | DSE - Wyatt's Notes"
+title: "Probability"
 description: "Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability"
 date: 2025-06-03T12:07:31.077Z
 tags:

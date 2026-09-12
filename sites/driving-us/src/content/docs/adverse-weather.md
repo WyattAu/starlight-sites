@@ -1,5 +1,5 @@
 ---
-title: "Adverse Weather | Driving (US) - Wyatt's Notes"
+title: "Adverse Weather"
 description: "Study notes for Adverse Weather with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -1,6 +1,6 @@
 ---
 
-title: "Physical Chemistry | A-Level - Wyatt's Notes"
+title: "Physical Chemistry"
 description: "Study notes for Physical Chemistry with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-05-31T00:00:00.000Z
 tags:

@@ -2,7 +2,7 @@
 
 
 date: 2026-07-23T21:57:32+01:00
-title: "Assessment | IB - Wyatt's Notes"
+title: "Assessment"
 description: "Study notes for Assessment | IB - Wyatt's Notes with worked examples and practice questions."
 ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |"
 ---

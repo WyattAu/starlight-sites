@@ -2,7 +2,7 @@
 
 sources:
   - text: McConnell - Code Complete
-title: "3_coroutines_and_async_io | Programming"
+title: "3_coroutines_and_async_io"
 description: "This section covers 3_coroutines_and_async_io concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

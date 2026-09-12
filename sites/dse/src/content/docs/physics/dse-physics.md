@@ -1,5 +1,5 @@
 ---
-title: "DSE Physics - Wyatt's Notes"
+title: "DSE Physics"
 description: "Study notes for DSE Physics with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-23T00:00:00.000Z
 tags:

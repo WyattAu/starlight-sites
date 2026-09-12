@@ -4,7 +4,7 @@ sources:
   - text: Standard textbook reference
 
 date: 2026-07-23T21:57:32+01:00
-title: "Nuclear & Quantum Physics | A-Level"
+title: "Nuclear & Quantum Physics"
 description: "This section covers nuclear & quantum physics concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:

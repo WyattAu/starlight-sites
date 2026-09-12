@@ -1,5 +1,5 @@
 ---
-title: "Creative Commons | Licensing - Wyatt's Notes"
+title: "Creative Commons"
 description: "Study notes for Creative Commons with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

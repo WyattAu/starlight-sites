@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Heat Matter | Highers - Wyatt's Notes"
+title: "Heat Matter"
 description: "This section covers heat matter concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

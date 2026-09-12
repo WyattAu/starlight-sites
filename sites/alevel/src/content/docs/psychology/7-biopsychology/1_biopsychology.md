@@ -1,6 +1,6 @@
 ---
 
-title: "Biopsychology | A-Level - Wyatt's Notes"
+title: "Biopsychology"
 date: 2026-05-12T00:00:00.000Z
 tags:
   - alevel

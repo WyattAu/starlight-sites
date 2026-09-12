@@ -1,6 +1,6 @@
 ---
 
-title: "Tudor England 1485-1603 | A-Level"
+title: "Tudor England 1485-1603"
 date: 2026-05-21T00:00:00.000Z
 tags:
   - alevel

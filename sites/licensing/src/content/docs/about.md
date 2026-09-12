@@ -1,5 +1,5 @@
 ---
-title: "About This Site | licensing - Wyatt's Notes"
+title: "About This Site"
 date: 2026-07-24
 description: "About Wyatt's Notes Licensing resources — experience, expertise, and credentials behind software licensing study materials."
 tags:

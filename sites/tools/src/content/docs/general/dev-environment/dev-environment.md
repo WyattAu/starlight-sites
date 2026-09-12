@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Development Environment Setup | Tools"
+title: "Development Environment Setup"
 description: "Study notes for Development Environment Setup with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

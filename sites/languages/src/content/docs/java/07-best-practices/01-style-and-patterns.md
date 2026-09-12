@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Style and Patterns | Languages"
+title: "Style and Patterns"
 description: "Study notes for Style and Patterns with worked examples, practice problems, and key concepts for exam preparation."
 categories: ["java"]
 ---

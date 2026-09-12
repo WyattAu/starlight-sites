@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: "Electric charge | CBSE - Wyatt's Notes"
+title: "Electric charge"
 description: "Study notes for Electric charge with worked examples, practice problems, and key concepts for exam preparation."
 ---
 

@@ -2,7 +2,7 @@
 
 sources:
   - text: Standard textbook reference
-title: "Http Https | Networking - Wyatt's Notes"
+title: "Http Https"
 description: "This section covers http https concepts, definitions, and applications with worked examples and practice problems."
 date: 2026-01-01T00:00:00Z
 ---

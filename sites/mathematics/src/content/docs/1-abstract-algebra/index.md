@@ -4,7 +4,7 @@ sources:
   - text: Spivak - Calculus
 
 date: 2026-07-23T21:57:32+01:00
-title: "Abstract Algebra | Mathematics"
+title: "Abstract Algebra"
 tags:
   - Mathematics
   - University

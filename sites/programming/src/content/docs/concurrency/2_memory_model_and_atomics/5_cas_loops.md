@@ -1,6 +1,6 @@
 ---
 
-title: "Compare-and-Swap (CAS) Loops | Programming"
+title: "Compare-and-Swap (CAS) Loops"
 description: "Study notes for Compare-and-Swap (CAS) Loops with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-04-03T00:00:00.000Z
 tags:
