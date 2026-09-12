@@ -131,3 +131,45 @@ tags: [glossary]
 
 - See [Driving UK Glossary](../../../../typescript/src/content/docs/glossary) for UK Highway Code terms
 - See [Driving US Glossary](../../../../typescript/src/content/docs/glossary) for US DMV test terms
+
+
+## Convention and Licensing
+
+**Vienna Convention (1968)**: The treaty harmonising road signs, signals, and rules across most European countries; the source of the triangular-warning, circular-prohibition, rectangular-information system.
+
+**Geneva Convention (1949)**: The earlier road treaty still referenced for international driving permits.
+
+**International Driving Permit (IDP)**: The translation document accompanying a national licence for driving abroad; issued under the 1949 or 1968 conventions.
+
+**EU Licence Model**: The harmonised credit-card licence (categories AM, A, B, C, D with sub-classes) valid across all member states.
+
+**Novice Driver Period**: Several countries apply probationary rules (zero alcohol, power limits) for the first two licensed years.
+
+## Common Sign Vocabulary
+
+**Priorite a droite (Priority to the right)**: The default rule in France and Belgium at unmarked junctions — traffic from the right has priority.
+
+**Zone 30**: The urban 30 km/h zone marked by a sign naming the zone rather than repeated speed signs.
+
+**Environmental Zone (Umweltzone/Ulez-type)**: Low-emission city areas requiring a windshield sticker or charge; Germany's green sticker and London's ULEZ are examples.
+
+**Radar Trap Warning**: In many countries portable warning signs for automated speed enforcement; fines vary by national scale.
+
+**Toll Systems**: Vignette (time-based sticker, e.g., Austria, Switzerland) versus per-kilometre electronic tolling (e.g., Hungary's e-vignette, Portugal's electronic-only lanes).
+
+
+## Rules of the Road
+
+**Priority Road**: Roads marked with the yellow diamond sign — traffic on them has priority at every junction until the sign is cancelled.
+
+**Built-Up Area**: The zone between white rectangular name signs; the default urban speed limit (50 km/h, or 30 km/h in residential zones) applies.
+
+**Roundabout Priority**: Traffic already on the roundabout has priority in most countries; France's historic priorite-a-droite roundabouts are the rare exception, now mostly signed otherwise.
+
+**Overtaking Rules**: Overtake on the left on dual carriageways; solid white lines prohibit crossing; in the UK and Malta overtake on the right instead.
+
+**Alcohol Limits**: 0.0 g/l in Hungary, Slovakia, Czechia, and Estonia for all drivers; most others 0.5 g/l with lower novice limits — check per country.
+
+**Winter Tyre Mandate**: Country-specific seasonal requirements — Austria and Germany situation-based (bei winterlichen Verhaltnissen), Finland and the Baltics date-based.
+
+**Headlamp Requirement**: Dipped beams mandatory in tunnel, rain, and poor visibility almost everywhere; Poland, Sweden, and the Baltics require them 24/7 year-round.

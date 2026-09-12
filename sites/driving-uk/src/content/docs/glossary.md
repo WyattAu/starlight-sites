@@ -149,3 +149,32 @@ tags: [glossary]
 
 - See [Driving US Glossary](../../../../typescript/src/content/docs/glossary) for US DMV test terms
 - See [Driving EU Glossary](../../../../typescript/src/content/docs/glossary) for European driving regulations
+
+
+## Licensing Terms
+
+**Provisional Licence**: The DVLA entry licence permitting driving with L plates under supervision; required before theory and practical tests.
+
+**Theory Test**: The DVSA multiple-choice plus hazard-perception examination; both sections must be passed in one sitting.
+
+**Hazard Perception Clip**: The CGI video segment where you click to flag developing hazards, scored on reaction timing windows.
+
+**Practical Test**: The 40-minute on-road DVSA exam including one reversing manoeuvre and 20 minutes of independent driving.
+
+**Show Me, Tell Me**: The vehicle-safety questions asked at the test's start (tell) and during driving (show) — five faults here count as one driving fault.
+
+**Pass Plus**: The post-test training scheme covering motorway, night, and all-weather driving; some insurers discount for completion.
+
+## Road Terms
+
+**Box Junction**: The yellow criss-cross markings; enter only if your exit is clear.
+
+**Zebra Crossing**: Pedestrian priority crossing; you must stop if pedestrians are waiting or crossing.
+
+**Pelican Crossing**: Signal-controlled crossing flashing amber after the red, permitting movement if the crossing is clear.
+
+**National Speed Limit**: 60 mph single carriageways and 70 mph dual carriageways/motorways for cars unless signed otherwise.
+
+**Single/Double Yellow Lines**: Single: no parking during posted hours. Double: no parking at any time.
+
+**Ministy of Transport Test (MOT)**: The annual roadworthiness inspection required for vehicles over three years old.

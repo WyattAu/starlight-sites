@@ -152,3 +152,24 @@ tags: [glossary]
 - See [University Chemistry Glossary](../../../../typescript/src/content/docs/glossary) for deeper chemistry
 - See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for CS fundamentals
 - See [University Admissions Glossary](../../../../typescript/src/content/docs/glossary) for university application process
+
+
+## Practical and Internal Assessment
+
+**Practical Notebook**: The CBSE-required record of laboratory experiments, viva questions, and diagrams, marked internally.
+
+**Internal Assessment**: The 20-mark component in science subjects combining periodic tests, notebook submission, and subject enrichment activities.
+
+**Board Examination**: The externally administered class 10 and class 12 examinations whose results drive stream and university admissions.
+
+**Competency-Based Questions**: The post-2020 question style testing application and case-study reasoning rather than recall; typically 30-50% of the paper.
+
+## Physics and Chemistry Terms
+
+**Resistivity**: The material property governing resistance of a conductor, rho = R A / L; distinct from resistance, which depends on geometry.
+
+**Molar Conductivity**: Conductance of a solution containing one mole of electrolyte per unit volume; increases with dilution.
+
+**EMF vs Terminal Voltage**: Cell EMF is the open-circuit potential difference; terminal voltage drops under current by the internal resistance loss.
+
+**Oxidation Number**: The formal charge assigned by electron-bookkeeping rules; changes identify redox couples in equations.

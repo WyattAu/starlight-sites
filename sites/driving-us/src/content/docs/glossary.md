@@ -141,3 +141,30 @@ tags: [glossary]
 
 - See [Driving UK Glossary](glossary) for UK Highway Code terms
 - See [Driving EU Glossary](glossary) for European driving regulations
+
+
+## Licensing Process Terms
+
+**Learner's Permit**: The entry-level credential allowing supervised driving; age and supervision rules vary by state.
+
+**Graduated Driver Licensing (GDL)**: The staged permit-intermediate-full licence system most states use for drivers under 18.
+
+**Provisional/Intermediate Licence**: The middle GDL stage: solo driving allowed with night-driving and passenger limits.
+
+**Road Test**: The behind-the-wheel examination scored on control, observation, and law compliance; instant-fail items typically include dangerous manoeuvres and examiner intervention.
+
+**Vision Screening**: The minimum acuity standard (commonly 20/40 with correction) required for unrestricted licensure.
+
+**REAL ID**: The federal-compliance standard for licences used as airport ID; marked licences require extra documents at issuance.
+
+## Right-of-Way Essentials
+
+**Uncontrolled Intersection**: No signals or signs; the driver on the left yields to the driver on the right (first-come, first-served otherwise).
+
+**T-Intersection**: Traffic on the terminating road yields to through traffic on the continuing road.
+
+**Four-Way Stop**: First to stop is first to go; simultaneous arrival yields to the vehicle on the right.
+
+**Left Turn Yield**: Vehicles turning left yield to oncoming traffic unless controlled by a green arrow.
+
+**Emergency Vehicle**: Pull over to the nearest edge and stop until it passes, regardless of direction of approach.

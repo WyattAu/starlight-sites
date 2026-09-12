@@ -146,3 +146,32 @@ tags: [glossary]
 - See [IB Glossary](glossary) for International Baccalaureate language requirements
 - See [Admissions Glossary](glossary) for university language requirements
 - See [SAT Glossary](glossary) for US college admissions testing
+
+
+## Framework Terms
+
+**Can-Do Statement**: A descriptor of what a learner can perform at a given CEFR level ("can describe experiences and events" for B1); exam tasks map directly onto them.
+
+**Washback**: The effect an exam's format has on teaching — positive washback encourages communicative practice, negative washback drills test tricks.
+
+**Band Score**: The IELTS 0-9 scale, reported in whole and half bands; writing and speaking use public descriptors.
+
+**Scaled Score**: TOEFL's 0-120 conversion of four 30-point sections; percentile meaning shifts by year's cohort.
+
+**Hanyu Shuiping Kaoshi (HSK) Levels**: The standardised Chinese proficiency ladder (HSK 1-6, plus the advanced 7-9 band); HSK 4 is the common university-entry threshold.
+
+**JLPT N-Levels**: Japanese proficiency graded N5 (basic) to N1 (advanced); no speaking or writing production sections — recognition only.
+
+**TOPIK Levels**: Korean proficiency (Level 1-6) split into TOPIK I (1-2) and TOPIK II (3-6).
+
+**DELE Levels**: The Spanish Instituto Cervantes diploma aligned one-to-one with CEFR A1-C2.
+
+## Exam-Technique Terms
+
+**Cloze Test**: Gap-fill measuring contextual vocabulary and grammar inference.
+
+**Listening Pre-Read**: Using preview time to predict answer types and synonyms before audio starts.
+
+**Speaking Prompt Card**: The cue card (IELTS Part 2) with one minute of preparation and two minutes of monitored talk.
+
+**Word Count Penalty**: Writing tasks penalise under-length responses; IELTS Task 2 requires at least 250 words.
