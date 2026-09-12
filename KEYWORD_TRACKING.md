@@ -635,3 +635,18 @@ Track 50+ target keywords across the 10 education sites in the starlight-sites m
 - Competitive head terms (1-2 words) target top 30 due to high competition from established sites
 - Long-tail keywords (3+ words) target top 10 where ranking potential is stronger
 - Exam-season keywords (past papers, revision) see 3-5x traffic spikes in March-May (UK/HK) and April-June (US)
+
+## Updating positions from GSC
+
+Export Search Console -> Performance -> Search results -> CSV, then run:
+
+```sh
+python3 scripts/gsc-ingest.py <export.csv> --property DSE          # one site
+python3 scripts/gsc-ingest.py <export.csv>                          # whole file
+python3 scripts/gsc-ingest.py <export.csv> --dry-run                # preview
+```
+
+Matching is exact-first, then substring (with an impressions noise floor
+of 10). Existing numeric positions are only replaced by strictly better
+ones, and each run appends a dated snapshot comment for history.
+
