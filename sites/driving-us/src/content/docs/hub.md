@@ -80,16 +80,16 @@ The written knowledge test is the first step toward getting your driver's licenc
 ### Topic Notes
 
 - [Written Test Overview](written-test) -- test format, question types, and scoring for all 50 states
-- [Study Strategies](written-test/study-strategies) -- how to use the driver handbook effectively
-- [Practice Test Formats](../../../../programming/src/content/docs/compilation_model/1_translation/4_binary_formats) -- multiple-choice, true/false, and combination formats
-- [Common Test Topics](written-test/common-topics) -- the concepts that appear on every state's test
+- Study strategies -- how to use the driver handbook effectively
+- [Practice Test Formats](written-test/practice-test) -- multiple-choice, true/false, and combination formats
+- Common Test Topics -- the concepts that appear on every state's test
 
 ### Practice and Review
 
-- [Flashcards: Written Test](flashcards-written-test)
-- [Practice Questions: Written Test](practice-written-test)
-- [State-Specific Practice Tests](practice-tests-state) -- tests tailored to your state's handbook
-- [Diagnostic Quizzes](written-test/diagnostics) -- identify your weak areas
+- [Practice Test](written-test/practice-test)
+- [Practice Test](written-test/practice-test)
+- [State-Specific Practice Tests](state-guides) -- tests tailored to your state's handbook
+- Diagnostic Quizzes -- identify your weak areas
 
 ### Key Test Focus
 
@@ -104,16 +104,16 @@ The US uses a system of road signs governed by the Manual on Uniform Traffic Con
 ### Topic Notes
 
 - [Road Signs Overview](road-signs) -- categories, MUTCD standards, and legal significance
-- [Warning Signs](road-signs/warning) -- diamond-shaped signs alerting you to hazards ahead
-- [Regulatory Signs](road-signs/regulatory) -- signs that impose legal requirements (speed limits, stop, yield)
-- [Guide and Information Signs](../../../../ib/src/content/docs/biology/diagnostics/diagnostic-guide) -- directional signs, distance markers, and services
-- [Construction and Work Zone Signs](road-signs/construction) -- orange signs for roadwork areas
-- [Pavement Markings](road-signs/markings) -- lines, arrows, crosswalks, and their meanings
+- [Warning Signs](signs/warning-signs) -- diamond-shaped signs alerting you to hazards ahead
+- [Regulatory Signs](signs/regulatory-signs) -- signs that impose legal requirements (speed limits, stop, yield)
+- [Guide Signs](signs/guide-signs) -- directional signs, distance markers, and services
+- [Traffic Signals](signs/traffic-signals) -- lights, arrows, and signal failures
+- [Pavement Markings](signs/pavement-markings) -- lines, arrows, crosswalks, and their meanings
 
 ### Practice and Review
 
-- [Flashcards: Road Signs](flashcards-road-signs)
-- [Practice Questions: Road Signs](practice-road-signs)
+- [Traffic Signs](written-test/traffic-signs)
+- [Practice Test](written-test/practice-test)
 
 ### Key Test Focus
 
@@ -129,15 +129,15 @@ Traffic laws vary by state but share common principles. The written test covers 
 
 - [Speed Limits](speed-limits) -- residential, school zone, highway, and construction zone limits
 - [Right of Way](rules/right-of-way) -- intersections, roundabouts, pedestrians, and emergency vehicles
-- [DUI and Impaired Driving](traffic-laws/dui) -- blood alcohol limits, implied consent, and penalties
-- [Seatbelt and Child Restraint Laws](traffic-laws/seatbelts) -- mandatory use, age requirements, and penalties
-- [Parking Laws](traffic-laws/parking) -- legal and illegal parking, handicapped spaces, and fire hydrants
-- [Sharing the Road](../../../../truenas/src/content/docs/02-sharing-and-permissions/sharing-and-permissions) -- cyclists, pedestrians, school buses, and large trucks
+- [DUI Laws](rules/dui-laws) -- blood alcohol limits, implied consent, and penalties
+- [Seatbelt Laws](rules/traffic-rules) -- mandatory use, age requirements, and penalties
+- [Parking Laws](parking-rules) -- legal and illegal parking, handicapped spaces, and fire hydrants
+Sharing the road covers cyclists, pedestrians, school buses, and large trucks -- each with their own right-of-way rules and blind-spot considerations.
 
 ### Practice and Review
 
-- [Flashcards: Traffic Laws](flashcards-traffic-laws)
-- [Practice Questions: Traffic Laws](practice-traffic-laws)
+- [Traffic Rules](rules/traffic-rules)
+- [Practice Test](written-test/practice-test)
 
 ### Key Test Focus
 
@@ -151,17 +151,17 @@ Beyond memorising rules, the written test assesses your understanding of safe dr
 
 ### Topic Notes
 
-- [Defensive Driving](safe-driving/defensive) -- the Smith System, space cushion, and scanning techniques
-- [Following Distance](safe-driving/following-distance) -- the 3-second rule and when to increase it
-- [Night Driving](safe-driving/night) -- headlight use, glare management, and reduced visibility
-- [Adverse Weather](safe-driving/weather) -- rain, snow, fog, and ice driving techniques
-- [Highway Driving](safe-driving/highway) -- merging, lane changes, and exit strategies
-- [Emergency Situations](safe-driving/emergency) -- brake failure, tyre blowouts, and skid recovery
+- [Defensive Driving](safe-driving/defensive-driving) -- the Smith System, space cushion, and scanning techniques
+- Following distance -- the 3-second rule and when to increase it
+- [Night Driving](night-driving) -- headlight use, glare management, and reduced visibility
+- [Adverse Weather](adverse-weather) -- rain, snow, fog, and ice driving techniques
+- [Highway Driving](safe-driving/highway-driving) -- merging, lane changes, and exit strategies
+- [Emergency Situations](emergency-procedures) -- brake failure, tyre blowouts, and skid recovery
 
 ### Practice and Review
 
-- [Flashcards: Safe Driving](flashcards-safe-driving)
-- [Practice Questions: Safe Driving](practice-safe-driving)
+- [Defensive Driving](defensive-driving)
+- [Practice Questions: Safe Driving](written-test/practice-test)
 
 ### Key Test Focus
 
@@ -175,16 +175,16 @@ Each state has its own driver handbook, licence classes, graduated licensing pro
 
 ### Topic Notes
 
-- [Graduated Licensing](state-specific/graduated) -- learner's permit, provisional licence, and full licence stages
-- [Licence Classes](../../../../java/src/content/docs/03-object-oriented/01-classes) -- Class C, Class D, motorcycle endorsements, and CDL
-- [Age Requirements](state-specific/age) -- minimum ages for permits, provisional licences, and full licences
-- [Vision Requirements](state-specific/vision) -- minimum visual acuity and correction standards
-- [State Handbooks](state-specific/handbooks) -- links to official driver handbooks for all 50 states
+- [GDL Stages](state-guides) -- learner's permit, provisional licence, and full licence stages
+Licence classes cover Class C (standard passenger vehicles), Class D, motorcycle endorsements, and commercial driver's licenses (CDL).
+- [State Guides](state-guides) -- minimum ages for permits, provisional licences, and full licences
+- Vision Requirements -- minimum visual acuity and correction standards
+- State Handbooks -- links to official driver handbooks for all 50 states
 
 ### Practice and Review
 
-- [State-Specific Flashcards](flashcards-state-specific)
-- [State-Specific Practice Tests](practice-tests-state)
+- [State-Specific Flashcards](state-guides)
+- [State-Specific Practice Tests](state-guides)
 
 ### Key Test Focus
 
@@ -198,15 +198,16 @@ The practical driving test assesses your ability to safely operate a vehicle in 
 
 ### Topic Notes
 
-- [Behind-the-Wheel Overview](behind-the-wheel) -- what examiners look for and common failure points
-- [Pre-Trip Inspection](behind-the-wheel/pre-trip) -- the vehicle safety check you must perform before driving
-- [Manoeuvres](../../../../driving-uk/src/content/docs/practical-test/driving-manoeuvres) -- parallel parking, three-point turns, and lane changes
-- [Road Test Routes](behind-the-wheel/routes) -- typical test routes and what to expect
-- [Common Failures](behind-the-wheel/failures) -- the mistakes that cause most test failures
+- [Behind-the-Wheel Overview](parallel-parking) -- what examiners look for and common failure points
+- Pre-trip inspection -- the vehicle safety check you must perform before driving
+- [Parallel Parking](parallel-parking) -- positioning, reference points, and spacing
+- [Three-Point Turn](three-point-turn) -- signal, mirror, and steering sequence
+- Road Test Routes -- typical test routes and what to expect
+- Common failures -- the mistakes that cause most test failures
 
 ### Practice and Review
 
-- [Flashcards: Behind-the-Wheel](flashcards-behind-the-wheel)
+- [Flashcards: Behind-the-Wheel](three-point-turn)
 
 ### Key Test Focus
 
@@ -365,3 +366,13 @@ This topic provides comprehensive coverage of the subject matter.
 
 Review the key concepts and practice regularly to master this topic.
 
+
+## State Guides
+
+State-by-state licensing guides cover ages, test formats, GDL restrictions, and official handbooks:
+
+- [State Guides Index](state-guides) -- how US licensing works, all guides
+- [California DMV](state-guides/california) -- permit at 15.5, 46-question test
+- [Texas DPS](state-guides/texas) -- permit at 15, ITD course
+- [Florida FLHSMV](state-guides/florida) -- TLSAE, 50-question test
+- [New York DMV](state-guides/new-york) -- junior licensing, NYC restrictions
